@@ -1,0 +1,61 @@
+---
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
+description: Informatie over de functie adobe.target.trackEvent(options) voor de Adobe Target-bibliotheek op .js JavaScript.
+title: Informatie over de functie adobe.target.trackEvent(options) voor de Adobe Target-bibliotheek op .js JavaScript.
+subtopic: Getting Started
+topic: Standard
+translation-type: tm+mt
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+
+---
+
+
+# adobe.target.trackEvent(options)
+
+Deze functie voert een verzoek in om gebruikersacties, zoals kliks en omzettingen te melden. Het levert geen activiteiten in de reactie.
+
+Deze gebeurtenis-volgende mbox vraag kan dan worden gebruikt om metriek in activiteiten te bepalen. Voor meer informatie, zie de Metriek [van het](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) Succes en de Omzettingen [van het](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)Spoor.
+
+Hier volgen de API-details:
+
+| Sleutel | Type | Vereist | Beschrijving |
+|--- |--- |--- |--- |
+| mbox | String | Ja | Naam van vak |
+| kiezer | String | Nee | CSS-kiezers die worden gebruikt om de HTML-elementen te zoeken. De gebeurtenislisteners worden aan gevonden elementen gekoppeld. |
+| type | String | Nee | Vertegenwoordigt een geregistreerd gebeurtenistype. Dit kunnen beide bekende HTML-gebeurtenissen zijn, zoals: klikken, mousedown, enz., evenals de gebeurtenissen van douaneHTML. |
+| preventDefault | Boolean | Nee | Geeft aan of moet worden gebruikt `event.preventDefault()` in de callback van de gebeurtenislistener. De standaardwaarde is false.<br>**Opmerking **: Alleen`form[submit] and `[klikken]wordt ondersteund. Andere scenario&#39;s worden niet gesteund wegens ingewikkeldheid en enorme hoeveelheid te steunen scenario&#39;s. |
+| param | Object | Nee | Mbox-parameters. Een object van sleutelwaardeparen met de volgende structuur:<br>`{ "param1": "value1", "param2": "value2"}` |
+| timeout | Getal | Nee | Time-out in milliseconden.<br>Indien niet opgegeven, wordt de standaardwaarde gebruikt:<br>`...timeoutInSeconds: 0.15...}` |
+| succes | -functie | Nee | Een callback-functie die wordt gebruikt om aan te geven dat de gebeurtenis is gerapporteerd. |
+| fout | -functie | Nee | Een callback-functie die wordt gebruikt om aan te geven dat de gebeurtenis niet kon worden gerapporteerd. |
+
+## Voorbeeld
+
+```
+<a href="https://asite.com">click me!</a> 
+```
+
+plus JavaScript-code die moet worden toegewezen `trackEvent`:
+
+```
+<script> 
+$('a').click(function(event){ 
+  adobe.target.trackEvent({'mbox':'homePageHero'}) 
+}); 
+</script> 
+```
+
+Of:
+
+```
+adobe.target.trackEvent({ 
+    "mbox": "clicked-cta", 
+    "params": { 
+        "param1": "value1" 
+    } 
+});
+```
+
+>[!NOTE]
+>
+>Als de verplichte velden niet zijn ingesteld, wordt geen aanvraag uitgevoerd en wordt een fout gegenereerd.
