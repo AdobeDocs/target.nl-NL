@@ -1,0 +1,66 @@
+---
+keywords: qa;server side;server-side;preview;preview links
+description: Gebruik QA URLs met server-zijlevering om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
+title: Activiteit QA met levering aan de serverzijde gebruiken
+topic: Advanced,Standard,Classic
+uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
+translation-type: tm+mt
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+
+---
+
+
+# Activiteit QA met levering aan de serverzijde gebruiken{#use-activity-qa-with-server-side-delivery}
+
+Gebruik QA URLs met server-zijlevering om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
+
+De standaardimplementatie van Activiteit QA steunt het overgaan van `qa_mode` parameters via `pageUrl` mbox parameters. Deze benadering is geschikt voor standaard/ajax mbox vraag. Nochtans, voor server-aan-server vraag, is dit niet de beste benadering voor een Mobiel geval van SDK wanneer niet beschikbaar `pageUrl` is.
+
+Het volgende codevoorbeeld toont Activiteit QA in een server-zijvraag:
+
+```
+{
+  "mbox" : "orderConfirmPage",
+  "clientSideAnalyticsLogging": true,
+  "clicked" : true,
+  "tntId" : "12121212.17_01",
+  "order" : {
+    ...
+  },
+  "profileParameters" : {
+    ...
+  },
+  "mboxParameters" : {
+    ...
+  },
+  "requestLocation" : {
+    ...
+  },
+  "qaMode" : {
+    "token" : "<encrypted token string>",
+    "bypassEntryAudience" : true,
+    "listedActivitiesOnly" : true,
+    "evaluateAsTrueAudienceIds" : [audienceId1, audienceId2...],
+    "evaluateAsFalseAudienceIds" : [audienceId3, audienceId4...],
+    "previewIndexes" : [
+       {
+         "activityIndex" : 1,
+         "experienceIndex" : 1
+       }
+     ],
+  },
+  "mboxTrace" : true
+}
+```
+
+In de volgende tabel worden de details van een verzoek op de server uitgelegd:
+
+| Parameter | Type | Standaardwaarde | Beschrijving |
+|--- |--- |--- |--- |
+| token | Versleuteld token | Geen.<br>Het mag niet leeg zijn. | Een gecodeerde entiteit die de lijst met activiteit-id&#39;s bevat die mogen worden uitgevoerd in activiteit QA.<br>Validatieregels: Dit moet een gecodeerde token zijn die hoort bij de client die is opgegeven in de mbox-aanvraag. Alle activiteiten die in het token worden opgegeven, moeten bij de client horen. |
+| bypassEntryAudience | Boolean | Onwaar | Geeft aan of invoerstapdoelstellingen voor kwaliteitskwaliteitskwaliteitsbeoordelingen moeten worden geëvalueerd of dat deze als overeenkomend moeten worden beschouwd. |
+| listActivityOnly | Boolean | Onwaar | Geeft aan of QA-activiteiten afzonderlijk moeten worden uitgevoerd of als ze moeten worden beoordeeld als actieve activiteiten voor de huidige omgeving. |
+| evaluateAsTrueAudienceIds | Lijst met id&#39;s | Lege lijst. | Lijst met publiek-id&#39;s die altijd als true moeten worden geëvalueerd in het bereik van het mbox-verzoek. |
+| evaluateAsFalseAudienceIds | Lijst met id&#39;s | Lege lijst. | Lijst met publiek-id&#39;s die altijd als onwaar moeten worden beoordeeld in het bereik van het mbox-verzoek. |
+| activityIndex | Geheel | Null.<br>Het mag niet leeg zijn. | Index van de activiteit in het gecodeerde token. Als activityIndex zich buiten de grenzen van de activiteit in het token bevindt of als deze null is, wordt deze genegeerd. Index begint met 1.<br>Validatieregels: Moet ten minste één activiteitenindex zijn en moet verwijzen naar een activiteit die in de token is opgegeven. |
+| experienceIndex | Geheel | Null. | Wanneer opgegeven, wordt een ervaring op index geselecteerd in de activiteitdefinitie. Als deze optie niet wordt opgegeven of buiten de grenzen valt, wordt de selectiestrategie van de activiteit hersteld. Index begint met 1 validatieregels: Kan null zijn of moet verwijzen naar een ervaring in de activiteit. |
