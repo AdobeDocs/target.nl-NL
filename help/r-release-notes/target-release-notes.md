@@ -5,7 +5,7 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 Deze versienota&#39;s verstrekken informatie over eigenschappen, verhogingen, en moeilijke situaties voor de recentste of aanstaande [!DNL Adobe Target] versies.
 
-**Laatst bijgewerkt: 9 maart 2020**
+**Laatst bijgewerkt: 20 maart 2020**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Deze versienota&#39;s verstrekken informatie over eigenschappen, verhogingen, en
    Door alle klanten naar at.js te verplaatsen, kunnen onze technici en ondersteunend personeel u nieuwe functionaliteit bieden en de ondersteuning bieden die u van Adobe hebt verwacht.
 
 
-## Target Standard/Premium 20.2.1 (17 maart 2020)
+## Target Standard/Premium 20.2.1 (23 maart 2020)
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Geïmplementeerde veiligheidsverbeteringen aan het Beleid van de Veiligheid van de Inhoud (CSP). (TGT-36190)
 * Probleem verholpen waarbij &quot;NaN%&quot; werd weergegeven wanneer de percentagebalk voor kenmerkweging naar links werd verschoven. (TGT-36211)
 * Opgeloste lokalisatieproblemen zodat de UI-tekst in verschillende talen correct wordt weergegeven.
-* De volgende Adobe Analytics-meetgegevens worden niet meer ondersteund voor Analytics for Target (A4T) die van kracht zijn met de Target-versie van maart 2020:
-   * averagevisitdepth
-   * bots
-* De volgende metriek worden niet meer gesteund en automatisch omgezet in nieuwe versies van metrisch wanneer een gebruiker een activiteit wijzigt die metrisch bevat:
+* We hebben de lijst met beschikbare meetgegevens van Adobe Analytics for Target (A4T)-activiteiten gestandaardiseerd door de meetgegevens van Adobe Analytics af te drukken die niet worden ondersteund in de huidige versie van Adobe Analytics API&#39;s. Hierdoor kunnen we onze A4T-ondersteuning uitbreiden in toekomstige versies van Adobe Target.
 
-   | Vervangen metrisch | Nieuwe metrisch |
+   De volgende wijzigingen zijn aangebracht:
+
+   * &quot;Gemiddelde tijd die op pagina wordt besteed&quot; is vervangen door &quot;Gemiddelde tijd die ter plekke wordt besteed.&quot; Om het even welke activiteiten die dit als metrisch metrisch het Primaire Metrische Doel gebruiken zullen &quot;Gemiddelde Tijd die op Plaats wordt uitgegeven&quot;hebben (nota: (gemeten in minuten in plaats van seconden) geselecteerd als Primair doel Metrisch wanneer de activiteit de volgende keer wordt bewerkt.
+   * &quot;Bezoekers&quot; is vervangen door &quot;Unieke Bezoekers&quot;. Voor alle activiteiten waarbij deze metrische waarde wordt gebruikt als &#39;Primaire Goal Metric&#39;, worden &#39;Unieke bezoekers&#39; geselecteerd als &#39;Primaire Goal Metric&#39; wanneer de activiteit de volgende keer wordt bewerkt.
+
+* De volgende metriek zijn afgekeurd en kunnen niet meer worden geselecteerd als Primair doel Metrisch wanneer het creëren van een nieuwe activiteit A4T.
+
+   | Vervangen metrisch(e) | Voorgestelde vervangende metrische(n) |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (opmerking: gemeten in minuten in plaats van seconden) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Dagelijkse Bezoekers, Uur Bezoekers, Maandelijkse Bezoekers, Driemaandelijkse Bezoekers, Wekelijkse Bezoekers, Jaarlijkse Bezoekers | Unieke bezoekers |
+   | Gemiddelde visdiepte | n.v.t. Niet voorgesteld als primair doel metrisch |
+   | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
+   | Snelheid bij vastlopen van mobiele apparaten, Mobile Avg vorige sessielengte, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
