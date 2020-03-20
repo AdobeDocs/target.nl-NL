@@ -5,7 +5,7 @@ title: 'Opmerkingen bij de release Adobe Target (huidig) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -44,7 +44,7 @@ De Adobe-top is een virtuele gebeurtenis geworden! Adobe haalt alle stops uit da
 
 Als u zich wilt registreren voor gratis toegang tot de gehele digitale gebeurtenis, gaat u naar [de Digital Experience Conference: De pagina van de top](https://www.adobe.com/summit.html) .
 
-## Target Standard/Premium 20.2.1 (17 maart 2020)
+## Target Standard/Premium 20.2.1 (23 maart 2020)
 
 >[!IMPORTANT]
 >
@@ -57,40 +57,43 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Geïmplementeerde veiligheidsverbeteringen aan het Beleid van de Veiligheid van de Inhoud (CSP). (TGT-36190)
 * Probleem verholpen waarbij &quot;NaN%&quot; werd weergegeven wanneer de percentagebalk voor kenmerkweging naar links werd verschoven. (TGT-36211)
 * Opgeloste lokalisatieproblemen zodat de UI-tekst in verschillende talen correct wordt weergegeven.
-* De volgende Adobe Analytics-meetgegevens worden niet meer ondersteund voor Analytics for Target (A4T) die van kracht zijn met de Target-versie van maart 2020:
-   * averagevisitdepth
-   * bots
-* De volgende metriek worden niet meer gesteund en automatisch omgezet in nieuwe versies van metrisch wanneer een gebruiker een activiteit wijzigt die metrisch bevat:
+* We hebben de lijst met beschikbare meetgegevens van Adobe Analytics for Target (A4T)-activiteiten gestandaardiseerd door de meetgegevens van Adobe Analytics af te drukken die niet worden ondersteund in de huidige versie van Adobe Analytics API&#39;s. Hierdoor kunnen we onze A4T-ondersteuning uitbreiden in toekomstige versies van Adobe Target.
 
-   | Vervangen metrisch | Nieuwe metrisch |
+   De volgende wijzigingen zijn aangebracht:
+
+   * &quot;Gemiddelde tijd die op pagina wordt besteed&quot; is vervangen door &quot;Gemiddelde tijd die ter plekke wordt besteed.&quot; Om het even welke activiteiten die dit als metrisch metrisch het Primaire Metrische Doel gebruiken zullen &quot;Gemiddelde Tijd die op Plaats wordt uitgegeven&quot;hebben (nota: (gemeten in minuten in plaats van seconden) geselecteerd als Primair doel Metrisch wanneer de activiteit de volgende keer wordt bewerkt.
+   * &quot;Bezoekers&quot; is vervangen door &quot;Unieke Bezoekers&quot;. Voor alle activiteiten waarbij deze metrische waarde wordt gebruikt als &#39;Primaire Goal Metric&#39;, worden &#39;Unieke bezoekers&#39; geselecteerd als &#39;Primaire Goal Metric&#39; wanneer de activiteit de volgende keer wordt bewerkt.
+
+* De volgende metriek zijn afgekeurd en kunnen niet meer worden geselecteerd als Primair doel Metrisch wanneer het creëren van een nieuwe activiteit A4T.
+
+   | Vervangen metrisch(e) | Voorgestelde vervangende metrische(n) |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (opmerking: gemeten in minuten in plaats van seconden) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Dagelijkse Bezoekers, Uur Bezoekers, Maandelijkse Bezoekers, Driemaandelijkse Bezoekers, Wekelijkse Bezoekers, Jaarlijkse Bezoekers | Unieke bezoekers |
+   | Gemiddelde visdiepte | n.v.t. Niet voorgesteld als primair doel metrisch |
+   | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
+   | Snelheid bij vastlopen van mobiele apparaten, Mobile Avg vorige sessielengte, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
 
 ## Adobe Experience Cloud navigation (22 februari 2019)
 
 * Wanneer u zich bij het programma aanmeldt, gaat u naar de nieuwe koptekstnavigatie. [!DNL Adobe Experience Cloud] Het lijkt sterk op de vorige navigatie met de zwarte balk bovenaan, maar biedt de volgende verbeteringen:
 
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
-   * Verbeterde gebruikershulp: Zoekresultaten zijn resultaten uit de [!DNL Target] productdocumentatie, maar ook uit communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om optimaal te profiteren [!DNL Target]. We hebben ook een feedbackmechanisme toegevoegd in het [!UICONTROL Help] menu, waardoor het gemakkelijker wordt om problemen te melden of uw ideeën te delen.
+   * Verbeterde gebruikershulp: Zoekresultaten zijn resultaten uit de [!DNL Target] productdocumentatie, maar ook uit communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om optimaal te profiteren [!DNL Target]. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help] , waardoor het gemakkelijker wordt om problemen te melden of uw ideeën te delen.
 
    * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target] klanten op de bestemmingspagina geland nadat ze op het [!DNL Target] pictogram in de koptekst hadden geklikt. Op deze pagina konden klanten verder gaan met [!DNL Target Standard/Premium], [!DNL Search&Promote]of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
 
-      We hebben deze bestemmingspagina voor al onze klanten verwijderd. U wordt nu altijd rechtstreeks naar de [!UICONTROL Activities List] pagina geleid door op het [!DNL Target] pictogram in de nieuwe koptekstnavigatiebalk te klikken.
+      We hebben deze bestemmingspagina voor al onze klanten verwijderd. U wordt nu altijd rechtstreeks naar de pagina [!UICONTROL Activiteitenlijst] geleid door op het [!DNL Target] pictogram op de nieuwe koptekstnavigatiebalk te klikken.
 
-      Als u gebruikt [!DNL Recommendations Classic], kunt u of rechtstreeks naar de oplossing gaan of u kunt van de korte verbinding gaan die op het [!UICONTROL Recommendations] lusje wordt gecreeerd, zoals hieronder getoond:
+      Als u gebruikt [!DNL Recommendations Classic], kunt u of rechtstreeks naar de oplossing gaan of u kunt van de korte verbinding gaan die op het [!UICONTROL lusje van Aanbevelingen] wordt gecreeerd, zoals hieronder getoond:
 
       ![Klassieke koppeling opnieuw instellen](/help/r-release-notes/assets/recs-classic.png)
 
       Als u [!DNL Search&Promote]deze optie gebruikt, moet u rechtstreeks naar de URL [voor](https://center.atomz.com/center/?ims=1) zoeken en bevorderen (https://center.atomz.com/center/?ims=1) gaan. Het pad dat moet worden bereikt [!DNL Search&Promote] van binnenuit van [!DNL Adobe Target] is volledig verwijderd.
 
-   * Meldingen voor [!DNL Target] zijn momenteel niet beschikbaar in de [!UICONTROL Notifications] vervolgkeuzelijst in de koptekst.
+   * Meldingen voor [!DNL Target] zijn momenteel niet beschikbaar in de vervolgkeuzelijst [!UICONTROL Meldingen] in de koptekst.
    >[!NOTE]
    >
    >Tijdens de introductie van de nieuwe navigatiebalk zult u ook enkele URL-wijzigingen zien. Alle vorige bladwijzerkoppelingen werken nog steeds, maar we raden u aan nieuwe bladwijzerkoppelingen te maken om deze sneller te openen.
