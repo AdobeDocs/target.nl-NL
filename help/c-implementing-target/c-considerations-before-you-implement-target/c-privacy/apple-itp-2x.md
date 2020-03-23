@@ -5,7 +5,7 @@ title: Ondersteuning voor Adobe Target en Apple ITP
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -21,9 +21,9 @@ Deze versies van ITP bevatten de volgende beperkingen:
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Aangewezen cliënt-zijkoekjes die op browser gebruikend `document.cookie` API aan een vervaldatum van zeven dagen worden geplaatst.<br>Release van 21 februari 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Verminderde de 7-daagse vervalsingsdop drastisch tot één dag.<br>Release van 24 april 2019. |
 
-## Wat is de invloed op mij als Adobe Target-klant?
+## Wat is de invloed op mij als Adobe Target-klant? {#impact}
 
-[!DNL Target] biedt JavaScript-bibliotheken waarmee u inhoud op uw pagina&#39;s kunt implementeren, zodat uw bezoekers in real-time een persoonlijk tintje [!DNL Target] kunnen geven. Er zijn drie Target JavaScript-bibliotheken ([at.js 1.*x* en at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)en[mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) die[!DNL Target]cookies aan de clientzijde via de`document.cookie`API in de browsers van uw bezoekers plaatsen. Als gevolg hiervan worden[!DNL Target]cookies beïnvloed door ITP 2.1 en 2.2 van Apple en verlopen ze na zeven dagen (met ITP 2.1) en na één dag (met ITP 2.2).
+[!DNL Target] biedt JavaScript-bibliotheken waarmee u inhoud op uw pagina&#39;s kunt implementeren, zodat uw bezoekers in real-time een persoonlijk tintje [!DNL Target] kunnen geven. Er zijn drie Target JavaScript-bibliotheken ([at.js 1.x en at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)en [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) die cookies aan de clientzijde via de [!DNL Target] `document.cookie` API in de browsers van uw bezoekers plaatsen. Als gevolg hiervan worden [!DNL Target] cookies beïnvloed door ITP 2.1 en 2.2 van Apple en verlopen ze na zeven dagen (met ITP 2.1) en na één dag (met ITP 2.2).
 
 De invloed van Apple ITP 2.1 en 2.1 [!DNL Target] op de volgende gebieden:
 
@@ -31,6 +31,8 @@ De invloed van Apple ITP 2.1 en 2.1 [!DNL Target] op de volgende gebieden:
 | --- | --- |
 | Mogelijke toename van het aantal unieke bezoekers | Aangezien het verloopvenster is ingesteld op zeven dagen (met ITP 2.1) en één dag (met ITP 2.2), kan het zijn dat er een toename is van unieke bezoekers die uit Safari-browsers komen. Als uw bezoekers uw domein na zeven dagen (ITP 2.1) of één dag (ITP 2.2) terugkeren, [!DNL Target] wordt gedwongen om een nieuwe [!DNL Target] koekje op uw domein in plaats van het verlopen koekje te plaatsen. Het nieuwe [!DNL Target] cookie wordt omgezet naar een nieuwe unieke bezoeker, ook al is de gebruiker hetzelfde. |
 | Verlaagde terugzoektijden voor [!DNL Target] activiteiten | Bezoekersprofielen voor [!DNL Target] activiteiten hebben mogelijk een kortere terugzoekperiode voor beslissingen. [!DNL Target] cookies worden gebruikt om een bezoeker te identificeren en gebruikersprofielkenmerken op te slaan voor personalisatie. Aangezien [!DNL Target] cookies na zeven dagen (ITP 2.1) of één dag (ITP 2.2) in Safari kunnen verlopen, kunnen de gegevens van het gebruikersprofiel die aan het gezuiverde [!DNL Target] cookie waren gekoppeld, niet worden gebruikt voor de besluitvorming. |
+| Profielscripts gebaseerd op 3rdPartyID | Aangezien het verloopvenster wordt ingesteld op zeven dagen (met ITP 2.1) en één dag (met ITP 2.2), werken [profielscripts](/help/c-target/c-visitor-profile/profile-parameters.md) die zijn gebaseerd op het cookie van de derde partijID niet meer na het verlopen. |
+| URL&#39;s met kwaliteitscontrole/voorvertoning op iOS-apparaten | Omdat het verloopvenster wordt geplaatst aan zeven dagen (met ITP 2.1) en één dag (met ITP 2.2), zullen [QA/Voorproef URLs](/help/c-activities/c-activity-qa/activity-qa.md) ophouden werkend na afloop omdat URLs op het cookie 3rdPartyID gebaseerd zijn. |
 
 ## Is mijn huidige implementatie van [!DNL Target] invloed?
 
