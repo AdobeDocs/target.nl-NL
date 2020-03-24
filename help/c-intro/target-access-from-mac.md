@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -25,23 +25,23 @@ Informatie over toegang [!DNL Adobe Target] van [!DNL Adobe Experience Cloud], h
 
    ![Doelpictogram](/help/c-intro/assets/appmenu-target-new.png)
 
-1. Click **[!UICONTROL Launch]** on the [!DNL Target] card.
+1. Klik op **[!UICONTROL Starten]** op de [!DNL Target] kaart.
 
    ![Doellancering](/help/c-intro/assets/target-launch-new.png)
 
-1. (Optioneel) Als u wilt instellen [!DNL Target] als de standaardweergave wanneer u zich aanmeldt bij de [!DNL Experience Cloud], klikt u **[!UICONTROL Edit Profile]** onder de profielavatar en stelt u de voorkeur voor de bestemmingspagina in.
+1. (Optioneel) Als u [!DNL Target] als standaardweergave wilt instellen wanneer u zich aanmeldt bij de [!DNL Experience Cloud], klikt u op Profiel **** bewerken onder de profielavatar en stelt u de voorkeur voor de bestemmingspagina in.
 
    ![Openingspagina](/help/c-intro/assets/pagepref-new.png)
 
 ## De standaardtaal voor de doelinterface wijzigen {#language}
 
-1. Nadat u zich hebt aangemeld bij de [!DNL Adobe Experience Cloud ] of [!DNL Target], klikt u op de profielavatar en vervolgens op **[!UICONTROL Edit Profile]**.
+1. Nadat u zich hebt aangemeld bij de [!DNL Adobe Experience Cloud ] of [!DNL Target], klikt u op de profielavatar en vervolgens op Profiel **** bewerken.
 
    ![Profiel bewerken](/help/c-intro/assets/change-language.png)
 
-1. Klik op **[!UICONTROL Edit Personal Information]**.
+1. Klik op Persoonlijke gegevens **[!UICONTROL bewerken]**.
 
-1. Klik op de **[!UICONTROL Communication]** tab in de bovenste menubalk.
+1. Klik op het tabblad **[!UICONTROL Communicatie]** in de bovenste menubalk.
 
    ![Voorkeurstalen](/help/c-intro/assets/prefered-language.png)
 
@@ -62,7 +62,7 @@ Informatie over toegang [!DNL Adobe Target] van [!DNL Adobe Experience Cloud], h
    * Traditioneel Chinees
    * Koreaans
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Opslaan]**.
 
 1. Log uit [!DNL Adobe Experience Cloud] of [!DNL Target], dan login opnieuw voor uw veranderingen om van kracht te worden.
 
@@ -101,4 +101,4 @@ Deze video bevat informatie over [!DNL Adobe Target] de video [!DNL Experience C
 * Uw doelaccount koppelen aan de Adobe Experience Cloud
 * Adobe Target instellen als de standaardbestemmingspagina
 
->[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM)
+>[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
