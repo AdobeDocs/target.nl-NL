@@ -5,7 +5,7 @@ title: Gemengde inhoud in uw browser inschakelen
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -40,7 +40,7 @@ Zie [Deze pagina bevat onveilige inhoud](https://support.google.com/chrome/answe
 
 Als u de VEC gebruikt met de nieuwste versie van Chrome (versie 79.0.3945.117 of hoger), moet u de site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 In de bovenstaande video worden de vereiste stappen beschreven:
 
@@ -69,12 +69,12 @@ Standaard blokkeert Firebox pagina&#39;s die beveiligde en onveilige inhoud meng
 
 Internet Explorer blokkeert standaard pagina&#39;s die beveiligde en onveilige inhoud mengen. U wordt aangeraden deze instelling permanent te wijzigen om Target te gebruiken.
 
-1. Klik in Internet Explorer op het pictogram Instellingen > **[!UICONTROL Internet Options]**.
-1. Open het [!UICONTROL Security] tabblad.
-1. Selecteer **[!UICONTROL Internet]** en klik op **[!UICONTROL Custom Level]**.
-1. Selecteer **[!UICONTROL Miscellaneous]**.
-1. Onder [!UICONTROL Miscellaneous], laat **[!UICONTROL Display Mixed Content]**. toe.
-1. Klik op **[!UICONTROL OK]** > **[!UICONTROL Yes]** > **[!UICONTROL Apply]**.
+1. Klik in Internet Explorer op het pictogram Instellingen > **[!UICONTROL Internetopties]**.
+1. Open het tabblad [!UICONTROL Beveiliging] .
+1. Selecteer **[!UICONTROL Internet]** en klik vervolgens op **[!UICONTROL Aangepast niveau]**.
+1. Selecteer **[!UICONTROL Diversen]**.
+1. Schakel onder [!UICONTROL Diversen]de optie **[!UICONTROL Gemengde inhoud]** weergeven in.
+1. Klik op **[!UICONTROL OK]** > **[!UICONTROL Ja]** > **[!UICONTROL Toepassen]**.
 
 We raden u aan de computer opnieuw op te starten nadat u deze instelling hebt gewijzigd.
 
