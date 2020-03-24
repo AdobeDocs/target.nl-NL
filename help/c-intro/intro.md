@@ -5,7 +5,7 @@ title: Inleiding tot Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig 
 
 De volgende video&#39;s bieden een basisinzicht in hoe Target, samen met andere oplossingen voor Adobe Experience Cloud, uw organisatie kan helpen haar doelstellingen te bereiken:
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 De [!DNL Adobe Target] oplossing bevat verschillende onderdelen:
 
@@ -30,7 +30,7 @@ De [!DNL Adobe Target] oplossing bevat verschillende onderdelen:
 
 ## Doelstandaard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] is een front-end aan [!DNL Adobe Target] dat u helpt om tests A/B en op regels-gebaseerde het richten activiteiten visueel tot stand te brengen en te beheren, en met de Cloud van de Ervaring van Adobe te verbinden. [!DNL Target Standard] ondersteunt aangepaste code-invoeging zowel in als uit de [!UICONTROL Visual Experience Composer] workflow. [!DNL Target Standard] biedt een vereenvoudigde implementatiestrategie met uw digitale eigenschappen: slechts één enkele lijn van code op elke pagina beheert alle communicatie vereiste tussen uw plaats en [!DNL Adobe Target].
+[!DNL Target Standard] is een front-end aan [!DNL Adobe Target] dat u helpt om tests A/B en op regels-gebaseerde het richten activiteiten visueel tot stand te brengen en te beheren, en met de Cloud van de Ervaring van Adobe te verbinden. [!DNL Target Standard] steunt de toevoeging van de douanecode zowel in als uit het werkschema van Composer van de [!UICONTROL Visuele Ervaring] . [!DNL Target Standard] biedt een vereenvoudigde implementatiestrategie met uw digitale eigenschappen: slechts één enkele lijn van code op elke pagina beheert alle communicatie vereiste tussen uw plaats en [!DNL Adobe Target].
 
 De beste praktijken van de industrie worden ingebouwd [!DNL Target Standard], en het wordt ontworpen om door zowel nieuwe als ervaren gebruikers te worden gebruikt. U kunt gegevens en resultaten delen en gemakkelijk met andere teamleden samenwerken die het gebruiken [!DNL Adobe Experience Cloud].
 
@@ -76,14 +76,14 @@ Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activi
 
 ### Aanbevelingen als voorstel
 
-[Met Aanbevelingen als een aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) kunt u aanbevelingen opnemen binnen [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten.
+[De aanbevelingen als aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) laten u aanbevelingen binnen [!UICONTROL A/B Test] (met inbegrip van [!UICONTROL Auto-Toewijzing] en [!UICONTROL Auto-Doel]) en [!UICONTROL Ervaring richten] (XT) activiteiten omvatten.
 
 Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 * Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.
 * Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.
-* Duw automatisch verkeer aan de best-presterende aanbevolen ervaring het gebruiken [!UICONTROL Auto-Allocate].
-* Wijs bezoekers dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun profiel [!UICONTROL Auto-Target].
+* Pers automatisch verkeer aan de best-presterende aanbevelingen ervaring gebruikend [!UICONTROL auto-Wijs].
+* Wijs bezoekers dynamisch toe aan op maat gemaakte aanbevelingen die op hun profiel worden gebaseerd gebruikend [!UICONTROL auto-Doel].
 
 ### Machtigingen voor zakelijke gebruikers
 
