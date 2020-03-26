@@ -5,7 +5,7 @@ title: details van de at.js-versie
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,6 +17,20 @@ Gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL 
 >[!IMPORTANT]
 >
 >Het team van het Doel steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
+
+## at.js versie 2.3.0 (25 maart 2020)
+
+Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:
+
+* Ondersteuning voor het instellen van Content Security Policy-nonces op SCRIPT- en STYLE-tags die aan het pagina-DOM zijn toegevoegd bij het toepassen van geleverde Target-aanbiedingen. Klanten kunnen de overeenkomstige script- en stijllabelnonces voor toegepaste aanbiedingen instellen `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce` zo instellen dat at.js deze kan instellen. Zie [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
+* Probleem opgelost bij het compileren van at.js met de Google Closure-compiler voor de implementatie van Google Tag Manager.
+* De naam van het controlecookie at.js is gewijzigd van `check` naar `at_check` om conflicten met de implementaties van klanten te voorkomen.
+
+## at.js versie 1.8.1 (25 maart 2020)
+
+Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:
+
+* De naam van het controlecookie at.js is gewijzigd van `check` naar `at_check` om conflicten met de implementaties van klanten te voorkomen.
 
 ## at.js versie 2.2.0 (10 oktober 2019)
 
@@ -322,7 +336,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
    Zie [at.js Configurations](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)voor een lijst met toegestane speciale tekens.
 
 * Toegevoegde `secureOnly` instelling die aangeeft of at.js alleen HTTPS mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en via `targetGlobalSettings`deze instelling kan worden overschreven.
-* De [!UICONTROL Legacy Browser Support] optie is beschikbaar in at.js versie 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4.
+* De optie [!UICONTROL Oudere browserondersteuning] is beschikbaar in versie 0.js 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4.
 
 ## at.js Versie 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
@@ -346,7 +360,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 
 * Verstrekt at.js een onderbreking voor de Dienst van identiteitskaart van de Bezoeker, die van de eigen onderbreking van de dienst onafhankelijk is.
 * Hiermee wordt een probleem in 0.9.0 verholpen dat invloed had op implementaties met at.js op sommige pagina&#39;s en mbox.js op andere pagina&#39;s.
-* Als u Adobe Analytics gebruikt als bron voor rapportage van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
+* Als u Adobe Analytics gebruikt als bron voor rapportage van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het creëren van activiteit, kunt u het gebied van de Server [!UICONTROL van het] Volgen leeg op de [!UICONTROL Doelstellingen &amp; pagina van Montages] verlaten.
 
 ## at.js Versie 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
