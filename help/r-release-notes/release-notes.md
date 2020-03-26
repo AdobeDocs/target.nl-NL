@@ -5,7 +5,7 @@ title: 'Opmerkingen bij de release Adobe Target (huidig) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -43,6 +43,15 @@ De Adobe-top is een virtuele gebeurtenis geworden! Adobe haalt alle stops uit da
 * **Maak een hoogtepunt in de toekomst**: Neem deel aan de speciale gast Chelsea Handler voor een overzicht van de nieuwste experimentele technologie van onze laboratoria — op Adobe Sneaks.
 
 Als u zich wilt registreren voor gratis toegang tot de gehele digitale gebeurtenis, gaat u naar [de Digital Experience Conference: De pagina van de top](https://www.adobe.com/summit.html) .
+
+## Doel om.js (25 maart 2020)
+
+De volgende nieuwe versies van de JavaScript-bibliotheken van Target at.js zijn beschikbaar:
+
+* at.js versie 2.3.0
+* at.js versie 1.8.1
+
+Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie.
 
 ## Target Standard/Premium 20.2.1 (23 maart 2020)
 
