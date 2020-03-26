@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -155,7 +155,7 @@ Richtlijnen werden gepresenteerd in een [Google Webmaster Central Blog](https://
 
    Het is belangrijk om te overwegen wat uw test ook is veranderd. Als u de kleur van knoppen of andere kleine, niet-tekstuele items op de pagina bijwerkt, heeft dit geen invloed op de organische waarderingen. Wijzigingen in tekst moeten echter wel worden gecodeerd.
 
-   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te krijgen in de zoekfunctie, zoals een speciale bestemmingspagina voor een e-mailcampagne, zijn geen van de bovenstaande overwegingen van toepassing.
+   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te innemen in de zoekfunctie, zoals een speciale bestemmingspagina voor een e-mailcampagne, zijn geen van de bovenstaande overwegingen van toepassing.
 
 Google stelt dat het volgen van deze richtlijnen &quot;ertoe zou moeten leiden dat uw tests weinig of geen invloed hebben op uw site in zoekresultaten.&quot;
 
