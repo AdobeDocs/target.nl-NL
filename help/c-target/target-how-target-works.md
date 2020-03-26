@@ -4,16 +4,14 @@ description: Adobe Target kan met uw webpagina's worden geïntegreerd via de Jav
 title: Hoe doelgericht werken
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # Hoe doelgericht werken{#how-targeting-works}
 
-Adobe Target kan met uw webpagina&#39;s worden geïntegreerd via de JavaScript-bibliotheek at.js of mbox.js.
-
-[!DNL Target Classic] heeft vakken gebruikt rond elk gebied op de pagina waar u de doelinhoud wilt weergeven of gegevens wilt verzamelen. Deze vakken zijn niet vereist in [!DNL Target Standard]. In plaats daarvan is één JavaScript-bibliotheek waarnaar op elke pagina wordt verwezen, alles wat u nodig hebt om uw optimalisatieactiviteiten uit te voeren.
+Adobe Target kan met uw webpagina&#39;s worden geïntegreerd via de JavaScript-bibliotheek at.js of mbox.js. Eén JavaScript-bibliotheek waarnaar op elke pagina wordt verwezen, is alles wat u nodig hebt om uw optimalisatieactiviteiten uit te voeren.
 
 Telkens wanneer een bezoeker een pagina aanvraagt die geschikt is voor Doel, [!DNL Target] gebruikt u het volgende proces om aanbiedingen te verzenden:
 
