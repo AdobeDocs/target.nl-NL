@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 Met responstokens kunt u automatisch doelspecifieke informatie (campagnedetails, gebruikersprofielinformatie, geografische informatie enzovoort) uitvoeren voor gebruik bij foutopsporing of integratie met systemen van derden (zoals Clicktale).
 
-Adobe Target Classic had een functie met de naam serverplug-ins waarmee u JavaScript kunt verzenden dat met een mbox-antwoord wordt uitgevoerd. Responstempels zijn vergelijkbaar met plug-ins: Hiermee kunt u doelspecifieke informatie op een andere locatie gebruiken. Met reactietokens kunt u kiezen welke variabelen u wilt gebruiken en deze vervolgens inschakelen als onderdeel van een mbox-reactie. Om dit te doen, laat u eenvoudig een variabele toe gebruikend de schakelaar en de variabele zal met mbox reacties worden verzonden, die in netwerkvraag kan worden bevestigd. De tokens van de reactie werken ook in de wijze van de Voorproef.
+Met reactietokens kunt u kiezen welke variabelen u wilt gebruiken en deze vervolgens inschakelen als onderdeel van een mbox-reactie. Om dit te doen, laat u eenvoudig een variabele toe gebruikend de schakelaar en de variabele zal met mbox reacties worden verzonden, die in netwerkvraag kan worden bevestigd. De tokens van de reactie werken ook in de wijze van de Voorproef.
 
 Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl insteekmodules JavaScript leveren aan de pagina die wordt uitgevoerd bij levering, de reactietokens een object leveren dat vervolgens kan worden gelezen en bewerkt met behulp van gebeurtenislisteners. Zie aangepaste gebeurtenissen [](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js en de voorbeelden verderop in dit artikel voor meer informatie. De aanpak van responstokens is veiliger en moet de ontwikkeling en het onderhoud van integratie van derden vergemakkelijken.
 
@@ -26,7 +26,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 | Doelbibliotheek in gebruik | Voorgestelde handelingen |
 |--- |--- |
 | at.js | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)van de Versie.<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Bepaalde plug-ins die afhankelijk zijn van interne methoden die in mbox.js bestaan, maar niet in at.js, worden geleverd, maar mislukken. Zie [Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)in.js voor meer informatie. |
-| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en respontokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Klassiek Doel (November 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande stop- ins uit te geven of onbruikbaar te maken. Controleer de plug-ins voordat Target Classic is vervangen en schakel ongewenste plug-ins uit.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en reactietokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Klassiek Doel (November 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande stop- ins uit te geven of onbruikbaar te maken. Controleer de plug-ins voordat Target Classic is vervangen en schakel ongewenste plug-ins uit.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
 ## Reactiepunten gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -34,7 +34,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 
    Zie [Downloaden op .js voor meer informatie](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Klik [!DNL Target]in **[!UICONTROL Setup]** > **[!UICONTROL Response Tokens]**.
+1. Klik [!DNL Target]in **[!UICONTROL Instellen]** > **[!UICONTROL Reactietokens]**.
 
    ![](assets/response_tokens.png)
 
@@ -64,7 +64,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 
 1. (Voorwaardelijk) als u een profielparameter als reactietoken wilt gebruiken, maar de parameter is niet overgegaan door een mbox vraag en, zo, heeft niet geladen in het Doel UI, kunt u de Create knoop gebruiken om het profiel aan UI toe te voegen.
 
-   Klik **[!UICONTROL Create]**, geef de naam van het token op en klik op **[!UICONTROL Activate]**.
+   Klik op **[!UICONTROL Maken]**, geef de naam van het token op en klik vervolgens op **[!UICONTROL Activeren]**.
 
    ![](assets/response_token_create.png)
 
