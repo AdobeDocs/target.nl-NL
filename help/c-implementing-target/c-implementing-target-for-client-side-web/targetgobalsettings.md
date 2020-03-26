@@ -5,7 +5,7 @@ title: Informatie over de targetGlobalSettings() functie voor de Adobe Target op
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -44,10 +44,12 @@ U kunt de volgende instellingen overschrijven:
 | optoutEnabled | Boolean | false | Geeft aan of Target de API- `isOptedOut()` functie voor bezoekers moet aanroepen. Dit maakt deel uit van de functie voor apparaatgrafiek. |
 | selectorsPollingTimeout | Getal | 5000 ms = 5 s | In at.js 0.9.6 introduceerde Target deze nieuwe instelling die via kan worden overschreven `targetGlobalSettings`.<br>`selectorsPollingTimeout` geeft aan hoelang de client wil wachten totdat alle elementen die door kiezers zijn geïdentificeerd, op de pagina worden weergegeven.<br>De activiteiten die via Visual Experience Composer (VEC) worden gecreeerd hebben aanbiedingen die selecteurs bevatten. |
 | dataProviders | Zie &quot;Data Providers&quot; hieronder. | Zie &quot;Data Providers&quot; hieronder. | Zie &quot;Data Providers&quot; hieronder. |
+| cspScriptNonce | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. |
+| cspStyleNonce | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. |
 
 ## Gebruik {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Setup]** > **[!UICONTROL Implementatie]** > **[!UICONTROL Bewerken om.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 In het veld Bibliotheekkoptekst kunt u JavaScript in vrije vorm invoeren. De aanpassingscode moet er ongeveer als volgt uitzien:
 
@@ -175,6 +177,29 @@ Houd rekening met het volgende wanneer u met de `dataProviders` instelling werkt
 
 * Als de gegevensleveranciers aan worden toegevoegd asynchroon `window.targetGlobalSettings.dataProviders` zijn, zullen zij parallel worden uitgevoerd. De aanvraag voor de Bezoeker-API wordt parallel met de toegevoegde functies uitgevoerd `window.targetGlobalSettings.dataProviders` om een minimale wachttijd mogelijk te maken.
 * at.js zal niet proberen om de gegevens in het voorgeheugen onder te brengen. Als de gegevensleverancier gegevens slechts één keer haalt, zou de gegevensleverancier ervoor moeten zorgen dat de gegevens in het voorgeheugen wordt opgeslagen en, wanneer de leveranciersfunctie wordt aangehaald, de geheim voorgeheugengegevens voor de tweede aanroeping dienen.
+
+## Beveiligingsbeleid voor inhoud {#content-security}
+
+at.js 2.3.0+ steunt het plaatsen van de nonces van het Veiligheidsbeleid van de Inhoud op SCRIPT en STYLE markeringen die aan pagina DOM worden toegevoegd wanneer het toepassen van geleverde aanbiedingen van het Doel.
+
+De SCRIPT- en STYLE-nonces moeten worden ingesteld in `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce` overeenkomstig, voorafgaand aan het laden van at.js 2.3.0+. Zie een voorbeeld hieronder:
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+Nadat `cspScriptNonce` `cspStyleNonce` en de montages worden gespecificeerd, plaatst at.js 2.3.0+ deze als nonce attributen op alle markeringen SCRIPT en STYLE die het aan DOM toevoegt wanneer het toepassen van de aanbiedingen van het Doel.
 
 ## serverState {#server-state}
 
