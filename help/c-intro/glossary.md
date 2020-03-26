@@ -4,7 +4,7 @@ title: Adobe Target Verklarende woordenlijst
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -145,7 +145,7 @@ De meting van de interesse van een bezoeker in een site, gemeten in tijd op de s
 
 **composer voor verbeterde ervaring**
 
-Het [!UICONTROL Enhanced Experience Composer] is een extensie van de extensie [!UICONTROL Visual Experience Composer] waarmee u een ervaring kunt bewerken voor een iframe-opbouwende site of pagina&#39;s die nog niet over de [!DNL Target] implementatie beschikken. Als u problemen hebt met het openen van de pagina in de [!UICONTROL Visual Experience Composer]map, probeert u de [!UICONTROL Enhanced Experience Composer]pagina.
+De [!UICONTROL Verbeterde Composer] van de Ervaring is een uitbreiding van [!UICONTROL Visuele Composer] van de Ervaring die u helpt een ervaring voor een iframe-opwindende plaats of pagina&#39;s uitgeven die nog niet de [!DNL Target] implementatie omvatten. Als u problemen hebt met het openen van uw pagina in de [!UICONTROL Visual Experience Composer], probeert u de [!UICONTROL Enhanced Experience Composer].
 
 **Machtigingen voor Enterprise-gebruikers**
 
@@ -161,7 +161,7 @@ Een gegadigde is een bezoeker die voldoet aan de criteria om een activiteit te b
 
 **milieu**
 
-Gastheren worden gebundeld in omgevingen voor eenvoudig beheer. De vooraf ingestelde hostgroepen zijn Productie, Staging en Ontwikkeling. U kunt echter wel nieuwe hostgroepen toevoegen en de naam van uw bestaande hostgroepen wijzigen. De milieu&#39;s werden genoemd &quot;gastheergroepen&quot;in [!DNL Target Classic].
+Gastheren worden gebundeld in omgevingen voor eenvoudig beheer. De vooraf ingestelde hostgroepen zijn Productie, Staging en Ontwikkeling. U kunt echter wel nieuwe hostgroepen toevoegen en de naam van uw bestaande hostgroepen wijzigen.
 
 **ervaring**
 
