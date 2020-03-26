@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -46,8 +46,6 @@ Locaties zijn essentieel voor activiteiten en ervaringen. U bepaalt of een locat
 * Het gedrag van de bezoeker van het logboek.
 
 In [!DNL Target Standard], kan een plaats om het even welk element op een pagina zijn, zolang de pagina één enkele lijn van code bevat die [!DNL Target] in de `<head>` sectie van elke pagina toelaat u wilt volgen. Deze coderegel roept de JavaScript-bibliotheken aan die nodig zijn om informatie te verzamelen en uw bezoekers gerichte ervaringen te bieden.
-
-Zie [Voordelen van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) voor meer informatie over de verschillen tussen plaatsimplementatie in [!DNL Target Standard] en mbox implementatie in [!DNL Target Classic].
 
 Locaties worden gecombineerd met het publiek om een bijna oneindig aantal opties te bieden waarmee uw klanten informatie kunnen zoeken. Als een bezoeker bijvoorbeeld nog niet eerder naar de site is geweest, kunt u een kortingscoupon weergeven voor nieuwe klanten. Op dezelfde manier kan de pagina worden gewijzigd in weergaveaanbiedingen die beter zijn geoptimaliseerd voor terugkerende klanten.
 
