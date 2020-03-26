@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,15 +17,15 @@ Download gegevens in de CSV-indeling, zodat u deze snel kunt importeren in Excel
 
 Gegevens downloaden in een CSV-bestand:
 
-1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste activiteit.
+1. Klik op **[!UICONTROL Activiteiten]** en klik vervolgens op de gewenste activiteit in de lijst.
 
-   Als u vele activiteiten hebt, kunt u de lijst filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
+   Als u vele activiteiten hebt, kunt u de lijst filtreren door opties van het [!UICONTROL Type], de [!UICONTROL Status], het [!UICONTROL Melden Bron], de Composer [!UICONTROL van de]Ervaring, het Type [!UICONTROL van] Metriek, en de drop-down lijsten te selecteren XMLActivity Source.
 
-1. Klik op het **[!UICONTROL Reports]** tabblad.
-1. Klik het **[!UICONTROL Download]** pictogram, dan selecteer een rapporttype om voor analyse in Excel en andere hulpmiddelen te downloaden.
+1. Klik op het tabblad **[!UICONTROL Rapporten]** .
+1. Klik het pictogram van de **[!UICONTROL Download]** , dan selecteer een rapporttype om voor analyse in Excel en andere hulpmiddelen te downloaden.
 
-   * [!UICONTROL Export Reports to CSV]
-   * [!UICONTROL Export Order Details to CSV]
+   * [!UICONTROL Rapporten exporteren naar CSV]
+   * [!UICONTROL Bestelgegevens exporteren naar CSV]
    ![Downloadopties](/help/c-reports/assets/download-options.png)
 
 ## Rapport exporteren naar CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -43,7 +43,7 @@ Gegevens worden opgeslagen tot het einde van de activiteit.
 
 ## Bestelgegevens exporteren naar CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-Het rapport Order Details (dit wordt het auditrapport genoemd in [!DNL Target Classic]) geeft u informatie over uw bestellingen, zoals:
+Het rapport Bestelgegevens bevat informatie over uw bestellingen, zoals:
 
 * Datum en tijd van bestelling
 * Het bedrag van de orde (als u een doos van de Orde van de Plaats opnam)
@@ -60,11 +60,11 @@ Het rapport Order Details (dit wordt het auditrapport genoemd in [!DNL Target Cl
 
 * Ervaring
 
-   In het [!UICONTROL Order Details] rapport voor [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), en [!UICONTROL Multivariate Test] (MVT) activiteiten, bevat de [!UICONTROL Experience] kolom de ervaring `localId`. Dit is de waarde output van de `$campaign.recipe.id` in aanbiedingstokens.
+   In het rapport [!UICONTROL Order Details] for [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT) en [!UICONTROL Multivariate Test] (MVT) bevat de kolom [!UICONTROL Experience] `localId`de ervaringstoets. Dit is de waarde output van de `$campaign.recipe.id` in aanbiedingstokens.
 
-   Er is geen [!UICONTROL Experience] kolom voor [!UICONTROL Automated Personalization] (AP) activiteiten. De huidige [!UICONTROL Algorithm Name] kolom is vervangen door &quot;Control&quot; versus &quot;Targeted&quot; terminologie, zoals elders in [!DNL Target]het document wordt getoond.
+   Er is geen kolom [!UICONTROL Ervaring] voor [!UICONTROL Geautomatiseerde Personalisatie] (AP) activiteiten. De huidige [!UICONTROL kolom Algorithm Name] is vervangen door &quot;Control&quot; en door &quot;Targeted&quot; terminologie, zoals elders in [!DNL Target].
 
-   Er was geen invloed op de [!UICONTROL Recommendations] activiteiten.
+   Er was geen invloed op de activiteiten van [!UICONTROL Aanbevelingen] .
 
 >[!NOTE]
 >
