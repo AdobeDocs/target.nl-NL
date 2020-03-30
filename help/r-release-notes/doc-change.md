@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -18,6 +18,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 30 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Er zijn een bekende problemen toegevoegd die van invloed zijn op versies at.js vóór at.js 2.2.0. Dit probleem heeft ertoe geleid dat klikspatiëring geen conversies rapporteert in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen. |
+|  | details van de at.js-versie | De volgende informatie is toegevoegd aan de gegevens van at.js versie 2.2.0:<ul><li>Probleem verholpen waarbij klikspatiëring ertoe leidde dat conversies niet werden gerapporteerd in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen.</li></ul> |
 | 25 maart | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de volgende nieuwe versies van at.js:<ul><li>at.js versie 2.3.0</li><li>at.js versie 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De volgende nieuwe rijen zijn toegevoegd in de sectie &quot;Instellingen&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>De volgende nieuwe sectie toegevoegd:<ul><li>Beveiligingsbeleid voor inhoud</li></ul> |
 | 24 maart | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Toegevoegde informatie over de gevolgen voor:<ul><li>Profielscripts gebaseerd op 3rdPartyID</li><li>URL&#39;s met kwaliteitscontrole/voorvertoning op iOS-apparaten</li></ul> |
@@ -394,7 +396,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
-| 16 januari 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br>[Opmerkingen bij de doelversie (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie over at.js versie 1.6.3 toegevoegd. |
+| 16 januari 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br>[Opmerkingen bij de doelversie (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over at.js versie 1.6.4. |
 | 10 januari 2019 | [De Nota&#39;s van de Versie van het doel (huidig)](/help/r-release-notes/release-notes.md)<br>[De Nota&#39;s van de Versie van het doel (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[TLS (de Veiligheid van de Laag van het Vervoer) encryptieveranderingen](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | De datum toegevoegd waarop de ondersteuning voor TLS 1.0-codering volledig wordt beëindigd door Target: 20 februari 2019. |
 | 9 januari 2019 | [Opties voor composer visuele ervaring](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Informatie toegevoegd over aanbevelingen voor invoegen, invoegen na en vervangen door rijen. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br>[Opmerkingen bij de doelversie (pre-release)](/help/r-release-notes/target-release-notes.md)<br>[Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Vanaf maart 2019 is er informatie toegevoegd over Target en de Adobe Marketing Cloud die ondersteuning bieden voor Microsoft Internet Explorer 11. |
