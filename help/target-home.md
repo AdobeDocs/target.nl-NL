@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target - productdocumentatie
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 25 maart 2020 ([zie wat gewijzigd](r-release-notes/doc-change.md)is )**
+**Laatst bijgewerkt: 30 maart 2020 ([zie wat gewijzigd](r-release-notes/doc-change.md)is )**
 
 >[!IMPORTANT]
 >
