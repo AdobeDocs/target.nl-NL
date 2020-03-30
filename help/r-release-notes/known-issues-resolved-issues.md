@@ -4,7 +4,7 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -42,17 +42,17 @@ Het grafiekrapport voor een activiteit auto-Doel ontbreekt om voor &quot;differe
 
 ### Het laden van een pagina in de VEC annuleren {#cancel}
 
-* Het volgende bekende probleem bestaat momenteel wanneer het annuleren van het laden van een [!UICONTROL A/B Test] [!UICONTROL Experience Targeting] (XT) activiteit binnen VEC die een omleidingsURL bevat.
+* Het volgende bekende probleem bestaat momenteel wanneer het annuleren van het laden van een [!UICONTROL A/B Test] of [!UICONTROL Ervaring gericht] (XT) activiteit binnen VEC die een omleiding URL bevat.
 
-   In stap één van de driedelige geleide workflow binnen VEC, wanneer u het laden van pagina&#39;s annuleert, wordt het [!UICONTROL Modifications] deelvenster in de VEC weergegeven en wordt de omleiding naar URL-sjabloon toegepast op de ervaring (bijvoorbeeld &#39;Experience B&#39;). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
+   In stap één van de driedelige geleide werkschema binnen VEC, wanneer u het laden van de pagina annuleert, wordt het paneel van [!UICONTROL Aanpassingen] in de vertoningen VEC en het omleiden aan malplaatje URL toegepast op de ervaring (bijvoorbeeld, &quot;Ervaring B). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
 
-   Bij &quot;Experience B&quot; wordt standaard de sjabloon voor het laden van de geannuleerde website weergegeven en is het [!UICONTROL Modifications] deelvenster toegankelijk. Dit is niet het geval omdat er een omleiding naar de URL-sjabloon is toegepast. De omleiding naar URL-sjabloon moet worden weergegeven.
+   Bij &quot;Experience B&quot; wordt standaard de sjabloon voor het laden van de geannuleerde website weergegeven en is het deelvenster [!UICONTROL Wijzigingen] toegankelijk, wat niet het geval moet zijn omdat er een omleiding naar de URL-sjabloon is toegepast. De omleiding naar URL-sjabloon moet worden weergegeven.
 
    Om de juiste stand van de ervaring in de VEC aan te tonen:
 
-   Als u overschakelt naar een andere ervaring en vervolgens terugschakelt naar &quot;Experience B&quot;, wordt de omleiding naar de URL-sjabloon weergegeven die op deze ervaring is toegepast en is het [!DNL Target] [!UICONTROL Modifications] deelvenster niet toegankelijk. (TGT-32138)
+   Als u overschakelt naar een andere ervaring en vervolgens terugschakelt naar &quot;Experience B&quot;, wordt de omleiding naar de URL-sjabloon weergegeven die op deze ervaring is toegepast en is het deelvenster [!DNL Target] Wijzigingen  niet toegankelijk. (TGT-32138)
 
-* Bij de websites van de toepassing Eén pagina (SPA) kunt u door het annuleren van het laden geen handelingen bewerken in het [!UICONTROL Modifications] deelvenster.
+* Als u voor de websites van de toepassing Eén pagina (SPA) het laden annuleert, kunt u geen handelingen bewerken in het deelvenster [!UICONTROL Wijzigingen] .
 
 ### Ondersteuning voor Enterprise-machtigingen in doel-API&#39;s {#api}
 
@@ -77,6 +77,7 @@ In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven
 
 De volgende problemen zijn bekend met at.js:
 
+* Als u versies van at.js gebruikt die ouder zijn dan 2.2.0, worden conversies niet gerapporteerd in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) van .js als dit probleem optreedt.
 * Als u een ervaring zonder wijzigingen maakt met behulp van at.js 2.1.1 of eerder (bijvoorbeeld een standaardeigenschap), wordt de ervaring mogelijk niet meegerekend in rapporten, Analytics voor Target (A4T), Adobe Analytics of Google Analytics. Bovendien werkt de [ttMeta-plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
 
    Als oplossing gebruikt u een witruimte in de ervaringsinhoud. (TNT-33366)
@@ -91,7 +92,7 @@ De volgende problemen zijn bekend met at.js:
 
    Deze kwestie is slechts op de activiteiten van Aanbevelingen van toepassing die VEC gebruiken.
 
-   **Oplossing**: Schakel de [!UICONTROL Filter Incompatible Criteria] optie in [!UICONTROL Recommendations > Settings]. Nadat u deze instelling hebt uitgeschakeld, worden alle (compatibele en niet-compatibele) criteria weergegeven in de kiezer voor criteria. (TGT-25949)
+   **Oplossing**: Schakel de optie Niet-compatibele criteria  filteren uit in [!UICONTROL Aanbevelingen > Instellingen]. Nadat u deze instelling hebt uitgeschakeld, worden alle (compatibele en niet-compatibele) criteria weergegeven in de kiezer voor criteria. (TGT-25949)
 
 * Mboxen die niet worden geactiveerd in Microsoft Explorer 11-browsers na de upgrade naar at.js versie 1.0 vanwege de interactie tussen at.js en Visitor API 2.2.0. Dit probleem is van toepassing op versie 0.js 0.9.6 en hoger. (TNT-27600)
 * at.js werkt mogelijk niet met Cordova/Hybrid-apps omdat cookies van de eerste partij momenteel niet in deze toepassingen worden ondersteund. (TNT-26166)
@@ -106,9 +107,9 @@ De bibliotheek mbox.js ondersteunt geen sjabloontalen aan de clientzijde, zoals 
 
 ### Implementatie: Automatisch een globale box maken
 
-Op het lusje van de Implementatie ([!UICONTROL Setup > Implementation]) zal het [!UICONTROL Global Mbox Auto Create] gebied &quot;vals&quot;door gebrek voor een onlangs provisioned huurder zijn.
+Op het lusje van de Implementatie ([!UICONTROL Opstelling > Implementatie]) zal het [!UICONTROL Globale Auto creëren] gebied &quot;vals&quot;door gebrek voor een onlangs provisioned huurder zijn.
 
-Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTROL Global Mbox Auto Create] gebied geplaatst aan &quot;waar&quot;in het gedownloade mbox.js- dossier en in het [!DNL Target] achtereind, maar het zal als &quot;vals&quot;op de [!UICONTROL Implementation] pagina in UI blijven tonen tot de pagina wordt verfrist (nadat de pagina wordt verfrist, zal de status &quot;waar&quot;zijn).
+Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTROL Globale AutoCreate] gebied van Mbox geplaatst aan &quot;waar&quot;in het gedownloade mbox.js- dossier en in het [!DNL Target] achterste deel, maar het zal op de pagina van de [!UICONTROL Implementatie] in UI blijven tonen tot de pagina wordt verfrist (nadat de pagina wordt verfrist, zal de status &quot;waar&quot; zijn.)
 
 at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huurder worden gedownload. Als mbox.js eerst wordt gedownload, global\_mbox\_autocreate is set to &quot;waar&quot;en at.js zullen ook met `global_mbox_autocreate = true`. worden gedownload. (TGT-15929)
 
