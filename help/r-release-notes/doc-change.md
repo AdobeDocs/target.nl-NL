@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: fe537a2c2007af59b2eb8abb4aaf3ec5626f2c65
 
 ---
 
@@ -19,7 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 30 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Er zijn een bekende problemen toegevoegd die van invloed zijn op versies at.js vóór at.js 2.2.0. Dit probleem heeft ertoe geleid dat klikspatiëring geen conversies rapporteert in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen. |
-|  | details van de at.js-versie | De volgende informatie is toegevoegd aan de gegevens van at.js versie 2.2.0:<ul><li>Probleem verholpen waarbij klikspatiëring ertoe leidde dat conversies niet werden gerapporteerd in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen.</li></ul> |
+|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | De volgende informatie is toegevoegd aan de gegevens van at.js versie 2.2.0:<ul><li>Probleem verholpen waarbij klikspatiëring ertoe leidde dat conversies niet werden gerapporteerd in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen.</li></ul> |
 | 25 maart | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de volgende nieuwe versies van at.js:<ul><li>at.js versie 2.3.0</li><li>at.js versie 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De volgende nieuwe rijen zijn toegevoegd in de sectie &quot;Instellingen&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>De volgende nieuwe sectie toegevoegd:<ul><li>Beveiligingsbeleid voor inhoud</li></ul> |
 | 24 maart | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Toegevoegde informatie over de gevolgen voor:<ul><li>Profielscripts gebaseerd op 3rdPartyID</li><li>URL&#39;s met kwaliteitscontrole/voorvertoning op iOS-apparaten</li></ul> |
@@ -63,9 +63,9 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 9 januari 2020 | [De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Bijgewerkte tekst.<br>Na 1 maart 2020 biedt Adobe Target geen ondersteuning meer voor TLS 1.1-codering voor Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), activity delivery, API&#39;s, enz. Upgrade vóór 1 maart 2020 naar TLS 1.2 om problemen te voorkomen. |
 | 6 januari 2020 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekend probleem met de status van de feed Custom Criteria toegevoegd. |
 | 19 december 2019 | [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Informatie over versie 1.1.0 toegevoegd. |
-| 12 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
+| 11 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
 |  | [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Benoemd onderwerp en toegevoegd de volgende sectie: &quot;Werken met rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen.&quot; |
-| 11 december 2019 | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nieuwe veelgestelde vragen toegevoegd: &quot;Hoe evalueert Doel URLs in het richten?&quot; |
+| 12 december 2019 | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nieuwe veelgestelde vragen toegevoegd: &quot;Hoe evalueert Doel URLs in het richten?&quot; |
 | 10 december 2019 | [Doelgrenzen](/help/r-troubleshooting-target/target-limits.md) | De sectie mbox-parameters is bijgewerkt. |
 |  | [Criteria](/help/c-recommendations/c-algorithms/algorithms.md) | Opmerking toegevoegd over ondersteuning voor de functie Criteria Usage. |
 | 5 december 2019 | [Sitepagina&#39;s](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Bijgewerkt onderwerp. |
@@ -423,7 +423,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 29 november 2018 | [ Schatting van het verkeer dat nodig is voor een geslaagde test](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) | Kleine tekstupdates en bijgewerkte afbeeldingen. |
 | 27 november 2018 | [ Activiteiten ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) | Tekst en afbeeldingen zijn bijgewerkt. |
 |  | [ Profielscriptkenmerken ](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2) | Opmerking toegevoegd: Target heeft een limiet van 1.000 profielscripts per account. |
-| 15 november 2018 | [ Opmerkingen bij de doelversie (huidig) Opmerkingen bij de ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ doelversie (pre-release) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ om.js versiedetails ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Informatie toegevoegd over at.js versie 1.6.4. |
+| 15 november 2018 | [ Opmerkingen bij de doelversie (huidig) Opmerkingen bij de ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ doelversie (pre-release) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ om.js versiedetails ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Informatie over at.js versie 1.6.3 toegevoegd. |
 |  | [ Persoonlijkheidsrapporten ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) | Nieuwe onderwerpen toegevoegd voor de nieuwe rapporten van de Inzichten van de Personalisatie:  Geautomatiseerde segmenten en belangrijke kenmerken. |
 | 14 november 2018 | Release 18.11.1 [ Opmerkingen bij de doelversie (huidige) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
