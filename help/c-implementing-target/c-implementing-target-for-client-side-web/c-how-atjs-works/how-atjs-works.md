@@ -5,7 +5,7 @@ title: De werking van de Adobe Target-bibliotheek op .js JavaScript
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -70,7 +70,7 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 | Stap | Beschrijving | Bellen | Beschrijving |
 |--- |--- |--- |--- |
 | 1 | De vraag keert [!DNL Experience Cloud ID] (MCID) terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen. |
-| 3 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek van de [!UICONTROL Audience Library] (bijvoorbeeld publiek dat wordt gedeeld van [!DNL Adobe Analytics], [!DNL Audience Manager]enz.).<br>Klantkenmerken worden in een batchproces naar de [!DNL Profile Store] klant verzonden. |
+| 3 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de [!UICONTROL Audience Library] (bijvoorbeeld publiek dat wordt gedeeld vanuit [!DNL Adobe Analytics], [!DNL Audience Manager]enz.).<br>Klantkenmerken worden in een batchproces naar de [!DNL Profile Store] klant verzonden. |
 | 5 | Op basis van de URL, de parameters mbox en de profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker. | 6 | Gerichte inhoud wordt teruggestuurd naar pagina, met eventueel ook profielwaarden voor extra personalisatie.<br>De ervaring wordt zo snel mogelijk getoond zonder flikkering van standaardinhoud. |
 | 7 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. | 8 | [!DNL Target] gegevens worden met behulp van de SDID aan [!DNL Analytics] gegevens aangepast en worden in de [!DNL Analytics] rapportageopslag verwerkt.<br>[!DNL Analytics] gegevens kunnen vervolgens zowel in [!DNL Analytics] als [!DNL Target] via [!DNL Analytics for Target] (A4T) rapporten worden bekeken. |
 
@@ -91,7 +91,7 @@ Belangrijke opmerkingen:
 * at.js verstrekt geen garanties op de orde van verre manuscriptuitvoering, aangezien deze asynchroon worden geladen.
 * Inline scripts mogen geen afhankelijkheden hebben van externe scripts, omdat deze later worden geladen en uitgevoerd.
 
-## Trainingsvideo: bij.js 2.x het diagram van de architectuur ![Overzicht badge](/help/assets/overview.png) van het ![Overzicht badge](/help/assets/overview.png)
+## Trainingsvideo: bij.js 2.x architecturaal diagram ![Overzicht badge](/help/assets/overview.png)
 
 at.js 2.x verbetert de ondersteuning van Adobe Target voor SPA&#39;s en integreert deze met andere Experience Cloud-oplossingen. In deze video wordt uitgelegd hoe alles bij elkaar komt.
 
