@@ -5,7 +5,7 @@ title: Toepassing van één pagina in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -68,7 +68,7 @@ Nu wij hebben behandeld wat de Weergaven van het Doel van Adobe zijn, kunnen wij
 
    Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPAs in mening. Eerdere versies van at.js en mbox.js bieden geen ondersteuning voor Adobe Target Views en VEC for SPAs.
 
-   Download dit bestand naar .js 2.x via de Adobe Target-gebruikersinterface in [!UICONTROL Setup > Implementation]. at.js 2.x kan ook worden geïmplementeerd via Adobe Launch. De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download bestand.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Setup > Implementatie]. at.js 2.x kan ook worden geïmplementeerd via Adobe Launch. De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
 1. Implementeer de nieuwste functie van .js 2.x `triggerView()` op uw sites.
 
@@ -78,7 +78,7 @@ Nu wij hebben behandeld wat de Weergaven van het Doel van Adobe zijn, kunnen wij
 
    | Parameter | Type | Vereist? | Validatie | Beschrijving |
    | --- | --- | --- | --- | --- |
-   | viewName | String | Ja | 1. Geen navolgende spaties.<br>2. Kan niet leeg zijn.<br>3. De weergavenaam moet uniek zijn voor alle pagina&#39;s.<br>4. **Waarschuwing**: De weergavenaam mag niet beginnen of eindigen met &#39;`/`&#39;. De reden hiervoor is dat de klant doorgaans de weergavenaam uit het URL-pad haalt. Voor ons zijn &quot;thuis&quot; en &quot;`/home`&quot; anders.<br>5. **Waarschuwing**: Dezelfde weergave mag niet meerdere keren achter elkaar worden geactiveerd met de `{page: true}` optie. | Geef een willekeurige naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze naam van Mening toont in het [!UICONTROL Modifications] paneel van VEC voor marketers om acties tot stand te brengen en hun activiteiten A/B en XT in werking te stellen. |
+   | viewName | String | Ja | 1. Geen navolgende spaties.<br>2. Kan niet leeg zijn.<br>3. De weergavenaam moet uniek zijn voor alle pagina&#39;s.<br>4. **Waarschuwing**: De weergavenaam mag niet beginnen of eindigen met &#39;`/`&#39;. De reden hiervoor is dat de klant doorgaans de weergavenaam uit het URL-pad haalt. Voor ons zijn &quot;thuis&quot; en &quot;`/home`&quot; anders.<br>5. **Waarschuwing**: Dezelfde weergave mag niet meerdere keren achter elkaar worden geactiveerd met de `{page: true}` optie. | Geef een willekeurige naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze naam van Mening toont in het paneel van [!UICONTROL Wijzigingen] van VEC voor marketers om acties tot stand te brengen en hun activiteiten A/B en XT in werking te stellen. |
    | opties | Object | Nee |  |  |
    | opties > pagina | Boolean | Nee |  | **TRUE**: De standaardwaarde van de pagina is true. Wanneer `page=true`, zullen de berichten naar de servers van de Rand voor het verhogen van immentatietelling worden verzonden.<br>**FALSE **: Wanneer`page=false`worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
 
@@ -274,15 +274,15 @@ Als de voorafgaande stappen worden gevolgd zou u een robuuste oplossing A4T voor
 
 De volgende video&#39;s bevatten meer informatie:
 
-### Begrijpen hoe at.js 2.x werkt
+### Begrijpen hoe at.js 2.x de badge van het ![Overzicht werkt](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) Badge ![Overzicht](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Zie [Begrijpen hoe at.js 2.x voor meer informatie werkt](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .
 
-### Voer om.js 2.x in een SPA uit
+### Implementeer at.js 2.x in een badge van het ![Leerprogramma van het KUUROORD](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) Badge ![Zelfstudie](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
 Zie Adobe Target&#39;s at.js 2.x [implementeren in een Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) voor meer informatie.
 
