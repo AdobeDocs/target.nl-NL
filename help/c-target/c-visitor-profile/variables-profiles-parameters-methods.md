@@ -28,7 +28,7 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | user.daysSinceLastVisit |  |
 | user.browser | De gebruikersagent |
 | user.header | Alle `user.header` profielen zijn ingebouwd uit de headergegevens van de box-aanvraag |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>orUser.header(&#39;x-door:sturen-for&#39;) | Het openbaar-onder ogen ziet IP adres van de netwerkverbinding die de bezoeker is.<br>U kunt dit op verschillende manieren krijgen, bijvoorbeeld [whatismyip.com](https://www.whatismyip.com/). Het IP adres is niet het NATIONAAL adres (intern adres), beginnend met 10., 192.168., of 172.<br>OPMERKING: Deze koptekst werkt niet bij nieuwere AWS-randen. Gebruik `user.header('x-forwarded-for')` in plaats hiervan. |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>orUser.header(&#39;x-door:sturen-for&#39;) | Het openbaar-onder ogen ziet IP adres van de netwerkverbinding die de bezoeker is.<br>OPMERKING: De header user.header(&#39;x-cluster-client-ip&#39;) werkt niet in nieuwere AWS-randen.<br>U kunt dit op verschillende manieren krijgen, bijvoorbeeld [whatismyip.com](https://www.whatismyip.com/). Het IP adres is niet het NATIONAAL adres (intern adres), beginnend met 10., 192.168., of 172. |
 | user.header(&#39;host&#39;) | Hostnaam website |
 | user.header(&#39;cookie&#39;) | Cookgegevens van bezoekers |
 | user.header(&#39;user-agent&#39;) | Gebruikersagent browser van bezoeker |
