@@ -286,7 +286,7 @@ Zie [Begrijpen hoe at.js 2.x voor meer informatie werkt](https://helpx.adobe.com
 
 Zie Adobe Target&#39;s at.js 2.x [implementeren in een Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) voor meer informatie.
 
-### De VEC voor SPA&#39;s gebruiken in de badge voor ![zelfstudie van Adobe Target](/help/assets/tutorial.png)
+### De VEC voor SPA&#39;s gebruiken in de badge voor ![zelfstudie voor Adobe Target](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
