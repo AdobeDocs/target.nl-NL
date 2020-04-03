@@ -5,7 +5,7 @@ title: Machtigingen voor Enterprise-gebruikers
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -22,15 +22,15 @@ De gebruikerstoestemmingen van de onderneming zijn een middel om formele het geb
 >
 >Uw doelimplementatie kan elke versie van at.js of mbox.js gebruiken.
 
-U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de [!UICONTROL Setup] koppeling boven aan de [!DNL Target] gebruikersinterface te klikken.
+U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de koppeling [!UICONTROL Setup] boven aan de [!DNL Target] gebruikersinterface te klikken.
 
-* **[!DNL Target Standard]Klanten **: Als u het[!UICONTROL Users]tabblad ([!UICONTROL Setup > Users]) ziet, heeft uw organisatie een[!DNL Target Standard]licentie.[!DNL Target Standard]klanten moeten de instructies in[Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md)volgen om gebruikers toe te voegen en machtigingen toe te wijzen in de Adobe Admin Console.
+* **[!DNL Target Standard]Klanten **: Als u het tabblad[!UICONTROL Gebruikers]ziet ([!UICONTROL Setup > Gebruikers]), heeft uw organisatie een[!DNL Target Standard]licentie.[!DNL Target Standard]klanten moeten de instructies in[Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md)volgen om gebruikers toe te voegen en machtigingen toe te wijzen in de Adobe Admin Console.
 
-   [!DNL Target Standard] gebruikers zien het volgende foutbericht wanneer ze op het [!UICONTROL Properties] tabblad klikken. Er is niets mis met [!DNL Target]. [!DNL Target Standard] gebruikers hebben geen toegang tot de [!DNL Target Premium] [!UICONTROL Enterprise Permissions] functionaliteit.
+   [!DNL Target Standard] gebruikers zien de volgende foutmelding wanneer ze op het tabblad [!UICONTROL Eigenschappen] klikken. Er is niets mis met [!DNL Target]. [!DNL Target Standard] gebruikers hebben geen toegang tot de functionaliteit voor [!DNL Target Premium] Enterprise-machtigingen  .
 
    ![Foutbericht](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **[!DNL Target Premium]Klanten **: Als u het[!UICONTROL Properties]tabblad ([!UICONTROL Setup > Properties]) ziet, heeft uw organisatie een[!DNL Target Premium]licentie.[!DNL Target Premium]klanten moeten de instructies in dit artikel en in[Configure ondernemingstoestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)volgen.
+* **[!DNL Target Premium]Klanten **: Als u het tabblad[!UICONTROL Eigenschappen]ziet ([!UICONTROL Setup > Eigenschappen]), heeft uw organisatie een[!DNL Target Premium]licentie.[!DNL Target Premium]klanten moeten de instructies in dit artikel en in[Configure ondernemingstoestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)volgen.
 
 ## Voordat u aan de slag gaat met bedrijfsmachtigingen
 
@@ -99,15 +99,15 @@ Wanneer u een nieuwe activiteit creeert, wordt het gecreeerd in de momenteel ges
 
 ## Overzicht van machtigingen {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-De volgende informatie verklaart de manier de toestemmingen eerder binnen werden afgedwongen [!DNL Target] en hoe zij gebruikend het [!UICONTROL Properties] en de [!UICONTROL Permissions] functionaliteit worden afgedwongen.
+De volgende informatie verklaart de manier de toestemmingen eerder binnen werden afgedwongen [!DNL Target] en hoe zij gebruikend de functionaliteit van [!UICONTROL Eigenschappen] en van [!UICONTROL Toestemmingen] worden afgedwongen.
 
-Met de nieuwe [!UICONTROL Permissions] functionaliteit kunt u verschillende projecten maken (de zogenaamde &quot;Product Profiles&quot; in de [!DNL Adobe Admin Console for Enterprise]), zodat u verschillende machtigingen kunt toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project bepaalt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de reeksen werken [!DNL Adobe Analytics]. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave-, bewerkings- en goedkeuringstoegang kunnen beperken tot hun gebruikers op basis van regio, omgeving (dev/stage/prod), kanaal of andere aangepaste criteria, zoals hieronder wordt weergegeven:
+Met de nieuwe functie [!UICONTROL Machtigingen] kunt u verschillende projecten maken (de zogenaamde &quot;Productprofielen&quot; in de [!DNL Adobe Admin Console for Enterprise]), zodat u verschillende machtigingen kunt toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project bepaalt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de reeksen werken [!DNL Adobe Analytics]. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave-, bewerkings- en goedkeuringstoegang kunnen beperken tot hun gebruikers op basis van regio, omgeving (dev/stage/prod), kanaal of andere aangepaste criteria, zoals hieronder wordt weergegeven:
 
 ![](assets/permissions.png)
 
 Een specifieke gebruiker kan bijvoorbeeld toegang tot goedkeuring hebben op de Amerikaanse websites, maar alleen toegang tot de Europese mobiele app bekijken. Dezelfde gebruiker heeft mogelijk geen toegang om zelfs maar de activiteiten te bekijken die op het web en mobiele eigenschappen in de APAC-regio worden aangeboden.
 
-Het huidige [!DNL Target][!UICONTROL Permissions] model heeft drie toestemmingsrollen (Waarnemer, Redacteur, en Approver), zoals aangetoond in de volgende illustratie:
+Het huidige [!DNL Target] model van [!UICONTROL Toestemmingen] heeft drie toestemmingsrollen (Waarnemer, Redacteur, en Approver), zoals aangetoond in de volgende illustratie:
 
 ![](assets/permissions_1.png)
 
@@ -123,7 +123,7 @@ Het is belangrijk om op te merken dat de rol van elke gebruiker op elke pagina, 
 
 ![](assets/permissions_2.png)
 
-Het nieuwe [!DNL Target][!UICONTROL Permissions] model heeft de zelfde drie toestemmingsrollen (Observer, Redacteur, en Approver); nochtans, kunt u de toestemmingenrollen van een gebruiker afzonderlijk voor individuele pagina&#39;s, eigenschappen, of plaatsen toewijzen, zoals hieronder getoond:
+Het nieuwe model van [!DNL Target] Toestemmingen  heeft de zelfde drie toestemmingsrollen (Waarnemer, Redacteur, en Approver); nochtans, kunt u de toestemmingenrollen van een gebruiker afzonderlijk voor individuele pagina&#39;s, eigenschappen, of plaatsen toewijzen, zoals hieronder getoond:
 
 ![](assets/permissions_3.png)
 
@@ -186,7 +186,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 De nieuwe functies voor machtigingen kunnen op verschillende plaatsen in de [!DNL Target] gebruikersinterface worden weergegeven.
 
-* **Vervolgkeuzelijst Werkruimte (Productprofiel):** De vervolgkeuzelijst Werkruimte wordt boven aan de [!UICONTROL Activities], [!UICONTROL Audiences]en [!UICONTROL Offers] pagina&#39;s weergegeven. Selecteer de gewenste werkruimte om de lijst te filteren zodat alleen de items in de geselecteerde werkruimte worden weergegeven.
+* **Vervolgkeuzelijst Werkruimte (Productprofiel):** De vervolgkeuzelijst Werkruimte wordt boven aan de pagina&#39;s [!UICONTROL Activiteiten], [!UICONTROL Soorten publiek]en [!UICONTROL Aanbiedingen] weergegeven. Selecteer de gewenste werkruimte om de lijst te filteren zodat alleen de items in de geselecteerde werkruimte worden weergegeven.
 
    ![](assets/workspace_drop-down.png)
 
@@ -196,7 +196,7 @@ De nieuwe functies voor machtigingen kunnen op verschillende plaatsen in de [!DN
 
 * **Aanmaken publiek:** Wanneer u een nieuw publiek maakt, wordt dit gemaakt in de momenteel geselecteerde werkruimte.
 * **Aanbieding maken:** Wanneer u een nieuwe aanbieding creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte.
-* **Pagina Eigenschappen (Setup > Eigenschappen):** U kunt het [!UICONTROL Search] vak, de [!UICONTROL Channel]en [!UICONTROL Product Profile] opties gebruiken om de [!UICONTROL Property] lijst te filteren.
+* **Pagina Eigenschappen (Setup > Eigenschappen):** U kunt de opties [!UICONTROL Zoeken] , [!UICONTROL Kanaal]en [!UICONTROL Productprofiel] gebruiken om de [!UICONTROL eigenschappenlijst] te filteren.
 
    ![](assets/properties_list.png)
 
@@ -270,9 +270,9 @@ Overweeg het volgende scenario (van toepassing op zowel at.js als mbox.js):
 
 Wanneer een bezoeker Pagina1 in browser opent, wordt hij of zij opnieuw gericht aan Pagina2. Omdat Page2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van het Doel geen kliksporen in zijn reactie.
 
-Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
+Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
 
-## Trainingsvideo: Trainingbadge {#section_2FA080303A064242B63FF16CFA6DB31D} ![Overzicht van Enterprise-rechten](/help/assets/overview.png)
+## Trainingsvideo: Trainingbadge ![overzicht van Enterprise-machtigingen](/help/assets/overview.png)
 
 Leerdoelstellingen:
 
