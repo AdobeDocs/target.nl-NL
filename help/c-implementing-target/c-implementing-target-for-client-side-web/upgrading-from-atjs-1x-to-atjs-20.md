@@ -5,7 +5,7 @@ title: Voer een upgrade uit van Adobe Target op versie 1.js.*x* naar at.js versi
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -246,7 +246,7 @@ In principe is het algemene mbox-concept geïntroduceerd om te laten [!DNL Targe
 
 ### Maakt de globale naam van de box in at.js nog uit?
 
-Klanten kunnen een algemene naam voor een postvak opgeven via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. Deze instelling wordt door de [!DNL Target] randservers gebruikt om uitvoering > pageLoad om te zetten in de algemene naam van het selectievakje die in de [!DNL Target] gebruikersinterface wordt weergegeven. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken met de algemene mbox-naam. Wij adviseren sterk dat u ook ervoor zorgt de zelfde globale naam van de brievenbus op de [!UICONTROL Setup > Preferences] pagina wordt gevormd, eveneens voor het geval u nog pagina&#39;s hebt die at.js 1 gebruiken.*x* of mbox.js, zoals in de volgende afbeeldingen wordt getoond.
+Klanten kunnen de naam van een algemeen mbox opgeven via [!UICONTROL Doel > Setup > Implementatie > Bewerken op.js Settings]. Deze instelling wordt door de [!DNL Target] randservers gebruikt om uitvoering > pageLoad om te zetten in de algemene naam van het selectievakje die in de [!DNL Target] gebruikersinterface wordt weergegeven. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken met de algemene mbox-naam. Wij adviseren sterk dat u ook ervoor zorgt de zelfde globale kadernaam op de [!UICONTROL Opstelling > de pagina van de Voorkeur] wordt gevormd, voor het geval u nog pagina&#39;s hebt die at.js 1 gebruiken.*x* of mbox.js, zoals in de volgende afbeeldingen wordt getoond.
 
 ![Dialoogvenster Wijzigen bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -286,7 +286,11 @@ Bij Doel wordt het cookie van de andere fabrikant opgeslagen in `<CLIENTCODE>.tt
 
 In punt 2.js.*x*, HTTP GET wordt niet meer gebruikt en in plaats daarvan gebruiken wij POST van HTTP. HTTP POST wordt nu gebruikt via at.js 2.*x* om JSON-nuttige taken naar Target Edge-servers te verzenden. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP GET aanvragen epidemiologische transacties zijn, terwijl HTTP POST niet-epidemiologisch is en niet willekeurig mag worden herhaald. Daarom is het volgen tussen domeinen in at.js 2.*x* wordt niet meer ondersteund vanuit het vak. Alleen om.js 1.*x* heeft out-of-the-box steun voor dwars-domein het volgen.
 
-Als u cross-domain tracking wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in combinatie met at.js 2 installeren.*x*. De ECID-bibliotheek bestaat voor het beheer van permanente id&#39;s waarmee een bezoeker zelfs in verschillende domeinen kan worden geïdentificeerd. Na installatie van de ECID-bibliotheek v4.3.0+ en at.js 2.*x*, zult u activiteiten kunnen tot stand brengen die unieke domeinen evenals spoorgebruikers omspannen.
+Als u cross-domain tracking wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in combinatie met at.js 2 installeren.*x*. De ECID-bibliotheek bestaat voor het beheer van permanente id&#39;s waarmee een bezoeker zelfs in verschillende domeinen kan worden geïdentificeerd.
+
+>[!NOTE]
+>
+>Na installatie van de ECID-bibliotheek v4.3.0+ en at.js 2.*x*, zult u activiteiten kunnen tot stand brengen die unieke domeinen evenals spoorgebruikers omspannen. Het is belangrijk om op te merken dat deze functionaliteit slechts werkt nadat de zitting verloopt.
 
 ### Automatisch globale box maken wordt ondersteund
 
@@ -294,7 +298,7 @@ Deze instelling vertelt at.js 2.*x* om een verzoek aan de [!DNL Target] randserv
 
 ### Algemene naam van box wordt ondersteund
 
-Klanten kunnen een algemene naam voor een postvak opgeven via [!UICONTROL Target > Setup > Implementation > Edit at.js Settings]. Deze instelling wordt door de [!DNL Target] randservers gebruikt om uitvoering > pageLoad om te zetten in de ingevoerde algemene naam van het selectievakje. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken dat zich richt op de algemene box.
+Klanten kunnen de naam van een algemeen mbox opgeven via [!UICONTROL Doel > Setup > Implementatie > Bewerken op.js Settings]. Deze instelling wordt door de [!DNL Target] randservers gebruikt om uitvoering > pageLoad om te zetten in de ingevoerde algemene naam van het selectievakje. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken dat zich richt op de algemene box.
 
 ### Zijn de onderstaande aangepaste gebeurtenissen at.js van toepassing op `triggerView()` of alleen voor `applyOffer()` of `applyOffers()`?
 
