@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -35,10 +35,10 @@ Informatie die u helpt bij het instellen van verschillende instellingen op de pa
 >
 >U kunt instellingen in de bibliotheek at.js overschrijven in plaats van de instellingen in de gebruikersinterface van Target Standard/Premium te configureren of REST API&#39;s te gebruiken. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)voor meer informatie.
 
-De [!UICONTROL Settings] pagina openen:
+De pagina [!UICONTROL Instellingen] openen:
 
-1. Klik op **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
-1. Selecteer **[!UICONTROL at.js]** > **[!UICONTROL Edit at.js Settings]**.
+1. Klik op **[!UICONTROL Instellen]** > **[!UICONTROL Implementatie]**.
+1. Selecteer **[!UICONTROL te.js]** > Instellingen **** Bewerken bij.js.
 
 ## Instellingen voor levering van inhoud {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -89,9 +89,9 @@ ov2/c_target-configure-atjs.xml
 
 Downloaden [!DNL at.js] vanaf de [!DNL Target] interface:
 
-1. Klik op **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
-1. Selecteer **[!UICONTROL at.js]**.
-1. Klik op **[!UICONTROL Download at.js]**.
+1. Klik op **[!UICONTROL Instellen]** > **[!UICONTROL Implementatie]**.
+1. Selecteer **[!UICONTROL om.js]**.
+1. Klik op **[!UICONTROL Downloaden om.js]**.
 
 ## Download at.js met de API voor doeldownloaden {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
@@ -99,7 +99,7 @@ Downloaden [!DNL at.js] met de API.
 
 1. Haal uw clientcode op.
 
-   De clientcode is beschikbaar boven aan de pagina **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** van de [!DNL Target] interface.
+   Uw clientcode is beschikbaar boven aan de pagina **[!UICONTROL Instellingen]** > **[!UICONTROL Implementatie]** > **[!UICONTROL Bewerken op pagina Instellingen]** .js van de [!DNL Target] interface.
 
 1. Haal uw beheerdersnummer op.
 
@@ -126,7 +126,7 @@ Downloaden [!DNL at.js] met de API.
    Laad deze URL met de volgende structuur:
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Vervangen `admin number` door uw beheerdersnummer.
@@ -202,9 +202,9 @@ Een standaardimplementatie van Target die geen tagbeheer zoals [Adobe Launch](..
 Houd rekening met de volgende belangrijke opmerkingen:
 
 * Het HTML5-document (bijvoorbeeld `<!doctype html>`) moet worden gebruikt. Niet-ondersteunde of oudere documenttypen kunnen ertoe leiden dat Target geen aanvraag kan indienen.
-* De opties Preconnect en Prefetch zijn opties die u kunnen helpen uw webpagina&#39;s sneller te laden. Als u deze configuraties gebruikt, zorg ervoor dat u `<client code>` met uw eigen cliëntcode vervangt, die u van **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** **[!UICONTROL Edit at.js Settings]** > pagina kunt verkrijgen.
+* De opties Preconnect en Prefetch zijn opties die u kunnen helpen uw webpagina&#39;s sneller te laden. Als u deze configuraties gebruikt, zorgt u ervoor dat u deze vervangt `<client code>` door uw eigen clientcode, die u kunt verkrijgen via de pagina **[!UICONTROL Setup]** > **[!UICONTROL Implementatie]** > **[!UICONTROL Bewerken op pagina Instellingen]** .js.
 * Als u een gegevenslaag hebt, is het beter om zoveel mogelijk in de pagina&#39;s te definiëren voordat at.js wordt geladen. `<head>` Deze plaatsing verstrekt het maximumvermogen om deze informatie in Doel voor verpersoonlijking te gebruiken.
-* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`Data Providers, en `targetGlobalSettings()` moeten worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze bestanden ook opslaan in de [!UICONTROL Library Header] sectie van de [!UICONTROL Edit at.js Settings] pagina en opslaan als onderdeel van de bibliotheek at.js zelf. Zie [at.js voor meer informatie over deze functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`Data Providers, en `targetGlobalSettings()` moeten worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze bestanden ook opslaan in de sectie [!UICONTROL Bibliotheekkoptekst] van de pagina [!UICONTROL Bewerken bij.js-instellingen] en opslaan als onderdeel van de bibliotheek at.js zelf. Zie [at.js voor meer informatie over deze functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Als u JavaScript-hulplijnbibliotheken gebruikt, zoals jQuery, neemt u deze op voordat u Target gaat gebruiken, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
 * Neem om.js op in de `<head>` pagina&#39;s.
 
