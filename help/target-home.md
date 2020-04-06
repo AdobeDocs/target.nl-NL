@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target - productdocumentatie
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -15,10 +15,6 @@ source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
 **Laatst bijgewerkt: 2 april 2020 ([zie wat er is gewijzigd](r-release-notes/doc-change.md))**
-
->[!IMPORTANT]
->
->De Adobe-top is een virtuele gebeurtenis geworden! Met een live digitale ervaring haalt Adobe alle stops uit! Deze live ervaring omvat ons belangrijkste trefwoordadres, mini-keynotes met de nieuwste trends en verbeteringen, inzichten in het succes van toonaangevende bedrijven en brainstormsessies. Als u zich wilt registreren voor gratis toegang tot de gehele digitale gebeurtenis, gaat u naar [de Digital Experience Conference: De pagina van de top](https://www.adobe.com/summit.html) .
 
 In de volgende secties wordt verwezen naar handige koppelingen in deze handleiding, gerangschikt op doelgroep op basis van standaardfuncties:
 
