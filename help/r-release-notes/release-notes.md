@@ -5,7 +5,7 @@ title: 'Opmerkingen bij de release Adobe Target (huidig) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -33,16 +33,6 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
    >
 * De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
-
-## Top Live: De Digital Experience Conference {#summit}
-
-De Adobe-top is een virtuele gebeurtenis geworden! Adobe haalt alle stops uit dankzij een live digitale ervaring vanaf 31 maart 2020. Deze live ervaring omvat ons belangrijkste trefwoordadres, mini-keynotes met de nieuwste trends en verbeteringen, inzichten in het succes van toonaangevende bedrijven en brainstormsessies.
-
-* **Bekijk de live** keynote: Heb over tendensen en nieuwe producten die industrieën van het gemak van uw overal veranderen.
-* **Ontdek meer dan 100 brainstormsessies op aanvraag:** Profiteer van gratis toegang tot meer dan honderd brainstormsessies op aanvraag van Adobe, klanten en partners.
-* **Maak een hoogtepunt in de toekomst**: Neem deel aan de speciale gast Chelsea Handler voor een overzicht van de nieuwste experimentele technologie van onze laboratoria — op Adobe Sneaks.
-
-Als u zich wilt registreren voor gratis toegang tot de gehele digitale gebeurtenis, gaat u naar [de Digital Experience Conference: De pagina van de top](https://www.adobe.com/summit.html) .
 
 ## Doel om.js (25 maart 2020)
 
