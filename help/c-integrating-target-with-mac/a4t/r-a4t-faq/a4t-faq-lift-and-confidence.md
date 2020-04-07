@@ -5,7 +5,7 @@ title: Optillen en vertrouwen - A4T veelgestelde vragen
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: b5191230c76135d5299754e72c9651d018086e60
 
 ---
 
@@ -28,7 +28,13 @@ Het betrouwbaarheidsniveau is de waarschijnlijkheid dat de gemeten omrekeningsko
 
 ## Waarom kan ik geen lift en vertrouwen zien op berekende maatstaven? {#section_D3E44E24782A409DBD88AE4D1595CB58}
 
-Optillen en vertrouwen kunnen momenteel niet worden gegenereerd voor berekende metriek. In de meeste gevallen is dit echter geen probleem, omdat de lift wordt genormaliseerd door de normalisatie-instelling. Als u bijvoorbeeld lift selecteert voor bestellingen en de normalisatie-instelling bezoeken is, wordt lift berekend op basis van de verhouding van beide, namelijk de conversiekoers.
+Lift en Trust worden momenteel niet ondersteund met berekende meetwaarden. In de meeste gevallen zou dit echter geen probleem mogen zijn omdat de in het A4T-rapport berekende omrekeningskoers reeds een berekende maatstaf is waarin de noemer de normaliserende maatstaf is (instanties, bezoeken, bezoekers). Als u bijvoorbeeld de metrische volgorde van de bestellingen selecteert en de normalisatie-instelling bezoekers is, wordt de conversiesnelheid (bestellingen/bezoeker) automatisch berekend via A4T-rapportage. De resulterende lift weerspiegelt het verschil in die conversiesnelheid over de tekstervaringen in vergelijking met de standaardwaarde.
+
+De meeste berekende maatstaven voor optimalisatie vallen in één van twee categorieën: statistische gegevens, en andere omzettingsberekeningen zoals Gemiddelde Waarde van de Orde (AOV).
+
+Samengevoegde metriek worden gebruikt wanneer een organisatie unieke gebeurtenissen gebruikt om verschillende &quot;flavors&quot;van sparen omzetting te vangen. Als uw doel bijvoorbeeld het verzenden van formulieren met leads is en u hebt 10 verschillende hoofdformulieren, kan een bedrijf unieke gebeurtenissen maken om elk type formulierconversie te tellen. Om de totale hoeveelheid van alle ingediende loodformulieren te kunnen zien, moeten deze een eenvoudige, berekende maatstaf maken om ze bij elkaar op te tellen. Een betere, modernere manier om dit te volgen is één enkele gebeurtenis van de loodvoorlegging in Analytics uit te voeren en dan een eVar te gebruiken om het type van loodvorm te verzamelen. Het gebruik van deze methode vereist minder variabelen en elimineert de behoefte om individuele metriek samen te voegen en u hebt nog de capaciteit om holistische loodvormomzetting te zien en het te verdelen door type van loodvorm gebruikend eVar. Dit elimineert ook de behoefte aan gezamenlijke metriek wanneer het evalueren van de prestaties van een Activiteit van het Doel.
+
+Een andere algemeen berekende metrische waarde, Gemiddelde Waarde van de Orde, wordt momenteel niet gesteund met lift &amp; vertrouwen omdat normaliserend metrisch geen standaardmetrisch is (instanties, bezoeken, bezoekers). In plaats daarvan wordt aanbevolen de twee bepalende meetwaarden van AOV, de inkomsten per bezoeker en de omrekeningskoers in de gaten te houden.
 
 ## Hoe verwerkt A4T betrouwbaarheidsberekeningen? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
