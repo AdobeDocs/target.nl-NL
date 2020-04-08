@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -18,6 +18,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 7 april | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Bijgewerkte tekst voor &quot;Waarom kan ik geen lift en vertrouwen op berekende metriek zien?&quot; |
 | 2 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Toegevoegde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. |
 |  | [Upgrade uitvoeren vanaf 0,js 1.*x* tot at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Toegevoegd:<ul><li>Na installatie van de ECID-bibliotheek v4.3.0+ en at.js 2.*x*, zult u activiteiten kunnen tot stand brengen die unieke domeinen evenals spoorgebruikers omspannen. Het is belangrijk om op te merken dat deze functionaliteit slechts werkt nadat de zitting verloopt.</li></ul> |
 | 30 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Er zijn een bekende problemen toegevoegd die van invloed zijn op versies at.js vóór at.js 2.2.0. Dit probleem heeft ertoe geleid dat klikspatiëring geen conversies rapporteert in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen. |
@@ -337,7 +338,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Kenmerken](/help/r-troubleshooting-target/target-limits.md)<br>[van aangepaste entiteit Limits](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) | Toegevoegde informatie over limieten van aangepaste entiteitskenmerken. |
 |  | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers) | Bijgewerkte tekst. |
 |  | [Nieuwe criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom) | Nieuwe sectie toegevoegd waarin wordt uitgelegd hoe u op profielen gebaseerde groepen voor populariteitsalgoritmen kunt maken: &quot;Gebruik een sleutel voor aangepaste aanbevelingen.&quot; |
-| 19 maart 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
+| 29 maart 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
 |  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Steunt A4T virtuele rapportsuites?&quot; |
 | 18 maart 2019 | [Opmerkingen bij de doelversie (prerelease)](/help/r-release-notes/target-release-notes.md) en [op.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
 |  | [Methoden om gegevens op te halen uit de kenmerken Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) en [Klant](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Toegevoegd: U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/). |
