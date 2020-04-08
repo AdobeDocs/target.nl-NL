@@ -5,7 +5,7 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
+source-git-commit: e1a1feedbb54ebc9f7a534230ae8327b6056d673
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 25 maart 2020**
+**Laatst bijgewerkt: 8 april 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -29,43 +29,18 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
    Door alle klanten naar at.js te verplaatsen, kunnen onze technici en ondersteunend personeel u nieuwe functionaliteit bieden en de ondersteuning bieden die u van Adobe hebt verwacht.
 
 
-## Doel om.js (25 maart 2020)
-
-De volgende nieuwe versies van de JavaScript-bibliotheken van Target at.js zijn beschikbaar:
-
-* at.js versie 2.3.0
-* at.js versie 1.8.1
-
-Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie.
-
-## Target Standard/Premium 20.2.1 (23 maart 2020)
-
->[!IMPORTANT]
->
->Zie de bovenstaande informatie over de afschrijving van mbox.js.
+## Target Standard/Premium 20.4.1 (27 april 2020)
 
 Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
-* Probleem verholpen waarbij klanten een verzameling niet konden selecteren tijdens het uitvoeren van een cataloguszoekopdracht. (TGT-36230)
-* Probleem verholpen waarbij een criterium dat via API is gemaakt, maar waarnaar niet wordt verwezen door een activiteit die in de doelinterface is gemaakt, ten onrechte uit de gebruikersinterface kan worden verwijderd. (TGT-35917)
-* Geïmplementeerde veiligheidsverbeteringen aan het Beleid van de Veiligheid van de Inhoud (CSP). (TGT-36190)
-* Probleem verholpen waarbij &quot;NaN%&quot; werd weergegeven wanneer de percentagebalk voor kenmerkweging naar links werd verschoven. (TGT-36211)
-* Opgeloste lokalisatieproblemen zodat de UI-tekst in verschillende talen correct wordt weergegeven.
-* We hebben de lijst met beschikbare meetgegevens van Adobe Analytics for Target (A4T)-activiteiten gestandaardiseerd door de meetgegevens van Adobe Analytics af te drukken die niet worden ondersteund in de huidige versie van Adobe Analytics API&#39;s. Hierdoor kunnen we onze A4T-ondersteuning uitbreiden in toekomstige versies van Adobe Target.
-
-   De volgende wijzigingen zijn aangebracht:
-
-   * &quot;Gemiddelde tijd die op pagina wordt besteed&quot; is vervangen door &quot;Gemiddelde tijd die ter plekke wordt besteed.&quot; Om het even welke activiteiten die dit als metrisch metrisch het Primaire Metrische Doel gebruiken zullen &quot;Gemiddelde Tijd die op Plaats wordt uitgegeven&quot;hebben (nota: (gemeten in minuten in plaats van seconden) geselecteerd als Primair doel Metrisch wanneer de activiteit de volgende keer wordt bewerkt.
-   * &quot;Bezoekers&quot; is vervangen door &quot;Unieke Bezoekers&quot;. Voor alle activiteiten waarbij deze metrische waarde wordt gebruikt als &#39;Primaire Goal Metric&#39;, worden &#39;Unieke bezoekers&#39; geselecteerd als &#39;Primaire Goal Metric&#39; wanneer de activiteit de volgende keer wordt bewerkt.
-
-* De volgende metriek zijn afgekeurd en kunnen niet meer worden geselecteerd als Primair doel Metrisch wanneer het creëren van een nieuwe activiteit A4T.
-
-   | Vervangen metrisch(e) | Voorgestelde vervangende metrische(n) |
-   |--- |--- |
-   | Dagelijkse Bezoekers, Uur Bezoekers, Maandelijkse Bezoekers, Driemaandelijkse Bezoekers, Wekelijkse Bezoekers, Jaarlijkse Bezoekers | Unieke bezoekers |
-   | Gemiddelde visdiepte | n.v.t. Niet voorgesteld als primair doel metrisch |
-   | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
-   | Snelheid bij vastlopen van mobiele apparaten, Mobile Avg vorige sessielengte, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
+* Probleem verholpen waarbij een apparaat en browsertype voor een publiek onjuist worden gekwalificeerd. (TGT-36266)
+* Probleem verholpen waarbij rapportgegevens niet konden worden weergegeven wanneer ze werden weergegeven op schermen met een breedte van minder dan 963 pixels. (TGT-36549)
+* Probleem verholpen waardoor rapporten voor automatische personalisatie niet correct worden weergegeven. (TGT-36619)
+* Probleem verholpen waarbij bepaalde opties in de Visual Experience Composer (VEC) niet correct werden weergegeven. (TGT-36571)
+* Probleem verholpen in de interface Doel die ertoe heeft geleid dat andere aanbevelingen voorvertoningen van de bewerkte inhoud aanbieden nadat een gebruiker de inhoud in één ervaring heeft vervangen. (TGT-36053)
+* Probleem verholpen waarbij sommige gebruikers items niet konden verwijderen uit een catalogus met aanbevelingen. (TGT-36455)
+* Probleem verholpen waardoor gebruikers geen criteria voor Aanbevelingen konden opslaan voor activiteiten van meerdere pagina&#39;s. (TGT-36249)
+* Probleem verholpen waarbij een algoritme met aanbevelingen een lange periode &#39;ophaalresultaten&#39; weergaf. (TGT-36550 &amp; TGT-36551)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
