@@ -5,7 +5,7 @@ title: Limieten
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -98,12 +98,6 @@ Voor GET verzoeken, hoewel de grens op het achtereind 5 KB is, wegens het feit d
 **Limiet**: 256 tekens.
 
 Waarden die langer zijn dan deze worden afgebroken.
-
-## In-box profielen in een mbox- verzoek
-
-**Limiet**: 50 profielen.
-
-Alle profielen na 50 worden genegeerd.
 
 ## In-box-profielnamen
 
