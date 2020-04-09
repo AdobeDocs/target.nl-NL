@@ -5,7 +5,7 @@ title: Adobe Experience Manager (AEM) ervaart fragmenten in Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: f243e0a74d5f4d91e399e1e64a0e0aa545517ee8
 
 ---
 
@@ -16,13 +16,13 @@ Informatie over het gebruik van ervaringsfragmenten die zijn gemaakt in [!DNL Ad
 
 >[!NOTE]
 >
->Deze functie vereist dat u een [!DNL Adobe Experience Manager] (AEM-)klant bent. Zie [Vereisten](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)hieronder voor meer informatie.
+>Deze functie vereist dat u een [!DNL Adobe Experience Manager] ([!DNL AEM]) klant bent. Zie [Vereisten](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)hieronder voor meer informatie.
 
 ## Overzicht {#section_95A91830530F493B81C5C9CDB9B783EA}
 
-Door ervaringsfragmenten te gebruiken die in AEM zijn gemaakt voor [!DNL Target] [!DNL Target] activiteiten kunt u het gebruiksgemak en de kracht van AEM combineren met krachtige mogelijkheden voor Automated Intelligence (AI) en Machine Learning (ML) om ervaringen op schaal te testen en aan te passen.
+Door ervaringsfragmenten te gebruiken die zijn gemaakt in [!DNL AEM] de [!DNL Target] activiteiten, kunt u het gebruiksgemak en de kracht van [!DNL AEM] [!DNL Target] deze fragmenten combineren met de krachtige mogelijkheden van Automated Intelligence (AI) en Machine Learning (ML) om ervaringen op schaal te testen en te personaliseren.
 
-AEM brengt al uw inhoud en middelen op een centrale locatie samen om uw personalisatiestrategie te voeden. Met AEM kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder dat u code hoeft te schrijven. Het is niet nodig om pagina&#39;s te maken voor elk apparaat. AEM past automatisch elke ervaring aan met behulp van uw inhoud.
+[!DNL AEM] brengt al uw inhoud en middelen op een centrale plaats samen om uw verpersoonlijkingsstrategie te voeden. [!DNL AEM] Hiermee kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder code te schrijven. Het is niet nodig om pagina&#39;s te maken voor elk apparaat. [!DNL AEM] past automatisch elke ervaring aan met uw inhoud.
 
 [!DNL Target] Hiermee kunt u gepersonaliseerde ervaringen op schaal bieden op basis van een combinatie van op regels gebaseerde en door AI aangedreven methoden voor het leren van machines die gedragsvariabelen, contextafhankelijke en offlinevariabelen bevatten. Met [!DNL Target] u kunt gemakkelijk opstelling en looppas [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activiteiten om de beste aanbiedingen, inhoud, en ervaringen te bepalen.
 
@@ -30,55 +30,55 @@ De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de
 
 ## Vereisten {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-U moet de functionaliteit van ervaringsfragmenten binnen [!DNl Doel]van provisioned zijn. Daarnaast moet u AEM 6.3 gebruiken met het juiste servicepakket of AEM 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
+U moet de functionaliteit van ervaringsfragmenten binnen [!DNl Doel]van provisioned zijn. Daarnaast moet u [!DNL AEM] 6.3 gebruiken met de juiste service pack of [!DNL AEM] 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
-* Adobe Experience Manager 6.4 (of hoger).
-* Adobe Experience Manager 6.3 SP2 (of hoger).
-* Adobe Target Standard of Adobe Target Premium-account.
+* [!DNL Adobe Experience Manager] 6.4 (of hoger).
+* [!DNL Adobe Experience Manager] 6.3 SP2 (of hoger).
+* [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] account.
 * Neem contact op met de klantenservice [van](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Adobe Target om de integratie in te schakelen en u verificatiegegevens te verstrekken.
 
-## Het creëren van en het Vormen de Fragmenten van de Ervaring in AEM {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
+## Ervingsfragmenten maken en configureren in [!DNL AEM]{#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Als u AEM-fragmenten wilt gebruiken in, moet u de volgende stappen uitvoeren: [!DNL Target]
+Voer de volgende stappen uit om [!DNL AEM] ervaringsfragmenten in te kunnen gebruiken [!DNL Target]:
 
-### Stap 1: AEM integreren met doel
+### Stap 1: Integreren [!DNL AEM] met [!DNL Target]
 
 Zie voor meer informatie:
 
-* **AEM 6.3**: [U kunt kiezen voor Adobe Analytics en Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in de documentatie van _Adobe Experience Manager 6.3_ .
-* **AEM 6.4**: [U kunt kiezen voor Adobe Analytics en Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) in de documentatie van _Adobe Experience Manager 6.4_ .
-* **AEM 6.5**: [U kunt kiezen voor Adobe Analytics en Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) in de *Adobe Experience Manager 6.5* -documentatie.
+* **[!DNL AEM]6.3 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)in de documentatie van_Adobe Experience Manager 6.3 _.
+* **[!DNL AEM]6.4 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)in de documentatie van_Adobe Experience Manager 6.4 _.
+* **[!DNL AEM]6.5 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)in de documentatie van *Adobe Experience Manager 6.5*.
 
 ### Stap 2: Het ervaringsfragment maken
 
-Experience-fragmenten worden gemaakt in AEM. Zie voor meer informatie:
+Er worden ervaringsfragmenten gemaakt in [!DNL AEM]. Zie voor meer informatie:
 
-* **AEM 6.3**: [Ervaar fragmenten](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in de documentatie van *Adobe Experience Manager 6.3* .
-* **AEM 6.4**: [Ervaar fragmenten](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in de documentatie van *Adobe Experience Manager 6.4* .
-* **AEM 6.5**: [Ervaar fragmenten](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) in de documentatie van *Adobe Experience Manager 6.5* .
+* **[!DNL AEM]6.3 **:[Ervaar fragmenten](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.3*.
+* **[!DNL AEM]6.4 **:[Ervaar fragmenten](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.4*.
+* **[!DNL AEM]6.5 **:[Ervaar fragmenten](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.5*.
 
-### Stap 3: AEM configureren om het ervaringsfragment te delen met Target
+### Stap 3: Configureren [!DNL AEM] om het ervaringsfragment te delen met [!DNL Target]
 
-1. Selecteer in AEM het gewenste ervaringsfragment of de bijbehorende map en klik op **[!UICONTROL Properties]**.
-2. Klik op het **[!UICONTROL Cloud Services]** tabblad en selecteer vervolgens in de **[!UICONTROL Cloud Service Configuration]** vervolgkeuzelijst de optie **[!UICONTROL Adobe Target]**.
+1. Van binnen [!DNL AEM], selecteer het gewenste ervaringsfragment of zijn bevattende omslag, dan klik **[!UICONTROL Eigenschappen]**.
+2. Klik op het tabblad **[!UICONTROL Cloudservices]** en selecteer vervolgens in de vervolgkeuzelijst Configuratie **[!UICONTROL van]** cloudservice de optie **[!UICONTROL Adobe Target]**.
 
    >[!NOTE]
    >
    >De vorige stap veronderstelt dat iemand in uw organisatie de [!DNL Adobe Target] configuratie heeft gecreeerd.
 
-3. Klik op **[!UICONTROL Save & Close]**.
+3. Klik op **[!UICONTROL Opslaan en sluiten]**.
 
-### Stap 4: Het ervaringsfragment publiceren en exporteren naar Doel
+### Stap 4: Het ervaringsfragment publiceren en exporteren naar [!DNL Target]
 
-Afhankelijk van uw AEM-versie raadpleegt u de volgende koppelingen voor stapsgewijze instructies:
+Afhankelijk van uw [!DNL AEM] versie raadpleegt u de volgende koppelingen voor stapsgewijze instructies:
 
-* **AEM 6.3**: Een ervaringsfragment [exporteren naar doel](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) in de documentatie van *Adobe Experience Manager 6.3* .
-* **AEM 6.4**: Een ervaringsfragment [exporteren naar doel](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) in de documentatie van *Adobe Experience Manager 6.4* .
-* **AEM 6.5**: Een ervaringsfragment [exporteren naar doel](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in de documentatie van *Adobe Experience Manager 6.5* .
+* **[!DNL AEM]6.3 **: Een ervaringsfragment[exporteren naar doel](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)in de documentatie van *Adobe Experience Manager 6.3*.
+* **[!DNL AEM]6.4 **: Een ervaringsfragment[exporteren naar doel](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)in de documentatie van *Adobe Experience Manager 6.4*.
+* **[!DNL AEM]6.5 **: Een ervaringsfragment[exporteren naar doel](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)in de documentatie van *Adobe Experience Manager 6.5*.
 
-## Werken met ervaringsfragmenten in doelactiviteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Werken met ervaringsfragmenten in DNL Target-activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
-Nadat u de voorgaande taken hebt uitgevoerd, wordt het ervaringsfragment weergegeven op de [!UICONTROL Offers] pagina in Doel.
+Nadat u de voorgaande taken hebt uitgevoerd, wordt het ervaringsfragment weergegeven op de pagina [!UICONTROL Aanbiedingen] in [!DNL Target].
 
 >[!NOTE]
 >
@@ -86,32 +86,32 @@ Nadat u de voorgaande taken hebt uitgevoerd, wordt het ervaringsfragment weergeg
 
 >[!IMPORTANT]
 >
->Het ervaringsfragment wordt momenteel geïmporteerd in [!DNL Target] de vorm van een HTML-aanbieding. Het ervaringsfragment &quot;master&quot;-versie blijft in AEM. U kunt het ervaringsfragment niet bewerken in Doel.
+>Het ervaringsfragment wordt momenteel geïmporteerd in [!DNL Target] de vorm van een HTML-aanbieding. Het ervaringsfragment &#39;master&#39;-versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 
-U kunt de muisaanwijzer boven een ervaringsfragment in de lijst houden en vervolgens op het pictogram ![](assets/icon_info.png) Weergave klikken om aanvullende informatie over het ervaringsfragment weer te geven, zoals de URL voor de openbare aanbieding, het AEM-pad en een diepe koppeling om het ervaringsfragment in AEM te openen.
+U kunt de muisaanwijzer boven een ervaringsfragment in de lijst plaatsen en vervolgens op het pictogram [!UICONTROL Weergave] -pictogram ![Weergave](assets/icon_info.png) klikken om aanvullende informatie over het ervaringsfragment weer te geven, inclusief de URL voor de openbare aanbieding en het bijbehorende [!DNL AEM] pad.
 
-U kunt de Fragmenten van de Ervaring in [!DNL Target] activiteiten gebruiken gebruikend Composer [van de](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) Visuele Ervaring (VEC) of de [vorm-Gebaseerde Composer](/help/c-experiences/form-experience-composer.md)van de Ervaring.
+U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend de Composer [van de](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) Visuele Ervaring (VEC) of de [Formulier-Gebaseerde Composer](/help/c-experiences/form-experience-composer.md)van de Ervaring.
 
 >[!NOTE]
 >
 >Als u de [!DNL Target] AI- en ML-functionaliteit volledig wilt gebruiken, selecteert u [Automatisch toewijzen](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) tijdens het maken van een A/B-test.
 
-**Om de Fragmenten van de Ervaring te verbruiken gebruikend VEC:**
+**Ervaar fragmenten met de VEC als u deze wilt gebruiken:**
 
-1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in Composer [van de](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)Visuele Ervaring, klik de plaats op de pagina waar u AEM inhoud wilt opnemen, dan selecteer de gewenste optie om de [!UICONTROL Choose an Experience Fragment] lijst te tonen.
+1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in Composer [van de](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)Visuele Ervaring, klik de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, dan selecteer de gewenste optie om de [!UICONTROL Choose een lijst van het Fragment] van de Ervaring te tonen.
 
-   * [!UICONTROL Insert Before]
-   * [!UICONTROL Insert After]
-   * [!UICONTROL Swap with Experience Fragment]
-   In de [!UICONTROL Experience Fragment] lijst wordt alle inhoud weergegeven die in AEM is gemaakt en die nu oorspronkelijk beschikbaar is vanuit de lijst [!DNL Target].
+   * [!UICONTROL Invoegen voor]
+   * [!UICONTROL Invoegen na]
+   * [!UICONTROL Omwisselen met ervaringsfragment]
+   In de lijst [!UICONTROL Experience Fragment] worden alle inhoud weergegeven die is gemaakt in [!DNL AEM] dat nu standaard beschikbaar is vanuit [!DNL Target].
 
    >[!NOTE]
    >
-   >De [!UICONTROL Swap with Experience Fragment] optie is niet beschikbaar voor afbeeldingen. Als u deze optie bij een afbeelding wilt gebruiken, klikt u op het containerelement dat de gewenste afbeelding bevat.
+   >De optie [!UICONTROL Omwisselen met ervaringsfragment] is niet beschikbaar voor afbeeldingen. Als u deze optie bij een afbeelding wilt gebruiken, klikt u op het containerelement dat de gewenste afbeelding bevat.
 
    ![](assets/experience_fragment_list.png)
 
-1. Selecteer het gewenste ervaringsfragment en klik op **[!UICONTROL Done]**.
+1. Selecteer het gewenste ervaringsfragment en klik op **[!UICONTROL Gereed]**.
 1. Voltooi de configuratie van de activiteit.
 
    Voor meer informatie over het vormen van de diverse activiteitentypes, zie de volgende onderwerpen:
@@ -124,27 +124,31 @@ U kunt de Fragmenten van de Ervaring in [!DNL Target] activiteiten gebruiken geb
    * **MVT (Multivariate Test):** Een multivariatietest [maken](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Aanbevelingen:** Activiteit voor aanbevelingen [maken](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-**Met de Form-based Experience Composer kunt u Experience Fragments gebruiken:**
+**Ervaar fragmenten op basis van de Form-based Experience Composer:**
 
-1. Selecteer tijdens het maken of bewerken van [!DNeen ervaring in de]Form-Based Experience Composer [in Doel](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)de locatie op de pagina waar u AEM-inhoud wilt invoegen en selecteer vervolgens **[!UICONTROL Change Experience Fragment]** om de [!UICONTROL Choose an Experience Fragment] lijst weer te geven.
+1. Selecteer tijdens het maken of bewerken van [!DNeen ervaring in de]Form-Based Experience Composer [in Doel](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)de locatie op de pagina waar u [!DNL AEM] inhoud wilt invoegen en selecteer vervolgens Fragment **** wijzigen om de lijst [!UICONTROL Choose an Experience Fragment] weer te geven.
 
    ![](assets/experience_fragment_list.png)
 
-   In de [!UICONTROL Experience Fragment] lijst wordt alle inhoud weergegeven die in AEM is gemaakt en die nu oorspronkelijk beschikbaar is vanuit de lijst [!DNL Target].
+   In de lijst [!UICONTROL Experience Fragment] worden alle inhoud weergegeven die is gemaakt in [!DNL AEM] dat nu standaard beschikbaar is vanuit [!DNL Target].
 
-1. Selecteer het gewenste ervaringsfragment en klik op **[!UICONTROL Save]**.
+1. Selecteer het gewenste ervaringsfragment en klik op **[!UICONTROL Opslaan]**.
 1. Voltooi de configuratie van de activiteit.
 
 ## Overwegingen {#considerations}
 
 * [!DNL Target] zoekt momenteel naar ervaringsfragmenten die om de tien minuten moeten worden geïmporteerd. Het geïmporteerde ervaringsfragment moet binnen tien [!DNL Target] minuten beschikbaar zijn, maar dit tijdsbestek kan de voortgang verkorten.
-* Het ervaringsfragment wordt momenteel geïmporteerd in [!DNL Target] de vorm van een HTML-aanbieding. Het ervaringsfragment &quot;master&quot;-versie blijft in AEM. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
+* Het ervaringsfragment wordt momenteel geïmporteerd in [!DNL Target] de vorm van een HTML-aanbieding. Het ervaringsfragment &#39;master&#39;-versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 * U kunt JSON-aanbiedingen importeren als ervaringsfragmenten in [!DNL Target]. Deze aanbiedingen worden echter geïmporteerd als HTML-aanbiedingen. JSON-aanbiedingen (ervaringsfragmenten) worden momenteel niet volledig ondersteund in de [!DNL Target] gebruikersinterface.
 
-## Trainingsvideo: AEM Experience Fragments gebruiken met Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
+## Trainingsvideo: DNL AEM ervaart fragmenten met Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 In de volgende video ziet u hoe u ervaringsfragmenten instelt en gebruikt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+>[!NOTE]
+>
+>De functie voor [!DNL AEM] verdiepen die in 4:54 wordt besproken, is verwijderd.
 
 Zie [Experience Fragments gebruiken met Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) op de pagina Video&#39;s en zelfstudies voor *AEM-sites* voor meer informatie.
