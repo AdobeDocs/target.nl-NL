@@ -5,7 +5,7 @@ title: Toepassing van één pagina in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ Hoewel in deze voorbeelden JavaScript-code wordt gebruikt, kan dit alles worden 
 
 Als de voorafgaande stappen worden gevolgd zou u een robuuste oplossing A4T voor SPAs moeten hebben.
 
-## Best practices implementeren
+## Best practices implementeren {#bp}
 
 met API&#39;s van het type at.js 2.x kunt u uw [!DNL Target] implementatie op verschillende manieren aanpassen, maar het is belangrijk dat u de juiste volgorde van bewerkingen tijdens dit proces volgt.
 
