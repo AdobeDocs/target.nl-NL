@@ -5,7 +5,7 @@ title: Toepassing van één pagina in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
+source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
 
 ---
 
@@ -283,7 +283,7 @@ De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoer
 | 1 | Bezoeker-API JS laden | Deze bibliotheek is verantwoordelijk voor het toewijzen van een ECID aan de bezoeker. Deze id wordt later gebruikt door andere [!DNL Adobe] oplossingen op de webpagina. |
 | 2 | Laden bij.js 2.x | at.js 2.x laadt alle noodzakelijke APIs die u gebruikt om [!DNL Target] verzoeken en meningen uit te voeren. |
 | 3 | Uitvoeren van [!DNL Target] verzoek | Als u een gegevenslaag hebt, adviseren wij dat u kritieke gegevens laadt die worden vereist om naar te verzenden [!DNL Target] alvorens een [!DNL Target] verzoek uit te voeren. Hiermee kunt u alle gegevens verzenden die u wilt gebruiken `targetPageParams` voor het opgeven van doelen. U moet ervoor zorgen dat u in deze API-aanroep een verzoek indient voor uitvoering > pageLoad en prefetch > weergaven. als u hebt ingesteld `pageLoadEnabled` en `viewsEnabled`, worden beide opties > pageLoad en prefetch > weergaven automatisch uitgevoerd met Stap 2. anders moet u de `getOffers()` API gebruiken om deze aanvraag in te dienen. |
-| 4 | Bellen `triggerView()` | Omdat het [!DNL Target] verzoek u in Stap 3 in werking stelde ervaringen voor zowel de uitvoering van de Lading van de Pagina als Mening kon terugkeren, zorg ervoor dat `triggerView()` wordt geroepen nadat het [!DNL Target] verzoek is teruggekeerd en beëindigt het toepassen van de aanbiedingen in het geheime voorgeheugen. U moet deze stap slechts eenmaal per weergave uitvoeren. |
+| 4 | Bellen `triggerView()` | Omdat het [!DNL Target] verzoek u in Stap 3 in werking stelde ervaringen voor zowel de uitvoering van de Lading van de Pagina als Mening kon terugkeren, zorg ervoor dat `triggerView()` wordt geroepen nadat het [!DNL Target] verzoek is teruggekeerd en beëindigt het toepassen van de aanbiedingen aan geheime voorgeheugen. U moet deze stap slechts eenmaal per weergave uitvoeren. |
 | 5 | Roep het [!DNL Analytics] paginaweergavebaken aan | Dit baken verzendt SDID verbonden aan Stap 3 en 4 naar [!DNL Analytics] voor gegevens het stitching. |
 | 6 | Aanvullende oproep `triggerView({"page": false})` | Dit is een facultatieve stap voor het kader van het KUUROORD dat bepaalde componenten op de pagina zonder een meningsverandering kon potentieel opnieuw teruggeven. In dergelijke gevallen, is het belangrijk dat u deze API aanhaalt om ervoor te zorgen dat de [!DNL Target] ervaringen opnieuw worden toegepast nadat het kader van het KUUROORD de componenten opnieuw heeft teruggegeven. U kunt deze stap zo vaak uitvoeren aangezien u wilt ervoor zorgen dat de [!DNL Target] ervaringen in uw meningen van het KUUROORD blijven. |
 
@@ -292,7 +292,7 @@ De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoer
 | Stap | Handeling | Details |
 | --- | --- | --- |
 | 1 | Bellen `visitor.resetState()` | Deze API zorgt ervoor dat de SDID opnieuw wordt gegenereerd voor de nieuwe weergave terwijl deze wordt geladen. |
-| 2 | Cache bijwerken door de `getOffer()` API aan te roepen | Dit is een optionele stap als deze gezichtswijziging de huidige bezoeker kan kwalificeren voor meer [!DNL Target] activiteiten of hen van activiteiten kan diskwalificeren. Op dit punt kunt u er ook voor kiezen om aanvullende gegevens te verzenden [!DNL Target] voor het mogelijk maken van verdere doelmogelijkheden. |
+| 2 | Cache bijwerken door de `getOffers()` API aan te roepen | Dit is een optionele stap als deze gezichtswijziging de huidige bezoeker kan kwalificeren voor meer [!DNL Target] activiteiten of hen van activiteiten kan diskwalificeren. Op dit punt kunt u er ook voor kiezen om aanvullende gegevens te verzenden [!DNL Target] voor het mogelijk maken van verdere doelmogelijkheden. |
 | 3 | Bellen `triggerView()` | Als u Stap 2 hebt uitgevoerd, dan moet u op het [!DNL Target] verzoek wachten en de aanbiedingen op geheim voorgeheugen toepassen alvorens deze stap uit te voeren. U moet deze stap slechts eenmaal per weergave uitvoeren. |
 | 4 | Bellen `triggerView()` | Als u Stap 2 niet hebt uitgevoerd, kunt u deze stap uitvoeren zodra u Stap 1 voltooit. Als u Stap 2 en Stap 3 hebt uitgevoerd, dan zou u deze stap moeten overslaan. U moet deze stap slechts eenmaal per weergave uitvoeren. |
 | 5 | Roep het [!DNL Analytics] paginaweergavebaken aan | Dit baken verzendt SDID verbonden aan Stap 2, 3, en 4 naar [!DNL Analytics] voor gegevens het stitching. |
