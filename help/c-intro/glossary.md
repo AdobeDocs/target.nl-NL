@@ -4,7 +4,7 @@ title: Adobe Target Verklarende woordenlijst
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ Een betrokkenheidstype dat de tijd vertegenwoordigt die tijdens het bezoek (in s
 Alle verwijzende pagina- en pagina-URL-variabelen worden automatisch aan een box doorgegeven wanneer de pagina met het mbox door een bezoeker wordt weergegeven. Deze URL-variabelen kunt u vervolgens gebruiken via de filters voor het opgeven van doelen of segmentering in rapporten.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**bezoek**
+
+Een bezoek wordt soms een zitting genoemd. Een bezoek eindigt na 30 minuten inactiviteit, die betekent minstens 30 minuten tussen serververzoeken aan Doel zijn overgegaan.
 
 **bezoeker**
 
