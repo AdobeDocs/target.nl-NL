@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ In plaats van op alle gerichte verzoeken van één enkele plaats te antwoorden, 
 >
 >[!DNL Adobe Target] heeft momenteel geen Edge-netwerk in China en de prestaties van de eindgebruiker blijven beperkt voor [!DNL Target] klanten in China. Wegens de firewall en het gebrek aan knopen van de Rand binnen het land, zullen de ervaringen van plaatsen met [!DNL Target] opgesteld langzaam teruggeven zijn en paginaladingen zullen worden beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
 
+U kunt desgewenst een whitelist-lijst maken met opmerkingen over de rand van het doel. Zie Edge-knooppunten [van](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)whitelist-doel voor meer informatie.
+
 ## Ervaring met beveiligde gebruikers {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe zorgt ervoor dat de beschikbaarheid en prestaties van de doelinfrastructuur zo betrouwbaar mogelijk zijn. Een communicatieafbraak tussen de browser van een eindgebruiker en de servers van Adobe kan echter een onderbreking in de levering van inhoud veroorzaken.
@@ -131,7 +133,7 @@ Google moedigt gebruikerstests aan en heeft in zijn documentatie verklaard dat A
 Zie de volgende Google-bronnen voor meer informatie:
 
 * [Testen van websites en Google Search](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimenten en kleding](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [Experimenten en kleding](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 Richtlijnen werden gepresenteerd in een [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) -bericht. Hoewel de post dateert van 2012, blijft de meest recente verklaring van Google over deze kwestie en blijven de richtsnoeren relevant.
 
@@ -155,7 +157,7 @@ Richtlijnen werden gepresenteerd in een [Google Webmaster Central Blog](https://
 
    Het is belangrijk om te overwegen wat uw test ook is veranderd. Als u de kleur van knoppen of andere kleine, niet-tekstuele items op de pagina bijwerkt, heeft dit geen invloed op de organische waarderingen. Wijzigingen in tekst moeten echter wel worden gecodeerd.
 
-   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te innemen in de zoekfunctie, zoals een speciale bestemmingspagina voor een e-mailcampagne, zijn geen van de bovenstaande overwegingen van toepassing.
+   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te krijgen in de zoekfunctie, zoals een speciale bestemmingspagina voor een e-mailcampagne, zijn geen van de bovenstaande overwegingen van toepassing.
 
 Google stelt dat het volgen van deze richtlijnen &quot;ertoe zou moeten leiden dat uw tests weinig of geen invloed hebben op uw site in zoekresultaten.&quot;
 
