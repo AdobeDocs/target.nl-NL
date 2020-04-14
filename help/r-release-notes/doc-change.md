@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -18,6 +18,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 april | [Whitelist-Edge-hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nieuw onderwerp. |
 | 10 april | [Toepassing van één pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nieuwe sectie toegevoegd: &quot;Best practices implementeren.&quot; |
 | 7 april | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Bijgewerkte tekst voor &quot;Waarom kan ik geen lift en vertrouwen op berekende metriek zien?&quot; |
 | 2 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Toegevoegde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. |
@@ -324,7 +325,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Bijgewerkt van de voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 4 april 2019 | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 30 maart 2019 | [Limieten](/help/r-troubleshooting-target/target-limits.md#excludedid) | Toegevoegde informatie over de limieten van de parameter `excludedID` mbox. |
-| 29 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
+| 19 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
 | 28 maart 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | De volgende nieuwe secties toegevoegd:<ul><li>[Het laden van een pagina in de VEC annuleren.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Bewerk een pagina terwijl de pagina wordt geladen of nadat de pagina niet is geladen](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
 |  | [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Nieuwe sectie: &quot;[Navigeren door elementen met het DOM-pad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).&quot; |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | Er is een bekend probleem toegevoegd over wanneer u het laden van een pagina in de VEC annuleert. |
@@ -339,7 +340,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Kenmerken](/help/r-troubleshooting-target/target-limits.md)<br>[van aangepaste entiteit Limits](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) | Toegevoegde informatie over limieten van aangepaste entiteitskenmerken. |
 |  | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers) | Bijgewerkte tekst. |
 |  | [Nieuwe criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom) | Nieuwe sectie toegevoegd waarin wordt uitgelegd hoe u op profielen gebaseerde groepen voor populariteitsalgoritmen kunt maken: &quot;Gebruik een sleutel voor aangepaste aanbevelingen.&quot; |
-| 19 maart 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
+| 29 maart 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
 |  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Steunt A4T virtuele rapportsuites?&quot; |
 | 18 maart 2019 | [Opmerkingen bij de doelversie (prerelease)](/help/r-release-notes/target-release-notes.md) en [op.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
 |  | [Methoden om gegevens op te halen uit de kenmerken Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) en [Klant](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Toegevoegd: U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/). |
