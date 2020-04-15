@@ -5,18 +5,18 @@ title: Whitelist Adobe Target edge nodes
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
 
 ---
 
 
 # Whitelist Target edge nodes
 
-Informatie en een bijgewerkte lijst met hosts voor een whitelist van de randen van Adobe Target.
+Informatie en een bijgewerkte lijst met hosts voor een whitelist van Adobe- [!DNL Target] randen.
 
-Een rand is een geografisch verspreide serverende architectuur die optimale reactietijden voor eindgebruikers verzekert die inhoud, ongeacht waar zij rond de wereld worden gevestigd vragen. Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en om analysegegevens over die aanvraag bij te houden. Gebruikersverzoeken worden naar het dichtstbijzijnde randknooppunt gerouteerd. Zie [Het Edge-netwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Hoe werkt* Adobe Target voor meer informatie.
+Een rand is een geografisch verspreide serverende architectuur die optimale reactietijden voor eindgebruikers verzekert die inhoud, ongeacht waar zij rond de wereld worden gevestigd vragen. Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en om analysegegevens over die aanvraag bij te houden. Gebruikersverzoeken worden naar het dichtstbijzijnde randknooppunt gerouteerd. Zie [Het Edge-netwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Hoe[!DNL Target]werkt* Adobe voor meer informatie.
 
-U kunt indien gewenst een whitelist-Edge-knooppunten maken.
+Desgewenst kunt u [!DNL Target] randknooppunten van een whitelist weergeven.
 
 In de volgende lijst staan de huidige hosts:
 
