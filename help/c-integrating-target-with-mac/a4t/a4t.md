@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -78,27 +78,27 @@ Omdat alle activiteitstypen A4T nog niet ondersteunen, wordt u aangeraden belang
 
 ## Voorbeelden van A4T-rapporten {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Als u A4T-rapporten wilt weergeven in [!DNL Target], klikt u op **[!UICONTROL Activities]** de gewenste activiteit in de lijst die [!DNL Analytics] als rapportbron wordt gebruikt > en klikt u vervolgens op het **[!UICONTROL Reports]** tabblad.
+Als u A4T-rapporten wilt weergeven in [!DNL Target], klikt u op **[!UICONTROL Activiteiten]**, klikt u op de gewenste activiteit in de lijst die wordt gebruikt [!DNL Analytics] als de rapportbron > en klikt u vervolgens op het tabblad **[!UICONTROL Rapporten]** .
 
 >[!NOTE]
 >
->U kunt de [!UICONTROL Reporting Source] drop-down lijst bij de bovenkant van de [!UICONTROL Activities] pagina gebruiken om slechts activiteiten te tonen die [!DNL Analytics] als rapporteringsbron gebruiken.
+>U kunt de [!UICONTROL Rapporterende Bron] drop-down lijst bij de bovenkant van de pagina van [!UICONTROL Activiteiten] gebruiken om slechts activiteiten te tonen die [!DNL Analytics] als rapporteringsbron gebruiken.
 
-U kunt tussen de Mening van de Lijst en [!UICONTROL Graph View] van het rapport van een knevel voorzien door het aangewezen pictogram bij de hoogste juiste kant van het rapport te klikken.
+U kunt tussen de Mening van de Lijst en de Mening [!UICONTROL van de] Grafiek van het rapport van een knevel voorzien door het aangewezen pictogram bij de hoogste juiste kant van het rapport te klikken.
 
-De volgende illustratie toont de [!UICONTROL Graph View] van een rapport A4T met de [!UICONTROL Report Metric] drop-down lijst die de beschikbare [!DNL Analytics] doelmetriek toont:
+De volgende illustratie toont de Mening [!UICONTROL van de] Grafiek van een rapport A4T met de [!UICONTROL Metrische] vervolgkeuzelijst van het Rapport die de beschikbare [!DNL Analytics] doelmetriek toont:
 
 ![](assets/a4t_report_graph1.png)
 
-De volgende afbeelding toont de [!UICONTROL Graph View] vorm van een A4T-rapport met de [!UICONTROL Audience] vervolgkeuzelijst waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
+In de volgende afbeelding ziet u de [!UICONTROL Grafiekweergave] van een A4T-rapport met de vervolgkeuzelijst [!UICONTROL Publiek] waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
 
 ![](assets/a4t_report_graph2.png)
 
-In de volgende afbeelding wordt de [!UICONTROL Table View] vorm van een A4T-rapport getoond:
+In de volgende afbeelding ziet u de [!UICONTROL tabelweergave] van een A4T-rapport:
 
 ![](assets/a4t_report_table.png)
 
-Als u het rapport wilt weergeven in [!DNL Analytics] plaats van in [!DNL Target], klikt u **[!UICONTROL View in Analytics]** boven aan het rapport.
+Als u het rapport in [!DNL Analytics] plaats van in [!DNL Target]wilt weergeven, klikt u op **[!UICONTROL Weergeven in Analytics]** boven aan het rapport.
 
 ## Analyse en doel: Best practices voor zelfstudie analyse {#section_3438E6E77A464424B717A4FD333B84B2}
 
@@ -118,7 +118,7 @@ In deze video wordt uitgelegd hoe u Adobe Analytics kunt gebruiken als rapporter
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Target Integration (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png
+### Zelfstudie voor Analytics / Target Integration (A4T) (40:33) ![](/help/assets/tutorial.png)
 
 Deze video is een opname van &quot; [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, een initiatief van het team van de klantenservice van Adobe.
 
