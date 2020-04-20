@@ -5,7 +5,7 @@ title: 'Opmerkingen bij de release Adobe Target (huidig) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
+source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 ---
 
@@ -16,7 +16,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 >[!NOTE]
 >
->* **afdruk** mbox.js: Op 30 augustus 2020 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 30 augustus 2020, zullen alle vraag die van mbox.js wordt gemaakt ontbreken en zullen uw pagina&#39;s beïnvloeden die de actieve activiteiten van het Doel hebben. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)At.js voor meer informatie.
+>* **afdruk** mbox.js: Op 30 augustus 2020 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 30 augustus 2020, zullen alle vraag die van mbox.js wordt gemaakt ontbreken en zullen uw pagina&#39;s beïnvloeden die de actieve activiteiten van het Doel hebben. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)At.js voor meer informatie. Zie *Adobe Target Skill Builder: Chat ontwikkelaar, migreer mbox.js van Adobe Target aan om.js* hieronder voor informatie over het registreren voor een aanstaande ontwikkelaarpraatje over dit onderwerp.
    >
    >   
    Hoewel mbox.js momenteel wordt ondersteund, hebben we sinds juli 2017 geen functie-updates voor deze bibliotheek beschikbaar gesteld. Het nieuwere bestand at.js biedt veel voordelen ten opzichte van mbox.js. Met at.js verbetert u onder andere de laadtijden van pagina&#39;s voor webimplementaties, verbetert u de beveiliging en biedt u betere implementatieopties voor toepassingen op één pagina.
@@ -26,6 +26,14 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
+
+## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate mbox.js van Adobe Target aan at.js {#skill-builder}
+
+Sluit u aan bij David Son, Adobe Target Product Manager, als u de voordelen van het migreren van mbox.js naar at.js inziet. Heer de recentste updates at.js, leer over zijn verbeterde mogelijkheden en hoe zij zich aan grotere tendensen in het technische landschap richten, evenals sommige praktische uiteinden om ervoor te zorgen dat u evenveel waarde van Doel haalt wanneer u van mbox.js aan at.js migreert. Adobe Target Developers will not want to don&#39;t!
+
+Dinsdag 5 mei, 8:00 - 9:00 (PDT)
+
+[Nu hier registreren!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
 ## Doel om.js (25 maart 2020)
 
