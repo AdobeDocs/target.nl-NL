@@ -5,7 +5,7 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: a6de4442ff6b3c8ad3eb18a8105f71458e43f097
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 20 april 2020**
+**Laatst bijgewerkt: 21 april 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -49,6 +49,77 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem verholpen waarbij sommige gebruikers items niet konden verwijderen uit een catalogus met aanbevelingen. (TGT-36455)
 * Probleem verholpen waardoor gebruikers geen criteria voor Aanbevelingen konden opslaan voor activiteiten van meerdere pagina&#39;s. (TGT-36249)
 * Probleem verholpen waarbij een algoritme met aanbevelingen een lange periode &#39;ophaalresultaten&#39; weergaf. (TGT-36550 &amp; TGT-36551)
+
+## Wijzigingen in de profielbatchstatus-API v2 (4 mei 2020)
+
+Met de release van 4 mei retourneert de profielbatchstatus alleen gegevens voor mislukkingen op rijniveau die worden uitgevoerd (succesgegevens worden niet geretourneerd). Mislukte profiel-id&#39;s worden door de API geretourneerd.
+
+De vorige en nieuwe API-reacties zijn als volgt:
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**Momenteel zien we het antwoord als:**
+
+`https://mboxedge17.tt.omtrdc.net/m2/amazonwebservicesinc/v2/profile/batchStatus?batchId=amazonwebservicesinc-1585929692655-59449976`
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**Na 4 mei zal het antwoord zijn:**
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
