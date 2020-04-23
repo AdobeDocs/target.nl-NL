@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -18,6 +18,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 23 april | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
 | 22 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Nieuwe sectie toegevoegd: Wijzigingen in de *profielbatchstatus-API v2 (4 mei 2020).* |
 | 20 april | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Nieuwe sectie toegevoegd: *Adobe Target Skill Builder: Chat ontwikkelaar, migreer mbox.js van Adobe Target aan at.js.* |
 | 14 april | [Whitelist-Edge-hosts](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nieuw onderwerp. |
@@ -70,7 +71,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 9 januari 2020 | [De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Bijgewerkte tekst.<br>Na 1 maart 2020 biedt Adobe Target geen ondersteuning meer voor TLS 1.1-codering voor Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), activity delivery, API&#39;s, enz. Upgrade vóór 1 maart 2020 naar TLS 1.2 om problemen te voorkomen. |
 | 6 januari 2020 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekend probleem met de status van de feed Custom Criteria toegevoegd. |
 | 19 december 2019 | [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Informatie over versie 1.1.0 toegevoegd. |
-| 12 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
+| 11 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
 |  | [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Benoemd onderwerp en toegevoegd de volgende sectie: &quot;Werken met rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen.&quot; |
 | 11 december 2019 | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nieuwe veelgestelde vragen toegevoegd: &quot;Hoe evalueert Doel URLs in het richten?&quot; |
 | 10 december 2019 | [Doelgrenzen](/help/r-troubleshooting-target/target-limits.md) | De sectie mbox-parameters is bijgewerkt. |
@@ -327,7 +328,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Bijgewerkt van de voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 4 april 2019 | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 30 maart 2019 | [Limieten](/help/r-troubleshooting-target/target-limits.md#excludedid) | Toegevoegde informatie over de limieten van de parameter `excludedID` mbox. |
-| 19 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
+| 29 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
 | 28 maart 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | De volgende nieuwe secties toegevoegd:<ul><li>[Het laden van een pagina in de VEC annuleren.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Bewerk een pagina terwijl de pagina wordt geladen of nadat de pagina niet is geladen](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
 |  | [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Nieuwe sectie: &quot;[Navigeren door elementen met het DOM-pad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).&quot; |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | Er is een bekend probleem toegevoegd over wanneer u het laden van een pagina in de VEC annuleert. |
