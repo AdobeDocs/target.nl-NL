@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -13,6 +13,12 @@ source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 # Documentatiewijzigingen{#documentation-changes}
 
 Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productdocumentatie zijn aangebracht.
+
+## Adobe Target Standard/Premium 20.4.1 (27 april 2020)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 27 april | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.4.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 20.2.1 (19 februari 2020)
 
@@ -71,7 +77,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 9 januari 2020 | [De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Bijgewerkte tekst.<br>Na 1 maart 2020 biedt Adobe Target geen ondersteuning meer voor TLS 1.1-codering voor Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), activity delivery, API&#39;s, enz. Upgrade vóór 1 maart 2020 naar TLS 1.2 om problemen te voorkomen. |
 | 6 januari 2020 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekend probleem met de status van de feed Custom Criteria toegevoegd. |
 | 19 december 2019 | [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Informatie over versie 1.1.0 toegevoegd. |
-| 11 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
+| 12 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
 |  | [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Benoemd onderwerp en toegevoegd de volgende sectie: &quot;Werken met rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen.&quot; |
 | 11 december 2019 | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nieuwe veelgestelde vragen toegevoegd: &quot;Hoe evalueert Doel URLs in het richten?&quot; |
 | 10 december 2019 | [Doelgrenzen](/help/r-troubleshooting-target/target-limits.md) | De sectie mbox-parameters is bijgewerkt. |
@@ -314,7 +320,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende problemen voor uitsluitingsgroepen verplaatst naar de tabel met opgeloste problemen. |
 | 11 april 2019 | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte codevoorbeelden. |
 |  | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Toegevoegde schermafbeeldingen. |
-|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?&quot; |
+|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces om een winnaar te bepalen te versnellen?&quot; |
 | 10 april 2019 | [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Kleine tekstupdates voor de sectie &quot;Implementatievereisten&quot; (vereisten opnieuw geordend). |
 |  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Bijgewerkte tekst voor de parameter &quot;options > page&quot;. |
 | 8 april 2019 | [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | Bijgewerkte [verwachte gegevensvariantie bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
@@ -328,7 +334,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Bijgewerkt van de voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 4 april 2019 | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 30 maart 2019 | [Limieten](/help/r-troubleshooting-target/target-limits.md#excludedid) | Toegevoegde informatie over de limieten van de parameter `excludedID` mbox. |
-| 29 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
+| 19 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
 | 28 maart 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | De volgende nieuwe secties toegevoegd:<ul><li>[Het laden van een pagina in de VEC annuleren.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Bewerk een pagina terwijl de pagina wordt geladen of nadat de pagina niet is geladen](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
 |  | [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Nieuwe sectie: &quot;[Navigeren door elementen met het DOM-pad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).&quot; |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | Er is een bekend probleem toegevoegd over wanneer u het laden van een pagina in de VEC annuleert. |
@@ -431,7 +437,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 29 november 2018 | [ Schatting van het verkeer dat nodig is voor een geslaagde test](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) | Kleine tekstupdates en bijgewerkte afbeeldingen. |
 | 27 november 2018 | [ Activiteiten ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) | Tekst en afbeeldingen zijn bijgewerkt. |
 |  | [ Profielscriptkenmerken ](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2) | Opmerking toegevoegd: Target heeft een limiet van 1.000 profielscripts per account. |
-| 15 november 2018 | [ Opmerkingen bij de doelversie (huidig) Opmerkingen bij de ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ doelversie (pre-release) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ om.js versiedetails ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Informatie toegevoegd over at.js versie 1.6.4. |
+| 15 november 2018 | [ Opmerkingen bij de doelversie (huidig) Opmerkingen bij de ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ doelversie (pre-release) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ om.js versiedetails ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Informatie over at.js versie 1.6.3 toegevoegd. |
 |  | [ Persoonlijkheidsrapporten ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) | Nieuwe onderwerpen toegevoegd voor de nieuwe rapporten van de Inzichten van de Personalisatie:  Geautomatiseerde segmenten en belangrijke kenmerken. |
 | 14 november 2018 | Release 18.11.1 [ Opmerkingen bij de doelversie (huidige) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
