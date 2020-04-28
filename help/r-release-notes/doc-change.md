@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -18,6 +18,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 28 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Verwijderde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. Deze opdracht werkt nu met nieuwere AWS-randen. |
+|  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Gewijzigde datum van de introductie van Target Standard/Premium (20.4.1) in mei 6. |
 | 23 april | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
 | 22 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Nieuwe sectie toegevoegd: Wijzigingen in de *profielbatchstatus-API v2 (4 mei 2020).* |
 | 20 april | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Nieuwe sectie toegevoegd: *Adobe Target Skill Builder: Chat ontwikkelaar, migreer mbox.js van Adobe Target aan at.js.* |
@@ -71,7 +73,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 9 januari 2020 | [De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Bijgewerkte tekst.<br>Na 1 maart 2020 biedt Adobe Target geen ondersteuning meer voor TLS 1.1-codering voor Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), activity delivery, API&#39;s, enz. Upgrade vóór 1 maart 2020 naar TLS 1.2 om problemen te voorkomen. |
 | 6 januari 2020 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekend probleem met de status van de feed Custom Criteria toegevoegd. |
 | 19 december 2019 | [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Informatie over versie 1.1.0 toegevoegd. |
-| 12 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
+| 11 december 2019 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkte sectie Veelgestelde vragen. |
 |  | [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Benoemd onderwerp en toegevoegd de volgende sectie: &quot;Werken met rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen.&quot; |
 | 11 december 2019 | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Nieuwe veelgestelde vragen toegevoegd: &quot;Hoe evalueert Doel URLs in het richten?&quot; |
 | 10 december 2019 | [Doelgrenzen](/help/r-troubleshooting-target/target-limits.md) | De sectie mbox-parameters is bijgewerkt. |
@@ -343,7 +345,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Kenmerken](/help/r-troubleshooting-target/target-limits.md)<br>[van aangepaste entiteit Limits](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) | Toegevoegde informatie over limieten van aangepaste entiteitskenmerken. |
 |  | [Veelgestelde vragen over doelen en doelgroepen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers) | Bijgewerkte tekst. |
 |  | [Nieuwe criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom) | Nieuwe sectie toegevoegd waarin wordt uitgelegd hoe u op profielen gebaseerde groepen voor populariteitsalgoritmen kunt maken: &quot;Gebruik een sleutel voor aangepaste aanbevelingen.&quot; |
-| 29 maart 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
+| 19 maart 2019 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
 |  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Steunt A4T virtuele rapportsuites?&quot; |
 | 18 maart 2019 | [Opmerkingen bij de doelversie (prerelease)](/help/r-release-notes/target-release-notes.md) en [op.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Extra informatie over at.js versies 2.0.1 en 1.7.1. |
 |  | [Methoden om gegevens op te halen uit de kenmerken Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) en [Klant](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Toegevoegd: U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/). |
@@ -431,7 +433,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 29 november 2018 | [ Schatting van het verkeer dat nodig is voor een geslaagde test](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) | Kleine tekstupdates en bijgewerkte afbeeldingen. |
 | 27 november 2018 | [ Activiteiten ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) | Tekst en afbeeldingen zijn bijgewerkt. |
 |  | [ Profielscriptkenmerken ](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2) | Opmerking toegevoegd: Target heeft een limiet van 1.000 profielscripts per account. |
-| 15 november 2018 | [ Opmerkingen bij de doelversie (huidig) Opmerkingen bij de ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ doelversie (pre-release) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ om.js versiedetails ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Informatie over at.js versie 1.6.3 toegevoegd. |
+| 15 november 2018 | [ Opmerkingen bij de doelversie (huidig) Opmerkingen bij de ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ doelversie (pre-release) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ om.js versiedetails ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Informatie toegevoegd over at.js versie 1.6.4. |
 |  | [ Persoonlijkheidsrapporten ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) | Nieuwe onderwerpen toegevoegd voor de nieuwe rapporten van de Inzichten van de Personalisatie:  Geautomatiseerde segmenten en belangrijke kenmerken. |
 | 14 november 2018 | Release 18.11.1 [ Opmerkingen bij de doelversie (huidige) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
