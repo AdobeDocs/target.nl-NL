@@ -5,7 +5,7 @@ title: Profiel en verklarende woordenlijst voor variabelen
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -28,7 +28,7 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | user.daysSinceLastVisit |  |
 | user.browser | De gebruikersagent |
 | user.header | Alle `user.header` profielen zijn ingebouwd uit de headergegevens van de box-aanvraag |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>orUser.header(&#39;x-door:sturen-for&#39;) | Het openbaar-onder ogen ziet IP adres van de netwerkverbinding die de bezoeker is.<br>OPMERKING: De header user.header(&#39;x-cluster-client-ip&#39;) werkt niet in nieuwere AWS-randen.<br>U kunt dit op verschillende manieren krijgen, bijvoorbeeld [whatismyip.com](https://www.whatismyip.com/). Het IP adres is niet het NATIONAAL adres (intern adres), beginnend met 10., 192.168., of 172. |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>orUser.header(&#39;x-door:sturen-for&#39;) | Het openbaar-onder ogen ziet IP adres van de netwerkverbinding die de bezoeker is.<br>U kunt dit op verschillende manieren krijgen, bijvoorbeeld [whatismyip.com](https://www.whatismyip.com/). Het IP adres is niet het NATIONAAL adres (intern adres), beginnend met 10., 192.168., of 172. |
 | user.header(&#39;host&#39;) | Hostnaam website |
 | user.header(&#39;cookie&#39;) | Cookgegevens van bezoekers |
 | user.header(&#39;user-agent&#39;) | Gebruikersagent browser van bezoeker |
