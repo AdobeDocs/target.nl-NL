@@ -5,7 +5,7 @@ title: Opmerkingen bij de release van vorige releases
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
+source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 ---
 
@@ -19,65 +19,6 @@ Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerki
 >Zie Opmerkingen bij de release [Target (huidig)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2020
-
-## Doel om.js (25 maart 2020)
-
-De volgende nieuwe versies van de JavaScript-bibliotheken van Target at.js zijn beschikbaar:
-
-* at.js versie 2.3.0
-* at.js versie 1.8.1
-
-Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie.
-
-## Target Standard/Premium 20.2.1 (23 maart 2020)
-
-Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
-
-* Probleem verholpen waarbij klanten een verzameling niet konden selecteren tijdens het uitvoeren van een cataloguszoekopdracht. (TGT-36230)
-* Probleem verholpen waarbij een criterium dat via API is gemaakt, maar waarnaar niet wordt verwezen door een activiteit die in de doelinterface is gemaakt, ten onrechte uit de gebruikersinterface kan worden verwijderd. (TGT-35917)
-* Geïmplementeerde veiligheidsverbeteringen aan het Beleid van de Veiligheid van de Inhoud (CSP). (TGT-36190)
-* Probleem verholpen waarbij &quot;NaN%&quot; werd weergegeven wanneer de percentagebalk voor kenmerkweging naar links werd verschoven. (TGT-36211)
-* Opgeloste lokalisatieproblemen zodat de UI-tekst in verschillende talen correct wordt weergegeven.
-* We hebben de lijst met beschikbare meetgegevens van Adobe Analytics for Target (A4T)-activiteiten gestandaardiseerd door de meetgegevens van Adobe Analytics af te drukken die niet worden ondersteund in de huidige versie van Adobe Analytics API&#39;s. Hierdoor kunnen we onze A4T-ondersteuning uitbreiden in toekomstige versies van Adobe Target.
-
-   De volgende wijzigingen zijn aangebracht:
-
-   * &quot;Gemiddelde tijd die op pagina wordt besteed&quot; is vervangen door &quot;Gemiddelde tijd die ter plekke wordt besteed.&quot; Om het even welke activiteiten die dit als metrisch metrisch het Primaire Metrische Doel gebruiken zullen &quot;Gemiddelde Tijd die op Plaats wordt uitgegeven&quot;hebben (nota: (gemeten in minuten in plaats van seconden) geselecteerd als Primair doel Metrisch wanneer de activiteit de volgende keer wordt bewerkt.
-   * &quot;Bezoekers&quot; is vervangen door &quot;Unieke Bezoekers&quot;. Voor alle activiteiten waarbij deze metrische waarde wordt gebruikt als &#39;Primaire Goal Metric&#39;, worden &#39;Unieke bezoekers&#39; geselecteerd als &#39;Primaire Goal Metric&#39; wanneer de activiteit de volgende keer wordt bewerkt.
-
-* De volgende metriek zijn afgekeurd en kunnen niet meer worden geselecteerd als Primair doel Metrisch wanneer het creëren van een nieuwe activiteit A4T.
-
-   | Vervangen metrisch(e) | Voorgestelde vervangende metrische(n) |
-   |--- |--- |
-   | Dagelijkse Bezoekers, Uur Bezoekers, Maandelijkse Bezoekers, Driemaandelijkse Bezoekers, Wekelijkse Bezoekers, Jaarlijkse Bezoekers | Unieke bezoekers |
-   | Gemiddelde visdiepte | n.v.t. Niet voorgesteld als primair doel metrisch |
-   | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
-   | Snelheid bij vastlopen van mobiele apparaten, Mobile Avg vorige sessielengte, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
-
-## Adobe Experience Cloud navigation (22 februari 2019)
-
-* Wanneer u zich bij het programma aanmeldt, gaat u naar de nieuwe koptekstnavigatie. [!DNL Adobe Experience Cloud] Het lijkt sterk op de vorige navigatie met de zwarte balk bovenaan, maar biedt de volgende verbeteringen:
-
-   * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
-   * Verbeterde gebruikershulp: Zoekresultaten zijn resultaten uit de [!DNL Target] productdocumentatie, maar ook uit communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om optimaal te profiteren [!DNL Target]. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help] , waardoor het gemakkelijker wordt om problemen te melden of uw ideeën te delen.
-
-   * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
-   * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target] klanten op de bestemmingspagina geland nadat ze op het [!DNL Target] pictogram in de koptekst hadden geklikt. Op deze pagina konden klanten verder gaan met [!DNL Target Standard/Premium], [!DNL Search&Promote]of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
-
-      ![Openingspagina](/help/r-release-notes/assets/landing.png)
-
-      We hebben deze bestemmingspagina voor al onze klanten verwijderd. U wordt nu altijd rechtstreeks naar de pagina [!UICONTROL Activiteitenlijst] geleid door op het [!DNL Target] pictogram op de nieuwe koptekstnavigatiebalk te klikken.
-
-      Als u gebruikt [!DNL Recommendations Classic], kunt u of rechtstreeks naar de oplossing gaan of u kunt van de korte verbinding gaan die op het [!UICONTROL lusje van Aanbevelingen] wordt gecreeerd, zoals hieronder getoond:
-
-      ![Klassieke koppeling opnieuw instellen](/help/r-release-notes/assets/recs-classic.png)
-
-      Als u [!DNL Search&Promote]deze optie gebruikt, moet u rechtstreeks naar de URL [voor](https://center.atomz.com/center/?ims=1) zoeken en bevorderen (https://center.atomz.com/center/?ims=1) gaan. Het pad dat moet worden bereikt [!DNL Search&Promote] van binnenuit van [!DNL Adobe Target] is volledig verwijderd.
-
-   * Meldingen voor [!DNL Target] zijn momenteel niet beschikbaar in de vervolgkeuzelijst [!UICONTROL Meldingen] in de koptekst.
-   >[!NOTE]
-   >
-   >Tijdens de introductie van de nieuwe navigatiebalk zult u ook enkele URL-wijzigingen zien. Alle vorige bladwijzerkoppelingen werken nog steeds, maar we raden u aan nieuwe bladwijzerkoppelingen te maken om deze sneller te openen.
 
 ### Target Standard/Premium 20.1.1 (4 februari 2020)
 
@@ -1092,7 +1033,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
    <td colname="col2"> <p> Als een gebruiker de toestemming van de "Redacteur"heeft, kan die gebruiker geen aanbieding uitgeven die aan een levende of geplande activiteit van verwijzingen wordt voorzien. </p> <p> <p>Opmerking:  Als een gebruiker de optie Alle werkruimten selecteert, gebruikt Target voor klanten met <a href="https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external"> Enterprise-gebruikersmachtigingen </a>de hoogste machtigingen van de gebruiker in alle werkruimten. Als de hoogste toestemming "Redacteur is,"Doel beperkt het uitgeven zoals hierboven vermeld </p>. </p> <p>Deze beperkingen gelden voor alle aanbiedingen, niet alleen voor aanbiedingen die zijn gemaakt met Target. (TGT-27276) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Reactietokens </p> </td> 
+   <td colname="col1"> <p>Reactiepunten </p> </td> 
    <td colname="col2"> <p>De volgende ingebouwde parameters zijn toegevoegd: </p> <p> 
      <ul id="ul_17AD5B9788514E9DB14ED435A4224BFE"> 
       <li id="li_334F10A5B7934215B4D37278901BAF96"> <p>profile.tntId </p> </li> 
@@ -1316,7 +1257,7 @@ Zie Gemengde inhoud [inschakelen in uw browser](../c-experiences/c-visual-experi
 
 Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen, oplossingen en wijzigingen: (nummer van de uitgave staat tussen haakjes voor intern gebruik door Adobe):
 
-* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-up kaart in het Doel UI kunt bekijken zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
+* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-upkaart in de doelinterface kunt weergeven zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
 * U kunt nu definities van ad-hocpubliek weergeven in het maken/overzicht van activiteiten. (TGT-25570)
 * De volgende variabelen zijn nu beschikbaar als [snelheidsarrays](../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) : `entiites` en `entityN.categoriesList`.
 
@@ -1615,7 +1556,7 @@ Deze [!DNL Target] versie concentreert zich op achterste-eindmoeilijke situaties
    <td colname="col2"> <p> <span class="filepath"> at.js </span> versie 0.9.6 is nu beschikbaar. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Downloaden op .js voor meer informatie </a>. </p> <p>De volgende verbeteringen en correcties zijn opgenomen in <span class="filepath"> at.js </span> versie 0.9.6: </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Omleiding biedt ondersteuning voor A4T. Nadat u hebt gedownload en geïnstalleerd <span class="filepath"> in .js </span> versie 0.9.6, kunt u aanbiedingen in activiteiten gebruiken die <span class="keyword"> de Analyse van Adobe </span> als Rapporterende Bron voor <span class="keyword"> </span> Doel (A4T) gebruiken. Naast <span class="filepath"> at.js </span> versie 0.9.6, zijn er andere minimumvereisten uw implementatie moet voldoen om te gebruiken doorleidt aanbiedingen en A4T. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie Aanbiedingen van de Omleiding - Veelgestelde vragen A4T <a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> </a>. </p> </li> 
-      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Voorafgaand aan <span class="filepath"> 0.js </span> .9.6, toen de bezoeker-API aanwezig was op de pagina en de <span class="codeph"> bezoekerApiTimeout </span> -instelling te agressief was, kon Target in een situatie terechtkomen waarin geen MCID-gegevens werden verzonden in de <span class="keyword"> aanvraag van het Doel </span> . Dit kan bij het gebruik van A4T leiden tot problemen zoals onverwachte resultaten in <span class="keyword"> Analytics </span> . </p> <p>Dit gedrag is gewijzigd in <span class="filepath"> at.js </span> 0.9.6, zelfs als bezoekerApiTimeout om 1 ms <span class="codeph"> </span> wordt geplaatst te zeggen, zal het Doel proberen om SDID, volgende servers, en de gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden. </p> </li> 
+      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Voorafgaand aan <span class="filepath"> 0.js </span> .9.6, toen de bezoeker-API aanwezig was op de pagina en de <span class="codeph"> bezoekerApiTimeout </span> -instelling te agressief was, kon Target in een situatie terechtkomen waarin geen MCID-gegevens werden verzonden in de <span class="keyword"> aanvraag van het Doel </span> . Dit kan leiden tot problemen zoals onverwachte resultaten in <span class="keyword"> Analytics </span> bij het gebruik van A4T. </p> <p>Dit gedrag is gewijzigd in <span class="filepath"> at.js </span> 0.9.6, zelfs als bezoekerApiTimeout om 1 ms <span class="codeph"> </span> wordt geplaatst te zeggen, zal het Doel proberen om SDID, volgende servers, en de gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden. </p> </li> 
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>De <span class="codeph"> </span> instelling SelectorsPollingTimeout is toegevoegd. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() voor meer informatie </a>. </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>De indeling van de reactie van <span class="codeph"> getOffer() </span> is gewijzigd. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local"> adobe.target.getOffer(options) voor meer informatie </a>. </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Logboekregistratie voor console is toegevoegd voor niet-ondersteunde <span class="codeph"> &lt;!DOCTYPE&gt;- </span> declaraties. </p> </li> 
@@ -3041,7 +2982,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Klantkenmerken uploaden in Adobe Analytics </p> </td> 
-   <td colname="col2"> <p>Gebruikers van Analytics die gegevens van bedrijfsklanten vastleggen in een CRM-database (Customer Relrelationship management) kunnen die gegevens uploaden naar de Experience Cloud. </p> <p>Zodra de gegevens in de Cloud van de Ervaring zijn, kunt u, bijvoorbeeld, een publiekssegment in Analytics tot stand brengen die klantenattributen in de segmentdefinitie omvat, en dan dat publiek met Doel delen. </p> <p> <p>Opmerking:  Het doel kan nog niet rechtstreeks onbewerkte klantkenmerken gebruiken. </p> </p></td> 
+   <td colname="col2"> <p>Gebruikers van Analytics die bedrijfsklantgegevens vastleggen in een CRM-database (Customer Relationship Management) kunnen die gegevens uploaden naar de Experience Cloud. </p> <p>Zodra de gegevens in de Cloud van de Ervaring zijn, kunt u, bijvoorbeeld, een publiekssegment in Analytics tot stand brengen die klantenattributen in de segmentdefinitie omvat, en dan dat publiek met Doel delen. </p> <p> <p>Opmerking:  Het doel kan nog niet rechtstreeks onbewerkte klantkenmerken gebruiken. </p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3091,7 +3032,7 @@ Deze release bevat de volgende functies en verbeteringen:
 
 Deze release bevat de volgende oplossingen:
 
-* Probleem verholpen waarbij een omleidingsvoorstel niet werkte bij het reviseren van een pagina.
+* Correctie van een fout die ervoor zorgde dat een omleidingsaanbieding niet werkte wanneer het herzien van een pagina.
 
 ### Adobe Target 15.1.1 (22 januari 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
 
@@ -3191,7 +3132,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 **Oplossingen**
 
 * Probleem verholpen waarbij de rapportgrafiek niet werd gegenereerd tijdens het navigeren tussen activiteiten.
-* Probleem verholpen waarbij geselecteerde koppelingen niet werden gemarkeerd als geselecteerd toen gebruikers op de pagina **[!UICONTROL Doelstellingen en instellingen]** op Koppeling  selecteren klikten.
+* Probleem verholpen waarbij geselecteerde koppelingen niet werden gemarkeerd als geselecteerd wanneer gebruikers op de pagina **[!UICONTROL Doelstellingen en instellingen]** op Koppeling  selecteren klikten.
 
 * Probleem verholpen waardoor een nieuwe activiteit niet in de [!UICONTROL Activiteitenlijst] kon worden weergegeven nadat deze op de pagina [!UICONTROL Overzicht] was geactiveerd.
 
