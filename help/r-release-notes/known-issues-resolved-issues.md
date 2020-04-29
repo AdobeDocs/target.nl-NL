@@ -4,7 +4,7 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -20,6 +20,20 @@ Informatie over bekende problemen voor deze release van Target. Bevat ook inform
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 In de volgende secties worden de bekende problemen voor [!DNL Target]:
+
+### Rapportage en extreme orders
+
+Van 25 november 2019 tot 26 april 2020, ondervond één Target-server een probleem dat ertoe leidde dat extreme orderwaarden moesten worden geteld in rapporteringsmetriek op basis van inkomsten (AOV, RPV). Van 19 december 2019 tot 23 april 2020 kreeg een andere server hetzelfde probleem. Deze kwestie beïnvloedde niet alle servers van het Doel of alle klanten van het Doel.
+
+U had *geen* invloed als:
+
+* Uw doelimplementatie gebruikt verschillende servers.
+* In uw rapporten zijn extreme bestellingen niet uitgesloten.
+* U hebt een omzettingsmaatstaf gebruikt om uw activiteiten te meten.
+* Uw doelactiviteiten gebruiken Analytics voor Doel (A4T).
+* U bevindt zich in de regio Azië-Pacific (APAC).
+
+Neem contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)om te bepalen of dit probleem gevolgen heeft voor uw doelimplementatie.
 
 ### Paginalevering {#page-delivery}
 
