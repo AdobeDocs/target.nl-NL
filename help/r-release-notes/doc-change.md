@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -18,6 +18,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 29 april | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende uitgave toegevoegd voor rapportage met extreme orders. |
 | 28 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Verwijderde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. Deze opdracht werkt nu met nieuwere AWS-randen. |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Gewijzigde datum van de introductie van Target Standard/Premium (20.4.1) in mei 6. |
 | 23 april | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
@@ -316,7 +317,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende problemen voor uitsluitingsgroepen verplaatst naar de tabel met opgeloste problemen. |
 | 11 april 2019 | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte codevoorbeelden. |
 |  | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Toegevoegde schermafbeeldingen. |
-|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces om een winnaar te bepalen te versnellen?&quot; |
+|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?&quot; |
 | 10 april 2019 | [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Kleine tekstupdates voor de sectie &quot;Implementatievereisten&quot; (vereisten opnieuw geordend). |
 |  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Bijgewerkte tekst voor de parameter &quot;options > page&quot;. |
 | 8 april 2019 | [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | Bijgewerkte [verwachte gegevensvariantie bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
@@ -330,7 +331,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Bijgewerkt van de voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 4 april 2019 | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde voorlopige releaseopmerkingen voor de versies Target 19.4.1 en Target 19.4.2, beide gepland voor april 2019. |
 | 30 maart 2019 | [Limieten](/help/r-troubleshooting-target/target-limits.md#excludedid) | Toegevoegde informatie over de limieten van de parameter `excludedID` mbox. |
-| 29 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
+| 19 maart 2019 | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Voor de websites van de Toepassing van de Enige Pagina (SPA), staat het annuleren van lading u niet toe om acties onder het paneel van [!UICONTROL Wijzigingen] uit te geven.&quot;<br>Verplaatst het volgende bekende probleem naar de sectie Opgeloste problemen: &quot;v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte.&quot; |
 | 28 maart 2019 | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | De volgende nieuwe secties toegevoegd:<ul><li>[Het laden van een pagina in de VEC annuleren.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Bewerk een pagina terwijl de pagina wordt geladen of nadat de pagina niet is geladen](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
 |  | [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Nieuwe sectie: &quot;[Navigeren door elementen met het DOM-pad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).&quot; |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | Er is een bekend probleem toegevoegd over wanneer u het laden van een pagina in de VEC annuleert. |
