@@ -4,7 +4,7 @@ description: Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingso
 title: Een ontwerp aanpassen met Snelheid
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
 
 ---
 
@@ -203,7 +203,7 @@ Het resultaat is een ontwerp als het volgende, waarbij in één kolom het sleute
 
 ![](assets/rec_key.png)
 
-Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot; [!DNL Target] toont een willekeurig product in [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
+Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot; [!DNL Target] toont een willekeurig product in de Composer [!UICONTROL van de] Visueel Ervaring (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
 
 ## Vervangingen in een tekenreekswaarde uitvoeren {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -233,7 +233,7 @@ De volgende code is een volledig voorwaardelijk voorbeeld van een verkoopprijs:
 
 ## De sjabloongrootte aanpassen en blanco waarden controleren {#default}
 
-Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege elementen van HTML wanneer er niet genoeg passende die entiteiten van zijn teruggekeerd [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut hebben en [!UICONTROL Partial Template Rendering] zijn ingeschakeld.
+Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege elementen van HTML wanneer er niet genoeg passende die entiteiten van zijn teruggekeerd [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut zouden hebben en [!UICONTROL Gedeeltelijke sjabloonrendering] is ingeschakeld.
 
 Het volgende HTML-fragment vervangt het bestaande HTML-gedeelte in het standaardontwerp van 4 x 2 (de CSS is hier niet opgenomen omwille van de beknoptheid):
 
@@ -264,6 +264,6 @@ Het volgende HTML-fragment vervangt het bestaande HTML-gedeelte in het standaard
             #set($count = $count + 1) 
         #end 
     #end
-    </div>
   </div>
+</div>
 ```
