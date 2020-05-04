@@ -5,7 +5,7 @@ title: Veelgestelde vragen over rapportage voor Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Lijst met veelgestelde vragen over rapportage in [!DNL Target].
 
-## Waarom bevatten mijn [!UICONTROL Experience Targeting] (XT) rapporten metriek voor controleervaringen?
+## Waarom bevatten mijn [!UICONTROL Ervaring richtend] (XT) rapporten metriek voor controleervaringen?
 
-XT-activiteiten moeten altijd een beheerervaring hebben. Als u een activiteit XT op een gelijkaardige manier aan een [!UICONTROL A/B Test] activiteit gebruikt, die een vrij algemeen scenario is, zijn de gegevens van de controleervaring nuttig. U kunt de gegevens van de controleervaring negeren als u het niet nuttig in uw rapporten vindt.
+XT-activiteiten moeten altijd een beheerervaring hebben. Als u een XT activiteit op een gelijkaardige manier aan een activiteit van de Test  A/B gebruikt, die een vrij algemeen scenario is, zijn de gegevens van de controleervaring nuttig. U kunt de gegevens van de controleervaring negeren als u het niet nuttig in uw rapporten vindt.
 
 ## Waarom is het aantal bezoeken lager in [!DNL Target] dan in andere [!DNL Adobe Experience Cloud] oplossingen? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -33,19 +33,34 @@ Als u een ontwikkelomgeving hebt geselecteerd, wordt mogelijk het volgende foutb
 
 Om het milieu voor het rapport van een activiteit te veranderen:
 
-1. Klik **[!UICONTROL Activities]**, klik de gewenste activiteit van de lijst, dan klik de **[!UICONTROL Reports]** tabel.
+1. Klik op **[!UICONTROL Activiteiten]**, klik in de lijst op de gewenste activiteit en klik vervolgens op het tabblad **[!UICONTROL Rapporten]** .
 1. Klik op het tandwielpictogram om de rapportinstellingen te configureren.
 
    ![A/B-instellingen, dialoogvenster](/help/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
    >[!NOTE]
    >
-   >Het tandwielpictogram is niet beschikbaar voor [!UICONTROL Automated Personalization] (AP)-rapporten.
+   >Het tandwielpictogram is niet beschikbaar voor [!UICONTROL Geautomatiseerde Persoonlijke (AP) rapporten] .
 
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Environment]** de optie **[!UICONTROL Production]**.
+1. Selecteer **[!UICONTROL Productie]** in de vervolgkeuzelijst **[!UICONTROL Omgeving]**.
 
    Rapportgegevens zijn mogelijk niet beschikbaar als u een ontwikkelomgeving hebt geselecteerd.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Opslaan]**.
 
 Zie [Gastheren](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie over omgevingen.
+
+## Waarom is het verkeer verdeeld tussen mijn ervaringen ongelijk in mijn activiteit A/B of MVT? {#uneven}
+
+Bijvoorbeeld, plaatste ik de verkeersverdeling aan 50/50 of 33/33/33 maar ik zie een zeer verschillende verdeling tussen ervaringen in de rapportering.
+
+Er zijn een aantal verklaarbare redenen voor ongelijke verkeerspleten in het [!DNL Target] melden:
+
+* Wanneer een [!DNL Target] activiteit eerst wordt gelanceerd, zou de verkeersdistributie wegens de architectuur van de randknoop ongelijk kunnen zijn die [!DNL Target] gebruikt om ervaringslevering te optimaliseren. De beste praktijk is een activiteit wat tijd te geven om extra gegevens te verzamelen en de distributie zal normaliseren. Zie [!DNL Adobe Target] Hoe werkt [Adobe Target voor meer informatie over](/help/c-intro/how-target-works.md)architectuur en Edge-knooppunten.
+* Welke normaliserende metrisch gebruikt u? Als u binnen bent [!DNL Target] of [!DNL Analytics] en u metrische **[!UICONTROL Bezoekingen]** gebruikt, herinner dat [!DNL Target] een op bezoekers-gebaseerd systeem is en de verkeersdistributie voor een test A/B of MVT wordt toegewezen op het bezoekersniveau. Aldus, als u activiteitenresultaten gebruikend metrische **[!UICONTROL Bezoekingen]** onderzoekt, zou de verkeersdistributie ongelijk kunnen lijken omdat bepaalde bezoekers veelvoudige bezoeken zouden kunnen hebben.
+* De beste praktijk voor A/B- en MVT-tests is het gelijkmatig verdelen van het verkeer. Het wijzigen van de verkeersverdeling tussen ervaringen (bijvoorbeeld van 90/10 naar 50/50) tijdens een test kan leiden tot ongelijke ervaringen tussen bezoekers.
+* Als u de bovenstaande beste praktijken volgt en de verkeerssplitsing niet in tijd normaliseert, zou u het volgende moeten controleren:
+
+   * Gebruikt u de nieuwste bibliotheek van at.js? Raadpleeg de versiedetails [at.js voor meer informatie over de huidige versie en de bijbehorende opmerkingen bij de release](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+   * Is het een omleidingstest? Onjuiste timing van tags die op de pagina worden afgevuurd, kan leiden tot ongelijke verkeerspleten, vooral wanneer u deze gebruikt [!DNL Analytics] als gegevensbron voor een [!DNL Target] activiteit. Voor details om ongelijke verkeersdistributie op een omleidingsactiviteit met Analytics voor Doel (A4T) te verhelpen, zie [Redirect aanbiedingen - Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)A4T.
