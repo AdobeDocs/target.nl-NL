@@ -5,7 +5,10 @@ title: CNAME en Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 0%
 
 ---
 
@@ -90,9 +93,9 @@ De meeste klanten kiezen hostname als `target.example.com`, zodat is wat wij adv
 
 Nee, [!DNL Target] vereist een aparte hostnaam en certificaat.
 
-### Heeft mijn huidige implementatie van Target gevolgen voor ITP 2.1 of 2.2?
+### Is mijn huidige implementatie van Doel beïnvloed door ITP 2.x?
 
-Navigeer in een Safari-browser naar uw website waarop u een Target JavaScript-bibliotheek hebt. Als u een koekje ziet van het Doel in de context van een CNAME, zoals `analytics.company.com`, dan wordt u niet beïnvloed door ITP 2.1 of 2.2.
+Navigeer in een Safari-browser naar uw website waarop u een Target JavaScript-bibliotheek hebt. Als u een koekje ziet van het Doel in de context van een CNAME, zoals wordt geplaatst, `analytics.company.com`dan wordt u niet beïnvloed door ITP 2.x.
 
 ITP problemen kunnen voor Doel met enkel een Analytics CNAME worden opgelost. U zult een afzonderlijke NAAM van het Doel slechts in het geval van ad-blokkerende scenario&#39;s nodig hebben waar het Doel wordt geblokkeerd.
 
