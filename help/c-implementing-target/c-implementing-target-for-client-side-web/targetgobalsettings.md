@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Informatie over de targetGlobalSettings() functie voor de Adobe Target op .js JavaScript bibliotheek.
 title: Informatie over de targetGlobalSettings() functie voor de Adobe Target op .js JavaScript bibliotheek.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ U kunt de volgende instellingen overschrijven:
 
 | Instellingen | Type | Standaardwaarde | Beschrijving |
 |--- |--- |--- |--- |
-| serverState | Zie &quot;serverState&quot; hieronder. | Zie &quot;serverState&quot; hieronder. | Zie &quot;serverState&quot; hieronder. |
+| serverState | Zie &quot;Hybride personalisatie&quot; hieronder. | Zie &quot;Hybride personalisatie&quot; hieronder. | Zie &quot;Hybride personalisatie&quot; hieronder. |
 | clientCode | String | Waarde ingesteld via UI | Vertegenwoordigt clientcode |
 | serverDomain | String | Waarde ingesteld via UI | Vertegenwoordigt doelEdge-server |
 | cookieDomain | String | Indien mogelijk ingesteld op domein op hoofdniveau | Vertegenwoordigt het domein dat wordt gebruikt bij het opslaan van cookies |
@@ -39,7 +42,7 @@ U kunt de volgende instellingen overschrijven:
 | bodyHidingEnabled | Boolean | true | Gebruikt om flikkering te controleren wanneer `target-global-mbox` wordt gebruikt om aanbiedingen te leveren die in de Visuele Composer van de Ervaring worden gecreeerd, die ook als visuele aanbiedingen wordt bekend |
 | imsOrgId | String | IMS ORG ID | Vertegenwoordigt de IMS ORG-ID |
 | secureOnly | Boolean | false | Geeft aan of at.js alleen HTTPS mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. |
-| overrideMboxEdgeServer | Boolean | true (waar, vanaf at.js versie 1.6.2) | Geeft aan of we `<clientCode>.tt.omtrdc.net` domein of `mboxedge<clusterNumber>.tt.omtrdc.net` domein moeten gebruiken.<br>Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net` domein opgeslagen in een cookie |
+| overrideMboxEdgeServer | Boolean | true (waar, vanaf at.js versie 1.6.2) | Geeft aan of we `<clientCode>.tt.omtrdc.net` domein of `mboxedge<clusterNumber>.tt.omtrdc.net` domein moeten gebruiken.<br>Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net` domein opgeslagen in een cookie. Werken momenteel niet met [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | Getal | 1860000 => 31 minuten | Geeft de cookielevensduur aan die de `mboxedge<clusterNumber>.tt.omtrdc.net` waarde bevat. |
 | optoutEnabled | Boolean | false | Geeft aan of Target de API- `isOptedOut()` functie voor bezoekers moet aanroepen. Dit maakt deel uit van de functie voor apparaatgrafiek. |
 | selectorsPollingTimeout | Getal | 5000 ms = 5 s | In at.js 0.9.6 introduceerde Target deze nieuwe instelling die via kan worden overschreven `targetGlobalSettings`.<br>`selectorsPollingTimeout` geeft aan hoelang de client wil wachten totdat alle elementen die door kiezers zijn geïdentificeerd, op de pagina worden weergegeven.<br>De activiteiten die via Visual Experience Composer (VEC) worden gecreeerd hebben aanbiedingen die selecteurs bevatten. |
@@ -49,7 +52,7 @@ U kunt de volgende instellingen overschrijven:
 
 ## Gebruik {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Setup]** > **[!UICONTROL Implementatie]** > **[!UICONTROL Bewerken om.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 In het veld Bibliotheekkoptekst kunt u JavaScript in vrije vorm invoeren. De aanpassingscode moet er ongeveer als volgt uitzien:
 
@@ -74,7 +77,7 @@ De volgende video&#39;s bevatten meer informatie:
 | Video | Beschrijving |
 |--- |--- |
 | [Gegevensproviders gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Gegevensleveranciers zijn een mogelijkheid waarmee u gegevens van derden eenvoudig aan Doel kunt doorgeven. Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken. |
-| [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementatiedetails en voorbeelden van hoe u de functie dataProviders van Adobe Target kunt gebruiken om gegevens van externe gegevensproviders op te halen en door te geven in de aanvraag van Target. |
+| [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementatiedetails en voorbeelden van hoe u de functie dataProviders van Adobe Target kunt gebruiken om gegevens van externe gegevensleveranciers op te halen en door te geven in de aanvraag van Target. |
 
 De `window.targetGlobalSettings.dataProviders` instelling is een array met gegevensproviders.
 
@@ -201,7 +204,7 @@ window.targetGlobalSettings = {
 
 Nadat `cspScriptNonce` `cspStyleNonce` en de montages worden gespecificeerd, plaatst at.js 2.3.0+ deze als nonce attributen op alle markeringen SCRIPT en STYLE die het aan DOM toevoegt wanneer het toepassen van de aanbiedingen van het Doel.
 
-## serverState {#server-state}
+## Hybride personalisatie {#server-state}
 
 `serverState` is een instelling die beschikbaar is in at.js v2.2+ en die kan worden gebruikt om de paginaprestaties te optimaliseren wanneer een hybride integratie van Target wordt geïmplementeerd. Hybride integratie betekent dat u zowel at.js v2.2+ op de client-kant als de levering-API of een doel-SDK op de server-kant gebruikt om ervaringen te bieden. `serverState` geeft at.js v2.2+ de capaciteit om ervaringen direct van inhoud toe te passen die op de server wordt gehaald en aan de cliënt als deel van de pagina teruggegeven wordt.
 
