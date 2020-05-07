@@ -5,7 +5,10 @@ title: 'Opmerkingen bij de release Adobe Target (huidig) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 >[!NOTE]
 >
->* **afdruk** mbox.js: Op 30 augustus 2020 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 30 augustus 2020, zullen alle vraag die van mbox.js wordt gemaakt ontbreken en zullen uw pagina&#39;s beïnvloeden die de actieve activiteiten van het Doel hebben. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)At.js voor meer informatie. Zie *Adobe Target Skill Builder: Chat ontwikkelaar, migreer mbox.js van Adobe Target aan om.js* hieronder voor informatie over het registreren voor een aanstaande ontwikkelaarpraatje over dit onderwerp.
+>* **afdruk** mbox.js: Op 30 augustus 2020 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 30 augustus 2020, zullen alle vraag die van mbox.js wordt gemaakt ontbreken en zullen uw pagina&#39;s beïnvloeden die de actieve activiteiten van het Doel hebben. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)At.js voor meer informatie. Zie *Adobe Target Skill Builder: Chat ontwikkelaar, migreer mbox.js van Adobe Target aan om.js* hieronder voor informatie.
    >
    >   
    Hoewel mbox.js momenteel wordt ondersteund, hebben we sinds juli 2017 geen functie-updates voor deze bibliotheek beschikbaar gesteld. Het nieuwere bestand at.js biedt veel voordelen ten opzichte van mbox.js. Met at.js verbetert u onder andere de laadtijden van pagina&#39;s voor webimplementaties, verbetert u de beveiliging en biedt u betere implementatieopties voor toepassingen op één pagina.
@@ -29,11 +32,7 @@ De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
 ## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate mbox.js van Adobe Target aan at.js {#skill-builder}
 
-Sluit u aan bij David Son, Adobe Target Product Manager, als u de voordelen van het migreren van mbox.js naar at.js inziet. Heer de recentste updates at.js, leer over zijn verbeterde mogelijkheden en hoe zij zich aan grotere tendensen in het technische landschap richten, evenals sommige praktische uiteinden om ervoor te zorgen dat u evenveel waarde van Doel haalt wanneer u van mbox.js aan at.js migreert. Adobe Target Developers will not want to don&#39;t!
-
-Dinsdag 5 mei, 8:00 - 9:00 (PDT)
-
-[Nu hier registreren!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+Met de aanstaande veroudering van mbox.js op 30 augustus 2020, ontving David Son, de Manager van het Product van het Doel van Adobe onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. De komende 30 dagen kunt u de webinar opname [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
 
 ## Doel om.js (25 maart 2020)
 
@@ -78,22 +77,22 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Wanneer u zich bij het programma aanmeldt, gaat u naar de nieuwe koptekstnavigatie. [!DNL Adobe Experience Cloud] Het lijkt sterk op de vorige navigatie met de zwarte balk bovenaan, maar biedt de volgende verbeteringen:
 
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
-   * Verbeterde gebruikershulp: Zoekresultaten zijn resultaten uit de [!DNL Target] productdocumentatie, maar ook uit communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om optimaal te profiteren [!DNL Target]. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help] , waardoor het gemakkelijker wordt om problemen te melden of uw ideeën te delen.
+   * Verbeterde gebruikershulp: Zoekresultaten zijn resultaten uit de [!DNL Target] productdocumentatie, maar ook uit communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om optimaal te profiteren [!DNL Target]. We hebben ook een feedbackmechanisme toegevoegd in het [!UICONTROL Help] menu, waardoor het gemakkelijker wordt om problemen te melden of uw ideeën te delen.
 
    * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target] klanten op de bestemmingspagina geland nadat ze op het [!DNL Target] pictogram in de koptekst hadden geklikt. Op deze pagina konden klanten verder gaan met [!DNL Target Standard/Premium], [!DNL Search&Promote]of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
 
-      We hebben deze bestemmingspagina voor al onze klanten verwijderd. U wordt nu altijd rechtstreeks naar de pagina [!UICONTROL Activiteitenlijst] geleid door op het [!DNL Target] pictogram op de nieuwe koptekstnavigatiebalk te klikken.
+      We hebben deze bestemmingspagina voor al onze klanten verwijderd. U wordt nu altijd rechtstreeks naar de [!UICONTROL Activities List] pagina geleid door op het [!DNL Target] pictogram in de nieuwe koptekstnavigatiebalk te klikken.
 
-      Als u gebruikt [!DNL Recommendations Classic], kunt u of rechtstreeks naar de oplossing gaan of u kunt van de korte verbinding gaan die op het [!UICONTROL lusje van Aanbevelingen] wordt gecreeerd, zoals hieronder getoond:
+      Als u gebruikt [!DNL Recommendations Classic], kunt u of rechtstreeks naar de oplossing gaan of u kunt van de korte verbinding gaan die op het [!UICONTROL Recommendations] lusje wordt gecreeerd, zoals hieronder getoond:
 
       ![Klassieke koppeling opnieuw instellen](/help/r-release-notes/assets/recs-classic.png)
 
       Als u [!DNL Search&Promote]deze optie gebruikt, moet u rechtstreeks naar de URL [voor](https://center.atomz.com/center/?ims=1) zoeken en bevorderen (https://center.atomz.com/center/?ims=1) gaan. Het pad dat moet worden bereikt [!DNL Search&Promote] van binnenuit van [!DNL Adobe Target] is volledig verwijderd.
 
-   * Meldingen voor [!DNL Target] zijn momenteel niet beschikbaar in de vervolgkeuzelijst [!UICONTROL Meldingen] in de koptekst.
+   * Meldingen voor [!DNL Target] zijn momenteel niet beschikbaar in de [!UICONTROL Notifications] vervolgkeuzelijst in de koptekst.
    >[!NOTE]
    >
    >Tijdens de introductie van de nieuwe navigatiebalk zult u ook enkele URL-wijzigingen zien. Alle vorige bladwijzerkoppelingen werken nog steeds, maar we raden u aan nieuwe bladwijzerkoppelingen te maken om deze sneller te openen.
