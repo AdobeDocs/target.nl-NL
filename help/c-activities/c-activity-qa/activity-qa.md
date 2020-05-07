@@ -5,7 +5,10 @@ title: Activiteit QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1477'
+ht-degree: 0%
 
 ---
 
@@ -71,12 +74,12 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
    U kunt uzelf ook handmatig afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde (bijvoorbeeld `https://www.mysite.com/?at_preview_token=`).
 
-* Als u &quot;URL is&quot;terwijl het creëren van de activiteitenverfijningen in de op vorm-gebaseerde Composer [of de opties van de](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) paginalevering in Visuele Composer van de Ervaring) [](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)specificeerde, zal QA URL niet werken omdat Activiteit QA parameters URL toevoegt. Als u dit probleem wilt oplossen, klikt u op de URL voor kwaliteitscontrole om naar uw site te gaan, verwijdert u de toegevoegde parameters uit de URL en laadt u vervolgens de nieuwe URL.
-* Als u at.js 1 hebt.*x*, of mbox.js, de wijze van Activiteit QA zal niet kleven als u Safari of een andere browser gebruikt die derdekoekjes blokkeert. In deze gevallen moet u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert.
+* Als u &quot;URL is&quot;terwijl het creëren van de activiteitenverfijningen in de op vorm-gebaseerde Composer [of de opties van de](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) paginalevering in Visuele Composer van de Ervaring) [](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)specificeerde, zal QA URL niet werken omdat Activiteit QA parameters URL toevoegt. Als u dit probleem wilt verhelpen, klikt u op de URL voor de kwaliteitscontrole om naar uw site te gaan, verwijdert u de toegevoegde parameters uit de URL en laadt u vervolgens de nieuwe URL.
+* Als u at.js 1 hebt.*x*, of mbox.js, de wijze van Activiteit QA zal niet kleven als u Safari of een andere browser gebruikt die derdekoekjes blokkeert. In deze gevallen moet u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert. Hetzelfde geldt als u [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)hebt geïmplementeerd.
 * Als een activiteit meerdere ervaringssoorten publiek gebruikt (bijvoorbeeld een site in de VS en het Verenigd Koninkrijk die deel uitmaken van dezelfde activiteit), worden er geen QA-koppelingen gegenereerd voor de vier combinaties (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/US Site, Experience B/UK Site). Er worden slechts twee QA-koppelingen (Experience A en Experience B) gemaakt en gebruikers moeten in aanmerking komen voor het juiste publiek om de pagina te kunnen zien. Een Britse kwaliteitscontrole-persoon kon de Amerikaanse site niet zien.
 * Alle `at_preview` parameters en waarden zijn al gecodeerd met URL. Meestal werkt alles zoals verwacht. nochtans, zouden sommige klanten ladingsbalancers of de servers van het Web kunnen hebben die proberen om de parameters van het vraagkoord opnieuw te coderen.
 
-   Vanwege deze dubbele codering kan, wanneer we de code proberen te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
+   Vanwege deze dubbele codering kan, wanneer we proberen de token-waarde te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
 
    Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters wit-vermeld zijn zodat deze waarden op geen enkele manier worden getransformeerd.
 
