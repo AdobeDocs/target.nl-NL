@@ -5,7 +5,7 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Standaard wordt een nieuw herkende host in de productieomgeving geplaatst. Dit i
 >
 >De productieomgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. Men gaat ervan uit dat u hier de laatste, actieve activiteiten en tests zult bedienen. De standaardomgeving staat niet toe dat inactieve campagnes worden weergegeven.
 
-## Hosts en omgevingen beheren {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Gastheren en omgevingen beheren {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 Informatie die u helpt gastheren en milieu&#39;s (gastheergroepen,) te beheren met inbegrip van het plaatsen van de standaardgastheer voor het melden, het creëren van whitelisten, het veranderen van de naam van een milieu, het bewegen van een gastheer aan een andere milieu, en het schrappen van een gastheer of een milieu.
 
@@ -73,7 +73,7 @@ Klik op [!UICONTROL Hosts] > om de **[!UICONTROL Setup]** **[!UICONTROL Hosts]**
 
 ![](assets/hosts_list.png)
 
-## De lijst met gastheren filteren, sorteren of doorzoeken {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## De lijst Gastheren filteren, sorteren of doorzoeken {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Als u de [!UICONTROL Hosts] lijsten wilt filteren op omgeving, klikt u op de **[!UICONTROL All]** vervolgkeuzelijst en selecteert u de gewenste omgeving (Productie, Staging, Ontwikkeling of een aangepaste omgeving die u hebt gemaakt).
 
@@ -109,7 +109,7 @@ De standaardomgeving voor rapportage instellen:
 >
 >[!DNL Recommendations] gebruikers moeten hun gedragsgegevensbestand en productgegevensbestand opnieuw opbouwen als de gastheren gastheergroepen schakelen.
 
-## Creeer Whitelists die Gastheren specificeren die worden gemachtigd om vraag mbox naar Doel te verzenden. {#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Creeer whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden. {#whitelist}
 
 U kunt een whitelist creëren die gastheren (domeinen) specificeert die worden gemachtigd om mbox vraag naar te verzenden [!DNL Target]. Alle andere gastheren die vraag produceren zullen een commentarieert-uit de foutenreactie van de toestemmingsfout krijgen. Door gebrek, om het even welke gastheer die een mbox vraagregisters met [!DNL Target] in het milieu van de Productie bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u whitelist in plaats daarvan gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om mbox vraag te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve campagnes kan zien.
 
@@ -142,7 +142,7 @@ U kunt ook een zwarte lijst maken die hosts (domeinen) opgeeft dan geen aanroepe
 1. Wijzig de naam van de omgeving.
 1. Klik op **[!UICONTROL Save]**.
 
-## Een gastheer naar een andere omgeving verplaatsen {#section_9F52549958BD485EB74FE78C32773D2A}
+## Een host verplaatsen naar een andere omgeving {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. Houd de muisaanwijzer in de [!UICONTROL Hosts] lijst boven de gewenste host.
 1. Klik op het **[!UICONTROL Move]** pictogram.
