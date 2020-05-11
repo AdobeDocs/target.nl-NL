@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
 workflow-type: tm+mt
-source-wordcount: '7525'
+source-wordcount: '7578'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 11 mei | [Gastheren](/help/administrating-target/hosts.md) | Informatie toegevoegd over het gebruik van de functionaliteit ubox met omleidingen en whitelisten. |
+|  | [Werken met directeuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
+|  | [Aanbevelingen integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
+|  | [E-mail: Doel implementeren](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
 | 7 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Met de aanstaande veroudering van mbox.js op 30 augustus 2020, ontving David Son, de Manager van het Product van het Doel van Adobe onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. Er is een link waar je het webinar de komende 30 dagen kunt bekijken. |
 |  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De rij &quot;overrideMboxEdgeServer&quot; is bijgewerkt onder &quot;Settings&quot;. |
