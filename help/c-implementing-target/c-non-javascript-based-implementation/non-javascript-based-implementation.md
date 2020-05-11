@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -33,4 +36,4 @@ Advertentievakken en Redirector kunnen met om het even welke soort activiteit wo
 * Als u cookies van de eerste partij op de AdBox zelf wilt gebruiken, moet u de mBox-sessie in de URL doorgeven. Bespreek dit met uw accountvertegenwoordiger.
 * Als u cookies van de eerste partij wilt gebruiken om cookies bij te houden en te klikken, geeft u de box-sessie door in de URL. Bespreek dit met uw accountvertegenwoordiger.
 * Als u meerdere AdBox op dezelfde pagina wilt gebruiken, moet u de Mbox-sessie doorgeven in de URL. Bespreek dit met uw accountvertegenwoordiger. U hebt mogelijk één AdBox en één Redirector-koppeling op dezelfde pagina (omdat Redirector zich op een tweede pagina bevindt).
-
+* Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Zie [Gastheren](/help/administrating-target/hosts.md)voor meer informatie.
