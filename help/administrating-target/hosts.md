@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
 title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1741'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Wanneer een mbox verzoek van nieuwe websites of domeinen wordt ontvangen, versch
 
 Het doel beperkt een host die dozen kan verzenden en ontvangen niet. Wanneer nieuwe servers of domeinen verschijnen, werken deze automatisch (tenzij u een whitelist of zwarte lijst hebt ingesteld). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
 
-Als u hosts en omgevingen wilt beheren, klikt u op **[!UICONTROL Instellen]** > **[!UICONTROL Gastheren]**.
+Als u hosts en omgevingen wilt beheren, klikt u op **[!UICONTROL Setup]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
@@ -44,15 +47,15 @@ Om een gastheer te erkennen, moet aan de volgende voorwaarden worden voldaan:
 
 * De pagina met de mbox moet in een browser worden weergegeven
 
-Nadat de pagina is weergegeven, wordt de host vermeld in de lijst [!UICONTROL Gastheren] , zodat u deze in een omgeving kunt beheren en activiteiten en tests kunt voorvertonen en starten.
+Nadat de pagina is weergegeven, wordt de host vermeld in de [!UICONTROL Hosts] lijst, zodat u deze in een omgeving kunt beheren en activiteiten en tests kunt voorvertonen en starten.
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Dit geldt ook voor persoonlijke ontwikkelservers.
 
-Nadat een gastheer aan de lijst van de [!UICONTROL Gastheer] wordt toegevoegd, zorg ervoor dat de gastheer wordt erkend.
+Nadat een gastheer aan de [!UICONTROL Host] lijst wordt toegevoegd, zorg ervoor dat de gastheer wordt erkend.
 
-1. Klik op **[!UICONTROL Instellen]** > **[!UICONTROL Gastheren]**.
+1. Klik op **[!UICONTROL Setup]** > **[!UICONTROL Hosts]**.
 1. Vernieuw de browser als uw host niet in de lijst staat.
 Standaard wordt een nieuw herkende host in de productieomgeving geplaatst. Dit is het veiligste milieu omdat het inactieve activiteiten niet om van deze gastheren toelaat worden bekeken.
 1. (Voorwaardelijk) Beweeg de gastheer in de ontwikkelings of het Opvoeren milieu.
@@ -66,29 +69,29 @@ Standaard wordt een nieuw herkende host in de productieomgeving geplaatst. Dit i
 Informatie die u helpt gastheren en milieu&#39;s (gastheergroepen,) te beheren met inbegrip van het plaatsen van de standaardgastheer voor het melden, het creëren van whitelisten, het veranderen van de naam van een milieu, het bewegen van een gastheer aan een andere milieu, en het schrappen van een gastheer of een milieu.
 
 
-U opent de lijst [!UICONTROL Gastheren] door te klikken op **[!UICONTROL Instellen]** > **[!UICONTROL Gastheren]**.
+Klik op [!UICONTROL Hosts] > om de **[!UICONTROL Setup]** **[!UICONTROL Hosts]** lijst te openen.
 
 ![](assets/hosts_list.png)
 
 ## De lijst met gastheren filteren, sorteren of doorzoeken {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Als u de lijsten met [!UICONTROL hosts] wilt filteren op omgeving, klikt u op de vervolgkeuzelijst **[!UICONTROL Alles]** en selecteert u de gewenste omgeving (Productie, Staging, Ontwikkeling of een aangepaste omgeving die u hebt gemaakt).
+Als u de [!UICONTROL Hosts] lijsten wilt filteren op omgeving, klikt u op de **[!UICONTROL All]** vervolgkeuzelijst en selecteert u de gewenste omgeving (Productie, Staging, Ontwikkeling of een aangepaste omgeving die u hebt gemaakt).
 
-Als u de lijst [!UICONTROL Gastheren] wilt sorteren, klikt u op een kolomkop (Naam, Omgeving of Laatst aangevraagd) om de lijst in oplopende of aflopende volgorde te sorteren.
+Als u de [!UICONTROL Hosts] lijst wilt sorteren, klikt u op een kolomkop (Naam, Omgeving of Laatst aangevraagd) om de lijst in oplopende of aflopende volgorde te sorteren.
 
-Als u in de lijst [!UICONTROL Gastheren] wilt zoeken, typt u een zoekterm in het vak Zoeken.
+Als u in de [!UICONTROL Hosts] lijst wilt zoeken, typt u een zoekterm in het vak Zoeken.
 
 ## Meerdere hosts selecteren {#section_EF3B458475184B7EA997C3559714397C}
 
-Als u meerdere hosts wilt selecteren, schakelt u de selectievakjes naast de kolom [!UICONTROL Naam] in voor de gewenste hosts. Vervolgens kunt u alle geselecteerde hosts verplaatsen of verwijderen.
+Als u meerdere hosts wilt selecteren, schakelt u de selectievakjes naast de [!UICONTROL Name] kolom in voor de gewenste hosts. Vervolgens kunt u alle geselecteerde hosts verplaatsen of verwijderen.
 
 ## Een omgeving maken {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Klik in de lijst [!UICONTROL Gastheren] op het tabblad **[!UICONTROL Omgevingen]** .
-1. Klik op **[!UICONTROL Omgeving]** maken.
+1. Klik in de [!UICONTROL Hosts] lijst op de **[!UICONTROL Environments]** tab.
+1. Klik op **[!UICONTROL Create Environment]**.
 1. Geef een beschrijvende naam voor de omgeving op.
-1. Geef de gewenste actieve modus voor de omgeving op: [!UICONTROL Actieve activiteiten] of [!UICONTROL Actieve en Inactieve activiteiten].
-1. Klik op **[!UICONTROL Opslaan]**.
+1. Geef de gewenste actieve modus voor de omgeving op: [!UICONTROL Active Activities] of [!UICONTROL Active and Inactive Activities].
+1. Klik op **[!UICONTROL Save]**.
 
 ## De standaardhost voor rapportage instellen {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
@@ -98,9 +101,9 @@ Als u Productie als uw gebrek gebruikt, worden alle onbekende gastheren automati
 
 De standaardomgeving voor rapportage instellen:
 
-1. Klik in de lijst [!UICONTROL Gastheren] op het tabblad **[!UICONTROL Instellingen]** .
-1. Selecteer de standaardhost in de vervolgkeuzelijst **[!UICONTROL Omgevingsinstellingen]** .
-1. Klik op **[!UICONTROL Opslaan]**.
+1. Klik in de [!UICONTROL Hosts] lijst op de **[!UICONTROL Settings]** tab.
+1. Selecteer de standaardhost in de **[!UICONTROL Environment Settings]** vervolgkeuzelijst.
+1. Klik op **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -108,19 +111,21 @@ De standaardomgeving voor rapportage instellen:
 
 ## Creeer Whitelists die Gastheren specificeren die worden gemachtigd om vraag mbox naar Doel te verzenden. {#section_0AF7F56C386A42C381AF704DEF08D5CC}
 
-U kunt een whitelist creëren die gastheren (domeinen) specificeert die worden gemachtigd om mbox vraag naar te verzenden [!DNL Target]. Alle andere gastheren die vraag produceren zullen een commentarieert-uit de foutenreactie van de toestemmingsfout krijgen. Door gebrek, om het even welke gastheer die een mbox vraagregisters met [!DNL Target] in het milieu van de Productie bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u whitelist in plaats daarvan gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om mbox vraag te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de lijst van [!UICONTROL Gastheren] blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve campagnes kan zien.
+U kunt een whitelist creëren die gastheren (domeinen) specificeert die worden gemachtigd om mbox vraag naar te verzenden [!DNL Target]. Alle andere gastheren die vraag produceren zullen een commentarieert-uit de foutenreactie van de toestemmingsfout krijgen. Door gebrek, om het even welke gastheer die een mbox vraagregisters met [!DNL Target] in het milieu van de Productie bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u whitelist in plaats daarvan gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om mbox vraag te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve campagnes kan zien.
 
 Een whitelist maken:
 
-1. Klik in de lijst [!UICONTROL Gastheren] op het tabblad **[!UICONTROL Instellingen]** .
-1. Schakel het selectievakje Gemachtigde gastheren **[!UICONTROL inschakelen voor levering]** van inhoud in.
-1. Voeg desgewenst de gewenste hosts toe in het vak **[!UICONTROL Host bevat]** .
+1. Klik in de [!UICONTROL Hosts] lijst op de **[!UICONTROL Settings]** tab.
+1. Schakel **[!UICONTROL Enable Authorized Hosts for Content Delivery]** het selectievakje in.
+1. Voeg desgewenst de gewenste hosts in het **[!UICONTROL Host Contains]** vak toe.
 
    De veelvoudige gastheren kunnen, elk op zijn eigen lijn worden vermeld.
 
-1. Klik op **[!UICONTROL Opslaan]**.
+1. Klik op **[!UICONTROL Save]**.
 
 Als een mbox vraag op een onbevoegde gastheer wordt gemaakt, zal de vraag met antwoorden `/* no display - unauthorized mbox host */`.
+
+Als u ubox functionaliteit van gebruikt, merk op dat deze whitelist ook de lijst van domeinen zal controleren waaraan uw [!DNL Target]bestuurders [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kunnen navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de whitelist niet wordt opgegeven, kan Adobe de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
 
 De whitelist heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de whitelist eigenschap te gebruiken, dan slechts verschijnen de gastheren die door whitelist worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 
@@ -128,28 +133,28 @@ Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein ver
 
 Wanneer een API-aanroep `mboxHost` wordt doorgegeven, wordt de conversie opgenomen voor de omgeving die wordt doorgegeven. Als geen milieu wordt overgegaan, blijft de gastheer in de vraag aan Productie in gebreke.
 
-U kunt ook een zwarte lijst maken die hosts (domeinen) opgeeft dan geen aanroepen vanuit een box kan verzenden [!DNL Target] door de gewenste hosts toe te voegen in het vak [!UICONTROL Host bevat] geen.
+U kunt ook een zwarte lijst maken die hosts (domeinen) opgeeft dan geen aanroepen vanuit een box kan verzenden [!DNL Target] door de gewenste hosts in het [!UICONTROL Host Does Not Contain] vak toe te voegen.
 
 ## De naam van een omgeving wijzigen {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klik in de lijst [!UICONTROL Gastheren] op het tabblad **[!UICONTROL Omgevingen]** .
-1. Houd de cursor boven de gewenste omgeving en klik op het pictogram **[!UICONTROL Bewerken]** .
+1. Klik in de [!UICONTROL Hosts] lijst op de **[!UICONTROL Environments]** tab.
+1. Houd de cursor boven de gewenste omgeving en klik op het **[!UICONTROL Edit]** pictogram.
 1. Wijzig de naam van de omgeving.
-1. Klik op **[!UICONTROL Opslaan]**.
+1. Klik op **[!UICONTROL Save]**.
 
 ## Een gastheer naar een andere omgeving verplaatsen {#section_9F52549958BD485EB74FE78C32773D2A}
 
-1. Houd de muisaanwijzer in de lijst [!UICONTROL Gastheren] boven de host die u wilt verplaatsen.
-1. Klik op het pictogram **[!UICONTROL Verplaatsen]** .
+1. Houd de muisaanwijzer in de [!UICONTROL Hosts] lijst boven de gewenste host.
+1. Klik op het **[!UICONTROL Move]** pictogram.
 1. Selecteer de gewenste omgeving in de vervolgkeuzelijst en klik op het pictogram van het vinkje.
 
 ## Een host verwijderen {#section_F56355BA4BC54B078A1A8179BC954632}
 
-U kunt een host verwijderen wanneer deze niet meer nodig is.
+U kunt een host verwijderen als deze niet meer nodig is.
 
-1. Houd de muisaanwijzer in de lijst [!UICONTROL Gastheren] boven de host die u wilt verwijderen.
-1. Klik op het pictogram **[!UICONTROL Verwijderen]** .
-1. Klik op **[!UICONTROL Verwijderen]** om de verwijdering te bevestigen.
+1. Houd de muisaanwijzer in de [!UICONTROL Hosts] lijst boven de host die u wilt verwijderen.
+1. Klik op het **[!UICONTROL Delete]** pictogram.
+1. Klik **[!UICONTROL Delete]** om de verwijdering te bevestigen.
 
 >[!NOTE]
 >
@@ -159,10 +164,10 @@ U kunt een host verwijderen wanneer deze niet meer nodig is.
 
 U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 
-1. Klik in de lijst [!UICONTROL Gastheren] op het tabblad **[!UICONTROL Omgevingen]** .
+1. Klik in de [!UICONTROL Hosts] lijst op de **[!UICONTROL Environments]** tab.
 1. Houd de muis boven de omgeving die u wilt verwijderen.
-1. Klik op het pictogram **[!UICONTROL Verwijderen]** .
-1. Klik op **[!UICONTROL Verwijderen]** om de verwijdering te bevestigen.
+1. Klik op het **[!UICONTROL Delete]** pictogram.
+1. Klik **[!UICONTROL Delete]** om de verwijdering te bevestigen.
 
 >[!NOTE]
 >
@@ -176,13 +181,13 @@ Probeer de volgende tips voor het oplossen van problemen als u problemen ondervi
 
 **De host wordt niet weergegeven in de keuzelijst voor uw account.**
 
-* Vernieuw de pagina [!UICONTROL Gastheren] in uw browser.
+* Vernieuw de [!UICONTROL Hosts] pagina in uw browser.
 * Bevestig dat de code van het selectievakje correct is, inclusief de [!DNL mbox.js] verwijzing.
 * Blader naar een van de vakken op de host. Het is mogelijk dat geen mbox op de gastheer ooit in browser werd teruggegeven.
 
-**Willekeurige of onbekende domeinen worden weergegeven in de lijst[!UICONTROL Host].**
+**Willekeurige of onbekende domeinen worden in de[!UICONTROL Host]lijst weergegeven.**
 
-Een domein verschijnt in deze lijst als een vraag aan van het domein [!DNL Target] wordt gemaakt. Vaak kunt u domeinen zien van spintengines, vertaalsites of lokale schijfstations. Als het vermelde domein niet een domein is dat uw team gebruikt, kunt u op [!UICONTROL Verwijderen] klikken om het te verwijderen.
+Een domein verschijnt in deze lijst als een vraag aan van het domein [!DNL Target] wordt gemaakt. Vaak kunt u domeinen zien van spintengines, vertaalsites of lokale schijfstations. Als het vermelde domein niet één uw teamgebruik is, kunt u klikken [!UICONTROL Delete] om het te verwijderen.
 
 **Mijn mbox-aanroep retourneert /* geen weergave - onbevoegde mbox-host */.**
 
@@ -206,8 +211,8 @@ Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebrui
 
 Het filter Omgeving is beschikbaar op de volgende plaatsen in de interface van het Doel:
 
-* Catalogus zoeken ([!UICONTROL Aanbevelingen > Cataloguszoekopdracht])
-* Dialoogvenster Verzameling maken ([!UICONTROL Aanbevelingen > Verzamelingen > Nieuw]maken)
-* Dialoogvenster Verzameling bijwerken ([!UICONTROL Aanbevelingen > Verzamelingen > Bewerken])
-* Dialoogvenster Uitsluiting maken ([!UICONTROL Aanbevelingen > Uitsluitingen > Nieuw]maken)
-* Dialoogvenster Uitsluiting bijwerken ([!UICONTROL Aanbevelingen > Uitsluitingen > Bewerken])
+* Catalogus zoeken ([!UICONTROL Recommendations > Catalog Search])
+* Verzameling maken, dialoogvenster ([!UICONTROL Recommendations > Collections > Create New])
+* Dialoogvenster Verzameling bijwerken ([!UICONTROL Recommendations > Collections > Edit])
+* Dialoogvenster Uitsluiting maken ([!UICONTROL Recommendations > Exclusions > Create New])
+* Dialoogvenster Uitsluiting bijwerken ([!UICONTROL Recommendations > Exclusions > Edit])
