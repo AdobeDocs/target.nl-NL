@@ -5,9 +5,9 @@ title: Aanbevelingen integreren met e-mail
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Waar `clientcode` is uw doelclientcode.
 
 Zie [Delivery API documentatie](https://developers.adobetarget.com/api/#server-side-delivery) voor meer informatie.
 
-## Optie 2: Een e-mailsjabloon voor Rawbox gebruiken {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Optie 2: Een e-mailsjabloon voor een rawbox gebruiken {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 Een box is gelijkaardig aan een mbox verzoek, maar voor milieu&#39;s buiten het Web, zoals e-maildienstverleners (ESPs). Omdat u niet hebt [!DNL mbox.js] of in [!DNL at.js] te gebruiken radibox verzoeken, moet u uw verzoeken manueel tot stand brengen. In de onderstaande voorbeelden wordt uitgelegd hoe u met e-mailverzoeken in een tekstvak werkt.
 
@@ -107,7 +107,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Vereist voor bepaalde soorten criteria: weergave/weergave, bekijken/kopen, kopen/kopen) | *entity_id* | De productID de aanbeveling is gebaseerd op, zoals een verlaten product in het karretje, of een vorige aankoop.<br>Indien vereist door de criteria, moet de radibox vraag het `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Als `entity.id` wordt overgegaan, wordt het hoogst geadviseerd om deze parameter ook over te gaan om het verzoek te verhinderen het aantal van getalleerde paginameningen voor een punt te verhogen, zodat niet op productmening-gebaseerde algoritmen schuin te trekken. |  |
 | `entity.categoryId`<br>(Vereist voor bepaalde soorten criteria: meest bekeken op rubriek en topverkopers op rubriek) | *category_id* | De rubriek waarop de aanbeveling is gebaseerd, zoals topverkopers in een rubriek.<br>Indien vereist door de criteria, moet de radibox vraag het `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Als de `mboxNoRedirect` parameter niet aanwezig is, `mboxDefault` zou een absolute URL moeten zijn die standaardinhoud zal terugkeren als geen aanbeveling beschikbaar is. Dit kan een afbeelding of andere statische inhoud zijn.<br>Als de `mboxNoRedirect` parameter aanwezig is, `mboxDefault` kan elke tekst zijn die aangeeft dat er bijvoorbeeld geen aanbevelingen zijn `no_content`.<br>De e-mailprovider moet het geval afhandelen waar deze waarde wordt geretourneerd en standaard-HTML in de e-mail invoegen. <br> Let op: als het domein dat in de `mboxDefault` URL wordt gebruikt niet wordt gewhitelisteerd, kunt u worden blootgesteld aan een risico van een Open Redirect-kwetsbaarheid. Om het ongeoorloofde gebruik van verbindingen van Redirector of `mboxDefault` door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Zie [Gastheren](https://developers.adobetarget.com/api/#server-side-delivery)voor meer informatie. |  |
+| `mboxDefault` | *`https://www.default.com`* | Als de `mboxNoRedirect` parameter niet aanwezig is, `mboxDefault` zou een absolute URL moeten zijn die standaardinhoud zal terugkeren als geen aanbeveling beschikbaar is. Dit kan een afbeelding of andere statische inhoud zijn.<br>Als de `mboxNoRedirect` parameter aanwezig is, `mboxDefault` kan elke tekst zijn die aangeeft dat er bijvoorbeeld geen aanbevelingen zijn `no_content`.<br>De e-mailprovider moet het geval afhandelen waar deze waarde wordt geretourneerd en standaard-HTML in de e-mail invoegen. <br> Let op: als het domein dat in de `mboxDefault` URL wordt gebruikt niet wordt gewhitelisteerd, kunt u worden blootgesteld aan een risico van een Open Redirect-kwetsbaarheid. Om het ongeoorloofde gebruik van verbindingen van Redirector of `mboxDefault` door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#whitelist) in *Gastheren* te verzenden. |  |
 | `mboxHost` | *mbox_host* | Dit is het domein dat aan het standaardmilieu (gastheergroep) wordt toegevoegd wanneer de vraag brandt. |  |
 | `mboxPC` | Leeg | (Vereist voor aanbevelingen die het profiel van een bezoeker gebruiken.)<br>Als er geen &quot;thirdPartyId&quot; is opgegeven, wordt een nieuwe tntId gegenereerd en geretourneerd als onderdeel van de reactie. Anders blijft het leeg.<br>**Opmerking **: Zorg ervoor dat u een unieke waarde opgeeft voor`mboxSession`en`mboxPC`voor elke e-mailontvanger (dus voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege het grote aantal gebeurtenissen dat binnen één profiel wordt gegenereerd. | 1 &lt; Lengte &lt; 128<br>Kan niet meer dan één &quot;.&quot; bevatten (punt).<br>Het enige toegestane punt is voor het achtervoegsel van de profiellocatie. |
 
