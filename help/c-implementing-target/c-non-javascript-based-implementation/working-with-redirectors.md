@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 
    * Waar `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` is het standaarddoel.
 
-      Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Zie [Gastheren](/help/administrating-target/hosts.md)voor meer informatie.
+      Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#whitelist) in *Gastheren* te verzenden.
 
       Dit moet URL gecodeerd zijn en moet een absolute verwijzing zijn. U kunt de [HTML URL-coderingsverwijzing](https://www.w3schools.com/tags/ref_urlencode.asp) gebruiken om uw URL&#39;s snel te coderen.|
 
@@ -90,7 +90,7 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 
 1. Verzend de volledige Redirector-URL naar het advertentienetwerk van uw beeldscherm als de advertentiebestemming.
 
-## Gebruik Redirector om Kosten per Klik en Ontvangsten per Klik door te geven {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Gebruik een redirector om kosten per klik en opbrengst per klik door te geven {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informatie over het gebruiken van redirector om kosten per klik en opbrengst per klik over te gaan.
 
