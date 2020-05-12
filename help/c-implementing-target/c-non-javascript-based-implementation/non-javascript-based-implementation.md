@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Advertentievakken en Redirector kunnen met om het even welke soort activiteit wo
 | AdBox | Hiermee worden verschillende afbeeldingen naar de advertentie geretourneerd | De inhoud van een advertentie wijzigen | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | omleiding | URL voor een afbeelding |
 | Redirector | Hiermee wordt een bezoeker omgeleid naar een andere webpagina | De landingspagina van een advertentie wijzigen | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | omleiding | URL voor een pagina |
 
+## Aanbevolen werkwijzen voor beveiliging {#security}
+
+Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#whitelist) in *Gastheren* te verzenden.
+
 ## Restricties {#section_38F559DCF1324271926608BCD4AB1227}
 
 * Er is geen time-out aan de clientzijde, zoals bij standaardvakken. Als Doel volledig omlaag is, zien bezoekers van de advertentie de inhoud niet, zelfs niet standaard.
@@ -36,4 +40,3 @@ Advertentievakken en Redirector kunnen met om het even welke soort activiteit wo
 * Als u cookies van de eerste partij op de AdBox zelf wilt gebruiken, moet u de mBox-sessie in de URL doorgeven. Bespreek dit met uw accountvertegenwoordiger.
 * Als u cookies van de eerste partij wilt gebruiken om cookies bij te houden en te klikken, geeft u de box-sessie door in de URL. Bespreek dit met uw accountvertegenwoordiger.
 * Als u meerdere AdBox op dezelfde pagina wilt gebruiken, moet u de Mbox-sessie doorgeven in de URL. Bespreek dit met uw accountvertegenwoordiger. U hebt mogelijk één AdBox en één Redirector-koppeling op dezelfde pagina (omdat Redirector zich op een tweede pagina bevindt).
-* Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#whitelist) in *Gastheren* te verzenden.
