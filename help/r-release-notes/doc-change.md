@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '7578'
+source-wordcount: '7618'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productdocumentatie zijn aangebracht.
 
-## Adobe Target Standard/Premium 20.2.1 (19 februari 2020)
+## Adobe Target Standard/Premium 20.4.1 (6 mei 2020)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
@@ -29,6 +29,12 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De rij &quot;overrideMboxEdgeServer&quot; is bijgewerkt onder &quot;Settings&quot;. |
 | 6 mei | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Toegevoegde informatie over ITP 2.3. |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.4.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+
+## Adobe Target Standard/Premium 20.2.1 (19 februari 2020)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
 | 4 mei | [Veelgestelde vragen over rapportage](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Nieuwe veelgestelde vragen toegevoegd: &quot;Waarom is het verkeer verdeeld tussen mijn ervaringen ongelijk in mijn activiteit A/B of MVT?&quot; |
 | 29 april | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende uitgave toegevoegd voor rapportage met extreme orders. |
 | 28 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Verwijderde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. Deze opdracht werkt nu met nieuwere AWS-randen. |
@@ -329,7 +335,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende problemen voor uitsluitingsgroepen verplaatst naar de tabel met opgeloste problemen. |
 | 11 april 2019 | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte codevoorbeelden. |
 |  | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Toegevoegde schermafbeeldingen. |
-|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces om een winnaar te bepalen te versnellen?&quot; |
+|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?&quot; |
 | 10 april 2019 | [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Kleine tekstupdates voor de sectie &quot;Implementatievereisten&quot; (vereisten opnieuw geordend). |
 |  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Bijgewerkte tekst voor de parameter &quot;options > page&quot;. |
 | 8 april 2019 | [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | Bijgewerkte [verwachte gegevensvariantie bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
