@@ -5,9 +5,9 @@ title: Aanbevelingen integreren met e-mail
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -70,12 +70,12 @@ Stel een [!DNL Recommendations] activiteit in [!DNL Adobe Target]met de optie [F
 
 Het e-mailsysteem dat u gebruikt, moet deze scenario&#39;s kunnen verwerken:
 
-**Er wordt een geldig antwoord ontvangen, maar er zijn geen aanbevelingen.**
+### Er is een geldig antwoord ontvangen, maar er zijn geen aanbevelingen
 
 * In dit geval zal de reactie wat als mboxDefault parameterwaarde wordt geplaatst zijn. Zie de uitleg hieronder over deze parameter.
 * De e-mailprovider moet een standaard HTML-blok met aanbevelingen hebben om in dit geval te gebruiken.
 
-**De time-out van de doelserver en retourneert deze zonder gegevens.**
+### De time-out van de doelserver en retourneert deze zonder gegevens
 
 * In dit geval retourneert de doelserver de volgende inhoud:
 
@@ -87,13 +87,13 @@ Het e-mailsysteem dat u gebruikt, moet deze scenario&#39;s kunnen verwerken:
    * Dat e-mailbericht weergeven en doorgaan met de volgende e-mail.
    * Wachtrij die bepaalde e-mail en re-run ontbrak e-mails als partij aan het eind van de aanvankelijke looppas.
 
-**Voorbeeld van aanvraag-URL:**
+### Voorbeeld van aanvraag-URL
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**Vereiste parameters:**
+### Vereiste parameters: {#reqparams}
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Vereist voor bepaalde soorten criteria: weergave/weergave, bekijken/kopen, kopen/kopen) | *entity_id* | De productID de aanbeveling is gebaseerd op, zoals een verlaten product in het karretje, of een vorige aankoop.<br>Indien vereist door de criteria, moet de radibox vraag het `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Als `entity.id` wordt overgegaan, wordt het hoogst geadviseerd om deze parameter ook over te gaan om het verzoek te verhinderen het aantal van getalleerde paginameningen voor een punt te verhogen, zodat niet op productmening-gebaseerde algoritmen schuin te trekken. |  |
 | `entity.categoryId`<br>(Vereist voor bepaalde soorten criteria: meest bekeken op rubriek en topverkopers op rubriek) | *category_id* | De rubriek waarop de aanbeveling is gebaseerd, zoals topverkopers in een rubriek.<br>Indien vereist door de criteria, moet de radibox vraag het `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Als de `mboxNoRedirect` parameter niet aanwezig is, `mboxDefault` zou een absolute URL moeten zijn die standaardinhoud zal terugkeren als geen aanbeveling beschikbaar is. Dit kan een afbeelding of andere statische inhoud zijn.<br>Als de `mboxNoRedirect` parameter aanwezig is, `mboxDefault` kan elke tekst zijn die aangeeft dat er bijvoorbeeld geen aanbevelingen zijn `no_content`.<br>De e-mailprovider moet het geval afhandelen waar deze waarde wordt geretourneerd en standaard-HTML in de e-mail invoegen. <br> Let op: als het domein dat in de `mboxDefault` URL wordt gebruikt niet wordt gewhitelisteerd, kunt u worden blootgesteld aan een risico van een Open Redirect-kwetsbaarheid. Om het ongeoorloofde gebruik van verbindingen van Redirector of `mboxDefault` door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#whitelist) in *Gastheren* te verzenden. |  |
+| `mboxDefault` | *`https://www.default.com`* | Als de `mboxNoRedirect` parameter niet aanwezig is, `mboxDefault` zou een absolute URL moeten zijn die standaardinhoud zal terugkeren als geen aanbeveling beschikbaar is. Dit kan een afbeelding of andere statische inhoud zijn.<br>Als de `mboxNoRedirect` parameter aanwezig is, `mboxDefault` kan elke tekst zijn die aangeeft dat er bijvoorbeeld geen aanbevelingen zijn `no_content`.<br>De e-mailprovider moet het geval afhandelen waar deze waarde wordt geretourneerd en standaard-HTML in de e-mail invoegen. <br> *Beste praktijken* op het gebied van beveiliging: Let op: als het domein dat in de `mboxDefault` URL wordt gebruikt niet wordt gewhitelisteerd, kunt u worden blootgesteld aan een risico van een Open Redirect-kwetsbaarheid. Om het ongeoorloofde gebruik van verbindingen van Redirector of `mboxDefault` door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;aan whitelist het gebrek opnieuw richt URL domeinen. Het doel gebruikt gastheren aan whitelist domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#whitelist) in *Gastheren* te verzenden. |  |
 | `mboxHost` | *mbox_host* | Dit is het domein dat aan het standaardmilieu (gastheergroep) wordt toegevoegd wanneer de vraag brandt. |  |
 | `mboxPC` | Leeg | (Vereist voor aanbevelingen die het profiel van een bezoeker gebruiken.)<br>Als er geen &quot;thirdPartyId&quot; is opgegeven, wordt een nieuwe tntId gegenereerd en geretourneerd als onderdeel van de reactie. Anders blijft het leeg.<br>**Opmerking **: Zorg ervoor dat u een unieke waarde opgeeft voor`mboxSession`en`mboxPC`voor elke e-mailontvanger (dus voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege het grote aantal gebeurtenissen dat binnen één profiel wordt gegenereerd. | 1 &lt; Lengte &lt; 128<br>Kan niet meer dan één &quot;.&quot; bevatten (punt).<br>Het enige toegestane punt is voor het achtervoegsel van de profiellocatie. |
 
-**Optionele parameters**:
+### Optionele parameters
 
 | Parameter | Waarde | Beschrijving | Validatie |
 |--- |--- |--- |--- |
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Optioneel) | 1 | Standaard wordt de aanroeper omgeleid wanneer geen te leveren inhoud wordt gevonden. Gebruik deze optie om het standaardgedrag uit te schakelen. |  |
 | `mbox3rdPartyId` | *xxx* | Gebruik deze optie als u uw eigen aangepaste bezoeker-id wilt gebruiken voor het opgeven van profielen. |  |
 
-**Mogelijke reacties** op doelserver:
+### Mogelijke reacties op doelserver
 
 | Antwoord | Beschrijving |
 |--- |--- |
