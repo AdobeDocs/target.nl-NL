@@ -5,9 +5,9 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,11 @@ Een whitelist maken:
 
 Als een mbox vraag op een onbevoegde gastheer wordt gemaakt, zal de vraag met antwoorden `/* no display - unauthorized mbox host */`.
 
-Als u ubox functionaliteit van gebruikt, merk op dat deze whitelist ook de lijst van domeinen zal controleren waaraan uw [!DNL Target]redirecteuren [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kunnen navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de whitelist niet wordt opgegeven, kan Adobe de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
-
-De whitelist heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de whitelist eigenschap te gebruiken, dan slechts verschijnen de gastheren die door whitelist worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
+>[!IMPORTANT]
+>
+>*Aanbevolen werkwijzen* voor beveiliging: Als u ubox functionaliteit van gebruikt, merk op dat deze whitelist ook de lijst van domeinen zal controleren waaraan uw [!DNL Target]redirecteuren [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kunnen navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de whitelist niet wordt opgegeven, kan Adobe de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
+>
+>De whitelist heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de whitelist eigenschap te gebruiken, dan slechts verschijnen de gastheren die door whitelist worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 
 Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein verschijnt in de lijst als het domein een vraag aan uw mbox.js maakt. Als iemand bijvoorbeeld een van uw webpagina&#39;s naar de server kopieert, wordt dat domein in uw omgeving weergegeven. U ziet wellicht ook domeinen van spintengines, vertaalsites of lokale schijfstations.
 
