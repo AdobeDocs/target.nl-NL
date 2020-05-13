@@ -5,9 +5,9 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -36,23 +36,11 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 
 Met de aanstaande veroudering van mbox.js op 30 augustus 2020, ontving David Son, de Manager van het Product van het Doel van Adobe onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. De komende 30 dagen kunt u de webinar opname [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
 
-## Target Standard/Premium 20.4.1 (6 mei 2020)
+## Target Standard/Premium 20.5.1 (10 juni 2020)
 
-Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
+Details van deze release worden hier gepubliceerd.
 
-* Probleem verholpen waarbij een apparaat en browsertype voor een publiek onjuist worden gekwalificeerd. (TGT-36266)
-* Probleem verholpen waarbij rapportgegevens niet konden worden weergegeven wanneer ze werden weergegeven op schermen met een breedte van minder dan 963 pixels. (TGT-36549)
-* Probleem verholpen waardoor rapporten voor automatische personalisatie niet correct worden weergegeven. (TGT-36619)
-* Probleem verholpen waarbij incompatibele metriek kon worden geselecteerd in Auto-Allocate en Auto-Target activiteiten die Analytics voor Doel (A4t) gebruiken. (TGT-36646)
-* Probleem verholpen waarbij bepaalde opties in de Visual Experience Composer (VEC) niet correct werden weergegeven. (TGT-36571)
-* Probleem verholpen in de interface Doel die ertoe heeft geleid dat andere aanbevelingen voorvertoningen van de bewerkte inhoud aanbieden nadat een gebruiker de inhoud in één ervaring heeft vervangen. (TGT-36053 &amp; TGT-36894)
-* Probleem verholpen waarbij sommige gebruikers items niet konden verwijderen uit een catalogus met aanbevelingen. (TGT-36455)
-* Probleem verholpen waardoor gebruikers geen criteria voor Aanbevelingen konden opslaan voor activiteiten van meerdere pagina&#39;s. (TGT-36249)
-* Probleem verholpen waarbij de keuzerondjes voor de gegevensbron met gedragingen voor een tweede opeenvolgende keer werden verborgen bij het bewerken van de criteria. (TGT-36796)
-* Probleem verholpen waarbij een algoritme met aanbevelingen een lange periode &#39;ophaalresultaten&#39; weergaf. (TGT-36550 &amp; TGT-36551)
-* Veel UI-tekenreeksen die in verschillende talen zijn gelokaliseerd, zijn bijgewerkt.
-
-## Wijzigingen in de profielbatchstatus-API v2 (12 mei 2020)
+## Wijzigingen in de status-API van profielbatch v2 (TBD-datum)
 
 Met de release van 4 mei retourneert de profielbatchstatus alleen gegevens voor mislukkingen op rijniveau die worden uitgevoerd (succesgegevens worden niet geretourneerd). Mislukte profiel-id&#39;s worden door de API geretourneerd.
 
