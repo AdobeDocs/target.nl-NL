@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '7618'
+source-wordcount: '7627'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 13 mei | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sectie &quot;Bekende beperkingen&quot; toegevoegd. |
 | 11 mei | [Gastheren](/help/administrating-target/hosts.md) | Informatie toegevoegd over het gebruik van de functionaliteit ubox met omleidingen en whitelisten. |
 |  | [Werken met directeuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
 |  | [Aanbevelingen integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
@@ -335,7 +336,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende problemen voor uitsluitingsgroepen verplaatst naar de tabel met opgeloste problemen. |
 | 11 april 2019 | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte codevoorbeelden. |
 |  | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Toegevoegde schermafbeeldingen. |
-|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?&quot; |
+|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces om een winnaar te bepalen te versnellen?&quot; |
 | 10 april 2019 | [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Kleine tekstupdates voor de sectie &quot;Implementatievereisten&quot; (vereisten opnieuw geordend). |
 |  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Bijgewerkte tekst voor de parameter &quot;options > page&quot;. |
 | 8 april 2019 | [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | Bijgewerkte [verwachte gegevensvariantie bij gebruik van A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
