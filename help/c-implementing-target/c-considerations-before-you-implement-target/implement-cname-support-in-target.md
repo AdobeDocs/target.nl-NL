@@ -5,9 +5,9 @@ title: CNAME en Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,8 @@ Gebruik de volgende set opdrachten (in de opdrachtregelterminal van MacOS of Lin
    >[!NOTE]
    >
    >Als dit bevel ontbreekt maar het bovenstaande `validateEdgeFpsslSni` bevel slaagt, zou u op uw DNS updates kunnen moeten wachten om volledig te verspreiden. DNS verslagen hebben bijbehorende [TTL (tijd-aan-levende)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) die geheim voorgeheugenvervaltijd voor DNS antwoorden van die verslagen dicteert, zodat kunt u minstens moeten wachten zolang uw TTLs. U kunt het `dig target.example.com` bevel of Toolbox [van](https://toolbox.googleapps.com/apps/dig/#CNAME) de Reeks van G gebruiken om uw specifieke TTLs omhoog te zoeken.
+
+## Bekende beperkingen
+
+* De wijze QA zal niet kleverig zijn wanneer u CNAME en at.js 1.x hebt omdat het op een derdekoekje gebaseerd is. Als tussenoplossing kunt u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert. De modus QA blijft behouden wanneer u CNAME en at.js 2.x hebt.
+* De `overrideMboxEdgeServer` instelling werkt momenteel niet correct met CNAME. Dit moet zo worden vastgesteld `false` dat geen verzoeken in gebreke blijven.
