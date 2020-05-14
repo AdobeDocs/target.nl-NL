@@ -5,7 +5,7 @@ title: CNAME en Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om CNAME-ondersteuning aan te vragen in [!DNL Targe
 
       DigiCert geeft de volgende aanbeveling om het DCV-e-mailproces te versnellen:
 
-      &quot;Controleer of uw registrar/WHOIS-provider [relevante e-mailadressen]niet heeft gemaskeerd of verwijderd. Als dat het geval is, moet u nagaan of deze een manier bieden (bijvoorbeeld een geanonimiseerd e-mailadres of webformulier) waarmee [certificeringsinstanties] toegang hebben tot de WHOIS-gegevens van uw domein.&quot;
+      &quot;Controleer of uw registrar/WHOIS-provider relevante e-mailadressen niet heeft gemaskeerd of verwijderd. Als dat het geval is, moet u nagaan of deze een manier bieden (bijvoorbeeld een geanonimiseerd e-mailadres of webformulier) waarmee certificeringsinstanties toegang hebben tot de WHOIS-gegevens van uw domein.&quot;
 
 1. Creeer een verslag CNAME op DNS van uw domein richtend aan uw regelmatige hostname `clientcode.tt.omtrdc.net`. Bijvoorbeeld, als uw cliëntcode klant is en uw voorgestelde hostname is `target.example.com`, zou uw DNS CNAME- verslag iets als dit moeten kijken:
 
