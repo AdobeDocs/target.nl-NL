@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '7627'
+source-wordcount: '7641'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over wijzigingen in de profielbatchstatus-API v2. |
 | 13 mei | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sectie &quot;Bekende beperkingen&quot; toegevoegd. |
 | 11 mei | [Gastheren](/help/administrating-target/hosts.md) | Informatie toegevoegd over het gebruik van de functionaliteit ubox met omleidingen en whitelisten. |
 |  | [Werken met directeuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
