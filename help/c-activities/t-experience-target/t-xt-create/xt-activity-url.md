@@ -4,7 +4,10 @@ description: De Activiteit URL bepaalt de pagina die in de Ervaring wordt gebrui
 title: URL van activiteit
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +22,9 @@ De Activiteit URL bepaalt de pagina die in de Ervaring het richten (XT) activite
    >
    >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http]). Hierdoor komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
    >
-   >Standaard opent de VEC of Form-Based Experience Composer de pagina die is opgegeven in uw [accountvoorkeuren](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+   >Door gebrek, opent VEC of op vorm-Gebaseerde Composer van de Ervaring de pagina die in uw montages [van Composer van de](/help/administrating-target/visual-experience-composer-set-up.md)Visuele Ervaring wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
    >
-   >Als u een URL opgeeft voor een site die niet de standaard JavaScript-doelcode bevat, kunt u geen pagina-elementen selecteren.
+   >Als u een URL opgeeft voor een site die de standaard JavaScript-doelcode niet bevat, kunt u geen pagina-elementen selecteren.
 
 1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op **[!UICONTROL Configure]**, selecteert u **[!UICONTROL Page Delivery]** en geeft u de URL op in het [!UICONTROL URL] veld.
 
