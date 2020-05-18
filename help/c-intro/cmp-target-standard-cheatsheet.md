@@ -5,7 +5,10 @@ title: Veelgestelde vragen over optimalisatie en personalisatie
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 0%
 
 ---
 
@@ -175,7 +178,7 @@ Bekijk de regels [voor](../c-experiences/c-visual-experience-composer/temtest.md
 
 De reden hiervoor is dat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- als HTTPS-bronnen ophaalt. Vraag uw team van IT zich volledig naar HTTPS te bewegen.
 
-Tot dit gebeurt, volg de instructies in het [Toelaten van Gemengde Inhoud in Uw Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
+Tot dit gebeurt, volg de instructies in het [Toelatend Gemengde Inhoud in Uw Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
 **Kan ik Visual Experience Composer (VEC) op mijn plaats proberen alhoewel het Doel at.js bibliotheek nog niet is opgesteld?**
 
@@ -253,7 +256,7 @@ We hebben de functie [](../c-experiences/c-manage-content/offer-redirect.md#task
 
 **Waarom gebeurt de levering van inhoud niet in mijn QA-proces?**
 
-Het is mogelijk dat uw site dynamische id&#39;s, dubbele id&#39;s of dynamische klassen voor elementen bevat. Mogelijk moet u de sitevoorkeursopties op accountniveau evalueren (of op activiteitsniveau als de uitgave specifiek is voor een domein of pagina). Zie [CSS-kiezers](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Het is mogelijk dat uw site dynamische id&#39;s, dubbele id&#39;s of dynamische klassen voor elementen bevat. Mogelijk moet u de sitevoorkeursopties op accountniveau evalueren (of op activiteitsniveau als de uitgave specifiek is voor een domein of pagina). Zie [CSS-kiezers](/help/administrating-target/visual-experience-composer-set-up.md#css).
 
 **Waarom zie ik niet het gewenste aanbod/de gewenste ervaring en zie ik in plaats daarvan een andere activiteit?**
 
