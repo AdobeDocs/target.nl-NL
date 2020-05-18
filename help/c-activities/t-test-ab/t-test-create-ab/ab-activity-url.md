@@ -5,7 +5,10 @@ title: URL van activiteit
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het maken van ac
 
 ## Een andere URL opgeven
 
-Standaard wordt de pagina [!UICONTROL Visual Experience Composer] geopend die is opgegeven in de voorkeuren [voor](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)doelaccount. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+Door gebrek, [!UICONTROL Visual Experience Composer] opent de pagina die in uw montages [van Composer van de](/help/administrating-target/visual-experience-composer-set-up.md)Visuele Ervaring wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
 Als u een andere pagina wilt weergeven nadat de pagina is [!UICONTROL Visual Experience Composer] geopend, klikt u op het tandwielpictogram en selecteert u **[!UICONTROL Configure]** **[!UICONTROL Page Delivery]**. Voer de URL in het veld Activiteit-URL in.
 
