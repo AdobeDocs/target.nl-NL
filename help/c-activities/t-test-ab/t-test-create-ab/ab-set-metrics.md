@@ -5,7 +5,10 @@ title: Metrisch instellen
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#r
 
    Welke instellingen beschikbaar zijn, is afhankelijk van de succesmaatstaf die u gebruikt.
 
-   Als deze optie is ingeschakeld, levert het [!UICONTROL Estimated Value of the Conversion]veld (niet beschikbaar voor de gegevens van de paginascore) een waarde voor uw doel. Met deze waarde kan Target een geschatte lift in inkomsten berekenen. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken. Zie [Schatting van Lift in Revenue](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) voor meer informatie.
+   Als deze optie is ingeschakeld, levert het [!UICONTROL Estimated Value of the Conversion]veld (niet beschikbaar voor de gegevens van de paginascore) een waarde voor uw doel. Met deze waarde kan Target een geschatte lift in inkomsten berekenen. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken. Zie [Schatting van Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
 
    De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt u verwacht.
 
