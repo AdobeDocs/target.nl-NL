@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 0%
 
 ---
 
@@ -15,14 +18,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Informatie om u te helpen opstelling het Doel van Adobe, met inbegrip van voorkeur, implementatie, gebruikersbeheer, eigenschappen, montages Scene7, gastheerbeheer, en reactietokens.
 
-Als u de [!UICONTROL Setup] menu-items wilt openen, klikt u **[!UICONTROL Setup]** in de bovenste menubalk en klikt u op het gewenste tabblad aan de linkerkant:
+Als u de [!UICONTROL Setup] menu-items wilt openen, klikt u **[!UICONTROL Administration]** in de bovenste menubalk en klikt u op het gewenste tabblad aan de linkerkant:
 
-* [Voorkeuren](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)
-* [Implementatie](/help/c-implementing-target/implementing-target.md)
-* [Gebruikers](/help/administrating-target/c-user-management/user-management.md)
-* [Eigenschappen](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
+* [Rapportage](/help/administrating-target/reporting.md)
 * [Scene7-instellingen](/help/administrating-target/scene7-settings.md)
+* [Implementatie](/help/c-implementing-target/implementing-target.md)
+* [Eigenschappen](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Gastheren](/help/administrating-target/hosts.md)
-* [Reactietokens](/help/administrating-target/response-tokens.md)
+* [](/help/administrating-target/environments.md)Omgevingen
+* [Reactiepunten](/help/administrating-target/response-tokens.md)
+* [Gebruikers](/help/administrating-target/c-user-management/user-management.md)
 
-![Menu Adobe Target Setup](/help/administrating-target/assets/setup_menu_new.png)
+![Menu Adobe Target Administration](/help/administrating-target/assets/administration.png)
