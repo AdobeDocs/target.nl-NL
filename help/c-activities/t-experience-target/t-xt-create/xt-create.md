@@ -5,7 +5,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +53,7 @@ Voor meer informatie over Ervaring richtend, een gebruik-case scenario, en train
 
 1. Geef de URL [van uw](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)activiteit op en klik op **[!UICONTROL Next]**.
 
-   Als uw account is [geconfigureerd met een standaard-URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), wordt die URL standaard weergegeven. U kunt desgewenst van de standaard naar een andere URL overschakelen.
+   Als uw account is [geconfigureerd met een standaard-URL](/help/administrating-target/visual-experience-composer-set-up.md), wordt die URL standaard weergegeven. U kunt desgewenst van de standaard naar een andere URL overschakelen.
 
    De VEC wordt geopend en geeft de pagina weer die in de URL is opgegeven.
 
