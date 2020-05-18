@@ -4,7 +4,10 @@ description: De Activiteit URL bepaalt de pagina die in de Multivariate Test (MV
 title: URL van activiteit
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Geef de activiteit-URL op wanneer dit wordt gevraagd tijdens het maken [van](/he
 >
 >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http]). Hierdoor komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
 
-Standaard wordt met de [!UICONTROL Visual Experience Composer] (VEC) de pagina geopend die is opgegeven in de [accountvoorkeuren](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw montages [van Composer van de](/help/administrating-target/visual-experience-composer-set-up.md)Visuele Ervaring wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
 Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op het **[!UICONTROL Configure]** pictogram, selecteert u **[!UICONTROL Page Delivery]** en geeft u vervolgens de URL op.
 
