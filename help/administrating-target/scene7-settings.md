@@ -1,18 +1,21 @@
 ---
 description: De norm van het doel kan met de Klassieke van de Media van Adobe Dynamische (vroeger Scene7) worden geïntegreerd om Digital Asset Management (DAM) in de Inhoudsbibliotheek te verstrekken.
-title: Dynamic Media Classic-integratie
+title: Integratie van dynamische Media Classic-integratie
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 0%
 
 ---
 
 
 # Dynamic Media Classic-integratie{#scene-settings}
 
-De norm van het doel kan met de Klassieke van de Media van Adobe Dynamische (vroeger Scene7) worden geïntegreerd om Digital Asset Management (DAM) in de Inhoudsbibliotheek te verstrekken.
+Doel kan met de Klassieke van de Media van Adobe Dynamische (vroeger Scene7) worden geïntegreerd om het Beheer van Digitale Activa (DAM) in de Inhoudsbibliotheek te verstrekken.
 
 >[!NOTE]
 >
@@ -26,9 +29,10 @@ Als u tijdens het maken van activiteiten rechtstreeks in een aanbieding of aange
 
 De opslag-URL en de uiteindelijke publicatie-URL&#39;s van afbeeldingen van Dynamic Media verschillen en er mogen GEEN aanbiedingen worden gemaakt met behulp van de opslagkoppeling van afbeeldingen, aangezien de levering in dergelijke gevallen niet werkt. U moet gebruikmaken van de mogelijkheid om het image te maken, zoals wordt uitgelegd in de Help-documentatie.
 
-Om met Dynamische Klassieke Media (Scene7) te integreren, moet u sommige volgende informatie specificeren.
+Om met Dynamische Klassieke Media (Scene7) te integreren, moet u de volgende informatie specificeren.
 
-1. Klik op **[!UICONTROL Setup]** > **[!UICONTROL Scene7 Settings]**.
+1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
 1. Geef de volgende gegevens voor de Dynamic Media Classic-account op:
 
    **Regio:** Het gebied voor uw Dynamic Media-account: Noord-Amerika, Europa of Azië.
@@ -38,4 +42,5 @@ Om met Dynamische Klassieke Media (Scene7) te integreren, moet u sommige volgend
    **E-mailadres:** Het e-mailadres dat wordt gebruikt om zich aan te melden bij Dynamic Media Classic (Scene7).
 
    **Wachtwoord:** Het wachtwoord dat wordt gebruikt om aan login aan Dynamische Klassieke Media (Scene7).
+
 1. Klik op **[!UICONTROL Submit]**.
