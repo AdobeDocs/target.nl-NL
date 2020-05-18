@@ -5,7 +5,10 @@ user-guide-title: Help bij Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 0%
 
 ---
 
@@ -33,9 +36,15 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 + Doel beheren {#administer}
    + [Doeloverzicht beheren](administrating-target/administrating-target.md)
    + [Eerste stappen van beheerder](administrating-target/start-target.md)
-   + Voorkeuren instellen {#preferences}
-      + [Voorkeuren](administrating-target/r-target-account-preferences/target-account-preferences.md)
-      + [Schatting van de inkomsten](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Vorm Composer van de Visuele Ervaring](/help/administrating-target/visual-experience-composer-set-up.md)
+   + Rapportage {#reporting}
+      + [Rapportage configureren](/help/administrating-target/reporting.md)
+      + [Schatting van de opbrengst](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Dynamic Media Classic-integratie](administrating-target/scene7-settings.md)
+   + [Implementatie](/help/administrating-target/implementation.md)
+   + [Gastheren](administrating-target/hosts.md)
+   + [Omgevingen](/help/administrating-target/environments.md)
+   + [Reactietokens](administrating-target/response-tokens.md)
    + Gebruikers beheren {#manage-users}
       + [Gebruikersbeheer](administrating-target/c-user-management/user-management.md)
       + Gebruikers {#users}
@@ -45,9 +54,6 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
          + [Machtigingen voor Enterprise-gebruikers](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Bedrijfsmachtigingen configureren](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media Classic-integratie](administrating-target/scene7-settings.md)
-   + [Gastheren](administrating-target/hosts.md)
-   + [Reactietokens](administrating-target/response-tokens.md)
 + Doel implementeren {#implement-target}
    + [Overzicht van doel implementeren](c-implementing-target/implementing-target.md)
    + Voordat u implementeert {#before-implement}
