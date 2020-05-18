@@ -5,9 +5,9 @@ title: Opmerkingen bij de release van vorige releases
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29079'
+source-wordcount: '29062'
 ht-degree: 0%
 
 ---
@@ -449,7 +449,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapportage bron voor activiteiten </p> </td> 
-   <td colname="col2"> <p>In <span class="wintitle"> Opstelling </span> &gt; <span class="wintitle"> Voorkeur </span>, kunt u de rapporteringsbron voor uw activiteiten selecteren, of <span class="keyword"> Doel </span> of <span class="keyword"> de Analyse van Adobe </span>. U kunt ook de rapportbron per activiteit selecteren. </p> <p>Vanaf deze release zijn er enkele belangrijke workflowoverwegingen waarmee u rekening moet houden wanneer u de rapportbron kiest in <span class="wintitle"> Voorkeuren </span> of per activiteit. </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external"> Voorkeuren </a>. </p> </td> 
+   <td colname="col2"> <p>In <span class="wintitle"> Opstelling </span> &gt; <span class="wintitle"> Voorkeur </span>, kunt u de rapporteringsbron voor uw activiteiten selecteren, of <span class="keyword"> Doel </span> of <span class="keyword"> de Analyse van Adobe </span>. U kunt ook de rapportbron per activiteit selecteren. </p> <p>Vanaf deze release zijn er enkele belangrijke workflowoverwegingen waarmee u rekening moet houden wanneer u de rapportbron kiest in <span class="wintitle"> Voorkeuren </span> of per activiteit.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1732,7 +1732,7 @@ Deze [!DNL Target] release is gericht op verbeteringen van de bruikbaarheid en p
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-namen kunnen nu speciale tekens bevatten, zoals ampersands ( &amp; ), zodat deze consistent zijn met de naamgevingsvereisten voor mbox-namen met <span class="codeph"> mbox.js </span>. (TNT-26144) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Toegevoegde <span class="codeph"> veiligeAlleen- </span> instelling die aangeeft of <span class="codeph"> at.js alleen HTTPS </span> mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en die via <span class="codeph"> targetGlobalSettings kan worden overschreven </span>. (TNT-26183) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() voor meer informatie </a>. </p> </li> 
-      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Oudere browserondersteuning </span> is beschikbaar in <span class="codeph"> versie 0.js </span> versie 0.9.3 en lager. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
+      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Oudere browserondersteuning </span> is beschikbaar in <span class="codeph"> versie 0.js </span> versie 0.9.3 en eerder. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
      </ul> </p> <p>Voor gedetailleerde informatie over de veranderingen in elke versie van <span class="codeph"> at.js </span>, zie <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> bij.js de Details van de Versie </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2594,7 +2594,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Geef de tijd op waarop u een feed wilt bijwerken. </p> <p>Zie <a href="../c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local"> Feed maken </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Aanbevelingen </p> <p>Gebruik de lijst van het Gegeven om een Diervoeder te plaatsen om nooit te lopen </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Aanbevelingen </p> <p>Gebruik de lijst van het Gegeven om een Geëxporteerde te plaatsen om nooit te lopen </p> </td> 
    <td colname="col2"> <p>Stel in de lijst met feed een feed in die nooit moet worden uitgevoerd als u die feed niet wilt bijwerken. </p> <p>Zie <a href="../c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local"> Feed maken </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2984,7 +2984,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B-tests en ervaring gericht op: Activiteiten maken in drie stappen </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Maak een A/B </a>en <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Ervaring die gericht zijn op </a> activiteit in drie stappen in plaats van vier. Deze verandering maakt het proces om deze activiteiten meer als het werkschema van andere activiteitentypes, zoals Geautomatiseerde Personalisatie en Multivariate Tests te creëren. </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Maak een A/B </a>en <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Experience </a> Activity in drie stappen in plaats van vier. Deze verandering maakt het proces om deze activiteiten meer als het werkschema van andere activiteitentypes, zoals Geautomatiseerde Personalisatie en Multivariate Tests te creëren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analyses als rapportbron zijn beschikbaar voor de meeste typen activiteiten. </p> </td> 
@@ -3391,7 +3391,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> Schatting van inkomstenbelasting </td> 
-   <td colname="col2"> <p>Doel kan een schatting maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken. </p> <p>In deze schatting wordt de hoeveelheid lift berekend die door de winnende ervaring wordt behaald en het totale aantal bezoekers gedurende de duur van de test, en wordt de lift weergegeven die u kunt behalen als elke bezoeker de winnende ervaring ziet, als de trends doorzetten zoals ze tijdens de test hebben. </p> <p> De juistheid van de raming hangt af van een aantal factoren, waaronder de geraamde cijfers indien de huidige tendensen aanhouden. Deze waarden zijn schattingen op basis van de in het verleden behaalde resultaten en mogen niet worden gebruikt voor financiële richtsnoeren. Toekomstige resultaten kunnen afwijken. </p> <p>Zie <a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Raming Lift in Revenue </a>. </p> </td> 
+   <td colname="col2"> <p>Doel kan een schatting maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken. </p> <p>In deze schatting wordt de hoeveelheid lift berekend die door de winnende ervaring wordt behaald en het totale aantal bezoekers gedurende de duur van de test, en wordt de lift weergegeven die u kunt behalen als elke bezoeker de winnende ervaring ziet, als de trends doorzetten zoals ze tijdens de test hebben. </p> <p> De juistheid van de raming hangt af van een aantal factoren, waaronder de geraamde cijfers indien de huidige tendensen aanhouden. Deze waarden zijn schattingen op basis van de in het verleden behaalde resultaten en mogen niet worden gebruikt voor financiële richtsnoeren. Toekomstige resultaten kunnen afwijken. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ongedaan maken/Opnieuw </td> 
