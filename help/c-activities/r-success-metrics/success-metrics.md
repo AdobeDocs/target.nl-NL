@@ -4,7 +4,10 @@ description: In Adobe Target zijn succesgegevens vooraf geconfigureerd voor zowe
 title: Succeswaarden in Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +44,7 @@ U kunt ook aangepaste succesmaatstaven maken.
 
 Selecteer de maatstaf voor succes en selecteer de actie die een bezoeker heeft uitgevoerd om het doel te bereiken. Kies bijvoorbeeld een omzettingsmetrische waarde, stel in dat de waarde één keer per bezoeker moet worden geteld en stel vervolgens in of een bezoeker een bepaalde pagina (of set pagina&#39;s) of een bepaalde koppeling weergeeft of op een bepaalde koppeling klikt.
 
-Als deze optie is ingeschakeld, biedt de geschatte waarde van een conversieveld (niet beschikbaar voor de maatstaven van de paginascore) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan een geschatte lift in inkomsten [!DNL Target] worden berekend. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Voor alle inkomstenmaatstaven (opbrengsten per bezoeker, gemiddelde bestelwaarde, totale verkoop en bestellingen) gebruikt de schatting de opbrengsten per bezoeker. Het gegevenstype is currency. Zie [Schatting van Lift in Revenue](../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) voor meer informatie.
+Als deze optie is ingeschakeld, biedt de geschatte waarde van een conversieveld (niet beschikbaar voor de maatstaven van de paginascore) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan een geschatte lift in inkomsten [!DNL Target] worden berekend. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Voor alle inkomstenmaatstaven (opbrengsten per bezoeker, gemiddelde bestelwaarde, totale verkoop en bestellingen) gebruikt de schatting de opbrengsten per bezoeker. Het gegevenstype is currency. Zie [Schatting van Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
 
 De succesmetriek u voor uw activiteit kiest zijn beschikbaar in de rapportmontages wanneer u een rapport voor de activiteit bekijkt.
 
