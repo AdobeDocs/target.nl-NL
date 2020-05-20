@@ -5,9 +5,9 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein ver
 Wanneer een API-aanroep `mboxHost` wordt doorgegeven, wordt de conversie opgenomen voor de omgeving die wordt doorgegeven. Als geen milieu wordt overgegaan, blijft de gastheer in de vraag aan [!UICONTROL Production].
 
 U kunt ook een zwarte lijst maken die hosts (domeinen) opgeeft dan geen aanroepen vanuit een box kan verzenden [!DNL Target] door de gewenste hosts in het [!UICONTROL Host Does Not Contain] vak toe te voegen.
+
+>[!NOTE]
+>
+>Omdat de lijst met geautoriseerde hosts wordt gebruikt voor zowel mbox-hosts als standaard omleidingshosts, moet u alle bestaande domeinen toevoegen die zijn goedgekeurd voor het gebruik van de Adobe Target Javascript SDK (at.js) *EN* alle domeinen die worden gebruikt in standaardomleidingsURL&#39;s. U moet in de toekomst ook alle nieuwe, vergelijkbare domeinen aan de whitelist toevoegen.
 
 ## Een host verwijderen {#section_F56355BA4BC54B078A1A8179BC954632}
 
