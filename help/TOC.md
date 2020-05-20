@@ -5,9 +5,9 @@ user-guide-title: Help bij Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1404'
 ht-degree: 0%
 
 ---
@@ -256,7 +256,6 @@ ht-degree: 0%
       + [Activiteit QA met levering aan de serverzijde gebruiken](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + Audiences {#audiences}
    + [Overzicht van soorten publiek](c-target/target.md)
-   + [Hoe doelgericht werken](c-target/target-how-target-works.md)
    + Soorten publiek maken {#create-audiences}
       + [Maken](c-target/c-audiences/audiences.md)
       + [Stimuleer publiek in doel](c-target/c-audiences/create-audience.md)
