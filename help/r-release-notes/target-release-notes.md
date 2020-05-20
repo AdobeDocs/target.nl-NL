@@ -5,9 +5,9 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 14 mei 2020**
+**Laatst bijgewerkt: 20 mei 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -36,9 +36,12 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 
 Met de aanstaande veroudering van mbox.js op 30 augustus 2020, ontving David Son, de Manager van het Product van het Doel van Adobe onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. De komende 30 dagen kunt u de webinar opname [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
 
-## Target Standard/Premium 20.5.1 (10 juni 2020)
+## Target Standard/Premium 20.6.1 (10 juni 2020)
 
-Details van deze release worden hier gepubliceerd.
+| Functie/verbetering | Beschrijving |
+| --- | --- |
+| Uitgever | Deze nieuwe rol is vergelijkbaar met de huidige rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). Nochtans, heeft de rol van de Uitgever de extra toestemming aan actieve activiteiten. |
+| Beheerpagina<br>vroeger &quot;Setup&quot;. | De pagina van de Opstelling is anders genoemd &quot;Beleid&quot;en UI voor alle menupunten is bijgewerkt om het werkschema en het gebruiksgemak te verbeteren.<br>Beschikbare menu-items zijn:<ul><li>Visual Experience Composer</li><li>Rapportage</li><li>Scene7-instellingen</li><li>Implementatie</li><li>Eigenschappen</li><li>Gastheren</li><li>Omgevingen</li><li>Reactiepunten</li><li>Gebruikers</li></ul> |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
