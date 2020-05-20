@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 20 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de aanstaande release van Target Standard/Premium 20.6.1 (10 juni 2020). |
+|  | [Gastheren](/help/administrating-target/hosts.md) | Opmerking toegevoegd aan de sectie &#39;best practices voor beveiliging&#39;. |
 | 14 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over wijzigingen in de profielbatchstatus-API v2. |
 | 13 mei | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sectie &quot;Bekende beperkingen&quot; toegevoegd. |
 | 11 mei | [Gastheren](/help/administrating-target/hosts.md) | Informatie toegevoegd over het gebruik van de functionaliteit ubox met omleidingen en whitelisten. |
