@@ -4,39 +4,42 @@ description: Als u een oudere versie van at.js of mbox.js gebruikt, moet u een a
 title: Een Analytics-trackingserver gebruiken
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 0%
 
 ---
 
 
 # Een Analytics-trackingserver gebruiken{#use-an-analytics-tracking-server}
 
-Als u een oudere versie van at.js of mbox.js gebruikt, moet u een analytische volgende server voor activiteiten specificeren die Analytics voor Doel (A4T) gebruiken.
+Als u een oudere versie van at.js of mbox.js gebruikt, moet u een analysetrackingserver voor activiteiten specificeren die [!DNL Analytics] voor [!DNL Target] (A4T) gebruiken.
 
 >[!NOTE]
 >
->Als u Adobe Analytics gebruikt als bron voor rapportage van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
+>Als u [!DNL Analytics] als rapporteringsbron van uw activiteit gebruikt, te hoeven u niet om een het volgen server tijdens activiteitenverwezenlijking te specificeren als u mbox.js versie 61 (of recenter) of versie 0.9.1 van .js (of later) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
 
-Om ervoor te zorgen dat de gegevens van Doel naar de correcte plaats in Analytics gaan, vereist A4T een analytics volgende server om in alle vraag naar Modstats van Doel worden verzonden. Voor implementaties met meerdere trackingservers kunt u Adobe Experience Cloud Debugger gebruiken om de juiste trackingserver voor uw activiteit te bepalen.
+Om ervoor te zorgen dat de gegevens van [!DNL Target] naar de correcte plaats binnen gaan [!DNL Analytics], vereist A4T een analytische het volgen server om in alle vraag naar Modstats van [!DNL Target]. worden verzonden. Voor implementaties die meerdere trackingservers gebruiken, kunt u het programma gebruiken [!DNL Adobe Experience Cloud Debugger] om de juiste trackingserver voor uw activiteit te bepalen.
 
 Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit zal worden geleverd om u te verzekeren de correcte volgende server selecteert. U kunt ook een standaard traceringsserver opgeven voor elk account. Neem contact op met de klantenservice om de standaardinstelling op te geven of te wijzigen.
 
-1. Open Adobe Experience Cloud Debugger vanaf de pagina waarop u uw activiteit maakt.
+1. Open de [!DNL Adobe Experience Cloud Debugger]pagina op de pagina waarop u uw activiteit maakt.
 
    Zie [Install Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)als u de foutopsporing niet hebt geïnstalleerd.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-   De analytische traceringsserver vindt u in de sectie SiteCatalyst-afbeelding van het foutopsporingsprogramma. Het veld wordt, afhankelijk van de implementatie, Cookies *van* eerste partij of *Cookies* van derden genoemd en de waarde van de server voor het bijhouden van analysemogelijkheden wordt in een van de volgende notaties gebruikt:
+   De analytische traceringsserver vindt u in de [!UICONTROL SiteCatalyst Image] sectie van het foutopsporingsprogramma. Het veld wordt, afhankelijk van de implementatie, Cookies van *eerste partij* of Cookies *van* derden genoemd en de waarde van de [!DNL Analytics] trackingserver wordt in een van de volgende notaties gebruikt:
 
    * (voor CNAME-implementaties)
    * (voor niet-regionale implementaties)
    * (voor de uitvoering van de regionale distributieovereenkomst)
-   *Het bedrijf* vertegenwoordigt de het bedrijfsnaam van de Analyse, *metriek* is een voorbeeld van een waarde CNAME, en *d1* is een voorbeeld van een de gegevenscentrum van de Analyse.
+   *Het bedrijf* vertegenwoordigt de [!DNL Analytics] bedrijfsnaam, *metriek* is een voorbeeld van een waarde CNAME, en *d1* is een voorbeeld van een [!DNL Analytics] gegevenscentrum.
 1. Kopieer de volledige inhoud van het veld.
 1. Plak in het [!UICONTROL Reporting Settings] gedeelte van het [!UICONTROL Goal & Settings] scherm van uw activiteit de trackingserverinformatie in het **[!UICONTROL Tracking Server]** veld.
 
    >[!NOTE]
    >
-   >U moet Adobe Analytics selecteren als de rapportbron voor uw activiteit opdat het gebied van de Server van het Volgen beschikbaar is.
+   >U moet uw activiteit selecteren [!UICONTROL Analytics as the Reporting Source] om het [!UICONTROL Tracking Server] gebied beschikbaar te maken.
 
