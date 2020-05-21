@@ -5,7 +5,10 @@ title: Informatie over de functie adobe.target.applyOffers(options) voor Adobe T
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cd76bab4b3dbb73c57655403230aac09ddbd2a05
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Met deze functie kunt u meerdere aanbiedingen toepassen die zijn opgehaald door 
 
 | Sleutel | Type | Vereist? | Beschrijving |
 | --- | --- | --- | --- |
-| kiezer | String | Nee | HTML-element of CSS-kiezer die wordt gebruikt om het HTML-element aan te duiden waar de aanbiedingsinhoud [!DNL Target] moet worden geplaatst. Als er geen kiezer is opgegeven, wordt ervan [!DNL Target] uitgegaan dat het HTML-element dat moet worden gebruikt, HTML HEAD is. |
+| kiezer | String | Nee | HTML-element of CSS-kiezer die wordt gebruikt om het HTML-element aan te duiden waar de aanbiedingsinhoud [!DNL Target] moet worden geplaatst. Als er geen kiezer is opgegeven, wordt ervan [!DNL Target] uitgegaan dat het HTML-element dat moet worden gebruikt HTML HEAD is. |
 | Antwoord | Object | Ja | Reactieobject van `getOffers()`.<br>Zie onderstaande tabel Verzoeken. |
 
 ## Antwoord
