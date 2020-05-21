@@ -6,7 +6,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 0%
 
 ---
 
@@ -35,20 +38,19 @@ U moet lid zijn van een of meer [!DNL Experience Cloud] groepen die toegang hebb
 
 Zie [Gebruikers en producten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)van Experience Cloud beheren voor meer informatie.
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Voltooi de volgende taken in [!DNL Adobe Analytics]:
 
 ### Toegang tot de rapportsuite Analytics configureren
 
-Voordat u rapporten maakt of weergeeft voor een activiteit op basis van Analytics, moet u lid zijn van de **[!UICONTROL All Report Access]** groep of een lid zijn van een groep die toegang heeft tot ten minste één rapport in de rapportsuite die u wilt gebruiken. Als u geen rapporten kunt bekijken, zorg ervoor u lid van één van deze groepen bent.
+Voordat u rapporten maakt of weergeeft voor een activiteit [!DNL Analytics]met een motor, moet u lid zijn van de **[!UICONTROL All Report Access]** groep of een lid zijn van een groep die toegang heeft tot ten minste één rapport in de rapportsuite die u wilt gebruiken. Als u geen rapporten kunt bekijken, zorg ervoor u lid van één van deze groepen bent.
 
 Zie [Productprofielen en -groepen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)voor meer informatie.
 
 ### Vorm toegang tot de Groep van de Toegang van de Diensten van het Web
 
-U moet tot de groep van de Toegang van de Diensten van het Web binnen behoren [!DNL Adobe Analytics] om als rapporteringsbron voor te kunnen gebruiken [!DNL Analytics] [!DNL Target].
+U moet tot de groep van de Toegang van de Diensten van het Web binnen behoren [!DNL Analytics] om als rapporteringsbron voor te kunnen gebruiken [!DNL Analytics] [!DNL Target].
 
 ## Adobe-doel {#section_26BA212D8D40443E9EE2AB327091425C}
 
