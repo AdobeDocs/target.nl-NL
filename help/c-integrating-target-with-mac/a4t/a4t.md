@@ -6,55 +6,58 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '1212'
+ht-degree: 0%
 
 ---
 
 
 # Adobe Analytics als de rapportbron voor Adobe Target (A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
 
-Adobe &quot;Analytics for Target&quot; (A4T) is een integratie tussen oplossingen waarmee u activiteiten kunt maken op basis van de gegevens van de conversie van Analytics en publiekssegmenten. Met de integratie A4T kunt u analyserapporten gebruiken om uw resultaten te bekijken. Als u Analytics als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op de gegevensinzameling van de Analyse.
+[!DNL Adobe Analytics for Target] (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van [!DNL Analytics] conversiemetriek en publiekssegmenten. Met de integratie A4T kunt u rapporten gebruiken om uw resultaten te bekijken. [!DNL Analytics] Als u [!DNL Analytics] als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op [!DNL Analytics] gegevensinzameling.
 
 ## A4T-overzicht {#section_92B66069210C40DBA937790E8CC596CF}
 
-De Analytics voor de integratie van het Doel tussen Analytics en Target verstrekt krachtige analyse en tijdbesparende hulpmiddelen voor uw optimaliseringsprogramma.
+De [!DNL Analytics for Target] integratie tussen [!DNL Analytics] en [!DNL Target] verstrekt krachtige analyse en tijdbesparende hulpmiddelen voor uw optimaliseringsprogramma.
 
-De drie belangrijkste voordelen van het gebruik van analysegegevens in Doel zijn:
+De drie belangrijkste voordelen van het gebruik van [!DNL Analytics] gegevens in [!DNL Target] zijn:
 
-* De handelaars kunnen Analytics succesmetriek of het melden van segmenten dynamisch toepassen op de activiteitenrapporten van het Doel op elk ogenblik. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
+* Marketers kunnen op elk gewenst moment dynamisch [!DNL Analytics] succesmaatstaven of rapportsegmenten toepassen op [!DNL Target] activiteitenrapporten. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
 * Een enkele gegevensbron voorkomt de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
-* Met de bestaande Adobe Analytics-implementatie worden alle vereiste gegevens verzameld. Het is niet nodig vakken op pagina&#39;s te implementeren om alleen gegevens voor rapporten te verzamelen. Hoewel, wordt het nog geadviseerd dat u een doos van de orderbevestiging voor de Geautomatiseerde activiteiten van de Personalisatie (AP) uitvoert.
+* Met uw bestaande [!DNL Analytics] implementatie worden alle vereiste gegevens verzameld. Het is niet nodig vakken op pagina&#39;s te implementeren om alleen gegevens voor rapporten te verzamelen. Hoewel, wordt het nog geadviseerd dat u een doos van de orderbevestiging voor de activiteiten van de [Geautomatiseerde Personalisatie](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) uitvoert.
 
 >[!IMPORTANT]
 >
 >Voordat u kunt beginnen met het gebruik van A4T, moet u vragen dat uw account wordt ingericht voor de integratie. Gebruik [dit formulier](https://www.adobe.com/go/audiences) om provisioning aan te vragen.
 >
->De integratie die Adobe Analytics als gegevensbron voor Adobe Target (A4T) toelaat vertegenwoordigt de volgende generatie van de stop van Test&amp;Target aan SiteCatalyst. Deze plug-in is vervangen, maar wordt nog steeds ondersteund door klanten die deze al gebruiken.
+>De integratie die [!DNL Analytics] als gegevensbron voor [!DNL Target] (A4T) toelaat vertegenwoordigt de volgende generatie van de stop van Test&amp;Target aan PlaatsCatalyst. Deze plug-in is vervangen, maar wordt nog steeds ondersteund door klanten die deze al gebruiken.
 
-Als u Analytics als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op Analytics.
+Als u [!DNL Analytics] als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op [!DNL Analytics].
 
-Alle metriek van Analytics, met inbegrip van berekende metriek, zijn beschikbaar in Standaard/Premium van het Doel en het rapport van Activiteiten van het Doel in Analytics. Evenzo, kan om het even welk segment beschikbaar in Analytics op beide oplossingen worden toegepast. U kunt metrisch of publiek op het rapport in Standaard/Premium van het Doel toepassen nadat de test is begonnen, of zelfs nadat de test heeft voltooid.
+Alle [!DNL Analytics] metriek, met inbegrip van berekende metriek, zijn beschikbaar in [!DNL Target] en het [!UICONTROL Target Activities] rapport in [!DNL Analytics]. Evenzo, kan om het even welk segment beschikbaar in [!DNL Analytics] worden toegepast op beide oplossingen. U kunt metrisch of publiek op het rapport binnen toepassen [!DNL Target] nadat de activiteit is begonnen, of zelfs nadat de activiteit heeft voltooid.
 
-Elke metrische waarde is inbegrepen, met inbegrip van om het even welke klant of berekende metriek die ingebouwde in Analytics zijn.
+Elke metrische waarde is inbegrepen, met inbegrip van om het even welke klant of berekende metriek die ingebouwde [!DNL Analytics].
 
 Na de rubriceringsperiode worden in deze rapporten ongeveer een uur na de verzameling gegevens van de website weergegeven. Alle metriek, segmenten, en waarden in de rapporten komen uit de rapportreeks u selecteerde toen u opstelling de activiteit.
 
 Houd rekening met de volgende punten wanneer u overweegt A4T te gebruiken:
 
-* Als u Adobe Analytics wilt gebruiken als rapportagebron voor Adobe Target, moeten zowel u als uw bedrijf toegang hebben tot Adobe Analytics en Adobe Target. [Neem contact op met uw accountvertegenwoordiger](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) als u een van beide oplossingen nodig hebt.
-* De bron van de rapportage wordt voor elke activiteit ingesteld. Doel blijft gegevens verzamelen die u wilt gebruiken in rapportage en doelgegevens zijn nog steeds beschikbaar als u een activiteit liever baseert op gegevens die door Doel zijn verzameld.
+* Om als rapporteringsbron voor te gebruiken [!DNL Analytics] , zowel moet u als uw bedrijf toegang tot [!DNL Target]en tot [!DNL Analytics] [!DNL Target]. [Neem contact op met uw accountvertegenwoordiger](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) als u een van beide oplossingen nodig hebt.
+* De bron van de rapportage wordt voor elke activiteit ingesteld. [!DNL Target] gegevens blijven verzamelen die kunnen worden gebruikt voor rapportage en [!DNL Target] gegevens zijn nog steeds beschikbaar als u een activiteit liever baseert op gegevens die zijn verzameld door [!DNL Target].
 * U moet de ene of de andere rapportbron gebruiken. U kunt geen gegevens verzamelen voor één activiteit uit beide bronnen.
-* Wanneer het gebruiken van A4T, zijn alle succesmetriek beschikbaar aan uw activiteiten Analytische metriek. Nochtans, kan uw doel metrisch op een mbox vraag worden gebaseerd. Bijvoorbeeld, kunt u de uit-van-de-doos klikvolgende mogelijkheden van het Doel met A4T in plaats van het moeten Analytics uitvoeren klik-volgende code.
-* Wanneer het bekijken van het melden van een activiteit A4T in het Doel UI, bekijkt u de gegevens van Analytics. Bijvoorbeeld, als u metrisch van de Bezoeker in Doel gebruikt, gebruikt u metrisch van de Bezoeker van de Analyse, niet metrisch van de Bezoeker van het Doel, die nu wordt genoemd Entrants. Dit verschil is vooral belangrijk voor elementaire verkeersmetriek (Bezoekers, Bezoekingen, Paginaweergaven) en conversiemetriek.
-* Eventuele bestaande doelactiviteiten blijven gebruikmaken van de gegevensverzameling Target en worden niet beïnvloed door het inschakelen van A4T.
-* Slechts één op doos-gebaseerde metrisch wordt toegestaan wanneer het gebruiken van Analytics als rapporteringsbron.
-* Een server-aan-server vraag van Doel naar Analytics verzendt activiteit en ervaringsinformatie naar Analytics. Deze integratie resulteert niet in extra servervraag naar of Doel of Analytics.
+* Wanneer het gebruiken van A4T, zijn alle succesmetriek beschikbaar aan uw activiteiten [!DNL Analytics] metriek. Nochtans, kan uw doel metrisch op een mbox vraag worden gebaseerd. Bijvoorbeeld, kunt u de uit-van-de-doos klikvolgende mogelijkheden van het Doel met A4T in plaats van het moeten [!DNL Analytics] klik-volgcode uitvoeren.
+* Wanneer het bekijken van het melden van een activiteit A4T in [!DNL Target] UI, bekijkt u [!DNL Analytics] gegevens. Bijvoorbeeld, als u [!UICONTROL Visitor] metrisch binnen gebruikt [!DNL Target], gebruikt u [!DNL Analytics] [!UICONTROL Visitor] metrisch, niet [!DNL Target] metrisch, die nu wordt genoemd [!UICONTROL Visitors] [!UICONTROL Entrants]. Dit verschil is vooral belangrijk voor basisverkeersmetriek ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) en omzettingsmetriek.
+* Bestaande [!DNL Target] activiteiten blijven gebruikmaken van [!DNL Target] gegevensverzameling en worden niet beïnvloed door het inschakelen van A4T.
+* Slechts één op doos-gebaseerde metrisch wordt toegestaan wanneer het gebruiken [!DNL Analytics] als rapporteringsbron.
+* Een server-aan-server vraag van [!DNL Target] naar [!DNL Analytics] verzendt activiteit en ervaringsinformatie naar [!DNL Analytics]. Deze integratie resulteert niet in extra servervraag naar of [!DNL Target] of [!DNL Analytics].
 
-   In sommige situaties, zou de classificatievraag van Doel aan Analytics kunnen ontbreken en de activiteiten tonen geen gegevens in Analytics. Als dit gebeurt, zie [Problemen oplossen met de integratie Analytics en Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). U kunt ook [contact opnemen met de klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) voor verdere hulp.
+   In sommige situaties, zou de classificatievraag van [!DNL Target] aan [!DNL Analytics] kunnen ontbreken en de activiteiten tonen geen gegevens in [!DNL Analytics]. Als dit gebeurt, zie [Problemen oplossen met de integratie Analytics en Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). U kunt ook [contact opnemen met de klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) voor verdere hulp.
 
 ## Ondersteunde activiteitstypen {#section_F487896214BF4803AF78C552EF1669AA}
 
-In de volgende tabel wordt aangegeven welke activiteitstypen Analytics als rapportbron ondersteunen (A4T):
+In de volgende tabel wordt aangegeven welke typen activiteiten worden ondersteund [!DNL Analytics] als de rapportbron in [!DNL Target] (A4T):
 
 | Activiteitstypen | A4T-compatibel? | Opmerkingen, indien van toepassing |
 |--- |--- |--- |
@@ -62,7 +65,7 @@ In de volgende tabel wordt aangegeven welke activiteitstypen Analytics als rappo
 | A/B-activiteit met automatisch toewijzen | Nee |  |
 | A/B activiteit met AutoTarget | Nee |  |
 | Gericht op ervaring (XT) | Ja |  |
-| MVT (Multivariate Test) | Ja | Vereist op box-Gebaseerd doel metrisch doel om het rapport van de Bijdrage van het Element te krijgen.  Het Rapport Element Contribution biedt momenteel geen ondersteuning voor analytische gegevens. |
+| MVT (Multivariate Test) | Ja | Vereist mbox-based doel metrisch doel om het [!UICONTROL Element Contribution] rapport te krijgen.  Het [!UICONTROL Element Contribution] rapport ondersteunt momenteel geen [!DNL Analytics] metriek. |
 | Actie voor geautomatiseerde personalisatie (AP) | Nee |  |
 | Activiteit aanbevelingen | Ja |  |
 | Mobiele app | Ja | Ondersteund met de SDK voor mobiele services, versie 4.13.1 of hoger.  Raadpleeg de documentatie bij [Mobiele services voor meer informatie](https://docs.adobe.com/content/help/en/mobile-services/using/home.html). |
@@ -70,47 +73,47 @@ In de volgende tabel wordt aangegeven welke activiteitstypen Analytics als rappo
 | Server Side Delivery-API | Ja | Zie [Serverzijde voor meer informatie: Doel](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)implementeren. |
 | NodeJS SDK | Ja | Zie [Serverzijde voor meer informatie: Doel](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)implementeren. |
 | AEM 6.1 (of eerder) Cloud Service Integration | Nee |  |
-| AEM 6.2 (of hoger) Cloud Service Integration | Ja | Zie [Integratie met Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in de documentatie van Adobe Experience Manager 6.2 voor meer informatie. |
-| Alle activiteiten via een omleidingsaanbieding | Ja | Er zijn strengere minimumeisen voor het gebruik van omleidingsaanbiedingen met A4T. Zie Aanbiedingen [omleiden - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)voor meer informatie. |
+| AEM 6.2 (of hoger) Cloud Service Integration | Ja | Zie [Integratie met Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in de documentatie [!DNL Adobe Experience Manager] 6.2 voor meer informatie. |
+| Elke activiteit die een omleidingsaanbieding gebruikt | Ja | Er zijn strengere minimumeisen voor het gebruik van omleidingsaanbiedingen met A4T. Zie Aanbiedingen [omleiden - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)voor meer informatie. |
 | Node.JS | Ja |  |
 
-Omdat alle activiteitstypen A4T nog niet ondersteunen, wordt u aangeraden belangrijke conversievakken te behouden of te implementeren, zoals het vak &quot;orderConfirmPage&quot;.
+Omdat alle activiteitstypen A4T nog niet ondersteunen, wordt u aangeraden belangrijke conversievakken, zoals het `orderConfirmPage` mbox, te behouden of te implementeren.
 
 ## Voorbeelden van A4T-rapporten {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Als u A4T-rapporten wilt weergeven in [!DNL Target], klikt u op **[!UICONTROL Activiteiten]**, klikt u op de gewenste activiteit in de lijst die wordt gebruikt [!DNL Analytics] als de rapportbron > en klikt u vervolgens op het tabblad **[!UICONTROL Rapporten]** .
+Om A4T rapporten binnen te bekijken [!DNL Target], klik **[!UICONTROL Activities]**, klik de gewenste activiteit van de lijst die [!DNL Analytics] als zijn rapporteringsbron gebruikt, dan klik de **[!UICONTROL Reports]** tabel.
 
 >[!NOTE]
 >
->U kunt de [!UICONTROL Rapporterende Bron] drop-down lijst bij de bovenkant van de pagina van [!UICONTROL Activiteiten] gebruiken om slechts activiteiten te tonen die [!DNL Analytics] als rapporteringsbron gebruiken.
+>U kunt de [!UICONTROL Reporting Source] drop-down lijst bij de bovenkant van de [!UICONTROL Activities] pagina gebruiken om slechts activiteiten te tonen die [!DNL Analytics] als rapporteringsbron gebruiken.
 
-U kunt tussen de Mening van de Lijst en de Mening [!UICONTROL van de] Grafiek van het rapport van een knevel voorzien door het aangewezen pictogram bij de hoogste juiste kant van het rapport te klikken.
+U kunt tussen de [!UICONTROL Table View] en [!UICONTROL Graph View] van het rapport schakelen door op het juiste pictogram rechtsboven in het rapport te klikken.
 
-De volgende illustratie toont de Mening [!UICONTROL van de] Grafiek van een rapport A4T met de [!UICONTROL Metrische] vervolgkeuzelijst van het Rapport die de beschikbare [!DNL Analytics] doelmetriek toont:
+De volgende illustratie toont de [!UICONTROL Graph View] van een rapport A4T met de [!UICONTROL Report Metric] drop-down lijst die de beschikbare [!DNL Analytics] doelmetriek toont:
 
 ![](assets/a4t_report_graph1.png)
 
-In de volgende afbeelding ziet u de [!UICONTROL Grafiekweergave] van een A4T-rapport met de vervolgkeuzelijst [!UICONTROL Publiek] waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
+De volgende afbeelding toont de [!UICONTROL Graph View] vorm van een A4T-rapport met de [!UICONTROL Audience] vervolgkeuzelijst waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
 
 ![](assets/a4t_report_graph2.png)
 
-In de volgende afbeelding ziet u de [!UICONTROL tabelweergave] van een A4T-rapport:
+In de volgende afbeelding wordt de [!UICONTROL Table View] vorm van een A4T-rapport getoond:
 
 ![](assets/a4t_report_table.png)
 
-Als u het rapport in [!DNL Analytics] plaats van in [!DNL Target]wilt weergeven, klikt u op **[!UICONTROL Weergeven in Analytics]** boven aan het rapport.
+Als u het rapport wilt weergeven in [!DNL Analytics] plaats van in [!DNL Target], klikt u **[!UICONTROL View in Analytics]** boven aan het rapport.
 
 ## Analyse en doel: Best practices voor zelfstudie analyse {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Open de [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, geleverd door Adobe Experience League.
+Open de [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, verstrekt door [!DNL Adobe Experience League].
 
 ## Trainingsvideo&#39;s:
 
-De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
+De volgende video&#39;s bevatten meer informatie over de concepten die in dit onderwerp worden besproken.
 
 ### Analytics for Target (A4T) (4:32) ![Overview badge](/help/assets/overview.png)
 
-In deze video wordt uitgelegd hoe u Adobe Analytics kunt gebruiken als rapporteringsbron in Adobe Target voor de analyse van uw optimalisatieprogramma.
+In deze video wordt uitgelegd hoe u [!DNL Analytics] als rapporteringsbron kunt gebruiken [!DNL Target] om de analyse van uw optimalisatieprogramma te bepalen.
 
 * Verklaar wat A4T is en waarom u het zou gebruiken
 * Uitleggen hoe A4T werkt
