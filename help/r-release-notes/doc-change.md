@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 21 mei | [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Toegevoegd `mboxedge30.tt.omtrdc.net` aan de lijst. |
 | 20 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de aanstaande release van Target Standard/Premium 20.6.1 (10 juni 2020). |
 |  | [Gastheren](/help/administrating-target/hosts.md) | Opmerking toegevoegd aan de sectie &#39;best practices voor beveiliging&#39;. |
 | 14 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over wijzigingen in de profielbatchstatus-API v2. |
