@@ -5,7 +5,10 @@ title: Profielkenmerken in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +54,7 @@ Als u een nieuw profielscript wilt toevoegen, klikt u op het **[!UICONTROL Profi
 
 of
 
-Als u een bestaand profielscript wilt kopiëren, houdt u de muisaanwijzer boven het gewenste script en klikt u op het [!UICONTROL Profile Scripts] **[!UICONTROL Copy]** pictogram: ![kopieerpictogram](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Als u een bestaand profielscript wilt kopiëren, houdt u de muisaanwijzer boven het gewenste script en klikt u op het [!UICONTROL Profile Scripts] **[!UICONTROL Copy]** pictogram: ![pictogram kopiëren](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Vervolgens kunt u het publiek bewerken om een vergelijkbaar publiek te maken.
 
@@ -75,6 +78,8 @@ Houd rekening met het volgende:
 * Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van de laatste aanvraag wilt verwijzen.
 * Parameters en waarden zijn hoofdlettergevoelig. Komt overeen met het geval van de parameters en waarden die u ontvangt tijdens de activiteit of test.
 * Zie de sectie &quot;JavaScript reference for script profile parameters&quot; hieronder voor meer JavaScript-syntaxis.
+* De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, zullen in die activiteit kwalificeren.
+* Profielscripts kunnen niet worden verwijderd terwijl ze in een activiteit worden gebruikt.
 
 ## Informatiekaarten voor profielscripts weergeven {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
