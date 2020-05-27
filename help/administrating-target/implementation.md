@@ -5,9 +5,9 @@ title: Doel implementeren
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 
 Voordat u begint te gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen, vertrouwd zijn met de manier waarop [!DNL Adobe Target]het programma werkt en integreert met uw infrastructuur en begrijpen hoe bezoekers door het [!DNL Target] [!DNL Target] systeem worden gevolgd.
 
-Als u de [!UICONTROL Implementation] pagina wilt openen, klikt u op [!UICONTROL Administration] > [!UICONTROL Implementation].
-
 Voor meer informatie, zie de diverse onderwerpen onder Doel [](/help/c-implementing-target/implementing-target.md)uitvoeren.
+
+Informatie die van toepassing is op de instellingen op deze pagina vindt u op Doel [implementeren zonder tagbeheer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
+
+>[!NOTE]
+>
+>[!DNL Adobe Experience Platform Launch] is de aangewezen methode om uit te voeren [!DNL Target]. [!DNL Launch] biedt klanten een eenvoudige manier om alle analytische, marketing- en advertentietags te implementeren en te beheren die nodig zijn om de relevante ervaringen van klanten te verbeteren. Zie Doel [implementeren met Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)voor meer informatie.
+
+Als u de [!UICONTROL Implementation] pagina wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+
+![Implementatiepagina](/help/administrating-target/assets/implementation.png)
