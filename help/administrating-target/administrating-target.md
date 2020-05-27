@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Doel beheren{#administer-target}
 
 Informatie om u te helpen opstelling het Doel van Adobe, met inbegrip van voorkeur, implementatie, gebruikersbeheer, eigenschappen, montages Scene7, gastheerbeheer, en reactietokens.
+
+>[!NOTE]
+>
+>De onderwerpen in deze sectie, die hieronder worden vermeld, zijn bijgewerkt om u een sluimerpiek bij de veranderingen te geven die van het Doel Standaard/Premium 20.6.1 versie (10 juni 2020) komen. De informatie die in deze onderwerpen wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Als u de [!UICONTROL Setup] menu-items wilt openen, klikt u **[!UICONTROL Administration]** in de bovenste menubalk en klikt u op het gewenste tabblad aan de linkerkant:
 
