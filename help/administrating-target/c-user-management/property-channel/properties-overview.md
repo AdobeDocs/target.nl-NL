@@ -5,14 +5,17 @@ title: Bedrijfsmachtigingen configureren
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '1350'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) -bedrijfsmachtigingen configureren{#configure-enterprise-permissions}
 
-Informatie over de taken die worden vereist om gebruikers aan uw implementatie van het Doel toe te voegen; creëren werkruimten, gebruikersgroepen, en eigenschappen; uw doelimplementatie bijwerken en de `at_property` parameter opnemen; en geef rollen en machtigingen op.
+Informatie over de taken die vereist zijn om gebruikers aan uw [!DNL Target] implementatie toe te voegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de [!DNL Target] implementatie bijwerken en de `at_property` parameter opnemen; en geef rollen en machtigingen op.
 
 >[!NOTE]
 >
@@ -29,13 +32,14 @@ De volgende lijst maakt een lijst van de taken u zou moeten uitvoeren om eigensc
 | 5: De implementatie bijwerken en de `at_property` parameter opnemen | [!DNL Target] UI, at.js-functies, [!DNL Adobe Launch]of [!DNL Dynamic Tag Management] |
 | 6: Rollen en machtigingen opgeven | [!DNL Adobe Admin Console for Enterprise] |
 
-Voor de taken die in de Adobe Admin Console voor Onderneming worden uitgevoerd, toegang tot de console door deze stappen te volgen:
+Voor die taken die in [!DNL Adobe Admin Console for Enterprise]worden uitgevoerd, heb toegang tot de console door deze stappen te volgen:
 
-1. Ga naar [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > Meld u aan met uw Adobe-id, als u zich nog niet hebt aangemeld.
+1. Klik in Adobe Target op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**.
 
    of
 
-   Als u zich al hebt aangemeld bij de Experience Cloud, gaat u naar [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)en klikt u op het [!UICONTROL App] pictogram in de bovenste navigatiebalk > op **[!UICONTROL Admin]** de rechterkant.
+   Ga naar [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > Meld u aan met uw Adobe-id, als u zich nog niet hebt aangemeld.
+
 
 1. (Voorwaardelijk) Als u toegang hebt tot de sjabloon [!DNL Admin Console for Enterprise] voor meer dan één organisatie, klikt u op de gebruikersavatar in de rechterhoek of op de bovenste navigatiebalk en selecteert u de gewenste organisatie.
 
@@ -50,13 +54,13 @@ Wanneer u de nieuwe [!UICONTROL Properties] functionaliteit gaat gebruiken, moet
 
 Met een werkruimte (productprofiel) kan een organisatie een specifieke set gebruikers toewijzen aan een specifieke set eigenschappen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in [!DNL Analytics].
 
-Organisaties kunnen profiteren van de functionaliteit voor Enterprise-machtigingen door nieuwe werkruimten te maken in Admin Console, door doeleigenschappen toe te wijzen aan deze werkruimten en door gebruikers van de configuratie &quot;Standaardwerkruimte&quot; te verplaatsen naar deze nieuwere werkruimten met beperkte toegang.
+Organisaties kunnen profiteren van de functionaliteit voor Enterprise-machtigingen door nieuwe werkruimten binnen te maken, [!DNL Admin Console][!DNL Target] eigenschappen toe te wijzen aan deze werkruimten en gebruikers van de configuratie &quot;Standaardwerkruimte&quot; over te brengen naar deze nieuwere werkruimten met beperkte toegang.
 
 De klanten kunnen deze werkruimten gebruiken om toegang tot verschillende teams door gebied, door bedrijfseenheid, door plaatsctie, of via een andere methode te scheiden zij kiezen.
 
 Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen zelfs verschillende rollen binnen elke werkruimte hebben.
 
-1. Klik in de beheerconsole op **[!UICONTROL Products]** en selecteer vervolgens de naam van het gewenste product.
+1. Klik in het [!DNL Admin Console]dialoogvenster op **[!UICONTROL Products]** en selecteer vervolgens de naam van het gewenste product.
 
    ![werkruimte](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -101,27 +105,26 @@ Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overig
 
 **Tip**: Zie de trainingsvideo hieronder voor meer informatie over het maken van eigenschappen.
 
-1. Klik [!DNL Target]in **[!UICONTROL Setup]** > **[!UICONTROL Properties]** om de [!UICONTROL Properties] lijst weer te geven.
+1. Klik [!DNL Target]in **[!UICONTROL Administration]** > **[!UICONTROL Properties]** om de [!UICONTROL Properties] lijst weer te geven.
 1. Klik op Eigenschap **** maken.
 
    ![Nieuwe eigenschap, dialoogvenster](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    Vul de velden in:
 
-   * **Kanaal:** Selecteer het gewenste kanaal voor de eigenschap: Web, Mobile App, Email of Other/API (bijvoorbeeld een set-top box of PlayStation-console).
-   * **Naam (vereist):** Geef een beschrijvende naam voor de eigenschap op.
+   * **Naam eigenschap (vereist):** Geef een beschrijvende naam voor de eigenschap op.
    * **Omschrijving:** Geef een optionele beschrijving voor de eigenschap op.
+   * **Kanaal:** Selecteer het gewenste kanaal voor de eigenschap: Web, Mobile App, Email of Other/API (bijvoorbeeld een set-top box of PlayStation-console).
 
-1. Klik **[!UICONTROL Generate Code]** om de code te produceren u tijdens het uitvoeren van de stappen in [5 zult gebruiken: Werk uw Implementatie bij om de parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property op te nemen.
-1. Kopieer de code naar het klembord.
+1. Klik **[!UICONTROL Copy]** om de code naar uw klembord te kopiëren die u tijdens het uitvoeren van de stappen in [5 zult gebruiken: Werk uw Implementatie bij om de parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property op te nemen.
 1. Klik **[!UICONTROL Save]** wanneer gereed.
 
 >[!NOTE]
 >Zie de trainingsvideo hieronder voor meer informatie over het maken van eigenschappen.
 
-## Stap 5: Werk Uw Implementatie bij om de parameter at_property op te nemen {#section_9B17A59807A94712BE642942442EBBC8}
+## Stap 5: Werk uw implementatie bij om de parameter at_property op te nemen {#section_9B17A59807A94712BE642942442EBBC8}
 
-Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target] `at_property` parameter aan om het even welke vraag toevoegen die Doel (mbox, api, enz.) raakt.
+Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target] parameter aan om het even welke vraag toevoegen die `at_property` [!DNL Target] (mbox, api, enz.) raakt.
 
 **U verkrijgt als volgt de`at_property`parametercode:**
 
@@ -129,7 +132,7 @@ Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target
 
    of
 
-   Klik [!DNL Target]in **[!UICONTROL Setup]** > **[!UICONTROL Properties]** om de [!UICONTROL Properties] lijst weer te geven.
+   Klik [!DNL Target]in **[!UICONTROL Administration]** > **[!UICONTROL Properties]** om de [!UICONTROL Properties] lijst weer te geven.
 
    1. Houd de muisaanwijzer boven de [!UICONTROL Last Updated] kolom zodat de gewenste eigenschap wordt weergegeven en klik op het [!UICONTROL Code] pictogram.
 
@@ -139,7 +142,7 @@ Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target
 
       ![Eigenschappencode](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. Werk uw implementatie van het Doel met de implementatiecode bij die in de vorige stap wordt verkregen.
+1. Werk uw [!DNL Target] implementatie bij met de implementatiecode die in de vorige stap is verkregen.
 
    Er zijn verschillende manieren om uw [!DNL Target] implementatie bij te werken. De volgende methoden kunnen bijvoorbeeld worden gebruikt voor webpagina&#39;s:
 
