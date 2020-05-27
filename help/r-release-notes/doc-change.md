@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2167de7512e16a7b91aa276baa0cfdc35dcafeaa
+source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 27 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over Analytics voor de steun van het Doel (A4T) voor auto-Wijs activiteiten toe. |
 | 26 mei | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | De volgende gegevens zijn toegevoegd: &quot;De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, komen in aanmerking voor die activiteit.&quot; |
 | 21 mei | [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Toegevoegd `mboxedge30.tt.omtrdc.net` aan de lijst. |
 | 20 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de aanstaande release van Target Standard/Premium 20.6.1 (10 juni 2020). |
