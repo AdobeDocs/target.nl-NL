@@ -5,9 +5,9 @@ title: Veelgestelde vragen over rapportage voor Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Lijst met veelgestelde vragen over rapportage in [!DNL Target].
 
 ## Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld?
 
-Overweeg het volgende:
+De volgende informatie verklaart hoe de Nieuwe Bezoekers en Terugkerende Bezoekers worden geteld en verstrekt voorbeelden van waarom de som van deze twee segmenten niet altijd aan het aantal totale bezoekers optellen.
 
 **Nieuwe bezoekers**: Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de volgende voorwaarden is voldaan:
 
@@ -31,16 +31,16 @@ Overweeg het volgende:
 
 Als deze twee segmenten worden toegepast op een activiteit, vormen het segment Nieuwe bezoekers en het segment Terugkerende bezoekers niet altijd het totale aantal bezoekers.
 
-Bekijk het volgende voorbeeld, gezien de voorwaarden hierboven voor Nieuwe Bezoekers en Terugkerende Bezoekers:
+Neem bijvoorbeeld het volgende voorbeeld, waarbij u de hierboven vermelde voorwaarden voor Nieuwe Bezoekers en Terugkerende Bezoekers in acht neemt:
 
 * Een bezoeker bezoekt de site voor de eerste keer en wordt geteld als een nieuwe bezoeker.
 * De bezoeker keert terug naar de site nadat aan de voorwaarden voor het terugsturen van bezoekers is voldaan en wordt geteld als een terugkerende bezoeker.
 
 Deze bezoeker wordt geteld als één bezoeker in het totale aantal bezoekers van de activiteit, ook al wordt het geteld in zowel het segment Nieuwe bezoekers als het segment Terugkerende bezoekers.
 
-De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de de [succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md)van de activiteit vormt:
+De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de de [succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md)van de activiteit vormt.
 
-Bekijk het volgende voorbeeld:
+Bijvoorbeeld:
 
 Een aantal nieuwe bezoekers bezoekt uw site en is gekwalificeerd voor een activiteit. Deze nieuwe bezoekers worden meegerekend in het segment Nieuwe Bezoekers. Al deze bezoekers namen ook een bezoek aan die activiteit.
 
