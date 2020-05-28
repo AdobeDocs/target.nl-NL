@@ -5,9 +5,9 @@ title: Veelgestelde vragen over rapportage voor Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ Bekijk het volgende voorbeeld, gezien de voorwaarden hierboven voor Nieuwe Bezoe
 * De bezoeker keert terug naar de site nadat aan de voorwaarden voor het terugsturen van bezoekers is voldaan en wordt geteld als een terugkerende bezoeker.
 
 Deze bezoeker wordt geteld als één bezoeker in het totale aantal bezoekers van de activiteit, ook al wordt het geteld in zowel het segment Nieuwe bezoekers als het segment Terugkerende bezoekers.
+
+De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de de [succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md)van de activiteit vormt:
+
+Bekijk het volgende voorbeeld:
+
+Een aantal nieuwe bezoekers bezoekt uw site en is gekwalificeerd voor een activiteit. Deze nieuwe bezoekers worden meegerekend in het segment Nieuwe Bezoekers. Al deze bezoekers namen ook een bezoek aan die activiteit.
+
+Sommige bezoekers raakten metrische conversie, die als &quot;Aantal van de Toename, versie gebruiker, werd gevormd en heringang toestaat.&quot; Stel dat sommige van deze gebruikers de metrische conversie meerdere keren hebben bereikt, de metrische conversie zal niet toenemen. Gezien die opstelling, echter, zouden sommige gebruikers omzettings metrisch kunnen raken en dan terug naar de homepage navigeren, die in de activiteit opnieuw kwalificeert om een nieuw bezoek te registreren.
 
 ## Waarom bevatten mijn [!UICONTROL Experience Targeting] (XT) rapporten metriek voor controleervaringen?
 
