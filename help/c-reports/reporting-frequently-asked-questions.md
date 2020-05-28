@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Lijst met veelgestelde vragen over rapportage in Adobe Target.
 title: Veelgestelde vragen over rapportage voor Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,27 @@ ht-degree: 0%
 # Veelgestelde vragen over rapportage{#reporting-faq}
 
 Lijst met veelgestelde vragen over rapportage in [!DNL Target].
+
+## Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld?
+
+Overweeg het volgende:
+
+**Nieuwe bezoekers**: Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de volgende voorwaarden is voldaan:
+
+* Het is de eerste keer dat de bezoeker de site bezoekt.
+* Het is de eerste keer dat de bezoeker de site bezoekt sinds hij cookies wist.
+* Het is de eerste keer dat de bezoeker de site bezoekt sinds de levensduur [van het](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) bezoekersprofiel is verstreken.
+
+**Bezoekers** terugsturen: De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruiker de site eerder heeft bezocht, ten minste 30 minuten heeft verlaten en opnieuw met dezelfde cookies naar de site is teruggekeerd. Zolang een bezoeker binnen zijn profielleven terugkeert, zullen zij een terugkerende bezoeker zijn.
+
+Als deze twee segmenten worden toegepast op een activiteit, vormen het segment Nieuwe bezoekers en het segment Terugkerende bezoekers niet altijd het totale aantal bezoekers.
+
+Bekijk het volgende voorbeeld, gezien de voorwaarden hierboven voor Nieuwe Bezoekers en Terugkerende Bezoekers:
+
+* Een bezoeker bezoekt de site voor de eerste keer en wordt geteld als een nieuwe bezoeker.
+* De bezoeker keert terug naar de site nadat aan de voorwaarden voor het terugsturen van bezoekers is voldaan en wordt geteld als een terugkerende bezoeker.
+
+Deze bezoeker wordt geteld als één bezoeker in het totale aantal bezoekers van de activiteit, ook al wordt het geteld in zowel het segment Nieuwe bezoekers als het segment Terugkerende bezoekers.
 
 ## Waarom bevatten mijn [!UICONTROL Experience Targeting] (XT) rapporten metriek voor controleervaringen?
 
