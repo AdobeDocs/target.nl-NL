@@ -4,7 +4,10 @@ description: Met mobiele viewports kunt u een voorvertoning weergeven van uw act
 title: Mobiele Viewports voor responsieve ervaringen
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ Hieronder staan de viewports en de resoluties voor sommige populaire apparaten. 
 | Google Pixel | 411w x 731h | 1080 x 1920 |
 | Google Pixel XL | 411w x 731h | 1440b x 2560h |
 | Google Pixel 2 | 411w x 731h | 1080 x 1920 |
-| Google Pixel 2 XL | 411w x 731h | 1440b x 2560h |
+| Google Pixel 2 XL | 411 x 823 uur | 1440b x 2880h |
 | Samsung Galaxy Noot 5 | 480 x 853 uur | 1440b x 2560h |
 | LG G5 | 480 x 853 uur | 1440b x 2560h |
 | One Plus 3 | 480 x 853 uur | 1080 x 1920 |
@@ -120,7 +123,7 @@ Voeg mobiele viewports aan uw activiteiten van het Doel toe om ontvankelijke erv
 1. U kunt desgewenst schakelen tussen de modi Staand en Liggend door op het oriëntatiepictogram te klikken.
 
    * Staand: ![Staand](/help/c-experiences/c-visual-experience-composer/assets/viewport_portrait.png)
-   * Liggend: ![Landscherp](/help/c-experiences/c-visual-experience-composer/assets/viewport_landscape.png)
+   * Liggend: ![Landscaptor](/help/c-experiences/c-visual-experience-composer/assets/viewport_landscape.png)
 
 ## Hoofdlettergebruik: Doel: twee iPhone-versies {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
