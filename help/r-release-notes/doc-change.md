@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 28 mei | [Veelgestelde vragen over rapportage](/help/c-reports/reporting-frequently-asked-questions.md) | De volgende nieuwe veelgestelde vragen zijn toegevoegd: <ul><li>Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld?</li></ul> |
 | 27 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over Analytics voor de steun van het Doel (A4T) voor auto-Wijs activiteiten toe. |
 | 26 mei | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | De volgende gegevens zijn toegevoegd: &quot;De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, komen in aanmerking voor die activiteit.&quot; |
 | 21 mei | [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Toegevoegd `mboxedge30.tt.omtrdc.net` aan de lijst. |
