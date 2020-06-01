@@ -4,7 +4,7 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Meld u aan bij productmanagers Tamer Myna en Mark Tuyay terwijl ze echte verhale
 * Inhoud automatisch opnemen in aanbevelingen voor doelen
 * Traceerprestaties van de aanbevolen inhoud en hoe deze zich verhoudt tot het genereren van lood
 
-donderdag 4 juni 2010:00 - 10:45 uur (EST)
+**Donderdag 4 juni 2020**
+
+**10:00 tot 10:45 (EST)**
 
 Ga naar de [registratiepagina op de website](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)van de Adobe Experience League om u te registreren.
 
