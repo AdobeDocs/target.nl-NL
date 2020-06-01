@@ -35,7 +35,7 @@ De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruik
 
 Stel dat de levensduur van uw profiel 14 dagen is ingesteld (de standaardwaarde). Een bezoeker wordt opgenomen in het segment Terugkerende bezoekers als aan de volgende voorwaarden wordt voldaan:
 
-* Een bezoeker bezoekt de site voor het eerst en wordt opgenomen als nieuwe bezoeker.
+* Een bezoeker bezoekt de site voor het eerst en wordt opgenomen als een nieuwe bezoeker.
 * De bezoeker verlaat de site, maar keert zes dagen later terug.
 
 Aangezien de levensduur van het profiel veertien dagen is ingesteld, wordt deze bezoeker opgenomen in het segment Terugkerende bezoekers. Als de bezoeker binnen die periode van zes dagen cookies heeft verwijderd, wordt die bezoeker opgenomen in het segment Nieuwe bezoekers.
