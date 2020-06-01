@@ -3,9 +3,9 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target - productdocumentatie
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Met de aanstaande veroudering van mbox.js op 30 augustus 2020, ontving David Son, de Manager van het Product van het Doel van Adobe onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. De komende 30 dagen kunt u de webinar opname [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
+>Zie de de aankondigingspagina van het Doel voor informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel. Voor meer informatie, zie [de aankondigingen](/help/r-release-notes/target-announcements.md)van het Doel.
 
 In de volgende secties wordt verwezen naar handige koppelingen in deze handleiding, gerangschikt op doelgroep op basis van standaardfuncties:
 
