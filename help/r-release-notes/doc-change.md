@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 1 juni | [Mobiele Viewports voor responsieve ervaringen](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Bijgewerkte viewportafmetingen en resoluties voor Apple iPhone 11, Apple iPhone SE en Google Pixel 2 XL-modellen. |
+| 1 juni | [Doelaankondigingen](/help/r-release-notes/target-announcements.md) | Nieuwe pagina toegevoegd om aanstaande doelgebeurtenissen aan te kondigen. |
+|  | [Mobiele Viewports voor responsieve ervaringen](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Bijgewerkte viewportafmetingen en resoluties voor Apple iPhone 11, Apple iPhone SE en Google Pixel 2 XL-modellen. |
 | 28 mei | [Veelgestelde vragen over rapportage](/help/c-reports/reporting-frequently-asked-questions.md) | De volgende nieuwe veelgestelde vragen zijn toegevoegd: <ul><li>Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld?</li></ul> |
 | 27 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over Analytics voor de steun van het Doel (A4T) voor auto-Wijs activiteiten toe. |
 | 26 mei | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | De volgende gegevens zijn toegevoegd: &quot;De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, komen in aanmerking voor die activiteit.&quot; |
