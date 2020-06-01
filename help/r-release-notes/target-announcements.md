@@ -4,9 +4,9 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de 
 
 ## Adobe Target Skill Builder: Hoe `Adobe.com` gebruikt u Adobe Sensei AI om ervaringen aan te passen
 
-Als een van de grootste B2E-sites op het internet `Adobe.com` heeft het zijn rol als &quot;Klantnul&quot; voor Adobe Experience Cloud volledig omarmd, waarbij elke oplossing voor zowel B2B- als B2C-gebruiksgevallen wereldwijd wordt geaccepteerd. Als digitale bestemming die een groot aantal mensen dient, waaronder hands-on creatieve, niet-technische marketers en zeer technische IT kopers, is personalisatie cruciaal voor het succes van Adobe.com.
+**Donderdag 4 juni 2020**
+
+**10:00 tot 10:45 (EST)**
+
+Als een van de grootste B2E-sites op het internet `Adobe.com` heeft het zijn rol als &quot;Klantnul&quot; voor Adobe Experience Cloud volledig omarmd, waarbij elke oplossing voor zowel B2B- als B2C-gebruiksgevallen wereldwijd wordt geaccepteerd. Als digitale bestemming die een groot aantal mensen dient, waaronder hands-on creatieve, niet-technische marketers, en zeer technische kopers van IT, is personalisatie cruciaal voor het succes van `Adobe.com`.
 
 Meld u aan bij productmanagers Tamer Myna en Mark Tuyay terwijl ze echte verhalen laten zien over hoe personalisatie werkt `Adobe.com`. In dit webinar leert u hoe te:
 
@@ -26,10 +30,6 @@ Meld u aan bij productmanagers Tamer Myna en Mark Tuyay terwijl ze echte verhale
 * Gebruik vloeiende ervaringen om aanbevolen inhoud over de hele linie te schalen `Adobe.com`
 * Inhoud automatisch opnemen in aanbevelingen voor doelen
 * Traceerprestaties van de aanbevolen inhoud en hoe deze zich verhoudt tot het genereren van lood
-
-**Donderdag 4 juni 2020**
-
-**10:00 tot 10:45 (EST)**
 
 Ga naar de [registratiepagina op de website](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)van de Adobe Experience League om u te registreren.
 
