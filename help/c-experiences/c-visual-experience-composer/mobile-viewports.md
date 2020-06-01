@@ -4,9 +4,9 @@ description: Met mobiele viewports kunt u een voorvertoning weergeven van uw act
 title: Mobiele Viewports voor responsieve ervaringen
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ Hieronder staan de viewports en de resoluties voor sommige populaire apparaten. 
 | iPhone 8 | 375 x 667 uur | 750 x 1334 uur |
 | iPhone 7 Plus | 414 x 736 uur | 1080 x 1920 |
 | iPhone 7 | 375 x 667 uur | 750 x 1334 uur |
+| iPhone 6s Plus | 414 x 736 uur | 1080 x 1920 |
+| iPhone 6s | 375 x 667 uur | 750 x 1334 uur |
+| iPhone 6 Plus | 414 x 736 uur | 1080 x 1920 |
 | iPhone 6 | 375 x 667 uur | 750 x 1334 uur |
-| iPhone 6s | 414 x 736 uur | 1080 x 1920 |
 | iPad Pro | 1024 x 1366 uur | 2048 x 2732 uur |
 | Derde en vierde generatie iPad | 768 x 1024 uur | 1536 x 2048 uur |
 | iPad AIR 1 &amp; 2 | 768 x 1024 uur | 1536 x 2048 uur |
