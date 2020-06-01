@@ -5,9 +5,9 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 27 mei 2020**
+**Laatst bijgewerkt: 1 juni 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -30,11 +30,10 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
    >
    >   
    Door alle klanten naar at.js te verplaatsen, kunnen onze technici en ondersteunend personeel u nieuwe functionaliteit bieden en de ondersteuning bieden die u van Adobe hebt verwacht.
+   >
+   >
+* **Doelaankondigingen**: Zie de de aankondigingspagina van het Doel voor informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel. Voor meer informatie, zie [de aankondigingen](/help/r-release-notes/target-announcements.md)van het Doel.
 
-
-## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate mbox.js van Adobe Target aan at.js {#skill-builder}
-
-Met de aanstaande veroudering van mbox.js op 30 augustus 2020, ontving David Son, de Manager van het Product van het Doel van Adobe onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. De komende 30 dagen kunt u de webinar opname [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
 
 ## Target Standard/Premium 20.6.1 (10 juni 2020)
 
