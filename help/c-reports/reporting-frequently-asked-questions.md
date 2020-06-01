@@ -5,9 +5,9 @@ title: Veelgestelde vragen over rapportage voor Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,28 @@ Lijst met veelgestelde vragen over rapportage in [!DNL Target].
 
 De volgende informatie verklaart hoe de Nieuwe Bezoekers en Terugkerende Bezoekers worden geteld en verstrekt voorbeelden van waarom de som van deze twee segmenten niet altijd aan het aantal totale bezoekers optellen.
 
-**Nieuwe bezoekers**: Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de volgende voorwaarden is voldaan:
+### Nieuwe bezoekers
+
+Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de volgende voorwaarden is voldaan:
 
 * Het is de eerste keer dat de bezoeker de site bezoekt.
 * Het is de eerste keer dat de bezoeker de site bezoekt sinds hij cookies wist.
 * Het is de eerste keer dat de bezoeker de site bezoekt sinds de levensduur [van het](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) bezoekersprofiel is verstreken.
 
-**Bezoekers** terugsturen: De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruiker de site eerder heeft bezocht, ten minste 30 minuten heeft verlaten en opnieuw met dezelfde cookies naar de site is teruggekeerd. Zolang een bezoeker binnen zijn profielleven terugkeert, zullen zij een terugkerende bezoeker zijn.
+### Bezoekers terugsturen
 
-Als deze twee segmenten worden toegepast op een activiteit, vormen het segment Nieuwe bezoekers en het segment Terugkerende bezoekers niet altijd het totale aantal bezoekers.
+De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruiker de site eerder heeft bezocht, ten minste 30 minuten heeft verlaten en opnieuw met dezelfde cookies naar de site is teruggekeerd. Zolang een bezoeker binnen zijn profielleven terugkeert, zullen zij een terugkerende bezoeker zijn.
+
+Stel dat de levensduur van uw profiel 14 dagen is ingesteld (de standaardwaarde). Een bezoeker wordt opgenomen in het segment Terugkerende bezoekers als aan de volgende voorwaarden wordt voldaan:
+
+* Een bezoeker bezoekt de site voor het eerst en wordt opgenomen als nieuwe bezoeker.
+* De bezoeker verlaat de site, maar keert zes dagen later terug.
+
+Aangezien de levensduur van het profiel veertien dagen is ingesteld, wordt deze bezoeker opgenomen in het segment Terugkerende bezoekers. Als de bezoeker binnen die periode van zes dagen cookies heeft verwijderd, wordt die bezoeker opgenomen in het segment Nieuwe bezoekers.
+
+### Voorbeelden die verschillen tussen metrische aantallen verklaren
+
+**Voorbeeld 1**: Als deze twee segmenten worden toegepast op een activiteit, vormen het segment Nieuwe bezoekers en het segment Terugkerende bezoekers niet altijd het totale aantal bezoekers.
 
 Neem bijvoorbeeld het volgende voorbeeld, waarbij u de hierboven vermelde voorwaarden voor Nieuwe Bezoekers en Terugkerende Bezoekers in acht neemt:
 
@@ -38,13 +51,13 @@ Neem bijvoorbeeld het volgende voorbeeld, waarbij u de hierboven vermelde voorwa
 
 Deze bezoeker wordt geteld als één bezoeker in het totale aantal bezoekers van de activiteit, ook al wordt het geteld in zowel het segment Nieuwe bezoekers als het segment Terugkerende bezoekers.
 
-De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de de [succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md)van de activiteit vormt.
+**Voorbeeld 2**: De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de de [succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md)van de activiteit vormt.
 
 Bijvoorbeeld:
 
 Een aantal nieuwe bezoekers bezoekt uw site en is gekwalificeerd voor een activiteit. Deze nieuwe bezoekers worden meegerekend in het segment Nieuwe Bezoekers. Al deze bezoekers namen ook een bezoek aan die activiteit.
 
-Sommige bezoekers raakten metrische conversie, die als &quot;Aantal van de Toename, versie gebruiker, werd gevormd en heringang toestaat.&quot; Stel dat sommige van deze gebruikers de metrische conversie meerdere keren hebben bereikt, de metrische conversie zal niet toenemen. Gezien die opstelling, echter, zouden sommige gebruikers omzettings metrisch kunnen raken en dan terug naar de homepage navigeren, die in de activiteit opnieuw kwalificeert om een nieuw bezoek te registreren.
+Sommige bezoekers raakten de metrische conversie, die als &quot;Aantal van de Toename &amp; houdt Gebruiker in Activiteit.&quot;werd gevormd Stel dat sommige van deze gebruikers de metrische conversie meerdere keren hebben bereikt, de metrische conversie zal niet toenemen. Gezien die opstelling, echter, zouden sommige gebruikers omzettings metrisch kunnen raken en dan terug naar de homepage navigeren, die in de activiteit opnieuw kwalificeert om een nieuw bezoek te registreren.
 
 ## Waarom bevatten mijn [!UICONTROL Experience Targeting] (XT) rapporten metriek voor controleervaringen?
 
