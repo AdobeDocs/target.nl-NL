@@ -4,9 +4,9 @@ description: Met mobiele viewports kunt u een voorvertoning weergeven van uw act
 title: Mobiele Viewports voor responsieve ervaringen
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,14 @@ Hieronder staan de viewports en de resoluties voor sommige populaire apparaten. 
 
 | Apparaat | Viewportgrootte | Apparaatresolutie |
 |---|---|---|
+| iPhone SE | 375 x 667 uur | 750 x 1334 uur |
+| iPhone 11 Pro Max | 414 x 896 uur | 1242 x 2688 uur |
+| iPhone 11 x max. | 414 x 896 uur | 1242 x 2688 uur |
+| iPhone 11 | 414 x 896 uur | 828 x 1792 uur |
+| iPhone 11 Xr | 414 x 896 uur | 828 x 1792 uur |
+| iPhone 11 Pro | 375 x 812 uur | 1125b x 2436h |
+| iPhone 11 X | 375 x 812 uur | 1125b x 2436h |
+| iPhone 11 Xs | 375 x 812 uur | 1125b x 2436h |
 | iPhone X | 375 x 812 uur | 1125b x 2436h |
 | iPhone 8 Plus | 414 x 736 uur | 1080 x 1920 |
 | iPhone 8 | 375 x 667 uur | 750 x 1334 uur |
