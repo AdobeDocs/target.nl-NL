@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 5 juni | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het Adobe Target Coffee Break van 10 juni. |
+| 4 juni | [A4T-rapportage](/help/c-integrating-target-with-mac/a4t/reporting.md) | De sectie &quot;Rapporten in Analytics&quot; is bijgewerkt. |
 | 1 juni | [Doelaankondigingen](/help/r-release-notes/target-announcements.md) | Nieuwe pagina toegevoegd om aanstaande doelgebeurtenissen aan te kondigen. |
 |  | [Mobiele Viewports voor responsieve ervaringen](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Bijgewerkte viewportafmetingen en resoluties voor Apple iPhone 11, Apple iPhone SE en Google Pixel 2 XL-modellen. |
 | 28 mei | [Veelgestelde vragen over rapportage](/help/c-reports/reporting-frequently-asked-questions.md) | De volgende nieuwe veelgestelde vragen zijn toegevoegd: <ul><li>Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld?</li></ul> |
