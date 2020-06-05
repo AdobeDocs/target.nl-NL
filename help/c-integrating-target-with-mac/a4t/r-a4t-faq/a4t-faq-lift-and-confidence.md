@@ -5,7 +5,10 @@ title: Optillen en vertrouwen - A4T veelgestelde vragen
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
@@ -28,13 +31,14 @@ Het betrouwbaarheidsniveau is de waarschijnlijkheid dat de gemeten omrekeningsko
 
 ## Waarom kan ik geen lift en vertrouwen zien op berekende maatstaven? {#lift-confidence}
 
-Lift en Trust worden momenteel niet ondersteund met berekende meetwaarden. In de meeste gevallen zou dit echter geen probleem mogen zijn omdat de in het A4T-rapport berekende omrekeningskoers reeds een berekende maatstaf is waarin de noemer de normaliserende maatstaf is (instanties, bezoeken of bezoekers). Als u bijvoorbeeld de metrische volgorde van de bestellingen selecteert en de normalisatie-instelling bezoekers is, wordt de conversiesnelheid (bestellingen/bezoeker) automatisch berekend via A4T-rapportage. De resulterende lift weerspiegelt het verschil in die conversiesnelheid over de tekstervaringen in vergelijking met de standaardwaarde.
+Berekende metriek worden momenteel niet ondersteund in lift- en betrouwbaarheidsfuncties. Dit komt door het feit dat Analytics meetgegevens berekent op geaggregeerd niveau, in plaats van op bezoekersniveau. Vertrouwen is met name een berekening op bezoekersniveau.
 
-De meeste berekende maatstaven voor optimalisatie vallen in één van twee categorieën: geaggregeerde gegevens of andere omzettingsberekeningen, zoals de gemiddelde bestelwaarde (AOV).
+Niet-berekende (standaard)gebeurtenissen worden ondersteund in lift en betrouwbaarheid. Zij worden de teller in de lift functie; de teller kan geen berekening zelf zijn. De noemer is de normaliserende metriek (indrukkingen, bezoeken, of bezoekers). Voorbeelden van standaardgebeurtenissen zijn onder andere orders, inkomsten, conversies van activiteiten, aangepaste gebeurtenissen 1-1000, enz. Dit betekent dat gemeenschappelijke optimalisatiemetriek, zoals gesprekstarief (Orders/Bezoeker) en RPV (Inkomsten/Bezoeker) in lift en vertrouwen worden gesteund.
 
-Samengevoegde metriek worden gebruikt wanneer een organisatie unieke gebeurtenissen gebruikt om verschillende &quot;flavors&quot;van sparen omzetting te vangen. Als u bijvoorbeeld de verzending van formulieren met formulieren wilt bevorderen en u hebt tien verschillende hoofdformulieren, kunt u unieke gebeurtenissen maken om elk type formulierconversie te tellen. Als u de totale hoeveelheid van alle verzonden loodformulieren wilt zien, moet u een eenvoudige, berekende maateenheid maken om deze bij elkaar op te tellen. Een betere, modernere manier om dit te volgen is één enkele lood-voorlegging gebeurtenis in Analytics uit te voeren en dan een eVar te gebruiken om het type van loodvorm te verzamelen. Het gebruik van deze methode vereist minder variabelen en elimineert de behoefte om individuele metriek samen te voegen en u hebt nog de capaciteit om holistische lood-vorm omzetting te zien en het te verdelen door type van loodvorm gebruikend eVar. Dit elimineert ook de behoefte aan gezamenlijke metriek wanneer het evalueren van de prestaties van een activiteit van het Doel.
+Voorbeelden van niet-ondersteunde metriek- of gebruiksgevallen zijn:
 
-Een andere algemeen berekende metrische waarde, Gemiddelde Waarde van de Orde, wordt momenteel niet gesteund met lift en vertrouwen omdat normaliserend metrisch geen standaardmetrisch (instanties, bezoeken, of bezoekers) is. In plaats daarvan wordt aanbevolen de twee bepalende meetwaarden van AOV, Revenue Per Visitors en Conversion Rate in de gaten te houden.
+* Gemiddelde bestelwaarde (inkomsten/bestelling, per bezoeker). AOV wordt niet ondersteund omdat de teller een berekende metrische waarde is. In plaats daarvan wordt aanbevolen de twee bepalende meeteenheden van AOV - inkomsten per bezoeker en conversietarief in overweging te nemen.
+* Berekende metriek die de som standaardgebeurtenissen zijn. U kunt bijvoorbeeld tien verschillende hoofdformulieren bijhouden in tien aparte gebeurtenissen en deze vervolgens bij elkaar voegen om de totale aantal hoofdinzendingen op te halen. Een aanbevolen methode om deze gebeurtenissen te volgen, is het implementeren van één enkele gebeurtenis voor het verzenden van leads in Analytics en vervolgens het gebruik van een eVar om het type loodformulier te verzamelen. Het gebruik van deze methode vereist minder variabelen en zorgt ervoor dat u de enige metrische voorlegging van het lood in lift en vertrouwelijkheidsfuncties kunt gebruiken.
 
 ## Hoe verwerkt A4T betrouwbaarheidsberekeningen? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
