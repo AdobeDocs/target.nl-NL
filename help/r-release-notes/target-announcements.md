@@ -4,34 +4,38 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 
-# Doelaankondigingen
+# Aankondigingen en gebeurtenissen van het doel
 
 Informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel.
 
-## Adobe Target Skill Builder: Hoe `Adobe.com` gebruikt u Adobe Sensei AI om ervaringen aan te passen
+## Adobe Target Community - Koffieonderbreking voor vragen en antwoorden
 
-**Donderdag 4 juni 2020**
+**Woensdag 10 juni 2020**
 
-**10:00 tot 10:45 (EST)**
+**10:00 - 11:00 (PST)**
 
-Als een van de grootste B2E-sites op het internet `Adobe.com` heeft het zijn rol als &quot;Klantnul&quot; voor Adobe Experience Cloud volledig omarmd, waarbij elke oplossing voor zowel B2B- als B2C-gebruiksgevallen wereldwijd wordt geaccepteerd. Als digitale bestemming die een groot aantal mensen dient, waaronder hands-on creatieve, niet-technische marketers, en zeer technische kopers van IT, is personalisatie cruciaal voor het succes van `Adobe.com`.
+Ik wil u graag uitnodigen voor onze aanstaande [!DNL Adobe Target] community-afkorting van vragen en antwoorden. Dit maakt deel uit van een reeks die we onlangs hebben uitgezet, zodat onze interne experts rechtstreeks met u kunnen samenwerken op onze forumthreads voor een &quot;Koffiepauze&quot;. Beschouw het als het [!DNL Adobe Target] communautair forum-equivalent van een AMA (Vraag me iets) of een twitter-chat.
 
-Meld u aan bij productmanagers Tamer Myna en Mark Tuyay terwijl ze echte verhalen laten zien over hoe personalisatie werkt `Adobe.com`. In dit webinar leert u hoe te:
+David Son, [!DNL Target] productmanager, zal al uw vragen beantwoorden. David&#39;s expertisegebied omvat:
 
-* Houd inhoud relevant en vers zonder handmatige updates
-* Gebruik vloeiende ervaringen om aanbevolen inhoud over de hele linie te schalen `Adobe.com`
-* Inhoud automatisch opnemen in aanbevelingen voor doelen
-* Traceerprestaties van de aanbevolen inhoud en hoe deze zich verhoudt tot het genereren van lood
+* at.js
+* Mobiel
+* Alloy
+* API&#39;s
 
-Ga naar de [registratiepagina op de website](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)van de Adobe Experience League om u te registreren.
+Maar voel me vrij om het even welk doel-gerelateerde vragen te stellen.
+
+U hoeft alleen maar aangemeld te zijn bij de [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) om deel te nemen.
+
+[Registreer hier](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate mbox.js van Adobe Target aan at.js {#skill-builder}
 
