@@ -4,7 +4,10 @@ description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor
 title: Problemen met de Enhanced Experience Composer oplossen
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Enhanc
 
 ## De EEC laadt geen interne QA URL die niet toegankelijk is op openbare IP. (alleen EEG) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Dit kan worden opgelost door de volgende IP adressen wit te maken. Deze IP-adressen zijn bestemd voor de Adobe-server die wordt gebruikt voor de Enhanced Experience Composer-proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze IP-adressen niet nodig die worden weergegeven
+Dit kan worden opgelost door de volgende IP adressen toe te staan. Deze IP-adressen zijn bestemd voor de Adobe-server die wordt gebruikt voor de Enhanced Experience Composer-proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze IP-adressen niet nodig die zijn toegestaan
 
-Vraag uw team van IT om de volgende IP adressen te tonen:
+Vraag uw team van IT om de volgende IP adressen toe te staan:
 
 | Regio | IP-adressen | Hostnamen |
 |--- |--- |--- |
@@ -27,7 +30,7 @@ Vraag uw team van IT om de volgende IP adressen te tonen:
 
 Het volgende foutbericht wordt mogelijk weergegeven in Target:
 
-`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can whitelist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
 ![](assets/EEC_error.png)
 
@@ -35,15 +38,15 @@ Hieronder ziet u mogelijk een foutbericht en oplossingen voor het verhelpen van 
 
 * **Probleem:** Uw websitedomein (ISP) blokkeert de Enhanced Experience Composer.
 
-   **Oplossing:** Whitelist de IP adressen hierboven vermeld.
+   **Oplossing:** Geef de IP-adressen op die hierboven zijn vermeld.
 
-* **Probleem:** De IP-adressen worden van een whitelist voorzien, maar uw website biedt geen ondersteuning voor TLS versie 1.2. Het doel gebruikt momenteel de standaardconfiguratie van 1.2. Vóór Doel 18.4.1 (25 april 2018), steunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie de Veranderingen [van de Encryptie van](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (de Veiligheid van de Laag van het Vervoer).
+* **Probleem:** De IP-adressen zijn toegestaan, maar uw website biedt geen ondersteuning voor TLS versie 1.2. Het doel gebruikt momenteel de standaardconfiguratie van 1.2. Vóór Doel 18.4.1 (25 april 2018), steunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie de Veranderingen [van de Encryptie van](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (de Veiligheid van de Laag van het Vervoer).
 
    **Oplossing:** Zie de volgende vraag (De Enhanced Visual Experience Composer zal niet laden op beveiligde pagina&#39;s op mijn site die TLS 1.2 gebruiken).
 
 ## De EEG wordt niet geladen op beveiligde pagina&#39;s op mijn site die TLS 1.0 gebruiken. (alleen EEG) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-U zou het hierboven beschreven foutenbericht in &quot;Verbeterde Visuele Composer van de Ervaring niet op veilige pagina&#39;s op mijn plaats kunnen zien laden.&quot; als de bovenstaande IP-adressen worden gewhiteliseerd, maar uw website biedt geen ondersteuning voor TLS versie 1.2. Het doel gebruikt momenteel de standaardconfiguratie van 1.2. Vóór Doel 18.4.1 (25 april 2018), steunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie de Veranderingen [van de Encryptie van](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (de Veiligheid van de Laag van het Vervoer).
+U zou het hierboven beschreven foutenbericht in &quot;Verbeterde Visuele Composer van de Ervaring niet op veilige pagina&#39;s op mijn plaats kunnen zien laden.&quot; als de bovenstaande IP-adressen zijn toegestaan, maar uw website biedt geen ondersteuning voor TLS versie 1.2. Het doel gebruikt momenteel de standaardconfiguratie van 1.2. Vóór Doel 18.4.1 (25 april 2018), steunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie de Veranderingen [van de Encryptie van](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (de Veiligheid van de Laag van het Vervoer).
 
 Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers hebben vergelijkbare stappen):
 
