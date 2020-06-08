@@ -1,11 +1,11 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
 title: Omgevingen
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Eén omgeving, de standaardomgeving, heeft een voornaam [!UICONTROL Production].
 
 Wanneer een mbox verzoek van nieuwe websites of domeinen wordt ontvangen, verschijnen deze nieuwe domeinen altijd in het [!UICONTROL Production] milieu. De instellingen van de [!UICONTROL Production] omgeving kunnen niet worden gewijzigd. Onbekende of nieuwe sites kunnen alleen inhoud zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
 
-[!DNL Target] beperkt een gastheer niet die brievenbussen kan verzenden en ontvangen, zodat wanneer de nieuwe servers of domeinen verschijnen, werken zij automatisch (tenzij u opstelling een whitelist of zwarte lijst). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
+[!DNL Target] beperkt een gastheer niet die dozen kan verzenden en ontvangen, zodat wanneer de nieuwe servers of domeinen verschijnen, werken zij automatisch (tenzij u opstelling een allowlist of blocklist). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
 
 Klik op **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
