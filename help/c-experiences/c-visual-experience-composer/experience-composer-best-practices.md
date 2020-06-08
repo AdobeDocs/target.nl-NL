@@ -5,7 +5,10 @@ title: Aanbevolen werkwijzen en beperkingen voor composer visuele ervaring
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2442'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +35,9 @@ Om Verbeterde Composer van de Ervaring op het rekeningsniveau toe te laten, klik
 
 Om Verbeterde Composer van de Ervaring op het activiteitenniveau toe te laten terwijl het creëren van een activiteit in Visuele Composer van de Ervaring, klik [!UICONTROL Configure > URL], dan knevel de schakelaar aan positie aan.
 
-**U kunt bepaalde IP adressen whitelist als Verbeterde Visual Experience Composer niet op veilige pagina&#39;s op uw plaats zal laden.**
+**U kunt bepaalde IP adressen toestaan als de Verbeterde Composer van de Ervaring geen op veilige pagina&#39;s op uw plaats zal laden.**
 
-De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen te fliteren. Deze IP-adressen zijn bestemd voor de Adobe-server die wordt gebruikt voor de Enhanced Experience Composer-proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze IP-adressen niet nodig die worden weergegeven.
+De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen toe te staan. Deze IP-adressen zijn bestemd voor de Adobe-server die wordt gebruikt voor de Enhanced Experience Composer-proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze IP-adressen niet nodig.
 
 Verenigde Staten: 52.55.99.45, 54.80.158.92 en 54.204.197.253
 
