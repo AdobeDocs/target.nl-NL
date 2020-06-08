@@ -5,7 +5,7 @@ title: Opmerkingen bij de release van vorige releases
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29062'
 ht-degree: 0%
@@ -215,7 +215,7 @@ Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringe
 * Probleem verholpen waarbij klikken-volgen over meerdere ervaringen ertoe leidde dat het programma niet naar behoren functioneerde. (TNT-32644)
 * Probleem verholpen waardoor at.js de tweede metrische waarde niet kon toepassen na het renderen van de eerste metrische waarde. (TNT-32628)
 * Probleem verholpen bij het doorgeven `mboxThirdPartyId` `targetPageParams` van de functie die ervoor zorgde dat de lading van de verzoeklading niet in of de vraagparameters of in de verzoeklading aanwezig was. (TNT-32613)
-* Probleem verholpen waarbij weergave- en berichtreacties werden geblokkeerd in op Chromium gebaseerde browsers (inclusief Google Chrome). (TNT-32290)
+* Probleem verholpen waarbij weergave- en berichtreacties werden geblokkeerd in op Chromium gebaseerde browsers (waaronder Google Chrome). (TNT-32290)
 
 Voor informatie over dit en vorige versies van at.js, zie [at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -1323,7 +1323,7 @@ Zie Gemengde inhoud [inschakelen in uw browser](../c-experiences/c-visual-experi
 
 Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen, oplossingen en wijzigingen: (nummer van de uitgave staat tussen haakjes voor intern gebruik door Adobe):
 
-* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-upkaart in de doelinterface kunt weergeven zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
+* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-up kaart in het Doel UI kunt bekijken zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
 * U kunt nu definities van ad-hocpubliek weergeven in het maken/overzicht van activiteiten. (TGT-25570)
 * De volgende variabelen zijn nu beschikbaar als [snelheidsarrays](../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) : `entiites` en `entityN.categoriesList`.
 
@@ -1621,8 +1621,8 @@ Deze [!DNL Target] versie concentreert zich op achterste-eindmoeilijke situaties
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p> <span class="filepath"> at.js </span> versie 0.9.6 is nu beschikbaar. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Downloaden op .js voor meer informatie </a>. </p> <p>De volgende verbeteringen en correcties zijn opgenomen in <span class="filepath"> at.js </span> versie 0.9.6: </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
-      <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Omleiding biedt ondersteuning voor A4T. Nadat u hebt gedownload en geïnstalleerd <span class="filepath"> in .js </span> versie 0.9.6, kunt u aanbiedingen in activiteiten gebruiken die <span class="keyword"> de Analyse van Adobe </span> als Rapporterende Bron voor <span class="keyword"> </span> Doel (A4T) gebruiken. Naast <span class="filepath"> at.js </span> versie 0.9.6, zijn er andere minimumeisen uw implementatie moet voldoen om te gebruiken doorleidt aanbiedingen en A4T. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie Aanbiedingen van de Omleiding - Veelgestelde vragen A4T <a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> </a>. </p> </li> 
-      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Voorafgaand aan <span class="filepath"> 0.js </span> .9.6, toen de bezoeker-API aanwezig was op de pagina en de <span class="codeph"> bezoekerApiTimeout </span> -instelling te agressief was, kon Target in een situatie terechtkomen waarin geen MCID-gegevens werden verzonden in de <span class="keyword"> aanvraag van het Doel </span> . Dit kan bij het gebruik van A4T leiden tot problemen zoals onverwachte resultaten in <span class="keyword"> Analytics </span> . </p> <p>Dit gedrag is gewijzigd in <span class="filepath"> at.js </span> 0.9.6, zelfs als bezoekerApiTimeout om 1 ms <span class="codeph"> </span> wordt geplaatst te zeggen, zal het Doel proberen om SDID, volgende servers, en de gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden. </p> </li> 
+      <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Omleiding biedt ondersteuning voor A4T. Nadat u hebt gedownload en geïnstalleerd <span class="filepath"> in .js </span> versie 0.9.6, kunt u aanbiedingen in activiteiten gebruiken die <span class="keyword"> de Analyse van Adobe </span> als Rapporterende Bron voor <span class="keyword"> </span> Doel (A4T) gebruiken. Naast <span class="filepath"> at.js </span> versie 0.9.6, zijn er andere minimumvereisten uw implementatie moet voldoen om te gebruiken doorleidt aanbiedingen en A4T. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie Aanbiedingen van de Omleiding - Veelgestelde vragen A4T <a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> </a>. </p> </li> 
+      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Voorafgaand aan <span class="filepath"> 0.js </span> .9.6, toen de bezoeker-API aanwezig was op de pagina en de <span class="codeph"> bezoekerApiTimeout </span> -instelling te agressief was, kon Target in een situatie terechtkomen waarin geen MCID-gegevens werden verzonden in de <span class="keyword"> aanvraag van het Doel </span> . Dit kan leiden tot problemen zoals onverwachte resultaten in <span class="keyword"> Analytics </span> bij het gebruik van A4T. </p> <p>Dit gedrag is gewijzigd in <span class="filepath"> at.js </span> 0.9.6, zelfs als bezoekerApiTimeout om 1 ms <span class="codeph"> </span> wordt geplaatst te zeggen, zal het Doel proberen om SDID, volgende servers, en de gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden. </p> </li> 
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>De <span class="codeph"> </span> instelling SelectorsPollingTimeout is toegevoegd. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() voor meer informatie </a>. </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>De indeling van de reactie van <span class="codeph"> getOffer() </span> is gewijzigd. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local"> adobe.target.getOffer(options) voor meer informatie </a>. </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Logboekregistratie voor console is toegevoegd voor niet-ondersteunde <span class="codeph"> &lt;!DOCTYPE&gt;- </span> declaraties. </p> </li> 
@@ -1681,7 +1681,7 @@ Deze [!DNL Target] release bevat de volgende verbeteringen en oplossingen: :
    * In de [!UICONTROL Offers] bibliotheek worden nu in een lijst weergegeven in plaats van als kaarten. Er zijn andere kleine wijzigingen aangebracht in de gebruikersinterface van de [!UICONTROL Offers] bibliotheek.
 
 * Aanzienlijk verbeterde prestaties op de [!UICONTROL Activity] [!UICONTROL Audience] lijsten en op de lijsten. Bovendien worden de laadtijden voor zoekresultaten aanzienlijk sneller weergegeven.
-* &quot;Weergaven&quot; staat nu &quot;Bezoekingen&quot; in de [!UICONTROL Offer Level Report] lijst voor [!UICONTROL Automated Personalization] rapporten.
+* &quot;Weergaven&quot; staat nu &quot;Bezoekingen&quot; in de [!UICONTROL Offer Level Report] voor [!UICONTROL Automated Personalization] rapporten.
 * [!DNL Target] ondersteunt nu het schakelen van omgevingen (hostgroepen) voor [!UICONTROL Automated Personalization] activiteiten.
 * [!UICONTROL Automated Personalization] de activiteiten ondersteunen nu hostgroepen .
 
@@ -1815,7 +1815,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enhanced Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Bijgewerkt de IP adressen voor Verbeterde Visual Experience Composer (VEC). </p> <p>Als u whitelist IP adressen die voor VEC worden gebruikt, voeg de nieuwe IP adressen toe. </p> <p>Voor meer informatie, zie het Oplossen van <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> problemen de Visuele Composer van de Ervaring </a>. </p> </td> 
+   <td colname="col2"> <p>Bijgewerkt de IP adressen voor Verbeterde Visual Experience Composer (VEC). </p> <p>Als u IP adressen toestaat die voor VEC worden gebruikt, voeg de nieuwe IP adressen toe. </p> <p>Voor meer informatie, zie het Oplossen van <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> problemen de Visuele Composer van de Ervaring </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2594,7 +2594,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Geef de tijd op waarop u een feed wilt bijwerken. </p> <p>Zie <a href="../c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local"> Feed maken </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Aanbevelingen </p> <p>Gebruik de lijst van het Gegeven om een Geëxporteerde te plaatsen om nooit te lopen </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Aanbevelingen </p> <p>Gebruik de lijst van het Gegeven om een Diervoeder te plaatsen om nooit te lopen </p> </td> 
    <td colname="col2"> <p>Stel in de lijst met feed een feed in die nooit moet worden uitgevoerd als u die feed niet wilt bijwerken. </p> <p>Zie <a href="../c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local"> Feed maken </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2984,7 +2984,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B-tests en ervaring gericht op: Activiteiten maken in drie stappen </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Maak een A/B </a>en <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Experience </a> Activity in drie stappen in plaats van vier. Deze verandering maakt het proces om deze activiteiten meer als het werkschema van andere activiteitentypes, zoals Geautomatiseerde Personalisatie en Multivariate Tests te creëren. </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Maak een A/B </a>en <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Ervaring die gericht zijn op </a> activiteit in drie stappen in plaats van vier. Deze verandering maakt het proces om deze activiteiten meer als het werkschema van andere activiteitentypes, zoals Geautomatiseerde Personalisatie en Multivariate Tests te creëren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analyses als rapportbron zijn beschikbaar voor de meeste typen activiteiten. </p> </td> 
