@@ -1,11 +1,11 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
 title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Eén omgeving, de standaardomgeving, heeft een voornaam [!UICONTROL Production].
 
 Wanneer een mbox verzoek van nieuwe websites of domeinen wordt ontvangen, verschijnen deze nieuwe domeinen altijd in het [!UICONTROL Production] milieu. De instellingen van de [!UICONTROL Production] omgeving kunnen niet worden gewijzigd. Onbekende of nieuwe sites kunnen alleen inhoud zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
 
-[!DNL Target] beperkt een gastheer niet die brievenbussen kan verzenden en ontvangen, zodat wanneer de nieuwe servers of domeinen verschijnen, werken zij automatisch (tenzij u opstelling een whitelist of zwarte lijst). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
+[!DNL Target] beperkt een gastheer niet die dozen kan verzenden en ontvangen, zodat wanneer de nieuwe servers of domeinen verschijnen, werken zij automatisch (tenzij u opstelling een allowlist of blocklist). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
 
 Als u hosts wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -70,11 +70,11 @@ Als u de [!UICONTROL Hosts] lijst wilt sorteren, klikt u op een kolomkop ([!UICO
 
 Als u in de [!UICONTROL Hosts] lijst wilt zoeken, typt u een zoekterm in het [!UICONTROL Search Hosts] vak.
 
-## Creeer whitelists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden. {#whitelist}
+## Creeer allowlists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden. {#whitelist}
 
-U kunt een whitelist creëren die gastheren (domeinen) specificeert die worden gemachtigd om mbox vraag naar te verzenden [!DNL Target]. Alle andere gastheren die vraag produceren zullen een commentarieert-uit de foutenreactie van de toestemmingsfout krijgen. Door gebrek, om het even welke gastheer die een mbox vraagregisters met [!DNL Target] in het milieu van de Productie bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u whitelist in plaats daarvan gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om mbox vraag te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve campagnes kan zien.
+U kunt een allowlist tot stand brengen die gastheren (domeinen) specificeert die worden gemachtigd om mbox vraag naar te verzenden [!DNL Target]. Alle andere gastheren die vraag produceren zullen een commentarieert-uit de foutenreactie van de toestemmingsfout krijgen. Door gebrek, om het even welke gastheer die een mbox vraagregisters met [!DNL Target] in het milieu van de Productie bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u in plaats daarvan het allowlist gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om mbox vraag te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve campagnes kan zien.
 
-Een whitelist maken:
+Een allowlist maken:
 
 1. From the [!UICONTROL Hosts] list, click **[!UICONTROL Authorize Hosts]**.
 1. Schakel de **[!UICONTROL Enable Authorized Hosts for content delivery]** schakeloptie in.
@@ -92,9 +92,9 @@ Als een mbox vraag op een onbevoegde gastheer wordt gemaakt, zal de vraag met an
 
 >[!IMPORTANT]
 >
->**Aanbevolen werkwijzen** voor beveiliging: Als u ubox functionaliteit van gebruikt, merk op dat deze whitelist ook de lijst van domeinen zal controleren waaraan uw [!DNL Target]redirecteuren [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kunnen navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de whitelist niet wordt opgegeven, kan Adobe de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
+>**Aanbevolen werkwijzen** voor beveiliging: Als u ubox functionaliteit van gebruikt [!DNL Target], merk op dat deze allowlist ook de lijst van domeinen zal controleren waaraan uw [redirecteuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kunnen navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de allowlist niet is opgegeven, kan Adobe de omleiding van URL&#39;s niet controleren en beschermen tegen mogelijke kwaadaardige omleidingen.
 >
->De whitelist heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de whitelist eigenschap te gebruiken, dan slechts verschijnen de gastheren die door whitelist worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
+>De allowlist heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de allowlist eigenschap te gebruiken, dan verschijnen slechts de gastheren die door de allowlist worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 
 Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein verschijnt in de lijst als het domein een vraag aan uw at.js of mbox.js maakt. Als iemand bijvoorbeeld een van uw webpagina&#39;s naar de server kopieert, wordt dat domein in uw omgeving weergegeven. U ziet wellicht ook domeinen van spintengines, vertaalsites of lokale schijfstations.
 
@@ -104,7 +104,7 @@ U kunt ook een zwarte lijst maken die hosts (domeinen) opgeeft dan geen aanroepe
 
 >[!NOTE]
 >
->Omdat de lijst met geautoriseerde hosts wordt gebruikt voor zowel mbox-hosts als standaard omleidingshosts, moet u alle bestaande domeinen toevoegen die zijn goedgekeurd voor het gebruik van de Adobe Target Javascript SDK (at.js) *EN* alle domeinen die worden gebruikt in standaardomleidingsURL&#39;s. U moet in de toekomst ook alle nieuwe, vergelijkbare domeinen aan de whitelist toevoegen.
+>Omdat de lijst met geautoriseerde hosts wordt gebruikt voor zowel mbox-hosts als standaard omleidingshosts, moet u alle bestaande domeinen toevoegen die zijn goedgekeurd voor het gebruik van de Adobe Target Javascript SDK (at.js) *EN* alle domeinen die worden gebruikt in standaardomleidingsURL&#39;s. U moet ook in de toekomst eventuele nieuwe, vergelijkbare domeinen aan de allowlist toevoegen.
 
 ## Een host verwijderen {#section_F56355BA4BC54B078A1A8179BC954632}
 
