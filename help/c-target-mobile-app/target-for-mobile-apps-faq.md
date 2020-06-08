@@ -5,9 +5,9 @@ title: Veelgestelde vragen over Adobe Target voor mobiele apps
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Nee, u hebt at.js niet nodig om de mobiele SDK&#39;s te gebruiken. at.js is de [
 
 ## Is Target Mobile alleen een functionaliteit van Adobe Target Premium-productSKU?
 
-Voor klanten van Adobe Target Standard kunt u onze mobiele SDK&#39;s alleen gebruiken voor activiteiten van het type A/B Test and Experience Targeting (XT). Als u Aanbevelingen of door AI aangedreven eigenschappen in mobiele app wilt gebruiken, hebt u een [Adobe Target Premium](/help/c-intro/intro.md#premium) -licentie nodig.
+Nee. Voor [!DNL Adobe Target Standard] klanten kunt u onze mobiele SDK&#39;s alleen gebruiken voor de doelactiviteiten van A/B Test en Experience (XT) met de [!DNL Target Standard] Mobile App-invoegtoepassing. Als u Aanbevelingen of door AI aangedreven eigenschappen in mobiele app wilt gebruiken, hebt u een [Adobe Target Premium](/help/c-intro/intro.md#premium) -licentie nodig.
 
 ## Is er een mobiele app-integratie tussen Adobe Experience Manager (AEM) en Target mobile-activiteiten?
 
