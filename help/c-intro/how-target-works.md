@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2346'
+ht-degree: 1%
 
 ---
 
@@ -107,7 +110,7 @@ In plaats van op alle gerichte verzoeken van één enkele plaats te antwoorden, 
 >
 >[!DNL Adobe Target] heeft momenteel geen Edge-netwerk in China en de prestaties van de eindgebruiker blijven beperkt voor [!DNL Target] klanten in China. Wegens de firewall en het gebrek aan knopen van de Rand binnen het land, zullen de ervaringen van plaatsen met [!DNL Target] opgesteld langzaam teruggeven zijn en paginaladingen zullen worden beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
 
-U kunt desgewenst een whitelist-lijst maken met opmerkingen over de rand van het doel. Zie Edge-knooppunten [van](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)whitelist-doel voor meer informatie.
+U kunt indien gewenst opmerkingen bij de doelrand toestaan. Zie [Toegestane doelEdge-knooppunten](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)voor meer informatie.
 
 ## Ervaring met beveiligde gebruikers {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
