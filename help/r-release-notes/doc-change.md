@@ -5,9 +5,9 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 8 juni | [Veelgestelde vragen over het doel voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Bijgewerkte tekst voor de volgende veelgestelde vragen: &quot;Is Target Mobile alleen een functionaliteit van Adobe Target Premium-productSKU?&quot; |
+|  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Volledig onderwerp bijgewerkt. |
 | 5 juni | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het Adobe Target Coffee Break van 10 juni. |
 |  | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Bijgewerkte tekst voor de volgende veelgestelde vragen: &quot;Waarom kan ik geen lift en vertrouwen zien op berekende cijfers?&quot; |
 | 4 juni | [A4T-rapportage](/help/c-integrating-target-with-mac/a4t/reporting.md) | De sectie &quot;Rapporten in Analytics&quot; is bijgewerkt. |
