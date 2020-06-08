@@ -5,7 +5,10 @@ title: Aanbiedingen omleiden - Veelgestelde vragen A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +76,7 @@ Deze parameters worden automatisch toegevoegd aan omleiding URLs wanneer het geb
 
 ## Mijn webservers verwijderen deze parameters van mijn URL&#39;s. Wat moet ik doen? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-U zult met uw team van IT moeten werken om deze parameters ( `adobe_mc_sdid` en `adobe_mc_ref`) te hebben gewhitelisted.
+U moet met uw IT-team samenwerken om deze parameters ( `adobe_mc_sdid` en `adobe_mc_ref`) toe te staan.
 
 ## Wat als ik geen A4T met mijn omleidingsactiviteit gebruik en niet deze extra parameters aan mijn URLs wil hebben toevoegen? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ Als u aanbiedingen A4T gebruikt en omleidt, voegt Target de `adobe_mc_ref` en de
 
 Vanwege deze dubbele codering wanneer de bezoeker-API de `adobe_mc_sdid` waarde probeert te decoderen, kan deze de SDID-waarde niet extraheren en wordt een nieuwe SDID gegenereerd. Dit leidt tot onjuiste waarden SDID die naar Doel en Analytics worden verzonden en u zult ongelijkmatige verdeling voor herleidingen in de rapporten van de Analytics zien.
 
-Wij adviseren dat u met hun team van IT spreekt om ervoor te zorgen dat `adobe_mc_ref` en `adobe_mc_sdid` wit-vermeld zodat deze waarden op geen enkele manier worden getransformeerd.
+Wij adviseren dat u met hun team van IT spreekt om ervoor te zorgen dat `adobe_mc_ref` en `adobe_mc_sdid` worden toegestaan vermeld zodat deze waarden op geen enkele manier worden getransformeerd.
 
 ## Waarom moet de verwijzende URL aan de nieuwe pagina worden overgegaan? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
