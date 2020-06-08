@@ -5,7 +5,7 @@ title: Activiteit QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -79,11 +79,11 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 * Als een activiteit meerdere ervaringssoorten publiek gebruikt (bijvoorbeeld een site in de VS en het Verenigd Koninkrijk die deel uitmaken van dezelfde activiteit), worden er geen QA-koppelingen gegenereerd voor de vier combinaties (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/US Site, Experience B/UK Site). Er worden slechts twee QA-koppelingen (Experience A en Experience B) gemaakt en gebruikers moeten in aanmerking komen voor het juiste publiek om de pagina te kunnen zien. Een Britse kwaliteitscontrole-persoon kon de Amerikaanse site niet zien.
 * Alle `at_preview` parameters en waarden zijn al gecodeerd met URL. Meestal werkt alles zoals verwacht. nochtans, zouden sommige klanten ladingsbalancers of de servers van het Web kunnen hebben die proberen om de parameters van het vraagkoord opnieuw te coderen.
 
-   Vanwege deze dubbele codering kan, wanneer we proberen de token-waarde te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
+   Vanwege deze dubbele codering kan, wanneer we de code proberen te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
 
    Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters wit-vermeld zijn zodat deze waarden op geen enkele manier worden getransformeerd.
 
-   De volgende lijst maakt een lijst van de parameters die in uw domein kunnen worden gewhitelisterd:
+   In de volgende tabel worden de parameters weergegeven die in uw domein kunnen worden toegestaan:
 
    | Parameter | Type | Waarde | Beschrijving |
    |--- |--- |--- |--- |
