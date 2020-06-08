@@ -5,7 +5,7 @@ title: Veelgestelde vragen over optimalisatie en personalisatie
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '2904'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Probeer de [het oplossen van problemeninformatie](../c-experiences/c-visual-expe
 
 We hebben ook een [formuliergebaseerde aanpak](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) die u kan ontmoedigen.
 
-Lees ook wanneer en waarom de [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) nuttig kan zijn. Mogelijk moet u contact opnemen met uw IT-afdeling om de proxyservers [van Adobe](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) te kunnen weergeven.
+Lees ook wanneer en waarom de [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) nuttig kan zijn. Mogelijk moet u contact opnemen met uw IT-afdeling om de proxyservers [van Adobe](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) toe te staan.
 
 **Ik heb een responsieve site. Hoe kan ik er tijdens het maken van een activiteit zeker van zijn dat ik denk aan belangrijke apparaten?**
 
