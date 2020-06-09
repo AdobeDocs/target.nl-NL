@@ -5,7 +5,7 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
+source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 | Functie/verbetering | Beschrijving |
 | --- | --- |
 | Analyses voor doelondersteuning (A4T) voor activiteiten voor automatisch toewijzen | Met de release van juni ondersteunen Auto-Allocate-tests [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). Dankzij deze integratie kunt u de multi-gewapende bandeigenschappen van Auto-Allocate gebruiken om het verkeer naar het winnen van ervaringen te sturen, terwijl u tegelijkertijd de statistische en/of analytische rapportage- en analysemogelijkheden van Adobe Analytics en/of Adobe Analytics gebruikt. Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar! |
-| Uitgever | Deze nieuwe rol is vergelijkbaar met de huidige rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). Nochtans, heeft de rol van de Uitgever de extra toestemming aan actieve activiteiten. |
+| Uitgever | Deze nieuwe rol is vergelijkbaar met de huidige rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
 | Beheerpagina<br>vroeger &quot;Setup&quot;. | De pagina van de Opstelling is anders genoemd &quot;Beleid&quot;en UI voor alle menupunten is bijgewerkt om het werkschema en het gebruiksgemak te verbeteren.<br>Beschikbare menu-items zijn:<ul><li>Visual Experience Composer</li><li>Rapportage</li><li>Scene7-instellingen</li><li>Implementatie</li><li>Eigenschappen</li><li>Gastheren</li><li>Omgevingen</li><li>Reactiepunten</li><li>Gebruikers</li></ul> |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
