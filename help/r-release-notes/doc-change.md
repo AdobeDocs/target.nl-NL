@@ -5,7 +5,7 @@ title: Wijzigingen in de documentatie bij het Adobe Target-product.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 28 mei | [Veelgestelde vragen over rapportage](/help/c-reports/reporting-frequently-asked-questions.md) | De volgende nieuwe veelgestelde vragen zijn toegevoegd: <ul><li>Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld?</li></ul> |
 | 27 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over Analytics voor de steun van het Doel (A4T) voor auto-Wijs activiteiten toe. |
 | 26 mei | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | De volgende gegevens zijn toegevoegd: &quot;De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, komen in aanmerking voor die activiteit.&quot; |
-| 21 mei | [Doelrandknooppunten toestaan](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Toegevoegd `mboxedge30.tt.omtrdc.net` aan de lijst. |
+| 21 mei | [Doelrandknooppunten toestaan](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Toegevoegd `mboxedge30.tt.omtrdc.net` aan de lijst. |
 | 20 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de aanstaande release van Target Standard/Premium 20.6.1 (10 juni 2020). |
 |  | [Gastheren](/help/administrating-target/hosts.md) | Opmerking toegevoegd aan de sectie &#39;best practices voor beveiliging&#39;. |
 | 14 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over wijzigingen in de profielbatchstatus-API v2. |
@@ -57,7 +57,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 23 april | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
 | 22 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Nieuwe sectie toegevoegd: *Wijzigingen in de profielbatchstatus-API v2 (4 mei 2020).* |
 | 20 april | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Nieuwe sectie toegevoegd: *Adobe Target Skill Builder: Chat ontwikkelaar, migreer mbox.js van Adobe Target aan at.js.* |
-| 14 april | [Onderliggende doelhosts toestaan](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nieuw onderwerp. |
+| 14 april | [Onderliggende doelhosts toestaan](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nieuw onderwerp. |
 | 10 april | [Toepassing van één pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nieuwe sectie toegevoegd: &quot;Best practices implementeren.&quot; |
 | 7 april | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Bijgewerkte tekst voor &quot;Waarom kan ik geen lift en vertrouwen op berekende metriek zien?&quot; |
 | 2 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Toegevoegde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. |
