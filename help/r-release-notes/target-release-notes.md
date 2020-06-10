@@ -5,9 +5,9 @@ title: Opmerkingen bij de prerelease van Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
+source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 4 juni 2020**
+**Laatst bijgewerkt: 10 juni 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -41,7 +41,6 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 | --- | --- |
 | Analyses voor doelondersteuning (A4T) voor activiteiten voor automatisch toewijzen | Met de release van juni ondersteunen Auto-Allocate-tests [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). Dankzij deze integratie kunt u de multi-gewapende bandeigenschappen van Auto-Allocate gebruiken om het verkeer naar het winnen van ervaringen te sturen, terwijl u tegelijkertijd de statistische en/of analytische rapportage- en analysemogelijkheden van Adobe Analytics en/of Adobe Analytics gebruikt. Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar! |
 | Uitgever | Deze nieuwe rol is vergelijkbaar met de huidige rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
-| Beheerpagina<br>vroeger &quot;Setup&quot;. | De pagina van de Opstelling is anders genoemd &quot;Beleid&quot;en UI voor alle menupunten is bijgewerkt om het werkschema en het gebruiksgemak te verbeteren.<br>Beschikbare menu-items zijn:<ul><li>Visual Experience Composer</li><li>Rapportage</li><li>Scene7-instellingen</li><li>Implementatie</li><li>Eigenschappen</li><li>Gastheren</li><li>Omgevingen</li><li>Reactiepunten</li><li>Gebruikers</li></ul> |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
