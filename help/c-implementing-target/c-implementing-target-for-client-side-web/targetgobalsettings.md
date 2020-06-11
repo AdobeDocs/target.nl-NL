@@ -1,13 +1,13 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informatie over de targetGlobalSettings() functie voor de Adobe Target op .js JavaScript bibliotheek.
 title: Informatie over de targetGlobalSettings() functie voor de Adobe Target op .js JavaScript bibliotheek.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -23,32 +23,165 @@ Er zijn gebruiksgevallen, vooral wanneer at.js via [!DNL Dynamic Tag Management]
 
 U kunt de volgende instellingen overschrijven:
 
-| Instellingen | Type | Standaardwaarde | Beschrijving |
-|--- |--- |--- |--- |
-| serverState | Zie &quot;Hybride personalisatie&quot; hieronder. | Zie &quot;Hybride personalisatie&quot; hieronder. | Zie &quot;Hybride personalisatie&quot; hieronder. |
-| clientCode | String | Waarde ingesteld via UI | Vertegenwoordigt clientcode |
-| serverDomain | String | Waarde ingesteld via UI | Vertegenwoordigt doelEdge-server |
-| cookieDomain | String | Indien mogelijk ingesteld op domein op hoofdniveau | Vertegenwoordigt het domein dat wordt gebruikt bij het opslaan van cookies |
-| crossDomain | String | Waarde ingesteld via UI | Geeft aan of interdomeintracering is ingeschakeld.<br>De toegestane waarden zijn:<ul><li>uitgeschakeld</li><li>enabled</li><li>alleen x</li></ul> |
-| timeout | Getal | Waarde ingesteld via UI | Vertegenwoordigt time-out voor aanvraag doelrand |
-| globalMboxAutoCreate | Boolean | Waarde ingesteld via UI | Geeft aan of het algemene mbox-verzoek moet worden geactiveerd |
-| bezoekerApiTimeout | Getal | 2000 ms = 2 s | Vertegenwoordigt de time-out voor de visitor-API-aanvraag |
-| enabled | Boolean | true | Wanneer toegelaten, wordt een verzoek van het Doel om ervaringen en de manipulatie van het DOM terug te winnen om de ervaringen terug te geven automatisch uitgevoerd. Bovendien kunnen de vraag van het Doel manueel via `getOffer(s)` / `applyOffer(s)`<br>wanneer onbruikbaar gemaakt worden uitgevoerd, worden de verzoeken van het Doel niet automatisch of manueel uitgevoerd |
-| pageLoadEnabled | Boolean | true | Indien ingeschakeld, haalt u automatisch ervaringen op die bij het laden van de pagina moeten worden geretourneerd |
-| viewsEnabled | Boolean | true | Als deze optie is ingeschakeld, haalt u automatisch de weergaven op die moeten worden geretourneerd tijdens het laden van de pagina. Weergaven worden ondersteund in at.js 2.*alleen x* |
-| defaultContentHiddenStyle | String | zichtbaarheid: verborgen | Wordt alleen gebruikt voor tekstomloop-vakken die DIV gebruiken met klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via `mboxCreate()`, `mboxUpdate()`of `mboxDefine()` om standaardinhoud te verbergen |
-| defaultContentVisibleStyle | String | zichtbaarheid: visible | Wordt alleen gebruikt voor omsluitende kaders waarin DIV wordt gebruikt met de klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via `mboxCreate()`, `mboxUpdate()`of `mboxDefine()` om de toegepaste aanbieding weer te geven als deze bestaat of inhoud standaard bevat |
-| bodyHiddenStyle | String | body {-dekking: 0 } | Wordt alleen gebruikt wanneer `globalMboxAutocreate === true` de kans op flikkering tot een minimum wordt beperkt.<br>Zie [How at.js Manages Flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)voor meer informatie. |
-| bodyHidingEnabled | Boolean | true | Gebruikt om flikkering te controleren wanneer `target-global-mbox` wordt gebruikt om aanbiedingen te leveren die in de Visuele Composer van de Ervaring worden gecreeerd, die ook als visuele aanbiedingen wordt bekend |
-| imsOrgId | String | IMS ORG ID | Vertegenwoordigt de IMS ORG-ID |
-| secureOnly | Boolean | false | Geeft aan of at.js alleen HTTPS mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. |
-| overrideMboxEdgeServer | Boolean | true (waar, vanaf at.js versie 1.6.2) | Geeft aan of we `<clientCode>.tt.omtrdc.net` domein of `mboxedge<clusterNumber>.tt.omtrdc.net` domein moeten gebruiken.<br>Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net` domein opgeslagen in een cookie. Werken momenteel niet met [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
-| overrideMboxEdgeServerTimeout | Getal | 1860000 => 31 minuten | Geeft de cookielevensduur aan die de `mboxedge<clusterNumber>.tt.omtrdc.net` waarde bevat. |
-| optoutEnabled | Boolean | false | Geeft aan of Target de API- `isOptedOut()` functie voor bezoekers moet aanroepen. Dit maakt deel uit van de functie voor apparaatgrafiek. |
-| selectorsPollingTimeout | Getal | 5000 ms = 5 s | In at.js 0.9.6 introduceerde Target deze nieuwe instelling die via kan worden overschreven `targetGlobalSettings`.<br>`selectorsPollingTimeout` geeft aan hoelang de client wil wachten totdat alle elementen die door kiezers zijn geïdentificeerd, op de pagina worden weergegeven.<br>De activiteiten die via Visual Experience Composer (VEC) worden gecreeerd hebben aanbiedingen die selecteurs bevatten. |
-| dataProviders | Zie &quot;Data Providers&quot; hieronder. | Zie &quot;Data Providers&quot; hieronder. | Zie &quot;Data Providers&quot; hieronder. |
-| cspScriptNonce | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. |
-| cspStyleNonce | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. | Zie &quot;Beleid voor inhoudsbeveiliging&quot; hieronder. |
+### bodyHiddenStyle
+
+* **Type**: String
+* **Standaardwaarde**: body {-dekking: 0 }
+* **Omschrijving**: Wordt alleen gebruikt wanneer `globalMboxAutocreate === true` de kans op flikkering tot een minimum wordt beperkt.
+
+   Zie [How at.js Manages Flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)voor meer informatie.
+
+### bodyHidingEnabled
+
+* **Type**: Boolean
+* **Standaardwaarde**: true
+* **Omschrijving**: Gebruikt om flikkering te controleren wanneer `target-global-mbox` wordt gebruikt om aanbiedingen te leveren die in de Visuele Composer van de Ervaring worden gecreeerd, die ook als visuele aanbiedingen wordt bekend.
+
+### clientCode
+
+* **Type**: String
+* **Standaardwaarde**: Waarde ingesteld via UI.
+* **Omschrijving**: Vertegenwoordigt de clientcode.
+
+### cookieDomain
+
+* **Type**: String
+* **Standaardwaarde**: Indien mogelijk ingesteld op het bovenste domein.
+* **Omschrijving**: Vertegenwoordigt het domein dat wordt gebruikt bij het opslaan van cookies.
+
+### crossDomain
+
+* **Type**: String
+* **Standaardwaarde**: Waarde ingesteld via UI.
+* **Omschrijving**: Geeft aan of interdomeintracering is ingeschakeld. De toegestane waarden zijn: uitgeschakeld, ingeschakeld of alleen x.
+
+### cspScriptNonce
+
+* **Type**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+* **Standaardwaarde**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+* **Omschrijving**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+
+### cspStyleNonce
+
+* **Type**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+* **Standaardwaarde**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+* **Omschrijving**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+
+### dataProviders
+
+* **Type**: Zie [Gegevensleveranciers](#data-providers) hieronder.
+* **Standaardwaarde**: Zie [Gegevensleveranciers](#data-providers) hieronder.
+* **Omschrijving**: Zie [Gegevensleveranciers](#data-providers) hieronder.
+
+### defaultContentHiddenStyle
+
+* **Type**: String
+* **Standaardwaarde**: zichtbaarheid: verborgen
+* **Omschrijving**: Wordt alleen gebruikt voor omvattende vakken die gebruikmaken van DIV met klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via `mboxCreate()`, `mboxUpdate()`of `mboxDefine()` om standaardinhoud te verbergen.
+
+### defaultContentVisibleStyle
+
+* **Type**: String
+* **Standaardwaarde**: zichtbaarheid: visible
+* **Omschrijving**: Wordt alleen gebruikt voor wrapping-vakken die gebruikmaken van DIV met klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via `mboxCreate()`, `mboxUpdate()`of `mboxDefine()` om toegepaste aanbieding weer te geven als deze bestaat of inhoud standaard bevat.
+
+### deviceIdLifetime
+
+* **Type**: Getal
+* **Standaardwaarde**: 63244800000 ms = 2 jaar
+* **Omschrijving**: De hoeveelheid tijd die in cookies `deviceId` wordt doorgebracht.
+
+### enabled
+
+* **Type**: Boolean
+* **Standaardwaarde**: true
+* **Omschrijving**: Wanneer toegelaten, wordt een [!DNL Target] verzoek om ervaringen en DOM manipulatie terug te winnen om de ervaringen terug te geven automatisch uitgevoerd. Voorts kunnen de [!DNL Target] vraag manueel via `getOffer(s)` / `applyOffer(s)`worden uitgevoerd.
+
+   Wanneer deze optie is uitgeschakeld, worden [!DNL Target] aanvragen niet automatisch of handmatig uitgevoerd.
+
+### globalMboxAutoCreate
+
+* **Type**: Getal
+* **Standaardwaarde**: Waarde ingesteld via UI.
+* **Omschrijving**: Geeft aan of het algemene mbox-verzoek moet worden geactiveerd.
+
+### imsOrgId
+
+* **Type**: Sting
+* **Standaardwaarde**: true
+* **Omschrijving**: Vertegenwoordigt de IMS ORG-ID.
+
+### optoutEnabled
+
+* **Type**: Boolean
+* **Standaardwaarde**: false
+* **Omschrijving**: Geeft aan of Target de API- `isOptedOut()` functie voor bezoekers moet aanroepen. Dit maakt deel uit van de functie voor apparaatgrafiek.
+
+### overrideMboxEdgeServer
+
+* **Type**: Boolean
+* **Standaardwaarde**: true (waar, vanaf at.js versie 1.6.2)
+* **Omschrijving**: Geeft aan of we `<clientCode>.tt.omtrdc.net` domein of `mboxedge<clusterNumber>.tt.omtrdc.net` domein moeten gebruiken.
+
+   Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net` domein opgeslagen in een cookie. Werken momenteel niet met [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+
+### overrideMboxEdgeServerTimeout
+
+* **Type**: Getal
+* **Standaardwaarde**: 1860000 => 31 minuten
+* **Omschrijving**: Geeft de cookielevensduur aan die de `mboxedge<clusterNumber>.tt.omtrdc.net` waarde bevat.
+
+### pageLoadEnabled
+
+* **Type**: Boolean
+* **Standaardwaarde**: true
+* **Omschrijving**: Als deze optie is ingeschakeld, haalt u automatisch ervaringen op die bij het laden van de pagina moeten worden geretourneerd.
+
+### secureOnly
+
+* **Type**: Boolean
+* **Standaardwaarde**: false
+* **Omschrijving**: Geeft aan of at.js alleen HTTPS mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol.
+
+### selectorsPollingTimeout
+
+* **Type**: Getal
+* **Standaardwaarde**: 5000 ms = 5 s
+* **Omschrijving**: In 0.js 0.9.6 [!DNL Target] introduceerde deze nieuwe instelling die via kan worden overschreven `targetGlobalSettings`.
+
+   De `selectorsPollingTimeout` instelling geeft aan hoelang de client wil wachten totdat alle elementen die door kiezers zijn geïdentificeerd, op de pagina worden weergegeven.
+
+   De activiteiten die via Visual Experience Composer (VEC) worden gecreeerd hebben aanbiedingen die selecteurs bevatten.
+
+### serverDomain
+
+* **Type**: String
+* **Standaardwaarde**: Waarde ingesteld via UI.
+* **Omschrijving**: Vertegenwoordigt de doelEdge-server.
+
+### serverState
+
+* **Type**: Zie [Hybride personalisatie](#server-state) hieronder.
+* **Standaardwaarde**: Zie [Hybride personalisatie](#server-state) hieronder.
+* **Omschrijving**: Zie [Hybride personalisatie](#server-state) hieronder.
+
+### timeout
+
+* **Type**: Getal
+* **Standaardwaarde**: Waarde ingesteld via UI.
+* **Omschrijving**: Geeft de time-out voor de [!DNL Target] randaanvraag aan.
+
+### viewsEnabled
+
+* **Type**: Boolean
+* **Standaardwaarde**: true
+* **Omschrijving**: Als deze optie is ingeschakeld, haalt u automatisch de weergaven op die bij het laden van de pagina moeten worden geretourneerd. Weergaven worden ondersteund in at.js 2.*alleen x* .
+
+### bezoekerApiTimeout
+
+* **Type**: Getal
+* **Standaardwaarde**: 2000 ms = 2 s
+* **Omschrijving**: Geeft de time-out van het [!UICONTROL Visitor API] verzoek aan.
 
 ## Gebruik {#section_9AD6FA3690364F7480C872CB55567FB0}
 
