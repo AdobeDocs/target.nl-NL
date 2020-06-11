@@ -5,7 +5,7 @@ title: Activiteit QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
    Vanwege deze dubbele codering kan, wanneer we de code proberen te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
 
-   Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters wit-vermeld zijn zodat deze waarden op geen enkele manier worden getransformeerd.
+   Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters worden toegestaan vermeld zodat deze waarden op geen enkele manier worden getransformeerd.
 
    In de volgende tabel worden de parameters weergegeven die in uw domein kunnen worden toegestaan:
 
