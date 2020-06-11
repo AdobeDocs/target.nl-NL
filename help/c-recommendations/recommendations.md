@@ -4,7 +4,10 @@ description: De activiteiten van aanbevelingen in Adobe Target tonen automatisch
 title: Adobe-doelaanbevelingen
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
@@ -57,4 +60,4 @@ In deze video worden de activiteitstypen uitgelegd die beschikbaar zijn in [!DNL
 
 De *inleiding tot webinar van Aanbevelingen* omvat een diepgaand onderzoek van hoe te om de waarde van te hefboomwerking te [!DNL Adobe Target Recommendations]. Kom te weten hoe deze [!DNL Target] activiteit automatisch producten of inhoud toont die uw klanten zouden kunnen interesseren door suggesties in real time te optimaliseren die op vorige bezoeken worden gebaseerd. Verder, duik in [!DNL Target] UI voor een geleidelijke overzicht van hoe te om een [!DNL Recommendations] activiteit te bouwen.
 
-[Inleiding tot aanbevelingen](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Inleiding tot aanbevelingen](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
