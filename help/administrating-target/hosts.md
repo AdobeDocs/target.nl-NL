@@ -5,7 +5,7 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Als u de [!UICONTROL Hosts] lijst wilt sorteren, klikt u op een kolomkop ([!UICO
 
 Als u in de [!UICONTROL Hosts] lijst wilt zoeken, typt u een zoekterm in het [!UICONTROL Search Hosts] vak.
 
-## Creeer allowlists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden. {#whitelist}
+## Creeer allowlists die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden. {#allowlist}
 
 U kunt een allowlist tot stand brengen die gastheren (domeinen) specificeert die worden gemachtigd om mbox vraag naar te verzenden [!DNL Target]. Alle andere gastheren die vraag produceren zullen een commentarieert-uit de foutenreactie van de toestemmingsfout krijgen. Door gebrek, om het even welke gastheer die een mbox vraagregisters met [!DNL Target] in het milieu van de Productie bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u in plaats daarvan het allowlist gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om mbox vraag te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve campagnes kan zien.
 
