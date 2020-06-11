@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 
       >[!IMPORTANT]
       >
-      >Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;geautoriseerde gastheren&quot;gebruiken om van de standaard opnieuw te richten domeinen URL toe te staan. Het doel gebruikt gastheren om lijstdomeinen toe te staan waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Toegestane lijsten die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#whitelist) in *Gastheren* te verzenden.
+      >Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;geautoriseerde gastheren&quot;gebruiken om van de standaard opnieuw te richten domeinen URL toe te staan. Het doel gebruikt gastheren om lijstdomeinen toe te staan waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Toegestane lijsten die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden.
 
 
 1. Valideer Redirector.
