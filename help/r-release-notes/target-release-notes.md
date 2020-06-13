@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ De volgende verbeteringen en correcties zijn aangebracht in de bibliotheken [!DN
 
 ### om.js 1.8.2
 
-* Als u CNAME en edge override gebruikt, punt.js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35064)
+* Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35064)
 
 ### om.js 2.3.1
 
 * De `deviceIdLifetime` instelling is overschreven via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
-* Bij gebruik van CNAME en edge override, punt.js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35065)
-* Wanneer u de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie gebruikt, [!DNL Launch] werd de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep vertraagd. (TNT-36407, TNT-35990, TNT-36000)
+* Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35065)
+* Probleem verholpen bij het gebruik van de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie, [!DNL Launch] waarmee de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep werd vertraagd. (TNT-36407, TNT-35990, TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (17 juni 2020)
 
