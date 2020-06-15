@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 12 juni 2020**
+**Laatst bijgewerkt: 15 juni 2020**
 
 Zie Opmerkingen bij de release van [Target voor informatie over de huidige release](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -55,6 +55,7 @@ De volgende verbeteringen en correcties zijn aangebracht in de bibliotheken [!DN
 | --- | --- |
 | Analytics for Target (A4T)-ondersteuning voor activiteiten voor automatisch toewijzen | Met de release van juni ondersteunen Auto-Allocate-tests [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). Dankzij deze integratie kunt u de multi-gewapende bandeigenschappen van Auto-Allocate gebruiken om het verkeer naar het winnen van ervaringen te sturen, terwijl u tegelijkertijd een Adobe Analytics-doelstelling gebruikt voor metrische en/of Adobe Analytics-rapportage en -analyse. Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar! |
 | Uitgever | Deze nieuwe rol is vergelijkbaar met de huidige rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
+| A4T-ondersteuning op 25 [!DNL Analysis Workspace]<br>juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wordt nu ondersteund in [!DNL Analysis Workspace]. Met [!UICONTROL Analytics for Target (A4T) panel] deze functie kunt u uw [!DNL Adobe Target] activiteiten en ervaringen analyseren in [!DNL Analysis Workspace].<br>Zie het deelvenster [Analytics for Target (A4T) in de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics Tools Guide ** voor meer informatie. |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
