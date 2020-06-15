@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 15 juni | [Opmerkingen bij de release van Target (preRelease)](/help/r-release-notes/target-release-notes.md) | De notities voor de release [!DNL Target Standard/Premium] 20.5.1 (17 juni 2020) zijn bijgewerkt en bevatten informatie over de ondersteuning van A4T in [!DNL Analysis Workspace]. |
+| 15 juni | [Opmerkingen bij de release van Target (huidige)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de versies at.js 1.8.2 en at.js 2.3.1. |
+|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over de versies at.js 1.8.2 en at.js 2.3.1. |
+|  | [Opmerkingen bij de release van Target (preRelease)](/help/r-release-notes/target-release-notes.md) | De notities voor de release [!DNL Target Standard/Premium] 20.5.1 (17 juni 2020) zijn bijgewerkt en bevatten informatie over de ondersteuning van A4T in [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informatie over de `deviceIdLifetime` instelling toegevoegd. |
 |  | [Opmerkingen bij de release van Target (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de versies at.js 1.8.2 en at.js 2.3.1. |
 | 8 juni | [Veelgestelde vragen over Target voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Bijgewerkte tekst voor de volgende veelgestelde vragen: &quot;Is Target Mobile alleen een functionaliteit van Adobe Target Premium Product SKU?&quot; |
@@ -77,7 +79,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Werken met kenmerken van meerdere waarden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Bijgewerkt codevoorbeeld in *Geef een parameter met meerdere waarden door in JavaScript*. |
 |  | [Aangepaste entiteitskenmerken](/help/c-recommendations/c-products/custom-entity-attributes.md) | Codevoorbeeld toegevoegd in API&#39;s *gebruiken* onder *Meerwaardekenmerken* implementeren. |
 | 4 maart | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | Gehele onderwerp is bijgewerkt, met uitgebreide revisies van de sectie &quot;Beste werkwijzen&quot;. |
-| 21 februari | [Opmerkingen bij de release (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de nieuwe navigatie in Adobe Experience Cloud. |
+| 21 februari | [Opmerkingen bij de release (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de nieuwe Adobe Experience Cloud-navigatie. |
 | 20 februari | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De beschrijving voor de `enabled` instelling is bijgewerkt. Informatie toegevoegd voor de volgende instellingen: `pageLoadEnabled` en `viewsEnabled`. |
 | 19 februari | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de aanstaande afbraak van de bibliotheek mbox.js. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Toegevoegde opmerking die `mboxOverride.browserIp` wordt ondersteund in at.js 1.*alleen x* . |
