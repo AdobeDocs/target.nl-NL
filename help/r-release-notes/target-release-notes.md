@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ Zie Opmerkingen bij de release van [Target voor informatie over de huidige relea
 
 ### Verbeteringen, correcties en wijzigingen
 
-* Verbeterde gebruikersinterface van Target om het specificeren van de globale box gemakkelijker te maken. (TGT-15280)
 * Probleem verholpen waarbij de metrische waarde &quot;bezoekers&quot; werd opgeslagen in de definitie van de activiteit in plaats van &quot;UniqueVisitors&quot;. (TGT-37098)
 * Probleem verholpen in de [!DNL Target] gebruikersinterface die ervoor zorgde dat de verticale schuifbalk niet correct op de [!UICONTROL Audiences] pagina werkte. (TGT-36968)
 
