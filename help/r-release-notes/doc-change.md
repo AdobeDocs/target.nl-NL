@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 15 juni | [Opmerkingen bij de release van Target (preRelease)](/help/r-release-notes/target-release-notes.md) | De notities voor de release [!DNL Target Standard/Premium] 20.5.1 (17 juni 2020) zijn bijgewerkt en bevatten informatie over de ondersteuning van A4T in [!DNL Analysis Workspace]. |
 | 12 juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informatie over de `deviceIdLifetime` instelling toegevoegd. |
 |  | [Opmerkingen bij de release van Target (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de versies at.js 1.8.2 en at.js 2.3.1. |
 | 8 juni | [Veelgestelde vragen over Target voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Bijgewerkte tekst voor de volgende veelgestelde vragen: &quot;Is Target Mobile alleen een functionaliteit van Adobe Target Premium Product SKU?&quot; |
