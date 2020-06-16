@@ -4,7 +4,10 @@ description: Informatie over het verlenen van bestaande Adobe I/O-integraties to
 title: Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen in Adobe Target
 subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 0%
 
 ---
 
@@ -15,14 +18,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->De eigenschappen en de Toestemmingsfunctionaliteit zijn beschikbaar als deel van de [Oplossing van de Premie](/help/c-intro/intro.md#premium) van het Doel. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie.
+>Eigenschappen en machtigingen zijn beschikbaar als onderdeel van de [Target Premium](/help/c-intro/intro.md#premium) -oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie.
 
 Met deze [!UICONTROL Enterprise Permissions] functie kunt u optimalisatieprogramma&#39;s in verschillende teams op effectieve wijze schalen. Hoewel de functie beschikbaar was in de [!DNL Target] gebruikersinterface, ontbrak de corresponderende ondersteuning tot eerder in 2019. In de release van [!DNL Target] februari 2019 heeft Adobe de Admin API&#39;s bijgewerkt, zodat u met het integratieaccount toegang kunt krijgen tot alle werkruimten die in uw organisatie zijn gemaakt. Dus, terwijl vroeger, Admin APIs tot enkel de standaardwerkruimte beperkt was, verleende de update van februari 2019 toegang tot alle werkruimten met [!UICONTROL Approver] toegang.
 
 Met de release van [!DNL Target] september 2019 [!DNL Target] biedt [!UICONTROL Enterprise Permissions] u klanten de volgende toegangscontroles:
 
 * U kunt de werkruimten kiezen waarop de integratie kan worden toegepast
-* U kunt een rol op de integratie van Adobe I/O toepassen: [!UICONTROL Approver], [!UICONTROL Editor], of [!UICONTROL Observer].
+* U kunt een rol op de integratie van Adobe I/O toepassen: [!UICONTROL Approver], [!UICONTROL Editor]of [!UICONTROL Observer].
 
 Deze update biedt ondersteuning voor de volgende gebruiksgevallen:
 
@@ -39,7 +42,7 @@ Deze update biedt ondersteuning voor de volgende gebruiksgevallen:
 
 **Om Adobe I/O-integraties toegang te geven tot werkruimten en om rollen toe te wijzen:**
 
-1. Open de **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Open de **[Adobe-Admin Console](https://adminconsole.adobe.com)**.
 
 1. Klik op het **[!UICONTROL Products]** tabblad en selecteer vervolgens de naam van het gewenste product.
 
@@ -57,7 +60,9 @@ Deze update biedt ondersteuning voor de volgende gebruiksgevallen:
 
 1. Selecteer in de **[!UICONTROL Product Role]** vervolgkeuzelijst de gewenste rol voor de desbetreffende werkruimte:
 
-   * [!UICONTROL Approver]
-   * [!UICONTROL Editor]
-   * [!UICONTROL Observer]
-   ![De rol Productprofiel kiezen](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | Rol | Beschrijving |
+   |--- |--- |
+   | Fiatteur | Kan activiteiten maken, bewerken en activeren of stoppen. |
+   | Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
+   | Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
+   | Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
