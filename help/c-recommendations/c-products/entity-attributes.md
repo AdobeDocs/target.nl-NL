@@ -4,7 +4,10 @@ description: Gebruik entiteitskenmerken om product- of inhoudsgegevens door te g
 title: Entiteitskenmerken
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
+source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 0%
 
 ---
 
@@ -169,13 +172,13 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->Waarden van opgegeven entiteitskenmerken verlopen na 61 dagen. Dit betekent dat u ervoor moet zorgen dat de recentste waarde van elk entiteitattribuut aan de Aanbevelingen van het Doel minstens eens per maand voor elk punt in uw catalogus wordt overgegaan.
+>Waarden van opgegeven entiteitskenmerken verlopen na 61 dagen. Dit betekent dat u ervoor moet zorgen dat de nieuwste waarde van elk entiteitkenmerk ten minste één keer per maand wordt doorgegeven aan Target Recommendations voor elk item in uw catalogus.
 
 De aanbevelingen verzenden het `productId` of `productPurchasedId` (bedoeld als `entity.id` in de code) dat in de algoritmen wordt gebruikt.
 
 >[!NOTE]
 >
->`entity.id` moet overeenkomen met de pagina die naar de pagina voor bevestiging van de bestelling is verzonden en met de pagina die wordt `productPurchasedId` `productId` gebruikt in productrapporten van Adobe Analytics).
+>`entity.id` moet overeenkomen met de pagina `productPurchasedId` die naar de pagina voor bevestiging van de bestelling is verzonden en met de pagina&#39;s die in Adobe Analytics-productrapporten worden `productId` gebruikt).
 
 De meeste vooraf gedefinieerde parameters accepteren slechts één waarde, waarbij nieuwe waarden oude waarden overschrijven. De `categoryId` parameter kan een door komma&#39;s gescheiden lijst met waarden accepteren voor elke categorie die dat product bevat. Nieuwe `categoryId` waarden overschrijven bestaande waarden niet, maar worden toegevoegd tijdens het bijwerken van een entiteit (limiet van 250 tekens).
 
@@ -194,35 +197,25 @@ Over het algemeen ziet het informatievenster voor de weergave er als in het volg
  
 mboxCreate('productPage', 
  
-'entity.id= 
-<b>67833</b>', 
+'entity.id=67833', 
  
-'entity.name= 
-<b>GIANTS VS ROCKIES 5/12</b>', 
+'entity.name=GIANTS VS ROCKIES 5/12', 
  
-'entity.categoryId= 
-<b>BASEBALL, GIANTS, SF BAY AREA</b>', 
+'entity.categoryId=BASEBALL, GIANTS, SF BAY AREA', 
  
-'entity.pageUrl= 
-<b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
+'entity.pageUrl=../baseball/giants-tix/giantsvrockies5.12.2000-67833', 
  
-'entity.venue= 
-<b>AT&T PARK</b>', 
+'entity.venue=AT&T PARK', 
  
-'entity.secondary= 
-<b>ROCKIES</b>', 
+'entity.secondary=ROCKIES', 
  
-'entity.thumbnailUrl= 
-<b>../baseball/giants-tix/giants-136px.gif</b>', 
+'entity.thumbnailUrl=../baseball/giants-tix/giants-136px.gif', 
  
-'entity.message= 
-<b>FAMILY SPECIAL</b>', 
+'entity.message=FAMILY SPECIAL', 
  
-'entity.value= 
-<b>15.99</b>', 
+'entity.value=15.99', 
  
-'entity.inventory= 
-<b>1</b>' 
+'entity.inventory=1' 
  
 ); 
  
