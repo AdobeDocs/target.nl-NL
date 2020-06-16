@@ -1,13 +1,13 @@
 ---
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-description: Informatie over het creëren van eigenschappen en het gebruiken van de eigenschappen en de functionaliteit van Toestemmingen die de beheerders van het Doel afzonderlijke werkruimten (productprofielen) in Doel laat creëren en dan gebruikers verschillende rollen en toestemmingen voor individuele pagina's, eigenschappen, of Websites toewijzen die op deze werkruimten worden gebaseerd.
+description: Informatie over het creëren van eigenschappen en het gebruiken van de eigenschappen en de functionaliteit van Toestemmingen die de beheerders van Target afzonderlijke werkruimten (productprofielen) in Target laat creëren en dan gebruikers verschillende rollen en toestemmingen voor individuele pagina's, eigenschappen, of Websites toewijst die op deze werkruimten worden gebaseerd.
 title: Machtigingen voor Enterprise-gebruikers
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2872'
+source-wordcount: '2924'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,12 @@ U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Execu
 
 De rollen en de toestemmingen bepalen de toegangsniveaus die de gebruikers activiteiten in uw [!DNL Target] implementatie moeten creëren en beheren. In [!DNL Target], omvatten de rollen het volgende:
 
-* **[!UICONTROL Observer]**: Kan activiteiten weergeven, maar kan deze niet maken of bewerken.
-* **[!UICONTROL Editor]**: Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren.
-* **[!UICONTROL Approver]**: Kan activiteiten maken, bewerken en activeren of stoppen.
+| Rol | Beschrijving |
+|--- |--- |
+| Fiatteur | Kan activiteiten maken, bewerken en activeren of stoppen. |
+| Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
+| Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
+| Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
 
 ### Kanaal
 
@@ -115,10 +118,10 @@ Elke rol heeft verschillende machtigingsniveaus:
 
 | Rol | Beschrijving |
 |--- |--- |
-| Waarnemer | Heeft alleen-lezen toegang tot activiteiten. Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
-| Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
 | Fiatteur | Kan activiteiten maken, bewerken en activeren of stoppen. |
-
+| Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
+| Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
+| Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
 Het is belangrijk om op te merken dat de rol van elke gebruiker op elke pagina, bezit, of plaats in uw rekening van toepassing is die markeringen, zoals hieronder getoond omvat: [!DNL Target]
 
 ![](assets/permissions_2.png)
@@ -154,7 +157,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Ernie**: Ernie is een marketingmanager van de organisatie die in de Verenigde Staten verantwoordelijk is voor marketing.
 
-   Omdat Ernie vrij nieuw aan de organisatie en enigszins onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Homepage van de V.S., Plaats, en de Pagina&#39;s van het Product van de V.S. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn, maar hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring, zoals Jan goedkeuren, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
+   Omdat Ernie vrij nieuw aan de organisatie is en enigszins onervaren met Target, heeft hij de toestemmingen van de Redacteur voor de Homepage van de V.S., Plaats, en de Pagina&#39;s van het Product van de V.S. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn, maar hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring, zoals Jan goedkeuren, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
 
    Omdat Ernie geen rol heeft die hem vereist om de Russische Site, de Plaats van Frankrijk, of de Plaats van Careers te zien, kan hij geen activiteiten voor die plaatsen zien.
 
@@ -176,13 +179,13 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Ernie**: Ernie is een marketingmanager voor de organisatie die verantwoordelijk is voor marketing in de ruimte tussen consument en product.
 
-   Omdat Ernie vrij nieuw aan de organisatie en enigszins onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Plaats van de Consumenten. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn, maar hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring voor de Plaats van de Consumenten goedkeuren, maar niet Jan in dit scenario, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
+   Omdat Ernie vrij nieuw aan de organisatie is en enigszins onervaren met Target, heeft hij de toestemmingen van de Redacteur voor de Plaats van de Consumenten. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn, maar hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring voor de Plaats van de Consumenten goedkeuren, maar niet Jan in dit scenario, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
 
    Omdat Ernie geen rol heeft die hem ertoe noopt de Ziekenhuis te zien, kan hij geen activiteiten voor die plaats zien.
 
 * **Diana**: Diana is nu een analist voor de organisatie en heeft waarnemersmachtigingen gekregen voor de ziekenhuissite en de consumentensite die haar alleen-lezen toegang geven tot activiteiten. Diana kan activiteiten bekijken, maar kan ze niet maken of bewerken.
 
-## Eigenschap voor doel-UI en aanraakpunten voor machtigingen {#section_3414371393BB42999A268628B5456EC9}
+## Target UI-eigenschappen en -machtigingspunten {#section_3414371393BB42999A268628B5456EC9}
 
 De nieuwe functies voor machtigingen kunnen op verschillende plaatsen in de [!DNL Target] gebruikersinterface worden weergegeven.
 
@@ -228,17 +231,17 @@ Houd rekening met het volgende wanneer u eigenschappen en machtigingen in [!DNL 
 * Wanneer het publiek van de [!DNL Audiences] pagina wordt weergegeven, wordt de pagina langzamer geladen dan u had verwacht. Als u op een of andere manier met de zoekbalk werkt, worden de doelgroepen sneller weergegeven. Dit is een bekend probleem en wordt in een volgende update opgelost. Dit probleem heeft geen invloed op het selecteren van doelgroepen tijdens de workflow voor het maken van activiteiten.
 * De volgende middelen maken deel uit van het nieuwe model van de Toestemmingen van de Onderneming:
 
-   * Activiteiten, publiek en codeaanbiedingen die binnen Standaard/Premium van het Doel worden gecreeerd nadat de klant voor toestemmingen wordt toegelaten. (Opmerking: klanten moeten recht hebben op Target Premium.)
+   * Activiteiten, publiek en codeaanbiedingen die in Target Standard/Premium worden gemaakt nadat de klant is ingeschakeld voor machtigingen. (Opmerking: klanten moeten recht hebben op Target Premium.)
    * Eigenschappen kunnen worden toegevoegd aan bestaande activiteiten in de standaardwerkruimte. dit kan echter veranderen .
-   * Alleen nieuwe bronnen (zoals activiteiten, codeaanbiedingen en publiek) die zijn gemaakt in Target Premium (nadat Enterprise-machtigingen zijn ingeschakeld) zijn beschikbaar om te worden beperkt door machtigingen.
-   * Externe bronnen zijn alleen beschikbaar voor gebruikers in de standaardwerkruimte. De rol van een gebruiker in de Standaardwerkruimte wordt globaal toegepast (op alle doelverzoeken en alle doelbronnen).
+   * Alleen nieuwe bronnen (zoals activiteiten, codeaanbiedingen en publiek) die in Target Premium zijn gemaakt (nadat Enterprise-machtigingen zijn ingeschakeld), zijn beschikbaar om te worden beperkt door machtigingen.
+   * Externe bronnen zijn alleen beschikbaar voor gebruikers in de standaardwerkruimte. De rol van een gebruiker in de standaardwerkruimte wordt globaal toegepast (op alle Target-aanvragen en alle Target-bronnen).
 
 * De volgende middelen maken *geen* deel uit van het nieuwe model van de Toestemmingen van de Onderneming:
 
    * Afbeeldingsaanbiedingen
    * Alle bronnen voor aanbevelingen, zoals Criteria Library, Design Library, Catalog en Recommendations Setup.
-   * Bestaande bronnen (zoals activiteiten, codeaanbiedingen en publiek) die zijn gemaakt in Target Premium voordat bedrijfsmachtigingen worden ingeschakeld, kunnen worden gekopieerd, maar kunnen niet naar andere werkruimten worden verplaatst.
-   * De activiteiten, het publiek, de codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar zullen deel van de StandaardWerkruimte uitmaken: Doel: Klassiek, Adobe Experience Manager (AEM), Adobe Mobile Services en bronnen die via de API zijn gemaakt. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
+   * Bestaande bronnen (zoals activiteiten, codeaanbiedingen en publiek) die in Target Premium zijn gemaakt voordat u Enterprise-machtigingen inschakelt, kunnen worden gekopieerd, maar kunnen niet naar andere werkruimten worden verplaatst.
+   * De activiteiten, het publiek, de codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar zullen deel van de StandaardWerkruimte uitmaken: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services en bronnen die via API zijn gemaakt. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
    * Aanbiedingen voor images (middelen die zijn opgeslagen onder `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kunnen momenteel niet worden beheerd door het machtigingenmodel voor ondernemingen.
    * clickTracking en redirects zullen slechts werken wanneer de bestemmingsverbinding of bestemmingspagina deel van een bezit uitmaken dat in de activiteit inbegrepen is. Bovendien, kan clickTracking niet werken wanneer het gebruiken van de `targetPageParams()` functie. De `targetPageParamsAll()` aanbevolen functie.
    [!DNL Target] vereist momenteel dat er een `at_property` token aanwezig is op elke pagina waar tekstspatiëring plaatsvindt. Als het token (1) niet aanwezig is, (2) niet wordt gedetecteerd op het moment van instellen van de activiteit (binnen de VEC) of (3) niet wordt doorgegeven aan het clickTracking-vak via de `targetPageParamsAll()` functie, wordt de metrische waarde niet verhoogd en wordt deze weergegeven als &quot;0.&quot;
@@ -273,15 +276,15 @@ Overweeg het volgende scenario (van toepassing op zowel at.js als mbox.js):
 * Pagina2 behoort tot Eigenschap2.
 * In de activiteit, richt Pagina1 zich aan Pagina2, die kliksporen bevat.
 
-Wanneer een bezoeker Pagina1 in browser opent, wordt hij of zij opnieuw gericht aan Pagina2. Omdat Page2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van het Doel geen kliksporen in zijn reactie.
+Wanneer een bezoeker Pagina1 in browser opent, wordt hij of zij opnieuw gericht aan Pagina2. Omdat Pagina2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van Target geen kliksporen in zijn reactie.
 
-Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
+Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
 
 ## Trainingsvideo: Trainingbadge ![overzicht van Enterprise-machtigingen](/help/assets/overview.png)
 
 Leerdoelstellingen:
 
-* De drie rolniveaus die de gebruikers van het Doel van Adobe kunnen houden
+* De drie rolniveaus die de gebruikers van Adobe Target kunnen houden
 * De concepten Eigenschappen en Werkruimten, en hoe deze grenzen en groeperingen werken om voor controle over de toegangsniveaus van gebruikers toe te staan
 * Verschillende eigenschappenvoorbeelden voor uw organisatie
 
