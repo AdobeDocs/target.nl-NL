@@ -1,13 +1,13 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
-description: U kunt een activiteit in Standaard/Premium van het Doel vormen om de Analytics van Adobe als rapporteringsbron (A4T) te gebruiken.
+description: U kunt een activiteit in Target Standard/Premium vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
 title: Activiteitenschepping
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 U kunt een activiteit binnen vormen [!DNL Target] [!DNL Adobe Analytics] om als rapporteringsbron (A4T) te gebruiken.
 
 Voordat u een activiteit instelt die [!DNL Analytics] als bron voor rapportage wordt gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de activiteit. Hoewel u extra metriek op elk ogenblik binnen kunt selecteren [!DNL Analytics], moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
+
+## Een activiteit maken die Analytics als bron voor rapportage gebruikt
 
 Het maken van een [!DNL Target] activiteit die gebruikt wordt [!DNL Analytics] als de bron van de rapportage is vergelijkbaar met het instellen van een reguliere [!DNL Target] activiteit, met enkele belangrijke verschillen. U kunt bijvoorbeeld geen segment selecteren voor rapportage terwijl u de activiteit maakt, omdat alle segmenten die beschikbaar zijn in, kunnen worden toegepast wanneer u een rapport weergeeft. [!DNL Analytics]
 
@@ -46,7 +48,7 @@ Het maken van een [!DNL Target] activiteit die gebruikt wordt [!DNL Analytics] a
 
 1. Geef de trackingserver op.
 
-   Zie [Een Analytics Tracking Server](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)gebruiken.
+   Zie [Analytics Tracking Server](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)gebruiken.
 
 1. Definieer de ervaring.
 1. Geef het doel van de activiteit op.
@@ -55,7 +57,7 @@ Het maken van een [!DNL Target] activiteit die gebruikt wordt [!DNL Analytics] a
 
    >[!NOTE]
    >
-   >U kunt een op doel-Gebaseerde metrisch van de douane verzenden naar [!DNL Analytics] eerder dan het baseren slechts op [!DNL Analytics] gegevens. U kunt bijvoorbeeld controleren of er op een pagina wordt geklikt. Dit wordt meestal niet door [!DNL Analytics]bijgehouden. Deze aangepaste metrische waarde wordt [!DNL Analytics] automatisch van de [!DNL Target] server verzonden en wordt in de metriekkiezer in weergegeven als de metrische waarde &quot;[!DNL Target] Conversie&quot; [!DNL Analytics]. De metrische waarde voor [!DNL Target] omzetten is leeg als u [!DNL Analytics] metriek wilt gebruiken.
+   >U kunt een aangepaste op Target gebaseerde metrische waarde verzenden naar [!DNL Analytics] in plaats van alleen op [!DNL Analytics] gegevens te vertrouwen. U kunt bijvoorbeeld controleren of er op een pagina wordt geklikt. Dit wordt meestal niet door [!DNL Analytics]bijgehouden. Deze aangepaste metrische waarde wordt [!DNL Analytics] automatisch van de [!DNL Target] server verzonden en wordt in de metriekkiezer in weergegeven als de metrische waarde &quot;[!DNL Target] Conversie&quot; [!DNL Analytics]. De metrische waarde voor [!DNL Target] omzetten is leeg als u [!DNL Analytics] metriek wilt gebruiken.
 
    Het plaatsen van een doel betekent niet u kunt geen andere metrisch gebruiken wanneer het evalueren van testresultaten. Het doel is echter een herinnering aan één ding dat u met de activiteit wilt verbeteren.
 
@@ -66,3 +68,58 @@ Het maken van een [!DNL Target] activiteit die gebruikt wordt [!DNL Analytics] a
    >Wanneer u een activiteit instelt nadat u deze hebt ingesteld [!DNL Analytics] als bron voor rapportage, kunt u geen publiek instellen voor rapportage. [!DNL Analytics] de segmenten zijn beschikbaar in het [!DNL Target] activiteitenverslag.
 
 1. Klik op **[!UICONTROL Save]**.
+
+## Analytics for Target (A4T)-ondersteuning voor activiteiten voor automatisch toewijzen {#a4t-aa}
+
+We hebben de Adobe Target-naar-Adobe Analytics-integratie geüpgraded, bekend als [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+
+[!UICONTROL Auto-Allocate] activiteiten ondersteunen nu [!UICONTROL Analytics for Target]. Dankzij deze integratie kunt u de multi-gewapende bandmogelijkheden van Auto-Allocate gebruiken om het verkeer naar het winnen van ervaringen te sturen en tegelijkertijd een [!DNL Adobe Analytics] doel-metrische en/of [!DNL Adobe Analytics] rapporterings- en analysemogelijkheden te gebruiken. Als u A4T al hebt [geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md), bent u klaar om te gaan!
+
+Aan de slag:
+
+1. Maak een A/B-testactiviteit en selecteer deze **[!UICONTROL Auto-allocate to best experience]** als de **[!UICONTROL Traffic Allocation Method]** op de [!UICONTROL Targeting] pagina.
+1. Selecteer **[!UICONTROL Adobe Analytics]** voor uw **[!UICONTROL Reporting Source]** op de **[!UICONTROL Goals & Settings]** pagina en selecteer de rapportreeks die aan uw gewenste optimaliseringsdoel beantwoordt.
+1. Kies een maatstaf voor het primaire doel.
+
+   Kies **[!UICONTROL Conversion]** om het optimalisatiedoel [!DNL Adobe Target] op te geven.
+
+   of
+
+   Kies **[!UICONTROL Use an Analytics metric]** en selecteer dan metrisch van [!DNL Analytics] voor gebruik als optimalisatiedoel. U kunt een metrische [!DNL Analytics] omzetting uit-van-doos, of een [!DNL Analytics] douanegebeurtenis gebruiken.
+
+1. Sla uw activiteiten op en activeer deze.
+
+   [!UICONTROL Auto-Allocate] zal uw geselecteerde metrisch gebruiken om de activiteit te optimaliseren, die bezoekers aan de ervaring drijft die uw doel metrisch maximaliseert.
+
+1. Gebruik het **[!UICONTROL Reports]** tabblad om de rapportage van uw activiteit weer te geven op basis van [!DNL Adobe Analytics] maateenheden. Klik **[!UICONTROL View in Analytics]** om uw rapportgegevens dieper en verder te segmenteren.
+
+### Ondersteunde streefcijfers
+
+A4T voor [!UICONTROL Auto-Allocate] staat u toe om het even welke volgende metrische types als uw primaire doel metrisch voor optimalisering te kiezen:
+
+* [!DNL Adobe Target] conversiemetingen
+* [!DNL Adobe Analytics] conversiemetingen
+* [!DNL Adobe Analytics] aangepaste gebeurtenissen
+
+A4T voor [!UICONTROL Auto-Allocate] vereist u om metrisch te kiezen die op een binomiale gebeurtenis gebaseerd is, dat wil zeggen, een gebeurtenis die of doet of niet gebeurt, bijvoorbeeld een klik, een omzetting, een orde, enz. (Deze typen gebeurtenissen worden ook wel Bernoulli, binaire of discrete gebeurtenissen genoemd.)
+
+A4T for [!UICONTROL Auto-Allocate] ondersteunt geen optimalisatie voor doorlopende metriek zoals opbrengst, aantal bestelde producten, sessieduur, aantal paginaweergaven in sessie, enz. (Deze niet-ondersteunde typen metriek worden ook wel niet-binomiale of niet-Bernoulli-metriek genoemd.)
+
+De volgende metrische types zijn niet gesteund als primaire doelmetriek:
+
+* [!DNL Adobe Target] service- en inkomstencijfers
+* [!DNL Adobe Analytics] service- en inkomstencijfers
+
+   >[!NOTE]
+   >
+   >Het kan mogelijk zijn om de metriek van [!DNL Analytics] betrokkenheid en opbrengst als uw primaire doel te selecteren omdat [!DNL Target] niet alle overeenkomst en opbrengstmetriek van kan identificeren [!DNL Analytics]. Wees voorzichtig met het selecteren van alleen metriek voor binomiale conversie of aangepaste gebeurtenissen van [!DNL Analytics].
+
+* Berekende cijfers voor Adobe Analytics
+
+### Beperkingen en opmerkingen
+
+* Zodra een activiteit is geactiveerd, kan de bron van de rapportage niet worden gewijzigd van [!DNL Analytics] naar [!DNL Target] of omgekeerd.
+* Hoewel de berekende metriek niet als primaire doelmetriek worden gesteund, is het vaak mogelijk om het voorgenomen resultaat te bereiken door in plaats daarvan een douanegebeurtenis als primaire doel metrisch te selecteren. Als u bijvoorbeeld wilt optimaliseren voor metrische gegevens, zoals &#39;formulieraanvullen per bezoeker&#39;, selecteert u een aangepaste gebeurtenis die overeenkomt met &#39;formulieraanvullen&#39; als maatstaf voor het primaire doel. [!DNL Target] normaliseert automatisch omzettingsmetriek op een per-bezoek basis om voor ongelijke verkeersdistributie rekening te houden, zodat is het niet noodzakelijk om berekende metrisch te gebruiken om normalisatie uit te voeren.
+* [!DNL Target] gebruikt het attributiemodel &quot;Same Touch&quot; in de Auto-Allocate A4T implementatie.
+
+Zie Overzicht [van](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) kenmerken in de *Analytics Tools Guide* voor meer informatie.
