@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Zie Opmerkingen bij de release van [Target voor informatie over de huidige relea
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Analytics for Target (A4T)-ondersteuning voor activiteiten voor automatisch toewijzen | Met de release van juni ondersteunen Auto-Allocate-tests [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md). Dankzij deze integratie kunt u de multi-gewapende bandeigenschappen van Auto-Allocate gebruiken om het verkeer naar het winnen van ervaringen te sturen, terwijl u tegelijkertijd een Adobe Analytics-doelstelling gebruikt voor metrische en/of Adobe Analytics-rapportage en -analyse. Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar! |
-| Uitgever | Deze nieuwe rol is vergelijkbaar met de huidige rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
-| A4T-ondersteuning op 25 [!DNL Analysis Workspace]<br>juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wordt nu ondersteund in [!DNL Analysis Workspace]. Met [!UICONTROL Analytics for Target (A4T) panel] deze functie kunt u uw [!DNL Adobe Target] activiteiten en ervaringen analyseren in [!DNL Analysis Workspace].<br>Zie het deelvenster [Analytics for Target (A4T) in de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics Tools Guide ** voor meer informatie. |
+| Analytics for Target (A4T)-ondersteuning voor [!UICONTROL Auto-Allocate] activiteiten | [!UICONTROL Auto-Allocate] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Deze integratie staat u toe om het [!UICONTROL Auto-Allocate] multi-gewapende bandit vermogen te gebruiken om verkeer aan het winnen van ervaringen te drijven, terwijl het gebruiken van een [!UICONTROL Adobe Analytics] doel metrisch en/of [!UICONTROL Adobe Analytics] rapporteringsen analysemogelijkheden.<br>Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar!<br>Zie [Analytics for Target (A4T)-ondersteuning voor Auto-Allocate-activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie. |
+| [!UICONTROL Publisher] rol | Deze nieuwe rol is vergelijkbaar met de huidige [!UICONTROL Observer] rol (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De [!UICONTROL Publisher] rol heeft echter de extra toestemming om activiteiten te activeren.<br>Zie voor meer informatie: <ul><li>**Target Standard-gebruikers**: [Geef rollen en machtigingen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) op in *Gebruikers*.</li><li>**Target Premium-gebruikers**: [Stap 6: Specificeer rollen en toestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configure ondernemingstoestemmingen*.</li></ul> |
+| A4T-ondersteuning op 25 [!DNL Analysis Workspace]<br>juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wordt nu ondersteund in [!DNL Analysis Workspace]. Met [!UICONTROL Analytics for Target (A4T) panel] deze functie kunt u uw [!DNL Adobe Target] activiteiten en ervaringen analyseren in [!DNL Analysis Workspace].<br>Zie [Rapporten in Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) in *A4T-rapportage* en het deelvenster [Target (A4T) in de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics Tools Guide ** voor meer informatie. |
 
 ### Verbeteringen, correcties en wijzigingen
 
