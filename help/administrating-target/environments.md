@@ -5,9 +5,9 @@ title: Omgevingen
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Omgevingen
 
 Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
+
+>[!NOTE]
+>
+>De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u rapportgegevens door milieu ook scheiden.
 
@@ -88,7 +92,7 @@ Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebrui
 >[!NOTE]
 >Nadat u de geselecteerde omgeving hebt gewijzigd, moet u op Zoeken klikken om de geretourneerde resultaten bij te werken.
 
-Het [!UICONTROL Environment] filter is beschikbaar op de volgende plaatsen in het Doel UI:
+Het [!UICONTROL Environment] filter is beschikbaar op de volgende plaatsen in Target UI:
 
 * Catalogus zoeken ([!UICONTROL Recommendations > Catalog Search])
 * Verzameling maken, dialoogvenster ([!UICONTROL Recommendations > Collections > Create New])
