@@ -5,7 +5,10 @@ title: Automatisch toewijzen
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3022'
+ht-degree: 0%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # Automatisch toewijzen{#auto-allocate}
 
 Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversies toenemen terwijl de test nog steeds wordt uitgevoerd en opgedaan.
-
->[!IMPORTANT]
->
->Automatische toewijzing ondersteunt rapportage [!DNL Target for Analytics] (A4T) niet.
 
 Tijdens het [maken van een A/B-activiteit met behulp van de driestappenworkflow](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)met instructies kunt u de [!UICONTROL Auto-Allocate to Best Experience] optie kiezen.
 
@@ -30,9 +29,9 @@ Automatisch toewijzen verlaagt deze kosten en overheadkosten voor het bepalen va
 
 Met Automatisch toewijzen gaan bezoekers geleidelijk over op het winnen van ervaringen, in plaats van dat u wacht tot een activiteit eindigt om een winnaar te bepalen. U profiteert sneller van een lift omdat deelnemers aan activiteiten die naar minder succesvolle ervaringen zouden zijn gestuurd, potentiële winnende ervaringen kunnen laten zien.
 
-Bij een normale A/B-test in Target worden alleen paarsgewijze vergelijkingen van challengers met besturing getoond. Als een activiteit bijvoorbeeld ervaringen heeft: A, B, C, en D waar A de controle is, zou een normale Doel A/B test A versus B, A versus C, en A versus D vergelijken.
+Bij een normale A/B-test in Target worden alleen paarsgewijze vergelijkingen van alkenen met besturing getoond. Als een activiteit bijvoorbeeld ervaringen heeft: A, B, C en D waarbij A de controle is, zou een normale Target A/B test A versus B, A versus C, en A versus D vergelijken.
 
-In dergelijke tests, gebruiken de meeste producten, met inbegrip van Doel, t-test van een Student om op p-waarde-gebaseerd vertrouwen te veroorzaken. Deze betrouwbaarheidswaarde wordt vervolgens gebruikt om te bepalen of de toerist voldoende van de controle verschilt. Nochtans, voert het Doel automatisch niet de impliciete vergelijkingen (B tegen C, B tegen D, en C tegen D) uit die worden vereist om de &quot;beste&quot;ervaring te vinden. Het resultaat is dat de markeerstift de resultaten handmatig moet analyseren om de &quot;beste&quot; ervaring te bepalen.
+In dergelijke tests gebruiken de meeste producten, waaronder Target, de t-test van een student om op p-waarde gebaseerd vertrouwen te produceren. Deze betrouwbaarheidswaarde wordt vervolgens gebruikt om te bepalen of de toerist voldoende van de controle verschilt. Target voert echter niet automatisch de impliciete vergelijkingen uit (B versus C, B versus D, en C versus D) die vereist zijn om de &quot;beste&quot; ervaring te vinden. Het resultaat is dat de markeerstift de resultaten handmatig moet analyseren om de &quot;beste&quot; ervaring te bepalen.
 
 Automatisch toewijzen voert alle impliciete vergelijkingen tussen ervaringen uit en levert een &quot;echte&quot; winnaar op. Er bestaat geen begrip van een &quot;controle&quot;ervaring in de test.
 
@@ -75,7 +74,7 @@ De illustratie toont hoe het verkeer dat aan elke ervaring wordt toegewezen zich
 
 | Rond | Beschrijving |
 |--- |--- |
-| ![Warm-omhoog rond](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Warm-omhoog rond (0)**: Tijdens de opwarmen ronde, krijgt elke ervaring gelijke verkeerstoewijzing tot elke ervaring in de activiteit een minimum van 1.000 bezoekers en 50 omzettingen heeft.<ul><li>Ervaring A=25%</li><li>Ervaring B=25%</li><li>Ervaring C=25%</li><li>Ervaring D=25%</li></ul>Nadat elke ervaring 1.000 bezoekers en 50 omzettingen krijgt, begint Doel geautomatiseerde verkeerstoewijzing. Alle toewijzingen vinden plaats in rondes en voor elke ronde worden twee ervaringen gekozen.<br>Slechts twee ervaringen gaan verder in de volgende ronde: D en C.<br>Vooruit bewegen betekent dat de twee ervaringen 80% van het verkeer gelijkelijk worden toegewezen, terwijl de andere twee ervaringen blijven deelnemen, maar slechts dienen als deel van de 20% willekeurige verkeersverdeling wanneer nieuwe bezoekers de activiteit betreden.<br>Alle toewijzingen worden elk uur bijgewerkt (weergegeven aan de hand van rondes langs de x-as hierboven). Na elke ronde worden de cumulatieve gegevens vergeleken. |
+| ![Warm-omhoog rond](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Warm-omhoog rond (0)**: Tijdens de opwarmen ronde, krijgt elke ervaring gelijke verkeerstoewijzing tot elke ervaring in de activiteit een minimum van 1.000 bezoekers en 50 omzettingen heeft.<ul><li>Ervaring A=25%</li><li>Ervaring B=25%</li><li>Ervaring C=25%</li><li>Ervaring D=25%</li></ul>Nadat elke ervaring 1.000 bezoekers en 50 omzettingen krijgt, begint Target geautomatiseerde verkeerstoewijzing. Alle toewijzingen vinden plaats in rondes en voor elke ronde worden twee ervaringen gekozen.<br>Slechts twee ervaringen gaan verder in de volgende ronde: D en C.<br>Vooruit bewegen betekent dat de twee ervaringen 80% van het verkeer gelijkelijk worden toegewezen, terwijl de andere twee ervaringen blijven deelnemen, maar slechts dienen als deel van de 20% willekeurige verkeersverdeling wanneer nieuwe bezoekers de activiteit betreden.<br>Alle toewijzingen worden elk uur bijgewerkt (weergegeven aan de hand van rondes langs de x-as hierboven). Na elke ronde worden de cumulatieve gegevens vergeleken. |
 | ![Afgerond 1](/help/c-activities/automated-traffic-allocation/assets/aa-phase-1.png) | **Rond 1**: Tijdens deze ronde wordt 80% van het verkeer toegewezen aan ervaringen C en D (elk 40%). 20% van het verkeer wordt willekeurig toegewezen aan ervaringen A, B, C, en D (elk 5%). Tijdens deze ronde presteert A goed.<ul><li>Het algoritme plukt ervaring D om zich in de volgende ronde vooruit te bewegen omdat het de hoogste omzettingspercentage heeft (zoals die door op de verticale schaal van elke activiteit wordt vermeld).</li><li>Het algoritme plukt ervaring A om zich ook vooruit te bewegen omdat het de hoogste bovengrens van Bernstein 95% betrouwbaarheidsinterval van de resterende ervaringen heeft.</li></ul>De ervaringen D en A gaan verder. |
 | ![Rond 2](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **Rond 2**: Tijdens deze ronde wordt 80% van het verkeer toegewezen aan ervaringen A en D (elk 40%). 20% van het verkeer wordt willekeurig toegewezen, zodat A, B, C, en D elk 5% van het verkeer krijgen. Tijdens deze ronde functioneert ervaring B goed.<ul><li>Het algoritme plukt ervaring D om zich in de volgende ronde vooruit te bewegen omdat het de hoogste omzettingspercentage heeft (zoals die door op de verticale schaal van elke activiteit wordt vermeld).</li><li>Het algoritme plukt ervaring B om zich eveneens te bewegen omdat het de hoogste bovengrens van Bernstein 95% betrouwbaarheidsinterval van de resterende ervaringen heeft.</li></ul>De ervaringen D en B gaan verder. |
 | ![Rond 3](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **Rond 3**: Tijdens deze ronde wordt 80% van het verkeer toegewezen aan ervaringen B en D (40% elk). 20% van het verkeer wordt willekeurig toegewezen, zodat A, B, C, en D elk 5% van het verkeer krijgen. Tijdens deze ronde blijft de ervaring D goed presteren en de ervaring C functioneert goed.<ul><li>Het algoritme plukt ervaring D om zich in de volgende ronde vooruit te bewegen omdat het de hoogste omzettingspercentage heeft (zoals die door op de verticale schaal van elke activiteit wordt vermeld).</li><li>Het algoritme plukt ervaring C om zich eveneens te bewegen omdat het de hoogste bovengrens van Bernstein 95% betrouwbaarheidsinterval van de resterende ervaringen heeft.</li></ul>De ervaringen D en C gaan verder. |
@@ -91,10 +90,6 @@ Nadat het model voor een auto-Wijs activiteit klaar is (elke ervaring heeft een 
 * Opties wijzigen in het deelvenster Geavanceerde instellingen
 
 ## Caveats {#section_5C83F89F85C14FD181930AA420435E1D}
-
-**Automatische toewijzing van A/B-activiteiten wordt niet meer ondersteund in Analytics for Target (A4T)**
-
-Met de release van 16.10.1.0 (25 oktober 2016) biedt Target geen ondersteuning voor Analytics als een rapportagebron voor de toekomstige Auto-Allocate A/B-activiteiten. Om het even welke actieve auto-Wijs A/B activiteiten met A4T toegelaten zal op Handwijze (gelijke verkeerstoewijzing) worden geschakeld.
 
 **De functie Automatisch toewijzen werkt met slechts één geavanceerde metrische instelling: Aantal verhogen en Gebruiker in activiteit houden**
 
@@ -131,6 +126,10 @@ Deze kunnen de resultaten bij een autotoewijzing meer scheeftrekken dan bij een 
    Zo geeft &#39;30% verkoop eindigt vandaag&#39; de bezoeker de boodschap om te zetten, maar &#39;50% korting op eerste aankoop&#39; geeft niet hetzelfde gevoel van urgentie.
 
 ## Veelgestelde vragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** Steunt Analytics for Target (A4T) Auto-Allocate activiteiten?
+
+Ja. Zie [Analytics for Target (A4T)-ondersteuning voor Auto-Allocate-activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie.
 
 **Worden de terugkerende bezoekers automatisch opnieuw toegewezen aan hoog presterende ervaringen?**
 
@@ -195,7 +194,7 @@ Deze video omvat informatie over vestiging verkeerstoewijzing.
 
 ### Een ![zelfstudie-badge voor A/B-tests maken (8:36)](/help/assets/tutorial.png)
 
-In deze video ziet u hoe u een A/B-test maakt met behulp van de driestapige workflow met instructies voor het doel. De geautomatiseerde verkeerstoewijzing wordt besproken beginnend bij 4:45.
+In deze video ziet u hoe u een A/B-test maakt met behulp van de driestappenworkflow met instructies voor Target. De geautomatiseerde verkeerstoewijzing wordt besproken beginnend bij 4:45.
 
 * A/B-activiteit maken in Adobe Target
 * Verkeer toewijzen met een handmatige splitsing of automatische verkeerstoewijzing
