@@ -5,9 +5,9 @@ title: Bedrijfsmachtigingen configureren
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # ![PREMIUM](/help/assets/premium.png) -bedrijfsmachtigingen configureren{#configure-enterprise-permissions}
 
 Informatie over de taken die vereist zijn om gebruikers aan uw [!DNL Target] implementatie toe te voegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de [!DNL Target] implementatie bijwerken en de `at_property` parameter opnemen; en geef rollen en machtigingen op.
+
+>[!NOTE]
+>
+>De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 >[!NOTE]
 >
