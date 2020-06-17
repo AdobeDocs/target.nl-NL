@@ -5,9 +5,9 @@ title: CNAME en Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Voer de volgende stappen uit om CNAME-ondersteuning aan te vragen in [!DNL Targe
 
 1. Bepaal de lijst met hostnamen die u nodig hebt voor uw SSL-certificaat (zie Veelgestelde vragen).
 
-1. Voor elke hostname, creeer een verslag van de NAAM in uw DNS richtend aan uw regelmatige [!DNL Target] hostname `clientcode.tt.omtrdc.net`. Bijvoorbeeld, als uw cliëntcode klant is en uw voorgestelde hostname is `target.example.com`, zou uw DNS CNAME- verslag iets als dit moeten kijken:
+1. Voor elke hostname, creeer een verslag van de NAAM in uw DNS richtend aan uw regelmatige [!DNL Target] hostname `clientcode.tt.omtrdc.net`.
+
+   Bijvoorbeeld, als uw cliëntcode &quot;klant&quot;is en uw voorgestelde hostname is `target.example.com`, zou uw DNS CNAME- verslag iets als dit moeten kijken:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -31,10 +33,10 @@ Voer de volgende stappen uit om CNAME-ondersteuning aan te vragen in [!DNL Targe
 
    >[!NOTE]
    >
-   >* DigiCert, de certificeringsinstantie van Adobe, kan pas een certificaat uitgeven nadat deze stap is voltooid. Adobe kan daarom uw verzoek om een CNAME-implementatie pas uitvoeren nadat deze stap is voltooid.
+   >* DigiCert, de certificeringsinstantie van Adobe, kan pas een certificaat uitgeven als deze stap is voltooid. Daarom kan Adobe uw verzoek om een implementatie van CNAME niet vervullen tot deze stap volledig is.
 
 
-1. Vul het volgende formulier in en neem het op wanneer u een Adobe Client Care-ticket [opent waarmee CNAME-ondersteuning](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C)wordt aangevraagd:
+1. Vul het volgende formulier in en neem het op wanneer u een Adobe Client Care-ticket [opent waarmee CNAME-ondersteuning](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)wordt aangevraagd:
 
    * Adobe- [!DNL Target] clientcode:
    * SSL-certificaathostnamen (voorbeeld: `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Voer de volgende stappen uit om CNAME-ondersteuning aan te vragen in [!DNL Targe
 
 1. Als Adobe het certificaat aanschaft, werkt Adobe samen met DigiCert om uw certificaat aan te schaffen en te implementeren op de productieservers van Adobe.
 
-   Als de klant het certificaat (BYOC) aanschaft, stuurt Adobe Client Care u het CSR-bestand (Certificate Signing Request) terug dat u moet gebruiken wanneer u het certificaat aanschaft via de certificeringsinstantie naar keuze. Zodra het certificaat is uitgegeven, zult u een exemplaar van het certificaat en om het even welke tussencertificaten terug naar de Zorg van de Cliënt van Adobe voor plaatsing moeten verzenden.
+   Als de klant het certificaat (BYOC) aanschaft, zal de Zorg van de Cliënt van Adobe u het certificaat verzenden ondertekenend verzoek (CSR), dat u zult moeten gebruiken wanneer het kopen van het certificaat door uw certificaatgezag van keus. Nadat het certificaat is uitgegeven, moet u een exemplaar van het certificaat en om het even welke tussencertificaten terug naar de Zorg van de Cliënt van Adobe voor plaatsing verzenden.
 
    Adobe Client Care brengt u op de hoogte wanneer uw implementatie gereed is.
 
@@ -90,11 +92,11 @@ Zie [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-targe
 
 ### Welk soort de dienstverstoringen kan ik verwachten wanneer mijn implementatie CNAME wordt opgesteld?
 
-Er is geen de dienstverstoring wanneer het certificaat wordt opgesteld (met inbegrip van certificaatvernieuwingen). Wanneer u echter de hostnaam in de Target-implementatiecode (`serverDomain` in at.js) wijzigt in de nieuwe CNAME-hostnaam (`target.example.com`), behandelen webbrowsers terugkerende bezoekers als nieuwe bezoekers en gaan hun profielgegevens verloren omdat het vorige cookie vanwege beveiligingsmodellen van de browser niet meer toegankelijk is onder de oude hostnaam (`clientcode.tt.omtrdc.net`). Dit is een eenmalig onderbreking slechts op de aanvankelijke besnoeiing-over aan nieuwe CNAME, hebben de certificaatvernieuwingen niet het zelfde effect aangezien hostname niet verandert.
+Er is geen de dienstverstoring wanneer het certificaat wordt opgesteld (met inbegrip van certificaatvernieuwingen). Wanneer u echter de hostnaam in uw [!DNL Target] implementatiecode (`serverDomain` in at.js) wijzigt in de nieuwe CNAME-hostnaam (`target.example.com`), behandelen webbrowsers terugkerende bezoekers als nieuwe bezoekers en gaan hun profielgegevens verloren omdat het vorige cookie vanwege beveiligingsmodellen van de browser niet meer toegankelijk is onder de oude hostnaam (`clientcode.tt.omtrdc.net`). Dit is een eenmalig onderbreking slechts op de aanvankelijke besnoeiing-over aan nieuwe CNAME. De vernieuwingen van certificaten hebben niet hetzelfde effect omdat de hostnaam niet verandert.
 
 ### Welk zeer belangrijk type en algoritme van de certificaathandtekening voor mijn implementatie CNAME zal worden gebruikt?
 
-Alle certificaten zijn RSA SHA-256 en de sleutels zijn RSA 2048 beetje door gebrek. Toetsgrootten die groter zijn dan 2048 bits, worden momenteel niet ondersteund.
+Alle certificaten zijn RSA SHA-256 en de sleutels zijn RSA 2048 beetje, door gebrek. Toetsgrootten die groter zijn dan 2048 bits, worden momenteel niet ondersteund.
 
 ### Kan Adobe/DigiCert de DCV-e-mails naar een ander e-mailadres verzenden `<someone>@example.com`?
 
