@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Gebruikers{#users}
 
 U kunt gebruikers toevoegen en hun toestemmingen in [!DNL Adobe Admin Console]beheren.
+
+>[!NOTE]
+>
+>De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 >[!NOTE]
 >
@@ -29,7 +33,7 @@ U kunt gebruikers toevoegen en hun toestemmingen in [!DNL Adobe Admin Console]be
 * **[!DNL Target]Premium-klanten **: Als u het[!UICONTROL Users]tabblad en het[!UICONTROL Properties]tabblad ([!UICONTROL Administration > Properties]) ziet, heeft uw organisatie een[!DNL Target]Premium-licentie.[!DNL Target]Premiumklanten moeten de instructies in de gebruikersrechten[van de](/help/administrating-target/c-user-management/property-channel/property-channel.md)Enterprise opvolgen en bedrijfsmachtigingen[](/help/administrating-target/c-user-management/property-channel/properties-overview.md)configureren om gebruikers toe te voegen en machtigingen in de[!DNL Adobe Admin Console]Enterprise toe te wijzen.
 >
 >
-Zie [Producten en profielen](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) beheren in de gebruikershandleiding *voor* bedrijven en teams voor gedetailleerde informatie over het beheren van gebruikers en machtigingen.
+Zie [Producten en profielen](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) beheren in de gebruikershandleiding voor *bedrijven en teams voor gedetailleerde informatie over het beheren van gebruikers en machtigingen*.
 
 Wanneer u aan de slag gaat met [!DNL Adobe Target], worden de id&#39;s (eindigend op Adobe.com) vooraf ingevuld in uw [!DNL Adobe Experience Cloud] account. Deze id&#39;s zijn bestemd voor leden van [!DNL Adobe] teams, zodat zij u kunnen helpen met uw nieuwe account en met uw gebruik van [!DNL Adobe Target], mocht u hulp nodig hebben. Als u hulp nodig hebt, kunt u op de gebruikelijke manier contact opnemen met uw Adobe-teams.
 
