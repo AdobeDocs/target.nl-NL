@@ -5,9 +5,9 @@ title: Machtigingen voor Enterprise-gebruikers
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2924'
+source-wordcount: '2972'
 ht-degree: 0%
 
 ---
@@ -278,9 +278,13 @@ Overweeg het volgende scenario (van toepassing op zowel at.js als mbox.js):
 
 Wanneer een bezoeker Pagina1 in browser opent, wordt hij of zij opnieuw gericht aan Pagina2. Omdat Pagina2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van Target geen kliksporen in zijn reactie.
 
-Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
+Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
 
-## Trainingsvideo: Trainingbadge ![overzicht van Enterprise-machtigingen](/help/assets/overview.png)
+## Trainingsvideo&#39;s
+
+De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
+
+### Trainingsvideo: Trainingbadge ![overzicht van Enterprise-machtigingen](/help/assets/overview.png)
 
 Leerdoelstellingen:
 
@@ -289,3 +293,14 @@ Leerdoelstellingen:
 * Verschillende eigenschappenvoorbeelden voor uw organisatie
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Kantooruren: Target Premium-werkruimten
+
+Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leiding van het team van de klantenservice van Adobe.
+
+* Een werkruimte maken (productprofiel)
+* Eigenschappen maken
+* Gebruikers toevoegen
+* Implementatie bijwerken
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
