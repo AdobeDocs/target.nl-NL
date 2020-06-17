@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 # Documentatiewijzigingen{#documentation-changes}
 
 Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productdocumentatie zijn aangebracht.
+
+## Adobe Target Standard/Premium 20.5.1 (17 juni 2020)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 17 juni | [Activiteitenschepping](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Extra informatie over Analytics for Target (A4T) steun voor auto-Toewijzing activiteiten. |
+|  | [Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Toegevoegde informatie over de nieuwe [!UICONTROL Publisher] rol onder *Specificeer rollen en toestemmingen*. |
+|  | [Bedrijfsmachtigingen configureren](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Toegevoegde informatie over de nieuwe [!UICONTROL Publisher] rol onder *Stap 6: Geef rollen en machtigingen* op. |
+|  | [Machtigingen voor Enterprise-gebruikers](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Toegevoegde koppeling naar de *kantooruren: Target Premium Workspaces-sessie*. |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.5.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 20.4.1 (6 mei 2020)
 
