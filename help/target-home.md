@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target-productdocumentatie
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 15 juni 2020 ([zie wat er is veranderd](r-release-notes/doc-change.md))**
+**Laatst bijgewerkt: 17 juni 2020 ([zie wat er is veranderd](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ In de volgende secties wordt verwezen naar handige koppelingen in deze handleidi
 - [Alle Target-gebruikers](#all)
 - [Marketers](#marketers)
 - [Ontwikkelaars](#developers)
-- [Target- en Adobe Experience Cloud-beheerders](#admins)
+- [Beheerders van Target en Adobe Experience Cloud](#admins)
 - [Analysefuncties](#analysts)
 - [QA-ingenieurs](#qa)
 
@@ -38,7 +38,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 - [Opmerkingen](r-release-notes/release-notes.md)bij de release van Target: Bevat informatie over de huidige versie, informatie over bekende kwesties die [!DNL Target], een lijst van belangrijke veranderingen in deze documentatie, en een archief van vroegere versienota&#39;s beïnvloeden.
 - [Inleiding tot Target](c-intro/intro.md): Verklaart de kernconcepten van de [!DNL Target] oplossing.
-- Integreer Target met Adobe Experience Cloud: Hierin wordt uitgelegd hoe u [!DNL Target] met andere [!DNL Experience Cloud] oplossingen kunt integreren, zoals [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)en de [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
+- Integreer Target met de Adobe Experience Cloud: Hierin wordt uitgelegd hoe u [!DNL Target] met andere [!DNL Experience Cloud] oplossingen kunt integreren, zoals [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)en de [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
 - [Zelfstudies](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)voor Adobe Target: Biedt zelfstudies en video&#39;s om u te helpen optimaal te profiteren van Target.
 - [Problemen met Target](r-troubleshooting-target/troubleshooting-target.md)oplossen: Verzekert verbindingen met het oplossen van problemeninformatie in deze gids, met inbegrip van informatie over de karaktergrenzen en andere grenzen (aanbieding grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Target]de
 - [Target voor mobiele apps](c-target-mobile-app/target-mobile-app.md): Hierin wordt beschreven hoe u toepassingen voor mobiele apparaten kunt optimaliseren en aanpassen aan uw wensen. [!DNL Target]
@@ -60,7 +60,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 - [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/): Beschrijft de middelen die omhoog de officiële API van de Aanbevelingen van Adobe Target maken.
 - [Target Adobe.IO-documentatie](http://developers.adobetarget.com/api/#introduction): Hierin wordt beschreven hoe u de API&#39;s Admin en Profile REST van Target gebruikt voor het beheer van activiteiten, publiek, aanbiedingen, eigenschappen, rapporten, vakken, omgevingen en profielen met behulp van de integratie Adobe.IO.
 
-## Target- en Adobe Experience Cloud-beheerders {#admins}
+## Beheerders van Target en Adobe Experience Cloud {#admins}
 
 - [Target](administrating-target/administrating-target.md)toedienen: Verklaart hoe te om gebruikers toe te voegen en uw [!DNL Target] rekening te vormen.
 
@@ -77,4 +77,4 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 | Help bij Adobe- [!DNL Target] oplossingen | [!DNL Adobe Experience Cloud] bronnen |
 |--- |--- |
-| <ul><li>[Adobe Target - Meer informatie en ondersteuning](https://helpx.adobe.com/support/target.html)</li><li>[Premium-aanbevelingen](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API-documentatie](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Opmerkingen bij de release van Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud-documentatie](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe Training en zelfstudies](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target - Meer informatie en ondersteuning](https://helpx.adobe.com/support/target.html)</li><li>[Premium-aanbevelingen](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API-documentatie](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Opmerkingen bij de release van Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentatie voor Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe Training en zelfstudies](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
