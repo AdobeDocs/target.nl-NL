@@ -1,20 +1,27 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Bepaal een winnaar in een Auto-Wijs A/B activiteit door indicatoren in het Doel UI te bekijken.
+description: Bepaal een winnaar in een Auto-Wijs A/B activiteit door indicatoren in Target UI te bekijken.
 title: Een winnaar bepalen
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 0%
 
 ---
 
 
 # Rapporten automatisch toewijzen interpreteren {#determine-a-winner}
 
-Interpreeer de resultaten van een auto-Wijs A/B activiteit door belangrijke indicatoren, met inbegrip van lift en vertrouwen, in het Doel UI te onderzoeken.
+Interpreteer de resultaten van een automatisch toegewezen A/B-activiteit door belangrijke indicatoren, waaronder lift en vertrouwen, in de gebruikersinterface van Target te onderzoeken.
 
 Veel marketeers maken de fout om voortijdig een winnende ervaring te declareren voordat de resultaten de duidelijke winnaar aangeven. We hebben het nu gemakkelijker voor je gemaakt om de winnaar te bepalen.
+
+>[!NOTE]
+>
+>Zie [Tien gemeenschappelijke testvalkuilen voor A/B en hoe u deze](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)kunt voorkomen voor algemene informatie over het aangeven van de winnaar.
 
 ## De winnende ervaring identificeren {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -24,7 +31,7 @@ Wanneer het gebruiken van de [!UICONTROL Auto-Allocate] eigenschap, [!DNL Target
 
 Wanneer een duidelijke winnaar wordt gedeclareerd, wordt &quot;Winner: [!DNL Target] Beleef X.&quot;
 
-![](assets/auto_traffic_winner.png)
+![](assets/winner.png)
 
 >[!NOTE]
 >
@@ -40,17 +47,9 @@ In de kolom Vertrouwd in een activiteit voor automatisch toewijzen (zie hieronde
 
 Normale A/B-tests berekenen het vertrouwen op basis van p-waarden. Automatisch toewijzen gebruikt geen p-waarden. P-waarden berekenen de waarschijnlijkheid dat een bepaalde ervaring verschilt van het besturingselement. Deze p-waarden kunnen slechts worden gebruikt om te bepalen of een ervaring van de controle zou kunnen verschillend zijn. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
 
-In de volgende afbeelding ziet u een activiteit die nog geen winnaar heeft:
-
-![](assets/no_winner.png)
-
-In de volgende afbeelding ziet u een activiteit met de winnende bieder:
-
-![](assets/winner_found.png)
-
 >[!IMPORTANT]
 >
->Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; het uiteindelijke besluit om de winnaar te kiezen, moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target- [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Het doel houdt geen rekening met de basisomrekeningskoersen van een site en andere belangrijke aspecten die in de calculator worden ingevoerd om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)voor meer informatie.
+>Target toont een winnaar na een vooraf gedefinieerd minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target- [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Target houdt geen rekening met de basisomrekeningskoersen van een locatie en andere belangrijke aspecten die in de rekenmachine worden verwerkt om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target op basis van een minimumaantal omzettingen eerder een winnaar weergeven dan gerechtvaardigd is. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)voor meer informatie.
 
 ## Informatie over de rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen {#lift-confidence}
 
