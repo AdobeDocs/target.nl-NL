@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 | Target-bibliotheek in gebruik | Voorgestelde handelingen |
 |--- |--- |
 | at.js | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)van de Versie.<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Bepaalde plug-ins die afhankelijk zijn van interne methoden die in mbox.js bestaan, maar niet in at.js, worden geleverd, maar mislukken. Zie [Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)in.js voor meer informatie. |
-| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en respontokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Target Classic (november 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande plugins uit te geven of onbruikbaar te maken. U moet de insteekmodules hebben gecontroleerd voordat Target Classic is vervangen en ongewenste insteekmodules hebben uitgeschakeld.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en reactietokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Target Classic (november 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande plugins uit te geven of onbruikbaar te maken. U moet de insteekmodules hebben gecontroleerd voordat Target Classic is vervangen en ongewenste insteekmodules hebben uitgeschakeld.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
 ## Reactiepunten gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -62,6 +62,8 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
    |  | `profile.categoryAffinities` | Retourneert een array van de bovenste 5 categorieën van de bezoeker als tekenreeksen. |
    | Activiteit | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Details van de huidige activiteit. Merk op dat &quot;optie&quot;&quot;voorstel&quot;evenaart. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Zie [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) voor meer informatie over het gebruiken van geo richten in activiteiten. |
+   | Verkeerstoewijzingsmethode<br>is alleen van toepassing op [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten. | `experience.trafficAllocationId` | Keert 0 terug als een bezoeker een ervaring van het zijn in &quot;controle&quot;verkeer en 1 ontving als een bezoeker een ervaring van de &quot;gerichte&quot;verkeersdistributie ontving. |
+   |  | `experience.trafficAllocationType` | Retourneer respectievelijk &quot;control&quot; en &quot;target&quot;. |
 
    Kenmerken van gebruikersprofielen en Klantkenmerken worden ook in de lijst weergegeven.
 
