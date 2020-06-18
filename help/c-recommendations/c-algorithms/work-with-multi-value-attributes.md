@@ -1,9 +1,12 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Informatie over het werken met een veld met meerdere waarden in Adobe Target-aanbevelingen met behulp van speciale operatoren voor meerdere waarden.
-title: Werken met attributen met meerdere waarden in Adobe Target Aanbevelingen
+description: Informatie over het werken met een veld met meerdere waarden in Adobe Target Recommendations met behulp van speciale operatoren voor meerdere waarden.
+title: Werken met kenmerken van meerdere waarden in Adobe Target-aanbevelingen
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +70,7 @@ De volgende operatoren zijn beschikbaar voor gebruik met multi-value entiteit-, 
 
 >[!NOTE]
 >
->Ondersteuning voor dynamische overeenkomst met kenmerken van meerdere waarden is momenteel alleen beschikbaar op basis van criteria bij het gebruik van een profielkenmerk dat overeenkomt met of parameterkenmerk dat overeenkomt met de regel bij het vergelijken van één waarde aan de linkerkant naar een meerwaarde aan de rechterkant. Ondersteuning voor promoties, overeenkomsten tussen entiteitskenmerken en voor lijsten aan de linkerkant van de regels voor inclusie zal begin 2020 beschikbaar zijn.
+>Ondersteuning voor dynamische overeenkomst met kenmerken van meerdere waarden is momenteel alleen beschikbaar op basis van criteria bij het gebruik van een profielkenmerk dat overeenkomt met of parameterkenmerk dat overeenkomt met de regel bij het vergelijken van één waarde aan de linkerkant naar een meerwaarde aan de rechterkant. Attributen met meerdere waarden worden momenteel niet ondersteund in promoties, overeenkomsten tussen entiteitskenmerken of voor lijsten aan de linkerkant van insluitingsregels.
 
 
 ### Voorbeeld: Onlangs gevolgde objecten uitsluiten
