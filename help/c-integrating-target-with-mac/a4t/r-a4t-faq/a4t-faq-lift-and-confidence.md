@@ -1,13 +1,13 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
-description: Dit onderwerp bevat antwoorden op vragen die vaak over lift en vertrouwen worden gevraagd wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
+description: Dit onderwerp bevat antwoorden op vragen die vaak over lift en vertrouwen worden gevraagd wanneer het gebruiken van Analytics als rapporteringsbron voor Target (A4T).
 title: Optillen en vertrouwen - A4T veelgestelde vragen
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Optillen en vertrouwen - A4T veelgestelde vragen{#lift-and-confidence-a-t-faq}
 
-Dit onderwerp bevat antwoorden op vragen die vaak over lift en vertrouwen worden gevraagd wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
+Dit onderwerp bevat antwoorden op vragen die vaak over lift en vertrouwen worden gevraagd wanneer het gebruiken van Analytics als rapporteringsbron voor Target (A4T).
 
 ## Kan ik off-line berekeningen voor A4T uitvoeren? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics]. Voor meer informatie, zie &quot;het Uitvoeren Offline Berekeningen voor Analytics voor Doel (A4T)&quot;in het Niveau van het [Vertrouwen en het Interval](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)van het Vertrouwen.
+U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor Analytics for Target (A4T)&quot; in [Vertrouwensniveau en Vertrouwensinterval](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)voor meer informatie.
 
 ## Hoe wordt lift berekend? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -31,20 +31,18 @@ Het betrouwbaarheidsniveau is de waarschijnlijkheid dat de gemeten omrekeningsko
 
 ## Waarom kan ik geen lift en vertrouwen zien op berekende maatstaven? {#lift-confidence}
 
-Berekende metriek worden momenteel niet ondersteund in lift- en betrouwbaarheidsfuncties. Dit komt door het feit dat Analytics meetgegevens berekent op geaggregeerd niveau, in plaats van op bezoekersniveau. Vertrouwen is met name een berekening op bezoekersniveau.
+Berekende metriek worden momenteel niet ondersteund in lift- en betrouwbaarheidsfuncties. Dit komt door het feit dat Analytics de meetgegevens op geaggregeerd niveau berekent in plaats van op bezoekersniveau. Vertrouwen is met name een berekening op bezoekersniveau.
 
 Niet-berekende (standaard)gebeurtenissen worden ondersteund in lift en betrouwbaarheid. Zij worden de teller in de lift functie; de teller kan geen berekening zelf zijn. De noemer is de normaliserende metriek (indrukkingen, bezoeken, of bezoekers). Voorbeelden van standaardgebeurtenissen zijn onder andere orders, inkomsten, conversies van activiteiten, aangepaste gebeurtenissen 1-1000, enz. Dit betekent dat gemeenschappelijke optimalisatiemetriek, zoals gesprekstarief (Orders/Bezoeker) en RPV (Inkomsten/Bezoeker) in lift en vertrouwen worden gesteund.
 
 Voorbeelden van niet-ondersteunde metriek- of gebruiksgevallen zijn:
 
 * Gemiddelde bestelwaarde (inkomsten/bestelling, per bezoeker). AOV wordt niet ondersteund omdat de teller een berekende metrische waarde is. In plaats daarvan wordt aanbevolen de twee bepalende meeteenheden van AOV - inkomsten per bezoeker en conversietarief in overweging te nemen.
-* Berekende metriek die de som standaardgebeurtenissen zijn. U kunt bijvoorbeeld tien verschillende hoofdformulieren bijhouden in tien aparte gebeurtenissen en deze vervolgens bij elkaar voegen om de totale aantal hoofdinzendingen op te halen. Een aanbevolen methode om deze gebeurtenissen te volgen, is het implementeren van één enkele gebeurtenis voor het verzenden van leads in Analytics en vervolgens het gebruik van een eVar om het type loodformulier te verzamelen. Het gebruik van deze methode vereist minder variabelen en zorgt ervoor dat u de enige metrische voorlegging van het lood in lift en vertrouwelijkheidsfuncties kunt gebruiken.
+* Berekende metriek die de som standaardgebeurtenissen zijn. U kunt bijvoorbeeld tien verschillende hoofdformulieren bijhouden in tien aparte gebeurtenissen en deze vervolgens bij elkaar voegen om de totale aantal hoofdinzendingen op te halen. Een aanbevolen methode om deze gebeurtenissen te volgen, is het implementeren van één enkele gebeurtenis voor het verzenden van leads in Analytics en vervolgens het gebruik van een eVar voor het verzamelen van het type loodformulier. Het gebruik van deze methode vereist minder variabelen en zorgt ervoor dat u de enige metrische voorlegging van het lood in lift en vertrouwelijkheidsfuncties kunt gebruiken.
 
 ## Hoe verwerkt A4T betrouwbaarheidsberekeningen? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T gebruikt niet-binaire metrische berekeningen met de som van vierkante gegevens. De variantie wordt berekend met de som van de gegevens van de vierkanten. Extreme bestellingen worden niet in aanmerking genomen.
-
-Om het even welk segment van Analytics kan op het rapport worden toegepast. Zo krijgt u de &quot;extreme volgorde&quot; onder andere segmentopties. Een metrische waarde kan ook worden gemaakt om het aantal keren dat een bezoeker heeft geconverteerd te beperken.
+A4T gebruikt niet-binaire metrische berekeningen met de som van vierkante gegevens. De variantie wordt berekend met de som van de gegevens van de vierkanten. Extreme bestellingen worden niet in aanmerking genomen. Bovendien wordt bij de betrouwbaarheidsberekening geen Bonferroni-correctie toegepast voor meerdere aanbiedingen.
 
 ## Werken optillen en vertrouwen in Ad Hoc en Report Builder? Als het niet inheems is, kan ik het daar zelf doen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
