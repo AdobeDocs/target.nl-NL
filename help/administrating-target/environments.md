@@ -5,9 +5,9 @@ title: Omgevingen
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,11 @@ Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheid
 >
 >De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
-Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u rapportgegevens door milieu ook scheiden.
-
-Een [gastheer](/help/administrating-target/hosts.md) is om het even welke Webserver (of Webdomein) van waar u inhoud tijdens om het even welk stadium van uw project dient. Elke host die een box bedient, wordt herkend.
-
 Gastheren worden gebundeld in omgevingen voor eenvoudig beheer. U hebt bijvoorbeeld tientallen hosts gegroepeerd in twee of drie omgevingen. De vooraf ingestelde omgevingen omvatten [!UICONTROL Production], [!UICONTROL Staging]en [!UICONTROL Development]. U kunt nieuwe omgevingen toevoegen en desgewenst de naam van uw omgeving wijzigen.
 
 Eén omgeving, de standaardomgeving, heeft een voornaam [!UICONTROL Production]. Deze standaardomgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. [!DNL Target] Hierbij gaat u ervan uit dat u de laatste, goedgekeurde activiteiten en tests zult uitvoeren.
 
 Wanneer een mbox verzoek van nieuwe websites of domeinen wordt ontvangen, verschijnen deze nieuwe domeinen altijd in het [!UICONTROL Production] milieu. De instellingen van de [!UICONTROL Production] omgeving kunnen niet worden gewijzigd. Onbekende of nieuwe sites kunnen alleen inhoud zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
-
-[!DNL Target] beperkt een gastheer niet die dozen kan verzenden en ontvangen, zodat wanneer de nieuwe servers of domeinen verschijnen, werken zij automatisch (tenzij u opstelling een allowlist of blocklist). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
 
 Klik op **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
@@ -60,8 +54,7 @@ De standaardomgeving voor rapportage instellen:
 
 ## De naam van een omgeving wijzigen {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klik in de [!UICONTROL Environment] lijst op de **[!UICONTROL Environments]** tab.
-1. Klik op het **[!UICONTROL Edit]** pictogram.
+1. Klik in de [!UICONTROL Environment] lijst op het **[!UICONTROL Edit]** pictogram.
 1. Wijzig de naam van de omgeving.
 1. Klik op **[!UICONTROL Save]**.
 
