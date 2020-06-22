@@ -4,9 +4,9 @@ description: Configureer de Adobe Target Visual Experience Composer (VEC) door d
 title: De Adobe Target Visual Experience Composer configureren
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Vorm Composer van de Visuele Ervaring
 
 Configureer de [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
+
+>[!NOTE]
+>
+>De onderwerpen in deze sectie, die hieronder worden vermeld, zijn bijgewerkt om u een sluimerpiek bij de veranderingen te geven die van UI in [!DNL Target Standard/Premium] 20.6.1 versie (juli 2020) komen. De meeste informatie die in deze onderwerpen wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Klik op [!UICONTROL Visual Experience Composer] > **[!UICONTROL Administration]** **[!UICONTROL Visual Experience Composer].**
 
@@ -38,15 +42,15 @@ Stel de standaard-URL in die door de [!UICONTROL Visual Experience Composer]URL 
 
 ### Enhanced Experience Composer inschakelen
 
-Hiermee kunt u iFrame-sites en sites met gemengde inhoud bewerken. Sommige sites zijn mogelijk niet compatibel met de verbeterde versie. Schakel deze optie uit om terug te keren naar de originele composer voor visuele ervaring. Deze keuze heeft geen invloed op de levering van activiteiten op sites.
+Hiermee kunt u iFrame-sites en sites met gemengde inhoud bewerken. Sommige sites zijn mogelijk niet compatibel met de verbeterde versie. Schakel deze optie uit om terug te keren naar het origineel [!UICONTROL Visual Experience Composer]. Deze keuze heeft geen invloed op de levering van activiteiten op sites.
 
 Voor meer informatie, zie het Oplossen van [problemen de Visuele Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)van de Ervaring.
 
-U kunt ook de Enhanced Experience Composer inschakelen op activiteitsniveau.
+U kunt het ook inschakelen [!UICONTROL Enhanced Experience Composer] op het activiteitsniveau.
 
 ### Gemengde inhoud laden
 
-Schakel gemengde inhoud in terwijl u een website opent met de Enhanced Experience Composer (EEC). Als u deze optie inschakelt, voorkomt u de extra overhead van het laden van statische bronnen via [!DNL Target] proxyservers.
+Gemengde inhoud inschakelen bij het openen van een website met behulp van [!UICONTROL Enhanced Experience Composer] (EEG). Als u deze optie inschakelt, voorkomt u de extra overhead van het laden van statische bronnen via [!DNL Target] proxyservers.
 
 Deze optie is bijvoorbeeld handig als:
 
