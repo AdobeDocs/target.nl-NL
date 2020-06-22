@@ -5,7 +5,7 @@ title: Target implementeren
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Implementatie
 
-Voordat u begint te gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen, vertrouwd zijn met de manier waarop [!DNL Adobe Target]het programma werkt en integreert met uw infrastructuur en begrijpen hoe bezoekers door het [!DNL Target] [!DNL Target] systeem worden gevolgd.
+Voordat u begint te gebruiken, moet u [!DNL Adobe Target]het programma implementeren op uw site en een aantal basisbeginselen en -termen begrijpen. vertrouwd zijn met de werking van en de integratie met uw infrastructuur; [!DNL Target] en begrijpen hoe bezoekers door het [!DNL Target] systeem worden gevolgd.
 
 Zie de verschillende onderwerpen onder Target [](/help/c-implementing-target/implementing-target.md)implementeren voor meer informatie.
 
