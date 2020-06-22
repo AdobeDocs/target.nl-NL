@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,18 @@ De nieuwe gebruiker wordt pas op de [!UICONTROL Users] pagina weergegeven wannee
 Standaard beginnen alle [!DNL Target] gebruikers met waarnemersmachtigingen.
 
 De gebruikers van Admin worden geïdentificeerd in de [!UICONTROL Users] lijst. Neem contact op met een van de gebruikers van de systeembeheerder als u uw toegangsniveau wilt wijzigen.
+
+## Gebruikersgegevens weergeven vanuit Target
+
+U kunt een lijst weergeven van uw huidige gebruikers in uw Target-omgeving, inclusief hun rollen per werkruimte en e-mailadressen, rechtstreeks vanuit Target.
+
+Klik op **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
+
+![Gebruikerslijst vanuit Target](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+
+>[!NOTE]
+>
+>Als u bestaande gebruikers wilt beheren of nieuwe gebruikers wilt toevoegen, moet u de toepassing gebruiken, [!UICONTROL Adobe Admin Console]zoals hieronder wordt uitgelegd.
 
 ## De Adobe-Admin Console openen {#access}
 
