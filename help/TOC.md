@@ -1,47 +1,47 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Help bij Adobe Target
+user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
 
 
-# Help bij Adobe Target {#using}
+# Adobe Target Help {#using}
 
-+ [Adobe Target - productdocumentatie](target-home.md)
-+ Opmerkingen bij de doelversie {#release-notes}
-   + [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md)
-   + [Opmerkingen bij de doelversie (huidig)](r-release-notes/release-notes.md)
-   + [Opmerkingen bij de release Doel (preRelease)](r-release-notes/target-release-notes.md)
-   + [Nieuwsbrief Target Insider](/help/r-release-notes/target-insider-newsletter.md)
++ [Adobe Target-productdocumentatie](target-home.md)
++ Opmerkingen bij de release van Target {#release-notes}
+   + [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md)
+   + [Opmerkingen bij de release van Target (huidige)](r-release-notes/release-notes.md)
+   + [Opmerkingen bij de release van Target (preRelease)](r-release-notes/target-release-notes.md)
+   + [Target Insider-nieuwsbrief](/help/r-release-notes/target-insider-newsletter.md)
    + [Bekende problemen en opgeloste problemen](r-release-notes/known-issues-resolved-issues.md)
    + [Systeemstatusupdates en proactieve meldingen](r-release-notes/system-status-updates.md)
    + [Documentatiewijzigingen](r-release-notes/doc-change.md)
    + [Opmerkingen bij de release van vorige releases](r-release-notes/release-notes-for-previous-releases.md)
 + Inleiding {#introduction}
-   + [Inleiding tot doel](c-intro/intro.md)
-   + [Toegang tot doel via de Adobe Experience Cloud](c-intro/target-access-from-mac.md)
-   + [Doelsleutelbegrippen](c-intro/target-key-concepts.md)
+   + [Inleiding tot Target](c-intro/intro.md)
+   + [Target openen vanuit de Adobe Experience Cloud](c-intro/target-access-from-mac.md)
+   + [Target-sleutelbegrippen](c-intro/target-key-concepts.md)
    + [Verklarende woordenlijst](c-intro/glossary.md)
-   + [De werking van Adobe Target](c-intro/how-target-works.md)
+   + [Hoe Adobe Target werkt](c-intro/how-target-works.md)
    + [Opleiding en certificering](c-intro/training-and-certification.md)
    + [Trainingsvideo&#39;s voor Adobe Target Standard en Premium](c-intro/target-standard-premium-training-videos.md)
-   + [Veelgestelde vragen over optimalisatie en personalisatie](c-intro/cmp-target-standard-cheatsheet.md)
-+ Doel beheren {#administer}
-   + [Doeloverzicht beheren](administrating-target/administrating-target.md)
+   + [Veelgestelde vragen over Target-optimalisatie en personalisatie](c-intro/cmp-target-standard-cheatsheet.md)
++ Target beheren {#administer}
+   + [Target-overzicht beheren](administrating-target/administrating-target.md)
    + [Eerste stappen van beheerder](administrating-target/start-target.md)
    + [Vorm Composer van de Visuele Ervaring](/help/administrating-target/visual-experience-composer-set-up.md)
    + Rapportage {#reporting}
       + [Rapportage configureren](/help/administrating-target/reporting.md)
       + [Schatting van de opbrengst](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Dynamic Media Classic-integratie](administrating-target/scene7-settings.md)
+   + [Scene7-configuratie](administrating-target/scene7-settings.md)
    + [Implementatie](/help/administrating-target/implementation.md)
    + [Gastheren](administrating-target/hosts.md)
    + [Omgevingen](/help/administrating-target/environments.md)
@@ -55,37 +55,37 @@ ht-degree: 0%
          + [Machtigingen voor Enterprise-gebruikers](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Bedrijfsmachtigingen configureren](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-+ Doel implementeren {#implement-target}
-   + [Overzicht van doel implementeren](c-implementing-target/implementing-target.md)
++ Target implementeren {#implement-target}
+   + [Target-overzicht implementeren](c-implementing-target/implementing-target.md)
    + Voordat u implementeert {#before-implement}
       + [Voordat u implementeert](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Voorbereiden op implementatie van doel](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
+      + [Voorbereiden op implementatie van Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacy en beveiliging {#privacy}
          + [Privacyoverzicht](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Regels inzake privacy en gegevensbescherming](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
-         + [Het doelcookie verwijderen](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Het Target-cookie verwijderen](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite-cookiebeleid](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Inhoudsbeveiligingsbeleid (CSP)-instructies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Doelrandknooppunten toestaan](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
-      + Methoden om gegevens op te halen in Doel {#methods}
+         + [Target-randknooppunten toestaan](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+      + Methoden om gegevens in Target op te halen {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profiel-API-instellingen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Overzicht van doelbeveiliging](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [Target-beveiligingsoverzicht](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Ondersteunde browsers](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME en Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + Client-kant web: Doel implementeren {#client-side}
-      + [Overzicht: Doel voor client-side web implementeren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+   + Client-kant web: Target implementeren {#client-side}
+      + [Overzicht: Target for client-side web implementeren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + Hoe werkt at.js {#at-js}
          + [Overzicht van de werking van at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [Hoe at.js flikkering beheert](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
          + [at.js-integratie](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
       + Hoe te opstellen bij.js {#deploy-at-js}
          + [Hoe te opstellen bij.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-         + [Doel implementeren met Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-         + [Doel implementeren zonder tagbeheer](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-         + [Doel implementeren met dynamisch tagbeheer (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+         + [Target implementeren met Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+         + [Target implementeren zonder tagbeheer](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+         + [Target implementeren met Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [Toepassing van één pagina](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js-functies {#functions-overview}
          + [at.js, functieoverzicht](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
@@ -104,7 +104,7 @@ ht-degree: 0%
          + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [at.js, aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Foutopsporing in.js met Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-         + [Gebruik cloudgebaseerde instanties met Doel](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+         + [Gebruik cloudgebaseerde instanties met Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
       + at.js veelgestelde vragen {#faq-at-js}
          + [at.js Veelgestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [Algemene mbox Veelgestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
@@ -122,7 +122,7 @@ ht-degree: 0%
          + [Wat doet mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [mbox.js configureren](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [mbox.js downloaden](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
-         + [Methoden voor doelpagina&#39;s door bibliotheekversie mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
+         + [Target-paginamethoden van de bibliotheekversie mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
          + [Een bevestigingsbox voor bestellingen maken - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [mbox.js Veelgestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js, functies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
@@ -133,33 +133,33 @@ ht-degree: 0%
             + [Een globale box aanpassen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
             + [Een globale box uit een verouderde implementatie gebruiken](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
             + [Parameters doorgeven aan een globale box](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-   + Doel voor mobiele apps {#mobile-apps}
-      + [Overzicht van het doel voor mobiele apps](c-target-mobile-app/target-mobile-app.md)
+   + Target voor mobiele apps {#mobile-apps}
+      + [Overzicht van Target voor mobiele apps](c-target-mobile-app/target-mobile-app.md)
       + [Hoe Target werkt in mobiele apps](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-      + [Doel inschakelen in de SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
-      + [iOS - een doellocatie en succesmaatstaf maken](c-target-mobile-app/mobile-create-location-and-metric.md)
+      + [Target inschakelen in de SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
+      + [iOS - een Target-locatie en succesmetrisch maken](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - aangepaste gebruikersgegevens verzenden](c-target-mobile-app/mobile-custom-user-data.md)
       + [Activiteitsgegevens verzenden naar Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
-      + [Voorvertoning voor mobiele doelversie](c-target-mobile-app/target-mobile-preview.md)
+      + [Target Mobile-voorvertoning](c-target-mobile-app/target-mobile-preview.md)
       + [Prefetaanbiedingsinhoud](c-target-mobile-app/prefetch-offer-content.md)
-      + [Veelgestelde vragen over het doel voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Veelgestelde vragen over Target voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Locatieservice gebruiken](/help/c-target-mobile-app/use-location-service.md)
-   + Serverzijde: Doel implementeren {#server-side}
-      + [Opmerkingen bij de release - Doelserver-side API&#39;s](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Opmerkingen bij de release - Doel Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
-      + [Serverzijde: Implementatie van doeloverzicht](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Overgang van verouderde API&#39;s van Doel naar Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-   + E-mail: Doel implementeren {#implement-email}
-      + [E-mail: Implementatie van doeloverzicht](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
+   + Serverzijde: Target implementeren {#server-side}
+      + [Opmerkingen bij de release - Target server-side API&#39;s](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Opmerkingen bij de release - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Opmerkingen bij de release - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [Serverzijde: Target-overzicht implementeren](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [Overgang van verouderde API&#39;s van Target naar Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+   + E-mail: Target implementeren {#implement-email}
+      + [E-mail: Target-overzicht implementeren](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Een dialoogvenster maken voor een afbeelding](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Een e-mailafbeeldingsvenster testen](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Werken met directeuren](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Adobe Target integreren met de Experience Cloud {#integrate}
-   + Adobe Analytics als de rapportbron voor Adobe Target (A4T) {#a4t}
+   + Adobe Analytics als bron voor Adobe Target (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
       + [Voordat u implementeert](c-integrating-target-with-mac/a4t/before-implement.md)
-      + [Analyses voor doelimplementatie](c-integrating-target-with-mac/a4t/a4timplementation.md)
+      + [Implementatie van Analytics voor Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Vereisten voor gebruikerstoegang](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [Activiteitenschepping](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Een Analytics-trackingserver gebruiken](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
@@ -177,14 +177,14 @@ ht-degree: 0%
          + [Opgeblazen bezoek en aantal bezoekers - A4T Veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Classificaties - A4T Veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Metriek, publiek en rapporten delen - Veelgestelde vragen voor A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-         + [Legacy SiteCatalyst om integratie te testen en te testen - veelgestelde vragen voor A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
-      + [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + [Cloud-publiek beleven](c-integrating-target-with-mac/mmp.md)
-   + [Doel integreren met Adobe-campagne](c-integrating-target-with-mac/campaign-and-target.md)
+         + [Legacy SiteCatalyst om &amp;Target-integratie te testen - Veelgestelde vragen over A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+      + [Verwachte gegevensvariaties tussen Target en Analytics bij gebruik en niet bij gebruik van A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+   + [Experience Cloud-publiek](c-integrating-target-with-mac/mmp.md)
+   + [Target integreren met Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Activiteiten {#activities}
    + [Overzicht van activiteiten](c-activities/activities.md)
-   + [Doelactiviteitstypen](c-activities/target-activities-guide.md)
+   + [Target-activiteitstypen](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
       + [Overzicht van de A/B-test](c-activities/t-test-ab/test-ab.md)
       + [Hoelang moet u een A/B test in werking stellen?](c-activities/t-test-ab/sample-size-determination.md)
@@ -195,24 +195,24 @@ ht-degree: 0%
          + [Ervaring toevoegen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Doelgroep selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Doelstellingen en instellingen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Analysegegevens gebruiken](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
+         + [Analytics-gegevens gebruiken](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Metrisch instellen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Meerdere ervaringsdoelgroepen in een A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Automatisch toewijzen {#auto-allocate}
       + [Automatisch toewijzen](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner.md)
-   + [Automatisch doel](c-activities/auto-target-to-optimize.md)
+   + [Auto-Target](c-activities/auto-target-to-optimize.md)
    + Geautomatiseerde personalisatie {#automated-personalization}
       + [Overzicht van geautomatiseerde personalisatie](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Een Automated Personalization-activiteit maken](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Gegevens uploaden voor de Target personalization-algoritmen](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
-      + [Gegevensverzameling voor personalisatiealgoritmen van Target](c-activities/t-automated-personalization/ap-data.md)
+      + [Gegevens uploaden voor de Target-verpersoonlijkingsalgoritmen](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+      + [Gegevensverzameling voor Target-verpersoonlijkingsalgoritmen](c-activities/t-automated-personalization/ap-data.md)
       + [Schatting van het Verkeer Vereist voor Succes](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Voorvertoning van ervaringen weergeven voor een geautomatiseerde personalisatietest](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Aanbiedingen voor geautomatiseerde personalisatie van het doel](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target Automated Personalization biedt](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Selecteer de controle voor uw Geautomatiseerde Persoonlijke of Auto-Doelactiviteit](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Selecteer de controle voor je geautomatiseerde personalisatie- of Target-activiteit](c-activities/t-automated-personalization/experience-as-control.md)
       + [Veelgestelde vragen over geautomatiseerde personalisatie](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Voorvertoning van geautomatiseerde personalisatieactiviteiten weergeven met voorbeeld-URL&#39;s](c-activities/t-automated-personalization/experience-preview.md)
       + [Problemen met geautomatiseerde personalisatie oplossen](c-activities/t-automated-personalization/ap-trouble.md)
@@ -259,7 +259,7 @@ ht-degree: 0%
    + [Overzicht van soorten publiek](c-target/target.md)
    + Soorten publiek maken {#create-audiences}
       + [Maken](c-target/c-audiences/audiences.md)
-      + [Stimuleer publiek in doel](c-target/c-audiences/create-audience.md)
+      + [Stimuleer publiek in Target](c-target/c-audiences/create-audience.md)
       + Categorieën voor soorten publiek {#categories-audiences}
          + [Categorieën voor publiek overzicht](c-target/c-audiences/c-target-rules/target-rules.md)
          + [Browser](c-target/c-audiences/c-target-rules/browser.md)
@@ -269,7 +269,7 @@ ht-degree: 0%
          + [Mobiel](c-target/c-audiences/c-target-rules/mobile.md)
          + [Besturingssysteem](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Sitepagina&#39;s](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Doelbibliotheek](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Target Library](c-target/c-audiences/c-target-rules/target-library.md)
          + [Tijdschema](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Verkeersbronnen](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Bezoekerprofiel](c-target/c-audiences/c-target-rules/visitor-profile.md)
@@ -334,7 +334,7 @@ ht-degree: 0%
       + [Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Meerdere metriek in een rapport weergeven](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Extreme waarden uitsluiten](c-reports/c-report-settings/excluding-extreme-orders.md)
-   + [Samenvattingsrapport voor automatisch doel](c-reports/auto-target-summary-report.md)
+   + [Samenvattingsrapport van Auto-Target](c-reports/auto-target-summary-report.md)
    + [Samenvattingsrapporten voor geautomatiseerde personalisatie](c-reports/reports-ap.md)
    + Verslag over persoonlijke inzichten {#insights}
       + [Overzicht van rapporten over persoonlijke inzichten](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
@@ -343,7 +343,7 @@ ht-degree: 0%
    + [Rapportgroepen aanbieden in Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
    + [Experience Performance Report (MVT)](c-reports/experience-performance-report.md)
    + [Locatiebijdrage (MVT)](c-reports/location-contribution-report.md)
-   + [Analyses voor doelrapportage (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
+   + [Rapportering Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
    + [Omrekeningskoers](c-reports/conversion-rate.md)
    + [Gegevens downloaden in een CSV-bestand](c-reports/downloading-data-in-csv-file.md)
    + [Veelgestelde vragen over rapportage](c-reports/reporting-frequently-asked-questions.md)
@@ -383,9 +383,9 @@ ht-degree: 0%
       + [Veelgestelde vragen over aanbevelingen](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Aanbevelingen integreren met e-mail](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [IP adressen die door de input-verwerkingsservers van Aanbevelingen worden gebruikt](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
-      + [Activiteiten op het gebied van Aanbevelingen Klassieke versus Aanbevelingen in Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+      + [Activiteiten in Target Premium op basis van aanbevelingen versus aanbevelingen](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
    + [Aanbevelingen Klassieke documentatie](/help/c-recommendations/recommendations-classic-documentaton.md)
-+ Doel oplossen {#troubleshoot}
-   + [Doel oplossen](r-troubleshooting-target/troubleshooting-target.md)
++ Problemen met Target oplossen {#troubleshoot}
+   + [Problemen met Target oplossen](r-troubleshooting-target/troubleshooting-target.md)
    + [Limieten](r-troubleshooting-target/target-limits.md)
 + [Bronnen en contactgegevens](cmp-resources-and-contact-information.md)
