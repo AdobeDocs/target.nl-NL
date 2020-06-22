@@ -5,9 +5,9 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,6 @@ Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheid
 Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u rapportgegevens door [milieu](/help/administrating-target/environments.md)ook scheiden.
 
 Een host is een willekeurige webserver (of een webdomein) van waaruit u inhoud tijdens een van de fasen van uw project kunt leveren. Elke host die een box bedient, wordt herkend.
-
-Gastheren worden gebundeld in omgevingen voor eenvoudig beheer. U hebt bijvoorbeeld tientallen hosts gegroepeerd in twee of drie omgevingen. De vooraf ingestelde omgevingen omvatten [!UICONTROL Production], [!UICONTROL Staging]en [!UICONTROL Development]. U kunt nieuwe omgevingen toevoegen en desgewenst de naam van uw omgeving wijzigen.
-
-Eén omgeving, de standaardomgeving, heeft een voornaam [!UICONTROL Production]. Deze standaardomgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. [!DNL Target] Hierbij gaat u ervan uit dat u de laatste, goedgekeurde activiteiten en tests zult uitvoeren.
-
-Wanneer een mbox verzoek van nieuwe websites of domeinen wordt ontvangen, verschijnen deze nieuwe domeinen altijd in het [!UICONTROL Production] milieu. De instellingen van de [!UICONTROL Production] omgeving kunnen niet worden gewijzigd. Onbekende of nieuwe sites kunnen alleen inhoud zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
 
 [!DNL Target] beperkt een gastheer niet die dozen kan verzenden en ontvangen, zodat wanneer de nieuwe servers of domeinen verschijnen, werken zij automatisch (tenzij u opstelling een allowlist of blocklist). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
 
@@ -62,7 +56,7 @@ Nadat een gastheer aan de [!UICONTROL Host] lijst wordt toegevoegd, zorg ervoor 
 
    Standaard wordt een nieuw herkende host in de [!UICONTROL Production] omgeving geplaatst. Dit is het veiligste milieu omdat het inactieve activiteiten niet om van deze gastheren toelaat worden bekeken.
 
-1. (Voorwaardelijk) klik het pictogram van de Beweging ( ![bewegingspictogram](/help/administrating-target/assets/icon-move.png) ) om de gastheer in het [!UICONTROL Development], [!UICONTROL Staging], of andere milieu te bewegen.
+1. (Voorwaardelijk) Klik op het **[!UICONTROL Move]** pictogram ( ![verplaatsingspictogram](/help/administrating-target/assets/icon-move.png) ) om de host naar de [!UICONTROL Development], [!UICONTROL Staging]of andere omgeving te verplaatsen.
 
 >[!NOTE]
 >
@@ -122,8 +116,6 @@ U kunt een host verwijderen wanneer deze niet meer nodig is.
 >De host wordt opnieuw weergegeven als iemand naar een pagina met een maffout op de host bladert.
 
 ## Problemen met hosts oplossen {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-Aanbevolen procedures voor het beheren en oplossen van problemen van hosts in [!DNL Adobe Target].
 
 Probeer de volgende tips voor het oplossen van problemen als u problemen ondervindt met uw hosts:
 
