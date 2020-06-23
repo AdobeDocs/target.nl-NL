@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 17 juni 2020**
+**Laatst bijgewerkt: 23 juni 2020**
 
 Zie Opmerkingen bij de release van [Target voor informatie over de huidige release](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -35,19 +35,45 @@ Zie Opmerkingen bij de release van [Target voor informatie over de huidige relea
 * **Aankondigingen** van Target: Zie de Target-aankondigingspagina voor informatie over aanstaande gebeurtenissen, zoals Target Skill Builder-sessies, ontwikkelaarstekkers, webinars en Target Coffee Break-sessies. Zie [Target-aankondigingen](/help/r-release-notes/target-announcements.md)voor meer informatie.
 
 
-## Target Standard/Premium 20.5.1 (17 juni 2020)
+## Target Standard/Premium 20.6.1 (juli 2020, exacte datum TBD)
 
-| Functie/verbetering | Beschrijving |
-| --- | --- |
-| Analytics for Target (A4T)-ondersteuning voor [!UICONTROL Auto-Allocate] activiteiten | [!UICONTROL Auto-Allocate] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Deze integratie staat u toe om het [!UICONTROL Auto-Allocate] multi-gewapende bandit vermogen te gebruiken om verkeer aan het winnen van ervaringen te drijven, terwijl het gebruiken van een [!UICONTROL Adobe Analytics] doel metrisch en/of [!UICONTROL Adobe Analytics] rapporteringsen analysemogelijkheden.<br>Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar!<br>Zie [Analytics for Target (A4T)-ondersteuning voor Auto-Allocate-activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie. |
-| De tokens van de reactie voor de Methode van de Toewijzing van het Verkeer voor auto-Target en Geautomatiseerde Personalisatieactiviteiten | Er zijn twee [reactietokens](/help/administrating-target/response-tokens.md) toegevoegd aan [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten om te kunnen bepalen of een bezoeker een bepaalde ervaring heeft opgedaan als gevolg van zijn toewijzing aan &quot;controle&quot; of aan &quot;gericht&quot; verkeer.<ul><li>`experience.trafficAllocationId` 0 als een bezoeker ervaring heeft opgedaan met &quot;controle&quot;-verkeer en 1 als een bezoeker een ervaring heeft opgedaan met &quot;gerichte&quot; verkeersdistributie.</li><li>`experience.trafficAllocationType` retourneert &quot;control&quot; of &quot;target&quot;.</li></ul>Voor meer informatie over controle versus gericht verkeer, zie [Selecteer de controle voor uw Geautomatiseerde Personalisatie of auto-Target activiteit](/help/c-activities/t-automated-personalization/experience-as-control.md). |
-| [!UICONTROL Publisher] rol | Deze nieuwe rol is vergelijkbaar met de huidige [!UICONTROL Observer] rol (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De [!UICONTROL Publisher] rol heeft echter de extra toestemming om activiteiten te activeren.<br>Zie voor meer informatie: <ul><li>**Target Standard-gebruikers**: [Geef rollen en machtigingen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) op in *Gebruikers*.</li><li>**Target Premium-gebruikers**: [Stap 6: Specificeer rollen en toestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configure ondernemingstoestemmingen*.</li></ul> |
-| A4T-ondersteuning op 25 [!DNL Analysis Workspace]<br>juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wordt nu ondersteund in [!DNL Analysis Workspace]. Met [!UICONTROL Analytics for Target (A4T) panel] deze functie kunt u uw [!DNL Adobe Target] activiteiten en ervaringen analyseren in [!DNL Analysis Workspace].<br>Zie [Rapporten in Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) in *A4T-rapportage* en het deelvenster [Target (A4T) in de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics Tools Guide ** voor meer informatie. |
+Deze release bevat de volgende verbeteringen:
 
-### Verbeteringen, correcties en wijzigingen
+### Analytics for Target (A4T)-ondersteuning voor [!UICONTROL Auto-Target] activiteiten
 
-* Probleem verholpen waarbij de metrische waarde &quot;bezoekers&quot; werd opgeslagen in de definitie van de activiteit in plaats van &quot;UniqueVisitors&quot;. (TGT-37098)
-* Probleem verholpen in de [!DNL Target] gebruikersinterface die ervoor zorgde dat de verticale schuifbalk niet correct op de [!UICONTROL Audiences] pagina werkte. (TGT-36968)
+[!UICONTROL Auto-Target] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+
+Deze integratie maakt gebruik van geavanceerd leren van computers en maakt gebruik van meerdere veelzijdige, door markers gedefinieerde ervaringen om inhoud en schijfconversies aan te passen. Auto-Target biedt iedere bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen.
+
+Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B-testactiviteiten, bent u klaar!
+
+### [!UICONTROL Administration] sectie-UI vernieuwen
+
+We hebben de [!UICONTROL Administration] sectie (voorheen [!UICONTROL Admin]) en de bijbehorende pagina&#39;s bijgewerkt om uw workflows eenvoudiger en efficiënter te maken.
+
+Tot de hooglichten behoren:
+
+* **[!UICONTROL Visual Experience Composer]pagina **: Met deze nieuwe pagina (**[!UICONTROL Administration]**>**[!UICONTROL Visual Experience Composer]**) kunt u:
+
+   * Vorm algemene montages voor VEC (specificeer standaard URL, laat de [!UICONTROL Enhanced Experience Composer], ladings gemengde inhoud toe, en produceer ervaringsmomentopnamen in het diagram van de activiteitenstroom)
+   * Mobiele viewports configureren
+   * CSS-kiezers configureren
+
+* **[!UICONTROL Reporting]pagina **: Met deze nieuwe pagina (**[!UICONTROL Administration]**>**[!UICONTROL Reporting]**) kunt u algemene instellingen configureren voor[!DNL Target]rapportage die van toepassing zijn op uw gehele[!DNL Target]account.
+
+   Beschikbare instellingen zijn:
+
+   * De [!DNL Adobe Experience Cloud] oplossing voor rapportage
+   * De tijdzone die moet worden gebruikt voor rapportage
+   * De valuta die moet worden gebruikt voor rapportage
+   * IP adressen om van rapportering uit te sluiten
+   * Of een geraamde toename van de inkomsten in de rapportage moet worden weergegeven
+   * Of fijnkorrelige prioriteiten mogelijk moeten worden gemaakt
+
+* De vorige [!UICONTROL Hosts] pagina is opgedeeld in twee nieuwe pagina&#39;s:
+
+   * [!UICONTROL Hosts]
+   * [!UICONTROL Environments]
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
