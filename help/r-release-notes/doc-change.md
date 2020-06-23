@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 23 juni | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het Adobe Target Coffee Break van 24 juni. |
+|  | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | Opmerking toegevoegd: het wordt niet aanbevolen afhankelijke profielscripts te maken die het resultaat van een profielscript in een ander profielscript gebruiken. |
 | 17 juni | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
 |  | [Reactietokens](/help/administrating-target/response-tokens.md) | Toegevoegde informatie over reactietokens voor de Methode van de Toewijzing van het Verkeer voor [!UICONTROL Auto-Target] [!UICONTROL Automated Personalization] en activiteiten. |
 |  | [Activiteitenschepping](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Extra informatie over Analytics for Target (A4T) steun voor auto-Toewijzing activiteiten. |
