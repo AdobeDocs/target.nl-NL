@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -59,30 +59,6 @@ Als onderdeel van deze vernieuwing kunt u gemakkelijk veel handelingen uitvoeren
 * IP-adressen van bezoekers om privacyredenen verduisteren (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
 * Bekijk de bestaande lijst met gebruikers per werkruimte en hun rollen voordat u deze in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**) beheert.
 * Alle tabellen in de [!UICONTROL Administration] sectie zoeken en filteren.
-
-Belangrijke wijzigingen zijn:
-
-* **[!UICONTROL Visual Experience Composer]pagina **: Met deze nieuwe pagina (**[!UICONTROL Administration]**>**[!UICONTROL Visual Experience Composer]**) kunt u:
-
-   * Vorm algemene montages voor VEC (specificeer standaard URL, laat de [!UICONTROL Enhanced Experience Composer], ladings gemengde inhoud toe, en produceer ervaringsmomentopnamen in het diagram van de activiteitenstroom)
-   * Mobiele viewports configureren
-   * CSS-kiezers configureren
-
-* **[!UICONTROL Reporting]pagina **: Met deze nieuwe pagina (**[!UICONTROL Administration]**>**[!UICONTROL Reporting]**) kunt u algemene instellingen configureren voor[!DNL Target]rapportage die van toepassing zijn op uw gehele[!DNL Target]account.
-
-   Beschikbare instellingen zijn:
-
-   * De [!DNL Adobe Experience Cloud] oplossing voor rapportage
-   * De tijdzone die moet worden gebruikt voor rapportage
-   * De valuta die moet worden gebruikt voor rapportage
-   * IP adressen om van rapportering uit te sluiten
-   * Of een geraamde toename van de inkomsten in de rapportage moet worden weergegeven
-   * Of fijnkorrelige prioriteiten mogelijk moeten worden gemaakt
-
-* De vorige [!UICONTROL Hosts] pagina is opgedeeld in twee nieuwe pagina&#39;s:
-
-   * [!UICONTROL Hosts]
-   * [!UICONTROL Environments]
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
