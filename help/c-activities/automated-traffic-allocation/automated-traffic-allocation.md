@@ -5,9 +5,9 @@ title: Automatisch toewijzen
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3022'
+source-wordcount: '3009'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ De illustratie toont hoe het verkeer dat aan elke ervaring wordt toegewezen zich
 
 Als de activiteit slechts twee ervaringen heeft, krijgen allebei gelijk verkeer tot Target een ervaring met 90% vertrouwen vindt. Op dat moment wordt 70% van het verkeer toegewezen aan de winnaar en 30% aan de verliezer. Nadat die ervaring 95% betrouwbaarheid heeft bereikt, wordt 100% van het verkeer toegewezen aan de winnaar en 0% aan de verliezer.
 
-Nadat het model voor een auto-Wijs activiteit klaar is (elke ervaring heeft een minimum van 1.000 bezoekers en 50 omzettingen), worden de volgende verrichtingen van UI niet toegestaan:
+Nadat een [!UICONTROL Auto-Allocate] activiteit wordt geactiveerd, zijn de volgende verrichtingen van UI niet toegestaan:
 
 * De modus &quot;Verkeerstoewijzing&quot; omzetten in &quot;Handmatig&quot;
 * Het metrische type van het doel wijzigen
@@ -137,7 +137,7 @@ Nee. Alleen nieuwe bezoekers worden automatisch toegewezen. De terugkerende bezo
 
 **Hoe behandelt het algoritme valse positieven?**
 
-Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten opzichte van false als u wacht tot de winnaar wordt weergegeven.
+Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten onrechte als u wacht tot de winnaar-badge wordt weergegeven.
 
 **Wanneer begint de auto-Toewijzing verkeer toe te wijzen?**
 
