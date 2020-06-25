@@ -5,7 +5,10 @@ title: Trainingsvideo's voor Adobe Target Standard en Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Bekijk trainingsvideo&#39;s om u te helpen optimaal te profiteren van Target Sta
 
 Video&#39;s zijn beschikbaar in de volgende categorieën:
 
-* Ervaar de cloud en algemene mogelijkheden
+* Experience Cloud en algemene mogelijkheden
 * Activiteiten maken
 * Soorten publiek en doelgroepen
 * Beheer van bedrijfsmiddelen
@@ -30,12 +33,12 @@ Trainingsvideo&#39;s worden ingesloten in relevante onderwerpen in deze handleid
 
 ## Adobe Target - Lesbestanden en video&#39;s
 
-Op de pagina [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) vindt u een verzameling instructievideo&#39;s en zelfstudies die de mogelijkheden van Target benadrukken.
+Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies waarin de mogelijkheden van Target op de pagina Experience League [van](https://guided.adobe.com/#recommended/solutions/target) Adobe Target worden belicht.
 
 ![Video&#39;s van Experience League](/help/c-intro/assets/experience-league.png)
 
-## Adobe-doelzelfstudies {#tutorials}
+## Adobe Target-zelfstudies {#tutorials}
 
-Introducties van video&#39;s naar [!DNL Target] concepten en gereedschappen zijn beschikbaar op de pagina [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) .
+Video-introducties over [!DNL Target] concepten en gereedschappen zijn beschikbaar op de pagina [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) .
 
-![Adobe-doelzelfstudies](/help/c-intro/assets/adobe-target-tutorials-new.png)
+![Adobe Target-zelfstudies](/help/c-intro/assets/adobe-target-tutorials-new.png)
