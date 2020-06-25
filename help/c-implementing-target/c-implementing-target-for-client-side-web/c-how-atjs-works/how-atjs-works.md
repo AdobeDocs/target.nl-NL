@@ -5,9 +5,9 @@ title: De werking van de JavaScript-bibliotheek Adobe Target at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 | 5 | Analytics-gegevens verzonden naar gegevensverzamelingsservers. |
 | 6 | Target-gegevens worden gekoppeld aan Analytics-gegevens via de SDID en worden verwerkt in de Analytics-rapportageopslag. Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via A4T-rapporten. |
 
-### bij.js 2.x architecturaal diagram ![Overzicht badge](/help/assets/overview.png)
+### Video - op.js 2.x architecturaal diagram
 
 at.js 2.x verbetert de steun van Adobe Target voor SPAs en integreert met andere oplossingen van Experience Cloud. In deze video wordt uitgelegd hoe alles bij elkaar komt.
 
@@ -85,7 +85,7 @@ Zie [Begrijpen hoe at.js 2.x voor meer informatie werkt](https://helpx.adobe.com
 | 5 | Op basis van de URL, de parameters mbox en de profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker. | 6 | Gerichte inhoud wordt teruggestuurd naar pagina, met eventueel ook profielwaarden voor extra personalisatie.<br>De ervaring wordt zo snel mogelijk getoond zonder flikkering van standaardinhoud. |
 | 7 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. | 8 | [!DNL Target] gegevens worden met behulp van de SDID aan [!DNL Analytics] gegevens aangepast en worden in de [!DNL Analytics] rapportageopslag verwerkt.<br>[!DNL Analytics] gegevens kunnen vervolgens zowel in [!DNL Analytics] als [!DNL Target] via [!DNL Analytics for Target] (A4T) rapporten worden bekeken. |
 
-### Kantooruren: tips en een overzicht van 26 juni 2019 ![Zelfstudie](/help/assets/tutorial.png)
+### Video - kantooruren: tips en overzicht op .js (26 juni 2019)
 
 Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leiding van het team van de klantenservice van Adobe.
 
