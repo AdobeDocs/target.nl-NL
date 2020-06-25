@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 25 juni | [Opmerkingen bij de release van Target (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de Target Standard/Premium 20.6.1-release (juli 2020). |
 | 23 juni | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het Adobe Target Coffee Break van 24 juni. |
 |  | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | Opmerking toegevoegd: het wordt niet aanbevolen afhankelijke profielscripts te maken die het resultaat van een profielscript in een ander profielscript gebruiken. |
 |  | [Hoe werkt at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | De volgende video is toegevoegd: Kantooruren: tips en overzicht op.js |
