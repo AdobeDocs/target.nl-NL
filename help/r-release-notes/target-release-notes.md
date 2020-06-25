@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,6 @@ Zie Opmerkingen bij de release van [Target voor informatie over de huidige relea
 ## Target Standard/Premium 20.7.1 (21 juli 2020)
 
 Deze release bevat de volgende verbeteringen:
-
-### Analytics for Target (A4T)-ondersteuning voor [!UICONTROL Auto-Target] activiteiten
-
-[!UICONTROL Auto-Target] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
-
-Deze integratie maakt gebruik van geavanceerd leren van computers en maakt gebruik van meerdere veelzijdige, door markers gedefinieerde ervaringen om inhoud en schijfconversies aan te passen. Auto-Target biedt iedere bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen.
-
-Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B-testactiviteiten, bent u klaar!
 
 ### [!UICONTROL Administration] sectie-UI vernieuwen
 
