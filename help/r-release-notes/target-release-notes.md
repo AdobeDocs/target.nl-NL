@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Zie Opmerkingen bij de release van [Target voor informatie over de huidige relea
 * **Aankondigingen** van Target: Zie de Target-aankondigingspagina voor informatie over aanstaande gebeurtenissen, zoals Target Skill Builder-sessies, ontwikkelaarstekkers, webinars en Target Coffee Break-sessies. Zie [Target-aankondigingen](/help/r-release-notes/target-announcements.md)voor meer informatie.
 
 
-## Target Standard/Premium 20.6.1 (juli 2020, exacte datum TBD)
+## Target Standard/Premium 20.7.1 (21 juli 2020)
 
 Deze release bevat de volgende verbeteringen:
 
