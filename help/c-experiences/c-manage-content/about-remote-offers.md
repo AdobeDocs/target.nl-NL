@@ -1,18 +1,21 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Gebruik externe aanbiedingen om inhoud te hosten buiten het doel waarvoor het doel verwijst en die aan websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
+description: Gebruik externe aanbiedingen om inhoud buiten Target te hosten die door Target naar websites van gebruikers wordt verwezen en aan hen wordt geleverd. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
 title: Externe aanbiedingen maken
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 1%
 
 ---
 
 
 # Externe aanbiedingen maken{#create-remote-offers}
 
-Gebruik externe aanbiedingen om inhoud te hosten buiten het doel waarvoor het doel verwijst en die aan websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
+Gebruik externe aanbiedingen om inhoud buiten Target te hosten die door Target naar websites van gebruikers wordt verwezen en aan hen wordt geleverd. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
 
 >[!NOTE]
 >
@@ -43,8 +46,8 @@ Voorbeelden van externe aanbiedingen zijn:
 
    | Option | Beschrijving |
    |--- |--- |
-   | cachegeheugen | De inhoud voor een externe aanbieding in cache wordt aangeboden bij Target.<br>Om de twee uur [!DNL Target] haalt u de inhoud op bij de externe URL en slaat u de inhoud vervolgens op in Target. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door Target.<br>Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zich heeft aangemeld bijTarget de inhoud niet kan wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.<br>U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst. |
-   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door Target.<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens door Target leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding omvat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch, of verschillend, voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik [!UICONTROL Add Parameter] om een of meer parameters toe te voegen. |
+   | cachegeheugen | De inhoud voor een aanbieding op afstand in de cache wordt vanuit Target aangeboden.<br>Om de twee uur [!DNL Target] haalt u de inhoud op bij de externe URL en slaat u de inhoud vervolgens op in Target. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door Target.<br>Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zich heeft aangemeld bijTarget de inhoud niet kan wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.<br>U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst. |
+   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door Target.<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens door Target leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch, of verschillend, voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik [!UICONTROL Add Parameter] om een of meer parameters toe te voegen. |
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -78,6 +81,6 @@ Met de Matrix Selectie voor externe aanbiedingen kunt u bepalen welk type extern
 | Inhoud bijwerken | Wordt elke 2 uur in de cache geplaatst | Onmiddellijk bijgewerkt na elk verzoek |
 | Tijdstip van laden | Sneller | Langzamer vanwege verwerking van aanvragen |
 | Kan JavaScript op pagina zien | Ja | Nee, maar kan wel via URL worden doorgegeven |
-| Aanbiedingen kunnen JavaScript bevatten | Ja | Nee |
+| Aanbiedingen kunnen JavaScript bevatten | Ja | Ja |
 | Aanbiedings-URL | Absoluut of Relatief | Relatief |
 | De computer aanvragen | Adobe-servers | De computer van de bezoeker, die de cookies van de bezoeker draagt |
