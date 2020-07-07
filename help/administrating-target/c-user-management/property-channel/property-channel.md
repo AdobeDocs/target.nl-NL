@@ -5,9 +5,9 @@ title: Machtigingen voor Enterprise-gebruikers
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '2972'
+source-wordcount: '2975'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De eigenschappen zijn van nature gelijkaardig aan die binnen [!DNL Adobe Platfor
 
 Een webeigenschap is een bibliotheek met regels en één insluitcode. Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen zijn.
 
-De eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter met om het even welke vraag (mbox, api, enz.) toe te voegen naar [!DNL Target].
+De eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter met om het even welke vraag (de vraag van Target, api, enz.) toe te voegen naar [!DNL Target].
 
 Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, of API/Overige).
 
@@ -244,7 +244,7 @@ Houd rekening met het volgende wanneer u eigenschappen en machtigingen in [!DNL 
    * De activiteiten, het publiek, de codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar zullen deel van de StandaardWerkruimte uitmaken: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services en bronnen die via API zijn gemaakt. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
    * Aanbiedingen voor images (middelen die zijn opgeslagen onder `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kunnen momenteel niet worden beheerd door het machtigingenmodel voor ondernemingen.
    * clickTracking en redirects zullen slechts werken wanneer de bestemmingsverbinding of bestemmingspagina deel van een bezit uitmaken dat in de activiteit inbegrepen is. Bovendien, kan clickTracking niet werken wanneer het gebruiken van de `targetPageParams()` functie. De `targetPageParamsAll()` aanbevolen functie.
-   [!DNL Target] vereist momenteel dat er een `at_property` token aanwezig is op elke pagina waar tekstspatiëring plaatsvindt. Als het token (1) niet aanwezig is, (2) niet wordt gedetecteerd op het moment van instellen van de activiteit (binnen de VEC) of (3) niet wordt doorgegeven aan het clickTracking-vak via de `targetPageParamsAll()` functie, wordt de metrische waarde niet verhoogd en wordt deze weergegeven als &quot;0.&quot;
+   [!DNL Target] vereist momenteel dat er een `at_property` token aanwezig is op elke pagina waar tekstspatiëring plaatsvindt. Als het token (1) niet aanwezig is, (2) niet wordt gedetecteerd op het moment van instellen van de activiteit (binnen de VEC) of (3) niet wordt doorgegeven aan de clickTracking Target-aanroep via de `targetPageParamsAll()` functie, wordt de metrische waarde niet verhoogd en wordt deze weergegeven als &quot;0.&quot;
 
    Hetzelfde geldt voor activiteiten die omleidingen gebruiken. De bestemmingspagina moet een `at_property` teken hebben en op het tijdstip van opstelling binnen VEC worden erkend.
 
