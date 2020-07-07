@@ -5,9 +5,9 @@ title: Bedrijfsmachtigingen configureren
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Execu
 
 ## Stap 4. Eigenschappen maken {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-De eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter met om het even welke vraag (mbox, api, enz.) toe te voegen naar Target.
+De eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter met om het even welke vraag (de vraag van Target, api, enz.) toe te voegen naar Target.
 
 Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overige).
 
@@ -128,7 +128,7 @@ Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overig
 
 ## Stap 5: Werk uw implementatie bij om de parameter at_property op te nemen {#section_9B17A59807A94712BE642942442EBBC8}
 
-Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target] parameter aan om het even welke vraag toevoegen die `at_property` [!DNL Target] (mbox, api, enz.) raakt.
+Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target] parameter aan om het even welke vraag toevoegen die `at_property` [!DNL Target] (de vraag van Target, api, enz.) raakt.
 
 **U verkrijgt als volgt de`at_property`parametercode:**
 
