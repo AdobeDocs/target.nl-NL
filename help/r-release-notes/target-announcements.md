@@ -4,9 +4,9 @@ description: Informatie over komende gebeurtenissen, zoals Target Skill Builder-
 title: Target-aankondigingen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,21 @@ ht-degree: 0%
 
 Informatie over komende gebeurtenissen, zoals Target Skill Builder-sessies, ontwikkelaarstekkers, webinars en Target Coffee Break-sessies.
 
-## Adobe Target Koffie-einde voor vragen en antwoorden
+## Adobe Target Community - Koffiepauze voor vragen en antwoorden
 
-* **Woensdag 24 juni 2020**
-* **10:00 - 11:00 (PDT)**
+* **Woensdag 8 juli**
+* **10:00 - 11:00 (PST)**
 
-Ram Parthasarathy, ook bekend als @ram_adobe, Principal Product Manager voor [!DNL Adobe Experience Cloud]. Ram wordt aangemeld bij de website [!DNL Adobe Target Community] om rechtstreeks met u te chatten over uw [!DNL Target] vragen over zijn expertisegebieden:
+Samen met Rob Hornick, Senior Adobe Target Product Manager, die zich aanmeldt bij de Adobe Target Community om rechtstreeks met u te chatten over uw Target-vragen die betrekking hebben op zijn expertisegebied:
 
-* Algemene [!DNL Target] onderwerpen
-* Volgende beste aanbieding
-* Beslissing voorstel
+* Personalisatie
+* Machinaal leren en kunstmatige intelligentie
+* Aanbevelingen
+* Automatisch toewijzen
+* Auto-Target
+* Geautomatiseerde personalisatie
 
-Als je je wilt inschrijven, [ga je naar Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286).
+Als je je wilt inschrijven, [ga je naar Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558).
 
 ## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js {#skill-builder}
 
