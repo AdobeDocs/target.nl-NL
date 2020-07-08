@@ -1,11 +1,14 @@
 ---
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: De Adobe Target Visual Experience Composer (VEC) biedt een visuele interface voor het bewerken van de ervaringen op uw pagina in een Experience Targeting-activiteit (XT).
+description: De Adobe Target Visual Experience Composer (VEC) biedt een visuele interface voor het bewerken van de ervaringen op uw pagina in een Experience Targeting (XT)-activiteit.
 title: Ervaring maken
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    Terwijl u de elementen op de pagina plaatst, worden de elementen gemarkeerd. Om het even welk benadrukt element kan worden veranderd gebruikend VEC. Voor een lijst van acties die op een element kunnen worden uitgevoerd om de ervaring te veranderen, zie de Opties [van Composer van de](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)Visuele Ervaring.
 
-   Als u een mbox op de pagina gebruikend creeerde [!DNL Target Classic], verschijnt die mbox als element dat de mbox naam toont, en kan als om het even welk ander element worden gewijzigd.
+   Als u een [!DNL Target] verzoek op de pagina gebruikend creeerde [!DNL Target Classic], verschijnt dat [!DNL Target] verzoek als element dat de verzoeknaam toont, en kan als een ander element worden gewijzigd.
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie Meerdere soorten publiek [combineren voor meer informatie](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Wanneer u een publiek maakt, kunt u een locatie (mbox) selecteren en parameters voor die locatie opgeven. Selecteer onder [!UICONTROL Custom] (Audience maken > Regel toevoegen > Aangepast) het vak en geef vervolgens de gewenste parameters op.
+   Wanneer u een publiek maakt, kunt u een locatie selecteren en parameters voor die locatie opgeven. Selecteer onder [!UICONTROL Custom] (Audience maken > Regel toevoegen > Aangepast) de locatie en geef vervolgens de gewenste parameters op.
 
    >[!NOTE]
    >
