@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 | Target-bibliotheek in gebruik | Voorgestelde handelingen |
 |--- |--- |
 | at.js | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)van de Versie.<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Bepaalde plug-ins die afhankelijk zijn van interne methoden die in mbox.js bestaan, maar niet in at.js, worden geleverd, maar mislukken. Zie [Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)in.js voor meer informatie. |
-| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en respontokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Target Classic (november 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande plugins uit te geven of onbruikbaar te maken. U moet de insteekmodules hebben gecontroleerd voordat Target Classic is vervangen en ongewenste insteekmodules hebben uitgeschakeld.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en reactietokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Target Classic (november 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande plugins uit te geven of onbruikbaar te maken. U moet de insteekmodules hebben gecontroleerd voordat Target Classic is vervangen en ongewenste insteekmodules hebben uitgeschakeld.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
 ## Reactiepunten gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -51,7 +51,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 
    | Type | Parameter | Notities |
    |--- |--- |--- |
-   | Ingebouwde profielen | `profile.activeActivities` | Retourneert een array van de array waarvoor `activityIds` de bezoeker gekwalificeerd is. Dit neemt toe naarmate gebruikers gekwalificeerd zijn. Op een pagina met twee vakken die twee verschillende activiteiten uitvoeren, bevat het tweede vak bijvoorbeeld beide activiteiten. |
+   | Ingebouwde profielen | `profile.activeActivities` | Retourneert een array van de array waarvoor `activityIds` de bezoeker gekwalificeerd is. Dit neemt toe naarmate gebruikers gekwalificeerd zijn. Op een pagina met twee [!DNL Target] verzoeken die twee verschillende activiteiten uitvoeren, omvat het tweede verzoek bijvoorbeeld beide activiteiten. |
    |  | `profile.isFirstSession` | Retourneert &quot;true&quot; of &quot;false&quot;. |
    |  | `profile.isNewSession` | Retourneert &quot;true&quot; of &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Geeft als resultaat het aantal dagen sinds het laatste bezoek van de bezoeker. |
@@ -71,7 +71,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
    >
    >Parameters met speciale tekens worden niet in de lijst weergegeven. Alleen alfanumerieke tekens en onderstrepingstekens worden ondersteund.
 
-1. (Voorwaardelijk) Als u een profielparameter als reactietoken wilt gebruiken, maar de parameter is niet overgegaan door een mbox vraag en, zo, heeft niet geladen in Target UI, kunt u de [!UICONTROL Add Response Token] knoop gebruiken om het profiel aan UI toe te voegen.
+1. (Voorwaardelijk) Als u een profielparameter als reactietoken wilt gebruiken, maar de parameter niet door een [!DNL Target] verzoek is overgegaan en, zo, niet in Target UI geladen heeft, kunt u de [!UICONTROL Add Response Token] knoop gebruiken om het profiel aan UI toe te voegen.
 
    Klik **[!UICONTROL Add Response Token]**, geef de naam van het token op en klik op **[!UICONTROL Activate]**.
 
@@ -79,7 +79,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 
 1. Maak een activiteit.
 
-Gebruik aangepaste gebeurtenissen [](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js om te luisteren naar de mbox-reactie en de reactietokens te lezen.
+Gebruik aangepaste gebeurtenissen [](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js om te luisteren naar de [!DNL Target] reactie en de reactietokens te lezen.
 
 In het volgende codevoorbeeld wordt een [!DNL at.js] aangepaste gebeurtenishandler rechtstreeks aan de HTML-pagina toegevoegd:
 
@@ -136,15 +136,15 @@ U zult de reactietokens zien, maar at.js zal niet hen kunnen gebruiken.
 
 **Wat gebeurt er als ik at.js 1.1 (of later) gebruik op sommige pagina&#39;s op mijn site maar mbox.js op andere pagina&#39;s?**
 
-Responstempels worden geleverd aan de [!DNL at.js] mbox-reacties, maar niet aan de [!DNL mbox.js] reacties.
+Antwoordtokens worden aan de [!DNL at.js] Target-reacties bezorgd, maar niet aan de [!DNL mbox.js] reacties.
 
 **Kan ik tegelijkertijd zowel Target Classic-plug-ins als reactietokens activeren?**
 
 Plugins en reactietokens zijn parallel beschikbaar; insteekmodules worden in de toekomst echter afgekeurd .
 
-**Worden reactietokens geleverd door alle mbox reacties of slechts door dozen leverend een activiteit?**
+**Wordt de reactietokens geleverd door alle[!DNL Target]reacties of slechts door[!DNL Target]reacties leverend een activiteit?**
 
-Responstempels worden alleen geleverd via dozen die een activiteit leveren.
+Reactietokens worden alleen geleverd door middel van [!DNL Target] reacties die een activiteit leveren.
 
 **Mijn klassieke Target-insteekmodule bevat JavaScript. Hoe repliceer ik zijn functionaliteit gebruikend reactietokens?**
 
