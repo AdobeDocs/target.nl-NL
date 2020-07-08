@@ -5,7 +5,7 @@ title: Bedrijfsmachtigingen configureren
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 0%
@@ -78,6 +78,7 @@ Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen zelfs verschi
 
       * Nieuwe werkruimten maken in de [!DNL Admin Console for Enterprise]werkruimte.
       * Target-eigenschappen toewijzen aan de werkruimten.
+
    U kunt deze werkruimten gebruiken om toegang tot verschillende teams te verdelen door gebied, bedrijfseenheid, plaatssectie, of via een andere methode u kiest. Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen verschillende rollen binnen elke werkruimte hebben.
 
 1. Volg de instructies in de [Create and Manage Product Configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in de *Gids* van de Gebruiker van de Onderneming.
@@ -152,7 +153,7 @@ Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target
 
    * **Via een &quot;Algemene parameter in[!DNL Adobe Launch]:**
 
-      Voor meer informatie, zie [Globale Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) Mbox in de documentatie van de Lancering *van het* Adobe Experience Platform toevoegen.
+      Voor meer informatie, zie [Voeg Globale Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) van Target in de documentatie van de Lancering *van het* Adobe Experience Platform toe.
 
    * **Via een &quot;globale parameter&quot; in[!DNL Dynamic Tag Management]:**
 
