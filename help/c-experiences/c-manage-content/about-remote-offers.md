@@ -5,7 +5,7 @@ title: Externe aanbiedingen maken
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Gebruik externe aanbiedingen om inhoud buiten Target te hosten die door Target n
 
 >[!NOTE]
 >
->Externe aanbiedingen kunnen alleen in de op formulieren gebaseerde composer worden gemaakt. Inhoud wordt op de mbox-locaties geïnjecteerd, zodat deze meestal niet geschikt zijn voor een globale mbox.
+>Externe aanbiedingen kunnen alleen in de op formulieren gebaseerde composer worden gemaakt. De inhoud wordt op de [!DNL Target] aanvraaglocaties geïnjecteerd. Deze zijn dus hoogstwaarschijnlijk niet geschikt voor een algemeen [!DNL Target] verzoek.
 >
 >[!DNL Target Classic] meegeleverde vergelijkbare functies: [!UICONTROL Offer on Your Site] en [!UICONTROL Offer Outside Test&Target].
 
@@ -47,7 +47,7 @@ Voorbeelden van externe aanbiedingen zijn:
    | Option | Beschrijving |
    |--- |--- |
    | cachegeheugen | De inhoud voor een aanbieding op afstand in de cache wordt vanuit Target aangeboden.<br>Om de twee uur [!DNL Target] haalt u de inhoud op bij de externe URL en slaat u de inhoud vervolgens op in Target. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door Target.<br>Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zich heeft aangemeld bijTarget de inhoud niet kan wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.<br>U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst. |
-   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door Target.<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens door Target leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch, of verschillend, voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik [!UICONTROL Add Parameter] om een of meer parameters toe te voegen. |
+   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door Target.<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens door Target leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch, of verschillend, voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik [!UICONTROL Add Parameter] om een of meer [!DNL Target] aanvragen of aanvraagparameters toe te voegen. |
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -55,7 +55,7 @@ Voorbeelden van externe aanbiedingen zijn:
 
 Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteiten:
 
-* Als uw aanbieding zich in hetzelfde domein als de vakken bevindt, kunt u met de [!UICONTROL Cached] optie relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
+* Als uw aanbieding zich in hetzelfde domein bevindt als de [!DNL Target] aanvragen, kunt u met de [!UICONTROL Cached] optie relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
 
    Dit betekent dat wanneer u uw activiteit van uw testservers naar productie verplaatst, de inhoud automatisch toegankelijk zal zijn zonder het moeten URL manueel veranderen.
 
