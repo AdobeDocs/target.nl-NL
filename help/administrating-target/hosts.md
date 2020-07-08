@@ -5,7 +5,7 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -19,13 +19,13 @@ Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheid
 
 >[!NOTE]
 >
->De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
+>De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in [!DNL Target] Standaard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u rapportgegevens door [milieu](/help/administrating-target/environments.md)ook scheiden.
 
-Een host is een willekeurige webserver (of een webdomein) van waaruit u inhoud tijdens een van de fasen van uw project kunt leveren. Elke host die een box bedient, wordt herkend.
+Een host is elk domein waaruit een [!DNL Target] aanvraag wordt gedaan. Op een website is dit doorgaans de `location.hostname` eigenschap van de URL die de [!DNL Target] aanvraag doet.
 
-[!DNL Target] beperkt een gastheer niet die dozen kan verzenden en ontvangen, zodat wanneer de nieuwe servers of domeinen verschijnen, werken zij automatisch (tenzij u opstelling een allowlist of blocklist). Dit laat ook toe en het testen op verschillende domeinen u niet kent of niet kan voorzien.
+Door gebrek, beperkt [!DNL Target] niet een gastheer die [!DNL Target] verzoeken kan indienen en [!DNL Target] reacties ontvangen. Wanneer nieuwe gastheren verzoeken indienen, werken zij automatisch. Hierdoor kunt u ook testen op verschillende domeinen die u niet kent of niet kunt voorzien. Als u dit standaardgedrag wilt met voeten treden, kunt u opstelling een lijst van gewenste personen of een lijst van afgewezen personen om te beperken welke gastheren zullen werken met [!DNL Target].
 
 Als u hosts wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -35,13 +35,13 @@ Als u hosts wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!UICON
 
 Als u een host wilt herkennen en toevoegen aan de [!UICONTROL Hosts] lijst, moet aan de volgende voorwaarden zijn voldaan:
 
-* Er moet minstens één box op de host aanwezig zijn
+* Er moet minstens één [!DNL Target] verzoek aanwezig zijn op de host
 * Een pagina op de host moet het volgende bevatten:
 
    * Een nauwkeurige verwijzing van at.js of mbox.js
-   * Een mbox of een automatisch gegenereerde globale mbox-aanroep
+   * Een [!DNL Target] verzoek of een automatisch gegenereerd globaal [!DNL Target] verzoek
 
-* De pagina met de mbox moet in een browser worden weergegeven
+* De pagina met het [!DNL Target] verzoek moet in een browser worden weergegeven
 
 Nadat de pagina is weergegeven, wordt de host vermeld in de [!UICONTROL Hosts] lijst, zodat u deze in een omgeving kunt beheren en activiteiten en tests kunt voorvertonen en starten.
 
@@ -68,11 +68,11 @@ Als u de [!UICONTROL Hosts] lijst wilt sorteren, klikt u op een kolomkop ([!UICO
 
 Als u in de [!UICONTROL Hosts] lijst wilt zoeken, typt u een zoekterm in het [!UICONTROL Search Hosts] vak.
 
-## Creeer allowlists die gastheren specificeren die worden gemachtigd om mbox vraag naar Target te verzenden. {#allowlist}
+## Creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om de verzoeken van Target naar Target te verzenden. {#allowlist}
 
-U kunt een allowlist tot stand brengen die gastheren (domeinen) specificeert die worden gemachtigd om mbox vraag naar te verzenden [!DNL Target]. Alle andere gastheren die vraag produceren zullen een commentarieert-uit de foutenreactie van de toestemmingsfout krijgen. Door gebrek, om het even welke gastheer die een mbox vraagregisters met [!DNL Target] in het milieu van de Productie bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u in plaats daarvan het allowlist gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om mbox vraag te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve campagnes kan zien.
+U kunt een lijst van gewenste personen tot stand brengen die gastheren (domeinen) specificeert die worden gemachtigd om [!DNL Target] verzoeken naar te verzenden [!DNL Target]. Alle andere gastheren die verzoeken produceren zullen een commentaar-uit reactie van de vergunningsfout krijgen. Door gebrek, om het even welke gastheer die een [!DNL Target] verzoekregisters met [!DNL Target] in het [!UICONTROL Production] milieu bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u in plaats daarvan de lijst van gewenste personen gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om [!DNL Target] verzoeken te doen en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve activiteiten kan zien.
 
-Een allowlist maken:
+Een lijst van gewenste personen maken:
 
 1. From the [!UICONTROL Hosts] list, click **[!UICONTROL Authorize Hosts]**.
 1. Schakel de **[!UICONTROL Enable Authorized Hosts for content delivery]** schakeloptie in.
@@ -86,49 +86,49 @@ Een allowlist maken:
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als een mbox vraag op een onbevoegde gastheer wordt gemaakt, zal de vraag met antwoorden `/* no display - unauthorized mbox host */`.
+Als een [!DNL Target] verzoek op een onbevoegde gastheer wordt ingediend, zal de vraag met antwoorden `/* no display - unauthorized mbox host */`.
 
 >[!IMPORTANT]
 >
->**Aanbevolen werkwijzen** voor beveiliging: Als u ubox functionaliteit van gebruikt [!DNL Target], merk op dat deze allowlist ook de lijst van domeinen zal controleren waaraan uw [redirecteuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kunnen navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de allowlist niet is opgegeven, kan Adobe de omleiding van URL&#39;s niet controleren en beschermen tegen mogelijke kwaadaardige omleidingen.
+>**Aanbevolen werkwijzen** voor beveiliging: Als u ubox functionaliteit van gebruikt [!DNL Target], merk op dat deze lijst van gewenste personen ook de lijst van domeinen zal controleren waaraan uw [bestuurders](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kunnen navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd wordt verlaten, [!DNL Adobe] zal niet omleidings URLs kunnen verifiëren en tegen potentiële kwaadwillige omleidingen beschermen.
 >
->De allowlist heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de allowlist eigenschap te gebruiken, dan verschijnen slechts de gastheren die door de allowlist worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
+>De lijst van gewenste personen heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 
 Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein verschijnt in de lijst als het domein een vraag aan uw at.js of mbox.js maakt. Als iemand bijvoorbeeld een van uw webpagina&#39;s naar de server kopieert, wordt dat domein in uw omgeving weergegeven. U ziet wellicht ook domeinen van spintengines, vertaalsites of lokale schijfstations.
 
 Wanneer een API-aanroep `mboxHost` wordt doorgegeven, wordt de conversie opgenomen voor de omgeving die wordt doorgegeven. Als geen milieu wordt overgegaan, blijft de gastheer in de vraag aan [!UICONTROL Production].
 
-U kunt ook een zwarte lijst maken die hosts (domeinen) opgeeft dan geen aanroepen vanuit een box kan verzenden [!DNL Target] door de gewenste hosts in het [!UICONTROL Host Does Not Contain] vak toe te voegen.
+U kunt ook een denylist maken die hosts (domeinen) opgeeft dan geen [!DNL Target] aanvragen naar kan verzenden [!DNL Target] door de gewenste hosts in het [!UICONTROL Host Does Not Contain] vak toe te voegen.
 
 >[!NOTE]
 >
->Omdat de lijst met geautoriseerde hosts wordt gebruikt voor zowel mbox-hosts als standaard omleidingshosts, moet u alle bestaande domeinen toevoegen die zijn goedgekeurd voor het gebruik van de Adobe Target Javascript SDK (at.js) *EN* alle domeinen die worden gebruikt in standaardomleidingsURL&#39;s. U moet ook in de toekomst eventuele nieuwe, vergelijkbare domeinen aan de allowlist toevoegen.
+>Omdat de lijst met geautoriseerde hosts wordt gebruikt voor zowel [!DNL Target] hosts als standaardhosts voor omleiding, moet u alle bestaande domeinen toevoegen die zijn goedgekeurd voor het gebruik van de [!DNL Adobe Target] Javascript SDK (at.js) *EN* alle domeinen die worden gebruikt in standaard URL&#39;s voor omleiding. U moet ook nieuwe, vergelijkbare domeinen toevoegen aan de lijst van gewenste personen in de toekomst.
 
 ## Een host verwijderen {#section_F56355BA4BC54B078A1A8179BC954632}
 
-U kunt een host verwijderen wanneer deze niet meer nodig is.
+U kunt een host verwijderen als deze niet meer nodig is.
 
 1. Klik in de [!UICONTROL Hosts] lijst op het **[!UICONTROL Delete]** pictogram.
 1. Klik **[!UICONTROL Delete]** om de verwijdering te bevestigen.
 
 >[!NOTE]
 >
->De host wordt opnieuw weergegeven als iemand naar een pagina met een maffout op de host bladert.
+>De host wordt opnieuw weergegeven als iemand naar een pagina bladert die een [!DNL Target] aanvraag op de host bevat.
 
 ## Problemen met hosts oplossen {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
 Probeer de volgende tips voor het oplossen van problemen als u problemen ondervindt met uw hosts:
 
-**De host wordt niet weergegeven in de keuzelijst voor uw account.**
+**De host wordt niet weergegeven in de lijst voor uw account.**
 
 * Vernieuw de [!UICONTROL Hosts] pagina in uw browser.
-* Controleer of de code van het vak correct is, inclusief de verwijzing at.js of mbox.js.
-* Blader naar een van de vakken op de host. Het is mogelijk dat geen mbox op de gastheer ooit in browser werd teruggegeven.
+* Bevestig dat het [!DNL Target] verzoek juist is, inclusief de verwijzing at.js of mbox.js.
+* Blader naar een van de [!DNL Target] aanvragen op de host. Het is mogelijk dat geen [!DNL Target] verzoek op de gastheer ooit in browser werd teruggegeven.
 
 **Willekeurige of onbekende domeinen worden in de[!UICONTROL Host]lijst weergegeven.**
 
-Een domein verschijnt in deze lijst als een vraag aan van het domein [!DNL Target] wordt gemaakt. Vaak kunt u domeinen zien van spintengines, vertaalsites of lokale schijfstations. Als het vermelde domein niet één uw teamgebruik is, kunt u klikken [!UICONTROL Delete] om het te verwijderen.
+Er wordt een domein in deze lijst weergegeven als er een aanvraag is ingediend vanuit het domein. [!DNL Target] Vaak kunt u domeinen zien van spintengines, vertaalsites of lokale schijfstations. Als het vermelde domein niet één uw teamgebruik is, kunt u klikken [!UICONTROL Delete] om het te verwijderen.
 
-**Mijn mbox-aanroep retourneert /* geen weergave - onbevoegde mbox-host */.**
+**Mijn[!DNL Target]verzoek retourneert /* geen weergave - ongeoorloofde mbox-host */.**
 
-Als een mbox vraag op een onbevoegde gastheer wordt gemaakt, zal de vraag met /* geen vertoning - onbevoegde mbox gastheer */ antwoorden.
+Als een [!DNL Target] verzoek wordt ingediend op een niet-geautoriseerde host, reageert het verzoek op /* geen weergave - niet-geautoriseerde mbox-host */.
