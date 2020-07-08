@@ -5,9 +5,9 @@ title: Omgevingen
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Gastheren worden gebundeld in omgevingen voor eenvoudig beheer. U hebt bijvoorbe
 
 Eén omgeving, de standaardomgeving, heeft een voornaam [!UICONTROL Production]. Deze standaardomgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. [!DNL Target] Hierbij gaat u ervan uit dat u de laatste, goedgekeurde activiteiten en tests zult uitvoeren.
 
-Wanneer een mbox verzoek van nieuwe websites of domeinen wordt ontvangen, verschijnen deze nieuwe domeinen altijd in het [!UICONTROL Production] milieu. De instellingen van de [!UICONTROL Production] omgeving kunnen niet worden gewijzigd. Onbekende of nieuwe sites kunnen alleen inhoud zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
+Wanneer een [!DNL Target] verzoek van nieuwe websites of domeinen wordt ontvangen, verschijnen deze nieuwe domeinen altijd in het [!UICONTROL Production] milieu. De instellingen van de [!UICONTROL Production] omgeving kunnen niet worden gewijzigd. Onbekende of nieuwe sites kunnen alleen inhoud zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
 
 Klik op **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
