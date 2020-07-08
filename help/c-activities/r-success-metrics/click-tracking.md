@@ -1,23 +1,26 @@
 ---
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-description: Het doel laat u toe om kliks op om het even welk element te volgen als succes metrisch.
+description: Met Target kunt u klikken op elk element bijhouden als een succesmetrische waarde.
 title: Klikken bijhouden
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 0%
 
 ---
 
 
 # Klikken bijhouden{#click-tracking}
 
-Het doel laat u toe om kliks op om het even welk element te volgen als succes metrisch.
+Met Target kunt u klikken op elk element bijhouden als een succesmetrische waarde.
 
 >[!NOTE]
 >
->Het volgen van klikken wordt niet gesteund op het doel globale vakje wanneer het als plaats in een vorm-gebaseerde activiteit wordt gebruikt.
+>Het bijhouden van klikken wordt niet ondersteund op de algemene Target-aanvraag wanneer deze wordt gebruikt als locatie in een op formulieren gebaseerde activiteit.
 
 ## Klikspatiëring instellen {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -87,7 +90,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
    | $ | Dollar-teken |
    | `[ ]` | Vierkante haken |
 
-* Als u [!DNL at.js] klik het volgen gebruikt en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] het volgen annuleert alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
+* Als u [!DNL at.js] klik het volgen gebruikt en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] annuleert het volgen alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
 
    [!DNL at.js] heeft een speciale afhandeling voor het bijhouden van klikken wanneer het onderliggende element een `A` (koppeling)tag of - `FORM` tag is.
 
@@ -95,15 +98,15 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    1. Oproepen `event.preventDefault()`.
 
-   1. Verzoek branddoel.
+   1. Fire Target request.
 
-   1. Voer het standaardgedrag uit wanneer de aanvraag van het Doel is geslaagd of er een fout is teruggeroepen:
+   1. Voer het standaardgedrag uit als Target-verzoek is geslaagd of een fout is teruggeroepen:
 
       * `A` (link) tag: Standaard wordt naar de URL gegaan die door het kenmerk HREF wordt gedefinieerd.
       * `FORM` tag: Standaard wordt het formulier verzonden.
-   Dit standaardgedrag kan problemen veroorzaken bij het bijhouden van klikken op Analytics. Als u Analytics gebruikt, zou u voor het volgen van klik eerder dan Doel op Analytics moeten vertrouwen.
+   Dit standaardgedrag kan problemen opleveren met het bijhouden van Analytics-klikken. Als u Analytics gebruikt, moet u voor het bijhouden van klikken op Analytics vertrouwen in plaats van op Target.
 
-* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor gebruikers in de onderneming zijn een Target Premium-functie. Zie [Gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md)voor ondernemingen voor meer informatie.
+* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor zakelijke gebruikers zijn een Target Premium-functie. Zie [Gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md)voor ondernemingen voor meer informatie.
 
 ## Trainingsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
