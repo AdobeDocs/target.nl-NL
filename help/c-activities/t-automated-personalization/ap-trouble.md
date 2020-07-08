@@ -3,7 +3,10 @@ description: Soms gaan activiteiten niet zoals verwacht. Hier zijn enkele potent
 title: Problemen met geautomatiseerde personalisatie oplossen
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ Er zijn verschillende factoren vereist voor een AP-activiteit om lift te generer
 
 ## De URL van mijn AP-activiteit toont inhoud van de aanbieding op onjuiste pagina&#39;s. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, worden URL en malplaatje het testen regels toegevoegd aan de mbox ingangsbeperking (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een campagne kwalificeert, wordt het mbox niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats het richten regels.
+In AP, worden URL en malplaatje het testen regels toegevoegd aan de beperking van de [!DNL Target] verzoekingang (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een activiteit kwalificeert, wordt het Target-verzoek-niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats het richten regels.
 
 **Oplossing:** Voeg de noodzakelijke malplaatjeregels als input-publiek van de campagne toe. De evaluatie van het publiek gebeurt op elk verzoek/vraag.
 
