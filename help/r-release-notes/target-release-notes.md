@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 24 juni 2020**
+**Laatst bijgewerkt: 13 juli 2020**
 
 Zie Opmerkingen bij de release van [Target voor informatie over de huidige release](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -51,6 +51,16 @@ Als onderdeel van deze vernieuwing kunt u gemakkelijk veel handelingen uitvoeren
 * IP-adressen van bezoekers om privacyredenen verduisteren (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
 * Bekijk de bestaande lijst met gebruikers per werkruimte en hun rollen voordat u deze in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**) beheert.
 * Alle tabellen in de [!UICONTROL Administration] sectie zoeken en filteren.
+
+### Verbeteringen, correcties en wijzigingen
+
+Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
+
+* Probleem verholpen waarbij sitevoorkeuren niet konden worden behouden na vernieuwen. (TGT-37239)
+* Probleem verholpen waarbij het functioneren van > [!UICONTROL Insert After] [!UICONTROL Image] met SVG-afbeeldingen (Scalable Vector Graphics) werd verhinderd. (TGT-37242)
+* Oplossing voor een probleem voor gebruikers met de [!UICONTROL Publisher] rol die het verwijderen van conceptactiviteiten heeft verhinderd. (TGT-37358)
+* Probleem verholpen waardoor gebruikers een activiteit niet konden bewerken wanneer deze [!UICONTROL All My Workspaces] is geselecteerd. (TGT-37276)
+* Verbeterde bestaande profielscriptinformatiekaarten met informatie over het publieksgebruik. (TGT-37302)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
