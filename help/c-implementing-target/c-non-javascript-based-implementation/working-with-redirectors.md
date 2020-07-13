@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 
       >[!IMPORTANT]
       >
-      >Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;geautoriseerde gastheren&quot;gebruiken om van de standaard opnieuw te richten domeinen URL toe te staan. Het doel gebruikt gastheren om lijstdomeinen toe te staan waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Toegestane lijsten die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden.
+      >Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Target gebruikt gastheren aan de domeinen van de lijst van gewenste personen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Target](/help/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden.
 
 
 1. Valideer Redirector.
-   1. *Beste praktijken* op het gebied van beveiliging: Controleer of het domein dat in Redirector wordt gebruikt, is toegestaan, zoals hierboven is aangegeven. Als u een domein gebruikt dat niet is toegestaan, blokkeert Adobe alle aanroepen naar dat domein om te voorkomen dat schadelijke acteurs de Redirector gebruiken om te leiden naar mogelijk kwaadaardige domeinen.
+   1. *Beste praktijken* op het gebied van beveiliging: Zorg ervoor dat het domein dat in Redirector wordt gebruikt, zoals hierboven vermeld wordt op de lijst met gewenste personen gestaan. Als u een domein gebruikt dat niet wordt op de lijst met gewenste personen gestaan, zal Adobe om het even welke vraag aan dat domein blokkeren om kwaadwillige acteurs te verhinderen Redirector te gebruiken om aan potentieel kwaadwillige domeinen om te leiden.
    1. Voeg de Redirector-URL in een browser in en vernieuw deze.
    1. Meld u aan bij uw account, vernieuw de keuzelijst en controleer of de nieuwe Redirector als een box wordt weergegeven.
 1. Als u verschillende bestemmingen voor één advertentie zult testen, creeer [Omleidingsvoorstellen](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) voor elke versie.
@@ -83,7 +83,7 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 
 1. Verifieer dat alle ervaringen, standaardinhoud, en rapporten zoals verwacht op alle browser types, voor al uw milieu&#39;s handelen.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >* Redirecteurs worden niet ondersteund door Voorvertoning van aanbieding of Bladeren naar box. Voorvertoning vindt direct in een browser plaats.
    >* `mboxDebug` werkt niet met Redirector.
