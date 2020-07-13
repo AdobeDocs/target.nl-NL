@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Er zijn twee methoden om een score toe te wijzen aan een pagina:
 
    Met deze methode wordt de opgegeven waarde toegevoegd aan de score voor elke [!DNL Target] aanvraag op de pagina. Als u bijvoorbeeld de parameter doorgeeft `?mboxPageValue=10`en er drie [!DNL Target] aanvragen op de pagina staan, is de score voor de pagina 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Target-aanvragen die zich boven het eerste weergaveverzoek van de activiteit bevinden, worden niet in de score opgenomen. [!DNL Target]
 
 U kunt het beste waarden toewijzen in de [!DNL Target] aanvraag. Hierdoor kunt u nauwkeurig aangeven welke waarden u meet, afhankelijk van de inhoud van elk verzoek.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >U kunt de waardetoewijzingen van de paginascore van uw site in het [!DNL at.js] of [!DNL mbox.js] bestand eenvoudig onderhouden met behulp van voorwaardelijke JavaScript-logica. Zo hoeft u niet meer code aan uw pagina&#39;s toe te voegen. Neem contact op met uw accountconsultant voor hulp.
 
