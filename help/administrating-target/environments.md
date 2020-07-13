@@ -5,7 +5,7 @@ title: Omgevingen
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -76,6 +76,7 @@ U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 U kunt de inhoud van de inzamelingen en de uitsluitingen van Aanbevelingen voor een geselecteerde milieu (gastheergroep) voorproef.
 
 >[!NOTE]
+>
 >De activiteiten van aanbevelingen zijn beschikbaar als deel van de oplossing van de [!DNL Target] Premie. Ze zijn niet beschikbaar in [!DNL Target] Standard zonder een [!DNL Target] Premium-licentie.
 
 U kunt een omgeving gebruiken om de beschikbare items in uw catalogus te scheiden voor verschillende toepassingen. U kunt bijvoorbeeld hostgroepen gebruiken voor [!UICONTROL Development] en [!UICONTROL Production] omgevingen, verschillende merken of verschillende geografische gebieden. Standaard zijn de voorvertoningsresultaten in Cataloguszoekopdrachten, Verzamelingen en Uitsluitingen gebaseerd op de standaardhostgroep. (U kunt ook een andere hostgroep selecteren om een voorvertoning van de resultaten weer te geven met behulp van het filter Omgeving.) Nieuwe toegevoegde items zijn standaard beschikbaar in alle hostgroepen, tenzij een milieu-id is opgegeven bij het maken of bijwerken van het item. De geleverde aanbevelingen hangen van de gastheergroep af die in het verzoek wordt gespecificeerd.
