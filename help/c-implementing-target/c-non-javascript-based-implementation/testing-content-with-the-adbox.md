@@ -1,12 +1,15 @@
 ---
 keywords: Implementation;mbox.js non javascript;mbox;adbox
 description: Gebruik een AdBox om afbeeldingen te leveren in een externe implementatie, met Adobe Target.
-title: Een adbox voor een afbeelding maken met Adobe Target
+title: Een ADBox maken voor een afbeelding met Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +46,7 @@ Zie Op [niet-JavaScript gebaseerde implementaties](../../c-implementing-target/c
 
 1. Maak [omleidingsvoorstellen](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) voor elke alternatieve afbeelding.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >AdBox moet met een omleidingsvoorstel worden geladen of de standaardinhoudsaanbieding. Andere aanbiedingstypen werken niet. Omdat AdBox een URL is, kan het slechts URLs tonen het ontvangt, zodat werkt slechts de OmleidingsAanbieding.
 
