@@ -4,7 +4,10 @@ description: Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingso
 title: Een ontwerp aanpassen met Snelheid
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 0%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Als u tekst wilt toevoegen na de waarde van een variabele vóór een label dat aangeeft dat de naam van de variabele is voltooid, kunt u dit doen met een formele notatie om de naam van de variabele in te sluiten. Bijvoorbeeld: `${entity1.thumbnailUrl}.gif`.
 
@@ -125,7 +128,7 @@ U kunt ook `algorithm.name` en `algorithm.dayCount` als variabelen in ontwerpen 
 Door gebrek, behandelen de malplaatjes van de Snelheid alle entiteitattributen als koordwaarden. Mogelijk wilt u een entiteitskenmerk behandelen als een numerieke waarde om een wiskundige bewerking uit te voeren of deze te vergelijken met een andere numerieke waarde. Voer de volgende stappen uit om een entiteitskenmerk als een numerieke waarde te behandelen:
 
 1. Declareer een dummyvariabele en initialiseer deze naar een willekeurig geheel getal of een dubbele waarde
-1. Zorg ervoor dat het entiteitattribuut u wilt gebruiken niet leeg is (vereist voor de malplaatjeparser van de Aanbevelingen van het Doel om het malplaatje te bevestigen en te bewaren)
+1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor sjabloonparser van Target Recommendations om de sjabloon te valideren en op te slaan)
 1. Geef het entiteitkenmerk door in de `parseInt` of `parseDouble` methode van de dummyvariabele die u in stap 1 hebt gemaakt om de tekenreeks om te zetten in een geheel getal of dubbele waarde
 1. Voer de wiskundige bewerking of vergelijking uit op de nieuwe numerieke waarde
 
@@ -203,7 +206,7 @@ Het resultaat is een ontwerp als het volgende, waarbij in één kolom het sleute
 
 ![](assets/rec_key.png)
 
-Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot; [!DNL Target] toont een willekeurig product in de Composer [!UICONTROL van de] Visueel Ervaring (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
+Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot; [!DNL Target] toont een willekeurig product in [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
 
 ## Vervangingen in een tekenreekswaarde uitvoeren {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -233,7 +236,7 @@ De volgende code is een volledig voorwaardelijk voorbeeld van een verkoopprijs:
 
 ## De sjabloongrootte aanpassen en blanco waarden controleren {#default}
 
-Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege elementen van HTML wanneer er niet genoeg passende die entiteiten van zijn teruggekeerd [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut zouden hebben en [!UICONTROL Gedeeltelijke sjabloonrendering] is ingeschakeld.
+Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege elementen van HTML wanneer er niet genoeg passende die entiteiten van zijn teruggekeerd [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut hebben en [!UICONTROL Partial Template Rendering] zijn ingeschakeld.
 
 Het volgende HTML-fragment vervangt het bestaande HTML-gedeelte in het standaardontwerp van 4 x 2 (de CSS is hier niet opgenomen omwille van de beknoptheid):
 
