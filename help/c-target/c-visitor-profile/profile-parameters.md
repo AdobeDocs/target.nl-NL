@@ -5,9 +5,9 @@ title: Profielkenmerken in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ if (mbox.name == 'Track_Interest') {
 Houd rekening met het volgende:
 
 * Raadpleeg scriptkenmerken voor profielen (ook zichzelf) in de code met `user.get('parameterName')`
-* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van het laatste verzoek wilt verwijzen.
+* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van de laatste aanvraag wilt verwijzen.
 * Parameters en waarden zijn hoofdlettergevoelig. Komt overeen met het geval van de parameters en waarden die u ontvangt tijdens de activiteit of test.
 * Zie de sectie &quot;JavaScript reference for script profile parameters&quot; hieronder voor meer JavaScript-syntaxis.
 * De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, zullen in die activiteit kwalificeren.
@@ -96,9 +96,10 @@ Op het [!UICONTROL Script Usage] tabblad vindt u een overzicht van de activiteit
 
 ![Profile Script info card > Script Usage, tabblad](assets/profile_script_info_card_usage_tab.png)
 
->[!Nofferte]
+>[!NOTE]
 >
 >Op het tabblad Scriptgebruik worden in de volgende situaties geen activiteiten weergegeven die verwijzen naar het geselecteerde profielscript:
+>
 > * De activiteit is in de staat van het Ontwerp.
 > * De inhoud of de aanbieding die in de activiteit wordt gebruikt gebruikt manuscriptvariabelen (of een gealigneerde aanbieding binnen de activiteit of een aanbieding binnen de bibliotheek van de Aanbieding).
 
@@ -157,7 +158,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 * **Profielscripts toevoegen als responstokens om fouten in profielscripts op te sporen:**
 
-   Klik in Target **[!UICONTROL Setup]**, klik **[!UICONTROL Response Tokens]** en schakel vervolgens het profielscript in dat u wilt debuggen.
+   Klik in Target **[!UICONTROL Setup]** op de knop **[!UICONTROL Response Tokens]** en schakel vervolgens het profielscript in dat u wilt debuggen.
 
    Elke keer dat u een pagina voor uw site laadt met Target erop, bevat een deel van de reactie van Target uw waarde voor het opgegeven profielscript, zoals hieronder wordt weergegeven:
 
@@ -177,7 +178,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 **Is het mogelijk om profielmanuscripten te gebruiken om informatie van een pagina te vangen die in een gegevenslaag verblijft?**
 
-Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten worden doorgegeven via een mbox-aanvraag of via andere [methoden om gegevens in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te verkrijgen. Nadat de gegevens in Target zijn opgeslagen, kunnen profielscripts de gegevens lezen als parameter mbox of profielparameter.
+Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten worden doorgegeven via een mbox-aanvraag of via andere [methoden om gegevens in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te verkrijgen. Nadat de gegevens in Target zijn opgeslagen, kunnen profielscripts de gegevens lezen als een mbox-parameter of profielparameter.
 
 ## JavaScript-referentie voor scriptprofielparameters
 
