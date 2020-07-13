@@ -5,9 +5,9 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Als u een host wilt herkennen en toevoegen aan de [!UICONTROL Hosts] lijst, moet
 
 Nadat de pagina is weergegeven, wordt de host vermeld in de [!UICONTROL Hosts] lijst, zodat u deze in een omgeving kunt beheren en activiteiten en tests kunt voorvertonen en starten.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Dit geldt ook voor persoonlijke ontwikkelservers.
 
@@ -106,7 +106,7 @@ U kunt ook een denylist maken die hosts (domeinen) opgeeft dan geen [!DNL Target
 
 ## Een host verwijderen {#section_F56355BA4BC54B078A1A8179BC954632}
 
-U kunt een host verwijderen als deze niet meer nodig is.
+U kunt een host verwijderen wanneer deze niet meer nodig is.
 
 1. Klik in de [!UICONTROL Hosts] lijst op het **[!UICONTROL Delete]** pictogram.
 1. Klik **[!UICONTROL Delete]** om de verwijdering te bevestigen.
