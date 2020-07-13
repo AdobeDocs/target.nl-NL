@@ -5,7 +5,10 @@ title: Omrekeningskoers
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ In de volgende afbeelding ziet u de diagramkop voor een voorbeeldactiviteit met 
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >In alle gegevens worden dubbele orders genegeerd als een instructie `orderID` wordt doorgegeven. In het auditrapport worden de genegeerde dubbele orders vermeld.
 
@@ -58,12 +61,12 @@ De AOV-, RPV- en verkoopgegevens worden voor elke ervaring weergegeven als u een
 
 Voor elke ervaring worden het betrouwbaarheidsniveau en het betrouwbaarheidsinterval weergegeven.
 
-Conversies en doorlopende variabelen voor op doelen gebaseerde metriek, zoals omzet- en betrokkenheidsmetriek, worden als volgt berekend:
+Conversies en doorlopende variabelen voor op Target gebaseerde metriek, zoals omzet- en betrokkenheidsmetriek, worden als volgt berekend:
 
 * **Conversie:** Ja of nee
 * **Alle andere:** Waarden over een bereik
 
-U kunt offlineberekeningen voor Analytics voor Doel (A4T) uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor analyse voor doel (A4T)&quot; hieronder voor meer informatie.
+U kunt offlineberekeningen uitvoeren voor Analytics for Target (A4T), maar hiervoor is een stap vereist met gegevens die worden geëxporteerd naar [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor Analytics for Target (A4T)&quot; hieronder voor meer informatie.
 
 ### Vertrouwensniveau {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
@@ -104,13 +107,13 @@ Het *betrouwbaarheidsinterval* is een bereik waarbinnen de werkelijke waarde op 
 
 Het [gedownloade CSV-rapport](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) bevat alleen onbewerkte gegevens en bevat geen berekende meetgegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests.
 
-Om deze berekende metriek te berekenen, download het dossier van Excel van de Rekenmachine van het Doel van het [Volledige Vertrouwen om de waarde van de activiteit in te voeren, of herzie de](/help/assets/complete_confidence_calculator.xlsx) statistische berekeningen die door Doel [](/help/assets/statistical-calculations.pdf)worden gebruikt.
+Als u deze berekende meetgegevens wilt berekenen, downloadt u het Excel-bestand met de [Complete Trust Calculator](/help/assets/complete_confidence_calculator.xlsx) van Target om de waarde van de activiteit in te voeren of bekijkt u de [statistische berekeningen die Target](/help/assets/statistical-calculations.pdf)gebruikt.
 
 >[!NOTE]
 >
->Deze rekenmachine is bedoeld voor op Target gebaseerde rapportage en niet voor A4T-rapportage.
+>Deze rekenmachine is bedoeld voor Target-gebaseerde rapportage en niet voor A4T-rapportage.
 
-## Offlineberekeningen uitvoeren voor Analytics voor Doel (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Offlineberekeningen uitvoeren voor Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics].
 
@@ -124,16 +127,16 @@ Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Vul op het **[!UICONTROL Data Warehouse Request]** tabblad de velden in.
 
-   Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van het Pakhuis van Gegevens&quot;in het [Pakhuis](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html)van Gegevens.
+   Zie &quot;Data warehouse-beschrijvingen&quot; in [Data warehouse voor meer informatie over elk veld](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Veld | Instructies |
    |--- |--- |
    | Naam aanvraag | Geef een naam op voor uw aanvraag. |
-   | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br>Als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  De dossiers van het Pakhuis van gegevens vergen langer om de langere gevraagde tijdspanne te verwerken, zodat is het altijd beste om een kleine tijdspannegegevens eerst aan te vragen om ervoor te zorgen uw dossier het verwachte resultaat terugkeert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
+   | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br>Als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  Het duurt langer om Data warehouse-bestanden te verwerken met een langere periode. Het is dus altijd aan te raden om eerst gegevens over een kleine periode aan te vragen om ervoor te zorgen dat het bestand het gewenste resultaat oplevert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![Data warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Beschikbare segmenten | Pas indien nodig een segment toe. |
-   | Uitsplitsingen | Selecteer de gewenste afmetingen:  Standaard is OOTB (out-of-the-box) en Aangepast bevat Vars en props. U kunt het beste &quot;Bezoeker-id&quot; gebruiken als er gegevens op bezoekersidentiteitsniveau nodig zijn in plaats van &quot;Experience Cloud Visitor ID&quot;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of HULP (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>Experience Cloud Visitor ID wordt alleen ingesteld voor klanten die nieuwe of gewiste cookies zijn sinds de service MC bezoeker ID werd gestart.</li></ul> |
+   | Uitsplitsingen | Selecteer de gewenste afmetingen:  Standaard is OOTB (out-of-the-box) en Aangepast bevat Vars en props. Je kunt het beste &#39;Bezoeker-id&#39; gebruiken als je informatie op bezoekersidentiteitsniveau nodig hebt in plaats van &#39;Experience Cloud Bezoeker-id&#39;.<ul><li>De bezoeker-id is de laatste id die Analytics gebruikt. Het zal of HULP (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
    | Metrisch | Selecteer de gewenste meetgegevens. Standaard is OOTB, terwijl Aangepast aangepaste gebeurtenissen bevat. |
-   | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
+   | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![Data warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | Levering plannen | Voer een e-mailadres in waarnaar het bestand moet worden verzonden, geef het bestand een naam en selecteer [!UICONTROL Send Immediately].<br>Opmerking: Het bestand kan via FTP worden geleverd onder [!UICONTROL Advanced Delivery Options]<br>![Planningslevering](/help/c-reports/assets/datawarehouse3.png). |
 
 1. Klik op **[!UICONTROL Request this Report]**.
@@ -144,8 +147,8 @@ Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u
 
 Raadpleeg de volgende koppelingen in de documentatie bij de Help voor meer informatie over [!DNL Data Warehouse][!DNL Analytics] :
 
-* [Een verzoek voor een Data Warehouse maken](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Best practices voor Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Een Data warehouse-aanvraag maken](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Aanbevolen werkwijzen voor Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Telmethode {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -160,7 +163,7 @@ De telmethode wordt ondersteund voor de volgende soorten activiteiten:
 * Gericht op ervaring (XT)
 * MVT (Multivariate Test)
 
-   Voor het MVT Element Contribution Report ondersteunt Target geen Activity Impressions voor de Metrische types van Ontvangsten.
+   Voor het MVT Element Contribution Report biedt Target geen ondersteuning voor Activity Impressions for Revenue Metric types.
 
 * Aanbevelingen
 
@@ -180,6 +183,6 @@ U kunt rapporten weergeven met de volgende telmethoden:
 
    Eén bezoek kan verschillende indrukken van bijvoorbeeld uw homepage bevatten.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook als uw PCID en `sessionID` -waarden niet veranderen.
