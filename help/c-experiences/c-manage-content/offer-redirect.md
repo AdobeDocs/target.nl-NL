@@ -1,11 +1,14 @@
 ---
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
-description: Informatie over omleidingsvoorstellen in Adobe Target waardoor een browser naar een nieuwe pagina wordt omgeleid.
+description: Informatie over omleidingsvoorstellen in Adobe Target die ervoor zorgen dat een browser omleidt naar een nieuwe pagina.
 title: Omleidingsvoorstellen maken
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ De omleidingsaanbieding leidt een browser om naar een nieuwe pagina.
 
 U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats van alleen maar stukken inhoud binnen een pagina te wijzigen. In dit geval vergelijkt uw A/B-test pagina A met pagina B. Stel een A/B-testcampagne in met twee ervaringen: één die aan standaardpagina A richt, en andere die aan pagina B wordt opnieuw gericht. De aanbieding is geconfigureerd om de bezoeker om te leiden naar een andere pagina.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Je kunt geen omleidingsvoorstellen in ajax-vakken ( `mboxUpdate`) gebruiken.
 >
@@ -26,7 +29,7 @@ Zie [Omleiden naar een URL](../../c-experiences/c-visual-experience-composer/red
 
 De omleidingsaanbieding voert code JavaScript uit om browser om te leiden. De methode wordt gebruikt, zodat de pagina waarvan de bezoeker is omgeleid, niet in de browsergeschiedenis wordt opgeslagen. `window.location.replace();` Hierdoor kan de bezoeker de knop Terug in zijn browser nog steeds gebruiken.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Als u de referentiewaarde van de landingspagina wilt doorgeven, kunt u het beste een HTML-aanbieding gebruiken in plaats van een omleidingsvoorstel.
 
@@ -51,7 +54,7 @@ De omleidingsaanbieding voert code JavaScript uit om browser om te leiden. De me
 
    Als u de setup van het cookie van de eerste en de derde partij gebruikt, hoeft u de sessie-id van het postvak niet door te geven wanneer u domeinen overschrijdt. De URL is blijvend in een cookie van een andere fabrikant, dus niet nodig in de URL.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Vraag uw Implementation Consultant voordat u deze tests start.
 
