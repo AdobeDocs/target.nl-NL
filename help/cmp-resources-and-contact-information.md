@@ -5,7 +5,7 @@ title: Bronnen en contactgegevens
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Voor vragen kunt u de Adobe Target-experts in de [Experience Cloud-gemeenschap](
 
 Voor technische problemen of om een probleem te registreren kunt u contact opnemen met de klantenservice. Bel 1-800-497-0335 om telefonisch contact op te nemen met de klantenservice. Gratis nummers buiten de Verenigde Staten zijn te vinden op de pagina Landnummers [van de](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) Adobe Digital Marketing Customer Care. Wanneer u wordt gevraagd een optie voor uw product te selecteren, drukt u op 3 om contact op te nemen met het Target-team.
 
-E-mailen naar de klantenservice op [!DNL tt-support@adobe.com].
+E-mailen naar de klantenservice op [!DNL customercare@adobe.com].
 
 Voor de snelste versie van uw uitgave, gelieve de volgende basisinformatie klaar te hebben wanneer u ons contacteert:
 
