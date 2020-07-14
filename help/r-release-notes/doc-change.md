@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 juli | [Veelgestelde vragen over automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[automatisch Target](/help/c-activities/auto-target-to-optimize.md)<br><br>[en automatische personalisatie](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Toegevoegde FAQs adviserend dat u niet het doel metrische middenweg door een activiteit zou moeten veranderen. |
 | 7 juli | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het Adobe Target Coffee Break van 8 juli. |
 | 25 juni | [Opmerkingen bij de release van Target (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de Target Standard/Premium 20.6.1-release (juli 2020). |
 |  | [Overzicht Target-documentatie](/help/r-release-notes/target-documentation.md) | Nieuw onderwerp dat de verschillende bronnen van [!DNL Target] documentatie detailleert. |
