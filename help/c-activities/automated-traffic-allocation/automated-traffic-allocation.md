@@ -5,9 +5,9 @@ title: Automatisch toewijzen
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3102'
 ht-degree: 0%
 
 ---
@@ -127,55 +127,63 @@ Deze kunnen de resultaten bij een autotoewijzing meer scheeftrekken dan bij een 
 
 ## Veelgestelde vragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-** Steunt Analytics for Target (A4T) Auto-Allocate activiteiten?
+Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u met [!UICONTROL Auto-Allocate] activiteiten werkt:
+
+### Steunt Analytics for Target (A4T) Auto-Allocate activiteiten?
 
 Ja. Zie [Analytics for Target (A4T)-ondersteuning voor Auto-Allocate-activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie.
 
-**Worden de terugkerende bezoekers automatisch opnieuw toegewezen aan hoog presterende ervaringen?**
+### Worden de terugkerende bezoekers automatisch opnieuw toegewezen aan hoog presterende ervaringen?
 
 Nee. Alleen nieuwe bezoekers worden automatisch toegewezen. De terugkerende bezoekers blijven hun originele ervaring zien. Hiermee wordt de geldigheid van de A/B-test beschermd.
 
-**Hoe behandelt het algoritme valse positieven?**
+### Hoe behandelt het algoritme valse positieven?
 
 Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten onrechte als u wacht tot de winnaar-badge wordt weergegeven.
 
-**Wanneer begint de auto-Toewijzing verkeer toe te wijzen?**
+### Wanneer begint de auto-Toewijzing verkeer toe te wijzen?
 
 Het algoritme begint te werken nadat alle ervaringen in de activiteit minimaal 1000 bezoekers en 50 conversies hebben.
 
-**Hoe agressief benut het algoritme?**
+### Hoe agressief benut het algoritme?
 
 80% van het verkeer wordt gediend gebruikend auto-Toewijzing en 20% van verkeer wordt willekeurig gediend. Wanneer een winnaar werd geïdentificeerd, gaat alle 80% van het verkeer naar het, terwijl alle ervaringen wat verkeer als deel van de 20%, met inbegrip van de het winnen ervaring blijven krijgen.
 
-**Worden er al ervaringen verloren?**
+### Worden er al ervaringen verloren?
 
 Ja. De multigewapende bandit zorgt ervoor dat minstens 20% van het verkeer wordt gereserveerd om veranderende patronen of omzettingspercentages over alle ervaringen te onderzoeken.
 
-**Wat gebeurt er met activiteiten met lange omzettingsvertragingen?**
+### Wat gebeurt er met activiteiten met lange omzettingsvertragingen?
 
 Zolang alle ervaringen die worden geoptimaliseerd met gelijkaardige vertragingen worden geconfronteerd, is het gedrag het zelfde als een activiteit met een snellere omzettingscyclus, hoewel het langer zal duren om de 50 omzettingsdrempel te bereiken alvorens het proces van de verkeerstoewijzing begint.
 
-**Hoe verschilt Automatisch toewijzen van geautomatiseerde personalisatie?**
+### Hoe verschilt Automatisch toewijzen van geautomatiseerde personalisatie?
 
 Bij Geautomatiseerde personalisatie worden de profielkenmerken van elke bezoeker gebruikt om de beste ervaring te bepalen. Hierdoor wordt niet alleen de activiteit geoptimaliseerd, maar wordt ook de activiteit voor die gebruiker aangepast.
 
 Auto-Allocate daarentegen is een A/B test die een gezamenlijke winnaar (de populairste ervaring, maar niet noodzakelijk de meest efficiënte ervaring voor elke bezoeker) produceert.
 
-**Worden de terugkerende bezoekers de omzettingspercentage op mijn succes metrisch?**
+### Worden de terugkerende bezoekers de omzettingspercentage op mijn succes metrisch?
 
 Op dit moment is de logica gunstig voor bezoekers die snel converteren of vaker een bezoek brengen. De reden hiervoor is dat dergelijke bezoekers tijdelijk de algemene omrekeningskoers van de ervaring die zij hebben, verhogen. Het algoritme past zich regelmatig aan, zodat wordt de verhoging van omzettingspercentage versterkt bij elke momentopname. Als de site veel bezoekers retourneert, kunnen hun conversies de algemene conversiekoers voor de ervaring tot wie ze behoren, potentieel verhogen. Er is een goede kans dat retourbezoekers willekeurig worden verdeeld, waardoor het totale effect (verhoogde lift) gelijkmatig wordt verdeeld. Om dit effect te verzachten, kunt u de telmethode van de succesmetrische methode zo wijzigen dat deze slechts eenmaal per entry wordt geteld.
 
-**Kan ik de calculator van de steekproefgrootte gebruiken wanneer het gebruiken van auto-Toewijzing om te schatten hoe lang de activiteit zal duren om de winnaar te identificeren?**
+### Kan ik de calculator van de steekproefgrootte gebruiken wanneer het gebruiken van auto-Toewijzing om te schatten hoe lang de activiteit zal duren om de winnaar te identificeren?
 
 U kunt de bestaande calculator [van de](https://docs.adobe.com/content/target-microsite/testcalculator.html) steekproefgrootte gebruiken om een schatting van te krijgen hoe lang de test zal lopen. (Zoals bij traditionele A/B-tests kunt u Bonferroni-correctie toepassen als u meer dan twee aanbiedingen of meer dan één omzettingsmeting/hypothese test.) Deze rekenmachine is ontworpen voor traditionele A/B-tests met een vaste tijdshorizon en biedt alleen een schatting. Het gebruiken van de calculator voor een auto-Wijs activiteit is facultatief omdat auto-toewijst een winnaar voor u zal verklaren-u te hoeven om geen vast punt in tijd te kiezen om de testresultaten-verstrekt waarden te bekijken altijd statistisch geldig zijn. In onze experimenten hebben we het volgende gevonden:
 * Bij het testen van precies twee ervaringen wordt met Automatisch toewijzen een winnaar sneller gevonden dan met tests met een vaste tijdshorizon (dat wil zeggen het tijdsbestek dat wordt voorgesteld door de calculator voor de voorbeeldgrootte) wanneer het prestatieverschil tussen ervaringen groot is, maar extra tijd nodig kan zijn om een winnaar te identificeren wanneer het prestatieverschil tussen ervaringen klein is. In deze gevallen zouden de vastrentende tests doorgaans zijn geëindigd zonder een statistisch significant resultaat.
 * Bij het testen van meer dan twee ervaringen wordt met Automatisch toewijzen een winnaar sneller gevonden dan met tests met een vaste tijdshorizon (d.w.z. het tijdpad dat wordt voorgesteld door de calculator voor voorbeeldgrootte) wanneer één ervaring alle andere ervaringen sterk overtreft. Wanneer twee of meer ervaringen allebei &quot;het winnen&quot;tegen andere ervaringen maar dicht bij elkaar aansluiten, zou de auto-Toewijzing extra tijd kunnen vereisen om te bepalen wat superieur is. In deze gevallen zouden de tests met een vaste looptijd doorgaans zijn geëindigd door te concluderen dat de &quot;winnende&quot; ervaringen beter waren dan de minder presterende ervaringen, maar niet hebben vastgesteld welke beter was.
 
-**Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?**
+### Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?
 
-Er is echt geen reden om een ondermaatse ervaring te verwijderen. Automatisch toewijzen dient automatisch hogere prestaties en ondermaatse ervaringen. Als u een ondermaatse ervaring in de activiteit laat staan, heeft dat geen significante invloed op de snelheid waarmee de winnaar wordt bepaald.
+Er is echt geen reden om een ondermaatse ervaring te verwijderen. Automatisch toewijzen dient automatisch om beter presterende ervaringen te dienen en leidt tot minder vaak presterende ervaringen. Als u een ondermaatse ervaring op het gebied van de activiteit laat staan, heeft dat geen grote invloed op de snelheid waarmee de winnaar wordt bepaald.
 
-20% van de bezoekers wordt willekeurig toegewezen in alle ervaringen. De hoeveelheid verkeer die wordt gebruikt voor een ondermaatse ervaring is minimaal (20% gedeeld door het aantal ervaringen).
+20% van de bezoekers wordt willekeurig toegewezen in alle ervaringen. De hoeveelheid verkeer die aan een ondermaatse ervaring wordt besteed, is minimaal (20% gedeeld door het aantal ervaringen).
+
+### Kan ik het doel metrische middenweg door een auto-Wijs activiteit veranderen? {#change-metric}
+
+Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
+
+Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
 
 ## Trainingsvideo&#39;s {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
