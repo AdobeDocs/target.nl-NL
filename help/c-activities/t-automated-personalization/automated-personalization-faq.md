@@ -4,7 +4,10 @@ description: Lijst met veelgestelde vragen (FAQ's) over Geautomatiseerde Persona
 title: Veelgestelde vragen over geautomatiseerde personalisatie
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1757'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ Lijst met veelgestelde vragen (FAQ&#39;s) over Geautomatiseerde Personalisatie (
 
 ## Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
 
-U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Geautomatiseerde Personalisatie](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Geautomatiseerde Personalisatie](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
@@ -27,7 +30,7 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
 ## Wat zijn beste praktijken aan opstelling een Geautomatiseerde Personalisatieactiviteit? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Als u een laag-verkeerspagina wilt personaliseren, of u structurele veranderingen in de ervaring wilt aanbrengen u personaliseert, denk na gebruikend auto-Doel in plaats van Geautomatiseerde Personalisatie. Zie [Auto-Target voor persoonlijke ervaringen](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Als u een laag-verkeerspagina wilt personaliseren, of u structurele veranderingen in de ervaring wilt aanbrengen u personaliseert, denk na gebruikend auto-Target in plaats van Geautomatiseerde Personalisatie. Zie [Auto-Target voor persoonlijke ervaringen](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 * Overweeg een A/B activiteit tussen de aanbiedingen en de plaatsen te voltooien u van plan bent in uw Geautomatiseerde Verpersoonlijkingsactiviteit te gebruiken om de plaats(en) en de aanbiedingen een effect op het optimalisatiedoel te verzekeren. Als een A/B-activiteit geen significant verschil aantoont, zal Automated Personalization waarschijnlijk ook geen lift genereren.
 
    * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, waarschijnlijk zijn de aanbiedingen u overweegt niet voldoende verschillend van elkaar, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
@@ -50,11 +53,11 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
 ## Wat zijn bepaalde grenzen in Geautomatiseerde Personalisatie? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Het doel heeft een harde limiet van 30.000 ervaringen, maar het werkt op zijn best als er minder dan 10.000 ervaringen worden gecreëerd.
+Target heeft een harde limiet van 30.000 ervaringen, maar het werkt op zijn best als er minder dan 10.000 ervaringen worden gecreëerd.
 
 ## Hoe wordt het aanbieden-niveau richten uitgevoerd? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
-Wanneer elke bezoeker aankomt, wordt de reeks mogelijke aanbiedingen die de bezoeker kan zien bepaald door de aanbiedingsniveau richtingsregels. Dan, kiest het algoritme de aanbieding die het model voorspelt de beste verwachte opbrengst of de kans van omzetting van onder die aanbiedingen zal hebben. Het aanbieden van gerichte toepassingen heeft invloed op de effectiviteit van de computerleeralgoritmen van Target en moet daarom zo spaarzaam mogelijk worden gebruikt.
+Wanneer elke bezoeker aankomt, wordt de reeks mogelijke aanbiedingen die de bezoeker kan zien bepaald door de aanbiedingsniveau richtingsregels. Dan, kiest het algoritme de aanbieding die het model voorspelt de beste verwachte opbrengst of de kans van omzetting van onder die aanbiedingen zal hebben. Het bieden van gerichte aandacht beïnvloedt de doeltreffendheid van Target-leeralgoritmen voor machines en moet daarom zo spaarzaam mogelijk worden gebruikt.
 
 ## Mijn activiteit laat geen lift zien. Wat is er aan de hand? {#section_BFA07C8C258F45318F73A461B8F32737}
 
@@ -103,3 +106,9 @@ Controleer uw activiteitenopstelling en zie of zijn er om het even welke verande
 ## Waarom zien bezoekers ervaringen voor een AP-activiteit die ze niet zouden moeten zien? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 De geautomatiseerde activiteiten van de Personalisering worden eens per zitting geëvalueerd. Als er actieve sessies waren die in aanmerking kwamen voor een bepaalde ervaring en er nu nieuwe aanbiedingen aan zijn toegevoegd, zien gebruikers de nieuwe inhoud samen met de eerder weergegeven aanbiedingen. Omdat ze eerder gekwalificeerd waren voor die ervaringen, zouden ze ze nog steeds zien gedurende de sessie. Als u dit bij elk paginabezoek wilt evalueren, kunt u beter overschakelen op het type activiteit Experience Targeting (XT).
+
+## Kan ik het doel metrische middenweg door een Geautomatiseerde Personaliseringsactiviteit veranderen? {#change-metric}
+
+Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
+
+Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
