@@ -5,9 +5,9 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
          + [Google Chrome SameSite-cookiebeleid](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Inhoudsbeveiligingsbeleid (CSP)-instructies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Target-randknooppunten toestaan](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Target-randknooppunten Lijsten van gewenste personen](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Methoden om gegevens in Target op te halen {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profiel-API-instellingen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -202,6 +202,7 @@ ht-degree: 0%
    + Automatisch toewijzen {#auto-allocate}
       + [Automatisch toewijzen](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Automatisch toewijzen levert snellere testresultaten en hogere opbrengsten op dan een handmatige test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
    + Geautomatiseerde personalisatie {#automated-personalization}
       + [Overzicht van geautomatiseerde personalisatie](c-activities/t-automated-personalization/automated-personalization.md)
