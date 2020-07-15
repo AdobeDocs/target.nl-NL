@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
+source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,6 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem verholpen waarbij het functioneren van > [!UICONTROL Insert After] [!UICONTROL Image] met SVG-afbeeldingen (Scalable Vector Graphics) werd verhinderd. (TGT-37242)
 * Oplossing voor een probleem voor gebruikers met de [!UICONTROL Publisher] rol die het verwijderen van conceptactiviteiten heeft verhinderd. (TGT-37358)
 * Probleem verholpen waardoor gebruikers een activiteit niet konden bewerken wanneer deze [!UICONTROL All My Workspaces] is geselecteerd. (TGT-37276)
-* Verbeterde bestaande profielscriptinformatiekaarten met informatie over het publieksgebruik. (TGT-37302)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
