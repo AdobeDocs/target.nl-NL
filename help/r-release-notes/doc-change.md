@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 17 juli | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het Adobe Target Coffee Break van 22 juli. |
 | 15 juli | [Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Nieuw onderwerp. |
 | 14 juli | [Veelgestelde vragen over automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[automatisch Target](/help/c-activities/auto-target-to-optimize.md)<br><br>[en automatische personalisatie](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Toegevoegde FAQs adviserend dat u niet het doel metrische middenweg door een activiteit zou moeten veranderen. |
 | 7 juli | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het Adobe Target Coffee Break van 8 juli. |
