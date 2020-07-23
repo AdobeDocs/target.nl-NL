@@ -4,9 +4,9 @@ description: Weergaveproblemen treden soms onder bepaalde omstandigheden op in d
 title: Problemen oplossen met betrekking tot Visual Experience Composer
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Weergaveproblemen treden soms onder bepaalde omstandigheden op in de Visual Experience Composer (VEC).
 
-## Wanneer ik mijn website in de Visuele Composer van de Ervaring open, laden de bibliotheken van het Doel niet. (alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Wanneer ik mijn website in Visual Experience Composer open, laden de bibliotheken van Target niet. (alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
-Het doel voegt twee parameters (`mboxEdit=1` en `mboxDisable=1`) toe terwijl het openen van de website in Visual Experience Composer.
+Target voegt twee parameters (`mboxEdit=1` en `mboxDisable=1`) toe terwijl het openen van de website in Visual Experience Composer.
 
-Als uw website (met name Apps met één pagina) uw parameters bijsnijdt of deze verwijdert terwijl u van de ene pagina naar de andere navigeert (zonder dat de pagina opnieuw wordt geladen), wordt de functie Doel verbroken en worden de doelbibliotheken niet geladen.
+Als uw website (met name Apps met één pagina) uw parameters bijsnijdt of deze verwijdert terwijl u van de ene pagina naar de andere navigeert (zonder dat de pagina opnieuw wordt geladen), worden de Target-functies verbroken en worden de Target-bibliotheken niet geladen.
 U voorkomt dit probleem door deze twee parameters niet bij te snijden of te verwijderen.
 
 ## Mijn pagina wordt niet geopend in de EEG, of wordt langzaam geladen. Activiteiten of ervaringen laden langzaam in de VEC. (alleen VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
-Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de doelervaringscomposers. Enkele veelvoorkomende problemen zijn:
+Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de Target Experience composers. Enkele veelvoorkomende problemen zijn:
 
 * U hebt geen box op de pagina.
 * Uw site gebruikt proxyblokkering, waardoor de pagina in geen van beide composers kan worden geopend.
@@ -33,7 +33,7 @@ Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de doe
 
 Als er problemen optreden in de Enhanced Experience Composer, kunt u de Enhanced Experience Composer uitschakelen en in plaats daarvan de Visual Experience Composer gebruiken.
 
-Als u de Enhanced Experience Composer wilt uitschakelen, gaat u naar **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** en schakelt u de **[!UICONTROL Enable Enhanced Experience Composer]** optie uit.
+Als u de Enhanced Experience Composer wilt uitschakelen, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** en schakelt u de **[!UICONTROL Enable Enhanced Experience Composer]** optie uit.
 
 Sommige gebruikers zien het volgende foutbericht in de console:
 
@@ -84,6 +84,7 @@ Voor de Modify Header uitbreiding (Firefox) van de Reactie, omdat u geen URL reg
          >Kopteksten die worden gemanipuleerd via Requely zijn hoofdlettergevoelig.
 
       * Verandering **[!UICONTROL Equals]** in **[!UICONTROL Contains]** als voorwaarde voor bron URL en ga URL van de activiteit in die u in VEC probeert te laden.
+
       ![](assets/chrome_extension.png)
 
 
@@ -117,12 +118,8 @@ Open Target nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu worde
 * U hebt een ongeldige URL ingevoerd.
 * U hebt geen standaard-URL ingevoerd op de pagina voor het instellen van uw account.
 
-## Wanneer het lanceren van een URL voor een activiteit VEC, toont de console het volgende foutenbericht: &quot;Uncaught ReferenceError:_AT is not defined.&quot; (alleen VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-Deze fout treedt op als u probeert Visual Experience Composer (VEC)-campagnes te leveren en u mbox.js niet hebt bijgewerkt vanaf de doelgebruikersinterface met de [!UICONTROL Support Visual Experience Composer Activities] optie ingeschakeld ( [!UICONTROL Setup] > [!UICONTROL Implementation] > [!UICONTROL mbox.js] > [!UICONTROL Edit mbox.js Settings]).
-
 Zorg ervoor dat deze instelling is ingeschakeld en download en werk mbox.js op uw website bij.
 
 ## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Wanneer het gebruiken doorbladert wijze, als u tot een URL toegang hebt die target.js niet heeft of een kader-busterkopbal bevat, lijkt de Visuele Composer van de Ervaring gebroken. Vanwege beveiligingsproblemen in de browser heeft Target geen toegang tot de URL waarnaar u bent genavigeerd.
+Wanneer het gebruiken doorbladert wijze, als u tot een URL toegang hebt die target.js niet heeft of een kader-busterkopbal bevat, lijkt de Visuele Composer van de Ervaring gebroken. Vanwege beveiligingsproblemen met de browser heeft Target geen toegang tot de URL waarnaar u bent genavigeerd.
