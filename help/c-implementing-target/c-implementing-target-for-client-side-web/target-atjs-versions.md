@@ -5,9 +5,9 @@ title: details van de at.js-versie
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '3940'
+source-wordcount: '3971'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ Gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL 
 >Het Target-team ondersteunt beide om 1.js.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >[De Lancering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) van het Adobe Experience Platform is de aangewezen methode om at.js te bevorderen. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Launch] catalogus als upgrades. Zie Upgrade [van](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensies in de gebruikershandleiding *van het* Experience Platform Launch voor meer informatie.
+
+## te.js 2.3.2 (24 juli 2020)
+
+Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:
+
+* Het probleem is opgelost wanneer een script of code een standaardeigenschap aan het venster of document toevoegt.
 
 ## om 1.8.2 uur (15 juni 2020)
 
@@ -187,7 +193,7 @@ at.js versie 1.6.3 bevat de volgende correcties en verbeteringen:
 * Probleem verholpen waarbij een belofte werd nagekomen in omgevingen waar geen native ondersteuning voor beloften bestond. (TNT-30974)
 * Problemen worden nu correct vastgelegd en gerapporteerd via de gebeurtenis content-rendering mislukt. Eerder werd mogelijk gemeld dat JavaScript goed was uitgevoerd, zelfs als dat niet het geval was. (TNT-30599)
 
-## at.js Versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
+## at.js versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
 
 Dit is een onderhoudsrelease en het volgende probleem wordt opgelost:
 
@@ -245,6 +251,7 @@ at.js versie 1.3.0 is nu beschikbaar.
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
+
    Zie [aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)at.js voor meer informatie.
 
 * U kunt een verzoek at.js met extra parameters uitbreiden die uit gegevensleveranciers komen. Gegevensleveranciers moeten worden toegevoegd `window.targetGlobalSettings` onder de `dataProviders key`richtlijn.
