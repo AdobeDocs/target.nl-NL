@@ -5,9 +5,9 @@ title: Bedrijfsmachtigingen configureren
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # ![PREMIUM](/help/assets/premium.png) -bedrijfsmachtigingen configureren{#configure-enterprise-permissions}
 
 Informatie over de taken die vereist zijn om gebruikers aan uw [!DNL Target] implementatie toe te voegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de [!DNL Target] implementatie bijwerken en de `at_property` parameter opnemen; en geef rollen en machtigingen op.
-
->[!NOTE]
->
->De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 >[!NOTE]
 >
@@ -205,6 +201,10 @@ Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target
 ## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
+
+>[!NOTE]
+>
+>De gebruikersinterface van het [!DNL Target] menu (voorheen [!UICONTROL Administration] [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video&#39;s is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
 
 ### Target Workspaces (6:55) ![Tutorial badge configureren](/help/assets/tutorial.png)
 
