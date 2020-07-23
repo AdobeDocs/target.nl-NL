@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,8 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 
    * Waar `yourclientcode` is de cliëntcode van uw bedrijf. De clientcode van uw bedrijf is helemaal in kleine letters en heeft geen speciale tekens.
 
-      * **at.js**: Uw clientcode is beschikbaar boven aan de [!UICONTROL Setup > Implementation > Edit at.js Settings] pagina van de [!DNL Target] interface.
+      Uw clientcode is beschikbaar boven aan de [!UICONTROL Administration > Implementation] pagina van de [!DNL Target] interface.
 
-      * **mbox.js**: De clientcode is beschikbaar boven aan de [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] pagina.
    * `redirectorlink_456` Dit is de naam van de Redirector-box die in uw account wordt weergegeven voor gebruik in campagnes en tests.
 
       Regelaars functioneren anders dan andere vakken, maar worden net zo weergegeven als elke andere box in uw account. Geef de redirector een naam, zodat deze gemakkelijk kan worden onderscheiden van de standaardtekstvakken in uw account.  Als beste praktijken, begin de mbox naam met &quot;redirectorlink&quot;.
@@ -61,7 +60,6 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
       >[!IMPORTANT]
       >
       >Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Target gebruikt gastheren aan de domeinen van de lijst van gewenste personen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Target](/help/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden.
-
 
 1. Valideer Redirector.
    1. *Beste praktijken* op het gebied van beveiliging: Zorg ervoor dat het domein dat in Redirector wordt gebruikt, zoals hierboven vermeld wordt op de lijst met gewenste personen gestaan. Als u een domein gebruikt dat niet wordt op de lijst met gewenste personen gestaan, zal Adobe om het even welke vraag aan dat domein blokkeren om kwaadwillige acteurs te verhinderen Redirector te gebruiken om aan potentieel kwaadwillige domeinen om te leiden.
