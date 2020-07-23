@@ -5,9 +5,9 @@ title: Gastheren
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Gastheren{#hosts}
 
 Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
-
->[!NOTE]
->
->De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in [!DNL Target] Standaard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u rapportgegevens door [milieu](/help/administrating-target/environments.md)ook scheiden.
 
@@ -98,7 +94,7 @@ Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein ver
 
 Wanneer een API-aanroep `mboxHost` wordt doorgegeven, wordt de conversie opgenomen voor de omgeving die wordt doorgegeven. Als geen milieu wordt overgegaan, blijft de gastheer in de vraag aan [!UICONTROL Production].
 
-U kunt ook een denylist maken die hosts (domeinen) opgeeft dan geen [!DNL Target] aanvragen naar kan verzenden [!DNL Target] door de gewenste hosts in het [!UICONTROL Host Does Not Contain] vak toe te voegen.
+U kunt een lijst van afgewezen personen ook tot stand brengen die gastheren (domeinen) specificeert dan geen [!DNL Target] verzoeken naar kan verzenden [!DNL Target] door de gewenste gastheren in de [!UICONTROL Host Does Not Contain] doos toe te voegen.
 
 >[!NOTE]
 >
