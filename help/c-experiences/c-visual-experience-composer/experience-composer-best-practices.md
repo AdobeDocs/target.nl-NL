@@ -5,7 +5,7 @@ title: Aanbevolen werkwijzen en beperkingen voor composer visuele ervaring
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
@@ -31,13 +31,13 @@ Plaats mbox.js aan het eind van de `<head>` sectie, zonder extra verklaringen na
 
 **U kunt de Enhanced Experience Composer inschakelen op accountniveau (ingeschakeld voor alle activiteiten die in de account zijn gemaakt) of op het niveau van de individuele activiteit.**
 
-Om Verbeterde Composer van de Ervaring op het rekeningsniveau toe te laten, klik [!UICONTROL Setup > Preferences], dan knevel de schakelaar aan positie.
+Om Verbeterde Composer van de Ervaring op het rekeningsniveau toe te laten, klik [!UICONTROL Administration > Visual Experience Composer], dan knevel de schakelaar aan positie.
 
 Om Verbeterde Composer van de Ervaring op het activiteitenniveau toe te laten terwijl het creëren van een activiteit in Visuele Composer van de Ervaring, klik [!UICONTROL Configure > URL], dan knevel de schakelaar aan positie aan.
 
-**U kunt bepaalde IP adressen toestaan als de Verbeterde Composer van de Ervaring geen op veilige pagina&#39;s op uw plaats zal laden.**
+**U kunt bepaalde IP adressen lijsten van gewenste personen als Verbeterde Visual Experience Composer niet op veilige pagina&#39;s op uw plaats zal laden.**
 
-De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen toe te staan. Deze IP-adressen zijn bestemd voor de Adobe-server die wordt gebruikt voor de Enhanced Experience Composer-proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze IP-adressen niet nodig.
+De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen te toevoegend op lijst van gewenste personen. Deze IP-adressen zijn bestemd voor de Adobe-server die wordt gebruikt voor de Enhanced Experience Composer-proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben de op de lijst met gewenste personen gestane IP-adressen niet nodig.
 
 Verenigde Staten: 52.55.99.45, 54.80.158.92 en 54.204.197.253
 
@@ -49,7 +49,7 @@ Azië-Stille Oceaan (APAC): 52.193.67.35, 54.199.198.109 en 54.199.241.57
 
 Om het even welk onmiddellijk binnen het lichaamselement zou een unieke identiteitskaart moeten hebben. Als er nieuwe elementen in het lichaam worden geïnjecteerd en de code zich verplaatst, kunnen de bovenliggende elementen op zijn minst gemakkelijker worden herkend.
 
-Voor Adobe Target zijn geen id&#39;s vereist, maar het gebruik van id&#39;s verhoogt de betrouwbaarheid van ervaringen die met de ervaringscomposer zijn gemaakt. Doel gebruikt CSS-kiezers om uw inhoud te wijzigen wanneer de ervaring wordt opgedaan. Wanneer u een ervaring uitgeeft, verankert de Visuele Composer van de Ervaring de selecteur aan de dichtstbijzijnde voorvader met een niet-krachteloze identiteitskaart attribuut aan het element dat van HTML wordt gewijzigd. Het is daarom niet aan te raden om een mechanisme te gebruiken, inclusief JavaScript-bibliotheken, waarmee HTML-id-kenmerken worden ingesteld of gewijzigd. Hoewel deze id&#39;s beschikbaar kunnen zijn voor de doelervaringscomposer voor het maken van activiteiten, is de id die werd gebruikt toen de ervaring werd gemaakt mogelijk niet beschikbaar wanneer de ervaring wordt uitgevoerd als JavaScript ID&#39;s wijzigt. Als er geen id beschikbaar is, mislukt de kiezer die aan de id is verankerd.
+Adobe Target heeft geen id&#39;s nodig, maar het gebruik van id&#39;s verhoogt de betrouwbaarheid van ervaringen die zijn gemaakt met de ervaringscomposer. Target gebruikt CSS-kiezers om uw inhoud te wijzigen wanneer de ervaring wordt opgedaan. Wanneer u een ervaring uitgeeft, verankert de Visuele Composer van de Ervaring de selecteur aan de dichtstbijzijnde voorvader met een niet-krachteloze identiteitskaart attribuut aan het element dat van HTML wordt gewijzigd. Het is daarom niet aan te raden om een mechanisme te gebruiken, inclusief JavaScript-bibliotheken, waarmee HTML-id-kenmerken worden ingesteld of gewijzigd. Hoewel deze id&#39;s beschikbaar kunnen zijn voor de Target Experience Composer voor het maken van activiteiten, is de id die werd gebruikt toen de ervaring werd gemaakt mogelijk niet beschikbaar wanneer de ervaring wordt uitgevoerd als JavaScript ID&#39;s wijzigt. Als er geen id beschikbaar is, mislukt de kiezer die aan de id is verankerd.
 
 **Geef CSS-klassen een naam, zodat ze gemakkelijk kunnen worden herkend.**
 
@@ -61,7 +61,7 @@ Als de 1!Belangrijke1 CSS-eigenschap aanwezig is, worden wijzigingen die door ta
 
 **Gebruik geen HTML-tabellen voor paginalay-outs.**
 
-De Standaard en de Premium van het doel gebruiken JavaScript om een pagina te formatteren. Het is moeilijk om op tabellen gebaseerde lay-outs te wijzigen met JavaScript. Bovendien wordt op tabellen gebaseerde lay-outs mogelijk niet in alle browsers op dezelfde manier weergegeven. U bereikt de beste resultaten met CSS.
+Target Standard en Premium gebruiken JavaScript om een pagina op te maken. Het is moeilijk om op tabellen gebaseerde lay-outs te wijzigen met JavaScript. Bovendien wordt op tabellen gebaseerde lay-outs mogelijk niet in alle browsers op dezelfde manier weergegeven. U bereikt de beste resultaten met CSS.
 
 **Maak zo weinig mogelijk gebruik van iFrames.**
 
@@ -115,7 +115,7 @@ Bepaalde formuliervelden kunnen verplicht zijn voor verzending. Het verwijderen 
 
 Omdat dit `mboxCreate` wordt gebruikt, wordt het niet aangeraden om deze `document.write``mboxCreate` in scripts op te nemen. Gebruik in plaats daarvan `mboxDefine` en `mboxUpdate` voor hetzelfde doel.
 
-**Werk een HTML-fragment niet bij met behulp van Target Standard als hiervoor JavaScript-code vereist is voor initialisatie.**
+**Werk een HTML-fragment niet bij met Target Standard als dit JavaScript-code vereist voor initialisatie.**
 
 Wanneer een handeling (HTML bewerken) wordt uitgevoerd op paginacomponenten (zoals Schuifregelaars, Carrousels enzovoort), kan de levering afgebroken lijken. Visual Experience Composer voert de actie uit nadat de paginacomponent door JavaScript is geconcretiseerd.
 
@@ -217,7 +217,7 @@ Als uw pagina bijvoorbeeld het volgende bevat:
 </div>`
 ```
 
-De buitenste div zou niet in een ervaring moeten worden geselecteerd omdat mbox hardcoded in de pagina nog een vraag aan Doel maakt en een reactie ontvangt. Deze reactie beïnvloedt de reactie voorgenomen voor het grotere paginaelement.
+De buitenste div moet niet worden geselecteerd in een ervaring omdat de in de pagina gecodeerde mbox nog steeds een aanroep naar Target maakt en een reactie ontvangt. Deze reactie beïnvloedt de reactie voorgenomen voor het grotere paginaelement.
 
 **IPs van de volmacht kan in klantenmilieu worden geblokkeerd.**
 
