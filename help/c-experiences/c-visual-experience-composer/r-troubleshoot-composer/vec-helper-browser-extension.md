@@ -1,10 +1,13 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-description: Informatie voor het gebruik van de Adobe Target Visual Experience Composer (VEC) Helper browser extension voor het betrouwbaar laden van websites binnen de VEC voor een snelle ervaring met auteurs en kwaliteitscontrole.
-title: De helperuitbreiding van Adobe Target Visual Experience Composer (VEC)
+description: Informatie om de Adobe Target Visual Experience Composer (VEC) te gebruiken Helper browser uitbreiding om websites betrouwbaar binnen VEC te laden om snel auteur en QA ervaart te schrijven.
+title: Helperextensie Adobe Target Visual Experience Composer (VEC)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Voordelen van het gebruik van de extensie VEC Helper:
 
 ## VEC Helper-browserextensie opvragen en installeren
 
-1. Navigeer naar de [Adobe Target VEC Help-browserextensie in de Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigeer naar de [Adobe Target VEC Helper browser extensie in de Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Klik op [!UICONTROL Add to Chrome > Add Extension].
 1. Als u de extensie wilt gebruiken, klikt u op het pictogram voor VEC Helper-browserextensie ( ![pictogram](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) VEC Helper ) op de werkbalk van de Chrome-browser terwijl u in de VEC- of [QA-modus](/help/c-activities/c-activity-qa/activity-qa.md)werkt.
 
@@ -51,7 +54,7 @@ In de volgende afbeelding ziet u hoe de VEC Helper u vraagt of u [!DNL Target] b
 
    Houd er rekening mee dat deze markering een algemene instelling is. De vlag wordt toegelaten of gehandicapt voor alle websites die in VEC worden geopend. Als u deze markering bijvoorbeeld instelt op ON en een website opent die al is geïmplementeerd met at.js, ontvangt u een bericht met de melding dat at.js al is geladen. We verwachten dat de meeste klanten at.js al hebben geïmplementeerd op hun pagina&#39;s en de standaardinstelling van OFF gebruiken.
 
-* De extensie laadt de nieuwste versie van at.js die beschikbaar is via de [!DNL Target UI] insteekmodule [!UICONTROL Setup > Implementation].
+* De extensie laadt de nieuwste versie van at.js die beschikbaar is via de [!DNL Target UI] insteekmodule [!UICONTROL Administration > Implementation].
 * Als u de extensie gebruikt om te injecteren in [QA-modus](/help/c-activities/c-activity-qa/activity-qa.md), moet u een ander Chrome-tabblad openen. Dit tabblad Chrome moet worden geverifieerd bij dezelfde [!DNL Adobe Experience Cloud] organisatie waarin u de activiteit hebt gemaakt.
 * De volgende berichten helpen u op de hoogte houden:
 
