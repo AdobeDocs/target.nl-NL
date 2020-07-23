@@ -5,9 +5,9 @@ title: Informatie over de targetGlobalSettings() functie voor de Adobe Target at
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ U kunt de volgende instellingen overschrijven:
 
 ## Gebruik {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 In het veld Bibliotheekkoptekst kunt u JavaScript in vrije vorm invoeren. De aanpassingscode moet er ongeveer als volgt uitzien:
 
@@ -472,7 +472,7 @@ Houd rekening met het volgende wanneer u `serverState`:
 
 * Bij het toepassen van `serverState `aanbiedingen houdt at.js rekening met `pageLoadEnabled` en `viewsEnabled` instellingen. Aanbiedingen voor laden van pagina worden bijvoorbeeld niet toegepast als de `pageLoadEnabled` instelling false is.
 
-   U schakelt deze instellingen in door de schakeloptie in te schakelen in **[UICONTROL Setup > Implementation > Edit Settings > Page Load Enabled]**.
+   Schakel deze instellingen in via Beheer **[UICONTROL > Implementatie > Bewerken > Pagina laden ingeschakeld]**.
 
    ![Instellingen voor Laden van pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
