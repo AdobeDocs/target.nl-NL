@@ -5,9 +5,9 @@ title: Target implementeren
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ Voordat u begint te gebruiken, moet u [!DNL Adobe Target]het programma implement
 Zie de verschillende onderwerpen onder Target [](/help/c-implementing-target/implementing-target.md)implementeren voor meer informatie.
 
 Informatie die van toepassing is op de instellingen op deze pagina vindt u op Target [implementeren zonder tagbeheer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
-
->[!NOTE]
->
->De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 >[!NOTE]
 >
