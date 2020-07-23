@@ -5,9 +5,9 @@ title: Profielkenmerken in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ if (mbox.name == 'Track_Interest') {
 Houd rekening met het volgende:
 
 * Raadpleeg scriptkenmerken voor profielen (ook zichzelf) in de code met `user.get('parameterName')`
-* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van de laatste aanvraag wilt verwijzen.
+* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van het laatste verzoek wilt verwijzen.
 * Parameters en waarden zijn hoofdlettergevoelig. Komt overeen met het geval van de parameters en waarden die u ontvangt tijdens de activiteit of test.
 * Zie de sectie &quot;JavaScript reference for script profile parameters&quot; hieronder voor meer JavaScript-syntaxis.
 * De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, zullen in die activiteit kwalificeren.
@@ -158,7 +158,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 * **Profielscripts toevoegen als responstokens om fouten in profielscripts op te sporen:**
 
-   Klik in Target **[!UICONTROL Setup]** op de knop **[!UICONTROL Response Tokens]** en schakel vervolgens het profielscript in dat u wilt debuggen.
+   Klik in Target **[!UICONTROL Administration]**, klik **[!UICONTROL Response Tokens]** en schakel vervolgens het profielscript in dat u wilt debuggen.
 
    Elke keer dat u een pagina voor uw site laadt met Target erop, bevat een deel van de reactie van Target uw waarde voor het opgegeven profielscript, zoals hieronder wordt weergegeven:
 
@@ -166,7 +166,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 * **Met het gereedschap MboxTrace-foutopsporing kunt u fouten in profielscripts opsporen.**
 
-   Voor deze methode is een machtigingstoken vereist dat u kunt genereren door te klikken op **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]**.
+   Voor deze methode is een machtigingstoken vereist dat u kunt genereren door te klikken op **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in de [!UICONTROL Debugger tools] sectie.
 
    Vervolgens voegt u deze twee parameters toe aan de URL van de pagina na &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
 
