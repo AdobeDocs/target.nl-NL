@@ -4,7 +4,7 @@ description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor
 title: Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
 
-## Biedt het Doel ondersteuning voor iframes op meerdere niveaus?
+## Biedt Target ondersteuning voor iframes op meerdere niveaus?
 
-Doel ondersteunt geen iframes op meerdere niveaus. Als uw website een iframe laadt dat een onderliggend iframe heeft, werken doelbibliotheken (at.js en mbox.js) alleen met het bovenliggende iframe. Doelbibliotheken hebben geen interactie met het onderliggende iframe.
+Target biedt geen ondersteuning voor iframes met meerdere niveaus. Als uw website een iframe laadt dat een onderliggend iframe heeft, communiceren Target-bibliotheken (at.js en mbox.js) alleen met het bovenliggende iframe. Target-bibliotheken hebben geen interactie met de onderliggende iframe.
 
 Als tussenoplossing kunt u een pagina toevoegen in de ervaring met de URL van het onderliggende iframe.
 
@@ -26,9 +26,9 @@ Als tussenoplossing kunt u een pagina toevoegen in de ervaring met de URL van he
 
 Dit kan gebeuren als de URL een #-teken bevat. Om de kwestie te bevestigen, schakelaar op Browse wijze in de Visuele Composer van de Ervaring, en dan terug te schakelen om wijze samen te stellen. De spinner moet weggaan en de pagina moet worden geladen.
 
-## De kopballen van het Beleid van de Veiligheid van de inhoud (CSP) blokkeren de bibliotheken van het Doel op mijn website. (VEC en EEG) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Met CSP-koppen (Content Security Policy) worden de Target-bibliotheken op mijn website geblokkeerd. (VEC en EEG) {#section_89A30C7A213D43BFA0822E66B482B803}
 
-Als de CSP-headers van uw website de doelbibliotheken blokkeren, wordt de website geladen, maar wordt het bewerken voorkomen, zorgt u ervoor dat de doelbibliotheken niet worden geblokkeerd.
+Als de CSP-headers van uw website Target-bibliotheken blokkeren, wordt de website geladen, maar wordt het bewerken voorkomen, en zorgt u ervoor dat de Target-bibliotheken niet worden geblokkeerd.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en
 
 ## Ik kan geen ervaringen bewerken voor een iFrame-opbouwende site. (VEC en EEG) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Dit probleem kan worden opgelost door de Enhanced Experience Composer in te schakelen. Klik **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** en schakel het selectievakje Enhanced Experience Composer in. De Enhanced Experience Composer gebruikt een door Adobe beheerde proxy om uw pagina te laden voor bewerken. Op deze manier kunt u sites bewerken op iFrame en kunt u ze bewerken op sites en pagina&#39;s waaraan u nog geen Adobe Target-code hebt toegevoegd. De activiteiten leveren niet aan de plaats tot de code is toegevoegd. Sommige sites worden mogelijk niet geladen via de Enhanced Experience Composer. In dat geval kunt u deze optie uitschakelen om de Visual Experience Composer via een iFrame te laden. []
+Dit probleem kan worden opgelost door de Enhanced Experience Composer in te schakelen. Klik **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** en schakel het selectievakje Enhanced Experience Composer in. De Enhanced Experience Composer gebruikt een door Adobe beheerde proxy om uw pagina te laden voor bewerken. Op deze manier kunt u sites bewerken op iFrame en kunt u ze bewerken op sites en pagina&#39;s waaraan u nog geen Adobe Target-code hebt toegevoegd. De activiteiten leveren niet aan de plaats tot de code is toegevoegd. Sommige sites worden mogelijk niet geladen via de Enhanced Experience Composer. In dat geval kunt u deze optie uitschakelen om de Visual Experience Composer via een iFrame te laden. []
 
 >[!NOTE]
 >
