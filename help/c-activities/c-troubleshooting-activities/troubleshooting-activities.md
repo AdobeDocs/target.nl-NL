@@ -5,9 +5,9 @@ title: Problemen met activiteiten oplossen
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -76,10 +76,10 @@ Zorg ervoor dat de activiteit is voltooid en geactiveerd.
 
 **Opties:**
 
-Zodra u als gebruiker in Target wordt toegevoegd moet u de rol hebben Approver om Activiteiten tot stand te brengen.
+Zodra u als gebruiker in Target wordt toegevoegd moet u de rol van fiatteur hebben om Activiteiten tot stand te brengen.
 
 * Vraag de beheerder van uw account om van u een fiatteur te maken.
-* Als u de beheerder bent, geeft u uzelf de rol fiatteur via Setup > Users in Target Standard.
+* Als u de beheerder bent, geef uzelf de rol fiatteur van **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    Zie [Uw eigen rol](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)fiatteur toewijzen.
 
