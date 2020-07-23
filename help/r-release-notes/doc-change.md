@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 27 juli | [Target beheren](/help/administrating-target/administrating-target.md) | Bijgewerkte tekst in alle verbonden onderwerpen op deze pagina om op de nieuwe veranderingen UI voor de [!UICONTROL Administration] pagina&#39;s te wijzen. |
 |  | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | De volgende wijzigingen zijn aangebracht: <ul><li>Toegevoegde registratiegegevens voor het volgende webinar: &quot;Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal.&quot;</li><li>Er is opnieuw informatie toegevoegd over de naam van Adobe Leader in het Gartner Magic Quadrant for Personalization Engines.</li></ul> |
 |  | [Formuliergebaseerde Experience Composer](/help/c-experiences/form-experience-composer.md) | Verduidelijkte informatie onder Stap 4: Selecteer een locatie. |
+| 24 juli | <br>[details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over at.js 2.3.2. |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.7.1 | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 20.5.1 (17 juni 2020)
