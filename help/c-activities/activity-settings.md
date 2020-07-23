@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
@@ -24,14 +27,15 @@ Met Activiteitsinstellingen kunt u het doel, de prioriteit en de duur van uw act
 
    De prioriteit wordt gebruikt als de veelvoudige activiteiten aan de zelfde plaats met het zelfde publiek worden toegewezen. Als twee of meer activiteiten aan de plaats worden toegewezen, de activiteit met de hoogste prioritaire vertoningen.
 
-   Als deze optie niet binnen wordt toegelaten [!UICONTROL Setup] (het gebrek), specificeer een prioriteit: Laag, Normaal of Hoog.
+   Als deze optie niet is ingeschakeld in [!UICONTROL Administration] > [!UICONTROL Reporting] (de standaardinstelling), geeft u een prioriteit op: Laag, Normaal of Hoog.
 
-   Als u fijnkorrelige prioriteiten wilt inschakelen, klikt u op [!UICONTROL Setup]en schakelt u de [!UICONTROL Enable Fine-Grained Priorities] optie in op de positie &quot;Aan&quot;.
+   Als u fijnkorrelige prioriteiten wilt inschakelen, klikt u op [!UICONTROL Administration] > [!UICONTROL Reporting]en schakelt u de [!UICONTROL Enable Fine-Grained Priorities] optie in op de positie &quot;Aan&quot;.
 
    Als deze optie is ingeschakeld, geeft u een waarde op tussen 0 en 999:
 
    * 0 = Laag
    * 999 = Hoog
+
    Voor activiteiten die zijn gemaakt in eerdere versies van [!DNL Target Standard/Premium], wordt Lage prioriteit omgezet in 0, Normaal in 5 en Hoog in 10. U kunt deze waarden desgewenst aanpassen.
 
    >[!NOTE]
