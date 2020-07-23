@@ -4,9 +4,9 @@ description: Configureer de Adobe Target Visual Experience Composer (VEC) door d
 title: Rapporten configureren in Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 0%
 # Rapporten configureren in Target
 
 Configureer algemene instellingen voor rapportage die van toepassing zijn op uw gehele [!DNL Adobe Target] [!DNL Target] account.
-
->[!NOTE]
->
->De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Klik op [!UICONTROL Reporting] > **[!UICONTROL Administration]** **[!UICONTROL Reporting].**
 
