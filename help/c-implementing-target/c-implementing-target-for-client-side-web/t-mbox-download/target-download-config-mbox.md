@@ -1,23 +1,26 @@
 ---
 keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
-description: De Standaard en Premium van het doel gebruiken een gewijzigde versie van het dossier van Adobe Target mbox.js.
+description: Target Standard en Premium gebruiken een gewijzigde versie van het bestand Adobe Target mbox.js.
 title: mbox.js downloaden
 subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 0%
 
 ---
 
 
 # mbox.js downloaden{#download-mbox-js}
 
-De Standaard en Premium van het doel gebruiken een gewijzigde versie van het dossier van Adobe Target mbox.js.
+Target Standard en Premium gebruiken een gewijzigde versie van het bestand Adobe Target mbox.js.
 
 Als u het [!DNL Adobe Target] bestand wilt gebruiken, moet u een extra regel JavaScript in het [!UICONTROL Visual Experience Editor][!DNL mbox.js] bestand opnemen.
 
-1. Klik **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** in [!DNL Target Standard].
+1. Klik **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in [!DNL Target Standard].
 1. Klik op **[!UICONTROL Download mbox.js]** en volg de aanwijzingen om het bestand op te slaan.
 1. (Voorwaardelijk) Als u [!DNL mbox.js] versie 60 of later gebruikt, kunt u de bibliotheek zo configureren dat de pagina-inhoud standaard automatisch wordt verborgen totdat de vakken worden geladen, zodat er minder flikkering optreedt op responsieve sites.
 
