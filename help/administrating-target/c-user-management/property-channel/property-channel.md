@@ -5,9 +5,9 @@ title: Machtigingen voor Enterprise-gebruikers
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2975'
+source-wordcount: '3027'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de
 
 * **[!DNL Target Standard]Klanten **: Als u het[!UICONTROL Users]tabblad ([!UICONTROL Adminitration > Users]) ziet (en niet het[!UICONTROL Properties]tabblad), heeft uw organisatie een[!DNL Target Standard]licentie.[!DNL Target Standard]klanten moeten de instructies in[Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md)volgen om gebruikers toe te voegen en machtigingen in de[!DNL Adobe Admin Console]gebruikerslijst toe te wijzen.
 
-* **[!DNL Target Premium]Klanten **: Als u het[!UICONTROL Properties]tabblad ([!UICONTROL Setup > Properties]) en het[!UICONTROL Users]tabblad ziet, heeft uw organisatie een[!DNL Target Premium]licentie.[!DNL Target Premium]klanten moeten de instructies in dit artikel en in[Configure ondernemingstoestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)volgen.
+* **[!DNL Target Premium]Klanten **: Als u het[!UICONTROL Properties]tabblad ([!UICONTROL Administration > Properties]) en het[!UICONTROL Users]tabblad ziet, heeft uw organisatie een[!DNL Target Premium]licentie.[!DNL Target Premium]klanten moeten de instructies in dit artikel en in[Configure ondernemingstoestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)volgen.
 
 ## Voordat u aan de slag gaat met bedrijfsmachtigingen
 
@@ -199,7 +199,7 @@ De nieuwe functies voor machtigingen kunnen op verschillende plaatsen in de [!DN
 
 * **Aanmaken publiek:** Wanneer u een nieuw publiek maakt, wordt dit gemaakt in de momenteel geselecteerde werkruimte.
 * **Aanbieding maken:** Wanneer u een nieuwe aanbieding creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte.
-* **Pagina Eigenschappen (Setup > Eigenschappen):** U kunt het [!UICONTROL Search] vak gebruiken om in de [!UICONTROL Property] lijst te zoeken.
+* **Pagina Eigenschappen (Beheer > Eigenschappen):** U kunt het [!UICONTROL Search] vak gebruiken om in de [!UICONTROL Property] lijst te zoeken.
 
    ![](assets/properties_list.png)
 
@@ -244,6 +244,7 @@ Houd rekening met het volgende wanneer u eigenschappen en machtigingen in [!DNL 
    * De activiteiten, het publiek, de codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar zullen deel van de StandaardWerkruimte uitmaken: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services en bronnen die via API zijn gemaakt. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
    * Aanbiedingen voor images (middelen die zijn opgeslagen onder `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kunnen momenteel niet worden beheerd door het machtigingenmodel voor ondernemingen.
    * clickTracking en redirects zullen slechts werken wanneer de bestemmingsverbinding of bestemmingspagina deel van een bezit uitmaken dat in de activiteit inbegrepen is. Bovendien, kan clickTracking niet werken wanneer het gebruiken van de `targetPageParams()` functie. De `targetPageParamsAll()` aanbevolen functie.
+
    [!DNL Target] vereist momenteel dat er een `at_property` token aanwezig is op elke pagina waar tekstspatiëring plaatsvindt. Als het token (1) niet aanwezig is, (2) niet wordt gedetecteerd op het moment van instellen van de activiteit (binnen de VEC) of (3) niet wordt doorgegeven aan de clickTracking Target-aanroep via de `targetPageParamsAll()` functie, wordt de metrische waarde niet verhoogd en wordt deze weergegeven als &quot;0.&quot;
 
    Hetzelfde geldt voor activiteiten die omleidingen gebruiken. De bestemmingspagina moet een `at_property` teken hebben en op het tijdstip van opstelling binnen VEC worden erkend.
@@ -278,7 +279,7 @@ Overweeg het volgende scenario (van toepassing op zowel at.js als mbox.js):
 
 Wanneer een bezoeker Pagina1 in browser opent, wordt hij of zij opnieuw gericht aan Pagina2. Omdat Pagina2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van Target geen kliksporen in zijn reactie.
 
-Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
+Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
 
 ## Trainingsvideo&#39;s
 
@@ -302,5 +303,9 @@ Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leid
 * Eigenschappen maken
 * Gebruikers toevoegen
 * Implementatie bijwerken
+
+>[!NOTE]
+>
+>De gebruikersinterface van het [!DNL Target] menu (voorheen [!UICONTROL Administration] [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
