@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 
@@ -17,10 +20,11 @@ Informatie om u te helpen een globale mbox voor zowel at.js als mbox.js aanpasse
 
 1. Bewerk mbox.js.
 
-   Ga naar **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
+   Ga naar **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * Klik voor mbox.js **[!UICONTROL Edit mbox.js Settings]**.
    * Selecteer [!DNL at.js]bijvoorbeeld **[!UICONTROL at.js]** onder Implementatiemethode en klik op **[!UICONTROL Edit mbox.js Settings]**.
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. Bewerken [!DNL mbox.js] of [!DNL at.js].
