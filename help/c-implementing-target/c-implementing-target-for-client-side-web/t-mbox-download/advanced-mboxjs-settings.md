@@ -4,7 +4,10 @@ description: Informatie die u helpt bij het instellen van verschillende instelli
 title: mbox.js configureren
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 2%
 
 ---
 
@@ -23,17 +26,17 @@ De volgende instellingen zijn beschikbaar:
 
 De clientcode voor uw account.
 
-Bij weergave [!UICONTROL Setup > Implementation > Edit Mbox.js Settings]is de client bovenaan de clientcode voor uw account.
+Bij weergave [!UICONTROL Administration > Implementation]is de client bovenaan de clientcode voor uw account.
 
 ## Time-out
 
-The Target request timeout.
+De time-out voor Target-verzoeken.
 
-Bij weergave [!UICONTROL Setup > Implementation > Edit Mbox.js Settings]is de time-out voor time-out na compressieniveau de time-out voor uw doelverzoek. Deze waarde wordt standaard ingesteld op 15 seconden, maar u wordt aangeraden deze waarde in te stellen op een waarde tussen 2 seconden en 5 seconden.
+Bij weergave [!UICONTROL Administration > Implementation]is de instelling Time-out (seconden) de time-out voor Target-verzoeken. Deze waarde wordt standaard ingesteld op 15 seconden, maar u wordt aangeraden deze waarde in te stellen op een waarde tussen 2 seconden en 5 seconden.
 
 ## XDomain
 
-Bepaalt of browser koekjes in uw eigen domein (1st partijkoekjes), het domein van het Doel, of allebei plaatst.
+Hiermee bepaalt u of de browser cookies instelt in uw eigen domein (cookies van de eerste partij), in het Target-domein of in beide.
 
 Het wijzigen van deze instelling heeft invloed op zowel mbox.js als at.js.
 
@@ -78,11 +81,11 @@ Bevat alle extra JavaScript die u op elke pagina wilt uitvoeren.
 
 ## Insteekmodule SiteCatalyst
 
-Schakelt de plug-in Analytics Target in.
+Hiermee schakelt u de Analytics Target-plug-in in.
 
-Als deze optie is ingeschakeld, genereert de plug-in Analytics plug-incode in mbox.js. Hiermee worden de gegevens van de Analytics-tag naar de doelservers verzonden als een box request op elke pagina die is gelabeld met Analytics.
+Als deze optie is ingeschakeld, genereert de Analytics-insteekmodule de insteekcode in mbox.js. Hiermee worden Analytics-taggegevens naar Target-servers verzonden als een box request op elke pagina die is gelabeld met Analytics.
 
-Er moet nog steeds naar de plug-in Analytics op de pagina worden verwezen.
+Er moet nog steeds naar de Analytics-plug-in worden verwezen op de pagina.
 
 ## secureOnly
 
