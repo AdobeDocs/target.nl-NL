@@ -5,9 +5,9 @@ title: 'Opmerkingen bij de release van Adobe Target (huidige) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,12 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
+
+## te.js 2.3.2 (24 juli 2020)
+
+Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:
+
+* Het probleem is opgelost wanneer een script of code een standaardeigenschap aan het venster of document toevoegt.
 
 ## Target Standard/Premium 20.7.1 (27 juli 2020)
 
