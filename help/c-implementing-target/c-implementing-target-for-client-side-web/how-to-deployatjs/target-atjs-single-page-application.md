@@ -1,11 +1,14 @@
 ---
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
-description: Informatie die Adobe Target in.js 2.x moet gebruiken voor de implementatie van Single Page Applications (SPAs).
-title: Toepassing van één pagina in Adobe Target
+description: Informatie om Adobe Target in.js 2.x te gebruiken om de Toepassingen van de Enige Pagina (SPAs) uit te voeren.
+title: Implementatie van één pagina-toepassing in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2749'
+ht-degree: 1%
 
 ---
 
@@ -26,15 +29,15 @@ Hier volgen enkele voordelen van het gebruik van at.js 2.x die niet beschikbaar 
 
 ## Adobe Target Views and Single Page Applications
 
-Het doel VEC van Adobe voor SPAs haalt voordeel uit een nieuw concept genoemd Bekijken: een logische groep van visuele elementen die samen omhoog een ervaring van het KUUROORD maken. Een KUUROORD kan daarom als transitioning door meningen, in plaats van URLs worden beschouwd, die op gebruikersinteractie wordt gebaseerd. Een weergave kan doorgaans een hele site of gegroepeerde visuele elementen binnen een site vertegenwoordigen.
+Adobe Target VEC voor SPAs haalt voordeel uit een nieuw concept genoemd Bekijken: een logische groep van visuele elementen die samen omhoog een ervaring van het KUUROORD maken. Een KUUROORD kan daarom als transitioning door meningen, in plaats van URLs worden beschouwd, die op gebruikersinteractie wordt gebaseerd. Een weergave kan doorgaans een hele site of gegroepeerde visuele elementen binnen een site vertegenwoordigen.
 
 Als u meer wilt weten over de weergaven, navigeert u naar deze hypothetische online e-commercesite die u in Reageren hebt geïmplementeerd en verkent u enkele voorbeeldweergaven. Klik op de onderstaande koppelingen om deze site te openen in een nieuw browsertabblad.
 
-**Koppeling:[Homesite](https://target.enablementadobe.com/react/demo/#/)**
+**Koppeling:[Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
 ![thuissite](/help/c-experiences/assets/home.png)
 
-Wanneer we naar de thuissite gaan, zien we meteen een hoofdafbeelding die een paasverkoop bevordert en de nieuwste producten die op de site worden verkocht. In dit geval, kan een Mening als volledige homesite worden gedefinieerd. Dit is handig om op te merken, aangezien we dit verder zullen uitvouwen in de sectie Adobe Target Views hieronder implementeren.
+Wanneer we naar de thuissite gaan, zien we meteen een hoofdafbeelding die een paasverkoop bevordert en de nieuwste producten die op de site worden verkocht. In dit geval, kan een Mening als volledige homesite worden gedefinieerd. Dit is handig om op te merken, aangezien we hier meer over zullen doen in de sectie Adobe Target-weergaven implementeren hieronder.
 
 **Koppeling:[Productsite](https://target.enablementadobe.com/react/demo/#/products)**
 
@@ -60,15 +63,15 @@ Bovendien kan het concept van de standpunten veel verder worden uitgebreid. Als 
 
 Marktdeelnemers kunnen nu een A/B-test uitvoeren om te zien of het wijzigen van de kleur van blauw in rood wanneer Express Delivery is geselecteerd, conversies kan stimuleren in plaats van de knopkleur blauw te houden voor beide leveringsopties.
 
-## Adobe-doelweergaven implementeren
+## Adobe Target-weergaven implementeren
 
-Nu wij hebben behandeld wat de Weergaven van het Doel van Adobe zijn, kunnen wij hefboomwerking dit concept in Doel aan makend marketers om tests A/B en XT op SPAs via VEC in werking te stellen. Hiervoor is een eenmalige ontwikkelaarsinstelling vereist. Laten we de stappen doorlopen om dit in te stellen.
+Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefboomwerking dit concept in Target aan machtigen marktleiders om tests A/B en XT op SPAs via VEC in werking te stellen. Hiervoor is een eenmalige ontwikkelaarsinstelling vereist. Laten we de stappen doorlopen om dit in te stellen.
 
 1. Installeer om 0.js 2.x.
 
-   Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPAs in mening. Eerdere versies van at.js en mbox.js bieden geen ondersteuning voor Adobe Target Views en VEC for SPAs.
+   Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPAs in mening. Eerdere versies van at.js en mbox.js ondersteunen geen Adobe Target Views en VEC voor SPAs.
 
-   Download bestand.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Setup > Implementatie]. at.js 2.x kan ook worden geïmplementeerd via Adobe Launch. De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download deze bestanden vanaf 2.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via Adobe Launch. De Adobe Target Extensions zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
 1. Implementeer de nieuwste functie van .js 2.x `triggerView()` op uw sites.
 
@@ -78,13 +81,13 @@ Nu wij hebben behandeld wat de Weergaven van het Doel van Adobe zijn, kunnen wij
 
    | Parameter | Type | Vereist? | Validatie | Beschrijving |
    | --- | --- | --- | --- | --- |
-   | viewName | String | Ja | 1. Geen navolgende spaties.<br>2. Kan niet leeg zijn.<br>3. De weergavenaam moet uniek zijn voor alle pagina&#39;s.<br>4. **Waarschuwing**: De weergavenaam mag niet beginnen of eindigen met &#39;`/`&#39;. De reden hiervoor is dat de klant doorgaans de weergavenaam uit het URL-pad haalt. Voor ons zijn &quot;thuis&quot; en &quot;`/home`&quot; anders.<br>5. **Waarschuwing**: Dezelfde weergave mag niet meerdere keren achter elkaar worden geactiveerd met de `{page: true}` optie. | Geef een willekeurige naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze naam van Mening toont in het paneel van [!UICONTROL Wijzigingen] van VEC voor marketers om acties tot stand te brengen en hun activiteiten A/B en XT in werking te stellen. |
+   | viewName | String | Ja | 1. Geen navolgende spaties.<br>2. Kan niet leeg zijn.<br>3. De weergavenaam moet uniek zijn voor alle pagina&#39;s.<br>4. **Waarschuwing**: De weergavenaam mag niet beginnen of eindigen met &#39;`/`&#39;. De reden hiervoor is dat de klant doorgaans de weergavenaam uit het URL-pad haalt. Voor ons zijn &quot;thuis&quot; en &quot;`/home`&quot; anders.<br>5. **Waarschuwing**: Dezelfde weergave mag niet meerdere keren achter elkaar worden geactiveerd met de `{page: true}` optie. | Geef een willekeurige naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze naam van Mening toont in het [!UICONTROL Modifications] paneel van VEC voor marketers om acties tot stand te brengen en hun activiteiten A/B en XT in werking te stellen. |
    | opties | Object | Nee |  |  |
    | opties > pagina | Boolean | Nee |  | **TRUE**: De standaardwaarde van de pagina is true. Wanneer `page=true`, zullen de berichten naar de servers van de Rand voor het verhogen van immentatietelling worden verzonden.<br>**FALSE **: Wanneer`page=false`worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
 
    Nu ga door één of ander voorbeeld gebruiksgevallen op hoe te om de `triggerView()` functie in Reageren voor onze hypothetische e-commerce SPA aan te halen:
 
-   **Koppeling:[Homesite](https://target.enablementadobe.com/react/demo/#/)**
+   **Koppeling:[Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-response-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +118,7 @@ Nu wij hebben behandeld wat de Weergaven van het Doel van Adobe zijn, kunnen wij
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Koppeling: Site voor[producten](https://target.enablementadobe.com/react/demo/#/products)**
+**Koppeling:[Productsite](https://target.enablementadobe.com/react/demo/#/products)**
 
 Laten we nu een voorbeeld bekijken dat wat gecompliceerder is. Als marketers willen we bijvoorbeeld de tweede rij van de producten aanpassen door de labelkleur &quot;Prijs&quot; in rood te wijzigen nadat een gebruiker op de knop Meer laden heeft geklikt.
 
@@ -187,22 +190,22 @@ Marketers willen nu een A/B-test uitvoeren om te zien of het wijzigen van de kle
 
 De volgende diagrammen helpen u het werkschema van at.js 2.x met Meningen begrijpen en hoe dit de integratie van het KUUROORD verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
 
-![Doelstroom met at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Target-stroom met at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Stap | Details |
 | --- | --- |
 | 1 | De vraag keert terug [!DNL Experience Cloud ID] als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
-| 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld een publiek dat wordt gedeeld via Adobe Analytics, Audience Management, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
+| 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld een publiek dat wordt gedeeld vanuit Adobe Analytics, Audience Management, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een KUUROORD worden getoond die in browser in het voorgeheugen wordt opgeslagen zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door `triggerView()`. worden teweeggebracht. |
-| 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
-| 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
+| 7 | Analytics-gegevens worden verzonden naar gegevensverzamelingsservers. |
+| 8 | Gericht gegeven wordt aangepast aan de gegevens van Analytics via SDID en verwerkt in de Analytics rapporteringsopslag.<br>Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via Analytics for Target (A4T)-rapporten. |
 
 Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker zonder een servervraag getoond. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren.
 
-![Doelstroom bij.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Target flow at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Stap | Details |
 | --- | --- |
@@ -210,8 +213,8 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Aanvraag voor meldingen wordt naar de [!DNL Target] profielenwinkel verzonden om de bezoeker te tellen in de activiteit en incrementele metingen. |
-| 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
-| 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
+| 5 | Analytics-gegevens verzonden naar gegevensverzamelingsservers. |
+| 6 | Target-gegevens worden gekoppeld aan Analytics-gegevens via de SDID en worden verwerkt in de Analytics-rapportageopslag. Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via A4T-rapporten. |
 
 ## Single Page App Visual Experience Composer
 
@@ -223,7 +226,7 @@ Nadat u klaar bent met het installeren van at.js 2.x en het toevoegen `triggerVi
 
 ## Gebruik TriggerView om ervoor te zorgen dat A4T correct met at.js 2.x en SPAs werkt {#triggerview}
 
-Om ervoor te zorgen dat [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) correct met at.js 2.x werkt, ben zeker om zelfde SDID in het verzoek van het Doel en in het verzoek van Analytics te verzenden.
+Om ervoor te zorgen dat [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) correct met at.js 2.x werkt, moet u dezelfde SDID verzenden in het Target-verzoek en in het Analytics-verzoek.
 
 Als beste praktijken met betrekking tot SPAs:
 
@@ -233,7 +236,7 @@ Als beste praktijken met betrekking tot SPAs:
 
 at.js 2.x heeft een nieuwe API-functie [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) toegevoegd. Gebruik deze optie `triggerView()` om at.js te laten weten dat een weergave begint met renderen.
 
-Een voorbeeld bekijken om te zien hoe u aangepaste gebeurtenissen, in.js 2.x en Analytics kunt combineren. In dit voorbeeld wordt ervan uitgegaan dat de HTML-pagina de Bezoeker-API bevat, gevolgd door at.js 2.x, gevolgd door AppMeasurement.
+Een voorbeeld bekijken om te zien hoe u aangepaste gebeurtenissen, in.js 2.x en Analytics, kunt combineren. In dit voorbeeld wordt ervan uitgegaan dat de HTML-pagina de Bezoeker-API bevat, gevolgd door at.js 2.x, gevolgd door AppMeasurement.
 
 Laten we aannemen dat de volgende aangepaste gebeurtenissen bestaan:
 
@@ -312,10 +315,10 @@ Zie [Begrijpen hoe at.js 2.x voor meer informatie werkt](https://helpx.adobe.com
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Zie Adobe Target&#39;s at.js 2.x [implementeren in een Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) voor meer informatie.
+Zie Adobe Target [uitvoeren at.js 2.x in Één enkele Toepassing van de Pagina (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) voor meer informatie.
 
-### De VEC voor SPA&#39;s gebruiken in de badge voor ![zelfstudie van Adobe Target](/help/assets/tutorial.png)
+### Het gebruiken van VEC voor SPAs in de badge van het ![Leerprogramma van Adobe Target](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Zie [het Gebruiken van Composer van de Visuele Ervaring voor Enige Toepassing van de Pagina (SPA VEC) in het Doel](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) van Adobe voor meer informatie.
+Zie het [Gebruiken van de Visuele Composer van de Ervaring voor Enige Toepassing van de Pagina (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) voor meer informatie.
