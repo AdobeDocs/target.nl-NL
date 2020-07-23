@@ -6,9 +6,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,14 @@ Omdat mboxTrace en mboxDebug campagnegegevens en profielgegevens aan externe par
 
 Om het toestemmingstoken terug te winnen:
 
-1. Klik op **[!UICONTROL Setup]** > **[!UICONTROL Implementation]**.
-1. Selecteer **[!UICONTROL mbox.js]** of **[!UICONTROL at.js]**.
-1. Klik op **[!UICONTROL Generate Authentication Token]**.
+1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Klik in de sectie Foutopsporingsgereedschappen op **[!UICONTROL Generate New Authentication Token]**.
 
-   ![Token voor autorisatie genereren](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![Nieuwe verificatietoken genereren](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. Voeg het gegenereerde token als parameter toe aan uw URL om een van de geavanceerde foutopsporingsprogramma&#39;s in te schakelen.
 
-   ![Token voor autorisatie](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![Token voor autorisatie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
