@@ -5,9 +5,9 @@ title: Omgevingen
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Omgevingen
 
 Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
-
->[!NOTE]
->
->De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Gastheren worden gebundeld in omgevingen voor eenvoudig beheer. U hebt bijvoorbeeld tientallen hosts gegroepeerd in twee of drie omgevingen. De vooraf ingestelde omgevingen omvatten [!UICONTROL Production], [!UICONTROL Staging]en [!UICONTROL Development]. U kunt nieuwe omgevingen toevoegen en desgewenst de naam van uw omgeving wijzigen.
 
