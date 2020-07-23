@@ -5,9 +5,9 @@ title: 'Opmerkingen bij de release van Adobe Target (huidige) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 0%
 
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke release van Target Standard en Target Premium. Daarnaast worden releaseopmerkingen voor Target API&#39;s, SDK&#39;s, de JavaScript-bibliotheek (at.js) en andere platformwijzigingen, indien van toepassing, ook opgenomen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->* **afdruk** mbox.js: Op 30 augustus 2020 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 30 augustus 2020 zullen alle aanroepen van mbox.js op elegante wijze mislukken en van invloed zijn op uw pagina&#39;s waarop Target-activiteiten worden uitgevoerd door de standaardinhoud te bedienen. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Voor meer informatie, zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) At.js en [de Bouwer van de Vaardigheid van Adobe Target: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+>* **Adobe noemde opnieuw een leider in het Magisch Kwadrant van Gartner voor Personalisatietechnieken**: Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, 2020-rapport. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid. [Lees hier meer over op het Adobe-blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+   >
+   >
+* **afdruk** mbox.js: Op 30 augustus 2020 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 30 augustus 2020 zullen alle aanroepen van mbox.js op elegante wijze mislukken en van invloed zijn op uw pagina&#39;s waarop Target-activiteiten worden uitgevoerd door de standaardinhoud te bedienen. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Voor meer informatie, zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) At.js en [de Bouwer van de Vaardigheid van Adobe Target: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >   
    Hoewel mbox.js momenteel wordt ondersteund, hebben we sinds juli 2017 geen functie-updates voor deze bibliotheek beschikbaar gesteld. Het nieuwere bestand at.js biedt veel voordelen ten opzichte van mbox.js. Met at.js verbetert u onder andere de laadtijden van pagina&#39;s voor webimplementaties, verbetert u de beveiliging en biedt u betere implementatieopties voor toepassingen op één pagina.
@@ -33,28 +36,33 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
-## Target Standard/Premium 20.5.1 (17 juni 2020)
+## Target Standard/Premium 20.7.1 (27 juli 2020)
 
-| Functie/verbetering | Beschrijving |
-| --- | --- |
-| Analytics for Target (A4T)-ondersteuning voor [!UICONTROL Auto-Allocate] activiteiten | [!UICONTROL Auto-Allocate] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Deze integratie staat u toe om het [!UICONTROL Auto-Allocate] multi-gewapende bandit vermogen te gebruiken om verkeer aan het winnen van ervaringen te drijven, terwijl het gebruiken van een [!UICONTROL Adobe Analytics] doel metrisch en/of [!UICONTROL Adobe Analytics] rapporteringsen analysemogelijkheden.<br>Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar!<br>Zie [Analytics for Target (A4T)-ondersteuning voor Auto-Allocate-activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie. |
-| De tokens van de reactie voor de Methode van de Toewijzing van het Verkeer voor auto-Target en Geautomatiseerde Personalisatieactiviteiten | Er zijn twee [reactietokens](/help/administrating-target/response-tokens.md) toegevoegd aan [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten om te kunnen bepalen of een bezoeker een bepaalde ervaring heeft opgedaan als gevolg van zijn toewijzing aan &quot;controle&quot; of aan &quot;gericht&quot; verkeer.<ul><li>`experience.trafficAllocationId` 0 als een bezoeker ervaring heeft opgedaan met &quot;controle&quot;-verkeer en 1 als een bezoeker een ervaring heeft opgedaan met &quot;gerichte&quot; verkeersdistributie.</li><li>`experience.trafficAllocationType` retourneert &quot;control&quot; of &quot;target&quot;.</li></ul>Voor meer informatie over controle versus gericht verkeer, zie [Selecteer de controle voor uw Geautomatiseerde Personalisatie of auto-Target activiteit](/help/c-activities/t-automated-personalization/experience-as-control.md). |
-| [!UICONTROL Publisher] rol | Deze nieuwe rol is vergelijkbaar met de huidige [!UICONTROL Observer] rol (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De [!UICONTROL Publisher] rol heeft echter de extra toestemming om activiteiten te activeren.<br>Zie voor meer informatie: <ul><li>**Target Standard-gebruikers**: [Geef rollen en machtigingen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) op in *Gebruikers*.</li><li>**Target Premium-gebruikers**: [Stap 6: Specificeer rollen en toestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configure ondernemingstoestemmingen*.</li></ul> |
-| A4T-ondersteuning op 25 [!DNL Analysis Workspace]<br>juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wordt nu ondersteund in [!DNL Analysis Workspace]. Met [!UICONTROL Analytics for Target (A4T) panel] deze functie kunt u uw [!DNL Adobe Target] activiteiten en ervaringen analyseren in [!DNL Analysis Workspace].<br>Zie [Rapporten in Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) in *A4T-rapportage* en het deelvenster [Target (A4T) in de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics Tools Guide ** voor meer informatie. |
+Deze release bevat de volgende wijzigingen:
+
+### [!UICONTROL Administration] sectie-UI vernieuwen
+
+We herschrijven geleidelijk de gehele [!DNL Target] gebruikersinterface met behulp van een nieuwe technologiestapel om verbeterde prestaties te kunnen bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De eerste sectie die is vernieuwd, is de [!UICONTROL Setup] sectie, die is hernoemd [!UICONTROL Administration].
+
+Als onderdeel van deze vernieuwing kunt u gemakkelijk veel handelingen uitvoeren met de pagina&#39;s in de [!UICONTROL Administration] sectie, zoals:
+
+* Download het meest recente bestand at.js van het [!UICONTROL Implementation] tabblad (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Pas de instellingen op at.js aan en bekijk de wijzigingen eenvoudig (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Wijzig verbeterde rapporteringsmontages, zoals de standaardmunt en tijdzone, IPs om van rapportering uit te sluiten, etc. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
+* IP-adressen van bezoekers om privacyredenen verduisteren (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
+* Bekijk de bestaande lijst met gebruikers per werkruimte en hun rollen voordat u deze in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**) beheert.
+* Alle tabellen in de [!UICONTROL Administration] sectie zoeken en filteren.
+
+Zie [Target-overzicht](/help/administrating-target/administrating-target.md)beheren voor meer informatie.
 
 ### Verbeteringen, correcties en wijzigingen
 
-* Probleem verholpen waarbij de metrische waarde &quot;bezoekers&quot; werd opgeslagen in de definitie van de activiteit in plaats van &quot;UniqueVisitors&quot;. (TGT-37098)
-* Probleem verholpen in de [!DNL Target] gebruikersinterface die ervoor zorgde dat de verticale schuifbalk niet correct op de [!UICONTROL Audiences] pagina werkte. (TGT-36968)
+Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
-## releases (15 juni 2020) om 1.js 1.8.2 en om 2.3.1.
-
-De volgende verbeteringen en correcties zijn aangebracht in de bibliotheken [!DNL Target] at.js:
-
-| Functie/verbetering | Beschrijving |
-| --- | --- |
-| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
-| om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` instelling is overschreven via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35065)</li><li>Probleem verholpen bij het gebruik van de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie, [!DNL Launch] waarmee de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep werd vertraagd. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
+* Probleem verholpen waarbij sitevoorkeuren niet konden worden behouden na vernieuwen. (TGT-37239)
+* Probleem verholpen waarbij het functioneren van > [!UICONTROL Insert After] [!UICONTROL Image] met SVG-afbeeldingen (Scalable Vector Graphics) werd verhinderd. (TGT-37242)
+* Oplossing voor een probleem voor gebruikers met de [!UICONTROL Publisher] rol die het verwijderen van conceptactiviteiten heeft verhinderd. (TGT-37358)
+* Probleem verholpen waardoor gebruikers een activiteit niet konden bewerken wanneer deze [!UICONTROL All My Workspaces] is geselecteerd. (TGT-37276)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
