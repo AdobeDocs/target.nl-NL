@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 # Reactietokens{#response-tokens}
 
 Met responstokens kunt u automatisch informatie uitvoeren die specifiek is voor [!DNL Target] (activiteitsdetails, gebruikersprofielinformatie, geografische informatie enzovoort) en die u kunt gebruiken bij foutopsporing of integratie met systemen van derden (zoals Clicktale).
-
->[!NOTE]
->
->De informatie in dit onderwerp is bijgewerkt om u een sluimerpiek bij de veranderingen te geven UI die in Target Standard/Premium 20.6.1 versie (Juli 2020) komen. De meeste informatie die in dit onderwerp wordt voorgesteld is op huidige UI van toepassing; de opties kunnen zich echter op iets andere locaties bevinden .
 
 Met reactietokens kunt u kiezen welke variabelen u wilt gebruiken en deze vervolgens inschakelen als onderdeel van een Target-reactie. Om dit te doen, laat u eenvoudig een variabele toe gebruikend de schakelaar en de variabele zal met de reacties van Target worden verzonden, die in netwerkvraag kunnen worden bevestigd. De tekenen van de reactie werken ook op [!UICONTROL Preview] wijze.
 
@@ -33,7 +29,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 | Target-bibliotheek in gebruik | Voorgestelde handelingen |
 |--- |--- |
 | at.js | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)van de Versie.<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Bepaalde plug-ins die afhankelijk zijn van interne methoden die in mbox.js bestaan, maar niet in at.js, worden geleverd, maar mislukken. Zie [Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)in.js voor meer informatie. |
-| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en reactietokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Target Classic (november 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande plugins uit te geven of onbruikbaar te maken. U moet de insteekmodules hebben gecontroleerd voordat Target Classic is vervangen en ongewenste insteekmodules hebben uitgeschakeld.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en respontokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Target Classic (november 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande plugins uit te geven of onbruikbaar te maken. U moet de insteekmodules hebben gecontroleerd voordat Target Classic is vervangen en ongewenste insteekmodules hebben uitgeschakeld.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
 ## Reactiepunten gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -291,5 +287,9 @@ Het equivalent van de ttMeta-insteekmodule voor foutopsporingsdoeleinden kan wor
 ## Trainingsvideo: Antwoordtokens en badge voor aangepaste gebeurtenissen {#section_3AA0A6C8DBD94A528337A2525E3E05D5} in de ![zelfstudie at.js](/help/assets/tutorial.png)
 
 Bekijk de volgende video om te leren hoe u responstokens en aangepaste gebeurtenissen at.js kunt gebruiken om profielgegevens van Target naar systemen van derden te delen.
+
+>[!NOTE]
+>
+>De gebruikersinterface van het [!DNL Target] menu (voorheen [!UICONTROL Administration] [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
