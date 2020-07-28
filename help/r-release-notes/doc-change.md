@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,10 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 28 juli | [De rapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)van de Inzichten van de Personalisatie, het<br>[Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)van Segmenten,<br>en het [Belangrijke rapport van Attributen](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Bijgewerkte tekst in de notitie. |
+| 28 juli | [De rapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)van de Inzichten van de Personalisatie, het<br>[Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)van Segmenten,<br>en het [Belangrijke rapport van Attributen](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Bijgewerkte tekst in de nota bij de bovenkant van de onderwerpen. |
+|  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een activiteit voor automatisch toewijzen?</li><li>Hoe wijst de auto-Wijs bouwmodellen met betrekking tot milieu&#39;s toe?</li></ul> |
+|  | [Auto-Target](/help/c-activities/auto-target-to-optimize.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een Auto-Target-activiteit?</li></ul>Bijgewerkte tekst in de sectie &quot;Overwegingen&quot;. |
+|  | [Veelgestelde vragen over Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een Automated Personalization-activiteit?</li><li>Hoe bouwt Automated Personalization modellen met betrekking tot omgevingen?</li></ul> |
 |  | [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Extra informatie over Internet Explorer en onbekende elementen. |
 |  | [Klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | De volgende alinea is bijgewerkt:<br>[!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de database worden toegevoegd [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij [!DNL Target]de toepassing. In ons huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt. |
 | 27 juli | [Target beheren](/help/administrating-target/administrating-target.md) | Bijgewerkte tekst in alle verbonden onderwerpen op deze pagina om op de nieuwe veranderingen UI voor de [!UICONTROL Administration] pagina&#39;s te wijzen. |
