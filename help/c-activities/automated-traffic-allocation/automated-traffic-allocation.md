@@ -5,9 +5,9 @@ title: Automatisch toewijzen
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3124'
+source-wordcount: '3310'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Automatisch toewijzen voert alle impliciete vergelijkingen tussen ervaringen uit
 
 Automatisch toewijzen wijst nieuwe bezoekers op intelligente wijze toe aan ervaringen totdat de betrouwbaarheidsinterval van de beste ervaring niet overlapt met die van een andere ervaring. Normaal zou dit proces valse positieven kunnen veroorzaken, maar auto-Wijs gebruikt betrouwbaarheidsintervallen die op de Ongelijkheid [van](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) Bernstein worden gebaseerd die voor herhaalde evaluaties compenseert. Op dit moment hebben we een echte winnaar. Wanneer Automatisch toewijzen stopt, mits de bezoekers die op de pagina aankomen niet in aanzienlijke mate afhankelijk zijn van de tijd, is er ten minste een kans van 95% dat automatisch toewijzen een ervaring retourneert waarvan de werkelijke respons niet minder is dan 1% (relatief) dan de werkelijke respons van de winnende ervaring.
 
-## Wanneer om Auto-Toewijzing tegenover A/B of Geautomatiseerde Personalisatie te gebruiken {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Wanneer wordt Automatisch toewijzen gebruikt in plaats van A/B of Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Gebruik **Automatisch toewijzen** als u uw activiteiten vanaf het begin wilt optimaliseren en de winnende ervaringen zo snel mogelijk wilt identificeren. Doordat de prestaties van de activiteit in het algemeen vaker worden verbeterd, zijn de prestaties beter afgestemd op de prestaties.
 * Gebruik een standaard **[A/B-test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**als u de prestaties van alle ervaringen wilt karakteriseren voordat u uw site optimaliseert. Een A/B test helpt u al uw ervaringen te rangschikken, terwijl de Geautomatiseerde Toewijzing van het Verkeer hoogste uitvoerders vindt maar geen verschil tussen de lagere uitvoerders garandeert.
-* Gebruik [Geautomatiseerde personalisatie](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) wanneer u optimalisatiealgoritmen van de hoogste ingewikkeldheid, zoals machine-leert modellen wilt die voorspellingen bouwen die op individuele profielattributen worden gebaseerd. De geautomatiseerde Toewijzing van het Verkeer kijkt naar het gezamenlijke gedrag van ervaringen (enkel als standaard A/B tests), en maakt geen onderscheid tussen bezoekers.
+* Gebruik [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) wanneer u optimalisatiealgoritmen van de hoogste complexiteit wilt gebruiken, zoals computerleermodellen die voorspellingen bouwen op basis van individuele profielkenmerken. De geautomatiseerde Toewijzing van het Verkeer kijkt naar het gezamenlijke gedrag van ervaringen (enkel als standaard A/B tests), en maakt geen onderscheid tussen bezoekers.
 
 ## Belangrijkste voordelen {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -143,7 +143,7 @@ Nee. Alleen nieuwe bezoekers worden automatisch toegewezen. De terugkerende bezo
 
 ### Hoe behandelt het algoritme valse positieven?
 
-Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten onrechte als u wacht tot de winnaar-badge wordt weergegeven.
+Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten opzichte van false als u wacht tot de winnaar wordt weergegeven.
 
 ### Wanneer begint de auto-Toewijzing verkeer toe te wijzen?
 
@@ -161,9 +161,9 @@ Ja. De multigewapende bandit zorgt ervoor dat minstens 20% van het verkeer wordt
 
 Zolang alle ervaringen die worden geoptimaliseerd met gelijkaardige vertragingen worden geconfronteerd, is het gedrag het zelfde als een activiteit met een snellere omzettingscyclus, hoewel het langer zal duren om de 50 omzettingsdrempel te bereiken alvorens het proces van de verkeerstoewijzing begint.
 
-### Hoe verschilt Automatisch toewijzen van geautomatiseerde personalisatie?
+### Hoe verschilt Automatisch toewijzen van Automated Personalization?
 
-Bij Geautomatiseerde personalisatie worden de profielkenmerken van elke bezoeker gebruikt om de beste ervaring te bepalen. Hierdoor wordt niet alleen de activiteit geoptimaliseerd, maar wordt ook de activiteit voor die gebruiker aangepast.
+Automated Personalization gebruikt de profielkenmerken van elke bezoeker om de beste ervaring te bepalen. Hierdoor wordt niet alleen de activiteit geoptimaliseerd, maar wordt ook de activiteit voor die gebruiker aangepast.
 
 Auto-Allocate daarentegen is een A/B test die een gezamenlijke winnaar (de populairste ervaring, maar niet noodzakelijk de meest efficiënte ervaring voor elke bezoeker) produceert.
 
@@ -188,6 +188,18 @@ Er is echt geen reden om een ondermaatse ervaring te verwijderen. Automatisch to
 Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
 
 Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
+
+### Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een activiteit voor automatisch toewijzen?
+
+Het gebruik van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Allocate] activiteiten wordt niet voorgesteld. Hoewel de zichtbare rapportgegevens worden verwijderd, worden met deze optie niet alle trainingsrecords uit het [!UICONTROL Auto-Allocate] model verwijderd. In plaats van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Allocate] activiteiten te gebruiken, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Opmerking: Deze leidraad is ook van toepassing op [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten.)
+
+### Hoe wijst de auto-Wijs bouwmodellen met betrekking tot milieu&#39;s toe?
+
+[!UICONTROL Auto-Allocate] bouwt modellen die op het verkeer en omzettingsgedrag worden gebaseerd dat in het standaardmilieu slechts wordt geregistreerd. Standaard [!UICONTROL Production] is dit de standaardomgeving, maar dit kan worden gewijzigd in Target [Administration > Environment](/help/administrating-target/environments.md).
+
+Als een treffer in een andere (niet gebrek) milieu voorkomt, zal het verkeer volgens het waargenomen omzettingsgedrag in het standaardmilieu worden verdeeld. Het resultaat van die treffer (conversie of niet-conversie) wordt geregistreerd voor rapportagedoeleinden, maar wordt niet in het [!UICONTROL Auto-Allocate] model in aanmerking genomen.
+
+Wanneer het selecteren van een ander milieu, zal het rapport verkeer en omzettingen voor dat milieu tonen. De standaard geselecteerde omgeving voor een rapport zal altijd de standaard voor de hele account zijn die is geselecteerd. De standaardomgeving kan niet per activiteit worden ingesteld.
 
 ## Trainingsvideo&#39;s {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
