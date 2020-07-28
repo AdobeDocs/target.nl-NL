@@ -4,9 +4,9 @@ title: Auto-Target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3423'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,22 @@ Tijdens het [maken van een A/B-activiteit met behulp van de driestappenworkflow]
 
 Met de [!UICONTROL Auto-Target] optie in de activiteitsstroom A/B kunt u automatisch leren aanpassen op basis van een set markeerervaringen met één klik. [!UICONTROL Auto-Target] is ontworpen voor maximale optimalisatie in vergelijking met traditionele A/B-tests of Automatische toewijzing, door te bepalen welke ervaring voor elke bezoeker moet worden weergegeven. In tegenstelling tot een A/B-activiteit waarbij het doel is één winnaar te vinden, bepaalt [!UICONTROL Auto-Target] automatisch de beste ervaring voor een bepaalde bezoeker (op basis van zijn of haar profiel en andere contextuele informatie) om een zeer gepersonaliseerde ervaring te leveren.
 
-Op dezelfde manier als Geautomatiseerde Personalisatie, [!UICONTROL Auto-Target] gebruikt een Willekeurig algoritme van het Bos, een belangrijke methode van het samenstellen van de gegevenswetenschap, om de beste ervaring te bepalen om aan een bezoeker te tonen. Omdat [!UICONTROL Auto-Target] u zich kunt aanpassen aan wijzigingen in het gedrag van de bezoeker, kunt u deze altijd uitvoeren om een lift te maken. Dit wordt soms ook wel de &quot;always-on&quot;-modus genoemd.
+Op dezelfde manier als Automated Personalization, gebruikt [!UICONTROL Auto-Target] een Random Forest-algoritme, een toonaangevende methode voor het samenvoegen van gegevenswetenschap, om de beste ervaring te bepalen die aan een bezoeker moet worden getoond. Omdat [!UICONTROL Auto-Target] u zich kunt aanpassen aan wijzigingen in het gedrag van de bezoeker, kunt u deze altijd uitvoeren om een lift te maken. Dit wordt soms ook wel de &quot;always-on&quot;-modus genoemd.
 
 In tegenstelling tot een activiteit A/B waarin de ervaringstoewijzing voor een bepaalde bezoeker kleverig is, [!UICONTROL Auto-Target] optimaliseert het gespecificeerde bedrijfsdoel over elk bezoek. Als binnen, [!UICONTROL Auto Personalization][!UICONTROL Auto-Target]door gebrek, reserveert een deel van het verkeer van de activiteit als controlegroep om lift te meten. Bezoekers in de controlegroep krijgen een willekeurige ervaring in de activiteit.
 
+## Overwegingen
+
 Houd rekening met het volgende wanneer u [!UICONTROL Auto-Target]:
 
-* U kunt niet een specifieke activiteit van [!UICONTROL Auto-Target] aan Geautomatiseerde Personalisatie, en vice versa schakelen.
+* U kunt een specifieke activiteit niet van [!UICONTROL Auto-Target] naar Automated Personalization, en vice versa schakelen.
 * U kunt niet van Handmatige verkeerstoewijzing (traditionele Test A/B) aan, [!UICONTROL Auto-Target], en vice versa schakelen nadat een activiteit levend is.
-* Wanneer het gebruiken van gastheren en milieu&#39;s (gastheergroepen), worden de modellen gebouwd voor het milieu van de &quot;Productie&quot;slechts. Alle omgevingen leveren gegevens op om modellen te maken voor ‘Productie’-campagnes.
+* Één model wordt gebouwd om de prestaties van de gepersonaliseerde strategie tegenover willekeurig gediend verkeer tegenover het verzenden van al verkeer naar het algemene winnen ervaring te identificeren. In dit model worden alleen resultaten en omzettingen in de standaardomgeving bekeken.
+
+   Het verkeer van een tweede reeks modellen wordt gebouwd voor elke modelleringsgroep (AP) of ervaring (AT). Voor elk van deze modellen worden hits en conversies in alle omgevingen in overweging genomen.
+
+   De verzoeken zullen daarom met hetzelfde model worden gediend, ongeacht het milieu, maar de pluraliteit van het verkeer zou van het standaardmilieu moeten komen om ervoor te zorgen dat de geïdentificeerde over het geheel genomen winnende ervaring verenigbaar met echt gedrag is.
+
 * U moet minimaal twee ervaringen gebruiken.
 
 ## Terminologie {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -51,12 +58,12 @@ De volgende termen zijn handig wanneer u discussieert over [!UICONTROL Auto-Targ
 
 ## Hoe [!UICONTROL Auto-Target] werkt {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
-Meer informatie over de gegevens en algoritmen die ten grondslag liggen aan [!UICONTROL Auto-Target] en Geautomatiseerde personalisatie vindt u op de volgende links:
+Meer informatie over de onderliggende gegevens en algoritmen [!UICONTROL Auto-Target] en Automated Personalization vindt u op de volgende links:
 
 | Term | Details |
 |--- |--- |
-| [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Het belangrijkste verpersoonlijkingsalgoritme van Target dat in zowel [!UICONTROL Auto-Target] als Geautomatiseerde Personalisatie wordt gebruikt is Willekeurig bos. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het algoritme Willekeurig bos in het geautomatiseerde verpersoonlijkingssysteem is een classificatie, of regressiemethode, die door een veelheid van beslissingsbomen in opleidingstijd te construeren werkt. |
-| [Gegevens uploaden voor Target Persoonlijke Algoritmen](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Er zijn verschillende manieren om gegevens in te voeren voor [!UICONTROL Auto-Target] en modellen voor automatische personalisatie. |
+| [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Het Target-hoofdpersonalisatiealgoritme dat zowel in [!UICONTROL Auto-Target] Automated Personalization als in Random Forest wordt gebruikt. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het algoritme Willekeurig bos in het geautomatiseerde verpersoonlijkingssysteem is een classificatie, of regressiemethode, die door een veelheid van beslissingsbomen in opleidingstijd te construeren werkt. |
+| [Gegevens uploaden voor Target Persoonlijke Algoritmen](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Er zijn verschillende manieren om gegevens in te voeren voor [!UICONTROL Auto-Target] Automated Personalization- en-modellen. |
 | [Gegevensverzameling voor Target-algoritmen voor personalisatie](/help/c-activities/t-automated-personalization/ap-data.md) | Target-verpersoonlijkingsalgoritmen verzamelen automatisch verschillende gegevens. |
 
 ## Verkeerstoewijzing bepalen {#section_AB3656F71D2D4C67A55A24B38092958F}
@@ -83,13 +90,13 @@ Klik op de pictogrammen in de kolom Toewijzing om het percentage voor besturing 
 
 U kunt een specifieke ervaring [selecteren om als controle](/help/c-activities/t-automated-personalization/experience-as-control.md) te gebruiken of u kunt de Willekeurige ervaringsoptie gebruiken.
 
-## Wanneer zou u over Geautomatiseerde Personalisatie moeten kiezen? [!UICONTROL Auto-Target] {#section_BBC4871C87944DD7A8B925811A30C633}
+## Wanneer moet je kiezen [!UICONTROL Auto-Target] over Automated Personalization? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-Er zijn verscheidene scenario&#39;s waar u zou kunnen verkiezen over Geautomatiseerde Personalisatie te gebruiken: [!UICONTROL Auto-Target]
+Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] de voorkeur geeft aan Automated Personalization:
 
 * Als u de hele ervaring wilt definiëren in plaats van afzonderlijke aanbiedingen die automatisch worden gecombineerd om een ervaring te vormen.
 * Als u de volledige reeks eigenschappen van Visual Experience Composer (VEC) wilt hefboomwerking die niet door [!UICONTROL Auto Personalization]: de redacteur van de douanecode, veelvoudige ervaringspubliek, en meer.
-* Als u structurele wijzigingen in uw pagina wilt aanbrengen in verschillende ervaringen. Bijvoorbeeld, als u de orde van elementen op uw homepage wilt herschikken, [!UICONTROL Auto-Target] zou geschikter om dan Geautomatiseerde Personalisatie te gebruiken zijn.
+* Als u structurele wijzigingen in uw pagina wilt aanbrengen in verschillende ervaringen. Als u bijvoorbeeld de volgorde van de elementen op uw startpagina wilt wijzigen, [!UICONTROL Auto-Target] is dit geschikter dan Automated Personalization.
 
 ## Wat [!UICONTROL Auto-Target] heeft Automated Personalization gemeen? {#section_2A601F482F9A44E38D4B694668711319}
 
@@ -113,21 +120,21 @@ Er zijn verscheidene scenario&#39;s waar u zou kunnen verkiezen over Geautomatis
 
 **Target verzamelt automatisch informatie over bezoekers om de personalisatiemodellen samen te stellen.**
 
-* Voor meer informatie over de parameters die in [!UICONTROL Auto-Target] en Geautomatiseerde Personalisatie worden gebruikt, zie de [Geautomatiseerde Inzameling](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)van de Gegevens van de Personalisatie.
+* Voor meer informatie over de parameters die in [!UICONTROL Auto-Target] en Automated Personalization worden gebruikt, zie de Inzameling [van Gegevens van](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)Automated Personalization.
 
-**Target gebruikt automatisch alle gedeelde Experience Cloud-doelgroepen om de personalisatiemodellen samen te stellen.**
+**Target maakt automatisch gebruik van alle Experience Cloud-gebruikers die een gedeeld publiek vormen om de personalisatiemodellen samen te stellen.**
 
-* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Zie [Experience Cloud Publiek voor informatie over het gebruik van Experience Cloud Publiek met Target.](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruiken van Experience Cloud Soorten publiek met Target, zie [Experience Cloud Soorten publiek](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Marketers kunnen offlinegegevens, proxyscores of andere aangepaste gegevens uploaden om personalisatiemodellen samen te stellen.**
 
-* Meer informatie over het [uploaden van gegevens voor Auto-Target en Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* Meer weten over het [uploaden van gegevens voor Auto-Target en Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)?
 
-## Hoe verschilt [!UICONTROL Auto-Target] u van Automated Personalization? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
+## Hoe verschilt [!UICONTROL Auto-Target] dit van Automated Personalization? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-**[!UICONTROL Auto-Target]vereist vaak minder verkeer dan Geautomatiseerde Personalisering voor een gepersonaliseerd model om te bouwen.**
+**[!UICONTROL Auto-Target]vereist vaak minder verkeer dan Automated Personalization voor een gepersonaliseerd model om te bouwen.**
 
-Hoewel de hoeveelheid verkeer *per ervaring* die voor [!UICONTROL Auto-Target] of [!UICONTROL Auto Personalization] modellen wordt vereist om te bouwen het zelfde is, zijn er gewoonlijk meer ervaringen in een Geautomatiseerde Personalisatieactiviteit dan een [!UICONTROL Auto-Target] activiteit. Bijvoorbeeld, als u een [!UICONTROL Auto Personalization] activiteit had waar u twee aanbiedingen per plaats met twee plaatsen hebt gecreeerd, zouden er vier (2 = 4) totale ervaringen inbegrepen in de activiteit (zonder uitsluitingen) zijn. Met [!UICONTROL Auto-Target]behulp van, zou u ervaring 1 kunnen plaatsen om aanbieding 1 in plaats 1 en aanbieding 2 in plaats 2 te omvatten, en ervaring 2 om aanbieding 1 in plaats 1 en aanbieding 2 in plaats 2 te omvatten. Omdat [!UICONTROL Auto-Target] u meerdere wijzigingen binnen één ervaring kunt doorvoeren, kunt u het aantal ervaringen in uw activiteit verminderen.
+Hoewel de hoeveelheid verkeer *per ervaring* die voor [!UICONTROL Auto-Target] of [!UICONTROL Auto Personalization] modellen wordt vereist om te bouwen het zelfde is, zijn er gewoonlijk meer ervaringen in een activiteit van Automated Personalization dan een [!UICONTROL Auto-Target] activiteit. Bijvoorbeeld, als u een [!UICONTROL Auto Personalization] activiteit had waar u twee aanbiedingen per plaats met twee plaatsen hebt gecreeerd, zouden er vier (2 = 4) totale ervaringen inbegrepen in de activiteit (zonder uitsluitingen) zijn. Met [!UICONTROL Auto-Target]behulp van, zou u ervaring 1 kunnen plaatsen om aanbieding 1 in plaats 1 en aanbieding 2 in plaats 2 te omvatten, en ervaring 2 om aanbieding 1 in plaats 1 en aanbieding 2 in plaats 2 te omvatten. Omdat [!UICONTROL Auto-Target] u meerdere wijzigingen binnen één ervaring kunt doorvoeren, kunt u het aantal ervaringen in uw activiteit verminderen.
 
 Voor [!UICONTROL Auto-Target], kunnen de eenvoudige regels van duim worden gebruikt om verkeersvereisten te begrijpen:
 
@@ -210,7 +217,7 @@ U kunt de resultaten van uw [!UICONTROL Auto-Target] test bekijken nadat u minst
 
 ### Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
 
-U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Geautomatiseerde Personalisatie](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
@@ -221,6 +228,10 @@ Zie Een specifieke ervaring [gebruiken als controle](/help/c-activities/t-automa
 Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
 
 Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
+
+### Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een Auto-Target-activiteit?
+
+Het gebruik van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Target] activiteiten wordt niet voorgesteld. Hoewel de zichtbare rapportgegevens worden verwijderd, worden met deze optie niet alle trainingsrecords uit het [!UICONTROL Auto-Target] model verwijderd. In plaats van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Target] activiteiten te gebruiken, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Opmerking: Deze leidraad is ook van toepassing op [!UICONTROL Auto-Allocate] en [!UICONTROL Automated Personalization] activiteiten.)
 
 ## Problemen oplossen [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -265,7 +276,7 @@ In deze video wordt uitgelegd hoe u een [!UICONTROL Auto-Target] A/B-activiteit 
 Nadat u deze training hebt voltooid, kunt u het volgende doen:
 
 * Testen definiëren [!UICONTROL Auto-Target]
-* Vergelijk en contrast [!UICONTROL Auto-Target] met Automated Personalization
+* Vergelijken en contrast [!UICONTROL Auto-Target] met Automated Personalization
 * Activiteiten [!UICONTROL Auto-Target] maken
 
 >[!VIDEO](https://video.tv.adobe.com/v/18558)
