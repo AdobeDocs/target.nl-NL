@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,11 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 28 juli | [De rapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)van de Inzichten van de Personalisatie, het<br>[Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)van Segmenten,<br>en het [Belangrijke rapport van Attributen](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Bijgewerkte tekst in de notitie. |
+|  | [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Extra informatie over Internet Explorer en onbekende elementen. |
+|  | [Klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | De volgende alinea is bijgewerkt:<br>[!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de database worden toegevoegd [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij [!DNL Target]de toepassing. In ons huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt. |
 | 27 juli | [Target beheren](/help/administrating-target/administrating-target.md) | Bijgewerkte tekst in alle verbonden onderwerpen op deze pagina om op de nieuwe veranderingen UI voor de [!UICONTROL Administration] pagina&#39;s te wijzen. |
-|  | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | De volgende wijzigingen zijn aangebracht: <ul><li>Toegevoegde registratiegegevens voor het volgende webinar: &quot;Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal.&quot;</li><li>Er is opnieuw informatie toegevoegd over de naam van Adobe Leader in het Gartner Magic Quadrant for Personalization Engines.</li></ul> |
+|  | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | De volgende wijzigingen zijn aangebracht: <ul><li>Toegevoegde registratiegegevens voor het volgende webinar: &quot;Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal.&quot;</li><li>Er is informatie toegevoegd over de naam van Adobe in Gartner Magic Quadrant for Personalization Engines.</li></ul> |
 |  | [Formuliergebaseerde Experience Composer](/help/c-experiences/form-experience-composer.md) | Verduidelijkte informatie onder Stap 4: Selecteer een locatie. |
 | 24 juli | <br>[details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over at.js 2.3.2. |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.7.1 | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
@@ -74,7 +77,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 13 mei | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sectie &quot;Bekende beperkingen&quot; toegevoegd. |
 | 11 mei | [Gastheren](/help/administrating-target/hosts.md) | Extra informatie over het gebruiken van de ubox functionaliteit met omleidingen en lijsten van gewenste personen. |
 |  | [Werken met directeuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
-|  | [Aanbevelingen integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
+|  | [Recommendations integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
 |  | [E-mail: Target implementeren](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
 | 7 mei | [Opmerkingen bij de release van Target (huidige)](/help/r-release-notes/release-notes.md) | Met de aanstaande afzetting van mbox.js op 30 augustus 2020, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. Er is een link waar je het webinar de komende 30 dagen kunt bekijken. |
 |  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt. |
