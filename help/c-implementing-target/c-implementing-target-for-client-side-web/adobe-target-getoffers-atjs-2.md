@@ -1,11 +1,14 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
-description: Informatie over de functie adobe.target.getOffers(options) voor Adobe Target op JavaScript.js.
-title: Informatie over de functie adobe.target.getOffers() voor de Adobe Target-bibliotheek op .js JavaScript.
+description: Informatie over de functie adobe.target.getOffers(options) voor de Adobe Target at.js JavaScript-bibliotheek.
+title: Informatie over de functie adobe.target.getOffers() voor de Adobe Target at.js JavaScript-bibliotheek.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 0%
 
 ---
 
@@ -35,8 +38,8 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 | request > id | Nee |  | Een van `tntId`, `thirdPartyId`of `marketingCloudVisitorId` is vereist. |
 | Request > id > thirdPartyId | Nee | Maximale grootte = 128 |  |  |
 | Verzoek > ExperienceCloud | Nee |  |  |
-| Request > ExperienceCloud > Analytics | Nee |  | Integratie van Adobe Analytics |
-| Request > ExperienceCloud > Analytics > logging | Nee | Het volgende moet op pagina worden geïmplementeerd:<ul><li>Bezoekersidentiteitsservice</li><li>Appmeasurement.js</li></ul> | De volgende waarden worden ondersteund:<br>**client_side **: Als deze optie is opgegeven, wordt een analytische lading geretourneerd aan de aanroeper die moet worden gebruikt om via de API voor gegevensinvoeging naar Adobe Analytics te verzenden.<br>**server_kant**: Dit is de standaardwaarde waar het doel en de achtergrond van Analytics SDID zullen gebruiken om de vraag voor rapporteringsdoeleinden samen te binden. |
+| Request > ExperienceCloud > Analytics | Nee |  | Adobe Analytics-integratie |
+| Request > ExperienceCloud > Analytics > logging | Nee | Het volgende moet op pagina worden geïmplementeerd:<ul><li>Bezoekersidentiteitsservice</li><li>Appmeasurement.js</li></ul> | De volgende waarden worden ondersteund:<br>**client_side **: Wanneer gespecificeerd, zal een analytische lading aan de bezoeker worden teruggegeven die zou moeten worden gebruikt om naar Adobe Analytics via de Invoeging API van Gegevens te verzenden.<br>**server_kant**: Dit is de standaardwaarde waarbij de Target- en Analytics-backend de SDID gebruiken om de aanroepen te koppelen voor rapportagedoeleinden. |
 | Verzoek > prefetch | Nee |  |  |
 | Verzoek > Prefetch > views | Nee | Maximum aantal 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel&quot;<br>niet toegestane namen moeten beginnen: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Geef parameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
 | Request > prefetch > views > profileParameters | Nee | Maximumaantal van 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel&quot;moeten beginnen | Geef profielparameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
@@ -263,3 +266,9 @@ In de `request > prefetch > mboxes` sectie zijn er drie verschillende vakken. Al
 In dit voorbeeld wordt de telvariabele gebruikt om de CSS-kiezers samen te stellen. In een real-life scenario kunt u een verschillende afbeelding gebruiken tussen de CSS-kiezer en de box.
 
 In dit voorbeeld wordt wel het volgende gebruikt `prefetch > mboxes`, maar u kunt het ook gebruiken `execute > mboxes`. Zorg ervoor dat als u Prefetch in gebruikt `getOffers()`, u ook prefetch in de `applyOffers()` aanroeping zou moeten gebruiken.
+
+## Vraag `getOffers()` om een pageLoad uit te voeren
+
+In het volgende voorbeeld wordt getoond hoe u een pageLoad kunt uitvoeren met getOffers() met at.js 2.*x*
+
+adobe.target.getOffers({request: {execute: {pageLoad: {parameters: {}}}});
