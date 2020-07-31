@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 31 juli | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Nieuw bekend probleem toegevoegd: &quot;Afbeeldingsaanbiedingen met label &quot;Verwerking&quot;.&quot; |
+|  | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | Inschrijvingsgegevens toegevoegd over het aanstaande Adobe Target Community Coffee Break op 5 augustus. |
 | 28 juli | [De rapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)van de Inzichten van de Personalisatie, het<br>[Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)van Segmenten,<br>en het [Belangrijke rapport van Attributen](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Bijgewerkte tekst in de nota bij de bovenkant van de onderwerpen. |
 |  | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een activiteit voor automatisch toewijzen?</li><li>Hoe wijst de auto-Wijs bouwmodellen met betrekking tot milieu&#39;s toe?</li></ul> |
 |  | [Auto-Target](/help/c-activities/auto-target-to-optimize.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een Auto-Target-activiteit?</li></ul>Bijgewerkte tekst in de sectie &quot;Overwegingen&quot;. |
