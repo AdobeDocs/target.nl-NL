@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Informatie over bekende problemen voor deze release van Target. Bevat ook inform
 
 >[!NOTE]
 >
->De nummer van de uitgave tussen haakjes is bedoeld voor intern gebruik door Adobe.
+>De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik van Adobe.
 
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
@@ -36,7 +36,7 @@ Als u een sjabloonregel toevoegt, zoals de URL (/checkout, /cart) in [paginaleve
 
 Hier volgen bekende problemen met omleidingsvoorstellen:
 
-* Onder bepaalde omstandigheden heeft een beperkt aantal klanten een hogere mate van variatie in de verkeersverdeling gemeld bij het gebruik van een omleidingsaanbod in activiteiten die met Analytics for Target (A4T) zijn geconfigureerd. Adobe-technici werken momenteel aan dit probleem.
+* Onder bepaalde omstandigheden heeft een beperkt aantal klanten een hogere mate van variatie in de verkeersverdeling gemeld bij het gebruik van een omleidingsaanbod in activiteiten die met Analytics for Target (A4T) zijn geconfigureerd. Adobe engineers werken momenteel aan dit probleem.
 * De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). In plaats daarvan kunt u de modus [](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) QA gebruiken om de voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
 ### Grafiekrapport voor een Auto-Target-activiteit kan niet worden gerenderd wanneer een aangepaste ervaring als besturingselement wordt gebruikt
@@ -59,17 +59,17 @@ In het grafiekrapport voor een Auto-Target-activiteit worden geen &quot;differen
 
 ### Ondersteuning voor Enterprise-machtigingen in Target API&#39;s {#api}
 
-Codeaanbiedingen die zijn gemaakt vanuit de gebruikersinterface van Target in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft *geen* invloed op aanbiedingen die met API&#39;s zijn gemaakt. Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET API&#39;s of vanuit de gebruikersinterface van Target.
+Codeaanbiedingen die zijn gemaakt vanuit de gebruikersinterface van Target in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft *geen* invloed op aanbiedingen die met API&#39;s zijn gemaakt. Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de gebruikersinterface van Target.
 
-### Aanbevelingen
+### Recommendations
 
-Hier volgen enkele bekende problemen met activiteiten in het kader van Aanbevelingen:
+Hier volgen enkele bekende problemen met Recommendations-activiteiten:
 
 * Entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. (IRI-857)
 * De &quot;Gebruiksinformatie&quot;-overlays voor Criteria en Ontwerpen weerspiegelen hun gebruik in A/B en de Ervaring gerichte activiteiten (TGT-34331) niet
-* Aanbevelingen Aanbiedingen in A/B en Ervaring gerichte activiteiten tonen geen visuele voorvertoning van de bak met aanbevelingen (TGT-33426)
+* Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
 * Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de Target-gebruikersinterface en kunnen alleen via de API worden bewerkt. (TGT-35777)
-* Activiteiten van aanbevelingen die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
+* Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
 * De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)
 
 ### MVT-activiteiten (Multivariate Test)
@@ -80,8 +80,8 @@ In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven
 
 De volgende problemen zijn bekend met at.js:
 
-* Als u versies van at.js vóór 2.2.0 gebruikt, worden door het bijhouden van klikken geen conversies gerapporteerd in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) van .js als dit probleem optreedt.
-* Als u een ervaring zonder wijzigingen maakt met gebruik van at.js 2.1.1 of eerder (bijvoorbeeld een standaardeigenschap), wordt de ervaring mogelijk niet meegeteld in rapporten, Analytics for Target (A4T), Adobe Analytics of Google Analytics. Bovendien werkt de [ttMeta-plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
+* Als u versies at.js gebruikt die ouder zijn dan 2.2.0, worden conversies in Analytics for Target (A4T) niet gerapporteerd als er geen Adobe Analytics-code aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) van .js als dit probleem optreedt.
+* Als u een ervaring zonder wijzigingen maakt met behulp van at.js 2.1.1 of eerder (bijvoorbeeld een standaardeigenschap), wordt de ervaring mogelijk niet meegeteld in rapporten, Analytics for Target (A4T), Adobe Analytics of Google Analytics. Bovendien werkt de [ttMeta-plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
 
    Als oplossing gebruikt u een witruimte in de ervaringsinhoud. (TNT-33366)
 
@@ -93,7 +93,7 @@ De volgende problemen zijn bekend met at.js:
 
    Als u at.js gebruikt, is het selectievakje Compatibiliteit verborgen, zodat incompatibele algoritmen niet zichtbaar zijn.
 
-   Deze kwestie is slechts op de activiteiten van Aanbevelingen van toepassing die VEC gebruiken.
+   Deze kwestie geldt alleen voor Recommendations-activiteiten die gebruikmaken van de VEC.
 
    **Oplossing**: Schakel de [!UICONTROL Filter Incompatible Criteria] optie in [!UICONTROL Recommendations > Settings]. Nadat u deze instelling hebt uitgeschakeld, worden alle (compatibele en niet-compatibele) criteria weergegeven in de kiezer voor criteria. (TGT-25949)
 
@@ -136,6 +136,10 @@ Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch 
 
 Op 10 mei 2020 hebben we onze bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op al onze leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
 
+### Afbeelding 0biedt label voor &quot;Verwerking&quot;
+
+Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;Verwerking&quot; enkele uren nadat de afbeeldingen zijn geüpload. In de meeste gevallen is dit alleen een probleem met het etiket: de beeldaanbiedingen kunnen nog steeds worden gebruikt in activiteiten en worden geleverd . In sommige gevallen is een afbeeldingsaanbieding echter mogelijk niet beschikbaar voor de actie Inhoud vervangen > Afbeelding. Als dit gebeurt, moet u het afbeeldingsaanbod opnieuw uploaden en na een paar uur controleren of het aanbod van de afbeelding beschikbaar is voor vervanging. (TGT-37458)
+
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties en worden zo nodig aanvullende opmerkingen toegevoegd.
@@ -154,13 +158,13 @@ U had *geen* invloed als:
 
 Neem contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)om te bepalen of dit probleem gevolgen heeft voor uw Target-rapportage.
 
-### Aanbevelingen
+### Recommendations
 
-* De de voederindex van aanbevelingen kan &quot;die op index wachten&quot;tonen als de punten in het voer het zelfde als in de vorige looppas zijn. De inname van het product voor levering heeft geen invloed op het product. (RECS-6663)
+* Recommendations feed-index kan &#39;Waiting for index&#39; weergeven als de items in de feed gelijk zijn aan de items in de vorige run. De inname van het product voor levering heeft geen invloed op het product. (RECS-6663)
 
    Dit probleem is opgelost in de Target-versie 19.4.2.
 
-* Het verwerken van aanbevolen feeds duurt langer dan u had verwacht. (COR-2836)
+* Het verwerken van Recommendations-feeds duurt langer dan u had verwacht. (COR-2836)
 
    Opgelost in Target 16.10.1.
 
@@ -211,9 +215,9 @@ Activiteiten in de standaardwerkruimte die via de API zijn verwijderd, worden no
 
 Vast 25 oktober 2018
 
-### Geautomatiseerde Personalisatie (AP) aanbieding-vlakke rapportering
+### Automated Personalization (AP)-rapportage op aanbodniveau
 
-Wanneer u de gerichte ervaring in een Geautomatiseerd rapport van de Personalisatieactiviteit (AP) klikt om aanbieding-vlakke rapportering te bekijken, momenteel ziet u lege resultaten, een foutenmelding, of een het draaien pictogram. (TNT-30695)
+Wanneer u op de beoogde ervaring in een rapport van een Automated Personalization-activiteit (AP) klikt om rapportage op aanbiedingsniveau weer te geven, ziet u momenteel lege resultaten, een foutbericht of een draaiend pictogram. (TNT-30695)
 
 Vast op 27 september 2018.
 
@@ -223,13 +227,13 @@ Als u VEC op stap 1 van de driestapige geleide werkstroom opnieuw laadt terwijl 
 
 Dit probleem is opgelost in de release 18.9.1.
 
-### De activiteit van aanbevelingen die een regel van de Bevordering van Attributen gebruikt
+### Recommendations-activiteit die een kenmerkpromotieregel gebruikt
 
-Wanneer u een activiteit van Aanbevelingen uitgeeft of kopieert die een regel van de Bevordering van Attributen gebruikt, toont de &quot;Heeft ontbrekend gebied&quot;fout wanneer het klikken sparen.
+Wanneer u een Recommendations-activiteit bewerkt of kopieert die gebruikmaakt van een kenmerkpromotieregel, wordt de fout &quot;Heeft ontbrekend veld&quot; weergegeven wanneer u op Opslaan klikt.
 
 Dit probleem is opgelost in de release 17.8.1.
 
-### Back-upaanbevelingen
+### Backup Recommendations
 
 Back-upaanbevelingen geven ten onrechte &quot;Enabled&quot; weer op de onlangs bekeken itemkaarten in de gebruikersinterface van Target. (TGT-29308)
 
@@ -249,12 +253,12 @@ Dit probleem is opgelost in at.js versie 1.2.
 
 ### Gebruikersrechten voor Target Premium
 
-Tijdens de migratie naar Enterprise-machtigingen is al het gebruikersbeheer van Target Premium verplaatst van de gebruikersinterface van Adobe Target naar Adobe Admin Console.
+Als onderdeel van de migratie naar Enterprise-machtigingen is al het gebruikersbeheer van Target Premium verplaatst van de gebruikersinterface van Adobe Target naar Adobe Admin Console.
 
 Als gevolg van de migratie zijn er twee mogelijke problemen die u dient te kennen:
 
 * Gebruikers die geen beheerder zijn, hebben een e-mail ontvangen waarin wordt aangegeven dat ze nu toegang hebben tot Adobe Target. Dit wijst erop dat de migratie voor uw organisatie werd voltooid. De e-mail zelf kan buiten beschouwing worden gelaten.
-* Na de migratie zijn er enkele meldingen geweest dat eerder uitgeschakelde gebruikers opnieuw zijn opgenomen in de Adobe Admin Console. Dit kan een probleem voor uw organisatie zijn als uitgeschakelde gebruikers in de Adobe Admin Console nog steeds vóór de migratie op uw gebruikerslijst in Target staan. Wij adviseren dat de beheerders de lijst van gebruikers in Admin Console herzien om toegang te bevestigen.
+* Na de migratie zijn er meldingen geweest dat eerder uitgeschakelde gebruikers opnieuw in de Adobe Admin Console verschenen. Dit kan een probleem voor uw organisatie zijn als gehandicapte gebruikers in de Adobe Admin Console nog steeds op uw gebruikerslijst in Target staan vóór de migratie. Wij adviseren dat de beheerders de lijst van gebruikers in Admin Console herzien om toegang te bevestigen.
 
 Dit probleem is opgelost op 30 augustus 2017
 
@@ -324,7 +328,7 @@ Opgelost in de Target 17.4.1-release (27 april 2017).
 
 Voor recent bekeken criteria, op entiteit gebaseerde dynamische regels zullen tot geen aanbeveling leiden als de parameter entity.id niet in het mbox verzoek wordt overgegaan. (RECS-6241)
 
-Dit probleem is opgelost na de mededeling met aanbevelingen (22 maart 2018). Na de release met aanbevelingen slaat Target de op entiteit gebaseerde dynamische regels over als entity.id niet wordt doorgegeven in de aanvraag mbox.
+Dit probleem is opgelost na de release van Recommendations (22 maart 2018). Na de release van Recommendations slaat Target de op entiteit gebaseerde dynamische regels over als entity.id niet wordt doorgegeven in de mbox-aanvraag.
 
 ### at.js
 
@@ -334,9 +338,9 @@ Opgelost in de Target 17.3.1-release (30 maart 2017).
 
 ### Algemene uitsluitingsregels
 
-De wereldwijde uitsluitingsregels duren 10 tot 20 minuten voordat ze aan de rand van de Premium-aanbevelingen worden doorgegeven. (RECS-5270)
+De wereldwijde uitsluitingsregels duren 10 tot 20 minuten om zich aan de rand van Premium Recommendations te verspreiden. (RECS-5270)
 
-Vast in de Aanbeveling 17.2.2.0 release (6 maart 2017).
+Opgelost in de Recommendations 17.2.2.0-release (6 maart 2017).
 
 ### Rapportering Analytics for Target (A4T)
 
