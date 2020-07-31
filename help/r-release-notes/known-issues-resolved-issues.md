@@ -4,7 +4,7 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
+source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
 workflow-type: tm+mt
 source-wordcount: '3327'
 ht-degree: 0%
@@ -136,7 +136,7 @@ Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch 
 
 Op 10 mei 2020 hebben we onze bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op al onze leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
 
-### Afbeelding 0biedt label voor &quot;Verwerking&quot;
+### Aanbiedingen voor afbeeldingen met het label &quot;Verwerking&quot;
 
 Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;Verwerking&quot; enkele uren nadat de afbeeldingen zijn geüpload. In de meeste gevallen is dit alleen een probleem met het etiket: de beeldaanbiedingen kunnen nog steeds worden gebruikt in activiteiten en worden geleverd . In sommige gevallen is een afbeeldingsaanbieding echter mogelijk niet beschikbaar voor de actie Inhoud vervangen > Afbeelding. Als dit gebeurt, moet u het afbeeldingsaanbod opnieuw uploaden en na een paar uur controleren of het aanbod van de afbeelding beschikbaar is voor vervanging. (TGT-37458)
 
