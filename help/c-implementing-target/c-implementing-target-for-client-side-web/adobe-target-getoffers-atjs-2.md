@@ -5,9 +5,9 @@ title: Informatie over de functie adobe.target.getOffers() voor de Adobe Target 
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -271,4 +271,14 @@ In dit voorbeeld wordt wel het volgende gebruikt `prefetch > mboxes`, maar u kun
 
 In het volgende voorbeeld wordt getoond hoe u een pageLoad kunt uitvoeren met getOffers() met at.js 2.*x*
 
-adobe.target.getOffers({request: {execute: {pageLoad: {parameters: {}}}});
+```
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {
+                parameters: {}
+            }
+        }
+    }
+});
+```
