@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 3 augustus | [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md) | Toegevoegde nota waarin wordt verduidelijkt wat de [!UICONTROL Increment Count] opties betekenen met betrekking tot bezoekers versus bezoeken. |
 | 31 juli | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Nieuw bekend probleem toegevoegd: &quot;Afbeeldingsaanbiedingen met label &quot;Verwerking&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Codevoorbeeld toegevoegd om pageLoad uit `getoffers()` te voeren. |
 |  | [Target-aankondigingen en -evenementen](/help/r-release-notes/target-announcements.md) | Inschrijvingsgegevens toegevoegd over het aanstaande Adobe Target Community Coffee Break op 5 augustus. |
