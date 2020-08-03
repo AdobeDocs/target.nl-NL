@@ -4,9 +4,9 @@ description: In Adobe Target zijn succesmetriek vooraf geconfigureerd voor zowel
 title: Succeswaarden in Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ U kunt de geavanceerde montages ook gebruiken om afhankelijke succesmetriek tot 
 
 Een testconversie is bijvoorbeeld alleen geldig als een bezoeker op de aanbieding klikt of een bepaalde pagina bereikt voordat deze wordt omgezet.
 
-De afhankelijke succesmetriek wordt gesteund in A/B het testen, Geautomatiseerde Personalisatie, de Gerichte Ervaring, en Multivariate het testen activiteiten. De activiteiten van aanbevelingen steunen momenteel geen afhankelijke succesmetriek.
+Afhankelijke succeswaarden worden ondersteund in A/B-tests, Automated Personalization, Experience Targeting en Multivariate testactiviteiten. Recommendations-activiteiten ondersteunen momenteel geen afhankelijke succesmaatstaven.
 
 >[!NOTE]
 >
 >Afhankelijke succeswaarden worden in de volgende gevallen niet omgezet:
 
 * Als u een cirkelgebiedsdeel creeert waarin metrisch1 van metrisch2 afhankelijk is en metrisch2 van metrisch1 afhankelijk is, kan noch metrisch omzetten.
-* De geautomatiseerde activiteiten van de Personalisatie geven gebruikers vrij en beginnen de activiteit opnieuw wanneer de omzettingsmetriek wordt bereikt, zodat zal om het even welke metrisch afhankelijk van omzettingsmetrisch niet omzetten.
+* Bij Automated Personalization-activiteiten worden gebruikers vrijgegeven en wordt de activiteit opnieuw opgestart wanneer conversiemetriek wordt bereikt. Eventuele metrische gegevens die afhankelijk zijn van de conversiemetrie worden dus niet omgezet.
 
 Gebruik de geavanceerde montages om te bepalen wat gebeurt nadat een gebruiker het doel metrisch bereikt. In de volgende tabel staan de beschikbare opties.
 
@@ -82,6 +82,10 @@ Gebruik de geavanceerde montages om te bepalen wat gebeurt nadat een gebruiker h
 | Het aantal van de verhoging en houdt de gebruiker in de activiteit | Geef op hoe het aantal wordt verhoogd:<ul><li>Eenmaal per deelnemer (standaard)</li><li>Bij elke afbeelding, pagina-vernieuwingen uitsluiten</li><li>Op elke indruk</li></ul> |
 | Het aantal van de verhoging, versie gebruiker, en staat terugkeer toe | Selecteer de ervaring die de bezoeker ziet als ze de activiteit opnieuw betreden:<ul><li>Zelfde ervaring (standaard)</li><li>Willekeurige ervaring</li><li>Onzichtbare ervaring</li></ul> |
 | Het aantal van de verhoging, versie gebruiker, en bar de gebruiker van terugkeer | Bepaal wat de gebruiker ziet in plaats van de inhoud van de activiteit:<ul><li>Dezelfde ervaring, zonder reeksspatiëring (standaard)</li><li>Standaardinhoud of andere activiteiteninhoud</li></ul> |
+
+>[!NOTE]
+>
+>Als u metrisch aan één van de (bovengenoemde) opties vormt, neemt de metrische telling correct toe eens per ingang op het bezoekersniveau slechts. [!UICONTROL Increment Count] De metrische tellingen stijgen eens per bezoek voor elke nieuwe zitting op het bezoekniveau.
 
 ## Trainingsvideo: Activiteitenstatistieken
 
