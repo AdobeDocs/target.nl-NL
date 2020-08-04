@@ -4,9 +4,9 @@ description: Informatie over komende gebeurtenissen, zoals Target Skill Builder-
 title: Target-aankondigingen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 [Registreer je hier](https://hsbc-targetai.experienceleague.adobeevents.com/)voor dit spannende webinar.
 
 *McKinsey-artikel: &quot;[Het herstel van COVID-19 zal digitaal](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)zijn,&quot; mei 2020
+
+## Webinar: Personalisatiestrategieën met behulp van kunstmatige intelligentie en Adobe Target
+
+* **08:00 - 9:00 (PDT)**
+* **Donderdag 13 augustus 2020**
+
+[Registreer hier](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)voor dit webinar.
 
 ## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js {#skill-builder}
 
