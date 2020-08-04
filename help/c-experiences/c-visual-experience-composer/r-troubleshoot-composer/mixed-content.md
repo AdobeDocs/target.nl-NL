@@ -5,9 +5,9 @@ title: Gemengde inhoud in uw browser inschakelen
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Moderne browsers kunnen de weergave van een pagina blokkeren of waarschuwingsber
 
 Als de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] probeert om een pagina te openen die gemengde inhoud bevat, toont een bericht dat hoe te om het blokkeren in uw browser onbruikbaar te maken zodat kunt u een plaats van HTTP of een plaats openen die gemengde vraag (HTTPS en HTTP) heeft.
 
-![](assets/mixed_content_warning.gif)
+![waarschuwing voor gemengde inhoud](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 Eerder, toen gemengde inhoud niet werd toegestaan, kon u sommige acties in Stap 1 van het drie-stap geleide werkschema nog uitvoeren wanneer het creëren van activiteiten. [!DNL Target] blokkeert nu handelingen in stap 1. Wanneer dit bericht wordt weergegeven, moet u gemengde inhoud inschakelen voordat u verdergaat met het maken van de activiteit.
 
