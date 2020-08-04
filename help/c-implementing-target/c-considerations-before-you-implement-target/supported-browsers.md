@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor extra belangrijke informatie over TLS, zie de Veranderingen [van de Encrypt
 
 ## [!DNL Target] Standaard/Premium-interface {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-De interface [!DNL [!DNL Target]] Standard/Premium ondersteunt de volgende browsers en apparaten:
+De [!DNL Target] interface ondersteunt de volgende browsers en apparaten:
 
 | Apparaattype | Browserversie |
 |--- |--- |
@@ -36,7 +36,7 @@ De levering van inhoud is getest in de volgende browsers en apparaten:
 | Apparaattype | Browserversie |
 |--- |--- |
 | Windows | <ul><li>Internet Explorer 9 en 10. Getest in emulatiemodus.<br>**Opmerking **: in.js 1.3.0 (en hoger) biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chroom (nieuwste, nieuwste min 1)</li><li>Firefox (nieuwste, nieuwste min 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (nieuwste)<br>**Opmerking **: Zie[Target Cookie voor meer informatie over hoe Safari cookies van eerste en van derde partijen verwerkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (nieuwste, nieuwste min 1)</li><li>Chroom (nieuwste, nieuwste min 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (nieuwste)<br>**Opmerking **: Voor meer informatie over hoe Safari eerste en derdekoekjes behandelt, zie de Koekje van het[Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (nieuwste, nieuwste min 1)</li><li>Chroom (nieuwste, nieuwste min 1)</li></ul> |
 | Mobiel/tablet | <ul><li>Apple iOS (nieuwste)</li><li>Android-apparaten en -tablets (Android 4 en hoger)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Let op het volgende:
