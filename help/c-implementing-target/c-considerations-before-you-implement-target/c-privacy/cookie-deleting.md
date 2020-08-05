@@ -4,9 +4,9 @@ title: Het Adobe Target-cookie verwijderen
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 79bcd452a9faa0883272d2e686efd7c4ddfa34a2
+source-git-commit: 871250ecaadafa7e9b56fad7e211f258767e3c18
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 U kunt uw [!DNL Target] browsercookie (mbox) verwijderen zodat u tijdens het testen al uw ervaringen kunt valideren.
 
-Als er geen [!DNL Target] cookie (box) is, wordt u beschouwd als een nieuwe bezoeker en krijgt u een nieuwe ervaring te zien. Er zijn verschillende manieren om uw [!DNL Target] cookies te verwijderen zonder al uw browsercookies te verwijderen.
+Als er geen [!DNL Target] cookie (box) is, wordt u beschouwd als een nieuwe bezoeker en krijgt u een nieuwe ervaring te zien. Er zijn verschillende manieren om uw box te verwijderen zonder al uw browsercookies te verwijderen.
 
 >[!NOTE]
 >
@@ -36,6 +36,8 @@ Versie 84.0.4147.105
 
 Versie 79.0
 
+### Alle cookies verwijderen die zijn gekoppeld aan `adobe.com`
+
 1. Klik op het menu **Firefox** > **Voorkeuren**.
 1. Klik op het tabblad **Privacy en beveiliging** .
 1. Klik onder **Cookies en Sitegegevens** op **Gegevens** beheren.
@@ -43,7 +45,15 @@ Versie 79.0
 
    >[!NOTE]
    >
-   >Hiermee verwijdert u alle cookies die aan de `adobe.com` site zijn gekoppeld. Als u afzonderlijke cookies voor een site wilt verwijderen of bewerken, kunt u dit doen in de [opslagcontrole van de ontwikkelaars](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector). Het specifieke cookie dat u wilt verwijderen, heet &quot;mbox&quot;.
+   >Hiermee verwijdert u alle cookies die aan de `adobe.com` site zijn gekoppeld. Als u een afzonderlijke cookie voor een site wilt verwijderen, volgt u de onderstaande instructies.
+
+### Een afzonderlijke cookie verwijderen (box)
+
+1. Klik in Firefox op **Gereedschappen** > **Webontwikkelaar** > **Opslagcontrole**.
+1. Klik op het tabblad **Geavanceerd** .
+1. Navigeer naar de webpagina die het cookie bevat dat u wilt verwijderen.
+1. Vouw de sectie **Cookies** uit en klik op `https://experience.adobe.com`.
+1. Klik met de rechtermuisknop op het cookie van de **box** en klik vervolgens op **Verwijderen**.
 
 ## Het doelcookie verwijderen uit Microsoft Edge
 
@@ -59,14 +69,18 @@ Versie 84.0.522.52
 
 Versie 13.1.2
 
+### Alle cookies verwijderen die zijn gekoppeld aan `adobe.com`
+
 1. Klik op het menu **Safari** > **Voorkeuren**.
 1. Klik op het tabblad **Privacy** .
 1. Klik op **Websitegegevens** beheren.
 1. Selecteer de sites voor de cookies die u wilt verwijderen en klik op **Verwijderen**.
 
->[!NOTE]
->
->Hiermee verwijdert u alle cookies die aan de `adobe.com` site zijn gekoppeld. Als u een afzonderlijke cookie voor een site wilt verwijderen, volgt u de onderstaande instructies:
+   >[!NOTE]
+   >
+   >Hiermee verwijdert u alle cookies die aan de `adobe.com` site zijn gekoppeld. Als u een afzonderlijke cookie voor een site wilt verwijderen, volgt u de onderstaande instructies.
+
+### Een afzonderlijke cookie verwijderen (box)
 
 1. Klik op het menu **Safari** > **Voorkeuren**.
 1. Klik op het tabblad **Geavanceerd** .
