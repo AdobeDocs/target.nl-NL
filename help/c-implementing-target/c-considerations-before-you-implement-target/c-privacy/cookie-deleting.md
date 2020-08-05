@@ -4,7 +4,7 @@ title: Het Adobe Target-cookie verwijderen
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -18,9 +18,10 @@ U kunt uw [!DNL Target] browsercookies verwijderen zodat u tijdens het testen al
 
 Als er geen [!DNL Target] cookies zijn, wordt u beschouwd als een nieuwe bezoeker en krijgt u een nieuwe ervaring te zien. Er zijn verschillende manieren om uw [!DNL Target] cookies te verwijderen zonder al uw browsercookies te verwijderen.
 
-&lt;[!NOTE]
->De volgende instructies zijn correct voor de vermelde browsers en versies. Zoek op internet naar instructies voor uw specifieke browser of versie.
+>[!NOTE]
 >
+>De volgende instructies zijn correct voor de vermelde browsers en versies. Zoek op internet naar instructies voor uw specifieke browser of versie.
+
 ## Cookies verwijderen uit Google Chrome
 
 Versie 84.0.4147.105
