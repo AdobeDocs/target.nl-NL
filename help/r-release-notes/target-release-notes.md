@@ -5,9 +5,9 @@ title: Voorlopige Adobe Target-opmerkingen
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 580a4cbdc4ea164e858eadc2fe2923ab65711e2b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,7 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 
 ## Target Standard/Premium 20.9.1 (2 september 2020)
 
-Deze doelversie bevat de volgende nieuwe functies of verbeteringen:
-
-| Functie/verbetering | Beschrijving |
-| --- | --- |
-| Analyses voor doelondersteuning (A4T) voor [!UICONTROL Auto-Target] activiteiten | [!UICONTROL Auto-Target] De activiteiten zullen [!UICONTROL Analytics for Target] (A4T) ondersteunen.<br>Dankzij deze integratie kunt u de [!UICONTROL Auto-Target] geavanceerde machine leren en kiezen uit meerdere veeleisende, door de markator gedefinieerde ervaringen om de inhoud aan te passen en conversies van stations aan te passen, terwijl u tegelijkertijd een [!UICONTROL Adobe Analytics] doel gebruikt voor metrische en/of [!DNL Adobe Analytics] rapportage- en analysemogelijkheden. [!UICONTROL Auto-Target] biedt iedere bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen.<br>Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate]en [!UICONTROL Experience Targeting] activiteiten, bent u klaar! |
+Nieuwe functies, verbeteringen en oplossingen in deze release worden hier bijgewerkt.
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
