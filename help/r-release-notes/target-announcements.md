@@ -1,37 +1,24 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events
-description: Informatie over komende gebeurtenissen, zoals Target Skill Builder-sessies, ontwikkelaarstekkers, webinars en Target Coffee Break-sessies.
-title: Target-aankondigingen
+description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel.
+title: Doelaankondigingen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
+source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# Target-aankondigingen en -evenementen
+# Aankondigingen en gebeurtenissen van het doel
 
-Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder Target Skill Builder-sessies, ontwikkelaarstekkers, webinars en Target Coffee Break-sessies.
+Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel.
 
 ## Adobe noemde opnieuw een leider in het Magic Quadrant Gartner voor Personalisatietechnieken
 
 Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid. [Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
-
-## Adobe Target Community Coffee Break
-
-* **10:00 - 11:00 (PDT)**
-* **Woensdag 5 augustus 2020**
-
-Cristinel Anastasoaie, productmanager van Adobe Target, zal zich bij ons aanmelden bij de Adobe Target-gemeenschap om rechtstreeks met u te kunnen chatten om uw brandende Adobe Target-vragen met betrekking tot zijn expertisegebieden te beantwoorden:
-
-* Adobe Target-gebruikersinterface
-* Adobe Target-integratie
-* Bedrijfsmachtigingen en werkruimten
-
-[Registreren in de Adobe Target-Gemeenschap.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
@@ -45,7 +32,7 @@ De vraag van de consument evolueert snel en HSBC heeft optimalisering met Adobe 
 Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 
 * Hoe de optimalisatie- en personaliseringsinspanningen van HSBC een snelle verandering in de organisatie teweegbrengen
-* Hoe AI en Analytics hun inspanningen versnellen en duidelijke, significante zakelijke gevolgen bieden
+* Hoe AI &amp; Analytics hun inspanningen versnellen en duidelijke, significante bedrijfsgevolgen verstrekken
 * Hoe HSBC een succesvol programma op schaal heeft opgezet dat meer dan 3000 activiteiten levert
 
 [Registreer je hier](https://hsbc-targetai.experienceleague.adobeevents.com/)voor dit spannende webinar.
