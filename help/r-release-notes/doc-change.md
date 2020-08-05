@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 864ce209675b465e229fad787e102e8d9bf5825c
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 5 augustus | [Het doelcookie verwijderen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Volledig onderwerp bijgewerkt. |
 | 4 augustus | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens over de op 13 augustus geplande webinar &quot;Personalization Strategies Using Artificial Intelligence and Adobe Target&quot;. |
 |  | [Gemengde inhoud in uw browser inschakelen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Bijgewerkt onderwerp. |
 | 3 augustus | [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md) | Toegevoegde nota waarin wordt verduidelijkt wat de [!UICONTROL Increment Count] opties betekenen met betrekking tot bezoekers versus bezoeken. |
@@ -102,13 +103,13 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 29 april | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende uitgave toegevoegd voor rapportage met extreme orders. |
 | 28 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Verwijderde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. Deze opdracht werkt nu met nieuwere AWS-randen. |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Gewijzigde datum van de introductie van Target Standard/Premium (20.4.1) in mei 6. |
-| April 23 | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
-| April 22 | [Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md) | Nieuwe sectie toegevoegd: *Wijzigingen in de profielbatchstatus-API v2 (4 mei 2020).* |
+| 23 april | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
+| 22 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Nieuwe sectie toegevoegd: *Wijzigingen in de profielbatchstatus-API v2 (4 mei 2020).* |
 | 20 april | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Nieuwe sectie toegevoegd: *Adobe Target Skill Builder: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js.* |
 | 14 april | [Lijst van gewenste personen Edge-hosts voor doelranden](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nieuw onderwerp. |
 | 10 april | [Toepassing van één pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nieuwe sectie toegevoegd: &quot;Best practices implementeren.&quot; |
 | 7 april | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Bijgewerkte tekst voor &quot;Waarom kan ik geen lift en vertrouwen op berekende metriek zien?&quot; |
-| April 2 | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Toegevoegde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. |
+| 2 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Toegevoegde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. |
 |  | [Upgrade uitvoeren vanaf 0,js 1.*x* tot at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Toegevoegd:<ul><li>Na installatie van de ECID-bibliotheek v4.3.0+ en at.js 2.*x*, zult u activiteiten kunnen tot stand brengen die unieke domeinen evenals spoorgebruikers omspannen. Het is belangrijk om op te merken dat deze functionaliteit slechts werkt nadat de zitting verloopt.</li></ul> |
 | 30 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Er zijn een bekende problemen toegevoegd die van invloed zijn op versies at.js vóór at.js 2.2.0. Dit probleem heeft ertoe geleid dat klikspatiëring geen conversies rapporteert in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | De volgende informatie is toegevoegd aan de gegevens van at.js versie 2.2.0:<ul><li>Probleem verholpen waarbij klikspatiëring ertoe leidde dat conversies niet werden gerapporteerd in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen.</li></ul> |
