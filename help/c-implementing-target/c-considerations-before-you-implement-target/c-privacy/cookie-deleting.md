@@ -1,31 +1,61 @@
 ---
 description: Verwijder de cookies van de doelbrowser zodat u al uw ervaringen kunt valideren.
-title: Het doelcookie verwijderen
+title: Het Adobe Target-cookie verwijderen
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
 
 # Het doelcookie verwijderen{#delete-the-target-cookie}
 
-Verwijder de cookies van de doelbrowser zodat u al uw ervaringen kunt valideren.
+U kunt uw [!DNL Target] browsercookies verwijderen zodat u tijdens het testen al uw ervaringen kunt valideren.
 
-Als er geen cookie is, wordt u beschouwd als een nieuwe bezoeker en krijgt u een nieuwe ervaring te zien. Er zijn verschillende manieren om uw doelcookie te verwijderen zonder al uw browsercookies te verwijderen.
+Als er geen [!DNL Target] cookies zijn, wordt u beschouwd als een nieuwe bezoeker en krijgt u een nieuwe ervaring te zien. Er zijn verschillende manieren om uw [!DNL Target] cookies te verwijderen zonder al uw browsercookies te verwijderen.
 
-**De cookie verwijderen uit Internet Explorer:**
+&lt;[!NOTE]
+>De volgende instructies zijn correct voor de vermelde browsers en versies. Zoek op internet naar instructies voor uw specifieke browser of versie.
+>
+## Cookies verwijderen uit Google Chrome
 
-1. Selecteer in het menu Extra in Internet Explorer **[!UICONTROL Internet Options]**.
-1. Open het tabblad Algemeen en klik vervolgens in de [!UICONTROL Browsing History] sectie op **[!UICONTROL Settings]** > **[!UICONTROL View files]**.
-1. Selecteer het cookie van de box.
-1. Selecteer of selecteer het bestand in het menu Bestand **[!UICONTROL Delete]** en druk op **[!UICONTROL Delete]**.
+Versie 84.0.4147.105
 
-**De cookie verwijderen uit Firefox:**
+1. Klik op het menu **Chrome** > **Voorkeuren**.
+1. Klik op het tabblad **Privacy en beveiliging** .
+1. Klik op **Cookies en andere sitegegevens**.
+1. Klik op Alle cookies en sitegegevens **bekijken**.
+1. Selecteer de sites voor de cookies die u wilt verwijderen en klik op het pictogram **Verwijderen** .
 
-1. Selecteer **Opties** > **Opties**> **Privacy**.
-1. Klik op Cookies **weergeven**.
-1. Sorteer op cookienaam om de doelcookies te zoeken.
-1. Selecteer de cookies voor de sites waarvan u een voorvertoning weergeeft en klik op **Koekje** verwijderen.
+## Cookies verwijderen uit Mozilla Firefox
 
+Versie 79.0
+
+1. Klik op het menu **Firefox** > **Voorkeuren**.
+1. Klik op het tabblad **Privacy en beveiliging** .
+1. Klik onder **Cookies en Sitegegevens** op **Gegevens** beheren.
+1. Sorteer op **Site** om de [!DNL Target] cookies te vinden.
+1. Selecteer de sites voor de cookies die u wilt verwijderen en klik op Geselecteerde **items** verwijderen > Wijzigingen **** opslaan.
+
+## Cookies verwijderen uit Microsoft Edge
+
+Versie 84.0.522.52
+
+1. Klik op het menu **Microsoft Edge** > **Voorkeuren**.
+1. Klik op het tabblad **Siterechten** .
+1. Klik op **Cookies en sitegegevens**.
+1. Klik op Alle cookies en sitegegevens **bekijken**.
+1. Selecteer de sites voor de cookies die u wilt verwijderen en klik op het pictogram **Verwijderen** .
+
+## Cookies verwijderen uit Apple Safari
+
+Versie 13.1.2
+
+1. Klik op het menu **Safari** > **Voorkeuren**.
+1. Klik op het tabblad **Privacy** .
+1. Klik op **Websitegegevens** beheren.
+1. Selecteer de sites voor de cookies die u wilt verwijderen en klik op **Verwijderen**.
