@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 864ce209675b465e229fad787e102e8d9bf5825c
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 6 augustus | [Automatisch doel](/help/c-activities/auto-target-to-optimize.md#how-long) | Bijgewerkte tekst voor de volgende veelgestelde vragen: &quot;Hoe lang moet ik wachten op modellen om te bouwen?&quot; |
 | 5 augustus | [Het doelcookie verwijderen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Volledig onderwerp bijgewerkt. |
 | 4 augustus | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens over de op 13 augustus geplande webinar &quot;Personalization Strategies Using Artificial Intelligence and Adobe Target&quot;. |
 |  | [Gemengde inhoud in uw browser inschakelen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Bijgewerkt onderwerp. |
