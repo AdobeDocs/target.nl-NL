@@ -1,12 +1,12 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
-title: Auto-Target
+title: Automatisch doel
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3423'
+source-wordcount: '3511'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Auto-Target{#auto-target}
 
-[!UICONTROL Auto-Target] maakt gebruik van geavanceerd leren van computers om uit meerdere veelzijdige, door markers gedefinieerde ervaringen te kiezen voor het aanpassen van inhoud en schijfconversies. Auto-Target biedt iedere bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen.
+[!UICONTROL Auto-Target] maakt gebruik van geavanceerd leren van computers om uit meerdere veelzijdige, door markers gedefinieerde ervaringen te kiezen voor het aanpassen van inhoud en schijfconversies. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ De volgende termen zijn handig wanneer u discussieert over [!UICONTROL Auto-Targ
 | Term | Definitie |
 |---|---|
 | Meervoudig bewapende bandit | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
-| Willekeurig bos | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie, of regressiemethode, die werkt door een groot aantal beslissingsbomen te bouwen op basis van bezoekers en bezoekkenmerken. In Target wordt Random Forest gebruikt om te bepalen welke ervaring naar verwachting de grootste kans op omschakeling (of de hoogste inkomsten per bezoek) voor elke specifieke bezoeker zal hebben. Zie [Random Forest Algorithm](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)voor meer informatie over Random Forest in Target. |
+| Willekeurig bos | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie, of regressiemethode, die werkt door een groot aantal beslissingsbomen te bouwen op basis van bezoekers en bezoekkenmerken. Binnen Target wordt het Willekeurige bos gebruikt om te bepalen welke ervaring naar verwachting de hoogste waarschijnlijkheid van omzetting (of hoogste opbrengst per bezoek) voor elke specifieke bezoeker zal hebben. Voor meer informatie over Willekeurig bos in Doel, zie [Willekeurig Bosalgoritme](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
 | Thompson Sampling | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. Zie [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling)voor meer informatie. |
 
 ## Hoe [!UICONTROL Auto-Target] werkt {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -62,9 +62,9 @@ Meer informatie over de onderliggende gegevens en algoritmen [!UICONTROL Auto-Ta
 
 | Term | Details |
 |--- |--- |
-| [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Het Target-hoofdpersonalisatiealgoritme dat zowel in [!UICONTROL Auto-Target] Automated Personalization als in Random Forest wordt gebruikt. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het algoritme Willekeurig bos in het geautomatiseerde verpersoonlijkingssysteem is een classificatie, of regressiemethode, die door een veelheid van beslissingsbomen in opleidingstijd te construeren werkt. |
-| [Gegevens uploaden voor Target Persoonlijke Algoritmen](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Er zijn verschillende manieren om gegevens in te voeren voor [!UICONTROL Auto-Target] Automated Personalization- en-modellen. |
-| [Gegevensverzameling voor Target-algoritmen voor personalisatie](/help/c-activities/t-automated-personalization/ap-data.md) | Target-verpersoonlijkingsalgoritmen verzamelen automatisch verschillende gegevens. |
+| [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Het belangrijkste verpersoonlijkingsalgoritme van het doel dat in zowel [!UICONTROL Auto-Target] als Automated Personalization wordt gebruikt is Random Forest. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het algoritme Willekeurig bos in het geautomatiseerde verpersoonlijkingssysteem is een classificatie, of regressiemethode, die door een veelheid van beslissingsbomen in opleidingstijd te construeren werkt. |
+| [Gegevens uploaden voor de Persoonlijke Algoritmen van het Doel](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Er zijn verschillende manieren om gegevens in te voeren voor [!UICONTROL Auto-Target] Automated Personalization- en-modellen. |
+| [Gegevensverzameling voor personaliseringsalgoritmen van het Doel](/help/c-activities/t-automated-personalization/ap-data.md) | De personalisatiealgoritmen van het doel verzamelen automatisch een verscheidenheid van gegevens. |
 
 ## Verkeerstoewijzing bepalen {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -86,7 +86,7 @@ In de [!UICONTROL Custom Allocation] vervolgkeuzelijst kunt u de volgende opties
 
 Klik op de pictogrammen in de kolom Toewijzing om het percentage voor besturing aan te passen. U kunt de controlegroep niet tot minder dan 10% verminderen.
 
-![Automatische Target-verkeerstoewijzing wijzigen](/help/c-activities/assets/auto-target-control.png)
+![Automatische doeltoewijzing wijzigen](/help/c-activities/assets/auto-target-control.png)
 
 U kunt een specifieke ervaring [selecteren om als controle](/help/c-activities/t-automated-personalization/experience-as-control.md) te gebruiken of u kunt de Willekeurige ervaringsoptie gebruiken.
 
@@ -109,7 +109,7 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] de voorke
 **Het algoritme wordt aangepast aan wijzigingen in het gedrag van de bezoeker.**
 
 * De multi-armbandit verzekert het model altijd &quot;bestedend&quot;een klein fractie verkeer om door het leven van het activiteit leren te blijven leren en overexploitatie van eerder geleerde tendensen te verhinderen.
-* De onderliggende modellen worden elke 24 uur opnieuw samengesteld met behulp van de meest recente gedragsgegevens van de bezoeker, zodat Target altijd misbruik maakt van de veranderende voorkeuren voor bezoekers.
+* De onderliggende modellen worden elke 24 uur opnieuw samengesteld met behulp van de meest recente gedragsgegevens van de bezoeker, zodat Target altijd gebruikmaakt van veranderende voorkeuren voor bezoekers.
 * Als het algoritme het winnen van ervaringen voor individuen niet kan bepalen, schakelt het automatisch aan het tonen van de algemene best-presterende ervaring terwijl nog steeds het zoeken naar gepersonaliseerde winnaars blijft. De best presterende ervaring wordt gevonden gebruikend steekproef [van](https://en.wikipedia.org/wiki/Thompson_sampling)Thompson.
 
 **Het algoritme optimaliseert voortdurend voor één enkel doel metrisch.**
@@ -118,17 +118,17 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] de voorke
 
 **Het algoritme steunt het gebruiken niet[!DNL Analytics]als gegeven-bron of een rapporterend eindpunt.**
 
-**Target verzamelt automatisch informatie over bezoekers om de personalisatiemodellen samen te stellen.**
+**Het doel verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen te bouwen.**
 
 * Voor meer informatie over de parameters die in [!UICONTROL Auto-Target] en Automated Personalization worden gebruikt, zie de Inzameling [van Gegevens van](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)Automated Personalization.
 
-**Target maakt automatisch gebruik van alle Experience Cloud-gebruikers die een gedeeld publiek vormen om de personalisatiemodellen samen te stellen.**
+**Het doel gebruikt automatisch alle Experience Cloud gedeelde publiek om de verpersoonlijkingsmodellen te bouwen.**
 
-* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruiken van Experience Cloud Soorten publiek met Target, zie [Experience Cloud Soorten publiek](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruiken van Experience Cloud Soorten publiek met Doel, zie [Experience Cloud Soorten publiek](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Marketers kunnen offlinegegevens, proxyscores of andere aangepaste gegevens uploaden om personalisatiemodellen samen te stellen.**
 
-* Meer weten over het [uploaden van gegevens voor Auto-Target en Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)?
+* Meer informatie over het [uploaden van gegevens voor Auto-Target en Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 ## Hoe verschilt [!UICONTROL Auto-Target] dit van Automated Personalization? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -148,13 +148,13 @@ Voor [!UICONTROL Auto-Target], kunnen de eenvoudige regels van duim worden gebru
 **[!UICONTROL Auto-Target]biedt een uitgebreid onlinetestframework.**
 
 * De multiarmbandit maakt deel uit van een groter online testkader dat onze data-wetenschappers en onderzoekers in staat stelt de voordelen van hun voortdurende verbeteringen in de reële omstandigheden te begrijpen.
-* In de toekomst zullen we met deze testbank ons computerleerplatform kunnen openen voor onze klanten met data-savvy, zodat ze hun eigen modellen kunnen introduceren om Target-modellen te versterken.
+* In de toekomst zullen we met deze testbank ons computerleerplatform kunnen openen voor onze klanten met data-savvy, zodat ze hun eigen modellen kunnen introduceren om de modellen van Target te versterken.
 
 ## Rapportage en [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Zie Samenvattingsrapport [van](../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) Auto-Target in de sectie [Rapporten](../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) voor meer informatie.
+Voor meer informatie, zie [auto-Doel SamenvattingsRapport](../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) in de sectie van [Rapporten](../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) .
 
-## Veelgestelde vragen over Auto-Target {#section_5C120A2B11D14D9BAF767BBAB50FED23}
+## Veelgestelde vragen over automatisch doel {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
 Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u met [!UICONTROL Auto-Target] activiteiten werkt:
 
@@ -198,14 +198,17 @@ Als uit de resultaten van een A/B-test statistisch significante resultaten van e
 
 Als u substantiële wijzigingen wilt aanbrengen in de inhoud van uw [!UICONTROL Auto-Target] activiteit, kunt u het beste een nieuwe activiteit starten zodat andere gebruikers die rapporten controleren, oude resultaten niet verwarren of met andere inhoud in verband brengen.
 
-### Hoe lang moet ik wachten op modellen om te bouwen?
+### Hoe lang moet ik wachten op modellen om te bouwen? {#how-long}
 
-De tijdsduur die nodig is voor modellen om uw [!UICONTROL Auto-Target] activiteit uit te breiden, is doorgaans afhankelijk van het verkeer naar de geselecteerde locatie(s) van de activiteit en van de mate van succes van de activiteit.
+De tijdsduur die het voor modellen vergt om in uw [!UICONTROL Auto-Target] activiteit te bouwen hangt typisch van het verkeer aan uw geselecteerde activiteitenplaats(en) en omzettingspercentages verbonden aan u metrische activiteit af.
 
-Voor [!UICONTROL Auto-Target], kunnen de eenvoudige regels van duim worden gebruikt om verkeersvereisten te begrijpen:
+[!UICONTROL Auto-Target] zal niet proberen om een gepersonaliseerd model voor een bepaalde ervaring te bouwen tot er minstens 50 omzettingen voor die ervaring zijn. Bovendien als het gebouwde model van ontoereikende kwaliteit is (zoals die door off-line evaluatie op greep &quot;test&quot;gegevens wordt bepaald, gebruikend metrisch die als AUC [](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)wordt bekend), zal het model niet worden gebruikt om verkeer op een gepersonaliseerde manier te dienen.
 
-* **Wanneer Conversion uw succes metrisch is:** 1.000 bezoeken en ten minste 50 conversies per dag per ervaring, en daarnaast moeten de activiteiten ten minste 7.000 bezoeken en 350 conversies hebben.
-* **Wanneer de Opbrengst per Bezoek uw succesmetrisch is:** 1.000 bezoeken en ten minste 50 conversies per dag per ervaring, en daarnaast moet de activiteit ten minste 1.000 conversies per ervaring hebben. RPV vereist gewoonlijk meer gegevens om modellen samen te stellen vanwege de hogere gegevensvariantie die gewoonlijk bestaat in de opbrengsten van bezoeken in vergelijking met de omrekeningskoers.
+Nog enkele punten die u in gedachten wilt houden over [!UICONTROL Auto-Target]het modelgebouw:
+
+* Zodra een activiteit levend is, [!UICONTROL Auto-Target] overweegt tot de laatste 45 dagen van willekeurig gediende gegevens wanneer het proberen om modellen (d.w.z. controleverkeer, plus sommige extra willekeurig gediende gegevens die door ons algoritme worden gehouden) te bouwen.
+* Wanneer [!UICONTROL Revenue per Visit] uw succes metrisch is, vereisen deze activiteiten typisch meer gegevens om modellen te bouwen wegens de hogere gegevensvariantie die typisch in bezoek-opbrengst in vergelijking met omzettingspercentage bestaat.
+* Omdat de modellen op een per-ervaringsbasis worden voortgebouwd, die één ervaring met een andere middelen vervangen die voldoende verkeer (d.w.z. minstens 50 omzettingen) voor de nieuwe ervaring moeten worden verzameld alvorens de gepersonaliseerde modellen kunnen worden herbouwd.
 
 ### Eén model is ingebouwd in mijn activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd?
 
@@ -217,19 +220,19 @@ U kunt de resultaten van uw [!UICONTROL Auto-Target] test bekijken nadat u minst
 
 ### Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
 
-U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
 Zie Een specifieke ervaring [gebruiken als controle](/help/c-activities/t-automated-personalization/experience-as-control.md)voor meer informatie.
 
-### Kan ik het doel metrische middenweg door een auto-Target activiteit veranderen? {#change-metric}
+### Kan ik het doel metrische middenweg door een auto-Doelactiviteit veranderen? {#change-metric}
 
 Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
 
 Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
 
-### Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een Auto-Target-activiteit?
+### Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een automatisch doelactiviteit?
 
 Het gebruik van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Target] activiteiten wordt niet voorgesteld. Hoewel de zichtbare rapportgegevens worden verwijderd, worden met deze optie niet alle trainingsrecords uit het [!UICONTROL Auto-Target] model verwijderd. In plaats van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Target] activiteiten te gebruiken, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Opmerking: Deze leidraad is ook van toepassing op [!UICONTROL Auto-Allocate] en [!UICONTROL Automated Personalization] activiteiten.)
 
@@ -269,7 +272,7 @@ In een [!UICONTROL Auto-Target] activiteit, zodra een omzettingsmetrische (of op
 
 Bijvoorbeeld, is er een activiteit met metrisch (C1) en extra metrisch (A1). A1 is afhankelijk van C1. Wanneer een bezoeker de activiteit voor het eerst ingaat, en de criteria voor het omzetten A1 en C1 niet worden omgezet, wordt metrische A1 niet omgezet toe te schrijven aan het succes metrische gebiedsdeel. Als de bezoeker C1 omzet en dan A1 omzet, wordt A1 nog niet omgezet omdat zodra C1 wordt omgezet, de bezoeker wordt vrijgegeven.
 
-## Trainingsvideo: Inzicht krijgen in ![overzichtsbadge voor Auto-Target-activiteiten](/help/assets/overview.png)
+## Trainingsvideo: Inzicht in ![overzichtsbadge voor Auto-Target-activiteiten](/help/assets/overview.png)
 
 In deze video wordt uitgelegd hoe u een [!UICONTROL Auto-Target] A/B-activiteit instelt.
 
