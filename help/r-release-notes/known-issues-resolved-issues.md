@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
+source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3396'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ Als u een sjabloonregel toevoegt, zoals de URL (/checkout, /cart) in [paginaleve
 
 Hier volgen bekende problemen met omleidingsvoorstellen:
 
-* Onder bepaalde omstandigheden heeft een beperkt aantal klanten een hogere mate van variatie in de verkeersverdeling gemeld bij het gebruik van een omleidingsaanbod in activiteiten die met Analytics for Target (A4T) zijn geconfigureerd. Adobe engineers werken momenteel aan dit probleem.
+* Onder sommige omstandigheden heeft een beperkt aantal klanten hogere mate van variatie in verkeersdistributie gemeld bij het gebruik van een omleidingsaanbod in activiteiten die zijn geconfigureerd met Analytics for Target (A4T). Adobe engineers werken momenteel aan dit probleem.
 * De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). In plaats daarvan kunt u de modus [](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) QA gebruiken om de voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
-### Grafiekrapport voor een Auto-Target-activiteit kan niet worden gerenderd wanneer een aangepaste ervaring als besturingselement wordt gebruikt
+### Grafiekrapport voor een activiteit Auto-Doel ontbreekt teruggeven wanneer het gebruiken van een douaneervaring als controle
 
-In het grafiekrapport voor een Auto-Target-activiteit worden geen &quot;differentiële&quot; modi (Gemiddelde optillen en Dagelijkse optillen) weergegeven als er geen gegevens (0 bezoeken) in enige ervaring zijn. Deze situatie kan zich voordoen tijdens de vroege fase van een activiteit als de controleervaring aan douane wordt geplaatst. Voor de andere wijzen (het Lopen Gemiddelde Controle en Gericht, Dagelijkse Controle en Gericht, en Bezoek) werkt het fijn. Zodra er gegevens zijn (bezoeken die niet gelijk zijn aan nul), wordt het rapport weergegeven zoals verwacht.
+Het grafiekrapport voor een activiteit auto-Doel ontbreekt om voor &quot;differentiële&quot;wijzen (Gemiddelde Lift en Dagelijkse Lift) terug te geven als er geen gegevens (0 bezoeken) in om het even welke ervaring zijn. Deze situatie kan zich voordoen tijdens de vroege fase van een activiteit als de controleervaring aan douane wordt geplaatst. Voor de andere wijzen (het Lopen Gemiddelde Controle en Gericht, Dagelijkse Controle en Gericht, en Bezoek) werkt het fijn. Zodra er gegevens zijn (bezoeken die niet gelijk zijn aan nul), wordt het rapport weergegeven zoals verwacht.
 
 ### Het laden van een pagina in de VEC annuleren {#cancel}
 
@@ -57,9 +57,9 @@ In het grafiekrapport voor een Auto-Target-activiteit worden geen &quot;differen
 
 * Bij de websites van de toepassing Eén pagina (SPA) kunt u door het annuleren van het laden geen handelingen bewerken in het [!UICONTROL Modifications] deelvenster.
 
-### Ondersteuning voor Enterprise-machtigingen in Target API&#39;s {#api}
+### Ondersteuning voor Enterprise-machtigingen in doel-API&#39;s {#api}
 
-Codeaanbiedingen die zijn gemaakt vanuit de gebruikersinterface van Target in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft *geen* invloed op aanbiedingen die met API&#39;s zijn gemaakt. Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de gebruikersinterface van Target.
+Codeaanbiedingen die zijn gemaakt vanuit de doelinterface in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft *geen* invloed op aanbiedingen die met API&#39;s zijn gemaakt. Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de doelinterface.
 
 ### Recommendations
 
@@ -68,7 +68,7 @@ Hier volgen enkele bekende problemen met Recommendations-activiteiten:
 * Entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. (IRI-857)
 * De &quot;Gebruiksinformatie&quot;-overlays voor Criteria en Ontwerpen weerspiegelen hun gebruik in A/B en de Ervaring gerichte activiteiten (TGT-34331) niet
 * Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
-* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de Target-gebruikersinterface en kunnen alleen via de API worden bewerkt. (TGT-35777)
+* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. (TGT-35777)
 * Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
 * De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)
 
@@ -80,8 +80,8 @@ In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven
 
 De volgende problemen zijn bekend met at.js:
 
-* Als u versies at.js gebruikt die ouder zijn dan 2.2.0, worden conversies in Analytics for Target (A4T) niet gerapporteerd als er geen Adobe Analytics-code aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) van .js als dit probleem optreedt.
-* Als u een ervaring zonder wijzigingen maakt met behulp van at.js 2.1.1 of eerder (bijvoorbeeld een standaardeigenschap), wordt de ervaring mogelijk niet meegeteld in rapporten, Analytics for Target (A4T), Adobe Analytics of Google Analytics. Bovendien werkt de [ttMeta-plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
+* Als u versies at.js gebruikt die ouder zijn dan 2.2.0, klikt u op bijhouden, rapporteert u geen conversies in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) van .js als dit probleem optreedt.
+* Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de [ttMeta-plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
 
    Als oplossing gebruikt u een witruimte in de ervaringsinhoud. (TNT-33366)
 
@@ -89,7 +89,7 @@ De volgende problemen zijn bekend met at.js:
    >
    >Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. U zou aan de [recentste versie of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) moeten bevorderen of de oplossing gebruiken bovengenoemde slechts voor at.js versies vroeger dan 2.2.0.
 
-* Wanneer een pagina in Visuele Composer van de Ervaring (VEC) wordt geladen, moet Target bepalen als globale mbox het plaatsen wordt toegelaten of onbruikbaar gemaakt en of entiteitID of categoryID aanwezig is op de plaats waar de gebruiker probeert om de aanbeveling in VEC toe te passen. Op basis van deze informatie wordt de lijst met criteria gefilterd. De standaardlijst bevat gefilterde algoritmen, maar met het selectievakje [](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) Compatible kunt u de lijst met volledige algoritmen weergeven.
+* Wanneer een pagina in Visuele Composer van de Ervaring (VEC) wordt geladen, moet het Doel bepalen als globale mbox het plaatsen wordt toegelaten of onbruikbaar gemaakt en of entiteitID of categoryID aanwezig is op de plaats waar de gebruiker probeert om de aanbeveling in VEC toe te passen. Op basis van deze informatie wordt de lijst met criteria gefilterd. De standaardlijst bevat gefilterde algoritmen, maar met het selectievakje [](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) Compatible kunt u de lijst met volledige algoritmen weergeven.
 
    Als u at.js gebruikt, is het selectievakje Compatibiliteit verborgen, zodat incompatibele algoritmen niet zichtbaar zijn.
 
@@ -120,15 +120,15 @@ at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huur
 
 De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;zal worden verhoogd geplaatst aan &quot;elke indruk&quot;of &quot;elke indruk (met uitzondering van verfrissingen)&quot;kan niet als succes worden gebruikt metrisch dat een andere metrisch afhangt.
 
-Wanneer een succes metrisch op elke indruk wordt gezet, telt Target opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. Target herstelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 zodat kan het opnieuw op de volgende indruk tellen. Aldus, als een andere metrisch vereist deze metrisch om eerst te zijn gezien, zal Target nooit erkennen dat de gebruiker eerste metrisch heeft gezien.
+Wanneer een succes metrisch wordt geplaatst om op elke indruk worden verhoogd, telt Target opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. Het doel stelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 terug zodat kan het op de volgende indruk opnieuw tellen. Aldus, als een andere metrisch vereist dat metrisch eerst is gezien, zal het Doel nooit erkennen dat de gebruiker eerste metrisch heeft gezien.
 
-### Analytics voor Target (A4T)
+### Analyses voor doel (A4T)
 
-Target-activiteitindrukkingen en -conversies worden momenteel onjuist geteld in Analysis Workspace.
+Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)wilt toepassen, klikt u met de rechtermuisknop op de maateenheid om de kolominstellingen te **wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel** selecteren. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
 
-Als oplossing kunt u gebruikmaken van A4T-gegevens in Rapporten en Analytics totdat dit probleem is opgelost.
+Alle huidige pakketten Analytics hebben de capaciteit om dit model met Attribution IQ toe te voegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
 
-### Target API&#39;s
+### Doel-API&#39;s
 
 Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch toewijzen via de v3-versie van de API voor A/B-activiteiten op Adobe I/O.
 
@@ -146,27 +146,27 @@ Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naa
 
 ### Rapportage en extreme orders
 
-Van 25 november 2019 tot 26 april 2020 heeft één Target-server een probleem ervaren dat ertoe heeft geleid dat extreme orderwaarden werden meegeteld in rapporteringsmetriek op basis van inkomsten (AOV, RPV). Van 19 december 2019 tot 23 april 2020 kreeg een andere server hetzelfde probleem. Dit probleem had geen invloed op alle Target-servers of op alle Target-klanten.
+Van 25 november 2019 tot 26 april 2020, ondervond één Target-server een probleem dat ertoe leidde dat extreme orderwaarden moesten worden geteld in rapporteringsmetriek op basis van inkomsten (AOV, RPV). Van 19 december 2019 tot 23 april 2020 kreeg een andere server hetzelfde probleem. Deze kwestie beïnvloedde niet alle servers van het Doel of alle klanten van het Doel.
 
 U had *geen* invloed als:
 
-* Uw Target-implementatie gebruikt verschillende servers.
+* Uw doelimplementatie gebruikt verschillende servers.
 * In uw rapporten zijn extreme bestellingen niet uitgesloten.
 * U hebt een omzettingsmaatstaf gebruikt om uw activiteiten te meten.
-* Uw Target-activiteiten maken gebruik van Analytics for Target (A4T).
+* Uw doelactiviteiten gebruiken Analytics voor Doel (A4T).
 * U bevindt zich in de regio Azië-Pacific (APAC).
 
-Neem contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)om te bepalen of dit probleem gevolgen heeft voor uw Target-rapportage.
+Neem contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)om te bepalen of dit probleem gevolgen heeft voor uw rapportage over het doel.
 
 ### Recommendations
 
 * Recommendations feed-index kan &#39;Waiting for index&#39; weergeven als de items in de feed gelijk zijn aan de items in de vorige run. De inname van het product voor levering heeft geen invloed op het product. (RECS-6663)
 
-   Dit probleem is opgelost in de Target-versie 19.4.2.
+   Dit probleem is opgelost in de doelversie 19.4.2.
 
 * Het verwerken van Recommendations-feeds duurt langer dan u had verwacht. (COR-2836)
 
-   Opgelost in Target 16.10.1.
+   Correctie in de doelversie 16.10.1.
 
 * De interface van de Beelden van de Aanbeveling toont niet het correcte statuut van indexeren. De back-endtaken werken correct, maar de interface kan de huidige status niet ophalen en weergeven.
 
@@ -185,7 +185,7 @@ Dit probleem is opgelost in 1.js 1.6.3.
 
 Deze problemen zijn opgelost.
 
-### Target API&#39;s
+### Doel-API&#39;s
 
 v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte. (TTTEAM-41957)
 
@@ -205,13 +205,13 @@ Vast in november 2018.
 
 ### at.js
 
-Bij gebruik van at.js versie 1.6.0 vindt een omleiding van Analytics for Target (A4T) plaats, maar zonder kwalificatie van de activiteit.
+Wanneer u at.js versie 1.6.0 gebruikt, vindt een omleiding van Analytics voor Target (A4T) plaats, maar zonder activiteitkwalificatie.
 
 Correctie met de release van at.js 1.6.2.
 
 ### Activiteiten, werkruimten en activiteit-API verwijderen
 
-Activiteiten in de standaardwerkruimte die via de API zijn verwijderd, worden nog steeds weergegeven in de gebruikersinterface van Target. Als tussenoplossing verwijdert u alle activiteiten in de standaardwerkruimte met de gebruikersinterface van Target. (TGT-31315)
+De activiteiten in de standaardwerkruimte die via API worden verwijderd, worden nog steeds weergegeven in de doelinterface. Als tussenoplossing, schrap alle activiteiten in de standaardwerkruimte gebruikend het Doel UI. (TGT-31315)
 
 Vast 25 oktober 2018
 
@@ -235,15 +235,15 @@ Dit probleem is opgelost in de release 17.8.1.
 
 ### Backup Recommendations
 
-Back-upaanbevelingen geven ten onrechte &quot;Enabled&quot; weer op de onlangs bekeken itemkaarten in de gebruikersinterface van Target. (TGT-29308)
+Back-upaanbevelingen geven ten onrechte &quot;Ingeschakeld&quot; weer op recent bekeken itemkaarten in de interface van het doel. (TGT-29308)
 
 Dit probleem is opgelost in de release 18.4.1, zodat &quot;Uitgeschakeld&quot; wordt weergegeven.
 
-### Auto-Target-activiteiten en rapportagepubliek
+### Auto-Target activiteiten en rapportagepubliek
 
-Wanneer de naam van een rapportagepubliek die in een Auto-Target-activiteit wordt gebruikt, wordt gewijzigd, kunnen verdere updates van Target voor die activiteit mislukken met een foutbericht.
+Wanneer de naam van een rapportpubliek in een auto-Doel activiteit wordt gebruikt wordt veranderd, zouden de verdere updates van Doel voor die activiteit met een foutenmelding kunnen ontbreken.
 
-Dit probleem is opgelost met de release van Target 18.5.1 (22 mei 2018).
+Dit probleem is opgelost met de Target 18.5.1-release (22 mei 2018).
 
 ### at.js
 
@@ -251,14 +251,14 @@ Het algoritme voor het extraheren van het domein op hoofdniveau dat moet worden 
 
 Dit probleem is opgelost in at.js versie 1.2.
 
-### Gebruikersrechten voor Target Premium
+### Gebruikersmachtigingen voor doelversie
 
-Als onderdeel van de migratie naar Enterprise-machtigingen is al het gebruikersbeheer van Target Premium verplaatst van de gebruikersinterface van Adobe Target naar Adobe Admin Console.
+Als onderdeel van de migratie naar Enterprise-machtigingen is al het gebruikersbeheer voor Target Premium verplaatst van de gebruikersinterface van Adobe Target naar Adobe Admin Console.
 
 Als gevolg van de migratie zijn er twee mogelijke problemen die u dient te kennen:
 
 * Gebruikers die geen beheerder zijn, hebben een e-mail ontvangen waarin wordt aangegeven dat ze nu toegang hebben tot Adobe Target. Dit wijst erop dat de migratie voor uw organisatie werd voltooid. De e-mail zelf kan buiten beschouwing worden gelaten.
-* Na de migratie zijn er meldingen geweest dat eerder uitgeschakelde gebruikers opnieuw in de Adobe Admin Console verschenen. Dit kan een probleem voor uw organisatie zijn als gehandicapte gebruikers in de Adobe Admin Console nog steeds op uw gebruikerslijst in Target staan vóór de migratie. Wij adviseren dat de beheerders de lijst van gebruikers in Admin Console herzien om toegang te bevestigen.
+* Na de migratie zijn er meldingen geweest dat eerder uitgeschakelde gebruikers opnieuw in de Adobe Admin Console verschenen. Dit kan een probleem voor uw organisatie zijn als uitgeschakelde gebruikers in de Adobe Admin Console nog steeds op uw gebruikerslijst in Target staan vóór de migratie. Wij adviseren dat de beheerders de lijst van gebruikers in Admin Console herzien om toegang te bevestigen.
 
 Dit probleem is opgelost op 30 augustus 2017
 
@@ -282,13 +282,13 @@ De volgende bekende problemen zijn gemeld bij gebruik van de Form-Based Experien
 * Als u de Form-Based Composer van de Ervaring met een doos buiten auto-gecreeerde globale mbox ( doel-globaal-mbox) gebruikt, en dan kiest metrisch als succes metrisch, de metrische verhogingen slechts op pagina&#39;s die de mbox hebben die in de activiteit wordt gebruikt. Als uw box bijvoorbeeld homepage\_mbox is, is de metrische waarde Pagina&#39;s per bezoek het aantal hits op de startpagina\_mbox tijdens dat bezoek. (TGT-22789)
 * Er wordt een JavaScript-uitzondering gegenereerd wanneer u tijdens stap 1 van het proces een ervaring verwijdert die betrekking heeft op een Experience Targeting-activiteit (XT) wanneer u de Form-Based Experience Composer gebruikt. (TGT-24366)
 
-Het eerste probleem is opgelost in de Target-versie van 17.3.1 (maart 2017).
+De eerste kwestie is vastgelegd in de Target 17.3.1-release (maart 2017).
 
-Het tweede probleem is opgelost in de Target-versie van 17.6.1 (juni 2017).
+De tweede kwestie is vastgelegd in de Target 17.6.1-release (juni 2017).
 
 ### at.js
 
-Sinds de versie van Target 17.4.1 (27 april 2017), die de actie van het Beeld van het Tussenvoegsel in Visual Experience Composer (VEC) gebruikt veroorzaakt dat de aanbiedingsinhoud niet wordt geleverd wanneer het gebruiken van de bibliotheek at.js.
+Sinds de versie van Doel 17.4.1 (27 april, 2017), die de actie van het Beeld van het Tussenvoegsel in Visuele Composer van de Ervaring (VEC) gebruikt veroorzaakt dat de aanbiedingsinhoud niet wordt geleverd wanneer het gebruiken van de bibliotheek at.js.
 
 Er is een oplossing voor dit probleem gevonden voor versie 0.js van 22 mei 2017.
 
@@ -298,13 +298,13 @@ Tussen 27 april om 29.00 uur PST en 5 mei om 6:00 uur PST, A/B en XT activiteite
 
 Rapportage van gegevens voor andere metriek kan nog steeds worden gebruikt omdat ze geen effect hadden.
 
-Opgelost in de hotfix voor Target 17.4.3.
+Opgelost in de hotfix Doel 17.4.3.
 
 ### Voorstellen: Activiteiten in het kader van A/B en Experience Targeting (XT)
 
 De levering en voorvertoning werden beïnvloed voor aanbiedingen in A/B- en XT-activiteiten met ten minste twee ervaringen die zijn gemaakt of bewerkt met behulp van de Form-Based Experience Composer tussen vrijdag 28 april (28.00 uur PT) en maandag 1 mei (28.00 uur PT). Er zijn alleen voorstellen met standaardinhoud weergegeven.
 
-Opgelost in de hotfix voor Target 17.4.3.
+Opgelost in de hotfix Doel 17.4.3.
 
 ### at.js
 
@@ -314,15 +314,15 @@ Er is een oplossing voor dit probleem gemaakt voor versie 0.js 0.9.6.
 
 ### Rapporten
 
-De mogelijkheid om meerdere metrische gegevens in een rapport weer te geven, die zijn opgenomen in de Target 17.3.1-release (30 maart 2017), is verwijderd vanwege onverwacht gedrag. Deze functie is in een volgende release weer beschikbaar.
+De capaciteit om veelvoudige metriek in een rapport te bekijken, inbegrepen in Doelversie 17.3.1 (30 maart, 2017) is verwijderd toe te schrijven aan onverwacht gedrag. Deze functie is in een volgende release weer beschikbaar.
 
-De mogelijkheid om meerdere metriek in een rapport weer te geven, is opgenomen in de Target 17.4.1-release (27 april 2017).
+De capaciteit om veelvoudige metriek in een rapport te bekijken was inbegrepen in Doelversie 17.4.1 (27 april 2017).
 
 ### Aanbiedingen
 
 Afbeeldingen die zijn verwijderd uit de bibliotheek met afbeeldingsaanbiedingen ( \> Afbeeldingsaanbiedingen ) blijven zichtbaar in de gebruikersinterface. In een volgende versie worden deze verwijderde afbeeldingen niet meer weergegeven. Ondertussen worden verwijderde afbeeldingen weergegeven in de gebruikersinterface, maar hebben ze de status Verwijderd. (TGT-23793)
 
-Opgelost in de Target 17.4.1-release (27 april 2017).
+Opgelost in de doelversie 17.4.1 (27 april 2017).
 
 ### Aanbiedingen omleiden
 
@@ -334,7 +334,7 @@ Dit probleem is opgelost na de release van Recommendations (22 maart 2018). Na d
 
 Wanneer gebruikers proberen om te.js van de de detailpagina van Implementaties na het bijwerken van om.js montages te downloaden, mbox.js wordt gedownload in plaats van at.js. (TGT-23069)
 
-Opgelost in de Target 17.3.1-release (30 maart 2017).
+Vast in de Target 17.3.1-release (30 maart 2017).
 
 ### Algemene uitsluitingsregels
 
@@ -342,14 +342,14 @@ De wereldwijde uitsluitingsregels duren 10 tot 20 minuten om zich aan de rand va
 
 Opgelost in de Recommendations 17.2.2.0-release (6 maart 2017).
 
-### Rapportering Analytics for Target (A4T)
+### Analyses voor doelrapportage (A4T)
 
 De rapporten worden niet bijgewerkt wanneer rapporteringsmetrisch wordt geschakeld. Dit is een UI-probleem. Er is geen invloed op het verzamelen of leveren van gegevens. (TGT-22970)
 
-Opgelost in de Target 17.2.2.0-release (24 februari 2017).
+Vast in de Target 17.2.2.0-release (24 februari 2017).
 
 ### CSV-rapporten
 
 Gedownloade rapporten voldoen niet aan de instelling Extreme Orders uitsluiten. (TGT-21871)
 
-Opgelost in Target 17.2.1.0.
+Correctie in de doelversie 17.2.1.0.
