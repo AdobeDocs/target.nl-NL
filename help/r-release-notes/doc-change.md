@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,9 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 augustus | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Toegevoegde tekst die aangeeft dat de cookieheader groter wordt wanneer CNAME wordt gebruikt. |
+|  | [Doel integreren met Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | Nieuw onderwerp. |
+|  | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde koppeling om het volgende gearchiveerde webinar weer te geven: &quot;Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal.&quot; |
 | 6 augustus | [Automatisch doel](/help/c-activities/auto-target-to-optimize.md#how-long) | Bijgewerkte tekst voor de volgende veelgestelde vragen: &quot;Hoe lang moet ik wachten op modellen om te bouwen?&quot; |
 |  | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | De tekst voor targetType is bijgewerkt. |
 | 5 augustus | [Het doelcookie verwijderen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Volledig onderwerp bijgewerkt. |
