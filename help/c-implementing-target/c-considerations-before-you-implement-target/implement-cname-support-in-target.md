@@ -1,13 +1,13 @@
 ---
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
-description: Informatie over het werken met de Zorg van de Cliënt van Adobe om de steun van CNAME (Canonical Name) in Adobe Target uit te voeren.
+description: Informatie over het werken met de Zorg van de Cliënt van Adobe om steun CNAME (Canonical Name) in Adobe Target uit te voeren.
 title: CNAME en Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
+source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # CNAME en Adobe Target {#cname-and-adobe-target}
 
-Instructies voor het werken met de Zorg van de Cliënt van Adobe om de steun van CNAME (Canonical Name) in uit te voeren [!DNL Adobe Target]. Om kwesties, of op ITP betrekking hebbende koekjesbeleid het best te behandelen en te blokkeren, wordt een CNAME gebruikt zo vraag wordt gemaakt aan een domein dat door de klant eerder dan een domein wordt bezeten dat door Adobe wordt bezeten.
+Instructies voor het werken met de Zorg van de Cliënt van Adobe om steun CNAME (Canonical Name) in uit te voeren [!DNL Adobe Target]. Om kwesties, of op ITP betrekking hebbende koekjesbeleid het best te behandelen en te blokkeren, wordt een CNAME gebruikt zodat wordt de vraag gemaakt aan een domein dat door de klant eerder dan een domein wordt bezeten dat door Adobe wordt bezeten.
 
 ## CNAME-ondersteuning aanvragen
 
@@ -33,14 +33,14 @@ Voer de volgende stappen uit om CNAME-ondersteuning aan te vragen in [!DNL Targe
 
    >[!NOTE]
    >
-   >* DigiCert, de certificeringsinstantie van Adobe, kan pas een certificaat uitgeven als deze stap is voltooid. Daarom kan Adobe uw verzoek om een implementatie van CNAME niet vervullen tot deze stap volledig is.
+   >* Adobe, DigiCert, kan pas een certificaat uitgeven als deze stap is voltooid. Daarom kan Adobe uw verzoek om een implementatie CNAME niet vervullen tot deze stap volledig is.
 
 
-1. Vul het volgende formulier in en neem het op wanneer u een Adobe Client Care-ticket [opent waarmee CNAME-ondersteuning](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)wordt aangevraagd:
+1. Vul het volgende formulier in en neem het op wanneer u een Adobe Client Care-ticket [opent dat CNAME-ondersteuning](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)aanvraagt:
 
    * Adobe- [!DNL Target] clientcode:
    * SSL-certificaathostnamen (voorbeeld: `target.example.com target.example.org`):
-   * Aankoper van SSL-certificaten (Adobe wordt ten zeerste aanbevolen, zie Veelgestelde vragen): Adobe/klant
+   * Aankoper van SSL-certificaat (Adobe wordt ten zeerste aanbevolen, zie Veelgestelde vragen): Adobe/klant
    * Als de klant het certificaat aanschaft (ook bekend als BYOC), vult u de volgende aanvullende gegevens in:
       * Certificaatorganisatie (voorbeeld: Voorbeeld van Company Inc):
       * Organisatorische eenheid van het certificaat (facultatief, voorbeeld: Marketing):
@@ -48,13 +48,13 @@ Voer de volgende stappen uit om CNAME-ondersteuning aan te vragen in [!DNL Targe
       * Certificaatstatus/gebied (voorbeeld: Californië):
       * Plaats certificaat (voorbeeld: San Jose):
 
-1. Als Adobe het certificaat aanschaft, werkt Adobe samen met DigiCert om uw certificaat aan te schaffen en te implementeren op de productieservers van Adobe.
+1. Als Adobe het certificaat aanschaft, werkt Adobe samen met DigiCert aan de aanschaf en implementatie van het certificaat op Adobe productieservers.
 
-   Als de klant het certificaat (BYOC) aanschaft, zal de Zorg van de Cliënt van Adobe u het certificaat verzenden ondertekenend verzoek (CSR), dat u zult moeten gebruiken wanneer het kopen van het certificaat door uw certificaatgezag van keus. Nadat het certificaat is uitgegeven, moet u een exemplaar van het certificaat en om het even welke tussencertificaten terug naar de Zorg van de Cliënt van Adobe voor plaatsing verzenden.
+   Als de klant het certificaat (BYOC) koopt, zal de Zorg van de Adobe Cliënt u het certificaat verzenden ondertekenend verzoek (CSR), dat u zult moeten gebruiken wanneer het kopen van het certificaat door uw certificaatgezag van keus. Nadat het certificaat wordt uitgegeven, moet u een exemplaar van het certificaat en om het even welke tussencertificaten terug naar de Zorg van de Cliënt van Adobe voor plaatsing verzenden.
 
-   Adobe Client Care brengt u op de hoogte wanneer uw implementatie gereed is.
+   De Zorg van de Cliënt van Adobe zal u op de hoogte brengen wanneer uw implementatie klaar is.
 
-1. Nadat u de voorgaande taken hebt voltooid en Adobe Client Care u heeft laten weten dat de implementatie gereed is, moet u de toepassing bijwerken naar de nieuwe CNAME in at.js. `serverDomain`
+1. Na de voltooiing van de voorafgaande taken en de Zorg van de Cliënt van Adobe heeft u meegedeeld dat de implementatie klaar is, moet u `serverDomain` aan nieuwe CNAME in at.js bijwerken.
 
 ## Veelgestelde vragen
 
@@ -62,11 +62,11 @@ De volgende informatie beantwoordt vaak gestelde vragen over het verzoeken van e
 
 ### Kan ik mijn eigen certificaat verstrekken (ook bekend als &#39;bring-your-own-certificate&#39; of &#39;BYOC&#39;)?
 
-Ja, u kunt uw eigen certificaat opgeven. dit wordt echter niet aanbevolen . Het beheer van de levenscyclus van het SSL-certificaat is aanzienlijk eenvoudiger voor zowel Adobe als u wanneer Adobe het certificaat aanschaft en beheert. SSL-certificaten moeten elk jaar worden vernieuwd. Dit betekent dat Adobe Client Care jaarlijks contact met u moet opnemen om Adobe een nieuw certificaat te sturen. Sommige klanten kunnen problemen hebben om een vernieuwd certificaat op geschikte wijze te produceren elk jaar, dat hun [!DNL Target] implementatie in gevaar brengt omdat browsers verbindingen zullen weigeren wanneer het certificaat verloopt.
+Ja, u kunt uw eigen certificaat opgeven. dit wordt echter niet aanbevolen . Het beheer van de SSL-certificaatlevenscyclus is aanzienlijk eenvoudiger voor zowel Adobe als u wanneer Adobe het certificaat aanschaft en beheert. SSL-certificaten moeten elk jaar worden vernieuwd. Dit betekent dat de Adobe Client Care jaarlijks contact met u moet opnemen om Adobe een nieuw certificaat tijdig te kunnen verzenden. Sommige klanten kunnen problemen hebben om een vernieuwd certificaat op geschikte wijze te produceren elk jaar, dat hun [!DNL Target] implementatie in gevaar brengt omdat browsers verbindingen zullen weigeren wanneer het certificaat verloopt.
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat als u een CNAME-implementatie met uw eigen certificaat aanvraagt, u verantwoordelijk bent voor het jaarlijks verstrekken van vernieuwde certificaten aan de klantenservice van Adobe. [!DNL Target] Als u toestaat dat uw CNAME-certificaat verloopt voordat Adobe een vernieuwd certificaat kan implementeren, leidt dit tot een storing voor uw specifieke [!DNL Target] implementatie.
+>Houd er rekening mee dat als u een CNAME-implementatie met uw eigen [!DNL Target] certificaat aanvraagt, u verantwoordelijk bent voor het opgeven van vernieuwde certificaten voor de zorg van de Adobe-klant elk jaar. Als u toestaat dat uw CNAME-certificaat verloopt voordat Adobe een vernieuwd certificaat kan implementeren, leidt dit tot een storing voor uw specifieke [!DNL Target] implementatie.
 
 ### Hoe lang tot mijn nieuwe SSL certificaat verloopt?
 
@@ -82,11 +82,11 @@ De meeste klanten kiezen hostname als `target.example.com`, zodat is wat wij adv
 
 Nee, [!DNL Target] vereist een aparte hostnaam en certificaat.
 
-### Heeft mijn huidige implementatie van Target gevolgen voor ITP 2.x?
+### Is mijn huidige implementatie van Doel beïnvloed door ITP 2.x?
 
-Navigeer in een Safari-browser naar uw website waarop u een Target JavaScript-bibliotheek hebt. Als u een koekje ziet van Target die in de context van een CNAME, zoals wordt geplaatst, `analytics.company.com`dan wordt u niet beïnvloed door ITP 2.x.
+Navigeer in een Safari-browser naar uw website waarop u een Target JavaScript-bibliotheek hebt. Als u een koekje ziet van het Doel in de context van een CNAME, zoals wordt geplaatst, `analytics.company.com`dan wordt u niet beïnvloed door ITP 2.x.
 
-ITP-problemen kunnen worden opgelost voor Target met alleen een Analytics CNAME. U hebt alleen een aparte Target CNAME nodig in het geval van ad-blocking scenario&#39;s waarbij Target wordt geblokkeerd.
+ITP problemen kunnen voor Doel met enkel een Analytics CNAME worden opgelost. U zult een afzonderlijke NAAM van het Doel slechts in het geval van ad-blokkerende scenario&#39;s nodig hebben waar het Doel wordt geblokkeerd.
 
 Zie [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)voor meer informatie over ITP.
 
@@ -146,3 +146,4 @@ Gebruik de volgende set opdrachten (in de opdrachtregelterminal van MacOS of Lin
 
 * De wijze QA zal niet kleverig zijn wanneer u CNAME en at.js 1.x hebt omdat het op een derdekoekje gebaseerd is. Als tussenoplossing kunt u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert. De modus QA blijft behouden wanneer u CNAME en at.js 2.x hebt.
 * De `overrideMboxEdgeServer` instelling werkt momenteel niet correct met CNAME. Dit moet zo worden vastgesteld `false` dat geen verzoeken in gebreke blijven.
+* Wanneer het gebruiken van CNAME het waarschijnlijker wordt dat de grootte van de koekjeskopbal voor de vraag van het Doel zal stijgen. We raden u aan de grootte van de cookie onder 8 kB te houden.
