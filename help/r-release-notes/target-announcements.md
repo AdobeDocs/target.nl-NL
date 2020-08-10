@@ -4,9 +4,9 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,16 @@ Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van de
 
 Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid. [Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
+## Webinar: Personalisatiestrategieën met behulp van kunstmatige intelligentie en Adobe Target
 
 * **08:00 - 9:00 (PDT)**
-* **Donderdag 6 augustus 2020**
+* **Donderdag 13 augustus 2020**
+
+[Registreer hier](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)voor dit webinar.
+
+## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
+
+* **De komende 30 dagen kunt u hier klikken om de[Webinar Opname](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)te bekijken.**
 
 McKinsey Digital meldt dat &quot;we vijf jaar vooruit hebben gespaard in de digitale adoptie van consumenten en bedrijven in een kwestie van ongeveer acht weken.&quot; *
 
@@ -38,13 +44,6 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 [Registreer je hier](https://hsbc-targetai.experienceleague.adobeevents.com/)voor dit spannende webinar.
 
 *McKinsey-artikel: &quot;[Het herstel van COVID-19 zal digitaal](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)zijn,&quot; mei 2020
-
-## Webinar: Personalisatiestrategieën met behulp van kunstmatige intelligentie en Adobe Target
-
-* **08:00 - 9:00 (PDT)**
-* **Donderdag 13 augustus 2020**
-
-[Registreer hier](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)voor dit webinar.
 
 ## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js {#skill-builder}
 
