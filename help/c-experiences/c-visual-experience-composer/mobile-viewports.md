@@ -4,9 +4,9 @@ description: Met mobiele viewports kunt u een voorvertoning weergeven van uw Ado
 title: Mobiele Viewers voor responsieve ervaringen
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -148,27 +148,27 @@ Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om responsieve erva
 
 ## Hoofdlettergebruik: Twee iPhone-versies als doel instellen {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-In dit gebruiksgeval ziet u hoe u ervaringen voor twee iPhone-versies kunt configureren: iPhone 11 Pro Max en iPhone SE.
+In dit gebruiksgeval ziet u hoe u ervaringen voor twee iPhone-versies kunt configureren: iPhone 6 en iPhone 6 Plus.
 
-1. Klik op Doel **[!UICONTROL Administration]**.
-1. Maak in de **[!UICONTROL Mobile viewport configuration]** sectie mobiele viewports voor iPhone 11 Pro Max en iPhone SE.
+1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. Maak in de **[!UICONTROL Mobile Viewport Configuration]** sectie mobiele viewports voor iPhone 6 en iPhone 6 plus.
 
    Gebruik de volgende instellingen voor elke viewport:
 
    | Naam | Breedte | Hoogte | Besturingssysteem |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Maak een activiteit met de ervaring u zou willen richten.
-1. Selecteer de ervaring die u wilt gebruiken voor bezoekers die uw site openen via een iPhone 11 Pro Max of iPhone SE.
+1. Selecteer de ervaring die u wilt gebruiken voor bezoekers die uw site openen via een iPhone 6 of iPhone 6 Plus.
 1. Wanneer het selecteren van uw doel, klik **[!UICONTROL Create Audience]**, dan vorm een publiek zoals aangetoond in het hieronder beeld:
 
    ![](assets/iphoneaudiences.png)
 
-   Omdat de telefoon aan landschap kon worden geroteerd, die zowel hoogte als breedte vereisen om groter te zijn dan 320 leidt gelijktijdig tot een voorwaarde dat slechts iPhone 11 Pro Max en iPhone SE zou kunnen ontmoeten, wanneer gecombineerd met het model van het iPhoneApparaat.
+   Omdat de telefoon aan landschap kon worden geroteerd, die zowel hoogte als breedte vereisen om groter te zijn dan 320 leidt gelijktijdig tot een voorwaarde die slechts 6 en 6 plus zou kunnen ontmoeten, wanneer gecombineerd met het Model van het Apparaat van de iPhone.
 1. Klik op **[!UICONTROL Save]**.
 1. Ga door met het instellen van je activiteit zoals je normaal zou doen.
 
