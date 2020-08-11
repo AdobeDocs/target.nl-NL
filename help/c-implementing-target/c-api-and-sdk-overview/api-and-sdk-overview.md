@@ -5,7 +5,10 @@ title: Informatie over Adobe Target API's voor levering aan de server, Node.js S
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 2ba4a211221286b26dc39f26be43cb0564b7be01
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ De volgende secties verstrekken meer informatie over diverse APIs en NodeJS SDK:
 
 ## Server Side Delivery-API&#39;s
 
-Koppeling: API&#39;s voor [serverlevering](https://developers.adobetarget.com/api/delivery-api/)
+Koppeling: [Server Side Delivery-API&#39;s](https://developers.adobetarget.com/api/delivery-api/)
 
 `/rest/v1/delivery`
 
@@ -50,15 +53,15 @@ De SDK van Node.js is een geavanceerde softwareontwikkelingskit die de complexit
 
 ## Doel Java SDK
 
-Koppeling: Java SDK voor [doel](https://github.com/adobe/target-java-sdk)
+Koppeling: [Doel Java SDK](https://github.com/adobe/target-java-sdk)
 
 De Java SDK is een geavanceerde softwareontwikkelkit waarmee de complexiteit van het beheren van cookies, sessies en het integreren met [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Adobe Analytics], de [!DNL Experience Cloud Visitor ID Service]en [!DNL Adobe Audience Manager]. Achter de schermen gebruikt de Java SDK de `/rest/v1/delivery` API. Hier volgen enkele belangrijke functies die worden ondersteund in de Java SDK:
 
 * **Ondersteuning voor prefetch en meldingen waarmee u de prestaties kunt optimaliseren via caching**: U kunt de JavaSDK gebruiken om ervaringen op te halen en deze lokaal in de cache op uw Java-server op te slaan om serveraanroepen naar uw toepassingsprestaties te minimaliseren [!DNL Target] en te optimaliseren.
 * **Capaciteit om VEC-gecreeerde activiteiten** terug te winnen: Haal VEC-gecreeerde activiteiten op server-kant terug. De reactie die VEC-gecreeerde activiteiten bevat heeft selecteurs die kunnen worden gebruikt om slechts gedeelten van uw pagina pre-te verbergen die moeten worden gepersonaliseerd. Zo kunt u de [eerste metrische gegevens voor inhoudelijke verf](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) van uw pagina optimaliseren. Dit is een belangrijke PKI voor uw bedrijf om een hoge score te behalen in het [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -systeem.
 
-## API&#39;s voor doelaanbevelingen
+## Doel Recommendations API&#39;s
 
-Koppeling: API&#39;s voor [doelaanbevelingen](https://developers.adobetarget.com/api/recommendations)
+Koppeling: [Overzicht](https://developers.adobetarget.com/api/recommendations) van Recommendations API&#39;s [en](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)Adobe Recommendations API.
 
-Met de aanbevelingen-API&#39;s kunt u programmatisch communiceren met [!DNL Target] aanbevelingen-servers. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de [!DNL Target] gebruikersinterface doet.
+Met de Recommendations API&#39;s kunt u programmatisch communiceren met [!DNL Target] aanbevolen servers. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de [!DNL Target] gebruikersinterface doet.
