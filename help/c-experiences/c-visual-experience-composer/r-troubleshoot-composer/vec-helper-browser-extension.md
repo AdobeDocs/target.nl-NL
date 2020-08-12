@@ -2,9 +2,10 @@
 keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Informatie om de Adobe Target Visual Experience Composer (VEC) te gebruiken Helper browser uitbreiding om websites betrouwbaar binnen VEC te laden om snel auteur en QA ervaart te schrijven.
 title: Helperextensie Adobe Target Visual Experience Composer (VEC)
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Met de VEC Helper-browserextensie voor Chrome worden problemen opgelost die door
 
 Voordelen van het gebruik van de extensie VEC Helper:
 
-* Alle iFrame-opbouwheaders, zoals X-Frame-Options en Content-Security-Policy, worden impliciet verwijderd van de website. Het is niet langer nodig om hiervoor ingewikkelde voorschriften in te voeren.
+* Alle iFrame-opbouwende kopballen, zoals x-Kader-Opties en inhoud-veiligheid-Beleid, worden impliciet verwijderd uit de website. Het is niet langer nodig om hiervoor ingewikkelde voorschriften in te voeren.
 * Als een webpagina nog niet de JavaScript-bibliotheek [!DNL Target] at.js bevat, kunt u de extensie gebruiken om de bibliotheek te injecteren zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
 * Mobiele Viewports worden ondersteund, zelfs zonder [!UICONTROL Enhanced Experience Composer] (EEG).
 * Klanten die nog niet eerder [!DNL Target] zijn, kunnen de extensie gebruiken om te experimenteren met [!DNL Target] zelfs als hun IT-ontwikkelaars deze nog niet [!DNL Target] op hun websites hebben geïmplementeerd.
