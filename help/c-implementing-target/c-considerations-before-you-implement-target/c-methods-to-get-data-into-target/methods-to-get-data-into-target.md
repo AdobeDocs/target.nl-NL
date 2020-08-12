@@ -2,11 +2,15 @@
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Informatie over de verschillende methoden die u kunt gebruiken om gegevens op te halen uit Target, zoals paginaparameters, paginageprofielkenmerken, kenmerken van scriptprofielen, gegevensproviders, de API voor bulkprofielupdate, de single-profile-update-API en klantkenmerken.
 title: Methoden om gegevens op te halen in Doel
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +37,7 @@ Voorbeelden:
 
 ### Voorbeelden
 
-**Productpagina**&#39;s: Informatie verzenden over het bekeken specifieke product (dit is de manier waarop Aanbevelingen werken)
+**Productpagina**&#39;s: Informatie verzenden over het bekeken specifieke product (dit is de manier waarop Recommendations werkt)
 
 **Bestelgegevens**: Order-id, orderTotal enzovoort verzenden voor het verzamelen van bestellingen
 
@@ -79,11 +83,11 @@ Parameters in mboxCreate-code:
 
 ### Koppelingen naar relevante informatie
 
-Aanbevelingen: [Implementatie volgens paginatype](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+Recommendations: [Implementatie volgens paginatype](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 
-Bevestiging van bestelling: Conversies [bijhouden](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
+Bevestiging van bestelling: [Conversies bijhouden](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
 
-Categorie-affiniteit: Affiniteit [categorie](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+Categorie-affiniteit: [Categorie-affiniteit](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
 
 ## Profielkenmerken in pagina (ook wel &#39;profielkenmerken in de box&#39; genoemd) {#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -224,7 +228,7 @@ Documentatie: [Gegevensleveranciers](/help/c-implementing-target/c-implementing-
 
 ### Trainingsvideo&#39;s:
 
-* [Gegevensproviders gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Gegevensleveranciers gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
 * [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## Bulkprofielupdate-API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
@@ -233,15 +237,15 @@ Verzend via de API een CSV-bestand naar Target met updates van het bezoekersprof
 
 Deze optie lijkt sterk op Customer Attributes met een paar verschillen:
 
-* Klantkenmerken gebruiken een FTP-upload terwijl de API voor het bijwerken van het doelbulkprofiel een HTTP POST-API gebruikt.
+* Klantkenmerken gebruiken een FTP-upload terwijl de API voor het bijwerken van het doelbulkprofiel een HTTP-POST-API gebruikt.
 * De gegevens van de Attributen van de klant kunnen met Analytics worden gedeeld. Bulkprofielupdate kan alleen worden gebruikt in Doel.
 * De steun van de Attributen van de klant die tot een profiel voor een gebruikersDoel leidt heeft nog niet gezien. De API voor het bijwerken van het bulkprofiel werkt alleen bestaande doelprofielen bij.
-* Klantkenmerken vereisen het gebruik van de Experience Cloud ID (ECID). Voor de API voor het bijwerken van het bulkprofiel is de TNT-id of de `mbox3rdPartyId`TNT-id vereist.
+* Klantkenmerken vereisen het gebruik van de Experience Cloud-id (ECID). Voor de API voor het bijwerken van het bulkprofiel is de TNT-id of de `mbox3rdPartyId`TNT-id vereist.
 * U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/).
 
 ### Indeling
 
-Het .csv-bestand moet naar elke bezoeker verwijzen via zijn of haar doel-PCID of mboxThirdPartyId. De ECID (Experience Cloud ID) wordt niet ondersteund. Alle profielkenmerken/waarden worden gemaakt en bijgewerkt via de API. De indelingsgegevens zijn beschikbaar in de API-documentatie.
+Het .csv-bestand moet naar elke bezoeker verwijzen via zijn of haar doel-PCID of mboxThirdPartyId. De Experience Cloud-id (ECID) wordt niet ondersteund. Alle profielkenmerken/waarden worden gemaakt en bijgewerkt via de API. De indelingsgegevens zijn beschikbaar in de API-documentatie.
 
 ### Voorbeelden
 
@@ -275,7 +279,7 @@ Bijna identiek aan de API voor het bijwerken van het bulkprofiel, maar één bez
 
 ### Indeling
 
-De bezoeker moet via de waarde van Target mboxPC of de waarde mboxThirdPartyId worden geïdentificeerd. De ECID (Experience Cloud ID) wordt niet ondersteund.
+De bezoeker moet via de waarde van Target mboxPC of de waarde mboxThirdPartyId worden geïdentificeerd. De Experience Cloud-id (ECID) wordt niet ondersteund.
 
 ### Voorbeelden
 
@@ -309,11 +313,11 @@ Doelklanten van Standard kunnen 5 kenmerken gebruiken, doelklanten kunnen 200 ke
 
 ### Indeling
 
-Een CSV-bestand met ECID&#39;s (Experience Cloud ID&#39;s) en paren van kenmerknamen en waarden wordt geüpload via FTP of handmatig in de gebruikersinterface van Experience Cloud.
+Een .csv-bestand met Experience Cloud-id&#39;s (ECID&#39;s) en paren van kenmerknaam/waarde wordt geüpload via FTP of handmatig in de gebruikersinterface van de Experience Cloud.
 
 ### Voorbeelden
 
-Uw CRM of ander intern systeem slaat waardevolle informatie op die u wilt delen met de Experience Cloud van Adobe, inclusief Target en Analytics.
+Uw CRM of ander intern systeem slaat waardevolle informatie op u met Adobe Experience Cloud, met inbegrip van Doel en Analytics wilt delen.
 
 ### Voordelen van methode
 
@@ -329,7 +333,7 @@ Doelklanten van Standard kunnen 5 kenmerken benutten, doelklanten kunnen 200 ken
 
 Kan waarden alleen bijwerken via Customer Attributes, niet op pagina.
 
-Implementatie van Experience Cloud ID (ECID) vereist.
+Vereist Experience Cloud ID-implementatie (ECID).
 
 ### Codevoorbeelden
 
