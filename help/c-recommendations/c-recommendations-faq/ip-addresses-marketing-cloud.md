@@ -1,10 +1,11 @@
 ---
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
-description: Lijst met IP-adressen die worden gebruikt in Feed-processing servers voor aanbevelingen in het Oregon-datacenter, zodat u uw firewall kunt configureren voor IP-adressen die afkomstig zijn van Adobe-servers.
-title: IP adressen die door de input-verwerkingsservers van Aanbevelingen worden gebruikt
+description: Lijst met IP-adressen die worden gebruikt in Recommendations-feed-processing-servers in het Oregon-datacenter, zodat u uw firewall kunt configureren om IP-adressen van Adobe-servers toe te staan.
+title: IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers
+feature: null
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -12,9 +13,9 @@ ht-degree: 3%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) IP-adressen die worden gebruikt door Recommendations feed-processing servers{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![PREMIUM](/help/assets/premium.png) IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers{#ip-addresses-used-by-recommendations-feed-processing-servers}
 
-Lijst met IP-adressen die worden gebruikt in Feed-processing servers voor aanbevelingen in het Oregon-datacenter, zodat u uw firewall kunt configureren voor IP-adressen die afkomstig zijn van Adobe-servers.
+Lijst met IP-adressen die worden gebruikt in Recommendations-feed-processing-servers in het Oregon-datacenter, zodat u uw firewall kunt configureren om IP-adressen van Adobe-servers toe te staan.
 
 [!DNL Target] [!UICONTROL Recommendations] De activiteiten gebruiken de volgende IP adressen die in het de gegevenscentrum van Oregon worden gevestigd wanneer het toegang tot de servers van FTP van klanten (ben zeker om de verbinding hieronder voor de recentste informatie te controleren):
 
@@ -30,5 +31,5 @@ Lijst met IP-adressen die worden gebruikt in Feed-processing servers voor aanbev
 
 >[!NOTE]
 >
->Zie [IP-adressen in de Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)voor de volledige en meest recente lijst.
+>Voor de volledige, meest bijgewerkte lijst, zie [IP Adressen die in Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)worden gebruikt.
 
