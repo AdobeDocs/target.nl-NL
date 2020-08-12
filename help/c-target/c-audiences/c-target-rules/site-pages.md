@@ -2,10 +2,14 @@
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site bevinden.
 title: Sitepagina's in Adobe Target
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 0%
 
 ---
 
@@ -60,6 +64,7 @@ U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site be
       * Domein op hoofdniveau
       * Pad
       * Hash-fragment (#)
+
       >[!NOTE]
       >
       >Het `landing.url` object wordt opnieuw ingesteld op een subdomeinwijziging of directe URL-vervanging.
@@ -97,6 +102,7 @@ U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site be
       * Gebruikersagent
       * Via
       * Waarschuwing
+
    Als u kiest [!UICONTROL Current Page], [!UICONTROL Previous Page]of [!UICONTROL Landing Page], zijn de opties [!UICONTROL Domain] en [!UICONTROL Query] beschikbaar. Houd rekening met het volgende wanneer u deze opties kiest:
 
    * **Domein:** Het volledige domein van de pagina. Als u een domein opgeeft, kunt u het beste &#39;contains&#39; gebruiken. &quot;Domain equals facebook.com&quot; accepteert `m.facebook.com` of `www.facebook.com`. &quot;Het domein bevat facebook.com&quot;zal om het even welke variant van facebook.com goedkeuren.
@@ -132,7 +138,7 @@ zoals hieronder wordt geïllustreerd:
    * Gebruik een [A/B-testactiviteit](/help/c-activities/t-test-ab/test-ab.md) in plaats van een landingspagina-activiteit. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
    * Gebruik in plaats hiervan een [bezoekersprofiel](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) .
 
-* Wanneer u evaluatoren &#39;start/end with&#39; gebruikt voor tekenreeksen met komma&#39;s, moet u er rekening mee houden dat deze worden geëvalueerd als een array van waarden, waarin elke waarde die door komma&#39;s wordt gescheiden, wordt geëvalueerd. Als we bijvoorbeeld de waarde voor een header hebben: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` het komt in aanmerking voor voorwaarden zoals :
+* Wanneer u evaluatoren &#39;start/end with&#39; gebruikt voor tekenreeksen met komma&#39;s, moet u er rekening mee houden dat deze worden geëvalueerd als een array van waarden, waarin elke waarde die door komma&#39;s wordt gescheiden, wordt geëvalueerd. Als we bijvoorbeeld de waarde voor een header hebben: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` zij komt in aanmerking voor voorwaarden zoals :
    * begint met zh,
    * begint met en,
    * eindigt met 0,7,
