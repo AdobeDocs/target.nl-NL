@@ -1,11 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Adobe Target edge nodes toestaan
-title: Adobe Target edge nodes toestaan
+description: Adobe Target-randknooppunten Lijsten van gewenste personen
+title: Adobe Target-randknooppunten Lijsten van gewenste personen
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 ---
 
 
-# Doelrandknooppunten toestaan
+# Lijst van gewenste personen randknooppunten doel
 
-Informatie en een bijgewerkte lijst met hosts om u te helpen Adobe- [!DNL Target] randen toe te staan.
+De informatie en een bijgewerkte lijst van gastheren om u te helpen de [!DNL Target] randen van de Adobe lijsten van gewenste personen.
 
-Een rand is een geografisch verspreide serverende architectuur die optimale reactietijden voor eindgebruikers verzekert die inhoud, ongeacht waar zij rond de wereld worden gevestigd vragen. Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en om analysegegevens over die aanvraag bij te houden. Gebruikersverzoeken worden naar het dichtstbijzijnde randknooppunt gerouteerd. Zie [Het Edge-netwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Hoe[!DNL Target]werkt* Adobe voor meer informatie.
+Een rand is een geografisch verspreide serverende architectuur die optimale reactietijden voor eindgebruikers verzekert die inhoud, ongeacht waar zij rond de wereld worden gevestigd vragen. Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en om analysegegevens over die aanvraag bij te houden. Gebruikersverzoeken worden naar het dichtstbijzijnde randknooppunt gerouteerd. Voor meer informatie, zie [het randnetwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *hoe Adobe[!DNL Target]werkt*.
 
-U kunt [!DNL Target] randknooppunten desgewenst toestaan.
+U kunt [!DNL Target] randknooppunten desgewenst lijsten van gewenste personen.
 
 In de volgende lijst staan de huidige hosts:
 
