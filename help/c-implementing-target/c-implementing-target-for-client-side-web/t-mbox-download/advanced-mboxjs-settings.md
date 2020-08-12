@@ -2,9 +2,10 @@
 keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Informatie die u helpt bij het instellen van verschillende instellingen op de pagina mbox.js Settings.
 title: mbox.js configureren
+feature: null
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 2%
@@ -30,13 +31,13 @@ Bij weergave [!UICONTROL Administration > Implementation]is de client bovenaan d
 
 ## Time-out
 
-De time-out voor Target-verzoeken.
+The Target request timeout.
 
-Bij weergave [!UICONTROL Administration > Implementation]is de instelling Time-out (seconden) de time-out voor Target-verzoeken. Deze waarde wordt standaard ingesteld op 15 seconden, maar u wordt aangeraden deze waarde in te stellen op een waarde tussen 2 seconden en 5 seconden.
+Bij weergave [!UICONTROL Administration > Implementation]is de instelling Time-out (seconden) de time-out voor de doelaanvraag. Deze waarde wordt standaard ingesteld op 15 seconden, maar u wordt aangeraden deze waarde in te stellen op een waarde tussen 2 seconden en 5 seconden.
 
 ## XDomain
 
-Hiermee bepaalt u of de browser cookies instelt in uw eigen domein (cookies van de eerste partij), in het Target-domein of in beide.
+Bepaalt of browser koekjes in uw eigen domein (1st partijkoekjes), het domein van het Doel, of allebei plaatst.
 
 Het wijzigen van deze instelling heeft invloed op zowel mbox.js als at.js.
 
@@ -79,13 +80,13 @@ Bijvoorbeeld:
 
 Bevat alle extra JavaScript die u op elke pagina wilt uitvoeren.
 
-## Insteekmodule SiteCatalyst
+## SiteCatalyst-plug-in
 
-Hiermee schakelt u de Analytics Target-plug-in in.
+Schakelt de plug-in Analytics Target in.
 
-Als deze optie is ingeschakeld, genereert de Analytics-insteekmodule de insteekcode in mbox.js. Hiermee worden Analytics-taggegevens naar Target-servers verzonden als een box request op elke pagina die is gelabeld met Analytics.
+Als deze optie is ingeschakeld, genereert de plug-in Analytics plug-incode in mbox.js. Hiermee worden de gegevens van de Analytics-tag naar de doelservers verzonden als een box request op elke pagina die is gelabeld met Analytics.
 
-Er moet nog steeds naar de Analytics-plug-in worden verwezen op de pagina.
+Er moet nog steeds naar de plug-in Analytics op de pagina worden verwezen.
 
 ## secureOnly
 
