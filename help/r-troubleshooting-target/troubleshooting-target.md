@@ -1,11 +1,15 @@
 ---
 keywords: troubleshoot target;troubleshooting target
-description: Lijst met onderwerpen die u helpen problemen op te lossen in Adobe Target, zoals onderwerpen voor het oplossen van problemen, veelgestelde vragen (FAQs) en andere nuttige onderwerpen.
-title: Problemen met Adobe-doel oplossen
+description: Lijst met onderwerpen om u te helpen problemen in Adobe Target op te lossen, waaronder onderwerpen voor het oplossen van problemen, veelgestelde vragen (FAQs) en andere nuttige onderwerpen.
+title: Problemen met Adobe Target oplossen
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
@@ -29,10 +33,10 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 * [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Auto-Target voor persoonlijke ervaringen](/help/c-activities/auto-target-to-optimize.md)
 
-### Geautomatiseerde Personalisatie (AP)
+### Automated Personalization (AP)
 
-* [Veelgestelde vragen over geautomatiseerde personalisatie](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [Problemen met geautomatiseerde personalisatie oplossen](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Veelgestelde vragen over Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Problemen met Automated Personalization oplossen](/help/c-activities/t-automated-personalization/ap-trouble.md)
 
 ### MVT (Multivariate Test)
 
@@ -40,15 +44,15 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 * [Het oplossen van problemen Multivariatie tests](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Schatting van het verkeer dat nodig is voor een geslaagde test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Aanbevelingen
+### Recommendations
 
-* [Veelgestelde vragen over aanbevelingen](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md)
 
 ## Analyse en doelintegratie (A4T)
 
 * [Analyse van problemen en doelintegratie](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* &quot;Office Hours&quot;-video, een initiatief van het team voor klantenservice van Adobe. Zie [Adobe Analytics als de rapportbron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
+* &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [Adobe Analytics als de Rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Veelgestelde vragen
    * [Het aantal opgeblazen bezoekers en bezoekers in A4T minimaliseren](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Aanvankelijke levering - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -60,7 +64,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
    * [Metrische gegevens, segmenten en rapporten delen - Veelgestelde vragen voor A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
    * [Inflate aantallen bezoekers en bezoekers - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-   * [Legacy SiteCatalyst voor test- en doelintegratie - Veelgestelde vragen over A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+   * [Legacy SiteCatalyst tot Test &amp; Target-integratie - A4T - Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## Soorten publiek en doelstellingen
 
@@ -108,10 +112,10 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 ### at.js
 
 * [at.js Veelgestelde vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [Foutopsporing in.js met Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [beperkingen van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* &quot;Office Hours&quot;-video, een initiatief van het team voor klantenservice van Adobe. Zie [at.js-implementatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+* &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [at.js-implementatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
 ### mbox.js
 
@@ -153,4 +157,4 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 * [Het oplossen van problemen de Visuele Composer van de Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Aanbevolen werkwijzen en beperkingen van Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Wijzigingen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* &quot;Office Hours&quot;-video, een initiatief van het team voor klantenservice van Adobe. Zie [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
+* &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
