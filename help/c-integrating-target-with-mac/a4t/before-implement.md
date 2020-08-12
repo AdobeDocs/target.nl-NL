@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations
 description: Verscheidene veranderingen komen in uw proces van de gegevensinzameling voor wanneer het toelaten van Analytics als rapporteringsbron voor Doel (A4T).
-title: Voordat u Adobe Analytics implementeert als de rapportbron voor Adobe Target (A4T)
+title: Voordat u Adobe Analytics implementeert als rapportagebron voor Adobe Target (A4T)
+feature: null
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -69,7 +70,7 @@ Houd er rekening mee dat de latentieverhoging begint nadat u de service [!DNL Ex
 
 Alle [!DNL Target] vraag die door een activiteit A4T wordt gebruikt om inhoud te leveren of het doel te registreren metrisch moet een overeenkomstige [!DNL Analytics] slag hebben die zelfde supplementaire identiteitskaart voor A4T deelt om behoorlijk te werken.
 
-Hits die gegevens van bevatten [!DNL Analytics] en een extra gegevens-identiteitskaart [!DNL Target] bevatten. U kunt deze id in de [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) zien als de `sdid` parameter. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
+Hits die gegevens van bevatten [!DNL Analytics] en een extra gegevens-identiteitskaart [!DNL Target] bevatten. U kunt deze id in Foutopsporing [van](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud zien als de `sdid` parameter. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
 
 * De service voor bezoekersidentiteitskaart is geïmplementeerd
 * Er wordt een versie geïmplementeerd van [!DNL mbox.js] die deze integratie ondersteunt.
