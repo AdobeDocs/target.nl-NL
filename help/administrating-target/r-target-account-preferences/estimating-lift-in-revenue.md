@@ -2,10 +2,14 @@
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Doel kan een schatting maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken.
 title: Schatting van de inkomsten
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +22,7 @@ Doel kan een schatting maken van de inkomstenbelasting die u kunt bereiken als a
 >
 >Geschatte lift is momenteel niet beschikbaar voor Experience Targeting (XT)-activiteiten.
 
-De functie voor het schatten van de lift is standaard uitgeschakeld. U kunt deze functie inschakelen in uw accountvoorkeuren. Alleen Experience Cloud Admin-gebruikers kunnen deze functie in- of uitschakelen. Als geschatte lift is uitgeschakeld, worden de bijbehorende velden niet weergegeven in de interface. Als u de functie uitschakelt, gaan er geen gegevens verloren, inclusief de gegevens die voor uw ramingen worden gebruikt. De schattingen zijn gebaseerd op gegevens die worden verzameld, ongeacht of de functie is ingeschakeld.
+De functie voor het schatten van de lift is standaard uitgeschakeld. U kunt deze functie inschakelen in uw accountvoorkeuren. Alleen gebruikers van Experience Cloud Admin kunnen deze functie in- of uitschakelen. Als geschatte lift is uitgeschakeld, worden de bijbehorende velden niet weergegeven in de interface. Als u de functie uitschakelt, gaan er geen gegevens verloren, inclusief de gegevens die voor uw ramingen worden gebruikt. De schattingen zijn gebaseerd op gegevens die worden verzameld, ongeacht of de functie is ingeschakeld.
 
 >[!IMPORTANT]
 >
