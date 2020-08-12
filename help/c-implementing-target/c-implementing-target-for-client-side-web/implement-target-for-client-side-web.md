@@ -1,10 +1,14 @@
 ---
-description: Informatie over het implementeren van Adobe Target voor het web op de client.
-title: Adobe Target voor client-side web implementeren
+description: Informatie over het implementeren van Adobe Target voor client-side websites.
+title: Adobe Target for client-side web implementeren
+feature: null
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
