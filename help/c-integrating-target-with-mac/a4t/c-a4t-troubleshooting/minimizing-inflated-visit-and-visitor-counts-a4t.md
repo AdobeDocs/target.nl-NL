@@ -2,11 +2,15 @@
 keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Informatie die u helpt de gevolgen van opgeblazen Bezoek en Bezoeker te minimaliseren wanneer het gebruiken van Analytics als rapporteringsbron.
 title: Vergrote aantallen bezoeken en bezoekers in A4T minimaliseren
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 1%
 
 ---
 
@@ -16,15 +20,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Informatie die u helpt de gevolgen van opgeblazen Bezoek en Bezoeker te minimaliseren wanneer het gebruiken van Analytics als rapporteringsbron.
 
 >[!IMPORTANT]
->Op 14 november 2016 heeft Adobe Analytics de manier gewijzigd waarop bepaalde gegevens voor klanten worden verwerkt met Analytics Reporting for Target (A4T). Door deze wijzigingen worden de Adobe Target-gegevens beter afgestemd op het gegevensmodel voor Adobe Analytics. Deze veranderingen werden opgesteld voor alle klanten die A4T gebruiken. Deze wijzigingen hebben specifiek betrekking op een probleem waarbij sommige klanten een opgeblazen aantal bezoekers hebben opgemerkt wanneer Target-activiteiten worden uitgevoerd.
+>Op 14 november 2016 heeft Adobe Analytics de manier gewijzigd waarop sommige gegevens voor klanten worden verwerkt met Analytics Reporting for Target (A4T). Door deze wijzigingen worden Adobe Target-gegevens beter afgestemd op het gegevensmodel voor Adobe Analytics. Deze veranderingen werden opgesteld voor alle klanten die A4T gebruiken. Deze wijzigingen hebben specifiek betrekking op een probleem waarbij sommige klanten een opgeblazen aantal bezoekers hebben opgemerkt wanneer Target-activiteiten worden uitgevoerd.
 >
 >Deze wijziging is niet met terugwerkende kracht. Als uw historische rapporten opgeblazen aantallen tonen, en u zou hen van uw rapporten willen uitsluiten, kunt u een virtueel rapportreeks tot stand brengen, zoals hieronder verklaard.
 >
 >Bovendien zijn verschillende JavaScript-bibliotheken bijgewerkt om het aantal opgeblazen bestanden te minimaliseren. We raden u aan een upgrade uit te voeren naar de volgende (of nieuwere) bibliotheekversies:
 >
->* Experience Cloud Visitor ID Service: bezoekerAPI.js versie 2.3.0 of later.
+>* Experience Cloud Bezoeker-id-service: bezoekerAPI.js versie 2.3.0 of later.
 >* Adobe Analytics: appMeasurement.js versie 2.1.
->* Adobe-doel: at.js versie 0.9.6 of hoger (behalve versie 1.1.0 als het gebruiken van aanbiedingen om met A4T te richten).
+>* Adobe Target: at.js versie 0.9.6 of hoger (behalve versie 1.1.0 als het gebruiken van aanbiedingen om met A4T te richten).
+
 >
 >  
 De bibliotheek mbox.js ondersteunt geen omleidingsaanbiedingen met A4T. Uw implementatie moet at.js gebruiken.
@@ -47,7 +52,7 @@ De vastgestelde oorzaken van gedeeltelijke gegevens zijn onder meer:
 * **Trage pagina&#39;s:** Omdat [!DNL Target] de vraag bij de bovenkant van de pagina is en de [!DNL Analytics] vraag typisch bij de bodem van de pagina is, als de pagina langzaam laadt, verhoogt het de waarschijnlijkheid van een bezoeker die de pagina verlaten nadat de [!DNL Target] vraag, maar vóór de [!DNL Analytics] vraag brandt. Dit kan vooral problematisch zijn op mobiele websites, waar de verbindingen vaak trager zijn.
 * **Paginafouten:** Als er JavaScript-fouten zijn of andere scenario&#39;s waarin geen van de aanraakpunten wordt geactiveerd (Experience Cloud ID-service, Doel en Analyse), resulteert dit in gedeeltelijke gegevens.
 * **Omleidingsaanbod(s) in[!DNL Target]activiteit:** Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie Aanbiedingen [omleiden - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)voor meer informatie.
-* **Oude versies van de bibliotheken:** Het afgelopen jaar heeft Adobe verschillende verbeteringen aangebracht in onze JavaScript-bibliotheken ( [!DNL appMeasurement.js], `at.js/mbox.js`en `visitorAPI.js`) om ervoor te zorgen dat gegevens zo efficiënt mogelijk worden verzonden. Zie [Voordat u implementeert](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)voor meer informatie over implementatievereisten.
+* **Oude versies van de bibliotheken:** In het afgelopen jaar heeft Adobe verschillende verbeteringen aangebracht in onze JavaScript-bibliotheken ( [!DNL appMeasurement.js], `at.js/mbox.js`en `visitorAPI.js`) om ervoor te zorgen dat gegevens zo efficiënt mogelijk worden verzonden. Zie [Voordat u implementeert](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)voor meer informatie over implementatievereisten.
 
 ## Wat zijn de beste praktijken om gedeeltelijke gegevens te verminderen? {#section_065C38501527451C8058278054A1818D}
 
@@ -62,7 +67,7 @@ Controleer de volgende stappen om de gedeeltelijke gegevensverzameling te vermin
 
 ## Hoe kan ik zien hoeveel gedeeltelijke gegevens ik heb? {#section_89B663E2824A4805AB934153508A0F4B}
 
-Hoewel deze informatie niet rechtstreeks beschikbaar is in [!DNL Analytics]Adobe, kunt u contact opnemen met de klantenservice van Adobe om een rapport van Gedeeltelijke gegevens op te halen. Dit rapport is bedoeld om te helpen bij het opsporen van fouten.
+Hoewel deze informatie niet direct beschikbaar is in [!DNL Analytics], kunt u contact opnemen met de klantenservice van Adobe om een rapport van Gedeeltelijke gegevens op te halen. Dit rapport is bedoeld om te helpen bij het opsporen van fouten.
 
 ## Hoe kan ik historische tendensen zonder gedeeltelijke gegevens bekijken? {#section_4C9DED560FAD4428B362DDA2064897C3}
 
