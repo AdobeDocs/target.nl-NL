@@ -1,17 +1,21 @@
 ---
 keywords: at.js;api;release;updates;apis;sdks;server side;serverside;server-side;api;delivery api
-description: Opmerkingen bij de release die betrekking hebben op de API's aan de serverzijde van Adobe Target.
-title: Opmerkingen bij de release die betrekking hebben op de API's aan de serverzijde van Adobe Target.
+description: Opmerkingen bij de release met betrekking tot API's van de Adobe Target-server.
+title: Opmerkingen bij de release met betrekking tot API's van de Adobe Target-server.
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
 
 # Opmerkingen bij de release - Doelserver-side API&#39;s
 
-Opmerkingen bij de release die betrekking hebben op de API&#39;s van de [Adobe Target-server](https://developers.adobetarget.com/api/delivery-api/).
+Opmerkingen bij de release die betrekking hebben op de API&#39;s aan de serverzijde van [Adobe Target](https://developers.adobetarget.com/api/delivery-api/).
 
 ## V1/levering (9 oktober 2019)
 
