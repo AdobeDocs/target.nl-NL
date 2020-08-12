@@ -2,11 +2,12 @@
 keywords: analytics for target;a4t;analytics as the reporting source
 description: Het gebruiken van Analytics als uw rapporteringsbron voor Doel (A4T) geeft u toegang tot de rapporten van Analytics voor uw activiteiten van het Doel.
 title: A4T-rapportage
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Het gebruiken [!DNL Analytics] als uw rapporteringsbron voor [!DNL Target] (A4T)
 
 U kunt rapporten voor uw activiteiten zowel in [!DNL Analytics] als [!DNL Target].
 
-Ga naar deze Adobe Spark-pagina [!DNL Analytics] voor het melden van tips en trucs [!DNL Target]die u kunt gebruiken voor [](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Ga naar deze Adobe Spark-pagina [!DNL Analytics] voor het melden van tips en trucs [!DNL Target]voor [](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)gebruik.
 
 ## Overzicht {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -38,7 +39,7 @@ Wanneer de [!UICONTROL Select] verrichting wordt gebruikt en u op *Entrants* sor
 
 In [!DNL Analytics], zijn er verscheidene dimensies en metriek beschikbaar gemaakt nadat de integratie A4T wordt toegelaten.
 
-### Afmetingen
+### Dimension
 
 * [!UICONTROL Analytics for Target] - De bovenliggende id die door de integratie wordt doorgegeven. De indeling van deze dimensie is `Activity ID:Experience ID:3rd ID`. Onderstaande dimensies zijn classificaties van deze dimensie.
 * [!UICONTROL Target Activities]
