@@ -1,10 +1,14 @@
 ---
 keywords: Targeting;audience;reporting;success metric
 description: Kies een succesmetrische waarde in Adobe Target die de gebruiker voor het rapportpubliek kwalificeert.
-title: Pas een rapportagepubliek toe op een geslaagde meting in Adobe Target
+title: Pas een rapportpubliek toe op een succesmetrische methode in Adobe Target
+feature: null
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
