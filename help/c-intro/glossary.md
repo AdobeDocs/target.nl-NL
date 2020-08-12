@@ -1,10 +1,14 @@
 ---
 description: Definities van termen.
 title: Adobe Target Verklarende woordenlijst
+feature: null
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2279'
+ht-degree: 1%
 
 ---
 
@@ -61,7 +65,7 @@ Auto-Target maakt gebruik van geavanceerd leren van machines om meerdere ervaren
 
 **geautomatiseerde personalisatie**
 
-De geautomatiseerde Personalisering (AP) combineert aanbiedingen of berichten, en gebruikt geavanceerd machine leren om verschillende variaties aan elke bezoeker aan te passen die op hun individueel klantenprofiel worden gebaseerd, om inhoud en aandrijvingsomzettingen aan te passen.
+Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computerleren om verschillende verschillen met elke bezoeker op basis van hun individuele klantprofiel met elkaar in overeenstemming te brengen, om inhoud en schijfconversies aan te passen.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -119,7 +123,7 @@ Geeft aan of de bezoeker niet voldoet aan de vereisten van de test of of of stan
 
 **ontwerp**
 
-HTML die geschikt is voor sjablonen en die de aanbevolen items op de webpagina weergeeft. Een ontwerp bepaalt de verschijning van de aanbevelingen in een activiteit van Aanbevelingen.
+HTML die geschikt is voor sjablonen en die de aanbevolen items op de webpagina weergeeft. Een ontwerp bepaalt de verschijning van de aanbevelingen in een activiteit van Recommendations.
 
 **duur**
 
@@ -131,7 +135,7 @@ Kan deel uitmaken van elk type test of activiteit. Er is geen aanvullende progra
 
 **dynamische mbox**
 
-Laat de Verrijkte Toepassingen van Internet (RIAs) toe om HTML te manipuleren nadat de pagina reeds heeft geladen, door technologieën zoals DHTML en AJAX te gebruiken.
+Hiermee worden RIA&#39;s (Rich Internet Applications) ingeschakeld om HTML te manipuleren nadat de pagina al is geladen met technologieën zoals DHTML en AJAX.
 
 **dynamische aanbieding**
 
@@ -145,7 +149,7 @@ De meting van de interesse van een bezoeker in een site, gemeten in tijd op de s
 
 **composer voor verbeterde ervaring**
 
-De [!UICONTROL Verbeterde Composer] van de Ervaring is een uitbreiding van [!UICONTROL Visuele Composer] van de Ervaring die u helpt een ervaring voor een iframe-opwindende plaats of pagina&#39;s uitgeven die nog niet de [!DNL Target] implementatie omvatten. Als u problemen hebt met het openen van uw pagina in de [!UICONTROL Visual Experience Composer], probeert u de [!UICONTROL Enhanced Experience Composer].
+Het [!UICONTROL Enhanced Experience Composer] is een extensie van de extensie [!UICONTROL Visual Experience Composer] waarmee u een ervaring kunt bewerken voor een iframe-opbouwende site of pagina&#39;s die nog niet over de [!DNL Target] implementatie beschikken. Als u problemen hebt met het openen van de pagina in de [!UICONTROL Visual Experience Composer]map, probeert u de [!UICONTROL Enhanced Experience Composer]knop.
 
 **Machtigingen voor Enterprise-gebruikers**
 
@@ -153,7 +157,7 @@ Een manier om de toegang tot Target voor gebruikers in de hele onderneming forme
 
 **entiteitskenmerken**
 
-Aangepaste parameters die worden gebruikt om product- of inhoudsinformatie door te geven aan Aanbevelingen.
+Aangepaste parameters die worden gebruikt om product- of inhoudsgegevens door te geven aan Recommendations.
 
 **nieuwkomer**
 
@@ -233,7 +237,7 @@ Voorafgaand aan Doel 16.3.1, [!DNL Target] vereiste een vraag om tot globale mbo
 
 **mbox, parameter**
 
-Doorgegeven op de pagina, niet de URL. Parameters worden gebruikt om gegevens door te geven vanuit uw database en om verkoopgegevens bij te houden of om Adobe Recommendations uit te voeren. Wordt ook paginaparameter genoemd.
+Doorgegeven op de pagina, niet de URL. De parameters worden gebruikt om gegevens van uw gegevensbestand over te gaan en verkoopgegevens te volgen of Adobe Recommendations in werking te stellen. Wordt ook paginaparameter genoemd.
 
 **multivariatietest**
 
