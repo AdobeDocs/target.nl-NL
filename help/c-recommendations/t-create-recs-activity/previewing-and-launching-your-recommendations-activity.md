@@ -1,25 +1,29 @@
 ---
 keywords: Recommendations;offer;preview;launch
-description: 'Nadat u uw Aanbevelingen, A/B Test of Experience Targeting (XT) activiteit met Adobe Target Recommendations hebt gemaakt, wilt u een voorvertoning bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. Met de doelaanbevelingen kunt u op meerdere manieren een voorbeeld van uw aanbevelingen bekijken. '
-title: 'Nadat u uw Aanbevelingen, A/B Test of Experience Targeting (XT) activiteit met Adobe Target Recommendations hebt gemaakt, wilt u een voorvertoning bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. Met de doelaanbevelingen kunt u op meerdere manieren een voorbeeld van uw aanbevelingen bekijken. '
+description: 'Nadat u de Recommendations-, A/B Test- of Experience Targeting-activiteit (XT) met Adobe Target Recommendations-aanbiedingen hebt gemaakt, wilt u deze eerst bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. Target Recommendations biedt meerdere manieren om je aanbevelingen voor te vertonen. '
+title: 'Nadat u de Recommendations-, A/B Test- of Experience Targeting-activiteit (XT) met Adobe Target Recommendations-aanbiedingen hebt gemaakt, wilt u deze eerst bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. Target Recommendations biedt meerdere manieren om je aanbevelingen voor te vertonen. '
+feature: null
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1329'
+ht-degree: 0%
 
 ---
 
 
-# Activiteiten van uw aanbevelingen voorvertonen en starten
+# Recommendations-activiteiten voorvertonen en starten
 
-Nadat u de [!UICONTROL Recommendations], [!UICONTROL A/B Test]of [!UICONTROL Experience Targeting] (XT) activiteit met [Aanbevelingen hebt gemaakt](/help/c-recommendations/recommendations-as-an-offer.md), wilt u een voorvertoning weergeven van uw aanbevelingen om ervoor te zorgen dat de resultaten beschikbaar zijn voordat u de activiteit start. [!DNL Target Recommendations] biedt meerdere manieren om uw aanbevelingen voor te vertonen.
+Nadat u uw [!UICONTROL Recommendations], [!UICONTROL A/B Test]of [!UICONTROL Experience Targeting] (XT) activiteit met [Recommendations-aanbiedingen](/help/c-recommendations/recommendations-as-an-offer.md)hebt gemaakt, wilt u een voorvertoning weergeven van uw aanbevelingen om ervoor te zorgen dat de resultaten beschikbaar zijn voordat u de activiteit start. [!DNL Target Recommendations] biedt meerdere manieren om uw aanbevelingen voor te vertonen.
 
-## Status van algoritme voor aanbevelingen controleren
+## Recommendations-algoritmestatus controleren
 
 Na het creëren van een activiteit, [!DNL Recommendations] stelt een algoritme in werking om aanbevelingen te produceren. Dit algoritme kan enkele uren duren.
 
 U kunt controleren of het algoritme het lopen in het [!UICONTROL Activity] overzichtsdiagram heeft gebeëindigd, waar de criteria status vermeld is. De volgende illustratie toont de status in het activiteitendiagram op de [!DNL Recommendations] pagina van een [!UICONTROL Overview] activiteit:
 
-![De pagina Overzicht van activiteiten van aanbevelingen](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
+![Pagina Overzicht van Recommendations-activiteiten](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
 In de volgende afbeelding wordt de status op de pagina van een [!UICONTROL A/B Test] of XT-activiteit [!UICONTROL Overview] weergegeven:
 
@@ -55,7 +59,7 @@ Als de criteria als gedragsgegevensbron gebruiken, zodra gecreeerd, hangt de tij
 >
 >[!UICONTROL Recently Viewed Items] vereist geen off-line algoritme looppas en de resultaten zijn onmiddellijk beschikbaar. [!UICONTROL Top Viewed] en [!UICONTROL Top Sellers] algoritmen die op mbox-gegevens zijn gebaseerd, leveren doorgaans zeer snel resultaten op omdat eenvoudigere berekeningen nodig zijn. Dit kunnen goede opties zijn als u een voorbeeld van een ontwerpwijziging wilt bekijken of wilt bevestigen dat gedragsgegevens correct worden verzameld.
 
-## QA-koppelingen gebruiken om aanbevelingen voor te vertonen
+## Een voorbeeld van Recommendations bekijken met QA-koppelingen
 
 Nadat het algoritme resultaten klaar heeft, kunt u voorproef die resultaten gebruikend de [QA verbindingsfunctionaliteit](/help/c-activities/c-activity-qa/activity-qa.md) van [!DNL Adobe Target]. De verbindingen van QA zijn beschikbaar in de [!UICONTROL Activity QA] sectie van de overzichtspagina van de Activiteit:
 
@@ -97,7 +101,7 @@ Van links naar rechts is een lijst met aanbevolen items, in dit geval de meest b
 >
 >Downloads van resultaten zijn niet beschikbaar voor activiteiten die een [!UICONTROL User-Based Recommendations] algoritme bevatten. Downloads van resultaten zijn niet beschikbaar voor criteria die de logica van de [!UICONTROL Recently-Viewed Items] aanbeveling gebruiken.
 
-## Activiteit voor aanbevelingen activeren
+## Recommendations-activiteit activeren
 
 Klik op het [!UICONTROL Activity Overview] tabblad op de vervolgkeuzepijl naast de status en selecteer **[!UICONTROL Activate]**.
 
@@ -113,7 +117,7 @@ Na een paar seconden aan een paar notulen, schakelt de status aan [!UICONTROL Li
 
 U kunt de activiteit ook deactiveren of archiveren met dezelfde vervolgkeuzelijst.
 
-## Onderbrekingen voorkomen bij het wijzigen van aanbevelingen
+## Onderbrekingen voorkomen bij het wijzigen van Recommendations-instellingen
 
 Als u [!DNL Recommendations] verzamelingen, criteria, promoties of ontwerpinstellingen wijzigt in een live activiteit, kunnen de resultaten van het algoritme ongeldig worden en verandert de status van een algoritme in [!UICONTROL Results Not Ready].
 
