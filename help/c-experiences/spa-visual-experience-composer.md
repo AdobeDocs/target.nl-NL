@@ -2,10 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: De visuele Composer van de Ervaring (VEC) voor Enige Pagina Apps (SPAs) in Adobe Target laat marketers toe om tests tot stand te brengen en inhoud op SPAs op een wijze te personaliseren doe-het-zelf zonder ononderbroken ontwikkelingsgebiedsdelen. De VEC kan worden gebruikt om activiteiten op populaire kaders, zoals React en Angular tot stand te brengen.
 title: Single Page App (SPA) Visual Experience Composer
+feature: null
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3648'
 ht-degree: 0%
@@ -59,7 +60,7 @@ Marktdeelnemers kunnen nu een A/B-test uitvoeren om te zien of het wijzigen van 
 
 ## Adobe Target-weergaven implementeren
 
-Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefboomwerking dit concept in Target aan machtigen marktleiders om tests A/B en XT op SPAs via VEC in werking te stellen. Hiervoor is een eenmalige ontwikkelaarsinstelling vereist. Laten we de stappen doorlopen om dit in te stellen.
+Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefboomwerking dit concept in Doel om marktleiders in staat te stellen om tests A/B en XT op SPAs via VEC in werking te stellen. Hiervoor is een eenmalige ontwikkelaarsinstelling vereist. Laten we de stappen doorlopen om dit in te stellen.
 
 1. Installeer om 0.js 2.x.
 
@@ -67,7 +68,7 @@ Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefbo
 
    ![Dialoogvenster Implementatiedetails](/help/c-experiences/assets/imp-200.png)
 
-   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). De Adobe Target Extensions zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)worden opgesteld. De Adobe Target Extensions zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
 1. Implementeer de nieuwste functie van at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) op uw sites.
 
@@ -315,21 +316,21 @@ Met andere woorden, 2.x in.js steunt een manier om meningen, acties, en aanbiedi
 
 **Biedt at.js 2.x ondersteuning voor A4T voor toepassingen voor één pagina?**
 
-Ja, in.js 2.x wordt A4T voor SPA ondersteund via de `triggerView()` functie, aangezien u Adobe Analytics en de Experience Cloud Visitor ID Service hebt geïmplementeerd. Zie het onderstaande diagram met stapsgewijze beschrijvingen.
+Ja, in.js 2.x steunt A4T voor KUUROORD via de `triggerView()` functie gegeven dat u Adobe Analytics en de Dienst van identiteitskaart van de Bezoeker van de Experience Cloud hebt uitgevoerd. Zie het onderstaande diagram met stapsgewijze beschrijvingen.
 
-![Target Flow](/help/c-experiences/assets/atjs-spa-flow.png)
+![Doelstroom](/help/c-experiences/assets/atjs-spa-flow.png)
 
 | Stap | Beschrijving |
 | --- | --- |
 | 1 | `triggerView()` wordt geroepen in het KUUROORD om een mening terug te geven en acties toe te passen om visuele elementen te wijzigen verbonden aan de mening. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
-| 4 | Aanvraag voor meldingen wordt verzonden naar de Target Profile Store om de bezoeker te tellen bij de activiteiten en incrementele metingen. |
-| 5 | Analytics-gegevens verzonden naar gegevensverzamelingsservers. |
-| 6 | Target-gegevens worden gekoppeld aan Analytics-gegevens via de SDID en worden verwerkt in de Analytics-rapportageopslag. Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via A4T-rapporten. |
+| 4 | Het verzoek om een melding wordt verzonden naar de Target Profile Store om de bezoeker te tellen in de activiteit en de verhogingsmetriek. |
+| 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
+| 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
 
 >[!NOTE]
->Als u geen berichten naar Adobe Analytics wilt verzenden om elke keer dat een weergave wordt geactiveerd, de indruk te tellen, geeft u de `{page: false}` `triggerView()` functie door zodat het tellen van de indruk niet wordt opgeblazen wanneer een weergave meerdere keren wordt geactiveerd voor een component die voortdurend opnieuw wordt gerenderd. Bijvoorbeeld:
+>Als u geen berichten naar Adobe Analytics wilt verzenden om de indruk te tellen telkens wanneer een weergave wordt geactiveerd, geeft u de functie door zodat de indruk niet wordt geteld wanneer een component die voortdurend wordt gerenderd, meerdere keren wordt weergegeven. `{page: false}` `triggerView()` Bijvoorbeeld:
 >
 >`adobe.target.triggerView(“PRODUCTS-PAGE-2”, {page:false})`
 
@@ -338,26 +339,26 @@ Ja, in.js 2.x wordt A4T voor SPA ondersteund via de `triggerView()` functie, aan
 | Type activiteit | Ondersteund? |
 | --- | --- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | Ja |
-| [Aanbevelingen als een](/help/c-recommendations/recommendations-as-an-offer.md)<br>aanbod voor activiteiten op het gebied van A/B Test en Experience Targeting (XT) | Ja |
+| [Recommendations als](/help/c-recommendations/recommendations-as-an-offer.md)<br>aanbieder van activiteiten op het gebied van A/B Test en Experience Targeting (XT) | Ja |
 | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja |
 | [Gericht op ervaring](/help/c-activities/t-experience-target/experience-target.md) | Ja |
 | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Nee |
-| [Auto-Target](/help/c-activities/auto-target-to-optimize.md) | Nee |
-| [Geautomatiseerde personalisatie](/help/c-activities/t-automated-personalization/automated-personalization.md) | Nee |
-| [Aanbevelingen](/help/c-recommendations/recommendations.md) | Nee |
+| [Automatisch doel](/help/c-activities/auto-target-to-optimize.md) | Nee |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) | Nee |
+| [Recommendations](/help/c-recommendations/recommendations.md) | Nee |
 
-**Als wij bij .js 2.x installeerden en`triggerView()`op onze plaatsen uitvoerden, hoe stellen wij auto-Target A/B activiteiten in werking omdat SPA VEC auto-Target niet steunt?**
+**Als wij bij .js 2.x installeerden en`triggerView()`op onze plaatsen ten uitvoer gelegd, hoe stellen wij auto-Doel A/B activiteiten in werking omdat SPA VEC geen auto-Doel steunt?**
 
-Als u Auto-Target A/B activiteiten wilt gebruiken, kunt u al uw acties bewegen die op de Gebeurtenis van het Lading van de Pagina in VEC worden uitgevoerd. Houd de muisaanwijzer boven elke actie en klik op de [!UICONTROL Move to Page Load Event] knop. Nadat dit, in de volgende stap wordt gedaan, kunt u auto-Target voor de methode van de verkeerstoewijzing selecteren.
+Als u Auto-Doel A/B activiteiten wilt gebruiken, kunt u al uw acties bewegen die op de Gebeurtenis van de Lading van de Pagina in VEC moeten worden uitgevoerd. Houd de muisaanwijzer boven elke actie en klik op de [!UICONTROL Move to Page Load Event] knop. Nadat dit, in de volgende stap wordt gedaan, kunt u auto-Doel voor de methode van de verkeerstoewijzing selecteren.
 
 ## Ondersteunde integratie
 
 | Integratie | Ondersteund? |
 | --- | --- |
-| [Analytics voor Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
-| [Experience Cloud-publiek](/help/c-integrating-target-with-mac/mmp.md) | Ja |
+| [Analyses voor doel (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
+| [Experience Cloud publiek](/help/c-integrating-target-with-mac/mmp.md) | Ja |
 | [Klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ja |
-| [AEM-ervaringsfragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
+| [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Ondersteunde functies {#supported-features}
 
@@ -373,13 +374,13 @@ Als u Auto-Target A/B activiteiten wilt gebruiken, kunt u al uw acties bewegen d
 
 ## De montages van de Levering van de pagina voor SPA VEC {#page-delivery-settings}
 
-[!UICONTROL Page Delivery] Met instellingen kunt u regels configureren om te bepalen wanneer een Target-activiteit in aanmerking moet komen en moet worden uitgevoerd voor een publiek.
+[!UICONTROL Page Delivery] de montages laten u regels vormen om te bepalen wanneer een activiteit van het Doel voor een publiek zou moeten kwalificeren en uitvoeren.
 
 Als u vanuit de [!UICONTROL Page Delivery] stap toegang wilt tot de **[!UICONTROL Experiences]** opties vanuit de workflow voor het maken van activiteiten met instructies in drie delen van de VEC, klikt u op **[!UICONTROL Configure]** (het tandwielpictogram) > **[!UICONTROL Page Delivery]**.
 
 ![Dialoogvenster Opties voor paginaaflevering](/help/c-experiences/assets/page-delivery.png)
 
-Bijvoorbeeld, zoals gedefinieerd door de bovenstaande [!UICONTROL Page Delivery] instellingen, kwalificeert en voert een Target-activiteit uit wanneer een bezoeker rechtstreeks landt op `https://www.adobe.com` of *wanneer een bezoeker landt op een URL die deze bevat* `https://www.adobe.com/products`. Dit werkt perfect voor elke toepassing met meerdere pagina&#39;s waarin elke interactie met de pagina een pagina opnieuw laadt, waarvoor at.js de activiteiten ophaalt die in aanmerking komen voor de URL waarnaar de gebruiker navigeert.
+Bijvoorbeeld, zoals gedefinieerd door de bovenstaande [!UICONTROL Page Delivery] instellingen, kwalificeert een doelactiviteit en voert deze uit wanneer een bezoeker rechtstreeks landt op `https://www.adobe.com` of *wanneer een bezoeker landt op een URL die deze bevat* `https://www.adobe.com/products`. Dit werkt perfect voor elke toepassing met meerdere pagina&#39;s waarin elke interactie met de pagina een pagina opnieuw laadt, waarvoor at.js de activiteiten ophaalt die in aanmerking komen voor de URL waarnaar de gebruiker navigeert.
 
 Nochtans, omdat SPAs verschillend werkt, moeten de [!UICONTROL Page Delivery] montages op een manier worden gevormd die alle acties toestaat om op de Weergaven worden toegepast zoals die in de activiteit van het KUUROORD VEC worden bepaald.
 
@@ -398,15 +399,15 @@ Met het bovenstaande voorbeeld in mening, wat zou gebeuren wanneer wij montages 
 
 ![Dialoogvenster Pagina-aflevering](/help/c-experiences/assets/spa-page-delivery.png)
 
-In het volgende voorbeeld ziet u de aanvraag Target Flow - Page Load in at.js 2.*x*:
+In de volgende afbeelding ziet u de aanvraag voor het laden van de doelstroom - pagina in at.js 2.*x*:
 
-![Target Flow - at.js 2.0 Aanvraag voor laden van pagina&#39;s](/help/c-experiences/assets/page-load-request.png)
+![Doelstroom - bij.js 2.0 Aanvraag voor laden van pagina](/help/c-experiences/assets/page-load-request.png)
 
 **Gebruikersreis #1**
 
 * Een gebruiker navigeert rechtstreeks naar [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* In stap 6 retourneert de Target Edge de acties voor de weergave Home en Products, zodat deze in de browser in de cache worden opgeslagen.
+* In stap 6, keert de Rand van het Doel de acties voor de mening van het Huis en van Producten terug zodat zij binnen browser in het voorgeheugen worden opgeslagen.
 
 **Resultaat**: De gebruiker ziet de groene achtergrondkleur in de weergave Home. Wanneer de gebruiker dan naar [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)navigeert, wordt de blauwe achtergrondkleur van de knop weergegeven omdat de actie in de browser onder de weergave Producten in de cache wordt geplaatst.
 
