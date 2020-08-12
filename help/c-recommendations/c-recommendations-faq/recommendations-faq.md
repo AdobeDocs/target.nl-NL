@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: Lijst met veelgestelde vragen (FAQ's) over activiteiten van Adobe Target Recommendations.
+description: Lijst met veelgestelde vragen (FAQ's) over Adobe Target Recommendations-activiteiten.
 title: Veelgestelde vragen over Adobe Target Recommendations
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1917'
+ht-degree: 0%
 
 ---
 
 
-# ![Veelgestelde vragen over PREMIUM](/help/assets/premium.png) -aanbevelingen{#recommendations-faq}
+# ![PREMIUM](/help/assets/premium.png) Recommendations - Veelgestelde vragen{#recommendations-faq}
 
-Lijst met veelgestelde vragen (FAQ&#39;s) over activiteiten van Adobe Target Recommendations.
+Lijst met veelgestelde vragen (FAQ&#39;s) over Adobe Target Recommendations-activiteiten.
 
 ## Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?
 
@@ -48,7 +52,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Waarom zijn niet alle criteria, met inbegrip van douanecriteria, beschikbaar voor selectie wanneer het creëren van een activiteit van Aanbevelingen? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Waarom zijn niet alle criteria, met inbegrip van douanecriteria, beschikbaar voor selectie wanneer het creëren van een activiteit van Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 De beschikbare criteria zijn gebaseerd op de huidige categorie. Wanneer u aanbevelingen aanbiedt, geeft de algoritmekiezer criteria weer op basis van categorie ID.
 
@@ -81,7 +85,7 @@ De volgende lijst bevat speciale gevallen waarin het [!UICONTROL Compatible] sel
 * Geen mbox vraag wordt in brand gestoken van de pagina (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Doelparameters zijn niet gedefinieerd.
 
-## Wat moet ik doen als een verzameling in Aanbevelingen naar nul (0) gaat? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Wat moet ik doen als een verzameling in Recommendations naar nul gaat (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerder niet bij nul was:
 
@@ -132,9 +136,9 @@ Doel legt een postlimiet van 50 MB op toepassingsniveau op; dat is echter alleen
 
 Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, zou u het in partijen moeten verdelen. Meestal raden we klanten aan hun aanroepen te onderbreken in 5.000 of 10.000 productbatches om de kans op een time-out als gevolg van systeembelasting te verkleinen.
 
-## Moet ik de naam van de box specificeren wanneer het creëren van de criteria van Aanbevelingen, bevorderingen, of malplaatje testende regels? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Moet ik de naam van het selectievakje opgeven wanneer ik Recommendations-criteria, -promoties of -testregels voor sjablonen maak? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-Wanneer het creëren van een criteria van Aanbevelingen, bevorderingen, of malplaatje testende regel die op een mbox parameter wordt gebaseerd, veroorzaakt `mboxParameter` u niet meer voor `mboxName`. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
+Wanneer u een Recommendations-criteria, -promoties of -testregel voor sjablonen maakt op basis van een mbox-parameter, vraagt u `mboxParameter` niet langer om `mboxName`. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 
 De gewenste parameter selecteren:
 
@@ -145,9 +149,9 @@ Bij beide methoden is er geen koppeling tussen de mbox en de parameter. De crite
 
 Als u bestaande criteria, bevordering, of malplaatje het testen regel uitgeeft, tonen de het filtreren criteria met de mbox naam die tijdens verwezenlijking werd verstrekt.
 
-## Waarom kan ik mijn activiteit van de Aanbevelingen van de erfenis niet bewaren na het bepalen van een nieuw publiek? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Waarom kan ik mijn oudere Recommendations-activiteit niet opslaan nadat ik een nieuw publiek heb gedefinieerd? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek de zelfde naam zoals een bestaand publiek gaf, kunt u niet uw activiteit van de erfenisAanbevelingen opslaan (een activiteit van Aanbevelingen die vóór Oktober 2016 wordt gecreeerd).
+Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek dezelfde naam hebt gegeven als een bestaand publiek, kunt u uw oudere Recommendations-activiteit (een Recommendations-activiteit die vóór oktober 2016 is gemaakt) niet opslaan.
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
@@ -169,7 +173,7 @@ Als u dit wilt uitsluiten, voegt u het `entityIds``&excludes=${mbox.excludedIds}
 
 Deze functie is standaard ingeschakeld voor nieuwe aanbevelingen. Bestaande aanbevelingen moeten worden opgeslagen om dynamisch uitgesloten entiteiten te ondersteunen.
 
-## Wat betekent de reactie NO_CONTENT soms teruggekeerd in de inhoud van Aanbevelingen spoor?
+## Wat betekent de reactie van NO_CONTENT soms teruggekeerd in de inhoud van Recommendations spoor?
 
 NO_CONTENT wordt geretourneerd wanneer aanbevelingen niet beschikbaar zijn voor het gevraagde algoritme en de toetsencombinatie. Over het algemeen gebeurt dit wanneer back-ups voor het algoritme zijn uitgeschakeld en een of meer van de volgende zaken ook waar zijn:
 
