@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Gedetailleerde informatie over het upgraden vanaf Adobe Target op 0.js 1.*x* naar at.js versie 2.0.0
 title: Voer een upgrade uit van Adobe Target op.js versie 1.*x* naar at.js versie 2.*x*
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 0%
@@ -27,22 +28,22 @@ Hier volgen enkele voordelen van het gebruik van at.js 2.*x* die niet beschikbaa
 
 De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.*x* met Weergaven en hoe dit de integratie van het KUUROORD verbetert. Een betere introductie van de concepten die worden gebruikt in at.js 2.*x*, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
 
-![Target flow with at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Doelstroom met at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Bellen | Details |
 | --- | --- |
 | 1 | De vraag keert terug [!DNL Experience Cloud ID] als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
-| 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld een publiek dat wordt gedeeld vanuit Adobe Analytics, Audience Management, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
+| 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een KUUROORD worden getoond die in browser in het voorgeheugen wordt opgeslagen zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door `triggerView()`. worden teweeggebracht. |
-| 7 | Analytics-gegevens worden verzonden naar gegevensverzamelingsservers. |
-| 8 | Gericht gegeven wordt aangepast aan de gegevens van Analytics via SDID en verwerkt in de Analytics rapporteringsopslag.<br>Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via Analytics for Target (A4T)-rapporten. |
+| 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
+| 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
 
 Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker zonder een servervraag getoond. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren.
 
-![Target flow at.js 2.*x* triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Doelstroom bij.js 2.*x* triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Bellen | Details |
 | --- | --- |
@@ -50,20 +51,20 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Aanvraag voor meldingen wordt naar de [!DNL Target] profielenwinkel verzonden om de bezoeker te tellen in de activiteit en incrementele metingen. |
-| 5 | Analytics-gegevens verzonden naar gegevensverzamelingsservers. |
-| 6 | Target-gegevens worden gekoppeld aan Analytics-gegevens via de SDID en worden verwerkt in de Analytics-rapportageopslag. Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via A4T-rapporten. |
+| 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
+| 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
 
 ## Implementeer om.js 2.*x* {#deploy-atjs-200}
 
-1. Implementeer om.js 2.*x* via de extensie [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
+1. Implementeer om.js 2.*x* via de extensie [Adobe starten](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
    >[!NOTE]
    >
-   > Het implementeren van at.js met Adobe Launch heeft de voorkeur.
+   > Het implementeren van at.js met behulp van Adobe Launch heeft de voorkeur.
 
    of
 
-   Handmatig downloaden om.js 2.*Gebruik de Target-gebruikersinterface* en implementeer deze met de [methode van uw keuze](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Handmatig downloaden om.js 2.*x* gebruikend het Doel UI en stel het op gebruikend de [methode van uw keus](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Vervangen at.js-functies
 
@@ -226,7 +227,7 @@ Ja, het bezoekersprofiel blijft op alle pagina&#39;s behouden met behulp van ver
 
 te.js 2.*x* gebruikt een nieuwe API, die wij de levering API noemen. Om te zuiveren of at.js correct de [!DNL Target] randserver roept, kunt u het lusje van het Netwerk van de Hulpmiddelen van de Ontwikkelaar van uw browser aan &quot;levering&quot;, &quot;`tt.omtrdc.net`,&quot;of uw cliëntcode filtreren. U zult ook opmerken dat een nuttige lading JSON in plaats van sleutel-waarde paren [!DNL Target] verzendt.
 
-### Target Global Mbox wordt niet meer gebruikt
+### Globale doelbox wordt niet meer gebruikt
 
 In at.js 2.*x*, ziet u niet meer &quot;`target-global-mbox`&quot;zichtbaar in de netwerkvraag. In plaats daarvan hebben we de syntaxis &quot;`target-global-mbox`&quot; vervangen in &quot;`execute > pageLoad`&quot; in de JSON-lading die naar de [!DNL Target] servers wordt verzonden, zoals hieronder wordt getoond:
 
@@ -279,15 +280,15 @@ Ja, omdat execute > pageLoad op de [!DNL Target] Edge-servers wordt behandeld al
 
 ### Ondersteuning voor interdomeintracering in at.js 2.x {#cross-domain}
 
-Met interdomeinspatiëring kunt u bezoekers aan elkaar koppelen in verschillende domeinen. Omdat voor elk domein een nieuwe cookie moet worden gemaakt, is het moeilijk bezoekers bij te houden wanneer ze van domein naar domein navigeren. Voor het bijhouden van domeinoverschrijdingen [!DNL Target] gebruikt u een cookie van een andere fabrikant om bezoekers in verschillende domeinen bij te houden. Op deze manier kunt u een Target-activiteit maken die meerdere domeinen omvat `siteA.com` en `siteB.com` bezoekers in dezelfde ervaring blijven wanneer ze door unieke domeinen navigeren. Deze functionaliteit is verbonden met het cookie-gedrag van derden en van derden van Target.
+Met interdomeinspatiëring kunt u bezoekers aan elkaar koppelen in verschillende domeinen. Omdat voor elk domein een nieuwe cookie moet worden gemaakt, is het moeilijk bezoekers bij te houden wanneer ze van domein naar domein navigeren. Voor het bijhouden van domeinoverschrijdingen [!DNL Target] gebruikt u een cookie van een andere fabrikant om bezoekers in verschillende domeinen bij te houden. Op deze manier kunt u een doelactiviteit maken die meerdere domeinen omvat `siteA.com` en `siteB.com` bezoekers in dezelfde ervaring blijven wanneer ze door unieke domeinen navigeren. Deze functionaliteit is verbonden met het gedrag van cookies van derden en van andere bedrijven.
 
 >[!NOTE]
 >
 >Uit het vak in at.js 2 wordt geen ondersteuning geboden voor het bijhouden van domeinoverschrijdingen.*x*. Interdomeintracering wordt ondersteund in at.js 2.*x* via de Experience Cloud ID-bibliotheek v4.3.0+.
 
-In Target wordt het cookie van de andere fabrikant opgeslagen in `<CLIENTCODE>.tt.omtrdc.net`. Het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`. De eerste aanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met de naam `mboxSession` en `mboxPC`, in te stellen, terwijl een omleidingsverzoek wordt teruggestuurd met een extra parameter (`mboxXDomainCheck=true`). Als de browser cookies van derden accepteert, bevat de omleidingsaanvraag deze cookies en wordt de ervaring geretourneerd. Deze workflow is mogelijk omdat we de HTTP GET methode gebruiken.
+Bij Doel wordt het cookie van de andere fabrikant opgeslagen in `<CLIENTCODE>.tt.omtrdc.net`. Het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`. De eerste aanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met de naam `mboxSession` en `mboxPC`, in te stellen, terwijl een omleidingsverzoek wordt teruggestuurd met een extra parameter (`mboxXDomainCheck=true`). Als de browser cookies van derden accepteert, bevat de omleidingsaanvraag deze cookies en wordt de ervaring geretourneerd. Dit werkschema is mogelijk omdat wij de methode van de GET van HTTP gebruiken.
 
-In punt 2.js.*x*, HTTP GET wordt niet meer gebruikt en in plaats daarvan gebruiken wij POST van HTTP. HTTP POST wordt nu gebruikt via at.js 2.*x* om JSON-nuttige taken naar Target Edge-servers te verzenden. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP GET aanvragen epidemiologische transacties zijn, terwijl HTTP POST niet-epidemiologisch is en niet willekeurig mag worden herhaald. Daarom is het volgen tussen domeinen in at.js 2.*x* wordt niet meer ondersteund vanuit het vak. Alleen om.js 1.*x* heeft out-of-the-box steun voor dwars-domein het volgen.
+In punt 2.js.*x*, wordt de GET van HTTP niet meer gebruikt en in plaats daarvan gebruiken wij de POST van HTTP. HTTP-POST wordt nu gebruikt via at.js 2.*x* om JSON-nuttige taken naar Target Edge-servers te verzenden. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP-GET-aanvragen epidemiologische transacties zijn, terwijl HTTP-POST niet-epidemiologisch is en niet willekeurig mag worden herhaald. Daarom is het volgen tussen domeinen in at.js 2.*x* wordt niet meer ondersteund vanuit het vak. Alleen om.js 1.*x* heeft out-of-the-box steun voor dwars-domein het volgen.
 
 Als u cross-domain tracking wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in combinatie met at.js 2 installeren.*x*. De ECID-bibliotheek bestaat voor het beheer van permanente id&#39;s waarmee een bezoeker zelfs in verschillende domeinen kan worden geïdentificeerd.
 
@@ -343,30 +344,30 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* -compatibiliteit met versc
 | --- | --- |
 | A/B-test | Ja |
 | Automatisch toewijzen | Ja |
-| Auto-Target | Ja |
+| Automatisch doel | Ja |
 | Gericht op ervaring | Ja |
 | Multivariatietest | Ja |
-| Geautomatiseerde personalisatie | Ja |
-| Aanbevelingen | Ja |
+| Automated Personalization | Ja |
+| Recommendations | Ja |
 
 >[!NOTE]
 >
->Auto-Target-activiteiten worden ondersteund via at.js 2.*x* en VEC wanneer alle wijzigingen op het `Page Load Event`worden toegepast. Als er wijzigingen worden toegevoegd aan bepaalde weergaven, worden alleen de activiteiten A/B Test, Auto-Allocate en Experience Targeting (XT) ondersteund.
+>Auto-Target activiteiten worden gesteund door at.js 2.*x* en VEC wanneer alle wijzigingen op het `Page Load Event`worden toegepast. Als er wijzigingen worden toegevoegd aan bepaalde weergaven, worden alleen de activiteiten A/B Test, Auto-Allocate en Experience Targeting (XT) ondersteund.
 
 ### Integraties {#integrations}
 
 | Type | Ondersteund? |
 | --- | --- |
-| Analytics voor Target (A4T) | Ja |
+| Analyses voor doel (A4T) | Ja |
 | Soorten publiek | Ja |
 | Klantkenmerken | Ja |
-| AEM-ervaringsfragmenten | Ja |
-| Adobe Launch-extensie | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| Fragmenten voor AEM | Ja |
+| Adobe-extensie starten | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Foutopsporing | Ja |
 | Auditor | De regels zijn nog niet bijgewerkt voor om.js 2.*x* |
 | Dynamisch tagbeheer (DTM) | Ja |
 | Inschakelen | Nee. Ondersteuning voor aanmelden voor [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) wordt ondersteund in [at.js versie 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-| AEM Enhanced Personalization powered by Adobe Target | Nee |
+| AEM verbeterde personalisatie door Adobe Target | Nee |
 
 ### Functies
 
@@ -435,7 +436,7 @@ Wordt gebruikt voor [Enterprise-gebruikersmachtigingen](/help/administrating-tar
 
 (te.js 1.*x* , parameter)
 
-Het domein van de pagina waarop de Target-bibliotheek wordt uitgevoerd.
+Het domein van de pagina waarop de doelbibliotheek wordt uitgevoerd.
 
 te.js 2.*x* JSON-lading:
 
@@ -605,7 +606,7 @@ te.js 2.*x* JSON-lading:
 
 (te.js 1.*x* , parameter)
 
-De ID van de Marketing Cloud Visitor wordt doorgegeven aan `id > marketingCloudVisitorId`.
+Bezoeker-id voor Marketing Cloud wordt doorgegeven aan `id > marketingCloudVisitorId`.
 
 te.js 2.*x* JSON-lading:
 
@@ -643,7 +644,7 @@ te.js 2.*x* JSON-lading:
 
 (te.js 1.*x* , parameter)
 
-Id van derde partij van klant die wordt gebruikt om verschillende Target-id&#39;s te koppelen.
+Id van derde partij van klant die wordt gebruikt om verschillende doel-id&#39;s te koppelen.
 
 te.js 2.*x* JSON-lading:
 
@@ -679,7 +680,7 @@ te.js 2.*x* JSON-lading:
 
 (te.js 1.*x* , parameter)
 
-Analytics-traceringsserver. Moet worden doorgegeven aan `experienceCloud > analytics > trackingServer`.
+Analytics tracking-server. Moet worden doorgegeven aan `experienceCloud > analytics > trackingServer`.
 
 te.js 2.*x* JSON-lading:
 
@@ -698,7 +699,7 @@ te.js 2.*x* JSON-lading:
 
 (te.js 1.*x* , parameter)
 
-Analytics-trackingserver beveiligd. Moet worden doorgegeven aan `experienceCloud > analytics > trackingServerSecure`.
+Beveiliging van de analytische trackingserver. Moet worden doorgegeven aan `experienceCloud > analytics > trackingServerSecure`.
 
 te.js 2.*x* JSON-lading:
 
