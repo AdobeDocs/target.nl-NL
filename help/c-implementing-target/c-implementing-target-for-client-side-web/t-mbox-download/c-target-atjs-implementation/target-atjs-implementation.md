@@ -2,10 +2,11 @@
 keywords: Target Standard;at.js;implementation
 description: De bibliotheek at.js is een nieuwe implementatiebibliotheek voor Adobe Target die is ontworpen voor zowel gangbare webimplementaties als toepassingen die uit één pagina bestaan.
 title: Migreren van mbox.js naar at.js
+feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: d7c9f8c21a6acf195d416ad37d70c0b72d671ebc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -23,7 +24,7 @@ De laadtijden van pagina&#39;s voor webimplementaties worden [!DNL at.js] onder 
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 met FP-11577 (of hoger) ondersteunt at.js-implementaties met de integratie van Adobe Target Cloud Services. Zie [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) en [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in de documentatie *van* Adobe Experience Manager 6.2 voor meer informatie.
+>Adobe Experience Manager (AEM) 6.2 met FP-11577 (of later) ondersteunt at.js-implementaties met de integratie van Adobe Target-Cloud Services. Zie [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) en [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in de documentatie *van* Adobe Experience Manager 6.2 voor meer informatie.
 
 ## Voordelen van at.js {#benefits}
 
@@ -44,7 +45,7 @@ U kunt overal gebruiken [!DNL at.js] u momenteel gebruikt [!DNL mbox.js].
 
 De [!DNL at.js] bibliotheek bevat verschillende verbeteringen ten opzichte van de [!DNL mbox.js] bibliotheek, waaronder:
 
-* Volledig asynchrone communicatie via interdomein AJAX
+* Volledig asynchrone communicatie via AJAX
 
    >[!IMPORTANT]
    >
