@@ -2,11 +2,12 @@
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Informatie over het gebruiken van de gegevens van de ondernemingsklant van een gegevensbestanden van het het relatiebeheer van de klant (CRM) voor inhoud die zich in Adobe Target richt door de Attributen van de Klant in de kerndienst van Adobe Experience Cloud te gebruiken Mensen.
 title: Kenmerken van klanten in Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -54,7 +55,7 @@ Houd rekening met de volgende informatie als uw werk met klantenkenmerken en [!D
 
    ![Klantkenmerken, tabblad](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Workflow voor klantkenmerken voor Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Workflow voor klantkenmerken voor doel {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Voer de volgende stappen uit om CRM-gegevens te gebruiken in, [!DNL Target]zoals hieronder wordt geïllustreerd:
 
@@ -113,7 +114,7 @@ Gedetailleerde instructies voor de voltooiing van elk van de volgende taken vind
    * De maximale bestandsgrootte voor elke upload met de FTP-methode is 4 GB.
    * Het aantal kenmerken dat mag worden geabonneerd: 5 voor [!DNL Target Standard] en 200 voor [!DNL Target Premium].
 
-## Kenmerken van klanten gebruiken in Target {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## Klantkenmerken in doel gebruiken {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
 U kunt klantkenmerken op [!DNL Target] de volgende manieren gebruiken:
 
@@ -121,7 +122,7 @@ U kunt klantkenmerken op [!DNL Target] de volgende manieren gebruiken:
 
 In [!DNL Target], kunt u een klantenattribuut van de [!UICONTROL Visitor Profile] sectie selecteren wanneer het creëren van een publiek. Alle klantkenmerken hebben het voorvoegsel &lt; data_source_name > in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
 
-![Target-publiek](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
+![Doelpubliek](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
 ### Profielscripts maken met behulp van tokens
 
@@ -184,7 +185,7 @@ Houd rekening met de volgende implementatiekwesties:
 
 ### Uitgave 6: Klantkenmerken worden niet geïmporteerd in [!DNL Target]
 
-Als u de klantkenmerkgegevens niet kunt vinden in Target, controleert u of de import is opgetreden binnen de laatste *x* dagen waarin *x* de waarde is voor de levensduur [van het profiel van de Target-](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) bezoeker (standaard ingesteld op 14 dagen).
+Als u de klantkenmerkgegevens niet kunt vinden in Target, dient u ervoor te zorgen dat de import is opgetreden binnen de laatste *x* dagen waarin *x* de Levensduur [van het Profiel van de](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Bezoeker van het Doel is (standaard ingesteld op 14 dagen).
 
 ## Trainingsvideo: Offlinegegevens uploaden met {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![zelfstudie met klantkenmerken](/help/assets/tutorial.png)
 
