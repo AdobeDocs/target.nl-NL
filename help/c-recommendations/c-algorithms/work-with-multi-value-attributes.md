@@ -1,9 +1,10 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Informatie over het werken met een veld met meerdere waarden in Adobe Target Recommendations met behulp van speciale operatoren voor meerdere waarden.
-title: Werken met kenmerken van meerdere waarden in Adobe Target-aanbevelingen
+title: Werken met kenmerken voor meerdere waarden in Adobe Target Recommendations
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -119,7 +120,7 @@ JSON API-representatie van de insluitingsregel:
 
 ### Voorbeeld: API maken van criteria voor het aanbevelen van items uit de favorieten van een gebruiker
 
-U kunt criteria maken met filterregels voor meerdere waarden, zoals alle criteria, via Adobe I/O-API&#39;s. Hier wordt een voorbeeld-API-aanroep weergegeven om een criterium te maken waarbij het entiteitskenmerk `id` zich in de parameterlijst mbox `favorites` bevindt:
+Criteria die multiwaardefiltreringsregels gebruiken, zoals alle criteria, kunnen via Adobe I/O APIs worden gecreeerd. Hier wordt een voorbeeld-API-aanroep weergegeven om een criterium te maken waarbij het entiteitskenmerk `id` zich in de parameterlijst mbox `favorites` bevindt:
 
 ```
 curl -X POST \
