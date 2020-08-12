@@ -1,10 +1,14 @@
 ---
 keywords: visitor profile;target visitor profile
-description: Maak een publiek in Adobe Target voor bezoekers die voldoen aan specifieke profielparameters.
+description: Maak een publiek in Adobe Target om bezoekers aan te wijzen die aan specifieke profielparameters voldoen.
 title: Bezoekerprofiel
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +34,7 @@ Maak een publiek voor doelbezoekers die voldoen aan specifieke profielparameters
    * Eerste pagina van sessie
    * Niet eerste pagina van sessie
    * Categorie-affiniteit
+
    Er wordt een bezoekersprofiel gemaakt in het lokale Edge-geheugen voor elke nieuwe box-aanroep `mboxPC`. Na 30 minuten inactiviteit, wordt het profiel bewaard aan het gegevensbestand van het Doel en is toegankelijk van andere randen.
 
    Wanneer een sitebezoeker zich halverwege de sessie aanmeldt en een profiel krijgt, `3rdpartyId``3rdPartyId` zijn alle eerder geladen profielkenmerken die aan de site zijn gekoppeld, direct beschikbaar.
