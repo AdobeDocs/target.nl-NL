@@ -1,22 +1,26 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;sitecatalyst;campaign>recipe;test&target;integration
 description: Dit onderwerp bevat antwoorden op vragen die vaak over erfenis SiteCatalyst aan Test&Target integratie worden gevraagd en Analytics als rapporteringsbron voor Doel (A4T) gebruiken.
-title: Legacy SiteCatalyst om integratie te testen en te testen - veelgestelde vragen voor A4T
+title: Legacy SiteCatalyst to Test&Target integration - A4T Veelgestelde vragen
+feature: null
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 0%
 
 ---
 
 
-# Legacy SiteCatalyst om integratie te testen en te testen - veelgestelde vragen voor A4T{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
+# Legacy SiteCatalyst to Test&amp;Target integration - A4T Veelgestelde vragen{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
 
 Dit onderwerp bevat antwoorden op vragen die vaak over erfenis SiteCatalyst aan Test&amp;Target integratie worden gevraagd en Analytics als rapporteringsbron voor Doel (A4T) gebruiken.
 
 ## Waarom zie ik een Activiteitenrapport en een Campagne>Recipe-rapport in Analytics? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
-De SiteCatalyst voor test&amp;Target-integratie (de oude integratie) en Analytics voor Target (A4T) zijn anders.
+De integratie van de SiteCatalyst aan Test&amp;Target (de oude integratie) en Analytics voor Doel (A4T) zijn verschillend.
 
 Het activiteitenverslag is bedoeld voor de nieuwere integratie van A4T.
 
