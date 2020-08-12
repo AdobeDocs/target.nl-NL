@@ -2,9 +2,10 @@
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
 description: Configureer de Adobe Target Visual Experience Composer (VEC) door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
 title: Rapporten configureren in Adobe Target
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Rapporten configureren in Target
+# Rapportage in doel configureren
 
 Configureer algemene instellingen voor rapportage die van toepassing zijn op uw gehele [!DNL Adobe Target] [!DNL Target] account.
 
@@ -43,8 +44,8 @@ Houd rekening met de volgende informatie wanneer u uw rapportbron kiest:
 
 * Als de rapporteringsbron aan **[!DNL Target]** hier wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die als rapporteringsbron gebruikt [!DNL Analytics] . U moet de rapportbron wijzigen in [!DNL Target] uw activiteit of de rapportbron wijzigen in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * Als de rapporteringsbron aan **[!DNL Analytics]** hier wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die [!DNL Target] als rapporteringsbron gebruikt (de rapporteringsbron wordt gespecificeerd zoals **[!UICONTROL Target per activity])**. U moet de rapportbron wijzigen in[!DNL Analytics]uw activiteit of de rapportengine wijzigen in **[!UICONTROL Select per activity]**in**[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Als de rapportbron **[!UICONTROL Select per activity]** hier is ingesteld, kunt u activiteiten maken, activeren en deactiveren die door de geselecteerde rapportbron worden ondersteund. Zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als rapportagebron voor Adobe Target (A4t)* voor een matrix met ondersteunde activiteiten.
-* [!UICONTROL Automated Personalization] (AP) het creëren van activiteit, activering, en deactivering worden toegestaan ongeacht de geselecteerde rapporteringsbron. Geautomatiseerde Personalisatieactiviteiten worden niet ondersteund wanneer u [Adobe Analytics kiest als rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Zelfs als u [!DNL Analytics] als uw rapporteringsbron specificeert, [!DNL Target] wordt gebruikt als rapporteringsbron voor de Geautomatiseerde activiteiten van de Personalisatie. Zie [Ondersteunde activatypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als de rapportbron voor Adobe Target (A4t)* voor meer informatie.
+* Als de rapportbron **[!UICONTROL Select per activity]** hier is ingesteld, kunt u activiteiten maken, activeren en deactiveren die door de geselecteerde rapportbron worden ondersteund. Voor een matrix van ondersteunde activiteiten, zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron voor de rapportage voor Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] (AP) het creëren van activiteit, activering, en deactivering worden toegestaan ongeacht de geselecteerde rapporteringsbron. Automated Personalization-activiteiten worden niet ondersteund wanneer u [Adobe Analytics kiest als rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Zelfs als u opgeeft [!DNL Analytics] als rapportagebron, [!DNL Target] wordt deze gebruikt als rapportagebron voor Automated Personalization-activiteiten. Zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron voor de rapportage van Adobe Target (A4t)* voor meer informatie.
 
 ## Tijdzone voor rapportage
 
@@ -54,7 +55,7 @@ Geef de tijdzone op die moet worden gebruikt voor rapportage.
 
 Geef de valuta op die moet worden gebruikt voor rapportage.
 
-## IP&#39;s die moeten worden uitgesloten van Target-rapportagegegevens
+## IPs om van het Doel uit te sluiten rapporteringsgegevens
 
 Specificeer om het even welke IP adressen die u van het melden van gegevens wilt uitsluiten. Het uitsluiten van interne bedrijfsadressen is bijvoorbeeld een goede manier om ervoor te zorgen dat uw rapportgegevens de interactie van klanten op uw website weerspiegelen.
 
