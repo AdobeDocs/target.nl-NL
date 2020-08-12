@@ -2,10 +2,14 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
 description: Dit onderwerp bevat antwoorden op vragen die vaak over metrische definities en het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Metrische definities - Veelgestelde vragen A4T
+feature: null
 topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +26,7 @@ De standaardvervaldatum voor de activiteit is 90 dagen na de laatste interactie 
 
 Deze opties werken momenteel niet met A4T.
 
-## Wat worden berekende metriek en hoe vervangen zij SiteCatalyst:de doos van de Gebeurtenis die ik gebruikte om te gebruiken? {#section_D59F4719E6B94758A2187427C17F8EF3}
+## Wat worden berekende metriek en hoe vervangen zij SiteCatalyst:Gebeurtenis mbox ik gebruikte om te gebruiken? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
 Met berekende metriek kunt u aangepaste metriek maken die is afgeleid van segmenten of wiskundige berekeningen. In het verleden, wanneer u mbox zou kunnen gebruiken waar `SiteCatlayst:Event` en de gebeurtenis is `evar27=shoes` , zou u nu een segment tot stand brengen waar `purchase`en dan berekende metrisch tot stand brengen waar de gebeurtenis `evar27=shoes` `purchase` met het toegepaste segment is. Het voordeel hiervan is dat deze metriek op elk moment kan worden gemaakt, zelfs nadat de activiteit aan de gang is. Deze kunnen vervolgens voor elk rapport in Analytics worden gebruikt.
 
