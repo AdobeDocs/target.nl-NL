@@ -1,17 +1,21 @@
 ---
 keywords: recommendations;recommendations activity;criteria
-description: Selecteer de criteria die u wilt gebruiken in de Adobe Target-activiteiten voor aanbevelingen.
+description: Selecteer de criteria die je wilt gebruiken in je Adobe Target Recommendations-activiteit.
 title: Criteria selecteren
+feature: null
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) -selectiecriteria{#select-criteria}
 
-Selecteer de [criteria](/help/c-recommendations/c-algorithms/algorithms.md) die u wilt gebruiken in de activiteit Aanbevelingen. Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
+Selecteer de [criteria](/help/c-recommendations/c-algorithms/algorithms.md) die je in Recommendations-activiteiten wilt gebruiken. Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
 
 U kunt veelvoudige aanbevelingstypes tegen elkaar testen door meer dan één criteria toe te voegen.
 
