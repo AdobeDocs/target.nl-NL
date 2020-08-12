@@ -2,10 +2,11 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
 title: Gastheren
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 0%
@@ -64,7 +65,7 @@ Als u de [!UICONTROL Hosts] lijst wilt sorteren, klikt u op een kolomkop ([!UICO
 
 Als u in de [!UICONTROL Hosts] lijst wilt zoeken, typt u een zoekterm in het [!UICONTROL Search Hosts] vak.
 
-## Creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om de verzoeken van Target naar Target te verzenden. {#allowlist}
+## Creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om de verzoeken van het Doel naar Doel te verzenden. {#allowlist}
 
 U kunt een lijst van gewenste personen tot stand brengen die gastheren (domeinen) specificeert die worden gemachtigd om [!DNL Target] verzoeken naar te verzenden [!DNL Target]. Alle andere gastheren die verzoeken produceren zullen een commentaar-uit reactie van de vergunningsfout krijgen. Door gebrek, om het even welke gastheer die een [!DNL Target] verzoekregisters met [!DNL Target] in het [!UICONTROL Production] milieu bevat en toegang tot alle actieve en goedgekeurde activiteiten heeft. Als dit niet de gewenste benadering is, kunt u in plaats daarvan de lijst van gewenste personen gebruiken om specifieke gastheren te registreren die verkiesbaar zijn om [!DNL Target] verzoeken te doen en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve activiteiten kan zien.
 
@@ -102,7 +103,7 @@ U kunt een lijst van afgewezen personen ook tot stand brengen die gastheren (dom
 
 ## Een host verwijderen {#section_F56355BA4BC54B078A1A8179BC954632}
 
-U kunt een host verwijderen wanneer deze niet meer nodig is.
+U kunt een host verwijderen als deze niet meer nodig is.
 
 1. Klik in de [!UICONTROL Hosts] lijst op het **[!UICONTROL Delete]** pictogram.
 1. Klik **[!UICONTROL Delete]** om de verwijdering te bevestigen.
