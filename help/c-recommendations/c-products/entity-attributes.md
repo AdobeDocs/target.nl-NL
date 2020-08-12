@@ -1,10 +1,11 @@
 ---
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
-description: Gebruik entiteitskenmerken om product- of inhoudsgegevens door te geven aan Aanbevelingen.
+description: Gebruik entiteitskenmerken om product- of inhoudsgegevens door te geven aan Recommendations.
 title: Entiteitskenmerken
+feature: null
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) -entiteitskenmerken{#entity-attributes}
 
-Gebruik entiteitskenmerken om product- of inhoudsgegevens door te geven aan Aanbevelingen.
+Gebruik entiteitskenmerken om product- of inhoudsgegevens door te geven aan Recommendations.
 
 ## Beschikbare variabelen
 
@@ -172,9 +173,9 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->Waarden van opgegeven entiteitskenmerken verlopen na 61 dagen. Dit betekent dat u ervoor moet zorgen dat de nieuwste waarde van elk entiteitkenmerk ten minste één keer per maand wordt doorgegeven aan Target Recommendations voor elk item in uw catalogus.
+>Waarden van opgegeven entiteitskenmerken verlopen na 61 dagen. Dit betekent dat u ervoor moet zorgen dat de recentste waarde van elk entiteitattribuut aan Doel Recommendations minstens eens per maand voor elk punt in uw catalogus wordt overgegaan.
 
-De aanbevelingen verzenden het `productId` of `productPurchasedId` (bedoeld als `entity.id` in de code) dat in de algoritmen wordt gebruikt.
+Recommendations verzendt het `productId` of `productPurchasedId` (waarnaar wordt verwezen `entity.id` in de code) dat in de algoritmen wordt gebruikt.
 
 >[!NOTE]
 >
@@ -186,7 +187,7 @@ Over het algemeen ziet het informatievenster voor de weergave er als in het volg
 
 >[!NOTE]
 >
->Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan Aanbevelingen met behulp van at.js 2.*x*, gebruik [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Voor een voorbeeld van dit, zie [Plan en voer Aanbevelingen](/help/c-recommendations/plan-implement.md)uit.
+>Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan Recommendations met behulp van at.js 2.*x*, gebruik [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Zie Recommendations [](/help/c-recommendations/plan-implement.md)plannen en implementeren voor een voorbeeld hiervan.
 
 >[!NOTE]
 >
