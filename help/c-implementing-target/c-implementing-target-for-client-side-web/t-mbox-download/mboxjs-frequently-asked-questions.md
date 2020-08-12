@@ -2,10 +2,14 @@
 keywords: mbox.js faq;mbox.js frequently asked questions;document.write;tt.omtrdc.net;parser blocking
 description: Antwoorden op veelgestelde vragen over mbox.js.
 title: mbox.js Veelgestelde vragen
+feature: null
 subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +36,7 @@ Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de
 
 ## Wat is het domein tt.omtr dc.net dat de servervraag van het Doel gaat? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
-[!DNL tt.omtrdc.net] is de domeinnaam voor het EDGE-netwerk van Adobe, die wordt gebruikt om alle serveraanroepen voor Target te ontvangen.
+[!DNL tt.omtrdc.net] is de domeinnaam voor Adobe EDGE netwerk, dat wordt gebruikt om alle vraag naar Doel te ontvangen.
 
 ## Waarom gebruiken at.js en mbox.js geen vlag HttpOnly en Veilige koekjes? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
