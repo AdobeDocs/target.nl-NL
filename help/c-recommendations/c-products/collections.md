@@ -1,10 +1,14 @@
 ---
 keywords: collection;Targeting
-description: Een verzameling is een reeks producten of items in Adobe Target die in aanmerking komen voor een aanbeveling.
+description: Een verzameling is een reeks producten of objecten in Adobe Target die in aanmerking komen voor een aanbeveling.
 title: Verzamelingen in Adobe Target
+feature: null
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +43,7 @@ Maak een verzameling om de producten te ordenen die u in uw aanbevelingen wilt w
 
    ![Verzamelingslijst](assets/collections_list.png)
 
-   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling binnen de gevormde standaard de [gastheergroep](/help/administrating-target/hosts.md) van Aanbevelingen (milieu) aanpassen die. Zie [Instellingen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om de standaardhostgroep te wijzigen.
+   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling binnen de gevormde standaardRecommendations [gastheergroep](/help/administrating-target/hosts.md) (milieu) aanpassen die. Zie [Instellingen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om de standaardhostgroep te wijzigen.
 
 1. Klik op **[!UICONTROL Create Collection]**.
 
@@ -71,7 +75,7 @@ Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoo
 >
 >De functie Geavanceerd zoeken is niet hoofdlettergevoelig. producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de bedoeling producten met &quot;vakantie&quot; terug te sturen, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd.
 
-## Trainingsvideo: Verzamelingen en uitsluitingen maken in ![zelfstudievalk met aanbevelingen (7:05)](/help/assets/tutorial.png)
+## Trainingsvideo: Verzamelingen en uitsluitingen maken in Recommendations (7:05) - ![Zelfstudie](/help/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 
