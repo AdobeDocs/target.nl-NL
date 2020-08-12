@@ -1,13 +1,17 @@
 ---
-title: Foutopsporingsdoel met Experience Cloud Debugger
+title: Debug Target with the Experience Cloud Debugger
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
 
-# Foutopsporingsdoel met Experience Cloud Debugger
+# Debug Target with the Experience Cloud Debugger
 
 ## De extensie toevoegen
 
@@ -23,6 +27,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## Aanvullende bronnen
 
-+ [Adobe Experience Cloud Debugger in de Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Adobe Experience Cloud-foutopsporing in de Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
 + [Documentatie van Help voor probleemoplossing](/help/r-troubleshooting-target/troubleshooting-target.md)
 + [De video Experience Cloud Debugger gebruiken](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
