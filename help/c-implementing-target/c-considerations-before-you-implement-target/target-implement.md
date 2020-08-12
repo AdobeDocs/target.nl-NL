@@ -2,10 +2,14 @@
 keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox
 description: Implementeer Doel door naar de doelbibliotheken (at.js of mbox.js) op uw webpagina's te verwijzen.
 title: JavaScript-doelbibliotheken begrijpen
+feature: null
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -46,9 +50,9 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 1. Als Automatisch maken van globale box is ingeschakeld, wordt de JavaScript-doelbibliotheek gebruikt:
 
    * Instantieert het object Visitor.
-   * De doelbibliotheek probeert de Experience Cloud Visitor ID-gegevens op te halen.
+   * De doelbibliotheek probeert de gegevens van de Experience Cloud Visitor-id op te halen.
    * Omdat dit een nieuwe bezoeker is, leidt de bezoeker-API een aanvraag voor een ander domein in naar demdex.net.
-   * Nadat de gegevens van de Experience Cloud Visitor ID zijn opgehaald, wordt een aanvraag aan Target gestart.
+   * Nadat de gegevens van de identiteitskaart van de Bezoeker van Experience Cloud worden teruggewonnen, wordt een verzoek aan Doel in brand gestoken.
 
 ### Bezoekers terugsturen
 
@@ -57,10 +61,10 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 1. Als Automatisch maken van globale box is ingeschakeld, wordt de JavaScript-doelbibliotheek gebruikt:
 
    * Instantieert het object Visitor.
-   * De doelbibliotheek probeert de Experience Cloud Visitor ID-gegevens op te halen.
+   * De doelbibliotheek probeert de gegevens van de Experience Cloud Visitor-id op te halen.
    * De bezoeker-API haalt gegevens op uit cookies.
-   * Nadat de gegevens van de Experience Cloud Visitor ID zijn opgehaald, wordt een aanvraag aan Target gestart.
+   * Nadat de gegevens van de identiteitskaart van de Bezoeker van Experience Cloud worden teruggewonnen, wordt een verzoek aan Doel in brand gestoken.
 
 >[!NOTE]
 >
->Voor nieuwe bezoekers geldt dat wanneer de Bezoeker-API aanwezig is, Target meerdere keren over de kabel moet gaan om ervoor te zorgen dat Target-aanvragen gegevens van Experience Cloud Visitor ID bevatten. Voor terugkerende bezoekers, gaat het Doel over de draad slechts aan Doel om de gepersonaliseerde inhoud terug te winnen.
+>Voor nieuwe bezoekers, wanneer de Bezoeker-API aanwezig is, moet Target meerdere keren over de kabel gaan om ervoor te zorgen dat de doelaanvragen gegevens van de Experience Cloud Bezoeker-id bevatten. Voor terugkerende bezoekers, gaat het Doel over de draad slechts aan Doel om de gepersonaliseerde inhoud terug te winnen.
