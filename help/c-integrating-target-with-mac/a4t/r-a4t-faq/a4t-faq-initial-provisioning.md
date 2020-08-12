@@ -2,10 +2,14 @@
 keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
 description: Dit onderwerp bevat antwoorden op vragen die vaak over leveringAnalytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Aanvankelijke levering - Veelgestelde vragen A4T
+feature: null
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +30,7 @@ Een standaard A4T-use-case met meerdere pagina&#39;s implementeren:
 
 Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [Vereisten](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) voor gebruikersmachtigingen.
 
-Zodra u lid bent van een of meer groepen van de Wolk van de Ervaring die toegang tot Analytics en Doel hebben en u toegang tot alle rapportreeksen hebt, zou u de optie moeten zien om een A/B test tot stand te brengen gebruikend Analytics onder **[!UICONTROL Create Activity]**.
+Als u lid bent van een of meer Experience Cloud-groepen die toegang hebben tot Analytics en Target en u toegang hebt tot alle rapportsuites, kunt u beter een A/B-test maken met Analytics onder **[!UICONTROL Create Activity]**.
 
 Als zich inrichtingsproblemen voordoen, controleert u of A4T correct is ingericht.
 
@@ -35,7 +39,7 @@ Als zich inrichtingsproblemen voordoen, controleert u of A4T correct is ingerich
 Controleer het volgende als een van deze problemen optreedt:
 
 * Zorg ervoor dat uw Analytics- en Target-accounts zijn gekoppeld in de Experience Cloud.
-* Als u veelvoudige het bedrijflogins van Analytics in het zelfde bedrijf van de Wolk van de Ervaring gebruikt, zorg ervoor dat het laatste bedrijf van Analytics u het programma opent aan is dat aan de rekening van het Doel voor de integratie gebonden is.
+* Als u veelvoudige het bedrijflogins van Analytics in het zelfde bedrijf van Experience Cloud gebruikt, zorg ervoor dat het laatste bedrijf van Analytics u het programma opent is die aan de rekening van het Doel voor de integratie gebonden is.
 * Als u zich enkele uren hebt aangemeld bij de Experience Cloud, kan de sessie Analytics soms verlopen. Meld u af en meld u weer aan om het opnieuw te proberen.
 
 ## Waarom zie ik geen opties voor Analytics in Doel? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
