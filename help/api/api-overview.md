@@ -4,9 +4,9 @@ description: Informatie over Adobe Target API's, waaronder de API's Admin, Deliv
 title: Overzicht Adobe Target API
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Overzicht Adobe Target API
 
-Adobe Target API&#39;s kunnen worden gegroepeerd op basis van het type.
+[!DNL Adobe Target] API&#39;s kunnen worden gegroepeerd op basis van het type.
 
 | API-type | Wat het u toelaat doen | Koppeling downloaden | Andere nuttige koppelingen |
 | --- | --- | --- |--- |
@@ -25,6 +25,12 @@ Adobe Target API&#39;s kunnen worden gegroepeerd op basis van het type.
 
 >[!NOTE]
 >
->Let op het verschil tussen API&#39;s voor **beheer** (inclusief de API&#39; [!DNL Recommendations] s), waarmee u verschillende aspecten van Adobe Target kunt configureren, en API&#39;s voor **levering**, waarmee u inhoud kunt ophalen. Admin APIs vereist authentificatie, terwijl levering APIs niet.
+>Er zijn belangrijke verschillen tussen de API&#39; [!DNL Target] s voor beheer (inclusief de API&#39; [!DNL Recommendations] s) en de API&#39;s voor [!DNL Target] levering:
 >
->Om Adobe Target Admin APIs te gebruiken, moet u eerst authentificatie vormen gebruikend Adobe I/O. Zie Verificatie [](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) configureren in *Adobe Target-Tutorials* voor meer informatie.
+>* Admin APIs laat u diverse aspecten van vormen [!DNL Target] die u in [!DNL Target] UI kon ook vormen. Admin API&#39;s vereisen verificatie.
+   >
+   >
+* Met levering-API&#39;s kunt u inhoud ophalen. Voor levering-API&#39;s is geen verificatie vereist.
+>
+>
+Om Admin APIs te gebruiken, moet u eerst authentificatie vormen gebruikend Adobe I/O. [!DNL Target] Zie Verificatie [](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) configureren in *Adobe Target-Tutorials* voor meer informatie.
