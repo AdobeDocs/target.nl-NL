@@ -2,10 +2,14 @@
 keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
 description: Als u Doel wilt gebruiken in uw mobiele app, maakt u een locatie en een succesmaatstaf.
 title: iOS - een doellocatie en succesmaatstaf maken
+feature: null
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Als u Doel wilt gebruiken in uw mobiele app, maakt u een locatie en een succesmaatstaf.
 
-Deze sectie bevat voorbeeldcode die als sjabloon voor uw app kan worden gebruikt. De voorbeelden in deze sectie bevatten code voor iOS. Dezelfde patronen gelden voor Android. Specifieke syntaxis voor Android vindt u in de handleiding [Android SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html) .
+Deze sectie bevat voorbeeldcode die als sjabloon voor uw app kan worden gebruikt. De voorbeelden in deze sectie bevatten code voor iOS. Dezelfde patronen gelden voor Android. De Android-specifieke syntaxis vindt u in de handleiding [Android SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html) .
 
 >[!NOTE]
 >
