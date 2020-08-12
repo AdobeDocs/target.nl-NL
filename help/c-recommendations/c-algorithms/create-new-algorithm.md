@@ -1,16 +1,20 @@
 ---
-description: Criteria bepalen de inhoud van de activiteiten van uw Adobe-aanbevelingen. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
+description: Criteria bepalen de inhoud van je Adobe Recommendations-activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
 title: Criteria maken
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3345'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) : criteria maken{#create-criteria}
 
-Criteria bepalen de inhoud van uw activiteiten in het kader van Aanbevelingen. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
+Criteria bepalen de inhoud van je Recommendations-activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
 
 ## Criteria maken {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -34,7 +38,7 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
 
    Dit is de &quot;interne&quot;naam die wordt gebruikt om de criteria te beschrijven. U kunt bijvoorbeeld uw criteria &quot;Hoogste margeproducten&quot; noemen, maar u wilt niet dat die titel openbaar wordt weergegeven. Zie de volgende stap om de naar buiten gerichte titel in te stellen.
 
-1. Typ een openbare verwijzing die op de pagina **[!UICONTROL Display Title]** moet worden weergegeven voor aanbevelingen die gebruikmaken van deze criteria.
+1. Typ een openbare verwijzing die op de pagina wordt weergegeven voor Recommendations die aan deze criteria voldoen. **[!UICONTROL Display Title]**
 
    U kunt bijvoorbeeld &quot;Personen die dit hebben bekeken, hebben dit weergegeven&quot; of &quot;Gelijksoortige producten&quot; weergeven wanneer u deze criteria gebruikt om aanbevelingen weer te geven.
 
@@ -47,6 +51,7 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
    * [!UICONTROL Retail/Ecommerce]
    * [!UICONTROL Lead Generation/B2B/Financial Services]
    * [!UICONTROL Media/Publishing]
+
    Andere criteria worden gewijzigd op basis van de verticale industriestandaard die u selecteert.
 
 1. Selecteer een **[!UICONTROL Page Type]**.
@@ -94,7 +99,8 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
    * [!UICONTROL Enable Partial Design Rendering]
    * [!UICONTROL Show Backup Recommendations]
    * [!UICONTROL Recommend Previously Purchased Items]
-   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als u objecten verkoopt die mensen weer kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet u deze optie uitschakelen.
+
+   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Het is handig als u objecten verkoopt die mensen doorgaans maar één keer kopen, zoals kajaks. Als u objecten verkoopt die mensen weer kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet u deze optie uitschakelen.
 
 1. Stel uw **[!UICONTROL Inclusion rules]** waarde in.
 
@@ -122,12 +128,12 @@ Als de criteria als gedragsgegevensbron gebruiken, zodra gecreeerd, hangt de tij
 
 ## De aanbeveling baseren op een aanbevelingen {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
-Aanbevelingen op basis van sleutels gebruiken de context van het bezoekersgedrag om relevante resultaten weer te geven.
+Recommendations op basis van sleutels gebruikt de context van het bezoekersgedrag om relevante resultaten weer te geven.
 
-Er zijn twee soorten aanbevelingen:
+Er zijn twee typen Recommendations:
 
 * **Populariteit:** Hiermee geeft u items weer op basis van de opties Meest bekeken, Boven verkocht en Metrisch bovenaan. De sleutel is leeg voor populiteitscriteria.
-* **Op sleutel gebaseerd:** Omvat de rest van de criteria. Aanbevelingen bieden verschillende keuzemogelijkheden met betrekking tot het sleuteltype. De opties variëren van &quot;huidig punt&quot;tot &quot;profielparameters,&quot;die u toestaan om de sleutel van de waarden programmatically te plaatsen aan te bevelen. U kunt meerdere criteria op elkaar testen door de criteria op een andere toets te baseren.
+* **Op sleutel gebaseerd:** Omvat de rest van de criteria. Recommendations biedt verschillende keuzemogelijkheden met betrekking tot het sleuteltype. De opties variëren van &quot;huidig punt&quot;tot &quot;profielparameters,&quot;die u toestaan om de sleutel van de waarden programmatically te plaatsen aan te bevelen. U kunt meerdere criteria op elkaar testen door de criteria op een andere toets te baseren.
 
 Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkmatig verdeeld over uw verschillende criteria testen. Met andere woorden, als je twee criteria hebt, is het verkeer gelijk verdeeld. Als u twee criteria en twee ontwerpen hebt, wordt het verkeer gelijkmatig verdeeld tussen de vier combinaties. U kunt ook een percentage bezoekers van de site opgeven die de standaardinhoud ter vergelijking zien. In dat geval ziet het opgegeven percentage bezoekers de standaardinhoud en worden de rest opgedeeld tussen uw criteria en ontwerpcombinaties.
 
@@ -140,7 +146,7 @@ Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkm
 
 De aanbeveling wordt bepaald door het item dat de bezoeker momenteel bekijkt.
 
-De aanbevelingen tonen andere punten die bezoekers zouden kunnen interesseren die in het gespecificeerde punt geinteresseerd zijn.
+Recommendations geeft andere objecten weer die bezoekers interesseren voor het opgegeven object.
 
 Als deze optie is geselecteerd, moet de `entity.id` waarde als een parameter in het weergavevak worden doorgegeven.
 
@@ -162,7 +168,7 @@ Niet gebruiken op pagina&#39;s met zoekresultaten die null zijn.
 
 De aanbeveling wordt bepaald door de productcategorie die de bezoeker momenteel bekijkt.
 
-Aanbevelingen geven items weer in de opgegeven productcategorie.
+Recommendations geeft objecten weer in de opgegeven productcategorie.
 
 Als deze optie is geselecteerd, moet de `entity.categoryId` waarde als parameter worden doorgegeven aan het weergavevak.
 
@@ -267,7 +273,7 @@ Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volg
 * 5 punten voor elke volgende weergave
 * Aan het einde van de sessie worden alle waarden door 2 gedeeld
 
-Als u surfboardA en surfboardB bijvoorbeeld in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u een A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
+Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u een A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
 
 **Logica (criteria)**
 
@@ -305,7 +311,7 @@ Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en off
 
 ### Populariteit
 
-De aanbeveling wordt bepaald door de populariteit van objecten op uw site. De populariteit omvat topverkopers en de bovenkant die door mbox gegevens en, als u de Analyse van Adobe gebruikt, alle metriek beschikbaar in het productrapport wordt bekeken. De items worden gerangschikt op basis van de door u geselecteerde logica voor aanbevelingen.
+De aanbeveling wordt bepaald door de populariteit van objecten op uw site. De populariteit omvat topverkopers en hoogste bekeken door mbox gegevens en, als u Adobe Analytics gebruikt, alle metriek beschikbaar in het productrapport. De items worden gerangschikt op basis van de door u geselecteerde logica voor aanbevelingen.
 
 **Logica (criteria)**
 
@@ -411,7 +417,7 @@ Als u toelaat **[!UICONTROL Show Backup Recommendations]**, wordt de optie om uw
 
 ![](assets/Recs_ContentControls.png)
 
-| Gedeeltelijke rendering van ontwerp | Back-upaanbevelingen | Resultaat |
+| Gedeeltelijke rendering van ontwerp | Backup Recommendations | Resultaat |
 |--- |--- |--- |
 | Uitgeschakeld | Uitgeschakeld | Als er minder aanbevelingen worden geretourneerd dan door het ontwerp wordt gevraagd, wordt het ontwerp van de aanbevelingen vervangen door de standaardinhoud en worden er geen aanbevelingen weergegeven. |
 | Ingeschakeld | Uitgeschakeld | Het ontwerp wordt teruggegeven, maar kan lege ruimte omvatten als minder aanbevelingen zijn teruggekeerd dan het ontwerp verzoekt. |
@@ -422,7 +428,7 @@ Als u toelaat **[!UICONTROL Show Backup Recommendations]**, wordt de optie om uw
 
 Gebruik [!UICONTROL Content Similarity] regels om aanbevelingen te doen op basis van item- of mediakenmerken.
 
-De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Aanbevelingen op basis van gelijkenis van inhoud vereisen geen gegevens uit het verleden om sterke resultaten te bereiken.
+De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Recommendations op basis van gelijkenis met inhoud vereist geen gegevens uit het verleden om sterke resultaten te bereiken.
 
 Het gebruik van gelijkenis in de inhoud om aanbevelingen te genereren is vooral effectief voor nieuwe items. Deze worden waarschijnlijk niet weergegeven in aanbevelingen met *Personen die dit hebben bekeken, Bekeken dat* en andere logica die is gebaseerd op gedrag in het verleden. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
 
@@ -438,7 +444,7 @@ Standaard zijn alle kenmerken ingesteld op *Basislijn*. U hoeft geen regel te ma
 >
 >Het algoritme voor de gelijkenis van de inhoud kan gebruikmaken van willekeurige sampling bij het berekenen van gelijkenis tussen items. Hierdoor kunnen de overeenkomsten tussen items per algoritme verschillen.
 
-## Trainingsvideo: Criteria maken in ![zelfstudie voor aanbevelingen (12:33)](/help/assets/tutorial.png)
+## Trainingsvideo: Criteria maken in Recommendations (12:33) - ![Zelfstudie](/help/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 
