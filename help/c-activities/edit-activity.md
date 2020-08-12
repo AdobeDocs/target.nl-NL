@@ -2,10 +2,14 @@
 keywords: activities;activity;activity types;edit activity;edit;draft
 description: Informatie over de verschillende manieren waarop u een bestaande activiteit kunt bewerken, inclusief het opslaan van een activiteit in een conceptformulier.
 title: Een activiteit bewerken of opslaan als concept
+feature: null
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +61,7 @@ Het doel biedt verschillende plaatsen in de UI waar u bestaande activiteiten kun
 
 
 
-## Werken met verouderde activiteiten die zijn gemaakt in Classic met aanbevelingen {#classic}
+## Werken met oudere activiteiten die zijn gemaakt in Recommendations Classic {#classic}
 
 De [!UICONTROL Activities] lijstweergaveactiviteiten die in verschillende bronnen zijn gemaakt, waaronder [!DNL Recommendations Classic]. De volgende acties zijn beschikbaar wanneer u werkt met oudere activiteiten die zijn gemaakt in [!DNL Recommendations Classic]:
 
