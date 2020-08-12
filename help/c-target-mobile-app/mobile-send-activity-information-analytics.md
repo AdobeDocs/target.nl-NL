@@ -1,24 +1,28 @@
 ---
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-description: In deze sectie wordt beschreven hoe u activiteitengegevens van Adobe Target voor mobiele apps naar Adobe Analytics verzendt voor postAhoc-segmentatie.
-title: Adobe Target-activiteitengegevens naar Adobe Analytics verzenden
+description: In deze sectie wordt beschreven hoe u informatie over activiteiten in de mobiele app van Adobe Target naar Adobe Analytics verzendt voor postAhoc-segmentatie.
+title: Informatie over Adobe Target-activiteiten naar Adobe Analytics verzenden
+feature: null
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 0%
 
 ---
 
 
-# Activiteitsgegevens verzenden naar Adobe Analytics{#send-activity-information-to-adobe-analytics}
+# Activiteitsgegevens naar Adobe Analytics verzenden{#send-activity-information-to-adobe-analytics}
 
-In deze sectie wordt beschreven hoe u informatie over activiteiten in [!DNL Target] mobiele apps naar Adobe kunt verzenden [!DNL Analytics] voor posthosegmentatie.
+In deze sectie wordt beschreven hoe u informatie over activiteiten in [!DNL Target] mobiele apps naar Adobe verzendt [!DNL Analytics] voor posthosegmentatie.
 
 **Vereisten**
 
 * Deze integratie vereist dat [!DNL Analytics] en [!DNL Target] worden geïmplementeerd met de mobiele SDK.
 * Zorg ervoor dat uw rapportsuite is ingeschakeld voor het ontvangen van activiteitengegevens van [!DNL Target].
 
-   Dit wordt gewoonlijk gedaan door de [!DNL Target] cliëntcode aan de [!DNL Analytics] rapportreeks toe te voegen. Dit is mogelijk al ingeschakeld als u de integratie SiteCatalyst-Test&amp;Target gebruikt voor webactiviteiten. Neem contact op met de klantenservice van Adobe als u vragen hebt over deze stap.
+   Dit wordt gewoonlijk gedaan door de [!DNL Target] cliëntcode aan de [!DNL Analytics] rapportreeks toe te voegen. Dit is mogelijk al ingeschakeld als u de SiteCatalyst-Test&amp;Target-integratie gebruikt voor webactiviteiten. Neem contact op met de klantenservice van Adobe als u vragen hebt over deze stap.
 
 1. Verkrijg de activiteiteninformatie.
 
