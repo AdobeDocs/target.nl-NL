@@ -1,16 +1,20 @@
 ---
 keywords: automated personalization;Audiences;ensemble;random forest
-description: De geautomatiseerde Personalisering (AP) combineert aanbiedingen of berichten, en gebruikt geavanceerd machine leren om verschillende aanbiedingsvariaties aan elke bezoeker aan te passen die op hun individueel klantenprofiel worden gebaseerd, om inhoud en aandrijfhefboom te personaliseren.
-title: Geautomatiseerde personalisatie
+description: Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computergebruik om verschillende aanbiedingsvariaties voor elke bezoeker af te stemmen op basis van hun individuele klantprofiel, om de inhoud en het optillen van de drive aan te passen.
+title: Automated Personalization
+feature: null
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) geautomatiseerde personalisatie{#automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization{#automated-personalization}
 
 [!UICONTROL Automated Personalization] (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computerleren om verschillende aanbiedingsvariaties voor elke bezoeker af te stemmen op basis van hun individuele klantprofiel, om de inhoud aan te passen en de lift aan te passen.
 
@@ -56,11 +60,11 @@ Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied v
 
 **Het doel verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen te bouwen.**
 
-* Voor meer informatie over de attributen die in worden gebruikt [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization], zie de [Geautomatiseerde Inzameling](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)van Gegevens van de Aanpassing.
+* Voor meer informatie over de attributen die in [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization], zie de Inzameling [van Gegevens van](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)Automated Personalization worden gebruikt.
 
 **Het doel gebruikt automatisch alle[!DNL Adobe Experience Cloud]gedeelde toehoorders om de verpersoonlijkingsmodellen te bouwen.**
 
-* U hoeft geen specifieke handelingen uit te voeren om een publiek aan het model toe te voegen. Voor informatie over het gebruiken [!DNL Experience Cloud Audiences] met [!DNL Target], zie [Ervaring de Auditieken](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)van de Wolk.
+* U hoeft geen specifieke handelingen uit te voeren om een publiek aan het model toe te voegen. Voor informatie over het gebruiken [!DNL Experience Cloud Audiences] met [!DNL Target], zie [Experience Cloud Soorten publiek](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
 **Marketers kunnen offlinegegevens, proxyscores of andere aangepaste gegevens uploaden om personalisatiemodellen samen te stellen.**
 
@@ -70,7 +74,7 @@ Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen on
 * [Profielparameters](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 * [Server-side API&#39;s voor profielupdate](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
-Voor informatie over de gegevens die automatisch door [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target] verpersoonlijkingsalgoritmen worden verzameld en worden gebruikt, zie de [Geautomatiseerde Gegevensverzameling](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)van de Aanpassing.
+Zie Gegevensverzameling [!UICONTROL Automated Personalization] van [!UICONTROL Auto-Target] Automated Personalization voor informatie over de gegevens die automatisch worden verzameld en gebruikt door [en](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)personalisatiealgoritmen.
 
 ## ![Video over training badge](/help/assets/overview.png) overzicht: Activiteitstypen
 
