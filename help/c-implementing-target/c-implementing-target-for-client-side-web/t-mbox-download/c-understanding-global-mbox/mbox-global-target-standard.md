@@ -1,12 +1,13 @@
 ---
 keywords: global mbox;target classic;use global mbox from target classic
-description: Target Standard maakt standaard een globale box met de naam target-global-mbox, die wordt gebruikt voor het uitvoeren van activiteiten die in Target Standard zijn gemaakt. Als u echter al een algemene mbox op uw pagina's hebt gemaakt voor uw oudere implementaties, kunt u die mbox gebruiken voor uw Target Standard-activiteiten.
+description: Door gebrek, leidt de Norm van het Doel tot globaal mbox genoemd target-global-mbox, die wordt gebruikt om activiteiten in werking te stellen die in de Standaard van het Doel worden gecreeerd. Nochtans, als u reeds een globale mbox op uw pagina's voor uw erfenisimplementaties hebt gecreeerd, kunt u die mbox voor uw Standaardactiviteiten van het Doel gebruiken.
 title: Een globale box uit een verouderde implementatie gebruiken
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # Een globale box uit een verouderde implementatie gebruiken{#use-a-global-mbox-from-a-legacy-implementation}
 
-Target Standard maakt standaard een globale box met de naam target-global-mbox, die wordt gebruikt voor het uitvoeren van activiteiten die in Target Standard zijn gemaakt. Als u echter al een algemene mbox op uw pagina&#39;s hebt gemaakt voor uw oudere implementaties, kunt u die mbox gebruiken voor uw Target Standard-activiteiten.
+Door gebrek, leidt de Norm van het Doel tot globaal mbox genoemd target-global-mbox, die wordt gebruikt om activiteiten in werking te stellen die in de Standaard van het Doel worden gecreeerd. Nochtans, als u reeds een globale mbox op uw pagina&#39;s voor uw erfenisimplementaties hebt gecreeerd, kunt u die mbox voor uw Standaardactiviteiten van het Doel gebruiken.
 
 >[!NOTE]
 >
@@ -29,7 +30,7 @@ Om uw bestaande globale mbox voor zowel [!DNL Target Standard] als uw erfenisimp
    Standaard [!UICONTROL Auto Create Global Mbox] is dit ingeschakeld en krijgt de aangepaste globale box een naam `target-global-mbox`.
 1. Als u een bestaande mbox wilt gebruiken, maak onbruikbaar [!UICONTROL Auto Create Global Mbox], en specificeer de naam van eerder gecreeerd globaal mbox op het [!UICONTROL Custom Global Mbox] gebied.
 
-   In de [!UICONTROL Custom Global Mbox] vervolgkeuzelijst worden alle vakken in uw account weergegeven. Als u een box wilt gebruiken die nog niet bestaat, maakt u het mbox in Target Classic.
+   In de [!UICONTROL Custom Global Mbox] vervolgkeuzelijst worden alle vakken in uw account weergegeven. Als u een box wilt gebruiken die nog niet bestaat, creeer de mbox in Klassiek van het Doel.
 1. Klik op **[!UICONTROL Save]**.
 
    De instellingen mbox.js voor uw account worden bijgewerkt.
