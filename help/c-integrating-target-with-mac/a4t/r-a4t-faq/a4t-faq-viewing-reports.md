@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken van rapporten wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Rapporten weergeven - Veelgestelde vragen voor A4T
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 1%
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken van rapporten wanneer het gebruiken [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T) worden gevraagd.
 
-## Kan ik mijn gegevens van de doelactiviteit in de Werkruimte van de Analyse bekijken? {#workspace}
+## Kan ik mijn doelactiviteitengegevens in Analysis Workspace bekijken? {#workspace}
 
 U kunt uw [!DNL Analysis Workspace] activiteiten en ervaringen analyseren [!DNL Target] . Met [Analytics voor het](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) doelvenster kunt u optillen en vertrouwen zien voor maximaal drie succesmetingen. U kunt ook dieper graven met behulp van tabellen en visualisaties.
 
 Voor gedetailleerde informatie en voorbeelden opent u de opties [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), geleverd door Adobe Experience League.
 
-## Waar kunnen de segmenten in de Werkruimte van de Analyse worden toegepast? {#segmentation}
+## Waar kunnen segmenten worden toegepast in Analysis Workspace? {#segmentation}
 
 Segmenten worden meestal toegepast op de bovenkant van een deelvenster in de neerzetzone van het segment. Het segment wordt toegepast op alle tabellen en visualisaties in het deelvenster. Deze techniek is het meest nuttig om te zien hoe de test een subset mensen beïnvloedt (bijvoorbeeld hoe heeft deze test voor mensen in het Verenigd Koninkrijk gepresteerd).
 
@@ -48,7 +49,7 @@ Overweeg het volgende:
 * Alle bovenstaande metrische trigger wanneer een gebruiker in aanmerking komt voor een activiteit en inhoud wordt geretourneerd van [!DNL [!DNL Target]]. Dit betekent niet noodzakelijk dat de gebruiker het aanbod zag. Als een activiteitenervaring onder de vouw is en de gebruiker niet onderaan de pagina scrolt, dan werd de aanbieding gediend door [!DNL Target] maar niet gezien door de gebruiker.
 * [!UICONTROL Activity Impressions] (gemeten door [!DNL Target]) en [!UICONTROL Instances] (gemeten door [!DNL Analytics]) zijn gelijk, tenzij er meerdere mbox-aanroepen op dezelfde pagina in dezelfde activiteit plaatsvinden. Hierdoor worden meerdere geteld, maar slechts één [!UICONTROL Activity Impressions] [!UICONTROL Instance].
 
-## Waarom zijn de &quot;activiteitindrukkingen&quot;en &quot;activiteitomzettingen&quot;hoger in de Werkruimte van de Analyse dan Rapporten &amp; Analytics? {#sametouch}
+## Waarom zijn &#39;activity impressions&#39; en &#39;activity conversions&#39; in Analysis Workspace hoger dan Reports &amp; Analytics? {#sametouch}
 
 [!DNL Reports & Analytics] past een attributiemodel met dezelfde aanraakinstelling toe op &#39;activity-impressions&#39; en &#39;activity-conversions&#39;, terwijl de onbewerkte metriek [!DNL Analysis Workspace] wordt weergegeven, die opgeblazen kan lijken als gevolg van de persistentie van de [!DNL Target] dimensie.
 
@@ -68,7 +69,7 @@ Na de rubriceringsperiode worden in deze rapporten ongeveer een uur na de verzam
 
 De [!DNL Target] naar [!DNL Analytics] verzonden variabele heeft een standaardvervalperiode van 90 dagen. Deze vervalperiode kan indien nodig door de klantenservice worden aangepast. Deze instelling is echter algemeen voor alle activiteiten, zodat ze niet voor één geval hoeft te worden aangepast.
 
-U kunt [!DNL Target] variabelen zien die naar [!DNL Analytics] na de vervalperiode worden verzonden omdat de vervaldatum 90 dagen is, maar slechts als die gebruiker geen andere A4T-Toegelaten [!DNL Target] activiteit ziet. Als een gebruiker op dag 45 terugkomt naar de site en een andere activiteit ziet, wordt de teller van de hele A4T Var opnieuw ingesteld op 90 dagen. Dat betekent dat de eerste campagne vanaf dag 1 nu tot 45 + 90 = 135 dagen zou kunnen duren. Als de gebruiker blijft terugkomen, zou u aan het punt kunnen krijgen waar u metriek die naar [!DNL Analytics] in uw rapportering van veel oudere activiteiten wordt verzonden. Wanneer gebruikers cookies verwijderen en niet terugkeren naar de site, gaan de nummers in die activiteit verloren, maar blijven deze zichtbaar.
+U kunt [!DNL Target] variabelen zien die naar [!DNL Analytics] na de vervalperiode worden verzonden omdat de vervaldatum 90 dagen is, maar slechts als die gebruiker geen andere A4T-Toegelaten [!DNL Target] activiteit ziet. Als een gebruiker op dag 45 terugkomt naar de site en een andere activiteit ziet, wordt de teller van de hele A4T-eVar opnieuw ingesteld op 90 dagen. Dat betekent dat de eerste campagne vanaf dag 1 nu tot 45 + 90 = 135 dagen zou kunnen duren. Als de gebruiker blijft terugkomen, zou u aan het punt kunnen krijgen waar u metriek die naar [!DNL Analytics] in uw rapportering van veel oudere activiteiten wordt verzonden. Wanneer gebruikers cookies verwijderen en niet terugkeren naar de site, gaan de nummers in die activiteit verloren, maar blijven deze zichtbaar.
 
 Dit betekent dat de activiteiten nog steeds paginaweergaven krijgen, bezoeken, enzovoort, tot 90 dagen nadat de activiteit eindigt voor bezoekers die deel uitmaakten van de activiteit terwijl deze actief was. Nochtans, als u [!UICONTROL Activity Impressions] metrisch kijkt, zou u geen beelden moeten zien nadat de activiteit beëindigde.
 
@@ -84,7 +85,7 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt deze nog steeds de gebruiker via eVar persistentie. De gegevens zien er nu als volgt uit:
+De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via persistentie van de eVar. De gegevens zien er nu als volgt uit:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
@@ -97,7 +98,7 @@ De gebruiker komt terug op 1 maart en ziet een nieuwe activiteit, ABC. De gebrui
 | XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
-De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar waarde wordt opnieuw ingesteld op 1 april, dus dat zullen we in de rapportage zien. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
+De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar-waarde wordt opnieuw ingesteld op 1 april. Dat zullen we in de rapportage zien. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers | Orders |
 |--- |--- |--- |--- |--- |--- |
@@ -107,7 +108,7 @@ De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. 
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target] rapportage, omdat u geen [!DNL Target] activiteit tegen een andere activiteit plaatst om te zien wat succesvoller is, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items in één activiteit en het is voor een gebruiker niet mogelijk om verschillende ervaringen in dezelfde activiteit te zien, zodat u zich geen zorgen hoeft te maken over kruisbesmetting van orderkredieten.
 
-Zie [Conversievariabelen (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in de *Beheerdershandleiding* Analytics voor meer informatie.
+Zie [Conversievariabelen (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in de *beheerhandleiding* voor analysemogelijkheden.
 
 ## Waarom berekenen Analytics en Analytics voor Doel (A4T) aantallen voor de Unieke metrische bezoekers verschillend? {#section_0C3B648AB54041F9A2AA839D51791883}
 
