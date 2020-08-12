@@ -1,11 +1,15 @@
 ---
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
-description: Informatie over hoe de JavaScript-bibliotheek Adobe Target at.js flikkering tijdens het laden van de pagina of de toepassing voorkomt.
-title: Hoe Adobe Target flikkering beheert
+description: Informatie over hoe de JavaScript-bibliotheek Adobe Target at.js flikkering voorkomt tijdens het laden van de pagina of de toepassing.
+title: Hoe Adobe Target at.js flikkering beheert
+feature: null
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +48,7 @@ Het asynchroon laden van at.js is een goede manier om te voorkomen dat de browse
 
 U kunt flikkering voorkomen door een vooraf verborgen fragment te gebruiken dat zichtbaar zal zijn nadat de relevante HTML-elementen zijn aangepast door [!DNL Target].
 
-at.js kan asynchroon worden geladen, rechtstreeks ingesloten op de pagina of via een tagbeheer (Adobe Launch, Dynamic Tag Manager (DTM), enz.).
+at.js kan asynchroon worden geladen, direct ingesloten op de pagina of via een tagbeheer (Adobe Launch, Dynamic Tag Manager (DTM), enz.).
 
 Als at.js op de pagina is ingesloten, moet het fragment worden toegevoegd voordat u at.js laadt. Als u at.js laadt via een tagmanager die ook asynchroon wordt geladen, moet u het fragment toevoegen voordat u het tagbeheer laadt. Als tagbeheer synchroon wordt geladen, wordt het script mogelijk vóór at.js opgenomen in de tagmanager.
 
