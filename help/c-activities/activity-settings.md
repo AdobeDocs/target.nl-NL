@@ -2,11 +2,12 @@
 keywords: Goal &Settings;objective;priority;duration
 description: Met Activiteitsinstellingen kunt u het doel, de prioriteit en de duur van uw activiteiten beheren.
 title: Activiteiteninstellingen
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -53,10 +54,10 @@ Met Activiteitsinstellingen kunt u het doel, de prioriteit en de duur van uw act
 De [!UICONTROL Goal & Settings] pagina bevat aanvullende instellingen die variëren op basis van het type activiteit dat u maakt. Raadpleeg het type activiteit voor meer informatie over deze instellingen:
 
 * [A/B-test](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Geautomatiseerde personalisatie](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+* [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 * [Gericht op ervaring](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Multivariatietest](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Aanbevelingen](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## Trainingsvideo: Activiteit Settings ![Tutorial badge](/help/assets/tutorial.png)
 
