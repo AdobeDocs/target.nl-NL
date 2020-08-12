@@ -1,11 +1,15 @@
 ---
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
-description: Antwoorden op veelgestelde vragen over Adobe Target op JavaScript-bibliotheek.js.
-title: Adobe-doel om.js Veelgestelde vragen
+description: Antwoorden op veelgestelde vragen over de JavaScript-bibliotheek van Adobe Target at.js.
+title: Adobe Target om.js Veelgestelde vragen
+feature: null
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2656'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +49,9 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 1. Als Automatisch maken van globale box is ingeschakeld, wordt de JavaScript-doelbibliotheek gebruikt:
 
    * Instantieert het object Visitor.
-   * De doelbibliotheek probeert de Experience Cloud Visitor ID-gegevens op te halen.
+   * De doelbibliotheek probeert de gegevens van de Experience Cloud Visitor-id op te halen.
    * Omdat dit een nieuwe bezoeker is, leidt de bezoeker-API een aanvraag voor een ander domein in naar demdex.net.
-   * Nadat de gegevens van de Experience Cloud Visitor ID zijn opgehaald, wordt een aanvraag aan Target gestart.
+   * Nadat de gegevens van de identiteitskaart van de Bezoeker van Experience Cloud worden teruggewonnen, wordt een verzoek aan Doel in brand gestoken.
 
 ### Bezoekers terugsturen
 
@@ -56,13 +60,13 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 1. Als Automatisch maken van globale box is ingeschakeld, wordt de JavaScript-doelbibliotheek gebruikt:
 
    * Instantieert het object Visitor.
-   * De doelbibliotheek probeert de Experience Cloud Visitor ID-gegevens op te halen.
+   * De doelbibliotheek probeert de gegevens van de Experience Cloud Visitor-id op te halen.
    * De bezoeker-API haalt gegevens op uit cookies.
-   * Nadat de gegevens van de Experience Cloud Visitor ID zijn opgehaald, wordt een aanvraag aan Target gestart.
+   * Nadat de gegevens van de identiteitskaart van de Bezoeker van Experience Cloud worden teruggewonnen, wordt een verzoek aan Doel in brand gestoken.
 
 >[!NOTE]
 >
->Voor nieuwe bezoekers geldt dat wanneer de Bezoeker-API aanwezig is, Target meerdere keren over de kabel moet gaan om ervoor te zorgen dat Target-aanvragen gegevens van Experience Cloud Visitor ID bevatten. Voor terugkerende bezoekers, gaat het Doel over de draad slechts aan Doel om de gepersonaliseerde inhoud terug te winnen.
+>Voor nieuwe bezoekers, wanneer de Bezoeker-API aanwezig is, moet Target meerdere keren over de kabel gaan om ervoor te zorgen dat de doelaanvragen gegevens van de Experience Cloud Bezoeker-id bevatten. Voor terugkerende bezoekers, gaat het Doel over de draad slechts aan Doel om de gepersonaliseerde inhoud terug te winnen.
 
 ## Waarom lijkt het alsof ik langzamere reactietijden na bevordering van een vorige versie van at.js aan versie 1.0.0 zie? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
@@ -87,7 +91,7 @@ Met de release at.js 1.0.0 kunt u de doelbibliotheek asynchroon laden.
 
 Zo laadt u at.js asynchroon:
 
-* De aanbevolen aanpak vindt u via een tagbeheer, zoals Adobe Launch of Adobe Dynamic Tag Manager (DTM). Zie de les Adobe Target [](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) toevoegen van de [Experience Cloud in websites met Starten](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) voor meer informatie.
+* De aanbevolen aanpak vindt u via een tagbeheer, zoals Adobe Launch of Adobe Dynamic Tag Manager (DTM). Zie de [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) les van het [Uitvoeren van de Experience Cloud in Websites met de zelfstudie van de Lancering](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) voor meer informatie.
 * U kunt ook asynchroon laden bij .js door het asynchrone attribuut aan de manuscriptmarkering toe te voegen die at.js laadt. Je moet iets als dit gebruiken:
 
    ```
@@ -107,13 +111,13 @@ Het asynchroon laden van at.js is een goede manier om te voorkomen dat de browse
 
 U kunt flikkering vermijden door een vooraf verborgen fragment te gebruiken dat de pagina (of gespecificeerde gedeelten) verbergt en het dan onthult nadat om.js en het globale verzoek volledig geladen hebben. Het fragment moet worden toegevoegd voordat u het bestand at.js laadt.
 
-Als u at.js door een asynchrone implementatie van de Lancering opstelt, ben zeker om het pre-verbergende fragment op uw pagina&#39;s direct te omvatten, vóór de Lancering sluit code, zoals die in de [Add wordt beschreven het Doel pre-Hiding sectie van het Fragment](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) van het [Uitvoeren van de Wolk van de Ervaring in Websites met de zelfstudie](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)van de Lancering.
+Als u at.js door een asynchrone implementatie van de Lancering opstelt, ben zeker om het pre-verbergen fragment op uw pagina&#39;s direct te omvatten, vóór de Lanceer bed code, zoals die in de [Add wordt beschreven het Doel pre-Hiding sectie van het Fragment](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) van het [Uitvoeren van de Experience Cloud in Websites met het Lanceerprogramma](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)wordt beschreven.
 
 Als u at.js door een synchrone implementatie DTM opstelt, kan het pre-verbergende fragment worden toegevoegd door een lijn van de Lading van de Pagina die bij de bovenkant van de pagina wordt teweeggebracht.
 
 Zie [Hoe at.js flikkering](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)beheert voor meer informatie.
 
-## Is at.js compatibel met de integratie van Adobe Experience Manager (AEM)? {#section_6177AE10542344239753764C6165FDDC}
+## Is at.js verenigbaar met de integratie van Adobe Experience Manager (AEM)? {#section_6177AE10542344239753764C6165FDDC}
 
 [!DNL Adobe Experience Manager] 6.2 met FP-11577 (of later) steunt nu [!DNL at.js] implementaties met zijn [!UICONTROL Adobe Target Cloud Services] integratie. Zie [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) en [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in de documentatie van *Adobe Experience Manager 6.2* voor meer informatie.
 
@@ -151,7 +155,7 @@ Niet op dezelfde pagina. Nochtans, terwijl het uitvoeren en het testen [!DNL at.
 
 Ja, kunt u VEC voor uw SPA gebruiken als u at.js 2.x gebruikt. Voor meer informatie, zie [Enige Pagina (SPA) Visuele Composer](/help/c-experiences/spa-visual-experience-composer.md)van de Ervaring.
 
-## Kan ik de Adobe Experience Cloud Debugger gebruiken met at.js-implementaties? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## Kan ik de Adobe Experience Cloud Debugger gebruiken met at.js implementaties? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 Ja. U kunt mboxTrace ook gebruiken voor het zuiveren doeleinden of de Hulpmiddelen van de Ontwikkelaar van uw browser om de verzoeken van het Netwerk te inspecteren, filtrerend aan &quot;mbox&quot;om mbox vraag te isoleren.
 
@@ -211,7 +215,7 @@ Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofd
 
 ## Wat is het domein tt.omtr dc.net dat de servervraag van het Doel gaat? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
-[!DNL tt.omtrdc.net] is de domeinnaam voor het EDGE-netwerk van Adobe, die wordt gebruikt om alle serveraanroepen voor Target te ontvangen.
+[!DNL tt.omtrdc.net] is de domeinnaam voor Adobe EDGE netwerk, dat wordt gebruikt om alle vraag naar Doel te ontvangen.
 
 ## Waarom gebruiken at.js en mbox.js geen vlag HttpOnly en Veilige koekjes? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
@@ -219,11 +223,11 @@ HttpOnly kan alleen worden ingesteld via code op de server. Doelcookies, zoals m
 
 Beveiliging kan alleen via JavaScript worden ingesteld wanneer de pagina via HTTPS is geladen. Als de pagina voor het eerst wordt geladen via HTTP, kan JavaScript deze markering niet instellen. Als de markering Beveiligen wordt gebruikt, is de cookie bovendien alleen beschikbaar op HTTPS-pagina&#39;s.
 
-Om ervoor te zorgen dat Doel gebruikers correct kan volgen, en omdat de koekjes cliënt-kant worden geproduceerd, gebruikt Target geen van beide vlaggen.
+Om ervoor te zorgen dat Doel gebruikers correct kan volgen, en omdat de koekjes cliënt-kant worden geproduceerd, gebruikt Doel geen van beide vlaggen.
 
 ## Hoe vaak brand at.js een netwerkverzoek? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target voert alle beslissingen op de server uit. Dit betekent dat at.js elke keer dat de pagina opnieuw wordt geladen of een openbare API van at.js wordt aangeroepen, een netwerkverzoek in werking stelt.
+Adobe Target voert al zijn besluiten op de server uit. Dit betekent dat at.js elke keer dat de pagina opnieuw wordt geladen of een openbare API van at.js wordt aangeroepen, een netwerkverzoek in werking stelt.
 
 ## In het beste geval, kunnen wij verwachten dat de gebruiker geen zichtbare gevolgen op paginading met betrekking tot het verbergen van, het vervangen van, en het tonen van inhoud ervaart? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
