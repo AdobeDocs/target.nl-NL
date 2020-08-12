@@ -1,17 +1,21 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: Met feeds kunt u entiteiten importeren in Adobe-aanbevelingen. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en/of Adobe Analytics-productclassificaties.
+description: Met feeds kunt u entiteiten importeren in Adobe Recommendations. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en/of Adobe Analytics-productclassificaties.
 title: Feeds
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2433'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) -feeds{#feeds}
 
-Met feeds kunt u entiteiten importeren in [!DNL Recommendations]. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de indeling van de Google Product Search-feed en de productclassificatie van Adobe Analytics.
+Met feeds kunt u entiteiten importeren in [!DNL Recommendations]. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en Adobe Analytics-productclassificaties.
 
 ## Overzicht van feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -44,7 +48,7 @@ De pagina feeds bevat de volgende kolommen:
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
-U kunt een `.csv` bestand maken in de door Adobe gegenereerde uploadindeling voor CSV. Het bestand bevat weergaveinformatie over de gereserveerde en aangepaste kenmerken voor uw producten. Als u kenmerken wilt uploaden die specifiek zijn voor uw implementatie, vervangt u `CustomN` in de koptekstrij de naam van het kenmerk dat u wilt gebruiken. In het onderstaande voorbeeld `entity.Custom1` is vervangen door: `entity.availability`. U kunt het bestand vervolgens bulksgewijs uploaden naar de [!DNL Recommendations] server.
+U kunt een `.csv` bestand maken met de CSV-uploadindeling van de Adobe. Het bestand bevat weergaveinformatie over de gereserveerde en aangepaste kenmerken voor uw producten. Als u kenmerken wilt uploaden die specifiek zijn voor uw implementatie, vervangt u `CustomN` in de koptekstrij de naam van het kenmerk dat u wilt gebruiken. In het onderstaande voorbeeld `entity.Custom1` is vervangen door: `entity.availability`. U kunt het bestand vervolgens bulksgewijs uploaden naar de [!DNL Recommendations] server.
 
 Het gebruik van de .csv-indeling heeft de volgende voordelen ten opzichte van de Google Feed-indeling:
 
@@ -94,7 +98,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-Het de voedertype van het Onderzoek van het Product van Google gebruikt het formaat van Google. Dit is anders dan de gedeponeerde CSV-uploadindeling van Adobe.
+Het de voedertype van het Onderzoek van het Product van Google gebruikt het formaat van Google. Dit is anders dan de CSV-uploadindeling van de Adobe-eigenaar.
 
 Als u een bestaande Google-productfeed hebt, kunt u die gebruiken als uw importbestand.
 
@@ -102,11 +106,11 @@ Als u een bestaande Google-productfeed hebt, kunt u die gebruiken als uw importb
 >
 >Het is niet verplicht Google-gegevens te gebruiken. [!DNL Recommendations] gebruikt gewoon dezelfde indeling als Google. U kunt deze methode gebruiken om alle gegevens te uploaden die u hebt en de beschikbare planningsfuncties te gebruiken. U moet echter de vooraf gedefinieerde attribuutnamen van Google behouden wanneer u het bestand instelt.
 
-De meeste detailhandelaren uploaden producten naar Google, dus als een bezoeker Google-productzoekactie gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de specificatie van Google exact voor entiteitsfeeds. Entiteitsfeeds kunnen worden verzonden naar [!DNL Recommendations] via [!DNL .xml], [!DNL .txt]of [!DNL .tsv], en kunnen de [kenmerken gebruiken die door Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)zijn gedefinieerd. De resultaten kunnen worden doorzocht op de [Google-winkelpagina](https://www.google.com/prdhp)&#39;s.
+De meeste detailhandelaren uploaden producten naar Google, dus als een bezoeker Google-productzoekactie gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de specificatie van Google exact voor entiteitsfeeds. Entiteitsfeeds kunnen worden verzonden naar [!DNL Recommendations] via [!DNL .xml], [!DNL .txt]of [!DNL .tsv], en kunnen de [kenmerken gebruiken die door Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)zijn gedefinieerd. De resultaten kunnen worden doorzocht op de [Google-winkelpagina](https://www.google.com/prdhp)&#39;s.
 
 >[!NOTE]
 >
->De POST-methode moet zijn toegestaan op de server die de inhoud van de Google-feed host.
+>De methode POST moet zijn toegestaan op de server die de inhoud van de Google-feed host.
 
 Omdat [!DNL Recommendations] gebruikers al een product configureren [!DNL .xml] of [!DNL .txt] verzenden naar Google via URL of FTP, accepteert de eenheidfeeds de productgegevens en gebruiken deze om de catalogus met aanbevelingen te maken. Geef op waar die feed bestaat en de aanbevelingen-server de gegevens ophaalt.
 
@@ -197,11 +201,11 @@ De classificatie van het Product Analytics is de enige classificatie die voor aa
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat dit niet de voorkeursmethode is voordat u gegevens van entiteiten in Aanbevelingen importeert met productclassificaties van Analytics.
+>Houd er rekening mee dat dit niet de voorkeursmethode is voordat u gegevens van entiteiten in Recommendations importeert met productclassificaties van Analytics.
 >
 > Let op het volgende:
 >* Updates van entiteitskenmerken hebben een extra vertraging van maximaal 24 uur.
->* Het doel ondersteunt alleen productclassificaties. Het product-SKU Analytics moet op hetzelfde niveau worden toegewezen als de Aanbevelingen `entity.id`. Aangepaste analytische classificaties kunnen worden ontwikkeld met behulp van Adobe Consulting Services. Neem contact op met uw accountmanager voor vragen.
+>* Het doel ondersteunt alleen productclassificaties. Het product-SKU Analytics moet op hetzelfde niveau worden toegewezen als de Recommendations `entity.id`. Aangepaste analytische classificaties kunnen worden ontwikkeld met behulp van Adobe Consulting Services. Neem contact op met uw accountmanager voor vragen.
 
 
 ## Feed maken {#steps}
@@ -218,6 +222,7 @@ Maak een feed om informatie over uw producten of services in te voegen in [!DNL 
    * CSV
    * Google Product Feed
    * Analytische classificaties
+
    Zie Overzicht [van](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)feeds voor informatie over de feed-typen CSV en Google Product Feed. U kunt ook een CSV-handleiding [voor het model](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) downloaden om u te helpen de feed correct op te maken.
 
 1. (Voorwaardelijk) Als u selecteerde **[!UICONTROL CSV]** of **[!UICONTROL Google Product Feed]**, specificeer de plaats waar de voer kan worden betreden.
@@ -291,7 +296,7 @@ Als u een feed wilt bijwerken (bijvoorbeeld om wijzigingen aan te brengen in de 
 
 >[!IMPORTANT]
 >
->Geüploade entiteiten verlopen na 61 dagen. Dit betekent dat uw voederdossier minstens om de 60 dagen moet worden geupload om een verstoring van uw aanbevelingen activiteiten te vermijden. Als een item niet minstens om de 60 dagen in een feed-bestand (of een andere methode voor het bijwerken van entiteiten) is opgenomen, voert Adobe Target aan dat het item niet langer relevant is en wordt het uit de catalogus verwijderd.
+>Geüploade entiteiten verlopen na 61 dagen. Dit betekent dat uw voederdossier minstens om de 60 dagen moet worden geupload om een verstoring van uw aanbevelingen activiteiten te vermijden. Als een item niet minstens om de 60 dagen in een voederbestand (of een andere methode voor het bijwerken van entiteiten) is opgenomen, geeft Adobe Target aan dat het item niet langer relevant is en wordt het uit de catalogus verwijderd.
 
 ### Indicatoren voor de voederstatus {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -323,7 +328,7 @@ De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had 
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Werken met feeds in ![overzichtsbadge Aanbevelingen (3:01)](/help/assets/overview.png)
+### Werken met feeds in Recommendations (3:01) - badge ![Overzicht](/help/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 
