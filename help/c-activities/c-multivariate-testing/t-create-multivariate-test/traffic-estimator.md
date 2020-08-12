@@ -1,10 +1,14 @@
 ---
 description: Omdat een multivariate test veelvoudige ervaringen vergelijkt, is het belangrijk om te weten hoeveel verkeer wordt vereist om betekenisvolle resultaten te verstrekken. De schatter van het Verkeer gebruikt statistieken over uw pagina en het aantal ervaringen die worden getest om de hoeveelheid verkeer en de testduur te schatten nodig om de test succesvol te maken.
 title: Schatting van het verkeer dat nodig is voor een geslaagde test
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
@@ -41,6 +45,7 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
    * [!UICONTROL Typical Conversion Rate]: De omrekeningskoers wordt uitgedrukt als een percentage, op basis van uw schatting of gegevens uit het verleden van uw analysesysteem
    * [!UICONTROL Estimated Visitors Per Day]: Dit is het aantal bezoekers dat deze pagina waarschijnlijk zal bekijken op basis van de doelcriteria. Dit kan op uw analysegegevens worden gebaseerd.
    * [!UICONTROL Test Duration]: Het aantal dagen waarop de activiteit moet worden uitgevoerd.
+
    De schatter van het Verkeer gebruikt deze statistieken om te bepalen welke aanpassingen nodig zijn om een succesvolle test in werking te stellen.
 
    Vlak bij de bovenkant van de schatter van het Verkeer, worden de waarden u inging berekend en de resultaten worden getoond.
@@ -53,6 +58,7 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
 
    * Verminder het aantal combinaties aanbiedingen en het aantal plaatsen.
    * Verhoog de duur van de test.
+
    Pas de aantallen aan tot de schatter van het Verkeer zegt u voldoende verkeer hebt, dan ontwerp dienovereenkomstig uw test.
 
    ![](assets/estimatorok.png)
