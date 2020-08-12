@@ -1,19 +1,23 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
-description: Gebruik het doelpubliek van Adobe om gebruikers te richten op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode, DMA of mobiele provider.
+description: Gebruik een Adobe Target-publiek voor doelgebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode, DMA of mobiele luchtvaartmaatschappij.
 title: Geo
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 2%
 
 ---
 
 
 # Geo{#geo}
 
-Gebruik doelgroepen voor gebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode/postcode, DMA of mobiele luchtvaartmaatschappij.
+Gebruik doelgroepen voor gebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode, DMA of mobiele luchtvaartmaatschappij.
 
 De parameters van de plaats van de geoplaats staan u toe om activiteiten en ervaringen te richten die op de aardrijkskunde van uw bezoekers worden gebaseerd. U kunt bezoekers opnemen of uitsluiten op basis van hun land, provincie, provincie, stad, postcode, breedte, lengte, DMA of mobiele provider. Dit gegeven wordt verzonden met elk verzoek van het Doel en is gebaseerd op het IP van de bezoeker adres. Selecteer deze parameters net als alle doelwaarden.
 
@@ -33,6 +37,7 @@ De parameters van de plaats van de geoplaats staan u toe om activiteiten en erva
    * Lengtegraad
    * DMA
    * Mobiele vervoerder
+
    IP van een bezoeker adres wordt overgegaan met een brievenbusverzoek, eens per bezoek (zitting), om geo richtende parameters voor die bezoeker op te lossen.
 
    Voor Mobiele Drager, [!DNL Target] gebruikt de IP gegevens van de adresregistratie (die het blok van IP adressen) bezit om de aangewezen mobiele drager te bepalen gebruikend de [Mobiele Codes van het Land (MCC) en Mobiele Codes MNC van het Netwerk)](https://www.mcc-mnc.com).
@@ -102,7 +107,7 @@ Gebruik bijvoorbeeld:
 * `${profile.geolocation.latitude}`
 * `${profile.geolocation.longitude}`
 
-## Veelgestelde vragen over geoting {#section_DD308A53AF0F48FA8C81423580561FE7}
+## Veelgestelde vragen over Geotargeting {#section_DD308A53AF0F48FA8C81423580561FE7}
 
 **Hoe kan ik breedte- en lengtegraad opgeven?**
 
