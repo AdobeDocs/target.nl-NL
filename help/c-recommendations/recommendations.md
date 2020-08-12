@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
-description: De activiteiten van aanbevelingen in Adobe Target tonen automatisch producten of inhoud die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren. De aanbevelingen helpen klanten aan relevante punten leiden zij anders niet op de hoogte zouden kunnen zijn.
-title: Adobe-doelaanbevelingen
+description: Recommendations-activiteiten in Adobe Target geven automatisch producten of inhoud weer die voor uw klanten interessant kan zijn op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
+title: Adobe Target Recommendations
+feature: null
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -12,15 +13,15 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -aanbevelingen{#recommendations}
+# ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-De activiteiten van aanbevelingen tonen automatisch producten of inhoud die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren. De aanbevelingen helpen klanten aan relevante punten leiden zij anders niet op de hoogte zouden kunnen zijn.
+Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
 
 >[!NOTE]
 >
 >[!DNL Recommendations] activiteiten zijn beschikbaar als onderdeel van de [Target Premium-oplossing](/help/c-intro/intro.md#premium). Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie.
 >
->Als u momenteel [!DNL Recommendations Classic], zie de Activiteiten van de [Aanbevelingen Klassieke versus van Aanbevelingen in de Premie](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) van het Doel voor meer informatie over de twee oplossingen hebt.
+>Als u momenteel [!DNL Recommendations Classic]beschikt, raadpleegt u [Recommendations Classic versus Recommendations Activity in Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) voor meer informatie over de twee oplossingen.
 
 [!DNL Recommendations] helpt u suggesties in real time te optimaliseren en aan te passen over kanalen, apps, pagina&#39;s, e-mailberichten en andere leveringsopties om de betrokkenheid en conversie te verhogen en de beheerinspanningen te verminderen.
 
@@ -56,8 +57,8 @@ In deze video worden de activiteitstypen uitgelegd die beschikbaar zijn in [!DNL
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics Webinar: Inleiding tot {#intro-to-recs} ![zelfstudie met aanbevelingen](/help/assets/tutorial.png)
+## Adobe Target Basics Webinar: Inleiding tot Recommendations {#intro-to-recs} Tutorial ![badge](/help/assets/tutorial.png)
 
-De *inleiding tot webinar van Aanbevelingen* omvat een diepgaand onderzoek van hoe te om de waarde van te hefboomwerking te [!DNL Adobe Target Recommendations]. Kom te weten hoe deze [!DNL Target] activiteit automatisch producten of inhoud toont die uw klanten zouden kunnen interesseren door suggesties in real time te optimaliseren die op vorige bezoeken worden gebaseerd. Verder, duik in [!DNL Target] UI voor een geleidelijke overzicht van hoe te om een [!DNL Recommendations] activiteit te bouwen.
+De *introductie van het webinar van Recommendations* bevat een diepgaande analyse van hoe u de waarde van [!DNL Adobe Target Recommendations]kunt benutten. Kom te weten hoe deze [!DNL Target] activiteit automatisch producten of inhoud toont die uw klanten zouden kunnen interesseren door suggesties in real time te optimaliseren die op vorige bezoeken worden gebaseerd. Verder, duik in [!DNL Target] UI voor een geleidelijke overzicht van hoe te om een [!DNL Recommendations] activiteit te bouwen.
 
-[Inleiding tot aanbevelingen](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Inleiding tot Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
