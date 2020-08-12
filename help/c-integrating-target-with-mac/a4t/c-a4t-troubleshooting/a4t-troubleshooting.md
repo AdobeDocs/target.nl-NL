@@ -2,11 +2,15 @@
 keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
 description: Dit onderwerp behandelt sommige gemeenschappelijke kwesties die zijn ontmoet wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
 title: Los de Analytics en integratie van het Doel (A4T) problemen op
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
 
 ---
 
@@ -51,14 +55,14 @@ A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. 
 
 >[!NOTE]
 >
->Als u Adobe Analytics gebruikt als bron voor rapportage van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
+>Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
 
 ## Mijn segmenten Analytics verschijnen niet in Doel. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Zorg ervoor u de juiste toestemmingen hebt alvorens u begint te creëren A4T activiteiten:
 
-* U moet tot de groep van de Toegang van de Diensten van het Web in de Analytics van Adobe behoren om Analytics als rapporteringsbron voor Doel te kunnen gebruiken.
-* U moet lid zijn van een of meer groepen Experience Cloud die toegang hebben tot Analytics en Target.
+* U moet tot de groep van de Toegang van de Diensten van het Web in Adobe Analytics behoren om Analytics als rapporteringsbron voor Doel te kunnen gebruiken.
+* U moet lid zijn van een of meer Experience Cloud-groepen die toegang hebben tot Analytics en Target.
 * Controleer of Analytics en Target worden weergegeven in de sectie Marketing Apps van de linkernavigatie.
 
 ## Stuittarieven, stuitingen en afsluitingsmetriek worden in rapporten als positief weergegeven. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
