@@ -2,9 +2,10 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: Met Automatisch toewijzen wordt een winnaar geïdentificeerd aan de hand van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversie toeneemt terwijl de test nog steeds wordt uitgevoerd en opgedaan.
 title: Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
