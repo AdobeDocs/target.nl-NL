@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target heeft processen en instellingen ingeschakeld waarmee u Target kunt gebruiken in overeenstemming met de toepasselijke wetgeving inzake privacy van gegevens.
 title: Privacy
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +25,9 @@ Het IP-adres van een bezoeker van uw website wordt naar een Adobe Data Processin
 
 ## Vervanging van laatste octet van IP adressen {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe heeft een nieuwe instelling voor &#39;privacy-door-ontwerp&#39; ontwikkeld die door Adobe Client Care for Adobe Target kan worden ingeschakeld. Wanneer deze instelling is ingeschakeld, wordt het laatste octet (het laatste gedeelte) van het IP-adres direct verborgen wanneer het IP-adres door Adobe wordt verzameld. Deze anonymization wordt uitgevoerd voorafgaand aan om het even welke verwerking van het IP adres, met inbegrip van vóór een facultatieve geo-raadpleging van het IP adres.
+Adobe heeft een nieuwe &quot;privacy-door-ontwerp&quot;instelling ontwikkeld die door de Zorg van de Cliënt van Adobe voor Adobe Target kan worden toegelaten. Wanneer dit het plaatsen wordt toegelaten, wordt het laatste octet (het laatste gedeelte) van het IP adres onmiddellijk verborgen wanneer het IP adres door Adobe wordt verzameld. Deze anonymization wordt uitgevoerd voorafgaand aan om het even welke verwerking van het IP adres, met inbegrip van vóór een facultatieve geo-raadpleging van het IP adres.
 
-Wanneer deze eigenschap wordt toegelaten, wordt het IP adres gemaakt voldoende anoniem zodat is het niet meer identificeerbaar als persoonlijke informatie. Als gevolg hiervan kan Adobe Target worden gebruikt in overeenstemming met de privacywetgeving voor gegevens in landen die het verzamelen van persoonlijke gegevens niet toestaan. Het verkrijgen van informatie op het niveau van de stad zal waarschijnlijk aanzienlijk worden beïnvloed door de verduistering van het IP-adres. Het verkrijgen van informatie op regionaal en nationaal niveau mag slechts enigszins worden beïnvloed.
+Wanneer deze eigenschap wordt toegelaten, wordt het IP adres gemaakt voldoende anoniem zodat is het niet meer identificeerbaar als persoonlijke informatie. Als gevolg hiervan kan Adobe Target worden gebruikt in overeenstemming met de wetgeving inzake de privacy van gegevens in landen die het verzamelen van persoonsgegevens niet toestaan. Het verkrijgen van informatie op het niveau van de stad zal waarschijnlijk aanzienlijk worden beïnvloed door de verduistering van het IP-adres. Het verkrijgen van informatie op regionaal en nationaal niveau mag slechts enigszins worden beïnvloed.
 
 De volgende instellingen zijn beschikbaar:
 
@@ -35,11 +39,11 @@ Het doel ontvangt het volledige IP adres en verduistert het (als reeks aan Laats
 
 >[!NOTE]
 >
->[Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van Adobe om te bepalen welke instelling u momenteel gebruikt of om de functie voor IP-verduistering in te schakelen.
+>[De Zorg](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van de Cliënt van het contact Adobe om te bepalen welke het plaatsen u momenteel gebruikt of om de IP verduisteringseigenschap toe te laten.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
-Als u de vervanging van het laatste octet van het IP adres toelaat, kunnen de resterende waarden van het IP adres worden geanalyseerd gebruikend rapporten in het Doel van Adobe. Als het laatste octet van het IP adres niet verduisterd is, dan kan het volledige IP adres in het Doel van Adobe worden geanalyseerd. Met de functie GeoSegmentation kunt u de locatie van de bezoeker per geografisch gebied in kaart brengen. GeoSegmentation-gegevens zijn alleen granulair voor het niveau van de stad of postcode, en niet voor het individuele niveau.
+Als u de vervanging van het laatste octet van het IP adres toelaat, kunnen de resterende waarden van het IP adres worden geanalyseerd gebruikend rapporten in Adobe Target. Als het laatste octet van het IP adres niet verduisterd is, dan kan het volledige IP adres in Adobe Target worden geanalyseerd. Met de functie GeoSegmentation kunt u de locatie van de bezoeker per geografisch gebied in kaart brengen. GeoSegmentation-gegevens zijn alleen granulair voor het niveau van de stad of postcode, en niet voor het individuele niveau.
 
 Als IP de adressen volledig verduisterd zijn, is GeoSegmentation en geo het richten niet beschikbaar.
 
@@ -58,4 +62,4 @@ Zelfs als u een eersteklas cookie-implementatie gebruikt, wordt de opgegeven opt
 
 ## Regels inzake privacy en gegevensbescherming
 
-Zie [Privacy en gegevensbeschermingsverordeningen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) voor informatie over de Algemene Verordening van de Europese Unie van de Bescherming van Gegevens (GDPR), de Wet van de Consumentenprivacy van Californië (CCPA), en andere internationale privacyvereisten, en hoe deze verordeningen uw organisatie en Adobe Target beïnvloeden.
+Zie de [privacy- en gegevensbeschermingsregels](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) voor informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
