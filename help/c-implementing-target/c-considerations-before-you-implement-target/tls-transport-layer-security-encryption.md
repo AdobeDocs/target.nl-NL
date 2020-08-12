@@ -1,20 +1,24 @@
 ---
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
-description: Informatie over veranderingen in hoe Adobe en het Doel TLS (de Veiligheid van de Laag van het Vervoer) gebruiken om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
+description: Informatie over veranderingen in hoe Adobe en het Gebruik van het Doel TLS (de Veiligheid van de Laag van het Vervoer) om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
 title: De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)
+feature: null
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1233'
+ht-degree: 0%
 
 ---
 
 
 # De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer){#tls-transport-layer-security-encryption-changes}
 
-Informatie over veranderingen in hoe Adobe en het Doel van Adobe TLS (de Veiligheid van de Laag van het Vervoer) gebruiken om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
+Informatie over veranderingen in hoe Adobe en Adobe Target TLS (de Veiligheid van de Laag van het Vervoer) gebruiken om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
 
-De Veiligheid van de Laag van het vervoer (TLS) is het wijdst opgestelde veiligheidsprotocol dat vandaag voor Webbrowsers en andere toepassingen wordt gebruikt die gegevens vereisen om veilig over een netwerk worden geruild. Adobe heeft normen voor beveiligingscompatibiliteit die het einde van de levensduur van oudere protocollen vereisen en die het gebruik van TLS 1.2 verplicht stellen om de meest actuele en veilige versie in gebruik te hebben.
+De Veiligheid van de Laag van het vervoer (TLS) is het wijdst opgestelde veiligheidsprotocol dat vandaag voor Webbrowsers en andere toepassingen wordt gebruikt die gegevens vereisen om veilig over een netwerk worden geruild. Adobe beschikt over normen voor beveiligingscompatibiliteit die het einde van de levensduur van oudere protocollen vereisen en die het gebruik van TLS 1.2 verplicht stellen om de meest actuele en veilige versie in gebruik te hebben.
 
 >[!IMPORTANT]
 >
@@ -36,7 +40,7 @@ Hoewel wij iedereen ten zeerste adviseren om op TLS 1.2 vooruit te zijn, als u e
 
 ## Levering van activiteiten {#section_46CA5943E4354B259014C2BF340AECD6}
 
-Vanaf 1 maart 2020 ondersteunen doelservers TLS 1.1 niet meer. Met deze wijziging accepteren de doelservers geen aanvragen meer van bezoekers met oudere apparaten of webbrowsers die geen TLS 1.2 (of hoger) ondersteunen. Als gevolg hiervan ontvangen oudere apparaten en browsers die alleen TLS 1.1 ondersteunen (of standaard TLS 1.1 ondersteunen) geen activity-inhoud van Adobe Target. De standaardinhoud van de site wordt weergegeven.
+Vanaf 1 maart 2020 ondersteunen doelservers TLS 1.1 niet meer. Met deze wijziging accepteren de doelservers geen aanvragen meer van bezoekers met oudere apparaten of webbrowsers die geen TLS 1.2 (of hoger) ondersteunen. Hierdoor ontvangen oudere apparaten en browsers die alleen TLS 1.1 ondersteunen (of standaard TLS 1.1 ondersteunen) geen inhoud met activiteiten van Adobe Target. De standaardinhoud van de site wordt weergegeven.
 
 Tot de oudere apparaten en browsers die worden beïnvloed behoren:
 
@@ -56,7 +60,7 @@ Overweeg het volgende terwijl u deze wijziging wilt uitvoeren (de deadline van 1
 
 Zie [Ondersteunde browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)voor meer informatie over ondersteunde browsers en hun versies.
 
-## Adobe Target-API&#39;s {#section_88797FA5434049EC89F908853CC76903}
+## Adobe Target API&#39;s {#section_88797FA5434049EC89F908853CC76903}
 
 Vanaf 1 maart 2020 bieden doel-API&#39;s geen ondersteuning meer voor TLS 1.1-codering. Klanten die toegang hebben tot de API moeten controleren of dit geen gevolgen heeft.
 
@@ -64,7 +68,7 @@ Vanaf 1 maart 2020 bieden doel-API&#39;s geen ondersteuning meer voor TLS 1.1-co
 * API-clients die Java 8 gebruiken, moeten niet worden beïnvloed omdat de standaardinstelling TLS 1.2 is.
 * API-clients die andere frameworks gebruiken, moeten contact opnemen met hun leveranciers voor meer informatie over TLS 1.2-ondersteuning.
 
-## Toegang tot de interfaces van de Oplossingen van de Wolk {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Toegang tot Experience Cloud Solutions-interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Omdat voor de interface Target Standard/Premium al een [moderne webbrowser](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)is vereist, zijn er geen problemen te verwachten. Als u geen verbinding kunt maken met Target, moet u de browser upgraden naar de meest recente versie.
 
