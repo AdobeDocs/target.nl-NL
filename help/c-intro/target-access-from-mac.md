@@ -1,47 +1,48 @@
 ---
 keywords: Experience Cloud;sign in
-description: Instructies voor toegang tot Adobe Target via de Adobe Experience Cloud.
-title: Toegang tot doel via de Adobe Experience Cloud
+description: Instructies voor toegang tot Adobe Target vanuit de Adobe Experience Cloud.
+title: Toegangsdoel van de Adobe Experience Cloud
 subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 0%
 
 ---
 
 
-# Toegang tot doel via de Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Toegangsdoel van de Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
 
 Informatie over toegang [!DNL Adobe Target] van [!DNL Adobe Experience Cloud], het plaatsen van uw standaard het landen pagina, en het veranderen van de taal van het [!DNL Target] gebruikersinterface.
 
 ## Aanmelden bij Adobe Target en de standaardweergave instellen
 
-1. Nadat u zich hebt aangemeld [!DNL Experience Cloud], klikt u op het pictogram App op de navigatiebalk.
+1. Meld u aan bij de [Adobe Experience Cloud](https://experience.adobe.com/).
+
+1. Klik op de **[!UICONTROL App icon]** navigatiebalk en klik vervolgens op **[!UICONTROL Target]**.
+
+   U kunt ook op het [!DNL Target] deelvenster in het hoofdvenster klikken om toegang te krijgen tot [!DNL Target] (of tot een andere [!DNL Adobe Experience Cloud] oplossing waartoe u toegang hebt).
 
    ![toepassingspictogram](/help/c-intro/assets/appmenu-new.png)
 
-1. Klik op het [!DNL Target] pictogram in het menu App.
-
-   ![Doelpictogram](/help/c-intro/assets/appmenu-target-new.png)
-
-1. Klik op **[!UICONTROL Starten]** op de [!DNL Target] kaart.
-
-   ![Doellancering](/help/c-intro/assets/target-launch-new.png)
-
-1. (Optioneel) Als u [!DNL Target] als standaardweergave wilt instellen wanneer u zich aanmeldt bij de [!DNL Experience Cloud], klikt u op Profiel **** bewerken onder de profielavatar en stelt u de voorkeur voor de bestemmingspagina in.
+1. (Optioneel) Als u wilt instellen [!DNL Target] als de standaardweergave wanneer u zich aanmeldt bij de [!DNL Experience Cloud], klikt u **[!UICONTROL Edit Profile]** onder de profielavatar en stelt u de voorkeur voor de bestemmingspagina in.
 
    ![Openingspagina](/help/c-intro/assets/pagepref-new.png)
 
 ## De standaardtaal voor de doelinterface wijzigen {#language}
 
-1. Nadat u zich hebt aangemeld bij de [!DNL Adobe Experience Cloud ] of [!DNL Target], klikt u op de profielavatar en vervolgens op Profiel **** bewerken.
+1. Nadat u zich hebt aangemeld bij de [!DNL Adobe Experience Cloud ] of [!DNL Target], klikt u op de profielavatar en vervolgens op **[!UICONTROL Edit Preferences]**.
 
    ![Profiel bewerken](/help/c-intro/assets/change-language.png)
 
-1. Klik op Persoonlijke gegevens **[!UICONTROL bewerken]**.
+1. Klik **[!UICONTROL Adobe Account]** om uw [!DNL Adobe] profiel te openen.
 
-1. Klik op het tabblad **[!UICONTROL Communicatie]** in de bovenste menubalk.
+   ![Adobe-account](/help/c-intro/assets/adobe-account.png)
+
+1. Klik op het **[!UICONTROL Notifications]** tabblad in de bovenste menubalk en klik vervolgens op het **[!UICONTROL Preferences]** tabblad aan de linkerkant.
 
    ![Voorkeurstalen](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ Informatie over toegang [!DNL Adobe Target] van [!DNL Adobe Experience Cloud], h
 
 1. Selecteer de eerste (primaire) taal en selecteer desgewenst een tweede taal.
 
-   De [!DNL Target] gebruikersinterface is beschikbaar in de volgende talen:
+   De [!DNL Target] gebruikersinterface is beschikbaar in de volgende talen: hoewel de kennisgevingen in meer talen beschikbaar zijn :
 
    * Engels
    * Spaans
@@ -62,13 +63,13 @@ Informatie over toegang [!DNL Adobe Target] van [!DNL Adobe Experience Cloud], h
    * Traditioneel Chinees
    * Koreaans
 
-1. Klik op **[!UICONTROL Opslaan]**.
+1. Klik op **[!UICONTROL Save]**.
 
 1. Log uit [!DNL Adobe Experience Cloud] of [!DNL Target], dan login opnieuw voor uw veranderingen om van kracht te worden.
 
 ## Taal wijzigen voor de documentatie van het doelproduct {#doc-lang}
 
-Uw besturingssysteem- of browserinstellingen moeten de voorkeurstaal detecteren en de documentatie in die taal weergeven (indien beschikbaar). De doeldocumentatie wordt automatisch vertaald en zal in synchronisatie met de Engelse versie binnen uren van veranderingen aan Engelse documentatie zijn aangebracht.
+Uw besturingssysteem- of browserinstellingen moeten de voorkeurstaal detecteren en de documentatie in die taal weergeven (indien beschikbaar). [!DNL Target] De documentatie wordt automatisch vertaald en zal in synchronisatie met de Engelse versie binnen uren van veranderingen in de Engelse documentatie zijn aangebracht.
 
 U kunt de taal snel wijzigen in de originele Engelse versie door op de koppeling in de koptekst van de pagina te klikken.
 
@@ -91,14 +92,14 @@ De [!DNL Target] documentatie is beschikbaar in de volgende talen:
 * Traditioneel Chinees
 * Koreaans
 
-## Trainingsvideo: Adobe Target in de Experience Cloud (4:59) - ![overzichtsbadge](/help/assets/overview.png)
+## Trainingsvideo: Adobe Target in de Experience Cloud (4:59) ![overzichtsbadge](/help/assets/overview.png)
 
 Deze video bevat informatie over [!DNL Adobe Target] de video [!DNL Experience Cloud].
 
 * Beschrijf en begrijp de waarde van de Adobe Experience Cloud
-* Meld u aan bij Adobe Experience Cloud met uw Adobe-id of maak een Adobe-id
-* Nieuwe gebruiker uitnodigen voor de Adobe Experience Cloud
+* Meld u aan bij de Adobe Experience Cloud met uw Adobe ID of maak een Adobe ID
+* Nieuwe gebruiker uitnodigen voor Adobe Experience Cloud
 * Uw doelaccount koppelen aan de Adobe Experience Cloud
-* Adobe Target instellen als de standaardbestemmingspagina
+* Adobe Target instellen als de standaard openingspagina
 
 >[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
