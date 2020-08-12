@@ -1,28 +1,32 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: U kunt voorvertonings-URL's genereren voor 'Target Automated Personalization'-activiteiten, zodat u direct op uw site kunt zien hoe u ervaring hebt met inhoud voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL's en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
-title: Voorvertoning van geautomatiseerde personalisatieactiviteiten weergeven met voorbeeld-URL's
+description: U kunt voorvertonings-URL's genereren voor Target Automated Personalization-activiteiten, zodat u direct op uw site inhoud kunt zien voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL's en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
+title: Automated Personalization-activiteiten voorvertonen met voorbeeld-URL's
+feature: null
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview Automated Personalization activities with Experience preview URLs{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUM](/help/assets/premium.png) Preview Automated Personalization-activiteiten met voorbeeld-URL&#39;s{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
-U kunt voorvertonings-URL&#39;s genereren voor &#39;Target Automated Personalization&#39;-activiteiten, zodat u direct op uw site kunt zien hoe u ervaring hebt met inhoud voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL&#39;s en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
+U kunt voorvertonings-URL&#39;s genereren voor Target Automated Personalization-activiteiten, zodat u direct op uw site inhoud kunt zien voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL&#39;s en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
 
 >[!NOTE]
 >
->De voorproef URLs van de ervaring voor Geautomatiseerde Personalisatie verschilt van de wijze van de QA van de Activiteit. Met de modus Activiteit-QA kunt u Activiteiten-URL&#39;s maken voor andere typen activiteiten. Zie [Activiteit QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)voor meer informatie.
+>De voorvertoning-URL&#39;s voor Automated Personalization verschillen van de modus Activiteit-QA. Met de modus Activiteit-QA kunt u Activiteiten-URL&#39;s maken voor andere typen activiteiten. Zie [Activiteit QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)voor meer informatie.
 >
 >De voorproef URLs van de ervaring voor AP activiteiten zijn slechts beschikbaar wanneer het gebruiken van at.js 1.x. De voorproef URLs van de ervaring voor AP activiteiten wordt momenteel niet gesteund voor at.js 2.x.
 
 Gebruik de ervaring voorproef URLs om ervaringen met teamleden en aan ervaring van QA over browsers en milieu&#39;s te delen, zonder een afzonderlijke activiteit van QA te creëren. Deze functie is vooral handig als een site complex is of als het beveiligingsbeleid het niet toestaat dat de site in een simulator wordt weergegeven.
 
-1. Maak een [automatische personalisatieactiviteit](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) of klik op de activiteit om deze te openen.
+1. Maak een [Automated Personalization-activiteit](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) of klik op de activiteit om deze te openen.
 
    De activiteit hoeft niet live te zijn voor een voorvertoning van een ervaring.
 1. Klik op de overzichtspagina van de activiteit op de drie verticale punten en klik vervolgens **[!UICONTROL View Experience URLs]**.
@@ -30,6 +34,7 @@ Gebruik de ervaring voorproef URLs om ervaringen met teamleden en aan ervaring v
 
    * Als u Composer van de Visuele Ervaring gebruikt, wordt het gebrek URL u voor de activiteit specificeerde automatisch ingegaan en een verbinding wordt geproduceerd voor elke ervaring in uw activiteit. U kunt deze URL wijzigen en desgewenst andere URL&#39;s toevoegen.
    * Als u de Form-Based Experience Composer gebruikt, wordt er niet automatisch een standaard-URL ingevoerd. Als u nog geen URL&#39;s met voorvertoningen hebt gemaakt, klikt u op Nieuwe URL **** toevoegen. U moet alle URL&#39;s opgeven die u wilt voorvertonen, en een naam voor elke URL.
+
    U kunt meerdere URL&#39;s toevoegen. Dit is handig wanneer u een test met meerdere pagina&#39;s of een sjabloontest uitvoert en u de activiteit op meerdere pagina&#39;s wilt voorvertonen.
 
    Een modaal venster toont verbindingen aan uw ervaringen op uw plaats om een &quot;ware voorproef&quot;van de ervaringen buiten Composer van de Visuele Ervaring van het Doel te krijgen. U moet de koppelingen vanuit het bericht delen om de voorvertoning te kunnen delen. Het klikken van een verbinding en dan het kopiëren van resulterende URL van de pagina zal niet werken omdat URL een parameter bevat die slechts de pagina correct toont wanneer u tot de pagina van de verbinding in het bericht toegang hebt. Kopieer in plaats daarvan de tekst in het modale venster en e-mail de hele tekst naar uw team.
