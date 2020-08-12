@@ -1,10 +1,14 @@
 ---
 keywords: Targeting;audience filter;audiences;filter
-description: Poortfilters in Adobe Target (of doelgroepen) zijn groepen bezoekers die een specifieke eigenschap of reeks kenmerken delen.
+description: Poortfilters in Adobe Target (of publiek) zijn groepen bezoekers die een specifieke eigenschap of een reeks kenmerken delen.
 title: Auditiefilters voor rapportage in Adobe Target
+feature: null
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '482'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +37,6 @@ In de volgende secties vindt u meer informatie over het instellen en rapporteren
 | Maak de gewenste activiteit of test. | [Activiteiten en tests](/help/c-intro/target-key-concepts.md) |
 | Maak zo nodig publiek. | [Een publiek maken](/help/c-target/c-audiences/create-audience.md) |
 | Combineer indien nodig meerdere soorten publiek. | [Meerdere soorten publiek combineren](/help/c-target/combining-multiple-audiences.md) |
-| Pas een publiek toe op de pagina Doelstellingen en instellingen van de activiteit. | A/B-test: [Doelstellingen en](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>SettingsAutomated Personalization:  [Automated](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Personalization Experience Targeting: [Doelstellingen en](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>InstellingenMeervoudige test:  [Doelen en](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>SettingsRecommendations: Instellingen voor [activiteit](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>van aanbevelingenActiviteitsinstellingen: [Activiteitsinstellingen](/help/c-activities/activity-settings.md) |
+| Pas een publiek toe op de pagina Doelstellingen en instellingen van de activiteit. | A/B-test: [Doelstellingen en](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>instellingenAutomatisch aanpassen:  [Geautomatiseerde](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>personalisatieErvaring gericht op: [Doelstellingen en](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>instellingenMeervoudige test:  [Doelen en aanbevelingen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>voor instellingen: [Recommendations activity](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>settingsActivity Settings: [Activiteiteninstellingen](/help/c-activities/activity-settings.md) |
 | Rapporten weergeven met informatie over uw publieksfilters. | [Rapportinstellingen](/help/c-reports/c-report-settings/report-settings.md) |
 
