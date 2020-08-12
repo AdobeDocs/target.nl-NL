@@ -2,11 +2,15 @@
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: De JavaScript targetPageParams functie wordt gebruikt om parameters tot globale mbox over te gaan. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context aan het doel moet worden doorgegeven.
 title: Parameters doorgeven aan een globale box
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 De JavaScript targetPageParams functie wordt gebruikt om parameters tot globale mbox over te gaan. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context aan het doel moet worden doorgegeven.
 
-In een activiteit van Aanbevelingen gebruikt u bijvoorbeeld de parameters om het huidige product of de categorie te vertegenwoordigen die wordt weergegeven.
+In een Recommendations-activiteit gebruikt u bijvoorbeeld de parameters om het huidige product of de categorie te vertegenwoordigen die wordt weergegeven.
 
 De code die de JavaScript-functie moet aanroepen, moet vóór het globale vakje op de pagina komen, ongeacht of het globale vakje als onderdeel van mbox.js is geactiveerd of handmatig in de paginacode is opgenomen.
 
@@ -39,7 +43,7 @@ U moet de JavaScript-functie definiëren voordat u het globale vakje aan de pagi
 p1=v1&p2=v2&p3=hello%20world
 ```
 
-* Naam: `targetPageParams`
+* Name: `targetPageParams`
 * Retourwaarde: a &quot;&amp;&quot; gescheiden parameters, met URL gecodeerde parameterwaarden.
 
    Voorbeeld:
