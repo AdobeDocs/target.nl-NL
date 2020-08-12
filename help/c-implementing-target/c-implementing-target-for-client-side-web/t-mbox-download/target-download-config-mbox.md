@@ -1,12 +1,13 @@
 ---
 keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
-description: Target Standard en Premium gebruiken een gewijzigde versie van het bestand Adobe Target mbox.js.
+description: De Standaard en Premium van het doel gebruiken een gewijzigde versie van het Adobe Target mbox.js- dossier.
 title: mbox.js downloaden
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # mbox.js downloaden{#download-mbox-js}
 
-Target Standard en Premium gebruiken een gewijzigde versie van het bestand Adobe Target mbox.js.
+De Standaard en Premium van het doel gebruiken een gewijzigde versie van het Adobe Target mbox.js- dossier.
 
 Als u het [!DNL Adobe Target] bestand wilt gebruiken, moet u een extra regel JavaScript in het [!UICONTROL Visual Experience Editor][!DNL mbox.js] bestand opnemen.
 
