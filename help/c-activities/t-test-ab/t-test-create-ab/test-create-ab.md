@@ -2,10 +2,14 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Gebruik de Visuele Composer van de Ervaring in Doel om uw test direct op een doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
 title: Een A/B-test maken
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 0%
 
 ---
 
