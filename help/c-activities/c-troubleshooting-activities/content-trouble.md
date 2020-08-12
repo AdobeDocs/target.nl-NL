@@ -2,11 +2,12 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Als op de pagina de verwachte inhoud niet wordt weergegeven, kunt u een aantal stappen uitvoeren om fouten op te sporen in de levering van inhoud in Adobe Target.
 title: Problemen met de levering van inhoud in Adobe Target oplossen
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Als op de pagina de verwachte inhoud niet wordt weergegeven, zijn er een paar st
 
 * Controleer uw activiteit of campagnecode zorgvuldig. Een typefout of andere fout kan ertoe leiden dat de verwachte inhoud niet wordt weergegeven.
 * Gebruik mboxTrace of mboxDebug om het [!DNL Target] verzoek problemen op te lossen.
-* Gebruik Adobe Experience Cloud Debugger, een gebruiksvriendelijk hulpprogramma dat veel van dezelfde informatie biedt als mboxDebug, om problemen met de [!DNL Target] aanvraag op te lossen.
+* Gebruik Foutopsporing van Adobe Experience Cloud, een makkelijk te gebruiken hulpmiddel dat veel van de zelfde informatie zoals mboxDebug verstrekt, om het [!DNL Target] verzoek problemen op te lossen.
 
 mboxDebug is vooral handig wanneer u [!DNL Target] op de pagina instelt om te controleren of de [!DNL Target] aanvraag wordt geactiveerd en het cookie wordt ingesteld. Nochtans, gaat het niet in het soort detail dat wanneer het zuiveren van inhoudslevering nuttig is. Als uw activiteit niet op uw pagina verschijnt of ongewenste inhoud verschijnt, gebruik mboxTrace om de pagina in detail te onderzoeken en te zuiveren.
 
@@ -65,9 +66,9 @@ Sommige informatie omvat overeenkomende en niet-overeenkomende segment- en doel-
 * **Niet-overeenkomend**: Het verzoek kwam in deze oproep niet in aanmerking voor die segmenten of doelstellingen.
 * **Overeenkomend**: Het verzoek wordt gekwalificeerd voor de gespecificeerde segmenten of de doelstellingen.
 
-**MboxTrace gebruiken op pagina**&#39;s met aanbevelingen: Als u mboxTrace toevoegt als een queryparameter op pagina&#39;s met aanbevelingen, wordt het ontwerp met aanbevelingen op de pagina vervangen door een venster met mboxTrace-details, dat uitgebreide informatie over uw aanbevelingen weergeeft, zoals:
+**MboxTrace gebruiken op Recommendations-pagina**&#39;s: Als u mboxTrace toevoegt als een queryparameter op pagina&#39;s met aanbevelingen, wordt het Recommendations-ontwerp op de pagina vervangen door een venster met mboxTrace-details, dat uitgebreide informatie over uw aanbevelingen bevat, zoals:
 
-* Geretourneerde aanbevelingen versus gevraagde aanbevelingen
+* Recommendations heeft vs. aanbevelingen opgevraagd
 * De gebruikte sleutel en of het aanbevelingen produceert
 * Door criteria gegenereerde aanbevelingen versus aanbevelingen voor back-ups
 * Criteria configureren
@@ -76,7 +77,7 @@ Sommige informatie omvat overeenkomende en niet-overeenkomende segment- en doel-
 
 U te hoeven niet om, `=console`of `=json``=window` in de vraagparameter op te nemen. Wanneer u met de details mboxTrace wordt gedaan, voeg toe `=disable` en druk **[!UICONTROL Enter]** om op de normale vertoningswijze terug te komen.
 
-Het normale functioneren en de vormgeving van uw site worden niet beïnvloed door mboxTrace. Bezoekers zien het ontwerp van uw gebruikelijke aanbevelingen.
+Het normale functioneren en de vormgeving van uw site worden niet beïnvloed door mboxTrace. Bezoekers zien je reguliere Recommendations-ontwerp.
 
 ## mboxDebug {#mboxdebug}
 
@@ -88,12 +89,12 @@ Als u mboxDebug wilt gebruiken, voegt u een parameter mboxDebug toe aan het eind
 
 | URL-parameters | Doel |
 |--- |--- |
-| `mboxDebug=1` | <br>FoutopsporingAls u deze parameter toevoegt aan een URL waarvoor Target-verzoeken zijn gedefinieerd, wordt een pop-upvenster geopend met waardevolle foutopsporingsgegevens. De informatie van het cookie, de waarden van PCid en van identiteitskaart van de Zitting worden weggeschreven, en alle URLs zijn zichtbaar. Klik op een Target request-URL om het antwoord voor die [!DNL Target] aanvraag weer te geven. Meer details zijn beschikbaar in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | <br>FoutopsporingAls u deze parameter toevoegt aan een URL waarvoor Target-aanvragen zijn gedefinieerd, wordt een pop-upvenster geopend met waardevolle foutopsporingsgegevens. De informatie van het cookie, de waarden van PCid en van identiteitskaart van de Zitting worden weggeschreven, en alle URLs zijn zichtbaar. Klik op een aanvraag-URL van het doel om het antwoord voor die [!DNL Target] aanvraag weer te geven. Meer details zijn beschikbaar in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Het cookie wijzigen |
 | `mboxDisable=1` | Vakken op de pagina uitschakelen |
 | `mboxDebug=x-profile` | Profielenset weergeven. |
 | `mboxDebug=x-time` | Responstijd voor elk [!DNL Target] verzoek tonen |
-| `mboxOverride.browserIp=<Insert IP address>` | Test<br>geotargetingTest-oriëntatie met deze URL-parameter. Typ een IP adres als waarde voor dit attribuut, en test&amp;Target het groeperen evalueert dat IP adres aan gelijke tegen om het even welke geotargeting of segmentatie die in een campagne wordt geplaatst. |
+| `mboxOverride.browserIp=<Insert IP address>` | Test<br>geotargetingTest-oriëntatie met deze URL-parameter. Typ een IP adres als waarde voor dit attribuut, en het groeperen van Test&amp;Target evalueert dat IP adres tegen om het even welke geotargeting of segmentatie die in een campagne wordt geplaatst aan te passen. |
 
 >[!NOTE]
 >
@@ -101,17 +102,17 @@ Als u mboxDebug wilt gebruiken, voegt u een parameter mboxDebug toe aan het eind
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk inzicht krijgen in uw Target-implementatie. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van Target onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel MboxTrace gebruiken om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
+Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van het Doel onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel MboxTrace gebruiken om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
 
 Zie de volgende trainingsvideo&#39;s voor meer informatie:
 
-Zie [Foutopsporing in.js met Adobe Experience Cloud voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Voor meer gedetailleerde informatie, zie [Debug at.js gebruikend debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)van Adobe Experience Cloud.
 
 ## Als target.js tijdens levering niet kan laden {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
-Mbox.js verzendt een koekje genoemd &quot;em-gehandicapt&quot;naar de bezoeker als target.js er niet in slaagt om tijdens levering te laden. Dit koekje verhindert aanbiedingen die gebruikend de Visuele Composer van de Ervaring worden gecreeerd op de plaats terug te geven. Bezoekers met dit cookie zien de testinhoud niet en worden niet meegeteld in die activiteitenrapporten. Alle andere aanbiedingsinhoud (bijvoorbeeld van campagnes in Target Classic) wordt verder geladen. De cookie heeft een levensduur van 30 minuten vanaf het moment dat het laden mislukt.
+Mbox.js verzendt een koekje genoemd &quot;em-gehandicapt&quot;naar de bezoeker als target.js er niet in slaagt om tijdens levering te laden. Dit koekje verhindert aanbiedingen die gebruikend de Visuele Composer van de Ervaring worden gecreeerd op de plaats terug te geven. Bezoekers met dit cookie zien de testinhoud niet en worden niet meegeteld in die activiteitenrapporten. Alle andere aanbiedingsinhoud (bijvoorbeeld uit campagnes in Target Classic) wordt verder geladen. De cookie heeft een levensduur van 30 minuten vanaf het moment dat het laden mislukt.
 
-## Topverkopers worden niet weergegeven in Aanbevelingen {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Topverkopers worden niet weergegeven in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 De *`SiteCatalyst: purchase`* vraag kan niet voor de gegevens van het het algoritmeverkeer van de Aankoop worden gebruikt. Gebruik in plaats hiervan de *`orderConfirmPage`* aanroep.
 
@@ -121,7 +122,7 @@ Op vorm-gebaseerde activiteiten die met worden gecreeerd [!DNL Target Standard/P
 
 ## De code van de douane veroorzaakt niet de verwachte resultaten in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
-Target biedt geen ondersteuning meer voor IE 8.
+Doel biedt geen ondersteuning meer voor IE 8.
 
 ## JavaScript-inhoud die door de algemene [!DNL Target] aanvraag wordt geleverd, wordt niet geladen wanneer u mbox.js gebruikt. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
@@ -129,15 +130,15 @@ Voer een upgrade uit naar [!DNL mbox.js] versie 58 of hoger.
 
 mbox.js versie 58 en hoger voert niet-JavaScript-inhoud voor de algemene [!DNL Target] aanvraag direct uit nadat de HTML- `BODY` tag aanwezig is. JavaScript-inhoud binnen `<script>` tags voor de algemene [!DNL Target] aanvraag wordt uitgevoerd nadat de `DOMContentLoaded` gebeurtenis is geactiveerd. Deze volgorde waarin de inhoud wordt geleverd, zorgt ervoor dat JavaScript-inhoud voor de algemene [!DNL Target] aanvraag op de juiste wijze wordt geleverd en weergegeven.
 
-## Target Cookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Doel cookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Als uw site een subdomein heeft, zoals [!DNL us.domain.com], maar u hebt de Target cookie ingesteld [!DNL domain.com] (in plaats van [!DNL us.domain.com]), moet u de `cookieDomain` instelling overschrijven. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)voor meer informatie.
+Als uw site een subdomein heeft, zoals [!DNL us.domain.com], maar u hebt de doelcookie ingesteld [!DNL domain.com] (in plaats van [!DNL us.domain.com]), moet u de `cookieDomain` instelling overschrijven. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)voor meer informatie.
 
-## Target-inhoud flikkert of wordt niet weergegeven als een element ook onderdeel is van AEM-personalisatie. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## De inhoud van het doel flikkert of wordt niet getoond als een element ook deel van AEM verpersoonlijking uitmaakt. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-Als een DOM-element onderdeel is van een Adobe Experience Manager (AEM) voor personalisatie en een Target-activiteit, kan de Target-inhoud flikkeren of niet worden weergegeven.
+Als een DOM-element onderdeel is van Adobe Experience Manager (AEM) personalization targeting en een doelactiviteit, kan de doelinhoud flikkeren of niet worden weergegeven.
 
-Om dit te verhelpen, kunt u de personalisatie van AEM op pagina&#39;s onbruikbaar maken waarop Target loopt.
+U verhelpt dit door AEM personalisatie uit te schakelen op pagina&#39;s waarop Target wordt uitgevoerd.
 
 ## Omleiding en aanbiedingen op afstand kunnen niet worden geleverd vanwege een ongeldige URL. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -151,9 +152,9 @@ Voor externe aanbiedingen kan de [!DNL Target] reactie `/* invalid remote offer 
 
 U kunt de [!DNL Target] reactie controleren in browser of mboxTrace gebruiken. Surf naar [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) voor meer informatie over geldige URL&#39;s.
 
-## Target-verzoeken vuren niet op mijn site.
+## Doelverzoeken worden niet op mijn site geactiveerd.
 
-at.js leidt geen Target-aanvragen in als u een ongeldig documenttype gebruikt. at.js vereist het HTML 5-documenttype.
+at.js leidt geen verzoeken van het Doel in brand als u een ongeldig documenttype gebruikt. at.js vereist het HTML 5-documenttype.
 
 ## Trainingsvideo&#39;s
 
