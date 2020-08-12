@@ -1,11 +1,15 @@
 ---
 keywords: system update;troubleshooting;maintenance;system status;update status
-description: Op de statuspagina van Adobe System kunt u de status van Adobe-producten en Experience Cloud-oplossingen, waaronder Target, bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
+description: Gebruik de pagina van de Status van het Systeem van de Adobe om de status van de producten van de Adobe en van de Experience Cloud oplossingen, met inbegrip van Doel te bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
 title: Systeemstatusupdates
+feature: null
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 0%
 
 ---
 
