@@ -1,10 +1,14 @@
 ---
 keywords: Target;reports;report settings;multiple metrics;metrics
-description: Selecteer meerdere meetgegevens die u in een rapport wilt weergeven met Adobe Target.
+description: Selecteer veelvoudige metriek aan mening in een rapport gebruikend Adobe Target.
 title: Meerdere metriek in een rapport weergeven met Adobe Target
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 0%
 
 ---
 
