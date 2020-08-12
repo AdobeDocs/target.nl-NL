@@ -1,10 +1,14 @@
 ---
 keywords: exclusions
-description: Maak een uitsluitingslijst in Adobe Target om te voorkomen dat items worden aanbevolen.
+description: Maak een uitsluitingslijst in Adobe Target om te voorkomen dat objecten worden aanbevolen.
 title: Uitsluitingen in Adobe Target
+feature: null
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +27,7 @@ Maak een uitsluitingslijst om te voorkomen dat items worden aanbevolen.
 
    ![](assets/exclusions_list.png)
 
-   Het &quot;Aantal Punten&quot;voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening wordt gemeld is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardgroep [van de](/help/administrating-target/hosts.md) gastheer van Aanbevelingen (milieu) aanpassen. Zie [Instellingen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om de standaardhostgroep te wijzigen.
+   Het &quot;Aantal Punten&quot;voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening wordt gemeld is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations [gastheergroep](/help/administrating-target/hosts.md) (milieu) aanpassen die. Zie [Instellingen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om de standaardhostgroep te wijzigen.
 
 1. Klik op **[!UICONTROL Create Exclusion]**.
 
@@ -51,7 +55,7 @@ Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoo
 >
 >De functie Geavanceerd zoeken is niet hoofdlettergevoelig. producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u uitsluitingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een uitzondering maakt met de bedoeling producten die vakantie bevatten, uit te sluiten, worden alleen producten die vakantie bevatten, uitgesloten. Producten die &quot;vakantie&quot; bevatten, zijn niet uitgesloten.
 
-## Trainingsvideo: Verzamelingen en uitsluitingen maken in ![zelfstudievalk met aanbevelingen (7:05)](/help/assets/tutorial.png)
+## Trainingsvideo: Verzamelingen en uitsluitingen maken in Recommendations (7:05) - ![Zelfstudie](/help/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 
