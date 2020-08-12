@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Weergaveproblemen treden soms onder bepaalde omstandigheden op in de Visual Experience Composer (VEC).
 title: Problemen oplossen met betrekking tot Visual Experience Composer
+feature: null
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -16,16 +17,16 @@ ht-degree: 0%
 
 Weergaveproblemen treden soms onder bepaalde omstandigheden op in de Visual Experience Composer (VEC).
 
-## Wanneer ik mijn website in Visual Experience Composer open, laden de bibliotheken van Target niet. (alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Wanneer ik mijn website in de Visuele Composer van de Ervaring open, laden de bibliotheken van het Doel niet. (alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
-Target voegt twee parameters (`mboxEdit=1` en `mboxDisable=1`) toe terwijl het openen van de website in Visual Experience Composer.
+Het doel voegt twee parameters (`mboxEdit=1` en `mboxDisable=1`) toe terwijl het openen van de website in Visual Experience Composer.
 
-Als uw website (met name Apps met één pagina) uw parameters bijsnijdt of deze verwijdert terwijl u van de ene pagina naar de andere navigeert (zonder dat de pagina opnieuw wordt geladen), worden de Target-functies verbroken en worden de Target-bibliotheken niet geladen.
+Als uw website (met name Apps met één pagina) uw parameters bijsnijdt of deze verwijdert terwijl u van de ene pagina naar de andere navigeert (zonder dat de pagina opnieuw wordt geladen), wordt de functie Doel verbroken en worden de doelbibliotheken niet geladen.
 U voorkomt dit probleem door deze twee parameters niet bij te snijden of te verwijderen.
 
 ## Mijn pagina wordt niet geopend in de EEG, of wordt langzaam geladen. Activiteiten of ervaringen laden langzaam in de VEC. (alleen VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
-Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de Target Experience composers. Enkele veelvoorkomende problemen zijn:
+Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de doelervaringscomposers. Enkele veelvoorkomende problemen zijn:
 
 * U hebt geen box op de pagina.
 * Uw site gebruikt proxyblokkering, waardoor de pagina in geen van beide composers kan worden geopend.
@@ -122,4 +123,4 @@ Zorg ervoor dat deze instelling is ingeschakeld en download en werk mbox.js op u
 
 ## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Wanneer het gebruiken doorbladert wijze, als u tot een URL toegang hebt die target.js niet heeft of een kader-busterkopbal bevat, lijkt de Visuele Composer van de Ervaring gebroken. Vanwege beveiligingsproblemen met de browser heeft Target geen toegang tot de URL waarnaar u bent genavigeerd.
+Wanneer het gebruiken doorbladert wijze, als u tot een URL toegang hebt die target.js niet heeft of een kader-busterkopbal bevat, lijkt de Visuele Composer van de Ervaring gebroken. Vanwege beveiligingsproblemen in de browser heeft Target geen toegang tot de URL waarnaar u bent genavigeerd.
