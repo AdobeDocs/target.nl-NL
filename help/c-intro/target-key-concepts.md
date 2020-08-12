@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: Informatie over belangrijke concepten die u helpen de eigenschappen en mogelijkheden van Adobe Target te begrijpen.
 title: Doelsleutelbegrippen
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +27,7 @@ U kunt bijvoorbeeld een activiteit ontwerpen die twee verschillende landingspagi
 
 Wanneer het ontwerpen van een activiteit, zou u zorgvuldig moeten plannen. Bepaal wanneer de activiteit zal beginnen en hoe lang het zal duren. Geef vervolgens een lijst met uw aanbiedingen en wijs een doelgroep toe aan elk aanbod.
 
-Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een overzicht van elk type activiteit met koppelingen voor meer informatie. We hebben ook de [Adobe Target Activity Guide](/help/c-activities/target-activities-guide.md)gemaakt om u te helpen het beste activiteitstype voor uw doeleinden te kiezen.
+Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een overzicht van elk type activiteit met koppelingen voor meer informatie. Om u te helpen het beste type activiteit voor uw doeleinden te kiezen, hebben wij ook de Gids [van de Activiteiten van de](/help/c-activities/target-activities-guide.md)Adobe Target gecreeerd.
 
 | Type activiteit | Beschrijving |
 |--- |--- |
@@ -33,8 +37,8 @@ Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een over
 | [Analytische gegevens](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) gebruiken (A4T) | U kunt een activiteit vormen om als rapporteringsbron te gebruiken [!DNL Adobe Analytics] . Voor dit type activiteit is het vereist dat u uw [!DNL Adobe Experience Cloud] account koppelt aan zowel [!DNL Analytics] als [!DNL Target]. |
 | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft. |
 | [Gericht op ervaring](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.<br>**Opmerking:**U kunt nu[aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md)Experience Targeting. Voor deze functionaliteit is een[Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
-| [Geautomatiseerde](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personalizationTarget Premium](/help/assets/premium.png) | De geautomatiseerde Personalisering (AP) combineert aanbiedingen of berichten, en gebruikt geavanceerd machine leren om verschillende variaties aan elke bezoeker aan te passen die op hun individueel klantenprofiel worden gebaseerd, om inhoud en aandrijvingsomzettingen aan te passen. |
-| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | Een aanbeveling bepaalt hoe een product aan een websitegebruiker wordt voorgesteld, afhankelijk van de activiteiten van die gebruiker op de plaats.<br>U kunt bijvoorbeeld mensen die een rugzak kopen aanmoedigen om wandelschoenen en wandelstokken te kopen. U kunt een aanbeveling maken die items toont die vaak samen worden aangeschaft met het algoritme &quot;Personen die dit hebben gekocht, hebben dat ook gekocht&quot;. U kunt bezoekers ook aanmoedigen om meer tijd te besteden aan uw mediasite door dezelfde video aan te bevelen als de video die ze bekijken. Gebruik hiervoor het algoritme &quot;Personen die dit hebben bekeken&quot;.<br>**Opmerking:**U kunt nu aanbevelingen opnemen in de A/B-test (inclusief Automatische toewijzing en Auto-Target) en de Experience Targeting-activiteiten (XT). Zie[Aanbevelingen als voorstel](/help/c-recommendations/recommendations-as-an-offer.md). |
+| [Geautomatiseerde](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personalizationTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computerleren om verschillende verschillen met elke bezoeker op basis van hun individuele klantprofiel met elkaar in overeenstemming te brengen, om inhoud en schijfconversies aan te passen. |
+| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | Een aanbeveling bepaalt hoe een product aan een websitegebruiker wordt voorgesteld, afhankelijk van de activiteiten van die gebruiker op de plaats.<br>U kunt bijvoorbeeld mensen die een rugzak kopen aanmoedigen om wandelschoenen en wandelstokken te kopen. U kunt een aanbeveling maken die items toont die vaak samen worden aangeschaft met het algoritme &quot;Personen die dit hebben gekocht, hebben dat ook gekocht&quot;. U kunt bezoekers ook aanmoedigen om meer tijd te besteden aan uw mediasite door dezelfde video aan te bevelen als de video die ze bekijken. Gebruik hiervoor het algoritme &quot;Personen die dit hebben bekeken&quot;.<br>**Opmerking:**U kunt nu aanbevelingen opnemen in de A/B-test (inclusief Automatische toewijzing en Auto-Target) en de Experience Targeting-activiteiten (XT). Zie[Recommendations als een voorstel](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Locaties {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -117,7 +121,7 @@ In deze video worden de activiteitstypen uitgelegd die beschikbaar zijn in [!DNL
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Soorten publiek gebruiken in ![overzichtsbadge Adobe Target (6:21)](/help/assets/overview.png)
+### Soorten publiek gebruiken in Adobe Target (6:21) - ![overzichtsbadge](/help/assets/overview.png)
 
 In deze video wordt uitgelegd hoe u het publiek kunt gebruiken in [!DNL Target Standard/Premium].
 
