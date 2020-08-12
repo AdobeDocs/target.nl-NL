@@ -2,9 +2,10 @@
 keywords: Targeting;experience;add experience;experience add
 description: Visual Experience Composer (VEC) in Adobe Target verstrekt een visuele interface voor het uitgeven van de ervaringen op uw pagina.
 title: Ervaring toevoegen
+feature: null
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Zie [Ervaringen](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB
 
    Terwijl u de elementen op de pagina plaatst, worden de elementen gemarkeerd. Om het even welk benadrukt element kan worden veranderd gebruikend Composer van de Ervaring.
 
-   Als u een [!DNL Target] verzoek op de pagina gebruikend Target Classic (vroeger test&amp;Target) creeerde, verschijnt dat [!DNL Target] verzoek als element dat de verzoeknaam toont, en kan als om het even welk ander element worden gewijzigd.
+   Als u een [!DNL Target] verzoek op de pagina gebruikend Klassiek van het Doel (vroeger Test&amp;Doel) creeerde, verschijnt dat [!DNL Target] verzoek als element dat de verzoeknaam toont, en kan als een ander element worden gewijzigd.
 
    Voor een lijst van acties die op een element op de getoonde pagina kunnen worden uitgevoerd om de ervaring te veranderen, zie de Opties [van Composer van de](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)Visuele Ervaring.
 
