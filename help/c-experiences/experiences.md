@@ -2,10 +2,11 @@
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
 description: Een ervaring bepaalt welke inhoud wordt weergegeven wanneer de bezoeker voldoet aan de publiekscriteria voor een activiteit.
 title: Ervaringen en aanbiedingen
+feature: null
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -25,6 +26,6 @@ Doel biedt de volgende ervaringscomposers:
 
 | Type | Details |
 | --- | --- |
-| [Visual Experience Composer (VEC)](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC is een van de belangrijkste eigenschappen van Adobe Target. VEC is een redacteur die marketers en ontwerpers inhoud tot stand brengt en verandert gebruikend een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. Het bewerken van HTML en JavaScript is ook mogelijk met behulp van de bewerkingsopties die beschikbaar zijn in de composer. |
-| [Formuliergebaseerde Experience Composer](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | Met de Form-Based Experience Composer kunt u niet-visuele ervaringen creëren. Deze eigenschap laat StandaardA/B tests van het Doel, Ervaring het richten, Geautomatiseerde Personalisering, en de activiteiten van Aanbevelingen toe die in e-mail, kiosken, en andere plaatsen moeten worden geleverd die niet met een Composer van de Ervaring werken. |
+| [Visual Experience Composer (VEC)](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | De VEC is een van de belangrijkste kenmerken van Adobe Target. VEC is een redacteur die marketers en ontwerpers inhoud tot stand brengt en verandert gebruikend een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. Het bewerken van HTML en JavaScript is ook mogelijk met behulp van de bewerkingsopties die beschikbaar zijn in de composer. |
+| [Formuliergebaseerde Experience Composer](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | Met de Form-Based Experience Composer kunt u niet-visuele ervaringen creëren. Met deze functie kunnen standaard A/B-tests, Experience Targeting, Automated Personalization en Recommendations-activiteiten worden geleverd in e-mails, kiosken en andere plaatsen die niet werken met Visual Experience Composer. |
 | [Single Page Application (SPA) Visual Experience Composer (VEC)](/help/c-experiences/spa-visual-experience-composer.md) | VEC voor SPAs laat marketers toe om tests tot stand te brengen en inhoud op SPAs op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. De VEC kan worden gebruikt om A/B Test en Ervaring gerichte (XT) activiteiten op populaire kaders, zoals React en Hoekig tot stand te brengen. |
