@@ -1,9 +1,13 @@
 ---
 description: Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen.
 title: Gegevens uploaden voor de personalisatiealgoritmen van Target
+feature: null
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
@@ -12,9 +16,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen.
 
-Er zijn verscheidene manieren om gegevens in Geautomatiseerde Persoonlijke (AP) en auto-Doel verpersoonlijkingsalgoritmen in te voeren. Naast de methoden in [Methoden om gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen, worden ook de gedeelde benaderingen van Experience Cloud (Adobe Analytics, Audience Management) en de rapporteringsdoelgroepen in de praktijk gebruikt in onze algoritmen.
+Er zijn verschillende manieren om gegevens in te voeren in Automated Personalization (AP) en Auto-Target verpersoonlijkingsalgoritmen. Naast de methodes in [Methoden om Gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen, worden Experience Cloud gedeeld publiek (Adobe Analytics, het Beheer van het Publiek) en het in-activiteit rapporteringspubliek ook gebruikt in onze algoritmen.
 
-Voor informatie over de gegevens die automatisch door Geautomatiseerde Persoonlijke en Auto-Doel verpersoonlijkingsalgoritmen worden verzameld en worden gebruikt, zie de [Geautomatiseerde Gegevensverzameling](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)van de Aanpassing van de Aanpassing.
+Zie Gegevensverzameling [van](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)Automated Personalization voor informatie over de gegevens die automatisch worden verzameld en gebruikt door Automated Personalization- en Auto-Target-verpersoonlijkingsalgoritmen.
 
 ## Aanbevolen werkwijzen {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
