@@ -2,10 +2,14 @@
 keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: Het migreren van mbox.js naar at.js is een eenvoudig proces.
 title: Migreren naar at.js vanuit mbox.js
+feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -42,6 +46,7 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    * mboxCookieDomain()
    * Extra JavaScript
    * Overige locaties
+
    De meeste [objecten en methoden](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) mbox.js (zoals `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`en andere) worden niet ondersteund. Alternatieve benaderingen kunnen mogelijk zijn om te bereiken wat u probeert te doen.
 
    **Hebt u[!DNL mbox.js]op een van uw webpagina&#39;s?**
@@ -50,14 +55,15 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
 
    Het cookie van de box is de belangrijkste manier waarop Adobe de bezoeker van pagina tot pagina verbindt. Als onderdeel van uw kwaliteitscontrole moet u bevestigen dat het cookie wordt behouden en correct wordt gelezen terwijl de bezoeker heen en weer gaat tussen pagina&#39;s met [!DNL at.js] en pagina&#39;s met [!DNL mbox.js]. Zorg ervoor dat dezelfde `mboxPC` en `mboxSession` waarden worden doorgegeven in de mbox-aanroepen, ongeacht welk gedeelte van de site ( [!DNL at.js] of [!DNL mbox.js]) de bezoeker eerst landt en in welk gedeelte de cookie oorspronkelijk is ingesteld. Als u cookies van derden gebruikt in uw implementatie, moet u ervoor zorgen dat deze waarden gelijk blijven wanneer u door de site bladert.
 
-   **Integreert u[!DNL Target]met andere Adobe-oplossingen?**
+   **Integreert u[!DNL Target]met andere Adobe oplossingen?**
 
    * Analyse (A4T)
    * Analytics (legacy integration)
    * AAM (backend)
-   * AAM (legacy frontend)
+   * AAM (verouderde voorzijde)
    * AEM
    * Data Workbench
+
    Sommige verouderde integraties worden niet ondersteund door [!DNL at.js]. Zie de pagina [Integraties](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) voor meer informatie.
 
    **Integreert u[!DNL Target]met andere hulpprogramma&#39;s van derden?**
@@ -67,6 +73,7 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    * Demandbase
    * Klikverhaal
    * Overige
+
    Deze integratie moet mogelijk worden aangepast om te kunnen werken met [!DNL at.js]. Zie de pagina [Integraties](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) voor meer informatie.
 
    **Gebruikt u een tagbeheer?**
@@ -75,11 +82,12 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    * Vergroten
    * Tealium
    * Signal/BrightTag
+
    Zie [at.js Integrations](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)voor meer informatie.
 
    >[!NOTE]
    >
-   >Als u momenteel geen tagbeheer gebruikt om te implementeren [!DNL Target], is het wellicht een goed moment om dit te overwegen. Adobe&#39;s [Dynamic Tag Management](https://dtm.adobe.com) is gratis voor [!DNL Target] klanten en is de aanbevolen methode voor implementatie [!DNL Target]. Zie [Aanbevolen werkwijzen voor het implementeren van Adobe Target met Dynamisch tagbeheer](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)voor meer informatie.
+   >Als u momenteel geen tagbeheer gebruikt om te implementeren [!DNL Target], is het wellicht een goed moment om dit te overwegen. Dynamic Tag Management [is gratis voor](https://dtm.adobe.com) klanten en is de aanbevolen methode om te implementeren [!DNL Target] [!DNL Target]. Zie [Aanbevolen procedures voor het implementeren van Adobe Target met Dynamisch tagbeheer](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)voor meer informatie.
 
 1. Controleer of alle huidige activiteiten en integraties naar verwachting werken.
 
