@@ -1,11 +1,12 @@
 ---
-description: Target Standard kan worden geïntegreerd met Adobe Dynamic Media Classic (voorheen Scene7) voor Digital Asset Management (DAM) in de inhoudsbibliotheek.
-title: Dynamic Media Klassieke integratie-integratie
+description: De doelstandaard kan worden geïntegreerd met Adobe Dynamic Media Classic (voorheen Scene7) voor Digital Asset Management (DAM) in de inhoudsbibliotheek.
+title: Integratie van dynamische Media Classic-integratie
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Scene7-configuratie {#scene-settings}
 
-Target kan worden geïntegreerd met [!DNL Adobe Dynamic Media Classic] (voorheen [!DNL Scene7]) Digital Asset Management (DAM) in de inhoudsbibliotheek.
+Doel kan worden geïntegreerd met [!DNL Adobe Dynamic Media Classic] (voorheen [!DNL Scene7]) Digital Asset Management (DAM) in de inhoudsbibliotheek.
 
 >[!NOTE]
 >
@@ -33,7 +34,7 @@ Om met [!DNL Dynamic Media Classic] ([!DNL Scene7]) te integreren, moet u de vol
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**.
 
-   ![Pagina Scene7](/help/administrating-target/assets/scene7.png)
+   ![Scene7-pagina](/help/administrating-target/assets/scene7.png)
 
 1. Geef de volgende [!DNL Dynamic Media Classic] accountgegevens op:
 
