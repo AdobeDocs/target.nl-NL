@@ -1,11 +1,12 @@
 ---
-description: Gebruik Composer Visuele Ervaring om een Gerichte (XT) activiteit van de Ervaring op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen het Doel van Adobe te wijzigen.
+description: Gebruik Composer van de Visuele Ervaring om een Ervaring tot stand te brengen richtend (XT) activiteit op een doel-Toegelaten pagina en om gedeelten van de pagina binnen Adobe Target te wijzigen.
 title: Een belevenis maken die gericht is op activiteit
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
