@@ -1,12 +1,16 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Informatie over Adobe Target en de SameSite IETF-standaard die is geïntroduceerd met Google Chrome versie 80.
-title: Beleid voor cookies van Adobe Target en Google
+title: Beleid van SameSite-cookies van Adobe Target en Google
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2033'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +72,7 @@ Rekening houdend met het bovenstaande, introduceert Chrome 80 twee onafhankelijk
 
 ## Doel volgt de best practices van Google op het gebied van beveiliging
 
-Bij Adobe willen we altijd de nieuwste best practices voor beveiliging en privacy in de branche ondersteunen. We zijn blij te kunnen aankondigen dat we de nieuwe beveiligings- en privacyinstellingen die door Google zijn geïntroduceerd, [!DNL Target] ondersteunen.
+Bij Adobe willen we altijd de meest recente beste praktijken van de branche op het gebied van beveiliging en privacy ondersteunen. We zijn blij te kunnen aankondigen dat we de nieuwe beveiligings- en privacyinstellingen die door Google zijn geïntroduceerd, [!DNL Target] ondersteunen.
 
 Voor de instelling &#39;SameSite by default cookies&#39; [!DNL Target] blijft deze personalisatie bieden zonder enige invloed en tussenkomst van u. [!DNL Target] gebruikt cookies van de eerste partij en blijft correct werken zoals de markering `SameSite = Lax` wordt toegepast door Google Chrome.
 
