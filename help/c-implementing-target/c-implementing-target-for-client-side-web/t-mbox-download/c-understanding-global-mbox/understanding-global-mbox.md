@@ -1,19 +1,23 @@
 ---
 keywords: global mbox;implement mbox.js;implement at.js
-description: Informatie over globale mbox, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw implementatie van het Doel van Adobe wordt gemaakt.
+description: Informatie over globale mbox, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw implementatie van Adobe Target wordt gemaakt.
 title: De globale box begrijpen
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
 
 # De globale box begrijpen{#understand-the-global-mbox}
 
-Informatie over globale mbox, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw implementatie van het Doel van Adobe wordt gemaakt.
+Informatie over globale mbox, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw implementatie van Adobe Target wordt gemaakt.
 
 Standaard krijgt de algemene naam mbox de naam [!DNL target-global-mbox]. U kunt de naam van uw account desgewenst wijzigen.
 
