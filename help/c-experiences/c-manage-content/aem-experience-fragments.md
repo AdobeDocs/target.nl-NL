@@ -1,11 +1,12 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-description: Informatie over het gebruik van ervaringsfragmenten die zijn gemaakt in Adobe Experience Manager (AEM) bij Adobe Target-activiteiten voor optimalisatie of personalisatie.
+description: Informatie over het gebruik van ervaringsfragmenten die in Adobe Experience Manager (AEM) zijn gemaakt in Adobe Target-activiteiten om optimalisatie of personalisatie te ondersteunen.
 title: Adobe Experience Manager (AEM) ervaart fragmenten in Adobe Target
+feature: null
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -13,9 +14,9 @@ ht-degree: 0%
 ---
 
 
-# AEM ervaart fragmenten{#aem-experience-fragments}
+# AEM ervaren fragmenten{#aem-experience-fragments}
 
-Informatie over het gebruik van ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) bij [!DNL Target] activiteiten om optimalisatie of personalisatie te ondersteunen.
+Informatie over het gebruik van ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) bij [!DNL Target] activiteiten ter ondersteuning van optimalisatie of personalisatie.
 
 >[!NOTE]
 >
@@ -48,17 +49,17 @@ Voer de volgende stappen uit om [!DNL AEM] ervaringsfragmenten in te kunnen gebr
 
 Zie voor meer informatie:
 
-* **[!DNL AEM]6.3 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)in de documentatie van_Adobe Experience Manager 6.3 _.
-* **[!DNL AEM]6.4 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)in de documentatie van_Adobe Experience Manager 6.4 _.
+* **[!DNL AEM]6.3 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)in de documentatie voor_Adobe Experience Manager 6.3 _.
+* **[!DNL AEM]6.4 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)in de documentatie voor_Adobe Experience Manager 6.4 _.
 * **[!DNL AEM]6.5 **:[U kunt kiezen voor Adobe Analytics en Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)in de documentatie van *Adobe Experience Manager 6.5*.
 
 ### Stap 2: Het ervaringsfragment maken
 
 Er worden ervaringsfragmenten gemaakt in [!DNL AEM]. Zie voor meer informatie:
 
-* **[!DNL AEM]6.3 **:[Geniet van fragmenten](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.3*.
-* **[!DNL AEM]6.4 **:[Geniet van fragmenten](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.4*.
-* **[!DNL AEM]6.5 **:[Geniet van fragmenten](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3 **:[Ervaar Fragments](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.3*.
+* **[!DNL AEM]6.4 **:[Ervaar Fragments](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.4*.
+* **[!DNL AEM]6.5 **:[Ervaar Fragments](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)in de documentatie van *Adobe Experience Manager 6.5*.
 
 ### Stap 3: Configureren [!DNL AEM] om het ervaringsfragment te delen met [!DNL Target]
 
@@ -75,9 +76,9 @@ Er worden ervaringsfragmenten gemaakt in [!DNL AEM]. Zie voor meer informatie:
 
 Afhankelijk van uw [!DNL AEM] versie raadpleegt u de volgende koppelingen voor stapsgewijze instructies:
 
-* **[!DNL AEM]6.3 **:[Een fragment van de Ervaring naar Doel](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)uitvoeren in de documentatie van *Adobe Experience Manager 6.3*.
-* **[!DNL AEM]6.4 **:[Een Experience Fragment exporteren naar Doel](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)in de *Adobe Experience Manager 6.4*-documentatie.
-* **[!DNL AEM]6.5 **:[Een Experience Fragment exporteren naar Doel](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)in de *Adobe Experience Manager 6.5*-documentatie.
+* **[!DNL AEM]6.3 **:[Een ervaringsfragment naar doel](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)exporteren in de documentatie van *Adobe Experience Manager 6.3*.
+* **[!DNL AEM]6.4 **:[Een ervaringsfragment naar doel](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)exporteren in de documentatie bij *Adobe Experience Manager 6.4*.
+* **[!DNL AEM]6.5 **:[Een ervaringsfragment naar doel](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)exporteren in de documentatie van *Adobe Experience Manager 6.5*.
 
 ## Werken met ervaringsfragmenten in doelactiviteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -106,6 +107,7 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
    * [!UICONTROL Insert Before]
    * [!UICONTROL Insert After]
    * [!UICONTROL Swap with Experience Fragment]
+
    In de [!UICONTROL Experience Fragment] lijst wordt alle inhoud weergegeven die is gemaakt in [!DNL AEM] dat nu standaard beschikbaar is vanuit de lijst [!DNL Target].
 
    >[!NOTE]
@@ -122,10 +124,10 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
    * **A/B-test:** [Een A/B-test maken](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
    * **Automatisch toewijzen:** [Automatisch toewijzen](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Automatisch doel:** [Auto-Target voor persoonlijke ervaringen](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)
-   * **Automatische personalisatie (AP):** [Een geautomatiseerde personalisatieactiviteit maken](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Automated Personalization (AP):** [Automated Personalization-activiteiten maken](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Gericht op ervaring (XT):** [Een ervaring maken die gericht is op activiteiten](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **MVT (Multivariate Test):** [Een multivariatietest maken](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Aanbevelingen:** [Een activiteit voor aanbevelingen maken](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **Recommendations:** [Een Recommendations-activiteit maken](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **Ervaar fragmenten op basis van de Form-based Experience Composer:**
 
@@ -144,7 +146,7 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
 * Het ervaringsfragment wordt momenteel geïmporteerd in [!DNL Target] de vorm van een HTML-aanbieding. Het ervaringsfragment &#39;primaire&#39; versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 * U kunt JSON-aanbiedingen importeren als ervaringsfragmenten in [!DNL Target]. Deze aanbiedingen worden echter geïmporteerd als HTML-aanbiedingen. JSON-aanbiedingen (ervaringsfragmenten) worden momenteel niet volledig ondersteund in de [!DNL Target] gebruikersinterface.
 
-## Trainingsvideo: AEM-ervaringsfragmenten gebruiken met een Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
+## Trainingsvideo: Fragmenten voor AEM ervaring gebruiken met de {#section_C0EDC54063464F41A182492D2045BC64} ![zelfstudiekabel van Adobe Target](/help/assets/overview.png)
 
 In de volgende video ziet u hoe u ervaringsfragmenten instelt en gebruikt:
 
@@ -154,4 +156,4 @@ In de volgende video ziet u hoe u ervaringsfragmenten instelt en gebruikt:
 >
 >De functie voor [!DNL AEM] verdiepen die in 4:54 wordt besproken, is verwijderd.
 
-Zie [Experience Fragments gebruiken met Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) op de pagina Video&#39;s en zelfstudies voor *AEM-sites* voor meer informatie.
+Zie [Experience Fragments gebruiken met Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) op de pagina *AEM Sites Video&#39;s and Tutorials* voor meer informatie.
