@@ -1,17 +1,21 @@
 ---
 keywords: Recommendations
-description: Omdat bij een bewerking Automatisch aanpassen aan persoonlijke gegevens meerdere aanbiedingen op een pagina worden vergeleken, is het handig om de pagina bij elke ervaring voor te vertonen.
-title: Voorvertoning van ervaringen voor een activiteit van Automated Personalization (AP) in de Adobe Target Visual Experience Composer
+description: Omdat een Automated Personalization-activiteit (AP) meerdere aanbiedingen op een pagina vergelijkt, is het handig om de pagina bij elke ervaring voor te vertonen.
+title: Voorvertoning van ervaringen voor een Automated Personalization-activiteit (AP) in de Adobe Target Visual Experience Composer
+feature: null
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
 
-# ![De ervaringen van de Voorproef PREMIUM](/help/assets/premium.png) voor Geautomatiseerde Personalisatie in de Composer van de Visueel Ervaring{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+# ![PREMIUM](/help/assets/premium.png) -voorvertoning voor Automated Personalization in de Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Omdat bij een bewerking Automatisch aanpassen aan persoonlijke gegevens meerdere aanbiedingen op een pagina worden vergeleken, is het handig om de pagina bij elke ervaring voor te vertonen.
+Omdat een Automated Personalization-activiteit (AP) meerdere aanbiedingen op een pagina vergelijkt, is het handig om de pagina bij elke ervaring voor te vertonen.
 
 1. Klik in Visual Experience Composer op **[!UICONTROL Preview]**.
 
@@ -37,7 +41,7 @@ Omdat bij een bewerking Automatisch aanpassen aan persoonlijke gegevens meerdere
 
    Als u meerdere ervaringen wilt uitsluiten, schakelt u de selectievakjes voor de gewenste ervaringen in en klikt u op het **[!UICONTROL Exclude]** pictogram rechtsboven in de lijst.
 
-   Door gebrek, zijn alle ervaringen inbegrepen in de Geautomatiseerde activiteit van de Personalisatie. Houd de muisaanwijzer boven de ervaring en klik op het **[!UICONTROL Include]** pictogram om een uitgesloten ervaring op te nemen.
+   Standaard worden alle ervaringen opgenomen in de Automated Personalization-activiteit. Houd de muisaanwijzer boven de ervaring en klik op het **[!UICONTROL Include]** pictogram om een uitgesloten ervaring op te nemen.
 
    Als u meerdere ervaringen wilt opnemen die zijn uitgesloten, schakelt u de selectievakjes voor de gewenste ervaringen in en klikt u op het **[!UICONTROL Include]** pictogram rechtsboven in de lijst.
 
