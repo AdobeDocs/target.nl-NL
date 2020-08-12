@@ -2,10 +2,11 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Het systeemdiagram van Adobe Target dat de stroom van vraag en informatie toont die voor een auto-gecreeerde globale mbox wordt verzonden of wordt verzameld gebruikend at.js.
 title: De werking van de JavaScript-bibliotheek Adobe Target at.js
+feature: null
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -21,11 +22,11 @@ In een client-side implementatie van [!DNL Adobe Target], [!DNL Target] levert d
 
 ## Wat is at.js?
 
-De bibliotheek [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) is de nieuwe implementatiebibliotheek voor Target. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Wij adviseren dat alle klanten uitvoeren of aan de [recentste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)migreren.
+De bibliotheek [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Wij adviseren dat alle klanten uitvoeren of aan de [recentste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)migreren.
 
-Zie [Target JavaScript-bibliotheken](/help/c-intro/how-target-works.md#libraries)voor meer informatie.
+Zie JavaScript-bibliotheken [](/help/c-intro/how-target-works.md#libraries)Doel voor meer informatie.
 
-In de hieronder weergegeven [!DNL Target] implementatie worden de volgende [!DNL Adobe Experience Cloud] oplossingen geïmplementeerd: Analytics, Target en Audience Manager. Daarnaast worden de volgende kernservices van Experience Cloud geïmplementeerd: Adobe-service Starten, Soorten publiek en Bezoeker-id.
+In de hieronder weergegeven [!DNL Target] implementatie worden de volgende [!DNL Adobe Experience Cloud] oplossingen geïmplementeerd: Analytics, Target en Audience Manager. Daarnaast worden de volgende Experience Cloud core services geïmplementeerd: Adobe Starten, Soorten publiek en Bezoekersidentiteitsservice.
 
 ## Wat is het verschil tussen at.js 1.*workflowdiagrammen x* en at.js 2.x?
 
@@ -40,22 +41,22 @@ Vanuit een weergave op hoog niveau zijn er enkele verschillen tussen de twee ver
 
 De volgende diagrammen helpen u het werkschema van at.js 2.x met Meningen begrijpen en hoe dit de integratie van het KUUROORD verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
 
-![Target-stroom met at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Doelstroom met at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Stap | Details |
 | --- | --- |
 | 1 | De vraag keert terug [!DNL Experience Cloud ID] als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
-| 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld een publiek dat wordt gedeeld vanuit Adobe Analytics, Audience Management, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
+| 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>De gerichte inhoud voor meningen die als resultaat van gebruikersacties in een KUUROORD worden getoond wordt caching in browser zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door `triggerView()`. worden teweeggebracht. |
-| 7 | Analytics-gegevens worden verzonden naar gegevensverzamelingsservers. |
-| 8 | Gericht gegeven wordt aangepast aan de gegevens van Analytics via SDID en verwerkt in de Analytics rapporteringsopslag.<br>Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via Analytics for Target (A4T)-rapporten. |
+| 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
+| 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
 
 Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker zonder een servervraag getoond. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren. Voor meer informatie over at.js voor SPAs met Mening, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
 
-![Target flow at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Doelstroom bij.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Stap | Details |
 | --- | --- |
@@ -63,12 +64,12 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Aanvraag voor meldingen wordt naar de [!DNL Target] profielenwinkel verzonden om de bezoeker te tellen in de activiteit en incrementele metingen. |
-| 5 | Analytics-gegevens verzonden naar gegevensverzamelingsservers. |
-| 6 | Target-gegevens worden gekoppeld aan Analytics-gegevens via de SDID en worden verwerkt in de Analytics-rapportageopslag. Analytics-gegevens kunnen vervolgens zowel in Analytics als in Target worden bekeken via A4T-rapporten. |
+| 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
+| 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
 
 ### Video - op.js 2.x architecturaal diagram
 
-at.js 2.x verbetert de steun van Adobe Target voor SPAs en integreert met andere oplossingen van Experience Cloud. In deze video wordt uitgelegd hoe alles bij elkaar komt.
+at.js 2.x verbetert Adobe Target steun voor SPAs en integreert met andere oplossingen van Experience Cloud. In deze video wordt uitgelegd hoe alles bij elkaar komt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
@@ -76,7 +77,7 @@ Zie [Begrijpen hoe at.js 2.x voor meer informatie werkt](https://helpx.adobe.com
 
 ## bij.js 1.x-diagram
 
-![Target-stroom - om.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Doelstroom - bij.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Stap | Beschrijving | Bellen | Beschrijving |
 |--- |--- |--- |--- |
@@ -87,7 +88,7 @@ Zie [Begrijpen hoe at.js 2.x voor meer informatie werkt](https://helpx.adobe.com
 
 ### Video - kantooruren: tips en overzicht op .js (26 juni 2019)
 
-Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leiding van het team van de klantenservice van Adobe.
+Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leiding van het Adobe Customer Care-team.
 
 * Voordelen van het gebruik van at.js
 * at.js-instellingen
