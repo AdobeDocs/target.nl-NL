@@ -1,16 +1,20 @@
 ---
-description: De manier waarop Target aanroepen van uw pagina maakt en hierop reageert, is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de implementatie van de Experience Cloud Visitor ID aanwezig is en of de bezoeker-id bestaat.
+description: De manier waarop Doel maakt en reageert op aanroepen vanuit uw pagina is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de Experience Cloud Visitor ID-implementatie aanwezig is en of de bezoeker-id bestaat.
 title: Methoden voor doelpagina's door bibliotheekversie mbox.js
+feature: null
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 0%
 
 ---
 
 
 # Methoden voor doelpagina&#39;s door bibliotheekversie mbox.js{#target-page-methods-by-mbox-js-library-version}
 
-De manier waarop Target aanroepen van uw pagina maakt en hierop reageert, is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de implementatie van de Experience Cloud Visitor ID aanwezig is en of de bezoeker-id bestaat.
+De manier waarop Doel maakt en reageert op aanroepen vanuit uw pagina is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de Experience Cloud Visitor ID-implementatie aanwezig is en of de bezoeker-id bestaat.
 
 >[!NOTE]
 >
