@@ -1,10 +1,11 @@
 ---
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
-description: Er zijn verschillende stappen vereist voor het implementeren van Adobe Analytics als de rapportbron voor Target (A4T).
-title: Implementatie van Analytics voor Target
+description: Bij de implementatie van Adobe Analytics als rapportagebron voor Target (A4T) zijn verschillende stappen vereist.
+title: Analyses voor doelimplementatie
+feature: null
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Implementatie van Analytics voor Target{#analytics-for-target-implementation}
+# Analyses voor doelimplementatie{#analytics-for-target-implementation}
 
 Er zijn verschillende stappen vereist bij de implementatie [!DNL Adobe Analytics] als rapportagebron voor [!DNL Target] (A4T).
 
@@ -30,17 +31,17 @@ Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een [!DNL
 
 ## Stap 3: De service Experience Cloud Visitor ID implementeren
 
-Met de service bezoekersidentiteitskaart kunt u gebruikers identificeren voor verschillende [!DNL Adobe Experience Cloud] oplossingen. U moet de vereiste versie van de Experience Cloud Visitor-id implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
+Met de service bezoekersidentiteitskaart kunt u gebruikers identificeren voor verschillende [!DNL Adobe Experience Cloud] oplossingen. U moet de vereiste versie van de Experience Cloud Bezoeker-id implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
 
-Zie [De Experience Cloud ID Service voor Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) implementeren in de documentatie bij de *Experience Cloud Visitor ID Service* .
+Zie [Voer de Dienst van identiteitskaart van Experience Cloud voor Doel](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in de documentatie van de Dienst *van de* Bezoeker van Experience Cloud uit.
 
 ## Stap 4: AppMeasurement voor JavaScript of s_code bijwerken
 
 U moet de vereiste versie van appMeasurement.js implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
 
-Zie Overzicht [van](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript-implementatie in de *Analytics Implementation Guide* voor nieuwe implementaties.
+Zie Overzicht [van](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript-implementatie in de *handleiding* Analytics Implementation voor nieuwe implementaties.
 
-Zie [Migreren naar AppMeasurement voor JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) in de *Analytics Implementation Guide* voor een migratie.
+Zie [Migreren naar AppMeasurement voor JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) in de *handleiding* voor analysetransplementatie voor een migratie.
 
 ## Stap 5: Downloaden en bijwerken om.js of mbox.js
 
@@ -169,7 +170,7 @@ Dit is vooral belangrijk om in de Toepassingen van de Enige Pagina (SPAs) te bev
 
 We raden u aan de vorige integratie te verwijderen om uw implementatie te vereenvoudigen en de verschillen tussen de systemen weg te werken. U kunt om het even welke code verwijderen u voor vorige Sc aan integratie T&amp;T, met inbegrip van `mboxLoadSCPlugin`zou kunnen opgesteld.
 
-## Stap 10: Opties inschakelen voor het gebruik van Analytics als rapportagebron voor Target
+## Stap 10: De opties inschakelen voor het gebruik van Analytics als rapportagebron voor Doel
 
 Klik [!DNL Target]in en kies een van de opties **[!UICONTROL Administation > Visual Experience Composer]** of **[!UICONTROL Select per activity]** **[!UICONTROL Adobe Analytics]** om de opties in te schakelen.
 
