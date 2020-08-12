@@ -2,9 +2,10 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingsontwerpen aan te passen.
 title: Een ontwerp aanpassen met Snelheid
+feature: null
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
@@ -128,7 +129,7 @@ U kunt ook `algorithm.name` en `algorithm.dayCount` als variabelen in ontwerpen 
 Door gebrek, behandelen de malplaatjes van de Snelheid alle entiteitattributen als koordwaarden. Mogelijk wilt u een entiteitskenmerk behandelen als een numerieke waarde om een wiskundige bewerking uit te voeren of deze te vergelijken met een andere numerieke waarde. Voer de volgende stappen uit om een entiteitskenmerk als een numerieke waarde te behandelen:
 
 1. Declareer een dummyvariabele en initialiseer deze naar een willekeurig geheel getal of een dubbele waarde
-1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor sjabloonparser van Target Recommendations om de sjabloon te valideren en op te slaan)
+1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor Sjabloonparser van Target Recommendations om de sjabloon te valideren en op te slaan)
 1. Geef het entiteitkenmerk door in de `parseInt` of `parseDouble` methode van de dummyvariabele die u in stap 1 hebt gemaakt om de tekenreeks om te zetten in een geheel getal of dubbele waarde
 1. Voer de wiskundige bewerking of vergelijking uit op de nieuwe numerieke waarde
 
