@@ -2,11 +2,12 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Schakel verificatie voor batchupdates via API in of uit en genereer een profielverificatietoken.
 title: Profiel-API-instellingen
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Schakel verificatie voor batchupdates via API in of uit en genereer een profielv
 
 Voor extra veiligheid, kunt u vereisen dat de Bulk API vraag van de Update een geldig toegangstoken wordt overgegaan in de kopbal van het verzoek. Gebruikers met [!UICONTROL Approver] machtigingen kunnen tokens voor API-profielverificatie genereren en inschakelen.
 
-**Om authentificatie te vereisen en een toegangstoken te produceren gebruikend de UI van Target:**
+**Om authentificatie te vereisen en een toegangstoken te produceren gebruikend het Doel UI:**
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 1. Onder **[!UICONTROL Profile API]** dia de **[!UICONTROL Require Authentication]** knevel aan toegelaten of gehandicapte positie.
