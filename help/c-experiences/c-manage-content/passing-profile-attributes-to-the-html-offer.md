@@ -2,9 +2,13 @@
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
 description: U kunt profielwaarden en activiteitgegevens rechtstreeks weergeven in een HTML- of JSON-aanbieding.
 title: Dynamische gegevens in aanbiedingen doorgeven
+feature: null
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +50,7 @@ De volgende waarden kunnen worden vervangen door een token:
 
 Loggegevens in de console voor foutopsporingsdoeleinden, zoals `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Voor de ontwerpen van Aanbevelingen, zie extra voorbeelden in het Overzicht [van het](/help/c-recommendations/c-design-overview/design-overview.md)Ontwerp.
+Zie aanvullende voorbeelden in het [ontwerpoverzicht](/help/c-recommendations/c-design-overview/design-overview.md)voor Recommendations-ontwerpen.
 
 **Implementatie**
 
@@ -54,7 +58,7 @@ Gebruik de syntaxis voor profielparameters die aan een box worden doorgegeven: `
 
 `${user.parameter}`
 
-Wanneer u dynamische kenmerken gebruikt in een ontwerp met aanbevelingen, moet u vóór het dollarteken (&#39;$&#39;) een backslash (&#39;\&#39;) invoegen om de dynamische waarde correct te laten renderen: `\${user.endpoint.lastViewedEntity}`
+Wanneer u dynamische kenmerken in een Recommendations-ontwerp gebruikt, moet u vóór het dollarteken (&#39;$&#39;) een backslash (&#39;\&#39;) invoegen om de dynamische waarde correct te laten renderen: `\${user.endpoint.lastViewedEntity}`
 
 Deze variabelen worden vervangen door de waarde aan de serverzijde, zodat er geen aanhalingstekens of andere JavaScript vereist zijn voor de juiste weergave.
 
