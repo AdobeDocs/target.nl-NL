@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience
 description: U kunt aangepaste doelgroepen maken en deze opslaan in de doelbibliotheek voor gebruik in uw activiteiten. U kunt een bestaand publiek kopiëren dat u vervolgens kunt bewerken om een vergelijkbaar publiek te maken en meerdere soorten publiek te combineren.
 title: Stimuleer publiek in doel
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
