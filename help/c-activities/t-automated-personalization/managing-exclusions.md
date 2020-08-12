@@ -1,26 +1,30 @@
 ---
 keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
-description: Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen, en standaardinhoud in de activiteiten van Adobe Target Automated Personalization (AP) uitsluiten.
+description: Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen en met uitzondering van standaardinhoud in Adobe Target Automated Personalization (AP)-activiteiten.
 title: Uitsluitingen beheren
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 0%
 
 ---
 
 
 # ![Premium badge](/help/assets/premium.png) Uitsluitingen beheren{#manage-exclusions}
 
-Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen, en standaardinhoud in activiteiten voor automatische personalisatie (Automated Personalization, AP) uitsluiten.
+Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen en met uitzondering van standaardinhoud in Automated Personalization-activiteiten (AP).
 
 ## Uitsluitingsgroepen maken {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
-Maak uitsluitingsgroepen in activiteiten voor geautomatiseerde personalisatie (Automated Personalization, AP) om ervoor te zorgen dat ervaringen met de toegewezen aanbiedingen automatisch worden uitgesloten.
+Maak uitsluitingsgroepen in Automated Personalization(AP)-activiteiten om ervoor te zorgen dat ervaringen met de toegewezen aanbiedingen automatisch worden uitgesloten.
 
 Uitsluitingsgroepen zijn een goede manier om ervoor te zorgen dat incompatibele aanbiedingen niet op verschillende plaatsen in dezelfde ervaring worden gepresenteerd. Stel dat u twee aanbiedingen hebt: de ene is voor 20 % van alle goederen en de andere voor 15 % korting . U wilt nooit dat deze twee aanbiedingen aan bezoekers in dezelfde ervaring worden getoond. Als u deze twee aanbiedingen aan een uitsluitingsgroep toevoegt, kunt u ervoor zorgen dat dit nooit het geval zal zijn.
 
-U kunt ook beperken welke doelgroepen specifieke aanbiedingen kunnen zien in AP-activiteiten. Voor meer informatie, zie de Geautomatiseerde aanbiedingen [van de Aanpassing van het](/help/c-activities/t-automated-personalization/ap-target-offers.md)Doel.
+U kunt ook beperken welke doelgroepen specifieke aanbiedingen kunnen zien in AP-activiteiten. Zie [Automated Personalization-aanbiedingen](/help/c-activities/t-automated-personalization/ap-target-offers.md)van Target voor meer informatie.
 
 **Een uitsluitingsgroep maken:**
 
@@ -62,7 +66,7 @@ Klik **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]**, klik dan **
 
 ## Specifieke ervaringen uitsluiten {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Sluit specifieke ervaringen uit als u bepaalde aanbiedingscombinaties wilt uitsluiten van uw Geautomatiseerde Personalisatieactiviteit.
+Sluit specifieke ervaringen uit als je bepaalde aanbiedingscombinaties wilt uitsluiten van je Automated Personalization-activiteit.
 
 Er zouden bepaalde combinaties kunnen zijn die niet goed samenwerken, of u zou het aantal geteste ervaringen kunnen beperken om verkeersvereisten voor uw activiteit te verminderen.
 
@@ -90,7 +94,7 @@ Er zouden bepaalde combinaties kunnen zijn die niet goed samenwerken, of u zou h
 
 ## Standaardinhoud uitsluiten {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-In sommige gevallen, zou u uw standaardinhoud als deel van uw Geautomatiseerde activiteit van de Personalisatie kunnen willen omvatten. De manier waarop u deze instelling opent, verschilt van het maken van uitsluitingsgroepen. U kunt deze methode gebruiken om slechts één aanbieding (verschillend van uw standaardinhoud) in een plaats als deel van uw AP activiteit te hebben.
+In sommige gevallen wilt u wellicht uw standaardinhoud niet opnemen in uw Automated Personalization-activiteit. De manier waarop u deze instelling opent, verschilt van het maken van uitsluitingsgroepen. U kunt deze methode gebruiken om slechts één aanbieding (verschillend van uw standaardinhoud) in een plaats als deel van uw AP activiteit te hebben.
 
 Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de rest van de pagina aan te passen aan de aanbiedingen die u test met uw AP-activiteit. Stel dat u bijvoorbeeld het kleurenpalet wilt aanpassen van de aanbiedingen die u test, u de achtergrondkleur van de pagina kunt wijzigen en de standaardachtergrondkleur wilt uitsluiten.
 
