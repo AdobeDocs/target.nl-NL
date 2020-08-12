@@ -1,18 +1,22 @@
 ---
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
-description: Informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
-title: Informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+description: Informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+title: Informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2274'
+ht-degree: 0%
 
 ---
 
 
 # Regels inzake privacy en gegevensbescherming {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+Informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
 
 ## Overzicht van privacy en algemene gegevensbeschermingsverordening (GDPR) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -29,7 +33,7 @@ Als Controlemechanisme van Gegevens, bepaalt u de persoonlijke gegevens die [!DN
 
 Zie voor meer informatie:
 
-* [Adobe General Data Protection Regulation API-website](https://www.adobe.io/apis/cloudplatform/gdpr.html)
+* [API-website van Adobe General Data Protection Regulation](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [GDPR-documentatie](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
 
 ## Overzicht van de California Consumer Privacy Act (CCPA)
@@ -105,7 +109,7 @@ Er zijn drie scenario&#39;s om te overwegen wanneer het gebruiken van Opt-binnen
 
 Veelgestelde vragen over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere specifieke internationale privacyvereisten voor Target.
 
-### Welk beleid voert Adobe uit voor deze verordeningen? {#section_A6849628D6524C80A6E16946DC5D25A9}
+### Wat is het beleid van de Adobe voor deze regelgeving? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
 [!DNL Adobe] of voldoet al of voert onze verplichtingen als Bewerker van Gegevens uit. We hebben een sterke basis voor gecertificeerde controle op veiligheid en privacy door het ontwerp en hebben productverbeteringen doorgevoerd vóór de deadline van mei 2018. De klanten van de onderneming zullen de verantwoordelijkheid hebben om deze verhogingen uit te voeren, evenals om het even welk noodzakelijk beleid en procedures bij te werken.
 
@@ -113,7 +117,7 @@ Veelgestelde vragen over de algemene gegevensbeschermingsverordening (GDPR) van 
 
 Nee, [!DNL Adobe] biedt een centrale manier om gegevenscontrollers te helpen voldoen aan hun GDPR- en CCPA-vereisten. Gegevenscontrollers hoeven niet rechtstreeks naar elke oplossing te gaan.
 
-Alle GDPR- en CCPA-aanvragen voor alle [!DNL Experience Cloud] oplossingen, inclusief [!DNL Target], worden uitgevoerd via een centrale Adobe API, die momenteel de GDPR API wordt genoemd. De API zal dan het verzoek over de de oplossingsreeks van het Controlemechanisme van Gegevens voltooien. [!DNL Experience Cloud]
+Alle GDPR- en CCPA-aanvragen voor alle [!DNL Experience Cloud] oplossingen, inclusief [!DNL Target], worden gemaakt via een centrale Adobe API, die momenteel de GDPR API wordt genoemd. De API zal dan het verzoek over de de oplossingsreeks van het Controlemechanisme van Gegevens voltooien. [!DNL Experience Cloud]
 
 ### Welke informatie zal onze klanten [!DNL Adobe] toelaten om in antwoord op een gegevenssubject/een gebruikersverzoek te schrappen? {#section_4B51D00924EC4166B2442218B69214F0}
 
@@ -129,7 +133,7 @@ Geaggregeerde of geanonimiseerde gegevens (bijvoorbeeld gegevens die een bepaald
 
 | Gebruikersnaam | Naam ruimte-id-type | Naamruimte-id | Definitie |
 |--- |--- |--- |--- |
-| Experience Cloud ID (ECID) | Standaard | 4 | Adobe Experience Cloud-id, voorheen bekend als Bezoeker-id of Marketing Cloud-id. U kunt de JavaScript-API gebruiken om deze id te zoeken (zie onderstaande details). |
+| Experience Cloud-ID (ECID) | Standaard | 4 | Adobe Experience Cloud ID, voorheen bekend als bezoeker-ID of Marketing Cloud-ID. U kunt de JavaScript-API gebruiken om deze id te zoeken (zie onderstaande details). |
 | TnT-id / Cookie-id (TNTID) | Standaard | 9 | Doel-id ingesteld als een cookie in de browser van de bezoeker. U kunt de JavaScript-API gebruiken om deze id te zoeken (zie onderstaande details). |
 | ID/CRM-ID van derden (DERDE PARTYID) | Doelspecifiek | N.v.t. | Als u Target van uw CRM of andere unieke herkenningstekeninformatie voor uw klanten voorziet. |
 
@@ -145,7 +149,7 @@ GDPR en CCPA veranderen niet wanneer u toestemming moet krijgen, maar hoe u het 
 
 [!DNL Target] biedt ondersteuning voor de aanmeldingsfunctionaliteit via [!DNL Launch] ondersteuning voor uw toestemmingsbeheerstrategie. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de [!DNL Target] tag wordt geactiveerd. Er is ook een optie via [!DNL Launch] om de [!DNL Target] tag vooraf goed te keuren. De aanbevolen aanpak is [!DNL Launch] om opt-in te beheren. Er is nog meer korrelige controle over het verbergen van geselecteerde elementen van uw pagina vóór het [!DNL Launch] [!DNL Target] vuren. Dit kan handig zijn als onderdeel van uw toestemmingsstrategie.
 
-Zie [!DNL Launch]de Adobe Privacy JavaScript Library en GDPR voor meer informatie over GDPR, CCPA en [de Adobe Privacy JavaScript-bibliotheek](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Zie ook de bovenstaande sectie Opstarten voor *Adobe Target en Experience Platform* .
+Voor meer informatie over GDPR, CCPA, en [!DNL Launch], zie [de Bibliotheek van JavaScript van de Privacy van de Adobe en GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Zie ook de bovenstaande sectie *Adobe Target en Experience Platform Launch opt-in* .
 
 ### Verzendt AdobePrivacy.js informatie naar de GDPR API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -153,13 +157,13 @@ Zie [!DNL Launch]de Adobe Privacy JavaScript Library en GDPR voor meer informati
 
 ### Wat verwijdert removeIdentities? {#section_D3A1591EA1B84C499CE1563DEAF32448}
 
-[!DNL removeIdentities] verwijdert *slechts* die identiteiten uit browser, en dat hangt slechts van af of de [!DNL Adobe] oplossing het heeft uitgevoerd.
+[!DNL removeIdentities] *alleen* verwijdert deze identiteiten uit de browser en dat hangt alleen af van het feit of de [!DNL Adobe] oplossing de id heeft geïmplementeerd.
 
-De cookies waarin de id&#39;s van de cookies worden opgeslagen, worden bijvoorbeeld [!DNL Target] verwijderd, maar [!DNL Adobe Audience Manager] (AAM) verwijdert de index-id die in een cookie van een andere fabrikant is opgeslagen, niet.
+De cookies waarin de id&#39;s worden opgeslagen, worden bijvoorbeeld [!DNL Target] verwijderd, maar [!DNL Adobe Audience Manager] (AAM) verwijdert de index-id die is opgeslagen in een cookie van een derde niet.
 
 ### Welke informatie moet in een GDPR- of CCPA-aanvraag van Target worden opgenomen? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-Naast de vereisten van de Central Privacy Service, [!DNL Target] bevat een geldig GDPR- of CCPA-bericht voor:
+Naast de vereisten van de centrale Privacy Service, [!DNL Target] bevat een geldig GDPR- of CCPA-bericht voor:
 
 ```
 { 
