@@ -5,9 +5,9 @@ title: CNAME en Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Voer de volgende stappen uit om CNAME-ondersteuning aan te vragen in [!DNL Targe
    >* Adobe, DigiCert, kan pas een certificaat uitgeven als deze stap is voltooid. Daarom kan Adobe uw verzoek om een implementatie CNAME niet vervullen tot deze stap volledig is.
 
 
-1. Vul het volgende formulier in en neem het op wanneer u een Adobe Client Care-ticket [opent dat CNAME-ondersteuning](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)aanvraagt:
+1. [Vul dit formulier](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) in en neem het op wanneer u een Adobe Client Care-ticket [opent dat CNAME-ondersteuning](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)aanvraagt:
 
    * Adobe- [!DNL Target] clientcode:
    * SSL-certificaathostnamen (voorbeeld: `target.example.com target.example.org`):
