@@ -2,10 +2,14 @@
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: Maak een map voor de items in de bibliotheek met aanbiedingen.
 title: Aanbiedingenmap maken
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Maak een map voor de items in de bibliotheek met aanbiedingen.
 
    | Veld | Beschrijving |
    |--- |--- |
-   | Titel (alleen van toepassing op aanbiedingen voor afbeeldingen) | Geef een beschrijvende naam voor de map op. U kunt bijvoorbeeld het type inhoud opnemen dat wordt opgeslagen.<br>De naam mag niet de volgende tekens bevatten:<br>Percent-teken `%`<br>Forward-slash `/`<br>Backslash `\`<br>Colon `:`<br>Asterisk `*`<br>Vraagteken `?`<br>Dubbele aanhalingstekens Vierkante haken `"`<br>Vierkante haken `[`<br>`]`<br>Plus-teken: `+`<br>Pijp: `|`<br>Periode: `.`<br>Nummer: Vierkante `#`<br>accolade: `{`<br>Curly bracket `}`<br>Caret `^`<br>Semicolon `;`<br>U kunt een koppelteken ( `- `) in plaats van deze tekens gebruiken. |
+   | Titel (alleen van toepassing op aanbiedingen voor afbeeldingen) | Geef een beschrijvende naam voor de map op. U kunt bijvoorbeeld het type inhoud opnemen dat wordt opgeslagen.<br>De naam mag niet de volgende tekens bevatten:<br>Percent-teken `%`<br>Forward-slash `/`<br>Backslash `\`<br>Colon `:`<br>Asterisk `*`<br>Vraagteken `?`<br>Dubbele aanhalingstekens Vierkante haken `"`<br>Vierkante haken `[`<br>`]`<br>Plus-teken: `+`<br>Pijp: `|`<br>Periode: `.`<br>Getalteken: `#`<br>accolade: `{`<br>Curly bracket `}`<br>Caret `^`<br>Semicolon `;`<br>U kunt een koppelteken ( `- `) in plaats van deze tekens gebruiken. |
    | Naam (van toepassing op zowel code- als afbeeldingsaanbiedingen) | Bewerk desgewenst de naam. |
    | Privé (alleen van toepassing op afbeeldingsaanbiedingen) | Geeft aan dat de map privé is, zodat alleen u deze en de inhoud ervan kunt zien. |
    | Opnieuw ordenen is mogelijk in de lijstweergave (alleen van toepassing op afbeeldingsaanbiedingen) | Hiermee geeft u aan dat u en anderen de positie van de map in de lijstweergave kunnen wijzigen.<br>Als u wilt schakelen tussen de Kaartweergave en de Lijstweergave, klikt u op het pictogram Kaartweergave of het pictogram Lijstweergave in de rechterbovenhoek van de inhoudsbibliotheek. U kunt ook Weergave-instellingen selecteren om kolommen in de lijstweergave op te nemen of uit te sluiten. |
@@ -74,7 +78,7 @@ Download de map en de inhoud ervan.
 
 ### Delen naar Adobe Creative Cloud ![](assets/icon_creative_cloud.png)
 
-Deel de map en de inhoud ervan met Adobe Creative Cloud.
+Deel de map en de inhoud ervan met de Adobe Creative Cloud.
 
 ### Kopiëren ![](assets/icon_copy_content.png)
 
