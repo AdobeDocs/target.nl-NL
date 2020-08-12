@@ -1,11 +1,15 @@
 ---
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
-description: Wanneer u op een paginaelement in de Composer van de Ervaring van het Doel van Adobe (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn.
+description: Wanneer u op een paginaelement in Adobe Target Visual Experience Composer (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn.
 title: Opties voor Adobe Target Visual Experience Composer (VEC)
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2359'
+ht-degree: 0%
 
 ---
 
@@ -109,6 +113,7 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
 
    * Automatisch
    * Waarde (sleep de schuifregelaar om de marge in te stellen of geef het aantal pixels voor elke marge op)
+
    Marge ondersteunt positieve en negatieve waarden.
 
    Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc, em, enz. Zie CSS-tips en trucs voor [webstijlpagina&#39;s voor meer informatie over deze eenheden](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,6 +137,7 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
    * Randstijl (geen, verborgen, gestippeld, onderbroken, effen of dubbel)
    * Randkleur (geef de kleurcode op of gebruik de kleurkiezer)
    * Randbreedte (sleep de schuifregelaar om een randbreedte te selecteren of geef de breedte op in pixels)
+
    Rand ondersteunt breedteschalen vanaf 0.
 
    Het doel ondersteunt ook [andere grootteeenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em, enz.
@@ -147,10 +153,12 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
    * Absoluut
    * Vast
    * Vast
+
    Klik op het vervolgkeuzepictogram voor elke positie om een van de volgende opties te kiezen:
 
    * Automatisch
    * Waarde (sleep de schuifregelaar om het element te plaatsen of geef het aantal pixels op dat u het element wilt verplaatsen)
+
    De positie ondersteunt positieve en negatieve waarden.
 
    Het doel ondersteunt ook [andere grootteeenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em, enz.
@@ -226,11 +234,11 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 #### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Aanbevelingen als voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Recommendations als een voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
 
 #### Ervaar fragment
 
-Voeg ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) toe aan [!DNL Target] activiteiten om optimalisatie of personalisatie te ondersteunen. Zie Fragmenten voor [AEM-ervaring voor meer informatie](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Voeg ervaringsfragmenten in die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om optimalisatie of personalisatie te ondersteunen. Zie Fragmenten voor [AEM ervaring voor meer informatie](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Invoegen na
 
@@ -250,11 +258,11 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 #### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Aanbevelingen als voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Recommendations als een voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
 
 #### Ervaar fragment
 
-Voeg ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) toe aan [!DNL Target] activiteiten om optimalisatie of personalisatie te ondersteunen. Zie Fragmenten voor [AEM-ervaring voor meer informatie](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Voeg ervaringsfragmenten in die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om optimalisatie of personalisatie te ondersteunen. Zie Fragmenten voor [AEM ervaring voor meer informatie](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Vervangen door
 
@@ -262,9 +270,9 @@ De volgende opties zijn beschikbaar:
 
 #### Afbeelding
 
-Selecteer een andere afbeelding in de inhoudsbibliotheek. Tot de afbeeldingen die u kunt wisselen, behoren de afbeeldingen die zijn geüpload naar de map Experience Cloud Assets of die zijn geüpload in de Content Library in Target.
+Selecteer een andere afbeelding in de inhoudsbibliotheek. Tot de afbeeldingen die u kunt wisselen, behoren de afbeeldingen die naar de map Experience Cloud Assets zijn geüpload of die in de inhoudsbibliotheek in Doel zijn geüpload.
 
-Tijdens het maken van de eerste activiteit is de weergegeven URL niet de URL die voor levering wordt gebruikt. Op activiteit die synchroniseert, wordt die URL bijgewerkt aan een productie Scene7 URL.
+Tijdens het maken van de eerste activiteit is de weergegeven URL niet de URL die voor levering wordt gebruikt. Bij het synchroniseren van activiteiten wordt die URL bijgewerkt naar een productie-Scene7-URL.
 
 De eerste URL kan er bijvoorbeeld als volgt uitzien:
 
@@ -274,7 +282,7 @@ Na het synchroniseren van activiteiten, zou de levering URL als het volgende voo
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-Aanbevelingen ondersteunen Vervangen door in DIV-, SECTION- en ARTIKEL-tags.
+Recommendations biedt ondersteuning voor Vervangen door in DIV-, SECTION- en ARTIKEL-tags.
 
 **Opmerking:** Voor het wisselen van afbeeldingen is een Adobe Scene7 Publishing System-account vereist.
 
@@ -288,11 +296,11 @@ Een HTML-aanbieding kan maximaal 256 kB groot zijn.
 
 #### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Aanbevelingen als voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Recommendations als een voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
 
 #### Ervaar fragment
 
-Voeg ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) toe aan [!DNL Target] activiteiten om optimalisatie of personalisatie te ondersteunen. Zie Fragmenten voor [AEM-ervaring voor meer informatie](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Voeg ervaringsfragmenten in die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om optimalisatie of personalisatie te ondersteunen. Zie Fragmenten voor [AEM ervaring voor meer informatie](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Layout
 
