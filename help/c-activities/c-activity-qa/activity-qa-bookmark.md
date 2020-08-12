@@ -1,11 +1,15 @@
 ---
 keywords: qa;preview;bookmarklet;preview links
-description: Informatie die u helpt bij het gebruik van de Adobe Target QA-bladwijzer om Target te forceren u uit de QA-modus te bevrijden.
+description: Informatie die u helpt bij het gebruik van de Adobe Target QA-bladwijzer om Target te forceren u uit de QA-modus vrij te geven.
 title: Activity QA-bladwijzer voor Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
