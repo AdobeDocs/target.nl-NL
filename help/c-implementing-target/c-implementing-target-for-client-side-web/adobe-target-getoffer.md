@@ -2,10 +2,11 @@
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
 description: Informatie over de functie adobe.target.getOffer(options) voor de Adobe Target at.js JavaScript-bibliotheek.
 title: Informatie over de functie adobe.target.getOffer(options) voor de Adobe Target at.js JavaScript-bibliotheek.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # adobe.target.getOffer(options)
 
-Deze functie activeert een aanvraag om een Target-aanbieding te krijgen.
+Deze functie voert een aanvraag in om een Target-aanbieding te krijgen.
 
 Met gebruiken `adobe.target.applyOffer()` om de reactie te verwerken of uw eigen succesafhandeling te gebruiken. De parameter options is verplicht en heeft de volgende structuur:
 
