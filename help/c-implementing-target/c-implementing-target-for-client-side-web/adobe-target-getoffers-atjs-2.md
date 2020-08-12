@@ -2,10 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Informatie over de functie adobe.target.getOffers(options) voor de Adobe Target at.js JavaScript-bibliotheek.
 title: Informatie over de functie adobe.target.getOffers() voor de Adobe Target at.js JavaScript-bibliotheek.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -39,7 +40,7 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 | Request > id > thirdPartyId | Nee | Maximale grootte = 128 |  |  |
 | Verzoek > ExperienceCloud | Nee |  |  |
 | Request > ExperienceCloud > Analytics | Nee |  | Adobe Analytics-integratie |
-| Request > ExperienceCloud > Analytics > logging | Nee | Het volgende moet op pagina worden geïmplementeerd:<ul><li>Bezoekersidentiteitsservice</li><li>Appmeasurement.js</li></ul> | De volgende waarden worden ondersteund:<br>**client_side **: Wanneer gespecificeerd, zal een analytische lading aan de bezoeker worden teruggegeven die zou moeten worden gebruikt om naar Adobe Analytics via de Invoeging API van Gegevens te verzenden.<br>**server_kant**: Dit is de standaardwaarde waarbij de Target- en Analytics-backend de SDID gebruiken om de aanroepen te koppelen voor rapportagedoeleinden. |
+| Request > ExperienceCloud > Analytics > logging | Nee | Het volgende moet op pagina worden geïmplementeerd:<ul><li>Bezoekersidentiteitsservice</li><li>Appmeasurement.js</li></ul> | De volgende waarden worden ondersteund:<br>**client_side **: Wanneer gespecificeerd, zal een analytische lading aan de bezoeker worden teruggegeven die zou moeten worden gebruikt om naar Adobe Analytics via de Invoeging API van Gegevens te verzenden.<br>**server_kant**: Dit is de standaardwaarde waar het doel en de achtergrond van Analytics SDID zullen gebruiken om de vraag voor rapporteringsdoeleinden samen te binden. |
 | Verzoek > prefetch | Nee |  |  |
 | Verzoek > Prefetch > views | Nee | Maximum aantal 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel&quot;<br>niet toegestane namen moeten beginnen: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Geef parameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
 | Request > prefetch > views > profileParameters | Nee | Maximumaantal van 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel&quot;moeten beginnen | Geef profielparameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
