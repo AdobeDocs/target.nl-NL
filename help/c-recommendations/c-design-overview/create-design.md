@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: Een ontwerp bepaalt hoe de aanbevelingen op een pagina verschijnen.
 title: Een ontwerp maken
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 1%
 
 ---
 
@@ -80,7 +84,7 @@ In het volgende voorbeeld ziet u hoe u JSON-reacties kunt retourneren tijdens he
        }  
    ```
 
-1. Stel een op formulieren gebaseerde activiteit Aanbevelingen in die gebruikmaakt van dit ontwerp.
+1. Stel een Recommendations-activiteit op basis van formulieren in die dit ontwerp gebruikt.
 
    1. Navigeer naar de pagina Activiteiten.
    1. Klik op **[!UICONTROL Create Activity]**.
@@ -110,7 +114,7 @@ In het volgende voorbeeld ziet u hoe u JSON-reacties kunt retourneren tijdens he
 | Parameter | Waarde |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Doelclientcode (beschikbaar op ../target/products.html#recsSettings > Recommendations API Token > Clientcode. |
-| `[YOUR_MBOX_NAME]` | De naam die u hebt geselecteerd in de sectie &quot;locaties&quot; van de op formulieren gebaseerde aanbevelingen, in dit geval Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | De naam die u hebt geselecteerd in de sectie &quot;locations&quot; van de op formulieren gebaseerde Recommendations, in dit geval Sample_Recs_Response. |
 | `[ENTITY_ID`] | De `entity.id` waarde van een item in uw catalogus. |
 | `[AT_PROPERTY_TOKEN]` | (Optioneel) Voeg toe als u een eigenschap (onderdeel van Enterprise-machtigingen) hebt geselecteerd tijdens het instellen van de activiteit. |
 
@@ -266,7 +270,7 @@ U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedoss
     }  
 ```
 
-## Trainingsvideo: Aangepaste ontwerpen maken in badge ![Overzicht Aanbevelingen (3:20)](/help/assets/overview.png)
+## Trainingsvideo: Aangepaste ontwerpen maken in Recommendations (3:20) - ![overzichtsbadge](/help/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 
