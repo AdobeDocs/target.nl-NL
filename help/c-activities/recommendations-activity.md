@@ -1,18 +1,22 @@
 ---
-description: De activiteiten van aanbevelingen tonen automatisch producten of inhoud die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren. De aanbevelingen helpen klanten aan relevante punten leiden zij anders niet op de hoogte zouden kunnen zijn.
-title: Activiteit aanbevelingen
+description: Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
+title: Recommendations-activiteit
+feature: null
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 0%
 
 ---
 
 
-# Activiteit aanbevelingen{#recommendations-activity}
+# Recommendations-activiteit{#recommendations-activity}
 
-De activiteiten van aanbevelingen tonen automatisch producten of inhoud die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren. De aanbevelingen helpen klanten aan relevante punten leiden zij anders niet op de hoogte zouden kunnen zijn.
+Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
 
 >[!NOTE]
 >
->De documentatie van Aanbevelingen is opnieuw gevestigd aan zijn eigen sectie. Zie [Aanbevelingen](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+>De Recommendations-documentatie is verplaatst naar een eigen sectie. Zie [Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
