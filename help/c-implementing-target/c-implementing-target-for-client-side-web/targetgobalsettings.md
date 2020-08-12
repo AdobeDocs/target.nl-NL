@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informatie over de targetGlobalSettings() functie voor de Adobe Target at.js JavaScript bibliotheek.
 title: Informatie over de targetGlobalSettings() functie voor de Adobe Target at.js JavaScript bibliotheek.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 0%
@@ -161,7 +162,7 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: String
 * **Standaardwaarde**: Waarde ingesteld via UI.
-* **Omschrijving**: Vertegenwoordigt de Target Edge-server.
+* **Omschrijving**: Vertegenwoordigt de doelEdge-server.
 
 ### serverState
 
@@ -179,7 +180,7 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: Boolean
 * **Standaardwaarde**: true
-* **Omschrijving**: Als deze optie is ingeschakeld, haalt u automatisch de weergaven op die moeten worden geretourneerd tijdens het laden van de pagina. Weergaven worden ondersteund in at.js 2.*alleen x* .
+* **Omschrijving**: Als deze optie is ingeschakeld, haalt u automatisch de weergaven op die bij het laden van de pagina moeten worden geretourneerd. Weergaven worden ondersteund in at.js 2.*alleen x* .
 
 ### bezoekerApiTimeout
 
@@ -203,7 +204,7 @@ window.targetGlobalSettings = {
 
 ## Gegevensleveranciers {#data-providers}
 
-Met deze instelling kunnen klanten gegevens verzamelen van externe gegevensleveranciers, zoals Demandbase, BlueKai en aangepaste services, en de gegevens doorgeven aan Target als mbox-parameters in het algemene mbox-verzoek. Het steunt de inzameling van gegevens van veelvoudige leveranciers via async en synchronisatieverzoeken. Op deze manier kunt u flikkering van de standaardpagina-inhoud eenvoudig beheren en onafhankelijke time-outs opnemen voor elke provider om de invloed op de paginaprestaties te beperken
+Met deze instelling kunnen klanten gegevens verzamelen van gegevensleveranciers van derden, zoals Demandbase, BlueKai en aangepaste services, en de gegevens doorgeven aan Target als mbox-parameters in het algemene mbox-verzoek. Het steunt de inzameling van gegevens van veelvoudige leveranciers via async en synchronisatieverzoeken. Op deze manier kunt u flikkering van de standaardpagina-inhoud eenvoudig beheren en onafhankelijke time-outs opnemen voor elke provider om de invloed op de paginaprestaties te beperken
 
 >[!NOTE]
 >
@@ -213,8 +214,8 @@ De volgende video&#39;s bevatten meer informatie:
 
 | Video | Beschrijving |
 |--- |--- |
-| [Gegevensleveranciers gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Gegevensleveranciers is een mogelijkheid waarmee u gegevens van derden eenvoudig kunt doorgeven aan Target. Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken. |
-| [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementatiedetails en voorbeelden van het gebruik van de functie Adobe Target DataProviders om gegevens van externe gegevensleveranciers op te halen en door te geven in de Target-aanvraag. |
+| [Gegevensleveranciers gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Gegevensleveranciers zijn een mogelijkheid waarmee u gegevens van derden eenvoudig aan Doel kunt doorgeven. Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken. |
+| [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementatiedetails en voorbeelden van het gebruik van de functie Adobe Target DataProviders om gegevens van externe gegevensleveranciers op te halen en door te geven in de aanvraag van het Doel. |
 
 De `window.targetGlobalSettings.dataProviders` instelling is een array met gegevensproviders.
 
@@ -225,7 +226,7 @@ Elke gegevensaanbieder heeft de volgende structuur:
 | name | String | Naam van de provider. |
 | versie | String | Providerversie. Deze sleutel zal voor leveranciersevolutie worden gebruikt. |
 | timeout | Getal | Geeft de time-out van de provider aan als dit een netwerkaanvraag is.  Deze toets is optioneel. |
-| provider | -functie | De functie die de logica voor het ophalen van providergegevens bevat.<br>De functie heeft één vereiste parameter: `callback`. De callback-parameter is een functie die alleen moet worden aangeroepen wanneer de gegevens zijn opgehaald of er een fout optreedt.<br>Callback verwacht twee parameters:<ul><li>fout: Geeft aan of er een fout is opgetreden. Als alles OK is, moet deze parameter op null worden ingesteld.</li><li>param: Een JSON-object dat de parameters vertegenwoordigt die in een Target-aanvraag worden verzonden.</li></ul> |
+| provider | -functie | De functie die de logica voor het ophalen van providergegevens bevat.<br>De functie heeft één vereiste parameter: `callback`. De callback-parameter is een functie die alleen moet worden aangeroepen wanneer de gegevens zijn opgehaald of er een fout optreedt.<br>Callback verwacht twee parameters:<ul><li>fout: Geeft aan of er een fout is opgetreden. Als alles OK is, moet deze parameter op null worden ingesteld.</li><li>param: Een JSON-object dat de parameters vertegenwoordigt die in een doelverzoek worden verzonden.</li></ul> |
 
 In het volgende voorbeeld wordt getoond waar de gegevensaanbieder de synchronisatie uitvoert:
 
@@ -245,9 +246,9 @@ window.targetGlobalSettings = {
 };
 ```
 
-Na processen at.js `window.targetGlobalSettings.dataProviders`, zal het verzoek van Target een nieuwe parameter bevatten: `t1=1`.
+Na processen at.js `window.targetGlobalSettings.dataProviders`, zal het verzoek van het Doel een nieuwe parameter bevatten: `t1=1`.
 
-Het volgende is een voorbeeld als de parameters die u aan het verzoek van Target wilt toevoegen van een derdedienst, zoals Bluekai, Demandbase, enzovoort worden gehaald:
+Het volgende is een voorbeeld als de parameters die u aan het verzoek van het Doel wilt toevoegen van de derdedienst, zoals Bluekai, Demandbase, enzovoort worden gehaald:
 
 ```
 var blueKaiDataProvider = { 
@@ -268,9 +269,9 @@ window.targetGlobalSettings = {
 };
 ```
 
-Na processen om.js `window.targetGlobalSettings.dataProviders`, zal het verzoek van Target extra parameters bevatten: `t1=1`, `t2=2` en `t3=3`.
+Na processen at.js `window.targetGlobalSettings.dataProviders`, zal het verzoek van het Doel extra parameters bevatten: `t1=1`, `t2=2` en `t3=3`.
 
-In het volgende voorbeeld worden gegevensproviders gebruikt om API-gegevens voor weers te verzamelen en deze als parameters te verzenden in een Target-aanvraag. Het Target-verzoek zal aanvullende params bevatten, zoals `country` en `weatherCondition`.
+In het volgende voorbeeld worden gegevensproviders gebruikt om weergegevens in API te verzamelen en te verzenden als parameters in een aanvraag van het Doel. Het verzoek van het Doel zal extra params, zoals `country` en `weatherCondition`. hebben
 
 ```
 var weatherProvider = { 
@@ -320,7 +321,7 @@ Houd rekening met het volgende wanneer u met de `dataProviders` instelling werkt
 
 ## Beveiligingsbeleid voor inhoud {#content-security}
 
-at.js 2.3.0+ biedt ondersteuning voor het instellen van Content Security Policy-nonces op SCRIPT- en STYLE-tags die aan het pagina-DOM zijn toegevoegd bij het toepassen van geleverde Target-aanbiedingen.
+at.js 2.3.0+ steunt het plaatsen van de nonces van het Veiligheidsbeleid van de Inhoud op SCRIPT en STYLE markeringen die aan pagina DOM worden toegevoegd wanneer het toepassen van geleverde aanbiedingen van het Doel.
 
 De SCRIPT- en STYLE-nonces moeten worden ingesteld in `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce` overeenkomstig, voorafgaand aan het laden van at.js 2.3.0+. Zie een voorbeeld hieronder:
 
@@ -339,22 +340,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-Nadat `cspScriptNonce` `cspStyleNonce` en de montages worden gespecificeerd, plaatst at.js 2.3.0+ deze als nonce attributen op alle markeringen SCRIPT en STYLE die het aan DOM toevoegt wanneer het toepassen van de aanbiedingen van Target.
+Nadat `cspScriptNonce` `cspStyleNonce` en de montages worden gespecificeerd, plaatst at.js 2.3.0+ deze als nonce attributen op alle markeringen SCRIPT en STYLE die het aan DOM toevoegt wanneer het toepassen van de aanbiedingen van het Doel.
 
 ## Hybride personalisatie {#server-state}
 
-`serverState` is een instelling die beschikbaar is in at.js v2.2+ en die kan worden gebruikt om de paginaprestaties te optimaliseren wanneer een hybride integratie van Target wordt geïmplementeerd. Hybride integratie betekent dat u zowel at.js v2.2+ aan de client-kant als de levering-API of een Target SDK aan de server-kant gebruikt om ervaringen te bieden. `serverState` geeft at.js v2.2+ de capaciteit om ervaringen direct van inhoud toe te passen die op de server wordt gehaald en aan de cliënt als deel van de pagina teruggegeven wordt.
+`serverState` is een instelling die beschikbaar is in at.js v2.2+ en die kan worden gebruikt om de paginaprestaties te optimaliseren wanneer een hybride integratie van Target wordt geïmplementeerd. Hybride integratie betekent dat u zowel at.js v2.2+ op de client-kant als de levering-API of een doel-SDK op de server-kant gebruikt om ervaringen te bieden. `serverState` geeft at.js v2.2+ de capaciteit om ervaringen direct van inhoud toe te passen die op de server wordt gehaald en aan de cliënt als deel van de pagina teruggegeven wordt.
 
 ### Voorwaarden
 
 Je moet een hybride integratie hebben van [!DNL Target].
 
-* **Server-kant**:  U moet de nieuwe API [voor](https://developers.adobetarget.com/api/delivery-api/) levering of [Target SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)gebruiken.
+* **Server-kant**:  U moet de nieuwe [levering API](https://developers.adobetarget.com/api/delivery-api/) of [Doel SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)gebruiken.
 * **Client**: U moet [at.js versie 2.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)gebruiken.
 
 ### Codevoorbeelden
 
-Voor een beter begrip van hoe dit werkt, zie hieronder de codevoorbeelden die u op uw server zou hebben. De code gaat ervan uit dat u de SDK [van](https://github.com/adobe/target-nodejs-sdk)Target Node.js gebruikt.
+Voor een beter begrip van hoe dit werkt, zie hieronder de codevoorbeelden die u op uw server zou hebben. De code veronderstelt u de SDK [van Node.js van het](https://github.com/adobe/target-nodejs-sdk)Doel gebruikt.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -466,7 +467,7 @@ Houd rekening met het volgende wanneer u `serverState`:
    * VEC-gemaakte activiteiten die worden uitgevoerd bij het laden van de pagina.
    * Vooraf opgehaalde weergaven.
 
-      In het geval van SPAs die [!DNL Target] Weergaven en `triggerView()` in at.js API gebruiken, in.js v2.2 geheime voorgeheugens de inhoud voor alle Weergaven die op server-kant worden vooraf ingesteld en past deze toe zodra elke Mening via `triggerView()`, opnieuw zonder extra inhoud-haalt vraag aan Target te vuren wordt teweeggebracht.
+      In het geval van SPAs die [!DNL Target] Weergaven en `triggerView()` in at.js API gebruiken, in.js v2.2 geheime voorgeheugens de inhoud voor alle Weergaven die op server-kant worden vooraf ingesteld en past deze toe zodra elke Mening via `triggerView()`, opnieuw wordt teweeggebracht zonder om het even welke extra inhoud-haalt vraag aan Doel te vuren.
 
    * **Opmerking**:  Op dit moment worden selectievakjes die op de server worden opgehaald, niet ondersteund in `serverState`.
 
