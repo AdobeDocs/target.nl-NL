@@ -1,11 +1,15 @@
 ---
 keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
-description: Maak een publiek met alleen activiteit vanuit de driestappenworkflow met instructies voor Adobe Target wanneer u een activiteit maakt. Deze speciale doelgroepen kunnen op andere plaatsen binnen dezelfde activiteit worden gebruikt, maar worden niet opgeslagen in de Soortbibliotheek voor gebruik in andere activiteiten.
-title: Een alleen-activiteitpubliek maken in Adobe Target
+description: Maak een publiek met alleen activiteit vanuit de driestappenworkflow van Adobe Target wanneer u een activiteit maakt. Deze speciale doelgroepen kunnen op andere plaatsen binnen dezelfde activiteit worden gebruikt, maar worden niet opgeslagen in de Soortbibliotheek voor gebruik in andere activiteiten.
+title: Een alleen-actief publiek maken in Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
