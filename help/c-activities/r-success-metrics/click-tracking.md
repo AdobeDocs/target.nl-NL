@@ -1,12 +1,13 @@
 ---
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-description: Met Target kunt u klikken op elk element bijhouden als een succesmetrische waarde.
+description: Het doel laat u toe om kliks op om het even welk element te volgen als succes metrisch.
 title: Klikken bijhouden
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -16,11 +17,11 @@ ht-degree: 0%
 
 # Klikken bijhouden{#click-tracking}
 
-Met Target kunt u klikken op elk element bijhouden als een succesmetrische waarde.
+Het doel laat u toe om kliks op om het even welk element te volgen als succes metrisch.
 
 >[!NOTE]
 >
->Het bijhouden van klikken wordt niet ondersteund op de algemene Target-aanvraag wanneer deze wordt gebruikt als locatie in een op formulieren gebaseerde activiteit.
+>Het volgen van kliks wordt niet gesteund op het globale verzoek van het Doel wanneer het als plaats in een vorm-gebaseerde activiteit wordt gebruikt.
 
 ## Klikspatiëring instellen {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -39,7 +40,7 @@ Wanneer een deelnemer aan een activiteit op een geselecteerd element klikt, word
 
 ## Deelvenster Geselecteerde elementen {#selected-elements}
 
-Voor A/B-test, Experience Targeting (XT), Automated Personalization (AP) en Multivariate Test (MVT)-activiteiten, bevat een [!UICONTROL Selected Elements] deelvenster alle geselecteerde elementen voor klik op tracking aan de rechterkant.
+Voor A/B-test-, Experience Targeting- (XT), Automated Personalization- (AP) en MVT-activiteiten (Multivariate Test) bevat een [!UICONTROL Selected Elements] deelvenster alle geselecteerde elementen voor klik op tracking aan de rechterkant.
 
 ![Deelvenster Geselecteerde elementen](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
@@ -53,7 +54,7 @@ Er zijn verschillende acties die u kunt toepassen wanneer u de muisaanwijzer op 
 
 ### Element toevoegen
 
-Als u het DOM-pad naar de kiezer al kent, kunt u het handmatig toevoegen door op het plusteken boven in het deelvenster te klikken.
+Als u het DOM-pad naar de kiezer al kent, kunt u het handmatig toevoegen door op het pluspictogram boven in het deelvenster te klikken.
 
 ![Pictogram Element toevoegen](/help/c-activities/r-success-metrics/assets/add-element.png)
 
@@ -90,7 +91,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
    | $ | Dollar-teken |
    | `[ ]` | Vierkante haken |
 
-* Als u [!DNL at.js] klik het volgen gebruikt en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] annuleert het volgen alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
+* Als u [!DNL at.js] klik het volgen gebruikt en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] het volgen annuleert alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
 
    [!DNL at.js] heeft een speciale afhandeling voor het bijhouden van klikken wanneer het onderliggende element een `A` (koppeling)tag of - `FORM` tag is.
 
@@ -98,15 +99,16 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    1. Oproepen `event.preventDefault()`.
 
-   1. Fire Target request.
+   1. Verzoek branddoel.
 
-   1. Voer het standaardgedrag uit als Target-verzoek is geslaagd of een fout is teruggeroepen:
+   1. Voer het standaardgedrag uit als de aanvraag is geslaagd of er een fout is teruggeroepen:
 
       * `A` (link) tag: Standaard wordt naar de URL gegaan die door het kenmerk HREF wordt gedefinieerd.
       * `FORM` tag: Standaard wordt het formulier verzonden.
-   Dit standaardgedrag kan problemen opleveren met het bijhouden van Analytics-klikken. Als u Analytics gebruikt, moet u voor het bijhouden van klikken op Analytics vertrouwen in plaats van op Target.
 
-* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor zakelijke gebruikers zijn een Target Premium-functie. Zie [Gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md)voor ondernemingen voor meer informatie.
+   Dit standaardgedrag kan problemen veroorzaken bij het bijhouden van klikken op Analytics. Als u Analytics gebruikt, zou u voor het volgen van klik eerder dan Doel op Analytics moeten vertrouwen.
+
+* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor gebruikers in de onderneming zijn een Target Premium-functie. Zie [Gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md)voor ondernemingen voor meer informatie.
 
 ## Trainingsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
