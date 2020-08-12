@@ -1,10 +1,14 @@
 ---
 keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: U kunt in Adobe Target een publiek maken op basis van netwerkgegevens.
-title: Maak een publiek in Adobe Target op basis van netwerkgegevens.
+title: Maak een publiek in Adobe Target op basis van netwerkdetails.
+feature: null
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 2%
 
 ---
 
