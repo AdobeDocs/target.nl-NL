@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
 title: Het oplossen van problemen de Composer van de Visuele Ervaring en Verbeterde Composer van de Ervaring
+feature: null
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
 
-VEC is een van de belangrijkste eigenschappen van Adobe Target. VEC is een redacteur die marketers en ontwerpers toelaat om inhoud tot stand te brengen en te veranderen gebruikend een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. Het bewerken van HTML en JavaScript is ook mogelijk met behulp van de bewerkingsopties die beschikbaar zijn in de composer.
+De VEC is een van de belangrijkste kenmerken van Adobe Target. VEC is een redacteur die marketers en ontwerpers toelaat om inhoud tot stand te brengen en te veranderen gebruikend een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. Het bewerken van HTML en JavaScript is ook mogelijk met behulp van de bewerkingsopties die beschikbaar zijn in de composer.
 
 De EEG is een uitbreiding van VEC die u helpt een ervaring voor een iframe-bouwend plaats of pagina&#39;s uitgeven die nog niet de implementatie van het Doel omvatten. Als u problemen hebt met het openen van uw pagina in de VEC, probeert u de EEG.
 
