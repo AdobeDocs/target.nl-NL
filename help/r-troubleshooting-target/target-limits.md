@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
 title: Limieten
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen
 >
 >Wanneer de limieten die als &quot;aanbevolen&quot; zijn opgegeven, worden benaderd of overschreden, kan de prestatie trager worden. Trage tijden van interfacebelasting kunnen ook worden veroorzaakt door een zeer complexe activiteit, zoals vele publiek, doelstellingen, en ervaringen allen in één activiteit.
 >
->Zeer complexe activiteiten moeten worden beoordeeld met Adobe Consulting en in een beperkte omgeving worden getest voordat ze worden vrijgegeven voor productie.
+>De zeer complexe activiteiten moeten worden herzien met behulp van Adobe Consulting en in een beperkte omgeving worden getest voordat ze worden vrijgegeven voor productie.
 
 ## Activiteiten
 
@@ -79,9 +83,9 @@ Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500
 
 ## excludeIds {#excludedid}
 
-**Limiet**: 5 kB voor POST-aanvragen. 2.083 tekens min de lengte van de URL voor GET aanvragen.
+**Limiet**: 5 kB voor verzoeken van de POST. 2.083 tekens min de lengte van de URL voor aanvragen van GET.
 
-Voor GET verzoeken, hoewel de grens op het achtereind 5 KB is, wegens het feit dat Microsoft Internet Explorer URL tot 2.083 karakters beperkt, is de realistische grens 2.083 karakters minus de huidige lengte van URL.
+Voor verzoeken van GET, hoewel de grens op het achtereind 5 KB is, wegens het feit dat Microsoft Internet Explorer URL tot 2.083 karakters beperkt, is de realistische grens 2.083 karakters minus de huidige lengte van URL.
 
 ## Ervaringsnamen
 
@@ -91,7 +95,7 @@ Voor GET verzoeken, hoewel de grens op het achtereind 5 KB is, wegens het feit d
 
 **Limiet**: 2.000 ervaringen per ervaring gericht (XT), A/B Test, Multivariate Test (MVT), en auto-doelactiviteit.
 
-30.000 ervaringen per Geautomatiseerde Personalisatie (AP) activiteit.
+30.000 ervaringen per Automated Personalization (AP) activiteit.
 
 ## In-box-profielkenmerkwaarde
 
@@ -196,7 +200,7 @@ Alles wordt langer afgekapt door het systeem.
 
 **Aanbevolen limiet voor totale profielscripts per account**: 2 000
 
-**Aanbevelingen om de complexiteit** van profielscripts te beperken: Profielscripts kunnen een beperkt aantal instructies uitvoeren. Zie [Aanbevolen werkwijzen](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profielkenmerken* voor meer informatie.
+**Recommendations voor het beperken van de complexiteit** van profielscripts: Profielscripts kunnen een beperkt aantal instructies uitvoeren. Zie [Aanbevolen werkwijzen](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profielkenmerken* voor meer informatie.
 
 ## Eigenschappen
 
@@ -210,7 +214,7 @@ Alles wordt langer afgekapt door het systeem.
 
 **Aanbevolen limiet**: 2000 tekens.
 
-Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat Adobe Target wordt ingeschakeld.
+Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat deze naar Adobe Target gaat.
 
 ## Scriptprofielnamen
 
