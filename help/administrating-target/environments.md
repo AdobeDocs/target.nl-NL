@@ -2,10 +2,11 @@
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
 title: Omgevingen
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -65,24 +66,24 @@ U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 >
 >U kunt de [!UICONTROL Production] omgeving niet verwijderen, maar u kunt de naam ervan wel wijzigen.
 
-## Aanbevelingen: filterverzamelingen en -uitsluitingen naar omgeving (hostgroep)
+## Recommendations: filterverzamelingen en -uitsluitingen naar omgeving (hostgroep)
 
 ![Premium badge](/help/assets/premium.png)
 
-U kunt de inhoud van de inzamelingen en de uitsluitingen van Aanbevelingen voor een geselecteerde milieu (gastheergroep) voorproef.
+U kunt een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).
 
 >[!NOTE]
 >
->De activiteiten van aanbevelingen zijn beschikbaar als deel van de oplossing van de [!DNL Target] Premie. Ze zijn niet beschikbaar in [!DNL Target] Standard zonder een [!DNL Target] Premium-licentie.
+>Recommendations-activiteiten zijn beschikbaar als onderdeel van de [!DNL Target] Premium-oplossing. Ze zijn niet beschikbaar in [!DNL Target] Standard zonder een [!DNL Target] Premium-licentie.
 
 U kunt een omgeving gebruiken om de beschikbare items in uw catalogus te scheiden voor verschillende toepassingen. U kunt bijvoorbeeld hostgroepen gebruiken voor [!UICONTROL Development] en [!UICONTROL Production] omgevingen, verschillende merken of verschillende geografische gebieden. Standaard zijn de voorvertoningsresultaten in Cataloguszoekopdrachten, Verzamelingen en Uitsluitingen gebaseerd op de standaardhostgroep. (U kunt ook een andere hostgroep selecteren om een voorvertoning van de resultaten weer te geven met behulp van het filter Omgeving.) Nieuwe toegevoegde items zijn standaard beschikbaar in alle hostgroepen, tenzij een milieu-id is opgegeven bij het maken of bijwerken van het item. De geleverde aanbevelingen hangen van de gastheergroep af die in het verzoek wordt gespecificeerd.
 
-Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Om te zien welke producten in elke milieu beschikbaar zijn, gebruik CatalogusOnderzoek met elke milieu. U kunt ook een voorvertoning weergeven van de inhoud van verzamelingen en uitsluitingen met aanbevelingen voor een geselecteerde omgeving (hostgroep).
+Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Om te zien welke producten in elke milieu beschikbaar zijn, gebruik CatalogusOnderzoek met elke milieu. U kunt ook een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).
 
 >[!NOTE]
 >Nadat u de geselecteerde omgeving hebt gewijzigd, moet u op Zoeken klikken om de geretourneerde resultaten bij te werken.
 
-Het [!UICONTROL Environment] filter is beschikbaar op de volgende plaatsen in Target UI:
+Het [!UICONTROL Environment] filter is beschikbaar op de volgende plaatsen in het Doel UI:
 
 * Catalogus zoeken ([!UICONTROL Recommendations > Catalog Search])
 * Verzameling maken, dialoogvenster ([!UICONTROL Recommendations > Collections > Create New])
