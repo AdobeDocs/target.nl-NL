@@ -2,10 +2,14 @@
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: Informatie over ondersteunde en niet-ondersteunde insteekmodules voor Adobe Target.
 title: at.js plug-ins voor Adobe Target
+feature: null
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
