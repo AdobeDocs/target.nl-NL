@@ -2,10 +2,11 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Informatie over omleidingsvoorstellen in Adobe Target die ervoor zorgen dat een browser omleidt naar een nieuwe pagina.
 title: Omleidingsvoorstellen maken
+feature: null
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -62,7 +63,7 @@ De omleidingsaanbieding voert code JavaScript uit om browser om te leiden. De me
 
 Deze video bevat informatie over het beheren van inhoud.
 
-* Verbinding tussen de [Experience Cloud Asset Library](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) en de Target Content Library
+* Verbinding tussen de [Experience Cloud-elementenbibliotheek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
 * Aangepaste HTML-aanbiedingen
 * Aangepaste HTML-aanbieding in de Visual Experience Composer
 
