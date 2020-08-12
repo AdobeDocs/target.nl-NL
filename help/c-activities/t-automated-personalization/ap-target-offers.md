@@ -1,17 +1,21 @@
 ---
-description: In een Geautomatiseerde Personaliseringsactiviteit, kunt u aanbiedingen aan specifiek publiek richten.
-title: Aanbiedingen voor geautomatiseerde personalisatie van het doel
+description: In een Automated Personalization-activiteit kunt u aanbiedingen richten op specifieke doelgroepen.
+title: Automated Personalization-doelaanbiedingen
+feature: null
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Target Automated Personalization biedt{#target-automated-personalization-offers}
 
-In een Geautomatiseerde Personalisatie (AP) activiteit, kunt u aanbiedingen aan specifiek publiek richten.
+In een Automated Personalization-activiteit (AP) kunt u aanbiedingen richten op specifieke doelgroepen.
 
 Als u deze functie gebruikt, verkleint u het aantal aanbiedingen dat een specifieke bezoeker kan zien. Neem bijvoorbeeld een AP-activiteit met drie aanbiedingen. Aanbieding 1 heeft een richtingsregel die zijn blootstelling aan Publiek A beperkt. Twee bezoekers zagen deze AP-activiteit.
 
@@ -26,7 +30,7 @@ In dit scenario, zou Bezoeker 1 Aanbieding 1 zien (omdat hij of zij als deel van
 
 ## Doelstellingen instellen
 
-1. Maak een [geautomatiseerde personaliseringsactiviteit](/help/c-activities/t-automated-personalization/create-ap-activity.md) met de aanbiedingen die u wilt richten.
+1. Maak een [Automated Personalization-activiteit](/help/c-activities/t-automated-personalization/create-ap-activity.md) met de aanbiedingen waarop u zich wilt richten.
 1. Na vestiging de aanbiedingen voor de activiteit in de Visuele Composer van de Ervaring, klik **[!UICONTROL Manage Content]**.
 
    ![Inhoud beheren](/help/c-activities/t-automated-personalization/assets/manage-content.png)
