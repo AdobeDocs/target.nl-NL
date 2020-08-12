@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
 title: Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer
+feature: null
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 0%
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
 
-## Biedt Target ondersteuning voor iframes op meerdere niveaus?
+## Biedt het Doel ondersteuning voor iframes op meerdere niveaus?
 
-Target biedt geen ondersteuning voor iframes met meerdere niveaus. Als uw website een iframe laadt dat een onderliggend iframe heeft, communiceren Target-bibliotheken (at.js en mbox.js) alleen met het bovenliggende iframe. Target-bibliotheken hebben geen interactie met de onderliggende iframe.
+Doel ondersteunt geen iframes op meerdere niveaus. Als uw website een iframe laadt dat een onderliggend iframe heeft, werken doelbibliotheken (at.js en mbox.js) alleen met het bovenliggende iframe. Doelbibliotheken hebben geen interactie met het onderliggende iframe.
 
 Als tussenoplossing kunt u een pagina toevoegen in de ervaring met de URL van het onderliggende iframe.
 
@@ -26,9 +27,9 @@ Als tussenoplossing kunt u een pagina toevoegen in de ervaring met de URL van he
 
 Dit kan gebeuren als de URL een #-teken bevat. Om de kwestie te bevestigen, schakelaar op Browse wijze in de Visuele Composer van de Ervaring, en dan terug te schakelen om wijze samen te stellen. De spinner moet weggaan en de pagina moet worden geladen.
 
-## Met CSP-koppen (Content Security Policy) worden de Target-bibliotheken op mijn website geblokkeerd. (VEC en EEG) {#section_89A30C7A213D43BFA0822E66B482B803}
+## De kopballen van het Beleid van de Veiligheid van de inhoud (CSP) blokkeren de bibliotheken van het Doel op mijn website. (VEC en EEG) {#section_89A30C7A213D43BFA0822E66B482B803}
 
-Als de CSP-headers van uw website Target-bibliotheken blokkeren, wordt de website geladen, maar wordt het bewerken voorkomen, en zorgt u ervoor dat de Target-bibliotheken niet worden geblokkeerd.
+Als de CSP-headers van uw website de doelbibliotheken blokkeren, wordt de website geladen, maar wordt het bewerken voorkomen, zorgt u ervoor dat de doelbibliotheken niet worden geblokkeerd.
 
 >[!NOTE]
 >
@@ -67,7 +68,7 @@ Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en
 
 ## Ik kan geen ervaringen bewerken voor een iFrame-opbouwende site. (VEC en EEG) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Dit probleem kan worden opgelost door de Enhanced Experience Composer in te schakelen. Klik **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** en schakel het selectievakje Enhanced Experience Composer in. De Enhanced Experience Composer gebruikt een door Adobe beheerde proxy om uw pagina te laden voor bewerken. Op deze manier kunt u sites bewerken op iFrame en kunt u ze bewerken op sites en pagina&#39;s waaraan u nog geen Adobe Target-code hebt toegevoegd. De activiteiten leveren niet aan de plaats tot de code is toegevoegd. Sommige sites worden mogelijk niet geladen via de Enhanced Experience Composer. In dat geval kunt u deze optie uitschakelen om de Visual Experience Composer via een iFrame te laden. []
+Dit probleem kan worden opgelost door de Enhanced Experience Composer in te schakelen. Klik **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** en schakel het selectievakje Enhanced Experience Composer in. De Enhanced Experience Composer gebruikt een proxy met Adobe-beheer om uw pagina te laden voor bewerken. Op deze manier kunt u sites bewerken op iFrame en kunt u ze bewerken op sites en pagina&#39;s waaraan u nog geen Adobe Target-code hebt toegevoegd. De activiteiten leveren niet aan de plaats tot de code is toegevoegd. Sommige sites worden mogelijk niet geladen via de Enhanced Experience Composer. In dat geval kunt u deze optie uitschakelen om de Visual Experience Composer via een iFrame te laden. []
 
 >[!NOTE]
 >
@@ -79,7 +80,7 @@ Zie &quot;Ik kan bovenstaande ervaringen voor een iFrame-bursting site niet bewe
 
 ## Vette en cursieve tekststijlen met Tekst bewerken/HTML of Tekst wijzigen/HTML worden niet op mijn pagina weergegeven. Soms verdwijnt de tekst na het toepassen van deze stijlwijzigingen. (VEC en EEG) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Als u **[!UICONTROL Edit Text/HTML]** in de Visuele Composer van de Ervaring voor A/B of Ervaring gerichte activiteiten of **[!UICONTROL Change Text/HTML]** voor Geautomatiseerde Personalisatie of de Multivariate activiteiten van de Test gebruikt om tekst vet of cursief te maken, zouden die stijlen niet op de pagina kunnen worden toegepast of de tekst verdwijnt van de pagina in Visual Experience Composer. De manier waarop de RTF-editor deze stijlen toepast, kan de websiteopmaak beïnvloeden.
+Als u **[!UICONTROL Edit Text/HTML]** in de Visuele Composer van de Ervaring voor A/B of Ervaring gerichte activiteiten of **[!UICONTROL Change Text/HTML]** voor Automated Personalization of Multivariate activiteiten van de Test gebruikt om tekst vette of cursief te maken, zouden die stijlen niet op de pagina kunnen worden toegepast of de tekst verdwijnt van de pagina in Visual Experience Composer. De manier waarop de RTF-editor deze stijlen toepast, kan de websiteopmaak beïnvloeden.
 
 Als u dit probleem ziet:
 
@@ -90,6 +91,6 @@ Als u dit probleem ziet:
 
    * Wijzig voor cursieve tekst de `<em>` elementen in `<i>`.
 
-## Voor Automated Personalization-activiteiten, lijkt het wisselen van afbeeldingen gebroken in VEC of EEC. (VEC en EEG) {#section_88AABFDFE6A3420299B0D508B12A3994}
+## Bij Automated Personalization-activiteiten wordt het wisselen van afbeeldingen in de VEC of EEC verbroken. (VEC en EEG) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 Als u een afbeeldingsaanbieding aan een locatie toevoegt, krijgt de oorspronkelijke afbeeldingsruimte in VEC of EEC de volledige grootte. Bij levering wordt de afbeelding niet uitgevouwen en wordt deze weergegeven zoals deze is, zodat er geen invloed is op de levering.
