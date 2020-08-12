@@ -1,11 +1,15 @@
 ---
 keywords: affinity;category affinity
-description: Met de functie voor categorieaffiniteit in Adobe Target worden automatisch de categorieën vastgelegd die een gebruiker bezoekt en wordt vervolgens de affiniteit van de gebruiker voor de categorie berekend, zodat deze kan worden aangewezen en gesegmenteerd. Dit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die het meest waarschijnlijk op die informatie handelen.
+description: Met de functie voor categorieaffiniteit in Adobe Target worden automatisch de categorieën vastgelegd die een gebruiker bezoekt en wordt vervolgens de affiniteit van de gebruiker voor de categorie berekend, zodat deze kan worden geactiveerd en gesegmenteerd. Dit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die het meest waarschijnlijk op die informatie handelen.
 title: Categorieaffiniteit gebruiken in Adobe Target
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +32,7 @@ U kunt `user.categoryAffinities[]` in een profielscript gebruiken om een array m
 
 >[!IMPORTANT]
 >
->Het `user.categoryId` kenmerk dat wordt gebruikt voor het categorieaffiniteitsalgoritme van Adobe Target, verschilt van het `entity.categoryId` kenmerk dat wordt gebruikt voor de product- en inhoudsaanbevelingen van Adobe Target Recommendations. `user.categoryId` is vereist om de favoriete rubriek van een gebruiker bij te houden. `entity.categoryId` is vereist om aanbevelingen te baseren op de categorie van de huidige pagina of van het huidige item. Geef beide waarden door aan Adobe Target als u beide mogelijkheden wilt gebruiken.
+>Het `user.categoryId` attribuut dat wordt gebruikt voor het affiniteitsalgoritme van de categorie Adobe Target is verschillend van het `entity.categoryId` attribuut dat wordt gebruikt voor het product en de inhoudaanbevelingen van Adobe Target Recommendations. `user.categoryId` is vereist om de favoriete rubriek van een gebruiker bij te houden. `entity.categoryId` is vereist om aanbevelingen te baseren op de categorie van de huidige pagina of van het huidige item. Geef beide waarden door aan Adobe Target als u beide mogelijkheden wilt gebruiken.
 
 ## Bedrijfscase voor categorieaffiniteit {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -128,6 +132,7 @@ Deze sectie bevat de volgende informatie:
    * Derde rubriek
    * Vierde categorie
    * Vijfde categorie
+
    De opties Favoriete rubriek en Eerste rubriek zijn gelijk.
 
 1. Kies de evaluator:
