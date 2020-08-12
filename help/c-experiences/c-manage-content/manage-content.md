@@ -2,9 +2,13 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: Gebruik de bibliotheek van Aanbiedingen om uw codeaanbieding en beeldaanbiedingsinhoud te beheren.
 title: Aanbiedingen
+feature: null
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ Gebruik de bibliotheek van Aanbiedingen om uw codeaanbieding en beeldaanbiedings
 
 >[!NOTE]
 >
->In de release van januari 2017 zijn aanbiedingen die via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s zijn gemaakt, zichtbaar in de [!DNL Target Standard/Premium] gebruikersinterface. Aanbiedingen die de afgelopen twee jaar met behulp van deze methoden zijn bijgewerkt, zijn zichtbaar (d.w.z. januari 2015 en daarna). De eerste synchronisatie vindt plaats wanneer een gebruiker in uw organisatie de [!UICONTROL Offers] pagina voor het eerst opent. De hoeveelheid tijd voor de eerste synchronisatie is afhankelijk van de hoeveelheid gegevens. Na de eerste synchronisatie worden de gegevens incrementeel gesynchroniseerd. Als u vóór deze release code en afbeeldingen in dezelfde map had, [!DNL Target] worden deze gesplitst in twee dubbele mappen. De bijgewerkte datum en tijd verwijzen naar de tijd waarop de map is gemigreerd en geven niet de datum weer waarop u de map oorspronkelijk hebt gemaakt.
+>In de release van januari 2017 zijn aanbiedingen die zijn gemaakt via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s zichtbaar in de [!DNL Target Standard/Premium] gebruikersinterface. Aanbiedingen die de afgelopen twee jaar met behulp van deze methoden zijn bijgewerkt, zijn zichtbaar (d.w.z. januari 2015 en daarna). De eerste synchronisatie vindt plaats wanneer een gebruiker in uw organisatie de [!UICONTROL Offers] pagina voor het eerst opent. De hoeveelheid tijd voor de eerste synchronisatie is afhankelijk van de hoeveelheid gegevens. Na de eerste synchronisatie worden de gegevens incrementeel gesynchroniseerd. Als u vóór deze release code en afbeeldingen in dezelfde map had, [!DNL Target] worden deze gesplitst in twee dubbele mappen. De bijgewerkte datum en tijd verwijzen naar de tijd waarop de map is gemigreerd en geven niet de datum weer waarop u de map oorspronkelijk hebt gemaakt.
 
 Klik **[!UICONTROL Offers]** om de bibliotheek te openen. De bibliotheek bevat de aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen die in [!DNL Target Classic] of andere oplossingen zijn gemaakt, kunnen worden bewerkt in [!DNL Target Standard/Premium].
 
@@ -23,7 +27,7 @@ De [!UICONTROL Offers] pagina heeft twee tabbladen aan de rechterkant: Codevoors
 
 ![](assets/offers_page.png)
 
-U kunt aanbiedingen filteren op type (HTML-aanbieding, Aanbieding omleiden, Externe aanbieding of Map) en op bron (Adobe Target, Adobe Target Classic, Adobe Experience Manager, Adobe Mobile Services of API).
+U kunt aanbiedingen filteren op type (HTML-aanbieding, Aanbieding omleiden, Externe aanbieding of Map) en op bron (Adobe Target, Adobe Target Classic, Adobe Experience Manager, Mobiele Adobe-services of API).
 
 ![](assets/offers_filter.png)
 
@@ -87,7 +91,7 @@ De volgende informatie is beschikbaar:
 
 Deze video bevat informatie over het beheer van aanbiedingen.
 
-* Verbinding tussen de [Experience Cloud Asset Library](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) en de Target Content Library
+* Verbinding tussen de [Experience Cloud-elementenbibliotheek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
 * Aangepaste HTML-aanbiedingen
 * Aangepaste HTML-aanbieding in de Visual Experience Composer
 
