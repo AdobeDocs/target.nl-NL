@@ -2,9 +2,13 @@
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: Er zijn een aantal taken die u kunt uitvoeren op een element in de bibliotheek.
 title: Werken met inhoud in de bibliotheek
+feature: null
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +29,7 @@ Informatie over de taken die u kunt uitvoeren op een element in de inhoudsbiblio
    |--- |--- |--- |
    | Annoteren | Afbeelding | Voeg een notitie toe aan het element. Klik op het element, selecteer het gebied dat u wilt annoteren en typ uw notitie. |
    | Kopiëren | <br><br><br>ExperienceImageFolderText/HTML | Kopieer het element naar het klembord. |
-   | Verwijderen | <br><br><br>ExperienceImageFolderText/HTML | Verwijder het element.<br>U kunt een volledige map met daarin een willekeurig aantal elementen en submappen verwijderen. Deze functie is beschikbaar in de doelgebruikersinterface en in de gebruikersinterface van Adobe Experience Cloud Assets.<br>Als u een map met een groot aantal afbeeldingen verwijdert, kan het proces dat achter de scènes wordt uitgevoerd (enkele minuten) duren voordat de gebruikersinterface wordt vernieuwd en de uiteindelijke status wordt weergegeven. De hoeveelheid tijd die nodig is, is afhankelijk van het aantal afbeeldingen en niet van de grootte van de afbeeldingen. Een goede schatting is tien minuten voor 2000 afbeeldingen. U kunt doorgaan met ander werk en de uiteindelijke status na enkele minuten controleren om de verwijdering te verifiëren.<br> U kunt niet-lege mappen uit de bibliotheek met afbeeldingsaanbiedingen verwijderen. Als in geen enkele activiteit naar alle afbeeldingen in de map wordt verwezen, worden de volledige map en de inhoud ervan verwijderd. Als er in een willekeurige activiteit naar bepaalde afbeeldingen in de map wordt verwezen, worden alle afbeeldingen zonder referenties verwijderd, maar blijven de afbeeldingen en mappen waarin naar wordt verwezen, behouden. |
+   | Verwijderen | <br><br><br>ExperienceImageFolderText/HTML | Verwijder het element.<br>U kunt een volledige map met daarin een willekeurig aantal elementen en submappen verwijderen. Deze functie is beschikbaar in de interface Doel en in de gebruikersinterface van Adobe Experience Cloud Assets.<br>Als u een map met een groot aantal afbeeldingen verwijdert, kan het proces dat achter de scènes wordt uitgevoerd (enkele minuten) duren voordat de gebruikersinterface wordt vernieuwd en de uiteindelijke status wordt weergegeven. De hoeveelheid tijd die nodig is, is afhankelijk van het aantal afbeeldingen en niet van de grootte van de afbeeldingen. Een goede schatting is tien minuten voor 2000 afbeeldingen. U kunt doorgaan met ander werk en de uiteindelijke status na enkele minuten controleren om de verwijdering te verifiëren.<br> U kunt niet-lege mappen uit de bibliotheek met afbeeldingsaanbiedingen verwijderen. Als in geen enkele activiteit naar alle afbeeldingen in de map wordt verwezen, worden de volledige map en de inhoud ervan verwijderd. Als er in een willekeurige activiteit naar bepaalde afbeeldingen in de map wordt verwezen, worden alle afbeeldingen zonder referenties verwijderd, maar blijven de afbeeldingen en mappen waarin naar wordt verwezen, behouden. |
    | Downloaden | <br><br>ExperienceImageText/HTML | Download het middel naar uw apparaat of computer. |
    | Bewerken | <br>ImageText/HTML | Bewerk het element. Het scherm Element bewerken wordt geopend en bevat enkele bewerkingsopties, zoals roteren en uitsnijden. |
    | Kaart delen | <br><br>ExperienceImageText/HTML | Deel de kaart op een ander bord. U kunt een annotatie tekenen, het bord selecteren waarmee u wilt delen en een opmerking over de kaart toevoegen. |
@@ -37,7 +41,7 @@ Informatie over de taken die u kunt uitvoeren op een element in de inhoudsbiblio
 
 Deze video bevat informatie over het beheren van inhoud. (4:56)
 
-* Verbinding tussen de [Experience Cloud Asset Library](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) en de Target Content Library
+* Verbinding tussen de [Experience Cloud-elementenbibliotheek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
 * Aangepaste HTML-aanbiedingen
 * Aangepaste HTML-aanbieding in de Visual Experience Composer
 
