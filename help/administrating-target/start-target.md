@@ -1,12 +1,16 @@
 ---
 keywords: Administration;approver role;approver
-description: Deze sectie bevat de eerste stappen die Adobe Target-beheerders moeten uitvoeren nadat ze de e-mailuitnodiging voor de Adobe Experience Cloud hebben ontvangen.
+description: Deze sectie bevat de eerste stappen die Adobe Target-beheerders moeten uitvoeren na ontvangst van de e-mailuitnodiging aan de Adobe Experience Cloud.
 title: Eerste stappen van beheerder
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +23,7 @@ Deze sectie bevat de eerste stappen die [!DNL Target] beheerders moeten uitvoere
 
 Een beheerder van het Systeem in [!DNL Adobe Admin Console] moet u als gebruiker binnen toevoegen [!DNL Target] door u uit te nodigen om zich aan te sluiten. De beheerder van het Systeem zou u aan één of meerdere rol-specifieke groepen dan moeten toevoegen. Beide taken worden uitgevoerd in de [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Zie [Experience Cloud-gebruikers en -producten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) beheren in de Help bij ** Experience Cloud en Core Services voor meer informatie.
+Voor meer informatie, zie [Experience Cloud gebruikers en producten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in de *Experience Cloud en hulp* van de Diensten van de Kern beheren.
 
 U ontvangt een uitnodigingse-mail nadat de systeembeheerder deze stappen heeft uitgevoerd.
 
@@ -28,12 +32,12 @@ U ontvangt een uitnodigingse-mail nadat de systeembeheerder deze stappen heeft u
 Nadat u de uitnodiging hebt ontvangen om deel te nemen aan de uitnodiging, accepteert u de uitnodiging, meldt u zich aan en accepteert u de licentieovereenkomst voor eindgebruikers (EULA). [!DNL Adobe Experience Cloud]
 
 1. Accepteer de uitnodiging aan de [!DNL Adobe Experience Cloud].
-1. Als u nog geen Adobe-id hebt, wordt u gevraagd om er een te maken.
+1. Als u nog geen Adobe ID hebt, wordt u gevraagd om er een te maken.
 
-   Als u wel een Adobe-id hebt, wordt uw Adobe-id herkend en wordt u gevraagd u aan te melden.
+   Als u een Adobe ID hebt, wordt uw Adobe ID herkend en wordt u gevraagd u aan te melden.
 1. Accepteer de Gebruiksvoorwaarden.
 1. Bekijk de samenvatting van wat u tot nu toe hebt gedaan en klik op **[!UICONTROL Continue to Experience Cloud]**.
-1. Meld u aan bij Adobe Experience Cloud en klik op **[!UICONTROL Link Account]**.
+1. Meld u aan bij de Adobe Experience Cloud en klik op **[!UICONTROL Link Account]**.
 
    >[!NOTE]
    >
