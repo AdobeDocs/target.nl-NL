@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;experience performance report
 description: Het rapport Experience Performance laat zien hoe elke ervaring in de activiteit presteert.Dit rapport bevat informatie over het aantal deelnemers, de conversiesnelheid, de lift en het vertrouwen.
 title: Experience Performance Report (MVT)
+feature: null
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
