@@ -2,10 +2,14 @@
 keywords: Profile script;profile script attributes;mutually exclusive activities
 description: U kunt profielkenmerken gebruiken om tests in te stellen die twee of meer activiteiten vergelijken, maar niet toestaan dat dezelfde bezoekers aan elke activiteit deelnemen.
 title: Profielscripts gebruiken om activiteiten te testen die elkaar uitsluiten
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 0%
 
 ---
 
