@@ -1,12 +1,13 @@
 ---
 keywords: implement target;implementation;implement at.js;tag manager
-description: Informatie over het implementeren van Adobe Target zonder gebruik te maken van tagbeheer (Adobe Launch of Dynamic Tag Management).
-title: Target implementeren zonder tagbeheer
+description: Informatie over het implementeren van Adobe Target zonder gebruik te maken van een tagbeheer (Adobe starten of Dynamisch tagbeheer).
+title: Doel implementeren zonder tagbeheer
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 4%
@@ -14,13 +15,13 @@ ht-degree: 4%
 ---
 
 
-# Target implementeren zonder tagbeheer{#implement-target-without-a-tag-manager}
+# Doel implementeren zonder tagbeheer{#implement-target-without-a-tag-manager}
 
 Informatie over het implementeren [!DNL Adobe Target] zonder gebruik te maken van een tagbeheer ([!DNL Adobe Launch] of [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
->[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer u Adobe Launch gebruikt om Target te implementeren.
+>[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
 
 Als u de [!UICONTROL Implementation] pagina wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -42,7 +43,7 @@ U kunt de volgende accountdetails weergeven. Deze instellingen kunnen niet worde
 
 | Instelling | Beschrijving |
 | --- | --- |
-| Clientcode | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de Target API&#39;s. |
+| Clientcode | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de doel-API&#39;s. |
 | IMS Organisatie-id | Deze id koppelt uw implementatie aan uw [!DNL Adobe Experience Cloud] account. |
 
 ## Implementatiemethoden
@@ -64,7 +65,7 @@ U kunt de volgende instellingen configureren in het deelvenster Implementatiemet
 
 >[!IMPORTANT]
 >
->Het Target-team ondersteunt beide om 1.js.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
+>Het team van het Doel steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 
 Klik op de desbetreffende **[!UICONTROL Download]** knop om de gewenste versie van at.js te downloaden.
 
@@ -107,7 +108,7 @@ Zie [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-
 
 >[!NOTE]
 >
->De optie Verouderde browserondersteuning was beschikbaar in versie 0.js 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4. Zie [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)voor een lijst met browsers die worden ondersteund door at.js.<br>Verouderde browsers zijn oudere browsers die geen volledige ondersteuning bieden voor CORS (Cross Origin Resource Sharing). Deze browsers zijn: Browsers van Internet Explorer ouder dan versie 11 en Safari versies 6 en lager. Als ondersteuning voor verouderde browsers was uitgeschakeld, heeft Target geen inhoud geleverd of bezoekers geteld in rapporten over deze browsers. Als deze optie is ingeschakeld, wordt u aangeraden kwaliteitsborging toe te passen in alle oudere browsers, zodat de klant er optimaal van profiteert.
+>De optie Verouderde browserondersteuning was beschikbaar in versie 0.js 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4. Zie [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)voor een lijst met browsers die worden ondersteund door at.js.<br>Verouderde browsers zijn oudere browsers die geen volledige ondersteuning bieden voor CORS (Cross Origin Resource Sharing). Deze browsers zijn: Browsers van Internet Explorer ouder dan versie 11 en Safari versies 6 en lager. Als ondersteuning voor verouderde browsers was uitgeschakeld, heeft Target geen inhoud geleverd of heeft Target geen bezoekers geteld in rapporten over deze browsers. Als deze optie is ingeschakeld, wordt u aangeraden kwaliteitsborging toe te passen in alle oudere browsers, zodat de klant er optimaal van profiteert.
 
 ## Downloaden om.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -115,20 +116,20 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target] interface of de
 
 >[!NOTE]
 >
->* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer u Adobe Launch gebruikt om Target te implementeren.
+>* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
    >
    >
-* Het Target-team ondersteunt beide om 1.js.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
+* Het team van het Doel steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
 
 
-### Download at.js via de Target-interface {#section_1F5EE401C2314338910FC57F9592894E}
+### Download at.js gebruikend de interface van het Doel {#section_1F5EE401C2314338910FC57F9592894E}
 
 Downloaden [!DNL at.js] vanaf de [!DNL Target] interface:
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 1. Klik in de [!UICONTROL Implementation methods] sectie op de **[!UICONTROL Download]** knop naast de gewenste versie at.js.
 
-### Download at.js met de Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Download at.js met de API voor doeldownloaden {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Downloaden [!DNL at.js] met de API.
 
@@ -170,7 +171,7 @@ Downloaden [!DNL at.js] met de API.
 
    >[!IMPORTANT]
    >
-   >Het Target-team onderhoudt slechts twee versies van [!DNL at.js]—de huidige en de tweede versie. Voer [!DNL at.js] indien nodig een upgrade uit om ervoor te zorgen dat u een ondersteunde versie gebruikt. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
+   >Het team van het Doel handhaaft slechts twee versies van [!DNL at.js]-de huidige versie en de tweede-recentste versie. Voer [!DNL at.js] indien nodig een upgrade uit om ervoor te zorgen dat u een ondersteunde versie gebruikt. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
 
    Wanneer u deze URL laadt, wordt het downloaden van uw aangepaste [!DNL at.js] bestand gestart.
 
@@ -178,7 +179,7 @@ Downloaden [!DNL at.js] met de API.
 
 at.js moet worden geïmplementeerd in het `<head>` element van elke pagina van uw website.
 
-Een standaardimplementatie van Target die geen tagbeheer zoals [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) of [Dynamic Tag Management](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) gebruikt, ziet er als volgt uit:
+Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Lancering](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) of [Dynamisch Beheer](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) van de Markering gebruikt ziet als volgt uit:
 
 ```
 <!doctype html> 
@@ -239,9 +240,9 @@ Houd rekening met de volgende belangrijke opmerkingen:
 
 * Het HTML5-document (bijvoorbeeld `<!doctype html>`) moet worden gebruikt. Niet-ondersteunde of oudere documenttypen kunnen ertoe leiden dat Target geen aanvraag kan indienen.
 * De opties Preconnect en Prefetch zijn opties die u kunnen helpen uw webpagina&#39;s sneller te laden. Als u deze configuraties gebruikt, zorg ervoor dat u `<client code>` met uw eigen cliëntcode vervangt, die u van de **[!UICONTROL Administration]** > **[!UICONTROL Implementation] pagina kunt verkrijgen.
-* Als u een gegevenslaag hebt, is het beter om zoveel mogelijk in de pagina&#39;s te definiëren voordat at.js wordt geladen. `<head>` Deze plaatsing biedt de maximale mogelijkheid om deze informatie in Target te gebruiken voor personalisatie.
-* Speciale Target-functies, zoals `targetPageParams()`, `targetPageParamsAll()`Data Providers, en `targetGlobalSettings()` moeten worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze bestanden ook opslaan in de [!UICONTROL Library Header] sectie van de [!UICONTROL Edit at.js Settings] pagina en opslaan als onderdeel van de bibliotheek at.js zelf. Zie [at.js voor meer informatie over deze functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
-* Als u JavaScript-hulpbibliotheken gebruikt, zoals jQuery, moet u deze vóór Target opnemen, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
+* Als u een gegevenslaag hebt, is het beter om zoveel mogelijk in de pagina&#39;s te definiëren voordat at.js wordt geladen. `<head>` Deze plaatsing verstrekt het maximumvermogen om deze informatie in Doel voor verpersoonlijking te gebruiken.
+* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`Data Providers, en `targetGlobalSettings()` moeten worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze bestanden ook opslaan in de [!UICONTROL Library Header] sectie van de [!UICONTROL Edit at.js Settings] pagina en opslaan als onderdeel van de bibliotheek at.js zelf. Zie [at.js voor meer informatie over deze functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Als u JavaScript-hulplijnbibliotheken gebruikt, zoals jQuery, neemt u deze op voordat u Target gaat gebruiken, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
 * Neem om.js op in de `<head>` pagina&#39;s.
 
 ## Omzettingen bijhouden {#task_E85D2F64FEB84201A594F2288FABF053}
@@ -250,7 +251,7 @@ In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw si
 
 >[!NOTE]
 >
->Als gebruikers aankopen doen op uw website, raden we u aan een bevestigingsvak voor bestellingen te implementeren, zelfs als u Analytics for Target (A4T) gebruikt voor uw melding.
+>Als gebruikers aankopen doen op uw website, raden we u aan een bevestigingsvak voor bestellingen te implementeren, zelfs als u Analytics for Target (A4T) gebruikt voor uw rapportage.
 
 1. Voeg op de pagina met orderdetails het mbox-script in volgens het onderstaande model.
 1. Vervang de WOORDEN IN KAPITAALLETTERS door dynamische of statische waarden uit de catalogus.
