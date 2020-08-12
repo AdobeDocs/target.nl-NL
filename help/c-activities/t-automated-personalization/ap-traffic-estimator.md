@@ -1,10 +1,14 @@
 ---
 description: De schatter van het Verkeer verstrekt terugkoppelt die u laat weten of u voldoende verkeer voor uw activiteit hebt om te slagen.
 title: Schatting van het verkeer dat voor succes wordt vereist
+feature: null
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 De schatter van het Verkeer verstrekt terugkoppelt die u laat weten of u voldoende verkeer voor uw activiteit hebt om te slagen.
 
-Omdat een Geautomatiseerde activiteit van de Personalisatie veelvoudige aanbiedingscombinaties gebruikt, is het belangrijk om te weten hoeveel verkeer wordt vereist om betekenisvolle resultaten te verstrekken. De schatter van het Verkeer gebruikt statistieken over uw pagina en het aantal ervaringen die worden getest om de hoeveelheid verkeer en de testduur te schatten nodig om de activiteit succesvol te maken.
+Omdat een activiteit van Automated Personalization veelvoudige aanbiedingscombinaties gebruikt, is het belangrijk om te weten hoeveel verkeer wordt vereist om betekenisvolle resultaten te verstrekken. De schatter van het Verkeer gebruikt statistieken over uw pagina en het aantal ervaringen die worden getest om de hoeveelheid verkeer en de testduur te schatten nodig om de activiteit succesvol te maken.
 
 De schatter van het Verkeer bepaalt als er genoeg verkeer is om gepersonaliseerde modellen te produceren, door de geschatte paginaaimpressies en de typische omzettingspercentage voor de pagina&#39;s te vergelijken. In het ideale geval zorgt de juiste voorbeeldgrootte voor een geslaagde activiteit ervoor dat gepersonaliseerde inhoud binnen 50% van de activiteitsperiode of 14 dagen gereed is, afhankelijk van welke datum het minst is. Hierdoor is er voldoende tijd om persoonlijke inhoud te verkrijgen en te leren welke inhoud moet worden geleverd.
 
@@ -33,6 +37,7 @@ Herinner dat Doel willekeurig ervaringen dient tot de verpersoonlijkingsalgoritm
    * Typische conversiesnelheid: De omrekeningskoers wordt uitgedrukt als een percentage, op basis van uw schatting of gegevens uit het verleden van uw analysesysteem.
    * Geschatte bezoeken per dag: Dit is het aantal bezoeken per dag van bezoekers die de activiteit kunnen bekijken, op basis van de doelcriteria. Dit kan op uw analysegegevens worden gebaseerd. Dit nummer moet bezoeken zijn en geen unieke bezoekers.
    * Duur test: Het aantal dagen waarop de activiteit moet worden uitgevoerd.
+
    De schatter van het Verkeer gebruikt deze statistieken om te bepalen welke aanpassingen nodig zijn om een succesvolle test in werking te stellen.
 
    Vlak bij de bovenkant van de schatter van het Verkeer, worden de waarden u inging berekend en de resultaten worden getoond.
@@ -43,9 +48,10 @@ Herinner dat Doel willekeurig ervaringen dient tot de verpersoonlijkingsalgoritm
 
    Als u onvoldoende verkeer hebt, kunt u een van de volgende handelingen uitvoeren:
 
-   * Overweeg Auto-Doel in plaats van Geautomatiseerde Personalisatie te gebruiken om ervaringen met verscheidene aanbiedingsveranderingen in één ervaringsvariatie tot stand te brengen.
-   * Verminder het aantal aanbiedingscombinaties binnen uw Geautomatiseerde Personaliseringsactiviteit.
+   * Overweeg Auto-Target in plaats van Automated Personalization te gebruiken om ervaringen te creëren met verschillende wijzigingen van aanbiedingen in één ervaringsvariatie.
+   * Verminder het aantal aanbiedingscombinaties binnen je Automated Personalization activiteit.
    * Verhoog de duur van de activiteit.
+
    Pas de aantallen aan tot de schatter van het Verkeer zegt u voldoende verkeer hebt, dan ontwerp dienovereenkomstig uw test.
 
    ![](assets/ap_est_yes.png)
