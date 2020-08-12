@@ -1,10 +1,14 @@
 ---
 keywords: at.js;sdk;release;updates;sdks;server side;serverside;server-side;java;java sdk
-description: Opmerkingen bij de release die betrekking hebben op de Java SDK van Adobe Target.
-title: Opmerkingen bij de release die betrekking hebben op de Java SDK van Adobe Target.
+description: Opmerkingen bij de release met betrekking tot de Adobe Target Java SDK.
+title: Opmerkingen bij de release met betrekking tot de Adobe Target Java SDK.
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Met de [!DNL Target] Java SDK kunt u [!DNL Target] server-side implementeren. Me
 
 De SDK van Java introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met [!DNL Target] via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren.
 
-Meer informatie over de Target Java SDK vindt u op de Adobe Tech Blog - [Server-Side Optimization met de nieuwe Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2).
+Meer informatie over de doel-Java SDK vindt u op de Tech Blog - [Server-Side Optimization met de nieuwe Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2).
 
 ## Versie 1.1.0 (16 december 2019)
 
