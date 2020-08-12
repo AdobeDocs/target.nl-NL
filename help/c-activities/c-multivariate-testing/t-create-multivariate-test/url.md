@@ -1,10 +1,11 @@
 ---
 keywords: Targeting
-description: De Activiteit URL bepaalt de pagina die in de Multivariate Test (MVT) wordt gebruikt, en die opent wanneer de test in het Doel van Adobe wordt ontworpen.
+description: De URL van de Activiteit bepaalt de pagina die in de Multivariate Test (MVT) wordt gebruikt, en die opent wanneer de test in Adobe Target wordt ontworpen.
 title: URL van activiteit
+feature: null
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
