@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Als u een paginasjabloon gebruikt om uw pagina's een structuur te geven of als uw pagina's vergelijkbare elementen bevatten, kunt u met deze functie variaties in pagina-elementen met een vergelijkbare structuur testen.
 title: Dezelfde ervaring opnemen op vergelijkbare pagina's
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
