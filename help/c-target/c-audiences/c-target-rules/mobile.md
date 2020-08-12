@@ -1,11 +1,15 @@
 ---
 keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
-description: Maak een publiek in Adobe Target voor mobiele apparaten op basis van parameters zoals mobiel apparaat, type apparaat, leverancier van het apparaat, schermafmetingen (per pixel) en meer.
+description: Maak in Adobe Target publiek voor mobiele apparaten op basis van parameters zoals mobiel apparaat, type apparaat, leverancier van apparaten, schermafmetingen (per pixel) en meer.
 title: Mobiel publiek in Adobe Target
+feature: null
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 0%
 
 ---
 
@@ -52,6 +56,7 @@ Klanten die een aangepaste integratie gebruiken (zonder at.js of de Mobile SDK),
    * OS
    * Schermhoogte (px)
    * Schermbreedte (px)
+
    >[!NOTE]
    >
    >Als gevolg van de nieuwe wijzigingen die in iOS 12.2 zijn geïntroduceerd, heeft dit gevolgen voor het maken van een publiek met regels die zijn gedefinieerd door de naam van het apparaat en het apparaatmodel die iPhone-modellen opgeven. We kunnen ons niet langer richten op gebruikers die iPhones met iOS 12.2 op hen hebben geïnstalleerd. Als deze gebruikers echter geen iOS 12.2 hebben, werkt het iPhone-model dat als doel is ingesteld, nog steeds correct.
