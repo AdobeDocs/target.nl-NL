@@ -2,10 +2,11 @@
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: Aangepaste parameters zijn parameters mbox. Als u om het even welke mbox parameters tot dozen, of de targetPageParams functie doorgeeft, verschijnen die parameters hier voor gebruik in publiek.
 title: Aangepaste parameters in Adobe Target
+feature: null
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -50,7 +51,7 @@ De pop-up kaart [van de](../../../c-target/c-audiences/audiences.md#section_11B9
 
 >[!NOTE]
 >
->Voor aangepaste soorten publiek die vóór de Target 18.5.1-release (22 mei 2018) zijn gemaakt, worden de namen van de selectievakjes niet weergegeven in de definitie-pop-upkaart van het publiek. U moet het aangepaste publiek opnieuw opslaan om de naam van het selectievakje op de kaart weer te geven.
+>Voor aangepast publiek dat vóór de doelversie 18.5.1 (22 mei 2018) is gemaakt, worden de namen van de box niet weergegeven in de definitie-pop-upkaart van het publiek. U moet het aangepaste publiek opnieuw opslaan om de naam van het selectievakje op de kaart weer te geven.
 
 ## Overwegingen {#considerations}
 
