@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Informatie over het implementeren van Doel in niet-JavaScript-scenario's, zoals het gebruik van een AdBox of Redirector.
 title: Doel e-mailimplementatie
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Advertentievakken en Redirector kunnen met om het even welke soort activiteit wo
 
 ## Aanbevolen werkwijzen voor beveiliging {#security}
 
-Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;geautoriseerde gastheren&quot;gebruiken om van de standaard opnieuw te richten domeinen URL toe te staan. Het doel gebruikt gastheren om lijstdomeinen toe te staan waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Toegestane lijsten die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden.
+Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden.
 
 ## Restricties {#section_38F559DCF1324271926608BCD4AB1227}
 
