@@ -1,11 +1,15 @@
 ---
 keywords: at.js;2.0;1.x;cookies
-description: Informatie over hoe cookies worden verwerkt door Adobe Target op .js 2.x en at.js 1.x
+description: Informatie over hoe Adobe Target op 2.js 2.x en at.js 1.x cookies verwerkt
 title: Adobe Target at.js cookies
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +30,9 @@ Het cookie van de `AMCV_###@AdobeOrg` eerste partij wordt altijd ingesteld door 
 
 Met interdomeintracering kunt u sessies op twee verwante sites, maar met verschillende domeinen, als één sessie bekijken. U kunt een [!DNL Target] activiteit tot stand brengen die overspant `siteA.com` en `siteB.com` en de bezoeker in de zelfde ervaring zou blijven wanneer zij domeinen kruisen. Deze functionaliteit is gebonden aan at.js 1.*x* -third-party en first-party cookie gedrag.
 
-In at.js 1.*x*, werd het derdekoekje opgeslagen in het `[CLIENTCODE].tt.omtrdc.net` domein en het eerste-partijkoekje werd opgeslagen in `clientdomain.com`. De eerste aanvraag gaf HTTP-antwoordheaders terug die probeerden cookies van derden met de naam `mboxSession` en `mboxPC`, in te stellen, terwijl een omleidingsverzoek met een extra parameter (`mboxXDomainCheck=true`) wordt teruggestuurd. Als de browser cookies van derden accepteerde, bevat de omleidingsaanvraag deze cookies en is de aanbieding geretourneerd. Deze workflow was mogelijk omdat om .js 1.*x* gebruikte de HTTP GET methode.
+In at.js 1.*x*, werd het derdekoekje opgeslagen in het `[CLIENTCODE].tt.omtrdc.net` domein en het eerste-partijkoekje werd opgeslagen in `clientdomain.com`. De eerste aanvraag gaf HTTP-antwoordheaders terug die probeerden cookies van derden met de naam `mboxSession` en `mboxPC`, in te stellen, terwijl een omleidingsverzoek met een extra parameter (`mboxXDomainCheck=true`) wordt teruggestuurd. Als de browser cookies van derden accepteerde, bevat de omleidingsaanvraag deze cookies en is de aanbieding geretourneerd. Deze workflow was mogelijk omdat om .js 1.*x* gebruikte de methode van de GET van HTTP.
 
-In at.js 2.x wordt HTTP GET echter niet meer gebruikt en gebruikt in plaats daarvan HTTP POST. HTTP POST wordt nu via at.js gebruikt om JSON-nuttige ladingen naar [!DNL Target] Edge-servers te verzenden in plaats van parameters voor sleutelwaarden. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP GET aanvragen epidemiologische transacties zijn, terwijl HTTP POST niet-epidemiologisch is en niet willekeurig mag worden herhaald.
+In at.js 2.x wordt HTTP-GET echter niet meer gebruikt en wordt in plaats daarvan HTTP-POST gebruikt. De POST van HTTP wordt nu gebruikt via at.js om JSON nuttige ladingen naar [!DNL Target] randservers in plaats van zeer belangrijke parameters te verzenden. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP-GET-aanvragen epidemische transacties zijn, terwijl HTTP-POST niet-epidemiologisch is en niet willekeurig mag worden herhaald.
 
 Daarom worden cookies van derden en interdomeintracering niet ondersteund in at.js 2.0.0.
 
@@ -38,7 +42,7 @@ Voor at.js versies 1.*x*, hangt het koekjesgedrag af van of het een eerderangs k
 
 ### Wanneer cookies van andere leveranciers of leveranciers gebruiken
 
-De site-instelling bepaalt welke cookies u wilt gebruiken. Het is handig om te begrijpen hoe Target werkt wanneer u cookies van andere leveranciers of leveranciers probeert te begrijpen. Zie [Hoe werkt](/help/c-intro/how-target-works.md) Adobe Target voor meer informatie.
+De site-instelling bepaalt welke cookies u wilt gebruiken. Het is handig om te begrijpen hoe Target werkt wanneer u cookies van andere leveranciers of leveranciers probeert te begrijpen. Zie [Hoe Adobe Target werkt](/help/c-intro/how-target-works.md) voor meer informatie.
 
 Er zijn drie hoofdtoepassingen voor cookies:
 
@@ -130,7 +134,7 @@ Houd rekening met het volgende:
 | Cookies | Details |
 |--- |--- |
 | Domeinen van eerste partij | Dit is de standaardimplementatie voor de klanten van het Doel.  De &quot;mbox&quot;koekjes wordt geplaatst in het domein van de klant. |
-| Tekstspatiëring van derden | Het volgen van derden is belangrijk voor het adverteren en het richten van gebruiksgevallen in Doel en in de Manager van de Audience van Adobe (AAM).  Bij het bijhouden van externe gegevens zijn technieken voor scripts die verwijzen naar andere sites, vereist.  Het doel gebruikt twee cookies, &quot;mboxSession&quot; en &quot;mboxPC&quot; ingesteld in het `clientcode.tt.omtrd.net` domein. |
+| Tekstspatiëring van derden | Tekstspatiëring door derden is belangrijk voor reclame en het richten van gebruiksgevallen in Target en Adobe Audience Manager (AAM).  Bij het bijhouden van externe gegevens zijn technieken voor scripts die verwijzen naar andere sites, vereist.  Het doel gebruikt twee cookies, &quot;mboxSession&quot; en &quot;mboxPC&quot; ingesteld in het `clientcode.tt.omtrd.net` domein. |
 
 ### Wat is de aanpak van Apple?
 
@@ -150,5 +154,5 @@ Van Apple:
 
 | Betrokken functionaliteit | Details |
 |--- |--- |
-| Ondersteuning voor uitschakelen | Met WebKit van Apple worden wijzigingen in WebKit doorgevoerd in de ondersteuning voor weigeren.<br>De optie om te weigeren gebruikt een cookie in het `clientcode.tt.omtrdc.net` domein. Zie [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)voor meer informatie.<br>Doel ondersteunt twee opt-outs:<ul><li>Eén per client (de client beheert de koppeling om te weigeren).</li><li>Eén via Adobe dat de gebruiker uit alle doelfunctionaliteit voor alle klanten opkiest.</li></ul>Beide methoden gebruiken het cookie van derden. |
+| Ondersteuning voor uitschakelen | Met WebKit van Apple worden wijzigingen in WebKit doorgevoerd in de ondersteuning voor weigeren.<br>De optie om te weigeren gebruikt een cookie in het `clientcode.tt.omtrdc.net` domein. Zie [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)voor meer informatie.<br>Doel ondersteunt twee opt-outs:<ul><li>Eén per client (de client beheert de koppeling om te weigeren).</li><li>Een via Adobe die de gebruiker uit alle functionaliteit van het Doel voor alle klanten kiest.</li></ul>Beide methoden gebruiken het cookie van derden. |
 | Doelactiviteiten | Klanten kunnen hun [profiellevensduur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) voor hun doelaccounts kiezen (maximaal 90 dagen). De zorg is dat als de het profiellevensduur van de rekening langer is dan 30 dagen, en het eerstepartijkoekje wordt gezuiverd omdat het domein van de klant als het volgen van gebruikers dwars-plaats is gemerkt, het gedrag voor bezoekers Safari op de volgende gebieden in Doel zal worden beïnvloed:<br>**de Rapporten **van het Doel: Als een gebruiker Safari in een activiteit ingaat, na 30 dagen terugkeert, en dan omzet, telt die gebruiker als twee bezoekers en één omzetting.<br>Dit gedrag is het zelfde voor activiteiten die Analytics gebruiken zoals de rapporteringsbron (A4T).<br>**Profiel en activiteitenlidmaatschap**:<ul><li>Profielgegevens worden gewist wanneer het cookie van de eerste partij verloopt.</li><li>Het lidmaatschap van de activiteit wordt gewist wanneer het eerste-partijkoekje verloopt.</li><li> Het doel werkt niet in Safari voor accounts die een cookie-implementatie van een andere fabrikant of een cookie-implementatie van een andere fabrikant gebruiken. Dit gedrag is niet nieuw. Safari heeft cookies van derden al een tijdje niet toegestaan.</li></ul><br>**Suggesties **: Als er een zorg is dat het klantendomein als één het volgen bezoekers dwars-zitting zou kunnen worden gemerkt, is het het veiligst om het profielleven aan 30 dagen of minder in Doel te plaatsen. Dit zorgt ervoor dat gebruikers op dezelfde manier worden bijgehouden in Safari en alle andere browsers. |
