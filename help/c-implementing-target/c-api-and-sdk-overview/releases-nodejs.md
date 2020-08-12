@@ -1,17 +1,21 @@
 ---
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;serverside;server-side;nodejs
-description: Opmerkingen bij de release die betrekking hebben op de API's aan de serverzijde van Adobe Target.
-title: Opmerkingen bij de release die betrekking hebben op Node.js SDK van Adobe Target.
+description: Opmerkingen bij de release met betrekking tot API's van de Adobe Target-server.
+title: Release-aantekeningen met betrekking tot Adobe Target Node.js SDK.
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
 
 # Opmerkingen bij de release - Doel Node.js SDK
 
-Opmerkingen bij de release die betrekking hebben op de Node.js SDK [van](https://github.com/adobe/target-nodejs-sdk)Adobe Target.
+Opmerkingen bij de release met betrekking tot de [Adobe Target Node.js SDK](https://github.com/adobe/target-nodejs-sdk).
 
 Met de SDK van Target Node.js kunt u [!DNL Target] server-side implementeren.
 
@@ -19,7 +23,7 @@ Deze Node.js SDK helpt u gemakkelijk [!DNL Target] met andere [!DNL Adobe Experi
 
 De SDK van Node.js introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met [!DNL Target] via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren.
 
-Meer informatie over de SDK van Target Node.js vindt u op de Tech Blog - [Open Sourcing the New Adobe Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc).
+Meer informatie over de SDK van Target Node.js vindt u op de Tech Blog van Adobe - [Open Sourcing the New Adobe Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc).
 
 ## Versie 1.0.0 (9 oktober 2019)
 
