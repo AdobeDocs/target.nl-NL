@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud;sign in
+keywords: Experience Cloud;sign in;language;default ui language;default language
 description: Instructies voor toegang tot Adobe Target vanuit de Adobe Experience Cloud.
 title: Toegangsdoel van de Adobe Experience Cloud
 subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+source-git-commit: 0443d55739001d4ecce178d11338057865982c7c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Informatie over toegang [!DNL Adobe Target] van [!DNL Adobe Experience Cloud], h
 
 ## Taal wijzigen voor de documentatie van het doelproduct {#doc-lang}
 
-Uw besturingssysteem- of browserinstellingen moeten de voorkeurstaal detecteren en de documentatie in die taal weergeven (indien beschikbaar). [!DNL Target] De documentatie wordt automatisch vertaald en zal in synchronisatie met de Engelse versie binnen uren van veranderingen in de Engelse documentatie zijn aangebracht.
+Uw besturingssysteem- of browserinstellingen moeten uw voorkeurstaal detecteren en de documentatie in die taal weergeven (indien beschikbaar). [!DNL Target] De documentatie wordt automatisch vertaald en zal in synchronisatie met de Engelse versie binnen uren van veranderingen in de Engelse documentatie zijn aangebracht.
 
 U kunt de taal snel wijzigen in de originele Engelse versie door op de koppeling in de koptekst van de pagina te klikken.
 
