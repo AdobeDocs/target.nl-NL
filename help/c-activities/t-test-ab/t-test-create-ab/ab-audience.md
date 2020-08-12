@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: De doelgroep bepaalt welke bezoekers van de site in uw activiteit worden ingevoerd.
 title: Doelgroep selecteren
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +50,7 @@ U kunt ook kiezen om Doel automatisch [verkeer](../../../c-activities/automated-
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Soorten publiek gebruiken in ![overzichtsbadge Adobe Target (6:21)](/help/assets/overview.png)
+### Soorten publiek gebruiken in Adobe Target (6:21) - ![overzichtsbadge](/help/assets/overview.png)
 
 In deze video wordt uitgelegd hoe u het publiek kunt gebruiken in [!DNL Target Standard/Premium].
 
