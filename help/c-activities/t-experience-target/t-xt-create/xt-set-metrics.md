@@ -2,10 +2,11 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Gebruik metriek in een Adobe Target Experience Targeting (XT) activiteit om te bepalen wanneer een bezoek succesvol is.
 title: Metrisch instellen
+feature: null
 solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -29,7 +30,8 @@ Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#r
    * Conversie
    * Ontvangsten
    * Betrokkenheid
-   U kunt om het even welke vooraf gebouwde succesmetriek gebruiken, of een metrisch van het douanesucces tot stand brengen. U kunt metrisch succes als primaire metrisch ook merken. Rapporten en de Kaarten van de Wolk van de Ervaring standaard om primaire metrisch te tonen, als één wordt geplaatst.
+
+   U kunt om het even welke vooraf gebouwde succesmetriek gebruiken, of een metrisch van het douanesucces tot stand brengen. U kunt metrisch succes als primaire metrisch ook merken. De rapporten en de kaarten van Experience Cloud worden standaard om primaire metrisch te tonen, als één wordt geplaatst.
 1. Geef de instellingen voor uw metriek op.
 
    Welke instellingen beschikbaar zijn, is afhankelijk van de succesmaatstaf die u gebruikt.
