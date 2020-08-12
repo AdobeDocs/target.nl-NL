@@ -2,9 +2,13 @@
 keywords: recommendations;frequently asked questions;faq
 description: Lijst met veelgestelde vragen (FAQ's) over ontwerpaanbevelingen.
 title: Veelgestelde vragen over ontwerp
+feature: null
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 0%
 
 ---
 
@@ -45,8 +49,8 @@ Versie 1.7 zonder extra hulpmiddelen of toegevoegde bibliotheken. De basisfuncti
 
 ## Hoe vervang ik een bestaande entiteitwaarde door een lege waarde? Bijvoorbeeld, moet het entiteitsbericht van een punt worden ontruimd wanneer een bevordering beëindigt. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Dit lijkt te gebeuren door verzending in een vaste JavaScript-ruimte. Laat de ontwikkelaars inzenden `\u00A0` als waarde. Voorbeeld: `entity.message=\u00A0`.U zou kunnen overwegen dat de standaardwaarde is wanneer geen waarde in plaats van ongeldig aanwezig is.
+Dit lijkt te gebeuren door verzending in een vaste JavaScript-ruimte. Laat de ontwikkelaars inzenden `\u00A0` als waarde. Voorbeeld: `entity.message=\u00A0`.U zou kunnen nadenken hebbend dat de standaardwaarde is wanneer geen waarde in plaats van ongeldig aanwezig is.
 
-## Kan ik een profielmanuscript in een ontwerp van Aanbevelingen gebruiken? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Kan ik een profielscript gebruiken in een Recommendations-ontwerp? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
 Ja. U moet echter een backslash (\) toevoegen vóór de $ in de naam van het profielscript.
