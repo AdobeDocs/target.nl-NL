@@ -2,11 +2,15 @@
 keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
 description: Informatie om uw technisch personeel te helpen de implementatie mbox.js begrijpen en hoe het uw plaats zou kunnen beïnvloeden.
 title: Wat doet mbox.js
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Informatie om uw technisch personeel te helpen de implementatie mbox.js begrijpe
 
 Voor de doelstandaard is [!DNL mbox.js] versie 58 of hoger vereist. Zie [!DNL mbox.js]Mbox-implementatie [](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)voor instructies over het downloaden en bijwerken van bestanden.
 
-Roept voor Target Standard een ander JavaScript-bestand aan [!DNL mbox.js] [!DNL target.js]. [!DNL Target.js] wordt gehost door Adobe en automatisch bijgewerkt door Adobe. Er is niets u te doen om bij te werken [!DNL target.js], en er zijn geen cliënt-specifieke aanpassingen.
+Roept voor Target Standard een ander JavaScript-bestand aan [!DNL mbox.js] [!DNL target.js]. [!DNL Target.js] wordt gehost door Adobe en wordt automatisch bijgewerkt door Adobe. Er is niets u te doen om bij te werken [!DNL target.js], en er zijn geen cliënt-specifieke aanpassingen.
 
 [!DNL Target.js] Hiermee maakt u een box met de naam `target-global-mbox` in de `<head>` sectie van de pagina.
 
