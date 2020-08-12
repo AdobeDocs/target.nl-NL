@@ -1,18 +1,22 @@
 ---
 keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
-description: Combineer meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) en maak een ad-hocpubliek. U kunt ook uitsluitingsregels maken en het publiek uitsluiten van een regel.
+description: Combineer meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) om een ad-hocpubliek te maken. U kunt ook uitsluitingsregels maken en het publiek uitsluiten van een regel.
 title: Meerdere doelgroepen combineren in Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 0%
 
 ---
 
 
 # Meerdere doelgroepen combineren{#combine-multiple-audiences}
 
-Combineer meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) en maak een ad-hocpubliek. U kunt ook uitsluitingsregels maken en het publiek uitsluiten van een regel.
+Combineer meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) om een ad-hocpubliek te maken. U kunt ook uitsluitingsregels maken en het publiek uitsluiten van een regel.
 
 Stel dat u een publiek hebt met de doelgroep &quot;Nieuwe bezoekers&quot; en een publiek met de doelgroep &quot;Chrome-gebruikers&quot;. Voor een specifieke activiteit, zou u deze bestaande publiek aan doelnieuwe bezoekers kunnen willen combineren gebruikend browsers van Chrome. In plaats van een derde publiek te maken en dit op te slaan in de [!UICONTROL Audiences] bibliotheek, kunt u deze twee soorten publiek combineren tijdens het maken van activiteiten of tijdens het bewerken van een bestaande activiteit.
 
