@@ -2,10 +2,11 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de Adobe Target-documentatie en die zijn geordend in releases.
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
+feature: null
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 0%
