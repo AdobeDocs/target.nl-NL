@@ -1,9 +1,10 @@
 ---
 description: Informatie over het gebruik van Visual Experience Composer (VEC) in Adobe Target.
 title: Adobe Target Visual Experience Composer (VEC)
+feature: null
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 Informatie over het gebruiken van Visual Experience Composer (VEC).
 
-VEC is WYSIWYG gebruikersinterface die u gemakkelijk gepersonaliseerde ervaringen en aanbiedingen in de plaatscontext kunt creëren en testen. U kunt ervaringen en aanbiedingen voor Target-activiteiten maken door te slepen en neer te zetten, te wisselen en de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina te wijzigen.
+VEC is WYSIWYG gebruikersinterface die u gemakkelijk gepersonaliseerde ervaringen en aanbiedingen in de plaatscontext kunt creëren en testen. U kunt ervaringen en aanbiedingen voor doelactiviteiten maken door te slepen en neer te zetten, te wisselen en de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina te wijzigen.
 
 De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target]. Met VEC kunnen marketers en ontwerpers inhoud maken en wijzigen via een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. Het bewerken van HTML en JavaScript is ook mogelijk met behulp van de bewerkingsopties die beschikbaar zijn in de composer.
 
-Op het tabblad Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kunt u de URL van de standaardcomposer voor visuele ervaring invoeren.
+Op het Doel **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** lusje, kunt u Standaard Visuele Composer URL ingaan van de Ervaring.
 
 ![Standaard VEC URL-instellingen](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -29,13 +30,13 @@ Deze URL bepaalt waar u begint wanneer u VEC opent. Als u geen gebrek ingaat, da
 >
 >Bepaalde browsers, zoals Firefox, kunnen voorkomen dat een pagina in de VEC wordt weergegeven als de pagina gemengde inhoud bevat (bijvoorbeeld een niet-beveiligde pagina op een beveiligde site). Als de pagina niet wordt weergegeven, klikt u op het pictogram naast de URL in de adresbalk van de browser en klikt u **[!UICONTROL Disable protection on this page]**. Dit probleem heeft geen invloed op de weergave van uw pagina&#39;s aan sitebezoekers.
 
-Inhoud in een iframe op de pagina kan niet worden gewijzigd in de VEC. Als u de inhoud in een iframe wilt bewerken, moet u ervoor zorgen dat het iframe-document Target-ingeschakeld is. Vervolgens laadt u die iframe-URL in de VEC.
+Inhoud in een iframe op de pagina kan niet worden gewijzigd in de VEC. Als u de inhoud in een iframe wilt bewerken, moet u ervoor zorgen dat het iframe-document is ingeschakeld en moet u die iframe-URL vervolgens in de VEC laden.
 
 U kunt de vervolgkeuzemenu&#39;s boven aan de pagina gebruiken om de pagina zo te bekijken dat deze bij verschillende doelgroepen of met verschillende ervaringen wordt weergegeven. U kunt een naam opgeven voor elke ervaring in de tweede vervolgkeuzelijst. Als u bijvoorbeeld de locatie van de koppeling Home op de navigatiebalk test, kunt u een ervaring benoemen waarin de koppeling Home eerst wordt weergegeven, bijvoorbeeld &quot;Koppeling Start&quot;, zodat u gemakkelijker de ervaringen in de lijst kunt identificeren.
 
 >[!NOTE]
 >
->Wijzigingen in de structuur van een pagina die van invloed zijn op de locaties die worden gebruikt in een activiteit die op die pagina is gemaakt, kunnen problemen veroorzaken met het bewerken van ervaringen. Als een locatie buiten de VEC is gewijzigd, kan Target mogelijk de locatie waar de inhoud is gewijzigd niet vinden.
+>Wijzigingen in de structuur van een pagina die van invloed zijn op de locaties die worden gebruikt in een activiteit die op die pagina is gemaakt, kunnen problemen veroorzaken met het bewerken van ervaringen. Als een locatie buiten de VEC is gewijzigd, kan Target mogelijk niet de locatie vinden waar de inhoud is gewijzigd.
 
 Terwijl u de muis over de pagina beweegt, volgt er een contextgevoelig vak de cursor, waarin de elementen op de pagina worden gemarkeerd.
 
@@ -123,7 +124,7 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 * Een ervaring hernoemen en dupliceren
 * Omleiden maken
-* Target een activiteit aan één enkele URL of een groep URLs
+* Een activiteit als doel instellen op één URL of een groep URL&#39;s
 * Een activiteit met meerdere pagina&#39;s maken
 * Ervaring voor responsieve websites voorvertonen en opbouwen
 * Overlays gebruiken om typen elementen te markeren
