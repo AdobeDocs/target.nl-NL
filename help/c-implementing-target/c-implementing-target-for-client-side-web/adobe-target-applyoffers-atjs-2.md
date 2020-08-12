@@ -1,11 +1,12 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;function
-description: Informatie over de functie adobe.target.applyOffers(options) voor Adobe Target op JavaScript.js.
-title: Informatie over de functie adobe.target.applyOffers(options) voor Adobe Target op JavaScript.js.
+description: Informatie over de functie adobe.target.applyOffers(options) voor de JavaScript-bibliotheek Adobe Target at.js.
+title: Informatie over de functie adobe.target.applyOffers(options) voor de JavaScript-bibliotheek Adobe Target at.js.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cd76bab4b3dbb73c57655403230aac09ddbd2a05
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Met deze functie kunt u meerdere aanbiedingen toepassen die zijn opgehaald door 
 
 | Sleutel | Type | Vereist? | Beschrijving |
 | --- | --- | --- | --- |
-| kiezer | String | Nee | HTML-element of CSS-kiezer die wordt gebruikt om het HTML-element aan te duiden waar de aanbiedingsinhoud [!DNL Target] moet worden geplaatst. Als er geen kiezer is opgegeven, wordt ervan [!DNL Target] uitgegaan dat het HTML-element dat moet worden gebruikt HTML HEAD is. |
+| kiezer | String | Nee | HTML-element of CSS-kiezer die wordt gebruikt om het HTML-element aan te duiden waar de aanbiedingsinhoud [!DNL Target] moet worden geplaatst. Als er geen kiezer is, wordt ervan [!DNL Target] uitgegaan dat het HTML-element dat moet worden gebruikt HTML HEAD is. |
 | Antwoord | Object | Ja | Reactieobject van `getOffers()`.<br>Zie onderstaande tabel Verzoeken. |
 
 ## Antwoord
