@@ -2,10 +2,11 @@
 keywords: form-based experience composer;form-based composer;refinements
 description: Met de Form-Based Experience Composer kunt u niet-visuele ervaringen creëren.
 title: Formuliergebaseerde Experience Composer
+feature: null
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -15,9 +16,9 @@ ht-degree: 2%
 
 # Formuliergebaseerde Experience Composer{#form-based-experience-composer}
 
-De Form-Based Experience Composer is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in A/B Tests, Experience Targeting, Automated Personalization en Recommendations activiteiten wanneer de visuele ervaringscomposer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten.
+De Form-Based Experience Composer is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in A/B Tests, Experience Targeting, Automated Personalization en Recommendations activiteiten als de visuele ervaringscomposer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten.
 
-Als u een activiteit van Aanbevelingen creeert, zijn er geen ervaringen. Kies uw criteria en ontwerp. Als u meerdere criteria of ontwerpen kiest, genereert Target automatisch de ervaringen.
+Er zijn geen ervaringen als u een Recommendations-activiteit maakt. Kies uw criteria en ontwerp. Als u meerdere criteria of ontwerpen kiest, genereert Target automatisch de ervaringen.
 
 1. Klik **[!UICONTROL Create Activity]** en selecteer het type activiteit dat u wilt maken.
 
@@ -28,7 +29,7 @@ Als u een activiteit van Aanbevelingen creeert, zijn er geen ervaringen. Kies uw
 
    ![](assets/location_refinements.png)
 
-   Dit scherm is anders als u een activiteit van Aanbevelingen creeert. De activiteiten van aanbevelingen omvatten geen ervaringen.
+   Dit scherm is anders als u een Recommendations-activiteit maakt. De activiteiten van Recommendations omvatten geen ervaringen.
 1. Geef de activiteit een naam.
 1. Selecteer een locatie.
 
@@ -53,7 +54,7 @@ Als u een activiteit van Aanbevelingen creeert, zijn er geen ervaringen. Kies uw
 
    **HTML-voorstel wijzigen:** Kies een HTML-aanbieding.
 
-   **Afbeeldingsvoorstel wijzigen:** Kies een afbeelding die is opgeslagen in de inhoudsbibliotheek in Target.
+   **Afbeeldingsvoorstel wijzigen:** Kies een afbeelding die is opgeslagen in de inhoudsbibliotheek in Doel.
 
    U kunt ook een koppeling naar een afbeelding toevoegen (doorklikken, bestemming, landen, enzovoort).
 
@@ -85,22 +86,22 @@ Als u een activiteit van Aanbevelingen creeert, zijn er geen ervaringen. Kies uw
    1. Typ of plak uw JSON-code in het vak Code.
    1. Klik op [!UICONTROL Save].
 
-   Voor een activiteit van Aanbevelingen, geeft de drop-down Inhoud u de Add optie van de Aanbeveling. Klik **[!UICONTROL Add Recommendation]** en selecteer het paginatype. Voer vervolgens de gebruikelijke stappen uit, zoals gedefinieerd in de interface, om een activiteit [met aanbevelingen te](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)maken.
+   Voor een Recommendations-activiteit bevat de vervolgkeuzelijst Inhoud de optie Aanbeveling toevoegen. Klik **[!UICONTROL Add Recommendation]** en selecteer het paginatype. Voer vervolgens de gebruikelijke stappen uit zoals gedefinieerd in de interface om een Recommendations-activiteit [te](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)maken.
 
-   Bij het selecteren van criteria voor Aanbevelingen in de Form-Based Experience Composer is er nu een directe koppeling naar de geselecteerde Criteria Card zodat u de criteria snel en eenvoudig kunt bewerken.
+   Bij het selecteren van Recommendations-criteria in de Form-Based Experience Composer is er nu een directe koppeling naar de geselecteerde Criteria Card zodat u de criteria snel en eenvoudig kunt bewerken.
 
    ![](assets/change_criteria.png)
 
-   Op de pagina Doel van de driestappenworkflow met instructies voor Target:
+   Van de Doelpagina van het Doel driestappe geleide werkschema:
 
    ![](assets/change_criteria_2.png)
 
-1. (Facultatief, voor de activiteiten van AB, Geautomatiseerde Personalisatie, en Ervaring richt) om dit proces voor extra plaatsen te herhalen, klik **[!UICONTROL Add Location]** en vorm de plaats en de inhoud.
+1. (Optioneel, voor AB-activiteiten, Automated Personalization en Experience Targeting) U kunt dit proces voor extra locaties herhalen door op de locatie en inhoud te klikken **[!UICONTROL Add Location]** en deze te configureren.
 1. Klik **[!UICONTROL Next]** en voer de gebruikelijke stappen voor het maken van activiteiten voor het type activiteit uit.
 
 * [Een A/B-test maken](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [Een ervaring maken die gericht is op activiteiten](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Een activiteit voor aanbevelingen maken](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Een Recommendations-activiteit maken](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Trainingsvideo: Zelfstudie ![voor formuliergebaseerde composer](/help/assets/tutorial.png)
 
