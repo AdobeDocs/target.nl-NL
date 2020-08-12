@@ -1,20 +1,24 @@
 ---
 keywords: api;adobe i/o
-description: Informatie die u helpt bij het gebruik van de overgang van de verouderde API's van het Doel naar de nieuwe API's op de Adobe I/O.
-title: Overgang van verouderde API's van Doel naar Adobe I/O
+description: Informatie die u helpt bij het gebruik van de overgang van de verouderde API's van het Doel naar de nieuwe API's op Adobe I/O.
+title: Overgang van verouderde API's van Doel naar I/O van Adobe
+feature: null
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 0%
 
 ---
 
 
-# Overgang van verouderde API&#39;s van Doel naar Adobe I/O{#transition-from-target-legacy-apis-to-adobe-i-o}
+# Overgang van verouderde API&#39;s van Doel naar I/O van Adobe{#transition-from-target-legacy-apis-to-adobe-i-o}
 
-Informatie die u helpt bij het gebruik van de overgang van de verouderde API&#39;s van het Doel naar de nieuwe API&#39;s op de Adobe I/O.
+Informatie die u helpt bij het gebruik van de overgang van de verouderde API&#39;s van het Doel naar de nieuwe API&#39;s op Adobe I/O.
 
-Met de buitenbedrijfstelling van Adobe Target Classic zijn de API&#39;s die zijn verbonden met uw Target Classic-account, ook niet beschikbaar gesteld. Dit document helpt u bij de overgang van uw verouderde API-gebaseerde integratie naar de doel-API&#39;s die worden aangedreven door Adobe I/O.
+Met de buitenbedrijfstelling van Adobe Target Classic zijn de API&#39;s die zijn verbonden met uw Target Classic-account ook niet beschikbaar. Dit document helpt u bij de overgang van uw verouderde API-integratie naar de doel-API&#39;s die worden aangedreven door Adobe I/O.
 
 Zie [Doel-API&#39;s en NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6)voor meer informatie over de documentatie van de doel-API.
 
@@ -22,8 +26,8 @@ Zie [Doel-API&#39;s en NodeJS SDK](../../c-implementing-target/c-api-and-sdk-ove
 
 | Term | Beschrijving |
 |--- |--- |
-| Verouderde API | API&#39;s die zijn gekoppeld aan uw Classic-doelaccount. Deze API-aanroepen zijn gebaseerd op een gebruikersnaam en op een wachtwoord gebaseerde verificatie en gebruiken de hostnaam `testandtarget.omniture.com`. Als uw API-aanroepen een gebruikersnaam en wachtwoord bevatten in de aanvraag-URL, moet u een overgang maken naar Adobe I/O-API&#39;s. |
-| Adobe I/O | Adobe I/O is de nieuwe gateway voor doel APIs. Deze API&#39;s zijn verbonden met uw Target Standard/Premium-account. De doel-API&#39;s op Adobe I/O maken gebruik van een JWT-gebaseerde verificatie, de industriestandaard voor veilige bedrijf-API&#39;s. |
+| Verouderde API | API&#39;s die zijn gekoppeld aan uw Classic-doelaccount. Deze API-aanroepen zijn gebaseerd op een gebruikersnaam en op een wachtwoord gebaseerde verificatie en gebruiken de hostnaam `testandtarget.omniture.com`. Als uw API-aanroepen een gebruikersnaam en wachtwoord bevatten in de aanvraag-URL, moet u overstappen naar Adobe I/O-API&#39;s. |
+| Adobe I/O | Adobe I/O is de nieuwe gateway voor Doel APIs. Deze API&#39;s zijn verbonden met uw Target Standard/Premium-account. De doel-API&#39;s op Adobe I/O maken gebruik van een JWT-gebaseerde verificatie, de industriestandaard voor veilige bedrijf-API&#39;s. |
 
 ## Tijdlijn {#section_A478EBF637554A2DB5A31661955121ED}
 
@@ -34,13 +38,13 @@ De oudere API&#39;s worden uit bedrijf genomen wanneer u de optie voor het uit b
 | 17 oktober 2017 | Alle API-methoden die een schrijfbewerking uitvoeren (`saveCampaign`, `copyCampaign`, `saveHTMLOfferContent`en `setCampaignState`) zijn buiten gebruik gesteld.<br>Dit is dezelfde datum waarop alle Classic doelgebruikersaccounts zijn ingesteld op de status Alleen-lezen. |
 | 14 november 2017 | De overige API&#39;s zijn uit bedrijf genomen. Dit is de datum waarop de Klassieke gebruikersinterface van het Doel werd ontmanteld |
 
-Deze tijdlijn heeft geen invloed op klassieke API&#39;s voor aanbevelingen.
+Recommendations Classic API&#39;s worden niet beïnvloed door deze tijdlijn.
 
 ## Gelijkwaardige methoden {#section_DDB42CCC172545B09CB728D794CC466B}
 
 De volgende tabel bevat een lijst met equivalente nieuwe doel-API-methoden voor de oudere API-methoden. De nieuwe API&#39;s retourneren JSON in vergelijking met de XML-respons van de verouderde API&#39;s.
 
-De nieuwe API-methoden zijn gekoppeld aan de corresponderende sectie in de API-documentatiesite. Voor elke API-methode wordt een voorbeeld gegeven. U kunt ook de verzameling Admin Postman gebruiken die voorbeeld-API-aanroepen voor alle nieuwe Adobe API-methoden op Adobe I/O bevat.
+De nieuwe API-methoden zijn gekoppeld aan de corresponderende sectie in de API-documentatiesite. Voor elke API-methode wordt een voorbeeld gegeven. U kunt de Inzameling Admin Postman ook gebruiken die steekproefAPI vraag voor alle nieuwe Adobe API methodes op Adobe I/O bevat.
 
 | Groepering | Oudere API-methode | Nieuwe API-methode | Notities |
 |--- |--- |--- |--- |
