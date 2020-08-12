@@ -2,10 +2,14 @@
 keywords: mbox.js changes;mbox.js versions
 description: Op deze pagina worden wijzigingen in elke versie van mbox.js weergegeven.
 title: mbox.js, versiedetails
+feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2316'
+ht-degree: 0%
 
 ---
 
@@ -51,10 +55,10 @@ mbox.js versie 61 bevat de volgende verbeteringen:
 * De volgende details zijn alleen van toepassing als u de API voor bezoekers op de pagina hebt:
 
    * [!DNL mbox.js] versie 61 heeft geen voorrang op de `loadTimeout` eigenschap van de Bezoeker-API. Clients kunnen de integratie van de Bezoeker-API beheren met `visitorApiTimeout` + `visitorApiPageDisplayTimeout` .
-   * Er is een `optoutEnabled` instelling toegevoegd ter ondersteuning van de toekomstige functie voor het uitschakelen van Adobe Experience Cloud. De standaardwaarde is false. Als dit bezit wordt toegelaten, voeren alle verzoeken asynchroon tegen het [!DNL /ajax] eindpunt, enkel als versie 60 uit.
+   * Er is een `optoutEnabled` instelling toegevoegd ter ondersteuning van toekomstige Adobe Experience Cloud-uitschakelfunctionaliteit. De standaardwaarde is false. Als dit bezit wordt toegelaten, voeren alle verzoeken asynchroon tegen het [!DNL /ajax] eindpunt, enkel als versie 60 uit.
    * Het verbergen van de hoofdtekst wordt standaard uitgeschakeld. Het doel gebruikt body Hide alleen wanneer global mbox auto-create is ingeschakeld en body-hide is ingeschakeld.
-   * Als er geen Experience Cloud Visitor ID-cookies zijn, worden alle aanvragen asynchroon uitgevoerd op basis [!DNL /ajax] van het laden van de eerste pagina. Bij het laden van de tweede pagina gebruikt Target de normale flow, omdat er al waarden voor de bezoeker-id aanwezig zijn.
-   * Als u Adobe Analytics gebruikt als bron voor rapportage van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
+   * Als er geen Experience Cloud Bezoeker-id-cookies zijn, worden alle aanvragen asynchroon uitgevoerd op basis [!DNL /ajax] van het laden van de eerste pagina. Bij het laden van de tweede pagina gebruikt Target de normale flow, omdat er al waarden voor de bezoeker-id aanwezig zijn.
+   * Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
 
 ## mbox.js versie 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
@@ -88,7 +92,7 @@ De techniek voor het verbergen van pagina&#39;s maakt gebruik van stijllabels om
 
 **DTM-gebruikers:** Merk op dat dit u zal verhinderen de Automatische invoeroptie te gebruiken aangezien er geen manier is om de bovengenoemde configuratie in het Doel UI op te slaan. U dient de bovenstaande instructies te gebruiken en de inhoud vervolgens in het codevak van de optie Aangepast hosten te plakken.
 
-Ook in Versie 60, als het [!DNL visitorAPI.js] dossier voor de dienst van identiteitskaart van de Bezoeker van de Wolk van de Ervaring aanwezig is, worden alle dozen gevraagd via een eindpunt AJAX. Dit is vereist omdat de API-methoden van de bezoeker asynchroon zijn. Een voordeel van deze aanpak is dat de tijd van Rendering starten aanzienlijk is verminderd, omdat aanvragen voor een box de rendering niet blokkeren. Dit betekent echter ook dat alle [!DNL Target] aanbiedingsinhoud asynchroon loopt, zodat alle aanbiedingscode dienovereenkomstig moet worden geschreven. Aanbiedingen met code `document.write` en andere code die ervan uitgaat dat deze worden uitgevoerd bij het laden van de eerste pagina, worden niet uitgevoerd zoals verwacht.
+Ook in Versie 60, als het [!DNL visitorAPI.js] dossier voor de dienst van identiteitskaart van de Bezoeker van Experience Cloud aanwezig is, worden alle dozen gevraagd via een AJAX eindpunt. Dit is vereist omdat de API-methoden van de bezoeker asynchroon zijn. Een voordeel van deze aanpak is dat de tijd van Rendering starten aanzienlijk is verminderd, omdat aanvragen voor een box de rendering niet blokkeren. Dit betekent echter ook dat alle [!DNL Target] aanbiedingsinhoud asynchroon loopt, zodat alle aanbiedingscode dienovereenkomstig moet worden geschreven. Aanbiedingen met code `document.write` en andere code die ervan uitgaat dat deze worden uitgevoerd bij het laden van de eerste pagina, worden niet uitgevoerd zoals verwacht.
 
 * asynchrone aanroepen van V60
 
@@ -118,7 +122,7 @@ mbox.js versie 59 bevat de volgende verbeteringen:
 
 Deze versie van mbox.js wordt vereist als u Analytics als rapporteringsbron voor Doel gebruikt en hoogst geadviseerd voor Profielen en Soorten publiek.
 
-Versie 58 van mbox.js verzekert de dienst van identiteitskaart van de Bezoeker van de Wolk van de Ervaring met een bezoekersidentiteitskaart alvorens de vraag van het Doel wordt gemaakt. Dit zorgt ervoor dat de publieksgegevens die door de de kerndienst van Profielen en van het publiek worden gedeeld beschikbaar voor de eerste vraag van het Doel in de zitting van de bezoeker zijn. Als u wilt voorkomen dat de standaardinhoud wordt geflikkerd voordat de testinhoud wordt geretourneerd, verbergt Target de inhoud `<BODY>` totdat de bezoekersidentiteitsservice wordt geretourneerd. `display:none` wordt gebruikt om de pagina te verbergen.
+Versie 58 van mbox.js verzekert de de dienstterugkeer van identiteitskaart van de Bezoeker van Experience Cloud met een bezoekersidentiteitskaart alvorens de vraag van het Doel wordt gemaakt. Dit zorgt ervoor dat de publieksgegevens die door de de kerndienst van Profielen en van het publiek worden gedeeld beschikbaar voor de eerste vraag van het Doel in de zitting van de bezoeker zijn. Als u wilt voorkomen dat de standaardinhoud wordt geflikkerd voordat de testinhoud wordt geretourneerd, verbergt Target de inhoud `<BODY>` totdat de bezoekersidentiteitsservice wordt geretourneerd. `display:none` wordt gebruikt om de pagina te verbergen.
 
 Deze update verhelpt ook een probleem bij het gebruik van Analytics als rapportagebron voor Target die ertoe heeft geleid dat een opgeblazen aantal bezoekers in Analytics is gerapporteerd voor bezoeken die slechts één pagina bevatten.
 
@@ -187,7 +191,7 @@ mbox.js versie 57 bevat ook belangrijke oplossingen:
 
 De volgende wijzigingen zijn aangebracht in deze versie:
 
-* Wijzigingen voor Premium-aanbevelingen ter ondersteuning van het doorgeven van parameters in algemene mbox
+* Wijzigingen voor Premium Recommendations ter ondersteuning van het doorgeven van parameters in algemene mbox
 * Voegt een 5 tweede onderbreking aan de target.js ladingsvraag toe. In het zeldzame geval dat het dossier niet laadt, zal de pagina teruggeven en geen activiteiten van de Norm van het Doel zullen tonen.
 * &quot;extra JavaScript&quot; verplaatst om te worden uitgevoerd vóór globale box
 
@@ -223,7 +227,7 @@ Hiermee wijzigt u versie 53 met IE-oplossingen.
 
 **Releasedatum:** 30 september 2014
 
-Verandert de globale mbox implementatie in AJAX van document.write. Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item in de pagina moet zijn, verwijderd <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> sectie. Deze versie is alleen beschikbaar via de API. Clients kunnen het bestand downloaden en dit bestand mbox.js gebruiken. Sommige sites ervaren inhoud die met deze implementatie flikkert. Controleer daarom de integratie op uw site.
+Hiermee wijzigt u de globale mbox-implementatie in AJAX van document.write. Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item in de pagina moet zijn, verwijderd <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> sectie. Deze versie is alleen beschikbaar via de API. Clients kunnen het bestand downloaden en dit bestand mbox.js gebruiken. Sommige sites ervaren inhoud die met deze implementatie flikkert. Controleer daarom de integratie op uw site.
 
 ## mbox versie 53
 
@@ -269,7 +273,7 @@ Verbeterde Internet Explorer 10-ondersteuning voor geneste vakken.
 
 ## mbox versie 48
 
-Extra ondersteuning voor Adobe Analytics als rapportbron voor Target.
+Toegevoegde ondersteuning voor Adobe Analytics als rapportagebron voor Target.
 
 ## mbox versie 47
 
@@ -277,13 +281,13 @@ mbox.js ondersteunt nu het gebruik van een aangepaste globale naam voor Target S
 
 ## mbox versie 46
 
-Volledige ondersteuning toegevoegd voor de service Experience Cloud-bezoekersidentiteitskaart voor de implementatie van één regel code door Target Standard. Hierdoor wordt integratie van Adobe Analytics op de server en het gedeelde Experience Cloud-profiel ingeschakeld.
+Toegevoegde volledige steun voor de dienst van identiteitskaart van de bezoeker van Experience Cloud voor de enige-lijn-van-code van de Norm van het Doel implementatie. Dit maakt Adobe Analytics-integratie op de server en het gedeelde Experience Cloud-profiel mogelijk.
 
 Oplossing voor een probleem met het leveren van inhoud in IE10 in documentmodus.
 
 ## mbox versie 45
 
-Volledige ondersteuning toegevoegd voor de service Experience Cloud-bezoekersidentiteitskaart Hierdoor wordt integratie van Adobe Analytics op de server en het gedeelde Experience Cloud-profiel ingeschakeld.
+Volledige ondersteuning toegevoegd voor de service Experience Cloud-bezoeker-id. Dit maakt Adobe Analytics-integratie op de server en het gedeelde Experience Cloud-profiel mogelijk.
 
 ## mbox versie 44
 
@@ -297,7 +301,7 @@ Toegevoegde ondersteuning voor doelstandaard.
 
 ## mbox versie 42
 
-Aanvankelijke ondersteuning toegevoegd voor Experience Cloud-service voor gedeelde bezoekers-id.
+Aanvankelijke ondersteuning toegevoegd voor de Experience Cloud-service voor gedeelde bezoekers-id.
 
 ## mbox versie 41
 
@@ -311,11 +315,11 @@ Aanvankelijke ondersteuning toegevoegd voor Experience Cloud-service voor gedeel
 
 * Vaste SiteCalyst-plug-in om altijd de Ajax-fetcher te gebruiken
 
-   Vóór deze wijziging waren er enkele situaties voor gebruikers van de plug-in Test&amp;Target naar SiteCatalyst waarin, afhankelijk van het moment waarop de plug-in is geladen, een document.write kon worden geactiveerd die de pagina zou wissen.
+   Vóór deze wijziging waren er enkele situaties waarin gebruikers van de plug-in Test&amp;Target de SiteCatalyst konden uitvoeren. Afhankelijk van het tijdstip waarop de plug-in is geladen, kon een document.write worden geactiveerd die de pagina zou wissen.
 
 ## mbox versie 38
 
-Toegevoegde ondersteuning voor op pagina gebaseerde SiteCatalyst voor test&amp;Target-integratie (moet zijn ingeschakeld)
+Toegevoegde ondersteuning voor op pagina&#39;s gebaseerde SiteCatalyst tot test&amp;Target-integratie (moet zijn ingeschakeld)
 
 ## mbox versie 37
 
