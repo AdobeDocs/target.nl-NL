@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Automatisch doel
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3511'
 ht-degree: 0%
@@ -116,7 +117,7 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] de voorke
 
 * Deze metrische waarde zou op omzettingsbasis of op opbrengst-gebaseerd (meer bepaald Inkomsten per Bezoek) kunnen zijn.
 
-**Het algoritme steunt het gebruiken niet[!DNL Analytics]als gegeven-bron of een rapporterend eindpunt.**
+**Het algoritme steunt niet het gebruiken[!DNL Analytics]als gegeven-bron of een rapporterend eindpunt.**
 
 **Het doel verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen te bouwen.**
 
