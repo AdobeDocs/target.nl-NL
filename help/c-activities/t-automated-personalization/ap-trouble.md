@@ -1,9 +1,10 @@
 ---
-description: Soms gaan activiteiten niet zoals verwacht. Hier zijn enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u Geautomatiseerde Personalisatie gebruikt, en sommige voorgestelde oplossingen.
-title: Problemen met geautomatiseerde personalisatie oplossen
+description: Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u Automated Personalization gebruikt en enkele oplossingen.
+title: Problemen met Automated Personalization oplossen
+feature: null
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -11,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) problemen oplossen Geautomatiseerde personalisatie{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Troubleshoot Automated Personalization{#troubleshoot-automated-personalization}
 
-Soms gaan activiteiten niet zoals verwacht. Hier zijn enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u Geautomatiseerde Personalisatie gebruikt, en sommige voorgestelde oplossingen.
+Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u Automated Personalization gebruikt en enkele oplossingen.
 
 ## Mijn AP-activiteit duurt te lang om modellen te bouwen. {#section_20028B204DBB4D77A324BA193434AEE2}
 
-Er zijn verscheidene veranderingen van de activiteitenopstelling die de verwachte tijd kunnen verminderen om modellen te bouwen, met inbegrip van het aantal ervaringen in uw Geautomatiseerde test van de Personalisatie, het verkeer aan uw plaats, en uw geselecteerde succesmetrische gegevens.
+Er zijn verscheidene veranderingen van de activiteitenopstelling die de verwachte tijd kunnen verminderen om modellen te bouwen, met inbegrip van het aantal ervaringen in uw test van Automated Personalization, het verkeer aan uw plaats, en uw geselecteerde succesmetrisch.
 
 **Oplossing:** Controleer uw activiteitenopstelling en zie of zijn er om het even welke veranderingen u bereid bent aan te brengen om de snelheid te verbeteren waarop de modellen zullen bouwen.
 
@@ -39,7 +40,7 @@ Er zijn verschillende factoren vereist voor een AP-activiteit om lift te generer
 
 ## De URL van mijn AP-activiteit toont inhoud van de aanbieding op onjuiste pagina&#39;s. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, worden URL en malplaatje het testen regels toegevoegd aan de beperking van de [!DNL Target] verzoekingang (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een activiteit kwalificeert, wordt het Target-verzoek-niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats het richten regels.
+In AP, worden URL en malplaatje het testen regels toegevoegd aan de beperking van de [!DNL Target] verzoekingang (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een activiteit kwalificeert, wordt het doel-verzoek-niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats het richten regels.
 
 **Oplossing:** Voeg de noodzakelijke malplaatjeregels als input-publiek van de campagne toe. De evaluatie van het publiek gebeurt op elk verzoek/vraag.
 
