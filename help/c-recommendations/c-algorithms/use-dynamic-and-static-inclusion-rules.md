@@ -1,10 +1,14 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
-description: Informatie over het maken van inclusieregels in Adobe Target-aanbevelingen voor criteria en promoties en het toevoegen van aanvullende dynamische of statische filterregels voor betere resultaten.
-title: Regels voor dynamische en statische insluiting gebruiken in Adobe Target-aanbevelingen
+description: Informatie over het creëren van inclusieregels in Adobe Target Recommendations voor criteria en bevorderingen, en het toevoegen van extra dynamische of statische het filtreren regels om betere resultaten te bereiken.
+title: Regels voor dynamische en statische integratie gebruiken in Adobe Target Recommendations
+feature: null
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1433'
+ht-degree: 0%
 
 ---
 
