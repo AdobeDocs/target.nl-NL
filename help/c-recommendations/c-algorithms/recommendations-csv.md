@@ -2,9 +2,13 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Upload een CSV-bestand om uw aanbevelingen aan te passen.
 title: Aangepaste criteria uploaden
+feature: null
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +78,7 @@ De Zorg van de Cliënt van het contact om het plaatsen toe te laten om de bestaa
 
 Aangepaste criteria worden elke 24 uur bijgewerkt.
 
-U kunt de upload- en synchronisatiestatus zien van uw aangepaste criteria die u uploadt onder aan elke criteria op de pagina Aanbevelingen > Criteria. De status wordt ook weergegeven in het dialoogvenster Bewerken wanneer u aangepaste criteria bewerkt.
+U kunt de upload- en synchronisatiestatus van uw aangepaste criteria bekijken onder aan elke criteria-kaart op de pagina Recommendations > Criteria. De status wordt ook weergegeven in het dialoogvenster Bewerken wanneer u aangepaste criteria bewerkt.
 
 De stroom voor een foutloze upload moet zijn gepland > Feed-bestand downloaden > Importeren > Succesvol.
 
@@ -89,7 +93,7 @@ Het volgende is mogelijke foutmeldingen die u kunt ontvangen als Target een prob
 | Map niet gevonden | Geef een map op die op de server bestaat. |
 | Bestand niet gevonden | Geef de naam op van een bestand dat op de server in de aangegeven directory staat. |
 
-## Trainingsvideo: Criteria maken in ![zelfstudie voor aanbevelingen (12:33)](/help/assets/tutorial.png)
+## Trainingsvideo: Criteria maken in Recommendations (12:33) - ![Zelfstudie](/help/assets/tutorial.png)
 
 Deze video bevat de volgende informatie (details over het uploaden van aangepaste criteria beginnen om 11:43):
 
