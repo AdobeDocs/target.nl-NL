@@ -2,10 +2,11 @@
 keywords: Overview and Reference
 description: De URL van de Activiteit bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test wordt ontworpen.
 title: URL van activiteit
+feature: null
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
