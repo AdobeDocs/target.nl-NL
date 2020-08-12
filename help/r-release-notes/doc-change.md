@@ -5,9 +5,9 @@ title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 118ca52beebcc11795b381f7f1fdcea305d2005f
+source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 12 augustus | [De interface van het doel begrijpen](/help/c-intro/understand-the-target-ui.md) | Nieuw onderwerp. |
+|  | [Overzicht Adobe Target API](/help/api/api-overview.md) | Nieuw onderwerp. |
 | 10 augustus | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Toegevoegde tekst die aangeeft dat de cookieheader groter wordt wanneer CNAME wordt gebruikt. |
 |  | [Doel integreren met Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | Nieuw onderwerp. |
 |  | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde koppeling om het volgende gearchiveerde webinar weer te geven: &quot;Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal.&quot; |
