@@ -2,10 +2,14 @@
 keywords: qa;preview;preview link;mobile;mobile preview
 description: Gebruik de koppeling voor mobiele voorvertoningen om eenvoudige end-to-end QA's voor mobiele app-activiteiten uit te voeren en uzelf in te schrijven voor verschillende ervaringen op uw apparaat zonder speciale testapparaten.
 title: De koppeling voor mobiele voorvertoningen gebruiken in Adobe Target mobile
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +20,7 @@ Gebruik de koppeling voor mobiele voorvertoningen om eenvoudige end-to-end QA&#3
 
 >[!NOTE]
 >
->Voor de functie voor mobiele voorvertoningen moet u de juiste versie van de Adobe Mobile SDK versie 4.14 (of hoger) downloaden en installeren.
+>Voor de functie voor mobiele voorvertoningen moet u de juiste 4.14 (of hoger) versie van de Adobe Mobile SDK downloaden en installeren.
 
 ## Overzicht {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -24,12 +28,12 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
 ## Vereisten {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **Gebruik een ondersteunde versie van de SDK:** Voor de functie voor mobiele voorvertoningen moet u de juiste 4.14 (of hoger) versie van Adobe Mobile SDK downloaden en installeren in de betreffende apps.
+1. **Gebruik een ondersteunde versie van de SDK:** Voor de functie voor mobiele voorvertoningen moet u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloaden en installeren in de corresponderende apps.
 
    Voor instructies voor het downloaden van de juiste SDK raadpleegt u:
 
    * **iOS:** [Voordat u begint](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) in de iOS Help bij *Mobile Services*.
-   * **Android:** [Voordat u begint](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) in de Android Help *voor* mobiele services.
+   * **Android:** [Voordat u begint](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) in de Android Help bij *Mobiele services*.
 
 1. **Een URL-schema instellen:** De voorbeeldkoppeling gebruikt een URL-schema om uw app te openen. U moet een uniek URL-schema opgeven voor de voorvertoning.
 
@@ -41,7 +45,7 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
    ![](assets/Android_Deeplink.png)
 
-1. **Adobe DeepLink bijhouden**
+1. **Track Adobe DeepLink**
 
    **iOS:** In app afgevaardigde, vraag `[ADBMobile trackAdobeDeepLink:url` wanneer de afgevaardigde wordt gevraagd om het middel met het URL- schema te openen dat in de vorige stap werd gespecificeerd.
 
@@ -110,7 +114,7 @@ Open de koppeling in een mobiele browser op een apparaat waarop uw app is geïns
 
 1. Open de koppeling in uw mobiele browser.
 
-   Deel de koppeling die u in de vorige stap van de doelinterface naar uw mobiele apparaat hebt gekopieerd op een handige manier, bijvoorbeeld met tekst, e-mail of een script.
+   Deel de koppeling die u in de vorige stap van de doelgebruikersinterface naar uw mobiele apparaat hebt gekopieerd op een handige manier, bijvoorbeeld met tekst, e-mail of Slack.
 
    |![voorvertoning van diepe koppeling 1](/help/c-target-mobile-app/assets/mobile-preview-open-deeplink.png)|![voorvertoning van diepe koppeling 2](/help/c-target-mobile-app/assets/mobile-preview-open-app.png)|
 
@@ -118,7 +122,8 @@ Open de koppeling in een mobiele browser op een apparaat waarop uw app is geïns
 
 1. Selecteer de combinatie ervaringen die u wilt zien, dan klik **[!UICONTROL Launch Experiences]**.
 
-   |![mobiele voorvertoning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobiele voorvertoning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobiele voorvertoning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)||![mobiele voorvertoning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobiele voorvertoning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobiele voorvertoning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
+   |![mobiele voorvertoning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobiele voorvertoning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobiele voorvertoning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
+|![mobiele voorvertoning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobiele voorvertoning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobiele voorvertoning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
 
 ## Beperkingen {#section_4E9BDED0F718485292527EFB508305BD}
 
