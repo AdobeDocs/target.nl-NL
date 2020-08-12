@@ -1,17 +1,21 @@
 ---
 keywords: promotions;front promotions;back promotions;promotions type
-description: Voeg gepromoveerde items toe en controleer de plaatsing ervan in uw ontwerpen van Adobe Target Recommendations. U kunt statische en dynamische promoties toevoegen.
-title: Promoties toevoegen in ontwerpen met Adobe Target Recommendations.
+description: Voeg gepromoveerde objecten toe en controleer de plaatsing ervan in Adobe Target Recommendations-ontwerpen. U kunt statische en dynamische promoties toevoegen.
+title: Aanbiedingen toevoegen in Adobe Target Recommendations-ontwerpen.
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) promoties toevoegen{#add-promotions}
 
-Voeg gepromoveerde objecten toe en controleer de plaatsing ervan in uw ontwerpen met aanbevelingen. U kunt statische en dynamische promoties toevoegen.
+Voeg gepromoveerde objecten toe en controleer de plaatsing ervan in Recommendations-ontwerpen. U kunt statische en dynamische promoties toevoegen.
 
 >[!IMPORTANT]
 >
