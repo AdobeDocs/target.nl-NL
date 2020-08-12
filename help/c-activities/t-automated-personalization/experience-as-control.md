@@ -1,18 +1,22 @@
 ---
 keywords: experience;control;automated personalization;auto-target
-description: Selecteer een ervaring die als controle moet worden gebruikt terwijl het creëren van een Geautomatiseerde Personalisatie (AP) of auto-Doel activiteit in het Doel van Adobe.
-title: Een specifieke ervaring gebruiken als besturing in Adobe Target
+description: Selecteer een ervaring die u als besturingselement wilt gebruiken tijdens het maken van een Automated Personalization- (AP) of Auto-Target-activiteit in Adobe Target.
+title: Een specifieke ervaring gebruiken als controle in Adobe Target
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Selecteer de controle voor uw Geautomatiseerde Personalisatie of AutoTarget activiteit
+# ![PREMIUM](/help/assets/premium.png) Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit
 
-U kunt een willekeurig bediende ervaring selecteren of een specifieke ervaring die als controle moet worden gebruikt terwijl het creëren van een [Geautomatiseerde Personalisatie](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een willekeurig bediende ervaring selecteren of een specifieke ervaring die als controle moet worden gebruikt terwijl het creëren van een activiteit van [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of van het [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) (AT).
 
 Deze eigenschap laat u het controleverkeer aan de relevante ervaringen leiden, die op het percentage van de verkeerstoewijzing worden gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die controle dan evalueren.
 
