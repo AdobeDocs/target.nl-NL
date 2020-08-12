@@ -1,18 +1,22 @@
 ---
 keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
-description: Informatie over verwachte gegevensvariaties tussen Doel en de Analyse van Adobe wanneer het gebruiken van Analytics niet als Rapporterende Bron (A4T), die gegevensvariantie algeheel elimineert.
+description: Informatie over verwachte gegevensvariaties tussen Target en Adobe Analytics bij het niet gebruiken van Analytics als Rapporterende Bron (A4T), die gegevensvariatie volledig elimineert.
 title: Gegevensvariaties verwacht bij gebruik van A4T
+feature: null
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 0%
 
 ---
 
 
 # Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T{#expected-data-variances-when-not-using-a-t}
 
-Informatie over verwachte gegevensvariaties tussen [!DNL Target] en Adobe [!DNL Analytics] wanneer het *gebruiken* van en *niet* het gebruiken van Analytics als Rapporterende Bron (A4T). A4T verlaagt de gegevensvariantie aanzienlijk.
+Informatie over verwachte gegevensvariaties tussen [!DNL Target] en Adobe [!DNL Analytics] wanneer *het gebruiken* van en *niet* het gebruiken van Analytics als Rapporterende Bron (A4T). A4T verlaagt de gegevensvariantie aanzienlijk.
 
 ## Verwachte gegevensvariantie bij gebruik van A4T {#expected-using-a4t}
 
@@ -24,7 +28,7 @@ Hier zijn een paar scenario&#39;s waarin u verwachte gegevensvariantie zou kunne
 
    Als een omleidingstest in Target wordt opgezet om verkeer 50/50 (of 25/25/25/25 enz.) te verdelen, zou het gebruikersgedrag niet gelijkmatig kunnen worden verdeeld. Als u een ongelijke splitsing ziet, betekent dit gewoon dat één groep gebruikers een analytische aanroep op de bestemmingspagina niet meer heeft uitgevoerd dan de andere groep(en). Als de analytische aanroep voor één groep niet werd uitgevoerd, werd de Target-hit voor die gebruiker uitgesloten, waardoor de ongelijkheid ontstond.
 
-   Dit is iets wat we in de toekomst willen aanpakken wanneer we werken aan A4T op het Adobe Experience Platform. Onze teams werken door hoe u deze verschillende gebeurtenissen het beste kunt afhandelen op verschillende tijdstippen op de pagina.
+   Dit is iets wat we in de toekomst willen aanpakken als we werken aan een A4T op de Adobe Experience Platform. Onze teams werken door hoe u deze verschillende gebeurtenissen het beste kunt afhandelen op verschillende tijdstippen op de pagina.
 
    >[!NOTE]
    >
@@ -34,7 +38,7 @@ Hier zijn een paar scenario&#39;s waarin u verwachte gegevensvariantie zou kunne
 
    Voor een volledige lijst van activiteitentypes die A4T steunen, zie de [Gesteunde Types](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)van Activiteit.
 
-## Verwachte gegevensvariantie wanneer *geen A4T wordt gebruikt*{#expected-not-using-a4t}
+## Verwachte gegevensvariantie wanneer *geen A4T wordt gebruikt* {#expected-not-using-a4t}
 
 Variaties van 15-20% zijn normaal, zelfs bij vergelijkbare gegevenssets. Systemen die verschillend tellen kunnen resulteren in veel hogere gegevensvariaties, tot wel 35-50%. In sommige gevallen kunnen verschillen zelfs nog groter zijn.
 
