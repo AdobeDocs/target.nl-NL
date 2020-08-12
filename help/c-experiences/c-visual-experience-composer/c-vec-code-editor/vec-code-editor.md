@@ -2,11 +2,15 @@
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
 description: Informatie over de pagina Wijzigingen waarmee u wijzigingen op de pagina kunt bekijken en aanvullende wijzigingen (CSS-kiezer, Mbox en Aangepaste code) kunt toevoegen.
 title: Wijzigingen
+feature: null
 subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2068'
+ht-degree: 0%
 
 ---
 
@@ -79,6 +83,7 @@ Met de pagina Wijzigingen kunt u:
 
    * Als er geen vorige wijzigingen in de ervaring zijn aangebracht, klikt u op de **[!UICONTROL Add Modification]** knop onder aan het [!UICONTROL Modifications] deelvenster aan de rechterkant.
    * Als er vorige wijzigingen zijn aangebracht in de ervaring, klikt u op het pictogram + boven in het [!UICONTROL Modifications] deelvenster aan de rechterkant.
+
    In het deelvenster Wijzigingen wordt het volgende weergegeven:
 
    ![](assets/codeeditor_page_mods_add.png)
@@ -243,7 +248,7 @@ Met andere woorden, als u een element met tekst toevoegt, dan in een afzonderlij
 
 ***Een element dat ik met behulp van`document.write`een script heb gemaakt, wordt niet weergegeven op de positie die ik verwacht.***
 
-Scripts worden asynchroon uitgevoerd. Hierdoor worden `document.write` handelingen vaak op de verkeerde plaats op de pagina weergegeven. Adobe raadt u niet aan scripts te gebruiken die in de aangepaste code zijn gemaakt. `document.write`
+Scripts worden asynchroon uitgevoerd. Hierdoor worden `document.write` handelingen vaak op de verkeerde plaats op de pagina weergegeven. Adobe raadt u niet aan deze functie te gebruiken `document.write` in scripts die in de aangepaste code zijn gemaakt.
 
 ***Mijn JavaScript geeft fouten in de aangepaste code weer.***
 
