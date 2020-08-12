@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: Dit onderwerp bevat antwoorden op vragen die vaak worden gevraagd over het gebruiken van doorverwijzing aanbiedingen wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
 title: Aanbiedingen omleiden - Veelgestelde vragen A4T
+feature: null
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -29,9 +30,9 @@ Ja, op voorwaarde dat uw implementatie wordt gebruikt [!DNL at.js]. Uw implement
 
 Uw implementatie moet aan de volgende minimumvereisten voldoen:
 
-* Experience Cloud Visitor ID Service: [!DNL visitorAPI.js] versie 2.3.0 of hoger.
+* Experience Cloud Bezoeker-id-service: [!DNL visitorAPI.js] versie 2.3.0 of hoger.
 * Adobe Analytics: [!DNL appMeasurement.js] versie 2.1.
-* Adobe-doel: [!DNL at.js] versie 1.6.2 of hoger.
+* Adobe Target: [!DNL at.js] versie 1.6.2 of hoger.
 
    De [!DNL mbox.js] bibliotheek ondersteunt geen omleidingsaanbiedingen met A4T. Uw implementatie moet worden gebruikt [!DNL at.js].
 
@@ -69,14 +70,14 @@ De volgende parameters van het vraagkoord worden geassocieerd met omleidingsaanb
 
 | Parameter | Beschrijving |
 |--- |--- |
-| `adobe_mc_sdid` | De `adobe_mc_sdid` parameter gaat Supplemental identiteitskaart van Gegevens (SDID) en de Identiteitskaart van de Wolk van de Ervaring van de standaardpagina tot de nieuwe pagina over zodat A4T &quot;samen&quot;het verzoek van het Doel op de standaardpagina met het Analytische verzoek op de nieuwe pagina. |
+| `adobe_mc_sdid` | De `adobe_mc_sdid` parameter gaat Supplemental Identiteitskaart van Gegevens (SDID) en Experience Cloud die identiteitskaart van de standaardpagina tot de nieuwe pagina over zodat A4T &quot;samen&quot;het verzoek van het Doel op de standaardpagina met het Analytische verzoek op de nieuwe pagina verstek. |
 | `adobe_mc_ref` | De `adobe_mc_ref` parameter geeft de verwijzende URL van de standaardpagina door aan de nieuwe pagina. Wanneer deze parameter wordt gebruikt met AppMeturement.js versie 2.1 (of hoger), gebruikt Analytics deze parameterwaarde als verwijzende URL op de nieuwe pagina. |
 
 Deze parameters worden automatisch toegevoegd aan omleiding URLs wanneer het gebruiken van de ingebouwde omleidingsaanbiedingen in VEC en op vorm-Gebaseerde Composer van de Ervaring wanneer de dienst van Bezoeker Id op de pagina wordt uitgevoerd. Als u uw eigen aangepaste omleidingscode in de VEC of op vorm gebaseerde Composer gebruikt, moet u ervoor zorgen dat u deze parameters doorgeeft met uw aangepaste code.
 
 ## Mijn webservers verwijderen deze parameters van mijn URL&#39;s. Wat moet ik doen? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-U moet met uw IT-team samenwerken om deze parameters ( `adobe_mc_sdid` en `adobe_mc_ref`) toe te staan.
+U zult met uw team van IT moeten werken om deze parameters ( `adobe_mc_sdid` en `adobe_mc_ref`) te hebben toegevoegd op lijst van gewenste personen.
 
 ## Wat als ik geen A4T met mijn omleidingsactiviteit gebruik en niet deze extra parameters aan mijn URLs wil hebben toevoegen? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -90,7 +91,7 @@ Als u aanbiedingen A4T gebruikt en omleidt, voegt Target de `adobe_mc_ref` en de
 
 Vanwege deze dubbele codering wanneer de bezoeker-API de `adobe_mc_sdid` waarde probeert te decoderen, kan deze de SDID-waarde niet extraheren en wordt een nieuwe SDID gegenereerd. Dit leidt tot onjuiste waarden SDID die naar Doel en Analytics worden verzonden en u zult ongelijkmatige verdeling voor herleidingen in de rapporten van de Analytics zien.
 
-Wij adviseren dat u met hun team van IT spreekt om ervoor te zorgen dat `adobe_mc_ref` en `adobe_mc_sdid` worden toegestaan vermeld zodat deze waarden op geen enkele manier worden getransformeerd.
+Wij adviseren dat u met hun team van IT spreekt om ervoor te zorgen dat `adobe_mc_ref` en `adobe_mc_sdid` worden toegevoegd op lijst van gewenste personen zodat deze waarden op geen enkele manier worden getransformeerd.
 
 ## Waarom moet de verwijzende URL aan de nieuwe pagina worden overgegaan? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
