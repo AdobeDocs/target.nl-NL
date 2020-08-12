@@ -1,17 +1,21 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: De gespecialiseerde rapporten zijn beschikbaar aan gebruikers van Geautomatiseerde Personalisatie.
-title: Samenvattingsrapporten voor geautomatiseerde personalisatie
+description: Speciale rapporten zijn beschikbaar voor gebruikers van Automated Personalization.
+title: Samenvattingsrapporten van Automated Personalization
+feature: null
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary-rapporten{#automated-personalization-summary-reports}
 
-De gespecialiseerde rapporten zijn beschikbaar aan gebruikers van Geautomatiseerde Personalisatie.
+Speciale rapporten zijn beschikbaar voor gebruikers van Automated Personalization.
 
 >[!NOTE]
 >
