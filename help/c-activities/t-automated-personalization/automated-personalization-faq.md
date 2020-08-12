@@ -2,9 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: Lijst met veelgestelde vragen (FAQ's) over Automated Personalization (AP).
 title: Veelgestelde vragen over Automated Personalization
+feature: null
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Lijst met veelgestelde vragen (FAQ&#39;s) over Automated Personalization (AP).
 
 ## Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
 
-U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
@@ -30,7 +31,7 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
 ## Wat zijn de beste praktijken om een activiteit van Automated Personalization op te zetten? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Als u een pagina met minder verkeer wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u personaliseert, denk na gebruikend auto-Target in plaats van Automated Personalization. Zie [Auto-Target voor persoonlijke ervaringen](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Als u een pagina met minder verkeer wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u personaliseert, denk na gebruikend auto-Doel in plaats van Automated Personalization. Zie [Auto-Target voor persoonlijke ervaringen](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 * Overweeg een A/B-activiteit uit te voeren tussen de aanbiedingen en locaties die u in uw Automated Personalization-activiteit wilt gebruiken om te controleren of de locatie(s) en aanbiedingen van invloed zijn op de optimalisatiedoelstelling. Indien een A/B-activiteit geen significant verschil aantoont, zal Automated Personalization waarschijnlijk ook geen lift genereren.
 
    * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, waarschijnlijk zijn de aanbiedingen u overweegt niet voldoende verschillend van elkaar, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
@@ -57,11 +58,11 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met acti
 
 ### Wat zijn enkele limieten in Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Target heeft een harde limiet van 30.000 ervaringen, maar het werkt op zijn best als er minder dan 10.000 ervaringen worden gecreëerd.
+Het doel heeft een harde limiet van 30.000 ervaringen, maar het werkt op zijn best als er minder dan 10.000 ervaringen worden gecreëerd.
 
 ### Hoe wordt het aanbieden-niveau richten uitgevoerd? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
-Wanneer elke bezoeker aankomt, wordt de reeks mogelijke aanbiedingen die de bezoeker kan zien bepaald door de aanbiedingsniveau richtingsregels. Dan, kiest het algoritme de aanbieding die het model voorspelt de beste verwachte opbrengst of de kans van omzetting van onder die aanbiedingen zal hebben. Het bieden van gerichte aandacht beïnvloedt de doeltreffendheid van Target-leeralgoritmen voor machines en moet daarom zo spaarzaam mogelijk worden gebruikt.
+Wanneer elke bezoeker aankomt, wordt de reeks mogelijke aanbiedingen die de bezoeker kan zien bepaald door de aanbiedingsniveau richtingsregels. Dan, kiest het algoritme de aanbieding die het model voorspelt de beste verwachte opbrengst of de kans van omzetting van onder die aanbiedingen zal hebben. Het aanbieden van gerichte toepassingen heeft invloed op de effectiviteit van de computerleeralgoritmen van Target en moet daarom zo spaarzaam mogelijk worden gebruikt.
 
 ### Mijn activiteit laat geen lift zien. Wat is er aan de hand? {#section_BFA07C8C258F45318F73A461B8F32737}
 
