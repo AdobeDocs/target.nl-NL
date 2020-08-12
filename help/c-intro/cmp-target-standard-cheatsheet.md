@@ -1,11 +1,12 @@
 ---
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
-title: Veelgestelde vragen over Target-optimalisatie en personalisatie
+title: Veelgestelde vragen over optimalisatie en personalisatie
+feature: null
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2908'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# Veelgestelde vragen over Target-optimalisatie en personalisatie{#target-optimization-and-personalization-faq}
+# Veelgestelde vragen over optimalisatie en personalisatie{#target-optimization-and-personalization-faq}
 
 Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
 
@@ -21,23 +22,23 @@ Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Targ
 
 **Hoe kan ik zien hoe andere klanten Adobe Target hebben benut voor betere resultaten?**
 
-Hier zijn slechts een paar van onze [klantensuccesverhalen](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Ontdek hoe klanten als u Target hebben benut om optimalisatie en personalisatie te verbeteren om bedrijfsdoelstellingen te bereiken.
+Hier zijn slechts een paar van onze [klantensuccesverhalen](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Ontdek hoe klanten als u Doel leveraged om optimalisering en verpersoonlijking te verbeteren om bedrijfsdoelstellingen te bereiken.
 
 Houd er rekening mee dat in sommige van deze casestudies mogelijkheden van Adobe Target Premium zijn benut.
 
-**Waar kan ik meer leren over de nieuwste Target-functies?**
+**Waar kan ik meer weten over de nieuwste functies van Target?**
 
 Raadpleeg onze [opmerkingen bij](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) de release voor meer informatie over de meest recente release. Informatie over al onze [eerdere releases](../r-release-notes/release-notes-for-previous-releases.md) is ook online beschikbaar.
 
-**Heeft Adobe een Community/Forum waar ik antwoorden en meer informatie over Target kan vinden?**
+**Heeft Adobe een Gemeenschap/Forum waar ik antwoorden en meer informatie over Target kan vinden?**
 
 Ontdek het [Target Community Forum](../cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), waar we klanten helpen, maar belangrijker nog, we houden van Adobe Target-professionals als uzelf om elkaar te helpen. Het succes van een gemeenschap en forum hangt immers af van actieve deelname van haar leden. Word een lid van de gemeenschap en draag bij en zoek antwoorden op uw vragen.
 
-**Welke browsers worden door Target ondersteund?**
+**Welke browsers worden door het doel ondersteund?**
 
-Lees onze [ondersteunde browsers](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) matrix voor meer informatie. Er zijn twee aspecten: de Target Standard/Premium Experience Cloud-interfaceondersteuning en de ondersteuning van de eindgebruikersbrowser op desktops/apparaten.
+Lees onze [ondersteunde browsers](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) matrix voor meer informatie. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
 
-## Target JavaScript-bibliotheken (at.js en mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Doel JavaScript-bibliotheken (at.js en mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **Welk implementatie-JavaScript-bestand moet ik gebruiken, at.js of mbox.js?**
 
@@ -63,13 +64,13 @@ Gebruik onze [rapporten om de winnende ervaring](../c-activities/automated-traff
 
 **Kan ik een activiteit uitvoeren met een niveau van personalisatie als integraal deel van de activiteit?**
 
-Schakel [A/B Testen uit met de optie Automatisch-Target](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) .
+Schakel [A/B Testen uit met de optie Automatisch doel](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) .
 
 **Hoe kan ik weten welk type activiteit het beste bij mijn behoeften past?**
 
-Lees de [Target Activity Guide](../c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) om de scenario&#39;s te begrijpen waarin elk van de opties die Adobe Target biedt, zinvol is.
+Lees de gids [voor](../c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) doelactiviteiten om de scenario&#39;s te begrijpen waarin elk van de opties die Adobe Target biedt, zinvol is.
 
-Vergeet niet ook [Aanbevelingen](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)in overweging te nemen.
+Denk ook aan [Recommendations-activiteiten](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 **Hoe kan ik ontdekken welke combinaties van elementen op mijn pagina bijdragen aan het succes ervan en in welke mate elk element helpt?**
 
@@ -93,7 +94,7 @@ Zo, in dit geval, zou u &quot;de Telling van de Toename, Gebruiker &amp; Bar van
 
 **Bijvoorbeeld, wil ik Goal B overwegen wanneer de gebruiker Goal A heeft bereikt zodat ik aantallen voor een bepaalde trechter kan volgen.**
 
-Target beschikt over een robuuste manier om dit te bereiken met onze functie Metrics Dependency. Voeg eenvoudig gebiedsdelen op andere succesmetriek [toe](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). U hebt opties zoals &quot;Gehaald&quot; en &quot;Niet bereikt&quot;, en de mogelijkheid om metriek op meerdere manieren te combineren om elke gewenste combinatie te maken.
+Het doel heeft een robuuste manier om dit te bereiken met onze functie voor afhankelijkheid van meeteenheden. Voeg eenvoudig gebiedsdelen op andere succesmetriek [toe](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). U hebt opties zoals &quot;Gehaald&quot; en &quot;Niet bereikt&quot;, en de mogelijkheid om metriek op meerdere manieren te combineren om elke gewenste combinatie te maken.
 
 **Hoe kan ik duidelijk zijn hoe ik een activiteit kan opzetten om mijn doelstellingen te bereiken?**
 
@@ -121,7 +122,7 @@ Dat is ook mogelijk. Met de optie Opslaan [kunt u eenvoudig stapsgewijze wijzigi
 
 Gebruik onze [krachtige functie](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) van de Wijze QA om QA uit te voeren. U kunt verbindingen met uw team delen QA en ook de activiteit van begin tot eind, met inbegrip van het melden testen, om volledig zeker te zijn dat nadat de activiteit levend is, het zoals bedoeld en zoals getest werkt.
 
-**Hoe kan ik Target beslissingsmacht gebruiken om een ervaring/aanbod te ontvangen dat in de Toepassingen van de Enige Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
+**Hoe kan ik de beslissingsmacht van het Doel gebruiken om een ervaring/aanbod te ontvangen die in de Toepassingen van de Enige Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
 
 Gebruik de kracht van op [formulieren gebaseerde activiteiten](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) met [JSON-aanbiedingen](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te bereiken.
 
@@ -129,7 +130,7 @@ Gebruik de kracht van op [formulieren gebaseerde activiteiten](../c-experiences/
 
 **Mag ik de prioritaire orde van een paar activiteiten bepalen?**
 
-Gebruik de instelling voor prioriteit die beschikbaar is in stap 3 van de Target-workflow met instructies voor drie delen (pagina met doelen en instellingen) om de prioriteit van de activiteiten [te](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)definiëren.
+Gebruik de instelling voor Prioriteit die beschikbaar is in stap 3 van de Geleide workflow voor drie delen van het doel (pagina met doelen en instellingen) om de prioriteit van de activiteiten [te](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)definiëren.
 
 Er zijn twee opties:
 
@@ -158,13 +159,13 @@ Probeer de functie [Profielscripts](../c-target/c-visitor-profile/profile-parame
 
 **Kan ik een activiteit beginnen met een kleiner aantal bezoekers?**
 
-Gebruik de besturingselementen voor procentuele toewijzing uit [stap 2 van de Target-workflow met instructies voor drie delen (doelpagina)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u de activiteit wilt instellen.
+Gebruik de besturingselementen voor percentagetoewijzing die beschikbaar zijn in [Stap 2 van de Geleide workflow voor drie delen van het doel (pagina met doelen)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u de activiteit wilt instellen.
 
-**Ik heb ook Adobe Analytics en wil dit benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
-* [Analytics voor Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analyses voor doel (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Klantkenmerken](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [Soorten publiek](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
@@ -180,17 +181,17 @@ De reden hiervoor is dat uw site gemengde inhoud bevat. Het is een site die zowe
 
 Tot dit gebeurt, volg de instructies in het [Toelatend Gemengde Inhoud in Uw Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
-**Kan ik Visual Experience Composer (VEC) op mijn plaats proberen alhoewel de Target at.js bibliotheek nog niet is opgesteld?**
+**Kan ik Visual Experience Composer (VEC) op mijn plaats proberen alhoewel het Doel at.js bibliotheek nog niet is opgesteld?**
 
 Laad de pagina met de [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
 **Waarom laadt mijn plaats niet binnen Visual Experience Composer (VEC)?**
 
-Probeer de [het oplossen van problemeninformatie](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) uit die in onze hulppagina wordt geschetst. Neem contact op met de [ondersteuning](../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van Adobe als geen van deze opties werkt.
+Probeer de [het oplossen van problemeninformatie](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) uit die in onze hulppagina wordt geschetst. Bereik naar [Adobe Support](../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) als geen van deze benaderingen werkt.
 
 We hebben ook een [formuliergebaseerde aanpak](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) die u kan ontmoedigen.
 
-Lees ook wanneer en waarom de [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) nuttig kan zijn. Mogelijk moet u contact opnemen met uw IT-afdeling om de proxyservers [van Adobe te](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) lijsten van gewenste personen.
+Lees ook wanneer en waarom de [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) nuttig kan zijn. U zou uit aan uw afdeling van IT kunnen moeten reiken om de Adobe van de [lijst van gewenste personen te bereiken. Ook proxyservers](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) .
 
 **Ik heb een responsieve site. Hoe kan ik er tijdens het maken van een activiteit zeker van zijn dat ik denk aan belangrijke apparaten?**
 
@@ -202,7 +203,7 @@ U kunt altijd de optie [Enhanced Experience Composer op activiteitsniveau](../c-
 
 **Waarom zie ik geen optie om beelden om te wisselen?**
 
-Vraag Adobe om [ervoor te zorgen dat uw account is ingesteld voor Scene7](../administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Nadat u de provisioning hebt uitgevoerd, kunt u een afbeelding eenvoudig omwisselen met een andere afbeelding.
+Ga naar Adobe om te [controleren of je account is ingesteld voor Scene7](../administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Nadat u de provisioning hebt uitgevoerd, kunt u een afbeelding eenvoudig omwisselen met een andere afbeelding.
 
 **Ik wil testen tussen twee verschillende ervaringen, bijvoorbeeld Platte korting versus Procentuele korting, maar ik wil de ervaringen correct richten (verschillende landschapstekst of verschillende valuta tonen voor mensen die uit verschillende landen komen). Hoe kan ik dit doen?**
 
@@ -224,13 +225,13 @@ Met de functies Samenstellen en Bladeren kunt u naar de gewenste pagina navigere
 
 ![](assets/vec2.png)
 
-**Hoe kan ik naar de ervaring van mijn keus van Stap 2 van de Target driedelige geleide werkschema (het richten pagina) gaan?**
+**Hoe kan ik naar de ervaring van mijn keus van Stap 2 van het Beoogde driedelige Geleide werkschema van het Doel gaan (het richten van pagina)?**
 
 Klik op de miniatuur vóór de naam van de ervaring in Stap 2 en u gaat aan de slag op de ervaring van uw keuze.
 
 ![](assets/thumbnail_experiences.png)
 
-**Ik ben een voormalige Target Classic-gebruiker. Kan ik mijn dozen voor bepaalde gebruiksgevallen gebruiken?**
+**Ik ben een voormalige gebruiker van Target Classic. Kan ik mijn dozen voor bepaalde gebruiksgevallen gebruiken?**
 
 Gebruik een op [formulieren gebaseerde benadering](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) om activiteiten te maken.
 
@@ -262,17 +263,17 @@ Het is mogelijk dat uw site dynamische id&#39;s, dubbele id&#39;s of dynamische 
 
 Gebruik onze [debugger](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) en controleer [activiteitenbotsingen](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**Kan ik Target beslissingsmacht gebruiken om een ervaring/een aanbieding te ontvangen die in de Toepassingen van de Enige Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
+**Kan ik de beslissingsmacht van het Doel gebruiken om een ervaring/aanbod te ontvangen die in de Toepassingen van de Enige Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
 
 Gebruik de kracht van op [formulieren gebaseerde activiteiten](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) met [JSON-aanbiedingen](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te bereiken.
 
-## Rapporten (inclusief Analytics voor Target—A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
+## Rapporten (met inbegrip van Analytics voor doel-A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**Ik heb ook Adobe Analytics en wil dit benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
-* [Analytics voor Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analyses voor doel (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Klantkenmerken](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
@@ -285,13 +286,13 @@ Dit is waar het [publiek voor de eigenschap](../c-activities/t-test-ab/t-test-cr
 
 U hebt de optie om 50 dergelijke segmenten en ook het toepassingspunt (Ingang van de Activiteit of specifiek metrisch) toe te voegen om een krachtige manier te hebben om te segmenteren en te dobbelen.
 
-Merk op dat Target de gegevens in dit verband van de tijd verzamelt u deze toehoorders toevoegt, zodat als u toevoegende segmenten alvorens de test in werking te stellen mist, bent u uit geluk.
+Merk op dat Doel de gegevens in dit verband van de tijd verzamelt u deze publiek toevoegt, zodat als u toevoegend segmenten alvorens de test in werking te stellen mist, bent u uit geluk.
 
-**Ik kan geen publiek bepalen alvorens de activiteit in werking te stellen. Ik vind dit aspect van de verslaggeving van het publiek in Target-activiteiten restrictief.**
+**Ik kan geen publiek bepalen alvorens de activiteit in werking te stellen. Ik vind dit aspect van de verslaggeving van doelgroepen restrictief.**
 
 **Wat kan ik doen om dit proces makkelijker te maken?**
 
-Hier is [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) handig. Als u Adobe Analytics hebt, kiest u de bron gewoon als Analytics. Hierdoor wordt deze beperking verwijderd. Nu kunt u analyse op om het even welk publiek op om het even welk punt uitvoeren en u te hoeven niet om het rapporteringspubliek op voorgrond te bepalen.
+Dit is waar [Analytics voor Doel (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) handig is. Als u Adobe Analytics hebt, kiest u gewoon de bron als Analytics, waardoor deze beperking wordt opgeheven. Nu kunt u analyse op om het even welk publiek op om het even welk punt uitvoeren en u te hoeven niet om het rapporteringspubliek op voorgrond te bepalen.
 
 **Kan ik offline rapporteringsberekeningen uitvoeren?**
 
@@ -303,11 +304,11 @@ Breng deze wijzigingen aan met het gereedschap [Instellingen op de pagina](../c-
 
 **Hoe moet ik rapporten interpreteren?**
 
-We hebben geprobeerd zo intuïtief mogelijke rapporten te maken met functies als [betrouwbaarheidsintervalstaven, liftgrenzen, significantie/vertrouwen en meerdere metrische selecties, tabel- en grafiekweergaven, lopende gemiddelden en meer](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) om krachtige, maar gemakkelijke rapportanalyse mogelijk te maken. U kunt natuurlijk naar Analytics kijken als u [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) -activiteiten gebruikt voor verdere analyse van het publiek.
+We hebben geprobeerd zo intuïtief mogelijke rapporten te maken met functies als [betrouwbaarheidsintervalstaven, liftgrenzen, significantie/vertrouwen en meerdere metrische selecties, tabel- en grafiekweergaven, lopende gemiddelden en meer](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) om krachtige, maar gemakkelijke rapportanalyse mogelijk te maken. Het is duidelijk, kunt u Analytics onderzoeken als u [Analytics voor de activiteiten van het Doel (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) voor verdere analyse op publiek gebruikt.
 
 ## Reactiepunten {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**Kan ik een integratie uitvoeren met een systeem van derden, zoals Google Analytics of ClickTale, om de activiteiteninformatie die voor analyse aan een eindgebruiker wordt geleverd door te geven?**
+**Kan ik een integratie met een derdepartijsysteem, zoals Google Analytics of ClickTale uitvoeren, om de activiteiteninformatie over te gaan die aan een eindgebruiker voor analyse wordt geleverd?**
 
 Ook daar hebben we een oplossing voor met onze [functie](../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)Reactietokens.
 
@@ -315,20 +316,20 @@ Ook daar hebben we een oplossing voor met onze [functie](../administrating-targe
 
 **Hoe kan ik de beschikbaarheidsstatus van Adobe Target kennen?**
 
-Gebruik de [Adobe System Status pagina](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) om de status van Adobe-producten en Experience Cloud-oplossingen, waaronder Target, weer te geven. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
+Gebruik de pagina [van de Status van het Systeem van de](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) Adobe om de status van de producten van de Adobe en Experience Cloud oplossingen, met inbegrip van Doel te bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
 
 **Hebt u een gids voor het oplossen van problemen?**
 
-Het spijt ons dat u problemen ondervindt. Bekijk de [probleemoplossing in Target](../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) voor koppelingen naar veel onderwerpen over probleemoplossing.
+Het spijt ons dat u problemen ondervindt. Controle uit het Doel van het [Oplossen van problemen](../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) voor verbindingen aan vele het oplossen van problemenonderwerpen.
 
-## Target Mobile-apps {#section_07BA89F2C38747158ECD5B153274AEAF}
+## Doeltoepassingen voor mobiele apparaten {#section_07BA89F2C38747158ECD5B153274AEAF}
 
 **We hebben een mobiele SKU. Kan ik mobiele activiteiten creëren?**
 
-Voor optimalisatie en personalisatie op mobiele apparaten moet u [formuliergebaseerde activiteiten](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) gebruiken samen met de [Adobe SDK](../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Meer informatie over [Target for mobile apps](../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559)vindt u.
+Voor optimalisatie en personalisatie op mobiel, moet u [op vorm-gebaseerde activiteiten](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) samen met de [Adobe SDK](../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91)gebruiken. Meer informatie over [Doel voor mobiele apps](../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559)vindt u.
 
-## Target API&#39;s {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## Doel-API&#39;s {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
-**Waar kan ik meer leren over Target API&#39;s?**
+**Waar kan ik meer leren over doel-API&#39;s?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [documentatie](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)van API&#39;s voor levering, NodeJS SDK en Recommendations API&#39;s.
+We hebben uitgebreide documentatie over API&#39;s. Zie [Delivery APIs, NodeJS SDK, en Recommendations APIs documentatie](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
