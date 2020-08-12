@@ -1,12 +1,13 @@
 ---
 keywords: capture score;score
-description: De betrokkenheidsmetrische gegevens van de opnamescore berekenen een geaggregeerde score op basis van de waarde die is toegewezen aan pagina's die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste weergave van de campagne in Target Request heeft weergegeven.
+description: De betrokkenheidsmetrische gegevens voor de opnamescore berekenen een geaggregeerde score op basis van de waarde die is toegewezen aan pagina's die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste aanvraag voor het weergavedoel van de campagne ziet.
 title: Muziek vastleggen
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Er zijn twee methoden om een score toe te wijzen aan een pagina:
 
    Voorbeeld: `('global_mbox', 'mboxPageValue=10');`
 
-   Elke keer dat de pagina met die [!DNL Target] aanvraag wordt weergegeven, wordt de opgegeven waarde aan de score toegevoegd. Als meerdere aanvragen op de pagina score bevatten, is de score voor de pagina het totaal van alle aanvraagwaarden. `mboxPageValue` is een gereserveerde parameter die wordt gebruikt voor het doorgeven van waarden in een Target-aanvraag om een betrokkenheidsscore vast te leggen. Positieve en negatieve waarden kunnen worden doorgegeven. De som wordt berekend aan het einde van het bezoek van elke bezoeker om de totale score voor het bezoek te berekenen.
+   Elke keer dat de pagina met die [!DNL Target] aanvraag wordt weergegeven, wordt de opgegeven waarde aan de score toegevoegd. Als meerdere aanvragen op de pagina score bevatten, is de score voor de pagina het totaal van alle aanvraagwaarden. `mboxPageValue` is een gereserveerde parameter die wordt gebruikt voor het doorgeven van waarden in een doelaanvraag om een betrokkenheidsscore vast te leggen. Positieve en negatieve waarden kunnen worden doorgegeven. De som wordt berekend aan het einde van het bezoek van elke bezoeker om de totale score voor het bezoek te berekenen.
 
 * Geef de `?mboxPageValue=n` parameter in de URL voor de pagina door.
 
@@ -50,7 +51,7 @@ Er zijn twee methoden om een score toe te wijzen aan een pagina:
 
 >[!NOTE]
 >
->Target-aanvragen die zich boven het eerste weergaveverzoek van de activiteit bevinden, worden niet in de score opgenomen. [!DNL Target]
+>Doelverzoeken die zich boven het eerste weergaveverzoek van de activiteit bevinden, worden niet in de score opgenomen. [!DNL Target]
 
 U kunt het beste waarden toewijzen in de [!DNL Target] aanvraag. Hierdoor kunt u nauwkeurig aangeven welke waarden u meet, afhankelijk van de inhoud van elk verzoek.
 
