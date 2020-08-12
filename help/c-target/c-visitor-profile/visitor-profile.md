@@ -2,11 +2,15 @@
 keywords: Overview and Reference
 description: Bezoekersprofielen bevatten informatie over hoe bezoekers uw pagina's en andere geoptimaliseerde inhoudslocaties gebruiken
 title: Bezoekerprofielen
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Bezoekersprofielen bevatten informatie over hoe bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken
 
-Als uw doel wordt gebruikt in combinatie met andere Adobe Marketing Suite-oplossingen, zoals Adobe Analytics, deelt Experience Cloud Audiences informatie over de verschillende oplossingen.
+Als uw Doel wordt gebruikt in combinatie met andere Adobe Marketing Suite-oplossingen, zoals Adobe Analytics, deelt het Experience Cloud publiek bezoekersinformatie over de verschillende oplossingen.
 
 Standaard worden de doelprofielgegevens opgeslagen in één cookie van de eerste fabrikant. De configuratie kan gemakkelijk worden veranderd om derdekoekjes eveneens te dienen.
 
