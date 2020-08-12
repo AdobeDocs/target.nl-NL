@@ -2,9 +2,13 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Gebruik de kenmerken van een enkele en meerdere aangepaste entiteit om aanvullende informatie over items in uw catalogus te definiëren.
 title: Aangepaste entiteitskenmerken
+feature: null
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +56,7 @@ Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het k
 
 >[!NOTE]
 >
->Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie [Alle items van het systeem](../../assets/adobe-recommendations-classic.pdf) verwijderen in de klassieke *documentatie van* Adobe Recommendations Classic voor meer informatie.
+>Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie Alle items [verwijderen uit het systeem](../../assets/adobe-recommendations-classic.pdf) in de Classic *-documentatie van* Adobe Recommendations voor meer informatie.
 
 **Beperkingen**:
 
@@ -127,7 +131,7 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Raadpleeg de documentatie bij [de Adobe](http://developers.adobetarget.com/api/recommendations) Aanbevelingen API voor informatie over de API&#39;s voor levering en opslaan.
+Raadpleeg de [Adobe Recommendations API-documentatie](http://developers.adobetarget.com/api/recommendations) voor informatie over de API&#39;s voor levering en opslaan.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 
