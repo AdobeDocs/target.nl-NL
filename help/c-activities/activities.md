@@ -2,10 +2,14 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Met de activiteiten in Adobe Target kunt u inhoud aanpassen aan specifieke doelgroepen en pagina-ontwerpen testen
 title: Met de activiteiten in Adobe Target kunt u inhoud aanpassen aan specifieke doelgroepen en pagina-ontwerpen testen.
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2069'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +24,7 @@ Wanneer het ontwerpen van een activiteit, zou u zorgvuldig moeten plannen. Bepaa
 
 ## Typen activiteiten
 
-Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een overzicht van elk type activiteit met koppelingen voor meer informatie. We hebben ook de [Adobe Target Activity Guide](/help/c-activities/target-activities-guide.md)gemaakt om u te helpen het beste activiteitstype voor uw doeleinden te kiezen.
+Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een overzicht van elk type activiteit met koppelingen voor meer informatie. Om u te helpen het beste type activiteit voor uw doeleinden te kiezen, hebben wij ook de Gids [van de Activiteiten van de](/help/c-activities/target-activities-guide.md)Adobe Target gecreeerd.
 
 | Type activiteit | Beschrijving |
 |--- |--- |
@@ -30,8 +34,8 @@ Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een over
 | [Analytische gegevens](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) gebruiken (A4T) | U kunt een activiteit vormen om als rapporteringsbron te gebruiken [!DNL Adobe Analytics] . Voor dit type activiteit is het vereist dat u uw [!DNL Adobe Experience Cloud] account koppelt aan zowel [!DNL Analytics] als [!DNL Target]. |
 | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft. |
 | [Gericht op ervaring](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.<br>**Opmerking:**U kunt nu[aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md)Experience Targeting. Voor deze functionaliteit is een[Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
-| [Geautomatiseerde](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personalizationTarget Premium](/help/assets/premium.png) | De geautomatiseerde Personalisering (AP) combineert aanbiedingen of berichten, en gebruikt geavanceerd machine leren om verschillende variaties aan elke bezoeker aan te passen die op hun individueel klantenprofiel worden gebaseerd, om inhoud en aandrijvingsomzettingen aan te passen. |
-| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | Een aanbeveling bepaalt hoe een product aan een websitegebruiker wordt voorgesteld, afhankelijk van de activiteiten van die gebruiker op de plaats.<br>U kunt bijvoorbeeld mensen die een rugzak kopen aanmoedigen om wandelschoenen en wandelstokken te kopen. U kunt een aanbeveling maken die items toont die vaak samen worden aangeschaft met het algoritme &quot;Personen die dit hebben gekocht, hebben dat ook gekocht&quot;. U kunt bezoekers ook aanmoedigen om meer tijd te besteden aan uw mediasite door dezelfde video aan te bevelen als de video die ze bekijken. Gebruik hiervoor het algoritme &quot;Personen die dit hebben bekeken&quot;.<br>**Opmerking:**U kunt nu aanbevelingen opnemen in de A/B-test (inclusief Automatische toewijzing en Auto-Target) en de Experience Targeting-activiteiten (XT). Zie[Aanbevelingen als voorstel](/help/c-recommendations/recommendations-as-an-offer.md). |
+| [Geautomatiseerde](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![personalizationTarget Premium](/help/assets/premium.png) | Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computerleren om verschillende verschillen met elke bezoeker op basis van hun individuele klantprofiel met elkaar in overeenstemming te brengen, om inhoud en schijfconversies aan te passen. |
+| [](/help/c-recommendations/recommendations.md)<br>![RecommendationsTarget Premium](/help/assets/premium.png) | Een aanbeveling bepaalt hoe een product aan een websitegebruiker wordt voorgesteld, afhankelijk van de activiteiten van die gebruiker op de plaats.<br>U kunt bijvoorbeeld mensen die een rugzak kopen aanmoedigen om wandelschoenen en wandelstokken te kopen. U kunt een aanbeveling maken die items toont die vaak samen worden aangeschaft met het algoritme &quot;Personen die dit hebben gekocht, hebben dat ook gekocht&quot;. U kunt bezoekers ook aanmoedigen om meer tijd te besteden aan uw mediasite door dezelfde video aan te bevelen als de video die ze bekijken. Gebruik hiervoor het algoritme &quot;Personen die dit hebben bekeken&quot;.<br>**Opmerking:**U kunt nu aanbevelingen opnemen in de A/B-test (inclusief Automatische toewijzing en Auto-Target) en de Experience Targeting-activiteiten (XT). Zie[Recommendations als een voorstel](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Activiteitenlijst {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -49,7 +53,7 @@ De activiteitenlijst geeft een overzicht van alle activiteiten:
 | Naam | De naam van de activiteit. |
 | URL | De URL wordt weergegeven in lichtere tekst onder de naam.<br>De URL voor de activiteit identificeert waar de activiteit wordt getoond. Hierdoor kunt u snel een activiteit identificeren en bepalen of op een bepaalde pagina al een test wordt uitgevoerd.<br>Als een test op veelvoudige URLs loopt, toont een verbinding hoeveel meer URLs worden gebruikt. Klik op de koppeling om de volledige lijst met URL&#39;s voor die activiteit weer te geven.<br>U kunt zoeken op basis van URL. Gebruik de vervolgkeuzelijst naast het zoekvak en selecteer [!UICONTROL Search URL]. |
 | Status | De status van de activiteit kan een van de volgende zijn:<ul><li>**Live**: De activiteit wordt momenteel uitgevoerd.</li><li>**Concept**: De activiteitenopstelling is begonnen maar de activiteit is nog niet klaar om te lopen.</li><li>**Gepland**: De activiteit is klaar om te worden geactiveerd wanneer de gespecificeerde begindatum en de tijd aankomen.</li><li>**Inactief**: De activiteit is gepauzeerd of gedeactiveerd.</li><li>**Synchroniseren**: De activiteit is opgeslagen en wordt gesynchroniseerd aan het de leveringsnetwerk van het Doel.</li><li>**Beëindigd**: De opgegeven einddatum en -tijd van de activiteit zijn bereikt en de activiteit wordt niet meer uitgevoerd.</li><li>**Gearchiveerd**: De activiteit is gearchiveerd. U kunt een gearchiveerde activiteit activeren om deze opnieuw te gebruiken.</li></ul>**Opmerking**: Wanneer u bepaalde acties uitvoert, zoals het activeren van een activiteit buiten de UI die API methodes gebruikt, kan de update tot tien minuten vergen om aan UI te verspreiden. |
-| Bron | Toont waar de activiteit werd gecreeerd:<ul><li>Adobe-doel</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Bron | Toont waar de activiteit werd gecreeerd:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
 | Eigenschap | Geeft de [eigenschap](/help/administrating-target/c-user-management/property-channel/property-channel.md) voor de activiteit weer. |
 | Geschat bedrag aan inkomsten | Toont de voorspelde toename van inkomsten als 100% van het publiek de winnende ervaring ziet.<br>Berekend met de volgende formule:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Dit getal wordt afgerond tot op één decimaal, maximaal, als het versmalde formulier slechts één cijfer voor het decimaalteken heeft. Bijvoorbeeld: $1,6 M, $60 K, $900, $8,5 K, $205<br>KTDeze kolom toont &quot;—&quot;voor activiteiten die niet genoeg gegevens hebben om een winnaar te roepen of geen kostenraming hebben.<br>Zie [Schatting van Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie. |
 | Laatst bijgewerkt | De datum waarop de activiteit voor het laatst is bijgewerkt en door wie. |
@@ -122,7 +126,7 @@ Klik op een van de volgende koppen om te schakelen of de activiteiten in oplopen
 
 ## Tips en trucs {#section_F77F30A246A14B538D9363B7F3639F97}
 
-Haal het meeste uit Adobe Target door meer te leren over verschillende functies en te zien waarom u ze een poging moet doen. De functie Tips en trucs biedt koppelingen naar video&#39;s, gebruiksscenario&#39;s, blogs, documentatie en nog veel meer.
+Haal het meeste uit Adobe Target door meer te leren over verschillende functies en te zien waarom je ze een poging moet doen. De functie Tips en trucs biedt koppelingen naar video&#39;s, gebruiksscenario&#39;s, blogs, documentatie en nog veel meer.
 
 De functie Tips en trucs wordt periodiek weergegeven op de pagina Activiteiten. Nadat u een tip hebt gelezen of gesloten, wordt deze pas weer weergegeven als de volgende tip beschikbaar is. U kunt desgewenst de weergave van alle tips uitschakelen door op het Help-pictogram > [!UICONTROL Disable Tip of the Day]te klikken.
 
