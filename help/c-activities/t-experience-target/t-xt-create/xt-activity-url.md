@@ -1,10 +1,11 @@
 ---
 keywords: Targeting
-description: De Activiteit URL bepaalt de pagina die in de Ervaring wordt gebruikt richtend activiteit, en die in de Composer van de Ervaring van het Doel van Adobe Visuele (VEC) of op vorm-Gebaseerde Composer van de Ervaring opent wanneer de activiteit wordt ontworpen.
+description: De Activiteit URL bepaalt de pagina die in de Ervaring wordt gebruikt richtend activiteit, en die in Adobe Target Visual Experience Composer (VEC) of op vorm-Gebaseerde Composer van de Ervaring opent wanneer de activiteit wordt ontworpen.
 title: URL van activiteit
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -44,6 +45,7 @@ De Activiteit URL bepaalt de pagina die in de Ervaring het richten (XT) activite
    * Hash-fragment (#)
    * Query
    * mbox-parameter
+
    De extra regels kunnen tot aan de Activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
 
 1. Klik **[!UICONTROL Save]** wanneer u klaar bent.
