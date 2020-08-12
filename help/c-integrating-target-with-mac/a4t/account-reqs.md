@@ -1,12 +1,13 @@
 ---
 keywords: Analytics as reporting source;a4t;A4T
-description: Vereisten voor gebruikersaccounts om een op Adobe Analytics gebaseerde activiteit te maken in Adobe Target (A4T).
+description: Gebruikersaccountvereisten om een op Adobe Analytics gebaseerde activiteit te maken in Adobe Target (A4T).
 title: Vereisten voor gebruikerstoegang
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -24,11 +25,11 @@ Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de vo
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Voer de volgende taken uit in de [!DNL Adobe Experience Cloud] beheerconsole [](https://adminconsole.adobe.com):
+Voer de volgende taken uit in de [!DNL Adobe Experience Cloud][Admin Console](https://adminconsole.adobe.com):
 
-### Accounts voor oplossingen koppelen aan uw Adobe-id
+### Accounts voor oplossingen koppelen aan uw Adobe ID
 
-Uw [!DNL Analytics] en [!DNL Target] gebruikersaccounts moeten aan uw Adobe-id zijn gekoppeld.
+Je [!DNL Analytics] en [!DNL Target] gebruikersaccounts moeten aan je Adobe ID zijn gekoppeld.
 
 Zie [Organisaties en accountkoppelingen](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)voor meer informatie.
 
@@ -36,7 +37,7 @@ Zie [Organisaties en accountkoppelingen](https://docs.adobe.com/help/en/core-ser
 
 U moet lid zijn van een of meer [!DNL Experience Cloud] groepen die toegang hebben tot [!DNL Analytics] en [!DNL Target].
 
-Zie [Gebruikers en producten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)van Experience Cloud beheren voor meer informatie.
+Zie Gebruikers en producten [van Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)beheren voor meer informatie.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -52,6 +53,6 @@ Zie [Productprofielen en -groepen](https://docs.adobe.com/content/help/en/core-s
 
 U moet tot de groep van de Toegang van de Diensten van het Web binnen behoren [!DNL Analytics] om als rapporteringsbron voor te kunnen gebruiken [!DNL Analytics] [!DNL Target].
 
-## Adobe-doel {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
 Er zijn geen aanvullende rechten vereist.
