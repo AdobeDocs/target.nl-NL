@@ -1,21 +1,25 @@
 ---
 keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
-description: Informatie om u te helpen tussen de Klassieke Aanbevelingen en de activiteiten van Aanbevelingen in de Premie van het Doel kiezen.
-title: Activiteiten op het gebied van Aanbevelingen Klassieke versus Aanbevelingen in Target Premium
+description: Informatie die u helpt bij het kiezen tussen Recommendations Classic- en Recommendations-activiteiten in Target Premium.
+title: Recommendations Classic versus Recommendations-activiteiten in Target Premium
+feature: null
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic versus Recommendations activities in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![PREMIUM](/help/assets/premium.png) Recommendations Classic versus Recommendations activiteiten in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
 
-Informatie om u te helpen tussen de Klassieke Aanbevelingen en de activiteiten van Aanbevelingen in de Premie van het Doel kiezen.
+Informatie die u helpt bij het kiezen tussen Recommendations Classic- en Recommendations-activiteiten in Target Premium.
 
 >[!NOTE]
 >
->De activiteiten van aanbevelingen zijn beschikbaar als deel van de [!DNL Target Premium] oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie.
+>Recommendations-activiteiten zijn beschikbaar als onderdeel van de [!DNL Target Premium] oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie.
 
 In het klassieke [!DNL Recommendations] product, werden de aanbevelingen getoond door een doos van de gegevensinzameling op een pagina te creëren, toen toevoegend een vertoningsdoos in een specifieke paginalocatie. Met de [!DNL Recommendations] activiteit in [!DNL Target Premium] kunt u bezoekersinformatie verzamelen en uw aanbevelingen overal op de pagina maken zonder dat u een box hoeft te maken voor elke locatie waar u producten of inhoud wilt aanbevelen. Met een eenvoudige JavaScript-verwijzing in de koptekst van de pagina kunt u overal op de pagina aanbevelingen doen. Gebruik deze JavaScript-verwijzing om sleutels door te geven aan het algemene [!DNL Target] vak, zoals de `entity.id` toets en de `entity.categoryId` toets.
 
@@ -25,7 +29,7 @@ In het klassieke [!DNL Recommendations] product, werden de aanbevelingen getoond
 
 De [!DNL Recommendations] activiteit op dit gebied [!DNL Target] verbetert op [!DNL Recommendations Classic] de volgende hoofdgebieden:
 
-## Aanbevelingen als voorstel
+## Recommendations als voorstel
 
 U kunt aanbevelingen opnemen binnen [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten.
 
@@ -38,7 +42,7 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 Om te beginnen, creeer een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] activiteit gebruikend [!UICONTROL Visual Experience Composer] en gebruik [!UICONTROL Insert Before], [!UICONTROL Insert After], of [!UICONTROL Replace With] actie om aanbevelingen aan een ervaring toe te voegen.
 
-Zie [Aanbevelingen als voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
+Zie [Recommendations als een voorstel](/help/c-recommendations/recommendations-as-an-offer.md)voor meer informatie.
 
 ## Criteria {#section_117709846DAA404580EBE879FFCBD9BA}
 
@@ -64,7 +68,7 @@ U kunt uw aanbevelingen voorvertonen nadat u ze hebt ingesteld en de benodigde w
 
 ## Doelstelling {#section_93295EA0DBA14210B8518AF4802A459F}
 
-In [!DNL Recommendations Classic]het geval waren er zes opties voor doelgerichte acties. Bij de activiteiten van de aanbevelingen wordt gebruikgemaakt van het volledige scala van doelopties. Definieer een publiek met een [!DNL Target] of ander [!DNL Adobe Experience Cloud] publiek (zoals [!DNL Audience Manager] en [!DNL Analytics]) en selecteer vervolgens het percentage van de deelnemers aan de activiteit die elk ontwerp zien, en de percentages die het besturingselement zien.
+In [!DNL Recommendations Classic]het geval waren er zes opties voor doelgerichte acties. Recommendations-activiteiten maken gebruik van het volledige scala aan doelopties van Target. Definieer een publiek met een [!DNL Target] of ander [!DNL Adobe Experience Cloud] publiek (zoals [!DNL Audience Manager] en [!DNL Analytics]) en selecteer vervolgens het percentage van de deelnemers aan de activiteit die elk ontwerp zien, en de percentages die het besturingselement zien.
 
 ![](assets/overview_targeting.png)
 
