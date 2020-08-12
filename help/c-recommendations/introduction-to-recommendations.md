@@ -1,18 +1,22 @@
 ---
 keywords: Recommendations;intro;introduction;webinar;demo
-description: Inleiding tot Adobe Target Recommendations-activiteiten die automatisch producten of inhoud weergeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten of andere algoritmen. De aanbevelingen helpen klanten aan relevante punten leiden zij anders niet op de hoogte zouden kunnen zijn.
-title: Inleiding tot activiteiten met aanbevelingen in Adobe Target
+description: Inleiding tot Adobe Target Recommendations-activiteiten die automatisch producten of inhoud weergeven die voor uw klanten interessant kunnen zijn op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
+title: Inleiding Recommendations-activiteiten in Adobe Target
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Inleiding tot Aanbevelingen
+# ![PREMIUM](/help/assets/premium.png) Introductie tot Recommendations
 
-De tekst in dit artikel is afkomstig van de webinar *Inleiding tot Aanbevelingen* , die u hieronder in zijn geheel kunt bekijken.
+De tekst in dit artikel is afkomstig van de *Inleiding tot webinar van Recommendations* , die u hieronder in zijn geheel kunt bekijken.
 
-De *inleiding tot webinar van Aanbevelingen* omvat een diepgaand onderzoek van hoe te om de waarde van te hefboomwerking te [!DNL Adobe Target Recommendations]. Kom te weten hoe deze [!DNL Target] activiteit automatisch producten of inhoud toont die uw klanten zouden kunnen interesseren door suggesties in real time te optimaliseren die op vorige bezoeken worden gebaseerd. Verder, duik in [!DNL Target] UI voor een geleidelijke overzicht van hoe te om een [!DNL Recommendations] activiteit te bouwen.
+De *introductie van het webinar van Recommendations* bevat een diepgaande analyse van hoe u de waarde van [!DNL Adobe Target Recommendations]kunt benutten. Kom te weten hoe deze [!DNL Target] activiteit automatisch producten of inhoud toont die uw klanten zouden kunnen interesseren door suggesties in real time te optimaliseren die op vorige bezoeken worden gebaseerd. Verder, duik in [!DNL Target] UI voor een geleidelijke overzicht van hoe te om een [!DNL Recommendations] activiteit te bouwen.
 
 ## Inleiding
 
@@ -33,13 +37,13 @@ De handelaars gebruiken [!DNL Adobe Target] om gepersonaliseerde ervaringen over
 ![Illustratie waarin wordt getoond hoe Target aanbevelingen op verschillende plaatsen levert](/help/c-recommendations/assets/intro-3.png)
 
 * **Publiceren**: Webuitgevers gebruiken [!DNL Target Recommendations] om artikelen aan te bevelen aan sitebezoekers en om de betrokkenheid te vergroten.
-* **Videozelfstudies**: Hiermee [!DNL Adobe Creative Cloud] kunt u Photoshop-gebruikers in de Photoshop-toepassing [!DNL Target] de beste videozelfstudies aanbevelen.
+* **Video-Tutorials**: [!DNL Adobe Creative Cloud] gebruikt [!DNL Target] om videozelfstudies aan te bevelen voor Photoshop-gebruikers in de Photoshop-toepassing.
 * **Games**: Gamingbedrijven gebruiken [!DNL Target] om games en inhoud aan te bevelen aan gebruikers op hun consoles.
-* **B2B-verkoop**: Bedrijven [van bedrijf tot bedrijf gebruiken Target om video&#39;s, whitepapers, en blogberichten aan B2B vooruitzichten aan te bevelen; downloads leveren; en hulp bieden aan bestaande klanten](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **B2B-verkoop**: [Bedrijven van bedrijf tot bedrijf gebruiken Target om video&#39;s, whitepapers, en blogberichten aan B2B vooruitzichten aan te bevelen; downloads leveren; en hulp bieden aan bestaande klanten](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Reizen**: [Een Duitse reisboekhouder gebruikt Target om hotels en meer aan reizigers](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)aan te bevelen.
+* **Reizen**: [Een Duits reisboekje gebruikt Target om hotels en meer aan reizigers](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)aan te bevelen.
 
-* **Detailhandel**: Een [toonaangevende B2B-detailhandelaar gebruikt Target om topcategorieën en producten aan te bevelen om bezoekers in de browser en in zijn mobiele app](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)terug te sturen.
+* **Detailhandel**: [Een toonaangevende B2B-detailhandelaar gebruikt Target om topcategorieën en producten aan te bevelen om bezoekers in de browser en in zijn mobiele app](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)terug te sturen.
 
 Dit zijn enkel een paar manieren de klanten Doel gebruiken om gepersonaliseerde aanbevelingen te leveren.
 
@@ -53,7 +57,7 @@ Grote aanbevelingen moeten relevant en gepersonaliseerd zijn. Dit betekent dat u
 * **Geavanceerde modellen** om inzicht te krijgen in miljoenen items in uw catalogus en interactiegebeurtenissen. [!DNL Target] beschikt over geavanceerde mogelijkheden voor machinaal leren die gedurende een decennium van ervaring zijn opgebouwd en we verwerken miljarden aanbevelingen per jaar.
 * **De context** van de gebruiker om ervoor te zorgen dat de aanbevelingen voor uw gebruikers en relevant tijdig zijn. U wilt de video die iemand net heeft bekeken of het shirt dat iemand net aan zijn winkelwagentje heeft toegevoegd, niet aanbevelen. Het rijke gebruikersprofiel van het doel kan in aanbevelingen worden gebruikt om verpersoonlijking te verzekeren.
 
-## Doelaanbevelingen implementeren
+## Doel Recommendations implementeren
 
 Begin met een strategie.
 
@@ -101,7 +105,7 @@ Vervolgens moet u tags toevoegen of bestaande [!DNL Analytics] implementatie geb
 
 U moet ervoor zorgen dat u zich bewust [!DNL Target] bent van de objecten die uw gebruikers bekijken en kopen. Als aankopen niet relevant zijn voor uw context, wilt u wellicht een ander type conversiegebeurtenis volgen, bijvoorbeeld het downloaden van een PDF, het voltooien van een enquête, het abonneren op een nieuwsbrief, het bekijken van een video enzovoort.
 
-Als u al gebruikt [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u reeds gebruikt [!DNL Adobe Analytics] om op plaatsbezoeken en omzettingsgedrag te melden, kunt u [!DNL Analytics] als uw gedragsgegevensbron gebruiken. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer zoals [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Het is ook mogelijk offline- of in-app-interacties te verzenden [!DNL Target] via realtime-API.
+Als u al gebruikt [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u reeds gebruikt [!DNL Adobe Analytics] om op plaatsbezoeken en omzettingsgedrag te melden, kunt u [!DNL Analytics] als uw gedragsgegevensbron gebruiken. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Het is ook mogelijk offline- of in-app-interacties te verzenden [!DNL Target] via realtime-API.
 
 ### Aanbevelingen ophalen met de juiste context
 
@@ -111,7 +115,7 @@ Geef informatie over de gebruiker en de context door op het punt van interactie 
 
 Naast gebruikersgedrag in geaggregeerde vorm moet u [!DNL Target] de specifieke context doorgeven waarin aanbevelingen worden weergegeven. Dit omvat informatie over de pagina en informatie van het gebruikersprofiel. [!DNL Target] gebruikt deze informatie om gepersonaliseerde aanbevelingen te doen. Op een website in de detailhandel wilt u bijvoorbeeld weten welk product en welke productcategorie de bezoeker momenteel bekijkt. U wilt ook informatie over die gebruiker (favoriet merk, favoriete productcategorie, loyaliteitsrij, etc.) kennen. Deze informatie is belangrijk, zodat [!DNL Target] u items kunt filteren en aanbevelingen kunt aanpassen.
 
-## Bouw uw eerste activiteit van Aanbevelingen
+## Uw eerste Recommendations-activiteit samenstellen
 
 Wat is een [!DNL Recommendations] activiteit?
 
@@ -189,8 +193,8 @@ In de context van de inhoud kunt u bijvoorbeeld films uitsluiten die de bezoeker
 
 ## Demo
 
-Nadat u de taken voltooit die in de hierboven beschreven aanbevelingen trechter worden geïllustreerd, wordt u verlaten met uw definitieve aanbeveling. Als u een demonstratie binnen het product wilt bekijken, begint de demo om 21:00 in het [!DNL Target]Adobe Target Basics Webinar **, dat hieronder is gekoppeld.
+Nadat u de taken voltooit die in de hierboven beschreven aanbevelingen trechter worden geïllustreerd, wordt u verlaten met uw definitieve aanbeveling. Om een demonstratie in het product binnen te bekijken [!DNL Target], begint de demo om 21:00 in de *Adobe Target Basics Webinar*, verbonden aan hieronder.
 
-## Adobe Target Basics Webinar: Inleiding tot aanbevelingen {#intro-to-recs}
+## Adobe Target Basics Webinar: Inleiding tot Recommendations {#intro-to-recs}
 
-[Inleiding tot aanbevelingen](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Inleiding tot Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
