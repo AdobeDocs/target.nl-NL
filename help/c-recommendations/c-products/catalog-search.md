@@ -1,10 +1,14 @@
 ---
 keywords: catalog;search
-description: Met de zoekopdracht naar catalogi in Adobe Target kunt u de producten of inhoud in uw catalogus vinden.
+description: Met de zoekactie in de catalogus in Adobe Target kunt u de producten of inhoud in de catalogus vinden.
 title: Cataloguszoekopdracht in Adobe Target
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 0%
 
 ---
 
