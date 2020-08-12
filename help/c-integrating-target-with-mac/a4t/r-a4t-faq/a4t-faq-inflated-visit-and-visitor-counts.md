@@ -2,10 +2,14 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
 description: Dit onderwerp bevat antwoorden op vragen die vaak over opgeblazen bezoek en bezoekersaantallen wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Opgeblazen bezoek en aantal bezoekers - A4T Veelgestelde vragen
+feature: null
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +32,7 @@ Voor meer informatie, zie het [Minimaliseren van de Inflated Tellingen van het B
 
 ## Ik zie een piek in bezoeken. Hoe kan ik zien of dit veroorzaakt werd door partieel-data-hits? {#section_28506672C6224ED18AC74F6A02F6F811}
 
-U kunt contact opnemen met de [klantenservice](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van Adobe om een gedeeltelijk gegevensrapport op te halen. Deze informatie is niet rechtstreeks beschikbaar in de [!DNL Analytics] gebruikersinterface.
+U kunt contact opnemen met de klantenservice [van](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Adobe om een gedeeltelijk gegevensrapport op te halen. Deze informatie is niet rechtstreeks beschikbaar in de [!DNL Analytics] gebruikersinterface.
 
 ## Wat zijn de potentiële oorzaken van partieel-gegevens klappen? {#section_C4BB9925CE6444BE8CB9FBEFE5085546}
 
