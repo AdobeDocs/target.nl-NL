@@ -1,18 +1,22 @@
 ---
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
-description: Soorten publiek in Adobe Target bepalen wie de inhoud en ervaringen van een doelactiviteit zal zien.
+description: Het publiek in Adobe Target bepaalt wie de inhoud en ervaringen van een gerichte activiteit zal zien.
 title: Soorten publiek maken in Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 0%
 
 ---
 
 
 # Soorten publiek maken{#create-audiences}
 
-Soorten publiek in Adobe Target bepalen wie de inhoud en ervaringen van een doelactiviteit zal zien.
+Het publiek in Adobe Target bepaalt wie de inhoud en ervaringen van een gerichte activiteit zal zien.
 
 Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een activiteit als doel instelt, kunt u een herbruikbaar publiek in de [!UICONTROL Audiences] lijst selecteren, een activiteitspecifiek publiek [](/help/c-target/creating-activity-only-audience.md) maken en ernaar streven, of meerdere soorten publiek [](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om een ad-hocpubliek te maken.
 
@@ -23,7 +27,7 @@ U kunt publieksgegevens ook gebruiken die door [!DNL Analytics] voor het in real
 * **Doelgroepen:** Wordt gebruikt om verschillende inhoud aan verschillende typen bezoekers te leveren.
 * **Publiek rapporteren:** Hiermee bepaalt u hoe verschillende typen bezoekers op dezelfde inhoud reageren, zodat u de testresultaten kunt analyseren.
 
-   In [!DNL Target], kunt u rapportpubliek vormen slechts als u [!DNL Target] als uw rapporteringsbron gebruikt. Als u [Adobe Analytics als rapportbron](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt, moet u uw rapportpubliek binnen vormen [!DNL Analytics].
+   In [!DNL Target], kunt u rapportpubliek vormen slechts als u [!DNL Target] als uw rapporteringsbron gebruikt. Als u [Adobe Analytics als uw rapporteringsbron](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt, moet u uw rapporteringspubliek binnen vormen [!DNL Analytics].
 
 ## De lijst Soorten publiek gebruiken
 
@@ -35,7 +39,7 @@ De [!UICONTROL Audiences] lijst bevat alle soorten publiek die u in uw activitei
 
 Wanneer het werken met publiek dat oorspronkelijk in AAM werd gecreeerd, het alarm van het Doel u als u een publiek in de activiteiten van het Doel van verwijzingen voorziet die later in AAM zijn geschrapt.
 
-* Als een publiek in AAM werd geschrapt, toont een waarschuwingspictogram in zowel de [!UICONTROL Audience] lijst als de publieksplukker. Een hulpmiddel-uiteinde in UI wijst ook erop dat het publiek in AAM werd geschrapt.
+* Als een publiek in AAM is verwijderd, wordt een waarschuwingspictogram weergegeven in zowel de [!UICONTROL Audience] lijst als de publiekskiezer. Een hulpmiddel-uiteinde in UI wijst ook erop dat het publiek in AAM werd geschrapt.
 * Als u meerdere soorten publiek probeert te combineren met een verwijderd publiek of als u een activiteit probeert op te slaan die verwijst naar een verwijderd publiek, wordt een waarschuwingsbericht weergegeven.
 
 U kunt ook aangepaste profielparameters en `user.` parameters opgeven. Wanneer u een publiek toevoegt, klikt u op **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]** en kiest u de parameter die u wilt gebruiken om uw activiteit als doel in te stellen. Als de gewenste parameter niet verschijnt, is de parameter niet in brand gestoken door een mbox. Andere aangepaste parameters zijn beschikbaar in de [!UICONTROL Custom Parameters] vervolgkeuzelijst.
@@ -62,7 +66,7 @@ Als een publiek met een ander publiek wordt gecombineerd en het gecombineerde pu
 
 ![](assets/audience_definition_list_usage.png)
 
-De volgende publieksdefinitiekaart is bedoeld voor een publiek dat is geïmporteerd uit de Adobe Experience Cloud. In dit geval is het publiek geïmporteerd uit Adobe Audience Manager (AAM).
+De volgende publieksdefinitiekaart is voor een publiek dat uit Adobe Experience Cloud wordt ingevoerd. In dit geval is het publiek geïmporteerd uit Adobe Audience Manager (AAM).
 
 ![Het lusje van het gebruik op de kaart van de Definitie van het Publiek](assets/audience_definition_mc.png)
 
