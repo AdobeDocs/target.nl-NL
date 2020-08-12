@@ -1,11 +1,12 @@
 ---
 keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
-description: Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en het gebruiken van Analytics als rapporteringsbron voor Target (A4T) worden gevraagd.
+description: Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Activiteitsinstellingen - Veelgestelde vragen voor A4T
+feature: null
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Activiteitsinstellingen - Veelgestelde vragen voor A4T{#activity-settings-a-t-faq}
 
-Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en het gebruiken van Analytics als rapporteringsbron voor Target (A4T) worden gevraagd.
+Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 
 ## Welke activiteitstypes steunen Analytics als rapporteringsbron (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -23,9 +24,9 @@ Voor een volledige lijst, zie &quot;Gesteunde Types van Activiteit&quot;in [Adob
 
 ## Ik heb net een activiteit gecreëerd. Waarom zie ik geen gegevens binnenkomen? {#section_9F8092BE4225442896F926540292F221}
 
-Wanneer een activiteit wordt gecreeerd, verzendt Target een classificatiedossier naar Analytics. Hoewel Analytics de gegevens vastlegt en verwerkt, worden deze pas in de rapporten weergegeven als het classificatiebestand is bijgewerkt. Dit kan tot 24 uur duren. Als u na 48 uur uw gegevens niet ziet, neemt u [contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Als u weet dat u een activiteit start, kunt u de activiteit een paar dagen van tevoren maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Het duurt 45 tot 90 minuten voordat gegevens in Analytics worden verwerkt.
+Wanneer een activiteit wordt gecreeerd, verzendt het Doel een classificatiedossier naar Analytics. Hoewel Analytics de gegevens vastlegt en verwerkt, wordt deze pas in de rapporten weergegeven als het classificatiebestand is bijgewerkt. Dit kan tot 24 uur duren. Als u na 48 uur uw gegevens niet ziet, neemt u [contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Als u weet dat u een activiteit start, kunt u de activiteit een paar dagen van tevoren maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Het duurt 45 tot 90 minuten voordat gegevens worden verwerkt in Analytics.
 
-## Waarom kan ik Analytics niet selecteren als mijn rapportagebron wanneer ik een nieuwe activiteit maak? {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## Waarom kan ik Analytics niet selecteren als mijn rapporteringsbron wanneer ik een nieuwe activiteit creeer? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 U kunt uw opties van de Montages van de Rapportering in Beleid veranderen.
 
@@ -36,4 +37,4 @@ U kunt uw opties van de Montages van de Rapportering in Beleid veranderen.
 
 De **[!UICONTROL Reporting Source]** vervolgkeuzelijst is in het **[!UICONTROL Goal & Settings]** scherm ingeschakeld voor het maken en bewerken van activiteiten.
 
-Als u Analytics altijd als rapportagebron wilt gebruiken, selecteert u een optie in de vervolgkeuzelijst in Beheer. **[!UICONTROL Adobe Analytics]**
+Om Analytics als rapporteringsbron altijd te gebruiken, selecteer **[!UICONTROL Adobe Analytics]** van de drop-down lijst in Beleid.
