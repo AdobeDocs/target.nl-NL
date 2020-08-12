@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Informatie over het beheren van Gebruikers in de Standaard van het Doel en het beheren van ondernemingsEigenschappen en Toestemmingen in de Premie van het Doel.
 title: Gebruikersbeheer
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -28,7 +29,8 @@ U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de
 
    * Het [!UICONTROL Users] tabblad ( [!UICONTROL Administration] > [!UICONTROL Users] ) wordt weergegeven
    * Het *tabblad (* > [!UICONTROL Properties] ) wordt [!UICONTROL Administration] niet [!UICONTROL Properties] weergegeven
-   [!DNL Target] Standaardklanten moeten de instructies in [Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md) volgen om gebruikers toe te voegen en machtigingen toe te wijzen in de Adobe Admin Console.
+
+   [!DNL Target] Standaardklanten moeten de instructies in [Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md) volgen om gebruikers toe te voegen en machtigingen in de Adobe Admin Console toe te wijzen.
 
 * **Doelpremiumklanten:** Als uw organisatie een [!DNL Target] Premium-licentie heeft, kunt u het volgende naleven in de doelinterface:
 
