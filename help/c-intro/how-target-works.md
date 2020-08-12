@@ -1,12 +1,13 @@
 ---
 keywords: Overview and Reference;SEO;search engine optimization
 description: Adobe Target kan met websites worden geïntegreerd door middel van een van twee JavaScript-bibliotheken. at.js of mbox.js
-title: De werking van Adobe Target
+title: Hoe Adobe Target werkt
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 1%
@@ -14,13 +15,13 @@ ht-degree: 1%
 ---
 
 
-# De werking van Adobe Target{#how-adobe-target-works}
+# Hoe Adobe Target werkt{#how-adobe-target-works}
 
-Informatie over de werking van Adobe Target, inclusief informatie over de doelbibliotheken voor JavaScript (at.js en mbox.js) en de verschillende activiteitstypen die in Target zijn opgenomen.
+Informatie over hoe Adobe Target werkt, inclusief informatie over de JavaScript-doelbibliotheken (at.js en mbox.js) en de verschillende activiteitstypen die in Target zijn opgenomen.
 
 ## JavaScript-doelbibliotheken {#libraries}
 
-Adobe Target kan met websites worden geïntegreerd door middel van een van de volgende twee JavaScript-bibliotheken: at.js of mbox.js
+Adobe Target integreert met websites via een van de volgende twee JavaScript-bibliotheken: at.js of mbox.js
 
 * **at.js:** De bibliotheek [at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Wij adviseren dat alle klanten uitvoeren of aan de [recentste versie van at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)migreren.
 * **mbox.js:** De bibliotheek mbox.js is de oudere uitvoeringsbibliotheek voor Doel. De bibliotheek mbox.js wordt nog steeds ondersteund, maar er zijn geen functie-updates.
@@ -62,11 +63,11 @@ Zie [Auto-Target](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F6
 
 Auto-Target maakt gebruik van geavanceerd computerleren om uit meerdere, presterende, door de markator gedefinieerde ervaringen te kiezen en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat inhoud en stationsomzettingen kunnen worden aangepast.
 
-### Geautomatiseerde Personalisatie (AP)
+### Automated Personalization (AP)
 
-Zie [Geautomatiseerde Personalisatie](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) voor meer informatie.
+Zie [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) voor meer informatie.
 
-De geautomatiseerde Personalisering (AP) combineert aanbiedingen of berichten, en gebruikt geavanceerd machine leren om verschillende aanbiedingsvariaties aan elke bezoeker aan te passen die op hun individueel klantenprofiel worden gebaseerd, om inhoud en aandrijfhefboom te personaliseren.
+Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computergebruik om verschillende aanbiedingsvariaties voor elke bezoeker af te stemmen op basis van hun individuele klantprofiel, om de inhoud en het optillen van de drive aan te passen.
 
 ### Gericht op ervaring (XT)
 
@@ -82,25 +83,25 @@ Zie [Multivariate Test](../c-activities/c-multivariate-testing/multivariate-test
 
 MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft.
 
-### Aanbevelingen
+### Recommendations
 
-Zie [Aanbevelingen](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) voor meer informatie.
+Zie [Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) voor meer informatie.
 
-De activiteiten van aanbevelingen tonen automatisch producten of inhoud die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren. De aanbevelingen helpen klanten aan relevante punten leiden zij anders niet op de hoogte zouden kunnen zijn.
+Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
 
 ## Het Edge-netwerk {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 &quot;Edge&quot; is een geografisch gedistribueerde serverarchitectuur die zorgt voor optimale responstijden voor eindgebruikers die inhoud aanvragen, ongeacht waar ze zich wereldwijd bevinden.
 
-Om de responstijden te verbeteren, host Edge-omgevingen alleen de logica van de activiteit en het profiel in de cache en bieden ze informatie. Databanken met activiteiten en inhoud, [!DNL Analytics] gegevens, API&#39;s en markeringsgebruikersinterfaces zijn gehuisvest in de centrale gegevensomgevingen van Adobe. Updates worden vervolgens naar de Edge-knooppunten verzonden. De centrale omgevingen en Edge-knooppunten worden automatisch gesynchroniseerd om gegevens over activiteiten in de cache voortdurend bij te werken. 1:1 modellering wordt ook opgeslagen op elke rand, zodat die complexere verzoeken ook op de Rand kunnen worden verwerkt.
+Om de responstijden te verbeteren, host Edge-omgevingen alleen de logica van de activiteit en het profiel in de cache en bieden ze informatie. De gegevensbestanden van de activiteit en van de inhoud, [!DNL Analytics] gegevens, APIs, en de gebruikersinterfaces van de tellergebruiker worden gehuisvest in de centrale gegevensmilieu&#39;s van Adobe. Updates worden vervolgens naar de Edge-knooppunten verzonden. De centrale omgevingen en Edge-knooppunten worden automatisch gesynchroniseerd om gegevens over activiteiten in de cache voortdurend bij te werken. 1:1 modellering wordt ook opgeslagen op elke rand, zodat die complexere verzoeken ook op de Rand kunnen worden verwerkt.
 
 Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en houdt analysegegevens bij over die aanvraag. De verzoeken van de gebruiker worden verpletterd aan de dichtstbijzijnde knoop van de Rand.
 
 ![Toewijzen met kernEdge-sites en -Edge-sites](assets/edge_network.png)
 
-De bron voor deze afbeelding is de whitepaper over [Adobe Target-beveiligingsoverzicht](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+De bron voor deze afbeelding is het white paper [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
 
-De Adobe Target-oplossing wordt gehost in datacenters van Adobe en door Adobe geleased wereldwijd. Admin-servers worden volledig gehost in gegevenscentra die eigendom zijn van Adobe in Londen, Singapore en op meerdere locaties in de hele VS, inclusief Oregon en Virginia. Edge Servers worden gehost op servers die eigendom zijn van Adobe en die door Adobe worden gehuurd in AWS-datacenters in Amazon in Londen, SAR Hongkong in China, Singapore, Tokio en Sydney.
+De Adobe Target-oplossing wordt gehost op datacenters die eigendom zijn van Adobe en door Adobe worden gehuurd over de hele wereld. Admin-servers worden volledig gehost in datacenters die eigendom zijn van Adobe in Londen, Singapore en meerdere locaties in de VS, waaronder Oregon en Virginia. Edge-servers worden gehost op servers die eigendom zijn van Adobe en Adobe-leased in Amazon AWS-datacenters in Londen, Hongkong SAR of China, Singapore, Tokio en Sydney.
 
 De plaatsen van de Server van Admin bevatten zowel een centrum van de gegevensinzameling als een centrum van de gegevensverwerking. De plaatsplaatsen van de rand bevatten slechts een centrum van de gegevensinzameling. Elke rapportsuite wordt toegewezen aan een specifiek gegevensverwerkingscentrum.
 
@@ -110,11 +111,11 @@ In plaats van op alle gerichte verzoeken van één enkele plaats te antwoorden, 
 >
 >[!DNL Adobe Target] heeft momenteel geen Edge-netwerk in China en de prestaties van de eindgebruiker blijven beperkt voor [!DNL Target] klanten in China. Wegens de firewall en het gebrek aan knopen van de Rand binnen het land, zullen de ervaringen van plaatsen met [!DNL Target] opgesteld langzaam teruggeven zijn en paginaladingen zullen worden beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
 
-U kunt indien gewenst opmerkingen bij de doelrand toestaan. Zie [Toegestane doelEdge-knooppunten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)voor meer informatie.
+U kunt indien gewenst opmerkingen over de doelrand lijsten van gewenste personen. Zie [lijst van gewenste personen Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)voor meer informatie.
 
 ## Ervaring met beveiligde gebruikers {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-Adobe zorgt ervoor dat de beschikbaarheid en prestaties van de doelinfrastructuur zo betrouwbaar mogelijk zijn. Een communicatieafbraak tussen de browser van een eindgebruiker en de servers van Adobe kan echter een onderbreking in de levering van inhoud veroorzaken.
+Adobe zorgt ervoor dat de beschikbaarheid en prestaties van de doelinfrastructuur zo betrouwbaar mogelijk zijn. Een communicatieafbraak tussen de browser van de eindgebruiker en de servers van de Adobe kan echter een onderbreking in de levering van de inhoud veroorzaken.
 
 Om tegen de dienstonderbrekingen en connectiviteitskwesties te beschermen, zijn alle plaatsen opstelling om standaardinhoud (die door de cliënt wordt bepaald) te omvatten, die wordt getoond als browser van de gebruiker niet met kan verbinden [!DNL Target].
 
@@ -122,9 +123,9 @@ Er worden geen wijzigingen aangebracht in de pagina als de browser van de gebrui
 
 Adobe beschermt de gebruikerservaring door de prestaties te optimaliseren en te beveiligen.
 
-* Adobe garandeert prestatiebenchmarks op basis van industriestandaarden, die worden gegarandeerd door de Adobe Service Level Agreement.
+* Adobe zorgt voor prestatiebenchmarks op basis van industriestandaarden, die worden gegarandeerd door de Adobe Service Level Agreement.
 * Het Edge-netwerk zorgt voor tijdige gegevenslevering.
-* Adobe hanteert een aanpak met meerdere lagen om zijn toepassingen te beveiligen en klanten het hoogste niveau van beschikbaarheid en betrouwbaarheid te bieden.
+* Adobe gebruikt een multi-tiered benadering om zijn toepassingen te beveiligen om het hoogste niveau van beschikbaarheid en betrouwbaarheid voor klanten te verstrekken.
 * [!DNL Target] Consulting biedt implementatieondersteuning en doorlopende productondersteuning.
 
 ## SEO (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s) - vriendelijk testen {#concept_C0C865663CAB4251B66A1F250FD25E6A}
@@ -144,7 +145,7 @@ Richtlijnen werden gepresenteerd in een [Google Webmaster Central Blog](https://
 
    Het doel, als platform, is gevormd om onderzoeksmotor bots te behandelen het zelfde als om het even welke gebruiker. Dit houdt in dat de beren kunnen worden opgenomen in tests die u uitvoert, als ze willekeurig worden geselecteerd en de testvariaties &quot;zien&quot;.
 
-* **Gebruik rel=&quot;canonical&quot;** - Soms moet een A/B-test worden ingesteld met verschillende URL&#39;s voor de variaties. In deze gevallen moeten alle variaties een `rel="canonical"` tag bevatten die verwijst naar de oorspronkelijke (controle)URL. Als Adobe bijvoorbeeld zijn startpagina test met verschillende URL&#39;s voor elke variatie, wordt de volgende canonieke tag voor de startpagina in de `<head>` tag voor elk van de variaties geplaatst:
+* **Gebruik rel=&quot;canonical&quot;** - Soms moet een A/B-test worden ingesteld met verschillende URL&#39;s voor de variaties. In deze gevallen moeten alle variaties een `rel="canonical"` tag bevatten die verwijst naar de oorspronkelijke (controle)URL. Als Adobe bijvoorbeeld de startpagina test met verschillende URL&#39;s voor elke variatie, wordt de volgende canonieke tag voor de startpagina in de `<head>` tag voor elk van de variaties geplaatst:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -180,7 +181,7 @@ Specifiek, voor bekende bot verkeer richt niet:
 
 * Een bezoekersprofiel maken of ophalen
 * Profielkenmerken vastleggen of profielscripts uitvoeren
-* Segmenten voor Adobe Audience Manager (AAM) opzoeken (indien van toepassing)
-* Gebruik zowel verkeer in modellering en het dienen van gepersonaliseerde inhoud voor Aanbevelingen, AutoDoel, Geautomatiseerde Personalisering, of AutoWijst activiteiten toe
+* Adobe Audience Manager-segmenten (AAM) opzoeken (indien van toepassing)
+* Gebruik zowel het verkeer in modellering en het dienen van gepersonaliseerde inhoud voor Recommendations, AutoDoel, Automated Personalization, of AutoToewijzing activiteiten
 * Een activiteitenbezoek aanmelden voor rapportage
 * Loggegevens die naar het Adobe Experience Cloud-platform moeten worden verzonden
