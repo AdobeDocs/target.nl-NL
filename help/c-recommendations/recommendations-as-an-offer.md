@@ -1,14 +1,18 @@
 ---
 keywords: Recommendations;offer
-description: Adobe-aanbevelingen als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting-activiteiten (XT)
-title: Adobe-aanbevelingen als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting-activiteiten (XT)
+description: Adobe Recommendations als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten
+title: Adobe Recommendations als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Aanbevelingen als aanbieding
+# ![PREMIUM](/help/assets/premium.png) Recommendations als een aanbieding
 
 U kunt nu aanbevelingen opnemen binnen [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten.
 
@@ -63,7 +67,7 @@ Er zijn twee manieren u de configuratie van een aanbieding kunt uitgeven:
 * Het [!UICONTROL Edit] menu gebruiken
 * Het [!UICONTROL Modifications] deelvenster gebruiken
 
-### Een aantal aanbevelingen bewerken via het menu Bewerken
+### Aanbevelingen bewerken via het menu Bewerken
 
 1. Klik op het voorstel dat u wilt bewerken en klik vervolgens op **[!UICONTROL Edit]**.
 
@@ -109,14 +113,14 @@ U kunt een aanbevolen versie op twee manieren verwijderen:
 
 ### De status van de aanbevolen aanbieding bekijken {#status}
 
-De aanbevelingen bieden (algoritme) status aan vertoningen bij de bodem van de [!UICONTROL Overview] pagina voor A/B Test en XT activiteiten die de aanbiedingen van Aanbevelingen bevatten:
+De aanbevelingen bieden (algoritme) status aan vertoningen bij de bodem van de [!UICONTROL Overview] pagina voor A/B Test en XT activiteiten die de aanbiedingen van Recommendations bevatten:
 
 * Resultaten gereed
 * Resultaten niet gereed
 * Feed-fout
 
-![Status van voorstel voor aanbevelingen](/help/c-recommendations/assets/recs-offer-status.png)
+![Status Recommendations-aanbieding](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Trainingsvideo: Aanbevelingen als ![overzichtsbadge voor aanbieding](/help/assets/overview.png)
+## Trainingsvideo: Recommendations als ![overzichtsbadge voor aanbieding](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
