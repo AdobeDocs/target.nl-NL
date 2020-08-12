@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informatie om u te helpen de elementen plaatsen u in uw rapport wilt verschijnen. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
 title: Rapportinstellingen
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1813'
+ht-degree: 0%
 
 ---
 
@@ -161,8 +165,8 @@ U kunt het rapport in diverse formaten, afhankelijk van het activiteitstype beki
 
 * **Tabelweergave**: Klik op het **[!UICONTROL Table View]** pictogram om het rapport als een tabel weer te geven.
 * **Grafiekweergave**: Klik op het **[!UICONTROL Graph View]** pictogram om het rapport als een grafiek weer te geven.
-* **Geautomatiseerde segmenten**: (Alleen beschikbaar voor activiteiten van Automated Personalization (AP) en Auto-Target (AT).) Klik het pictogram **[!UICONTROL Automated Segments] om het [Geautomatiseerde segmentrapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)te bekijken.
-* **Belangrijke kenmerken**: (Alleen beschikbaar voor activiteiten van Automated Personalization (AP) en Auto-Target (AT).) Klik op het pictogram **[!UICONTROL Important Attributes] om het rapport [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Belangrijke kenmerken weer te geven.
+* **Geautomatiseerde segmenten**: (Alleen beschikbaar voor Automated Personalization (AP)- en Auto-Target (AT)-activiteiten.) Klik het pictogram **[!UICONTROL Automated Segments] om het [Geautomatiseerde segmentrapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)te bekijken.
+* **Belangrijke kenmerken**: (Alleen beschikbaar voor Automated Personalization (AP)- en Auto-Target (AT)-activiteiten.) Klik op het pictogram **[!UICONTROL Important Attributes] om het rapport [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Belangrijke kenmerken weer te geven.
 
 ## Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -213,7 +217,7 @@ Selecteer de gewenste grafiekweergave:
 
 (Alleen beschikbaar bij weergave van het rapport in de Grafiekweergave)
 
-U kunt de telmethode voor grafieken kiezen in rapporten. Merk op dat dit niet voor Geautomatiseerde Personalisatie (AP) activiteiten wordt gesteund.
+U kunt de telmethode voor grafieken kiezen in rapporten. Dit wordt niet ondersteund voor Automated Personalization-activiteiten (AP).
 
 Om tot de optie van de Methodologie van de Telling toegang te hebben, terwijl het bekijken van een rapport op grafiekwijze, klik de **[!UICONTROL My Primary Goal]** drop-down, dan selecteer de tellingsmethodologie.
 
@@ -235,10 +239,10 @@ Er zijn vier modi voor Auto-Target-activiteiten: Dagelijkse controle, gerichte d
 
 De standaardvolgorde waarin de grafiek wordt uitgezet is als volgt:
 
-* **A/B-tests (inclusief automatische toewijzing en automatische personalisatie)**: Volgorde van ervaring maken, in aflopende volgorde.
+* **A/B-tests (inclusief automatische toewijzing en Automated Personalization)**: Volgorde van ervaring maken, in aflopende volgorde.
 * **Gericht op ervaring (XT)**: Volgorde van ervaringen in de activiteit.
 * **MVT (Multivariate Test)**: Alfabetisch op ervaringsnaam.
-* **Aanbevelingen**: Volgorde van ervaring maken, in aflopende volgorde.
+* **Recommendations**: Volgorde van ervaring maken, in aflopende volgorde.
 
 Houd rekening met het volgende terwijl u werkt met de opties voor telmethoden:
 
