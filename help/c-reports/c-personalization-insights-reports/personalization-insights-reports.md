@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Er zijn twee gespecialiseerde rapporten beschikbaar voor gebruikers van Automated Personalization (AP)- en Auto-Target (AT)-activiteiten in de rapporten Geautomatiseerde segmenten en Belangrijke kenmerken.
 title: Persoonlijkheidsrapporten
+feature: null
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -50,16 +51,16 @@ Er zijn twee [!UICONTROL Personalization Insights] rapporten beschikbaar:
 
 ## Kenmerken interpreteren in de functie Persoonlijke inzichten {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
-In [!UICONTROL Personalization Insights] rapporten worden twee typen kenmerken weergegeven die in uw AP- of Auto Target-modellen worden gebruikt:
+Er zijn twee soorten attributen die in rapporten worden vertegenwoordigd die in uw AP of Auto modellen van het Doel worden gebruikt: [!UICONTROL Personalization Insights]
 
-* **Kenmerken die automatisch door Target worden verzameld:** [!DNL Target] gebruikt een reeks basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van de Personalisatie worden weerspiegeld. Zie de [Inzameling van Gegevens voor de Algoritmen](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) van de Personalisatie van Target voor gegevenstypes, voorbeeldattributen, en hun [!UICONTROL Personalization Insights] noemende overeenkomst. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
-* **Attributen doorgegeven aan Target:** Zie Gegevens [uploaden voor de Target-algoritmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)voor personalisatie.
+* **Kenmerken die automatisch door Target worden verzameld:** [!DNL Target] gebruikt een reeks basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van de Personalisatie worden weerspiegeld. Zie de Inzameling van [Gegevens voor de Algoritmen](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) van de Personalisering van het Doel voor gegevenstypes, voorbeeldattributen, en hun [!UICONTROL Personalization Insights] noemende overeenkomst. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
+* **Attributen doorgegeven aan Doel:** Zie Gegevens [uploaden voor de Algoritmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)van de Aanpassing van het Doel.
 
 [!DNL Target] verstrekt vele manieren voor u om in extra gegevens over te gaan om de reeks van basisgegevens [!DNL Target] te verrijken die wordt gebruikt om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen:
 
 | Gegevenstype | Beschrijving | Naamgevingsconventie voor gegevenstypen |
 |--- |--- |--- |
-| Profielkenmerken, waaronder profielscripts, API voor profielupdate en kenmerken van paginabereik | Alle gegevens die je hebt besloten op te nemen in het gebruikersprofiel van Target.<br>Deze informatie kan afkomstig zijn van profielscripts, informatie die is geüpload met de API voor profielupdate of in-mbox-profielparameters die vooraf zijn ingesteld op &quot;profile&quot;. | `Custom - Profile - [parameter name]` |
+| Profielkenmerken, waaronder profielscripts, API voor profielupdate en kenmerken van paginabereik | Alle informatie die u hebt besloten op te nemen in het gebruikersprofiel van Target.<br>Deze informatie kan afkomstig zijn van profielscripts, informatie die is geüpload met de API voor profielupdate of in-mbox-profielparameters die vooraf zijn ingesteld op &quot;profile&quot;. | `Custom - Profile - [parameter name]` |
 | Paginaparameters (ook wel &quot;parameters mbox&quot; genoemd) | Naam-/waardeparen die rechtstreeks via paginacode worden doorgegeven en die niet in het profiel van de bezoeker zijn opgeslagen voor toekomstig gebruik. | `Custom - Mbox Parameter - [parameter name]` |
 | Klantkenmerken | Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar de Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Gedeeld publiek (Adobe Audience Manager of Adobe Analytics) | Soorten publiek gemaakt via Adobe Audience Manager of Adobe Analytics en gedeeld met Target. | `Custom - Experience Cloud Segment - [segment name]` |
