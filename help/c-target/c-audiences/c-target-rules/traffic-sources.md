@@ -1,10 +1,14 @@
 ---
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
-description: Maak een publiek in Adobe Target voor bezoekers op basis van de zoekmachine of de bestemmingspagina die hen naar uw site verwijst.
+description: Maak een publiek in Adobe Target om bezoekers te richten op basis van het zoekprogramma of de bestemmingspagina die hen naar uw site verwijst.
 title: Doelverkeersbronnen in Adobe Target
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
@@ -32,6 +36,7 @@ U kunt veelvoudige verkeersbronnen combineren om een complexe het richten regel 
    * Refererende landingspagina: URL
    * Refererende landingspagina: Domein
    * Refererende landingspagina: Query
+
    Afhankelijk van uw selectie moet u mogelijk aanvullende informatie opgeven (beoordelaar en/of waarden).
 
 1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
