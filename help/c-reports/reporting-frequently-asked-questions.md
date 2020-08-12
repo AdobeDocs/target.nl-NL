@@ -2,10 +2,11 @@
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Lijst met veelgestelde vragen over rapportage in Adobe Target.
 title: Veelgestelde vragen over rapportage voor Adobe Target
+feature: null
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -99,7 +100,7 @@ Zie [Gastheren](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB0394
 
 Bijvoorbeeld, plaatste ik de verkeersverdeling aan 50/50 of 25/25/25/25 maar ik zie een zeer verschillende verdeling tussen ervaringen in de rapportering. Er zijn een aantal verklaarbare redenen voor ongelijke aantallen bezoekers in het [!DNL Target] melden:
 
-* Wanneer een [!DNL Target] activiteit eerst wordt gelanceerd, zou de verkeersdistributie wegens de architectuur van de randknoop ongelijk kunnen zijn die [!DNL Target] gebruikt om ervaringslevering te optimaliseren. De beste praktijk is een activiteit wat tijd te geven om extra gegevens te verzamelen en de distributie zal normaliseren. Zie [!DNL Adobe Target] Hoe werkt [Adobe Target voor meer informatie over](/help/c-intro/how-target-works.md)architectuur en Edge-knooppunten.
+* Wanneer een [!DNL Target] activiteit eerst wordt gelanceerd, zou de verkeersdistributie wegens de architectuur van de randknoop ongelijk kunnen zijn die [!DNL Target] gebruikt om ervaringslevering te optimaliseren. De beste praktijk is een activiteit wat tijd te geven om extra gegevens te verzamelen en de distributie zal normaliseren. Voor meer informatie over [!DNL Adobe Target] architectuur en de knopen van de Rand, zie [hoe Adobe Target werkt](/help/c-intro/how-target-works.md).
 * Als u binnen bent [!DNL Target] of [!DNL Analytics] en u **[!UICONTROL Visits]** metrisch gebruikt, herinner dat [!DNL Target] een op bezoeker-gebaseerd systeem is en de verkeersdistributie voor een test A/B of MVT wordt toegewezen op het bezoekersniveau. Aldus, als u activiteitenresultaten gebruikend **[!UICONTROL Visits]** metrisch onderzoekt, kan de verkeersdistributie ongelijk lijken omdat bepaalde bezoekers veelvoudige bezoeken zouden kunnen hebben. Bezoekers zijn de standaard die metrische gegevens normaliseren bij het evalueren van de prestaties van de activiteit.
 * De beste praktijk voor A/B- en MVT-tests is het gelijkmatig verdelen van het verkeer. Het wijzigen van de verkeersverdeling tussen ervaringen (bijvoorbeeld van 90/10 naar 50/50) tijdens een test kan leiden tot ongelijke ervaringen tussen bezoekers. De lagere verkeerservaring kan nooit &quot;inhalen.&quot;
 * Als u de bovenstaande beste praktijken volgt en de verkeerssplitsing niet in tijd normaliseert, zou u het volgende moeten controleren:
