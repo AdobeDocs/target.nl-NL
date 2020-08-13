@@ -2,10 +2,10 @@
 keywords: Targeting
 description: Het belangrijkste verpersoonlijkingsalgoritme van het doel dat in zowel Automated Personalization als Auto-Doel wordt gebruikt is Willekeurig bos. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het Random Forest-algoritme in Automated Personalization is een classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen tijdens de training.
 title: Random Forest-algoritme
-feature: null
+feature: ap
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
