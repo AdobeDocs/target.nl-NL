@@ -2,11 +2,11 @@
 keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Definieer een publiek om twee profielkenmerken voor uw doelpubliek of in een publiek met alleen activiteit te vergelijken. Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
 title: Een vergelijkingspubliek voor profielkenmerken maken in Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
