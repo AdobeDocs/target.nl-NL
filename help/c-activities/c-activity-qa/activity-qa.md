@@ -2,11 +2,11 @@
 keywords: qa;preview;preview links;adobe target;target
 description: Gebruik Adobe Target QA URLs om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
 title: Activiteit QA
-feature: null
+feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 * De voorwaarden van het publiek naar keuze gerespecteerd zodat kunnen de marketers het richten van criteria testen of het richten van criteria aan QA de verschijning van ervaringen negeren zonder het moeten aan de publieksvoorwaarden voldoen.
 * QA-rapportage wordt vastgelegd zodat marketers kunnen bevestigen dat de metriek naar verwachting toeneemt en dat de QA-rapportgegevens gescheiden worden gehouden van productierapportage (voor niet-A4T-rapportage).
 * De mogelijkheid om een ervaring op zichzelf of in combinatie met andere live activiteiten die aan de leveringscriteria voldoen (pagina/doelverzoek/publiek) voor te vertonen.
-* De mogelijkheid om een kwaliteitscontrole uit te voeren voor de hele gebruikersreis. U hebt eenmalig toegang tot uw site met de koppeling voor kwaliteitscontrole en bladert vervolgens door de gehele site in Activiteit QA. U blijft in Activiteit QA tot u de zitting beëindigt of tot u [QA referentie van het Doel gebruikt om zich uit Activiteit QA te dwingen](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) . Deze functie is vooral handig als u een activiteit hebt die meerdere webpagina&#39;s omvat.
+* De mogelijkheid om een kwaliteitscontrole uit te voeren voor de hele gebruikersreis. U hebt eenmalig toegang tot uw site met de koppeling voor kwaliteitscontrole en bladert vervolgens door de gehele site in Activiteit QA. U blijft in Activiteit QA tot u de zitting beëindigt of tot u [QATarget bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) gebruikt om zich uit Activiteit QA te dwingen. Deze functie is vooral handig als u een activiteit hebt die meerdere webpagina&#39;s omvat.
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 * Als een activiteit meerdere ervaringssoorten publiek gebruikt (bijvoorbeeld een site in de VS en het Verenigd Koninkrijk die deel uitmaken van dezelfde activiteit), worden er geen QA-koppelingen gegenereerd voor de vier combinaties (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/US Site, Experience B/UK Site). Er worden slechts twee QA-koppelingen (Experience A en Experience B) gemaakt en gebruikers moeten in aanmerking komen voor het juiste publiek om de pagina te kunnen zien. Een Britse kwaliteitscontrole-persoon kon de Amerikaanse site niet zien.
 * Alle `at_preview` parameters en waarden zijn al gecodeerd met URL. Meestal werkt alles zoals verwacht. nochtans, zouden sommige klanten ladingsbalancers of de servers van het Web kunnen hebben die proberen om de parameters van het vraagkoord opnieuw te coderen.
 
-   Vanwege deze dubbele codering kan, wanneer we de code proberen te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
+   Vanwege deze dubbele codering kan, wanneer we proberen de token-waarde te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
 
    Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters worden toegevoegd op lijst van gewenste personen zodat deze waarden op geen enkele manier worden getransformeerd.
 
