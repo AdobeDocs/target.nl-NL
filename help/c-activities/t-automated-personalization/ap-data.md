@@ -2,10 +2,10 @@
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target verzamelt en gebruikt automatisch een verscheidenheid aan gegevens om zijn verpersoonlijkingsalgoritmen in de activiteiten van Automated Personalization (AP) en Auto-Target (AT) te bouwen. Wanneer een bezoeker de AP of activiteit van AT ingaat, wordt een momentopname van informatie overgegaan tot een reeks "opleidingsverslagen"(de bezoekersgegevens die de verpersoonlijkingsalgoritmen zullen leren).
 title: Gegevensverzameling voor Adobe Target-verpersoonlijkingsalgoritmen
-feature: null
+feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 0%
