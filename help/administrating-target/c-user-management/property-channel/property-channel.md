@@ -2,11 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informatie over het creëren van eigenschappen en het gebruiken van de eigenschappen en de functionaliteit van Toestemmingen die de beheerders van het Doel afzonderlijke werkruimten (productprofielen) in Doel laat creëren en dan gebruikers verschillende rollen en toestemmingen voor individuele pagina's, eigenschappen, of Websites toewijzen die op deze werkruimten worden gebaseerd.
 title: Machtigingen voor Enterprise-gebruikers
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3027'
 ht-degree: 0%
@@ -28,9 +28,9 @@ De gebruikerstoestemmingen van de onderneming zijn een middel om formele toegang
 
 U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de [!UICONTROL Administration] koppeling boven aan de [!DNL Target] gebruikersinterface te klikken.
 
-* **[!DNL Target Standard]Klanten **: Als u het[!UICONTROL Users]tabblad ([!UICONTROL Adminitration > Users]) ziet (en niet het[!UICONTROL Properties]tabblad), heeft uw organisatie een[!DNL Target Standard]licentie.[!DNL Target Standard]klanten moeten de instructies in[Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md)volgen om gebruikers toe te voegen en machtigingen in de[!DNL Adobe Admin Console]gebruikerslijst toe te wijzen.
+* **[!DNL Target Standard]Klanten**: Als u het [!UICONTROL Users] tabblad ([!UICONTROL Adminitration > Users]) ziet (en niet het [!UICONTROL Properties] tabblad), heeft uw organisatie een [!DNL Target Standard] licentie. [!DNL Target Standard]klanten moeten de instructies in [Gebruikers](/help/administrating-target/c-user-management/c-user-management/user-management.md) volgen om gebruikers toe te voegen en machtigingen in de [!DNL Adobe Admin Console]gebruikerslijst toe te wijzen.
 
-* **[!DNL Target Premium]Klanten **: Als u het[!UICONTROL Properties]tabblad ([!UICONTROL Administration > Properties]) en het[!UICONTROL Users]tabblad ziet, heeft uw organisatie een[!DNL Target Premium]licentie.[!DNL Target Premium]klanten moeten de instructies in dit artikel en in[Configure ondernemingstoestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)volgen.
+* **[!DNL Target Premium]Klanten**: Als u het [!UICONTROL Properties] tabblad ([!UICONTROL Administration > Properties]) en het [!UICONTROL Users] tabblad ziet, heeft uw organisatie een [!DNL Target Premium] licentie. [!DNL Target Premium] klanten moeten de instructies in dit artikel en in [Configure ondernemingstoestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)volgen.
 
 ## Voordat u aan de slag gaat met bedrijfsmachtigingen
 
