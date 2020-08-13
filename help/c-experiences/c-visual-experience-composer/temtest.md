@@ -2,10 +2,10 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Als u een paginasjabloon gebruikt om uw pagina's een structuur te geven of als uw pagina's vergelijkbare elementen bevatten, kunt u met deze functie variaties in pagina-elementen met een vergelijkbare structuur testen.
 title: Dezelfde ervaring opnemen op vergelijkbare pagina's
-feature: null
+feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -74,7 +74,7 @@ U kunt pagina&#39;s specificeren die de veranderingselementen omvatten, of de ve
 
 >[!IMPORTANT]
 >
-> Doel kan de pagina&#39;s niet controleren om ervoor te zorgen dat ze er naar behoren uitzien. Het is dus altijd belangrijk dat u deze functie gebruikt om de desbetreffende pagina&#39;s te testen voordat u ze openbaar maakt.
+> Doel kan de pagina&#39;s niet controleren om ervoor te zorgen dat deze er naar behoren uitzien. Het is dus altijd belangrijk dat u deze functie gebruikt om de desbetreffende pagina&#39;s te testen voordat u ze openbaar maakt.
 
 ## Trainingsvideo: Videozelfstudie-badge Visual Experience Composer (2 van 2) (7:29) ![](/help/assets/tutorial.png)
 
