@@ -2,10 +2,10 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Met feeds kunt u entiteiten importeren in Adobe Recommendations. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en/of Adobe Analytics-productclassificaties.
 title: Feeds
-feature: null
+feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2433'
 ht-degree: 0%
@@ -288,7 +288,7 @@ De volgende statussen zijn mogelijk voor een diervoeder:
 | Wachten op downloaden | Doel bereidt zich voor op het downloaden van het Feed-bestand. |
 | Feed-bestand downloaden | Doel is het Feed-bestand te downloaden. |
 | Items importeren | Doel is het importeren van items uit het voederbestand. |
-| Voeding is op *dat moment geïmporteerd* | Doel heeft het feed-bestand geïmporteerd in het systeem voor de levering van inhoud. Wijzigingen in objectkenmerken zijn aangebracht in het systeem voor de levering van inhoud en worden binnenkort weergegeven in de geleverde aanbevelingen. Als u de verwachte wijzigingen niet ziet, probeert u het over enkele ogenblikken opnieuw en vernieuwt u de pagina met aanbevelingen.<br>*Opmerking 1:*Als wijzigingen in de kenmerken van een item ertoe leiden dat een item wordt uitgesloten van aanbevelingen, wordt de uitsluiting onmiddellijk weerspiegeld. Als een item pas wordt toegevoegd of wijzigingen in kenmerken ertoe leiden dat een item* niet langer *van aanbevelingen wordt uitgesloten, wordt het item pas weergegeven als het volgende algoritme wordt bijgewerkt, wat binnen 24 uur zal gebeuren.<br>*Noot 2:* Wanneer deze status wordt weergegeven, worden updates mogelijk nog niet weergegeven in de gebruikersinterface van Catalog Search. Er wordt een aparte status weergegeven bij Cataloguszoekopdracht die aangeeft wanneer de doorzoekbare catalogus voor het laatst is bijgewerkt. |
+| Voeding is op *dat moment geïmporteerd* | Doel heeft het feed-bestand geïmporteerd in het systeem voor de levering van inhoud. Wijzigingen in objectkenmerken zijn aangebracht in het systeem voor de levering van inhoud en worden binnenkort weergegeven in de geleverde aanbevelingen. Als u de verwachte wijzigingen niet ziet, probeert u het over enkele ogenblikken opnieuw en vernieuwt u de pagina met aanbevelingen.<br>*Opmerking 1:* Als wijzigingen in de kenmerken van een item ertoe leiden dat een item wordt uitgesloten van aanbevelingen, wordt de uitsluiting onmiddellijk weerspiegeld. Als een item pas wordt toegevoegd of wijzigingen in kenmerken ertoe leiden dat een item *niet langer* van aanbevelingen wordt uitgesloten, wordt het item pas weergegeven als het volgende algoritme wordt bijgewerkt, wat binnen 24 uur zal gebeuren.<br>*Noot 2:* Wanneer deze status wordt weergegeven, worden updates mogelijk nog niet weergegeven in de gebruikersinterface van Catalog Search. Er wordt een aparte status weergegeven bij Cataloguszoekopdracht die aangeeft wanneer de doorzoekbare catalogus voor het laatst is bijgewerkt. |
 | Kan niet indexeren | De indexbewerking is mislukt. Probeer het opnieuw. |
 | Server niet gevonden | FTP- of URL-locaties zijn ongeldig of anderszins onbereikbaar. |
 
