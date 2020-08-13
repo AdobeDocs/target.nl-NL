@@ -2,11 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: Met Automatisch toewijzen wordt een winnaar geïdentificeerd aan de hand van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversie toeneemt terwijl de test nog steeds wordt uitgevoerd en opgedaan.
 title: Automatisch toewijzen
-feature: auto-allocate
+feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3310'
 ht-degree: 0%
@@ -144,7 +144,7 @@ Nee. Alleen nieuwe bezoekers worden automatisch toegewezen. De terugkerende bezo
 
 ### Hoe behandelt het algoritme valse positieven?
 
-Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten opzichte van false als u wacht tot de winnaar wordt weergegeven.
+Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten onrechte als u wacht tot de winnaar-badge wordt weergegeven.
 
 ### Wanneer begint de auto-Toewijzing verkeer toe te wijzen?
 
