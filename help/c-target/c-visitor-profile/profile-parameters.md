@@ -2,11 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Profielkenmerken zijn parameters die specifiek zijn voor de bezoeker. Deze kenmerken worden opgeslagen in het profiel van de bezoeker om informatie te geven over de bezoeker die kan worden gebruikt in uw Adobe Target-activiteiten.
 title: Profielkenmerken in Adobe Target
-feature: null
+feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Profielkenmerken instellen:
 
    | Type parameter | Beschrijving |
    |--- |--- |
-   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie Parameters [doorgeven aan een globale box](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Opmerking **: Doel heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken aan Doel moet doorgeven, kunt u deze doorgeven met de API-methode voor het bijwerken van profiel. Zie[Profielupdate in de Adobe Target API-documentatie](http://developers.adobetarget.com/api/#updating-profiles)voor meer informatie. |
+   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie Parameters [doorgeven aan een globale box](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Opmerking**: Doel heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken aan Doel moet doorgeven, kunt u deze doorgeven met de API-methode voor het bijwerken van profiel. Zie [Profielupdate in de Adobe Target API-documentatie](http://developers.adobetarget.com/api/#updating-profiles)voor meer informatie. |
    | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze kunnen lopende totalen opslaan zoals het totale geld dat door de consument wordt uitgegeven en op elke mbox verzoek uitgevoerd. Zie Profielscriptkenmerken hieronder. |
 
 ## Profielscriptkenmerken {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -76,7 +76,7 @@ if (mbox.name == 'Track_Interest') {
 Houd rekening met het volgende:
 
 * Raadpleeg scriptkenmerken voor profielen (ook zichzelf) in de code met `user.get('parameterName')`
-* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van de laatste aanvraag wilt verwijzen.
+* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van het laatste verzoek wilt verwijzen.
 * Parameters en waarden zijn hoofdlettergevoelig. Komt overeen met het geval van de parameters en waarden die u ontvangt tijdens de activiteit of test.
 * Zie de sectie &quot;JavaScript reference for script profile parameters&quot; hieronder voor meer JavaScript-syntaxis.
 * De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, zullen in die activiteit kwalificeren.
