@@ -2,11 +2,11 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profielscripts.
 title: Profiel en verklarende woordenlijst voor variabelen
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | mbox3rdPartyId | Een mbox-parameter om een klant-id te synchroniseren met de mboxPCID van Target. Een klant-id is een id die uw bedrijf gebruikt om bezoekers bij te houden, zoals een CRM-id, lidmaatschap-id of iets dergelijks. Deze id kan vervolgens worden gebruikt om informatie toe te voegen via de profiel-API&#39;s en [klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | In elke mbox-aanroep wordt een waarde toegewezen aan de pagina. |
 | mboxDebug | Wordt alleen gebruikt voor foutopsporingsinformatie. Toegevoegd aan de pagina-URL waar mbox.js ernaar zoekt. |
-| mboxOverride.browserIp | Hiermee stelt u een andere geo in dan de werkelijke locatie, zodat u kunt testen hoe iets er op een andere locatie uitziet.<br>**Opmerking:**Het gebruik van mboxOverride-parameters moet alleen worden gebruikt tijdens het testen van de activiteit en niet tijdens de productie. Het gebruik van willekeurige mboxOverride-parameters kan leiden tot discrepanties bij het gebruik van[Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T). U zou de wijze[van QA van de](/help/c-activities/c-activity-qa/activity-qa.md)Activiteit tijdens het testen moeten gebruiken om ervoor te zorgen dat uw activiteit zoals verwacht werkt alvorens de activiteit in uw levende milieu te duwen. |
+| mboxOverride.browserIp | Hiermee stelt u een andere geo in dan de werkelijke locatie, zodat u kunt testen hoe iets er op een andere locatie uitziet.<br>**Opmerking:** Het gebruik van mboxOverride-parameters moet alleen worden gebruikt tijdens het testen van de activiteit en niet tijdens de productie. Het gebruik van willekeurige mboxOverride-parameters kan leiden tot discrepanties bij het gebruik van [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). U zou de wijze [van QA van de](/help/c-activities/c-activity-qa/activity-qa.md) Activiteit tijdens het testen moeten gebruiken om ervoor te zorgen dat uw activiteit zoals verwacht werkt alvorens de activiteit in uw levende milieu te duwen. |
 
 ## Customer Attributes {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
