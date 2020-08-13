@@ -2,11 +2,11 @@
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site bevinden.
 title: Sitepagina's in Adobe Target
-feature: null
+feature: audiences
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
