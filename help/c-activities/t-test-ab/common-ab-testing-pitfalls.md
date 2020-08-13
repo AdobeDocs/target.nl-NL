@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
 description: A/B-tests vormen de ruggengraat van de meeste optimalisatieprogramma's voor digitale marketing en helpen marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit gedeelte worden negen van de belangrijkste valkuilen beschreven waar bedrijven op stuiten wanneer zij A/B-tests uitvoeren in Adobe Target. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
 title: Negen gangbare A/B-testvalkuilen en hoe deze te vermijden
-feature: null
+feature: ab
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 0%
