@@ -1,10 +1,10 @@
 ---
 description: Criteria bepalen de inhoud van je Adobe Recommendations-activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
 title: Criteria maken
-feature: null
+feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3345'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
    * [!UICONTROL Show Backup Recommendations]
    * [!UICONTROL Recommend Previously Purchased Items]
 
-   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Het is handig als u objecten verkoopt die mensen doorgaans maar één keer kopen, zoals kajaks. Als u objecten verkoopt die mensen weer kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet u deze optie uitschakelen.
+   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als u objecten verkoopt die mensen weer kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet u deze optie uitschakelen.
 
 1. Stel uw **[!UICONTROL Inclusion rules]** waarde in.
 
