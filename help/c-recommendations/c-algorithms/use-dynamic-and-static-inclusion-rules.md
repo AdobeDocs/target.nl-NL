@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: Informatie over het creëren van inclusieregels in Adobe Target Recommendations voor criteria en bevorderingen, en het toevoegen van extra dynamische of statische het filtreren regels om betere resultaten te bereiken.
 title: Regels voor dynamische en statische integratie gebruiken in Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 0%
@@ -41,7 +41,7 @@ In de volgende tabel worden de typen filteropties voor zowel criteria als promot
 |--- |--- |--- |
 | **Dynamisch filteren** | **Identieke overeenkomst kenmerk entiteit:** Filter dynamisch door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruikers met in wisselwerking staan.<br>U kunt bijvoorbeeld alleen items aanbevelen die overeenkomen met het merk van het huidige item. | <br>equalsdoes not<br>equalis<br><br>between containers does not<br>contains arts<br>withends<br>with value is<br>present value is not<br>presence greater than or equal<br>to of equal |
 |  | **Overeenkomende profielkenmerken:** Filter dynamisch door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.<br>U kunt bijvoorbeeld alleen objecten aanbevelen die overeenkomen met het favoriete merk van de bezoeker. | equalcontainers<br> bevat geen<br><br>gelijkmatige<br>lagen<br>met een<br>groter dan of gelijk<br>aan het verschil<br>tussen |
-|  | **Overeenkomende parameters:** Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).<br>U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-parameter &#39;industrie&#39;.<br>**Belangrijk:**Als de activiteit vóór 31 oktober 2016 werd gecreeerd, zal zijn levering ontbreken als het de &quot;Aanpassing van de Parameter&quot;filter gebruikt. U kunt dit probleem als volgt oplossen:<ul><li>Maak een nieuwe activiteit en voeg daar uw criteria aan toe.</li><li>Gebruik een criterium dat het filter &quot;Parameter Matching&quot; niet bevat.</li><li>Verwijder het filter &quot;Parameter Matching&quot; uit de criteria.</li></ul> | <br>equalsi bevat geen<br><br>gelijkmatige insluiting en geen<br>kunststofverbindingen<br>met een<br>waarde groter dan of gelijk<br>aan die tussen<br>de |
+|  | **Overeenkomende parameters:** Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).<br>U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-parameter &#39;industrie&#39;.<br>**Belangrijk:** Als de activiteit vóór 31 oktober 2016 werd gecreeerd, zal zijn levering ontbreken als het de &quot;Aanpassing van de Parameter&quot;filter gebruikt. U kunt dit probleem als volgt oplossen:<ul><li>Maak een nieuwe activiteit en voeg daar uw criteria aan toe.</li><li>Gebruik een criterium dat het filter &quot;Parameter Matching&quot; niet bevat.</li><li>Verwijder het filter &quot;Parameter Matching&quot; uit de criteria.</li></ul> | <br>equalsi bevat geen<br><br>gelijkmatige insluiting en geen<br>kunststofverbindingen<br>met een<br>waarde groter dan of gelijk<br>aan die tussen<br>de |
 | **Filteren op waarde** | **Statisch filter:** Voer handmatig een of meer statische waarden in die u wilt filteren.<br>U kunt bijvoorbeeld alleen inhoud met een MPAA-score van &quot;G&quot; of &quot;PG&quot; aanbevelen. | <br>equalsdoes not<br><br>equalcontainers contains not<br>content<br>withends<br>with value is<br>present value is not<br>present greater than or equal<br>to less than or equal to |
 
 >[!NOTE]
