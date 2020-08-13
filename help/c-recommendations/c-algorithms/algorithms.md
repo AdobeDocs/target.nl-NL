@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: De criteria in Adobe Target Recommendations zijn regels die bepalen welke producten om op een vooraf bepaalde reeks gedrag van bezoekers te adviseren worden gebaseerd.
 title: Criteria in Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Stel dat u de meest verkochte objecten van het favoriete merk van een gebruiker 
 
 | Criteria | Beschrijving |
 |--- |--- |
-| Items/media met vergelijkbare kenmerken | Aanbevolen items of media die vergelijkbaar zijn met items of media op basis van de huidige paginageactiviteit of het gedrag van een bezoeker.<br>**Opmerking:**Als u Items/media met vergelijkbare kenmerken selecteert, kunt u regels voor gelijkenis van inhoud instellen. |
+| Items/media met vergelijkbare kenmerken | Aanbevolen items of media die vergelijkbaar zijn met items of media op basis van de huidige paginageactiviteit of het gedrag van een bezoeker.<br>**Opmerking:** Als u Items/media met vergelijkbare kenmerken selecteert, kunt u regels voor gelijkenis van inhoud instellen. |
 | Personen die dit hebben bekeken, zagen het volgende | Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven. |
 | Mensen die dit bekeken hebben, hebben het volgende gekocht | raadt objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset. |
 | Mensen die dit hebben gekocht, hebben het volgende gekocht | Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden gekocht. |
