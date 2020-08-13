@@ -2,10 +2,10 @@
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: Lijst met IP-adressen die worden gebruikt in Recommendations-feed-processing-servers in het Oregon-datacenter, zodat u uw firewall kunt configureren om IP-adressen van Adobe-servers toe te staan.
 title: IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers
-feature: null
+feature: reference general
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
