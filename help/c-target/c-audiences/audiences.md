@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Het publiek in Adobe Target bepaalt wie de inhoud en ervaringen van een gerichte activiteit zal zien.
 title: Soorten publiek maken in Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -75,7 +75,7 @@ De volgende details zijn beschikbaar voor deze geïmporteerde publiekstypen:
 | Type publiek | Details |
 |--- |--- |
 | Mobiel publiek | Marketingnaam, leverancier en model.<br>De `matches | does not match` operator wordt weergegeven in plaats van `equals | does not equal`<br>![Geïmporteerd mobiel publiek](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Bezoekersgedrag publiek | **user.categoryAffinity:** `categoryAffinity` met `FAVORITE` parameter.<br>![Geïmporteerde categorie](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**AffinityMonitoring:**De controledienst is waar.<br>**Geen bewakingsservice:** Bewakingsservice is onwaar.<br>![Geïmporteerde controle](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Bezoekersgedrag publiek | **user.categoryAffinity:** `categoryAffinity` met `FAVORITE` parameter.<br>![Geïmporteerde categorie ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**AffinityMonitoring:** De controledienst is waar.<br>**Geen bewakingsservice:** Bewakingsservice is onwaar.<br>![Geïmporteerde controle](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Soorten publiek met de operator NOT | **Eén regel:** Het doel geeft het publiek weer in de indeling `[All Visitor AND [NOT [rule]`. De regel Single NOT wordt weergegeven met EN met `AllVisitor` publiek.<br>![Geïmporteerd niet publiek](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Houd bij het werken met geïmporteerde soorten publiek rekening met de volgende punten:
