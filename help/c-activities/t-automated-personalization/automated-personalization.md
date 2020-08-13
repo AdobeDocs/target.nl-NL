@@ -2,11 +2,11 @@
 keywords: automated personalization;Audiences;ensemble;random forest
 description: Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computergebruik om verschillende aanbiedingsvariaties voor elke bezoeker af te stemmen op basis van hun individuele klantprofiel, om de inhoud en het optillen van de drive aan te passen.
 title: Automated Personalization
-feature: null
+feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied v
 
 **Het model optimaliseert voortdurend één enkele doel metrisch.**
 
-* Deze metrische waarde kan op conversie of op inkomsten gebaseerd zijn (meer specifiek, [!UICONTROL Revenue per Visitor]).
+* Deze metrische waarde kan op conversie of op inkomsten gebaseerd zijn (meer bepaald, [!UICONTROL Revenue per Visitor]).
 
 **Het doel verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen te bouwen.**
 
