@@ -2,10 +2,10 @@
 keywords: integration;roles;user permissions;admin console
 description: Informatie over het verlenen van bestaande Adobe I/O integratietoegang tot alle werkruimten met de gewenste rol in Adobe Target
 title: Toegang tot werkruimten verlenen voor Adobe I/O-integratie en rollen toewijzen in Adobe Target
-feature: null
+feature: user management
 subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
