@@ -2,11 +2,11 @@
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: Informatie over de functie adobe.target.trackEvent(options) voor de JavaScript-bibliotheek van Adobe Target at.js.
 title: Informatie over de functie adobe.target.trackEvent(options) voor de JavaScript-bibliotheek van Adobe Target at.js.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Hier volgen de API-details:
 | mbox | String | Ja | Naam van vak |
 | kiezer | String | Nee | CSS-kiezers die worden gebruikt om de HTML-elementen te zoeken. De gebeurtenislisteners worden aan gevonden elementen gekoppeld. |
 | type | String | Nee | Vertegenwoordigt een geregistreerd gebeurtenistype. Dit kunnen beide bekende HTML-gebeurtenissen zijn, zoals: klikken, mousedown, enz., evenals de gebeurtenissen van douaneHTML. |
-| preventDefault | Boolean | Nee | Geeft aan of moet worden gebruikt `event.preventDefault()` in de callback van de gebeurtenislistener. De standaardwaarde is false.<br>**Opmerking **: Alleen`form[submit] and `[klikken]wordt ondersteund. Andere scenario&#39;s worden niet gesteund wegens ingewikkeldheid en enorme hoeveelheid te steunen scenario&#39;s. |
+| preventDefault | Boolean | Nee | Geeft aan of moet worden gebruikt `event.preventDefault()` in de callback van de gebeurtenislistener. De standaardwaarde is false.<br>**Opmerking**: Alleen `form[submit] and `[klikken]wordt ondersteund. Andere scenario&#39;s worden niet gesteund wegens ingewikkeldheid en enorme hoeveelheid te steunen scenario&#39;s. |
 | param | Object | Nee | Mbox-parameters. Een object van sleutelwaardeparen met de volgende structuur:<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | Getal | Nee | Time-out in milliseconden.<br>Indien niet opgegeven, wordt de standaardwaarde gebruikt:<br>`...timeoutInSeconds: 0.15...}` |
 | succes | -functie | Nee | Een callback-functie die wordt gebruikt om aan te geven dat de gebeurtenis is gerapporteerd. |
