@@ -2,10 +2,10 @@
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Gebruik entiteitskenmerken om product- of inhoudsgegevens door te geven aan Recommendations.
 title: Entiteitskenmerken
-feature: null
+feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 0%
@@ -175,7 +175,7 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >
 >Waarden van opgegeven entiteitskenmerken verlopen na 61 dagen. Dit betekent dat u ervoor moet zorgen dat de recentste waarde van elk entiteitattribuut aan Doel Recommendations minstens eens per maand voor elk punt in uw catalogus wordt overgegaan.
 
-Recommendations verzendt het `productId` of `productPurchasedId` (waarnaar wordt verwezen `entity.id` in de code) dat in de algoritmen wordt gebruikt.
+Recommendations verzendt de code `productId` of `productPurchasedId` (wordt `entity.id` in de code genoemd) die in de algoritmen wordt gebruikt.
 
 >[!NOTE]
 >
