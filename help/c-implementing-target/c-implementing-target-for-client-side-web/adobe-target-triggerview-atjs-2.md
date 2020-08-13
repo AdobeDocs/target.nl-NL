@@ -2,11 +2,11 @@
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 description: Informatie over de functie adobe.target.triggerView (viewName, options) voor de JavaScript-bibliotheek van Adobe Target at.js.
 title: Informatie over de functie adobe.target.triggerView (viewName, options) voor de JavaScript-bibliotheek van Adobe Target at.js.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Deze functie kan worden aangeroepen wanneer een nieuwe pagina wordt geladen of w
 | --- | --- | --- | --- |
 | viewName | String | Ja | Geef elke naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze weergavenaam wordt in het [!UICONTROL Modifications] deelvenster VEC weergegeven, zodat marketers handelingen kunnen maken en hun A/B- en XT-activiteiten kunnen uitvoeren. |
 | opties | Object | Nee |  |
-| opties > pagina | Boolean | Nee | **TRUE:** De standaardwaarde van de pagina is true. Wanneer page=true, worden de berichten verzonden naar het [!DNL Target] achterste voor het verhogen van het aantal impressies.<br>Als er geen activiteitservaring of metrische activiteit aan de weergave is gekoppeld, wordt er geen melding verzonden.<br>**FALSE:**Wanneer page=false, worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
+| opties > pagina | Boolean | Nee | **TRUE:** De standaardwaarde van de pagina is true. Wanneer page=true, worden de berichten verzonden naar het [!DNL Target] achterste voor het verhogen van het aantal impressies.<br>Als er geen activiteitservaring of metrische activiteit aan de weergave is gekoppeld, wordt er geen melding verzonden.<br>**FALSE:** Wanneer page=false, worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
 
 ## Voorbeeld: Waar
 
