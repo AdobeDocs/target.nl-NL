@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken van rapporten wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Rapporten weergeven - Veelgestelde vragen voor A4T
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 1%
@@ -85,7 +85,7 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via persistentie van de eVar. De gegevens zien er nu als volgt uit:
+De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via eVar persistentie. De gegevens zien er nu als volgt uit:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
@@ -126,7 +126,7 @@ In de volgende lijst worden de redenen beschreven waarom dezelfde bezoeker kan w
 
 * Het [!DNL Target] profiel is verlopen, maar het [!DNL Analytics] cookie is er nog steeds. In deze situatie herevalueert [!DNL Target] u de gebruiker, maar [!DNL Analytics] beschouwt de bezoeker als dezelfde persoon.
 * Als de bezoeker het profiel gebruikt `mbox3rdPartyId`en de anonieme bezoeker wordt samengevoegd met zijn of haar externe id-profiel, [!DNL Target] kan de bezoeker een andere ervaring gebruiken die overeenkomt met de externe id. Voor meer informatie, zie de Synchronisatie van het Profiel in [real time voor mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
-* [!DNL Analytics] Verschillende apparaten zoals dezelfde bezoeker kunnen op een andere manier worden bijgehouden dan deze apparaten [!DNL Target] bijhoudt: De instellingen voor de id van derden in [!DNL Target] zijn anders dan in Analytics.
+* [!DNL Analytics] Verschillende apparaten zoals dezelfde bezoeker kunnen op een andere manier worden bijgehouden dan deze apparaten [!DNL Target] bijhoudt: De instellingen van de id van derden in [!DNL Target] zijn anders dan in Analytics.
 
 ## Steunt A4T virtuele rapportseries?
 
