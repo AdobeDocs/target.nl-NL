@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Een succesvolle A/B test vereist een adequaat aantal bezoekers (steekproefgrootte) om uw omzettingspercentage te verbeteren, maar hoe lang weet u hoe lang om een A/B test in werking te stellen? Dit artikel bevat informatie over Auto-Allocate activiteiten en de Rekenmachine van de Grootte van de Steekproef van het Doel om u te helpen ervoor zorgen dat uw activiteit een voldoende aantal bezoekers heeft om uw doelstellingen te bereiken.
 title: Hoe lang moet u een A/B-test uitvoeren?
-feature: null
+feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3108'
 ht-degree: 0%
