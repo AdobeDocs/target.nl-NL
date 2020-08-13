@@ -2,10 +2,10 @@
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
 description: Configureer de Adobe Target Visual Experience Composer (VEC) door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
 title: Rapporten configureren in Adobe Target
-feature: null
+feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Selecteer de rapportbron voor uw activiteiten, of [!DNL Target] of [!DNL Adobe A
 Houd rekening met de volgende informatie wanneer u uw rapportbron kiest:
 
 * Als de rapporteringsbron aan **[!DNL Target]** hier wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die als rapporteringsbron gebruikt [!DNL Analytics] . U moet de rapportbron wijzigen in [!DNL Target] uw activiteit of de rapportbron wijzigen in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Als de rapporteringsbron aan **[!DNL Analytics]** hier wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die [!DNL Target] als rapporteringsbron gebruikt (de rapporteringsbron wordt gespecificeerd zoals **[!UICONTROL Target per activity])**. U moet de rapportbron wijzigen in[!DNL Analytics]uw activiteit of de rapportengine wijzigen in **[!UICONTROL Select per activity]**in**[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* Als de rapporteringsbron aan **[!DNL Analytics]** hier wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die [!DNL Target] als rapporteringsbron gebruikt (de rapporteringsbron wordt gespecificeerd zoals **[!UICONTROL Target per activity])**. U moet de rapportbron wijzigen in [!DNL Analytics] uw activiteit of de rapportengine wijzigen in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * Als de rapportbron **[!UICONTROL Select per activity]** hier is ingesteld, kunt u activiteiten maken, activeren en deactiveren die door de geselecteerde rapportbron worden ondersteund. Voor een matrix van ondersteunde activiteiten, zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron voor de rapportage voor Adobe Target (A4t)*.
 * [!UICONTROL Automated Personalization] (AP) het creëren van activiteit, activering, en deactivering worden toegestaan ongeacht de geselecteerde rapporteringsbron. Automated Personalization-activiteiten worden niet ondersteund wanneer u [Adobe Analytics kiest als rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Zelfs als u opgeeft [!DNL Analytics] als rapportagebron, [!DNL Target] wordt deze gebruikt als rapportagebron voor Automated Personalization-activiteiten. Zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron voor de rapportage van Adobe Target (A4t)* voor meer informatie.
 
