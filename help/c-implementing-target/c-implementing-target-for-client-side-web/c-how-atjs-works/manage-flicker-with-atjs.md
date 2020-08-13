@@ -2,11 +2,11 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Informatie over hoe de JavaScript-bibliotheek Adobe Target at.js flikkering voorkomt tijdens het laden van de pagina of de toepassing.
 title: Hoe Adobe Target at.js flikkering beheert
-feature: null
+feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -36,7 +36,7 @@ De volgende illustratie toont het Lichaam van de Huid en toont de vraag van het 
 
 ![Doelstroom: om.js pagina laden verzoek](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**te.js 1.*x ***
+**te.js 1.*x***
 
 ![](assets/target-flow2.png)
 
