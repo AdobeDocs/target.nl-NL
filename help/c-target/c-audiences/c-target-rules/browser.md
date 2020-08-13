@@ -2,11 +2,11 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: U kunt in Adobe Target een publiek maken dat zich richt op gebruikers die een specifieke browser of browseropties gebruiken wanneer zij uw pagina bezoeken.
 title: Browseropties in Adobe Target-publiek
-feature: null
+feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
