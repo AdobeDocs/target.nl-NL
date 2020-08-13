@@ -2,11 +2,11 @@
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Doel kan een schatting maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken.
 title: Schatting van de inkomsten
-feature: null
+feature: administration general
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -46,6 +46,6 @@ De geraamde lift in het inkomstenveld wordt als &quot;—&quot; weergegeven onde
 * Als de geschatte waarde van metrisch niet op de metrische opstellingspagina is verstrekt
 * Als de best presterende ervaring de controle is
 
-Bij het instellen van de doelen van een activiteit, biedt het veld Geraamde waarde een waarde voor uw doel. Met deze waarde kan Target de geschatte lift in de inkomsten berekenen. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken.
+Wanneer u de doelen van een activiteit instelt, biedt het veld Geraamde waarde een waarde voor uw doel. Met deze waarde kan Target de geschatte lift in de inkomsten berekenen. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken.
 
 De geschatte inkomsten als 100% van de bezoekers de winnende ervaring zien verschijnen bij de bovenkant van uw rapporten van het Doel.
