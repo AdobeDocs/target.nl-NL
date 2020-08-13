@@ -2,12 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: De Adobe Target-toepassing en de levering van inhoud zijn getest voor een groot aantal browsers en apparaten.
 title: Ondersteunde browsers
-feature: null
+feature: reference general
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -36,8 +36,8 @@ De levering van inhoud is getest in de volgende browsers en apparaten:
 
 | Apparaattype | Browserversie |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 en 10. Getest in emulatiemodus.<br>**Opmerking **: in.js 1.3.0 (en hoger) biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chroom (nieuwste, nieuwste min 1)</li><li>Firefox (nieuwste, nieuwste min 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (nieuwste)<br>**Opmerking **: Voor meer informatie over hoe Safari eerste en derdekoekjes behandelt, zie de Koekje van het[Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (nieuwste, nieuwste min 1)</li><li>Chroom (nieuwste, nieuwste min 1)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 en 10. Getest in emulatiemodus.<br>**Opmerking**: in.js 1.3.0 (en hoger) biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chroom (nieuwste, nieuwste min 1)</li><li>Firefox (nieuwste, nieuwste min 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (nieuwste)<br>**Opmerking**: Voor meer informatie over hoe Safari eerste en derdekoekjes behandelt, zie de Koekje van het [Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (nieuwste, nieuwste min 1)</li><li>Chroom (nieuwste, nieuwste min 1)</li></ul> |
 | Mobiel/tablet | <ul><li>Apple iOS (nieuwste)</li><li>Android-apparaten en -tablets (Android 4 en hoger)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Let op het volgende:
