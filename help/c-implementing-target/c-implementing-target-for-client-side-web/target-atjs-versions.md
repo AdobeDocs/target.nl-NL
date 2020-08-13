@@ -2,11 +2,11 @@
 keywords: at.js releases;at.js versions
 description: Details over wijzigingen in elke versie van at.js.
 title: details van de at.js-versie
-feature: null
+feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3971'
 ht-degree: 0%
@@ -167,7 +167,7 @@ Voor meer informatie, zie [Bevordering van at.js 1.x aan at.js 2.x](/help/c-impl
 >
 >Als u Adobe Opt-in steun voor de [Algemene Verordening](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) van de Bescherming van Gegevens (GDPR) vereist, moet u momenteel bij.js 1.7.0 of bij.js 2.1.0 gebruiken.
 
-## at.js versie 1.7.0 {#at-js-170}
+## at.js versie 1.3.0 {#at-js-170}
 
 at.js 1.7.0 biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.
 
@@ -194,7 +194,7 @@ at.js versie 1.6.3 bevat de volgende correcties en verbeteringen:
 * Probleem verholpen waarbij een belofte werd nagekomen in omgevingen waar geen native ondersteuning voor beloften bestond. (TNT-30974)
 * Problemen worden nu correct vastgelegd en gerapporteerd via de gebeurtenis content-rendering mislukt. Eerder werd mogelijk gemeld dat JavaScript goed was uitgevoerd, zelfs als dat niet het geval was. (TNT-30599)
 
-## at.js versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
+## at.js Versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
 
 Dit is een onderhoudsrelease en het volgende probleem wordt opgelost:
 
@@ -241,7 +241,7 @@ at.js versie 1.5.0 is nu beschikbaar.
      scheduler = setTimeout
    ```
 
-## at.js versie 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js versie 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js versie 1.3.0 is nu beschikbaar.
 
