@@ -2,11 +2,11 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de Adobe Target-documentatie en die zijn geordend in releases.
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
-feature: null
+feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 10 april | [Toepassing van één pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nieuwe sectie toegevoegd: &quot;Best practices implementeren.&quot; |
 | 7 april | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Bijgewerkte tekst voor &quot;Waarom kan ik geen lift en vertrouwen op berekende metriek zien?&quot; |
 | 2 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Toegevoegde informatie over het gebruik `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. |
-|  | [Upgrade uitvoeren vanaf 0,js 1.*x* tot at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Toegevoegd:<ul><li>Na installatie van de ECID-bibliotheek v4.3.0+ en at.js 2.*x*, zult u activiteiten kunnen tot stand brengen die unieke domeinen evenals spoorgebruikers omspannen. Het is belangrijk om op te merken dat deze functionaliteit slechts werkt nadat de zitting verloopt.</li></ul> |
+|  | [Upgrade uitvoeren vanaf 0,js 1.*x* tot at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Toegevoegd:<ul><li>Na installatie van de ECID-bibliotheek v4.3.0+ en at.js 2.*x*, zult u activiteiten kunnen tot stand brengen die unieke domeinen evenals spoorgebruikers omspannen. Het is belangrijk om op te merken dat deze functionaliteit slechts werkt nadat de zitting verloopt.</li></ul> |
 | 30 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Er zijn een bekende problemen toegevoegd die van invloed zijn op versies at.js vóór at.js 2.2.0. Dit probleem heeft ertoe geleid dat klikspatiëring geen conversies rapporteert in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | De volgende informatie is toegevoegd aan de gegevens van at.js versie 2.2.0:<ul><li>Probleem verholpen waarbij klikspatiëring ertoe leidde dat conversies niet werden gerapporteerd in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen.</li></ul> |
 | 25 maart | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de volgende nieuwe versies van at.js:<ul><li>at.js versie 2.3.0</li><li>at.js versie 1.8.1</li></ul> |
