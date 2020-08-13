@@ -2,11 +2,11 @@
 keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
 description: Informatie over verwachte gegevensvariaties tussen Target en Adobe Analytics bij het niet gebruiken van Analytics als Rapporterende Bron (A4T), die gegevensvariatie volledig elimineert.
 title: Gegevensvariaties verwacht bij gebruik van A4T
-feature: null
+feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
