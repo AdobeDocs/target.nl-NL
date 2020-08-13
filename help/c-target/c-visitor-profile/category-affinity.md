@@ -2,11 +2,11 @@
 keywords: affinity;category affinity
 description: Met de functie voor categorieaffiniteit in Adobe Target worden automatisch de categorieën vastgelegd die een gebruiker bezoekt en wordt vervolgens de affiniteit van de gebruiker voor de categorie berekend, zodat deze kan worden geactiveerd en gesegmenteerd. Dit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die het meest waarschijnlijk op die informatie handelen.
 title: Categorieaffiniteit gebruiken in Adobe Target
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 Met de functie voor affiniteit van categorieën worden automatisch de categorieën vastgelegd die een gebruiker bezoekt en wordt vervolgens de affiniteit van de gebruiker voor de categorie berekend, zodat deze kan worden geactiveerd en gesegmenteerd. Dit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die het meest waarschijnlijk op die informatie handelen.
 
-## Categorieaffiniteitsinformatie overbrengen naar doel {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Categorieaffiniteitsgegevens naar doel overbrengen {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Wanneer een gebruiker uw site bezoekt, worden de profielparameters die specifiek zijn voor de bezoeker vastgelegd in de [!DNL Target] database. Deze gegevens zijn gekoppeld aan de cookie van de gebruiker. Een bijzonder nuttige parameter is `user.categoryId`een mbox-parameter die op een productpagina is toegewezen. Terwijl de bezoeker doorbladert of voor een andere sessie terugkeert, kunnen de productcategorieën van een bepaalde gebruikersweergave worden opgenomen. U kunt categoriegegevens ook opnemen door deze als de mbox-parameter `user.categoryId` in om het even welke box (inclusief een geneste mbox), als een URL-parameter `user.categoryId`of in de doelpaginaparameters met een global mbox door te geven. Raadpleeg uw accountvertegenwoordiger voor meer informatie.
 
