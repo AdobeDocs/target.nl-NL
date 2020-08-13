@@ -2,11 +2,11 @@
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Als uw activiteit niet op uw plaats verschijnt, zouden deze het oplossen van problemensuggesties u moeten helpen uw oplossing vinden.
 title: Problemen met activiteiten oplossen
-feature: null
+feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Zie Scenario&#39;s voor [paginawijzigingen voor meer informatie over de invloed 
 
 **Valideren:** Vraag het de ontwikkelaar.
 
-**Opmerking:** Als u wilt dat Target herkent waar wijzigingen in de activiteit moeten worden toegepast, moet u voorkomen dat elementen met dezelfde klasse dynamisch worden ingevoegd of dat de klasse van een afbeelding op hetzelfde niveau dynamisch wordt gewijzigd.
+**Opmerking:** Als u wilt dat Target herkent waar wijzigingen in de activiteit moeten worden toegepast, moet u voorkomen dat elementen met dezelfde klasse dynamisch worden ingevoegd of dat de klasse op enigerlei wijze op hetzelfde niveau dynamisch wordt gewijzigd.
 
 **Opties:**
 
