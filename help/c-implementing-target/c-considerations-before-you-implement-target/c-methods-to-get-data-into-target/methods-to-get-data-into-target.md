@@ -2,12 +2,12 @@
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Informatie over de verschillende methoden die u kunt gebruiken om gegevens op te halen uit Target, zoals paginaparameters, paginageprofielkenmerken, kenmerken van scriptprofielen, gegevensproviders, de API voor bulkprofielupdate, de single-profile-update-API en klantkenmerken.
 title: Methoden om gegevens op te halen in Doel
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
