@@ -2,10 +2,10 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingsontwerpen aan te passen.
 title: Een ontwerp aanpassen met Snelheid
-feature: null
+feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
