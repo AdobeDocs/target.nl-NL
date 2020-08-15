@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1886'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 augustus | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende kwestie over kwaliteitscontrole in Recommendations-activiteiten toegevoegd. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Toegevoegde tekst die aangeeft dat als u tags gebruikt `serverState` en gebruikt in de geretourneerde inhoud, u ervoor moet zorgen dat de HTML-inhoud wordt gebruikt `<script>` in plaats van `<\/script>` `</script>`. |
 | 12 augustus | [De interface van het doel begrijpen](/help/c-intro/understand-the-target-ui.md) | Nieuw onderwerp. |
 |  | [Overzicht Adobe Target API](/help/api/api-overview.md) | Nieuw onderwerp. |
 | 10 augustus | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Toegevoegde tekst die aangeeft dat de cookieheader groter wordt wanneer CNAME wordt gebruikt. |
