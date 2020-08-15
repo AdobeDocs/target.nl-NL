@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -476,6 +476,8 @@ Houd rekening met het volgende wanneer u `serverState`:
    Schakel deze instellingen in via Beheer **[UICONTROL > Implementatie > Bewerken > Pagina laden ingeschakeld]**.
 
    ![Instellingen voor Laden van pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+* Als u labels gebruikt `serverState` en gebruikt in de geretourneerde inhoud, moet u ervoor zorgen dat de HTML-inhoud wordt gebruikt `<script>` in plaats van `<\/script>` `</script>`. Als u gebruikt `</script>`, wordt de browser `</script>` als het einde geïnterpreteerd op een inline SCRIPT en kan de HTML-pagina hierdoor worden verbroken.
 
 ### Aanvullende bronnen
 
