@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3417'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Als u een sjabloonregel toevoegt, zoals de URL (/checkout, /cart) in [paginaleve
 ### Koppelingen voor QA-voorvertoningen voor activiteit {#preview}
 
 [De QA-voorbeeldkoppelingen voor activiteit](/help/c-activities/c-activity-qa/activity-qa.md) voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Het opnieuw proberen van de voorvertoningskoppelingen zou moeten werken. Als u wilt voorkomen dat dit gebeurt, archiveert u opgeslagen activiteiten die niet meer actief worden gebruikt. (TNT-32697)
+
+### QA-modus voor Recommendations-activiteiten
+
+Een bekend probleem voorkomt een voorvertoning als de criteria die in de activiteit worden gebruikt, op een item of categorie zijn gebaseerd. (TNT-37455)
 
 ### Aanbiedingen omleiden {#redirect}
 
