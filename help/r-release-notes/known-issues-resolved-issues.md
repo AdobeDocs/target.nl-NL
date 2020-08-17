@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3378'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,7 @@ In de volgende secties worden de bekende problemen voor [!DNL Target]:
 
 ### Paginalevering {#page-delivery}
 
-Als u een sjabloonregel toevoegt, zoals de URL (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), worden extra spaties aan uw regels toegevoegd. Dit is een cosmetische kwestie en heeft geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35916)
-
-### Koppelingen voor QA-voorvertoningen voor activiteit {#preview}
-
-[De QA-voorbeeldkoppelingen voor activiteit](/help/c-activities/c-activity-qa/activity-qa.md) voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Het opnieuw proberen van de voorvertoningskoppelingen zou moeten werken. Als u wilt voorkomen dat dit gebeurt, archiveert u opgeslagen activiteiten die niet meer actief worden gebruikt. (TNT-32697)
+Als u een sjabloonregel toevoegt, zoals de URL (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), worden extra spaties aan uw regels toegevoegd. Dit is een cosmetische kwestie en heeft geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
 
 ### QA-modus voor Recommendations-activiteiten
 
@@ -43,10 +39,6 @@ Hier volgen bekende problemen met omleidingsvoorstellen:
 
 * Onder sommige omstandigheden heeft een beperkt aantal klanten hogere mate van variatie in verkeersdistributie gemeld bij het gebruik van een omleidingsaanbod in activiteiten die zijn geconfigureerd met Analytics for Target (A4T). Adobe engineers werken momenteel aan dit probleem.
 * De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). In plaats daarvan kunt u de modus [](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) QA gebruiken om de voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
-
-### Grafiekrapport voor een activiteit Auto-Doel ontbreekt teruggeven wanneer het gebruiken van een douaneervaring als controle
-
-Het grafiekrapport voor een activiteit auto-Doel ontbreekt om voor &quot;differentiële&quot;wijzen (Gemiddelde Lift en Dagelijkse Lift) terug te geven als er geen gegevens (0 bezoeken) in om het even welke ervaring zijn. Deze situatie kan zich voordoen tijdens de vroege fase van een activiteit als de controleervaring aan douane wordt geplaatst. Voor de andere wijzen (het Lopen Gemiddelde Controle en Gericht, Dagelijkse Controle en Gericht, en Bezoek) werkt het fijn. Zodra er gegevens zijn (bezoeken die niet gelijk zijn aan nul), wordt het rapport weergegeven zoals verwacht.
 
 ### Het laden van een pagina in de VEC annuleren {#cancel}
 
@@ -107,12 +99,6 @@ De volgende problemen zijn bekend met at.js:
 
    **Oplossing**: Vorm at.js met de &quot;x-slechts&quot;toegelaten optie en ga `mboxThirdPartyId` in vraag over om gebruikers te beheren.
 
-### mbox.js
-
-De bibliotheek mbox.js ondersteunt geen sjabloontalen aan de clientzijde, zoals Handlebars en Mustache. De bibliotheek at.js *ondersteunt deze talen* niet.
-
-**Opmerking**: De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
 ### Implementatie: Automatisch een globale box maken
 
 Op het lusje van de Implementatie ([!UICONTROL Administration > Implementation]) zal het [!UICONTROL Global Mbox Auto Create] gebied &quot;vals&quot;door gebrek voor een onlangs provisioned huurder zijn.
@@ -148,6 +134,18 @@ Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties en worden zo nodig aanvullende opmerkingen toegevoegd.
+
+### Grafiekrapport voor een activiteit Auto-Doel ontbreekt teruggeven wanneer het gebruiken van een douaneervaring als controle
+
+Het grafiekrapport voor een activiteit auto-Doel ontbreekt om voor &quot;differentiële&quot;wijzen (Gemiddelde Lift en Dagelijkse Lift) terug te geven als er geen gegevens (0 bezoeken) in om het even welke ervaring zijn. Deze situatie kan zich voordoen tijdens de vroege fase van een activiteit als de controleervaring aan douane wordt geplaatst. Voor de andere wijzen (het Lopen Gemiddelde Controle en Gericht, Dagelijkse Controle en Gericht, en Bezoek) werkt het fijn. Zodra er gegevens zijn (bezoeken die niet gelijk zijn aan nul), wordt het rapport weergegeven zoals verwacht.
+
+Dit probleem is opgelost in de Doelversie 19.7.1.
+
+### mbox.js
+
+De bibliotheek mbox.js ondersteunt geen sjabloontalen aan de clientzijde, zoals Handlebars en Mustache. De bibliotheek at.js *ondersteunt deze talen* niet.
+
+**Opmerking**: De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Rapportage en extreme orders
 
