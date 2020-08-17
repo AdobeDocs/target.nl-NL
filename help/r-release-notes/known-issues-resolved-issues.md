@@ -5,7 +5,7 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
 workflow-type: tm+mt
 source-wordcount: '3378'
 ht-degree: 0%
@@ -54,10 +54,6 @@ Hier volgen bekende problemen met omleidingsvoorstellen:
 
 * Bij de websites van de toepassing Eén pagina (SPA) kunt u door het annuleren van het laden geen handelingen bewerken in het [!UICONTROL Modifications] deelvenster.
 
-### Ondersteuning voor Enterprise-machtigingen in doel-API&#39;s {#api}
-
-Codeaanbiedingen die zijn gemaakt vanuit de doelinterface in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft *geen* invloed op aanbiedingen die met API&#39;s zijn gemaakt. Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de doelinterface.
-
 ### Recommendations
 
 Hier volgen enkele bekende problemen met Recommendations-activiteiten:
@@ -99,14 +95,6 @@ De volgende problemen zijn bekend met at.js:
 
    **Oplossing**: Vorm at.js met de &quot;x-slechts&quot;toegelaten optie en ga `mboxThirdPartyId` in vraag over om gebruikers te beheren.
 
-### Implementatie: Automatisch een globale box maken
-
-Op het lusje van de Implementatie ([!UICONTROL Administration > Implementation]) zal het [!UICONTROL Global Mbox Auto Create] gebied &quot;vals&quot;door gebrek voor een onlangs provisioned huurder zijn.
-
-Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTROL Global Mbox Auto Create] gebied geplaatst aan &quot;waar&quot;in het gedownloade mbox.js- dossier en in het [!DNL Target] achtereind, maar het zal als &quot;vals&quot;op de [!UICONTROL Implementation] pagina in UI blijven tonen tot de pagina wordt verfrist (nadat de pagina wordt verfrist, zal de status &quot;waar&quot;zijn).
-
-at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huurder worden gedownload. Als mbox.js eerst wordt gedownload, global\_mbox\_autocreate is set to &quot;waar&quot;en at.js zullen ook met `global_mbox_autocreate = true`. worden gedownload. (TGT-15929)
-
 ### Succeswaarden
 
 De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;zal worden verhoogd geplaatst aan &quot;elke indruk&quot;of &quot;elke indruk (met uitzondering van verfrissingen)&quot;kan niet als succes worden gebruikt metrisch dat een andere metrisch afhangt.
@@ -146,6 +134,18 @@ Dit probleem is opgelost in de Doelversie 19.7.1.
 De bibliotheek mbox.js ondersteunt geen sjabloontalen aan de clientzijde, zoals Handlebars en Mustache. De bibliotheek at.js *ondersteunt deze talen* niet.
 
 **Opmerking**: De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+
+### Implementatie: Automatisch een globale box maken
+
+Op het lusje van de Implementatie ([!UICONTROL Administration > Implementation]) zal het [!UICONTROL Global Mbox Auto Create] gebied &quot;vals&quot;door gebrek voor een onlangs provisioned huurder zijn.
+
+Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTROL Global Mbox Auto Create] gebied geplaatst aan &quot;waar&quot;in het gedownloade mbox.js- dossier en in het [!DNL Target] achtereind, maar het zal als &quot;vals&quot;op de [!UICONTROL Implementation] pagina in UI blijven tonen tot de pagina wordt verfrist (nadat de pagina wordt verfrist, zal de status &quot;waar&quot;zijn).
+
+at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huurder worden gedownload. Als mbox.js eerst wordt gedownload, global\_mbox\_autocreate is set to &quot;waar&quot;en at.js zullen ook met `global_mbox_autocreate = true`. worden gedownload. (TGT-15929)
+
+### Ondersteuning voor Enterprise-machtigingen in doel-API&#39;s {#api}
+
+Codeaanbiedingen die zijn gemaakt vanuit de doelinterface in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft *geen* invloed op aanbiedingen die met API&#39;s zijn gemaakt. Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de doelinterface.
 
 ### Rapportage en extreme orders
 
