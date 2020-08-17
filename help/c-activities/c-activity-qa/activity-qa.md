@@ -6,9 +6,9 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 ## Overwegingen {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * De [!UICONTROL Activity QA] koppeling wordt weergegeven op de [!UICONTROL Overview] pagina van alle typen activiteiten, behalve Automated Personalization (AP). U kunt [Voorvertoningskoppelingen](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) gebruiken voor AP-activiteiten.
+* De QA-voorbeeldkoppelingen voor activiteit voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Het opnieuw proberen van de voorvertoningskoppelingen zou moeten werken. Als u wilt voorkomen dat dit gebeurt, archiveert u opgeslagen activiteiten die niet meer actief worden gebruikt.
 * Activiteit QA URLs is beschikbaar met activiteiten met Analytics als rapporteringsbron (A4T). De geproduceerde Hits terwijl het uitvoeren van QA gebruikend Activiteit QA zal aan de zelfde rapportreeks stromen waar de gegevens van de activiteit zullen stromen zelfs nadat de activiteit live gaat.
 * Activiteits-QA geeft geen inhoud weer voor gearchiveerde activiteiten of activiteiten die hun einddatum hebben bereikt. Als u een beëindigde activiteit deactiveert, moet u de activiteit opnieuw bewaren voor Activiteit QA om te werken.
 * Activiteiten die worden geïmporteerd in Target Standard/Premium (bijvoorbeeld uit Target Classic) ondersteunen geen URL&#39;s met kwaliteitscontrole.
