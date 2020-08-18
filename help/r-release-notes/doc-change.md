@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,6 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Werken met directeuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
 |  | [Recommendations integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
 |  | [E-mail: Doel implementeren](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
-| 7 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Met de aanstaande afzetting van mbox.js op 30 augustus 2020, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. Er is een link waar je het webinar de komende 30 dagen kunt bekijken. |
 |  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De rij &quot;overrideMboxEdgeServer&quot; is bijgewerkt onder &quot;Settings&quot;. |
 | 6 mei | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Toegevoegde informatie over ITP 2.3. |
@@ -115,7 +114,6 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Gewijzigde datum van de introductie van Target Standard/Premium (20.4.1) in mei 6. |
 | 23 april | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Bijgewerkt onderwerp. |
 | 22 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Nieuwe sectie toegevoegd: *Wijzigingen in de profielbatchstatus-API v2 (4 mei 2020).* |
-| 20 april | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Nieuwe sectie toegevoegd: *Adobe Target Skill Builder: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js.* |
 | 14 april | [Lijst van gewenste personen Edge-hosts voor doelranden](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nieuw onderwerp. |
 | 10 april | [Toepassing van één pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nieuwe sectie toegevoegd: &quot;Best practices implementeren.&quot; |
 | 7 april | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Bijgewerkte tekst voor &quot;Waarom kan ik geen lift en vertrouwen op berekende metriek zien?&quot; |
@@ -135,7 +133,6 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 4 maart | [Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md) | Gehele onderwerp is bijgewerkt, met uitgebreide revisies van de sectie &quot;Beste werkwijzen&quot;. |
 | 21 februari | [Opmerkingen bij de release (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de nieuwe Adobe Experience Cloud-navigatie. |
 | 20 februari | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De beschrijving voor de `enabled` instelling is bijgewerkt. Informatie toegevoegd voor de volgende instellingen: `pageLoadEnabled` en `viewsEnabled`. |
-| 19 februari | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de aanstaande afbraak van de bibliotheek mbox.js. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Toegevoegde opmerking die `mboxOverride.browserIp` wordt ondersteund in at.js 1.*alleen x* . |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Verduidelijkte tekst die verklaart welke versies van bij.js het team van het Doel steunt. |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.2.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
