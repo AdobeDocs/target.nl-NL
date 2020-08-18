@@ -1,14 +1,14 @@
 ---
 keywords: Release notes
-description: Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-doelbibliotheken (at.js en mbox.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
+description: Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
 title: Opmerkingen bij de release van vorige releases
 feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '29244'
+source-wordcount: '28786'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release van vorige releases{#release-notes-for-previous-releases}
 
-Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-doelbibliotheken (at.js en mbox.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
+Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
 
 >[!NOTE]
 >
@@ -142,10 +142,6 @@ De volgende nieuwe versies van de JavaScript-bibliotheken van Target at.js zijn 
 Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie.
 
 ### Target Standard/Premium 20.2.1 (23 maart 2020)
-
->[!IMPORTANT]
->
->Zie de bovenstaande informatie over de afschrijving van mbox.js.
 
 Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
@@ -324,7 +320,7 @@ Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringe
 * Probleem verholpen waarbij klikken-volgen over meerdere ervaringen ertoe leidde dat het programma niet naar behoren functioneerde. (TNT-32644)
 * Probleem verholpen waardoor at.js de tweede metrische waarde niet kon toepassen na het renderen van de eerste metrische waarde. (TNT-32628)
 * Probleem verholpen bij het doorgeven `mboxThirdPartyId` `targetPageParams` van de functie die ervoor zorgde dat de lading van de verzoeklading niet in of de vraagparameters of in de verzoeklading aanwezig was. (TNT-32613)
-* Probleem verholpen waarbij weergave- en berichtreacties werden geblokkeerd in op Chromium gebaseerde browsers (waaronder Google Chrome). (TNT-32290)
+* Probleem verholpen waarbij weergave- en berichtreacties werden geblokkeerd in op Chromium gebaseerde browsers (inclusief Google Chrome). (TNT-32290)
 
 Voor informatie over dit en vorige versies van at.js, zie [at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -1185,11 +1181,7 @@ Deze release bevat de volgende functies en verbeteringen:
       <li id="li_97BC1B7295364ACDAD3FB07005ED592F"> <p>Probleem verholpen waarbij <span class="codeph"> getOffer() params </span> mislukten wanneer <span class="codeph"> targetPageParams() een lege tekenreeks </span> retourneert. (TNT-28359) </p> </li> 
       <li id="li_B542D4A4E37141BA8BE79D416E1B58DB"> <p>Probleem verholpen met genereren van sessie-id bij gebruik van alleen x. (TNT-28361) </p> </li> 
      </ul> </p> <p>De standaardonderbreking voor at.js wordt veranderd van 15 seconden in 5 seconden. </p> <p>Als uw huidige instelling 15 seconden was, wordt deze bijgewerkt naar de nieuwe standaardinstelling van 5 seconden. Als u deze eerder hebt gewijzigd in iets anders, heeft dit geen invloed op de instelling. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>De standaardtime-out voor mbox.js is gewijzigd van 15 seconden in 5 seconden. </p> <p>Als uw huidige instelling 15 seconden was, wordt deze bijgewerkt naar de nieuwe standaardinstelling van 5 seconden. Als u deze eerder hebt gewijzigd in iets anders, heeft dit geen invloed op de instelling. </p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -1472,7 +1464,7 @@ Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen, oplossi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Reactiepunten </p> </td> 
-   <td colname="col2"> <p>Met responstokens kunt u automatisch in aanmerking komende variabelen (bijvoorbeeld profielkenmerken) uitvoeren in de doelreacties die activiteiten leveren (bijvoorbeeld weergavekaders). De tokens van de reactie kunnen voor het zuiveren doeleinden of voor integratie met derdeleveranciers (zoals Clicktale) worden gebruikt. </p> <p>Responstokens zijn vergelijkbaar met <span class="keyword"> Adobe Target Classic </span> server plug-ins en bieden pariteit tussen de twee oplossingen. </p> <p> <p>Opmerking:  Responstokens zijn beschikbaar bij <span class="filepath"> at.js </span> 1.1 of hoger. Responstempels worden niet ondersteund met <span class="codeph"> mbox.js </span>. </p> </p> <p>Voor meer informatie, zie de Tokens van de <a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Reactie </a>. </p> </td> 
+   <td colname="col2"> <p>Met responstokens kunt u automatisch in aanmerking komende variabelen (bijvoorbeeld profielkenmerken) uitvoeren in de doelreacties die activiteiten leveren (bijvoorbeeld weergavekaders). De tokens van de reactie kunnen voor het zuiveren doeleinden of voor integratie met derdeleveranciers (zoals Clicktale) worden gebruikt. </p> <p>Responstokens zijn vergelijkbaar met <span class="keyword"> Adobe Target Classic </span> server plug-ins en bieden pariteit tussen de twee oplossingen. </p> <p> <p>Opmerking:  De tekenen van de reactie zijn beschikbaar met <span class="filepath"> at.js </span> 1.1 of later.</span>. </p> </p> <p>Voor meer informatie, zie de Tokens van de <a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Reactie </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1648,10 +1640,6 @@ Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen en oplos
  </tbody> 
 </table>
 
-Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen en oplossingen: (nummer van de uitgave staat tussen haakjes voor intern gebruik van Adobe):
-
-* Probleem met XSS-beveiliging verholpen met [!DNL mbox.js]. Deze correctie is een servercorrectie waarvoor geen [!DNL mbox.js] update nodig is.
-
 ### Target Standard/Premium 17.4.1 (27 april 2017) {#section_24E6889AF1E0405497F6F77A407A9A46}
 
 Deze release bevat de volgende functies en verbeteringen:
@@ -1691,7 +1679,7 @@ Deze [!DNL Target] versie concentreert zich op achterste-eindmoeilijke situaties
    <td colname="col2"> <p> <span class="filepath"> at.js </span> versie 0.9.6 is nu beschikbaar. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Downloaden op .js voor meer informatie </a>. </p> <p>De volgende verbeteringen en correcties zijn opgenomen in <span class="filepath"> at.js </span> versie 0.9.6: </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Omleiding biedt ondersteuning voor A4T. Nadat u downloadt en <span class="filepath"> om.js </span> versie 0.9.6 installeert, kunt u aanbiedingen in activiteiten gebruiken die <span class="keyword"> Adobe Analytics </span> als Rapporterende Bron voor <span class="keyword"> Doel gebruiken </span> (A4T). Naast <span class="filepath"> at.js </span> versie 0.9.6, zijn er andere minimumeisen uw implementatie moet voldoen om te gebruiken doorleidt aanbiedingen en A4T. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie Aanbiedingen van de Omleiding - Veelgestelde vragen A4T <a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> </a>. </p> </li> 
-      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Voorafgaand aan <span class="filepath"> 0.js </span> .9.6, toen de bezoeker-API aanwezig was op de pagina en de <span class="codeph"> bezoekerApiTimeout </span> -instelling te agressief was, kon Target in een situatie terechtkomen waarin geen MCID-gegevens werden verzonden in de <span class="keyword"> aanvraag van het Doel </span> . Dit kan bij het gebruik van A4T leiden tot problemen zoals onverwachte resultaten in <span class="keyword"> Analytics </span> . </p> <p>Dit gedrag is gewijzigd in <span class="filepath"> at.js </span> 0.9.6, zelfs als bezoekerApiTimeout om 1 ms <span class="codeph"> </span> wordt geplaatst te zeggen, zal het Doel proberen om SDID, volgende servers, en de gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden. </p> </li> 
+      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Voorafgaand aan <span class="filepath"> 0.js </span> .9.6, toen de bezoeker-API aanwezig was op de pagina en de <span class="codeph"> bezoekerApiTimeout </span> -instelling te agressief was, kon Target in een situatie terechtkomen waarin geen MCID-gegevens werden verzonden in de <span class="keyword"> aanvraag van het Doel </span> . Dit kan leiden tot problemen zoals onverwachte resultaten in <span class="keyword"> Analytics </span> bij het gebruik van A4T. </p> <p>Dit gedrag is gewijzigd in <span class="filepath"> at.js </span> 0.9.6, zelfs als bezoekerApiTimeout om 1 ms <span class="codeph"> </span> wordt geplaatst te zeggen, zal het Doel proberen om SDID, volgende servers, en de gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden. </p> </li> 
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>De <span class="codeph"> </span> instelling SelectorsPollingTimeout is toegevoegd. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() voor meer informatie </a>. </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>De indeling van de reactie van <span class="codeph"> getOffer() </span> is gewijzigd. Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local"> adobe.target.getOffer(options) voor meer informatie </a>. </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Logboekregistratie voor console is toegevoegd voor niet-ondersteunde <span class="codeph"> &lt;!DOCTYPE&gt;- </span> declaraties. </p> </li> 
@@ -1768,7 +1756,7 @@ Deze [!DNL Target] release richt zich op verbeteringen op het gebied van bruikba
 * De [!UICONTROL Create Activity] knop op de [!UICONTROL Activities] pagina is nu actief voordat alle activiteitennamen in de lijst worden geladen. Deze verbetering laat gebruikers nieuwe activiteiten sneller tot stand brengen, vooral wanneer de rekening vele gevormde activiteiten heeft. (TGT-21470)
 * Verbeterde laadtijd voor websites met HTTPS die via proxy kunnen worden benaderd. Dit is een verbetering van de Enhanced Experience Composer (EEC). Het doel haalt geen statische middelen meer via volmacht. (TGT-21793)
 * Prestatieverbeteringen op de [!UICONTROL Goals & Settings] pagina zijn aangebracht, vooral tijdens laadtijd wanneer er veel metriek zijn gedefinieerd voor een activiteit. (TGT-21654)
-* Knopinfo op de [!UICONTROL Goals & Settings] pagina van alle activiteiten is toegevoegd met behulp van [!UICONTROL Analytics for Target] (A4T)-rapporten die gebruikers informeren dat een trackingserver niet vereist is als de pagina&#39;s van de activiteit op .js (versie 0.9.1 of hoger) of mbox.js (versie 61 of hoger) zijn geladen. (TGT-22607)
+* Knopinfo op de [!UICONTROL Goals & Settings] pagina van alle activiteiten is toegevoegd met behulp van [!UICONTROL Analytics for Target] (A4T)-rapporten waarin gebruikers worden geïnformeerd dat een trackingserver niet vereist is als de pagina&#39;s van de activiteit op .js (versie 0.9.1 of hoger) zijn geladen. (TGT-22607)
 * Er worden nu metrische namen op de [!UICONTROL Goals & Settings] pagina weergegeven zonder dat gebruikers elke metrische waarde hoeven uit te vouwen om de volledige metrische naam weer te geven. Deze verbetering laat gebruikers metriek sneller en efficiënter uitgeven. (TGT-21276)
 * U kunt nu [!DNL Recommendations] inclusieregels op douanecriteria (geupload via CSV), enkel zoals om het even welke andere criteria toepassen. (TGT-21896)
 * Verbeterde gebruikersinterface en bruikbaarheid van de [!UICONTROL Offers] pagina, vooral bij het maken of beheren van mappen en het maken van aanbiedingen. (TGT-22509 en TGT-22187)
@@ -1799,7 +1787,7 @@ Deze [!DNL Target] release richt zich op verbeteringen op het gebied van bruikba
    <td colname="col1"> <p> <span class="codeph"> at.js, </span> versie 0.9.4 </p> </td> 
    <td colname="col2"> <p>18 januari 2017 </p> <p> <span class="codeph"> at.js </span> versie 0.9.4 bevat de volgende wijzigingen: </p> <p> 
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
-      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-namen kunnen nu speciale tekens bevatten, zoals ampersands ( &amp; ), zodat deze consistent zijn met de naamgevingsvereisten voor mbox-namen met <span class="codeph"> mbox.js </span>. (TNT-26144) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
+      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ). (TNT-26144) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Toegevoegde <span class="codeph"> veiligeAlleen- </span> instelling die aangeeft of <span class="codeph"> at.js alleen HTTPS </span> mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en die via <span class="codeph"> targetGlobalSettings kan worden overschreven </span>. (TNT-26183) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() voor meer informatie </a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Oudere browserondersteuning </span> is beschikbaar in <span class="codeph"> versie 0.js </span> versie 0.9.3 en lager. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
      </ul> </p> <p>Voor gedetailleerde informatie over de veranderingen in elke versie van <span class="codeph"> at.js </span>, zie <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> bij.js de Details van de Versie </a>. </p> </td> 
@@ -2011,7 +1999,7 @@ Deze release bevat de volgende verbeteringen:
    <td colname="col1"> <p> <span class="codeph"> at.js </span> versie 0.9.2 </p> </td> 
    <td colname="col2"> <p>21 september 2016 </p> <p> <span class="codeph"> at.js </span> versie 0.9.2 is beschikbaar. </p> <p> 
      <ul id="ul_0778A9049C9D48A7B6CB4B79A95F0F4C"> 
-      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Er is een <span class="codeph"> optieEnabled- </span> instelling toegevoegd om de optie Weigering apparaatgrafiek in of uit te schakelen. Als deze instelling is ingesteld op <span class="codeph"> true </span> en de bezoeker de instelling niet meer heeft gevolgd, wordt er door de browser van de bezoeker geen mbox-aanroepen uitgevoerd. Apparaatgrafiek bevindt zich momenteel in bètaversie. Deze instelling is standaard ingesteld op <span class="codeph"> false </span> , maar moet zijn ingesteld op <span class="codeph"> true </span> als u Apparaatgrafiek gebruikt. Een vergelijkbare optie maakt deel uit van <span class="codeph"> mbox.js </span> v61. </p> </li> 
+      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Er is een <span class="codeph"> optieEnabled- </span> instelling toegevoegd om de optie Weigering apparaatgrafiek in of uit te schakelen. Als deze instelling is ingesteld op <span class="codeph"> true </span> en de bezoeker de instelling niet meer heeft gevolgd, wordt er door de browser van de bezoeker geen mbox-aanroepen uitgevoerd. Apparaatgrafiek bevindt zich momenteel in bètaversie. Deze instelling is standaard ingesteld op <span class="codeph"> false </span> , maar moet zijn ingesteld op <span class="codeph"> true </span> als u Apparaatgrafiek gebruikt.</p> </li> 
       <li id="li_663462C0680049F89CA8FE1853F31807"> <p>Extra ondersteuning voor <span class="codeph"> CustomEvent </span> voor het meldingsmechanisme. Eerder kon het meldingsmechanisme voor de <span class="codeph"> gebeurtenis at.js niet worden gebruikt via standaard DOM API's, zoals </span> document.addEventListener() <span class="codeph"> </span>. Nu kunt u <span class="codeph"> document.addEventListener() gebruiken </span> om een abonnement te nemen op <span class="codeph"> at.js- </span> gebeurtenissen, zoals aanvraaggebeurtenissen en gebeurtenissen voor het renderen van inhoud. </p> </li> 
       <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>Oplossing voor een probleem met betrekking tot aanbiedingen die zijn gemaakt in Visual Experience Composer (VEC). Vóór deze release heeft Target de kiezers verborgen en deze alleen niet verborgen wanneer alle kiezers overeenkomen. In <span class="codeph"> 0.js </span> 0.9.2 worden de kiezers niet verborgen zodra ze overeenkomen. </p> </li> 
      </ul> </p> <p>Voor meer informatie, zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> bij.js de Details van de Versie </a>. </p> </td> 
@@ -2272,8 +2260,7 @@ De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende 
       <li id="li_19045C86E1524649B56F82416934EF13">De inhoudsbibliotheek gebruiken </li> 
       <li id="li_8E89F3691A6F4400A2DFDFE5186DFA83">Profielscripts gebruiken </li> 
       <li id="li_2EBB2B61BFA24F5FB858C0551AB20F70">Accountvoorkeuren instellen </li> 
-      <li id="li_E1886818C7BF4F36B07EC293F1A45911">De modus Visual Experience Composer </li> 
-      <li id="li_F74D2BA5ACD04595B658955A489602E5">Mbox.js configureren en implementeren </li> 
+      <li id="li_E1886818C7BF4F36B07EC293F1A45911">De modus Visual Experience Composer </li>  
       <li id="li_A87B876298344B2987BDC5FFD5580EC0">Doelgebruikers maken en beheren </li> 
       <li id="li_F90E1083444E4DBAA8C406AC293C0FD6">Metingen voor succes instellen </li> 
      </ul> </p> </td> 
@@ -2307,12 +2294,6 @@ De volgende bekende problemen zijn gemeld:
 
 at.js is een nieuwe implementatiebibliotheek voor Doel die voor zowel typische implementaties van het Web als enig-paginatoepassingen wordt ontworpen.
 
-at.js vervangt mbox.js voor Adobe Target-implementaties.
-
->[!NOTE]
->
->Hoewel mbox.js door at.js wordt vervangen, blijft mbox.js ondersteund. Voor de meeste mensen biedt at.js voordelen ten opzichte van mbox.js. Dit geeft u tijd om te testen om.js en de implementatie op uw pagina&#39;s te veranderen.
-
 Onder andere voordelen, verbetert at.js de tijden van de paginalading voor de implementaties van het Web, verbetert veiligheid, en verstrekt betere implementatieopties voor single-page toepassingen.
 
 at.js bevat de componenten die in target.js inbegrepen waren, zodat is er niet meer een vraag aan target.js.
@@ -2322,7 +2303,6 @@ Houd rekening met het volgende wanneer u at.js implementeert:
 * Omleiding van composer voor visuele ervaring werkt niet.
 * Internet Explorer-versies ouder dan 8 worden niet ondersteund.
 * Asynchrone implementatie betekent dat verouderde integratie, zoals de insteekmodule Testen en Doel naar SiteCatalyst, mogelijk niet werkt.
-* Doelplug-ins die verwijzen naar objecten en methoden mbox.js, worden niet ondersteund.
 * Alle aanroepen naar Target worden uitgevoerd via XMLHTTPRequest en de inhoud wordt geretourneerd via JSON.
 
 ### Adobe Target Standard/Premium 16.4.1 Fix (5 mei 2016) {#section_70552F61E83140C7B4D2A245198B630E}
@@ -2425,13 +2405,12 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eerste weergave: </p> <p>Nieuwe doelimplementatiebibliotheek, at.js </p> </td> 
-   <td colname="col2"> <p> <p>Opmerking:  Dit "First Look"-aanbod is beschikbaar via API-download. Het zal via de interface van het Doel in een aanstaande versie beschikbaar zijn. In de tussentijd kunt u de bibliotheek at.js downloaden, deze in uw omgeving testen en deze implementeren in de implementatie van het productiedoel. </p> </p> <p> at.js is een nieuwe implementatiebibliotheek voor Doel die voor zowel typische implementaties van het Web als enig-paginatoepassingen wordt ontworpen. </p> <p> at.js vervangt mbox.js voor Adobe Target-implementaties. </p> <p> <p>Opmerking:  Hoewel at.js mbox.js vervangt, zal mbox.js worden gesteund, hoewel, voor de meeste mensen, at.js voordelen boven mbox.js verstrekt. Dit geeft u tijd om te testen om.js en de implementatie op uw pagina's te veranderen. </p> </p> <p>Onder andere voordelen, verbetert at.js de tijden van de paginalading voor de implementaties van het Web, verbetert veiligheid, en verstrekt betere implementatieopties voor single-page toepassingen. </p> <p>at.js bevat de componenten die in target.js inbegrepen waren, zodat is er niet meer een vraag aan target.js. </p> <p>Houd rekening met het volgende wanneer u at.js implementeert: </p> <p> 
+   <td colname="col2"> <p> <p>Opmerking:  Dit "First Look"-aanbod is beschikbaar via API-download. Het zal via de interface van het Doel in een aanstaande versie beschikbaar zijn. In de tussentijd kunt u de bibliotheek at.js downloaden, deze in uw omgeving testen en deze implementeren in de implementatie van het productiedoel. </p> </p> <p> at.js is een nieuwe implementatiebibliotheek voor Doel die voor zowel typische implementaties van het Web als enig-paginatoepassingen wordt ontworpen. </p></p> <p>Onder andere voordelen, verbetert at.js de tijden van de paginalading voor de implementaties van het Web, verbetert veiligheid, en verstrekt betere implementatieopties voor single-page toepassingen. </p> <p>at.js bevat de componenten die in target.js inbegrepen waren, zodat is er niet meer een vraag aan target.js. </p> <p>Houd rekening met het volgende wanneer u at.js implementeert: </p> <p> 
      <ul id="ul_8C50C669AA7B4464A5FDECFCFD8662ED"> 
       <li id="li_6065B208480D46178055B40A2654E0C6">Omleiding van composer voor visuele ervaring werkt niet. </li> 
       <li id="li_A2FABD3C21994511A45DED84283E526E">Internet Explorer-versies ouder dan 8 worden niet ondersteund. </li> 
-      <li id="li_04499B391F784B89B09A1D6329B1C790">Asynchrone implementatie betekent dat verouderde integratie, zoals de insteekmodule Testen en Doel naar SiteCatalyst, mogelijk niet werkt. </li> 
-      <li id="li_D3C00EF206154038A54F53CA40B34DC3"> Doelplug-ins die verwijzen naar objecten en methoden mbox.js, worden niet ondersteund. </li> 
-     </ul> </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation </a> voor documentatie. </p> </td> 
+      <li id="li_04499B391F784B89B09A1D6329B1C790">Asynchrone implementatie betekent dat verouderde integratie, zoals de insteekmodule Testen en Doel naar SiteCatalyst, mogelijk niet werkt. </li>  
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Metrische gegevens voor afhankelijk succes </td> 
@@ -2840,21 +2819,13 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Creeer een activiteit zonder de Visuele Composer van de Ervaring te gebruiken. Kies in plaats daarvan locaties en aanbiedingen via een formulier. Met dit, kunnen de Standaardactiviteiten van het Doel in e-mail, mobiele apps, kiosks, en andere plaatsen worden geleverd die niet met een Composer van de Visueel Ervaring werken. </p> <p>Zie <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Formuliergebaseerde Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nieuwe mbox.js </p> </td> 
-   <td colname="col2"> <p> Versie 58 van mbox.js verzekert de dienst van identiteitskaart van de Bezoeker van Experience Cloud klaar is alvorens de vraag van het Doel wordt gemaakt. Dit zorgt ervoor dat publieksgegevens die via de kernservice Profielen en Soorten publiek worden gedeeld, beschikbaar zijn op dezelfde hit. Nochtans, kan het flikkeren op de pagina voorkomen terwijl het Doel op de dienst wacht om terug te keren, zodat is volledige QA belangrijk alvorens te bevorderen. Deze versie mbox.js is alleen beschikbaar via API. </p></td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> Configureerbare succeswaarden </td> 
    <td colname="col2"> <p> Met de fijnkorrelige opties kunt u bepalen hoe u succesmetingen kunt tellen. U kunt onder andere de metrische waarde per impositie of één keer per bezoeker tellen en kiezen of u de gebruiker in de activiteit wilt houden of deze wilt verwijderen. Dit is gelijk aan de "geavanceerde opties" voor succesmetriek die beschikbaar zijn in Target Classic. </p> <p>Zie <a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local"> Succeswaarden </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verbetering: Experience Targeting Experience limit removed. </td> 
    <td colname="col2"> De vorige limiet van tien ervaringen in het praktijkgericht is opgeheven. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Opties voor beheer en bewerking van Mbox.js </td> 
-   <td colname="col2"> <p>Alle mbox.js configuratie en het uitgeven is nu beschikbaar binnen de Norm van het Doel. U hoeft geen wijzigingen meer aan te brengen in Target Classic. </p> <p>Zie <a href="https://marketing-beta.adobe.com/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external"> Geavanceerde instellingen mbox.js </a>. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"> Profielsynchronisatie in realtime voor gegevens van derdenId </td> 
    <td colname="col2"> Wanneer een bezoeker van een site zich halverwege de sessie aanmeldt en een 3d-partyId krijgt, zijn alle eerder geladen profielkenmerken die zijn gekoppeld aan de derde partijId nu direct beschikbaar. Zie <a href="../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Bezoekersprofiel </a>. </td> 
@@ -2876,7 +2847,6 @@ Deze release bevat de volgende oplossingen:
 
 * Analytics as the reporting source for Target is now supported for XT activities.
 * Probleem verholpen waarbij de besturingservaring die in Analytics wordt weergegeven, werd gewijzigd nadat de activiteit actief was geworden.
-* Probleem verholpen die invloed had op de ingeschakelde functionaliteit van target.js wanneer nieuwe, provisioned gebruikers mbox.js downloadden.
 * Probleem verholpen waarbij waarden na een # in een URL tijdens het maken van het publiek/segment als onderdeel van het pad werden beschouwd.
 
 **Bekende problemen**
@@ -3106,14 +3076,6 @@ Deze release bevat de volgende functies en verbeteringen:
   <tr> 
    <td colname="col1"> <p class="premium">Type nieuwe activiteit: Recommendations </p> </td> 
    <td colname="col2"> <p>Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn. </p> <p>Recommendations is beschikbaar als onderdeel van de Target Premium-oplossing. Het is niet inbegrepen bij de Standaard van Doel zonder een vergunning van de Premie van het Doel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> mbox.js v56 </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_4D4AEAC314964ECFA6C3A2669233060F"> 
-      <li id="li_F71CE15AD70E4A6E9216521E8AE2B102"> Wijzigingen voor Premium Recommendations ter ondersteuning van het doorgeven van parameters in algemene mbox </li> 
-      <li id="li_11F777D04DE04B848F681997C6458C8B"> Voegt een 5 tweede onderbreking aan de target.js ladingsvraag toe. In het zeldzame geval dat het dossier niet laadt, zal de pagina teruggeven en geen activiteiten van de Norm van het Doel zullen tonen. </li> 
-     </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3495,17 +3457,9 @@ Deze release bevat de volgende correcties en verbeteringen:
 * Verbeterde grafieken worden standaard op uurresultaten toegepast wanneer een test minder dan twee dagen actief is geweest.
 * Probleem verholpen waarbij het kopiëren van een niet-gesynchroniseerde activiteit mislukte.
 * Toegevoegde functionaliteit voor toetsenbordinvoer voor vervolgkeuzemenu&#39;s voor locatie.
-* Probleem verholpen waarbij de naam van een [!DNL mbox.js] bestand dat u van Target Standard hebt gedownload, bekend is [!DNL mboxEditor.at.js].
-
 * Verbeterde de foutmelding die wordt weergegeven wanneer u een aanbieding verwijdert die in een activiteit wordt gebruikt.
 
 ### Adobe Target Standard 1.1 (18 oktober 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
-
-Deze release bevat de volgende functie:
-
-| Functie | Beschrijving |
-|---|---|
-| [!DNL mbox.js] downloaden vanuit Target Standard | Het [!DNL mbox.js] bestand kan nu rechtstreeks van **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** worden gedownload in de interface Target Standard. Eerder moest het bestand worden gedownload van binnen Target Advanced of worden geleverd door uw accountvertegenwoordiger of consultant. |
 
 Deze release bevat de volgende correcties en verbeteringen:
 
