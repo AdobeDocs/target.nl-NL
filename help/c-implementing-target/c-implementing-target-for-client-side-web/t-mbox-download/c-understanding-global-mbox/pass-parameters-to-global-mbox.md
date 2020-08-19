@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # Parameters doorgeven aan een globale box{#pass-parameters-to-a-global-mbox}
 
-De JavaScript targetPageParams functie wordt gebruikt om parameters tot globale mbox over te gaan. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context aan het doel moet worden doorgegeven.
+De JavaScript- `targetPageParams` functie wordt gebruikt om parameters door te geven aan de globale box. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context moet worden doorgegeven [!DNL Target].
 
-In een Recommendations-activiteit gebruikt u bijvoorbeeld de parameters om het huidige product of de categorie te vertegenwoordigen die wordt weergegeven.
+In een [!DNL Recommendations] activiteit gebruikt u bijvoorbeeld de parameters voor het huidige product of de categorie die wordt weergegeven.
 
-De code die de JavaScript-functie moet aanroepen, moet vóór het globale vakje op de pagina komen, ongeacht of het globale vakje als onderdeel van mbox.js is geactiveerd of handmatig in de paginacode is opgenomen.
+De code die de JavaScript-functie moet aanroepen, moet vóór het globale vakje op de pagina komen, ongeacht of het globale vakje als onderdeel van at.js is geactiveerd of handmatig in de paginacode is opgenomen.
 
 >[!NOTE]
 >
->Als u parameters wilt toevoegen aan alle vakken op de pagina en niet alleen aan de globale box, gebruikt u de functie [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) (alleen om.js).
+>Als u parameters wilt toevoegen aan alle vakken op de pagina en niet alleen aan de globale box, gebruikt u de functie [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) .
 
 U kunt op de volgende manieren parameters doorgeven aan het `target-global-mbox` gebruik van de `targetPageParams()` functie:
 
