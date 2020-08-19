@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # De globale box begrijpen{#understand-the-global-mbox}
 
-Informatie over globale mbox, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw implementatie van Adobe Target wordt gemaakt.
+Informatie over globale mbox, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw [!DNL Adobe Target] implementatie wordt gemaakt.
 
-Standaard krijgt de algemene naam mbox de naam [!DNL target-global-mbox]. U kunt de naam van uw account desgewenst wijzigen.
+Standaard krijgt de algemene naam mbox de naam `target-global-mbox`. U kunt de naam van uw account desgewenst wijzigen.
 
 Er zijn verschillende verschillen tussen een standaard mbox (non-global mbox) en de globale mbox, waaronder:
 
