@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
    Voor meer informatie, zie [Navigeren elementen gebruikend de weg](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) DOM in de Opties *van de Composer van de* Visuele Ervaring.
 
 * U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze andere pagina moet worden opgenomen in de activiteit met behulp van de functie [voor](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) meerdere pagina&#39;s [!DNL at.js] of [!DNL mbox.js] moet erop worden geïmplementeerd.
-* Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in.
+* Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.
 * Selecteer het niveau van het element dat u wilt bijhouden. Wanneer u bijvoorbeeld een knop opgeeft, moet u de koppeling selecteren en niet de knoptekst.
 * Klik gebeurtenissen worden verzonden naar [!DNL Target] op de zelfde pagina zoals de klik.
 * Als de metrisch klikt-tracking metrisch de Metrische Goal van een activiteit A4T is, moet de bezoeker dit element binnen 60 seconden na het laden van de pagina klikken om metrisch te volgen.
