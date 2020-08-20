@@ -5,9 +5,9 @@ title: Mobiele Viewers voor responsieve ervaringen
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -119,6 +119,10 @@ Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw erv
    Als u de [Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gebruikt en een besturingssysteem kiest, [!DNL Target] emuleert u dat apparaat wanneer u de pagina bekijkt. Als er bijvoorbeeld een ander uiterlijk voor Android is dan voor iOS op uw responsieve site, [!DNL Target] wordt dat gedrag nagebootst.
 
 1. Klik op **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Als u probeert een mobiele viewport te verwijderen die in gebruik is, wordt het volgende bericht weergegeven: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot;
 
 ## Een responsieve ervaring maken {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
