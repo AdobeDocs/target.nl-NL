@@ -5,9 +5,9 @@ title: Problemen oplossen met betrekking tot Visual Experience Composer en Enhan
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,29 @@ ht-degree: 0%
 
 # Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
+Weergaveproblemen en andere problemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
+
+## Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite voor de handhaving van cookies de VEC en EEC? {#samesite}
+
+Met de recentste veranderingen (Augustus 2020), alle gebruikers met Chrome 80+ browser versies:
+
+* De VEC (met of zonder de VEC Helper-extensie geïnstalleerd en ingeschakeld) kan *niet* worden gebruikt op pagina&#39;s van hun sites die met een wachtwoord zijn beveiligd. De reden hiervoor is dat hun aanmeldcookie(s) voor de site als een cookie van een andere fabrikant worden beschouwd en niet samen met de aanmeldingsaanvraag worden verzonden. De enige uitzondering is wanneer voor het aanmeldingscookie van de site van de klant al de parameter SameSite is ingesteld op &quot;none&quot;.
+* Bibliotheken kunnen *niet* [!DNL Target] worden gedownload tijdens het bewerken van een activiteit (als deze nog niet op de site staan). Dit is omdat de downloadvraag van het klantendomein aan een beveiligd Adobe domein wordt gemaakt en als unauthenticated wordt verworpen.
+* De E.E.G. werkt *niet* voor alle gebruikers omdat het niet het attribuut SameSite voor koekjes op kan plaatsen `adobemc.com domain`. Zonder dit kenmerk zal de browser deze cookies negeren, waardoor de EEG mislukt.
+
+Adobe heeft een bijgewerkte VEC Helper-extensie ingediend bij de Google Chrome Store. Deze extensie overschrijft de cookie-kenmerken om het `SameSite="none"` kenmerk zo nodig in te stellen. De [bijgewerkte extensie vindt u hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+### Alternatieven en tijdelijke oplossingen
+
+Gebruik één van de volgende opties om ervoor te zorgen dat uw VEC en EEG blijven werken zoals verwacht:
+
+* Download en gebruik de bijgewerkte [VEC Helper-extensie](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+* Gebruik de browser Mozilla Firefox. Firefox voert dit beleid nog niet uit.
+* Blijf Chrome gebruiken, maar stel de `chrome://flags/#same-site-by-default-cookies` markering in op &quot;Uitgeschakeld&quot;.
+
+   >[!NOTE]
+   >
+   >Dit is *niet* genoeg als cookies al het SameSite-kenmerk op &quot;Lax&quot; of &quot;Strikt&quot; van de server zijn ingesteld.
 
 ## Biedt het Doel ondersteuning voor iframes op meerdere niveaus?
 
