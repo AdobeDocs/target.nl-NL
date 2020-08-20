@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 5 augustus 2020**
+**Laatst bijgewerkt: 20 augustus 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -41,7 +41,21 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 
 ## Target Standard/Premium 20.9.1 (2 september 2020)
 
-Nieuwe functies, verbeteringen en oplossingen in deze release worden hier bijgewerkt.
+Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
+
+* Probleem verholpen waarbij fouten werden weergegeven bij het laden van de nieuwe **[!UICONTROL Administration]** pagina&#39;s na het schakelen tussen organisaties. (TGT-37730)
+* Probleem verholpen waarbij de onjuiste clientcode op de **[!UICONTROL Administration > Implementation]** pagina werd weergegeven. (TGT-37849)
+* Probleem verholpen waardoor gebruikers soms de bewerkingsfuncties in de **[!UICONTROL Visual Experience Composer]** (VEC) niet konden gebruiken nadat de VEC met succes was geladen. (TGT-37162)
+* Probleem verholpen waarbij gebruikers soms werden verhinderd om 0,00 pagina te downloaden van de **[!UICONTROL Administration > Implementation]** pagina na het schakelen tussen organisaties. (TGT-37668)
+* Probleem verholpen met **[!UICONTROL Experience Targeting]** (XT)-activiteiten die ertoe hebben geleid dat ervaringen gedurende een langere periode &quot;ophaalresultaten&quot; hebben getoond. (TGT-37684)
+* Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord. (TGT-34479 &amp; TGT-34473)
+* Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken. (TGT-34480)
+* Het foutbericht is verbeterd bij het verwijderen van een mobiele viewport die momenteel wordt gebruikt in een activiteit. Het foutbericht luidt nu: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot; (TGT-37030)
+* Toegevoegde steun in VEC om klik het volgen op een css selecteur toe te staan die meer dan één element in de pagina aanpast. (TGT-37323)
+* Probleem verholpen waardoor bepaalde gebruikers de **[!UICONTROL Activity]** lijst niet konden weergeven. Het volgende foutbericht is weergegeven: &quot;Kan geen URL-suggesties ophalen.&quot; De fout kwam voor gebruikers voor gebruikend wagenterugloop in hun FirstName (FirstName/r/n) in het systeem van de Achterkant van de Adobe. (TGT-37330)
+* Probleem verholpen waardoor gebruikers de **[!UICONTROL Activity]** pagina niet konden weergeven als de naam van de werkruimte (opgegeven in de **[!UICONTROL Adobe Admin Console for Enterprise]**) een apostrof bevat. (TGT-37709)
+* De downloadknop at.js is nu uitgeschakeld tijdens het laden om te voorkomen dat meerdere aanvragen worden verzonden [!DNL Target] als gebruikers meerdere keren op de downloadknop klikken. (TGT-37633)
+* Probleem verholpen waarbij de laatst gewijzigde waarde voor [!DNL Recommendations] criteria onjuist is. (TGT-37666)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
