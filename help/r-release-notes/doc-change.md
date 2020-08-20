@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 20 augustus | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie toegevoegd: &quot;Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite voor de handhaving van cookies de VEC en EEC?&quot; |
+|  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende tekst is bijgewerkt: &quot;Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.&quot; |
+|  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de release Target Standard/Premium 20.9.1 (2 september 2020). |
 | 14 augustus | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Bekende kwestie over kwaliteitscontrole in Recommendations-activiteiten toegevoegd. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Toegevoegde tekst die aangeeft dat als u tags gebruikt `serverState` en gebruikt in de geretourneerde inhoud, u ervoor moet zorgen dat de HTML-inhoud wordt gebruikt `<script>` in plaats van `<\/script>` `</script>`. |
 | 12 augustus | [De interface van het doel begrijpen](/help/c-intro/understand-the-target-ui.md) | Nieuw onderwerp. |
