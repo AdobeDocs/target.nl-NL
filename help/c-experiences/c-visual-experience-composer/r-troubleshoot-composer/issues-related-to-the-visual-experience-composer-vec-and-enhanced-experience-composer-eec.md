@@ -5,9 +5,9 @@ title: Problemen oplossen met betrekking tot Visual Experience Composer en Enhan
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Met de recentste veranderingen (Augustus 2020), alle gebruikers met Chrome 80+ b
 * De E.E.G. werkt *niet* voor alle gebruikers omdat het niet het attribuut SameSite voor koekjes op kan plaatsen `adobemc.com domain`. Zonder dit kenmerk zal de browser deze cookies negeren, waardoor de EEG mislukt.
 
 Adobe heeft een bijgewerkte VEC Helper-extensie ingediend bij de Google Chrome Store. Deze extensie overschrijft de cookie-kenmerken om het `SameSite="none"` kenmerk zo nodig in te stellen. De [bijgewerkte extensie vindt u hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+Voor uw eigen sitecookies moet u de cookies op naam opgeven. Schakel de [!UICONTROL Cookie] schuifregelaar in of uit en geef de cookie op naam op.
+
+![VEC Helper-extensie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### Alternatieven en tijdelijke oplossingen
 
