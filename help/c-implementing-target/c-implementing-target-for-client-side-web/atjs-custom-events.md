@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -48,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Trainingsvideo: De Tokens van de Reactie en het {#section_ED304A7137DC42A4BDCD6D57C989F1FA} Lasje van de ![Zelfstudie van de Gebeurtenissen van de Douane at.js](/help/assets/tutorial.png)
+## Trainingsvideo: De Tokens van de Reactie en het ![Lasje van de Gebeurtenissen van de Douane at.js](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Bekijk de volgende video om te leren hoe u de Tokens van de Reactie en de Gebeurtenissen van de Douane bij.js om profielinformatie van Doel aan derdesystemen te delen gebruikt.
 
