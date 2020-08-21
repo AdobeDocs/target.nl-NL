@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,17 @@ ht-degree: 0%
    + [Opmerkingen bij de release van vorige releases](r-release-notes/release-notes-for-previous-releases.md)
 + Inleiding {#introduction}
    + [Inleiding tot doel](c-intro/intro.md)
-   + [Adobe Target-welkomstkit](/help/c-intro/target-welcome-kit.md)
    + [Toegangsdoel van de Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Doelsleutelbegrippen](c-intro/target-key-concepts.md)
    + [De interface van het doel begrijpen](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Target-welkomstkit {#welcome}
+      + [Overzicht van Adobe Target-welkomstkit](/help/c-intro/target-welcome-kit.md)
+      + [Hoofdstuk 1: Inleiding](/help/c-intro/target-welcome-kit-1.md)
+      + [Hoofdstuk 2: Adobe Target in één oogopslag](/help/c-intro/target-welcome-kit-2.md)
+      + [Hoofdstuk 3: Ontwikkel uw testende en verpersoonlijkingsideeën](/help/c-intro/target-welcome-kit-3.md)
+      + [Hoofdstuk 4: Tips voor het gebruik van Doel](/help/c-intro/target-welcome-kit-4.md)
+      + [Hoofdstuk 5: Inspiratie voor test- en personalisatieactiviteiten](/help/c-intro/target-welcome-kit-5.md)
+      + [Hoofdstuk 6: Gemakkelijk vermijdbare valkuilen](/help/c-intro/target-welcome-kit-6.md)
    + [Verklarende woordenlijst](c-intro/glossary.md)
    + [Hoe Adobe Target werkt](c-intro/how-target-works.md)
    + [Opleiding en certificering](c-intro/training-and-certification.md)
