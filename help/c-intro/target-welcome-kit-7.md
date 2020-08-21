@@ -4,9 +4,9 @@ description: Adobe Target-welkomstkit - Hoofdstuk 7
 title: Adobe Target-welkomstkit - Hoofdstuk 7
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Aangezien u met uw het testen idee komt, houd in mening dat u, idealiter met geg
 
 ## Uw activiteiten plannen met Activiteitenplanner
 
-De volgende activiteitenplanner is als een zelfstandig PDF-bestand opgenomen (zie hieronder) dat u telkens opnieuw kunt opslaan en gebruiken. Als u een effectieve activiteit wilt uitvoeren, moet u elk gebied van de planner invullen. U kunt dit gereedschap gebruiken terwijl u en anderen ideeën uitwisselen voor het testen en personaliseren van activiteiten.
+We hebben de [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) opgenomen als een zelfstandig PDF-bestand dat u steeds opnieuw kunt opslaan en gebruiken. Als u een effectieve activiteit wilt uitvoeren, moet u elk gebied van de planner invullen. U kunt dit gereedschap gebruiken terwijl u en anderen ideeën uitwisselen voor het testen en personaliseren van activiteiten.
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
