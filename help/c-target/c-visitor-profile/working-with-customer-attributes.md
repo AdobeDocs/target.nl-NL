@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -187,7 +187,7 @@ Houd rekening met de volgende implementatiekwesties:
 
 Als u de klantkenmerkgegevens niet kunt vinden in Target, dient u ervoor te zorgen dat de import is opgetreden binnen de laatste *x* dagen waarin *x* de Levensduur [van het Profiel van de](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Bezoeker van het Doel is (standaard ingesteld op 14 dagen).
 
-## Trainingsvideo: Offlinegegevens uploaden met {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![zelfstudie met klantkenmerken](/help/assets/tutorial.png)
+## Trainingsvideo: Offlinegegevens uploaden met ![zelfstudiegids voor kenmerken van de klant](/help/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 In deze video ziet u hoe u offline CRM, helpdesk, verkooppunt en andere marketinggegevens kunt importeren in de [!DNL Experience Cloud People] service en deze kunt koppelen aan bezoekers die hun bekende id&#39;s gebruiken.
 
