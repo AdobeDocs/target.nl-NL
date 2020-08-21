@@ -5,7 +5,7 @@ title: Een ontwerp maken
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 1%
@@ -115,7 +115,7 @@ In het volgende voorbeeld ziet u hoe u JSON-reacties kunt retourneren tijdens he
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Doelclientcode (beschikbaar op ../target/products.html#recsSettings > Recommendations API Token > Clientcode. |
 | `[YOUR_MBOX_NAME]` | De naam die u hebt geselecteerd in de sectie &quot;locations&quot; van de op formulieren gebaseerde Recommendations, in dit geval Sample_Recs_Response. |
-| `[ENTITY_ID`] | De `entity.id` waarde van een item in uw catalogus. |
+| `[ENTITY_ID` | De `entity.id` waarde van een item in uw catalogus. |
 | `[AT_PROPERTY_TOKEN]` | (Optioneel) Voeg toe als u een eigenschap (onderdeel van Enterprise-machtigingen) hebt geselecteerd tijdens het instellen van de activiteit. |
 
 Nadat het algoritme is uitgevoerd en u resultaten hebt, moet uw reactie er ongeveer als volgt uitzien:
