@@ -6,7 +6,7 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -26,14 +26,14 @@ Raadpleeg de documentatie bij [](https://docs.adobe.com/content/help/en/debugger
 
 De volgende video&#39;s begeleiden u door het foutopsporingsproces:
 
-### De Adobe Experience Cloud Debugger Extension {#section_8CD96F76E397476193529573F3199615}![Overview-badge toevoegen](/help/assets/overview.png)
+### De Adobe Experience Cloud Debugger Extension ![Overview-badge toevoegen](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Standaarddoelfoutopsporing met de {#section_AB2814A994DC4A86BABDD0441343D911} ![overzichtsbadge van Adobe Experience Cloud Debugger](/help/assets/overview.png)
+### Standaarddoelfoutopsporing met de ![overzichtsbadge Adobe Experience Cloud Debugger](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Badge {#section_FD3BC8019FA847209AB8BCA747C50211} ![Overzicht van Mbox-overtrek](/help/assets/overview.png)
+### Badge ![Overzicht van Mbox-overtrekken](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
