@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Als u de instelling inschakelt tijdens het configureren van at.js, stelt at.js d
 
 Dekking ingesteld op 0 houdt de pagina-inhoud verborgen om flikkering te voorkomen, maar de browser geeft de pagina nog steeds weer en laadt alle benodigde elementen, zoals CSS, afbeeldingen, enz.
 
-Als dekking 0 niet werkt in uw implementatie, kunt u flikkering ook beheren door deze aan te passen `bodyHiddenStyle` en in te stellen op `body {visibility:hidden !important}`. U kunt de waarde body `{opacity:0 !important`} of `body {visibility:hidden !important}`de waarde gebruiken die het meest geschikt is voor uw specifieke omstandigheid.
+Als dekking 0 niet werkt in uw implementatie, kunt u flikkering ook beheren door deze aan te passen `bodyHiddenStyle` en in te stellen op `body {visibility:hidden !important}`. U kunt de hoofdtekst van de waarde gebruiken `{opacity:0 !important}` of `body {visibility:hidden !important}`, afhankelijk van wat het beste werkt voor uw specifieke omstandigheid.
 
 De volgende illustratie toont het Lichaam van de Huid en toont de vraag van het Lichaam in allebei at.js 1.*x* en at.js 2.x.
 
