@@ -5,7 +5,7 @@ title: Een multivariatietest maken
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -39,7 +39,7 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie het Oplossen van [problemen de Visuele Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)van de Ervaring.
    >
-   >De [!UICONTROL Choose Workplace] optie in de voorgaande illustratie is een [doelpremiumfunctie](/help/c-intro/intro.md) . Uw organisatie heeft een licentie voor Target Standard als deze optie niet wordt weergegeven.]
+   >De [!UICONTROL Choose Workplace] optie in de voorgaande illustratie is een [doelpremiumfunctie](/help/c-intro/intro.md) . Uw organisatie heeft een licentie voor Target Standard als deze optie niet wordt weergegeven.
 
 1. (Voorwaardelijk) Als u een klant van de Premium van het Doel bent, [kies een werkruimte](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -100,7 +100,7 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
 
    ![](assets/estimator2.png)
 
-1. Klik **[!UICONTROL Next]** om naar de [!UICONTROL Targeting] pagina te gaan.]
+1. Klik **[!UICONTROL Next]** om naar de [!UICONTROL Targeting] pagina te gaan.
 
 1. Kies het publiek en het percentage in aanmerking komende bezoekers dat u de activiteit wilt betreden.
 
