@@ -4,9 +4,9 @@ description: Adobe Target-welkomstkit - Hoofdstuk 8
 title: Adobe Target-welkomstkit - Hoofdstuk 8
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Als u een activiteit in werking stelt en verbazingwekkende resultaten hebt, moet
 
 Bij het communiceren van deze resultaten is het handig om deze te benaderen zoals u een artikel vertelt. Maak het interessant en verklaar duidelijk wat het werd getest of gepersonaliseerd en waarom, en wat de resultaten waren. Gebruik de taal en de terminologie die worden begrepen door degenen die de resultaten evalueren.
 
-We hebben een sjabloon voor samenvattingsresultaten opgenomen in Microsoft PowerPoint (zie hieronder). Geef deze weer met het kleurenschema en het logo van uw organisatie en gebruik deze om de resultaten van uw eerste test- of personalisatieactiviteit weer te geven. Net als bij de Activiteitenplanner is de werkset als een zelfstandig bestand opgenomen, maar hier is ook een afbeelding van toegevoegd, samen met een voorbeeld van het type informatie dat in elk gedeelte van de sjabloon moet worden opgenomen.
+We hebben een sjabloon voor [samenvattingsresultaten](/help/assets/executive-summary.zip) opgenomen in Microsoft PowerPoint. Geef deze weer met het kleurenschema en het logo van uw organisatie en gebruik deze om de resultaten van uw eerste test- of personalisatieactiviteit weer te geven. Net als bij de Activiteitenplanner is de werkset als een zelfstandig bestand opgenomen, maar hier is ook een afbeelding van toegevoegd, samen met een voorbeeld van het type informatie dat in elk gedeelte van de sjabloon moet worden opgenomen.
 
 ![Samenvattend verslag](/help/c-intro/assets/executive-summary-report.png)
