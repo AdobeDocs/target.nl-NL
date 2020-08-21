@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Stel bijvoorbeeld dat u voor een meubelbedrijf werkt en twee scores voor klantvr
 * Mogelijkheid om in de komende 90 dagen dinerruimmeubilair te kopen
 * Mogelijkheid om in de komende 90 dagen huiskamermeubilair te kopen
 
-Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. Doel zou dan dynamisch de restauratieruimte en de nestscores van de woonkamerdichtheid voor een specifieke bezoeker vergelijken om te bepalen of die bezoeker voor dit publiek in aanmerking komt.
+Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair voor woonkamertjes te kopen. Doel zou dan dynamisch de restauratieruimte en de nestscores van de woonkamerdichtheid voor een specifieke bezoeker vergelijken om te bepalen of die bezoeker voor dit publiek in aanmerking komt.
 
 Voor meer informatie, zie [Methoden om Gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen.
 
@@ -60,7 +60,7 @@ Voor meer informatie, zie [Methoden om Gegevens in Doel](../../c-implementing-ta
 
    ![](assets/propensity_score_4.png)
 
-## Badge {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} ![Overzicht van trainingsvideo](/help/assets/overview.png)
+## Badge ![Overzicht van trainingsvideo](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Bekijk de volgende video voor meer informatie en een scenario waarin u deze functie kunt gebruiken:
 
