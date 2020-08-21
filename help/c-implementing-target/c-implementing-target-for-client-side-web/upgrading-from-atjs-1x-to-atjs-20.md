@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -313,7 +313,7 @@ Klanten kunnen een algemene naam voor een postvak opgeven via [!UICONTROL Target
 
 Ja, de aangepaste gebeurtenissen at.js zijn `triggerView()` ook van toepassing op.
 
-### Het zegt dat als ik `triggerView()` met bel `{“page” : “true”}`, het een bericht zal sturen aan de [!DNL Target] achterkant en de indruk zal vergroten. Zorgt het er ook voor dat de profielscripts worden uitgevoerd?
+### Er staat: wanneer ik bel `triggerView()` met &amp;stempel;lambce;`“page” : “true”`&amp;brace; er wordt een melding naar de [!DNL Target] achterkant verzonden en de indruk wordt groter. Zorgt het er ook voor dat de profielscripts worden uitgevoerd?
 
 Wanneer een prefetch vraag aan het [!DNL Target] achterste deel wordt gemaakt, worden de profielmanuscripten uitgevoerd. Daarna worden de profielgegevens gecodeerd en teruggestuurd naar de clientzijde. Nadat `triggerView()` met `{"page": "true"}` wordt aangeroepen, wordt een bericht verzonden samen met de gecodeerde profielgegevens. Dit is wanneer de [!DNL Target] backend dan de profielgegevens zal decrypteren en in de gegevensbestanden zal opslaan.
 
