@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Wij adviseren dat u met hun team van IT spreekt om ervoor te zorgen dat `adobe_m
 
 ## Waarom moet de verwijzende URL aan de nieuwe pagina worden overgegaan? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Stel dat een bezoeker op een koppeling klikt [!DNL `www.google.com`] naar uw homepage ( [!DNL `www.mysite.com/index.html]`) waarop een omleidingsactiviteit actief is en vervolgens wordt omgeleid naar een nieuwe pagina ( [!DNL `www.mysite.com/index2.html`]).
+Stel dat een bezoeker op een koppeling klikt [!DNL `www.google.com`] naar uw homepage (`www.mysite.com/index.html`) waarop een omleidingsactiviteit actief is en vervolgens wordt omgeleid naar een nieuwe pagina (`www.mysite.com/index2.html`).
 
 Voorheen zou het [!DNL Analytics] verzoek op de nieuwe pagina een verwijzende URL van in [!DNL `www.mysite.com/index.html`] plaats van [!DNL `www.google.com`]rapporteren. Dit veroorzaakte onjuiste rapportering in [!DNL Analytics] verband met verwijzende URLs (de rapporten van het Kanaal van de Marketing, bijvoorbeeld). De verslagen hadden het feit verloren dat u van [!DNL `www.google.com`]de plaats kwam.
 
