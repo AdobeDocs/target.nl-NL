@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-welkomstkit - Hoofdstuk 4
-title: Adobe Target-welkomstkit - Hoofdstuk 4
+description: Adobe Target-welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van Target
+title: Adobe Target-welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Zie [Reactietokens](/help/administrating-target/response-tokens.md) voor stapsge
 
 Zie [Reactietokens](/help/administrating-target/response-tokens.md) voor stapsgewijze instructies.
 
-**Doe dit eerst**: Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Als u een vorige versie gebruikt, ziet u de reactietokens, maar at.js kan deze niet gebruiken.
+**Doe dit eerst**: Zorg dat u versie 1.js of hoger van versie 1.1 gebruikt. Als u een vorige versie gebruikt, ziet u de reactietokens, maar at.js kan deze niet gebruiken.
 
 ## Tip 4: Bouw publiek van deze zeer belangrijke variabelen om de waarde van uw activiteit te verhogen.
 
@@ -157,7 +157,7 @@ Dan denk na creërend een sharable boek of dek van Microsoft PowerPoint dat deze
 
 ## Tip 20: Tik op mobiele functionaliteit om meer innovatieve mobiele activiteiten te maken.
 
-De gebruikers van tablets en smartphones moeten zich richten op aanraakbesturingselementen als de primaire bezoekersinteractie in plaats van op muisklikken en toetsenbordbesturing. Maak gebruik van de besturingselementen voor mobiele schermen, zoals vegen met vingers, aanraken, slepen, knijpen en zoomen. Gebruik eenvoudige, grote knoppen om interacties en navigatie aan te geven, zoals een groot winkelwagentje of een afspeelknop voor video. Als het ontwerpen voor mobiele detailhandel, rijke productvisualisatie omvat die voor het apparatentype wordt geoptimaliseerd. Zoek altijd naar mogelijkheden om de gebruikerservaring te verplaatsen naar ingesloten, grote kijkers of interactief zoomen en pannen op volledig scherm, 360 graden draaien en verbeterde videofunctionaliteit.
+De gebruikers van tablets en smartphones moeten zich richten op aanraakbesturingselementen als de primaire bezoekersinteractie in plaats van op muisklikken en toetsenbordbesturing. Maak gebruik van de besturingselementen voor mobiele schermen, zoals vegen met vingers, aanraken, slepen, knijpen en zoomen. Gebruik eenvoudige, grote knoppen om interacties en navigatie aan te geven, zoals een groot winkelwagentje of een knop voor het afspelen van video. Als het ontwerpen voor mobiele detailhandel, rijke productvisualisatie omvat die voor het apparatentype wordt geoptimaliseerd. Zoek altijd naar mogelijkheden om de gebruikerservaring te verplaatsen naar ingesloten, grote kijkers of interactief zoomen en pannen op volledig scherm, 360 graden draaien en verbeterde videofunctionaliteit.
 
 ## Tip 21: Mobiele bezoekers helpen bij het zoeken naar wat ze willen door de zoekfunctie voor mobiele apparaten te optimaliseren.
 
