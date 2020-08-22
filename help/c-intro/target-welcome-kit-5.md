@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-welkomstkit - Hoofdstuk 5
-title: Adobe Target-welkomstkit - Hoofdstuk 5
+description: Adobe Target-welkomstkit - Hoofdstuk 5 - Inspiratie voor test- en personaliseringsactiviteiten
+title: Adobe Target-welkomstkit - Hoofdstuk 5 - Inspiratie voor test- en personaliseringsactiviteiten
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Deze test- en personalisatieideeën, geïnspireerd op echte activiteiten van onz
 
 ## Idee 1: Testen van klantentransparantie.
 
-Verhoog de conversiegraad en de omzet door een creatieve reis en merkervaring te creëren die met websitebezoekers resoneert terwijl het voldoen aan bedrijfsdoelstellingen. Vervolgens test u die persoonlijke reis door deze te vergelijken met statische ervaringen of willekeurig geleverde ervaringen. U kunt personalisatie op een hoger niveau tillen door het publiek dat u personaliseert te ontdekken en te maken tot het gebruik van gegevens van derden en derden in [!DNL Adobe Audience Manager].
+Verhoog de conversiegraad en de omzet door een creatieve reis en merkervaring te creëren die met websitebezoekers resoneert terwijl het voldoen aan bedrijfsdoelstellingen. Vervolgens test u die persoonlijke reis door deze te vergelijken met statische ervaringen of willekeurig geleverde ervaringen. U kunt de personalisatie op een hoger niveau tillen door het publiek dat u personaliseert, te ontdekken en te maken en gegevens van derden te gebruiken in [!DNL Adobe Audience Manager].
 
 Nadat u die doelgroepen hebt geïdentificeerd, test en onderzoek naar de gebruikerservaring om te leren wat hen overtuigt om te reageren, en ontwikkelt u de ervaringen die u hen binnen hun reis aanpast.
 
@@ -62,7 +62,7 @@ Misschien wijzigt u gewoon de volgorde van opties waaruit u kunt kiezen wanneer 
 
 ## Idee 8: Promoot uw mobiele app op uw website.
 
-Als uw bedrijf middelen besteedt aan de ontwikkeling van een mobiele app voor iOS, Android of andere apparaten, hoeft u niet alleen maar stil te zitten en te hopen dat gebruikers in de App Store op uw app zullen stummen. In plaats daarvan moet er een degelijke strategie komen voor de bevordering ervan. Test verschillende benaderingen om downloads en gebruik van apps te stimuleren. Als uw niet-mobiele site een koppeling heeft om uw app te downloaden, probeert u de effectiviteit te testen van een tijdelijke bestemmingspagina die expliciet uw app promoot wanneer bezoekers op uw startpagina aankomen. Stel een omleidingstest in die de helft van uw mobiele verkeer naar uw huidige sitepagina en de andere helft naar de tijdelijke bestemmingspagina filtert.
+Als uw bedrijf middelen besteedt aan de ontwikkeling van een mobiele app voor iOS, Android of andere apparaten, hoeft u niet alleen maar stil te zitten en te hopen dat gebruikers in de App Store op uw app zullen stummen. In plaats daarvan moet er een degelijke strategie komen voor de bevordering ervan. Test verschillende benaderingen om downloads en gebruik van apps te stimuleren. Als uw niet-mobiele site een koppeling heeft om uw app te downloaden, probeert u de doeltreffendheid te testen van een tijdelijke bestemmingspagina die expliciet uw app promoot wanneer bezoekers op uw startpagina aankomen. Stel een omleidingstest in die de helft van uw mobiele verkeer naar uw huidige sitepagina en de andere helft naar de tijdelijke bestemmingspagina filtert.
 
 ## Idee 9: gebruik innovaties voor mobiele apps.
 
