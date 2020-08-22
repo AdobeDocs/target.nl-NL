@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-welkomstkit - Hoofdstuk 9
-title: Adobe Target-welkomstkit - Hoofdstuk 9
+description: Adobe Target-welkomstkit - Hoofdstuk 9 - Volgende stappen en bronnen
+title: Adobe Target-welkomstkit - Hoofdstuk 9 - Volgende stappen en bronnen
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ We hebben een georganiseerde lijst met waardevolle informatie samengesteld die u
 * **Adobe Target On-demand training**: Ontdek de verschillende doelcursussen die we aanbieden. Zie de pagina [Adobe training en zelfstudies](https://helpx.adobe.com/learning.html?promoid=KAUDK) .
 * **Adobe Target-video&#39;s:** Binge bekijkt de [!DNL Target] video&#39;s om succesverhalen en oplossingsmogelijkheden te bekijken. Zie [Trainingsvideo&#39;s voor Adobe Target Standard en Premium](/help/c-intro/target-standard-premium-training-videos.md)
 * **Webinar Series**: Adobe Target Basics. Neem deel aan onze webinarserie voor succes van klanten waarin de basisbeginselen van optimalisatie met Adobe Target-gebruikers worden besproken. Zie [Doelgrondbeginselen Webinar Reeks](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
-* **Adobe-kantooruren** van de klantendienst: &quot;Kantooruren&quot; is een initiatief dat wordt geleid door het team van de klantenservice van Adobe. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om de [!DNL Adobe Experience Cloud] oplossingen, waaronder [!DNL Target]de oplossingen, te kunnen gebruiken. Zie [Adobe Customer Care Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
+* **Adobe-kantooruren** van de klantendienst: &quot;Office Hours&quot; is een initiatief van het Adobe Customer Care-team. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om de [!DNL Adobe Experience Cloud] oplossingen, waaronder [!DNL Target]de oplossingen, te kunnen gebruiken. Zie [Adobe Customer Care Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Top** Adobe: De grootste professionele evenement van het jaar bijwonen voor digitale marketers.
    * [Top](https://summit.adobe.com/na/) van Adobe (Noord-Amerika)
    * [Adobe Summit](http://summit-emea.adobe.com/emea/) (EMEA)
