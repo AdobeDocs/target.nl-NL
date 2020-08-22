@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-welkomstkit - Hoofdstuk 6
-title: Adobe Target-welkomstkit - Hoofdstuk 6
+description: Adobe Target-welkomstkit - Hoofdstuk 6 - Eenvoudig te vermijden valkuilen
+title: Adobe Target-welkomstkit - Hoofdstuk 6 - Eenvoudig te vermijden valkuilen
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 Het goede aan het starten van uw optimalisatie- en personaliseringsprogramma is nu dat mensen die het al een tijdje doen, al veel van de gemakkelijk te maken fouten hebben ontdekt. Als u deze valkuilen kent, kunt u ze gemakkelijk voorkomen of verhelpen.
 
-Zie [Tien gemeenschappelijke testvalkuilen voor A/B en hoe deze](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) te vermijden voor gedetailleerde informatie. Naast de ideeën die in dat artikel worden voorgesteld, houd deze korte lijst handig om deze gemeenschappelijke testings en verpersoonlijkingsvalkuilen te vermijden of te bevestigen.
+>[!NOTE]
+>
+>Zie [Tien gemeenschappelijke testvalkuilen voor A/B en hoe deze](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) te vermijden voor gedetailleerde informatie. Naast de ideeën die in dat artikel worden voorgesteld, houd deze korte lijst handig om deze gemeenschappelijke testings en verpersoonlijkingsvalkuilen te vermijden of te bevestigen.
 
 | Pitfall | Oplossing |
 | --- | --- |
@@ -28,7 +30,7 @@ Zie [Tien gemeenschappelijke testvalkuilen voor A/B en hoe deze](/help/c-activit
 | Gegevens over het succes van activiteiten selecteren die niet helpen bij de besluitvorming. | Documenteer alle primaire testmetriek en omvat extra metriek om extra inzichten te bereiken. |
 | Wijzigingen aanbrengen tijdens de test die van invloed kunnen zijn op de resultaten. | Een agenda bijhouden voor aanstaande promoties en wijzigingen in de site. Maak duidelijk [!DNL Target] activiteit lanceert om conflicten te vermijden. |
 | Het veranderen van testervaringen of criteria dicht bij een activiteitenlancering. | Vraag om aftekening van belangrijke belanghebbenden in een vroeg stadium van de testactiviteit. |
-| Het afsluiten van een activiteit vóór de resultaten is statistisch significant. | Verifieer de testduur met de [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html)van de Adobe. |
+| Het afsluiten van een activiteit vóór de resultaten is statistisch significant. | Verifieer de testduur met de [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html)Adobe. |
 | Het ontvangen van negatieve of vlakke resultaten van een [!DNL Target] activiteit. | Bevestig dat de activiteit het testen waard is. |
 | Geen harde codering van de winnende ervaring. | Gebruik activiteitsgegevens om waarde aan te geven voor inkoop voor harde codering. |
 | Geen resultaten delen buiten het testteam. | Breid mededelingen uit om lunch en lessen te omvatten, een programmadashboard te ontwikkelen, en vergaderingen van belanghebbenden te plannen. |
