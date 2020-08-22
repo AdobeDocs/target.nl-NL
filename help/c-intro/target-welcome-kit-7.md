@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-welkomstkit - Hoofdstuk 7
-title: Adobe Target-welkomstkit - Hoofdstuk 7
+description: Adobe Target-welkomstkit - Hoofdstuk 7 - Uw eerste doelactiviteit maken en uitvoeren
+title: Adobe Target-welkomstkit - Hoofdstuk 7 - Uw eerste doelactiviteit maken en uitvoeren
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,9 @@ Aangezien u met uw het testen idee komt, houd in mening dat u, idealiter met geg
 
 ## Uw activiteiten plannen met Activiteitenplanner
 
-We hebben de [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) opgenomen als een zelfstandig PDF-bestand dat u steeds opnieuw kunt opslaan en gebruiken. Als u een effectieve activiteit wilt uitvoeren, moet u elk gebied van de planner invullen. U kunt dit gereedschap gebruiken terwijl u en anderen ideeën uitwisselen voor het testen en personaliseren van activiteiten.
+We hebben de [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) opgenomen als een zelfstandig PDF-bestand dat u steeds opnieuw kunt opslaan en gebruiken. Klik op de koppeling om het PDF-bestand weer te geven. Klik met de rechtermuisknop om het PDF-bestand te downloaden.
+
+Als u een effectieve activiteit wilt uitvoeren, moet u elk gebied van de planner invullen. U kunt dit gereedschap gebruiken terwijl u en anderen ideeën uitwisselen voor het testen en personaliseren van activiteiten.
 
 ![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
@@ -64,7 +66,7 @@ Selecteer het kanaal of aanraakpunt dat u wilt verbeteren. Voeg de URL voor het 
 
 ### Wat is uw hypothese?
 
-Leg duidelijk uit wat het probleem is met de huidige ervaring op de webpagina, inclusief gegevens of bronnen die u hebt gebruikt om het probleem te identificeren. Verklaar wat u van plan bent te veranderen en waarom u denkt het de klantenervaring zou verbeteren. Tot slot verklaar het resultaat u verwacht en beschrijvend de bedrijfswaarde in bedrijfssuccesmetriek die u deze nieuwe ervaring zult leveren.
+Leg duidelijk uit wat het probleem is met de huidige ervaring op de webpagina, inclusief gegevens of bronnen die u hebt gebruikt om het probleem te identificeren. Leg uit wat u van plan bent te veranderen en waarom u denkt het de klantenervaring zou verbeteren. Tot slot verklaar het resultaat u verwacht en beschrijvend de bedrijfswaarde in bedrijfssuccesmetriek die u deze nieuwe ervaring zult leveren.
 
 ### Welk type activiteit is nodig?
 
