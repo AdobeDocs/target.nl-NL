@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-welkomstkit - Hoofdstuk 2
-title: Adobe Target-welkomstkit - Hoofdstuk 2
+description: Adobe Target-welkomstkit - Hoofdstuk 2 - Doel in één oogopslag
+title: Adobe Target-welkomstkit - Hoofdstuk 2 - Doel in één oogopslag
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2448'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Voor een diepgaander inzicht in wanneer en hoe te om elk vermogen te gebruiken, 
 
 | Type activiteit | Details |
 | --- | --- |
-| Gericht op ervaring (XT) | Lever inhoud aan een specifiek publiek dat op een reeks user-defined regels en criteria wordt gebaseerd. **[!UICONTROL Experience Targeting]** is nuttig om een specifieke ervaring of inhoud aan een bepaald publiek te richten wanneer u begrijpt dat een publiek waardevol is en een goed gevoel heeft van welke ervaring met hen resoneert. [Meer](/help/c-activities/t-experience-target/experience-target.md)informatie. |
 | A/B-tests | Vergelijk twee of meer variaties van uw ervaringen of aanbiedingen op uw website, of andere digitale klant touchpoint om te zien welke variatie de belangrijkste bedrijfsmaatregelen tijdens een vooraf bepaalde testperiode het meest verbetert. A/B-tests zijn zeer geschikt voor grote wijzigingen, zoals nieuwe webpaginalay-outs, verschillende benaderingen van sitenavigatie of drastisch verschillende behandelingen van afzonderlijke elementen van een digitale ervaring, zoals kopiëren, afbeeldingen en aanroepknoppen. [Meer](/help/c-activities/t-test-ab/test-ab.md)informatie. |
-| Multivariate Testing (MVT) | Vergelijk alle mogelijke combinaties van elementen op de pagina of digitale ervaring. Dit zijn bijvoorbeeld drie verschillende achtergrondafbeeldingen, twee variaties in de kopie en twee verschillende knopkleuren. MVT bepaalt welke combinatie het beste voor een specifiek publiek presteert en welke elementen het meest van invloed zijn op de resultaten. [Meer](/help/c-activities/c-multivariate-testing/multivariate-testing.md)informatie. |
 | Automatisch toewijzen | Identificeer de best-presterende ervaring onder twee of meer ervaringen, en wijs automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren. Gebruikt kunstmatige intelligentie aangedreven door [!DNL Adobe Sensei]. [Meer](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)informatie. |
-| Automatisch doel<br>(Premium) | Gebruik Adobe Sensei AI [!DNL Target] om de beste ervaring van meerdere bezoekers te bepalen en te leveren op basis van hun individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen. Met Auto-Target kunt u afbeeldingen op schaal aanpassen. |
+| Automatisch doel<br>(Premium) | Gebruik Adobe Sensei AI [!DNL Target] om de beste ervaring van meerdere bezoekers te bepalen en te leveren op basis van hun individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen. Met Auto-Target kunt u afbeeldingen op schaal aanpassen. [Meer](/help/c-activities/auto-target-to-optimize.md)informatie. |
 | Automated Personalization<br>(Premium) | Gebruik geavanceerde computerleeralgoritmen en automatisering aangedreven door [!DNL Adobe Sensei] om verschillende combinaties beelden, exemplaar, en andere elementen in een aanbieding te herzien en de beste combinatie aan elke bezoeker te leveren die op wordt gebaseerd waarop het best bedrijfsdoelstellingen, zoals verhoogde omzettingen of opbrengst per bezoeker bereikt. [Meer](/help/c-activities/t-automated-personalization/automated-personalization.md)informatie. |
+| Gericht op ervaring (XT) | Lever inhoud aan een specifiek publiek dat op een reeks user-defined regels en criteria wordt gebaseerd. **[!UICONTROL Experience Targeting]** is nuttig om een specifieke ervaring of inhoud aan een bepaald publiek te richten wanneer u begrijpt dat een publiek waardevol is en een goed gevoel heeft van welke ervaring met hen resoneert. [Meer](/help/c-activities/t-experience-target/experience-target.md)informatie. |
+| Multivariate Testing (MVT) | Vergelijk alle mogelijke combinaties van elementen op de pagina of digitale ervaring. Dit zijn bijvoorbeeld drie verschillende achtergrondafbeeldingen, twee variaties in de kopie en twee verschillende knopkleuren. MVT bepaalt welke combinatie het beste voor een specifiek publiek presteert en welke elementen het meest van invloed zijn op de resultaten. [Meer](/help/c-activities/c-multivariate-testing/multivariate-testing.md)informatie. |
 | Recommendations<br>(Premium) | Gebruik Adobe Sensei AI om automatisch producten of inhoud voor te stellen die uw klanten interessant kunnen maken op basis van hun eerdere activiteiten en die van andere klanten. [Meer](/help/c-recommendations/recommendations.md)informatie. |
 
 ## Kanalen
@@ -81,7 +81,7 @@ In [!DNL Target], kunt u een verpersoonlijkingsactiviteit, een optimaliseringsac
 
 ## Bestuur en controle
 
-Om de juiste mensen de juiste rollen en de bijbehorende niveaus van toegang en toestemmingen aan te bieden [!DNL Target], hebben wij een administratieve console. Voor [!UICONTROL Target Premium] gebruikers bieden we meer gedetailleerde governance en controle [!UICONTROL Enterprise Permissions].
+Om de juiste mensen de juiste rollen en de bijbehorende niveaus van toegang en toestemmingen aan te bieden [!DNL Target], hebben wij een administratieve console. Voor [!UICONTROL Target Premium] gebruikers bieden we een gedetailleerder bestuur en meer controle [!UICONTROL Enterprise Permissions].
 
 | Gereedschap | Details |
 | --- | --- |
