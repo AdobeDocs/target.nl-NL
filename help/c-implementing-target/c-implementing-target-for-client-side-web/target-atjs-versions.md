@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '3971'
+source-wordcount: '3970'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,7 @@ Voor meer informatie over Adobe Opt-in, zie [Privacy en Algemene Verordening](/h
 
 Deze versie verhelpt ook een probleem waarbij Doel URL-parameters omleiden kan negeren met parameters die afkomstig zijn van de omleidings-URL.
 
->[! OPMERKING]
+>[!NOTE]
 >
 >Als u Adobe Opt-in steun voor GDPR vereist, moet u momenteel gebruiken bij.js 1.7.0 of 2.1.0.<br>Voor een lijst van alle versies, zie [at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -241,7 +241,7 @@ at.js versie 1.5.0 is nu beschikbaar.
      scheduler = setTimeout
    ```
 
-## at.js versie 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js versie 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js versie 1.3.0 is nu beschikbaar.
 
