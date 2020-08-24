@@ -5,9 +5,9 @@ title: Succeswaarden in Adobe Target
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Sommige metriek, zoals [!UICONTROL Custom Scoring] en [!UICONTROL Revenue Per Vi
 
 ## Geavanceerde instellingen {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-Gebruik de geavanceerde instellingen om te bepalen hoe succesvol u bent. U kunt onder andere de metrische waarde per impositie of één keer per bezoeker tellen en kiezen of u de gebruiker in de activiteit wilt houden of deze wilt verwijderen.
+Gebruik de geavanceerde instellingen om te bepalen hoe succesvol u bent. De opties omvatten het toevoegen van gebiedsdelen, het kiezen of om de gebruiker in de activiteit te houden of hen te verwijderen, en of om metrisch één keer per ingang of op elke indruk te tellen.
 
 Klik op [!UICONTROL Advanced Settings] > om de **[!UICONTROL vertical ellipses]** opties te openen **[!UICONTROL Advanced Settings]**.
 
@@ -67,21 +67,27 @@ Klik op [!UICONTROL Advanced Settings] > om de **[!UICONTROL vertical ellipses]*
 >
 >Als u [!DNL Adobe Analytics] als rapportbron gebruikt, worden de instellingen beheerd door de [!DNL Analytics] server. De [!UICONTROL Advanced Settings] optie is niet beschikbaar. Zie [Adobe Analytics als de rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)voor meer informatie.
 
-U kunt de geavanceerde montages ook gebruiken om afhankelijke succesmetriek tot stand te brengen, die één metrisch slechts verhogen als een bezoeker een andere metrische eerste bereikt.
+### Afhankelijkheid toevoegen
+
+U kunt de geavanceerde montages gebruiken om afhankelijke succesmetriek tot stand te brengen, die één metrisch slechts verhogen als een bezoeker een andere metrische eerste bereikt.
 
 ![Afhankelijkheid toevoegen](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Een testconversie is bijvoorbeeld alleen geldig als een bezoeker op de aanbieding klikt of een bepaalde pagina bereikt voordat deze wordt omgezet.
 
-Afhankelijke succeswaarden worden ondersteund in A/B-tests, Automated Personalization, Experience Targeting en Multivariate testactiviteiten. Recommendations-activiteiten ondersteunen momenteel geen afhankelijke succesmaatstaven.
+De functie Afhankelijkheid wordt *niet* ondersteund voor:
 
->[!NOTE]
->
->Afhankelijke succeswaarden worden in de volgende gevallen niet omgezet:
->
->* Als u een cirkelgebiedsdeel creeert waarin metrisch1 van metrisch2 afhankelijk is en metrisch2 van metrisch1 afhankelijk is, kan noch metrisch omzetten.
->* Bij Automated Personalization-activiteiten worden gebruikers vrijgegeven en wordt de activiteit opnieuw opgestart wanneer conversiemetriek wordt bereikt. Eventuele metrische gegevens die afhankelijk zijn van de conversiemetrie worden dus niet omgezet.
+* [!UICONTROL Recommendations] activiteiten. Deze functionaliteit wordt ondersteund voor alle andere typen activiteiten.
+* Als u [Analytics als rapportbron](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt.
+* Het metrische type &quot;Viewed a Page&quot;.
+* Het metrische type &quot;Clicked an Element&quot; voor VEC-activiteiten (Visual Experience Composer).
 
+Afhankelijke succeswaarden worden in de volgende gevallen niet omgezet:
+
+* Als u een cirkelgebiedsdeel creeert waarin metrisch1 van metrisch2 afhankelijk is en metrisch2 van metrisch1 afhankelijk is, kan noch metrisch omzetten.
+* Bij Automated Personalization-activiteiten worden gebruikers vrijgegeven en wordt de activiteit opnieuw opgestart wanneer conversiemetriek wordt bereikt. Eventuele metrische gegevens die afhankelijk zijn van de conversiemetrie worden dus niet omgezet.
+
+### Wat zal gebeuren nadat een gebruiker dit doel metrisch ontmoet?
 
 Gebruik de geavanceerde montages om te bepalen wat gebeurt nadat een gebruiker het doel metrisch bereikt. In de volgende tabel staan de beschikbare opties:
 
@@ -94,6 +100,14 @@ Gebruik de geavanceerde montages om te bepalen wat gebeurt nadat een gebruiker h
 >[!NOTE]
 >
 >Als u metrisch aan één van de (bovengenoemde) opties vormt, neemt de metrische telling correct toe eens per ingang op het bezoekersniveau slechts. [!UICONTROL Increment Count] De metrische tellingen stijgen eens per bezoek voor elke nieuwe zitting op het bezoekniveau.
+
+### Hoe zal het aantal worden verhoogd:
+
+Kies het gewenste gedrag:
+
+* Eenmaal per gegadigde
+* Bij elke indruk (pagina-vernieuwingen uitsluiten)
+* Op elke indruk
 
 ## Trainingsvideo: Activiteitenstatistieken
 
