@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 24 augustus | [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Bijgewerkte sectie &quot;Geavanceerde instellingen&quot;. |
 | 21 augustus | [Overzicht van Adobe Target-welkomstkit](/help/c-intro/target-welcome-kit.md) | Nieuw artikel en nieuwe subonderwerpen. |
 | 20 augustus | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie toegevoegd: &quot;Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite voor de handhaving van cookies de VEC en EEC?&quot; |
 |  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende tekst is bijgewerkt: &quot;Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.&quot; |
@@ -97,7 +98,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | 21 mei | [Lijst van gewenste personen randknooppunten doel](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Toegevoegd `mboxedge30.tt.omtrdc.net` aan de lijst. |
 | 20 mei | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de aanstaande release van Target Standard/Premium 20.6.1 (10 juni 2020). |
 |  | [Gastheren](/help/administrating-target/hosts.md) | Opmerking toegevoegd aan de sectie &#39;best practices voor beveiliging&#39;. |
-| 14 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over wijzigingen in de profielbatchstatus-API v2. |
+| 14 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over v2-wijzigingen in de profielbatchstatus van de API. |
 | 13 mei | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sectie &quot;Bekende beperkingen&quot; toegevoegd. |
 | 11 mei | [Gastheren](/help/administrating-target/hosts.md) | Extra informatie over het gebruiken van de ubox functionaliteit met omleidingen en lijsten van gewenste personen. |
 |  | [Werken met directeuren](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Extra informatie over het gebruik van hosts om Open Redirect-kwetsbaarheden te voorkomen. |
