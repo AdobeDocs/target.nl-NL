@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -473,7 +473,7 @@ Houd rekening met het volgende wanneer u `serverState`:
 
 * Bij het toepassen van `serverState `aanbiedingen houdt at.js rekening met `pageLoadEnabled` en `viewsEnabled` instellingen. Aanbiedingen voor laden van pagina worden bijvoorbeeld niet toegepast als de `pageLoadEnabled` instelling false is.
 
-   Schakel deze instellingen in via Beheer **[UICONTROL > Implementatie > Bewerken > Pagina laden ingeschakeld]**.
+   Schakel deze instellingen in via **[!UICONTROL Administration]>[!UICONTROL Implementation]>[!UICONTROL Edit]>[!UICONTROL Page Load Enabled]**.
 
    ![Instellingen voor Laden van pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
