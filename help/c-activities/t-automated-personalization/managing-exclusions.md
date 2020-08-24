@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Er zouden bepaalde combinaties kunnen zijn die niet goed samenwerken, of u zou h
 
    ![Ervaring uitsluiten door aanwijzen](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Of u kunt ervaringen in batch uitsluiten/opnemen door het selectievakje voor de relevante ervaringen in te schakelen en vervolgens op het pictogram **[UICONTROL uitsluiten]** in de rechterbovenhoek van het dialoogvenster te klikken. Het [!UICONTROL Exclude] pictogram wordt weergegeven wanneer een of meer ervaringen worden gecontroleerd.
+   Of u kunt ervaringen in batch uitsluiten/opnemen door het selectievakje voor de relevante ervaringen in te schakelen en vervolgens op het **[!UICONTROL Exclude]** pictogram in de rechterbovenhoek van het dialoogvenster te klikken. Het [!UICONTROL Exclude] pictogram wordt weergegeven wanneer een of meer ervaringen worden gecontroleerd.
 
    ![ervaringen uitsluiten](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
@@ -96,7 +96,7 @@ Er zouden bepaalde combinaties kunnen zijn die niet goed samenwerken, of u zou h
 
 In sommige gevallen wilt u wellicht uw standaardinhoud niet opnemen in uw Automated Personalization-activiteit. De manier waarop u deze instelling opent, verschilt van het maken van uitsluitingsgroepen. U kunt deze methode gebruiken om slechts één aanbieding (verschillend van uw standaardinhoud) in een plaats als deel van uw AP activiteit te hebben.
 
-Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de rest van de pagina aan te passen aan de aanbiedingen die u test met uw AP-activiteit. Stel dat u bijvoorbeeld het kleurenpalet wilt aanpassen van de aanbiedingen die u test, u de achtergrondkleur van de pagina kunt wijzigen en de standaardachtergrondkleur wilt uitsluiten.
+Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de rest van de pagina aan te passen aan de aanbiedingen die u met uw AP-activiteit test. Stel dat u bijvoorbeeld het kleurenpalet wilt aanpassen van de aanbiedingen die u test, u de achtergrondkleur van de pagina kunt wijzigen en de standaardachtergrondkleur wilt uitsluiten.
 
 **Om standaardinhoud uit te sluiten gebruikend Visual Experience Composer (VEC):**
 
