@@ -4,9 +4,9 @@ title: Adobe Target Visual Experience Composer (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Enkele redenen waarom u het laden van pagina&#39;s in de VEC wilt annuleren, zij
 * U wilt meer testregels voor sjablonen toevoegen aan de criteria voor het leveren van pagina&#39;s
 * Als u een pagina via de EEG laadt, is het mogelijk dat het laden van een pagina per pagina afhankelijk is van het verschil tussen pagina&#39;s
 
-Nadat u het laden van de pagina in VEC hebt geannuleerd, kunt u schakelen tussen ervaringen in de activiteit zonder te wachten tot de pagina is geladen. Als u de pagina opnieuw wilt zien in de VEC, moet u op de knop **[!UICONTOL Opnieuw laden]** klikken.
+Nadat u het laden van de pagina in VEC hebt geannuleerd, kunt u schakelen tussen ervaringen in de activiteit zonder te wachten tot de pagina is geladen. Als u de pagina weer wilt zien in de VEC, moet u op de **[!UICONTROL Reload]** knop klikken.
 
 >[!IMPORTANT]
 >
