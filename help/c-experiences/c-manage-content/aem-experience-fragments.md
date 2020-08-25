@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de
 
 ## Vereisten {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-U moet de functionaliteit van ervaringsfragmenten binnen [!DNl Doel]van provisioned zijn. Daarnaast moet u [!DNL AEM] 6.3 gebruiken met de juiste service pack of [!DNL AEM] 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
+U moet beschikken over de functionaliteit voor ervaringsfragmenten binnen [!DNL Target]. Daarnaast moet u [!DNL AEM] 6.3 gebruiken met de juiste service pack of [!DNL AEM] 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
 * [!DNL Adobe Experience Manager] 6.4 (of hoger).
 * [!DNL Adobe Experience Manager] 6.3 SP2 (of hoger).
@@ -102,7 +102,7 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
 
 **Ervaar fragmenten met de VEC als u deze wilt gebruiken:**
 
-1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in Composer [van de](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)Visuele Ervaring, klik de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, dan selecteer de gewenste optie om de [!UICONTROL Choose an Experience Fragment] lijst te tonen.
+1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in [Visuele Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring, klik de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, dan selecteer de gewenste optie om de [!UICONTROL Choose an Experience Fragment] lijst te tonen.
 
    * [!UICONTROL Insert Before]
    * [!UICONTROL Insert After]
@@ -131,7 +131,7 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
 
 **Ervaar fragmenten op basis van de Form-based Experience Composer:**
 
-1. Selecteer tijdens het maken of bewerken van [!DNeen ervaring in de]Form-Based Experience Composer [in Doel](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)de locatie op de pagina waar u [!DNL AEM] inhoud wilt invoegen en selecteer vervolgens **[!UICONTROL Change Experience Fragment]** om de [!UICONTROL Choose an Experience Fragment] lijst weer te geven.
+1. Tijdens het maken of bewerken van een ervaring in de [!DNL Target]Form-Based Experience Composer [selecteert u op de pagina de locatie waar u](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)inhoud wilt invoegen en selecteert u [!DNL AEM] om de **[!UICONTROL Change Experience Fragment]** [!UICONTROL Choose an Experience Fragment] lijst weer te geven.
 
    ![](assets/experience_fragment_list.png)
 
