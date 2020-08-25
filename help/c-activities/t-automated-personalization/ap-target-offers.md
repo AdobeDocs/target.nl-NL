@@ -5,9 +5,9 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ In dit scenario, zou Bezoeker 1 Aanbieding 1 zien (omdat hij of zij als deel van
 
 1. Selecteer de gewenste aanbieding(en) en kies het publiek dat u in aanmerking wilt nemen om dat aanbod te zien.
 
-   Als u de doelversie voor één aanbieding wilt instellen, houdt u de muisaanwijzer boven de gewenste aanbieding en klikt u op het pictogram **[!UICONTORL Doelstelling]** .
+   Als u de focus voor één aanbieding wilt instellen, houdt u de muisaanwijzer boven de gewenste aanbieding en klikt u op het **[!UICONTROL Targeting]** pictogram.
 
    Als u de doelgroep voor meerdere aanbiedingen wilt instellen, schakelt u de selectievakjes voor de gewenste aanbiedingen in en klikt u op het pictogram **[!UICONTROL Targeting] dat rechtsboven in de lijst wordt weergegeven.
 
