@@ -4,9 +4,9 @@ description: Als u Adobe Analytics gebruikt als gegevensbron voor gedragsgegeven
 title: Adobe Analytics gebruiken met Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -94,11 +94,11 @@ Ervan uitgaande dat alle voorwaarden aanwezig zijn, voert u de volgende taken ui
    > 
    >Raadpleeg het [!DNL Adobe Analytics] team voordat u deze stap uitvoert.
 
-   * **Type**: VFTP
-   * **Host**: xxx.yyy.com
-   * **Pad**: Uw doelclientcode
-   * **Gebruikersnaam**: xxxyy
-   * **Wachtwoord**: xxxxxxxxxxx
+   * **Type**: FTP
+   * **Host**: `xxx.yyy.com`
+   * **Pad**: Uw [!DNL Target] clientcode
+   * **Gebruikersnaam**: Geef uw gebruikersnaam op
+   * **Wachtwoord**: Geef uw wachtwoord op
 
    Screenshot is alleen ter referentie. Uw implementatie heeft andere referenties. Raadpleeg het [!DNL Adobe Analytics] team of de klantenservice tijdens deze stap.
 
