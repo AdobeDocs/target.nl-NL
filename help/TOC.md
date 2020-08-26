@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -290,7 +290,7 @@ ht-degree: 0%
          + [Verkeersbronnen](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Bezoekerprofiel](c-target/c-audiences/c-target-rules/visitor-profile.md)
       + [Een vergelijkingspubliek voor profielkenmerken maken](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
-   + [Meerdere doelgroepen combineren](c-target/combining-multiple-audiences.md)
+   + [Meerdere soorten publiek combineren](c-target/combining-multiple-audiences.md)
    + [Een alleen-activiteitpubliek maken](c-target/creating-activity-only-audience.md)
    + [Auditiefilters voor rapportage](c-target/managing-audience-filters.md)
    + [Pas een rapporterend publiek op succes toe metrisch](c-target/apply-reporting-audience-success-metric.md)
@@ -383,6 +383,7 @@ ht-degree: 0%
       + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Een back-upaanbeveling gebruiken](c-recommendations/c-algorithms/backup-recs.md)
       + [Werken met kenmerken van meerdere waarden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Adobe Analytics gebruiken met Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Ontwerp {#recommendations-design}
       + [Overzicht van ontwerp](c-recommendations/c-design-overview/design-overview.md)
       + [Een ontwerp maken](c-recommendations/c-design-overview/create-design.md)
