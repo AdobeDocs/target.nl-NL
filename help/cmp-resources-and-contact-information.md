@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 0%
@@ -39,7 +39,7 @@ De informatie van de registratie en verbindingen met vorige zittingen van de Ree
 
 ## Adobe Customer Care Office-uren {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
-&quot;Kantooruren&quot; is een initiatief dat wordt geleid door het team van de klantenservice van Adobe. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om te slagen met de Adobe Experience Cloud-oplossingen, waaronder Target.
+&quot;Office Hours&quot; is een initiatief van het Adobe Customer Care-team. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om te slagen met de Adobe Experience Cloud-oplossingen, waaronder Target.
 
 Raadpleeg de uren van de [Adobe Customer Care Office om u aan te melden voor komende sessies en opgenomen sessies te volgen](https://helpx.adobe.com/customer-care-office-hours.html).
 
@@ -59,9 +59,9 @@ Huidige opgenomen doelsessies zijn:
 
 Daarnaast zijn er tijdens de sessies over Target nog andere Adobe-oplossingen beschikbaar, zoals Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager en nog veel meer.
 
-## Contact opnemen met de Adobe-klantenservice {#reference_ACA3391A00EF467B87930A450050077C}
+## Contact opnemen met de Adobe Klantenservice {#reference_ACA3391A00EF467B87930A450050077C}
 
-De Zorg van de cliënt is bereid om u te helpen om het even welke kwesties oplossen die zich zouden kunnen voordoen. Deze pagina bevat de informatie die u nodig hebt wanneer u contact opneemt met de klantenservice om een oplossing te versnellen.
+De Zorg van de klant is bereid om u te helpen om het even welke kwesties oplossen die zich zouden kunnen voordoen. Deze pagina bevat de informatie die u nodig hebt wanneer u contact opneemt met de klantenservice om een oplossing te versnellen.
 
 ### Basisinformatie {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
