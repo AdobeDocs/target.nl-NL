@@ -5,9 +5,9 @@ title: Een Recommendations-activiteit maken
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie het Oplossen van [problemen de Visuele Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)van de Ervaring.
    >
-   >De optie [!UICONTROL [kiest Werkplaats](/help/administrating-target/c-user-management/property-channel/property-channel.md) in de voorafgaande illustratie is een [functie van de Premie](/help/c-intro/intro.md) van het Doel. Uw organisatie heeft een licentie voor Target Standard als deze optie niet wordt weergegeven.]
+   >De [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorgaande illustratie is een [doelpremiumfunctie](/help/c-intro/intro.md) . Uw organisatie heeft een licentie voor Target Standard als deze optie niet wordt weergegeven.
 
 1. (Voorwaardelijk) Als u een klant [van de Premium van het](/help/c-intro/intro.md#premium)Doel bent, kies een [werkruimte](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
