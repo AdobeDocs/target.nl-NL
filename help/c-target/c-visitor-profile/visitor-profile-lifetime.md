@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ De [!DNL Target] JavaScript-bibliotheek die u gebruikt ( [!DNL at.js] of [!DNL m
 
 De vervaldatum wordt niet opnieuw ingesteld voor bestaande profielen. Als een vorige bezoeker 15 dagen niet terugkeert, verloopt dat profiel. Als een vorige bezoeker terugkeert vóór het originele twee-weekprofiel verloopt, wordt het profiel teruggesteld aan het uitgebreide leven. Alle nieuwe bezoekersprofielen worden ingesteld op de uitgebreide levensduur van het profiel.
 
-Als u twee sites onder één clientcode hebt en een bezoeker beide sites bezoekt, wordt het profiel ingesteld op de levensduur van de profielen op de site die het laatst is bezocht. Als Site 1 bijvoorbeeld een 84-daagse profiellevensduur heeft en Site 2 een levensduur van 14 dagen heeft en de bezoeker Site 1 en Site 2 bezoekt, verloopt het profiel van die bezoeker over 14 dagen inactiviteit. Als de bezoeker Site 1 bezoekt na een bezoek aan Site 2, verloopt het profiel over 84 dagen inactiviteit.
+In het volgende scenario, veronderstel dat één of beide plaatsen met mbox.js worden uitgevoerd, die een codeupdate vereist nadat het profiel wordt bijgewerkt. Als beide sites onder één clientcode vallen en een bezoeker beide sites bezoekt, wordt het profiel ingesteld op de levensduur van de profielen op de site die het laatst is bezocht. Als Site 1 bijvoorbeeld een 84-daagse profiellevensduur heeft en Site 2 een levensduur van 14 dagen heeft en de bezoeker Site 1 en Site 2 bezoekt, verloopt het profiel van die bezoeker over 14 dagen inactiviteit. Als de bezoeker Site 1 bezoekt na een bezoek aan Site 2, verloopt het profiel over 84 dagen inactiviteit.
