@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3629'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,22 @@ Informatie over bekende problemen voor deze release van Target. Bevat ook inform
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 In de volgende secties worden de bekende problemen voor [!DNL Target]:
+
+### Rapportage
+
+Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebruikt.
+
+Als voor dezelfde bezoeker bijvoorbeeld het aantal conversies is ingesteld op &quot;Eenmaal per binnenkomst:&quot;
+
+* Publiek: &quot;Alle Gekwalificeerde Bezoekers&quot;voor op bezoek-niveau omzettingen verhogen slechts één keer. Dit is het verwachte gedrag.
+* Publiek: &quot;Nieuwe Bezoekers&quot;voor op bezoek-niveau omzettingen verhogen verkeerd elke keer, in plaats van slechts één keer te verhogen. Dit is niet het verwachte gedrag.
+
+Als het aantal conversies is ingesteld op &quot;Op elke indruk:&quot;
+
+* Publiek: &quot;Alle gekwalificeerde Bezoekers&quot; voor conversies op bezoekersniveau worden slechts eenmaal incorrect verhoogd in plaats van elke keer te verhogen. Dit is niet het verwachte gedrag.
+* Publiek: &quot;Nieuwe Bezoekers&quot; voor conversies op bezoekersniveau nemen telkens toe. Dit is het verwachte gedrag.
+
+Dit probleem heeft alleen betrekking op [!DNL Target] rapportage. Dit is geen kwestie wanneer het gebruiken van ( [!UICONTROL Analytics for Target] A4T) rapportering.
 
 ### Paginalevering {#page-delivery}
 
