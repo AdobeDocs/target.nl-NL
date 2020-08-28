@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3378'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,12 @@ Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties en worden zo nodig aanvullende opmerkingen toegevoegd.
+
+### Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+
+
+Dit bekende probleem betreft het besluit van Google om het standaardgedrag van cookies zonder het SameSite-kenmerk te wijzigen, te beginnen met Chrome versie 80. Voordat de wijzigingsinterface alle cookies zonder het SameSite-kenmerk standaard instelde op &quot;SameSite=None&quot; en nu wordt de standaardwaarde ingesteld op &quot;SameSite=Lax&quot;. Hierdoor wordt de manier gewijzigd waarop cookies worden verzonden op GET- en POST-aanvragen. Zie Updates [voor](https://www.chromium.org/updates/same-site)SameSite.
+
+Zie voor meer informatie en een oplossing &quot;Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite-cookiehandhaving de VEC en EEC?&quot; in Problemen met [probleemoplossing met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Grafiekrapport voor een activiteit Auto-Doel ontbreekt teruggeven wanneer het gebruiken van een douaneervaring als controle
 
@@ -323,7 +329,7 @@ De capaciteit om veelvoudige metriek in een rapport te bekijken was inbegrepen i
 
 ### Aanbiedingen
 
-Afbeeldingen die zijn verwijderd uit de bibliotheek met afbeeldingsaanbiedingen ( \> Afbeeldingsaanbiedingen ) blijven zichtbaar in de gebruikersinterface. In een volgende versie worden deze verwijderde afbeeldingen niet meer weergegeven. Ondertussen worden verwijderde afbeeldingen weergegeven in de gebruikersinterface, maar hebben ze de status Verwijderd. (TGT-23793)
+Afbeeldingen die zijn verwijderd uit de bibliotheek met afbeeldingsaanbiedingen ( \> Afbeeldingsaanbiedingen ) blijven zichtbaar in de gebruikersinterface. In een volgende release worden deze verwijderde afbeeldingen niet meer weergegeven. Ondertussen worden verwijderde afbeeldingen weergegeven in de gebruikersinterface, maar hebben ze de status Verwijderd. (TGT-23793)
 
 Opgelost in de doelversie 17.4.1 (27 april 2017).
 
