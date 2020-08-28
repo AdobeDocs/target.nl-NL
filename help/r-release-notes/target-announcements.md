@@ -5,7 +5,7 @@ title: Doelaankondigingen
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -48,4 +48,4 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 
 ## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js {#skill-builder}
 
-Met de aanstaande afzetting van mbox.js op 30 augustus 2020, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. De komende 30 dagen kunt u de webinar opname [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
+Met de aanstaande afzetting van mbox.js op 18 januari 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. De komende 30 dagen kunt u de webinar opname [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
