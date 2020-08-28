@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 28 augustus | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende is bijgewerkt:<ul><li>Toegevoegd aan de sectie Bekende problemen: &quot;Rapportering - Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebruikt.&quot;</li><li>Toegevoegd aan de sectie Opgeloste problemen: &quot;Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+.&quot;</li></ul> |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De datum waarop mbox.js is vervangen, is gewijzigd van 30 augustus 2020 in 18 januari 2021. |
 | 26 augustus | [Adobe Analytics gebruiken met Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nieuw onderwerp. |
 | 24 augustus | [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Bijgewerkte sectie &quot;Geavanceerde instellingen&quot;. |
 | 21 augustus | [Overzicht van Adobe Target-welkomstkit](/help/c-intro/target-welcome-kit.md) | Nieuw artikel en nieuwe subonderwerpen. |
