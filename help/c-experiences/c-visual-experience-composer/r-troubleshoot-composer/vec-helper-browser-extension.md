@@ -5,9 +5,9 @@ title: Helperextensie Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,13 @@ Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 * De website bevindt zich in een iframe.
 * De bibliotheek at.js is nog niet geïmplementeerd op de website.
 * De QA- en/of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
+* U gebruikt Google Chrome 80+ met het verbeterde beleid voor het toepassen van cookies op SameSite. Zie [Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite voor de handhaving van cookies de VEC en EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-Met de VEC Helper-browserextensie voor Chrome worden problemen opgelost die door klanten worden veroorzaakt en waarvoor ze nu afhankelijk zijn van de extensie [!DNL Target] [!UICONTROL Enhanced Experience Composer] of een extensie van een andere fabrikant, zoals &quot;opzichtig&quot;
+Met de VEC Helper-browserextensie voor Chrome worden de problemen opgelost die door klanten worden veroorzaakt en die nu door de extensie [!DNL Target] [!UICONTROL Enhanced Experience Composer] of door derden worden veroorzaakt, zoals &quot;opzichtig&quot;.
 
 Voordelen van het gebruik van de extensie VEC Helper:
 
-* Alle iFrame-opbouwende kopballen, zoals x-Kader-Opties en inhoud-veiligheid-Beleid, worden impliciet verwijderd uit de website. Het is niet langer nodig om hiervoor ingewikkelde voorschriften in te voeren.
+* Alle iFrame-opbouwheaders, zoals X-Frame-Options en Content-Security-Policy, worden impliciet verwijderd van de website. Het is niet langer nodig om hiervoor ingewikkelde voorschriften in te voeren.
 * Als een webpagina nog niet de JavaScript-bibliotheek [!DNL Target] at.js bevat, kunt u de extensie gebruiken om de bibliotheek te injecteren zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
 * Mobiele Viewports worden ondersteund, zelfs zonder [!UICONTROL Enhanced Experience Composer] (EEG).
 * Klanten die nog niet eerder [!DNL Target] zijn, kunnen de extensie gebruiken om te experimenteren met [!DNL Target] zelfs als hun IT-ontwikkelaars deze nog niet [!DNL Target] op hun websites hebben geïmplementeerd.
