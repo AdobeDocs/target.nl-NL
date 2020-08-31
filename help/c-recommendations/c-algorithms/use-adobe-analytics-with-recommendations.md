@@ -4,9 +4,9 @@ description: Als u Adobe Analytics gebruikt als gegevensbron voor gedragsgegeven
 title: Adobe Analytics gebruiken met Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Voor snelle besluitvorming over welke gegevensbron moet worden gebruikt, als er 
 
 ### Stappen om te implementeren
 
-Ervan uitgaande dat aan alle voorwaarden is voldaan, moeten de volgende taken door het Adobe Target Recommendations-team worden uitgevoerd:
+Ervan uitgaande dat aan alle voorwaarden is voldaan, moeten de volgende taken door het [!DNL Adobe Target Recommendations] team worden uitgevoerd:
 
->[BELANGRIJK]
+>[!IMPORTANT]
 >
->De onderstaande stappen dienen ter illustratie. Merk op dat een lid van het team van Recommendations deze stappen momenteel moet uitvoeren. [Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor meer informatie.
+>De onderstaande stappen dienen slechts ter illustratie. Een lid van het [!DNL Recommendations] team moet deze stappen momenteel uitvoeren. [Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor meer informatie.
 
 1. Klik [!DNL Target]in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** om uw [!DNL Target] clientcode aan te schaffen.
 
@@ -98,7 +98,7 @@ Ervan uitgaande dat aan alle voorwaarden is voldaan, moeten de volgende taken do
    > 
    >Raadpleeg het [!DNL Adobe Analytics] team voordat u deze stap uitvoert.
 
-   * **Type**: FTP
+   * **Type**: VFTP
    * **Host**: `xxx.yyy.com`
    * **Pad**: Uw [!DNL Target] clientcode
    * **Gebruikersnaam**: Geef uw gebruikersnaam op
