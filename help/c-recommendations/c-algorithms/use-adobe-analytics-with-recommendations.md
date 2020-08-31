@@ -4,9 +4,9 @@ description: Als u Adobe Analytics gebruikt als gegevensbron voor gedragsgegeven
 title: Adobe Analytics gebruiken met Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Ervan uitgaande dat alle voorwaarden aanwezig zijn, voert u de volgende taken ui
    > 
    >Raadpleeg het [!DNL Adobe Analytics] team voordat u deze stap uitvoert.
 
-   * **Type**: VFTP
+   * **Type**: FTP
    * **Host**: `xxx.yyy.com`
    * **Pad**: Uw [!DNL Target] clientcode
    * **Gebruikersnaam**: Geef uw gebruikersnaam op
@@ -148,3 +148,16 @@ Met dit, is de opstelling aan [!DNL Analytics] kant volledig. Nu is het tijd om 
    ![Sectie Toewijzing](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Klik op **[!UICONTROL Save]**.
+
+## Veelgestelde vragen
+
+Overweeg de volgende veelgestelde vragen zoals u deze gebruikt [!DNL Analytics] met [!DNL Target]:
+
+### Worden de `entity.id` en de `entity.categoryId` waarden vereist om binnen de [!DNL Target] mbox vraag worden overgegaan?
+
+Ja, die twee waarden zijn nog steeds vereist. De overige kenmerken kunnen via een [!DNL Analytics] feed worden doorgegeven, zoals in dit document wordt beschreven.
+
+### Kan ik dynamische inclusieregels, zoals de attribuut van de entiteitparameter gebruiken profielattributen gebruikend de [!DNL Analytics] voederbenadering?
+
+Ja, dat kan. De methode is vergelijkbaar bij gebruik van [!DNL Target] zelfstandige software. In dit geval moet u echter rekening houden met de tijdsfactor. De entiteitvariabelen die met de profielvariabelen zouden moeten aanpassen zijn afhankelijk van de gegevenslaag die veel later op de pagina zou kunnen verschijnen.
+
