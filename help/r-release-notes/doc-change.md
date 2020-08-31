@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 31 augustus | [Adobe Analytics gebruiken met Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Sectie Veelgestelde vragen toegevoegd. |
 | 28 augustus | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende is bijgewerkt:<ul><li>Toegevoegd aan de sectie Bekende problemen: &quot;Rapportering - Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebruikt.&quot;</li><li>Toegevoegd aan de sectie Opgeloste problemen: &quot;Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+.&quot;</li></ul> |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De datum waarop mbox.js is vervangen, is gewijzigd van 30 augustus 2020 in 18 januari 2021. |
 | 26 augustus | [Adobe Analytics gebruiken met Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nieuw onderwerp. |
