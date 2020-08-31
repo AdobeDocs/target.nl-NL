@@ -4,9 +4,9 @@ description: Als u Adobe Analytics gebruikt als gegevensbron voor gedragsgegeven
 title: Adobe Analytics gebruiken met Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
+source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Bij het [maken van criteria](/help/c-recommendations/c-algorithms/create-new-alg
 >
 >Als deze twee knoppen niet worden weergegeven in uw account, neemt u contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Gevallen gebruiken
+## Gevallen gebruiken voor analysegegevens in Doel
 
 Het gebruiken [!DNL Analytics] als gedragsgegevensbron voor aanbevelingen verstrekt ook de capaciteit om specifieke gebruiksgevallen zonder het vereiste van het etiketteren van entiteitpagina&#39;s van alle [!DNL Target] entiteitsparameters op te stellen. Hoewel daarvoor bepaalde voorwaarden moeten gelden, is de beschikbaarheid van &quot;Productvariabelen&quot; voor die functionaliteit van essentieel belang om naadloos te kunnen werken. Reguliere eVars en Props zijn niet voldoende voor deze handdruk om automatisch tussen [!DNL Analytics] en [!DNL Target]te gebeuren.
 
@@ -39,7 +39,7 @@ U kunt als gegevensbron voor gedrag gebruiken [!DNL Analytics] :
 
 De volgende secties zullen u helpen deze eigenschap op de [!DNL Analytics] kant uitvoeren.
 
-### Vereisten: productvariabelen in Analytics
+### Vereisten: productvariabelen instellen in Analytics
 
 U moet productvariabelen in [!DNL Analytics] met de noodzakelijke attributen uitvoeren die voor worden vereist [!DNL Target Recommendations].
 
@@ -57,9 +57,83 @@ Raadpleeg de [producten](https://docs.adobe.com/content/help/en/analytics/implem
 
 Voor snelle besluitvorming over welke gegevensbron moet worden gebruikt, als er veel organische gegevens zijn die elke dag door gebruikers worden gegenereerd, en niet veel afhankelijkheid van historische gegevens, dan kan het gebruiken van een [!DNL Target] box als gedragsgegevensbron een goede pasvorm zijn. In gevallen van minder beschikbaarheid van onlangs gegenereerde organische gegevens, als u op [!DNL Analytics] gegevens wilt bankieren, dan is het gebruiken [!DNL Analytics] als gedragsgegevensbron een goed pasvorm.
 
-### Neem contact op met de klantenservice om een gegevensfeed voor u te maken
+### Stappen om te implementeren
 
-Ervan uitgaande dat alle voorwaarden aanwezig zijn, neemt u contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om een gegevensfeed voor u te maken.
+Ervan uitgaande dat aan alle voorwaarden is voldaan, moeten de volgende taken door het Adobe Target Recommendations-team worden uitgevoerd:
+
+>[BELANGRIJK]
+>
+>De onderstaande stappen dienen ter illustratie. Merk op dat een lid van het team van Recommendations deze stappen momenteel moet uitvoeren. [Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor meer informatie.
+
+1. Klik [!DNL Target]in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** om uw [!DNL Target] clientcode aan te schaffen.
+
+   ![Clientcode](/help/c-recommendations/c-algorithms/assets/client-code.png)
+
+1. Verkrijg uw [!DNL Analytics] rapportsuite.
+
+   Gebruik de rapportsuite van uw [!DNL Analytics] productiesite. Dit is de rapportsuite die de site bijhoudt waarin u de site hebt [!DNL Recommendations] geïmplementeerd.
+
+1. Klik [!DNL Analytics]in **[!UICONTROL Admin]** > **[!UICONTROL Data Feeds]**.
+
+   ![Setup > Data feeds](/help/c-recommendations/c-algorithms/assets/data-feed.png)
+
+1. Klik **[!UICONTROL Add]** om een nieuwe feed te maken.
+
+   ![Feed toevoegen](/help/c-recommendations/c-algorithms/assets/add-feed.png)
+
+1. Voer de gegevens in:
+
+   * **Naam**: Recs Prod Feed
+   * **Rapportsuite**: Uw vooraf bepaalde rapportsuite
+   * **E-mail**: Geef een geschikt adres voor een Admin-gebruiker op
+   * **Diervoederinterval**: Selecteer het gewenste interval
+   * **Vertraging**: Geen vertraging.
+   * **Begin- en einddatum**: Doorlopende diervoeders
+
+   ![Sectie met informatie over diervoeders](/help/c-recommendations/c-algorithms/assets/feed-information.png)
+
+1. Vul de details in de **[!UICONTROL Destination]** sectie in:
+
+   >[!NOTE]
+   > 
+   >Raadpleeg het [!DNL Adobe Analytics] team voordat u deze stap uitvoert.
+
+   * **Type**: FTP
+   * **Host**: `xxx.yyy.com`
+   * **Pad**: Uw [!DNL Target] clientcode
+   * **Gebruikersnaam**: Geef uw gebruikersnaam op
+   * **Wachtwoord**: Geef uw wachtwoord op
+
+   Screenshot is alleen ter referentie. Uw implementatie heeft andere referenties. Raadpleeg het [!DNL Adobe Analytics] team of de klantenservice tijdens deze stap.
+
+   ![Doelsectie](/help/c-recommendations/c-algorithms/assets/destination.png)
+
+1. Vul de **[!UICONTROL Data Column]** definities in:
+
+   * **Compressie-indeling**: Gzip
+   * **Verpakkingstype**:  Eén bestand
+   * **Manifest:** Bestand voltooien
+
+      ![Compressie-indeling, Type pakket en Manifest-instellingen](/help/c-recommendations/c-algorithms/assets/compression.png)
+
+   * **Opgenomen kolommen**:
+
+      >[!IMPORTANT]
+      >
+      >De kolommen moeten worden toegevoegd in dezelfde volgorde die hier wordt beschreven. Selecteer de kolommen in de volgende volgorde en klik **[!UICONTROL Add]** voor elke kolom.
+
+      * hit_time_gmt
+      * visid_high
+      * visid_low
+      * event_list
+      * product_list
+      * visit_num
+
+1. Klik op **[!UICONTROL Save]**.
+
+   ![Sectie met definities van gegevenskolommen](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
+
+Met dit, is de opstelling aan [!DNL Analytics] kant volledig. Nu is het tijd om deze variabelen [!DNL Target] naast elkaar toe te wijzen voor continue levering van gedragsgegevens.
 
 ## Implementeren in doel
 
