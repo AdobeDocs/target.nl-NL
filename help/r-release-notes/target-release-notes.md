@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 405715f1ee1afd1d298dc7f1ef0cd3599620cbca
+source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem verholpen waardoor gebruikers de [!UICONTROL Activity] pagina niet konden weergeven als de naam van de werkruimte (opgegeven in de [!UICONTROL Adobe Admin Console for Enterprise]) een apostrof bevat. (TGT-37709)
 * Probleem verholpen bij [!UICONTROL Auto-Allocate] activiteiten tijdens het selecteren van optimalisatie- en conversiemetriek waarbij een foutbericht gebruikers verkeerd informeerde een rapportsuite te selecteren, ook al was er al een rapportsuite opgegeven. (TGT-37689)
 * Probleem verholpen waarbij metrische gegevens op de [!UICONTROL Goals and Settings] pagina soms leeg werden na het navigeren naar de [!UICONTROL Targeting] pagina en vervolgens weer. (TGT-37691)
-* Probleem verholpen waarbij de laatst gewijzigde waarde voor [!DNL Recommendations] criteria onjuist is. (TGT-37666)
+* Probleem verholpen waarbij een onjuiste laatst gewijzigde waarde voor [!DNL Recommendations] criteria werd veroorzaakt. (TGT-37666)
 * Probleem verholpen waarbij id&#39;s van een box in de vervolgkeuzelijst Mboxes werden weergegeven in plaats van namen van een box. (TGT-37739)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
