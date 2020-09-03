@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen
 * **Maximale bestandsgrootte voor elke upload met de HTTP-methode**: 100 MB.
 * **maximale bestandsgrootte voor elke upload met de FTP-methode**: 4 GB.
 * **Aantal kenmerken dat mag worden geabonneerd**: 5 voor [!DNL Target Standard] en 200 voor [!DNL Target Premium].
+
+## Entiteiten
+
+Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99, ofwel hardcoded ofwel via lussen.
 
 ## Aangepaste kenmerken van entiteit
 
