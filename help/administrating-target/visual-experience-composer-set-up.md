@@ -5,7 +5,7 @@ title: De Adobe Target Visual Experience Composer configureren
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -37,7 +37,7 @@ De volgende instellingen zijn beschikbaar:
 
 Stel de standaard-URL in die door de [!UICONTROL Visual Experience Composer]URL wordt gebruikt. Dit is de standaardpagina, zoals uw homepage, die wordt gebruikt wanneer u opstelling een ervaring voor elke nieuwe activiteit. Als u geen standaard-URL instelt, moet u voor elke activiteit een URL invoeren wanneer u deze maakt.
 
-### Enhanced Experience Composer inschakelen
+### Enhanced Experience Composer inschakelen {#eec}
 
 Hiermee kunt u iFrame-sites en sites met gemengde inhoud bewerken. Sommige sites zijn mogelijk niet compatibel met de verbeterde versie. Schakel deze optie uit om terug te keren naar het origineel [!UICONTROL Visual Experience Composer]. Deze keuze heeft geen invloed op de levering van activiteiten op sites.
 
@@ -62,7 +62,7 @@ Als u ervaringsmomentopnamen inschakelt, worden miniaturen voor uw ervaringen in
 
 U kunt apparaten toevoegen om te gebruiken wanneer het previewing ervaringen. Elk apparaat heeft een bijbehorend publiek.
 
-![Mobiele Viewport Configuration-sectie](/help/administrating-target/assets/mobile-viewport-configuration.png)
+![Mobiele Viewportconfiguratie](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
 Klik **[!UICONTROL Add]**, geef een beschrijvende naam op voor de mobiele viewport, geef de breedte en hoogte op, selecteer het gewenste besturingssysteem en klik op [!UICONTROL Save].
 
