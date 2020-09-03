@@ -5,9 +5,9 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Voordat u begint te gebruiken, is het handig om bekend te raken met enkele terme
 | Term | Definitie |
 | --- | --- |
 | Activiteit | Met de activiteiten in [!DNL Target] dit deelvenster kunt u inhoud aanpassen aan specifieke doelgroepen en pagina-ontwerpen testen. [!DNL Recommendations] is slechts één van de vele activiteitstypen beschikbaar in [!DNL Target]. Zie [Doelactiviteitstypen](/help/c-activities/target-activities-guide.md)voor meer informatie. |
-| Entiteiten | Entiteiten verwijzen naar de items die u wilt aanbevelen. Entiteiten kunnen van alles zijn, zoals producten, inhoud (artikelen, presentaties, afbeeldingen, films en tv-programma&#39;s), aanbiedingen van taken, restaurants enzovoort.Zie [Entiteiten](/help/c-recommendations/c-products/products.md)voor meer informatie. |
+| Entiteiten | Entiteiten verwijzen naar de items die u wilt aanbevelen. Entiteiten kunnen van alles zijn, zoals producten, inhoud (artikelen, presentaties, afbeeldingen, films en tv-programma&#39;s), aanbiedingen van taken, restaurants enzovoort. Zie [Entiteiten](/help/c-recommendations/c-products/products.md)voor meer informatie. |
 | Feeds | Met feeds worden entiteiten geïmporteerd in [!DNL Recommendations]. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en Adobe Analytics-productclassificaties. Zie [Feeds](/help/c-recommendations/c-products/feeds.md)voor meer informatie. |
 | Catalogus | De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus kan vele inzamelingen-manier bevatten om uw producten in logische emmers te organiseren. |
 | Verzameling | Verzamelingen verwijzen naar een reeks vergelijkbare of verwante items, zoals één productcategorie. U kunt echter de objecten groeperen in een categorie die voor uw bedrijf zinvol is, zoals producten met een bepaalde prijs of kleur, of items die in een bepaald geografisch gebied interessant kunnen zijn. Zie [Verzamelingen](/help/c-recommendations/c-products/collections.md)voor meer informatie. |
