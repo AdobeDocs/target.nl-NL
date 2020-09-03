@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '28786'
+source-wordcount: '29049'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerki
 >Zie Opmerkingen bij de release [Target (huidig)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2020
+
+### te.js 2.3.2 (24 juli 2020)
+
+Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:
+
+* Het probleem is opgelost wanneer een script of code een standaardeigenschap aan het venster of document toevoegt.
+
+### Target Standard/Premium 20.7.1 (27 juli 2020)
+
+Deze release bevat de volgende wijzigingen:
+
+#### [!UICONTROL Administration] sectie-UI vernieuwen
+
+We herschrijven geleidelijk de gehele [!DNL Target] gebruikersinterface met behulp van een nieuwe technologiestapel om verbeterde prestaties te kunnen bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De eerste sectie die is vernieuwd, is de [!UICONTROL Setup] sectie, die is hernoemd [!UICONTROL Administration].
+
+Als onderdeel van deze vernieuwing kunt u gemakkelijk veel handelingen uitvoeren met de pagina&#39;s in de [!UICONTROL Administration] sectie, zoals:
+
+* Download het meest recente bestand at.js van het [!UICONTROL Implementation] tabblad (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Pas de instellingen op at.js aan en bekijk de wijzigingen eenvoudig (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
+* Wijzig verbeterde rapporteringsmontages, zoals de standaardmunt en tijdzone, IPs om van rapportering uit te sluiten, etc. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
+* IP-adressen van bezoekers om privacyredenen verduisteren (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
+* Bekijk de bestaande lijst met gebruikers per werkruimte en hun rollen, voordat u ze beheert in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
+* Alle tabellen in de [!UICONTROL Administration] sectie zoeken en filteren.
+
+Voor meer informatie, zie het Overzicht [van het Doel](/help/administrating-target/administrating-target.md)beheren.
+
+#### Verbeteringen, correcties en wijzigingen
+
+Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
+
+* Probleem verholpen waarbij sitevoorkeuren niet konden worden behouden na vernieuwen. (TGT-37239)
+* Probleem verholpen waarbij het functioneren van > [!UICONTROL Insert After] [!UICONTROL Image] met SVG-afbeeldingen (Scalable Vector Graphics) werd verhinderd. (TGT-37242)
+* Oplossing voor een probleem voor gebruikers met de [!UICONTROL Publisher] rol die het verwijderen van conceptactiviteiten heeft verhinderd. (TGT-37358)
+* Probleem verholpen waardoor gebruikers een activiteit niet konden bewerken wanneer deze [!UICONTROL All My Workspaces] is geselecteerd. (TGT-37276)
 
 ### Target Standard/Premium 20.5.1 (17 juni 2020)
 
@@ -125,7 +159,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem verholpen waardoor rapporten voor automatische personalisatie niet correct worden weergegeven. (TGT-36619)
 * Probleem verholpen waarbij incompatibele metriek kon worden geselecteerd in Auto-Allocate en Auto-Target activiteiten die Analytics voor Doel (A4t) gebruiken. (TGT-36646)
 * Probleem verholpen waarbij bepaalde opties in de Visual Experience Composer (VEC) niet correct werden weergegeven. (TGT-36571)
-* Probleem verholpen in de doelinterface die ertoe heeft geleid dat andere Recommendations-aanbiedingsvoorvertoningen de bewerkte inhoud hebben weergegeven nadat een gebruiker de inhoud in één ervaring heeft vervangen. (TGT-36053 &amp; TGT-36894)
+* Probleem verholpen in de doelgebruikersinterface die ertoe heeft geleid dat andere Recommendations-aanbiedingsvoorvertoningen de bewerkte inhoud hebben weergegeven nadat een gebruiker de inhoud in één ervaring heeft vervangen. (TGT-36053 &amp; TGT-36894)
 * Probleem verholpen waardoor sommige gebruikers items uit een Recommendations-catalogus konden verwijderen. (TGT-36455)
 * Probleem verholpen waardoor gebruikers Recommendations-criteria niet konden opslaan voor activiteiten die uit meerdere pagina&#39;s bestaan. (TGT-36249)
 * Probleem verholpen waarbij de keuzerondjes voor de gegevensbron met gedragingen voor een tweede opeenvolgende keer werden verborgen bij het bewerken van de criteria. (TGT-36796)
@@ -269,7 +303,7 @@ Zie Opmerkingen bij de [release - Doel Java SDK](/help/c-implementing-target/c-a
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Node.js SDK versie 1.0 | Met de SDK van Target Node.js kunt u de doelserver implementeren.<br>Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Experience Cloud-oplossingen, zoals de Adobe Experience Cloud Identity Service, Adobe Analytics en Adobe Audience Manager.<br>De SDK van Node.js introduceert best practices en verwijdert complexiteit bij de integratie met Adobe Target via onze API voor levering, zodat uw engineeringteams zich kunnen richten op bedrijfslogica. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. Wij introduceren het plaatsen genoemd `serverState` die door ervaringen zal worden bevolkt die via server-kant worden teruggewonnen zodat at.js 2.2 geen extra servervraag meer zal maken om de ervaringen terug te winnen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door nieuwe Levering API mogelijk wordt gemaakt.</li><li>Open-sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul><br>Voor meer informatie, zie de Nota&#39;s van de [Versie - Doel Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
+| Node.js SDK versie 1.0 | Met de SDK van Target Node.js kunt u de doelserver implementeren.<br>Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Experience Cloud-oplossingen, zoals de Adobe Experience Cloud Identity Service, Adobe Analytics en Adobe Audience Manager.<br>De SDK van Node.js introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met Adobe Target via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. Wij introduceren het plaatsen genoemd `serverState` die door ervaringen zal worden bevolkt die via server-kant worden teruggewonnen zodat at.js 2.2 geen extra servervraag meer zal maken om de ervaringen terug te winnen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door nieuwe Levering API mogelijk wordt gemaakt.</li><li>Open-sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul><br>Voor meer informatie, zie de Nota&#39;s van de [Versie - Doel Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
 | Leverings-API | Een geheel nieuw levering API eindpunt (/v1/levering) is beschikbaar in productie. Opmerkelijke functies zijn:<ul><li>Één eindpunt om ervaringen voor één of meerdere dozen terug te winnen.</li><li>Haal VEC-activiteiten op via de API.</li><li>Ondersteuning voor een geheel nieuw object genaamd Weergaven dat wordt gebruikt voor toepassingen van één pagina (SPA&#39;s) en mobiele toepassingen.</li></ul><br>Zie Opmerkingen bij de [release - Doelserver-side API&#39;s](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)voor meer informatie. |
 
 ### Target Standard/Premium 19.9.2 (30 september 2019)
@@ -792,7 +826,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Wanneer u een actie in het paneel van Aanpassingen klikt, scrolt VEC automatisch de Web-pagina en het overeenkomstige element wordt benadrukt. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is beïnvloed. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
+   <td colname="col2"> <p>Wanneer u in het deelvenster Wijzigingen op een handeling klikt, schuift de VEC automatisch door de webpagina en wordt het bijbehorende element gemarkeerd. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is beïnvloed. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ondersteunde browsers </p> </td> 
@@ -810,7 +844,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze [!DNL Target] release bevat de volgende verbeteringen, correcties en wijzigingen:
 
 * De back-uprij van de CSV-download van Recommendations heeft nu een voorloopteken &quot;*&quot; (dubbele aanhalingstekens die een sterretje omsluiten) in plaats van * (één sterretje).
-* De rij Bovenste verkocht/Bovenste bekeken rij in de CSV-download van Recommendations heeft niet langer een komma vooraan.
+* De bovenste rij Verkocht / Bovenste bekeken rij in de Recommendations CSV-download heeft niet langer een komma vooraan.
 
 ### Wijziging van het Platform (19 juni 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
 
@@ -971,7 +1005,7 @@ Deze release bevat de volgende functies en verbeteringen:
       <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>bij.js-aanvragen wordt nu GET gebruikt, maar er wordt overgeschakeld naar POST wanneer de URL groter is dan 2048 tekens. Er is een nieuwe eigenschap met de naam <span class="codeph"> urlSizeLimit </span> waarmee u de maximale grootte indien nodig kunt verhogen. Dankzij deze wijziging kan Target worden uitgelijnd op .js naar AppMeasurement, die dezelfde techniek gebruikt. </p> </li> 
       <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>Doel dwingt nu af of de <span class="codeph"> mbox- </span> toets in de <span class="codeph"> functie adobe.target.applyOffer(options) </span> wordt gebruikt. Deze sleutel is in het verleden vereist, maar Doel dwingt nu zijn gebruik af om ervoor te zorgen dat Doel juiste bevestiging heeft en klanten correct de functie gebruiken. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245" format="dita" scope="local"> adobe.target.applyOffer(options) voor meer informatie </a> . </p> </li> 
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js heeft de functie voor het bijhouden van gebeurtenissen verbeterd en klikt op tracking. at.js gebruikt <span class="codeph"> navigator.sendBeacon() </span> om gegevens voor het bijhouden van gebeurtenissen te verzenden en fallback naar synchrone XHR wanneer <span class="codeph"> navigator.sendBeacon() </span> niet wordt ondersteund. Deze fallback heeft vooral invloed op Internet Explorer 10 en 11 en op sommige versies van Safari. Safari voegt ondersteuning voor <span class="codeph"> navigator.sendBeacon() toe </span> in de iOS 11.3-release. </p> </li> 
-      <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>Met at.js kunt u nu aanbiedingen renderen, zelfs als een pagina wordt geopend op tabbladen op de achtergrond. Sommige klanten van het Doel ondervonden een probleem toen requestAnimationFrame() <span class="codeph"> </span> was uitgeschakeld vanwege het browsergedrag voor achtergrondtabbladen. </p> </li> 
+      <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>Met at.js kunt u nu aanbiedingen renderen, zelfs als een pagina wordt geopend op tabbladen op de achtergrond. Sommige klanten van het Doel ontmoetten een kwestie wanneer <span class="codeph"> requestAnimationFrame() wegens browser vertragend gedrag voor achtergrondlusjes </span> werd onbruikbaar gemaakt. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>Deze versie voegt vele prestatiesverbeteringen, met inbegrip van kortere callstacks toe wanneer het inspecteren van een profiel van Chrome cpu. </p> </li> 
       <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9. Zie <a href="../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Ondersteunde browsers voor een lijst met ondersteunde browsers </a>. Voorwaarts worden alle aanvragen uitgevoerd via <span class="codeph"> XMLHttpRequest </span> met CORS-ondersteuning zonder JSONP-aanvragen. Deze wijziging verbetert de veiligheid aanzienlijk. </p> </li> 
      </ul> </p> </td> 
@@ -1426,7 +1460,7 @@ Zie Gemengde inhoud [inschakelen in uw browser](../c-experiences/c-visual-experi
 
 Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen, oplossingen en wijzigingen: (nummer van de uitgave staat tussen haakjes voor intern gebruik van Adobe):
 
-* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-up kaart in het Doel UI kunt bekijken zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
+* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-upkaart in de doelinterface kunt weergeven zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
 * U kunt nu definities van ad-hocpubliek weergeven in het maken/overzicht van activiteiten. (TGT-25570)
 * De volgende variabelen zijn nu beschikbaar als [snelheidsarrays](../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) : `entiites` en `entityN.categoriesList`.
 
@@ -1539,7 +1573,7 @@ Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen en oplos
 
 * Verbeterde workflow wanneer de [!DNL Target] sessietijden van een gebruiker tijdens het maken of bewerken van een activiteit of aanbieding aflopen. Wanneer de gebruiker klikt [!UICONTROL Save], wordt het bericht dat de sessie is verlopen weergegeven, maar na het aanmelden, wordt de gebruiker in een dialoogvenster op de hoogte gebracht van een geslaagde aanmelding en blijft de interface op dezelfde pagina aanwezig [!DNL Target] zonder gegevensverlies.
 
-   Als een gebruiker intermitterende actie op een [!DNL Target] pagina uitvoert en een zittingsonderbreking ervaart, wordt de gebruiker geleid aan re-login en dan aan de laatste pagina geleid die in [!DNL Target] UI wordt gewerkt.
+   Als een gebruiker intermitterende actie op een [!DNL Target] pagina uitvoert en een zittingsonderbreking ervaart, wordt de gebruiker geleid aan re-login en dan aan de laatste pagina geleid die aan in [!DNL Target] UI wordt gewerkt.
 
 * Probleem verholpen waarbij wijzigingen in aangepaste code verloren gingen als de gebruiker wegbladert (wijzigt ervaringen, wisselpagina, wisselend publiek, klikt op Volgende enz.) en vergeet wijzigingen op te slaan. De gebruiker wordt nu gevraagd de wijzigingen op te slaan. (TGT-23766)
 * Wanneer een activiteit wordt gearchiveerd, wordt &quot;Gearchiveerd de activiteit&quot; weergegeven in plaats van &quot;De activiteit bijwerken&quot;. (kB-1517)
@@ -2332,7 +2366,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Verbeteringen gebruikersinterface </td> 
+   <td colname="col1"> Verbeteringen in gebruikersinterface </td> 
    <td colname="col2"> <p>De gebruikersinterface is aanzienlijk gewijzigd in deze release. De belangrijkste wijzigingen zijn: </p> <p> 
      <ul id="ul_28F382C60ADE43F5A3A4BD0CD5A5CE52"> 
       <li id="li_C47240826E5844D6843314F453F042FC">Navigatie is van links naar boven verplaatst </li> 
@@ -2374,7 +2408,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Nieuwe instructievideo's </td> 
-   <td colname="col2"> Instructievideo's zijn toegevoegd aan de Help. Momenteel, kunt u video's over de Composer van de Ervaring van <a href="../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Visuele en op vorm-Gebaseerde Composer van de Ervaring bekijken </a>. De komende weken worden meer video's toegevoegd. </td> 
+   <td colname="col2"> Instructievideo's zijn toegevoegd aan de Help. Momenteel, kunt u video's over Composer van de Ervaring van de <a href="../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Visueel en op vorm-Gebaseerde Composer van de Ervaring bekijken </a>. De komende weken worden meer video's toegevoegd. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2568,7 +2602,7 @@ Deze release bevat de volgende functies en verbeteringen:
       <li id="li_B849EB2709F84831A1B7A4F312EAFA7E">Vindt een statistisch significante winnaar sneller dan een handmatige A/B test </li> 
       <li id="li_3F258C6DEB7245E2924115C5628BC3C6">Biedt een hogere gemiddelde campagnelift dan een handmatige A/B-test </li> 
       <li id="li_C9E82388B93E4A298000984B69CBAEDE">Hiermee kunt u op elk gewenst moment overschakelen op een handtest </li> 
-     </ul> </p> <p>Zie <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Geautomatiseerde verkeerstoewijzing </a>. </p> </td> 
+     </ul> </p> <p>Zie <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Automatische verkeerstoewijzing </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Klantkenmerken </p> </td> 
@@ -2678,7 +2712,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> RTF- en HTML-bewerkingen in Visual Experience Composer voor MVT- en Automated Personalization-activiteiten </td> 
-   <td colname="col2"> <p> Tekst- en HTML-opmaak in een tekstverwerker-achtig venster bij het bewerken van Automated Personalization en Multivariate Test-activiteiten. </p> <p> Deze functie was voorheen alleen beschikbaar voor activiteiten van A/B en Gericht op ervaring. </p> <p>Deze acties bieden mogelijkheden voor tekstbewerking door HTML-tags toe te voegen of stijlen toe te passen. Deze wijzigingen door de rijke tekstredacteur voor om het even welke actie kunnen in zijn bronmening worden gezien. Gebruikers kunnen op de knop HTML in de RTF-editor drukken om de bronweergave te bekijken. De stijlen die door de rijke redacteur worden toegevoegd kunnen zich met de stijlen van klantenwebsites mengen. In dit geval kunnen gebruikers naar de bronweergave gaan en de wijzigingen bewerken om deze uit te lijnen met de stijlen van hun websites. </p> <p>Zie Opties <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> van Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Tekst- en HTML-opmaak in een tekstverwerker-achtig venster bij het bewerken van Automated Personalization en Multivariate Test-activiteiten. </p> <p> Deze functie was voorheen alleen beschikbaar voor activiteiten van A/B en Gericht op ervaring. </p> <p>Deze acties bieden mogelijkheden voor tekstbewerking door HTML-tags toe te voegen of stijlen toe te passen. Deze wijzigingen door de rijke-tekstredacteur voor om het even welke actie kunnen in zijn bronmening worden gezien. Gebruikers kunnen op de knop HTML in de RTF-editor drukken om de bronweergave te bekijken. De stijlen die door de rijke redacteur worden toegevoegd kunnen zich met de stijlen van klantenwebsites mengen. In dit geval kunnen gebruikers naar de bronweergave gaan en de wijzigingen bewerken om deze uit te lijnen met de stijlen van hun websites. </p> <p>Zie Opties <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> van Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Formuliergebaseerde aanbevelingen </p> </td> 
@@ -3084,7 +3118,7 @@ Deze release bevat de volgende functies en verbeteringen:
 
 Deze release bevat de volgende oplossingen:
 
-* Correctie van een fout die ervoor zorgde dat een omleidingsaanbieding niet werkte wanneer het herzien van een pagina.
+* Probleem verholpen waarbij een omleidingsvoorstel niet werkte bij het reviseren van een pagina.
 
 ### Adobe Target 15.1.1 (22 januari 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
 
