@@ -5,9 +5,9 @@ title: Problemen oplossen met betrekking tot Visual Experience Composer en Enhan
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Met de recentste veranderingen (Augustus 2020), alle gebruikers met Chrome 80+ b
 * Bibliotheken kunnen *niet* [!DNL Target] worden gedownload tijdens het bewerken van een activiteit (als deze nog niet op de site staan). Dit is omdat de downloadvraag van het klantendomein aan een beveiligd Adobe domein wordt gemaakt en als unauthenticated wordt verworpen.
 * De E.E.G. werkt *niet* voor alle gebruikers omdat het niet het attribuut SameSite voor koekjes op kan plaatsen `adobemc.com domain`. Zonder dit kenmerk zal de browser deze cookies negeren, waardoor de EEG mislukt.
 
-Adobe heeft een bijgewerkte VEC Helper-extensie ingediend bij de Google Chrome Store. Deze extensie overschrijft de cookie-kenmerken om het `SameSite="none"` kenmerk zo nodig in te stellen. De [bijgewerkte extensie vindt u hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+Adobe heeft een bijgewerkte VEC Helper-extensie ingediend bij de Google Chrome Store. Deze extensie overschrijft de cookie-kenmerken om het `SameSite="none"` kenmerk zo nodig in te stellen. De [bijgewerkte extensie vindt u hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Voor meer informatie over het installeren van en het gebruiken van de Uitbreiding van de Helper VEC, zie de helperuitbreiding [van Composer van de](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Visuele Ervaring.
 
-Voor uw eigen sitecookies moet u de cookies op naam opgeven. Schakel de [!UICONTROL Cookie] schuifregelaar in of uit en geef de cookie op naam op.
+Voor uw eigen sitecookies moet u de cookies op naam opgeven. Schakel de [!UICONTROL Cookie] schuifregelaar in of uit naar de aan-positie en geef vervolgens de cookie op naam en het cookiedomein op. De cookienaam is &quot;mbox&quot;en het koekjesdomein is de tweede en hoogste niveaus van de domeinen waarvan u mbox dient. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. Zie [Adobe Target Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) in de gebruikershandleiding *van de* Experience Cloud Interface voor meer informatie.
 
-![VEC Helper-extensie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
+![Kookies in de VEC helperuitbreiding](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### Alternatieven en tijdelijke oplossingen
 
@@ -90,7 +90,7 @@ Wij adviseren dat alle gebruikers VEC aan de [recentste versie van mbox.js](../.
 
 ## Wanneer ik één element op de pagina verander, veranderen de veelvoudige elementen. (VEC en EEG) {#section_309188ACF34942989BE473F63C5710AF}
 
-Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en u een van deze elementen wijzigt, veranderen alle elementen met die id. Om dit te voorkomen, zou een identiteitskaart slechts eenmaal op elke pagina moeten worden gebruikt. Dit is een standaard HTML aanbevolen werkwijze. Zie Scenario&#39;s voor [paginawijziging voor meer informatie](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en u een van deze elementen wijzigt, worden alle elementen met die id gewijzigd. Om dit te voorkomen, zou een identiteitskaart slechts eenmaal op elke pagina moeten worden gebruikt. Dit is een standaard HTML aanbevolen werkwijze. Zie Scenario&#39;s voor [paginawijziging voor meer informatie](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Ik kan geen ervaringen bewerken voor een iFrame-opbouwende site. (VEC en EEG) {#section_9FE266B964314F2EB75604B4D7047200}
 
