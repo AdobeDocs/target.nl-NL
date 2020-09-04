@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 4%
@@ -56,7 +56,7 @@ U kunt de volgende instellingen configureren in het deelvenster Implementatiemet
 >
 >Deze instellingen worden toegepast op alle .js- [!DNL Target] bibliotheken. Nadat u wijzigingen in de [!UICONTROL Implementation methods] sectie hebt uitgevoerd, moet u de bibliotheek downloaden en bijwerken in de implementatie.
 
-|Pagina laden ingeschakeld (automatisch globale mbox maken|Selecteer of de globale mbox-aanroep in het bestand at.js moet worden ingesloten om automatisch te worden gestart bij elke pagina die wordt geladen.|
+|Pagina laden ingeschakeld (automatisch globale box maken|Selecteer of de globale aanroep van het mbox in het bestand at.js moet worden ingesloten om automatisch te worden gestart bij elke pagina die wordt geladen.|
 |Globale box|Selecteer een naam voor globale mbox. Deze naam is standaard target-global-mbox.<br>Speciale tekens, zoals ampersands (&amp;), kunnen worden gebruikt in mbox-namen met at.js.|
 |Time-out (seconden)|Als [!DNL Target] niet binnen de gedefinieerde periode wordt gereageerd met inhoud, worden de time-out van de serveraanroep en de standaardinhoud weergegeven. Aanvullende aanroepen worden nog steeds geprobeerd tijdens de sessie van de bezoeker. De standaardwaarde is 5 seconden.<br>De bibliotheek at.js gebruikt de time-outinstelling in `XMLHttpRequest`. De time-out begint wanneer de aanvraag wordt geactiveerd en stopt wanneer een reactie van de server wordt [!DNL Target] opgehaald. For more information, see [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) on the Mozilla Developer Network.<br>Als de opgegeven time-out optreedt voordat de reactie wordt ontvangen, wordt standaardinhoud weergegeven en wordt de bezoeker mogelijk geteld als een deelnemer aan een activiteit omdat alle gegevensverzameling aan de [!DNL Target] rand plaatsvindt. Als de aanvraag de [!DNL Target] rand bereikt, wordt de bezoeker geteld.<br>Denk aan het volgende wanneer u de time-outinstelling configureert:<ul><li>Als de waarde te laag is, kunnen gebruikers de standaardinhoud het grootste deel van de tijd zien, hoewel de bezoeker als deelnemer aan de activiteit kon worden geteld.</li><li>Als de waarde te hoog is, kunnen bezoekers lege gebieden op uw webpagina of lege pagina&#39;s zien als u de hoofdtekst langere tijd verbergt.</li></ul>Om een beter inzicht in mbox reactietijden te krijgen, bekijk het lusje van het Netwerk in de Hulpmiddelen van de Ontwikkelaar van uw browser. U kunt ook controlehulpmiddelen voor webprestaties van derden gebruiken, zoals Catchpoint.<br>**Opmerking**: De instelling [bezoekerApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) zorgt ervoor dat [!DNL Target] niet te lang op de reactie van de bezoeker-API wordt gewacht. Deze instelling en de instelling Time-out voor at.js die hier wordt beschreven, zijn niet van invloed op elkaar.|
 |Profiellevensduur|Deze instelling bepaalt hoe lang bezoekersprofielen worden opgeslagen. Profielen worden standaard twee weken opgeslagen. Dit kan tot 90 dagen worden verhoogd.<br>Als u de instelling voor de levensduur van het profiel wilt wijzigen, neemt u contact op met de [klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html).|
@@ -184,7 +184,6 @@ Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Lanc
 ```
 <!doctype html> 
 <html> 
- 
 <head> 
     <meta charset="utf-8"> 
     <title>Title of the Page</title> 
@@ -227,12 +226,10 @@ Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Lanc
     <!--Target's JavaScript SDK, at.js--> 
     <script src="at.js"></script> 
     <!--/at.js--> 
-</head> 
- 
+</head>
 <body> 
     The default content of the page 
 </body> 
- 
 </html>
 ```
 
