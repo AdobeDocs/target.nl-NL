@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 0%
@@ -147,9 +147,9 @@ Versie 58 en hoger van Mbox.js voert niet-JavaScript inhoud voor globale mbox on
 
 De volgende wijzigingen zijn aangebracht in deze versie:
 
-* Auto-created global mbox response for Target Standard gebruikt document.write() niet meer of maakt een <div> element.
+* Auto-created global mbox response for Target Standard gebruikt document.write() niet meer of maakt een `<div>` element.
 
-   Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item in het dialoogvenster <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> van de pagina. Sterke QA wordt geadviseerd wanneer het bevorderen aan deze nieuwe versie.
+   Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item op de pagina moet zijn, verwijderd. `<head>` Sterke QA wordt geadviseerd wanneer het bevorderen aan deze nieuwe versie.
 
    Deze verandering zou veranderingen in gedrag kunnen veroorzaken wanneer het leveren van sommige aanbiedingstypes. Hieronder volgen de specifieke omstandigheden die in overweging moeten worden genomen:
 
@@ -227,7 +227,7 @@ Hiermee wijzigt u versie 53 met IE-oplossingen.
 
 **Releasedatum:** 30 september 2014
 
-Hiermee wijzigt u de globale mbox-implementatie in AJAX van document.write. Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item in de pagina moet zijn, verwijderd <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> sectie. Deze versie is alleen beschikbaar via de API. Clients kunnen het bestand downloaden en dit bestand mbox.js gebruiken. Sommige sites ervaren inhoud die met deze implementatie flikkert. Controleer daarom de integratie op uw site.
+Hiermee wijzigt u de globale mbox-implementatie in AJAX van document.write. Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item in de `<head>` sectie van de pagina moet zijn, verwijderd. Deze versie is alleen beschikbaar via de API. Clients kunnen het bestand downloaden en dit bestand mbox.js gebruiken. Sommige sites ervaren inhoud die met deze implementatie flikkert. Controleer daarom de integratie op uw site.
 
 ## mbox versie 53
 
