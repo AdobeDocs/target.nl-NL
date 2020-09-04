@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 0%
@@ -159,10 +159,10 @@ ht-degree: 0%
       + [Veelgestelde vragen over het doel voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Locatieservice gebruiken](/help/c-target-mobile-app/use-location-service.md)
    + Serverzijde: Doel implementeren {#server-side}
+      + [Serverzijde: Implementatie van doeloverzicht](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Opmerkingen bij de release - Doelserver-side API&#39;s](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Opmerkingen bij de release - Doel Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
-      + [Serverzijde: Implementatie van doeloverzicht](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Overgang van verouderde API&#39;s van Doel naar I/O van Adobe](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-mail: Doel implementeren {#implement-email}
       + [E-mail: Implementatie van doeloverzicht](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
