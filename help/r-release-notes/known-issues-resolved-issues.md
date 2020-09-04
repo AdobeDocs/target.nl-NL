@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3629'
+source-wordcount: '3676'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Dit probleem heeft alleen betrekking op [!DNL Target] rapportage. Dit is geen kw
 ### Paginalevering {#page-delivery}
 
 Als u een sjabloonregel toevoegt, zoals de URL (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), worden extra spaties aan uw regels toegevoegd. Dit is een cosmetische kwestie en heeft geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
+
+### Kwaliteit van voorbeeldkoppelingen
+
+De QA-voorbeeldkoppelingen voor activiteit voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Het opnieuw proberen van de voorvertoningskoppelingen zou moeten werken. Opgeslagen activiteiten archiveren die niet meer actief worden gebruikt om te voorkomen dat dit probleem zich blijft voordoen. (TNT-37294)
 
 ### QA-modus voor Recommendations-activiteiten
 
