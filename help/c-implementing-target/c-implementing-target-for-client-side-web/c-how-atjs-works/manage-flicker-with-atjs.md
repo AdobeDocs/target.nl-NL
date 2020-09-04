@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Er wordt geflikkerd als de standaardinhoud tijdelijk aan bezoekers wordt weergeg
 
 ## Een automatisch gemaakte globale mbox gebruiken {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Als u de instelling [Automatisch globale mazelbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) maken inschakelt bij het configureren van at.js, wordt tijdens het laden van de pagina met .js de flikkering beheerd door de instelling voor dekking te wijzigen. Wanneer at.js laadt, wijzigt dit de dekkingsinstelling van het gereedschap <body> element aan &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
+Als u de instelling [Automatisch globale mazelbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) maken inschakelt bij het configureren van at.js, wordt tijdens het laden van de pagina met .js de flikkering beheerd door de instelling voor dekking te wijzigen. Wanneer at.js wordt geladen, wordt de dekkingsinstelling van het `<body>` element gewijzigd in &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
 
 Als u de instelling inschakelt tijdens het configureren van at.js, stelt at.js de dekking van de HTML BODY-stijl in op 0. Nadat een reactie van Doel is ontvangen, stelt at.js de dekking van het HTML-BODY terug naar 1.
 
@@ -50,7 +50,7 @@ U kunt flikkering voorkomen door een vooraf verborgen fragment te gebruiken dat 
 
 at.js kan asynchroon worden geladen, direct ingesloten op de pagina of via een tagbeheer (Adobe Launch, Dynamic Tag Manager (DTM), enz.).
 
-Als at.js op de pagina is ingesloten, moet het fragment worden toegevoegd voordat u at.js laadt. Als u at.js laadt via een tagmanager die ook asynchroon wordt geladen, moet u het fragment toevoegen voordat u het tagbeheer laadt. Als tagbeheer synchroon wordt geladen, wordt het script mogelijk vóór at.js opgenomen in de tagmanager.
+Als at.js op de pagina is ingesloten, moet het fragment worden toegevoegd voordat u at.js laadt. Als u at.js laadt via een tagmanager die ook asynchroon wordt geladen, moet u het fragment toevoegen voordat u het tagbeheer laadt. Als de tagmanager synchroon wordt geladen, kan het script vóór at.js worden opgenomen in de tagmanager.
 
 Het vooraf verborgen codefragment ziet er als volgt uit:
 
