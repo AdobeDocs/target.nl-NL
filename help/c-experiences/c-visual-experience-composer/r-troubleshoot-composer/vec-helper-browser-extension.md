@@ -5,9 +5,9 @@ title: Helperextensie Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 Met de [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome kunt u websites op betrouwbare wijze in de VEC laden, zodat u snel websites kunt ontwerpen en kwaliteitscontrole kunt gebruiken.
 
-Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend:
+>[!NOTE]
+>
+>De browser VEC Helper is een Chrome-extensie. Deze extensie is niet nodig wanneer u Mozilla Firefox gebruikt.
+
+## Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 
 * De website heeft een strikt beveiligingsbeleid.
 * De website bevindt zich in een iframe.
@@ -27,7 +31,7 @@ Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 
 Met de VEC Helper-browserextensie voor Chrome worden de problemen opgelost die door klanten worden veroorzaakt en die nu afhankelijk zijn van de [!DNL Target] Enhanced Experience Composer [](/help/administrating-target/visual-experience-composer-set-up.md#eec) of extensies van derden, zoals Request.
 
-Voordelen van het gebruik van de extensie VEC Helper:
+## Voordelen van het gebruik van de extensie VEC Helper
 
 * Alle iFrame-opbouwheaders, zoals X-Frame-Options en Content-Security-Policy, worden impliciet verwijderd van de website. Het is niet langer nodig om hiervoor ingewikkelde voorschriften in te voeren.
 * Als een webpagina nog niet de JavaScript-bibliotheek [!DNL Target] at.js bevat, kunt u de extensie gebruiken om de bibliotheek te injecteren zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
