@@ -5,7 +5,7 @@ title: Een Recommendations-activiteit maken
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -84,8 +84,8 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
       Er worden enkele criteria verstrekt [!DNL Recommendations]. U en uw team kunnen ook uw eigen aangepaste criteria maken.
 
-   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Zie [Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)maken voor meer informatie over het maken van nieuwe criteria.
-   * U kunt criteria ook in reeksen groeperen. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Zie [Criteria-reeksen](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) maken voor meer informatie.
+   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Zie [Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md)maken voor meer informatie over het maken van nieuwe criteria.
+   * U kunt criteria ook in reeksen groeperen. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Zie [Criteria-reeks](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) maken voor meer informatie.
 
 1. Klik op **[!UICONTROL Next]**.
 1. Selecteer een [ontwerp](/help/c-recommendations/c-design-overview/design-overview.md).
