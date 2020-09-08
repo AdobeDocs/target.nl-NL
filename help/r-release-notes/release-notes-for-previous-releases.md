@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '29049'
 ht-degree: 0%
@@ -1823,7 +1823,7 @@ Deze [!DNL Target] release richt zich op verbeteringen op het gebied van bruikba
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ). (TNT-26144) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Toegevoegde <span class="codeph"> veiligeAlleen- </span> instelling die aangeeft of <span class="codeph"> at.js alleen HTTPS </span> mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en die via <span class="codeph"> targetGlobalSettings kan worden overschreven </span>. (TNT-26183) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() voor meer informatie </a>. </p> </li> 
-      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Oudere browserondersteuning </span> is beschikbaar in <span class="codeph"> versie 0.js </span> versie 0.9.3 en lager. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
+      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Oudere browserondersteuning </span> is beschikbaar in <span class="codeph"> versie 0.js </span> versie 0.9.3 en eerder. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
      </ul> </p> <p>Voor gedetailleerde informatie over de veranderingen in elke versie van <span class="codeph"> at.js </span>, zie <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> bij.js de Details van de Versie </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1941,7 +1941,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Criteria ingesteld op volgorde </td> 
-   <td colname="col2"> <p>Gebruik in één ervaring maximaal vijf vooraf gedefinieerde criteria voor meer controle over de aanbevelingen die aan bezoekers worden voorgelegd. </p> <p>Zie <a href="../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local"> Criteria-reeksen maken voor meer informatie </a>. </p> </td> 
+   <td colname="col2"> <p>Gebruik in één ervaring maximaal vijf vooraf gedefinieerde criteria voor meer controle over de aanbevelingen die aan bezoekers worden voorgelegd. </p> <p>Zie <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> Criteria-reeksen maken voor meer informatie </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Externe aanbiedingen invoegen </td> 
