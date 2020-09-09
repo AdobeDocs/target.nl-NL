@@ -5,9 +5,9 @@ title: Criteria-reeksen maken
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
    Samen, worden de industrie verticale en paginatypes gebruikt om uw bewaarde opeenvolging van criteria te categoriseren, die het gemakkelijker maken om opeenvolgingen voor andere [!UICONTROL Recommendations] activiteiten opnieuw te gebruiken.
 
-## Criteria-reeksen maken
+## Reeks maken {#sequence}
 
 De volgordevolgorde bepaalt de volgorde waarin een ontwerp wordt gevuld. Als Criteria 1 niet genoeg aanbevelingen heeft om uw ontwerp te vullen, zullen de resterende groeven met Criteria 2 worden gevuld, etc.
 
@@ -84,11 +84,27 @@ De volgordevolgorde bepaalt de volgorde waarin een ontwerp wordt gevuld. Als Cri
 
 1. Selecteer een criterium op het [!UICONTROL Select Criteria] scherm.
 
+   U kunt het vakje van het Onderzoek en de filterdrop-down gebruiken om de gewenste criteria te vinden.
+
    ![Criteria selecteren](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. Klik op **[!UICONTROL Add]**.
 
-1. Voeg criteria toe aan uw reeks. U kunt maximaal vijf criteria toevoegen aan een reeks.
+1. (Optioneel) Sleep de **[!UICONTROL Limit the number of items returned]** schakeloptie naar de positie &quot;Aan&quot; en geef het aantal items op (tussen 1 en 50).
+
+   ![Het aantal geretourneerde items beperken](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   Houd rekening met de volgende gebruiksgevallen om u te helpen de waarde van de [!UICONTROL Limit the number of items returned] optie te begrijpen:
+
+   * **Hoofdlettergebruik 1**: U wilt een combinatie van verschillende soorten punten in één enkele raadsdienblad hebben. U wilt bijvoorbeeld een combinatie van bovenkleding (jassen) en toppen (overhemden, T-shirts) weergeven. Om dit te bereiken, gebruik een Inzameling voor de activiteit die alle potentiële producttypes omvat u in om het even welke groeven in uw ontwerp wilt. Stel vervolgens de eerste criteria in met een statisch filter dat de criteria beperkt tot het opnemen van alleen bovenkleding, en stel de tweede criteria in met een statisch filter dat de criteria beperkt tot alleen bovenkanten. Ten slotte kunt u beide criteria toevoegen aan een reeks criteria en de eerste criteria beperken tot twee sleuven.
+
+      De aanbevolen lade kan er op uw site als volgt uitzien:
+
+      ![Aanbevolen productvak](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **Hoofdlettergebruik 2**: U wilt een combinatie van zowel alternatieve items als aanvullende items. Stel één criterium in om een weergegeven/weergegeven algoritme te gebruiken en gebruik een dynamisch filter dat de aanbevolen items beperkt tot de categorie van het huidige item. Stel de tweede criteria in om een weergegeven/gekocht algoritme te gebruiken en gebruik een dynamisch filter dat alleen aanbevolen items bevat die niet overeenkomen met de categorie van het huidige item. Ten slotte kunt u beide criteria toevoegen aan een reeks en de eerste criteria beperken tot twee sleuven.
+
+1. Voeg aanvullende criteria aan uw reeks toe. U kunt maximaal vijf criteria toevoegen aan een reeks.
 
 ## Back-upinhoud opgeven
 
@@ -115,8 +131,6 @@ Wanneer u een reeks criteria maakt, worden back-upaanbevelingen en renderinstell
 1. Klik op **[!UICONTROL Save]**.
 
    De opeenvolging van criteria zal in de lijst van Criteria verschijnen.
-
-   ![](assets/CriteriaSequenceCard.png)
 
    Zie [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)voor meer informatie over de opties van de aanbevolen logica.
 
