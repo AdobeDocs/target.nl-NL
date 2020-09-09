@@ -5,7 +5,7 @@ title: Recommendations Classic versus Recommendations-activiteiten in Target Pre
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Zie [Recommendations als een voorstel](/help/c-recommendations/recommendations-a
 
 De criteria worden pre-gevormd en gesorteerd door de industrie verticals, paginatypen, en implementatie. U kunt bijvoorbeeld zoeken naar de criteria die van toepassing zijn op de verticale handelsversie, voor gebruik op een productpagina, waarbij producten uit een bepaalde categorie (zoals gedefinieerd door de `entity.categoryID` parameter) worden weergegeven.
 
-Zie [Criteria voor meer informatie over het gebruik en het maken van criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Zie [Criteria voor meer informatie over het gebruik en het maken van criteria](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Workflow {#section_76B4A26297BF422382DE2C79A2713D3C}
 
