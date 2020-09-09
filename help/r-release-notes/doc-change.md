@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 september | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de release van Target Standard/Premium 20.9.2 met de volgende nieuwe functie: De aanbevelingen van de controle groeven binnen criteria opeenvolgingen. |
 | 9 september | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Toegevoegde JavaScript-code voor gebruik met at.js 2.*x*. |
 | 3 september | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | De sectie &quot;De extensie van de VEC Helper-browser opvragen en installeren&quot; is bijgewerkt met informatie over de naam en het domein van de cookie. |
 |  | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Bijgewerkt aan &quot;Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite voor de handhaving van cookies de VEC en EEC?&quot; met informatie over de naam en het domein van de cookie. |
