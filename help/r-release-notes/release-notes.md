@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,12 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
+
+## Target Standard/Premium 20.8.2 (10 september 2020)
+
+| Functie | Details |
+| --- | --- |
+| De aanbevelingen van de controle groeven binnen de opeenvolgingen van criteria | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br>Zie [Criteria maken voor meer informatie](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
 
 ## Target Standard/Premium 20.8.1 (2 september 2020)
 
