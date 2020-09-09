@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Een aanbeveling bepaalt hoe een product aan een bezoeker wordt voorgesteld, afha
 | Verhoog de tijd die bezoekers besteden aan uw mediasite door media-inhoud aan te bevelen die lijkt op wat ze bekijken. | Maak een aanbeveling die andere video&#39;s voorstelt. Gebruik hiervoor de criteria &quot;Personen die dit hebben bekeken&quot;. |
 | Stel dat klanten die bij je bank informatie over spaarplannen hebben bekeken, ook informatie over IRA-rekeningen lezen. | Andere producten tonen die mensen hebben gekocht na het bekijken van één product zonder het eerste product in de aanbevelingen te tonen, met de criteria &quot;mensen die dit ook hebben bekeken&quot;. |
 
-Zie [!DNL Recommendations] Criteria voor meer informatie over deze en andere [criteria](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Zie [!DNL Recommendations] Criteria voor meer informatie over deze en andere [criteria](../c-recommendations/c-algorithms/algorithms.md).
 
 ## Voorwaarden
 
