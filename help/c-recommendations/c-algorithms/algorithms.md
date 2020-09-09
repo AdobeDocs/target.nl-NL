@@ -5,15 +5,15 @@ title: Criteria in Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1598'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Criteria{#criteria}
+# ![PREMIUM](/help/assets/premium.png) Criteria
 
 Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
 
@@ -107,10 +107,10 @@ Klik op het **[!UICONTROL Algorithm Info]** tabblad om algemene informatie weer 
 
 ![Tabblad Algorituurinfo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Klik op het **[!UICONTROL Algorithm Usage]** tabblad om een lijst weer te geven met activiteiten die naar de geselecteerde criteria verwijzen. De kaart vermeldt actieve en inactieve activiteiten. Klik op de vervolgkeuzelijsten Live-activiteiten of Inactiviteit om de volledige lijst met activiteiten weer te geven die naar die criteria verwijzen. U kunt op de koppeling naar de activiteit klikken om de activiteit voor bewerken te openen.
+Klik op het **[!UICONTROL Algorithm Usage]** tabblad om een lijst weer te geven met activiteiten die naar de geselecteerde criteria verwijzen. De kaart maakt een lijst van actieve, inactieve, en ontwerp activiteiten. Klik op de vervolgkeuzelijsten Live-activiteiten/Inactieve activiteiten/Conceptactiviteiten om de volledige lijst met activiteiten te bekijken waarin naar die criteria wordt verwezen. U kunt op de koppeling naar de activiteit klikken om de activiteit voor bewerken te openen.
 
 ![Het tabblad Algoritmegebruik](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->De [!UICONTROL Algorithm Usage] functie wordt momenteel alleen ondersteund voor Recommendations-activiteiten. Deze eigenschap wordt momenteel niet gesteund voor A/B Test en Ervaring gerichte (XT) activiteiten die [aanbevelingen als aanbieding](/help/c-recommendations/recommendations-as-an-offer.md)omvatten.
+>De [!UICONTROL Algorithm Usage] functie wordt momenteel alleen ondersteund voor Recommendations-activiteiten. Deze functie wordt momenteel niet ondersteund voor activiteiten van het type A/B Test, Auto-Allocate, Auto-Target en Experience Targeting (XT) die [aanbevelingen als aanbieding](/help/c-recommendations/recommendations-as-an-offer.md)bevatten.
