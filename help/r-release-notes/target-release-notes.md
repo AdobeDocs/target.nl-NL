@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 31 augustus 2020**
+**Laatst bijgewerkt: 9 september 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -38,6 +38,12 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
    >
 * **Doelaankondigingen**: Zie de de aankondigingspagina van het Doel voor informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van het Break van de Koffie van het Doel. Voor meer informatie, zie [de aankondigingen](/help/r-release-notes/target-announcements.md)van het Doel.
 
+
+## Target Standard/Premium 20.8.2 (10 september 2020)
+
+| Functie | Details |
+| --- | --- |
+| De aanbevelingen van de controle groeven binnen de opeenvolgingen van criteria | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br>Zie [Criteria maken voor meer informatie](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
 
 ## Target Standard/Premium 20.8.1 (2 september 2020)
 
