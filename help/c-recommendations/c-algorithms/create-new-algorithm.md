@@ -4,9 +4,9 @@ title: Criteria maken
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3487'
 ht-degree: 0%
 
 ---
@@ -14,31 +14,37 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) : criteria maken{#create-criteria}
 
-Criteria bepalen de inhoud van je Recommendations-activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
+Criteria bepalen de inhoud van uw [!UICONTROL Recommendations] activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
 
-## Criteria maken {#task_8A9CB465F28D44899F69F38AD27352FE}
+## Nieuwe criteria maken
 
-Criteria bepalen de inhoud van uw [!DNL Recommendations] activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
+In de volgende secties wordt uitgelegd hoe u nieuwe criteria kunt maken.
+
+### Het scherm Nieuwe criteria maken openen
 
 Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bereiken. Sommige schermopties variëren afhankelijk van de manier waarop u het scherm bereikt.
 
-* Wanneer u een [!DNL Recommendations] activiteit creeert, klik **[!UICONTROL Create New]** op het [!UICONTROL Select Criteria] scherm. U kunt de nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] activiteiten.
-* Als u een [!DNL Recommendations] activiteit bewerkt, klikt u in een [!UICONTROL Recommendations Location] vak op de pagina en selecteert u **[!UICONTROL Change Criteria]**. Klik op het [!UICONTROL Select Criteria] scherm **[!UICONTROL Create New]**. U kunt de nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] activiteiten.
-* Klik in het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek op **[!UICONTROL Create Criteria]**. De criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!DNL Recommendations] activiteiten.
+* Klik in het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. De criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!DNL Recommendations] activiteiten.
+* Wanneer u een [!DNL Recommendations] activiteit creeert, klik **[!UICONTROL Create Criteria]** op het [!UICONTROL Select Criteria] scherm. U kunt de nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] activiteiten.
+* Als u een [!DNL Recommendations] activiteit bewerkt, klikt u in een [!UICONTROL Recommendations Location] vak op de pagina en selecteert u **[!UICONTROL Change Criteria]**. Klik op het [!UICONTROL Select Criteria] scherm **[!UICONTROL Create Criteria]**. U kunt de nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] activiteiten.
 
-1. Klik **[!UICONTROL Create Criteria]** of **[!UICONTROL Create New]**.
+In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Criteria] scherm opent met de eerste methode: het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek.
 
-   ![Knop Criteria maken](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Selecteer **[!UICONTROL Create Criteria]**.
+1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
    ![Nieuwe criteria maken](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### De sectie Basisinformatie invullen
 
 1. Typ een **[!UICONTROL Criteria Name]**.
 
    Dit is de &quot;interne&quot;naam die wordt gebruikt om de criteria te beschrijven. U kunt bijvoorbeeld uw criteria &quot;Hoogste margeproducten&quot; noemen, maar u wilt niet dat die titel openbaar wordt weergegeven. Zie de volgende stap om de naar buiten gerichte titel in te stellen.
 
-1. Typ een openbare verwijzing die op de pagina wordt weergegeven voor Recommendations die aan deze criteria voldoen. **[!UICONTROL Display Title]**
+   ![Sectie Basisinformatie](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+
+1. Typ een openbare verwijzing die op de pagina wordt weergegeven voor alle aanbevelingen die gebruikmaken van deze criteria. **[!UICONTROL Display Title]**
 
    U kunt bijvoorbeeld &quot;Personen die dit hebben bekeken, hebben dit weergegeven&quot; of &quot;Gelijksoortige producten&quot; weergeven wanneer u deze criteria gebruikt om aanbevelingen weer te geven.
 
@@ -72,7 +78,11 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
    >
    >Als u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** selecteert, kunt u regels [voor gelijkenis van de](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)inhoud instellen.
 
+### Opties voor gegevensbronnen opgeven
+
 1. Plaats **[!UICONTROL Data Range]** om de tijdwaaier van beschikbare historische gegevens van het gebruikersgedrag te bepalen wanneer het bepalen van welke te tonen aanbevelingen.
+
+   ![Schuifregelaar voor gegevensbereik](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    Als uw site veel verkeer heeft en het gedrag vaak verandert, kiest u een korter gegevensvenster. Een korter venster laat toe om ontvankelijker aan veranderingen in de markt en in uw zaken [!DNL Recommendations] te zijn. Een korter venster betekent bijvoorbeeld dat wijzigingen in het gedrag van de bezoeker [!DNL Recommendations] zullen worden gedetecteerd wanneer uw bezoekers seizoensgebonden winkelen beginnen, zoals &#39;back-to-school&#39;-winkelen of &#39;Kerstmis&#39;, en dat ze artikelen zullen aanbevelen die geschikt zijn voor die winkelseizoenen.
 
@@ -86,45 +96,63 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
    * Eén maand
    * Twee maanden
 
-1. Selecteer het gewenste **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] of [!UICONTROL Analytics].
+1. (Voorwaardelijk) Selecteer het gewenste **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] of [!UICONTROL Analytics].
+
+   ![Sectie Gedragsgegevensbron](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    Als u kiest, selecteert u [!UICONTROL Analytics]de gewenste rapportsuite.
 
-   Zie Adobe Analytics [gebruiken met Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)voor meer informatie.
+   Zie [Adobe Analytics](#analytics) hieronder en [Adobe Analytics gebruiken met Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)voor meer informatie.
 
-1. Stel uw **[!UICONTROL Content]** regels in.
+### Inhoud-instellingen opgeven
 
-   De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen.
+Stel uw [!UICONTROL Content] regels in.
 
-   Selecteer de juiste schakelopties:
+De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen.
 
-   * [!UICONTROL Enable Partial Design Rendering]
-   * [!UICONTROL Show Backup Recommendations]
-   * [!UICONTROL Recommend Previously Purchased Items]
+![Sectie Inhoud](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als u objecten verkoopt die mensen weer kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet u deze optie uitschakelen.
+1. (Optioneel) Sleep de **[!UICONTROL Partial Design Rendering]** schakeloptie naar de positie &quot;aan&quot;.
 
-1. Stel uw **[!UICONTROL Inclusion rules]** waarde in.
+   Er worden zoveel mogelijk sleuven ingevuld, maar in de ontwerpsjabloon kan lege ruimte voor de resterende sleuven zijn opgenomen.
+
+1. (Optioneel) Sleep de **[!UICONTROL Show Backup Recommendations]** schakeloptie naar de positie &quot;aan&quot;.
+
+   Vul eventueel resterende lege sleuven in het ontwerp met een willekeurige selectie van de meest bekeken producten van de hele site.
+
+   Zie [Een back-upaanbeveling](/help/c-recommendations/c-algorithms/backup-recs.md)gebruiken voor meer informatie.
+
+1. (Voorwaardelijk) Als u **[!UICONTROL Show Backup Recommendations]** in de vorige stap selecteerde, kunt u toelaten **[!UICONTROL Apply inclusion rules to backup recommendations]**.
 
    In de insluitingsregels wordt bepaald welke items in uw aanbevelingen worden opgenomen. Welke opties beschikbaar zijn, is afhankelijk van de verticale situatie in uw branche.
 
    Zie [Inclusieregels](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)voor meer informatie.
 
-1. Configureren **[!UICONTROL Attribute weighting]**.
+1. (Optioneel) Sleep de **[!UICONTROL Recommend Previously Purchased Items]** schakeloptie naar de positie &quot;aan&quot;.
 
-   U kunt meerdere regels toevoegen om het algoritme te verschuiven op basis van een belangrijke beschrijving of metagegevens over de inhoudscatalogus. U kunt bijvoorbeeld een hogere wegingsfactor toepassen op onverkochte objecten, zodat deze vaker in de aanbeveling voorkomen.
+   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als u objecten verkoopt die mensen weer kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet u deze optie uitschakelen.
 
-   Zie [weging](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)van kenmerken.
+### Opnameregels opgeven
 
-1. Klik wanneer u klaar bent op **[!UICONTROL Save]**.
+![Opnameregels](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   Als u een nieuwe [!UICONTROL Recommendations] activiteit creeert of een bestaande uitgeeft, wordt de **[!UICONTROL Save criteria for later]** controledoos door gebrek geselecteerd. Als u de criteria niet wilt gebruiken in andere activiteiten, schakelt u het selectievakje uit voordat u het bestand opslaat.
+Zie [Dynamische en statische inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)gebruiken voor meer informatie.
 
-### Adobe Analytics
+### Kenmerkweging opgeven
+
+U kunt meerdere regels toevoegen om het algoritme te verschuiven op basis van een belangrijke beschrijving of metagegevens over de inhoudscatalogus. U kunt bijvoorbeeld een hogere wegingsfactor toepassen op onverkochte objecten, zodat deze vaker in de aanbeveling voorkomen.
+
+Zie [weging](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)van kenmerken.
+
+Klik wanneer u klaar bent op **[!UICONTROL Save]**.
+
+Als u een nieuwe [!UICONTROL Recommendations] activiteit creeert of een bestaande uitgeeft, wordt de **[!UICONTROL Save criteria for later]** controledoos door gebrek geselecteerd. Als u de criteria niet wilt gebruiken in andere activiteiten, schakelt u het selectievakje uit voordat u het bestand opslaat.
+
+### Adobe Analytics {#analytics}
 
 Als de criteria als gedragsgegevensbron gebruiken, zodra gecreeerd, hangt de tijd voor criteria beschikbaarheid van af of de geselecteerde rapportreeks en het raadplegingsvenster voor een andere criteria is gebruikt. [!DNL Adobe Analytics]
 
-* **Eenmalige installatie** van rapportsuite: De eerste keer dat een rapportsuite wordt gebruikt met een bepaald terugzoekvenster voor gegevensbereik, [!DNL Target Recommendations] kan het twee tot zeven dagen duren voordat de gedragsgegevens voor de geselecteerde rapportsuite volledig zijn gedownload van [!DNL Analytics]. Deze tijdlijn is afhankelijk van het laden van het [!DNL Analytics] systeem.
+* **Eenmalige installatie** van rapportsuite: De eerste keer dat een rapportsuite wordt gebruikt met een bepaald terugzoekvenster voor gegevensbereik, [!DNL Target Recommendations] kan het twee tot zeven dagen duren voordat de gedragsgegevens voor de geselecteerde rapportsuite volledig zijn gedownload van [!DNL Analytics]. Dit tijdframe is afhankelijk van de [!DNL Analytics] systeembelasting.
 * **Nieuwe of bewerkte criteria met behulp van een reeds beschikbare rapportsuite**: Als bij het maken van nieuwe criteria of het bewerken van bestaande criteria de geselecteerde rapportsuite al is gebruikt met [!DNL Target Recommendations], met een gegevensbereik dat gelijk is aan of kleiner is dan het geselecteerde gegevensbereik, zijn de gegevens direct beschikbaar en is een eenmalige installatie niet vereist. In dit geval, of als de montages van een algoritme terwijl het wijzigen van de geselecteerde rapportreeks of gegevenswaaier worden uitgegeven, loopt het algoritme of herstelt binnen 12 uren.
 * **Doorlopende algoritme wordt uitgevoerd**: Gegevensstromen van [!DNL Analytics] naar [!DNL Target Recommendations] dagelijks. Bijvoorbeeld, voor de [!UICONTROL Viewed Affinity] aanbeveling, wanneer een gebruiker een product bekijkt, wordt een product-mening het volgen vraag overgegaan in dicht [!DNL Analytics] bij real time. De [!DNL Analytics] gegevens worden [!DNL Target] vroeg de volgende dag geduwd en het algoritme in minder dan 12 uren in werking [!DNL Target] gesteld.
 
