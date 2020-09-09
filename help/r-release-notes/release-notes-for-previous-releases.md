@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '29049'
+source-wordcount: '29043'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ De volgende verbeteringen en correcties zijn aangebracht in de bibliotheken [!DN
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
+| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek het ontbreken leidde. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
 | om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` instelling is overschreven via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35065)</li><li>Probleem verholpen bij het gebruik van de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie, [!DNL Launch] waarmee de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep werd vertraagd. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
 
 ### Wijzigingen in de profielbatchstatus-API v2 (14 mei 2020)
@@ -758,7 +758,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>Een lijst met activiteiten weergeven die verwijzen naar een geselecteerde criteria op de bijbehorende Criteria-kaart. De kaart vermeldt actieve en inactieve activiteiten. (TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>In het activiteitendiagram worden nu Criteria-kaarten weergegeven wanneer de resultaten gereed zijn om te worden weergegeven. (TGT-27673) </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>In het activiteitendiagram worden nu Criteria-kaarten weergegeven wanneer de resultaten gereed zijn om te worden weergegeven. (TGT-27673) </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1055,7 +1055,7 @@ Deze release bevat de volgende functies en verbeteringen:
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Aangepaste criteria kunnen nu worden geconfigureerd, net als andere criteria in aanbevelingen. </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>U kunt inzamelingen, uitsluitingen, en opneming (met inbegrip van de speciale regels voor Prijs en Voorraad) op de zelfde manier gebruiken zoals om het even welke andere criteria. Verzamelingen en uitsluitingen werden al ondersteund. In deze release worden invoegingen toegevoegd. </p> </li> 
-     </ul> </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria voor meer informatie </a>. </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria voor meer informatie </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: Opnameregels, verzamelingen en uitsluitingen voor recent bekeken criteria </p> </td> 
@@ -1063,7 +1063,7 @@ Deze release bevat de volgende functies en verbeteringen:
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>De onlangs bekeken Criteria zijn nu configureerbaar, zoals andere criteria in aanbevelingen. </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>U kunt inzamelingen, uitsluitingen, en opneming (met inbegrip van de speciale regels voor Prijs en Voorraad) op de zelfde manier gebruiken zoals om het even welke andere criteria. Verzamelingen en uitsluitingen werden al ondersteund. In deze release worden invoegingen toegevoegd. </p> </li> 
-     </ul> </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria voor meer informatie </a>. </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria voor meer informatie </a>. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Doelextensie voor starten van Adobe </p> </td> 
@@ -1823,7 +1823,7 @@ Deze [!DNL Target] release richt zich op verbeteringen op het gebied van bruikba
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ). (TNT-26144) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Toegevoegde <span class="codeph"> veiligeAlleen- </span> instelling die aangeeft of <span class="codeph"> at.js alleen HTTPS </span> mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en die via <span class="codeph"> targetGlobalSettings kan worden overschreven </span>. (TNT-26183) </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() voor meer informatie </a>. </p> </li> 
-      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Oudere browserondersteuning </span> is beschikbaar in <span class="codeph"> versie 0.js </span> versie 0.9.3 en eerder. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
+      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Oudere browserondersteuning </span> is beschikbaar in <span class="codeph"> versie 0.js </span> versie 0.9.3 en lager. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> in.js Configurations voor meer informatie </a>. </p> </li> 
      </ul> </p> <p>Voor gedetailleerde informatie over de veranderingen in elke versie van <span class="codeph"> at.js </span>, zie <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> bij.js de Details van de Versie </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -2623,7 +2623,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Exclusief aankopen in het verleden </p> </td> 
-   <td colname="col2"> <p>Eerder aangeschafte objecten worden nu automatisch uitgesloten van de aanbevelingen van een bezoeker. Deze optie kan voor om het even welke criteria worden onbruikbaar gemaakt. </p> <p>Deze optie is nu ingeschakeld voor alle criteria buiten de box, inclusief de criteria die werden gebruikt in activiteiten die vóór deze release werden uitgevoerd. Als u eerdere aankopen niet wilt uitsluiten, moet u deze activiteiten bewerken. </p> <p>Zie <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Insluitingsregels </a>. </p> </td> 
+   <td colname="col2"> <p>Eerder aangeschafte objecten worden nu automatisch uitgesloten van de aanbevelingen van een bezoeker. Deze optie kan voor om het even welke criteria worden onbruikbaar gemaakt. </p> <p>Deze optie is nu ingeschakeld voor alle criteria buiten de box, inclusief de criteria die werden gebruikt in activiteiten die vóór deze release werden uitgevoerd. Als u eerdere aankopen niet wilt uitsluiten, moet u deze activiteiten bewerken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Kenmerkweging </p> </td> 
@@ -2646,7 +2646,7 @@ Deze release bevat de volgende functies en verbeteringen:
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">Aangepaste kenmerken die overeenkomen met een opgegeven entiteit.id en items met vergelijkbare kenmerken gebruiken </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">Laatst weergegeven item met vergelijkbare kenmerken </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">Meest bekeken item met vergelijkbare kenmerken </li> 
-     </ul> </p> <p>Zie <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Insluitingsregels </a>. </p> </td> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nieuwe activiteitslijstfilters </td> 
@@ -2665,7 +2665,7 @@ Deze release bevat de volgende functies en verbeteringen:
       <li id="li_1B44AB35B045416B8D8B72C428750822">Meer inhoud als deze </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">Meer presentaties als deze </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">Meer producten als deze </li> 
-     </ul> </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </td> 
+     </ul> </p> <p>Zie <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verbetering: Verbeterde rapportdetails die worden weergegeven wanneer u Analytics als rapportbron gebruikt. </td> 
@@ -2998,7 +2998,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Classic-functionaliteit wordt nu ondersteund in Recommendations Premium </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
-      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Gedeeltelijke sjabloonrendering <p>Zie <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local"> Inhoud-instellingen </a>. </p> </li> 
+      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Gedeeltelijke sjabloonrendering <p>Zie <a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local"> Inhoud-instellingen </a>. </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> Geef back-upregels op volgens criteria </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> FTPS voor productfeeds ondersteunen</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Aangepaste algoritmen worden nu automatisch weergegeven als criteria</li> 
