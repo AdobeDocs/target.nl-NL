@@ -1,12 +1,13 @@
 ---
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;
 description: Criteria bepalen de inhoud van je Adobe Recommendations-activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
 title: Criteria maken
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
+source-git-commit: 250cf8be318cf67257b822b62dc81dfcce0fe88b
 workflow-type: tm+mt
-source-wordcount: '3487'
+source-wordcount: '3348'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
    ![Nieuwe criteria maken](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-### De sectie Basisinformatie invullen
+### De sectie Basisinformatie invullen {#info}
 
 1. Typ een **[!UICONTROL Criteria Name]**.
 
@@ -68,15 +69,15 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
 1. Selecteer een **[!UICONTROL Recommendation Key]**.
 
-   Voor meer informatie over het baseren van criteria op een sleutel, zie de aanbeveling [baseren op een aanbeveling sleutel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Voor meer informatie over het baseren van criteria op een sleutel, zie de aanbeveling [baseren op een aanbeveling sleutel](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 1. Selecteer de **[!UICONTROL Recommendation Logic]**.
 
-   Zie [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)voor meer informatie over de opties van de aanbevolen logica.
+   Zie [Criteria](../../c-recommendations/c-algorithms/algorithms.md)voor meer informatie over de opties van de aanbevolen logica.
 
    >[!NOTE]
    >
-   >Als u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** selecteert, kunt u regels [voor gelijkenis van de](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)inhoud instellen.
+   >Als u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** selecteert, kunt u regels [voor gelijkenis van de](#similarity)inhoud instellen.
 
 ### Opties voor gegevensbronnen opgeven
 
@@ -98,17 +99,25 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
 1. (Voorwaardelijk) Selecteer het gewenste **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] of [!UICONTROL Analytics].
 
+   >[!NOTE]
+   >
+   >De [!UICONTROL Behavioral Data Source] sectie wordt alleen weergegeven als uw implementatie [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt.
+
    ![Sectie Gedragsgegevensbron](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    Als u kiest, selecteert u [!UICONTROL Analytics]de gewenste rapportsuite.
 
-   Zie [Adobe Analytics](#analytics) hieronder en [Adobe Analytics gebruiken met Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)voor meer informatie.
+   Als de criteria als gedragsgegevensbron gebruiken, zodra gecreeerd, hangt de tijd voor criteria beschikbaarheid van af of de geselecteerde rapportreeks en het raadplegingsvenster voor een andere criteria, zoals hieronder verklaard is gebruikt: [!DNL Adobe Analytics]
 
-### Inhoud-instellingen opgeven
+   * **Eenmalige installatie** van rapportsuite: De eerste keer dat een rapportsuite wordt gebruikt met een bepaald terugzoekvenster voor gegevensbereik, [!DNL Target Recommendations] kan het twee tot zeven dagen duren voordat de gedragsgegevens voor de geselecteerde rapportsuite volledig zijn gedownload van [!DNL Analytics]. Dit tijdframe is afhankelijk van de [!DNL Analytics] systeembelasting.
+   * **Nieuwe of bewerkte criteria met behulp van een reeds beschikbare rapportsuite**: Als bij het maken van nieuwe criteria of het bewerken van bestaande criteria de geselecteerde rapportsuite al is gebruikt met [!DNL Target Recommendations], met een gegevensbereik dat gelijk is aan of kleiner is dan het geselecteerde gegevensbereik, zijn de gegevens direct beschikbaar en is een eenmalige installatie niet vereist. In dit geval, of als de montages van een algoritme terwijl het wijzigen van de geselecteerde rapportreeks of gegevenswaaier worden uitgegeven, loopt het algoritme of herstelt binnen 12 uren.
+   * **Doorlopende algoritme wordt uitgevoerd**: Gegevensstromen van [!DNL Analytics] naar [!DNL Target Recommendations] dagelijks. Bijvoorbeeld, voor de [!UICONTROL Viewed Affinity] aanbeveling, wanneer een gebruiker een product bekijkt, wordt een product-mening het volgen vraag overgegaan in dicht [!DNL Analytics] bij real time. De [!DNL Analytics] gegevens worden [!DNL Target] vroeg de volgende dag geduwd en het algoritme in minder dan 12 uren in werking [!DNL Target] gesteld.
 
-Stel uw [!UICONTROL Content] regels in.
+   Zie Adobe Analytics [gebruiken met Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)voor meer informatie.
 
-De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen.
+### Inhoud-instellingen opgeven {#content}
+
+De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Het is mogelijk dat Recommendations-criteria minder aanbevelingen opleveren dan uw ontwerp vraagt. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen.
 
 ![Sectie Inhoud](/help/c-recommendations/c-algorithms/assets/content.png)
 
@@ -126,35 +135,112 @@ De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten u
 
    In de insluitingsregels wordt bepaald welke items in uw aanbevelingen worden opgenomen. Welke opties beschikbaar zijn, is afhankelijk van de verticale situatie in uw branche.
 
-   Zie [Inclusieregels](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)voor meer informatie.
+   Zie [Opnameregels](#inclusion) hieronder opgeven voor meer informatie.
 
 1. (Optioneel) Sleep de **[!UICONTROL Recommend Previously Purchased Items]** schakeloptie naar de positie &quot;aan&quot;.
 
-   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als u objecten verkoopt die mensen weer kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet u deze optie uitschakelen.
+   Deze instelling is gebaseerd op de `productPurchasedId`sjabloon. Standaard wordt eerder aangeschafte items niet aanbevolen. In de meeste gevallen wilt u geen objecten promoten die een klant onlangs heeft aangeschaft. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als je objecten verkoopt die mensen herhaaldelijk kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet je deze optie inschakelen.
 
-### Opnameregels opgeven
+De volgende matrix toont het resultaat dat u zult waarnemen wanneer u de opties [!UICONTROL Partial Design Rendering] en [!UICONTROL Backup Recommendations] opties gebruikt:
+
+| Gedeeltelijke rendering van ontwerp | Backup Recommendations | Resultaat |
+|--- |--- |--- |
+| Uitgeschakeld | Uitgeschakeld | Als er minder aanbevelingen worden geretourneerd dan door het ontwerp wordt gevraagd, wordt het ontwerp van de aanbevelingen vervangen door de standaardinhoud en worden er geen aanbevelingen weergegeven. |
+| Ingeschakeld | Uitgeschakeld | Het ontwerp wordt teruggegeven, maar kan lege ruimte omvatten als minder aanbevelingen zijn teruggekeerd dan het ontwerp verzoekt. |
+| Ingeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in.<br>Als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp gedeeltelijk teruggegeven.<br>Als de criteria geen aanbevelingen terugkeren, en de integratieregels reserveaanbevelingen tot nul beperken, wordt het ontwerp vervangen met standaardinhoud. |
+| Uitgeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in.<br>Als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp vervangen door standaardinhoud en geen aanbevelingen worden getoond. |
+
+### Gelijksoortigheidsregels voor inhoud opgeven {#similarity}
+
+Gebruik [!UICONTROL Content Similarity] regels om aanbevelingen te doen op basis van item- of mediakenmerken.
+
+>[!NOTE]
+>
+>Als u **[!UICONTROL Items]**/ hebt geselecteerd **[!UICONTROL Media with Similar Attributes]** als uw [aanbevolen logica](#info), kunt u regels voor de gelijkenis van de inhoud instellen.
+
+De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Recommendations op basis van gelijkenis met inhoud vereist geen gegevens uit het verleden om sterke resultaten te bereiken.
+
+Het gebruik van gelijkenis in de inhoud om aanbevelingen te genereren is vooral effectief voor nieuwe items. Deze worden waarschijnlijk niet weergegeven in aanbevelingen met *Personen die dit hebben bekeken, Bekeken dat* en andere logica die is gebaseerd op gedrag in het verleden. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
+
+Wanneer u selecteert **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, hebt u de optie om regels tot stand te brengen om het belang van specifieke puntattributen in het bepalen van aanbevelingen te verhogen of te verminderen. Voor artikelen zoals boeken, zou u het belang van attributen zoals *genre*, *auteur*, *reeksen*, etc. kunnen willen verhogen, om gelijkaardige boeken aan te bevelen.
+
+![](assets/ContentSimilarity.png)
+
+Omdat bij gelijkenis met inhoud trefwoorden worden gebruikt om items te vergelijken, kunnen sommige kenmerken, zoals *bericht* of *beschrijving*, &#39;ruis&#39; in de vergelijking introduceren. U kunt regels maken om deze kenmerken te negeren.
+
+Standaard zijn alle kenmerken ingesteld op *Basislijn*. U hoeft geen regel te maken, tenzij u deze instelling wilt wijzigen.
+
+>[!NOTE]
+>
+>Het algoritme voor de gelijkenis van de inhoud kan gebruikmaken van willekeurige sampling bij het berekenen van gelijkenis tussen items. Hierdoor kunnen de overeenkomsten tussen items per algoritme verschillen.
+
+### Opnameregels opgeven {#inclusion}
 
 ![Opnameregels](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+
+Met behulp van verschillende opties kunt u de items beperken die in uw aanbevelingen worden weergegeven. U kunt inclusieregels gebruiken terwijl het creëren van criteria of bevorderingen.
+
+Opnameregels zijn facultatief; nochtans, geeft het plaatsen van deze details u meer controle over de punten die in uw aanbevelingen verschijnen. Elk detail dat u vormt vernauwt verder de vertoningscriteria.
+
+U kunt er bijvoorbeeld voor kiezen alleen vrouwenschoenen weer te geven met een voorraad van meer dan 50 en een prijs tussen 25 en 45 dollar. U kunt ook elk kenmerk van elkaar voorzien, zodat de items die voor uw bedrijf belangrijker zijn, meestal worden weergegeven.
+
+U kunt er ook voor kiezen om vacatures weer te geven voor bezoekers die uw site alleen vanuit bepaalde steden bezoeken en die de vereiste universitaire graden hebben.
+
+De opties voor de inclusieregel variëren per verticale branche. Standaard worden inclusieregels toegepast op back-upaanbevelingen.
+
+>[!IMPORTANT]
+>
+>U moet opnemingsregels voorzichtig gebruiken. Ze zijn bijvoorbeeld handig als uw organisatie regels heeft die vereisen dat één merk niet wordt aanbevolen terwijl een ander merk wordt weergegeven. Er zijn echter alternatieve kosten voor deze functie. U kunt mogelijk een percentage aan lift verliezen door bepaalde items te beperken zodat ze niet kunnen worden weergegeven wanneer ze normaal gesproken aan de hand van de activiteitscriteria worden weergegeven.
+
+De inclusieregels worden aangesloten bij EN. Aan alle regels moet worden voldaan om een punt in een aanbeveling te omvatten.
+
+Voer de volgende stappen uit om een eenvoudige regel voor insluiting te maken, zoals eerder vermeld, om alleen vrouwenschoenen weer te geven met een voorraad van meer dan 50 en een prijs tussen 25 en 45 dollar:
+
+1. Stel een prijsbereik in voor de producten die u wilt aanbevelen.
+1. Stel het minimale voorraadbedrag in voor de producten die u wilt aanbevelen.
+1. Vorm de aanbeveling om punten slechts te tonen wanneer zij aan bepaalde criteria voldoen.
+
+   ![](assets/Recs_InclusionRules.png)
+
+   U kunt opgeven dat items alleen worden opgenomen wanneer een van de kenmerken in de lijst voldoet aan een of meer opgegeven voorwaarden of niet overeenkomt.
+
+   De beschikbare beoordelaars zijn afhankelijk van de waarde die u kiest in de eerste vervolgkeuzelijst. U kunt meerdere items weergeven. Deze items worden geëvalueerd met OR.
+
+   De veelvoudige regels worden gecombineerd met EN.
+
+   >[!NOTE]
+   >
+   >Met deze optie beperkt u de items die in de aanbeveling worden weergegeven. Het heeft geen invloed op de pagina&#39;s waarop de aanbeveling wordt weergegeven. Als u wilt beperken waar de aanbeveling wordt weergegeven, selecteert u de pagina&#39;s in de ervaringscomposer.
 
 Zie [Dynamische en statische inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)gebruiken voor meer informatie.
 
 ### Kenmerkweging opgeven
 
-U kunt meerdere regels toevoegen om het algoritme te verschuiven op basis van een belangrijke beschrijving of metagegevens over de inhoudscatalogus. U kunt bijvoorbeeld een hogere wegingsfactor toepassen op onverkochte objecten, zodat deze vaker in de aanbeveling voorkomen.
+U kunt veelvoudige regels toevoegen om het algoritme &quot;te &quot;verschuiven&quot;dat op belangrijke beschrijving of meta-gegevens over de inhoudscatalogus wordt gebaseerd zodat bepaalde punten waarschijnlijker om worden getoond.
 
-Zie [weging](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)van kenmerken.
+U kunt bijvoorbeeld een hogere wegingsfactor toepassen op onverkochte objecten, zodat deze vaker in de aanbeveling voorkomen. Niet-verkochte objecten worden niet volledig uitgesloten, maar ze verschijnen minder vaak. Meerdere gewogen kenmerken kunnen op hetzelfde algoritme worden toegepast en de gewogen kenmerken kunnen in de aanbeveling op gesplitst verkeer worden getest.
+
+1. Kies een waarde.
+
+   De waarde bepaalt het type item dat vaker wordt weergegeven, op basis van een van de verschillende beschikbare criteria.
+
+1. Kies een evaluator.
+
+1. Typ het trefwoord om de regelkenmerken te voltooien.
+
+   De volledige regel kan bijvoorbeeld &#39;Categorie bevat schoenen voor subreeksen&#39; zijn.
+
+   ![](assets/Recs_AttributeWeighting.png)
+
+1. Selecteer de dikte die u aan de regel wilt toewijzen.
+
+   De opties variëren van 0 tot 100 in stappen van 25.
+
+1. Voeg desgewenst aanvullende regels toe.
 
 Klik wanneer u klaar bent op **[!UICONTROL Save]**.
 
 Als u een nieuwe [!UICONTROL Recommendations] activiteit creeert of een bestaande uitgeeft, wordt de **[!UICONTROL Save criteria for later]** controledoos door gebrek geselecteerd. Als u de criteria niet wilt gebruiken in andere activiteiten, schakelt u het selectievakje uit voordat u het bestand opslaat.
-
-### Adobe Analytics {#analytics}
-
-Als de criteria als gedragsgegevensbron gebruiken, zodra gecreeerd, hangt de tijd voor criteria beschikbaarheid van af of de geselecteerde rapportreeks en het raadplegingsvenster voor een andere criteria is gebruikt. [!DNL Adobe Analytics]
-
-* **Eenmalige installatie** van rapportsuite: De eerste keer dat een rapportsuite wordt gebruikt met een bepaald terugzoekvenster voor gegevensbereik, [!DNL Target Recommendations] kan het twee tot zeven dagen duren voordat de gedragsgegevens voor de geselecteerde rapportsuite volledig zijn gedownload van [!DNL Analytics]. Dit tijdframe is afhankelijk van de [!DNL Analytics] systeembelasting.
-* **Nieuwe of bewerkte criteria met behulp van een reeds beschikbare rapportsuite**: Als bij het maken van nieuwe criteria of het bewerken van bestaande criteria de geselecteerde rapportsuite al is gebruikt met [!DNL Target Recommendations], met een gegevensbereik dat gelijk is aan of kleiner is dan het geselecteerde gegevensbereik, zijn de gegevens direct beschikbaar en is een eenmalige installatie niet vereist. In dit geval, of als de montages van een algoritme terwijl het wijzigen van de geselecteerde rapportreeks of gegevenswaaier worden uitgegeven, loopt het algoritme of herstelt binnen 12 uren.
-* **Doorlopende algoritme wordt uitgevoerd**: Gegevensstromen van [!DNL Analytics] naar [!DNL Target Recommendations] dagelijks. Bijvoorbeeld, voor de [!UICONTROL Viewed Affinity] aanbeveling, wanneer een gebruiker een product bekijkt, wordt een product-mening het volgen vraag overgegaan in dicht [!DNL Analytics] bij real time. De [!DNL Analytics] gegevens worden [!DNL Target] vroeg de volgende dag geduwd en het algoritme in minder dan 12 uren in werking [!DNL Target] gesteld.
 
 ## De aanbeveling baseren op een aanbevelingen {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -180,7 +266,7 @@ Recommendations geeft andere objecten weer die bezoekers interesseren voor het o
 
 Als deze optie is geselecteerd, moet de `entity.id` waarde als een parameter in het weergavevak worden doorgegeven.
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -188,7 +274,7 @@ Als deze optie is geselecteerd, moet de `entity.id` waarde als een parameter in 
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Pagina&#39;s met één item, zoals productpagina&#39;s.
 
@@ -202,12 +288,12 @@ Recommendations geeft objecten weer in de opgegeven productcategorie.
 
 Als deze optie is geselecteerd, moet de `entity.categoryId` waarde als parameter worden doorgegeven aan het weergavevak.
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * Topverkopers
 * Meest bekeken
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Pagina&#39;s van één categorie.
 
@@ -219,7 +305,7 @@ De aanbeveling wordt bepaald door een punt dat in het profiel van een bezoeker, 
 
 Als deze optie is geselecteerd, moet de `entity.id` waarde aanwezig zijn in het profielkenmerk.
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * [!UICONTROL People Who Viewed This, Viewed That]
 * [!UICONTROL People Who Viewed This, Bought That]
@@ -230,11 +316,11 @@ Als deze optie is geselecteerd, moet de `entity.id` waarde aanwezig zijn in het 
 
 Als de sleutel een attribuut van het douaneprofiel is en het algoritmetype Meest bekeken of Hoogste Verkopers is, een nieuwe drop-down lijst die &quot;Groep door Unieke Waarde van&quot;toont die een lijst van bekende entiteitattributen (behalve identiteitskaart, categorie, marge, waarde, inventaris, en milieu) heeft. Dit veld is verplicht.
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Kan op elke pagina worden gebruikt.
 
-**Een toets voor aangepaste aanbevelingen gebruiken**
+#### Een toets voor aangepaste aanbevelingen gebruiken
 
 U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel baseren. Stel dat u aanbevolen films wilt weergeven op basis van de film die een bezoeker het laatst aan zijn of haar wachtrij heeft toegevoegd.
 
@@ -261,7 +347,7 @@ Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitiden
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is aangeschaft. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina hoeven te worden doorgegeven.
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -269,7 +355,7 @@ De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Homepage, pagina Mijn account, offsite advertenties.
 
@@ -279,7 +365,7 @@ Niet gebruiken op productpagina&#39;s of pagina&#39;s die relevant zijn voor aan
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is bekeken. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina hoeven te worden doorgegeven.
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -287,7 +373,7 @@ De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Homepage, pagina Mijn account, offsite advertenties.
 
@@ -305,7 +391,7 @@ Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volg
 
 Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u een A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * [!UICONTROL Items with similar attributes]
 * [!UICONTROL People Who Viewed This, Viewed That]
@@ -313,7 +399,7 @@ Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteer
 * [!UICONTROL People Who Bought This, Bought That]
 * [!UICONTROL Site Affinity]
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
@@ -330,12 +416,12 @@ De categorieën die voor het eerst worden bezocht, krijgen 10 punten. 5 punten v
 
 Als u bijvoorbeeld CategorieA en daarna CategorieB in één sessie weergeeft, resulteert dit in A: 9, B: 10 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 20 B: 9.
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * [!UICONTROL Top Sellers]
 * [!UICONTROL Most Viewed]
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
@@ -343,13 +429,13 @@ Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en off
 
 De aanbeveling wordt bepaald door de populariteit van objecten op uw site. De populariteit omvat topverkopers en hoogste bekeken door mbox gegevens en, als u Adobe Analytics gebruikt, alle metriek beschikbaar in het productrapport. De items worden gerangschikt op basis van de door u geselecteerde logica voor aanbevelingen.
 
-**Logica (criteria)**
+#### Logica (criteria)
 
 * [!UICONTROL Top Sellers]
 * [!UICONTROL Most Viewed]
 * Metrische gegevens van productrapporten (als u Adobe Analytics gebruikt)
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
@@ -359,120 +445,13 @@ Gebruikt de geschiedenis van de bezoeker (overspannende zittingen) om de laatste
 
 De criteria voor onlangs bekeken items geven nu resultaten die specifiek zijn voor een bepaalde [omgeving](/help/administrating-target/hosts.md). Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
 
-**Waar op uw site gebruiken**
+#### Waar op uw site gebruiken
 
 Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
 >[!NOTE]
 >
 >Onlangs bekeken items respecteren zowel de globale instellingen voor Uitsluiting als de geselecteerde instelling voor Verzameling voor de activiteit. Als een item is uitgesloten door een algemene uitsluiting of niet is opgenomen in de geselecteerde verzameling, wordt het item niet weergegeven. Daarom moet bij het gebruik van de criteria voor onlangs bekeken items doorgaans de instelling &quot;Alle verzamelingen&quot; worden gebruikt.
-
-## Opnameregels {#task_28DB20F968B1451481D8E51BAF947079}
-
-Met behulp van verschillende opties kunt u de items beperken die in uw aanbevelingen worden weergegeven. U kunt inclusieregels gebruiken terwijl het creëren van criteria of bevorderingen.
-
-Opnameregels zijn facultatief; nochtans, geeft het plaatsen van deze details u meer controle over de punten die in uw aanbevelingen verschijnen. Elk detail dat u vormt vernauwt verder de vertoningscriteria.
-
-U kunt er bijvoorbeeld voor kiezen alleen vrouwenschoenen weer te geven met een voorraad van meer dan 50 en een prijs tussen \$25 en \$45. U kunt ook elk kenmerk van elkaar voorzien, zodat de items die voor uw bedrijf belangrijker zijn, meestal worden weergegeven.
-
-U kunt er ook voor kiezen om vacatures weer te geven voor bezoekers die uw site alleen vanuit bepaalde steden bezoeken en die de vereiste universitaire graden hebben.
-
-De opties voor de inclusieregel variëren per verticale branche. Standaard worden inclusieregels toegepast op back-upaanbevelingen.
-
->[!NOTE]
->
->U moet opnemingsregels voorzichtig gebruiken. Ze zijn bijvoorbeeld handig als uw organisatie regels heeft die vereisen dat één merk niet wordt aanbevolen terwijl een ander merk wordt weergegeven. Er zijn echter alternatieve kosten voor deze functie. U kunt mogelijk een percentage aan lift verliezen door bepaalde items te beperken zodat ze niet kunnen worden weergegeven wanneer ze normaal gesproken aan de hand van de activiteitscriteria worden weergegeven.
-
-De inclusieregels worden aangesloten bij EN. Aan alle regels moet worden voldaan om een punt in een aanbeveling te omvatten.
-
-Voer de volgende stappen uit om een eenvoudige regel voor insluiting te maken, zoals eerder vermeld, om alleen vrouwenschoenen weer te geven met een voorraad van meer dan 50 en een prijs tussen 25 en 45 dollar:
-
-1. Stel een prijsbereik in voor de producten die u wilt aanbevelen.
-1. Stel het minimale voorraadbedrag in voor de producten die u wilt aanbevelen.
-1. Vorm de aanbeveling om punten slechts te tonen wanneer zij aan bepaalde criteria voldoen.
-
-   ![](assets/Recs_InclusionRules.png)
-
-   U kunt opgeven dat items alleen worden opgenomen wanneer een van de kenmerken in de lijst voldoet aan een of meer opgegeven voorwaarden of niet overeenkomt.
-
-   De beschikbare beoordelaars zijn afhankelijk van de waarde die u kiest in de eerste vervolgkeuzelijst. U kunt meerdere items weergeven. Deze items worden geëvalueerd met OR.
-
-   De veelvoudige regels worden gecombineerd met EN.
-
-   >[!NOTE]
-   >
-   >Met deze optie beperkt u de items die in de aanbeveling worden weergegeven. Het heeft geen invloed op de pagina&#39;s waarop de aanbeveling wordt weergegeven. Als u wilt beperken waar de aanbeveling wordt weergegeven, selecteert u de pagina&#39;s in de ervaringscomposer.
-
-## Kenmerkweging {#task_2AEDA0DB15B74770B76F6982B24C2E42}
-
-Gebruik kenmerkweging om het algoritme te verschuiven, zodat bepaalde items eerder worden weergegeven. Marketers kunnen het algoritme beïnvloeden op basis van een belangrijke beschrijving of metagegevens over de inhoudscatalogus.
-
-Pas een hogere weging toe op deze onverkochte artikelen, zodat deze vaker in de aanbeveling worden weergegeven. Niet-verkochte objecten worden niet volledig uitgesloten, maar ze verschijnen minder vaak. Meerdere gewogen kenmerken kunnen op hetzelfde algoritme worden toegepast en de gewogen kenmerken kunnen in de aanbeveling op gesplitst verkeer worden getest.
-
-1. Kies een waarde.
-
-   De waarde bepaalt het type item dat vaker wordt weergegeven, op basis van een van de verschillende beschikbare criteria.
-
-1. Kies een evaluator.
-1. Typ het trefwoord om de regelkenmerken te voltooien.
-
-   De volledige regel kan bijvoorbeeld &#39;Categorie bevat schoenen&#39; zijn.
-
-   ![](assets/Recs_AttributeWeighting.png)
-
-1. Selecteer de dikte die u aan de regel wilt toewijzen.
-
-   De opties variëren van 0 tot 100 in stappen van 25.
-
-1. Voeg desgewenst aanvullende regels toe.
-
-## Inhoudsinstellingen {#concept_BC16005C7A1E4F1A87E33D16221F4A96}
-
-De [!UICONTROL Content] instellingen bepalen hoe aanbevelingen in uw ontwerp worden weergegeven.
-
-Het is mogelijk dat [!UICONTROL Recommendations] criteria minder aanbevelingen teruggeven dan uw ontwerp vraagt. Uw ontwerp kan bijvoorbeeld vijf beschikbare &quot;slots&quot; hebben, maar de criteria geven slechts drie aanbevolen items. De [!UICONTROL Content] montages controleren hoe de aanbevelingen worden voorgesteld wanneer dit gebeurt.
-
-De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen.
-
-Selecteer de juiste schakelopties:
-
-* [!UICONTROL Enable Partial Design Rendering]
-* [!UICONTROL Show Backup Recommendations]
-* [!UICONTROL Apply Inclusion Rules to Backup Recommendations]
-* [!UICONTROL Recommend Previously Purchased Items]
-
-   Deze instelling is gebaseerd op de `productPurchasedId` profielwaarde. Standaard wordt eerder aangeschafte items niet aanbevolen. In de meeste gevallen wilt u geen objecten promoten die een klant onlangs heeft aangeschaft. Als klanten doorgaans bepaalde artikelen herhaaldelijk kopen, kunt u met deze functie eerder aangeschafte artikelen blijven aangeraden.
-
-Als u toelaat **[!UICONTROL Show Backup Recommendations]**, wordt de optie om uw [inclusieregels](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) op reserveaanbevelingen toe te passen toegelaten door gebrek.
-
-![](assets/Recs_ContentControls.png)
-
-| Gedeeltelijke rendering van ontwerp | Backup Recommendations | Resultaat |
-|--- |--- |--- |
-| Uitgeschakeld | Uitgeschakeld | Als er minder aanbevelingen worden geretourneerd dan door het ontwerp wordt gevraagd, wordt het ontwerp van de aanbevelingen vervangen door de standaardinhoud en worden er geen aanbevelingen weergegeven. |
-| Ingeschakeld | Uitgeschakeld | Het ontwerp wordt teruggegeven, maar kan lege ruimte omvatten als minder aanbevelingen zijn teruggekeerd dan het ontwerp verzoekt. |
-| Ingeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in.<br>Als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp gedeeltelijk teruggegeven.<br>Als de criteria geen aanbevelingen terugkeren, en de integratieregels reserveaanbevelingen tot nul beperken, wordt het ontwerp vervangen met standaardinhoud. |
-| Uitgeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in.<br>Als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp vervangen door standaardinhoud en geen aanbevelingen worden getoond. |
-
-## Vergelijkbare inhoud {#concept_5402DAFA279C4E46A9A449526889A0CB}
-
-Gebruik [!UICONTROL Content Similarity] regels om aanbevelingen te doen op basis van item- of mediakenmerken.
-
-De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Recommendations op basis van gelijkenis met inhoud vereist geen gegevens uit het verleden om sterke resultaten te bereiken.
-
-Het gebruik van gelijkenis in de inhoud om aanbevelingen te genereren is vooral effectief voor nieuwe items. Deze worden waarschijnlijk niet weergegeven in aanbevelingen met *Personen die dit hebben bekeken, Bekeken dat* en andere logica die is gebaseerd op gedrag in het verleden. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
-
-Wanneer u selecteert **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, hebt u de optie om regels tot stand te brengen om het belang van specifieke puntattributen in het bepalen van aanbevelingen te verhogen of te verminderen. Voor artikelen zoals boeken, zou u het belang van attributen zoals *genre*, *auteur*, *reeksen*, etc. kunnen willen verhogen, om gelijkaardige boeken aan te bevelen.
-
-![](assets/ContentSimilarity.png)
-
-Omdat bij gelijkenis met inhoud trefwoorden worden gebruikt om items te vergelijken, kunnen sommige kenmerken, zoals *bericht* of *beschrijving*, &#39;ruis&#39; in de vergelijking introduceren. U kunt regels maken om deze kenmerken te negeren.
-
-Standaard zijn alle kenmerken ingesteld op *Basislijn*. U hoeft geen regel te maken, tenzij u deze instelling wilt wijzigen.
-
->[!NOTE]
->
->Het algoritme voor de gelijkenis van de inhoud kan gebruikmaken van willekeurige sampling bij het berekenen van gelijkenis tussen items. Hierdoor kunnen de overeenkomsten tussen items per algoritme verschillen.
 
 ## Trainingsvideo: Criteria maken in Recommendations (12:33) - ![Zelfstudie](/help/assets/tutorial.png)
 
