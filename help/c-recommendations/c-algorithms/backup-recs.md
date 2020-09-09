@@ -5,7 +5,7 @@ title: Een back-upaanbeveling gebruiken
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -46,4 +46,4 @@ Duplicaten worden verwijderd uit batches met aanbevelingen.
 
 Het gebruik van back-upaanbevelingen maakt doorgaans deel uit van de discussie met het implementatieteam tijdens de eerste installatie. Neem contact op met uw accountmanager als u de instelling voor de back-upaanbeveling na de implementatie wilt wijzigen.
 
-Als Partial Design Rendering inschakelen (zie [Inhoudsinstellingen](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) niet is ingeschakeld en de sjabloon niet wordt weergegeven, wordt in plaats daarvan de back-upaanbeveling of de standaardinhoud weergegeven.
+Als Partial Design Rendering inschakelen (zie [Inhoudsinstellingen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)) niet is ingeschakeld en de sjabloon niet wordt weergegeven, wordt in plaats daarvan de back-upaanbeveling of de standaardinhoud weergegeven.
