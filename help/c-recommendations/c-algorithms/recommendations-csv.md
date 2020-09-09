@@ -5,9 +5,9 @@ title: Aangepaste criteria uploaden
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
    Voor meer informatie over het baseren van criteria op een sleutel, zie [Baseer de Aanbeveling op een Sleutel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)van de Aanbeveling.
 1. Stel uw **[!UICONTROL Content]** regels in.
 
-   De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen. Selecteer de juiste gereedschappen. Zie [Inhoud-instellingen](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
+   De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen. Selecteer de juiste gereedschappen. Zie [Inhoud-instellingen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)opgeven.
 1. Stel uw **[!UICONTROL Inclusion Rules]** waarde in.
 
-   Met insluitingsregels kunt u de items beperken die in uw aanbevelingen worden weergegeven. Zie [Insluitingsregels](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Selecteer het **[!UICONTROL Location]** CSV-bestand.
+   Met insluitingsregels kunt u de items beperken die in uw aanbevelingen worden weergegeven. Zie [Opnameregels](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)opgeven. 1. Selecteer het **[!UICONTROL Location]** CSV-bestand.
 
    Het CSV-bestand moet correct zijn opgemaakt om te kunnen worden geüpload. Klik **[!UICONTROL Download the CSV template]** om een correct geformatteerd Csv- dossier te krijgen.
 
