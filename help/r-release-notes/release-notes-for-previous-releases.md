@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '29043'
+source-wordcount: '29015'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ De volgende verbeteringen en correcties zijn aangebracht in de bibliotheken [!DN
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek het ontbreken leidde. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
+| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
 | om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` instelling is overschreven via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35065)</li><li>Probleem verholpen bij het gebruik van de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie, [!DNL Launch] waarmee de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep werd vertraagd. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
 
 ### Wijzigingen in de profielbatchstatus-API v2 (14 mei 2020)
@@ -834,7 +834,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
-   <td colname="col2"> <p>De criteria voor onlangs bekeken items geven nu resultaten die specifiek zijn voor een bepaalde <a href="../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> omgeving </a>. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites. </p> <p>Voor meer informatie, zie <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local"> Baseer de Aanbeveling op een Sleutel van de Aanbeveling </a>. (RECS-5865) </p> </td> 
+   <td colname="col2"> <p>De criteria voor onlangs bekeken items geven nu resultaten die specifiek zijn voor een bepaalde <a href="../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> omgeving </a>. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1035,7 +1035,7 @@ Deze release bevat de volgende functies en verbeteringen:
      <ul id="ul_7A6F2398ADE846EF8A7A3110C2736BF7"> 
       <li id="li_66BFF016564749B298B88F6B9638B64E"> <p>Meest bekeken </p> </li> 
       <li id="li_937FE5C40ED8471391B282D1ACE8C133"> <p>Topverkopers </p> </li> 
-     </ul> </p> <p>Voor meer informatie, zie de rij "van het Attribuut van de Douane"in <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local"> Baseer de Aanbeveling op een Sleutel van de Aanbeveling </a>. </p> </td> 
+     </ul> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Soorten publiek </p> </td> 
