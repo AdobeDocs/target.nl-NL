@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 
 | Functie | Details |
 | --- | --- |
-| De aanbevelingen van de controle groeven binnen de opeenvolgingen van criteria | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br>Zie [Criteria maken voor meer informatie](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
+| ![De aanbevelingen van de Controle van de kentekenplaat](/help/assets/premium.png) van de premie groeven binnen criteria opeenvolgingen | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br>Zie [Criteria maken voor meer informatie](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
 
 ## Target Standard/Premium 20.8.1 (2 september 2020)
 
