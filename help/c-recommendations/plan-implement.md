@@ -5,7 +5,7 @@ title: Recommendations plannen en implementeren
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Wat u moet weten voordat u een [!DNL Recommendations] activiteit maakt.
 |--- |--- |--- |
 | ![Stap 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-bibliotheek | Voor elke pagina is een verwijzing naar versie 0.js 0.9.1 (of hoger) of versie 55 (of hoger) van mbox.js vereist. Deze implementatiestap is vereist op alle pagina&#39;s waar een doelactiviteit wordt gebruikt en kan sleutels zoals een product of een categorie ID omvatten.<BR>Zie [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)voor meer informatie over at.js.<br>Zie [Mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)voor meer informatie over mbox.js. |
 | ![Stap 2](/help/c-recommendations/assets/step2_red.png) | Toetsen | De sleutel bepaalt het type product of inhoud dat in uw aanbevelingen wordt weergegeven. De sleutel kan bijvoorbeeld een productcategorie zijn. Zie [De aanbeveling baseren op een toets](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)voor aanbevelingen. |
-| ![Stap 3](/help/c-recommendations/assets/step3_red.png) | Attributen | Kenmerken bieden specifiekere informatie over de producten die u wilt weergeven. U kunt bijvoorbeeld producten weergeven binnen een bepaald prijsbereik of objecten die aan een voorraaddrempel voldoen. Kenmerken kunnen worden opgegeven in de mbox of via een [feed](/help/c-recommendations/c-products/feeds.md).<br>Zie [[Opnameregels](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)opgeven. |
+| ![Stap 3](/help/c-recommendations/assets/step3_red.png) | Attributen | Kenmerken bieden specifiekere informatie over de producten die u wilt weergeven. U kunt bijvoorbeeld producten weergeven binnen een bepaald prijsbereik of objecten die aan een voorraaddrempel voldoen. Kenmerken kunnen worden opgegeven in de mbox of via een [feed](/help/c-recommendations/c-products/feeds.md).<br>Zie [Opnameregels](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)opgeven. |
 | ![Stap 4](/help/c-recommendations/assets/step4_red.png) | Uitsluitingen | De uitsluitingen bepalen welke specifieke punten niet in uw aanbevelingen verschijnen.<br>Zie [Uitsluitingen](/help/c-recommendations/c-products/exclusions.md). |
 | ![Stap 5](/help/c-recommendations/assets/step5_red.png) | Aankoopgegevens | De koopgegevens bevatten informatie over de aangeschafte objecten en de order wanneer de aankoop is voltooid. |
 
