@@ -5,7 +5,7 @@ title: Aangepaste criteria uploaden
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bere
    Samen, worden de industrie verticale en paginatypes gebruikt om uw bewaarde criteria te categoriseren, die het gemakkelijker maken om criteria voor andere [!UICONTROL Recommendations] activiteiten opnieuw te gebruiken.
 1. Selecteer een **[!UICONTROL Recommendation Key]**.
 
-   Voor meer informatie over het baseren van criteria op een sleutel, zie [Baseer de Aanbeveling op een Sleutel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)van de Aanbeveling.
+   Voor meer informatie over het baseren van criteria op een sleutel, zie [Baseer de Aanbeveling op een Sleutel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)van de Aanbeveling.
 1. Stel uw **[!UICONTROL Content]** regels in.
 
    De regels van de inhoud bepalen wat gebeurt als het aantal geadviseerde punten uw ontwerp niet vult. Als uw ontwerp bijvoorbeeld ruimte voor vijf items bevat, maar uw criteria slechts drie items aanbevolen, kunt u de resterende ruimte leeg laten of back-upaanbevelingen gebruiken om de extra ruimte te vullen. Selecteer de juiste gereedschappen. Zie [Inhoud-instellingen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)opgeven.
