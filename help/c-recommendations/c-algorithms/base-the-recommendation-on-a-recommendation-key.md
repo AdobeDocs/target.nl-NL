@@ -5,9 +5,9 @@ title: De aanbeveling baseren op een aanbevelingen
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2727'
 ht-degree: 0%
 
 ---
@@ -231,7 +231,20 @@ De aanbeveling wordt bepaald door de populariteit van objecten op uw site. De po
 
 Gebruikt de geschiedenis van de bezoeker (overspannende zittingen) om de laatste *x* punten voor te stellen de bezoeker heeft bekeken, die op het aantal groeven in het ontwerp worden gebaseerd.
 
-De criteria voor onlangs bekeken items geven nu resultaten die specifiek zijn voor een bepaalde [omgeving](/help/administrating-target/hosts.md). Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
+De recent bekeken criteria van Punten keert resultaten specifiek voor een bepaalde [milieu](/help/administrating-target/hosts.md)terug. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
+
+>[!NOTE]
+>
+>U kunt de [!UICONTROL Recently Viewed Items] criteria voor back-upaanbevelingen niet gebruiken.
+
+[!UICONTROL Recently Viewed Items]/Media kan worden gefilterd zodat slechts de punten met een bepaald attribuut worden getoond.
+
+* Onlangs bekeken criteria zijn configureerbaar, net als andere criteria in aanbevelingen.
+* U kunt [inzamelingen](/help/c-recommendations/c-products/collections.md), [uitsluitingen](/help/c-recommendations/c-products/exclusions.md), en [opneming](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Voorraad) op de zelfde manier gebruiken zoals om het even welke andere criteria.
+
+Mogelijke gebruiksgevallen zijn:
+
+Een multinationaal bedrijf met meerdere bedrijven kan bezoekers artikelen laten zien over meerdere digitale eigenschappen. In dit geval kunt u de onlangs weergegeven items beperken tot weergave voor de desbetreffende eigenschap waar deze is weergegeven. Hiermee voorkomt u dat onlangs bekeken items worden weergegeven op de site van een andere digitale eigenschap.
 
 #### Waar op uw site gebruiken
 
@@ -239,7 +252,7 @@ De criteria voor onlangs bekeken items geven nu resultaten die specifiek zijn vo
 
 >[!NOTE]
 >
->Onlangs bekeken items respecteren zowel de globale instellingen voor Uitsluiting als de geselecteerde instelling voor Verzameling voor de activiteit. Als een item is uitgesloten door een algemene uitsluiting of niet is opgenomen in de geselecteerde verzameling, wordt het item niet weergegeven. Daarom moet bij het gebruik van de criteria voor onlangs bekeken items doorgaans de instelling &quot;Alle verzamelingen&quot; worden gebruikt.
+>[!UICONTROL Recently Viewed Items] Hiermee worden zowel de globale instellingen voor uitsluitingen als de geselecteerde verzamelingsinstelling voor de activiteit in acht genomen. Als een item wordt uitgesloten door een algemene uitsluiting of niet in de geselecteerde verzameling voorkomt, wordt het item niet weergegeven. Daarom moet bij het gebruik van een [!UICONTROL Recently Viewed Items] criterium doorgaans de instelling &quot;Alle verzamelingen&quot; worden gebruikt.
 
 ## Instructielogica
 
