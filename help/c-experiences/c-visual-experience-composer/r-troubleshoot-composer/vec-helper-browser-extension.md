@@ -5,9 +5,9 @@ title: Helperextensie Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,9 @@ Met de VEC Helper-browserextensie voor Chrome worden de problemen opgelost die d
 
 * Alle iFrame-opbouwheaders, zoals X-Frame-Options en Content-Security-Policy, worden impliciet verwijderd van de website. Het is niet langer nodig om hiervoor ingewikkelde voorschriften in te voeren.
 * Als een webpagina nog niet de JavaScript-bibliotheek [!DNL Target] at.js bevat, kunt u de extensie gebruiken om de bibliotheek te injecteren zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
+
+   Let op: bij gebruik van de Enhanced Experience Composer (EEC) injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
+
 * [Mobiele viewports](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) worden ondersteund, zelfs zonder [!UICONTROL Enhanced Experience Composer] (EEG).
 * Klanten die nog niet eerder [!DNL Target] zijn, kunnen de extensie gebruiken om te experimenteren met [!DNL Target] zelfs als hun IT-ontwikkelaars deze nog niet [!DNL Target] op hun websites hebben geïmplementeerd.
 * Partners die de websites en de rekeningen van veelvoudige klanten onderhouden hebben nu één eenvoudig mechanisme om het laden VEC te steunen, in plaats van het beheren van veelvoudige regels in derdehulpmiddelen. [!DNL Target]
