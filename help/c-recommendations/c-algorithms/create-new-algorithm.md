@@ -5,9 +5,9 @@ title: Criteria maken
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2265'
+source-wordcount: '2297'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,13 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
    Aan de hand van deze beschrijving kunt u de criteria vaststellen en informatie over het doel van de criteria toevoegen.
 
-1. Selecteer een **[!UICONTROL Industry Vertical]**:
+1. Selecteer de industrie verticaal die op de doelstellingen van uw aanbevelingen activiteit wordt gebaseerd.
 
-   * [!UICONTROL Retail/Ecommerce]
-   * [!UICONTROL Lead Generation/B2B/Financial Services]
-   * [!UICONTROL Media/Publishing]
+   | Verticale industrie | Goal |
+   |--- |--- |
+   | Detailhandel/e-handel | Conversie die tot aankoop leidt |
+   | Genereren van leads/B2B/Financiële services | Omzetten zonder aankoop |
+   | Media/Publiceren | Betrokkenheid |
 
    Andere criteria worden gewijzigd op basis van de verticale industriestandaard die u selecteert.
 
