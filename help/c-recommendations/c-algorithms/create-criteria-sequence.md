@@ -5,9 +5,9 @@ title: Criteria-reeksen maken
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,17 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
    De beschrijving zou u moeten helpen de opeenvolging van criteria identificeren en zou informatie over zijn doel kunnen omvatten.
 
-1. Selecteer een **[!UICONTROL Industry Vertical]**.
+1. Selecteer de industrie verticaal die op de doelstellingen van uw aanbevelingen activiteit wordt gebaseerd.
 
-   Uw standaard verticale [](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) industrie verschijnt automatisch.
+   | Verticale industrie | Goal |
+   |--- |--- |
+   | Detailhandel/e-handel | Conversie die tot aankoop leidt |
+   | Genereren van leads/B2B/Financiële services | Omzetten zonder aankoop |
+   | Media/Publiceren | Betrokkenheid |
+
+   De standaardverticale weergave in de branche wordt automatisch weergegeven.
+
+   Andere criteria worden gewijzigd op basis van de verticale industriestandaard die u selecteert.
 
 1. Selecteer een **[!UICONTROL Page Type]**.
 
