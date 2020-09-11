@@ -4,7 +4,7 @@ description: Informatie over het werken met een veld met meerdere waarden in Ado
 title: Werken met kenmerken voor meerdere waarden in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -72,7 +72,6 @@ De volgende operatoren zijn beschikbaar voor gebruik met multi-value entiteit-, 
 >[!NOTE]
 >
 >Ondersteuning voor dynamische overeenkomst met kenmerken van meerdere waarden is momenteel alleen beschikbaar op basis van criteria bij het gebruik van een profielkenmerk dat overeenkomt met of parameterkenmerk dat overeenkomt met de regel bij het vergelijken van één waarde aan de linkerkant naar een meerwaarde aan de rechterkant. Attributen met meerdere waarden worden momenteel niet ondersteund in promoties, overeenkomsten tussen entiteitskenmerken of voor lijsten aan de linkerkant van insluitingsregels.
-
 
 ### Voorbeeld: Onlangs gevolgde objecten uitsluiten
 
