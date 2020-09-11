@@ -5,9 +5,9 @@ title: De aanbeveling baseren op een aanbevelingen
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2542'
+source-wordcount: '2627'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkm
 
 De volgende aanbevelingen zijn beschikbaar in de [!UICONTROL Recommendation Key] vervolgkeuzelijst:
 
-### Huidig item
+### Huidig item {#current-item}
 
 De aanbeveling wordt bepaald door het item dat de bezoeker momenteel bekijkt.
 
@@ -54,7 +54,7 @@ Als deze optie is geselecteerd, moet de `entity.id` waarde als een parameter in 
 * Pagina&#39;s met één item, zoals productpagina&#39;s.
 * Niet gebruiken op pagina&#39;s met zoekresultaten die null zijn.
 
-### Huidige rubriek
+### Huidige rubriek {#current-category}
 
 De aanbeveling wordt bepaald door de productcategorie die de bezoeker momenteel bekijkt.
 
@@ -133,7 +133,29 @@ Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitiden
 
    ![Nieuwe criteria maken, dialoogvenster 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Laatst gekocht object
+### Favoriete rubriek {#favorite-category}
+
+De aanbeveling wordt bepaald door de categorie die de meeste activiteit heeft ontvangen, gebruikend de zelfde methode die voor &quot;het meest bekeken punt&quot;wordt gebruikt behalve dat de categorieën in plaats van producten worden gescoord.
+
+Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volgt werken:
+
+* 10 punten voor de weergave van de eerste categorie
+* 5 punten voor elke volgende weergave
+
+De categorieën die voor het eerst worden bezocht, krijgen 10 punten. 5 punten voor latere bezoeken aan dezelfde categorie. Bij elk bezoek worden niet-huidige categorieën die eerder zijn bekeken, verlaagd met 1.
+
+Als u bijvoorbeeld CategorieA en daarna CategorieB in één sessie weergeeft, resulteert dit in A: 9, B: 10 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 20 B: 9.
+
+#### Logica (criteria)
+
+* [!UICONTROL Top Sellers]
+* [!UICONTROL Most Viewed]
+
+#### Waar op uw site gebruiken
+
+* Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
+
+### Laatst gekocht object {#last-purchased}
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is aangeschaft. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina hoeven te worden doorgegeven.
 
@@ -150,7 +172,7 @@ De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker
 * Homepage, pagina Mijn account, offsite advertenties.
 * Niet gebruiken op productpagina&#39;s of pagina&#39;s die relevant zijn voor aankopen.
 
-### Laatst weergegeven item
+### Laatst weergegeven item {#last-viewed}
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is bekeken. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina hoeven te worden doorgegeven.
 
@@ -167,7 +189,7 @@ De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker
 * Homepage, pagina Mijn account, offsite advertenties.
 * Niet gebruiken op productpagina&#39;s of pagina&#39;s die relevant zijn voor aankopen.
 
-### Meest bekeken item
+### Meest bekeken item {#most-viewed}
 
 De aanbeveling wordt bepaald door het punt dat het vaakst is bekeken, gebruikend de zelfde methode die voor favoriete categorie wordt gebruikt.
 
@@ -191,29 +213,7 @@ Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteer
 
 * Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
-### Favoriete rubriek
-
-De aanbeveling wordt bepaald door de categorie die de meeste activiteit heeft ontvangen, gebruikend de zelfde methode die voor &quot;het meest bekeken punt&quot;wordt gebruikt behalve dat de categorieën in plaats van producten worden gescoord.
-
-Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volgt werken:
-
-* 10 punten voor de weergave van de eerste categorie
-* 5 punten voor elke volgende weergave
-
-De categorieën die voor het eerst worden bezocht, krijgen 10 punten. 5 punten voor latere bezoeken aan dezelfde categorie. Bij elk bezoek worden niet-huidige categorieën die eerder zijn bekeken, verlaagd met 1.
-
-Als u bijvoorbeeld CategorieA en daarna CategorieB in één sessie weergeeft, resulteert dit in A: 9, B: 10 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 20 B: 9.
-
-#### Logica (criteria)
-
-* [!UICONTROL Top Sellers]
-* [!UICONTROL Most Viewed]
-
-#### Waar op uw site gebruiken
-
-* Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
-
-### Populariteit
+### Populariteit {#popularity}
 
 De aanbeveling wordt bepaald door de populariteit van objecten op uw site. De populariteit omvat topverkopers en hoogste bekeken door mbox gegevens en, als u Adobe Analytics gebruikt, alle metriek beschikbaar in het productrapport. De items worden gerangschikt op basis van de door u geselecteerde logica voor aanbevelingen.
 
@@ -247,7 +247,7 @@ De criteria voor onlangs bekeken items geven nu resultaten die specifiek zijn vo
 
 De volgende aanbevelingen (criteria) zijn beschikbaar bij de [!UICONTROL Recommendation Logic] drop-down lijst:
 
-### Items/media met vergelijkbare kenmerken
+### Items/media met vergelijkbare kenmerken {#similar-attributes}
 
 Aanbevolen items of media die vergelijkbaar zijn met items of media op basis van de huidige paginageactiviteit of het gedrag van een bezoeker.
 
@@ -264,7 +264,7 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Meest bekeken
+### Meest bekeken {#most-viewed-logic}
 
 Hiermee geeft u de items of media weer die het vaakst op uw site worden weergegeven.
 
@@ -277,9 +277,11 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Favoriete rubriek
 * Populariteit
 
-### Mensen die dit hebben gekocht, hebben het volgende gekocht
+### Mensen die dit hebben gekocht, hebben het volgende gekocht {#bought-bought}
 
 Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden gekocht.
+
+Deze logica retourneert andere producten die mensen hebben gekocht na de aankoop van deze logica. het opgegeven product niet in de resultatenset is opgenomen.
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u ze aanvullende aanbevelingen.
 
@@ -291,9 +293,11 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Mensen die dit bekeken hebben, hebben het volgende gekocht
+### Mensen die dit bekeken hebben, hebben het volgende gekocht {#viewed-bought}
 
 raadt objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
+
+Deze logica retourneert andere producten die zijn aangeschaft nadat deze is bekeken. het opgegeven product niet in de resultatenset is opgenomen.
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben gekocht. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
 
@@ -305,9 +309,11 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Personen die dit hebben bekeken, zagen het volgende
+### Personen die dit hebben bekeken, zagen het volgende {#viewed-viewed}
 
 Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
+
+Deze logica retourneert andere producten die worden weergegeven na het bekijken van deze logica. het opgegeven product niet in de resultatenset is opgenomen.
 
 Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling tot stand brengen gebruikend deze logica die andere producten adviseert om u te helpen opbrengst verhogen.
 
@@ -319,13 +325,15 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Affiniteit site
+### Affiniteit site {#site-affinity}
 
 Aanbevolen items op basis van de zekerheid van een relatie tussen items. U kunt deze criteria vormen om te bepalen hoeveel gegevens worden vereist alvorens een aanbeveling gebruikend de schuif van de Regels van de Opname wordt voorgesteld. Als u bijvoorbeeld erg sterk selecteert, worden de producten met de grootste zekerheid van een overeenkomst aanbevolen.
 
 Bijvoorbeeld, als u een zeer sterke affiniteit plaatst en uw ontwerp vijf punten omvat, waarvan drie aan de sterkte van verbindingsdrempel voldoen, worden de twee punten die niet aan de minimumsterktevereisten voldoen niet getoond in uw aanbevelingen en door uw bepaalde reservepunten vervangen. De items met de sterkste affiniteit worden eerst weergegeven.
 
 Een online detailhandelaar kan bijvoorbeeld items in volgende bezoeken aanbevelen die een bezoeker in de afgelopen sessies interesseert. De activiteit voor elke sessie van de bezoeker wordt vastgelegd om een affiniteit te berekenen op basis van een recentiemodel en een frequentiemodel. Wanneer deze bezoeker terugkeert naar uw site, wordt de affiniteit van de site gebruikt om aanbevelingen weer te geven op basis van eerdere acties op uw site.
+
+Sommige klanten met diverse productinzamelingen en diverse plaatsgedrag zouden de beste resultaten kunnen krijgen als zij een zwakke plaatsaffiniteit plaatsen.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
@@ -334,7 +342,7 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Topverkopers
+### Topverkopers {#top-sellers}
 
 Toont de punten die in de meest voltooide orden inbegrepen zijn. Meerdere eenheden van hetzelfde item in één volgorde worden als één volgorde geteld.
 
@@ -345,7 +353,7 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Favoriete rubriek
 * Populariteit
 
-### Op gebruiker gebaseerde Recommendations
+### Op gebruiker gebaseerde Recommendations {#user-based}
 
 Aanbevolen objecten op basis van de browsergeschiedenis, weergavegeschiedenis en aankoopgeschiedenis van elke bezoeker. Deze objecten worden doorgaans &#39;Aanbevolen voor je&#39; genoemd.
 
