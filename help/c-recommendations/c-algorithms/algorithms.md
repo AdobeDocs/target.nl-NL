@@ -1,13 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: De criteria in Adobe Target Recommendations zijn regels die bepalen welke producten om op een vooraf bepaalde reeks gedrag van bezoekers te adviseren worden gebaseerd.
+description: Criteria in Adobe Target zijn regels die bepalen welke producten of inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers.
 title: Criteria in Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Criteria
 
-Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
+Criteria in [!DNL Adobe Target] zijn regels die bepalen welke producten of inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers. De criteria kunnen op populaire tendensen, het huidige en vroegere gedrag van een bezoeker, of gelijkaardige producten en inhoud worden gebaseerd. U kunt veelvoudige aanbevelingstypes tegen elkaar testen door veelvoudige criteria toe te voegen.
 
-Criteria bepalen welke actie zal resulteren in welke aanbeveling. U kunt veelvoudige aanbevelingstypes tegen elkaar testen door veelvoudige criteria toe te voegen.
+In de volgende secties wordt meer uitgelegd over criteria en de logica van de aanbeveling die u voor elke toets kunt gebruiken. Klik op de koppelingen voor meer informatie.
 
 ## Verticale industrie {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-U selecteert een industrie verticaal die op de doelstellingen van uw aanbevelingen activiteit wordt gebaseerd. Afhankelijk van de verticale industrietak die u selecteert,
+Terwijl het creëren van criteria, selecteert u een industrie verticaal die op de doelstellingen van uw aanbevelingen activiteit wordt gebaseerd.
 
 | Verticale industrie | Goal |
 |--- |--- |
@@ -29,9 +29,15 @@ U selecteert een industrie verticaal die op de doelstellingen van uw aanbeveling
 | Genereren van leads/B2B/Financiële services | Omzetten zonder aankoop |
 | Media/Publiceren | Betrokkenheid |
 
+Andere criteria worden gewijzigd op basis van de verticale industriestandaard die u selecteert. U kunt uw standaardindustrie verticaal op de **[!UICONTROL Recommendations > Settings]** pagina plaatsen of u kunt de industrie verticaal voor elke criteria specificeren.
+
 ## Aanbevelingssleutel {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Het type criteria wordt bepaald door de toets die u voor de aanbeveling selecteert. Er zijn verschillende soorten criteria, die als criteria worden voorgesteld wanneer u een [!DNL Recommendations] activiteit instelt.
+
+![Criteria pagina](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+In de volgende tabel worden de verschillende typen criteria en de bijbehorende sleutels uitgelegd. Klik op de koppelingen voor meer informatie over elke toets.
 
 | Criteria Type | Toetsen |
 |--- |--- |
@@ -39,7 +45,7 @@ Het type criteria wordt bepaald door de toets die u voor de aanbeveling selectee
 | Aangepast | Aanbevolen items op basis van aangepaste kenmerken.<ul><li>[Aangepast kenmerk](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Wanneer u aanbevelingen baseert op douanekenmerken, moet u het douanekenmerk selecteren en dan het aanbevelingstype selecteren. |
 | Gedrag in verleden | Aanbevolen objecten op basis van hoe bezoekers in het verleden op een object hebben gereageerd. Mensen die bijvoorbeeld een bepaald merk hebben aangeschaft, hebben meer kans om een ander product van dat merk te kopen.<ul><li>[Laatst gekocht object](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Laatst weergegeven item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Meest bekeken item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favoriete rubriek](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | Populariteit | Aanbevelen de populairste items, zoals de populairste video&#39;s in een verwante categorie of de producten die het meest op uw site zijn weergegeven.<ul><li>[Populariteit](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| Onlangs bekeken objecten | Aanbevolen de objecten die een bezoeker het laatst heeft bekeken, zoals de objecten die een bezoeker voor het laatst heeft bekeken toen hij of zij uw site bezocht, of de artikelen die momenteel het meest trendend zijn.<br>Het algoritme Recent bekeken items retourneert resultaten die specifiek zijn voor de activiteit van een bezoeker binnen een [omgeving](/help/administrating-target/hosts.md). Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, retourneert het algoritme alleen recent bekeken items van de juiste site.<br>Dit type criteria wordt niet beperkt door verzamelingen.<ul><li>[Onlangs bekeken objecten](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**Opmerking:** U kunt de criteria voor onlangs bekeken items niet gebruiken voor back-upaanbevelingen.<br>Onlangs bekeken items/media kunnen worden gefilterd, zodat alleen items met een bepaald kenmerk worden weergegeven.<ul><li>Onlangs bekeken criteria zijn configureerbaar, net als andere criteria in aanbevelingen.</li><li>U kunt [inzamelingen](/help/c-recommendations/c-products/collections.md), [uitsluitingen](/help/c-recommendations/c-products/exclusions.md), en [opneming](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Voorraad) op de zelfde manier gebruiken zoals om het even welke andere criteria.</li></ul>Mogelijke gebruiksgevallen zijn:<ul><li>Een multinationaal bedrijf met meerdere bedrijven kan bezoekers artikelen laten zien over meerdere digitale eigenschappen. In dit geval kunt u de onlangs weergegeven items beperken tot weergave voor de desbetreffende eigenschap waar deze is weergegeven. Hiermee voorkomt u dat onlangs bekeken items worden weergegeven op de site van een andere digitale eigenschap.</li></ul> |
+| [Onlangs bekeken objecten](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Aanbevolen objecten die een bezoeker het laatst heeft bekeken, zoals de objecten die een bezoeker voor het laatst heeft bekeken op het moment dat hij of zij uw site heeft bezocht, of de artikelen die momenteel het meest trending hebben. |
 
 ## Een aangepaste aanbevolen toets gebruiken {#custom-key}
 
