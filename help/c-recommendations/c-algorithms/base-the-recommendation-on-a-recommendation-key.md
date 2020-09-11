@@ -5,9 +5,9 @@ title: De aanbeveling baseren op een aanbevelingen
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
+source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2542'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,23 @@ Als deze optie is geselecteerd, moet de `entity.categoryId` waarde als parameter
 De aanbeveling wordt bepaald door een punt dat in het profiel van een bezoeker, gebruikend één van beide gebruiker wordt opgeslagen.*x* of profiel.*x* -kenmerken.
 
 Als deze optie is geselecteerd, moet de `entity.id` waarde aanwezig zijn in het profielkenmerk.
+
+Wanneer u aanbevelingen baseert op douanekenmerken, moet u het douanekenmerk selecteren en dan het aanbevelingstype selecteren.
+
+U kunt filter in real time bovenop uw eigen output van douanecriteria uitvoeren. U kunt bijvoorbeeld de aanbevolen objecten beperken tot objecten van de favoriete rubriek of het favoriete merk van een bezoeker. Dit geeft u de macht om off-line berekeningen met het filtreren in real time te combineren.
+
+Deze functionaliteit houdt in dat u personalisatie kunt gebruiken [!DNL Target] om boven op uw offline berekende aanbevelingen of lijsten met aangepaste cursisten personalisatie toe te voegen. Dit combineert de kracht van gegevenswetenschappers en onderzoek met uw beproefde levering, runtime het filtreren, A/B het testen, het richten, het melden, de integratie, en meer.
+
+Met de toevoeging van inclusieregels op de criteria van de Douane, verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker.
+
+* De criteria van de douane zijn configureerbaar, zoals andere criteria in aanbevelingen.
+* U kunt [inzamelingen](/help/c-recommendations/c-products/collections.md), [uitsluitingen](/help/c-recommendations/c-products/exclusions.md), en [opneming](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Voorraad) op de zelfde manier gebruiken zoals om het even welke andere criteria.
+
+Mogelijke gebruiksgevallen zijn:
+
+* U wilt films aanbevelen vanuit een lijst met aangepaste cursisten, maar alleen als de bezoeker deze nog niet heeft bekeken.
+* U wilt een off-line algoritme in werking stellen en de resultaten gebruiken om uw aanbevelingen te aandrijven, maar u moet ervoor zorgen dat de uit-van-voorraad punten nooit worden geadviseerd.
+* Je wilt alleen objecten opnemen die afkomstig zijn uit de favoriete rubriek van deze bezoeker.
 
 #### Logica (criteria)
 
@@ -226,11 +243,15 @@ De criteria voor onlangs bekeken items geven nu resultaten die specifiek zijn vo
 
 ## Instructielogica
 
+[!DNL Target Recommendations] gebruikt geavanceerde algoritmen om te bepalen wanneer de acties van een bezoeker voor de criteria in uw activiteit kwalificeren. De advisesleutel bepaalt de aanbevelingen logische opties die beschikbaar zijn.
+
 De volgende aanbevelingen (criteria) zijn beschikbaar bij de [!UICONTROL Recommendation Logic] drop-down lijst:
 
-### Objecten met vergelijkbare kenmerken
+### Items/media met vergelijkbare kenmerken
 
-De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Recommendations op basis van gelijkenis met inhoud vereist geen gegevens uit het verleden om sterke resultaten te bereiken.
+Aanbevolen items of media die vergelijkbaar zijn met items of media op basis van de huidige paginageactiviteit of het gedrag van een bezoeker.
+
+Als u Items/media met vergelijkbare kenmerken selecteert, kunt u regels voor gelijkenis van inhoud instellen.
 
 Het gebruik van gelijkenis in de inhoud om aanbevelingen te genereren is vooral effectief voor nieuwe items. Deze worden waarschijnlijk niet weergegeven in aanbevelingen met Personen die dit hebben bekeken, Gezien dat en andere logica die is gebaseerd op gedrag in het verleden. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
 
@@ -245,9 +266,9 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 
 ### Meest bekeken
 
-Hiermee geeft u de meest bekeken items op uw site weer.
+Hiermee geeft u de items of media weer die het vaakst op uw site worden weergegeven.
 
-Met deze logica kunt u aanbevelingen weergeven op basis van de meest bekeken items op uw site om de conversies voor andere items te verhogen. Een mediasite kan bijvoorbeeld op haar homepage aanbevelingen weergeven voor de meest populaire video&#39;s om bezoekers aan te moedigen aanvullende video&#39;s te bekijken.
+Met deze logica kunt u aanbevelingen weergeven op basis van de meest bekeken items op uw site om de conversies voor andere items te verhogen. Een mediasite kan bijvoorbeeld op haar homepage aanbevelingen weergeven voor de meest bekeken video&#39;s om bezoekers aan te moedigen aanvullende video&#39;s te bekijken.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
@@ -258,9 +279,9 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 
 ### Mensen die dit hebben gekocht, hebben het volgende gekocht
 
-Geeft items weer die andere bezoekers ook hebben gekocht en die het geselecteerde item hebben gekocht.
+Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden gekocht.
 
-Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak aanschaft, kan de aanbeveling extra aangeschafte items weergeven, zoals bijvoorbeeld kleding, schoenen voor jurken en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u hun aanvullende aankoopaanbevelingen.
+Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u ze aanvullende aanbevelingen.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
@@ -272,9 +293,9 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 
 ### Mensen die dit bekeken hebben, hebben het volgende gekocht
 
-Hiermee geeft u andere items weer die zijn gekocht door bezoekers die het geselecteerde item hebben weergegeven.
+raadt objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
 
-Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben gekocht. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling andere bezoekers die het aangeschafte artikel bekijken, zoals zakdoeken, golven, en vislazen, extra items laten zien. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
+Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben gekocht. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
@@ -286,9 +307,9 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 
 ### Personen die dit hebben bekeken, zagen het volgende
 
-Geeft items weer die andere bezoekers ook hebben weergegeven en die het geselecteerde item hebben bekeken.
+Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
 
-Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling maken met deze logica die andere producten aanbeveelt.
+Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling tot stand brengen gebruikend deze logica die andere producten adviseert om u te helpen opbrengst verhogen.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
@@ -300,9 +321,11 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 
 ### Affiniteit site
 
-Geeft items weer met een eigen algoritme van de Adobe om andere items aan te bevelen op basis van criteria, zoals de weergave van productpagina&#39;s, aankopen en winkelwagenactiviteiten (toevoegen of verwijderen van items, bekijken van het winkelwagentje enz.)
+Aanbevolen items op basis van de zekerheid van een relatie tussen items. U kunt deze criteria vormen om te bepalen hoeveel gegevens worden vereist alvorens een aanbeveling gebruikend de schuif van de Regels van de Opname wordt voorgesteld. Als u bijvoorbeeld erg sterk selecteert, worden de producten met de grootste zekerheid van een overeenkomst aanbevolen.
 
-Een onlinewinkel kan bijvoorbeeld items aanbevelen die een bezoeker tijdens eerdere sessies tijdens volgende bezoeken interesseert. De activiteit voor elke sessie van de bezoeker wordt vastgelegd om een affiniteitsscore te berekenen op basis van een recentiemodel en een frequentiemodel. Wanneer deze bezoeker terugkeert naar uw site, wordt de affiniteit van de site gebruikt om aanbevelingen weer te geven op basis van eerdere acties op uw site.
+Bijvoorbeeld, als u een zeer sterke affiniteit plaatst en uw ontwerp vijf punten omvat, waarvan drie aan de sterkte van verbindingsdrempel voldoen, worden de twee punten die niet aan de minimumsterktevereisten voldoen niet getoond in uw aanbevelingen en door uw bepaalde reservepunten vervangen. De items met de sterkste affiniteit worden eerst weergegeven.
+
+Een online detailhandelaar kan bijvoorbeeld items in volgende bezoeken aanbevelen die een bezoeker in de afgelopen sessies interesseert. De activiteit voor elke sessie van de bezoeker wordt vastgelegd om een affiniteit te berekenen op basis van een recentiemodel en een frequentiemodel. Wanneer deze bezoeker terugkeert naar uw site, wordt de affiniteit van de site gebruikt om aanbevelingen weer te geven op basis van eerdere acties op uw site.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
@@ -313,11 +336,31 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 
 ### Topverkopers
 
-Geeft de meest verkochte objecten op uw site weer op basis van bezoekersconversies.
+Toont de punten die in de meest voltooide orden inbegrepen zijn. Meerdere eenheden van hetzelfde item in één volgorde worden als één volgorde geteld.
 
-Met deze logica kunt u aanbevelingen voor populaire items op uw site maken om de conversie te verhogen. Deze logica is vooral geschikt voor nieuwe bezoekers van uw site.
+Met deze logica kunt u aanbevelingen maken voor de meest verkochte items op uw site om de conversie en de omzet te verhogen. Deze logica is vooral geschikt voor nieuwe bezoekers van uw site.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
 * Favoriete rubriek
 * Populariteit
+
+### Op gebruiker gebaseerde Recommendations
+
+Aanbevolen objecten op basis van de browsergeschiedenis, weergavegeschiedenis en aankoopgeschiedenis van elke bezoeker. Deze objecten worden doorgaans &#39;Aanbevolen voor je&#39; genoemd.
+
+Met deze criteria kunt u persoonlijke inhoud en ervaringen aanbieden aan zowel nieuwe als geretourneerde bezoekers. De lijst met aanbevelingen is gericht op de meest recente activiteit van de bezoeker en wordt tijdens de sessie bijgewerkt en wordt meer gepersonaliseerd naarmate de gebruiker door uw site bladert.
+
+Zowel weergaven als aankopen worden gebruikt om de aanbevolen items te bepalen. De opgegeven aanbevelingssleutel (bijvoorbeeld Huidig item) wordt gebruikt om filters toe te passen die u voor de invoegregel selecteert.
+
+U kunt bijvoorbeeld:
+
+* Sluit items uit die niet aan bepaalde criteria voldoen (producten die niet in voorraad zijn, artikelen die meer dan 30 dagen geleden zijn gepubliceerd, films met R enzovoort).
+* Beperk opgenomen objecten tot één categorie of tot de huidige categorie.
+
+Deze logica kan met de volgende advisesleutels worden gebruikt:
+
+* Huidig item
+* Laatst gekocht object
+* Laatst weergegeven item
+* Meest bekeken item
