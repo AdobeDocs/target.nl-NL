@@ -1,13 +1,13 @@
 ---
 keywords: recommendation;backup;back up
-description: Als u de functie voor back-upaanbevelingen gebruikt, wordt er geen standaardinhoud weergegeven voor aanbevelingen die onvoldoende aanbevolen items bevatten. In plaats daarvan, tonen de aanbevelingen de resultaten van het reservealgoritme.
+description: Als u de functie voor het aanbevelen van back-ups in Adobe Target gebruikt, wordt er geen standaardinhoud weergegeven als er onvoldoende aanbevolen items zijn. In plaats daarvan, tonen de aanbevelingen de resultaten van het reservealgoritme.
 title: Een back-upaanbeveling gebruiken
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Gebruik een back-upaanbeveling{#use-a-backup-recommendation}
 
-Als u de functie voor back-upaanbevelingen gebruikt, wordt er geen standaardinhoud weergegeven voor aanbevelingen die onvoldoende aanbevolen items bevatten. In plaats daarvan, tonen de aanbevelingen de resultaten van het reservealgoritme.
+Als u de functie voor het aanbevelen van back-ups in Adobe Target gebruikt, wordt er geen standaardinhoud weergegeven als er onvoldoende aanbevolen items zijn. In plaats daarvan, tonen de aanbevelingen de resultaten van het reservealgoritme.
 
 Als u geen reserveaanbeveling gebruikt, als een aanbeveling niet genoeg punten heeft om de vertoning te vullen, toont het systeem standaardinhoud aan de gebruiker.
 
