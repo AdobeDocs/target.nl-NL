@@ -5,7 +5,7 @@ title: Criteria maken
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2297'
 ht-degree: 0%
@@ -81,7 +81,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
    >
    >Als u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** selecteert, kunt u regels [voor gelijkenis van de](#similarity)inhoud instellen.
 
-## Gegevensbron
+## Gegevensbron {#data-source}
 
 1. Plaats **[!UICONTROL Data Range]** om de tijdwaaier van beschikbare historische gegevens van het gebruikersgedrag te bepalen wanneer het bepalen van welke te tonen aanbevelingen.
 
@@ -224,7 +224,7 @@ Voer de volgende stappen uit om een eenvoudige regel voor insluiting te maken, z
 
 Zie [Dynamische en statische inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)gebruiken voor meer informatie.
 
-## Kenmerkweging
+## Kenmerkweging {#weighting}
 
 U kunt veelvoudige regels toevoegen om het algoritme &quot;te &quot;verschuiven&quot;dat op belangrijke informatie of meta-gegevens over de inhoudscatalogus wordt gebaseerd zodat bepaalde punten waarschijnlijker om worden getoond.
 
