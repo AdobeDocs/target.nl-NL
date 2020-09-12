@@ -5,7 +5,7 @@ title: Aangepaste criteria uploaden
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -39,7 +39,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
 1. (Voorwaardelijk) Vul de informatie in de sectie van de Regels [van de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) Opname in.
 
-1. (Voorwaardelijke invulling van de informatie in de sectie [Kenmerkweging](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
+1. (Voorwaardelijk) Vul de informatie in de sectie [Kenmerkweging](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) in.
 
 1. Selecteer in de **[!UICONTROL Upload CSV]** sectie de inhoud **[!UICONTROL Location]** van het CSV-bestand.
 
