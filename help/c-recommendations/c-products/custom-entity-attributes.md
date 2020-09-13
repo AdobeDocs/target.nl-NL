@@ -1,13 +1,14 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Gebruik de kenmerken van een enkele en meerdere aangepaste entiteit om aanvullende informatie over items in uw catalogus te definiëren.
-title: Aangepaste entiteitskenmerken
+title: Kenmerken van aangepaste entiteiten in Adobe Target
 feature: entities
+mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) -kenmerken van aangepaste entiteit{#custom-entity-attributes}
 
-Gebruik de kenmerken van een enkele en meerdere aangepaste entiteit om aanvullende informatie over items in uw catalogus te definiëren.
+Gebruik kenmerken van één en meerdere waarden voor aangepaste entiteiten in [!DNL Adobe Target Recommendations] om aanvullende informatie over items in uw catalogus te definiëren.
 
 ## Limieten {#limits}
 
@@ -33,15 +34,11 @@ Aangepaste entiteitskenmerken kunnen één waarde of meerdere waarden bevatten. 
 
 Een attribuut van de douaneentiteit met één enkele waarde wordt gevormd de zelfde manier zoals een enig-waarde vooraf bepaald entiteitsattribuut:
 
-```
-entity.genre=genre1
-```
+`entity.genre=genre1`
 
 Een attribuut van een aangepaste entiteit met meerdere waarden moet worden verzonden als een geldige JSON-array:
 
-```
-entity.genre=[“genre1”, “genre2”]
-```
+`entity.genre=[“genre1”, “genre2”]`
 
 Voorbeelden van geldige JSON-arrays die worden ondersteund door [!DNL Recommendations]:
 
@@ -67,7 +64,7 @@ Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het k
 
 ## Meerdere-waardekenmerken implementeren {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Aangepaste entiteitskenmerken voor meerdere waarden worden ondersteund wanneer u CSV-feeds (feeds), `targetPageParams`Delivery API en de Save entities API gebruikt om producten te uploaden. Nieuwe waarden vervangen huidige waarden. zij worden niet toegevoegd. Lege arrays ( [] ) worden beschouwd als arrays zonder waarden.
+Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund wanneer u CSV-feeds (feeds), `targetPageParams`Delivery API en de Save entities API gebruikt om producten te uploaden. Nieuwe waarden vervangen huidige waarden. zij worden niet toegevoegd. Lege arrays ( [] ) worden beschouwd als arrays zonder waarden.
 
 Dubbele aanhalingstekens moeten worden vermeden. Dit `"[""test"", ""value""]"` is bijvoorbeeld een geldige JSON-array die in CSV kan worden gebruikt.
 
@@ -104,7 +101,7 @@ Dezelfde catalogus ziet er zo uit in een spreadsheet:
 
 ![](assets/multi-value_example_excel.png)
 
-Bij het omzetten in [!DNL .csv] indeling worden dubbele aanhalingstekens toegevoegd rondom de celinhoud om te voorkomen dat komma&#39;s binnen de cel fungeren als kolomscheidingstekens. Er worden ook dubbele aanhalingstekens toegevoegd rondom JSON-tekenreekswaarden die u opneemt in aangepaste multiwaardekenmerken. Hierdoor kan het werken met het Raw-bestand lastig zijn. Bijvoorbeeld:
+Bij de conversie naar de CSV-indeling worden dubbele aanhalingstekens toegevoegd rondom de celinhoud om te voorkomen dat komma&#39;s binnen de cel fungeren als kolomscheidingstekens. Er worden ook dubbele aanhalingstekens toegevoegd rondom JSON-tekenreekswaarden die u opneemt in aangepaste multiwaardekenmerken. Hierdoor kan het werken met het Raw-bestand lastig zijn. Bijvoorbeeld:
 
 * Werkblad: `["1","2","3"]`
 * Onbewerkt: `"[""1"",""2"",""3""]"`
@@ -131,7 +128,7 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Raadpleeg de [Adobe Recommendations API-documentatie](http://developers.adobetarget.com/api/recommendations) voor informatie over de API&#39;s voor levering en opslaan.
+Raadpleeg de [Adobe Recommendations API-documentatie](http://developers.adobetarget.com/api/recommendations) voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -139,27 +136,118 @@ Wanneer u exploitanten op multi-getaxeerde douaneattributen in de regels van de 
 
 In het volgende voorbeeld is de regel `message contains abc`.
 
-Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde bevat `abc`.
-
-Zaak 2: `entity.genre = ["abcde","de","ef"]`. Het resultaat is waar omdat één waarde `abc`bevat.
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde bevat `abc`.
+* Zaak 2: `entity.genre = ["abcde","de","ef"]`. Het resultaat is waar omdat één waarde `abc`bevat.
 
 Voor negatieve operatoren moeten alle kenmerkwaarden worden doorgegeven (boolean *en*). Als de operator bijvoorbeeld `notEquals`is, is het resultaat *false* als een waarde overeenkomt.
 
-Raadpleeg de onderstaande tabel voor het gedrag van de operator in regels voor het opnemen van algoritmen, catalogusregels en uitsluitingsregels.
+Raadpleeg de volgende secties voor het gedrag van de operator in regels voor het opnemen van algoritmen, catalogusregels en uitsluitingsregels.
 
-| Operator | Gedrag | Voorbeeld |
-|--- |--- |--- |
-| Gelijk | Als een kenmerkwaarde gelijk is aan de invoerwaarde, resulteert dit in true. | `genre equals abc`<br>Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde gelijk is aan `abc`.<br>Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde gelijk is aan `abc`.<br>Zaak 3: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is false omdat `abc` het niet gelijk is aan een element in de lijst. |
-| Is niet gelijk aan | Als geen kenmerkwaarde gelijk is aan de invoerwaarde, resulteert dit in true. | `genre not equals abc`<br>Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde gelijk is aan `abc`.<br>Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is false omdat één waarde gelijk is aan `abc`.<br>Zaak 3: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat het niet gelijk `abc`is aan een element in de lijst. |
-| Bevat | Als een waarde van een kenmerk de invoerwaarde bevat, resulteert dit in true. | `genre contains abc`<br>Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde bevat `abc`.<br>Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde `abc`bevat. |
-| Bevat niet | Als geen waarde van kenmerk de invoerwaarde bevat, resulteert dit in true. | `genre does not contain abc`<br>Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde bevat `abc`.<br>Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. De regel resulteert in onwaar aangezien één waarde bevat`abc`. |
-| Begint met | Als een waarde van een kenmerk begint met de invoerwaarde, resulteert dit in true. | `genre starts with abc`<br>Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat er geen waarde begint met `abc`.<br>Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde begint met `abc`.<br>Zaak 3: `entity.genre = ["ab", "de", "abc"]`. Het resultaat is waar omdat één waarde begint met `abc` (niet noodzakelijkerwijs het eerste element in de lijst). |
-| Eindigt met | Als een waarde van een kenmerk eindigt met de invoerwaarde, resulteert dit in true. | `genre ends with abc`<br>Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde eindigt met `abc`.<br>Zaak 2: `entity.genre = ["deabc", "de", "ef"]`. Het resultaat is waar omdat één waarde eindigt met `abc`. |
-| Groter dan of gelijk aan (alleen numerieke waarden) | Kenmerkwaarde wordt omgezet in dubbel. Kenmerken die niet kunnen worden omgezet, worden overgeslagen tijdens het uitvoeren van de regel.<br>Na verwerking resulteert een kenmerkwaarde die groter is dan of gelijk is aan de invoerwaarde in true. | `price greater than or equal to 100`<br>Zaak 1: `entity.price = ["10", "20", "45"]`. Het resultaat is false omdat geen waarde groter dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.<br>Zaak 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden groter of gelijk zijn aan 100. |
-| Kleiner dan of gelijk aan (alleen numerieke waarden) | Kenmerkwaarde wordt omgezet in dubbel. Kenmerken die niet kunnen worden omgezet, worden overgeslagen tijdens het uitvoeren van de regel.<br>Na verwerking resulteert een kenmerkwaarde die kleiner is dan of gelijk is aan de invoerwaarde in true. | `price less than or equal to 100`<br>Zaak 1: `entity.price = ["101", "200", "141"]`. Het resultaat is false omdat geen waarde kleiner dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.<br>Zaak 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden kleiner dan of gelijk aan 100 zijn. |
-| Dynamisch overeenkomt (alleen beschikbaar in op items gebaseerde algoritmen) | Als een kenmerkwaarde overeenkomt met de invoerwaarde, resulteert dit in true. | `genre matches abc`<br> Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde overeenkomt `abc`.<br>Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde overeenkomt `abc`. |
-| Komt dynamisch niet overeen (alleen beschikbaar in op items gebaseerde algoritmen) | Als een kenmerkwaarde overeenkomt met de invoerwaarde, resulteert dit in false. | `genre does not match abc`<br>Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde overeenkomt `abc`.<br>Zaak 2: `entity.genre = ["abc", "de", "ef"]`. De regel resulteert in false als één waarde overeenkomt `abc`. |
-| Dynamisch bereik (alleen beschikbaar in op items gebaseerde algoritmen, alleen numerieke waarden) | Als een numerieke kenmerkwaarde binnen het opgegeven bereik ligt, resulteert dit in true. | `price dynamically ranges in 80% to 120% of 100`<br>Zaak 1: `entity.price = ["101", "200", "125"]`. Het resultaat is waar, want `101` ligt tussen 80 en 120 procent van 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.<br>Zaak 2: `entity.price = ["130", "191", "60", "75"]`. Het resultaat is onwaar omdat geen waarde tussen 80% en 120% van 100 ligt. |
+### Gelijk
+
+Als een kenmerkwaarde gelijk is aan de invoerwaarde, resulteert dit in true.
+
+Voorbeeld: `genre equals abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde gelijk is aan `abc`.
+* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde gelijk is aan `abc`.
+* Zaak 3: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is false omdat `abc` het niet gelijk is aan een element in de lijst.
+
+### Is niet gelijk aan
+
+Als geen kenmerkwaarde gelijk is aan de invoerwaarde, resulteert dit in true.
+
+Voorbeeld: `genre not equals abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde gelijk is aan `abc`.
+* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is false omdat één waarde gelijk is aan `abc`.
+* Zaak 3: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat het niet gelijk `abc`is aan een element in de lijst.
+
+### Bevat
+
+Als een waarde van een kenmerk de invoerwaarde bevat, resulteert dit in true.
+
+Voorbeeld: `genre contains abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde bevat `abc`.
+* Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde `abc`bevat.
+
+### Bevat niet
+
+Als geen waarde van kenmerk de invoerwaarde bevat, resulteert dit in true.
+
+Voorbeeld: `genre does not contain abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde bevat `abc`.
+* Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. De regel resulteert in onwaar aangezien één waarde bevat`abc`.
+
+### Begint met
+
+Als een waarde van een kenmerk begint met de invoerwaarde, resulteert dit in true.
+
+Voorbeeld: `genre starts with abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat er geen waarde begint met `abc`.
+* Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde begint met `abc`.
+* Zaak 3: `entity.genre = ["ab", "de", "abc"]`. Het resultaat is waar omdat één waarde begint met `abc` (niet noodzakelijkerwijs het eerste element in de lijst).
+
+### Eindigt met
+
+Als een waarde van een kenmerk eindigt met de invoerwaarde, resulteert dit in true.
+
+Voorbeeld: `genre ends with abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde eindigt met `abc`.
+* Zaak 2: `entity.genre = ["deabc", "de", "ef"]`. Het resultaat is waar omdat één waarde eindigt met `abc`.
+
+### Groter dan of gelijk aan (alleen numerieke waarden)
+
+Kenmerkwaarde wordt omgezet in dubbel. Kenmerken die niet kunnen worden omgezet, worden overgeslagen tijdens het uitvoeren van de regel.
+
+Na verwerking resulteert een kenmerkwaarde die groter is dan of gelijk is aan de invoerwaarde in true.
+
+Voorbeeld: `price greater than or equal to 100`
+
+* Zaak 1: `entity.price = ["10", "20", "45"]`. Het resultaat is false omdat geen waarde groter dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.
+* Zaak 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden groter of gelijk zijn aan 100.
+
+### Kleiner dan of gelijk aan (alleen numerieke waarden)
+
+Kenmerkwaarde wordt omgezet in dubbel. Kenmerken die niet kunnen worden omgezet, worden overgeslagen tijdens het uitvoeren van de regel.
+
+Na verwerking resulteert een kenmerkwaarde die kleiner is dan of gelijk is aan de invoerwaarde in true.
+
+Voorbeeld: `price less than or equal to 100`
+
+* Zaak 1: `entity.price = ["101", "200", "141"]`. Het resultaat is false omdat geen waarde kleiner dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.
+* Zaak 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden kleiner dan of gelijk aan 100 zijn.
+
+### Dynamisch overeenkomt (alleen beschikbaar in op items gebaseerde algoritmen)
+
+Als een kenmerkwaarde overeenkomt met de invoerwaarde, resulteert dit in true.
+
+Voorbeeld: `genre matches abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde overeenkomt `abc`.
+* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde overeenkomt `abc`.
+
+### Komt dynamisch niet overeen (alleen beschikbaar in op items gebaseerde algoritmen)
+
+Als een kenmerkwaarde overeenkomt met de invoerwaarde, resulteert dit in false.
+
+Voorbeeld: `genre does not match abc`
+
+* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde overeenkomt `abc`.
+* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. De regel resulteert in false als één waarde overeenkomt `abc`.
+
+### Dynamisch bereik (alleen beschikbaar in op items gebaseerde algoritmen, alleen numerieke waarden)
+
+Als een numerieke kenmerkwaarde binnen het opgegeven bereik ligt, resulteert dit in true.
+
+Voorbeeld: `price dynamically ranges in 80% to 120% of 100`
+
+* Zaak 1: `entity.price = ["101", "200", "125"]`. Het resultaat is waar, want `101` ligt tussen 80 en 120 procent van 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.
+* Zaak 2: `entity.price = ["130", "191", "60", "75"]`. Het resultaat is onwaar omdat geen waarde tussen 80% en 120% van 100 ligt.
 
 >[!NOTE]
 >
