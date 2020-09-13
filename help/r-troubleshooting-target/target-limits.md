@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,9 @@ Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99,
 
 ## Aangepaste kenmerken van entiteit
 
-**Limiet**: De maximale lengte is afhankelijk van de taal.
+U kunt maximaal 100 aangepaste entiteitskenmerken opnemen
+
+**Limiet**: De maximale tekenlengte is afhankelijk van de taal.
 
 * 15.000 tekens (talen van één waarde, van één en van twee bytes)
 * 500 waarden, 100 tekens per waarde (meerdere waarden)
