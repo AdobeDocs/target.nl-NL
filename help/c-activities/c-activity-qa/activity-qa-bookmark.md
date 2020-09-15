@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+U kunt uzelf ook handmatig uit de QA-modus afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde.
+
+Bijvoorbeeld:
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## Activity QA bookmarklet voor at.js 2.*x*
 
 In tegenstelling tot at.js 1.*x*, at.js 2.*x* ondersteunt geen cookies van derden en de QA-modus blijft alleen van toepassing op het domein van de eerste partij (door middel van een cookie van de eerste partij ingesteld door at.js). Dus in at.js 2.*x*, wordt de QA wijzesessie beheerd slechts op cliënt-kant en geen QA wijzecookies worden verzonden naar Doel.
@@ -70,8 +76,3 @@ javascript:(
 
 Klik op de bladwijzer op de werkbalk van uw browser.
 
-U kunt uzelf ook handmatig uit de QA-modus afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde.
-
-Bijvoorbeeld:
-
-`https://www.mysite.com/?at_preview_token=`
