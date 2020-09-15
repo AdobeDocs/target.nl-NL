@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 9 september 2020**
+**Laatst bijgewerkt: 15 september 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -38,6 +38,12 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
    >
 * **Doelaankondigingen**: Zie de de aankondigingspagina van het Doel voor informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van het Break van de Koffie van het Doel. Voor meer informatie, zie [de aankondigingen](/help/r-release-notes/target-announcements.md)van het Doel.
 
+
+## Target Standard/Premium 20.8.3 (15 september 2020)
+
+| Functie | Details |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Analytics for Target (A4T) support for Auto-Target activities | [!UICONTROL Auto-Target] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Dankzij deze integratie kunt u het leeralgoritme voor [!UICONTROL Auto-Target] ensemble-machines gebruiken om een beste ervaring te kiezen voor elke bezoeker op basis van zijn profiel, gedrag en context.<br>Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar!<br>Zie [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie. |
 
 ## Target Standard/Premium 20.8.2 (10 september 2020)
 
