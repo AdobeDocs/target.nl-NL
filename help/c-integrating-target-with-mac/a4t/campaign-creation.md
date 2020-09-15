@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -70,57 +70,69 @@ Het maken van een [!DNL Target] activiteit die gebruikt wordt [!DNL Analytics] a
 
 1. Klik op **[!UICONTROL Save]**.
 
-## Analyses voor doelondersteuning (A4T) voor activiteiten voor automatisch toewijzen {#a4t-aa}
+## Analyses voor doelondersteuning (A4T) voor activiteiten voor automatisch toewijzen en automatisch doel {#a4t-aa}
 
-De integratie tussen Adobe Target en Adobe Analytics is nu verbeterd. Dit wordt [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)genoemd.
+De integratie tussen Adobe Target en Adobe Analytics is nu verbeterd. Dit wordt [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)genoemd. Automatische toewijzing en Auto-Target activiteiten ondersteunen nu Analytics for Target.
 
-[!UICONTROL Auto-Allocate] activiteiten ondersteunen nu [!UICONTROL Analytics for Target]. Dankzij deze integratie kunt u de multi-gewapende bandmogelijkheden van Auto-Allocate gebruiken om het verkeer naar het winnen van ervaringen te sturen en tegelijkertijd een [!DNL Adobe Analytics] doel-metrische en/of [!DNL Adobe Analytics] rapporterings- en analysemogelijkheden te gebruiken. Als u A4T al hebt [geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md), bent u klaar om te gaan!
+Dankzij deze integratie kunt u:
+
+* Gebruik de [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)&#39;s multi-gewapende bandmogelijkheden om verkeer aan het winnen ervaringen te drijven.
+* Gebruik het [sensemble Machine Learning-algoritme van Auto-Target](/help/c-activities/auto-target-to-optimize.md)om een beste ervaring voor elke bezoeker te kiezen op basis van hun profiel, gedrag en context.
+
+Alles terwijl het gebruiken van een [!DNL Adobe Analytics] doel metrisch en [!DNL Adobe Analytics]&#39; rijke rapportering en analysemogelijkheden.
+
+Als u A4T al hebt [geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md), is er geen extra installatie vereist, bent u klaar om te gaan!
 
 Aan de slag:
 
-1. Maak een A/B-testactiviteit en selecteer deze **[!UICONTROL Auto-allocate to best experience]** als de **[!UICONTROL Traffic Allocation Method]** op de [!UICONTROL Targeting] pagina.
+1. Selecteer op de **[!UICONTROL Targeting]** pagina tijdens het maken van een testactiviteit A/B een van de volgende opties als de **[!UICONTROL Traffic Allocation Method]**:
+
+   * Automatisch toewijzen aan de beste ervaring
+   * Automatisch richten voor persoonlijke ervaringen
+
 1. Selecteer **[!UICONTROL Adobe Analytics]** voor uw **[!UICONTROL Reporting Source]** op de **[!UICONTROL Goals & Settings]** pagina en selecteer de rapportreeks die aan uw gewenste optimaliseringsdoel beantwoordt.
+
 1. Kies een maatstaf voor het primaire doel.
 
-   Kies **[!UICONTROL Conversion]** om het optimalisatiedoel [!DNL Adobe Target] op te geven.
-
-   of
-
-   Kies **[!UICONTROL Use an Analytics metric]** en selecteer dan metrisch van [!DNL Analytics] voor gebruik als optimalisatiedoel. U kunt een metrische [!DNL Analytics] omzetting uit-van-doos, of een [!DNL Analytics] douanegebeurtenis gebruiken.
+   * Kies **[!UICONTROL Conversion]** om het optimalisatiedoel [!DNL Adobe Target] op te geven.
+   * Kies **[!UICONTROL Use an Analytics metric]** en selecteer dan metrisch van [!DNL Analytics] voor gebruik als optimalisatiedoel. U kunt een metrische [!DNL Analytics] omzetting uit-van-doos, of een [!DNL Analytics] douanegebeurtenis gebruiken.
 
 1. Sla uw activiteiten op en activeer deze.
 
    [!UICONTROL Auto-Allocate] zal uw geselecteerde metrisch gebruiken om de activiteit te optimaliseren, die bezoekers aan de ervaring drijft die uw doel metrisch maximaliseert.
 
+   [!UICONTROL Auto-Target] zal uw geselecteerde metrische waarde gebruiken om de activiteit te optimaliseren, bezoekers naar een gepersonaliseerde beste ervaring drijven.
+
 1. Gebruik het **[!UICONTROL Reports]** tabblad om de rapportage van uw activiteit weer te geven op basis van [!DNL Adobe Analytics] maateenheden. Klik **[!UICONTROL View in Analytics]** om uw rapportgegevens dieper en verder te segmenteren.
 
 ### Ondersteunde streefcijfers
 
-A4T voor [!UICONTROL Auto-Allocate] staat u toe om het even welke volgende metrische types als uw primaire doel metrisch voor optimalisering te kiezen:
+[!UICONTROL A4T] voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] staat u toe om het even welke volgende metrische types als uw primaire doel metrisch voor optimalisering te kiezen:
 
 * [!DNL Adobe Target] conversiemetingen
 * [!DNL Adobe Analytics] conversiemetingen
 * [!DNL Adobe Analytics] aangepaste gebeurtenissen
 
-A4T voor [!UICONTROL Auto-Allocate] vereist u om metrisch te kiezen die op een binomiale gebeurtenis gebaseerd is, dat wil zeggen, een gebeurtenis die of doet of niet gebeurt, bijvoorbeeld een klik, een omzetting, een orde, enz. (Deze typen gebeurtenissen worden ook wel Bernoulli, binaire of discrete gebeurtenissen genoemd.)
+[!UICONTROL A4T] voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] vereist u om metrisch te kiezen die op een binomiale gebeurtenis gebaseerd is, namelijk een gebeurtenis die of gebeurt of niet, bijvoorbeeld een klik, een omzetting, een orde, enz. (Deze typen gebeurtenissen worden ook wel Bernoulli, binaire of discrete gebeurtenissen genoemd.)
 
-A4T for [!UICONTROL Auto-Allocate] ondersteunt geen optimalisatie voor doorlopende metriek zoals opbrengst, aantal bestelde producten, sessieduur, aantal paginaweergaven in sessie, enz. (Deze niet-ondersteunde typen metriek worden ook wel niet-binomiale of niet-Bernoulli-metriek genoemd.)
+[!UICONTROL A4T] voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] ondersteunt geen optimalisatie voor doorlopende meetgegevens zoals opbrengst, aantal bestelde producten, sessieduur, aantal paginaweergaven tijdens sessies, enz. (Deze niet-ondersteunde typen metriek worden ook wel niet-binomiale of niet-Bernoulli-metriek genoemd.)
 
 De volgende metrische types zijn niet gesteund als primaire doelmetriek:
 
 * [!DNL Adobe Target] service- en inkomstencijfers
 * [!DNL Adobe Analytics] service- en inkomstencijfers
 
-   >[!NOTE]
-   >
-   >Het kan mogelijk zijn om de metriek van [!DNL Analytics] betrokkenheid en opbrengst als uw primaire doel te selecteren omdat [!DNL Target] niet alle overeenkomst en opbrengstmetriek van kan identificeren [!DNL Analytics]. Wees voorzichtig met het selecteren van alleen metriek voor binomiale conversie of aangepaste gebeurtenissen van [!DNL Analytics].
+   Het kan mogelijk zijn om een metrische [!DNL Analytics] betrokkenheid of opbrengst als uw primaire doel te selecteren omdat [!DNL Target] niet alle overeenkomst en opbrengstmetriek van [!DNL Analytics]. kan identificeren en uitsluiten. Wees voorzichtig met het selecteren van alleen metriek voor binomiale conversie of aangepaste gebeurtenissen van [!DNL Analytics].
 
-* Berekende Adobe Analytics-waarden
+* [!DNL Adobe Analytics] berekende meetwaarden
 
 ### Beperkingen en opmerkingen
 
 * Zodra een activiteit is geactiveerd, kan de bron van de rapportage niet worden gewijzigd van [!DNL Analytics] naar [!DNL Target] of omgekeerd.
 * Hoewel de berekende metriek niet als primaire doelmetriek worden gesteund, is het vaak mogelijk om het voorgenomen resultaat te bereiken door in plaats daarvan een douanegebeurtenis als primaire doel metrisch te selecteren. Als u bijvoorbeeld wilt optimaliseren voor metrische gegevens, zoals &#39;formulieraanvullen per bezoeker&#39;, selecteert u een aangepaste gebeurtenis die overeenkomt met &#39;formulieraanvullen&#39; als maatstaf voor het primaire doel. [!DNL Target] normaliseert automatisch omzettingsmetriek op een per-bezoek basis om voor ongelijke verkeersdistributie rekening te houden, zodat is het niet noodzakelijk om berekende metrisch te gebruiken om normalisatie uit te voeren.
-* [!DNL Target] gebruikt het attributiemodel &quot;Same Touch&quot; in de Auto-Allocate A4T implementatie.
+* [!DNL Target] gebruikt het attributiemodel &quot;Same Touch&quot; in de [!UICONTROL Auto-Allocate] A4T-implementatie.
+* [!UICONTROL Auto-Allocate] de modellen blijven elke twee uur trainen , zoals gewoonlijk .
+* [!UICONTROL Auto-Target] de modellen blijven elke 24 uur trainen , zoals gewoonlijk . De conversiegegevens die afkomstig zijn van [!DNL Analytics] conversiegebeurtenissen worden echter met nog eens zes tot 24 uur vertraagd. Dit betekent de verdeling van het verkeer door [!DNL Target] de meest recente gebeurtenissen te volgen die in [!DNL Adobe Analytics]. Dit heeft het grootste effect in de eerste 48 uur nadat een activiteit voor het eerst is geactiveerd; de prestaties van de activiteit zullen het [!DNL Adobe Analytics] omzettingsgedrag na vijf dagen beter weerspiegelen. U zou moeten overwegen [!UICONTROL Auto-Allocate] in plaats van [!UICONTROL Auto-Target] voor kortdurende activiteiten te gebruiken waar het meeste verkeer binnen de eerste vijf dagen van het leven van de activiteit voorkomt.
+* Wanneer het gebruiken [!DNL Analytics] als gegevensbron voor een [!UICONTROL Auto-Target] activiteit, worden de zittingen beschouwd om na zes uren zijn verlopen. Conversies die na zes uur plaatsvinden, worden niet geteld.
 
-Zie Overzicht [van](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) kenmerken in de handleiding *Analytics Tools* voor meer informatie.
+Voor meer informatie, zie de modellen van de [Attributie en raadplegingsvensters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) in de Gids *van Hulpmiddelen van de* Analyse.
