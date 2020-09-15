@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 15 september | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de introductie van de Target Standard/Premium 20.8.3, die ondersteuning van Analytics for Target (A4T) voor Auto-Target-activiteiten omvat. Ondersteuning voor activiteiten voor automatisch toewijzen is toegevoegd aan een vorige release. |
+|  | [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). | Toegevoegde informatie over steun A4T in auto-Doelactiviteiten. |
+|  | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Bijgewerkte tekst die aangeeft dat de methode om uzelf handmatig uit de QA-modus te dwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde, van toepassing is op at.js 1.*alleen x* . |
+|  | [Catalogus zoeken](/help/c-recommendations/c-products/catalog-search.md) | Volledig onderwerp bijgewerkt. |
 | 10 september | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de release van Target Standard/Premium 20.9.2 met de volgende nieuwe functie: De aanbevelingen van de controle groeven binnen criteria opeenvolgingen. |
 |  | [Criteria-reeksen maken](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Informatie toegevoegd over de functie &#39;Het aantal geretourneerde items beperken&#39;. |
 | 9 september | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Toegevoegde JavaScript-code voor gebruik met at.js 2.*x*. |
