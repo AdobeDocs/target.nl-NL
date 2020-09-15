@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ De [!DNL Analytics for Target] integratie tussen [!DNL Analytics] en [!DNL Targe
 De drie belangrijkste voordelen van het gebruik van [!DNL Analytics] gegevens in [!DNL Target] zijn:
 
 * Marketers kunnen op elk gewenst moment dynamisch [!DNL Analytics] succesmaatstaven of rapportsegmenten toepassen op [!DNL Target] activiteitenrapporten. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
-* Een enkele gegevensbron voorkomt de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
+* Eén gegevensbron voorkomt de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
 * Met uw bestaande [!DNL Analytics] implementatie worden alle vereiste gegevens verzameld. Het is niet nodig vakken op pagina&#39;s te implementeren om alleen gegevens voor rapporten te verzamelen. Hoewel, wordt het nog geadviseerd dat u een doos van de orderbevestiging voor de activiteiten van [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) uitvoert.
 
 >[!IMPORTANT]
@@ -63,10 +63,10 @@ In de volgende tabel wordt aangegeven welke typen activiteiten worden ondersteun
 | Activiteitstypen | A4T-compatibel? | Opmerkingen, indien van toepassing |
 |--- |--- |--- |
 | A/B-activiteit met handmatige verkeersverdeling | Ja |  |
-| A/B-activiteit met automatisch toewijzen | Ja | Zie [Analytics voor de steun van het Doel (A4T) voor auto-Wijs activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| A/B activiteit met AutoTarget | Nee |  |
+| A/B-activiteit met automatisch toewijzen | Ja | Zie [Analytics voor de steun van het Doel (A4T) voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| A/B activiteit met AutoTarget | Ja | Zie [Analytics voor de steun van het Doel (A4T) voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
 | Gericht op ervaring (XT) | Ja |  |
-| MVT (Multivariate Test) | Ja | Vereist mbox-based doel metrisch doel om het [!UICONTROL Element Contribution] rapport te krijgen.  Het [!UICONTROL Element Contribution] rapport ondersteunt momenteel geen [!DNL Analytics] metriek. |
+| MVT (Multivariate Test) | Ja | Vereist op box-Gebaseerd doel metrisch doel om het [!UICONTROL Element Contribution] rapport te krijgen.  Het [!UICONTROL Element Contribution] rapport ondersteunt momenteel geen [!DNL Analytics] metriek. |
 | Automated Personalization (AP)-activiteit | Nee |  |
 | Recommendations-activiteit | Ja |  |
 | Mobiele app | Ja | Ondersteund met de SDK voor mobiele services, versie 4.13.1 of hoger.  Raadpleeg de documentatie bij [Mobiele services voor meer informatie](https://docs.adobe.com/content/help/en/mobile-services/using/home.html). |
