@@ -5,9 +5,9 @@ title: Cataloguszoekopdracht in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
 
 U kunt uw zoekresultaten verder verfijnen of [!UICONTROL Advanced Search] de zoekresultaten opslaan als een [verzameling](/help/c-recommendations/c-products/collections.md) of [uitsluiting](/help/c-recommendations/c-products/exclusions.md).
 
-1. Klik op de **[!UICONTROL Advanced Search]** knop.
+1. Klik op de **[!UICONTROL Advanced Search]** koppeling.
 
    ![Geavanceerde zoekpagina](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ Alle informatie over dat item wordt verwijderd uit de catalogusindex. Het item w
 
 ## De catalogus vernieuwen
 
-De index van de catalogus wordt automatisch gemaakt wanneer u de eerste feed uploadt en wordt vernieuwd volgens het opgegeven schema.
+De index van de catalogus wordt automatisch gemaakt wanneer u de eerste feed uploadt en wordt vernieuwd volgens het [opgegeven schema](/help/c-recommendations/c-products/feeds.md#steps).
 
 De catalogus wordt automatisch vernieuwd wanneer updates worden ontvangen via feed-bestanden, API- of mbox-updates. Updates worden meestal binnen een uur voltooid. Als er updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart. Als er geen updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart en voltooid.
 
@@ -118,7 +118,7 @@ U kunt [verzamelingen](/help/c-recommendations/c-products/collections.md) of [ui
 
 1. Voer een [geavanceerde zoekopdracht](#advanced-search)uit.
 
-1. (Optioneel) Klik **[!UICONTROL Save As]** vervolgens op **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]**.
+1. Klik **[!UICONTROL Save As]**, dan klik **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]**.
 
    ![Opslaan als opties](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -150,6 +150,8 @@ U kunt extra filterfacetten aan de [!UICONTROL Catalog Search] pagina toevoegen.
 
 1. Selecteer de gewenste zoekfacetten (ID, naam, bericht, enz.).
 
+   ![Filters toevoegen](/help/c-recommendations/c-products/assets/add-filters.png)
+
 Houd er rekening mee dat de extra filterfacetten alleen beschikbaar zijn in de huidige sessie.
 
 ### Kolommen wijzigen
@@ -166,4 +168,4 @@ U kunt de actieve kolommen op de [!UICONTROL Catalog Search] pagina tijdelijk wi
 
    U kunt ook op het verwijderpictogram ( x ) klikken naast de kolom die u van de actieve naar de niet-actieve sectie wilt verplaatsen.
 
-Houd er rekening mee dat de wijzigingen die u aanbrengt, alleen van toepassing zijn op de huidige sessie.
+Wijzigingen die u aanbrengt, gelden alleen voor de huidige sessie.
