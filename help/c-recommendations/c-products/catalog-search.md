@@ -5,9 +5,9 @@ title: Cataloguszoekopdracht in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -15,39 +15,155 @@ ht-degree: 0%
 
 # ![zoeken naar PREMIUM](/help/assets/premium.png) -catalogus {#catalog-search}
 
-Met de zoekopdracht in de catalogus kunt u de producten of inhoud in de catalogus zoeken.
+Op deze [!UICONTROL Catalog Search] pagina kunt u de producten of inhoud in uw catalogus vinden.
 
-Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus kan vele inzamelingen-manier bevatten om uw producten in logische emmers te organiseren.
 
-U kunt uw zoekopdracht verfijnen door een zoekoptie te selecteren in het optiemenu dat wordt weergegeven wanneer u op de pijl omlaag klikt in het zoekveld.
+Als u de [!UICONTROL Catalog Search] pagina wilt openen, klikt u op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-![](assets/searchproductsmenu.png)
+![Pagina Zoeken in catalogus](/help/c-recommendations/c-products/assets/catalog-search.png)
 
-Zoekopties zijn onder andere:
+De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Bovendien kunt u het milieu veranderen; de zoekresultaten opslaan in verzamelingen of uitsluitingen; U kunt kolommen aan de tabel toevoegen, eruit verwijderen of de volgorde ervan wijzigen en nieuwe zoekfacetten aan het [!UICONTROL Filters] deelvenster toevoegen.
 
-* ALLES
-* Naam
-* Merk
-* Categorie
-* ID
-* Bericht
+## Zoeken naar een object
 
-**[!UICONTROL ALL]** zoekt in alle andere zoekcriteria met OR-logica.
+U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om items in uw catalogus te zoeken.
 
-In de onderzoeksresultaten, klikt u de **[!UICONTROL Environment]** filter om het milieu [van de de](/help/administrating-target/hosts.md) gastheergroep van de productie te specificeren waarvan catalogus u toont. U kunt ook door de items in de zoekresultaten bladeren om miniaturen en andere productinformatie weer te geven.
+### Een eenvoudige zoekopdracht uitvoeren
 
-Het aantal dat naast &quot;Producten&quot;toont is het aantal producten die de onderzoekstermijn aanpassen, van het totaal beschikbaar in het gespecificeerde milieu.
+1. Typ een zoekterm in het **[!UICONTROL Search Products]** veld.
+
+1. (Optioneel) U kunt uw zoekopdracht verfijnen door een zoekoptie te selecteren in het optiemenu dat wordt weergegeven wanneer u op de pijl omlaag klikt in het zoekveld.
+
+   ![](assets/searchproductsmenu.png)
+
+   Zoekopties zijn onder andere:
+
+   * ALL - Zoekt over alle andere onderzoekscriteria, gebruikend OF logica.
+   * Naam
+   * Merk
+   * Categorie
+   * ID
+   * Bericht
+
+1. U kunt nu door de items in de zoekresultaten bladeren om miniaturen en andere productinformatie weer te geven.
+
+   In de volgende afbeelding ziet u de resultaten van de optie Alles voor &quot;fiets&quot;.
+
+   ![Catalogus zoeken naar fiets](/help/c-recommendations/c-products/assets/bike-results.png)
+
+   Het aantal dat naast &quot;Producten&quot;toont is het aantal producten die de onderzoekstermijn aanpassen, van het totaal beschikbaar in het gespecificeerde milieu.
+
+   U kunt de functie voor automatisch aanvullen zoeken gebruiken. In de volgende afbeelding retourneert het typen van &quot;bik&quot; alle producten die het woord &quot;cycle&quot; bevatten.
+
+   ![Zoekopdracht automatisch voltooid](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+1. U kunt filters ook gebruiken om het gewenste product te vinden. In het volgende voorbeeld worden alle fietsgereedschappen in het catalogusscherm weergegeven door het [!UICONTROL Collections] facet uit te vouwen en Extra&#39;s maken te selecteren.
+
+   ![Teken-gereedschappen](/help/c-recommendations/c-products/assets/bike-results-3.png)
+
+1. U kunt verder zoeken in de resultatenlijst door een zoekterm in te voeren, bijvoorbeeld &#39;keten&#39;.
+
+   ![Zoeken naar keten](/help/c-recommendations/c-products/assets/bike-results-4.png)
+
+### Een geavanceerde zoekopdracht uitvoeren {#advanced-search}
+
+U kunt uw zoekresultaten verder verfijnen of [!UICONTROL Advanced Search] de zoekresultaten opslaan als een [verzameling](/help/c-recommendations/c-products/collections.md) of [uitsluiting](/help/c-recommendations/c-products/exclusions.md).
+
+1. Klik op de **[!UICONTROL Advanced Search]** knop.
+
+   ![Geavanceerde zoekpagina](/help/c-recommendations/c-products/assets/advances-search.png)
+
+1. Gebruik de vervolgkeuzelijsten om de parameter, de operator en de waarden voor uw zoekopdracht op te geven.
+
+1. (Optioneel) Klik **[!UICONTROL Add Rule]** om een extra zoekregel toe te voegen.
+
+   Elke extra onderzoeksregel wordt aangesloten bij de exploitant AND.
+
+1. Klik op **[!UICONTROL Search]**.
+
+1. (Optioneel) Klik **[!UICONTROL Save As]** vervolgens op **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]**.
+
+   ![Opslaan als opties](/help/c-recommendations/c-products/assets/save-as.png)
+
+   Zie [Een verzameling of uitsluiting maken op basis van Geavanceerd zoeken](#save-as) hieronder voor meer informatie.
+
+## Details van een object bekijken
+
+U kunt de details van een afzonderlijk item, zoals de id, de naam, het bericht, de categorie en meer, weergeven door de details ervan weer te geven.
+
+1. Klik op een item in de zoekresultaten om de details weer te geven.
+
+   ![Productgegevens](/help/c-recommendations/c-products/assets/bike-results-5.png)
+
+## Een item uit de catalogus verwijderen
+
+1. Klik op een item in de zoekresultaten om de details weer te geven.
+
+1. Klik op **[!UICONTROL Remove from Catalog]**.
+
+1. Bevestig dat u het item wilt verwijderen.
+
+Alle informatie over dat item wordt verwijderd uit de catalogusindex. Het item wordt alleen in de catalogus opgenomen als het opnieuw wordt toegevoegd aan een gegevensfeed. Een verwijderd item moet afzonderlijk van feeds worden verwijderd.
+
+## De catalogus vernieuwen
+
+De index van de catalogus wordt automatisch gemaakt wanneer u de eerste feed uploadt en wordt vernieuwd volgens het opgegeven schema.
 
 De catalogus wordt automatisch vernieuwd wanneer updates worden ontvangen via feed-bestanden, API- of mbox-updates. Updates worden meestal binnen een uur voltooid. Als er updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart. Als er geen updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart en voltooid.
 
-## Een verzameling of uitsluiting maken op basis van Geavanceerd zoeken
+## Een verzameling of uitsluiting maken op basis van Geavanceerd zoeken {#save-as}
 
-U kunt [verzamelingen](/help/c-recommendations/c-products/collections.md) of [uitsluitingen](/help/c-recommendations/c-products/exclusions.md) maken met Geavanceerd zoeken op de pagina Catalogus zoeken ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt [verzamelingen](/help/c-recommendations/c-products/collections.md) of [uitsluitingen](/help/c-recommendations/c-products/exclusions.md) maken [!UICONTROL Advanced Search] op de [!UICONTROL Catalog Search] pagina ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Opslaan als dialoogvenster](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+1. Voer een [geavanceerde zoekopdracht](#advanced-search)uit.
 
-Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Collection or Exclusion]klikken.
+1. (Optioneel) Klik **[!UICONTROL Save As]** vervolgens op **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]**.
 
->[!IMPORTANT]
->
->De functie Geavanceerd zoeken is niet hoofdlettergevoelig. producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen of uitsluitingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de bedoeling producten met &quot;vakantie&quot; terug te sturen, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd. Uitsluitingen worden op vergelijkbare wijze behandeld.
+   ![Opslaan als opties](/help/c-recommendations/c-products/assets/save-as.png)
+
+   >[!IMPORTANT]
+   >
+   >De [!UICONTROL Advanced Search] functionaliteit is niet hoofdlettergevoelig; producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen of uitsluitingen maakt op basis van resultaten met de [!UICONTROL Advanced Search] functionaliteit. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de bedoeling producten met &quot;vakantie&quot; terug te sturen, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd. Uitsluitingen worden op vergelijkbare wijze behandeld.
+
+## De omgeving wijzigen
+
+[Met omgevingen](/help/administrating-target/environments.md) kunt u uw sites en pre-productieomgevingen ordenen voor eenvoudig beheer en gescheiden rapportage.
+
+1. Klik op de koppeling Omgeving.
+
+   ![Omgevingslink](/help/c-recommendations/c-products/assets/environment.png)
+
+1. Selecteer de gewenste omgeving.
+
+## De pagina Catalogus zoeken (filters en kolommen) wijzigen
+
+U kunt tijdelijk de beschikbare filters en kolommen op de [!UICONTROL Catalog Search] pagina voor de huidige zitting wijzigen.
+
+### Filters wijzigen
+
+U kunt extra filterfacetten aan de [!UICONTROL Catalog Search] pagina toevoegen.
+
+1. Klik in het **[!UICONTROL Filters]** deelvenster op **[!UICONTROL Modify]**.
+
+   ![Filters wijzigen, koppeling](/help/c-recommendations/c-products/assets/modify-filters.png)
+
+1. Selecteer de gewenste zoekfacetten (ID, naam, bericht, enz.).
+
+Houd er rekening mee dat de extra filterfacetten alleen beschikbaar zijn in de huidige sessie.
+
+### Kolommen wijzigen
+
+U kunt de actieve kolommen op de [!UICONTROL Catalog Search] pagina tijdelijk wijzigen.
+
+1. Klik op de **[!UICONTROL Columns]** koppeling.
+
+   ![Kolomopties](/help/c-recommendations/c-products/assets/columns.png)
+
+1. (Voorwaardelijk) Als u de volgorde van actieve kolommen wilt wijzigen, sleept u de kolommen in de **[!UICONTROL Active Columns]** sectie en zet u ze neer in de gewenste volgorde.
+
+1. (Voorwaardelijk) belemmering en laat vallen punten van **[!UICONTROL Active Columns]** aan **[!UICONTROL Inactive Columns]** (en vice versa), zoals gewenst.
+
+   U kunt ook op het verwijderpictogram ( x ) klikken naast de kolom die u van de actieve naar de niet-actieve sectie wilt verplaatsen.
+
+Houd er rekening mee dat de wijzigingen die u aanbrengt, alleen van toepassing zijn op de huidige sessie.
