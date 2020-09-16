@@ -5,9 +5,9 @@ title: Uitsluitingen in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 # Uitsluitingen{#exclusions}
 
-Maak een uitsluitingslijst om te voorkomen dat items worden aanbevolen.
+Maak een uitsluiting in [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen.
+
+Een uitsluiting is een subset van producten of inhoud die niet aan uw bezoekers mag worden aanbevolen. U kunt uitsluitingen bijvoorbeeld gebruiken om te voorkomen dat producten of inhoud worden weergegeven in aanbevelingen die zijn stopgezet of die gevoelig zijn in de natuur (zoals films met een classificatie die niet geschikt is voor alle leeftijden).
 
 >[!IMPORTANT]
 >
 >Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie de Dynamische en Statische Regels [van de Insluiting van het](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)Gebruik.
 
-**Een uitsluiting maken:**
+## Een uitsluiting maken
 
 1. Klik **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** om de lijst met bestaande uitsluitingen weer te geven.
 
@@ -49,7 +51,7 @@ U kunt uitsluitingen ook maken met Geavanceerd zoeken op de pagina Cataloguszoek
 
 ![Opslaan als](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Exclusion]klikken. Zie [Cataloguszoekopdracht](/help/c-recommendations/c-products/catalog-search.md)voor meer informatie.
+Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Exclusion]klikken. Zie [Cataloguszoekopdracht](/help/c-recommendations/c-products/catalog-search.md#save-as)voor meer informatie.
 
 >[!IMPORTANT]
 >
