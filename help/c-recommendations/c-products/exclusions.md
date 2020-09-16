@@ -1,13 +1,13 @@
 ---
 keywords: exclusions
-description: Maak een uitsluitingslijst in Adobe Target om te voorkomen dat objecten worden aanbevolen.
+description: Maak een uitsluiting [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen.
 title: Uitsluitingen in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 
 Maak een uitsluiting in [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen.
 
-Een uitsluiting is een subset van producten of inhoud die niet aan uw bezoekers mag worden aanbevolen. U kunt uitsluitingen bijvoorbeeld gebruiken om te voorkomen dat producten of inhoud worden weergegeven in aanbevelingen die zijn stopgezet of die gevoelig zijn in de natuur (zoals films met een classificatie die niet geschikt is voor alle leeftijden).
+Een uitsluiting is een subset van producten of inhoud die niet aan bezoekers mag worden aanbevolen. U kunt uitsluitingen bijvoorbeeld gebruiken om te voorkomen dat producten of inhoud wordt weergegeven in aanbevelingen die zijn stopgezet of die gevoelig zijn in de natuur (zoals films met een classificatie die niet geschikt is voor alle toepassingen op basis van inhoudsbeoordelingen).
+
+De uitsluitingen zijn beschikbaar over de volledige rekening.
 
 >[!IMPORTANT]
 >
@@ -47,15 +49,25 @@ Een uitsluiting is een subset van producten of inhoud die niet aan uw bezoekers 
 
 ## Een uitsluiting maken met Geavanceerd zoeken
 
-U kunt uitsluitingen ook maken met Geavanceerd zoeken op de pagina Cataloguszoekopdracht ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt uitsluitingen ook maken [!UICONTROL Advanced Search] op de pagina [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Opslaan als](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![Opslaan als dialoogvenster](/help/c-recommendations/c-products/assets/save-as.png)
 
-Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Exclusion]klikken. Zie [Cataloguszoekopdracht](/help/c-recommendations/c-products/catalog-search.md#save-as)voor meer informatie.
+Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Exclusion]klikken.
 
 >[!IMPORTANT]
 >
->De functie Geavanceerd zoeken is niet hoofdlettergevoelig. producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u uitsluitingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een uitzondering maakt met de bedoeling producten die vakantie bevatten, uit te sluiten, worden alleen producten die vakantie bevatten, uitgesloten. Producten die &quot;vakantie&quot; bevatten, zijn niet uitgesloten.
+>De [!UICONTROL Advanced Search] functionaliteit is niet hoofdlettergevoelig; producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u uitsluitingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een uitzondering maakt met de bedoeling producten die vakantie bevatten, uit te sluiten, worden alleen producten die vakantie bevatten, uitgesloten. Producten die &quot;vakantie&quot; bevatten, zijn niet uitgesloten.
+
+## Een uitsluiting bewerken, kopiëren of verwijderen
+
+Houd de muisaanwijzer boven de gewenste uitsluiting in de lijst en klik op het juiste pictogram: bewerken, kopiëren of verwijderen.
+
+![Pictogrammen verbergen voor een uitsluiting](/help/c-recommendations/c-products/assets/hover-exclusions.png)
+
+U kunt een bestaande uitsluiting kopiëren om een dubbele uitsluiting te maken die u vervolgens kunt wijzigen. Hierdoor kunt u een vergelijkbare uitsluiting maken met minder moeite.
+
+Houd er rekening mee dat uitsluitingen beschikbaar zijn voor de gehele account. Zorg ervoor dat u hiermee rekening houdt voordat u een uitsluiting verwijdert. Verwijderde uitsluitingen kunnen niet worden hersteld.
 
 ## Trainingsvideo: Verzamelingen en uitsluitingen maken in Recommendations (7:05) - ![Zelfstudie](/help/assets/tutorial.png)
 
