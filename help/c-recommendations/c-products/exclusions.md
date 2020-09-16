@@ -5,9 +5,9 @@ title: Uitsluitingen in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,17 @@ ht-degree: 0%
 
 # Uitsluitingen{#exclusions}
 
-Maak een uitsluiting in [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen.
+Maak een uitsluiting in [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen. Een uitsluiting is een subset van producten of inhoud die niet aan bezoekers mag worden aanbevolen.
 
-Een uitsluiting is een subset van producten of inhoud die niet aan bezoekers mag worden aanbevolen. U kunt uitsluitingen bijvoorbeeld gebruiken om te voorkomen dat producten of inhoud wordt weergegeven in aanbevelingen die zijn stopgezet of die gevoelig zijn in de natuur (zoals films met een classificatie die niet geschikt is voor alle toepassingen op basis van inhoudsbeoordelingen).
+De uitsluitingen zijn beschikbaar over de volledige rekening. In tegenstelling tot inzamelingen, waar u een specifieke inzameling voor elke ervaring specificeert aangezien u een [!UICONTROL Recommendations] activiteit creeert, zijn de uitsluitingen op alle activiteiten over de rekening van toepassing. Er is geen optie om een uitsluitingsgroep toe te wijzen tijdens het maken van activiteiten.
 
-De uitsluitingen zijn beschikbaar over de volledige rekening.
+Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
+
+* Producten die zijn stopgezet
+* De catalogus Herfst/Winter is nu de enige catalogus die online aanwezig moet zijn. Elk item uit de zomercatalogus kan niet meer worden aangeschaft.
+* Items die op de meeste pagina&#39;s/schermen niet kunnen worden aanbevolen (volwassen producten, NC-17-films, enz.)
+* Producten met onvolledige metagegevensvelden (ontbrekende miniatuur, prijs of andere belangrijke metagegevens)
+* Producten die nooit mogen worden aanbevolen (misschien bestaat er een SKU in het systeem voor iets, maar het is geen aanschafbaar item, of misschien is het een nep-SKU voor het QA-team om een aankoop te simuleren zonder iets te bestellen, enz.)
 
 >[!IMPORTANT]
 >
