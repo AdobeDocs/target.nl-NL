@@ -5,9 +5,9 @@ title: Verzamelingen in Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,29 @@ Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoo
 >
 >De functie Geavanceerd zoeken is niet hoofdlettergevoelig. producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de bedoeling producten met &quot;vakantie&quot; terug te sturen, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd.
 
+## Een verzameling bewerken, kopiëren of verwijderen
+
+Houd de muisaanwijzer boven de gewenste verzameling in de lijst en klik op het juiste pictogram: bewerken, kopiëren of verwijderen.
+
+![Pictogrammen voor het aanwijzen van een verzameling](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+U kunt een bestaande verzameling kopiëren om een dubbele verzameling te maken die u vervolgens kunt wijzigen. Hierdoor kunt u een vergelijkbare uitsluiting maken met minder moeite.
+
+Houd er rekening mee dat verzamelingen beschikbaar zijn voor de gehele account. Zorg ervoor dat u hiermee rekening houdt voordat u een verzameling verwijdert. Verwijderde verzamelingen kunnen niet worden hersteld.
+
 ## Een verzameling in een Recommendations-activiteit gebruiken
 
 1. Maak een verzameling met een van de bovenstaande methoden.
 
 1. Klik **[!UICONTROL Activities]** en [maak een nieuwe Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) -activiteit of bewerk een bestaande activiteit.
 
-1. Klik op de **[!UICONTROL Experiences]** pagina (stap 2 van de driedelige geleide workflow) op een locatie waar u aanbevelingen hebt gedaan en klik vervolgens op **[!UICONTROL Change Collection]**.
+1. Nadat u criteria en een ontwerp hebt geselecteerd, wordt de [!UICONTROL Options] pagina weergegeven op de plaats waar u de gewenste verzameling hebt geselecteerd.
+
+   ![Verzamelingsoptie kiezen](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (Voorwaardelijk) om een bestaande inzameling te veranderen die, op de **[!UICONTROL Experiences]** pagina (stap 2 van de driedelige geleide werkschema) plaatst, klik een plaats waar u aanbevelingen plaatste, klikt **[!UICONTROL Change Collection]**, dan selecteer de gewenste inzameling.
 
    ![Verzameling wijzigen, optie](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. Selecteer op de **[!UICONTROL Add Collection]** pagina de gewenste verzameling.
 
 ## Trainingsvideo: Verzamelingen en uitsluitingen maken in Recommendations (7:05) - ![Zelfstudie](/help/assets/tutorial.png)
 
