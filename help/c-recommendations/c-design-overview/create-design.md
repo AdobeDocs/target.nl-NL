@@ -5,10 +5,10 @@ title: Een ontwerp maken
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 1%
 
 Een ontwerp bepaalt hoe de aanbevelingen op een pagina verschijnen.
 
-U kunt een [!UICONTROL Recommendations] ontwerp tot stand brengen gebruikend een standaardontwerp of door een douaneontwerp te creëren. In het **[!UICONTROL Recommendations > Designs]** scherm worden zowel de standaardontwerpkaarten als de ontwerpen weergegeven die u hebt gemaakt. De standaardontwerpen kunnen niet worden bewerkt of verwijderd.
+U kunt een [!UICONTROL Recommendations] ontwerp tot stand brengen gebruikend een standaardontwerp of door een douaneontwerp te creëren. In het **[!UICONTROL Recommendations > Designs]** scherm worden zowel de standaardontwerpkaarten als alle ontwerpen weergegeven die in uw account zijn gemaakt.
 
-1. Plaats de muisaanwijzer op het **[!UICONTROL Recommendations > Designs]** scherm op de kaart voor het ontwerp dat u wilt maken.
+Houd rekening met de volgende informatie wanneer u met ontwerpen werkt:
+
+* U kunt een ontwerp met aanbevelingen maken door een standaardontwerp te gebruiken of u kunt een aangepast ontwerp maken.
+* U kunt een standaardontwerp niet bewerken of verwijderen.
+* U kunt een aangepast ontwerp bewerken, kopiëren of verwijderen.
+* Als u een ontwerp wilt maken dat is gebaseerd op een standaardontwerp, moet u eerst het ontwerp kopiëren en vervolgens de kopie bewerken.
+
+Deze illustratie toont het standaard 1 x 4 ontwerp:
+
+![1 x 4 standaardontwerp](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+In deze afbeelding ziet u een aangepast ontwerp:
+
+![Aangepast ontwerp](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+U kunt een ontwerp tijdens het activiteit-creatie proces van binnen Visuele Composer van de Ervaring (VEC) of van de ontwerpbibliotheek buiten de activiteitenverwezenlijking tot stand brengen. In de volgende secties wordt aangenomen dat u ontwerpen maakt vanuit de bibliotheek, maar dat de stappen op elkaar lijken.
+
+## Een ontwerp maken op basis van een standaardontwerp
+
+1. Klik **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] bibliotheek weer te geven.
+
+   ![Ontwerpbibliotheek](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. Plaats de muisaanwijzer op de kaart voor het ontwerp dat u wilt maken en klik op het **[!UICONTROL Copy]** pictogram.
 
    ![](assets/Card_CopyDesign.png)
 
-1. Als u een bestaand ontwerp wilt kopiëren en bewerken, klikt u op het **[!UICONTROL Copy]** pictogram.
-
-   of
-
-   Klik op het **[!UICONTROL Create Design]** **[!UICONTROL Recommendations > Designs]** scherm om een aangepast ontwerp te maken.
+   Het [!UICONTROL Create Design] dialoogvenster wordt weergegeven.
 
    ![](assets/createDesign.png)
 
-1. Voeg een **[!UICONTROL Content Name]**.
+1. Voeg in het **[!UICONTROL Information]** deelvenster een **[!UICONTROL Content Name]** en optionele voorvertoning toe die u op de ontwerpkaart wilt weergeven.
 
-   Wanneer u een standaardontwerp gebruikt, worden de ontwerpnaam en de optie Kopiëren in het **[!UICONTROL Content Name]** veld weergegeven. U kunt de naam bewerken. 1. (Optioneel) Klik om een afbeelding te selecteren die u op de ontwerpkaart wilt weergeven.
-1. Bewerk het ontwerp **[!UICONTROL Code]**.
+   Wanneer u een standaardontwerp gebruikt, worden de ontwerpnaam en de optie Kopiëren in het **[!UICONTROL Content Name]** veld weergegeven. U kunt de naam bewerken. U kunt ook een afbeelding selecteren die u op de ontwerpkaart wilt weergeven.
+
+1. (Voorwaardelijk) Bewerk het ontwerp **[!UICONTROL Code]** naar wens.
 
    De ontwerpen van de aanbeveling gebruiken de open-source ontwerptaal van de Snelheid. Informatie over snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org).
 
@@ -42,20 +62,37 @@ U kunt een [!UICONTROL Recommendations] ontwerp tot stand brengen gebruikend een
 
    >[!NOTE]
    >
-   >Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99, ofwel hardcoded ofwel via lussen.
+   >Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, hard-gecodeerd of via lussen, is 99.
+
+1. Klik op **[!UICONTROL Save]**.
+
+## Een aangepast ontwerp maken
+
+1. Klik **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] bibliotheek weer te geven.
+
+1. Klik op **[!UICONTROL Create Design]**.
+
+   Als u het nieuwe aangepaste ontwerp wilt baseren op een bestaand ontwerp, plaatst u de muis boven het gewenste ontwerp en klikt u op het [!UICONTROL Copy] pictogram. U kunt de kopie vervolgens bewerken om een nieuw aangepast ontwerp te maken.
+
+1. Voeg een **[!UICONTROL Content Name]** en optionele voorvertoningsafbeelding toe.
+
+1. (Voorwaardelijk) Bewerk het ontwerp **[!UICONTROL Code]** naar wens.
+
+   Raadpleeg de informatie in stap 4 voor meer informatie.
 
 1. Klik op **[!UICONTROL Save]**.
 
 ## JSON-voorbeeld {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-In het volgende voorbeeld ziet u hoe u JSON-reacties kunt retourneren tijdens het configureren van een activiteit via de formuliereditor.
+In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd wanneer een activiteit wordt geconfigureerd via de formuliereditor.
 
 1. Maak een ontwerp vanuit de ontwerpbibliotheek of vanuit de formuliergebaseerde workflow. Als u dit binnen de Visueel Composer van de Ervaring (VEC) werkschema probeert te doen kunt u geen ander dan een ontwerp van HTML tot stand brengen, dat in een `<div>` voor klikvolgende doeleinden verpakt is.
+
 1. Zorg ervoor dat de optie &quot;HTML-ontwerp&quot; is uitgeschakeld:
 
    ![](assets/html_design_toggle.png)
 
-1. De volgende code is een voorbeeld hieronder van wat u in uw ontwerp kunt plakken:
+1. De volgende code is een voorbeeld van wat u in uw ontwerp kunt plakken:
 
    ```
        #* 
@@ -84,24 +121,22 @@ In het volgende voorbeeld ziet u hoe u JSON-reacties kunt retourneren tijdens he
        }  
    ```
 
-1. Stel een Recommendations-activiteit op basis van formulieren in die dit ontwerp gebruikt.
+1. Stel een op formulieren gebaseerde [!DNL Recommendations] activiteit in die dit ontwerp gebruikt.
 
-   1. Navigeer naar de pagina Activiteiten.
-   1. Klik op **[!UICONTROL Create Activity]**.
-   1. Selecteer **[!UICONTROL Recommendations]**.
-   1. Selecteer onder **[!UICONTROL Choose Experience Composer]** de optie **[!UICONTROL Form]**.
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Klik op **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+   1. Selecteer onder **[!UICONTROL Choose Experience Composer]**, **[!UICONTROL Form]** en klik op **[!UICONTROL Next]**.
    1. Voer de tekst in onder Locatie: &quot;Sample_Recs_Response&quot;
    1. Klik onder **[!UICONTROL Default Content]** op de pijl omlaag en klik vervolgens op **[!UICONTROL Add Recommendation]**.
    1. Kies een paginatype. Hiermee bepaalt u de eerste filtering van het volgende scherm.
    1. Selecteer een Criteria-kaart en klik op **[!UICONTROL Next]**.
-   1. Selecteer het ontwerp dat u in de vorige stap hebt gemaakt en klik op **[!UICONTROL Save]**.
+   1. Selecteer het ontwerp dat u in de vorige stap hebt gemaakt en klik op **[!UICONTROL Next]**.
    1. Voltooi het installatieproces.
    1. Klik op de pijl-rechts naast **[!UICONTROL Inactive]** en selecteer **[!UICONTROL Activate]**.
 
 1. Nadat uw activiteit opstelling en geactiveerd is, kunt u opstelling een steekproefverzoek om de schone reactie JSON terug te krijgen.
 
-   Vanaf het moment dat u uw activiteit opslaat, zal het Doel een model moeten bouwen om de geselecteerde criteria configuratie te steunen. Afhankelijk van een aantal factoren kan dit enige tijd duren. De resultaten worden weergegeven zodra het model is opgebouwd.
+   Vanaf het moment dat u uw activiteit opslaat, [!DNL Target] moet u een model maken ter ondersteuning van de geselecteerde configuratie met criteria. Afhankelijk van een aantal factoren kan dit enige tijd duren. De resultaten worden weergegeven zodra het model is opgebouwd.
 
    Bijvoorbeeld:
 
@@ -111,12 +146,12 @@ In het volgende voorbeeld ziet u hoe u JSON-reacties kunt retourneren tijdens he
 
    waar
 
-| Parameter | Waarde |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Doelclientcode (beschikbaar op ../target/products.html#recsSettings > Recommendations API Token > Clientcode. |
-| `[YOUR_MBOX_NAME]` | De naam die u hebt geselecteerd in de sectie &quot;locations&quot; van de op formulieren gebaseerde Recommendations, in dit geval Sample_Recs_Response. |
-| `[ENTITY_ID` | De `entity.id` waarde van een item in uw catalogus. |
-| `[AT_PROPERTY_TOKEN]` | (Optioneel) Voeg toe als u een eigenschap (onderdeel van Enterprise-machtigingen) hebt geselecteerd tijdens het instellen van de activiteit. |
+   | Parameter | Waarde |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Doelclientcode (beschikbaar op ../target/products.html#recsSettings > Recommendations API Token > Clientcode. |
+   | `[YOUR_MBOX_NAME]` | De naam die u hebt geselecteerd in de sectie &quot;locations&quot; van de op formulieren gebaseerde Recommendations, in dit geval Sample_Recs_Response. |
+   | `[ENTITY_ID` | De `entity.id` waarde van een item in uw catalogus. |
+   | `[AT_PROPERTY_TOKEN]` | (Optioneel) Voeg toe als u een eigenschap (onderdeel van Enterprise-machtigingen) hebt geselecteerd tijdens het instellen van de activiteit. |
 
 Nadat het algoritme is uitgevoerd en u resultaten hebt, moet uw reactie er ongeveer als volgt uitzien:
 
@@ -130,7 +165,7 @@ U kunt ook gewoon een eenvoudige door komma&#39;s gescheiden lijst met items ter
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedossier is een complexer voorbeeld dat veel meer dan entiteitsidentiteitskaart met hun bijbehorende groeven (orde) terugkeert. In dit ontwerpvoorbeeld worden ook de activiteitsdetails, de gegevens van het doelprofiel (zoals van toepassing) en andere gegevens `entity.attributes` die aan de geretourneerde items zijn gekoppeld, geretourneerd.
+U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedossier is een complexer voorbeeld dat veel meer dan entiteitsidentiteitskaart met hun bijbehorende groeven (orde) terugkeert. In dit ontwerpvoorbeeld worden ook de activiteitsdetails, de details van het doelprofiel (zoals van toepassing) en andere gegevens `entity.attributes` die zijn gekoppeld aan de geretourneerde items geretourneerd.
 
 ```
     {   
