@@ -5,9 +5,9 @@ title: Een ontwerp maken
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ In deze afbeelding ziet u een aangepast ontwerp:
 
 U kunt een ontwerp tijdens het activiteit-creatie proces van binnen Visuele Composer van de Ervaring (VEC) of van de ontwerpbibliotheek buiten de activiteitenverwezenlijking tot stand brengen. In de volgende secties wordt aangenomen dat u ontwerpen maakt vanuit de bibliotheek, maar dat de stappen op elkaar lijken.
 
-## Een ontwerp maken op basis van een standaardontwerp
+## Ontwerpen maken
+
+U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd of u kunt een douaneontwerp tot stand brengen.
+
+### Een ontwerp maken op basis van een standaardontwerp
 
 1. Klik **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] bibliotheek weer te geven.
 
@@ -56,9 +60,9 @@ U kunt een ontwerp tijdens het activiteit-creatie proces van binnen Visuele Comp
 
 1. (Voorwaardelijk) Bewerk het ontwerp **[!UICONTROL Code]** naar wens.
 
-   De ontwerpen van de aanbeveling gebruiken de open-source ontwerptaal van de Snelheid. Informatie over snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org).
+   De ontwerpen van de aanbeveling gebruiken de open-source ontwerptaal van de Snelheid. Informatie over Snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org) en in [Aanpassen van een ontwerp met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Een ontwerp kan HTML of niet-HTML zijn. HTML-ontwerpen worden standaard voorzien van een <div> tag om klikken en bijhouden toe te staan in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn waar klik-tracking niet mogelijk is.
+   Een ontwerp kan HTML of niet-HTML zijn. HTML-ontwerpen worden standaard voorzien van een <div> tag om klikken en bijhouden toe te staan in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn waar klik-tracking niet mogelijk is. Sleep de [!UICONTROL HTML Design] schakeloptie naar de uitstand om niet-HTML-code te gebruiken.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ U kunt een ontwerp tijdens het activiteit-creatie proces van binnen Visuele Comp
 
 1. Klik op **[!UICONTROL Save]**.
 
-## Een aangepast ontwerp maken
+### Een aangepast ontwerp maken
 
 1. Klik **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] bibliotheek weer te geven.
 
@@ -81,6 +85,18 @@ U kunt een ontwerp tijdens het activiteit-creatie proces van binnen Visuele Comp
    Raadpleeg de informatie in stap 4 voor meer informatie.
 
 1. Klik op **[!UICONTROL Save]**.
+
+## Een ontwerp bewerken, kopiëren of verwijderen
+
+Het is niet mogelijk een standaardontwerp te bewerken of te kopiëren. u kunt alleen standaardontwerpen kopiëren.
+
+Houd de muisaanwijzer boven het gewenste ontwerp in de [!UICONTROL Design] bibliotheek en klik op het juiste pictogram: bewerken, kopiëren of verwijderen.
+
+![Pictogrammen voor aanwijzen van een ontwerp](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+U kunt een bestaand ontwerp kopiëren om een dubbel ontwerp tot stand te brengen dat u dan kunt wijzigen. Zo kunt u een vergelijkbaar ontwerp maken met minder moeite.
+
+Houd er rekening mee dat ontwerpen beschikbaar zijn voor de gehele account. Zorg ervoor dat u hiermee rekening houdt voordat u een ontwerp verwijdert. Verwijderde ontwerpen kunnen niet worden hersteld.
 
 ## JSON-voorbeeld {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
