@@ -6,9 +6,9 @@ feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # ![PREMIE](/help/assets/premium.png) Recommendations Activity Settings{#recommendations-activity-settings}
 
-Informatie over de instellingen die u kunt gebruiken om een [!UICONTROL Recommendations] activiteit te beschrijven en te besturen.
+Informatie over de instellingen die u kunt gebruiken om een [!UICONTROL Recommendations] activiteit in te beschrijven en te beheren [!DNL Adobe Target].
 
 ![Recommendations-pagina Doelen en instellingen](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -37,7 +37,7 @@ De volgende tekens zijn niet toegestaan in een naam van een activiteit:
 `-`
 `@`
 
-Als u een [!UICONTROL Recommendations] activiteitennaam opgeeft die al bestaat voor een andere activiteit in [!UICONTROL Recommendations Classic], wordt de nieuwe activiteit opnieuw gesynchroniseerd met een nieuwe naam. De nieuwe naam is de oorspronkelijke naam die met een tijdstempel is toegevoegd om deze uniek te maken. Deze nieuwe naam wordt zowel weergegeven in Target Standard/Premium als in [!UICONTROL Recommendations Classic].
+Als u een [!UICONTROL Recommendations] activiteitennaam opgeeft die al bestaat voor een andere activiteit in [!UICONTROL Recommendations Classic], wordt de nieuwe activiteit opnieuw gesynchroniseerd met een nieuwe naam. De nieuwe naam is de oorspronkelijke naam die met een tijdstempel is toegevoegd om deze uniek te maken. Deze nieuwe naam wordt zowel in [!DNL Target Standard/Premium] als [!UICONTROL Recommendations Classic].
 
 ## Doelstelling
 
@@ -57,7 +57,7 @@ De activiteit kan beginnen wanneer geactiveerd, of u kunt een specifieke datum e
 
 ## Rapportinstellingen
 
-* **Bron rapporteren:** Selecteer de rapportbron: Adobe Target of [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Wijzig de bron van de rapportage niet nadat de activiteit actief is geworden. Het wijzigen van de bron van de rapportage nadat een activiteit actief wordt, leidt tot inconsistente rapportage.
+* **Bron rapporteren:** Selecteer de rapportbron: [!DNL Adobe Target] of [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Wijzig de bron van de rapportage niet nadat de activiteit actief is geworden. Het wijzigen van de bron van de rapportage nadat een activiteit actief wordt, leidt tot inconsistente rapportage.
 * **Metrisch doel:** Selecteer de succesmaatstaf die bepaalt of de activiteit succesvol is.
 * **Extra cijfers:** Vorm extra succesmetriek die in uw rapporten moet worden gebruikt.
 * **Soorten publiek voor rapportage:** Bepaal publiek dat kan worden gebruikt wanneer het filtreren van uw rapporten.
