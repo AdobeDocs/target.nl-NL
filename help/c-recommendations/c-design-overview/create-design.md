@@ -5,7 +5,7 @@ title: Een ontwerp maken
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -62,7 +62,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
    De ontwerpen van de aanbeveling gebruiken de open-source ontwerptaal van de Snelheid. Informatie over Snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org) en in [Aanpassen van een ontwerp met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Een ontwerp kan HTML of niet-HTML zijn. HTML-ontwerpen worden standaard voorzien van een <div> tag om klikken en bijhouden toe te staan in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn waar klik-tracking niet mogelijk is. Sleep de [!UICONTROL HTML Design] schakeloptie naar de uitstand om niet-HTML-code te gebruiken.
+   Een ontwerp kan HTML of niet-HTML zijn. HTML-ontwerpen worden standaard voorzien van een `<div>` tag, zodat muisklik kan worden gevolgd in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn waar klik-tracking niet mogelijk is. Sleep de [!UICONTROL HTML Design] schakeloptie naar de uitstand om niet-HTML-code te gebruiken.
 
    >[!NOTE]
    >
