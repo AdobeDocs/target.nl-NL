@@ -5,7 +5,7 @@ title: 'Nadat u de Recommendations-, A/B Test- of Experience Targeting-activitei
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 0%
@@ -39,7 +39,7 @@ De statusresultaten zijn als volgt:
 
 ## Hoe lang duurt het om het algoritme uit te voeren?
 
-Nadat u een activiteit hebt opgeslagen die een criterium bevat, [!DNL Target] berekent u aanbevelingen op basis van de geselecteerde verzameling, criteria, ontwerp en promoties. Deze berekening duurt enige tijd en het tijdframe is anders op basis van de geselecteerde aanbevolen logica, het gegevensbereik, het aantal items in de catalogus, de hoeveelheid gedragsgegevens die uw klanten hebben gegenereerd en de geselecteerde gegevensbron voor gedragsgegevens.
+Nadat u een activiteit hebt opgeslagen die een criterium bevat, [!DNL Target] berekent u aanbevelingen op basis van de geselecteerde verzameling, criteria, ontwerp en promoties. Deze berekening duurt enige tijd en het tijdsbestek verschilt op basis van de geselecteerde aanbevelingen logica, gegevensbereik, het aantal items in de catalogus, de hoeveelheid gedragsgegevens die uw klanten hebben gegenereerd en de geselecteerde gegevensbron voor gedragsgegevens.
 
 De gedragsgegevensbron heeft het grootste effect op verwerkingstijd, als volgt:
 
@@ -75,11 +75,11 @@ Als u een koppeling QA gebruikt, kunt u de aanbevelingen op uw pagina bekijken:
 
 >[!NOTE]
 >
->De doel-QA-modus is &quot;plakken&quot; en wordt in een cookie opgeslagen. Als u de QA-modus niet afsluit, blijven de resultaten van de QA op de hele site zichtbaar. Als u de QA-modus wilt afsluiten, gebruikt u de [bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* De doel-QA-modus is &quot;plakken&quot; en wordt in een cookie opgeslagen. Als u de QA-modus niet afsluit, blijven de resultaten van de QA op de hele site zichtbaar. Als u de QA-modus wilt afsluiten, gebruikt u de [bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* In de QA-modus is het bladeren door de site niet van invloed op het profiel [!UICONTROL Recently Viewed Items] of [!UICONTROL Recently Purchased Items].&quot; Dit gedrag gebeurt door het ontwerp om onopzettelijke verontreiniging van gedragsgegevens van de productie te voorkomen. Als u de resultaten van een [!UICONTROL Recently Viewed Items] of [!UICONTROL User-Based Recommendations] criteria wilt voorvertonen, bladert u eerst naar de site buiten de QA-modus en opent u een koppeling in de QA-modus met dezelfde sessie.
 
->[!NOTE]
->
->In de QA-modus heeft het surfen op de site geen invloed op de [!UICONTROL Recently Viewed Items] of [!UICONTROL Recently Purchased Items]&quot;Dit gedrag treedt in het ontwerp op om onopzettelijke verontreiniging van gedragsgegevens van de productie te voorkomen. Als u de resultaten van een [!UICONTROL Recently Viewed Items] of [!UICONTROL User-Based Recommendations] criteria wilt voorvertonen, bladert u eerst naar de site buiten de QA-modus en opent u een koppeling in de QA-modus met dezelfde sessie.
 
 ## De CSV-download gebruiken om aanbevelingen voor te vertonen
 
