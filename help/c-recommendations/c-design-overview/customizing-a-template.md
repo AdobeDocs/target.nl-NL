@@ -1,13 +1,13 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingsontwerpen aan te passen.
+description: Gebruik de opensource taal voor het ontwerpen van snelheidsaanbevelingen in Adobe Target Recommendations.
 title: Een ontwerp aanpassen met Snelheid
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Een ontwerp aanpassen met Snelheid{#customize-a-design-using-velocity}
 
-Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingsontwerpen aan te passen.
+Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingen in aan te passen [!DNL Adobe Target Recommendations].
 
 ## Overzicht van snelheid {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Informatie over snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org).
 
-Alle logica van de Snelheid, syntaxis, etc. kunnen voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *voor* lussen, *als* verklaringen, en andere code kunt tot stand brengen gebruikend Snelheid eerder dan JavaScript.
+Alle logica van de Snelheid, syntaxis, etc. kan voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *voor* lussen, *als* verklaringen, en andere code kunt tot stand brengen gebruikend Snelheid eerder dan JavaScript.
 
 Elke variabele die [!DNL Recommendations] in de `productPage` box of de CSV-upload wordt verzonden, kan in een ontwerp worden weergegeven. Naar deze waarden wordt verwezen met de volgende syntaxis:
 
@@ -65,7 +65,7 @@ Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de ma
 
 >[!NOTE]
 >
->Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99, ofwel hardcoded ofwel via lussen. De lengte van het sjabloonscript kan maximaal 65.000 tekens bevatten.
+>Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, hard-gecodeerd of via lussen, is 99. De lengte van het sjabloonscript kan maximaal 65.000 tekens bevatten.
 
 Als u bijvoorbeeld een ontwerp wilt dat iets dergelijks weergeeft:
 
@@ -128,12 +128,12 @@ U kunt ook `algorithm.name` en `algorithm.dayCount` als variabelen in ontwerpen 
 
 Door gebrek, behandelen de malplaatjes van de Snelheid alle entiteitattributen als koordwaarden. Mogelijk wilt u een entiteitskenmerk behandelen als een numerieke waarde om een wiskundige bewerking uit te voeren of deze te vergelijken met een andere numerieke waarde. Voer de volgende stappen uit om een entiteitskenmerk als een numerieke waarde te behandelen:
 
-1. Declareer een dummyvariabele en initialiseer deze naar een willekeurig geheel getal of een dubbele waarde
-1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor Sjabloonparser van Target Recommendations om de sjabloon te valideren en op te slaan)
-1. Geef het entiteitkenmerk door in de `parseInt` of `parseDouble` methode van de dummyvariabele die u in stap 1 hebt gemaakt om de tekenreeks om te zetten in een geheel getal of dubbele waarde
-1. Voer de wiskundige bewerking of vergelijking uit op de nieuwe numerieke waarde
+1. Declareer een dummyvariabele en initialiseer deze naar een willekeurig geheel getal of een dubbele waarde.
+1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor Sjabloonparser van Target Recommendations om de sjabloon te valideren en op te slaan).
+1. Geef het entiteitkenmerk door in de `parseInt` of `parseDouble` methode van de dummyvariabele die u in stap 1 hebt gemaakt om de tekenreeks om te zetten in een geheel getal of dubbele waarde.
+1. Voer de wiskundige bewerking of vergelijking uit op de nieuwe numerieke waarde.
 
-**Voorbeeld: Een kortingsprijs berekenen**
+### Voorbeeld: Een kortingsprijs berekenen
 
 Stel dat je de weergegeven prijs van een object met $0,99 wilt verlagen om een korting toe te passen. U kunt de volgende methode gebruiken om dit resultaat te bereiken:
 
@@ -148,7 +148,7 @@ Stel dat je de weergegeven prijs van een object met $0,99 wilt verlagen om een k
 #end
 ```
 
-**Voorbeeld: Het aantal sterren dat moet worden weergegeven op basis van de waardering van een item**
+### Voorbeeld: Het aantal sterren dat moet worden weergegeven op basis van de waardering van een item
 
 Stel dat u een geschikt aantal sterren wilt weergeven op basis van de numerieke gemiddelde klantbeoordeling van een item. U kunt de volgende methode gebruiken om dit resultaat te bereiken:
 
@@ -173,7 +173,7 @@ Stel dat u een geschikt aantal sterren wilt weergeven op basis van de numerieke 
 #end
 ```
 
-**Voorbeeld: De tijd in uren en minuten berekenen op basis van de lengte van een item in minuten**
+### Voorbeeld: De tijd in uren en minuten berekenen op basis van de lengte van een item in minuten
 
 Stel dat u de lengte van een film in minuten opslaat, maar de lengte in uren en minuten wilt weergeven. U kunt de volgende methode gebruiken om dit resultaat te bereiken:
 
