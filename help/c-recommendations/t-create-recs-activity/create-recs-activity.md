@@ -5,9 +5,9 @@ title: Een Recommendations-activiteit maken
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,15 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
 1. Klik op een element op de pagina en klik op **[!UICONTROL Replace w/ Recommendations]** of **[!UICONTROL Insert Recommendations Before]** of **[!UICONTROL Insert Recommendations After]** als er aanbevelingen beschikbaar zijn.
 
+   Bezoekers van uw site zien de aanbevolen inhoud alleen als ze in aanmerking komen voor de aanbeveling. Bezoekers die niet in aanmerking komen voor de aanbeveling, zien de standaardinhoud.
+
    ![Recommendations-opties](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   Als u een element vervangt door aanbevelingen, wordt de huidige inhoud verwijderd en vervangen door uw aanbevelingen.
+   * **[!UICONTROL Replace w/ Recommendations]**: Als u een element vervangt door aanbevelingen, wordt de huidige inhoud verwijderd en vervangen door uw aanbevelingen. Wanneer bezoekers uw site bezoeken en in aanmerking komen voor de aanbeveling, zien ze de aanbevolen items in het opgegeven gebied in plaats van de bestaande inhoud.
+   * **[!UICONTROL Insert Recommendations Before]**: Als u aanbevelingen invoegt voordat het geselecteerde element de aanbevolen inhoud vóór dat element plaatst. Afhankelijk van de constructie van uw pagina wordt de aanbeveling boven of links van het geselecteerde element weergegeven.
+   * **[!UICONTROL Insert Recommendations After]**: Als u aanbevelingen invoegt nadat het geselecteerde element de aanbevolen inhoud na dat element heeft geplaatst. Afhankelijk van de constructie van uw pagina wordt de aanbeveling onder of rechts van het geselecteerde element weergegeven.
+
+   Met de **[!UICONTROL Expand Selection]** optie kunt u de geselecteerde locatie (de bovenliggende container) uitbreiden, zodat u de gewenste pagina-elementen gemakkelijker kunt herkennen en opnemen.
 
 1. Selecteer een paginatype.
 
@@ -70,7 +76,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
 1. Selecteer een of meer [criteria](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   De criteria worden getoond als kaarten die informatie over elke criteria tonen. Standaard worden op het [!UICONTROL Select Criteria] scherm criteria weergegeven die compatibel zijn met de verticale instellingen en het geselecteerde paginatype. U kunt deze opties wijzigen om andere criteria weer te geven.
+   De criteria worden getoond als kaarten die informatie over elke criteria tonen. Standaard worden in het [!UICONTROL Select Criteria] scherm criteria weergegeven die compatibel zijn met de verticale instellingen van uw bedrijf en het paginatype dat u in de vorige stap hebt geselecteerd. U kunt deze opties wijzigen om andere criteria weer te geven.
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 1. Klik op **[!UICONTROL Next]**.
 1. Selecteer een [ontwerp](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Een ontwerp is een sjabloon die het uiterlijk van de locaties op de pagina bepaalt. [!DNL Target] omvat verscheidene preconfigured ontwerpen. U kunt ook uw eigen aangepaste ontwerpen maken. Zie [Een ontwerp](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) maken en een ontwerp [](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)aanpassen voor meer informatie.
+   Een ontwerp is een sjabloon die het uiterlijk van de locaties op de pagina bepaalt. [!DNL Target] bevat verschillende vooraf geconfigureerde ontwerpen. U kunt ook uw eigen aangepaste ontwerpen maken. Zie [Een ontwerp](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) maken en een ontwerp [](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)aanpassen voor meer informatie.
 
    ![Ontwerp selecteren, dialoogvenster](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 1. Klik op **[!UICONTROL Next]**.
 
    U kunt speciale acties toevoegen aan uw aanbevelingen. Zie Promoties [toevoegen voor meer informatie over het toevoegen van promoties](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)aan voor- en achterzijde.
+
 1. Klik op **[!UICONTROL Save]**.
 
    In het VEC-scherm wordt het aanbevolen ontwerp op de pagina weergegeven.
@@ -158,7 +165,8 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    * De activiteit activeren
    * De activiteit bewerken
-   * De activiteit vastzetten op het Experience Cloud-bord
+   * De activiteit delen met uw Experience Cloud-feed
+   * QA de activiteit
    * Ervings-URL&#39;s weergeven
    * Gegevens downloaden
    * Wijzig het percentage deelnemers aan de activiteit die de controleervaring zien
@@ -166,6 +174,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
    * De code voor uw ontwerpen weergeven
 
 1. (Optioneel) Open de [!UICONTROL Reports] pagina om het rapport weer te geven met de prestaties van uw [!DNL Recommendations] activiteit.
+
 1. (Optioneel) Open de [!UICONTROL Collisions] pagina om eventuele [activiteitenconflicten](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) weer te geven.
 
    Er treden conflicten op wanneer meerdere activiteiten zijn ingesteld om inhoud te leveren aan dezelfde pagina. Hierdoor kan onverwachte inhoud worden weergegeven.
