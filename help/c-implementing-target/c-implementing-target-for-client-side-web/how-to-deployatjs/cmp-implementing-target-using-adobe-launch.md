@@ -5,7 +5,7 @@ title: Doel implementeren met Adobe Launch
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -29,7 +29,7 @@ In de volgende tabel worden de verschillende bronnen weergegeven waar u meer inf
 | [Adobe Starten van documentatie](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informatie over het opstellen en beheren van alle analyses, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
 | [Adobe Target Extension Documentation](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informatie over het implementeren van Doel met behulp van Starten. |
 
-## Voordelen van het Uitvoeren at.js die de Uitbreiding van de Lancering van het Doel gebruiken {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Voordelen van het uitvoeren van at.js gebruikend de uitbreiding van de Lancering van het Doel {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 De volgende voordelen zijn alleen van toepassing als u Adobe Launch gebruikt om at.js te implementeren. Daarom stellen wij ten zeerste voor om Adobe Launch te gebruiken in plaats van DTM of een handmatige implementatie van at.js.
 
