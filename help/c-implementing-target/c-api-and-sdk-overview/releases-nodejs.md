@@ -5,7 +5,7 @@ title: Release-aantekeningen met betrekking tot Adobe Target Node.js SDK.
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 21c49efb4b5de0ae14215712f4ec87b4759f29e1
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -39,7 +39,7 @@ De volgende secties verstrekken meer informatie over versie 1.0.0 van het Doel N
    Wij introduceren het plaatsen genoemd `serverState` die ervaringen bevat die via server-kant worden teruggewonnen, zodat at.js v2.2+ geen extra servervraag zal maken om de ervaringen terug te winnen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.
 
 * Open die op GitHub als [Doel Node.js SDK](https://github.com/adobe/target-nodejs-sdk)wordt ingekocht.
-* Nieuwe [sendNotifications() API-methode](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientsendnotifications) voor het verzenden van weergegeven/geklikte meldingen naar [!DNL Target] voor inhoud die vooraf is ingesteld via [getOffers()](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers).
+* Nieuwe [sendNotifications() API-methode](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications) voor het verzenden van weergegeven/geklikte meldingen naar [!DNL Target] voor inhoud die vooraf is ingesteld via [getOffers()](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications).
 * Vereenvoudigde weergave van API-aanvraagopbouw voor levering, met automatisch invullen van interne velden met standaardwaarden (bijvoorbeeld `request.id`, `request.context`enz.).
 * Validatie van API-methodeargumenten voor SDK.
 * Bijgewerkte README, steekproeven, en eenheidstests.
@@ -50,13 +50,13 @@ De volgende secties verstrekken meer informatie over versie 1.0.0 van het Doel N
 
 * Naam van project gewijzigd in `target-nodejs-sdk`.
 * Belangrijke refactoring, die BatchMbox v2 API van het Doel vervangt met Levering v1 API van de Mening van het Doel.
-* [create() API-methodeargumenten](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientcreate) zijn gewijzigd en overbodige nesting is verwijderd (zie [hier](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate)de oude methodedeclaratie).
-* [getOffers() API methode](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) argumenten zijn gewijzigd (zie [hier](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers)oude methodedeclaratie).
-* De `getTargetCookieName()` API-methode is vervangen door `TargetCookieName` accessor. Zie [Hulpprogrammaaccessors](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)TargetClient.
-* De `getTargetLocationHintCookieName()` API-methode is vervangen door `TargetLocationHintCookieName` accessor.  Zie [Hulpprogrammaaccessors](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)TargetClient.
+* [create() API-methodeargumenten](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientcreate) zijn gewijzigd en overbodige nesting is verwijderd (zie [hier](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate)de oude methodedeclaratie).
+* [getOffers() API methode](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) argumenten zijn gewijzigd (zie [hier](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers)oude methodedeclaratie).
+* De `getTargetCookieName()` API-methode is vervangen door `TargetCookieName` accessor. Zie [Hulpprogrammaaccessors](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)TargetClient.
+* De `getTargetLocationHintCookieName()` API-methode is vervangen door `TargetLocationHintCookieName` accessor.  Zie [Hulpprogrammaaccessors](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)TargetClient.
 
 ### Verwijderd
 
 * Ondersteuning voor BatchMbox v2 API.
-* De [getOffer() API-methode](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) is verwijderd. Gebruik in plaats daarvan de [getOffers() API-methode](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) .
+* De [getOffer() API-methode](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) is verwijderd. Gebruik in plaats daarvan de [getOffers() API-methode](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) .
 
