@@ -5,9 +5,9 @@ title: Doelaankondigingen
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,6 @@ Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van de
 ## Adobe noemde opnieuw een leider in het Magic Quadrant Gartner voor Personalisatietechnieken
 
 Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid. [Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
-
-## Webinar: Personalisatiestrategieën met behulp van kunstmatige intelligentie en Adobe Target
-
-* **08:00 - 9:00 (PDT)**
-* **Donderdag 13 augustus 2020**
-
-[Registreer hier](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)voor dit webinar.
 
 ## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
