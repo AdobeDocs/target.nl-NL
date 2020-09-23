@@ -6,9 +6,9 @@ feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | user.daysSinceLastVisit |  |
 | user.browser | De gebruikersagent |
 | user.header | Alle `user.header` profielen zijn ingebouwd uit de headergegevens van de box-aanvraag |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>orUser.header(&#39;x-door:sturen-for&#39;) | Het openbaar-onder ogen ziet IP adres van de netwerkverbinding die de bezoeker is.<br>U kunt dit op verschillende manieren krijgen, bijvoorbeeld [whatismyip.com](https://www.whatismyip.com/). Het IP adres is niet het NATIONAAL adres (intern adres), beginnend met 10., 192.168., of 172. |
+| user.header(&#39;x-door:sturen-for&#39;) | Het openbaar-onder ogen ziet IP adres van de netwerkverbinding die de bezoeker is.<br>U kunt dit op verschillende manieren krijgen, bijvoorbeeld [whatismyip.com](https://www.whatismyip.com/). Het IP adres is niet het NATIONAAL adres (intern adres), beginnend met 10., 192.168., of 172.<br>Opmerking: user.header(&#39;x-cluster-client-ip&#39;) is afgekeurd. |
 | user.header(&#39;host&#39;) | Hostnaam website |
 | user.header(&#39;cookie&#39;) | Cookgegevens van bezoekers |
 | user.header(&#39;user-agent&#39;) | Gebruikersagent browser van bezoeker |
@@ -45,10 +45,10 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Profielkenmerken voor continue verbindingen die zijn gemaakt op basis van profielscripts. Verwijst ook naar &#39;systeem&#39;-profielen zoals geolocatie, aantal bezoeken, enz. |
-| profile.get(&#39;param_name&#39;) | De juiste manier om een profielparameter te verkrijgen die in een profielmanuscript moet worden gebruikt is de profile.get (&#39;param_name&#39;) methode. |
+| profile.get(&#39;param_name&#39;) | De juiste manier om een profielparameter te verkrijgen om in een profielmanuscript te gebruiken is profiel.get (&#39;param_name&#39;) methode. |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Mbox-parameters die blijvend worden gemaakt vanwege hun profiel.  voorvoegsel. |
-| profile.browserTime | De lokale browsertijd van de bezoeker. Maak een nieuw datumobject in het profielscript voor de systeemtijd |
+| profile.browserTime | De lokale browsertijd van de bezoeker. Maak voor de systeemtijd een nieuw datumobject in het profielscript |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
 | parameter= | Algemene term voor extra waarden die met een box worden doorgegeven, meestal als naam-/waardeparen. Niet aanhoudend tenzij dit met `profile.parameter` of `user.parameter`. |
