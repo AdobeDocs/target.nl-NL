@@ -5,7 +5,7 @@ title: Een Analytics-trackingserver gebruiken
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
+source-git-commit: 1957e67c8502c06be950c7dafdcc3f6878f87065
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -62,7 +62,7 @@ De Developer Tools moet worden weergegeven op een pagina waarop de activiteit wo
 
 1. Filter voor ‘/ss’ om de analyseverzoeken weer te geven.
 
-   ![Gereedschappen voor Chrome-ontwikkelaars](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Gereedschappen voor Chrome-ontwikkelaars](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
 
    De volgende server is hostname van het verzoek.
 
