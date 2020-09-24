@@ -5,9 +5,9 @@ title: Een Analytics-trackingserver gebruiken
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,9 @@ De Developer Tools moet worden weergegeven op een pagina waarop de activiteit wo
 
 1. Klik op het **[!UICONTROL Network]** tabblad.
 
-1. Filter voor ‘/ss’ om de analyseverzoeken weer te geven.
+1. Filter voor `/ss,` het weergeven van de analyseverzoeken.
 
-   ![Gereedschappen voor Chrome-ontwikkelaars](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
+   ![De ontwikkelaars van Chrome hulpmiddelen met /ss onderzoek](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    De volgende server is hostname van het verzoek.
 
