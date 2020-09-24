@@ -5,9 +5,9 @@ title: Veelgestelde vragen over Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 # ![PREMIUM](/help/assets/premium.png) Recommendations - Veelgestelde vragen{#recommendations-faq}
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over Adobe Target Recommendations-activiteiten.
+
+## Waarom toont het Onderzoek van de Catalogus niet de correcte resultaten wanneer ik op een douanekenmerk met een numerieke waarde zoek?
+
+Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een type van Koord in plaats van een numerieke waarde te zijn.
+
+Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die de attributen van verwijzingen voorzien die het type veranderden van koord in numeriek.
 
 ## Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?
 
@@ -191,4 +197,4 @@ NO_CONTENT wordt geretourneerd wanneer aanbevelingen niet beschikbaar zijn voor 
 
 * Gedeeltelijke sjabloonrendering is uitgeschakeld en er zijn onvoldoende resultaten beschikbaar om de sjabloon te vullen.
 
-   Dit komt typisch voor wanneer u een dynamische integratieregel hebt, die agressief vele punten van de mogelijke resultaten filtert. Om dit te vermijden, laat steunen toe en pas niet de inclusieregel op steunen toe, of gebruik achtereenvolgens de criteria met minder-agressief gefilterde criteria.
+   Dit gebeurt gewoonlijk wanneer u een dynamische inclusieregel hebt, die veel punten agressief van de mogelijke resultaten filtert. Om dit te vermijden, laat steunen toe en pas niet de inclusieregel op steunen toe, of gebruik achtereenvolgens de criteria met minder-agressief gefilterde criteria.
