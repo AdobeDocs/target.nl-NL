@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2336'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | --- | --- | --- |
 | 24 september | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | De code voor de activiteit QA bookmarklet voor at.js 2 is bijgewerkt.*x*. |
 |  | [Catalogus zoeken](/help/c-recommendations/c-products/catalog-search.md#faq) | Sectie Veelgestelde vragen toegevoegd. |
+|  | [Hoe Target werkt](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | Bijgewerkt de plaatsen van de Cluster van het Doel en van het Doel Centrale die in &quot;het randnetwerk worden vermeld.&quot; |
 | 23 september | [Een Analytics-trackingserver gebruiken](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Volledig onderwerp bijgewerkt met informatie van de Hulpmiddelen van de Ontwikkelaar van browser [!DNL Adobe Experience Platform Debugger] en. |
 |  | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | De rij &quot;user.header(&#39;x-door:sturen-for&#39;)&quot; is bijgewerkt om aan te geven dat &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; is vervangen. |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de release Target Standard/Premium 20.9.1 (30 september 2020). |
