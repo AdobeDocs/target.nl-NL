@@ -1,11 +1,11 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
 description: Als u een oudere versie van at.js of mbox.js gebruikt, moet u een analytische volgende server voor activiteiten specificeren die Analytics voor Doel (A4T) gebruiken.
 title: Een Analytics-trackingserver gebruiken
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 1957e67c8502c06be950c7dafdcc3f6878f87065
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
