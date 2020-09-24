@@ -5,7 +5,7 @@ title: Een Analytics-trackingserver gebruiken
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 ---
 
 
-# Een Analytics-trackingserver gebruiken{#use-an-analytics-tracking-server}
+# Een Analytics-trackingserver gebruiken
 
-Als u een oudere versie van at.js of mbox.js gebruikt, moet u een analysetrackingserver voor activiteiten specificeren die [!DNL Analytics] voor [!DNL Target] (A4T) gebruiken.
+Als u een oudere versie van at.js of mbox.js gebruikt, moet u een Analytics tracking server voor activiteiten specificeren die [!DNL Analytics] voor [!DNL Target] (A4T) gebruiken.
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ Als u een oudere versie van at.js of mbox.js gebruikt, moet u een analysetrackin
 >
 >Het [!DNL Target] team steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie.
 
-Om ervoor te zorgen dat de gegevens van [!DNL Target] naar de correcte plaats binnen gaan [!DNL Analytics], vereist A4T een analytische het volgen server om in alle vraag naar Modstats van [!DNL Target]. worden verzonden. Voor implementaties die veelvoudige het volgen servers gebruiken kunt u de Hulpmiddelen van de Ontwikkelaar van uw browser gebruiken [!DNL Adobe Experience Platform Debugger] of om de correcte volgende server voor uw activiteit te bepalen.
+Om ervoor te zorgen dat de gegevens van [!DNL Target] naar de correcte plaats binnen gaan [!DNL Analytics], vereist A4T een Analytics die server wordt verzonden in alle vraag naar Modstats van [!DNL Target]. Voor implementaties die veelvoudige het volgen servers gebruiken kunt u de Hulpmiddelen van de Ontwikkelaar van uw browser gebruiken [!DNL Adobe Experience Platform Debugger] of om de correcte volgende server voor uw activiteit te bepalen.
 
-## De analytische trackingserver ophalen met de Adobe Experience Platform Debugger
+## De Analytics Tracking-server ophalen met de Adobe Experience Platform Debugger
 
 Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit zal worden geleverd om u te verzekeren de correcte volgende server selecteert. U kunt ook een standaard traceringsserver opgeven voor elk account. Neem contact op met de klantenservice om de standaardinstelling op te geven of te wijzigen.
 
@@ -37,7 +37,7 @@ Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit zal wor
 
 1. Click **[!UICONTROL Analytics]** in the left navigation menu.
 
-   De analytische traceringsserver vindt u in de [!UICONTROL Hostname] sectie van het foutopsporingsprogramma.
+   De server voor het bijhouden van analyses vindt u in het [!UICONTROL Hostname] gedeelte van het foutopsporingsprogramma.
 
    * **First-party tracking-server**: Als de hostnaam van de aanvraag overeenkomt met het domein waarop u zich bevindt, is het een eerstelijnsspatiëringsserver. Als u bijvoorbeeld op bent `adobe.com`, `adobe.com` is dit de server voor het volgen van de eerste partij.
    * **De volgende server** van derden: Een server van derden is doorgaans de server `[company].sc.omtrdc.net` waar het bedrijf de naam van het bedrijf heeft, maar eindigt altijd in `sc.omtrdc.net`.
@@ -51,7 +51,7 @@ Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit zal wor
    >
    >U moet uw activiteit selecteren [!UICONTROL Analytics as the Reporting Source] om het [!UICONTROL Tracking Server] gebied beschikbaar te maken.
 
-## Haal de analysetrackingserver op met de Developer Tools van uw browser
+## Haal de Analytics tracking-server op met de Developer Tools van uw browser
 
 De Developer Tools moet worden weergegeven op een pagina waarop de activiteit wordt geleverd, zodat u de juiste trackingserver selecteert. U kunt ook een standaard traceringsserver opgeven voor elk account. Neem contact op met de klantenservice om de standaardinstelling op te geven of te wijzigen.
 
