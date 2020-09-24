@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2315'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 23 september | [Een Analytics-trackingserver gebruiken](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Volledig onderwerp bijgewerkt met informatie van de Hulpmiddelen van de Ontwikkelaar van browser [!DNL Adobe Experience Platform Debugger] en. |
+|  | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | De rij &quot;user.header(&#39;x-door:sturen-for&#39;)&quot; is bijgewerkt om aan te geven dat &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; is vervangen. |
+|  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de release Target Standard/Premium 20.9.1 (30 september 2020). |
 | 15 september | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de introductie van de Target Standard/Premium 20.8.3, die ondersteuning van Analytics for Target (A4T) voor Auto-Target-activiteiten omvat. Ondersteuning voor activiteiten voor automatisch toewijzen is toegevoegd aan een vorige release. |
 |  | [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). | Toegevoegde informatie over steun A4T in auto-Doelactiviteiten. |
 |  | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Bijgewerkte tekst die aangeeft dat de methode om uzelf handmatig uit de QA-modus te dwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde, van toepassing is op at.js 1.*alleen x* . |
