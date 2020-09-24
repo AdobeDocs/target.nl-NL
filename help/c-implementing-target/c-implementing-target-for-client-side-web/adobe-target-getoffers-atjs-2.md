@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 | Verzoek > Uitvoeren > pageLoad | Nee |  |  |
 | Request > execute > pageLoad > parameters | Nee | Maximum aantal 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel moeten beginnen.&quot;<br>Namen niet toegestaan: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Haal aanbiedingen met de opgegeven parameters op wanneer de pagina wordt geladen. |
 | Verzoek > execute > pageLoad > profileParameters | Nee | Maximum aantal 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=`256<br>Naam zou niet met &quot;profiel moeten beginnen.&quot; | Haal aanbiedingen met de opgegeven profielparameters op wanneer de pagina wordt geladen. |
-| Request > execute > pageLoad > product | Nee |  |  |
+| Verzoek > execute > pageLoad > product | Nee |  |  |
 | Verzoek > execute > pageLoad > product -> id | Nee | Niet<br>blankMaximum = 128 | Ontvang voorstellen met gespecificeerde product IDs wanneer de pagina laadt. |
 | Request > execute > pageLoad > product > categoryId | Nee | Niet<br>blankMaximum = 128 | Ontvang voorstellen met gespecificeerde productcategorie IDs wanneer de pagina laadt. |
 | Verzoek > execute > pageLoad > order | Nee |  |  |
