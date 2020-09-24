@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Koppeling: [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
 De SDK van Node.js is een geavanceerde softwareontwikkelingskit die de complexiteit van het beheren van cookies, sessies en het integreren met [!DNL Experience Cloud] producten, zoals [!DNL Analytics], [!DNL Experience Cloud Visitor ID Service]en [!DNL Audience Manager]. Achter de schermen gebruikt de SDK van Node.js de `/rest/v1/delivery` API. Hier volgen enkele belangrijke functies die worden ondersteund in de Node.js SDK:
 
 * **Ondersteuning voor prefetch en meldingen waarmee u de prestaties kunt optimaliseren via caching:** U kunt Node.js SDK gebruiken om ervaringen terug te winnen en hen plaatselijk op uw server Node.js in het voorgeheugen onder te brengen met als doel om servervraag aan te minimaliseren [!DNL Target] en uw toepassingsprestaties te optimaliseren.
-* **Capaciteit om VEC-gecreeerde activiteiten terug te winnen:** Haal VEC-gecreeerde activiteiten op server-kant terug. De reactie die VEC-gecreeerde activiteiten bevat heeft selecteurs die kunnen worden gebruikt om slechts gedeelten van uw pagina pre-te verbergen die moeten worden gepersonaliseerd. Zo kunt u de [eerste metrische](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)verf met behoud van inhoud van uw pagina optimaliseren. Dit is een belangrijke PKI voor uw bedrijf om een hoge score te behalen in het [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -systeem.
+* **Capaciteit om VEC-gecreeerde activiteiten terug te winnen:** Haal VEC-gecreeerde activiteiten op server-kant terug. De reactie die VEC-gecreeerde activiteiten bevat heeft selecteurs die kunnen worden gebruikt om slechts gedeelten van uw pagina pre-te verbergen die moeten worden gepersonaliseerd. Hierdoor wordt de [eerste metrische](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)verf met behoud van inhoud van uw pagina geoptimaliseerd. Dit is een belangrijke PKI voor uw bedrijf om een hoge score te behalen in het [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -systeem.
 
 ## Doel Java SDK
 
@@ -60,6 +60,12 @@ De Java SDK is een geavanceerde softwareontwikkelkit waarmee de complexiteit van
 
 * **Ondersteuning voor prefetch en meldingen waarmee u de prestaties kunt optimaliseren via caching**: U kunt de JavaSDK gebruiken om ervaringen op te halen en deze lokaal in de cache op uw Java-server op te slaan om serveraanroepen naar uw toepassingsprestaties te minimaliseren [!DNL Target] en te optimaliseren.
 * **Capaciteit om VEC-gecreeerde activiteiten** terug te winnen: Haal VEC-gecreeerde activiteiten op server-kant terug. De reactie die VEC-gecreeerde activiteiten bevat heeft selecteurs die kunnen worden gebruikt om slechts gedeelten van uw pagina pre-te verbergen die moeten worden gepersonaliseerd. Zo kunt u de [eerste metrische gegevens voor inhoudelijke verf](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) van uw pagina optimaliseren. Dit is een belangrijke PKI voor uw bedrijf om een hoge score te behalen in het [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -systeem.
+
+## Adobe Target Developers
+
+Koppeling: [Adobe Target Developers](http://developers.adobetarget.com/)
+
+Op de Adobe Target Developers-site kunt u onder andere toepassingen op de client, servertoepassingen, mobiele apps en IoT implementeren. [!DNL Target] U kunt uw [!DNL Target] gegevens ook naar oplossingen van derden exporteren.
 
 ## Doel Recommendations API&#39;s
 
