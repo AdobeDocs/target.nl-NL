@@ -1,13 +1,13 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: Als u een oudere versie van at.js of mbox.js gebruikt, moet u een analytische volgende server voor activiteiten specificeren die Analytics voor Doel (A4T) gebruiken.
 title: Een Analytics-trackingserver gebruiken
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit zal wor
    * **CNAME-implementaties**: `sstats.adobe.com` Dit is een voorbeeld van een CNAME-server voor het bijhouden van een aanvraag voor https (secure). `stats.adobe.com` Dit is een voorbeeld van een CNAME-aanvraag van de eerste partij voor een http-pagina (niet-beveiligd).
 
 1. Kopieer de volledige inhoud van het veld.
+
 1. Plak in het **[!UICONTROL Reporting Settings]** gedeelte van het **[!UICONTROL Goal & Settings]** scherm van uw activiteit de trackingserverinformatie in het **[!UICONTROL Tracking Server]** veld.
 
    >[!NOTE]
@@ -69,4 +70,12 @@ De Developer Tools moet worden weergegeven op een pagina waarop de activiteit wo
    * **First-party tracking-server**: Als de hostnaam van de aanvraag overeenkomt met het domein waarop u zich bevindt, is het een eerstelijnsspatiëringsserver. Als u bijvoorbeeld op bent `adobe.com`, `adobe.com` is dit de server voor het volgen van de eerste partij.
    * **De volgende server** van derden: Een server van derden is doorgaans de server `[company].sc.omtrdc.net` waar het bedrijf de naam van het bedrijf heeft, maar eindigt altijd in `sc.omtrdc.net`.
    * **CNAME-implementaties**: `sstats.adobe.com` Dit is een voorbeeld van een CNAME-server voor het bijhouden van een aanvraag voor https (secure). `stats.adobe.com` Dit is een voorbeeld van een CNAME-aanvraag van de eerste partij voor een http-pagina (niet-beveiligd).
+
+1. Kopieer de volledige inhoud van het veld.
+
+1. Plak in het **[!UICONTROL Reporting Settings]** gedeelte van het **[!UICONTROL Goal & Settings]** scherm van uw activiteit de trackingserverinformatie in het **[!UICONTROL Tracking Server]** veld.
+
+   >[!NOTE]
+   >
+   >U moet uw activiteit selecteren [!UICONTROL Analytics as the Reporting Source] om het [!UICONTROL Tracking Server] gebied beschikbaar te maken.
 
