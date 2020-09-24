@@ -5,9 +5,9 @@ title: Cataloguszoekopdracht in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
    U kunt de functie voor automatisch aanvullen zoeken gebruiken. In de volgende afbeelding retourneert het typen van &quot;bik&quot; alle producten die het woord &quot;cycle&quot; bevatten.
 
    ![Zoekopdracht automatisch voltooid](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een type van Koord in plaats van een numerieke waarde te zijn.
+   >
+   >Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die de attributen van verwijzingen voorzien die het type veranderden van koord in numeriek.
 
 1. U kunt filters ook gebruiken om het gewenste product te vinden. In het volgende voorbeeld worden alle fietsgereedschappen in het catalogusscherm weergegeven door het [!UICONTROL Collections] facet uit te vouwen en Extra&#39;s maken te selecteren.
 
@@ -170,12 +176,3 @@ U kunt de actieve kolommen op de [!UICONTROL Catalog Search] pagina tijdelijk wi
 
 Wijzigingen die u aanbrengt, gelden alleen voor de huidige sessie.
 
-## Veelgestelde vragen {#faq}
-
-Raadpleeg de volgende veelgestelde vragen voor hulp bij deze [!UICONTROL Catalog Search] functie:
-
-### Waarom toont het Onderzoek van de Catalogus niet de correcte resultaten wanneer ik op een douanekenmerk met een numerieke waarde zoek?
-
-Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een type van Koord in plaats van een numerieke waarde te zijn.
-
-Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die de attributen van verwijzingen voorzien die het type veranderden van koord in numeriek.
