@@ -5,9 +5,9 @@ title: Cataloguszoekopdracht in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -169,3 +169,13 @@ U kunt de actieve kolommen op de [!UICONTROL Catalog Search] pagina tijdelijk wi
    U kunt ook op het verwijderpictogram ( x ) klikken naast de kolom die u van de actieve naar de niet-actieve sectie wilt verplaatsen.
 
 Wijzigingen die u aanbrengt, gelden alleen voor de huidige sessie.
+
+## Veelgestelde vragen {#faq}
+
+Raadpleeg de volgende veelgestelde vragen voor hulp bij deze [!UICONTROL Catalog Search] functie:
+
+### Waarom toont het Onderzoek van de Catalogus niet de correcte resultaten wanneer ik op een douanekenmerk met een numerieke waarde zoek?
+
+Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een type van Koord in plaats van een numerieke waarde te zijn.
+
+Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die de attributen van verwijzingen voorzien die het type veranderden van koord in numeriek.
