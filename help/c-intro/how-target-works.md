@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
 description: Adobe Target kan met websites worden geïntegreerd door middel van een van twee JavaScript-bibliotheken. at.js of mbox.js
 title: Hoe Adobe Target werkt
 feature: intro
@@ -7,15 +7,15 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2398'
 ht-degree: 1%
 
 ---
 
 
-# Hoe Adobe Target werkt{#how-adobe-target-works}
+# Hoe Adobe Target werkt
 
 Informatie over hoe Adobe Target werkt, inclusief informatie over de JavaScript-doelbibliotheken (at.js en mbox.js) en de verschillende activiteitstypen die in Target zijn opgenomen.
 
@@ -61,7 +61,7 @@ Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee o
 
 Zie [Auto-Target](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) voor meer informatie.
 
-Auto-Target maakt gebruik van geavanceerd computerleren om uit meerdere, presterende, door de markator gedefinieerde ervaringen te kiezen en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat inhoud en stationsomzettingen kunnen worden aangepast.
+Auto-Target maakt gebruik van geavanceerd computerleren om uit meerdere, hoogpresterende, door de markator gedefinieerde ervaringen te kiezen en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
 
 ### Automated Personalization (AP)
 
@@ -91,29 +91,49 @@ Bij Recommendations-activiteiten worden automatisch producten of inhoud weergege
 
 ## Het Edge-netwerk {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-&quot;Edge&quot; is een geografisch gedistribueerde serverarchitectuur die zorgt voor optimale responstijden voor eindgebruikers die inhoud aanvragen, ongeacht waar ze zich wereldwijd bevinden.
+Een &quot;Rand&quot; is een geografisch gedistribueerde serverarchitectuur die optimale responstijden garandeert voor eindgebruikers die inhoud aanvragen, ongeacht de locatie waar ze zich bevinden op de hele wereld.
 
-Om de responstijden te verbeteren, host Edge-omgevingen alleen de logica van de activiteit en het profiel in de cache en bieden ze informatie. De gegevensbestanden van de activiteit en van de inhoud, [!DNL Analytics] gegevens, APIs, en de gebruikersinterfaces van de tellergebruiker worden gehuisvest in de centrale gegevensmilieu&#39;s van Adobe. Updates worden vervolgens naar de Edge-knooppunten verzonden. De centrale omgevingen en Edge-knooppunten worden automatisch gesynchroniseerd om gegevens over activiteiten in de cache voortdurend bij te werken. 1:1 modellering wordt ook opgeslagen op elke rand, zodat die complexere verzoeken ook op de Rand kunnen worden verwerkt.
+Om reactietijden te verbeteren, de gastheer van de Randen van het Doel slechts activiteitenlogica, caching profielen, en aanbiederinformatie.
 
-Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en houdt analysegegevens bij over die aanvraag. De verzoeken van de gebruiker worden verpletterd aan de dichtstbijzijnde knoop van de Rand.
+De gegevensbestanden van de activiteit en van de inhoud, [!DNL Analytics] gegevens, APIs, en de gebruikersinterfaces van de tellergebruiker worden gehuisvest in de Centrale Clusters van Adobe. De updates worden dan verzonden naar de Randen van het Doel. De centrale clusters en de Edge-clusters worden automatisch gesynchroniseerd om de in de cache opgeslagen activiteitengegevens voortdurend bij te werken. Alle 1:1-modellering wordt ook opgeslagen op elke rand, zodat die complexere verzoeken ook aan de rand kunnen worden verwerkt.
 
-![Toewijzen met kernEdge-sites en -Edge-sites](assets/edge_network.png)
+Elke Edge-cluster beschikt over alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en houdt analysegegevens bij over die aanvraag. De verzoeken van de gebruiker worden verpletterd aan de dichtstbijzijnde Cluster van de Rand.
 
-De bron voor deze afbeelding is het white paper [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+Zie het artikel over beveiligingsoverzicht [van](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target voor meer informatie.
 
-De Adobe Target-oplossing wordt gehost op datacenters die eigendom zijn van Adobe en door Adobe worden gehuurd over de hele wereld. Admin-servers worden volledig gehost in datacenters die eigendom zijn van Adobe in Londen, Singapore en meerdere locaties in de VS, waaronder Oregon en Virginia. Edge-servers worden gehost op servers die eigendom zijn van Adobe en Adobe-leased in Amazon AWS-datacenters in Londen, Hongkong SAR of China, Singapore, Tokio en Sydney.
+De [!DNL Adobe Target] oplossing wordt gehost op datacenters in Adobe-eigendom en Adobe-lease over de hele wereld.
 
-De plaatsen van de Server van Admin bevatten zowel een centrum van de gegevensinzameling als een centrum van de gegevensverwerking. De plaatsplaatsen van de rand bevatten slechts een centrum van de gegevensinzameling. Elke rapportsuite wordt toegewezen aan een specifiek gegevensverwerkingscentrum.
+De centrale plaatsen van de Cluster bevatten zowel een centrum van de gegevensinzameling als een centrum van de gegevensverwerking. De plaatsen van de Cluster van de rand bevatten slechts een centrum van de gegevensinzameling. Elke rapportsuite wordt toegewezen aan een specifiek gegevensverwerkingscentrum.
 
-In plaats van op alle gerichte verzoeken van één enkele plaats te antwoorden, worden de verzoeken verwerkt door het milieu van de Rand dichtst bij de bezoeker, zo verzachtend de gevolgen van netwerk/Internet reistijd.
+De gegevens van de de plaatsactiviteit van de klant worden verzameld door het dichtst van zeven Clusters van Edge en geleid aan de vooraf bepaalde Centrale bestemming van de Cluster van een klant (één van drie plaatsen: Oregon, Dublin, Singapore) voor verwerking. Bezoekerprofielgegevens worden opgeslagen op de Edge Cluster die het dichtst bij de bezoeker van de site staat (de locaties zijn Centraal-clusterlocaties en Virginia, Amsterdam, Sydney, Tokio en Hongkong).
+
+In plaats van op alle gerichte verzoeken van één enkele plaats te antwoorden, worden de verzoeken verwerkt door de Cluster van de Rand dichtst bij de bezoeker, zo verzachtend de gevolgen van netwerk/Internet reistijd.
+
+De centrale clusters van het doel, die op de Diensten van het Web van Amazon (AWS) worden ontvangen, worden gevestigd in:
+
+* Oregon, VS
+* Dublin, Ierland
+* Republiek Singapore
+
+DoelEdge-clusters, gehost op AWS, bevinden zich in:
+
+* Mumbai, India
+* Tokio, Japan
+* Virginia, VS
+* Oregon, VS
+* Sydney, Australië
+* Dublin, Ierland
+* Republiek Singapore
+
+De [!DNL Target Recommendations] service wordt gehost in een [!DNL Adobe] datacenter in Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] heeft momenteel geen Edge-netwerk in China en de prestaties van de eindgebruiker blijven beperkt voor [!DNL Target] klanten in China. Wegens de firewall en het gebrek aan knopen van de Rand binnen het land, zullen de ervaringen van plaatsen met [!DNL Target] opgesteld langzaam teruggeven zijn en paginaladingen zullen worden beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
+>[!DNL Adobe Target] heeft momenteel geen Edge Cluster in China en de prestaties van de eindgebruiker blijven beperkt voor [!DNL Target] klanten in China. Vanwege de firewall en het gebrek aan Edge Clusters in het land, zullen sites met [!DNL Target] implementatie traag worden weergegeven en zullen de paginaladingen worden beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
 
-U kunt indien gewenst opmerkingen over de doelrand lijsten van gewenste personen. Zie [lijst van gewenste personen Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)voor meer informatie.
+Desgewenst kunt u doelEdge-clusters lijsten van gewenste personen. Zie [lijst van gewenste personen Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)voor meer informatie.
 
-## Ervaring met beveiligde gebruikers {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Beveiligde gebruikerservaring {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe zorgt ervoor dat de beschikbaarheid en prestaties van de doelinfrastructuur zo betrouwbaar mogelijk zijn. Een communicatieafbraak tussen de browser van de eindgebruiker en de servers van de Adobe kan echter een onderbreking in de levering van de inhoud veroorzaken.
 
@@ -128,7 +148,7 @@ Adobe beschermt de gebruikerservaring door de prestaties te optimaliseren en te 
 * Adobe gebruikt een multi-tiered benadering om zijn toepassingen te beveiligen om het hoogste niveau van beschikbaarheid en betrouwbaarheid voor klanten te verstrekken.
 * [!DNL Target] Consulting biedt implementatieondersteuning en doorlopende productondersteuning.
 
-## SEO (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s) - vriendelijk testen {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] wordt uitgelijnd op de richtlijnen voor zoekprogramma&#39;s voor testen.
 
@@ -161,7 +181,7 @@ Richtlijnen werden gepresenteerd in een [Google Webmaster Central Blog](https://
 
    Het is belangrijk om te overwegen wat uw test ook is veranderd. Als u de kleur van knoppen of andere kleine, niet-tekstuele items op de pagina bijwerkt, heeft dit geen invloed op de organische waarderingen. Wijzigingen in tekst moeten echter wel worden gecodeerd.
 
-   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te krijgen in de zoekfunctie, zoals een speciale bestemmingspagina voor een e-mailcampagne, zijn geen van de bovenstaande overwegingen van toepassing.
+   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te innemen in de zoekfunctie, zoals een speciale bestemmingspagina voor een e-mailcampagne, zijn geen van de bovenstaande overwegingen van toepassing.
 
 Google stelt dat het volgen van deze richtlijnen &quot;ertoe zou moeten leiden dat uw tests weinig of geen invloed hebben op uw site in zoekresultaten.&quot;
 
