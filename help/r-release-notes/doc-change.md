@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 24 september | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | De code voor de activiteit QA bookmarklet voor at.js 2 is bijgewerkt.*x*. |
-|  | [Catalogus zoeken](/help/c-recommendations/c-products/catalog-search.md#faq) | Sectie Veelgestelde vragen toegevoegd. |
+|  | [Catalogus zoeken](/help/c-recommendations/c-products/catalog-search.md#faq) | Er is een opmerking toegevoegd over het zoeken op een aangepast kenmerk met een numerieke waarde. |
+|  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Waarom toont het Onderzoek van de Catalogus niet de correcte resultaten wanneer ik op een douanekenmerk met een numerieke waarde zoek?&quot; |
 |  | [Hoe Target werkt](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | Bijgewerkt de plaatsen van de Cluster van het Doel en van het Doel Centrale die in &quot;het randnetwerk worden vermeld.&quot; |
 | 23 september | [Een Analytics-trackingserver gebruiken](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Volledig onderwerp bijgewerkt met informatie van de Hulpmiddelen van de Ontwikkelaar van browser [!DNL Adobe Experience Platform Debugger] en. |
 |  | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | De rij &quot;user.header(&#39;x-door:sturen-for&#39;)&quot; is bijgewerkt om aan te geven dat &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; is vervangen. |
