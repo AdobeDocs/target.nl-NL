@@ -5,9 +5,9 @@ title: Multivariatietest
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Met behulp van verschillende tests kunt u ook samengestelde effecten tussen twee
 
 Bij Doel is elke combinatie één ervaring. De multivariate test vergelijkt elke ervaring zodat kunt u leren welke combinaties het meest succesvol zijn. Tegelijkertijd worden gegevens verzameld en geanalyseerd om te begrijpen hoe elke locatie en de aanbiedingen invloed hebben op de succesmaatstaf.
 
-![](assets/multivariate.png){width=&quot;672px&quot;}
+![](assets/multivariate.png)
 
 Wegens het aantal combinaties die kunnen worden geproduceerd, vereist een multivariate test meer tijd en verkeer dan een test A/B. De pagina moet voldoende verkeer krijgen om statistisch significante resultaten voor elke ervaring te produceren. Om nuttige resultaten te verkrijgen, moet u begrijpen hoeveel verkeer uw pagina ontvangt en het optimale aantal combinaties voor de juiste hoeveelheid tijd testen om de vereiste resultaten te krijgen. De schatter van het [Verkeer van het doel](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan u helpen een test ontwerpen die met uw verkeer werkt. Voordat u de Verkeersschatting gebruikt, moet u over goede statistieken beschikken die het aantal afbeeldingen en conversies weergeven dat uw site normaal ontvangt. Overweeg uw verkeersniveaus per dag. Hoe meer ervaringen in een activiteit, des te meer verkeer de activiteit zal moeten omvatten of des te langer uw activiteit zal moeten lopen. Als uw verkeer niet zeer hoog is, zou u een klein aantal combinaties moeten testen; anders kan de tijd die nodig is om zinvolle testresultaten te produceren te lang zijn om nuttig te zijn.
 
