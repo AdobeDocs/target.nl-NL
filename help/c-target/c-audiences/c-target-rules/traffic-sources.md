@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Maak een publiek in Adobe Target om bezoekers te richten op basis van het zoekprogramma of de bestemmingspagina die hen naar uw site verwijst.
-title: Doelverkeersbronnen in Adobe Target
+title: Opties voor verkeersbronnen bij Adobe Target-publiek
 feature: audiences
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
