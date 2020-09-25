@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;target library;library
 description: De gebruikers van het doel die op pre-gebouwde het richten regels worden gebaseerd.
-title: Doelbibliotheek
+title: Doelbibliotheekopties in Adobe Target-publiek
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
