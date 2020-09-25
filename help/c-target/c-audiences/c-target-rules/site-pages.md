@@ -1,14 +1,14 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site bevinden.
-title: Sitepagina's in Adobe Target
+title: Opties voor sitepagina's in Adobe Target-doelgroepen
 feature: audiences
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site be
       * Domein op hoofdniveau
       * Pad
       * Hash-fragment (#)
-   * **Vorige pagina:** De pagina waarop de gebruiker heeft geklikt voordat op de huidige pagina wordt geklikt. (De gebruiker moet van de vorige pagina tot de huidige pagina klikken voor de pagina om worden gevolgd. De vorige pagina wordt niet bijgehouden als de gebruiker een nieuwe URL in browser typt.) De feitelijke inhoud van deze pagina is afhankelijk van het ontwerp van uw site. Als op de huidige pagina bijvoorbeeld informatie over een specifiek product wordt weergegeven, is de vorige pagina mogelijk een categoriepagina waarop de bezoeker het specifieke item selecteert (bijvoorbeeld een pagina waarop meerdere camera&#39;s van een bepaald type worden weergegeven), of de pagina die naar de laatste pagina leidt.
+   * **Vorige pagina:** De pagina waarop de gebruiker heeft geklikt voordat op de huidige pagina is geklikt. (De gebruiker moet van de vorige pagina tot de huidige pagina klikken voor de pagina om worden gevolgd. De vorige pagina wordt niet bijgehouden als de gebruiker een nieuwe URL in browser typt.) De feitelijke inhoud van deze pagina is afhankelijk van het ontwerp van uw site. Als op de huidige pagina bijvoorbeeld informatie over een specifiek product wordt weergegeven, is de vorige pagina mogelijk een categoriepagina waarop de bezoeker het specifieke item selecteert (bijvoorbeeld een pagina waarop meerdere camera&#39;s van een bepaald type worden weergegeven), of de pagina die naar de laatste pagina leidt.
 
       De tweede vervolgkeuzelijst bevat de volgende opties als u deze optie kiest:
 
