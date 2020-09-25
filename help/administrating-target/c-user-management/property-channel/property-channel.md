@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '3027'
 ht-degree: 0%
@@ -44,7 +44,7 @@ De volgende termen worden in deze sectie gebruikt en zijn mogelijk nieuw voor ge
 
 ### Eigenschap
 
-De eigenschappen zijn van nature gelijkaardig aan die binnen [!DNL Adobe Platform Launch] in zoverre dat zij een uniek codefragment gebruiken om hen te onderscheiden.
+De eigenschappen zijn gelijkaardig in aard aan die binnen [!DNL Adobe Platform Launch] in die zin dat zij een uniek codefragment gebruiken om hen te onderscheiden.
 
 Een webeigenschap is een bibliotheek met regels en één insluitcode. Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen zijn.
 
@@ -123,6 +123,7 @@ Elke rol heeft verschillende machtigingsniveaus:
 | Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
 | Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
 | Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
+
 Het is belangrijk om op te merken dat de rol van elke gebruiker op elke pagina, bezit, of plaats in uw rekening van toepassing is die markeringen, zoals hieronder getoond omvat: [!DNL Target]
 
 ![](assets/permissions_2.png)
@@ -150,7 +151,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Jan**: Jan is het hoofd van Optimalisatie in het Centrum van Uitmuntendheid voor de Web-pagina&#39;s, de eigenschappen, en de plaatsen van haar organisatie van de Verenigde Staten. Ze heeft waarschijnlijk rechten voor Systeembeheer in de Adobe Experience Cloud.
 
-   In haar rol, heeft zij de toestemmingen van Approver voor de Homepage van de V.S. en de Plaats van de V.S. Met de toestemmingen van de fiatteur, kan zij, activiteiten creëren uitgeven en activeren of tegenhouden.
+   In haar rol, heeft zij de toestemmingen van Approver voor de Homepage van de V.S. en de Plaats van de V.S. Met de toestemmingen van de fiatteur, kan zij, activiteiten tot stand brengen uitgeven en activeren of tegenhouden.
 
    Jan raadpleegt ook het optimalisatieteam in Frankrijk en heeft daarom waarnemersmachtigingen voor de site van Frankrijk die haar alleen-lezen toegang tot activiteiten geven. Jan kan activiteiten weergeven, maar kan deze niet maken of bewerken.
 
@@ -174,7 +175,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Jan**: Jan is het hoofd van de optimalisatie in het excellentiecentrum voor een organisatie voor gezondheidszorg die actief is in de ruimten voor ziekenhuisproducten en consumentenproducten. Ze heeft waarschijnlijk rechten voor Systeembeheer in de Adobe Experience Cloud.
 
-   In haar rol, heeft zij de toestemmingen van de fiatteur voor de Ziekenhuis. Met de toestemmingen van de fiatteur, kan zij, activiteiten creëren uitgeven en activeren of tegenhouden.
+   In haar rol, heeft zij de toestemmingen van de fiatteur voor de Ziekenhuis. Met de toestemmingen van de fiatteur, kan zij, activiteiten tot stand brengen uitgeven en activeren of tegenhouden.
 
    Jan raadpleegt ook het optimalisatieteam in de ruimte voor consumentenproducten en beschikt daarom over de machtiging Waarnemer voor die site die haar alleen-lezen toegang geeft tot activiteiten. Jan kan activiteiten weergeven, maar kan deze niet maken of bewerken.
 
@@ -280,7 +281,7 @@ Overweeg het volgende scenario (van toepassing op zowel at.js als mbox.js):
 
 Wanneer een bezoeker Pagina1 in browser opent, wordt hij of zij opnieuw gericht aan Pagina2. Omdat Page2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van het Doel geen kliksporen in zijn reactie.
 
-Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
+Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Zie [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md)voor meer informatie.
 
 ## Trainingsvideo&#39;s
 
