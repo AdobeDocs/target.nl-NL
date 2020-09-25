@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -45,6 +45,6 @@ Om uw bestaande globale mbox voor zowel [!DNL Target] als uw erfenisimplementati
 
 De volgende FAQs kan worden gebruikt om uw globale mbox implementatie problemen op te lossen:
 
-### Waarom laadt het globale mbox niet, of waarom is er latentie in het laden van het globale mbox wanneer de pagina laadt?*
+### Waarom wordt het globale selectievakje niet geladen, of waarom is er latentie bij het laden van het globale selectievakje wanneer de pagina wordt geladen?
 
 Zorg ervoor dat de verwijzing at.js de eerste JavaScript-aanroep op de pagina is. Voor andere oplossingen voor dit probleem, zie [Globale doos Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
