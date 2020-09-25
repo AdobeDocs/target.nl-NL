@@ -1,15 +1,15 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Gebruik een Adobe Target-publiek voor doelgebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode, DMA of mobiele luchtvaartmaatschappij.
-title: Geo
+title: Geo-opties in Adobe Target-publiek
 feature: audiences
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Geo{#geo}
 
-Gebruik doelgroepen voor gebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode, DMA of mobiele luchtvaartmaatschappij.
+Gebruik doelgroepen voor gebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode/postcode, DMA of mobiele luchtvaartmaatschappij.
 
 De parameters van de plaats van de geoplaats staan u toe om activiteiten en ervaringen te richten die op de aardrijkskunde van uw bezoekers worden gebaseerd. U kunt bezoekers opnemen of uitsluiten op basis van hun land, provincie, provincie, stad, postcode, breedte, lengte, DMA of mobiele provider. Dit gegeven wordt verzonden met elk verzoek van het Doel en is gebaseerd op het IP van de bezoeker adres. Selecteer deze parameters net als alle doelwaarden.
 
