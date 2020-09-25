@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -29,11 +29,11 @@ De laadtijden van pagina&#39;s voor webimplementaties worden [!DNL at.js] onder 
 ## Voordelen van at.js {#benefits}
 
 In de volgende tabel worden de verschillen tussen de twee bibliotheken uitgelegd:
-4
+
 | Bibliotheekreferentie | Beschrijving |
-|— |— |
-|at.js|at.js vervangt mbox.js voor [!DNL Target] implementaties.<br>Met at.js worden onder andere de laadtijden voor webimplementaties verbeterd, wordt de beveiliging verbeterd, wordt voorkomen dat documenten.write-waarschuwingen in Google Chrome verschijnen en worden betere implementatieopties geboden voor toepassingen van één pagina.<br>Zie [at.js Implementation](#implement)voor meer informatie.|
-|mbox.js|Voorafgaand aan [!DNL Target] 16.3.1 (Maart 2016), [!DNL Target] [!DNL Target] vereiste een vraag aan mbox.js om globale mbox tot stand te brengen die wordt vereist om activiteiten te leveren, kliks te volgen, en de meeste succesmetriek te volgen. Dit bestand bevat de bibliotheken die nodig zijn voor al uw activiteiten. U hoeft geen verschillende activiteitspecifieke versies van het bestand te onderhouden.<br>Als u reeds het verpakken vakjes op uw pagina&#39;s van een oudere stijl van [!DNL Target] implementatie hebt, kunnen deze vakjes nog in de nieuwe interface worden gebruikt. Het bijgewerkte bestand mbox.js is nog steeds vereist, maar deze vakken kunnen worden geselecteerd voor activiteiten en bewerkt met de Visual Experience Composer.<br>[!DNL Target] Standard- en Premium-update en -supplement mbox.js met een verwijzing naar het bestand target.js. Het bestand target.js wordt gehost door Adobe. Met het bestand Target.js kunt u inhoud op elke pagina bewerken met de Visual Experience Composer, zelfs als de pagina geen vooraf gedefinieerde vakken bevat. U moet naar dit bestand verwijzen op elke pagina op uw site.<br>Zie [mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)voor meer informatie.<br>**Belangrijk **: De bibliotheek mbox.js wordt nog steeds ondersteund, maar er zijn geen functie-updates. Alle klanten moeten naar om.js migreren. Zie[Migreren naar at.js vanuit mbox.js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br>|
+|--- |--- |
+| at.js | bij.js vervangt mbox.js voor [!DNL Target] implementaties.<br>Met at.js worden onder andere de laadtijden voor webimplementaties verbeterd, wordt de beveiliging verbeterd, wordt voorkomen dat documenten.write-waarschuwingen in Google Chrome verschijnen en worden betere implementatieopties geboden voor toepassingen van één pagina.<br>Zie [at.js Implementation](#implement)voor meer informatie. |
+| mbox.js | Voorafgaand aan [!DNL Target] 16.3.1 (Maart 2016), [!DNL Target] [!DNL Target] vereiste een vraag aan mbox.js om globale mbox tot stand te brengen die wordt vereist om activiteiten te leveren, kliks te volgen, en de meeste succesmetriek te volgen. Dit bestand bevat de bibliotheken die nodig zijn voor al uw activiteiten. U hoeft geen verschillende activiteitspecifieke versies van het bestand te onderhouden.<br>Als u reeds het verpakken vakjes op uw pagina&#39;s van een oudere stijl van [!DNL Target] implementatie hebt, kunnen deze vakjes nog in de nieuwe interface worden gebruikt. Het bijgewerkte bestand mbox.js is nog steeds vereist, maar deze vakken kunnen worden geselecteerd voor activiteiten en bewerkt met de Visual Experience Composer.<br>[!DNL Target] Standard- en Premium-update en -supplement mbox.js met een verwijzing naar het bestand target.js. Het bestand target.js wordt gehost door Adobe. Met het bestand Target.js kunt u inhoud op elke pagina bewerken met behulp van Visual Experience Composer, zelfs als de pagina geen vooraf gedefinieerde vakken bevat. U moet naar dit bestand verwijzen op elke pagina op uw site.<br>Zie [mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)voor meer informatie.<br>**Belangrijk**: De bibliotheek mbox.js wordt nog steeds ondersteund, maar er zijn geen functie-updates. Alle klanten moeten naar om.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md) |
 
 ## Implementeren om.js {#implement}
 
