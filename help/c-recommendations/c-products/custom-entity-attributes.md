@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Dubbele aanhalingstekens moeten worden vermeden. Dit `"[""test"", ""value""]"` i
 
 U kunt maximaal 500 waarden opnemen in een kenmerk met meerdere waarden.
 
-**targetPageParams gebruiken**
+### targetPageParams gebruiken
 
 In het volgende voorbeeld wordt getoond hoe u `targetPageParams`
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**CSV gebruiken**
+### CSV gebruiken
 
 U kunt uw CSV-bestanden in onbewerkte vorm beheren met een teksteditor of u kunt spreadsheetsoftware gebruiken.
 
@@ -108,7 +108,7 @@ Bij de conversie naar de CSV-indeling worden dubbele aanhalingstekens toegevoegd
 
 Wees voorzichtig wanneer u een CSV-bestand met een Raw-catalogus rechtstreeks bewerkt.
 
-**API&#39;s gebruiken**
+### API&#39;s gebruiken
 
 U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in een mabox-parameter als een tekenreekswaarde die een JSON-array met escape-teken bevat.
 
@@ -261,7 +261,6 @@ Voorbeeld:
 
 Wanneer in een ontwerp naar `entity.genre=["genre1","genre2"]` wordt verwezen als `$entity<N>.genre`, is het resultaat `genre1, genre2`.
 
->[!MORELIKETHIS]
->
->* [Entiteitskenmerken](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Verwante onderwerpen:
 
+* [Entiteitskenmerken](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
