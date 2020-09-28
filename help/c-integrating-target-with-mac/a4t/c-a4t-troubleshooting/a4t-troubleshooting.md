@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,12 @@ Herzie uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervaringe
 
 * **at.js 1.x**: In de [!DNL Target] vraag, is supplementaire identiteitskaart bevat in de `mboxMCSDID` parameter. In de [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
 * **at.js 2.x**: De aanvullende id wordt geretourneerd in de HTTP-header als de waarde voor `experienceCloud.analytics.supplementalDataId`.
+
+De eenvoudigste manier om de aanvullende id te controleren is met de Adobe Experience Platform Debugger.
+
+Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)van Adobe Experience Platform.
+
+![Foutopsporing](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 Als er geen extra gegevens-id in de [!DNL Target] vraag is, bevestig dat het [!DNL VisitorAPI.js] dossier vóór [!DNL at.js] of [!DNL mbox.js]wordt geladen. Als er geen extra gegevens identiteitskaart in de [!DNL Analytics] vraag is, bevestig dat de [!DNL Target] vraag vóór de [!DNL Analytics] vraag brandt.
 
