@@ -5,9 +5,9 @@ title: Voordat u Adobe Analytics implementeert als rapportagebron voor Adobe Tar
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Hits die gegevens van bevatten [!DNL Analytics] en een extra gegevens-identiteit
 * De service voor bezoekersidentiteitskaart is geïmplementeerd
 * Er wordt een versie geïmplementeerd van [!DNL mbox.js] die deze integratie ondersteunt.
 
-Zorg er bij het oplossen van problemen voor dat de aanvullende id aanwezig is bij [!DNL Analytics] treffers.
+Wanneer het [oplossen van problemen](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), ben zeker om te bevestigen dat supplementaire identiteitskaart op [!DNL Analytics] treffers aanwezig is.
 
 ## Logboekregistratie voor clientanalyse {#client-side}
 
