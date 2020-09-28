@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,10 @@ De lijst van rapportsuites die in Standaard Target/Premium verschijnt is de lijs
 
 ## Ik zie niet zoveel gegevens in rapporten als verwacht. {#section_75002584FA63456D8D9086172925DD8D}
 
-Herzie uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervaringen kwalificeren en zorg ervoor dat de extra gegevens IDs in de [!DNL Target] en [!DNL Analytics] vraag aanpast. In de [!DNL Target] vraag, is supplementaire identiteitskaart bevat in de `mboxMCSDID` parameter. In de [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
+Herzie uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervaringen kwalificeren en zorg ervoor dat de extra gegevens IDs in de [!DNL Target] en [!DNL Analytics] vraag aanpast.
+
+* **at.js 1.x**: In de [!DNL Target] vraag, is supplementaire identiteitskaart bevat in de `mboxMCSDID` parameter. In de [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
+* **at.js 2.x**: De aanvullende id wordt geretourneerd in de HTTP-header als de waarde voor `experienceCloud.analytics.supplementalDataId`.
 
 Als er geen extra gegevens-id in de [!DNL Target] vraag is, bevestig dat het [!DNL VisitorAPI.js] dossier vóór [!DNL at.js] of [!DNL mbox.js]wordt geladen. Als er geen extra gegevens identiteitskaart in de [!DNL Analytics] vraag is, bevestig dat de [!DNL Target] vraag vóór de [!DNL Analytics] vraag brandt.
 
