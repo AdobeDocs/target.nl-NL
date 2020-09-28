@@ -4,7 +4,7 @@ description: Informatie over het werken met een veld met meerdere waarden in Ado
 title: Werken met kenmerken voor meerdere waarden in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -89,7 +89,7 @@ JSON API-representatie van de insluitingsregel:
     "attribute": "id",
     "operation": "isNotContainedInList",
     "source": {
-        "name": " user.lastWatchedMovies",
+        "name": "user.lastWatchedMovies",
         "type": "PROFILE"
     }
 } 
