@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ De lijst van rapportsuites die in Standaard Target/Premium verschijnt is de lijs
 Herzie uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervaringen kwalificeren en zorg ervoor dat de extra gegevens IDs in de [!DNL Target] en [!DNL Analytics] vraag aanpast.
 
 * **at.js 1.x**: In de [!DNL Target] vraag, is supplementaire identiteitskaart bevat in de `mboxMCSDID` parameter. In de [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
-* **at.js 2.x**: De aanvullende id wordt geretourneerd in de HTTP-header als de waarde voor `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**: In de [!DNL Target] vraag, is supplementaire identiteitskaart teruggekeerd in de kopbal van HTTP als waarde voor `experienceCloud.analytics.supplementalDataId`. In de [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
 
 De eenvoudigste manier om de aanvullende id te controleren is met de Adobe Experience Platform Debugger.
 
