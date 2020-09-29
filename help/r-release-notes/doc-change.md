@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 29 september | [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | Extra informatie over hoe te om supplementaire identiteitskaart in at.js 1.x en at.js 2.x te inspecteren. |
 | 24 september | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | De code voor de activiteit QA bookmarklet voor at.js 2 is bijgewerkt.*x*. |
 |  | [Catalogus zoeken](/help/c-recommendations/c-products/catalog-search.md#faq) | Er is een opmerking toegevoegd over het zoeken op een aangepast kenmerk met een numerieke waarde. |
 |  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Waarom toont het Onderzoek van de Catalogus niet de correcte resultaten wanneer ik op een douanekenmerk met een numerieke waarde zoek?&quot; |
