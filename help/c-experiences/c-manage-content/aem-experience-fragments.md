@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
 * [!DNL Target] zoekt momenteel naar ervaringsfragmenten die om de tien minuten moeten worden geïmporteerd. Het geïmporteerde ervaringsfragment moet binnen tien [!DNL Target] minuten beschikbaar zijn, maar dit tijdsbestek kan de voortgang verkorten.
 * Het ervaringsfragment wordt momenteel geïmporteerd in [!DNL Target] de vorm van een HTML-aanbieding. Het ervaringsfragment &#39;primaire&#39; versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 * U kunt JSON-aanbiedingen importeren als ervaringsfragmenten in [!DNL Target]. Deze aanbiedingen worden echter geïmporteerd als HTML-aanbiedingen. JSON-aanbiedingen (ervaringsfragmenten) worden momenteel niet volledig ondersteund in de [!DNL Target] gebruikersinterface.
+* U kunt geen ervaringsfragmenten maken met gebruik van Adobe IO. U moet ervaringsfragmenten maken met behulp van AEM, zoals hierboven beschreven.
 
 ## Trainingsvideo: Fragmenten voor AEM ervaring gebruiken met een Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
