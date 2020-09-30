@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '29015'
+source-wordcount: '29558'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerki
 >Zie Opmerkingen bij de release [Target (huidig)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2020
+
+### Target Standard/Premium 20.8.3 (15 september 2020)
+
+| Functie | Details |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Analytics for Target (A4T) support for Auto-Target activities | [!UICONTROL Auto-Target] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Dankzij deze integratie kunt u het leeralgoritme voor [!UICONTROL Auto-Target] ensemble-machines gebruiken om een beste ervaring te kiezen voor elke bezoeker op basis van zijn profiel, gedrag en context.<br>Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar!<br>Zie [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie. |
+
+### Target Standard/Premium 20.8.2 (10 september 2020)
+
+| Functie | Details |
+| --- | --- |
+| ![De aanbevelingen van de Controle van de kentekenplaat](/help/assets/premium.png) van de premie groeven binnen criteria opeenvolgingen | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br>Zie [Criteria maken voor meer informatie](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
+
+### Target Standard/Premium 20.8.1 (2 september 2020)
+
+Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
+
+* Probleem verholpen waarbij fouten werden weergegeven bij het laden van de nieuwe [!UICONTROL Administration] pagina&#39;s na het schakelen tussen organisaties. (TGT-37730)
+* Probleem verholpen waarbij de onjuiste clientcode op de [!UICONTROL Administration > Implementation] pagina werd weergegeven. (TGT-37849)
+* Probleem verholpen waardoor gebruikers soms de bewerkingsfuncties in de [!UICONTROL Visual Experience Composer] (VEC) niet konden gebruiken nadat de VEC met succes was geladen. (TGT-37162)
+* Probleem verholpen waardoor pagina&#39;s niet konden worden geladen in de VEC en de Enhanced Experience Composer (EEC), ook al was de extensie VEC Helper geïnstalleerd. Dit was het gevolg van wijzigingen in Google Chrome 80+. Download de [bijgewerkte extensie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)VEC Helper. (TGT-37893)
+* Probleem verholpen waarbij gebruikers soms werden verhinderd om 0,00 pagina te downloaden van de [!UICONTROL Administration > Implementation] pagina na het schakelen tussen organisaties. (TGT-37668)
+* De downloadknop at.js is nu uitgeschakeld tijdens het laden om te voorkomen dat meerdere aanvragen worden verzonden [!DNL Target] als gebruikers meerdere keren op de downloadknop klikken. (TGT-37633)
+* Probleem verholpen met [!UICONTROL Experience Targeting] (XT)-activiteiten die ertoe hebben geleid dat ervaringen gedurende een langere periode &quot;ophaalresultaten&quot; hebben getoond. (TGT-37684)
+* Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord. (TGT-34479 &amp; TGT-34473)
+* Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken. (TGT-34480)
+* Het foutbericht is verbeterd bij het verwijderen van een mobiele viewport die momenteel wordt gebruikt in een activiteit. Het foutbericht luidt nu: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot; (TGT-37030)
+* Toegevoegde steun in VEC om klik het volgen op een css selecteur toe te staan die meer dan één element in de pagina aanpast. (TGT-37323)
+* Probleem verholpen waardoor bepaalde gebruikers de [!UICONTROL Activity] lijst niet konden weergeven. Het volgende foutbericht is weergegeven: &quot;Kan geen URL-suggesties ophalen.&quot; De fout kwam voor gebruikers voor gebruikend wagenterugloop in hun FirstName (FirstName/r/n) in het systeem van de Achterkant van de Adobe. (TGT-37330)
+* Probleem verholpen waardoor gebruikers de [!UICONTROL Activity] pagina niet konden weergeven als de naam van de werkruimte (opgegeven in de [!UICONTROL Adobe Admin Console for Enterprise]) een apostrof bevat. (TGT-37709)
+* Probleem verholpen bij [!UICONTROL Auto-Allocate] activiteiten tijdens het selecteren van optimalisatie- en conversiemetriek waarbij een foutbericht gebruikers verkeerd informeerde een rapportsuite te selecteren, ook al was er al een rapportsuite opgegeven. (TGT-37689)
+* Probleem verholpen waarbij metrische gegevens op de [!UICONTROL Goals and Settings] pagina soms leeg werden na het navigeren naar de [!UICONTROL Targeting] pagina en vervolgens weer. (TGT-37691)
+* Probleem verholpen waarbij een onjuiste laatst gewijzigde waarde voor [!DNL Recommendations] criteria werd veroorzaakt. (TGT-37666)
+* Probleem verholpen waarbij id&#39;s van een box in de vervolgkeuzelijst Mboxes werden weergegeven in plaats van namen van een box. (TGT-37739)
 
 ### te.js 2.3.2 (24 juli 2020)
 
@@ -78,7 +112,7 @@ De volgende verbeteringen en correcties zijn aangebracht in de bibliotheken [!DN
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
+| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek het ontbreken leidde. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
 | om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` instelling is overschreven via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35065)</li><li>Probleem verholpen bij het gebruik van de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie, [!DNL Launch] waarmee de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep werd vertraagd. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
 
 ### Wijzigingen in de profielbatchstatus-API v2 (14 mei 2020)
