@@ -5,9 +5,9 @@ title: Doelaankondigingen
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van de
 ## Adobe noemde opnieuw een leider in het Magic Quadrant Gartner voor Personalisatietechnieken
 
 Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid. [Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webinar: Aanpasbare, fijnafstemming op schaal met Adobe Target en Analytics
+
+* **Dinsdag 27 oktober 2020**
+* **8am PT | 10am CT | 11am ET**
+* **Duur: 60 minuten**
+
+Digitale adoptie is op dit moment aan het stijgen, waardoor gloednieuwe segmenten van klanten digitaal worden met hoge verwachtingen bij het vinden wat ze nodig hebben en bij het ontvangen van uitzonderlijke zorg en klantenservice. Personalisatie is van essentieel belang voor aanpassing aan directe veranderingen en het evolueren van uw zaken voor de toekomst.
+
+In dit webinar zullen we laten zien hoe we met vertrouwen in [!DNL Adobe Target] [!DNL Analytics] inzichten en publiekssegmenten kunnen optreden, zodat bedrijven in alle bedrijfstakken snel hun bedrijf kunnen ontwikkelen met door AI aangedreven personalisatie, ondersteund met een volledig overzicht van de invloed op de prestaties in analytische rapportage.
+
+In dit webinar leert u:
+
+* Hoe de unieke server-aan-server integratie tussen [!DNL Adobe Analytics] en een verenigd profiel, publiek, en het melden voor snelle prestaties-gedreven verpersoonlijking [!DNL Adobe Target] toelaat
+* Tips en trucs over hoe bedrijven uren besparen in ‘analysegalalyse’ en hun kritieke klantinteracties snel op schaal aanpassen
+
+[Registreer hier voor deze spannende gebeurtenis.](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
 
 ## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
