@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2474'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,13 @@ ht-degree: 0%
 # Documentatiewijzigingen{#documentation-changes}
 
 Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productdocumentatie zijn aangebracht.
+
+## Adobe Target Standard/Premium 20.9.1 (30 september 2020)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 20 september | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de volgende levende webinar:<ul><li>Aanpasbare, fijnafstemming op schaal met Adobe Target en Analytics</li></ul> |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.9.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 20.8.1 (2 september 2020)
 
