@@ -1,13 +1,13 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: Informatie om u te helpen de elementen plaatsen u in uw rapport wilt verschijnen. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
+description: Informatie die u helpt bij het instellen van de elementen die u wilt weergeven in uw Adobe Target-rapport. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
 title: Rapportinstellingen
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1815'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,18 @@ ht-degree: 0%
 
 # Rapportinstellingen{#report-settings}
 
-Informatie om u te helpen de elementen plaatsen u in uw rapport wilt verschijnen. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
+Informatie om u te helpen de elementen plaatsen u in uw rapport wilt verschijnen in [!DNL Adobe Target]. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
 
-Als u een rapport wilt weergeven, klikt u op **[!UICONTROL Activities]** de gewenste activiteit in de lijst en klikt u op het **[!UICONTROL Reports]** tabblad.
+Een rapport weergeven:
 
-![Gebruikersinterface rapporteren](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste activiteit.
+1. Klik op het **[!UICONTROL Reports]** tabblad.
+
+   ![Gebruikersinterface rapporteren](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Doelvoorinstelling {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-U kunt maximaal tien verschillende voorinstellingen van het rapport van een afzonderlijke activiteit opslaan nadat u het naar wens hebt geconfigureerd (metriek, datumbereiken, publiek, geavanceerde instellingen, enzovoort). Alle gebruikers van het Doel kunnen, de diverse vooraf instelt tonen uitgeven en schrappen, ongeacht wie hen creeerde.
+U kunt maximaal tien verschillende voorinstellingen van het rapport van een afzonderlijke activiteit opslaan nadat u het naar wens hebt geconfigureerd (metriek, datumbereiken, publiek, geavanceerde instellingen, enzovoort). Alle [!DNL Target] gebruikers kunnen de verschillende voorinstellingen weergeven, bewerken en verwijderen, ongeacht wie deze heeft gemaakt.
 
 U kunt het rapport van een individuele activiteit ook vormen zoals gewenst en dan die configuratie opslaan als uw gebrek/favoriete voorinstelling. Dit is de mening die toont wanneer u het rapport van die activiteit vooruitgaat.
 
@@ -41,8 +44,8 @@ U kunt het rapport van een individuele activiteit ook vormen zoals gewenst en da
 
    ![Nieuwe voorinstelling, dialoogvenster](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Controleer de informatie in de secties Filters en van Montages om ervoor te zorgen dat het rapport wordt gevormd zoals gewenst, dan specificeer **[!UICONTROL Preset Name]** (tot 50 karakters).
-1. (Voorwaardelijk) als u dit uw standaard/favoriete rapportmening wilt zijn, schuif de knevel aan **[!UICONTROL Set This as Default Preset]** On positie.
+1. Herzie de informatie in de **[!UICONTROL Filters]** en **[!UICONTROL Settings]** secties om ervoor te zorgen dat het rapport zoals gewenst wordt gevormd, dan specificeer **[!UICONTROL Preset Name]** (tot 50 karakters).
+1. (Voorwaardelijk) als u dit uw standaard/favoriete rapportmening wilt zijn, schuif de knevel aan **[!UICONTROL Set as default preset]** On positie.
 1. Klik op **[!UICONTROL Save]**.
 
 ### Een andere voorinstelling selecteren
@@ -75,7 +78,7 @@ Selecteer de gewenste voorinstelling in de **[!UICONTROL Target Preset]** vervol
 
    ![Standaardwaarde rapporteren verwijderen](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Klik **[!UICONTROL Delete]** opnieuw om uw schrapping te bevestigen.
+1. Klik **[!UICONTROL Delete]** nogmaals om uw verwijdering te bevestigen (verwijderde voorinstellingen kunnen niet worden hersteld).
 
 ### Foutafhandeling voorinstelling
 
@@ -109,7 +112,7 @@ De doos van de Waaier van de Datum toont de huidige de datumwaaier van het rappo
 
 ![Kalender](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Selecteer nieuwe **[!UICONTROL Start]** en **[!UICONTROL End]** datums voor het rapport. U kunt ook de selectievakjes **[!UICONTROL From Start of Activity]** en **[!UICONTROL Till End of Activity]** selectievakjes gebruiken.
+Selecteer nieuwe **[!UICONTROL Start]** en **[!UICONTROL End]** datums voor het rapport. U kunt ook de selectievakjes **[!UICONTROL From start of Activity]** en **[!UICONTROL Till end of Activity]** selectievakjes gebruiken.
 
 Klik **[!UICONTROL Custom Dates]** om vooraf gedefinieerde datumbereiken te selecteren: Afgelopen 7 dagen, afgelopen 15 dagen, of afgelopen 30 dagen. Deze vooraf gedefinieerde datumbereiken zijn rolbereiken. Als de begindatum kleiner is dan het aantal gekozen dagen, wordt in de kalender het bereik van de begindatum weergegeven, maar wordt de kalender verschoven zodra de begindatum ouder wordt dan het aantal dagen dat wordt gekozen als de activiteitsperiode toeneemt.
 
@@ -121,7 +124,10 @@ Rapporten hebben de volgende datumbeperkingen:
 
 ## Instellingen {#section_D99CE462107D45CABE0960F820E1E972}
 
-Klik het pictogram van het Vistuig om rapportmontages te vormen, dan klik **[!UICONTROL Save Settings]** wanneer gedaan.
+Om rapportmontages te vormen:
+
+1. Klik op het tandwielpictogram en breng de gewenste wijzigingen aan (zoals hieronder wordt uitgelegd).
+1. Klik **[!UICONTROL Save]** wanneer gereed.
 
 In de volgende afbeelding ziet u het dialoogvenster Instellingen voor een A/B-activiteit:
 
@@ -129,29 +135,45 @@ In de volgende afbeelding ziet u het dialoogvenster Instellingen voor een A/B-ac
 
 Afhankelijk van het geselecteerde type activiteit, variëren de opties:
 
-* **Telmethode:** Selecteer de gewenste methode:
+### Telmethode
 
-   * Bezoekers
-   * Bezoeken
-   * Activiteitenindrukkingen
+Selecteer de gewenste methode:
 
-* **Besturingselement:** Selecteer de besturingservaring die u wilt gebruiken bij het berekenen en vergelijken van lift.
-* **Omgeving:** Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken.  Zie [Gastheren](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie.
-* **Rapportgegevens opnieuw instellen:** Rapportgegevens opnieuw instellen om oude gegevens te verwijderen. Huidige bezoekers blijven in de activiteit.  Deze optie is alleen beschikbaar voor gebruikers met een fiatteur.
+* Bezoekers
+* Bezoeken
+* Activiteitenindrukkingen
 
-   >[!IMPORTANT]
-   >
-   >Dit is een permanente actie en kan niet ongedaan worden gemaakt.
+### Control
 
-* **Extreme waarden uitsluiten:** De [!UICONTROL Exclude Extreme Values] schakeloptie is alleen van toepassing op activiteiten met metrische typen inkomsten en betrokkenheid. Zie [Extreme bestellingen](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)uitsluiten voor meer informatie.
+Selecteer de besturingservaring die u wilt gebruiken bij het berekenen en vergelijken van lift.
+
+### Omgeving
+
+Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken. Zie [Gastheren](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie.
+
+### Rapportgegevens opnieuw instellen
+
+Rapportgegevens opnieuw instellen om oude gegevens te verwijderen. Huidige bezoekers blijven in de activiteit.  Deze optie is alleen beschikbaar voor personen met [!UICONTROL Approver] machtigingen.
+
+>[!IMPORTANT]
+>
+>Dit is een permanente actie en kan niet ongedaan worden gemaakt.
+
+### Extreme waarden uitsluiten
+
+De [!UICONTROL Exclude Extreme Values] schakeloptie is alleen van toepassing op activiteiten met metrische typen inkomsten en betrokkenheid. Zie [Extreme bestellingen](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)uitsluiten voor meer informatie.
 
 ## Downloaden {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Klik op het pictogram Downloaden om rapportgegevens in een [!DNL .csv] indeling te downloaden voor snelle import naar Excel, Access of andere programma&#39;s voor gegevensanalyse. Zie Gegevens [downloaden in een CSV-bestand](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)voor meer informatie.
+Klik op het **[!UICONTROL Download]** pictogram om rapportgegevens in een [!DNL .csv] indeling te downloaden voor snelle import naar Excel, Access of andere programma&#39;s voor gegevensanalyse.
+
+![Downloadpictogram](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+Zie Gegevens [downloaden in een CSV-bestand](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)voor meer informatie.
 
 ## Vernieuwen {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Klik het Refresh pictogram om de lijst en de grafiekmening van een rapport te verfrissen zonder de volledige pagina, zijn configuratie, of zijn datumwaaier te verfrissen.
+Klik het **[!UICONTROL Refresh]** pictogram om de lijst en de grafiekmening van een rapport te verfrissen zonder de volledige pagina, zijn configuratie, of zijn datumwaaier te verfrissen.
 
 ## Meer opties {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -203,23 +225,20 @@ Selecteer de gewenste grafiekweergave:
 
 * Doorlopende gemiddelde
 * Gemiddelde optillen uitvoeren
-* Dagelijkse controle
-* Dagelijks gericht
+* Dagelijks
 * Dagelijks optillen
 
 ![Doorlopende gemiddelde rapporteren](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->De naam van deze vervolgkeuzelijst is afhankelijk van de geselecteerde weergave, maar het is een van de bovenstaande weergaven.
+De naam van deze vervolgkeuzelijst is afhankelijk van de geselecteerde weergave, maar het is een van de bovenstaande weergaven.
 
 ## Telmethode {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (Alleen beschikbaar bij weergave van het rapport in de Grafiekweergave)
 
-U kunt de telmethode voor grafieken kiezen in rapporten. Dit wordt niet ondersteund voor Automated Personalization-activiteiten (AP).
+U kunt de telmethode voor grafieken kiezen in rapporten. Dit wordt niet ondersteund voor [!UICONTROL Automated Personalization] (AP)-activiteiten.
 
-Om tot de optie van de Methodologie van de Telling toegang te hebben, terwijl het bekijken van een rapport op grafiekwijze, klik de **[!UICONTROL My Primary Goal]** drop-down, dan selecteer de tellingsmethodologie.
+Als u toegang wilt tot de [!UICONTROL Counting Methodology] optie, klikt u tijdens het weergeven van een rapport in de grafiekmodus op de **[!UICONTROL My Primary Goal]** vervolgkeuzelijst en selecteert u vervolgens de telmethode.
 
 De telmethode zal dezelfde zijn als die welke in de hierboven beschreven [!UICONTROL Settings] dialoog is gekozen.
 
@@ -241,7 +260,7 @@ De standaardvolgorde waarin de grafiek wordt uitgezet is als volgt:
 
 * **A/B-tests (inclusief automatische toewijzing en Automated Personalization)**: Volgorde van ervaring maken, in aflopende volgorde.
 * **Gericht op ervaring (XT)**: Volgorde van ervaringen in de activiteit.
-* **MVT (Multivariate Test)**: Alfabetisch op ervaringsnaam.
+* **Multivariatietest (MVT)**: Alfabetisch op ervaringsnaam.
 * **Recommendations**: Volgorde van ervaring maken, in aflopende volgorde.
 
 Houd rekening met het volgende terwijl u werkt met de opties voor telmethoden:
