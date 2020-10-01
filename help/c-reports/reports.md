@@ -1,15 +1,14 @@
 ---
 keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: Rapporten bevatten informatie over de prestaties van uw activiteiten
+description: Rapporten bevatten informatie over de prestaties van je Adobe Target-activiteiten
 title: Rapporten
 feature: reports
-subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -17,24 +16,7 @@ ht-degree: 0%
 
 # Rapporten{#reports}
 
-De rapporten verstrekken informatie over de vooruitgang en de resultaten van uw activiteiten die u helpen besluiten nemen die op uw gegevens worden gebaseerd. Met behulp van rapportgegevens kunt u bepalen wanneer een test moet worden beëindigd, u laten zien welke ervaring met de aanbieding de winnaar is en kunt u inzichten of lessen bieden die u nodig hebt om de volgende acties te bepalen.
-
->[!NOTE]
->
->U kunt bezoekers van gespecificeerde IP adressen van worden geteld in rapporten blokkeren. Contact opnemen met de klantenservice om IP-filters in te stellen. Dit filtreren is niet van toepassing wanneer het gebruiken van [Analytics voor Doel](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als uw rapporteringsbron.
-
-## Rapportage-informatie voor specifieke soorten activiteiten {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
-
-Naast de algemene rapporteringsinformatie in dit onderwerp en zijn subtopics, is de extra informatie specifiek voor individuele activiteitentypes elders in deze gids beschikbaar:
-
-| Type activiteit | Details |
-|--- |--- |
-| [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | Om inzicht te krijgen in de lift en het vertrouwen en de statistische benaderingen die in [!DNL Target]dit verband worden gebruikt, zie [Plan een A/B-test](/help/c-activities/t-test-ab/sample-size-determination.md). |
-| [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Interpreeer de resultaten van een auto-Wijs A/B activiteit door belangrijke indicatoren, met inbegrip van lift en vertrouwen, in het Doel UI te onderzoeken. |
-| [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) | Informatie over het [!UICONTROL Summary] verslag voor AT-activiteiten. Voor meer informatie, zie [auto-Doel Samenvattingsrapport](/help/c-reports/auto-target-summary-report.md).<br>Informatie over de twee [!UICONTROL Personalization Insights] rapporten voor AT en AP activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)voor meer informatie. |
-| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informatie over de twee [!UICONTROL Automated Personalization Summary] rapporten voor AP-activiteiten: [!UICONTROL Activity Level] verslag en [!UICONTROL Offer Level] verslag. Zie Samenvattingsrapporten [van](/help/c-reports/reports-ap.md)Automated Personalization voor meer informatie.<br>Informatie over de twee [!UICONTROL Personalization Insights] rapporten voor AT en AP activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)voor meer informatie. |
-| [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Informatie over de twee verslagen over MVT-activiteiten: [!UICONTROL Experience Performance] verslag en [!UICONTROL Location Contribution] verslag. Zie [Experience Performance Report](/help/c-reports/experience-performance-report.md) (MVT) en [Location Contribution Report](/help/c-reports/location-contribution-report.md) (MVT) voor meer informatie. |
-| [Adobe Analytics als rapportagebron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Informatie over het gebruiken [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Target]. A4T geeft u toegang tot [!DNL Analytics] rapporten voor uw [!DNL Target] activiteiten. Voor meer informatie, zie [Analytics voor Doel (A4T) Rapportering](/help/c-reports/analytics-for-target-a4t-reporting.md). |
+De rapporten verstrekken informatie over de vooruitgang en de resultaten van uw [!DNL Adobe Target] activiteiten die u helpen besluiten nemen die op uw gegevens worden gebaseerd. Met behulp van rapportgegevens kunt u bepalen wanneer een activiteit moet worden beëindigd, u laten zien welke ervaring met het aanbieden de winnaar is en kunt u inzichten of lessen bieden die u nodig hebt om de volgende acties te bepalen.
 
 ## Een rapport weergeven {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
@@ -44,7 +26,7 @@ Naast de algemene rapporteringsinformatie in dit onderwerp en zijn subtopics, is
 
    Bijvoorbeeld, kon u selecteren [!UICONTROL A/B Test] en van de [!UICONTROL Experience Targeting] drop-down lijst en [!UICONTROL Type] van de [!UICONTROL Live] [!UICONTROL Status] drop-down lijst om slechts A/B tests en de Gerichte activiteiten van de Ervaring te tonen die in een actieve staat zijn.
 
-   In de volgende afbeelding ziet u de [!UICONTROL Type] vervolgkeuzelijst met twee geselecteerde typen: Doelstelling A/B-test en -ervaring. De drie typen A/B-tests (Handmatig, [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)en [Automatisch](/help/c-activities/auto-target-to-optimize.md)) zijn standaard geselecteerd. U kunt desgewenst een of meer typen deselecteren.
+   In de volgende afbeelding ziet u de [!UICONTROL Type] vervolgkeuzelijst met twee geselecteerde typen: [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting]. De drie typen A/B-tests (Handmatig, [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)en [Automatisch](/help/c-activities/auto-target-to-optimize.md)) zijn standaard geselecteerd. U kunt desgewenst een of meer typen deselecteren.
 
    ![Rapporten filteren op type](/help/c-reports/assets/report_filters-new.png)
 
@@ -73,10 +55,31 @@ Naast de algemene rapporteringsinformatie in dit onderwerp en zijn subtopics, is
 
 1. (Optioneel) Klik op de **[!UICONTROL Table View]** pictogrammen en **[!UICONTROL Graph View]** pictogrammen om te schakelen tussen de rapportopmaak.
 
+   ![Pictogrammen voor tabel- en grafiekweergave](/help/c-reports/assets/table-and-graph-icons.png)
+
    Afhankelijk van het type rapport dat u hebt geselecteerd, zijn mogelijk andere weergaven en rapporten beschikbaar:
 
    | Rapporttype | Weergave |
    | --- | --- |
-   | Automatisch doel | Klik op de **[!UICONTROL Automated Segments]** of **[!UICONTROL Important Attributes]** pictogrammen.<ul><li>Het [Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) van Segmenten toont hoe de verschillende bezoekers verschillend aan de aanbiedingen/ervaringen in uw AP/AT activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.</li><li>Het rapport [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) Belangrijke kenmerken toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
-   | Automated Personalization (AP) | Naast de samenvattingsrapporten [van](/help/c-reports/reports-ap.md)Automated Personalization kunt u op de **[!UICONTROL Automated Segments]** of **[!UICONTROL Important Attributes]** pictogrammen klikken.<ul><li>Het [Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) van Segmenten toont hoe de verschillende bezoekers verschillend aan de aanbiedingen/ervaringen in uw AP/AT activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.</li><li>Het rapport [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) Belangrijke kenmerken toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
-   | MVT (Multivariate Test) | Naast het rapport [van de Prestaties van de](/help/c-reports/experience-performance-report.md)Ervaring, kunt u het pictogram van de Bijdrage [van de](/help/c-reports/location-contribution-report.md) Plaats klikken om het rapport te schakelen om bijdrage door plaats te tonen. |
+   | [Automatisch doel](/help/c-activities/auto-target-to-optimize.md) | Klik op de **[!UICONTROL Automated Segments]** of **[!UICONTROL Important Attributes]** pictogrammen.<ul><li>Het [Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) van Segmenten toont hoe de verschillende bezoekers verschillend aan de aanbiedingen/ervaringen in uw AP/AT activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.</li><li>Het rapport [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) Belangrijke kenmerken toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
+   | [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Naast de samenvattingsrapporten [van](/help/c-reports/reports-ap.md)Automated Personalization kunt u op de **[!UICONTROL Automated Segments]** of **[!UICONTROL Important Attributes]** pictogrammen klikken.<ul><li>Het [Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) van Segmenten toont hoe de verschillende bezoekers verschillend aan de aanbiedingen/ervaringen in uw AP/AT activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.</li><li>Het rapport [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) Belangrijke kenmerken toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
+   | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Naast het rapport [van de Prestaties van de](/help/c-reports/experience-performance-report.md)Ervaring, kunt u het pictogram van de Bijdrage [van de](/help/c-reports/location-contribution-report.md) Plaats klikken om het rapport te schakelen om bijdrage door plaats te tonen. |
+
+## Aanvullende rapportage-informatie voor specifieke soorten activiteiten {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
+
+Naast de algemene rapporteringsinformatie in dit onderwerp en zijn subtopics, is de extra informatie specifiek voor individuele activiteitentypes elders in deze gids beschikbaar:
+
+| Type activiteit | Details |
+|--- |--- |
+| [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | Om inzicht te krijgen in de lift en het vertrouwen en de statistische benaderingen die in [!DNL Target]dit verband worden gebruikt, zie [Plan een A/B-test](/help/c-activities/t-test-ab/sample-size-determination.md). |
+| [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Interpreteer de resultaten van een [!UICONTROL Auto-Allocate] A/B-activiteit door belangrijke indicatoren, waaronder lift en vertrouwen, in de [!DNL Target] gebruikersinterface te onderzoeken. |
+| [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) | Informatie over het [!UICONTROL Summary] verslag voor AT-activiteiten. Voor meer informatie, zie [auto-Doel Samenvattingsrapport](/help/c-reports/auto-target-summary-report.md).<br>Informatie over de twee [!UICONTROL Personalization Insights] rapporten voor AT en AP activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)voor meer informatie. |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informatie over de twee [!UICONTROL Automated Personalization Summary] rapporten voor AP-activiteiten: [!UICONTROL Activity Level] verslag en [!UICONTROL Offer Level] verslag. Zie Samenvattingsrapporten [van](/help/c-reports/reports-ap.md)Automated Personalization voor meer informatie.<br>Informatie over de twee [!UICONTROL Personalization Insights] rapporten voor AT en AP activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)voor meer informatie. |
+| [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Informatie over de twee verslagen over MVT-activiteiten: [!UICONTROL Experience Performance] verslag en [!UICONTROL Location Contribution] verslag. Zie [Experience Performance Report](/help/c-reports/experience-performance-report.md) (MVT) en [Location Contribution Report](/help/c-reports/location-contribution-report.md) (MVT) voor meer informatie. |
+| [Adobe Analytics als rapportagebron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Informatie over het gebruiken [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Target]. A4T geeft u toegang tot [!DNL Analytics] rapporten voor uw [!DNL Target] activiteiten. Voor meer informatie, zie [Analytics voor Doel (A4T) Rapportering](/help/c-reports/analytics-for-target-a4t-reporting.md). |
+
+## Blokrapportgegevens van opgegeven IP-adressen
+
+U kunt bezoekers van gespecificeerde IP adressen van worden geteld in rapporten blokkeren. Dit is bijvoorbeeld handig om rapportgegevens van uw interne bezoekers te blokkeren.
+
+[Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om IP-filters in te stellen. Dit filtreren is niet van toepassing wanneer het gebruiken van [Analytics voor Doel](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als uw rapporteringsbron.
