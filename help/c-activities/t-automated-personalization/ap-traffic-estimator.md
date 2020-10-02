@@ -6,9 +6,9 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
+source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -69,4 +69,4 @@ Houd rekening met de volgende veelgestelde vragen wanneer u met de [!UICONTROL T
 
 In bepaalde omstandigheden, zou uw verkeer groot genoeg voor een gepersonaliseerd model kunnen zijn om worden gebouwd, maar dat verkeer zou kunnen erop wijzen [!DNL Target] dat er geen zinvol verschil tussen het gepersonaliseerde model en willekeurig is. Hoewel het model is ingebouwd [!DNL Target] en getest, wordt het niet geïmplementeerd omdat het model niet significant beter is dan willekeurig.
 
-Een mogelijke reden waarom het model niet beter dan willekeurig is, kan zijn dat de aanbiedingen niet significant van elkaar verschillen. Als dit het geval is, kunt u proberen de verschillen in de aanbiedingen te verhogen door hen visueel verschillend te maken of door de inhoud zelf te veranderen.
+Een mogelijke reden waarom het model niet beter dan willekeurig is, kan zijn dat de aanbiedingen niet significant van elkaar verschillen. Als dit het geval is, kunt u proberen makend de aanbiedingen visueel verschillend als het overseinen gelijkaardig is, of u kunt proberen veranderend het overseinen zelf.
