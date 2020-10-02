@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -130,10 +130,18 @@ De volgende metrische types zijn niet gesteund als primaire doelmetriek:
 
 ### Beperkingen en opmerkingen
 
+**Automatische toewijzing en automatisch doel**
+
 * De rapportagebron kan niet worden gewijzigd van [!DNL Analytics] naar [!DNL Target] of omgekeerd nadat een activiteit is geactiveerd.
 * Hoewel de berekende metriek niet als primaire doelmetriek worden gesteund, is het vaak mogelijk om het voorgenomen resultaat te bereiken door in plaats daarvan een douanegebeurtenis als primaire doel metrisch te selecteren. Als u bijvoorbeeld wilt optimaliseren voor metrische gegevens, zoals &#39;formulieraanvullen per bezoeker&#39;, selecteert u een aangepaste gebeurtenis die overeenkomt met &#39;formulieraanvullen&#39; als maatstaf voor het primaire doel. [!DNL Target] normaliseert automatisch omzettingsmetriek op een per-bezoek basis om voor ongelijke verkeersdistributie rekening te houden, zodat is het niet noodzakelijk om berekende metrisch te gebruiken om normalisatie uit te voeren.
 * [!DNL Target] gebruikt het attributiemodel &quot;Same Touch&quot; in de [!UICONTROL Auto-Allocate] A4T-implementatie.
+
+**Automatisch toewijzen**
+
 * [!UICONTROL Auto-Allocate] de modellen blijven elke twee uur trainen , zoals gewoonlijk .
+
+**Automatisch doel**
+
 * [!UICONTROL Auto-Target] de modellen blijven elke 24 uur trainen , zoals gewoonlijk . De conversiegegevens die afkomstig zijn van [!DNL Analytics] conversiegebeurtenissen worden echter met nog eens zes tot 24 uur vertraagd. Deze vertraging houdt in dat het verkeer via [!DNL Target] de laatste gebeurtenissen in [!DNL Analytics]het spoor komt. Dit heeft het grootste effect in de eerste 48 uur nadat een activiteit voor het eerst is geactiveerd; de prestaties van de activiteit zullen het [!DNL Analytics] omzettingsgedrag na vijf dagen beter weerspiegelen. U zou moeten overwegen [!UICONTROL Auto-Allocate] in plaats van [!UICONTROL Auto-Target] voor kortdurende activiteiten te gebruiken waar het meeste verkeer binnen de eerste vijf dagen van het leven van de activiteit voorkomt.
 * Wanneer het gebruiken [!DNL Analytics] als gegevensbron voor een [!UICONTROL Auto-Target] activiteit, worden de zittingen beschouwd om na zes uren zijn verlopen. Conversies die na zes uur plaatsvinden, worden niet geteld.
 
