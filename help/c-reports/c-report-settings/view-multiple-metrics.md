@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;multiple metrics;metrics
+keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
 description: Selecteer veelvoudige metriek aan mening in een rapport gebruikend Adobe Target.
 title: Meerdere metriek in een rapport weergeven met Adobe Target
 feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 # Meerdere metriek in een rapport weergeven{#view-multiple-metrics-in-a-report}
 
-Selecteer veelvoudige metriek aan mening in een rapport.
+U kunt veelvoudige metriek selecteren om in een [!DNL Adobe Target] rapport te bekijken.
 
 Houd rekening met de volgende informatie wanneer u met meerdere meetgegevens werkt in rapporten:
 
-* De capaciteit om veelvoudige metriek te bekijken is beschikbaar voor [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Ervaring die (XT) slechts activiteiten richten](/help/c-activities/t-experience-target/experience-target.md) .
+* De capaciteit om veelvoudige metriek te bekijken is beschikbaar voor [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [auto-Wijs](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [auto-Doel](/help/c-activities/auto-target-to-optimize.md), en [Ervaring richten](/help/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten.
 * U kunt niet meer dan 20 metriek aan een rapport voor een activiteit toevoegen die [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt. U kunt zo vele metriek toevoegen aangezien u in uw activiteit aan rapporten voor activiteiten hebt die *geen* A4T gebruiken.
 * U kunt de optie [](/help/c-reports/downloading-data-in-csv-file.md) Downloaden niet gebruiken om rapporten naar CSV te downloaden als u meerdere metriek hebt geselecteerd. U moet één enkele metrisch slechts selecteren om de [!UICONTROL Download] optie toe te laten.
-* U kunt geen veelvoudige metriek voor activiteiten bekijken die vóór de Versie van het Doel van juli 2015 (30 Juli, 2015) worden gecreeerd.
+* U kunt geen veelvoudige metriek voor activiteiten bekijken die vóór [!DNL Target] versie van juli 2015 (30 juli 2015) worden gecreeerd.
 
 **Om veelvoudige metriek te selecteren in het rapport te tonen:**
 
@@ -43,10 +43,10 @@ Houd rekening met de volgende informatie wanneer u met meerdere meetgegevens wer
 
    De [!UICONTROL Shown Metrics] lijst moet minstens één metrische waarde bevatten.
 
-   U kunt de metriek opnieuw rangschikken door deze in de gewenste volgorde in de [!UICONTROL Shown Metrics] lijst te slepen. De geselecteerde volgorde wordt weerspiegeld in de tabelweergave en de grafiekweergave. Als u een metrische waarde uit de [!UICONTROL Shown Metrics] lijst wilt verwijderen, plaatst u de muisaanwijzer boven de metrische waarde en klikt u op het pictogram **X** .
+   U kunt de metriek opnieuw rangschikken door deze in de gewenste volgorde in de [!UICONTROL Shown Metrics] lijst te slepen. De geselecteerde volgorde wordt weerspiegeld in de [!UICONTROL Table View] en [!UICONTROL Graph View]. Als u een metrische waarde uit de [!UICONTROL Shown Metrics] lijst wilt verwijderen, plaatst u de muisaanwijzer boven de metrische waarde en klikt u op het pictogram **X** .
 
 1. Klik **[!UICONTROL Save]** wanneer gebeëindigd.
-1. (Voorwaardelijk) terwijl het bekijken van het rapport in de Mening van de Lijst, houd uw muiswijzer op om het even welke metrische kolomkopbal om een blauwe pijl te tonen. Klik op de pijl om de tabel uit te vouwen en de metrische waarden [!UICONTROL Lift] en [!UICONTROL Confidence] waarden voor de tabel weer te geven.
+1. (Voorwaardelijk) terwijl het bekijken van het rapport in de [!UICONTROL Table View], beweegt uw muiswijzer over om het even welke metrische kolomkopbal om een blauwe pijl te tonen. Klik op de pijl om de tabel uit te vouwen en de metrische waarden [!UICONTROL Lift] en [!UICONTROL Confidence] waarden voor de tabel weer te geven.
 
    ![](assets/multiple_metrics_table.png)
 
