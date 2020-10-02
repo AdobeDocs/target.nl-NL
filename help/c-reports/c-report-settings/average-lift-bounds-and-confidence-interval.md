@@ -1,44 +1,53 @@
 ---
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die u helpen de liftgrenzen en het betrouwbaarheidsniveau begrijpen verbonden aan uw activiteit. Hierdoor kunt u nauwkeuriger bepalen wie de winnaar is.
+description: Rapporten bevatten verschillende gegevenspunten en visualisatieweergaven die u helpen de grenzen van de lift en het betrouwbaarheidsniveau te begrijpen die aan uw Adobe Target-activiteit zijn gekoppeld, zodat u nauwkeuriger kunt bepalen wie de winnaar is.
 title: Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen
 feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
 
 
-# Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen{#average-lift-lift-bounds-and-confidence-interval}
+# Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen
 
-De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die u helpen de liftgrenzen en het betrouwbaarheidsniveau begrijpen verbonden aan uw activiteit. Hierdoor kunt u nauwkeuriger bepalen wie de winnaar is.
-
-## Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen {#topic_AFFDC672A8A34D028B100EF6BE5D8129}
-
-De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die u helpen de liftgrenzen en het betrouwbaarheidsniveau begrijpen verbonden aan uw activiteit. Hierdoor kunt u nauwkeuriger bepalen wie de winnaar is.
+De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die u helpen de liftgrenzen en het betrouwbaarheidsniveau begrijpen verbonden aan uw [!DNL Adobe Target] activiteit om u te helpen een winnaar nauwkeuriger bepalen.
 
 >[!NOTE]
 >
->Deze functie is alleen beschikbaar wanneer u rapporten weergeeft in de tabelweergave. Deze functie is niet beschikbaar voor activiteiten die [Analytics als rapportagebron (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)gebruiken.
+>Deze functie is alleen beschikbaar wanneer u rapporten weergeeft in [!UICONTROL Table] Weergave. Deze functie is niet beschikbaar voor activiteiten die [Analytics als rapportagebron (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)gebruiken.
 
-## Overzicht {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
+## De gegevens interpreteren {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-De informatie van de lift in het Doel rapporteringsUI omvat:
-
-| Element | Details |
-|--- |--- |
-| Optillen | Het grote getal en de pijl geven de verwachte waarde van de lift aan. Dit getal is het middelpunt van het bereik van de grenzen van de lift. De verwachte liftpijl wordt grijs weergegeven totdat het vertrouwen 95% bereikt. Na deze drempel wordt de pijl weergegeven als rood of groen op basis van respectievelijk een negatieve of positieve lift. |
-| Grenzen optillen | Dit is het 95% betrouwbaarheidsinterval van de lift. Het wordt weergegeven als een bereik onder de gemiddelde lift. Zie Voorbeeld Berekening hieronder voor een voorbeeld van hoe deze liftgrenzen worden berekend. |
-| Boxplot-grafiek | De bokgrafiek in de interface van het Doel vertegenwoordigt de verwachte waarde en 95% betrouwbaarheidsinterval van succesmetrisch in kwestie. Beschouw het als een grafische manier om de informatie over de lift en de lift grenzen te bekijken.<br>Er zijn een paar belangrijke manieren waarop u met Doel de vertrouwensinformatie kunt interpreteren, waaronder kleur. De grafiek toont om het even welke overlapping in het betrouwbaarheidsinterval van een specifieke ervaring met het betrouwbaarheidsinterval van de controle in grijs, en om het even welk waaier van het betrouwbaarheidsinterval van een specifieke ervaring die boven of onder dat van het interval van het controlevertrouwen als groen of rood is.<br>De lengte van de balk van het boxplot geeft aan hoe groot het betrouwbaarheidsinterval is op een begrijpelijke manier. Terwijl u meer gegevens verzamelt in uw activiteit, verschuift en verandert de balk. Het betrouwbaarheidsinterval wordt afgeleid van de variantie en de steekproefgrootte (aantal bezoekers). Hoe kleiner de variantie en hoe groter het monster, hoe kleiner het betrouwbaarheidsinterval. |
-| Vertrouwen | Het vertrouwen van een ervaring of aanbod geeft de waarschijnlijkheid weer dat het optillen van de ervaring/het aanbod in verband daarmee boven de ervaring/het aanbod van de controle &quot;reëel&quot; is (niet veroorzaakt door een willekeurige kans). Doorgaans is 95% het aanbevolen betrouwbaarheidsniveau om de lift als significant te beschouwen. |
-
-In de volgende afbeelding ziet u de gegevens bij Grenzen optillen en Vertrouwensniveau:
+In de volgende afbeelding wordt [!UICONTROL Lift Bounds and Confidence Level] informatie getoond:
 
 ![Gemiddeld verslag over de ophef- en betrouwbaarheidsniveaus](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+
+De informatie over lift en betrouwbaarheid in de [!DNL Target] rapportageinterface omvat:
+
+### Optillen
+
+Het grote getal en de pijl geven de verwachte waarde van de lift aan. Dit getal is het middelpunt van het bereik van de grenzen van de lift. De verwachte liftpijl wordt grijs weergegeven totdat het vertrouwen 95% bereikt. Na deze drempel wordt de pijl weergegeven als rood of groen op basis van respectievelijk een negatieve of positieve lift.
+
+### Grenzen optillen
+
+Dit is het 95% betrouwbaarheidsinterval van de lift. Het wordt weergegeven als een bereik onder de gemiddelde lift. Zie [Voorbeeldberekening](#example) hieronder voor een voorbeeld van hoe deze liftgrenzen worden berekend.
+
+### Boxplot-grafiek
+
+De bokgrafiek in de [!DNL Target] interface vertegenwoordigt de verwachte waarde en 95% betrouwbaarheidsinterval van succesmetrisch in kwestie. Beschouw het als een grafische manier om de informatie over de lift en de lift grenzen te bekijken.
+
+Er zijn een paar belangrijke manieren [!DNL Target] om u te helpen de betrouwbaarheidsinformatie interpreteren, waarvan kleur één is. De grafiek toont om het even welke overlapping in het betrouwbaarheidsinterval van een specifieke ervaring met het betrouwbaarheidsinterval van de controle in grijs, en om het even welk waaier van het betrouwbaarheidsinterval van een specifieke ervaring die boven of onder dat van het interval van het controlevertrouwen als groen of rood is.
+
+De lengte van de balk van het boxplot geeft aan hoe groot het betrouwbaarheidsinterval is op een begrijpelijke manier. Terwijl u meer gegevens verzamelt in uw activiteit, verschuift en verandert de balk. Het betrouwbaarheidsinterval wordt afgeleid van de variantie en de steekproefgrootte (aantal bezoekers). Hoe kleiner de variantie en hoe groter het monster, hoe kleiner het betrouwbaarheidsinterval.
+
+### Vertrouwen
+
+Het vertrouwen van een ervaring of aanbod geeft de waarschijnlijkheid weer dat het optillen van de ervaring/het aanbod in verband daarmee boven de ervaring/het aanbod van de controle &quot;reëel&quot; is (niet veroorzaakt door een willekeurige kans). Doorgaans is 95% het aanbevolen betrouwbaarheidsniveau om de lift als significant te beschouwen.
 
 ## Hoe worden liftgrenzen berekend? {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -63,7 +72,7 @@ Er is een extra berekening om de invoer aan onze liftgrenzen te bereiken:
    >
    >De standaardfout voor de metrische activiteiten van het opbrengstsucces is gebaseerd op de steekproefvariantie van de inkomsten.
 
-## Voorbeeldberekening {#section_35BD6FB7AFD346E28BA093147C248471}
+## Voorbeeldberekening {#example}
 
 Neem bijvoorbeeld een voorbeeldactiviteit met twee ervaringen en de volgende resultaten:
 
@@ -98,12 +107,11 @@ De limieten voor de lift voor ervaring B zouden daarom als volgt zijn:
 
 >[!NOTE]
 >
->Verwacht kleine verschillen tussen handmatige berekeningen met behulp van de bovenstaande formules en de getallen die in het rapport worden weergegeven. Het verschil kan worden toegeschreven aan het feit dat de getallen die in handmatige berekeningen worden gebruikt, op de pagina worden afgerond. De lift die in het Target-rapport wordt weergegeven, is gebaseerd op de exacte getallen die zijn verkregen uit de totale betrokkenheid en het aantal betrokkenheid. De betrokkenheidsnummers kunnen worden verkregen via de prestatierapport-API.
+>Verwacht kleine verschillen tussen handmatige berekeningen met behulp van de bovenstaande formules en de getallen die in het rapport worden weergegeven. Het verschil kan worden toegeschreven aan het feit dat de getallen die in handmatige berekeningen worden gebruikt, op de pagina worden afgerond. De lift die in het [!DNL Target] rapport wordt weergegeven, is gebaseerd op de exacte getallen die zijn verkregen uit de totale betrokkenheid en het aantal betrokkenheid. De betrokkenheidsnummers kunnen worden verkregen via de prestatierapport-API.
 
-## Wanneer worden liftgrenzen niet weergegeven? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## Wanneer worden de liftgrenzen niet getoond? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
-In bepaalde gevallen geeft Doel geen liftgrenzen weer:
+In bepaalde gevallen [!DNL Target] worden er geen liftgrenzen weergegeven:
 
 * Voor elke activiteit, wanneer het totale aantal bezoeken of bezoekers minder dan 30 bedraagt.
-* Voor Auto-Allocate activiteiten, worden geen liftgrenzen getoond tot één ervaring 60% vertrouwen heeft bereikt.
-
+* Voor [!UICONTROL Auto-Allocate] activiteiten, worden geen liftgrenzen getoond tot één ervaring 60% vertrouwen heeft bereikt.
