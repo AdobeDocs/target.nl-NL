@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ U kunt de taal ook snel wijzigen in een ondersteunde taal door te klikken op het
 
 De [!DNL Target] documentatie is beschikbaar in de volgende talen:
 
-* Engels
+* Frans
 * Spaans
 * Frans
 * Duits
@@ -92,15 +92,3 @@ De [!DNL Target] documentatie is beschikbaar in de volgende talen:
 * Vereenvoudigd Chinees
 * Traditioneel Chinees
 * Koreaans
-
-## Trainingsvideo: Adobe Target in de Experience Cloud (4:59) ![overzichtsbadge](/help/assets/overview.png)
-
-Deze video bevat informatie over [!DNL Adobe Target] de video [!DNL Experience Cloud].
-
-* Beschrijf en begrijp de waarde van de Adobe Experience Cloud
-* Meld u aan bij de Adobe Experience Cloud met uw Adobe ID of maak een Adobe ID
-* Nieuwe gebruiker uitnodigen voor Adobe Experience Cloud
-* Uw doelaccount koppelen aan de Adobe Experience Cloud
-* Adobe Target instellen als de standaard openingspagina
-
->[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
