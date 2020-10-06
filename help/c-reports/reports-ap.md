@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Speciale rapporten zijn beschikbaar voor gebruikers van Automated Personalization.
+description: Speciale rapporten zijn beschikbaar voor gebruikers van Automated Personalization-activiteiten in Adobe Target.
 title: Samenvattingsrapporten van Automated Personalization
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary-rapporten{#automated-personalization-summary-reports}
 
-Speciale rapporten zijn beschikbaar voor gebruikers van Automated Personalization.
+De gespecialiseerde rapporten zijn beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] activiteiten in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->Automated Personalization is beschikbaar als onderdeel van de [!DNL Target Premium] oplossing. Het is niet inbegrepen met [!DNL Target Standard] zonder een [vergunning](/help/c-intro/intro.md#premium)van de Premie van het Doel.
+>[!UICONTROL Automated Personalization] is beschikbaar als onderdeel van de [!DNL Target Premium] oplossing. Het is niet inbegrepen met [!DNL Target Standard] zonder een [vergunning](/help/c-intro/intro.md#premium)van de Premie van het Doel.
 
 1. Klik **[!UICONTROL Activities]**, klik de gewenste [!UICONTROL Automated Personalization] activiteit van de lijst, dan klik de **[!UICONTROL Reports]** tabel.
 
@@ -41,7 +41,7 @@ De standaardregels voor de interpretatie van resultaten voor A/B-tests zijn nog 
 
 Het [!UICONTROL Offer Level] rapport voor de Willekeurige Boservaring vergelijkt de prestaties van elk algoritme-toegepast aanbod aan het zelfde willekeurig gediende aanbod (Controle). Daarom mogen de aanbiedingen in dit verband niet met elkaar worden vergeleken.
 
-Klik het ervaringsalgoritme (Willekeurig bos of controle) om het rapport van het Niveau van het Aanbod te bekijken.
+Klik op het ervaringsalgoritme (Willekeurig bos of besturingselement) om het [!UICONTROL Offer Level] rapport weer te geven.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -50,3 +50,19 @@ De aanbiedingen kunnen binnen rapportgroepen worden getoond, en deze rapportgroe
 >[!NOTE]
 >
 >Het klokpictogram wijst erop dat het algoritmemodel nog bouwt. Het vinkje geeft aan dat het basisalgoritme is ingesteld.
+
+## Geautomatiseerde segmenten
+
+Klik op het [!UICONTROL Automated Segments] pictogram. Dit rapport laat zien hoe verschillende bezoekers anders reageren op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.
+
+![Pictogram Automatisch segment](/help/c-reports/assets/icon-automated-sements-ap.png)
+
+Voor meer informatie, zie het [Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)van Segmenten.
+
+## Belangrijke kenmerken
+
+Klik op het [!UICONTROL Important Attributes] pictogram. Dit rapport toont aan hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.
+
+![Pictogram Belangrijke kenmerken](/help/c-reports/assets/icon-important-attributes-ap.png)
+
+Voor meer informatie, zie het [Belangrijke rapport](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)van Attributen.
