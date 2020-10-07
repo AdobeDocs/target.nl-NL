@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '2484'
+source-wordcount: '2497'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 7 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de release Target Standard/Premium 20.10.1. |
 | 1 oktober | [Schatting van het verkeer dat voor succes wordt vereist](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Sectie Veelgestelde vragen toegevoegd. |
 | 30 september | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de volgende levende webinar:<ul><li>Aanpasbare, fijnafstemming op schaal met Adobe Target en Analytics</li></ul> |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.9.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
