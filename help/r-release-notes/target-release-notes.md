@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 23 september 2020**
+**Laatst bijgewerkt: 7 oktober 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -39,13 +39,13 @@ Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het
 * **Doelaankondigingen**: Zie de de aankondigingspagina van het Doel voor informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van het Break van de Koffie van het Doel. Voor meer informatie, zie [de aankondigingen](/help/r-release-notes/target-announcements.md)van het Doel.
 
 
-## Target Standard/Premium 20.9.1 (30 september 2020)
+## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
-Deze onderhoudrelease bevat de volgende verbeteringen, correcties en wijzigingen:
+Deze release bevat de volgende nieuwe functies:
 
-* Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* Verbeterd tekst- en kleurcontrast voor afbeeldingen en tekst in de gebruikersinterface. (TGT-34513)
+| Functie | Details |
+| --- | --- |
+| Apparaatbeslissingen | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie uitvoeren vanuit het apparaat van de gebruiker, via kanalen, met bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid. Bij beslissingen op het apparaat kunnen marketers, en nu productontwikkelaars, hun ervaringen direct vanuit een gebruikersapparaat testen en optimaliseren, waardoor beslissingen en laadtijden tot bijna nul worden teruggebracht voor contextafhankelijke ervaringen in real time.<br>Met Besluiten op het apparaat kunt u alle instructies voor personalisatie en experimenteren compileren op &#39;optimalisatieartefacten&#39;, die op klantapparaten worden geladen. Deze nullatentie-artefacten geven marketers een-op-een personalisatie, gedragsretargeting, en aanbevelingen voor producten en inhoud in real time, terwijl ze ontwikkelaars en producteigenaars directe codetoegang geven om de ervaringen van de testgebruiker te testen en product en fase-productlanceringen te starten, in real-time te verfijnen. En omdat beslissingen op apparaten native verbinding maken met [!DNL Adobe Experience Cloud] producten, krijgen [!DNL Target] gebruikers een snelle analyse en snellere ervaringen met herhalingen. |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
