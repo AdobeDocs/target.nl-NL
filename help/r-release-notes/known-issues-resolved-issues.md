@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
+source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: '3754'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,19 @@ Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;
 
 Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties en worden zo nodig aanvullende opmerkingen toegevoegd.
 
-### Rapportage
+### Auto-Target rapportering (#at-metrics)
+
+Er is een probleem opgelost dat van invloed was op de [!DNL Adobe Target Premium] rapportage van [!UICONTROL Auto-Target] gebruikers vanaf 15 september om 14.30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (&quot;V[!UICONTROL iewed a page]&quot; of &quot;[!UICONTROL Clicked on mbox]&quot;), worden de omzettingspercentages verkeerd gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
+
+Je melding opnieuw synchroniseren en corrigeren:
+
+1. Kopieer en sla de betrokken [!UICONTROL Auto-Target] activiteiten op.
+1. Activeer de nieuw opgeslagen activiteiten (als de betrokken activiteiten actief waren).
+1. Verwijder de originele (beïnvloede) activiteiten.
+
+(TGT-38522, CSO 201006007)
+
+### Rapportage {#conversions-audiences}
 
 Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebruikt.
 
