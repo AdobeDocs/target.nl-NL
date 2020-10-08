@@ -5,7 +5,7 @@ title: Veelgestelde vragen over Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 0%
@@ -198,3 +198,4 @@ NO_CONTENT wordt geretourneerd wanneer aanbevelingen niet beschikbaar zijn voor 
 * Gedeeltelijke sjabloonrendering is uitgeschakeld en er zijn onvoldoende resultaten beschikbaar om de sjabloon te vullen.
 
    Dit gebeurt gewoonlijk wanneer u een dynamische inclusieregel hebt, die veel punten agressief van de mogelijke resultaten filtert. Om dit te vermijden, laat steunen toe en pas niet de inclusieregel op steunen toe, of gebruik achtereenvolgens de criteria met minder-agressief gefilterde criteria.
+
