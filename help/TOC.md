@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -166,6 +166,7 @@ ht-degree: 0%
       + [Opmerkingen bij de release - Doel Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Overgang van verouderde API&#39;s van Doel naar I/O van Adobe](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+   + [Hybride implementatie](/help/c-implementing-target/hybrid-implementation.md)
    + E-mail: Doel implementeren {#implement-email}
       + [E-mail: Implementatie van doeloverzicht](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Een dialoogvenster maken voor een afbeelding](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
