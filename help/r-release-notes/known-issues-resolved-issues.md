@@ -5,7 +5,7 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 72ea4544313bcfd1d39c1a4ce63bb41fcad699c5
+source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
 workflow-type: tm+mt
 source-wordcount: '3757'
 ht-degree: 0%
@@ -129,7 +129,7 @@ Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naa
 
 ### Automatische doelrapportage {#at-metrics}
 
-Er is een probleem opgelost dat van invloed was op de [!DNL Adobe Target Premium] rapportage van [!UICONTROL Auto-Target] gebruikers vanaf 15 september om 14.30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (die of [!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie wordt gevormd), worden de omzettingspercentages verkeerd gemeld. Er is momenteel geen bekend leveringsprobleem.
+Er is een probleem opgelost dat van invloed was op de [!DNL Adobe Target Premium] rapportage van [!UICONTROL Auto-Target] gebruikers vanaf 15 september om 14.30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd gebruikend of &quot;[!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie), worden de omzettingspercentages verkeerd gemeld. Er is momenteel geen bekend leveringsprobleem.
 
 Je melding opnieuw synchroniseren en corrigeren:
 
