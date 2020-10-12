@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2595'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 12 oktober | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Bijgewerkt [wint het toestemmingstoken terug om met het zuiveren hulpmiddelen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) te gebruiken om op het toestemmingsniveau te wijzen u een authentificatietoken moet produceren. |
+|  | [Profiel-API-instellingen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Bijgewerkt onderwerp om op het toestemmingsniveau te wijzen moet u een authentificatietoken produceren. |
+|  | [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](/help/c-experiences/c-visual-experience-composer/temtest.md) | Toegevoegde sectie om uit te leggen hoe u dezelfde activiteit in het hele domein kunt renderen. |
 | 8 oktober | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Het volgende probleem is opgelost:<ul><li>[Automatische doelrapportage](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Het volgende probleem verplaatst van de sectie Bekende problemen naar de sectie Opgeloste problemen:<ul><li>[Rapportage](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Hybride implementatie](/help/c-implementing-target/hybrid-implementation.md) | Nieuw onderwerp. |
 | 7 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de release Target Standard/Premium 20.10.1. |
