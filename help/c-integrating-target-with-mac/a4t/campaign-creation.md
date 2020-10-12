@@ -1,26 +1,26 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: U kunt een activiteit in de Norm van het Doel/Premium vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
-title: Activiteitenschepping
+title: Een activiteit maken die A4T als rapportagebron gebruikt
 feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e501100ba149472169f11072fd1663095dd40612
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
 
 
-# Activiteitenschepping{#activity-creation}
+# Maak een activiteit die Analytics als rapportbron gebruikt
 
 U kunt een activiteit binnen vormen [!DNL Target] [!DNL Adobe Analytics] om als rapporteringsbron (A4T) te gebruiken.
 
 Voordat u een activiteit instelt die [!DNL Analytics] als bron voor rapportage wordt gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de activiteit. Hoewel u extra metriek op elk ogenblik binnen kunt selecteren [!DNL Analytics], moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
 
-## Maak een activiteit die Analytics als rapportbron gebruikt
+## De activiteit maken
 
 Het maken van een [!DNL Target] activiteit die gebruikt wordt [!DNL Analytics] als de bron van de rapportage is vergelijkbaar met het instellen van een reguliere [!DNL Target] activiteit, met enkele belangrijke verschillen. U kunt bijvoorbeeld geen segment selecteren voor rapportage terwijl u de activiteit maakt, omdat alle segmenten die beschikbaar zijn in, kunnen worden toegepast wanneer u een rapport weergeeft. [!DNL Analytics]
 
