@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: Auto-Target in Adobe Target maakt gebruik van geavanceerd leren van computers om te kiezen uit meerdere veeleisende markeervaringen om de inhoud en schijfconversies aan te passen. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen.
 title: Automatisch doel
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3639'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Auto-Target{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Auto-Target
 
 [!UICONTROL Auto-Target] maakt gebruik van geavanceerd leren van computers om uit meerdere veelzijdige, door markers gedefinieerde ervaringen te kiezen voor het aanpassen van inhoud en schijfconversies. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen.
 
@@ -21,11 +22,19 @@ ht-degree: 0%
 >
 >[!UICONTROL Auto-Target] is beschikbaar als onderdeel van de [!DNL Target Premium] oplossing. Deze functie is niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie. Zie [Target Premium](/help/c-intro/intro.md)voor meer informatie over de geavanceerde functies die deze licentie biedt.
 
+## Real-world succesverhaal met Auto-Target {#success}
+
+Een grote kledinghandelaar gebruikte onlangs een [!UICONTROL Auto-Target] activiteit met tien op productcategorieën gebaseerde ervaringen (plus gerandomiseerde controle) om de juiste inhoud aan elke bezoeker te leveren. &quot;[!UICONTROL Add to Cart]&quot; is gekozen als de primaire optimalisatiemethode. De beoogde ervaringen liepen gemiddeld op met 29,09%. Na het bouwen van de [!UICONTROL Auto-Target] modellen, werd de activiteit geplaatst aan 90% gepersonaliseerde ervaringen.
+
+In slechts tien dagen werd meer dan $1.700.000 in lift bereikt.
+
+Blijf lezen om te leren hoe u [!UICONTROL Auto-Target] de lift en de inkomsten voor uw organisatie kunt verhogen.
+
+## Overzicht {#section_972257739A2648AFA7E7556B693079C9}
+
 Tijdens het [maken van een A/B-activiteit met behulp van de driestappenworkflow](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)met instructies kunt u ervoor kiezen om verkeer toe te wijzen met behulp van de [!UICONTROL Auto-Target For Personalized Experiences] optie:
 
 ![Automatisch richten voor persoonlijke ervaringen, optie](/help/c-activities/assets/auto-target-ui-new.png)
-
-## Overzicht {#section_972257739A2648AFA7E7556B693079C9}
 
 Met de [!UICONTROL Auto-Target] optie in de activiteitsstroom A/B kunt u automatisch leren aanpassen op basis van een set markeerervaringen met één klik. [!UICONTROL Auto-Target] is ontworpen voor maximale optimalisatie in vergelijking met traditionele A/B-tests of Automatische toewijzing, door te bepalen welke ervaring voor elke bezoeker moet worden weergegeven. In tegenstelling tot een A/B-activiteit waarbij het doel is één winnaar te vinden, bepaalt [!UICONTROL Auto-Target] automatisch de beste ervaring voor een bepaalde bezoeker (op basis van zijn of haar profiel en andere contextuele informatie) om een zeer gepersonaliseerde ervaring te leveren.
 
@@ -117,7 +126,7 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] de voorke
 
 * Deze metrische waarde zou op omzettingsbasis of op opbrengst-gebaseerd (meer bepaald Inkomsten per Bezoek) kunnen zijn.
 
-**Het algoritme steunt niet het gebruiken[!DNL Analytics]als gegeven-bron of een rapporterend eindpunt.**
+**Het algoritme steunt niet het gebruiken [!DNL Analytics] als gegeven-bron of een rapporterend eindpunt.**
 
 **Het doel verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen te bouwen.**
 
@@ -213,7 +222,7 @@ Nog enkele punten die u in gedachten wilt houden over [!UICONTROL Auto-Target]he
 
 ### Eén model is ingebouwd in mijn activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd?
 
-Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie kan beginnen.
+Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie begint.
 
 ### Wanneer kan ik naar de resultaten van mijn [!UICONTROL Auto-Target] activiteit gaan kijken?
 
@@ -241,7 +250,7 @@ Het gebruik van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Ta
 
 Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitdagingen die u tijdens het gebruik kunt aangaan [!UICONTROL Auto-Target], en enkele voorgestelde oplossingen.
 
-**Mijn[!UICONTROL Auto-Target]activiteit duurt te lang om modellen te bouwen.**
+**Mijn [!UICONTROL Auto-Target] activiteit duurt te lang om modellen te bouwen.**
 
 Er zijn verscheidene veranderingen van de activiteitenopstelling die de verwachte tijd kunnen verminderen om modellen te bouwen, met inbegrip van het aantal ervaringen in uw [!UICONTROL Auto-Target] activiteit, het verkeer aan uw plaats, en uw geselecteerde succesmetrisch.
 
@@ -252,7 +261,7 @@ Er zijn verscheidene veranderingen van de activiteitenopstelling die de verwacht
 * Zijn er sommige ervaringen u van uw activiteit kunt laten vallen? Het verminderen van het aantal ervaringen in een activiteit zal de hoeveelheid tijd verminderen om modellen te bouwen.
 * Is er een pagina voor hoger verkeer waarop deze activiteit succesvoller zou zijn? Hoe meer verkeer en conversies er in uw activiteitenlocaties plaatsvinden, hoe sneller de modellen worden.
 
-**Mijn[!UICONTROL Auto-Target]activiteit genereert geen lift.**
+**Mijn [!UICONTROL Auto-Target] activiteit genereert geen lift.**
 
 Er zijn vier factoren vereist voor een AP-activiteit om lift te genereren:
 
