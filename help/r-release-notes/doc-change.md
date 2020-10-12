@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2623'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 |  | [Profiel-API-instellingen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Bijgewerkt onderwerp om op het toestemmingsniveau te wijzen moet u een authentificatietoken produceren. |
 |  | [Automatisch doel](/help/c-activities/auto-target-to-optimize.md) | Toegevoegd succesverhaal in de praktijk met Auto-Target. |
 |  | [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](/help/c-experiences/c-visual-experience-composer/temtest.md) | Toegevoegde sectie om uit te leggen hoe u dezelfde activiteit in het hele domein kunt renderen. |
+|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>Analyses voor doelmetriek (A4T) voor automatisch toegewezen en automatisch doelactiviteiten</li></ul> |
 | 8 oktober | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Het volgende probleem is opgelost:<ul><li>[Automatische doelrapportage](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Het volgende probleem verplaatst van de sectie Bekende problemen naar de sectie Opgeloste problemen:<ul><li>[Rapportage](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Hybride implementatie](/help/c-implementing-target/hybrid-implementation.md) | Nieuw onderwerp. |
 | 7 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de release Target Standard/Premium 20.10.1. |
