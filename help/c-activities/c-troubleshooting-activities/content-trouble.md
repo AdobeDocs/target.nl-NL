@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,21 @@ Als op de pagina de verwachte inhoud niet wordt weergegeven, zijn er een paar st
 
 mboxDebug is vooral handig wanneer u [!DNL Target] op de pagina instelt om te controleren of de [!DNL Target] aanvraag wordt geactiveerd en het cookie wordt ingesteld. Nochtans, gaat het niet in het soort detail dat wanneer het zuiveren van inhoudslevering nuttig is. Als uw activiteit niet op uw pagina verschijnt of ongewenste inhoud verschijnt, gebruik mboxTrace om de pagina in detail te onderzoeken en te zuiveren.
 
-## De machtigingstoken ophalen voor gebruik met de foutopsporingsgereedschappen {#section_BED130298E794D1FA229DB7C3358BA54}
+## Haal het toestemmingstoken terug om met het zuiveren hulpmiddelen te gebruiken {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Omdat mboxTrace en mboxDebug campagnegegevens en profielgegevens aan externe partijen kunnen blootstellen, wordt een toestemmingstoken vereist. Het toestemmingstoken kan in [!DNL Target] UI worden teruggewonnen. De token is zes uur geldig.
+
+U moet een van de volgende gebruikersmachtigingen hebben om een verificatietoken te genereren:
+
+* Minstens [!UICONTROL Editor] toestemming (of [!UICONTROL Approver])
+
+   Voor meer informatie voor [!DNL Target Standard] klanten, zie [Specificeer rollen en Toestemmingen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers*. Voor meer informatie voor [!DNL Target Premium] klanten, zie ondernemingstoestemmingen [](/help/administrating-target/c-user-management/property-channel/properties-overview.md)vormen.
+
+* Beheerdersrol op het niveau van de werkruimte/het productprofiel
+
+   De werkruimten zijn alleen beschikbaar voor [!DNL Target Premium] klanten. Voor meer informatie, zie ondernemingstoestemmingen [](/help/administrating-target/c-user-management/property-channel/properties-overview.md)vormen.
+
+* Admin Rights (Sysadmin-machtiging) op [!DNL Adobe Target] productniveau
 
 Om het toestemmingstoken terug te winnen:
 
@@ -53,7 +65,7 @@ De volgende parameters zijn beschikbaar:
 | `?mboxTrace=window` | Drukt in een pop-upvenster af als een JSON-tekenreeks |
 | `?mboxTrace=disable` | Hiermee schakelt u de overtreksessiemodus uit |
 
-**Voorbeeld mboxTrace-aanroep**
+**Voorbeeld van aanroep van mboxTrace**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -66,7 +78,7 @@ Sommige informatie omvat overeenkomende en niet-overeenkomende segment- en doel-
 * **Niet-overeenkomend**: Het verzoek kwam in deze oproep niet in aanmerking voor die segmenten of doelstellingen.
 * **Overeenkomend**: Het verzoek wordt gekwalificeerd voor de gespecificeerde segmenten of de doelstellingen.
 
-**MboxTrace gebruiken op Recommendations-pagina**&#39;s: Als u mboxTrace toevoegt als een queryparameter op pagina&#39;s met aanbevelingen, wordt het Recommendations-ontwerp op de pagina vervangen door een venster met mboxTrace-details, dat uitgebreide informatie over uw aanbevelingen bevat, zoals:
+**MboxTrace gebruiken op aanbevolen pagina**&#39;s: Als u mboxTrace toevoegt als een queryparameter op pagina&#39;s met aanbevelingen, wordt het Recommendations-ontwerp op de pagina vervangen door een venster met mboxTrace-details, dat uitgebreide informatie over uw aanbevelingen bevat, zoals:
 
 * Recommendations heeft vs. aanbevelingen opgevraagd
 * De gebruikte sleutel en of het aanbevelingen produceert
@@ -130,7 +142,7 @@ Voer een upgrade uit naar [!DNL mbox.js] versie 58 of hoger.
 
 mbox.js versie 58 en hoger voert niet-JavaScript-inhoud voor de algemene [!DNL Target] aanvraag direct uit nadat de HTML- `BODY` tag aanwezig is. JavaScript-inhoud binnen `<script>` tags voor de algemene [!DNL Target] aanvraag wordt uitgevoerd nadat de `DOMContentLoaded` gebeurtenis is geactiveerd. Deze volgorde waarin de inhoud wordt geleverd, zorgt ervoor dat JavaScript-inhoud voor de algemene [!DNL Target] aanvraag op de juiste wijze wordt geleverd en weergegeven.
 
-## Doel cookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Doelcookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Als uw site een subdomein heeft, zoals [!DNL us.domain.com], maar u hebt de doelcookie ingesteld [!DNL domain.com] (in plaats van [!DNL us.domain.com]), moet u de `cookieDomain` instelling overschrijven. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)voor meer informatie.
 
