@@ -1,11 +1,11 @@
 ---
-keywords: Recommendations;offer;preview;launch
+keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Nadat u de Recommendations-, A/B Test- of Experience Targeting-activiteit (XT) met Adobe Target Recommendations-aanbiedingen hebt gemaakt, wilt u deze eerst bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. Target Recommendations biedt meerdere manieren om je aanbevelingen voor te vertonen. '
 title: 'Nadat u de Recommendations-, A/B Test- of Experience Targeting-activiteit (XT) met Adobe Target Recommendations-aanbiedingen hebt gemaakt, wilt u deze eerst bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. Target Recommendations biedt meerdere manieren om je aanbevelingen voor te vertonen. '
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 0%
