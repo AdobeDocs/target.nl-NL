@@ -2,15 +2,15 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Target Guide
-breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+breadcrumb-title: Doelgids
+user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -178,7 +178,7 @@ ht-degree: 0%
       + [Voordat u implementeert](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analyses voor doelimplementatie](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Vereisten voor gebruikerstoegang](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [Activiteitenschepping](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Maak een activiteit die Analytics als rapportbron gebruikt](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Een Analytics-trackingserver gebruiken](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T-rapportage](c-integrating-target-with-mac/a4t/reporting.md)
       + Problemen met de integratie van Analytics en Target oplossen (A4T) {#troubleshoot-a4t}
