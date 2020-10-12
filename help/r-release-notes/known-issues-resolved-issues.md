@@ -5,15 +5,15 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '3757'
+source-wordcount: '3860'
 ht-degree: 0%
 
 ---
 
 
-# Bekende problemen en opgeloste problemen{#known-issues-and-resolved-issues}
+# Bekende problemen en opgeloste problemen
 
 Informatie over bekende problemen voor deze release van Target. Bevat ook informatie over problemen die zijn opgelost.
 
@@ -24,6 +24,12 @@ Informatie over bekende problemen voor deze release van Target. Bevat ook inform
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 In de volgende secties worden de bekende problemen voor [!DNL Target]:
+
+### Analyses voor doelmetriek (A4T) voor automatisch toegewezen en automatisch doelactiviteiten
+
+Er bestaat een bekend probleem in de [!DNL Target] gebruikersinterface dat gebruikers in staat stelt niet-ondersteunde betrokkenheids- en inkomstenmetriek te selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. Conversiemetriek worden ondersteund; service- en inkomstenwaarden worden *niet* ondersteund. Als u de metriek van de betrokkenheid of van het opbrengstdoel selecteert, zal een optimalisatiemodel niet worden gebouwd (alhoewel het Doel UI momenteel u toestaat om niet gestaafde doelmetriek te selecteren).
+
+Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [Gesteunde doelmetriek](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Create een activiteit die Analytics als rapporteringsbron* gebruikt. (TNT-38409)
 
 ### Paginalevering {#page-delivery}
 
@@ -56,7 +62,7 @@ Hier volgen bekende problemen met omleidingsvoorstellen:
 
    Als u overschakelt naar een andere ervaring en vervolgens terugschakelt naar &quot;Experience B&quot;, wordt de omleiding naar de URL-sjabloon weergegeven die op deze ervaring is toegepast en is het [!DNL Target] [!UICONTROL Modifications] deelvenster niet toegankelijk. (TGT-32138)
 
-* Bij de websites van de toepassing Eén pagina (SPA) kunt u door het annuleren van het laden geen handelingen bewerken in het [!UICONTROL Modifications] deelvenster.
+* Bij het annuleren van het laden van de toepassingswebsites (SPA) voor één pagina kunt u handelingen niet bewerken in het [!UICONTROL Modifications] deelvenster.
 
 ### Recommendations
 
