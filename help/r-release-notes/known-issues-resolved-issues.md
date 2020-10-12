@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
 workflow-type: tm+mt
-source-wordcount: '3860'
+source-wordcount: '3862'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In de volgende secties worden de bekende problemen voor [!DNL Target]:
 
 ### Analyses voor doelmetriek (A4T) voor automatisch toegewezen en automatisch doelactiviteiten
 
-Er bestaat een bekend probleem in de [!DNL Target] gebruikersinterface dat gebruikers in staat stelt niet-ondersteunde betrokkenheids- en inkomstenmetriek te selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. Conversiemetriek worden ondersteund; service- en inkomstenwaarden worden *niet* ondersteund. Als u de metriek van de betrokkenheid of van het opbrengstdoel selecteert, zal een optimalisatiemodel niet worden gebouwd (alhoewel het Doel UI momenteel u toestaat om niet gestaafde doelmetriek te selecteren).
+Er bestaat een bekend probleem in de [!DNL Target] gebruikersinterface dat gebruikers in staat stelt niet-ondersteunde betrokkenheids- en inkomstenmetriek te selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. Conversiemetriek worden ondersteund; service- en inkomstenwaarden worden *niet* ondersteund. Als u de metriek van de betrokkenheid of van het opbrengstdoel (zoals orden) selecteert, zal een optimalisatiemodel niet worden gebouwd (alhoewel [!DNL Target] UI momenteel u toestaat om niet gestaafde doelmetriek te selecteren).
 
 Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [Gesteunde doelmetriek](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Create een activiteit die Analytics als rapporteringsbron* gebruikt. (TNT-38409)
 
