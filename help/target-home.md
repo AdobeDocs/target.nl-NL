@@ -6,7 +6,7 @@ seo-description: Adobe Target is de Adobe Experience Cloud-oplossing die alles b
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 8 oktober 2020 ([zie wat er is gewijzigd](r-release-notes/doc-change.md))**
+**Laatst bijgewerkt: 12 oktober 2020 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 ## Ontwikkelaars {#developers}
 
-- [Doel](c-implementing-target/implementing-target.md)implementeren: Verklaart hoe te om [!DNL Target] op Websites, mobiele apps, Enige-Pagina Apps (SPAs), en iOT/OTT platforms uit te voeren.
+- [Doel](c-implementing-target/implementing-target.md)implementeren: Hierin wordt beschreven hoe u toepassingen kunt implementeren [!DNL Target] op websites, mobiele apps, apps met één pagina (SPA) en iOT/OTT-platforms.
 - [API&#39;s](https://developers.adobetarget.com/api/delivery-api/)aan de serverzijde van het doel: Beschrijft de bronnen waaruit de Adobe Target Delivery-API bestaat.
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Verklaart hoe te om server-kant van het Doel op te stellen. Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Adobe Experience Cloud-oplossingen.
 - [Doel Java SDK](https://github.com/adobe/target-java-sdk): Verklaart hoe te om server-kant van het Doel op te stellen. Met deze Java SDK kunt u Target eenvoudig integreren met andere Adobe Experience Cloud-oplossingen.
