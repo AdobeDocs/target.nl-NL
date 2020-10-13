@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Deze release bevat de volgende nieuwe functies:
 
 | Functie | Details |
 | --- | --- |
-| Apparaatbeslissingen | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie uitvoeren vanuit het apparaat van de gebruiker, via kanalen, met bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid. Bij beslissingen op het apparaat kunnen marketers, en nu productontwikkelaars, hun ervaringen direct vanuit een gebruikersapparaat testen en optimaliseren, waardoor beslissingen en laadtijden tot bijna nul worden teruggebracht voor contextafhankelijke ervaringen in real time.<br>Met Besluiten op het apparaat kunt u alle instructies voor personalisatie en experimenteren compileren op &#39;optimalisatieartefacten&#39;, die op klantapparaten worden geladen. Deze nullatentie-artefacten geven marketers een-op-een personalisatie, gedragsretargeting, en aanbevelingen voor producten en inhoud in real time, terwijl ze ontwikkelaars en producteigenaars directe codetoegang geven om de ervaringen van de testgebruiker te testen en product en fase-productlanceringen te starten, in real-time te verfijnen. En omdat beslissingen op apparaten native verbinding maken met [!DNL Adobe Experience Cloud] producten, krijgen [!DNL Target] gebruikers een snelle analyse en snellere ervaringen met herhalingen. |
+| Apparaatbeslissingen | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie uitvoeren vanuit het apparaat van de gebruiker, via kanalen, met bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid. Bij beslissingen op het apparaat kunnen marketers, en nu productontwikkelaars, hun ervaringen direct vanuit een gebruikersapparaat testen en optimaliseren, waardoor beslissingen en laadtijden tot bijna nul worden teruggebracht voor contextafhankelijke ervaringen in real time.<br>Met Besluiten op het apparaat kunt u alle instructies voor personalisatie en experimenteren compileren op &#39;optimalisatieartefacten&#39;, die op klantapparaten worden geladen. Deze nullatentie-artefacten geven marketers een-op-een personalisatie, gedragsretargeting, en aanbevelingen voor producten en inhoud in real time, terwijl ze ontwikkelaars en producteigenaars directe codetoegang geven om de ervaringen van de testgebruiker te testen en product en fase-productlanceringen te starten, in real-time te verfijnen. En omdat beslissingen op apparaten native verbinding maken met [!DNL Adobe Experience Cloud] producten, krijgen [!DNL Target] gebruikers een snelle analyse en snellere ervaringen met herhalingen.<br>**Nu registreren voor een live webinar.** Neem deel aan de productexperts van Adobe Target terwijl ze bespreken hoe u met beslissingen voor optimalisatie van kritieke ervaring op uw apparaat lokaal kunt uitvoeren met een nullatentie, deuren kunt openen voor spannende nieuwe gebruikssituaties en de prestaties van uw klanten kunt verbeteren.<ul><li>10 november 2020</li><li>10.00 uur PT / 12.00 uur CT / 13.00 uur ET</li><li>[Hier registreren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
