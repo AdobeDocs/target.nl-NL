@@ -6,9 +6,9 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
@@ -66,59 +66,12 @@ Filter dynamisch door items (entiteiten) te vergelijken met een waarde in het pr
 
 Gebruik deze optie [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergeven die overeenkomen met een waarde die is opgeslagen in het profiel van de bezoeker, zoals de grootte of het favoriete merk.
 
-In de volgende voorbeelden ziet u hoe u kunt gebruiken [!UICONTROL Profile Attribute Matching]:
+De volgende scenario&#39;s tonen hoe u kunt gebruiken [!UICONTROL Profile Attribute Matching]:
 
 * Een bedrijf dat eyeglasses verkoopt, slaat de favoriete kleur van een bezoeker op als &quot;walnoot&quot;. Voor die specifieke bezoeker wordt aanbevolen alleen eyeglass-frames met een &quot;walnoot&quot; in kleur te retourneren.
 * Een profielparameter kan voor de kledinggrootte (b.v., Klein, Middel, of Groot) van een bezoeker worden bepaald aangezien zij op de website van uw bedrijf navigeren. Er kan een aanbeveling worden ingesteld die overeenkomt met die profielparameter en die alleen producten retourneert die specifiek zijn voor de door de gebruiker voorkeurskledinggrootte.
 
-Laten we een voorbeeld bekijken om aan te bevelen dat kleding overeenkomt met de kledinggrootte die is ingesteld in het profiel van de bezoeker.
-
-De productpagina verzendt `entity.size` in de mbox vraag (rode pijl in de illustratie hieronder).
-
-U kunt een [profielscript](/help/c-target/c-visitor-profile/profile-parameters.md) maken om de profielkenmerken en waarden van de bezoeker vast te leggen op de laatste pagina die de bezoeker heeft bezocht.
-
-Bijvoorbeeld:
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-Met het profielscript wordt de `entity.size` waarde van de benoemde mbox vastgelegd `target-global-mbox` en geretourneerd als een profielkenmerk met de naam `user.size` (blauwe pijl in de onderstaande afbeelding).
-
-![size mbox vraag](/help/c-recommendations/c-algorithms/assets/size.png)
-
-Klik bij het maken van de aanbevelingen op criteria [!UICONTROL Add Filtering Rule]en selecteer [!UICONTROL Profile Attribute Matching].
-
-![Correctie van profielkenmerken](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Als uw `user.size` profiel in [!DNL Target]is geladen, toont het in drop-down voor aanpassing wanneer u opstelling de regel om de waarde te passen die in de mbox vraag (`size`) aan de naam van het profielmanuscript (`user.size`) wordt overgegaan.
-
-U kunt dan &quot;grootte&quot;selecteren &quot;evenaart&quot;de waarde/de tekst die in &quot;user.size&quot;voor uw profielkenmerkaanpassing wordt opgeslagen.
-
-Nadat de regels voor het profielkenmerk zijn samengesteld, worden alle aanbevelingen met kenmerken die niet overeenkomen met het opgeslagen profielkenmerk van de bezoeker uitgefilterd.
-
-Bekijk een website die ventilatoren verkoopt voor een visueel voorbeeld van de invloed van profielkenmerkafstemming op aanbevelingen.
-
-Wanneer een bezoeker op verschillende afbeeldingen van ventilatoren op deze website klikt, stelt elke pagina de waarde van de `entity.size` parameter in op basis van het feit of de grootte van de ventilator in de afbeelding klein of groot is.
-
-Stel dat u een profielscript hebt gemaakt om het aantal keren bij te houden en te tellen dat de waarde van `entity.size` is ingesteld op klein of groot.
-
-Als de bezoeker vervolgens terugkeert naar de startpagina, ziet hij of zij gefilterde aanbevelingen op basis van de vraag of er op meer kleine of grote ventilatoren is geklikt.
-
-Recommendations is gebaseerd op het bekijken van meer kleine ventilatoren op de website:
-
-![aanbevelingen voor kleine ventilatoren](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendations is gebaseerd op het weergeven van grotere ventilatoren op de website:
-
-![aanbevelingen voor grote ventilatoren](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+Zie Voorbeelden [van overeenkomsten van](#section_9873E2F22E094E479569D05AD5BB1D40) profielkenmerken voor meer voorbeelden en instructies.
 
 #### Overeenkomende parameters
 
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### Voorbeeld 3: Aanbevolen kleren die overeenkomen met de grootte van een bezoeker
+
+Laten we een voorbeeld bekijken om aan te bevelen dat kleding overeenkomt met de kledinggrootte die is ingesteld in het profiel van de bezoeker.
+
+De productpagina verzendt `entity.size` in de mbox vraag (rode pijl in de illustratie hieronder).
+
+U kunt een [profielscript](/help/c-target/c-visitor-profile/profile-parameters.md) maken om de profielkenmerken en waarden van de bezoeker vast te leggen op de laatste pagina die de bezoeker heeft bezocht.
+
+Bijvoorbeeld:
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Met het profielscript wordt de `entity.size` waarde van de benoemde mbox vastgelegd `target-global-mbox` en geretourneerd als een profielkenmerk met de naam `user.size` (blauwe pijl in de onderstaande afbeelding).
+
+![size mbox vraag](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Klik bij het maken van de aanbevelingen op criteria [!UICONTROL Add Filtering Rule]en selecteer [!UICONTROL Profile Attribute Matching].
+
+![Correctie van profielkenmerken](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Als uw `user.size` profiel in [!DNL Target]is geladen, toont het in drop-down voor aanpassing wanneer u opstelling de regel om de waarde te passen die in de mbox vraag (`size`) aan de naam van het profielmanuscript (`user.size`) wordt overgegaan.
+
+U kunt dan &quot;grootte&quot;selecteren &quot;evenaart&quot;de waarde/de tekst die in &quot;user.size&quot;voor uw profielkenmerkaanpassing wordt opgeslagen.
+
+Nadat de regels voor het profielkenmerk zijn samengesteld, worden alle aanbevelingen met kenmerken die niet overeenkomen met het opgeslagen profielkenmerk van de bezoeker uitgefilterd.
+
+### Voorbeeld 4: Aanbevolen objecten op basis van grootte
+
+Bekijk een website die ventilatoren verkoopt voor een visueel voorbeeld van de invloed van profielkenmerkafstemming op aanbevelingen.
+
+Wanneer een bezoeker op verschillende afbeeldingen van ventilatoren op deze website klikt, stelt elke pagina de waarde van de `entity.size` parameter in op basis van het feit of de grootte van de ventilator in de afbeelding klein of groot is.
+
+Stel dat u een profielscript hebt gemaakt om het aantal keren bij te houden en te tellen dat de waarde van `entity.size` is ingesteld op klein of groot.
+
+Als de bezoeker vervolgens terugkeert naar de startpagina, ziet hij of zij gefilterde aanbevelingen op basis van de vraag of er op meer kleine of grote ventilatoren is geklikt.
+
+Recommendations is gebaseerd op het bekijken van meer kleine ventilatoren op de website:
+
+![aanbevelingen voor kleine ventilatoren](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations is gebaseerd op het weergeven van grotere ventilatoren op de website:
+
+![aanbevelingen voor grote ventilatoren](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## Overeenkomende voorbeelden van kenmerken van entiteiten
 
 [!UICONTROL Entity Attribute Matching] Hiermee kunt u alleen de items aanbevelen die overeenkomen met een kenmerk van het item dat de gebruiker momenteel bekijkt, het item dat de gebruiker het laatst heeft weergegeven, het item dat de gebruiker het laatst heeft aangeschaft, het item dat de gebruiker het vaakst heeft weergegeven, of een item dat is opgeslagen in een aangepast kenmerk in het profiel van de bezoeker, zoals in de onderstaande voorbeelden.
 
-### Voorbeeld 3: Upsellen naar een duurder product
+### Voorbeeld 5: Upsellen naar een duurder product
 
 Stel dat u een kledinghandelaar bent en gebruikers wilt aanmoedigen om duurdere en daarom rendabelere voorwerpen te overwegen. U kunt de operatoren ‘gelijk aan’ en ‘gelijk aan’ gebruiken om duurdere objecten van dezelfde categorie en hetzelfde merk te promoten. Een schoenenhandelaar kan bijvoorbeeld duurdere loopschoenen promoten om een bezoeker die naar loopschoenen kijkt te uploaden.
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Voorbeeld 4: Privéproducten promoten
+### Voorbeeld 6: Privéproducten promoten
 
 U kunt dynamische en statische filters mengen om privé-etiketproducten te bevorderen. Zo kan een kantoorbedrijf bijvoorbeeld tonercartridges van het huismerk van het bedrijf promoten om een rendabelere verkoop te stimuleren voor een bezoeker die naar toner kijkt — en pennen van het huismerk van het bedrijf promoten om een rendabelere verkoop te drijven voor een bezoeker die naar pennen kijkt.
 
