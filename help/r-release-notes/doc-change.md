@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2676'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 13 oktober | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de volgende levende webinar gepland voor 10 november 2020:<ul><li>Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target</li></ul> |
+|  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de volgende levende webinar gepland voor 10 november 2020:<ul><li>Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target</li></ul> |
 | 12 oktober | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Bijgewerkt [wint het toestemmingstoken terug om met het zuiveren hulpmiddelen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) te gebruiken om op het toestemmingsniveau te wijzen u een authentificatietoken moet produceren. |
 |  | [Profiel-API-instellingen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Bijgewerkt onderwerp om op het toestemmingsniveau te wijzen moet u een authentificatietoken produceren. |
 |  | [Automatisch doel](/help/c-activities/auto-target-to-optimize.md) | Toegevoegd succesverhaal in de praktijk met Auto-Target. |
