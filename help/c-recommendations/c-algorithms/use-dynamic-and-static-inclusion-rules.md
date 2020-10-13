@@ -6,9 +6,9 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '2091'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,25 @@ In de volgende tabel worden de typen filteropties voor zowel criteria als promot
 
 ### Dynamisch filteren
 
+Dynamische insluitingsregels zijn krachtiger dan statische insluitingsregels en leveren betere resultaten en betrokkenheid op. Overweeg het volgende:
+
+* De dynamische inclusieregels leveren aanbevelingen door een attribuut in de het profielparameter van een gebruiker of in een mbox vraag aan te passen.
+
+   Bijvoorbeeld, kunt u een Populaire Aanbeveling van Criteria tot stand brengen, en dan van de reeks teruggekeerde aanbevelingen, filter uit om het even welk, in real time, tegen een attribuut dat wordt overgegaan wanneer de gebruiker tot een pagina toegang heeft waar de aanbevelingen worden getoond.
+
+* Gebruik statische regels om te beperken welke items worden opgenomen in de aanbeveling (in plaats van verzamelingen).
+
+* U kunt zo veel dynamische inclusieregels tot stand brengen zoals nodig. De inclusieregels worden verbonden met een exploitant AND. Aan alle regels moet worden voldaan om een punt in een aanbeveling te omvatten.
+
 De volgende opties zijn beschikbaar voor dynamisch filteren:
 
 #### Identieke kenmerk entiteit
 
 Filter dynamisch door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruikers met in wisselwerking staan.
 
-U kunt bijvoorbeeld alleen items aanbevelen die overeenkomen met het merk van het huidige item.
+Bijvoorbeeld, adviseer slechts punten die het merk van het huidige punt zoals in het volgende voorbeeld aanpassen:
+
+Als de mbox op een Brand Landing Page terugkeert `entity.brand=Nike`, worden alleen Nike-producten geretourneerd en op die pagina weergegeven. Op dezelfde manier worden op de pagina Brand Landing voor de Adidas alleen Adidas-producten geretourneerd. Met dit type van dynamische inclusieregel, moet de gebruiker slechts één adviseringsregel specificeren die relevante merkresultaten over alle merkpagina&#39;s eerder dan het specificeren van een inzameling of een statische filter om elke merknaam te passen.
 
 Beschikbare operatoren:
 
@@ -66,31 +78,79 @@ Beschikbare operatoren:
 
 Filter dynamisch door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.
 
-U kunt bijvoorbeeld alleen objecten aanbevelen die overeenkomen met het favoriete merk van de bezoeker.
+Gebruik deze optie [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergeven die overeenkomen met een waarde die is opgeslagen in het profiel van de bezoeker, zoals de grootte of het favoriete merk.
 
-Beschikbare operatoren:
+In de volgende voorbeelden ziet u hoe u kunt gebruiken [!UICONTROL Profile Attribute Matching]:
 
-* equals
-* is niet gelijk aan
-* contains
-* bevat niet
-* begint met
-* eindigt met
-* is groter dan of gelijk aan
-* is kleiner dan of gelijk aan
-* is tussen
+* Een bedrijf dat eyeglasses verkoopt, slaat de favoriete kleur van een bezoeker op als &quot;walnoot&quot;. Voor die specifieke bezoeker wordt aanbevolen alleen eyeglass-frames met een &quot;walnoot&quot; in kleur te retourneren.
+* Een profielparameter kan voor de kledinggrootte (b.v., Klein, Middel, of Groot) van een bezoeker worden bepaald aangezien zij op de website van uw bedrijf navigeren. Er kan een aanbeveling worden ingesteld die overeenkomt met die profielparameter en die alleen producten retourneert die specifiek zijn voor de door de gebruiker voorkeurskledinggrootte.
+
+Laten we een voorbeeld bekijken om aan te bevelen dat kleding overeenkomt met de kledinggrootte die is ingesteld in het profiel van de bezoeker.
+
+De productpagina verzendt `entity.size` in de mbox vraag (rode pijl in de illustratie hieronder).
+
+U kunt een [profielscript](/help/c-target/c-visitor-profile/profile-parameters.md) maken om de profielkenmerken en waarden van de bezoeker vast te leggen op de laatste pagina die de bezoeker heeft bezocht.
+
+Bijvoorbeeld:
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Met het profielscript wordt de `entity.size` waarde van de benoemde mbox vastgelegd `target-global-mbox` en geretourneerd als een profielkenmerk met de naam `user.size` (blauwe pijl in de onderstaande afbeelding).
+
+![size mbox vraag](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Klik bij het maken van de aanbevelingen op criteria [!UICONTROL Add Filtering Rule]en selecteer [!UICONTROL Profile Attribute Matching].
+
+![Correctie van profielkenmerken](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Als uw `user.size` profiel in [!DNL Target]is geladen, toont het in drop-down voor aanpassing wanneer u opstelling de regel om de waarde te passen die in de mbox vraag (`size`) aan de naam van het profielmanuscript (`user.size`) wordt overgegaan.
+
+U kunt dan &quot;grootte&quot;selecteren &quot;evenaart&quot;de waarde/de tekst die in &quot;user.size&quot;voor uw profielkenmerkaanpassing wordt opgeslagen.
+
+Nadat de regels voor het profielkenmerk zijn samengesteld, worden alle aanbevelingen met kenmerken die niet overeenkomen met het opgeslagen profielkenmerk van de bezoeker uitgefilterd.
+
+Bekijk een website die ventilatoren verkoopt voor een visueel voorbeeld van de invloed van profielkenmerkafstemming op aanbevelingen.
+
+Wanneer een bezoeker op verschillende afbeeldingen van ventilatoren op deze website klikt, stelt elke pagina de waarde van de `entity.size` parameter in op basis van het feit of de grootte van de ventilator in de afbeelding klein of groot is.
+
+Stel dat u een profielscript hebt gemaakt om het aantal keren bij te houden en te tellen dat de waarde van `entity.size` is ingesteld op klein of groot.
+
+Als de bezoeker vervolgens terugkeert naar de startpagina, ziet hij of zij gefilterde aanbevelingen op basis van de vraag of er op meer kleine of grote ventilatoren is geklikt.
+
+Recommendations is gebaseerd op het bekijken van meer kleine ventilatoren op de website:
+
+![aanbevelingen voor kleine ventilatoren](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations is gebaseerd op het weergeven van grotere ventilatoren op de website:
+
+![aanbevelingen voor grote ventilatoren](/help/c-recommendations/c-algorithms/assets/large-fans.png)
 
 #### Overeenkomende parameters
 
 Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).
 
-U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-parameter &#39;industrie&#39;.
+U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-parameter &#39;industrie&#39; of andere parameters, zoals apparaatafmetingen of geo-locatie, zoals in de volgende voorbeelden.
 
-Belangrijk: Als de activiteit vóór 31 oktober 2016 werd gecreeerd, zal zijn levering ontbreken als het de &quot;Aanpassing van de Parameter&quot;filter gebruikt. U kunt dit probleem als volgt oplossen:
+* Mbox-parameters voor schermbreedte en -hoogte kunnen worden gebruikt om mobiele bezoekers te bereiken en bieden alleen de aanbeveling voor mobiele apparaten en accessoires.
+* De regionale geolocatieparameters kunnen worden gebruikt om aanbevelingen voor hulpmiddelen tijdens de winter terug te keren. Sneeuwruimers en andere sneeuwbestrijdingsmiddelen kunnen worden aanbevolen voor bezoekers in gebieden waar het sneeuwt, maar niet voor bezoekers in gebieden waar het sneeuwt.
 
-* Maak een nieuwe activiteit en voeg daar uw criteria aan toe.
-* Gebruik een criterium dat het filter &quot;Parameter Matching&quot; niet bevat.
-* Verwijder het filter &quot;Parameter Matching&quot; uit de criteria.
+>[!NOTE]
+>
+>Als de activiteit vóór 31 oktober 2016 werd gecreeerd, zal zijn levering ontbreken als het de &quot;Aanpassing van de Parameter&quot;filter gebruikt. U kunt dit probleem als volgt oplossen:
+>
+>* Maak een nieuwe activiteit en voeg daar uw criteria aan toe.
+>* Gebruik een criterium dat het filter &quot;Parameter Matching&quot; niet bevat.
+>* Verwijder het filter &quot;Parameter Matching&quot; uit de criteria.
+
 
 Beschikbare operatoren:
 
