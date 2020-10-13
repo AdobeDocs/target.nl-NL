@@ -6,9 +6,9 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2056'
 ht-degree: 0%
 
 ---
@@ -59,20 +59,6 @@ Filter dynamisch door een pool van potentiële aanbevelingen punten aan een spec
 Bijvoorbeeld, adviseer slechts punten die het merk van het huidige punt zoals in het volgende voorbeeld aanpassen:
 
 Als de mbox op een Brand Landing Page terugkeert `entity.brand=Nike`, worden alleen Nike-producten geretourneerd en op die pagina weergegeven. Op dezelfde manier worden op de pagina Brand Landing voor de Adidas alleen Adidas-producten geretourneerd. Met dit type van dynamische inclusieregel, moet de gebruiker slechts één adviseringsregel specificeren die relevante merkresultaten over alle merkpagina&#39;s eerder dan het specificeren van een inzameling of een statische filter om elke merknaam te passen.
-
-Beschikbare operatoren:
-
-* equals
-* is niet gelijk aan
-* is tussen
-* contains
-* bevat niet
-* begint met
-* eindigt met
-* waarde is aanwezig
-* waarde is niet aanwezig
-* is groter dan of gelijk aan
-* is kleiner dan of gelijk aan
 
 #### Overeenkomende profielkenmerken
 
