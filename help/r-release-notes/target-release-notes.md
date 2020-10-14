@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 7 oktober 2020**
+**Laatst bijgewerkt: 14 oktober 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -46,6 +46,18 @@ Deze release bevat de volgende nieuwe functies:
 | Functie | Details |
 | --- | --- |
 | Apparaatbeslissingen | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie uitvoeren vanuit het apparaat van de gebruiker, via kanalen, met bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid. Bij beslissingen op het apparaat kunnen marketers, en nu productontwikkelaars, hun ervaringen direct vanuit een gebruikersapparaat testen en optimaliseren, waardoor beslissingen en laadtijden tot bijna nul worden teruggebracht voor contextafhankelijke ervaringen in real time.<br>Met Besluiten op het apparaat kunt u alle instructies voor personalisatie en experimenteren compileren op &#39;optimalisatieartefacten&#39;, die op klantapparaten worden geladen. Deze nullatentie-artefacten geven marketers een-op-een personalisatie, gedragsretargeting, en aanbevelingen voor producten en inhoud in real time, terwijl ze ontwikkelaars en producteigenaars directe codetoegang geven om de ervaringen van de testgebruiker te testen en product en fase-productlanceringen te starten, in real-time te verfijnen. En omdat beslissingen op apparaten native verbinding maken met [!DNL Adobe Experience Cloud] producten, krijgen [!DNL Target] gebruikers een snelle analyse en snellere ervaringen met herhalingen.<br>**Nu registreren voor een live webinar.** Neem deel aan de productexperts van Adobe Target terwijl ze bespreken hoe u met beslissingen voor optimalisatie van kritieke ervaring op uw apparaat lokaal kunt uitvoeren met een nullatentie, deuren kunt openen voor spannende nieuwe gebruikssituaties en de prestaties van uw klanten kunt verbeteren.<ul><li>10 november 2020</li><li>10.00 uur PT / 12.00 uur CT / 13.00 uur ET</li><li>[Hier registreren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+
+Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
+
+* Probleem verholpen waarbij weergave in [!UICONTROL Average Lift Confidence Interval] rapportage voor de [!UICONTROL Confidence] rij werd verhinderd [!DNL Auto-Target] en [!UICONTROL Total] verhinderd. De metingen worden correct weergegeven voor alle afzonderlijke ervaringen. (TGT-37301)
+* Oplossing van een probleem dat gevolgen had voor de [!DNL Adobe Target Premium] rapportage van [!UICONTROL Auto-Target] gebruikers vanaf 15 september om 14.30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd gebruikend of &quot;[!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie), worden de omzettingspercentages verkeerd gemeld. Er is momenteel geen bekend leveringsprobleem. Zie [Auto-Target rapportage](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) onder *Opgeloste problemen* in *bekende problemen en opgeloste problemen* voor informatie over het opnieuw synchroniseren en corrigeren van rapporten.
+* Er is een selecteerbare [!UICONTROL Last Updated At] kolom in de [!UICONTROL Catalog Search] tabel en een [!UICONTROL Last Updated At] filter toegevoegd. Deze verbetering bespaart tijd en inspanning omdat u niet elk individueel punt moet openen om te zien wanneer het laatst werd bijgewerkt en u kunt filtreren door datum de punten werden laatst bijgewerkt.
+
+   ![Laatst bijgewerkt bij kolom- en filterillustratie](/help/r-release-notes/assets/column-and-filter.png)
+
+* Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord.
+* Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken.
+* Verbeterd tekst- en kleurcontrast voor afbeeldingen en tekst in de gebruikersinterface.
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
