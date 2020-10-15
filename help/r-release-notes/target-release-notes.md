@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 14 oktober 2020**
+**Laatst bijgewerkt: 15 oktober 2020**
 
 Voor informatie over de huidige versie, zie de Nota&#39;s [van de Versie van het](release-notes.md)Doel. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
@@ -55,9 +55,10 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
    ![Laatst bijgewerkt bij kolom- en filterillustratie](/help/r-release-notes/assets/column-and-filter.png)
 
-* Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord.
-* Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken.
-* Verbeterd tekst- en kleurcontrast voor afbeeldingen en tekst in de gebruikersinterface.
+* Er zijn updates aangebracht om de doelgebruikersinterface compatibel te maken met de toegankelijkheidsrichtlijnen [voor](https://www.w3.org/WAI/standards-guidelines/wcag/) webinhoud (Web Content Accessibility Guidelines 2.0 Level A and AA Success Criteria) (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
+* Verbeterde CSP-functies (Content Security Policy). (TGT-37035)
+* Introduceerde een manier om de cliëntcode als parameter voor klanten te specificeren die CNAME gebruiken. (TNT-38571)
+
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
