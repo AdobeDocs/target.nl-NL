@@ -5,7 +5,7 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3859'
 ht-degree: 0%
@@ -240,7 +240,7 @@ v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbied
 
 Dit probleem is opgelost.
 
-### at.js
+### at.js {#at-js-2}
 
 Mboxen die niet worden geactiveerd in Microsoft Explorer 11-browsers na de upgrade naar at.js versie 1.0 vanwege de interactie tussen at.js en Visitor API 2.2.0. Dit probleem is van toepassing op versie 0.js 0.9.6 en hoger. (TNT-27600)
 
@@ -252,7 +252,7 @@ Het zoeken naar een tekenreeks die speciale tekens bevat (zoals een spatie of ko
 
 Vast in november 2018.
 
-### at.js
+### at.js {#at-js-3}
 
 Wanneer u at.js versie 1.6.0 gebruikt, vindt een omleiding van Analytics voor Target (A4T) plaats, maar zonder activiteitkwalificatie.
 
@@ -294,7 +294,7 @@ Wanneer de naam van een rapportpubliek in een auto-Doel activiteit wordt gebruik
 
 Dit probleem is opgelost met de Target 18.5.1-release (22 mei 2018).
 
-### at.js
+### at.js {#at-js-4}
 
 Het algoritme voor het extraheren van het domein op hoofdniveau dat moet worden gebruikt bij het opslaan van cookies is gewijzigd in versie 0.js 0.9.6. Vanwege deze wijziging kunnen cookies niet worden opgeslagen naar adressen die IP gebruiken. Meestal worden IP-adressen gebruikt voor testdoeleinden, maar als tijdelijke oplossingen kunt u DNS-vermeldingen gebruiken, het hostbestand op een lokaal vak aanpassen of de functie targetGlobalSettings() at.js gebruiken om een codefragment in te voegen ter ondersteuning van IP-adressen.
 
@@ -335,7 +335,7 @@ De eerste kwestie is vastgelegd in de Target 17.3.1-release (maart 2017).
 
 De tweede kwestie is vastgelegd in de Target 17.6.1-release (juni 2017).
 
-### at.js
+### at.js {#at-js-5}
 
 Sinds de versie van Doel 17.4.1 (27 april, 2017), die de actie van het Beeld van het Tussenvoegsel in Visuele Composer van de Ervaring (VEC) gebruikt veroorzaakt dat de aanbiedingsinhoud niet wordt geleverd wanneer het gebruiken van de bibliotheek at.js.
 
@@ -355,7 +355,7 @@ De levering en voorvertoning werden beïnvloed voor aanbiedingen in A/B- en XT-a
 
 Opgelost in de hotfix Doel 17.4.3.
 
-### at.js
+### at.js {#at-js-6}
 
 De volgende acties veroorzaakten de aanbieding om niet te worden geleverd wanneer het gebruiken van Visual Experience Composer (VEC) en at.js: Verplaatsen en opnieuw rangschikken.
 
@@ -379,7 +379,7 @@ Voor recent bekeken criteria, op entiteit gebaseerde dynamische regels zullen to
 
 Dit probleem is opgelost na de release van Recommendations (22 maart 2018). Na de release van Recommendations slaat Target de op entiteit gebaseerde dynamische regels over als entity.id niet wordt doorgegeven in de mbox-aanvraag.
 
-### at.js
+### at.js {#at-js-7}
 
 Wanneer gebruikers proberen om te.js van de de detailpagina van Implementaties na het bijwerken van om.js montages te downloaden, mbox.js wordt gedownload in plaats van at.js. (TGT-23069)
 
