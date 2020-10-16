@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Zorg ervoor dat de activiteit is voltooid en geactiveerd.
 
 * Ga naar Visual Experience Composer, klik URL \> Geavanceerd \>huidige pagina.
 
-## In plaats van de nieuwe ervaring wordt een eerdere ervaring weergegeven.
+## In plaats van de nieuwe ervaring wordt een vorige ervaring weergegeven.
 
 **Valideren:** Probeer een van de onderstaande opties en probeer de ervaring opnieuw weer te geven.
 
@@ -109,7 +109,7 @@ Zie Scenario&#39;s voor [paginawijzigingen voor meer informatie over de invloed 
 
 ## Mbox.js springt alle volgende code uit het hoofd en in het lichaam.
 
-**Valideren:** Bron weergeven om te bepalen of declaraties het bestand mbox.js volgen vóór het sluiten </body> tag.
+**Valideren:** Geef de bron weer om te bepalen of declaraties het bestand mbox.js vóór de afsluitende `</body>` tag volgen.
 
 **Opties:**
 
