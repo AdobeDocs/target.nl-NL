@@ -83,7 +83,7 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
-[!DNL Recommendations Classic] geeft op uw website automatisch producten of inhoud weer die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om objecten die ze anders wellicht niet kennen, te verkopen op uw website.
+[!DNL Recommendations Classic] geeft op uw website automatisch producten of inhoud weer die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om objecten die ze anders wellicht niet kennen, door te verwijzen naar betere verkoop op uw website.
 
 Raadpleeg de Klassieke documentatie [van](../assets/adobe-recommendations-classic.pdf)Recommendations voor meer informatie.
 
