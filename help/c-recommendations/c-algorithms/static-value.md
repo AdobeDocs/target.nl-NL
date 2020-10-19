@@ -4,9 +4,9 @@ description: Voer handmatig een of meer statische waarden in om te filteren met 
 title: Filteren op statische waarden in inclusieregels in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -14,22 +14,9 @@ ht-degree: 0%
 
 # ![Statisch PREMIUM](/help/assets/premium.png) -filter
 
-Voer handmatig een of meer statische waarden in om te filteren met behulp van insluitingsregels in Adobe Target Recommendations.
+Voer handmatig een of meer statische waarden in om te filteren met behulp van insluitingsregels in [!DNL Adobe Target][!DNL Recommendations].
 
 U kunt bijvoorbeeld alleen inhoud met een MPAA-score van &quot;G&quot; of &quot;PG&quot; aanbevelen.
-
-Beschikbare operatoren:
-
-* equals
-* is niet gelijk aan
-* contains
-* bevat niet
-* begint met
-* eindigt met
-* waarde is aanwezig
-* waarde is niet aanwezig
-* is groter dan of gelijk aan
-* is kleiner dan of gelijk aan
 
 >[!NOTE]
 >
