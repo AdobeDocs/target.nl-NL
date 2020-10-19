@@ -4,9 +4,9 @@ description: Filter dynamisch in Adobe Target Recommendations door items (entite
 title: Filteren op parameterovereenkomst in dynamische-inclusieregels in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aan
 U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-parameter &#39;industrie&#39; of andere parameters, zoals apparaatafmetingen of geo-locatie, zoals in de volgende voorbeelden.
 
 * Mbox-parameters voor schermbreedte en -hoogte kunnen worden gebruikt om mobiele bezoekers te bereiken en bieden alleen de aanbeveling voor mobiele apparaten en accessoires.
+* Maak een regel met aanbevelingen die alleen de meest verkochte mobiele telefoons retourneert die overeenkomen met de schermhoogte van het mobiele apparaat dat de bezoeker gebruikt in de weergave van de pagina of deze overschrijdt.
 * De regionale geolocatieparameters kunnen worden gebruikt om aanbevelingen voor hulpmiddelen tijdens de winter terug te keren. Sneeuwruimers en andere sneeuwbestrijdingsmiddelen kunnen worden aanbevolen voor bezoekers in gebieden waar het sneeuwt, maar niet voor bezoekers in gebieden waar het sneeuwt.
 
 >[!NOTE]
@@ -30,14 +31,16 @@ U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-param
 >* Verwijder het filter &quot;Parameter Matching&quot; uit de criteria.
 
 
-Beschikbare operatoren:
+## Voorbeelden van overeenkomsten met parameters
 
-* equals
-* is niet gelijk aan
-* contains
-* bevat niet
-* begint met
-* eindigt met
-* is groter dan of gelijk aan
-* is kleiner dan of gelijk aan
-* is tussen
+[!UICONTROL Parameter Matching] kunt u inhoud aanbevelen die overeenkomt met de paginaparameters of de parameters van de bezoeker, zoals apparaatafmetingen of geo-locatie, zoals in het volgende voorbeeld:
+
+[!DNL Recommendations] kan parameterwaarden aanpassen die in de [!DNL Target] vraag worden verzonden. In deze instantie, [!DNL Target] ontdekt dat een bezoeker een mobiel apparaat gebruikt, dat op de het schermhoogte en breedteparameters wordt gebaseerd die in de [!DNL Target] vraag worden verzonden, en zal slechts punten adviseren die mobiele apparaten zijn.
+
+Overweeg de volgende vraag van het voorbeeldDoel:
+
+![Doeloproep](/help/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+
+Op de pagina die een bezoeker bekijkt, ziet hij of zij producten voor mobiele apparaten.
+
+![Mobiele apparaten](/help/c-recommendations/c-algorithms/assets/phones.png)
