@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -384,7 +384,12 @@ ht-degree: 0%
       + [Criteria-reeksen maken](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Aangepaste criteria uploaden](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamische en statische insluitingsregels {#dynamic-static}
+         + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Identieke kenmerk entiteit](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Overeenkomende profielkenmerken](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Overeenkomende parameters](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Statisch filter](/help/c-recommendations/c-algorithms/static-value.md)
       + [Een back-upaanbeveling gebruiken](c-recommendations/c-algorithms/backup-recs.md)
       + [Werken met kenmerken van meerdere waarden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Adobe Analytics gebruiken met Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
