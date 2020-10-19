@@ -4,9 +4,9 @@ description: Filter dynamisch in Adobe Target Recommendations door items (entite
 title: Filteren op aanpassing van profielkenmerken in regels voor dynamische integratie in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 Filter dynamisch in [!DNL Adobe Target] [!DNL Recommendations] door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.
 
 Gebruik deze optie [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergeven die overeenkomen met een waarde die is opgeslagen in het profiel van de bezoeker, zoals de grootte of het favoriete merk.
+
+>[!NOTE]
+>
+>Het [proces voor het creëren en gebruiken van inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden.
 
 De volgende scenario&#39;s tonen hoe u kunt gebruiken [!UICONTROL Profile Attribute Matching]:
 
@@ -72,7 +76,7 @@ Met het profielscript wordt de `entity.size` waarde van de benoemde mbox vastgel
 
 ![size mbox vraag](/help/c-recommendations/c-algorithms/assets/size.png)
 
-Klik bij het maken van de aanbevelingen op criteria [!UICONTROL Add Filtering Rule]en selecteer [!UICONTROL Profile Attribute Matching].
+Klik bij het maken van de aanbevelingen op criteria **[!UICONTROL Add Filtering Rule]** en selecteer **[!UICONTROL Profile Attribute Matching]**.
 
 ![Correctie van profielkenmerken](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ Als uw `user.size` profiel in [!DNL Target]is geladen, toont het in drop-down vo
 
 U kunt dan &quot;grootte&quot;selecteren &quot;evenaart&quot;de waarde/de tekst die in &quot;user.size&quot;voor uw profielkenmerkaanpassing wordt opgeslagen.
 
+![Voorbeeld van grootte](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 Nadat de regels voor het profielkenmerk zijn samengesteld, worden alle aanbevelingen met kenmerken die niet overeenkomen met het opgeslagen profielkenmerk van de bezoeker uitgefilterd.
 
 ### Aanbevolen objecten op basis van grootte
 
-Bekijk een website die ventilatoren verkoopt voor een visueel voorbeeld van de invloed van profielkenmerkafstemming op aanbevelingen.
+Bekijk een website die elektrische ventilatoren verkoopt voor een visueel voorbeeld van de invloed van profielkenmerkafstemming op aanbevelingen.
 
 Wanneer een bezoeker op verschillende afbeeldingen van ventilatoren op deze website klikt, stelt elke pagina de waarde van de `entity.size` parameter in op basis van het feit of de grootte van de ventilator in de afbeelding klein of groot is.
 
