@@ -4,9 +4,9 @@ description: Filter dynamisch in Adobe Target Recommendations door een pool van 
 title: Filter op kenmerk van entiteit matchen in regels voor dynamische insluiting in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,17 @@ ht-degree: 0%
 
 Filter dynamisch in [!DNL Adobe Target] [!DNL Recommendations] door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruiker met heeft in wisselwerking gestaan.
 
-Bijvoorbeeld, adviseer slechts punten die het merk van het huidige punt zoals in het volgende voorbeeld aanpassen:
+>[!NOTE]
+>
+>Het [proces voor het creëren en gebruiken van inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden.
 
-Als de mbox op een Brand Landing Page terugkeert `entity.brand=Nike`, worden alleen Nike-producten geretourneerd en op die pagina weergegeven. Op dezelfde manier worden op de pagina Brand Landing voor Adidas alleen Adidas-producten geretourneerd. Met dit type van dynamische inclusieregel, moet de gebruiker slechts één adviseringsregel specificeren die relevante merkresultaten over alle merkpagina&#39;s eerder dan het specificeren van een inzameling of een statische filter om elke merknaam te passen.
+U kunt bijvoorbeeld alleen items aanbevelen die overeenkomen met het merk van het huidige item, zoals in het volgende voorbeeld:
 
-## Overeenkomende voorbeelden van kenmerken van entiteiten
+Als de mbox op een Brand Landing Page terugkeert `entity.brand=Nike`, worden alleen Nike-producten geretourneerd en op die pagina weergegeven. Op dezelfde manier worden op de pagina Brand Landing voor Adidas alleen Adidas-producten geretourneerd. Met dit type van dynamische integratieregel, moet de gebruiker slechts één aanbeveling specificeren die relevante merkresultaten over alle merkpagina&#39;s eerder dan het specificeren van een inzameling of een statische filter om elke merknaam te passen terugkeert.
+
+Dit werkt alleen als u de code `entity.brand` in de mbox op die bestemmingspagina&#39;s levert.
+
+## Voorbeelden van overeenkomsten van entiteitskenmerken
 
 [!UICONTROL Entity Attribute Matching] Hiermee kunt u alleen de overeenkomende items aanbevelen, bijvoorbeeld:
 
@@ -29,6 +35,24 @@ Als de mbox op een Brand Landing Page terugkeert `entity.brand=Nike`, worden all
 * Het item dat de gebruiker het laatst heeft aangeschaft
 * Het item dat de gebruiker het vaakst heeft bekeken
 * Een item dat is opgeslagen in een aangepast kenmerk in het profiel van de bezoeker
+
+### Aanbevolen objecten op basis van een merk
+
+Nadat de regels voor de entiteitskenmerken zijn samengesteld, worden alle aanbevelingen met kenmerken uitgefilterd die niet overeenkomen met de entiteitswaarde die op de pagina wordt doorgegeven.
+
+In het volgende voorbeeld worden aanbevelingen getoond die overeenkomen met het productmerk dat op de pagina wordt weergegeven:
+
+Wanneer u een pagina bezoekt die een Nike-product bevat, stelt de pagina de waarde van de `entity.brand` parameter in op &quot;Nike&quot;.
+
+![Voorbeeld van doelaanroep](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+In de aanbevelingen op de pagina ziet u alleen Nike-producten.
+
+![Nike-aanbevelingen](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+Als u vervolgens een Adidas-productpagina weergeeft, wordt de `entity.brand` waarde weer ingesteld op &quot;Adidas&quot; en worden Adidas-producten aanbevolen op de Adidas-productpagina&#39;s.
+
+![Adidas-aanbevelingen](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### Upsellen naar een duurder product
 
