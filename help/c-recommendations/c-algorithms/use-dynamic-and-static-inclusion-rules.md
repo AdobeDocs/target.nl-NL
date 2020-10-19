@@ -6,9 +6,9 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Informatie over het creëren van integratieregels voor criteria en bevorderingen in [!DNL Adobe Target] en het toevoegen van extra dynamische of statische het filtreren regels om betere resultaten voor uw aanbevelingen te bereiken.
 
-Het proces om inclusieregels voor criteria en promoties tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden. In deze afdeling worden zowel de criteria als de promoties en het gebruik van de regels voor inclusie behandeld.
+>[!NOTE]
+>
+>Het proces om inclusieregels voor criteria en promoties tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden. In deze afdeling worden zowel de criteria als de promoties en het gebruik van de regels voor inclusie behandeld.
 
 ## Filterregels toevoegen aan criteria {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -36,7 +38,7 @@ Selecteer tijdens het [maken van een aanbieding](../../c-recommendations/t-creat
 
 ## Filtertypen {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-De volgende secties geven een overzicht van de typen filteropties voor zowel criteria als promoties, Dynamisch filteren en Filteren op waarde:
+De volgende secties geven een overzicht van de typen filteropties voor [!UICONTROL Dynamic Filtering] en [!UICONTROL Filter by Value] voor zowel criteria als promoties:
 
 ### Dynamisch filteren
 
@@ -44,9 +46,9 @@ Dynamische insluitingsregels zijn krachtiger dan statische insluitingsregels en 
 
 * De dynamische inclusieregels leveren aanbevelingen door een attribuut in de het profielparameter van een gebruiker of in een mbox vraag aan te passen.
 
-   Bijvoorbeeld, kunt u een &quot;Popular aanbeveling van Criteria&quot;tot stand brengen, en dan van de reeks teruggekeerde aanbevelingen, filter uit om het even welk, in real time, tegen een attribuut dat wordt overgegaan wanneer de gebruiker tot een pagina toegang heeft waar de aanbevelingen worden getoond.
+   Bijvoorbeeld, kunt u een &quot;Populaire Aanbeveling van Criteria&quot;tot stand brengen, en dan van de reeks teruggekeerde aanbevelingen, dan filter uit om het even welke aanbevelingen (in real time) tegen een attribuut dat wordt overgegaan wanneer de gebruiker tot een pagina toegang heeft waar de aanbevelingen worden getoond.
 
-* Gebruik statische regels om te beperken welke items worden opgenomen in de aanbeveling (in plaats van verzamelingen).
+* Gebruik statische regels om te beperken welke items worden opgenomen in de aanbeveling (in plaats van verzamelingen te gebruiken).
 
 * U kunt zo veel dynamische inclusieregels tot stand brengen zoals nodig. De inclusieregels worden verbonden met een exploitant AND. Aan alle regels moet worden voldaan om een punt in een aanbeveling te omvatten.
 
@@ -54,9 +56,9 @@ De volgende opties zijn beschikbaar voor dynamisch filteren:
 
 | Dynamisch filteren, optie | Details |
 | --- | --- |
-| [Identieke kenmerk entiteit](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filter dynamisch door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruikers met in wisselwerking staan.<br>Gebruik Identieke kenmerk entiteit wanneer u aanbevelingen wilt weergeven die de bezoeker het meest waarschijnlijk aanspreken, zoals het favoriete merk van de bezoeker. |
+| [Identieke kenmerk entiteit](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filter dynamisch door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruikers met in wisselwerking staan.<br>Gebruik deze optie [!UICONTROL Entity Attribute Matching] wanneer u aanbevelingen wilt weergeven die de bezoeker het meest aanspreken, zoals het favoriete merk van de bezoeker. |
 | [Overeenkomende profielkenmerken](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filter dynamisch door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.<br>Gebruik deze optie [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergeven die overeenkomen met een waarde die is opgeslagen in het profiel van de bezoeker, zoals de grootte of het favoriete merk. |
-| [Overeenkomende parameters](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).<br>Gebruik Parameter Matching om inhoud aan te bevelen die overeenkomt met de paginaparameters of de bezoekersparameters, zoals apparaatafmetingen of geo-locatie. |
+| [Overeenkomende parameters](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).<br>Gebruik deze optie [!UICONTROL Parameter Matching] om inhoud aan te bevelen die overeenkomt met de paginaparameters of de parameters van de bezoeker, zoals apparaatafmetingen of geo-locatie. |
 
 ### Filteren op waarde
 
@@ -70,35 +72,13 @@ De volgende optie is beschikbaar voor het filtreren door waarde:
 
 Dynamische criteria en promoties zijn veel krachtiger dan statische criteria en promoties en leveren betere resultaten en betrokkenheid op.
 
-De volgende voorbeelden geven u algemene ideeën over hoe u dynamische promoties kunt gebruiken bij uw marketingactiviteiten:
+De volgende voorbeelden bieden algemene ideeën over hoe u dynamische promoties kunt gebruiken bij uw marketingactiviteiten:
 
-### Gelijk
-
-Wanneer u de operator &quot;equals&quot; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten op:
-
-* hetzelfde merk
-* dezelfde categorie
-* dezelfde categorie AND van het huismerk
-* dezelfde winkel
-
-### Niet gelijk
-
-Met de operator &quot;is niet gelijk aan&quot; in dynamische promoties kunt u andere items promoten via:
-
-* een andere tv-serie
-* een ander genre
-* een andere productreeks
-* een andere stijl-id
-
-### Is tussen
-
-Wanneer u de operator &#39;is between&#39; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten:
-
-* duurder
-* goedkoper
-* kosten plus of minus 30%
-* latere episodes in hetzelfde seizoen
-* eerdere boeken in een reeks
+| Operator | Voorbeelden |
+| --- | --- |
+| Gelijk | Wanneer u de operator &quot;equals&quot; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten op:<ul><li>hetzelfde merk</li><li>dezelfde categorie</li><li>dezelfde categorie AND van het huismerk</li><li>dezelfde winkel</li></ul> |
+| Niet gelijk | Met de operator &quot;is niet gelijk aan&quot; in dynamische promoties kunt u andere items promoten via:<ul><li>een andere tv-serie</li><li>een ander genre</li><li>een andere productreeks</li><li>een andere stijl-id</li></ul> |
+| Is tussen | Wanneer u de operator &#39;is between&#39; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten:<ul><li>duurder</li><li>goedkoper</li><li>kosten plus of minus 30%</li><li>latere episodes in hetzelfde seizoen</li><li>eerdere boeken in een reeks</li></ul> |
 
 ## Lege waarden afhandelen bij het filteren op overeenkomsten van kenmerken van entiteit, overeenkomsten van kenmerken van profiel en overeenkomsten van parameters {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -112,9 +92,10 @@ Als u de gewenste actie wilt selecteren, houdt u de muisaanwijzer boven het tand
 
 | Handeling | Beschikbaar voor | Details |
 |--- |--- |--- |
-| Deze filterregel negeren | Profielkenmerk<br>MatchingParameter Matching | Dit is de standaardactie voor het Aanpassen van Attributen van het Profiel en de Aanpassing van de Parameter.<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
-| Geen objecten promoten | Identiteitskenmerk<br>MatchingProfile-kenmerk<br>MatchingParameter Matching | Dit is de standaardhandeling voor overeenkomsten van entiteitskenmerken.<br>Zo worden lege waarden vóór de toevoeging van deze optie [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
-| Een statische waarde gebruiken | Identiteitskenmerk<br>MatchingProfile-kenmerk<br>MatchingParameter Matching | Als een waarde leeg is, kunt u een statische waarde gebruiken. |
+| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] en[!UICONTROL Parameter Matching] | Dit is de standaardhandeling voor [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching].<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
+| [!UICONTROL Do not show any results for this criteria]<br>(Alleen criteria) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]en [!UICONTROL Parameter Matching] | Dit is de standaardhandeling voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
+| [!UICONTROL Do not promote any items<br>(Alleen aanbiedingen)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]en [!UICONTROL Parameter Matching] | Dit is de standaardhandeling voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
+| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]en [!UICONTROL Parameter Matching] | Als een waarde leeg is, kunt u een statische waarde gebruiken. |
 
 ## Caveats {#section_A889FAF794B7458CA074DEE06DD0E345}
 
