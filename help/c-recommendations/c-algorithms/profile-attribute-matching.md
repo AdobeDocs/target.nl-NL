@@ -4,9 +4,9 @@ description: Filter dynamisch in Adobe Target Recommendations door items (entite
 title: Filteren op aanpassing van profielkenmerken in regels voor dynamische integratie in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ De volgende scenario&#39;s tonen hoe u kunt gebruiken [!UICONTROL Profile Attrib
 
 U kunt bijvoorbeeld de [!UICONTROL Profile Attribute Matching] optie gebruiken om een regel te maken die alleen items aanbeveelt wanneer het merk gelijk is aan de waarde of tekst die is opgeslagen in `profile.favoritebrand`. Met een dergelijke regel geldt dat als een bezoeker korte berichten van een bepaald merk bekijkt, alleen aanbevelingen worden weergegeven die overeenkomen met het favoriete merk van die gebruiker (de waarde die is opgeslagen in het profiel van de bezoeker). `profile.favoritebrand`
 
+![Favoriet merk](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
+
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
@@ -46,47 +48,12 @@ Stel dat je probeert banen te koppelen aan werkzoekenden. U wilt alleen taken aa
 
 U kunt inclusieregels gebruiken om de plaats van een baanzoeker van het profiel van zijn of haar bezoeker aan een baanlijst aan te passen, zoals in het volgende voorbeeld:
 
+![Plaats van gebruiker](/help/c-recommendations/c-algorithms/assets/city.png)
+
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
-
-### Aanbevolen kleren die overeenkomen met de grootte van een bezoeker
-
-Laten we een voorbeeld bekijken om aan te bevelen dat kleding overeenkomt met de kledinggrootte die is ingesteld in het profiel van de bezoeker.
-
-De productpagina verzendt `entity.size` in de mbox vraag (rode pijl in de illustratie hieronder).
-
-U kunt een [profielscript](/help/c-target/c-visitor-profile/profile-parameters.md) maken om de profielkenmerken en waarden van de bezoeker vast te leggen op de laatste pagina die de bezoeker heeft bezocht.
-
-Bijvoorbeeld:
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-Met het profielscript wordt de `entity.size` waarde van de benoemde mbox vastgelegd `target-global-mbox` en geretourneerd als een profielkenmerk met de naam `user.size` (blauwe pijl in de onderstaande afbeelding).
-
-![size mbox vraag](/help/c-recommendations/c-algorithms/assets/size.png)
-
-Klik bij het maken van de aanbevelingen op criteria **[!UICONTROL Add Filtering Rule]** en selecteer **[!UICONTROL Profile Attribute Matching]**.
-
-![Correctie van profielkenmerken](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Als uw `user.size` profiel in [!DNL Target]is geladen, toont het in drop-down voor aanpassing wanneer u opstelling de regel om de waarde te passen die in de mbox vraag (`size`) aan de naam van het profielmanuscript (`user.size`) wordt overgegaan.
-
-U kunt dan &quot;grootte&quot;selecteren &quot;evenaart&quot;de waarde/de tekst die in &quot;user.size&quot;voor uw profielkenmerkaanpassing wordt opgeslagen.
-
-![Voorbeeld van grootte](/help/c-recommendations/c-algorithms/assets/example-size.png)
-
-Nadat de regels voor het profielkenmerk zijn samengesteld, worden alle aanbevelingen met kenmerken die niet overeenkomen met het opgeslagen profielkenmerk van de bezoeker uitgefilterd.
 
 ### Aanbevolen objecten op basis van grootte
 
