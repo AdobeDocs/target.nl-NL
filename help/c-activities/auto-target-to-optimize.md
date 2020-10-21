@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3639'
+source-wordcount: '3626'
 ht-degree: 0%
 
 ---
@@ -125,8 +125,6 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] de voorke
 **Het algoritme optimaliseert voortdurend voor één enkel doel metrisch.**
 
 * Deze metrische waarde zou op omzettingsbasis of op opbrengst-gebaseerd (meer bepaald Inkomsten per Bezoek) kunnen zijn.
-
-**Het algoritme steunt niet het gebruiken [!DNL Analytics] als gegeven-bron of een rapporterend eindpunt.**
 
 **Het doel verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen te bouwen.**
 
