@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ U kunt de volgende instellingen overschrijven:
 * **Standaardwaarde**: true (waar, vanaf at.js versie 1.6.2)
 * **Omschrijving**: Geeft aan of we `<clientCode>.tt.omtrdc.net` domein of `mboxedge<clusterNumber>.tt.omtrdc.net` domein moeten gebruiken.
 
-   Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net` domein opgeslagen in een cookie. Werken momenteel niet met [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net` domein opgeslagen in een cookie. Werkt momenteel niet met [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) wanneer versies at.js vóór at.js 1.8.2 en at.js 2.3.1 worden gebruikt. Als dit voor u een probleem is, kunt u het [bijwerken van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) naar een nieuwere, ondersteunde versie overwegen.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -467,13 +467,13 @@ Houd rekening met het volgende wanneer u `serverState`:
    * VEC-gemaakte activiteiten die worden uitgevoerd bij het laden van de pagina.
    * Vooraf opgehaalde weergaven.
 
-      In het geval van SPAs die [!DNL Target] Weergaven en `triggerView()` in at.js API gebruiken, in.js v2.2 geheime voorgeheugens de inhoud voor alle Weergaven die op server-kant worden vooraf ingesteld en past deze toe zodra elke Mening via `triggerView()`, opnieuw wordt teweeggebracht zonder om het even welke extra inhoud-haalt vraag aan Doel te vuren.
+      Als SPA weergaven en [!DNL Target] in de API at.js gebruikt, plaatst at.js v2.2 de inhoud voor alle weergaven die vooraf op de server zijn ingesteld in cache en past deze toe zodra elke weergave via `triggerView()` `triggerView()`, opnieuw wordt geactiveerd zonder dat er nog meer content-fetching aanroepen naar Target hoeven te worden uitgevoerd.
 
    * **Opmerking**:  Op dit moment worden selectievakjes die op de server worden opgehaald, niet ondersteund in `serverState`.
 
 * Bij het toepassen van `serverState `aanbiedingen houdt at.js rekening met `pageLoadEnabled` en `viewsEnabled` instellingen. Aanbiedingen voor laden van pagina worden bijvoorbeeld niet toegepast als de `pageLoadEnabled` instelling false is.
 
-   Schakel deze instellingen in via **[!UICONTROL Administration]>[!UICONTROL Implementation]>[!UICONTROL Edit]>[!UICONTROL Page Load Enabled]**.
+   Schakel deze instellingen in via **[!UICONTROL Administration]> [!UICONTROL Implementation] > [!UICONTROL Edit] >[!UICONTROL Page Load Enabled]**.
 
    ![Instellingen voor Laden van pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
@@ -484,4 +484,4 @@ Houd rekening met het volgende wanneer u `serverState`:
 Raadpleeg de volgende bronnen voor meer informatie over hoe `serverState` werkt:
 
 * [Voorbeeldcode](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [Voorbeeldtoepassing van één pagina (SPA) met `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [Toepassing van één pagina (SPA) voorbeeldtoepassing met `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
