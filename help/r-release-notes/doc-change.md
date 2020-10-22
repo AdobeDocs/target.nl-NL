@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 22 oktober | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Toegevoegde informatie over een moeilijke situatie voor steun CNAME in at.js versies 1.8.2 en 2.3.1 |
+|  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Toegevoegde informatie over een moeilijke situatie voor steun CNAME in at.js versies 1.8.2 en 2.3.1 |
 | 15 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de doelstandaard/Premium-versie 20.10.1 zijn bijgewerkt (27 oktober 2020). |
 | 14 oktober | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Een opmerking toegevoegd over verkeerstoewijzing voor een activiteit Automatisch toewijzen met slechts twee ervaringen. |
 | 13 oktober | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de volgende levende webinar gepland voor 10 november 2020:<ul><li>Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target</li></ul> |
