@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Er zijn updates aangebracht om de doelgebruikersinterface compatibel te maken met de toegankelijkheidsrichtlijnen [voor](https://www.w3.org/WAI/standards-guidelines/wcag/) webinhoud (Web Content Accessibility Guidelines 2.0 Level A and AA Success Criteria) (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
 * Verbeterde CSP-functies (Content Security Policy). (TGT-37035)
 * Introduceerde een manier om de cliëntcode als parameter voor klanten te specificeren die CNAME gebruiken. (TNT-38571)
-
+* [!DNL Adobe Experience Cloud] de documentatie gaat verder naar [!DNL Experience League]. In oktober gaan alle opmerkingen bij de release, artikelen, video&#39;s en zelfstudies van de huidige locatie `docs.adobe.com` naar [!DNL Experience League]. Deze beweging zorgt ervoor dat al het leren, zelfhulp, enablement, en communautaire inhoud van één enkele plaats wordt gediend. Wanneer deze wijziging optreedt, hoeft u niets te doen, aangezien alle koppelingen naar andere koppelingen worden omgeleid [!DNL Experience League]. De opmerkingen bij de release worden bijgewerkt wanneer de cutover begint.
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
