@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ De gegevensbestanden van de activiteit en van de inhoud, [!DNL Analytics] gegeve
 
 Elke Edge-cluster beschikt over alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en houdt analysegegevens bij over die aanvraag. De verzoeken van de gebruiker worden verpletterd aan de dichtstbijzijnde Cluster van de Rand.
 
-Zie het artikel over beveiligingsoverzicht [van](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target voor meer informatie.
+Zie het artikel over beveiligingsoverzicht [van](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target voor meer informatie.
 
 De [!DNL Adobe Target] oplossing wordt gehost op datacenters in Adobe-eigendom en Adobe-lease over de hele wereld.
 
@@ -108,6 +108,8 @@ De centrale plaatsen van de Cluster bevatten zowel een centrum van de gegevensin
 De gegevens van de de plaatsactiviteit van de klant worden verzameld door het dichtst van zeven Clusters van Edge en geleid aan de vooraf bepaalde Centrale bestemming van de Cluster van een klant (één van drie plaatsen: Oregon, Dublin, Singapore) voor verwerking. Bezoekerprofielgegevens worden opgeslagen op de Edge Cluster die het dichtst bij de bezoeker van de site staat (de locaties zijn Centraal-clusterlocaties en Virginia, Amsterdam, Sydney, Tokio en Hongkong).
 
 In plaats van op alle gerichte verzoeken van één enkele plaats te antwoorden, worden de verzoeken verwerkt door de Cluster van de Rand dichtst bij de bezoeker, zo verzachtend de gevolgen van netwerk/Internet reistijd.
+
+![Typen doelservers met hyperlinks](/help/c-intro/assets/target-servers.png)
 
 De centrale clusters van het doel, die op de Diensten van het Web van Amazon (AWS) worden ontvangen, worden gevestigd in:
 
