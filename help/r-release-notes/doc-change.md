@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2749'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 26 oktober | [Overzicht van doelbeveiliging](/help/c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md) | De whitepaper over beveiligingsoverzicht *van* Adobe Target is bijgewerkt. |
 | 22 oktober | [CNAME en Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Toegevoegde informatie over een moeilijke situatie voor steun CNAME in at.js versies 1.8.2 en 2.3.1 |
 |  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Toegevoegde informatie over een moeilijke situatie voor steun CNAME in at.js versies 1.8.2 en 2.3.1 |
 | 15 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de doelstandaard/Premium-versie 20.10.1 zijn bijgewerkt (27 oktober 2020). |
