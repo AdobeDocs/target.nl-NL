@@ -5,7 +5,7 @@ title: Overzicht van doelbeveiliging
 feature: privacy and security
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -19,6 +19,6 @@ Informatie over de diepgaande benadering en veiligheidsprocedures die door Adobe
 
 Bij Adobe nemen we de beveiliging van je digitale ervaring zeer serieus. Beveiligingspraktijken zijn diep verankerd in onze interne processen en tools voor softwareontwikkeling en -bewerkingen en worden rigoureus gevolgd door onze interfunctionele teams om incidenten op een snelle manier te voorkomen, op te sporen en erop te reageren.
 
-Bovendien helpen ons samenwerkingswerk met partners, toonaangevende onderzoekers, veiligheidsonderzoeksinstellingen en andere brancheorganisaties ons bij het up-to-date houden met de nieuwste dreigingen en kwetsbaarheden en wij nemen regelmatig geavanceerde veiligheidstechnieken op in de producten en diensten die wij aanbieden.
+Bovendien helpen onze samenwerking met partners, toonaangevende onderzoekers, instellingen voor veiligheidsonderzoek en andere brancheorganisaties ons bij het up-to-date houden met de nieuwste dreigingen en kwetsbaarheden en wij nemen regelmatig geavanceerde veiligheidstechnieken op in de producten en diensten die wij aanbieden.
 
-Zie het artikel over beveiligingsoverzicht [van](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target voor meer informatie.
+Zie het artikel over beveiligingsoverzicht [van](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target voor meer informatie.
