@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 >[!IMPORTANT]
 >
->* **Adobe noemde opnieuw een leider in het Magisch Kwadrant Gartner voor Personalisatietechnieken**: Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid. [Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
-   >
-   >
-* **mbox.js end-of-life**: Op 18 januari 2021 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 18 januari 2021, zullen alle vraag die van mbox.js wordt gemaakt zachtjes ontbreken en zullen uw pagina&#39;s beïnvloeden die de activiteiten van het Doel hebben die door standaardinhoud te dienen lopen. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Voor meer informatie, zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) At.js en [de Bouwer van de Vaardigheid van Adobe Target: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+>* **mbox.js end-of-life**: Op 18 januari 2021 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 18 januari 2021, zullen alle vraag die van mbox.js wordt gemaakt zachtjes ontbreken en zullen uw pagina&#39;s beïnvloeden die de activiteiten van het Doel hebben die door standaardinhoud te dienen lopen. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Voor meer informatie, zie [Hoe werkt](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) At.js en [de Bouwer van de Vaardigheid van Adobe Target: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >   
    Hoewel mbox.js momenteel wordt ondersteund, hebben we sinds juli 2017 geen functie-updates voor deze bibliotheek beschikbaar gesteld. Het nieuwere bestand at.js biedt veel voordelen ten opzichte van mbox.js. Met at.js verbetert u onder andere de laadtijden van pagina&#39;s voor webimplementaties, verbetert u de beveiliging en biedt u betere implementatieopties voor toepassingen op één pagina.
@@ -37,59 +34,34 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
-## Target Standard/Premium 20.9.1 (30 september 2020)
+## Target Standard/Premium 20.10.1 (28 oktober 2020)
 
-Deze onderhoudrelease bevat de volgende verbeteringen, correcties en wijzigingen:
-
-* Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* Verbeterd tekst- en kleurcontrast voor afbeeldingen en tekst in de gebruikersinterface. (TGT-34513)
-
-## Target Standard/Premium 20.8.3 (15 september 2020)
+Deze release bevat de volgende nieuwe functies:
 
 | Functie | Details |
 | --- | --- |
-| ![Premium badge](/help/assets/premium.png) Analytics for Target (A4T) support for Auto-Target activities | [!UICONTROL Auto-Target] activiteiten ondersteunen nu [Analytics voor Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Dankzij deze integratie kunt u het leeralgoritme voor [!UICONTROL Auto-Target] ensemble-machines gebruiken om een beste ervaring te kiezen voor elke bezoeker op basis van zijn profiel, gedrag en context.<br>Als u A4T [al hebt](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) geïmplementeerd voor gebruik met A/B Test and Experience Targeting-activiteiten, bent u klaar!<br>Zie [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie. |
-
-## Target Standard/Premium 20.8.2 (10 september 2020)
-
-| Functie | Details |
-| --- | --- |
-| ![De aanbevelingen van de Controle van de kentekenplaat](/help/assets/premium.png) van de premie groeven binnen criteria opeenvolgingen | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br>Zie [Criteria maken voor meer informatie](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
-
-## Target Standard/Premium 20.8.1 (2 september 2020)
+| [Apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie vanuit het apparaat van de gebruiker, via kanalen, met een bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid.<br>Door op het apparaat te beslissen kunt u belangrijke personalisatie- en experimenteringsinstructies in A/B Test and Experience Targeting (XT) activiteitstypen compileren in &quot;optimalisatieartefacten:&quot;JSON voorwerpen die op klantenapparaten via CDN worden geladen. En omdat beslissingen op het apparaat op een native manier verbinding maken met [!DNL Adobe Experience Cloud] producten, krijgen [!DNL Target] gebruikers een snelle analyse en snellere ervaringen met herhalingen.<br>Zie *[Inleiding tot apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* in de *Adobe Target SDKs Guide* voor meer informatie.<br>**Nu registreren voor een live webinar.** Neem deel aan de productexperts van Adobe Target terwijl ze bespreken hoe u met beslissingen voor optimalisatie van kritieke ervaring op uw apparaat lokaal kunt uitvoeren met een nullatentie, deuren kunt openen voor spannende nieuwe gebruikssituaties en de prestaties van uw klanten kunt verbeteren.<ul><li>10 november 2020</li><li>10.00 uur PT / 12.00 uur CT / 13.00 uur ET</li><li>[Hier registreren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
-* Probleem verholpen waarbij fouten werden weergegeven bij het laden van de nieuwe [!UICONTROL Administration] pagina&#39;s na het schakelen tussen organisaties. (TGT-37730)
-* Probleem verholpen waarbij de onjuiste clientcode op de [!UICONTROL Administration > Implementation] pagina werd weergegeven. (TGT-37849)
-* Probleem verholpen waardoor gebruikers soms de bewerkingsfuncties in de [!UICONTROL Visual Experience Composer] (VEC) niet konden gebruiken nadat de VEC met succes was geladen. (TGT-37162)
-* Probleem verholpen waardoor pagina&#39;s niet konden worden geladen in de VEC en de Enhanced Experience Composer (EEC), ook al was de extensie VEC Helper geïnstalleerd. Dit was het gevolg van wijzigingen in Google Chrome 80+. Download de [bijgewerkte extensie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)VEC Helper. (TGT-37893)
-* Probleem verholpen waarbij gebruikers soms werden verhinderd om 0,00 pagina te downloaden van de [!UICONTROL Administration > Implementation] pagina na het schakelen tussen organisaties. (TGT-37668)
-* De downloadknop at.js is nu uitgeschakeld tijdens het laden om te voorkomen dat meerdere aanvragen worden verzonden [!DNL Target] als gebruikers meerdere keren op de downloadknop klikken. (TGT-37633)
-* Probleem verholpen met [!UICONTROL Experience Targeting] (XT)-activiteiten die ertoe hebben geleid dat ervaringen gedurende een langere periode &quot;ophaalresultaten&quot; hebben getoond. (TGT-37684)
-* Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord. (TGT-34479 &amp; TGT-34473)
-* Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken. (TGT-34480)
-* Het foutbericht is verbeterd bij het verwijderen van een mobiele viewport die momenteel wordt gebruikt in een activiteit. Het foutbericht luidt nu: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot; (TGT-37030)
-* Toegevoegde steun in VEC om klik het volgen op een css selecteur toe te staan die meer dan één element in de pagina aanpast. (TGT-37323)
-* Probleem verholpen waardoor bepaalde gebruikers de [!UICONTROL Activity] lijst niet konden weergeven. Het volgende foutbericht is weergegeven: &quot;Kan geen URL-suggesties ophalen.&quot; De fout kwam voor gebruikers voor gebruikend wagenterugloop in hun FirstName (FirstName/r/n) in het systeem van de Achterkant van de Adobe. (TGT-37330)
-* Probleem verholpen waardoor gebruikers de [!UICONTROL Activity] pagina niet konden weergeven als de naam van de werkruimte (opgegeven in de [!UICONTROL Adobe Admin Console for Enterprise]) een apostrof bevat. (TGT-37709)
-* Probleem verholpen bij [!UICONTROL Auto-Allocate] activiteiten tijdens het selecteren van optimalisatie- en conversiemetriek waarbij een foutbericht gebruikers verkeerd informeerde een rapportsuite te selecteren, ook al was er al een rapportsuite opgegeven. (TGT-37689)
-* Probleem verholpen waarbij metrische gegevens op de [!UICONTROL Goals and Settings] pagina soms leeg werden na het navigeren naar de [!UICONTROL Targeting] pagina en vervolgens weer. (TGT-37691)
-* Probleem verholpen waarbij een onjuiste laatst gewijzigde waarde voor [!DNL Recommendations] criteria werd veroorzaakt. (TGT-37666)
-* Probleem verholpen waarbij id&#39;s van een box in de vervolgkeuzelijst Mboxes werden weergegeven in plaats van namen van een box. (TGT-37739)
+* Probleem verholpen waarbij weergave in [!UICONTROL Average Lift Confidence Interval] rapportage voor de [!UICONTROL Confidence] rij werd verhinderd [!DNL Auto-Target] en [!UICONTROL Total] verhinderd. De metingen worden correct weergegeven voor alle afzonderlijke ervaringen. (TGT-37301)
+* Oplossing van een probleem dat gevolgen had voor de [!DNL Adobe Target Premium] rapportage van [!UICONTROL Auto-Target] gebruikers vanaf 15 september om 14.30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd gebruikend of &quot;[!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie), worden de omzettingspercentages verkeerd gemeld. Er is momenteel geen bekend leveringsprobleem. Zie [Auto-Target rapportage](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) onder *Opgeloste problemen* in *bekende problemen en opgeloste problemen* voor informatie over het opnieuw synchroniseren en corrigeren van rapporten.
+* Er is een selecteerbare [!UICONTROL Last Updated At] kolom in de [!UICONTROL Catalog Search] tabel en een [!UICONTROL Last Updated At] filter toegevoegd. Deze verbetering bespaart tijd en inspanning omdat u niet elk individueel punt moet openen om te zien wanneer het laatst werd bijgewerkt en u kunt filtreren door datum de punten werden laatst bijgewerkt.
+
+   ![Laatst bijgewerkt bij kolom- en filterillustratie](/help/r-release-notes/assets/column-and-filter.png)
+
+* Er zijn updates aangebracht om de doelgebruikersinterface compatibel te maken met de toegankelijkheidsrichtlijnen [voor](https://www.w3.org/WAI/standards-guidelines/wcag/) webinhoud (Web Content Accessibility Guidelines 2.0 Level A and AA Success Criteria) (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
+* Verbeterde CSP-functies (Content Security Policy). (TGT-37035)
+* Introduceerde een manier om de cliëntcode als parameter voor klanten te specificeren die CNAME gebruiken. (TNT-38571)
+* [!DNL Adobe Experience Cloud] de documentatie gaat verder naar [!DNL Experience League]. In oktober gaan alle opmerkingen bij de release, artikelen, video&#39;s en zelfstudies van de huidige locatie `docs.adobe.com` naar [!DNL Experience League]. Deze beweging zorgt ervoor dat al het leren, zelfhulp, enablement, en communautaire inhoud van één enkele plaats wordt gediend. Wanneer deze wijziging optreedt, hoeft u niets te doen, aangezien alle koppelingen naar andere koppelingen worden omgeleid [!DNL Experience League]. De opmerkingen bij de release worden bijgewerkt wanneer de cutover begint.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
 | Resource | Details |
 |--- |--- |
-| [Opmerkingen bij de release - Doelserver-side API&#39;s](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Opmerkingen bij de release met betrekking tot API&#39;s van de Adobe Target-server. |
-| [Opmerkingen bij de release - Doel Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Release-aantekeningen met betrekking tot Adobe Target Node.js SDK. |
-| [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Opmerkingen bij de release met betrekking tot de Adobe Target Java SDK. |
-| [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek van Adobe Target at.js. |
-| [mbox.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | Op deze pagina worden wijzigingen in elke versie van mbox.js weergegeven.<br>De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. |
+| [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
-## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
+## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release Experience Cloud
 
 Naast de notities voor elke release bevatten de volgende bronnen aanvullende informatie:
 
