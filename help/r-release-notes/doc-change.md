@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2862'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 # Documentatiewijzigingen{#documentation-changes}
 
 Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productdocumentatie zijn aangebracht.
+
+## Adobe Target Standard/Premium 20.10.1 (28 oktober 2020)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 28 oktober | [Serverzijde: Doel implementeren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Toegevoegde koppeling naar het nieuwe *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* -portaal. |
+|  | [Maak een activiteit die Analytics als rapportbron gebruikt](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Toegevoegde informatie die verklaart dat als u gebruikt `analyticsLogging = client_side`, u de `sessionId` waarde aan [!DNL Analytics] wanneer het gebruiken van Analytics als rapporteringsbron (A4T) met Auto-Doelactiviteiten moet overgaan. |
+|  | [Analyses voor doelimplementatie](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Toegevoegde informatie verklarend dat voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten die `analyticsLogging = client_side`, u ook sessionId door:sturen. |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md)de release: 20.10.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 20.9.1 (30 september 2020)
 
