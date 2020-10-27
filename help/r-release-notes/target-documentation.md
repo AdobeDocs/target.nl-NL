@@ -5,9 +5,9 @@ title: Doelaankondigingen
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Hier volgt een korte beschrijving van de meest gangbare documentatietypen die be
 | [Adobe Target Developers](http://developers.adobetarget.com/) | Met informatie over de Adobe Target Developers-site kunt u onder andere toepassingen op de client, servertoepassingen, mobiele apps en IoT implementeren. [!DNL Target] U kunt uw [!DNL Target] gegevens ook naar oplossingen van derden exporteren. |
 | [Doel Recommendations API&#39;s](https://developers.adobetarget.com/api/recommendations/) | Informatie over [!UICONTROL Recommendations] APIs die u programmatically met [!DNL Target] aanbevelingenservers laten in wisselwerking staan. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de [!DNL Target] gebruikersinterface doet. |
 | [Server Side Delivery-API&#39;s](https://developers.adobetarget.com/api/delivery-api/) | Informatie over de bronnen waaruit de Adobe Target Delivery-API bestaat. |
-| [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | Informatie over Node.js SDK, een verfijnde uitrusting van de softwareontwikkeling die de ingewikkeldheid van het beheren van koekjes, zittingen, en het integreren met [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Target], [!DNL Adobe Analytics], [!DNL Experience Cloud Visitor ID Service], en [!DNL Audience Manager]. verwijdert. |
-| [Doel Java SDK](https://github.com/adobe/target-java-sdk) | Informatie over de SDK van Java, een geavanceerde software ontwikkelingskit die de complexiteit verwijdert van het beheren van cookies, sessies en het integreren met [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Target], [!DNL Adobe Analytics], de [!DNL Experience Cloud Visitor ID Service], en [!DNL Adobe Audience Manager]. |
+| [SDK&#39;s aan de serverzijde van het doel](https://adobetarget-sdks.gitbook.io/docs/) | Verklaart hoe te om [!DNL Target] serverkant op te stellen gebruikend SDKs. |
 | [Doel: Adobe.IO-documentatie](http://developers.adobetarget.com/api/#introduction) | Informatie over de API&#39;s Admin en Profile REST van Adobe Target die gebruikmaken van de Adobe.IO-integratie voor het beheer van activiteiten, publiek, aanbiedingen, eigenschappen, rapporten, vakken, omgevingen en profielen. |
 | [Adobe Experience Platform Mobile SDK&#39;s](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informatie over de implementatie [!DNL Target] op mobiele apps. |
 
