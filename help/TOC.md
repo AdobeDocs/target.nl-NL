@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,6 @@ ht-degree: 0%
       + [Locatieservice gebruiken](/help/c-target-mobile-app/use-location-service.md)
    + Serverzijde: Doel implementeren {#server-side}
       + [Serverzijde: Implementatie van doeloverzicht](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Opmerkingen bij de release - Doelserver-side API&#39;s](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Opmerkingen bij de release - Doel Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Opmerkingen bij de release - Doel Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Overgang van verouderde API&#39;s van Doel naar I/O van Adobe](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + [Hybride implementatie](/help/c-implementing-target/hybrid-implementation.md)
    + E-mail: Doel implementeren {#implement-email}
