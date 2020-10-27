@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -37,35 +37,17 @@ Koppeling: [Server Side Delivery-API&#39;s](https://developers.adobetarget.com/a
 
 Met de API voor [!DNL Target] aflevering kunt u:
 
-* Lever ervaringen over Web, met inbegrip van SPAs, en mobiele kanalen evenals niet browser gebaseerde IoT apparaten, zoals aangesloten TVs, kiosken, of in-store digitale schermen.
+* Lever ervaringen over het web, met inbegrip van SPA, en mobiele kanalen evenals niet-browser gebaseerde IoT apparaten, zoals aangesloten TVs, kiosken, of in-store digitale schermen.
 * Lever ervaringen van om het even welke server-zijplatform of toepassing die HTTP/s vraag kan maken.
 * Lever consistente en gepersonaliseerde ervaringen aan een bezoeker ongeacht welk kanaal of welke apparaten de bezoeker gebruikte om met uw zaken in gesprek te gaan.
 * De ervaringen van het geheime voorgeheugen voor een bezoeker binnen een zitting op uw server zodat de veelvoudige API vraag kan worden vermeden, die betere prestaties bereikt.
 * Naadloos integreren met [!DNL Adobe Experience Cloud] producten, zoals [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] (AAM), en [!DNL Experience Cloud ID Service] van de serverzijde.
 
-## Node.js SDK
+## Server Side SDK&#39;s
 
-Koppeling: [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
+Koppeling: [Adobe Target SDK&#39;s](https://adobetarget-sdks.gitbook.io/docs/)
 
-De SDK van Node.js is een geavanceerde softwareontwikkelingskit die de complexiteit van het beheren van cookies, sessies en het integreren met [!DNL Experience Cloud] producten, zoals [!DNL Analytics], [!DNL Experience Cloud Visitor ID Service]en [!DNL Audience Manager]. Achter de schermen gebruikt de SDK van Node.js de `/rest/v1/delivery` API. Hier volgen enkele belangrijke functies die worden ondersteund in de Node.js SDK:
-
-* **Ondersteuning voor prefetch en meldingen waarmee u de prestaties kunt optimaliseren via caching:** U kunt Node.js SDK gebruiken om ervaringen terug te winnen en hen plaatselijk op uw server Node.js in het voorgeheugen onder te brengen met als doel om servervraag aan te minimaliseren [!DNL Target] en uw toepassingsprestaties te optimaliseren.
-* **Capaciteit om VEC-gecreeerde activiteiten terug te winnen:** Haal VEC-gecreeerde activiteiten op server-kant terug. De reactie die VEC-gecreeerde activiteiten bevat heeft selecteurs die kunnen worden gebruikt om slechts gedeelten van uw pagina pre-te verbergen die moeten worden gepersonaliseerd. Hierdoor wordt de [eerste metrische](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)verf met behoud van inhoud van uw pagina geoptimaliseerd. Dit is een belangrijke PKI voor uw bedrijf om een hoge score te behalen in het [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -systeem.
-
-## Doel Java SDK
-
-Koppeling: [Doel Java SDK](https://github.com/adobe/target-java-sdk)
-
-De Java SDK is een geavanceerde softwareontwikkelkit waarmee de complexiteit van het beheren van cookies, sessies en het integreren met [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Adobe Analytics], de [!DNL Experience Cloud Visitor ID Service]en [!DNL Adobe Audience Manager]. Achter de schermen gebruikt de Java SDK de `/rest/v1/delivery` API. Hier volgen enkele belangrijke functies die worden ondersteund in de Java SDK:
-
-* **Ondersteuning voor prefetch en meldingen waarmee u de prestaties kunt optimaliseren via caching**: U kunt de JavaSDK gebruiken om ervaringen op te halen en deze lokaal in de cache op uw Java-server op te slaan om serveraanroepen naar uw toepassingsprestaties te minimaliseren [!DNL Target] en te optimaliseren.
-* **Capaciteit om VEC-gecreeerde activiteiten** terug te winnen: Haal VEC-gecreeerde activiteiten op server-kant terug. De reactie die VEC-gecreeerde activiteiten bevat heeft selecteurs die kunnen worden gebruikt om slechts gedeelten van uw pagina pre-te verbergen die moeten worden gepersonaliseerd. Zo kunt u de [eerste metrische gegevens voor inhoudelijke verf](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) van uw pagina optimaliseren. Dit is een belangrijke PKI voor uw bedrijf om een hoge score te behalen in het [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -systeem.
-
-## Adobe Target Developers
-
-Koppeling: [Adobe Target Developers](http://developers.adobetarget.com/)
-
-Op de Adobe Target Developers-site kunt u onder andere toepassingen op de client, servertoepassingen, mobiele apps en IoT implementeren. [!DNL Target] U kunt uw [!DNL Target] gegevens ook naar oplossingen van derden exporteren.
+Met de SDK-documentatieportal aan de [!DNL Adobe Target] serverzijde kunt u [!DNL Target] op uw servers naar keuze implementeren.
 
 ## Doel Recommendations API&#39;s
 
