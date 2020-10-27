@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
 
-## Target Standard/Premium 20.10.1 (28 oktober 2020)
+## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
 Deze release bevat de volgende nieuwe functies:
 
