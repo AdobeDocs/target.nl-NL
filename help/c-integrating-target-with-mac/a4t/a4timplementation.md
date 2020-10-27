@@ -5,9 +5,9 @@ title: Analyses voor doelimplementatie
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -43,21 +43,21 @@ Zie Overzicht [van](https://docs.adobe.com/content/help/en/analytics/implementat
 
 Zie [Migreren naar AppMeasurement voor JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) in de *handleiding* voor analysetransplementatie voor een migratie.
 
-## Stap 5: Downloaden en bijwerken om.js of mbox.js
+## Stap 5: Downloaden en bijwerken om.js
 
-U moet de vereiste versie van at.js of mbox.js implementeren of migreren met uw productieaccount. De code hoeft niet te worden gewijzigd.
+U moet de vereiste versie van at.js implementeren of migreren met uw productieaccount. De code hoeft niet te worden gewijzigd.
 
 Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
 
-## Stap 6: Host at.js of mbox.js
+## Stap 6: Host om.js
 
-Als u eerder om.js of mbox.js opstelde, kunt u uw bestaand dossier met de bijgewerkte versie vervangen. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
+Als u eerder om.js opstelde, kunt u uw bestaand dossier met de bijgewerkte versie vervangen. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
 
 Anders kan dit bestand worden gehost samen met de bezoekersidentiteitsservice en AppMeasurement voor JavaScript-bestanden. Deze bestanden moeten worden gehost op een webserver die toegankelijk is voor alle pagina&#39;s op uw site. U hebt het pad naar deze bestanden nodig in de volgende stap.
 
-## Stap 7: Verwijzing om.js of mbox.js op alle plaatspagina&#39;s {#step7}
+## Stap 7: Referentie om.js op alle sitepagina&#39;s {#step7}
 
-Neem at.js of mbox.js op onder VisitorAPI.js door de volgende coderegel toe te voegen aan de tag op elke pagina:
+Neem de code at.js onder VisitorAPI.js op door de volgende coderegel toe te voegen aan de tag op elke pagina:
 
 Voor at.js:
 
@@ -66,14 +66,7 @@ Voor at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-Voor mbox.js:
-
-```
-<script language="JavaScript" type="text/javascript"
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
-```
-
-Het is van essentieel belang dat VisitorAPI.js vóór at.js of mbox.js wordt geladen. Als u een bestaand bestand van het type at.js of mbox.js bijwerkt, moet u de laadvolgorde controleren.
+Het is van essentieel belang dat VisitorAPI.js vóór at.js wordt geladen. Als u een bestaand bestand van het type at.js of mbox.js bijwerkt, moet u de laadvolgorde controleren.
 
 De manier de uit-van-de-doos montages voor [!DNL Target] en [!DNL Analytics] integratie vanuit een implementatieperspectief wordt gevormd is SDID te gebruiken die van de pagina wordt overgegaan om het [!DNL Target] en [!DNL Analytics] verzoek samen op de achtergrond automatisch voor u te verbinden.
 
@@ -98,7 +91,7 @@ Deze opstelling heeft een globaal effect, zo betekent het dat elke vraag die doo
 }
 ```
 
-De payload kan vervolgens naar Analytics worden doorgestuurd via de API [voor het invoegen van](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)gegevens.
+De payload kan vervolgens naar Analytics worden doorgestuurd via de API [voor het invoegen van](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)gegevens. Merk op dat, voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten u ook sessionId zult moeten door:sturen. Zie [Adobe Analytics for Target (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) in de *Adobe Target Delivery API Guide voor meer informatie*
 
 Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, kunt u de functie at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) gebruiken om dit te bereiken door **analyticsLogging door te geven: &quot;client_side&quot;**. De analytische lading zal voor slechts deze vraag worden teruggekeerd en de [!DNL Target] backend zal niet de nuttige lading aan [!DNL Analytics]. door:sturen. Door deze benadering na te streven, zal elk [!DNL Target] verzoek at.js niet de lading door gebrek terugkeren, maar in plaats daarvan slechts wanneer gewenst en gespecificeerd.
 
@@ -162,7 +155,7 @@ De lading kan dan aan [!DNL Analytics] via de Invoeging van [Gegevens API](https
 
 Laad uw pagina&#39;s nadat u de JavaScript-bibliotheken hebt bijgewerkt om te bevestigen dat de `mboxMCSDID` parameterwaarden in [!DNL Target] aanroepen overeenkomen met de `sdid` parameterwaarde in de [!DNL Analytics] paginaweergaveaanroep.
 
-Dit is vooral belangrijk om in de Toepassingen van de Enige Pagina (SPAs) te bevestigen waar de orde van vraag niet altijd voorspelbaar is.
+Dit is vooral belangrijk om in de Toepassingen van de Enige Pagina (SPA) te bevestigen waar de orde van vraag niet altijd voorspelbaar is.
 
 **Opmerking:** Een4T werkt alleen correct als deze waarden overeenkomen.
 
