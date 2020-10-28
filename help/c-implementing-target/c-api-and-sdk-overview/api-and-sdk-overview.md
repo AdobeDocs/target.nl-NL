@@ -1,14 +1,14 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Informatie over Adobe Target API's voor levering aan de server, Node.js SDK en Target Recommendations API's.
+description: Informatie over Adobe Target API's voor levering aan de server, SDK's en doel-Recommendations API's.
 title: Informatie over Adobe Target API's voor levering aan de server, Node.js SDK en Target Recommendations API's.
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Serverzijde: Doel implementeren{#server-side-implement-target}
 
-Informatie over API&#39;s voor levering aan de [!DNL Adobe Target] serverzijde, Node.js SDK en [!DNL Target Recommendations] API&#39;s.
+Informatie over levering-APIs aan de [!DNL Adobe Target] [!DNL Target Recommendations] server-kant, SDKs, en APIs.
 
 Het volgende proces komt in een server-zijimplementatie van voor [!DNL Target]:
 
@@ -26,6 +26,10 @@ Het volgende proces komt in een server-zijimplementatie van voor [!DNL Target]:
 1. Uw server bepaalt welke ervaring om aan het cliëntapparaat te leveren voor het terug te geven.
 
 De ervaring hoeft niet in een browser te worden weergegeven. De ervaring kan in een e-mail of kiosk, via een stemmedewerker, of door één of andere andere niet-visuele ervaring of niet op browser-gebaseerd apparaat tonen. Omdat uw server tussen de cliënt en [!DNL Target], is dit type van implementatie ook ideaal als u grotere controle en veiligheid nodig hebt of complexe backendprocessen hebt die u op uw server wilt lopen.
+
+>[!NOTE]
+>
+>Een nieuwe bezoeker kan alleen op de client worden geïnitialiseerd. Een nieuwe bezoeker *kan niet* worden geïnitialiseerd op de server.
 
 De volgende secties verstrekken meer informatie over diverse APIs en NodeJS SDK:
 
