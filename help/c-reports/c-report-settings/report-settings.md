@@ -5,9 +5,9 @@ title: Rapportinstellingen
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Klik **[!UICONTROL Custom Dates]** om vooraf gedefinieerde datumbereiken te sele
 Rapporten hebben de volgende datumbeperkingen:
 
 * De begindatum van het verslag moet binnen de laatste twee jaar liggen.
-* Dagelijkse rapporten zijn beperkt tot 100 dagen.
+* De groepsrapporten van de aanbieding zijn beperkt tot 99 dagen vanaf heden.
 * Uurmeldingen zijn beperkt tot 15 dagen.
 
 ## Instellingen {#section_D99CE462107D45CABE0960F820E1E972}
