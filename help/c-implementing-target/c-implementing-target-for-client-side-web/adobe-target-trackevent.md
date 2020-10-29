@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
+source-git-commit: a5a84e96ea3498140f4e0c9af4f75ec674bbf4b8
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Hier volgen de API-details:
 
 | Sleutel | Type | Vereist | Beschrijving |
 |--- |--- |--- |--- |
-| mbox | String | Ja | Mbox <br>**nameNote**: Als een trackEvent()-aanroep wordt geactiveerd met een naam van een box die al op de pagina is geactiveerd, wordt de SDID van trackEvent() opnieuw ingesteld en verschilt deze van de aanroepen van Target op de pagina. Als u echter een trackEvent()-aanroep met een andere naam mbox afvuurt, blijft de SDID van de trackEvent()-aanroepen consistent met de aanroepen van Page Load Request/triggerView() op de pagina. |
+| mbox | String | Ja | Mbox <br>**nameNote**: Als een trackEvent()-aanroep wordt geactiveerd met een naam van een box die al op de pagina is geactiveerd, wordt de SDID van trackEvent() opnieuw ingesteld en verschilt deze van de aanroepen van Target op de pagina. Als u echter een trackEvent()-aanroep met een andere naam mbox afvuurt, blijft de SDID van de trackEvent()-aanroep consistent met de aanroepen van Page Load Request/triggerView() op de pagina. |
 | kiezer | String | Nee | CSS-kiezers die worden gebruikt om de HTML-elementen te zoeken. De gebeurtenislisteners worden aan gevonden elementen gekoppeld. |
 | type | String | Nee | Vertegenwoordigt een geregistreerd gebeurtenistype. Dit kunnen beide bekende HTML-gebeurtenissen zijn, zoals: klikken, mousedown, enz., evenals de gebeurtenissen van douaneHTML. |
 | preventDefault | Boolean | Nee | Geeft aan of moet worden gebruikt `event.preventDefault()` in de callback van de gebeurtenislistener. De standaardwaarde is false.<br>**Opmerking**: Alleen `form[submit] and `[klikken]wordt ondersteund. Andere scenario&#39;s worden niet gesteund wegens ingewikkeldheid en enorme hoeveelheid te steunen scenario&#39;s. |
