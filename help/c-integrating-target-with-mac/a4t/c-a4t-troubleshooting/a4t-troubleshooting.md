@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,11 @@ Hoewel deze metriek negatief zijn, wordt de lift getoond alsof zij in de rapport
 
 ## De rapportsuite die ik nodig heb, wordt niet weergegeven. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-De lijst van rapportsuites die in Standaard Target/Premium verschijnt is de lijst van rapportsuites die voor Analytics als rapporteringsbron voor Doel zijn gevormd. Dit betekent dat u niet elke rapportsuite ziet die u hebt. Als u niet de rapportreeks ziet u zoekt, zou u de Zorg van de Cliënt moeten contacteren om het toegelaten te krijgen.
+De lijst van rapportsuites die in Standaard Target/Premium verschijnt is de lijst van rapportsuites die voor Analytics als rapporteringsbron voor Doel zijn gevormd. Dit betekent dat u niet elke rapportsuite ziet die u hebt.
+
+Ook, als u veelvoudige rapporteringsbronnen gebruikt MOET de rapportreeksen in de standaard rapporteringsbron aanwezig zijn die in Doel eveneens wordt geplaatst. Anders worden de rapporten niet weergegeven.
+
+Als u nog steeds de rapportsuite die u zoekt niet ziet, dient u contact op te nemen met de klantenservice om deze in te schakelen.
 
 ## Ik zie niet zoveel gegevens in rapporten als verwacht. {#section_75002584FA63456D8D9086172925DD8D}
 
