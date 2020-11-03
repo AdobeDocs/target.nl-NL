@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '2879'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 3 november | [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Bijgewerkt het volgende het oplossen van problemenonderwerp: &quot;De rapportsuite die ik nodig heb, wordt niet weergegeven.&quot; |
 | 28 oktober | [Serverzijde: Doel implementeren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Opmerking toegevoegd: voor het eerst kunnen bezoekers alleen aan de clientzijde worden geïnitialiseerd, niet aan de serverzijde. |
 | 27 oktober | [Serverzijde: Doel implementeren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Toegevoegde koppeling naar het nieuwe *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* -portaal. |
 |  | [Maak een activiteit die Analytics als rapportbron gebruikt](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Toegevoegde informatie die verklaart dat als u gebruikt `analyticsLogging = client_side`, u de `sessionId` waarde aan [!DNL Analytics] wanneer het gebruiken van Analytics als rapporteringsbron (A4T) met Auto-Doelactiviteiten moet overgaan. |
