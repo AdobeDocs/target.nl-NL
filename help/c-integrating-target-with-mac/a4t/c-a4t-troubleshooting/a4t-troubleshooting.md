@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,11 @@ Hoewel deze metriek negatief zijn, wordt de lift getoond alsof zij in de rapport
 
 ## De rapportsuite die ik nodig heb, wordt niet weergegeven. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-De lijst van rapportsuites die in Standaard Target/Premium verschijnt is de lijst van rapportsuites die voor Analytics als rapporteringsbron voor Doel zijn gevormd. Dit betekent dat u niet elke rapportsuite ziet die u hebt.
+De lijst van rapportreeksen die in verschijnt [!DNL Target Standard/Premium] is de lijst van rapportreeksen die voor [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T) zijn gevormd. Dit betekent dat u niet elke rapportsuite ziet die u hebt.
 
-Ook, als u veelvoudige rapporteringsbronnen gebruikt MOET de rapportreeksen in de standaard rapporteringsbron aanwezig zijn die in Doel eveneens wordt geplaatst. Anders worden de rapporten niet weergegeven.
+Bovendien, als u veelvoudige rapporteringsbronnen gebruikt, moeten de rapportreeksen in de standaard rapporteringsbron aanwezig zijn die in [!DNL Target] eveneens wordt geplaatst; anders worden de rapporten niet weergegeven .
 
-Als u nog steeds de rapportsuite die u zoekt niet ziet, dient u contact op te nemen met de klantenservice om deze in te schakelen.
+Als u nog steeds de rapportsuite die u zoekt niet ziet, neemt u contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om deze in te schakelen.
 
 ## Ik zie niet zoveel gegevens in rapporten als verwacht. {#section_75002584FA63456D8D9086172925DD8D}
 
