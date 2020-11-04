@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Automatische personalisatie leert alleen en vereist een minimale menselijke anal
 
 ### Automatisch doel
 
-[Auto-Target voor persoonlijke ervaringen](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) maakt gebruik van geavanceerd computerleren om meerdere, hoogpresterende, door de markator gedefinieerde ervaringen te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
+[Auto-Target](/help/c-activities/auto-target-to-optimize.md) maakt gebruik van geavanceerd leren van de machine om meerdere high-performance markerings-gedefinieerde ervaringen te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
 
 ### Recommendations
 
