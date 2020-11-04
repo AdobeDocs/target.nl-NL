@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Gebruik onze [rapporten om de winnende ervaring](../c-activities/automated-traff
 
 **Kan ik een activiteit uitvoeren met een niveau van personalisatie als integraal deel van de activiteit?**
 
-Schakel de optie [Automatisch doel](/help/c-activities/auto-target-to-optimize.md) uit.
+Schakel de optie [Automatisch doel](/help/c-activities/auto-target/auto-target-to-optimize.md) uit.
 
 **Hoe kan ik weten welk type activiteit het beste bij mijn behoeften past?**
 
@@ -120,7 +120,7 @@ Dat is ook mogelijk. Met de optie Opslaan [kunt u eenvoudig stapsgewijze wijzigi
 
 **Hoe kan ik een voorvertoning weergeven van een activiteit die ik zojuist heb gemaakt en een kwaliteitscontrole uitvoeren?**
 
-Gebruik onze [krachtige functie](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) van de Wijze QA om QA uit te voeren. U kunt verbindingen met uw team delen QA en ook de activiteit van begin tot eind, met inbegrip van het melden testen, om volledig zeker te zijn dat nadat de activiteit levend is, het zoals bedoeld en zoals getest werkt.
+Gebruik onze [krachtige functie](/help/c-activities/c-activity-qa/activity-qa.md) van de Wijze QA om QA uit te voeren. U kunt verbindingen met uw team delen QA en ook de activiteit van begin tot eind, met inbegrip van het melden testen, om volledig zeker te zijn dat nadat de activiteit levend is, het zoals bedoeld en zoals getest werkt.
 
 **Hoe kan ik de beslissingskracht van Target gebruiken om een ervaring/aanbieding te ontvangen die kan worden gebruikt in toepassingen voor één pagina (SPA) of integratie op de server?**
 
@@ -167,7 +167,7 @@ Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Klantkenmerken](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [Soorten publiek](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Soorten publiek](/help/c-integrating-target-with-mac/mmp.md)
 
 ## Ervaringen {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Bekijk de volgende aspecten van het product:
 
 * [Klantkenmerken](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [Soorten publiek](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Soorten publiek](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **Kan ik het melden op veelvoudige gebruikerssegmenten segmenteren en verduisteren?**
