@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -20,7 +20,7 @@ U kunt voorvertonings-URL&#39;s genereren voor Target Automated Personalization-
 
 >[!NOTE]
 >
->De voorvertoning-URL&#39;s voor Automated Personalization verschillen van de modus Activiteit-QA. Met de modus Activiteit-QA kunt u Activiteiten-URL&#39;s maken voor andere typen activiteiten. Zie [Activiteit QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)voor meer informatie.
+>De voorvertoning-URL&#39;s voor Automated Personalization verschillen van de modus Activiteit-QA. Met de modus Activiteit-QA kunt u Activiteiten-URL&#39;s maken voor andere typen activiteiten. Zie [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md)voor meer informatie.
 >
 >De voorproef URLs van de ervaring voor AP activiteiten zijn slechts beschikbaar wanneer het gebruiken van at.js 1.x. De voorproef URLs van de ervaring voor AP activiteiten wordt momenteel niet gesteund voor at.js 2.x.
 
