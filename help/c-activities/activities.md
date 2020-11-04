@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een over
 |--- |--- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | Bij het testen van A/B worden twee of meer versies van de inhoud van uw website vergeleken om te zien welke versie het beste uw omzettingen tijdens een vooraf gespecificeerde testperiode verbetert.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in de A/B-testactiviteiten](/help/c-recommendations/recommendations-as-an-offer.md). Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
 | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Met Automatisch toewijzen wordt een winnaar geïdentificeerd aan de hand van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversie toeneemt terwijl de test nog steeds wordt uitgevoerd en opgedaan.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md)voor automatisch toewijzen. Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
-| [Auto-](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoTarget maakt gebruik van geavanceerd computerleren om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in Auto-Target-activiteiten](/help/c-recommendations/recommendations-as-an-offer.md). Voor deze functionaliteit is een This-functionaliteit vereist dat u een [Target Premium-licentie](/help/c-intro/intro.md#premium)hebt. |
+| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoTarget maakt gebruik van geavanceerd computerleren om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in Auto-Target-activiteiten](/help/c-recommendations/recommendations-as-an-offer.md). Voor deze functionaliteit is een This-functionaliteit vereist dat u een [Target Premium-licentie](/help/c-intro/intro.md#premium)hebt. |
 | [Analytische gegevens](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) gebruiken (A4T) | U kunt een activiteit vormen om als rapporteringsbron te gebruiken [!DNL Adobe Analytics] . Voor dit type activiteit is het vereist dat u uw [!DNL Adobe Experience Cloud] account koppelt aan zowel [!DNL Analytics] als [!DNL Target]. |
 | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft. |
 | [Gericht op ervaring](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md)Experience Targeting. Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
@@ -108,9 +108,9 @@ U kunt filteren op de volgende opties. Als er in elke categorie niets is geselec
 
 | Filtercategorie | Filter |
 |--- |--- |
-| Type | A/B-test: [Handmatig](/help/c-activities/t-test-ab/test-ab.md), [automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)en [automatisch toewijzen](/help/c-activities/auto-target-to-optimize.md).<br>[Geautomatiseerde](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[PersonalizationExperience](/help/c-activities/t-experience-target/experience-target.md)<br>[TargetingMultivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[TestRecommendations](/help/c-recommendations/recommendations.md) |
+| Type | A/B-test: [Handmatig](/help/c-activities/t-test-ab/test-ab.md), [automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)en [automatisch toewijzen](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Geautomatiseerde](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[PersonalizationExperience](/help/c-activities/t-experience-target/experience-target.md)<br>[TargetingMultivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[TestRecommendations](/help/c-recommendations/recommendations.md) |
 | Status | <br><br><br><br><br><br>LiveDraftScheduledInactiveSyncingEndedArchived |
-| Bron rapporteren | <br>TargetAnalytics |
+| Rapportagebron | <br>TargetAnalytics |
 | Experience Composer | Op<br>VisualForm gebaseerd |
 | Type statistieken | <br><br>ConversionRevenueEngagement |
 | Activiteitsbron | Adobe<br>TargetAdobe Target<br>ClassicAdobe Experience<br>ManagerAdobe Mobile Services |
