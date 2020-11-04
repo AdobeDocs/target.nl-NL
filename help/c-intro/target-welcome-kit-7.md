@@ -4,7 +4,7 @@ description: Adobe Target-welkomstkit - Hoofdstuk 7 - Uw eerste doelactiviteit m
 title: Adobe Target-welkomstkit - Hoofdstuk 7 - Uw eerste doelactiviteit maken en uitvoeren
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Voorbeeld: Een luchtvaartmaatschappij richt haar leden op platina-niveau aan met
 
 ## Route 3: Toepassing van AI en automatisering om op grote schaal individuele bezoekers te personaliseren
 
-U kunt een door AI aangedreven activiteit opzetten om de beste ervaring van verscheidene voor elke bezoeker te leveren door eenvoudig [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) in de tweede stap van de A/B testopstellingswerkschema te selecteren. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder handig zijn als u niet weet welke ervaring geschikt is voor verschillende bezoekers. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
+U kunt een door AI aangedreven activiteit opzetten om de beste ervaring van verscheidene voor elke bezoeker te leveren door eenvoudig [Auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) in de tweede stap van de A/B testopstellingswerkschema te selecteren. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder handig zijn als u niet weet welke ervaring geschikt is voor verschillende bezoekers. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
 
 Voorbeeld: Een telco die meerdere telefoonmerken en -modellen verkoopt, schakelt Auto-Target in om automatisch te leren en machinaal leren te gebruiken om te bepalen welke van vier verschillende ervaringen of aanbiedingen op zijn homepage of mobiele app het openingsscherm het best met zijn grote verscheidenheid van bezoekers zal resoneren.
 
