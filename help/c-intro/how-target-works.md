@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee o
 
 ### Auto-Target (AT)
 
-Zie [Auto-Target](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) voor meer informatie.
+Zie [Auto-Target](/help/c-activities/auto-target-to-optimize.md) voor meer informatie.
 
 Auto-Target maakt gebruik van geavanceerd computerleren om uit meerdere, hoogpresterende, door de markator gedefinieerde ervaringen te kiezen en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
 
