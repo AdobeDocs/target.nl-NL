@@ -6,19 +6,19 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3344'
 ht-degree: 0%
 
 ---
 
 
-# Automatisch toewijzen{#auto-allocate}
+# Overzicht van automatisch toewijzen
 
 Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversies toenemen terwijl de test nog steeds wordt uitgevoerd en opgedaan.
 
-Tijdens het [maken van een A/B-activiteit met behulp van de driestappenworkflow](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)met instructies kunt u de [!UICONTROL Auto-Allocate to Best Experience] optie kiezen.
+Tijdens het maken van een A/B-activiteit met behulp van de driestappe geleide workflow kunt u de [!UICONTROL Auto-Allocate to best experience] optie kiezen.
 
 ## De uitdaging {#section_85D5A03637204BACA75E19646162ACFF}
 
