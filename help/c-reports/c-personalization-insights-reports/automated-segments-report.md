@@ -5,7 +5,7 @@ title: Rapport Automated Segments
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
 ## Heb toegang tot het Geautomatiseerde rapport van Segmenten {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) - of [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) -activiteit.
+1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) - of [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -activiteit.
 
    Als u vele activiteiten hebt, kunt u de lijst filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
 
@@ -145,19 +145,19 @@ Er zijn verscheidene potentiële redenen waarom u meer bezoeken aan een laag-omz
 * Ondermaatse activiteiten waarbij bepaalde aanbiedingen/ervaringen geen modellen hebben, of modellen die eerder zijn ontwikkeld voor sommige aanbiedingen/ervaringen dan andere.
 * Gerichte regels voor een specifieke aanbieding die de bezoekers de grenzen van hun aanbiedingen/ervaringen beperken.
 
-**Is de informatie in de[!UICONTROL Automated Segments]en[!UICONTROL Important Attributes]rapporten het zelfde als in de download CSV?**
+**Is de informatie in de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten het zelfde als in de download CSV?**
 
 Nr, bevat het UI rapport uitgezochte informatie. De CSV-download bevat aanvullende gegevens. De geautomatiseerde het rapportdownload van de Inzichten van het Segment omvat extra Geautomatiseerde Segmenten voorbij de hoogste segmenten inbegrepen in UI, samen met hoe die segmenten tegen uw aanbiedingen of ervaringen uitvoerden. Het rapport Belangrijke kenmerken bevat de bovenste 100 bezoekerskenmerken en hun relatieve belang, terwijl de gebruikersinterface alleen de bovenste 10 bezoekerskenmerken bevat.
 
-**Kan ik zien[!UICONTROL Personalization Insights]voor een aangepast datumbereik?**
+**Kan ik zien [!UICONTROL Personalization Insights] voor een aangepast datumbereik?**
 
 De rapportage van persoonlijke inzichten (zowel [!UICONTROL Automated Segments] als [!UICONTROL Important Attributes]) is alleen beschikbaar voor vaste datumbereiken: 15 dagen, 30 dagen, 45 dagen, 60 dagen en 90 dagen. Met deze vaste datumbereiken kunt u een groot genoeg gegevensbereik gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. [!UICONTROL Personalization Insights] U kunt deze tijdsduur voor om het even welke einddatum selecteren (waar deze genoeg gegevens in de activiteit zijn om aan de duur te voldoen).
 
-**Hoe wordt het[!UICONTROL Personalization Insights]gemaakt?**
+**Hoe wordt het [!UICONTROL Personalization Insights] gemaakt?**
 
 [!UICONTROL Personalization Insights] wordt gecreeerd gebruikend een Adobe octrooi-hangende techniek genoemd MAGIX (ModelAgnostic globally Interpretable Verklaringen). Meer informatie over MAGIX vindt u in het gepubliceerde artikel van het onderzoeksteam van Adobe op de website [arXiv.org](https://arxiv.org/abs/1706.07160).
 
-**Waarom passen de totale gegevens van het bezoekersverkeer in het[!UICONTROL Automated Segments]rapport niet mijn AP of bij Samenvatting/het rapport van Prestaties aan?**
+**Waarom passen de totale gegevens van het bezoekersverkeer in het [!UICONTROL Automated Segments] rapport niet mijn AP of bij Samenvatting/het rapport van Prestaties aan?**
 
 In de [!UICONTROL Personalization Insights] rapporten zijn alleen bezoekers opgenomen die een stuk inhoud hebben gezien dat door de personalisatiemodellen van Target is geselecteerd (d.w.z. dat er geen rekening wordt gehouden met verkeer of verkeer dat door het algemene winnersmodel wordt bediend). Dit verkeerstype wordt genoemd &quot;gepersonaliseerd&quot;verkeer. Het summiere prestatiesrapport in AP/AT omvat controle tegenover &quot;gericht&quot;verkeer. Het gerichte verkeer omvat gepersonaliseerd verkeer, evenals verkeer dat gebruikend het algemene windenermodel en wat willekeurig bediende verkeer werd gediend dat werd gebruikt om verder te leren.
 
@@ -165,7 +165,7 @@ In de [!UICONTROL Personalization Insights] rapporten zijn alleen bezoekers opge
 
 Nee, er is sprake van overlapping tussen de geautomatiseerde segmenten.
 
-**Is[!UICONTROL Personalization Insights]beschikbaar voor op opbrengst-gebaseerde modelleringsdoelstellingen/primair doel?**
+**Is [!UICONTROL Personalization Insights] beschikbaar voor op opbrengst-gebaseerde modelleringsdoelstellingen/primair doel?**
 
 Op dit moment [!UICONTROL Personalization Insights] is deze optie alleen beschikbaar voor doelactiviteiten voor conversie. In een toekomstige release zullen we ondersteuning toevoegen voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
 
