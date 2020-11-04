@@ -5,9 +5,9 @@ title: Analyses voor doelimplementatie
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Deze opstelling heeft een globaal effect, zo betekent het dat elke vraag die doo
 }
 ```
 
-De payload kan vervolgens naar Analytics worden doorgestuurd via de API [voor het invoegen van](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)gegevens. Merk op dat, voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten u ook sessionId zult moeten door:sturen. Zie [Adobe Analytics for Target (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) in de *Adobe Target Delivery API Guide voor meer informatie*
+De payload kan vervolgens naar Analytics worden doorgestuurd via de API [voor het invoegen van](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)gegevens. Merk op dat, voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten u ook sessionId zult moeten door:sturen. Zie [Analytics for Target (A4T) reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) in the *Adobe Target SDKs* guide voor meer informatie.
 
 Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, kunt u de functie at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) gebruiken om dit te bereiken door **analyticsLogging door te geven: &quot;client_side&quot;**. De analytische lading zal voor slechts deze vraag worden teruggekeerd en de [!DNL Target] backend zal niet de nuttige lading aan [!DNL Analytics]. door:sturen. Door deze benadering na te streven, zal elk [!DNL Target] verzoek at.js niet de lading door gebrek terugkeren, maar in plaats daarvan slechts wanneer gewenst en gespecificeerd.
 
