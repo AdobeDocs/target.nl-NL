@@ -5,7 +5,7 @@ title: Rapportinstellingen
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
@@ -265,7 +265,7 @@ De standaardvolgorde waarin de grafiek wordt uitgezet is als volgt:
 
 Houd rekening met het volgende terwijl u werkt met de opties voor telmethoden:
 
-* Voor [Auto-Target-activiteiten](/help/c-activities/auto-target-to-optimize.md)is er geen optie om &quot;Bezoekers&quot; te selecteren als telmethode. Auto-Doel is het enige type activiteit dat u niet door bezoekers kunt plotten.
+* Voor [Auto-Target-activiteiten](/help/c-activities/auto-target/auto-target-to-optimize.md)is er geen optie om &quot;Bezoekers&quot; te selecteren als telmethode. Auto-Doel is het enige type activiteit dat u niet door bezoekers kunt plotten.
 * Voor activiteiten die [Analytics als rapporteringsbron (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)gebruiken, kunt u Bezoeker, Bezoek, of Indrukking niet cumulatief plotten.
 
 ## Werken met grafieken met meer dan 16 ervaringen in de activiteit
