@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit
 
-U kunt een willekeurig bediende ervaring selecteren of een specifieke ervaring die als controle moet worden gebruikt terwijl het creëren van een activiteit van [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of van het [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) (AT).
+U kunt een willekeurig bediende ervaring selecteren of een specifieke ervaring die als controle moet worden gebruikt terwijl het creëren van een activiteit van [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of van het [Auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Deze eigenschap laat u het controleverkeer aan de relevante ervaringen leiden, die op het percentage van de verkeerstoewijzing worden gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die controle dan evalueren.
 
