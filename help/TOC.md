@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 0%
       + [Een activiteit voor automatisch toewijzen maken](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner.md)
       + [Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [Automatisch doel](c-activities/auto-target-to-optimize.md)
+   + Automatisch doel {#auto-target}
+      + [Overzicht van automatisch doel](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Een automatisch doelactiviteit maken](/help/c-activities/auto-target/create-auto-target.md)
+      + [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization-overzicht](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
