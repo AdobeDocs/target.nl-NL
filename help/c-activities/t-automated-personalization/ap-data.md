@@ -5,7 +5,7 @@ title: Gegevensverzameling voor Adobe Target-verpersoonlijkingsalgoritmen
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Het doel verzamelt en gebruikt automatisch een verscheidenheid van gegevens om zijn verpersoonlijkingsalgoritmen in de activiteiten van Automated Personalization (AP) en Auto-Target (AT) te bouwen. Wanneer een bezoeker de AP of activiteit van AT ingaat, wordt een momentopname van informatie overgegaan tot een reeks &quot;opleidingsverslagen&quot;(de bezoekersgegevens die de verpersoonlijkingsalgoritmen zullen leren).
 
-Meer over de de verpersoonlijkingsalgoritmen van het Doel leren, zie [Willekeurig Bosalgoritme](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Meer over de de verpersoonlijkingsalgoritmen van het Doel leren, zie [Willekeurig Bosalgoritme](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-In de volgende tabel worden standaard de gegevens weergegeven die door Automated Personalization en Auto-Target zijn verzameld, zonder dat de markeerstift iets hoeft te doen. Daarnaast ziet u ook de naamgevingsconventie die wordt gebruikt om deze kenmerken aan te geven in [Persoonlijke inzichten](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). U kunt de invoergegevensset op elk gewenst moment uitbreiden. Voor meer over hoe te om extra gegevens te uploaden, zie het [Uploaden van Gegevens voor de Algoritmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)van de Aanpassing van het Doel.
+In de volgende tabel worden standaard de gegevens weergegeven die door Automated Personalization en Auto-Target zijn verzameld, zonder dat de markeerstift iets hoeft te doen. Daarnaast ziet u ook de naamgevingsconventie die wordt gebruikt om deze kenmerken aan te geven in [Persoonlijke inzichten](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). U kunt de invoergegevensset op elk gewenst moment uitbreiden. Voor meer over hoe te om extra gegevens te uploaden, zie het [Uploaden van Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)van de Aanpassing van het Doel.
 
 | Gegevenstype | Beschrijving | Naamgevingsconventie voor gegevenstypen | Voorbeeldkenmerken |
 | --- | --- | --- | --- |
