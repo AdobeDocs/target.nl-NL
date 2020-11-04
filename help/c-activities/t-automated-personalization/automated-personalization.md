@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Op dezelfde manier als [!UICONTROL Auto-Target], gebruikt [!UICONTROL Automated Personalization] een Willekeurig Bos algoritme, een belangrijke methode van de gegevenswetenschap ensemble, als zijn belangrijkste verpersoonlijkingsalgoritme om de beste ervaring te bepalen om een bezoeker te tonen. [!UICONTROL Automated Personalization] kan waardevol zijn in de detectiefase van het testen. Het is ook handig om machinaal leren toe te staan om de meest effectieve inhoud te bepalen wanneer verschillende bezoekers zich hierop richten. In tijd, leert het algoritme om de meest efficiënte inhoud te voorspellen en toont de inhoud het meest waarschijnlijk om uw doelstellingen te bereiken.
 
-Voor meer informatie over hoe [!UICONTROL Automated Personalization] verschilt van [!UICONTROL Auto-Target], zie [auto-Doel](/help/c-activities/auto-target-to-optimize.md).
+Voor meer informatie over hoe [!UICONTROL Automated Personalization] verschilt van [!UICONTROL Auto-Target], zie [auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Marketers implementeren één bestand op hun site, zodat ze met de VEC ([!UICONTROL Visual Experience Composer]) naar inhoud kunnen wijzen en erop kunnen klikken en vervolgens visueel aanvullende inhoudsopties voor dat gebied kunnen maken en selecteren. Vervolgens bepaalt het algoritme automatisch welk stuk inhoud aan elke individuele bezoeker moet worden geleverd op basis van alle gedragsgegevens die het systeem over die bezoeker heeft, wat een gepersonaliseerde ervaring oplevert. Omdat [!UICONTROL Automated Personalization] kan aanpassen aan wijzigingen in het gedrag van bezoekers, kan het zonder een vastgestelde einddatum worden uitgevoerd om voortdurende lift en verpersoonlijking te verstrekken. Dit wordt soms ook wel de &quot;always-on&quot;-modus genoemd. De markeerteken hoeft geen test uit te voeren, de resultaten te analyseren en vervolgens een winnaar te leveren voordat de lift wordt gerealiseerd die uit optimalisatie is gevonden. Dit is een standaardvolgorde voor bewerkingen om het resultaat van een standaard A/B-activiteit te implementeren.
 
@@ -33,14 +33,14 @@ De volgende termen zijn handig wanneer u discussieert over [!UICONTROL Automated
 | Term | Definitie |
 |---|---|
 | Meervoudig bewapende bandit | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
-| Willekeurig bos | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen op basis van bezoekers en bezoekkenmerken. Binnen Target wordt het Willekeurige bos gebruikt om te bepalen welke ervaring naar verwachting de hoogste waarschijnlijkheid van omzetting (of hoogste opbrengst per bezoek) voor elke specifieke bezoeker zal hebben. Voor meer informatie over Willekeurig bos in Doel, zie [Willekeurig Bosalgoritme](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
+| Willekeurig bos | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen op basis van bezoekers en bezoekkenmerken. Binnen Target wordt het Willekeurige bos gebruikt om te bepalen welke ervaring naar verwachting de hoogste waarschijnlijkheid van omzetting (of hoogste opbrengst per bezoek) voor elke specifieke bezoeker zal hebben. Voor meer informatie over Willekeurig bos in Doel, zie [Willekeurig Bosalgoritme](/help/c-activities/t-automated-personalization/algo-random-forest.md). |
 | Thompson Sampling | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. Zie [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling)voor meer informatie. |
 
 Houd rekening met de volgende details wanneer u [!UICONTROL Automated Personalization]gebruikt:
 
 **[!UICONTROL Automated Personalization]gebruikt een Willekeurig algoritme van het Bos om zich te personaliseren.**
 
-Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen op basis van bezoekers en bezoekkenmerken. Binnen Target wordt het Willekeurige bos gebruikt om te bepalen welke ervaring naar verwachting de hoogste waarschijnlijkheid van omzetting (of hoogste opbrengst per bezoek) voor elke specifieke bezoeker zal hebben. Bezoekers die Chrome gebruiken, zijn bijvoorbeeld loyaliteitsleden voor goud en hebben op dinsdagen toegang tot uw site, waardoor ze waarschijnlijk eerder zullen converteren met Experience A, terwijl bezoekers uit New York waarschijnlijk eerder zullen converteren met Experience B. Voor meer informatie over Willekeurig bos in Doel, zie [Willekeurig Bosalgoritme](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen op basis van bezoekers en bezoekkenmerken. Binnen Target wordt het Willekeurige bos gebruikt om te bepalen welke ervaring naar verwachting de hoogste waarschijnlijkheid van omzetting (of hoogste opbrengst per bezoek) voor elke specifieke bezoeker zal hebben. Bezoekers die Chrome gebruiken, zijn bijvoorbeeld loyaliteitsleden voor goud en hebben op dinsdagen toegang tot uw site, waardoor ze waarschijnlijk eerder zullen converteren met Experience A, terwijl bezoekers uit New York waarschijnlijk eerder zullen converteren met Experience B. Voor meer informatie over Willekeurig bos in Doel, zie [Willekeurig Bosalgoritme](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **Het verpersoonlijkingsmodel optimaliseert voor elk bezoek.**
 
@@ -60,11 +60,11 @@ Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied v
 
 **Het doel verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen te bouwen.**
 
-* Voor meer informatie over de attributen die in [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization], zie de Inzameling [van Gegevens van](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)Automated Personalization worden gebruikt.
+* Voor meer informatie over de attributen die in [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization], zie de Inzameling [van Gegevens van](/help/c-activities/t-automated-personalization/ap-data.md)Automated Personalization worden gebruikt.
 
 **Het doel gebruikt automatisch alle [!DNL Adobe Experience Cloud] gedeelde toehoorders om de verpersoonlijkingsmodellen te bouwen.**
 
-* U hoeft geen specifieke handelingen uit te voeren om een publiek aan het model toe te voegen. Voor informatie over het gebruiken [!DNL Experience Cloud Audiences] met [!DNL Target], zie [Experience Cloud Soorten publiek](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
+* U hoeft geen specifieke handelingen uit te voeren om een publiek aan het model toe te voegen. Voor informatie over het gebruiken [!DNL Experience Cloud Audiences] met [!DNL Target], zie [Experience Cloud Soorten publiek](/help/c-integrating-target-with-mac/mmp.md).
 
 **Marketers kunnen offlinegegevens, proxyscores of andere aangepaste gegevens uploaden om personalisatiemodellen samen te stellen.**
 
@@ -74,7 +74,7 @@ Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen on
 * [Profielparameters](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 * [Server-side API&#39;s voor profielupdate](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
-Zie Gegevensverzameling [!UICONTROL Automated Personalization] van [!UICONTROL Auto-Target] Automated Personalization voor informatie over de gegevens die automatisch worden verzameld en gebruikt door [en](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)personalisatiealgoritmen.
+Zie Gegevensverzameling [!UICONTROL Automated Personalization] van [!UICONTROL Auto-Target] Automated Personalization voor informatie over de gegevens die automatisch worden verzameld en gebruikt door [en](/help/c-activities/t-automated-personalization/ap-data.md)personalisatiealgoritmen.
 
 ## ![Video over training badge](/help/assets/overview.png) overzicht: Activiteitstypen
 
