@@ -5,7 +5,7 @@ title: Veelgestelde vragen over Automated Personalization
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Lijst met veelgestelde vragen (FAQ&#39;s) over Automated Personalization (AP).
 
 ## Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
 
-U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Doel](/help/c-activities/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
@@ -31,7 +31,7 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
 ## Wat zijn de beste praktijken om een activiteit van Automated Personalization op te zetten? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Als u een pagina met minder verkeer wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u personaliseert, denk na gebruikend auto-Doel in plaats van Automated Personalization. Zie [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
+* Als u een pagina met minder verkeer wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u personaliseert, denk na gebruikend auto-Doel in plaats van Automated Personalization. Zie [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * Overweeg een A/B-activiteit uit te voeren tussen de aanbiedingen en locaties die u in uw Automated Personalization-activiteit wilt gebruiken om te controleren of de locatie(s) en aanbiedingen van invloed zijn op de optimalisatiedoelstelling. Indien een A/B-activiteit geen significant verschil aantoont, zal Automated Personalization waarschijnlijk ook geen lift genereren.
 
    * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, waarschijnlijk zijn de aanbiedingen u overweegt niet voldoende verschillend van elkaar, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
@@ -79,7 +79,7 @@ Voor meer informatie, [het Oplossen van problemen Automated Personalization](../
 
 ### Hoe wijst Automated Personalization het verkeer van mijn activiteiten toe? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-Automated Personalization leidt bezoekers naar de ervaring die de hoogst voorspelde succesmetrisch gebaseerd op de meest recente modellen van het [Willekeurige Bos](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) heeft die voor elk model worden gebouwd. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
+Automated Personalization leidt bezoekers naar de ervaring die de hoogst voorspelde succesmetrisch gebaseerd op de meest recente modellen van het [Willekeurige Bos](/help/c-activities/t-automated-personalization/algo-random-forest.md) heeft die voor elk model worden gebouwd. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
 
 Stel bijvoorbeeld dat een AP-activiteit twee locaties had met elk twee aanbiedingen. Op de eerste locatie wordt voor Offer A een omrekeningskoers van 3% voor een specifieke bezoeker voorspeld en voor Aanbieding B een omrekeningskoers van 1%. Op de tweede locatie wordt voor Offer C een omrekeningskoers van 2% voor dezelfde bezoeker voorspeld, terwijl Offer D een omrekeningskoers van 5% heeft. Automated Personalization zou deze bezoeker dan ook een ervaring bieden met voorstel A en aanbod D.
 
