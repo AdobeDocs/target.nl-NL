@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Gebruik onze [rapporten om de winnende ervaring](../c-activities/automated-traff
 
 **Kan ik een activiteit uitvoeren met een niveau van personalisatie als integraal deel van de activiteit?**
 
-Schakel [A/B Testen uit met de optie Automatisch doel](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) .
+Schakel de optie [Automatisch doel](/help/c-activities/auto-target-to-optimize.md) uit.
 
 **Hoe kan ik weten welk type activiteit het beste bij mijn behoeften past?**
 
@@ -122,7 +122,7 @@ Dat is ook mogelijk. Met de optie Opslaan [kunt u eenvoudig stapsgewijze wijzigi
 
 Gebruik onze [krachtige functie](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) van de Wijze QA om QA uit te voeren. U kunt verbindingen met uw team delen QA en ook de activiteit van begin tot eind, met inbegrip van het melden testen, om volledig zeker te zijn dat nadat de activiteit levend is, het zoals bedoeld en zoals getest werkt.
 
-**Hoe kan ik de beslissingsmacht van het Doel gebruiken om een ervaring/aanbod te ontvangen die in de Toepassingen van de Enige Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
+**Hoe kan ik de beslissingskracht van Target gebruiken om een ervaring/aanbieding te ontvangen die kan worden gebruikt in toepassingen voor één pagina (SPA) of integratie op de server?**
 
 Gebruik de kracht van op [formulieren gebaseerde activiteiten](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) met [JSON-aanbiedingen](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te bereiken.
 
@@ -161,7 +161,7 @@ Probeer de functie [Profielscripts](../c-target/c-visitor-profile/profile-parame
 
 Gebruik de besturingselementen voor percentagetoewijzing die beschikbaar zijn in [Stap 2 van de Geleide workflow voor drie delen van het doel (pagina met doelen)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u de activiteit wilt instellen.
 
-**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
@@ -179,7 +179,7 @@ Bekijk de regels [voor](../c-experiences/c-visual-experience-composer/temtest.md
 
 De reden hiervoor is dat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- als HTTPS-bronnen ophaalt. Vraag uw team van IT zich volledig naar HTTPS te bewegen.
 
-Tot dit gebeurt, volg de instructies in het [Toelatend Gemengde Inhoud in Uw Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
+Tot dit gebeurt, volg de instructies in het [Toelaten van Gemengde Inhoud in Uw Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
 **Kan ik Visual Experience Composer (VEC) op mijn plaats proberen alhoewel het Doel at.js bibliotheek nog niet is opgesteld?**
 
@@ -263,13 +263,13 @@ Het is mogelijk dat uw site dynamische id&#39;s, dubbele id&#39;s of dynamische 
 
 Gebruik onze [debugger](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) en controleer [activiteitenbotsingen](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**Kan ik de beslissingsmacht van het Doel gebruiken om een ervaring/aanbod te ontvangen die in de Toepassingen van de Enige Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
+**Kan ik de beslissingskracht van Target gebruiken om een ervaring/aanbieding te ontvangen die kan worden gebruikt in toepassingen van één pagina (SPA) of serverintegratie?**
 
 Gebruik de kracht van op [formulieren gebaseerde activiteiten](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) met [JSON-aanbiedingen](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te bereiken.
 
 ## Rapporten (met inbegrip van Analytics voor doel-A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
