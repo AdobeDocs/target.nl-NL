@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Automatische personalisatie leert alleen en vereist een minimale menselijke anal
 
 ### Automatisch doel
 
-[Auto-Target](/help/c-activities/auto-target-to-optimize.md) maakt gebruik van geavanceerd leren van de machine om meerdere high-performance markerings-gedefinieerde ervaringen te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
+[Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) maakt gebruik van geavanceerd leren van de machine om meerdere high-performance markerings-gedefinieerde ervaringen te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
 
 ### Recommendations
 
