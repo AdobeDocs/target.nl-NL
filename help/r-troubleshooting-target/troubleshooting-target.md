@@ -6,9 +6,9 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 * [Veelgestelde vragen over optimalisatie en personalisatie](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Problemen oplossen](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate]en [!UICONTROL Auto-Target] (AT)
+### A/B-test
 
 * [Negen gangbare A/B-testvalkuilen en hoe deze te vermijden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Auto-Target voor persoonlijke ervaringen](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### Automatisch toewijzen
+
+* [Overzicht van automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### Automatisch doel
+
+* [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Automated Personalization (AP)
 
