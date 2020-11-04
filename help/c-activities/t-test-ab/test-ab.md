@@ -5,7 +5,7 @@ title: A/B-testoverzicht
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Naast de handmatige [!UICONTROL A/B Test] activiteit (besproken in dit deel) [!D
 | --- | --- |
 | [!UICONTROL Manual A/B Test] | Vergelijkt twee of meer ervaringen om te zien welke omzettingen het best gedurende een vooraf bepaalde testperiode verbeteren.<br>In deze sectie wordt beschreven hoe u een handmatige [!UICONTROL A/B Test] activiteit instelt, maar de stappen voor de andere typen [!UICONTROL A/B Test] activiteiten zijn vergelijkbaar. |
 | [!UICONTROL Auto-Allocate] | Identificeert een winnaar onder twee of meer ervaringen, en richt dan verkeer aan de winnaar opnieuw, die omzetting verhoogt aangezien de test loopt en leert.<br>Zie [Automatisch toewijzen](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) in *Hoe lang moet u een A/B-test* uitvoeren en een overzicht [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Automatisch toewijzen voor meer informatie over de voordelen van het gebruik van een activiteit voor automatisch toewijzen. |
-| ![Premium badge](/help/assets/premium.png) [!UICONTROL Auto-Target] | Gebruikt geavanceerd computerleren om inhoud en aandrijvingsomzettingen aan te passen door veelvoudige hoog-presterende, markerings-bepaalde ervaringen te identificeren, en dan de meest op maat gemaakte ervaring aan bezoekers te dienen die op hun individuele klantenprofielen en verleden gedrag van gelijkaardige bezoekers worden gebaseerd.<br>Voor meer informatie, zie [auto-Doel](/help/c-activities/auto-target-to-optimize.md). |
+| ![Premium badge](/help/assets/premium.png) [!UICONTROL Auto-Target] | Gebruikt geavanceerd computerleren om inhoud en aandrijvingsomzettingen aan te passen door veelvoudige hoog-presterende, markerings-bepaalde ervaringen te identificeren, en dan de meest op maat gemaakte ervaring aan bezoekers te dienen die op hun individuele klantenprofielen en verleden gedrag van gelijkaardige bezoekers worden gebaseerd.<br>Voor meer informatie, zie [auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 
 Zie de interactieve PDF [!UICONTROL A/B Test] van de [Adobe Target Activity Guide voor meer informatie over welke van deze](/help/c-activities/target-activities-guide.md)activiteiten geschikt is voor u.
 
