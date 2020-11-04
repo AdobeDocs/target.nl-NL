@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1555'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ ht-degree: 0%
       + [Hoelang moet u een A/B test in werking stellen?](c-activities/t-test-ab/sample-size-determination.md)
       + [Tien gemeenschappelijke A/B-testvalkuilen en hoe deze te vermijden](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Een A/B-test maken {#create}
-         + [Een test maken](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Een A/B-test maken](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL van activiteit](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Ervaring toevoegen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Doelgroep selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 0%
          + [Metrisch instellen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Meerdere ervaringsdoelgroepen in een A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Automatisch toewijzen {#auto-allocate}
-      + [Automatisch toewijzen](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Overzicht van automatisch toewijzen](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Een activiteit voor automatisch toewijzen maken](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner.md)
       + [Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Automatisch doel](c-activities/auto-target-to-optimize.md)
