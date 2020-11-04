@@ -6,9 +6,9 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 Op dezelfde manier als [!UICONTROL Auto-Target], gebruikt [!UICONTROL Automated Personalization] een Willekeurig Bos algoritme, een belangrijke methode van de gegevenswetenschap ensemble, als zijn belangrijkste verpersoonlijkingsalgoritme om de beste ervaring te bepalen om een bezoeker te tonen. [!UICONTROL Automated Personalization] kan waardevol zijn in de detectiefase van het testen. Het is ook handig om machinaal leren toe te staan om de meest effectieve inhoud te bepalen wanneer verschillende bezoekers zich hierop richten. In tijd, leert het algoritme om de meest efficiënte inhoud te voorspellen en toont de inhoud het meest waarschijnlijk om uw doelstellingen te bereiken.
 
-Voor meer informatie over hoe [!UICONTROL Automated Personalization] verschilt van [!UICONTROL Auto-Target], zie [auto-Doel voor Persoonlijke Ervaringen](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+Voor meer informatie over hoe [!UICONTROL Automated Personalization] verschilt van [!UICONTROL Auto-Target], zie [auto-Doel](/help/c-activities/auto-target-to-optimize.md).
 
-Marketers implementeren één bestand op hun site, waarmee ze op elke inhoud kunnen wijzen en klikken en vervolgens visueel aanvullende inhoudsopties voor dat gebied kunnen maken en selecteren met behulp van de VEC ([!UICONTROL Visual Experience Composer]). Vervolgens bepaalt het algoritme automatisch welk stuk inhoud aan elke individuele bezoeker moet worden geleverd op basis van alle gedragsgegevens die het systeem over die bezoeker heeft, wat een gepersonaliseerde ervaring oplevert. Omdat [!UICONTROL Automated Personalization] kan aanpassen aan wijzigingen in het gedrag van bezoekers, kan het zonder een vastgestelde einddatum worden uitgevoerd om voortdurende lift en verpersoonlijking te verstrekken. Dit wordt soms ook wel de &quot;always-on&quot;-modus genoemd. De markeerteken hoeft geen test uit te voeren, de resultaten te analyseren en vervolgens een winnaar te leveren voordat de lift wordt gerealiseerd die uit optimalisatie is gevonden. Dit is een standaardvolgorde voor bewerkingen om het resultaat van een standaard A/B-activiteit te implementeren.
+Marketers implementeren één bestand op hun site, zodat ze met de VEC ([!UICONTROL Visual Experience Composer]) naar inhoud kunnen wijzen en erop kunnen klikken en vervolgens visueel aanvullende inhoudsopties voor dat gebied kunnen maken en selecteren. Vervolgens bepaalt het algoritme automatisch welk stuk inhoud aan elke individuele bezoeker moet worden geleverd op basis van alle gedragsgegevens die het systeem over die bezoeker heeft, wat een gepersonaliseerde ervaring oplevert. Omdat [!UICONTROL Automated Personalization] kan aanpassen aan wijzigingen in het gedrag van bezoekers, kan het zonder een vastgestelde einddatum worden uitgevoerd om voortdurende lift en verpersoonlijking te verstrekken. Dit wordt soms ook wel de &quot;always-on&quot;-modus genoemd. De markeerteken hoeft geen test uit te voeren, de resultaten te analyseren en vervolgens een winnaar te leveren voordat de lift wordt gerealiseerd die uit optimalisatie is gevonden. Dit is een standaardvolgorde voor bewerkingen om het resultaat van een standaard A/B-activiteit te implementeren.
 
 De volgende termen zijn handig wanneer u discussieert over [!UICONTROL Automated Personalization]:
 
@@ -62,7 +62,7 @@ Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied v
 
 * Voor meer informatie over de attributen die in [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization], zie de Inzameling [van Gegevens van](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)Automated Personalization worden gebruikt.
 
-**Het doel gebruikt automatisch alle[!DNL Adobe Experience Cloud]gedeelde toehoorders om de verpersoonlijkingsmodellen te bouwen.**
+**Het doel gebruikt automatisch alle [!DNL Adobe Experience Cloud] gedeelde toehoorders om de verpersoonlijkingsmodellen te bouwen.**
 
 * U hoeft geen specifieke handelingen uit te voeren om een publiek aan het model toe te voegen. Voor informatie over het gebruiken [!DNL Experience Cloud Audiences] met [!DNL Target], zie [Experience Cloud Soorten publiek](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
