@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '29565'
 ht-degree: 0%
@@ -1311,8 +1311,8 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
    <td colname="col1" class="premium"> <p>Automatisch doel </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Auto-Target activiteiten steunen nu segment-vlakke rapportering. (TGT-22777) </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>U kunt het percentage van de Controle voor Auto-Doelactiviteiten veranderen. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Auto-Target activiteiten steunen nu segment-vlakke rapportering. (TGT-22777) </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>U kunt het percentage van de Controle voor Auto-Doelactiviteiten veranderen. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1553,7 +1553,7 @@ Deze [!DNL Target] versie bevat de volgende klantgerichte verbeteringen, oplossi
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automatisch doel </p> </td> 
-   <td colname="col2"> <p>Auto-Target nu beschikbaar aan alle klanten van de Premium van het Doel. </p> <p>Auto-Target maakt gebruik van geavanceerd leren van machines om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen. </p> <p>Tijdens het maken van een A/B-activiteit met behulp van de driestappenworkflow met instructies kunt u ervoor kiezen om verkeer toe te wijzen met de <span class="wintitle"> </span> optie Automatisch richten op persoonlijke ervaringen: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </td> 
+   <td colname="col2"> <p>Auto-Target nu beschikbaar aan alle klanten van de Premium van het Doel. </p> <p>Auto-Target maakt gebruik van geavanceerd leren van machines om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen. </p> <p>Tijdens het maken van een A/B-activiteit met behulp van de driestappenworkflow met instructies kunt u ervoor kiezen om verkeer toe te wijzen met de <span class="wintitle"> </span> optie Automatisch richten op persoonlijke ervaringen: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> Rapportage </td> 
-   <td colname="col2"> <p><b>Meerdere doelen/cijfers weergeven:</b> U kunt veelvoudige metriek in A/B en Ervaring nu bekijken richtend (XT) activiteiten, met uitzondering van <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> auto-Wijs </a> en <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Doel </a> A/B activiteiten. </p> <p>Voor meer informatie, zie Meerdere Metriek van de Mening in een Rapport <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> bekijken </a>. </p> </td> 
+   <td colname="col2"> <p><b>Meerdere doelen/cijfers weergeven:</b> U kunt veelvoudige metriek in A/B en Ervaring nu bekijken richtend (XT) activiteiten, met uitzondering van <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> auto-Wijs </a> en <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> Auto-Doel </a> A/B activiteiten. </p> <p>Voor meer informatie, zie Meerdere Metriek van de Mening in een Rapport <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> bekijken </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Eerste weergave</b> </p> Automatisch aanwijzen in A/B-activiteiten </td> 
-   <td colname="col2"> <p> <p>Opmerking:  Dit "First Look"-aanbod is voor een paar klanten in deze release beschikbaar voor tests en feedback. </p> </p> <p>Automatisch ervaringen in A/B-tests als doel instellen voor de juiste ervaring voor de juiste bezoeker. </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </td> 
+   <td colname="col2"> <p> <p>Opmerking:  Dit "First Look"-aanbod is voor een paar klanten in deze release beschikbaar voor tests en feedback. </p> </p> <p>Automatisch ervaringen in A/B-tests als doel instellen voor de juiste ervaring voor de juiste bezoeker. </p> <p>Voor meer informatie, zie <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> auto-Doel voor Persoonlijke Ervaringen </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
