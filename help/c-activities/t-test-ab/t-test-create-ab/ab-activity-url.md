@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: activity url;url;different url
 description: De URL van de Activiteit bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test wordt ontworpen.
 title: URL van activiteit
 feature: ab
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -43,7 +43,7 @@ De extra regels kunnen op om het even welke volgend worden gebaseerd:
 * Query
 * mbox-parameter
 
-De extra regels kunnen tot aan de Activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
+De extra regels kunnen met EN of OF aan de Activiteit URL worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
 
 Klik **[!UICONTROL Save]** wanneer u klaar bent.
 
