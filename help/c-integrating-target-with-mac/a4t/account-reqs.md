@@ -1,5 +1,5 @@
 ---
-keywords: Analytics as reporting source;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T;requirements
 description: Gebruikersaccountvereisten om een op Adobe Analytics gebaseerde activiteit te maken in Adobe Target (A4T).
 title: Vereisten voor gebruikerstoegang
 feature: a4t implementation
@@ -7,15 +7,15 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
+source-git-commit: 95e620e78fa6bcb2cded1c6efc79d365c5b70b30
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
 
-# Vereisten voor gebruikerstoegang {#user-permission-requirements}
+# Vereisten voor gebruikerstoegang
 
 Informatie over de vereisten van de gebruikersrekening om een [!DNL Adobe Analytics]gebaseerde activiteit in [!DNL Adobe Target] (A4T) tot stand te brengen.
 
@@ -41,15 +41,19 @@ Zie Gebruikers en producten [van Experience Cloud](https://docs.adobe.com/conten
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Voltooi de volgende taken in [!DNL Adobe Analytics]:
+Toegang tot de [!DNL Analytics] rapportsuite configureren:
 
-### Toegang tot de rapportsuite Analytics configureren
+Om A4T op een bepaalde rapportreeks te gebruiken, moet u toegang tot die rapportreeks hebben.
 
-Om A4T op een bepaalde rapportreeks te gebruiken, moet u toegang tot die rapportreeks hebben. Als u toegang wilt krijgen tot [!UICONTROL Admin Console], klikt u op een [!DNL Analytics] productprofiel en vervolgens op het [!UICONTROL Permissions] tabblad. Vervolgens kunt u zien tot welke rapportsuites het profiel toegang heeft. Zorg ervoor dat de rapportsuite waartoe u toegang wilt hebben [!DNL Target] een van de items is die worden vermeld in het productprofiel waarvan u deel uitmaakt.
+1. Klik **[!UICONTROL Admin Console]** in op een [!DNL Analytics] productprofiel en klik vervolgens op de **[!UICONTROL Permissions]** tab.
 
-De volgende illustratie is een voorbeeld van een productprofiel dat toegang tot alle rapportsuites heeft:
+   Vervolgens kunt u zien tot welke rapportsuites het profiel toegang heeft.
 
-![Tabblad Machtiging Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+1. Zorg ervoor dat de rapportsuite waartoe u toegang wilt hebben [!DNL Target] een van de servers is die worden vermeld in het productprofiel waarvan u deel uitmaakt.
+
+   De volgende illustratie is een voorbeeld van een productprofiel dat toegang tot alle rapportsuites heeft:
+
+   ![Tabblad Machtiging Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
