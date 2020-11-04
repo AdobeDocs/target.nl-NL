@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een over
 |--- |--- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | Bij het testen van A/B worden twee of meer versies van de inhoud van uw website vergeleken om te zien welke versie het beste uw omzettingen tijdens een vooraf gespecificeerde testperiode verbetert.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in de A/B-testactiviteiten](/help/c-recommendations/recommendations-as-an-offer.md). Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
 | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Met Automatisch toewijzen wordt een winnaar geïdentificeerd aan de hand van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversie toeneemt terwijl de test nog steeds wordt uitgevoerd en opgedaan.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md)voor automatisch toewijzen. Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
-| [Auto-](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoTarget maakt gebruik van geavanceerd computerleren om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in Auto-Target-activiteiten](/help/c-recommendations/recommendations-as-an-offer.md). Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
+| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoTarget maakt gebruik van geavanceerd computerleren om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in Auto-Target-activiteiten](/help/c-recommendations/recommendations-as-an-offer.md). Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
 | [Analytische gegevens](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) gebruiken (A4T) | U kunt een activiteit vormen om als rapporteringsbron te gebruiken [!DNL Adobe Analytics] . Voor dit type activiteit is het vereist dat u uw [!DNL Adobe Experience Cloud] account koppelt aan zowel [!DNL Analytics] als [!DNL Target]. |
 | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft. |
 | [Gericht op ervaring](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.<br>**Opmerking:** U kunt nu [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md)Experience Targeting. Voor deze functionaliteit is een [Target Premium-licentie](/help/c-intro/intro.md#premium)vereist. |
@@ -53,7 +53,7 @@ In [!DNL Target Standard], kan een plaats om het even welk element op een pagina
 
 Locaties worden gecombineerd met het publiek om een bijna oneindig aantal opties te bieden waarmee uw klanten informatie kunnen zoeken. Als een bezoeker bijvoorbeeld nog niet eerder naar de site is geweest, kunt u een kortingscoupon weergeven voor nieuwe klanten. Op dezelfde manier kan de pagina worden gewijzigd in weergaveaanbiedingen die beter zijn geoptimaliseerd voor terugkerende klanten.
 
-U kunt locaties ook gebruiken om de voortgang van een bezoeker door uw Website te volgen, of om te volgen of de bezoeker een specifieke succesmetrisch voltooit, zoals het toevoegen van een punt aan het winkelwagentje of het voltooien van een aankoop.
+U kunt locaties ook gebruiken om de voortgang van een bezoeker door uw Website te volgen, of om te volgen of de bezoeker een specifiek succes metrisch voltooit, zoals het toevoegen van een punt aan het winkelwagentje of het voltooien van een aankoop.
 
 ## Ervaringen en paginaontwerpen {#section_B806FB752EC1470784755C1EB3D4AC70}
 
@@ -65,7 +65,7 @@ Een ervaring bestaat uit de aanbiedingen, afbeeldingselementen of andere HTML-el
 
 Een ervaring kan ook een ander paginaontwerp zijn. Een ervaring kan bijvoorbeeld een set koppelingen boven aan de pagina bevatten, waarbij een andere ervaring andere koppelingen heeft of dezelfde koppelingen in een andere volgorde. Mogelijk wilt u testen of de ene afbeelding meer optilt dan de andere, of op een advertentie eerder boven aan de pagina of op een andere locatie wordt geklikt.
 
-[!DNL Target] optimaliseert ervaringen voor elk van uw bezoekers over uw digitale aanraakpunten en test verschillende ervaringen om te bepalen welke het meest succesvol zal zijn. Door uw ervaringen zorgvuldig te richten, kunt u ervoor zorgen dat uw bezoekers van de site de meest relevante aanbiedingen op de juiste locaties op uw pagina zien, waardoor uw kans op een succesvol bezoek groter wordt.
+[!DNL Target] optimaliseert ervaringen voor elk van uw bezoekers over uw digitale aanraakpunten en om verschillende ervaringen te testen om te bepalen welke het meest succesvol zal zijn. Door uw ervaringen zorgvuldig te richten, kunt u ervoor zorgen dat uw bezoekers van de site de meest relevante aanbiedingen op de juiste locaties op uw pagina zien, waardoor uw kans op een succesvol bezoek groter wordt.
 
 ## Aanbiedingen {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
