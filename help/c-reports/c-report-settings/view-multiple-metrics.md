@@ -5,7 +5,7 @@ title: Meerdere metriek in een rapport weergeven met Adobe Target
 feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -19,7 +19,7 @@ U kunt veelvoudige metriek selecteren om in een [!DNL Adobe Target] rapport te b
 
 Houd rekening met de volgende informatie wanneer u met meerdere meetgegevens werkt in rapporten:
 
-* De capaciteit om veelvoudige metriek te bekijken is beschikbaar voor [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [auto-Wijs](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [auto-Doel](/help/c-activities/auto-target-to-optimize.md), en [Ervaring richten](/help/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten.
+* De capaciteit om veelvoudige metriek te bekijken is beschikbaar voor [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [auto-Wijs](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md), en [Ervaring richten](/help/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten.
 * U kunt niet meer dan 20 metriek aan een rapport voor een activiteit toevoegen die [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt. U kunt zo vele metriek toevoegen aangezien u in uw activiteit aan rapporten voor activiteiten hebt die *geen* A4T gebruiken.
 * U kunt de optie [](/help/c-reports/downloading-data-in-csv-file.md) Downloaden niet gebruiken om rapporten naar CSV te downloaden als u meerdere metriek hebt geselecteerd. U moet één enkele metrisch slechts selecteren om de [!UICONTROL Download] optie toe te laten.
 * U kunt geen veelvoudige metriek voor activiteiten bekijken die vóór [!DNL Target] versie van juli 2015 (30 juli 2015) worden gecreeerd.
