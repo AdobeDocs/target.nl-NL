@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Herinner dat [!DNL Target] willekeurig ervaringen tot de verpersoonlijkingsalgor
 
    Als u onvoldoende verkeer hebt, kunt u een van de volgende handelingen uitvoeren:
 
-   * U kunt een [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -activiteit gebruiken in plaats van ervaringen [!UICONTROL Automated Personalization] te maken met verschillende wijzigingen van de aanbieding in één ervaringsvariatie.
+   * U kunt een [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) -activiteit gebruiken in plaats van ervaringen [!UICONTROL Automated Personalization] te maken met verschillende wijzigingen van de aanbieding in één ervaringsvariatie.
    * Verminder het aantal aanbiedingscombinaties binnen uw [!UICONTROL Automated Personalization] activiteit.
    * Verhoog de duur van de activiteit.
 
