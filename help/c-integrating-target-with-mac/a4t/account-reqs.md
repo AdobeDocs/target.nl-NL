@@ -7,9 +7,9 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,11 @@ Voltooi de volgende taken in [!DNL Adobe Analytics]:
 
 ### Toegang tot de rapportsuite Analytics configureren
 
-Voordat u rapporten maakt of weergeeft voor een activiteit [!DNL Analytics]met een motor, moet u lid zijn van de **[!UICONTROL All Report Access]** groep of een lid zijn van een groep die toegang heeft tot ten minste één rapport in de rapportsuite die u wilt gebruiken. Als u geen rapporten kunt bekijken, zorg ervoor u lid van één van deze groepen bent.
+Om A4T op een bepaalde rapportreeks te gebruiken, moet u toegang tot die rapportreeks hebben. Als u toegang wilt krijgen tot [!UICONTROL Admin Console], klikt u op een [!DNL Analytics] productprofiel en vervolgens op het [!UICONTROL Permissions] tabblad. Vervolgens kunt u zien tot welke rapportsuites het profiel toegang heeft. Zorg ervoor dat de rapportsuite waartoe u toegang wilt hebben [!DNL Target] een van de items is die worden vermeld in het productprofiel waarvan u deel uitmaakt.
 
-Zie [Productprofielen en -groepen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)voor meer informatie.
+De volgende illustratie is een voorbeeld van een productprofiel dat toegang tot alle rapportsuites heeft:
 
-### Vorm toegang tot de Groep van de Toegang van de Diensten van het Web
-
-U moet tot de groep van de Toegang van de Diensten van het Web binnen behoren [!DNL Analytics] om als rapporteringsbron voor te kunnen gebruiken [!DNL Analytics] [!DNL Target].
+![Tabblad Machtiging Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
