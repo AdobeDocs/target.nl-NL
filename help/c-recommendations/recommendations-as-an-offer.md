@@ -4,7 +4,7 @@ description: Adobe Recommendations als een aanbieding in A/B-tests (inclusief au
 title: Adobe Recommendations als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Om te beginnen, creeer een [!UICONTROL A/B Test] of [!UICONTROL Experience Targe
 
    >[!NOTE]
    >
-   >Voor tests A/B, herinner dat u de [auto-Wijs](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) optie kunt kiezen om verkeer aan de best-presterende aanbevelingen automatisch te duwen of de [auto-Doel](/help/c-activities/auto-target-to-optimize.md) optie om bezoekers aan op maat gemaakte aanbevelingen toe te wijzen die op hun profiel worden gebaseerd.
+   >Voor tests A/B, herinner dat u de [auto-Wijs](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) optie kunt kiezen om verkeer aan de best-presterende aanbevelingen automatisch te duwen of de [auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) optie om bezoekers aan op maat gemaakte aanbevelingen toe te wijzen die op hun profiel worden gebaseerd.
 
 1. Tijdens het creëren van een [ervaring](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), klik het element u een aanbeveling aan als aanbieding wilt toevoegen, selecteren **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, of **[!UICONTROL Replace With]** actie, dan selecteren [!UICONTROL Recommendation].
 
@@ -67,7 +67,7 @@ Er zijn twee manieren u de configuratie van een aanbieding kunt uitgeven:
 * Het [!UICONTROL Edit] menu gebruiken
 * Het [!UICONTROL Modifications] deelvenster gebruiken
 
-### Aanbevelingen bewerken via het menu Bewerken
+### Een aantal aanbevelingen bewerken via het menu Bewerken
 
 1. Klik op het voorstel dat u wilt bewerken en klik vervolgens op **[!UICONTROL Edit]**.
 
@@ -84,7 +84,7 @@ Er zijn twee manieren u de configuratie van een aanbieding kunt uitgeven:
 
 ### Een aantal aanbevelingen bewerken via het deelvenster Wijzigingen
 
-1. Klik op het [!UICONTROL Modifications] pictogram **(`</>`)** om het deelvenster [Wijzigingen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) weer te geven.
+1. Klik op het [!UICONTROL Modifications] pictogram **( `</>` )** om het deelvenster [Wijzigingen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) weer te geven.
 1. Houd de muisaanwijzer boven de gewenste handeling en klik op het **[!UICONTROL Edit]** pictogram.
 
    ![Deelvenster Wijzigingen](/help/c-recommendations/assets/recs-offer-modifications.png)
