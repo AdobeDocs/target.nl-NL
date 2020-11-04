@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Informatie die u helpt met het gebruik van de [!DNL Target] [!DNL Target] QA-bla
 
 ## Activity QA bookmarklet voor at.js 1.*x*
 
-Omdat de [QA-modus](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) vastzit, moet uw [!DNL Target] sessie verlopen nadat u in de QA-modus door een website hebt gebladerd. U moet de QA-modus [!DNL Target] loslaten voordat u uw site als een typische bezoeker kunt bekijken. Gebruik de QA- [!DNL Target] boekmarkering om uzelf uit de QA-modus te forceren.
+Omdat de [QA-modus](/help/c-activities/c-activity-qa/activity-qa.md) vastzit, moet uw [!DNL Target] sessie verlopen nadat u in de QA-modus door een website hebt gebladerd. U moet de QA-modus [!DNL Target] loslaten voordat u uw site als een typische bezoeker kunt bekijken. Gebruik de QA- [!DNL Target] boekmarkering om uzelf uit de QA-modus te forceren.
 
 Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
 
