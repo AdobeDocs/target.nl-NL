@@ -5,7 +5,7 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '3859'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Een bekend probleem voorkomt een voorvertoning als de criteria die in de activit
 Hier volgen bekende problemen met omleidingsvoorstellen:
 
 * Onder sommige omstandigheden heeft een beperkt aantal klanten hogere mate van variatie in verkeersdistributie gemeld bij het gebruik van een omleidingsaanbod in activiteiten die zijn geconfigureerd met Analytics for Target (A4T). Adobe engineers werken momenteel aan dit probleem.
-* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). In plaats daarvan kunt u de modus [](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) QA gebruiken om de voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
+* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). In plaats daarvan kunt u de modus [](/help/c-activities/c-activity-qa/activity-qa.md) QA gebruiken om de voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
 ### Het laden van een pagina in de VEC annuleren {#cancel}
 
