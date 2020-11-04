@@ -5,9 +5,9 @@ title: Veelgestelde vragen over Automated Personalization
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
 ## Wat zijn de beste praktijken om een activiteit van Automated Personalization op te zetten? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Als u een pagina met minder verkeer wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u personaliseert, denk na gebruikend auto-Doel in plaats van Automated Personalization. Zie [Auto-Target voor persoonlijke ervaringen](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Als u een pagina met minder verkeer wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u personaliseert, denk na gebruikend auto-Doel in plaats van Automated Personalization. Zie [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
 * Overweeg een A/B-activiteit uit te voeren tussen de aanbiedingen en locaties die u in uw Automated Personalization-activiteit wilt gebruiken om te controleren of de locatie(s) en aanbiedingen van invloed zijn op de optimalisatiedoelstelling. Indien een A/B-activiteit geen significant verschil aantoont, zal Automated Personalization waarschijnlijk ook geen lift genereren.
 
    * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, waarschijnlijk zijn de aanbiedingen u overweegt niet voldoende verschillend van elkaar, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
@@ -93,7 +93,7 @@ De tijdsduur die nodig is voor modellen om uw activiteit uit te breiden, is door
 
 ### Eén model is gebouwd binnen mijn activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
-Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie kan beginnen.
+Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie begint.
 
 ### Wanneer kan ik naar de resultaten van mijn Automated Personalization-activiteiten kijken? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
