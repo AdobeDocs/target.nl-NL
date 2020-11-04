@@ -5,7 +5,7 @@ title: Rapport Automated Segments
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
 ## Heb toegang tot het Geautomatiseerde rapport van Segmenten {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) - of [Auto-Target](/help/c-activities/auto-target-to-optimize.md) -activiteit.
+1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) - of [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) -activiteit.
 
    Als u vele activiteiten hebt, kunt u de lijst filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
 
@@ -119,7 +119,7 @@ Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] ra
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie de Inzameling van [Gegevens voor de Algoritmen](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)van de Verpersoonlijking van het Doel. Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [Methoden om Gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen.
+Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie de Inzameling van [Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/ap-data.md)van de Verpersoonlijking van het Doel. Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [Methoden om Gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen.
 
 **Wat is een geautomatiseerd segment?**
 
@@ -127,7 +127,7 @@ Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaal
 
 Een geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken. Zie Stap 5 hierboven, bijvoorbeeld geautomatiseerde segmenten. Merk op dat de segmenten elkaar kunnen overlappen.
 
-Meer over het willekeurige bosverpersoonlijkingsalgoritme leren, dat de basis voor de verpersoonlijkingsmodellen van het Doel is, zie [Willekeurig Bosalgoritme](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Meer over het willekeurige bosverpersoonlijkingsalgoritme leren, dat de basis voor de verpersoonlijkingsmodellen van het Doel is, zie [Willekeurig Bosalgoritme](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **Wat bepaalt de orde van de geautomatiseerde segmenten? **
 
