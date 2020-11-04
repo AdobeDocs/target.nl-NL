@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 1%
@@ -40,7 +40,7 @@ De inhoud die aan bezoekers wordt weergegeven, is afhankelijk van het type activ
 
 ### A/B-test
 
-Zie [Een A/B-test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) maken voor meer informatie.
+Zie [Een A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) maken voor meer informatie.
 
 De inhoud die wordt weergegeven in een standaard A/B-test, wordt willekeurig gekozen uit de elementen die u toewijst aan de activiteit, volgens de percentages die u voor elke ervaring kiest. Als resultaat van deze willekeurige splitsing van verkeer, kan het veel eerste verkeer vóór de percentages uit nemen. Als u bijvoorbeeld twee ervaringen creëert, wordt de startervaring willekeurig gekozen. Als er weinig verkeer is, is het mogelijk dat het percentage bezoekers naar één ervaring kan worden scheefgetrokken. Naarmate het verkeer toeneemt, zouden de percentages gelijker moeten worden.
 
@@ -59,7 +59,7 @@ Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee o
 
 ### Auto-Target (AT)
 
-Zie [Auto-Target](/help/c-activities/auto-target-to-optimize.md) voor meer informatie.
+Zie [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) voor meer informatie.
 
 Auto-Target maakt gebruik van geavanceerd computerleren om uit meerdere, hoogpresterende, door de markator gedefinieerde ervaringen te kiezen en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
 
