@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -99,7 +99,7 @@ Er zijn geen ervaringen als u een Recommendations-activiteit maakt. Kies uw crit
 1. (Optioneel, voor AB-activiteiten, Automated Personalization en Experience Targeting) U kunt dit proces voor extra locaties herhalen door op de locatie en inhoud te klikken **[!UICONTROL Add Location]** en deze te configureren.
 1. Klik **[!UICONTROL Next]** en voer de gebruikelijke stappen voor het maken van activiteiten voor het type activiteit uit.
 
-* [Een A/B-test maken](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
+* [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Een ervaring maken die gericht is op activiteiten](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Een Recommendations-activiteit maken](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
