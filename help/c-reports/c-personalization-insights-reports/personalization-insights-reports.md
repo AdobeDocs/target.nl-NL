@@ -5,7 +5,7 @@ title: Persoonlijkheidsrapporten
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -53,8 +53,8 @@ Er zijn twee [!UICONTROL Personalization Insights] rapporten beschikbaar:
 
 Er zijn twee soorten attributen die in rapporten worden vertegenwoordigd die in uw AP of Auto modellen van het Doel worden gebruikt: [!UICONTROL Personalization Insights]
 
-* **Kenmerken die automatisch door Target worden verzameld:** [!DNL Target] gebruikt een reeks basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van de Personalisatie worden weerspiegeld. Zie de Inzameling van [Gegevens voor de Algoritmen](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) van de Personalisering van het Doel voor gegevenstypes, voorbeeldattributen, en hun [!UICONTROL Personalization Insights] noemende overeenkomst. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
-* **Attributen doorgegeven aan Doel:** Zie Gegevens [uploaden voor de Algoritmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)van de Aanpassing van het Doel.
+* **Kenmerken die automatisch door Target worden verzameld:** [!DNL Target] gebruikt een reeks basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van de Personalisatie worden weerspiegeld. Zie de Inzameling van [Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/ap-data.md) van de Personalisering van het Doel voor gegevenstypes, voorbeeldattributen, en hun [!UICONTROL Personalization Insights] noemende overeenkomst. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
+* **Attributen doorgegeven aan Doel:** Zie Gegevens [uploaden voor de Algoritmen](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)van de Aanpassing van het Doel.
 
 [!DNL Target] verstrekt vele manieren voor u om in extra gegevens over te gaan om de reeks van basisgegevens [!DNL Target] te verrijken die wordt gebruikt om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen:
 
