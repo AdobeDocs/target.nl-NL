@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -63,7 +63,7 @@ De [!DNL at.js] bibliotheek bevat verschillende verbeteringen ten opzichte van d
 
 ## Trainingsvideo: at.js - Voordelen en het ![Overzicht van de Praktijken van de Implementatie badge](/help/assets/overview.png)
 
-Deze video is een opname van &quot; [Office Hours](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, een initiatief van het team van de klantenservice van Adobe.
+Deze video is een opname van &quot; [Office Hours](/help/cmp-resources-and-contact-information.md)&quot;, een initiatief van het team van de klantenservice van Adobe.
 
 * Hoe de bibliotheek at.js werkt
 * De voordelen van at.js ten opzichte van mbox.js
