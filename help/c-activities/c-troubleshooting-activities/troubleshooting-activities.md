@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Als uw activiteit niet op uw plaats verschijnt, zouden deze het oplossen van pro
 
 >[!NOTE]
 >
->Naast de volgende het oplossen van problemeninformatie, zie het Doel [van het](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) Oplossen van problemen voor verbindingen aan extra het oplossen van problemenonderwerpen, FAQs, en andere nuttige informatie over het oplossen van problemenactiviteiten en andere eigenschappen in [!DNL Adobe Target].
+>Naast de volgende het oplossen van problemeninformatie, zie het Doel [van het](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) Oplossen van problemen voor verbindingen aan extra het oplossen van problemenonderwerpen, FAQs, en andere nuttige informatie over het oplossen van problemenactiviteiten en andere eigenschappen in [!DNL Adobe Target].
 
 De volgende secties bevatten problemen u met voorgestelde oplossingen zou kunnen ontmoeten.
 
@@ -82,7 +82,7 @@ Zodra u als gebruiker in Doel wordt toegevoegd moet u de rol hebben Approver om 
 * Vraag de beheerder van uw account om van u een fiatteur te maken.
 * Als u de beheerder bent, geef uzelf de rol fiatteur van **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Doel.
 
-   Zie [Uw eigen rol](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)fiatteur toewijzen.
+   Zie [Uw eigen rol](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)fiatteur toewijzen.
 
 ## De structuur van de pagina is gewijzigd sinds het instellen van de activiteit.
 
@@ -92,7 +92,7 @@ Zodra u als gebruiker in Doel wordt toegevoegd moet u de rol hebben Approver om 
 
 * Maak de activiteit opnieuw.
 
-Zie Scenario&#39;s voor [paginawijzigingen voor meer informatie over de invloed die paginawijzigingen hebben op de weergavemogelijkheid van Target](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Zie Scenario&#39;s voor [paginawijzigingen voor meer informatie over de invloed die paginawijzigingen hebben op de weergavemogelijkheid van Target](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## De structuur van de pagina wordt gewijzigd tijdens het laden van de pagina (bij uitvoering).
 
@@ -105,7 +105,7 @@ Zie Scenario&#39;s voor [paginawijzigingen voor meer informatie over de invloed 
 * Werk paginacode bij om elk element uniek te identificeren dat (gebruikend identiteitskaart) zal worden getest.
 * Hiermee wordt gestopt met het dynamisch wijzigen van de klasse of op hetzelfde niveau als hierboven is beschreven.
 
-Zie Scenario&#39;s voor [paginawijzigingen voor meer informatie over de invloed die paginawijzigingen hebben op de weergavemogelijkheid van Target](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Zie Scenario&#39;s voor [paginawijzigingen voor meer informatie over de invloed die paginawijzigingen hebben op de weergavemogelijkheid van Target](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js springt alle volgende code uit het hoofd en in het lichaam.
 
