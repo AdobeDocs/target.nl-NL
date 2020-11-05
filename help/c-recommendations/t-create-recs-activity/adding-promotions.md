@@ -5,7 +5,7 @@ title: Aanbiedingen toevoegen in Adobe Target Recommendations-ontwerpen.
 feature: recs creation
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Voeg gepromoveerde objecten toe en controleer de plaatsing ervan in Recommendati
 
 >[!IMPORTANT]
 >
->Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie de Dynamische en Statische Regels [van de Insluiting van het](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)Gebruik.
+>Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie de Dynamische en Statische Regels [van de Insluiting van het](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)Gebruik.
 
 Wanneer u een [!DNL Recommendations] activiteit maakt, kunt u gepromoveerde objecten in uw [!DNL Recommendations] ontwerp opnemen. De bevorderingen gebruiken beschikbare groeven in een ontwerp en nemen belangrijkheid over criteria resultaten en reserveaanbevelingen. Als uw ontwerp bijvoorbeeld zes sleuven heeft en u er twee gebruikt voor speciale acties, zijn er vier sleuven beschikbaar voor aanbevolen items op basis van criteria.
 
@@ -56,9 +56,9 @@ U kunt specifieke objecten promoten, objecten dynamisch promoten, objecten promo
 
    * Selecteer **[!UICONTROL Promote by attribute]** en voeg regels toe om de kenmerken te definiëren van de items die u wilt promoten.
 
-      Als u Promote by Attribute selecteert, kunt u dynamische gelijken tot stand brengen. Zie Dynamische en statische [insluitingsregels](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)gebruiken voor meer informatie.
+      Als u Promote by Attribute selecteert, kunt u dynamische gelijken tot stand brengen. Zie Dynamische en statische [insluitingsregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)gebruiken voor meer informatie.
 
-   * Selecteer **[!UICONTROL Promote a collection]** en kies de verzameling objecten die u wilt promoten. U kunt nieuwe verzamelingen maken die u voor promoties wilt gebruiken. Zie [Een verzameling](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) maken voor meer informatie.
+   * Selecteer **[!UICONTROL Promote a collection]** en kies de verzameling objecten die u wilt promoten. U kunt nieuwe verzamelingen maken die u voor promoties wilt gebruiken. Zie [Een verzameling](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) maken voor meer informatie.
 
 1. Klik op **[!UICONTROL Save.]**.
 
