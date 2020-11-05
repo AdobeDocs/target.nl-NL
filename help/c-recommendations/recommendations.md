@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >[!DNL Recommendations] activiteiten zijn beschikbaar als onderdeel van de [Target Premium-oplossing](/help/c-intro/intro.md#premium). Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie.
 >
->Als u momenteel [!DNL Recommendations Classic]beschikt, raadpleegt u [Recommendations Classic versus Recommendations Activity in Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) voor meer informatie over de twee oplossingen.
+>Als u momenteel [!DNL Recommendations Classic]beschikt, raadpleegt u [Recommendations Classic versus Recommendations Activity in Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) voor meer informatie over de twee oplossingen.
 
 [!DNL Recommendations] helpt u suggesties in real time te optimaliseren en aan te passen over kanalen, apps, pagina&#39;s, e-mailberichten en andere leveringsopties om de betrokkenheid en conversie te verhogen en de beheerinspanningen te verminderen.
 
@@ -44,7 +44,7 @@ Een aanbeveling bepaalt hoe een product aan een bezoeker wordt voorgesteld, afha
 | Verhoog de tijd die bezoekers besteden aan uw mediasite door media-inhoud aan te bevelen die lijkt op wat ze bekijken. | Maak een aanbeveling die andere video&#39;s voorstelt. Gebruik hiervoor de criteria &quot;Personen die dit hebben bekeken&quot;. |
 | Stel dat klanten die bij je bank informatie over spaarplannen hebben bekeken, ook informatie over IRA-rekeningen lezen. | Andere producten tonen die mensen hebben gekocht na het bekijken van één product zonder het eerste product in de aanbevelingen te tonen, met de criteria &quot;mensen die dit ook hebben bekeken&quot;. |
 
-Zie [!DNL Recommendations] Criteria voor meer informatie over deze en andere [criteria](../c-recommendations/c-algorithms/algorithms.md).
+Zie [!DNL Recommendations] Criteria voor meer informatie over deze en andere [criteria](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Voorwaarden
 
