@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Hier zijn een paar scenario&#39;s waarin u verwachte gegevensvariantie zou kunne
 
 * A4T maakt het mogelijk dat een doelhit (boven aan pagina) optreedt, maar er vindt geen treffer voor Analytics (onder aan pagina) plaats. Een voorbeeld hiervan is als de gebruiker de pagina laadt, maar de browser sluit voordat de analytische aanroep wordt geactiveerd. In deze gevallen sluit A4T de Target hit uit van onze gegevens. De reden hiervoor is dat het toestaan van Target-hits (opnieuw boven aan de pagina) om te tellen als analyseresultaten zonder een daadwerkelijke analytische aanroep tot inconsistenties zou leiden met de gegevensset in Analytics (bezoekersinflatie, enz.).
 
-   Als een omleidingstest in Target wordt opgezet om verkeer 50/50 (of 25/25/25/25 enz.) te verdelen, zou het gebruikersgedrag niet gelijkmatig kunnen worden verdeeld. Als u een ongelijke splitsing ziet, betekent dit gewoon dat één groep gebruikers een analytische aanroep op de bestemmingspagina niet meer heeft uitgevoerd dan de andere groep(en). Als de analytische aanroep voor één groep niet werd uitgevoerd, werd de Target-hit voor die gebruiker uitgesloten, waardoor de ongelijkheid ontstond.
+   Als een omleidingstest in Target wordt opgezet om verkeer 50/50 (of 25/25/25/25 enz.) te verdelen, zou het gebruikersgedrag niet gelijkmatig kunnen worden verdeeld. Als u een ongelijkmatige splitsing ziet, betekent dit gewoon dat één groep gebruikers een analyseaanroep op de bestemmingspagina niet meer heeft uitgevoerd dan de andere groep(en) wel. Als de analytische aanroep voor één groep niet werd uitgevoerd, werd de Target-hit voor die gebruiker uitgesloten, waardoor de ongelijkheid ontstond.
 
    Dit is iets wat we in de toekomst willen aanpakken als we werken aan een A4T op de Adobe Experience Platform. Onze teams werken door hoe u deze verschillende gebeurtenissen het beste kunt afhandelen op verschillende tijdstippen op de pagina.
 
@@ -36,7 +36,7 @@ Hier zijn een paar scenario&#39;s waarin u verwachte gegevensvariantie zou kunne
 
 * Stel dat u een activiteit voor automatisch toewijzen maakt die open staat voor alle bezoekers van een bepaalde pagina. Omdat de auto-Wijs activiteiten geen A4T steunen, worden alle activiteitengegevens verzameld door [!DNL Target]. U zou kunnen verwachten dat de bezoekers aan de activiteit in de [!DNL Target] rapportering de bezoekers aan die pagina in de [!DNL Analytics] rapportering voor de zelfde datumwaaier zouden moeten aanpassen. Dit is een scenario waarin de hieronder beschreven variantie wordt verwacht.
 
-   Voor een volledige lijst van activiteitentypes die A4T steunen, zie de [Gesteunde Types](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)van Activiteit.
+   Voor een volledige lijst van activiteitentypes die A4T steunen, zie de [Gesteunde Types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)van Activiteit.
 
 ## Verwachte gegevensvariantie wanneer *geen A4T wordt gebruikt* {#expected-not-using-a4t}
 
