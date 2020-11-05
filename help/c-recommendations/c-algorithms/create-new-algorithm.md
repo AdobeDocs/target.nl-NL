@@ -5,7 +5,7 @@ title: Criteria maken
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2297'
 ht-degree: 0%
@@ -75,7 +75,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
 1. Selecteer de **[!UICONTROL Recommendation Logic]**.
 
-   Zie [Criteria](../../c-recommendations/c-algorithms/algorithms.md)voor meer informatie over de opties van de aanbevolen logica.
+   Zie [Criteria](/help/c-recommendations/c-algorithms/algorithms.md)voor meer informatie over de opties van de aanbevolen logica.
 
    >[!NOTE]
    >
