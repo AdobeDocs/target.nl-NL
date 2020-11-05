@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >[!UICONTROL Auto-Target] is beschikbaar als onderdeel van de [!DNL Target Premium] oplossing. Deze functie is niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie. Zie [Target Premium](/help/c-intro/intro.md)voor meer informatie over de geavanceerde functies die deze licentie biedt.
+>
+>[!UICONTROL Analytics for Target] (A4T) ondersteunt [!UICONTROL Auto-Target] activiteiten. Voor meer informatie, zie een activiteit [creëren die Analytics als rapporteringsbron](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)gebruikt.
 
 ## Real-world succesverhaal met Auto-Target {#success}
 
