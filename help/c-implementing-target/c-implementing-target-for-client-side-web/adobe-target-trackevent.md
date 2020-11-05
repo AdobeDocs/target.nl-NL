@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a5a84e96ea3498140f4e0c9af4f75ec674bbf4b8
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze functie voert een verzoek in om gebruikersacties, zoals kliks en omzettingen te melden. Het levert geen activiteiten in de reactie.
 
-Deze gebeurtenis-volgende mbox vraag kan dan worden gebruikt om metriek in activiteiten te bepalen. Voor meer informatie, zie de Metriek [van het](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) Succes en de Omzettingen [van het](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)Spoor.
+Deze gebeurtenis-volgende mbox vraag kan dan worden gebruikt om metriek in activiteiten te bepalen. Voor meer informatie, zie de Metriek [van het](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) Succes en de Omzettingen [van het](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)Spoor.
 
 Hier volgen de API-details:
 
