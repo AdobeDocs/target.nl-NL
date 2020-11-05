@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Doel kan worden geïntegreerd met [!DNL Adobe Dynamic Media Classic] (voorheen [
 
 Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande gegevens opgeven. Als u geen account hebt, kunt u gratis een account voor beperkt gebruik aanvragen bij uw [!DNL Dynamic Media Classic] [!DNL Adobe] vertegenwoordiger. Deze account kan [!DNL Target] alleen worden gebruikt voor doeleinden waarvoor beperkingen gelden. Deze service wordt beschikbaar gesteld aan klanten voor workflows die functionaliteit voor het wisselen van afbeeldingen nodig hebben.
 
-Als deze instelling niet is geconfigureerd, is de [!UICONTROL Swap Image offer] optie in de workflow voor het maken van activiteiten niet beschikbaar. Nadat dit plaatsen wordt gevormd, is de optie om beeldaanbiedingen te ruilen/veranderen beschikbaar in zowel Composer van de [Visuele Ervaring (VEC) als in de vorm-Gebaseerde Composer](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring. Vervolgens kunt u afbeeldingsaanbiedingen gebruiken met afbeeldingen die vanuit de toepassing zijn geüpload [!DNL Adobe Experience Cloud] voor gebruik in [!DNL Target] activiteiten.
+Als deze instelling niet is geconfigureerd, is de [!UICONTROL Swap Image offer] optie in de workflow voor het maken van activiteiten niet beschikbaar. Nadat dit plaatsen wordt gevormd, is de optie om beeldaanbiedingen te ruilen/veranderen beschikbaar in zowel Composer van de [Visuele Ervaring (VEC) als in de vorm-Gebaseerde Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring. Vervolgens kunt u afbeeldingsaanbiedingen gebruiken met afbeeldingen die vanuit de toepassing zijn geüpload [!DNL Adobe Experience Cloud] voor gebruik in [!DNL Target] activiteiten.
 
 Als u tijdens het maken van activiteiten rechtstreeks in een aanbieding of aangepaste code wilt verwijzen naar een openbare afbeeldings-URL, moet u de afbeelding op uw eigen webservers implementeren en uw eigen URL in de code gebruiken. Het is niet mogelijk om de gepubliceerde URL te verkrijgen van een afbeelding die naar de server is geüpload [!DNL Experience Cloud] om direct of buiten de doelworkflows voor gebruik [!DNL Target]te gebruiken. Deze functionaliteit is niet toegestaan, zoals in een contract.
 
