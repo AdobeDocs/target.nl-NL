@@ -5,7 +5,7 @@ title: Gegevensverzameling voor Adobe Target-verpersoonlijkingsalgoritmen
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Het doel verzamelt en gebruikt automatisch een verscheidenheid van gegevens om z
 
 Meer over de de verpersoonlijkingsalgoritmen van het Doel leren, zie [Willekeurig Bosalgoritme](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-In de volgende tabel worden standaard de gegevens weergegeven die door Automated Personalization en Auto-Target zijn verzameld, zonder dat de markeerstift iets hoeft te doen. Daarnaast ziet u ook de naamgevingsconventie die wordt gebruikt om deze kenmerken aan te geven in [Persoonlijke inzichten](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). U kunt de invoergegevensset op elk gewenst moment uitbreiden. Voor meer over hoe te om extra gegevens te uploaden, zie het [Uploaden van Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)van de Aanpassing van het Doel.
+In de volgende tabel worden standaard de gegevens weergegeven die door Automated Personalization en Auto-Target zijn verzameld, zonder dat de markeerstift iets hoeft te doen. Daarnaast ziet u ook de naamgevingsconventie die wordt gebruikt om deze kenmerken aan te geven in [Persoonlijke inzichten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). U kunt de invoergegevensset op elk gewenst moment uitbreiden. Voor meer over hoe te om extra gegevens te uploaden, zie het [Uploaden van Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)van de Aanpassing van het Doel.
 
 | Gegevenstype | Beschrijving | Naamgevingsconventie voor gegevenstypen | Voorbeeldkenmerken |
 | --- | --- | --- | --- |
