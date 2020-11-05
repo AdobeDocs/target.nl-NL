@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Lijst met veelgestelde vragen (FAQ&#39;s) over globale vakken.
 
 Er wordt slechts één globale box ondersteund voor uw account.
 
-U kunt beperken waar uw activiteiten lopen door URL-regels aan uw activiteiten toe te voegen. Zie Gelijke ervaring [opnemen op vergelijkbare pagina&#39;s](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)voor meer informatie.
+U kunt beperken waar uw activiteiten lopen door URL-regels aan uw activiteiten toe te voegen. Zie Gelijke ervaring [opnemen op vergelijkbare pagina&#39;s](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)voor meer informatie.
 
 U zou een parameter op de pagina ook kunnen overgaan gebruikend [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) en dan die parameters in de &quot;vorm URL&quot;sectie in de [!UICONTROL Visual Experience Composer] (VEC) selecteren of door de parameters als &quot;verfijningen&quot;in de vorm-Gebaseerde Composer van de Ervaring toe te voegen.
 
@@ -30,9 +30,9 @@ U zou een parameter op de pagina ook kunnen overgaan gebruikend [targetPageParam
 
 Om opbrengst en ordeinformatie over target-global-mbox te verzamelen, moeten de &quot;mbox parameters&quot;naar Doel worden verzonden. Deze parameters zijn naam/waardeparen die worden gebruikt om meer informatie naar Doel te verzenden. Het doel zoekt automatisch deze parameters (gereserveerde namen) om opbrengstgegevens te bevolken.
 
-Voor de `orderConfirmPage`, zou u binnen moeten overgaan `orderTotal`, `orderId`, en `productPurchasedId`. Zie [Een bevestigingsbox voor bestellingen maken - mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)voor meer informatie.
+Voor de `orderConfirmPage`, zou u binnen moeten overgaan `orderTotal`, `orderId`, en `productPurchasedId`. Zie [Een bevestigingsbox voor bestellingen maken - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)voor meer informatie.
 
-Dezelfde parameters moeten via `targetPageParams()`de methode target-global-mbox worden verzonden. Voor meer informatie, zie het [overgaan van Parameters tot Globale mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Dezelfde parameters moeten via `targetPageParams()`de methode target-global-mbox worden verzonden. Voor meer informatie, zie het [overgaan van Parameters tot Globale mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
 
 U zult ook het richten aan het omzettingsstuk willen toevoegen zodat het Doel slechts omzettingen op doel-globaal-mbox telt wanneer de pagina van de ordesbevestiging is bekeken, zoals hieronder getoond:
 
