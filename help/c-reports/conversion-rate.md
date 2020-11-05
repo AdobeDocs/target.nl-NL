@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Als de controle 0 is, is er geen percentagelift.
 
 Dit aantal vertegenwoordigt de waarschijnlijkheid dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
 
-Zie [Vertrouwensniveau en Vertrouwensinterval](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Zie [Vertrouwensniveau en Vertrouwensinterval](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Detailgegevens {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ Het *betrouwbaarheidsinterval* is een bereik waarbinnen de werkelijke waarde op 
 
 ## De Berekening van het vertrouwen en hoe te om het off-line uit te voeren {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-Het [gedownloade CSV-rapport](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) bevat alleen onbewerkte gegevens en bevat geen berekende meetgegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests.
+Het [gedownloade CSV-rapport](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) bevat alleen onbewerkte gegevens en bevat geen berekende meetgegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests.
 
 Om deze berekende metriek te berekenen, download het dossier van Excel van de Rekenmachine van het Doel van het [Volledige Vertrouwen om de waarde van de activiteit in te voeren, of herzie de](/help/assets/complete_confidence_calculator.xlsx) statistische berekeningen die door Doel [](/help/assets/statistical-calculations.pdf)worden gebruikt.
 
@@ -122,7 +122,7 @@ Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken var
 
 Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u een voorbeeld van het totale aantal paginaweergaven per bezoeker voor een bepaald tijdsbestek, misschien een paar dagen (een paar duizend gegevenspunten is alles wat u nodig hebt). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 
-**Hiervoor gebruikt u de functie voor het exporteren van[!DNL Analytics]gegevens:**
+**Hiervoor gebruikt u de functie voor het exporteren van [!DNL Analytics] gegevens:**
 
 1. Meld u aan bij [!DNL Adobe Analytics].
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
