@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Voor die taken die in [!DNL Adobe Admin Console for Enterprise]worden uitgevoerd
 
 Wanneer u de nieuwe [!UICONTROL Properties] functionaliteit gaat gebruiken, moet al gebruikersbeheer in [!DNL Adobe Admin Console for Enterprise]de toepassing worden uitgevoerd. Alle bestaande gebruikers in [!DNL Target] worden echter van [!DNL Target] naar [!DNL Admin Console for Enterprise].
 
-1. [Klik in de Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)op het **[!UICONTROL Users]** tabblad boven aan de pagina > **[!UICONTROL Add Users]** om nieuwe gebruikers te maken of bestaande gebruikers te bewerken.
+1. [Klik in de Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)op het **[!UICONTROL Users]** tabblad boven aan de pagina > **[!UICONTROL Add Users]** om nieuwe gebruikers te maken of bestaande gebruikers te bewerken.
 1. Volg de instructies in Gebruikers en groepen [beheren in de Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in de gebruikershandleiding *van de* onderneming.
 
 ## Stap 2. Een werkruimte maken (productprofiel) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -118,7 +118,7 @@ Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overig
    * **Omschrijving:** Geef een optionele beschrijving voor de eigenschap op.
    * **Kanaal:** Selecteer het gewenste kanaal voor de eigenschap: Web, Mobile App, Email of Other/API (bijvoorbeeld een set-top box of PlayStation-console).
 
-1. Klik **[!UICONTROL Copy]** om de code naar uw klembord te kopiëren die u tijdens het uitvoeren van de stappen in [5 zult gebruiken: Werk uw Implementatie bij om de parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property op te nemen.
+1. Klik **[!UICONTROL Copy]** om de code naar uw klembord te kopiëren die u tijdens het uitvoeren van de stappen in [5 zult gebruiken: Werk uw Implementatie bij om de parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property op te nemen.
 1. Klik **[!UICONTROL Save]** wanneer gereed.
 
 >[!NOTE]
@@ -128,9 +128,9 @@ Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overig
 
 Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target] parameter aan om het even welke vraag toevoegen die `at_property` [!DNL Target] (de vraag van het Doel, api vraag, enz.) aanslaat.
 
-**U verkrijgt als volgt de`at_property`parametercode:**
+**U verkrijgt als volgt de `at_property` parametercode:**
 
-1. (Voorwaardelijk) gebruik de implementatiecode u aan uw klembord produceerde en opsloeg terwijl het uitvoeren van de stappen in [4. Maak eigenschappen](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) en ga verder met stap 2.
+1. (Voorwaardelijk) gebruik de implementatiecode u aan uw klembord produceerde en opsloeg terwijl het uitvoeren van de stappen in [4. Maak eigenschappen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) en ga verder met stap 2.
 
    of
 
@@ -148,11 +148,11 @@ Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target
 
    Er zijn verschillende manieren om uw [!DNL Target] implementatie bij te werken. De volgende methoden kunnen bijvoorbeeld worden gebruikt voor webpagina&#39;s:
 
-   * **Via een &quot;Algemene parameter in[!DNL Adobe Launch]:**
+   * **Via een &quot;Algemene parameter in [!DNL Adobe Launch]:**
 
       Voor meer informatie, zie [Voeg Globale Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) van het Doel in de documentatie van *Adobe Experience Platform Launch* toe.
 
-   * **Via een &quot;globale parameter&quot; in[!DNL Dynamic Tag Management]:**
+   * **Via een &quot;globale parameter&quot; in [!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
