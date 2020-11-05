@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Zie ook Het doelcookie [verwijderen](/help/c-implementing-target/c-consideration
 
 ## Wanneer om Eerste of derdekoekjes te gebruiken {#section_F71B29420C004A7FA3B1921E619B326E}
 
-De site bepaalt welke cookies u wilt gebruiken. Het is handig om te begrijpen hoe Target werkt wanneer u probeert cookies van derden en van derden te begrijpen. Zie [Hoe werkt](../../../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584) Adobe Target voor meer informatie.
+De site bepaalt welke cookies u wilt gebruiken. Het is handig om te begrijpen hoe Target werkt wanneer u probeert cookies van derden en van derden te begrijpen. Zie [Hoe werkt](/help/c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584) Adobe Target voor meer informatie.
 
 Er zijn drie hoofdtoepassingen voor cookies:
 
@@ -70,7 +70,7 @@ Het cookie van de eerste partij wordt opgeslagen in [!DNL clientdomain.com], waa
 
 ## Gedrag cookie van derden {#section_4C3A83990BF8415BB1806602D84AED48}
 
-Het cookie van een andere fabrikant wordt opgeslagen in [!DNL clientcode.tt.omtrdc.net] en het cookie van de eerste partij wordt opgeslagen in [!DNL clientdomain.com], waar `clientdomain` u het domein wilt.
+Het cookie van de andere fabrikant wordt opgeslagen in [!DNL clientcode.tt.omtrdc.net] en het cookie van de eerste partij wordt opgeslagen in [!DNL clientdomain.com], waar `clientdomain` u het domein wilt.
 
 [!DNL Mbox.js] genereert een `mboxSession ID`. De eerste plaatsaanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met naam `mboxSession` en `mboxPC` en een omleidingsverzoek met een extra parameter ( `mboxXDomainCheck=true`) in te stellen.
 
@@ -84,7 +84,7 @@ Als de browser cookies van derden afwijst, worden deze cookies niet opgenomen in
 
 ## Gedrag cookie van derden en eerste partij {#section_F0C9AD8BFDF8457A999C4A07A0F7A981}
 
-Het cookie van een andere fabrikant wordt opgeslagen in [!DNL clientcode.tt.omtrdc.net] en het cookie van de eerste partij wordt opgeslagen in [!DNL clientdomain.com], waar `clientdomain` u het domein wilt.
+Het cookie van de andere fabrikant wordt opgeslagen in [!DNL clientcode.tt.omtrdc.net] en het cookie van de eerste partij wordt opgeslagen in [!DNL clientdomain.com], waar `clientdomain` u het domein wilt.
 
 [!DNL Mbox.js] genereert een `mboxSession ID`. De eerste plaatsaanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met naam `mboxSession` en `mboxPC`in te stellen, en een omleidingsverzoek wordt teruggestuurd met een extra parameter ( `mboxXDomainCheck=true`).
 
@@ -142,4 +142,4 @@ Van Apple:
 | Betrokken functionaliteit | Details |
 |--- |--- |
 | Ondersteuning voor uitschakelen | Met WebKit van Apple worden wijzigingen in WebKit doorgevoerd in de ondersteuning voor weigeren.<br>De optie om te weigeren gebruikt een cookie in het `clientcode.tt.omtrdc.net` domein. Zie [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)voor meer informatie.<br>Doel ondersteunt twee opt-outs:<ul><li>Eén per client (de client beheert de koppeling om te weigeren).</li><li>Een via Adobe die de gebruiker uit alle functionaliteit van het Doel voor alle klanten kiest.</li></ul>Beide methoden gebruiken het cookie van derden. |
-| Doelactiviteiten | Klanten kunnen hun [profiellevensduur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) voor hun doelaccounts kiezen (maximaal 90 dagen). De zorg is dat als de het profiellevensduur van de rekening langer is dan 30 dagen, en het eerstepartijkoekje wordt gezuiverd omdat het domein van de klant als het volgen van gebruikers dwars-plaats is gemerkt, het gedrag voor bezoekers Safari op de volgende gebieden in Doel zal worden beïnvloed:<br>**de Rapporten **van het Doel: Als een gebruiker Safari in een activiteit ingaat, na 30 dagen terugkeert, en dan omzet, telt die gebruiker als twee bezoekers en één omzetting.<br>Dit gedrag is het zelfde voor activiteiten die Analytics gebruiken zoals de rapporteringsbron (A4T).<br>**Profiel en activiteitenlidmaatschap**:<ul><li>Profielgegevens worden gewist wanneer het cookie van de eerste partij verloopt.</li><li>Het lidmaatschap van de activiteit wordt gewist wanneer het eerste-partijkoekje verloopt.</li><li> Het doel werkt niet in Safari voor accounts die een cookie-implementatie van een andere fabrikant of een cookie-implementatie van een andere fabrikant gebruiken. Dit gedrag is niet nieuw. Safari heeft cookies van derden al een tijdje niet toegestaan.</li></ul><br>**Suggesties **: Als er een zorg is dat het klantendomein als één het volgen bezoekers dwars-zitting zou kunnen worden gemerkt, is het het veiligst om het profielleven aan 30 dagen of minder in Doel te plaatsen. Dit zorgt ervoor dat gebruikers op dezelfde manier worden bijgehouden in Safari en alle andere browsers. |
+| Doelactiviteiten | Klanten kunnen hun [profiellevensduur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) voor hun doelaccounts kiezen (maximaal 90 dagen). De zorg is dat als de het profiellevensduur van de rekening langer is dan 30 dagen, en het eerstepartijkoekje wordt gezuiverd omdat het domein van de klant als het volgen van gebruikers dwars-plaats is gemerkt, het gedrag voor bezoekers Safari op de volgende gebieden in Doel zal worden beïnvloed:<br>**de Rapporten** van het Doel: Als een gebruiker Safari in een activiteit ingaat, na 30 dagen terugkeert, en dan omzet, telt die gebruiker als twee bezoekers en één omzetting.<br>Dit gedrag is het zelfde voor activiteiten die Analytics gebruiken zoals de rapporteringsbron (A4T).<br>**Profiel en activiteitenlidmaatschap**:<ul><li>Profielgegevens worden gewist wanneer het cookie van de eerste partij verloopt.</li><li>Het lidmaatschap van de activiteit wordt gewist wanneer het eerste-partijkoekje verloopt.</li><li> Het doel werkt niet in Safari voor accounts die een cookie-implementatie van een andere fabrikant of een cookie-implementatie van een andere fabrikant gebruiken. Dit gedrag is niet nieuw. Safari heeft cookies van derden al een tijdje niet toegestaan.</li></ul><br>**Suggesties**: Als er een zorg is dat het klantendomein als één het volgen bezoekers dwars-zitting zou kunnen worden gemerkt, is het het veiligst om het profielleven aan 30 dagen of minder in Doel te plaatsen. Dit zorgt ervoor dat gebruikers op dezelfde manier worden bijgehouden in Safari en alle andere browsers. |
