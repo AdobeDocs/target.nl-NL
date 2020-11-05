@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Een standaard A4T-use-case met meerdere pagina&#39;s implementeren:
 
 ## Hoe kan ik vertellen of A4T op mijn rekening van het Doel wordt toegelaten? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [Vereisten](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) voor gebruikersmachtigingen.
+Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [Vereisten](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) voor gebruikersmachtigingen.
 
 Als u lid bent van een of meer Experience Cloud-groepen die toegang hebben tot Analytics en Target en u toegang hebt tot alle rapportsuites, kunt u beter een A/B-test maken met Analytics onder **[!UICONTROL Create Activity]**.
 
