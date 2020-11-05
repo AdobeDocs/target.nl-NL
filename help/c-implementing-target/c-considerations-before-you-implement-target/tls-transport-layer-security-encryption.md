@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 0%
@@ -32,7 +32,7 @@ TLS 1.2 is de standaard vanaf 1 maart 2020 en TLS 1.1 wordt niet meer ondersteun
 
 Adobe verplaatst klanten geleidelijk naar TLS 1.2. Voor degenen, wier domeinen reeds 1.2 volgzaam zijn, zullen wij hen naar TLS 1.2 zonder enige veranderingen verplaatsen nodig van u. De meeste klantdomeinen ondersteunen reeds TLS 1.2; als uw domein echter geen TLS 1.2 ondersteunt, behouden we deze domeinen op TLS 1.1 zoals vandaag (tot maart 2020).
 
-Tijdens deze migratiefase mag u geen enkel probleem tegenkomen. Als VEC ophoudt ladend een plaats die vroeger werkte, [open een kaartje](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van de Zorg van de Cliënt die deze migratie als mogelijke oorzaak citeert.
+Tijdens deze migratiefase mag u geen enkel probleem tegenkomen. Als VEC ophoudt ladend een plaats die vroeger werkte, [open een kaartje](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van de Zorg van de Cliënt die deze migratie als mogelijke oorzaak citeert.
 
 Als u echter een van deze klanten bent die op TSL 1.1 werken zonder TLS 1.2 te ondersteunen, moet u plannen voor het verplaatsen van uw domeinen/infrastructuur naar TLS 1.2. We zullen het TLS 1.1-protocol blijven ondersteunen tot 1 maart 2020. Vanaf 1 maart 2020 biedt Target geen ondersteuning voor het TLS 1.1-protocol dat via de Enhanced Experience Composer-functie voor de VEC moet worden gebruikt.
 
@@ -58,7 +58,7 @@ Overweeg het volgende terwijl u deze wijziging wilt uitvoeren (de deadline van 1
 * Houd er rekening mee dat het aantal bezoekers in uw doelrapporten mogelijk een onbeduidende daling van het aantal bezoekers kan zien.
 * Mogelijk moet u het publiek wijzigen dat specifiek is gemaakt voor oudere apparaten of browsers die geen TLS 1.2 ondersteunen. Levering aan deze apparaten en browsers werkt niet meer.
 
-Zie [Ondersteunde browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)voor meer informatie over ondersteunde browsers en hun versies.
+Zie [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)voor meer informatie over ondersteunde browsers en hun versies.
 
 ## Adobe Target API&#39;s {#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ Vanaf 1 maart 2020 bieden doel-API&#39;s geen ondersteuning meer voor TLS 1.1-co
 
 ## Toegang tot Experience Cloud Solutions-interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Omdat voor de interface Target Standard/Premium al een [moderne webbrowser](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)is vereist, zijn er geen problemen te verwachten. Als u geen verbinding kunt maken met Target, moet u de browser upgraden naar de meest recente versie.
+Omdat voor de interface Target Standard/Premium al een [moderne webbrowser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)is vereist, zijn er geen problemen te verwachten. Als u geen verbinding kunt maken met Target, moet u de browser upgraden naar de meest recente versie.
 
 ## Controleren welke TLS-versie uw browser gebruikt {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
