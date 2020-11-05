@@ -5,7 +5,7 @@ title: Veelgestelde vragen over Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het mbox, bevat de kiezer voor het criterium alle toepasselijke criteria.
 
-Het doel heeft een [filter Incompatibele Criteria](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) die plaatsen om intelligent filtreren van de algoritmeplukker te controleren.
+Het doel heeft een [filter Incompatibele Criteria](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) die plaatsen om intelligent filtreren van de algoritmeplukker te controleren.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek dezelfde na
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. We raden echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, moet het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Aanvullende limieten voor de lengte van vereiste kolommen zijn beschikbaar op de pagina [](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)Doelbeperkingen.
+Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. We raden echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, moet het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Aanvullende limieten voor de lengte van vereiste kolommen zijn beschikbaar op de pagina [](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)Doelbeperkingen.
 
 ## Kan ik een entiteit dynamisch uitsluiten?
 
