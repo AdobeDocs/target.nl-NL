@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 1%
@@ -35,7 +35,7 @@ De bibliotheek mbox.js ondersteunt geen omleidingsaanbiedingen met A4T. Uw imple
 
 ## Wat is er veranderd? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-Wanneer [!DNL Adobe Analytics] wordt gebruikt om [!DNL Target] activiteiten (genoemd A4T) te meten, [!DNL Analytics] verzamelt extra gegevens die niet beschikbaar zijn wanneer er geen [!DNL Target] activiteit op de pagina is. Dit is omdat de [!DNL Target] activiteit een vraag bij de bovenkant van de pagina in brand brengt, maar [!DNL Analytics] typisch zijn vraag van de gegevensinzameling bij de bodem van de pagina in brand. Bij de implementatie van A4T tot op heden, hebben wij deze extra gegevens opgenomen wanneer een [!DNL Target] activiteit actief was. Deze aanvullende gegevens worden alleen opgenomen als de [!DNL Target] tags en de [!DNL Analytics] tags zijn geactiveerd.
+Wanneer [!DNL Adobe Analytics] wordt gebruikt om [!DNL Target] activiteiten (genoemd A4T) te meten, [!DNL Analytics] verzamelt extra gegevens die niet beschikbaar zijn wanneer er geen [!DNL Target] activiteit op de pagina is. Dit is omdat de [!DNL Target] activiteit een vraag bij de bovenkant van de pagina in brand brengt, maar [!DNL Analytics] typisch zijn vraag van de gegevensinzameling bij de bodem van de pagina in brand. Bij de implementatie van A4T tot op heden, hebben wij deze extra gegevens opgenomen wanneer een [!DNL Target] activiteit actief was. Deze aanvullende gegevens worden alleen opgenomen wanneer de [!DNL Target] tags en de [!DNL Analytics] tags zijn geactiveerd.
 
 ## Waarom heeft Adobe deze wijziging doorgevoerd? {#section_92380A4BD69E4B8886692DD27540C92A}
 
@@ -50,8 +50,8 @@ De vastgestelde oorzaken van gedeeltelijke gegevens zijn onder meer:
 * **Verkeerd uitgelijnde rapportsuite-id&#39;s (implementatie):** De rapportsuite die tijdens de activiteiteninstellingen is opgegeven, komt niet overeen met de rapportsuite op de pagina waar de test wordt uitgevoerd. Dit lijkt op gedeeltelijke gegevens omdat de gegevens niet op [!DNL Analytics] servers kunnen worden afgestemd.
 * **Trage pagina&#39;s:** Omdat [!DNL Target] de vraag bij de bovenkant van de pagina is en de [!DNL Analytics] vraag typisch bij de bodem van de pagina is, als de pagina langzaam laadt, verhoogt het de waarschijnlijkheid van een bezoeker die de pagina verlaten nadat de [!DNL Target] vraag, maar vóór de [!DNL Analytics] vraag brandt. Dit kan vooral problematisch zijn op mobiele websites, waar de verbindingen vaak trager zijn.
 * **Paginafouten:** Als er JavaScript-fouten zijn of andere scenario&#39;s waarin geen van de aanraakpunten wordt geactiveerd (Experience Cloud ID-service, Doel en Analyse), resulteert dit in gedeeltelijke gegevens.
-* **Omleidingsaanbod(s) in[!DNL Target]activiteit:** Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie Aanbiedingen [omleiden - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)voor meer informatie.
-* **Oude versies van de bibliotheken:** In het afgelopen jaar heeft Adobe verschillende verbeteringen aangebracht in onze JavaScript-bibliotheken ( [!DNL appMeasurement.js], `at.js/mbox.js`en `visitorAPI.js`) om ervoor te zorgen dat gegevens zo efficiënt mogelijk worden verzonden. Zie [Voordat u implementeert](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)voor meer informatie over implementatievereisten.
+* **Omleidingsaanbod(s) in [!DNL Target] activiteit:** Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie Aanbiedingen [omleiden - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)voor meer informatie.
+* **Oude versies van de bibliotheken:** In het afgelopen jaar heeft Adobe verschillende verbeteringen aangebracht in onze JavaScript-bibliotheken ( [!DNL appMeasurement.js], `at.js/mbox.js`en `visitorAPI.js`) om ervoor te zorgen dat gegevens zo efficiënt mogelijk worden verzonden. Zie [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)voor meer informatie over implementatievereisten.
 
 ## Wat zijn de beste praktijken om gedeeltelijke gegevens te verminderen? {#section_065C38501527451C8058278054A1818D}
 
