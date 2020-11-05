@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 19%
@@ -23,7 +23,7 @@ In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw si
 >* Als gebruikers aankopen doen op uw website, raden we u aan een bevestigingsvak voor bestellingen te implementeren, zelfs als u Analytics for Target (A4T) gebruikt voor uw rapportage.
    >
    >
-* U kunt ook een bevestigingsvak voor bestellingen maken voor at.js 1.*x* met dezelfde methode; de [!DNL at.js] methode heeft echter de voorkeur . Zie Conversies [bijhouden voor meer informatie](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* U kunt ook een bevestigingsvak voor bestellingen maken voor at.js 1.*x* met dezelfde methode; de [!DNL at.js] methode heeft echter de voorkeur . Zie Conversies [bijhouden voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
 * Als u at.js 2 gebruikt.*x*, `mboxCreate` wordt niet meer ondersteund. Voor bevestiging van de bestelling met behulp van at.js 2.*x*, gebruik volgende het volgen-verwante APIs: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) en [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
