@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
    >
    >Welke soorten activiteiten beschikbaar zijn, is afhankelijk van uw [!DNL Target] account. Sommige typen activiteiten worden mogelijk niet in de lijst weergegeven. Bijvoorbeeld, [!UICONTROL Recommendations] is een eigenschap [van de Premie van het](/help/c-intro/intro.md#premium)Doel.
    >
-   >Voor informatie over de diverse soorten activiteiten, zie [Activiteiten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) en de [Doelgids](/help/c-activities/target-activities-guide.md).
+   >Voor informatie over de diverse soorten activiteiten, zie [Activiteiten](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) en de [Doelgids](/help/c-activities/target-activities-guide.md).
 
 1. Selecteer **[!UICONTROL Visual (Default)]** indien nodig.
 
@@ -48,7 +48,7 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie het Oplossen van [problemen de Visuele Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)van de Ervaring.
    >
-   >De [!UICONTROL Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorgaande illustratie is een [doelpremiumfunctie](/help/c-intro/intro.md) . Uw organisatie heeft een [!UICONTROL Target Standard] licentie als deze optie niet wordt weergegeven.
+   >De [[!UICONTROL Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorgaande illustratie is een [doelpremiumfunctie](/help/c-intro/intro.md) . Uw organisatie heeft een [!UICONTROL Target Standard] licentie als deze optie niet wordt weergegeven.
 
 1. (Voorwaardelijk) Als u een klant [van de Premium van het](/help/c-intro/intro.md#premium)Doel bent, kies een [werkruimte](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -81,7 +81,7 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
 
    Nadat u een nieuwe activiteit hebt gemaakt, worden er twee tabbladen aan de linkerkant weergegeven: [!UICONTROL Visual Experience Composer] Ervaring A en ervaring B. Ervaring A is de ervaring van de controle. De focus zal liggen op het tabblad Experience B, dat u naar wens kunt wijzigen. Ervaring B is de alternatieve ervaring die u aan de test kunt toevoegen. U kunt meerdere ervaringen toevoegen aan de test. U kunt ook Experience A verwijderen uit de activiteit als u geen standaard site-ervaring wilt opnemen als optie.
 
-   Voor meer informatie over het toevoegen van en het wijzigen van ervaringen in [!UICONTROL Visual Experience Composer], zie [Voeg Ervaring](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)toe. Om Ervaring B te wijzigen, begin met Stap 3.
+   Voor meer informatie over het toevoegen van en het wijzigen van ervaringen in [!UICONTROL Visual Experience Composer], zie [Voeg Ervaring](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)toe. Om Ervaring B te wijzigen, begin met Stap 3.
 
 1. Klik **[!UICONTROL Targeting]** bij de bovenkant van [!UICONTROL Visual Experience Composer] om naar de volgende stap in de driestapige geleide workflow te gaan.
 
@@ -109,7 +109,7 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
 
    * **[!UICONTROL Manual (Default)]**: Geef het percentage voor alle ingangen op dat u wilt zien. U kunt de percentages gelijkmatig over alle ervaringen verdelen, of hogere of lagere percentages voor elke ervaring specificeren. Het totaal voor alle ervaringen moet 100% bedragen.
 
-   * **[!UICONTROL Auto-allocate to best experience]**: De meeste deelnemers aan de activiteit worden automatisch gericht op beter presterende ervaringen. Sommige bezoekers worden toegewezen aan alle ervaringen, om het verkennen van ervaringen te handhaven en veranderingen in prestatietrends te erkennen. Zie [Geautomatiseerde verkeerstoewijzing](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Auto-allocate to best experience]**: De meeste deelnemers aan de activiteit worden automatisch gericht op beter presterende ervaringen. Sommige bezoekers worden toegewezen aan alle ervaringen, om het verkennen van ervaringen te handhaven en veranderingen in prestatietrends te erkennen. Zie [Geautomatiseerde verkeerstoewijzing](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
    * **[!UICONTROL Auto-target for personalized experiences]**: [!DNL Target] maakt gebruik van geavanceerd computerleren om inhoud en stationsomzettingen aan te passen door het identificeren van meervoudige, door de markt gedefinieerde ervaringen, en vervolgens de meest toegesneden ervaring aan bezoekers te bezorgen op basis van hun individuele klantprofielen en eerdere gedragingen van vergelijkbare bezoekers. Voor meer informatie, zie [auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md).
    U kunt ook klikken **[!UICONTROL Add]** om een andere ervaring aan de activiteit toe te voegen.
