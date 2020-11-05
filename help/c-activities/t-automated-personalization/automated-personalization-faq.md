@@ -5,7 +5,7 @@ title: Veelgestelde vragen over Automated Personalization
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
    * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, waarschijnlijk zijn de aanbiedingen u overweegt niet voldoende verschillend van elkaar, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
 
-* Zorg ervoor om de [schatter](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) van het Verkeer te gebruiken zodat kunt u een idee hebben van hoe lang het voor verpersoonlijkingsmodellen zal vergen om in uw activiteit van Automated Personalization op te bouwen.
+* Zorg ervoor om de [schatter](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) van het Verkeer te gebruiken zodat kunt u een idee hebben van hoe lang het voor verpersoonlijkingsmodellen zal vergen om in uw activiteit van Automated Personalization op te bouwen.
 * Beslis over de toewijzing tussen controle en gericht alvorens met de activiteit te beginnen die op uw doelstellingen wordt gebaseerd.
 
    Er zijn drie scenario&#39;s die u kunt overwegen op basis van het doel van uw activiteit en het type besturingselement dat u hebt geselecteerd:
@@ -75,7 +75,7 @@ Er zijn vier factoren vereist voor een AP-activiteit om lift te genereren:
 
 De beste manier van werken is eerst ervoor te zorgen dat de inhoud en de locaties waaruit de activiteitenervaringen bestaan daadwerkelijk een verschil maken met de totale responspercentages met behulp van een eenvoudige, niet-gepersonaliseerde A/B-test. Zorg ervoor dat u de monstergrootten vooraf berekent om ervoor te zorgen dat er voldoende kracht is om een redelijke lift te zien en de A/B-test voor een vaste duur uit te voeren zonder deze te stoppen of wijzigingen aan te brengen. Als een A/B-testresultaten statistisch significante lift op een of meer van de ervaringen laten zien, is het waarschijnlijk dat een gepersonaliseerde activiteit zal werken. Natuurlijk kan personalisatie werken zelfs als er geen verschillen zijn in de totale responspercentages van de ervaringen. Doorgaans is het probleem het gevolg van aanbiedingen/locaties die niet voldoende invloed hebben op het optimalisatiedoel en die statistisch significant moeten worden opgespoord.
 
-Voor meer informatie, [het Oplossen van problemen Automated Personalization](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Voor meer informatie, [het Oplossen van problemen Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 ### Hoe wijst Automated Personalization het verkeer van mijn activiteiten toe? {#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -89,7 +89,7 @@ Automated Personalization kan worden gebruikt als &#39;altijd op&#39;-personalis
 
 ### Hoe lang moet ik wachten op modellen om te bouwen? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-De tijdsduur die nodig is voor modellen om uw activiteit uit te breiden, is doorgaans afhankelijk van het verkeer naar de geselecteerde locatie(s) van de activiteit en van de mate van succes van de activiteit. Gebruik de [schatter](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) van het Verkeer om de verwachte tijdsduur te bepalen het voor modellen zal vergen om in uw activiteit te bouwen.
+De tijdsduur die nodig is voor modellen om uw activiteit uit te breiden, is doorgaans afhankelijk van het verkeer naar de geselecteerde locatie(s) van de activiteit en van de mate van succes van de activiteit. Gebruik de [schatter](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) van het Verkeer om de verwachte tijdsduur te bepalen het voor modellen zal vergen om in uw activiteit te bouwen.
 
 ### Eén model is gebouwd binnen mijn activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
