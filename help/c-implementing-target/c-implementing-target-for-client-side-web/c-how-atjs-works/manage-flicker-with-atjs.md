@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Er wordt geflikkerd als de standaardinhoud tijdelijk aan bezoekers wordt weergeg
 
 ## Een automatisch gemaakte globale mbox gebruiken {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Als u de instelling [Automatisch globale mazelbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) maken inschakelt bij het configureren van at.js, wordt tijdens het laden van de pagina met .js de flikkering beheerd door de instelling voor dekking te wijzigen. Wanneer at.js wordt geladen, wordt de dekkingsinstelling van het `<body>` element gewijzigd in &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
+Als u de instelling [Automatisch globale mazelbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) maken inschakelt bij het configureren van at.js, wordt tijdens het laden van de pagina met .js de flikkering beheerd door de instelling voor dekking te wijzigen. Wanneer at.js wordt geladen, wordt de dekkingsinstelling van het `<body>` element gewijzigd in &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
 
 Als u de instelling inschakelt tijdens het configureren van at.js, stelt at.js de dekking van de HTML BODY-stijl in op 0. Nadat een reactie van Doel is ontvangen, stelt at.js de dekking van het HTML-BODY terug naar 1.
 
@@ -110,7 +110,7 @@ body {opacity: 0 !important}
 
 ## Flicker beheren in at.js 2.x voor triggerView()
 
-Wanneer het gebruiken `triggerView()` om gerichte inhoud in uw SPA te tonen, wordt het flikkerbeheer verstrekt uit de doos. Dit betekent dat vooraf verborgen logica niet handmatig hoeft te worden toegevoegd. In plaats daarvan verbergt at at.js 2.x de locatie waar de weergave moet worden weergegeven voordat de doelinhoud wordt toegepast.
+Als u `triggerView()` doelgerichte inhoud in uw SPA weergeeft, vindt u flikkerbeheer in het vak. Dit betekent dat vooraf verborgen logica niet handmatig hoeft te worden toegevoegd. In plaats daarvan verbergt at at.js 2.x de locatie waar de weergave moet worden weergegeven voordat de doelinhoud wordt toegepast.
 
 ## Flicker beheren met getOffer() en applyOffer()
 
