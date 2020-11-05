@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Informatie om uw technisch personeel te helpen de implementatie mbox.js begrijpen en hoe het uw plaats zou kunnen beïnvloeden.
 
-Voor de doelstandaard is [!DNL mbox.js] versie 58 of hoger vereist. Zie [!DNL mbox.js]Mbox-implementatie [](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)voor instructies over het downloaden en bijwerken van bestanden.
+Voor de doelstandaard is [!DNL mbox.js] versie 58 of hoger vereist. Zie [!DNL mbox.js]Mbox-implementatie [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)voor instructies over het downloaden en bijwerken van bestanden.
 
 Roept voor Target Standard een ander JavaScript-bestand aan [!DNL mbox.js] [!DNL target.js]. [!DNL Target.js] wordt gehost door Adobe en wordt automatisch bijgewerkt door Adobe. Er is niets u te doen om bij te werken [!DNL target.js], en er zijn geen cliënt-specifieke aanpassingen.
 
@@ -48,6 +48,6 @@ Wanneer u de pagina gebruikt [!UICONTROL Visual Experience Composer] om een hand
 
 ## Overwegingen bij hoeksites en toepassingen voor één pagina {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
-Als u Doel in een Hoekplaats of in om het even welke enig-Pagina Toepassing (SPA) uitvoert, zou u de bibliotheek at.js in plaats van mbox.js moeten gebruiken.
+Als u Doel implementeert in een hoeksite of in een toepassing voor één pagina (SPA), moet u de bibliotheek at.js gebruiken in plaats van mbox.js.
 
-Zie [at.js Implementation](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)voor meer informatie.
+Zie [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)voor meer informatie.
