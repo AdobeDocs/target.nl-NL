@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 
 1. Zorg ervoor dat u [!DNL at.js] versie 1.1 of hoger gebruikt.
 
-   Zie [Downloaden op .js voor meer informatie](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Zie [Downloaden op .js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. Klik [!DNL Target]in **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ De volgende instructies tonen hoe u een [!DNL at.js] aangepaste gebeurtenishandl
    });
    ```
 
-U kunt het volgende fragment toevoegen aan de bibliotheekvoettekst [op de pagina](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js Setup als u wilt dat alles één bestand is.
+U kunt het volgende fragment toevoegen aan de bibliotheekvoettekst [op de pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js Setup als u wilt dat alles één bestand is.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ De tokens van de reactie zullen aan de Reacties van het [!DNL at.js] Doel, maar 
 
 Plugins en reactietokens zijn parallel beschikbaar; insteekmodules worden in de toekomst echter afgekeurd .
 
-**Wordt de reactietokens geleverd door alle[!DNL Target]reacties of slechts door[!DNL Target]reacties leverend een activiteit?**
+**Wordt de reactietokens geleverd door alle [!DNL Target] reacties of slechts door [!DNL Target] reacties leverend een activiteit?**
 
 Reactietokens worden alleen geleverd door middel van [!DNL Target] reacties die een activiteit leveren.
 
