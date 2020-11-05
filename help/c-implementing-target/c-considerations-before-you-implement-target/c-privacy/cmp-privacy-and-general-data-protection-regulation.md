@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2248'
 ht-degree: 0%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 Er zijn drie scenario&#39;s om te overwegen wanneer het gebruiken van Opt-binnen:
 
-1. **De[!DNL Target]tag wordt vooraf goedgekeurd via[!DNL Launch](of de betrokkene is eerder goedgekeurd[!DNL Target]):** De [!DNL Target] tag wordt niet bewaard voor toestemming en functies zoals verwacht.
-1. **De[!DNL Target]tag is NIET vooraf goedgekeurd en`bodyHidingEnabled`is FALSE:** De [!DNL Target] tag wordt pas geactiveerd nadat de toestemming van de klant is verzameld. Voordat toestemming wordt verzameld, is alleen de standaardinhoud beschikbaar. Nadat de toestemming is ontvangen, [!DNL Target] wordt geroepen en de gepersonaliseerde inhoud is beschikbaar aan de betrokkene (bezoeker). Omdat alleen de standaardinhoud beschikbaar is voordat u toestemming geeft, is het belangrijk een geschikte strategie te gebruiken, zoals een welkomstpagina die een gedeelte van de pagina beslaat of inhoud die u kunt aanpassen. Dit zorgt ervoor dat de ervaring consistent blijft voor de betrokkene (bezoeker).
-1. **De[!DNL Target]tag is NIET vooraf goedgekeurd en`bodyHidingEnabled`is TRUE:** De [!DNL Target] tag wordt pas geactiveerd nadat de toestemming van de klant is verzameld. Voordat toestemming wordt verzameld, is alleen de standaardinhoud beschikbaar. Omdat `bodyHidingEnabled` deze waarde is ingesteld op true, `bodyHiddenStyle` bepaalt u echter welke inhoud op de pagina wordt verborgen totdat de [!DNL Target] tag wordt geactiveerd (of de betrokkene de aanmeldingsnaam weigert, in welk geval de standaardinhoud wordt weergegeven). Standaard `bodyHiddenStyle` is dit ingesteld op `body { opacity:0;}`waarmee de HTML-body-tag wordt verborgen. Onze aanbevolen paginaconfiguratie is hieronder weergegeven, zodat de volledige hoofdtekst van de pagina, behalve het dialoogvenster voor het beheer van de toestemming, wordt verborgen door de inhoud van de pagina in één container te plaatsen en het dialoogvenster voor het beheer van de toestemming in een aparte container. Deze opstelling vormt [!DNL Target] zodat het de container van de paginacontent slechts. Zie de documentatie van de [Lancering voor meer informatie over hoe te om deze montages](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)te vormen.
+1. **De [!DNL Target] tag wordt vooraf goedgekeurd via [!DNL Launch] (of de betrokkene is eerder goedgekeurd [!DNL Target]):** De [!DNL Target] tag wordt niet bewaard voor toestemming en functies zoals verwacht.
+1. **De [!DNL Target] tag is NIET vooraf goedgekeurd en `bodyHidingEnabled` is FALSE:** De [!DNL Target] tag wordt pas geactiveerd nadat de toestemming van de klant is verzameld. Voordat toestemming wordt verzameld, is alleen de standaardinhoud beschikbaar. Nadat de toestemming is ontvangen, [!DNL Target] wordt geroepen en de gepersonaliseerde inhoud is beschikbaar aan de betrokkene (bezoeker). Omdat alleen de standaardinhoud beschikbaar is voordat u toestemming geeft, is het belangrijk een geschikte strategie te gebruiken, zoals een welkomstpagina die een gedeelte van de pagina beslaat of inhoud die u kunt aanpassen. Dit zorgt ervoor dat de ervaring consistent blijft voor de betrokkene (bezoeker).
+1. **De [!DNL Target] tag is NIET vooraf goedgekeurd en `bodyHidingEnabled` is TRUE:** De [!DNL Target] tag wordt pas geactiveerd nadat de toestemming van de klant is verzameld. Voordat toestemming wordt verzameld, is alleen de standaardinhoud beschikbaar. Omdat `bodyHidingEnabled` deze waarde is ingesteld op true, `bodyHiddenStyle` bepaalt u echter welke inhoud op de pagina wordt verborgen totdat de [!DNL Target] tag wordt geactiveerd (of de betrokkene de aanmeldingsnaam weigert, in welk geval de standaardinhoud wordt weergegeven). Standaard `bodyHiddenStyle` is dit ingesteld op `body { opacity:0;}`waarmee de HTML-body-tag wordt verborgen. Onze aanbevolen paginaconfiguratie is hieronder weergegeven, zodat de volledige hoofdtekst van de pagina, behalve het dialoogvenster voor het beheer van de toestemming, wordt verborgen door de inhoud van de pagina in één container te plaatsen en het dialoogvenster voor het beheer van de toestemming in een aparte container. Deze opstelling vormt [!DNL Target] zodat het de container van de paginacontent slechts. Zie de documentatie van de [Lancering voor meer informatie over hoe te om deze montages](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)te vormen.
 
    De geadviseerde pagina opstelling voor scenario 3 is:
 
@@ -121,7 +121,7 @@ Alle GDPR- en CCPA-aanvragen voor alle [!DNL Experience Cloud] oplossingen, incl
 
 ### Welke informatie zal onze klanten [!DNL Adobe] toelaten om in antwoord op een gegevenssubject/een gebruikersverzoek te schrappen? {#section_4B51D00924EC4166B2442218B69214F0}
 
-De informatie met betrekking tot een individuele bezoeker binnen [!DNL Target] is vermeld binnen het Profiel van de [!DNL Target] Bezoeker. [!DNL Target] onze klanten in staat stellen alle gegevens te verwijderen die aan een id zijn gekoppeld in hun bezoekersprofiel. Zie [!DNL Target] Bezoekersprofiel [voor voorbeelden van de](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)opslag van profielgegevens.
+De informatie met betrekking tot een individuele bezoeker binnen [!DNL Target] is vermeld binnen het Profiel van de [!DNL Target] Bezoeker. [!DNL Target] onze klanten in staat stellen alle gegevens te verwijderen die aan een id zijn gekoppeld in hun bezoekersprofiel. Zie [!DNL Target] Bezoekersprofiel [voor voorbeelden van de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)opslag van profielgegevens.
 
 Geaggregeerde of geanonimiseerde gegevens (bijvoorbeeld gegevens die een bepaalde persoon niet identificeren) of gegevens die geen verband houden met een specifieke persoon (bijvoorbeeld inhoudsgegevens), vallen buiten het bereik van een verzoek tot verwijdering van een gebruiker.
 
@@ -296,7 +296,7 @@ De volgende tabel bevat een beschrijving van de JSON-velden voor het illustratie
 
 ### Steunt het Doel IP verduistering? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] steunt IP verwarring als u verkiest om het als deel van uw GDPR of CCPA implementatiestrategie te gebruiken. Zie [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)voor meer informatie.
+[!DNL Target] steunt IP verwarring als u verkiest om het als deel van uw GDPR of CCPA implementatiestrategie te gebruiken. Zie [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)voor meer informatie.
 
 ### Moet ik iets doen om te voorkomen dat mijn gegevens worden gedeeld of verkocht aan derden?
 
