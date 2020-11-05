@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 0%
@@ -76,7 +76,7 @@ if (mbox.name == 'Track_Interest') {
 Houd rekening met het volgende:
 
 * Raadpleeg scriptkenmerken voor profielen (ook zichzelf) in de code met `user.get('parameterName')`
-* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van het laatste verzoek wilt verwijzen.
+* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met kunnen worden geopend `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van de laatste aanvraag wilt verwijzen.
 * Parameters en waarden zijn hoofdlettergevoelig. Komt overeen met het geval van de parameters en waarden die u ontvangt tijdens de activiteit of test.
 * Zie de sectie &quot;JavaScript reference for script profile parameters&quot; hieronder voor meer JavaScript-syntaxis.
 * De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, zullen in die activiteit kwalificeren.
@@ -122,7 +122,7 @@ De meest gangbare redenen voor het uitschakelen van profielscripts zijn:
 * Een niet-gedefinieerde variabele waarnaar wordt verwezen.
 * Er wordt verwezen naar een ongeldige waarde. Dit wordt vaak veroorzaakt door het verwijzen naar URL-waarden en andere door de gebruiker ingevoerde gegevens zonder juiste validatie.
 * Er worden te veel JavaScript-instructies gebruikt. Doel heeft een limiet van 2.000 JavaScript-instructies per script, maar dit kan niet eenvoudig worden berekend door het JavaScript handmatig te lezen. Rhino behandelt bijvoorbeeld alle functieaanroepen en &quot;nieuwe&quot; aanroepen als 100 instructies. Dit betekent dat elke aanroep van een functie 100 instructies gebruikt. Ook, kan de grootte van om het even welke ingangsgegevens, zoals waarden URL, de instructietelling beïnvloeden.
-* Geen items volgen die in de onderstaande sectie [aanbevolen procedures](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) zijn gemarkeerd.
+* Geen items volgen die in de onderstaande sectie [aanbevolen procedures](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) zijn gemarkeerd.
 
 ## Aanbevolen procedures {#best}
 
@@ -179,7 +179,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 **Is het mogelijk om profielmanuscripten te gebruiken om informatie van een pagina te vangen die in een gegevenslaag verblijft?**
 
-Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [methodes worden overgegaan om gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen. Nadat de gegevens zich in Doel bevinden, kunnen de profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
+Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [methodes worden overgegaan om gegevens in Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen. Nadat de gegevens zich in Doel bevinden, kunnen de profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
 
 ## JavaScript-referentie voor scriptprofielparameters
 
