@@ -5,7 +5,7 @@ title: Het oplossen van problemen de Composer van de Visuele Ervaring en Verbete
 feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De VEC is een van de belangrijkste kenmerken van Adobe Target. VEC is een redact
 
 De EEG is een uitbreiding van VEC die u helpt een ervaring voor een iframe-bouwend plaats of pagina&#39;s uitgeven die nog niet de implementatie van het Doel omvatten. Als u problemen hebt met het openen van uw pagina in de VEC, probeert u de EEG.
 
-Zie [Ervaringen](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)voor informatie over de VEC en de EEG.
+Zie [Ervaringen](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)voor informatie over de VEC en de EEG.
 
 Sommige kwesties betreffen zowel de VEC als de EEG en sommige kwesties betreffen slechts één van de twee composers. Controleer de juiste pagina voor meer informatie.
 
