@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Voor meer informatie over het Targeting van de Ervaring, een gebruik-case scenar
    >
    >De beschikbare activiteitstypen zijn afhankelijk van uw Target-account. Sommige typen activiteiten worden mogelijk niet in de lijst weergegeven. Bijvoorbeeld, [!UICONTROL Automated Personalization] is een eigenschap [van de Premie van het](/help/c-intro/intro.md#premium)Doel.
    >
-   >Zie [!DNL Target] Activiteiten [voor meer informatie over de verschillende soorten activiteiten die beschikbaar zijn in](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)en hun verschillen. Zie [Doelactiviteitstypen](/help/c-activities/target-activities-guide.md) om u te helpen bepalen welk type activiteit het beste geschikt is voor uw behoeften.
+   >Zie [!DNL Target] Activiteiten [voor meer informatie over de verschillende soorten activiteiten die beschikbaar zijn in](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)en hun verschillen. Zie [Doelactiviteitstypen](/help/c-activities/target-activities-guide.md) om u te helpen bepalen welk type activiteit het beste geschikt is voor uw behoeften.
 
 1. Selecteer **[!UICONTROL Visual (Default)]** indien nodig.
 
@@ -52,7 +52,7 @@ Voor meer informatie over het Targeting van de Ervaring, een gebruik-case scenar
 
 1. (Voorwaardelijk) Als u een klant van de Premium van het Doel bent, [kies een werkruimte](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Geef de URL [van uw](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)activiteit op en klik op **[!UICONTROL Next]**.
+1. Geef de URL [van uw](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)activiteit op en klik op **[!UICONTROL Next]**.
 
    Als uw account is [geconfigureerd met een standaard-URL](/help/administrating-target/visual-experience-composer-set-up.md), wordt die URL standaard weergegeven. U kunt desgewenst van de standaard naar een andere URL overschakelen.
 
@@ -81,4 +81,4 @@ Voor meer informatie over het Targeting van de Ervaring, een gebruik-case scenar
 
    Zie Ervaring [toevoegen voor stapsgewijze instructies](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
-1. Geef de [doelen en instellingen](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) voor de activiteit op.
+1. Geef de [doelen en instellingen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) voor de activiteit op.
