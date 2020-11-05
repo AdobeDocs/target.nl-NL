@@ -5,7 +5,7 @@ title: Criteria selecteren
 feature: recs creation
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Als u meerdere criteria selecteert, wordt het verkeer gelijkmatig over de gesele
 
    Er worden enkele criteria verstrekt [!DNL Recommendations]. U en uw team kunnen ook uw eigen aangepaste criteria maken.
 
-* Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Zie [Nieuwe criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)maken voor meer informatie over het maken van nieuwe criteria.
+* Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Zie [Nieuwe criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)maken voor meer informatie over het maken van nieuwe criteria.
 
 **Criteria selecteren:**
 
-1. Zoek en selecteer een of meer criteria tijdens het [maken van een nieuwe aanbeveling](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)in het **[!UICONTROL Select Criteria]** dialoogvenster.
+1. Zoek en selecteer een of meer criteria tijdens het [maken van een nieuwe aanbeveling](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)in het **[!UICONTROL Select Criteria]** dialoogvenster.
 
    ![Selectiecriteria, dialoogvenster](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
