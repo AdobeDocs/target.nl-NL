@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -41,11 +41,11 @@ Er zijn geen ervaringen als u een Recommendations-activiteit maakt. Kies uw crit
    >
    >Als u een handmatig ingevoerde locatie maakt tijdens het maken van een activiteit, wordt niet automatisch een nieuwe locatie gemaakt. De locatienaam wordt alleen opgeslagen in de context van de activiteit. De plaats wordt gecreeerd wanneer er een vraag van de inhoudslevering is. Na de locatie die wordt gemaakt, zal deze beschikbaar zijn voor gebruik in andere activiteiten, voor het creëren van publiek, enz. in de vervolgkeuzelijst met beschikbare locaties.
 
-1. Klik **[!UICONTROL Add Audience Refinements]** en kies een of meer [doelgroepen](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) voor deze activiteit.
+1. Klik **[!UICONTROL Add Audience Refinements]** en kies een of meer [doelgroepen](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) voor deze activiteit.
 
    ![](assets/location_refinements_2.png)
 
-   In de Form-based Experience Composer zijn Refinements vervangen door volledige publieksfunctionaliteit. Verfijningen voor bestaande activiteiten zijn gemigreerd naar [activiteiten-alleen-publiek](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   In de Form-based Experience Composer zijn Refinements vervangen door volledige publieksfunctionaliteit. Verfijningen voor bestaande activiteiten zijn gemigreerd naar [activiteiten-alleen-publiek](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Selecteer het type inhoud dat u op die locatie wilt weergeven.
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ Er zijn geen ervaringen als u een Recommendations-activiteit maakt. Kies uw crit
 1. Klik **[!UICONTROL Next]** en voer de gebruikelijke stappen voor het maken van activiteiten voor het type activiteit uit.
 
 * [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [Een ervaring maken die gericht is op activiteiten](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Een Recommendations-activiteit maken](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Een ervaring maken die gericht is op activiteiten](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [Een Recommendations-activiteit maken](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Trainingsvideo: Zelfstudie ![voor formuliergebaseerde composer](/help/assets/tutorial.png)
 
