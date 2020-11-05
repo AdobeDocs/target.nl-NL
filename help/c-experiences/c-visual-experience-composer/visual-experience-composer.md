@@ -4,7 +4,7 @@ title: Adobe Target Visual Experience Composer (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 0%
@@ -54,7 +54,7 @@ U kunt ook klikken **[!UICONTROL Browse]**, naar een pagina navigeren die vanaf 
 >
 >Als een aanwijsstatus afhankelijk is van JavaScript, moet u ervoor zorgen dat deze **[!UICONTROL Disable JavaScript]** niet is geselecteerd. JavaScript moet zijn ingeschakeld om JavaScript-elementen te bewerken.
 
-Voor informatie over de opties beschikbaar in VEC, zie de Opties [van Composer van de](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)Visuele Ervaring.
+Voor informatie over de opties beschikbaar in VEC, zie de Opties [van Composer van de](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)Visuele Ervaring.
 
 U kunt enkele wijzigingen op een pagina uitvoeren terwijl de pagina wordt geladen (of nadat de pagina niet is geladen), of u kunt het laden van de pagina in de VEC annuleren. Zie voor meer informatie:
 
@@ -133,7 +133,7 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 ### Kantooruren: Videozelfstudie ![van composer voor visuele ervaring](/help/assets/tutorial.png)
 
-Deze video is een opname van &quot; [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, een initiatief van het team van de klantenservice van Adobe.
+Deze video is een opname van &quot; [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, een initiatief van het team van de klantenservice van Adobe.
 
 * Hoe werkt VEC
 * Hoe te vermijden gemeenschappelijke kwesties met VEC
