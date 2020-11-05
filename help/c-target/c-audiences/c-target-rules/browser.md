@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Er zijn twee manieren om browsers als doel in te stellen:
 
 1. Klik **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
-   * **Type:** Een bepaalde browser activeren of uitsluiten. Zie [Tekst](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Taal:** Hiermee kunt u bepaalde browsers activeren of uitsluiten die zijn ingesteld op het gebruik van specifieke talen. Zie [Taal](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Versie:** Bepaalde browserversies activeren of uitsluiten. Zie [Versie](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Type:** Een bepaalde browser activeren of uitsluiten. Zie [Tekst](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Taal:** Hiermee kunt u bepaalde browsers activeren of uitsluiten die zijn ingesteld op het gebruik van specifieke talen. Zie [Taal](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Versie:** Bepaalde browserversies activeren of uitsluiten. Zie [Versie](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
 1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
 1. Klik op **[!UICONTROL Save]**.
