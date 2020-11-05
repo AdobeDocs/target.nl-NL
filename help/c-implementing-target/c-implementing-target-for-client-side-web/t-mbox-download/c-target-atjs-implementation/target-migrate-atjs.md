@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Het migreren van mbox.js naar at.js in [!DNL Adobe Target] is een eenvoudig proc
 
 Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw migratie te controleren:
 
-1. Bepaal de de [browser van uw organisatie steunvereisten](../../../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) .
+1. Bepaal de de [browser van uw organisatie steunvereisten](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) .
 1. Controleer de huidige [!DNL mbox.js] implementatie van uw website op mogelijkheden die niet worden ondersteund door [!DNL at.js].
 
    Wanneer het controleren van uw implementatie, zoek het volgende:
@@ -39,7 +39,7 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    >
    >Zie [at.js voor meer informatie over de verschillende functies die in de voorgaande tabel worden genoemd](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
-   **Hebt u aanpassingen aan uw[!DNL mbox.js]bestand?**
+   **Hebt u aanpassingen aan uw [!DNL mbox.js] bestand?**
 
    * mboxParameters()
    * mboxSupported()
@@ -47,15 +47,15 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    * Extra JavaScript
    * Overige locaties
 
-   De meeste [objecten en methoden](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) mbox.js (zoals `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`en andere) worden niet ondersteund. Alternatieve benaderingen kunnen mogelijk zijn om te bereiken wat u probeert te doen.
+   De meeste [objecten en methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) mbox.js (zoals `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`en andere) worden niet ondersteund. Alternatieve benaderingen kunnen mogelijk zijn om te bereiken wat u probeert te doen.
 
-   **Hebt u[!DNL mbox.js]op een van uw webpagina&#39;s?**
+   **Hebt u [!DNL mbox.js] op een van uw webpagina&#39;s?**
 
    U kunt niet zowel [!DNL at.js] als [!DNL mbox.js] op dezelfde webpagina gebruiken. U kunt de twee JavaScript-bibliotheken echter op twee verschillende pagina&#39;s van dezelfde website gebruiken.
 
    Het cookie van de box is de belangrijkste manier waarop Adobe de bezoeker van pagina tot pagina verbindt. Als onderdeel van uw kwaliteitscontrole moet u bevestigen dat het cookie wordt behouden en correct wordt gelezen terwijl de bezoeker heen en weer gaat tussen pagina&#39;s met [!DNL at.js] en pagina&#39;s met [!DNL mbox.js]. Zorg ervoor dat dezelfde `mboxPC` en `mboxSession` waarden worden doorgegeven in de mbox-aanroepen, ongeacht welk gedeelte van de site ( [!DNL at.js] of [!DNL mbox.js]) de bezoeker eerst landt en in welk gedeelte de cookie oorspronkelijk is ingesteld. Als u cookies van derden gebruikt in uw implementatie, moet u ervoor zorgen dat deze waarden gelijk blijven wanneer u door de site bladert.
 
-   **Integreert u[!DNL Target]met andere Adobe oplossingen?**
+   **Integreert u [!DNL Target] met andere Adobe oplossingen?**
 
    * Analyse (A4T)
    * Analytics (legacy integration)
@@ -64,9 +64,9 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    * AEM
    * Data Workbench
 
-   Sommige verouderde integraties worden niet ondersteund door [!DNL at.js]. Zie de pagina [Integraties](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) voor meer informatie.
+   Sommige verouderde integraties worden niet ondersteund door [!DNL at.js]. Zie de pagina [Integraties](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) voor meer informatie.
 
-   **Integreert u[!DNL Target]met andere hulpprogramma&#39;s van derden?**
+   **Integreert u [!DNL Target] met andere hulpprogramma&#39;s van derden?**
 
    * Andere analysefuncties
    * Overige DMP&#39;s
@@ -74,7 +74,7 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    * Klikverhaal
    * Overige
 
-   Deze integratie moet mogelijk worden aangepast om te kunnen werken met [!DNL at.js]. Zie de pagina [Integraties](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) voor meer informatie.
+   Deze integratie moet mogelijk worden aangepast om te kunnen werken met [!DNL at.js]. Zie de pagina [Integraties](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) voor meer informatie.
 
    **Gebruikt u een tagbeheer?**
 
@@ -83,7 +83,7 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    * Tealium
    * Signal/BrightTag
 
-   Zie [at.js Integrations](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)voor meer informatie.
+   Zie [at.js Integrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)voor meer informatie.
 
    >[!NOTE]
    >
@@ -94,8 +94,8 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
    Hier volgen enkele voorbeelden van wat u kunt doen tijdens het testen om te controleren of [!DNL at.js] het programma naar behoren functioneert:
 
    * Zorg ervoor dat al uw huidige activiteiten werken met de nieuwe JavaScript-bibliotheek.
-   * Controleer of alle [integratie](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) - en [insteekmodules](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) naar behoren werken.
-   * Zorg ervoor u comfortabel [het zuiveren](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) met de benaderingen beschikbaar bij [!DNL at.js].
+   * Controleer of alle [integratie](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) - en [insteekmodules](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) naar behoren werken.
+   * Zorg ervoor u comfortabel [het zuiveren](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) met de benaderingen beschikbaar bij [!DNL at.js].
 
 **Mogelijke problemen bij het migreren naar at.js** Sommige klanten hebben na het uitvoeren van de migratie naar at.js de volgende problemen gemeld:
 
@@ -120,6 +120,6 @@ In deze gevallen kunnen elementkiezers beginnen met iets als
    HTML > BODY > DIV:nth-of-type(1)
    ```
 
-   Voor meer informatie over hoe te om de coderedacteur te gebruiken om dit te doen, zie de Redacteur [van de](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)Code.
+   Voor meer informatie over hoe te om de coderedacteur te gebruiken om dit te doen, zie de Redacteur [van de](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)Code.
 
-* Omdat alle vakken nu asynchroon zijn, blokkeren ze het weergeven van pagina&#39;s of retourneren ze niet in de volgorde waarin ze zijn gestart. Voor meer informatie, zie &quot;Asynchrone Overwegingen&quot;in [at.js Beperkingen](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Omdat alle vakken nu asynchroon zijn, blokkeren ze het weergeven van pagina&#39;s of retourneren ze niet in de volgorde waarin ze zijn gestart. Voor meer informatie, zie &quot;Asynchrone Overwegingen&quot;in [at.js Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
