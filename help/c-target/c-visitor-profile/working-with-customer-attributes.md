@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Houd rekening met de volgende informatie als uw werk met klantenkenmerken en [!D
    >[!DNL at.js] (elke versie) of [!DNL mbox.js] versie 58 of hoger is vereist.
 
 * [!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de database worden toegevoegd [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij [!DNL Target]de toepassing. In ons huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt.
-* De levensduur van klantkenmerkgegevens die worden geïmporteerd van de [!DNL Experience Cloud] [!DNL Target] naar, is afhankelijk van de levensduur van het bezoekersprofiel, dat standaard 14 dagen is. Zie Levensduur [bezoekersprofiel](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)voor meer informatie.
+* De levensduur van klantkenmerkgegevens die worden geïmporteerd van de [!DNL Experience Cloud] [!DNL Target] naar, is afhankelijk van de levensduur van het bezoekersprofiel, dat standaard 14 dagen is. Zie Levensduur [bezoekersprofiel](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)voor meer informatie.
 * Als de `vst.*` parameters het enige element zijn dat de bezoeker identificeert, wordt het bestaande &quot;geverifieerde&quot; profiel niet opgehaald zolang `authState` het niet is GEAUTHENTIFICEERD (0). Het profiel wordt alleen in werking gesteld als het `authState` wordt gewijzigd in AUTHENTICATED (1).
 
    Bijvoorbeeld, als de `vst.myDataSource.id` parameter wordt gebruikt om de bezoeker (waar is de gegevensbronalias) te identificeren en er geen MCID of derdeidentiteitskaart is, zal het gebruiken van de parameter `myDataSource` `vst.myDataSource.authState=0` niet het profiel halen dat door de invoer van de Attributen van de Klant zou kunnen worden gecreeerd. Als het gewenste gedrag het voor authentiek verklaarde profiel moet halen, `vst.myDataSource.authState` moet de waarde van 1 (VERIFIEERD) hebben.
