@@ -6,7 +6,7 @@ feature: ab
 solution: Target
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 Gebruik metriek in A/B activiteit om te bepalen wanneer een bezoek succesvol is.
 
-Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor gedetailleerde informatie over succesmetriek.
+Zie [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor gedetailleerde informatie over succesmetriek.
 
 1. Geef het doel van de activiteit op.
-1. Selecteer een [succesmetrische waarde](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Selecteer een [succesmetrische waarde](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Metrisch met successie selecteren](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
@@ -40,7 +40,7 @@ Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#r
 
    De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt u verwacht.
 
-   Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor meer informatie.
+   Zie [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor meer informatie.
 1. (Optioneel) Voeg aanvullende metriek toe.
 1. Klik **[!UICONTROL Continue]** wanneer u klaar bent met het instellen van de metriek.
 
