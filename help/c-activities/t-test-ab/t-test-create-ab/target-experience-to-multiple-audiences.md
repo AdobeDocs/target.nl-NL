@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -44,7 +44,7 @@ In dit geval, wat u nodig hebt zijn geo-specifieke versies van de ervaring, zoda
 
    ![](assets/exp-versions.png)
 
-   Als het publiek nog niet bestaat, klikt u op [Publiek](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) maken en stelt u dit in.
+   Als het publiek nog niet bestaat, klikt u op [Publiek](/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) maken en stelt u dit in.
 
    Als een bezoeker voor meer dan één publiek in aanmerking komt, wordt de inhoud voor alle soorten publiek geretourneerd, waarbij de laatste in de lijst daadwerkelijk op de pagina wordt weergegeven.
 
