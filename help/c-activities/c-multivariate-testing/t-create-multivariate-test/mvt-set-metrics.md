@@ -6,7 +6,7 @@ feature: mvt
 solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 Gebruik metriek in een Multivariate Test om te bepalen wanneer een bezoek succesvol is.
 
-Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor gedetailleerde informatie over succesmetriek.
+Zie [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor gedetailleerde informatie over succesmetriek.
 
 1. Geef het doel van de activiteit op.
-1. Selecteer een [succesmetrische waarde](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Selecteer een [succesmetrische waarde](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Lijst met metriek instellen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
@@ -40,7 +40,7 @@ Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#r
 
    De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt u verwacht.
 
-   Zie [Succeswaarden voor meer informatie](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   Zie [Succeswaarden voor meer informatie](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Optioneel) Voeg aanvullende metriek toe.
 1. Klik **[!UICONTROL Continue]** wanneer u klaar bent met het instellen van de metriek.
 Wanneer u metrische gegevens een naam geeft of de naam ervan wijzigt, zijn de volgende tekens niet toegestaan:
