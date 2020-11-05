@@ -5,7 +5,7 @@ title: Dezelfde ervaring opnemen op vergelijkbare pagina's met Adobe Target
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -32,7 +32,7 @@ U kunt deze functie bijvoorbeeld gebruiken om een van de volgende handelingen ui
 
 U kunt pagina&#39;s specificeren die de veranderingselementen omvatten, of de verandering over uw plaats of domein toepassen.
 
-1. Maak of bewerk een activiteit zoals beschreven in [Activiteiten](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Maak of bewerk een activiteit zoals beschreven in [Activiteiten](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
 1. Als u de pagina&#39;s wilt opgeven waar de ervaring wordt weergegeven, klikt u in de [!UICONTROL Visual Experience Composer] (VEC) op het tandwielpictogram en selecteert u **[!UICONTROL Page Delivery]**.
 
@@ -90,7 +90,7 @@ U zou het gebruiken van malplaatjeregels kunnen overwegen om de zelfde activitei
 * Een globale banner opnemen (bijvoorbeeld COVID-19-aankondigingen)
 * Een wereldwijde gratis verzendaanbieding opnemen
 
-1. Maak of bewerk een activiteit zoals beschreven in [Activiteiten](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Maak of bewerk een activiteit zoals beschreven in [Activiteiten](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
 1. Om het domein te specificeren waar de ervaring zal verschijnen, in Visual Experience Composer klikt het tandwielpictogram, dan uitgezocht **[!UICONTROL Page Delivery]**.
 
