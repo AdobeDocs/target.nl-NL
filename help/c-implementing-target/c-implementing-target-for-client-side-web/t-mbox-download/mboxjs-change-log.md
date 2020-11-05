@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Op deze pagina worden wijzigingen in elke versie van mbox.js weergegeven.
 >
 >We raden alle gebruikers van mbox.js aan een upgrade naar versie 57 of hoger uit te voeren. Sommige gebruikers hebben time-outproblemen ervaren wanneer deze `target.js` niet konden worden geladen. Versie 57 heeft dat probleem opgelost. Als u echter de [!DNL Experience Cloud Visitor ID] service gebruikt, is versie 58 of hoger vereist.
 
-De manier waarop Doel reageert op aanroepen vanuit uw pagina is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de implementatie van de bezoekersidentiteitskaart aanwezig is en of de bezoekersidentiteitskaart bestaat. Voor informatie, zie de Reacties van de Vraag van het [Doel door de Versie](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)van de Bibliotheek.
+De manier waarop Doel reageert op aanroepen vanuit uw pagina is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de implementatie van de bezoekersidentiteitskaart aanwezig is en of de bezoekersidentiteitskaart bestaat. Voor informatie, zie de Reacties van de Vraag van het [Doel door de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)van de Bibliotheek.
 
 >[!NOTE]
 >
->De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## mbox.js versie 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ Ook in Versie 60, als het [!DNL visitorAPI.js] dossier voor de dienst van identi
 
 * asynchrone aanroepen van V60
 
-   Wanneer u v60 gebruikt met de service bezoekersidentiteitskaart, worden alle mbox-aanroepen asynchroon uitgevoerd. Dit is een verandering van hoe dozen altijd hebben gewerkt, dus voorzie als het bevorderen aan deze versie. Herzie de [Asynchrone sectie van Overwegingen](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) van de [!DNL at.js] documentatie ( [!DNL at.js] gebruikt ook asynchrone vraag) om enkele risico&#39;s te begrijpen.
+   Wanneer u v60 gebruikt met de service bezoekersidentiteitskaart, worden alle mbox-aanroepen asynchroon uitgevoerd. Dit is een verandering van hoe dozen altijd hebben gewerkt, dus voorzie als het bevorderen aan deze versie. Herzie de [Asynchrone sectie van Overwegingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) van de [!DNL at.js] documentatie ( [!DNL at.js] gebruikt ook asynchrone vraag) om enkele risico&#39;s te begrijpen.
 * Nieuwe bezoekersscenario&#39;s kunnen flikkeren
 
    Wanneer u v58 tot v60 gebruikt met de service bezoekersidentiteitskaart, wachten mbox-aanroepen tot de bezoekersidentiteitskaart is ingesteld voordat deze wordt geactiveerd (of tot er een time-out is opgetreden). Dit gebeurt bij het laden van de eerste pagina van een nieuwe bezoeker.
