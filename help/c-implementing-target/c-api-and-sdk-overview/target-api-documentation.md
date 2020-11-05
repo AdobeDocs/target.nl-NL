@@ -6,7 +6,7 @@ feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Informatie die u helpt bij het gebruik van de overgang van de verouderde API&#39
 
 Met de buitenbedrijfstelling van Adobe Target Classic zijn de API&#39;s die zijn verbonden met uw Target Classic-account ook niet beschikbaar. Dit document helpt u bij de overgang van uw verouderde API-integratie naar de doel-API&#39;s die worden aangedreven door Adobe I/O.
 
-Zie [Doel-API&#39;s en NodeJS SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6)voor meer informatie over de documentatie van de doel-API.
+Zie [Doel-API&#39;s en NodeJS SDK](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6)voor meer informatie over de documentatie van de doel-API.
 
 ## Terminologie {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
