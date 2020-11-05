@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Met een werkruimte kan een organisatie een specifieke set gebruikers toewijzen a
 
 Als u deel uitmaakt van een multinationale organisatie, hebt u mogelijk een werkruimte voor uw Europese webpagina&#39;s, eigenschappen of sites en een andere werkruimte voor uw Amerikaanse webpagina&#39;s, eigenschappen of sites. Als u deel uitmaakt van een organisatie met meerdere merken, hebt u mogelijk een aparte werkruimte voor elk van uw merken.
 
-Voor meer informatie over werkruimten en de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming, zie de Toestemmingen [van de](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)Gebruiker van de Onderneming.
+Voor meer informatie over werkruimten en de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming, zie de Toestemmingen [van de](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)Gebruiker van de Onderneming.
 
 Als u de Toestemmingen van de Gebruiker van de Onderneming hebt die in uw milieu worden toegelaten, kunt u activiteiten aan de zelfde werkruimte of aan een andere werkruimte kopiëren. U kunt een activiteit momenteel niet van één werkruimte naar een andere verplaatsen. Als u een activiteit naar een andere werkruimte wilt kopiëren, gaat u van de [!UICONTROL Activities] pagina over de activiteit die u wilt kopiëren, klikt u op het [!UICONTROL Copy] pictogram en selecteert u de gewenste werkruimte in de vervolgkeuzelijst.
 
