@@ -5,7 +5,7 @@ title: Recommendations Classic versus Recommendations-activiteiten in Target Pre
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -52,14 +52,14 @@ Zie [Recommendations als een voorstel](/help/c-recommendations/recommendations-a
 
 De criteria worden pre-gevormd en gesorteerd door de industrie verticals, paginatypen, en implementatie. U kunt bijvoorbeeld zoeken naar de criteria die van toepassing zijn op de verticale handelsversie, voor gebruik op een productpagina, waarbij producten uit een bepaalde categorie (zoals gedefinieerd door de `entity.categoryID` parameter) worden weergegeven.
 
-Zie [Criteria voor meer informatie over het gebruik en het maken van criteria](../../c-recommendations/c-algorithms/algorithms.md).
+Zie [Criteria voor meer informatie over het gebruik en het maken van criteria](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Workflow {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 De [!DNL Recommendations] workflow is vereenvoudigd. In plaats van ingewikkelde formulieren in te vullen, volgt u een visuele workflow om:
 
 1. Selecteer de criteria.
-1. Selecteer een vooraf geconfigureerd [ontwerp](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Selecteer een vooraf geconfigureerd [ontwerp](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Bekijk de resulterende aanbevelingen.
 
 ## Visuele voorvertoning {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
