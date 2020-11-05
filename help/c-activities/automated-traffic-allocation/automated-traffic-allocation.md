@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3344'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Automatisch toewijzen wijst nieuwe bezoekers op intelligente wijze toe aan ervar
 ## Wanneer wordt Automatisch toewijzen gebruikt in plaats van A/B of Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Gebruik **Automatisch toewijzen** als u uw activiteiten vanaf het begin wilt optimaliseren en de winnende ervaringen zo snel mogelijk wilt identificeren. Doordat de prestaties van de activiteit in het algemeen vaker worden verbeterd, zijn de prestaties beter afgestemd op de prestaties.
-* Gebruik een standaard **[A/B-test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** als u de prestaties van alle ervaringen wilt karakteriseren voordat u uw site optimaliseert. Een A/B test helpt u al uw ervaringen te rangschikken, terwijl de Geautomatiseerde Toewijzing van het Verkeer hoogste uitvoerders vindt maar geen verschil tussen de lagere uitvoerders garandeert.
-* Gebruik [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) wanneer u optimalisatiealgoritmen van de hoogste complexiteit wilt gebruiken, zoals computerleermodellen die voorspellingen bouwen op basis van individuele profielkenmerken. De geautomatiseerde Toewijzing van het Verkeer kijkt naar het gezamenlijke gedrag van ervaringen (enkel als standaard A/B tests), en maakt geen onderscheid tussen bezoekers.
+* Gebruik een standaard **[A/B-test](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** als u de prestaties van alle ervaringen wilt karakteriseren voordat u uw site optimaliseert. Een A/B test helpt u al uw ervaringen te rangschikken, terwijl de Geautomatiseerde Toewijzing van het Verkeer hoogste uitvoerders vindt maar geen verschil tussen de lagere uitvoerders garandeert.
+* Gebruik [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) wanneer u optimalisatiealgoritmen van de hoogste complexiteit wilt gebruiken, zoals computerleermodellen die voorspellingen bouwen op basis van individuele profielkenmerken. De geautomatiseerde Toewijzing van het Verkeer kijkt naar het gezamenlijke gedrag van ervaringen (enkel als standaard A/B tests), en maakt geen onderscheid tussen bezoekers.
 
 ## Belangrijkste voordelen {#section_0913BF06F73C4794862561388BBDDFF0}
 
