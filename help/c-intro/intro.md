@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Target Premium bevat de volgende premiefuncties:
 
 ### Automated Personalization
 
-[Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) biedt geavanceerde computerleeralgoritmen om persoonlijke ervaringen en verbeterde conversiesnelheden voor digitale ervaringen te stimuleren.
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) biedt geavanceerde computerleeralgoritmen om persoonlijke ervaringen en verbeterde conversiesnelheden voor digitale ervaringen te stimuleren.
 
 Bij geautomatiseerde personalisatie (voorheen Test&amp;Target 1:1) worden bezoekersactiviteiten op de site vastgelegd en wordt een profiel van bezoekers gemaakt, zodat inhoud voor vergelijkbare bezoekers kan worden gebruikt. Het volgt reacties op inhoud, zowel voor individuen als voor de bevolking als geheel, dan gebruikt verfijnde modelleringsbenaderingen om elk individu automatisch te richten door alles te verantwoorden die over die bezoeker gekend is.
 
@@ -50,7 +50,7 @@ Automatische personalisatie leert alleen en vereist een minimale menselijke anal
 
 ### Recommendations
 
-[Bij Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) -activiteiten worden automatisch producten of inhoud weergegeven die voor uw klanten interessant kunnen zijn op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
+[Bij Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) -activiteiten worden automatisch producten of inhoud weergegeven die voor uw klanten interessant kunnen zijn op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
 
 Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activiteiten van die klant op de plaats wordt voorgesteld. Bijvoorbeeld:
 
@@ -79,13 +79,13 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 ### Machtigingen voor zakelijke gebruikers
 
-[Met de functionaliteit voor gebruikersmachtigingen](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) voor ondernemingen kunt u verschillende projecten maken (zogenaamde &quot;Productprofielen&quot; in de [!DNL Adobe Admin Console for Enterprise]lijst), zodat u verschillende machtigingen kunt toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project bepaalt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de reeksen werken [!DNL Adobe Analytics]. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten toegang tot hun gebruikers kunnen beperken, bewerken, goedkeuren en publiceren op basis van regio, omgeving (dvd/stage/prod), kanaal of andere aangepaste criteria.
+[Met de functionaliteit voor gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) voor ondernemingen kunt u verschillende projecten maken (zogenaamde &quot;Productprofielen&quot; in de [!DNL Adobe Admin Console for Enterprise]lijst), zodat u verschillende machtigingen kunt toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project bepaalt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de reeksen werken [!DNL Adobe Analytics]. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten toegang tot hun gebruikers kunnen beperken, bewerken, goedkeuren en publiceren op basis van regio, omgeving (dvd/stage/prod), kanaal of andere aangepaste criteria.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 [!DNL Recommendations Classic] geeft op uw website automatisch producten of inhoud weer die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om objecten die ze anders wellicht niet kennen, door te verwijzen naar betere verkoop op uw website.
 
-Raadpleeg de Klassieke documentatie [van](../assets/adobe-recommendations-classic.pdf)Recommendations voor meer informatie.
+Raadpleeg de Klassieke documentatie [van](/help/assets/adobe-recommendations-classic.pdf)Recommendations voor meer informatie.
 
 ## Experience League: De Adobe Target-welkomstkit {#kit}
 
