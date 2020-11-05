@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Na de rubriceringsperiode worden in deze rapporten ongeveer een uur na de verzam
 
 Houd rekening met de volgende punten wanneer u overweegt A4T te gebruiken:
 
-* Om als rapporteringsbron voor te gebruiken [!DNL Analytics] , zowel moet u als uw bedrijf toegang tot [!DNL Target]en tot [!DNL Analytics] [!DNL Target]. [Neem contact op met uw accountvertegenwoordiger](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) als u een van beide oplossingen nodig hebt.
+* Om als rapporteringsbron voor te gebruiken [!DNL Analytics] , zowel moet u als uw bedrijf toegang tot [!DNL Target]en tot [!DNL Analytics] [!DNL Target]. [Neem contact op met uw accountvertegenwoordiger](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) als u een van beide oplossingen nodig hebt.
 * De bron van de rapportage wordt voor elke activiteit ingesteld. [!DNL Target] gegevens blijven verzamelen die kunnen worden gebruikt voor rapportage en [!DNL Target] gegevens zijn nog steeds beschikbaar als u een activiteit liever baseert op gegevens die zijn verzameld door [!DNL Target].
 * U moet de ene of de andere rapportbron gebruiken. U kunt geen gegevens verzamelen voor één activiteit uit beide bronnen.
 * Wanneer het gebruiken van A4T, zijn alle succesmetriek beschikbaar aan uw activiteiten [!DNL Analytics] metriek. Nochtans, kan uw doel metrisch op een mbox vraag worden gebaseerd. Bijvoorbeeld, kunt u de uit-van-de-doos klikvolgende mogelijkheden van het Doel met A4T in plaats van het moeten [!DNL Analytics] klik-volgcode uitvoeren.
@@ -94,7 +94,7 @@ De volgende illustratie toont de [!UICONTROL Graph View] van een rapport A4T met
 
 ![](assets/a4t_report_graph1.png)
 
-De volgende afbeelding toont de [!UICONTROL Graph View] vorm van een A4T-rapport met de [!UICONTROL Audience] vervolgkeuzelijst waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
+In de volgende afbeelding ziet u de [!UICONTROL Graph View] beschrijving van een A4T-rapport met de [!UICONTROL Audience] vervolgkeuzelijst waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
 
 ![](assets/a4t_report_graph2.png)
 
@@ -124,7 +124,7 @@ In deze video wordt uitgelegd hoe u [!DNL Analytics] als rapporteringsbron kunt 
 
 ### Zelfstudie voor Analytics / Target Integration (A4T) (40:33) ![](/help/assets/tutorial.png)
 
-Deze video is een opname van &quot; [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, een initiatief van het team van de klantenservice van Adobe.
+Deze video is een opname van &quot; [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, een initiatief van het team van de klantenservice van Adobe.
 
 * Hoe te opstelling en te bevestigen dat de integratie werkt
 * Hoe de integratie werkt
