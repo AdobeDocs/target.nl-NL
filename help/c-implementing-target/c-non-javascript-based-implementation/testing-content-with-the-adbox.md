@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Gebruik een AdBox om afbeeldingen te leveren in een externe implementatie met Ad
 
 Een AdBox is vergelijkbaar met een box, maar wordt beheerd door een URL in plaats van JavaScript. AdBox wordt gemaakt met een speciale URL voor een advertentievak die een advertentievak (of advertentievak) in uw Adobe-account laadt. Gebruik deze AdBox in plaats van de box in uw activiteiten. Gebruik de URL van het AdBox in plaats van een verwijzing naar een directe afbeelding in e-mail of andere niet-JavaScript-implementaties.
 
-Zie Op [niet-JavaScript gebaseerde implementaties](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)voor hulp bij het selecteren van de juiste instellingen.
+Zie Op [niet-JavaScript gebaseerde implementaties](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)voor hulp bij het selecteren van de juiste instellingen.
 
 1. Maak de URL van het advertentievak:
 
@@ -43,7 +43,7 @@ Zie Op [niet-JavaScript gebaseerde implementaties](../../c-implementing-target/c
 
       Dit moet URL gecodeerd zijn en moet een absolute verwijzing zijn. U kunt de [HTML URL-coderingsverwijzing](https://www.w3schools.com/tags/ref_urlencode.asp) gebruiken om uw URL&#39;s snel te coderen.
 
-1. Maak [omleidingsvoorstellen](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) voor elke alternatieve afbeelding.
+1. Maak [omleidingsvoorstellen](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) voor elke alternatieve afbeelding.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Zie Op [niet-JavaScript gebaseerde implementaties](../../c-implementing-target/c
 
 1. Maak de activiteit.
 
-   Zie Implementaties [](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) die niet op JavaScript zijn gebaseerd voor de juiste instelling om uw doelen te bereiken.
+   Zie Implementaties [](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) die niet op JavaScript zijn gebaseerd voor de juiste instelling om uw doelen te bereiken.
 1. Volledige kwaliteitscontrole op de activiteit.
 
    Als beste praktijken, creeer een dummypagina en verifieer dat alle ervaringen, standaardinhoud, en rapporten zoals verwacht op alle browser types, voor al uw milieu&#39;s handelen.
