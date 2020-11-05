@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Er zijn verschillende redenen waarom dit zou kunnen gebeuren:
 
 * De classificatieaanroep van [!DNL Target] naar [!DNL Analytics] mislukt.
 
-   [Neem contact op met de klantenservice](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor hulp.
+   [Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor hulp.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Er zijn verschillende redenen waarom dit zou kunnen gebeuren:
 
 ## Mijn Analytische gegevens laten een opgeblazen bezoek of bezoekeraantal zien sinds het begin van A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
-Voor meer informatie, zie het [Minimaliseren van de Inflated Tellingen van het Bezoek en van de Bezoeker in A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Voor meer informatie, zie het [Minimaliseren van de Inflated Tellingen van het Bezoek en van de Bezoeker in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## De geschatte lift in de metrische omzet geeft geen correcte gegevens aan. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -51,7 +51,7 @@ De details voor optillen en vertrouwen zijn niet beschikbaar in Analytics. Zij z
 
 ## Activiteiten worden niet weergegeven in analyserapporten. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. Zie [Een Analytics Tracking Server](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken om ervoor te zorgen dat de Analytics Tracking Server correct is ingesteld.
+A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. Zie [Een Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken om ervoor te zorgen dat de Analytics Tracking Server correct is ingesteld.
 
 >[!NOTE]
 >
@@ -94,4 +94,4 @@ Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https:/
 
 Als er geen extra gegevens-id in de [!DNL Target] vraag is, bevestig dat het [!DNL VisitorAPI.js] dossier vóór [!DNL at.js] of [!DNL mbox.js]wordt geladen. Als er geen extra gegevens identiteitskaart in de [!DNL Analytics] vraag is, bevestig dat de [!DNL Target] vraag vóór de [!DNL Analytics] vraag brandt.
 
-Zie [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) of neem contact op met de [klantenservice](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)voor meer informatie.
+Zie [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) of neem contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)voor meer informatie.
