@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Gebruik Redirector om het volgende te doen:
 
 * Zoeken naar welke landingspagina de meeste conversies tot gevolg hebben
 
-Zie Niet-JavaScript-gebaseerde implementaties [](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)voor informatie over de juiste instelling.
+Zie Niet-JavaScript-gebaseerde implementaties [](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)voor informatie over de juiste instelling.
 
 ## Een redirector maken {#redirector}
 
@@ -66,10 +66,10 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
    1. *Beste praktijken* op het gebied van beveiliging: Zorg ervoor dat het domein dat in Redirector wordt gebruikt wordt toegevoegd op lijst van gewenste personen, zoals hierboven vermeld. Als u een domein gebruikt dat niet toegevoegd op lijst van gewenste personen is, zal Adobe om het even welke vraag aan dat domein blokkeren om kwaadwillige acteurs te verhinderen Redirector te gebruiken om aan potentieel kwaadwillige domeinen om te leiden.
    1. Voeg de Redirector-URL in een browser in en vernieuw deze.
    1. Meld u aan bij uw account, vernieuw de keuzelijst en controleer of de nieuwe Redirector als een box wordt weergegeven.
-1. Als u verschillende bestemmingen voor één advertentie zult testen, creeer [Omleidingsvoorstellen](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) voor elke versie.
+1. Als u verschillende bestemmingen voor één advertentie zult testen, creeer [Omleidingsvoorstellen](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) voor elke versie.
 1. Maak de campagne.
 
-   Zie Implementaties [](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) die niet op JavaScript zijn gebaseerd voor de juiste setup om uw doelen te bereiken.
+   Zie Implementaties [](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) die niet op JavaScript zijn gebaseerd voor de juiste setup om uw doelen te bereiken.
 1. Voltooi de kwaliteitscontrole op de campagne.
 
    Maak een dummypagina met een URL `<a href>` die de Redirector-URL bevat. Voorbeeld:
