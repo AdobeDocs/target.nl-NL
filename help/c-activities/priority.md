@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Als uw bedrijf Norm/Premium van het Doel en Visual Experience Composer exclusief
    Als de bezoeker al aan een A/B-test of een multivariatietest deelneemt, komen zij tot de conversie overeen met die test. Als zij eerder een ervaring hadden die gericht op activiteit was, moeten zij in het opnieuw aanpassen. Als ze aan de publieksregels voldoen, valt de bezoeker in die activiteiten en in specifieke ervaringen.
 
 1. Inhoud voor alle activiteiten en ervaringen die de bezoekersovereenkomsten opleveren, wordt teruggestuurd naar de pagina.
-1. Als de inhoud voor elke activiteit verwijst naar verschillende [CSS-kiezers](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), wordt alle inhoud weergegeven.
+1. Als de inhoud voor elke activiteit verwijst naar verschillende [CSS-kiezers](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), wordt alle inhoud weergegeven.
 
    Als er sprake is van een overlapping of een gedupliceerde CSS-kiezer, wordt de activiteiteninhoud met de hoogste prioriteit weergegeven. De resultaten van alle activiteiten die op de pagina worden uitgevoerd, worden geteld en weerspiegeld in de rapporten.
 
@@ -73,7 +73,7 @@ Als beide doelactiviteiten dezelfde prioriteit hebben, wordt de activiteit weerg
 >
 >Deze informatie is ook van toepassing op alle campagnes die worden uitgevoerd en die zijn gemaakt in Target Classic.
 
-Als uw bedrijf andere [!DNL Target] verzoeken dan het globale [!DNL Target] verzoek in op vorm-gebaseerde composer gebruikt, kan de inhoud van slechts één activiteit per vraag worden teruggekeerd. De levering van de activiteit wordt bepaald gebruikend de volgende beslissingsstroom:
+Als uw bedrijf andere [!DNL Target] verzoeken dan het globale [!DNL Target] verzoek in op vorm-gebaseerde composer gebruikt, kan de inhoud van slechts één activiteit per vraag zijn teruggekeerd. De levering van de activiteit wordt bepaald gebruikend de volgende beslissingsstroom:
 
 1. De [!DNL Target] servervraag komt aan [!DNL Target] met informatie over het [!DNL Target] verzoek en URL.
 1. [!DNL Target] trekt elke activiteit die in dat [!DNL Target] verzoek loopt.
@@ -90,7 +90,7 @@ Als uw bedrijf andere [!DNL Target] verzoeken dan het globale [!DNL Target] verz
 
 >[!NOTE]
 >
->Afhankelijk van uw instellingen variëren de prioriteitswaarden. U kunt de oudere instellingen Laag, Normaal of Hoog gebruiken of u kunt fijnkorrelige prioriteiten van 0 tot en met 999 inschakelen. Zie [Activiteitsinstellingen](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)voor meer informatie.
+>Afhankelijk van uw instellingen variëren de prioriteitswaarden. U kunt de oudere instellingen Laag, Normaal of Hoog gebruiken of u kunt fijnkorrelige prioriteiten van 0 tot en met 999 inschakelen. Zie [Activiteitsinstellingen](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)voor meer informatie.
 
 **Twee Klassieke doelcampagnes gebruiken niet-globale doelverzoeken**
 
