@@ -5,7 +5,7 @@ title: Hoe lang moet u een A/B-test uitvoeren?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3081'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Het is verleidelijk om een activiteit stop te zetten als een van de aanbiedingen
 
 >[!IMPORTANT]
 >
->Een vroegtijdig stoppen van een activiteit is een van de tien belangrijke valkuilen waar u bij het uitvoeren van een A/B-test op kunt vertrouwen. Voor meer informatie, zie [Tien gemeenschappelijke A/B testvalkuilen en hoe te om hen](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)te vermijden.
+>Een vroegtijdig stoppen van een activiteit is een van de tien belangrijke valkuilen waar u bij het uitvoeren van een A/B-test op kunt vertrouwen. Voor meer informatie, zie [Tien gemeenschappelijke A/B testvalkuilen en hoe te om hen](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)te vermijden.
 
 [!DNL Target] biedt hulpprogramma&#39;s waarmee u ervoor kunt zorgen dat uw activiteit een groot genoeg formaat heeft om uw conversiedoelstellingen te bereiken: Automatisch toewijzen.
 
@@ -37,7 +37,7 @@ De oplossing is [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] verminder
 
 Wanneer het gebruiken van de [!UICONTROL Auto-Allocate] eigenschap, [!DNL Target] toont een badge bij de bovenkant van de pagina van de activiteit erop wijst die &quot;Geen Winner nog&quot;tot de activiteit het minimumaantal omzettingen met voldoende vertrouwen bereikt. [!DNL Target] declareert vervolgens de winnende ervaring door een badge boven aan de pagina van de activiteit weer te geven.
 
-Zie Overzicht [](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatisch toewijzen voor meer informatie.
+Zie Overzicht [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatisch toewijzen voor meer informatie.
 
 ## Adobe Target-voorbeeldgroottecalculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
