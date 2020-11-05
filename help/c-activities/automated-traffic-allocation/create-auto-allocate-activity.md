@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Een [!UICONTROL Auto-Allocate] activiteit maken:
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie het Oplossen van [problemen de Visuele Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)van de Ervaring.
    >
-   >De [!UICONTROL Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorgaande illustratie is een [doelpremiumfunctie](/help/c-intro/intro.md) . Uw organisatie heeft een [!UICONTROL Target Standard] licentie als deze optie niet wordt weergegeven.
+   >De [[!UICONTROL Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorgaande illustratie is een [doelpremiumfunctie](/help/c-intro/intro.md) . Uw organisatie heeft een [!UICONTROL Target Standard] licentie als deze optie niet wordt weergegeven.
 
 1. (Voorwaardelijk) Als u een klant [van de Premium van het](/help/c-intro/intro.md#premium)Doel bent, kies een [werkruimte](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
