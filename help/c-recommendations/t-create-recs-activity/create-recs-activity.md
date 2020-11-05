@@ -5,7 +5,7 @@ title: Een Recommendations-activiteit maken
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` de huidige aanbevelingen voor het item of de huidige categorie zijn compatibel. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het **[!UICONTROL Compatible]** selectievakje uit. De [!UICONTROL Compatible] optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie [Instellingen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)voor meer informatie.
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` de huidige aanbevelingen voor het item of de huidige categorie zijn compatibel. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het **[!UICONTROL Compatible]** selectievakje uit. De [!UICONTROL Compatible] optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie [Instellingen](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)voor meer informatie.
 
    ![Selectiecriteria, dialoogvenster](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -90,13 +90,13 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
       Er worden enkele criteria verstrekt [!DNL Recommendations]. U en uw team kunnen ook uw eigen aangepaste criteria maken.
 
-   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Zie [Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md)maken voor meer informatie over het maken van nieuwe criteria.
+   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Zie [Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md)maken voor meer informatie over het maken van nieuwe criteria.
    * U kunt criteria ook in reeksen groeperen. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Zie [Criteria-reeks](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) maken voor meer informatie.
 
 1. Klik op **[!UICONTROL Next]**.
 1. Selecteer een [ontwerp](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Een ontwerp is een sjabloon die het uiterlijk van de locaties op de pagina bepaalt. [!DNL Target] bevat verschillende vooraf geconfigureerde ontwerpen. U kunt ook uw eigen aangepaste ontwerpen maken. Zie [Een ontwerp](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) maken en een ontwerp [](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)aanpassen voor meer informatie.
+   Een ontwerp is een sjabloon die het uiterlijk van de locaties op de pagina bepaalt. [!DNL Target] bevat verschillende vooraf geconfigureerde ontwerpen. U kunt ook uw eigen aangepaste ontwerpen maken. Zie [Een ontwerp](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) maken en een ontwerp [](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)aanpassen voor meer informatie.
 
    ![Ontwerp selecteren, dialoogvenster](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -106,11 +106,11 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
       Als u meerdere criteria hebt geselecteerd, kunt u slechts één ontwerp selecteren.
 
-   * Als u een aangepast ontwerp wilt maken, klikt u **[!UICONTROL Create Design]** en vult u vervolgens de naam en code voor het nieuwe ontwerp in. Klik **[!UICONTROL Next]**, selecteer of upload een beeld en klik **[!UICONTROL Done]** > **[!UICONTROL Done]**. Zie Een ontwerp [maken voor informatie over het maken van een nieuw ontwerp](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Als u een aangepast ontwerp wilt maken, klikt u **[!UICONTROL Create Design]** en vult u vervolgens de naam en code voor het nieuwe ontwerp in. Klik **[!UICONTROL Next]**, selecteer of upload een beeld en klik **[!UICONTROL Done]** > **[!UICONTROL Done]**. Zie Een ontwerp [maken voor informatie over het maken van een nieuw ontwerp](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klik op **[!UICONTROL Next]**.
 
-   U kunt speciale acties toevoegen aan uw aanbevelingen. Zie Promoties [toevoegen voor meer informatie over het toevoegen van promoties](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)aan voor- en achterzijde.
+   U kunt speciale acties toevoegen aan uw aanbevelingen. Zie Promoties [toevoegen voor meer informatie over het toevoegen van promoties](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)aan voor- en achterzijde.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -136,7 +136,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
       >[!NOTE]
       >
-      >Naast het selecteren van een bestaand publiek, kunt u een activiteit-slechts publiek [](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) tot stand brengen of veelvoudige publiek [](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om ad hoc publiek tot stand te brengen eerder dan het creëren van een nieuw publiek.
+      >Naast het selecteren van een bestaand publiek, kunt u een activiteit-slechts publiek [](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) tot stand brengen of veelvoudige publiek [](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om ad hoc publiek tot stand te brengen eerder dan het creëren van een nieuw publiek.
 
       Standaard zien alle gebruikers de aanbevelingen. U kunt de aanbeveling echter richten op een specifiek publiek.
 
@@ -151,7 +151,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 1. Klik **[!UICONTROL Next]** wanneer gebeëindigd.
 1. Geef de activiteitinstellingen op.
 
-   Typ bijvoorbeeld een naam (vereist) en een doelstelling (optioneel) voor de activiteit. Zie [Recommendations Activity Settings](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)voor informatie over de instellingen.
+   Typ bijvoorbeeld een naam (vereist) en een doelstelling (optioneel) voor de activiteit. Zie [Recommendations Activity Settings](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)voor informatie over de instellingen.
 
    >[!NOTE]
    >
