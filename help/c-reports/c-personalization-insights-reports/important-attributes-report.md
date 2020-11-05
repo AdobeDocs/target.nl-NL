@@ -5,7 +5,7 @@ title: Rapport Belangrijke kenmerken
 feature: reports
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1562'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Informatie over het Belangrijke rapport van Attributen, één van de twee gespec
 * [!UICONTROL Personalization Insights] rapporten zijn alleen beschikbaar als de optie [!UICONTROL Primary Goal] is geselecteerd in de [!UICONTROL Report Metric] vervolgkeuzelijst.
    >
    >
-* [!UICONTROL Personalization Insights] rapporten worden alleen ondersteund in de [standaardomgeving](../../administrating-target/hosts.md) .
+* [!UICONTROL Personalization Insights] rapporten worden alleen ondersteund in de [standaardomgeving](/help/administrating-target/hosts.md) .
    >
    >
 * [!UICONTROL Personalization Insights] rapporten worden alleen gegenereerd voor activiteiten die zich in de [!UICONTROL Live] status bevinden en die gedurende ten minste 15 dagen zijn geactiveerd en ontvangen.
@@ -40,7 +40,7 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
 ## Open het rapport Belangrijke kenmerken {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) - of [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) -activiteit.
+1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) - of [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) -activiteit.
 
    Als u vele activiteiten hebt, kunt u de lijst filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
 
@@ -73,7 +73,7 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
    ![](assets/model_attribute_ranking_report.png)
 
 
-1. (Optioneel) [Download het rapport in CSV-indeling](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere tools.
+1. (Optioneel) [Download het rapport in CSV-indeling](/help/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere tools.
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] ra
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie de Inzameling van [Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/ap-data.md)van de Verpersoonlijking van het Doel. Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [Methoden om Gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen.
+Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie de Inzameling van [Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/ap-data.md)van de Verpersoonlijking van het Doel. Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [Methoden om Gegevens in Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen.
 
 **Is de informatie in de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten het zelfde als in de download CSV?**
 
