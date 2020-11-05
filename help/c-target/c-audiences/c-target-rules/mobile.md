@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Om dit op te lossen, verzamelt Target extra gegevens om iPhones en andere appara
 
 >[!NOTE]
 >
->Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken, moeten [upgraden naar at.js versie 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (of hoger).
+>Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken, moeten [upgraden naar at.js versie 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (of hoger).
 
 U kunt meerdere eigenschappen voor mobiele apparaten kiezen. Meerdere selecties worden gekoppeld aan een OR.
 
@@ -65,7 +65,7 @@ Klanten die een aangepaste integratie gebruiken (zonder at.js of de Mobile SDK),
 
    >[!NOTE]
    >
-   >Met de [Geo-instellingen](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)kunt u zich richten op een mobiele provider.
+   >Met de [Geo-instellingen](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)kunt u zich richten op een mobiele provider.
 
 1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
 1. Klik op **[!UICONTROL Save]**.
