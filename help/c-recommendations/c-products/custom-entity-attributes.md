@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het k
 
 >[!NOTE]
 >
->Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie Alle items [verwijderen uit het systeem](../../assets/adobe-recommendations-classic.pdf) in de Classic *-documentatie van* Adobe Recommendations voor meer informatie.
+>Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie Alle items [verwijderen uit het systeem](/help/assets/adobe-recommendations-classic.pdf) in de Classic *-documentatie van* Adobe Recommendations voor meer informatie.
 
 **Beperkingen**:
 
-* U kunt vooraf gedefinieerde namen van entiteitskenmerken niet gebruiken voor aangepaste entiteitskenmerken. (Zie [Entiteitskenmerken](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* U kunt vooraf gedefinieerde namen van entiteitskenmerken niet gebruiken voor aangepaste entiteitskenmerken. (Zie [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
 * Het kenmerk `entity.environment` is gereserveerd door het systeem en kan niet worden gebruikt voor aangepaste entiteitskenmerken. Pogingen om door te geven `entity.environment` met `targetPageParams`, feeds of API&#39;s worden genegeerd.
 * Arrays moeten één waardetype bevatten. Arrays met gemengde waarde ( `["AB",1,true]`) worden niet ondersteund.
 * Een kenmerk met meerdere waarden dat een geneste JSON-array ( `[10,12,[1,2,3]]`) bevat, wordt behandeld als een kenmerk met één waarde.
@@ -263,4 +263,4 @@ Wanneer in een ontwerp naar `entity.genre=["genre1","genre2"]` wordt verwezen al
 
 ## Verwante onderwerpen:
 
-* [Entiteitskenmerken](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
