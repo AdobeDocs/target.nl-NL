@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -60,7 +60,7 @@ De volgende publieksdefinitiekaart wordt betreden door het pictogram van de Meni
 
 ![Activiteiten > Definitie van publiek](assets/audience_definition_list.png)
 
-Klik op het [!UICONTROL Audience Usage] tabblad om andere activiteiten weer te geven die naar dat publiek verwijzen, indien van toepassing. Op deze manier kunt u onbedoelde gevolgen voor andere activiteiten tijdens het bewerken van soorten publiek voorkomen. De informatie omvat Live-activiteiten, inactieve activiteiten, gearchiveerde activiteiten en synchronisatieactiviteiten. Deze functie is beschikbaar voor alle doelgroepen (publiek in de bibliotheek en alleen- [actief publiek](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Klik op het [!UICONTROL Audience Usage] tabblad om andere activiteiten weer te geven die naar dat publiek verwijzen, indien van toepassing. Op deze manier kunt u onbedoelde gevolgen voor andere activiteiten tijdens het bewerken van soorten publiek voorkomen. De informatie omvat Live-activiteiten, inactieve activiteiten, gearchiveerde activiteiten en synchronisatieactiviteiten. Deze functie is beschikbaar voor alle doelgroepen (publiek in de bibliotheek en alleen- [actief publiek](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Als een publiek met een ander publiek wordt gecombineerd en het gecombineerde publiek wordt gebruikt om een activiteit tot stand te brengen, zal de gebruiksinformatie voor beide publiek die pas gecreëerde activiteit vermelden.
 
