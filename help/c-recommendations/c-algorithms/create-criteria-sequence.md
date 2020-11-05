@@ -5,7 +5,7 @@ title: Criteria-reeksen maken
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -86,7 +86,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
    De opeenvolging van criteria zal in de lijst van Criteria verschijnen.
 
-   Zie [Criteria](../../c-recommendations/c-algorithms/algorithms.md)voor meer informatie over de opties van de aanbevolen logica.
+   Zie [Criteria](/help/c-recommendations/c-algorithms/algorithms.md)voor meer informatie over de opties van de aanbevolen logica.
 
 ## Trainingsvideo: Criteria maken in Recommendations (12:33) - ![Zelfstudie](/help/assets/tutorial.png)
 
