@@ -5,7 +5,7 @@ title: Feeds in Adobe Target Recommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -237,7 +237,7 @@ Maak een feed om informatie over uw producten of services in te voegen in [!DNL 
    * Google Product Feed
    * Analytische classificaties
 
-   Zie Overzicht [van](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)feeds voor informatie over de feed-typen CSV en Google Product Feed. U kunt ook een CSV-handleiding [voor het model](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) downloaden om u te helpen de feed correct op te maken.
+   Zie Overzicht [van](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)feeds voor informatie over de feed-typen CSV en Google Product Feed. U kunt ook een CSV-handleiding [voor het model](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) downloaden om u te helpen de feed correct op te maken.
 
 1. (Voorwaardelijk) Als u selecteerde **[!UICONTROL CSV]** of **[!UICONTROL Google Product Feed]**, specificeer de plaats waar de voer kan worden betreden.
 
@@ -275,7 +275,7 @@ Maak een feed om informatie over uw producten of services in te voegen in [!DNL 
 
 1. (Optioneel) Als u wilt dat de feed tot een omgeving (hostgroep) behoort, selecteert u de hostgroep.
 
-   De feed behoort standaard tot alle hostgroepen. Dit zorgt ervoor dat de punten in dit voer in om het even welke milieu beschikbaar zijn. Zie [Gastheren](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie.
+   De feed behoort standaard tot alle hostgroepen. Dit zorgt ervoor dat de punten in dit voer in om het even welke milieu beschikbaar zijn. Zie [Gastheren](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie.
 
 1. Klik op **[!UICONTROL Save]**.
 
