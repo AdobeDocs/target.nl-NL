@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 * De voorwaarden van het publiek naar keuze gerespecteerd zodat kunnen de marketers het richten van criteria testen of het richten van criteria aan QA de verschijning van ervaringen negeren zonder het moeten aan de publieksvoorwaarden voldoen.
 * QA-rapportage wordt vastgelegd zodat marketers kunnen bevestigen dat de metriek naar verwachting toeneemt en dat de QA-rapportgegevens gescheiden worden gehouden van productierapportage (voor niet-A4T-rapportage).
 * De mogelijkheid om een ervaring op zichzelf of in combinatie met andere live activiteiten die aan de leveringscriteria voldoen (pagina/doelverzoek/publiek) voor te vertonen.
-* De mogelijkheid om een kwaliteitscontrole uit te voeren voor de hele gebruikersreis. U hebt eenmalig toegang tot uw site met de koppeling voor kwaliteitscontrole en bladert vervolgens door de gehele site in Activiteit QA. U blijft in Activiteit QA tot u de zitting beëindigt of tot u [QATarget bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) gebruikt om zich uit Activiteit QA te dwingen. Deze functie is vooral handig als u een activiteit hebt die meerdere webpagina&#39;s omvat.
+* De mogelijkheid om een kwaliteitscontrole uit te voeren voor de hele gebruikersreis. U hebt eenmalig toegang tot uw site met de koppeling voor kwaliteitscontrole en bladert vervolgens door de gehele site in Activiteit QA. U blijft in Activiteit QA tot u de zitting beëindigt of tot u [QA referentie van het Doel gebruikt om zich uit Activiteit QA te dwingen](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) . Deze functie is vooral handig als u een activiteit hebt die meerdere webpagina&#39;s omvat.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
       Als deze instelling wordt uitgeschakeld, kunt u het volgende overwegen:
 
-      * Als er botsingen zijn tussen de activiteit u test en andere levende activiteiten, zijn de [normale prioritaire regels](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) van toepassing. Hierdoor is het mogelijk dat je de activiteit die je wilt uitvoeren, niet ziet.
+      * Als er botsingen zijn tussen de activiteit u test en andere levende activiteiten, zijn de [normale prioritaire regels](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) van toepassing. Hierdoor is het mogelijk dat je de activiteit die je wilt uitvoeren, niet ziet.
       * De toename van metriek voor de bekeken activiteiten, maar slechts in het QA rapporterend milieu.
 
 1. Klik **[!UICONTROL Done]** om uw wijzigingen op te slaan.
@@ -66,22 +66,22 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
 ## Overwegingen {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* De [!UICONTROL Activity QA] koppeling wordt weergegeven op de [!UICONTROL Overview] pagina van alle typen activiteiten, behalve Automated Personalization (AP). U kunt [Voorvertoningskoppelingen](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) gebruiken voor AP-activiteiten.
+* De [!UICONTROL Activity QA] koppeling wordt weergegeven op de [!UICONTROL Overview] pagina van alle typen activiteiten, behalve Automated Personalization (AP). U kunt [Voorvertoningskoppelingen](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) gebruiken voor AP-activiteiten.
 * De QA-voorbeeldkoppelingen voor activiteit voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Het opnieuw proberen van de voorvertoningskoppelingen zou moeten werken. Als u wilt voorkomen dat dit gebeurt, archiveert u opgeslagen activiteiten die niet meer actief worden gebruikt.
 * Activiteit QA URLs is beschikbaar met activiteiten met Analytics als rapporteringsbron (A4T). De geproduceerde Hits terwijl het uitvoeren van QA gebruikend Activiteit QA zal aan de zelfde rapportreeks stromen waar de gegevens van de activiteit zullen stromen zelfs nadat de activiteit live gaat.
 * Activiteits-QA geeft geen inhoud weer voor gearchiveerde activiteiten of activiteiten die hun einddatum hebben bereikt. Als u een beëindigde activiteit deactiveert, moet u de activiteit opnieuw bewaren voor Activiteit QA om te werken.
 * Activiteiten die worden geïmporteerd in Target Standard/Premium (bijvoorbeeld uit Target Classic) ondersteunen geen URL&#39;s met kwaliteitscontrole.
 * In Auto-Toewijzing, auto-Doel, en de activiteiten van Recommendations, zal het model niet door de bezoeken worden beïnvloed die in Activiteit QA worden gevangen.
-* Omdat activiteit QA kleverig is, nadat u een website in Activiteit QA doorbladert, moet uw zitting van het Doel verlopen of u moet van Doel hebben u van Activiteit QA alvorens u uw plaats als een typische bezoeker kunt bekijken. Gebruik het [Doel QA bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) om zich uit Activiteit QA te dwingen.
+* Omdat activiteit QA kleverig is, nadat u een website in Activiteit QA doorbladert, moet uw zitting van het Doel verlopen of u moet van Doel hebben u van Activiteit QA alvorens u uw plaats als een typische bezoeker kunt bekijken. Gebruik het [Doel QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) om zich uit Activiteit QA te dwingen.
 
    U kunt uzelf ook handmatig afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde (bijvoorbeeld `https://www.mysite.com/?at_preview_token=`).
 
-* Als u &quot;URL is&quot;terwijl het creëren van de activiteitenverfijningen in de op vorm-gebaseerde Composer [of de opties van de](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) paginalevering in Visuele Composer van de Ervaring) [](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)specificeerde, zal QA URL niet werken omdat Activiteit QA parameters URL toevoegt. Als u dit probleem wilt verhelpen, klikt u op de URL voor de kwaliteitscontrole om naar uw site te gaan, verwijdert u de toegevoegde parameters uit de URL en laadt u vervolgens de nieuwe URL.
+* Als u &quot;URL is&quot;terwijl het creëren van de activiteitenverfijningen in de op vorm-gebaseerde Composer [of de opties van de](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) paginalevering in Visuele Composer van de Ervaring) [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)specificeerde, zal QA URL niet werken omdat Activiteit QA parameters URL toevoegt. Als u dit probleem wilt verhelpen, klikt u op de URL voor de kwaliteitscontrole om naar uw site te gaan, verwijdert u de toegevoegde parameters uit de URL en laadt u vervolgens de nieuwe URL.
 * Als u at.js 1 hebt.*x*, of mbox.js, de wijze van Activiteit QA zal niet kleven als u Safari of een andere browser gebruikt die derdekoekjes blokkeert. In deze gevallen moet u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert. Hetzelfde geldt als u [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)hebt geïmplementeerd.
 * Als een activiteit meerdere ervaringssoorten publiek gebruikt (bijvoorbeeld een site in de VS en het Verenigd Koninkrijk die deel uitmaken van dezelfde activiteit), worden er geen QA-koppelingen gegenereerd voor de vier combinaties (Experience A/US Site, Experience A/UK Site, Experience B/US Site, Experience B/US Site, Experience B/UK Site). Er worden slechts twee QA-koppelingen (Experience A en Experience B) gemaakt en gebruikers moeten in aanmerking komen voor het juiste publiek om de pagina te kunnen zien. Een Britse kwaliteitscontrole-persoon kon de Amerikaanse site niet zien.
 * Alle `at_preview` parameters en waarden zijn al gecodeerd met URL. Meestal werkt alles zoals verwacht. nochtans, zouden sommige klanten ladingsbalancers of de servers van het Web kunnen hebben die proberen om de parameters van het vraagkoord opnieuw te coderen.
 
-   Vanwege deze dubbele codering kan, wanneer we proberen de token-waarde te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
+   Vanwege deze dubbele codering kan, wanneer we de code proberen te decoderen `at_preview_token`, Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
 
    Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters worden toegevoegd op lijst van gewenste personen zodat deze waarden op geen enkele manier worden getransformeerd.
 
