@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, vraagt u 
 1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
 1. Klik op **[!UICONTROL Save]**.
 
-De pop-up kaart [van de](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) definitiedetails van het publiek toont de parameternaam in de sectie van Regels. Er is geen verwijzing naar mbox gebruikt voor het filtreren.
+De pop-up kaart [van de](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) definitiedetails van het publiek toont de parameternaam in de sectie van Regels. Er is geen verwijzing naar mbox gebruikt voor het filtreren.
 
 >[!NOTE]
 >
