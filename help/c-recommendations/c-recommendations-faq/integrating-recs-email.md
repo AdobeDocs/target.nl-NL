@@ -6,7 +6,7 @@ feature: recommendations general
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Een box is gelijkaardig aan een mbox verzoek, maar voor milieu&#39;s buiten het 
 
 Op deze manier kunt u de prestaties van aanbevelingen in e-mails volgen, deze op de normale manier testen met een aanbeveling en doorgaan met bijhouden op de site.
 
-Stel een [!DNL Recommendations] activiteit in [!DNL Adobe Target]met de optie [Formuliergebaseerde Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) . Voor de plaats, selecteer de naam van mbox u om in de radibox verzoek hebt gekozen te gebruiken die uit ESP komt. Selecteer een ontwerp met de vormgeving die u voor uw e-mail wilt gebruiken. Tijdens het bouwen van e-mail, richt ESP een vraag aan de [!DNL Adobe Target] servers voor elke radibox in elke e-mail die wordt geproduceerd. Uw ESP moet een manier hebben om teruggestuurde HTML in de e-mail op te nemen wanneer het wordt verzonden.
+Stel een [!DNL Recommendations] activiteit in [!DNL Adobe Target]met de optie [Formuliergebaseerde Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) . Voor de plaats, selecteer de naam van mbox u om in de radibox verzoek hebt gekozen te gebruiken die uit ESP komt. Selecteer een ontwerp met de vormgeving die u voor uw e-mail wilt gebruiken. Tijdens het bouwen van e-mail, richt ESP een vraag aan de [!DNL Adobe Target] servers voor elke radibox in elke e-mail die wordt geproduceerd. Uw ESP moet een manier hebben om teruggestuurde HTML in de e-mail op te nemen wanneer het wordt verzonden.
 
 Het e-mailsysteem dat u gebruikt, moet deze scenario&#39;s kunnen verwerken:
 
@@ -137,8 +137,8 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 ## Optie 3: De sjabloon Alleen downloaden gebruiken {#section_518C279AF0094BE780F4EA40A832A164}
 
-Stel een aanbeveling op de gebruikelijke manier in, maar kies alleen **in de presentatiesectie** downloaden in plaats van een sjabloon- en een mappencombinatie. Geef vervolgens in het ESP aan welke aanbeveling-id u hebt gemaakt. Het ESP heeft toegang tot de gegevens van de aanbeveling via API. Deze gegevens laten zien welke items moeten worden aanbevolen voor een bepaalde categorie of een bepaald sleutelitem, zoals items in een verlaten winkelwagentje. Het ESP slaat deze gegevens op, verbindt het met hun eigen blik en voelen, toont informatie over elk punt, en levert dat in e-mail.
+Stel een aanbeveling op de gebruikelijke manier in, maar kies alleen **in de presentatiesectie** downloaden in plaats van een sjabloon- en een mapobcombinatie. Geef vervolgens in het ESP aan welke aanbeveling-id u hebt gemaakt. Het ESP heeft toegang tot de gegevens van de aanbeveling via API. Deze gegevens laten zien welke items moeten worden aanbevolen voor een bepaalde categorie of een bepaald sleutelitem, zoals items in een verlaten winkelwagentje. Het ESP slaat deze gegevens op, verbindt het met hun eigen blik en voelen, toont informatie over elk punt, en levert dat in e-mail.
 
 Met deze optie, kan de aanbevelingen server niet direct de prestaties van een aanbeveling volgen of verkeer over veelvoudige algoritme/malplaatjecombinaties verdelen. De aanbevelingen zijn ook niet gekoppeld aan een bezoekersprofiel.
 
-Zie [Verouderde API&#39;s > Downloaden](../../assets/adobe-recommendations-classic.pdf)voor meer informatie over de download-API.
+Zie [Verouderde API&#39;s > Downloaden](/help/assets/adobe-recommendations-classic.pdf)voor meer informatie over de download-API.
