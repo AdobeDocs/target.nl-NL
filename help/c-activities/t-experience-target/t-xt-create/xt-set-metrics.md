@@ -6,7 +6,7 @@ feature: xt
 solution: Target
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 Gebruik metriek in een Experience Targeting (XT) activiteit om te bepalen wanneer een bezoek succesvol is.
 
-Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor gedetailleerde informatie over succesmetriek.
+Zie [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor gedetailleerde informatie over succesmetriek.
 
 1. Geef het doel van de activiteit op.
-1. Selecteer een [succesmetrische waarde](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Selecteer een [succesmetrische waarde](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Metrisch met successie selecteren](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
@@ -40,7 +40,7 @@ Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#r
 
    De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt u verwacht.
 
-   Zie [Succeswaarden](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor meer informatie.
+   Zie [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)voor meer informatie.
 1. (Optioneel) Voeg aanvullende metriek toe.
 1. Klik **[!UICONTROL Continue]** wanneer u klaar bent met het instellen van de metriek.
 Wanneer u metrische gegevens een naam geeft of de naam ervan wijzigt, zijn de volgende tekens niet toegestaan:
