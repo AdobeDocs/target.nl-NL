@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Door deze beste praktijken te volgen, zult u minder waarschijnlijk onverwachte p
 
 ## Aanbevolen werkwijzen {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Voor mbox.js versie 57 en later, en voor at.js, plaats mbox.js of bij.js verwijzing bij de bovenkant van de`<head>`sectie van uw pagina.**
+**Voor mbox.js versie 57 en later, en voor at.js, plaats mbox.js of bij.js verwijzing bij de bovenkant van de `<head>` sectie van uw pagina.**
 
 Als u ook de Bezoeker-API-service gebruikt, plaatst u het bezoeker-API-script boven mbox.js of at.js.
 
-**Voor versies van mbox.js vóór versie 57 plaatst u de code mbox.js zo laag mogelijk in de`<head>`sectie van uw pagina.**
+**Voor versies van mbox.js vóór versie 57 plaatst u de code mbox.js zo laag mogelijk in de `<head>` sectie van uw pagina.**
 
 Plaats mbox.js aan het eind van de `<head>` sectie, zonder extra verklaringen na het. Anders worden alle script- of koppelingstags naar de `<body>` sectie verplaatst.
 
@@ -70,7 +70,7 @@ Het is een goede praktijk om het gebruik van iFrames te minimaliseren, om pagina
 
 **Poging om alle dynamische DOM-wijzigingen zo snel mogelijk na DOM gereed te maken.**
 
-Als uw wijzigingen niet worden toegepast voordat de ervaringstoepassing door target.js wordt uitgevoerd, kan de levering van inhoud worden afgebroken. Dit gebeurt alleen wanneer de hiërarchie van een doelelement een DOM-wijziging bevat.
+Als uw wijzigingen niet van toepassing zijn voordat de ervaringstoepassing door target.js wordt uitgevoerd, kan de levering van inhoud worden afgebroken. Dit gebeurt alleen wanneer de hiërarchie van een doelelement een DOM-wijziging bevat.
 
 **Gebruik alleen onbewerkte tekst of een afbeeldingstag in uw ankerelementen.**
 
@@ -99,11 +99,11 @@ Elke verandering leidt tot een nieuw element in de Visuele Composer van de Ervar
 
 Met andere woorden, als u een element met tekst toevoegt, dan in een afzonderlijke actie bewerkt u dat element met verschillende tekst, toont de code redacteur beide acties als afzonderlijke elementen. Wanneer u het element hebt bewerkt, hebt u een nieuw element gemaakt dat het oorspronkelijke element wijzigt dat u hebt gemaakt en dat de bewerkte tekst bevat. Als u vervolgens het oorspronkelijke element verwijdert, kan de bewerkte tekst het bewerkte element niet vinden en wordt deze niet weergegeven. Het tweede element blijft in de lijst met elementen, maar heeft geen invloed op de pagina omdat het element dat wordt gewijzigd, niet meer bestaat.
 
-Zie [Elementkiezers die worden gebruikt in de Visual Experience Composer](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
+Zie [Elementkiezers die worden gebruikt in de Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
 
-**Gebruik`<b>`en`<i>`labels wanneer u tekstelementen opmaakt met de RTF-editor.**
+**Gebruik `<b>` en `<i>` labels wanneer u tekstelementen opmaakt met de RTF-editor.**
 
-* Gebruik voor vette tekst `<b>` in plaats van `<strong>`.
+* Voor vette tekst gebruikt u `<b>` in plaats van `<strong>`.
 * Gebruik voor cursieve tekst `<i>` in plaats van `<em>`.
 
 `<strong>` en `<em>` -tags onverwachte resultaten kunnen veroorzaken.
@@ -112,7 +112,7 @@ Zie [Elementkiezers die worden gebruikt in de Visual Experience Composer](../../
 
 Bepaalde formuliervelden kunnen verplicht zijn voor verzending. Het verwijderen van deze formuliervelden kan gevolgen hebben voor verzendingen.
 
-**Neem geen`mboxCreate`deel aan scripts.**
+**Neem geen `mboxCreate` deel aan scripts.**
 
 Omdat dit `mboxCreate` wordt gebruikt, wordt het niet aangeraden om deze `document.write``mboxCreate` in scripts op te nemen. Gebruik in plaats daarvan `mboxDefine` en `mboxUpdate` voor hetzelfde doel.
 
@@ -151,7 +151,7 @@ U kunt de tekst Winkelwagentje bijvoorbeeld niet als doel instellen in de VEC al
 
 In dit voorbeeld wordt het gehele ankerelement geselecteerd in de VEC. Dit heeft een negatief effect op andere elementen als het doel wordt uitgevoerd.
 
-**Gebruik geen`top`of`self`variabelen in JavaScript-code.**
+**Gebruik geen `top` of `self` variabelen in JavaScript-code.**
 
 Wanneer de Enhanced Experience Composer is ingeschakeld, worden de waarde van de bovenste en de zelfvariabelen bijgewerkt om iframe busting uit te schakelen. Gebruik een koptekst met X-frame opties om iframe busting toe te voegen in plaats van aangepaste JavaScript-codes.
 
@@ -190,7 +190,7 @@ Overweeg de volgende bedenkingen wanneer het gebruiken van de Visuele Composer v
 
 **De functie Verplaatsen ondersteunt geen Z-index.**
 
-Omdat er geen Z-indexfunctionaliteit is, kan het verplaatste element niet boven op een ander element worden geplaatst. Zie [Beperkingen](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) voor meer informatie.
+Omdat er geen Z-indexfunctionaliteit is, kan het verplaatste element niet boven op een ander element worden geplaatst. Zie [Beperkingen](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) voor meer informatie.
 
 **Het opnieuw rangschikken van elementen beïnvloedt klik het volgen.**
 
@@ -198,7 +198,7 @@ Als een element dat is gemarkeerd voor klikken bijhouden opnieuw wordt gerangsch
 
 Dit komt voor omdat zowel de code om de activiteiteninhoud te leveren als de code om kliks te volgen in één stuk van code inbegrepen is die aan de pagina wordt geleverd. Als u naar een andere pagina bladert en instelt klikt op bijhouden, worden de code voor de activiteiteninhoud en de code voor het bijhouden van klikken naar die pagina verzonden. Als de pagina voor het bijhouden van klikken een vergelijkbare paginastructuur heeft als de pagina waarop de test wordt uitgevoerd, wordt de testinhoud mogelijk ook weergegeven op de pagina voor het bijhouden van klikken.
 
-**Het invoegen van een element werkt mogelijk niet in een`<div>`mbox.**
+**Het invoegen van een element werkt mogelijk niet in een `<div>` mbox.**
 
 Als een mbox een aanbieding bevat, kan het opnemen van een element als insertBefore en niet insertAfter verschijnen, als mbox verkeerd wordt uitgevoerd.
 
