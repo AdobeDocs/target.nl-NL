@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 Met de functie voor affiniteit van categorieën worden automatisch de categorieën vastgelegd die een gebruiker bezoekt en wordt vervolgens de affiniteit van de gebruiker voor de categorie berekend, zodat deze kan worden geactiveerd en gesegmenteerd. Dit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die het meest waarschijnlijk op die informatie handelen.
 
-## Categorieaffiniteitsgegevens naar doel overbrengen {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Categorieaffiniteitsinformatie overbrengen naar doel {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Wanneer een gebruiker uw site bezoekt, worden de profielparameters die specifiek zijn voor de bezoeker vastgelegd in de [!DNL Target] database. Deze gegevens zijn gekoppeld aan de cookie van de gebruiker. Een bijzonder nuttige parameter is `user.categoryId`een mbox-parameter die op een productpagina is toegewezen. Terwijl de bezoeker doorbladert of voor een andere sessie terugkeert, kunnen de productcategorieën van een bepaalde gebruikersweergave worden opgenomen. U kunt categoriegegevens ook opnemen door deze als de mbox-parameter `user.categoryId` in om het even welke box (inclusief een geneste mbox), als een URL-parameter `user.categoryId`of in de doelpaginaparameters met een global mbox door te geven. Raadpleeg uw accountvertegenwoordiger voor meer informatie.
+Wanneer een gebruiker uw site bezoekt, worden profielparameters die specifiek zijn voor de bezoeker vastgelegd in de [!DNL Target] database. Deze gegevens zijn gekoppeld aan de cookie van de gebruiker. Een bijzonder nuttige parameter is `user.categoryId`een mbox-parameter die op een productpagina is toegewezen. Terwijl de bezoeker doorbladert of voor een andere sessie terugkeert, kunnen de productcategorieën van een bepaalde gebruikersweergave worden opgenomen. U kunt categoriegegevens ook opnemen door deze als de mbox-parameter `user.categoryId` in om het even welke box (inclusief een geneste mbox), als een URL-parameter `user.categoryId`of in de doelpaginaparameters met een global mbox door te geven. Raadpleeg uw accountvertegenwoordiger voor meer informatie.
 
 Afzonderlijke rubrieken met een komma om een object in meerdere rubrieken op te nemen. Bijvoorbeeld:
 
@@ -103,8 +103,8 @@ Informatie die u helpt een [!UICONTROL Category Affinity] publiek te gebruiken v
 
 Deze sectie bevat de volgende informatie:
 
-* [Een publiek maken om rubriekaffiniteit te gebruiken](../../c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [Het publiek Categorie affiniteit gebruiken in een activiteit](../../c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
+* [Een publiek maken om rubriekaffiniteit te gebruiken](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
+* [Het publiek Categorie affiniteit gebruiken in een activiteit](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
 
 ## Een publiek maken om de affiniteit van categorieën te gebruiken {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
