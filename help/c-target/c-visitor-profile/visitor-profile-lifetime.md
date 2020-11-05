@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Een bezoekersprofiel verloopt standaard na 14 dagen inactiviteit voor die bezoeker. Deze profiellevensduur kan worden verlengd.
 
-[Neem contact op met de klantenservice of uw Adobe-consultant](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de levensduur van het profiel zonder extra kosten te verlengen. De levensduur kan worden ingesteld op wel 90 dagen.
+[Neem contact op met de klantenservice of uw Adobe-consultant](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de levensduur van het profiel zonder extra kosten te verlengen. De levensduur kan worden ingesteld op wel 90 dagen.
 
 De [!DNL Target] JavaScript-bibliotheek die u gebruikt ( [!DNL at.js] of [!DNL mbox.js]) bepaalt of u een nieuw bestand moet downloaden:
 
