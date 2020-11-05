@@ -1,11 +1,11 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Er zijn een aantal taken die u kunt uitvoeren op een element in de bibliotheek.
+description: Er zijn een aantal taken die u op een element in de bibliotheek kunt uitvoeren.
 title: Werken met inhoud in de bibliotheek
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Informatie over de taken die u kunt uitvoeren op een element in de inhoudsbiblio
 
 1. Klik **[!UICONTROL Offer]**, selecteer het **[!UICONTROL Code Offer]** of **[!UICONTROL Image Offer]** lusje, dan bepaal de plaats van de activa u met wilt werken.
 
-   Zie Inhoud [](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)filteren en zoeken voor meer informatie over het zoeken in de bibliotheek met aanbiedingen en het maken van slimme verzamelingen.
+   Zie Inhoud [](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)filteren en zoeken voor meer informatie over het zoeken in de bibliotheek met aanbiedingen en het maken van slimme verzamelingen.
 
 1. Houd de muisaanwijzer boven het item waarmee u wilt werken en selecteer vervolgens een handeling. Als u enkele van de onderstaande handelingen wilt openen en uitvoeren, moet u eerst op het pictogram Selecteren (het vinkje) klikken en vervolgens de gewenste actie kiezen (bijvoorbeeld Verwijderen).
 
