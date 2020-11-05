@@ -5,7 +5,7 @@ title: Pas een rapportpubliek toe op een succesmetrische methode in Adobe Target
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Voor alle activiteiten, laat de [!UICONTROL Applied At] drop-down lijst u een pu
 
 ![](assets/success_metric.png)
 
-Stel dat u een activiteit hebt gemaakt voor alle bezoekers die uw startpagina betreden en de conversiepagina bereiken, maar u wilt ook meer informatie weergeven over bezoekers die meer dan € 50 aan de winkelwagentje hebben toegevoegd voordat u gaat converteren.
+Stel dat u een activiteit hebt gemaakt voor alle bezoekers die uw startpagina betreden en de conversiepagina bereiken, maar u wilt ook meer informatie weergeven over bezoekers die meer dan € 50 aan de winkelwagentje hebben toegevoegd voordat u deze omzet.
 
-In de vervolgkeuzelijst Toegepast bij kunnen drie categorieën worden gebruikt: alle bezoekers van de activiteit, alleen bezoekers die een bepaalde stap in de activiteit bereiken, of alleen bezoekers die de conversie bereiken. Of, om het anders te formuleren, kunt u specificeren dat een bezoeker een mbox op de ingangspagina van de activiteit moet hebben bereikt, een doos die één of ander punt in het midden van de activiteit, of de omzettingsmbox aan het eind van de activiteit bepaalt.
+De vervolgkeuzelijst Toegepast op bevat mogelijk drie categorieën: alle bezoekers van de activiteit, alleen bezoekers die een bepaalde stap in de activiteit bereiken, of alleen bezoekers die de conversie bereiken. Of, om het anders te formuleren, kunt u specificeren dat een bezoeker een mbox op de ingangspagina van de activiteit moet hebben bereikt, een doos die één of ander punt in het midden van de activiteit, of de omzettingsmbox aan het eind van de activiteit bepaalt.
 
-[De metriek](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) van het succes is beschikbaar slechts als u hen voor uw activiteit hebt gevormd. Als u geen succesmetriek hebt bepaald, zult u slechts twee opties van de drop-down lijst zien: Ingang en conversie van campagne.
+[De metriek](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) van het succes is beschikbaar slechts als u hen voor uw activiteit hebt gevormd. Als u geen succesmetriek hebt bepaald, zult u slechts twee opties van de drop-down lijst zien: Ingang en conversie van campagne.
 
 Overweeg de volgende informatie wanneer het toepassen van een rapporterend publiek op succes metrisch:
 
