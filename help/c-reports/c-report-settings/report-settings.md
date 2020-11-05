@@ -5,7 +5,7 @@ title: Rapportinstellingen
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
@@ -94,17 +94,17 @@ In de volgende lijst worden enkele situaties beschreven die ertoe kunnen leiden 
 
 ## Metrisch rapporteren {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Klik op de **[!UICONTROL Report Metric]** vervolgkeuzelijst om een andere [succesmaatstaf](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) of meerdere meetgegevens te selecteren die u in de grafiek en het diagram wilt weergeven.
+Klik op de **[!UICONTROL Report Metric]** vervolgkeuzelijst om een andere [succesmaatstaf](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) of meerdere meetgegevens te selecteren die u in de grafiek en het diagram wilt weergeven.
 
 Door gebrek, wordt primaire metrisch bepaald in de opstelling van succesmetriek wanneer u de activiteit creeert. Als u de opstelling verandert en de activiteit opnieuw opslaat, wordt primaire metrisch voor het melden bijgewerkt.
 
-Voor meer informatie over het selecteren van veelvoudige metriek aan mening in rapporten, zie Meerdere Metriek van de [Mening in een Rapport](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Voor meer informatie over het selecteren van veelvoudige metriek aan mening in rapporten, zie Meerdere Metriek van de [Mening in een Rapport](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Publiek {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 Klik de [!UICONTROL Audience] drop-down lijst om het getoonde publiek voor het rapport te veranderen.
 
-Zie [Soorten publiek](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)voor meer informatie.
+Zie [Soorten publiek](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)voor meer informatie.
 
 ## Datumbereik {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Selecteer de besturingservaring die u wilt gebruiken bij het berekenen en vergel
 
 ### Omgeving
 
-Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken. Zie [Gastheren](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie.
+Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken. Zie [Gastheren](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie.
 
 ### Rapportgegevens opnieuw instellen
 
@@ -161,7 +161,7 @@ Rapportgegevens opnieuw instellen om oude gegevens te verwijderen. Huidige bezoe
 
 ### Extreme waarden uitsluiten
 
-De [!UICONTROL Exclude Extreme Values] schakeloptie is alleen van toepassing op activiteiten met metrische typen inkomsten en betrokkenheid. Zie [Extreme bestellingen](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)uitsluiten voor meer informatie.
+De [!UICONTROL Exclude Extreme Values] schakeloptie is alleen van toepassing op activiteiten met metrische typen inkomsten en betrokkenheid. Zie [Extreme bestellingen](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)uitsluiten voor meer informatie.
 
 ## Downloaden {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Klik op het **[!UICONTROL Download]** pictogram om rapportgegevens in een [!DNL 
 
 ![Downloadpictogram](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-Zie Gegevens [downloaden in een CSV-bestand](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)voor meer informatie.
+Zie Gegevens [downloaden in een CSV-bestand](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)voor meer informatie.
 
 ## Vernieuwen {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ U kunt het rapport in diverse formaten, afhankelijk van het activiteitstype beki
 
 De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die de liftgrenzen en het betrouwbaarheidsniveau verbonden aan uw activiteit begrijpen. Hierdoor kunt u nauwkeuriger bepalen wie de winnaar is.
 
-Voor meer informatie, zie [Gemiddelde Lift, Lift Bounds, en het Interval](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)van het Vertrouwen.
+Voor meer informatie, zie [Gemiddelde Lift, Lift Bounds, en het Interval](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)van het Vertrouwen.
 
 Overweeg het volgende:
 
