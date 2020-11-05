@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1981'
 ht-degree: 0%
@@ -93,7 +93,7 @@ De Automated Personalization-activiteitenworkflow verschilt van de workflow van 
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Offers]** om stukken inhoud te selecteren en deze toe te wijzen aan rapportagegroepen of om alleen bepaalde bezoekers toe te staan bepaalde aanbiedingen te zien waarvoor ze zich richten.
 
-   Zie [Rapportgroepen aanbieden in Automated Personalization](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)voor meer informatie.
+   Zie [Rapportgroepen aanbieden in Automated Personalization](/help/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)voor meer informatie.
 
    Gebruik de [!UICONTROL Location] lijst om aanbiedingen op locatie te filteren. Gebruik de [!UICONTROL Report Group] lijst aan filteraanbiedingen door rapportgroepen. U kunt de [!UICONTROL Report Group] lijst ook gebruiken om voor te filtreren [!UICONTROL Unassigned Offers] zodat kunt u een rapporteringsgroep aan een aanbieding toewijzen die momenteel niet aan om het even welke rapportgroep wordt toegewezen.
 
@@ -107,7 +107,7 @@ De Automated Personalization-activiteitenworkflow verschilt van de workflow van 
 
    Het is belangrijk te begrijpen dat rapportagegroepen van invloed zijn op de manier waarop Target zijn modellen bouwt. Dientengevolge, adviseren wij dat u rapportgroepen slechts gebruikt als u van plan bent om nieuwe aanbiedingen te vervangen of toe te voegen terwijl de activiteit levend is. Als een nieuwe aanbieding wordt geïntroduceerd in een live-activiteit, kan de machine de gegevens die reeds voor de andere aanbiedingen in haar groep zijn verzameld, gebruiken om meer te weten te komen over de nieuwe aanbieding. Je mag niet alle voorstellen in één rapportagegroep plaatsen.
 
-   Voor informatie over het richten van een aanbieding aan specifiek publiek, zie AP van het [Doel Aanbiedingen](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+   Voor informatie over het richten van een aanbieding aan specifiek publiek, zie AP van het [Doel Aanbiedingen](/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Exclusion Groups]** om combinaties van elementen te kiezen die u van de activiteit wilt uitsluiten.
 
@@ -171,4 +171,4 @@ De Automated Personalization-activiteitenworkflow verschilt van de workflow van 
 
 Nadat u hebt geklikt, wordt het Activiteitenoverzicht weergegeven. **[!UICONTROL Create]** Klik op Ervaringen **** voorvertonen om een voorvertoning weer te geven van hoe uw ervaringen eruit zullen zien wanneer ze worden geleverd. Er wordt een pop-up weergegeven die u kunt gebruiken om koppelingen naar uw AP-ervaringen op uw site weer te geven en te delen voor een &quot;echte voorvertoning&quot; van de ervaringen buiten de Visual Experience Composer van Target. U moet de koppelingen vanuit het bericht delen om de voorvertoning te kunnen delen. Wanneer u op een koppeling klikt en vervolgens de URL rechtstreeks vanaf de pagina kopieert, werkt de URL niet omdat de URL een parameter bevat die de pagina alleen correct weergeeft wanneer u de pagina opent via de koppeling in het bericht.
 
-Zie Rapporten [van](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)Automated Personalization voor informatie over rapporten.
+Zie Rapporten [van](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)Automated Personalization voor informatie over rapporten.
