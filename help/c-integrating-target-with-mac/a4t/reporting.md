@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -58,7 +58,7 @@ In [!DNL Analysis Workspace], gebruik het [!UICONTROL Analytics for Target] pane
 >
 >Als je [!UICONTROL Target Activities] rapport in [!DNL Analytics] lijsten &#39;unspecified&#39; bevat in plaats van je activiteiten aan te bieden, is een update vereist voor je provisioned account. Neem contact op met de klantenservice om dit probleem op te lossen.
 
-Voor gedetailleerde informatie en voorbeelden opent u de opties [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, geleverd door Adobe Experience League.
+Voor gedetailleerde informatie en voorbeelden opent u de opties [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, verstrekt door Adobe Experience League.
 
 ## Rapporten op doel {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -83,4 +83,4 @@ Tijdens het creëren van activiteit, moet u een doel voor de activiteit op de [!
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics].
 
-Zie Offlineberekeningen [uitvoeren voor Analytics voor Doel (A4T)](../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)voor meer informatie.
+Zie Offlineberekeningen [uitvoeren voor Analytics voor Doel (A4T)](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)voor meer informatie.
