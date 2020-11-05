@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3027'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat u de [sectie Beveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) hieronder leest voordat u verdergaat met bedrijfsmachtigingen.
+>Zorg ervoor dat u de [sectie Beveats](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) hieronder leest voordat u verdergaat met bedrijfsmachtigingen.
 
 ## In deze sectie gebruikte termen en definities {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
@@ -261,7 +261,7 @@ Veelgestelde vragen over bedrijfsmachtigingen zijn onder andere:
 
 ### Kan ik een activiteit van één werkruimte naar een andere verplaatsen?
 
-Helaas kunt u activiteiten niet van de ene werkruimte naar de andere verplaatsen. U kunt een activiteit echter naar elke werkruimte kopiëren in de wetenschap dat de rapportgegevens niet worden overgedragen. Zie &quot;Een activiteit kopiëren/bewerken bij het gebruik van werkruimten&quot; in een activiteit [kopiëren/bewerken bij het gebruik van werkruimten](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)voor meer informatie.
+Helaas kunt u activiteiten niet van de ene werkruimte naar de andere verplaatsen. U kunt een activiteit echter naar elke werkruimte kopiëren in de wetenschap dat de rapportgegevens niet worden overgedragen. Zie &quot;Een activiteit kopiëren/bewerken bij het gebruik van werkruimten&quot; in een activiteit [kopiëren/bewerken bij het gebruik van werkruimten](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)voor meer informatie.
 
 Activiteiten die vóór de migratie zijn gemaakt, worden in de standaardwerkruimte op dezelfde manier uitgevoerd, tenzij ze worden bewerkt en toegewezen eigenschappen. Activiteiten in een specifieke werkruimte zullen de eigenschappen respecteren die aan die werkruimte zijn toegewezen, zodat het gedrag mogelijk niet hetzelfde blijft als vóór de migratie.
 
