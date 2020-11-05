@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De [!DNL Adobe Target] toepassing en de levering van inhoud zijn getest in een groot aantal browsers en apparaten.
 
-Voor extra belangrijke informatie over TLS, zie de Veranderingen [van de Encryptie van](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (de Veiligheid van de Laag van het Vervoer).
+Voor extra belangrijke informatie over TLS, zie de Veranderingen [van de Encryptie van](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (de Veiligheid van de Laag van het Vervoer).
 
 ## [!DNL Target] Standaard/Premium-interface {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -45,4 +45,4 @@ Let op het volgende:
 * Voor [!DNL at.js] implementaties wordt [!DNL Target] standaardinhoud weergegeven in eerdere versies van Internet Explorer en mogelijk in eerdere versies van de hierboven vermelde browsers. Bij [!DNL mbox.js] implementaties wordt [!DNL Target] geprobeerd inhoud te renderen, maar dit is mogelijk niet gelukt.
 * Internet Explorer behandelt alle onbekende elementen (zoals aangepaste elementen) als hetzelfde elementtype. Dientengevolge, zal de levering niet met douaneelementen werken.
 * [!DNL Target] Hiermee geeft u de standaardinhoud weer in browsers die hierboven niet worden vermeld en in browsers die de [modus](https://en.wikipedia.org/wiki/Quirks_mode)Kirken gebruiken. at.js vereist een documenttype dat op standaardwijze teruggeeft, bijvoorbeeld: `<!DOCTYPE html>` .
-* De Adobe-leveringsinfrastructuur wordt na 12 september 2018 beveiligd om GEEN TLS 1.0-apparaten en browsers te ondersteunen. Zie de Veranderingen [van de Encryptie van](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) TLS (de Veiligheid van de Laag van het Vervoer) om het algemene effect van deze verandering te begrijpen.
+* De Adobe-leveringsinfrastructuur wordt na 12 september 2018 beveiligd om GEEN TLS 1.0-apparaten en browsers te ondersteunen. Zie de Veranderingen [van de Encryptie van](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) TLS (de Veiligheid van de Laag van het Vervoer) om het algemene effect van deze verandering te begrijpen.
