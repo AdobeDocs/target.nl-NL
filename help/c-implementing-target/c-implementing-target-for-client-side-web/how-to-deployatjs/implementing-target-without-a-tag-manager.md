@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: f3877d05d583bdb4690a2638efd874bbfff6154e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 4%
@@ -21,7 +21,7 @@ Informatie over het implementeren [!DNL Adobe Target] zonder gebruik te maken va
 
 >[!NOTE]
 >
->[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
+>[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
 
 Als u de [!UICONTROL Implementation] pagina wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -118,10 +118,10 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target] interface of de
 
 >[!NOTE]
 >
->* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
+>* [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
    >
    >
-* Het team van het Doel steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
+* Het team van het Doel steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
 
 
 ### Download at.js gebruikend de interface van het Doel {#section_1F5EE401C2314338910FC57F9592894E}
@@ -173,7 +173,7 @@ Downloaden [!DNL at.js] met de API.
 
    >[!IMPORTANT]
    >
-   >Het team van het Doel handhaaft slechts twee versies van [!DNL at.js]-de huidige versie en de tweede-recentste versie. Voer [!DNL at.js] indien nodig een upgrade uit om ervoor te zorgen dat u een ondersteunde versie gebruikt. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
+   >Het team van het Doel handhaaft slechts twee versies van [!DNL at.js]-de huidige versie en de tweede-recentste versie. Voer [!DNL at.js] indien nodig een upgrade uit om ervoor te zorgen dat u een ondersteunde versie gebruikt. Voor meer informatie over wat in elke versie is, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)van de Versie.
 
    Wanneer u deze URL laadt, wordt het downloaden van uw aangepaste [!DNL at.js] bestand gestart.
 
@@ -181,7 +181,7 @@ Downloaden [!DNL at.js] met de API.
 
 at.js moet worden geïmplementeerd in het `<head>` element van elke pagina van uw website.
 
-Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Lancering](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) of [Dynamisch Beheer](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) van de Markering gebruikt ziet als volgt uit:
+Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Lancering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) of [Dynamisch Beheer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) van de Markering gebruikt ziet als volgt uit:
 
 ```
 <!doctype html> 
