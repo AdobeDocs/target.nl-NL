@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Voor meer informatie, zie [Voordelen van at.js](/help/c-implementing-target/c-im
 
 Dit consolebericht toont wanneer het gebruiken van Chrome in vele scenario&#39;s waarin de `document.write` functie binnen het mbox.js- dossier wordt gebruikt. Dit is een waarschuwingsbericht en heeft geen invloed op het installatieproces van uw activiteit.
 
-De beste manier om deze situatie te voorkomen is uw doelimplementatie te [migreren naar de JavaScript-bibliotheek](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)at.js, die de `document.write` functie niet gebruikt. Het gebruik van at.js biedt veel voordelen ten opzichte van het gebruik van mbox.js. Voor meer informatie, zie [bij.js Veelgestelde Vragen](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+De beste manier om deze situatie te voorkomen is uw doelimplementatie te [migreren naar de JavaScript-bibliotheek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)at.js, die de `document.write` functie niet gebruikt. Het gebruik van at.js biedt veel voordelen ten opzichte van het gebruik van mbox.js. Voor meer informatie, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Waarom worden mijn dozen niet op mijn webpagina&#39;s geactiveerd? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
 De doelklanten gebruiken soms op wolk-gebaseerde instanties met [!DNL Target] voor het testen of eenvoudige proef-van-concept doeleinden. Deze domeinen, en vele anderen, maken deel uit van de [Openbare Lijst](https://publicsuffix.org/list/public_suffix_list.dat)van het Achtervoegsel.
 
-Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de `cookieDomain` instelling aanpast met targetGlobalSettings(). Zie Op cloud gebaseerde instanties [gebruiken met Doel](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)voor meer informatie.
+Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de `cookieDomain` instelling aanpast met targetGlobalSettings(). Zie Op cloud gebaseerde instanties [gebruiken met Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)voor meer informatie.
 
 ## Wat is het domein tt.omtr dc.net dat de servervraag van het Doel gaat? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
