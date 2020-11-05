@@ -5,7 +5,7 @@ title: Mobiele Viewers voor responsieve ervaringen
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sit
 
 >[!NOTE]
 >
-> * Gebruik mobiele viewports als uw site reageert en dezelfde elementen op uw desktoppagina in een andere configuratie op uw mobiele pagina worden gebruikt. Als u een aparte mobiele site hebt met een aparte structuur, zoals `m.mysite.com`, gebruikt u een activiteit [die uit](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) meerdere pagina&#39;s bestaat.
+> * Gebruik mobiele viewports als uw site reageert en dezelfde elementen op uw desktoppagina in een andere configuratie op uw mobiele pagina worden gebruikt. Als u een aparte mobiele site hebt met een aparte structuur, zoals `m.mysite.com`, gebruikt u een activiteit [die uit](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) meerdere pagina&#39;s bestaat.
    >
    >
 * Mobiele viewports zijn niet beschikbaar als deze worden overlapt door een overlay voor omleidingsaanbiedingen.
@@ -116,7 +116,7 @@ Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw erv
    * Symbian
    * Blackberry
 
-   Als u de [Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gebruikt en een besturingssysteem kiest, [!DNL Target] emuleert u dat apparaat wanneer u de pagina bekijkt. Als er bijvoorbeeld een ander uiterlijk voor Android is dan voor iOS op uw responsieve site, [!DNL Target] wordt dat gedrag nagebootst.
+   Als u de [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gebruikt en een besturingssysteem kiest, [!DNL Target] emuleert u dat apparaat wanneer u de pagina bekijkt. Als er bijvoorbeeld een ander uiterlijk voor Android is dan voor iOS op uw responsieve site, [!DNL Target] wordt dat gedrag nagebootst.
 
 1. Klik op **[!UICONTROL Save]**.
 
