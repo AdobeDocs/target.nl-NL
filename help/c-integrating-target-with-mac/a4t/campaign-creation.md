@@ -6,7 +6,7 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 0%
@@ -45,11 +45,11 @@ Het maken van een [!DNL Target] activiteit die gebruikt wordt [!DNL Analytics] a
    * Je ziet de rapportsuite die je verwacht niet.
 
       Alleen rapportsuites die zijn ingericht voor verbinding met [!DNL Target] worden geselecteerd. Als u de rapportsuite(s) die u verwacht, niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de [!DNL Adobe Experience Cloud] groep om het opnieuw te proberen.
-   Als de rapportsuite(s) nog steeds ontbreekt in de lijst, [neemt u contact op met de klantenservice](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   Als de rapportsuite(s) nog steeds ontbreekt in de lijst, [neemt u contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Geef de trackingserver op.
 
-   Zie [Een Analytics Tracking Server](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)gebruiken.
+   Zie [Een Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)gebruiken.
 
 1. Definieer de ervaring.
 1. Geef het doel van de activiteit op.
