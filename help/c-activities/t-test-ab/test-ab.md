@@ -5,7 +5,7 @@ title: A/B-testoverzicht
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Wanneer u opstelling uw test A/B, kunt u het percentage bezoekers bepalen die el
 
 >[!NOTE]
 >
->Zie [Uw A/B-test](../../c-activities/t-test-ab/sample-size-determination.md)plannen voor gedetailleerde informatie over het bepalen van de optimale monstergrootte voor een A/B-test.
+>Zie [Uw A/B-test](/help/c-activities/t-test-ab/sample-size-determination.md)plannen voor gedetailleerde informatie over het bepalen van de optimale monstergrootte voor een A/B-test.
 
 Wanneer het aantal verschillende ervaringen vijf overschrijdt en zich twee of meer plaatsen overspannen, is het een goed idee om een test [te overwegen](/help/c-activities/c-multivariate-testing/multivariate-testing.md) MVT alvorens uw tests A/B uit te voeren. De multivariate test toont welke gebieden op de pagina het meest waarschijnlijk om omzetting zullen verbeteren. Dit zijn de locaties waarop een markeerteken zich moet concentreren. Bijvoorbeeld, zou de test MVT kunnen tonen dat de vraag aan actie de belangrijkste plaats voor het ontmoeten van uw doelstellingen is. Zodra u hebt bepaald welke plaatsen en inhoud het nuttigst zijn om u te helpen uw doelstellingen bereiken, kunt u een test A/B dan in werking stellen om de resultaten verder te verfijnen, zoals twee specifieke beelden tegen elkaar te testen, of de formulering of de kleuren van een vraag aan actie te vergelijken. Door een MVT-test met een of meer A/B-tests uit te voeren, kunt u de best mogelijke inhoud voor de gewenste resultaten bepalen.
 
