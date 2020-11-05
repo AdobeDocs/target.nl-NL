@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# Meerdere doelgroepen combineren{#combine-multiple-audiences}
+# Meerdere soorten publiek combineren{#combine-multiple-audiences}
 
 Combineer meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) om een ad-hocpubliek te maken. U kunt ook uitsluitingsregels maken en het publiek uitsluiten van een regel.
 
@@ -30,7 +30,7 @@ U kunt gecombineerde doelgroepen op verschillende plaatsen door [!DNL Target] UI
 
 U kunt een gecombineerd ad-hocpubliek op de [!UICONTROL Target] pagina van de activiteit tijdens de driestapige geleide werkschema tot stand brengen.
 
-1. Klik tijdens het maken van een [activiteit](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Target]** pagina op de drie verticale ellipsen en klik vervolgens op **[!UICONTROL Replace Audience]**.
+1. Klik tijdens het maken van een [activiteit](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Target]** pagina op de drie verticale ellipsen en klik vervolgens op **[!UICONTROL Replace Audience]**.
 
    ![Stap resultaat](assets/edit_audience.png)
 
@@ -74,7 +74,7 @@ U kunt een gecombineerd ad-hocpubliek op de [!UICONTROL Target] pagina van de ac
 
    1. Als u een publiek wilt uitsluiten van een regel, klikt u op **[!UICONTROL Exclusion]** > **[!UICONTROL Exclude this Audience.]**.
 
-      U kunt bijvoorbeeld een gecombineerd publiek maken dat alle nieuwe bezoekers van uw site omvat, met uitzondering van bezoekers die Firefox gebruiken. Het uitsluiten van bezoekers die Firefox gebruiken is eenvoudiger en sneller dan het maken van een gecombineerd publiek dat expliciet meerdere browsers bevat (Safari, Chrome en Internet Explorer), maar Firefox is niet inbegrepen.
+      U kunt bijvoorbeeld een gecombineerd publiek maken dat alle nieuwe bezoekers van uw site omvat, met uitzondering van bezoekers die Firefox gebruiken. Het uitsluiten van bezoekers die Firefox gebruiken is eenvoudiger en sneller dan het maken van een gecombineerd publiek dat expliciet meerdere browsers (Safari, Chrome en Internet Explorer) bevat, maar Firefox is niet inbegrepen.
 
 1. Geef een beschrijvende naam op voor het gecombineerde publiek en klik op **[!UICONTROL Save]**.
 
@@ -82,7 +82,7 @@ U kunt een gecombineerd ad-hocpubliek op de [!UICONTROL Target] pagina van de ac
 
 U kunt een ad hoc gecombineerd publiek op de [!UICONTROL Goals & Settings] pagina van de activiteit tot stand brengen om in metrisch richten te gebruiken. Bijvoorbeeld om het richten tot stand te brengen die op omzetting gebruikend een gecombineerd publiek wordt gebaseerd:
 
-1. Selecteer tijdens het bewerken of maken van een [activiteit](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Goals & Settings]** pagina **[!UICONTROL Conversion]** voor de succesmetrische waarde en selecteer vervolgens **[!UICONTROL Viewed an Mbox]** als de actie.
+1. Selecteer tijdens het bewerken of maken van een [activiteit](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Goals & Settings]** pagina **[!UICONTROL Conversion]** voor de succesmetrische waarde en selecteer vervolgens **[!UICONTROL Viewed an Mbox]** als de actie.
 1. Selecteer de gewenste mbox in het **[!UICONTROL Search mbox]** veld.
 
    ![](assets/combine_multiple_audiences4.png)
@@ -92,17 +92,17 @@ U kunt een ad hoc gecombineerd publiek op de [!UICONTROL Goals & Settings] pagin
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. Ga met [Stap 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;tot een Gecombineerd Publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
+1. Ga met [Stap 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;tot een Gecombineerd Publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
 
 ## Creeer een Gecombineerde Publiek voor Gebruik in het Melden {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 U kunt een gecombineerd publiek ad hoc op de pagina van de activiteit tot stand brengen voor gebruik in het melden. [!UICONTROL Goals & Settings]
 
-1. Klik tijdens het bewerken of maken van een [activiteit](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Goals & Settings]** pagina op het **[!UICONTROL Add Audience]** pictogram onder [!UICONTROL Audiences for Reporting] om de [!UICONTROL Choose Audience] pagina weer te geven.
+1. Klik tijdens het bewerken of maken van een [activiteit](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Goals & Settings]** pagina op het **[!UICONTROL Add Audience]** pictogram onder [!UICONTROL Audiences for Reporting] om de [!UICONTROL Choose Audience] pagina weer te geven.
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. Ga met [Stap 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;tot een Gecombineerd Publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
+1. Ga met [Stap 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;tot een Gecombineerd Publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
 
 ## Een gecombineerd publiek maken tijdens het bewerken van een activiteit {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -122,4 +122,4 @@ U kunt een gecombineerd ad-hocpubliek maken terwijl u een bestaande activiteit b
 
    ![Publiek wijzigen](/help/c-target/assets/combine_multiple_audiences8.png)
 
-1. Ga met [Stap 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;tot een Gecombineerd Publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
+1. Ga met [Stap 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;tot een Gecombineerd Publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
