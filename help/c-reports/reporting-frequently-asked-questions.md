@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -36,7 +36,7 @@ De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruik
 
 Stel dat de levensduur van uw profiel 14 dagen is ingesteld (de standaardwaarde). Een bezoeker wordt opgenomen in het segment Terugkerende bezoekers als aan de volgende voorwaarden wordt voldaan:
 
-* Een bezoeker bezoekt de site voor het eerst en wordt opgenomen als een nieuwe bezoeker.
+* Een bezoeker bezoekt de site voor het eerst en wordt opgenomen als nieuwe bezoeker.
 * De bezoeker verlaat de site, maar keert zes dagen later terug.
 
 Aangezien de levensduur van het profiel veertien dagen is ingesteld, wordt deze bezoeker opgenomen in het segment Terugkerende bezoekers. Als de bezoeker binnen die periode van zes dagen cookies heeft verwijderd, wordt die bezoeker opgenomen in het segment Nieuwe bezoekers.
@@ -94,7 +94,7 @@ Om het milieu voor het rapport van een activiteit te veranderen:
 
 1. Klik op **[!UICONTROL Save]**.
 
-Zie [Gastheren](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie over omgevingen.
+Zie [Gastheren](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)voor meer informatie over omgevingen.
 
 ## Waarom is het verkeer verdeeld tussen mijn ervaringen ongelijk in mijn activiteit A/B of MVT? {#uneven}
 
