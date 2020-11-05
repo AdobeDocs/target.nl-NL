@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -37,7 +37,7 @@ U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de
    * Het [!UICONTROL Properties] tabblad ( [!UICONTROL Administration] > [!UICONTROL Properties] ) wordt weergegeven
    * U ziet ook het [!UICONTROL Users] tabblad ( [!UICONTROL Administration] > [!UICONTROL Users] )
 
-      [!DNL Target] Premiumklanten moeten de instructies in [Enterprise-gebruikersmachtigingen](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) opvolgen en Enterprise-machtigingen [](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) configureren om gebruikers toe te voegen en machtigingen in de [!DNL Adobe Admin Console]account toe te wijzen.
+      [!DNL Target] Premiumklanten moeten de instructies in [Enterprise-gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) opvolgen en Enterprise-machtigingen [](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) configureren om gebruikers toe te voegen en machtigingen in de [!DNL Adobe Admin Console]account toe te wijzen.
 
 In de volgende afbeelding ziet u de [!UICONTROL Administration] pagina voor een [!DNL Target] Premium-account. Merk op dat zowel de [!UICONTROL Properties] als [!UICONTROL Users] lusjes beschikbaar zijn:
 
