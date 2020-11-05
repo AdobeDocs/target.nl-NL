@@ -6,7 +6,7 @@ feature: xt
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
@@ -40,17 +40,17 @@ ht-degree: 0%
 
    Het [!UICONTROL Choose Audience] dialoogvenster wordt weergegeven. Als u een ervaring wilt toewijzen aan een publiek, moet u het publiek selecteren voordat u een ervaring kunt toevoegen.
 
-   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target]. U kunt een publiek selecteren in de bibliotheek of een nieuw publiek [](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)maken.
+   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target]. U kunt een publiek selecteren in de bibliotheek of een nieuw publiek [](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)maken.
 
    >[!NOTE]
    >
-   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie Meerdere soorten publiek [combineren voor meer informatie](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie Meerdere soorten publiek [combineren voor meer informatie](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    Wanneer u een publiek maakt, kunt u een locatie selecteren en parameters voor die locatie opgeven. Selecteer onder [!UICONTROL Custom] (Audience maken > Regel toevoegen > Aangepast) de locatie en geef vervolgens de gewenste parameters op.
 
    >[!NOTE]
    >
-   >Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de lijst met doelgroepen opent en het geïmporteerde publiek langer dan 10 minuten oud is.
+   >Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de publiekslijst opent en het geïmporteerde publiek langer dan 10 minuten oud is.
 
 1. Selecteer een of meer soorten publiek voor de ervaring en klik op **[!UICONTROL Done]**.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    Stel dat u zich er niet van bewust was dat bestellen belangrijk is tijdens het maken van een XT-activiteit. U realiseert zich later tijdens het testen dat bezoekers die u denkt in aanmerking te komen voor ervaringen B of C in plaats daarvan in aanmerking komen voor ervaring A. Dit zou kunnen zijn omdat het publiek niet wederzijds exclusief is en niet in de juiste orde (bijvoorbeeld, ervaart A = Verenigde Staten, ervaart B = San Francisco, en ervaring C = Californië) is. In dit scenario komen alle gebruikers uit de Verenigde Staten in aanmerking voor ervaring A, zelfs als ze zich in San Francisco of elders in Californië bevinden. U kunt de publiek/ervaringsparen van het meest restrictieve aan het minst beperkende (San Francisco > Californië > Verenigde Staten) opnieuw rangschikken zonder de volledige activiteit opnieuw te creëren.
 
-   Als u een [!UICONTROL All Visitors] publiek hebt, zorg ervoor dat het niet het eerste publiek in het diagram is. Een ervaring voor &quot;alle bezoekers&quot; kan worden gebruikt als de laatste ervaring in de ervaring die is opgedaan met activiteiten die erop gericht zijn bezoekers te &quot;vangen&quot; die geen andere ervaring hebben opgedaan.
+   Als u een [!UICONTROL All Visitors] publiek hebt, zorg ervoor dat het niet het eerste publiek in het diagram is. Een ervaring die gericht is op &quot;Alle bezoekers&quot; kan worden gebruikt als de laatste ervaring in de ervaring die is opgedaan met activiteiten die erop gericht zijn bezoekers te &quot;vangen&quot; die geen andere ervaring hebben opgedaan.
 
 ## Ervaring hernoemen of bewerken
 
