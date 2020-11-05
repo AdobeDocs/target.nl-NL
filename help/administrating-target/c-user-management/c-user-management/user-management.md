@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -68,14 +68,14 @@ Voor taken die in Adobe Admin Console worden uitgevoerd, opent u de console door
 
 Al gebruikersbeheer moet in de [!DNL Adobe Admin Console for Enterprise]worden uitgevoerd. Alle bestaande gebruikers in [!DNL Target] worden echter van [!DNL Target] naar [!DNL Admin Console for Enterprise].
 
-1. [Klik in de Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)op **[!UICONTROL Users]** > **[!UICONTROL Users]** om nieuwe gebruikers te maken of bestaande gebruikers te bewerken.
+1. [Klik in de Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)op **[!UICONTROL Users]** > **[!UICONTROL Users]** om nieuwe gebruikers te maken of bestaande gebruikers te bewerken.
 1. Volg de instructies in Gebruikers en groepen [beheren in de Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in de gebruikershandleiding *van de* onderneming.
 
 ## Gebruikersgroepen maken {#user-groups}
 
 U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Executives, enz., en vervolgens rechten toewijzen voor meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid alle aangewezen voorrechten over verschillende producten van de Adobe kan zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
 
-1. [Klik in de Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)op **[!UICONTROL Users]** > **[!UICONTROL User Groups]** om nieuwe gebruikersgroepen te maken of bestaande groepen te bewerken.
+1. [Klik in de Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)op **[!UICONTROL Users]** > **[!UICONTROL User Groups]** om nieuwe gebruikersgroepen te maken of bestaande groepen te bewerken.
 1. Volg de instructies in Gebruikers en groepen [beheren in de Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in de gebruikershandleiding *van de* onderneming.
 
 ## Rollen en machtigingen opgeven {#roles-permissions}
@@ -84,7 +84,7 @@ Alleen systeembeheerders kunnen gebruikersrollen instellen in [!DNL Target]. Een
 
 Gebruikers van systeembeheerders moeten gebruikers aan het systeem toevoegen. Gebruikers worden niet automatisch toegevoegd. Ze worden uitgenodigd via e-mail van de website [!DNL Experience Cloud] en moeten hun e-mailadres bevestigen voordat hun accounts worden geregistreerd.
 
-1. [Klik in de Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)op **[!UICONTROL Products]** en selecteer vervolgens de naam van het gewenste product.
+1. [Klik in de Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)op **[!UICONTROL Products]** en selecteer vervolgens de naam van het gewenste product.
 
    ![Tabblad Producten](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
