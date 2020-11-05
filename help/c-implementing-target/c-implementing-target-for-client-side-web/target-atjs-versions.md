@@ -6,7 +6,7 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3970'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Dit is een onderhoudrelease met de volgende oplossing:
 
 ## at.js Versie 2.0.0 {#at-js-200}
 
-at.js 2.x verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende generatie cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie wordt geconcentreerd op bevordering at.js om harmonieuze interactie met enige paginatoepassingen (SPAs) te hebben.
+at.js 2.x verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende generatie cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).
 
 Hier volgen enkele voordelen van het gebruik van at.js 2.x die niet beschikbaar zijn in eerdere versies:
 
@@ -228,7 +228,7 @@ at.js versie 1.5.0 is nu beschikbaar.
 * De details van de `at-request-succeeded` gebeurtenis bevatten de omleidingsvlag. Met deze markering kunt u bepalen of de pagina wordt omgeleid naar een andere URL. Als u de URL wilt weten, meldt u zich aan `at-content-rendering-redirect`. (TNT-29834)
 * Probleem verholpen waarbij een fout `window.targetGlobalSettings.enabled` bij uitvoering werd gegenereerd als deze op false was ingesteld. (TNT-29829)
 * Probleem verholpen die ertoe leidde dat de pagina mislukte tijdens het laden in Visual Experience Composer (VEC) als het gebruiken van douanecode aan een brand globale mbox verzoek en het gebruiken van lichaam het verbergen. (TNT-29795)
-* Extra ondersteuning voor `screenOrientation`, `devicePixelRatio`en `webGLRenderer`. Deze nieuwe parameters voor doelverzoeken worden gebruikt voor iPhone X en andere moderne apparaatdetectie. Zie [Mobiel](../../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)voor meer informatie. (TNT-29781)
+* Extra ondersteuning voor `screenOrientation`, `devicePixelRatio`en `webGLRenderer`. Deze nieuwe parameters voor doelverzoeken worden gebruikt voor iPhone X en andere moderne apparaatdetectie. Zie [Mobiel](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)voor meer informatie. (TNT-29781)
 * Probleem verholpen waarbij de locatie-hint van de Adobe Audience Manager (AAM) niet altijd werd verzonden. (TNT-29695)
 * Voor browsers die dit ondersteunen, schakelt at.js 1.5.0 over naar MutationObserver voor kiezersopiniepeiling. In versies vóór at.js 1.0.0 werd een MutationObserver-polyfill gebruikt, wat problematisch bleek te zijn. Om de polyfill problemen te voorkomen, gebruikt versie 1.5.0 de volgende pseudo-code om te bepalen welk planningsmechanisme moet worden gebruikt:
 
@@ -241,7 +241,7 @@ at.js versie 1.5.0 is nu beschikbaar.
      scheduler = setTimeout
    ```
 
-## at.js versie 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js versie 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js versie 1.3.0 is nu beschikbaar.
 
@@ -264,13 +264,13 @@ at.js versie 1.3.0 is nu beschikbaar.
 * at.js heeft de functie voor het bijhouden van gebeurtenissen verbeterd en klikt op tracking. at.js gebruikt `navigator.sendBeacon()` om gegevens voor het bijhouden van gebeurtenissen te verzenden en fallback naar synchrone XHR wanneer `navigator.sendBeacon()` dit niet wordt ondersteund. Deze fallback heeft vooral invloed op Internet Explorer 10 en 11 en op sommige versies van Safari. Safari voegt ondersteuning toe voor `navigator.sendBeacon()` de volgende iOS 11.3-versie.
 * Met at.js kunt u nu aanbiedingen renderen, zelfs als een pagina wordt geopend op tabbladen op de achtergrond. Sommige klanten van het Doel ontmoetten een kwestie toen onbruikbaar `requestAnimationFrame()` werd gemaakt wegens browser die gedrag voor achtergrondlusjes vertraagt.
 * Deze versie voegt vele prestatiesverbeteringen, met inbegrip van kortere callstacks toe wanneer het inspecteren van een profiel van Chrome cpu.
-* at.js 1.3.0 biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9. Zie [Ondersteunde browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)voor een lijst met ondersteunde browsers. Voorwaarts, worden alle verzoeken uitgevoerd via `XMLHttpRequest` met steun CORS zonder JSONP- verzoeken. Deze wijziging verbetert de veiligheid aanzienlijk.
+* at.js 1.3.0 biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9. Zie [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)voor een lijst met ondersteunde browsers. Voorwaarts, worden alle verzoeken uitgevoerd via `XMLHttpRequest` met steun CORS zonder JSONP- verzoeken. Deze wijziging verbetert de veiligheid aanzienlijk.
 
 ## at.js versie 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
 [!DNL at.js] versie 1.2.3 is nu beschikbaar.
 
-* Voegt ondersteuning toe voor JSON-aanbiedingen. JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de Form-based Experience Composer. De enige manier om JSON-aanbiedingen te gebruiken is momenteel via directe API-aanroepen. Zie JSON-aanbiedingen [maken](../../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
+* Voegt ondersteuning toe voor JSON-aanbiedingen. JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de Form-based Experience Composer. De enige manier om JSON-aanbiedingen te gebruiken is momenteel via directe API-aanroepen. Zie JSON-aanbiedingen [maken](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
 
 ## at.js versie 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
@@ -308,7 +308,7 @@ at.js versie 1.3.0 is nu beschikbaar.
 
 De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 1.1:
 
-* Toegevoegde verwerking van responstoken. Zie [Reactietokens](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)voor meer informatie.
+* Toegevoegde verwerking van responstoken. Zie [Reactietokens](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)voor meer informatie.
 * Het probleem is opgelost, zodat `document.currentScript polyfill` dit niet interfereert met Hoek 1.X.
 * Wijzigingen aangebracht om ervoor te zorgen dat het bijhouden van klikken geen invloed heeft op de zichtbaarheidseigenschap. Klik op de volgende elementen worden gemarkeerd met de `at-element-click-tracking` CSS-klasse in plaats van `at-element-marker`.
 
@@ -326,7 +326,7 @@ De volgende verbeteringen en correcties zijn opgenomen in versie 1.js 1.0:
 * Foutenmelding voor aangepaste gebeurtenissen tijdens de levering van de activiteit.
 * Oplossen voor prestatieproblemen in Microsoft Internet Explorer 11.
 * Oplossing voor `getOffer()` functie die een fout op sommige websites veroorzaakt.
-* Laad de doelbibliotheek asynchroon. Voor meer informatie, zie [bij.js Veelgestelde Vragen](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+* Laad de doelbibliotheek asynchroon. Voor meer informatie, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## at.js Versie 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -342,7 +342,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 
 De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.9.6:
 
-* Omleiding biedt ondersteuning voor A4T. Nadat u versie 0.9.6 downloadt en installeert, kunt u aanbiedingen in activiteiten gebruiken die [!DNL at.js] als Bron van de Rapportering voor [!DNL Adobe Analytics] [!DNL Target] (A4T) gebruiken. Naast [!DNL at.js] versie 0.9.6 zijn er andere minimumvereisten waaraan uw implementatie moet voldoen om omleidingsaanbiedingen en A4T te kunnen gebruiken. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie Aanbiedingen van de [Omleiding - Veelgestelde vragen](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)A4T.
+* Omleiding biedt ondersteuning voor A4T. Nadat u versie 0.9.6 downloadt en installeert, kunt u aanbiedingen in activiteiten gebruiken die [!DNL at.js] als Bron van de Rapportering voor [!DNL Adobe Analytics] [!DNL Target] (A4T) gebruiken. Naast [!DNL at.js] versie 0.9.6 zijn er andere minimumvereisten waaraan uw implementatie moet voldoen om omleidingsaanbiedingen en A4T te kunnen gebruiken. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie Aanbiedingen van de [Omleiding - Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)A4T.
 * Vóór [!DNL at.js] 0.9.6, toen de bezoeker-API op de pagina aanwezig was en de `visitorApiTimeout` instelling te agressief was, kon Target in een situatie terechtkomen waarin er geen MCID-gegevens werden verzonden in de [!DNL Target] aanvraag. Dit kan leiden tot problemen zoals onverwachte resultaten [!DNL Analytics] bij het gebruik van A4T.
 
    Dit gedrag is veranderd in [!DNL at.js] `visitorApiTimeout` 0.9.6, zelfs als het om 1 ms wordt geplaatst te zeggen, zal het Doel proberen SDID, volgende servers, en gegevens van klantIDs te verzamelen en die in het verzoek van het Doel te verzenden.
@@ -361,7 +361,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 
 * mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ), zodat deze consistent zijn met de naamgevingsvereisten voor mbox-namen met mbox.js.
 
-   Zie [at.js Configurations](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)voor een lijst met toegestane speciale tekens.
+   Zie [at.js Configurations](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)voor een lijst met toegestane speciale tekens.
 
 * Toegevoegde `secureOnly` instelling die aangeeft of at.js alleen HTTPS mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en via `targetGlobalSettings`deze instelling kan worden overschreven.
 * De [!UICONTROL Legacy Browser Support] optie is beschikbaar in at.js versie 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4.
