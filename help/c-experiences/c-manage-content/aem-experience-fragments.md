@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Informatie over het gebruik van ervaringsfragmenten die zijn gemaakt in [!DNL Ad
 
 >[!NOTE]
 >
->Deze functie vereist dat u een [!DNL Adobe Experience Manager] ([!DNL AEM]) klant bent. Zie [Vereisten](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)hieronder voor meer informatie.
+>Deze functie vereist dat u een [!DNL Adobe Experience Manager] ([!DNL AEM]) klant bent. Zie [Vereisten](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)hieronder voor meer informatie.
 
 ## Overzicht {#section_95A91830530F493B81C5C9CDB9B783EA}
 
@@ -98,11 +98,11 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
 
 >[!NOTE]
 >
->Als u de [!DNL Target] AI- en ML-functionaliteit volledig wilt gebruiken, selecteert u [Automatisch toewijzen](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) tijdens het maken van een A/B-test.
+>Als u de [!DNL Target] AI- en ML-functionaliteit volledig wilt gebruiken, selecteert u [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) tijdens het maken van een A/B-test.
 
 **Ervaar fragmenten met de VEC als u deze wilt gebruiken:**
 
-1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in [Visuele Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring, klik de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, dan selecteer de gewenste optie om de [!UICONTROL Choose an Experience Fragment] lijst te tonen.
+1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in [Visuele Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring, klik de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, dan selecteer de gewenste optie om de [!UICONTROL Choose an Experience Fragment] lijst te tonen.
 
    * [!UICONTROL Insert Before]
    * [!UICONTROL Insert After]
@@ -122,16 +122,16 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten verbruiken gebruikend d
    Voor meer informatie over het vormen van de diverse activiteitentypes, zie de volgende onderwerpen:
 
    * **A/B-test:** [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **Automatisch toewijzen:** [Automatisch toewijzen](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **Automatisch toewijzen:** [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Automatisch doel:** [Automatisch doel](/help/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):** [Automated Personalization-activiteiten maken](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Gericht op ervaring (XT):** [Een ervaring maken die gericht is op activiteiten](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **MVT (Multivariate Test):** [Een multivariatietest maken](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendations:** [Een Recommendations-activiteit maken](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **Automated Personalization (AP):** [Automated Personalization-activiteiten maken](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Gericht op ervaring (XT):** [Een ervaring maken die gericht is op activiteiten](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **MVT (Multivariate Test):** [Een multivariatietest maken](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
+   * **Recommendations:** [Een Recommendations-activiteit maken](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **Ervaar fragmenten op basis van de Form-based Experience Composer:**
 
-1. Tijdens het maken of bewerken van een ervaring in de [!DNL Target]Form-Based Experience Composer [selecteert u op de pagina de locatie waar u](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)inhoud wilt invoegen en selecteert u [!DNL AEM] om de **[!UICONTROL Change Experience Fragment]** [!UICONTROL Choose an Experience Fragment] lijst weer te geven.
+1. Tijdens het maken of bewerken van een ervaring in de [!DNL Target]Form-Based Experience Composer [selecteert u op de pagina de locatie waar u](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)inhoud wilt invoegen en selecteert u [!DNL AEM] om de **[!UICONTROL Change Experience Fragment]** [!UICONTROL Choose an Experience Fragment] lijst weer te geven.
 
    ![](assets/experience_fragment_list.png)
 
