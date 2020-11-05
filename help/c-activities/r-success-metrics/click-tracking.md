@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Wanneer een deelnemer aan een activiteit op een geselecteerd element klikt, word
 
 ## Deelvenster Geselecteerde elementen {#selected-elements}
 
-Voor A/B-test-, Experience Targeting- (XT), Automated Personalization- (AP) en MVT-activiteiten (Multivariate Test) bevat een [!UICONTROL Selected Elements] deelvenster alle geselecteerde elementen voor klik op tracking aan de rechterkant.
+Voor A/B-test, Experience Targeting (XT), Automated Personalization (AP) en MVT-activiteiten (Multivariate Test) bevat een [!UICONTROL Selected Elements] deelvenster alle geselecteerde elementen voor klik op tracking aan de rechterkant.
 
 ![Deelvenster Geselecteerde elementen](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
@@ -76,7 +76,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    Voor meer informatie, zie [Navigeren elementen gebruikend de weg](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) DOM in de Opties *van de Composer van de* Visuele Ervaring.
 
-* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze andere pagina moet worden opgenomen in de activiteit met behulp van de functie [voor](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) meerdere pagina&#39;s [!DNL at.js] of [!DNL mbox.js] moet erop worden geïmplementeerd.
+* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze andere pagina moet worden opgenomen in de activiteit met behulp van de functie [voor](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) meerdere pagina&#39;s [!DNL at.js] of [!DNL mbox.js] moet erop worden geïmplementeerd.
 * Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.
 * Selecteer het niveau van het element dat u wilt bijhouden. Wanneer u bijvoorbeeld een knop opgeeft, moet u de koppeling selecteren en niet de knoptekst.
 * Klik gebeurtenissen worden verzonden naar [!DNL Target] op de zelfde pagina zoals de klik.
@@ -93,7 +93,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
 * Als u [!DNL at.js] klik het volgen gebruikt en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] het volgen annuleert alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
 
-   [!DNL at.js] heeft een speciale afhandeling voor het bijhouden van klikken wanneer het onderliggende element een `A` (koppeling)tag of - `FORM` tag is.
+   [!DNL at.js] heeft een speciale afhandeling voor het bijhouden van klikken wanneer het onderliggende element een `A` (koppeling)tag of `FORM` tag is.
 
    De volgende stappen worden uitgevoerd door [!DNL at.js] de gebeurtenis click tracking te koppelen aan een `A` (link)tag of een `FORM` tag:
 
@@ -101,7 +101,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    1. Verzoek branddoel.
 
-   1. Voer het standaardgedrag uit als de aanvraag is geslaagd of er een fout is teruggeroepen:
+   1. Voer het standaardgedrag uit wanneer de aanvraag van het Doel is geslaagd of er een fout is teruggeroepen:
 
       * `A` (link) tag: Standaard wordt naar de URL gegaan die door het kenmerk HREF wordt gedefinieerd.
       * `FORM` tag: Standaard wordt het formulier verzonden.
