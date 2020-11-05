@@ -6,7 +6,7 @@ feature: vec
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 938001261bdba5cb0437c1d5e02789af1b232154
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -20,13 +20,13 @@ Met een activiteit van meerdere pagina&#39;s kunt u een artikel op meerdere pagi
 
 Je kunt bijvoorbeeld een voorstel voor gratis verzending testen met aankopen boven een bepaald bedrag. Mogelijk wilt u dat dit aanbod wordt weergegeven op uw openingspagina, een categoriepagina en bepaalde productpagina&#39;s, maar u wilt dat het een ander formaat heeft en zich op elk paginatype bevindt. Je kunt een opvallend voorstel op je homepage weergeven en dat aanbod vervolgens versterken met kleinere aanbiedingen op andere relevante pagina&#39;s.
 
-U kunt ook een activiteit met meerdere pagina&#39;s gebruiken om verschillende lay-outs voor uw bureaublad en mobiele sites te definiëren die niet reageren. Als de site een aparte mobiele site heeft, zoals [!DNL m.mysite.com] in plaats van [!DNL `www.mysite.com`], moet u in plaats daarvan een activiteit [met](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)meerdere pagina&#39;s maken, deze toevoegen [!DNL m.mysite.com] als afzonderlijke pagina&#39;s en vervolgens mobiele bewerkingen toepassen om de juiste wijzigingen aan te brengen in de desktopversie en de mobiele versie in dezelfde ervaring. Gebruik voor responsieve mobiele sites de functie [Mobiele ervaring bewerken](../../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5).
+U kunt ook een activiteit met meerdere pagina&#39;s gebruiken om verschillende lay-outs voor uw bureaublad en mobiele sites te definiëren die niet reageren. Als de site een aparte mobiele site heeft, zoals [!DNL m.mysite.com] in plaats van [!DNL `www.mysite.com`], moet u in plaats daarvan een activiteit [met](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)meerdere pagina&#39;s maken, deze toevoegen [!DNL m.mysite.com] als afzonderlijke pagina&#39;s en vervolgens mobiele bewerkingen toepassen om de juiste wijzigingen aan te brengen in de desktopversie en de mobiele versie in dezelfde ervaring. Gebruik voor responsieve mobiele sites de functie [Mobiele ervaring bewerken](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5).
 
 >[!NOTE]
 >
->Activiteiten van meerdere pagina&#39;s zijn bedoeld voor activiteiten waarbij hetzelfde aanbod op meerdere pagina&#39;s anders wordt weergegeven. Als het aanbod op alle pagina&#39;s hetzelfde wordt weergegeven, is een [sjabloontest](../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) efficiënter.
+>Activiteiten van meerdere pagina&#39;s zijn bedoeld voor activiteiten waarbij hetzelfde aanbod op meerdere pagina&#39;s anders wordt weergegeven. Als het aanbod op alle pagina&#39;s hetzelfde wordt weergegeven, is een [sjabloontest](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) efficiënter.
 
-U kunt sjabloonregels opgeven voor elke pagina in de test met meerdere pagina&#39;s. U kunt bijvoorbeeld een test met meerdere pagina&#39;s uitvoeren op de startpagina en op alle categoriepagina&#39;s door sjabloonregels toe te passen op de categoriepagina in de test met meerdere pagina&#39;s. Zie Dezelfde ervaring [opnemen op vergelijkbare pagina&#39;s](../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+U kunt sjabloonregels opgeven voor elke pagina in de test met meerdere pagina&#39;s. U kunt bijvoorbeeld een test met meerdere pagina&#39;s uitvoeren op de startpagina en op alle categoriepagina&#39;s door sjabloonregels toe te passen op de categoriepagina in de test met meerdere pagina&#39;s. Zie Dezelfde ervaring [opnemen op vergelijkbare pagina&#39;s](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
 Pagina&#39;s toevoegen aan een test:
 
