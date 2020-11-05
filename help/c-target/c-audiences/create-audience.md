@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -54,7 +54,7 @@ De volgende regel geldt bijvoorbeeld voor bezoekers die Chrome *of* Firefox gebr
    Regels maken het mogelijk om uw publiek te beperken tot een subset van uw sitebezoekers.
 1. Selecteer een regeltype.
 
-   Elk regeltype heeft zijn eigen parameters. Zie [Categorieën voor Soorten publiek](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
+   Elk regeltype heeft zijn eigen parameters. Zie [Categorieën voor Soorten publiek](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
 1. Definieer de regelparameters.
 1. Klik op **[!UICONTROL Save]**.
 
