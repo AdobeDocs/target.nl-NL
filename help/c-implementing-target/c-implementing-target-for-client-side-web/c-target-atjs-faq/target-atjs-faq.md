@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2656'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Zo laadt u at.js asynchroon:
    <script src="<URL to at.js>" async></script>
    ```
 
-* U kunt ook asynchroon laden bij.js met deze code:
+* U kunt ook asynchroon laden bij .js met deze code:
 
    ```
    var script = document.createElement('script'); 
@@ -123,7 +123,7 @@ Zie [Hoe at.js flikkering](/help/c-implementing-target/c-implementing-target-for
 
 ## Hoe kan ik flikkering tijdens het laden van pagina&#39;s voorkomen met at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Doel biedt verschillende manieren om flikkering bij het laden van pagina&#39;s te voorkomen. Zie [Flikkering met at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)voorkomen voor meer informatie.
+Doel biedt verschillende manieren om flikkering bij het laden van pagina&#39;s te voorkomen. Zie [Flikkering met at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)voorkomen voor meer informatie.
 
 ## Wat is de bestandsgrootte van at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -153,11 +153,11 @@ Niet op dezelfde pagina. Nochtans, terwijl het uitvoeren en het testen [!DNL at.
 
 ## Kan ik de Composer van de Ervaring van het Doel Visuele in mijn enig-paginatoepassingen gebruiken? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-Ja, kunt u VEC voor uw SPA gebruiken als u at.js 2.x gebruikt. Voor meer informatie, zie [Enige Pagina (SPA) Visuele Composer](/help/c-experiences/spa-visual-experience-composer.md)van de Ervaring.
+Ja, u kunt VEC voor uw SPA gebruiken als u at.js 2.x gebruikt. Voor meer informatie, zie [Enige Pagina (SPA) Visuele Composer](/help/c-experiences/spa-visual-experience-composer.md)van de Ervaring.
 
 ## Kan ik de Adobe Experience Cloud Debugger gebruiken met at.js implementaties? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
-Ja. U kunt mboxTrace ook gebruiken voor het zuiveren doeleinden of de Hulpmiddelen van de Ontwikkelaar van uw browser om de verzoeken van het Netwerk te inspecteren, filtrerend aan &quot;mbox&quot;om mbox vraag te isoleren.
+Ja. U kunt mboxTrace voor het zuiveren doeleinden of de Hulpmiddelen van de Ontwikkelaar van uw browser ook gebruiken om de verzoeken van het Netwerk te inspecteren, filtrerend aan &quot;mbox&quot;om mbox vraag te isoleren.
 
 ## Kan ik speciale karakters in mbox namen met at.js gebruiken? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
@@ -167,17 +167,17 @@ Ja, hetzelfde als met mbox.js.
 
 De doelklanten gebruiken soms op wolk-gebaseerde instanties met [!DNL Target] voor het testen of eenvoudige proef-van-concept doeleinden. Deze domeinen, en vele anderen, maken deel uit van de [Openbare Lijst](https://publicsuffix.org/list/public_suffix_list.dat)van het Achtervoegsel.
 
-Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de `cookieDomain` instelling aanpast met targetGlobalSettings(). Zie Op cloud gebaseerde instanties [gebruiken met Doel](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)voor meer informatie.
+Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de `cookieDomain` instelling aanpast met targetGlobalSettings(). Zie Op cloud gebaseerde instanties [gebruiken met Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)voor meer informatie.
 
 ## Kunnen IP adressen als koekjesdomein worden gebruikt wanneer het gebruiken van at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, als u [at.js versie 1.2 of later](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)gebruikt. We raden u echter ten zeerste aan de nieuwste versie bij te houden.
+Ja, als u [at.js versie 1.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)gebruikt. We raden u echter ten zeerste aan de nieuwste versie bij te houden.
 
 >[!NOTE]
 >
 >De volgende voorbeelden zijn niet nodig als u at.js versie 1.2 of later gebruikt.
 
-Afhankelijk van hoe u [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)gebruikt, zou u extra wijzigingen in de code kunnen moeten aanbrengen na het downloaden om.js. Als u bijvoorbeeld iets verschillende instellingen voor uw [!DNL Target] implementaties op verschillende websites nodig hebt en deze instellingen niet dynamisch kunt definiëren met behulp van aangepaste JavaScript, kunt u deze aanpassingen handmatig doorvoeren nadat u het bestand hebt gedownload en voordat u het bestand uploadt naar de desbetreffende website.
+Afhankelijk van hoe u [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)gebruikt, zou u extra wijzigingen in de code kunnen moeten aanbrengen na het downloaden at.js. Als u bijvoorbeeld iets verschillende instellingen voor uw [!DNL Target] implementaties op verschillende websites nodig hebt en deze instellingen niet dynamisch kunt definiëren met behulp van aangepaste JavaScript, kunt u deze aanpassingen handmatig doorvoeren nadat u het bestand hebt gedownload en voordat u het bestand uploadt naar de desbetreffende website.
 
 In de volgende voorbeelden kunt u de functie `targetGlobalSettings()` at.js gebruiken om een codefragment in te voegen ter ondersteuning van IP-adressen:
 
@@ -208,10 +208,10 @@ Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofd
 * De pagina wordt dynamisch samengesteld en at.js kan het element niet vinden.
 * De pagina wordt langzaam samengesteld (vanwege een traag netwerk) en at.js kan de kiezer niet vinden in de DOM.
 * De paginastructuur waarop de activiteit wordt uitgevoerd, is gewijzigd. Als u de activiteit in de Visuele Composer van de Ervaring (VEC) heropent, zou u een waarschuwingsbericht moeten krijgen. U moet de activiteit bijwerken zodat alle noodzakelijke elementen kunnen worden gevonden.
-* De onderliggende pagina maakt deel uit van een toepassing voor één pagina (SPA) of de pagina bevat elementen die verder onder de pagina worden weergegeven en het [!DNL at.js] &quot;opiniepeilingsmechanisme voor kiezers&quot; kan die elementen niet vinden. Het `selectorsPollingTimeout` kan helpen om de snelheid te verhogen. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)voor meer informatie.
+* De onderliggende pagina maakt deel uit van een toepassing voor één pagina (SPA) of de pagina bevat elementen die verder naar beneden op de pagina worden weergegeven en het [!DNL at.js] &quot;opiniepeilingsmechanisme voor kiezers&quot; kan die elementen niet vinden. Het `selectorsPollingTimeout` kan helpen om de snelheid te verhogen. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)voor meer informatie.
 * Om het even welke klik-volgende metrisch probeert om aan elke pagina toe te voegen, ongeacht URL waarop metrisch opstelling was. Hoewel onschuldig, maakt deze situatie veel van deze berichten tonen.
 
-   Voor de beste resultaten downloadt en gebruikt u de nieuwste versie van [!DNL at.js]. Voor meer informatie, zie [bij.js de Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) van de Versie en [Download bij.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Voor de beste resultaten downloadt en gebruikt u de nieuwste versie van [!DNL at.js]. Voor meer informatie, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) van de Versie en [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 ## Wat is het domein tt.omtr dc.net dat de servervraag van het Doel gaat? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
