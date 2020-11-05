@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Er zijn verschillende verschillen tussen een standaard mbox (non-global mbox) en
 | Een standaardkader loopt gewoonlijk rond de inhoud door een `<DIV>` label. | Het algemene mbox is &quot;leeg&quot; en loopt niet rond inhoud. |
 | Inhoud van slechts één activiteit kan in een normale doos worden geleverd. | Inhoud uit meerdere activiteiten kan in één reactie op een global box worden geleverd. |
 
-Als er meerdere activiteiten via de globale box of via meerdere gewone vakjes worden geleverd, [!DNL Target] bepaalt u de prioriteit [](../../../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) waarmee de activiteit (of activiteiten) aan een webpagina wordt geleverd.
+Als er meerdere activiteiten via de globale box of via meerdere gewone vakjes worden geleverd, [!DNL Target] bepaalt u de prioriteit [](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) waarmee de activiteit (of activiteiten) aan een webpagina wordt geleverd.
 
-Met behulp van de functie kunnen aanvullende gegevens op paginaniveau [!DNL Target] `targetPageParams` samen met het globale vak worden verzonden. Dit is vergelijkbaar met de functionaliteit van de mbox-parameter. Voor meer informatie, zie het [overgaan van Parameters tot Globale mbox](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Met behulp van de functie kunnen aanvullende gegevens op paginaniveau [!DNL Target] `targetPageParams` samen met het globale vak worden verzonden. Dit is vergelijkbaar met de functionaliteit van de mbox-parameter. Voor meer informatie, zie het [overgaan van Parameters tot Globale mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
