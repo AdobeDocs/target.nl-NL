@@ -4,7 +4,7 @@ title: Gegevens uploaden voor de personalisatiealgoritmen van Target
 feature: ap
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen.
 
-Er zijn verschillende manieren om gegevens in te voeren in Automated Personalization (AP) en Auto-Target verpersoonlijkingsalgoritmen. Naast de methodes in [Methoden om Gegevens in Doel](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen, worden Experience Cloud gedeeld publiek (Adobe Analytics, het Beheer van het Publiek) en het in-activiteit rapporteringspubliek ook gebruikt in onze algoritmen.
+Er zijn verschillende manieren om gegevens in te voeren in Automated Personalization (AP) en Auto-Target verpersoonlijkingsalgoritmen. Naast de methodes in [Methoden om Gegevens in Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen, worden Experience Cloud gedeeld publiek (Adobe Analytics, het Beheer van het Publiek) en het in-activiteit rapporteringspubliek ook gebruikt in onze algoritmen.
 
 Zie Gegevensverzameling [van](/help/c-activities/t-automated-personalization/ap-data.md)Automated Personalization voor informatie over de gegevens die automatisch worden verzameld en gebruikt door Automated Personalization- en Auto-Target-verpersoonlijkingsalgoritmen.
 
@@ -29,5 +29,5 @@ In de volgende lijst vindt u de aanbevolen procedures voor het uploaden van gege
 * Geef geen unieke id door, zoals een sessie-id, als dat niet nodig is.
 * Controleren welke gegevens door Doel automatisch worden verzameld ( [gegevensverzameling voor de Persoonlijke Algoritmen](/help/c-activities/t-automated-personalization/ap-data.md)van het Doel), zodat u geen dubbele informatie verzendt. Bijvoorbeeld, gebruikt het Doel IP adressen om de codes van het ZIP van bezoekers te bepalen. Deze informatie hoeft niet als een afzonderlijke variabele te worden doorgegeven.
 * Meerdere waarden in hetzelfde kenmerk/dezelfde variabele niet doorgeven. Als er meerdere variabelen zijn samengevoegd, behandelen de personalisatiealgoritmen van Target elke tekenreeks als een unieke waarde, waardoor de waarde van de informatie voor personalisatie wordt verminderd.
-* Gebruik een gedenkwaardige en zinvolle naamgevingsconventie om uw rapporten over [persoonlijke voorkeuren](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) begrijpelijker te maken.
+* Gebruik een gedenkwaardige en zinvolle naamgevingsconventie om uw rapporten over [persoonlijke voorkeuren](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) begrijpelijker te maken.
 
