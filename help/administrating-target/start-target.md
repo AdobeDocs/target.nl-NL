@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Nadat u de uitnodiging hebt ontvangen om deel te nemen aan de uitnodiging, accep
    U hebt op dit moment nog geen groepen ingesteld met rechten die u kunt koppelen.
 1. Bekijk desgewenst de video waarin u aan de [!DNL Adobe Experience Cloud]video wordt toegevoegd.
 1. Als u de nieuwe rechten wilt zien en toegang wilt krijgen tot het product, meldt u zich af [!DNL Adobe Experience Cloud]en meldt u zich weer aan.
-1. Ga verder met de volgende stap en [wijs zelf de rol](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)fiatteur toe.
+1. Ga verder met de volgende stap en [wijs zelf de rol](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)fiatteur toe.
 
 ## Wijs me de rol van fiatteur toe {#task_15CAA437A71444E2932B333D5E66A3C7}
 
