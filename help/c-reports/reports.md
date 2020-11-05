@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -45,8 +45,8 @@ De rapporten verstrekken informatie over de vooruitgang en de resultaten van uw 
    >
    >Ervaringsresultaten verschijnen nadat ten minste één kandidaat de ervaring heeft gezien.
 
-1. (Optioneel) [Configureer het rapport](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)naar wens.
-1. (Optioneel) [Download het rapport in CSV-indeling](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) voor analyse in Excel en andere tools.
+1. (Optioneel) [Configureer het rapport](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)naar wens.
+1. (Optioneel) [Download het rapport in CSV-indeling](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) voor analyse in Excel en andere tools.
 
    De volgende opties zijn beschikbaar:
 
@@ -82,4 +82,4 @@ Naast de algemene rapporteringsinformatie in dit onderwerp en zijn subtopics, is
 
 U kunt bezoekers van gespecificeerde IP adressen van worden geteld in rapporten blokkeren. Dit is bijvoorbeeld handig om rapportgegevens van uw interne bezoekers te blokkeren.
 
-[Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om IP-filters in te stellen. Dit filtreren is niet van toepassing wanneer het gebruiken van [Analytics voor Doel](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als uw rapporteringsbron.
+[Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om IP-filters in te stellen. Dit filtreren is niet van toepassing wanneer het gebruiken van [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als uw rapporteringsbron.
