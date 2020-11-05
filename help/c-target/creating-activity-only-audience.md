@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Alleen voor activiteiten bestemd publiek biedt de volgende voordelen:
 * Met alleen activiteiten kunt u een publiek maken dat u maar één keer wilt gebruiken en niet in de [!UICONTROL Audiences Library]doelgroep wilt opslaan. Hierdoor wordt voorkomen dat het publiek [!UICONTROL Audiences Library] wordt overspoeld met soorten die u nooit meer wilt gebruiken.
 * Activiteit-slechts publiek is niet zichtbaar in [!UICONTROL Audiences Library]. Daarom zijn ze beschermd tegen ongewenste wijzigingen door anderen in uw organisatie.
 
-1. Klik tijdens het maken van een [activiteit](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Target]** pagina op de drie verticale ellipsen en klik vervolgens op **[!UICONTROL Replace Audience]**.
+1. Klik tijdens het maken van een [activiteit](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Target]** pagina op de drie verticale ellipsen en klik vervolgens op **[!UICONTROL Replace Audience]**.
 
    ![Stap resultaat](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ Alleen voor activiteiten bestemd publiek biedt de volgende voordelen:
 
 1. Selecteer een regeltype.
 
-   Elk regeltype heeft zijn eigen parameters. Zie [Categorieën voor Soorten publiek](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
+   Elk regeltype heeft zijn eigen parameters. Zie [Categorieën voor Soorten publiek](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
 
 1. Definieer de regelparameters.
 1. Klik op **[!UICONTROL Save]**.
@@ -53,5 +53,5 @@ Houd rekening met de volgende informatie wanneer u alleen werkt met activiteiten
 * Verfijningen voor bestaande activiteiten worden gemigreerd naar alleen-activiteiten-publiek.
 * Toegenomen publiek heeft alleen de status van [!UICONTROL Used] of [!UICONTROL Unused]. Ongebruikte publiek met alleen activiteit wordt weergegeven totdat de activiteit is opgeslagen. Als u de activiteit niet gebruikt en probeert op te slaan, wordt een waarschuwingsbericht weergegeven met de melding dat ongebruikte publiek met alleen de activiteit wordt verwijderd.
 * U kunt de definitiedetails van het publiek op een pop-up kaart bekijken die van de publiekskiezer wordt betreden zonder het publiek te openen.
-* U kunt meerdere soorten publiek [combineren](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om alleen-activiteit publiek te maken.
+* U kunt meerdere soorten publiek [combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om alleen-activiteit publiek te maken.
 
