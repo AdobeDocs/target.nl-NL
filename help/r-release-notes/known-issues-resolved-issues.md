@@ -5,9 +5,9 @@ title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3859'
+source-wordcount: '3857'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Wanneer een succes metrisch wordt geplaatst om op elke indruk worden verhoogd, t
 
 ### Analyses voor doel (A4T)
 
-Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)wilt toepassen, klikt u met de rechtermuisknop op de maateenheid om de kolominstellingen te **wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel** selecteren. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
+Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)wilt toepassen, klikt u met de rechtermuisknop op de maateenheid om de kolominstellingen te **wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel** selecteren. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
 
 Alle huidige pakketten Analytics hebben de capaciteit om dit model met Attribution IQ toe te voegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
 
