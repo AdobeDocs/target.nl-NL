@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -145,4 +145,4 @@ Sommige beperkingen en notities zijn van toepassing op zowel Automatisch toewijz
 * [!UICONTROL Auto-Target] de modellen blijven elke 24 uur trainen , zoals gewoonlijk . De conversiegegevens die afkomstig zijn van [!DNL Analytics] conversiegebeurtenissen worden echter met nog eens zes tot 24 uur vertraagd. Deze vertraging houdt in dat het verkeer via [!DNL Target] de laatste gebeurtenissen in [!DNL Analytics]het spoor komt. Dit heeft het grootste effect in de eerste 48 uur nadat een activiteit voor het eerst is geactiveerd; de prestaties van de activiteit zullen het [!DNL Analytics] omzettingsgedrag na vijf dagen beter weerspiegelen. U zou moeten overwegen [!UICONTROL Auto-Allocate] in plaats van [!UICONTROL Auto-Target] voor kortdurende activiteiten te gebruiken waar het meeste verkeer binnen de eerste vijf dagen van het leven van de activiteit voorkomt.
 * Wanneer het gebruiken [!DNL Analytics] als gegevensbron voor een [!UICONTROL Auto-Target] activiteit, worden de zittingen beschouwd om na zes uren zijn verlopen. Conversies die na zes uur plaatsvinden, worden niet geteld.
 
-Voor meer informatie, zie de modellen van de [Attributie en raadplegingsvensters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) in de Gids *van Hulpmiddelen van de* Analyse.
+Voor meer informatie, zie de modellen van de [Attributie en raadplegingsvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) in de Gids *van Hulpmiddelen van de* Analyse.
