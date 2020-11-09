@@ -5,9 +5,9 @@ title: Doelaankondigingen
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Hier volgt een korte beschrijving van de meest gangbare documentatietypen die be
 | Documentatietype | Beschrijving |
 | --- | --- |
 | [Adobe Target-productdocumentatie](/help/target-home.md)<br>(deze handleiding) | De informatie van het overzicht, de stappen, en de schermafbeeldingen concentreerden zich bij het in wisselwerking staan met [!DNL Target] door het gebruikersinterface. In deze handleiding worden alle beschikbare acties en opties beschreven, inclusief de te vermijden gotchas. Dit is het meest gedetailleerde middel voor het werken met [!DNL Target] UI. |
-| [Adobe Target-zelfstudies](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | Video&#39;s en zelfstudies waarmee u de vele onderdelen van [!DNL Target]deze video&#39;s kunt leren kennen. |
+| [Adobe Target-zelfstudies](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | Video&#39;s en zelfstudies waarmee u de vele onderdelen van [!DNL Target]deze video&#39;s kunt leren kennen. |
 | [Adobe Experience League Target-inhoudsbibliotheek](https://guided.adobe.com/#recommended/solutions/target) | Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies die de mogelijkheden van [!DNL Target] beschikbare informatie op de [!DNL Adobe Target Experience League] pagina benadrukken. |
 | [Adobe Experience Platform Launch Target-documentatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informatie over implementatie [!DNL Target] met [!DNL Adobe Experience Platform Launch]het tagbeheerplatform van de volgende generatie van [!DNL Adobe]. Dit is de aangewezen methode om uit te voeren [!DNL Target]. |
 | [Adobe Customer Care Office-uren](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informatie over &quot;Office Hours&quot;, een initiatief dat wordt geleid door het Adobe Customer Care-team. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om de [!DNL Adobe Experience Cloud] oplossingen, waaronder [!DNL Target]de oplossingen, te kunnen gebruiken. |
