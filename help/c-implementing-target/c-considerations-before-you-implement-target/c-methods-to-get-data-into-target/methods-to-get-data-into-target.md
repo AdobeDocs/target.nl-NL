@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -337,8 +337,8 @@ Vereist Experience Cloud ID-implementatie (ECID).
 
 ### Codevoorbeelden
 
-De details kunnen in [Create worden gevonden een bron van klantenattributen en het gegevensdossier](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)uploaden.
+De details kunnen in [Create worden gevonden een bron van klantenattributen en het gegevensdossier](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)uploaden.
 
 ### Koppelingen naar relevante informatie
 
-[Maak een bron voor klantkenmerken en upload het gegevensbestand](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+[Maak een bron voor klantkenmerken en upload het gegevensbestand](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
