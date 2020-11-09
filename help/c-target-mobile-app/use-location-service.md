@@ -5,9 +5,9 @@ title: Locatieservice gebruiken
 feature: mobile implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,6 @@ Locatie is een belangrijke context voor het begrijpen en gebruiken van mobiele g
 
 Adobe Experience Platform Location Service (Location Service) is een geo-locatieservice waarmee mobiele apps met het bewustzijn van de locatie de locatiecontext kunnen begrijpen door rijke en gebruiksvriendelijke SDK-interfaces te gebruiken die vergezeld gaan van een flexibele database van belangenbehartigingen (POI&#39;s).
 
-U kunt de Locatieservice met Doel gebruiken om de regels in [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) te gebruiken om uw Plaatsgegevens aan uw Adobe Target SDK-gebeurtenissen te koppelen.
+U kunt de Locatieservice met Doel gebruiken om de regels in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) te gebruiken om uw Plaatsgegevens aan uw Adobe Target SDK-gebeurtenissen te koppelen.
 
-Zie Locatieservice [gebruiken met Adobe Target](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) in de handleiding [Locatieservice van](https://docs.adobe.com/content/help/en/places/using/home.html)Adobe Experience Platform voor meer informatie.
+Zie Locatieservice [gebruiken met Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) in de handleiding [Locatieservice van](https://experienceleague.adobe.com/docs/places/using/home.html)Adobe Experience Platform voor meer informatie.
