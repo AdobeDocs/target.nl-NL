@@ -6,9 +6,9 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Informatie over het gebruik van de Adobe Experience Cloud Debugger-extensie, waa
 
 U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van het Doel onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel van het Spoor gebruiken Mbox om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
 
-Raadpleeg de documentatie bij [](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud Debugger Extension voor meer informatie. Specifieke informatie over Doel vindt u in de sectie [Gereedschappen](https://docs.adobe.com/content/help/en/debugger/using/tools.html) .
+Raadpleeg de documentatie bij [](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud Debugger Extension voor meer informatie. Specifieke informatie over Doel vindt u in de sectie [Gereedschappen](https://experienceleague.adobe.com/docs/debugger/using/tools.html) .
 
 ## Trainingsvideo&#39;s
 
