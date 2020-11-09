@@ -1,4 +1,5 @@
 ---
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
 description: De doelstandaard kan worden geïntegreerd met Adobe Dynamic Media Classic om DAM (Digital Asset Management) in de inhoudsbibliotheek te bieden.
 title: Integratie van dynamische Media Classic-integratie
 feature: administration general
@@ -6,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
+source-git-commit: b1dbed6f911cb4e8542855322022f75b7779878f
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # Scene7-configuratie {#scene-settings}
 
-Doel kan worden geïntegreerd met [!DNL Adobe Dynamic Media Classic] het oog op DAM (Digital Asset Management) in de inhoudsbibliotheek.
+[!DNL Target] kan worden geïntegreerd [!DNL Adobe Dynamic Media Classic] om Digital Asset Management (DAM) in de [!UICONTROL Content Library]website te bieden.
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande gegevens opg
 
 >[!NOTE]
 >
->Een gratis [!DNL Dynamic Media Classic] account voor Adobe Target met beperkt gebruik wordt niet meer ondersteund voor nieuwe klanten of nieuwe gebruikers. Bestaande aanmeldgegevens werken op de gebruikelijke manier.
+>Een gratis [!DNL Dynamic Media Classic] account voor beperkt gebruik voor [!DNL Adobe Target] wordt niet meer ondersteund voor nieuwe klanten of nieuwe gebruikers. Bestaande aanmeldingsgegevens werken op de gebruikelijke manier.
 
 Als deze instelling niet is geconfigureerd, is de [!UICONTROL Swap Image offer] optie in de workflow voor het maken van activiteiten niet beschikbaar. Nadat dit plaatsen wordt gevormd, is de optie om beeldaanbiedingen te ruilen/veranderen beschikbaar in zowel Composer van de [Visuele Ervaring (VEC) als in de vorm-Gebaseerde Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring. Vervolgens kunt u afbeeldingsaanbiedingen gebruiken met afbeeldingen die vanuit de toepassing zijn geüpload [!DNL Adobe Experience Cloud] voor gebruik in [!DNL Target] activiteiten.
 
