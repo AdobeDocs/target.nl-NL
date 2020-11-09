@@ -6,9 +6,9 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Om de gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de [!DNL Target
 
       ![](assets/property_token_2.png)
 
-      Voor meer informatie, zie [Globale Parameters - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in de *Dynamische Documentatie* van het Product van het Beheer van de Markering.
+      Voor meer informatie, zie [Globale Parameters - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in de *Dynamische Documentatie* van het Product van het Beheer van de Markering.
 
    * **Via de functie targetPageParams():** Plaats de volgende code in de `<head>` tags, boven de verwijzing at.js of mbox.js.
 
