@@ -4,9 +4,9 @@ description: Adobe Target-welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van 
 title: Adobe Target-welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt ervaringen met [!DNL Target] gegevens direct uit de doos personaliseren. 
 
 U kunt bijvoorbeeld aankoopgegevens van uw verkooppunt koppelen aan een bezoekersprofiel. Hiertoe maakt u gewoon een CSV-bestand met maximaal 200 offlinevariabelen en uploadt u het bestand rechtstreeks naar [!DNL Adobe Experience Cloud] via een bestandsupload of gebruikt u FTP om het bestand regelmatig te hosten en te plannen. Zodra uw Attributen van de Klant binnen zijn [!DNL Adobe Experience Cloud], kunt u hen aan [!DNL Experience Cloud] oplossingen zoals [!DNL Adobe Analytics] en [!DNL Target] in kaart brengen waar zij voor analyse, het testen, en verpersoonlijking beschikbaar zullen zijn.
 
-Zie [Aangepaste kenmerken](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) voor stapsgewijze instructies.
+Zie [Aangepaste kenmerken](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) voor stapsgewijze instructies.
 
 **Goed te weten**: Omdat [!DNL Target] een open en agnostisch platform goed met verschillende technologieën werkt, kunt u CRM of gekochte gegevens op vele verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
 
