@@ -3,11 +3,8 @@ keywords: implement target;implementation;implement at.js;tag manager
 description: Informatie over het implementeren van Adobe Target zonder gebruik te maken van een tagbeheer (Adobe starten of Dynamisch tagbeheer).
 title: Doel implementeren zonder tagbeheer
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 4%
