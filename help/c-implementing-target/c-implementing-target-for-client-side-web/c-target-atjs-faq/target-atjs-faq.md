@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2656'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Met de release at.js 1.0.0 kunt u de doelbibliotheek asynchroon laden.
 
 Zo laadt u at.js asynchroon:
 
-* De aanbevolen aanpak vindt u via een tagbeheer, zoals Adobe Launch of Adobe Dynamic Tag Manager (DTM). Zie de [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) les van het [Uitvoeren van de Experience Cloud in Websites met de zelfstudie van de Lancering](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) voor meer informatie.
+* De aanbevolen aanpak vindt u via een tagbeheer, zoals Adobe Launch of Adobe Dynamic Tag Manager (DTM). Zie de [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) les van het [Uitvoeren van de Experience Cloud in Websites met de zelfstudie van de Lancering](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) voor meer informatie.
 * U kunt ook asynchroon laden bij .js door het asynchrone attribuut aan de manuscriptmarkering toe te voegen die at.js laadt. Je moet iets als dit gebruiken:
 
    ```
@@ -111,7 +111,7 @@ Het asynchroon laden van at.js is een goede manier om te voorkomen dat de browse
 
 U kunt flikkering vermijden door een vooraf verborgen fragment te gebruiken dat de pagina (of gespecificeerde gedeelten) verbergt en het dan onthult nadat om.js en het globale verzoek volledig geladen hebben. Het fragment moet worden toegevoegd voordat u het bestand at.js laadt.
 
-Als u at.js door een asynchrone implementatie van de Lancering opstelt, ben zeker om het pre-verbergen fragment op uw pagina&#39;s direct te omvatten, vóór de Lanceer bed code, zoals die in de [Add wordt beschreven het Doel pre-Hiding sectie van het Fragment](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) van het [Uitvoeren van de Experience Cloud in Websites met het Lanceerprogramma](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)wordt beschreven.
+Als u at.js door een asynchrone implementatie van de Lancering opstelt, ben zeker om het pre-verbergen fragment op uw pagina&#39;s direct te omvatten, vóór de Lanceer bed code, zoals die in de [Add wordt beschreven het Doel pre-Hiding sectie van het Fragment](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) van het [Uitvoeren van de Experience Cloud in Websites met het Lanceerprogramma](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)wordt beschreven.
 
 Als u at.js door een synchrone implementatie DTM opstelt, kan het pre-verbergende fragment worden toegevoegd door een lijn van de Lading van de Pagina die bij de bovenkant van de pagina wordt teweeggebracht.
 
