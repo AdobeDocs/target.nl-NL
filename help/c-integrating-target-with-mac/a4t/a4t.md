@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ In de volgende tabel wordt aangegeven welke typen activiteiten worden ondersteun
 | MVT (Multivariate Test) | Ja | Vereist op box-Gebaseerd doel metrisch doel om het [!UICONTROL Element Contribution] rapport te krijgen.  Het [!UICONTROL Element Contribution] rapport ondersteunt momenteel geen [!DNL Analytics] metriek. |
 | Automated Personalization (AP)-activiteit | Nee |  |
 | Recommendations-activiteit | Ja |  |
-| Mobiele app | Ja | Ondersteund met de SDK voor mobiele services, versie 4.13.1 of hoger.  Raadpleeg de documentatie bij [Mobiele services voor meer informatie](https://docs.adobe.com/content/help/en/mobile-services/using/home.html). |
+| Mobiele app | Ja | Ondersteund met de SDK voor mobiele services, versie 4.13.1 of hoger.  Raadpleeg de documentatie bij [Mobiele services voor meer informatie](https://experienceleague.adobe.com/docs/mobile-services/using/home.html). |
 | E-mail | Nee |  |
 | Server Side Delivery-API | Ja | Zie [Serverzijde voor meer informatie: Doel](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)implementeren. |
 | NodeJS SDK | Ja | Zie [Serverzijde voor meer informatie: Doel](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)implementeren. |
