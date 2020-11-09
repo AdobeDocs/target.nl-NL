@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 0%
 
 ---
@@ -237,7 +237,7 @@ Gebruik een op [formulieren gebaseerde benadering](/help/c-experiences/form-expe
 
 **Kan ik ervoor zorgen dat dezelfde ervaring consistent wordt opgedaan op alle apparaten die een gebruiker kan hebben?**
 
-Ontdek onze [apparaat-Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) die u toestaat om veelvoudige apparaten van een gebruiker door de macht van een Coop deterministisch en waarschijnlijk te verbinden.
+Ontdek onze [apparaat-Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) die u toestaat om veelvoudige apparaten van een gebruiker door de macht van een Coop deterministisch en waarschijnlijk te verbinden.
 
 Als u in Co-op bent, laat een eenvoudige vlag op de Doelstellingen en de pagina van Montages de eigenschap toe. De rapportage verandert ook om nu Mensen te weerspiegelen in plaats van Bezoekers. Neem contact op met uw Adobe-contactpersoon voor meer informatie over deze functie, omdat deze functie niet in alle regio&#39;s beschikbaar is.
 
