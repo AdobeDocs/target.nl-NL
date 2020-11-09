@@ -6,9 +6,9 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Het publiek in Adobe Target bepaalt wie de inhoud en ervaringen van een gerichte
 
 Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een activiteit als doel instelt, kunt u een herbruikbaar publiek in de [!UICONTROL Audiences] lijst selecteren, een activiteitspecifiek publiek [](/help/c-target/creating-activity-only-audience.md) maken en ernaar streven, of meerdere soorten publiek [](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om een ad-hocpubliek te maken.
 
-U kunt publieksgegevens ook gebruiken die door [!DNL Analytics] voor het in real time richten en verpersoonlijking in [!DNL Adobe Target] en andere [!DNL Experience Cloud] oplossingen worden verzameld. Zie [Soorten publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) in de Gebruikershandleiding *voor* Core Services.
+U kunt publieksgegevens ook gebruiken die door [!DNL Analytics] voor het in real time richten en verpersoonlijking in [!DNL Adobe Target] en andere [!DNL Experience Cloud] oplossingen worden verzameld. Zie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de Gebruikershandleiding *voor* Core Services.
 
 [!DNL Target] definieert twee soorten publiek:
 
