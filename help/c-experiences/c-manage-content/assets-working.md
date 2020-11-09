@@ -5,9 +5,9 @@ title: Werken met inhoud in de bibliotheek
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Informatie over de taken die u kunt uitvoeren op een element in de inhoudsbiblio
 
 Deze video bevat informatie over het beheren van inhoud. (4:56)
 
-* Verbinding tussen de [Experience Cloud-elementenbibliotheek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
+* Verbinding tussen de [Experience Cloud-elementenbibliotheek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
 * Aangepaste HTML-aanbiedingen
 * Aangepaste HTML-aanbieding in de Visual Experience Composer
 
