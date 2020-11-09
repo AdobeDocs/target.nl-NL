@@ -6,9 +6,9 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Vul op het **[!UICONTROL Data Warehouse Request]** tabblad de velden in.
 
-   Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
+   Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Veld | Instructies |
    |--- |--- |
@@ -148,8 +148,8 @@ Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u
 
 Raadpleeg de volgende koppelingen in de documentatie bij de Help voor meer informatie over [!DNL Data Warehouse][!DNL Analytics] :
 
-* [Een Data Warehouse-aanvraag maken](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Aanbevolen werkwijzen voor Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Een Data Warehouse-aanvraag maken](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Aanbevolen werkwijzen voor Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Telmethode {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
