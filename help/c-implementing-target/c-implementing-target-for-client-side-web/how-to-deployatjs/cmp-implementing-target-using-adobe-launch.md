@@ -5,9 +5,9 @@ title: Doel implementeren met Adobe Launch
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ In de volgende tabel worden de verschillende bronnen weergegeven waar u meer inf
 
 | Resource | Details |
 |--- |--- |
-| [Doel implementeren met de zelfstudie voor Adobe Target-extensies](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Deze zelfstudie bevat stapsgewijze instructies voor het implementeren van Adobe Target in een website met Starten. Tot de onderwerpen behoren het toevoegen van de JavaScript-bibliotheek at.js, het afvuren van de globale box, het toevoegen van parameters en het integreren met andere oplossingen. Dit artikel maakt deel uit van een grotere zelfstudie die u laat zien hoe u Adobe Launch en de andere Adobe Experience Cloud-oplossingen implementeert. |
-| [Adobe Starten van documentatie](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informatie over het opstellen en beheren van alle analyses, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
-| [Adobe Target Extension Documentation](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informatie over het implementeren van Doel met behulp van Starten. |
+| [Doel implementeren met de zelfstudie voor Adobe Target-extensies](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Deze zelfstudie bevat stapsgewijze instructies voor het implementeren van Adobe Target in een website met Starten. Tot de onderwerpen behoren het toevoegen van de JavaScript-bibliotheek at.js, het afvuren van de globale box, het toevoegen van parameters en het integreren met andere oplossingen. Dit artikel maakt deel uit van een grotere zelfstudie die u laat zien hoe u Adobe Launch en de andere Adobe Experience Cloud-oplossingen implementeert. |
+| [Adobe Starten van documentatie](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informatie over het opstellen en beheren van alle analyses, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
+| [Adobe Target Extension Documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informatie over het implementeren van Doel met behulp van Starten. |
 
 ## Voordelen van het uitvoeren van at.js gebruikend de uitbreiding van de Lancering van het Doel {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
