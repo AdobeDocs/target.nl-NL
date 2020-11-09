@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak over classificaties worden gev
 
 ## Hoe kan ik, nadat ik de Classificatieimportmodule heb gebruikt om classificaties te downloaden, de waarde voor post-tnt-action afstemmen op de naam van een activiteit? {#section_6045DAC488B248418F430E663C38D001}
 
-U kunt de classificaties voor de A4T/TNT-tekenreeks downloaden van de Admin Tools [Classification Importer](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html). De variabele wordt &quot;TNT&quot; genoemd in de exportlijst. De gedownloade gegevens bevatten de vriendelijke namen voor activiteiten, ervaringen enzovoort.
+U kunt de classificaties voor de A4T/TNT-tekenreeks downloaden van de Admin Tools [Classification Importer](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). De variabele wordt &quot;TNT&quot; genoemd in de exportlijst. De gedownloade gegevens bevatten de vriendelijke namen voor activiteiten, ervaringen enzovoort.
 
 Dit opzoekbestand is handig voor klanten die de gegevens van de clickstream van Adobe ontvangen. Het bestand bevat vriendelijke namen voor de `post_tnt` kolommen en de `post_tnt_action` kolommen.
 
