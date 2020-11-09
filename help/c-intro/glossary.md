@@ -2,10 +2,8 @@
 description: Definities van termen.
 title: Adobe Target Verklarende woordenlijst
 feature: intro
-topic: Standard
-uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2279'
 ht-degree: 1%
@@ -287,7 +285,7 @@ Een groep gebruikers met een specifieke set rechten.
 
 **extern aanbod**
 
-Gebruik externe aanbiedingen om inhoud te hosten buiten [!DNL Target] die [!DNL Target] verwijzingen en levert aan websites van gebruikers. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
+Gebruik externe aanbiedingen om inhoud te hosten buiten [!DNL Target] die [!DNL Target] verwijzingen en levert aan websites van gebruikers. Deze inhoud kan zich in een inhoudsbeheer of een ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
 
 **rapporten**
 
