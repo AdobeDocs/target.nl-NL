@@ -4,9 +4,9 @@ description: Als u Adobe Analytics gebruikt als gegevensbron voor gedragsgegeven
 title: Adobe Analytics gebruiken met Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Een [!DNL Target Recommendations] voorbeeldvoederindeling zal dienen als leidraa
 >
 >Als het een inhoudssite is, moeten de respectievelijke inhoudsonderdelen worden behandeld als &quot;producten&quot; en de bijbehorende kenmerken voor die inhoud (bijvoorbeeld: naam van auteur, publicatiedatum, titel van inhoud, maand van release, enz.) moet worden doorgegeven als kenmerken. Het bedrijf moet op basis van de gebruiksaanwijzing beslissen over de mate waarin een categorie of categorie in aanmerking komt.
 
-Raadpleeg de [producten](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) in de *handleiding* Analytics Implementation voor meer informatie over het instellen van productvariabelen. Sommige nota&#39;s in die documentatie hebben discretie van het team nodig dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden om met Adobe te overleggen voordat u deze activiteit uitvoert.
+Raadpleeg de [producten](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) in de *handleiding* Analytics Implementation voor meer informatie over het instellen van productvariabelen. Sommige nota&#39;s in die documentatie hebben discretie van het team nodig dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden om met Adobe te overleggen voordat u deze activiteit uitvoert.
 
 ### Overwegingen
 
@@ -98,7 +98,7 @@ Ervan uitgaande dat aan alle voorwaarden is voldaan, moeten de volgende taken do
    > 
    >Raadpleeg het [!DNL Adobe Analytics] team voordat u deze stap uitvoert.
 
-   * **Type**: VFTP
+   * **Type**: FTP
    * **Host**: `xxx.yyy.com`
    * **Pad**: Uw [!DNL Target] clientcode
    * **Gebruikersnaam**: Geef uw gebruikersnaam op
