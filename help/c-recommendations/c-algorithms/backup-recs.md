@@ -3,9 +3,8 @@ keywords: recommendation;backup;back up
 description: Als u de functie voor het aanbevelen van back-ups in Adobe Target gebruikt, wordt er geen standaardinhoud weergegeven als er onvoldoende aanbevolen items zijn. In plaats daarvan, tonen de aanbevelingen de resultaten van het reservealgoritme.
 title: Een back-upaanbeveling gebruiken in Adobe Target Recommendations
 feature: criteria
-uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
