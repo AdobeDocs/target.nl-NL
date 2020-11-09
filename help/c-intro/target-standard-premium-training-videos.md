@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,12 @@ Trainingsvideo&#39;s worden ingesloten in relevante onderwerpen in deze handleid
 
 ## Adobe Target - Tutorials en video&#39;s
 
-Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies waarin de mogelijkheden van Target op de pagina Experience League [van](https://guided.adobe.com/#recommended/solutions/target) Adobe Target worden belicht.
+Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies waarin de mogelijkheden van Target op de pagina [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) worden belicht.
 
-![Video&#39;s van Experience League](/help/c-intro/assets/experience-league.png)
+![Experience League-video&#39;s](/help/c-intro/assets/experience-league.png)
 
 ## Adobe Target Tutorials {#tutorials}
 
-Video-introductie over [!DNL Target] concepten en gereedschappen is beschikbaar op de pagina [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) .
+Video-introductie over [!DNL Target] concepten en gereedschappen is beschikbaar op de pagina [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
 
 ![Adobe Target Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
