@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Herzie uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervaringe
 
 De eenvoudigste manier om de aanvullende id te controleren is met de Adobe Experience Platform Debugger.
 
-Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)van Adobe Experience Platform.
+Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)van Adobe Experience Platform.
 
 ![Foutopsporing](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
