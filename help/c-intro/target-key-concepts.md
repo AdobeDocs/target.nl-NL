@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1513'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ Soorten publiek kan worden opgeslagen voor hergebruik in meerdere activiteiten, 
 |--- |--- |
 | Herbruikbaar publiek | Herbruikbare doelgroepen kunnen voor elke activiteit worden geselecteerd. Als u een van deze soorten publiek wijzigt, verandert dit voor alle activiteiten die het gebruiken. |
 | Aangepaste segmenten | De segmenten van de douane (die ook als campagne-specifieke segmenten worden bekend) zijn specifiek voor een campagne in Klassiek van het Doel. Ze worden gemaakt als onderdeel van de campagne en kunnen niet opnieuw worden gebruikt in andere campagnes. |
-| Gedeeld publiek | Het publiek kan over [!DNL Adobe Experience Cloud] oplossingen worden gedeeld. Zie [Soorten publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) voor voorbeelden. |
+| Gedeeld publiek | Het publiek kan over [!DNL Adobe Experience Cloud] oplossingen worden gedeeld. Zie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) voor voorbeelden. |
 
 Zie [Bezoekerprofielen voor informatie over het bijhouden van informatie over bezoekers van uw site](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
