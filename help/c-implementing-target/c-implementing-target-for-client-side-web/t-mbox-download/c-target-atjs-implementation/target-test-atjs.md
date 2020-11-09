@@ -4,9 +4,9 @@ title: Implementeren op .js naar een niet-productieomgeving
 feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Als u DTM gebruikt, kunt u gemakkelijk sparen bij.js in uw configuratie van het 
 
 Nadat u de bibliotheek hebt bewaard, gebruik het hulpmiddel van de Schakelaar DTM om het tegen uw productiecode te testen. Dit zal het voor uw consultants van de Adobe gemakkelijk maken om u te steunen.
 
-Zie [Optie 3 voor meer informatie: Implementeer Doel handmatig met de JavaScript-doelbibliotheek die wordt gehost door DTM](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) in de *aanbevolen procedures voor het implementeren van Adobe Target met behulp van de handleiding Dynamisch tagbeheer* .
+Zie [Optie 3 voor meer informatie: Implementeer Doel handmatig met de JavaScript-doelbibliotheek die wordt gehost door DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) in de *aanbevolen procedures voor het implementeren van Adobe Target met behulp van de handleiding Dynamisch tagbeheer* .
 
 ## Chrome-extensie &quot;strikt&quot; gebruiken om aan een ander bestand toe te wijzen
 
