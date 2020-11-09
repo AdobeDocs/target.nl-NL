@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Ga als volgt te werk om te migreren van [!DNL mbox.js] naar [!DNL at.js] en uw m
 
    >[!NOTE]
    >
-   >Als u momenteel geen tagbeheer gebruikt om te implementeren [!DNL Target], is het wellicht een goed moment om dit te overwegen. Dynamic Tag Management [is gratis voor](https://dtm.adobe.com) klanten en is de aanbevolen methode om te implementeren [!DNL Target] [!DNL Target]. Zie [Aanbevolen procedures voor het implementeren van Adobe Target met Dynamisch tagbeheer](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)voor meer informatie.
+   >Als u momenteel geen tagbeheer gebruikt om te implementeren [!DNL Target], is het wellicht een goed moment om dit te overwegen. Dynamic Tag Management [is gratis voor](https://dtm.adobe.com) klanten en is de aanbevolen methode om te implementeren [!DNL Target] [!DNL Target]. Zie [Aanbevolen procedures voor het implementeren van Adobe Target met Dynamisch tagbeheer](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)voor meer informatie.
 
 1. Controleer of alle huidige activiteiten en integraties naar verwachting werken.
 
