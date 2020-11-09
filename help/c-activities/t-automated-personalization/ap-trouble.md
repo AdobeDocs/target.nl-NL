@@ -2,9 +2,8 @@
 description: Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u Automated Personalization gebruikt en enkele oplossingen.
 title: Problemen met Automated Personalization oplossen
 feature: ap
-uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -40,7 +39,7 @@ Er zijn verschillende factoren vereist voor een AP-activiteit om lift te generer
 
 ## De URL van mijn AP-activiteit toont inhoud van de aanbieding op onjuiste pagina&#39;s. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, worden URL en malplaatje het testen regels toegevoegd aan de beperking van de [!DNL Target] verzoekingang (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een activiteit kwalificeert, wordt het doel-verzoek-niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats het richten regels.
+In AP, worden URL en malplaatje het testen regels toegevoegd aan de beperking van de [!DNL Target] verzoekingang (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een activiteit kwalificeert, wordt het doel-verzoek-niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats richtend regels.
 
 **Oplossing:** Voeg de noodzakelijke malplaatjeregels als input-publiek van de campagne toe. De evaluatie van het publiek gebeurt op elk verzoek/vraag.
 
