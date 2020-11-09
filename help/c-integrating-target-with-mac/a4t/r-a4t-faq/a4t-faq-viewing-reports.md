@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1961'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken van rapporte
 
 ## Kan ik mijn doelactiviteitengegevens in Analysis Workspace bekijken? {#workspace}
 
-U kunt uw [!DNL Analysis Workspace] activiteiten en ervaringen analyseren [!DNL Target] . Met [Analytics voor het](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) doelvenster kunt u optillen en vertrouwen zien voor maximaal drie succesmetingen. U kunt ook dieper graven met behulp van tabellen en visualisaties.
+U kunt uw [!DNL Analysis Workspace] activiteiten en ervaringen analyseren [!DNL Target] . Met [Analytics voor het](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) doelvenster kunt u optillen en vertrouwen zien voor maximaal drie succesmetingen. U kunt ook dieper graven met behulp van tabellen en visualisaties.
 
 Voor gedetailleerde informatie en voorbeelden opent u de opties [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), geleverd door Adobe Experience League.
 
@@ -53,7 +53,7 @@ Overweeg het volgende:
 
 [!DNL Reports & Analytics] past een attributiemodel met dezelfde aanraakinstelling toe op &#39;activity-impressions&#39; en &#39;activity-conversions&#39;, terwijl de onbewerkte metriek [!DNL Analysis Workspace] wordt weergegeven, die opgeblazen kan lijken als gevolg van de persistentie van de [!DNL Target] dimensie.
 
-Om nauwkeurige [!UICONTROL Activity Impressions] en [!UICONTROL Activity Conversions] metriek in te evalueren [!DNL Analysis Workspace], zorg ervoor dat beide metriek toegepaste [!UICONTROL Same Touch] attributiemodellen hebben. U kunt modellen toepassen door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models]en vervolgens [!UICONTROL Same Touch]te selecteren. Meer informatie over kenmerk in IQ-overzicht [van](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) kenmerken in de *handleiding* Analytics Tools.
+Om nauwkeurige [!UICONTROL Activity Impressions] en [!UICONTROL Activity Conversions] metriek in te evalueren [!DNL Analysis Workspace], zorg ervoor dat beide metriek toegepaste [!UICONTROL Same Touch] attributiemodellen hebben. U kunt modellen toepassen door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models]en vervolgens [!UICONTROL Same Touch]te selecteren. Meer informatie over kenmerk in IQ-overzicht [van](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) kenmerken in de *handleiding* Analytics Tools.
 
 ## Wat betekent de &quot;activiteitomzettingen&quot;als de teller een metrische Analyse tijdens activiteitenopstelling plukt? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -108,7 +108,7 @@ De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. 
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target] rapportage, omdat u geen [!DNL Target] activiteit tegen een andere activiteit plaatst om te zien wat succesvoller is, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items in één activiteit en het is voor een gebruiker niet mogelijk om verschillende ervaringen in dezelfde activiteit te zien, zodat u zich geen zorgen hoeft te maken over kruisbesmetting van orderkrediet.
 
-Zie [Conversievariabelen (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in de *beheerhandleiding* voor analysemogelijkheden.
+Zie [Conversievariabelen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in de *beheerhandleiding* voor analysemogelijkheden.
 
 ## Waarom berekenen Analytics en Analytics voor Doel (A4T) aantallen voor de Unieke metrische bezoekers verschillend? {#section_0C3B648AB54041F9A2AA839D51791883}
 
