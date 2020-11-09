@@ -3,11 +3,8 @@ keywords: a4t;analytics;analytics for target;analytics reporting source;adobe an
 description: Adobe "Analytics for Target" (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van metriek en publiekssegmenten voor analytische conversie. Dankzij deze integratie kunt u analyserapporten gebruiken om uw resultaten te bekijken. Als u Analytics als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op de gegevensinzameling van de Analyse.
 title: Adobe Analytics als bron van rapportage voor Adobe Target (A4T)
 feature: a4t general
-subtopic: Integrating
-topic: Standard
-uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
@@ -94,7 +91,7 @@ De volgende illustratie toont de [!UICONTROL Graph View] van een rapport A4T met
 
 ![](assets/a4t_report_graph1.png)
 
-In de volgende afbeelding ziet u de [!UICONTROL Graph View] beschrijving van een A4T-rapport met de [!UICONTROL Audience] vervolgkeuzelijst waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
+De volgende afbeelding toont de [!UICONTROL Graph View] vorm van een A4T-rapport met de [!UICONTROL Audience] vervolgkeuzelijst waarin het beschikbare [!DNL Analytics] publiek wordt weergegeven:
 
 ![](assets/a4t_report_graph2.png)
 
