@@ -3,11 +3,8 @@ keywords: google;samesite;cookies;chrome 80;ietf
 description: Informatie over Adobe Target en de SameSite IETF-standaard die is geïntroduceerd met Google Chrome versie 80.
 title: Beleid van SameSite-cookies van Adobe Target en Google
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 0%
@@ -59,7 +56,7 @@ Er zijn drie verschillende waarden die in het attribuut SameSite kunnen worden d
 
 | Waarde | Beschrijving |
 | --- | --- |
-| Strikt | Cookies met deze instelling zijn alleen toegankelijk wanneer u het domein bezoekt waarop de instelling oorspronkelijk is ingesteld. Met andere woorden, Strikt blokkeert volledig het cookie dat op verschillende sites wordt gebruikt. Deze optie is het beste voor toepassingen die hoge veiligheid vereisen, zoals banken. |
+| Strikt | Cookies met deze instelling zijn alleen toegankelijk wanneer u het domein bezoekt waarop de instelling oorspronkelijk is ingesteld. Met andere woorden, Strict blokkeert volledig het koekje van wordt gebruikt over plaatsen. Deze optie is het beste voor toepassingen die hoge veiligheid vereisen, zoals banken. |
 | Lax | Cookies met deze instelling worden alleen verzonden op aanvragen van dezelfde site of navigatie op hoofdniveau met niet-epidemiologische HTTP-aanvragen, zoals `HTTP GET`. Daarom zou deze optie worden gebruikt als het koekje door derde partijen kan worden gebruikt, maar met een toegevoegd veiligheidsvoordeel dat gebruikers beschermt tegen worden gevierd door aanvallen CSRF. |
 | Geen | Cookies met deze instelling werken op dezelfde manier als cookies vandaag de dag werken. |
 
