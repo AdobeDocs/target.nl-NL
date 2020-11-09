@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ In [!DNL Analytics], zijn er verscheidene dimensies en metriek beschikbaar gemaa
 * [!UICONTROL Activity Impressions] - Komt overeen met het [!UICONTROL Entrants] nummer in het [!DNL Target] rapport.
 * [!UICONTROL Activity Conversions] - Komt overeen met het [!UICONTROL Custom Conversions] nummer in het [!DNL Target] rapport.
 
-In [!DNL Analysis Workspace], gebruik het [!UICONTROL Analytics for Target] paneel om uw [!DNL Target] activiteiten en ervaringen met lift &amp; vertrouwen te analyseren. Zie [Analytics for Target (A4T) Panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in the *Analytics Tools Guide* voor meer informatie.
+In [!DNL Analysis Workspace], gebruik het [!UICONTROL Analytics for Target] paneel om uw [!DNL Target] activiteiten en ervaringen met lift &amp; vertrouwen te analyseren. Zie [Analytics for Target (A4T) Panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in the *Analytics Tools Guide* voor meer informatie.
 
 >[!IMPORTANT]
 >
