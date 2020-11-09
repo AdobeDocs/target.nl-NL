@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;sitecatalyst;c
 description: Dit onderwerp bevat antwoorden op vragen die vaak over erfenis SiteCatalyst aan Test&Target integratie worden gevraagd en Analytics als rapporteringsbron voor Doel (A4T) gebruiken.
 title: Legacy SiteCatalyst to Test&Target integration - A4T Veelgestelde vragen
 feature: a4t troubleshooting
-topic: Standard
-uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
