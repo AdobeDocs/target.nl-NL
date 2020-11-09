@@ -6,9 +6,9 @@ seo-description: Adobe Target is de Adobe Experience Cloud-oplossing die alles b
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 - [Opmerkingen](r-release-notes/release-notes.md)bij de doelversie: Bevat informatie over de huidige versie, informatie over bekende kwesties die [!DNL Target], een lijst van belangrijke veranderingen in deze documentatie, en een archief van vroegere versienota&#39;s beïnvloeden.
 - [Inleiding tot doel](c-intro/intro.md): Verklaart de kernconcepten van de [!DNL Target] oplossing.
 - Doel integreren met de Adobe Experience Cloud: Verklaart hoe te om [!DNL Target] met andere [!DNL Experience Cloud] oplossingen, met inbegrip van [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Soorten](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md), en [Experience Cloud Apparaat Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)te integreren.
-- [Adobe Target-Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): Biedt zelfstudies en video&#39;s om u te helpen optimaal van het doel te profiteren.
+- [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Biedt zelfstudies en video&#39;s om u te helpen optimaal van het doel te profiteren.
 - [Doel](r-troubleshooting-target/troubleshooting-target.md)voor probleemoplossing: Verzekert verbindingen met het oplossen van problemeninformatie in deze gids, met inbegrip van informatie over de karaktergrenzen en andere grenzen (aanbieding grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Target]de
 - [Doel voor mobiele apps](c-target-mobile-app/target-mobile-app.md): Hierin wordt beschreven hoe u toepassingen voor mobiele apparaten kunt optimaliseren en aanpassen aan uw wensen. [!DNL Target]
 - [Bronnen en contactgegevens](cmp-resources-and-contact-information.md): Verstrekt informatie over extra middelen om u te helpen over [!DNL Target] eigenschappen leren en hoe te om met elkaar in contact [!DNL Adobe] te komen als u hulp nodig hebt.
@@ -82,4 +82,4 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 | Help bij Adobe- [!DNL Target] oplossingen | [!DNL Adobe Experience Cloud] bronnen |
 |--- |--- |
-| <ul><li>[Adobe Target - Meer informatie en ondersteuning](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Doel-API-documentatie](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Doelforum van de Gemeenschap](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Opmerkingen bij de release Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud-documentatie](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe Opleiding en Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target - Meer informatie en ondersteuning](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Doel-API-documentatie](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Doelforum van de Gemeenschap](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe Opleiding en Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
