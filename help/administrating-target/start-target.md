@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Deze sectie bevat de eerste stappen die [!DNL Target] beheerders moeten uitvoere
 
 Een beheerder van het Systeem in [!DNL Adobe Admin Console] moet u als gebruiker binnen toevoegen [!DNL Target] door u uit te nodigen om zich aan te sluiten. De beheerder van het Systeem zou u aan één of meerdere rol-specifieke groepen dan moeten toevoegen. Beide taken worden uitgevoerd in de [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Voor meer informatie, zie [Experience Cloud gebruikers en producten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in de *Experience Cloud en hulp* van de Diensten van de Kern beheren.
+Voor meer informatie, zie [Experience Cloud gebruikers en producten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in de *Experience Cloud en hulp* van de Diensten van de Kern beheren.
 
 U ontvangt een uitnodigingse-mail nadat de systeembeheerder deze stappen heeft uitgevoerd.
 
