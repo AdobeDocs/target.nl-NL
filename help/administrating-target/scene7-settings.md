@@ -1,14 +1,14 @@
 ---
-description: De doelstandaard kan worden geïntegreerd met Adobe Dynamic Media Classic (voorheen Scene7) voor Digital Asset Management (DAM) in de inhoudsbibliotheek.
+description: De doelstandaard kan worden geïntegreerd met Adobe Dynamic Media Classic om DAM (Digital Asset Management) in de inhoudsbibliotheek te bieden.
 title: Integratie van dynamische Media Classic-integratie
 feature: administration general
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 # Scene7-configuratie {#scene-settings}
 
-Doel kan worden geïntegreerd met [!DNL Adobe Dynamic Media Classic] (voorheen [!DNL Scene7]) Digital Asset Management (DAM) in de inhoudsbibliotheek.
+Doel kan worden geïntegreerd met [!DNL Adobe Dynamic Media Classic] het oog op DAM (Digital Asset Management) in de inhoudsbibliotheek.
 
 >[!NOTE]
 >
 >Door integratie [!DNL Target] met [!DNL Dynamic Media Classic] kunt u elementen (als onderdeel van activiteiten) uploaden naar de map [!DNL Adobe Experience Cloud] assets. Deze integratie maakt geen toegang mogelijk tot alle elementen die in [!DNL Dynamic Media Classic] de computer zijn geüpload voor levering in [!DNL Target] activiteiten.
 
 Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande gegevens opgeven. Als u geen account hebt, kunt u gratis een account voor beperkt gebruik aanvragen bij uw [!DNL Dynamic Media Classic] [!DNL Adobe] vertegenwoordiger. Deze account kan [!DNL Target] alleen worden gebruikt voor doeleinden waarvoor beperkingen gelden. Deze service wordt beschikbaar gesteld aan klanten voor workflows die functionaliteit voor het wisselen van afbeeldingen nodig hebben.
+
+>[!NOTE]
+>
+>Een gratis [!DNL Dynamic Media Classic] account voor Adobe Target met beperkt gebruik wordt niet meer ondersteund voor nieuwe klanten of nieuwe gebruikers. Bestaande aanmeldgegevens werken op de gebruikelijke manier.
 
 Als deze instelling niet is geconfigureerd, is de [!UICONTROL Swap Image offer] optie in de workflow voor het maken van activiteiten niet beschikbaar. Nadat dit plaatsen wordt gevormd, is de optie om beeldaanbiedingen te ruilen/veranderen beschikbaar in zowel Composer van de [Visuele Ervaring (VEC) als in de vorm-Gebaseerde Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring. Vervolgens kunt u afbeeldingsaanbiedingen gebruiken met afbeeldingen die vanuit de toepassing zijn geüpload [!DNL Adobe Experience Cloud] voor gebruik in [!DNL Target] activiteiten.
 
