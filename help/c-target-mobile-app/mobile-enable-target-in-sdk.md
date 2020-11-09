@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voeg de SDK van Adobe Mobile Services toe aan uw app.
 
 1. Voeg de SDK van Adobe Mobile Services toe aan uw app.
 
-   U vindt de instructies onder [Core Implementation en Lifecycle](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/dev-qs.html).
+   U vindt de instructies onder [Core Implementation en Lifecycle](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/dev-qs.html).
 
 1. Voeg cliëntcode toe, onderbreking en laat SSL toe.
 
