@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2735'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Upgrade uitvoeren vanaf 0,js 1.*x* tot at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
 
-De nieuwste versie van at.js in [!DNL Adobe Target] verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie wordt geconcentreerd op bevordering at.js om harmonieuze interactie met enige paginatoepassingen (SPAs) te hebben.
+De nieuwste versie van at.js in [!DNL Adobe Target] verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).
 
 Hier volgen enkele voordelen van het gebruik van at.js 2.*x* die niet beschikbaar zijn in vorige versies:
 
 * De capaciteit om alle aanbiedingen op pagina-lading in het voorgeheugen onder te brengen om veelvoudige servervraag aan één enkele servervraag te verminderen.
 * Verbeter de ervaringen van uw eindgebruikers op uw site aanzienlijk, omdat aanbiedingen direct via het cachegeheugen worden weergegeven zonder vertraging die traditionele serveraanroepen introduceren.
-* Eenvoudige one-line van code en éénmalige ontwikkelaarsopstelling om uw marketers toe te laten om A/B en XT activiteiten via VEC op uw SPAs tot stand te brengen en in werking te stellen.
+* Eenvoudige one-line code en eenmalige ontwikkelaarsopstelling om uw marketers toe te laten om A/B en XT activiteiten via VEC op uw SPA tot stand te brengen en in werking te stellen.
 
 ## te.js 2.*x* systeemdiagrammen
 
-De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.*x* met Weergaven en hoe dit de integratie van het KUUROORD verbetert. Een betere introductie van de concepten die worden gebruikt in at.js 2.*x*, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
+De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.*x* met weergaven en hoe dit de integratie van de SPA verbetert. Een betere introductie van de concepten die worden gebruikt in at.js 2.*x*, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
 
 ![Doelstroom met at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -37,17 +37,17 @@ De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.*x* met Wee
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker voor de huidige pagina en de toekomstige weergaven. |
-| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een KUUROORD worden getoond die in browser in het voorgeheugen wordt opgeslagen zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door `triggerView()`. worden teweeggebracht. |
+| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht `triggerView()`. |
 | 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
 | 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
 
-Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker zonder een servervraag getoond. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren.
+Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker getoond zonder een servervraag. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren.
 
 ![Doelstroom bij.js 2.*x* triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Bellen | Details |
 | --- | --- |
-| 1 | `triggerView()` wordt geroepen in het KUUROORD om de Mening terug te geven en acties toe te passen om visuele elementen te wijzigen. |
+| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Aanvraag voor meldingen wordt naar de [!DNL Target] profielenwinkel verzonden om de bezoeker te tellen in de activiteit en incrementele metingen. |
@@ -96,7 +96,7 @@ Voert een verzoek uit en past de aanbieding op dichtstbijzijnde DIV met de `mbox
 </script>
 ```
 
-**te.js 2.*x*equivalent**
+**te.js 2.*x* equivalent**
 
 Een alternatief voor `mboxCreate(mbox, params)` is `getOffer()` en `applyOffer()`.
 
@@ -145,7 +145,7 @@ Maakt een interne toewijzing tussen een element en een naam van een box, maar vo
 </script>
 ```
 
-**te.js 2.*x*equivalent**:
+**te.js 2.*x* equivalent**:
 
 Een alternatief voor `mboxDefine()` en `mboxUpdate` is `getOffer()` en `applyOffer()`, met de geselecteerde optie gebruikt in `applyOffer()`. Met deze methode kunt u de aanbieding aan een element toewijzen met elke CSS-kiezer, niet alleen met een id.
 
@@ -290,7 +290,7 @@ Bij Doel wordt het cookie van de andere fabrikant opgeslagen in `<CLIENTCODE>.tt
 
 In punt 2.js.*x*, wordt de GET van HTTP niet meer gebruikt en in plaats daarvan gebruiken wij de POST van HTTP. HTTP-POST wordt nu gebruikt via at.js 2.*x* om JSON-nuttige taken naar Target Edge-servers te verzenden. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP-GET-aanvragen epidemiologische transacties zijn, terwijl HTTP-POST niet-epidemiologisch is en niet willekeurig mag worden herhaald. Daarom is het volgen tussen domeinen in at.js 2.*x* wordt niet meer ondersteund vanuit het vak. Alleen om.js 1.*x* heeft out-of-the-box steun voor dwars-domein het volgen.
 
-Als u cross-domain tracking wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in combinatie met at.js 2 installeren.*x*. De ECID-bibliotheek bestaat voor het beheer van permanente id&#39;s waarmee een bezoeker zelfs in verschillende domeinen kan worden geïdentificeerd.
+Als u cross-domain tracking wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in combinatie met at.js 2 installeren.*x*. De ECID-bibliotheek bestaat voor het beheer van permanente id&#39;s waarmee een bezoeker zelfs in verschillende domeinen kan worden geïdentificeerd.
 
 >[!NOTE]
 >
@@ -760,7 +760,7 @@ Versie wordt verzonden als parameter van het vraagkoord via de versieparameter.
 
 ## Trainingsvideo: te.js 2.*x* architecturaal diagram ![Overzichtsbadge](/help/assets/overview.png)
 
-te.js 2.*x* verbetert de steun van Adobe Target voor SPAs en integreert met andere oplossingen van Experience Cloud. In deze video wordt uitgelegd hoe alles bij elkaar komt.
+te.js 2.*x* verbetert de Adobe Target-ondersteuning voor SPA en integreert deze met andere Experience Cloud-oplossingen. In deze video wordt uitgelegd hoe alles bij elkaar komt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
