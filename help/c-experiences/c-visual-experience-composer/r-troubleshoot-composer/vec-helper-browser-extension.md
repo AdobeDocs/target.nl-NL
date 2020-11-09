@@ -5,9 +5,9 @@ title: Helperextensie Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Met de VEC Helper-browserextensie voor Chrome worden de problemen opgelost die d
 
    * Zie &quot;Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite cookie executie VEC en EEC&quot; voor meer informatie over de browser fix van het kenmerk SameSite=None?&quot; in Problemen met [probleemoplossing met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * De cookienaam is &quot;mbox&quot;en het koekjesdomein is de tweede en hoogste niveaus van de domeinen waarvan u mbox dient. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. Zie [Adobe Target Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) in de gebruikershandleiding *van de* Experience Cloud Interface voor meer informatie.
+   * De cookienaam is &quot;mbox&quot;en het koekjesdomein is de tweede en hoogste niveaus van de domeinen waarvan u mbox dient. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. Zie [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) in de gebruikershandleiding *van de* Experience Cloud Interface voor meer informatie.
 
 ## Notities
 
