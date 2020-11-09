@@ -5,9 +5,9 @@ title: Voordat u Adobe Analytics implementeert als rapportagebron voor Adobe Tar
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Houd er rekening mee dat de latentieverhoging begint nadat u de service [!DNL Ex
 
 Alle [!DNL Target] vraag die door een activiteit A4T wordt gebruikt om inhoud te leveren of het doel te registreren metrisch moet een overeenkomstige [!DNL Analytics] slag hebben die zelfde supplementaire identiteitskaart voor A4T deelt om behoorlijk te werken.
 
-Hits die gegevens van bevatten [!DNL Analytics] en een extra gegevens-identiteitskaart [!DNL Target] bevatten. U kunt deze id in Foutopsporing [van](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud zien als de `sdid` parameter. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
+Hits die gegevens van bevatten [!DNL Analytics] en een extra gegevens-identiteitskaart [!DNL Target] bevatten. U kunt deze id in Foutopsporing [van](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud zien als de `sdid` parameter. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
 
 * De service voor bezoekersidentiteitskaart is geïmplementeerd
 * Er wordt een versie geïmplementeerd van [!DNL mbox.js] die deze integratie ondersteunt.
