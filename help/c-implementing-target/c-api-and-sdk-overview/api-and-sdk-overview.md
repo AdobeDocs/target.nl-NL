@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,6 @@ Met de SDK-documentatieportal aan de [!DNL Adobe Target] serverzijde kunt u [!DN
 
 ## Doel Recommendations API&#39;s
 
-Koppeling: [Overzicht](https://developers.adobetarget.com/api/recommendations) van Recommendations API&#39;s [en](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)Adobe Recommendations API.
+Koppeling: [Overzicht](https://developers.adobetarget.com/api/recommendations) van Recommendations API&#39;s [en](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)Adobe Recommendations API.
 
 Met de Recommendations API&#39;s kunt u programmatisch communiceren met [!DNL Target] aanbevolen servers. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de [!DNL Target] gebruikersinterface doet.
