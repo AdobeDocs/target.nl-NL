@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -27,5 +27,5 @@ Houd rekening met de volgende beperkingen wanneer u de prefetch-methode gebruikt
 
 Voor meer informatie, met inbegrip van prefetch methodes, openbare klassen, en codesteekproeven, zie:
 
-* **iOS:**  [Prefetch biedt inhoud aan in iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) in de Help bij *de iOS SDK van* Mobile Services.
-* **Android:**  [Prefetch biedt inhoud aan in Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) in de Help bij *de Android-SDK van* Mobile Services.
+* **iOS:**  [Prefetch biedt inhoud aan in iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) in de Help bij *de iOS SDK van* Mobile Services.
+* **Android:**  [Prefetch biedt inhoud aan in Android](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) in de Help bij *de Android-SDK van* Mobile Services.
