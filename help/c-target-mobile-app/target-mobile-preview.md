@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
    Voor instructies voor het downloaden van de juiste SDK raadpleegt u:
 
-   * **iOS:** [Voordat u begint](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) in de iOS Help bij *Mobile Services*.
-   * **Android:** [Voordat u begint](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) in de Android Help bij *Mobiele services*.
+   * **iOS:** [Voordat u begint](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) in de iOS Help bij *Mobile Services*.
+   * **Android:** [Voordat u begint](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) in de Android Help bij *Mobiele services*.
 
 1. **Een URL-schema instellen:** De voorbeeldkoppeling gebruikt een URL-schema om uw app te openen. U moet een uniek URL-schema opgeven voor de voorvertoning.
 
@@ -120,7 +120,7 @@ Open de koppeling in een mobiele browser op een apparaat waarop uw app is geïns
 
    Uw app wordt geopend en de modus Mobiele voorvertoning voor doelapparaten wordt gestart.
 
-1. Selecteer de combinatie ervaringen die u wilt zien, dan klik **[!UICONTROL Launch Experiences]**.
+1. Selecteer de combinatie van ervaringen die u wilt zien en klik op **[!UICONTROL Launch Experiences]**.
 
    |![mobiele voorvertoning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobiele voorvertoning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobiele voorvertoning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
 |![mobiele voorvertoning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobiele voorvertoning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobiele voorvertoning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
