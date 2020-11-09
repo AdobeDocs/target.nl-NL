@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De de klantengegevens van de onderneming die door veelvoudige bronnen worden ver
 
 ## Overzicht van klantkenmerken {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[De Attributen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) van de klant in de [!DNL People] kerndienst maken deel uit van de [!DNL Adobe Experience Cloud] en verstrekken ondernemingen een hulpmiddel om hun klantengegevens aan het [!DNL Experience Cloud] platform te duwen.
+[De Attributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) van de klant in de [!DNL People] kerndienst maken deel uit van de [!DNL Adobe Experience Cloud] en verstrekken ondernemingen een hulpmiddel om hun klantengegevens aan het [!DNL Experience Cloud] platform te duwen.
 
 Gegevens die aan de server zijn toegevoegd, zijn beschikbaar voor alle [!DNL Experience Cloud] [!DNL Experience Cloud] workflows. [!DNL Target] gebruikt deze gegevens voor het richten van terugkerende klant die op attributen wordt gebaseerd. [!DNL Adobe Analytics] verbruikt deze kenmerken en kunnen worden gebruikt voor analyse en segmentatie.
 
@@ -31,7 +31,7 @@ Gegevens die aan de server zijn toegevoegd, zijn beschikbaar voor alle [!DNL Exp
 
 Houd rekening met de volgende informatie als uw werk met klantenkenmerken en [!DNL Target]:
 
-* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de [!UICONTROL Customer attributes] functie in de [!DNL People] kernservice kunt gebruiken. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in [Klantenattributen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in de productdocumentatie *van* Experience Cloud en Core Services voor meer informatie.
+* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de [!UICONTROL Customer attributes] functie in de [!DNL People] kernservice kunt gebruiken. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in de kenmerken [van de](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) klant in de productdocumentatie *van* Experience Cloud en Core Services voor meer informatie.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om CRM-gegevens te gebruiken in, [!DNL Target]zoals
 
 ![crm-workflow](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Gedetailleerde instructies voor de voltooiing van elk van de volgende taken vindt u in [Een bron van klantkenmerken maken en het gegevensbestand](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) uploaden in de productdocumentatie *van* Experience Cloud en Core Services.
+Gedetailleerde instructies voor de voltooiing van elk van de volgende taken vindt u in [Een bron van klantkenmerken maken en het gegevensbestand](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) uploaden in de productdocumentatie *van* Experience Cloud en Core Services.
 
 1. Maak een gegevensbestand.
 
@@ -86,7 +86,7 @@ Gedetailleerde instructies voor de voltooiing van elk van de volgende taken vind
    Het gegevensbestand moet voldoen aan de vereisten voor het uploaden van bestanden en mag niet groter zijn dan 100 MB. Als het bestand te groot is of als u gegevens hebt die u regelmatig wilt uploaden, kunt u in plaats daarvan FTP op uw bestanden toepassen.
 
    * **HTTPS:** U kunt het CSV-gegevensbestand slepen en neerzetten of klikken **[!UICONTROL Browse]** om te uploaden vanaf uw bestandssysteem.
-   * **FTP:** Klik op de FTP-koppeling om het bestand te [uploaden via FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). De eerste stap bestaat uit het opgeven van een wachtwoord voor de door Adobe verschafte FTP-server. Geef het wachtwoord op en klik op **[!UICONTROL Done]**.
+   * **FTP:** Klik op de FTP-koppeling om het bestand te [uploaden via FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). De eerste stap bestaat uit het opgeven van een wachtwoord voor de door Adobe verschafte FTP-server. Geef het wachtwoord op en klik op **[!UICONTROL Done]**.
 
    Breng nu uw CSV/ZIP/GZIP-bestand over naar de FTP-server. Nadat deze bestandsoverdracht is gelukt, maakt u een nieuw bestand met dezelfde naam en extensie .fin. Breng dit lege bestand over naar de server. Dit geeft een einde aan de gegevensoverdracht aan en het gegevensbestand [!DNL Experience Cloud] wordt verwerkt.
 
@@ -102,7 +102,7 @@ Gedetailleerde instructies voor de voltooiing van elk van de volgende taken vind
 
 1. Configureer abonnementen en activeer de kenmerkbron.
 
-   Klik **[!UICONTROL Add Subscription]**, dan selecteer de oplossing om deze attributen in te tekenen. [Vorm abonnementen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) - omhoog de gegevensstroom tussen [!DNL Experience Cloud] en oplossingen. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
+   Klik **[!UICONTROL Add Subscription]**, dan selecteer de oplossing om deze attributen in te tekenen. [Vorm abonnementen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) - omhoog de gegevensstroom tussen [!DNL Experience Cloud] en oplossingen. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
 
    ![Oplossing configureren](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -144,11 +144,11 @@ Geef `mbox3rdPartyId` als parameter aan globale mbox binnen de `targetPageParams
 
 ### De Experience Cloud ID-service gebruiken
 
-Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, moet u een identiteitskaart van de Klant en de Staat van de Authentificatie plaatsen om klantenattributen in het richten te gebruiken. Raadpleeg [Klanten-id&#39;s en verificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in de Help bij ** Identiteitsservice van Experience Cloud voor meer informatie.
+Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, moet u een identiteitskaart van de Klant en de Staat van de Authentificatie plaatsen om klantenattributen in het richten te gebruiken. Raadpleeg [Klanten-id&#39;s en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in de Help bij ** Identiteitsservice van Experience Cloud voor meer informatie.
 
 Voor meer informatie over het gebruiken van klantenattributen in [!DNL Target], zie de volgende middelen:
 
-* [Creeer een bron van de klantenattributen en upload het gegevensdossier](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in de Documentatie van het Product van *Experience Cloud*
+* [Creeer een bron van de klantenattributen en upload het gegevensdossier](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in de Documentatie van het Product van *Experience Cloud*
 * [Klantkenmerken: Hoe meer u weet, hoe beter u verbinding maakt](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) in het *Digital Marketing-blog*
 
 ## Problemen die klanten vaak tegenkomen {#section_BE0F70E563F64294B17087DE2BC1E74C}
