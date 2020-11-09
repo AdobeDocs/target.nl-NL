@@ -3,10 +3,8 @@ keywords: troubleshoot target;troubleshooting target
 description: Lijst met onderwerpen om u te helpen problemen in Adobe Target op te lossen, waaronder onderwerpen voor het oplossen van problemen, veelgestelde vragen (FAQs) en andere nuttige onderwerpen.
 title: Problemen met Adobe Target oplossen
 feature: troubleshooting general
-topic: Advanced,Standard,Classic
-uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
