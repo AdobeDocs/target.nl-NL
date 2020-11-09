@@ -5,9 +5,9 @@ title: Een Analytics-trackingserver gebruiken
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit zal wor
 
 1. Open de [!DNL Adobe Experience Platform Debugger]pagina op de pagina waarop u uw activiteit maakt.
 
-   Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)van Adobe Experience Platform.
+   Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)van Adobe Experience Platform.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
