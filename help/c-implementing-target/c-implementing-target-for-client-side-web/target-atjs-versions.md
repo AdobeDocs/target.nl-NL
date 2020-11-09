@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3970'
+source-wordcount: '3968'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL 
 >
 >Het team van het Doel steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) heeft de voorkeur voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Launch] catalogus als upgrades. Zie Upgrade [van](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensies in de gebruikershandleiding *van het* Experience Platform Launch voor meer informatie.
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) heeft de voorkeur voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Launch] catalogus als upgrades. Zie Upgrade [van](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensies in de gebruikershandleiding *van het* Experience Platform Launch voor meer informatie.
 
 ## te.js 2.3.2 (24 juli 2020)
 
@@ -241,7 +241,7 @@ at.js versie 1.5.0 is nu beschikbaar.
      scheduler = setTimeout
    ```
 
-## at.js versie 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js versie 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js versie 1.3.0 is nu beschikbaar.
 
