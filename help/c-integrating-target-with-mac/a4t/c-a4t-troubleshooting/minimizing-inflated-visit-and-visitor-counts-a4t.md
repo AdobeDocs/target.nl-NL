@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ In de meeste gevallen wordt een [!DNL Target] hit gekoppeld aan een [!DNL Analyt
 
 **Partial-data hits:** De gebruikers blijven soms niet lang genoeg op een pagina om een [!DNL Analytics] vraag te verzenden, maar [!DNL Target] heeft juiste MCID. Dit resulteert in gedeeltelijk-gegevensklapjes (klapjes zonder [!DNL Analytics] paginamening). Als deze gebruikers terugkeren naar uw site en een pagina met [!DNL Analytics] code weergeven, worden ze correct geteld als terugkerende bezoekers. Dit zijn treffers die verloren zouden zijn gegaan als u slechts [!DNL Analytics] code op de pagina had. Sommige cliënten willen geen gegevens voor deze klappen omdat zij bepaalde metriek (bezoeken) opblazen en andere metriek (paginameningen per bezoek, tijd per bezoek, etc.) leegmaken. U zult ook bezoeken zonder enige paginameningen zien. Er zijn echter nog geldige redenen om deze gegevens te bewaren.
 
-Om ongewenste resultaten met gedeeltelijke gegevens te minimaliseren, kunt u uw pagina sneller laten laden, aan de recentste versies van de bibliotheken bijwerken, of een [virtuele rapportreeks](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) creëren die die klappen uitsluit. Voor geleidelijke instructies, zie virtuele [rapportreeksen](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in de Gids *van de Componenten van* Analytics tot stand brengen.
+Om ongewenste resultaten met gedeeltelijke gegevens te minimaliseren, kunt u uw pagina sneller laten laden, aan de recentste versies van de bibliotheken bijwerken, of een [virtuele rapportreeks](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) creëren die die klappen uitsluit. Voor geleidelijke instructies, zie virtuele [rapportreeksen](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in de Gids *van de Componenten van* Analytics tot stand brengen.
 
 De volgende illustratie toont voor de segmentdefinitie voor de virtuele rapportreeks:
 
@@ -99,7 +99,7 @@ Wanneer het creëren van de virtuele rapportreeks, specificeer de volgende confi
 
 **Geweesde klappen:** In minder situaties, blijven de gebruikers niet lang genoeg op de pagina voor een vraag van de Analyse en het Doel kreeg geen juiste MCID. Dit zijn wat we definiëren als &#39;zwevende&#39; hits. Deze treffers vertegenwoordigen klanten die zelden terugkeren en ze verhogen bezoek en bezoekers tellen onterecht.
 
-Als u deze &#39;zwevende&#39; treffers wilt minimaliseren, kunt u een [virtuele rapportsuite](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) maken waarin deze treffers worden uitgesloten, zoals hierboven beschreven.
+Als u deze &#39;zwevende&#39; treffers wilt minimaliseren, kunt u een [virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) maken waarin deze treffers worden uitgesloten, zoals hierboven beschreven.
 
 ## Wat betekent dit voor mijn [!DNL Target] verslaglegging? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
