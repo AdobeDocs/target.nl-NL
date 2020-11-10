@@ -3,10 +3,8 @@ keywords: audience;audience rules;combine audiences;exclusion;add exclusion;excl
 description: Combineer meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) om een ad-hocpubliek te maken. U kunt ook uitsluitingsregels maken en het publiek uitsluiten van een regel.
 title: Meerdere doelgroepen combineren in Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 0%
