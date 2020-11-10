@@ -3,9 +3,8 @@ keywords: Targeting
 description: De Activiteit URL bepaalt de pagina die in de Ervaring wordt gebruikt richtend activiteit, en die in Adobe Target Visual Experience Composer (VEC) of op vorm-Gebaseerde Composer van de Ervaring opent wanneer de activiteit wordt ontworpen.
 title: URL van activiteit
 feature: xt
-uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -25,7 +24,7 @@ De Activiteit URL bepaalt de pagina die in de Ervaring het richten (XT) activite
    >
    >Door gebrek, opent VEC of op vorm-Gebaseerde Composer van de Ervaring de pagina die in uw montages [van Composer van de](/help/administrating-target/visual-experience-composer-set-up.md)Visuele Ervaring wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
    >
-   >Als u een URL opgeeft voor een site die de standaard JavaScript-doelcode niet bevat, kunt u geen pagina-elementen selecteren.
+   >Als u een URL opgeeft voor een site die niet de standaard JavaScript-doelcode bevat, kunt u geen pagina-elementen selecteren.
 
 1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op **[!UICONTROL Configure]**, selecteert u **[!UICONTROL Page Delivery]** en geeft u de URL op in het [!UICONTROL URL] veld.
 
@@ -46,6 +45,6 @@ De Activiteit URL bepaalt de pagina die in de Ervaring het richten (XT) activite
    * Query
    * mbox-parameter
 
-   De extra regels kunnen tot aan de Activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
+   De extra regels kunnen met EN of OF aan de Activiteit URL worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
 
 1. Klik **[!UICONTROL Save]** wanneer u klaar bent.
