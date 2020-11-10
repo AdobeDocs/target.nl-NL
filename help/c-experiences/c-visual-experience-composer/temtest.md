@@ -3,9 +3,8 @@ keywords: template testing;template;same experience on similar pages;template te
 description: Gebruik een paginasjabloon in Adobe Target om uw pagina's een structuur te geven, of als uw pagina's vergelijkbare elementen bevatten, om variaties in pagina-elementen met een vergelijkbare structuur te testen.
 title: Dezelfde ervaring opnemen op vergelijkbare pagina's met Adobe Target
 feature: experiences
-uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
