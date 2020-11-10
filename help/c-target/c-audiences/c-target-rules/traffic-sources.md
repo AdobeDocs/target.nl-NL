@@ -3,9 +3,8 @@ keywords: Targeting;traffic sources;target traffic sources;target search engine;
 description: Maak een publiek in Adobe Target om bezoekers te richten op basis van het zoekprogramma of de bestemmingspagina die hen naar uw site verwijst.
 title: Opties voor verkeersbronnen bij Adobe Target-publiek
 feature: audiences
-uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
