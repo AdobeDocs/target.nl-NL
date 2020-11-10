@@ -3,10 +3,8 @@ keywords: apple;ITP;intelligent tracking prevention
 description: Informatie over Adobe Target-ondersteuning voor ITP 2.x van Apple via de Experience Cloud ID-bibliotheek 4.3.
 title: Adobe Target- en Apple ITP-ondersteuning
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -59,7 +57,7 @@ Om het effect van toekomstige versies ITP 2.x aan Doel te verlichten, voltooi de
 
    Nadat u de ECID-bibliotheek 4.3.0+ hebt geïnstalleerd, kunt u de CNAME van Adobe Analytics en het Beheerde Certificaatprogramma gebruiken. Met dit programma kunt u gratis een eersteklas certificaat voor cookies van andere bedrijven implementeren. De hefboomwerking CNAME zal [!DNL Target] klanten helpen het effect van ITP 2.x verlichten.
 
-   Als u CNAME niet gebruikt, kunt u het proces starten door met uw accountvertegenwoordiger te spreken en u in te schrijven in het [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
+   Als u geen gebruik maakt van CNAME, kunt u het proces starten door met uw accountvertegenwoordiger te spreken en u in te schrijven in het [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
 Nadat u een bibliotheek van het Doel JavaScript samen met de bibliotheek ECID v4.3.0+ opstelt en in het Adobe Beheerde Programma van het Certificaat aan hefboomwerking CNAME inschrijft, zult u een robuust en op lange termijn matigingsplan voor op ITP betrekking hebbende veranderingen hebben.
 
