@@ -3,9 +3,8 @@ keywords: Targeting
 description: De URL van de Activiteit bepaalt de pagina die in de Multivariate Test (MVT) wordt gebruikt, en die opent wanneer de test in Adobe Target wordt ontworpen.
 title: URL van activiteit
 feature: mvt
-uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -40,7 +39,7 @@ De extra regels kunnen op om het even welke volgend worden gebaseerd:
 * Query
 * Parameter
 
-De extra regels kunnen tot aan de Activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
+De extra regels kunnen met EN of OF aan de Activiteit URL worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
 
 Klik **[!UICONTROL Save]** wanneer u klaar bent.
 
