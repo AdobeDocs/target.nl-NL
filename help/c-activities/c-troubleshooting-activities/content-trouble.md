@@ -3,11 +3,8 @@ keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;t
 description: Als op de pagina de verwachte inhoud niet wordt weergegeven, kunt u een aantal stappen uitvoeren om fouten op te sporen in de levering van inhoud in Adobe Target.
 title: Problemen met de levering van inhoud in Adobe Target oplossen
 feature: activities
-subtopic: Multivariate Test
-topic: Standard
-uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
