@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;st
 description: A/B-tests vormen de ruggengraat van de meeste optimalisatieprogramma's voor digitale marketing en helpen marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit gedeelte worden negen van de belangrijkste valkuilen beschreven waar bedrijven op stuiten wanneer zij A/B-tests uitvoeren in Adobe Target. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
 title: Negen gangbare A/B-testvalkuilen en hoe deze te vermijden
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 0%
@@ -53,13 +52,13 @@ Twee situaties verdienen echter de nodige aandacht voor het significantieniveau 
 
    Het is belangrijk om op te merken dat *elke* geteste aanbieding een vals positief tarief gelijk aan het significante niveau heeft, zoals hierboven beschreven. Opnieuw, stelt u effectief veelvoudige tests in werking wanneer verscheidene aanbiedingen tegen elkaar binnen één enkele testmilieu worden goedgekeurd. Als u bijvoorbeeld vijf aanbiedingen in een A/B/C/D/E-test vergelijkt, maakt u in feite vier vergelijkingen: controle op B, controle op C, controle op D, controle op E. Met een betrouwbaarheidsniveau van 95%, in plaats van de 5% waarschijnlijkheid van een vals positief, hebt u eigenlijk 18,5%. 2
 
-   Als u uw totale betrouwbaarheid op 95% wilt houden en dit probleem wilt vermijden, past u de zogenaamde Bonferroni-correctie toe. Met deze correctie verdeelt u eenvoudig het significantieniveau door het aantal vergelijkingen om het significante niveau te bereiken dat u een 95% betrouwbaarheidsniveau moet bereiken.
+   Als u uw totale betrouwbaarheid op 95% wilt houden en dit probleem wilt vermijden, past u de zogenaamde Bonferroni-correctie toe. Met deze correctie verdeelt u gewoon het significantieniveau door het aantal vergelijkingen om het significantieniveau te bereiken dat u nodig hebt om een betrouwbaarheidsniveau van 95% te bereiken.
 
    Als u de Bonferroni-correctie toepast op het bovenstaande voorbeeld, gebruikt u een 5%/4 = 1,25% significantieniveau, wat hetzelfde is als een 98,75% betrouwbaarheidsniveau voor een individuele test (100% - 1,25% = 98,75%). Deze aanpassing handhaaft het effectieve betrouwbaarheidsniveau bij 95% wanneer u vier tests hebt, zoals in het beschreven voorbeeld.
 
 ## Pitfall 2: Opgave van winnaars van meervoudige biedtests zonder statistisch significant verschil {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
-Bij het testen van meerdere aanbiedingen verklaren marketeers vaak het aanbod met de hoogste lift als testwinnaar, hoewel er geen statistisch significant verschil is tussen de winnaar en de runner-up. Deze situatie doet zich voor wanneer het verschil tussen de alternatieven kleiner is dan het verschil tussen de alternatieven en de controle. In de onderstaande afbeelding ziet u dit concept, waarbij de zwarte foutenbalken een betrouwbaarheidsinterval van 95% vertegenwoordigen. De ware lift voor elke aanbieding met betrekking tot de controleaanbieding is 95% waarschijnlijk inbegrepen binnen het betrouwbaarheidsinterval-de waaier die door de foutenbars wordt getoond.
+Bij het testen van meerdere aanbiedingen verklaren marketers vaak het aanbod met de hoogste lift als testwinnaar, hoewel er geen statistisch significant verschil is tussen de winnaar en de runner-up. Deze situatie doet zich voor wanneer het verschil tussen de alternatieven kleiner is dan het verschil tussen de alternatieven en de controle. In de onderstaande afbeelding ziet u dit concept, waarbij de zwarte foutenbalken een betrouwbaarheidsinterval van 95% vertegenwoordigen. De ware lift voor elke aanbieding met betrekking tot de controleaanbieding is 95% waarschijnlijk inbegrepen binnen het betrouwbaarheidsinterval-de waaier die door de foutenbars wordt getoond.
 
 ![](assets/pitfalls2.png)
 
@@ -89,7 +88,7 @@ Eenzijdige tests vereisen een kleiner waargenomen verschil in omrekeningskoersen
 
 Bij een eenzijdige test test test je of aanbod B beter is dan aanbod A. De richting van de test moet worden bepaald voordat de test begint, of a priori in de vorm van statistieken. Met andere woorden, u moet besluiten of B beter is dan A of A dan B *voordat* u de test start. Als u echter kijkt naar de resultaten van de A/B-test en ziet dat B het beter doet dan A en *vervolgens* besluit om een eenzijdige test te doen om te zien of dat verschil statistisch significant is, dan schaadt u de veronderstellingen achter de statistische test. Als u de aannames van de test overtreedt, zijn de betrouwbaarheidsintervallen onbetrouwbaar en heeft de test een hogere fout-positieve snelheid dan u zou verwachten.
 
-U zou een eenzijdige test kunnen zien als een voorstel voor een proces bij een rechter die zijn of haar mening al heeft bepaald. In een eenzijdige test heb je al besloten wat het winnende aanbod zal zijn en zal zijn om het te bewijzen, in plaats van elke ervaring een gelijke kans te geven om zichzelf als winnaar te bewijzen. Eenzijdige tests mogen alleen worden gebruikt in de zeldzame situaties waarin u alleen maar geïnteresseerd bent in de vraag of een aanbod beter is dan het andere en niet andersom. Om het probleem van de eenzijdige test te vermijden, gebruikt u een A/B-testoplossing waarbij altijd twee-staarttests worden gebruikt, zoals [!DNL Adobe Target]tests.
+U zou een eenzijdige test kunnen zien als een voorstel voor een proces bij een rechter die zijn of haar mening al heeft bepaald. In een eenzijdige test heb je al besloten wat het winnende aanbod zal zijn en zal zijn om het te bewijzen, in plaats van elke ervaring een gelijke kans te geven om zichzelf als winnaar te bewijzen. Eenzijdige tests mogen alleen worden gebruikt in de zeldzame situaties waarin u alleen maar geïnteresseerd bent in de vraag of een aanbod beter is dan het andere en niet andersom. Om het probleem van de eenzijdige test te vermijden, gebruikt u een A/B-testoplossing die altijd gebruikmaakt van tweetalige tests, zoals [!DNL Adobe Target]proeven.
 
 ## Pitfall 5: Monitoringtests {#section_EA42F8D5967B439284D863C46706A1BA}
 
