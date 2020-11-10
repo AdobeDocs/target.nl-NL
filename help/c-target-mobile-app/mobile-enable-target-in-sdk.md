@@ -3,10 +3,8 @@ keywords: mobile app;mobile app sdk;target mobile app;mobile target sdk;mobile a
 description: Voeg de SDK van Adobe Mobile Services toe aan uw app.
 title: Doel inschakelen in de SDK
 feature: mobile implementation
-topic: Target
-uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
