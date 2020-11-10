@@ -3,10 +3,8 @@ keywords: release notes;releases;updates;future release;enhancements;new feature
 description: Opmerkingen bij de release die informatie bevatten over functies, verbeteringen en oplossingen voor de nieuwste of komende DNL Adobe Target-releases.
 title: Voorlopige Adobe Target-opmerkingen
 feature: null
-topic: Standard
-uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 0%
