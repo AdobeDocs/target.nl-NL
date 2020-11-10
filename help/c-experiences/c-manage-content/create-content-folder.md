@@ -3,10 +3,8 @@ keywords: content;create folder;assets;move folder;copy folder;delete folder;dow
 description: Maak een map voor de items in de bibliotheek met aanbiedingen.
 title: Aanbiedingenmap maken
 feature: offers
-topic: Standard
-uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -27,7 +25,7 @@ Maak een map voor de items in de bibliotheek met aanbiedingen.
    | Titel (alleen van toepassing op aanbiedingen voor afbeeldingen) | Geef een beschrijvende naam voor de map op. U kunt bijvoorbeeld het type inhoud opnemen dat wordt opgeslagen.<br>De naam mag niet de volgende tekens bevatten:<br>Percent-teken `%`<br>Forward-slash `/`<br>Backslash `\`<br>Colon `:`<br>Asterisk `*`<br>Vraagteken `?`<br>Dubbele aanhalingstekens Vierkante haken `"`<br>Vierkante haken `[`<br>`]`<br>Plus-teken: `+`<br>Pijp: `|`<br>Periode: `.`<br>Getalteken: `#`<br>accolade: `{`<br>Curly bracket `}`<br>Caret `^`<br>Semicolon `;`<br>U kunt een koppelteken ( `- `) in plaats van deze tekens gebruiken. |
    | Naam (van toepassing op zowel code- als afbeeldingsaanbiedingen) | Bewerk desgewenst de naam. |
    | Privé (alleen van toepassing op afbeeldingsaanbiedingen) | Geeft aan dat de map privé is, zodat alleen u deze en de inhoud ervan kunt zien. |
-   | Opnieuw ordenen is mogelijk in de lijstweergave (alleen van toepassing op afbeeldingsaanbiedingen) | Hiermee geeft u aan dat u en anderen de positie van de map in de lijstweergave kunnen wijzigen.<br>Als u wilt schakelen tussen de Kaartweergave en de Lijstweergave, klikt u op het pictogram Kaartweergave of het pictogram Lijstweergave in de rechterbovenhoek van de inhoudsbibliotheek. U kunt ook Weergave-instellingen selecteren om kolommen in de lijstweergave op te nemen of uit te sluiten. |
+   | Opnieuw ordenen is mogelijk in de lijstweergave (alleen van toepassing op afbeeldingsaanbiedingen) | Geeft aan dat u en anderen de positie van de map in de lijstweergave kunnen wijzigen.<br>Als u wilt schakelen tussen de Kaartweergave en de Lijstweergave, klikt u op het pictogram Kaartweergave of het pictogram Lijstweergave in de rechterbovenhoek van de inhoudsbibliotheek. U kunt ook Weergave-instellingen selecteren om kolommen in de lijstweergave op te nemen of uit te sluiten. |
 
 1. Klik op **[!UICONTROL Create]**.
 
