@@ -3,10 +3,8 @@ keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orpha
 description: Informatie die u helpt de gevolgen van opgeblazen Bezoek en Bezoeker te minimaliseren wanneer het gebruiken van Analytics als rapporteringsbron.
 title: Vergrote aantallen bezoeken en bezoekers in A4T minimaliseren
 feature: a4t troubleshooting
-topic: Standard
-uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
