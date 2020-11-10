@@ -1,12 +1,10 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Gebruik externe aanbiedingen om inhoud te hosten buiten het doel waarvoor het doel verwijst en die aan websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
+description: Gebruik externe aanbiedingen om inhoud te hosten buiten het doel waarvoor het doel verwijst en die aan websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of een ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
 title: Externe aanbiedingen maken
 feature: offers
-topic: Standard
-uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -16,7 +14,7 @@ ht-degree: 1%
 
 # Externe aanbiedingen maken{#create-remote-offers}
 
-Gebruik externe aanbiedingen om inhoud te hosten buiten het doel waarvoor het doel verwijst en die aan websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
+Gebruik externe aanbiedingen om inhoud te hosten buiten het doel waarvoor het doel verwijst en die aan websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of een ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
 
 >[!NOTE]
 >
