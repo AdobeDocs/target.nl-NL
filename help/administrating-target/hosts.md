@@ -3,10 +3,8 @@ keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;re
 description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
 title: Gastheren
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 0%
@@ -35,7 +33,7 @@ Als u een host wilt herkennen en toevoegen aan de [!UICONTROL Hosts] lijst, moet
 * Er moet minstens één [!DNL Target] verzoek aanwezig zijn op de host
 * Een pagina op de host moet het volgende bevatten:
 
-   * Een nauwkeurige verwijzing van at.js of mbox.js
+   * Een nauwkeurige referentie at.js of mbox.js
    * Een [!DNL Target] verzoek of een automatisch gegenereerd globaal [!DNL Target] verzoek
 
 * De pagina met het [!DNL Target] verzoek moet in een browser worden weergegeven
@@ -122,10 +120,10 @@ Probeer de volgende tips voor het oplossen van problemen als u problemen ondervi
 * Bevestig dat het [!DNL Target] verzoek juist is, inclusief de verwijzing at.js of mbox.js.
 * Blader naar een van de [!DNL Target] aanvragen op de host. Het is mogelijk dat geen [!DNL Target] verzoek op de gastheer ooit in browser werd teruggegeven.
 
-**Willekeurige of onbekende domeinen worden in de[!UICONTROL Host]lijst weergegeven.**
+**Willekeurige of onbekende domeinen worden in de [!UICONTROL Host] lijst weergegeven.**
 
 Er wordt een domein in deze lijst weergegeven als er een aanvraag is ingediend vanuit het domein. [!DNL Target] Vaak kunt u domeinen zien van spintengines, vertaalsites of lokale schijfstations. Als het vermelde domein niet één uw teamgebruik is, kunt u klikken [!UICONTROL Delete] om het te verwijderen.
 
-**Mijn[!DNL Target]verzoek retourneert /* geen weergave - ongeoorloofde mbox-host */.**
+**Mijn [!DNL Target] verzoek retourneert /* geen weergave - ongeoorloofde mbox-host */.**
 
 Als een [!DNL Target] verzoek wordt ingediend op een niet-geautoriseerde host, reageert het verzoek op /* geen weergave - niet-geautoriseerde mbox-host */.
