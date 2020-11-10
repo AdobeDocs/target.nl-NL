@@ -3,10 +3,8 @@ keywords: implement;implementing
 description: Voordat u Adobe Target gaat gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen, vertrouwd zijn met de werking en integratie van Target en begrijpen hoe bezoekers worden bijgehouden door het Target-systeem.
 title: Doel implementeren
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,7 +14,7 @@ ht-degree: 0%
 
 # Implementatie
 
-Voordat u begint te gebruiken, moet u [!DNL Adobe Target]het programma implementeren op uw site en een aantal basisbeginselen en -termen begrijpen. vertrouwd zijn met de werking van en de integratie met uw infrastructuur; [!DNL Target] en begrijpen hoe bezoekers door het [!DNL Target] systeem worden gevolgd.
+Voordat u begint te gebruiken, moet u het op uw site implementeren, zodat u een aantal basisbeginselen en -termen kent. [!DNL Adobe Target]vertrouwd zijn met de werking van en de integratie met uw infrastructuur; [!DNL Target] en begrijpen hoe bezoekers door het [!DNL Target] systeem worden gevolgd.
 
 Voor meer informatie, zie de diverse onderwerpen onder Doel [](/help/c-implementing-target/implementing-target.md)uitvoeren.
 
