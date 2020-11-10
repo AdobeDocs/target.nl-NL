@@ -3,11 +3,8 @@ keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Informatie over het implementeren van Doel in niet-JavaScript-scenario's, zoals het gebruik van een AdBox of Redirector.
 title: Doel e-mailimplementatie
 feature: email implementation
-subtopic: Getting Started
-topic: Standard
-uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -38,6 +35,6 @@ Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kun
 
 * Er is geen time-out aan de clientzijde, zoals bij standaardvakken. Als Doel volledig omlaag is, zien bezoekers van de advertentie de inhoud niet, zelfs niet standaard.
 * Cookies van derden worden gebruikt om de bezoeken bij te houden. Als de PCIds verschillend zijn, door gebrek wordt de derde partij van de bezoeker samengevoegd met om het even welke bestaande 1st-partijprofielen.
-* Als u cookies van de eerste partij op de AdBox zelf wilt gebruiken, moet u de mBox-sessie in de URL doorgeven. Bespreek dit met uw accountvertegenwoordiger.
+* Als u cookies van één partij wilt gebruiken in de AdBox zelf, moet u de mBox-sessie doorgeven in de URL. Bespreek dit met uw accountvertegenwoordiger.
 * Als u cookies van de eerste partij wilt gebruiken om cookies bij te houden en te klikken, geeft u de box-sessie door in de URL. Bespreek dit met uw accountvertegenwoordiger.
 * Als u meerdere AdBox op dezelfde pagina wilt gebruiken, moet u de Mbox-sessie doorgeven in de URL. Bespreek dit met uw accountvertegenwoordiger. U hebt mogelijk één AdBox en één Redirector-koppeling op dezelfde pagina (omdat Redirector zich op een tweede pagina bevindt).
