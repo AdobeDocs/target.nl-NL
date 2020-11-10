@@ -3,10 +3,8 @@ keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experi
 description: Sommige browsers blokkeren de weergave van een pagina als beveiligde inhoud wordt gemengd met onveilige inhoud.
 title: Gemengde inhoud in uw browser inschakelen
 feature: vec
-topic: Advanced,Standard,Classic
-uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
