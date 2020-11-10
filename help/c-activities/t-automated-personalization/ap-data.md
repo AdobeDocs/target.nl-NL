@@ -4,21 +4,21 @@ description: Adobe Target verzamelt en gebruikt automatisch een verscheidenheid 
 title: Gegevensverzameling voor Adobe Target-verpersoonlijkingsalgoritmen
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -gegevensverzameling voor de &#39;Target personalization&#39;-algoritmen{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) -gegevensverzameling voor de &#39;Target personalization&#39;-algoritmen
 
-Het doel verzamelt en gebruikt automatisch een verscheidenheid van gegevens om zijn verpersoonlijkingsalgoritmen in de activiteiten van Automated Personalization (AP) en Auto-Target (AT) te bouwen. Wanneer een bezoeker de AP of activiteit van AT ingaat, wordt een momentopname van informatie overgegaan tot een reeks &quot;opleidingsverslagen&quot;(de bezoekersgegevens die de verpersoonlijkingsalgoritmen zullen leren).
+[!DNL Adobe Target] verzamelt en gebruikt automatisch een verscheidenheid van gegevens om zijn verpersoonlijkingsalgoritmen in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten te bouwen. Wanneer een bezoeker een AP- of AT-activiteit betreedt, wordt een momentopname van informatie doorgegeven aan een set van &quot;trainingsrecords&quot; (de bezoekersgegevens waarop de verpersoonlijkingsalgoritmen zullen leren).
 
 Meer over de de verpersoonlijkingsalgoritmen van het Doel leren, zie [Willekeurig Bosalgoritme](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-In de volgende tabel worden standaard de gegevens weergegeven die door Automated Personalization en Auto-Target zijn verzameld, zonder dat de markeerstift iets hoeft te doen. Daarnaast ziet u ook de naamgevingsconventie die wordt gebruikt om deze kenmerken aan te geven in [Persoonlijke inzichten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). U kunt de invoergegevensset op elk gewenst moment uitbreiden. Voor meer over hoe te om extra gegevens te uploaden, zie het [Uploaden van Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)van de Aanpassing van het Doel.
+De volgende lijst toont de gegevens die door [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target] door gebrek worden verzameld, zonder de teler te moeten doen wat, evenals de noemende overeenkomst wordt gebruikt om deze attributen in de Rapporten [van de](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)Inzichten van de Personalisatie te wijzen. U kunt de invoergegevensset op elk gewenst moment uitbreiden. Voor meer over hoe te om extra gegevens te uploaden, zie het [Uploaden van Gegevens voor de Algoritmen](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)van de Aanpassing van het Doel.
 
 | Gegevenstype | Beschrijving | Naamgevingsconventie voor gegevenstypen | Voorbeeldkenmerken |
 | --- | --- | --- | --- |
