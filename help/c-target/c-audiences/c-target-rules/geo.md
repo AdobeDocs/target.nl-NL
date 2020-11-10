@@ -4,10 +4,8 @@ description: Gebruik een Adobe Target-publiek voor doelgebruikers op basis van h
 title: Geo-opties in Adobe Target-publiek
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
@@ -149,7 +147,7 @@ Je moet je cookies wissen voordat je dit doet.
 
 Puerto Rico, Hong Kong en andere gebieden worden behandeld als afzonderlijke &quot;Land&quot;-waarden.
 
-**Vangt (en slaat) informatie zoals de Codes van het PIT op wanneer de activiteit met geo-plaats gerichte mogelijkheden wordt gericht?[!DNL Target]**
+**Vangt (en slaat) informatie zoals de Codes van het PIT op wanneer de activiteit met geo-plaats gerichte mogelijkheden wordt gericht? [!DNL Target]**
 
 Nr, [!DNL Target] gebruikt geo gegevens voor de duur van de zitting slechts, dan worden de gegevens verworpen.
 
