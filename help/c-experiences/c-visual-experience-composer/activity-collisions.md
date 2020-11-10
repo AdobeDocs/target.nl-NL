@@ -3,9 +3,8 @@ keywords: Targeting
 description: Het lusje van Verbindingen op de pagina van het Overzicht van de Activiteit maakt een lijst van activiteitenbotsingen op uw plaats.
 title: Activiteitenconflicten
 feature: vec
-uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
