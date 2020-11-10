@@ -3,10 +3,8 @@ keywords: target user interface;user interface;ui
 description: De Adobe Target-gebruikersinterface
 title: De interface van het doel begrijpen
 feature: intro
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
@@ -84,7 +82,7 @@ Klik op het **[!UICONTROL Offers]** tabblad om de [!UICONTROL Offers] lijst weer
 
 ![Lijst met aanbiedingen](/help/c-intro/assets/offers.png)
 
-Een ervaring kan een aanbieding, beeld, tekst, knoop, video, combinatie van deze diverse elementen op een pagina, een volledige Web-pagina, of een reeks pagina&#39;s zijn die misschien een aanschaftrechter of een andere logische opeenvolging van pagina&#39;s vormen. Het kan ook de reactie van een stemmedewerker, een manuscript van de klantendienst, of zelfs een gepersonaliseerd aroma van een drankenmachine zijn. U test of personaliseert ervaringen in [!DNL Target] activiteiten.
+Een ervaring kan een aanbieding, beeld, tekst, knoop, video, combinatie deze diverse elementen op een pagina, een volledige Web-pagina, of een reeks pagina&#39;s zijn die misschien een aanschaftrechter of een andere logische opeenvolging van pagina&#39;s vormen. Het kan ook de reactie van een stemmedewerker, een manuscript van de klantendienst, of zelfs een gepersonaliseerd aroma van een drankenmachine zijn. U test of personaliseert ervaringen in [!DNL Target] activiteiten.
 
 Zie [Aanbiedingen](/help/c-experiences/c-manage-content/manage-content.md) voor diepgaande informatie over de aanbiedingstypes in [!DNL Target] en om meer over het gebruikersinterface van de [!UICONTROL Offer] lijst te leren.
 
