@@ -3,9 +3,8 @@ keywords: Targeting;audiences;percentage target
 description: Gebruik het publiek in Adobe Target om verschillende inhoud en ervaringen te richten op specifieke doelgroepen om uw webmarketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven.
 title: Soorten publiek in Adobe Target
 feature: audiences
-uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
