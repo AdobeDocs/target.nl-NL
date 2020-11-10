@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;segments;a4T;share
 description: Dit onderwerp bevat antwoorden op vragen die vaak over het delen van metriek, publiek, en rapporten wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Metriek, publiek en rapporten delen - Veelgestelde vragen voor A4T
 feature: a4t troubleshooting
-topic: Standard
-uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
