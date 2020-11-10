@@ -3,9 +3,8 @@ keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Informatie om de Adobe Target Visual Experience Composer (VEC) te gebruiken Helper browser uitbreiding om websites betrouwbaar binnen VEC te laden om snel auteur en QA ervaart te schrijven.
 title: Helperextensie Adobe Target Visual Experience Composer (VEC)
 feature: vec
-topic: Standard
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
