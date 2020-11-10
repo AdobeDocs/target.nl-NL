@@ -4,9 +4,9 @@ description: De doelstandaard kan worden geïntegreerd met Adobe Dynamic Media C
 title: Integratie van dynamische Media Classic-integratie
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 76ab5aef33f5e9c5de08b33e83e459b588bb0fba
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Door integratie [!DNL Target] met [!DNL Dynamic Media Classic] kunt u elementen (als onderdeel van activiteiten) uploaden naar de map [!DNL Adobe Experience Cloud] assets. Deze integratie maakt geen toegang mogelijk tot alle elementen die in [!DNL Dynamic Media Classic] de computer zijn geüpload voor levering in [!DNL Target] activiteiten.
 
-Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande gegevens opgeven. Als u geen account hebt, kunt u gratis een account voor beperkt gebruik aanvragen bij uw [!DNL Dynamic Media Classic] [!DNL Adobe] vertegenwoordiger. Deze account kan [!DNL Target] alleen worden gebruikt voor doeleinden waarvoor beperkingen gelden. Deze service wordt beschikbaar gesteld aan klanten voor workflows die functionaliteit voor het wisselen van afbeeldingen nodig hebben.
+Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande gegevens opgeven.
 
 >[!NOTE]
 >
