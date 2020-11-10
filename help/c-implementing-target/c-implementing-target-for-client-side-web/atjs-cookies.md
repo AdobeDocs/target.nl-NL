@@ -3,10 +3,8 @@ keywords: at.js;2.0;1.x;cookies
 description: Informatie over hoe Adobe Target op 2.js 2.x en at.js 1.x cookies verwerkt
 title: Adobe Target at.js cookies
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -86,7 +84,7 @@ at.js produceert een `mboxSession ID` en slaat het in het koekje op. De eerste r
 
 ### Cookiegedrag van derden
 
-Het cookie van een andere fabrikant wordt opgeslagen in `clientcode.tt.omtrdc.net` en het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`, waar `clientdomain` u het domein wilt.
+Het cookie van de andere fabrikant wordt opgeslagen in `clientcode.tt.omtrdc.net` en het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`, waar `clientdomain` u het domein wilt.
 
 at.js produceert een `mboxSession ID`. De eerste plaatsaanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met naam `mboxSession` en `mboxPC` en een omleidingsverzoek met een extra parameter (`mboxXDomainCheck=true`) in te stellen.
 
@@ -96,7 +94,7 @@ Als de browser cookies van derden afwijst, worden deze cookies niet opgenomen in
 
 ### Cookie-gedrag van derden en van derden
 
-Het cookie van een andere fabrikant wordt opgeslagen in `clientcode.tt.omtrdc.net` en het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`, waar `clientdomain` u het domein wilt.
+Het cookie van de andere fabrikant wordt opgeslagen in `clientcode.tt.omtrdc.net` en het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`, waar `clientdomain` u het domein wilt.
 
 at.js produceert een `mboxSession ID`. De eerste plaatsaanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met naam `mboxSession` en `mboxPC`in te stellen, en een omleidingsverzoek wordt teruggestuurd met een extra parameter (`mboxXDomainCheck=true`).
 
