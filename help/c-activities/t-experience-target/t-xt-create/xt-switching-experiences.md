@@ -3,10 +3,8 @@ keywords: priority;experience create;priority;experience;audience;experience;swi
 description: Informatie over hoe bezoekers kunnen schakelen tussen ervaringen in een Experience Targeting (XT)-activiteit terwijl hun profielen evolueren.
 title: Overschakelen van ervaringen op het gebied van ervaring
 feature: xt
-topic: Advanced,Standard,Classic
-uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -38,7 +36,7 @@ Met Experience Targeting kunt u bepalen welke bezoekers zien hoe hun profielen e
 Als u deze mogelijkheden wilt benutten in [!DNL Target], is het belangrijk dat u de volgende informatie begrijpt terwijl u werkt met XT-activiteiten:
 
 * **De prioriteit wordt bepaald door de volgorde van de ervaringen, van boven naar beneden.** Als een bezoeker voor meer dan twee soorten publiek in aanmerking komt, ontvangt hij of zij inhoud uit de ervaring met hogere prioriteit.
-* **Bezoekers schakelen tussen ervaringen in een XT-activiteit als ze zich gaan kwalificeren voor het publiek van een ervaring met hogere prioriteit.**
+* **Bezoekers schakelen tussen de ervaringen in een XT-activiteit als ze zich gaan kwalificeren voor een hogere prioriteit.**
 
    In de volgende activiteiteninstellingen heeft een bezoeker bijvoorbeeld uw website geopend vanuit de Verenigde Staten en vervolgens naar Duitsland gereisd en een tweede keer naar uw website bezocht. Tijdens het eerste bezoek kwam deze bezoeker in aanmerking voor Experience A (Amerikaanse bezoekers). Nadat deze bezoeker uw website vanuit Duitsland had bekeken, schakelde hij over op Experience B (bezoekers uit Duitsland).
 
@@ -51,7 +49,7 @@ Als u deze mogelijkheden wilt benutten in [!DNL Target], is het belangrijk dat u
 
    ![Priority US > Germany](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **Een ervaring voor &quot;alle bezoekers&quot; kan worden gebruikt als de laatste ervaring in de ervaring die is opgedaan met activiteiten die erop gericht zijn bezoekers te &quot;vangen&quot; die geen andere ervaring hebben opgedaan. Als een ervaring die bedoeld is voor &quot;alle bezoekers&quot; niet de laatste in de volgorde is, zullen andere doelgerichte ervaringen die lager zijn vermeld dan deze ervaring nog worden geëvalueerd.**
+* **Een ervaring die gericht is op &quot;Alle bezoekers&quot; kan worden gebruikt als de laatste ervaring in de ervaring die is opgedaan met activiteiten die erop gericht zijn bezoekers te &quot;vangen&quot; die geen andere ervaring hebben opgedaan. Als een ervaring die bedoeld is voor &quot;alle bezoekers&quot; niet de laatste in de volgorde is, zullen andere doelgerichte ervaringen die lager zijn vermeld dan deze ervaring nog worden geëvalueerd.**
 
    In de volgende activiteiteninstellingen heeft een bezoeker bijvoorbeeld uw website geopend vanuit de Verenigde Staten en vervolgens naar Duitsland gereisd en een tweede keer naar uw website bezocht. Tijdens het eerste bezoek kwam deze bezoeker in aanmerking voor Experience A (Amerikaanse bezoekers). Nadat u uw website vanuit Duitsland hebt bekeken, blijft deze bezoeker in Experience A (Amerikaanse bezoekers).
 
