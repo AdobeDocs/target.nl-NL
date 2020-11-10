@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;preset;target preset;metric;audience;da
 description: Informatie die u helpt bij het instellen van de elementen die u wilt weergeven in uw Adobe Target-rapport. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
 title: Rapportinstellingen
 feature: report settings
-uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
