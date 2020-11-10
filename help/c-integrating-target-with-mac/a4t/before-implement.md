@@ -3,9 +3,8 @@ keywords: Recommendations
 description: Verscheidene veranderingen komen in uw proces van de gegevensinzameling voor wanneer het toelaten van Analytics als rapporteringsbron voor Doel (A4T).
 title: Voordat u Adobe Analytics implementeert als rapportagebron voor Adobe Target (A4T)
 feature: a4t implementation
-uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%
