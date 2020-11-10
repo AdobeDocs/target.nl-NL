@@ -3,9 +3,8 @@ keywords: Targeting;success;conversion metric;page score metric;page views metri
 description: In Adobe Target zijn succesmetriek parameters die worden gebruikt om het succes van een activiteit te meten. De metriek van het succes omvat zeer belangrijke bedrijfsmaatregelen die u toelaten om het succes van een bepaalde ervaring of een aanbieding in een activiteit van het Doel te bepalen.
 title: Succeswaarden in Adobe Target
 feature: success metrics
-uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 7078d8b613a0ba2ebad5a3698f72695d5dc3c93d
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
