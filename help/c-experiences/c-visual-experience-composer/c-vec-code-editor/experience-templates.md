@@ -3,11 +3,8 @@ keywords: experience template;custom code;banner;lightbox;carousel;countdown;rib
 description: Informatie over Adobe Target Experience Templates voor gebruik in aangepaste code. De Malplaatjes van de Ervaring van het doel zijn vooraf gecodeerde steekproeven met configureerbare input die moeten worden gebruikt om gemeenschappelijke telleruse-cases uit te voeren.
 title: Experience Templates
 feature: vec
-subtopic: Code Editor
-topic: Standard
-uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
