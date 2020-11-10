@@ -3,10 +3,8 @@ keywords: Create auto-allocate;A/B test;auto-allocate activity;new a/b activity;
 description: Gebruik Composer van de Visuele Ervaring in Adobe Target om uw auto-Wijs A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
 title: Een activiteit voor automatisch toewijzen maken
 feature: ab
-topic: Advanced,Standard,Classic
-uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
