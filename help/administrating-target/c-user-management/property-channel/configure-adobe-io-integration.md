@@ -3,9 +3,8 @@ keywords: integration;roles;user permissions;admin console
 description: Informatie over het verlenen van bestaande Adobe I/O integratietoegang tot alle werkruimten met de gewenste rol in Adobe Target
 title: Toegang tot werkruimten verlenen voor Adobe I/O-integratie en rollen toewijzen in Adobe Target
 feature: user management
-subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -32,7 +31,7 @@ Deze update biedt ondersteuning voor de volgende gebruiksgevallen:
 
 * De Adobe I/O-integratie toegang verlenen tot alle werkruimten met de [!UICONTROL Observer] rol voor rapportagedoeleinden zonder rechten om bronnen te maken of te bewerken.
 * Verleen de Adobe I/O integratie de toegang tot uitgezochte werkruimten met de aangewezen rol om een centraal team toe te staan om API-gedreven veranderingen in slechts een paar werkruimten aan te brengen.
-* Laat elk team dat eigenaar is van zijn werkruimte, zijn eigen integratie hebben wanneer het team klaar is om API&#39;s te verkennen en de rol dienovereenkomstig te kiezen.
+* Laat elk team dat eigenaar is van zijn werkruimte zijn eigen integratie hebben wanneer het team klaar is om API&#39;s te verkennen en de rol dienovereenkomstig te kiezen.
 * Mengen en afstemmen van bovenstaande scenario&#39;s.
 
 **Actie vereist**: De klanten die momenteel APIs voor verrichtingen CRUD op middelen (activiteiten, publiek, aanbiedingen, en rapportering) over alle werkruimten gebruiken moeten hun bestaande Adobe I/O integratietoegang tot alle werkruimten met de gewenste rol zoals per hun gebruikscase verlenen. U kunt dit doen door elk [!DNL Target] in [!UICONTROL Product Profile] de [!DNL Adobe Admin Console] en integratie(s) op het [!UICONTROL Integration] lusje te selecteren en toe te voegen. Vóór de release van september werkten alle integraties met behulp van [!UICONTROL Approver] toegang, ongeacht de keuze uit de [!UICONTROL Product Role] vervolgkeuzelijst. U kunt nu de gewenste rol kiezen.
