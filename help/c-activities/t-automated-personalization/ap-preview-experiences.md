@@ -3,9 +3,8 @@ keywords: Recommendations
 description: Omdat een Automated Personalization-activiteit (AP) meerdere aanbiedingen op een pagina vergelijkt, is het handig om de pagina bij elke ervaring voor te vertonen.
 title: Voorvertoning van ervaringen voor een Automated Personalization-activiteit (AP) in de Adobe Target Visual Experience Composer
 feature: ap
-uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 Omdat een Automated Personalization-activiteit (AP) meerdere aanbiedingen op een pagina vergelijkt, is het handig om de pagina bij elke ervaring voor te vertonen.
 
-1. Klik in Visual Experience Composer op **[!UICONTROL Preview]**.
+1. Klik op Composer visuele ervaring **[!UICONTROL Preview]**.
 
    ![Pictogram Voorvertoning](/help/c-activities/t-automated-personalization/assets/preview.png)
 
