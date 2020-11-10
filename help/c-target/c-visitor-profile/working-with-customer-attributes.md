@@ -3,11 +3,8 @@ keywords: customer relationship management;customer record service;crs;crm;mbox3
 description: Informatie over het gebruiken van de gegevens van de ondernemingsklant van een gegevensbestanden van het het relatiebeheer van de klant (CRM) voor inhoud die zich in Adobe Target richt door de Attributen van de Klant in de kerndienst van Adobe Experience Cloud te gebruiken Mensen.
 title: Kenmerken van klanten in Adobe Target
 feature: visitor profiles
-subtopic: Getting Started
-topic: Standard
-uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -31,7 +28,7 @@ Gegevens die aan de server zijn toegevoegd, zijn beschikbaar voor alle [!DNL Exp
 
 Houd rekening met de volgende informatie als uw werk met klantenkenmerken en [!DNL Target]:
 
-* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de [!UICONTROL Customer attributes] functie in de [!DNL People] kernservice kunt gebruiken. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in de kenmerken [van de](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) klant in de productdocumentatie *van* Experience Cloud en Core Services voor meer informatie.
+* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de [!UICONTROL Customer attributes] functie in de [!DNL People] kernservice kunt gebruiken. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in [Klantenattributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in de productdocumentatie *van* Experience Cloud en Core Services voor meer informatie.
 
    >[!NOTE]
    >
