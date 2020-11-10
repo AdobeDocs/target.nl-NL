@@ -2,10 +2,8 @@
 description: Verwijder de cookies van de doelbrowser zodat u al uw ervaringen kunt valideren.
 title: Het Adobe Target-cookie verwijderen
 feature: privacy and security
-topic: Standard
-uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -31,7 +29,7 @@ Versie 84.0.4147.105
 1. Klik op het tabblad **Privacy en beveiliging** .
 1. Klik op **Cookies en andere sitegegevens**.
 1. Klik op Alle cookies en sitegegevens **bekijken**.
-1. Breid de `adobe.com` sectie uit, selecteer het **mbox** koekje, dan klik het schrappingspictogram (X).
+1. Vouw de `adobe.com` sectie uit, selecteer het **mbox** -cookie en klik op het verwijderpictogram (X).
 
 ## Het doelcookie verwijderen uit Mozilla Firefox
 
@@ -41,7 +39,7 @@ Versie 79.0
 
 1. Klik op het menu **Firefox** > **Voorkeuren**.
 1. Klik op het tabblad **Privacy en beveiliging** .
-1. Klik onder **Cookies en Sitegegevens** op **Gegevens** beheren.
+1. Klik onder **Cookies en Site-gegevens** op **Gegevens** beheren.
 1. Selecteer de `adobe.com` site en klik op Geselecteerde **site** verwijderen.
 
    >[!NOTE]
@@ -64,7 +62,7 @@ Versie 84.0.522.52
 1. Klik op het tabblad **Siterechten** .
 1. Klik op **Cookies en sitegegevens**.
 1. Klik op Alle cookies en sitegegevens **bekijken**.
-1. Breid de `adobe.com` sectie uit, selecteer het **mbox** koekje, dan klik het schrappingspictogram (X).
+1. Vouw de `adobe.com` sectie uit, selecteer het **mbox** -cookie en klik op het verwijderpictogram (X).
 
 ## Het doelcookie verwijderen uit Apple Safari
 
