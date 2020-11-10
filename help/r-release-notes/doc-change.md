@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fb843aef10721d138fa652c818d90295b606247e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2922'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 november | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de voor 11 november geplande Coffee Break van Adobe Target Community Coffee. |
 | 3 november | [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Bijgewerkt het volgende het oplossen van problemenonderwerp: &quot;De rapportsuite die ik nodig heb, wordt niet weergegeven.&quot; |
 | 28 oktober | [Serverzijde: Doel implementeren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Opmerking toegevoegd: voor het eerst kunnen bezoekers alleen aan de clientzijde worden geïnitialiseerd, niet aan de serverzijde. |
 | 27 oktober | [Serverzijde: Doel implementeren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Toegevoegde koppeling naar het nieuwe *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* -portaal. |
