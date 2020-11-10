@@ -3,10 +3,8 @@ keywords: implement;at.js;javascript library
 description: Informatie over hoe u de Adobe Target JavaScript-bibliotheek in.js kunt implementeren met behulp van Adobe Launch, zonder tagbeheer of met behulp van Adobe Dynamic Tag Management (DTM).
 title: Hoe te opstellen bij.js
 feature: client-side
-topic: Standard
-uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -34,4 +32,4 @@ U kunt at.js opstellen gebruikend de volgende methodes:
 
    Raadpleeg de documentatie bij de tagmanager van derden voor meer informatie.
 
-Om Doel uit te voeren wanneer het gebruiken van Enige Pagina Apps (SPAs), zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
+Voor het implementeren van Doel bij het gebruik van apps voor één pagina (SPA) raadpleegt u de implementatie [van](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)één pagina-toepassing.
