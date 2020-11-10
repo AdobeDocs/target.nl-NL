@@ -3,10 +3,8 @@ keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
 title: Veelgestelde vragen over optimalisatie en personalisatie
 feature: intro
-topic: Advanced
-uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2901'
 ht-degree: 0%
@@ -269,7 +267,7 @@ Gebruik de kracht van op [formulieren gebaseerde activiteiten](/help/c-experienc
 
 ## Rapporten (met inbegrip van Analytics voor doel-A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
