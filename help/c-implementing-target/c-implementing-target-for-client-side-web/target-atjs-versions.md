@@ -3,10 +3,8 @@ keywords: at.js releases;at.js versions
 description: Details over wijzigingen in elke versie van at.js.
 title: details van de at.js-versie
 feature: release notes
-subtopic: Getting Started
-uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3968'
 ht-degree: 0%
@@ -241,7 +239,7 @@ at.js versie 1.5.0 is nu beschikbaar.
      scheduler = setTimeout
    ```
 
-## at.js versie 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js versie 1.7.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js versie 1.3.0 is nu beschikbaar.
 
