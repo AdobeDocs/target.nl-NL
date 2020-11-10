@@ -3,10 +3,8 @@ keywords: qa;server side;server-side;preview;preview links
 description: Gebruik QA URLs met server-zijlevering om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
 title: Activiteit QA met levering aan de serverzijde gebruiken
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
