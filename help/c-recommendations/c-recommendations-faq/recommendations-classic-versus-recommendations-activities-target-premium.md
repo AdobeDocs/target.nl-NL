@@ -3,9 +3,8 @@ keywords: Recommendations;recommendations algorithms;recommendations activity;re
 description: Informatie die u helpt bij het kiezen tussen Recommendations Classic- en Recommendations-activiteiten in Target Premium.
 title: Recommendations Classic versus Recommendations-activiteiten in Target Premium
 feature: recommendations general
-uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
