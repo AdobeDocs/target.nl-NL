@@ -3,10 +3,8 @@ keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Het systeemdiagram van Adobe Target dat de stroom van vraag en informatie toont die voor een auto-gecreeerde globale mbox wordt verzonden of wordt verzameld gebruikend at.js.
 title: De werking van de JavaScript-bibliotheek Adobe Target at.js
 feature: client-side
-topic: Standard
-uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,11 +33,11 @@ Zie [Bevorderen van at.js 1.x aan at.js 2.x](/help/c-implementing-target/c-imple
 Vanuit een weergave op hoog niveau zijn er enkele verschillen tussen de twee versies:
 
 * at.js 2.x heeft geen globaal mbox verzoekconcept maar eerder een pagina-lading verzoek. Een verzoek om pagina&#39;s te laden kan worden beschouwd als een verzoek om inhoud op te halen die moet worden toegepast op het eerste laadmoment van de pagina van uw website.
-* at.js 2.x beheert de concepten genoemd Meningen, die voor de Toepassingen van de Enige Pagina (SPAs) worden gebruikt. te.js 1.*x* is zich niet bewust van dit concept.
+* at.js 2.x beheert de concepten Weergaven, die worden gebruikt voor toepassingen voor één pagina (SPA). te.js 1.*x* is zich niet bewust van dit concept.
 
 ## at.js 2.x-diagrammen
 
-De volgende diagrammen helpen u het werkschema van at.js 2.x met Meningen begrijpen en hoe dit de integratie van het KUUROORD verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
+Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met weergaven en in de manier waarop dit de integratie van SPA verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
 
 ![Doelstroom met at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -50,17 +48,17 @@ De volgende diagrammen helpen u het werkschema van at.js 2.x met Meningen begrij
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker voor de huidige pagina en de toekomstige weergaven. |
-| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>De gerichte inhoud voor meningen die als resultaat van gebruikersacties in een KUUROORD worden getoond wordt caching in browser zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door `triggerView()`. worden teweeggebracht. |
+| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor weergaven die worden weergegeven als gevolg van gebruikershandelingen in een SPA, wordt in de browser in de cache opgeslagen, zodat deze direct kan worden toegepast zonder een extra serveraanroep wanneer de weergaven worden geactiveerd `triggerView()`. |
 | 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
 | 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
 
-Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker zonder een servervraag getoond. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren. Voor meer informatie over at.js voor SPAs met Mening, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
+Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker getoond zonder een servervraag. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren. Zie Toepassing [enkele pagina voor meer informatie over at.js voor SPA met weergaven](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Doelstroom bij.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Stap | Details |
 | --- | --- |
-| 1 | `triggerView()` wordt geroepen in het KUUROORD om de Mening terug te geven en acties toe te passen om visuele elementen te wijzigen. |
+| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Aanvraag voor meldingen wordt naar de [!DNL Target] profielenwinkel verzonden om de bezoeker te tellen in de activiteit en incrementele metingen. |
@@ -69,7 +67,7 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 ### Video - op.js 2.x architecturaal diagram
 
-at.js 2.x verbetert Adobe Target steun voor SPAs en integreert met andere oplossingen van Experience Cloud. In deze video wordt uitgelegd hoe alles bij elkaar komt.
+at.js 2.x verbetert de Adobe Target-ondersteuning voor SPA en integreert deze met andere Experience Cloud-oplossingen. In deze video wordt uitgelegd hoe alles bij elkaar komt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
