@@ -3,10 +3,8 @@ keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device
 description: Maak in Adobe Target publiek voor mobiele apparaten op basis van parameters zoals mobiel apparaat, type apparaat, leverancier van apparaten, schermafmetingen (per pixel) en meer.
 title: Mobiele opties in Adobe Target-publiek
 feature: audiences
-topic: Standard
-uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
