@@ -3,9 +3,8 @@ keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;docu
 description: De documentatie van Adobe Target wordt verstrekt in veelvoudige formaten, met inbegrip van overzichten, leerprogramma's, en gidsen voor zowel het gebruikersinterface, SKDs, als APIs.
 title: Doelaankondigingen
 feature: release notes
-topic: Standard
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
