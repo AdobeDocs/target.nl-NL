@@ -3,10 +3,8 @@ keywords: visual experience composer options;experience composer options;experie
 description: Wanneer u op een paginaelement in Adobe Target Visual Experience Composer (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn.
 title: Opties voor Adobe Target Visual Experience Composer (VEC)
 feature: vec
-topic: Standard
-uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 0%
