@@ -4,9 +4,9 @@ description: Dit onderwerp bevat antwoorden op vragen die vaak over classificati
 title: Classificaties - A4T Veelgestelde vragen
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ De tekenreeksindeling van de TNT-variabele is `activityID:experienceID:targettyp
 * Event = 0 staat voor een ervaringstoegang.
 * Gebeurtenis = 1 vertegenwoordigt een ervaringsbezoek.
 * Event = 2 is een activiteitsindruk.
+* Event = 3-32766 vertegenwoordigt metrische id van het analyseresultaat.
 * Gebeurtenis = 32767 vertegenwoordigt een activiteitconversie.
 
 U kunt het classificatiebestand regelmatig vanuit de gebruikersinterface importeren met behulp van een [browserimport](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) of een [FTP-import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). U kunt met de Diensten van de Techniek ook in dienst nemen om het dossier als raadplegingslijst samen met een klikstroomgegevens te verkrijgen.
