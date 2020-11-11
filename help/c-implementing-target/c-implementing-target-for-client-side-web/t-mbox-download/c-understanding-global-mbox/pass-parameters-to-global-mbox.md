@@ -1,12 +1,12 @@
 ---
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
-description: De JavaScript targetPageParams functie wordt gebruikt om parameters tot globale mbox over te gaan. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context aan het doel moet worden doorgegeven.
+description: De JavaScript targetPageParams functie wordt gebruikt om parameters tot globale mbox over te gaan. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context aan Adobe Target wordt doorgegeven.
 title: Parameters doorgeven aan een globale box
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Parameters doorgeven aan een globale box{#pass-parameters-to-a-global-mbox}
 
-De JavaScript- `targetPageParams` functie wordt gebruikt om parameters door te geven aan de globale box. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context moet worden doorgegeven [!DNL Target].
+De JavaScript- `targetPageParams` functie wordt gebruikt om parameters door te geven aan de globale box in [!DNL Adobe Target]. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context moet worden doorgegeven [!DNL Target].
 
 In een [!DNL Recommendations] activiteit gebruikt u bijvoorbeeld de parameters voor het huidige product of de categorie die wordt weergegeven.
 
@@ -34,7 +34,7 @@ Gebruik deze drie methoden om te controleren of de parameters correct worden doo
 
 U moet de JavaScript-functie definiëren voordat u het globale vakje aan de pagina toevoegt. De naam moet `targetPageParams`zijn.
 
-**Tekenreeks query**
+## Tekenreeks query
 
 ```
 p1=v1&p2=v2&p3=hello%20world
@@ -72,7 +72,7 @@ In dit voorbeeld worden de volgende gegevens naar de mbox-rand verzonden:
 * p2=v2
 * p3=hello wereld
 
-**Array**
+## Array
 
 ```
 <!--window.-->targetPageParams = function() { 
@@ -88,7 +88,7 @@ In dit voorbeeld worden de volgende gegevens naar de mbox-rand verzonden:
 * b=2
 * c=hello wereld
 
-**JSON**
+## JSON
 
 JSON is een krachtige manier om parameters door te geven. Doel gebruikt de JSON-objectsleutels om gecompliceerde structuren samen te voegen tot eenvoudige parameters.
 
@@ -113,5 +113,5 @@ In dit voorbeeld worden de volgende gegevens naar de mbox-rand verzonden:
 
 * a=1
 * b=2
-* `profile.age`=26
+* `profile.memberStatus`=Goud
 * `profile.country.city`=San Francisco
