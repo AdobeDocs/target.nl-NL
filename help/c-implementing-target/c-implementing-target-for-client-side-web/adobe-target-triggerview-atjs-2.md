@@ -4,9 +4,9 @@ description: Informatie over de functie adobe.target.triggerView (viewName, opti
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Deze functie kan worden aangeroepen wanneer een nieuwe pagina wordt geladen of w
 | --- | --- | --- | --- |
 | viewName | String | Ja | Geef elke naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze weergavenaam wordt in het [!UICONTROL Modifications] deelvenster VEC weergegeven, zodat marketers handelingen kunnen maken en hun A/B- en XT-activiteiten kunnen uitvoeren. |
 | opties | Object | Nee |  |
-| opties > pagina | Boolean | Nee | **TRUE:** De standaardwaarde van de pagina is true. Wanneer page=true, worden de berichten verzonden naar het [!DNL Target] achterste voor het verhogen van het aantal impressies.<br>Als er geen activiteitservaring of metrische activiteit aan de weergave is gekoppeld, wordt er geen melding verzonden.<br>**FALSE:** Wanneer page=false, worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
+| opties > pagina | Boolean | Nee | **TRUE:** De standaardwaarde van de pagina is true. Wanneer page=true, worden de berichten verzonden naar het [!DNL Target] achterste voor het verhogen van het aantal impressies.<br>Een bericht wordt altijd standaard verzonden wanneer een bericht `triggerView` wordt aangeroepen, behalve wanneer de opties > pagina op false zijn ingesteld.<br>**FALSE:** Wanneer page=false, worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
 
 ## Voorbeeld: Waar
 
