@@ -4,9 +4,9 @@ description: De doelstandaard kan worden geïntegreerd met Adobe Dynamic Media C
 title: Integratie van dynamische Media Classic-integratie
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 76ab5aef33f5e9c5de08b33e83e459b588bb0fba
+source-git-commit: 44d6cd2dcc71a84d4526aaf38ee606ffb0a97fb5
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ ht-degree: 0%
 >
 >Door integratie [!DNL Target] met [!DNL Dynamic Media Classic] kunt u elementen (als onderdeel van activiteiten) uploaden naar de map [!DNL Adobe Experience Cloud] assets. Deze integratie maakt geen toegang mogelijk tot alle elementen die in [!DNL Dynamic Media Classic] de computer zijn geüpload voor levering in [!DNL Target] activiteiten.
 
-Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande gegevens opgeven.
+Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande gegevens opgeven. Als u geen account hebt, kunt u gratis een account voor beperkt gebruik aanvragen bij uw [!DNL Dynamic Media Classic] [!DNL Adobe] vertegenwoordiger. Deze account kan [!DNL Target] alleen worden gebruikt voor doeleinden waarvoor beperkingen gelden. Deze service wordt beschikbaar gesteld aan klanten voor workflows die functionaliteit voor het wisselen van afbeeldingen nodig hebben.
 
+<!-- 
 >[!NOTE]
 >
->Een gratis [!DNL Dynamic Media Classic] account voor beperkt gebruik voor [!DNL Adobe Target] wordt niet meer ondersteund voor nieuwe klanten of nieuwe gebruikers. Bestaande aanmeldingsgegevens werken op de gebruikelijke manier.
+>A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
+-->
 
 Als deze instelling niet is geconfigureerd, is de [!UICONTROL Swap Image offer] optie in de workflow voor het maken van activiteiten niet beschikbaar. Nadat dit plaatsen wordt gevormd, is de optie om beeldaanbiedingen te ruilen/veranderen beschikbaar in zowel Composer van de [Visuele Ervaring (VEC) als in de vorm-Gebaseerde Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)van de Ervaring. Vervolgens kunt u afbeeldingsaanbiedingen gebruiken met afbeeldingen die vanuit de toepassing zijn geüpload [!DNL Adobe Experience Cloud] voor gebruik in [!DNL Target] activiteiten.
 
