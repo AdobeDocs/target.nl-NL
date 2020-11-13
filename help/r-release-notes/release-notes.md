@@ -4,9 +4,9 @@ description: Deze releaseopmerkingen bevatten informatie over functies, verbeter
 title: 'Opmerkingen bij de release van Adobe Target (huidige) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,12 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern [!DNL Adobe] gebruik.
+
+## om 2.3.3.2013 (13 november 2020)
+
+Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:
+
+* Correctie van een probleem met betrekking tot het bijhouden van een postvak en A4T.
 
 ## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
