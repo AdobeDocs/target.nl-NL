@@ -4,9 +4,9 @@ description: Deze releaseopmerkingen bevatten informatie over functies, verbeter
 title: 'Opmerkingen bij de release van Adobe Target (huidige) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Deze release bevat de volgende nieuwe functies:
 
 | Functie | Details |
 | --- | --- |
-| [Apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie vanuit het apparaat van de gebruiker, via kanalen, met een bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid.<br>Door op het apparaat te beslissen kunt u belangrijke personalisatie- en experimenteringsinstructies in A/B Test and Experience Targeting (XT) activiteitstypen compileren in &quot;optimalisatieartefacten:&quot;JSON voorwerpen die op klantenapparaten via CDN worden geladen. En omdat beslissingen op het apparaat op een native manier verbinding maken met [!DNL Adobe Experience Cloud] producten, krijgen [!DNL Target] gebruikers een snelle analyse en snellere ervaringen met herhalingen.<br>Zie *[Inleiding tot apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* in de *Adobe Target SDKs Guide* voor meer informatie.<br>**Nu registreren voor een live webinar.** Neem deel aan de productexperts van Adobe Target terwijl ze bespreken hoe u met beslissingen voor optimalisatie van kritieke ervaring op uw apparaat lokaal kunt uitvoeren met een nullatentie, deuren kunt openen voor spannende nieuwe gebruikssituaties en de prestaties van uw klanten kunt verbeteren.<ul><li>10 november 2020</li><li>10.00 uur PT / 12.00 uur CT / 13.00 uur ET</li><li>[Hier registreren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| [Apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie vanuit het apparaat van de gebruiker, via kanalen, met een bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid.<br>Door op het apparaat te beslissen kunt u belangrijke personalisatie- en experimenteringsinstructies in A/B Test and Experience Targeting (XT) activiteitstypen compileren in &quot;optimalisatieartefacten:&quot;JSON voorwerpen die op klantenapparaten via CDN worden geladen. En omdat beslissingen op het apparaat op een native manier verbinding maken met [!DNL Adobe Experience Cloud] producten, krijgen [!DNL Target] gebruikers een snelle analyse en snellere ervaringen met herhalingen.<br>Zie *[Inleiding tot apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* in de *Adobe Target SDKs Guide* voor meer informatie. |
 
 Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
