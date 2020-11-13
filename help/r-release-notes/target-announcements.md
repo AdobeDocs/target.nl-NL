@@ -4,9 +4,9 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ In dit live webinar bespreken ze samen met productexperts van Adobe Target hoe u
 * **10.00 uur PST | 12.00 uur CST | 13:00 EST**
 
 [Registreer hier voor deze spannende gebeurtenis.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Adobe Target Community - Koffiepauze voor vragen en antwoorden
-
-* **Woensdag 11 november 2020**
-* **08:00 PST**
-
-Onze expert zal Senior [!DNL Adobe Target] Product Manager, David Son, zijn die inzichten en expertise deelt over de volgende onderwerpen:
-
-* Apparaatbeslissingen
-* At.js
-* Mobiel
-* AEP Web SDK
-* API&#39;s
-
-[Registreer hier.](https://adobe.ly/2H3MBX9)
 
 ## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
