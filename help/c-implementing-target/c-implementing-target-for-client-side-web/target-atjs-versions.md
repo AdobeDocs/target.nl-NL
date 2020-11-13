@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: Details over wijzigingen in elke versie van at.js.
+keywords: at.js releases;at.js versions;release notes
+description: Informatie over de wijzigingen in elke versie van Adobe Target op .js.
 title: details van de at.js-versie
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3968'
+source-wordcount: '3996'
 ht-degree: 0%
 
 ---
 
 
-# details van de at.js-versie {#at-js-version-details}
+# details van de at.js-versie
 
 Gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js.
 
@@ -21,6 +21,12 @@ Gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL 
 >Het team van het Doel steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) heeft de voorkeur voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Launch] catalogus als upgrades. Zie Upgrade [van](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensies in de gebruikershandleiding *van het* Experience Platform Launch voor meer informatie.
+
+## om 2.3.3.2013 (13 november 2020)
+
+Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:
+
+* Correctie van een probleem met betrekking tot het bijhouden van een postvak en A4T.
 
 ## te.js 2.3.2 (24 juli 2020)
 
@@ -165,7 +171,7 @@ Voor meer informatie, zie [Bevordering van at.js 1.x aan at.js 2.x](/help/c-impl
 >
 >Als u Adobe Opt-in steun voor de [Algemene Verordening](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) van de Bescherming van Gegevens (GDPR) vereist, moet u momenteel bij.js 1.7.0 of bij.js 2.1.0 gebruiken.
 
-## at.js versie 1.7.0 {#at-js-170}
+## at.js versie 1.3.0 {#at-js-170}
 
 at.js 1.7.0 biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.
 
