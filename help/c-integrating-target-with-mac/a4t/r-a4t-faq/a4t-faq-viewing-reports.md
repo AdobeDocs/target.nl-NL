@@ -4,15 +4,15 @@ description: Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken
 title: Rapporten weergeven - Veelgestelde vragen voor A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2152'
 ht-degree: 1%
 
 ---
 
 
-# Rapporten weergeven - Veelgestelde vragen voor A4T{#view-reports-a-t-faq}
+# Rapporten weergeven - Veelgestelde vragen voor A4T
 
 Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken van rapporten wanneer het gebruiken [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T) worden gevraagd.
 
@@ -135,3 +135,16 @@ Virtuele rapportsuites worden *niet* in de [!UICONTROL Report Suite] lijst opgen
 Het wijzigen van het percentage verkeerstoewijzing in een activiteit na activering kan leiden tot inconsistente rapportage, [!DNL Analytics] omdat de wijziging alleen van invloed is op nieuwe bezoekers. Terugkerende bezoekers worden niet beïnvloed.
 
 Als beste praktijken, zou u de bestaande activiteit moeten tegenhouden en dan een nieuwe activiteit creëren in plaats van het percentage te veranderen na activering. De rapportage voor de nieuwe activiteit begint met nieuwe bezoekers en de gegevens van terugkerende bezoekers zullen geen inconsistente rapportage veroorzaken.
+
+## Hoe worden bezoeken geteld in Analytics en omzettingskrediet toegewezen in een auto-Doelactiviteit die A4T gebruikt?
+
+Wanneer een bezoeker in aanmerking komt voor een activiteit, is alle conversiekrediet in de toekomst aan die activiteit gekoppeld.
+
+Overweeg het volgende:
+
+* Als een conversie buiten het analysevenster plaatsvindt, is de conversie niet zichtbaar in rapporten. Het rapportagevenster moet beginnen vanaf de begindatum van de activiteit.
+* Een bezoeker die niet voor de activiteit in aanmerking komt, kan het aantal bezoekers verhogen, [!DNL Analytics]ook al ziet hij of zij de inhoud die door de activiteit wordt geleverd misschien niet.
+* Als een bezoeker in aanmerking komt voor meerdere ervaringen tijdens verschillende bezoeken, wordt het conversiekrediet toegeschreven aan de laatste ervaring die is opgedaan.
+* Als een eerste vermelding in een activiteit vóór het analysevenster voorkomt, tellen de volgende bezoeken en omzettingen nog steeds in het analysevenster. Dit kan echter [!DNL Analytics] rapporten scheeftrekken.
+* Activiteiten worden toegevoegd en fungeren als lijstvariabelen; de ervaringen worden echter overschreven , maar de bekroning wordt toegeschreven aan de laatste opgedane ervaring .
+* Een bezoeker kan bezoeken voor twee verschillende ervaringen verhogen als de bezoeker de activiteit tijdens een volgend bezoek hervat.
