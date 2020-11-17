@@ -4,9 +4,9 @@ description: Problemen oplossen en Veelgestelde vragen over automatisch doel in 
 title: Automatische probleemoplossing en veelgestelde vragen
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u met [!UICONTRO
    * Als een A/B test geen statistisch significante verschillen tussen ervaringen toont, is het waarschijnlijk dat de aanbiedingen u overweegt niet genoeg van elkaar verschillend zijn, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de omzettingrechter om door uw gekozen aanbiedingen te worden beïnvloed.
 
 * Probeer de ervaringen tijdens de activiteiten niet ingrijpend te wijzigen.
+
+### adviseert u dat wij AutoDoel met 90 (Controle)/10 (Gericht) verdelen gebruiken tot de modellen worden gebouwd?
+
+Uw optimale verdeling van de verkeerstoewijzing hangt af van wat u wilt verwezenlijken.
+
+Als uw doel is zoveel mogelijk verkeer te personaliseren, kunt u met 90% gerichte en 10% controle voor het leven van de activiteit blijven. Als je een experiment wilt uitvoeren waarin je vergelijkt hoe goed gepersonaliseerde algoritmen werken ten opzichte van het besturingselement, dan is een 50/50-splitsing het beste.
 
 ### Zijn de vinkjes die erop wijzen dat een model voor die ervaring wordt gebouwd update als de waaier van de rapportdatum verandert?
 
