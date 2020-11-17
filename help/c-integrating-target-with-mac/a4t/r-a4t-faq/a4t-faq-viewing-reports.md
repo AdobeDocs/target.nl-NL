@@ -4,9 +4,9 @@ description: Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken
 title: Rapporten weergeven - Veelgestelde vragen voor A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2187'
 ht-degree: 1%
 
 ---
@@ -138,11 +138,11 @@ Als beste praktijken, zou u de bestaande activiteit moeten tegenhouden en dan ee
 
 ## Hoe worden bezoeken geteld in Analytics en omzettingskrediet toegewezen in een auto-Doelactiviteit die A4T gebruikt?
 
-Wanneer een bezoeker in aanmerking komt voor een A4T-activiteit, inhoud weergeeft of converteert, [!DNL Target] verzendt deze gebeurtenis gegevens naar [!DNL Analytics], zodat conversiegebeurtenissen en andere klikstreamgebeurtenissen die op de pagina plaatsvinden, kunnen worden toegewezen [!DNL Analytics] aan de relevante [!DNL Target] activiteiten en ervaringen.
+Wanneer een bezoeker voor kwalificeert, inhoud bekijkt, of in een activiteit A4T omzet, [!DNL Target] verzendt gebeurtenisgegevens naar [!DNL Analytics], die toestaat [!DNL Analytics] om omzettingsgebeurtenissen en andere klikstroomgebeurtenissen toe te schrijven die op de pagina aan de relevante [!DNL Target] activiteiten en ervaringen gebeuren.
 
 Hier volgen enkele punten waarmee u rekening moet houden bij het weergeven van [!DNL Analytics] rapporten:
 
-* Over het algemeen moet het rapportagevenster altijd beginnen vanaf de begindatum van de activiteit.
+* In het algemeen is het verstandig om uw rapportvenster te beginnen vanaf de begindatum van de activiteit.
 * Als een omzetting buiten het venster van het rapport gebeurt, zal de omzetting niet binnen zichtbaar zijn [!DNL Analytics].
-* Wanneer in het &quot;gerichte&quot;gedeelte van verkeer voor [!UICONTROL Auto-Target] activiteiten, zouden de bezoekers verschillende ervaringen van één zitting aan volgende kunnen zien Bijvoorbeeld, is hun profiel of context veranderd en de machine-leert algoritmen [!DNL Target]van hen beslissen zij eerder om op een nieuwe ervaring te zetten. Dit is anders dan bij gewone A/B-testactiviteiten, waar ervaringen bij bezoekers bij bezoeken behouden blijven.
-* Als een bezoeker meerdere ervaringen bij verschillende bezoeken ziet, wordt elke conversie altijd toegeschreven aan de laatste ervaring die de bezoeker heeft opgedaan; het aantal bezoeken zal echter worden verhoogd voor elke ervaring die de bezoeker heeft opgedaan . Dit kan de conversiesnelheden per ervaring kunstmatig verlagen bij het bekijken van ervaringen onder de &quot;[!UICONTROL Targeted]&quot;dimensie in [!DNL Adobe Analytics] rapporten.
+* Wanneer in het &quot;gerichte&quot;gedeelte van verkeer voor [!UICONTROL Auto-Target] activiteiten, zouden de bezoekers verschillende ervaringen van één zitting aan volgende kunnen zien. Als bijvoorbeeld hun profiel of context is gewijzigd en de machinaal leeralgoritmen [!DNL Target]beslissen dat ze waarschijnlijk een nieuwe ervaring gebruiken. Wanneer bezoekers van ervaring naar ervaring gaan, neemt het aantal bezoekers toe voor elke waargenomen ervaring. Dit is anders dan bij gewone A/B-testactiviteiten waarbij de ervaring bij bezoekers blijft hangen.
+* Als een bezoeker meerdere ervaringen tijdens een bezoek ziet, wordt elke conversie altijd toegeschreven aan de laatste ervaring die de bezoeker heeft gezien. Zoals vermeld, neemt het aantal bezoeken toe voor elke ervaring die de bezoeker zag. Dit kan de conversiesnelheden per ervaring kunstmatig verlagen bij het bekijken van ervaringen onder de &quot;[!UICONTROL Targeted]&quot;dimensie in [!DNL Adobe Analytics] rapporten.
