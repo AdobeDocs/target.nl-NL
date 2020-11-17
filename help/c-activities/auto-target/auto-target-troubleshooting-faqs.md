@@ -1,12 +1,12 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Problemen oplossen en Veelgestelde vragen over automatisch doel in Adobe Target.
 title: Automatische probleemoplossing en veelgestelde vragen
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1783'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,15 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u met [!UICONTRO
 
 Uw optimale verdeling van de verkeerstoewijzing hangt af van wat u wilt verwezenlijken.
 
-Als uw doel is zoveel mogelijk verkeer te personaliseren, kunt u met 90% gerichte en 10% controle voor het leven van de activiteit blijven. Als je een experiment wilt uitvoeren waarin je vergelijkt hoe goed gepersonaliseerde algoritmen werken ten opzichte van het besturingselement, dan is een 50/50-splitsing het beste.
+Als uw doel is zoveel mogelijk verkeer te personaliseren, kunt u met 90% gerichte en 10% controle voor het leven van de activiteit blijven. Als uw doel een experiment is dat vergelijkt hoe goed gepersonaliseerde algoritmen tegenover de controle doen, dan is een 50/50 splitsing best voor het leven van de activiteit.
 
-### Zijn de vinkjes die erop wijzen dat een model voor die ervaring wordt gebouwd update als de waaier van de rapportdatum verandert?
+De beste praktijken moeten het verkeer-verdeling voor het leven van de activiteit handhaven zodat de bezoekers niet tussen gerichte en controleervaringen schakelen.
 
-Nee, de vinkjes voor het genereren van modellen geven alleen de modellen weer die tot op heden zijn gemaakt. Er is geen manier om terug te gaan en te zien wanneer een model werd voltooid.
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### Als een bezoeker de [!UICONTROL Auto-Target] activiteit NIET ziet en omzet, telt de omzetting in mijn activiteit?
 
