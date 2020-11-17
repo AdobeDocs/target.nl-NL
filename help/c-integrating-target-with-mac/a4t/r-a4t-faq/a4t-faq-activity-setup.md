@@ -4,9 +4,9 @@ description: Dit onderwerp bevat antwoorden op vragen die vaak over activiteiten
 title: Activiteitsinstellingen - Veelgestelde vragen voor A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,3 @@ Als de percentages niet worden aangepast halverwege de activiteit, zal een bezoe
 
 * Nadat de bezoeker zich in de beoogde &quot;emmer&quot; van het verkeer bevindt, kan hij naar een andere ervaring worden gestuurd dan een bezoek om te bezoeken als de modellen voor machinaal leren bepalen dat een andere ervaring relevant is voor het nieuwe bezoek.
 * Nadat hij aan de controle &quot;emmer&quot;van verkeer wordt toegewezen, zal een bezoeker altijd de zelfde ervaring zien omdat de ervaringstaak op een deterministische pseudo-willekeurige hash van bezoekers bezoekerId gebaseerd is.
-
-## Is het raadzaam het aangepaste model voor AutoDoel en A4T te gebruiken met een 90 (Controle)/10 (Gericht) spleet tot de modellen bouwen?
-
-Uw optimale verdeling van de verkeerstoewijzing hangt af van wat u wilt verwezenlijken.
-
-Als uw doel is zoveel mogelijk verkeer te personaliseren, kunt u met 90% gerichte en 10% controle voor het leven van de activiteit blijven. Als je een experiment wilt uitvoeren waarin je vergelijkt hoe goed gepersonaliseerde algoritmen werken ten opzichte van het besturingselement, dan is een 50/50-splitsing het beste.
-
