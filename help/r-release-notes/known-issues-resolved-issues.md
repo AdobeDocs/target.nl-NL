@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Bekende problemen en opgeloste problemen
 
-Informatie over bekende problemen voor deze release van Target. Bevat ook informatie over problemen die zijn opgelost.
+Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie over problemen die zijn opgelost.
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ Op 10 mei 2020 hebben we onze bestanden van de GEO-provider bijgewerkt, waardoor
 ### Aanbiedingen voor afbeeldingen met het label &quot;Verwerking&quot;
 
 Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;Verwerking&quot; enkele uren nadat de afbeeldingen zijn geüpload. In de meeste gevallen is dit alleen een probleem met het etiket: de beeldaanbiedingen kunnen nog steeds worden gebruikt in activiteiten en worden geleverd . In sommige gevallen is een afbeeldingsaanbieding echter mogelijk niet beschikbaar voor de actie Inhoud vervangen > Afbeelding. Als dit gebeurt, moet u het afbeeldingsaanbod opnieuw uploaden en na een paar uur controleren of het aanbod van de afbeelding beschikbaar is voor vervanging. (TGT-37458)
+
+### Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI.
+
+Rapporten die worden gegenereerd om te worden gedownload als CSV-bestanden, zijn inconsistent als de activiteit meer dan één metrische waarde gebruikt. Het downloadbare rapport wordt geproduceerd gebaseerd op de rapportmontages slechts en beschouwt de zelfde waarde voor een andere gebruikte metriek.
+
+De bron van waarheid is altijd het getoonde rapport in [!DNL Target] UI.
 
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
