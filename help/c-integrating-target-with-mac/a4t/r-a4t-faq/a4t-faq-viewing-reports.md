@@ -4,9 +4,9 @@ description: Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken
 title: Rapporten weergeven - Veelgestelde vragen voor A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2244'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ Segmenten worden meestal toegepast op de bovenkant van een deelvenster in de nee
 De [!DNL Target] naar [!DNL Analytics] verzonden variabele heeft een standaardvervalperiode van 90 dagen. (Opmerking: deze vervalperiode kan indien nodig door de klantenservice worden aangepast). Wanneer bezoekers door de site navigeren gedurende dit verloopvenster, maken ze deel uit van vele [!DNL Target] activiteiten die zich allemaal in de dimensie verzamelen.
 
 Dientengevolge, wanneer u voor een activiteit segmenteert om in een klap aanwezig te zijn, zult u alle ervaringen krijgen die deel van die activiteit *plus* om het even welke andere ervaringen uitmaken die op die klap voortzetten.
+
+## Waarom heb ik tijdens het configureren van mijn Goal Metics geen toegang tot Geavanceerde instellingen?
+
+Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T) gebruiken, zal het doel metrisch altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit kan *niet* worden geconfigureerd.
+
+Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetica, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [Metrische definities - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Moet ik bezoekers, bezoeken, of activiteit impressies als mijn normaliserende metrisch (d.w.z. telmethode) gebruiken? {#metrics}
 
