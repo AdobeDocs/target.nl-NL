@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3010'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,9 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 24 november | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>[Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Het volgende probleem is opgelost:<ul><li>[Analyses voor doelrapportage (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [Metrische definities - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Tijdens het vormen van mijn doelmetica, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; |
+|  | [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md) | Aangepaste tekst in de notitie over activiteiten die gebruikmaken van A4T. |
 | 17 november | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Volgende veelgestelde vragen toegevoegd: &quot;Kan een bezoeker schakelen tussen gerichte en gecontroleerde ervaringen in verschillende bezoeken in een auto-Doelactiviteit die A4T gebruikt?&quot; |
 |  | [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Volgende veelgestelde vragen toegevoegd: &quot;adviseert u dat wij AutoDoel met 90 (Controle)/10 (Gericht) verdelen gebruiken tot de modellen worden gebouwd?&quot; |
 |  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Volgende veelgestelde vragen toegevoegd: &quot;Hoe worden bezoeken geteld in Analytics en omzettingskrediet toegewezen in een auto-Target activiteit die A4T gebruikt?&quot; |
