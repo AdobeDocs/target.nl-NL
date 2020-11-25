@@ -4,15 +4,15 @@ description: In Adobe Target zijn succesmetriek parameters die worden gebruikt o
 title: Succeswaarden in Adobe Target
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# Succeswaarden{#success-metrics}
+# Succeswaarden
 
 In [!DNL Adobe Target] succesmetriek zijn parameters die worden gebruikt om het succes van een activiteit te meten. De metriek van het succes omvat zeer belangrijke bedrijfsmaatregelen die u toelaten om het succes van een bepaalde ervaring of een aanbieding in een [!DNL Target] activiteit te bepalen.
 
@@ -28,7 +28,7 @@ De metriek van de opbrengst die aan &quot;[!UICONTROL Increment count & keep use
 
 >[!NOTE]
 >
->Het standaardgedrag voor activiteiten waarbij [Analytics als rapportagebron](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) wordt gebruikt, is &quot;[!UICONTROL Increment count & keep user in activity]&quot; met &quot;[!UICONTROL Once per entrant].&quot;
+>Voor activiteiten die [Analytics als rapporteringsbron](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruiken zal doel metrisch altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit kan *niet* worden geconfigureerd.
 
 De volgende succeswaarden zijn beschikbaar:
 
@@ -105,7 +105,7 @@ Gebruik de geavanceerde montages om te bepalen wat gebeurt nadat een gebruiker h
 Kies het gewenste gedrag:
 
 * Eenmaal per gegadigde
-* Bij elke indruk (pagina-vernieuwingen uitsluiten)
+* Op elke indruk (pagina-vernieuwingen uitsluiten)
 * Op elke indruk
 
 ## Trainingsvideo: Activiteitenstatistieken
