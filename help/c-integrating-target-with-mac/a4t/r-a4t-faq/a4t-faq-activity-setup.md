@@ -4,9 +4,9 @@ description: Dit onderwerp bevat antwoorden op vragen die vaak over activiteiten
 title: Activiteitsinstellingen - Veelgestelde vragen voor A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en
 ## Welke activiteitstypes steunen Analytics als rapporteringsbron (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 Voor een volledige lijst, zie &quot;Gesteunde Types van Activiteit&quot;in [Adobe Analytics als Rapporterende Bron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
+## Waarom heb ik tijdens het configureren van mijn Goal Metics geen toegang tot Geavanceerde instellingen?
+
+Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T) gebruiken, zal het doel metrisch altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit kan *niet* worden geconfigureerd.
+
+Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetica, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [Metrische definities - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Ik heb net een activiteit gecreëerd. Waarom zie ik geen gegevens binnenkomen? {#section_9F8092BE4225442896F926540292F221}
 
