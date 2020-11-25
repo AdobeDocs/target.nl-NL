@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '4232'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Op 10 mei 2020 hebben we onze bestanden van de GEO-provider bijgewerkt, waardoor
 
 Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;Verwerking&quot; enkele uren nadat de afbeeldingen zijn geüpload. In de meeste gevallen is dit alleen een probleem met het etiket: de beeldaanbiedingen kunnen nog steeds worden gebruikt in activiteiten en worden geleverd . In sommige gevallen is een afbeeldingsaanbieding echter mogelijk niet beschikbaar voor de actie Inhoud vervangen > Afbeelding. Als dit gebeurt, moet u het afbeeldingsaanbod opnieuw uploaden en na een paar uur controleren of het aanbod van de afbeelding beschikbaar is voor vervanging. (TGT-37458)
 
-### Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI.
+### Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI. {#csv}
 
 Rapporten die worden gegenereerd om te worden gedownload als CSV-bestanden, zijn inconsistent als de activiteit meer dan één metrische waarde gebruikt. Het downloadbare rapport wordt geproduceerd gebaseerd op de rapportmontages slechts en beschouwt de zelfde waarde voor een andere gebruikte metriek.
 
@@ -137,6 +137,37 @@ De bron van waarheid is altijd het getoonde rapport in [!DNL Target] UI.
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties en worden zo nodig aanvullende opmerkingen toegevoegd.
+
+### Analyses voor doelrapportage (A4T)
+
+De volgende kwesties in verband met A4T zijn opgelost:
+
+* Een kwestie die A4T activiteiten beïnvloedde gebruikend een [!DNL Analytics] doel metrisch die rapporten A4T veroorzaakte om een onverwachte verkeerssplitsing of kunstmatig opgeblazen omzettingen te tonen.
+
+   Deze kwestie beïnvloedde de A4T-rapportage onder de volgende voorwaarden:
+
+   * De activiteit werd gecreëerd of gered tussen 15 september en 5 november 2020 (4.00 uur PST), en
+   * De activiteit had [!DNL Analytics] metrisch die als doel metrisch werd geselecteerd.
+
+   [!DNL Target] correct gesplitst verkeer tijdens deze tijd. Een splitsing van 50/50 in de activiteiteninstellingen kan echter bijvoorbeeld worden weergegeven als een splitsing van 90/10 in A4T-rapporten.
+
+   Voor betrokken activiteiten is de correcte verkeerssplitsing zichtbaar voor nieuwe bezoekers aan de activiteit na 5 november (4.00 uur PST). De nieuwe activiteiten die na deze tijd worden gecreeerd of worden bewaard zullen de verkeerspleet correct melden.
+
+* Een kwestie die A4T activiteiten beïnvloedde gebruikend een [!DNL Target] doel metrisch dat rapporten A4T veroorzaakte om laag of geen omzettingen te melden.
+
+   >[!NOTE]
+   >
+   >Dit probleem betrof alleen de A4T-rapportage. Het had geen invloed op de levering van de activiteit.
+
+   Deze kwestie beïnvloedde de A4T-rapportage onder de volgende voorwaarden:
+
+   * De A4T-activiteit was actief tussen 22 september en 11 november 2020 (2:30 uur PST), en
+   * De activiteit had [!DNL Target] metrisch die als doel metrisch werd geselecteerd, en
+   * Wanneer een bezoeker de doelgebeurtenis voor de activiteit heeft bereikt (bijvoorbeeld [!UICONTROL Clicked an Element]) was er ook een activiteit zonder A4T met lagere prioriteit die overeenkwam met de conversiegebeurtenis. Dit zou kunnen gebeuren als de activiteit niet-A4T of met zelfde metrisch zoals de activiteit A4T werd gevormd of als het met metrisch &quot;om het even welke mbox&quot;werd gevormd.
+
+   Deze kwestie beïnvloedde de verslaglegging voor A4T activiteiten die tussen 22 september en 11 november 2020 (14:30 uur PST) leefden. De rapportering voor beïnvloede activiteiten A4T zal correct omzettingen buiten dit datumbereik tonen. De rapportage voor niet-A4T-activiteiten had geen gevolgen.
+
+Neem contact op met de Customer Success Manager (CSM) of de [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)als u nog vragen hebt. (PB 2011/11/EG)
 
 ### Automatische doelrapportage {#at-metrics}
 
