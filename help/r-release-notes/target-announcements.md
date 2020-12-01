@@ -4,9 +4,9 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,15 @@ Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quad
 
 Meer dan ooit, worden de marketers, de producteigenaars en de ontwikkelaars belast met het optimaliseren van de algemene klantenervaring op plaatsen, in apps, en overal anders zij met hun klanten verbinden. Meerdere gereedschappen met gegevenssilo&#39;s en ingewikkelde implementaties knippen deze niet.
 
-In dit live webinar bespreken ze samen met productexperts van Adobe Target hoe u met beslissingen over optimalisatie voor kritieke ervaring op apparaten met een latentie voor lokale uitvoering deuren kunt openen voor spannende nieuwe gebruiksgevallen en de prestaties van de site voor uw klanten kunt verbeteren.
+In dit geregistreerde webinar bespreken de productdeskundigen van Adobe Target hoe het bewegen van kritieke ervaring optimaliseringsbesluiten op apparaat om plaatselijk met nul latentie uit te voeren deuren aan opwindende nieuwe gebruiksgevallen kan openen terwijl het verbeteren van plaatsprestaties voor uw klanten.
 
-* **Dinsdag 10 november 2020**
-* **10.00 uur PST | 12.00 uur CST | 13:00 EST**
+>[!VIDEO](https://video.tv.adobe.com/v/328148)
 
 [Registreer hier voor deze spannende gebeurtenis.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
-* **U kunt hier klikken om de [Webinar Opname](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)te bekijken.**
+* **Klik hier om de [Webinar-opname](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)weer te geven.**
 
 McKinsey Digital meldt dat &quot;we vijf jaar vooruit hebben gespaard in de digitale adoptie van consumenten en bedrijven in een kwestie van ongeveer acht weken.&quot; *
 
@@ -49,4 +48,6 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 
 ## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js {#skill-builder}
 
-Met de aanstaande afzetting van mbox.js op 18 januari 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken. U kunt de webinar opname hier [](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)bekijken.
+Met de aanstaande afzetting van mbox.js op 18 januari 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
+
+[Bekijk hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)de webinar opname.
