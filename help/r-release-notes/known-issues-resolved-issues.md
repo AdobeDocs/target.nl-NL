@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
 workflow-type: tm+mt
-source-wordcount: '4232'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,7 @@ Hier volgen enkele bekende problemen met Recommendations-activiteiten:
 * Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. (TGT-35777)
 * Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
 * De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)
+* In criteria en ontwerpkaarten wordt niet het juiste aantal activiteiten aangegeven waar ze worden gebruikt. Als de Criteria of het Ontwerp in een Activiteit van AB wordt gebruikt, zal de activiteit niet in aanmerking worden genomen en de kaart zou kunnen aantonen dat het ontwerp/de criteria niet worden gebruikt wanneer in feite het is.
 
 ### MVT-activiteiten (Multivariate Test)
 
