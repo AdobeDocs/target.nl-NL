@@ -4,7 +4,7 @@ description: Informatie over de targetPageParams() functie voor de Adobe Target 
 title: targetPageParams()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -28,7 +28,7 @@ U kunt parameters op de volgende manieren doorgeven aan target-global-mbox met b
 
 Door ampersand gescheiden lijst (waarden moeten URL-gecodeerd zijn):
 
-```
+```javascript
 function targetPageParams() { 
     return "param1=value1&param2=value2&p3=hello%20world"; 
 }
@@ -36,7 +36,7 @@ function targetPageParams() {
 
 Array (waarden hoeven niet via URL te worden gecodeerd):
 
-```
+```javascript
 targetPageParams = function() { 
      return ["a=1", "b=2", "c=hello world"]; 
 };
@@ -44,7 +44,7 @@ targetPageParams = function() {
 
 JSON (waarden hoeven niet via URL te worden gecodeerd):
 
-```
+```javascript
 targetPageParams = function() { 
   return { 
     "a": 1, 
