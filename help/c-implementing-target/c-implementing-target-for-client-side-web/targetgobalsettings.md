@@ -4,7 +4,7 @@ description: Informatie over de targetGlobalSettings() functie voor de Adobe Tar
 title: targetGlobalSettings()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICON
 
 In het veld Bibliotheekkoptekst kunt u JavaScript in vrije vorm invoeren. De aanpassingscode moet er ongeveer als volgt uitzien:
 
-```
+```javascript
 window.targetGlobalSettings = {  
    timeout: 200, // using custom timeout  
    visitorApiTimeout: 500, // using custom API timeout  
@@ -228,7 +228,7 @@ Elke gegevensaanbieder heeft de volgende structuur:
 
 In het volgende voorbeeld wordt getoond waar de gegevensaanbieder de synchronisatie uitvoert:
 
-```
+```javascript
 var syncDataProvider = { 
   name: "simpleDataProvider", 
   version: "1.0.0", 
@@ -248,7 +248,7 @@ Na processen at.js `window.targetGlobalSettings.dataProviders`, zal het verzoek 
 
 Het volgende is een voorbeeld als de parameters die u aan het verzoek van het Doel wilt toevoegen van de derdedienst, zoals Bluekai, Demandbase, enzovoort worden gehaald:
 
-```
+```javascript
 var blueKaiDataProvider = { 
    name: "blueKai", 
    version: "1.0.0", 
@@ -271,7 +271,7 @@ Na processen at.js `window.targetGlobalSettings.dataProviders`, zal het verzoek 
 
 In het volgende voorbeeld worden gegevensproviders gebruikt om weergegevens in API te verzamelen en te verzenden als parameters in een aanvraag van het Doel. Het verzoek van het Doel zal extra params, zoals `country` en `weatherCondition`. hebben
 
-```
+```javascript
 var weatherProvider = { 
       name: "weather-api", 
       version: "1.0.0", 
@@ -323,7 +323,7 @@ at.js 2.3.0+ steunt het plaatsen van de nonces van het Veiligheidsbeleid van de 
 
 De SCRIPT- en STYLE-nonces moeten worden ingesteld in `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce` overeenkomstig, voorafgaand aan het laden van at.js 2.3.0+. Zie een voorbeeld hieronder:
 
-```
+```javascript
 ...
 <head>
  <script nonce="<script_nonce_value>">
@@ -355,7 +355,7 @@ Je moet een hybride integratie hebben van [!DNL Target].
 
 Voor een beter begrip van hoe dit werkt, zie hieronder de codevoorbeelden die u op uw server zou hebben. De code veronderstelt u de SDK [van Node.js van het](https://github.com/adobe/target-nodejs-sdk)Doel gebruikt.
 
-```
+```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
 const targetResponse = await targetClient.getOffers(options);
 // A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
