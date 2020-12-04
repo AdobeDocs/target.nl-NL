@@ -4,7 +4,7 @@ description: Informatie over de targetPageParamsAll() functie voor de Adobe Targ
 title: targetPageParamsAll()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -28,7 +28,7 @@ U kunt op de volgende manieren parameters doorgeven aan target-global-mbox met b
 
 Door ampersand gescheiden lijst (waarden moeten URL-gecodeerd zijn):
 
-```
+```javascript
 function targetPageParamsAll() { 
     return "param1=value1&param2=value2&p3=hello%20world"; 
 }
@@ -36,7 +36,7 @@ function targetPageParamsAll() {
 
 Array (waarden hoeven niet via URL te worden gecodeerd):
 
-```
+```javascript
 targetPageParamsAll = function() { 
      return ["a=1", "b=2", "c=hello world"]; 
 };
@@ -44,7 +44,7 @@ targetPageParamsAll = function() {
 
 JSON (waarden hoeven niet via URL te worden gecodeerd):
 
-```
+```javascript
 targetPageParamsAll = function() { 
   return { 
     "a": 1, 
