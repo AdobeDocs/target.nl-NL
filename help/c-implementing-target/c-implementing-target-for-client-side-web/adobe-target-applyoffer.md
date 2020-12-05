@@ -4,7 +4,7 @@ description: Informatie over de functie adobe.target.applyOffer(options) voor de
 title: adobe.target.applyOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# adobe.target.applyOffer(opties) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
+# adobe.target.applyOffer(options)
 
 Deze functie is bedoeld voor het toepassen van de inhoud van de reactie.
 
@@ -32,7 +32,7 @@ De parameter options is verplicht en heeft de volgende structuur:
 
 In het volgende voorbeeld wordt getoond hoe u `getOffer` en `applyOffer` samen kunt gebruiken:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "mbox",   
   "success": function(offers) {           
