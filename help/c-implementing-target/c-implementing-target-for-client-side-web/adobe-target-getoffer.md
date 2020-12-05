@@ -4,7 +4,7 @@ description: Informatie over de functie adobe.target.getOffer(options) voor de A
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Met gebruiken `adobe.target.applyOffer()` om de reactie te verwerken of uw eigen
 
 Parameters toevoegen met getOffer() en applyOffer() gebruiken voor succesafhandeling:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 Parameters en profielparameters toevoegen met getOffer() en applyOffer() gebruiken voor succesafhandeling:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ Aangepaste time-out en aangepaste succesafhandeling gebruiken met getOffer():
 
 &quot;UW_OWN_CUSTOM_HANDLING_FUNCTION&quot; is een plaatsaanduiding voor een functie die de klant zou definiëren.
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ De responsparameter die aan de succescallback wordt doorgegeven, is een array me
 
 ## Voorbeeld
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
