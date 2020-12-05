@@ -4,7 +4,7 @@ description: Informatie over de functie adobe.target.trackEvent(options) voor de
 title: adobe.target.trackEvent(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -33,13 +33,13 @@ Hier volgen de API-details:
 
 ## Voorbeeld
 
-```
+```javascript
 <a href="https://asite.com">click me!</a> 
 ```
 
 plus JavaScript-code die moet worden toegewezen `trackEvent`:
 
-```
+```javascript
 <script> 
 $('a').click(function(event){ 
   adobe.target.trackEvent({'mbox':'homePageHero'}) 
@@ -49,7 +49,7 @@ $('a').click(function(event){
 
 Of:
 
-```
+```javascript
 adobe.target.trackEvent({ 
     "mbox": "clicked-cta", 
     "params": { 
