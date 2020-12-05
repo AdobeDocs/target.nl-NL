@@ -4,9 +4,9 @@ description: Informatie over de functie adobe.target.getOffers(options) voor de 
 title: adobe.target.getOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 | Verzoek > Uitvoeren > Vakken > Postvak > Volgorde > Totaal | Nee | `>=` 0 | Wis voorstellen voor een bepaalde mbox met de gespecificeerde orde totalen. |
 | Verzoek > execute > boxes > mbox > order > purchaseProductIds | Nee | Geen lege<br>waardenDe maximale lengte van elke waarde = 50<br>samengevoegd en gescheiden door<br>kommaProduct-id&#39;s totale lengte `<=` 250 | Wis voorstellen voor een bepaalde doos met de gespecificeerde orde gekochte product IDs. |
 
-## Bel `getOffers()` alle weergaven
+## getOffers() aanroepen voor alle weergaven
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
       prefetch: {
@@ -85,9 +85,9 @@ adobe.target.getOffers({
 });
 ```
 
-## Vraag `getOffers()` om de recentste meningen met de overgegaan parameters en profielparameters terug te winnen
+## Roep getOffers() aan om de nieuwste weergaven op te halen met de doorgegeven parameters en profielparameters
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     "prefetch": {
@@ -106,9 +106,9 @@ adobe.target.getOffers({
 });
 ```
 
-## Vraag `getOffers()` om dozen met doorgegeven parameters en profielparameters terug te winnen.
+## Roep getOffers() aan om vakken met doorgegeven parameters en profielparameters op te halen.
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     execute: {
@@ -135,7 +135,7 @@ adobe.target.getOffers({
 
 ## Roep getOffers() aan om de payload van de analyse van de client op te halen
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 
 **Reactie**:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
@@ -193,7 +193,7 @@ Met at.js 2.x kunt u meerdere vakken ophalen via de `getOffers()` API. U kunt oo
 
 In het volgende voorbeeld ziet u een eenvoudige HTML-pagina waarop at.js 2.x is geïmplementeerd:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -215,7 +215,7 @@ Veronderstel dat u drie containers hebt die u via inhoud wilt wijzigen die van w
 
 De aanvraag- en rendercode kunnen er als volgt uitzien:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     prefetch: {
@@ -266,11 +266,11 @@ In dit voorbeeld wordt de telvariabele gebruikt om de CSS-kiezers samen te stell
 
 In dit voorbeeld wordt wel het volgende gebruikt `prefetch > mboxes`, maar u kunt het ook gebruiken `execute > mboxes`. Zorg ervoor dat als u Prefetch in gebruikt `getOffers()`, u ook prefetch in de `applyOffers()` aanroeping zou moeten gebruiken.
 
-## Vraag `getOffers()` om een pageLoad uit te voeren
+## Roep getOffers() aan om een pageLoad uit te voeren
 
 In het volgende voorbeeld wordt getoond hoe u een pageLoad kunt uitvoeren met getOffers() met at.js 2.*x*
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
         execute: {
