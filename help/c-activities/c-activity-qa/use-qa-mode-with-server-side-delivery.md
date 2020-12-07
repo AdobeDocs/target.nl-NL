@@ -4,7 +4,7 @@ description: Gebruik QA URLs met server-zijlevering om gemakkelijke activiteit Q
 title: Activiteit QA met levering aan de serverzijde gebruiken
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De standaardimplementatie van Activiteit QA steunt het overgaan van `qa_mode` pa
 
 Het volgende codevoorbeeld toont Activiteit QA in een server-zijvraag:
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
