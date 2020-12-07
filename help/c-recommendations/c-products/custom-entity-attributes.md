@@ -5,7 +5,7 @@ title: Kenmerken van aangepaste entiteiten in Adobe Target
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -73,7 +73,7 @@ U kunt maximaal 500 waarden opnemen in een kenmerk met meerdere waarden.
 
 In het volgende voorbeeld wordt getoond hoe u `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ Wees voorzichtig wanneer u een CSV-bestand met een Raw-catalogus rechtstreeks be
 
 U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in een mabox-parameter als een tekenreekswaarde die een JSON-array met escape-teken bevat.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
