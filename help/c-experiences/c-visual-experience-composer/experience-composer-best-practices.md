@@ -4,7 +4,7 @@ description: De volgende best practices kunnen u helpen uw ervaringen naar behor
 title: Aanbevolen werkwijzen en beperkingen voor composer visuele ervaring
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Het is een goede praktijk om het gebruik van iFrames te minimaliseren, om pagina
 
 **Poging om alle dynamische DOM-wijzigingen zo snel mogelijk na DOM gereed te maken.**
 
-Als uw wijzigingen niet van toepassing zijn voordat de ervaringstoepassing door target.js wordt uitgevoerd, kan de levering van inhoud worden afgebroken. Dit gebeurt alleen wanneer de hiërarchie van een doelelement een DOM-wijziging bevat.
+Als uw wijzigingen niet worden toegepast voordat de ervaringstoepassing door target.js wordt uitgevoerd, kan de levering van inhoud worden afgebroken. Dit gebeurt alleen wanneer de hiërarchie van een doelelement een DOM-wijziging bevat.
 
 **Gebruik alleen onbewerkte tekst of een afbeeldingstag in uw ankerelementen.**
 
@@ -135,7 +135,7 @@ Wanneer u de Enhanced Experience Composer gebruikt, wordt de website achter de s
 
 U kunt de tekst Winkelwagentje bijvoorbeeld niet als doel instellen in de VEC als de code er als volgt uitziet:
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Zorg ervoor dat uw website naar behoren wordt geladen nadat u dergelijke paramet
 
 Schakel de technieken voor het opbouwen van iframe op uw website uit en controleer of deze wordt geopend zoals u had verwacht in een iframe op een dummypagina. Bijvoorbeeld:
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ Als u een afbeeldingsactie op een element omwisselt en de tekst of HTML op het b
 
 Als uw pagina bijvoorbeeld het volgende bevat:
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ Het script wordt uitgevoerd binnen het bereik van target.js nadat de pagina is g
 
 *Onjuist:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ Het script wordt uitgevoerd binnen het bereik van target.js nadat de pagina is g
 
 *Juist:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ Het script wordt uitgevoerd binnen het bereik van target.js nadat de pagina is g
 
 Voeg een ankerelement in het div &#39;customHeaderMessage&#39; met een dummytekst toe:
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ Selecteer dit div met de handeling Element invoegen om een afbeelding in te voeg
 
 Na het invoegen van de afbeelding ziet het er als volgt uit:
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
