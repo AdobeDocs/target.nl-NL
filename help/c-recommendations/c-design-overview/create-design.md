@@ -4,7 +4,7 @@ description: Een ontwerp bepaalt hoe de aanbevelingen op een pagina verschijnen.
 title: Een ontwerp maken
 feature: designs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -109,7 +109,7 @@ In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd w
 
 1. De volgende code is een voorbeeld van wat u in uw ontwerp kunt plakken:
 
-   ```
+   ```javascript
        #* 
        * "Return a simple list of recommended entity ids"   
        *#
@@ -182,7 +182,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 
 U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedossier is een complexer voorbeeld dat veel meer dan entiteitsidentiteitskaart met hun bijbehorende groeven (orde) terugkeert. In dit ontwerpvoorbeeld worden ook de activiteitsdetails, de details van het doelprofiel (zoals van toepassing) en andere gegevens `entity.attributes` die zijn gekoppeld aan de geretourneerde items geretourneerd.
 
-```
+```javascript
     {   
      "adobeRecommendations": {   
       "notes": {   
