@@ -4,7 +4,7 @@ description: In deze sectie wordt beschreven hoe u informatie over activiteiten 
 title: Informatie over Adobe Target-activiteiten naar Adobe Analytics verzenden
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -27,13 +27,13 @@ In deze sectie wordt beschreven hoe u informatie over activiteiten in [!DNL Targ
 
    Als u een tekenreeks als deze in uw ervaringsinhoud opneemt, [!DNL Target] worden de activiteitengegevens geretourneerd die u kunt verzenden naar [!DNL Analytics]:
 
-   ```
+   ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
    ```
 
    Vervang de tekst in uw ervaringsJson code met iets als het volgende voorbeeld:
 
-   ```
+   ```javascript
    { 
      "tntVal": ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}", 
      "title":"Welcome Message", 
@@ -45,7 +45,7 @@ In deze sectie wordt beschreven hoe u informatie over activiteiten in [!DNL Targ
 
    Deze tekenreeks levert een getal (zoals 115110:0:0) in de reactie van [!DNL Target]. Dit wijst op activiteitenidentiteitskaart, ervaring identiteitskaart, en verkeerstype. Hieronder volgt een voorbeeldreactie van [!DNL Target]:
 
-   ```
+   ```javascript
    { 
      "tntVal": 115110:0:0", 
      "title":"Welcome Message", 
@@ -65,7 +65,7 @@ In deze sectie wordt beschreven hoe u informatie over activiteiten in [!DNL Targ
 
    Bijvoorbeeld, kan deze vraag in callback van de `targetLoadRequest` vraag worden in brand gestoken:
 
-   ```
+   ```javascript
    [ADBMobile trackAction:@"Welcome Screen"  
          data:@{@"&&tnt" : tntVal from response}];
    ```
