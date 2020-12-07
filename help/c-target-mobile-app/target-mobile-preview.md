@@ -4,7 +4,7 @@ description: Gebruik de koppeling voor mobiele voorvertoningen om eenvoudige end
 title: De koppeling voor mobiele voorvertoningen gebruiken in Adobe Target mobile
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
    Het volgende codefragment is een voorbeeld:
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
    **Android:** Roep in de app aan `Config.trackAdobeDeepLink(URL);` wanneer de aanroeper wordt gevraagd de bron te openen met het URL-schema dat in de vorige stap is opgegeven.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
    Als u mobiele voorvertoning wilt laten werken voor Android, moet u ook het volgende codefragment toevoegen in [!DNL AndroidManifest.xml]:
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
@@ -118,7 +118,7 @@ Open de koppeling in een mobiele browser op een apparaat waarop uw app is geïns
 
    Uw app wordt geopend en de modus Mobiele voorvertoning voor doelapparaten wordt gestart.
 
-1. Selecteer de combinatie van ervaringen die u wilt zien en klik op **[!UICONTROL Launch Experiences]**.
+1. Selecteer de combinatie ervaringen die u wilt zien, dan klik **[!UICONTROL Launch Experiences]**.
 
    |![mobiele voorvertoning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobiele voorvertoning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobiele voorvertoning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
 |![mobiele voorvertoning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobiele voorvertoning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobiele voorvertoning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
