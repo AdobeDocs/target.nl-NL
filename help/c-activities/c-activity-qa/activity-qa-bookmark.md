@@ -4,7 +4,7 @@ description: Informatie die u helpt bij het gebruik van de Adobe Target QA-bladw
 title: Activity QA-bladwijzer voor Adobe Target
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Omdat de [QA-modus](/help/c-activities/c-activity-qa/activity-qa.md) vastzit, mo
 
 Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
 
-```
+```javascript
 javascript:(
     function () {
         if (window.location.href.indexOf('?') != -1) {
@@ -55,7 +55,7 @@ In tegenstelling tot at.js 1.*x*, at.js 2.*x* ondersteunt geen cookies van derde
 
 Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
 
-```
+```javascript
 javascript:(
     function () {
         var AT_QA_MODE = 'at_qa_mode=';
