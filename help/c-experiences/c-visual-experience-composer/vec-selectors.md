@@ -4,7 +4,7 @@ description: Een elementkiezer is een CSS-expressie waarmee een of meer elemente
 title: Elementkiezers die worden gebruikt in de composer voor visuele ervaring
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
    Bijvoorbeeld:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- Selector is computed for this element -->
        <ul class="navigation">
@@ -55,7 +55,7 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
    Bijvoorbeeld:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
@@ -78,7 +78,7 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
    Bijvoorbeeld:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
