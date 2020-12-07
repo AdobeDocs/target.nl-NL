@@ -4,7 +4,7 @@ description: Bij de implementatie van Adobe Analytics als rapportagebron voor Ta
 title: Analyses voor doelimplementatie
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Neem de code at.js onder VisitorAPI.js op door de volgende coderegel toe te voeg
 
 Voor at.js:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ Als u echter meer controle wilt hebben over hoe en wanneer u analysegegevens wil
 
 Bijvoorbeeld:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 Deze opstelling heeft een globaal effect, zo betekent het dat elke vraag die door at.js wordt gemaakt **analyticsLogging zal hebben: &quot;client_side&quot;** die binnen de [!DNL Target] verzoeken wordt verzonden en een analytische lading zal voor elk verzoek worden teruggegeven. Als deze is ingesteld, ziet de indeling van de geretourneerde lading er als volgt uit:
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ Als een globale instelling niet gewenst is en een meer on-demand aanpak de voork
 
 Bijvoorbeeld:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ Deze vraag haalt een reactie aan waaruit u de analytische lading kunt halen.
 
 De reactie ziet er als volgt uit:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
