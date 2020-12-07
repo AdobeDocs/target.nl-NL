@@ -4,7 +4,7 @@ description: Met responstokens kunt u automatisch doelspecifieke informatie (act
 title: Reactietokens in Adobe Target
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Gebruik aangepaste gebeurtenissen [](/help/c-implementing-target/c-implementing-
 
 In het volgende codevoorbeeld wordt een [!DNL at.js] aangepaste gebeurtenishandler rechtstreeks aan de HTML-pagina toegevoegd:
 
-```
+```html
 <html> 
   <head> 
     .... 
@@ -104,7 +104,7 @@ De volgende instructies tonen hoe u een [!DNL at.js] aangepaste gebeurtenishandl
 
 1. Voeg in de code-editor de volgende code toe aan [!DNL at.js]:
 
-   ```
+   ```json
    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
      console.log("Request succeeded", e.detail); 
    });
@@ -112,7 +112,7 @@ De volgende instructies tonen hoe u een [!DNL at.js] aangepaste gebeurtenishandl
 
 U kunt het volgende fragment toevoegen aan de bibliotheekvoettekst [op de pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js Setup als u wilt dat alles één bestand is.
 
-```
+```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
   console.log("Request succeeded", e.detail); 
 });
@@ -168,7 +168,7 @@ Het doel vernieuwt kenmerken regelmatig. Om het even welk attribuut dat niet wor
 
 Google Analytics kunnen via at.js gegevens worden verzonden door de volgende code toe te voegen in de HTML-pagina:
 
-```
+```javascript
 <script type="text/javascript"> 
   (function(i, s, o, g, r, a, m) { 
     i['GoogleAnalyticsObject'] = r; 
@@ -234,7 +234,7 @@ Google Analytics kunnen via at.js gegevens worden verzonden door de volgende cod
 
 Het equivalent van de ttMeta-insteekmodule voor foutopsporingsdoeleinden kan worden gemaakt door de volgende code toe te voegen aan de HTML-pagina:
 
-```
+```javascript
 <script type="text/javascript" > 
   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
     window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
