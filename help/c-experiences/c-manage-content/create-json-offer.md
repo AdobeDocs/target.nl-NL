@@ -4,7 +4,7 @@ description: Maak JSON-aanbiedingen in de bibliotheek met aanbiedingen voor gebr
 title: JSON-aanbiedingen maken
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -45,7 +45,7 @@ JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met
 
 Hier volgt een voorbeeld:
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 De acties die aan succesvolle callback worden overgegaan zijn een serie van voorwerp. Ervan uitgaande dat we één enkel JSON-aanbod hebben, dat de volgende inhoud heeft:
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ De acties die aan succesvolle callback worden overgegaan zijn een serie van voor
 
 De array actions heeft deze structuur:
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ Als u de JSON-aanbieding wilt extraheren, doorloopt u de handelingen en zoekt u 
 
 Stel dat de volgende JSON-aanbieding op uw webpagina wordt afgeleverd:
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ Stel dat de volgende JSON-aanbieding op uw webpagina wordt afgeleverd:
 
 De volgende code toont hoe te om tot het &quot;groet&quot;attribuut toegang te hebben:
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
