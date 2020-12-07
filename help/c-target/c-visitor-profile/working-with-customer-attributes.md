@@ -4,7 +4,7 @@ description: Informatie over het gebruiken van de gegevens van de ondernemingskl
 title: Kenmerken van klanten in Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Gegevens die aan de server zijn toegevoegd, zijn beschikbaar voor alle [!DNL Exp
 
 Houd rekening met de volgende informatie als uw werk met klantenkenmerken en [!DNL Target]:
 
-* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de [!UICONTROL Customer attributes] functie in de [!DNL People] kernservice kunt gebruiken. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in [Klantenattributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in de productdocumentatie *van* Experience Cloud en Core Services voor meer informatie.
+* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de [!UICONTROL Customer attributes] functie in de [!DNL People] kernservice kunt gebruiken. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in de kenmerken [van de](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) klant in de productdocumentatie *van* Experience Cloud en Core Services voor meer informatie.
 
    >[!NOTE]
    >
@@ -131,7 +131,7 @@ Dit profielscript kan rechtstreeks worden gebruikt in aanbiedingen voor het leve
 
 Geef `mbox3rdPartyId` als parameter aan globale mbox binnen de `targetPageParams()` methode door. De waarde van `mbox3rdPartyId` moet worden ingesteld op de klant-id die aanwezig was in het CSV-gegevensbestand.
 
-```
+```javascript
 <script type="text/javascript">
             function targetPageParams() {
                return 'mbox3rdPartyId=2000578';
