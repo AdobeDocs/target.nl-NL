@@ -4,7 +4,7 @@ description: Gebruik entiteitskenmerken om product- of inhoudsgegevens door te g
 title: Entiteitskenmerken
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Over het algemeen ziet het informatievenster voor de weergave er als in het volg
 
 Alle kenmerken van de entiteitsparameter zijn hoofdlettergevoelig.
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ Voor op categorieën gebaseerde aanbevelingen wordt een komma gebruikt om de cat
 
 In de volgende code is de categorie Vrouwen bijvoorbeeld onderverdeeld in verschillende subcategorieën:
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ Voorbeeld: `'entity.event.detailsOnly=true'`
 
 In de onderstaande voorbeelden worden de catalogus en gedragsgegevens bijgewerkt met de eerste aanroep van het mbox. De tweede mbox-aanroep werkt alleen de catalogus bij.
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
