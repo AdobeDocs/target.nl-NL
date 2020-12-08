@@ -1,12 +1,12 @@
 ---
 keywords: Mobile Web Experience Editor
-description: Dit onderwerp bevat suggesties om sommige kwesties op te lossen die wanneer het ontwerpen van een test MVT zouden kunnen voorkomen.
+description: Dit onderwerp bevat suggesties voor het oplossen van enkele problemen die kunnen optreden bij het ontwerpen van een MVT-test in Adobe Target.
 title: Multivariate Tests oplossen
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Multivariate Tests oplossen{#troubleshoot-multivariate-tests}
 
-Dit onderwerp bevat suggesties om sommige kwesties op te lossen die wanneer het ontwerpen van een test MVT zouden kunnen voorkomen.
+Dit onderwerp bevat suggesties voor het oplossen van enkele problemen die kunnen optreden bij het ontwerpen van een MVT-test in Adobe Target.
 
 * Wanneer het uitgeven van een activiteit, als u op Analytics-Gebaseerde metriek gebruikte en de rapportreeks niet laadt (spinner vertoningen), schakelaar de metriek aan de metriek van het Doel en dan opnieuw aan Analytics-Gebaseerde metrisch schakelt. De rapportsuite moet nu worden geladen.
 * Als u wijzigingen aanbrengt in een test die al wordt uitgevoerd, kunt u de test en de bijbehorende gegevens opnieuw instellen.
