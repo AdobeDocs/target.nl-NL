@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
+description: Opmerkingen bij de release voor eerdere Adobe Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
 title: Opmerkingen bij de release van vorige releases
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '29541'
+source-wordcount: '29542'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 # Opmerkingen bij de release van vorige releases{#release-notes-for-previous-releases}
 
-Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
+Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js).
+
+Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
 
 >[!NOTE]
 >
@@ -119,7 +121,7 @@ De volgende verbeteringen en correcties zijn aangebracht in de bibliotheken [!DN
 | Functie/verbetering | Beschrijving |
 | --- | --- |
 | om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35064)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
-| om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` instelling is overschreven via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek mislukte. (TNT-35065)</li><li>Probleem verholpen bij het gebruik van de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie, [!DNL Launch] waarmee de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep werd vertraagd. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
+| om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` instelling is overschreven via [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* zou tot het serverdomein verkeerd kunnen leiden, dat in het [!DNL Target] verzoek het ontbreken leidde. (TNT-35065)</li><li>Probleem verholpen bij het gebruik van de [!DNL Target] extensie v2 en de [!DNL Launch] [!DNL Adobe Analytics] extensie, [!DNL Launch] waarmee de [!DNL Target][!DNL Analytics] `sendBeacon` aanroep werd vertraagd. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie. |
 
 ### Wijzigingen in de profielbatchstatus-API v2 (14 mei 2020)
 
@@ -354,7 +356,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| ![Premium-badge](/help/assets/premium.png) Enterprise-machtigingen | Met de Target-release van september 2019 bieden Enterprise-machtigingen klanten de volgende toegangsopties:<UL><li>U kunt de werkruimten kiezen waarop de integratie kan worden toegepast.</li><li>U kunt een rol op de Adobe I/O integratie toepassen: Fiatteur, Editor of waarnemer.</li></ul>Voor geleidelijke instructies en meer informatie, zie [de integratietoegang van Adobe I/O van de Verlenen tot werkruimten en toewijzen rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium-badge](/help/assets/premium.png) Enterprise-machtigingen | Met de Target-release van september 2019 bieden Enterprise-machtigingen klanten de volgende toegangsopties:<UL><li>U kunt de werkruimten kiezen waarop de integratie kan worden toegepast.</li><li>U kunt een rol op de integratie van Adobe I/O toepassen: Fiatteur, Editor of waarnemer.</li></ul>Voor geleidelijke instructies en meer informatie, zie de Toegang van de Integraties van Adobe I/O van de [Verlenen tot werkruimten en toewijzen rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ### Target Standard/Premium 19.7.1 (24 juli 2019) {#tgt-19-7-1}
 
