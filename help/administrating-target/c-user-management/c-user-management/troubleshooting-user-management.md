@@ -1,12 +1,12 @@
 ---
 keywords: troubleshoot target;troubleshooting target;users;user management
 description: Problemen met informatie over het beheren van gebruikers in Adobe Target oplossen.
-title: Gebruikersbeheer oplossen
+title: Gebruikersbeheer in Adobe Target oplossen
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
