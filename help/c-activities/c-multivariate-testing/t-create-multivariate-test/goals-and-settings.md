@@ -1,12 +1,12 @@
 ---
 keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: Op de pagina Doelstellingen en instellingen geeft u informatie op over de doelen van de test.
+description: Op de pagina Doelstellingen en instellingen in Adobe Target voert u informatie in over de doelen van de test.
 title: Doelstellingen en instellingen
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
