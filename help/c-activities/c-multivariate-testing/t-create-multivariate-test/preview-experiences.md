@@ -1,11 +1,11 @@
 ---
 description: Omdat bij een test met meerdere varianten meerdere ervaringen op een pagina worden vergeleken, is het nuttig om de pagina bij elke ervaring voor te vertonen.
-title: Voorvertoning van ervaringen voor een multivariatietest
+title: Voorvertoning van ervaringen voor een multivariatietest in Adobe Target
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
