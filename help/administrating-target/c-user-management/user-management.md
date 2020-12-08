@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: Informatie over het beheren van Gebruikers in de Standaard van het Doel en het beheren van ondernemingsEigenschappen en Toestemmingen in de Premie van het Doel.
+description: Informatie over het beheren van gebruikers in Adobe Target Standard en het beheren van bedrijfseigenschappen en -rechten in Adobe Target Premium.
 title: Gebruikersbeheer
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
