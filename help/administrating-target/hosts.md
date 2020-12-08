@@ -1,12 +1,12 @@
 ---
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
+description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage in Adobe Target.
 title: Gastheren
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
