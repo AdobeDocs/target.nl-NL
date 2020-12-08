@@ -1,12 +1,12 @@
 ---
 keywords: Overview and Reference
-description: Het testoverzicht geeft een visueel overzicht van de multivariate test.
+description: Het testoverzicht geeft een visueel overzicht van uw Adobe Target Multivariate Test.
 title: Samenvatting testen
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
