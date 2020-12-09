@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
+source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
 workflow-type: tm+mt
-source-wordcount: '4288'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -125,10 +125,6 @@ Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch 
 
 Op 10 mei 2020 hebben we onze bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op al onze leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
 
-### Aanbiedingen voor afbeeldingen met het label &quot;Verwerking&quot;
-
-Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;Verwerking&quot; enkele uren nadat de afbeeldingen zijn geüpload. In de meeste gevallen is dit alleen een probleem met het etiket: de beeldaanbiedingen kunnen nog steeds worden gebruikt in activiteiten en worden geleverd . In sommige gevallen is een afbeeldingsaanbieding echter mogelijk niet beschikbaar voor de actie Inhoud vervangen > Afbeelding. Als dit gebeurt, moet u het afbeeldingsaanbod opnieuw uploaden en na een paar uur controleren of het aanbod van de afbeelding beschikbaar is voor vervanging. (TGT-37458)
-
 ### Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI. {#csv}
 
 Rapporten die worden gegenereerd om te worden gedownload als CSV-bestanden, zijn inconsistent als de activiteit meer dan één metrische waarde gebruikt. Het downloadbare rapport wordt geproduceerd gebaseerd op de rapportmontages slechts en beschouwt de zelfde waarde voor een andere gebruikte metriek.
@@ -138,6 +134,12 @@ De bron van waarheid is altijd het getoonde rapport in [!DNL Target] UI.
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties en worden zo nodig aanvullende opmerkingen toegevoegd.
+
+### Aanbiedingen voor afbeeldingen met het label &quot;Verwerking&quot;
+
+Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;Verwerking&quot; enkele uren nadat de afbeeldingen zijn geüpload. In de meeste gevallen is dit alleen een probleem met het etiket: de beeldaanbiedingen kunnen nog steeds worden gebruikt in activiteiten en worden geleverd . (MCUI-10264, TGT-37458)
+
+Dit probleem is opgelost in de Target Standard/Premium versie 20.10.1.
 
 ### Analyses voor doelrapportage (A4T)
 
