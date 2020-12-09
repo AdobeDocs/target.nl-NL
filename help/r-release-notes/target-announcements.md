@@ -4,9 +4,9 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Meer dan ooit, worden de marketers, de producteigenaars en de ontwikkelaars bela
 In dit geregistreerde webinar bespreken de productdeskundigen van Adobe Target hoe het bewegen van kritieke ervaring optimaliseringsbesluiten op apparaat om plaatselijk met nul latentie uit te voeren deuren aan opwindende nieuwe gebruiksgevallen kan openen terwijl het verbeteren van plaatsprestaties voor uw klanten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[Registreer hier voor deze spannende gebeurtenis.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
