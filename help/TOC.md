@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,8 @@ ht-degree: 0%
       + [Locatieservice gebruiken](/help/c-target-mobile-app/use-location-service.md)
    + Serverzijde: Doel implementeren {#server-side}
       + [Serverzijde: Implementatie van doeloverzicht](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Overgang van verouderde API&#39;s van Doel naar I/O van Adobe](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [Overgang van verouderde API&#39;s van Target naar Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Hybride implementatie](/help/c-implementing-target/hybrid-implementation.md)
    + E-mail: Doel implementeren {#implement-email}
       + [E-mail: Implementatie van doeloverzicht](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
