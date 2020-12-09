@@ -1,10 +1,10 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'De besluitvorming op het apparaat biedt de mogelijkheid om uw Adobe Target A/B- en Experience Targeting-activiteiten (XT) op uw server in cache te plaatsen en in het geheugen te beslissen bij bijna-nullatentie, zonder netwerkverzoeken aan Adobe Target Edge Network te blokkeren. '
+description: 'De beslissing op het apparaat biedt de mogelijkheid om uw Adobe Target A/B- en Experience Targeting-activiteiten (XT) op uw server in cache te plaatsen en in het geheugen te beslissen bij bijna-nullatentie, zonder netwerkverzoeken aan het Adobe Target Edge Network te blokkeren. '
 title: Apparaatbeslissingen
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Apparaatbeslissingen
 
-De beslissing op het apparaat verstrekt de capaciteit om uw [!DNL Adobe Target] en [!UICONTROL A/B Test] (XT) activiteiten op uw server in het voorgeheugen op te slaan en in-geheugenbesluit bij bijna-nul latentie uit te voeren, zonder netwerkverzoeken aan het Netwerk van de Rand van [!UICONTROL Experience Targeting] [!DNL Adobe Target]te blokkeren.
+De beslissing op het apparaat verstrekt de capaciteit om uw [!DNL Adobe Target] en [!UICONTROL A/B Test] (XT) activiteiten op uw server in het voorgeheugen op te slaan en in-geheugenbesluit bij bijna-nul latentie uit te voeren, zonder netwerkverzoeken aan het Netwerk van de [!UICONTROL Experience Targeting] [!DNL Adobe Target] Rand te blokkeren.
 
 Voor meer informatie, zie [Inleiding aan op-apparatenbesluit](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de documentatie *[van SDKs van](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target.
 
@@ -28,7 +28,7 @@ In dit geregistreerde webinar, bespreken de [!DNL Adobe Target] productdeskundig
 
 ## Zelfstudie: Apparaatbeslissingen
 
-[!DNL Adobe Targe]Als u op het apparaat beslist, kunt u inhoud met bijna-nullatentie leveren.
+[!DNL Adobe Target] De beslissing op het apparaat maakt de levering van content met bijna-nullatentie mogelijk.
 
 Deze video van 7 minuten:
 
