@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3110'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die in de [!DNL Adobe Target] productd
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 9 december | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nieuw onderwerp. |
 | 1 december | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Sluit de webinar-opname in voor &quot;Aanpassen en testen met nullatentie met apparaatbeslissingen van Adobe Target&quot;. |
 | 24 november | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>[Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Het volgende probleem is opgelost:<ul><li>[Analyses voor doelrapportage (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Metrische definities - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Tijdens het vormen van mijn doelmetica, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; |
