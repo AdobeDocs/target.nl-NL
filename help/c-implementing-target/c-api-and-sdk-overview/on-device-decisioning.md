@@ -4,9 +4,9 @@ description: 'De beslissing op het apparaat biedt de mogelijkheid om uw Adobe Ta
 title: Apparaatbeslissingen
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Deze video van 7 minuten:
 * Toont de code van steekproefNode.JS SDK die zeer belangrijke die configuratie bevat voor op-apparatenbesluit wordt vereist
 * Toont resultaten in browser aan
 
-Aan het einde van deze video kunt u het volgende doen:
-
-* Beschrijf de beslissing op het apparaat en zijn voordelen
-* Apparaatbeslissingen inschakelen in [!DNL Target]
-* Een op formulieren gebaseerde composer-activiteit maken die is bedoeld voor gebruik met apparaatbeslissingen
-* Meer informatie over de SDK-configuratie die vereist is voor beslissingen op het apparaat vindt u in de [Adobe Target SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Begrijp wat de eindgebruikers voor geleverde inhoud gebruikend op apparaat besluitvorming zullen ervaren
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+Zie de handleiding [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) voor meer video&#39;s en zelfstudies.
