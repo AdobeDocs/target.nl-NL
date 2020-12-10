@@ -4,7 +4,7 @@ description: Informatie over de diepgaande benadering en veiligheidsprocedures d
 title: Overzicht van doelbeveiliging
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Overzicht van doelbeveiliging{#target-security-overview}
+# Overzicht van doelbeveiliging
 
 Informatie over de diepgaande benadering en veiligheidsprocedures die door Adobe worden uitgevoerd om de veiligheid van uw gegevens en ervaring van Adobe Target te versterken.
 
