@@ -1,12 +1,12 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over de items die in uw Adobe Target Recommendations-activiteiten worden weergegeven.
 title: Criteria-reeksen maken
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ![PREMIUM](/help/assets/premium.png) : Criteria maken
 
-Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over de items die in uw [!UICONTROL Recommendations] activiteiten worden weergegeven.
+Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over de items die in uw [!UICONTROL Recommendations] activiteiten worden weergegeven. U kunt ook het aantal geretourneerde items beperken (dit wordt ook wel &#39;&#39;besturingselement voor sleufniveau&#39;&#39; genoemd).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
    ![Het aantal geretourneerde items beperken](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Houd rekening met de volgende gebruiksgevallen om u te helpen de waarde van de [!UICONTROL Limit the number of items returned] optie te begrijpen:
+   Om u te helpen de waarde van de [!UICONTROL Limit the number of items returned] optie begrijpen (soms genoemd &quot;controle van het groefniveau,&quot;) overweeg de volgende gebruiksgevallen:
 
    * **Hoofdlettergebruik 1**: U wilt een combinatie van verschillende soorten punten in één enkele raadsdienblad hebben. U wilt bijvoorbeeld een combinatie van bovenkleding (jassen) en toppen (overhemden, T-shirts) weergeven. Om dit te bereiken, gebruik een Inzameling voor de activiteit die alle potentiële producttypes omvat u in om het even welke groeven in uw ontwerp wilt. Stel vervolgens de eerste criteria in met een statisch filter dat de criteria beperkt tot het opnemen van alleen bovenkleding, en stel de tweede criteria in met een statisch filter dat de criteria beperkt tot alleen bovenkanten. Ten slotte kunt u beide criteria toevoegen aan een reeks criteria en de eerste criteria beperken tot twee sleuven.
 
