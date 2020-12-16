@@ -18,11 +18,11 @@ Gebruik de bibliotheek van Aanbiedingen om uw codeaanbieding en beeldaanbiedings
 
 >[!NOTE]
 >
->In de release van januari 2017 zijn aanbiedingen die zijn gemaakt via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s zichtbaar in de [!DNL Target Standard/Premium] gebruikersinterface. Aanbiedingen die de afgelopen twee jaar met behulp van deze methoden zijn bijgewerkt, zijn zichtbaar (d.w.z. januari 2015 en daarna). De eerste synchronisatie vindt plaats wanneer een gebruiker in uw organisatie de [!UICONTROL Offers] pagina voor het eerst opent. De hoeveelheid tijd voor de eerste synchronisatie is afhankelijk van de hoeveelheid gegevens. Na de eerste synchronisatie worden de gegevens incrementeel gesynchroniseerd. Als u vóór deze release code en afbeeldingen in dezelfde map had, [!DNL Target] worden deze gesplitst in twee dubbele mappen. De bijgewerkte datum en tijd verwijzen naar de tijd waarop de map is gemigreerd en geven niet de datum weer waarop u de map oorspronkelijk hebt gemaakt.
+>In de release van januari 2017 zijn aanbiedingen die zijn gemaakt via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s zichtbaar in de gebruikersinterface van [!DNL Target Standard/Premium]. Aanbiedingen die de afgelopen twee jaar met behulp van deze methoden zijn bijgewerkt, zijn zichtbaar (d.w.z. januari 2015 en daarna). De eerste synchronisatie vindt plaats wanneer een gebruiker in uw organisatie de pagina [!UICONTROL Offers] voor het eerst opent. De hoeveelheid tijd voor de eerste synchronisatie is afhankelijk van de hoeveelheid gegevens. Na de eerste synchronisatie worden de gegevens incrementeel gesynchroniseerd. Als er vóór deze release code en afbeeldingen in dezelfde map stonden, worden deze door [!DNL Target] gesplitst in twee dubbele mappen. De bijgewerkte datum en tijd verwijzen naar de tijd waarop de map is gemigreerd en geven niet de datum weer waarop u de map oorspronkelijk hebt gemaakt.
 
-Klik **[!UICONTROL Offers]** om de bibliotheek te openen. De bibliotheek bevat de aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen die in [!DNL Target Classic] of andere oplossingen zijn gemaakt, kunnen worden bewerkt in [!DNL Target Standard/Premium].
+Klik **[!UICONTROL Offers]** om de bibliotheek te openen. De bibliotheek bevat de aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen die zijn gemaakt in [!DNL Target Classic] of andere oplossingen kunnen worden bewerkt in [!DNL Target Standard/Premium].
 
-De [!UICONTROL Offers] pagina heeft twee tabbladen aan de rechterkant: Codevoorstellen en afbeeldingsvoorstellen waarmee u voorstellen op type kunt bekijken.
+De pagina [!UICONTROL Offers] heeft twee tabbladen aan de rechterkant: Codevoorstellen en afbeeldingsvoorstellen waarmee u voorstellen op type kunt bekijken.
 
 ![](assets/offers_page.png)
 
@@ -34,7 +34,7 @@ U kunt een map of aanbieding bewerken of kopiëren door de muisaanwijzer boven h
 
 ![](assets/offer-picker-large.png)
 
-## Definities van weergavevoorstel {#section_6B059DD121434E6292CAB393507D010E}
+## Definities weergaveaanbieding {#section_6B059DD121434E6292CAB393507D010E}
 
 U kunt definitiedetails van voorstellen op een pop-up kaart in de Bibliotheek van Aanbiedingen bekijken zonder de aanbieding te openen.
 
@@ -51,7 +51,7 @@ De volgende informatie is beschikbaar:
 * Pad aanbod
 * Laatst gewijzigd
 
-Klik op het [!UICONTROL Offer Usage] tabblad om de activiteiten weer te geven die verwijzen naar een codeaanbieding in de definitiepop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. De informatie omvat Live Activiteiten en Inactieve Activiteiten.
+Klik op het tabblad [!UICONTROL Offer Usage] om de activiteiten weer te geven die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. De informatie omvat Live Activiteiten en Inactieve Activiteiten.
 
 ![](assets/offer-card-usage.png)
 
@@ -86,7 +86,7 @@ De volgende informatie is beschikbaar:
 * Type URL omleiden
 * Absolute of relatieve URL
 
-## Trainingsvideo: De ![overzichtsbadge Inhoudsopslagplaats](/help/assets/overview.png)
+## Trainingsvideo: De inhoudopslagplaats ![Overzichtsbadge](/help/assets/overview.png)
 
 Deze video bevat informatie over het beheer van aanbiedingen.
 
