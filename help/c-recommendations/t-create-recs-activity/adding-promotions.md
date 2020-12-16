@@ -12,15 +12,15 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) promoties toevoegen
+# ![](/help/assets/premium.png) PREMIUMAdd-promoties
 
 Voeg gepromoveerde objecten toe en controleer de plaatsing ervan in Adobe Target Recommendations-ontwerpen. U kunt statische en dynamische promoties toevoegen.
 
 >[!IMPORTANT]
 >
->Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie de Dynamische en Statische Regels [van de Insluiting van het](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)Gebruik.
+>Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie [Dynamische en Statische Regels van de Insluiting gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-Wanneer u een [!DNL Recommendations] activiteit maakt, kunt u gepromoveerde objecten in uw [!DNL Recommendations] ontwerp opnemen. De bevorderingen gebruiken beschikbare groeven in een ontwerp en nemen belangrijkheid over criteria resultaten en reserveaanbevelingen. Als uw ontwerp bijvoorbeeld zes sleuven heeft en u er twee gebruikt voor speciale acties, zijn er vier sleuven beschikbaar voor aanbevolen items op basis van criteria.
+Wanneer u een [!DNL Recommendations] activiteit creeert, hebt u de optie om bevorderd punten in uw [!DNL Recommendations] ontwerp op te nemen. De bevorderingen gebruiken beschikbare groeven in een ontwerp en nemen belangrijkheid over criteria resultaten en reserveaanbevelingen. Als uw ontwerp bijvoorbeeld zes sleuven heeft en u er twee gebruikt voor speciale acties, zijn er vier sleuven beschikbaar voor aanbevolen items op basis van criteria.
 
 Aanbiedingen worden gededupliceerd ten opzichte van objecten die worden aanbevolen op basis van de criteria voor je activiteit. Een bepaald object wordt dus niet twee keer weergegeven in één aanbevolen lade.
 
@@ -32,16 +32,16 @@ U kunt specifieke objecten promoten, objecten dynamisch promoten, objecten promo
 >
 >Met promoties wijzigt u de CSV-structuur en -uitvoer. Deze wijzigingen kunnen van invloed zijn op externe processen waarbij CSV wordt gebruikt, zoals e-mail.
 
-1. Klik op de **[!UICONTROL Options]** pagina op de **[!UICONTROL Front Promotion]** of **[!UICONTROL Back Promotion]** schakeloptie.
+1. Klik op de **[!UICONTROL Options]**-pagina op de schakeloptie **[!UICONTROL Front Promotion]** of **[!UICONTROL Back Promotion]**.
 
-   In de volgende afbeelding ziet u de [!UICONTROL Front Promotion] schakeloptie op de positie &quot;Aan&quot;.
+   In de volgende afbeelding ziet u de schakeloptie [!UICONTROL Front Promotion] in de positie &quot;Aan&quot;.
 
    ![Voorste-promotieopties toevoegen](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
-   Je kunt promoties invoegen voor *en na de resultaten van* je criteria.
+   U kunt bevorderingen zowel vóór *als* na uw criteria resultaten opnemen.
 1. Stel het aantal sleuven voor ontwerpen in dat moet worden gebruikt voor gepromoveerde items.
 
-   Afhankelijk van uw [!DNL Recommendations] ontwerp kunt u maximaal 20 sleuven gebruiken. Elke sleuf die u gebruikt, is niet beschikbaar voor aanbevelingen die op basis van uw criteria worden geretourneerd.
+   U kunt maximaal 20 sleuven gebruiken, afhankelijk van uw [!DNL Recommendations]-ontwerp. Elke sleuf die u gebruikt, is niet beschikbaar voor aanbevelingen die op basis van uw criteria worden geretourneerd.
 
 1. Stel een begin- en einddatum in voor je gepromoveerde objecten.
 
@@ -49,32 +49,32 @@ U kunt specifieke objecten promoten, objecten dynamisch promoten, objecten promo
 
 1. Selecteer een **[!UICONTROL Promotion Type]**.
 
-   * Selecteer **[!UICONTROL List of items]** en voer de `entity.id` waarden in, gescheiden door komma&#39;s, van de specifieke items die u wilt promoten.
+   * Selecteer **[!UICONTROL List of items]** en voer de waarden `entity.id`, gescheiden door komma&#39;s, in van de specifieke items die u wilt bevorderen.
 
-   * Selecteer **[!UICONTROL Promote by attribute]** en voeg regels toe om de kenmerken te definiëren van de items die u wilt promoten.
+   * Selecteer **[!UICONTROL Promote by attribute]** en voeg regels toe om de attributen van de punten te bepalen u wilt bevorderen.
 
-      Als u Promote by Attribute selecteert, kunt u dynamische gelijken tot stand brengen. Zie Dynamische en statische [insluitingsregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)gebruiken voor meer informatie.
+      Als u Promote by Attribute selecteert, kunt u dynamische gelijken tot stand brengen. Zie [Dynamische en statische insluitingsregels gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F) voor meer informatie.
 
-   * Selecteer **[!UICONTROL Promote a collection]** en kies de verzameling objecten die u wilt promoten.
+   * Selecteer **[!UICONTROL Promote a collection]** en kies de inzameling van punten u wilt bevorderen.
 
-      U kunt nieuwe verzamelingen maken die u voor promoties wilt gebruiken. Zie [Een verzameling](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) maken voor meer informatie.
-   Als u **[!UICONTROL List of Items]** als **[!UICONTROL Promotion Type]** de optie kiest, kunt u desgewenst het **[!UICONTROL Randomize Item Order]** selectievakje inschakelen.
+      U kunt nieuwe verzamelingen maken die u voor promoties wilt gebruiken. Zie [Een verzameling maken](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) voor meer informatie.
+   Als u **[!UICONTROL List of Items]** als **[!UICONTROL Promotion Type]** kiest, kunt u **[!UICONTROL Randomize Item Order]** controledoos selecteren, indien gewenst.
 
-   De standaardsorteervolgorde voor [!UICONTROL List of Items] is gebaseerd op de volgorde die u hebt ingevoerd in de doelinterface of -API. Als uw lijst meer items bevat dan het aantal sleuven dat u instelt voor speciale acties, worden de gepromoveerde items die in uw ontwerp worden weergegeven, door de [!UICONTROL Randomize Item Order] optie willekeurig ingedeeld. Als u deze optie kiest, worden de objecten die voor speciale acties in de template zijn ingeschakeld, willekeurig geselecteerd uit de hele set voor speciale acties bij elke treffer. [!DNL Target]
+   De standaardsorteervolgorde voor [!UICONTROL List of Items] is gebaseerd op de volgorde die u hebt ingevoerd in de doelinterface of -API. Als uw lijst meer items bevat dan het aantal sleuven dat u instelt voor speciale acties, worden de gepromoveerde items die in uw ontwerp worden weergegeven, door de optie [!UICONTROL Randomize Item Order] willekeurig ingedeeld. Als u deze optie kiest, worden de voor promoties in de sjabloon ingeschakelde objecten op willekeurige wijze geselecteerd uit de gehele set voor speciale acties op elke hit.[!DNL Target]
 
-   Als uw entiteiten geen `entity.value` attribuut hebben (bijvoorbeeld, verkoopt u geen producten) kunt u een numerieke waarde in het `entity.value` attribuut, zoals de het publiceren datum overgaan. In dit geval kunnen gepromoveerde objecten op basis van de meest recente publicatiedatum in aflopende volgorde worden gepromoot. Het `entity.value` kenmerk is van het type double; tekenreeksen worden niet geaccepteerd.
+   Als uw entiteiten geen `entity.value` attribuut hebben (bijvoorbeeld, verkoopt u geen producten) kunt u een numerieke waarde in het `entity.value` attribuut, zoals de het publiceren datum overgaan. In dit geval kunnen gepromoveerde objecten op basis van de meest recente publicatiedatum in aflopende volgorde worden gepromoot. Het `entity.value` attribuut is van type dubbel; tekenreeksen worden niet geaccepteerd.
 
-   Als u de optie **[!UICONTROL Promote by Attribute]** of **[!UICONTROL Promote a Collection]** optie hebt geselecteerd, is de optie om de volgorde te randomiseren niet van toepassing.
+   Als u de optie **[!UICONTROL Promote by Attribute]** of **[!UICONTROL Promote a Collection]** hebt geselecteerd, is de optie om de volgorde te randomiseren niet van toepassing.
 
-   Wanneer u bepaalde items promoot met behulp van de opties [!UICONTROL Promote by Attribute] of [!UICONTROL Promote a Collection] opties, is de standaardvolgorde waarin items worden weergegeven, gebaseerd op het `entity.value` kenmerk, in aflopende numerieke volgorde.
+   Wanneer specifieke items worden bevorderd met de opties [!UICONTROL Promote by Attribute] of [!UICONTROL Promote a Collection], wordt de standaardvolgorde waarin items worden weergegeven, gebaseerd op het kenmerk `entity.value`, in aflopende numerieke volgorde.
 
    In de volgende tabel worden de verschillen tussen deze opties weergegeven:
 
    | Type aanbieding | Standaardsortering | Back-upsortering | Dynamische filteroptie |
    | --- | --- | --- | --- |
    | Lijst met items | De volgorde die is ingevoerd in de doelgebruikersinterface/API | Willekeurig (indien geselecteerd via UI/API | Nee |
-   | Promoten op kenmerk | `entity.value` (aflopende volgorde) | Gerandomiseerd op elke aanvraag (wanneer geen `entity.value` kenmerk aanwezig is) | Ja |
-   | Een verzameling promoten | `entity.value` (aflopende volgorde) | Gerandomiseerd op elke aanvraag (wanneer geen `entity.value` kenmerk aanwezig is) | Nee |
+   | Promoten op kenmerk | `entity.value` (aflopende volgorde) | Gerandomiseerd op elk verzoek (wanneer geen `entity.value` attribuut aanwezig is) | Ja |
+   | Een verzameling promoten | `entity.value` (aflopende volgorde) | Gerandomiseerd op elk verzoek (wanneer geen `entity.value` attribuut aanwezig is) | Nee |
 
 1. Klik op **[!UICONTROL Save]**.
 
