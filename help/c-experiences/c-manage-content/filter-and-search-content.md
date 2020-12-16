@@ -23,15 +23,15 @@ Deze sectie bevat de volgende informatie:
 
 ## Middelen zoeken op trefwoord {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** om het dialoogvenster te openen [!UICONTROL Asset Library].
+1. Klik **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** om tot [!UICONTROL Asset Library] toegang te hebben.
 
-   U kunt op het [!UICONTROL Card View] pictogram in de rechterbovenhoek klikken om elementen weer te geven in de vorm van de kaartweergave.
+   U kunt op het pictogram [!UICONTROL Card View] in de rechterbovenhoek klikken om elementen weer te geven in de vorm van de kaartweergave.
 
    of
 
-   U kunt op het [!UICONTROL List View] pictogram in de rechterbovenhoek klikken om elementen weer te geven in de indeling voor de lijstweergave.
+   U kunt op het pictogram [!UICONTROL List View] in de rechterbovenhoek klikken om elementen weer te geven in de indeling voor de lijstweergave.
 
-1. Klik op het **[!UICONTROL Content Only]** pictogram in de linkerbovenhoek om het zoekvak weer te geven.
+1. Klik op het pictogram **[!UICONTROL Content Only]** in de linkerbovenhoek om het zoekvak weer te geven.
 
    ![](assets/search_assets.png)
 
@@ -41,28 +41,28 @@ Deze sectie bevat de volgende informatie:
 
 U kunt opgeslagen zoekopdrachten maken, slimme verzamelingen genoemd, zodat u tijd bespaart wanneer u vergelijkbare zoekopdrachten uitvoert. Een opgeslagen zoekopdracht maakt een slimme verzameling die automatisch wordt bijgewerkt met zoekresultaten.
 
-1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** om het dialoogvenster te openen [!UICONTROL Assets Library].
+1. Klik **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** om tot [!UICONTROL Assets Library] toegang te hebben.
 
    ![](assets/content.png)
 
-1. Klik op het **[!UICONTROL Content Only]** pictogram in de linkerbovenhoek om het [!UICONTROL Filter & Options] deelvenster weer te geven in de linkerspoorstaaf.
-1. Klik op het **[!UICONTROL Browse]** pictogram om het [!UICONTROL Select Path] dialoogvenster weer te geven.
+1. Klik op het pictogram **[!UICONTROL Content Only]** in de linkerbovenhoek om het deelvenster [!UICONTROL Filter & Options] in de linkertrack weer te geven.
+1. Klik op het pictogram **[!UICONTROL Browse]** om het dialoogvenster [!UICONTROL Select Path] weer te geven.
 
    ![](assets/browse_folders.png)
 
-1. Blader naar de gewenste map waarop u de slimme verzameling wilt baseren en selecteer deze. Klik vervolgens op het **[!UICONTROL Confirm]** pictogram.
+1. Blader naar de gewenste map waarop u de slimme verzameling wilt baseren en selecteer deze. Klik vervolgens op het pictogram **[!UICONTROL Confirm]**.
 
    ![](assets/browse_folders2.png)
 
 1. (Optioneel) Maak een keuze uit de verschillende opties om het filter te beperken, bijvoorbeeld bestandstype en -grootte.
-1. Klik onder **[!UICONTROL Save Smart Collection]** in het [!UICONTROL Filter & Options] deelvenster om de opties voor Opslaan weer te geven.
+1. Klik op **[!UICONTROL Save Smart Collection]** onder in het deelvenster [!UICONTROL Filter & Options] om de opties voor Opslaan weer te geven.
 
    ![](assets/save_smart_collection_options.png)
 
-1. Geef een naam voor de slimme verzameling op en schakel het **[!UICONTROL Public]** selectievakje in als u wilt dat alle gebruikers in uw [!DNL Target] account toegang hebben tot deze slimme verzameling. Klik vervolgens op **[!UICONTROL Save]**.
+1. Geef een naam voor de slimme verzameling op en selecteer het selectievakje **[!UICONTROL Public]** als u wilt dat alle gebruikers in uw [!DNL Target]-account toegang hebben tot deze slimme verzameling en klik vervolgens op **[!UICONTROL Save]**.
 
    De slimme verzameling wordt toegevoegd aan de lijst met opgeslagen zoekopdrachten voor toekomstig gebruik:
 
    ![](assets/saved_smart_collection.png)
 
-U kunt een opgeslagen slimme verzameling bewerken door deze in de [!UICONTROL Saved Searches] vervolgkeuzelijst te selecteren om deze te openen en vervolgens te klikken [!UICONTROL Edit Smart Collection].
+U kunt een opgeslagen slimme verzameling bewerken door deze in de vervolgkeuzelijst [!UICONTROL Saved Searches] te selecteren en vervolgens op [!UICONTROL Edit Smart Collection] te klikken.
