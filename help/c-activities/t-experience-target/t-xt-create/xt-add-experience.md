@@ -14,35 +14,35 @@ ht-degree: 0%
 
 # Ervaring maken{#create-experience}
 
-( [!UICONTROL Visual Experience Composer] VEC) verstrekt een visuele interface voor het uitgeven van de ervaringen op uw pagina in een [!UICONTROL Experience Targeting] (XT) activiteit.
+De [!UICONTROL Visual Experience Composer] (VEC) verstrekt een visuele interface voor het uitgeven van de ervaringen op uw pagina in een [!UICONTROL Experience Targeting] (XT) activiteit.
 
 1. Selecteer de elementen die u wilt wijzigen en breng de gewenste wijzigingen aan.
 
-   Tijdens het [maken van een XT-activiteit](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), geeft stap één van de driedelige geleide workflow ([!UICONTROL Experiences]) de standaardinstelling [!UICONTROL Experience A] met een [!UICONTROL All Visitors] publiek weer.
+   Terwijl [het creëren van een XT activiteit](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), stap één van de driedelige geleide werkschema ([!UICONTROL Experiences]) toont het gebrek [!UICONTROL Experience A] met een [!UICONTROL All Visitors] publiek.
 
    ![Alle bezoekers](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Wijzigingen die u aanbrengt, zijn nu van toepassing op Experience A. In een onderstaande stap gaat u klikken **[!UICONTROL Add Experience Targeting]** om meer ervaringen te creëren.
+   Wijzigingen die u aanbrengt, zijn nu van toepassing op Experience A. In een onderstaande stap klikt u op **[!UICONTROL Add Experience Targeting]** om extra ervaringen te creëren.
 
-   Terwijl u de elementen op de pagina plaatst, worden de elementen gemarkeerd. Om het even welk benadrukt element kan worden veranderd gebruikend VEC. Voor een lijst van acties die op een element kunnen worden uitgevoerd om de ervaring te veranderen, zie de Opties [van Composer van de](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)Visuele Ervaring.
+   Terwijl u de elementen op de pagina plaatst, worden de elementen gemarkeerd. Om het even welk benadrukt element kan worden veranderd gebruikend VEC. Voor een lijst van acties die op een element kunnen worden uitgevoerd om de ervaring te veranderen, zie [Opties van Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Als u een [!DNL Target] verzoek op de pagina gebruikend creeerde [!DNL Target Classic], verschijnt dat [!DNL Target] verzoek als element dat de verzoeknaam toont, en kan als een ander element worden gewijzigd.
+   Als u een [!DNL Target] verzoek op de pagina gebruikend [!DNL Target Classic] creeerde, dat [!DNL Target] verzoek als element verschijnt dat de verzoeknaam toont, en kan als elk ander element worden gewijzigd.
 
    >[!NOTE]
    >
    >Standaard staat de VEC geen wijzigingen toe in elementen die JavaScript bevatten, zoals draaiende banners. U kunt selecteren om JavaScript onbruikbaar te maken om die elementen te veranderen gebruikend VEC.
 
-1. Klik op **[!UICONTROL Add Experience Targeting]** voor meer ervaringen.
+1. Klik op **[!UICONTROL Add Experience Targeting]** om extra ervaringen op te doen.
 
    ![Koppeling Ervaring instellen toevoegen](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   Het [!UICONTROL Choose Audience] dialoogvenster wordt weergegeven. Als u een ervaring wilt toewijzen aan een publiek, moet u het publiek selecteren voordat u een ervaring kunt toevoegen.
+   Het dialoogvenster [!UICONTROL Choose Audience] wordt weergegeven. Als u een ervaring wilt toewijzen aan een publiek, moet u het publiek selecteren voordat u een ervaring kunt toevoegen.
 
-   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target]. U kunt een publiek selecteren in de bibliotheek of een nieuw publiek [](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)maken.
+   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief enkele algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target]. U kunt een publiek selecteren uit de bibliotheek of [een nieuw publiek maken](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
-   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie Meerdere soorten publiek [combineren voor meer informatie](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie [Meerdere soorten publiek combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) voor meer informatie.
 
    Wanneer u een publiek maakt, kunt u een locatie selecteren en parameters voor die locatie opgeven. Selecteer onder [!UICONTROL Custom] (Audience maken > Regel toevoegen > Aangepast) de locatie en geef vervolgens de gewenste parameters op.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
    >
    >Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de publiekslijst opent en het geïmporteerde publiek langer dan 10 minuten oud is.
 
-1. Selecteer een of meer soorten publiek voor de ervaring en klik op **[!UICONTROL Done]**.
+1. Selecteer een of meer soorten publiek die u wilt aanwijzen met de ervaring en klik op **[!UICONTROL Done]**.
 
    ![Ervaring B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## Ervaring hernoemen of bewerken
 
-U kunt op het [!UICONTROL Edit] pictogram (drie verticale ovalen) klikken voor een ervaring in een XT-activiteit en indien nodig een van de volgende opties kiezen:
+U kunt op het pictogram [!UICONTROL Edit] (drie verticale ellipsen) op een ervaring in een activiteit van de XT klikken en van de volgende opties kiezen, zonodig:
 
 * Naam wijzigen
 * Bewerken
@@ -93,7 +93,7 @@ U kunt op het [!UICONTROL Edit] pictogram (drie verticale ovalen) klikken voor e
 
 ## Een ervaring verwijderen
 
-Klik op de **[!UICONTROL Experiences]** pagina (de eerste stap in de driestappenworkflow met instructies) op de drie verticale ellipsen > **[!UICONTROL Delete]**.
+Klik op de pagina **[!UICONTROL Experiences]** (de eerste stap in de driestapige geleide workflow) op de drie verticale ellipsen > **[!UICONTROL Delete]**.
 
 ![Ervaring verwijderen](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
@@ -101,7 +101,7 @@ Klik op de **[!UICONTROL Experiences]** pagina (de eerste stap in de driestappen
 
 U kunt een ervaring in een XT-activiteit kopiëren zodat u er kleine wijzigingen in kunt aanbrengen zonder dat u de ervaring helemaal opnieuw hoeft te maken.
 
-Klik op de **[!UICONTROL Experiences]** pagina (de eerste stap in de driestappenworkflow met instructies) op de drie verticale ellipsen > **[!UICONTROL Duplicate]**.
+Klik op de pagina **[!UICONTROL Experiences]** (de eerste stap in de driestapige geleide workflow) op de drie verticale ellipsen > **[!UICONTROL Duplicate]**.
 
 ![Dubbele ervaring](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -123,7 +123,7 @@ In deze video wordt beschreven hoe u A/B Testen naar een hoger niveau kunt tille
 
 In deze video worden de activiteitstypen uitgelegd die beschikbaar zijn in Target Standard/Premium. Experience Targeting wordt besproken vanaf 5:15.
 
-* Beschrijf de soorten activiteiten die onder [!DNL Adobe Target]
+* Beschrijf de soorten activiteiten inbegrepen in [!DNL Adobe Target]
 * Selecteer het juiste type activiteit om uw doelen te bereiken
 * Beschrijf de driestappenworkflow met instructies die van toepassing is op alle typen activiteiten
 
