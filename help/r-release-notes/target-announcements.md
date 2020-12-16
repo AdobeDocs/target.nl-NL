@@ -20,7 +20,7 @@ Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van de
 
 Adobe kreeg de naam Leader in de Forrester Wave: Experience Optimization Platforms, Q4 2020 rapport voor zijn aanbieding in deze ruimte, Adobe Target Premium. Adobe heeft de hoogste score van alle deelnemende leveranciers behaald in de huidige aanbiedings- en marktaanwezigheidscategorieën, alsook in de aanbevelingen en criteria voor de ervaring met platforms. Target Premium behaalde ook de hoogst mogelijke score in de ervaring optimalisatietechniek innovatie en ondersteunende servicecriteria. Het verslag is gebaseerd op een grondige evaluatie van 10 aanbieders van het optimalisatieplatform voor ervaringen op 22 verschillende criteria.
 
-Lees er op de [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)over.
+Lees hier over op het [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
 
 ## Adobe noemde opnieuw een leider in het Gartner Magic Quadrant voor verpersoonlijkingsmotoren
 
@@ -38,7 +38,7 @@ In dit geregistreerde webinar bespreken de productdeskundigen van Adobe Target h
 
 ## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
-* **Klik hier om de [Webinar-opname](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)weer te geven.**
+* **Klik hier om de  [Webinar-opname](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true) weer te geven.**
 
 McKinsey Digital meldt dat &quot;we vijf jaar vooruit hebben gespaard in de digitale adoptie van consumenten en bedrijven in een kwestie van ongeveer acht weken.&quot; *
 
@@ -50,10 +50,10 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 * Hoe AI &amp; Analytics hun inspanningen versnellen en duidelijke, significante bedrijfsgevolgen verstrekken
 * Hoe HSBC een succesvol programma op schaal heeft opgezet dat meer dan 3000 activiteiten levert
 
-*McKinsey-artikel: &quot;[Het herstel van COVID-19 zal digitaal](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)zijn,&quot; mei 2020
+*McKinsey-artikel: &quot;[De terugwinning COVID-19 zal digitaal](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot;Mei 2020 zijn
 
-## Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js {#skill-builder}
+## Adobe Target Skill Builder: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js {#skill-builder}
 
 Met de aanstaande afzetting van mbox.js op 18 januari 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
 
-[Bekijk hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)de webinar opname.
+[Bekijk hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true) de webinar opname.
