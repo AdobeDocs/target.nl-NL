@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Voorvertoning voor mobiele doelversie{#target-mobile-preview}
+# Doelmobiele voorvertoning{#target-mobile-preview}
 
 Gebruik de koppeling voor mobiele voorvertoningen om eenvoudige end-to-end QA&#39;s voor mobiele app-activiteiten uit te voeren en uzelf in te schrijven voor verschillende ervaringen op uw apparaat zonder speciale testapparaten.
 
@@ -26,14 +26,14 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
 ## Vereisten {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **Gebruik een ondersteunde versie van de SDK:** Voor de functie voor mobiele voorvertoningen moet u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloaden en installeren in de corresponderende apps.
+1. **Gebruik een ondersteunde versie van de SDK:** de functie voor mobiele voorvertoningen vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK in de corresponderende apps downloadt en installeert.
 
    Voor instructies voor het downloaden van de juiste SDK raadpleegt u:
 
-   * **iOS:** [Voordat u begint](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) in de iOS Help bij *Mobile Services*.
-   * **Android:** [Voordat u begint](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) in de Android Help bij *Mobiele services*.
+   * **iOS:** [Voordat u ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) begint met de iOS Help bij  *Mobile Services*.
+   * **Android:** [Voordat u ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) begint met de Android Help *voor* mobiele services.
 
-1. **Een URL-schema instellen:** De voorbeeldkoppeling gebruikt een URL-schema om uw app te openen. U moet een uniek URL-schema opgeven voor de voorvertoning.
+1. **Een URL-schema instellen:** de voorbeeldkoppeling gebruikt een URL-schema om uw app te openen. U moet een uniek URL-schema opgeven voor de voorvertoning.
 
    De volgende illustratie is een voorbeeld op iOS:
 
@@ -45,7 +45,7 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
 1. **Track Adobe DeepLink**
 
-   **iOS:** In app afgevaardigde, vraag `[ADBMobile trackAdobeDeepLink:url` wanneer de afgevaardigde wordt gevraagd om het middel met het URL- schema te openen dat in de vorige stap werd gespecificeerd.
+   **iOS:** In de toepassingsafgevaardigde, roep  `[ADBMobile trackAdobeDeepLink:url` wanneer de afgevaardigde wordt gevraagd om het middel met het URL-schema te openen dat in de vorige stap werd gespecificeerd.
 
    Het volgende codefragment is een voorbeeld:
 
@@ -61,7 +61,7 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
    } 
    ```
 
-   **Android:** Roep in de app aan `Config.trackAdobeDeepLink(URL);` wanneer de aanroeper wordt gevraagd de bron te openen met het URL-schema dat in de vorige stap is opgegeven.
+   **Android:** Roep in de app aan  `Config.trackAdobeDeepLink(URL);` wanneer de aanroeper wordt gevraagd de bron te openen met het URL-schema dat in de vorige stap is opgegeven.
 
    ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
@@ -76,15 +76,15 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
      }
    ```
 
-   Als u mobiele voorvertoning wilt laten werken voor Android, moet u ook het volgende codefragment toevoegen in [!DNL AndroidManifest.xml]:
+   Als u Mobiele voorvertoning wilt laten werken voor Android, moet u ook het volgende codefragment toevoegen in [!DNL AndroidManifest.xml]:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
-## Een voorbeeldkoppeling genereren {#section_D9D58173FFF34E9BB75EBF357273F128}
+## Een voorbeeldkoppeling {#section_D9D58173FFF34E9BB75EBF357273F128} genereren
 
-1. Klik in de interface Doel op het **[!UICONTROL More Options]** pictogram (drie verticale ellipsen) en selecteer **[!UICONTROL Create Mobile Preview]**.
+1. Klik in de interface Doel op het pictogram **[!UICONTROL More Options]** (drie verticale ellips) en selecteer **[!UICONTROL Create Mobile Preview]**.
 
    ![](assets/mobile-preview-create.png)
 
@@ -102,7 +102,7 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
 
    ![](assets/mobile-preview-enter-url-scheme.png)
 
-1. Klik **[!UICONTROL Generate Mobile Preview Link]** en kopieer de koppeling.
+1. Klik **[!UICONTROL Generate Mobile Preview Link]**, dan kopieer de verbinding.
 
    ![](assets/mobile-preview-generate-and-copy.png)
 
@@ -114,16 +114,16 @@ Open de koppeling in een mobiele browser op een apparaat waarop uw app is geïns
 
    Deel de koppeling die u in de vorige stap van de doelgebruikersinterface naar uw mobiele apparaat hebt gekopieerd op een handige manier, bijvoorbeeld met tekst, e-mail of Slack.
 
-   |![voorvertoning van diepe koppeling 1](/help/c-target-mobile-app/assets/mobile-preview-open-deeplink.png)|![voorvertoning van diepe koppeling 2](/help/c-target-mobile-app/assets/mobile-preview-open-app.png)|
+   |![voorproef diepe verbinding 1](/help/c-target-mobile-app/assets/mobile-preview-open-deeplink.png)|![voorproef diepe verbinding 2](/help/c-target-mobile-app/assets/mobile-preview-open-app.png)|
 
    Uw app wordt geopend en de modus Mobiele voorvertoning voor doelapparaten wordt gestart.
 
 1. Selecteer de combinatie ervaringen die u wilt zien, dan klik **[!UICONTROL Launch Experiences]**.
 
    |![mobiele voorvertoning 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobiele voorvertoning 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobiele voorvertoning 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
-|![mobiele voorvertoning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobiele voorvertoning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobiele voorvertoning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
+|![Mobiele voorvertoning 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![Mobiele voorvertoning 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![Mobiele voorvertoning 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
 
 ## Beperkingen {#section_4E9BDED0F718485292527EFB508305BD}
 
-* De nieuwe inhoud wordt pas weergegeven nadat op de [!UICONTROL Launch Experiences] knop is geklikt als de weergave opnieuw wordt geladen. De eenvoudigste manier is om over te schakelen op een ander scherm en vervolgens terug te keren naar het scherm waar de wijziging naar verwachting zal plaatsvinden.
+* De nieuwe inhoud wordt pas weergegeven nadat op de knop [!UICONTROL Launch Experiences] is geklikt. De weergave moet opnieuw worden geladen. De eenvoudigste manier is om over te schakelen op een ander scherm en vervolgens terug te keren naar het scherm waar de wijziging naar verwachting zal plaatsvinden.
 * Mobiele voorvertoning wordt niet ondersteund voor Android-versies ouder dan API-19 (KitKat).
