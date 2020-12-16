@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Gebruik cloudgebaseerde instanties met Doel{#use-cloud-based-instances-with-target}
 
-Informatie over problemen waarmee klanten worden geconfronteerd wanneer ze cloudgebaseerde instanties gebruiken om te testen [!DNL Adobe Target].
+Informatie over problemen waarmee klanten worden geconfronteerd wanneer ze cloudgebaseerde instanties gebruiken om [!DNL Adobe Target] te testen.
 
-De doelklanten gebruiken soms op wolk-gebaseerde instanties met [!DNL Target] voor het testen of eenvoudige proef-van-concept doeleinden. Deze instanties kunnen de volgende domeinen omvatten:
+Doelklanten gebruiken soms cloudgebaseerde instanties met [!DNL Target] voor testdoeleinden of eenvoudige concepttest-doeleinden. Deze instanties kunnen de volgende domeinen omvatten:
 
-`azurewebsites.net`, `cloudapp.net`, `amazonaws.com`, `cloudfront.net`, `herokuapp.com`of `firebaseapp.com`
+`azurewebsites.net`,  `cloudapp.net`,  `amazonaws.com`,  `cloudfront.net`,  `herokuapp.com`of  `firebaseapp.com`
 
-Deze domeinen, en vele anderen, maken deel uit van de [Openbare Lijst](https://publicsuffix.org/list/public_suffix_list.dat)van het Achtervoegsel.
+Deze domeinen, en vele anderen, maken deel uit van [Openbare Achtervoegsellijst](https://publicsuffix.org/list/public_suffix_list.dat).
 
-**Probleem:** Moderne browsers slaan geen cookies op als u deze domeinen gebruikt.
+**Probleem:** moderne browsers slaan geen cookies op als u deze domeinen gebruikt.
 
-De [!DNL at.js] JavaScript- en [!DNL mbox.js] JavaScript-bibliotheken gebruiken cookies om gebruikers bij te houden, zodat deze [!DNL Target] altijd een consistente ervaring hebben. Als de [!DNL Target] JavaScript-bibliotheken geen cookies kunnen opslaan, worden [!DNL Target] aanvragen uitgeschakeld.
+De JavaScript-bibliotheken [!DNL at.js] en [!DNL mbox.js] gebruiken cookies om gebruikers bij te houden om ervoor te zorgen dat [!DNL Target] altijd een consistente ervaring biedt. Als de [!DNL Target] JavaScript-bibliotheken geen cookies kunnen opslaan, worden [!DNL Target]-aanvragen uitgeschakeld.
 
-**Oplossing:** Als beste praktijken, als u op wolk-gebaseerde instanties met domeinen wilt gebruiken inbegrepen op de Openbare Lijst van het Achtervoegsel, zorg ervoor dat u het `cookieDomain` plaatsen aanpast. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)voor meer informatie.
+**Oplossing:** Als beste praktijken, als u op wolk-gebaseerde instanties met domeinen inbegrepen op de Openbare Lijst van het Achtervoegsel van het Hoogtepunt wilt gebruiken, zorg ervoor dat u het  `cookieDomain` plaatsen aanpast. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
