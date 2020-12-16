@@ -18,13 +18,13 @@ Bij een handmatige A/B-activiteit kan het zijn dat u conversies verliest, omdat 
 
 ## Automatisch verkeer toewijzen
 
-Als u een optie wilt om de het winnen ervaring in de activiteit vaker en vroeger te dienen terwijl tegelijkertijd het verwijderen of het verminderen van de opstelling en de berekeningskosten van het plukken van steekproefgrootte, betrouwbaarheidsniveaus, en andere statistische concepten, [!UICONTROL Auto-Allocate] is uw beste optie.
+Als u een optie wilt om de het winnen ervaring in de activiteit vaker en vroeger te dienen terwijl tegelijkertijd het verwijderen van of het drukken van de opstelling en de berekeningskosten van het plukken van steekproefgrootte, betrouwbaarheidsniveaus, en andere statistische concepten, [!UICONTROL Auto-Allocate] is uw beste optie.
 
 ## Hoe werkt Automatisch toewijzen?
 
 [!UICONTROL Auto-Allocate] gebruikt het beginsel van de multigewapende bandit. Als de termijn onbekend is, is een één-gewapende bandit een colloquium voor een groefmachine (denk: Las Vegas). Visualiseer automatisch toewijzen van verkeer als het hebben van veelvoudige groefmachines, in dit geval, testvariaties, en bij het eerste trekken van alle handvatten gelijk. In de loop der tijd kunnen een of meer machines, of testvariaties, meer betalen dan andere. Als dit gebeurt, zou een gamer natuurlijk de handgrepen gaan trekken van degenen die vaker winnen. In termen van verkeerstoewijzing, [!DNL Adobe Target] zal meer bezoekers de ervaring of ervaringen dienen die meer winnen.
 
-Bekijk de volgende illustratie van een twee weken durende A/B activiteit. Nu [!UICONTROL Auto-Allocate]er een winnende ervaring opdoet, [!UICONTROL Target] leidt meer van het verkeer naar die winnaar in een vroeg stadium van de test.
+Bekijk de volgende illustratie van een twee weken durende A/B activiteit. Met [!UICONTROL Auto-Allocate] leidt [!UICONTROL Target], aangezien een het winnen ervaring voortkomt, meer van het verkeer aan die winnaar vroeg in de test af.
 
 ![Illustratie automatisch toewijzen](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
@@ -34,9 +34,9 @@ De opwaartse kant is vrij duidelijk: meer bezoekers zien de variaties die het be
 
 ## Hoe kan Automatisch toewijzen me hogere inkomsten geven?
 
-[!UICONTROL Auto-Allocate] vindt de winnaar sneller dan een handmatige splitsing A/B, en staat u ook toe om die winnaar te exploiteren onmiddellijk het vangen van opwaartse inkomsten die in een traditionele of handmatige benadering zouden verloren zijn gegaan. Omdat [!UICONTROL Auto-Allocate] meer verkeer naar de ervaring met de hoogste omzettingspercentage leidt, kan het uw opbrengst verhogen terwijl de activiteit loopt en leert.
+[!UICONTROL Auto-Allocate] vindt de winnaar sneller dan een handmatige splitsing A/B, en staat u ook toe om die winnaar te exploiteren onmiddellijk het vangen van opwaartse inkomsten die in een traditionele of handmatige benadering zouden verloren zijn gegaan. Omdat [!UICONTROL Auto-Allocate] meer verkeer aan de ervaring met de hoogste omzettingspercentage leidt, kan het uw opbrengst verhogen terwijl de activiteit loopt en leert.
 
-In het volgende voorbeeld [!UICONTROL Auto-Allocate] werd tijdens de test meer inkomsten behaald door meer verkeer (40%) naar Experience D te duwen, die de hoogste omrekeningskoers had.
+In het volgende voorbeeld heeft [!UICONTROL Auto-Allocate] tijdens de test meer inkomsten gekregen door meer verkeer (40%) naar Experience D te duwen, die de hoogste conversiesnelheid had.
 
 ![Automatisch toewijzen biedt een hogere inkomstenillustratie](/help/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
@@ -46,5 +46,5 @@ Wanneer u de rangorde van elke ervaring ten opzichte van de andere moet bepalen,
 
 ## Aan de slag
 
-Klaar om uw eerste [!UICONTROL Auto-Allocate] activiteit te starten? [Leer hier](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)hoe.
+Klaar om uw eerste [!UICONTROL Auto-Allocate] activiteit te lanceren? [Leer hier](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) hoe.
 
