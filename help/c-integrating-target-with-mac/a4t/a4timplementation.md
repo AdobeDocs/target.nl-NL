@@ -14,43 +14,43 @@ ht-degree: 0%
 
 # Analyses voor doelimplementatie{#analytics-for-target-implementation}
 
-Er zijn verschillende stappen vereist bij de implementatie [!DNL Adobe Analytics] als rapportagebron voor [!DNL Target] (A4T).
+Bij de implementatie van [!DNL Adobe Analytics] als rapportagebron voor [!DNL Target] (A4T) zijn verschillende stappen vereist.
 
-## Uitvoeringsstappen {#section_73961BAD5BB4430A95E073DE5C026277}
+## Implementatiestappen {#section_73961BAD5BB4430A95E073DE5C026277}
 
 In de volgende secties worden de stappen beschreven die nodig zijn om deze integratie op uw site te implementeren.
 
 ## Stap 1: Aanvoer aanvragen voor Analytics en Target
 
-Nadat u [!DNL Analytics] als rapporteringsbron voor uitvoert, moet u voor [!DNL Target]en [!DNL Analytics] [!DNL Target]worden provisioned. [Gebruik dit formulier om provisioning](http://www.adobe.com/go/audiences)aan te vragen.
+Nadat u [!DNL Analytics] als rapporteringsbron voor [!DNL Target] uitvoert, moet u provisioned voor [!DNL Analytics] en [!DNL Target] zijn. [Gebruik dit formulier om provisioning](http://www.adobe.com/go/audiences) aan te vragen.
 
 ## Stap 2: Gebruikersmachtigingen instellen
 
-Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een [!DNL Analytics]op basis van activiteiten kunt maken in [!DNL Target]. Zie [Gebruikersvereisten](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
+Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een op [!DNL Analytics] gebaseerde activiteit kunt maken in [!DNL Target]. Zie [Vereisten voor gebruikerstoestemming](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
 
 ## Stap 3: De service Experience Cloud Visitor ID implementeren
 
-Met de service bezoekersidentiteitskaart kunt u gebruikers identificeren voor verschillende [!DNL Adobe Experience Cloud] oplossingen. U moet de vereiste versie van de Experience Cloud Bezoeker-id implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
+Met de bezoekersidentiteitsservice kunt u gebruikers identificeren met verschillende [!DNL Adobe Experience Cloud]-oplossingen. U moet de vereiste versie van de Experience Cloud Bezoeker-id implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u](/help/c-integrating-target-with-mac/a4t/before-implement.md) implementeert voor meer informatie.
 
-Zie [Voer de Dienst van identiteitskaart van Experience Cloud voor Doel](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in de documentatie van de Dienst *van de* Bezoeker van Experience Cloud uit.
+Zie [De Experience Cloud ID-service voor doel implementeren](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in de *Experience Cloud-documentatie voor bezoekers-id Service*.
 
 ## Stap 4: AppMeasurement voor JavaScript of s_code bijwerken
 
-U moet de vereiste versie van appMeasurement.js implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
+U moet de vereiste versie van appMeasurement.js implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u](/help/c-integrating-target-with-mac/a4t/before-implement.md) implementeert voor meer informatie.
 
-Zie Overzicht [van](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript-implementatie in de *handleiding* Analytics Implementation voor nieuwe implementaties.
+Voor nieuwe implementaties, zie [Overzicht van de implementatie JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) in *de Gids van de Implementatie van Analytics*.
 
-Zie [Migreren naar AppMeasurement voor JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) in de *handleiding* voor analysetransplementatie voor een migratie.
+Voor een migratie, zie [Migrating to AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) in *Analytics Implementation Guide*.
 
 ## Stap 5: Downloaden en bijwerken om.js
 
 U moet de vereiste versie van at.js implementeren of migreren met uw productieaccount. De code hoeft niet te worden gewijzigd.
 
-Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
+Zie &quot;Implementatievereisten&quot; in [Voordat u](/help/c-integrating-target-with-mac/a4t/before-implement.md) implementeert voor meer informatie.
 
 ## Stap 6: Host om.js
 
-Als u eerder om.js opstelde, kunt u uw bestaand dossier met de bijgewerkte versie vervangen. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/c-integrating-target-with-mac/a4t/before-implement.md)voor meer informatie.
+Als u eerder om.js opstelde, kunt u uw bestaand dossier met de bijgewerkte versie vervangen. Zie &quot;Implementatievereisten&quot; in [Voordat u](/help/c-integrating-target-with-mac/a4t/before-implement.md) implementeert voor meer informatie.
 
 Anders kan dit bestand worden gehost samen met de bezoekersidentiteitsservice en AppMeasurement voor JavaScript-bestanden. Deze bestanden moeten worden gehost op een webserver die toegankelijk is voor alle pagina&#39;s op uw site. U hebt het pad naar deze bestanden nodig in de volgende stap.
 
@@ -67,9 +67,9 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 
 Het is van essentieel belang dat VisitorAPI.js vóór at.js wordt geladen. Als u een bestaand bestand van het type at.js of mbox.js bijwerkt, moet u de laadvolgorde controleren.
 
-De manier de uit-van-de-doos montages voor [!DNL Target] en [!DNL Analytics] integratie vanuit een implementatieperspectief wordt gevormd is SDID te gebruiken die van de pagina wordt overgegaan om het [!DNL Target] en [!DNL Analytics] verzoek samen op de achtergrond automatisch voor u te verbinden.
+De manier de uit-van-de-doos montages voor [!DNL Target] en [!DNL Analytics] integratie uit een implementatieperspectief wordt gevormd is SDID te gebruiken die van de pagina wordt overgegaan om [!DNL Target] en [!DNL Analytics] verzoek samen op het achterste eind automatisch voor u te binden.
 
-Als u echter meer controle wilt hebben over hoe en wanneer u analysegegevens wilt verzenden die betrekking hebben [!DNL Target] op [!DNL Analytics] rapportagedoeleinden, en u zich niet wilt aanmelden bij de standaardinstellingen voor het [!DNL Target] automatisch koppelen van de analysegegevens via de SDID, kunt u [!DNL Analytics] analyticsLogging = client_side **via** window.targetGlobalSettings **** instellen. Opmerking: versies onder 2.1 ondersteunen deze aanpak niet.
+Als u echter meer controle wilt hebben over de manier waarop en wanneer u analysegegevens met betrekking tot [!DNL Target] naar [!DNL Analytics] wilt verzenden voor rapportagedoeleinden, en u zich niet wilt aanmelden bij de standaardinstellingen om [!DNL Target] en [!DNL Analytics] automatisch te koppelen via de SDID, kunt u **analyticsLogging = client_side** via **instellen window.targetGlobalSettings**. Opmerking: versies onder 2.1 ondersteunen deze aanpak niet.
 
 Bijvoorbeeld:
 
@@ -79,7 +79,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Deze opstelling heeft een globaal effect, zo betekent het dat elke vraag die door at.js wordt gemaakt **analyticsLogging zal hebben: &quot;client_side&quot;** die binnen de [!DNL Target] verzoeken wordt verzonden en een analytische lading zal voor elk verzoek worden teruggegeven. Als deze is ingesteld, ziet de indeling van de geretourneerde lading er als volgt uit:
+Deze opstelling heeft een globaal effect, wat betekent dat elke vraag die door at.js wordt gemaakt **analyticsLogging zal hebben: &quot;client_side&quot;** verzonden binnen de [!DNL Target] verzoeken en een analytische lading zal voor elk verzoek worden teruggegeven. Als deze is ingesteld, ziet de indeling van de geretourneerde lading er als volgt uit:
 
 ```javascript
 "analytics": {
@@ -90,9 +90,9 @@ Deze opstelling heeft een globaal effect, zo betekent het dat elke vraag die doo
 }
 ```
 
-De payload kan vervolgens naar Analytics worden doorgestuurd via de API [voor het invoegen van](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)gegevens. Merk op dat, voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten u ook sessionId zult moeten door:sturen. Zie [Analytics for Target (A4T) reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) in the *Adobe Target SDKs* guide voor meer informatie.
+De nuttige lading kan dan aan Analytics via [de Invoeging API van Gegevens](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) door:sturen. Merk op dat, voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten u ook sessionId zult moeten door:sturen. Zie [Analytics for Target (A4T) reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) in de handleiding *Adobe Target SDKs* voor meer informatie.
 
-Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, kunt u de functie at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) gebruiken om dit te bereiken door **analyticsLogging door te geven: &quot;client_side&quot;**. De analytische lading zal voor slechts deze vraag worden teruggekeerd en de [!DNL Target] backend zal niet de nuttige lading aan [!DNL Analytics]. door:sturen. Door deze benadering na te streven, zal elk [!DNL Target] verzoek at.js niet de lading door gebrek terugkeren, maar in plaats daarvan slechts wanneer gewenst en gespecificeerd.
+Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, kunt u de functie at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) gebruiken om dit te bereiken door **analyticsLogging door te geven: &quot;client_side&quot;**. De payload van de analyse wordt alleen voor deze aanroep geretourneerd en de backend [!DNL Target] stuurt de payload niet door naar [!DNL Analytics]. Door deze benadering na te streven, zal elk verzoek at.js [!DNL Target] niet de nuttige lading door gebrek terugkeren, maar in plaats daarvan slechts wanneer gewenst en gespecificeerd.
 
 Bijvoorbeeld:
 
@@ -148,24 +148,24 @@ De reactie ziet er als volgt uit:
 }
 ```
 
-De lading kan dan aan [!DNL Analytics] via de Invoeging van [Gegevens API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)worden doorgestuurd.
+De lading kan dan aan [!DNL Analytics] via [de Invoeging API van Gegevens](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) door:sturen.
 
-## Stap 8: De implementatie valideren {#step8}
+## Stap 8: Implementatie {#step8} valideren
 
-Laad uw pagina&#39;s nadat u de JavaScript-bibliotheken hebt bijgewerkt om te bevestigen dat de `mboxMCSDID` parameterwaarden in [!DNL Target] aanroepen overeenkomen met de `sdid` parameterwaarde in de [!DNL Analytics] paginaweergaveaanroep.
+Laad uw pagina&#39;s nadat u de JavaScript-bibliotheken hebt bijgewerkt om te bevestigen dat de `mboxMCSDID`-parameterwaarden in [!DNL Target]-aanroepen overeenkomen met de `sdid`-parameterwaarde in de paginaweergaveaanroep [!DNL Analytics].
 
 Dit is vooral belangrijk om in de Toepassingen van de Enige Pagina (SPA) te bevestigen waar de orde van vraag niet altijd voorspelbaar is.
 
-**Opmerking:** Een4T werkt alleen correct als deze waarden overeenkomen.
+**Opmerking:** de overeenstemming van deze waarden is vereist om A4T correct te laten functioneren.
 
 ## Stap 9: (Optioneel) Vorige integratiecode verwijderen
 
-We raden u aan de vorige integratie te verwijderen om uw implementatie te vereenvoudigen en de verschillen tussen de systemen weg te werken. U kunt om het even welke code verwijderen u voor vorige Sc aan integratie T&amp;T, met inbegrip van `mboxLoadSCPlugin`zou kunnen opgesteld.
+We raden u aan de vorige integratie te verwijderen om uw implementatie te vereenvoudigen en de verschillen tussen de systemen weg te werken. U kunt om het even welke code verwijderen u voor vorige Sc aan integratie T&amp;T, met inbegrip van `mboxLoadSCPlugin` zou kunnen opgesteld.
 
 ## Stap 10: De opties inschakelen voor het gebruik van Analytics als rapportagebron voor Doel
 
-Klik [!DNL Target]in en kies een van de opties **[!UICONTROL Administation > Visual Experience Composer]** of **[!UICONTROL Select per activity]** **[!UICONTROL Adobe Analytics]** om de opties in te schakelen.
+Klik in [!DNL Target] op **[!UICONTROL Administation > Visual Experience Composer]** en kies **[!UICONTROL Select per activity]** of **[!UICONTROL Adobe Analytics]** om de opties in te schakelen.
 
-* **[!UICONTROL Select per activity]** Hiermee kunt u kiezen tussen [!DNL Target] en [!DNL Analytics] bij het maken van elke activiteit.
-* **[!UICONTROL Adobe Analytics]** Hiermee stelt u [!DNL Analytics] de rapportbron in voor alle activiteiten die u maakt.
+* **[!UICONTROL Select per activity]** Hiermee kunt u kiezen tussen  [!DNL Target] en  [!DNL Analytics] bij het maken van elke activiteit.
+* **[!UICONTROL Adobe Analytics]** Hiermee stelt u  [!DNL Analytics] de rapportbron in voor alle activiteiten die u maakt.
 
