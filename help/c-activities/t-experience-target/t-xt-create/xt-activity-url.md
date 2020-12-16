@@ -12,21 +12,21 @@ ht-degree: 0%
 ---
 
 
-# URL van activiteit{#activity-url}
+# Activiteit-URL{#activity-url}
 
 De Activiteit URL bepaalt de pagina die in de Ervaring het richten (XT) activiteit wordt gebruikt, en die in de Visuele Composer van de Ervaring (VEC) of op vorm-Gebaseerde Composer van de Ervaring opent wanneer de activiteit wordt ontworpen.
 
-1. Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het [maken van een XT-activiteit](/help/c-activities/t-experience-target/t-xt-create/xt-create.md). Typ de volledige URL (inclusief `https://`) en klik op **[!UICONTROL Create Activity]**.
+1. Wanneer ertoe aangezet terwijl [het creëren van een XT activiteit](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create Activity]**.
 
    >[!NOTE]
    >
-   >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http]). Hierdoor komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
+   >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en  [!DNL http]). Als gevolg hiervan komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
    >
-   >Door gebrek, opent VEC of op vorm-Gebaseerde Composer van de Ervaring de pagina die in uw montages [van Composer van de](/help/administrating-target/visual-experience-composer-set-up.md)Visuele Ervaring wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+   >Door gebrek, opent VEC of op vorm-Gebaseerde Composer van de Ervaring de pagina die in uw [montages van Composer van de Visuele Ervaring ](/help/administrating-target/visual-experience-composer-set-up.md) wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
    >
    >Als u een URL opgeeft voor een site die niet de standaard JavaScript-doelcode bevat, kunt u geen pagina-elementen selecteren.
 
-1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op **[!UICONTROL Configure]**, selecteert u **[!UICONTROL Page Delivery]** en geeft u de URL op in het [!UICONTROL URL] veld.
+1. (Voorwaardelijk) om een verschillende pagina te tonen nadat VEC opent, klik **[!UICONTROL Configure]**, selecteer **[!UICONTROL Page Delivery]**, en specificeer URL in het [!UICONTROL URL] gebied.
 
    ![Dialoogvenster Pagina-aflevering](/help/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 
