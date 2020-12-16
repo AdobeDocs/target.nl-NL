@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Activity QA-bladwijzer{#activity-qa-bookmarklet}
+# Activity QA-bladwijzerlet{#activity-qa-bookmarklet}
 
-Informatie die u helpt met het gebruik van de [!DNL Target] [!DNL Target] QA-bladwijzer om u af te dwingen van de QA-modus.
+Informatie om u te helpen [!DNL Target] QA bookmarklet gebruiken om [!DNL Target] te dwingen om u van wijze QA vrij te geven.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Informatie die u helpt met het gebruik van de [!DNL Target] [!DNL Target] QA-bla
 
 ## Activity QA bookmarklet voor at.js 1.*x*
 
-Omdat de [QA-modus](/help/c-activities/c-activity-qa/activity-qa.md) vastzit, moet uw [!DNL Target] sessie verlopen nadat u in de QA-modus door een website hebt gebladerd. U moet de QA-modus [!DNL Target] loslaten voordat u uw site als een typische bezoeker kunt bekijken. Gebruik de QA- [!DNL Target] boekmarkering om uzelf uit de QA-modus te forceren.
+Omdat de QA-modus [vastzit, moet uw [!DNL Target]-sessie verlopen nadat u in de QA-modus door een website hebt gebladerd. Als u uw site als een typische bezoeker wilt bekijken, moet [!DNL Target] de QA-modus uitschakelen voordat u uw site kunt bekijken. ](/help/c-activities/c-activity-qa/activity-qa.md) Gebruik de bladwijzer QA [!DNL Target] om uzelf uit wijze QA te dwingen.
 
-Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
+Als u de QA0/>-bladwijzer voor kwaliteitscontrole wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:[!DNL Target]
 
 ```javascript
 javascript:(
@@ -43,7 +43,7 @@ javascript:(
 )();
 ```
 
-U kunt uzelf ook handmatig uit de QA-modus afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde.
+U kunt uzelf ook handmatig uit de QA-modus afdwingen door een pagina op uw site te laden met de parameter `at_preview_token` met een lege waarde.
 
 Bijvoorbeeld:
 
@@ -51,9 +51,9 @@ Bijvoorbeeld:
 
 ## Activity QA bookmarklet voor at.js 2.*x*
 
-In tegenstelling tot at.js 1.*x*, at.js 2.*x* ondersteunt geen cookies van derden en de QA-modus blijft alleen van toepassing op het domein van de eerste partij (door middel van een cookie van de eerste partij ingesteld door at.js). Dus in at.js 2.*x*, wordt de QA wijzesessie beheerd slechts op cliënt-kant en geen QA wijzecookies worden verzonden naar Doel.
+In tegenstelling tot at.js 1.*x*, at.js 2.*De* xdoes geen steun derdekoekjes, en de wijze QA is slechts kleverig voor het eerste-partijdomein (door middel van een eerstepartijkoekje dat door at.js wordt geplaatst). Dus in at.js 2.*x*, wordt de QA wijzesessie beheerd slechts op cliënt-kant en geen QA wijzecookies worden verzonden naar Doel.
 
-Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
+Als u de QA0/>-bladwijzer voor kwaliteitscontrole wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:[!DNL Target]
 
 ```javascript
 javascript:(
