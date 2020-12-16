@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Levensduur bezoekersprofiel{#visitor-profile-lifetime}
+# Levensduur van bezoekersprofiel{#visitor-profile-lifetime}
 
 Een bezoekersprofiel verloopt standaard na 14 dagen inactiviteit voor die bezoeker. Deze profiellevensduur kan worden verlengd.
 
-[Neem contact op met de klantenservice of uw Adobe-consultant](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de levensduur van het profiel zonder extra kosten te verlengen. De levensduur kan worden ingesteld op wel 90 dagen.
+[Neem contact op met de klantenservice of uw ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) consultant van de Adobe om de levensduur van het profiel zonder extra kosten te verlengen. De levensduur kan worden ingesteld op wel 90 dagen.
 
-De [!DNL Target] JavaScript-bibliotheek die u gebruikt ( [!DNL at.js] of [!DNL mbox.js]) bepaalt of u een nieuw bestand moet downloaden:
+De JavaScript-bibliotheek [!DNL Target] die u gebruikt ( [!DNL at.js] of [!DNL mbox.js]) bepaalt of u een nieuw bestand moet downloaden:
 
 | Doelbibliotheek | Details |
 |--- |--- |
