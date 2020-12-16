@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Inhoudsbeveiligingsbeleid (CSP)-instructies
 
-Als u het Beleid [van de Veiligheid van de](https://en.wikipedia.org/wiki/Content_Security_Policy) Inhoud (CSP) voor uw implementatie van het Doel gebruikt, zou u de volgende CSP richtlijnen moeten toevoegen wanneer het gebruiken [bij.js 2.1 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
+Als u [Inhoudsveiligheidsbeleid](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) voor uw implementatie van het Doel gebruikt, zou u de volgende CSP richtlijnen moeten toevoegen wanneer het gebruiken van [at.js 2.1 of recenter](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
 
-* `connect-src` met `*.tt.omtrdc.net` toegevoegd op lijst van gewenste personen. Nodig om het netwerkverzoek aan de [!DNL Target] rand toe te staan.
+* `connect-src` met  `*.tt.omtrdc.net` toegevoegd op lijst van gewenste personen. Noodzakelijk om het netwerkverzoek aan de [!DNL Target] rand toe te staan.
 * `style-src unsafe-inline`. Vereist voor het voorbeverbergen en flikkeren van de besturing.
 * `script-src unsafe-inline`.  Vereist om JavaScript-uitvoering toe te staan die deel kan uitmaken van een HTML-aanbieding.
