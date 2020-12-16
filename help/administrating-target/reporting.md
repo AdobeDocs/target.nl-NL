@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Rapportage in doel configureren
 
-Configureer algemene instellingen voor rapportage die van toepassing zijn op uw gehele [!DNL Adobe Target] [!DNL Target] account.
+Configureer algemene instellingen die moeten worden gebruikt in [!DNL Adobe Target]-rapportage die van toepassing zijn op uw gehele [!DNL Target]-account.
 
-Klik op [!UICONTROL Reporting] > **[!UICONTROL Administration]** **[!UICONTROL Reporting].**
+Als u de configuratiepagina [!UICONTROL Reporting] wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 U kunt de volgende instellingen opgeven op deze pagina:
 
@@ -29,7 +29,7 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 >[!NOTE]
 >
->Houd er rekening mee dat de tijdzone-, valuta- en IP-adressen waarop instellingen moeten worden uitgesloten, van toepassing zijn op activiteiten die [!DNL Target] rapportage gebruiken. Deze instellingen zijn niet van toepassing op activiteiten die [Analytics for Target (A4T)] als rapportagebron gebruiken (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Houd er rekening mee dat de tijdzone-, valuta- en IP-adressen voor het uitsluiten van instellingen van toepassing zijn op activiteiten die [!DNL Target]-rapportage gebruiken. Deze instellingen zijn niet van toepassing op activiteiten die [Analytics for Target (A4T)] als rapportagebron gebruiken (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Pagina rapporteren](/help/administrating-target/assets/reporting.png)
 
@@ -41,10 +41,10 @@ Selecteer de rapportbron voor uw activiteiten, of [!DNL Target] of [!DNL Adobe A
 
 Houd rekening met de volgende informatie wanneer u uw rapportbron kiest:
 
-* Als de rapporteringsbron aan **[!DNL Target]** hier wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die als rapporteringsbron gebruikt [!DNL Analytics] . U moet de rapportbron wijzigen in [!DNL Target] uw activiteit of de rapportbron wijzigen in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Als de rapporteringsbron aan **[!DNL Analytics]** hier wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die [!DNL Target] als rapporteringsbron gebruikt (de rapporteringsbron wordt gespecificeerd zoals **[!UICONTROL Target per activity])**. U moet de rapportbron wijzigen in [!DNL Analytics] uw activiteit of de rapportengine wijzigen in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Als de rapportbron **[!UICONTROL Select per activity]** hier is ingesteld, kunt u activiteiten maken, activeren en deactiveren die door de geselecteerde rapportbron worden ondersteund. Voor een matrix van ondersteunde activiteiten, zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron voor de rapportage voor Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) het creëren van activiteit, activering, en deactivering worden toegestaan ongeacht de geselecteerde rapporteringsbron. Automated Personalization-activiteiten worden niet ondersteund wanneer u [Adobe Analytics kiest als rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Zelfs als u opgeeft [!DNL Analytics] als rapportagebron, [!DNL Target] wordt deze gebruikt als rapportagebron voor Automated Personalization-activiteiten. Zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron voor de rapportage van Adobe Target (A4t)* voor meer informatie.
+* Als de rapportbron hier op **[!DNL Target]** wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die [!DNL Analytics] als rapporteringsbron gebruikt. U moet de rapportbron in [!DNL Target] in uw activiteit veranderen of de rapportbron in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]** veranderen.
+* Als de rapportbron hier op **[!DNL Analytics]** wordt geplaatst, wordt u niet toegestaan om een activiteit te activeren die [!DNL Target] als rapporteringsbron gebruikt (de rapporteringsbron wordt gespecificeerd als **[!UICONTROL Target per activity])**. U moet de rapportbron in [!DNL Analytics] in uw activiteit veranderen of de rapportmotor in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]** veranderen.
+* Als de rapportbron hier op **[!UICONTROL Select per activity]** wordt geplaatst, kunt u tot stand brengen, activeren en activiteiten deactiveren die door de geselecteerde rapporteringsbron worden gesteund. Zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als rapportagebron voor Adobe Target (A4t)* voor een matrix met ondersteunde activiteiten.
+* [!UICONTROL Automated Personalization] (AP) het creëren van activiteit, activering, en deactivering worden toegestaan ongeacht de geselecteerde rapporteringsbron. Automated Personalization-activiteiten worden niet ondersteund wanneer u [Adobe Analytics als rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) kiest. Zelfs als u [!DNL Analytics] als uw rapporteringsbron specificeert, [!DNL Target] wordt gebruikt als rapporteringsbron voor de activiteiten van Automated Personalization. Zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als rapportagebron voor Adobe Target (A4t)* voor meer informatie.
 
 ## Tijdzone voor rapportage
 
@@ -66,7 +66,7 @@ U kunt kiezen om de geschatte verhoging van opbrengst te tonen als u een monetai
 
 Alleen [!DNL Experience Cloud] Admin-gebruikers kunnen deze functie in- of uitschakelen. Als geschatte lift is uitgeschakeld, worden de bijbehorende velden niet weergegeven in de interface. Als u de functie uitschakelt, gaan er geen gegevens verloren, inclusief de gegevens die voor uw ramingen worden gebruikt. De schattingen zijn gebaseerd op gegevens die worden verzameld, ongeacht of de functie is ingeschakeld.
 
-Voor nadere informatie, zie [Schatting Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+Zie [Lift in Revenue schatten](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor gedetailleerde informatie.
 
 ## Geavanceerde prioriteiten inschakelen
 
