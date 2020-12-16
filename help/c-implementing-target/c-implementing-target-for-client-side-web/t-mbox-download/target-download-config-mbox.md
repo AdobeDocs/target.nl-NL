@@ -12,24 +12,24 @@ ht-degree: 0%
 ---
 
 
-# mbox.js downloaden{#download-mbox-js}
+# mbox.js{#download-mbox-js} downloaden
 
 De Standaard en Premium van het doel gebruiken een gewijzigde versie van het Adobe Target mbox.js- dossier.
 
-Als u het [!DNL Adobe Target] bestand wilt gebruiken, moet u een extra regel JavaScript in het [!UICONTROL Visual Experience Editor][!DNL mbox.js] bestand opnemen.
+Als u [!DNL Adobe Target] [!UICONTROL Visual Experience Editor] wilt gebruiken, moet u een extra regel JavaScript opnemen als onderdeel van uw [!DNL mbox.js]-bestand.
 
 1. Klik **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in [!DNL Target Standard].
 1. Klik op **[!UICONTROL Download mbox.js]** en volg de aanwijzingen om het bestand op te slaan.
-1. (Voorwaardelijk) Als u [!DNL mbox.js] versie 60 of later gebruikt, kunt u de bibliotheek zo configureren dat de pagina-inhoud standaard automatisch wordt verborgen totdat de vakken worden geladen, zodat er minder flikkering optreedt op responsieve sites.
+1. (Voorwaardelijk) Als u [!DNL mbox.js] versie 60 of later gebruikt, kunt u de bibliotheek zodanig configureren dat de pagina-inhoud standaard automatisch wordt verborgen totdat de vakken worden geladen, zodat er minder flikkering optreedt op responsieve sites.
 
-   Zie &quot;Paginalaadflikkering onderdrukken&quot; in [mbox.js Advanced Settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)voor meer informatie.
+   Zie &quot;Paginabelastingsflikkering onderdrukken&quot; in [mbox.js Advanced Settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C) voor meer informatie.
 
 1. Maak de [!DNL mbox.js] verwijzing op de website.
 
-   Vanaf [!DNL mbox.js] versie 57 kan de [!DNL mbox.js] verwijzing overal in de `<head>` sectie van de pagina worden geplaatst.
+   Vanaf [!DNL mbox.js] versie 57 kan de [!DNL mbox.js] verwijzing overal binnen `<head>` sectie van de pagina worden geplaatst.
 
    >[!IMPORTANT]
    >
-   >Als u een versie van [!DNL mbox.js] ouder dan versie 57 gebruikt, moet de verwijzing het laatste punt in de `<head>` sectie van uw pagina&#39;s zijn. Als de verwijzing niet het laatste item is, kunnen er ernstige weergave- of prestatieproblemen optreden. Zie [Wat mbox.js voor meer informatie doet](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md) .
+   >Als u een versie van [!DNL mbox.js] voorafgaand aan versie 57 gebruikt, moet de verwijzing het laatste punt in `<head>` sectie van uw pagina&#39;s zijn. Als de verwijzing niet het laatste item is, kunnen er ernstige weergave- of prestatieproblemen optreden. Zie [Wat mbox.js doet](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md) voor meer informatie.
 
-1. Upload het opgeslagen [!DNL mbox.js] bestand naar de locatie in uw hostingomgeving die u in de code hebt opgegeven.
+1. Upload het opgeslagen [!DNL mbox.js]-bestand naar de locatie in uw hostingomgeving die u in de code hebt opgegeven.
