@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit onderwerp toont hoe te om een carrousel tot stand te brengen die in Visual Experience Composer (VEC) kan worden uitgegeven.
 
-Wanneer u de stappen hieronder gebruikt, weet [!DNL Target] altijd dat de geselecteerde dia &quot;selecteur&quot;voor de correcte dia zal hebben, zelfs als het in Visual Experience Composer na een paar seconden wordt veranderd.
+Wanneer u de stappen hieronder gebruikt, [!DNL Target] weet altijd dat de geselecteerde dia &quot;selecteur&quot;voor de correcte dia zal hebben, zelfs als het in Visual Experience Composer na een paar seconden wordt veranderd.
 
 1. Maak statische HTML-plaatsaanduidingen.
 
@@ -34,7 +34,7 @@ Wanneer u de stappen hieronder gebruikt, weet [!DNL Target] altijd dat de gesele
 
    >[!NOTE]
    >
-   >De [!UICONTROL Render Using JavaScript] optie wordt momenteel niet gesteund als het samen met douanecode in de Visuele Composer van de Ervaring wordt gebruikt.
+   >De optie [!UICONTROL Render Using JavaScript] wordt momenteel niet gesteund als het samen met douanecode in de Visuele Composer van de Ervaring wordt gebruikt.
 
 1. Werk alleen classNames bij om andere namen te verbergen en de volgende met timer/animatie weer te geven.
 
