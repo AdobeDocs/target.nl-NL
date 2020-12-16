@@ -14,25 +14,25 @@ ht-degree: 0%
 
 # Systeemstatusupdates en proactieve meldingen
 
-Gebruik de [!UICONTROL Adobe System Status] pagina en de pro-actieve berichten om van de status van [!DNL Adobe] producten en [!DNL Adobe Experience Cloud] oplossingen op de hoogte te houden. Met proactieve meldingen wordt u gewaarschuwd voor gebeurtenissen en onderhoudsgebeurtenissen.
+Gebruik de pagina [!UICONTROL Adobe System Status] en proactieve meldingen om de status van [!DNL Adobe] producten en [!DNL Adobe Experience Cloud] oplossingen op de hoogte te houden. Met proactieve meldingen wordt u gewaarschuwd voor gebeurtenissen en onderhoudsgebeurtenissen.
 
 ## Systeemstatusupdates
 
-Gebruik de [!UICONTROL Adobe System Status] pagina om de huidige status van [!DNL Target] en andere [!DNL Adobe] producten en [!DNL Adobe Experience Cloud] oplossingen te bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
+Gebruik de pagina [!UICONTROL Adobe System Status] om de huidige status van [!DNL Target] en andere [!DNL Adobe] producten en [!DNL Adobe Experience Cloud] oplossingen te bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
 
-Ga naar de volgende URL om de [!UICONTROL System Status] pagina te openen:
+Ga naar de volgende URL om de pagina [!UICONTROL System Status] te openen:
 
 [https://status.adobe.com](https://status.adobe.com)
 
-Als u de status van [!DNL Experience Cloud] oplossingen wilt zien, inclusief [!DNL Target], klikt u op het [!UICONTROL Experience Cloud] tabblad.
+Als u de status van [!DNL Experience Cloud]-oplossingen wilt weergeven, inclusief [!DNL Target], klikt u op het tabblad [!UICONTROL Experience Cloud].
 
 ![](assets/system_status.png)
 
 Bovenaan op de pagina vindt u informatie over onderhoudsgebeurtenissen die worden uitgevoerd en een koppeling om in te schrijven voor updates voor afzonderlijke oplossingen.
 
-In de bovenstaande illustratie ondergingen [!DNL Adobe Analytics], [!DNL Adobe Target]en [!DNL Adobe Campaign] ondergingen onderhoudsupdates. Alle andere producten en oplossingen functioneerden normaal. Het is altijd aan te raden deze pagina te controleren als u problemen ondervindt bij het gebruik [!DNL Target].
+In de bovenstaande illustratie ondergingen [!DNL Adobe Analytics], [!DNL Adobe Target] en [!DNL Adobe Campaign] onderhoudsupdates. Alle andere producten en oplossingen functioneerden normaal. Het is altijd een goede gewoonte om deze pagina te controleren als u problemen ondervindt bij het gebruik van [!DNL Target].
 
-Een melding in het product wordt altijd weergegeven tijdens de maandelijkse [!DNL Target] release, maar soms vinden kleine updates plaats en worden deze weergegeven op deze pagina.
+Een melding in het product wordt altijd weergegeven tijdens de maandelijkse [!DNL Target]-release, maar soms treden kleine updates op en worden deze weergegeven op deze pagina.
 
 De onderkant van de pagina bevat een kalender van de laatste zeven dagen met statussen voor elke oplossing per dag. Houd de muisaanwijzer boven een statusindicator voor meer informatie:
 
@@ -40,7 +40,7 @@ De onderkant van de pagina bevat een kalender van de laatste zeven dagen met sta
 
 ## Proactieve meldingen
 
-Proactieve berichten zijn e-mailwaarschuwingen die naar geregistreerde klanten worden verzonden voor de volgende gebeurtenissen die zijn geopend tegen services die zijn opgenomen in het klantprofiel van de klant, waaronder [!DNL Target]:
+Proactieve berichten zijn e-mailwaarschuwingen die naar geregistreerde klanten worden verzonden voor de volgende gebeurtenissen die zijn geopend tegen services die zijn opgenomen in het klantprofiel van de klant, zoals [!DNL Target]:
 
 * De oplossing-vlakke Alarm (isoleert geen specifieke diensten binnen de oplossing)
 * CSO&#39;s (outage Events) met ernst 1 en ernst 2
