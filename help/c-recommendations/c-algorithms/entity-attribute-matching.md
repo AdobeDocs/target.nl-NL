@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -overeenkomst kenmerk entiteit
+# ![Vergelijking ](/help/assets/premium.png) van kenmerken PREMIUMEntity
 
 Filter dynamisch in [!DNL Adobe Target] [!DNL Recommendations] door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruiker met heeft in wisselwerking gestaan.
 
 >[!NOTE]
 >
->Het [proces voor het creëren en gebruiken van inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden.
+>Het [proces voor het creëren van en het gebruiken van inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden zijn.
 
 U kunt bijvoorbeeld alleen items aanbevelen die overeenkomen met het merk van het huidige item, zoals in het volgende voorbeeld:
 
-Als de mbox op een Brand Landing Page terugkeert `entity.brand=brandA`, worden alleen Merk A-producten geretourneerd en weergegeven op die pagina. Op dezelfde manier worden op de pagina Brand Landing voor merk B alleen merkproducten teruggegeven. Met dit type van dynamische integratieregel, moet de gebruiker slechts één aanbeveling specificeren die relevante merkresultaten over alle merkpagina&#39;s eerder dan het specificeren van een inzameling of een statische filter om elke merknaam te passen terugkeert.
+Als de mbox op een Pandingpagina van het Merk `entity.brand=brandA` terugkeert, dan zijn slechts de producten van Merk A teruggekeerd en op die pagina getoond. Op dezelfde manier worden op de pagina Brand Landing voor merk B alleen merkproducten teruggegeven. Met dit type van dynamische integratieregel, moet de gebruiker slechts één aanbeveling specificeren die relevante merkresultaten over alle merkpagina&#39;s eerder dan het specificeren van een inzameling of een statische filter om elke merknaam te passen terugkeert.
 
-Dit werkt alleen als u de code `entity.brand` in de mbox op die bestemmingspagina&#39;s levert.
+Dit werkt alleen als u `entity.brand` in de mbox op die bestemmingspagina&#39;s levert.
 
 ## Voorbeelden van overeenkomsten van entiteitskenmerken
 
@@ -42,7 +42,7 @@ Nadat de regels voor de entiteitskenmerken zijn samengesteld, worden alle aanbev
 
 In het volgende voorbeeld worden aanbevelingen getoond die overeenkomen met het productmerk dat op de pagina wordt weergegeven:
 
-Wanneer u een pagina bezoekt die een merk A-product bevat, stelt de pagina de waarde van de `entity.brand` parameter in op &quot;MerkA&quot;.
+Wanneer u een pagina bezoekt die een merk A-product bevat, stelt de pagina de waarde van de parameter `entity.brand` in op &quot;MerkA&quot;.
 
 ![Voorbeeld van doelaanroep](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ In de aanbevelingen op de pagina ziet u alleen Merk A-producten.
 
 ![Merk A aanbevelingen](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Als u vervolgens een productpagina van merk B weergeeft, wordt de `entity.brand` waarde teruggezet op &quot;BrandB&quot; en worden de producten van merk B aanbevolen op de productpagina&#39;s van merk B weergegeven.
+Als u vervolgens een productpagina van merk B weergeeft, wordt de waarde `entity.brand` teruggezet op &quot;BrandB&quot; en worden de producten van merk B aanbevolen op de productpagina&#39;s van merk B.
 
 ![Aanbevolen merk B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
