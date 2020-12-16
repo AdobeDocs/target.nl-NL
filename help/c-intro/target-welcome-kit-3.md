@@ -24,7 +24,7 @@ Identificeer kansen voor activiteiten die zich aan bedrijfsdoelstellingen richte
 
 Doe dit door:
 
-* Brainstorming van potentiële [!DNL Target] activiteiten die op plaatsprestatiegegevens, mededingeranalyse, en vroegere testresultaten worden gebaseerd.
+* Brainstormingspotentieel [!DNL Target] activiteiten op basis van de prestatiegegevens van de site, de analyse van concurrenten en eerdere testresultaten.
 * Ontwikkelen van ideeën voor activiteiten voor revisie, feedback en aftekening.
 
 Zoek bijvoorbeeld naar een pagina op uw site met een hoge stuitsnelheid, overweeg wat de oorzaak van de uitgave kan zijn en brainstormmethoden om de stuitsnelheid te verlagen.
@@ -49,13 +49,13 @@ Doe dit door:
 
 * Bezig met voltooien van de criteria en maatstaven voor het invoeren van activiteiten die nodig zijn om de prestaties van de activiteit te bepalen.
 * Voltooiing en goedkeuring van definitieve ontwerpen voor activiteitenervaringen.
-* Documentatievereisten voor de [!DNL Target] activiteit, met inbegrip van criteria van de testingang, rapporteringsmetriek, en ervaringsveranderingen.
+* Documentatievereisten voor de activiteit [!DNL Target], met inbegrip van criteria van de testingang, rapporteringsmetriek, en ervaringsveranderingen.
 
 Gebruik Activiteitenplanner, die later in de welkomstkit wordt verstrekt, om de details van de activiteit te documenteren, met inbegrip van de metriek u zult gebruiken om activiteitenprestaties te meten, zoals kliks op een vraag aan actieknoop, videolanceringen, of geproduceerde opbrengst. Zorg ervoor dat u schermafbeeldingen of afbeeldingen opneemt van de ervaringsontwerpen die u wilt testen of personaliseren.
 
 ## Stap 4: Samenstellen en uitvoeren
 
-Bouw en voer de activiteit binnen uit [!DNL Target], ontwikkel om het even welke code indien nodig, voer QA het testen uit, en lanceer de activiteit.
+Bouw en voer de activiteit binnen [!DNL Target] uit, ontwikkel om het even welke code indien nodig, voer QA het testen uit, en lanceer de activiteit.
 
 Doe dit door:
 
