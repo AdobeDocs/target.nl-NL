@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Doel integreren met Adobe Audience Manager (AAM)
 
-Met [!DNL Target]/[!DNL Audience Manager] integratie kunt u [!DNL Audience Manager] segmenten naar [!DNL Target].
+Met de integratie [!DNL Target]/[!DNL Audience Manager] kunt u [!DNL Audience Manager]-segmenten naar [!DNL Target] verzenden.
 
-Voor meer informatie, zie [Audience Manager met Doel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html) in de Gids *van de Gebruiker van de* Audience Manager integreren.
+Zie [Audience Manager integreren met doel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html) in de *gebruikershandleiding voor Audience Managers* voor meer informatie.
