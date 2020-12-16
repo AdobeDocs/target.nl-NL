@@ -32,12 +32,12 @@ Trainingsvideo&#39;s worden ingesloten in relevante onderwerpen in deze handleid
 
 ## Adobe Target - Tutorials en video&#39;s
 
-Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies waarin de mogelijkheden van Target op de pagina [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) worden belicht.
+Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies die de mogelijkheden van Target op de pagina [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) benadrukken.
 
 ![Experience League-video&#39;s](/help/c-intro/assets/experience-league.png)
 
 ## Adobe Target Tutorials {#tutorials}
 
-Video-introductie over [!DNL Target] concepten en gereedschappen is beschikbaar op de pagina [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
+Video-introducties van [!DNL Target]-concepten en -gereedschappen zijn beschikbaar op de pagina [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
 
 ![Adobe Target Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
