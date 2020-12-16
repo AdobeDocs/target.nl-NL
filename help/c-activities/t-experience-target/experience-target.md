@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.
 
-Gerichte ervaring, inclusief [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is nuttig voor het definiëren van regels die een specifieke ervaring of inhoud voor een bepaald publiek als doel hebben. Verschillende regels kunnen in een activiteit worden gedefinieerd om verschillende inhoudvariaties aan verschillende doelgroepen te bieden.
+Gericht op ervaring, met inbegrip van [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is nuttig voor het bepalen van regels die een specifieke ervaring of inhoud aan een bepaald publiek richten. Verschillende regels kunnen in een activiteit worden gedefinieerd om verschillende inhoudvariaties aan verschillende doelgroepen te bieden.
 
 Wanneer bezoekers uw site bekijken, evalueert Experience Targeting (XT) ze om te bepalen of ze voldoen aan de criteria die u instelt. Als ze aan de criteria voldoen, voeren ze de activiteit in en wordt de ervaring die is ontworpen voor gekwalificeerd publiek weergegeven. U kunt ervaringen maken voor meerdere soorten publiek binnen één activiteit.
 
@@ -26,7 +26,7 @@ De ervaring richt is een eerste stap in de wereld van personalisatie en begint v
 
 Stel dat uw website buitenapparatuur bevat. Uw rapporten voor A/B Testen wijzen erop dat u drie ervaringen hebt die met verschillende soorten publiek resoneren. Als u deze detectie wilt benutten, wilt u een andere hoofdafbeelding op uw homepage weergeven om een beroep te doen op deze verschillende soorten publiek, afhankelijk van de locatie of hobby&#39;s van de bezoekers. In dit scenario wilt u bezoekers uit New Jersey een wandelende afbeelding tonen en een surfende afbeelding voor bezoekers uit Hawaii. Je hebt ook een publiek dat van fietsen houdt. U wilt een derde hoofdafbeelding weergeven die naar uw fietspubliek verwijst.
 
-Met een XT-activiteit kunt u deze drie soorten publiek richten op een andere hoofdafbeelding die voor elk publiek aantrekkelijk is. In de onderstaande video, *van A/B Testen tot Experience Targeting* , ziet u hoe u ervaringen kunt maken die zijn gericht op beide staten en een derde ervaring die is bedoeld voor het fietsen van enthousiaste gebruikers. De video laat ook zien hoe u de drie ervaringen kunt bestellen om uw doelen te bereiken. Bekijk de video en ga vervolgens verder met de activiteit [](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)Een belevenis maken.
+Met een XT-activiteit kunt u deze drie soorten publiek richten op een andere hoofdafbeelding die voor elk publiek aantrekkelijk is. In de onderstaande video, *Van A/B Testen naar Experience Targeting*, ziet u hoe u ervaringen kunt maken die zijn gericht op beide staten en een derde ervaring die is bedoeld voor het fietsen van enthousiaste gebruikers. De video laat ook zien hoe u de drie ervaringen kunt bestellen om uw doelen te bereiken. Bekijk de video en ga vervolgens verder met [Een belevenis maken voor activiteit](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Trainingsvideo&#39;s:
 
@@ -46,7 +46,7 @@ In deze video wordt beschreven hoe u A/B Testen naar een hoger niveau kunt tille
 
 In deze video worden de activiteitstypen uitgelegd die beschikbaar zijn in Target Standard/Premium. Experience Targeting wordt besproken vanaf 5:15.
 
-* Beschrijf de soorten activiteiten die onder [!DNL Adobe Target]
+* Beschrijf de soorten activiteiten inbegrepen in [!DNL Adobe Target]
 * Selecteer het juiste type activiteit om uw doelen te bereiken
 * Beschrijf de driestappenworkflow met instructies die van toepassing is op alle typen activiteiten
 
