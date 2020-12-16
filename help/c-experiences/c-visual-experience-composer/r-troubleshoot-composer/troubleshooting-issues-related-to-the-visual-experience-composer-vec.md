@@ -12,18 +12,18 @@ ht-degree: 0%
 ---
 
 
-# Problemen oplossen met betrekking tot Visual Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer}
+# Problemen oplossen met betrekking tot de composer voor visuele ervaring{#troubleshooting-issues-related-to-the-visual-experience-composer}
 
 Weergaveproblemen treden soms onder bepaalde omstandigheden op in de Visual Experience Composer (VEC).
 
-## Wanneer ik mijn website in de Visuele Composer van de Ervaring open, laden de bibliotheken van het Doel niet. (alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Wanneer ik mijn website in de Visuele Composer van de Ervaring open, laden de bibliotheken van het Doel niet. (Alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
-Het doel voegt twee parameters (`mboxEdit=1` en `mboxDisable=1`) toe terwijl het openen van de website in Visual Experience Composer.
+Doel voegt twee parameters toe (`mboxEdit=1` en `mboxDisable=1`) terwijl het openen van de website in de Composer van de Visuele Ervaring.
 
 Als uw website (met name Apps met één pagina) uw parameters bijsnijdt of deze verwijdert terwijl u van de ene pagina naar de andere navigeert (zonder dat de pagina opnieuw wordt geladen), wordt de functie Doel verbroken en worden de doelbibliotheken niet geladen.
 U voorkomt dit probleem door deze twee parameters niet bij te snijden of te verwijderen.
 
-## Mijn pagina wordt niet geopend in de EEG, of wordt langzaam geladen. Activiteiten of ervaringen laden langzaam in de VEC. (alleen VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Mijn pagina wordt niet geopend in de EEG, of wordt langzaam geladen. Activiteiten of ervaringen laden langzaam in de VEC. (Alleen VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de doelervaringscomposers. Enkele veelvoorkomende problemen zijn:
 
@@ -33,7 +33,7 @@ Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de doe
 
 Als er problemen optreden in de Enhanced Experience Composer, kunt u de Enhanced Experience Composer uitschakelen en in plaats daarvan de Visual Experience Composer gebruiken.
 
-Als u de Enhanced Experience Composer wilt uitschakelen, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** en schakelt u de **[!UICONTROL Enable Enhanced Experience Composer]** optie uit.
+Als u de Enhanced Experience Composer wilt uitschakelen, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** en schakelt u de optie **[!UICONTROL Enable Enhanced Experience Composer]** uit.
 
 Sommige gebruikers zien het volgende foutbericht in de console:
 
@@ -43,7 +43,7 @@ Als noch Composer van de Visuele Ervaring noch de Verbeterde Composer van de Erv
 
 >[!NOTE]
 >
->Naast de volgende informatie kunt u de [Adobe Target VEC Helper-browserextensie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) voor Google Chrome gebruiken.
+>Naast de volgende informatie kunt u de [Adobe Target VEC Helper browser extensie](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) voor Google Chrome gebruiken.
 
 
 >[!NOTE]
@@ -74,8 +74,8 @@ Voor de Modify Header uitbreiding (Firefox) van de Reactie, omdat u geen URL reg
    * Naam van regel
    * Wijzigingsvoorschriften
 
-      * Schakelen **[!UICONTROL Add]** naar **[!UICONTROL Remove]**.
-      * Schakelen **[!UICONTROL Request]** naar **[!UICONTROL Response]**.
+      * Schakelen tussen **[!UICONTROL Add]** en **[!UICONTROL Remove]**.
+      * Schakelen tussen **[!UICONTROL Request]** en **[!UICONTROL Response]**.
       * Voer &quot;X-Frame-Opties&quot; in als koptekst.
       * Herhaal de vorige stappen en voer &quot;x-frame-options&quot; in als koptekst.
 
@@ -83,7 +83,7 @@ Voor de Modify Header uitbreiding (Firefox) van de Reactie, omdat u geen URL reg
          >
          >Kopteksten die worden gemanipuleerd via Requely zijn hoofdlettergevoelig.
 
-      * Verandering **[!UICONTROL Equals]** in **[!UICONTROL Contains]** als voorwaarde voor bron URL en ga URL van de activiteit in die u in VEC probeert te laden.
+      * Wijzig **[!UICONTROL Equals]** in **[!UICONTROL Contains]** als voorwaarde voor de bron-URL en voer de URL in van de activiteit die u in de VEC wilt laden.
 
       ![](assets/chrome_extension.png)
 
@@ -99,7 +99,7 @@ Voor de Modify Header uitbreiding (Firefox) van de Reactie, omdat u geen URL reg
 1. Installeer de Modify Kopballen van de Reactie op Firefox en begin browser opnieuw.
 1. Selecteer in uw Firefox-extensies de extensie Responsheaders wijzigen.
 1. Klik op **[!UICONTROL Preferences]**.
-1. Selecteer een optie **[!UICONTROL Filter]** in de vervolgkeuzelijst Handeling.
+1. Selecteer **[!UICONTROL Filter]** in de vervolgkeuzelijst Handeling.
 1. Voer in het veld Naam koptekst het volgende in: **[!UICONTROL X-Frame-Options]**.
 1. Herhaal stap 4 en 5 om een filter toe te voegen met **[!UICONTROL x-frame-options]**.
 1. Klik op **[!UICONTROL Add]**.
@@ -120,6 +120,6 @@ Open Target nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu worde
 
 Zorg ervoor dat deze instelling is ingeschakeld en download en werk mbox.js op uw website bij.
 
-## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (Alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Wanneer het gebruiken doorbladert wijze, als u tot een URL toegang hebt die target.js niet heeft of een kader-busterkopbal bevat, lijkt de Visuele Composer van de Ervaring gebroken. Vanwege beveiligingsproblemen in de browser heeft Target geen toegang tot de URL waarnaar u bent genavigeerd.
