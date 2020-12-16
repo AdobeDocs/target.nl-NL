@@ -16,18 +16,18 @@ ht-degree: 1%
 
 Informatie over hoe Adobe Target werkt, inclusief informatie over de JavaScript-doelbibliotheken (at.js en mbox.js) en de verschillende activiteitstypen die in Target zijn opgenomen.
 
-## JavaScript-doelbibliotheken {#libraries}
+## Doel JavaScript-bibliotheken {#libraries}
 
 Adobe Target integreert met websites via een van de volgende twee JavaScript-bibliotheken: at.js of mbox.js
 
-* **at.js:** De bibliotheek [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Wij adviseren dat alle klanten uitvoeren of aan de [recentste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)migreren.
+* **at.js:** De  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) bibliotheek is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. We raden u aan dat alle klanten de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) implementeren of naar deze nieuwste versie migreren.
 * **mbox.js:** De bibliotheek mbox.js is de oudere uitvoeringsbibliotheek voor Doel. De bibliotheek mbox.js wordt nog steeds ondersteund, maar er zijn geen functie-updates.
 
 >[!IMPORTANT]
 >
->Alle klanten moeten naar om.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>Alle klanten moeten naar om.js migreren. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie
 
-U moet op elke pagina op uw site verwijzen naar het JavaScript-bibliotheekbestand Doel. U kunt het bijvoorbeeld toevoegen aan de algemene koptekst. U kunt ook [Adobe Launch-tagbeheer gebruiken](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+U moet op elke pagina op uw site verwijzen naar het JavaScript-bibliotheekbestand Doel. U kunt het bijvoorbeeld toevoegen aan de algemene koptekst. U kunt ook overwegen om [Adobe Launch-tagbeheer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) te gebruiken
 
 Telkens wanneer een bezoeker een pagina aanvraagt die voor Doel is geoptimaliseerd, wordt een verzoek verzonden naar het doelsysteem om te bepalen welke inhoud aan een bezoeker moet dienen. Dit proces vindt in real time plaats — telkens wanneer een pagina wordt geladen, wordt een verzoek om de inhoud gemaakt en vervuld door het systeem. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. De inhoud wordt gediend dat elke bezoeker van de plaats zeer waarschijnlijk zal antwoorden aan, met, en uiteindelijk kopen, om reactiesnelheden, aanschaftarieven, en opbrengst te maximaliseren.
 
@@ -37,7 +37,7 @@ De inhoud die aan bezoekers wordt weergegeven, is afhankelijk van het type activ
 
 ### A/B-test
 
-Zie [Een A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) maken voor meer informatie.
+Zie [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) voor meer informatie.
 
 De inhoud die wordt weergegeven in een standaard A/B-test, wordt willekeurig gekozen uit de elementen die u toewijst aan de activiteit, volgens de percentages die u voor elke ervaring kiest. Als resultaat van deze willekeurige splitsing van verkeer, kan het veel eerste verkeer vóór de percentages uit nemen. Als u bijvoorbeeld twee ervaringen creëert, wordt de startervaring willekeurig gekozen. Als er weinig verkeer is, is het mogelijk dat het percentage bezoekers naar één ervaring kan worden scheefgetrokken. Naarmate het verkeer toeneemt, zouden de percentages gelijker moeten worden.
 
@@ -92,13 +92,13 @@ Een &quot;Rand&quot; is een geografisch gedistribueerde serverarchitectuur die o
 
 Om reactietijden te verbeteren, de gastheer van de Randen van het Doel slechts activiteitenlogica, caching profielen, en aanbiederinformatie.
 
-De gegevensbestanden van de activiteit en van de inhoud, [!DNL Analytics] gegevens, APIs, en de gebruikersinterfaces van de tellergebruiker worden gehuisvest in de Centrale Clusters van Adobe. De updates worden dan verzonden naar de Randen van het Doel. De centrale clusters en de Edge-clusters worden automatisch gesynchroniseerd om de in de cache opgeslagen activiteitengegevens voortdurend bij te werken. Alle 1:1-modellering wordt ook opgeslagen op elke rand, zodat die complexere verzoeken ook aan de rand kunnen worden verwerkt.
+Databanken voor activiteiten en inhoud, [!DNL Analytics]-gegevens, API&#39;s en markeergebruikersinterfaces zijn gehuisvest in de centrale clusters van Adobe. De updates worden dan verzonden naar de Randen van het Doel. De centrale clusters en de Edge-clusters worden automatisch gesynchroniseerd om de in de cache opgeslagen activiteitengegevens voortdurend bij te werken. Alle 1:1-modellering wordt ook opgeslagen op elke rand, zodat die complexere verzoeken ook aan de rand kunnen worden verwerkt.
 
 Elke Edge-cluster beschikt over alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en houdt analysegegevens bij over die aanvraag. De verzoeken van de gebruiker worden verpletterd aan de dichtstbijzijnde Cluster van de Rand.
 
-Zie het artikel over beveiligingsoverzicht [van](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target voor meer informatie.
+Voor meer informatie, zie [het Witboek van het Overzicht van de Veiligheid van Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-De [!DNL Adobe Target] oplossing wordt gehost op datacenters in Adobe-eigendom en Adobe-lease over de hele wereld.
+De [!DNL Adobe Target]-oplossing wordt gehost op datacenters in Adobe-eigendom en Adobe-lease over de hele wereld.
 
 De centrale plaatsen van de Cluster bevatten zowel een centrum van de gegevensinzameling als een centrum van de gegevensverwerking. De plaatsen van de Cluster van de rand bevatten slechts een centrum van de gegevensinzameling. Elke rapportsuite wordt toegewezen aan een specifiek gegevensverwerkingscentrum.
 
@@ -124,19 +124,19 @@ DoelEdge-clusters, gehost op AWS, bevinden zich in:
 * Dublin, Ierland
 * Republiek Singapore
 
-De [!DNL Target Recommendations] service wordt gehost in een [!DNL Adobe] datacenter in Oregon.
+De [!DNL Target Recommendations]-service wordt gehost in een [!DNL Adobe]-datacenter in Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] heeft momenteel geen Edge Cluster in China en de prestaties van de eindgebruiker blijven beperkt voor [!DNL Target] klanten in China. Vanwege de firewall en het gebrek aan Edge Clusters in het land, zullen sites met [!DNL Target] implementatie traag worden weergegeven en zullen de paginaladingen worden beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
+>[!DNL Adobe Target] heeft momenteel geen Edge Cluster in China en de prestaties van de eindgebruiker blijven beperkt voor  [!DNL Target] klanten in China. Vanwege de firewall en het gebrek aan Edge Clusters in het land, zullen sites met [!DNL Target] die worden geïmplementeerd, traag renderen en wordt het laden van pagina&#39;s beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
 
-Desgewenst kunt u doelEdge-clusters lijsten van gewenste personen. Zie [lijst van gewenste personen Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)voor meer informatie.
+Desgewenst kunt u doelEdge-clusters lijsten van gewenste personen. Voor meer informatie, zie [de randknopen van het Doel van de lijst van gewenste personen](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
 ## Beveiligde gebruikerservaring {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe zorgt ervoor dat de beschikbaarheid en prestaties van de doelinfrastructuur zo betrouwbaar mogelijk zijn. Een communicatieafbraak tussen de browser van de eindgebruiker en de servers van de Adobe kan echter een onderbreking in de levering van de inhoud veroorzaken.
 
-Om tegen de dienstonderbrekingen en connectiviteitskwesties te beschermen, zijn alle plaatsen opstelling om standaardinhoud (die door de cliënt wordt bepaald) te omvatten, die wordt getoond als browser van de gebruiker niet met kan verbinden [!DNL Target].
+Ter bescherming tegen onderbreking van de service en connectiviteitsproblemen worden alle locaties zo ingesteld dat standaardinhoud (gedefinieerd door de client) wordt opgenomen. Deze inhoud wordt weergegeven als de browser van de gebruiker geen verbinding kan maken met [!DNL Target].
 
 Er worden geen wijzigingen aangebracht in de pagina als de browser van de gebruiker geen verbinding kan maken binnen een gedefinieerde time-outperiode (standaard: 15 seconden). Als deze time-outdrempel is bereikt, wordt standaardlocatie-inhoud weergegeven.
 
@@ -147,7 +147,7 @@ Adobe beschermt de gebruikerservaring door de prestaties te optimaliseren en te 
 * Adobe gebruikt een multi-tiered benadering om zijn toepassingen te beveiligen om het hoogste niveau van beschikbaarheid en betrouwbaarheid voor klanten te verstrekken.
 * [!DNL Target] Consulting biedt implementatieondersteuning en doorlopende productondersteuning.
 
-## SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## SEO (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s) - vriendelijke tests {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] wordt uitgelijnd op de richtlijnen voor zoekprogramma&#39;s voor testen.
 
@@ -158,23 +158,23 @@ Zie de volgende Google-bronnen voor meer informatie:
 * [Testen van websites en Google Search](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
 * [Experimenten en kleding](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
-Richtlijnen werden gepresenteerd in een [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) -bericht. Hoewel de post dateert van 2012, blijft de meest recente verklaring van Google over deze kwestie en blijven de richtsnoeren relevant.
+Richtlijnen zijn gepresenteerd in een bericht [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Hoewel de post dateert van 2012, blijft de meest recente verklaring van Google over deze kwestie en blijven de richtsnoeren relevant.
 
-* **Geen camouflage** - camouflage geeft uw gebruikers één set inhoud en een andere set inhoud weer om te zoeken in machinepunten door deze specifiek te identificeren en ze bewust verschillende inhoud te geven.
+* **Geen camouflage**  - Bij het camoufleren wordt één set inhoud weergegeven voor uw gebruikers en een andere set inhoud voor het doorzoeken van machinepunten door deze specifiek te identificeren en ze bewust verschillende inhoud te geven.
 
    Het doel, als platform, is gevormd om onderzoeksmotor bots te behandelen het zelfde als om het even welke gebruiker. Dit houdt in dat de beren kunnen worden opgenomen in tests die u uitvoert, als ze willekeurig worden geselecteerd en de testvariaties &quot;zien&quot;.
 
-* **Gebruik rel=&quot;canonical&quot;** - Soms moet een A/B-test worden ingesteld met verschillende URL&#39;s voor de variaties. In deze gevallen moeten alle variaties een `rel="canonical"` tag bevatten die verwijst naar de oorspronkelijke (controle)URL. Als Adobe bijvoorbeeld de startpagina test met verschillende URL&#39;s voor elke variatie, wordt de volgende canonieke tag voor de startpagina in de `<head>` tag voor elk van de variaties geplaatst:
+* **Gebruik rel=&quot;canonical&quot;**  - Soms moet een A/B-test worden ingesteld met verschillende URL&#39;s voor de variaties. In deze gevallen moeten alle variaties een `rel="canonical"`-tag bevatten die verwijst naar de oorspronkelijke (controle)URL. Als Adobe bijvoorbeeld de startpagina test met verschillende URL&#39;s voor elke variatie, wordt de volgende canonieke tag voor de startpagina in de tag `<head>` geplaatst voor elk van de variaties:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **Gebruik 302 (tijdelijk) omleidingen** - In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan om 302 omleidingen te gebruiken om het verkeer naar de testvariaties te leiden. Dit vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zal zijn zolang de test loopt.
+* **Gebruik 302 (tijdelijk) omleidingen**  - In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan een omleiding van 302 te gebruiken om direct verkeer naar de testvariaties te leiden. Dit vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zal zijn zolang de test loopt.
 
-   Een omleiding van 302 is een omleiding aan de serverzijde, en het Doel, samen met de meeste optimalisatieproviders, gebruikt cliënt-zijmogelijkheden. Daarom is dit een gebied waarop Target niet volledig voldoet aan de aanbevelingen van Google. Dit is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door Doel roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt Target de JavaScript- `window.location` opdracht om gebruikers de opdracht te geven variaties te testen. Dit geeft niet expliciet aan of omleiding een 301- of 302-waarde is.
+   Een omleiding van 302 is een omleiding aan de serverzijde, en het Doel, samen met de meeste optimalisatieproviders, gebruikt cliënt-zijmogelijkheden. Daarom is dit een gebied waarop Target niet volledig voldoet aan de aanbevelingen van Google. Dit is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door Doel roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt Target de JavaScript-opdracht `window.location` om gebruikers te sturen naar het testen van variaties. Dit geeft niet expliciet aan of het omleiden een 301- of een 302-waarde is.
 
    Hoewel we blijven zoeken naar haalbare oplossingen die volledig in overeenstemming zijn met de richtlijnen voor zoekprogramma&#39;s, zijn we ervan overtuigd dat een correcte implementatie van de bovenstaande canonieke tags het risico dat aan deze aanpak is verbonden, beperkt.
 
-* **Pas als dat nodig** is experimenten uit - wij zijn van mening dat &quot;zo lang als nodig&quot; is om statistische significantie te bereiken. Doel [biedt tips en trucs](https://docs.adobe.com/content/target-microsite/testcalculator.html) om te bepalen wanneer de test dit punt heeft bereikt. Wij adviseren dat u de hard-gecodeerde implementatie van het winnen van tests in uw testwerkschema opneemt en de aangewezen middelen toewijst.
+* **Pas als dat nodig**  is experimenten uit - wij zijn van mening dat &quot;zo lang als nodig&quot; is om statistische significantie te bereiken. Doel [biedt aanbevolen procedures](https://docs.adobe.com/content/target-microsite/testcalculator.html) om te bepalen wanneer uw test dit punt heeft bereikt. Wij adviseren dat u de hard-gecodeerde implementatie van het winnen van tests in uw testwerkschema opneemt en de aangewezen middelen toewijst.
 
    Het gebruik van het doelplatform voor het &quot;publiceren&quot; van winnende tests wordt niet aanbevolen als een permanente oplossing, maar zolang de winnende test voor 100% van de gebruikers 100% van de tijd wordt gepubliceerd, kan deze aanpak worden gebruikt terwijl het proces van het hardcoderen van de winnende test wordt voltooid.
 
