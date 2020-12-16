@@ -20,9 +20,9 @@ Soms wilt u wellicht werken met een veld met meerdere waarden. Neem de volgende 
 * Je verkoopt tickets aan concerten. Een bepaalde gebruiker heeft meerdere favoriete banden.
 * Je verkoopt kleding. Een shirt is verkrijgbaar in verschillende formaten.
 
-Om aanbevelingen in deze scenario&#39;s te behandelen, kunt u multi-waardegegevens tot speciale multi-waardeexploitanten overgaan [!DNL Target Recommendations] en gebruiken.
+Om aanbevelingen in deze scenario&#39;s te behandelen, kunt u multi-waardegegevens tot [!DNL Target Recommendations] overgaan en speciale multi-waardeexploitanten gebruiken.
 
-Om gegevens met meerdere waarden te kunnen identificeren, moet deze als een JSON-array worden verzonden, zoals in de onderstaande codevoorbeelden. [!DNL Recommendations]
+Om [!DNL Recommendations] toe te staan om multi-waardegegevens te identificeren, zou het als serie JSON, zoals in de hieronder codesteekproeven moeten worden verzonden.
 
 ## Een parameter met meerdere waarden doorgeven in JavaScript
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Zie Meerwaardekenmerken [](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) implementeren in *Aangepaste entiteitskenmerken* voor meer informatie.
+Zie [Meerwaardekenmerken implementeren](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Aangepaste entiteitskenmerken* voor meer informatie.
 
 ## Een kenmerk van een entiteit met meerdere waarden doorgeven in een CSV-bestand
 
@@ -60,7 +60,7 @@ Zie Meerwaardekenmerken [](/help/c-recommendations/c-products/custom-entity-attr
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wanneer een entiteitskenmerk, profielkenmerk of mbox-parameter wordt opgegeven als een meerwaarde volgens de bovenstaande indeling, wordt [!DNL Recommendations] automatisch geconcludeerd dat het veld een meerwaarde is.
+Wanneer een entiteitskenmerk, profielkenmerk of mbox-parameter wordt opgegeven als een meerwaarde volgens de bovenstaande indeling, geeft [!DNL Recommendations] automatisch aan dat het veld een meerwaarde is.
 
 De volgende operatoren zijn beschikbaar voor gebruik met multi-value entiteit-, profiel- en mbox-kenmerken:
 
@@ -75,7 +75,7 @@ De volgende operatoren zijn beschikbaar voor gebruik met multi-value entiteit-, 
 
 ### Voorbeeld: Onlangs gevolgde objecten uitsluiten
 
-Stel dat u wilt voorkomen dat films die zich in de laatste tien gecontroleerde films van de gebruiker bevinden, worden aanbevolen. Schrijf eerst een profielscript dat wordt aangeroepen `user.lastWatchedMovies` om de laatste tien bekeken films als een JSON-array bij te houden. Dan, kunt u de punten uitsluiten door de volgende inclusieregel te gebruiken:
+Stel dat u wilt voorkomen dat films die zich in de laatste tien gecontroleerde films van de gebruiker bevinden, worden aanbevolen. Schrijf eerst een profielscript met de naam `user.lastWatchedMovies` om de laatste tien bekeken films als een JSON-array bij te houden. Dan, kunt u de punten uitsluiten door de volgende inclusieregel te gebruiken:
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ JSON API-representatie van de insluitingsregel:
 
 ### Voorbeeld: Aanbevolen objecten uit de favorieten van de gebruiker
 
-Stel dat u alleen tickets aan concerten wilt aanbevelen als de band die wordt afgespeeld een van de favoriete banden van de gebruiker is. Eerst, zorg ervoor dat u een profielvariabele genoemd hebt `profile.favoriteBands` die de favoriete banden van de gebruiker bevat. Zorg er vervolgens voor dat uw catalogus een kenmerk bevat `entity.artistPerforming` dat de artiest bevat die in het concert uitvoert. Vervolgens kunt u de volgende inclusieregel gebruiken:
+Stel dat u alleen tickets aan concerten wilt aanbevelen als de band die wordt afgespeeld een van de favoriete banden van de gebruiker is. Eerst, zorg ervoor dat u een profielvariabele genoemd `profile.favoriteBands` hebt die de favoriete banden van de gebruiker bevat. Zorg er vervolgens voor dat uw catalogus een kenmerk `entity.artistPerforming` bevat dat de artiest bevat die in het concert uitvoert. Vervolgens kunt u de volgende inclusieregel gebruiken:
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ JSON API-representatie van de insluitingsregel:
 
 ### Voorbeeld: API maken van criteria voor het aanbevelen van items uit de favorieten van een gebruiker
 
-Criteria die multiwaardefiltreringsregels gebruiken, zoals alle criteria, kunnen via Adobe I/O APIs worden gecreeerd. Hier wordt een voorbeeld-API-aanroep weergegeven om een criterium te maken waarbij het entiteitskenmerk `id` zich in de parameterlijst mbox `favorites` bevindt:
+U kunt criteria maken met filterregels voor meerdere waarden, zoals alle criteria, via Adobe I/O API&#39;s. Een voorbeeld-API-aanroep om een criterium te maken waarbij het entiteitskenmerk `id` in de parameterlijst mbox `favorites` is opgenomen, wordt hier gegeven:
 
 ```
 curl -X POST \
