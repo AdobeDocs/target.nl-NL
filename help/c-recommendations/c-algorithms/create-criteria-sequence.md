@@ -12,15 +12,15 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) : Criteria maken
+# ![Criteria ](/help/assets/premium.png) PREMIUMCreate-reeksen maken
 
-Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over de items die in uw [!UICONTROL Recommendations] activiteiten worden weergegeven. U kunt ook het aantal geretourneerde items beperken (dit wordt ook wel &#39;&#39;besturingselement voor sleufniveau&#39;&#39; genoemd).
+Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over de items die in uw [!UICONTROL Recommendations]-activiteiten worden weergegeven. U kunt ook het aantal geretourneerde items beperken (dit wordt ook wel &#39;&#39;besturingselement voor sleufniveau&#39;&#39; genoemd).
 
 >[!NOTE]
 >
->Criteria sequenties kunnen niet worden gebruikt met [!UICONTROL Recommendations] activiteiten die vóór de release van oktober 2016 zijn gecreëerd [!DNL Target Premium].
+>Criteria-reeksen kunnen niet worden gebruikt met [!UICONTROL Recommendations]-activiteiten die vóór de release van oktober 2016 van [!DNL Target Premium] zijn gemaakt.
 
-Als u een reeks criteria wilt maken, moet u eerst de criteria maken die u in de reeks wilt opnemen. Zie [Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md) maken voor meer informatie.
+Als u een reeks criteria wilt maken, moet u eerst de criteria maken die u in de reeks wilt opnemen. Zie [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) voor meer informatie.
 
 Door een criteria opeenvolging te gebruiken, kunt u extra gerichte aanbevelingen verstrekken, in plaats van het gebruiken van generischere reserveaanbevelingen, wanneer een criteria niet genoeg resultaten terugkeren om uw ontwerp te vullen. Typisch, zal een criteria opeenvolging van specifieker richten te werk gaan, die minder resultaten zou kunnen terugkeren, aan meer algemeen richten, die gewoonlijk meer resultaten terugkeert.
 
@@ -33,15 +33,15 @@ Afhankelijk van het paginatype kunnen de volgorde van de criteria variëren, zoa
 
 ## Een reeks criteria maken
 
-U maakt maatreeksen op basis van het [!UICONTROL Create Criteria Sequence] scherm.
+U maakt reeksen criteria op basis van het scherm [!UICONTROL Create Criteria Sequence].
 
 Er zijn meerdere manieren om het [!UICONTROL Create Criteria Sequence] scherm te bereiken. Sommige schermopties variëren afhankelijk van de manier waarop u het scherm bereikt.
 
-* Klik in het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. De criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!UICONTROL Recommendations] activiteiten.
-* Wanneer u een [!UICONTROL Recommendations] activiteit creeert, van het Uitgezochte scherm van Criteria, klik **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. U kunt de nieuwe reeks criteria opslaan voor gebruik met andere [!UICONTROL Recommendations] activiteiten.
-* Als u een [!UICONTROL Recommendations] activiteit bewerkt, klikt u in een [!UICONTROL Recommendations Location] vak op de pagina en selecteert u **[!UICONTROL Change Criteria]**. Klik in het [!UICONTROL Select Criteria] scherm op **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. U kunt de nieuwe criteria opslaan voor gebruik met andere [!UICONTROL Recommendations] activiteiten.
+* Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!UICONTROL Recommendations]-activiteiten.
+* Wanneer u een [!UICONTROL Recommendations] activiteit creeert, van het Uitgezochte scherm van Criteria, klik **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. U zult de optie hebben om uw nieuwe criteria opeenvolging voor gebruik met andere [!UICONTROL Recommendations] activiteiten te bewaren.
+* Wanneer u een [!UICONTROL Recommendations] activiteit uitgeeft, klik in [!UICONTROL Recommendations Location] doos op uw pagina, dan uitgezocht **[!UICONTROL Change Criteria]**. Klik op [!UICONTROL Select Criteria] > **[!UICONTROL Create Criteria Sequence]** in het scherm &lt;a0/>. **[!UICONTROL Create New]** U hebt de optie om uw nieuwe criteria voor gebruik met andere [!UICONTROL Recommendations] activiteiten te bewaren.
 
-In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criteria Sequence] scherm opent met de eerste methode: het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek.
+In de volgende stappen wordt ervan uitgegaan dat u het scherm [!UICONTROL Create Criteria Sequence] opent met de eerste methode: het **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm.
 
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
@@ -49,25 +49,25 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. Vul de gegevens in in de sectie [Basisinformatie](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) .
+1. Vul de gegevens in de sectie [Basisinformatie](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) in.
 
-1. Klik in de **[!UICONTROL Criteria Sequence]** sectie op **[!UICONTROL Add Criteria]**.
+1. Klik in de sectie **[!UICONTROL Criteria Sequence]** op **[!UICONTROL Add Criteria]**.
 
    De volgordevolgorde bepaalt de volgorde waarin een ontwerp wordt gevuld. Als Criteria 1 niet genoeg aanbevelingen heeft om uw ontwerp te vullen, zullen de resterende groeven met Criteria 2 worden gevuld, etc.
 
    ![Criteria toevoegen](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. Selecteer een criterium op het [!UICONTROL Select Criteria] scherm en klik op **[!UICONTROL Add]**.
+1. Selecteer een criterium in het scherm [!UICONTROL Select Criteria] en klik op **[!UICONTROL Add]**.
 
    U kunt het vakje van het Onderzoek en de filterdrop-down gebruiken om de gewenste criteria te vinden.
 
    ![Criteria selecteren](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. (Optioneel) Sleep de **[!UICONTROL Limit the number of items returned]** schakeloptie naar de positie &quot;Aan&quot; en geef het aantal items op (tussen 1 en 50).
+1. (Optioneel) Schuif de **[!UICONTROL Limit the number of items returned]**-schakeloptie naar de positie &quot;aan&quot; en geef vervolgens het aantal items op (tussen 1 en 50).
 
    ![Het aantal geretourneerde items beperken](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Om u te helpen de waarde van de [!UICONTROL Limit the number of items returned] optie begrijpen (soms genoemd &quot;controle van het groefniveau,&quot;) overweeg de volgende gebruiksgevallen:
+   Om u te helpen de waarde van de [!UICONTROL Limit the number of items returned] optie begrijpen (soms genoemd &quot;de controle van het groefniveau,&quot;) overweeg de volgende gebruiksgevallen:
 
    * **Hoofdlettergebruik 1**: U wilt een combinatie van verschillende soorten punten in één enkele raadsdienblad hebben. U wilt bijvoorbeeld een combinatie van bovenkleding (jassen) en toppen (overhemden, T-shirts) weergeven. Om dit te bereiken, gebruik een Inzameling voor de activiteit die alle potentiële producttypes omvat u in om het even welke groeven in uw ontwerp wilt. Stel vervolgens de eerste criteria in met een statisch filter dat de criteria beperkt tot het opnemen van alleen bovenkleding, en stel de tweede criteria in met een statisch filter dat de criteria beperkt tot alleen bovenkanten. Ten slotte kunt u beide criteria toevoegen aan een reeks criteria en de eerste criteria beperken tot twee sleuven.
 
@@ -79,15 +79,15 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
 1. Voeg aanvullende criteria aan uw reeks toe. U kunt maximaal vijf criteria toevoegen aan een reeks.
 
-1. Schakel opties voor [Back-up van inhoud in](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
+1. Schakel [Opties voor back-upinhoud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) in.
 
 1. Klik op **[!UICONTROL Save]**.
 
    De opeenvolging van criteria zal in de lijst van Criteria verschijnen.
 
-   Zie [Criteria](/help/c-recommendations/c-algorithms/algorithms.md)voor meer informatie over de opties van de aanbevolen logica.
+   Zie [Criteria](/help/c-recommendations/c-algorithms/algorithms.md) voor meer informatie over de opties van de aanbevolen logica.
 
-## Trainingsvideo: Criteria maken in Recommendations (12:33) - ![Zelfstudie](/help/assets/tutorial.png)
+## Trainingsvideo: Criteria maken in Recommendations (12:33) ![Zelfstudie badge](/help/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 
