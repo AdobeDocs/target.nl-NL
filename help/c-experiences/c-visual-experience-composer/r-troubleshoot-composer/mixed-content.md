@@ -18,7 +18,7 @@ Gemengde inhoud komt voor als zowel (veilige) HTTPS *als* (onveilige) inhoud HTT
 
 Moderne browsers kunnen de weergave van een pagina blokkeren of waarschuwingsberichten weergeven als beveiligde inhoud wordt gemengd met onveilige inhoud.
 
-Als de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] probeert om een pagina te openen die gemengde inhoud bevat, toont een bericht dat hoe te om het blokkeren in uw browser onbruikbaar te maken zodat kunt u een plaats van HTTP of een plaats openen die gemengde vraag (HTTPS en HTTP) heeft.
+Als [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] probeert om een pagina te openen die gemengde inhoud bevat, toont een bericht die hoe te om het blokkeren in uw browser onbruikbaar te maken zodat kunt u een plaats van HTTP openen of een plaats die gemengde vraag (HTTPS en HTTP) heeft.
 
 ![waarschuwing voor gemengde inhoud](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -38,7 +38,7 @@ Zie [Gemengde inhoud](https://developer.mozilla.org/en-US/docs/Web/Security/Mixe
 
 Als u een site bezoekt via een beveiligde verbinding, controleert Chrome of de inhoud op de webpagina veilig is verzonden.
 
-Zie [Deze pagina bevat onveilige inhoud](https://support.google.com/chrome/answer/1342714?hl=en) in de Help van Google Chrome.
+Zie [Deze pagina heeft onveilige inhoud](https://support.google.com/chrome/answer/1342714?hl=en) in de Help van Google Chrome.
 
 Als u de VEC gebruikt met de nieuwste versie van Chrome (versie 79.0.3945.117 of hoger), moet u de site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
@@ -46,7 +46,7 @@ Als u de VEC gebruikt met de nieuwste versie van Chrome (versie 79.0.3945.117 of
 
    ![Site-instellingen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Blader naar **[!UICONTROL Insecure content]**, gebruik vervolgens de vervolgkeuzelijst om &quot;Blok (standaard)&quot; te wijzigen in &quot;Toestaan&quot;.
+1. Blader naar **[!UICONTROL Insecure content]** en gebruik vervolgens de vervolgkeuzelijst om &quot;Blok (standaard)&quot; te wijzigen in &quot;Toestaan&quot;.
 
    ![Onveilige inhoud](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -54,18 +54,18 @@ Als u de VEC gebruikt met de nieuwste versie van Chrome (versie 79.0.3945.117 of
 
 ## Gemengde inhoud inschakelen in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Standaard blokkeert Firebox pagina&#39;s die beveiligde en onveilige inhoud mengen. U wordt aangeraden deze instelling permanent te wijzigen in gebruik [!DNL Target]. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
+Standaard blokkeert Firebox pagina&#39;s die beveiligde en onveilige inhoud mengen. U wordt aangeraden deze instelling permanent te wijzigen in [!DNL Target]. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
-1. Typ in Firefox `about:config` de adresbalk.
+1. Typ `about:config` in de adresbalk van Firefox.
 1. Bevestig het waarschuwingsbericht dat door Firefox wordt weergegeven.
 
    ![Firefox-waarschuwing](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
-1. Typ in de zoekbalk `block_active`.
+1. Typ `block_active` in de zoekbalk.
 
    ![Actieve instelling Firefox-blok](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
-1. Dubbelklik ` **[!UICONTROL security.mixed_content.block_active_content]**` .
+1. Dubbelklik op ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
    De waarde verandert van &quot;Waar&quot; in &quot;Onwaar&quot;. Wanneer de waarde &quot;False&quot; weergeeft, bent u klaar.
 
@@ -83,7 +83,7 @@ Als u de VEC gebruikt met de nieuwste versie van Edge, moet u de site-instelling
 
    ![Siterechten in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Blader naar **[!UICONTROL Insecure content]**, gebruik vervolgens de vervolgkeuzelijst om &quot;Blok (standaard)&quot; te wijzigen in &quot;Toestaan&quot;.
+1. Blader naar **[!UICONTROL Insecure content]** en gebruik vervolgens de vervolgkeuzelijst om &quot;Blok (standaard)&quot; te wijzigen in &quot;Toestaan&quot;.
 
    ![Onveilige inhoud](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
