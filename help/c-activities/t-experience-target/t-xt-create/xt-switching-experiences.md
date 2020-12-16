@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Overschakelen van ervaringen op het gebied van ervaring{#switching-experiences-in-experience-targeting}
+# Overschakelen van ervaringen in ervaring gericht{#switching-experiences-in-experience-targeting}
 
 Informatie over hoe bezoekers kunnen schakelen tussen ervaringen in een Experience Targeting (XT)-activiteit terwijl hun profielen evolueren.
 
@@ -30,10 +30,10 @@ Met Experience Targeting kunt u bepalen welke bezoekers zien hoe hun profielen e
 |--- |--- |
 | Geografische locatie | bezoekers kunnen uw website of mobiele app vanuit verschillende geografische locaties bekijken terwijl ze voor zakelijke doeleinden of plezier reizen. |
 | Klantstatus | Bezoekers kunnen als een vooruitzicht worden beschouwd voordat ze een account maken of een product kopen. |
-| Categorie-affiniteit | Met de functie voor [affiniteit](/help/c-target/c-visitor-profile/category-affinity.md) van categorie in Target worden automatisch de categorieën vastgelegd die gebruikers bezoeken en wordt vervolgens de affiniteit van de gebruikers voor de categorie berekend voor doeldoeleinden. bezoekers die bijvoorbeeld verschillende artikelen over een bepaald onderwerp op uw website hebben weergegeven, kunnen inhoud over dat onderwerp krijgen. |
+| Categorie-affiniteit | Met de functie [Categorie affiniteit](/help/c-target/c-visitor-profile/category-affinity.md) in Target worden automatisch de categorieën vastgelegd die gebruikers bezoeken en wordt vervolgens de affiniteit van de gebruikers voor de categorie voor doeldoeleinden berekend. bezoekers die bijvoorbeeld verschillende artikelen over een bepaald onderwerp op uw website hebben weergegeven, kunnen inhoud over dat onderwerp krijgen. |
 | Weekdag | Wanneer het weekend nadert, wilt u bezoekers wellicht inhoud laten zien over films, dineren of andere vormen van entertainment. |
 
-Als u deze mogelijkheden wilt benutten in [!DNL Target], is het belangrijk dat u de volgende informatie begrijpt terwijl u werkt met XT-activiteiten:
+Om deze mogelijkheden in [!DNL Target] te gebruiken, is het belangrijk om de volgende informatie te begrijpen aangezien u met XT activiteiten werkt:
 
 * **De prioriteit wordt bepaald door de volgorde van de ervaringen, van boven naar beneden.** Als een bezoeker voor meer dan twee soorten publiek in aanmerking komt, ontvangt hij of zij inhoud uit de ervaring met hogere prioriteit.
 * **Bezoekers schakelen tussen de ervaringen in een XT-activiteit als ze zich gaan kwalificeren voor een hogere prioriteit.**
@@ -49,7 +49,7 @@ Als u deze mogelijkheden wilt benutten in [!DNL Target], is het belangrijk dat u
 
    ![Priority US > Germany](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **Een ervaring die gericht is op &quot;Alle bezoekers&quot; kan worden gebruikt als de laatste ervaring in de ervaring die is opgedaan met activiteiten die erop gericht zijn bezoekers te &quot;vangen&quot; die geen andere ervaring hebben opgedaan. Als een ervaring die bedoeld is voor &quot;alle bezoekers&quot; niet de laatste in de volgorde is, zullen andere doelgerichte ervaringen die lager zijn vermeld dan deze ervaring nog worden geëvalueerd.**
+* **Een ervaring die gericht is op &quot;Alle bezoekers&quot; kan worden gebruikt als de laatste ervaring in de ervaring die is opgedaan met activiteiten die erop gericht zijn bezoekers te &quot;vangen&quot; die geen andere ervaring hebben opgedaan. Als een ervaring gericht op &quot;Alle Bezoekers&quot;niet de laatste in de orde is, zullen andere gerichte gerangschikte ervaringen die lager zijn dan deze ervaring nog worden geëvalueerd.**
 
    In de volgende activiteiteninstellingen heeft een bezoeker bijvoorbeeld uw website geopend vanuit de Verenigde Staten en vervolgens naar Duitsland gereisd en een tweede keer naar uw website bezocht. Tijdens het eerste bezoek kwam deze bezoeker in aanmerking voor Experience A (Amerikaanse bezoekers). Nadat u uw website vanuit Duitsland hebt bekeken, blijft deze bezoeker in Experience A (Amerikaanse bezoekers).
 
