@@ -18,18 +18,18 @@ Download een interactieve PDF die de verschillende activiteitstypen in Adobe Tar
 
 >[!NOTE]
 >
->Download de interactieve [Adobe Target Activity Guide PDF](/help/assets/activities_guide_82817.pdf)voor een optimale ervaring en om deze met anderen te delen.
+>Download de interactieve [Adobe Target Activity Guide PDF](/help/assets/activities_guide_82817.pdf) voor een optimale ervaring en om deze met anderen te delen.
 
 ## Wat doet het? {#section_4ECAACC68723402EB3649033190E1BBC}
 
 | Type activiteit | Details |
 |--- |--- |
-| ![](/help/c-activities/assets/icon_ab.png)<br/>pictogramHandleiding A/B-test | Vergelijkt twee of meer ervaringen om te zien welke omzettingen het best gedurende een vooraf bepaalde testperiode verbeteren.  Zie [A/B-test](/help/c-activities/t-test-ab/test-ab.md)voor meer informatie. |
-| ![Pictogram Automatisch](/help/c-activities/assets/icon_auto_allocate.png)<br/>toewijzenAutomatisch toewijzen | Identificeert een winnaar onder twee of meer ervaringen, en richt dan verkeer aan de winnaar opnieuw, die omzetting verhoogt aangezien de test loopt en leert.  Zie [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)voor meer informatie. |
-| ![Pictogram](/help/c-activities/assets/icon_auto_target.png)<br/>ATAuto-Target | Gebruikt geavanceerd computerleren om inhoud en aandrijvingsomzettingen aan te passen door veelvoudige hoog-presterende, markerings-bepaalde ervaringen te identificeren, en dan de meest op maat gemaakte ervaring aan bezoekers te dienen die op hun individuele klantenprofielen en verleden gedrag van gelijkaardige bezoekers worden gebaseerd.  Voor meer informatie, zie [auto-Doel voor Persoonlijke Ervaringen](/help/c-activities/auto-target/auto-target-to-optimize.md). |
-| ![Pictogram](/help/c-activities/assets/icon_ap.png)<br/>APAutomated Personalization (AP) | Gebruikt geavanceerd computerleren om inhoud en aandrijvingsomzettingen aan te passen door specifieke aanbiedingen of berichten te combineren, en dan verschillende aanbiedingsvariaties aan bezoekers, die op hun individuele klantenprofielen worden gebaseerd.  Zie [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)voor meer informatie. |
-| ![Icon](/help/c-activities/assets/icon_mvt.png)<br/>MVTMultivariate Testing (MVT) | Vergelijkt combinaties aanbiedingen onder elementen op een pagina om te zien welke combinatie het beste voor een specifiek publiek presteert. Geeft ook aan welk element van de pagina de conversies het beste verbetert gedurende een vooraf opgegeven testperiode.  Zie [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)voor meer informatie. |
-| ![Icon](/help/c-activities/assets/icon_xt.png)<br/>XTExperience Targeting (XT) | Levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd. Zie [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)voor meer informatie. |
+| ![](/help/c-activities/assets/icon_ab.png)<br/>pictogramHandleiding A/B-test | Vergelijkt twee of meer ervaringen om te zien welke omzettingen het best gedurende een vooraf bepaalde testperiode verbeteren.  Zie [A/B Test](/help/c-activities/t-test-ab/test-ab.md) voor meer informatie. |
+| ![Pictogram Automatisch ](/help/c-activities/assets/icon_auto_allocate.png)<br/>toewijzenAutomatisch toewijzen | Identificeert een winnaar onder twee of meer ervaringen, en richt dan verkeer aan de winnaar opnieuw, die omzetting verhoogt aangezien de test loopt en leert.  Zie [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) voor meer informatie. |
+| ![Pictogram ](/help/c-activities/assets/icon_auto_target.png)<br/>ATAuto-Target | Gebruikt geavanceerd computerleren om inhoud en aandrijvingsomzettingen aan te passen door veelvoudige hoog-presterende, markerings-bepaalde ervaringen te identificeren, en dan de meest op maat gemaakte ervaring aan bezoekers te dienen die op hun individuele klantenprofielen en verleden gedrag van gelijkaardige bezoekers worden gebaseerd.  Voor meer informatie, zie [Auto-Target voor Persoonlijke Ervaringen](/help/c-activities/auto-target/auto-target-to-optimize.md). |
+| ![Pictogram ](/help/c-activities/assets/icon_ap.png)<br/>APAutomated Personalization (AP) | Gebruikt geavanceerd computerleren om inhoud en aandrijvingsomzettingen aan te passen door specifieke aanbiedingen of berichten te combineren, en dan verschillende aanbiedingsvariaties aan bezoekers, die op hun individuele klantenprofielen worden gebaseerd.  Zie [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) voor meer informatie. |
+| ![Icon ](/help/c-activities/assets/icon_mvt.png)<br/>MVTMultivariate Testing (MVT) | Vergelijkt combinaties aanbiedingen onder elementen op een pagina om te zien welke combinatie het beste voor een specifiek publiek presteert. Geeft ook aan welk element van de pagina de conversies het beste verbetert gedurende een vooraf opgegeven testperiode.  Zie [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) voor meer informatie. |
+| ![Icon ](/help/c-activities/assets/icon_xt.png)<br/>XTExperience Targeting (XT) | Levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd. Zie [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) voor meer informatie. |
 
 ## Waarom gebruikt u dit? {#section_46A70DD7CE3448749E635DDF5EAFC131}
 
@@ -53,7 +53,7 @@ Download een interactieve PDF die de verschillende activiteitstypen in Adobe Tar
 | Multivariate Testing (MVT) | Heeft kennis van status.<br/>Heeft een of meer voorstellen.<br/>Wil conversietrends met betrekking tot interacties van pagina-elementen analyseren. |
 | Gericht op ervaring (XT) | Moet een specifieke ervaring of inhoud aan een specifiek publiek leveren. |
 
-## Statistische gegevens {#section_22CF2D07DB054505AB5EC702B99A5BB0}
+## Statistische details {#section_22CF2D07DB054505AB5EC702B99A5BB0}
 
 | Type activiteit | Details |
 |--- |--- |
