@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIE](/help/assets/premium.png) Recommendations Activity Settings{#recommendations-activity-settings}
+# ![Activiteitsinstellingen voor ](/help/assets/premium.png) PREMIUMReperingen{#recommendations-activity-settings}
 
-Informatie over de instellingen die u kunt gebruiken om een [!UICONTROL Recommendations] activiteit in te beschrijven en te beheren [!DNL Adobe Target].
+Informatie over de montages u kunt gebruiken om een [!UICONTROL Recommendations] activiteit in [!DNL Adobe Target] te beschrijven en te controleren.
 
 ![Recommendations-pagina Doelen en instellingen](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-In de volgende secties worden de beschikbare instellingen voor een [!UICONTROL Recommendations] activiteit beschreven.
+De volgende secties beschrijven de beschikbare montages voor een [!UICONTROL Recommendations] activiteit.
 
 ## Naam
 
@@ -35,7 +35,7 @@ De volgende tekens zijn niet toegestaan in een naam van een activiteit:
 `-`
 `@`
 
-Als u een [!UICONTROL Recommendations] activiteitennaam opgeeft die al bestaat voor een andere activiteit in [!UICONTROL Recommendations Classic], wordt de nieuwe activiteit opnieuw gesynchroniseerd met een nieuwe naam. De nieuwe naam is de oorspronkelijke naam die met een tijdstempel is toegevoegd om deze uniek te maken. Deze nieuwe naam wordt zowel in [!DNL Target Standard/Premium] als [!UICONTROL Recommendations Classic].
+Als u een [!UICONTROL Recommendations] activiteitennaam specificeert die reeds voor een andere activiteit in [!UICONTROL Recommendations Classic] bestaat, wordt de nieuwe activiteit opnieuw gesynchroniseerd met een nieuwe naam. De nieuwe naam is de oorspronkelijke naam die met een tijdstempel is toegevoegd om deze uniek te maken. Deze nieuwe naam wordt zowel in [!DNL Target Standard/Premium] als [!UICONTROL Recommendations Classic] getoond.
 
 ## Doelstelling
 
@@ -55,16 +55,16 @@ De activiteit kan beginnen wanneer geactiveerd, of u kunt een specifieke datum e
 
 ## Rapportinstellingen
 
-* **Bron rapporteren:** Selecteer de rapportbron: [!DNL Adobe Target] of [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Wijzig de bron van de rapportage niet nadat de activiteit actief is geworden. Het wijzigen van de bron van de rapportage nadat een activiteit actief wordt, leidt tot inconsistente rapportage.
-* **Metrisch doel:** Selecteer de succesmaatstaf die bepaalt of de activiteit succesvol is.
-* **Extra cijfers:** Vorm extra succesmetriek die in uw rapporten moet worden gebruikt.
-* **Soorten publiek voor rapportage:** Bepaal publiek dat kan worden gebruikt wanneer het filtreren van uw rapporten.
+* **Rapporterende Bron:** selecteer de rapporteringsbron:  [!DNL Adobe Target] of  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Wijzig de bron van de rapportage niet nadat de activiteit actief is geworden. Het wijzigen van de bron van de rapportage nadat een activiteit actief wordt, leidt tot inconsistente rapportage.
+* **Metrisch doel:** selecteer succesmetrische waarde die bepaalt of de activiteit succesvol is.
+* **Extra Metriek:** Vorm extra succesmetriek die in uw rapporten moet worden gebruikt.
+* **Soorten publiek voor Rapportering:** Bepaal publiek dat kan worden gebruikt wanneer het filtreren van uw rapporten.
 
 ## Andere metagegevens
 
 Voer opmerkingen in over je activiteiten.
 
-## Trainingsvideo: Activiteitsinstellingen (3:02) ![Zelfstudie](/help/assets/tutorial.png)
+## Trainingsvideo: Activiteitsinstellingen (3:02) ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 Deze video bevat informatie over instellingen voor activiteit.
 
