@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Hoofdstuk 5: Inspiratie voor test- en personalisatieactiviteiten.
 
-Deze test- en personalisatieideeën, geïnspireerd op echte activiteiten van onze klanten die de conversiekoers en -inkomsten hebben opgeheven, zijn het waard om te proberen of als inspiratie te gebruiken voor uw eigen [!DNL Target] activiteiten. Zelfs als het idee niet echt geschikt is voor uw organisatie, met een beetje creativiteit en brainstorming, kunt u overwegen om een activiteit te ontwikkelen op basis van de geest van de test of het idee van personalisatie.
+Deze test- en personalisatieideeën, geïnspireerd op echte activiteiten van onze klanten die de conversiegraad en -inkomsten hebben opgeheven, zijn het waard om te proberen of als inspiratie te gebruiken voor uw eigen [!DNL Target]-activiteiten. Zelfs als het idee niet echt geschikt is voor uw organisatie, met een beetje creativiteit en brainstorming, kunt u overwegen om een activiteit te ontwikkelen op basis van de geest van de test of het idee van personalisatie.
 
 ## Idee 1: Testen van klantentransparantie.
 
-Verhoog de conversiegraad en de omzet door een creatieve reis en merkervaring te creëren die met websitebezoekers resoneert terwijl het voldoen aan bedrijfsdoelstellingen. Vervolgens test u die persoonlijke reis door deze te vergelijken met statische ervaringen of willekeurig geleverde ervaringen. U kunt de personalisatie op een hoger niveau tillen door het publiek dat u personaliseert, te ontdekken en te maken en gegevens van derden te gebruiken in [!DNL Adobe Audience Manager].
+Verhoog de conversiegraad en de omzet door een creatieve reis en merkervaring te creëren die met websitebezoekers resoneert terwijl het voldoen aan bedrijfsdoelstellingen. Vervolgens test u die persoonlijke reis door deze te vergelijken met statische ervaringen of willekeurig geleverde ervaringen. Verpersoonlijking een niveau dieper nemen door het publiek te ontdekken en te creëren u aan het gebruiken van tweede en derdegegevens in [!DNL Adobe Audience Manager] personaliseert.
 
 Nadat u die doelgroepen hebt geïdentificeerd, test en onderzoek naar de gebruikerservaring om te leren wat hen overtuigt om te reageren, en ontwikkelt u de ervaringen die u hen binnen hun reis aanpast.
 
@@ -77,4 +77,4 @@ Overweeg de volgende ideeën voordat we verdergaan met het volgende hoofdstuk: &
 * Minimale duur activiteit: Voer een testactiviteit uit gedurende ten minste 14 dagen.
 * Minimale resultaten betrouwbaarheidsniveau: Voer een testactiviteit uit totdat de resultaten een minimale betrouwbaarheid van 90% bereiken.
 * Minimale conversie per ervaring: Voer een testactiviteit uit tot er minstens 500 omzettingen per ervaring zijn.
-* Consistentie in resultaten: Bevestig de resultaten consistent en stabiel door deze weer te geven in de grafiekweergave in [!DNL Target].
+* Consistentie in resultaten: Bevestig resultaten consistent en stabiel door deze weer te geven in de grafiekweergave in [!DNL Target].
