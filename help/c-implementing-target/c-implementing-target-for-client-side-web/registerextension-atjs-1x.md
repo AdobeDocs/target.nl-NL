@@ -18,14 +18,14 @@ Verstrekt een standaardmanier om een specifieke uitbreiding te registreren.
 
 >[!NOTE]
 >
->Deze functie is beschikbaar voor at.js versies 1.*alleen x* . Deze functie is vervangen door de release van at.js 2.x. Deze functie retourneert standaardinhoud als deze wordt gebruikt met at.js 2.x.
+>Deze functie is beschikbaar voor at.js versies 1.** Alleen. Deze functie is vervangen door de release van at.js 2.x. Deze functie retourneert standaardinhoud als deze wordt gebruikt met at.js 2.x.
 
 De parameter options is verplicht en heeft de volgende structuur:
 
 | Sleutel | Type | Vereist | Beschrijving |
 |--- |--- |--- |--- |
 | name | String | Ja | Naam van extensie. |
-| modules | [ArrayString] | Ja | Een array van tekenreeksen die opgevraagde modulenamen vertegenwoordigen. |
+| modules | Array[String] | Ja | Een array van tekenreeksen die opgevraagde modulenamen vertegenwoordigen. |
 | registreren | -functie | Ja | Een functie die wordt gebruikt om de extensie te initialiseren en samen te stellen. Deze functie ontvangt argumenten die op modules serie worden gebaseerd. |
 
 Opmerkingen:
@@ -33,9 +33,9 @@ Opmerkingen:
 * Als een van de parameters niet wordt opgegeven, wordt een uitzondering gegenereerd.
 * Als de array modules leeg is, wordt een uitzondering gegenereerd.
 
-Voor meer informatie en voorbeelden van hoe te om te gebruiken `registerExtension`, zie de pagina van de Uitbreidingen [van de Doelen van het Doel van](https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions) Adobe Experience Cloud op GitHub.
+Voor meer informatie en voorbeelden van hoe te om `registerExtension` te gebruiken, zie [Adobe Experience Cloud het Doelen van de Doelen Extensions](https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions) pagina op GitHub.
 
-## Methoden van de module Instellingen {#section_8501CDD4B0624FA2B10532C98C5F4328}
+## Methoden van de module Settings {#section_8501CDD4B0624FA2B10532C98C5F4328}
 
 | Sleutel | Type | Beschrijving |
 |--- |--- |--- |
@@ -49,5 +49,5 @@ Voor meer informatie en voorbeelden van hoe te om te gebruiken `registerExtensio
 
 | Sleutel | Type | Beschrijving |
 |--- |--- |--- |
-| log | -functie | Logs de veranderlijke lijst van argumenten aan de browser console, als het bestaat. Deze wordt alleen geactiveerd wanneer de URL `mboxDebug=true` wordt doorgegeven. |
+| log | -functie | Logs de veranderlijke lijst van argumenten aan de browser console, als het bestaat. Deze wordt alleen geactiveerd wanneer `mboxDebug=true` wordt doorgegeven aan de URL. |
 | fout | -functie | Logs de veranderlijke lijst van argumenten aan de browser console. Deze wordt alleen geactiveerd wanneer er ernstige fouten zijn, zoals time-out van netwerk, niet gevonden HTML-knooppunt, enzovoort. |
