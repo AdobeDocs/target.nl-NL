@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Criteria
+# ![](/help/assets/premium.png) PREMIUMCCriteria
 
-Criteria in [!DNL Adobe Target] zijn regels die bepalen welke producten of inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers. De criteria kunnen op populaire tendensen, het huidige en vroegere gedrag van een bezoeker, of gelijkaardige producten en inhoud worden gebaseerd. U kunt veelvoudige aanbevelingstypes tegen elkaar testen door veelvoudige criteria toe te voegen.
+De criteria in [!DNL Adobe Target] zijn regels die welke producten of inhoud bepalen om op een vooraf bepaalde reeks bezoekersgedrag te adviseren. De criteria kunnen op populaire tendensen, het huidige en vroegere gedrag van een bezoeker, of gelijkaardige producten en inhoud worden gebaseerd. U kunt veelvoudige aanbevelingstypes tegen elkaar testen door veelvoudige criteria toe te voegen.
 
 In de volgende secties wordt meer uitgelegd over criteria en de logica van de aanbeveling die u voor elke toets kunt gebruiken. Klik op de koppelingen voor meer informatie.
 
-## Verticale industrie {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
+## Verticaal {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
 Terwijl het creëren van criteria, selecteert u een industrie verticaal die op de doelstellingen van uw aanbevelingen activiteit wordt gebaseerd.
 
@@ -28,11 +28,11 @@ Terwijl het creëren van criteria, selecteert u een industrie verticaal die op d
 | Genereren van leads/B2B/Financiële services | Omzetten zonder aankoop |
 | Media/Publiceren | Betrokkenheid |
 
-Andere criteria worden gewijzigd op basis van de verticale industriestandaard die u selecteert. U kunt uw standaardindustrie verticaal op de **[!UICONTROL Recommendations > Settings]** pagina plaatsen of u kunt de industrie verticaal voor elke criteria specificeren.
+Andere criteria worden gewijzigd op basis van de verticale industriestandaard die u selecteert. U kunt uw standaardindustrie verticaal op **[!UICONTROL Recommendations > Settings]** pagina plaatsen of u kunt de industrie verticaal voor elke criteria specificeren.
 
 ## Aanbevelingssleutel {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Het type criteria wordt bepaald door de toets die u voor de aanbeveling selecteert. Er zijn verschillende soorten criteria, die als criteria worden voorgesteld wanneer u een [!DNL Recommendations] activiteit instelt.
+Het type criteria wordt bepaald door de toets die u voor de aanbeveling selecteert. Er zijn verscheidene criteria types, die als criteria kaarten worden vertegenwoordigd wanneer u opstelling een [!DNL Recommendations] activiteit.
 
 ![Criteria pagina](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
 
@@ -46,35 +46,35 @@ In de volgende tabel worden de verschillende typen criteria en de bijbehorende s
 | Populariteit | Aanbevelen de populairste items, zoals de populairste video&#39;s in een verwante categorie of de producten die het meest op uw site zijn weergegeven.<ul><li>[Populariteit](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
 | [Onlangs bekeken objecten](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Aanbevolen objecten die een bezoeker het laatst heeft bekeken, zoals de objecten die een bezoeker voor het laatst heeft bekeken op het moment dat hij of zij uw site heeft bezocht, of de artikelen die momenteel het meest trending hebben. |
 
-## Een aangepaste aanbevolen toets gebruiken {#custom-key}
+## Een aangepaste aanbevolen toets {#custom-key} gebruiken
 
 U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel ook baseren.
 
 >[!NOTE]
 >
->Aangepaste profielparameters kunnen aan Doel worden doorgegeven via JavaScript, API of integratie. Zie [Bezoekersprofielen](/help/c-target/c-visitor-profile/visitor-profile.md)voor meer informatie over aangepaste profielkenmerken.
+>Aangepaste profielparameters kunnen aan Doel worden doorgegeven via JavaScript, API of integratie. Zie [Bezoekersprofielen](/help/c-target/c-visitor-profile/visitor-profile.md) voor meer informatie over kenmerken van aangepaste profielen.
 
 Stel dat u aanbevolen films wilt weergeven op basis van de film die een gebruiker het laatst aan de wachtrij heeft toegevoegd.
 
-1. Selecteer het kenmerk Aangepast profiel in de [!UICONTROL Recommendation Key] vervolgkeuzelijst (bijvoorbeeld [!UICONTROL Last Show Added to Watchlist]).
+1. Selecteer uw attribuut van het douaneprofiel van [!UICONTROL Recommendation Key] drop-down lijst (bijvoorbeeld, [!UICONTROL Last Show Added to Watchlist]).
 
 1. Selecteer uw [!UICONTROL Recommendation Logic] (bijvoorbeeld [!UICONTROL People Who Viewed This, Viewed That]).
 
    ![Nieuwe criteria maken, dialoogvenster](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitidentiteitskaart aanpast, is het noodzakelijk om aan te verklaren [!DNL Recommendations] hoe u de gelijke aan een entiteit wilt voorkomen.
+Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitidentiteitskaart aanpast, is het noodzakelijk om aan [!DNL Recommendations] uit te leggen hoe u de gelijke aan een entiteit wilt voorkomen.
 
 Stel dat u de meest verkochte objecten van het favoriete merk van een gebruiker wilt weergeven.
 
-1. Selecteer het kenmerk Aangepast profiel in de [!UICONTROL Recommendation Key] vervolgkeuzelijst (bijvoorbeeld [!UICONTROL Favorite Brand]).
+1. Selecteer uw attribuut van het douaneprofiel van [!UICONTROL Recommendation Key] drop-down lijst (bijvoorbeeld, [!UICONTROL Favorite Brand]).
 
-1. Selecteer de toets die [!UICONTROL Recommendation Logic] u met deze toets wilt gebruiken (bijvoorbeeld [!UICONTROL Top Sellers]).
+1. Selecteer [!UICONTROL Recommendation Logic] u met deze sleutel wilt gebruiken (bijvoorbeeld, [!UICONTROL Top Sellers]).
 
-   De [!UICONTROL Group By Unique Value Of] optie wordt weergegeven.
+   De optie [!UICONTROL Group By Unique Value Of] wordt weergegeven.
 
-1. Selecteer het entiteitskenmerk dat overeenkomt met de gekozen sleutel. In dit geval [!UICONTROL Favorite Brand] komt overeen met `entity.brand`.
+1. Selecteer het entiteitskenmerk dat overeenkomt met de gekozen sleutel. In dit geval komt [!UICONTROL Favorite Brand] overeen met `entity.brand`.
 
-   [!DNL Recommendations] produceert nu een lijst met &#39;Topverkopers&#39; voor elk merk en geeft de gebruiker de juiste lijst met &#39;Topverkopers&#39; weer op basis van de waarde die is opgeslagen in het [!UICONTROL Favorite Brand] profielkenmerk.
+   [!DNL Recommendations] produceert nu een lijst met &#39;Topverkopers&#39; voor elk merk en geeft de gebruiker de juiste lijst met &#39;Topverkopers&#39; weer op basis van de waarde die is opgeslagen in het  [!UICONTROL Favorite Brand] profielkenmerk.
 
    ![Kenmerk topverkopers](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
@@ -107,14 +107,14 @@ U kunt de details van de criteria weergeven op een pop-upkaart door de muisaanwi
 
 ![Toetsenbord](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-Klik op het **[!UICONTROL Algorithm Info]** tabblad om algemene informatie weer te geven over de geselecteerde criteria, zoals de naam, beschrijvingen, Verticaal, Paginatype(s), Aanbeveling-sleutel, Aanbeveling-logica en Algorithm-id.
+Klik op het tabblad **[!UICONTROL Algorithm Info]** om algemene informatie weer te geven over de geselecteerde criteria, zoals de naam, beschrijvingen, Verticaal, Paginatype(s), Aanbeveling-sleutel, Aanbeveling-logica en Algorithm-id.
 
 ![Tabblad Algorituurinfo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Klik op het **[!UICONTROL Algorithm Usage]** tabblad om een lijst weer te geven met activiteiten die naar de geselecteerde criteria verwijzen. De kaart maakt een lijst van actieve, inactieve, en ontwerp activiteiten. Klik op de vervolgkeuzelijsten Live-activiteiten/Inactieve activiteiten/Conceptactiviteiten om de volledige lijst met activiteiten te bekijken waarin naar die criteria wordt verwezen. U kunt op de koppeling naar de activiteit klikken om de activiteit voor bewerken te openen.
+Klik op het tabblad **[!UICONTROL Algorithm Usage]** om een lijst weer te geven met activiteiten die naar de geselecteerde criteria verwijzen. De kaart maakt een lijst van actieve, inactieve, en ontwerp activiteiten. Klik op de vervolgkeuzelijsten Live-activiteiten/Inactieve activiteiten/Conceptactiviteiten om de volledige lijst met activiteiten te bekijken waarin naar die criteria wordt verwezen. U kunt op de koppeling naar de activiteit klikken om de activiteit voor bewerken te openen.
 
 ![Het tabblad Algoritmegebruik](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->De [!UICONTROL Algorithm Usage] functie wordt momenteel alleen ondersteund voor Recommendations-activiteiten. Deze functie wordt momenteel niet ondersteund voor activiteiten van het type A/B Test, Auto-Allocate, Auto-Target en Experience Targeting (XT) die [aanbevelingen als aanbieding](/help/c-recommendations/recommendations-as-an-offer.md)bevatten.
+>De functie [!UICONTROL Algorithm Usage] wordt momenteel alleen ondersteund voor Recommendations-activiteiten. Deze functie wordt momenteel niet ondersteund voor activiteiten van het type A/B Test, Auto-Allocate, Auto-Target en Experience Targeting (XT) die [aanbevelingen als aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) omvatten.
