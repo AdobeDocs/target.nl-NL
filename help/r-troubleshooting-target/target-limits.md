@@ -56,13 +56,13 @@ Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen
 
 ## Aliasid van kenmerk Klant
 
-**Maximaal** 50 tekens.
+**Maximaal**  50 tekens.
 
 ## Klantkenmerken, uploaden
 
 * **Maximale bestandsgrootte voor elke upload met de HTTP-methode**: 100 MB.
 * **maximale bestandsgrootte voor elke upload met de FTP-methode**: 4 GB.
-* **Aantal kenmerken dat mag worden geabonneerd**: 5 voor [!DNL Target Standard] en 200 voor [!DNL Target Premium].
+* **Aantal kenmerken dat mag worden geabonneerd**: 5 voor  [!DNL Target Standard] en 200 voor  [!DNL Target Premium].
 
 ## Entiteiten
 
@@ -128,7 +128,7 @@ Deze limieten zijn van toepassing, tenzij de aanvraag wordt ingekort vanwege bep
 
 Als u de Batch Delivery-API gebruikt, is de limiet 50 dozen per aanvraag voor de batch.
 
-Als u de API [voor](https://developers.adobetarget.com/api/#server-side-batch-delivery) batchlevering in de SDK voor mobiele services gebruikt, zijn de limiet van 50 mbox-parameters, 50 profielparameters en 50 voor andere parametertypen beperkingen van de API zelf. Het is niet mogelijk om een aanvraag met meer dan deze nummers te verzenden via de Batch Delivery-API. Als een aanvraag meer dan deze limieten bevat, retourneert de API het volgende foutbericht:
+Als u de [Batch Delivery API](https://developers.adobetarget.com/api/#server-side-batch-delivery) in de Mobile Services SDK gebruikt, zijn de limiet van 50 mbox-parameters, 50 profielparameters en 50 voor andere parametertypen beperkingen van de API zelf. Het is niet mogelijk om een aanvraag met meer dan deze nummers te verzenden via de Batch Delivery-API. Als een aanvraag meer dan deze limieten bevat, retourneert de API het volgende foutbericht:
 
 &quot;Het aantal mboxParameters mag niet groter zijn dan 50.&quot;
 
@@ -204,7 +204,7 @@ Alles wordt langer afgekapt door het systeem.
 
 **Aanbevolen limiet voor totale profielscripts per account**: 2 000
 
-**Recommendations voor het beperken van de complexiteit** van profielscripts: Profielscripts kunnen een beperkt aantal instructies uitvoeren. Zie [Aanbevolen werkwijzen](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profielkenmerken* voor meer informatie.
+**Recommendations voor het beperken van de complexiteit** van profielscripts: Profielscripts kunnen een beperkt aantal instructies uitvoeren. Zie [Beste werkwijzen](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profielkenmerken* voor meer informatie.
 
 ## Eigenschappen
 
