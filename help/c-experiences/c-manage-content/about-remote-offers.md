@@ -18,9 +18,9 @@ Gebruik externe aanbiedingen om inhoud te hosten buiten het doel waarvoor het do
 
 >[!NOTE]
 >
->Externe aanbiedingen kunnen alleen in de op formulieren gebaseerde composer worden gemaakt. De inhoud wordt op de [!DNL Target] aanvraaglocaties geïnjecteerd. Deze zijn dus hoogstwaarschijnlijk niet geschikt voor een algemeen [!DNL Target] verzoek.
+>Externe aanbiedingen kunnen alleen in de op formulieren gebaseerde composer worden gemaakt. De inhoud zal in de [!DNL Target] verzoekplaatsen worden geïnjecteerd, zodat zijn deze hoogstwaarschijnlijk niet aangewezen voor een globaal [!DNL Target] verzoek.
 >
->[!DNL Target Classic] meegeleverde vergelijkbare functies: [!UICONTROL Offer on Your Site] en [!UICONTROL Offer Outside Test&Target].
+>[!DNL Target Classic] meegeleverde vergelijkbare functies:  [!UICONTROL Offer on Your Site] en  [!UICONTROL Offer Outside Test&Target].
 
 Voorbeelden van externe aanbiedingen zijn:
 
@@ -39,14 +39,14 @@ Voorbeelden van externe aanbiedingen zijn:
 
 1. Geef een beschrijvende naam op voor de aanbieding.
 
-   Met een beschrijvende naam kunnen u en anderen het aanbod snel vinden in de [!UICONTROL Assets] bibliotheek.
+   Met een beschrijvende naam kunnen u en anderen het aanbod snel vinden in de bibliotheek [!UICONTROL Assets].
 
 1. Geef de externe URL voor de externe aanbieding op:
 
    | Option | Beschrijving |
    |--- |--- |
-   | cachegeheugen | De inhoud voor een externe aanbieding in cache wordt aangeboden bij Target.<br>Om de twee uur [!DNL Target] haalt u de inhoud op bij de externe URL en slaat u de inhoud vervolgens op in Target. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door Target.<br>Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zich heeft aangemeld bijTarget de inhoud niet kan wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.<br>U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst. |
-   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door Target.<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens door Target leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding omvat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch, of verschillend, voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik [!UICONTROL Add Parameter] om een of meer [!DNL Target] aanvragen of aanvraagparameters toe te voegen. |
+   | cachegeheugen | De inhoud voor een externe aanbieding in cache wordt aangeboden bij Target.<br>Om de twee uur  [!DNL Target] haalt u de inhoud op bij de externe URL en slaat u de inhoud vervolgens op in Target. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door Target.<br>Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zich heeft aangemeld bijTarget de inhoud niet kan wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.<br>U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst. |
+   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door Target.<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens door Target leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding omvat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch, of verschillend, voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik  [!UICONTROL Add Parameter] om een of meer  [!DNL Target] aanvragen of aanvraagparameters toe te voegen. |
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -54,12 +54,12 @@ Voorbeelden van externe aanbiedingen zijn:
 
 Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteiten:
 
-* Als uw aanbieding zich in hetzelfde domein bevindt als de [!DNL Target] aanvragen, kunt u met de [!UICONTROL Cached] optie relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
+* Als uw aanbieding zich in hetzelfde domein bevindt als de [!DNL Target]-aanvragen, kunt u met de optie [!UICONTROL Cached] relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
 
    Dit betekent dat wanneer u uw activiteit van uw testservers naar productie verplaatst, de inhoud automatisch toegankelijk zal zijn zonder het moeten URL manueel veranderen.
 
-* Als de test gegevens bevat die dynamisch door de server worden gegenereerd, is de [!UICONTROL Dynamic] optie mogelijk de juiste keuze.
-* Als u alleen de weergave van uw bestaande externe aanbiedingsinhoud wilt testen, gebruikt u de optie [!UICONTROL Visual Experience Composer] om de weergave van de inhoud die door het inhoudsbeheersysteem wordt geretourneerd, te wijzigen.
+* Als uw test gegevens bevat die dynamisch door uw server worden gegenereerd, is de optie [!UICONTROL Dynamic] mogelijk de juiste keuze.
+* Als u alleen de weergave van uw bestaande externe aanbiedingsinhoud wilt testen, gebruikt u [!UICONTROL Visual Experience Composer] om de vormgeving van de inhoud die wordt geretourneerd vanuit het inhoudsbeheersysteem te wijzigen.
 * Gebruik de Matrix van de Selectie van de Verre Aanbieding om u te helpen de aanbieding kiezen het best geschikt voor uw specifiek geval. Vraag uw accountvertegenwoordiger.
 
 ## Hoe dynamische externe aanbiedingen werken {#concept_CC2A969420B34364A9FA78C1CE251818}
@@ -70,7 +70,7 @@ De aanbieding wordt uitgevoerd nadat u de pagina teruggeeft. Een onzichtbaar ifr
 
 ![](assets/remote_offer_howitworks_2.jpeg)
 
-## Selectiematrix externe aanbieding {#reference_B23BEDD29DDD47709A7651AFD27E776B}
+## Selectiematrix {#reference_B23BEDD29DDD47709A7651AFD27E776B} voor externe aanbiedingen
 
 Met de Matrix Selectie voor externe aanbiedingen kunt u bepalen welk type externe aanbieding u wilt kiezen: [!UICONTROL Cached] of [!UICONTROL Dynamic].
 
