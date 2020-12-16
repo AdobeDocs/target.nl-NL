@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Gebruik Visual Experience Composer (VEC) in Adobe Target om de aanbiedingen tot stand te brengen u in uw Multivariate Test (MVT) wilt omvatten.
 
-Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie de Opties [van Composer van de](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)Visuele Ervaring.
+Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie [Opties van Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
->U kunt klikken **[!UICONTROL Expand Selection]** wanneer u objecten op de pagina selecteert om naast het oorspronkelijk geselecteerde element ook het bovenliggende element te selecteren. Wanneer u een bovenliggend element selecteert, worden alle onderliggende elementen van dat element automatisch geselecteerd. U kunt de selectie meerdere keren uitbreiden.
+>U kunt **[!UICONTROL Expand Selection]** klikken wanneer het selecteren van voorwerpen op de pagina om het ouderelement naast het oorspronkelijk geselecteerde element te selecteren. Wanneer u een bovenliggend element selecteert, worden alle onderliggende elementen van dat element automatisch geselecteerd. U kunt de selectie meerdere keren uitbreiden.
 >
 >U kunt ook het [DOM-pad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) gebruiken om door elementen te navigeren.
 
@@ -45,7 +45,7 @@ Test meerdere Text/HTML-aanbiedingen binnen een locatie om te bepalen welke aanb
 
    ![Tekst/HTML wijzigen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. Klik, noem de aanbieding **[!UICONTROL Add Text/HTML Offer]**, typ of plak de code voor de aanbieding van de Tekst/HTML.
+1. Klik op **[!UICONTROL Add Text/HTML Offer]**, geef een naam op voor de aanbieding en typ of plak de code voor de aanbieding voor Text/HTML.
 
    ![Aanbiedingen bewerken](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
@@ -55,7 +55,7 @@ Test meerdere Text/HTML-aanbiedingen binnen een locatie om te bepalen welke aanb
 
 Elke Text/HTML-aanbieding wordt een aparte ervaring op die locatie.
 
-## Aanbevolen werkwijzen {#section_2E98C23D2F1A460FA732A31799CE6291}
+## Aanbevolen procedures {#section_2E98C23D2F1A460FA732A31799CE6291}
 
 * Neem niet meer locaties op dan nodig is voor de test. Elke ervaring die u in de test opneemt, verhoogt aanzienlijk de hoeveelheid verkeer en de tijd die nodig is om acceptabele resultaten te bereiken. Als u bijvoorbeeld pagina-elementen hebt met elk drie aanbiedingen, zijn er negen mogelijke combinaties (3x3). Drie elementen, waarbij twee mogelijke aanbiedingen bevatten en één twee aanbiedingen, bieden 18 opties (3x3x2). De aantallen stijgen aanzienlijk met elk extra element en aanbod.
 * Wanneer het creëren van multivariate tests, kunt u meer dan 10 percenten van ervaringen van de test nu uitsluiten, op voorwaarde dat u de waarschuwing erkent dat u dan off-line rapportering voor analyse moet gebruiken.
