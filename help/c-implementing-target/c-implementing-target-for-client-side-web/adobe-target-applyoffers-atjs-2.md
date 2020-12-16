@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # adobe.target.applyOffers(options) - at.js 2.x
 
-Met deze functie kunt u meerdere aanbiedingen toepassen die zijn opgehaald door `adobe.target.getOffers()`.
+Deze functie laat u meer dan één aanbieding toepassen die door `adobe.target.getOffers()` werd teruggewonnen.
 
 >[!NOTE]
 >
@@ -22,14 +22,14 @@ Met deze functie kunt u meerdere aanbiedingen toepassen die zijn opgehaald door 
 
 | Sleutel | Type | Vereist? | Beschrijving |
 | --- | --- | --- | --- |
-| kiezer | String | Nee | HTML-element of CSS-kiezer die wordt gebruikt om het HTML-element aan te duiden waar de aanbiedingsinhoud [!DNL Target] moet worden geplaatst. Als er geen kiezer is, wordt ervan [!DNL Target] uitgegaan dat het HTML-element dat moet worden gebruikt HTML HEAD is. |
+| kiezer | String | Nee | HTML-element of CSS-kiezer die wordt gebruikt om het HTML-element aan te duiden waar [!DNL Target] de aanbiedingsinhoud moet plaatsen. Als er geen kiezer is opgegeven, gaat [!DNL Target] ervan uit dat het HTML-element dat moet worden gebruikt HTML HEAD is. |
 | Antwoord | Object | Ja | Reactieobject van `getOffers()`.<br>Zie onderstaande tabel Verzoeken. |
 
 ## Antwoord
 
 >[!NOTE]
 >
->Raadpleeg de documentatie [van de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) bezorgings-API voor informatie over de acceptabele typen voor alle onderstaande velden.
+>Raadpleeg de [Delivery API documentatie](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) voor informatie over de acceptabele typen voor alle hieronder vermelde velden.
 
 | Veldnaam | Beschrijving |
 | --- | --- |
@@ -39,9 +39,9 @@ Met deze functie kunt u meerdere aanbiedingen toepassen die zijn opgehaald door 
 | response > prefetch > views > options > responseTokens | Bevat de kaart van `responseTokens` die zijn verzameld toen de huidige optie werd verwerkt. |
 | response > prefetch > views > analytics > payload | Analyselading voor cliënt-zijintegratie die naar Analytics zou moeten worden verzonden nadat de mening is toegepast. |
 | response > prefetch > views > trace | Het object met alle traceergegevens voor de aanroep van de prefetch per weergave.<br>Het spoorvoorwerp zal ook een versie voor het spoor omvatten.<br>Het spoorvoorwerp zal ook details van de huidige mening omvatten. |
-| response > prefetch > views > options > eventToken | Gebeurtenislogbestanden worden per optie uitgevoerd. Voor elke toegepaste optie moet de respectievelijke gebeurtenistoken worden toegevoegd aan de lijst met meldingstokens. Een weergave bestaat uit meerdere opties. Als alle opties zijn toegepast en zichtbaar zijn, `eventTokens` moeten ze allemaal in de kennisgeving worden opgenomen. |
+| response > prefetch > views > options > eventToken | Gebeurtenislogbestanden worden per optie uitgevoerd. Voor elke toegepaste optie moet de respectievelijke gebeurtenistoken worden toegevoegd aan de lijst met meldingstokens. Een weergave bestaat uit meerdere opties. Als alle opties zijn toegepast en weergegeven, moeten alle `eventTokens` in de melding worden opgenomen. |
 | response > prefetch > views > name | De voor mensen leesbare weergavenaam. |
-| response > prefetch > views > metrics | Meldend metriek die zou moeten worden gecontroleerd en dan [!DNL Target] over op de hoogte brengen. Momenteel wordt alleen het klikken op metrisch ondersteund. Als er een klik op het element plaatsvindt, `eventTokens` moet de juiste informatie worden verzameld en moet een melding worden verzonden. |
+| response > prefetch > views > metrics | Meldend metriek die zou moeten worden gecontroleerd en dan [!DNL Target] op de hoogte brengen over. Momenteel wordt alleen het klikken op metrisch ondersteund. Als een klik op het element gebeurt, moet `eventTokens` worden verzameld en moet een melding worden verzonden. |
 | response > prefetch > views > key | De sleutel of vingerafdruk die de weergave identificeert. |
 | response > prefetch > views > id | Id van de weergave. |
 | response > notifications > id | Meldings-id. |
@@ -108,7 +108,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## Voorbeeld van aanroep van Promise-ketting met `getOffers()` en `applyOffers()`, omdat deze functies zijn gebaseerd op Promise
+## Voorbeeld van een aanroep van Promise-ketting met `getOffers()` en `applyOffers()`, omdat deze functies zijn gebaseerd op Promise
 
 ```javascript
 adobe.target.getOffers({...})
