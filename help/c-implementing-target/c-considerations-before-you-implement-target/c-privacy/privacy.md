@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Target heeft processen en instellingen ingeschakeld waarmee u Target kunt gebruiken in overeenstemming met de toepasselijke wetgeving inzake privacy van gegevens.
 
-## Verzameling IP-adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Verzameling van IP-adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 Het IP-adres van een bezoeker van uw website wordt naar een Adobe Data Processing Center (DPC) verzonden. Afhankelijk van de netwerkconfiguratie voor de bezoeker, vertegenwoordigt het IP adres niet noodzakelijk het IP adres van de computer van de bezoeker. Bijvoorbeeld, zou het IP adres het externe IP adres van een firewall van het Vertaal adres van het Netwerk (NATIONAAL), de volmacht van HTTP, of de gateway van Internet kunnen zijn. Het doel slaat geen IP adressen van de gebruiker of om het even welke Persoonlijk Identificeerbare Informatie (PII) op. IP de adressen worden gebruikt slechts door Doel voor de duur van de zitting (in geheugen, nooit voortgeduurd).
 
@@ -36,7 +36,7 @@ Het doel ontvangt het volledige IP adres en verduistert het (als reeks aan Laats
 
 >[!NOTE]
 >
->[De Zorg](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van de Cliënt van het contact Adobe om te bepalen welke het plaatsen u momenteel gebruikt of om de IP verduisteringseigenschap toe te laten.
+>[De Cliënt van de Adobe van het contact ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Caret om te bepalen welke het plaatsen u momenteel gebruikt of om de IP verduisteringseigenschap toe te laten.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -44,19 +44,19 @@ Als u de vervanging van het laatste octet van het IP adres toelaat, kunnen de re
 
 Als IP de adressen volledig verduisterd zijn, is GeoSegmentation en geo het richten niet beschikbaar.
 
-## Koppeling uitschakelen {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Koppeling {#section_E7A62B7B99C94B3A806CB262D16E27FC} uitschakelen
 
 U kunt een koppeling om te weigeren toevoegen aan uw sites zodat bezoekers zich kunnen afmelden voor alle aftellingen en de levering van inhoud.
 
 1. Voeg de volgende koppeling toe aan uw site:
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
-1. Vervang de `clientcode` tekst door uw clientcode en voeg de tekst of afbeelding toe die u wilt koppelen aan de URL voor niet-aanmelding.
+1. Vervang de `clientcode`-tekst met uw clientcode en voeg de tekst of afbeelding toe die u wilt koppelen aan de URL voor niet-deelname.
 
-Elke bezoeker die op deze koppeling klikt, wordt niet opgenomen in een box-aanvraag die vanaf zijn browsersessies wordt aangeroepen totdat hij of zij zijn of haar cookies verwijdert, of gedurende twee jaar, afhankelijk van welke eerst aankomt. Dit werkt door een cookie in te stellen voor de bezoeker die wordt aangeroepen `disableClient` in het `clientcode.tt.omtrdc.net` domein.
+Elke bezoeker die op deze koppeling klikt, wordt niet opgenomen in een box-aanvraag die vanaf zijn browsersessies wordt aangeroepen totdat hij of zij zijn of haar cookies verwijdert, of gedurende twee jaar, afhankelijk van welke eerst aankomt. Dit werkt door een koekje voor de bezoeker te plaatsen genoemd `disableClient` in `clientcode.tt.omtrdc.net` domein.
 
 Zelfs als u een eersteklas cookie-implementatie gebruikt, wordt de opgegeven opt-out ingesteld via een cookie van een andere fabrikant. Als de client alleen een eersteklas cookie gebruikt, controleert Target of een uitschakelcookie is ingesteld.
 
 ## Regels inzake privacy en gegevensbescherming
 
-Zie de [privacy- en gegevensbeschermingsregels](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) voor informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+Zie [Privacy- en gegevensbeschermingsregels](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) voor informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
