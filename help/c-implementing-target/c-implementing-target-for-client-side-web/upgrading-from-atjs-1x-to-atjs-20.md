@@ -12,49 +12,49 @@ ht-degree: 0%
 ---
 
 
-# Upgrade uitvoeren vanaf 0,js 1.*x* tot at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
+# Upgrade uitvoeren vanaf 0,js 1.** xto om.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
 
 De nieuwste versie van at.js in [!DNL Adobe Target] verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).
 
-Hier volgen enkele voordelen van het gebruik van at.js 2.*x* die niet beschikbaar zijn in vorige versies:
+Hier volgen enkele voordelen van het gebruik van at.js 2.** xdie niet beschikbaar zijn in vorige versies:
 
 * De capaciteit om alle aanbiedingen op pagina-lading in het voorgeheugen onder te brengen om veelvoudige servervraag aan één enkele servervraag te verminderen.
 * Verbeter de ervaringen van uw eindgebruikers op uw site aanzienlijk, omdat aanbiedingen direct via het cachegeheugen worden weergegeven zonder vertraging die traditionele serveraanroepen introduceren.
 * Eenvoudige one-line code en eenmalige ontwikkelaarsopstelling om uw marketers toe te laten om A/B en XT activiteiten via VEC op uw SPA tot stand te brengen en in werking te stellen.
 
-## te.js 2.*x* systeemdiagrammen
+## te.js 2.*Diagrammen* van het xsystem
 
-De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.*x* met weergaven en hoe dit de integratie van de SPA verbetert. Een betere introductie van de concepten die worden gebruikt in at.js 2.*x*, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
+De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.** Met weergaven en hoe dit de integratie van de SPA verbetert. Een betere introductie van de concepten die worden gebruikt in at.js 2.*x*, zie de implementatie [ van de Toepassing van de ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
 
 ![Doelstroom met at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Bellen | Details |
 | --- | --- |
-| 1 | De vraag keert terug [!DNL Experience Cloud ID] als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
+| 3 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
-| 5 | Op basis van URL-aanvraagparameters en -profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker voor de huidige pagina en de toekomstige weergaven. |
-| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht `triggerView()`. |
+| 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
+| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht  `triggerView()`. |
 | 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
 | 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
 
-Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker getoond zonder een servervraag. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren.
+Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker getoond zonder een servervraag. `triggerView()` doet ook een verzoek om meldingen aan de  [!DNL Target] achterzijde om het aantal puntjes op de i te zetten en opnamen te maken.
 
-![Doelstroom bij.js 2.*x* triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Doelstroom bij.js 2.** xtriggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Bellen | Details |
 | --- | --- |
-| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
-| 4 | Aanvraag voor meldingen wordt naar de [!DNL Target] profielenwinkel verzonden om de bezoeker te tellen in de activiteit en incrementele metingen. |
+| 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
 
 ## Implementeer om.js 2.*x* {#deploy-atjs-200}
 
-1. Implementeer om.js 2.*x* via de extensie [Adobe starten](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
+1. Implementeer om.js 2.** xvia de  [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchextension.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
    of
 
-   Handmatig downloaden om.js 2.*x* gebruikend het Doel UI en stel het op gebruikend de [methode van uw keus](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Handmatig downloaden om.js 2.*Het* gebruiken van het Doel UI en stelt het op gebruikend de  [methode van uw keus](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Vervangen at.js-functies
 
@@ -70,12 +70,12 @@ Er zijn verschillende functies die zijn vervangen in at.js 2.*x*.
 
 >[!IMPORTANT]
 >
->Als deze vervangen functies nog steeds op uw site worden gebruikt wanneer at.js 2.*x* wordt opgesteld, zult u consolewaarschuwingen zien. De aanbevolen aanpak bij de upgrade is het testen van de implementatie van at.js 2.*x* in een het opvoeren milieu en zorg ervoor om door elke waarschuwing te gaan die in de console is geregistreerd en de vervangen functies aan nieuwe functies te vertalen die in at.js 2 worden geïntroduceerd.*x*.
+>Als deze vervangen functies nog steeds op uw site worden gebruikt wanneer at.js 2.** xis opgesteld, zult u consolewaarschuwingen zien. De aanbevolen aanpak bij de upgrade is het testen van de implementatie van at.js 2.** xin een het opvoeren milieu en zorg ervoor om door elk te gaan en elke waarschuwing die in de console is geregistreerd en vertalen de vervangen functies aan nieuwe functies die in at.js 2 worden geïntroduceerd.*x*.
 
 U kunt de vervangen functies en hun tegenhanger hieronder vinden. Voor een volledige lijst van functies, zie [at.js functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
 >[!NOTE]
->te.js 2.*x* verbergt `mboxDefault` gemarkeerde elementen niet meer automatisch. Klanten moeten daarom de vooraf verborgen logica handmatig op de site of via een tagmanager kunnen gebruiken.
+>te.js 2.** Hiermee worden  `mboxDefault` gemarkeerde elementen niet meer automatisch vooraf verborgen. Klanten moeten daarom de vooraf verborgen logica handmatig op de site of via een tagmanager kunnen gebruiken.
 
 ### mboxCreate(mbox,params)
 
@@ -94,7 +94,7 @@ Voert een verzoek uit en past de aanbieding op dichtstbijzijnde DIV met de `mbox
 </script>
 ```
 
-**te.js 2.*x* equivalent**
+**te.js 2.** xequivalent**
 
 Een alternatief voor `mboxCreate(mbox, params)` is `getOffer()` en `applyOffer()`.
 
@@ -131,7 +131,7 @@ Een alternatief voor `mboxCreate(mbox, params)` is `getOffer()` en `applyOffer()
 
 **Omschrijving**:
 
-Maakt een interne toewijzing tussen een element en een naam van een box, maar voert de aanvraag niet uit. Gebruikt samen met `mboxUpdate()`, die het verzoek uitvoert en de aanbieding op het element toepast dat door nodeId in wordt geïdentificeerd `mboxDefine()`. Kan ook worden gebruikt om een box bij te werken die is gestart door `mboxCreate`.
+Maakt een interne toewijzing tussen een element en een naam van een box, maar voert de aanvraag niet uit. Wordt gebruikt in combinatie met `mboxUpdate()`, die het verzoek uitvoert en de aanbieding op het element toepast dat door nodeId in `mboxDefine()` wordt geïdentificeerd. Kan ook worden gebruikt om een mbox bij te werken die door `mboxCreate` in werking wordt gesteld.
 
 **Voorbeeld**:
 
@@ -143,9 +143,9 @@ Maakt een interne toewijzing tussen een element en een naam van een box, maar vo
 </script>
 ```
 
-**te.js 2.*x* equivalent**:
+**te.js 2.** xequivalent**:
 
-Een alternatief voor `mboxDefine()` en `mboxUpdate` is `getOffer()` en `applyOffer()`, met de geselecteerde optie gebruikt in `applyOffer()`. Met deze methode kunt u de aanbieding aan een element toewijzen met elke CSS-kiezer, niet alleen met een id.
+Een alternatief voor `mboxDefine()` en `mboxUpdate` is `getOffer()` en `applyOffer()`, met de selecteursoptie die in `applyOffer()` wordt gebruikt. Met deze methode kunt u de aanbieding aan een element toewijzen met elke CSS-kiezer, niet alleen met een id.
 
 **Voorbeeld**:
 
@@ -211,23 +211,23 @@ Houd rekening met de volgende beperkingen en bijschriften:
 
 ### Conversie bijhouden
 
-Klanten die `mboxCreate()` voor conversietracering gebruiken, moeten deze optie gebruiken `trackEvent()` of `getOffer()`.
+Klanten die `mboxCreate()` gebruiken voor het bijhouden van conversies, moeten `trackEvent()` of `getOffer()` gebruiken.
 
 ### Levering aanbieden
 
-Klanten die niet vervangen `mboxCreate()` door `getOffer()` `applyOffer()` of het risico lopen geen aanbiedingen te ontvangen.
+Klanten die `mboxCreate()` niet vervangen door `getOffer()` of `applyOffer()`, lopen het risico dat er geen aanbiedingen worden geleverd.
 
-### Mag om.js 2.*x* wordt gebruikt op sommige pagina&#39;s terwijl at.js 1.*x* or mbox.js is on other pages?
+### Mag om.js 2.*Op sommige pagina&#39;s* wordt xbe gebruikt en op 0,js 1.*Wilt* u xor mbox.js op andere pagina&#39;s plaatsen?
 
 Ja, het bezoekersprofiel blijft op alle pagina&#39;s behouden met behulp van verschillende versies en bibliotheken. De cookieindeling is hetzelfde.
 
 ### Nieuw API-gebruik in at.js 2.*x*
 
-te.js 2.*x* gebruikt een nieuwe API, die wij de levering API noemen. Om te zuiveren of at.js correct de [!DNL Target] randserver roept, kunt u het lusje van het Netwerk van de Hulpmiddelen van de Ontwikkelaar van uw browser aan &quot;levering&quot;, &quot;`tt.omtrdc.net`,&quot;of uw cliëntcode filtreren. U zult ook opmerken dat een nuttige lading JSON in plaats van sleutel-waarde paren [!DNL Target] verzendt.
+te.js 2.*Er wordt* een nieuwe API gebruikt, die we de API voor levering noemen. Om te zuiveren of at.js [!DNL Target] randserver correct roept, kunt u het lusje van het Netwerk van de Hulpmiddelen van de Ontwikkelaar van uw browser aan &quot;levering&quot;, &quot;`tt.omtrdc.net`,&quot;of uw cliëntcode filtreren. U zult ook merken dat [!DNL Target] een JSON nuttige lading in plaats van sleutel-waardeparen verzendt.
 
 ### Globale doelbox wordt niet meer gebruikt
 
-In at.js 2.*x*, ziet u niet meer &quot;`target-global-mbox`&quot;zichtbaar in de netwerkvraag. In plaats daarvan hebben we de syntaxis &quot;`target-global-mbox`&quot; vervangen in &quot;`execute > pageLoad`&quot; in de JSON-lading die naar de [!DNL Target] servers wordt verzonden, zoals hieronder wordt getoond:
+In at.js 2.*x*, ziet u niet meer &quot;`target-global-mbox`&quot;zichtbaar in de netwerkvraag. In plaats daarvan hebben we de syntaxis &quot;`target-global-mbox`&quot; vervangen in &quot;`execute > pageLoad`&quot; in de JSON-payload die naar de [!DNL Target]-servers is verzonden, zoals hieronder wordt getoond:
 
 ```
 {
@@ -244,11 +244,11 @@ In at.js 2.*x*, ziet u niet meer &quot;`target-global-mbox`&quot;zichtbaar in de
 }
 ```
 
-In principe is het algemene mbox-concept geïntroduceerd om te laten [!DNL Target] weten of aanbiedingen en inhoud moeten worden opgehaald tijdens het laden van de pagina. Daarom hebben we dit in onze nieuwste versie duidelijker gemaakt.
+In wezen is het algemene mbox-concept geïntroduceerd om [!DNL Target] te laten weten of aanbiedingen en inhoud moeten worden opgehaald tijdens het laden van de pagina. Daarom hebben we dit in onze nieuwste versie duidelijker gemaakt.
 
 ### Maakt de globale naam van de box in at.js nog uit?
 
-Klanten kunnen een algemene naam voor een postvak opgeven via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Deze instelling wordt door de [!DNL Target] randservers gebruikt om uitvoering > pageLoad om te zetten in de algemene naam van het selectievakje die in de [!DNL Target] gebruikersinterface wordt weergegeven. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken met de algemene mbox-naam. Wij adviseren sterk dat u ook ervoor zorgt de zelfde globale naam van de brievenbus op de [!UICONTROL Administration > Visual Experience Composer] pagina wordt gevormd, eveneens voor het geval u nog pagina&#39;s hebt die at.js 1 gebruiken.*x* of mbox.js, zoals in de volgende afbeeldingen wordt getoond.
+Klanten kunnen een algemene naam voor een box opgeven via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Deze instelling wordt door de Edge-servers [!DNL Target] gebruikt om uitvoering > pageLoad om te zetten in de algemene naam van het selectievakje die wordt weergegeven in de gebruikersinterface [!DNL Target]. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken met de algemene mbox-naam. Wij adviseren sterk dat u ook ervoor zorgt de zelfde globale naam van mbox op de [!UICONTROL Administration > Visual Experience Composer] pagina wordt gevormd, eveneens voor het geval u nog pagina&#39;s hebt die at.js 1 gebruiken.** xor mbox.js, zoals in de volgende afbeeldingen wordt getoond.
 
 ![Dialoogvenster Wijzigen bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -258,17 +258,17 @@ en
 
 ### Moet de instelling voor automatisch maken van globale mbox worden ingeschakeld voor at.js 2.*x*?
 
-In de meeste gevallen ja. Deze instelling vertelt at.js 2.*x* om bij het laden van de pagina een aanvraag naar de [!DNL Target] Edge-servers uit te voeren. Omdat globale mbox wordt vertaald om uit te voeren > pageLoad, en als u een verzoek op paginading wilt in werking stellen, dan zou deze het plaatsen moeten zijn.
+In de meeste gevallen ja. Deze instelling vertelt at.js 2.*Voer* een aanvraag uit bij de  [!DNL Target] Edge-servers wanneer de pagina wordt geladen. Omdat globale mbox wordt vertaald om uit te voeren > pageLoad, en als u een verzoek op paginading wilt in werking stellen, dan zou deze het plaatsen moeten zijn.
 
 ### Zal de bestaande activiteiten VEC blijven werken, hoewel de doel globale mbox naam niet van at.js 2 wordt gespecificeerd.*x*?
 
-Ja, omdat execute > pageLoad op de [!DNL Target] achtergrond wordt behandeld als `target-global-mbox`.
+Ja, omdat execute > pageLoad op de [!DNL Target] backend zoals `target-global-mbox` wordt behandeld.
 
-### Als mijn op formulieren gebaseerde activiteiten gericht zijn op de `target-global-mbox`Commissie, zullen die activiteiten dan blijven werken?
+### Als mijn op vorm-gebaseerde activiteiten aan `target-global-mbox` worden gericht, zullen die activiteiten blijven werken?
 
-Ja, omdat execute > pageLoad op de [!DNL Target] Edge-servers wordt behandeld als `target-global-mbox`.
+Ja, omdat execute > pageLoad op de [!DNL Target] Edge-servers wordt behandeld zoals `target-global-mbox`.
 
-### Ondersteund en niet-ondersteund at.js 2.*x* -instellingen
+### Ondersteund en niet-ondersteund at.js 2.** xSettings
 
 | Instelling | Ondersteund? |
 | --- | --- |
@@ -278,17 +278,17 @@ Ja, omdat execute > pageLoad op de [!DNL Target] Edge-servers wordt behandeld al
 
 ### Ondersteuning voor interdomeintracering in at.js 2.x {#cross-domain}
 
-Met interdomeinspatiëring kunt u bezoekers aan elkaar koppelen in verschillende domeinen. Omdat voor elk domein een nieuwe cookie moet worden gemaakt, is het moeilijk bezoekers bij te houden wanneer ze van domein naar domein navigeren. Voor het bijhouden van domeinoverschrijdingen [!DNL Target] gebruikt u een cookie van een andere fabrikant om bezoekers in verschillende domeinen bij te houden. Op deze manier kunt u een doelactiviteit maken die meerdere domeinen omvat `siteA.com` en `siteB.com` bezoekers in dezelfde ervaring blijven wanneer ze door unieke domeinen navigeren. Deze functionaliteit is verbonden met het gedrag van cookies van derden en van andere bedrijven.
+Met interdomeinspatiëring kunt u bezoekers aan elkaar koppelen in verschillende domeinen. Omdat voor elk domein een nieuwe cookie moet worden gemaakt, is het moeilijk bezoekers bij te houden wanneer ze van domein naar domein navigeren. [!DNL Target] gebruikt een cookie van een andere fabrikant om bezoekers in verschillende domeinen te volgen. Hierdoor kunt u een doelactiviteit maken die `siteA.com` en `siteB.com` omvat en bezoekers in dezelfde ervaring blijven wanneer ze door unieke domeinen navigeren. Deze functionaliteit is verbonden met het gedrag van cookies van derden en van andere bedrijven.
 
 >[!NOTE]
 >
->Uit het vak in at.js 2 wordt geen ondersteuning geboden voor het bijhouden van domeinoverschrijdingen.*x*. Interdomeintracering wordt ondersteund in at.js 2.*x* via de Experience Cloud ID-bibliotheek v4.3.0+.
+>Uit het vak in at.js 2 wordt geen ondersteuning geboden voor het bijhouden van domeinoverschrijdingen.*x*. Interdomeintracering wordt ondersteund in at.js 2.** xvia de Experience Cloud ID-bibliotheek v4.3.0+.
 
-Bij Doel wordt het cookie van de andere fabrikant opgeslagen in `<CLIENTCODE>.tt.omtrdc.net`. Het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`. De eerste aanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met de naam `mboxSession` en `mboxPC`, in te stellen, terwijl een omleidingsverzoek wordt teruggestuurd met een extra parameter (`mboxXDomainCheck=true`). Als de browser cookies van derden accepteert, bevat de omleidingsaanvraag deze cookies en wordt de ervaring geretourneerd. Dit werkschema is mogelijk omdat wij de methode van de GET van HTTP gebruiken.
+Bij Doel wordt het cookie van de andere fabrikant opgeslagen in `<CLIENTCODE>.tt.omtrdc.net`. Het cookie van de eerste partij wordt opgeslagen in `clientdomain.com`. De eerste aanvraag retourneert HTTP-antwoordheaders die proberen cookies van derden met de naam `mboxSession` en `mboxPC` in te stellen, terwijl een omleidingsverzoek wordt teruggestuurd met een extra parameter (`mboxXDomainCheck=true`). Als de browser cookies van derden accepteert, bevat de omleidingsaanvraag deze cookies en wordt de ervaring geretourneerd. Dit werkschema is mogelijk omdat wij de methode van de GET van HTTP gebruiken.
 
-In punt 2.js.*x*, wordt de GET van HTTP niet meer gebruikt en in plaats daarvan gebruiken wij de POST van HTTP. HTTP-POST wordt nu gebruikt via at.js 2.*x* om JSON-nuttige taken naar Target Edge-servers te verzenden. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP-GET-aanvragen epidemiologische transacties zijn, terwijl HTTP-POST niet-epidemiologisch is en niet willekeurig mag worden herhaald. Daarom is het volgen tussen domeinen in at.js 2.*x* wordt niet meer ondersteund vanuit het vak. Alleen om.js 1.*x* heeft out-of-the-box steun voor dwars-domein het volgen.
+In punt 2.js.*x*, wordt de GET van HTTP niet meer gebruikt en in plaats daarvan gebruiken wij de POST van HTTP. HTTP-POST wordt nu gebruikt via at.js 2.** xto verzendt JSON-ladingen naar Target Edge-servers. Dit betekent dat de omleidingsaanvraag om te controleren of een browser cookies van derden ondersteunt, nu wordt afgebroken. Dit komt doordat HTTP-GET-aanvragen epidemiologische transacties zijn, terwijl HTTP-POST niet-epidemiologisch is en niet willekeurig mag worden herhaald. Daarom is het volgen tussen domeinen in at.js 2.*Het* tekstvak wordt niet meer ondersteund. Alleen om.js 1.*Ondersteuning voor* xhas out-of-the-box voor cross-domain tracking.
 
-Als u cross-domain tracking wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in combinatie met at.js 2 installeren.*x*. De ECID-bibliotheek bestaat voor het beheer van permanente id&#39;s waarmee een bezoeker zelfs in verschillende domeinen kan worden geïdentificeerd.
+Als u interdomeintracering wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in combinatie met at.js 2 installeren.*x*. De ECID-bibliotheek bestaat voor het beheer van permanente id&#39;s waarmee een bezoeker zelfs in verschillende domeinen kan worden geïdentificeerd.
 
 >[!NOTE]
 >
@@ -296,11 +296,11 @@ Als u cross-domain tracking wilt gebruiken, moet u de [ECID-bibliotheek v4.3.0+]
 
 ### Automatisch globale box maken wordt ondersteund
 
-Deze instelling vertelt at.js 2.*x* om een verzoek aan de [!DNL Target] randservers in werking te stellen op pagina-lading. Omdat het globale mbox wordt vertaald om > pageLoad uit te voeren, en dit door de [!DNL Target] randservers wordt geïnterpreteerd, zouden de klanten dit moeten aanzetten als zij een verzoek op pagina-lading willen in brand steken.
+Deze instelling vertelt at.js 2.*Voer* een aanvraag uit naar de  [!DNL Target] Edge-servers bij het laden van de pagina. Omdat het globale mbox wordt vertaald om > pageLoad uit te voeren, en dit door de [!DNL Target] randservers wordt geïnterpreteerd, zouden de klanten dit moeten aanzetten als zij een verzoek op pagina-lading willen in brand steken.
 
 ### Algemene naam van box wordt ondersteund
 
-Klanten kunnen een algemene naam voor een postvak opgeven via [!UICONTROL Target > Administration > Implementation > Edit]. Deze instelling wordt door de [!DNL Target] randservers gebruikt om uitvoering > pageLoad om te zetten in de ingevoerde algemene naam van het selectievakje. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken dat zich richt op de algemene box.
+Klanten kunnen een algemene naam voor een box opgeven via [!UICONTROL Target > Administration > Implementation > Edit]. Deze instelling wordt door de Edge-servers [!DNL Target] gebruikt om uitvoering > pageLoad om te zetten in de ingevoerde algemene naam van het invoervak. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken dat zich richt op de algemene box.
 
 ### Zijn de onderstaande aangepaste gebeurtenissen at.js van toepassing op `triggerView()` of alleen voor `applyOffer()` of `applyOffers()`?
 
@@ -309,19 +309,19 @@ Klanten kunnen een algemene naam voor een postvak opgeven via [!UICONTROL Target
 * `adobe.target.event.CONTENT_RENDERING_NO_OFFERS`
 * `adobe.target.event.CONTENT_RENDERING_REDIRECT`
 
-Ja, de aangepaste gebeurtenissen at.js zijn `triggerView()` ook van toepassing op.
+Ja zijn de aangepaste gebeurtenissen at.js ook van toepassing op `triggerView()`.
 
-### Er staat: wanneer ik bel `triggerView()` met &amp;stempel;lambce;`“page” : “true”`&amp;brace; er wordt een melding naar de [!DNL Target] achterkant verzonden en de indruk wordt groter. Zorgt het er ook voor dat de profielscripts worden uitgevoerd?
+### Er staat: wanneer ik `triggerView()` aanroep met &amp;accolade;`“page” : “true”`&amp;break; er wordt een melding verzonden naar de [!DNL Target]-achterkant en de indruk vergroot. Zorgt het er ook voor dat de profielscripts worden uitgevoerd?
 
-Wanneer een prefetch vraag aan het [!DNL Target] achterste deel wordt gemaakt, worden de profielmanuscripten uitgevoerd. Daarna worden de profielgegevens gecodeerd en teruggestuurd naar de clientzijde. Nadat `triggerView()` met `{"page": "true"}` wordt aangeroepen, wordt een bericht verzonden samen met de gecodeerde profielgegevens. Dit is wanneer de [!DNL Target] backend dan de profielgegevens zal decrypteren en in de gegevensbestanden zal opslaan.
+Wanneer een prefetch vraag aan [!DNL Target] achterkant wordt gemaakt, worden de profielmanuscripten uitgevoerd. Daarna worden de profielgegevens gecodeerd en teruggestuurd naar de clientzijde. Nadat `triggerView()` met `{"page": "true"}` wordt aangehaald, wordt een bericht verzonden samen met de gecodeerde profielgegevens. Dit is wanneer de [!DNL Target] backend dan de profielgegevens zal decrypteren en in de gegevensbestanden zal opslaan.
 
 ### Moeten wij pre-verbergende code toevoegen alvorens `triggerView()` te roepen om flikkering te beheren?
 
-Nee, u hoeft geen voorverborgen code toe te voegen voordat u deze aanroept `triggerView()`. te.js 2.*x* beheert de logica voor het vooraf verbergen en flikkeren voordat de weergave wordt weergegeven en toegepast.
+Nee, u hoeft geen code toe te voegen die zich voor het verbergen van objecten bevindt voordat u `triggerView()` aanroept. te.js 2.*Beheert* de logica voor het vooraf verbergen en flikkeren voordat de weergave wordt weergegeven en toegepast.
 
-### welke om.js 1.*x* -parameters voor het maken van soorten publiek worden niet ondersteund in at.js 2.*x*? {#audience-parameters}
+### welke om.js 1.** xparameters voor het maken van soorten publiek worden niet ondersteund in at.js 2.*x*?  {#audience-parameters}
 
-De volgende parameters at.js 1.x worden momenteel *NIET* ondersteund voor het maken van publiek wanneer at.js 2 wordt gebruikt.*x*:
+De volgende parameters at.js 1.x worden *NOT* momenteel gesteund voor publieksverwezenlijking wanneer het gebruiken van at.js 2.*x*:
 
 * browserHeight
 * browserWidth
@@ -334,9 +334,9 @@ De volgende parameters at.js 1.x worden momenteel *NIET* ondersteund voor het ma
 
 ## at.js-compatibiliteit
 
-In de volgende tabellen wordt om .js uitgelegd. 2.*x* -compatibiliteit met verschillende typen activiteiten, integraties, functies en at.js-functies.
+In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met verschillende activiteitstypen, integraties, functies en at.js-functies.
 
-### Typen activiteiten {#types}
+### Activiteitstypen {#types}
 
 | Type | Ondersteund? |
 | --- | --- |
@@ -350,9 +350,9 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* -compatibiliteit met versc
 
 >[!NOTE]
 >
->Auto-Target activiteiten worden gesteund door at.js 2.*x* en VEC wanneer alle wijzigingen op het `Page Load Event`worden toegepast. Als er wijzigingen worden toegevoegd aan bepaalde weergaven, worden alleen de activiteiten A/B Test, Auto-Allocate en Experience Targeting (XT) ondersteund.
+>Auto-Target activiteiten worden gesteund door at.js 2.*VEC* uitbreiden wanneer alle wijzigingen op het  `Page Load Event`bestand worden toegepast. Als er wijzigingen worden toegevoegd aan bepaalde weergaven, worden alleen de activiteiten A/B Test, Auto-Allocate en Experience Targeting (XT) ondersteund.
 
-### Integraties {#integrations}
+### Integratie {#integrations}
 
 | Type | Ondersteund? |
 | --- | --- |
@@ -381,7 +381,7 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* -compatibiliteit met versc
 | Klikken en bijhouden | Ja |
 | Levering van meerdere activiteiten | Ja |
 | targetGlobalSettings | Ja (maar niet x-domain) |
-| methoden at.js | Alles wordt ondersteund, behalve<br>`mboxCreate()`<br>`mboxUpdate()`<br>`mboxDefine()`<br>waarvoor standaardinhoud wordt weergegeven. |
+| methoden at.js | Alles wordt ondersteund, behalve voor<br>`mboxCreate()`<br>`mboxUpdate()`<br>`mboxDefine()`<br>dat standaardinhoud weergeeft. |
 
 ### Parameters van queryreeks
 
@@ -395,16 +395,16 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* -compatibiliteit met versc
 
 ## Reactietokens {#response-tokens}
 
-te.js 2.*x*, net als bij .js 1.*x*, gebruikt de douanegebeurtenis `at-request-succeeded` aan tokens van de oppervlakreactie. Zie `at-request-succeeded` Reactietokens [voor codevoorbeelden met behulp van de](/help/administrating-target/response-tokens.md)aangepaste gebeurtenis.
+te.js 2.*x*, net als bij .js 1.*x*, gebruikt de douanegebeurtenis  `at-request-succeeded` aan tokens van de oppervlakreactie. Voor codevoorbeelden die de `at-request-succeeded` douanegebeurtenis gebruiken, zie [Reactietokens](/help/administrating-target/response-tokens.md).
 
-## te.js 1.*x* parameters tot at.js 2.*x* -laadtoewijzing {#payload-mapping}
+## te.js 1.*xparameters* naar at.js 2.** xpayload-toewijzing  {#payload-mapping}
 
-In deze sectie worden de toewijzingen tussen at.js 1 beschreven.*x* en at.js 2.*x*.
+In deze sectie worden de toewijzingen tussen at.js 1 beschreven.** xand at.js 2.*x*.
 
 Voordat u gaat overstappen op parametertoewijzing, zijn de eindpunten die in deze bibliotheekversies worden gebruikt, gewijzigd:
 
-* te.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
-* te.js 2.*x* - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+* te.js 1.*x* -  `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
+* te.js 2.*x* -  `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
 
 Een ander belangrijk verschil is dat:
 
@@ -412,11 +412,11 @@ Een ander belangrijk verschil is dat:
 * te.js 2.*x* - De code van de cliënt wordt verzonden als parameter van het vraagkoord, zoals:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-De volgende secties maken een lijst van elk bij.js 1.*x* parameter, de beschrijving en de bijbehorende 2.*x* JSON-lading (indien van toepassing):
+De volgende secties maken een lijst van elk bij.js 1.** xparameter, de beschrijving ervan en de bijbehorende 2.** xJSON-lading (indien van toepassing):
 
 ### at_property
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Wordt gebruikt voor [Enterprise-gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -432,11 +432,11 @@ Wordt gebruikt voor [Enterprise-gebruikersmachtigingen](/help/administrating-tar
 
 ### mboxHost
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Het domein van de pagina waarop de doelbibliotheek wordt uitgevoerd.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -450,11 +450,11 @@ te.js 2.*x* JSON-lading:
 
 ### webGLRenderer
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 De WEB GL-renderermogelijkheden van de browser. Dit wordt gebruikt door ons mechanisme voor apparaatdetectie om te bepalen of het apparaat van de bezoeker een bureaublad, iPhone, Android enzovoort is.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -468,11 +468,11 @@ te.js 2.*x* JSON-lading:
 
 ### mboxURL
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 De pagina-URL.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -486,11 +486,11 @@ te.js 2.*x* JSON-lading:
 
 ### mboxReferrer
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 De paginareferentie.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -504,11 +504,11 @@ te.js 2.*x* JSON-lading:
 
 ### mbox (de naam) is gelijk aan global mbox
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
-Delivery API heeft niet langer een globaal mbox-concept. In de JSON-lading moet u gebruiken `execute > pageLoad`.
+Delivery API heeft niet langer een globaal mbox-concept. In de JSON-payload moet u `execute > pageLoad` gebruiken.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -522,13 +522,13 @@ te.js 2.*x* JSON-lading:
 }
 ```
 
-### mbox (de naam) is *niet* gelijk aan global mbox
+### mbox (de naam) is *not* gelijk aan global mbox
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
-Als u de naam van een vak wilt gebruiken, geeft u deze door aan `execute > mboxes`. Een box vereist een index en een naam.
+Als u de naam van een box wilt gebruiken, geeft u deze door aan `execute > mboxes`. Een box vereist een index en een naam.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -546,23 +546,23 @@ te.js 2.*x* JSON-lading:
 
 ### mboxId
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Niet meer gebruikt.
 
 ### mboxCount
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Niet meer gebruikt.
 
 ### mboxRid
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Id van verzoek die door stroomafwaartse systemen wordt gebruikt om met het zuiveren te helpen.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -573,23 +573,23 @@ te.js 2.*x* JSON-lading:
 
 ### mboxTime
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Niet meer gebruikt.
 
 ### mboxSession
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
-Identiteitskaart van de zitting wordt verzonden als parameter van het vraagkoord (`sessionId`) aan het doel van levering API.
+Identiteitskaart van de zitting wordt verzonden als parameter van het vraagkoord (`sessionId`) aan het eindpunt van levering API.
 
 ### mboxPC
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
-De TNT-id wordt doorgegeven aan `id > tntId`.
+De TNT-id wordt doorgegeven naar `id > tntId`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -602,11 +602,11 @@ te.js 2.*x* JSON-lading:
 
 ### mboxMCGVID
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
-Bezoeker-id voor Marketing Cloud wordt doorgegeven aan `id > marketingCloudVisitorId`.
+De Marketing Cloud Bezoeker-id wordt doorgegeven naar `id > marketingCloudVisitorId`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -617,13 +617,13 @@ te.js 2.*x* JSON-lading:
 }
 ```
 
-### `vst.aaaa.id` en `vst.aaaa.authState`
+### `vst.aaaa.id` en  `vst.aaaa.authState`
 
-(te.js 1.*x* parameters)
+(te.js 1.** xparameters)
 
-Klantnamen moeten worden doorgegeven aan `id > customerIds`.
+Klantid&#39;s moeten worden doorgegeven aan `id > customerIds`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -640,11 +640,11 @@ te.js 2.*x* JSON-lading:
 
 ### mbox3rdPartyId
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Id van derde partij van klant die wordt gebruikt om verschillende doel-id&#39;s te koppelen.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -657,11 +657,11 @@ te.js 2.*x* JSON-lading:
 
 ### mboxMCSDID
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 SDID, ook wel Supplemental Data ID genoemd. Moet worden doorgegeven aan `experienceCloud > analytics > supplementalDataId`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -676,11 +676,11 @@ te.js 2.*x* JSON-lading:
 
 ### vst.trk
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Analytics tracking-server. Moet worden doorgegeven aan `experienceCloud > analytics > trackingServer`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -695,11 +695,11 @@ te.js 2.*x* JSON-lading:
 
 ### vst.trks
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Beveiliging van de analytische trackingserver. Moet worden doorgegeven aan `experienceCloud > analytics > trackingServerSecure`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -714,11 +714,11 @@ te.js 2.*x* JSON-lading:
 
 ### mboxMCGLH
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Tip voor locatie van Audience Manager. Moet worden doorgegeven aan `experienceCloud > audienceManager > locationHint`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -733,11 +733,11 @@ te.js 2.*x* JSON-lading:
 
 ### mboxAAMB
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Audience Manager blob. Moet worden doorgegeven aan `experienceCloud > audienceManager > blob`.
 
-te.js 2.*x* JSON-lading:
+te.js 2.** xJSON-lading:
 
 ```
 {
@@ -752,14 +752,14 @@ te.js 2.*x* JSON-lading:
 
 ### mboxVersion
 
-(te.js 1.*x* , parameter)
+(te.js 1.** xparameter)
 
 Versie wordt verzonden als parameter van het vraagkoord via de versieparameter.
 
-## Trainingsvideo: te.js 2.*x* architecturaal diagram ![Overzichtsbadge](/help/assets/overview.png)
+## Trainingsvideo: te.js 2.** xarchitecturaal diagram  ![Overzicht badge](/help/assets/overview.png)
 
-te.js 2.*x* verbetert de Adobe Target-ondersteuning voor SPA en integreert deze met andere Experience Cloud-oplossingen. In deze video wordt uitgelegd hoe alles bij elkaar komt.
+te.js 2.*Vergroot de Adobe Target-ondersteuning voor SPA en integreert deze met andere Experience Cloud-oplossingen.* In deze video wordt uitgelegd hoe alles bij elkaar komt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Zie [Begrijpen hoe te.js 2.*x* werkt](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) voor meer informatie.
+Zie [Begrijpen hoe at.js 2.** ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) werkt meer informatie uit.
