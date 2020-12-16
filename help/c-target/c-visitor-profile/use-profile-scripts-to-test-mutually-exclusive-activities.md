@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Profielscripts gebruiken om activiteiten te testen die elkaar uitsluiten {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# Profielscripts gebruiken om wederzijds uitsluitende activiteiten te testen {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 U kunt profielkenmerken gebruiken om tests in te stellen die twee of meer activiteiten vergelijken, maar niet toestaan dat dezelfde bezoekers aan elke activiteit deelnemen.
 
@@ -40,19 +40,19 @@ if (!user.get('twogroups')) {
 }
 ```
 
-* `if (!user.get('twogroups'))` Hiermee bepaalt u of het *twee-groepenprofielkenmerk* is ingesteld voor de huidige bezoeker. Als dat het geval is, is geen verdere actie vereist.
+* `if (!user.get('twogroups'))` Hiermee bepaalt u of het kenmerk  ** twogroupsprofile wordt ingesteld voor de huidige bezoeker. Als dat het geval is, is geen verdere actie vereist.
 
 * `var ran_number=Math.floor(Math.random() *99)` declareert een nieuwe variabele met de naam ran_number, stelt de waarde ervan in op een willekeurige decimaal tussen 0 en 1, vermenigvuldigt deze vervolgens met 99 en rondt deze af om een bereik van 100 (0-99) te maken. Dit is handig voor het opgeven van een percentage bezoekers dat de activiteit ziet.
 
 * `if (ran_number <= 49)` Hiermee wordt een routine gestart die bepaalt tot welke groep de bezoeker behoort. Als het teruggekeerde aantal 0-49 is, wordt de bezoeker toegewezen aan GroupA. Als het aantal 50-99 is, wordt de bezoeker toegewezen aan GroupB. De groep bepaalt welke activiteit de bezoeker ziet.
 
-Nadat u de profielattributen creeert, opstelling de eerste activiteit om de gewenste bevolking te richten door te vereisen dat de parameter van het gebruikersprofiel de waarde aanpast die voor GroupA wordt gespecificeerd. `user.twogroups`
+Nadat u de profielattributen creeert, opstelling de eerste activiteit om de gewenste bevolking te richten door te vereisen dat de parameter van het gebruikersprofiel `user.twogroups` de waarde aanpast die voor GroupA wordt gespecificeerd.
 
 >[!NOTE]
 >
 >Kies een box vroeg op de pagina. Deze code bepaalt of een bezoeker de activiteit ervaart. Zolang een box eerst door browser wordt ontmoet, kan het worden gebruikt om deze waarde te plaatsen.
 
-Opstelling de tweede campagne zodat de parameter van het gebruikersprofiel de waarde aanpast die voor GroupB wordt gespecificeerd. `user.twogroups`
+Opstelling de tweede campagne zodat de parameter `user.twogroups` van het gebruikersprofiel de waarde aanpast die voor GroupB wordt gespecificeerd.
 
 ## Het opzetten van drie of meer activiteiten
 
