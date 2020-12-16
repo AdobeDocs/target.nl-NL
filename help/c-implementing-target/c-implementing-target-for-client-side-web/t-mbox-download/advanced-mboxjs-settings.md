@@ -12,13 +12,13 @@ ht-degree: 2%
 ---
 
 
-# mbox.js configureren{#configure-mbox-js}
+# mbox.js{#configure-mbox-js} configureren
 
 Informatie die u helpt bij het instellen van verschillende instellingen op de pagina mbox.js Settings.
 
-De standaardinstellingen van de [!DNL mbox.js] functiebibliotheek voldoen aan de behoeften van de meeste [!DNL Target] klanten.
+De standaardinstellingen van de functiebibliotheek [!DNL mbox.js] voldoen aan de behoeften van de meeste klanten van [!DNL Target].
 
-Neem indien nodig contact op met uw accountvertegenwoordiger om de [!DNL mbox.js] instellingen te wijzigen.
+Neem indien nodig contact op met uw accountvertegenwoordiger om de [!DNL mbox.js]-instellingen te wijzigen.
 
 De volgende instellingen zijn beschikbaar:
 
@@ -26,13 +26,13 @@ De volgende instellingen zijn beschikbaar:
 
 De clientcode voor uw account.
 
-Bij weergave [!UICONTROL Administration > Implementation]is de client bovenaan de clientcode voor uw account.
+Als u [!UICONTROL Administration > Implementation] weergeeft, is de client bovenaan de clientcode voor uw account.
 
 ## Time-out
 
 The Target request timeout.
 
-Bij weergave [!UICONTROL Administration > Implementation]is de instelling Time-out (seconden) de time-out voor de doelaanvraag. Deze waarde wordt standaard ingesteld op 15 seconden, maar u wordt aangeraden deze waarde in te stellen op een waarde tussen 2 seconden en 5 seconden.
+Wanneer het bekijken van [!UICONTROL Administration > Implementation], is de Onderbreking (seconden) het plaatsen uw onderbreking van het Verzoek van het Doel. Deze waarde wordt standaard ingesteld op 15 seconden, maar u wordt aangeraden deze waarde in te stellen op een waarde tussen 2 seconden en 5 seconden.
 
 ## XDomain
 
