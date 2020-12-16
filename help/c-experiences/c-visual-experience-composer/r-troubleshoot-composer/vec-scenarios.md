@@ -24,7 +24,7 @@ Wanneer u de kiezer gebruikt, komt de unieke klasse niet overeen met de id. De k
 >
 >Hoewel deze scenario&#39;s lijstpunten als voorbeelden gebruiken, zijn de concepten op om het even welk element van toepassing.
 
-## Scenario: Een element invoegen met een andere klassenaam voor het geselecteerde element {#section_298F661F72384F6AB957D5885A99D822}
+## Scenario: Een element met een andere klassenaam invoegen vóór het geselecteerde element {#section_298F661F72384F6AB957D5885A99D822}
 
 In dit voorbeeld wordt een nieuw element ingevoegd als een element op hetzelfde niveau als het element in de doelkiezer.
 
@@ -44,7 +44,7 @@ Kiezer: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultaat:**
 
-De kiezer werkt zoals u had verwacht, omdat dit geen invloed `li.women-section:eq(0)` heeft.
+De kiezer werkt zoals verwacht omdat `li.women-section:eq(0)` niet wordt gewijzigd.
 
 Voor:
 
@@ -88,7 +88,7 @@ Kiezer: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultaat:**
 
-De kiezer werkt niet, omdat er een dynamisch toegevoegd element `ul.nav:eq(0)` is. Het element is niet beschikbaar en de handeling wordt niet toegepast. Wanneer een vergelijkbaar lijstitem met dezelfde klasse dynamisch of handmatig wordt toegevoegd nadat een activiteit is gemaakt, wordt een nieuw element op de eerste positie gemaakt. Hierdoor wordt de kiezer verbroken.
+De kiezer werkt niet, omdat `ul.nav:eq(0)` een dynamisch toegevoegd element biedt. Het element is niet beschikbaar en de handeling wordt niet toegepast. Wanneer een vergelijkbaar lijstitem met dezelfde klasse dynamisch of handmatig wordt toegevoegd nadat een activiteit is gemaakt, wordt een nieuw element op de eerste positie gemaakt. Hierdoor wordt de kiezer verbroken.
 
 Voor:
 
@@ -306,7 +306,7 @@ Kiezer: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultaat:**
 
-De naam van de elementklasse kan niet worden gewijzigd omdat `class` deze niet is gevonden.
+De naam van de elementklasse kan niet worden gewijzigd omdat `class` niet is gevonden.
 
 Voor:
 
