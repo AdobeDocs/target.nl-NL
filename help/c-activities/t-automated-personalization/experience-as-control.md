@@ -13,9 +13,9 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit
+# ![](/help/assets/premium.png) PREMIUMSselecteer het besturingselement voor uw Automated Personalization- of Auto-Target-activiteit
 
-U kunt een willekeurig bediende ervaring selecteren of een specifieke ervaring die als controle moet worden gebruikt terwijl het creëren van een activiteit van [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of van het [Auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+U kunt een willekeurig bediende ervaring selecteren of een specifieke ervaring die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het controleverkeer aan de relevante ervaringen leiden, die op het percentage van de verkeerstoewijzing worden gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die controle dan evalueren.
 
@@ -29,13 +29,13 @@ Er zijn twee opties beschikbaar voor uw controle in uw AP en bij activiteiten: w
 
 ## Een specifieke ervaring opgeven als besturingselement
 
-1. Tijdens het creëren van een [AP activiteit](/help/c-activities/t-automated-personalization/create-ap-activity.md) of een activiteit [van](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)AT, vorm de ervaringen zoals gewenst.
-1. Selecteer op de [!UICONTROL Targeting] pagina (stap 2 van de geleide workflow met drie delen) de gewenste ervaring als besturingselement.
+1. Tijdens het creëren van een [AP activiteit](/help/c-activities/t-automated-personalization/create-ap-activity.md) of [AT activiteit](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), vorm de ervaringen zoals gewenst.
+1. Selecteer op de pagina [!UICONTROL Targeting] (stap 2 van de geleide workflow met drie delen) de gewenste ervaring als besturingselement.
 1. Specificeer de gewenste verkeerstoewijzing voor de controleervaring en de andere ervaringen.
 
    Voor een specifieke controle wordt 10% tot 30% aanbevolen.
 
-1. Ga door met de [!UICONTROL Goals & Settings] pagina.
+1. Ga verder met de pagina [!UICONTROL Goals & Settings].
 
 ## Bekende beperkingen en overwegingen
 
@@ -45,7 +45,7 @@ Houd rekening met de volgende punten wanneer u een specifieke ervaring als contr
 * Het wordt niet aangeraden de besturingservaring te verwijderen.
 * Het toevoegen van een groot aantal nieuwe aanbiedingen/ervaringen aan een levende activiteit met een specifieke ervaring aangezien de controle niet wordt geadviseerd.
 * In AP activiteiten, met inbegrip van het richten op de controleervaring die kan verder beperken wie kan zien dat de ervaring niet wordt geadviseerd.
-* Bij AP-activiteiten is informatie over lift en betrouwbaarheid *NIET* beschikbaar in het rapport op aanbodniveau als een specifieke ervaring is geselecteerd. Informatie over optillen en vertrouwen is beschikbaar bij de algemene &quot;gerichte&quot; vs. &quot;controle&quot;verkeersniveau voor de AP activiteit. Informatie over optillen en vertrouwen is beschikbaar als &quot;willekeurig&quot; is geselecteerd als het besturingselement. Dit verschil komt doordat het vergelijken van de conversiekoers van een specifieke ervaring met de conversiekoers van een aanbieding niet logisch is vanwege het verschil in eenheden. De informatie beschikbaar in een activiteit van AT is het zelfde, ongeacht welk type van controle wordt geselecteerd.
+* Bij AP-activiteiten is informatie over optillen en vertrouwen *NOT* beschikbaar in het rapport op aanbodniveau als een specifieke ervaring is geselecteerd. Informatie over optillen en vertrouwen is beschikbaar bij de algemene &quot;gerichte&quot; vs. &quot;controle&quot;verkeersniveau voor de AP activiteit. Informatie over optillen en vertrouwen is beschikbaar als &quot;willekeurig&quot; is geselecteerd als het besturingselement. Dit verschil komt doordat het vergelijken van de conversiekoers van een specifieke ervaring met de conversiekoers van een aanbieding niet logisch is vanwege het verschil in eenheden. De informatie beschikbaar in een activiteit van AT is het zelfde, ongeacht welk type van controle wordt geselecteerd.
 * Omdat al controleverkeer naar één enkele ervaring of reeks aanbiedingen gaat wanneer u de ervaring als controle selecteert (in vergelijking met willekeurig, waar de hoeveelheid controleverkeer over het aantal ervaringen of aanbiedingen in uw activiteit wordt verdeeld), hebt u over het algemeen niet zo veel verkeer aan de controle nodig. 10% is een goede startplaats.
 * Als u één van het volgende aan een levende activiteit met een specifieke ervaring als controle doet, wordt de controle automatisch teruggesteld aan willekeurig gediende ervaringen (in plaats van de eerder geselecteerde specifieke ervaring):
 
