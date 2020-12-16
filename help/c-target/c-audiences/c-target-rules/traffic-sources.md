@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Maak een publiek voor doelbezoekers op basis van het zoekprogramma of de bestemmingspagina dat hen naar uw site verwijst.
 
-U kunt de bestemming bijvoorbeeld instellen op basis van de browser van de bezoeker, de zoekmachine of de bestemmingspagina. De bestemmingspagina is de pagina waarop de bezoeker heeft geklikt om de huidige site tijdens deze sessie te bereiken. (Als de bezoeker bijvoorbeeld op een advertentie op Google heeft geklikt en deze naar de `adobe.com` startpagina leidt, wordt de bestemmingspagina `google.com`.)
+U kunt de bestemming bijvoorbeeld instellen op basis van de browser van de bezoeker, de zoekmachine of de bestemmingspagina. De bestemmingspagina is de pagina waarop de bezoeker heeft geklikt om de huidige site tijdens deze sessie te bereiken. (Als de bezoeker bijvoorbeeld op een advertentie op Google heeft geklikt en deze naar de introductiepagina `adobe.com` leidt, is de bestemmingspagina `google.com`.)
 
 U kunt veelvoudige verkeersbronnen combineren om een complexe het richten regel tot stand te brengen.
 
-1. Klik in de [!DNL Target] interface op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Noem het publiek.
 1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Traffic Sources]**.
 
    ![](assets/target_traffic_source.png)
 
-1. Klik **[!UICONTROL Select]** en selecteer een van de volgende opties:
+1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
    * Van Baidu
    * Vanaf band
@@ -38,12 +38,12 @@ U kunt veelvoudige verkeersbronnen combineren om een complexe het richten regel 
 
    Afhankelijk van uw selectie moet u mogelijk aanvullende informatie opgeven (beoordelaar en/of waarden).
 
-1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
+1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
 1. Klik op **[!UICONTROL Save]**.
 
 U kunt zich richten op gebruikers die door een specifiek zoekprogramma of een specifieke bestemmingspagina naar uw site worden verwezen.
 
-## Trainingsvideo: Badge ![Overzicht publiek maken](/help/assets/overview.png)
+## Trainingsvideo: Soorten publiek maken ![Overzichtsbadge](/help/assets/overview.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
