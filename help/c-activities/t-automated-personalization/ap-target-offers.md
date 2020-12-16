@@ -13,7 +13,7 @@ ht-degree: 2%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Target Automated Personalization biedt{#target-automated-personalization-offers}
+# ![automated personalization-aanbiedingen voor ](/help/assets/premium.png) PREMIUMTarget{#target-automated-personalization-offers}
 
 In een Automated Personalization-activiteit (AP) kunt u aanbiedingen richten op specifieke doelgroepen.
 
@@ -30,7 +30,7 @@ In dit scenario, zou Bezoeker 1 Aanbieding 1 zien (omdat hij of zij als deel van
 
 ## Doelstellingen instellen
 
-1. Maak een [Automated Personalization-activiteit](/help/c-activities/t-automated-personalization/create-ap-activity.md) met de aanbiedingen waarop u zich wilt richten.
+1. Maak een [Automated Personalization-activiteit](/help/c-activities/t-automated-personalization/create-ap-activity.md) die de aanbiedingen bevat die u als doel wilt instellen.
 1. Na vestiging de aanbiedingen voor de activiteit in de Visuele Composer van de Ervaring, klik **[!UICONTROL Manage Content]**.
 
    ![Inhoud beheren](/help/c-activities/t-automated-personalization/assets/manage-content.png)
@@ -43,15 +43,15 @@ In dit scenario, zou Bezoeker 1 Aanbieding 1 zien (omdat hij of zij als deel van
 
 1. Selecteer de gewenste aanbieding(en) en kies het publiek dat u in aanmerking wilt nemen om dat aanbod te zien.
 
-   Als u de focus voor één aanbieding wilt instellen, houdt u de muisaanwijzer boven de gewenste aanbieding en klikt u op het **[!UICONTROL Targeting]** pictogram.
+   Als u de doelversie voor één aanbieding wilt instellen, houdt u de muisaanwijzer boven de gewenste aanbieding en klikt u op het pictogram **[!UICONTROL Targeting]**.
 
-   Als u de doelgroep voor meerdere aanbiedingen wilt instellen, schakelt u de selectievakjes voor de gewenste aanbiedingen in en klikt u op het pictogram **[!UICONTROL Targeting] dat rechtsboven in de lijst wordt weergegeven.
+   Als u de doelversie voor meerdere aanbiedingen wilt instellen, schakelt u de selectievakjes voor de gewenste aanbiedingen in en klikt u op het pictogram **[!UICONTROL Targeting] dat rechtsboven in de lijst wordt weergegeven.
 
-1. Selecteer in het [!UICONTROL Choose Audience] dialoogvenster het gewenste publiek of de gewenste doelgroepen voor de aanbieding(en) en klik vervolgens **[!UICONTROL Done]** om terug te keren naar het [!UICONTROL Manage Content] dialoogvenster.
+1. Selecteer in het dialoogvenster [!UICONTROL Choose Audience] de gewenste doelgroep(en) voor de aanbieding(en) en klik vervolgens op **[!UICONTROL Done]** om terug te keren naar het dialoogvenster [!UICONTROL Manage Content].
 
    >[!NOTE]
    >
-   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie Meerdere soorten publiek [combineren voor meer informatie](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie [Meerdere soorten publiek combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) voor meer informatie.
 
 1. Klik op **[!UICONTROL Done]**.
 
