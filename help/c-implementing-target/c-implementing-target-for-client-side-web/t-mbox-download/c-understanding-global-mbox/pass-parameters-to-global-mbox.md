@@ -14,25 +14,25 @@ ht-degree: 0%
 
 # Parameters doorgeven aan een globale box{#pass-parameters-to-a-global-mbox}
 
-De JavaScript- `targetPageParams` functie wordt gebruikt om parameters door te geven aan de globale box in [!DNL Adobe Target]. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context moet worden doorgegeven [!DNL Target].
+De functie JavaScript `targetPageParams` wordt gebruikt om parameters tot globale mbox in &lt;a1 door te geven/>. [!DNL Adobe Target] Dit is nodig in elk scenario waarbij extra informatie over gericht/context moet worden doorgegeven aan [!DNL Target].
 
-In een [!DNL Recommendations] activiteit gebruikt u bijvoorbeeld de parameters voor het huidige product of de categorie die wordt weergegeven.
+In een [!DNL Recommendations]-activiteit gebruikt u bijvoorbeeld de parameters om het huidige product of de huidige categorie te vertegenwoordigen die wordt weergegeven.
 
 De code die de JavaScript-functie moet aanroepen, moet vóór het globale vakje op de pagina komen, ongeacht of het globale vakje als onderdeel van at.js is geactiveerd of handmatig in de paginacode is opgenomen.
 
 >[!NOTE]
 >
->Als u parameters wilt toevoegen aan alle vakken op de pagina en niet alleen aan de globale box, gebruikt u de functie [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) .
+>Als u parameters aan alle dozen op de pagina, niet alleen aan globale mbox wilt toevoegen, gebruik [targetPageParamsAll ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) functie.
 
-U kunt op de volgende manieren parameters doorgeven aan het `target-global-mbox` gebruik van de `targetPageParams()` functie:
+U kunt parameters aan `target-global-mbox` overgaan gebruikend de `targetPageParams()` functie op om het even welke volgende manieren:
 
 * Een array
 * Een JSON-object
 * Een door ampersand gescheiden lijst
 
-Gebruik deze drie methoden om te controleren of de parameters correct worden doorgegeven. Mogelijk kunt u ook controleren of parameters zijn doorgegeven via [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
+Gebruik deze drie methoden om te controleren of de parameters correct worden doorgegeven. Mogelijk kunt u ook controleren of parameters worden doorgegeven met de [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
 
-U moet de JavaScript-functie definiëren voordat u het globale vakje aan de pagina toevoegt. De naam moet `targetPageParams`zijn.
+U moet de JavaScript-functie definiëren voordat u het globale vakje aan de pagina toevoegt. De naam moet `targetPageParams` zijn.
 
 ## Tekenreeks query
 
@@ -40,7 +40,7 @@ U moet de JavaScript-functie definiëren voordat u het globale vakje aan de pagi
 p1=v1&p2=v2&p3=hello%20world
 ```
 
-* Name: `targetPageParams`
+* Naam: `targetPageParams`
 * Retourwaarde: a &quot;&amp;&quot; gescheiden parameters, met URL gecodeerde parameterwaarden.
 
    Voorbeeld:
