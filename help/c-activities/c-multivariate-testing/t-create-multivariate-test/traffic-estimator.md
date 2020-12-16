@@ -32,9 +32,9 @@ In de test wordt de Bonferroni-correctie gebruikt om meerdere vergelijkingen te 
 
 De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u voldoende verkeer voor de test hebt u ontworpen om te slagen.
 
-1. Klik in de Composer voor ervaring op het **[!UICONTROL Traffic]** pictogram.
+1. Klik in de Composer voor ervaring op het pictogram **[!UICONTROL Traffic]**.
 
-   De schatter van het Verkeer opent. U kunt opnieuw op het **[!UICONTROL Traffic]** pictogram klikken om de schatter van het Verkeer te verbergen.
+   De schatter van het Verkeer opent. U kunt nogmaals op het pictogram **[!UICONTROL Traffic]** klikken om de Verkeersschatter te verbergen.
 
    ![](assets/estimatorempty.png)
 
