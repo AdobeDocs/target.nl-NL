@@ -31,9 +31,9 @@ Hoewel er enkele gereserveerde toetsen zijn, kunnen zowel profiel- als mapoparam
 
 1. Woordenboek maken.
 
-   Maak eerst een woordenboek met de waarden die u naar Doel verzendt. Voor het gemak, voeg dit binnen de `welcomeMessageCampaign` methode toe zodat u zich niet over werkingsgebied hoeft ongerust te maken.
+   Maak eerst een woordenboek met de waarden die u naar Doel verzendt. Voor het gemak, voeg dit binnen de `welcomeMessageCampaign` methode toe zodat moet u zich niet over werkingsgebied ongerust maken.
 
-   Hier volgt een voorbeeldwoordenboek. U kunt deze plakken in `(void)welcomeMessageCampaign`. De waarden voor toetsen als `userLevel` en `userMiles` zijn in dit voorbeeld hard gecodeerd. Over het algemeen geeft u de bijbehorende variabelen door.
+   Hier volgt een voorbeeldwoordenboek. U kunt deze plakken in `(void)welcomeMessageCampaign`. De waarden voor sleutels zoals `userLevel` en `userMiles` zijn hard-gecodeerd in dit voorbeeld. Over het algemeen geeft u de bijbehorende variabelen door.
 
    ```
    NSDictionary *targetParams = [[NSDictionary alloc] initWithObjectsAndKeys: 
@@ -51,14 +51,14 @@ Hoewel er enkele gereserveerde toetsen zijn, kunnen zowel profiel- als mapoparam
 
       Deze profielkenmerken kunnen op verschillende activiteiten en kanalen worden gebruikt.
 
-   * Toetsen die geen voorvoegsel hebben (bijvoorbeeld `userMiles`), zijn parameters mbox.
+   * Toetsen die geen voorvoegsel hebben (bijvoorbeeld `userMiles`) zijn maboxparameters.
 
       Deze parameters zijn alleen beschikbaar tijdens de sessie.
 
    * Toetsen met het voorvoegsel (bijvoorbeeld `entity.category.id`) worden gebruikt voor productaanbevelingen.
 
 1. Controleer de gegevens.
-   1. Verwijder in de toepassing `didFinishLaunchingWithOptions`de commentaarmarkering of voeg deze toe `[ADBMobile setDebugLogging:YES];`.
+   1. Verwijder in toepassing `didFinishLaunchingWithOptions` de commentaarmarkering of voeg `[ADBMobile setDebugLogging:YES];` toe.
 
       Hiermee worden gedetailleerde foutopsporingslogbestanden afgedrukt.
    1. Maak de app.
