@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Random Forest-algoritme{#random-forest-algorithm}
+# ![](/help/assets/premium.png) PREMIUMRandom Forest-algoritme{#random-forest-algorithm}
 
 Het belangrijkste verpersoonlijkingsalgoritme van het doel dat in zowel Automated Personalization als Auto-Doel wordt gebruikt is Willekeurig bos. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het Random Forest-algoritme in Automated Personalization is een classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen tijdens de training.
 
@@ -45,7 +45,7 @@ Ons voorbeeld zou in de volgende boom resulteren:
 
 ## Hoe worden Besluit Trees gebruikt door Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Beslissingsbomen kunnen een krachtig statistisch instrument zijn. Ze hebben echter enkele nadelen. Het meest kritiek, kunnen zij de gegevens &quot;overdreven-passen&quot;zodat een individuele boom slecht toekomstige gegevens voorspelt die niet werden gebruikt om de aanvankelijke boom te bouwen. Deze uitdaging staat bekend als de [afwijking in het statistisch leren](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) . Willekeurige bossen helpen deze overijdelingsuitdaging te overwinnen. Op het hoogste niveau is een willekeurig bos een verzameling beslissingsbomen die iets anders worden gebouwd op dezelfde gegevensset die samen &quot;stemmen&quot; om een beter model te krijgen dan een individuele boom. De bomen worden aangelegd door willekeurig een deelverzameling bezoeken met vervangingen (zogenaamde bagging) te selecteren en door willekeurig een deelverzameling van de kenmerken te selecteren, zodat het bos uit iets verschillende beslissingsbomen bestaat. Deze methode introduceert kleine variaties in de bomen die in het Willekeurige Bos worden gecreeerd. Door deze gecontroleerde hoeveelheid variantie toe te voegen, verbetert u de voorspellende nauwkeurigheid van het algoritme.
+Beslissingsbomen kunnen een krachtig statistisch instrument zijn. Ze hebben echter enkele nadelen. Het meest kritiek, kunnen zij de gegevens &quot;overdreven-passen&quot;zodat een individuele boom slecht toekomstige gegevens voorspelt die niet werden gebruikt om de aanvankelijke boom te bouwen. Deze uitdaging wordt de [bias-variance handelsoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in statistisch leren genoemd. Willekeurige bossen helpen deze overijdelingsuitdaging te overwinnen. Op het hoogste niveau is een willekeurig bos een verzameling beslissingsbomen die iets anders worden gebouwd op dezelfde gegevensset die samen &quot;stemmen&quot; om een beter model te krijgen dan een individuele boom. De bomen worden aangelegd door willekeurig een deelverzameling bezoeken met vervangingen (zogenaamde bagging) te selecteren en door willekeurig een deelverzameling van de kenmerken te selecteren, zodat het bos uit iets verschillende beslissingsbomen bestaat. Deze methode introduceert kleine variaties in de bomen die in het Willekeurige Bos worden gecreeerd. Door deze gecontroleerde hoeveelheid variantie toe te voegen, verbetert u de voorspellende nauwkeurigheid van het algoritme.
 
 ## Hoe gebruiken de Algoritmen van de Aanpassing van het Doel Willekeurig Bos? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
@@ -74,7 +74,7 @@ Voordat de gegevens door het verpersoonlijkingsalgoritme gaan, ondergaat het een
 De eigenschaptransformaties hangen van het type van attribuut af. Vooral zijn er twee soorten kenmerken (of &quot;eigenschappen&quot; zoals soms beschreven door wetenschappers):
 
 * **Categorisch:** Categorische functies kunnen niet worden geteld, maar kunnen in verschillende groepen worden gesorteerd. Het kunnen kenmerken zijn zoals land, geslacht of postcode.
-* **Numeriek:** Numerieke kenmerken kunnen worden gemeten of geteld, zoals leeftijd, inkomen, enzovoort.
+* **Numeriek -** Numerieke kenmerken kunnen worden gemeten of geteld, zoals leeftijd, inkomen, enzovoort.
 
 Voor categoriale functies blijft een set van alle mogelijke functies behouden en wordt de waarschijnlijke transformatie gebruikt om de gegevensgrootte te reduceren. Voor numerieke functies zorgt het opnieuw schalen ervoor dat de functies over de hele linie vergelijkbaar zijn.
 
