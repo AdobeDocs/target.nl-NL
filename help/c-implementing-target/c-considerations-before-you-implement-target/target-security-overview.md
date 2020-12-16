@@ -20,4 +20,4 @@ Bij Adobe nemen we de beveiliging van je digitale ervaring zeer serieus. Beveili
 
 Bovendien helpen onze samenwerking met partners, toonaangevende onderzoekers, instellingen voor veiligheidsonderzoek en andere brancheorganisaties ons bij het up-to-date houden met de nieuwste dreigingen en kwetsbaarheden en wij nemen regelmatig geavanceerde veiligheidstechnieken op in de producten en diensten die wij aanbieden.
 
-Zie het artikel over beveiligingsoverzicht [van](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target voor meer informatie.
+Voor meer informatie, zie [het Witboek van het Overzicht van de Veiligheid van Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
