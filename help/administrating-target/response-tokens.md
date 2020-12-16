@@ -18,7 +18,7 @@ Met responstokens kunt u automatisch informatie uitvoeren die specifiek is voor 
 
 Met reactietokens kunt u kiezen welke variabelen u wilt gebruiken en deze vervolgens inschakelen als onderdeel van een doelreactie. Om dit te doen, laat u eenvoudig een variabele toe gebruikend de schakelaar en de variabele zal met de reacties van het Doel worden verzonden, die in netwerkvraag kunnen worden bevestigd. De tekenen van de reactie werken ook op [!UICONTROL Preview] wijze.
 
-Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl insteekmodules JavaScript leveren aan de pagina die wordt uitgevoerd bij levering, de reactietokens een object leveren dat vervolgens kan worden gelezen en bewerkt met behulp van gebeurtenislisteners. Zie aangepaste gebeurtenissen [](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js en de voorbeelden verderop in dit artikel voor meer informatie. De aanpak van responstokens is veiliger en moet de ontwikkeling en het onderhoud van integratie van derden vergemakkelijken.
+Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl insteekmodules JavaScript leveren aan de pagina die wordt uitgevoerd bij levering, de reactietokens een object leveren dat vervolgens kan worden gelezen en bewerkt met behulp van gebeurtenislisteners. Zie [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) en de voorbeelden verderop in dit artikel voor meer informatie. De aanpak van responstokens is veiliger en moet de ontwikkeling en het onderhoud van integratie van derden vergemakkelijken.
 
 >[!NOTE]
 >
@@ -26,26 +26,26 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 
 | Doelbibliotheek in gebruik | Voorgestelde handelingen |
 |--- |--- |
-| at.js | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [bij.js de Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)van de Versie.<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Bepaalde plug-ins die afhankelijk zijn van interne methoden die in mbox.js bestaan, maar niet in at.js, worden geleverd, maar mislukken. Zie [Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)in.js voor meer informatie. |
-| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en reactietokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [bij.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js voor informatie over migreren](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Na de veroudering van Klassiek Doel (November 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande stop- ins uit te geven of onbruikbaar te maken. Controleer de plug-ins voordat Target Classic is vervangen en schakel ongewenste plug-ins uit.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| at.js | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [at.js de Details van de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Bepaalde plug-ins die afhankelijk zijn van interne methoden die in mbox.js bestaan, maar niet in at.js, worden geleverd, maar mislukken. Voor meer informatie, zie [at.js Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
+| mbox.js | Plugins worden ondersteund en geleverd bij het gebruik van mbox.js.<br>Klanten die mbox.js en plug-ins gebruiken, worden echter aangeraden om naar at.js en reactietokens te gaan. Voor informatie over de voordelen van het gebruiken van at.js over mbox.js, zie [at.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md) voor informatie over migreren.<br>Na de veroudering van Klassiek Doel (November 2017), zou u de Zorg van de Cliënt kunnen moeten contacteren om bestaande stop- ins uit te geven of onbruikbaar te maken. Controleer de plug-ins voordat Target Classic is vervangen en schakel ongewenste plug-ins uit.<br>U kunt geen nieuwe plug-ins maken in Target Standard/Premium. Gebruik in plaats daarvan reactietokens.<br>Oude SiteCatalyst-plug-ins moeten worden uitgeschakeld en vervangen door  [Adobe Analytics als de rapportbron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md)  (A4T). De ttMeta-plug-in moet worden uitgeschakeld en vervangen door de [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
-## Reactiepunten gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## Reactietokens gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Zorg ervoor dat u [!DNL at.js] versie 1.1 of hoger gebruikt.
+1. Zorg ervoor dat u [!DNL at.js] versie 1.1 of later gebruikt.
 
-   Zie [Downloaden op .js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Zie [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2) voor meer informatie.
 
-1. Klik [!DNL Target]in **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. Klik in [!DNL Target] op **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
    ![](assets/response_tokens-new.png)
 
-1. Activeer de gewenste reactietokens, zoals `activity.id`, `option.id`enzovoort.
+1. Activeer de gewenste reactietokens, zoals `activity.id`, `option.id`, enzovoort.
 
    De volgende parameters zijn standaard beschikbaar:
 
    | Type | Parameter | Notities |
    |--- |--- |--- |
-   | Ingebouwde profielen | `profile.activeActivities` | Retourneert een array van de array waarvoor `activityIds` de bezoeker gekwalificeerd is. Dit neemt toe naarmate gebruikers gekwalificeerd zijn. Op een pagina met twee [!DNL Target] verzoeken die twee verschillende activiteiten uitvoeren, omvat het tweede verzoek bijvoorbeeld beide activiteiten. |
+   | Ingebouwde profielen | `profile.activeActivities` | Retourneert een array van de `activityIds` waarvoor de bezoeker gekwalificeerd is. Dit neemt toe naarmate gebruikers gekwalificeerd zijn. Op een pagina met twee [!DNL Target] verzoeken die twee verschillende activiteiten leveren, omvat het tweede verzoek bijvoorbeeld beide activiteiten. |
    |  | `profile.isFirstSession` | Retourneert &quot;true&quot; of &quot;false&quot;. |
    |  | `profile.isNewSession` | Retourneert &quot;true&quot; of &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Geeft als resultaat het aantal dagen sinds het laatste bezoek van de bezoeker. |
@@ -56,7 +56,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
    |  | `profile.categoryAffinities` | Retourneert een array van de bovenste 5 categorieën van de bezoeker als tekenreeksen. |
    | Activiteit | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Details van de huidige activiteit. Merk op dat &quot;optie&quot;&quot;voorstel&quot;evenaart. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Zie [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) voor meer informatie over het gebruiken van geo richten in activiteiten. |
-   | Verkeerstoewijzingsmethode<br>(alleen van toepassing op [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten.) | `experience.trafficAllocationId` | Keert 0 terug als een bezoeker een ervaring van het zijn in &quot;controle&quot;verkeer en 1 ontving als een bezoeker een ervaring van de &quot;gerichte&quot;verkeersdistributie ontving. |
+   | Verkeerstoewijzingsmethode<br>(alleen van toepassing op [!UICONTROL Auto-Target]- en [!UICONTROL Automated Personalization]-activiteiten.) | `experience.trafficAllocationId` | Keert 0 terug als een bezoeker een ervaring van het zijn in &quot;controle&quot;verkeer en 1 ontving als een bezoeker een ervaring van de &quot;gerichte&quot;verkeersdistributie ontving. |
    |  | `experience.trafficAllocationType` | Retourneer &quot;besturingselement&quot; of &quot;gericht&quot;. |
 
    Kenmerken van gebruikersprofielen en Klantkenmerken worden ook in de lijst weergegeven.
@@ -65,17 +65,17 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
    >
    >Parameters met speciale tekens worden niet in de lijst weergegeven. Alleen alfanumerieke tekens en onderstrepingstekens worden ondersteund.
 
-1. (Voorwaardelijk) als u een profielparameter als reactietoken wilt gebruiken, maar de parameter is niet overgegaan door een [!DNL Target] verzoek en, zo, heeft niet geladen in het Doel UI, kunt u de [!UICONTROL Add Response Token] knoop gebruiken om het profiel aan UI toe te voegen.
+1. (Voorwaardelijk) als u een profielparameter als reactietoken wilt gebruiken, maar de parameter niet door een [!DNL Target] verzoek is overgegaan en, zo, heeft niet geladen in het Doel UI, kunt u [!UICONTROL Add Response Token] knoop gebruiken om het profiel aan UI toe te voegen.
 
-   Klik **[!UICONTROL Add Response Token]**, geef de naam van het token op en klik op **[!UICONTROL Activate]**.
+   Klik **[!UICONTROL Add Response Token]**, verstrek de symbolische naam, dan klik **[!UICONTROL Activate]**.
 
    ![](assets/response_token_create.png)
 
 1. Maak een activiteit.
 
-Gebruik aangepaste gebeurtenissen [](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) at.js om te luisteren naar de [!DNL Target] reactie en de reactietokens te lezen.
+Gebruik [at.js aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) om te luisteren naar de [!DNL Target]-reactie en de reactietokens te lezen.
 
-In het volgende codevoorbeeld wordt een [!DNL at.js] aangepaste gebeurtenishandler rechtstreeks aan de HTML-pagina toegevoegd:
+In het volgende codevoorbeeld wordt een aangepaste gebeurtenishandler [!DNL at.js] rechtstreeks aan de HTML-pagina toegevoegd:
 
 ```html
 <html> 
@@ -94,7 +94,7 @@ In het volgende codevoorbeeld wordt een [!DNL at.js] aangepaste gebeurtenishandl
 </html>
 ```
 
-De volgende instructies tonen hoe u een [!DNL at.js] aangepaste gebeurtenishandler kunt toevoegen met gebruik van Adobe Dynamic Tag Manager (DTM):
+De volgende instructies tonen hoe u een aangepaste gebeurtenishandler [!DNL at.js] kunt toevoegen met gebruik van Adobe Dynamic Tag Manager (DTM):
 
 1. Meld u aan bij DTM.
 1. Blader naar de juiste eigenschap.
@@ -110,7 +110,7 @@ De volgende instructies tonen hoe u een [!DNL at.js] aangepaste gebeurtenishandl
    });
    ```
 
-U kunt het volgende fragment toevoegen aan de bibliotheekvoettekst [op de pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) .js Setup als u wilt dat alles één bestand is.
+U kunt het volgende fragment toevoegen aan de bibliotheekvoettekst [at.js Setup page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) als u wilt dat alles één bestand is.
 
 ```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -130,19 +130,19 @@ U zult de reactietokens zien, maar at.js zal niet hen kunnen gebruiken.
 
 **Wat gebeurt er als ik at.js 1.1 (of later) gebruik op sommige pagina&#39;s op mijn site maar mbox.js op andere pagina&#39;s?**
 
-De tokens van de reactie zullen aan de Reacties van het [!DNL at.js] Doel, maar niet aan de [!DNL mbox.js] reacties worden geleverd.
+De tokens van de reactie zullen aan [!DNL at.js] Reacties van het Doel, maar niet aan [!DNL mbox.js] reacties worden geleverd.
 
 **Kan ik tegelijkertijd zowel de Insteekmodules van het Doel Klassieke als reactietokens actief hebben?**
 
 Plugins en reactietokens zijn parallel beschikbaar; insteekmodules worden in de toekomst echter afgekeurd .
 
-**Wordt de reactietokens geleverd door alle [!DNL Target] reacties of slechts door [!DNL Target] reacties leverend een activiteit?**
+**Wordt de reactietokens geleverd door alle  [!DNL Target] reacties of slechts door  [!DNL Target] reacties leverend een activiteit?**
 
-Reactietokens worden alleen geleverd door middel van [!DNL Target] reacties die een activiteit leveren.
+De tekenen van de reactie worden geleverd slechts door [!DNL Target] reacties leverend een activiteit.
 
 **Mijn doel-klassieke insteekmodule bevat JavaScript. Hoe repliceer ik zijn functionaliteit gebruikend reactietokens?**
 
-Wanneer u naar reactietokens migreert, moet dit type JavaScript in uw codebase of oplossing voor tagbeheer worden bewaard. U kunt deze code activeren door [!DNL at.js] aangepaste gebeurtenissen te gebruiken en de waarden van de reactietoken door te geven aan uw JavaScript-functies.
+Wanneer u naar reactietokens migreert, moet dit type JavaScript in uw codebase of oplossing voor tagbeheer worden bewaard. U kunt deze code activeren met behulp van aangepaste gebeurtenissen [!DNL at.js] en de waarden van de reactietoken doorgeven aan uw JavaScript-functies.
 
 **Waarom wordt mijn profiel/parameter van Attributen van de Klant niet getoond in de lijst van reactietokens?**
 
@@ -164,7 +164,7 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 Het doel vernieuwt kenmerken regelmatig. Om het even welk attribuut dat niet wordt van een knevel voorzien zal tijdens volgende verfrissen worden verwijderd. Als u echter een kenmerk hebt dat is ingeschakeld en verwijderd (bijvoorbeeld een profielscript dat als token is gebruikt), wordt dat script pas verwijderd uit de kenmerkenlijst als u het uitschakelt. Doel verwijdert alleen de in- en uitschakelkenmerken uit de lijst wanneer deze worden verwijderd of hernoemd.
 
-## Gegevens naar Google Analytics verzenden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Gegevens verzenden naar Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kunnen via at.js gegevens worden verzonden door de volgende code toe te voegen in de HTML-pagina:
 
@@ -282,12 +282,12 @@ Het equivalent van de ttMeta-insteekmodule voor foutopsporingsdoeleinden kan wor
 </script>
 ```
 
-## Trainingsvideo: Antwoordtokens en badge ![voor aangepaste gebeurtenissen bij.js](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Trainingsvideo: Responstkens en aangepaste gebeurtenissen ![Zelfstudie-badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Bekijk de volgende video om te leren hoe u responstokens en aangepaste gebeurtenissen at.js kunt gebruiken om profielgegevens van Target naar systemen van derden te delen.
 
 >[!NOTE]
 >
->De gebruikersinterface van het [!DNL Target] menu (voorheen [!UICONTROL Administration] [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
+>De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
