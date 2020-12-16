@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# Omrekeningskoers{#conversion-rate}
+# Omzetsnelheid{#conversion-rate}
 
 De conversiesnelheid, de lift, het vertrouwen (statistische significantie) en het betrouwbaarheidsinterval worden voor elke ervaring gerapporteerd.
 
-In de volgende afbeelding ziet u de diagramkop voor een voorbeeldactiviteit met de gemarkeerde [!UICONTROL Conversion Rate], [!UICONTROL Lift]en [!UICONTROL Confidence] kopteksten.
+In de volgende afbeelding ziet u de diagramkop voor een voorbeeldactiviteit met de gemarkeerde [!UICONTROL Conversion Rate]-, [!UICONTROL Lift]- en [!UICONTROL Confidence]-koppen.
 
 ![](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
->In alle gegevens worden dubbele orders genegeerd als een instructie `orderID` wordt doorgegeven. In het auditrapport worden de genegeerde dubbele orders vermeld.
+>In alle gegevens worden dubbele orders genegeerd als een `orderID` wordt doorgegeven. In het auditrapport worden de genegeerde dubbele orders vermeld.
 
 ## Omzetsnelheid {#section_07A36846C4E84D0881906809B9CE5A74}
 
@@ -38,7 +38,7 @@ De eerste regel is de besturingservaring. Het toont een 15% omzettingspercentage
 >
 >Momenteel, wordt het betrouwbaarheidsinterval berekend slechts voor binaire metriek.
 
-## Optillen {#section_0F409572C720433D9378092ABC999982}
+## {#section_0F409572C720433D9378092ABC999982} optillen
 
 Vergelijkt de omrekeningskoers voor elke ervaring met controle.
 
@@ -54,22 +54,22 @@ Zie [Vertrouwensniveau en Vertrouwensinterval](/help/c-reports/conversion-rate.m
 
 ## Detailgegevens {#section_30A674731BA6440E9BB93C421BE990EE}
 
-De AOV-, RPV- en verkoopgegevens worden voor elke ervaring weergegeven als u een [plaatsorde](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) ( `orderConfirmPage`) box hebt ingevoegd en deze als het conversiemabox hebt geselecteerd.
+AOV-, RPV- en verkoopgegevens worden voor elke ervaring weergegeven als u een vakje [Place Order](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) ( `orderConfirmPage`) hebt ingevoegd en dit als het conversiembox hebt geselecteerd.
 
-## Vertrouwensniveau en betrouwbaarheidsinterval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Betrouwbaarheidsniveau en betrouwbaarheidsinterval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 Voor elke ervaring worden het betrouwbaarheidsniveau en het betrouwbaarheidsinterval weergegeven.
 
 Conversies en doorlopende variabelen voor op doelen gebaseerde metriek, zoals omzet- en betrokkenheidsmetriek, worden als volgt berekend:
 
-* **Conversie:** Ja of nee
-* **Alle andere:** Waarden over een bereik
+* **Conversie:** ja of nee
+* **Alle andere:** waarden over een bereik
 
-U kunt offlineberekeningen voor Analytics voor Doel (A4T) uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor analyse voor doel (A4T)&quot; hieronder voor meer informatie.
+U kunt offlineberekeningen voor Analytics voor Doel (A4T) uitvoeren, maar het vereist een stap met gegevensuitvoer in [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor analyse voor doel (A4T)&quot; hieronder voor meer informatie.
 
-### Vertrouwensniveau {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Vertrouwelijkheidsniveau {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-Het *betrouwbaarheidsniveau* wordt voor elke ervaring weergegeven met het donkerdere percentage in de kolom Conversiesnelheid.
+Het *betrouwbaarheidsniveau* wordt vertegenwoordigd door het donkerdere percentage in de kolom van het Tarief van de Omzetting voor elke ervaring.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
@@ -85,7 +85,7 @@ Als het betrouwbaarheidsniveau boven 90% of 95% ligt, kan het resultaat als stat
 >
 >Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
 
-### Vertrouwelijk interval {#section_F582738DFE1648C78B93D81EBC6CACF7}
+### Vertrouwelijkheidsinterval {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
 >[!NOTE]
 >
@@ -95,18 +95,18 @@ Het *betrouwbaarheidsinterval* is een bereik waarbinnen de werkelijke waarde op 
 
 ![](assets/conversion_rate.png)
 
-**Voorbeeld:** De RPV van een ervaring is $10, zijn betrouwbaarheidsniveau is 95% en zijn **betrouwbaarheidsinterval** is $5 tot $15. Als we deze test meerdere keren zouden uitvoeren, zou 95% van de tijd de RPV tussen $5 en $15 liggen.
+**Voorbeeld: de RPV van** een ervaring is $10, het betrouwbaarheidsniveau is 95% en de  **** betrouwbaarheidsintervalis $5 tot $15. Als we deze test meerdere keren zouden uitvoeren, zou 95% van de tijd de RPV tussen $5 en $15 liggen.
 
 **Wat beïnvloedt het vertrouwensinterval?** De formule volgt de statistische standaardmethoden voor de berekening van betrouwbaarheidsintervallen.
 
-* **Voorbeeldformaat:** Als het monster groeit, zal het interval krimpen of smal. Dit wordt geprefereerd aangezien het betekent uw rapporten dichter aan de ware waarde van succes metrisch raken.
-* **Standaardafwijking kleiner:** Vergelijkbare resultaten, zoals vergelijkbare AOV&#39;s of vergelijkbare nummers of bezoekers die elke dag converteren, verminderen de standaardafwijking.
+* **Samplegrootte:** Als het monster groeit, wordt het interval kleiner of kleiner. Dit wordt geprefereerd aangezien het betekent uw rapporten dichter aan de ware waarde van succes metrisch raken.
+* **Standaardafwijking kleiner:** meer vergelijkbare resultaten, zoals vergelijkbare AOV&#39;s of vergelijkbare nummers of bezoekers die elke dag converteren, verminderen de standaardafwijking.
 
-## De Berekening van het vertrouwen en hoe te om het off-line uit te voeren {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## De Berekening van het vertrouwen en hoe te om het off-line {#section_86F7C231943043A5B8B6BFE67B706E3B} uit te voeren
 
 Het [gedownloade CSV-rapport](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) bevat alleen onbewerkte gegevens en bevat geen berekende meetgegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests.
 
-Om deze berekende metriek te berekenen, download het dossier van Excel van de Rekenmachine van het Doel van het [Volledige Vertrouwen om de waarde van de activiteit in te voeren, of herzie de](/help/assets/complete_confidence_calculator.xlsx) statistische berekeningen die door Doel [](/help/assets/statistical-calculations.pdf)worden gebruikt.
+Als u deze berekende metriek wilt berekenen, downloadt u het Excel-bestand [Complete Trust Calculator](/help/assets/complete_confidence_calculator.xlsx) om de waarde van de activiteit in te voeren of bekijkt u de [statistische berekeningen die door Target](/help/assets/statistical-calculations.pdf) worden gebruikt.
 
 >[!NOTE]
 >
@@ -114,17 +114,17 @@ Om deze berekende metriek te berekenen, download het dossier van Excel van de Re
 
 ## Offlineberekeningen uitvoeren voor Analytics voor Doel (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics].
+U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics].
 
-Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test berekening van de Student uit te voeren, wordt de &quot;som vierkanten&quot;vereist. Dit kan worden opgehaald van [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test berekening van de Student uit te voeren, wordt de &quot;som vierkanten&quot;vereist. Dit kan van [!DNL Analytics] worden teruggewonnen. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
 
 Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u een voorbeeld van het totale aantal paginaweergaven per bezoeker voor een bepaald tijdsbestek, misschien een paar dagen (een paar duizend gegevenspunten is alles wat u nodig hebt). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 
-**Hiervoor gebruikt u de functie voor het exporteren van [!DNL Analytics] gegevens:**
+**Hiervoor gebruikt u de functie voor  [!DNL Analytics] gegevensexport:**
 
 1. Meld u aan bij [!DNL Adobe Analytics].
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
-1. Vul op het **[!UICONTROL Data Warehouse Request]** tabblad de velden in.
+1. Vul op het tabblad **[!UICONTROL Data Warehouse Request]** de velden in.
 
    Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
@@ -136,15 +136,15 @@ Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u
    | Uitsplitsingen | Selecteer de gewenste afmetingen:  Standaard is OOTB (out-of-the-box) en Aangepast bevat Vars en props. U kunt het beste &quot;Bezoeker-id&quot; gebruiken als er gegevens op bezoekersidentiteitsniveau nodig zijn in plaats van &quot;Bezoeker-id Experience Cloud&quot;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of HULP (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
    | Metrisch | Selecteer de gewenste meetgegevens. Standaard is OOTB, terwijl Aangepast aangepaste gebeurtenissen bevat. |
    | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
-   | Levering plannen | Voer een e-mailadres in waarnaar het bestand moet worden verzonden, geef het bestand een naam en selecteer [!UICONTROL Send Immediately].<br>Opmerking: Het bestand kan via FTP worden geleverd onder [!UICONTROL Advanced Delivery Options]<br>![Planningslevering](/help/c-reports/assets/datawarehouse3.png). |
+   | Levering plannen | Voer een e-mailadres in waarnaar het bestand moet worden verzonden, geef het bestand een naam en selecteer [!UICONTROL Send Immediately].<br>Opmerking: Het bestand kan via FTP worden geleverd onder  [!UICONTROL Advanced Delivery Options]<br>![Planningslevering](/help/c-reports/assets/datawarehouse3.png). |
 
 1. Klik op **[!UICONTROL Request this Report]**.
 
-   De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk gewenst moment controleren door op [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager]te klikken.
+   De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk ogenblik controleren door [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] te klikken.
 
-   Als u gegevens die u in het verleden hebt aangevraagd opnieuw wilt aanvragen, kunt u zo nodig een oude aanvraag van het [!UICONTROL Request Manager] bedrijf dupliceren.
+   Als u gegevens die u in het verleden hebt aangevraagd opnieuw wilt aanvragen, kunt u een oud verzoek van [!UICONTROL Request Manager] naar wens dupliceren.
 
-Raadpleeg de volgende koppelingen in de documentatie bij de Help voor meer informatie over [!DNL Data Warehouse][!DNL Analytics] :
+Raadpleeg de volgende koppelingen in de Help van [!DNL Analytics] voor meer informatie over [!DNL Data Warehouse]:
 
 * [Een Data Warehouse-aanvraag maken](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
 * [Aanbevolen werkwijzen voor Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
@@ -176,12 +176,12 @@ U kunt rapporten weergeven met de volgende telmethoden:
 
 * **Bezoek:** Een unieke deelnemer aan een ervaring tijdens een enkele browsersessie van 30 minuten.
 
-   Als een conversie is bereikt of een bezoeker na minimaal 30 minuten weer naar de site terugkeert, telt een terugkerende bezoeker als een nieuw bezoek. Een bezoek wordt geïdentificeerd door de `sessionID` in het koekje van de bezoeker. Wanneer de `sessionID` situatie verandert, wordt het bezoek als nieuw beschouwd.
+   Als een conversie is bereikt of een bezoeker na minimaal 30 minuten weer naar de site terugkeert, telt een terugkerende bezoeker als een nieuw bezoek. Een bezoek wordt geïdentificeerd door `sessionID` in het mbox koekje van de bezoeker. Wanneer `sessionID` verandert, wordt het bezoek beschouwd als nieuw.
 
-* **Afdruk-/paginaweergave:** Telkens wanneer een bezoeker een pagina van de activiteit laadt.
+* **Afdruk/paginaweergave:** Telkens wanneer een bezoeker een pagina van de activiteit laadt, wordt geteld.
 
    Eén bezoek kan verschillende indrukken van bijvoorbeeld uw homepage bevatten.
 
 >[!NOTE]
 >
->Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook als uw PCID en `sessionID` -waarden niet veranderen.
+>Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook als de PCID- en `sessionID`-waarden niet veranderen.
