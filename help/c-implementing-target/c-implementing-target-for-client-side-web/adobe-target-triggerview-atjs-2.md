@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
-Deze functie kan worden aangeroepen wanneer een nieuwe pagina wordt geladen of wanneer een component op een pagina opnieuw wordt weergegeven. `adobe.target.triggerView()` moet worden geïmplementeerd voor toepassingen van één pagina (SPA) om de Visual Experience Composer (VEC) te gebruiken voor het maken van A/B Tests en Experience Targeting (XT)-activiteiten. Als `adobe.target.triggerView()` het niet op de plaats wordt uitgevoerd, kan VEC niet voor SPA worden gebruikt. Zie Toepassing [enkele pagina voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Deze functie kan worden aangeroepen wanneer een nieuwe pagina wordt geladen of wanneer een component op een pagina opnieuw wordt weergegeven. `adobe.target.triggerView()` moet worden geïmplementeerd voor toepassingen van één pagina (SPA) om de Visual Experience Composer (VEC) te gebruiken voor het maken van A/B Tests en Experience Targeting (XT)-activiteiten. Als `adobe.target.triggerView()` niet op de plaats wordt uitgevoerd, kan VEC niet voor SPA worden gebruikt. Zie [Toepassing van één pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) voor meer informatie.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Deze functie kan worden aangeroepen wanneer een nieuwe pagina wordt geladen of w
 
 | Parameter | Type | Vereist? | Beschrijving |
 | --- | --- | --- | --- |
-| viewName | String | Ja | Geef elke naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze weergavenaam wordt in het [!UICONTROL Modifications] deelvenster VEC weergegeven, zodat marketers handelingen kunnen maken en hun A/B- en XT-activiteiten kunnen uitvoeren. |
+| viewName | String | Ja | Geef elke naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze weergavenaam wordt in het deelvenster [!UICONTROL Modifications] van de VEC weergegeven, zodat marketers handelingen kunnen maken en hun A/B- en XT-activiteiten kunnen uitvoeren. |
 | opties | Object | Nee |  |
-| opties > pagina | Boolean | Nee | **TRUE:** De standaardwaarde van de pagina is true. Wanneer page=true, worden de berichten verzonden naar het [!DNL Target] achterste voor het verhogen van het aantal impressies.<br>Een bericht wordt altijd standaard verzonden wanneer een bericht `triggerView` wordt aangeroepen, behalve wanneer de opties > pagina op false zijn ingesteld.<br>**FALSE:** Wanneer page=false, worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
+| opties > pagina | Boolean | Nee | **TRUE: de** standaardwaarde van de pagina is true. Wanneer page=true, worden de berichten verzonden naar het [!DNL Target] achterste eind voor het verhogen van beeldtelling.<br>Een bericht wordt altijd standaard verzonden wanneer een bericht  `triggerView` wordt aangeroepen, behalve wanneer de opties > pagina op false zijn ingesteld.<br>**FALSE:** Wanneer page=false, worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
 
 ## Voorbeeld: Waar
 
