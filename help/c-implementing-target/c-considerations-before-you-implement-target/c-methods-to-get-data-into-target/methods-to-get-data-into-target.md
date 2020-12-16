@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Informatie over de verschillende methoden die u kunt gebruiken om gegevens op te halen uit Target, zoals paginaparameters, paginageprofielkenmerken, scriptprofielkenmerken, gegevensproviders, de API voor het bijwerken van bulkprofielen, de single-profile-update-API en klantkenmerken.
 
-## Paginaparameters (ook wel &quot;parameters mbox&quot; genoemd) {#section_5A297816173C4FE48DC4FE03860CB42B}
+## Paginaparameters (ook wel &quot;mbox-parameters&quot; genoemd) {#section_5A297816173C4FE48DC4FE03860CB42B}
 
 Paginaparameters zijn naam-/waardeparen die rechtstreeks via paginacode worden doorgegeven en die niet in het profiel van de bezoeker zijn opgeslagen voor toekomstig gebruik.
 
@@ -50,11 +50,11 @@ De gegevens worden verzonden naar Doel in real time, en kunnen op de zelfde serv
 
 * Vereist een update van de paginacode (direct of via een systeem van het markeringsbeheer).
 * Als de gegevens voor het richten op een volgende pagina/servervraag moeten worden gebruikt, moet het in een profielmanuscript worden vertaald.
-* De koorden van de vraag kunnen slechts karakters volgens de norm [van de Techniek van de Techniek van](https://www.ietf.org/rfc/rfc3986.txt) Internet (IETF) bevatten.
+* De koorden van de vraag kunnen slechts karakters zoals volgens [de norm ](https://www.ietf.org/rfc/rfc3986.txt) van de Techniek van Internet van de Taakmacht (IETF) bevatten.
 
    Naast die vermeld op de plaats IETF, staat het Doel de volgende karakters in vraagkoorden toe:
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \&quot;
 
    Al het andere moet met url gecodeerd zijn. De standaard geeft de volgende notatie aan ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), zoals hieronder wordt geïllustreerd:
 
@@ -86,7 +86,7 @@ Bevestiging van bestelling: [Conversies bijhouden](/help/c-implementing-target/c
 
 Categorie-affiniteit: [Categorie-affiniteit](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
 
-## Profielkenmerken in pagina (ook wel &#39;profielkenmerken in de box&#39; genoemd) {#section_57E1C161AA7B444689B40B6F459302B6}
+## Profielkenmerken in pagina (ook wel &#39;in-mbox-profielkenmerken&#39; genoemd) {#section_57E1C161AA7B444689B40B6F459302B6}
 
 Profielkenmerken in pagina zijn naam-/waardeparen die rechtstreeks door paginacode worden doorgegeven en die in het profiel van de bezoeker worden opgeslagen voor toekomstig gebruik.
 
@@ -193,9 +193,9 @@ Opmerking: Data Providers vereist op .js 1.3 of hoger.
 
 ### Indeling
 
-De `window.targetGlobalSettings.dataProviders` instelling is een array met gegevensproviders.
+De instelling `window.targetGlobalSettings.dataProviders` is een array van gegevensproviders.
 
-Voor meer informatie over de structuur voor elke gegevensleverancier, zie de Leveranciers van [Gegevens](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+Zie [Gegevensleveranciers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers) voor meer informatie over de structuur voor elke gegevensaanbieder.
 
 ### Voorbeelden
 
@@ -211,13 +211,13 @@ Op deze manier kunt u flikkering van de standaardpagina-inhoud eenvoudig beheren
 
 ### Caveats
 
-Als de gegevensleveranciers aan worden toegevoegd asynchroon `window.targetGlobalSettings.dataProviders` zijn, zullen zij parallel worden uitgevoerd. De aanvraag voor de Bezoeker-API wordt parallel met de toegevoegde functies uitgevoerd `window.targetGlobalSettings.dataProviders` om een minimale wachttijd mogelijk te maken.
+Als de gegevensproviders die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, asynchroon zijn, worden ze parallel uitgevoerd. Het verzoek voor de bezoeker-API wordt parallel met de functies uitgevoerd die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, zodat er minimaal een wachttijd is.
 
 at.js zal niet proberen om de gegevens in het voorgeheugen onder te brengen. Als de gegevensleverancier gegevens slechts één keer haalt, zou de gegevensleverancier ervoor moeten zorgen dat de gegevens in het voorgeheugen wordt opgeslagen en, wanneer de leveranciersfunctie wordt aangehaald, de geheim voorgeheugengegevens voor de tweede aanroeping dienen.
 
 ### Codevoorbeelden
 
-Verschillende voorbeelden zijn te vinden in [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+Verschillende voorbeelden vindt u in [Gegevensleveranciers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
 ### Koppelingen naar relevante informatie
 
@@ -228,7 +228,7 @@ Documentatie: [Gegevensleveranciers](/help/c-implementing-target/c-implementing-
 * [Gegevensleveranciers gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
 * [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
-## Bulkprofielupdate-API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
+## API voor updates van bulkprofielen {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
 Verzend via de API een CSV-bestand naar Target met updates van het bezoekersprofiel voor veel bezoekers. Elk bezoekersprofiel kan met veelvoudige in-pagina profielattributen in één vraag worden bijgewerkt.
 
@@ -237,7 +237,7 @@ Deze optie lijkt sterk op Customer Attributes met een paar verschillen:
 * Klantkenmerken gebruiken een FTP-upload terwijl de API voor het bijwerken van het doelbulkprofiel een HTTP-POST-API gebruikt.
 * De gegevens van de Attributen van de klant kunnen met Analytics worden gedeeld. Bulkprofielupdate kan alleen worden gebruikt in Doel.
 * De steun van de Attributen van de klant die tot een profiel voor een gebruikersDoel leidt heeft nog niet gezien. De API voor het bijwerken van het bulkprofiel werkt alleen bestaande doelprofielen bij.
-* Klantkenmerken vereisen het gebruik van de Experience Cloud-id (ECID). Voor de API voor het bijwerken van het bulkprofiel is de TNT-id of de `mbox3rdPartyId`TNT-id vereist.
+* Klantkenmerken vereisen het gebruik van de Experience Cloud-id (ECID). Voor de API voor het bijwerken van het bulkprofiel is de TNT-id of de `mbox3rdPartyId` vereist.
 * U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/).
 
 ### Indeling
@@ -260,17 +260,17 @@ Het batchbestand moet kleiner zijn dan 50 MB. Bovendien mag het totale aantal ri
 
 Er geldt geen limiet voor het aantal rijen dat of de rijen die u kunt uploaden over een periode van 24 uur in volgende batches. Nochtans, zou het innameproces tijdens kantooruren kunnen worden vertraagd om ervoor te zorgen dat andere processen efficiënt lopen.
 
-Opeenvolgende [V2 vraag](https://developers.adobetarget.com/api/#updating-profiles) van de partijupdate zonder mbox vraag binnen tussen voor zelfde thirdPartyIds treedt de eigenschappen met voeten die in de eerste vraag van de partijupdate worden bijgewerkt.
+Opeenvolgende [V2 vraag van de partijupdate](https://developers.adobetarget.com/api/#updating-profiles) zonder mbox vraag binnen tussen voor zelfde thirdPartyIds treedt de eigenschappen met voeten die in de eerste vraag van de partijupdate worden bijgewerkt.
 
 ### Codevoorbeelden
 
-Zie Profielen [bijwerken](https://developers.adobetarget.com/api/#updating-profiles).
+Zie [Profielen bijwerken](https://developers.adobetarget.com/api/#updating-profiles).
 
 ### Koppelingen naar relevante informatie
 
 [Profielen bijwerken](https://developers.adobetarget.com/api/#updating-profiles)
 
-## API voor bijwerken van één profiel {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
+## API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D} voor bijwerken van één profiel
 
 Bijna identiek aan de API voor het bijwerken van het bulkprofiel, maar één bezoekersprofiel wordt tegelijk bijgewerkt, in lijn in de API-aanroep in plaats van met een .csv-bestand
 
@@ -302,7 +302,7 @@ GET en POST ondersteund. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?
 
 [Profielen bijwerken](https://developers.adobetarget.com/api/#updating-profiles)
 
-## Customer Attributes {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
+## Klantkenmerken {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
 
 Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar de Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target.
 
@@ -334,7 +334,7 @@ Vereist Experience Cloud ID-implementatie (ECID).
 
 ### Codevoorbeelden
 
-De details kunnen in [Create worden gevonden een bron van klantenattributen en het gegevensdossier](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)uploaden.
+Details vindt u in [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Koppelingen naar relevante informatie
 
