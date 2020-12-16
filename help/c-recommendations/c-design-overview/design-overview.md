@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Overzicht van ontwerp{#design-overview}
 
-Ontwerpen in [!DNL Adobe Target Recommendations] bepalen hoe aanbevelingen op een pagina worden weergegeven. De ontwerpen bepalen de lay-out en het formaat van uw aanbevelingen om de betrokkenheid, de omzetting, en de opbrengst van bezoekers te verbeteren.
+In ontwerpen in [!DNL Adobe Target Recommendations] wordt gedefinieerd hoe aanbevelingen op een pagina worden weergegeven. De ontwerpen bepalen de lay-out en het formaat van uw aanbevelingen om de betrokkenheid, de omzetting, en de opbrengst van bezoekers te verbeteren.
 
 [!DNL Recommendations] wordt geleverd met verschillende standaardontwerpen (pre-build) of u kunt uw eigen ontwerpen maken.
 
