@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # targetGlobalSettings()
 
-U kunt instellingen in de bibliotheek at.js overschrijven met behulp van `targetGlobalSettings()`, in plaats van de instellingen in de interface [!DNL Target] Standaard/Premium te configureren of met REST API&#39;s.
+U kunt instellingen in de bibliotheek at.js overschrijven met behulp van `targetGlobalSettings()` in plaats van de instellingen te configureren in de [!DNL Target] Standard/Premium-interface of door REST API&#39;s te gebruiken.
 
-Er zijn gebruiksgevallen, vooral wanneer at.js via [!DNL Dynamic Tag Management] (DTM) wordt geleverd wanneer u enkele instellingen wilt overschrijven.
+Er zijn gebruiksgevallen, vooral wanneer at.js via [!DNL Dynamic Tag Management] (DTM) wordt geleverd wanneer u enkele montages zou willen met voeten treden.
 
 ## Instellingen {#section_42C759AE9B524A43B8659018677224B8}
 
@@ -26,15 +26,15 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: String
 * **Standaardwaarde**: body {-dekking: 0 }
-* **Omschrijving**: Wordt alleen gebruikt wanneer `globalMboxAutocreate === true` de kans op flikkering tot een minimum wordt beperkt.
+* **Omschrijving**: Wordt alleen gebruikt wanneer  `globalMboxAutocreate === true` de kans op flikkering tot een minimum wordt beperkt.
 
-   Zie [How at.js Manages Flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)voor meer informatie.
+   Zie [How at.js Manages Flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) voor meer informatie.
 
 ### bodyHidingEnabled
 
 * **Type**: Boolean
 * **Standaardwaarde**: true
-* **Omschrijving**: Gebruikt om flikkering te controleren wanneer `target-global-mbox` wordt gebruikt om aanbiedingen te leveren die in de Visuele Composer van de Ervaring worden gecreeerd, die ook als visuele aanbiedingen wordt bekend.
+* **Omschrijving**: Gebruikt om flikkering te controleren wanneer  `target-global-mbox` wordt gebruikt om aanbiedingen te leveren die in de Visuele Composer van de Ervaring worden gecreeerd, die ook als visuele aanbiedingen wordt bekend.
 
 ### clientCode
 
@@ -56,39 +56,39 @@ U kunt de volgende instellingen overschrijven:
 
 ### cspScriptNonce
 
-* **Type**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
-* **Standaardwaarde**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
-* **Omschrijving**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+* **Type**: Zie  [het ](#content-security) beleid voor inhoudsbeveiliging hieronder.
+* **Standaardwaarde**: Zie  [het ](#content-security) beleid voor inhoudsbeveiliging hieronder.
+* **Omschrijving**: Zie  [het ](#content-security) beleid voor inhoudsbeveiliging hieronder.
 
 ### cspStyleNonce
 
-* **Type**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
-* **Standaardwaarde**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
-* **Omschrijving**: Zie [Beveiligingsbeleid](#content-security) voor inhoud hieronder.
+* **Type**: Zie  [het ](#content-security) beleid voor inhoudsbeveiliging hieronder.
+* **Standaardwaarde**: Zie  [het ](#content-security) beleid voor inhoudsbeveiliging hieronder.
+* **Omschrijving**: Zie  [het ](#content-security) beleid voor inhoudsbeveiliging hieronder.
 
 ### dataProviders
 
-* **Type**: Zie [Gegevensleveranciers](#data-providers) hieronder.
-* **Standaardwaarde**: Zie [Gegevensleveranciers](#data-providers) hieronder.
-* **Omschrijving**: Zie [Gegevensleveranciers](#data-providers) hieronder.
+* **Type**: Zie  [hieronder ](#data-providers) Gegevensproviders.
+* **Standaardwaarde**: Zie  [hieronder ](#data-providers) Gegevensproviders.
+* **Omschrijving**: Zie  [hieronder ](#data-providers) Gegevensproviders.
 
 ### defaultContentHiddenStyle
 
 * **Type**: String
 * **Standaardwaarde**: zichtbaarheid: verborgen
-* **Omschrijving**: Wordt alleen gebruikt voor omvattende vakken die gebruikmaken van DIV met klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via `mboxCreate()`, `mboxUpdate()`of `mboxDefine()` om standaardinhoud te verbergen.
+* **Omschrijving**: Wordt alleen gebruikt voor omvattende vakken die gebruikmaken van DIV met klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via  `mboxCreate()`,  `mboxUpdate()`of  `mboxDefine()` om standaardinhoud te verbergen.
 
 ### defaultContentVisibleStyle
 
 * **Type**: String
 * **Standaardwaarde**: zichtbaarheid: visible
-* **Omschrijving**: Wordt alleen gebruikt voor wrapping-vakken die gebruikmaken van DIV met klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via `mboxCreate()`, `mboxUpdate()`of `mboxDefine()` om toegepaste aanbieding weer te geven als deze bestaat of inhoud standaard bevat.
+* **Omschrijving**: Wordt alleen gebruikt voor wrapping-vakken die gebruikmaken van DIV met klassenaam &quot;mboxDefault&quot; en die worden uitgevoerd via  `mboxCreate()`,  `mboxUpdate()`of  `mboxDefine()` om de toegepaste aanbieding weer te geven als er inhoud of standaardinhoud is.
 
 ### deviceIdLifetime
 
 * **Type**: Getal
 * **Standaardwaarde**: 63244800000 ms = 2 jaar
-* **Omschrijving**: De hoeveelheid tijd die in cookies `deviceId` wordt doorgebracht.
+* **Omschrijving**: De hoeveelheid tijd  `deviceId` wordt in cookies aangehouden.
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: Boolean
 * **Standaardwaarde**: true
-* **Omschrijving**: Wanneer toegelaten, wordt een [!DNL Target] verzoek om ervaringen en DOM manipulatie terug te winnen om de ervaringen terug te geven automatisch uitgevoerd. Voorts kunnen de [!DNL Target] vraag manueel via `getOffer(s)` / `applyOffer(s)`worden uitgevoerd.
+* **Omschrijving**: Wanneer toegelaten, wordt een  [!DNL Target] verzoek om ervaringen en DOM manipulatie terug te winnen om de ervaringen terug te geven automatisch uitgevoerd. Daarnaast kunnen [!DNL Target] aanroepen handmatig worden uitgevoerd via `getOffer(s)` / `applyOffer(s)`.
 
-   Wanneer deze optie is uitgeschakeld, worden [!DNL Target] aanvragen niet automatisch of handmatig uitgevoerd.
+   Als [!DNL Target]-verzoeken zijn uitgeschakeld, worden deze niet automatisch of handmatig uitgevoerd.
 
 ### globalMboxAutoCreate
 
@@ -124,15 +124,15 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: Boolean
 * **Standaardwaarde**: true (waar, vanaf at.js versie 1.6.2)
-* **Omschrijving**: Geeft aan of we `<clientCode>.tt.omtrdc.net` domein of `mboxedge<clusterNumber>.tt.omtrdc.net` domein moeten gebruiken.
+* **Omschrijving**: Geeft aan of we  `<clientCode>.tt.omtrdc.net` domein of  `mboxedge<clusterNumber>.tt.omtrdc.net` domein moeten gebruiken.
 
-   Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net` domein opgeslagen in een cookie. Werkt momenteel niet met [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) wanneer versies at.js vóór at.js 1.8.2 en at.js 2.3.1 worden gebruikt. Als dit voor u een probleem is, kunt u het [bijwerken van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) naar een nieuwere, ondersteunde versie overwegen.
+   Als deze waarde true is, wordt het `mboxedge<clusterNumber>.tt.omtrdc.net`-domein opgeslagen in een cookie. Werkt momenteel niet met [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) bij het gebruiken van at.js versies vóór at.js 1.8.2 en at.js 2.3.1. Als dit voor u een probleem is, kunt u [het bijwerken om .js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) tot een nieuwere, ondersteunde versie overwegen.
 
 ### overrideMboxEdgeServerTimeout
 
 * **Type**: Getal
 * **Standaardwaarde**: 1860000 => 31 minuten
-* **Omschrijving**: Geeft de cookielevensduur aan die de `mboxedge<clusterNumber>.tt.omtrdc.net` waarde bevat.
+* **Omschrijving**: Geeft de cookielevensduur aan die de  `mboxedge<clusterNumber>.tt.omtrdc.net` waarde bevat.
 
 ### pageLoadEnabled
 
@@ -150,9 +150,9 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: Getal
 * **Standaardwaarde**: 5000 ms = 5 s
-* **Omschrijving**: In 0.js 0.9.6 [!DNL Target] introduceerde deze nieuwe instelling die via kan worden overschreven `targetGlobalSettings`.
+* **Omschrijving**: In 0.js 0.9.6  [!DNL Target] introduceerde deze nieuwe instelling die via kan worden overschreven  `targetGlobalSettings`.
 
-   De `selectorsPollingTimeout` instelling geeft aan hoelang de client wil wachten totdat alle elementen die door kiezers zijn geïdentificeerd, op de pagina worden weergegeven.
+   De instelling `selectorsPollingTimeout` geeft aan hoelang de client bereid is te wachten totdat alle elementen die door kiezers zijn geïdentificeerd, op de pagina worden weergegeven.
 
    De activiteiten die via Visual Experience Composer (VEC) worden gecreeerd hebben aanbiedingen die selecteurs bevatten.
 
@@ -164,31 +164,31 @@ U kunt de volgende instellingen overschrijven:
 
 ### serverState
 
-* **Type**: Zie [Hybride personalisatie](#server-state) hieronder.
-* **Standaardwaarde**: Zie [Hybride personalisatie](#server-state) hieronder.
-* **Omschrijving**: Zie [Hybride personalisatie](#server-state) hieronder.
+* **Type**: Zie  [Hybride ](#server-state) personalisatie hieronder.
+* **Standaardwaarde**: Zie  [Hybride ](#server-state) personalisatie hieronder.
+* **Omschrijving**: Zie  [Hybride ](#server-state) personalisatie hieronder.
 
 ### timeout
 
 * **Type**: Getal
 * **Standaardwaarde**: Waarde ingesteld via UI.
-* **Omschrijving**: Geeft de time-out voor de [!DNL Target] randaanvraag aan.
+* **Omschrijving**: Geeft de time-out voor de  [!DNL Target] randaanvraag aan.
 
 ### viewsEnabled
 
 * **Type**: Boolean
 * **Standaardwaarde**: true
-* **Omschrijving**: Als deze optie is ingeschakeld, haalt u automatisch de weergaven op die moeten worden geretourneerd tijdens het laden van de pagina. Weergaven worden ondersteund in at.js 2.*alleen x* .
+* **Omschrijving**: Als deze optie is ingeschakeld, haalt u automatisch de weergaven op die moeten worden geretourneerd tijdens het laden van de pagina. Weergaven worden ondersteund in at.js 2.** Alleen.
 
 ### bezoekerApiTimeout
 
 * **Type**: Getal
 * **Standaardwaarde**: 2000 ms = 2 s
-* **Omschrijving**: Geeft de time-out van het [!UICONTROL Visitor API] verzoek aan.
+* **Omschrijving**: Geeft de time-out van het  [!UICONTROL Visitor API] verzoek aan.
 
 ## Gebruik {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Deze functie kan worden gedefinieerd voordat at.js wordt geladen of in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 In het veld Bibliotheekkoptekst kunt u JavaScript in vrije vorm invoeren. De aanpassingscode moet er ongeveer als volgt uitzien:
 
@@ -215,7 +215,7 @@ De volgende video&#39;s bevatten meer informatie:
 | [Gegevensleveranciers gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Gegevensleveranciers zijn een mogelijkheid waarmee u gegevens van derden eenvoudig aan Doel kunt doorgeven. Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken. |
 | [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Implementatiedetails en voorbeelden van het gebruik van de functie Adobe Target DataProviders om gegevens van externe gegevensleveranciers op te halen en door te geven in de aanvraag van het Doel. |
 
-De `window.targetGlobalSettings.dataProviders` instelling is een array met gegevensproviders.
+De instelling `window.targetGlobalSettings.dataProviders` is een array van gegevensproviders.
 
 Elke gegevensaanbieder heeft de volgende structuur:
 
@@ -224,7 +224,7 @@ Elke gegevensaanbieder heeft de volgende structuur:
 | name | String | Naam van de provider. |
 | versie | String | Providerversie. Deze sleutel zal voor leveranciersevolutie worden gebruikt. |
 | timeout | Getal | Geeft de time-out van de provider aan als dit een netwerkaanvraag is.  Deze toets is optioneel. |
-| provider | -functie | De functie die de logica voor het ophalen van providergegevens bevat.<br>De functie heeft één vereiste parameter: `callback`. De callback-parameter is een functie die alleen moet worden aangeroepen wanneer de gegevens zijn opgehaald of er een fout optreedt.<br>Callback verwacht twee parameters:<ul><li>fout: Geeft aan of er een fout is opgetreden. Als alles OK is, moet deze parameter op null worden ingesteld.</li><li>param: Een JSON-object dat de parameters vertegenwoordigt die in een doelverzoek worden verzonden.</li></ul> |
+| provider | -functie | De functie die de logica voor het ophalen van providergegevens bevat.<br>De functie heeft één vereiste parameter:  `callback`. De callback-parameter is een functie die alleen moet worden aangeroepen wanneer de gegevens zijn opgehaald of er een fout optreedt.<br>Callback verwacht twee parameters:<ul><li>fout: Geeft aan of er een fout is opgetreden. Als alles OK is, moet deze parameter op null worden ingesteld.</li><li>param: Een JSON-object dat de parameters vertegenwoordigt die in een doelverzoek worden verzonden.</li></ul> |
 
 In het volgende voorbeeld wordt getoond waar de gegevensaanbieder de synchronisatie uitvoert:
 
@@ -269,7 +269,7 @@ window.targetGlobalSettings = {
 
 Na processen at.js `window.targetGlobalSettings.dataProviders`, zal het verzoek van het Doel extra parameters bevatten: `t1=1`, `t2=2` en `t3=3`.
 
-In het volgende voorbeeld worden gegevensproviders gebruikt om weergegevens in API te verzamelen en te verzenden als parameters in een aanvraag van het Doel. Het verzoek van het Doel zal extra params, zoals `country` en `weatherCondition`. hebben
+In het volgende voorbeeld worden gegevensproviders gebruikt om weergegevens in API te verzamelen en te verzenden als parameters in een aanvraag van het Doel. Het verzoek van het Doel zal extra params, zoals `country` en `weatherCondition` hebben.
 
 ```javascript
 var weatherProvider = { 
@@ -312,16 +312,16 @@ var weatherProvider = {
     };
 ```
 
-Houd rekening met het volgende wanneer u met de `dataProviders` instelling werkt:
+Houd rekening met het volgende wanneer u met de instelling `dataProviders` werkt:
 
-* Als de gegevensleveranciers aan worden toegevoegd asynchroon `window.targetGlobalSettings.dataProviders` zijn, zullen zij parallel worden uitgevoerd. De aanvraag voor de Bezoeker-API wordt parallel met de toegevoegde functies uitgevoerd `window.targetGlobalSettings.dataProviders` om een minimale wachttijd mogelijk te maken.
+* Als de gegevensproviders die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, asynchroon zijn, worden ze parallel uitgevoerd. Het verzoek voor de bezoeker-API wordt parallel met de functies uitgevoerd die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, zodat er minimaal een wachttijd is.
 * at.js zal niet proberen om de gegevens in het voorgeheugen onder te brengen. Als de gegevensleverancier gegevens slechts één keer haalt, zou de gegevensleverancier ervoor moeten zorgen dat de gegevens in het voorgeheugen wordt opgeslagen en, wanneer de leveranciersfunctie wordt aangehaald, de geheim voorgeheugengegevens voor de tweede aanroeping dienen.
 
-## Beveiligingsbeleid voor inhoud {#content-security}
+## Inhoudbeveiligingsbeleid {#content-security}
 
 at.js 2.3.0+ steunt het plaatsen van de nonces van het Veiligheidsbeleid van de Inhoud op SCRIPT en STYLE markeringen die aan pagina DOM worden toegevoegd wanneer het toepassen van geleverde aanbiedingen van het Doel.
 
-De SCRIPT- en STYLE-nonces moeten worden ingesteld in `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce` overeenkomstig, voorafgaand aan het laden van at.js 2.3.0+. Zie een voorbeeld hieronder:
+De SCRIPT- en STYLE-nonces moeten dienovereenkomstig worden ingesteld in `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce`, voorafgaand aan het laden van at.js 2.3.0+. Zie een voorbeeld hieronder:
 
 ```javascript
 ...
@@ -338,7 +338,7 @@ window.targetGlobalSettings = {
 ...
 ```
 
-Nadat `cspScriptNonce` `cspStyleNonce` en de montages worden gespecificeerd, plaatst at.js 2.3.0+ deze als nonce attributen op alle markeringen SCRIPT en STYLE die het aan DOM toevoegt wanneer het toepassen van de aanbiedingen van het Doel.
+Nadat `cspScriptNonce` en `cspStyleNonce` montages worden gespecificeerd, plaatst at.js 2.3.0+ deze als nonce attributen op alle markeringen SCRIPT en STYLE die het aan DOM wanneer het toepassen van de aanbiedingen van het Doel toevoegt.
 
 ## Hybride personalisatie {#server-state}
 
@@ -346,14 +346,14 @@ Nadat `cspScriptNonce` `cspStyleNonce` en de montages worden gespecificeerd, pla
 
 ### Voorwaarden
 
-Je moet een hybride integratie hebben van [!DNL Target].
+U moet een hybride integratie van [!DNL Target] hebben.
 
-* **Server-kant**:  U moet de nieuwe [levering API](https://developers.adobetarget.com/api/delivery-api/) of [Doel SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)gebruiken.
-* **Client**: U moet [at.js versie 2.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)gebruiken.
+* **Server-kant**: U moet de nieuwe  [levering ](https://developers.adobetarget.com/api/delivery-api/) API of  [Doel SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs) gebruiken.
+* **Client**: U moet  [at.js versie 2.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) gebruiken.
 
 ### Codevoorbeelden
 
-Voor een beter begrip van hoe dit werkt, zie hieronder de codevoorbeelden die u op uw server zou hebben. De code veronderstelt u de SDK [van Node.js van het](https://github.com/adobe/target-nodejs-sdk)Doel gebruikt.
+Voor een beter begrip van hoe dit werkt, zie hieronder de codevoorbeelden die u op uw server zou hebben. In de code wordt aangenomen dat u de SDK [Target Node.js](https://github.com/adobe/target-nodejs-sdk) gebruikt.
 
 ```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -383,7 +383,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-Een voorbeeldobject `serverState` JSON voor weergaveprefetch ziet er als volgt uit:
+Een voorbeeld van een JSON-object `serverState` voor de weergaveprefetch ziet er als volgt uit:
 
 ```
 {
@@ -454,32 +454,32 @@ Een voorbeeldobject `serverState` JSON voor weergaveprefetch ziet er als volgt u
 }
 ```
 
-Nadat de pagina in browser wordt geladen, past at.js alle [!DNL Target] aanbiedingen van `serverState` onmiddellijk toe, zonder enige netwerkvraag tegen de [!DNL Target] rand te vuren. Bovendien prehides at.js alleen de DOM-elementen waarvoor [!DNL Target] aanbiedingen beschikbaar zijn op de server-kant van de content die is opgehaald, waardoor de prestaties bij het laden van de pagina en de gebruikerservaring er positief door worden beïnvloed.
+Nadat de pagina in browser wordt geladen, past at.js alle [!DNL Target] aanbiedingen van `serverState` onmiddellijk toe, zonder netwerkvraag tegen [!DNL Target] rand te vuren. Bovendien prehidt at.js alleen de DOM-elementen waarvoor [!DNL Target] aanbiedingen beschikbaar zijn op de server-kant van de opgehaalde inhoud. Dit heeft een positief effect op de prestaties bij het laden van pagina&#39;s en de gebruikerservaring.
 
 ### Belangrijke opmerkingen
 
-Houd rekening met het volgende wanneer u `serverState`:
+Houd rekening met het volgende wanneer u `serverState` gebruikt:
 
 * Op dit moment biedt at.js v2.2 alleen ondersteuning voor het aanbieden van ervaringen via serverState voor:
 
    * VEC-gemaakte activiteiten die worden uitgevoerd bij het laden van de pagina.
    * Vooraf opgehaalde weergaven.
 
-      Als SPA weergaven en [!DNL Target] in de API at.js gebruikt, plaatst at.js v2.2 de inhoud voor alle weergaven die vooraf op de server zijn ingesteld in cache en past deze toe zodra elke weergave via `triggerView()` `triggerView()`, opnieuw wordt geactiveerd zonder dat er nog meer content-fetching aanroepen naar Target hoeven te worden uitgevoerd.
+      Als SPA [!DNL Target] Weergaven en `triggerView()` in de API at.js gebruikt, plaatst at.js v2.2 de inhoud voor alle weergaven die op de server zijn voorafgegaan in cache en past deze toe zodra elke Weergave via `triggerView()` wordt geactiveerd, opnieuw zonder dat aanvullende aanroepen voor het ophalen van inhoud naar Target worden afgevuurd.
 
-   * **Opmerking**:  Op dit moment worden selectievakjes die op de server worden opgehaald, niet ondersteund in `serverState`.
+   * **Opmerking**: Op dit moment worden selectievakjes die op de server worden opgehaald, niet ondersteund in  `serverState`.
 
-* Bij het toepassen van `serverState `aanbiedingen houdt at.js rekening met `pageLoadEnabled` en `viewsEnabled` instellingen. Aanbiedingen voor laden van pagina worden bijvoorbeeld niet toegepast als de `pageLoadEnabled` instelling false is.
+* Wanneer u `serverState `aanbiedingen toepast, houdt at.js rekening met de instellingen `pageLoadEnabled` en `viewsEnabled`. Aanbiedingen voor het laden van pagina worden bijvoorbeeld niet toegepast als de instelling `pageLoadEnabled` onwaar is.
 
-   Schakel deze instellingen in via **[!UICONTROL Administration]> [!UICONTROL Implementation] > [!UICONTROL Edit] >[!UICONTROL Page Load Enabled]**.
+   Als u deze instellingen wilt inschakelen, schakelt u de schakeloptie **[!UICONTROL Administration]> [!UICONTROL Implementation] > [!UICONTROL Edit] >[!UICONTROL Page Load Enabled]** in.
 
    ![Instellingen voor Laden van pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
-* Als u labels gebruikt `serverState` en gebruikt in de geretourneerde inhoud, moet u ervoor zorgen dat de HTML-inhoud wordt gebruikt `<script>` in plaats van `<\/script>` `</script>`. Als u gebruikt `</script>`, wordt de browser `</script>` als het einde geïnterpreteerd op een inline SCRIPT en kan de HTML-pagina hierdoor worden verbroken.
+* Als u `serverState` gebruikt en `<script>` markeringen in de teruggekeerde inhoud gebruikt, zorg ervoor dat uw inhoud van HTML `<\/script>` in plaats van `</script>` gebruikt. Als u `</script>` gebruikt, interpreteert de browser `</script>` als het eind op een gealigneerd SCRIPT en het zou de HTML- pagina kunnen breken.
 
 ### Aanvullende bronnen
 
-Raadpleeg de volgende bronnen voor meer informatie over hoe `serverState` werkt:
+Als u meer wilt weten over de werking van `serverState`, bekijkt u de volgende bronnen:
 
 * [Voorbeeldcode](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [Toepassing van één pagina (SPA) voorbeeldtoepassing met `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [Toepassing van één pagina (SPA) voorbeeldtoepassing met  `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
