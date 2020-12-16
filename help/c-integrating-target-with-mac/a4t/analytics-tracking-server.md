@@ -14,41 +14,41 @@ ht-degree: 0%
 
 # Een Analytics-trackingserver gebruiken
 
-Als u een oudere versie van at.js of mbox.js gebruikt, moet u een Analytics tracking server voor activiteiten specificeren die [!DNL Analytics] voor [!DNL Target] (A4T) gebruiken.
+Als u een oudere versie van at.js of mbox.js gebruikt, moet u een Analytics tracking-server opgeven voor activiteiten die [!DNL Analytics] voor [!DNL Target] (A4T) gebruiken.
 
 >[!NOTE]
 >
->Als u [!DNL Analytics] als rapporteringsbron van uw activiteit gebruikt, te hoeven u niet om een het volgen server tijdens activiteitenverwezenlijking te specificeren als u mbox.js versie 61 (of recenter) of versie 0.9.1 van .js (of later) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
+>Als u [!DNL Analytics] als rapportbron van uw activiteit gebruikt, te hoeven u niet om een het volgen server tijdens activiteitenverwezenlijking te specificeren als u mbox.js versie 61 (of recenter) of bij.js versie 0.9.1 (of later) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
 >
->Het [!DNL Target] team steunt allebei at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie [de versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor meer informatie.
+>Het [!DNL Target] team steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie [at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) voor meer informatie.
 
-Om ervoor te zorgen dat de gegevens van [!DNL Target] naar de correcte plaats binnen gaan [!DNL Analytics], vereist A4T een Analytics die server wordt verzonden in alle vraag naar Modstats van [!DNL Target]. Voor implementaties die veelvoudige het volgen servers gebruiken kunt u de Hulpmiddelen van de Ontwikkelaar van uw browser gebruiken [!DNL Adobe Experience Platform Debugger] of om de correcte volgende server voor uw activiteit te bepalen.
+Om ervoor te zorgen dat gegevens van [!DNL Target] naar de correcte plaats in [!DNL Analytics] gaan, vereist A4T dat een Analytics het volgen server in alle vraag van [!DNL Target] aan Modstats wordt verzonden. Voor implementaties die meerdere trackingservers gebruiken, kunt u [!DNL Adobe Experience Platform Debugger] of de Developer Tools van uw browser gebruiken om de juiste trackingserver voor uw activiteit te bepalen.
 
 ## De Analytics Tracking-server ophalen met de Adobe Experience Platform Debugger
 
 Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit zal worden geleverd om u te verzekeren de correcte volgende server selecteert. U kunt ook een standaard traceringsserver opgeven voor elk account. Neem contact op met de klantenservice om de standaardinstelling op te geven of te wijzigen.
 
-1. Open de [!DNL Adobe Experience Platform Debugger]pagina op de pagina waarop u uw activiteit maakt.
+1. Open [!DNL Adobe Experience Platform Debugger] op de pagina waarop u uw activiteit maakt.
 
-   Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)van Adobe Experience Platform.
+   Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger van Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-1. Click **[!UICONTROL Analytics]** in the left navigation menu.
+1. Klik **[!UICONTROL Analytics]** in het linkernavigatiemenu.
 
-   De server voor het bijhouden van analyses vindt u in het [!UICONTROL Hostname] gedeelte van het foutopsporingsprogramma.
+   De Analytics tracking-server bevindt zich in de sectie [!UICONTROL Hostname] van het foutopsporingsprogramma.
 
-   * **First-party tracking-server**: Als de hostnaam van de aanvraag overeenkomt met het domein waarop u zich bevindt, is het een eerstelijnsspatiëringsserver. Als u bijvoorbeeld op bent `adobe.com`, `adobe.com` is dit de server voor het volgen van de eerste partij.
-   * **De volgende server** van derden: Een server van derden is doorgaans de server `[company].sc.omtrdc.net` waar het bedrijf de naam van het bedrijf heeft, maar eindigt altijd in `sc.omtrdc.net`.
-   * **CNAME-implementaties**: `sstats.adobe.com` Dit is een voorbeeld van een CNAME-server voor het bijhouden van een aanvraag voor https (secure). `stats.adobe.com` Dit is een voorbeeld van een CNAME-aanvraag van de eerste partij voor een http-pagina (niet-beveiligd).
+   * **First-party tracking-server**: Als de hostnaam van de aanvraag overeenkomt met het domein waarop u zich bevindt, is het een eerstelijnsspatiëringsserver. Als u bijvoorbeeld op `adobe.com` werkt, is `adobe.com` de eerstgenoemde trackingserver.
+   * **De volgende server** van derden: Een server voor het bijhouden van gegevens door derden is doorgaans  `[company].sc.omtrdc.net` de locatie waar het bedrijf de naam van het bedrijf heeft, maar eindigt altijd  `sc.omtrdc.net`.
+   * **CNAME-implementaties**:  `sstats.adobe.com` Dit is een voorbeeld van een CNAME-server voor het bijhouden van een aanvraag voor https (secure). `stats.adobe.com` Dit is een voorbeeld van een CNAME-aanvraag van de eerste partij voor een http-pagina (niet-beveiligd).
 
 1. Kopieer de volledige inhoud van het veld.
 
-1. Plak in het **[!UICONTROL Reporting Settings]** gedeelte van het **[!UICONTROL Goal & Settings]** scherm van uw activiteit de trackingserverinformatie in het **[!UICONTROL Tracking Server]** veld.
+1. Plak in de sectie **[!UICONTROL Reporting Settings]** van het **[!UICONTROL Goal & Settings]**-scherm van uw activiteit de informatie over de trackingserver in het veld **[!UICONTROL Tracking Server]**.
 
    >[!NOTE]
    >
-   >U moet uw activiteit selecteren [!UICONTROL Analytics as the Reporting Source] om het [!UICONTROL Tracking Server] gebied beschikbaar te maken.
+   >Het veld [!UICONTROL Tracking Server] is alleen beschikbaar als u [!UICONTROL Analytics as the Reporting Source] hebt geselecteerd.
 
 ## Haal de Analytics tracking-server op met de Developer Tools van uw browser
 
@@ -58,23 +58,23 @@ De Developer Tools moet worden weergegeven op een pagina waarop de activiteit wo
 
    ![Gereedschappen voor Chrome-ontwikkelaars](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Klik op het **[!UICONTROL Network]** tabblad.
+1. Klik op het tabblad **[!UICONTROL Network]**.
 
-1. Filter voor `/ss,` het weergeven van de analyseverzoeken.
+1. Filter voor `/ss,` om de verzoeken van Analytics te tonen.
 
    ![De ontwikkelaars van Chrome hulpmiddelen met /ss onderzoek](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    De volgende server is hostname van het verzoek.
 
-   * **First-party tracking-server**: Als de hostnaam van de aanvraag overeenkomt met het domein waarop u zich bevindt, is het een eerstelijnsspatiëringsserver. Als u bijvoorbeeld op bent `adobe.com`, `adobe.com` is dit de server voor het volgen van de eerste partij.
-   * **De volgende server** van derden: Een server van derden is doorgaans de server `[company].sc.omtrdc.net` waar het bedrijf de naam van het bedrijf heeft, maar eindigt altijd in `sc.omtrdc.net`.
-   * **CNAME-implementaties**: `sstats.adobe.com` Dit is een voorbeeld van een CNAME-server voor het bijhouden van een aanvraag voor https (secure). `stats.adobe.com` Dit is een voorbeeld van een CNAME-aanvraag van de eerste partij voor een http-pagina (niet-beveiligd).
+   * **First-party tracking-server**: Als de hostnaam van de aanvraag overeenkomt met het domein waarop u zich bevindt, is het een eerstelijnsspatiëringsserver. Als u bijvoorbeeld op `adobe.com` werkt, is `adobe.com` de eerstgenoemde trackingserver.
+   * **De volgende server** van derden: Een server voor het bijhouden van gegevens door derden is doorgaans  `[company].sc.omtrdc.net` de locatie waar het bedrijf de naam van het bedrijf heeft, maar eindigt altijd  `sc.omtrdc.net`.
+   * **CNAME-implementaties**:  `sstats.adobe.com` Dit is een voorbeeld van een CNAME-server voor het bijhouden van een aanvraag voor https (secure). `stats.adobe.com` Dit is een voorbeeld van een CNAME-aanvraag van de eerste partij voor een http-pagina (niet-beveiligd).
 
 1. Kopieer de volledige inhoud van het veld.
 
-1. Plak in het **[!UICONTROL Reporting Settings]** gedeelte van het **[!UICONTROL Goal & Settings]** scherm van uw activiteit de trackingserverinformatie in het **[!UICONTROL Tracking Server]** veld.
+1. Plak in de sectie **[!UICONTROL Reporting Settings]** van het **[!UICONTROL Goal & Settings]**-scherm van uw activiteit de informatie over de trackingserver in het veld **[!UICONTROL Tracking Server]**.
 
    >[!NOTE]
    >
-   >U moet uw activiteit selecteren [!UICONTROL Analytics as the Reporting Source] om het [!UICONTROL Tracking Server] gebied beschikbaar te maken.
+   >Het veld [!UICONTROL Tracking Server] is alleen beschikbaar als u [!UICONTROL Analytics as the Reporting Source] hebt geselecteerd.
 
