@@ -18,11 +18,11 @@ U kunt aangepaste doelgroepen maken en deze opslaan in de doelbibliotheek voor g
 
 ## Overzicht van het publiek
 
-Het publiek wordt gedefinieerd door regels die bepalen wie van een [!DNL Target] activiteit wordt opgenomen of uitgesloten. Een publieksdefinitie kan veelvoudige regels omvatten en elke regel kan veelvoudige parameters omvatten. Complexe publieksdefinities gebruiken de Booleaanse operatoren AND en OR om regels en parameters te combineren, zodat u precies kunt bepalen welke bezoekers van de site worden geteld als deelnemers aan de activiteit.
+Het publiek wordt bepaald door regels die bepalen wie van [!DNL Target] activiteit inbegrepen of uitgesloten is. Een publieksdefinitie kan veelvoudige regels omvatten en elke regel kan veelvoudige parameters omvatten. Complexe publieksdefinities gebruiken de Booleaanse operatoren AND en OR om regels en parameters te combineren, zodat u precies kunt bepalen welke bezoekers van de site worden geteld als deelnemers aan de activiteit.
 
-Wanneer u regels of parameters met AND combineert, moet elk mogelijk publiekslid aan *alle* gedefinieerde voorwaarden voldoen om als deelnemer te worden opgenomen. Als u bijvoorbeeld een OS-regel EN een browserregel definieert, worden alleen bezoekers die zowel het gedefinieerde besturingssysteem als ** de gedefinieerde browser gebruiken, opgenomen in de activiteit.
+Wanneer u regels of parameters met AND combineert, moet om het even welk potentieel publiekslid *all* van de bepaalde voorwaarden voldoen om als toetreder te worden omvat. Als u bijvoorbeeld een OS-regel EN een browserregel definieert, worden alleen bezoekers die zowel het gedefinieerde besturingssysteem *als* de gedefinieerde browser gebruiken, opgenomen in de activiteit.
 
-Wanneer u regels of parameters combineert met OR, hoeft elk mogelijk publiekslid slechts aan één gedefinieerde voorwaarde te voldoen om als een deelnemer te worden opgenomen. Als u bijvoorbeeld meerdere mobiele regels definieert die zijn verbonden door OR, worden bezoekers die aan *een* van de gedefinieerde criteria voldoen, opgenomen in de activiteit.
+Wanneer u regels of parameters combineert met OR, hoeft elk mogelijk publiekslid slechts aan één gedefinieerde voorwaarde te voldoen om als een deelnemer te worden opgenomen. Als u bijvoorbeeld meerdere mobiele regels definieert die zijn verbonden door OR, worden bezoekers die *om het even welke* van de gedefinieerde criteria ontmoeten, opgenomen in de activiteit.
 
 U kunt beide Booleaanse operatoren mengen om complexe regels te maken. operatoren op hetzelfde regelniveau moeten echter overeenkomen. De gebruikersinterface past automatisch de juiste operator toe.
 
@@ -32,19 +32,19 @@ De volgende regel geldt bijvoorbeeld voor bezoekers die Chrome *of* Firefox gebr
 
 >[!NOTE]
 >
->Zorg ervoor dat u geen regels maakt die alle mogelijke publieksleden uitsluiten. Het is bijvoorbeeld niet mogelijk dat iemand een pagina gelijktijdig bezoekt met Chrome *en Firefox* .
+>Zorg ervoor dat u geen regels maakt die alle mogelijke publieksleden uitsluiten. Het is bijvoorbeeld niet mogelijk dat iemand een pagina gelijktijdig bezoekt met Chrome *en* Firefox.
 
 ## Een nieuw publiek maken
 
-1. Klik **[!UICONTROL Audiences]** in de bovenste menubalk.
+1. Klik op **[!UICONTROL Audiences]** in de bovenste menubalk.
 
    ![](assets/audiences_list.png)
 
-1. From the [!UICONTROL Audiences] list, click **[!UICONTROL + Create Audience]**.
+1. Klik in de lijst [!UICONTROL Audiences] op **[!UICONTROL + Create Audience]**.
 
    of
 
-   Als u een bestaand publiek wilt kopiëren, houdt u de muisaanwijzer boven het gewenste publiek en klikt u op het [!UICONTROL Audiences] **[!UICONTROL Copy]** pictogram. Vervolgens kunt u het publiek bewerken om een vergelijkbaar publiek te maken.
+   Als u een bestaand publiek wilt kopiëren, klikt u in de lijst [!UICONTROL Audiences] op het pictogram **[!UICONTROL Copy]**. Vervolgens kunt u het publiek bewerken om een vergelijkbaar publiek te maken.
 
 1. Typ een unieke, beschrijvende publieksnaam.
 1. Klik op **[!UICONTROL + Add Rule]**.
@@ -58,7 +58,7 @@ De volgende regel geldt bijvoorbeeld voor bezoekers die Chrome *of* Firefox gebr
 
    Nieuw gemaakt publiek wordt na een paar seconden verwerkingstijd in de lijst weergegeven. Als het publiek niet direct in de lijst wordt weergegeven, probeert u naar het publiek te zoeken of vernieuwt u de lijst.
 
-## Trainingsvideo: Badge ![Overzicht publiek maken](/help/assets/overview.png)
+## Trainingsvideo: Soorten publiek maken ![Overzichtsbadge](/help/assets/overview.png)
 
 Deze video bevat informatie over het maken van soorten publiek.
 
