@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Los de Analytics en integratie van het Doel (A4T) problemen op{#troubleshoot-the-analytics-and-target-integration-a-t}
+# Los de Analytics en integratie van het Doel (A4T){#troubleshoot-the-analytics-and-target-integration-a-t} problemen op
 
 Dit onderwerp behandelt sommige gemeenschappelijke kwesties die zijn ontmoet wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
 
@@ -28,9 +28,9 @@ Er zijn verschillende redenen waarom dit zou kunnen gebeuren:
 
    Zorg ervoor dat de rapportsuite ten minste één hit heeft gehad.
 
-* De classificatieaanroep van [!DNL Target] naar [!DNL Analytics] mislukt.
+* De classificatieaanroep van [!DNL Target] naar [!DNL Analytics] is mislukt.
 
-   [Neem contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor hulp.
+   [Neem contact op met de ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) klantenservice voor hulp.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Er zijn verschillende redenen waarom dit zou kunnen gebeuren:
 
 ## Mijn Analytische gegevens laten een opgeblazen bezoek of bezoekeraantal zien sinds het begin van A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
-Voor meer informatie, zie het [Minimaliseren van de Inflated Tellingen van het Bezoek en van de Bezoeker in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Zie [Inflated Visit and Visitor Counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235) minimaliseren voor meer informatie.
 
 ## De geschatte lift in de metrische omzet geeft geen correcte gegevens aan. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -48,11 +48,11 @@ De details voor optillen en vertrouwen zijn niet beschikbaar in Analytics. Zij z
 
 ## Activiteiten worden niet weergegeven in analyserapporten. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. Zie [Een Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken om ervoor te zorgen dat de Analytics Tracking Server correct is ingesteld.
+A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. Zie [Een Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken om ervoor te zorgen dat de Analytics Tracking Server op de juiste wijze is ingesteld.
 
 >[!NOTE]
 >
->Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het [!UICONTROL Tracking Server] veld leeg laten op de [!UICONTROL Goals & Settings] pagina.
+>Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
 
 ## Mijn segmenten Analytics verschijnen niet in Doel. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -70,25 +70,25 @@ Hoewel deze metriek negatief zijn, wordt de lift getoond alsof zij in de rapport
 
 ## De rapportsuite die ik nodig heb, wordt niet weergegeven. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-De lijst van rapportreeksen die in verschijnt [!DNL Target Standard/Premium] is de lijst van rapportreeksen die voor [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T) zijn gevormd. Dit betekent dat u niet elke rapportsuite ziet die u hebt.
+De lijst van rapportsuites die in [!DNL Target Standard/Premium] verschijnt is de lijst van rapportsuites die voor [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T) zijn gevormd. Dit betekent dat u niet elke rapportsuite ziet die u hebt.
 
 Bovendien, als u veelvoudige rapporteringsbronnen gebruikt, moeten de rapportreeksen in de standaard rapporteringsbron aanwezig zijn die in [!DNL Target] eveneens wordt geplaatst; anders worden de rapporten niet weergegeven .
 
-Als u nog steeds de rapportsuite die u zoekt niet ziet, neemt u contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om deze in te schakelen.
+Als u nog steeds niet de rapportreeks ziet u zoekt, contacteer [Clientzorg](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om het toegelaten te krijgen.
 
 ## Ik zie niet zoveel gegevens in rapporten als verwacht. {#section_75002584FA63456D8D9086172925DD8D}
 
-Herzie uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervaringen kwalificeren en zorg ervoor dat de extra gegevens IDs in de [!DNL Target] en [!DNL Analytics] vraag aanpast.
+Herzie uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervaringen kwalificeren en zorg ervoor dat de extra gegevens IDs in [!DNL Target] en [!DNL Analytics] vraag aanpast.
 
-* **at.js 1.x**: In de [!DNL Target] vraag, is supplementaire identiteitskaart bevat in de `mboxMCSDID` parameter. In de [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
-* **at.js 2.x**: In de [!DNL Target] vraag, is supplementaire identiteitskaart teruggekeerd in de kopbal van HTTP als waarde voor `experienceCloud.analytics.supplementalDataId`. In de [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
+* **at.js 1.x**: In de  [!DNL Target] vraag, is supplementaire identiteitskaart bevat in de  `mboxMCSDID` parameter. In [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
+* **at.js 2.x**: In de  [!DNL Target] vraag, is supplementaire identiteitskaart teruggekeerd in de kopbal van HTTP als waarde voor  `experienceCloud.analytics.supplementalDataId`. In [!DNL Analytics] vraag, is supplementaire identiteitskaart bevat in de `sdid` parameter.
 
 De eenvoudigste manier om de aanvullende id te controleren is met de Adobe Experience Platform Debugger.
 
-Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)van Adobe Experience Platform.
+Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger van Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
 ![Foutopsporing](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-Als er geen extra gegevens-id in de [!DNL Target] vraag is, bevestig dat het [!DNL VisitorAPI.js] dossier vóór [!DNL at.js] of [!DNL mbox.js]wordt geladen. Als er geen extra gegevens identiteitskaart in de [!DNL Analytics] vraag is, bevestig dat de [!DNL Target] vraag vóór de [!DNL Analytics] vraag brandt.
+Als de [!DNL Target]-aanroep geen aanvullende gegevens-id bevat, controleert u of het [!DNL VisitorAPI.js]-bestand is geladen vóór [!DNL at.js] of [!DNL mbox.js]. Als er geen extra gegevens identiteitskaart in [!DNL Analytics] vraag is, bevestig dat [!DNL Target] vraag vóór [!DNL Analytics] vraag brandt.
 
-Zie [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) of neem contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)voor meer informatie.
+Zie [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) of neem contact op met [Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor meer informatie.
