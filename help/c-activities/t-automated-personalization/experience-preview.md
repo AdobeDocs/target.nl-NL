@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview Automated Personalization-activiteiten met voorbeeld-URL&#39;s{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUMP-](/help/assets/premium.png) revisie van Automated Personalization-activiteiten met voorbeeld-URL&#39;s{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 U kunt voorvertonings-URL&#39;s genereren voor Target Automated Personalization-activiteiten, zodat u direct op uw site inhoud kunt zien voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL&#39;s en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
 
 >[!NOTE]
 >
->De voorvertoning-URL&#39;s voor Automated Personalization verschillen van de modus Activiteit-QA. Met de modus Activiteit-QA kunt u Activiteiten-URL&#39;s maken voor andere typen activiteiten. Zie [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md)voor meer informatie.
+>De voorvertoning-URL&#39;s voor Automated Personalization verschillen van de modus Activiteit-QA. Met de modus Activiteit-QA kunt u Activiteiten-URL&#39;s maken voor andere typen activiteiten. Voor meer informatie, zie [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md).
 >
 >De voorproef URLs van de ervaring voor AP activiteiten zijn slechts beschikbaar wanneer het gebruiken van at.js 1.x. De voorproef URLs van de ervaring voor AP activiteiten wordt momenteel niet gesteund voor at.js 2.x.
 
@@ -27,25 +27,25 @@ Gebruik de ervaring voorproef URLs om ervaringen met teamleden en aan ervaring v
 1. Maak een [Automated Personalization-activiteit](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) of klik op de activiteit om deze te openen.
 
    De activiteit hoeft niet live te zijn voor een voorvertoning van een ervaring.
-1. Klik op de overzichtspagina van de activiteit op de drie verticale punten en klik vervolgens **[!UICONTROL View Experience URLs]**.
+1. Voor de activiteitenoverzichtspagina, klik op de drie verticale punten, dan klik **[!UICONTROL View Experience URLs]**.
 1. Bekijk en/of geef uw URL&#39;s op.
 
    * Als u Composer van de Visuele Ervaring gebruikt, wordt het gebrek URL u voor de activiteit specificeerde automatisch ingegaan en een verbinding wordt geproduceerd voor elke ervaring in uw activiteit. U kunt deze URL wijzigen en desgewenst andere URL&#39;s toevoegen.
-   * Als u de Form-Based Experience Composer gebruikt, wordt er niet automatisch een standaard-URL ingevoerd. Als u nog geen URL&#39;s met voorvertoningen hebt gemaakt, klikt u op Nieuwe URL **** toevoegen. U moet alle URL&#39;s opgeven die u wilt voorvertonen, en een naam voor elke URL.
+   * Als u de Form-Based Experience Composer gebruikt, wordt er niet automatisch een standaard-URL ingevoerd. Als u eerder geen ervaring voorproef URLs hebt gecreeerd, klik **Nieuwe URL toevoegen**. U moet alle URL&#39;s opgeven die u wilt voorvertonen, en een naam voor elke URL.
 
    U kunt meerdere URL&#39;s toevoegen. Dit is handig wanneer u een test met meerdere pagina&#39;s of een sjabloontest uitvoert en u de activiteit op meerdere pagina&#39;s wilt voorvertonen.
 
    Een modaal venster toont verbindingen aan uw ervaringen op uw plaats om een &quot;ware voorproef&quot;van de ervaringen buiten Composer van de Visuele Ervaring van het Doel te krijgen. U moet de koppelingen vanuit het bericht delen om de voorvertoning te kunnen delen. Het klikken van een verbinding en dan het kopiëren van resulterende URL van de pagina zal niet werken omdat URL een parameter bevat die slechts de pagina correct toont wanneer u tot de pagina van de verbinding in het bericht toegang hebt. Kopieer in plaats daarvan de tekst in het modale venster en e-mail de hele tekst naar uw team.
-1. Klik **[!UICONTROL Generate All]** en klik op elke ervaring om deze voor te vertonen.
+1. Klik **[!UICONTROL Generate All]**, dan klik elke ervaring om het voor te vertonen.
 
-   Als u dan veranderingen in de ervaring aanbrengt, zorg ervoor om nieuwe voorproefverbindingen voor uw team te produceren door aan het modale venster terug te keren en **Nieuwe Verbindingen** te klikken om nieuwe verbindingen te krijgen.
+   Als u dan veranderingen in de ervaring aanbrengt, zorg ervoor om nieuwe voorproefverbindingen voor uw team te produceren door aan het modale venster terug te keren en **Nieuwe Verbindingen te klikken** om nieuwe verbindingen te krijgen.
 
-   **Opmerking:** De voorvertoningskoppelingen worden geopend op nieuwe tabbladen en vereisen dat de pop-upblokkering in uw browser is uitgeschakeld.
+   **Opmerking:** de voorbeeldkoppelingen worden op nieuwe tabbladen geopend en vereisen dat de pop-upblokkering op uw browser is uitgeschakeld.
 
 1. Klik op de naam van elke ervaring om een voorvertoning van de activiteit weer te geven.
 
    De pagina wordt geopend en de activiteit wordt weergegeven.
-1. Klik **[!UICONTROL Done]** om terug te keren naar het activiteitenoverzicht.
+1. Klik **[!UICONTROL Done]** om naar het activiteitenoverzicht terug te keren.
 
 ## Overwegingen {#example_9F2B333BC63143FF99AE331F57E8BA4C}
 
