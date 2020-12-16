@@ -18,4 +18,4 @@ Problemen met informatie over het beheren van gebruikers in Adobe Target oplosse
 
 ## Ik heb een gebruiker voor Target uitgenodigd, maar zijn of haar naam wordt niet weergegeven in de lijst Gebruikers (Beheer > Gebruikers). {#section_13A1A9697BA44537BA569C81CF136160}
 
-De nieuwe gebruiker wordt pas op de [!UICONTROL Users] pagina weergegeven wanneer de gebruiker zich aanmeldt met zijn of haar Adobe Experience Cloud-account en zich vervolgens aanmeldt bij [!DNL Target Standard/Premium].
+De nieuwe gebruiker wordt pas op de pagina [!UICONTROL Users] weergegeven wanneer de gebruiker zich aanmeldt met zijn of haar Adobe Experience Cloud-account en zich vervolgens aanmeldt bij [!DNL Target Standard/Premium].
