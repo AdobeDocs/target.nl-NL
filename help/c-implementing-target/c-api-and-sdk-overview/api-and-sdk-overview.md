@@ -14,30 +14,30 @@ ht-degree: 0%
 
 # Serverzijde: Doel implementeren{#server-side-implement-target}
 
-Informatie over levering-APIs aan de [!DNL Adobe Target] [!DNL Target Recommendations] server-kant, SDKs, en APIs.
+Informatie over [!DNL Adobe Target] API&#39;s voor levering aan de serverzijde, SDK&#39;s en [!DNL Target Recommendations] API&#39;s.
 
-Het volgende proces komt in een server-zijimplementatie van voor [!DNL Target]:
+Het volgende proces vindt plaats in een server-side implementatie van [!DNL Target]:
 
 1. Een clientapparaat vraagt om een ervaring via de server.
-1. Uw server verzendt die aanvraag naar [!DNL Target].
+1. Uw server verzendt dat verzoek naar [!DNL Target].
 1. [!DNL Target] verzendt de reactie terug naar uw server.
 1. Uw server bepaalt welke ervaring om aan het cliëntapparaat te leveren voor het terug te geven.
 
-De ervaring hoeft niet in een browser te worden weergegeven. De ervaring kan in een e-mail of kiosk, via een stemmedewerker, of door één of andere andere niet-visuele ervaring of niet op browser-gebaseerd apparaat tonen. Omdat uw server tussen de cliënt en [!DNL Target], is dit type van implementatie ook ideaal als u grotere controle en veiligheid nodig hebt of complexe backendprocessen hebt die u op uw server wilt lopen.
+De ervaring hoeft niet in een browser te worden weergegeven. De ervaring kan in een e-mail of kiosk, via een stemmedewerker, of door één of andere andere niet-visuele ervaring of niet op browser-gebaseerd apparaat tonen. Aangezien uw server zich tussen de client en [!DNL Target] bevindt, is dit type implementatie ook ideaal als u meer controle en beveiliging nodig hebt of complexe back-endprocessen hebt die u op uw server wilt uitvoeren.
 
 >[!NOTE]
 >
->Een nieuwe bezoeker kan alleen op de client worden geïnitialiseerd. Een nieuwe bezoeker *kan niet* worden geïnitialiseerd op de server.
+>Een nieuwe bezoeker kan alleen op de client worden geïnitialiseerd. Een eerste bezoeker *kan niet* op de server-kant worden geïnitialiseerd.
 
 De volgende secties verstrekken meer informatie over diverse APIs en NodeJS SDK:
 
 ## Server Side Delivery-API&#39;s
 
-Koppeling: [Server Side Delivery-API&#39;s](https://developers.adobetarget.com/api/delivery-api/)
+Koppeling: [Server Side Delivery API&#39;s](https://developers.adobetarget.com/api/delivery-api/)
 
 `/rest/v1/delivery`
 
-Met de API voor [!DNL Target] aflevering kunt u:
+Met de [!DNL Target] Delivery-API kunt u:
 
 * Lever ervaringen over het web, met inbegrip van SPA, en mobiele kanalen evenals niet-browser gebaseerde IoT apparaten, zoals aangesloten TVs, kiosken, of in-store digitale schermen.
 * Lever ervaringen van om het even welke server-zijplatform of toepassing die HTTP/s vraag kan maken.
@@ -49,10 +49,10 @@ Met de API voor [!DNL Target] aflevering kunt u:
 
 Koppeling: [Adobe Target SDK&#39;s](https://adobetarget-sdks.gitbook.io/docs/)
 
-Met de SDK-documentatieportal aan de [!DNL Adobe Target] serverzijde kunt u [!DNL Target] op uw servers naar keuze implementeren.
+Met de [!DNL Adobe Target] SDK-documentatieportal voor server-side kunt u [!DNL Target] op uw servers implementeren in de gewenste taal.
 
 ## Doel Recommendations API&#39;s
 
-Koppeling: [Overzicht](https://developers.adobetarget.com/api/recommendations) van Recommendations API&#39;s [en](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)Adobe Recommendations API.
+Koppeling: [Doel Recommendations API&#39;s](https://developers.adobetarget.com/api/recommendations) en [Adobe Recommendations API-overzicht](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html).
 
-Met de Recommendations API&#39;s kunt u programmatisch communiceren met [!DNL Target] aanbevolen servers. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de [!DNL Target] gebruikersinterface doet.
+Met de Recommendations API&#39;s kunt u programmatisch communiceren met [!DNL Target]-adviesservers. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans uitvoert via de [!DNL Target]-gebruikersinterface.
