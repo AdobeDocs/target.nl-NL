@@ -12,21 +12,22 @@ ht-degree: 0%
 ---
 
 
-# URL van activiteit{#activity-url}
+# Activiteit-URL{#activity-url}
 
 De URL van de Activiteit bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test wordt ontworpen.
 
-Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het maken van activiteiten. Typ de volledige URL (inclusief `https://`) en klik op **[!UICONTROL Create]**.
+Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het maken van activiteiten. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create]**.
 
 >[!NOTE]
 >
->[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http]). Hierdoor komen [!DNL `http://www.adobe.com`] en [!DNL `https://www.adobe.com`] beide overeen.
+>[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en  [!DNL http]). Als gevolg hiervan komen [!DNL `http://www.adobe.com`] en [!DNL `https://www.adobe.com`] beide overeen.
 
 ## Een andere URL opgeven
 
-Door gebrek, [!UICONTROL Visual Experience Composer] opent de pagina die in uw montages [van Composer van de](/help/administrating-target/visual-experience-composer-set-up.md)Visuele Ervaring wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+Standaard wordt in de [!UICONTROL Visual Experience Composer] de pagina geopend die is opgegeven in de instellingen voor [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
+. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
-Als u een andere pagina wilt weergeven nadat de pagina is [!UICONTROL Visual Experience Composer] geopend, klikt u op het tandwielpictogram en selecteert u **[!UICONTROL Configure]** **[!UICONTROL Page Delivery]**. Voer de URL in het veld Activiteit-URL in.
+Als u een andere pagina wilt weergeven nadat [!UICONTROL Visual Experience Composer] is geopend, klikt u op het tandwielpictogram **[!UICONTROL Configure]** en selecteert u **[!UICONTROL Page Delivery]**. Voer de URL in het veld Activiteit-URL in.
 
 ![Dialoogvenster Pagina-aflevering](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
@@ -47,9 +48,9 @@ Klik **[!UICONTROL Save]** wanneer u klaar bent.
 
 >[!NOTE]
 >
->Als u een URL hebt ingevoerd voor een site die niet de [!DNL Target] standaard JavaScript-code bevat, kunt u geen pagina-elementen selecteren.
+>Als u een URL hebt ingevoerd voor een site die niet de standaard JavaScript-code [!DNL Target] bevat, kunt u geen pagina-elementen selecteren.
 
-Standaard staan wijzigingen in elementen die JavaScript bevatten, zoals draaiende banners, [!UICONTROL Visual Experience Composer] niet toe. U kunt schakelen **[!UICONTROL Render using JavaScript]** als u die elementen wilt kunnen veranderen gebruikend [!UICONTROL Visual Experience Composer].
+Standaard staan de [!UICONTROL Visual Experience Composer] geen wijzigingen toe in elementen die JavaScript bevatten, zoals draaiende banners. U kunt **[!UICONTROL Render using JavaScript]** van een knevel voorzien als u die elementen wilt kunnen veranderen gebruikend [!UICONTROL Visual Experience Composer].
 
 >[!NOTE]
 >
