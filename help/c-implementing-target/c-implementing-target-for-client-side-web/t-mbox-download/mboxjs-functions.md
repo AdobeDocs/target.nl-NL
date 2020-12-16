@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# mbox.js, functies{#mbox-js-functions}
+# mbox.js functies{#mbox-js-functions}
 
 Lijst met mbox.js-functies die moeten worden gebruikt bij het implementeren met mbox.js.
 
 >[!NOTE]
 >
->Deze methoden zijn niet van toepassing als u [!DNL at.js]ze gebruikt.
+>Als u [!DNL at.js] gebruikt, zijn deze methodes niet van toepassing.
 
 | Methode | Notities |
 |--- |--- |
