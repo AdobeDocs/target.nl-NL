@@ -22,17 +22,17 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
-In de volgende secties worden de bekende problemen voor [!DNL Target]:
+De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
 
 ### Analyses voor doelmetriek (A4T) voor automatisch toegewezen en automatisch doelactiviteiten
 
-Er bestaat een bekend probleem in de [!DNL Target] gebruikersinterface dat gebruikers in staat stelt niet-ondersteunde betrokkenheids- en inkomstenmetriek te selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. Conversiemetriek worden ondersteund; service- en inkomstenwaarden worden *niet* ondersteund. Als u de metriek van de betrokkenheid of van het opbrengstdoel selecteert, zal een optimalisatiemodel niet worden gebouwd (alhoewel [!DNL Target] UI momenteel u toestaat om niet gestaafde doelmetriek te selecteren).
+In de [!DNL Target]-gebruikersinterface is een bekend probleem dat gebruikers in staat stelt niet-ondersteunde betrokkenheids- en inkomstenmetriek te selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten. Conversiemetriek worden ondersteund; de betrokkenheid en opbrengstmetriek zijn *niet* gesteund. Als u de maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld (ook al kunt u met de [!DNL Target]-interface momenteel niet-ondersteunde doelmeetgegevens selecteren).
 
-Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [Gesteunde doelmetriek](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Create een activiteit die Analytics als rapporteringsbron* gebruikt. (TNT-38409)
+Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [Ondersteunde doelmetriek](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Creeer een activiteit die Analytics als rapporteringsbron* gebruikt. (TNT-38409)
 
-### Paginalevering {#page-delivery}
+### Aanlevering van pagina {#page-delivery}
 
-Als u een sjabloonregel toevoegt, zoals de URL (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), worden extra spaties aan uw regels toegevoegd. Dit is een cosmetische kwestie en heeft geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
+Als u een malplaatjeregel, zoals URL bevat (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zijn de extra ruimten vooraf aan uw regels. Dit is een cosmetische kwestie en heeft geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
 
 ### Kwaliteit van voorbeeldkoppelingen
 
@@ -47,21 +47,21 @@ Een bekend probleem voorkomt een voorvertoning als de criteria die in de activit
 Hier volgen bekende problemen met omleidingsvoorstellen:
 
 * Onder sommige omstandigheden heeft een beperkt aantal klanten hogere mate van variatie in verkeersdistributie gemeld bij het gebruik van een omleidingsaanbod in activiteiten die zijn geconfigureerd met Analytics for Target (A4T). Adobe engineers werken momenteel aan dit probleem.
-* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). In plaats daarvan kunt u de modus [](/help/c-activities/c-activity-qa/activity-qa.md) QA gebruiken om de voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
+* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [Wijze QA](/help/c-activities/c-activity-qa/activity-qa.md) in plaats daarvan gebruiken om Voorproef en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
-### Het laden van een pagina in de VEC annuleren {#cancel}
+### Laden van een pagina in de VEC annuleren {#cancel}
 
-* Het volgende bekende probleem bestaat momenteel wanneer het annuleren van het laden van een [!UICONTROL A/B Test] [!UICONTROL Experience Targeting] (XT) activiteit binnen VEC die een omleidingsURL bevat.
+* Het volgende bekende probleem bestaat momenteel wanneer het annuleren van het laden van een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) activiteit binnen VEC die omleidings URL bevat.
 
-   In stap één van de driedelige geleide workflow binnen VEC, wanneer u het laden van pagina&#39;s annuleert, wordt het [!UICONTROL Modifications] deelvenster in de VEC weergegeven en wordt de omleiding naar URL-sjabloon toegepast op de ervaring (bijvoorbeeld &#39;Experience B&#39;). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
+   In stap één van de driedelige geleide werkschema binnen VEC, wanneer u het laden van de pagina annuleert, wordt het [!UICONTROL Modifications] paneel in de vertoningen VEC en het omleiden aan malplaatje URL toegepast op de ervaring (bijvoorbeeld, &quot;Ervaring B). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
 
-   Bij &quot;Experience B&quot; wordt standaard de sjabloon voor het laden van de geannuleerde website weergegeven en is het [!UICONTROL Modifications] deelvenster toegankelijk. Dit is niet het geval omdat er een omleiding naar de URL-sjabloon is toegepast. De omleiding naar URL-sjabloon moet worden weergegeven.
+   Bij &quot;Experience B&quot; wordt standaard de sjabloon voor het laden van de geannuleerde website weergegeven en is het deelvenster [!UICONTROL Modifications] toegankelijk, wat niet het geval moet zijn omdat er een omleiding naar een URL-sjabloon is toegepast. De omleiding naar URL-sjabloon moet worden weergegeven.
 
    Om de juiste stand van de ervaring in de VEC aan te tonen:
 
-   Als u overschakelt naar een andere ervaring en vervolgens terugschakelt naar &quot;Experience B&quot;, wordt de omleiding naar de URL-sjabloon weergegeven die op deze ervaring is toegepast en is het [!DNL Target] [!UICONTROL Modifications] deelvenster niet toegankelijk. (TGT-32138)
+   Als u overschakelt naar een andere ervaring en vervolgens terugschakelt naar &quot;Experience B&quot;, [!DNL Target] geeft de omleiding naar de URL-sjabloon weer die op deze ervaring is toegepast en is het deelvenster [!UICONTROL Modifications] niet toegankelijk. (TGT-32138)
 
-* Bij het annuleren van het laden van de toepassingswebsites (SPA) voor één pagina kunt u handelingen niet bewerken in het [!UICONTROL Modifications] deelvenster.
+* Als u het laden annuleert voor websites van de toepassing Eén pagina (SPA), kunt u handelingen niet bewerken in het deelvenster [!UICONTROL Modifications].
 
 ### Recommendations
 
@@ -83,27 +83,27 @@ In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven
 
 De volgende problemen zijn bekend met at.js:
 
-* Als u versies at.js gebruikt die ouder zijn dan 2.2.0, klikt u op bijhouden, rapporteert u geen conversies in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) van .js als dit probleem optreedt.
-* Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de [ttMeta-plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
+* Als u versies at.js gebruikt die ouder zijn dan 2.2.0, klikt u op bijhouden, rapporteert u geen conversies in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie ](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) op at.js als dit probleem zich voordoet.
+* Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
 
    Als oplossing gebruikt u een witruimte in de ervaringsinhoud. (TNT-33366)
 
    >[!NOTE]
    >
-   >Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. U zou aan de [recentste versie of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) moeten bevorderen of de oplossing gebruiken bovengenoemde slechts voor at.js versies vroeger dan 2.2.0.
+   >Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. U zou aan [recentste versie of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) moeten bevorderen of de oplossing gebruiken bovengenoemde slechts voor at.js versies vroeger dan 2.2.0.
 
-* Wanneer een pagina in Visuele Composer van de Ervaring (VEC) wordt geladen, moet het Doel bepalen als globale mbox het plaatsen wordt toegelaten of onbruikbaar gemaakt en of entiteitID of categoryID aanwezig is op de plaats waar de gebruiker probeert om de aanbeveling in VEC toe te passen. Op basis van deze informatie wordt de lijst met criteria gefilterd. De standaardlijst bevat gefilterde algoritmen, maar met het selectievakje [](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) Compatible kunt u de lijst met volledige algoritmen weergeven.
+* Wanneer een pagina in Visuele Composer van de Ervaring (VEC) wordt geladen, moet het Doel bepalen als globale mbox het plaatsen wordt toegelaten of onbruikbaar gemaakt en of entiteitID of categoryID aanwezig is op de plaats waar de gebruiker probeert om de aanbeveling in VEC toe te passen. Op basis van deze informatie wordt de lijst met criteria gefilterd. De standaardlijst heeft gefilterde algoritmen, maar [Compatible checkbox](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) laat u de volledige lijst van algoritmen bekijken.
 
    Als u at.js gebruikt, is het selectievakje Compatibiliteit verborgen, zodat incompatibele algoritmen niet zichtbaar zijn.
 
    Deze kwestie geldt alleen voor Recommendations-activiteiten die gebruikmaken van de VEC.
 
-   **Oplossing**: Schakel de [!UICONTROL Filter Incompatible Criteria] optie in [!UICONTROL Recommendations > Settings]. Nadat u deze instelling hebt uitgeschakeld, worden alle (compatibele en niet-compatibele) criteria weergegeven in de kiezer voor criteria. (TGT-25949)
+   **Oplossing**: Schakel de  [!UICONTROL Filter Incompatible Criteria] optie in  [!UICONTROL Recommendations > Settings]. Nadat u deze instelling hebt uitgeschakeld, worden alle (compatibele en niet-compatibele) criteria weergegeven in de kiezer voor criteria. (TGT-25949)
 
 * Mboxen die niet worden geactiveerd in Microsoft Explorer 11-browsers na de upgrade naar at.js versie 1.0 vanwege de interactie tussen at.js en Visitor API 2.2.0. Dit probleem is van toepassing op versie 0.js 0.9.6 en hoger. (TNT-27600)
 * at.js werkt mogelijk niet met Cordova/Hybrid-apps omdat cookies van de eerste partij momenteel niet in deze toepassingen worden ondersteund. (TNT-26166)
 
-   **Oplossing**: Vorm at.js met de &quot;x-slechts&quot;toegelaten optie en ga `mboxThirdPartyId` in vraag over om gebruikers te beheren.
+   **Oplossing**: Vorm at.js met de &quot;x-slechts&quot;toegelaten optie en ga  `mboxThirdPartyId` in vraag over om gebruikers te beheren.
 
 ### Succeswaarden
 
@@ -113,7 +113,7 @@ Wanneer een succes metrisch wordt geplaatst om op elke indruk worden verhoogd, t
 
 ### Analyses voor doel (A4T)
 
-Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)wilt toepassen, klikt u met de rechtermuisknop op de maateenheid om de kolominstellingen te **wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel** selecteren. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
+Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard attributiemodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) wilt toepassen, klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel** selecteren. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
 
 Alle huidige pakketten Analytics hebben de capaciteit om dit model met Attribution IQ toe te voegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
 
@@ -145,18 +145,18 @@ Dit probleem is opgelost in de Target Standard/Premium versie 20.10.1.
 
 De volgende kwesties in verband met A4T zijn opgelost:
 
-* Een kwestie die A4T activiteiten beïnvloedde gebruikend een [!DNL Analytics] doel metrisch die rapporten A4T veroorzaakte om een onverwachte verkeerssplitsing of kunstmatig opgeblazen omzettingen te tonen.
+* Een kwestie die A4T activiteiten beïnvloedde gebruikend [!DNL Analytics] doel metrisch die A4T rapporten veroorzaakte om een onverwachte verkeerssplitsing of kunstmatig opgeblazen omzettingen te tonen.
 
    Deze kwestie beïnvloedde de A4T-rapportage onder de volgende voorwaarden:
 
    * De activiteit werd gecreëerd of gered tussen 15 september en 5 november 2020 (4.00 uur PST), en
-   * De activiteit had [!DNL Analytics] metrisch die als doel metrisch werd geselecteerd.
+   * De activiteit had [!DNL Analytics] metrisch geselecteerd als doel metrisch.
 
    [!DNL Target] correct gesplitst verkeer tijdens deze tijd. Een splitsing van 50/50 in de activiteiteninstellingen kan echter bijvoorbeeld worden weergegeven als een splitsing van 90/10 in A4T-rapporten.
 
    Voor betrokken activiteiten is de correcte verkeerssplitsing zichtbaar voor nieuwe bezoekers aan de activiteit na 5 november (4.00 uur PST). De nieuwe activiteiten die na deze tijd worden gecreeerd of worden bewaard zullen de verkeerspleet correct melden.
 
-* Een kwestie die A4T activiteiten beïnvloedde gebruikend een [!DNL Target] doel metrisch dat rapporten A4T veroorzaakte om laag of geen omzettingen te melden.
+* Een kwestie die A4T activiteiten beïnvloedde gebruikend [!DNL Target] doel metrisch die A4T rapporten veroorzaakte om laag of geen omzettingen te melden.
 
    >[!NOTE]
    >
@@ -165,16 +165,16 @@ De volgende kwesties in verband met A4T zijn opgelost:
    Deze kwestie beïnvloedde de A4T-rapportage onder de volgende voorwaarden:
 
    * De A4T-activiteit was actief tussen 22 september en 11 november 2020 (2:30 uur PST), en
-   * De activiteit had [!DNL Target] metrisch die als doel metrisch werd geselecteerd, en
-   * Wanneer een bezoeker de doelgebeurtenis voor de activiteit heeft bereikt (bijvoorbeeld [!UICONTROL Clicked an Element]) was er ook een activiteit zonder A4T met lagere prioriteit die overeenkwam met de conversiegebeurtenis. Dit zou kunnen gebeuren als de activiteit niet-A4T of met zelfde metrisch zoals de activiteit A4T werd gevormd of als het met metrisch &quot;om het even welke mbox&quot;werd gevormd.
+   * Voor de activiteit is een metrische waarde [!DNL Target] geselecteerd als doel-metrisch en
+   * Wanneer een bezoeker de doelgebeurtenis voor de activiteit heeft bereikt (bijvoorbeeld [!UICONTROL Clicked an Element]), was er ook een lagere prioriteit niet-A4T activiteit die de omzettingsgebeurtenis aanpaste. Dit zou kunnen gebeuren als de activiteit niet-A4T of met zelfde metrisch zoals de activiteit A4T werd gevormd of als het met metrisch &quot;om het even welke mbox&quot;werd gevormd.
 
    Deze kwestie beïnvloedde de verslaglegging voor A4T activiteiten die tussen 22 september en 11 november 2020 (14:30 uur PST) leefden. De rapportering voor beïnvloede activiteiten A4T zal correct omzettingen buiten dit datumbereik tonen. De rapportage voor niet-A4T-activiteiten had geen gevolgen.
 
-Neem contact op met de Customer Success Manager (CSM) of de [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)als u nog vragen hebt. (PB 2011/11/EG)
+Als u nog vragen hebt, kunt u contact opnemen met uw Customer Success Manager (CSM) of [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (PB 2011/11/EG)
 
-### Automatische doelrapportage {#at-metrics}
+### Automatische rapportage {#at-metrics}
 
-Er is een probleem opgelost dat van invloed was op de [!DNL Adobe Target Premium] rapportage van [!UICONTROL Auto-Target] gebruikers vanaf 15 september om 14.30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd gebruikend of &quot;[!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie), worden de omzettingspercentages verkeerd gemeld. Er is momenteel geen bekend leveringsprobleem.
+Er is een probleem opgelost dat gevolgen heeft voor [!DNL Adobe Target Premium] gebruikers’ [!UICONTROL Auto-Target] rapportage vanaf 15 september, 2:30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (die of wordt gevormd gebruikend &quot;[!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie) wordt gevormd, worden de omzettingspercentages verkeerd gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
 
 Je melding opnieuw synchroniseren en corrigeren:
 
@@ -184,7 +184,7 @@ Je melding opnieuw synchroniseren en corrigeren:
 
 (TGT-38522, CSO 201006007)
 
-### Rapportage {#conversions-audiences}
+### {#conversions-audiences} rapporteren
 
 Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebruikt.
 
@@ -198,15 +198,15 @@ Als het aantal conversies is ingesteld op &quot;Op elke indruk:&quot;
 * Publiek: &quot;Alle gekwalificeerde Bezoekers&quot; voor conversies op bezoekersniveau worden slechts eenmaal incorrect verhoogd in plaats van elke keer te verhogen. Dit is niet het verwachte gedrag.
 * Publiek: &quot;Nieuwe Bezoekers&quot; voor conversies op bezoekersniveau nemen telkens toe. Dit is het verwachte gedrag.
 
-Dit probleem heeft alleen betrekking op [!DNL Target] rapportage. Dit is geen kwestie wanneer het gebruiken van ( [!UICONTROL Analytics for Target] A4T) rapportering.
+Dit probleem heeft alleen betrekking op [!DNL Target]-rapportage. Dit is geen kwestie wanneer het gebruiken van [!UICONTROL Analytics for Target] (A4T) rapportering.
 
 Dit probleem is opgelost.
 
 ### Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+
 
-Dit bekende probleem betreft het besluit van Google om het standaardgedrag van cookies zonder het SameSite-kenmerk te wijzigen, te beginnen met Chrome versie 80. Voordat de wijzigingsinterface alle cookies zonder het SameSite-kenmerk standaard instelde op &quot;SameSite=None&quot; en nu wordt de standaardwaarde ingesteld op &quot;SameSite=Lax&quot;. Hierdoor wordt de manier gewijzigd waarop cookies worden verzonden op GET- en POST-aanvragen. Zie Updates [voor](https://www.chromium.org/updates/same-site)SameSite.
+Dit bekende probleem betreft het besluit van Google om het standaardgedrag van cookies zonder het SameSite-kenmerk te wijzigen, te beginnen met Chrome versie 80. Voordat de wijzigingsinterface alle cookies zonder het SameSite-kenmerk standaard instelde op &quot;SameSite=None&quot; en nu wordt de standaardwaarde ingesteld op &quot;SameSite=Lax&quot;. Hierdoor wordt de manier gewijzigd waarop cookies worden verzonden op GET- en POST-aanvragen. Zie [SameSite Updates](https://www.chromium.org/updates/same-site).
 
-Zie voor meer informatie en een oplossing &quot;Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite-cookiehandhaving de VEC en EEC?&quot; in Problemen met [probleemoplossing met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+Zie voor meer informatie en een oplossing &quot;Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite-cookiehandhaving de VEC en EEC?&quot; in [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Grafiekrapport voor een activiteit Auto-Doel ontbreekt teruggeven wanneer het gebruiken van een douaneervaring als controle
 
@@ -216,27 +216,27 @@ Dit probleem is opgelost in de Doelversie 19.7.1.
 
 ### mbox.js
 
-De bibliotheek mbox.js ondersteunt geen sjabloontalen aan de clientzijde, zoals Handlebars en Mustache. De bibliotheek at.js *ondersteunt deze talen* niet.
+De bibliotheek mbox.js ondersteunt geen sjabloontalen aan de clientzijde, zoals Handlebars en Mustache. De bibliotheek at.js *biedt ondersteuning voor deze talen.*
 
-**Opmerking**: De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+**Opmerking**: De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
 
 ### Implementatie: Automatisch een globale box maken
 
 Op het lusje van de Implementatie ([!UICONTROL Administration > Implementation]) zal het [!UICONTROL Global Mbox Auto Create] gebied &quot;vals&quot;door gebrek voor een onlangs provisioned huurder zijn.
 
-Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTROL Global Mbox Auto Create] gebied geplaatst aan &quot;waar&quot;in het gedownloade mbox.js- dossier en in het [!DNL Target] achtereind, maar het zal als &quot;vals&quot;op de [!UICONTROL Implementation] pagina in UI blijven tonen tot de pagina wordt verfrist (nadat de pagina wordt verfrist, zal de status &quot;waar&quot;zijn).
+Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTROL Global Mbox Auto Create] gebied geplaatst aan &quot;waar&quot;in het gedownloade mbox.js- dossier en in [!DNL Target] backend, maar het zal blijven &quot;vals&quot;op de [!UICONTROL Implementation] pagina in UI tonen tot de pagina wordt verfrist (nadat de pagina wordt verfrist, zal de status &quot;waar&quot;zijn.)
 
-at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huurder worden gedownload. Als mbox.js eerst wordt gedownload, global\_mbox\_autocreate is set to &quot;waar&quot;en at.js zullen ook met `global_mbox_autocreate = true`. worden gedownload. (TGT-15929)
+at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huurder worden gedownload. Als mbox.js eerst wordt gedownload, global\_mbox\_autocreate is set to &quot;waar&quot;en at.js zullen ook met `global_mbox_autocreate = true` worden gedownload. (TGT-15929)
 
 ### Ondersteuning voor Enterprise-machtigingen in doel-API&#39;s {#api}
 
-Codeaanbiedingen die zijn gemaakt vanuit de doelinterface in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft *geen* invloed op aanbiedingen die met API&#39;s zijn gemaakt. Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de doelinterface.
+Codeaanbiedingen die zijn gemaakt vanuit de doelinterface in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft geen invloed op aanbiedingen die zijn gemaakt op basis van API&#39;s. ** Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de doelinterface.
 
 ### Rapportage en extreme orders
 
 Van 25 november 2019 tot 26 april 2020, ondervond één Target-server een probleem dat ertoe leidde dat extreme orderwaarden moesten worden geteld in rapporteringsmetriek op basis van inkomsten (AOV, RPV). Van 19 december 2019 tot 23 april 2020 kreeg een andere server hetzelfde probleem. Deze kwestie beïnvloedde niet alle servers van het Doel of alle klanten van het Doel.
 
-U had *geen* invloed als:
+U was *niet* beïnvloed als:
 
 * Uw doelimplementatie gebruikt verschillende servers.
 * In uw rapporten zijn extreme bestellingen niet uitgesloten.
@@ -244,7 +244,7 @@ U had *geen* invloed als:
 * Uw doelactiviteiten gebruiken Analytics voor Doel (A4T).
 * U bevindt zich in de regio Azië-Pacific (APAC).
 
-Neem contact op met de [klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)om te bepalen of dit probleem gevolgen heeft voor uw rapportage over het doel.
+Om te bepalen als deze kwestie uw het Doel melden beïnvloedde, reep aan [de Zorg van de Cliënt](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
