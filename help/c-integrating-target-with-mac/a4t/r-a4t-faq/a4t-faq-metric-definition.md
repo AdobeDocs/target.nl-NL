@@ -22,17 +22,17 @@ De standaardvervaldatum voor de activiteit is 90 dagen na de laatste interactie 
 
 ## Waarom heb ik tijdens het configureren van mijn doelgeneesmiddelen geen toegang tot de opties voor Geavanceerde instellingen? {#adv-settings}
 
-De [!UICONTROL Advanced Settings] opties zijn niet beschikbaar voor activiteiten die [!DNL Analytics] als rapportagebron (A4T) worden gebruikt.
+De [!UICONTROL Advanced Settings] opties zijn niet beschikbaar voor activiteiten die [!DNL Analytics] als rapportagebron (A4T) gebruiken.
 
-Voor activiteiten die A4T gebruiken, zal doel metrisch altijd de &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit kan *niet* worden geconfigureerd.
+Voor activiteiten die A4T gebruiken, zal doel metrisch altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit is *niet* configureerbaar.
 
-Voor niet-A4T activiteiten, kunt u de [Geavanceerde opties](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) van Montages gebruiken om te beheren hoe u succes meet. De opties omvatten het toevoegen van gebiedsdelen, het kiezen of om de gebruiker in de activiteit te houden of hen te verwijderen, en of om metrisch één keer per ingang of op elke indruk te tellen. U hebt toegang tot de [!UICONTROL Advanced Settings] opties in een niet-A4T activiteit door de verticale ellipsen > [!UICONTROL Advanced Settings], zoals hieronder getoond te klikken:
+Voor niet-A4T activiteiten, kunt u [Geavanceerde opties van Montages](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) gebruiken om te beheren hoe u succes meet. De opties omvatten het toevoegen van gebiedsdelen, het kiezen of om de gebruiker in de activiteit te houden of hen te verwijderen, en of om metrisch één keer per ingang of op elke indruk te tellen. U hebt toegang tot de opties [!UICONTROL Advanced Settings] in een niet-A4T activiteit door de verticale ellipsen > [!UICONTROL Advanced Settings], zoals hieronder getoond te klikken:
 
 ![Geavanceerde instellingen](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 ## Wat worden berekende metriek en hoe vervangen zij SiteCatalyst:Gebeurtenis mbox ik gebruikte om te gebruiken? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
-Met berekende metriek kunt u aangepaste metriek maken die is afgeleid van segmenten of wiskundige berekeningen. In het verleden, wanneer u mbox zou kunnen gebruiken waar `SiteCatlayst:Event` en de gebeurtenis is `evar27=shoes` , zou u nu een segment tot stand brengen waar `purchase`en dan berekende metrisch tot stand brengen waar de gebeurtenis `evar27=shoes` `purchase` met het toegepaste segment is. Het voordeel hiervan is dat deze metriek op elk moment kan worden gemaakt, zelfs nadat de activiteit aan de gang is. Deze kunnen vervolgens voor elk rapport in Analytics worden gebruikt.
+Met berekende metriek kunt u aangepaste metriek maken die is afgeleid van segmenten of wiskundige berekeningen. In het verleden, wanneer u `SiteCatlayst:Event` mbox zou kunnen gebruiken waar `evar27=shoes` en de gebeurtenis `purchase` is, zou u nu een segment creëren waar `evar27=shoes` en dan een berekende metrisch creëren waar de gebeurtenis `purchase` met het toegepaste segment is. Het voordeel hiervan is dat deze metriek op elk moment kan worden gemaakt, zelfs nadat de activiteit aan de gang is. Deze kunnen vervolgens voor elk rapport in Analytics worden gebruikt.
 
 ## Worden A4T-kenmerken omgezet in meerdere campagnes? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
