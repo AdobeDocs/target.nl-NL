@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Doel oplossen{#troubleshoot-target}
 
-Lijst met onderwerpen om u te helpen problemen op te lossen in, [!DNL Adobe Target]met inbegrip van het oplossen van problemenonderwerpen, vaak gestelde vragen (FAQs), en andere nuttige onderwerpen.
+Lijst met onderwerpen om u te helpen problemen in [!DNL Adobe Target], met inbegrip van het oplossen van problemenonderwerpen, vaak gestelde vragen (FAQs), en andere nuttige onderwerpen oplossen.
 
 ## Activiteiten
 
@@ -58,7 +58,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 ## Analyse en doelintegratie (A4T)
 
 * [Analyse van problemen en doelintegratie](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [Adobe Analytics als de Rapportagebron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
+* &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [Adobe Analytics als de rapportbron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Veelgestelde vragen
    * [Het aantal opgeblazen bezoekers en bezoekers in A4T minimaliseren](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Aanvankelijke levering - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -121,7 +121,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 * [Foutopsporing bij .js met Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [beperkingen van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [at.js-implementatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+* &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [at.js implementatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
 ### mbox.js
 
