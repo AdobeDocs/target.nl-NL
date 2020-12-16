@@ -11,11 +11,11 @@ ht-degree: 0%
 ---
 
 
-# Logboek voor wijziging van de activiteit{#activity-change-log}
+# Logbestand voor wijziging van de activiteit{#activity-change-log}
 
 Het veranderingslogboek verstrekt een verslag van wie uw activiteiten veranderde en wanneer de veranderingen voorkwamen.
 
-1. Open de activiteit en klik op **[!UICONTROL Change Log]**.
+1. Open de activiteit en klik vervolgens op **[!UICONTROL Change Log]**.
 
    ![Activiteitenwijzigingslogboek](/help/c-activities/assets/change_log.png)
 
