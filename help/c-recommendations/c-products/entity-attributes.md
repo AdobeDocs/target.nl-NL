@@ -12,27 +12,27 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -entiteitskenmerken{#entity-attributes}
+# ![Kenmerken ](/help/assets/premium.png) PREMIUMEntity{#entity-attributes}
 
-Gebruik entiteitskenmerken om product- of inhoudsgegevens door te geven aan [!DNL Adobe Target Recommendations].
+Gebruik entiteitskenmerken om product- of inhoudsinformatie door te geven aan [!DNL Adobe Target Recommendations].
 
-[!DNL Recommendations] verzendt het `productId` of `productPurchasedId` (bedoeld als `entity.id` in de code) dat in de algoritmen wordt gebruikt.
+[!DNL Recommendations] verzendt de  `productId` of  `productPurchasedId` (waarnaar wordt verwezen  `entity.id` in de code) die wordt gebruikt in de algoritmen.
 
 >[!NOTE]
 >
->* `entity.id` moet overeenkomen met de pagina `productPurchasedId` die naar de pagina voor bevestiging van de bestelling is verzonden en met de pagina&#39;s die in Adobe Analytics-productrapporten worden `productId` gebruikt.
+>* `entity.id` moet overeenkomen met de pagina die naar de pagina voor bevestiging van de bestelling is  `productPurchasedId` verzonden en met de pagina&#39;s die in Adobe Analytics-productrapporten zijn  `productId` gebruikt.
    >
    >
 * Waarden van opgegeven entiteitskenmerken verlopen na 61 dagen. Dit betekent dat u ervoor moet zorgen dat de recentste waarde van elk entiteitattribuut aan Doel Recommendations minstens eens per maand voor elk punt in uw catalogus wordt overgegaan.
 
 
-De meeste vooraf gedefinieerde parameters accepteren slechts één waarde, waarbij nieuwe waarden oude waarden overschrijven. De `categoryId` parameter kan een door komma&#39;s gescheiden lijst met waarden accepteren voor elke categorie die dat product bevat. Nieuwe `categoryId` waarden overschrijven bestaande waarden niet, maar worden toegevoegd tijdens het bijwerken van een entiteit (limiet van 250 tekens).
+De meeste vooraf gedefinieerde parameters accepteren slechts één waarde, waarbij nieuwe waarden oude waarden overschrijven. De parameter `categoryId` kan een komma-afgebakende lijst van waarden voor elke categorie goedkeuren die dat product bevat. Nieuwe `categoryId`-waarden overschrijven bestaande waarden niet, maar worden toegevoegd tijdens het bijwerken van de entiteit (limiet van 250 tekens).
 
-Over het algemeen ziet het informatievenster voor de weergave er als in het volgende voorbeeld uit als u at.js 1 gebruikt.*x* met `mboxCreate`.
+Over het algemeen ziet het informatievenster voor de weergave er als in het volgende voorbeeld uit als u at.js 1 gebruikt.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan Recommendations met behulp van at.js 2.*x*, gebruik [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Zie Recommendations [](/help/c-recommendations/plan-implement.md)plannen en implementeren voor een voorbeeld hiervan.
+>* Als u at.js 2 gebruikt.*x*,  `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan Recommendations met behulp van at.js 2.*x*, gebruik  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Voor een voorbeeld van dit, zie [Plan en voer Recommendations](/help/c-recommendations/plan-implement.md) uit.
 
 >
 
@@ -72,7 +72,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->Relatieve URL&#39;s hebben de voorkeur voor `pageUrl` en `thumbnailUrl` niet voor absolute URL&#39;s, omdat aanbevelingen gegevens ontvangen die worden verzonden vanuit alle omgevingen op uw site. Als u relatieve URL&#39;s gebruikt, worden hardcodeerde koppelingen naar een testserver of ontwikkelingsserver vermeden.
+>Relatieve URL&#39;s hebben de voorkeur voor `pageUrl` en `thumbnailUrl` in plaats van absolute URL&#39;s, omdat aanbevelingen gegevens ontvangen die worden verzonden vanuit alle omgevingen op uw site. Als u relatieve URL&#39;s gebruikt, worden hardcodeerde koppelingen naar een testserver of ontwikkelingsserver vermeden.
 
 Als het selectievakje op een productpagina staat, kunt u zowel de product-id als de categorie-id opnemen. Het geselecteerde algoritme bepaalt welke weergaven worden weergegeven. De product-id wordt gebruikt voor affiniteitsalgoritmen en de categorie-id wordt gebruikt voor categoriealgoritmen.
 
@@ -84,9 +84,9 @@ In de volgende lijst worden de beschikbare variabelen beschreven.
 
 Alleen randwaarde.
 
-Deze vereiste parameter identificeert het product. Deze alfanumerieke id moet voor alle gebruikte [!DNL Adobe Experience Cloud] producten gelijk zijn, inclusief [!DNL Analytics], zodat de verschillende producten het item herkennen en er gegevens over uitwisselen.
+Deze vereiste parameter identificeert het product. Deze alfanumerieke id moet hetzelfde zijn voor alle [!DNL Adobe Experience Cloud]-producten die worden gebruikt, inclusief [!DNL Analytics], zodat de verschillende producten het item kunnen herkennen en gegevens erover kunnen delen.
 
-`entity.id` waarden mogen geen slashes, ampersands, vraagtekens, percentagesymbolen, komma&#39;s of andere leestekens bevatten die URL-codering vereisen wanneer deze worden doorgegeven in een REST API-aanroep. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Het opnemen van ongeldige leestekens in een `entity.id` waarde leidt tot een fout [!DNL Recommendations] in de functionaliteit.
+`entity.id` waarden mogen geen slashes, ampersands, vraagtekens, percentagesymbolen, komma&#39;s of andere leestekens bevatten die URL-codering vereisen wanneer deze worden doorgegeven in een REST API-aanroep. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Het opnemen van ongeldige interpunctie in een `entity.id` waarde veroorzaakt sommige [!DNL Recommendations] functionaliteit om te ontbreken.
 
 Voorbeeld: `'entity.id=67833'`
 
@@ -108,7 +108,7 @@ Categorie van de huidige pagina. Dit kan meerdere categorieën omvatten, zoals e
 
 >[!NOTE]
 >
->Als u een aanbeveling wilt weergeven die is gebaseerd op een categorie op een [!UICONTROL Category] pagina, `categoryId` kan slechts één aanbeveling worden doorgegeven in het vak waarin die specifieke aanbeveling wordt weergegeven. De waarde van de pagina `categoryId` moet exact overeenkomen met de waarde van `entity.categoryId` die op de [!UICONTROL Product Detail] pagina is doorgegeven.
+>Om een aanbeveling te tonen die op een categorie in een [!UICONTROL Category] pagina wordt gebaseerd, slechts kan één `categoryId` in mbox worden overgegaan die wordt gebruikt om die bepaalde aanbeveling te tonen. De waarde van `categoryId` moet exact overeenkomen met de waarde van `entity.categoryId` die op de pagina [!UICONTROL Product Detail] is doorgegeven.
 
 Voorbeelden:
 
@@ -166,11 +166,11 @@ Hiermee geeft u het voorraadniveau van het item weer.
 
 Voorbeeld: `'entity.inventory=1'`
 
-**Afhandeling van lege inventariskenmerken:** Voor levering, als u een inclusieregel, inzamelingsregel, of criteria die met `entity.inventory` > 0 of `entity.inventory` = 0 plaatst hebt en het product voorraad niet plaatste, [!DNL Target] evalueert dit aan WAAR en omvat producten waar de inventaris niet wordt geplaatst. Dit is standaard gedaan, zodat producten met een voorraad die niet is ingesteld, in de resultaten van de aanbeveling worden weergegeven.
+**Lege verwerking van inventariskenmerken:** Voor levering geldt dat als u een regel, verzamelingsregel of criteria hebt die zijn ingesteld op  `entity.inventory` > 0 of  `entity.inventory` = 0 en het product een voorraad heeft die niet is ingesteld, dit  [!DNL Target] wordt geëvalueerd op TRUE en dat er ook producten in worden opgenomen waarvoor de voorraad niet is ingesteld. Dit is standaard gedaan, zodat producten met een voorraad die niet is ingesteld, in de resultaten van de aanbeveling worden weergegeven.
 
-Op dezelfde manier als u een globale uitsluitingsregel met `entity.inventory` = 0 hebt en niet `entity.inventory` wordt geplaatst, [!DNL Target] evalueert deze regel om WAAR te zijn en sluit het product uit.
+En als u een globale uitsluitingsregel hebt met `entity.inventory` = 0 en `entity.inventory` niet is ingesteld, evalueert [!DNL Target] deze regel als WAAR en sluit het product uit.
 
-**Bekend probleem:** Productzoekopdracht is inconsistent met levering voor niet-ingestelde voorraadwaardekenmerken. Voor een regel met `entity.inventory` = 0 geeft productzoekopdracht bijvoorbeeld geen producten weer waarvan de inventariswaarde niet is ingesteld.
+**Bekend probleem:** Productzoekopdracht is inconsistent met levering voor niet-ingestelde voorraadwaardekenmerken. Voor een regel met `entity.inventory` = 0 geeft productzoekopdracht bijvoorbeeld geen producten weer waarvoor de inventariswaarde niet is ingesteld.
 
 ### entity.value
 
@@ -192,7 +192,7 @@ Voorbeeld: `'entity.margin=1.00'`
 
 Ondersteunt multivalue (JSON-array).
 
-Definieer maximaal 100 aangepaste variabelen die aanvullende informatie over het item bevatten. U kunt elke ongebruikte kenmerknaam opgeven voor elk aangepast kenmerk. U kunt bijvoorbeeld een aangepast kenmerk maken dat wordt aangeroepen `entity.genre` om een boek of film te definiëren. Of een verkoper van vervoerbewijzen kan kenmerken maken voor een plaats van een evenement voor een tweede uitvoerder, zoals een bezoekend team in een sportevenement of een openingsactie in een concert.
+Definieer maximaal 100 aangepaste variabelen die aanvullende informatie over het item bevatten. U kunt elke ongebruikte kenmerknaam opgeven voor elk aangepast kenmerk. U kunt bijvoorbeeld een aangepast kenmerk met de naam `entity.genre` maken om een boek of film te definiëren. Of een verkoper van vervoerbewijzen kan kenmerken maken voor een plaats van een evenement voor een tweede uitvoerder, zoals een bezoekend team in een sportevenement of een openingsactie in een concert.
 
 Beperkingen:
 
@@ -205,7 +205,7 @@ Voorbeelden:
 
 `'entity.secondary=Rockies'`
 
-Aangepaste entiteitskenmerken ondersteunen meerdere waarden. Zie Kenmerken [van](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) aangepaste entiteiten voor teken- en waardelimieten.
+Aangepaste entiteitskenmerken ondersteunen meerdere waarden. Zie [Aangepaste entiteitskenmerken](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) voor teken- en waardelimieten.
 
 Voorbeeld: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
