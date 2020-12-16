@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# ![Statisch PREMIUM](/help/assets/premium.png) -filter
+# ![](/help/assets/premium.png) PREMIUMStatic-filter
 
-Voer handmatig een of meer statische waarden in om te filteren met behulp van insluitingsregels in [!DNL Adobe Target][!DNL Recommendations].
+Voer handmatig een of meer statische waarden in om te filteren met behulp van insluitingsregels in [!DNL Adobe Target] [!DNL Recommendations].
 
 U kunt bijvoorbeeld alleen inhoud aanbevelen met de MPA-score (Motion Picture Association) van &quot;G&quot; of &quot;PG&quot;.
 
