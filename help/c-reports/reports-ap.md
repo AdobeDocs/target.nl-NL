@@ -12,35 +12,35 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary-rapporten{#automated-personalization-summary-reports}
+# ![Samenvattingsrapporten ](/help/assets/premium.png) PREMIUMAutomated Personalization{#automated-personalization-summary-reports}
 
 De gespecialiseerde rapporten zijn beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] activiteiten in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] is beschikbaar als onderdeel van de [!DNL Target Premium] oplossing. Het is niet inbegrepen met [!DNL Target Standard] zonder een [vergunning](/help/c-intro/intro.md#premium)van de Premie van het Doel.
+>[!UICONTROL Automated Personalization] is beschikbaar als onderdeel van de  [!DNL Target Premium] oplossing. Het is niet inbegrepen met [!DNL Target Standard] zonder een [vergunning van de Premie van het Doel](/help/c-intro/intro.md#premium).
 
-1. Klik **[!UICONTROL Activities]**, klik de gewenste [!UICONTROL Automated Personalization] activiteit van de lijst, dan klik de **[!UICONTROL Reports]** tabel.
+1. Klik **[!UICONTROL Activities]**, klik de gewenste [!UICONTROL Automated Personalization] activiteit van de lijst, dan klik **[!UICONTROL Reports]** tabel.
 
-   Als u veel activiteiten hebt, kunt u de lijst filteren door [!UICONTROL Automated Personalization] in de [!UICONTROL Type] vervolgkeuzelijst te selecteren.
+   Als u vele activiteiten hebt, kunt u de lijst filtreren door [!UICONTROL Automated Personalization] van [!UICONTROL Type] drop-down lijst te selecteren.
 
-1. (Optioneel) Klik op het [!UICONTROL Download] pictogram om de overzichtsweergave te downloaden (bijvoorbeeld door Control en gericht verkeer te vergelijken), onderverdeeld op basis van alle beschikbare succesmetingen.
+1. (Optioneel) Klik op het pictogram [!UICONTROL Download] om de overzichtsweergave te downloaden (bijvoorbeeld door Control en gericht verkeer te vergelijken), onderverdeeld op basis van alle beschikbare succeswaarden.
 
 [!UICONTROL Automated Personalization] bevat de volgende rapporten:
 
 ## Rapport over activiteitsniveau {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
-Het [!UICONTROL Activity Level] rapport vergelijkt de gezamenlijke prestaties van het gebruiken van een [!UICONTROL Automated Personalization] algoritme met willekeurig gediende inhoud (controle).
+Het [!UICONTROL Activity Level] rapport vergelijkt de gezamenlijke prestaties van het gebruiken van een [!UICONTROL Automated Personalization] algoritme aan willekeurig gediende inhoud (controle).
 
 ![Rapport over activiteitsniveau](/help/c-reports/assets/box_plot_ap.png)
 
-De standaardregels voor de interpretatie van resultaten voor A/B-tests zijn nog steeds van toepassing, zoals lift, betrouwbaarheid, trending, duur, enzovoort. Zie [Informatie over de conversiesnelheid](/help/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)voor meer informatie over het interpreteren van resultaten.
+De standaardregels voor de interpretatie van resultaten voor A/B-tests zijn nog steeds van toepassing, zoals lift, betrouwbaarheid, trending, duur, enzovoort. Voor meer informatie over het interpreteren van resultaten, zie [Ongeveer het Tarief van de Omzetting](/help/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
-## Rapport op aanbodniveau {#section_CAA6409879E349C6906E2BE8156D87A1}
+## Rapport Aanbiedingsniveau {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-Het [!UICONTROL Offer Level] rapport voor de Willekeurige Boservaring vergelijkt de prestaties van elk algoritme-toegepast aanbod aan het zelfde willekeurig gediende aanbod (Controle). Daarom mogen de aanbiedingen in dit verband niet met elkaar worden vergeleken.
+Het [!UICONTROL Offer Level] rapport voor de Willekeurige Boservaring vergelijkt de prestaties van elk algoritme-toegepaste aanbieding aan het zelfde willekeurig gediende aanbod (Controle). Daarom mogen de aanbiedingen in dit verband niet met elkaar worden vergeleken.
 
-Klik op het ervaringsalgoritme (Willekeurig bos of besturingselement) om het [!UICONTROL Offer Level] rapport weer te geven.
+Klik op het ervaringsalgoritme (Willekeurig bos of besturingselement) om het [!UICONTROL Offer Level]-rapport weer te geven.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -52,16 +52,16 @@ De aanbiedingen kunnen binnen rapportgroepen worden getoond, en deze rapportgroe
 
 ## Geautomatiseerde segmenten
 
-Klik op het [!UICONTROL Automated Segments] pictogram. Dit rapport laat zien hoe verschillende bezoekers anders reageren op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.
+Klik op het pictogram [!UICONTROL Automated Segments]. Dit rapport laat zien hoe verschillende bezoekers anders reageren op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.
 
 ![Pictogram Automatisch segment](/help/c-reports/assets/icon-automated-sements-ap.png)
 
-Voor meer informatie, zie het [Geautomatiseerde rapport](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)van Segmenten.
+Zie [Rapport Automated Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) voor meer informatie.
 
 ## Belangrijke kenmerken
 
-Klik op het [!UICONTROL Important Attributes] pictogram. Dit rapport toont aan hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.
+Klik op het pictogram [!UICONTROL Important Attributes]. Dit rapport toont aan hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.
 
 ![Pictogram Belangrijke kenmerken](/help/c-reports/assets/icon-important-attributes-ap.png)
 
-Voor meer informatie, zie het [Belangrijke rapport](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)van Attributen.
+Voor meer informatie, zie [Belangrijk rapport van Attributen](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
