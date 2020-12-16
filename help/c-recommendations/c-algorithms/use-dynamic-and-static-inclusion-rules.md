@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) : dynamische en statische inclusieregels gebruiken{#use-dynamic-and-static-inclusion-rules}
+# ![Regels voor dynamische en statische integratie ](/help/assets/premium.png) PREMIUMU gebruiken{#use-dynamic-and-static-inclusion-rules}
 
 Informatie over het creëren van integratieregels voor criteria en bevorderingen in [!DNL Adobe Target] en het toevoegen van extra dynamische of statische het filtreren regels om betere resultaten voor uw aanbevelingen te bereiken.
 
@@ -23,15 +23,15 @@ Informatie over het creëren van integratieregels voor criteria en bevorderingen
 
 ## Filterregels toevoegen aan criteria {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-Terwijl u criteria [](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)creeert, klik **[!UICONTROL Add Filtering Rule]** onder **[!UICONTROL Inclusion Rules]**.
+Als u [criteria maakt, klikt u **[!UICONTROL Add Filtering Rule]** onder **[!UICONTROL Inclusion Rules]**.](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)
 
 ![](assets/inclusion_options_new.png)
 
 Welke opties beschikbaar zijn, is afhankelijk van de verticale en aanbevolen industriesleutel.
 
-## Filterregels toevoegen aan aanbiedingen {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Filterregels toevoegen aan promoties {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-Selecteer tijdens het [maken van een aanbieding](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)de optie **[!UICONTROL Promote by Attribute]** en klik op **[!UICONTROL Add Filtering Rule]**.
+Terwijl [een bevordering creëren](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), selecteer **[!UICONTROL Promote by Attribute]**, dan klik **[!UICONTROL Add Filtering Rule]**.
 
 ![](assets/inclusion_options.png)
 
@@ -55,9 +55,9 @@ De volgende opties zijn beschikbaar voor dynamisch filteren:
 
 | Dynamisch filteren, optie | Details |
 | --- | --- |
-| [Identieke kenmerk entiteit](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filter dynamisch door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruikers met in wisselwerking staan.<br>Gebruik deze optie [!UICONTROL Entity Attribute Matching] wanneer u aanbevelingen wilt weergeven die de bezoeker het meest aanspreken, zoals het favoriete merk van de bezoeker. |
-| [Overeenkomende profielkenmerken](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filter dynamisch door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.<br>Gebruik deze optie [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergeven die overeenkomen met een waarde die is opgeslagen in het profiel van de bezoeker, zoals de grootte of het favoriete merk. |
-| [Overeenkomende parameters](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).<br>Gebruik deze optie [!UICONTROL Parameter Matching] om inhoud aan te bevelen die overeenkomt met de paginaparameters of de parameters van de bezoeker, zoals apparaatafmetingen of geo-locatie. |
+| [Identieke kenmerk entiteit](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filter dynamisch door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruikers met in wisselwerking staan.<br>Gebruik deze optie  [!UICONTROL Entity Attribute Matching] wanneer u aanbevelingen wilt weergeven die de bezoeker het meest aanspreken, zoals het favoriete merk van de bezoeker. |
+| [Overeenkomende profielkenmerken](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filter dynamisch door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.<br>Gebruik deze optie  [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergeven die overeenkomen met een waarde die is opgeslagen in het profiel van de bezoeker, zoals de grootte of het favoriete merk. |
+| [Overeenkomende parameters](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).<br>Gebruik deze optie  [!UICONTROL Parameter Matching] om inhoud aan te bevelen die overeenkomt met de paginaparameters of de parameters van de bezoeker, zoals apparaatafmetingen of geo-locatie. |
 
 ### Filteren op waarde
 
@@ -81,9 +81,9 @@ De volgende voorbeelden bieden algemene ideeën over hoe u dynamische promoties 
 
 ## Lege waarden afhandelen bij het filteren op overeenkomsten van kenmerken van entiteit, overeenkomsten van kenmerken van profiel en overeenkomsten van parameters {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-U kunt verschillende opties kiezen om lege waarden af te handelen bij het filteren op [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]en [!UICONTROL Parameter Matching] voor afsluitcriteria en -promoties.
+U kunt verschillende opties kiezen om lege waarden af te handelen bij het filteren door [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching] voor afsluitcriteria en -promoties.
 
-Eerder werden geen resultaten geretourneerd als een waarde leeg was. In de vervolgkeuzelijst &quot;If *x* is Empty&quot; (Als x leeg is) kunt u de juiste actie kiezen om uit te voeren als de criteria lege waarden hebben, zoals in de volgende afbeelding wordt getoond:
+Eerder werden geen resultaten geretourneerd als een waarde leeg was. In de vervolgkeuzelijst &quot;If *x* is Empty&quot; kunt u de juiste actie kiezen om uit te voeren als de criteria lege waarden hebben, zoals in de volgende afbeelding wordt getoond:
 
 ![](assets/empty_value.png)
 
@@ -91,16 +91,16 @@ Als u de gewenste actie wilt selecteren, houdt u de muisaanwijzer boven het tand
 
 | Handeling | Beschikbaar voor | Details |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] en[!UICONTROL Parameter Matching] | Dit is de standaardhandeling voor [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching].<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
-| [!UICONTROL Do not show any results for this criteria]<br>(Alleen criteria) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]en [!UICONTROL Parameter Matching] | Dit is de standaardhandeling voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
-| [!UICONTROL Do not promote any items<br>(Alleen aanbiedingen)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]en [!UICONTROL Parameter Matching] | Dit is de standaardhandeling voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
-| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching]en [!UICONTROL Parameter Matching] | Als een waarde leeg is, kunt u een statische waarde gebruiken. |
+| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] en[!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching].<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
+| [!UICONTROL Do not show any results for this criteria]<br>(Alleen criteria) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
+| [!UICONTROL Do not promote any items<br>(Alleen aanbiedingen)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
+| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Als een waarde leeg is, kunt u een statische waarde gebruiken. |
 
-## Caveats {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Voorwerpen {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
->Verschillende kenmerken van gegevenstypen zijn mogelijk niet compatibel in dynamische criteria of promoties tijdens runtime met de operatoren &#39;equals&#39; en &#39;does not equal&#39;. U moet [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory]en [!UICONTROL Environment] waarden verstandig aan de rechterkant gebruiken als de linkerkant vooraf gedefinieerde kenmerken of aangepaste kenmerken heeft.
+>Verschillende kenmerken van gegevenstypen zijn mogelijk niet compatibel in dynamische criteria of promoties tijdens runtime met de operatoren &#39;equals&#39; en &#39;does not equal&#39;. Gebruik [!UICONTROL Value]-, [!UICONTROL Margin]-, [!UICONTROL Inventory]- en [!UICONTROL Environment]-waarden verstandig aan de rechterkant als de linkerkant vooraf gedefinieerde kenmerken of aangepaste kenmerken heeft.
 
 ![](assets/left_right.png)
 
