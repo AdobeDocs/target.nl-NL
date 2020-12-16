@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Voordat u implementeert{#before-you-implement}
+# Voordat u{#before-you-implement} implementeert
 
 Overdenkingen die u moet bespreken voordat u Adobe Target implementeert.
 
