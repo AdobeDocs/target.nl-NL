@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Een ontwerp aanpassen met Snelheid{#customize-a-design-using-velocity}
+# ![](/help/assets/premium.png) PREMIUMCPas een ontwerp aan met Snelheid{#customize-a-design-using-velocity}
 
-Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingen in aan te passen [!DNL Adobe Target Recommendations].
+Gebruik de ontwerptaal van de snelheid open-source om aanbevelingen in [!DNL Adobe Target Recommendations] aan te passen.
 
 ## Overzicht van snelheid {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Informatie over snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org).
 
-Alle logica van de Snelheid, syntaxis, etc. kan voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *voor* lussen, *als* verklaringen, en andere code kunt tot stand brengen gebruikend Snelheid eerder dan JavaScript.
+Alle logica van de Snelheid, syntaxis, etc. kan voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *for* lussen, *if* verklaringen, en andere code kunt tot stand brengen gebruikend Snelheid eerder dan JavaScript.
 
-Elke variabele die [!DNL Recommendations] in de `productPage` box of de CSV-upload wordt verzonden, kan in een ontwerp worden weergegeven. Naar deze waarden wordt verwezen met de volgende syntaxis:
+Elke variabele die naar [!DNL Recommendations] wordt verzonden in de `productPage` box of de CSV upload kan in een ontwerp worden getoond. Naar deze waarden wordt verwezen met de volgende syntaxis:
 
 ```
 $entityN.variable
 ```
 
-Namen van variabelen moeten de snelheidshorthand-notatie volgen, die bestaat uit een leading *$* -teken, gevolgd door een VTL-id (Velocity Template Language). De VTL-id moet beginnen met een alfabetisch teken (a-z of A-Z).
+De namen van variabelen moeten de Korte aantekening van de Snelheid volgen, die uit een belangrijke *$* karakter, die door een Taal van het Malplaatje van de Snelheid (VTL) wordt gevolgd Identifier. De VTL-id moet beginnen met een alfabetisch teken (a-z of A-Z).
 
 Namen van variabele snelheidsvariabelen zijn beperkt tot de volgende typen tekens:
 
@@ -58,7 +58,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Zie [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)voor meer informatie over snelheidsvariabelen.
+Voor meer informatie over de variabelen van de Snelheid, zie [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de manuscriptnaam met \ worden ontsnapt. Bijvoorbeeld, `\${user.script_name}`.
 
@@ -121,7 +121,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >Als u tekst wilt toevoegen na de waarde van een variabele vóór een label dat aangeeft dat de naam van de variabele is voltooid, kunt u dit doen met een formele notatie om de naam van de variabele in te sluiten. Bijvoorbeeld: `${entity1.thumbnailUrl}.gif`.
 
-U kunt ook `algorithm.name` en `algorithm.dayCount` als variabelen in ontwerpen gebruiken, zodat één ontwerp kan worden gebruikt om veelvoudige criteria te testen, en de criteria naam kan dynamisch in het ontwerp worden getoond. Dit toont de bezoeker die hij of zij kijkt naar &quot;topverkopers&quot; of &quot;mensen die dit bekeken hebben die dat gekocht hebben.&quot; U kunt deze variabelen zelfs gebruiken om het aantal dagen weer te geven dat in de criteria wordt gebruikt, zoals &quot;hoogste verkopers in de afgelopen twee dagen&quot;, enz. `dayCount`
+U kunt `algorithm.name` en `algorithm.dayCount` als variabelen in ontwerpen ook gebruiken, zodat kan één ontwerp worden gebruikt om veelvoudige criteria te testen, en de criteria naam kan dynamisch in het ontwerp worden getoond. Dit toont de bezoeker die hij of zij kijkt naar &quot;topverkopers&quot; of &quot;mensen die dit bekeken hebben die dat gekocht hebben.&quot; U kunt deze variabelen zelfs gebruiken om het `dayCount` (aantal dagen gegevens te tonen die in de criteria worden gebruikt, zoals &quot;hoogste verkopers in de afgelopen 2 dagen,&quot;etc.
 
 ## Werken met getallen in snelheidssjablonen
 
@@ -129,7 +129,7 @@ Door gebrek, behandelen de malplaatjes van de Snelheid alle entiteitattributen a
 
 1. Declareer een dummyvariabele en initialiseer deze naar een willekeurig geheel getal of een dubbele waarde.
 1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor Sjabloonparser van Target Recommendations om de sjabloon te valideren en op te slaan).
-1. Geef het entiteitkenmerk door in de `parseInt` of `parseDouble` methode van de dummyvariabele die u in stap 1 hebt gemaakt om de tekenreeks om te zetten in een geheel getal of dubbele waarde.
+1. Geef het entiteitkenmerk door in de methode `parseInt` of `parseDouble` van de dummyvariabele die u in stap 1 hebt gemaakt om de tekenreeks om te zetten in een geheel getal of dubbele waarde.
 1. Voer de wiskundige bewerking of vergelijking uit op de nieuwe numerieke waarde.
 
 ### Voorbeeld: Een kortingsprijs berekenen
@@ -185,11 +185,11 @@ Stel dat u de lengte van een film in minuten opslaat, maar de lengte in uren en 
 #end
 ```
 
-## Een sleutelitem weergeven met aanbevolen producten {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Een belangrijk item weergeven met aanbevolen producten {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 U kunt uw ontwerp aanpassen om uw belangrijkste punt naast andere geadviseerde producten te tonen. U kunt bijvoorbeeld het huidige item ter referentie naast de aanbevelingen weergeven.
 
-Hiertoe maakt u in uw ontwerp een kolom met het `$key` kenmerk waarop u de aanbeveling baseert in plaats van het `$entity` kenmerk. De code voor uw sleutelkolom kan er bijvoorbeeld als volgt uitzien:
+Hiertoe maakt u een kolom in uw ontwerp die het kenmerk `$key` gebruikt waarop u uw aanbeveling baseert in plaats van het kenmerk `$entity`. De code voor uw sleutelkolom kan er bijvoorbeeld als volgt uitzien:
 
 ```
 <div class="at-table-column"> 
@@ -206,9 +206,9 @@ Het resultaat is een ontwerp als het volgende, waarbij in één kolom het sleute
 
 ![](assets/rec_key.png)
 
-Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot; [!DNL Target] toont een willekeurig product in [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
+Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot;[!DNL Target] toont een willekeurig product in [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
 
-## Vervangingen in een tekenreekswaarde uitvoeren {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Vervangingen uitvoeren in een tekenreekswaarde {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 U kunt uw ontwerp wijzigen om waarden binnen een tekenreeks te vervangen. Zo vervangt u het decimaalteken dat in de Verenigde Staten wordt gebruikt door het komma-scheidingsteken dat in Europa en andere landen wordt gebruikt.
 
@@ -234,14 +234,14 @@ De volgende code is een volledig voorwaardelijk voorbeeld van een verkoopprijs:
                                     </span>
 ```
 
-## De sjabloongrootte aanpassen en blanco waarden controleren {#default}
+## De sjabloongrootte aanpassen en controleren op lege waarden {#default}
 
-Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege elementen van HTML wanneer er niet genoeg passende die entiteiten van zijn teruggekeerd [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut hebben en [!UICONTROL Partial Template Rendering] zijn ingeschakeld.
+Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege elementen van HTML wanneer er niet genoeg passende entiteiten zijn teruggekeerd van [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut zouden hebben en [!UICONTROL Partial Template Rendering] is ingeschakeld.
 
 Het volgende HTML-fragment vervangt het bestaande HTML-gedeelte in het standaardontwerp van 4 x 2 (de CSS is hier niet opgenomen omwille van de beknoptheid):
 
 * Als een vijfde entiteit bestaat, neemt het manuscript een sluitende div op en opent een nieuwe rij met `<div class="at-table-row">`.
-* Met 4x2, zullen de maximumgetoonde resultaten acht zijn, maar dit kon voor kleinere of grotere lijsten worden aangepast door te wijzigen `$count <=8`.
+* Met 4x2, zullen de maximumgetoonde resultaten acht zijn, maar dit zou voor kleinere of grotere lijsten kunnen worden aangepast door `$count <=8` te wijzigen.
 * Houd er rekening mee dat de logica de entiteiten op meerdere rijen niet in evenwicht brengt. Bijvoorbeeld, als er vijf of zes te tonen entiteiten zijn, zal het dynamisch niet drie op bovenkant en twee op de bodem (of drie op bovenkant en drie op de bodem) worden. In de bovenste rij worden vier items weergegeven voordat een tweede rij wordt gestart.
 
 ```
