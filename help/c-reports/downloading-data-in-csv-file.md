@@ -18,12 +18,12 @@ Download gegevens in de CSV-indeling, zodat u deze snel kunt importeren in Excel
 
 Gegevens downloaden in een CSV-bestand:
 
-1. Klik **[!UICONTROL Activities]** en klik vervolgens in de lijst op de gewenste activiteit.
+1. Klik **[!UICONTROL Activities]**, dan klik de gewenste activiteit van de lijst.
 
-   Als u vele activiteiten hebt, kunt u de lijst filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
+   Als u veel activiteiten hebt, kunt u de lijst filteren door opties te selecteren in de vervolgkeuzelijsten [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] en [!UICONTROL Activity Source].
 
-1. Klik op het **[!UICONTROL Reports]** tabblad.
-1. Klik het **[!UICONTROL Download]** pictogram, dan selecteer een rapporttype om voor analyse in Excel en andere hulpmiddelen te downloaden.
+1. Klik op het tabblad **[!UICONTROL Reports]**.
+1. Klik op het pictogram **[!UICONTROL Download]** en selecteer vervolgens een rapporttype dat u wilt downloaden voor analyse in Excel en andere gereedschappen.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
@@ -41,7 +41,7 @@ Gegevens worden opgeslagen tot het einde van de activiteit.
 
 >[!NOTE]
 >
->Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Om deze berekende metriek te berekenen, download het dossier van Excel van de Rekenmachine van het Doel van het [Volledige Vertrouwen om de waarde van de activiteit in te voeren, of herzie de](/help/assets/complete_confidence_calculator.xlsx) statistische berekeningen die door Doel [](/help/assets/statistical-calculations.pdf)worden gebruikt.
+>Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Als u deze berekende metriek wilt berekenen, downloadt u het Excel-bestand [Complete Trust Calculator](/help/assets/complete_confidence_calculator.xlsx) om de waarde van de activiteit in te voeren of bekijkt u de [statistische berekeningen die door Target](/help/assets/statistical-calculations.pdf) worden gebruikt.
 
 ## Bestelgegevens exporteren naar CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -54,7 +54,7 @@ Het rapport Bestelgegevens bevat informatie over uw bestellingen, zoals:
 
 * Order, markering (dubbele of extreme orders)
 
-   Een orde wordt gemarkeerd als uiterste als het meer dan +/- 3 standaardafwijkingen van de gemiddelde ordewaarde gebruikend de laatste maand van gegevens (tot het tijdstip waarop de berekening werd gemaakt) is. Een activiteit zal zijn extreme orden uitgesloten zodra de activiteit een uur of tot na 15 orden heeft gelopen, welke eerst komt. Zie [Extreme bestellingen](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)uitsluiten voor meer informatie.
+   Een orde wordt gemarkeerd als uiterste als het meer dan +/- 3 standaardafwijkingen van de gemiddelde ordewaarde gebruikend de laatste maand van gegevens (tot het tijdstip waarop de berekening werd gemaakt) is. Een activiteit zal zijn extreme orden uitgesloten zodra de activiteit een uur of tot na 15 orden heeft gelopen, welke eerst komt. Zie [Extreme bestellingen uitsluiten](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA) voor meer informatie.
 
 * Product-id
 
@@ -62,11 +62,11 @@ Het rapport Bestelgegevens bevat informatie over uw bestellingen, zoals:
 
 * Ervaring
 
-   In het [!UICONTROL Order Details] rapport voor [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), en [!UICONTROL Multivariate Test] (MVT) activiteiten, bevat de [!UICONTROL Experience] kolom de ervaring `localId`. Dit is de waarde output van de `$campaign.recipe.id` in aanbiedingstokens.
+   In het [!UICONTROL Order Details] rapport voor [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), en [!UICONTROL Multivariate Test] (MVT) activiteiten, bevat de [!UICONTROL Experience] kolom de ervaring `localId`. Dit is de waarde-uitvoer van de `$campaign.recipe.id` in aanbiedingstokens.
 
-   Er is geen [!UICONTROL Experience] kolom voor [!UICONTROL Automated Personalization] (AP) activiteiten. De huidige [!UICONTROL Algorithm Name] kolom is vervangen door &quot;Control&quot; versus &quot;Targeted&quot; terminologie, zoals elders in [!DNL Target]het document wordt getoond.
+   Er is geen [!UICONTROL Experience] kolom voor [!UICONTROL Automated Personalization] (AP) activiteiten. De huidige [!UICONTROL Algorithm Name] kolom is vervangen door &quot;Controle&quot;versus &quot;Gerichte&quot;terminologie, zoals elders getoond in [!DNL Target].
 
-   Er was geen invloed op de [!UICONTROL Recommendations] activiteiten.
+   Er was geen invloed op [!UICONTROL Recommendations] activiteiten.
 
 >[!NOTE]
 >
@@ -76,11 +76,11 @@ Het rapport Bestelgegevens bevat informatie over uw bestellingen, zoals:
 
 ## Aanbevolen werkwijzen
 
-* Als u een orderrecord wilt opnemen, moet de `orderTotal` parameter worden doorgegeven.
+* Als u een orderrecord wilt opnemen, moet de parameter `orderTotal` worden doorgegeven.
 * Waarden die via de parameter `ProductPurchasedId` mbox worden doorgegeven, worden vermeld in het rapport Order Details.
-* De beste praktijken moeten `orderID` zowel een als een `orderTotal`. Hierdoor kunnen dubbele orders automatisch worden genegeerd.
+* De beste praktijken moeten `orderID` evenals `orderTotal` omvatten. Hierdoor kunnen dubbele orders automatisch worden genegeerd.
 
-## Caveats {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Voorwerpen {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 De volgende informatie is van toepassing op de optie Downloaden:
 
