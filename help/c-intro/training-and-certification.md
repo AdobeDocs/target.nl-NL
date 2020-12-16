@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Opleiding en certificering{#training-and-certification}
+# Training en certificering{#training-and-certification}
 
 Adobe Training Services biedt klassen en certificeringen voor Adobe-producten en -oplossingen, waaronder Adobe Target.
 
-Ga naar de [Adobe Customer Training-website](https://training.adobe.com/training/courses.html#solution=adobeTarget)voor een lijst met beschikbare cursussen onder leiding van een instructeur en online cursussen.
+Voor een lijst van beschikbare instructeur-geleide en online cursussen, bezoek de [Adobe website van de Opleiding van de Klant](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
 Neem voor meer informatie contact op met het Adobe Training Services-centrum voor uw geografische gebied.
 
