@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Een vergelijkingspubliek voor profielkenmerken maken{#create-a-profile-attribute-comparison-audience}
+# Creeer een publiek van de profielattributen vergelijking{#create-a-profile-attribute-comparison-audience}
 
-Definieer een publiek om twee profielkenmerken voor uw [Audience-bibliotheek](/help/c-target/c-audiences/audiences.md) of voor een publiek [met alleen](/help/c-target/creating-activity-only-audience.md)activiteit te vergelijken. Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
+Definieer een publiek om twee profielkenmerken te vergelijken voor uw [Audience library](/help/c-target/c-audiences/audiences.md) of in een [activity-only publiek](/help/c-target/creating-activity-only-audience.md). Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
 
 >[!NOTE]
 >
->Deze functionaliteit is alleen beschikbaar voor de categorie [Bezoekersprofiel](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) .
+>Deze functionaliteit is alleen beschikbaar voor de categorie [Bezoekersprofiel](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Overzicht {#section_303CBC78194D49A2A004945D425441E1}
 
@@ -31,12 +31,12 @@ Stel bijvoorbeeld dat u voor een meubelbedrijf werkt en twee scores voor klantvr
 
 Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. Doel zou dan dynamisch de restauratieruimte en de nestscores van de woonkamerdichtheid voor een specifieke bezoeker vergelijken om te bepalen of die bezoeker voor dit publiek in aanmerking komt.
 
-Voor meer informatie, zie [Methoden om Gegevens in Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)te krijgen.
+Voor meer informatie, zie [Methoden om Gegevens in Doel ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) te krijgen.
 
 ## Een vergelijkingspubliek voor profielkenmerken maken {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Klik op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** > **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. Kies een kenmerk in de **[!UICONTROL Visitor Profile]** vervolgkeuzelijst:
+1. Kies een kenmerk in de vervolgkeuzelijst **[!UICONTROL Visitor Profile]**:
 
    ![Propensatiescore 1](assets/propensity_score_1.png)
 
@@ -44,7 +44,7 @@ Voor meer informatie, zie [Methoden om Gegevens in Doel](/help/c-implementing-ta
 
    ![Propensatiescore 2](assets/propensity_score_2.png)
 
-1. From the **[!UICONTROL Choose Comparison Type]** drop-down list, choose **[!UICONTROL Attribute]**.
+1. Kies **[!UICONTROL Attribute]** in de vervolgkeuzelijst **[!UICONTROL Choose Comparison Type]**.
 
    Met het vergelijkingstype &quot;statische waarde&quot; kunt u het kenmerk &quot;profiel van de bezoeker&quot; vergelijken met een of meer specifieke waarden.
 
@@ -58,7 +58,7 @@ Voor meer informatie, zie [Methoden om Gegevens in Doel](/help/c-implementing-ta
 
    ![](assets/propensity_score_4.png)
 
-## Badge ![Overzicht van trainingsvideo](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Trainingsvideo ![Overzicht badge](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Bekijk de volgende video voor meer informatie en een scenario waarin u deze functie kunt gebruiken:
 
