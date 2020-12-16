@@ -23,7 +23,7 @@ U kunt items toevoegen aan of verwijderen uit de lijst Afbeeldingsaanbiedingen.
 
    Het item wordt geüpload naar de bibliotheek.
 
-## Trainingsvideo: De ![overzichtsbadge Inhoudsopslagplaats](/help/assets/overview.png)
+## Trainingsvideo: De inhoudopslagplaats ![Overzichtsbadge](/help/assets/overview.png)
 
 Deze video bevat informatie over het beheren van inhoud.
 
