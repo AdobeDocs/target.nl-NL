@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Recommendations-activiteit{#recommendations-activity}
+# Recommendations activity{#recommendations-activity}
 
 Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
 
