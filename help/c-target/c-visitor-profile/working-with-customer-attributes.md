@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Informatie over het gebruiken van de gegevens van de ondernemingsklant van een gegevensbestanden van het het relatiebeheer van de klant (CRM) voor inhoud die zich in Adobe Target richt door de Attributen van de Klant in de kerndienst van Adobe Experience Cloud te gebruiken Mensen.
+description: Informatie over het gebruiken van de gegevens van de ondernemingsklant van een gegevensbestanden van het het relatiebeheer van de klant (CRM) voor inhoud die zich in Adobe Target richt door de Attributen van de Klant in de dienst van de Mensen van Adobe Experience Cloud te gebruiken.
 title: Kenmerken van klanten in Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
 
 
-# Klantkenmerken {#customer-attributes}
+# Klantkenmerken
 
-Informatie over het gebruik van bedrijfsklantgegevens uit databases van Customer Relationship Management (CRM) voor inhoud die bestemd is voor [!DNL Adobe Target] door gebruik te maken van klantkenmerken in de [!DNL Adobe Enterprise Cloud People] kernservice.
+Informatie over het gebruik van bedrijfsklantgegevens uit databases van Customer Relationship Management (CRM) voor het aanwijzen van inhoud in [!DNL Adobe Target] door gebruik te maken van klantkenmerken in de [!DNL Adobe Enterprise Cloud People]-service.
 
-Gegevens van bedrijfsklanten die via meerdere bronnen zijn verzameld en in CRM-databases zijn opgeslagen, kunnen in [!DNL Target] worden gebruikt om strategisch de meest relevante inhoud aan klanten te leveren, waarbij de nadruk met name ligt op terugkerende klanten. Soorten publiek en klantkenmerken in de [!DNL People] kernservice (voorheen Profielen en Soorten publiek) brengen gegevensverzameling en -analyse samen met testen en optimaliseren, waardoor gegevens en inzichten actioneel worden.
+Gegevens van bedrijfsklanten die via meerdere bronnen zijn verzameld en in CRM-databases zijn opgeslagen, kunnen in [!DNL Target] worden gebruikt om strategisch de meest relevante inhoud aan klanten te leveren, waarbij de nadruk met name ligt op terugkerende klanten. Soorten publiek en klantkenmerken in de [!DNL People]-service (voorheen Profielen en Soorten publiek) brengen gegevensverzameling en -analyse samen met testen en optimaliseren, waardoor gegevens en inzichten actioneel worden.
 
 ## Overzicht van klantkenmerken {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Klantkenmerken ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de  [!DNL People] kernservice maken deel uit van de service  [!DNL Adobe Experience Cloud] en bieden bedrijven een hulpmiddel om hun klantgegevens naar het  [!DNL Experience Cloud] platform te verzenden.
+[Klantkenmerken ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de  [!DNL People] service maken deel uit van de service  [!DNL Adobe Experience Cloud] en bieden bedrijven een tool om hun klantgegevens naar het  [!DNL Experience Cloud] platform te verzenden.
 
 Gegevens die op [!DNL Experience Cloud] zijn ingevoerd, zijn beschikbaar voor alle [!DNL Experience Cloud]-workflows. [!DNL Target] gebruikt deze gegevens voor het richten van terugkerende klant die op attributen wordt gebaseerd. [!DNL Adobe Analytics] verbruikt deze kenmerken en kunnen worden gebruikt voor analyse en segmentatie.
 
@@ -28,7 +28,7 @@ Gegevens die op [!DNL Experience Cloud] zijn ingevoerd, zijn beschikbaar voor al
 
 Neem de volgende informatie in overweging als uw werk met klantkenmerken en [!DNL Target]:
 
-* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de functie [!UICONTROL Customer attributes] in de kernservice [!DNL People] kunt gebruiken. Zie &quot;Prrequirements for upload Customer Attributes&quot; in [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in de *Experience Cloud and Core Services Product documentation* voor meer informatie.
+* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de functie [!UICONTROL Customer attributes] in de service [!DNL People] kunt gebruiken. Zie &quot;Eerste vereisten voor het uploaden van klantkenmerken&quot; in [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in de *Experience Cloud Services and Administration documentatie* voor meer informatie.
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Neem de volgende informatie in overweging als uw werk met klantkenmerken en [!DN
 
 * U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/).
 
-## Toegang tot klantkenmerken in de kernservice Personen
+## De Attributen van de Klant van de toegang in de dienst van Mensen
 
 1. Klik in [!DNL Adobe Experience Cloud] op het menupictogram ( ![menupictogram](/help/c-target/c-visitor-profile/assets/menu-icon.png) ) en klik vervolgens op **[!UICONTROL People]**.
 
@@ -58,7 +58,7 @@ Voer de volgende stappen uit om CRM-gegevens te gebruiken in [!DNL Target], zoal
 
 ![crm-workflow](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vindt u in [Een bron van klantkenmerken maken en het gegevensbestand](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) uploaden in de *productdocumentatie van Experience Cloud en kernservices*.
+Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vindt u in [Een bron van klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in de *Experience Cloud Services and Administration documentation*.
 
 1. Maak een gegevensbestand.
 
@@ -141,11 +141,11 @@ Geef `mbox3rdPartyId` als parameter aan globale mbox binnen de `targetPageParams
 
 ### De Experience Cloud ID-service gebruiken
 
-Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, moet u een identiteitskaart van de Klant en de Staat van de Authentificatie plaatsen om klantenattributen in het richten te gebruiken. Voor meer informatie, zie [Klantidentiteitskaart en de Staat van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in *de Hulp van de Dienst van de Identiteit van de Experience Cloud*.
+Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, moet u een identiteitskaart van de Klant en de Staat van de Authentificatie plaatsen om klantenattributen in het richten te gebruiken. Voor meer informatie, zie [Klantidentiteitskaart en de Staat van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in *Experience Cloud ID de Hulp van de Dienst*.
 
 Zie de volgende bronnen voor meer informatie over het gebruik van klantkenmerken in [!DNL Target]:
 
-* [Creeer een bron van de klantenattributen en upload het gegevensdossier ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in de Documentatie van het Product  *Experience Cloud*
+* [Creeer een bron van de klantenattributen en upload het gegevensdossier ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in de documentatie van de Diensten van  *Experience Cloud en van het Beleid*
 * [Klantkenmerken: Hoe meer u weet, des te beter u ](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) verbindt de  *Digitale Marketing Blog*
 
 ## Problemen die klanten vaak tegenkomen {#section_BE0F70E563F64294B17087DE2BC1E74C}
