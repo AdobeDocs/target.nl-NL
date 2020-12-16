@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met Adobe Target kunt u mobiele apps testen, personaliseren en optimaliseren op basis van gebruikersgedrag en mobiele context. U kunt interacties leveren die zich door het iteratieve testen evenals op regels-gebaseerde en op AI-Aangedreven personalisatie verbinden en omzetten.
 
-Raadpleeg de nieuwe SDK van [Adobe Experience Platform voor mobiele apps](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) (SDK 5.x) voor meer informatie over het implementeren van Target op mobiele apps.
+Raadpleeg de nieuwe [Adobe Experience Platform SDK voor mobiele apps](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) (SDK 5.x) voor meer informatie over het implementeren van Target op mobiele apps.
 
 Als u de SDK 4.x gebruikt, bevat het proces voor het toewijzen van mobiele apps de volgende stappen:
 
