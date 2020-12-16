@@ -12,35 +12,35 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Uploaden, aangepaste criteria{#upload-custom-criteria}
+# ![Aangepaste criteria ](/help/assets/premium.png) PREMIUMUpload{#upload-custom-criteria}
 
 Upload een CSV-bestand om uw aanbevelingen aan te passen.
 
 Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bereiken. Sommige schermopties variëren afhankelijk van de manier waarop u het scherm bereikt.
 
-* Klik in het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. De criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!DNL Recommendations] activiteiten.
-* Wanneer u een [!DNL Recommendations] activiteit gebruikend [!UICONTROL Visual Experience Composer] (VEC) creeert, wordt u onmiddellijk genomen aan het [!UICONTROL Select Criteria] scherm nadat u een element op uw pagina selecteert en klikt [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before], of [!UICONTROL Insert Recommendations After]. U kunt dan een beschikbare criteria selecteren of u kunt klikken **[!UICONTROL Create Criteria]**. Als u nieuwe criteria maakt, kunt u uw criteria opslaan voor gebruik met andere [!DNL Recommendations] activiteiten. Zie Een Recommendations-activiteit [maken voor meer informatie](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Als u een [!DNL Recommendations] activiteit bewerkt, klikt u in een [!UICONTROL Recommendations Location] vak op de pagina en selecteert u **[!UICONTROL Change Criteria]**. Klik op het [!UICONTROL Select Criteria] scherm **[!UICONTROL Create Criteria]**. U kunt de nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] activiteiten.
+* Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!DNL Recommendations]-activiteiten.
+* Wanneer u een [!DNL Recommendations] activiteit gebruikend [!UICONTROL Visual Experience Composer] (VEC) creeert, wordt u onmiddellijk genomen aan het [!UICONTROL Select Criteria] scherm nadat u een element op uw pagina selecteert en [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before], of [!UICONTROL Insert Recommendations After] klikt. U kunt dan een beschikbare criteria selecteren of u kunt **[!UICONTROL Create Criteria]** klikken. Als u nieuwe criteria creeert, hebt u de optie om uw criteria voor gebruik met andere [!DNL Recommendations] activiteiten te bewaren. Zie [Een Recommendations-activiteit maken](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) voor meer informatie.
+* Wanneer u een [!DNL Recommendations] activiteit uitgeeft, klik in [!UICONTROL Recommendations Location] doos op uw pagina, en selecteer **[!UICONTROL Change Criteria]**. Klik op [!UICONTROL Select Criteria] in het scherm **[!UICONTROL Create Criteria]**. U hebt de optie om uw nieuwe criteria voor gebruik met andere [!DNL Recommendations] activiteiten te bewaren.
 
-In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Criteria] scherm opent met de eerste methode: het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek.
+In de volgende stappen wordt ervan uitgegaan dat u het scherm [!UICONTROL Create New Criteria] opent met de eerste methode: het **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm.
 
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
 1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Upload Custom Criteria]**.
 
-1. Vul de gegevens in in de sectie [Basisinformatie](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) .
+1. Vul de gegevens in de sectie [Basisinformatie](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) in.
 
-1. Vul de informatie in de sectie [Gegevensbron](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in.
+1. Vul de informatie in [Gegevensbron](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) sectie in.
 
-1. Vul de gegevens in de sectie [Inhoud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) in.
+1. Vul de informatie in de sectie [Inhoud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) in.
 
-1. (Voorwaardelijk) Vul de informatie in de sectie [Inhoud gelijkenis](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) in.
+1. (Voorwaardelijk) Vul de informatie in de sectie [Vergelijkbare inhoud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) in.
 
-1. (Voorwaardelijk) Vul de informatie in de sectie van de Regels [van de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) Opname in.
+1. (Voorwaardelijk) Vul de informatie in [Regels voor opname](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) sectie in.
 
-1. (Voorwaardelijk) Vul de informatie in de sectie [Kenmerkweging](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) in.
+1. (Voorwaardelijk) Vul de informatie in [Kenmerkweging](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) sectie in.
 
-1. Selecteer in de **[!UICONTROL Upload CSV]** sectie de inhoud **[!UICONTROL Location]** van het CSV-bestand.
+1. Selecteer in de sectie **[!UICONTROL Upload CSV]** de **[!UICONTROL Location]** van het CSV-bestand.
 
    ![CSV-sectie uploaden](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
@@ -48,8 +48,8 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
    U hebt twee locatieopties:
 
-   * **FTP:** Als u uw CSV-bestand vanaf een FTP-server wilt uploaden, selecteert u **[!UICONTROL FTP]** en voert u de vereiste gegevens in. U hebt de optie om SSL te gebruiken, die het protocol van FTPS gebruikt om uw Csv- dossier veilig over te brengen.
-   * **URL:** Als u uw CSV-bestand via een URL wilt uploaden, selecteert u **[!UICONTROL URL]** en voert u vervolgens een URL in.
+   * **FTP:** Als u uw CSV-bestand vanaf een FTP-server wilt uploaden, selecteert u  **[!UICONTROL FTP]** en voert u de vereiste gegevens in. U hebt de optie om SSL te gebruiken, die het protocol van FTPS gebruikt om uw Csv- dossier veilig over te brengen.
+   * **URL:** Als u uw CSV-bestand via een URL wilt uploaden, selecteert u  **[!UICONTROL URL]** en voert u vervolgens een URL in.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -67,7 +67,7 @@ U kunt de upload- en synchronisatiestatus van uw aangepaste criteria bekijken on
 
 De stroom voor een foutloze upload moet zijn gepland > Feed-bestand downloaden > Importeren > Succesvol.
 
-Hieronder ziet u mogelijke foutberichten die u kunt ontvangen als er een probleem [!DNL Target] optreedt met het uploaden:
+Hieronder volgen mogelijke foutberichten die u kunt ontvangen als [!DNL Target] een probleem tegenkomt met het uploaden:
 
 | Foutbericht | Details |
 |--- |--- |
@@ -78,7 +78,7 @@ Hieronder ziet u mogelijke foutberichten die u kunt ontvangen als er een problee
 | Map niet gevonden | Geef een map op die op de server bestaat. |
 | Bestand niet gevonden | Geef de naam op van een bestand dat op de server in de aangegeven directory staat. |
 
-## Trainingsvideo: Criteria maken in Recommendations (12:33) - ![Zelfstudie](/help/assets/tutorial.png)
+## Trainingsvideo: Criteria maken in Recommendations (12:33) ![Zelfstudie badge](/help/assets/tutorial.png)
 
 Deze video bevat de volgende informatie (details over het uploaden van aangepaste criteria beginnen om 11:43):
 
