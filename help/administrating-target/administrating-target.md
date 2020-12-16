@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Doeloverzicht beheren{#administer-target}
 
-Informatie om u te helpen beheren [!DNL Adobe Target], met inbegrip van configuratiemontages voor Visual Experience Composer (VEC), rapporterend, de configuratie van Scene7, implementatie, gastheren, milieu&#39;s, reactietokens, en gebruikers.
+Informatie om u te helpen [!DNL Adobe Target] beheren, met inbegrip van configuratiemontages voor Visual Experience Composer (VEC), het melden, de configuratie van Scene7, implementatie, gastheren, milieu&#39;s, reactietokens, en gebruikers.
 
-Als u de [!UICONTROL Administration] menu-items wilt openen, klikt u **[!UICONTROL Administration]** in de bovenste menubalk en klikt u op het gewenste tabblad aan de linkerkant:
+Als u de menu-items [!UICONTROL Administration] wilt openen, klikt u op **[!UICONTROL Administration]** in de bovenste menubalk en klikt u vervolgens op het gewenste tabblad aan de linkerkant:
 
 * [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
 * [Rapportage](/help/administrating-target/reporting.md)
