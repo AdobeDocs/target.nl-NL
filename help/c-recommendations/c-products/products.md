@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Entiteiten{#entities}
+# ![](/help/assets/premium.png) PREMIUMEntities{#entities}
 
 Entiteiten verwijzen naar de items die u wilt aanbevelen. Entiteiten kunnen van alles zijn, zoals producten, inhoud (zoals artikelen, presentaties, afbeeldingen, films en tv-programma&#39;s), aanbiedingen van werk, restaurants enzovoort.
 
