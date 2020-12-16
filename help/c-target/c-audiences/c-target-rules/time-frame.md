@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Tijdschema{#time-frame}
+# Tijdkader{#time-frame}
 
 U kunt begin- en einddatums en -tijden toevoegen aan doelgebruikers die uw site gedurende een bepaald tijdsbestek bezoeken. U kunt ook de opties voor Week- en Dagscheiding instellen om herhalende patronen te maken voor doelgroepen.
 
-Met de [gecombineerde functie](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)voor ad-hocpubliek kunt u bijvoorbeeld low-spenders met specifieke inhoud aanspreken gedurende de drie dagen voorafgaand aan de Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag.
+Als u bijvoorbeeld de gecombineerde functie [ad-hocpubliek](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) gebruikt, kunt u tijdens de drie dagen voorafgaand aan Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag een doelgroep maken voor low-spenders met specifieke inhoud.
 
-1. Klik in de [!DNL Target] interface op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Noem het publiek.
 1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Time Frame]**.
 
@@ -34,25 +34,25 @@ Met de [gecombineerde functie](/help/c-target/combining-multiple-audiences.md#co
    >
    >De tijdzone voor begin-/einddatums wordt weergegeven als GMT +/- NN:NN, waarbij NN:NN de verschuiving van GMT is en de tijdzone op accountniveau in plaats van de tijdzone van de bezoeker weerspiegelt. De tijdzone van Californië wordt bijvoorbeeld weergegeven als GMT -08:00.
 
-1. (Voorwaardelijk) Klik **[!UICONTROL Week and Day Parting]** om terugkerende patronen in te stellen, inclusief de dagen van de weken en tijden.
+1. (Voorwaardelijk) Klik **[!UICONTROL Week and Day Parting]** om terugkerende patronen, met inbegrip van dagen van de weken en de tijden te plaatsen.
 
    ![Week- en dagparkeren](assets/week_and_day_parting.png)
 
    U kon de Opties van de Parting van de Week en van de Dag, bijvoorbeeld gebruiken om een &quot;optie van het Praatje&quot;aan bezoekers slechts tijdens de dagen en de uren te tonen dat uw callcenter wordt bemand.
 
-   Selecteer een of meer dagen van de week en stel vervolgens de begin- en eindtijd in. Klik **[!UICONTROL Add More]** om aanvullende patronen op te geven.
+   Selecteer een of meer dagen van de week en stel vervolgens de begin- en eindtijd in. Klik **[!UICONTROL Add More]** om extra patronen te specificeren, zoals gewenst.
 
    >[!NOTE]
    >
    >De tijdzone voor [!UICONTROL Week and Day Parting] wordt weergegeven als GMT +/- NN:NN, waarbij NN:NN de verschuiving van GMT is en de tijdzone op accountniveau in plaats van de tijdzone van de bezoeker weerspiegelt. De tijdzone van Californië wordt bijvoorbeeld weergegeven als GMT -08:00.
 
-1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
+1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
 
    U kunt stap 5 desgewenst voor elke regel herhalen.
 
 1. Klik op **[!UICONTROL Save]**.
 
-## Trainingsvideo: Badge ![Overzicht publiek maken](/help/assets/overview.png)
+## Trainingsvideo: Soorten publiek maken ![Overzichtsbadge](/help/assets/overview.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
