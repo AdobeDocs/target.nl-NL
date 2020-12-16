@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Een globale box uit een verouderde implementatie gebruiken{#use-a-global-mbox-from-a-legacy-implementation}
+# Een globale box uit een oudere implementatie gebruiken{#use-a-global-mbox-from-a-legacy-implementation}
 
-Door gebrek, [!DNL Target] creeert een globale mbox genoemd target-global-mbox, die wordt gebruikt om activiteiten in in in werking te stellen die worden gecreeerd [!DNL Target]. Als u echter al een algemene mbox op uw pagina&#39;s hebt gemaakt voor uw oudere implementaties, kunt u die mbox gebruiken voor uw [!DNL Target] activiteiten.
+Standaard maakt [!DNL Target] een globale box met de naam target-global-mbox, die wordt gebruikt om activiteiten uit te voeren die zijn gemaakt in [!DNL Target]. Nochtans, als u reeds een globaal mbox op uw pagina&#39;s voor uw erfenisimplementaties hebt gecreeerd, kunt u dat mbox voor uw [!DNL Target] activiteiten gebruiken.
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ Door gebrek, [!DNL Target] creeert een globale mbox genoemd target-global-mbox, 
 
 Om uw bestaande globale mbox voor zowel [!DNL Target] als uw erfenisimplementatie te gebruiken, moet u een paar parameters plaatsen.
 
-1. Ga naar [!DNL Target], en klik dan **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Ga naar [!DNL Target] en klik vervolgens op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-   Standaard **[!UICONTROL Page load enabled (Auto-create global mbox]** is dit ingeschakeld en krijgt de aangepaste globale box een naam `target-global-mbox`.
+   Standaard is **[!UICONTROL Page load enabled (Auto-create global mbox]** ingeschakeld en krijgt de aangepaste globale box de naam `target-global-mbox`.
 
-1. Als u een bestaande mbox wilt gebruiken, maak onbruikbaar **[!UICONTROL Page load enabled (Auto-create global mbox]**, en specificeer de naam van eerder gecreeerd globaal mbox op het **[!UICONTROL Global Mbox]** gebied.
+1. Als u een bestaande mbox wilt gebruiken, maak **[!UICONTROL Page load enabled (Auto-create global mbox]** onbruikbaar, en specificeer de naam van eerder gecreeerd globaal mbox op het **[!UICONTROL Global Mbox]** gebied.
 
-   In de [!UICONTROL Global Mbox] vervolgkeuzelijst worden alle vakken in uw account weergegeven. Als u een mbox wilt gebruiken die nog niet bestaat, maakt u de mbox.
+   In de vervolgkeuzelijst [!UICONTROL Global Mbox] worden alle vakken in uw account weergegeven. Als u een mbox wilt gebruiken die nog niet bestaat, maakt u de mbox.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -44,4 +44,4 @@ De volgende FAQs kan worden gebruikt om uw globale mbox implementatie problemen 
 
 ### Waarom wordt het globale selectievakje niet geladen, of waarom is er latentie bij het laden van het globale selectievakje wanneer de pagina wordt geladen?
 
-Zorg ervoor dat de verwijzing at.js de eerste JavaScript-aanroep op de pagina is. Voor andere oplossingen voor dit probleem, zie [Globale doos Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
+Zorg ervoor dat de verwijzing at.js de eerste JavaScript-aanroep op de pagina is. Voor andere oplossingen voor dit probleem, zie [Globale mbox vaak Gestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
