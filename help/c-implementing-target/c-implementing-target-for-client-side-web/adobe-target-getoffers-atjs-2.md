@@ -30,48 +30,48 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 
 >[!NOTE]
 >
->Raadpleeg de documentatie [van de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) bezorgings-API voor informatie over de acceptabele typen voor alle onderstaande velden.
+>Raadpleeg de [Delivery API documentatie](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) voor informatie over de acceptabele typen voor alle hieronder vermelde velden.
 
 | Veldnaam | Vereist? | Beperkingen | Beschrijving |
 | --- | --- | --- | --- |
-| request > id | Nee |  | Een van `tntId`, `thirdPartyId`of `marketingCloudVisitorId` is vereist. |
+| request > id | Nee |  | Een van `tntId`, `thirdPartyId` of `marketingCloudVisitorId` is vereist. |
 | Request > id > thirdPartyId | Nee | Maximale grootte = 128 |  |  |
 | Verzoek > ExperienceCloud | Nee |  |  |
 | Request > ExperienceCloud > Analytics | Nee |  | Adobe Analytics-integratie |
 | Request > ExperienceCloud > Analytics > logging | Nee | Het volgende moet op pagina worden geïmplementeerd:<ul><li>Bezoekersidentiteitsservice</li><li>Appmeasurement.js</li></ul> | De volgende waarden worden ondersteund:<br>**client_side**: Wanneer gespecificeerd, zal een analytische lading aan de bezoeker worden teruggegeven die zou moeten worden gebruikt om naar Adobe Analytics via de Invoeging API van Gegevens te verzenden.<br>**server_kant**: Dit is de standaardwaarde waar het doel en de achtergrond van Analytics SDID zullen gebruiken om de vraag voor rapporteringsdoeleinden samen te binden. |
 | Verzoek > prefetch | Nee |  |  |
-| Verzoek > Prefetch > views | Nee | Maximum aantal 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel&quot;<br>niet toegestane namen moeten beginnen: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Geef parameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
-| Request > prefetch > views > profileParameters | Nee | Maximumaantal van 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel&quot;moeten beginnen | Geef profielparameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
+| Verzoek > Prefetch > views | Nee | Maximumaantal 50<br>Naam niet leeg<br>Naam lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam mag niet beginnen met &quot;profiel&quot;<br>Niet-toegestane namen: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Geef parameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
+| Request > prefetch > views > profileParameters | Nee | Maximumaantal 50<br>Naam niet leeg<br>Naam lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam mag niet beginnen met &quot;profiel&quot; | Geef profielparameters door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
 | Request > prefetch > views > product | Nee |  |  |
-| Request > prefetch > views > product -> id | Nee | Niet<br>algemeen maximum formaat = 128 | Geef de product-id&#39;s door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
-| Request > prefetch > views > product > categoryId | Nee | Niet<br>algemeen maximum formaat = 128 | Geef de id&#39;s van de productcategorie door die moeten worden gebruikt om relevante weergaven in activiteiten op te halen. |
+| Request > prefetch > views > product -> id | Nee | Niet leeg<br>maximumgrootte = 128 | Geef de product-id&#39;s door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
+| Request > prefetch > views > product > categoryId | Nee | Niet leeg<br>maximumgrootte = 128 | Geef de id&#39;s van de productcategorie door die moeten worden gebruikt om relevante weergaven in activiteiten op te halen. |
 | Request > prefetch > views > order | Nee |  |  |
 | Request > prefetch > views > order > id | Nee | Maximumlengte = 250 | Geef dit door zodat id&#39;s kunnen worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
 | Verzoek > Prefetch > views > order > total | Nee | Totaal `>=` 0 | Geef de totalen door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
-| Request > prefetch > views > order > purchaseProductIds | Nee | Geen lege<br>waardenDe maximale lengte van elke waarde 50<br>Samengevoegd en gescheiden door<br>kommaProduct ID&#39;s totale lengte `<=` 250 | Geef de aangeschafte product-id&#39;s door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
+| Request > prefetch > views > order > purchaseProductIds | Nee | Geen lege waarden<br>Maximale lengte van elke waarde 50<br>Gecatactiveerd en gescheiden door komma<br>Totale lengte van product-id&#39;s `<=` 250 | Geef de aangeschafte product-id&#39;s door die moeten worden gebruikt om relevante weergaven in actieve activiteiten op te halen. |
 | Verzoek > Uitvoeren | Nee |  |  |
 | Verzoek > Uitvoeren > pageLoad | Nee |  |  |
-| Request > execute > pageLoad > parameters | Nee | Maximum aantal 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel moeten beginnen.&quot;<br>Namen niet toegestaan: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Haal aanbiedingen met de opgegeven parameters op wanneer de pagina wordt geladen. |
-| Verzoek > execute > pageLoad > profileParameters | Nee | Maximum aantal 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=`256<br>Naam zou niet met &quot;profiel moeten beginnen.&quot; | Haal aanbiedingen met de opgegeven profielparameters op wanneer de pagina wordt geladen. |
+| Request > execute > pageLoad > parameters | Nee | Maximum aantal 50<br>Naam niet leeg<br>Naam lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam mag niet beginnen met &quot;profiel.&quot;<br>Namen niet toegestaan: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Haal aanbiedingen met de opgegeven parameters op wanneer de pagina wordt geladen. |
+| Verzoek > execute > pageLoad > profileParameters | Nee | Maximum aantal 50<br>Naam niet leeg<br>Naam lengte `<=` 128<br>Waarde lengte `<=`256<br>Naam mag niet beginnen met &quot;profiel.&quot; | Haal aanbiedingen met de opgegeven profielparameters op wanneer de pagina wordt geladen. |
 | Verzoek > execute > pageLoad > product | Nee |  |  |
-| Verzoek > execute > pageLoad > product -> id | Nee | Niet<br>blankMaximum = 128 | Ontvang voorstellen met gespecificeerde product IDs wanneer de pagina laadt. |
-| Request > execute > pageLoad > product > categoryId | Nee | Niet<br>blankMaximum = 128 | Ontvang voorstellen met gespecificeerde productcategorie IDs wanneer de pagina laadt. |
+| Verzoek > execute > pageLoad > product -> id | Nee | Niet leeg<br>Maximale grootte = 128 | Ontvang voorstellen met gespecificeerde product IDs wanneer de pagina laadt. |
+| Request > execute > pageLoad > product > categoryId | Nee | Niet leeg<br>Maximale grootte = 128 | Ontvang voorstellen met gespecificeerde productcategorie IDs wanneer de pagina laadt. |
 | Verzoek > execute > pageLoad > order | Nee |  |  |
 | Verzoek > execute > pageLoad > order > id | Nee | Maximumlengte = 250 | Ontvang voorstellen met gespecificeerde orde IDs wanneer de pagina laadt. |
 | Verzoek > execute > pageLoad > order > total | Nee | `>=` 0 | Ontvang voorstellen met gespecificeerde ordetotalen wanneer de pagina laadt. |
-| Verzoek > execute > pageLoad > order > purchaseProductIds | Nee | Geen lege<br>waardenDe maximale lengte van elke waarde 50<br>Samengevoegd en gescheiden door<br>kommaProduct ID&#39;s totale lengte `<=` 250 | Ontvang voorstellen met gespecificeerde gekochte product IDs wanneer de pagina laadt. |
+| Verzoek > execute > pageLoad > order > purchaseProductIds | Nee | Geen lege waarden<br>Maximale lengte van elke waarde 50<br>Gecatactiveerd en gescheiden door komma<br>Totale lengte van product-id&#39;s `<=` 250 | Ontvang voorstellen met gespecificeerde gekochte product IDs wanneer de pagina laadt. |
 | Verzoek > Uitvoeren > Selecties | Nee | Maximale grootte = 50<br>Geen null-elementen |  |
-| Request > execute > mboxes>mbox | Ja | Niet<br>blankGeen &#39;-clicked&#39;<br>suffixMaximale grootte = 250<br>Toegestane tekens: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Naam van de box. |
-| Request > execute > boxes>mbox>index | Ja | Niet<br>nullUnique<br>`>=` 0 | De index vertegenwoordigt niet de volgorde waarin de vakken worden verwerkt. Net als in een webpagina met verschillende regionale vakken kan de volgorde waarin ze worden verwerkt niet worden opgegeven. |
-| Request > execute > boxes > mbox > parameters | Nee | Maximum aantal = 50<br>Naam niet<br>blankName lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam zou niet met &quot;profiel moeten beginnen.&quot;<br>Namen niet toegestaan: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Hiermee worden voorstellen voor een bepaalde mbox met de opgegeven parameters opgehaald. |
-| Verzoek > execute > mboxes>mbox>profileParameters | Nee | Maximum aantal = 50<br>Naam niet lengte<br>blankName `<=` 128<br>Waarde lengte `<=`256<br>Naam zou niet met &quot;profiel moeten beginnen.&quot; | Hiermee worden aanbiedingen voor een bepaalde box met de opgegeven profielparameters opgehaald. |
+| Request > execute > mboxes>mbox | Ja | Niet leeg<br>Geen &#39;-geklikt&#39; achtervoegsel<br>Maximale grootte = 250<br>Toegestane tekens: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Naam van de box. |
+| Request > execute > boxes>mbox>index | Ja | Niet null<br>Unique<br>`>=` 0 | De index vertegenwoordigt niet de volgorde waarin de vakken worden verwerkt. Net als in een webpagina met verschillende regionale vakken kan de volgorde waarin ze worden verwerkt niet worden opgegeven. |
+| Request > execute > boxes > mbox > parameters | Nee | Maximum aantal = 50<br>Naam niet leeg<br>Naam lengte `<=` 128<br>Waarde lengte `<=` 5000<br>Naam mag niet beginnen met &quot;profiel.&quot;<br>Namen niet toegestaan: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Hiermee worden voorstellen voor een bepaalde mbox met de opgegeven parameters opgehaald. |
+| Verzoek > execute > mboxes>mbox>profileParameters | Nee | Maximum aantal = 50<br>Naam niet leeg<br>Naam lengte `<=` 128<br>Waarde lengte `<=`256<br>Naam mag niet beginnen met &quot;profiel.&quot; | Hiermee worden aanbiedingen voor een bepaalde box met de opgegeven profielparameters opgehaald. |
 | Request > execute > mboxes>mbox > product | Nee |  |  |
-| Request > execute > boxes > mbox > product > id | Nee | Niet<br>blankMaximum = 128 | Wis voorstellen voor een bepaalde doos met gespecificeerde product IDs. |
-| Verzoek > Uitvoeren > Selectievakje > Product > Categorie-id | Nee | Niet<br>blankMaximum = 128 | Wis voorstellen voor een bepaalde doos met gespecificeerde productcategorie IDs. |
+| Request > execute > boxes > mbox > product > id | Nee | Niet leeg<br>Maximale grootte = 128 | Wis voorstellen voor een bepaalde doos met gespecificeerde product IDs. |
+| Verzoek > Uitvoeren > Selectievakje > Product > Categorie-id | Nee | Niet leeg<br>Maximale grootte = 128 | Wis voorstellen voor een bepaalde doos met gespecificeerde productcategorie IDs. |
 | Request > execute > boxes > mbox > order | Nee |  |  |
 | Request > execute > boxes>mbox > order > id | Nee | Maximumlengte = 250 | Haal voorstellen voor een bepaalde mbox met de gespecificeerde orde IDs op. |
 | Verzoek > Uitvoeren > Vakken > Postvak > Volgorde > Totaal | Nee | `>=` 0 | Wis voorstellen voor een bepaalde mbox met de gespecificeerde orde totalen. |
-| Verzoek > execute > boxes > mbox > order > purchaseProductIds | Nee | Geen lege<br>waardenDe maximale lengte van elke waarde = 50<br>samengevoegd en gescheiden door<br>kommaProduct-id&#39;s totale lengte `<=` 250 | Wis voorstellen voor een bepaalde doos met de gespecificeerde orde gekochte product IDs. |
+| Verzoek > execute > boxes > mbox > order > purchaseProductIds | Nee | Geen blanco waarden<br>Maximumlengte van elke waarde = 50<br>Geconcentreerd en gescheiden door komma<br>Product ids totale lengte `<=` 250 | Wis voorstellen voor een bepaalde doos met de gespecificeerde orde gekochte product IDs. |
 
 ## getOffers() aanroepen voor alle weergaven
 
@@ -185,11 +185,11 @@ adobe.target.getOffers({
 }
 ```
 
-De payload kan vervolgens naar Adobe Analytics worden doorgestuurd via de API [voor het invoegen van](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)gegevens.
+De nuttige lading kan dan aan Adobe Analytics via [de Invoeging API van Gegevens](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) door:sturen.
 
-## Gegevens ophalen en renderen vanuit meerdere vakken via getOffers() en applyOffers() {#multiple}
+## Gegevens uit meerdere vakken ophalen en renderen via getOffers() en applyOffers() {#multiple}
 
-Met at.js 2.x kunt u meerdere vakken ophalen via de `getOffers()` API. U kunt ook gegevens ophalen voor meerdere vakken en deze vervolgens gebruiken `applyOffers()` om de gegevens te renderen op verschillende locaties die door een CSS-kiezer worden geïdentificeerd.
+met at.js 2.x kunt u meerdere vakken ophalen via de `getOffers()`-API. U kunt ook gegevens ophalen voor meerdere vakken en vervolgens `applyOffers()` gebruiken om de gegevens te renderen op verschillende locaties die door een CSS-kiezer worden geïdentificeerd.
 
 In het volgende voorbeeld ziet u een eenvoudige HTML-pagina waarop at.js 2.x is geïmplementeerd:
 
@@ -211,7 +211,7 @@ In het volgende voorbeeld ziet u een eenvoudige HTML-pagina waarop at.js 2.x is 
 </html>
 ```
 
-Veronderstel dat u drie containers hebt die u via inhoud wilt wijzigen die van wordt ontvangen [!DNL Target]. U kunt één aanvraag maken voor drie vakken waarin elke box inhoud bevat die in de desbetreffende container moet worden gerenderd.
+Veronderstel dat u drie containers hebt die u via inhoud wilt wijzigen die van [!DNL Target] wordt ontvangen. U kunt één aanvraag maken voor drie vakken waarin elke box inhoud bevat die in de desbetreffende container moet worden gerenderd.
 
 De aanvraag- en rendercode kunnen er als volgt uitzien:
 
@@ -256,7 +256,7 @@ adobe.target.getOffers({
 });
 ```
 
-In de `request > prefetch > mboxes` sectie zijn er drie verschillende vakken. Als de aanvraag succesvol is voltooid, ontvangt u de reactie voor elke box van `response > prefetch > mboxes`. Nadat u de reacties hebt en de locaties die u voor rendering wilt gebruiken, kunt u een activering uitvoeren `applyOffers()` om de opgehaalde inhoud te renderen [!DNL Target]. In dit voorbeeld hebben we de volgende afbeelding:
+In de sectie `request > prefetch > mboxes` zijn er drie verschillende vakjes. Als het verzoek met succes werd voltooid, ontvangt u de reactie voor elke mbox van `response > prefetch > mboxes`. Nadat u de reacties hebt en de locaties die u voor rendering wilt gebruiken, kunt u `applyOffers()` aanroepen om de inhoud te renderen die u hebt opgehaald uit [!DNL Target]. In dit voorbeeld hebben we de volgende afbeelding:
 
 * mbox1 > CSS selector #container1
 * mbox2 > CSS selector #container2
@@ -264,7 +264,7 @@ In de `request > prefetch > mboxes` sectie zijn er drie verschillende vakken. Al
 
 In dit voorbeeld wordt de telvariabele gebruikt om de CSS-kiezers samen te stellen. In een real-life scenario kunt u een verschillende afbeelding gebruiken tussen de CSS-kiezer en de box.
 
-In dit voorbeeld wordt wel het volgende gebruikt `prefetch > mboxes`, maar u kunt het ook gebruiken `execute > mboxes`. Zorg ervoor dat als u Prefetch in gebruikt `getOffers()`, u ook prefetch in de `applyOffers()` aanroeping zou moeten gebruiken.
+In dit voorbeeld wordt `prefetch > mboxes` gebruikt, maar u kunt `execute > mboxes` ook gebruiken. Zorg ervoor dat als u prefetch in `getOffers()` gebruikt, u ook prefetch in `applyOffers()` aanroeping zou moeten gebruiken.
 
 ## Roep getOffers() aan om een pageLoad uit te voeren
 
