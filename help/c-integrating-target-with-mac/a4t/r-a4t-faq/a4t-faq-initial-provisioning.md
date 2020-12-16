@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Aanvankelijke levering - Veelgestelde vragen A4T{#initial-provisioning-a-t-faq}
+# Aanvankelijke levering - A4T Veelgestelde vragen{#initial-provisioning-a-t-faq}
 
 Dit onderwerp bevat antwoorden op vragen die vaak over leveringAnalytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 
@@ -26,9 +26,9 @@ Een standaard A4T-use-case met meerdere pagina&#39;s implementeren:
 
 ## Hoe kan ik vertellen of A4T op mijn rekening van het Doel wordt toegelaten? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [Vereisten](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) voor gebruikersmachtigingen.
+Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [Vereisten voor gebruikersmachtigingen](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Als u lid bent van een of meer Experience Cloud-groepen die toegang hebben tot Analytics en Target en u toegang hebt tot alle rapportsuites, kunt u beter een A/B-test maken met Analytics onder **[!UICONTROL Create Activity]**.
+Zodra u lid bent van één of meerdere groepen van Experience Cloud die toegang tot Analytics en Doel hebben en u toegang tot alle rapportreeksen hebt, zou u de optie moeten zien om een A/B test tot stand te brengen gebruikend Analytics onder **[!UICONTROL Create Activity]**.
 
 Als zich inrichtingsproblemen voordoen, controleert u of A4T correct is ingericht.
 
