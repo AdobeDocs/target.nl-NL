@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Locatiebijdrage (MVT){#location-contribution-report-mvt}
+# Locatiebijdragerapport (MVT){#location-contribution-report-mvt}
 
 Het rapport Locatiebijdrage geeft de prestaties van elk element en elke aanbieding weer.
 
@@ -32,7 +32,7 @@ De tweede lijst verstrekt een aanbod-niveau rapport. Het toont de omrekeningskoe
 
 ![](assets/locationcontributionbottom.png)
 
-## Trainingsvideo: Een MVT- ![zelfstudie maken](/help/assets/tutorial.png)
+## Trainingsvideo: Een MVT-test maken ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test maakt met behulp van de driestapige workflow met instructies voor het doel. Het rapport Locatiebijdrage wordt vanaf 8:45 beschreven.
 
