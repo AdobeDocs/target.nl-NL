@@ -15,39 +15,39 @@ ht-degree: 0%
 
 # Vereisten voor gebruikerstoegang
 
-Informatie over de vereisten van de gebruikersrekening om een [!DNL Adobe Analytics]gebaseerde activiteit in [!DNL Adobe Target] (A4T) tot stand te brengen.
+Informatie over de vereisten van de gebruikersrekening om een [!DNL Adobe Analytics]-gebaseerde activiteit in [!DNL Adobe Target] (A4T) tot stand te brengen.
 
-Voordat u een rapportsuite kunt selecteren wanneer u een [!DNL Analytics] activiteit definieert, hebt u zowel een [!DNL Analytics] gebruikersaccount als een [!DNL Target] gebruikersaccount nodig.
+Voordat een rapportsuite kan worden geselecteerd bij het definiëren van een [!DNL Analytics]-activiteit, hebt u zowel een [!DNL Analytics]-gebruikersaccount als een [!DNL Target]-gebruikersaccount nodig.
 
 Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de volgende secties:
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Voer de volgende taken uit in de [!DNL Adobe Experience Cloud][Admin Console](https://adminconsole.adobe.com):
+Voltooi de volgende taken in [!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com):
 
 ### Accounts voor oplossingen koppelen aan uw Adobe ID
 
-Je [!DNL Analytics] en [!DNL Target] gebruikersaccounts moeten aan je Adobe ID zijn gekoppeld.
+Uw [!DNL Analytics]- en [!DNL Target]-gebruikersaccounts moeten aan uw Adobe ID zijn gekoppeld.
 
-Zie [Organisaties en accountkoppelingen](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)voor meer informatie.
+Zie [Organisaties en account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html) voor meer informatie.
 
 ### Experience Cloud-groepslidmaatschap configureren
 
-U moet lid zijn van een of meer [!DNL Experience Cloud] groepen die toegang hebben tot [!DNL Analytics] en [!DNL Target].
+U moet lid van één of meerdere [!DNL Experience Cloud] groepen zijn die toegang tot [!DNL Analytics] en [!DNL Target] hebben.
 
-Zie Gebruikers en producten [van Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)beheren voor meer informatie.
+Zie [Gebruikers en producten van Experience Cloud beheren](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) voor meer informatie.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Toegang tot de [!DNL Analytics] rapportsuite configureren:
+Toegang tot de [!DNL Analytics]-rapportsuite configureren:
 
 Om A4T op een bepaalde rapportreeks te gebruiken, moet u toegang tot die rapportreeks hebben.
 
-1. Klik **[!UICONTROL Admin Console]** in op een [!DNL Analytics] productprofiel en klik vervolgens op de **[!UICONTROL Permissions]** tab.
+1. Klik in **[!UICONTROL Admin Console]** op een [!DNL Analytics]-productprofiel en klik vervolgens op het tabblad **[!UICONTROL Permissions]**.
 
    Vervolgens kunt u zien tot welke rapportsuites het profiel toegang heeft.
 
-1. Zorg ervoor dat de rapportsuite waartoe u toegang wilt hebben [!DNL Target] een van de servers is die worden vermeld in het productprofiel waarvan u deel uitmaakt.
+1. Zorg ervoor dat de rapportenreeks u toegang tot in [!DNL Target] wilt hebben één van degenen die in het productprofiel wordt vermeld u een deel van bent.
 
    De volgende illustratie is een voorbeeld van een productprofiel dat toegang tot alle rapportsuites heeft:
 
