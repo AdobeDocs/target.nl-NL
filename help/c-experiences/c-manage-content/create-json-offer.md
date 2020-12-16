@@ -23,12 +23,12 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 * JSON-aanbiedingen zijn momenteel alleen beschikbaar voor AB- en XT-activiteiten.
 * JSON-aanbiedingen kunnen alleen worden gebruikt in formuliergebaseerde activiteiten.
 * De JSON-aanbieding kan rechtstreeks worden opgehaald wanneer u de Server Side API, Mobile SDK of NodeJS SDK gebruikt.
-* In de browser kunnen JSON-aanbiedingen ALLEEN worden opgehaald via at.js 1.2.3 (of hoger) en [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) gebruiken door handelingen te filteren met behulp van de `setJson` handeling.
+* In browser, kunnen de aanbiedingen JSON UITSLUITEND via at.js 1.2.3 (of recenter) worden teruggewonnen en gebruikend [getOffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) door acties te filtreren gebruikend `setJson` actie.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
 * JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen) omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. Ontwikkelaars moeten code schrijven om de aanbieding expliciet op te halen met [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * JSON-aanbiedingen worden niet ondersteund als u mbox.js gebruikt.
 
-## Een JSON-aanbieding maken {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
+## Een JSON-aanbieding {#section_BB9C72D59DEA4EFB97A906AE7569AD7A} maken
 
 1. Klik op **[!UICONTROL Offers]** en selecteer vervolgens het tabblad **[!UICONTROL Code Offers]**.
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
@@ -36,7 +36,7 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
    ![](assets/offer-json.png)
 
 1. Typ een naam voor het voorstel.
-1. Typ of plak de JSON-code in het **[!UICONTROL Code]** vak.
+1. Typ of plak uw JSON-code in het tekstvak **[!UICONTROL Code]**.
 1. Klik op **[!UICONTROL Save]**.
 
 ## Voorbeeld {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -78,9 +78,9 @@ De array actions heeft deze structuur:
 ]
 ```
 
-Als u de JSON-aanbieding wilt extraheren, doorloopt u de handelingen en zoekt u de handeling met `setJson` een handeling en doorloopt u vervolgens de inhoudarray.
+Als u de JSON-aanbieding wilt extraheren, doorloopt u handelingen en zoekt u de handeling met de handeling `setJson` en doorloopt u vervolgens de inhoudarray.
 
-## Hoofdletters gebruiken {#section_85B07907B51A43239C8E3498EF58B1E5}
+## Hoofdlettergebruik {#section_85B07907B51A43239C8E3498EF58B1E5}
 
 Stel dat de volgende JSON-aanbieding op uw webpagina wordt afgeleverd:
 
@@ -128,9 +128,9 @@ adobe.target.getOffer({
 });
 ```
 
-## Aanbiedingen filteren op basis van het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Aanbiedingen filteren op basis van het JSON-type aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-U kunt de bibliotheek van Aanbiedingen door het aanbiedingstype van JSON filtreren door de **[!UICONTROL Type]** drop-down lijst te klikken, dan door **[!UICONTROL JSON]** checkbox te selecteren.
+U kunt de bibliotheek van Aanbiedingen door het aanbiedingstype van JSON filtreren door **[!UICONTROL Type]** drop-down lijst te klikken, dan door &lt;a1 te selecteren/> checkbox.**[!UICONTROL JSON]**
 
 ![](assets/offer-json-filter.png)
 
