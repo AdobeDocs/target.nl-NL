@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -parameterovereenkomst
+# ![Overeenkomende ](/help/assets/premium.png) parameters PREMIUMP
 
 Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).
 
@@ -35,7 +35,7 @@ U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-param
 
 [!UICONTROL Parameter Matching] kunt u inhoud aanbevelen die overeenkomt met de paginaparameters of de parameters van de bezoeker, zoals apparaatafmetingen of geo-locatie, zoals in het volgende voorbeeld:
 
-[!DNL Recommendations] kan parameterwaarden aanpassen die in de [!DNL Target] vraag worden verzonden. In deze instantie, [!DNL Target] ontdekt dat een bezoeker een mobiel apparaat gebruikt, dat op de het schermhoogte en breedteparameters wordt gebaseerd die in de [!DNL Target] vraag worden verzonden, en zal slechts punten adviseren die mobiele apparaten zijn.
+[!DNL Recommendations] Kan parameterwaarden aanpassen die in de  [!DNL Target] aanroep worden verzonden. In deze instantie detecteert [!DNL Target] dat een bezoeker een mobiel apparaat gebruikt, op basis van de parameters voor schermhoogte en -breedte die zijn verzonden in de [!DNL Target]-aanroep, en worden alleen items aanbevolen die mobiele apparaten zijn.
 
 Overweeg de volgende vraag van het voorbeeldDoel:
 
