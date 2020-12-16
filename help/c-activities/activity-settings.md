@@ -12,29 +12,29 @@ ht-degree: 0%
 ---
 
 
-# Activiteiteninstellingen{#activity-settings}
+# Activiteitsinstellingen{#activity-settings}
 
 Met Activiteitsinstellingen kunt u het doel, de prioriteit en de duur van uw activiteiten beheren.
 
 1. Voer notities in over het doel van de activiteit.
 
-   Typ alle informatie over uw activiteiten die u voor uzelf of andere teamleden kunt gebruiken. Sleep om het formaat van het [!UICONTROL Objective] veld te wijzigen.
+   Typ alle informatie over uw activiteiten die u voor uzelf of andere teamleden kunt gebruiken. Sleep om het formaat van het veld [!UICONTROL Objective] te wijzigen.
 1. Stel de prioriteit voor de activiteit in.
 
-   Afhankelijk van uw instellingen, [!UICONTROL Priority] variëren de interface en de opties. U kunt de oudere instellingen Laag, Normaal of Hoog gebruiken of u kunt fijnkorrelige prioriteiten van 0 tot en met 999 inschakelen.
+   Afhankelijk van uw instellingen variëren de interface en opties voor [!UICONTROL Priority]. U kunt de oudere instellingen Laag, Normaal of Hoog gebruiken of u kunt fijnkorrelige prioriteiten van 0 tot en met 999 inschakelen.
 
    De prioriteit wordt gebruikt als de veelvoudige activiteiten aan de zelfde plaats met het zelfde publiek worden toegewezen. Als twee of meer activiteiten aan de plaats worden toegewezen, de activiteit met de hoogste prioritaire vertoningen.
 
-   Als deze optie niet is ingeschakeld in [!UICONTROL Administration] > [!UICONTROL Reporting] (de standaardinstelling), geeft u een prioriteit op: Laag, Normaal of Hoog.
+   Als deze optie niet wordt toegelaten in [!UICONTROL Administration] > [!UICONTROL Reporting] (het gebrek), specificeer een prioriteit: Laag, Normaal of Hoog.
 
-   Als u fijnkorrelige prioriteiten wilt inschakelen, klikt u op [!UICONTROL Administration] > [!UICONTROL Reporting]en schakelt u de [!UICONTROL Enable Fine-Grained Priorities] optie in op de positie &quot;Aan&quot;.
+   Als u fijnkorrelige prioriteiten wilt inschakelen, klikt u op [!UICONTROL Administration] > [!UICONTROL Reporting] en schakelt u de optie [!UICONTROL Enable Fine-Grained Priorities] in op de positie &quot;Aan&quot;.
 
    Als deze optie is ingeschakeld, geeft u een waarde op tussen 0 en 999:
 
    * 0 = Laag
    * 999 = Hoog
 
-   Voor activiteiten die zijn gemaakt in eerdere versies van [!DNL Target Standard/Premium], wordt Lage prioriteit omgezet in 0, Normaal in 5 en Hoog in 10. U kunt deze waarden desgewenst aanpassen.
+   Voor activiteiten die in vorige versies van [!DNL Target Standard/Premium] worden gecreeerd, wordt de Lage prioriteit omgezet in 0, Normaal wordt omgezet in 5, en Hoog wordt omgezet in 10. U kunt deze waarden desgewenst aanpassen.
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ Met Activiteitsinstellingen kunt u het doel, de prioriteit en de duur van uw act
    >
    >Het plannen van een activiteit controleert het leveringstijdkader van de activiteit; de activiteit moet echter expliciet geactiveerd worden voordat deze volgens het gespecificeerde schema kan worden geleverd.
 
-De [!UICONTROL Goal & Settings] pagina bevat aanvullende instellingen die variëren op basis van het type activiteit dat u maakt. Raadpleeg het type activiteit voor meer informatie over deze instellingen:
+De pagina [!UICONTROL Goal & Settings] bevat aanvullende instellingen die variëren op basis van het type activiteit dat u maakt. Raadpleeg het type activiteit voor meer informatie over deze instellingen:
 
 * [A/B-test](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
@@ -56,7 +56,7 @@ De [!UICONTROL Goal & Settings] pagina bevat aanvullende instellingen die varië
 * [Multivariatietest](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Trainingsvideo: Activiteit Settings ![Tutorial badge](/help/assets/tutorial.png)
+## Trainingsvideo: Activiteitsinstellingen ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 Deze video bevat informatie over instellingen voor activiteit.
 
