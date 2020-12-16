@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Troubleshoot Automated Personalization{#troubleshoot-automated-personalization}
+# ![automated personalization ](/help/assets/premium.png) PREMIUMTroubleshoot{#troubleshoot-automated-personalization}
 
 Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u Automated Personalization gebruikt en enkele oplossingen.
 
@@ -19,7 +19,7 @@ Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitda
 
 Er zijn verscheidene veranderingen van de activiteitenopstelling die de verwachte tijd kunnen verminderen om modellen te bouwen, met inbegrip van het aantal ervaringen in uw test van Automated Personalization, het verkeer aan uw plaats, en uw geselecteerde succesmetrisch.
 
-**Oplossing:** Controleer uw activiteitenopstelling en zie of zijn er om het even welke veranderingen u bereid bent aan te brengen om de snelheid te verbeteren waarop de modellen zullen bouwen.
+**Oplossing:** herzie uw activiteitenopstelling en zie of zijn er om het even welke veranderingen u bereid bent om te maken om de snelheid te verbeteren waarop de modellen zullen bouwen.
 
 * Als uw succesmetrisch wordt geplaatst aan RPV, kunt u in omzetting veranderen? De activiteiten van de omzetting neigen om minder verkeer te vereisen om modellen te bouwen. U verliest geen activiteitsgegevens als u de succesmetrische waarde wijzigt van RPV in Conversie.
 * Is uw succes metrisch ver onderaan de verkooptrechter van uw activiteitenervaringen? Een lager tarief van de activiteitenomzetting verhoogt de verkeersvereisten nodig voor modellen om te bouwen, aangezien een minimumaantal omzettingen wordt vereist.
@@ -35,13 +35,13 @@ Er zijn verschillende factoren vereist voor een AP-activiteit om lift te generer
 * Er moet voldoende verkeer en statistische &quot;kracht&quot; in de test aanwezig zijn om de lift te detecteren.
 * Het verpersoonlijkingsalgoritme moet goed werken.
 
-**Oplossing:** De beste manier van werken is eerst ervoor te zorgen dat de inhoud en de locaties waaruit de activiteitenervaringen bestaan daadwerkelijk een verschil maken met de totale responspercentages met behulp van een eenvoudige, niet-gepersonaliseerde A/B-test. Zorg ervoor dat u de monstergrootten vooraf berekent om ervoor te zorgen dat er voldoende kracht is om een redelijke lift te zien en de A/B-test voor een vaste duur uit te voeren zonder deze te stoppen of wijzigingen aan te brengen. Als een A/B-testresultaten statistisch significante lift op een of meer van de ervaringen laten zien, is het waarschijnlijk dat een gepersonaliseerde activiteit zal werken. Natuurlijk kan personalisatie werken zelfs als er geen verschillen zijn in de totale responspercentages van de ervaringen. Doorgaans is het probleem het gevolg van aanbiedingen/locaties die niet voldoende invloed hebben op het optimalisatiedoel en die statistisch significant moeten worden opgespoord.
+**Oplossing:** De beste manier van actie is eerst ervoor te zorgen de inhoud en de plaatsen die omhoog de activiteitenervaringen maken werkelijk een verschil maken aan de algemene reactiesnelheden gebruikend een eenvoudige, niet-gepersonaliseerde test A/B. Zorg ervoor dat u de monstergrootten vooraf berekent om ervoor te zorgen dat er voldoende kracht is om een redelijke lift te zien en de A/B-test voor een vaste duur uit te voeren zonder deze te stoppen of wijzigingen aan te brengen. Als een A/B-testresultaten statistisch significante lift op een of meer van de ervaringen laten zien, is het waarschijnlijk dat een gepersonaliseerde activiteit zal werken. Natuurlijk kan personalisatie werken zelfs als er geen verschillen zijn in de totale responspercentages van de ervaringen. Doorgaans is het probleem het gevolg van aanbiedingen/locaties die niet voldoende invloed hebben op het optimalisatiedoel en die statistisch significant moeten worden opgespoord.
 
 ## De URL van mijn AP-activiteit toont inhoud van de aanbieding op onjuiste pagina&#39;s. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, worden URL en malplaatje het testen regels toegevoegd aan de beperking van de [!DNL Target] verzoekingang (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een activiteit kwalificeert, wordt het doel-verzoek-niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats richtend regels.
+In AP, worden URL en malplaatje het testen regels toegevoegd aan de [!DNL Target] beperking van de verzoekingang (bijvoorbeeld, doel-globaal-mbox), waar zij slechts eenmaal worden geëvalueerd. Zodra een gebruiker voor een activiteit kwalificeert, wordt het doel-verzoek-niveau richtend regels niet opnieuw geëvalueerd. Nochtans, wordt het gerichte publiek toegevoegd aan plaats richtend regels.
 
-**Oplossing:** Voeg de noodzakelijke malplaatjeregels als input-publiek van de campagne toe. De evaluatie van het publiek gebeurt op elk verzoek/vraag.
+**Oplossing:** voeg de noodzakelijke malplaatjeregels als input-publiek van de campagne toe. De evaluatie van het publiek gebeurt op elk verzoek/vraag.
 
 Dit wordt in een volgende release opgelost.
 
