@@ -24,7 +24,7 @@ De beschikbare instellingen zijn afhankelijk van het feit of u Doel of Analyse a
 
 ![](assets/mvt_settings.png)
 
-## Activiteiteninstellingen {#section_DCBDC354261F420EBD4B43EA34947BAC}
+## Activiteitsinstellingen {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
 De volgende instellingen zijn beschikbaar:
 
@@ -38,9 +38,9 @@ Afhankelijk van uw instellingen variëren de interface en opties voor prioriteit
 
 De prioriteit wordt gebruikt als de veelvoudige activiteiten aan de zelfde plaats met het zelfde publiek worden toegewezen. Als twee of meer activiteiten aan de plaats worden toegewezen, de activiteit met de hoogste prioritaire vertoningen.
 
-Als deze optie niet is ingeschakeld in S[!UICONTROL Administration] > [!UICONTROL Reporting] (de standaardinstelling), geeft u een prioriteit op: Laag, Normaal of Hoog.
+Als deze optie niet in S[!UICONTROL Administration] > [!UICONTROL Reporting] (het gebrek) wordt toegelaten, specificeer een prioriteit: Laag, Normaal of Hoog.
 
-Als u fijnkorrelige prioriteiten wilt inschakelen, klikt u op [!UICONTROL Administration] > [!UICONTROL Reporting]en schakelt u de optie Fine-Grained Prioriteiten inschakelen in op de positie &quot;Aan&quot;.
+Als u fijnkorrelige prioriteiten wilt inschakelen, klikt u op [!UICONTROL Administration] > [!UICONTROL Reporting] en schakelt u vervolgens de optie Fine-Grained prioriteiten inschakelen in op de positie &quot;Aan&quot;.
 
 Als deze optie is ingeschakeld, geeft u een waarde op tussen 0 en 999:
 
@@ -67,7 +67,7 @@ Geef op of gegevens uit Adobe Target of Adobe Analytics worden verzameld. Zie [A
 
 Wanneer u Analytics selecteert als de rapporteringsbron voor Target, selecteert u een Analytics-rapportsuite die doelactiviteitgegevens ontvangt. Hiervoor kiest u eerst een van de Analytics-bedrijven waaraan uw account is gekoppeld en selecteert u vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht voor verbinding met Adobe Target, zijn beschikbaar voor selectie. Als u de rapportsuite(s) die u verwacht niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de Adobe Experience Cloud om het opnieuw te proberen. Neem contact op met de klantenservice als de rapportsuite nog steeds ontbreekt in de lijst.
 
-Analytics for Target vereist een trackingserver om de resultaten correct te rapporteren. In het veld Trackingserver wordt een standaard traceringsserver weergegeven. Als u meerdere trackingservers gebruikt, moet u controleren of u de juiste trackingserver in dit veld opneemt. Zie Een [Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken voor meer informatie.
+Analytics for Target vereist een trackingserver om de resultaten correct te rapporteren. In het veld Trackingserver wordt een standaard traceringsserver weergegeven. Als u meerdere trackingservers gebruikt, moet u controleren of u de juiste trackingserver in dit veld opneemt. Zie [Een Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken voor meer informatie.
 
 Als er een rapportoplossing is opgegeven in uw accountinstellingen, wordt de opgegeven oplossing gebruikt en is deze instelling niet zichtbaar.
 
@@ -121,12 +121,12 @@ Met de optie Afhankelijkheid toevoegen kan metrisch met succes worden verhoogd a
 
 Een afhankelijkheid toevoegen:
 
-1. Klik op **[!UICONTROL Advanced Settings]**.
+1. Klik op **[!UICONTROL Advanced Settings]** nadat u extra metriek hebt toegevoegd.
 2. Klik op de optie Afhankelijkheid toevoegen:
 
    ![Afhankelijkheid toevoegen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. Sleep de gewenste metriek van het linkerdeelvenster naar het rechterdeelvenster en klik vervolgens **[!UICONTROL Reached]** om de instelling tussen Gehaald en Niet bereikt te wijzigen.
+3. Sleep de gewenste metriek van het linkerdeelvenster naar het rechterdeelvenster en klik vervolgens op **[!UICONTROL Reached]** om de instelling tussen Gehaald en Niet bereikt in te schakelen.
 
    ![Afhankelijkheid bereikt](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
@@ -154,7 +154,7 @@ Typ alle informatie over uw activiteiten die u voor uzelf of andere teamleden ku
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Activiteitsinstellingen (3:02) ![Zelfstudie](/help/assets/tutorial.png)
+### Activiteitsinstellingen (3:02) ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 Deze video bevat informatie over instellingen voor activiteit.
 
@@ -166,7 +166,7 @@ Deze video bevat informatie over instellingen voor activiteit.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Zelfstudie-badge voor meerdere ![tests maken (9:25)](/help/assets/tutorial.png)
+### Multivariate tests maken (9:25) ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test maakt met behulp van de driestapige workflow met instructies voor het doel. De doelstellingen en de montages worden besproken begin om 7:00.
 
