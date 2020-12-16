@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Overzicht: Doel voor client-side web implementeren
 
-In een client-side implementatie van [!DNL Adobe Target], [!DNL Target] levert de ervaringen verbonden aan een activiteit direct aan cliëntbrowser. De browser bepaalt welke ervaring wordt weergegeven en geeft deze weer. Met een cliënt-zijimplementatie, kunt u een redacteur WYSIWYG, de [Visuele Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) van de Ervaring (VEC), of een niet-visuele interface, de [Op vorm-gebaseerde Composer](/help/c-experiences/form-experience-composer.md)van de Ervaring gebruiken, om uw activiteit en verpersoonlijkingservaringen tot stand te brengen.
+In een client-side implementatie van [!DNL Adobe Target] levert [!DNL Target] de ervaringen die met een activiteit zijn gekoppeld rechtstreeks aan de clientbrowser. De browser bepaalt welke ervaring wordt weergegeven en geeft deze weer. Met een cliënt-zijimplementatie, kunt u een redacteur WYSIWYG, [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC), of een niet-visuele interface, [Op vorm-gebaseerde Composer van de Ervaring](/help/c-experiences/form-experience-composer.md), gebruiken om uw activiteit en verpersoonlijkingservaringen tot stand te brengen.
 
-Als u [!DNL Adobe Target] client-side wilt implementeren, moet u de bibliotheek [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) of mbox.js gebruiken.
+Als u [!DNL Adobe Target] wilt implementeren op de client, moet u de bibliotheek [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) of mbox.js gebruiken.
 
 >[!NOTE]
 >
