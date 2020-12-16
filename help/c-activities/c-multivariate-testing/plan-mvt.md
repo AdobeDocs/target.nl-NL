@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Een multivariatietest plannen{#plan-a-multivariate-test}
+# Plan een Multivariate Test{#plan-a-multivariate-test}
 
-[!UICONTROL Multivariate Tests] (MVT) in [!DNL Adobe Target] vereisen wat planning alvorens u een succesvolle test kunt tot stand brengen.
+[!UICONTROL Multivariate Tests] (MVT) in  [!DNL Adobe Target] vereisen wat planning alvorens u een succesvolle test kunt tot stand brengen.
 
 MVT vereist voldoende verkeer om nuttige resultaten te produceren. Voordat u de test instelt, moet u op de hoogte zijn van de hoeveelheid verkeer die u doorgaans krijgt, inclusief het aantal indrukken en conversies. Als u deze informatie hebt, is het minder waarschijnlijk dat u een test ontwerpt met vereisten die het verkeer van uw site overschrijden.
 
@@ -26,7 +26,7 @@ Test de elementen op de pagina die waarschijnlijk belangrijke resultaten zullen 
 
 Tot slot alvorens u uw test creeert, zou u de inhoud moeten tot stand brengen u wilt testen. Begrijp de inhoudverschillen voor elke aanbieding, en creeer om het even welke beelden, tekst, en de aanbiedingen van HTML die u in de test verwacht te gebruiken.
 
-## Trainingsvideo: Zelfstudie-badge voor meerdere ![tests maken (9:25)](/help/assets/tutorial.png)
+## Trainingsvideo: Multivariate tests maken (9:25) ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test plant en maakt met behulp van de driestapige workflow met instructies voor het doel.
 
