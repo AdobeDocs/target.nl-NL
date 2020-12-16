@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# Hoe at.js flikkering beheert{#how-at-js-manages-flicker}
+# Hoe at.js flikkering{#how-at-js-manages-flicker} beheert
 
 Informatie over hoe de JavaScript-bibliotheek Doel op.js flikkering voorkomt tijdens het laden van de pagina of toepassing.
 
 Er wordt geflikkerd als de standaardinhoud tijdelijk aan bezoekers wordt weergegeven voordat deze wordt vervangen door de inhoud van de activiteit. flikkering is ongewenst, omdat dit verwarrend kan zijn voor bezoekers.
 
-## Een automatisch gemaakte globale mbox gebruiken {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## Een automatisch gemaakt globaal mbox {#section_C502170D551C4F52AAFD8E82C41BB63A} gebruiken
 
-Als u de instelling [Automatisch globale mazelbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) maken inschakelt bij het configureren van at.js, wordt tijdens het laden van de pagina met .js de flikkering beheerd door de instelling voor dekking te wijzigen. Wanneer at.js wordt geladen, wordt de dekkingsinstelling van het `<body>` element gewijzigd in &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
+Als u [Auto creeert Globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) plaatst wanneer het vormen bij.js, beheert at.js flikkering door de opaciteitsinstelling te veranderen aangezien de pagina laadt. Wanneer at.js laadt, wordt de dekkingsinstelling van het `<body>`-element gewijzigd in &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
 
 Als u de instelling inschakelt tijdens het configureren van at.js, stelt at.js de dekking van de HTML BODY-stijl in op 0. Nadat een reactie van Doel is ontvangen, stelt at.js de dekking van het HTML-BODY terug naar 1.
 
 Dekking ingesteld op 0 houdt de pagina-inhoud verborgen om flikkering te voorkomen, maar de browser geeft de pagina nog steeds weer en laadt alle benodigde elementen, zoals CSS, afbeeldingen, enz.
 
-Als dekking 0 niet werkt in uw implementatie, kunt u flikkering ook beheren door deze aan te passen `bodyHiddenStyle` en in te stellen op `body {visibility:hidden !important}`. U kunt de hoofdtekst van de waarde gebruiken `{opacity:0 !important}` of `body {visibility:hidden !important}`, afhankelijk van wat het beste werkt voor uw specifieke omstandigheid.
+Als dekking 0 niet werkt in uw implementatie, kunt u flikkering ook beheren door `bodyHiddenStyle` aan te passen en het aan `body {visibility:hidden !important}` te plaatsen. U kunt de hoofdtekst van de waarde `{opacity:0 !important}` of `body {visibility:hidden !important}` gebruiken, welke waarde het best voor uw specifieke omstandigheid werkt.
 
-De volgende illustratie toont het Lichaam van de Huid en toont de vraag van het Lichaam in allebei at.js 1.*x* en at.js 2.x.
+De volgende illustratie toont het Lichaam van de Huid en toont de vraag van het Lichaam in allebei at.js 1.** xand at.js 2.x.
 
 **at.js 2.x**
 
@@ -38,7 +38,7 @@ De volgende illustratie toont het Lichaam van de Huid en toont de vraag van het 
 
 ![](assets/target-flow2.png)
 
-Zie `bodyHiddenStyle` targetGlobalSettings() [voor meer informatie over de](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)overschrijving.
+Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie over de `bodyHiddenStyle`-overschrijving.
 
 ## flikkering beheren bij asynchroon laden bij .js
 
@@ -108,11 +108,11 @@ body {opacity: 0 !important}
 
 ## Flicker beheren in at.js 2.x voor triggerView()
 
-Als u `triggerView()` doelgerichte inhoud in uw SPA weergeeft, vindt u flikkerbeheer in het vak. Dit betekent dat vooraf verborgen logica niet handmatig hoeft te worden toegevoegd. In plaats daarvan verbergt at at.js 2.x de locatie waar de weergave moet worden weergegeven voordat de doelinhoud wordt toegepast.
+Als u `triggerView()` gebruikt om de doelinhoud in uw SPA weer te geven, wordt flikkerbeheer weergegeven in het vak. Dit betekent dat vooraf verborgen logica niet handmatig hoeft te worden toegevoegd. In plaats daarvan verbergt at at.js 2.x de locatie waar de weergave moet worden weergegeven voordat de doelinhoud wordt toegepast.
 
 ## Flicker beheren met getOffer() en applyOffer()
 
-Omdat zowel `getOffer()` `applyOffer()` als API&#39;s van laag niveau zijn, is er geen ingebouwde flikkerbesturing. U kunt een kiezer of HTML-element als een optie doorgeven om, in dit geval, de activiteiteninhoud aan dit specifieke element `applyOffer()``applyOffer()` toe te voegen. u moet er echter voor zorgen dat het element op de juiste wijze vooraf is verborgen voordat u het element aanroept `getOffer()` en `applyOffer()`.
+Omdat zowel `getOffer()` als `applyOffer()` laag-niveau APIs zijn, is er geen ingebouwde controle van de flikkering. U kunt een kiezer of HTML-element als een optie doorgeven aan `applyOffer()`, in dit geval voegt `applyOffer()` de activiteitsinhoud aan dit specifieke element toe; nochtans, moet u ervoor zorgen het element behoorlijk pre-verborgen alvorens `getOffer()` en `applyOffer()` aan te halen is.
 
 ```
 document.documentElement.style.opacity = "0";
@@ -135,7 +135,7 @@ adobe.target.getOffer({
 
 ## Een regionale box met mboxCreate() gebruiken in at.js 1.x (niet ondersteund in at.js 2.x)
 
-Als u een regionale mbox-implementatie gebruikt, kunt u uw pagina gebruiken `mboxCreate()` met een vergelijkbare indeling als de volgende voorbeeldcode:
+Als u een regionale mbox-implementatie gebruikt, kunt u `mboxCreate()` gebruiken met een pagina die ongeveer overeenkomt met de volgende voorbeeldcode:
 
 ```
 <div class="mboxDefault">
