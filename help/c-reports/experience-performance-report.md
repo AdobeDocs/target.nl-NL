@@ -36,7 +36,7 @@ U kunt de beste vijf, slechtste vijf of alle ervaringen weergeven. De beste en s
 
 Onder de grafiek, toont een lijst hoeveel ingangen elke ervaring zagen, evenals andere informatie relevant voor uw succes metrisch.
 
-## Trainingsvideo: Een MVT- ![zelfstudie maken](/help/assets/tutorial.png)
+## Trainingsvideo: Een MVT-test maken ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test maakt met behulp van de driestapige workflow met instructies voor het doel. Het rapport Experience Performance wordt vanaf 8:20 beschreven.
 
