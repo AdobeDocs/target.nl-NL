@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Lijst van gewenste personen randknooppunten doel
 
-De informatie en een bijgewerkte lijst van gastheren om u te helpen de [!DNL Target] randen van de Adobe lijsten van gewenste personen.
+Informatie en een bijgewerkte lijst van gastheren om u te helpen Adobe lijsten van gewenste personen [!DNL Target] randen.
 
-Een rand is een geografisch verspreide serverende architectuur die optimale reactietijden voor eindgebruikers verzekert die inhoud, ongeacht waar zij rond de wereld worden gevestigd vragen. Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en om analysegegevens over die aanvraag bij te houden. Gebruikersverzoeken worden naar het dichtstbijzijnde randknooppunt gerouteerd. Voor meer informatie, zie [het randnetwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *hoe Adobe [!DNL Target] werkt*.
+Een rand is een geografisch verspreide serverende architectuur die optimale reactietijden voor eindgebruikers verzekert die inhoud, ongeacht waar zij rond de wereld worden gevestigd vragen. Elk Edge-knooppunt heeft alle informatie die nodig is om te reageren op de aanvraag van de inhoud van de gebruiker en om analysegegevens over die aanvraag bij te houden. Gebruikersverzoeken worden naar het dichtstbijzijnde randknooppunt gerouteerd. Zie [Het Edge-netwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Hoe werkt Adobe [!DNL Target]* voor meer informatie.
 
-U kunt [!DNL Target] randknooppunten desgewenst lijsten van gewenste personen.
+U kunt de randknooppunten [!DNL Target] desgewenst lijsten van gewenste personen.
 
 In de volgende lijst staan de huidige hosts:
 
