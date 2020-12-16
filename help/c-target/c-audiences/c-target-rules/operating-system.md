@@ -16,16 +16,16 @@ ht-degree: 2%
 
 U kunt zich richten op bezoekers die een bepaald besturingssysteem gebruiken.
 
-1. Klik in de [!DNL Target] interface op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Noem het publiek.
 1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Operating System]**.
-1. Klik **[!UICONTROL Select]** en selecteer een van de volgende opties:
+1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
    * Linux
    * Macintosh
    * Windows
 
-1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
+1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
 1. Klik op **[!UICONTROL Save]**.
 
 In de volgende afbeeldingen ziet u een publiek dat is gericht op bezoekers die een Macintosh-besturingssysteem gebruiken.
