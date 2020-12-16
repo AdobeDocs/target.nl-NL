@@ -18,7 +18,7 @@ Informatie over het implementeren van Doel in niet-JavaScript-scenario&#39;s, zo
 
 U kunt bezoeken aan advertenties en andere content buiten de site volgen. U kunt dezelfde gebruiker ook op en buiten uw site identificeren en een consistente ervaring bieden tijdens de hele webervaring. Met behulp van één URL staat AdBox tests toe zonder JavaScript of [!DNL at.js] of [!DNL mbox.js].
 
-Een AdBox is handig voor sites die geen [!DNL at.js] of [!DNL mbox.js]filialen hebben. Als uw activiteit dynamisch creatief (bijvoorbeeld, moet u een product in de advertentie tonen die in het karretje werd verlaten) vereist, kunt u geen AdBox gebruiken.
+Een AdBox is handig voor sites die [!DNL at.js] of [!DNL mbox.js] niet hebben, zoals filialen. Als uw activiteit dynamisch creatief (bijvoorbeeld, moet u een product in de advertentie tonen die in het karretje werd verlaten) vereist, kunt u geen AdBox gebruiken.
 
 Advertentievakken en Redirector kunnen met om het even welke soort activiteit worden gebruikt. In de volgende tabel worden ADBox en Redirector vergeleken en wanneer beide worden gebruikt:
 
@@ -29,9 +29,9 @@ Advertentievakken en Redirector kunnen met om het even welke soort activiteit wo
 
 ## Aanbevolen werkwijzen voor beveiliging {#security}
 
-Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Create Lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel](/help/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden.
+Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden ](/help/administrating-target/hosts.md#allowlist) in *Gastheren*.
 
-## Restricties {#section_38F559DCF1324271926608BCD4AB1227}
+## Beperkingen {#section_38F559DCF1324271926608BCD4AB1227}
 
 * Er is geen time-out aan de clientzijde, zoals bij standaardvakken. Als Doel volledig omlaag is, zien bezoekers van de advertentie de inhoud niet, zelfs niet standaard.
 * Cookies van derden worden gebruikt om de bezoeken bij te houden. Als de PCIds verschillend zijn, door gebrek wordt de derde partij van de bezoeker samengevoegd met om het even welke bestaande 1st-partijprofielen.
