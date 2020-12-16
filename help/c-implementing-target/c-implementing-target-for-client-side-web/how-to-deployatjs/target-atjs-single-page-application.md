@@ -32,13 +32,13 @@ Adobe Target VEC for SPA maakt gebruik van een nieuw concept genaamd Views: een 
 
 Als u meer wilt weten over de weergaven, navigeert u naar deze hypothetische online e-commercesite die u in Reageren hebt geïmplementeerd en verkent u enkele voorbeeldweergaven. Klik op de onderstaande koppelingen om deze site te openen in een nieuw browsertabblad.
 
-**Koppeling: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+**Koppeling:  [Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
 ![thuissite](/help/c-experiences/assets/home.png)
 
 Wanneer we naar de thuissite gaan, zien we meteen een hoofdafbeelding die een paasverkoop bevordert en de nieuwste producten die op de site worden verkocht. In dit geval, kan een Mening als volledige homesite worden gedefinieerd. Dit is handig om op te merken, aangezien we hier meer over zullen doen in de sectie Adobe Target-weergaven implementeren hieronder.
 
-**Koppeling: [Productsite](https://target.enablementadobe.com/react/demo/#/products)**
+**Koppeling:  [Productsite](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![productsite](/help/c-experiences/assets/product-site.png)
 
@@ -52,7 +52,7 @@ In het begin van deze sectie definieerden we Weergaven als de gehele site of zel
 
 We besluiten op de knop Meer laden te klikken om meer producten op de site te verkennen. De URL van de website verandert in dit geval niet. Maar een weergave hier kan alleen de tweede rij producten weergeven die hierboven wordt weergegeven. De weergavenaam kan &#39;PRODUCTS-PAGE-2&#39; worden genoemd.
 
-**Koppeling: [Afhandeling](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Koppeling:  [Afhandeling](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![uitcheckpagina](/help/c-experiences/assets/checkout.png)
 
@@ -70,23 +70,23 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPA in mening. Eerdere versies van at.js en mbox.js bieden geen ondersteuning voor Adobe Target Views en VEC for SPA.
 
-   Download deze bestanden vanaf 2.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden opgesteld via Adobe Launch. De Adobe Target Extensions zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden opgesteld via Adobe Launch. De Adobe Target Extensions zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
-1. Implementeer de nieuwste functie van .js 2.x `triggerView()` op uw sites.
+1. Implementeer de nieuwste functie van `triggerView()` op uw sites bij .js 2.x.
 
-   Nadat u de Weergaven van uw SPA hebt gedefinieerd waar u een A/B- of XT-test wilt uitvoeren, implementeert u de `triggerView()` functie van at.js 2.x met Weergaven die als parameter zijn doorgegeven. Dit staat marketers toe om VEC te gebruiken om de tests A/B en XT voor die Gedefinieerde Kijken te ontwerpen en in werking te stellen. Als de `triggerView()` functie niet voor die Meningen wordt bepaald, zal VEC niet de Meningen ontdekken en zo kunnen de verkopers VEC niet gebruiken om A/B en XT tests te ontwerpen en in werking te stellen.
+   Nadat u de Weergaven van uw SPA hebt gedefinieerd waar u een A/B- of XT-test wilt uitvoeren, implementeert u de functie `triggerView()` van at.js 2.x met Weergaven die als parameter zijn doorgegeven. Dit staat marketers toe om VEC te gebruiken om de tests A/B en XT voor die Gedefinieerde Kijken te ontwerpen en in werking te stellen. Als de functie `triggerView()` niet voor die Meningen wordt bepaald, zal VEC niet de Meningen ontdekken en zo kunnen de verkopers VEC niet gebruiken om A/B en XT tests te ontwerpen en in werking te stellen.
 
    **`adobe.target.triggerView(viewName, options)`**
 
    | Parameter | Type | Vereist? | Validatie | Beschrijving |
    | --- | --- | --- | --- | --- |
-   | viewName | String | Ja | 1. Geen navolgende spaties.<br>2. Kan niet leeg zijn.<br>3. De weergavenaam moet uniek zijn voor alle pagina&#39;s.<br>4. **Waarschuwing**: De weergavenaam mag niet beginnen of eindigen met &#39;`/`&#39;. De reden hiervoor is dat de klant doorgaans de weergavenaam uit het URL-pad haalt. Voor ons zijn &quot;thuis&quot; en &quot;`/home`&quot; anders.<br>5. **Waarschuwing**: Dezelfde weergave mag niet meerdere keren achter elkaar worden geactiveerd met de `{page: true}` optie. | Geef een willekeurige naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze naam van Mening toont in het [!UICONTROL Modifications] paneel van VEC voor marketers om acties tot stand te brengen en hun activiteiten A/B en XT in werking te stellen. |
+   | viewName | String | Ja | 1. Geen navolgende spaties.<br>2. Kan niet leeg zijn.<br>3. De weergavenaam moet uniek zijn voor alle pagina&#39;s.<br>4. **Waarschuwing**: De weergavenaam mag niet beginnen of eindigen met &#39;`/`&#39;. De reden hiervoor is dat de klant doorgaans de weergavenaam uit het URL-pad haalt. Voor ons zijn &quot;home&quot; en &quot;`/home`&quot; anders.<br>5. **Waarschuwing**: Dezelfde weergave mag niet meerdere keren achter elkaar worden geactiveerd met de   `{page: true}` optie. | Geef een willekeurige naam door als een type tekenreeks dat u de weergave wilt vertegenwoordigen. Deze naam van Mening toont in [!UICONTROL Modifications] paneel van VEC voor marketers om acties tot stand te brengen en hun activiteiten A/B en XT in werking te stellen. |
    | opties | Object | Nee |  |  |
-   | opties > pagina | Boolean | Nee |  | **TRUE**: De standaardwaarde van de pagina is true. Wanneer `page=true`, zullen de berichten naar de servers van de Rand voor het verhogen van immentatietelling worden verzonden.<br>**FALSE**: Wanneer `page=false`worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
+   | opties > pagina | Boolean | Nee |  | **TRUE**: De standaardwaarde van de pagina is true. Als `page=true` is, worden meldingen naar Edge-servers verzonden voor een toename van het aantal impressies.<br>**FALSE**: Wanneer  `page=false`worden geen meldingen verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
 
-   Laten we nu een aantal voorbeelden bekijken van de manier waarop we de `triggerView()` functie Reageren voor onze hypothetische SPA e-commerce kunnen aanroepen:
+   Laten we nu een aantal voorbeelden bekijken van de manier waarop de functie `triggerView()` in Reageren kan worden aangeroepen voor onze hypothetische SPA e-commerce:
 
-   **Koppeling: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+   **Koppeling:  [Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-response-1](/help/c-experiences/assets/react1.png)
 
@@ -117,7 +117,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Koppeling: [Productsite](https://target.enablementadobe.com/react/demo/#/products)**
+**Koppeling:  [Productsite](https://target.enablementadobe.com/react/demo/#/products)**
 
 Laten we nu een voorbeeld bekijken dat wat gecompliceerder is. Als marketers willen we bijvoorbeeld de tweede rij van de producten aanpassen door de labelkleur &quot;Prijs&quot; in rood te wijzigen nadat een gebruiker op de knop Meer laden heeft geklikt.
 
@@ -146,7 +146,7 @@ Laten we nu een voorbeeld bekijken dat wat gecompliceerder is. Als marketers wil
  }
 ```
 
-**Koppeling: [Afhandeling](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Koppeling:  [Afhandeling](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![uitchecken reageren](/help/c-experiences/assets/react6.png)
 
@@ -187,43 +187,43 @@ Marketers willen nu een A/B-test uitvoeren om te zien of het wijzigen van de kle
 
 ## at.js 2.x systeemdiagrammen
 
-Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met weergaven en in de manier waarop dit de integratie van SPA verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie de implementatie [van de Toepassing van de](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)Enige Pagina.
+Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met weergaven en in de manier waarop dit de integratie van SPA verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie [de implementatie van de Toepassing van de Enige Pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Doelstroom met at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Stap | Details |
 | --- | --- |
-| 1 | De vraag keert terug [!DNL Experience Cloud ID] als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
+| 3 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
-| 5 | Op basis van URL-aanvraagparameters en -profielgegevens [!DNL Target] bepaalt u welke activiteiten en ervaringen u wilt retourneren aan de bezoeker voor de huidige pagina en de toekomstige weergaven. |
-| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht `triggerView()`. |
+| 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
+| 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht  `triggerView()`. |
 | 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
 | 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
 
-Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker getoond zonder een servervraag. `triggerView()` doet ook een verzoek om meldingen aan de [!DNL Target] achterzijde om het aantal beeldpunten te verhogen en te registreren.
+Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de acties teruggewonnen van geheim voorgeheugen en aan de gebruiker getoond zonder een servervraag. `triggerView()` doet ook een verzoek om meldingen aan de  [!DNL Target] achterzijde om het aantal puntjes op de i te zetten en opnamen te maken.
 
 ![Doelstroom bij.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Stap | Details |
 | --- | --- |
-| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
-| 4 | Aanvraag voor meldingen wordt naar de [!DNL Target] profielenwinkel verzonden om de bezoeker te tellen in de activiteit en incrementele metingen. |
+| 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
 
 ## Single Page App Visual Experience Composer
 
-Nadat u klaar bent met het installeren van at.js 2.x en het toevoegen `triggerView()` aan uw plaats, gebruik VEC om A/B en XT activiteiten in werking te stellen. Zie [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)voor meer informatie.
+Nadat u klaar bent met het installeren van at.js 2.x en het toevoegen van `triggerView()` aan uw plaats, gebruik VEC om A/B en XT activiteiten in werking te stellen. Zie [App van één pagina (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) voor meer informatie.
 
 >[!NOTE]
 >
->De VEC voor SPA is in feite dezelfde VEC als die u gebruikt op gewone webpagina&#39;s, maar er zijn enkele extra mogelijkheden beschikbaar wanneer u een app van één pagina opent met `triggerView()` implementatie.
+>De VEC voor SPA is in feite dezelfde VEC als voor gewone webpagina&#39;s, maar er zijn enkele extra mogelijkheden beschikbaar wanneer u een app van één pagina opent met `triggerView()` geïmplementeerd.
 
-## Gebruik TriggerView om ervoor te zorgen dat A4T correct met at.js 2.x en SPA werkt {#triggerview}
+## Gebruik TriggerView om ervoor te zorgen dat A4T correct met at.js 2.x en SPA {#triggerview} werkt
 
 Om ervoor te zorgen dat [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) correct met at.js 2.x werkt, ben zeker om zelfde SDID in het verzoek van het Doel en in het verzoek van Analytics te verzenden.
 
@@ -233,7 +233,7 @@ Als beste praktijken met betrekking tot SPA:
 * Een aangepaste gebeurtenis activeren voordat de weergave begint met renderen
 * Een aangepaste gebeurtenis activeren wanneer de weergave is voltooid
 
-at.js 2.x heeft een nieuwe API-functie [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) toegevoegd. Gebruik deze optie `triggerView()` om at.js te laten weten dat een weergave begint met renderen.
+at.js 2.x heeft een nieuwe API [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) functie toegevoegd. Gebruik `triggerView()` om at.js te melden dat een weergave begint met renderen.
 
 Een voorbeeld bekijken om te zien hoe u aangepaste gebeurtenissen, in.js 2.x en Analytics kunt combineren. In dit voorbeeld wordt ervan uitgegaan dat de HTML-pagina de Bezoeker-API bevat, gevolgd door at.js 2.x, gevolgd door AppMeasurement.
 
@@ -266,15 +266,15 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!NOTE]
 >
->U moet de gebeurtenissen `at-view-start` en `at-view-end` gebeurtenissen in brand steken. Deze gebeurtenissen maken geen deel uit van aangepaste gebeurtenissen at.js.
+>U moet de gebeurtenissen `at-view-start` en `at-view-end` in brand steken. Deze gebeurtenissen maken geen deel uit van aangepaste gebeurtenissen at.js.
 
 Hoewel in deze voorbeelden JavaScript-code wordt gebruikt, kan dit alles worden vereenvoudigd als u een tagbeheer gebruikt, zoals [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 Als de voorafgaande stappen worden gevolgd zou u een robuuste oplossing A4T voor SPA moeten hebben.
 
-## Best practices implementeren {#bp}
+## Best practices voor implementatie {#bp}
 
-met API&#39;s van het type at.js 2.x kunt u uw [!DNL Target] implementatie op verschillende manieren aanpassen, maar het is belangrijk dat u de juiste volgorde van bewerkingen tijdens dit proces volgt.
+met API&#39;s van het type at.js 2.x kunt u uw [!DNL Target]-implementatie op vele manieren aanpassen, maar het is belangrijk dat u de juiste volgorde van bewerkingen tijdens dit proces volgt.
 
 De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoeren wanneer u voor het eerst een toepassing voor één pagina in een browser laadt en voor elke weergavewijziging die daarna plaatsvindt.
 
@@ -282,42 +282,42 @@ De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoer
 
 | Stap | Handeling | Details |
 | --- | --- | --- |
-| 1 | Bezoeker-API JS laden | Deze bibliotheek is verantwoordelijk voor het toewijzen van een ECID aan de bezoeker. Deze id wordt later gebruikt door andere [!DNL Adobe] oplossingen op de webpagina. |
+| 3 | Bezoeker-API JS laden | Deze bibliotheek is verantwoordelijk voor het toewijzen van een ECID aan de bezoeker. Deze id wordt later gebruikt door andere [!DNL Adobe]-oplossingen op de webpagina. |
 | 2 | Laden bij.js 2.x | at.js 2.x laadt alle noodzakelijke APIs die u gebruikt om [!DNL Target] verzoeken en meningen uit te voeren. |
-| 3 | Uitvoeren van [!DNL Target] verzoek | Als u een gegevenslaag hebt, adviseren wij dat u kritieke gegevens laadt die worden vereist om naar te verzenden [!DNL Target] alvorens een [!DNL Target] verzoek uit te voeren. Hiermee kunt u alle gegevens verzenden die u wilt gebruiken `targetPageParams` voor het opgeven van doelen. U moet ervoor zorgen dat u in deze API-aanroep een verzoek indient voor uitvoering > pageLoad en prefetch > weergaven. als u hebt ingesteld `pageLoadEnabled` en `viewsEnabled`, worden beide opties > pageLoad en prefetch > weergaven automatisch uitgevoerd met Stap 2. anders moet u de `getOffers()` API gebruiken om deze aanvraag in te dienen. |
-| 4 | Bellen `triggerView()` | Omdat het [!DNL Target] verzoek u in Stap 3 in werking stelde ervaringen voor zowel de uitvoering van de Lading van de Pagina als Mening kon terugkeren, zorg ervoor dat `triggerView()` wordt geroepen nadat het [!DNL Target] verzoek is teruggekeerd en beëindigt het toepassen van de aanbiedingen aan geheime voorgeheugen. U moet deze stap slechts eenmaal per weergave uitvoeren. |
-| 5 | Roep het [!DNL Analytics] paginaweergavebaken aan | Dit baken verzendt SDID verbonden aan Stap 3 en 4 naar [!DNL Analytics] voor gegevens het stitching. |
-| 6 | Aanvullende oproep `triggerView({"page": false})` | Dit is een optionele stap voor SPA frameworks die bepaalde componenten op de pagina kunnen renderen zonder dat er een weergavewijziging plaatsvindt. In dergelijke gevallen is het belangrijk dat u deze API aanroept om ervoor te zorgen dat de [!DNL Target] ervaringen opnieuw worden toegepast nadat het SPA framework de componenten opnieuw heeft gerenderd. U kunt deze stap zo vaak uitvoeren als u wilt ervoor zorgen dat de [!DNL Target] ervaringen in uw SPA blijven. |
+| 3 | [!DNL Target] verzoek uitvoeren | Als u een gegevenslaag hebt, adviseren wij dat u kritieke gegevens laadt die worden vereist om naar [!DNL Target] te verzenden alvorens [!DNL Target] verzoek uit te voeren. Dit laat u `targetPageParams` gebruiken om het even welke gegevens te verzenden u voor het richten wilt gebruiken. U moet ervoor zorgen dat u in deze API-aanroep een verzoek indient voor uitvoering > pageLoad en prefetch > weergaven. als u `pageLoadEnabled` en `viewsEnabled` hebt geplaatst, dan zowel uitvoeren > pageLoad als prefetch > de meningen automatisch met Stap 2 gebeuren; anders moet u de `getOffers()` API gebruiken om deze aanvraag in te dienen. |
+| 4 | `triggerView()` aanroepen | Omdat het [!DNL Target] verzoek u in Stap 3 in werking stelde ervaringen voor zowel de uitvoering van de Lading van de Pagina als Weergaven kon terugkeren, zorg ervoor dat `triggerView()` wordt geroepen nadat het [!DNL Target] verzoek is teruggekeerd en beëindigt het toepassen van de aanbiedingen aan geheime voorgeheugen. U moet deze stap slechts eenmaal per weergave uitvoeren. |
+| 5 | Roep het paginaweergavebaken [!DNL Analytics] aan | Dit baken verzendt SDID verbonden aan Stap 3 en 4 naar [!DNL Analytics] voor gegevens het stitching. |
+| 6 | Aanvullende `triggerView({"page": false})` aanroepen | Dit is een optionele stap voor SPA frameworks die bepaalde componenten op de pagina kunnen renderen zonder dat er een weergavewijziging plaatsvindt. In dergelijke gevallen is het belangrijk dat u deze API aanroept om ervoor te zorgen dat [!DNL Target]-ervaringen opnieuw worden toegepast nadat het SPA-framework de componenten opnieuw heeft gerenderd. U kunt deze stap zo vaak uitvoeren als u wilt ervoor zorgen dat [!DNL Target] ervaringen in uw SPA blijven. |
 
 ### Volgorde van bewerkingen voor SPA wijziging van weergave (geen volledige pagina opnieuw laden)
 
 | Stap | Handeling | Details |
 | --- | --- | --- |
-| 1 | Bellen `visitor.resetState()` | Deze API zorgt ervoor dat de SDID opnieuw wordt gegenereerd voor de nieuwe weergave terwijl deze wordt geladen. |
-| 2 | Cache bijwerken door de `getOffers()` API aan te roepen | Dit is een optionele stap als deze gezichtswijziging de huidige bezoeker kan kwalificeren voor meer [!DNL Target] activiteiten of hen van activiteiten kan diskwalificeren. Op dit punt kunt u er ook voor kiezen om aanvullende gegevens te verzenden [!DNL Target] voor het mogelijk maken van verdere doelmogelijkheden. |
-| 3 | Bellen `triggerView()` | Als u Stap 2 hebt uitgevoerd, dan moet u op het [!DNL Target] verzoek wachten en de aanbiedingen op geheim voorgeheugen toepassen alvorens deze stap uit te voeren. U moet deze stap slechts eenmaal per weergave uitvoeren. |
-| 4 | Bellen `triggerView()` | Als u Stap 2 niet hebt uitgevoerd, kunt u deze stap uitvoeren zodra u Stap 1 voltooit. Als u Stap 2 en Stap 3 hebt uitgevoerd, dan zou u deze stap moeten overslaan. U moet deze stap slechts eenmaal per weergave uitvoeren. |
-| 5 | Roep het [!DNL Analytics] paginaweergavebaken aan | Dit baken verzendt SDID verbonden aan Stap 2, 3, en 4 naar [!DNL Analytics] voor gegevens het stitching. |
-| 6 | Aanvullende oproep `triggerView({"page": false})` | Dit is een optionele stap voor SPA frameworks die bepaalde componenten op de pagina kunnen renderen zonder dat er een weergavewijziging plaatsvindt. In dergelijke gevallen is het belangrijk dat u deze API aanroept om ervoor te zorgen dat de [!DNL Target] ervaringen opnieuw worden toegepast nadat het SPA framework de componenten opnieuw heeft gerenderd. U kunt deze stap zo vaak uitvoeren als u wilt ervoor zorgen dat de [!DNL Target] ervaringen in uw SPA blijven. |
+| 3 | `visitor.resetState()` aanroepen | Deze API zorgt ervoor dat de SDID opnieuw wordt gegenereerd voor de nieuwe weergave terwijl deze wordt geladen. |
+| 2 | Cache bijwerken door de `getOffers()` API aan te roepen | Dit is een optionele stap als deze weergavewijziging de huidige bezoeker kan kwalificeren voor meer [!DNL Target] activiteiten of deze kan uitschakelen. Op dit punt kunt u er ook voor kiezen om extra gegevens naar [!DNL Target] te verzenden voor het mogelijk maken van verdere doelmogelijkheden. |
+| 3 | `triggerView()` aanroepen | Als u Stap 2 hebt uitgevoerd, dan moet u op [!DNL Target] verzoek wachten en de aanbiedingen toepassen op geheime voorgeheugen alvorens deze stap uit te voeren. U moet deze stap slechts eenmaal per weergave uitvoeren. |
+| 4 | `triggerView()` aanroepen | Als u Stap 2 niet hebt uitgevoerd, kunt u deze stap uitvoeren zodra u Stap 1 voltooit. Als u Stap 2 en Stap 3 hebt uitgevoerd, dan zou u deze stap moeten overslaan. U moet deze stap slechts eenmaal per weergave uitvoeren. |
+| 5 | Roep het paginaweergavebaken [!DNL Analytics] aan | Dit baken verzendt SDID verbonden aan Stap 2, 3, en 4 naar [!DNL Analytics] voor gegevens het stitching. |
+| 6 | Aanvullende `triggerView({"page": false})` aanroepen | Dit is een optionele stap voor SPA frameworks die bepaalde componenten op de pagina kunnen renderen zonder dat er een weergavewijziging plaatsvindt. In dergelijke gevallen is het belangrijk dat u deze API aanroept om ervoor te zorgen dat [!DNL Target]-ervaringen opnieuw worden toegepast nadat het SPA-framework de componenten opnieuw heeft gerenderd. U kunt deze stap zo vaak uitvoeren als u wilt ervoor zorgen dat [!DNL Target] ervaringen in uw SPA blijven. |
 
 ## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie:
 
-### Begrijpen hoe at.js 2.x de badge van het ![Overzicht werkt](/help/assets/overview.png)
+### Begrijpen hoe at.js 2.x ![Beknopte overzicht](/help/assets/overview.png) werkt
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Zie [Begrijpen hoe at.js 2.x voor meer informatie werkt](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .
+Zie [Begrijpen hoe at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) voor meer informatie werkt.
 
-### Implementeren bij .js 2.x in een SPA ![Tutorial badge](/help/assets/tutorial.png)
+### Implementeren in een SPA ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Zie Adobe Target- [toepassing implementeren op .js 2.x in een toepassing voor één pagina (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) voor meer informatie.
+Zie [Adobe Target-bewerkingen in.js 2.x implementeren in een toepassing voor één pagina (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) voor meer informatie.
 
-### De VEC voor SPA gebruiken in de ![zelfstudie-badge van Adobe Target](/help/assets/tutorial.png)
+### VEC gebruiken voor SPA in Adobe Target ![Zelfstudie badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Zie [het Gebruiken van Composer van de Visuele Ervaring voor Enige Toepassing van de Pagina (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) voor meer informatie.
+Zie [De Visual Experience Composer voor de Toepassing van de Enige Pagina (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) voor meer informatie gebruiken.
