@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# ![zoeken naar PREMIUM](/help/assets/premium.png) -catalogus {#catalog-search}
+# ![Zoekopdracht ](/help/assets/premium.png) PREMIUMCatalog  {#catalog-search}
 
-Op deze [!UICONTROL Catalog Search] pagina kunt u de producten of inhoud in uw catalogus vinden.
+Met de pagina [!UICONTROL Catalog Search] kunt u de producten of inhoud in uw catalogus vinden.
 
 De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus kan vele inzamelingen-manier bevatten om uw producten in logische emmers te organiseren.
 
-Als u de [!UICONTROL Catalog Search] pagina wilt openen, klikt u op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+Als u de pagina [!UICONTROL Catalog Search] wilt openen, klikt u op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 ![Pagina Zoeken in catalogus](/help/c-recommendations/c-products/assets/catalog-search.png)
 
-De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Bovendien kunt u het milieu veranderen; de zoekresultaten opslaan in verzamelingen of uitsluitingen; U kunt kolommen aan de tabel toevoegen, eruit verwijderen of de volgorde ervan wijzigen en nieuwe zoekfacetten aan het [!UICONTROL Filters] deelvenster toevoegen.
+De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Bovendien kunt u het milieu veranderen; de zoekresultaten opslaan in verzamelingen of uitsluitingen; U kunt kolommen in de tabel toevoegen, verwijderen of opnieuw rangschikken en nieuwe zoekfacetten toevoegen aan het venster [!UICONTROL Filters].
 
 ## Zoeken naar een object
 
@@ -30,7 +30,7 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
 
 ### Een eenvoudige zoekopdracht uitvoeren
 
-1. Typ een zoekterm in het **[!UICONTROL Search Products]** veld.
+1. Typ een zoekterm in het veld **[!UICONTROL Search Products]**.
 
 1. (Optioneel) U kunt uw zoekopdracht verfijnen door een zoekoptie te selecteren in het optiemenu dat wordt weergegeven wanneer u op de pijl omlaag klikt in het zoekveld.
 
@@ -61,9 +61,9 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
    >
    >Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een type van Koord in plaats van een numerieke waarde te zijn.
    >
-   >Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die de attributen van verwijzingen voorzien die het type veranderden van koord in numeriek.
+   >Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die van de attributen verwijzen die het type veranderen van koord in numeriek nodig hebben.
 
-1. U kunt filters ook gebruiken om het gewenste product te vinden. In het volgende voorbeeld worden alle fietsgereedschappen in het catalogusscherm weergegeven door het [!UICONTROL Collections] facet uit te vouwen en Extra&#39;s maken te selecteren.
+1. U kunt filters ook gebruiken om het gewenste product te vinden. In het volgende voorbeeld door het [!UICONTROL Collections]-facet uit te vouwen en &quot;Extra&#39;s maken&quot; te selecteren, worden alle fietsgereedschappen in het catalogusscherm weergegeven.
 
    ![Teken-gereedschappen](/help/c-recommendations/c-products/assets/bike-results-3.png)
 
@@ -73,21 +73,21 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
 
 ### Een geavanceerde zoekopdracht uitvoeren {#advanced-search}
 
-U kunt uw zoekresultaten verder verfijnen of [!UICONTROL Advanced Search] de zoekresultaten opslaan als een [verzameling](/help/c-recommendations/c-products/collections.md) of [uitsluiting](/help/c-recommendations/c-products/exclusions.md).
+U kunt [!UICONTROL Advanced Search] gebruiken om uw onderzoeksresultaten verder te verfijnen of uw onderzoeksresultaten als [inzameling ](/help/c-recommendations/c-products/collections.md) of [uitsluiting](/help/c-recommendations/c-products/exclusions.md) te bewaren.
 
-1. Klik op de **[!UICONTROL Advanced Search]** koppeling.
+1. Klik op de koppeling **[!UICONTROL Advanced Search]**.
 
    ![Geavanceerde zoekpagina](/help/c-recommendations/c-products/assets/advances-search.png)
 
 1. Gebruik de vervolgkeuzelijsten om de parameter, de operator en de waarden voor uw zoekopdracht op te geven.
 
-1. (Optioneel) Klik **[!UICONTROL Add Rule]** om een extra zoekregel toe te voegen.
+1. (Optioneel) Klik op **[!UICONTROL Add Rule]** om een extra zoekregel toe te voegen.
 
    Elke extra onderzoeksregel wordt aangesloten bij de exploitant AND.
 
 1. Klik op **[!UICONTROL Search]**.
 
-1. (Optioneel) Klik **[!UICONTROL Save As]** vervolgens op **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]**.
+1. (Optioneel) Klik op **[!UICONTROL Save As]** en vervolgens op **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]**.
 
    ![Opslaan als opties](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -113,15 +113,15 @@ Alle informatie over dat item wordt verwijderd uit de catalogusindex. Het item w
 
 ## De catalogus vernieuwen
 
-De index van de catalogus wordt automatisch gemaakt wanneer u de eerste feed uploadt en wordt vernieuwd volgens het [opgegeven schema](/help/c-recommendations/c-products/feeds.md#steps).
+De index van uw catalogus wordt automatisch gecreeerd wanneer u uw eerste voer uploadt, en volgens [gespecificeerd programma](/help/c-recommendations/c-products/feeds.md#steps) verfrist.
 
 De catalogus wordt automatisch vernieuwd wanneer updates worden ontvangen via feed-bestanden, API- of mbox-updates. Updates worden meestal binnen een uur voltooid. Als er updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart. Als er geen updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart en voltooid.
 
 ## Een verzameling of uitsluiting maken op basis van Geavanceerd zoeken {#save-as}
 
-U kunt [verzamelingen](/help/c-recommendations/c-products/collections.md) of [uitsluitingen](/help/c-recommendations/c-products/exclusions.md) maken [!UICONTROL Advanced Search] op de [!UICONTROL Catalog Search] pagina ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt [verzamelingen](/help/c-recommendations/c-products/collections.md) of [uitsluitingen](/help/c-recommendations/c-products/exclusions.md) tot stand brengen gebruikend [!UICONTROL Advanced Search] op [!UICONTROL Catalog Search] pagina ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-1. Voer een [geavanceerde zoekopdracht](#advanced-search)uit.
+1. Voer [geavanceerd onderzoek](#advanced-search) uit.
 
 1. Klik **[!UICONTROL Save As]**, dan klik **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]**.
 
@@ -129,11 +129,11 @@ U kunt [verzamelingen](/help/c-recommendations/c-products/collections.md) of [ui
 
    >[!IMPORTANT]
    >
-   >De [!UICONTROL Advanced Search] functionaliteit is niet hoofdlettergevoelig; producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen of uitsluitingen maakt op basis van resultaten met de [!UICONTROL Advanced Search] functionaliteit. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de bedoeling producten met &quot;vakantie&quot; terug te sturen, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd. Uitsluitingen worden op vergelijkbare wijze behandeld.
+   >De [!UICONTROL Advanced Search] functionaliteit is case-insensitive; producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen of uitsluitingen maakt op basis van resultaten met de functie [!UICONTROL Advanced Search]. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de bedoeling producten met &quot;vakantie&quot; terug te sturen, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd. Uitsluitingen worden op vergelijkbare wijze behandeld.
 
 ## De omgeving wijzigen
 
-[Met omgevingen](/help/administrating-target/environments.md) kunt u uw sites en pre-productieomgevingen ordenen voor eenvoudig beheer en gescheiden rapportage.
+[Met ](/help/administrating-target/environments.md) omgevingen organiseert u uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportering.
 
 1. Klik op de koppeling Omgeving.
 
@@ -143,13 +143,13 @@ U kunt [verzamelingen](/help/c-recommendations/c-products/collections.md) of [ui
 
 ## De pagina Catalogus zoeken (filters en kolommen) wijzigen
 
-U kunt tijdelijk de beschikbare filters en kolommen op de [!UICONTROL Catalog Search] pagina voor de huidige zitting wijzigen.
+U kunt de beschikbare filters en kolommen op de [!UICONTROL Catalog Search] pagina voor de huidige zitting tijdelijk wijzigen.
 
 ### Filters wijzigen
 
 U kunt extra filterfacetten aan de [!UICONTROL Catalog Search] pagina toevoegen.
 
-1. Klik in het **[!UICONTROL Filters]** deelvenster op **[!UICONTROL Modify]**.
+1. Klik in het **[!UICONTROL Filters]**-deelvenster op **[!UICONTROL Modify]**.
 
    ![Filters wijzigen, koppeling](/help/c-recommendations/c-products/assets/modify-filters.png)
 
@@ -163,11 +163,11 @@ Houd er rekening mee dat de extra filterfacetten alleen beschikbaar zijn in de h
 
 U kunt de actieve kolommen op de [!UICONTROL Catalog Search] pagina tijdelijk wijzigen.
 
-1. Klik op de **[!UICONTROL Columns]** koppeling.
+1. Klik op de koppeling **[!UICONTROL Columns]**.
 
    ![Kolomopties](/help/c-recommendations/c-products/assets/columns.png)
 
-1. (Voorwaardelijk) Als u de volgorde van actieve kolommen wilt wijzigen, sleept u de kolommen in de **[!UICONTROL Active Columns]** sectie en zet u ze neer in de gewenste volgorde.
+1. (Voorwaardelijk) om de orde van actieve kolommen te herschikken, sleep en laat vallen de kolommen in **[!UICONTROL Active Columns]** sectie in de gewenste orde.
 
 1. (Voorwaardelijk) belemmering en laat vallen punten van **[!UICONTROL Active Columns]** aan **[!UICONTROL Inactive Columns]** (en vice versa), zoals gewenst.
 
