@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Experience Cloud-publiek biedt Adobe Experience Cloud-oplossingen de mogelijkheid om informatie over websitebezoekers te communiceren en te delen, zodat elke oplossing dezelfde gegevens kan gebruiken.
 
-Voor gedetailleerde informatie, zie [Publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de Gids *van de Gebruiker van de Diensten van de* Kern.
+Zie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *Handleiding voor kernservices* voor gedetailleerde informatie.
