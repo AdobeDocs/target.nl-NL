@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Elementkiezers die worden gebruikt in de composer voor visuele ervaring{#element-selectors-used-in-the-visual-experience-composer}
+# Elementkiezers gebruikt in de composer voor visuele ervaring{#element-selectors-used-in-the-visual-experience-composer}
 
 Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd.
 
-U vindt basisinformatie over CSS-kiezers in het document [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) op het Mozilla Developer Network (MDN).
+U vindt basisinformatie over CSS-kiezers in het document [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in het Mozilla Developer Network (MDN).
 
-U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id wilt gebruiken. Klik **[!UICONTROL Administration > Visual Experience Composer]** en kies de gewenste CSS-kiezers.
+U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id wilt gebruiken. Klik **[!UICONTROL Administration > Visual Experience Composer]**, dan kies uw aangewezen CSS selecteurs.
 
 ![](assets/css_selectors.png)
 
@@ -26,13 +26,13 @@ U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id w
 >
 >De Klassen van het element zijn beschikbaar als selecteurs in de Test A/B, Automated Personalization, en Multivariate van de Test activiteiten.
 
-Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke IDs te gebruiken, zie de Beste praktijken en Beperkingen [van Composer van de](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)Visuele Ervaring.
+Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke IDs te gebruiken, zie [Aanbevolen Praktijken en Beperkingen van Composer van de Visuele Ervaring ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Hoe Adobe Target een kiezer voor een element genereert {#section_D89D954BCBFB486CA081BE183776A475}
+## Hoe Adobe Target een kiezer genereert voor een element {#section_D89D954BCBFB486CA081BE183776A475}
 
 Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een korte uitleg van de generatielogica:
 
-1. Als een element bijvoorbeeld een id heeft `id="container"`, is de kiezer voor het element `#container`.
+1. Als een element een id heeft, bijvoorbeeld `id="container"`, is de kiezer voor het element `#container`.
 
    Bijvoorbeeld:
 
@@ -51,7 +51,7 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
 1. Als een element een klassenkenmerk bevat, probeert Target de eerste klasse van alle klassen die zich op het element bevinden, te benutten.
 
-   Doel probeert het bovenliggende element te parseren totdat het element of een element met een id wordt gevonden. `<HTML>` Wanneer een element een id bevat en de kiezer op het onderliggende element wordt berekend, levert de id van dit element een bijdrage aan de kiezer.
+   Het doel probeert om het ouderelement te ontleden tot het `<HTML>` element of een element met identiteitskaart vindt. Wanneer een element een id bevat en de kiezer op het onderliggende element wordt berekend, levert de id van dit element een bijdrage aan de kiezer.
 
    Bijvoorbeeld:
 
@@ -72,9 +72,9 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
    Kiezer: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot; geeft het directe onderliggende item aan.)
 
-   `eq` vertelt de index er een element is dat &quot;tagName=UL&quot;heeft en de eerste klasse is `navigation`. Daarom `index` is dit 0. Zie het artikel [Kiezers](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN voor meer informatie.
+   `eq` vertelt de index er een element is dat &quot;tagName=UL&quot;heeft en de eerste klasse is  `navigation`. Daarom is `index` 0. Zie het [artikel van Kiezers](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN voor meer informatie.
 
-1. Als een element geen klasse bevat, gebruikt het Doel `tagName` voor het element en doorloopt omhoog het ouderelement tot of het `<HTML>` element of een element met identiteitskaart wordt gevonden.
+1. Als een element geen klasse bevat, gebruikt het Doel `tagName` voor het element en overgaat omhoog het ouderelement tot of het `<HTML>` element of een element met identiteitskaart wordt gevonden.
 
    Bijvoorbeeld:
 
@@ -93,7 +93,7 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
    Kiezer: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
-   Meer informatie over het [nde-van-type op de CSS-trucs webpagina](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
+   U kunt meer informatie over [nde-van-type op de CSS Web-pagina](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 In het bovenstaande proces:
 
