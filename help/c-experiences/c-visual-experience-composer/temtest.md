@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s
 
-Gebruik een paginasjabloon in [!DNL Adobe Target] om uw pagina&#39;s een structuur te geven, of als uw pagina&#39;s vergelijkbare elementen bevatten, om variaties te testen in pagina-elementen met een vergelijkbare structuur of in het hele domein.
+Gebruik een paginamalplaatje in [!DNL Adobe Target] om structuur aan uw pagina&#39;s te verstrekken, of als uw pagina&#39;s gelijkaardige elementen bevatten, om variaties in op gelijkaardige structuur geplaatste paginaelementen of over uw volledig domein te testen.
 
 Deze functie werkt alleen correct als deze wordt gebruikt op pagina&#39;s met een vergelijkbare structuur of sjabloonelementen die op alle pagina&#39;s dezelfde structuur hebben.
 
@@ -33,15 +33,15 @@ U kunt pagina&#39;s specificeren die de veranderingselementen omvatten, of de ve
 
 1. Maak of bewerk een activiteit zoals beschreven in [Activiteiten](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Als u de pagina&#39;s wilt opgeven waar de ervaring wordt weergegeven, klikt u in de [!UICONTROL Visual Experience Composer] (VEC) op het tandwielpictogram en selecteert u **[!UICONTROL Page Delivery]**.
+1. Als u de pagina&#39;s wilt opgeven waar de ervaring wordt weergegeven, klikt u in [!UICONTROL Visual Experience Composer] (VEC) op het tandwielpictogram en selecteert u **[!UICONTROL Page Delivery]**.
 
    ![Gear icon > Page Delivery](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Klik **[!UICONTROL Add Template Rule]** en geef de criteria op voor de pagina&#39;s waaraan u de ervaring wilt toevoegen.
+1. Klik **[!UICONTROL Add Template Rule]**, dan specificeer de criteria voor de pagina&#39;s u de ervaring aan wilt toevoegen.
 
 1. Geef het paginabereik op. Het paginabereik kan een van de volgende zijn:
 
-   * URL (Voor meer informatie over hoe het Doel URLs evalueert, zie de Veelgestelde vragen van [Doelen en van het publiek](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Voor meer informatie over hoe het Doel URLs evalueert, zie [Doelen en veelgestelde vragen ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domein
    * Pad
    * Hash-fragment (#) (doel het deel van een URL dat volgt op het #-symbool.)
@@ -61,7 +61,7 @@ U kunt pagina&#39;s specificeren die de veranderingselementen omvatten, of de ve
 
 1. Typ de tekenreeksen die bepalen waar de ervaring wordt toegevoegd, zoals het domein of de tekenreeksen in de paginanaam.
 
-   Als u bijvoorbeeld de optie selecteert **[!UICONTROL Domain]** en **[!UICONTROL Is (case sensitive)]** typt, typt u het domein waar u de ervaring aan alle pagina&#39;s wilt toevoegen.
+   Als u bijvoorbeeld **[!UICONTROL Domain]** en **[!UICONTROL Is (case sensitive)]** selecteert, typt u het domein waar u de ervaring aan alle pagina&#39;s wilt toevoegen.
 
    U kunt meerdere items opnemen.
 
@@ -69,7 +69,7 @@ U kunt pagina&#39;s specificeren die de veranderingselementen omvatten, of de ve
    >
    >Meerdere items gebruiken OR-logica, wat betekent dat een enkel item in de lijst de voorwaarde waar maakt.
 
-1. Voer desgewenst aanvullende criteria in door in de vorige stappen op de procedure te klikken **[!UICONTROL Add Template Rule]** en deze te herhalen.
+1. Voer desgewenst aanvullende criteria in door op **[!UICONTROL Add Template Rule]** te klikken en de procedure in de vorige stappen te herhalen.
 
    De veelvoudige criteria worden aangesloten bij EN logica. [!DNL Target] Hiermee voegt u de ervaring toe aan alle pagina&#39;s die aan de opgegeven criteria voldoen.
 
@@ -95,11 +95,11 @@ U zou het gebruiken van malplaatjeregels kunnen overwegen om de zelfde activitei
 
 1. Klik op **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
 
-1. Selecteer in het **[!UICONTROL Choose evaluator]** keuzemenu de optie **[!UICONTROL Contains]** en geef vervolgens het domein op.
+1. Selecteer **[!UICONTROL Choose evaluator]** in de vervolgkeuzelijst **[!UICONTROL Contains]** en geef vervolgens het domein op.
 
    ![Domein bevat](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Trainingsvideo: Videozelfstudie-badge Visual Experience Composer (2 van 2) (7:29) ![](/help/assets/tutorial.png)
+## Trainingsvideo: Visual Experience Composer (2 van 2) (7:29) ![Zelfstudie badge](/help/assets/tutorial.png)
 
 * Een ervaring hernoemen en dupliceren
 * Omleiden maken
