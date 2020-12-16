@@ -29,27 +29,27 @@ U kunt de volgende browsers als doel instellen:
 
 Er zijn twee manieren om browsers als doel in te stellen:
 
-**Vooraf gebouwd publiek:** Gebruik het vooraf gebouwde publiek als u alleen bezoekers wilt aanspreken die een specifieke browser gebruiken om uw site te bezoeken. Als u bijvoorbeeld een Chrome-extensie aanbiedt, richt u zich alleen op Chrome-gebruikers.
+**Vooraf samengesteld publiek:** Gebruik het vooraf gebouwde publiek als u slechts bezoekers wilt richten die een specifieke browser gebruiken om uw plaats te bezoeken. Als u bijvoorbeeld een Chrome-extensie aanbiedt, richt u zich alleen op Chrome-gebruikers.
 
 1. Selecteer de browser in de vervolgkeuzelijst voor het publiek wanneer u uw activiteit instelt.
 
    Deze optie is alleen bestemd voor bezoekers die de opgegeven browser gebruiken.
 
-**Aangepaste regel browserpubliek:** Een aangepast publiek laat u toe om veelvoudige browsers, of aan opstellingsregels of uitsluitingen voor specifieke browsers, browser versies, of browser talen te richten. Dit biedt aanzienlijke flexibiliteit bij het aanwijzen van een campagne op basis van browserkenmerken.
+**Aangepaste regel voor het publiek in de browser:** een aangepast publiek biedt u de mogelijkheid om meerdere browsers als doel in te stellen, of om regels of uitsluitingen in te stellen voor specifieke browsers, browserversies of browsertalen. Dit biedt aanzienlijke flexibiliteit bij het aanwijzen van een campagne op basis van browserkenmerken.
 
-1. Klik in de [!DNL Target] interface op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Noem het publiek.
 1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Browser]**.
 
    ![Regels > Brower](assets/target_browser.png)
 
-1. Klik **[!UICONTROL Select]** en selecteer een van de volgende opties:
+1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
-   * **Type:** Een bepaalde browser activeren of uitsluiten. Zie [Tekst](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Taal:** Hiermee kunt u bepaalde browsers activeren of uitsluiten die zijn ingesteld op het gebruik van specifieke talen. Zie [Taal](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Versie:** Bepaalde browserversies activeren of uitsluiten. Zie [Versie](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Type:bepaalde browser** activeren of uitsluiten. Zie [Type](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Taal:** doel of sluit bepaalde browsers uit die worden geplaatst om specifieke talen te gebruiken. Zie [Taal](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Versie:bepaalde browserversies** activeren of uitsluiten. Zie [Versie](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
-1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
+1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
 1. Klik op **[!UICONTROL Save]**.
 
 In het volgende voorbeeld wordt een publiek getoond dat Internet Explorer-gebruikers in versie 10 of 11 omvat:
@@ -60,11 +60,11 @@ In het volgende voorbeeld wordt een publiek getoond dat Internet Explorer-gebrui
 
 Hiermee kunt u deelnemers aan activiteiten op basis van het browsertype, de taal of de versie activeren of uitsluiten.
 
-### Type {#section_6ADC758F23F145B3A310151546D83D56}
+### Tekst {#section_6ADC758F23F145B3A310151546D83D56}
 
 Een bepaalde browser activeren of uitsluiten.
 
-Selecteer **[!UICONTROL Type]** en kies een van beide gelijk aan of niet gelijk aan elkaar.
+Selecteer **[!UICONTROL Type]** en kies een van beide gelijk aan of niet gelijk aan.
 
 * Gelijk aan: Selecteer de geselecteerde browsers.
 * Is niet gelijk aan: Sluit de geselecteerde browsers uit.
@@ -79,7 +79,7 @@ Als een aanbieding bijvoorbeeld alleen in het Engels beschikbaar is, kunt u zich
 
 Het opnemen of uitsluiten van de browsertaal kan een nauwkeurigere keuze voor bezoekers opleveren dan een voorkeur op basis van geografische ligging in gevallen waarin taal belangrijker is dan locatie. Als u bijvoorbeeld een artikel aanbiedt dat in het Engels is geschreven, kunt u zich richten op Engelstalige landen of op browsers die zijn ingesteld op Engels. Als u de browser als doel instelt, wordt het artikel beschikbaar voor Engelse luidsprekers in landen waar Engels niet de primaire taal is.
 
-Selecteer **[!UICONTROL Language]** en kies een van beide gelijk aan of niet gelijk aan elkaar.
+Selecteer **[!UICONTROL Language]** en kies een van beide gelijk aan of niet gelijk aan.
 
 * Gelijk aan: Kies de geselecteerde browsertalen.
 * Is niet gelijk aan: Sluit de geselecteerde browsertalen uit.
@@ -104,7 +104,7 @@ Bepaalde browserversies activeren of uitsluiten.
 
 Als uw pagina bijvoorbeeld niet correct wordt weergegeven in Internet Explorer versie 11 of lager, kunt u een publiek maken dat deze versies uitsluit. In dat geval, zou u opstelling een regel waar browser type Internet Explorer evenaart en een tweede regel toevoegt waar de versie minder dan of gelijk aan 11 is.
 
-Selecteer **[!UICONTROL Version]** en kies vervolgens een operator:
+Selecteer **[!UICONTROL Version]**, dan kies een exploitant:
 
 * Gelijk
 * Is niet gelijk aan
@@ -119,7 +119,7 @@ Alleen hoofdversies kunnen in het tekstveld worden ingevoerd. De opgegeven versi
 
 Meerdere opties zijn verbonden met een OR.
 
-## Trainingsvideo: Zelfstudie- ![badge voor soorten publiek maken](/help/assets/tutorial.png)
+## Trainingsvideo: Soorten publiek ![Zelfstudie-badge](/help/assets/tutorial.png) maken
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
