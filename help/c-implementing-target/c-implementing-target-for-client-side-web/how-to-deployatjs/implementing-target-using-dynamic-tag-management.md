@@ -18,6 +18,6 @@ Adobe Dynamic Tag Management (DTM) is beheer van bestaande Adobe (beheer van oud
 
 >[!IMPORTANT]
 >
->[De Lancering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) van Adobe is de aangewezen, bijgewerkte methode voor het uitvoeren van Doel en de bibliotheek at.js. Gebruik Starten voor nieuwe doelimplementaties. De volgende handleiding is bedoeld voor bestaande clients die een DTM-implementatie gebruiken.
+>[Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis de aangewezen, bijgewerkte methode voor het uitvoeren van Doel en de bibliotheek at.js. Gebruik Starten voor nieuwe doelimplementaties. De volgende handleiding is bedoeld voor bestaande clients die een DTM-implementatie gebruiken.
 
-Zie [Aanbevolen procedures voor het implementeren van Adobe Target met Dynamisch tagbeheer](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)voor meer informatie.
+Voor meer informatie, zie [Beste praktijken voor het Uitvoeren van Adobe Target gebruikend Dynamisch Beheer van de Markering](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
