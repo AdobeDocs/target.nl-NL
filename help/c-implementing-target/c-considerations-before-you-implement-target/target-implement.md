@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# De [!DNL Target] JavaScript-bibliotheken begrijpen{#understand-the-target-javascript-libraries}
+# De [!DNL Target] JavaScript-bibliotheken{#understand-the-target-javascript-libraries} begrijpen
 
-Implementeer [!DNL Target] door te verwijzen naar de [!DNL Target] bibliotheken (at.js of mbox.js) op uw webpagina&#39;s.
+Implementeer [!DNL Target] door te verwijzen naar de [!DNL Target]-bibliotheken (at.js of mbox.js) op uw webpagina&#39;s.
 
 >[!NOTE]
 >
->De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
 
 ## Verschillen tussen de twee bibliotheken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
@@ -26,18 +26,18 @@ In de volgende tabel worden de verschillen tussen de twee bibliotheken uitgelegd
 
 | Bibliotheekreferentie | Beschrijving |
 |--- |--- |
-| at.js | bij.js vervangt mbox.js voor [!DNL Target] implementaties.<br>Met at.js worden onder andere de laadtijden voor webimplementaties verbeterd, wordt de beveiliging verbeterd, wordt voorkomen dat documenten.write-waarschuwingen in Google Chrome verschijnen en worden betere implementatieopties geboden voor toepassingen van één pagina.<br>Zie [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)voor meer informatie. |
-| mbox.js | Voorafgaand aan [!DNL Target] 16.3.1 (Maart 2016), [!DNL Target] [!DNL Target] vereiste een vraag aan mbox.js om globale mbox tot stand te brengen die wordt vereist om activiteiten te leveren, kliks te volgen, en de meeste succesmetriek te volgen. Dit bestand bevat de bibliotheken die nodig zijn voor al uw activiteiten. U hoeft geen verschillende activiteitspecifieke versies van het bestand te onderhouden.<br>Als u reeds het verpakken vakjes op uw pagina&#39;s van een oudere stijl van [!DNL Target] implementatie hebt, kunnen deze vakjes nog in de nieuwe interface worden gebruikt. Het bijgewerkte bestand mbox.js is nog steeds vereist, maar deze vakken kunnen worden geselecteerd voor activiteiten en bewerkt met de Visual Experience Composer.<br>[!DNL Target] Standard- en Premium-update en -supplement mbox.js met een verwijzing naar het bestand target.js. Het bestand target.js wordt gehost door Adobe. Met het bestand Target.js kunt u inhoud op elke pagina bewerken met behulp van Visual Experience Composer, zelfs als de pagina geen vooraf gedefinieerde vakken bevat. U moet naar dit bestand verwijzen op elke pagina op uw site.<br>Zie [mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)voor meer informatie.<br>**Belangrijk**: De bibliotheek mbox.js wordt nog steeds ondersteund, maar er zijn geen functie-updates. Alle klanten moeten naar om.js migreren. Zie [Migreren naar at.js vanuit mbox.js voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br> |
+| at.js | at.js vervangt mbox.js voor [!DNL Target] implementaties.<br>Met at.js worden onder andere de laadtijden voor webimplementaties verbeterd, wordt de beveiliging verbeterd, wordt voorkomen dat documenten.write-waarschuwingen in Google Chrome verschijnen en worden betere implementatieopties geboden voor toepassingen van één pagina.<br>Zie  [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) voor meer informatie. |
+| mbox.js | Vóór [!DNL Target] 16.3.1 (Maart 2016), vereiste [!DNL Target] een vraag aan mbox.js om globale mbox tot stand te brengen die voor [!DNL Target] wordt vereist om activiteiten te leveren, kliks te volgen, en de meeste succesmetriek te volgen. Dit bestand bevat de bibliotheken die nodig zijn voor al uw activiteiten. U hoeft geen verschillende activiteitspecifieke versies van het bestand te onderhouden.<br>Als u reeds het verpakken vakjes op uw pagina&#39;s van een oudere stijl van  [!DNL Target] implementatie hebt, kunnen deze vakjes nog in de nieuwe interface worden gebruikt. Het bijgewerkte bestand mbox.js is nog steeds vereist, maar deze vakken kunnen worden geselecteerd voor activiteiten en bewerkt met de Visual Experience Composer.<br>[!DNL Target] Standard- en Premium-update en -supplement mbox.js met een verwijzing naar het bestand target.js. Het bestand target.js wordt gehost door Adobe. Met het bestand Target.js kunt u inhoud op elke pagina bewerken met behulp van Visual Experience Composer, zelfs als de pagina geen vooraf gedefinieerde vakken bevat. U moet naar dit bestand verwijzen op elke pagina op uw site.<br>Zie  [mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) voor meer informatie.<br>**Belangrijk**: De bibliotheek mbox.js wordt nog steeds ondersteund, maar er zijn geen functie-updates. Alle klanten moeten naar om.js migreren. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br> voor meer informatie |
 
-## Effect van at.js en mbox.js op de tijd van het laden van de pagina {#section_16630CD0FF0A498EB596A51381366A5A}
+## Effect van at.js en mbox.js op pagina-laadtijd {#section_16630CD0FF0A498EB596A51381366A5A}
 
-Veel klanten en consultants willen weten wat de impact is van [!DNL at.js] en [!DNL mbox.js] op de laadtijd van pagina&#39;s, met name in de context van nieuwe gebruikers of gebruikers die terugkeren. Jammer genoeg, is het moeilijk om concrete aantallen betreffende te meten en te geven hoe [!DNL at.js] of [!DNL mbox.js] beïnvloedt pagina-lading tijd toe te schrijven aan de implementatie van elke klant.
+Veel klanten en consultants willen weten wat de gevolgen zijn van [!DNL at.js] en [!DNL mbox.js] voor de laadtijd van de pagina, vooral in de context van nieuwe gebruikers of terugkerende gebruikers. Jammer genoeg, is het moeilijk om concrete aantallen betreffende te meten en te geven hoe [!DNL at.js] of [!DNL mbox.js] paginaoplaadtijd wegens de implementatie van elke klant beïnvloeden.
 
-Als de API voor bezoekers echter aanwezig is op de pagina, kunnen we beter begrijpen hoe [!DNL at.js] en [!DNL mbox.js] invloed deze tijd heeft.
+Als de API voor bezoekers echter aanwezig is op de pagina, kunnen we beter begrijpen hoe [!DNL at.js] en [!DNL mbox.js] de laadtijd van pagina&#39;s beïnvloeden.
 
 >[!NOTE]
 >
->De API voor bezoekers en [!DNL at.js] of [!DNL mbox.js] hebben alleen invloed op de laadtijd van de pagina wanneer u de globale box gebruikt (vanwege de techniek voor het verbergen van de hoofdtekst). De regionale mboxes worden niet beïnvloed door de integratie van de Bezoeker API.
+>De API voor bezoekers en [!DNL at.js] of [!DNL mbox.js] hebben alleen invloed op de laadtijd van de pagina wanneer u de globale box gebruikt (vanwege de body-hide techniek). De regionale mboxes worden niet beïnvloed door de integratie van de Bezoeker API.
 
 De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugkerende bezoekers:
 
