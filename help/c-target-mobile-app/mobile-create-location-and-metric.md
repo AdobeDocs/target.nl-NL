@@ -12,15 +12,15 @@ ht-degree: 0%
 ---
 
 
-# iOS - een doellocatie en succesmaatstaf maken{#ios-create-a-target-location-and-success-metric}
+# iOS - een doellocatie en succesmetrisch maken{#ios-create-a-target-location-and-success-metric}
 
 Als u Doel wilt gebruiken in uw mobiele app, maakt u een locatie en een succesmaatstaf.
 
-Deze sectie bevat voorbeeldcode die als sjabloon voor uw app kan worden gebruikt. De voorbeelden in deze sectie bevatten code voor iOS. Dezelfde patronen gelden voor Android. De Android-specifieke syntaxis vindt u in de handleiding [Android SDK 4.x for Experience Cloud Solutions](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html) .
+Deze sectie bevat voorbeeldcode die als sjabloon voor uw app kan worden gebruikt. De voorbeelden in deze sectie bevatten code voor iOS. Dezelfde patronen gelden voor Android. De Android-specifieke syntaxis vindt u in de handleiding [Android SDK 4.x for Experience Cloud Solutions](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html).
 
 >[!NOTE]
 >
->Zie de documentatie [van](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) Mobiele voor een lijst van alle beschikbare methodes van het Doel.
+>Zie de [Mobiele documentatie](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) voor een lijst van alle beschikbare methodes van het Doel.
 
 Er zijn twee primaire methoden om een doellocatie in uw app te maken en een aanvraag in te dienen:
 
@@ -40,9 +40,9 @@ Er zijn twee primaire methoden om een doellocatie in uw app te maken en een aanv
 
    | Parameter | Beschrijving |
    |---|---|
-   | `ADBTargetLocationRequest *myRequest` | Vervang `myRequest` de naam van uw `targetLocation` toepassing door de naam. |
-   | `targetCreateRequestWithName:@"heroBanner"` | Vervangen `heroBanner` door de naam van uw `targetLocation` doelversie. Dit is het zelfde als de mbox naam. Deze hoofdbanner wordt weergegeven in de interface Doel. |
-   | `defaultContent:@"default.png"` | Vervang deze door de waarde die de toepassing gebruikt als Target niet reageert. `default.png` |
+   | `ADBTargetLocationRequest *myRequest` | Vervang `myRequest` door de naam van uw `targetLocation` in de app. |
+   | `targetCreateRequestWithName:@"heroBanner"` | Vervang `heroBanner` met de naam van uw `targetLocation` in Doel. Dit is het zelfde als de mbox naam. Deze hoofdbanner wordt weergegeven in de interface Doel. |
+   | `defaultContent:@"default.png"` | Vervang `default.png` door de waarde die de toepassing gebruikt als Target niet reageert. |
    | `parameters:nil` | Geef de profiel- of mbox-parameters op. Zie meer informatie in de sectie &#39;Aangepaste gegevens doorgeven&#39;. |
 
    Hier is een steekproefvraag om het verzoek te laden:
@@ -57,13 +57,13 @@ Er zijn twee primaire methoden om een doellocatie in uw app te maken en een aanv
 
    | Parameter | Beschrijving |
    |---|---|
-   | `targetLoadRequest:myRequest` | Vervang `myRequest` de naam van uw `targetLocation` toepassing door de naam. |
+   | `targetLoadRequest:myRequest` | Vervang `myRequest` door de naam van uw `targetLocation` in de app. |
    | `NSString *content` | Inhoud vervangen door de inhoud die daadwerkelijk terugkomt van Adobe. De tekenreeks kan XML, JSON of een onbewerkte tekenreeks zijn. Gebruik dit gedeelte van de code om variabelen te definiëren, afbeeldingspaden in te stellen, controllerstromen, transactiepunten of andere elementen weer te geven die u wilt gebruiken. Doel retourneert de inhoud die in de gebruikersinterface is ingevoerd in exact dezelfde indeling. |
    | `heroImage.image = [UIImage imageNamed:content];` | Bijvoorbeeld: Neem inhoud en stel het pad in voor een hoofdafbeelding. |
 
 1. Maak een succesmetrische methode.
 
-   De methode `targetCreateOrderConfirmRequestWithName` kan worden gebruikt om een metrische waarde voor conversie/succes in uw app bij te houden.
+   Met de methode `targetCreateOrderConfirmRequestWithName` kunt u een metrische waarde voor conversie/succes bijhouden in uw app.
 
    ```
    ADBTargetLocationRequest *req = [ADBMobile targetCreateOrderConfirmRequestWithName: "orderConfirm" 
