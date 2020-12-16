@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # adobe.target.sendNotifications(options)
 
-Deze functie verzendt een bericht naar de rand van het Doel wanneer een ervaring wordt teruggegeven zonder het gebruiken `adobe.target.applyOffer()` of `adobe.target.applyOffers()`.
+Deze functie verzendt een bericht naar de rand van het Doel wanneer een ervaring wordt teruggegeven zonder `adobe.target.applyOffer()` of `adobe.target.applyOffers()` te gebruiken.
 
 >[!NOTE]
 >
@@ -46,18 +46,18 @@ Deze functie verzendt een bericht naar de rand van het Doel wanneer een ervaring
 | Verzoek > meldingen > ID | String | Ja | `<=` 200 tekens. | De bericht-id wordt als reactie gegeven en geeft aan dat het bericht is verwerkt. |
 | Verzoek > meldingen > impositie-id | String | Nee | `<= 128` tekens. | Met de ID Impression wordt het huidige bericht gekoppeld aan een eerder bericht of wordt het verzoek uitgevoerd. Als beide overeenkomen, wekken de tweede en andere volgende verzoeken geen nieuwe indruk op de activiteit of ervaring. |
 | Verzoek > meldingen > type | String | Ja | &quot;click&quot; of &quot;display&quot; wordt ondersteund. | Meldingstype. |
-| Verzoek > meldingen > tijdstempel | Getal`<int64>` | Ja |  | Tijdstempel van het bericht in milliseconden die zijn verstreken sinds het tijdperk van UNIX. |
+| Verzoek > meldingen > tijdstempel | Number`<int64>` | Ja |  | Tijdstempel van het bericht in milliseconden die zijn verstreken sinds het tijdperk van UNIX. |
 | Verzoek > meldingen > tokens | Array van tekenreeks | Ja |  | Een lijst met tokens voor weergegeven inhoud of geklikte kiezers, op basis van het type melding. |
 | Verzoek > meldingen > mbox | Object | Nee |  | Meldingen voor de box. |
 | Request > notifications > mbox > name | String | Nee | Geen lege waarden toegestaan.<br>Toegestane tekens: Zie de opmerking bij deze tabel. | mbox name. |
 | Request > notifications > mbox > state | String | Nee |  | mbox state token. |
 | Verzoek > meldingen > Weergave | Object | Nee |  |  |
-| Verzoek > meldingen > Weergave > ID | Geheel `<int64>` | Nee |  | Id weergeven. De id die aan de weergave is toegewezen toen de weergave werd gemaakt via de weergave-API. |
+| Verzoek > meldingen > Weergave > ID | Geheel getal `<int64>` | Nee |  | Id weergeven. De id die aan de weergave is toegewezen toen de weergave werd gemaakt via de weergave-API. |
 | Verzoek > meldingen > Weergave > Naam | String | Nee | `<= 128` tekens. | Naam van weergave. |
 | Request > notifications > view > key | String | Nee | `<=` 512 tekens. | Weergavesleutel. De sleutel die is ingesteld met de weergave via de API. |
 | Verzoek > meldingen > Weergave > Status | String | Nee |  | Statustoken weergeven. |
 
-**Opmerking**: De volgende tekens zijn toegestaan voor `Request > notifications > mbox > name`:
+**Opmerking**: De volgende tekens zijn toegestaan voor  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
@@ -119,4 +119,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Als u Adobe Analytics gebruikt, alleen `getOffers()` met een prefetch en `sendNotifications()`, moet het analyseverzoek worden geactiveerd nadat `sendNotifications()` het is uitgevoerd. Het doel hiervan is ervoor te zorgen dat de SDID die door wordt gegenereerd, overeenkomt met de SDID die naar Analytics en Target is verzonden. `sendNotifications()`
+>Als u Adobe Analytics, `getOffers()` met slechts prefetch en `sendNotifications()` gebruikt, moet het verzoek van Analytics worden in brand gestoken nadat `sendNotifications()` wordt uitgevoerd. Het doel hiervan is ervoor te zorgen dat de SDID die door `sendNotifications()` wordt gegenereerd, overeenkomt met de SDID die naar Analytics en Target is verzonden.
