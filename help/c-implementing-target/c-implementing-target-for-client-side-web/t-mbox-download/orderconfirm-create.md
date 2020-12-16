@@ -12,7 +12,7 @@ ht-degree: 19%
 ---
 
 
-# Een bevestigingsbox voor bestellingen maken - mbox.js{#create-an-order-confirmation-mbox-mbox-js}
+# Een bevestigingsbox voor bestelling maken - mbox.js{#create-an-order-confirmation-mbox-mbox-js}
 
 In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw site vastgelegd en wordt rapportage op basis van inkomsten en bestellingen toegestaan. Met het selectievakje Order Confirmation (Bevestiging bestellen) kunt u ook aanbevelingen uitvoeren, zoals &quot;People that purchase product x also purchase product y.&quot; (Personen die het product hebben gekocht).
 
@@ -21,10 +21,10 @@ In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw si
 >* Als gebruikers aankopen doen op uw website, raden we u aan een bevestigingsvak voor bestellingen te implementeren, zelfs als u Analytics for Target (A4T) gebruikt voor uw rapportage.
    >
    >
-* U kunt ook een bevestigingsvak voor bestellingen maken voor at.js 1.*x* met dezelfde methode; de [!DNL at.js] methode heeft echter de voorkeur . Zie Conversies [bijhouden voor meer informatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* U kunt ook een bevestigingsvak voor bestellingen maken voor at.js 1.*dezelfde* methode gebruiken; de  [!DNL at.js] methode heeft echter de voorkeur . Zie [Conversies bijhouden](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053) voor meer informatie.
    >
    >
-* Als u at.js 2 gebruikt.*x*, `mboxCreate` wordt niet meer ondersteund. Voor bevestiging van de bestelling met behulp van at.js 2.*x*, gebruik volgende het volgen-verwante APIs: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) en [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Als u at.js 2 gebruikt.*x*,  `mboxCreate` wordt niet meer ondersteund. Voor bevestiging van de bestelling met behulp van at.js 2.*x*, gebruik volgende het volgen-verwante APIs:  [trackEvent() ](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) en  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. Voeg op de pagina met orderdetails het mbox-script in volgens het onderstaande model.
@@ -34,7 +34,7 @@ In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw si
    >
    >Gebruik komma&#39;s als scheidingsteken om meerdere product-id&#39;s van elkaar te scheiden.
 
-   **Tip:** U kunt ook ordergegevens in een willekeurige box doorgeven (hiervoor hoeft geen naam te worden gegeven `orderConfirmPage`). U kunt ook ordergegevens in meerdere vakken in dezelfde campagne doorgeven.
+   **Tip:** U kunt ook ordergegevens in een willekeurige box doorgeven (hiervoor hoeft geen naam te worden gegeven  `orderConfirmPage`). U kunt ook ordergegevens in meerdere vakken in dezelfde campagne doorgeven.
 
    ```
    <div class="mboxDefault"> 
