@@ -12,14 +12,14 @@ ht-degree: 0%
 ---
 
 
-# Dynamische gegevens in aanbiedingen doorgeven{#pass-dynamic-data-into-offers}
+# Dynamische gegevens doorgeven in aanbiedingen{#pass-dynamic-data-into-offers}
 
 U kunt bezoekersinformatie dynamisch weergeven die in het doelprofiel is opgeslagen. Op dezelfde manier kan de activiteiteninformatie (zoals de naam van de activiteit of de naam van de ervaring) ook worden gebruikt om één enkele aanbieding tot stand te brengen die dynamisch gepersonaliseerde inhoud op de belangen van de bezoeker, het vroegere gedrag, en algemeen profiel terugkeert.
 
 **Zakelijke zaken**
 
 * Een gedisconteerd voorstel promoten om het laatste aangeschafte product te &quot;vullen&quot; of &quot;aan te vullen&quot;. In plaats van een aparte aanbieding te maken voor elk item in uw catalogus, kunt u een aanbieding maken met dynamische tekst die het &quot;laatst aangeschafte product&quot; uit het profiel leest en een koppeling in de aanbieding weergeeft.
-* Een bezoeker komt op uw landingspagina aan met `keyword=world` `cup`. Je geeft de term *Wereldbeker* in het aanbod weer.
+* Een bezoeker komt op uw landingspagina met `keyword=world` `cup` aan. U geeft de term *World cup* in de aanbieding weer.
 * Pas een aanbevolen label aan met informatie zoals (1) het laatste item dat aan de winkelwagentje van een bezoeker is toegevoegd (Nike Air Max 1000 s), (2) de kleurvoorkeur van de bezoeker (zwart) en (3) de favoriete niet-schoenencategorie (hoodies) van de bezoeker. Voorbeeld: &quot;Maak kennis met uw &#39;Nike Air Max 1000s&#39; met deze coole &#39;zwarte&#39; &#39;hoodies&#39;!&quot;
 
 
@@ -29,7 +29,7 @@ Omdat gebruikersspecifieke voorkeuren, gedrag, status, enzovoort. kan in het pro
 
 **Voorbeeld**
 
-* `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
+* `mboxCreate("landingpage"`,  `"profile.keyword=World Cup");`
 
 * HTML-aanbiedingscode: `Get your ${profile.keyword} information here!`
 * Gebruiker ziet: Haal hier je WK-informatie op!
@@ -41,7 +41,7 @@ De volgende waarden kunnen worden vervangen door een token:
 | Profielparameters in de box | `${profile.age}` |
 | Scriptprofielparameters | `${user.lifetimeSpend}` |
 | Mbox-parameters | `${mbox.favoriteColor}` |
-| Campagnegegevens | `${campaign.name}`, `${campaign.recipe.name}`, `${campaign.id}`, `${campaign.recipe.id}`en `${campaign.recipe.trafficType}` |
+| Campagnegegevens | `${campaign.name}`,  `${campaign.recipe.name}`,  `${campaign.id}`,  `${campaign.recipe.id}`en  `${campaign.recipe.trafficType}` |
 | Unieke bezoeker-id | `${user.pcId}` |
 | Unieke sessie-id | `${user.sessionId}` |
 | Eerste sessie van bezoeker (waar of onwaar) | `${user.isFirstSession}` |
@@ -49,11 +49,11 @@ De volgende waarden kunnen worden vervangen door een token:
 
 Loggegevens in de console voor foutopsporingsdoeleinden, zoals `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Zie aanvullende voorbeelden in het [ontwerpoverzicht](/help/c-recommendations/c-design-overview/design-overview.md)voor Recommendations-ontwerpen.
+Voor Recommendations-ontwerpen raadpleegt u aanvullende voorbeelden in [Overzicht van ontwerp](/help/c-recommendations/c-design-overview/design-overview.md).
 
 **Implementatie**
 
-Gebruik de syntaxis voor profielparameters die aan een box worden doorgegeven: `${profile.parameter}` Gebruik de syntaxis voor profielparameters die zijn gemaakt in een profielscript:
+Gebruik de syntaxis voor profielparameters die aan een box worden doorgegeven: `${profile.parameter}` Voor profielparameters die in een profielmanuscript worden gecreeerd, gebruik de syntaxis:
 
 `${user.parameter}`
 
@@ -65,7 +65,7 @@ U kunt ook standaardwaarden opgeven voor waarden die u toegankelijk wilt maken v
 
 `${user.testAttribute default="All Items!"}`
 
-Als `testAttribute` dit niet het geval is of leeg is, klikt u op Alle items! wordt opgeschreven. Als een lege kenmerkwaarde geldig is en u wilt het uit in plaats van het tonen van het gebrek schrijven, kunt u gebruiken:
+Als `testAttribute` niet bestaat of leeg is, &quot;Alle items!&quot; wordt opgeschreven. Als een lege kenmerkwaarde geldig is en u wilt het uit in plaats van het tonen van het gebrek schrijven, kunt u gebruiken:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
