@@ -18,21 +18,21 @@ Informatie om u te helpen een globale mbox voor at.js aanpassen.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-1. Schakel deze optie uit **[!UICONTROL Page load enabled (Auto create global mbox)]** en voeg vervolgens de naam toe van de aangepaste globale box die u wilt gebruiken om activiteiten van [!DNL Target]te leveren.
+1. Schakel **[!UICONTROL Page load enabled (Auto create global mbox)]** uit en voeg vervolgens de naam toe van het aangepaste globale vakje dat u wilt gebruiken om activiteiten van [!DNL Target] te leveren.
 
    Dit aangepaste globale vakje wordt ook gebruikt voor klik het volgen.
 
    ![custom-global-mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/assets/custom-global-mbox.png)
 
-1. Klik **[!UICONTROL Save]** wanneer u klaar bent.
+1. Klik **[!UICONTROL Save]** wanneer u wordt gebeëindigd.
 
-1. Implementeer de [!DNL at.js] bibliotheek op uw site.
+1. Implementeer de [!DNL at.js]-bibliotheek op uw site.
 
-   Zie [hoe te om at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) voor meer informatie op te stellen.
+   Zie [Hoe te om at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) voor meer informatie op te stellen.
 
 1. Tijd de overgang met uw versie.
 
-   Zodra u klaar bent om uw globale mbox voor alle activiteiten [!DNL Target] te beginnen te gebruiken die zich voortbewegen, kunt u met deze stap verdergaan.
+   Zodra u klaar bent voor [!DNL Target] om uw globale mbox voor alle activiteiten te beginnen te gebruiken die zich vooruit bewegen, kunt u met deze stap te werk gaan.
 
    Werk de naam van de aangepaste globale box bij zodat deze overeenkomt met de naam die in Stap 2, hierboven, wordt gebruikt.
 
