@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Automated Personalization - Veelgestelde vragen{#automated-personalization-faq}
+# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMAutomated Personalization{#automated-personalization-faq}
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over Automated Personalization (AP).
 
 ## Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
 
-U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
-Zie Een specifieke ervaring [gebruiken als controle](/help/c-activities/t-automated-personalization/experience-as-control.md)voor meer informatie.
+Zie [Een specifieke ervaring gebruiken als controle](/help/c-activities/t-automated-personalization/experience-as-control.md) voor meer informatie.
 
 ## Hoe kan ik Automated Personalization vergelijken met een standaardervaring? {#section_46C1A620A2384C2C8392D6716DD18495}
 
@@ -35,7 +35,7 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
    * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, waarschijnlijk zijn de aanbiedingen u overweegt niet voldoende verschillend van elkaar, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
 
-* Zorg ervoor om de [schatter](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) van het Verkeer te gebruiken zodat kunt u een idee hebben van hoe lang het voor verpersoonlijkingsmodellen zal vergen om in uw activiteit van Automated Personalization op te bouwen.
+* Zorg ervoor om [Verkeersschatter](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) te gebruiken zodat kunt u een idee hebben van hoe lang het voor verpersoonlijkingsmodellen zal vergen om in uw activiteit van Automated Personalization op te bouwen.
 * Beslis over de toewijzing tussen controle en gericht alvorens met de activiteit te beginnen die op uw doelstellingen wordt gebaseerd.
 
    Er zijn drie scenario&#39;s die u kunt overwegen op basis van het doel van uw activiteit en het type besturingselement dat u hebt geselecteerd:
@@ -74,11 +74,11 @@ Er zijn vier factoren vereist voor een AP-activiteit om lift te genereren:
 
 De beste manier van werken is eerst ervoor te zorgen dat de inhoud en de locaties waaruit de activiteitenervaringen bestaan daadwerkelijk een verschil maken met de totale responspercentages met behulp van een eenvoudige, niet-gepersonaliseerde A/B-test. Zorg ervoor dat u de monstergrootten vooraf berekent om ervoor te zorgen dat er voldoende kracht is om een redelijke lift te zien en de A/B-test voor een vaste duur uit te voeren zonder deze te stoppen of wijzigingen aan te brengen. Als een A/B-testresultaten statistisch significante lift op een of meer van de ervaringen laten zien, is het waarschijnlijk dat een gepersonaliseerde activiteit zal werken. Natuurlijk kan personalisatie werken zelfs als er geen verschillen zijn in de totale responspercentages van de ervaringen. Doorgaans is het probleem het gevolg van aanbiedingen/locaties die niet voldoende invloed hebben op het optimalisatiedoel en die statistisch significant moeten worden opgespoord.
 
-Voor meer informatie, [het Oplossen van problemen Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+[Problemen met Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA) oplossen voor meer informatie.
 
 ### Hoe wijst Automated Personalization het verkeer van mijn activiteiten toe? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-Automated Personalization leidt bezoekers naar de ervaring die de hoogst voorspelde succesmetrisch gebaseerd op de meest recente modellen van het [Willekeurige Bos](/help/c-activities/t-automated-personalization/algo-random-forest.md) heeft die voor elk model worden gebouwd. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
+Automated Personalization leidt bezoekers naar de ervaring die het hoogst voorspelde succes metrisch gebaseerd op de meest recente modellen [Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md) heeft die voor elk model worden gebouwd. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
 
 Stel bijvoorbeeld dat een AP-activiteit twee locaties had met elk twee aanbiedingen. Op de eerste locatie wordt voor Offer A een omrekeningskoers van 3% voor een specifieke bezoeker voorspeld en voor Aanbieding B een omrekeningskoers van 1%. Op de tweede locatie wordt voor Offer C een omrekeningskoers van 2% voor dezelfde bezoeker voorspeld, terwijl Offer D een omrekeningskoers van 5% heeft. Automated Personalization zou deze bezoeker dan ook een ervaring bieden met voorstel A en aanbod D.
 
@@ -88,7 +88,7 @@ Automated Personalization kan worden gebruikt als &#39;altijd op&#39;-personalis
 
 ### Hoe lang moet ik wachten op modellen om te bouwen? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-De tijdsduur die nodig is voor modellen om uw activiteit uit te breiden, is doorgaans afhankelijk van het verkeer naar de geselecteerde locatie(s) van de activiteit en van de mate van succes van de activiteit. Gebruik de [schatter](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) van het Verkeer om de verwachte tijdsduur te bepalen het voor modellen zal vergen om in uw activiteit te bouwen.
+De tijdsduur die nodig is voor modellen om uw activiteit uit te breiden, is doorgaans afhankelijk van het verkeer naar de geselecteerde locatie(s) van de activiteit en van de mate van succes van de activiteit. Gebruik [Verkeersschatter](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) om de verwachte tijdsduur te bepalen het voor modellen zal vergen om in uw activiteit te bouwen.
 
 ### Eén model is gebouwd binnen mijn activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
@@ -115,11 +115,11 @@ Automated Personalization-activiteiten worden één keer per sessie geëvalueerd
 
 Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
 
-Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
+Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
 
 ### Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een Automated Personalization-activiteit?
 
-Het gebruik van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Automated Personalization] activiteiten wordt niet voorgesteld. Hoewel de zichtbare rapportgegevens worden verwijderd, worden met deze optie niet alle trainingsrecords uit het [!UICONTROL Automated Personalization] model verwijderd. In plaats van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Automated Personalization] activiteiten te gebruiken, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Opmerking: Deze leidraad is ook van toepassing op [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.)
+Het gebruik van de optie [!UICONTROL Reset Report Data] voor [!UICONTROL Automated Personalization]-activiteiten wordt niet aanbevolen. Hoewel de zichtbare rapportgegevens worden verwijderd, verwijdert deze optie niet alle trainingsrecords uit het model [!UICONTROL Automated Personalization]. In plaats van de optie [!UICONTROL Reset Report Data] te gebruiken voor [!UICONTROL Automated Personalization]-activiteiten, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Opmerking: Deze leidraad is ook van toepassing op [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten.)
 
 ### Hoe bouwt Automated Personalization modellen met betrekking tot omgevingen?
 
