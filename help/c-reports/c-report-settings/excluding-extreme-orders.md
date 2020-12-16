@@ -18,7 +18,7 @@ U kunt extreme waarden uitsluiten van het beïnvloeden van rapporten in [!DNL Ad
 
 >[!NOTE]
 >
->De [!UICONTROL Exclude Extreme Values] vlag is alleen van toepassing op activiteiten met [!UICONTROL Revenue] en [!UICONTROL Engagement] metrische typen.
+>De markering [!UICONTROL Exclude Extreme Values] is alleen van toepassing op activiteiten met metrische typen [!UICONTROL Revenue] en [!UICONTROL Engagement].
 
 Extreme waarden worden automatisch gemarkeerd op basis van de onderstaande regels. U kunt schakelen tussen het zien van en het uitsluiten van de extreme waarden van uw rapporten. De extreme waarden van een activiteit worden uitgesloten nadat de activiteit gedurende een uur of na 15 orders is uitgevoerd, afhankelijk van welke het eerst komt.
 
@@ -26,14 +26,14 @@ Een waarde wordt als extreem beschouwd als deze meer dan +/- 3 standaardafwijkin
 
 Het filter voor extreme waarden is bijvoorbeeld vaak handig bij het gebruik van RPV. RPV combineert de omrekeningskoers en de gemiddelde orderwaarde, en stelt vaak de volatiliteit van die cijfers bloot. Als u RPV gebruikt en bepaalt dat orders niet normaal verdeeld lijken te zijn, ziet u wellicht meer normale resultaten als u het filter voor extreme volgorde toepast.
 
-Wanneer een waarde als extreem wordt gemarkeerd, wordt de waarde van de volgorde vervangen door de gemiddelde waarde van de ervaring voor de laatste maand, exclusief de uiterste waarden. De volgorde wordt ook als extreem gemarkeerd in het [!UICONTROL Order Details] rapport en in de CSV-download voor dagelijkse resultaten.
+Wanneer een waarde als extreem wordt gemarkeerd, wordt de waarde van de volgorde vervangen door de gemiddelde waarde van de ervaring voor de laatste maand, exclusief de uiterste waarden. De volgorde wordt ook als extreem gemarkeerd in het [!UICONTROL Order Details]-rapport en in de CSV-download voor dagelijkse resultaten.
 
 **Extreme waarden uitsluiten van uw rapporten:**
 
-1. Open een activiteit die de metrische types van Inkomsten of van de Betrokkenheid omvat, dan klik de **[!UICONTROL Reports]** tabel.
-1. Klik op het tandwielpictogram om het **[!UICONTROL Settings]** dialoogvenster weer te geven.
+1. Open een activiteit die de metrische types van Inkomsten of van de Betrokkenheid omvat, dan klik **[!UICONTROL Reports]** tabel.
+1. Klik op het tandwielpictogram om het dialoogvenster **[!UICONTROL Settings]** weer te geven.
 
    ![Stap resultaat](assets/exclude_extreme_values.png)
 
-1. Sleep de **[!UICONTROL Exclude Extreme Values]** schakeloptie naar de positie &quot;aan&quot; of &quot;uit&quot;.
+1. Schuif de schakeloptie **[!UICONTROL Exclude Extreme Values]** naar de positie &quot;aan&quot; of &quot;uit&quot;.
 1. Klik op **[!UICONTROL Save]**.
