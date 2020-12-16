@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Legacy SiteCatalyst to Test&amp;Target integration - A4T Veelgestelde vragen{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
+# Legacy SiteCatalyst to Test&amp;Target Integration - A4T FAQ{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}
 
 Dit onderwerp bevat antwoorden op vragen die vaak over erfenis SiteCatalyst aan Test&amp;Target integratie worden gevraagd en Analytics als rapporteringsbron voor Doel (A4T) gebruiken.
 
