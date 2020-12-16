@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Klikken bijhouden{#click-tracking}
+# Klikken op bijhouden{#click-tracking}
 
 Het doel laat u toe om kliks op om het even welk element te volgen als succes metrisch.
 
@@ -20,12 +20,12 @@ Het doel laat u toe om kliks op om het even welk element te volgen als succes me
 >
 >Het volgen van kliks wordt niet gesteund op het globale verzoek van het Doel wanneer het als plaats in een vorm-gebaseerde activiteit wordt gebruikt.
 
-## Klikspatiëring instellen {#section_5540C5A533114E57BAE022A600B02E72}
+## Klik op bijhouden instellen {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Wanneer het plaatsen van uw doelstellingen op de [!UICONTROL Goals & Settings] pagina voor uw activiteit, selecteer **[!UICONTROL Conversion]** succesmetrisch.
-1. Selecteer voor de actie **[!UICONTROL Clicked an element]** en klik op **[!UICONTROL Select elements]**.
+1. Selecteer **[!UICONTROL Clicked an element]** voor de actie en klik op **[!UICONTROL Select elements]**.
 
-   De pagina wordt geopend in de map [!UICONTROL Visual Experience Composer] (VEC).
+   Uw pagina wordt geopend in [!UICONTROL Visual Experience Composer] (VEC).
 
 1. Selecteer de elementen die u wilt bijhouden.
 
@@ -37,11 +37,11 @@ Wanneer een deelnemer aan een activiteit op een geselecteerd element klikt, word
 
 ## Deelvenster Geselecteerde elementen {#selected-elements}
 
-Voor A/B-test, Experience Targeting (XT), Automated Personalization (AP) en MVT-activiteiten (Multivariate Test) bevat een [!UICONTROL Selected Elements] deelvenster alle geselecteerde elementen voor klik op tracking aan de rechterkant.
+Voor A/B-test-, Experience Targeting (XT)-, Automated Personalization (AP)- en MVT-activiteiten (Multivariate Test) worden in het deelvenster [!UICONTROL Selected Elements] alle geselecteerde elementen weergegeven voor klikken op bijhouden aan de rechterkant.
 
 ![Deelvenster Geselecteerde elementen](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Er zijn verschillende acties die u kunt toepassen wanneer u de muisaanwijzer op een element in het [!UICONTROL Selected Elements] deelvenster plaatst. In de volgende tabel wordt elke actie beschreven die op een element kan worden uitgevoerd:
+Er zijn verscheidene acties die kunnen worden toegepast wanneer u over een element in het [!UICONTROL Selected Elements] paneel beweegt. In de volgende tabel wordt elke actie beschreven die op een element kan worden uitgevoerd:
 
 | Handeling | Beschrijving |
 | --- | --- |
@@ -57,7 +57,7 @@ Als u het DOM-pad naar de kiezer al kent, kunt u het handmatig toevoegen door op
 
 ### Geselecteerde elementen boven pop-up plaatsen
 
-Nadat u meerdere elementen hebt geselecteerd voor klikken op bijhouden, kunt u op de [!UICONTROL Elements Selected] koppeling in de [!UICONTROL Goals & Settings] stap van de activiteit klikken om de volledige lijst met elementen weer te geven die zijn geselecteerd voor klikken op bijhouden. De lijst bevat het volledige DOM-pad voor het element, zodat u kunt controleren of het geselecteerde element moet worden gebruikt voor klikken op bijhouden.
+Nadat u meerdere elementen hebt geselecteerd voor klikken op bijhouden, kunt u op de [!UICONTROL Elements Selected]-koppeling in de stap [!UICONTROL Goals & Settings] van de activiteit klikken om de volledige lijst met elementen weer te geven die zijn geselecteerd voor klikken op bijhouden. De lijst bevat het volledige DOM-pad voor het element, zodat u kunt controleren of het geselecteerde element moet worden gebruikt voor klikken op bijhouden.
 
 ![Geselecteerde Elements-koppeling](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -71,9 +71,9 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    Net als bij het maken van ervaringen in stap 1 in de workflow voor het maken van activiteiten, kunt u met de padkiezer voor DOM onder aan de pagina een element kiezen. Bij het selecteren van een element van de weg DOM, toont het overeenkomstige element in VEC als &quot;Geselecteerd.&quot; Als u de selectie van een geselecteerd element wilt opheffen, klikt u opnieuw op het element in de DOM-padkiezer of klikt u op het vak &quot;Geselecteerd&quot; in de VEC.
 
-   Voor meer informatie, zie [Navigeren elementen gebruikend de weg](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) DOM in de Opties *van de Composer van de* Visuele Ervaring.
+   Zie [Navigeren door elementen met het DOM-pad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Opties voor Visual Experience Composer* voor meer informatie.
 
-* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze andere pagina moet worden opgenomen in de activiteit met behulp van de functie [voor](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) meerdere pagina&#39;s [!DNL at.js] of [!DNL mbox.js] moet erop worden geïmplementeerd.
+* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze verschillende pagina moet in de activiteit worden omvat gebruikend [multipage eigenschap](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) en [!DNL at.js] of [!DNL mbox.js] moet op het worden uitgevoerd.
 * Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.
 * Selecteer het niveau van het element dat u wilt bijhouden. Wanneer u bijvoorbeeld een knop opgeeft, moet u de koppeling selecteren en niet de knoptekst.
 * Klik gebeurtenissen worden verzonden naar [!DNL Target] op de zelfde pagina zoals de klik.
@@ -82,19 +82,19 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    | Teken | Beschrijving |
    |---|---|
-   | # | Nummerteken of Hash |
+   | Aantal | Nummerteken of Hash |
    | : | Colon |
    | . | Periode |
    | $ | Dollar-teken |
    | `[ ]` | Vierkante haken |
 
-* Als u [!DNL at.js] klik het volgen gebruikt en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] het volgen annuleert alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
+* Als u [!DNL at.js] klikt het volgen en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] annuleert het volgen alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
 
-   [!DNL at.js] heeft een speciale afhandeling voor het bijhouden van klikken wanneer het onderliggende element een `A` (koppeling)tag of `FORM` tag is.
+   [!DNL at.js] heeft een speciale afhandeling voor het bijhouden van klikken wanneer het onderliggende element een  `A` (koppeling)tag of  `FORM` tag is.
 
-   De volgende stappen worden uitgevoerd door [!DNL at.js] de gebeurtenis click tracking te koppelen aan een `A` (link)tag of een `FORM` tag:
+   De volgende stappen worden uitgevoerd door [!DNL at.js] wanneer de gebeurtenis click tracking wordt gekoppeld aan een `A`-tag (link) of een `FORM`-tag:
 
-   1. Oproepen `event.preventDefault()`.
+   1. `event.preventDefault()` aanroepen.
 
    1. Verzoek branddoel.
 
@@ -105,7 +105,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    Dit standaardgedrag kan problemen veroorzaken bij het bijhouden van klikken op Analytics. Als u Analytics gebruikt, zou u voor het volgen van klik eerder dan Doel op Analytics moeten vertrouwen.
 
-* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor gebruikers in de onderneming zijn een Target Premium-functie. Zie [Gebruikersmachtigingen](/help/administrating-target/c-user-management/property-channel/property-channel.md)voor ondernemingen voor meer informatie.
+* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor gebruikers in de onderneming zijn een Target Premium-functie. Zie [Machtigingen voor zakelijke gebruikers](/help/administrating-target/c-user-management/property-channel/property-channel.md) voor meer informatie.
 
 ## Trainingsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
