@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Mobiel{#mobile}
+# Mobile{#mobile}
 
 Maak een publiek voor mobiele doelapparaten op basis van parameters zoals mobiel apparaat, type apparaat, leverancier van apparaat, schermafmetingen (per pixel) en meer.
 
-U kunt bijvoorbeeld andere inhoud weergeven voor gebruikers die uw pagina invoeren via een telefoon dan voor gebruikers die een pagina bezoeken vanaf een computer. In dat geval kunt u het mobiele publiek selecteren en vervolgens de **[!UICONTROL Is Mobile Phone]** optie selecteren en vervolgens specifieke details toevoegen die voor u van belang zijn, zoals het type telefoon, de schermgrootte (in pixels), enzovoort.
+U kunt bijvoorbeeld andere inhoud weergeven voor gebruikers die uw pagina invoeren via een telefoon dan voor gebruikers die een pagina bezoeken vanaf een computer. In dat geval, kon u het Mobiele publiek selecteren, dan **[!UICONTROL Is Mobile Phone]** optie selecteren, dan om het even welke specifieke details toevoegen die voor u belangrijk zijn, zoals het type van telefoon, grootte van het scherm (in pixel), etc.
 
-Mobiel richten wordt geleverd door [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), een service van DotMobi. DeviceAtlas is een uitgebreide database van mobiele apparaten die is gebaseerd op gegevens die zijn gecompileerd uit verschillende bronnen, waaronder fabrikanten en netwerkoperatoren. Deze gegevens worden vervolgens geverifieerd, waarnaar wordt verwezen en gevalideerd om een grote en nauwkeurige database voor mobiele apparaten samen te stellen.
+Mobiel richten wordt geleverd door [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), een dienst van DotMobi. DeviceAtlas is een uitgebreide database van mobiele apparaten die is gebaseerd op gegevens die zijn gecompileerd uit verschillende bronnen, waaronder fabrikanten en netwerkoperatoren. Deze gegevens worden vervolgens geverifieerd, waarnaar wordt verwezen en gevalideerd om een grote en nauwkeurige database voor mobiele apparaten samen te stellen.
 
 De opsporing van het apparaat wordt verwezenlijkt door user-Agent koorden te analyseren. Sommige apparaatfabrikanten, zoals Apple, schakelen deze functionaliteit uit door onvoldoende informatie in de UA op te geven.
 
@@ -34,16 +34,16 @@ Om dit op te lossen, verzamelt Target extra gegevens om iPhones en andere appara
 
 >[!NOTE]
 >
->Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken, moeten [upgraden naar at.js versie 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (of hoger).
+>Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken moeten [een upgrade uitvoeren naar at.js versie 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (of hoger).
 
 U kunt meerdere eigenschappen voor mobiele apparaten kiezen. Meerdere selecties worden gekoppeld aan een OR.
 
 Klanten die een aangepaste integratie gebruiken (zonder at.js of de Mobile SDK), kunnen deze parameters zelf verzamelen en deze als mbox-parameters doorgeven.
 
-1. Klik in de [!DNL Target] interface op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Noem het publiek.
 1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Mobile]**.
-1. Klik **[!UICONTROL Select]** en selecteer een van de volgende opties:
+1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
    * Marketingnaam apparaat
    * Apparaatmodel
@@ -63,9 +63,9 @@ Klanten die een aangepaste integratie gebruiken (zonder at.js of de Mobile SDK),
 
    >[!NOTE]
    >
-   >Met de [Geo-instellingen](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)kunt u zich richten op een mobiele provider.
+   >U kunt zich richten door mobiele apparatendrager gebruikend [Geo montages](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
-1. (Optioneel) Klik op aanvullende regels voor het publiek **[!UICONTROL Add Rule]** en stel deze in.
+1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
 1. Klik op **[!UICONTROL Save]**.
 
 In de volgende afbeelding wordt een publiek getoond dat doelt op bezoekers met apparaten die door Google zijn gemaakt en die een mobiel apparaat zijn.
