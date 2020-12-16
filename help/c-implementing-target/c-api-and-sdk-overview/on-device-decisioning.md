@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Apparaatbeslissingen
 
-De beslissing op het apparaat verstrekt de capaciteit om uw [!DNL Adobe Target] en [!UICONTROL A/B Test] (XT) activiteiten op uw server in het voorgeheugen op te slaan en in-geheugenbesluit bij bijna-nul latentie uit te voeren, zonder netwerkverzoeken aan het Netwerk van de [!UICONTROL Experience Targeting] [!DNL Adobe Target] Rand te blokkeren.
+Beslissing op het apparaat biedt de mogelijkheid om uw [!DNL Adobe Target] [!UICONTROL A/B Test]- en [!UICONTROL Experience Targeting] (XT)-activiteiten op uw server in het cachegeheugen op te slaan en de besluitvorming in het geheugen uit te voeren bij een bijna-nullatentie, zonder netwerkverzoeken aan [!DNL Adobe Target] Edge Network te blokkeren.
 
-Voor meer informatie, zie [Inleiding aan op-apparatenbesluit](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de documentatie *[van SDKs van](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target.
+Zie [Inleiding tot apparaatbesluitvorming](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de documentatie van *[Adobe Target SDK&#39;s](https://adobetarget-sdks.gitbook.io/docs/)* voor meer informatie.
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
 Meer dan ooit, worden de marketers, de producteigenaars en de ontwikkelaars belast met het optimaliseren van de algemene klantenervaring op plaatsen, in apps, en overal anders zij met hun klanten verbinden. Meerdere gereedschappen met gegevenssilo&#39;s en ingewikkelde implementaties knippen deze niet.
 
-In dit geregistreerde webinar, bespreken de [!DNL Adobe Target] productdeskundigen hoe het bewegen van kritieke ervaring optimaliseringsbesluiten op apparaat om plaatselijk met bijna-nul latentie uit te voeren deuren aan opwindende nieuwe gebruiksgevallen kan openen terwijl het verbeteren van plaatsprestaties voor uw klanten.
+In dit geregistreerde webinar bespreken productdeskundigen [!DNL Adobe Target] hoe het bewegen van kritieke ervaring optimaliseringsbesluiten op apparaat om plaatselijk met bijna-nul latentie uit te voeren deuren voor opwindende nieuwe gebruiksgevallen kan openen terwijl het verbeteren van plaatsprestaties voor uw klanten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
@@ -32,8 +32,8 @@ In dit geregistreerde webinar, bespreken de [!DNL Adobe Target] productdeskundig
 
 Deze video van 7 minuten:
 
-* Beschrijft op apparaat besluit, met inbegrip van hoe het met andere methodes van [!DNL Target] implementatie vergelijkt
-* Toont aan hoe te om op apparaat het besluiten in toe te laten [!DNL Target]
+* Beschrijft op apparaat beslist, met inbegrip van hoe het met andere methodes van [!DNL Target] implementatie vergelijkt
+* Toont aan hoe te om op apparatenbesluit in [!DNL Target] toe te laten
 * Hiermee wordt een op een formulier gebaseerde componentactiviteit onderzocht die is geconfigureerd met JSON-inhoud
 * Toont de code van steekproefNode.JS SDK die zeer belangrijke die configuratie bevat voor op-apparatenbesluit wordt vereist
 * Toont resultaten in browser aan
