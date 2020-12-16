@@ -47,7 +47,7 @@ Nuttig voor het testen van marketing van sites die geen box hebben, zoals filial
 
 **at.js**
 
-De [!DNL at.js] bibliotheek is een nieuwe implementatiebibliotheek die is [!DNL Adobe Target] ontworpen voor zowel gangbare webimplementaties als toepassingen van één pagina. De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js] voor [!DNL Target] implementaties.
+De [!DNL at.js]-bibliotheek is een nieuwe implementatiebibliotheek voor [!DNL Adobe Target] die is ontworpen voor zowel gangbare webimplementaties als toepassingen met één pagina. De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js] voor [!DNL Target] implementaties.
 
 **publiek**
 
@@ -99,7 +99,7 @@ De variaties in de inhoud die worden gemaakt wanneer u meerdere inhoudsopties te
 
 **content**
 
-De tekst of afbeelding bestaande uit een testvariatie binnen een locatie. In een multivariate test, worden een aantal inhoudsopties binnen veelvoudige plaatsen vergeleken. In MVT-methodologie wordt de inhoud soms ook wel een *niveau* genoemd.
+De tekst of afbeelding bestaande uit een testvariatie binnen een locatie. In een multivariate test, worden een aantal inhoudsopties binnen veelvoudige plaatsen vergeleken. In methodologie MVT, wordt de inhoud soms bedoeld als *niveau*.
 
 **conversiembox**
 
@@ -147,7 +147,7 @@ De meting van de interesse van een bezoeker in een site, gemeten in tijd op de s
 
 **composer voor verbeterde ervaring**
 
-Het [!UICONTROL Enhanced Experience Composer] is een extensie van de extensie [!UICONTROL Visual Experience Composer] waarmee u een ervaring kunt bewerken voor een iframe-opbouwende site of pagina&#39;s die nog niet over de [!DNL Target] implementatie beschikken. Als u problemen hebt met het openen van de pagina in de [!UICONTROL Visual Experience Composer]map, probeert u de [!UICONTROL Enhanced Experience Composer]knop.
+De [!UICONTROL Enhanced Experience Composer] is een uitbreiding van [!UICONTROL Visual Experience Composer] die u helpt een ervaring voor een iframe-bosting plaats of pagina&#39;s uitgeven die nog niet [!DNL Target] implementatie omvatten. Als u problemen hebt met het openen van uw pagina in [!UICONTROL Visual Experience Composer], probeert u [!UICONTROL Enhanced Experience Composer].
 
 **Machtigingen voor Enterprise-gebruikers**
 
@@ -217,11 +217,11 @@ Bezoekersspecifieke parameter die vanuit de box aan het cookie van de bezoeker w
 
 **paginaconactiviteit landing**
 
-Met behulp van een openingspagina-activiteit kunt u verschillende bestemmingspagina-inhoud voor verschillende bezoeken weergeven. Anders wordt op de landingspagina dezelfde inhoud weergegeven voor elk bezoek. Een openingspagina-activiteit vergelijkt verschillende versies van de pagina om u te helpen zien welke versie van de landende pagina succesvollere resultaten veroorzaakt. In de Standaard van het Doel, vervangen door *ervaring richtend*.
+Met behulp van een openingspagina-activiteit kunt u verschillende bestemmingspagina-inhoud voor verschillende bezoeken weergeven. Anders wordt op de landingspagina dezelfde inhoud weergegeven voor elk bezoek. Een openingspagina-activiteit vergelijkt verschillende versies van de pagina om u te helpen zien welke versie van de landende pagina succesvollere resultaten veroorzaakt. In de Norm van het Doel, die door *ervaring het richten* wordt vervangen.
 
 **locatie**
 
-Een specifiek inhoudsgebied op een pagina, dat vaak wordt opgenomen door één DOM-element. In de MVT-methodologie wordt een locatie soms ook wel een *factor* genoemd. Een full-factorial multivariate test vergelijkt alle mogelijke combinaties aanbiedingen in uw plaatsen.
+Een specifiek inhoudsgebied op een pagina, dat vaak wordt opgenomen door één DOM-element. In methodologie MVT, wordt een plaats soms bedoeld als *factor*. Een full-factorial multivariate test vergelijkt alle mogelijke combinaties aanbiedingen in uw plaatsen.
 
 ## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
@@ -231,7 +231,7 @@ Een specifiek inhoudsgebied op een pagina, dat vaak wordt opgenomen door één D
 
 **mbox.js**
 
-Voorafgaand aan Doel 16.3.1, [!DNL Target] vereiste een vraag om tot globale mbox [!DNL mbox.js] te leiden die voor [!DNL Adobe Target]te leveren [!DNL Target] activiteiten wordt vereist, klikt het spoor, en volgt de meeste succesmetriek. Dit bestand bevat de bibliotheken die nodig zijn voor al uw activiteiten. U hoeft geen verschillende activiteitspecifieke versies van het bestand te onderhouden. De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js] voor [!DNL Target] implementaties.
+Vóór Doel 16.3.1, [!DNL Target] vereiste een vraag aan [!DNL mbox.js] om globale mbox te creëren die voor [!DNL Adobe Target]wordt vereist om [!DNL Target] activiteiten te leveren, kliks te volgen, en de meeste succesmetriek te volgen. Dit bestand bevat de bibliotheken die nodig zijn voor al uw activiteiten. U hoeft geen verschillende activiteitspecifieke versies van het bestand te onderhouden. De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js] voor [!DNL Target] implementaties.
 
 **mbox, parameter**
 
@@ -269,7 +269,7 @@ Prioriteit wordt gebruikt als meerdere activiteiten worden toegewezen aan dezelf
 
 **recept**
 
-Vervangen term die de inhoud definieert die op een locatie wordt weergegeven. Zie *ervaring*.
+Vervangen term die de inhoud definieert die op een locatie wordt weergegeven. Zie *experience*.
 
 **redirector**
 
@@ -285,7 +285,7 @@ Een groep gebruikers met een specifieke set rechten.
 
 **extern aanbod**
 
-Gebruik externe aanbiedingen om inhoud te hosten buiten [!DNL Target] die [!DNL Target] verwijzingen en levert aan websites van gebruikers. Deze inhoud kan zich in een inhoudsbeheer of een ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
+Gebruik externe aanbiedingen om inhoud te hosten buiten [!DNL Target] die [!DNL Target] verwijzingen en aan de websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of een ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
 
 **rapporten**
 
@@ -337,7 +337,7 @@ Een bezoek wordt soms een zitting genoemd. Een bezoek eindigt na 30 minuten inac
 
 **bezoeker**
 
-Een bezoeker is een persoon die toegang heeft tot uw site. Een bezoeker wordt beoordeeld aan de hand van activiteitscriteria om te bepalen of de bezoeker is opgenomen in een activiteit. Zie *nieuwkomer*.
+Een bezoeker is een persoon die toegang heeft tot uw site. Een bezoeker wordt beoordeeld aan de hand van activiteitscriteria om te bepalen of de bezoeker is opgenomen in een activiteit. Zie *entrant*.
 
 **Visual Experience Composer**
 
