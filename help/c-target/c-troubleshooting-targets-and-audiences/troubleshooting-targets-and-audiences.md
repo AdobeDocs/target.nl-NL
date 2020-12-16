@@ -30,7 +30,7 @@ Als u tijdens het maken van een activiteit de URL van het publiek wilt opgeven a
 
 ![URL voor aflevering van pagina](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-URL van publiek zoekt naar een exacte URL-overeenkomst. Als de URL overeenkomt, overweegt Doel geen verdere logica. Als in de bovenstaande URL de activiteit is ingesteld om te worden geactiveerd, komt de URL overeen met de volgende URL&#39;s, omdat de URL voor het publiek niet specifiek is voor query&#39;s: `www.example.com`
+URL van publiek zoekt naar een exacte URL-overeenkomst. Als de URL overeenkomt, overweegt Doel geen verdere logica. Als in de bovenstaande URL de activiteit is ingesteld op branden op `www.example.com`, komt de URL overeen met de volgende URL&#39;s, omdat de URL voor het publiek niet specifiek is voor query&#39;s:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -51,7 +51,7 @@ URL die richt transformeert URL in een reeks regels om te evalueren:
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Evalueert de volledige URL wanneer u complexe URL-tekenreeksen maakt? [!DNL Target]
+## Evalueert [!DNL Target] bij het maken van complexe URL-tekenreeksen de volledige URL?
 
 Wanneer u dezelfde parameternaam meerdere keren gebruikt in een URL-tekenreeks, wordt door HTTP de naam van de eerste parameter beschouwd en worden de volgende parameters met dezelfde naam genegeerd.
 
@@ -59,7 +59,7 @@ Bijvoorbeeld in de volgende URL-tekenreeks:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-de eerste instantie van de `Category` parameter wordt geëvalueerd en de tweede `Category` parameter wordt genegeerd.
+de eerste instantie van de parameter `Category` wordt geëvalueerd en de tweede parameter `Category` wordt genegeerd.
 
 De beste manier is om meerdere waarden aan één categorie te koppelen, zoals hieronder wordt getoond:
 
@@ -77,7 +77,7 @@ Door gebrek, is het verkeer gelijkmatig tussen ervaringen verdeeld. U kunt echte
 
 ## Welke ervaring toont als een gebruiker voor een activiteit kwalificeert die veelvoudige ervaringen met veelvoudige gekwalificeerde publiek bevat? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-De gebruiker komt in aanmerking voor de eerste ervaring/het eerste publiek dat wordt weergegeven op de [!UICONTROL Target] pagina van de activiteit.
+De gebruiker komt in aanmerking voor de eerste ervaring/het eerste publiek dat wordt weergegeven op de pagina [!UICONTROL Target] van de activiteit.
 
 Bijvoorbeeld, in de volgende illustratie, kwalificeert een gebruiker van Californië die een apparaat van Vensters gebruikt voor zowel Ervaring A (het publiek van Vensters) als Ervaring C (het publiek van Californië). Deze gebruiker krijgt Experience A te zien, omdat deze wordt weergegeven in de lijst hierboven Experience C op de pagina Target.
 
@@ -85,7 +85,7 @@ Bijvoorbeeld, in de volgende illustratie, kwalificeert een gebruiker van Califor
 
 ## Waarom verschillen namen voor hetzelfde publiek in Target, Adobe Audience Manager (AAM) en de Audience Library in kernservices? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-De namen van het publiek in [!DNL Target] zijn uniek; nochtans, in [!DNL AAM] en [!DNL Audience Library], kunt u de zelfde naam voor veelvoudige publiek hebben (als zij in verschillende omslagen zijn).Wanneer [!DNL Target] ontmoet een publieksnaam die aan een [!DNL AAM] of [!DNL Audience Library] publiek beantwoordt, [!DNL Target] voegt &quot;#&lt;number>&quot;aan de naam toe.
+De namen van het publiek in [!DNL Target] zijn uniek; nochtans, in [!DNL AAM] en [!DNL Audience Library], kunt u de zelfde naam voor veelvoudige publiek hebben (als zij in verschillende omslagen zijn).Wanneer [!DNL Target] een publieksnaam ontmoet die aan [!DNL AAM] of [!DNL Audience Library] publiek beantwoordt, [!DNL Target] toevoegt &quot;#&lt;number>&quot;aan de naam.
 
 U kunt bijvoorbeeld het volgende publiek zien: &quot;PC Users&quot; (in [!DNL AAM]) en &quot;PC Users #1&quot; (in [!DNL Target]).
 
@@ -95,7 +95,7 @@ Sommige doelgroepen zijn vooraf gedefinieerd, zoals &quot;Nieuwe bezoekers&quot;
 
 ## Waarom worden alle profielparameters niet getoond in het gebruikersinterface van het Doel? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven [!DNL Target], kunt u deze doorgeven met de [!UICONTROL Profile Update] API-methode. Zie [Profielupdate](https://developers.adobetarget.com/api/#authentication-tokens) in de Adobe Target API-documentatie voor meer informatie.
+[!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielattributen aan [!DNL Target] moet overgaan, kunt u hen overgaan gebruikend de [!UICONTROL Profile Update] API methode. Zie [Profielupdate](https://developers.adobetarget.com/api/#authentication-tokens) in de Adobe Target API-documentatie voor meer informatie.
 
 ## Waarom zien bezoekers ervaringen voor een AP-activiteit die ze niet zouden moeten zien? {#section_41CECEAE0881446A8D9F3B016857914B}
 
@@ -105,7 +105,7 @@ Automated Personalization-activiteiten worden één keer per sessie geëvalueerd
 
 In tegenstelling tot aanbiedingen en profielscripts, worden wijzigingen die door API worden aangebracht in publiek dat is gemaakt via Target Standard, momenteel niet opnieuw gesynchroniseerd naar de doelinterface.
 
-## Tekenreeksen die getallen vertegenwoordigen (drijvende-kommagetallen worden ook ondersteund) worden als getallen vergeleken.{#strings-that-represent-numbers}
+## Tekenreeksen die getallen vertegenwoordigen (drijvende-kommagetallen worden ook ondersteund) worden vergeleken als getallen.{#strings-that-represent-numbers}
 
 Als het linker- en rechtergedeelte van de gelijksoortige expressies op een getal kunnen worden geparseerd, worden de twee delen als getallen vergeleken, niet als tekenreeksen.
 
@@ -113,11 +113,11 @@ Bijvoorbeeld:
 
 | Waarde | Doelcriteria | Resultaat |
 | --- | --- | --- |
-| 1.0 | is gelijk aan 1 | true |
-| 1 | equalsIgnoreCase 1.0 | true |
-| 1.230 | is gelijk aan 1 | true |
-| 1.500 | is gelijk aan 1,5 | true |
-| 1.200 | is kleiner dan 2 | true |
+| 1,0 | is gelijk aan 1 | true |
+| 3 | equalsIgnoreCase 1.0 | true |
+| 1,230 | is gelijk aan 1 | true |
+| 1,500 | is gelijk aan 1,5 | true |
+| 1,200 | is kleiner dan 2 | true |
 | 2 | is groter dan 3,0 | false |
 | 045 | is gelijk aan 45 | true |
 
@@ -125,4 +125,4 @@ Getallen die in wetenschappelijke notatie zijn geschreven, worden altijd als tek
 
 Bijvoorbeeld:
 
-&quot;4e-2&quot; is alleen gelijk aan &quot;4e-2&quot;. Het zal *niet* gelijk zijn aan &quot;0.04&quot;.
+&quot;4e-2&quot; is alleen gelijk aan &quot;4e-2&quot;. Het zal *niet* gelijk &quot;0.04&quot; zijn.
