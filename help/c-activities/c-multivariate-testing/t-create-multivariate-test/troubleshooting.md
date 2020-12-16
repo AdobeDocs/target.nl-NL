@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Multivariate Tests oplossen{#troubleshoot-multivariate-tests}
+# Los Multivariate Tests{#troubleshoot-multivariate-tests} problemen op
 
 Dit onderwerp bevat suggesties voor het oplossen van enkele problemen die kunnen optreden bij het ontwerpen van een MVT-test in Adobe Target.
 
