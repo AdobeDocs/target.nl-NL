@@ -12,20 +12,20 @@ ht-degree: 0%
 ---
 
 
-# Een alleen-activiteitpubliek maken{#create-an-activity-only-audience}
+# Creeer een activiteit-slechts publiek{#create-an-activity-only-audience}
 
-Maak een alleen-activiteit publiek vanuit de driestappenworkflow met instructies bij het maken van een activiteit. Deze ad-hocdoelgroepen kunnen op andere plaatsen binnen dezelfde activiteit worden gebruikt, maar worden niet in de website opgeslagen [!UICONTROL Audiences Library] voor gebruik bij andere activiteiten.
+Maak een alleen-activiteit publiek vanuit de driestappenworkflow met instructies bij het maken van een activiteit. Deze ad-hocdoelgroepen kunnen op andere plaatsen binnen dezelfde activiteit worden gebruikt, maar worden niet in [!UICONTROL Audiences Library] opgeslagen voor gebruik in andere activiteiten.
 
 Alleen voor activiteiten bestemd publiek biedt de volgende voordelen:
 
-* Met alleen activiteiten kunt u een publiek maken dat u maar één keer wilt gebruiken en niet in de [!UICONTROL Audiences Library]doelgroep wilt opslaan. Hierdoor wordt voorkomen dat het publiek [!UICONTROL Audiences Library] wordt overspoeld met soorten die u nooit meer wilt gebruiken.
-* Activiteit-slechts publiek is niet zichtbaar in [!UICONTROL Audiences Library]. Daarom zijn ze beschermd tegen ongewenste wijzigingen door anderen in uw organisatie.
+* U kunt activiteit-slechts publiek gebruiken om een publiek tot stand te brengen dat u slechts één keer wilt gebruiken en u wilt niet het in [!UICONTROL Audiences Library] opslaan. Zo voorkomt u dat het publiek dat u nooit meer wilt gebruiken, wordt overspoeld met [!UICONTROL Audiences Library].
+* Activiteits-slechts publiek is niet zichtbaar in [!UICONTROL Audiences Library]. Daarom zijn ze beschermd tegen ongewenste wijzigingen door anderen in uw organisatie.
 
-1. Klik tijdens het maken van een [activiteit](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)op de **[!UICONTROL Target]** pagina op de drie verticale ellipsen en klik vervolgens op **[!UICONTROL Replace Audience]**.
+1. Tijdens het creëren van [activity](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op **[!UICONTROL Target]** pagina, klik de drie verticale ellipsen, dan klik **[!UICONTROL Replace Audience]**.
 
    ![Stap resultaat](assets/edit_audience.png)
 
-1. Klik op de [!UICONTROL Choose Audience] pagina **[!UICONTROL Activity Only Audience]**.
+1. Klik op [!UICONTROL Choose Audience] op de pagina.**[!UICONTROL Activity Only Audience]**
 
    ![](assets/activity-only-aud.png)
 
@@ -47,9 +47,9 @@ Alleen voor activiteiten bestemd publiek biedt de volgende voordelen:
 Houd rekening met de volgende informatie wanneer u alleen werkt met activiteiten:
 
 * U kunt activiteit-slechts publiek in de Visuele Composer van de Ervaring (VEC) of in Form-Based Composer van de Ervaring tot stand brengen. Deze functionaliteit vervangt verfijningsregels in vorige versies van Doel.
-* U kunt een activiteit tot stand brengen in opslag in [!UICONTROL Audience Library] voor hergebruik in andere activiteiten of u creeert een activiteit-slechts publiek. Nadat u het publiek hebt opgeslagen, kunt u het type publiek niet meer wijzigen.
+* U kunt een activiteit tot stand brengen om in [!UICONTROL Audience Library] voor hergebruik in andere activiteiten op te slaan of u creeert een activiteit-slechts publiek. Nadat u het publiek hebt opgeslagen, kunt u het type publiek niet meer wijzigen.
 * Verfijningen voor bestaande activiteiten worden gemigreerd naar alleen-activiteiten-publiek.
-* Toegenomen publiek heeft alleen de status van [!UICONTROL Used] of [!UICONTROL Unused]. Ongebruikte publiek met alleen activiteit wordt weergegeven totdat de activiteit is opgeslagen. Als u de activiteit niet gebruikt en probeert op te slaan, wordt een waarschuwingsbericht weergegeven met de melding dat ongebruikte publiek met alleen de activiteit wordt verwijderd.
+* Toegankelijke doelgroepen hebben de status [!UICONTROL Used] of [!UICONTROL Unused]. Ongebruikte publiek met alleen activiteit wordt weergegeven totdat de activiteit is opgeslagen. Als u de activiteit niet gebruikt en probeert op te slaan, wordt een waarschuwingsbericht weergegeven met de melding dat ongebruikte publiek met alleen de activiteit wordt verwijderd.
 * U kunt de definitiedetails van het publiek op een pop-up kaart bekijken die van de publiekskiezer wordt betreden zonder het publiek te openen.
-* U kunt meerdere soorten publiek [combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om alleen-activiteit publiek te maken.
+* U kunt [meerdere soorten publiek combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om alleen-activiteit publiek te maken.
 
