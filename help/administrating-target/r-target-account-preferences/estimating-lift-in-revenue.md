@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Schatting van de inkomsten{#estimate-lift-in-revenue}
+# Schatting van de verhoging van inkomsten{#estimate-lift-in-revenue}
 
 Doel kan een schatting maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken.
 
