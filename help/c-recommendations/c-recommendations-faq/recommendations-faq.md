@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations - Veelgestelde vragen{#recommendations-faq}
+# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMR-aanbevelingen{#recommendations-faq}
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over Adobe Target Recommendations-activiteiten.
 
@@ -20,7 +20,7 @@ Lijst met veelgestelde vragen (FAQ&#39;s) over Adobe Target Recommendations-acti
 
 Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een type van Koord in plaats van een numerieke waarde te zijn.
 
-Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die de attributen van verwijzingen voorzien die het type veranderden van koord in numeriek.
+Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die van de attributen verwijzen die het type veranderen van koord in numeriek nodig hebben.
 
 ## Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?
 
@@ -65,28 +65,28 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het mbox, bevat de kiezer voor het criterium alle toepasselijke criteria.
 
-Het doel heeft een [filter Incompatibele Criteria](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) die plaatsen om intelligent filtreren van de algoritmeplukker te controleren.
+Doel heeft een instelling [Incompatibele criteria filteren](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om intelligent filteren van de algoritmekiezer te beheren.
 
 >[!NOTE]
 >
 >Dit het plaatsen is op activiteiten van toepassing die in Visuele Composer van de Ervaring (VEC) slechts worden gecreeerd. Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer (Target heeft geen locatiecontext).
 
-Klik op [!UICONTROL Filter Incompatible Criteria] > [!UICONTROL Recommendations] [!UICONTROL Settings]:
+Als u de instelling [!UICONTROL Filter Incompatible Criteria] wilt openen, klikt u op [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
 ![](assets/recs_settings_filter.png)
 
-Als de [!UICONTROL Filter Incompatible Criteria] instelling NIET is ingeschakeld, filtert Doel geen algoritmen in de Algoritmekiezer en worden alle algoritmen weergegeven.
+Als de instelling [!UICONTROL Filter Incompatible Criteria] NIET is ingeschakeld, filtert Doel geen algoritmen in de Algorituurkiezer en worden alle algoritmen weergegeven.
 
-Als het [!UICONTROL Filter Incompatible Criteria] plaatsen, in VEC activiteiten wordt toegelaten, leest Doel entiteitId en categorie ID van de geselecteerde plaats en toont dan algoritmen die op `currentItem|currentCategory` (als respectieve waarden op die plaats aanwezig zijn) worden gebaseerd. Hierdoor worden standaard alleen compatibele algoritmen voor de geselecteerde locatie weergegeven in de algoritmekiezer.
+Als [!UICONTROL Filter Incompatible Criteria] het plaatsen wordt toegelaten, in VEC activiteiten, leest Doel entiteitId en categorie ID van de geselecteerde plaats en toont dan algoritmen die op `currentItem|currentCategory` worden gebaseerd (als respectieve waarden op die plaats aanwezig zijn). Hierdoor worden standaard alleen compatibele algoritmen voor de geselecteerde locatie weergegeven in de algoritmekiezer.
 
-Als de [!UICONTROL Filter Incompatible Criteria] instelling is ingeschakeld, kunt u nog steeds niet-compatibele algoritmen weergeven door het [!UICONTROL Compatible] selectievakje uit te schakelen terwijl u criteria selecteert.
+Als de instelling [!UICONTROL Filter Incompatible Criteria] is ingeschakeld, kunt u nog steeds niet-compatibele algoritmen weergeven door het selectievakje [!UICONTROL Compatible] uit te schakelen terwijl u criteria selecteert.
 
 ![](assets/compatible_checkbox.png)
 
-De volgende lijst bevat speciale gevallen waarin het [!UICONTROL Compatible] selectievakje niet wordt weergegeven door Doel:
+De volgende lijst bevat speciale gevallen waarin het selectievakje [!UICONTROL Compatible] niet wordt weergegeven door Doel:
 
 * Zowel entiteitskaart als categorie ID zijn aanwezig op de plaats, dan niets wordt gefilterd.
-* U gebruikt [!DNL mbox.js] versie 55 of lager.
+* U gebruikt [!DNL mbox.js] versie 55 of vroeger.
 * Geen mbox vraag wordt in brand gestoken van de pagina (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Doelparameters zijn niet gedefinieerd.
 
@@ -95,11 +95,11 @@ De volgende lijst bevat speciale gevallen waarin het [!UICONTROL Compatible] sel
 Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerder niet bij nul was:
 
 * U kunt de verzameling opnieuw opslaan en zien of het nummer wordt bijgewerkt. Merk op dat door het redden, de inzameling alle algoritmen opnieuw in werking zal stellen die die inzameling gebruiken.
-* Kijk je naar de juiste omgeving? Ga naar [!DNL /target/products.html#recsSettings] dubbele controle (zoals hieronder getoond).
+* Kijk je naar de juiste omgeving? Ga naar [!DNL /target/products.html#recsSettings] om te dubbelcontroleren (zoals hieronder getoond).
 
    ![](assets/product_catalog.png)
 
-* Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren de index is (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;). U kunt de index naar wens vernieuwen.
+* Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren oud de index is (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;). U kunt de index naar wens vernieuwen.
 * Heeft u iets in de feed of de gegevenslaag gewijzigd waardoor de entiteiten niet meer overeenkomen met de verzamelingsregels? Zorg ervoor dat uw HOOFDLETTERS overeenkomen (hoofdlettergevoelig).
 * Is uw feed gelukt? Heeft iemand de FTP-map, het wachtwoord enzovoort gewijzigd?
 * Doel doet zijn best om updates aan de levering (op de pagina van de klant/app) te maken gebeuren zo snel mogelijk. Toch moeten wij ook een of andere vertegenwoordiging in UI voor de teller verstrekken. De leveringsupdates hoeven niet automatisch te worden vertraagd, zodat wordt gewacht tot de updates van de gebruikersinterface gesynchroniseerd zijn. U kunt [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
@@ -137,13 +137,13 @@ Het volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het
 
 ## Wat is de formaatgrens van een API vraag voor tussenvoegsel/updateproducten? Kan ik 50.000 producten in één vraag bijwerken gebruikend API in plaats van een voer? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Doel legt een postlimiet van 50 MB op toepassingsniveau op; dat is echter alleen wanneer u de koptekst van het `application/x-www-form-urlencoded` inhoudstype doorgeeft.
+Doel legt een postlimiet van 50 MB op toepassingsniveau op; nochtans, is dat slechts wanneer u de `application/x-www-form-urlencoded` inhoudstype kopbal doorgeeft.
 
 Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, zou u het in partijen moeten verdelen. Meestal raden we klanten aan hun aanroepen te onderbreken in 5.000 of 10.000 productbatches om de kans op een time-out als gevolg van systeembelasting te verkleinen.
 
 ## Moet ik de naam van het selectievakje opgeven wanneer ik Recommendations-criteria, -promoties of -testregels voor sjablonen maak? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-Wanneer u een Recommendations-criteria, -promoties of -testregel voor sjablonen maakt op basis van een mbox-parameter, vraagt u `mboxParameter` niet langer om `mboxName`. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
+Wanneer het creëren van een Recommendations criteria, bevorderingen, of malplaatje testende regel die op een mbox parameter wordt gebaseerd, `mboxParameter` vraagt u niet meer om `mboxName`. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 
 De gewenste parameter selecteren:
 
@@ -160,21 +160,21 @@ Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek dezelfde na
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. We raden echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, moet het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Aanvullende limieten voor de lengte van vereiste kolommen zijn beschikbaar op de pagina [](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)Doelbeperkingen.
+Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. We raden echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, moet het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Aanvullende limieten voor de lengte van vereiste kolommen zijn beschikbaar op de [pagina Doelbeperkingen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kan ik een entiteit dynamisch uitsluiten?
 
 In het vraagkoord, kunt u entiteit IDs voor entiteiten overgaan die u van uw aanbevelingen wilt uitsluiten. U kunt bijvoorbeeld items uitsluiten die zich al in het winkelwagentje bevinden.
 
-Gebruik de parameter `excludedIds` mbox om de uitsluitingsfunctionaliteit in te schakelen. Deze parameter verwijst naar een lijst met door komma&#39;s gescheiden entiteit-id&#39;s. Bijvoorbeeld, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. De waarde wordt verzonden wanneer het verzoeken van om aanbevelingen.
+Om de uitsluitingsfunctionaliteit toe te laten, gebruik de `excludedIds` mbox parameter. Deze parameter verwijst naar een lijst met door komma&#39;s gescheiden entiteit-id&#39;s. Bijvoorbeeld, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. De waarde wordt verzonden wanneer het verzoeken van om aanbevelingen.
 
-De uitsluiting wordt uitgevoerd voor de huidige vraag van het Doel slechts; De punten worden niet uitgesloten op verdere vraag van het Doel tenzij de `excludedIds` waarde opnieuw wordt overgegaan. Als u items in het winkelwagentje wilt uitsluiten van aanbevelingen op elke pagina, blijft u de `excludedIds` waarde op elke pagina doorgeven.
+De uitsluiting wordt uitgevoerd voor de huidige vraag van het Doel slechts; De punten worden niet uitgesloten op verdere vraag van het Doel tenzij de `excludedIds` waarde opnieuw wordt overgegaan. Als u items in het winkelwagentje wilt uitsluiten van aanbevelingen op elke pagina, blijft u de waarde `excludedIds` op elke pagina doorgeven.
 
 >[!NOTE]
 >
 >Als te veel entiteiten zijn uitgesloten, gedragen de aanbevelingen zich alsof er niet genoeg entiteiten zijn om het advisemalplaatje te vullen.
 
-Als u dit wilt uitsluiten, voegt u het `entityIds``&excludes=${mbox.excludedIds}` token toe aan de URL voor de aanbiedingsinhoud. Wanneer de inhoud-URL wordt geëxtraheerd, worden de vereiste parameters vervangen door de huidige parameters voor mbox-aanvragen.
+Als u `entityIds` wilt uitsluiten, voegt u de token `&excludes=${mbox.excludedIds}` toe aan de URL met de inhoud van de aanbieding. Wanneer de inhoud-URL wordt geëxtraheerd, worden de vereiste parameters vervangen door de huidige parameters voor mbox-aanvragen.
 
 Deze functie is standaard ingeschakeld voor nieuwe aanbevelingen. Bestaande aanbevelingen moeten worden opgeslagen om dynamisch uitgesloten entiteiten te ondersteunen.
 
