@@ -18,7 +18,7 @@ De mbox3rdPartyId is de bezoeker-id van uw bedrijf, zoals de lidmaatschap-id voo
 
 Wanneer een bezoeker zich aanmeldt bij de site van een bedrijf, maakt het bedrijf doorgaans een id die is gekoppeld aan de account, de loyaliteitskaart, het lidmaatschapsnummer of andere toepasselijke id&#39;s voor dat bedrijf.
 
-Wanneer een bezoeker een pagina opent waarop [!DNL Target] wordt toegelaten, wordt die bezoeker toegewezen een [!DNL Target] PCID. Als de bezoeker zich dan aanmeldt en de implementatie de mbox3rdPartyId doorgeeft aan [!DNL Target], [!DNL Target] [!DNL Target] verbindt mbox3rdPartyId van die bezoeker met PCID.
+Wanneer een bezoeker tot een pagina toegang heeft waarop [!DNL Target] wordt toegelaten, wordt die bezoeker toegewezen een [!DNL Target] PCID. Als de bezoeker zich dan binnen aanmeldt, en de implementatie mbox3rdPartyId tot [!DNL Target] overgaat, [!DNL Target] verbindt mbox3rdPartyId van die bezoeker met [!DNL Target] PCID.
 
 Om de drie tot vijf minuten worden updates gesynchroniseerd met de database. Wanneer de bezoeker zich afmeldt, vervangen de samengevoegde gegevens de vorige gegevens verbonden aan mbox3rdPartyId, die tot een vollediger verslag van de acties van die bezoeker leiden. Als het zelfde attribuut in beide IDs-bijvoorbeeld bestaat, heeft PCID category=hats en mbox3rdPartyId heeft category=skis, of als de bezoeker A vóór het programma opent zag, maar ervaring B wordt opgeslagen in mbox3rdPartyId-het attribuut dat in mbox3rdPartyId wordt opgeslagen beschrijft de attributen van PCID. Als de bezoeker in één activiteit of ervaring alvorens het programma te openen was, maar een verschillende activiteit en een ervaring worden opgeslagen in mbox3rdPartyId, nadat het programma openen die bezoeker in de mbox3rdPartyId activiteit en ervaring wordt geplaatst.
 
@@ -37,7 +37,7 @@ Wanneer de bezoeker zich afmeldt, blijft het samengevoegde profiel behouden.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] De doelen worden niet bijgehouden in gevallen waarin de [!DNL Adobe Experience Cloud] id (EDID) verandert (bijvoorbeeld wanneer de bezoeker apparaten wijzigt), ook al wordt het [!DNL Target] profiel mogelijk samengevoegd op basis van de mbox3rdPartyId en beschikt het nog steeds over informatie over de activiteit. Voor bezoekers die met dezelfde EDID zijn geïdentificeerd (bezoekers die de pagina met hetzelfde apparaat openen), [!DNL Analytics for Target] (A4T) zou moeten werken zoals verwacht.
+>[!DNL Adobe Analytics] De doelen worden niet bijgehouden in gevallen waarin de  [!DNL Adobe Experience Cloud] id (EDID) verandert (bijvoorbeeld wanneer de bezoeker apparaten wijzigt), ook al wordt het  [!DNL Target] profiel mogelijk samengevoegd op basis van de mbox3rdPartyId en heeft het nog steeds activiteitsgegevens. Voor bezoekers die met dezelfde EDID zijn geïdentificeerd (bezoekers die de pagina met hetzelfde apparaat openen), zou [!DNL Analytics for Target] (A4T) moeten werken zoals verwacht.
 
 ## Overwegingen {#considerations}
 
