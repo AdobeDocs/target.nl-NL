@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Deze functie voert een aanvraag in om een Target-aanbieding te krijgen.
 
-Met gebruiken `adobe.target.applyOffer()` om de reactie te verwerken of uw eigen succesafhandeling te gebruiken. De parameter options is verplicht en heeft de volgende structuur:
+Gebruik deze methode met `adobe.target.applyOffer()` om de reactie te verwerken of uw eigen succesafhandeling te gebruiken. De parameter options is verplicht en heeft de volgende structuur:
 
 | Sleutel | Type | Vereist | Beschrijving |
 |--- |--- |--- |--- |
 | mbox | String | Ja | Naam van vak |
 | param | Object | Nee | Mbox-parameters. Een object van sleutelwaardeparen met de volgende structuur:<br>`{ "param1": "value1", "param2": "value2"}` |
-| succes | -functie | Ja | Callback die moet worden uitgevoerd wanneer wij een reactie van de server kregen. De succesvolle callback functie zal één enkele parameter ontvangen die een serie van aanbiedingsvoorwerpen vertegenwoordigt. Hier volgt een voorbeeld van een geslaagde callback:<br>`function handleSuccess(response){......}`<br>Zie Reacties hieronder voor meer informatie. |
+| succes | -functie | Ja | Callback die moet worden uitgevoerd wanneer wij een reactie van de server kregen. De succesvolle callback functie zal één enkele parameter ontvangen die een serie van aanbiedingsvoorwerpen vertegenwoordigt. Hier is een succescallback voorbeeld:<br>`function handleSuccess(response){......}`<br>Zie Reacties hieronder voor details. |
 | fout | -functie | Ja | Callback om te worden uitgevoerd wanneer wij een fout hebben. Er zijn een paar gevallen die als onjuist worden beschouwd:<ul><li>HTTP-statuscode anders dan 200 OK</li><li>De reactie kan niet worden geparseerd. We hebben bijvoorbeeld slecht opgebouwde JSON of HTML in plaats van JSON.</li><li>De reactie bevat de &quot;fout&quot;sleutel. Er is bijvoorbeeld een uitzondering op de rand gegenereerd die niet correct kan worden verwerkt. Er kan een fout optreden als een box is geblokkeerd en er geen inhoud voor kan worden opgehaald, enzovoort. De functie callback van de fout zal twee parameters ontvangen: status en fout. Hier volgt een voorbeeld van een callback-fout: `function handleError(status, error){......}`</li></ul>Zie Reacties wegens fouten hieronder voor meer informatie. |
-| timeout | Getal | Nee | Time-out in milliseconden. Als deze niet wordt opgegeven, wordt de standaardtime-out in at.js gebruikt.<br>De standaardtime-out kan worden ingesteld vanuit de [!DNL Target] gebruikersinterface onder [!UICONTROL Administration > Implementation]. |
+| timeout | Getal | Nee | Time-out in milliseconden. Als deze niet wordt opgegeven, wordt de standaardtime-out in at.js gebruikt.<br>De standaardtime-out kan worden ingesteld vanuit de  [!DNL Target] gebruikersinterface onder  [!UICONTROL Administration > Implementation]. |
 
 ## Voorbeelden {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
