@@ -15,23 +15,23 @@ ht-degree: 0%
 
 # De aanbeveling baseren op een aanbevelingen
 
-Recommendations op basis van sleutels gebruikt de gedragscontext van de bezoeker om relevante resultaten in [!DNL Adobe Target] [!DNL Recommendations] activiteiten weer te geven.
+Recommendations gebaseerd op sleutels gebruikt de context van het bezoekersgedrag om relevante resultaten in [!DNL Adobe Target] [!DNL Recommendations] activiteiten te tonen.
 
 Er zijn twee typen Recommendations:
 
-* **Populariteit:** Hiermee geeft u items weer op basis van de opties Meest bekeken, Boven verkocht en Metrisch bovenaan. De sleutel is leeg voor populiteitscriteria.
+* **Populariteit:** geeft items weer op basis van de opties Meest bekeken, Boven verkocht en Metrisch boven. De sleutel is leeg voor populiteitscriteria.
 * **Op sleutel gebaseerd:** Omvat de rest van de criteria. Recommendations biedt verschillende keuzemogelijkheden met betrekking tot het sleuteltype. De opties variëren van &quot;huidig punt&quot;tot &quot;profielparameters,&quot;die u toestaan om de sleutel van de waarden programmatically te plaatsen aan te bevelen. U kunt meerdere criteria op elkaar testen door de criteria op een andere toets te baseren.
 
 Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkmatig verdeeld over uw verschillende criteria testen. Met andere woorden, als je twee criteria hebt, is het verkeer in gelijke mate verdeeld. Als u twee criteria en twee ontwerpen hebt, wordt het verkeer gelijkmatig verdeeld tussen de vier combinaties. U kunt ook een percentage bezoekers van de site opgeven die de standaardinhoud ter vergelijking zien. In dat geval ziet het opgegeven percentage bezoekers de standaardinhoud en worden de rest opgedeeld tussen uw criteria en ontwerpcombinaties.
 
 1. Maak nieuwe criteria of selecteer een bestaand criterium en klik op **[!UICONTROL Edit]**.
-1. Als u de aanbevolen toets wilt wijzigen, selecteert u de nieuwe toets in de [!UICONTROL Recommendation Key] vervolgkeuzelijst en klikt u **[!UICONTROL Save]** of **[!UICONTROL Update]**.
+1. Als u de aanbevolen toets wilt wijzigen, selecteert u de nieuwe toets in de vervolgkeuzelijst [!UICONTROL Recommendation Key] en klikt u op **[!UICONTROL Save]** of **[!UICONTROL Update]**.
 
    Omdat verschillende logica aan verschillende aanbevelingen sleutels in kaart brengt, lenen de verschillende aanbevelingen zich aan plaatsing op verschillende types van pagina&#39;s. Raadpleeg de volgende secties voor meer informatie over elke advisesleutel.
 
 ## Aanbevolen toetsen
 
-De volgende aanbevelingen zijn beschikbaar in de [!UICONTROL Recommendation Key] vervolgkeuzelijst:
+De volgende aanbevelingen zijn beschikbaar in de vervolgkeuzelijst [!UICONTROL Recommendation Key]:
 
 ### Huidig item {#current-item}
 
@@ -39,7 +39,7 @@ De aanbeveling wordt bepaald door het item dat de bezoeker momenteel bekijkt.
 
 Recommendations geeft andere objecten weer die bezoekers interesseren voor het opgegeven object.
 
-Als deze optie is geselecteerd, moet de `entity.id` waarde als een parameter in het weergavevak worden doorgegeven.
+Wanneer deze optie is geselecteerd, moet de waarde `entity.id` als parameter in de vertoningsdoos worden overgegaan.
 
 #### Logica (criteria)
 
@@ -54,13 +54,13 @@ Als deze optie is geselecteerd, moet de `entity.id` waarde als een parameter in 
 * Pagina&#39;s met één item, zoals productpagina&#39;s.
 * Niet gebruiken op pagina&#39;s met zoekresultaten die null zijn.
 
-### Huidige rubriek {#current-category}
+### Huidige categorie {#current-category}
 
 De aanbeveling wordt bepaald door de productcategorie die de bezoeker momenteel bekijkt.
 
 Recommendations geeft objecten weer in de opgegeven productcategorie.
 
-Als deze optie is geselecteerd, moet de `entity.categoryId` waarde als parameter worden doorgegeven aan het weergavevak.
+Wanneer deze optie is geselecteerd, moet de waarde `entity.categoryId` als parameter aan de vertoningsdoos worden overgegaan.
 
 #### Logica (criteria)
 
@@ -74,20 +74,20 @@ Als deze optie is geselecteerd, moet de `entity.categoryId` waarde als parameter
 
 ### Aangepast kenmerk {#custom}
 
-De aanbeveling wordt bepaald door een punt dat in het profiel van een bezoeker, gebruikend één van beide gebruiker wordt opgeslagen.*x* of profiel.*x* -kenmerken.
+De aanbeveling wordt bepaald door een punt dat in het profiel van een bezoeker, gebruikend één van beide gebruiker wordt opgeslagen.** xorprofiel.** xattributes.
 
-Als deze optie is geselecteerd, moet de `entity.id` waarde aanwezig zijn in het profielkenmerk.
+Als deze optie is geselecteerd, moet de waarde `entity.id` aanwezig zijn in het profielkenmerk.
 
 Wanneer u aanbevelingen baseert op douanekenmerken, moet u het douanekenmerk selecteren en dan het aanbevelingstype selecteren.
 
 U kunt filter in real time bovenop uw eigen output van douanecriteria uitvoeren. U kunt bijvoorbeeld de aanbevolen objecten beperken tot objecten van de favoriete rubriek of het favoriete merk van een bezoeker. Dit geeft u de macht om off-line berekeningen met het filtreren in real time te combineren.
 
-Deze functionaliteit houdt in dat u personalisatie kunt gebruiken [!DNL Target] om boven op uw offline berekende aanbevelingen of lijsten met aangepaste cursisten personalisatie toe te voegen. Dit combineert de kracht van gegevenswetenschappers en onderzoek met uw beproefde levering, runtime het filtreren, A/B het testen, het richten, het melden, de integratie, en meer.
+Deze functionaliteit betekent dat u [!DNL Target] kunt gebruiken om verpersoonlijking bovenop uw off-line berekende aanbevelingen of douane-gebogen lijsten toe te voegen. Dit combineert de kracht van gegevenswetenschappers en onderzoek met uw beproefde levering, runtime het filtreren, A/B het testen, het richten, het melden, de integratie, en meer.
 
 Met de toevoeging van inclusieregels op de criteria van de Douane, verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker.
 
 * De criteria van de douane zijn configureerbaar, zoals andere criteria in aanbevelingen.
-* U kunt [inzamelingen](/help/c-recommendations/c-products/collections.md), [uitsluitingen](/help/c-recommendations/c-products/exclusions.md), en [opneming](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Voorraad) op de zelfde manier gebruiken zoals om het even welke andere criteria.
+* U kunt [inzamelingen](/help/c-recommendations/c-products/collections.md), [uitsluitingen](/help/c-recommendations/c-products/exclusions.md), en [inclusies](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier gebruiken zoals om het even welke andere criteria.
 
 Mogelijke gebruiksgevallen zijn:
 
@@ -114,18 +114,18 @@ Als de sleutel een attribuut van het douaneprofiel is en het algoritmetype Meest
 
 U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel baseren. Stel dat u aanbevolen films wilt weergeven op basis van de film die een bezoeker het laatst aan zijn of haar wachtrij heeft toegevoegd.
 
-1. Selecteer het kenmerk Aangepast profiel in de **[!UICONTROL Recommendation Key]** vervolgkeuzelijst (bijvoorbeeld Laatste weergave Toegevoegd aan lijst met gecontroleerde items).
+1. Selecteer uw attribuut van het douaneprofiel van **[!UICONTROL Recommendation Key]** drop-down lijst (bijvoorbeeld, &quot;Laatste Show die aan Controlelijst wordt toegevoegd&quot;).
 1. Selecteer vervolgens uw **[!UICONTROL Recommendation Logic]** (bijvoorbeeld &quot;Personen die dit hebben bekeken, hebben dat weergegeven&quot;).
 
    ![Nieuwe criteria maken, dialoogvenster](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitidentiteitskaart aanpast, is het noodzakelijk om aan te verklaren [!DNL Recommendations] hoe u de gelijke aan een entiteit wilt voorkomen. Stel dat u bijvoorbeeld de meest verkochte objecten van het favoriete merk van een bezoeker wilt weergeven.
+Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitidentiteitskaart aanpast, is het noodzakelijk om aan [!DNL Recommendations] uit te leggen hoe u de gelijke aan een entiteit wilt voorkomen. Stel dat u bijvoorbeeld de meest verkochte objecten van het favoriete merk van een bezoeker wilt weergeven.
 
-1. Selecteer het aangepaste profielkenmerk in de **[!UICONTROL Recommendation Key]** vervolgkeuzelijst (bijvoorbeeld Favoriete merk).
+1. Selecteer uw attribuut van het douaneprofiel van **[!UICONTROL Recommendation Key]** drop-down lijst (bijvoorbeeld, &quot;Favoriete Merk&quot;).
 
-1. Selecteer vervolgens de **[!UICONTROL Recommendation Logic]** code die u met deze sleutel wilt gebruiken (bijvoorbeeld Topverkopers).
+1. Selecteer vervolgens **[!UICONTROL Recommendation Logic]** die u met deze sleutel wilt gebruiken (bijvoorbeeld &quot;Topverkopers&quot;).
 
-   De [!UICONTROL Group By Unique Value Of] optie wordt weergegeven.
+   De optie [!UICONTROL Group By Unique Value Of] wordt weergegeven.
 
 1. Selecteer het entiteitskenmerk dat overeenkomt met de gekozen sleutel. In dit geval komt &quot;Favoriete merk&quot; overeen met `entity.brand`.
 
@@ -133,7 +133,7 @@ Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitiden
 
    ![Nieuwe criteria maken, dialoogvenster 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Favoriete rubriek {#favorite-category}
+### Favoriete categorie {#favorite-category}
 
 De aanbeveling wordt bepaald door de categorie die de meeste activiteit heeft ontvangen, gebruikend de zelfde methode die voor &quot;het meest bekeken punt&quot;wordt gebruikt behalve dat de categorieën in plaats van producten worden gescoord.
 
@@ -155,7 +155,7 @@ Als u bijvoorbeeld CategorieA en daarna CategorieB in één sessie weergeeft, re
 
 * Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
-### Laatst gekocht object {#last-purchased}
+### Laatste aangeschafte item {#last-purchased}
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is aangeschaft. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina hoeven te worden doorgegeven.
 
@@ -172,7 +172,7 @@ De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker
 * Homepage, pagina Mijn account, offsite advertenties.
 * Niet gebruiken op productpagina&#39;s of pagina&#39;s die relevant zijn voor aankopen.
 
-### Laatst weergegeven item {#last-viewed}
+### Laatste weergegeven item {#last-viewed}
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is bekeken. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina hoeven te worden doorgegeven.
 
@@ -227,20 +227,20 @@ De aanbeveling wordt bepaald door de populariteit van objecten op uw site. De po
 
 * Algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
-### Onlangs bekeken objecten {#recently-viewed}
+### Onlangs bekeken items {#recently-viewed}
 
-Gebruikt de geschiedenis van de bezoeker (overspannende zittingen) om de laatste *x* punten voor te stellen de bezoeker heeft bekeken, die op het aantal groeven in het ontwerp worden gebaseerd.
+Gebruikt de geschiedenis van de bezoeker (overspannende zittingen) om de laatste *x* punten voor te stellen de bezoeker, gebaseerd op het aantal groeven in het ontwerp heeft bekeken.
 
-De recent bekeken criteria van Punten keert resultaten specifiek voor een bepaalde [milieu](/help/administrating-target/hosts.md)terug. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
+De onlangs Bekeken Criteria van Punten keert resultaten specifiek voor gegeven [milieu](/help/administrating-target/hosts.md) terug. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
 
 >[!NOTE]
 >
->U kunt de [!UICONTROL Recently Viewed Items] criteria voor back-upaanbevelingen niet gebruiken.
+>U kunt de [!UICONTROL Recently Viewed Items] criteria voor reserveaanbevelingen niet gebruiken.
 
 [!UICONTROL Recently Viewed Items]/Media kan worden gefilterd zodat slechts de punten met een bepaald attribuut worden getoond.
 
 * Onlangs bekeken criteria zijn configureerbaar, net als andere criteria in aanbevelingen.
-* U kunt [inzamelingen](/help/c-recommendations/c-products/collections.md), [uitsluitingen](/help/c-recommendations/c-products/exclusions.md), en [opneming](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Voorraad) op de zelfde manier gebruiken zoals om het even welke andere criteria.
+* U kunt [inzamelingen](/help/c-recommendations/c-products/collections.md), [uitsluitingen](/help/c-recommendations/c-products/exclusions.md), en [inclusies](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier gebruiken zoals om het even welke andere criteria.
 
 Mogelijke gebruiksgevallen zijn:
 
@@ -252,13 +252,13 @@ Een multinationaal bedrijf met meerdere bedrijven kan bezoekers artikelen laten 
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] Hiermee worden zowel de globale instellingen voor uitsluitingen als de geselecteerde verzamelingsinstelling voor de activiteit in acht genomen. Als een item wordt uitgesloten door een algemene uitsluiting of niet in de geselecteerde verzameling voorkomt, wordt het item niet weergegeven. Daarom moet bij het gebruik van een [!UICONTROL Recently Viewed Items] criterium doorgaans de instelling &quot;Alle verzamelingen&quot; worden gebruikt.
+>[!UICONTROL Recently Viewed Items] Hiermee worden zowel de globale instellingen voor uitsluitingen als de geselecteerde verzamelingsinstelling voor de activiteit in acht genomen. Als een item wordt uitgesloten door een algemene uitsluiting of niet in de geselecteerde verzameling voorkomt, wordt het item niet weergegeven. Daarom bij het gebruiken van een [!UICONTROL Recently Viewed Items] criteria, zou de &quot;Alle Inzamelingen&quot;instelling over het algemeen moeten worden gebruikt.
 
 ## Instructielogica
 
 [!DNL Target Recommendations] gebruikt geavanceerde algoritmen om te bepalen wanneer de acties van een bezoeker voor de criteria in uw activiteit kwalificeren. De advisesleutel bepaalt de aanbevelingen logische opties die beschikbaar zijn.
 
-De volgende aanbevelingen (criteria) zijn beschikbaar bij de [!UICONTROL Recommendation Logic] drop-down lijst:
+De volgende aanbevelingen (criteria) zijn beschikbaar bij [!UICONTROL Recommendation Logic] drop-down lijst:
 
 ### Items/media met vergelijkbare kenmerken {#similar-attributes}
 
@@ -268,7 +268,7 @@ Als u Items/media met vergelijkbare kenmerken selecteert, kunt u regels voor gel
 
 Het gebruik van gelijkenis in de inhoud om aanbevelingen te genereren is vooral effectief voor nieuwe items. Deze worden waarschijnlijk niet weergegeven in aanbevelingen met Personen die dit hebben bekeken, Gezien dat en andere logica die is gebaseerd op gedrag in het verleden. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
 
-Zie Vergelijkbaarheid van [inhoud voor meer informatie](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Zie [Vergelijkbare inhoud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) voor meer informatie.
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
@@ -290,7 +290,7 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Favoriete rubriek
 * Populariteit
 
-### Mensen die dit hebben gekocht, hebben het volgende gekocht {#bought-bought}
+### Mensen die dit hebben gekocht, hebben dat {#bought-bought}
 
 Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden gekocht.
 
@@ -306,7 +306,7 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Mensen die dit bekeken hebben, hebben het volgende gekocht {#viewed-bought}
+### Personen die dit hebben bekeken, hebben dat {#viewed-bought}
 
 raadt objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
 
@@ -322,7 +322,7 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Personen die dit hebben bekeken, zagen het volgende {#viewed-viewed}
+### Personen die dit hebben bekeken, zagen dat {#viewed-viewed}
 
 Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
 
@@ -338,7 +338,7 @@ Deze logica kan met de volgende advisesleutels worden gebruikt:
 * Laatst weergegeven item
 * Meest bekeken item
 
-### Affiniteit site {#site-affinity}
+### Site-affiniteit {#site-affinity}
 
 Aanbevolen items op basis van de zekerheid van een relatie tussen items. U kunt deze criteria vormen om te bepalen hoeveel gegevens worden vereist alvorens een aanbeveling gebruikend de schuif van de Regels van de Opname wordt voorgesteld. Als u bijvoorbeeld erg sterk selecteert, worden de producten met de grootste zekerheid van een overeenkomst aanbevolen.
 
