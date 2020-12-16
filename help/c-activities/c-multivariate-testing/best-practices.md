@@ -25,7 +25,7 @@ Tips om u te helpen prestaties verbeteren, problemen te vermijden en bekende pro
 
    Houd rekening met de verschillen in inhoud voor elke aanbieding en maak afbeeldingen, tekst en HTML-aanbiedingen die u in de MVT-test wilt gebruiken.
 
-## Maken {#section_C59C722CA82E48ABA58A4A7FA758F193}
+## {#section_C59C722CA82E48ABA58A4A7FA758F193} maken
 
 * Neem niet meer combinaties op dan nodig is voor de test.
 
@@ -39,21 +39,21 @@ Tips om u te helpen prestaties verbeteren, problemen te vermijden en bekende pro
 
    Bekijk alle ervaringen die door de test zijn gegenereerd voordat u live gaat. Zorg ervoor dat er geen combinaties zijn met tegenstrijdige claims (bijvoorbeeld 20% korting en $19 korting in dezelfde ervaring) of met incompatibele ontwerpen, zoals achtergrond en lettertype met dezelfde kleur.
 
-* Gebruik de [schatter](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) van het Verkeer om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt.
+* Gebruik [Verkeersschatter](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt.
 
    Zorg ervoor de schatter van het Verkeer uw testconfiguratie het groene licht geeft zodat kunt u de resultaten krijgen u wenst.
 * Aanbevolen wordt dat de alternatieven van elk element aanzienlijk van elkaar verschillen.
 
-## Analyseren {#section_9A2118CF1039451681C13D9AE79A58AB}
+## {#section_9A2118CF1039451681C13D9AE79A58AB} analyseren
 
-* Vaak gebruik maken van het rapport [](/help/c-reports/location-contribution-report.md) Locatiebijdrage om de prestaties van elke locatie en elke aanbieding te controleren.
-* In het rapport [van de Prestaties van de](/help/c-reports/experience-performance-report.md)Ervaring, baseer uw besluiten op de gegevens die gebruikend Beste 5 en de Beste 5 filters worden getoond.
+* Maak frequent gebruik van [Location Contribution report](/help/c-reports/location-contribution-report.md) om de prestaties van elke plaats en elke aanbieding te controleren.
+* In [het rapport van de Prestaties van de Ervaring](/help/c-reports/experience-performance-report.md), baseer uw besluiten op de gegevens die gebruikend de Beste 5 en Worst 5 filters worden getoond.
 
-   Het [!UICONTROL All] filter maakt het moeilijk om de gewenste informatie op te halen en niet alle ervaringen kunnen in de grafiek worden weergegeven. Gebruik het [!UICONTROL All] filter als u een specifieke ervaring wilt bekijken die niet in de beste of slechtste vijf is.
+   Het filter [!UICONTROL All] maakt het moeilijk om de gewenste informatie te extraheren en niet alle ervaringen kunnen in de grafiek worden weergegeven. Gebruik het filter [!UICONTROL All] als u een specifieke ervaring wilt bekijken die niet in beste of slechtste vijf is.
 
 ## Follow-up {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Hoewel u een actieve activiteit [!DNL Target] kunt bewerken, dient u niet te vergeten dat het bewerken van een actieve activiteit de test opnieuw kan instellen. In rapporten worden sommige wijzigingen mogelijk niet herkend. Het is veilig om wijzigingen aan HTML-aanbiedingen aan te brengen die alleen in de aanbiedingsbibliotheek staan.
+* Hoewel u [!DNL Target] toestaat om een levende activiteit uit te geven, houd me ervan dat het uitgeven van een activiteit die lopend is de test kon terugstellen. In rapporten worden sommige wijzigingen mogelijk niet herkend. Het is veilig om wijzigingen aan HTML-aanbiedingen aan te brengen die alleen in de aanbiedingsbibliotheek staan.
 
    De specifieke acties die ervaringsnamen en rapporten terugstellen zijn:
 
