@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# URL van activiteit{#activity-url}
+# Activiteit-URL{#activity-url}
 
-De activiteit URL bepaalt de pagina die in [!UICONTROL Multivariate Test] (MVT) wordt gebruikt, en die opent wanneer de test binnen wordt ontworpen [!DNL Adobe Target].
+De activiteit URL bepaalt de pagina die in [!UICONTROL Multivariate Test] (MVT) wordt gebruikt, en die opent wanneer de test in [!DNL Adobe Target] wordt ontworpen.
 
-Geef de activiteit-URL op wanneer dit wordt gevraagd tijdens het maken [van](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)activiteiten. Typ de volledige URL (inclusief `https://`) en klik op **[!UICONTROL Next]**.
+Geef bij de aanwijzing tijdens [activity creation](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) de activiteit-URL op. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Next]**.
 
 >[!NOTE]
 >
->[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http]). Hierdoor komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
+>[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en  [!DNL http]). Als gevolg hiervan komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
 
-Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw montages [van Composer van de](/help/administrating-target/visual-experience-composer-set-up.md)Visuele Ervaring wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+Door gebrek, [!UICONTROL Visual Experience Composer] (VEC) opent de pagina die in uw [montages van Composer van de Visuele Ervaring ](/help/administrating-target/visual-experience-composer-set-up.md) wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
-Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op het **[!UICONTROL Configure]** pictogram, selecteert u **[!UICONTROL Page Delivery]** en geeft u vervolgens de URL op.
+Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op het pictogram **[!UICONTROL Configure]** en selecteert u **[!UICONTROL Page Delivery]**. Geef vervolgens de URL op.
 
 ![Dialoogvenster Pagina-aflevering](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
@@ -47,7 +47,7 @@ Klik **[!UICONTROL Save]** wanneer u klaar bent.
 >
 >Als u een URL hebt ingevoerd voor een site die niet de standaard JavaScript-doelcode bevat, kunt u geen pagina-elementen selecteren.
 
-Standaard staat de VEC geen wijzigingen toe in elementen die JavaScript bevatten, zoals draaiende banners. U kunt schakelen **[!UICONTROL Render using JavaScript]** als u die elementen wilt kunnen veranderen gebruikend [!UICONTROL Visual Experience Composer].
+Standaard staat de VEC geen wijzigingen toe in elementen die JavaScript bevatten, zoals draaiende banners. U kunt **[!UICONTROL Render using JavaScript]** van een knevel voorzien als u die elementen wilt kunnen veranderen gebruikend [!UICONTROL Visual Experience Composer].
 
 >[!NOTE]
 >
