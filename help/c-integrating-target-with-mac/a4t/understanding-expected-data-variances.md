@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T{#expected-data-variances-when-not-using-a-t}
+# Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet gebruikend A4T{#expected-data-variances-when-not-using-a-t}
 
-Informatie over verwachte gegevensvariaties tussen [!DNL Target] en Adobe [!DNL Analytics] wanneer *het gebruiken* van en *niet* het gebruiken van Analytics als Rapporterende Bron (A4T). A4T verlaagt de gegevensvariantie aanzienlijk.
+Informatie over verwachte gegevensvariaties tussen [!DNL Target] en Adobe [!DNL Analytics] wanneer *het gebruik van* en *niet* het gebruiken van Analytics als Rapporterende Bron (A4T). A4T verlaagt de gegevensvariantie aanzienlijk.
 
 ## Verwachte gegevensvariantie bij gebruik van A4T {#expected-using-a4t}
 
@@ -30,21 +30,21 @@ Hier zijn een paar scenario&#39;s waarin u verwachte gegevensvariantie zou kunne
 
    >[!NOTE]
    >
-   >Een bekende kwestie weggaat die een beperkt aantal klanten veroorzaakt die omleidingen met A4T gebruiken om een hoger percentage van unstitched hit tarieven te zien. Bekende [problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#redirect)bekijken.
+   >Een bekende kwestie weggaat die een beperkt aantal klanten veroorzaakt die omleidingen met A4T gebruiken om een hoger percentage van unstitched hit tarieven te zien. Zie [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
-* Stel dat u een activiteit voor automatisch toewijzen maakt die open staat voor alle bezoekers van een bepaalde pagina. Omdat de auto-Wijs activiteiten geen A4T steunen, worden alle activiteitengegevens verzameld door [!DNL Target]. U zou kunnen verwachten dat de bezoekers aan de activiteit in de [!DNL Target] rapportering de bezoekers aan die pagina in de [!DNL Analytics] rapportering voor de zelfde datumwaaier zouden moeten aanpassen. Dit is een scenario waarin de hieronder beschreven variantie wordt verwacht.
+* Stel dat u een activiteit voor automatisch toewijzen maakt die open staat voor alle bezoekers van een bepaalde pagina. Omdat de auto-Wijs activiteiten geen A4T steunen, worden alle activiteitengegevens verzameld door [!DNL Target]. U zou kunnen verwachten dat de bezoekers aan de activiteit in [!DNL Target] rapportering de bezoekers aan die pagina in [!DNL Analytics] rapportering voor de zelfde datumwaaier zouden moeten aanpassen. Dit is een scenario waarin de hieronder beschreven variantie wordt verwacht.
 
-   Voor een volledige lijst van activiteitentypes die A4T steunen, zie de [Gesteunde Types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)van Activiteit.
+   Voor een volledige lijst van activiteitentypes die A4T steunen, zie [Ondersteunde Types van Activiteit](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
-## Verwachte gegevensvariantie wanneer *geen A4T wordt gebruikt* {#expected-not-using-a4t}
+## Verwachte gegevensvariantie wanneer *geen* A4T {#expected-not-using-a4t} wordt gebruikt
 
 Variaties van 15-20% zijn normaal, zelfs bij vergelijkbare gegevenssets. Systemen die verschillend tellen kunnen resulteren in veel hogere gegevensvariaties, tot wel 35-50%. In sommige gevallen kunnen verschillen zelfs nog groter zijn.
 
 Hoewel de werkelijke gegevens aanzienlijk kunnen variëren, zijn trends doorgaans consistent. Zolang de verschillen en trends consistent blijven, blijven de gegevens waardevol en nuttig. Als de verschillen en trends inconsistent zijn, kan dat betekenen dat er iets verkeerd wordt opgezet. Neem in dit geval contact op met uw accountvertegenwoordiger voor hulp.
 
-[!DNL Analytics] gebruikt een systeem dat op bezoeken en transacties wordt gebaseerd, maar op bezoekers-gebaseerde metriek [!DNL Target] gebruikt. Dat betekent dat wanneer een bezoeker een pagina opent, het als een bezoek in telt [!DNL Analytics], maar [!DNL Target] niet het bezoek telt totdat aan de voorwaarden van de activiteit is voldaan.
+[!DNL Analytics] gebruikt een systeem dat op bezoeken en transacties wordt gebaseerd, maar op bezoekers-gebaseerde metriek  [!DNL Target] gebruikt. Dat betekent dat wanneer een bezoeker een pagina opent, het als bezoek in [!DNL Analytics] telt, maar [!DNL Target] telt niet het bezoek tot de voorwaarden in de activiteit worden geplaatst voldaan aan.
 
-Rapporten in [!DNL Target] tonen prestaties die op de omzettingsdoos worden gebaseerd die bij het bepalen van de activiteit wordt geselecteerd, maar deze omzettingsgegevens worden niet verzonden naar [!DNL Analytics], die zijn eigen omzettingsvariabelen zoals die door uw [!DNL Analytics] het etiketteren implementatie worden bepaald heeft. In gevallen waarin identieke gegevens kunnen worden verwacht (bijvoorbeeld als de orderbevestigingspagina van een detailhandelaar zowel een conversiembox als een [!DNL Analytics] aankoopgebeurtenis bevat), kunnen de gegevens verschillen als gevolg van de plaatsing van deze tags. Over het algemeen zouden de trends in de verslagen van beide producten op dezelfde wijze moeten zijn.
+Rapporten in [!DNL Target] tonen prestaties die op de omzettingsmbox worden gebaseerd die bij het bepalen van de activiteit wordt geselecteerd, maar deze omzettingsmbox gegevens wordt niet verzonden naar [!DNL Analytics], die zijn eigen omzettingsvariabelen zoals die door uw [!DNL Analytics] etiketterende implementatie wordt bepaald heeft. In gevallen waarin identieke gegevens kunnen worden verwacht (bijvoorbeeld als de orderbevestigingspagina van een detailhandelaar zowel een conversiembox als een [!DNL Analytics]-aankoopgebeurtenis bevat), kunnen de gegevens verschillen als gevolg van de plaatsing van deze labels. Over het algemeen zouden de trends in de verslagen van beide producten op dezelfde wijze moeten zijn.
 
 De verwachte gegevensvariaties kunnen door zowel technische als bedrijfsvariaties worden veroorzaakt.
 
@@ -67,4 +67,4 @@ Het volgende kan gegevensvariaties veroorzaken die op bedrijfsverschillen worden
 * Er kan één box op meerdere pagina&#39;s worden geplaatst, waarbij bezoekers op elk van deze pagina&#39;s worden geteld
 * Activiteitsprioriteiten kunnen sommige bezoekers bevatten en andere op een pagina uitsluiten
 * Bezoekers die eenmaal zijn geconverteerd, kunnen opnieuw worden geteld wanneer ze de activiteit opnieuw betreden
-* [!DNL Analytics] telt alle omzettingen voor alle bezoeken en bezoekers, maar [!DNL Target] telt alleen omzettingen voor die bezoeken en bezoekers die deel uitmaken van de activiteit
+* [!DNL Analytics] telt alle omzettingen voor alle bezoeken en bezoekers, maar  [!DNL Target] telt alleen omzettingen voor die bezoeken en bezoekers die in de activiteit zijn opgenomen
