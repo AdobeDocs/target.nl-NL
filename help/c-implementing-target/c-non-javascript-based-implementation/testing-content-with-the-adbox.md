@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Een dialoogvenster maken voor een afbeelding{#create-an-adbox-for-an-image}
+# Adbox voor een afbeelding maken{#create-an-adbox-for-an-image}
 
 Gebruik een AdBox om afbeeldingen te leveren in een externe implementatie met Adobe Target.
 
 Een AdBox is vergelijkbaar met een box, maar wordt beheerd door een URL in plaats van JavaScript. AdBox wordt gemaakt met een speciale URL voor een advertentievak die een advertentievak (of advertentievak) in uw Adobe-account laadt. Gebruik deze AdBox in plaats van de box in uw activiteiten. Gebruik de URL van het AdBox in plaats van een verwijzing naar een directe afbeelding in e-mail of andere niet-JavaScript-implementaties.
 
-Zie Op [niet-JavaScript gebaseerde implementaties](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)voor hulp bij het selecteren van de juiste instellingen.
+Zie [Niet-JavaScript-gebaseerde implementaties](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) voor hulp bij het selecteren van de juiste setup.
 
 1. Maak de URL van het advertentievak:
 
@@ -28,19 +28,19 @@ Zie Op [niet-JavaScript gebaseerde implementaties](/help/c-implementing-target/c
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
-   * Waar `myClientCode` is de cliëntcode van uw bedrijf. De clientcode van uw bedrijf is helemaal in kleine letters en heeft geen speciale tekens.
+   * Waar `myClientCode` de cliëntcode van uw bedrijf is. De clientcode van uw bedrijf is helemaal in kleine letters en heeft geen speciale tekens.
 
-      Uw clientcode is beschikbaar boven aan de [!UICONTROL Administation > Implementation] pagina van de [!DNL Target] interface.
+      Uw clientcode is beschikbaar boven aan de pagina [!UICONTROL Administation > Implementation] van de interface [!DNL Target].
 
-   * Waar `image` is het vraagtype. In dit geval is het een afbeelding.
+   * Waar `image` het vraagtype is. In dit geval is het een afbeelding.
 
-   * Waar `emailHeroImage123_320x200` is de naam van de advertentievak.
+   * Hierbij is `emailHeroImage123_320x200` de naam van de advertentievak.
 
-   * Waar `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` is de standaardinhoud van de box. Dit moet een afbeelding zijn.
+   * Hierbij is `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` de standaardinhoud van de box. Dit moet een afbeelding zijn.
 
-      Dit moet URL gecodeerd zijn en moet een absolute verwijzing zijn. U kunt de [HTML URL-coderingsverwijzing](https://www.w3schools.com/tags/ref_urlencode.asp) gebruiken om uw URL&#39;s snel te coderen.
+      Dit moet URL gecodeerd zijn en moet een absolute verwijzing zijn. Met de [HTML URL-coderingsreferentie](https://www.w3schools.com/tags/ref_urlencode.asp) kunt u snel URL&#39;s coderen.
 
-1. Maak [omleidingsvoorstellen](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) voor elke alternatieve afbeelding.
+1. Maak [Aanbiedingen omleiden](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) voor elke alternatieve afbeelding.
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ Zie Op [niet-JavaScript gebaseerde implementaties](/help/c-implementing-target/c
 
 1. Maak de activiteit.
 
-   Zie Implementaties [](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) die niet op JavaScript zijn gebaseerd voor de juiste instelling om uw doelen te bereiken.
+   Zie [Niet-JavaScript-Gebaseerde Implementaties](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) voor de juiste opstelling om uw doelstellingen te ontmoeten.
 1. Volledige kwaliteitscontrole op de activiteit.
 
    Als beste praktijken, creeer een dummypagina en verifieer dat alle ervaringen, standaardinhoud, en rapporten zoals verwacht op alle browser types, voor al uw milieu&#39;s handelen.
