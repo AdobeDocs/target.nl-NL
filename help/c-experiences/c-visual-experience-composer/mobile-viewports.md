@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Mobiele Viewers voor responsieve ervaringen{#mobile-viewports-for-responsive-experiences}
 
-Met de mobiele viewports kunt u een voorvertoning weergeven van uw [!DNL Target] activiteiten op schermen van verschillende formaten.
+Met mobiele viewports kunt u een voorvertoning weergeven van uw [!DNL Target]-activiteiten op schermen van verschillende formaten.
 
 De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sites die goed worden weergegeven op verschillende apparaten, vensters of schermgrootten. Responsieve sites worden automatisch aangepast en aangepast aan elke schermgrootte, zoals desktops, laptops, tablets of mobiele telefoons.
 
 >[!NOTE]
 >
-> * Gebruik mobiele viewports als uw site reageert en dezelfde elementen op uw desktoppagina in een andere configuratie op uw mobiele pagina worden gebruikt. Als u een aparte mobiele site hebt met een aparte structuur, zoals `m.mysite.com`, gebruikt u een activiteit [die uit](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) meerdere pagina&#39;s bestaat.
+> * Gebruik mobiele viewports als uw site reageert en dezelfde elementen op uw desktoppagina in een andere configuratie op uw mobiele pagina worden gebruikt. Als u een afzonderlijke mobiele site hebt met een aparte structuur, zoals `m.mysite.com`, gebruikt u een [activiteit van meerdere pagina&#39;s](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
    >
    >
 * Mobiele viewports zijn niet beschikbaar als deze worden overlapt door een overlay voor omleidingsaanbiedingen.
@@ -28,7 +28,7 @@ De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sit
 
 Een viewport wordt bepaald door de grootte van de rechthoek die wordt gevuld door een webpagina op het scherm. Dit is de grootte van het browservenster, min de schuifbalken en werkbalken. Browsers gebruiken &#39;CSS-pixels&#39;. Voor veel apparaten, zoals apparaten met Retina-schermen, is de viewport kleiner dan de geadverteerde apparaatresolutie.
 
-Hieronder staan de viewports en de resoluties voor sommige populaire apparaten. Vergeet niet de viewportgrootte in te gebruiken [!DNL Target]. Verschillende websites vermelden de viewportgrootten voor populaire apparaten. Zie bijvoorbeeld [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) of raadpleeg de website van de maker van het apparaat.
+Hieronder staan de viewports en de resoluties voor sommige populaire apparaten. Vergeet niet de viewportgrootte te gebruiken in [!DNL Target]. Verschillende websites vermelden de viewportgrootten voor populaire apparaten. Zie bijvoorbeeld [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) of raadpleeg de website van de maker van het apparaat.
 
 | Apparaat | Viewportgrootte | Apparaatresolutie |
 |---|---|---|
@@ -76,9 +76,9 @@ Hieronder staan de viewports en de resoluties voor sommige populaire apparaten. 
 
 Als u een activiteit aan mensen op een bepaald apparaat wilt leveren, kies het aangewezen publiek voor dat apparaat in het activiteitendiagram. Gebruik de Mobiele Composer van het Web om de pagina in de activiteit voor dat apparaat uit te geven. Als u een activiteit over uw volledige digitale ervaring wilt in werking stellen en ervoor wilt zorgen het goed kijkt over alle apparaten, pas geen het richten toe, en gebruik mobiele viewports om de activiteit op elke het schermgrootte voor te vertonen.
 
-Als u een responsieve site hebt, is uw site doorgaans ontworpen om in een andere weergave te worden geopend wanneer deze wordt geopend door een apparaat met een specifieke schermgrootte. De schermgrootten die de nieuwe weergaven activeren, worden CSS-onderbrekingspunten genoemd. CSS-onderbrekingspunten zijn punten waar de website-inhoud afhankelijk van de apparaatbreedte reageert om de optimale lay-out voor bezoekers weer te geven. CSS-onderbrekingspunten worden ook [mediaquery](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)&#39;s genoemd.
+Als u een responsieve site hebt, is uw site doorgaans ontworpen om in een andere weergave te worden geopend wanneer deze wordt geopend door een apparaat met een specifieke schermgrootte. De schermgrootten die de nieuwe weergaven activeren, worden CSS-onderbrekingspunten genoemd. CSS-onderbrekingspunten zijn punten waar de website-inhoud afhankelijk van de apparaatbreedte reageert om de optimale lay-out voor bezoekers weer te geven. CSS-onderbrekingspunten worden ook [mediaquery](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) genoemd.
 
-Sla uw CSS-onderbrekingspunten op in [!DNL Target] zodat u een voorvertoning van uw ervaringen kunt bekijken voor elke weergave die u definieert. Elk van deze ervaringen wordt getoond in een mobiele viewport in de [!DNL Target] interface. Open de weergave voor elke schermgrootte door op die viewport boven aan de weergave te klikken.
+Sla uw CSS-onderbrekingspunten op in [!DNL Target] zodat u een voorvertoning van uw ervaringen kunt weergeven voor elke weergave die u definieert. Elk van deze ervaringen wordt getoond in een mobiele viewport in de [!DNL Target] interface. Open de weergave voor elke schermgrootte door op die viewport boven aan de weergave te klikken.
 
 Als uw site niet reageert, kunt u nog steeds de Mobile Web Composer gebruiken om een site weer te geven als uw activiteit is gericht op een specifiek apparaat.
 
@@ -86,12 +86,12 @@ Als uw site niet reageert, kunt u nog steeds de Mobile Web Composer gebruiken om
 >
 >Hoewel u een ervaring vanuit mobiele viewports kunt bewerken, zijn deze wijzigingen van toepassing op alle viewports en apparaten, niet alleen op de viewport waarin u werkt. Op dezelfde manier wordt bij het bewerken van een ervaring in de normale desktopweergave de pagina voor alle schermgrootten gewijzigd, en niet alleen voor de desktopweergave. Momenteel ondersteunen we geen wijzigingen die specifiek zijn voor viewport.
 
-## Configuratie van mobiele viewport {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Configuratie mobiele viewport {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw ervaringen maakt.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Als u een nieuwe mobiele viewport wilt toevoegen, klikt u in de **[!UICONTROL Mobile viewports configuration]** sectie op **[!UICONTROL Add]**.
+1. Als u een nieuwe mobiele viewport wilt toevoegen, klikt u in de sectie **[!UICONTROL Mobile viewports configuration]** op **[!UICONTROL Add]**.
 
    ![viewport toevoegen](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
@@ -115,7 +115,7 @@ Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw erv
    * Symbian
    * Blackberry
 
-   Als u de [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gebruikt en een besturingssysteem kiest, [!DNL Target] emuleert u dat apparaat wanneer u de pagina bekijkt. Als er bijvoorbeeld een ander uiterlijk voor Android is dan voor iOS op uw responsieve site, [!DNL Target] wordt dat gedrag nagebootst.
+   Als u de [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gebruikt en een besturingssysteem kiest, emuleert [!DNL Target] dat apparaat wanneer u de pagina bekijkt. Als er bijvoorbeeld een ander uiterlijk voor Android is dan voor iOS op uw responsieve site, navigeert [!DNL Target] dat gedrag.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -123,16 +123,16 @@ Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw erv
 >
 >Als u probeert een mobiele viewport te verwijderen die in gebruik is, wordt het volgende bericht weergegeven: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot;
 
-## Een responsieve ervaring maken {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Maak een responsieve ervaring {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om responsieve ervaringen voor mobiele schermen te creëren.
+Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om ontvankelijke ervaringen voor mobiele schermen tot stand te brengen.
 
 1. Maak de [gewenste activiteit](/help/c-activities/activities.md).
-1. Klik in Visual Experience Composer op het **[!UICONTROL Settings]** tandwielpictogram en selecteer **[!UICONTROL Add Mobile Viewports]**.
+1. Klik in Visual Experience Composer op het tandwielpictogram **[!UICONTROL Settings]** en selecteer **[!UICONTROL Add Mobile Viewports]**.
 
    ![Mobiele Viewports toevoegen, optie](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Klik op het **[!UICONTROL Devices]** pictogram en schakel vervolgens elk apparaat in dat een mobiele viewport moet hebben.
+1. Klik op het pictogram **[!UICONTROL Devices]** en schakel vervolgens elk apparaat in dat een mobiele viewport moet hebben.
 
    ![Mobiele viewports inschakelen](/help/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -150,12 +150,12 @@ Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om responsieve erva
 
    ![Afdrukopties](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Hoofdlettergebruik: Twee iPhone-versies als doel instellen {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## Hoofdlettergebruik: Doel twee iPhone-versies {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
 In dit gebruiksgeval ziet u hoe u ervaringen voor twee iPhone-versies kunt configureren: iPhone 6 en iPhone 6 Plus.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Maak in de **[!UICONTROL Mobile Viewport Configuration]** sectie mobiele viewports voor iPhone 6 en iPhone 6 plus.
+1. Maak in de sectie **[!UICONTROL Mobile Viewport Configuration]** mobiele viewports voor iPhone 6 en iPhone 6 plus.
 
    Gebruik de volgende instellingen voor elke viewport:
 
@@ -168,7 +168,7 @@ In dit gebruiksgeval ziet u hoe u ervaringen voor twee iPhone-versies kunt confi
 
 1. Maak een activiteit met de ervaring u zou willen richten.
 1. Selecteer de ervaring die u wilt gebruiken voor bezoekers die uw site openen via een iPhone 6 of iPhone 6 Plus.
-1. Wanneer het selecteren van uw doel, klik **[!UICONTROL Create Audience]**, dan vorm een publiek zoals aangetoond in het hieronder beeld:
+1. Wanneer u het doel selecteert, klikt u op **[!UICONTROL Create Audience]** en configureert u een publiek zoals in de onderstaande afbeelding wordt getoond:
 
    ![](assets/iphoneaudiences.png)
 
@@ -180,7 +180,7 @@ In dit gebruiksgeval ziet u hoe u ervaringen voor twee iPhone-versies kunt confi
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Visual Experience Composer (2 van 2) (7:29) - badge ![Overzicht](/help/assets/overview.png)
+### Visual Experience Composer (2 van 2) (7:29) ![Overview badge](/help/assets/overview.png)
 
 De volgende demo video omvat informatie over het gebruiken van de composer van de Ervaring van Visual Studio om met mobiele viewports te werken:
 
@@ -193,7 +193,7 @@ De volgende demo video omvat informatie over het gebruiken van de composer van d
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Accountvoorkeuren in Adobe Target - ![overzichtsbadge](/help/assets/overview.png)
+### Accountvoorkeuren in Adobe Target ![Overzicht badge](/help/assets/overview.png)
 
 Deze video bevat informatie over het instellen van mobiele viewports vanaf 4:40 in de video.
 
