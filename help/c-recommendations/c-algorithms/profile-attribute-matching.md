@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -profielkenmerkovereenkomst
+# ![Identieke ](/help/assets/premium.png) PREMIUMP-profielkenmerken
 
 Filter dynamisch in [!DNL Adobe Target] [!DNL Recommendations] door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.
 
-Gebruik deze optie [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergeven die overeenkomen met een waarde die is opgeslagen in het profiel van de bezoeker, zoals de grootte of het favoriete merk.
+Gebruik [!UICONTROL Profile Attribute Matching] wanneer u aanbevelingen wilt tonen die een waarde aanpassen die in het profiel van de bezoeker, zoals grootte of favoriet merk wordt opgeslagen.
 
 >[!NOTE]
 >
->Het [proces voor het creëren en gebruiken van inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden.
+>Het [proces voor het creëren van en het gebruiken van inclusieregels](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden zijn.
 
-De volgende scenario&#39;s tonen hoe u kunt gebruiken [!UICONTROL Profile Attribute Matching]:
+De volgende scenario&#39;s tonen hoe u [!UICONTROL Profile Attribute Matching] kunt gebruiken:
 
 * Een bedrijf dat eyeglasses verkoopt, slaat de favoriete kleur van een bezoeker op als &quot;walnoot&quot;. Voor die specifieke bezoeker wordt aanbevolen alleen eyeglass-frames met een &quot;walnoot&quot; in kleur te retourneren.
 * Een profielparameter kan voor de kledinggrootte (b.v., Klein, Middel, of Groot) van een bezoeker worden bepaald aangezien zij op de website van uw bedrijf navigeren. Er kan een aanbeveling worden ingesteld die overeenkomt met die profielparameter en die alleen producten retourneert die specifiek zijn voor de door de gebruiker voorkeurskledinggrootte.
@@ -33,7 +33,7 @@ De volgende scenario&#39;s tonen hoe u kunt gebruiken [!UICONTROL Profile Attrib
 
 ### Aanbevolen objecten van het favoriete merk van de gebruiker
 
-U kunt bijvoorbeeld de [!UICONTROL Profile Attribute Matching] optie gebruiken om een regel te maken die alleen items aanbeveelt wanneer het merk gelijk is aan de waarde of tekst die is opgeslagen in `profile.favoritebrand`. Met een dergelijke regel geldt dat als een bezoeker korte berichten van een bepaald merk bekijkt, alleen aanbevelingen worden weergegeven die overeenkomen met het favoriete merk van die gebruiker (de waarde die is opgeslagen in het profiel van de bezoeker). `profile.favoritebrand`
+U kunt bijvoorbeeld de optie [!UICONTROL Profile Attribute Matching] gebruiken om een regel te maken die alleen items aanbeveelt wanneer het merk gelijk is aan de waarde of tekst die is opgeslagen in `profile.favoritebrand`. Met een dergelijke regel geldt dat als een bezoeker korte berichten van een bepaald merk bekijkt, alleen aanbevelingen worden weergegeven die overeenkomen met het favoriete merk van die gebruiker (de waarde die is opgeslagen in `profile.favoritebrand` in het profiel van de bezoeker).
 
 ![Favoriet merk](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
@@ -59,7 +59,7 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 Bekijk een website die elektrische ventilatoren verkoopt voor een visueel voorbeeld van de invloed van profielkenmerkafstemming op aanbevelingen.
 
-Wanneer een bezoeker op verschillende afbeeldingen van ventilatoren op deze website klikt, stelt elke pagina de waarde van de `entity.size` parameter in op basis van het feit of de grootte van de ventilator in de afbeelding klein of groot is.
+Wanneer een bezoeker op verschillende afbeeldingen van ventilatoren op deze website klikt, stelt elke pagina de waarde van de parameter `entity.size` in op basis van het feit of de grootte van de ventilator in de afbeelding klein of groot is.
 
 Stel dat u een profielscript hebt gemaakt om het aantal keren bij te houden en te tellen dat de waarde van `entity.size` is ingesteld op klein of groot.
 
