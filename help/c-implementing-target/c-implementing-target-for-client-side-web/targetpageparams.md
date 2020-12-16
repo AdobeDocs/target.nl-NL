@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Met deze methode kunt u parameters aan de globale mbox koppelen van buiten de aanvraagcode.
 
-Deze functie is zeer nuttig om de zelfde reeks parameters op veelvoudige mbox vraag te omvatten. De functie moet door de klant worden gedefinieerd. Het zou een serie van parameters moeten terugkeren die slechts tot het globale mbox verzoek zullen worden overgegaan. Deze functie kan worden gedefinieerd voordat om.js wordt geladen of in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
+Deze functie is zeer nuttig om de zelfde reeks parameters op veelvoudige mbox vraag te omvatten. De functie moet door de klant worden gedefinieerd. Het zou een serie van parameters moeten terugkeren die slechts tot het globale mbox verzoek zullen worden overgegaan. Deze functie kan worden gedefinieerd voordat at.js wordt geladen of in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
 
-U kunt parameters op de volgende manieren doorgeven aan target-global-mbox met behulp van de `targetPageParams()` functie:
+U kunt parameters tot doel-globaal-mbox overgaan gebruikend de `targetPageParams()` functie op om het even welke volgende manieren:
 
 * Een door ampersand gescheiden lijst
 * Een array
