@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Overzicht van multivariatie-test
 
-[!UICONTROL Multivariate Testing] (MVT) vergelijkt [!DNL Adobe Target] combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifiek publiek presteert, en identificeert welk element het meest van invloed is op het succes van de activiteit.
+[!UICONTROL Multivariate Testing] (MVT)  [!DNL Adobe Target] vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifiek publiek presteert, en identificeert welk element het meest van invloed is op het succes van de activiteit.
 
-## Overzicht van MVT {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## MVT-overzicht {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 Door meerdere varianten te testen kunt u zien welke invloed specifieke elementen hebben op de conversie, in vergelijking met andere elementen op de pagina. Het kan u ook helpen een combinatie elementen verfijnen die effectief zijn gebleken.
 
@@ -30,23 +30,23 @@ Bij Doel is elke combinatie één ervaring. De multivariate test vergelijkt elke
 
 ![](assets/multivariate.png)
 
-Wegens het aantal combinaties die kunnen worden geproduceerd, vereist een multivariate test meer tijd en verkeer dan een test A/B. De pagina moet voldoende verkeer krijgen om statistisch significante resultaten voor elke ervaring te produceren. Om nuttige resultaten te verkrijgen, moet u begrijpen hoeveel verkeer uw pagina ontvangt en het optimale aantal combinaties voor de juiste hoeveelheid tijd testen om de vereiste resultaten te krijgen. De schatter van het [Verkeer van het doel](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan u helpen een test ontwerpen die met uw verkeer werkt. Voordat u de Verkeersschatting gebruikt, moet u over goede statistieken beschikken die het aantal afbeeldingen en conversies weergeven dat uw site normaal ontvangt. Overweeg uw verkeersniveaus per dag. Hoe meer ervaringen in een activiteit, des te meer verkeer de activiteit zal moeten omvatten of des te langer uw activiteit zal moeten lopen. Als uw verkeer niet zeer hoog is, zou u een klein aantal combinaties moeten testen; anders kan de tijd die nodig is om zinvolle testresultaten te produceren te lang zijn om nuttig te zijn.
+Wegens het aantal combinaties die kunnen worden geproduceerd, vereist een multivariate test meer tijd en verkeer dan een test A/B. De pagina moet voldoende verkeer krijgen om statistisch significante resultaten voor elke ervaring te produceren. Om nuttige resultaten te verkrijgen, moet u begrijpen hoeveel verkeer uw pagina ontvangt en het optimale aantal combinaties voor de juiste hoeveelheid tijd testen om de vereiste resultaten te krijgen. [Verkeersschatter](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) van het doel kan u helpen een test ontwerpen die met uw verkeer werkt. Voordat u de Verkeersschatting gebruikt, moet u over goede statistieken beschikken die het aantal afbeeldingen en conversies weergeven dat uw site normaal ontvangt. Overweeg uw verkeersniveaus per dag. Hoe meer ervaringen in een activiteit, des te meer verkeer de activiteit zal moeten omvatten of des te langer uw activiteit zal moeten lopen. Als uw verkeer niet zeer hoog is, zou u een klein aantal combinaties moeten testen; anders kan de tijd die nodig is om zinvolle testresultaten te produceren te lang zijn om nuttig te zijn.
 
 ## MVT-terminologie {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
 Bij het opzetten van een test met meerdere varianten is het handig om enige basisterminologie te begrijpen.
 
-Er zijn meerdere termen die op verschillende manieren in de hele branche worden gebruikt. In deze sectie worden de termen gedefinieerd die worden gebruikt door [!DNL Target].
+Er zijn meerdere termen die op verschillende manieren in de hele branche worden gebruikt. Deze sectie bepaalt de termijnen die door [!DNL Target] worden gebruikt.
 
-**Combinatie:** De variaties in de inhoud die worden gemaakt wanneer u meerdere inhoudsopties op meerdere locaties test. Als u bijvoorbeeld drie locaties test, elk met drie inhoudsopties, zijn er 27 mogelijke combinaties (3x3x3). Een bezoeker van uw site ziet één combinatie, ook wel een ervaring genoemd.
+**Combinatie:** de variaties in inhoud die worden gemaakt wanneer u meerdere inhoudsopties op meerdere locaties test. Als u bijvoorbeeld drie locaties test, elk met drie inhoudsopties, zijn er 27 mogelijke combinaties (3x3x3). Een bezoeker van uw site ziet één combinatie, ook wel een ervaring genoemd.
 
-**Inhoud:** De tekst of afbeelding bestaande uit een testvariatie binnen een locatie. In een multivariate test, worden een aantal inhoudsopties binnen veelvoudige plaatsen vergeleken. In MVT-methodologie wordt de inhoud soms ook wel een *niveau* genoemd.
+**Inhoud:** de tekst of afbeelding bestaande uit een testvariatie binnen een locatie. In een multivariate test, worden een aantal inhoudsopties binnen veelvoudige plaatsen vergeleken. In methodologie MVT, wordt de inhoud soms bedoeld als *niveau*.
 
-**Element:** Een DOM-element met variaties in de inhoud die in de MVT-test moeten worden getest. Zie ook *Locatie*.
+**Element:** een DOM-element met variaties in de inhoud die in de MVT-test moeten worden getest. Zie ook *Locatie*.
 
-**Locatie:** Een specifiek inhoudsgebied op een pagina, dat vaak wordt opgenomen door één DOM-element. In de MVT-methodologie wordt een locatie soms ook wel een *factor* genoemd. Een full-factorial multivariate test vergelijkt alle mogelijke combinaties aanbiedingen in uw plaatsen.
+**Locatie:** een specifiek inhoudsgebied op een pagina, vaak opgenomen in één DOM-element. In methodologie MVT, wordt een plaats soms bedoeld als *factor*. Een full-factorial multivariate test vergelijkt alle mogelijke combinaties aanbiedingen in uw plaatsen.
 
-## Wanneer moet u MVT vs. A/B gebruiken? {#section_3D2B966B6671406C861A1843EA41D28C}
+## Wanneer moet u MVT vs. A/B {#section_3D2B966B6671406C861A1843EA41D28C} gebruiken?
 
 U kunt meerdere tests gebruiken in combinatie met A/B-tests om de pagina te optimaliseren. Voorbeelden van situaties waarin u ze samen wilt gebruiken zijn:
 
@@ -72,7 +72,7 @@ U kunt meerdere tests gebruiken in combinatie met A/B-tests om de pagina te opti
 
 ## Partiële factoriële tests
 
-[!DNL Target] biedt multivariate testen in volledige fabrieken als ingebouwde optie voor activiteit. In statistieken biedt het ontwerpen van experimenten vele benaderingen, of ontwerpen, om te bepalen welke factoren de resultaten beïnvloeden. Een van die benaderingen is de [Taguchi-methode](https://en.wikipedia.org/wiki/Taguchi_methods) voor gedeeltelijke fabriekstests. Met Taguchi kunnen marketers een set veronderstellingen maken die het aantal permutaties van ervaringen die getest moeten worden verminderen, en op hun beurt de verkeersvereisten voor een multivariate test verminderen. Deze functionaliteit en testbenadering kunnen worden gebruikt in [!DNL Target] het gebruiken van dit [off-line spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target] biedt multivariate testen in volledige fabrieken als ingebouwde optie voor activiteit. In statistieken biedt het ontwerpen van experimenten vele benaderingen, of ontwerpen, om te bepalen welke factoren de resultaten beïnvloeden. Een van deze benaderingen is de [Taguchi-methode](https://en.wikipedia.org/wiki/Taguchi_methods) voor gedeeltelijke factoriële tests. Met Taguchi kunnen marketers een set veronderstellingen maken die het aantal permutaties van ervaringen die getest moeten worden verminderen, en op hun beurt de verkeersvereisten voor een multivariate test verminderen. Deze functionaliteit en testbenadering kunnen worden gebruikt in [!DNL Target] gebruikend dit [off-line spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Als uw team andere benaderingen van het Ontwerp van Experimenten gebruikt, kunt u deze berekeningsspreadsheet als verwijzingsimplementatie voor douaneexperimentontwerpen gebruiken.
 
@@ -81,26 +81,26 @@ Houd rekening met de volgende tips wanneer u het werkblad voor offlineberekening
 * Kies de elementen die u wilt wijzigen en het aantal versies van elk element (3x2, 4x3, enzovoort).
 * Houd de nummering consistent. Als de knop bijvoorbeeld Element 1 is en de opties Blauw, Groen en Geel zijn, is de blauwe knop 1-1, de groene knop 1-2 en de gele knop 1-3.
 * Het offline werkblad biedt het juiste aantal benodigde ervaringen (vier voor een 3x2, negen voor een 4x3 enzovoort).
-* Bouw de ervaringen in het A/B- werkschema met Composer van de [Visuele Ervaring (VEC)](/help/c-experiences/experiences.md). U kunt aangepaste code gebruiken, HTML, WYSIWYG of een willekeurige combinatie hiervan bewerken.
+* Bouw de ervaringen in het A/B werkschema met [Visuele Composer van de Ervaring (VEC)](/help/c-experiences/experiences.md). U kunt aangepaste code gebruiken, HTML, WYSIWYG of een willekeurige combinatie hiervan bewerken.
 * Nadat de activiteit (die op de calculator van de steekproefgrootte wordt gebaseerd) voorbij is, stel resultaten door spreadsheet in werking om de andere details te krijgen.
 
-Voor meer overwegingen en beste praktijken, zie [Multivariate Beste praktijken](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)van de Test.
+Voor meer overwegingen en beste praktijken, zie [Multivariate Beste praktijken van de Test](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Trainingsvideo&#39;s:
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Activiteitstypen (9:03) ![overzichtspagina](/help/assets/overview.png)
+### Activiteitstypen (9:03) ![Overzichtsbadge](/help/assets/overview.png)
 
 In deze overzichtsvideo worden de activiteitstypen uitgelegd die beschikbaar zijn in Target Standard/Premium. Het testen met meerdere varianten wordt vanaf 4:20 besproken.
 
-* Beschrijf de soorten activiteiten die onder [!DNL Adobe Target]
+* Beschrijf de soorten activiteiten inbegrepen in [!DNL Adobe Target]
 * Selecteer het juiste type activiteit om uw doelen te bereiken
 * Beschrijf de driestappenworkflow met instructies die van toepassing is op alle typen activiteiten
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Zelfstudie-badge voor meerdere ![tests maken (9:25)](/help/assets/tutorial.png)
+### Multivariate tests maken (9:25) ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 In deze video wordt uitgelegd hoe u een multivariate test begrijpt, plant en maakt met behulp van de driestappenworkflow met instructies voor het doel.
 
