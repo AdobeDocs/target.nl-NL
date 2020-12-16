@@ -12,7 +12,7 @@ ht-degree: 3%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![PREMIUMIP-](/help/assets/premium.png) adressen die worden gebruikt door Recommendations-voederverwerkingsservers{#ip-addresses-used-by-recommendations-feed-processing-servers}
 
 Lijst met IP-adressen die worden gebruikt in Recommendations-feed-processing-servers in het Oregon-datacenter, zodat u uw firewall kunt configureren om IP-adressen van Adobe-servers toe te staan.
 
@@ -20,15 +20,15 @@ Lijst met IP-adressen die worden gebruikt in Recommendations-feed-processing-ser
 
 | CIDR-notatie | IP starten | IP wordt beëindigd |
 |---|---|---|
-| 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
+| 192.243.242.0/24 | 192 243 242,0 | 192 243 242 255 |
 
 [!DNL Target] [!UICONTROL Recommendations] API&#39;s gebruiken de volgende IP-adressen in het Oregon-datacenter (controleer de koppeling hieronder voor de meest recente gegevens):
 
 | CIDR-notatie | IP starten | IP wordt beëindigd |
 |---|---|---|
-| 192.243.224.0/20 | 192.243.224.0 | 192.243.239.255 |
+| 192.243.224.0/20 | 192 243 224,0 | 192 243 239 255 |
 
 >[!NOTE]
 >
->Voor de volledige, meest bijgewerkte lijst, zie [IP Adressen die in Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)worden gebruikt.
+>Voor de volledige, meest bijgewerkte lijst, zie [IP Adressen die in Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) worden gebruikt.
 
