@@ -12,27 +12,27 @@ ht-degree: 0%
 ---
 
 
-# Aanbevolen werkwijzen en beperkingen voor composer visuele ervaring{#visual-experience-composer-best-practices-and-limitations}
+# Aanbevolen werkwijzen en beperkingen van Composer visuele ervaring{#visual-experience-composer-best-practices-and-limitations}
 
 De volgende best practices kunnen u helpen uw ervaringen naar behoren te laten werken. Er zijn ook andere uiteinden en beperkingen die u van bewust zou moeten zijn wanneer het gebruiken van Visual Experience Composer (VEC).
 
 Door deze beste praktijken te volgen, zult u minder waarschijnlijk onverwachte problemen met de ervaringen ontmoeten u ontwerpt.
 
-## Aanbevolen werkwijzen {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Aanbevolen procedures {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Voor mbox.js versie 57 en later, en voor at.js, plaats mbox.js of bij.js verwijzing bij de bovenkant van de `<head>` sectie van uw pagina.**
+**Voor mbox.js versie 57 en later, en voor at.js, plaats mbox.js of bij.js verwijzing bij de bovenkant van de  `<head>` sectie van uw pagina.**
 
 Als u ook de Bezoeker-API-service gebruikt, plaatst u het bezoeker-API-script boven mbox.js of at.js.
 
-**Voor versies van mbox.js vóór versie 57 plaatst u de code mbox.js zo laag mogelijk in de `<head>` sectie van uw pagina.**
+**Voor versies van mbox.js vóór versie 57 plaatst u de code mbox.js zo laag mogelijk in de  `<head>` sectie van uw pagina.**
 
-Plaats mbox.js aan het eind van de `<head>` sectie, zonder extra verklaringen na het. Anders worden alle script- of koppelingstags naar de `<body>` sectie verplaatst.
+Plaats mbox.js aan het eind van `<head>` sectie, zonder extra verklaringen na het. Anders worden script- of koppelingstags verplaatst naar de sectie `<body>`.
 
 **U kunt de Enhanced Experience Composer inschakelen op accountniveau (ingeschakeld voor alle activiteiten die in de account zijn gemaakt) of op het niveau van de individuele activiteit.**
 
-Om Verbeterde Composer van de Ervaring op het rekeningsniveau toe te laten, klik [!UICONTROL Administration > Visual Experience Composer], dan knevel de schakelaar aan positie.
+Om Verbeterde Composer van de Ervaring op het rekeningsniveau toe te laten, klik [!UICONTROL Administration > Visual Experience Composer], dan knevel de schakelaar aan op positie.
 
-Om Verbeterde Composer van de Ervaring op het activiteitenniveau toe te laten terwijl het creëren van een activiteit in Visuele Composer van de Ervaring, klik [!UICONTROL Configure > URL], dan knevel de schakelaar aan positie aan.
+Om Verbeterde Composer van de Ervaring op het activiteitenniveau toe te laten terwijl het creëren van een activiteit in Visual Experience Composer, klik [!UICONTROL Configure > URL], dan knevel de schakelaar aan positie aan.
 
 **U kunt bepaalde IP adressen lijsten van gewenste personen als Verbeterde Visual Experience Composer niet op veilige pagina&#39;s op uw plaats zal laden.**
 
@@ -54,7 +54,7 @@ Adobe Target heeft geen id&#39;s nodig, maar het gebruik van id&#39;s verhoogt d
 
 Wanneer het uitgeven van CSS klassen in Visual Experience Composer, is het nuttig om de klassen gemakkelijk te maken zich door beschrijvende klassennamen te gebruiken gemakkelijk te identificeren. Zo kunt u ervoor zorgen dat u de juiste CSS-klassen bewerkt en dat de pagina&#39;s er naar behoren uitzien.
 
-Gebruik de `!important` CSS-eigenschap niet wanneer u elementen verbergt of verwijdert.
+Gebruik de CSS-eigenschap `!important` niet wanneer u elementen verbergt of verwijdert.
 
 Als de 1!Belangrijke1 CSS-eigenschap aanwezig is, worden wijzigingen die door target.js tijdens de levering worden aangebracht, overschreven door de CSS-regels van de site.
 
@@ -97,22 +97,22 @@ Elke verandering leidt tot een nieuw element in de Visuele Composer van de Ervar
 
 Met andere woorden, als u een element met tekst toevoegt, dan in een afzonderlijke actie bewerkt u dat element met verschillende tekst, toont de code redacteur beide acties als afzonderlijke elementen. Wanneer u het element hebt bewerkt, hebt u een nieuw element gemaakt dat het oorspronkelijke element wijzigt dat u hebt gemaakt en dat de bewerkte tekst bevat. Als u vervolgens het oorspronkelijke element verwijdert, kan de bewerkte tekst het bewerkte element niet vinden en wordt deze niet weergegeven. Het tweede element blijft in de lijst met elementen, maar heeft geen invloed op de pagina omdat het element dat wordt gewijzigd, niet meer bestaat.
 
-Zie [Elementkiezers die worden gebruikt in de Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
+Zie [Elementkiezers die worden gebruikt in de Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-**Gebruik `<b>` en `<i>` labels wanneer u tekstelementen opmaakt met de RTF-editor.**
+**Gebruik  `<b>` en  `<i>` labels wanneer u tekstelementen opmaakt met de RTF-editor.**
 
-* Voor vette tekst gebruikt u `<b>` in plaats van `<strong>`.
-* Gebruik voor cursieve tekst `<i>` in plaats van `<em>`.
+* Gebruik `<b>` in plaats van `<strong>` voor vette tekst.
+* Gebruik `<i>` in plaats van `<em>` voor cursieve tekst.
 
-`<strong>` en `<em>` -tags onverwachte resultaten kunnen veroorzaken.
+`<strong>` en  `<em>` tags onverwachte resultaten kunnen veroorzaken.
 
 **Wees voorzichtig wanneer u formuliervelden verwijdert.**
 
 Bepaalde formuliervelden kunnen verplicht zijn voor verzending. Het verwijderen van deze formuliervelden kan gevolgen hebben voor verzendingen.
 
-**Neem geen `mboxCreate` deel aan scripts.**
+**Neem geen  `mboxCreate` deel aan scripts.**
 
-Omdat dit `mboxCreate` wordt gebruikt, wordt het niet aangeraden om deze `document.write``mboxCreate` in scripts op te nemen. Gebruik in plaats daarvan `mboxDefine` en `mboxUpdate` voor hetzelfde doel.
+Omdat `mboxCreate` `document.write` gebruikt, wordt het niet geadviseerd om `mboxCreate` in manuscripten op te nemen. Gebruik `mboxDefine` en `mboxUpdate` voor hetzelfde doel.
 
 **Werk een HTML-fragment niet bij met behulp van Target Standard als hiervoor JavaScript-code vereist is voor initialisatie.**
 
@@ -149,7 +149,7 @@ U kunt de tekst Winkelwagentje bijvoorbeeld niet als doel instellen in de VEC al
 
 In dit voorbeeld wordt het gehele ankerelement geselecteerd in de VEC. Dit heeft een negatief effect op andere elementen als het doel wordt uitgevoerd.
 
-**Gebruik geen `top` of `self` variabelen in JavaScript-code.**
+**Gebruik  `top` of  `self` variabelen niet in JavaScript-code.**
 
 Wanneer de Enhanced Experience Composer is ingeschakeld, worden de waarde van de bovenste en de zelfvariabelen bijgewerkt om iframe busting uit te schakelen. Gebruik een koptekst met X-frame opties om iframe busting toe te voegen in plaats van aangepaste JavaScript-codes.
 
@@ -182,7 +182,7 @@ Schakel de technieken voor het opbouwen van iframe op uw website uit en controle
 </html>
 ```
 
-## Caveats {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## Voorwerpen {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 Overweeg de volgende bedenkingen wanneer het gebruiken van de Visuele Composer van de Ervaring om uw activiteit te ontwerpen.
 
@@ -196,7 +196,7 @@ Als een element dat is gemarkeerd voor klikken bijhouden opnieuw wordt gerangsch
 
 Dit komt voor omdat zowel de code om de activiteiteninhoud te leveren als de code om kliks te volgen in één stuk van code inbegrepen is die aan de pagina wordt geleverd. Als u naar een andere pagina bladert en instelt klikt op bijhouden, worden de code voor de activiteiteninhoud en de code voor het bijhouden van klikken naar die pagina verzonden. Als de pagina voor het bijhouden van klikken een vergelijkbare paginastructuur heeft als de pagina waarop de test wordt uitgevoerd, wordt de testinhoud mogelijk ook weergegeven op de pagina voor het bijhouden van klikken.
 
-**Het invoegen van een element werkt mogelijk niet in een `<div>` mbox.**
+**Het invoegen van een element werkt mogelijk niet in een  `<div>` mabox.**
 
 Als een mbox een aanbieding bevat, kan het opnemen van een element als insertBefore en niet insertAfter verschijnen, als mbox verkeerd wordt uitgevoerd.
 
