@@ -2,9 +2,9 @@
 keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Problemen oplossen en Veelgestelde vragen over automatisch doel in Adobe Target.
 title: Automatische probleemoplossing en veelgestelde vragen
-feature: auto-target
+feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '1854'
 ht-degree: 0%
