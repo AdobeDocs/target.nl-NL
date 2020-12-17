@@ -4,15 +4,15 @@ description: Adobe "Analytics for Target" (A4T) is een integratie met meerdere o
 title: Adobe Analytics als bron van rapportage voor Adobe Target (A4T)
 feature: a4t general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Analytics als bron van rapportage voor Adobe Target (A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
+# Adobe Analytics als bron van rapportage voor Adobe Target (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van  [!DNL Analytics] conversiemetriek en publiekssegmenten. Met de integratie A4T kunt u [!DNL Analytics]-rapporten gebruiken om uw resultaten te bekijken. Als u [!DNL Analytics] als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op [!DNL Analytics] gegevensinzameling.
 
@@ -73,7 +73,8 @@ In de volgende tabel wordt aangegeven welke activiteitstypen [!DNL Analytics] al
 | AEM 6.1 (of vroeger) de Integratie van de Cloud Service | Nee |  |
 | AEM 6.2 (of later) de Integratie van de Cloud Service | Ja | Zie [Integreren met Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in de [!DNL Adobe Experience Manager] 6.2-documentatie voor meer informatie. |
 | Elke activiteit die een omleidingsaanbieding gebruikt | Ja | Er zijn strengere minimumeisen voor het gebruik van omleidingsaanbiedingen met A4T. Zie [Aanbiedingen omleiden - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) voor meer informatie. |
-| Node.JS | Ja |  |
+| Node.JS | Ja | Zie [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) in de handleiding *Adobe Target SDKs* voor meer informatie. |
+| Java SDK | Ja | Zie [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) in de handleiding *Adobe Target* SDK&#39;s voor meer informatie. |
 
 Omdat alle activiteitstypen A4T nog niet ondersteunen, wordt u aangeraden belangrijke conversievakken, zoals de mbox `orderConfirmPage`, te behouden of te implementeren.
 
