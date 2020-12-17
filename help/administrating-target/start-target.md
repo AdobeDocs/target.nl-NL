@@ -2,9 +2,9 @@
 keywords: Administration;approver role;approver
 description: Deze sectie bevat de eerste stappen die Adobe Target-beheerders moeten uitvoeren na ontvangst van de e-mailuitnodiging aan de Adobe Experience Cloud.
 title: Eerste stappen van beheerder
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
