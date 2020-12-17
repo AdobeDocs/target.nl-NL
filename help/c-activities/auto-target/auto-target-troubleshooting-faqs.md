@@ -4,9 +4,9 @@ description: Problemen oplossen en Veelgestelde vragen over automatisch doel in 
 title: Automatische probleemoplossing en veelgestelde vragen
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -143,3 +143,9 @@ Dit wordt verwacht.
 In een [!UICONTROL Auto-Target] activiteit, zodra een omzettingsmetrisch (of optimalisatiedoel of post doel) wordt omgezet, wordt de gebruiker vrijgegeven uit de ervaring en de activiteit wordt opnieuw begonnen.
 
 Bijvoorbeeld, is er een activiteit met metrisch (C1) en extra metrisch (A1). A1 is afhankelijk van C1. Wanneer een bezoeker de activiteit voor het eerst ingaat, en de criteria voor het omzetten A1 en C1 niet worden omgezet, wordt metrische A1 niet omgezet toe te schrijven aan het succes metrische gebiedsdeel. Als de bezoeker C1 omzet en dan A1 omzet, wordt A1 nog niet omgezet omdat zodra C1 wordt omgezet, de bezoeker wordt vrijgegeven.
+
+### Wat gebeurt er als ik één ervaring uit een auto-doelactiviteit verwijder?
+
+[!DNL Target] bouwt één model per ervaring, zodat het verwijderen van één ervaring slechts één minder model  [!DNL Target] zal bouwen, en geen modellen voor de andere ervaringen zal beïnvloeden.
+
+Stel dat u een [!UICONTROL Auto-Target]-activiteit hebt met acht ervaringen en dat u de prestaties van één ervaring niet leuk vindt. U kunt die ervaring verwijderen en het heeft geen invloed op de modellen voor de zeven resterende ervaringen.
