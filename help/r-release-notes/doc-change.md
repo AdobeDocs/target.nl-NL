@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3155'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 16 december | [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Wat gebeurt er als ik één ervaring uit een auto-doelactiviteit verwijder?&quot; |
 | 9 december | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nieuw onderwerp. |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende probleem is verplaatst van de sectie Bekende problemen naar de sectie Opgeloste problemen: &quot;Afbeeldingsaanbiedingen met het label &quot;Verwerking&quot;.&quot; |
 | 1 december | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Sluit de webinar-opname in voor &quot;Aanpassen en testen met nullatentie met apparaatbeslissingen van Adobe Target&quot;. |
