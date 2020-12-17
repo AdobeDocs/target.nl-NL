@@ -2,9 +2,9 @@
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 description: Auto-Target in Adobe Target maakt gebruik van geavanceerd leren van computers om te kiezen uit meerdere veeleisende markeervaringen om de inhoud en schijfconversies aan te passen. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen.
 title: Overzicht van automatisch doel
-feature: auto-target
+feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '1951'
 ht-degree: 0%
