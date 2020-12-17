@@ -4,7 +4,7 @@ description: Problemen oplossen en Veelgestelde vragen over automatisch doel in 
 title: Automatische probleemoplossing en veelgestelde vragen
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
 workflow-type: tm+mt
 source-wordcount: '1854'
 ht-degree: 0%
@@ -108,6 +108,12 @@ Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Au
 
 Het gebruik van de optie [!UICONTROL Reset Report Data] voor [!UICONTROL Auto-Target]-activiteiten wordt niet aanbevolen. Hoewel de zichtbare rapportgegevens worden verwijderd, verwijdert deze optie niet alle trainingsrecords uit het model [!UICONTROL Auto-Target]. In plaats van de optie [!UICONTROL Reset Report Data] te gebruiken voor [!UICONTROL Auto-Target]-activiteiten, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Opmerking: Deze leidraad is ook van toepassing op [!UICONTROL Auto-Allocate]- en [!UICONTROL Automated Personalization]-activiteiten.)
 
+### Wat gebeurt er als ik één ervaring uit een auto-doelactiviteit verwijder?
+
+[!DNL Target] bouwt één model per ervaring, zodat het verwijderen van één ervaring slechts één minder model  [!DNL Target] zal bouwen, en geen modellen voor de andere ervaringen zal beïnvloeden.
+
+Stel dat u een [!UICONTROL Auto-Target]-activiteit hebt met acht ervaringen en dat u de prestaties van één ervaring niet leuk vindt. U kunt die ervaring verwijderen en het heeft geen invloed op de modellen voor de zeven resterende ervaringen.
+
 ## Problemen oplossen [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
 
 Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u [!UICONTROL Auto-Target] gebruikt, en enkele voorgestelde oplossingen.
@@ -144,8 +150,3 @@ In een [!UICONTROL Auto-Target] activiteit, zodra een omzettingsmetrisch (of opt
 
 Bijvoorbeeld, is er een activiteit met metrisch (C1) en extra metrisch (A1). A1 is afhankelijk van C1. Wanneer een bezoeker de activiteit voor het eerst ingaat, en de criteria voor het omzetten A1 en C1 niet worden omgezet, wordt metrische A1 niet omgezet toe te schrijven aan het succes metrische gebiedsdeel. Als de bezoeker C1 omzet en dan A1 omzet, wordt A1 nog niet omgezet omdat zodra C1 wordt omgezet, de bezoeker wordt vrijgegeven.
 
-### Wat gebeurt er als ik één ervaring uit een auto-doelactiviteit verwijder?
-
-[!DNL Target] bouwt één model per ervaring, zodat het verwijderen van één ervaring slechts één minder model  [!DNL Target] zal bouwen, en geen modellen voor de andere ervaringen zal beïnvloeden.
-
-Stel dat u een [!UICONTROL Auto-Target]-activiteit hebt met acht ervaringen en dat u de prestaties van één ervaring niet leuk vindt. U kunt die ervaring verwijderen en het heeft geen invloed op de modellen voor de zeven resterende ervaringen.
