@@ -4,7 +4,7 @@ description: U kunt in Adobe Target een publiek maken op basis van netwerkgegeve
 title: Netwerkopties in Adobe Target-publiek
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
@@ -45,7 +45,7 @@ U kunt publiek tot stand brengen dat op netwerkdetails wordt gebaseerd.
       >
       >Wanneer het richten gebaseerd op ISP, gebruik de ISP naam, niet de populaire naam. Zorg ervoor dat u de regel maakt zodat deze niet hoofdlettergevoelig is of altijd de indeling in kleine letters gebruikt.
 
-      U kunt de waarden voor de ISP- en domeinnaam testen. [https://www.whoismyisp.](https://www.whoismyisp.org) orgis een goede bron voor doelgerichte doeleinden. U kunt de steekproefIP adressen gebruiken die in de lijst hierboven worden gegeven, of uw ingaan. Dan gebruik `themboxOverride.browserIp= URL` parameter om dat IP adres na te bootsen.
+      U kunt de waarden voor de ISP- en domeinnaam testen. [https://www.whoismyisp.](https://www.whoismyisp.org) orgis een goede bron voor doelgerichte doeleinden. U kunt de steekproefIP adressen gebruiken die in de lijst hierboven worden gegeven, of uw ingaan. Dan gebruik `mboxOverride.browserIp= URL` parameter om dat IP adres na te bootsen.
 
    * **Domeinnaam:** dit is de domeinnaam voor het IP-adres van de bezoeker. Dit is niet de domeinnaam van de website die u gebruikt met [!DNL Target]. Deze domeinnaam is gerelateerd aan het IP-adres van de bezoeker en wordt soms een hostnaam genoemd. Het is gewoonlijk zeer gelijkaardig aan de ISP naam. Soms verwijzingen hostname oudere namen van bedrijven die hun ISP naam maar niet de domeinnaam hebben herbrandd.
    * **Verbindingssnelheid:** dit is de snelheid waarmee de bezoeker verbinding maakt met internet. De volgende opties zijn beschikbaar: breedband, kabel, dialup, mobiel, oc3, oc12, satelliet, t1, t2, en radio, en xdsl.
