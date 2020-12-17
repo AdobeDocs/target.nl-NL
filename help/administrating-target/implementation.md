@@ -2,9 +2,9 @@
 keywords: implement;implementing
 description: Voordat u Adobe Target gaat gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen, vertrouwd zijn met de werking en integratie van Target en begrijpen hoe bezoekers worden bijgehouden door het Target-systeem.
 title: Doel implementeren
-feature: implementation general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
