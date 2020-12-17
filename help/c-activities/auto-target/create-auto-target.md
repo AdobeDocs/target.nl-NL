@@ -2,9 +2,9 @@
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
 description: Gebruik Composer van de Visuele Ervaring in Adobe Target om uw auto-Wijs A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
 title: Een automatisch doelactiviteit maken
-feature: ab
+feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
