@@ -2,9 +2,9 @@
 keywords: qa;preview;preview links;adobe target;target
 description: Gebruik Adobe Target QA URLs om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
 title: Activiteit QA
-feature: qa
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
