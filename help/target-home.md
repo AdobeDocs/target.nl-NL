@@ -5,7 +5,7 @@ description: Bekijk de homepage van de Gids van het Doel.
 seo-description: Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 17 december 2020 (  [zie wat veranderde](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 18 december 2020 (  [zie wat veranderde](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
