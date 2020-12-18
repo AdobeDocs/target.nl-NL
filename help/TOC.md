@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 0%
       + [Overzicht van de A/B-test](c-activities/t-test-ab/test-ab.md)
       + [Hoelang moet u een A/B test in werking stellen?](c-activities/t-test-ab/sample-size-determination.md)
       + [Tien gemeenschappelijke A/B-testvalkuilen en hoe deze te vermijden](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/A-tests](/help/c-activities/t-test-ab/aa-testing.md)
       + Een A/B-test maken {#create}
          + [Een A/B-test maken](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL van activiteit](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
