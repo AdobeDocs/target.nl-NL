@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '3178'
+source-wordcount: '3184'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 18 december | [A/A-tests](/help/c-activities/t-test-ab/aa-testing.md) | Nieuw onderwerp. |
 | 17 december | [Adobe Analytics als bron van rapportage voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Bijgewerkte tabel die aangeeft dat de Java SDK A4T ondersteunt. |
 | 16 december | [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Wat gebeurt er als ik één ervaring uit een auto-doelactiviteit verwijder?&quot; |
 | 9 december | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nieuw onderwerp. |
