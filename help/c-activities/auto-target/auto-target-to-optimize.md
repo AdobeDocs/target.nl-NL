@@ -4,9 +4,9 @@ description: Auto-Target in Adobe Target maakt gebruik van geavanceerd leren van
 title: Overzicht van automatisch doel
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ![Overzicht ](/help/assets/premium.png) van PREMIUMAuto-Target
 
-[!UICONTROL Auto-Target] maakt gebruik van geavanceerd leren van computers om uit meerdere veelzijdige, door markers gedefinieerde ervaringen te kiezen voor het aanpassen van inhoud en schijfconversies. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen.
+[!UICONTROL Auto-Target] De activiteiten in Adobe Target maken gebruik van geavanceerd computerleren en maken een keuze uit meerdere, hoogpresterende, door de markt gedefinieerde ervaringen om de inhoud en schijfconversies aan te passen. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen.
 
 >[!NOTE]
 >
