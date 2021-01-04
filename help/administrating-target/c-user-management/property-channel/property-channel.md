@@ -1,12 +1,12 @@
 ---
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-description: Informatie over het creëren van eigenschappen en het gebruiken van de eigenschappen en de functionaliteit van Toestemmingen die de beheerders van Adobe Target afzonderlijke werkruimten (productprofielen) in Doel laat creëren en dan gebruikers verschillende rollen en toestemmingen voor individuele pagina's, eigenschappen, of Websites toewijzen die op deze werkruimten worden gebaseerd.
+description: Maak eigenschappen en gebruik de functies Eigenschappen en Machtigingen waarmee Adobe Target-beheerders afzonderlijke werkruimten (productprofielen) in Target kunnen maken en wijs gebruikers vervolgens verschillende rollen en machtigingen toe voor afzonderlijke pagina's, eigenschappen of websites die op deze werkruimten zijn gebaseerd.
 title: Machtigingen voor Enterprise-gebruikers
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3028'
+source-wordcount: '3026'
 ht-degree: 0%
 
 ---
