@@ -2,20 +2,19 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Gebruik metriek in een Adobe Target-test met meerdere variaties om te bepalen wanneer een bezoek succesvol is.
 title: Metrisch instellen
-feature: mvt
-solution: Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
 
-# Metrisch instellen{#set-metrics}
+# Metriek instellen voor multivariatie testen
 
-Gebruik metriek in een Multivariate Test om te bepalen wanneer een bezoek succesvol is.
+Gebruik metriek in een Adobe Target-test met meerdere variaties om te bepalen wanneer een bezoek succesvol is.
 
 Voor gedetailleerde informatie over succesmetriek, zie [Succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
