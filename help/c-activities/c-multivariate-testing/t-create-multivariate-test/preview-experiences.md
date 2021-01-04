@@ -1,11 +1,12 @@
 ---
-description: Omdat bij een test met meerdere varianten meerdere ervaringen op een pagina worden vergeleken, is het nuttig om de pagina bij elke ervaring voor te vertonen.
+keywords: multivariate;mvt;preview;experiences
+description: Omdat bij een multivariate test in Adobe Target meerdere ervaringen op een pagina met elkaar worden vergeleken, is het handig om de pagina met elke ervaring voor te vertonen.
 title: Voorvertoning van ervaringen voor een multivariatietest in Adobe Target
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 # Voorvertoning voor een multivariatie-test{#preview-experiences-for-a-multivariate-test}
 
-Omdat bij een test met meerdere varianten meerdere ervaringen op een pagina worden vergeleken, is het nuttig om de pagina bij elke ervaring voor te vertonen.
+Omdat een [!UICONTROL Multivariate Test] in [!DNL Adobe Target] veelvoudige ervaringen op een pagina vergelijkt, is het nuttig om de pagina met elke ervaring voor te vertonen.
 
-1. Klik op **[!UICONTROL Preview]** in Experience Composer.
+1. Van Visual Experience Composer (VEC), klik **[!UICONTROL Preview]**.
 
    Er wordt een lijst met alle ervaringen weergegeven.
 
