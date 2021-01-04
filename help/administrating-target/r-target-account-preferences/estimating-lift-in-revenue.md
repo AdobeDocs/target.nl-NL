@@ -1,12 +1,12 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Target kan de inkomstenverhoging schatten u zou bereiken als alle gebruikers de het winnen ervaring bekijken.
+description: Gebruik Adobe Target om een schatting te maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken.
 title: Schatting van de inkomsten
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Schatting van de verhoging van inkomsten{#estimate-lift-in-revenue}
 
-Doel kan een schatting maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken.
+Gebruik [!DNL Adobe Target] om de inkomstenverhoging te schatten u zou bereiken als alle gebruikers de het winnen ervaring bekijken.
 
 >[!NOTE]
 >
->Geschatte lift is momenteel niet beschikbaar voor Experience Targeting (XT)-activiteiten.
+>Geschatte lift is momenteel niet beschikbaar voor [!UICONTROL Experience Targeting] (XT) activiteiten.
 
 De functie voor het schatten van de lift is standaard uitgeschakeld. U kunt deze functie inschakelen in uw accountvoorkeuren. Alleen gebruikers van Experience Cloud Admin kunnen deze functie in- of uitschakelen. Als geschatte lift is uitgeschakeld, worden de bijbehorende velden niet weergegeven in de interface. Als u de functie uitschakelt, gaan er geen gegevens verloren, inclusief de gegevens die voor uw ramingen worden gebruikt. De schattingen zijn gebaseerd op gegevens die worden verzameld, ongeacht of de functie is ingeschakeld.
 
