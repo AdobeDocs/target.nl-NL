@@ -4,7 +4,7 @@ description: Informatie die u helpt bij het gebruik van de Adobe Target QA-bladw
 title: Activity QA-bladwijzer voor Adobe Target
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Activity QA-bladwijzerlet{#activity-qa-bookmarklet}
+# Activity QA-bladwijzer
 
 Informatie om u te helpen [!DNL Target] QA bookmarklet gebruiken om [!DNL Target] te dwingen om u van wijze QA vrij te geven.
 
