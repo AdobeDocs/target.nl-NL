@@ -4,9 +4,9 @@ description: Organiseer uw sites en pre-productieomgevingen voor eenvoudig behee
 title: Gastheren
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Gastheren{#hosts}
 
-Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage.
+Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage in [!DNL Adobe Target].
 
 Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u rapportgegevens door [milieu](/help/administrating-target/environments.md) ook scheiden.
 
