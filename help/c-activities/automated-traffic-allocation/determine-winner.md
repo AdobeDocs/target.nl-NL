@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Interpreteer de resultaten van een automatisch toegewezen A/B-activiteit door belangrijke indicatoren, waaronder lift en vertrouwen, in de gebruikersinterface van Adobe Target te onderzoeken.
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+description: Interpreteer de resultaten van een A/B-activiteit in Adobe Target door belangrijke indicatoren te onderzoeken, waaronder lift en vertrouwen.
 title: Rapporten automatisch toewijzen interpreteren
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Automatisch toegewezen rapporten interpreteren {#determine-a-winner}
 
-Interpreeer de resultaten van een auto-Wijs A/B activiteit door belangrijke indicatoren, met inbegrip van lift en vertrouwen, in het Doel UI te onderzoeken.
+Interpreteer de resultaten van een [!UICONTROL Auto-Allocate] A/B activiteit in [!UICONTROL Adobe Target] door belangrijke indicatoren, met inbegrip van lift en vertrouwen te onderzoeken.
 
 Veel marketeers maken de fout om voortijdig een winnende ervaring te declareren voordat de resultaten de duidelijke winnaar aangeven. We hebben het nu gemakkelijker voor je gemaakt om de winnaar te bepalen.
 
