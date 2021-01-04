@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '3184'
+source-wordcount: '3210'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 4 januari 2021 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Veranderde datum wanneer Doel mbox.js van 18 januari 2021 tot 31 maart 2021 niet meer zal steunen. |
 | 18 december | [A/A-tests](/help/c-activities/t-test-ab/aa-testing.md) | Nieuw onderwerp. |
 | 17 december | [Adobe Analytics als bron van rapportage voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Bijgewerkte tabel die aangeeft dat de Java SDK A4T ondersteunt. |
 | 16 december | [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Wat gebeurt er als ik één ervaring uit een auto-doelactiviteit verwijder?&quot; |
@@ -93,7 +94,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 | --- | --- | --- |
 | 31 augustus | [Adobe Analytics gebruiken met Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Sectie Veelgestelde vragen toegevoegd. |
 | 28 augustus | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende is bijgewerkt:<ul><li>Toegevoegd aan de sectie Bekende problemen: &quot;Rapportering - Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebruikt.&quot;</li><li>Toegevoegd aan de sectie Opgeloste problemen: &quot;Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+.&quot;</li></ul> |
-|  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De datum waarop mbox.js is vervangen, is gewijzigd van 30 augustus 2020 in 18 januari 2021. |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De datum waarop mbox.js is vervangen, is gewijzigd van 30 augustus 2020 in 18 januari 2021. Dit is nu veranderd in 31 maart 2020. |
 | 26 augustus | [Adobe Analytics gebruiken met Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nieuw onderwerp. |
 | 24 augustus | [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Bijgewerkte sectie &quot;Geavanceerde instellingen&quot;. |
 | 21 augustus | [Overzicht van Adobe Target-welkomstkit](/help/c-intro/target-welcome-kit.md) | Nieuw artikel en nieuwe subonderwerpen. |
