@@ -4,9 +4,9 @@ description: Informatie over Adobe Target API's, waaronder de API's Admin, Deliv
 title: Overzicht Adobe Target API
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Overzicht Adobe Target API
 
-[!DNL Adobe Target] API&#39;s kunnen worden gegroepeerd op basis van het type.
+[!DNL Adobe Target] API&#39;s kunnen worden gegroepeerd op basis van het type: API&#39;s voor beheer, levering, rapportage en profiel.
 
 | API-type | Wat het u toelaat doen | Koppeling downloaden | Andere nuttige koppelingen |
 | --- | --- | --- |--- |
