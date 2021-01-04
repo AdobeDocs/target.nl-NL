@@ -4,17 +4,17 @@ description: Gebruik Adobe Target QA URLs met server-zijlevering om gemakkelijke
 title: Activiteit QA met levering aan de serverzijde gebruiken
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
-# Activiteit QA gebruiken met levering aan de serverzijde{#use-activity-qa-with-server-side-delivery}
+# Activiteit QA met levering aan de serverzijde gebruiken
 
-Gebruik QA URLs met server-zijlevering om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
+Gebruik QA URLs met server-zijlevering in [!DNL Adobe Target] om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
 
 De standaardimplementatie van Activiteit QA steunt het overgaan van `qa_mode` parameters via `pageUrl` parameters. Deze benadering is geschikt voor standaard/ajax [!DNL Target] vraag. Voor server-naar-server aanroepen is dit echter niet de beste aanpak voor een geval van Mobile SDK als `pageUrl` niet beschikbaar is.
 
