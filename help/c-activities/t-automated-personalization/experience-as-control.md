@@ -2,10 +2,10 @@
 keywords: experience;control;automated personalization;auto-target
 description: Selecteer een ervaring die u als besturingselement wilt gebruiken tijdens het maken van een Automated Personalization- (AP) of Auto-Target-activiteit in Adobe Target.
 title: Een specifieke ervaring gebruiken als controle in Adobe Target
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
