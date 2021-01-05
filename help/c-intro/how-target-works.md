@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: Adobe Target kan met websites worden geïntegreerd door middel van een van twee JavaScript-bibliotheken. at.js of mbox.js
 title: Hoe Adobe Target werkt
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2438'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,11 @@ Informatie over hoe Adobe Target werkt, inclusief informatie over de JavaScript-
 
 ## Doel JavaScript-bibliotheken {#libraries}
 
-Adobe Target integreert met websites via een van de volgende twee JavaScript-bibliotheken: at.js of mbox.js
+Adobe Target kan met behulp van JavaScript-bibliotheken met websites worden geïntegreerd:
 
 * **at.js:** De  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) bibliotheek is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. We raden u aan dat alle klanten de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) implementeren of naar deze nieuwste versie migreren.
-* **mbox.js:** De bibliotheek mbox.js is de oudere uitvoeringsbibliotheek voor Doel. De bibliotheek mbox.js wordt nog steeds ondersteund, maar er zijn geen functie-updates.
+* **Adobe Experience Platform Web SDK:** De  [Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK is een nieuwe cliënt-kant bibliotheek JavaScript die klanten van toestaat  [!DNL Adobe Experience Cloud] om met de diverse diensten in het  [!DNL Experience Cloud] door het Netwerk van de  [!DNL Adobe Experience Platform] Rand in wisselwerking te staan.
+* **mbox.js:** De  [mbox.js-](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) bibliotheek is de oudere implementatiebibliotheek voor Doel. De bibliotheek mbox.js wordt nog steeds ondersteund tot 31 maart 2021, maar er zijn geen functie-updates.
 
 >[!IMPORTANT]
 >
