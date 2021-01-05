@@ -1,21 +1,21 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
 description: Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen en met uitzondering van standaardinhoud in Adobe Target Automated Personalization (AP)-activiteiten.
 title: Uitsluitingen beheren
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
 
 
-# ![Premium-](/help/assets/premium.png) badgeUitsluitingen beheren{#manage-exclusions}
+# ![Premium-](/help/assets/premium.png) badgeUitsluitingen beheren
 
-Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen en met uitzondering van standaardinhoud in Automated Personalization-activiteiten (AP).
+Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen, en standaardinhoud in [!UICONTROL Automated Personalization] (AP)-activiteiten in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-activiteiten uitsluiten.
 
 ## Uitsluitingsgroepen {#task_AAAA6C7239A84F7696C8492F04B575A2} maken
 
