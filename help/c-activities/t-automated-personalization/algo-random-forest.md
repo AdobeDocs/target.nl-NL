@@ -1,10 +1,10 @@
 ---
-keywords: Targeting
+keywords: random forest;decision tree;ap;Automated Personalization
 description: Het belangrijkste verpersoonlijkingsalgoritme van het doel dat in zowel Automated Personalization als Auto-Doel wordt gebruikt is Willekeurig bos. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het Random Forest-algoritme in Automated Personalization is een classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen tijdens de training.
 title: Random Forest-algoritme
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMRandom Forest-algoritme{#random-forest-algorithm}
+# ![](/help/assets/premium.png) PREMIUMRandom Forest-algoritme
 
 Het belangrijkste verpersoonlijkingsalgoritme van het doel dat in zowel Automated Personalization als Auto-Doel wordt gebruikt is Willekeurig bos. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het Random Forest-algoritme in Automated Personalization is een classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen tijdens de training.
 
@@ -20,7 +20,7 @@ Als je aan statistieken denkt, kan één enkel regressiemodel dat wordt gebruikt
 
 Het Random Forest-algoritme is het belangrijkste onderliggende personalisatiealgoritme dat wordt gebruikt in Automated Personalization- en Auto-Target-activiteiten. Willekeurig bos combineert honderden beslissingsbomen om tot een betere voorspelling te komen dan één boom op zich zou kunnen maken.
 
-## Wat is een beslissingsstructuur? {#section_7F5865D8064447F4856FED426243FDAC}
+## Wat is een beslissingsboom? {#section_7F5865D8064447F4856FED426243FDAC}
 
 Het doel van een beslissingsboom is alle beschikbare bezoekgegevens te verdelen een systeem van kan leren en dan die gegevens groeperen, waar de bezoeken binnen elke groep zo gelijkaardig mogelijk aan elkaar met betrekking tot het doel metrisch zijn. Over de groepen heen zijn de bezoeken echter zo verschillend mogelijk wat betreft het meetdoel (bv. de omrekeningskoers). In de beslissingsstructuur wordt gekeken naar de verschillende variabelen in de trainingsreeks om te bepalen hoe de gegevens op een MECE-manier (wederzijds-exclusief-collectief-uitputtend) in deze groepen (of &quot;bladeren&quot;) moeten worden gesplitst om dit doel te bereiken.
 
@@ -43,11 +43,11 @@ Ons voorbeeld zou in de volgende boom resulteren:
 
 ![](assets/decsion_tree_2.png)
 
-## Hoe worden Besluit Trees gebruikt door Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
+## Hoe worden beslissingsbomen gebruikt door Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Beslissingsbomen kunnen een krachtig statistisch instrument zijn. Ze hebben echter enkele nadelen. Het meest kritiek, kunnen zij de gegevens &quot;overdreven-passen&quot;zodat een individuele boom slecht toekomstige gegevens voorspelt die niet werden gebruikt om de aanvankelijke boom te bouwen. Deze uitdaging wordt de [bias-variance handelsoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in statistisch leren genoemd. Willekeurige bossen helpen deze overijdelingsuitdaging te overwinnen. Op het hoogste niveau is een willekeurig bos een verzameling beslissingsbomen die iets anders worden gebouwd op dezelfde gegevensset die samen &quot;stemmen&quot; om een beter model te krijgen dan een individuele boom. De bomen worden aangelegd door willekeurig een deelverzameling bezoeken met vervangingen (zogenaamde bagging) te selecteren en door willekeurig een deelverzameling van de kenmerken te selecteren, zodat het bos uit iets verschillende beslissingsbomen bestaat. Deze methode introduceert kleine variaties in de bomen die in het Willekeurige Bos worden gecreeerd. Door deze gecontroleerde hoeveelheid variantie toe te voegen, verbetert u de voorspellende nauwkeurigheid van het algoritme.
 
-## Hoe gebruiken de Algoritmen van de Aanpassing van het Doel Willekeurig Bos? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Hoe gebruiken de personaliseringsalgoritmen van Target Willekeurig Bos? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Hoe modellen worden gebouwd**
 
@@ -78,7 +78,7 @@ De eigenschaptransformaties hangen van het type van attribuut af. Vooral zijn er
 
 Voor categoriale functies blijft een set van alle mogelijke functies behouden en wordt de waarschijnlijke transformatie gebruikt om de gegevensgrootte te reduceren. Voor numerieke functies zorgt het opnieuw schalen ervoor dat de functies over de hele linie vergelijkbaar zijn.
 
-**Een evenwicht vinden tussen leren en personaliseren met de Multi-Armed Bandit**
+**Het in evenwicht brengen van leren tegenover het personaliseren met de Multi-Armed Bandit**
 
 Nadat het Doel verpersoonlijkingsmodellen heeft die worden gebouwd om uw verkeer te personaliseren, is er een duidelijke compensatie u voor toekomstige bezoekers aan uw activiteit wordt geconfronteerd: moet u al verkeer personaliseren dat op het huidige model wordt gebaseerd of moet u van nieuwe bezoekers blijven leren door hen willekeurig aanbiedingen te dienen? U wilt ervoor zorgen het verpersoonlijkingsalgoritme altijd over nieuwe tendensen in uw bezoekers leert, terwijl het personaliseren van het grootste deel van het verkeer.
 
