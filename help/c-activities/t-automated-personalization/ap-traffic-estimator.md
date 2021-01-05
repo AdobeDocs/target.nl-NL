@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: De schatter van het Verkeer verstrekt terugkoppelen die u laat weten of u voldoende verkeer voor uw activiteit van Adobe Target hebt om te slagen.
 title: Schatting van het verkeer dat voor succes wordt vereist
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMEstimate het verkeer dat voor succes wordt vereist{#estimate-the-traffic-required-for-success}
+# ![](/help/assets/premium.png) PREMIUMEstimate het verkeer dat voor succes wordt vereist
 
 [!UICONTROL Traffic Estimator] verstrekt terugkoppelt die u laat weten of u voldoende verkeer voor uw [!DNL Adobe Target] activiteit hebt om te slagen.
 
