@@ -2,11 +2,11 @@
 keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
 description: Deze releaseopmerkingen bevatten informatie over functies, verbeteringen, oplossingen en bekende problemen voor elke release van Adobe Target Standard en Target Premium.
 title: 'Opmerkingen bij de release van Adobe Target (huidige) '
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 >[!IMPORTANT]
 >
->* **mbox.js end-of-life**: Op 31 maart 2021 biedt Adobe Target geen ondersteuning meer voor de bibliotheek mbox.js. Na 31 maart 2021, zullen alle vraag die van mbox.js wordt gemaakt zachtjes ontbreken en zullen uw pagina&#39;s beïnvloeden die de activiteiten van het Doel hebben die door standaardinhoud te dienen lopen. Wij adviseren dat alle klanten aan de meest recente versie van de bibliotheek at.js vóór deze datum migreren om het even welke potentiële kwesties met uw plaatsen te vermijden. Zie [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) en [Adobe Target Skill Builder voor meer informatie: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
-   >
-   >   
-   Hoewel mbox.js momenteel wordt ondersteund, hebben we sinds juli 2017 geen functie-updates voor deze bibliotheek beschikbaar gesteld. Het nieuwere bestand at.js biedt veel voordelen ten opzichte van mbox.js. Met at.js verbetert u onder andere de laadtijden van pagina&#39;s voor webimplementaties, verbetert u de beveiliging en biedt u betere implementatieopties voor toepassingen op één pagina.
-   >
-   >   
-   Door alle klanten naar at.js te verplaatsen, zullen onze ingenieurs en steunpersoneel u van nieuwe functionaliteit kunnen voorzien en de steun aanbieden u van Adobe bent gekomen te verwachten.
+>**mbox.js end-of-life**: Op 31 maart 2021  [!DNL Adobe Target] wordt de bibliotheek mbox.js niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd. We raden alle klanten aan vóór deze datum naar de meest recente versie van de bibliotheek at.js of de nieuwe [!DNL Adobe Experience Platform Web SDK] te migreren om mogelijke problemen met uw sites te voorkomen.
+>
+>* **at.js**: Als u verkiest om aan at.js te migreren, zie  [hoe de ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) Werknemers van At.js en de Bouwer van de Vaardigheid van  [Adobe Target: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >
-* **Doelaankondigingen**: Zie de de aankondigingspagina van het Doel voor informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van het Break van de Koffie van het Doel. Zie [Aankondigingen van het doel](/help/r-release-notes/target-announcements.md) voor meer informatie.
-
+* **Adobe Experience Platform Web SDK**: Als u verkiest om aan te migreren  [!DNL Adobe Experience Platform Web SDK], zie  [wat Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) is, in de Gids *van* Web SDK. Zie [Overzicht van doel](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) voor [!DNL Target]-specifieke informatie.
+>
+>
+Hoewel mbox.js momenteel wordt ondersteund (tot 31 maart 2021), hebben we sinds juli 2017 geen functie-updates voor deze bibliotheek beschikbaar gesteld. De nieuwere bibliotheek at.js biedt veel voordelen ten opzichte van mbox.js. Het bestand at.js verbetert onder andere de laadtijden van pagina&#39;s voor webimplementaties, verbetert de beveiliging en biedt betere implementatieopties voor toepassingen op één pagina. Met [!UICONTROL Adobe Experience Platform Web SDK] kunt u via het Adobe Experience Edge Network communiceren met de verschillende services in [!DNL Experience Cloud] (inclusief [!DNL Target]).
+>
+>Door alle klanten naar at.js of [!UICONTROL Adobe Experience Platform Web SDK] te verplaatsen, zullen onze technici en ondersteunend personeel u van nieuwe functionaliteit kunnen voorzien en de steun aanbieden u van Adobe bent gekomen te verwachten.
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
