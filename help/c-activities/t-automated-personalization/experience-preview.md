@@ -2,9 +2,9 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: U kunt voorvertonings-URL's genereren voor Target Automated Personalization-activiteiten, zodat u direct op uw site inhoud kunt zien voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL's en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
 title: Automated Personalization-activiteiten voorvertonen met voorbeeld-URL's
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUMP-](/help/assets/premium.png) revisie van Automated Personalization-activiteiten met voorbeeld-URL&#39;s{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUMP-](/help/assets/premium.png) revisie van Automated Personalization-activiteiten met voorbeeld-URL&#39;s
 
 U kunt voorvertonings-URL&#39;s genereren voor Target Automated Personalization-activiteiten, zodat u direct op uw site inhoud kunt zien voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL&#39;s en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
 
