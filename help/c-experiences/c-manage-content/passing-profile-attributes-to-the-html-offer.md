@@ -4,7 +4,7 @@ description: U kunt profielwaarden en activiteitgegevens rechtstreeks weergeven 
 title: Dynamische gegevens in aanbiedingen doorgeven
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Omdat gebruikersspecifieke voorkeuren, gedrag, status, enzovoort. kan in het pro
 
 De volgende waarden kunnen worden vervangen door een token:
 
-| Waarden | Voorbeelden |
+| Waarde | Voorbeelden |
 |--- |--- |
 | Profielparameters in de box | `${profile.age}` |
 | Scriptprofielparameters | `${user.lifetimeSpend}` |
@@ -57,7 +57,7 @@ Gebruik de syntaxis voor profielparameters die aan een box worden doorgegeven: `
 
 `${user.parameter}`
 
-Wanneer u dynamische kenmerken in een Recommendations-ontwerp gebruikt, moet u vóór het dollarteken (&#39;$&#39;) een backslash (&#39;\&#39;) invoegen om de dynamische waarde correct te laten renderen: `\${user.endpoint.lastViewedEntity}`
+Wanneer u dynamische kenmerken in een Recommendations-ontwerp gebruikt, moet u vóór het dollarteken ( $ ) een backslash ( \ ) invoegen om de dynamische waarde correct te laten renderen: `\${user.endpoint.lastViewedEntity}`
 
 Deze variabelen worden vervangen door de waarde aan de serverzijde, zodat er geen aanhalingstekens of andere JavaScript vereist zijn voor de juiste weergave.
 
