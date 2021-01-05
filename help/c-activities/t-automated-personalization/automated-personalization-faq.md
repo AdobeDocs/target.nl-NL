@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: Lijst met veelgestelde vragen (FAQ's) over Automated Personalization (AP).
 title: Veelgestelde vragen over Automated Personalization
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1943'
 ht-degree: 0%
 
 ---
 
 
-# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMAutomated Personalization{#automated-personalization-faq}
+# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMAutomated Personalization
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over Automated Personalization (AP).
 
@@ -53,7 +53,7 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 
 ## Veelgestelde vragen
 
-Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met activiteiten voor automatisch toewijzen:
+Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UICONTROL Automated Personalization]-activiteiten:
 
 ### Wat zijn enkele limieten in Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
 
