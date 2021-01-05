@@ -1,18 +1,18 @@
 ---
-keywords: Overview and Reference
+keywords: summary
 description: Het testoverzicht geeft een visueel overzicht van uw Adobe Target Multivariate Test.
 title: Samenvatting testen
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 
-# Samenvatting testen
+# Samenvatting van de test (Multivariate Tests)
 
 Het testoverzicht biedt een visueel overzicht van uw [!DNL Adobe Target] [!UICONTROL Multivariate Test].
 
