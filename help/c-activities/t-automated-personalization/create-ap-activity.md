@@ -1,40 +1,40 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
-description: De Automated Personalization-activiteitenworkflow verschilt van de workflow van de andere typen activiteiten.
+keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+description: De Automated Personalization-workflow voor activiteit in Adobe Target verschilt van de workflow van de andere typen activiteiten.
 title: Een Automated Personalization-activiteit maken
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1965'
 ht-degree: 0%
 
 ---
 
 
-# ![automated personalization-activiteit ](/help/assets/premium.png) PREMIUMCreproduceren{#create-an-automated-personalization-activity}
+# ![automated personalization-activiteit ](/help/assets/premium.png) PREMIUMCreproduceren
 
-De Automated Personalization-activiteitenworkflow verschilt van de workflow van de andere typen activiteiten.
+De [!UICONTROL Automated Personalization] (AP) activiteitenwerkstroom in [!DNL Adobe Target] varieert van het werkschema van de andere activiteitstypen.
 
-1. Klik in de lijst Standaardactiviteiten doel op **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
+1. Klik in de lijst [!DNL Target] [!UICONTROL Activities] op **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
 
    ![Activiteit maken: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Om Visual Experience Composer (VEC) te gebruiken, klik **[!UICONTROL Visual (Default)]**.
+1. Als u [!UICONTROL Visual Experience Composer] (VEC) wilt gebruiken, klikt u op **[!UICONTROL Visual (Default)]**.
 
    ![Automated Personalization-activiteit maken, dialoogvenster](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Selecteer [!UICONTROL Form] als u liever de Form-Based Experience Composer wilt gebruiken. Zie [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form] als u de [!UICONTROL Form-Based Experience Composer] liever wilt gebruiken. Zie [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
-   >Naast de VEC en Form-Based Experience Composer, biedt Target de Single Page Application VEC en de VEC voor Mobile Apps. Zie [Ervaringen en aanbiedingen](/help/c-experiences/experiences.md) voor meer informatie over de verschillende composers.
+   >Naast VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] [!UICONTROL Single Page Application VEC] en VEC voor Mobiele Apps aan. Zie [Ervaringen en aanbiedingen](/help/c-experiences/experiences.md) voor meer informatie over de verschillende composers.
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [Problemen oplossen Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
    >De [!UICONTROL Choose Workplace] optie in de voorafgaande illustratie is een [eigenschap van de Premium ](/help/c-intro/intro.md) van het Doel. Uw organisatie heeft een licentie voor Target Standard als deze optie niet wordt weergegeven.
 
-1. (Voorwaardelijk) Als u een klant van de Premium van het Doel bent, [kies een werkruimte](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) Als u een [!DNL Target] Premiumklant bent, [kies een werkruimte](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verifieer of ga de activiteit URL in, dan klik **[!UICONTROL Next]**.
 
@@ -44,7 +44,7 @@ De Automated Personalization-activiteitenworkflow verschilt van de workflow van 
 
    De pagina met gespecificeerde URL opent in de Visuele Composer van de Ervaring.
 
-1. Als u de activiteit een naam wilt geven, klikt u op het veld Naam en typt u de naam van de activiteit.
+1. Als u de activiteit een naam wilt geven, klikt u op het veld **[!UICONTROL Name]** en typt u de naam van de activiteit.
 
    ![Naamveld](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
