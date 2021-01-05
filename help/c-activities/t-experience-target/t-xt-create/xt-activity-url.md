@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: De Activiteit URL bepaalt de pagina die in de Ervaring wordt gebruikt richtend activiteit, en die in Adobe Target Visual Experience Composer (VEC) of op vorm-Gebaseerde Composer van de Ervaring opent wanneer de activiteit wordt ontworpen.
+keywords: Experience Targeting;xt;activity url;url
+description: De Activiteit URL bepaalt de pagina die in de Ervaring van Adobe Target die activiteit richt wordt gebruikt, en die in Visual Experience Composer (VEC) of op vorm-Gebaseerde Composer van de Ervaring opent wanneer de activiteit wordt ontworpen.
 title: URL van activiteit
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 
-# Activiteit-URL{#activity-url}
+# Activiteits-URL in Experience Targeting-activiteiten (XT)
 
-De Activiteit URL bepaalt de pagina die in de Ervaring het richten (XT) activiteit wordt gebruikt, en die in de Visuele Composer van de Ervaring (VEC) of op vorm-Gebaseerde Composer van de Ervaring opent wanneer de activiteit wordt ontworpen.
+De [!UICONTROL Activity URL] bepaalt de pagina die in [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activiteit wordt gebruikt, en die in [!UICONTROL Visual Experience Composer] (VEC) of [!UICONTROL Form-Based Experience Composer] opent wanneer de activiteit wordt ontworpen.
 
 1. Wanneer ertoe aangezet terwijl [het creëren van een XT activiteit](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create Activity]**.
 
