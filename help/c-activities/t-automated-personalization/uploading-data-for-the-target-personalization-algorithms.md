@@ -1,21 +1,22 @@
 ---
-description: Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen.
+keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+description: Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescores, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen in Adobe Target Automated Personalization (AP)-activiteiten.
 title: Gegevens uploaden voor de personalisatiealgoritmen van Target
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 
-# Gegevens uploaden voor de Target personalization-algoritmen{#upload-data-for-target-s-personalization-algorithms}
+# Gegevens uploaden voor de Target personalization-algoritmen
 
-Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen.
+Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-activiteiten.
 
-Er zijn verschillende manieren om gegevens in te voeren in Automated Personalization (AP) en Auto-Target verpersoonlijkingsalgoritmen. Naast de methodes in [Methoden om Gegevens in Doel ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) te krijgen, worden de Experience Cloud gedeelde publiek (Adobe Analytics, het Beheer van het Publiek) en het in-activiteit rapporteringspubliek ook gebruikt in onze algoritmen.
+Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] verpersoonlijkingsalgoritmen. Naast de methodes in [Methoden om Gegevens in Doel ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) te krijgen, worden de Experience Cloud gedeelde publiek (Adobe Analytics, het Beheer van het Publiek) en het in-activiteit rapporteringspubliek ook gebruikt in onze algoritmen.
 
 Zie [Automated Personalization Data Collection](/help/c-activities/t-automated-personalization/ap-data.md) voor informatie over de gegevens die automatisch worden verzameld en gebruikt door Automated Personalization- en Auto-Target-verpersoonlijkingsalgoritmen.
 
