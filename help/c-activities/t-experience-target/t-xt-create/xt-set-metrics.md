@@ -2,20 +2,19 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Gebruik metriek in een Adobe Target Experience Targeting (XT) activiteit om te bepalen wanneer een bezoek succesvol is.
 title: Metrisch instellen
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 
-# Metrisch instellen{#set-metrics}
+# Metriek instellen in Experience Targeting (XT)-activiteiten
 
-Gebruik metriek in een Experience Targeting (XT) activiteit om te bepalen wanneer een bezoek succesvol is.
+Gebruik metriek in een [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activiteit om te bepalen wanneer een bezoek succesvol is.
 
 Voor gedetailleerde informatie over succesmetriek, zie [Succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
