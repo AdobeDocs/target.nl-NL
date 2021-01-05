@@ -2,9 +2,9 @@
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: Multivariate Testing (MVT) in Adobe Target vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een bepaald publiek presteert, en identificeert welk element het meest van invloed is op het succes van de activiteit.
 title: Multivariatietest
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Houd rekening met de volgende tips wanneer u het werkblad voor offlineberekening
 
 Voor meer overwegingen en beste praktijken, zie [Multivariate Beste praktijken van de Test](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
-## Trainingsvideo&#39;s:
+## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
