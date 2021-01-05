@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: De betrokkenheidsmetrische gegevens voor de opnamescore berekenen een geaggregeerde score op basis van de waarde die is toegewezen aan pagina's die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste aanvraag voor het weergavedoel van de campagne ziet.
+description: De betrokkenheidsmetrische gegevens voor de opnamescore in Adobe Target berekenen een geaggregeerde score op basis van de waarde die is toegewezen aan pagina's die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste aanvraag voor het weergavedoel van de campagne ziet.
 title: Muziek vastleggen
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
 
-# Muziek vastleggen{#capture-score}
+# Muziek vastleggen
 
-De betrokkenheidsmetrische gegevens voor de opnamescore berekenen een geaggregeerde score op basis van de waarde die is toegewezen aan pagina&#39;s die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste weergave van de campagne [!DNL Target]-aanvraag ziet.
+De maatstaf voor de betrokkenheid van de opnamescore in [!DNL Adobe Target] berekent een geaggregeerde score op basis van de waarde die is toegewezen aan pagina&#39;s die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste weergave van de campagne [!DNL Target]-aanvraag ziet.
 
 In het volgende voorbeeld wordt getoond hoe de betrokkenheid van de score wordt berekend in een campagne die twee ervaringen test, één met een kattenbeeld en één met een hondenbeeld.
 
@@ -28,7 +28,7 @@ U kunt aanschafkosten en partnerverbindingsopbrengsten in aanmerking nemen door 
 
 ![](assets/example_score2.png)
 
-**Een paginascore toewijzen**
+## Een paginascore toewijzen
 
 U kunt een waarde toewijzen aan elke pagina op uw site op basis van wat de pagina voor u waard is. Een kooksite kan bijvoorbeeld advertenties voor meer geld op artikelpagina&#39;s met functies verkopen dan in de sectie over ervaring. De functieartikelen zijn dus waardevoller dan de sectie Experience. Met de paginascore kunt u een algemene &#39;waarde&#39; van een bezoek ontwikkelen, zodat de persoon die meer functieartikelen leest, meer &#39;punten&#39; krijgt dan iemand die gewoon door de ervaringen bladert.
 
