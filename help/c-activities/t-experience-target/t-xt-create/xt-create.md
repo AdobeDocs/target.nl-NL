@@ -1,9 +1,10 @@
 ---
+keywords: Experience Targeting;xt;create
 description: Gebruik Composer van de Visuele Ervaring om een Ervaring tot stand te brengen richtend (XT) activiteit op een doel-Toegelaten pagina en om gedeelten van de pagina binnen Adobe Target te wijzigen.
 title: Een belevenis maken die gericht is op activiteit
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
