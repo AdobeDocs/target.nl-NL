@@ -1,25 +1,25 @@
 ---
-keywords: Mobile Web Experience Editor
+keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
 description: Dit onderwerp bevat suggesties voor het oplossen van enkele problemen die kunnen optreden bij het ontwerpen van een MVT-test in Adobe Target.
 title: Multivariate Tests oplossen
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
 
 
-# Los Multivariate Tests{#troubleshoot-multivariate-tests} problemen op
+# Multivariate Tests oplossen
 
-Dit onderwerp bevat suggesties voor het oplossen van enkele problemen die kunnen optreden bij het ontwerpen van een MVT-test in Adobe Target.
+Dit onderwerp bevat suggesties om sommige kwesties op te lossen die wanneer het ontwerpen van een [!UICONTROL Multivariate] (MVT) test in [!DNL Adobe Target] zouden kunnen voorkomen.
 
-* Wanneer het uitgeven van een activiteit, als u op Analytics-Gebaseerde metriek gebruikte en de rapportreeks niet laadt (spinner vertoningen), schakelaar de metriek aan de metriek van het Doel en dan opnieuw aan Analytics-Gebaseerde metrisch schakelt. De rapportsuite moet nu worden geladen.
+* Wanneer het uitgeven van een activiteit, als u [!DNL Analytics]-Gebaseerde metriek gebruikte en de rapportreeks niet laadt (spinner vertoningen), schakelaar de metriek aan [!DNL Target] metriek en dan opnieuw aan [!DNL Analytics]-Gebaseerde metrisch schakelt. De rapportsuite moet nu worden geladen.
 * Als u wijzigingen aanbrengt in een test die al wordt uitgevoerd, kunt u de test en de bijbehorende gegevens opnieuw instellen.
 
-   Met Doel kunt u een actieve activiteit bewerken. Houd er rekening mee dat bij het bewerken van een actieve activiteit de test opnieuw kan worden ingesteld, zodat in rapporten sommige wijzigingen mogelijk niet worden herkend.
+   [!DNL Target] Hiermee kunt u een actieve activiteit bewerken. Houd er rekening mee dat bij het bewerken van een actieve activiteit de test opnieuw kan worden ingesteld, zodat in rapporten sommige wijzigingen mogelijk niet worden herkend.
 
    Het is veilig om kleine wijzigingen aan te brengen, zoals het bewerken van bestaande tekst of HTML-aanbiedingen.
 
