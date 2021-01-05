@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;offers
+keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: In een Automated Personalization-activiteit kunt u aanbiedingen richten op specifieke doelgroepen.
-title: Automated Personalization-doelaanbiedingen
-feature: ap
+title: Automated Personalization-aanbiedingen voor Target in Adobe Target
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # ![automated personalization-aanbiedingen voor ](/help/assets/premium.png) PREMIUMTarget{#target-automated-personalization-offers}
 
-In een Automated Personalization-activiteit (AP) kunt u aanbiedingen richten op specifieke doelgroepen.
+In een [!DNL Adobe Target] [!DNL Automated Personalization] (AP) activiteit, kunt u aanbiedingen aan specifiek publiek richten.
 
 Als u deze functie gebruikt, verkleint u het aantal aanbiedingen dat een specifieke bezoeker kan zien. Neem bijvoorbeeld een AP-activiteit met drie aanbiedingen. Aanbieding 1 heeft een richtingsregel die zijn blootstelling aan Publiek A beperkt. Twee bezoekers zagen deze AP-activiteit.
 
