@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel.
+description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van Adobe Target, ontwikkelaarchats, webinars, en de zittingen van het Break van de Koffie van het Doel.
 title: Doelaankondigingen
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aankondigingen en gebeurtenissen van het doel
 
-Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van het Doel, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel.
+Mededelingen en informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van Adobe Target, ontwikkelaarchats, webinars, en de zittingen van de Break van de Koffie van het Doel.
 
 ## Herkenning voor Adobe Target
 
