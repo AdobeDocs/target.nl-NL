@@ -4,9 +4,9 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,21 @@ Lees hier over op het [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-na
 Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid.
 
 [Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webinar: Aanpassing op schaal: Belangrijke bevindingen van de Forrester Wave, de Platforms van de Optimalisering van de Ervaring
+
+* **Dinsdag 19 januari**
+* **08:00 PT | 10.00 uur CT | 11.00 uur ET**
+* **Duur: 60 minuten**
+* **[Hier registreren](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+
+De mogelijkheid om de klantervaringen op schaal te optimaliseren is nu van essentieel belang voor het voldoen aan de dynamische behoeften van klanten en de huidige toename van nieuwe digitale bezoekers. Een ervaringoptimalisatieplatform, zoals [!DNL Adobe Target], kan over uw digitale eigenschappen worden opgesteld om snel de juiste ervaring voor uw klanten op het juiste ogenblik te bepalen en te leveren, leveraging handboek en AI-aangedreven gedraggericht, het testen, en aanbevelingen mogelijkheden. Doe mee met ons en onze speciale gast James McCormick, hoofdanalist bij Forrester, terwijl we de belangrijkste bevindingen presenteren en bespreken van The Forrester Wave, Experience Optimization Platforms, 4e kwartaal 2020.
+
+In dit webinar leert u:
+
+* Industrietrends die de evolutie van personalisatie en ervaring optimaliseringshulpmiddelen bepalen
+* Belangrijke mogelijkheden van een toonaangevend platform voor optimalisatie van de ervaring
+* Beste werkwijzen voor het optimaliseren van de ervaringen van klanten op schaal voor maximaal bedrijfseffect
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
