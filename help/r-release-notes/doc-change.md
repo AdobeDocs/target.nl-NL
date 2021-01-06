@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '3210'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 4 januari 2021 | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Veranderde datum wanneer Doel mbox.js van 18 januari 2021 tot 31 maart 2021 niet meer zal steunen. |
+| 6 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie en registratiegegevens voor de volgende levende webinar:<ul><li>Aanpassing op schaal: Belangrijke bevindingen van de Forrester Wave, de Platforms van de Optimalisering van de Ervaring.</li></ul> |
+| 4 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Veranderde datum wanneer Doel mbox.js van 18 januari 2021 tot 31 maart 2021 niet meer zal steunen. |
 | 18 december | [A/A-tests](/help/c-activities/t-test-ab/aa-testing.md) | Nieuw onderwerp. |
 | 17 december | [Adobe Analytics als bron van rapportage voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Bijgewerkte tabel die aangeeft dat de Java SDK A4T ondersteunt. |
 | 16 december | [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Wat gebeurt er als ik één ervaring uit een auto-doelactiviteit verwijder?&quot; |
