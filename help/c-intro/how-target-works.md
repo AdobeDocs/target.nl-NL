@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
-description: Adobe Target kan met websites worden geïntegreerd door middel van een van twee JavaScript-bibliotheken. at.js of mbox.js
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+description: Informatie over hoe Adobe Target werkt, inclusief informatie over de SDK van het Web Adobe Experience Platform, de JavaScript-doelbibliotheken (at.js en mbox.js) en de verschillende typen activiteiten die u kunt maken in Target.
 title: Hoe Adobe Target werkt
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2530'
 ht-degree: 1%
 
 ---
@@ -14,25 +14,30 @@ ht-degree: 1%
 
 # Hoe Adobe Target werkt
 
-Informatie over hoe Adobe Target werkt, inclusief informatie over de JavaScript-doelbibliotheken (at.js en mbox.js) en de verschillende activiteitstypen die in Target zijn opgenomen.
+Informatie over hoe [!DNL Adobe Target] werkt, met inbegrip van informatie over [!DNL Adobe Experience Platform Web SDK], de [!DNL Target] bibliotheken JavaScript (at.js en mbox.js), en de diverse activiteitstypes u tot stand kunt brengen gebruikend Doel.
 
-## Doel JavaScript-bibliotheken {#libraries}
+## SDK&#39;s en JavaScript-bibliotheken voor Web-Platforms {#libraries}
 
-Adobe Target kan met behulp van JavaScript-bibliotheken met websites worden geïntegreerd:
+Adobe Target integreert met websites met behulp van de [!DNL AEP Web SDK]- of JavaScript-bibliotheken:
 
+* **Adobe Experience Platform Web SDK:** De  [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK is een nieuwe cliënt-kant bibliotheek JavaScript die klanten van toestaat  [!DNL Adobe Experience Cloud] om met de diverse diensten in de  [!DNL Experience Cloud] (met inbegrip van  [!DNL Target]) door het Netwerk van de  [!DNL Adobe Experience Platform] Rand in wisselwerking te staan. Zie [Overzicht van doel](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) voor [!DNL Target]-specifieke informatie.
 * **at.js:** De  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) bibliotheek is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. We raden u aan dat alle klanten de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) implementeren of naar deze nieuwste versie migreren.
-* **Adobe Experience Platform Web SDK:** De  [Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK is een nieuwe cliënt-kant bibliotheek JavaScript die klanten van toestaat  [!DNL Adobe Experience Cloud] om met de diverse diensten in het  [!DNL Experience Cloud] door het Netwerk van de  [!DNL Adobe Experience Platform] Rand in wisselwerking te staan.
-* **mbox.js:** De  [mbox.js-](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) bibliotheek is de oudere implementatiebibliotheek voor Doel. De bibliotheek mbox.js wordt nog steeds ondersteund tot 31 maart 2021, maar er zijn geen functie-updates.
+* **mbox.js:** De  [mbox.js-](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) bibliotheek is de oudere implementatiebibliotheek voor Doel. De bibliotheek mbox.js wordt ondersteund tot 31 maart 2021, maar er zijn geen functie-updates.
 
 >[!IMPORTANT]
 >
->Alle klanten moeten naar om.js migreren. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie
+>Alle klanten moeten naar [!DNL AEP Web SDK] of naar de recentste versie van at.js migreren. Zie [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) of [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
 
-U moet op elke pagina op uw site verwijzen naar het JavaScript-bibliotheekbestand Doel. U kunt het bijvoorbeeld toevoegen aan de algemene koptekst. U kunt ook overwegen om [Adobe Launch-tagbeheer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) te gebruiken
+U moet op elke pagina op uw site naar [!DNL AEP Web SDK] of at.js verwijzen. U kunt bijvoorbeeld een van deze elementen toevoegen aan de algemene koptekst. U kunt ook [Adobe Platform starten](https://experienceleague.adobe.com/docs/launch/using/overview.html) gebruiken.
 
-Telkens wanneer een bezoeker een pagina aanvraagt die voor Doel is geoptimaliseerd, wordt een verzoek verzonden naar het doelsysteem om te bepalen welke inhoud aan een bezoeker moet dienen. Dit proces vindt in real time plaats — telkens wanneer een pagina wordt geladen, wordt een verzoek om de inhoud gemaakt en vervuld door het systeem. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. De inhoud wordt gediend dat elke bezoeker van de plaats zeer waarschijnlijk zal antwoorden aan, met, en uiteindelijk kopen, om reactiesnelheden, aanschaftarieven, en opbrengst te maximaliseren.
+De volgende bronnen helpen u bij het implementeren van de AEP Web SDK of at.js:
 
-In Doel maakt elk element op de pagina deel uit van één ervaring voor de gehele pagina. Elke ervaring kan meerdere elementen op de pagina bevatten.
+* [Adobe Experience Platform Web SDK-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
+* [Doel implementeren met Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+
+Telkens wanneer een bezoeker een pagina aanvraagt die voor [!DNL Target] is geoptimaliseerd, wordt een verzoek verzonden naar het doelsysteem om te bepalen welke inhoud aan een bezoeker moet dienen. Dit proces vindt in real time plaats, telkens als een pagina wordt geladen, een verzoek voor de inhoud wordt gemaakt en door het systeem vervuld. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. De inhoud wordt gediend dat elke bezoeker van de plaats zeer waarschijnlijk zal antwoorden aan, met, en uiteindelijk kopen, om reactiesnelheden, aanschaftarieven, en opbrengst te maximaliseren.
+
+In [!DNL Target] maakt elk element op de pagina deel uit van één enkele ervaring voor de gehele pagina. Elke ervaring kan meerdere elementen op de pagina bevatten.
 
 De inhoud die aan bezoekers wordt weergegeven, is afhankelijk van het type activiteit dat u maakt:
 
