@@ -1,20 +1,20 @@
 ---
 keywords: multi-page;journey testing;multipage activity
-description: Met een activiteit van meerdere pagina's kunt u een artikel op meerdere pagina's maken, met een ontwerp dat specifiek is voor elke pagina.
+description: Met een activiteit van meerdere pagina's in Adobe Target kunt u een artikel op meerdere pagina's maken, met een ontwerp dat specifiek is voor elke pagina.
 title: Meerdere pagina's
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 
-# Meerdere pagina-activiteit{#multipage-activity}
+# Meerdere pagina&#39;s
 
-Met een activiteit van meerdere pagina&#39;s kunt u een artikel op meerdere pagina&#39;s maken, met een ontwerp dat specifiek is voor elke pagina.
+Met een activiteit van meerdere pagina&#39;s in [!DNL Adobe Target] kunt u een artikel op meerdere pagina&#39;s maken, met een ontwerp dat specifiek is voor elke pagina.
 
 Je kunt bijvoorbeeld een voorstel voor gratis verzending testen met aankopen boven een bepaald bedrag. Mogelijk wilt u dat dit aanbod wordt weergegeven op uw openingspagina, een categoriepagina en bepaalde productpagina&#39;s, maar u wilt dat het een ander formaat heeft en zich op elk paginatype bevindt. Je kunt een opvallend voorstel op je homepage weergeven en dat aanbod vervolgens versterken met kleinere aanbiedingen op andere relevante pagina&#39;s.
 
