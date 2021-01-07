@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: Het veranderingslogboek verstrekt een verslag van wie uw activiteiten veranderde en wanneer de veranderingen voorkwamen.
 title: Aanmelden voor gewijzigde activiteit in Adobe Target
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 
-# Logbestand voor wijziging van de activiteit{#activity-change-log}
+# Logboek voor wijziging van de activiteit
 
-Het veranderingslogboek verstrekt een verslag van wie uw activiteiten veranderde en wanneer de veranderingen voorkwamen.
+Het veranderingslogin [!DNL Adobe Target] verstrekt een verslag van wie uw activiteiten veranderde en wanneer de veranderingen voorkwamen.
 
 1. Open de activiteit en klik vervolgens op **[!UICONTROL Change Log]**.
 
