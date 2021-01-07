@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: Met mobiele viewports kunt u een voorvertoning weergeven van uw Adobe Target-activiteiten op verschillende schermgrootten.
 title: Mobiele Viewers voor responsieve ervaringen
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Mobiele Viewers voor responsieve ervaringen{#mobile-viewports-for-responsive-experiences}
+# Mobiele Viewers voor responsieve ervaringen
 
-Met mobiele viewports kunt u een voorvertoning weergeven van uw [!DNL Target]-activiteiten op schermen van verschillende formaten.
+Met mobiele viewports kunt u een voorvertoning weergeven van uw [!DNL Adobe Target]-activiteiten op schermen van verschillende formaten.
 
 De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sites die goed worden weergegeven op verschillende apparaten, vensters of schermgrootten. Responsieve sites worden automatisch aangepast en aangepast aan elke schermgrootte, zoals desktops, laptops, tablets of mobiele telefoons.
 
