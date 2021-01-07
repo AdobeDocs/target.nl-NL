@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: Op de pagina Doelstellingen en instellingen geeft u informatie op over de doelen van de test.
+description: Op de pagina Doelstellingen en instellingen in Adobe Target voert u informatie in over de doelen van de test.
 title: Doelstellingen en instellingen
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 
-# Doelstellingen en instellingen {#goals-and-settings}
+# Doelstellingen en instellingen
 
-Op de pagina Doelstellingen en instellingen geeft u informatie op over de doelen van de test.
+Op de pagina Doelstellingen en instellingen in [!DNL Adobe Target] voert u informatie in over de doelstellingen van de test.
 
 De beschikbare instellingen zijn afhankelijk van het feit of u Doel of [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) als gegevensbron gebruikt.
 
