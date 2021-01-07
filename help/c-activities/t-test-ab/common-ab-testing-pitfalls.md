@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: A/B-tests vormen de ruggengraat van de meeste optimalisatieprogramma's voor digitale marketing en helpen marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit gedeelte worden negen van de belangrijkste valkuilen beschreven waar bedrijven op stuiten wanneer zij A/B-tests uitvoeren in Adobe Target. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
+description: A/B-tests in Adobe Target vormen de ruggengraat van de meeste optimalisatieprogramma's voor digitale marketing en helpen marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit gedeelte worden negen van de belangrijkste valkuilen beschreven waar bedrijven op stuiten wanneer zij A/B-tests uitvoeren in Adobe Target. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
 title: Negen gangbare A/B-testvalkuilen en hoe deze te vermijden
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
 
 
-# Tien gemeenschappelijke A/B testvalkuilen en hoe te om hen te vermijden{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Tien gemeenschappelijke A/B-testvalkuilen en hoe deze te vermijden
 
-A/B-tests vormen de ruggengraat van de meeste optimalisatieprogramma&#39;s voor digitale marketing en helpen marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit deel worden tien van de belangrijkste valkuilen beschreven waar bedrijven bij het uitvoeren van A/B-tests op stuiten. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
+A/B-tests in [!DNL Adobe Target] vormen de ruggengraat van de meeste optimalisatieprogramma&#39;s voor digitale marketing, waardoor marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen kunnen bieden. In dit deel worden tien van de belangrijkste valkuilen beschreven waar bedrijven bij het uitvoeren van A/B-tests op stuiten. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
 
 ## Pitfall 1: De effecten van het significantieniveau {#section_55F5577A13C6470BA1417C2B735C6B1D} negeren
 
