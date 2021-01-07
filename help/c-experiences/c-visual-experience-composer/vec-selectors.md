@@ -2,9 +2,9 @@
 keywords: Experience Targeting;Landing Page Test
 description: Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd.
 title: Elementkiezers die worden gebruikt in de composer voor visuele ervaring
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Elementkiezers gebruikt in de composer voor visuele ervaring{#element-selectors-used-in-the-visual-experience-composer}
+# Elementkiezers die worden gebruikt in de composer voor visuele ervaring
 
 Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd.
 
