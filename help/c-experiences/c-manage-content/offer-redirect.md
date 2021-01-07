@@ -2,19 +2,19 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Informatie over omleidingsvoorstellen in Adobe Target die ervoor zorgen dat een browser omleidt naar een nieuwe pagina.
 title: Omleidingsvoorstellen maken
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '556'
 ht-degree: 1%
 
 ---
 
 
-# Omleidingsaanbiedingen maken{#create-redirect-offers}
+# Omleidingsvoorstellen maken
 
-De omleidingsaanbieding leidt een browser om naar een nieuwe pagina.
+Met Omleiding van voorstellen in Adobe Target leidt een browser om naar een nieuwe pagina.
 
 U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats van alleen maar stukken inhoud binnen een pagina te wijzigen. In dit geval vergelijkt uw A/B-test pagina A met pagina B. Stel een A/B-testcampagne in met twee ervaringen: één die aan standaardpagina A richt, en andere die aan pagina B wordt opnieuw gericht. De aanbieding is geconfigureerd om de bezoeker om te leiden naar een andere pagina.
 
