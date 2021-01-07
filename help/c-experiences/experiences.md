@@ -1,20 +1,20 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
-description: Een ervaring bepaalt welke inhoud wordt weergegeven wanneer de bezoeker voldoet aan de publiekscriteria voor een activiteit.
+description: Een ervaring in Adobe Target bepaalt welke inhoud wordt weergegeven wanneer de bezoeker voldoet aan de publiekscriteria voor een activiteit.
 title: Ervaringen en aanbiedingen
-feature: experiences
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
 
-# Ervaringen en aanbiedingen{#experiences-and-offers}
+# Ervaringen en aanbiedingen
 
-Een ervaring bepaalt welke inhoud wordt weergegeven wanneer de bezoeker voldoet aan de publiekscriteria voor een activiteit.
+Een ervaring in [!DNL Adobe Target] bepaalt welke inhoud wordt weergegeven wanneer de bezoeker voldoet aan de publiekscriteria voor een activiteit.
 
 Een ervaring kan een aanbieding, beeld, tekst, knoop, video, combinatie deze diverse elementen op een pagina, een volledige Web-pagina, of een reeks pagina&#39;s zijn die misschien een aanschaftrechter of een andere logische opeenvolging van pagina&#39;s vormen. Het kan ook de reactie van een stemmedewerker, een manuscript van de klantendienst, of zelfs een gepersonaliseerd aroma van een drankenmachine zijn. U test of personaliseert ervaringen in [!DNL Target] activiteiten.
 
