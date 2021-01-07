@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Enhanced Experience Composer (EEC).
+description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Adobe Target Enhanced Experience Composer (EEC).
 title: Problemen met de Enhanced Experience Composer oplossen
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 
-# Problemen oplossen met betrekking tot de Enhanced Experience Composer{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# Problemen met de Enhanced Experience Composer oplossen
 
-Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Enhanced Experience Composer (EEC).
+Weergaveproblemen treden soms op in [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) onder bepaalde omstandigheden.
 
 ## De EEC laadt geen interne QA URL die niet toegankelijk is op openbare IP. (alleen EEG) {#section_D29E96911D5C401889B5EACE267F13CF}
 
