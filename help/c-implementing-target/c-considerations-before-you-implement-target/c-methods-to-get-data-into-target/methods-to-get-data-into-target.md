@@ -1,10 +1,10 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: Informatie over de verschillende methoden die u kunt gebruiken om gegevens op te halen uit Target, zoals paginaparameters, paginageprofielkenmerken, kenmerken van scriptprofielen, gegevensproviders, de API voor bulkprofielupdate, de single-profile-update-API en klantkenmerken.
+description: Informatie over de verschillende methoden die u kunt gebruiken om gegevens in Adobe Target op te halen, zoals paginaparameters, paginapagroonprofielkenmerken, scriptprofielkenmerken, gegevensproviders, de API voor het bulkprofielbijwerken, de single-profile-update en klantkenmerken.
 title: Methoden om gegevens op te halen in Doel
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Methoden om gegevens op te halen in Doel{#methods-to-get-data-into-target}
+# Methoden om gegevens op te halen in Doel
 
-Informatie over de verschillende methoden die u kunt gebruiken om gegevens op te halen uit Target, zoals paginaparameters, paginageprofielkenmerken, scriptprofielkenmerken, gegevensproviders, de API voor het bijwerken van bulkprofielen, de single-profile-update-API en klantkenmerken.
+Informatie over de verschillende methoden die u kunt gebruiken om gegevens in [!DNL Adobe Target] op te halen, zoals paginaparameters, kenmerken van het paginaprofiel, kenmerken van het scriptprofiel, gegevensproviders, de API voor het bulkprofielbijwerken, de API voor één profielupdate en de kenmerken van de klant.
 
 ## Paginaparameters (ook wel &quot;mbox-parameters&quot; genoemd) {#section_5A297816173C4FE48DC4FE03860CB42B}
 
