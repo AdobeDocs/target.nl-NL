@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: De URL van de Activiteit bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test wordt ontworpen.
+description: De Activiteit URL bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test gebruikend Adobe Target wordt ontworpen.
 title: URL van activiteit
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 
-# Activiteit-URL{#activity-url}
+# URL van activiteit
 
-De URL van de Activiteit bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test wordt ontworpen.
+De Activiteit URL bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test gebruikend Adobe Target wordt ontworpen.
 
 Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het maken van activiteiten. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create]**.
 
