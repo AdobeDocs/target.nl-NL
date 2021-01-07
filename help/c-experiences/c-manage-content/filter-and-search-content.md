@@ -2,9 +2,9 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: Zoek naar activa door sleutelwoorden en sla onderzoeksomslagen, genoemd slimme inzamelingen op, die automatisch met onderzoeksresultaten worden bijgewerkt.
 title: Inhoud zoeken en slimme verzamelingen maken
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Inhoud zoeken en slimme verzamelingen maken{#search-content-and-create-smart-collections}
+# Inhoud zoeken en slimme verzamelingen maken
 
 Zoek naar activa door sleutelwoorden en sla onderzoeksomslagen, genoemd slimme inzamelingen op, die automatisch met onderzoeksresultaten worden bijgewerkt.
 
