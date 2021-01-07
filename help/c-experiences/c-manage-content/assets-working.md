@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Er zijn een aantal taken die u op een element in de bibliotheek kunt uitvoeren.
+description: Er zijn een aantal taken die u kunt uitvoeren op een element in de bibliotheek in Adobe Target.
 title: Werken met inhoud in de bibliotheek
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 
-# Werken met inhoud in de bibliotheek{#work-with-content-in-the-library}
+# Werken met inhoud in de bibliotheek
 
-Informatie over de taken die u kunt uitvoeren op een element in de inhoudsbibliotheek.
+Informatie over de taken die u kunt uitvoeren op een element in de inhoudsbibliotheek in [!DNL Adobe Target].
 
 1. Klik **[!UICONTROL Offer]**, selecteer **[!UICONTROL Code Offer]** of **[!UICONTROL Image Offer]** tabel, dan bepaal de plaats van de activa u met wilt werken.
 
