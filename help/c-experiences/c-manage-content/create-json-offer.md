@@ -1,12 +1,12 @@
 ---
 keywords: remote offer;create remote offer
-description: Maak JSON-aanbiedingen in de bibliotheek met aanbiedingen voor gebruik in de composer voor formuliergebaseerde ervaringen.
+description: Maak JSON-aanbiedingen in de Aanbiedingsbibliotheek in Adobe Target voor gebruik in de Form-Based Experience Composer.
 title: JSON-aanbiedingen maken
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # JSON-aanbiedingen maken{#create-json-offers}
 
-Maak JSON-aanbiedingen in de bibliotheek met aanbiedingen voor gebruik in de composer voor formuliergebaseerde ervaringen.
+Maak JSON-aanbiedingen in [!UICONTROL Offer Library] in [!DNL Adobe Target] voor gebruik in [!UICONTROL Form-Based Experience Composer].
 
 JSON-aanbiedingen kunnen worden gebruikt in op formulieren gebaseerde activiteiten waarbij het mogelijk is gevallen te gebruiken waarin de beslissing van Target vereist is om een aanbod in JSON-indeling te verzenden voor gebruik in SPA framework of serverintegratie.
 
