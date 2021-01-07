@@ -2,9 +2,9 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: De Adobe Target-toepassing en de levering van inhoud zijn getest voor een groot aantal browsers en apparaten.
 title: Ondersteunde browsers
-feature: reference general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Ondersteunde browsers{#supported-browsers}
+# Ondersteunde browsers
 
 De [!DNL Adobe Target]-toepassing en de levering van inhoud zijn getest voor een groot aantal browsers en apparaten.
 
