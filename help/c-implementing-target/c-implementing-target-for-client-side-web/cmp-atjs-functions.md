@@ -2,9 +2,9 @@
 keywords: at.js;functions;javascript library
 description: Lijst met functies die kunnen worden gebruikt met de JavaScript-bibliotheek at.js in Adobe Target.
 title: Adobe Target at.js-functies
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
