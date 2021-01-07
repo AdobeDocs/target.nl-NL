@@ -2,19 +2,19 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Met de activiteiten in Adobe Target kunt u inhoud aanpassen aan specifieke doelgroepen en pagina-ontwerpen testen
 title: Met de activiteiten in Adobe Target kunt u inhoud aanpassen aan specifieke doelgroepen en pagina-ontwerpen testen.
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
 
 
-# Activiteiten{#activities}
+# Activiteiten
 
-Met de activiteiten in Adobe Target kunt u inhoud aanpassen aan specifieke doelgroepen en pagina-ontwerpen testen.
+Met de activiteiten in [!DNL Adobe Target] kunt u inhoud aanpassen aan specifieke doelgroepen en paginaontwerpen testen.
 
 U kunt bijvoorbeeld een activiteit ontwerpen die twee verschillende landingspagina&#39;s test, een die informatie over dameszomerschoenen markeert, en een andere landingspagina die meer algemene zomerkleding markeert. De activiteit bepaalt de voorwaarden die controleren wanneer elk van deze landingspagina&#39;s verschijnt, en de metriek die bepalen welke pagina succesvoller is. De activiteit wordt gevormd om te beginnen en te beëindigen wanneer specifieke voorwaarden, zoals tussen specifieke data worden voldaan, of om te beginnen wanneer de activiteit wordt goedgekeurd en te beëindigen wanneer het wordt gedeactiveerd.
 
