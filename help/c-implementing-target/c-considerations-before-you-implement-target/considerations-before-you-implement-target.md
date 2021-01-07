@@ -2,19 +2,19 @@
 keywords: implement;implementing
 description: Overdenkingen die u moet bespreken voordat u Adobe Target implementeert.
 title: Voordat u implementeert
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 
-# Voordat u{#before-you-implement} implementeert
+# Voordat u implementeert
 
-Overdenkingen die u moet bespreken voordat u Adobe Target implementeert.
+Overwegingen die u moet behandelen voordat u [!DNL Adobe Target] implementeert.
 
 Deze sectie omvat informatie voor ontwikkelaars specifiek voor hun implementatie die zij moeten verzamelen, privacyoverwegingen, een bespreking over koekjes, een lijst van de diverse methodes die kunnen worden gebruikt om gegevens in Doel, veiligheidsoverwegingen, en informatie over (de Veiligheid van de Laag van het Vervoer) Encryptie van TLS te krijgen.
 
