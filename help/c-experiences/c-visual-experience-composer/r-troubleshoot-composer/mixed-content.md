@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Sommige browsers blokkeren de weergave van een pagina als beveiligde inhoud wordt gemengd met onveilige inhoud.
 title: Gemengde inhoud in uw browser inschakelen
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Gemengde inhoud in uw browser inschakelen{#enabling-mixed-content-in-your-browser}
+# Gemengde inhoud in uw browser inschakelen
 
 Gemengde inhoud komt voor als zowel (veilige) HTTPS *als* (onveilige) inhoud HTTP wordt geladen om de zelfde Web-pagina te tonen en het aanvankelijke verzoek veilig over HTTPS was.
 
