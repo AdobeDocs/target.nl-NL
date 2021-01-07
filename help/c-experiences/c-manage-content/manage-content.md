@@ -1,12 +1,12 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Gebruik de bibliotheek van Aanbiedingen om uw codeaanbieding en beeldaanbiedingsinhoud te beheren.
+description: Gebruik de bibliotheek met aanbiedingen in Adobe Target om uw codeaanbieding en inhoud van de afbeeldingsaanbieding te beheren.
 title: Aanbiedingen
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aanbiedingen{#offers}
 
-Gebruik de bibliotheek van Aanbiedingen om uw codeaanbieding en beeldaanbiedingsinhoud te beheren.
+Met de bibliotheek Aanbiedingen in [!DNL Adobe Target] kunt u uw codeaanbieding en inhoud van de afbeeldingsaanbieding beheren.
 
 >[!NOTE]
 >
