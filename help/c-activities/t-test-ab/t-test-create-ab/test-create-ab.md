@@ -2,9 +2,9 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
 description: Gebruik Composer van de Visuele Ervaring in Adobe Target om uw activiteit van de Test van A/B direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
 title: Een A/B-test maken
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
