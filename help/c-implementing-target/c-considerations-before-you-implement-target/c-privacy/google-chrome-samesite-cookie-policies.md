@@ -2,9 +2,9 @@
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Informatie over Adobe Target en de SameSite IETF-standaard die is geïntroduceerd met Google Chrome versie 80.
 title: Beleid van SameSite-cookies van Adobe Target en Google
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Hoewel cookies de gebruikerservaring en energiereclame verbeteren, kunnen ze ook
 
 ## Hoe gebruikt Target cookies?
 
-Met al deze elementen kunt u zien hoe cookies worden gebruikt. [!DNL Target] Als u [!DNL Target] in de eerste plaats wilt gebruiken, moet u de JavaScript-bibliotheek [!DNL Target] op uw site installeren. Hierdoor kunt u een cookie van de eerste partij plaatsen in de browser van de gebruiker die uw site bezoekt. Wanneer de gebruiker op uw website werkt, kunt u de gedrags- en interessegegevens van de gebruiker doorgeven aan [!DNL Target] via de JavaScript-bibliotheek. De JavaScript-bibliotheek [!DNL Target] gebruikt cookies van de eerste partij om identificatiegegevens over de gebruiker op te halen en toe te wijzen aan de gedragsgegevens en interessegegevens van de gebruiker. Deze gegevens worden vervolgens door [!DNL Target] gebruikt om uw personalisatieactiviteiten te stimuleren.
+Met al deze elementen kunt u zien hoe cookies worden gebruikt. [!DNL Target] Als u [!DNL Target] in de eerste plaats wilt gebruiken, moet u de JavaScript-bibliotheek [!DNL Target] op uw site installeren. Hierdoor kunt u een cookie van de eerste partij plaatsen in de browser van de gebruiker die uw site bezoekt. Wanneer de gebruiker op uw website werkt, kunt u de gedrags- en interessegegevens van de gebruiker doorgeven aan [!DNL Target] via de JavaScript-bibliotheek. De JavaScript-bibliotheek [!DNL Target] gebruikt cookies van de eerste partij om identificatiegegevens over de gebruiker te extraheren en toe te wijzen aan de gedragsgegevens en interessegegevens van de gebruiker. Deze gegevens worden vervolgens door [!DNL Target] gebruikt om uw personalisatieactiviteiten te stimuleren.
 
 Het doel gebruikt (soms) ook cookies van derden. Als u meerdere websites hebt die op verschillende domeinen wonen en u de gebruikersreis over die websites wilt bijhouden, kunt u cookies van derden gebruiken door interdomeintracering te gebruiken. Als u het bijhouden van bestanden tussen domeinen inschakelt in de JavaScript-bibliotheek [!DNL Target], wordt het gebruik van cookies van derden voor uw account gestart. Aangezien een gebruiker van één domein aan een ander hoopt, communiceert browser met de achterste deelserver van [!DNL Target], en in dit proces, wordt een derdekoekje gecreeerd en op browser van de gebruiker geplaatst. Met behulp van het cookie van derden dat zich in de browser van de gebruiker bevindt, kan [!DNL Target] een consistente ervaring op verschillende domeinen bieden voor één gebruiker.
 
