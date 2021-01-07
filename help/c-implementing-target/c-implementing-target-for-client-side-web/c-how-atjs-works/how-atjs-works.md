@@ -2,9 +2,9 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Het systeemdiagram van Adobe Target dat de stroom van vraag en informatie toont die voor een auto-gecreeerde globale mbox wordt verzonden of wordt verzameld gebruikend at.js.
 title: De werking van de JavaScript-bibliotheek Adobe Target at.js
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# Hoe werkt at.js{#how-at-js-works}
+# Hoe werkt at.js
 
 Als u [!DNL Adobe Target] client-kant wilt implementeren, moet u de JavaScript-bibliotheek at.js gebruiken.
 
