@@ -1,20 +1,20 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: Informatie over de verschillende manieren waarop u een bestaande activiteit kunt bewerken, inclusief het opslaan van een activiteit in een conceptformulier.
+description: Informatie over de verschillende manieren waarop u een bestaande activiteit in Adobe Target kunt bewerken, waaronder het opslaan van een activiteit in een conceptformulier.
 title: Een activiteit bewerken of opslaan als concept
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
 
 
-# Een activiteit bewerken of opslaan als concept{#edit-an-activity-or-save-as-draft}
+# Een activiteit bewerken of opslaan als concept
 
-Informatie over de verschillende manieren waarop u een bestaande activiteit kunt bewerken, inclusief het opslaan van een activiteit in een conceptformulier.
+Informatie over de verschillende manieren u een bestaande activiteit in [!DNL Adobe Target] kunt uitgeven, met inbegrip van het bewaren van een activiteit in ontwerp vorm.
 
 Het doel biedt verschillende plaatsen in de UI waar u bestaande activiteiten kunt bewerken. Het proces varieert afhankelijk van de methode die u kiest.
 
