@@ -1,21 +1,20 @@
 ---
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Gebruik metriek in A/B activiteit om te bepalen wanneer een bezoek succesvol is.
+description: Gebruik metriek in een Adobe Target A/B-activiteit om te bepalen wanneer een bezoek succesvol is.
 title: Metrisch instellen
-feature: ab
-solution: Target
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 
-# Metrisch instellen{#set-metrics}
+# Metrisch instellen
 
-Gebruik metriek in A/B activiteit om te bepalen wanneer een bezoek succesvol is.
+Gebruik metriek in een [!DNL Adobe Target] A/B activiteit om te bepalen wanneer een bezoek succesvol is.
 
 Voor gedetailleerde informatie over succesmetriek, zie [Succesmetriek](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
