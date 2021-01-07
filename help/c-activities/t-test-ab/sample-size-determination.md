@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: Een succesvolle A/B test vereist een adequaat aantal bezoekers (steekproefgrootte) om uw omzettingspercentage te verbeteren, maar hoe lang weet u hoe lang om een A/B test in werking te stellen? Dit artikel bevat informatie over activiteiten voor automatisch toewijzen en de Adobe Target-voorbeeldgroottecalculator om ervoor te zorgen dat uw activiteit voldoende bezoekers heeft om uw doelstellingen te bereiken.
+description: Een succesvolle A/B test in Adobe Target vereist een adequaat aantal bezoekers (steekproefgrootte) om uw omzettingspercentage te verbeteren, maar hoe lang weet u hoe lang om een A/B test te runnen? Dit artikel bevat informatie over activiteiten voor automatisch toewijzen en de Adobe Target-voorbeeldgroottecalculator om ervoor te zorgen dat uw activiteit voldoende bezoekers heeft om uw doelstellingen te bereiken.
 title: Hoe lang moet u een A/B-test uitvoeren?
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3081'
+source-wordcount: '3084'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,6 @@ Telkens wanneer u twee vergelijkt, is de kans om een fout-positief te krijgen (h
 
 ## Conclusie {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Door een [!UICONTROL Auto-Allocate] activiteit te gebruiken, identificeert [!DNL Target] een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren. [!UICONTROL Auto-Allocate] maakt het gemakkelijk om uw omzettingsdoelstellingen te bereiken terwijl het verwijderen van gokken-werk.
+Door een [!UICONTROL Auto-Allocate] activiteit te gebruiken, identificeert [!DNL Target] een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren. [!UICONTROL Auto-Allocate] maakt het gemakkelijk om uw omzettingsdoelstellingen te bereiken terwijl het verwijderen van het gokken-werk.
 
 Door de voorbeeldgroottecalculator (bovenstaande koppeling) te gebruiken die in dit artikel is geïntroduceerd en de test te laten uitvoeren voor de hoeveelheid tijd die door deze wordt voorgesteld, kunt u ervoor zorgen dat u altijd A/B-tests van hoge kwaliteit uitvoert die voldoen aan de fout-positieve en fout-negatieve waarden die u hebt bepaald, zijn geschikt voor de specifieke test. Dit zorgt ervoor dat uw tests verenigbaar zijn en de lift betrouwbaar kunnen ontdekken u zoekt.
