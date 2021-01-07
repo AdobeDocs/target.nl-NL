@@ -2,19 +2,19 @@
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Wanneer u op een paginaelement in Adobe Target Visual Experience Composer (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn.
 title: Opties voor Adobe Target Visual Experience Composer (VEC)
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
 
 
-# Opties voor Visual Experience Composer{#visual-experience-composer-options}
+# Opties voor composer visuele ervaring
 
-Wanneer u een paginaelement in de Visuele Composer van de Ervaring (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
+Wanneer u een paginaelement in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
 
 ## VEC-opties
 
