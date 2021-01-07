@@ -2,11 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Informatie over veranderingen in hoe Adobe en het Gebruik van het Doel TLS (de Veiligheid van de Laag van het Vervoer) om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
 title: De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # TLS (Transport Layer Security)-coderingswijzigingen{#tls-transport-layer-security-encryption-changes}
 
-Informatie over veranderingen in hoe Adobe en Adobe Target TLS (de Veiligheid van de Laag van het Vervoer) gebruiken om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
+Informatie over veranderingen in hoe [!DNL Adobe] en [!DNL Adobe Target] TLS (de Veiligheid van de Laag van het Vervoer) gebruiken om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
 
 De Veiligheid van de Laag van het vervoer (TLS) is het wijdst opgestelde veiligheidsprotocol dat vandaag voor Webbrowsers en andere toepassingen wordt gebruikt die gegevens vereisen om veilig over een netwerk worden geruild. Adobe beschikt over normen voor beveiligingscompatibiliteit die het einde van de levensduur van oudere protocollen vereisen en die het gebruik van TLS 1.2 verplicht stellen om de meest actuele en veilige versie in gebruik te hebben.
 
