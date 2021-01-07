@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: Dit onderwerp toont hoe te om een carrousel tot stand te brengen die in Visual Experience Composer (VEC) kan worden uitgegeven.
+description: Dit onderwerp toont hoe te om een carrousel tot stand te brengen die in Adobe Target Visual Experience Composer (VEC) kan worden uitgegeven.
 title: Het creëren van Carrousels die in de Composer van de Visuele Ervaring werken
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 
-# Het creëren van Carrousels die in de Composer van de Visuele Ervaring werken{#creating-carousels-that-work-in-the-visual-experience-composer}
+# Het creëren van Carrousels die in de Composer van de Visuele Ervaring werken
 
-Dit onderwerp toont hoe te om een carrousel tot stand te brengen die in Visual Experience Composer (VEC) kan worden uitgegeven.
+Dit onderwerp toont hoe te om een carrousel tot stand te brengen die in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) kan worden uitgegeven.
 
 Wanneer u de stappen hieronder gebruikt, [!DNL Target] weet altijd dat de geselecteerde dia &quot;selecteur&quot;voor de correcte dia zal hebben, zelfs als het in Visual Experience Composer na een paar seconden wordt veranderd.
 
