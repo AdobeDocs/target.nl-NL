@@ -2,19 +2,19 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
 title: Regels inzake privacy en gegevensbescherming
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
 
 
-# Regels voor privacy en gegevensbescherming {#privacy-and-general-data-protection-regulation-gdpr}
+# Regels inzake privacy en gegevensbescherming
 
-Informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+Informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en [!DNL Adobe Target].
 
 ## Overzicht van privacy en algemene gegevensbeschermingsverordening (GDPR) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
