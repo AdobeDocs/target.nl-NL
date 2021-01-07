@@ -1,12 +1,12 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: Met de Form-Based Experience Composer kunt u niet-visuele ervaringen creëren.
+description: De Adobe Target Form-Based Experience Composer biedt niet-visuele beleving.
 title: Formuliergebaseerde Experience Composer
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Form-Based Experience Composer{#form-based-experience-composer}
 
-De Form-Based Experience Composer is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in A/B Tests, Experience Targeting, Automated Personalization en Recommendations activiteiten als de visuele ervaringscomposer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in A/B-tests, Experience Targeting, Automated Personalization en Recommendations-activiteiten wanneer de visuele ervaringscomposer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten.
 
 Er zijn geen ervaringen als u een Recommendations-activiteit maakt. Kies uw criteria en ontwerp. Als u meerdere criteria of ontwerpen kiest, genereert Target automatisch de ervaringen.
 
