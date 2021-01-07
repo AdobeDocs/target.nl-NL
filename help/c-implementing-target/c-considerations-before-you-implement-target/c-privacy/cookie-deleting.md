@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: Verwijder de cookies van de doelbrowser zodat u al uw ervaringen kunt valideren.
 title: Het Adobe Target-cookie verwijderen
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Het doelcookie verwijderen{#delete-the-target-cookie}
+# Het doelcookie verwijderen
 
-U kunt uw [!DNL Target] browser koekje (mbox) schrappen zodat u al uw ervaringen tijdens het testen kunt bevestigen.
+U kunt uw [!DNL Adobe Target] browser koekje (mbox) schrappen zodat u al uw ervaringen tijdens het testen kunt bevestigen.
 
 Als er geen [!DNL Target] koekje (mbox) is, wordt u beschouwd als een nieuwe bezoeker en toont een nieuwe ervaring. Er zijn verschillende manieren om uw box te verwijderen zonder al uw browsercookies te verwijderen.
 
