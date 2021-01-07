@@ -2,19 +2,19 @@
 keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
 description: Informatie over Adobe Target Experience Templates voor gebruik in aangepaste code. De Malplaatjes van de Ervaring van het doel zijn vooraf gecodeerde steekproeven met configureerbare input die moeten worden gebruikt om gemeenschappelijke telleruse-cases uit te voeren.
 title: Experience Templates
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 
-# Experience Templates{#experience-templates}
+# Experience Templates
 
-Informatie over Adobe Target Experience Templates voor gebruik in aangepaste code. De Malplaatjes van de Ervaring van het doel zijn vooraf gecodeerde steekproeven met configureerbare input die moeten worden gebruikt om gemeenschappelijke telleruse-cases uit te voeren.
+Informatie over [!DNL Adobe Target] de Malplaatjes van de Ervaring voor gebruik in douanecode. [!DNL Target] De Malplaatjes van de ervaring zijn pre-gecodeerde steekproeven met configureerbare input die moet worden gebruikt om gemeenschappelijke telleruse-cases uit te voeren.
 
 Deze ervaringssjablonen worden gratis aan ontwikkelaars en marketers aangeboden als uitgangspunt voor het uitvoeren van veelvoorkomende gebruiksgevallen, hetzij via de VEC of de Form-based Experience Composer.
 
