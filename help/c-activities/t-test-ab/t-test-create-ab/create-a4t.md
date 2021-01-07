@@ -1,24 +1,24 @@
 ---
-keywords: Targeting;analytics;tracking server
-description: U kunt een Activiteit in de Norm van het Doel vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
+keywords: Targeting;analytics;tracking server;analytics for target;a4t
+description: U kunt een activiteit in de Norm van Adobe Target vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
 title: Analysegegevens gebruiken
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
 
-# Analysegegevens gebruiken{#using-analytics-data}
+# Analysegegevens gebruiken
 
-U kunt een Activiteit in de Norm van het Doel vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
+U kunt een activiteit in [!DNL Adobe Target] vormen om [!DNL Adobe Analytics] als rapporteringsbron (A4T) te gebruiken.
 
 Voor gedetailleerde informatie over vestiging Analytics als gegevensbron voor Doel, zie [Adobe Analytics als Rapporterende Bron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-Voordat u een activiteit instelt die Analytics als bron voor rapportage gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de campagne. Hoewel u extra metriek op elk ogenblik in Analytics kunt selecteren, moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
+Voordat u een activiteit instelt die Analytics als bron voor rapportage gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een maatstaf voor het uiteindelijke succes van de campagne. Hoewel u extra metriek op elk ogenblik in Analytics kunt selecteren, moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
 
 >[!NOTE]
 >
