@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: Weergaveproblemen treden soms onder bepaalde omstandigheden op in de Visual Experience Composer (VEC).
+description: Weergaveproblemen treden soms onder bepaalde omstandigheden op in de Adobe Target Visual Experience Composer (VEC).
 title: Problemen oplossen met betrekking tot Visual Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
 
 
-# Problemen oplossen met betrekking tot de composer voor visuele ervaring{#troubleshooting-issues-related-to-the-visual-experience-composer}
+# Problemen met de Visual Experience Composer oplossen
 
-Weergaveproblemen treden soms onder bepaalde omstandigheden op in de Visual Experience Composer (VEC).
+Weergaveproblemen treden soms op in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) onder bepaalde omstandigheden.
 
 ## Wanneer ik mijn website in de Visuele Composer van de Ervaring open, laden de bibliotheken van het Doel niet. (Alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
