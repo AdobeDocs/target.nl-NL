@@ -2,19 +2,19 @@
 keywords: implement;implementing;rfi;request for information
 description: Er zijn taken die u moet voltooien en informatie die u moet verzamelen bij de voorbereiding van de implementatie van Adobe Target.
 title: Voorbereiden op implementatie van Adobe Target
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
 
-# Implementeren van doel {#prepare-to-implement-target} voorbereiden
+# Voorbereiden op implementatie van doel
 
-Er zijn taken u zou moeten voltooien en informatie u zou moeten verzamelen wanneer het voorbereiden om Doel uit te voeren.
+Er zijn taken u zou moeten voltooien en informatie zou u moeten verzamelen wanneer het voorbereiden om [!DNL Adobe Target] uit te voeren.
 
 Volg deze richtlijnen en het invullen van de verstrekte vragenlijsten zullen u helpen Target uitvoeren, of u door zich of met Adobe Consulting (geadviseerd) uitvoert werkt.
 
