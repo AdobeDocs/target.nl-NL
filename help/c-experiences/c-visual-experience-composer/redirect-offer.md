@@ -1,19 +1,20 @@
 ---
-description: Gebruik deze optie als u de bezoeker naar een andere pagina wilt sturen in plaats van de inhoud op dezelfde pagina weer te geven.
+kewords: redirect;redirect url;send to different page
+description: Gebruik de optie Omleiden naar URL in Adobe Target als u de bezoeker naar een andere pagina wilt sturen in plaats van de inhoud op dezelfde pagina weer te geven.
 title: Omleiden naar een URL
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# Omleiden naar een URL{#redirect-to-a-url}
+# Omleiden naar een URL
 
-Gebruik deze optie als u de bezoeker naar een andere pagina wilt sturen in plaats van de inhoud op dezelfde pagina weer te geven.
+Gebruik de optie [!UICONTROL Redirect to URL] in [!DNL Adobe Target] als u de bezoeker naar een andere pagina wilt sturen in plaats van de inhoud op dezelfde pagina weer te geven.
 
 U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats van alleen maar stukken inhoud binnen een pagina te wijzigen. In dit geval vergelijkt uw A/B-test pagina A met pagina B. Stel een A/B-testcampagne in met twee ervaringen: één die aan standaardpagina A richt, en andere die aan pagina B wordt opnieuw gericht. Kies **[!UICONTROL Redirect to URL]** in het menu Actie beleven door op het letterlabel voor de ervaring te klikken en geef de URL van pagina B op. De aanbieding is geconfigureerd om de bezoeker om te leiden naar een andere pagina.
 
