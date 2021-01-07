@@ -1,12 +1,12 @@
 ---
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: Informatie over de pagina Wijzigingen waarmee u wijzigingen op de pagina kunt bekijken en aanvullende wijzigingen (CSS-kiezer, Mbox en Aangepaste code) kunt toevoegen.
+description: Informatie over de pagina Wijzigingen in Adobe Target waarmee u wijzigingen op de pagina kunt bekijken en aanvullende wijzigingen (CSS-kiezer, Mbox en aangepaste code) kunt toevoegen.
 title: Wijzigingen
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2072'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Wijzigingen{#modifications}
 
-Informatie over de pagina Wijzigingen waarmee u wijzigingen op de pagina kunt bekijken en aanvullende wijzigingen (CSS-kiezer, Mbox en Aangepaste code) kunt toevoegen.
+Informatie over de pagina Wijzigingen in [!DNL Adobe Target] waarmee u wijzigingen op de pagina kunt bekijken en extra wijzigingen (CSS-kiezer, Mbox en Aangepaste code) kunt toevoegen.
 
 De pagina van Wijzigingen toont alle veranderingen die aan uw pagina in Visuele Composer van de Ervaring (VEC) zijn aangebracht en laat u extra veranderingen aanbrengen door elk element op de pagina te klikken en [selecterend een actie](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Elke wijziging die u aanbrengt, wordt als een afzonderlijke actie of element weergegeven in de lijst [!UICONTROL Modifications]. U kunt ook wijzigingen toevoegen, zoals de volgende wijzigingstypen: CSS-kiezer, Mbox. en Aangepaste code.
 
