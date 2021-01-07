@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: De scenario's in dit onderwerp tonen hoe de veranderingen die aan uw pagina worden aangebracht de capaciteit van het Doel beïnvloeden om een ervaring te tonen.
+description: De scenario's in dit onderwerp laten zien hoe de wijzigingen die in uw pagina zijn aangebracht, van invloed zijn op de mogelijkheid van Adobe Target om een ervaring weer te geven.
 title: Paginawijzigingsscenario's
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# Paginawijzigingsscenario&#39;s {#page-modification-scenarios}
+# Paginawijzigingsscenario&#39;s
 
-De scenario&#39;s in dit onderwerp tonen hoe de veranderingen die aan uw pagina worden aangebracht de capaciteit van het Doel beïnvloeden om een ervaring te tonen.
+De scenario&#39;s in dit onderwerp laten zien hoe de wijzigingen die in uw pagina zijn aangebracht, van invloed zijn op de mogelijkheid van Adobe Target om een ervaring weer te geven.
 
 De doelkiezer bepaalt waar een ervaring moet worden weergegeven. Als een pagina buiten Doel wordt gewijzigd, kunnen de veranderingen de capaciteit van Doel beïnvloeden om de ervaring te tonen.
 
