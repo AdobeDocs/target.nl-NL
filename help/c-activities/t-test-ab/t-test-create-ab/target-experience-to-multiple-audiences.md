@@ -1,20 +1,20 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: U kunt versies van dezelfde ervaring richten op verschillende soorten publiek in A/B-activiteiten. U kunt veelvoudige toehoorders voor een ervaring in de Visuele Composer van de Ervaring of in Form-Based Composer van de Ervaring plaatsen.
+description: U kunt versies van dezelfde ervaring als doelversies gebruiken voor verschillende soorten publiek in Adobe Target A/B-activiteiten. U kunt veelvoudige toehoorders voor een ervaring in de Visuele Composer van de Ervaring of in Form-Based Composer van de Ervaring plaatsen.
 title: Meerdere ervaringsversies in een A/B-test
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 
-# Meerdere ervaringsdoelgroepen in een A/B-test{#multiple-experience-versions-in-an-a-b-test}
+# Meerdere ervaringsdoelgroepen in een A/B-test
 
-U kunt versies van dezelfde ervaring richten op verschillende soorten publiek in A/B-activiteiten. U kunt veelvoudige toehoorders voor een ervaring in de Visuele Composer van de Ervaring of in Form-Based Composer van de Ervaring plaatsen.
+U kunt versies van de zelfde ervaring aan verschillende publiek in [!DNL Adobe Target] A/B activiteiten richten. U kunt veelvoudige toehoorders voor een ervaring in de Visuele Composer van de Ervaring of in Form-Based Composer van de Ervaring plaatsen.
 
 Gebruikers kunnen schakelen tussen verschillende soorten publiek wanneer hun profiel verandert. Ze zitten niet vast in dezelfde ervaring gedurende de levensduur van de activiteit.
 
@@ -24,7 +24,7 @@ Zonder de capaciteit aan opstellingservaringsversies, zou u verschillende tests 
 
 Door verschillende versies van een ervaring te maken, ontvangt u nauwkeurigere informatie zonder dat u handmatige berekeningen en aannames hoeft te maken.
 
-**Scenario**
+## Scenario
 
 U test twee ervaringen, een geo-gerichte banner versus een generische banner. De banner voor elke geografie moet verschillend zijn, maar de algemene test is te bepalen of het gericht maken beter is dan het tonen van generische inhoud. Als u opstelling een afzonderlijke ervaring voor elke plaats, zou u eigenlijk meten hoe elke geo tegen elkaar presteert, eerder dan of het richten helpt uw succesdoelstellingen bereiken wanneer gemeten tegen de generische banner.
 
@@ -48,7 +48,7 @@ In dit geval, wat u nodig hebt zijn geo-specifieke versies van de ervaring, zoda
 
 1. Ga door met het instellen van de activiteit.
 
-**Aanbevolen werkwijzen**
+## Aanbevolen werkwijzen
 
 * Kies een publiek dat elkaar uitsluitt. Als de activiteit in VEC werd gecreeerd, als een bezoeker meer dan één publiek aanpast, is de inhoud voor elk publiek teruggekeerd, met de inhoud voor het publiek dat voor het laatst op de pagina wordt vermeld.
 * Het in het diagram gedefinieerde publiek voor activiteit en toegang wordt gecombineerd met het ervaringspubliek met behulp van een AND-voorwaarde. Om de activiteit binnen te gaan, moet een bezoeker voor het activiteitenpubliek, en één van de ervaringspubliek in aanmerking komen.
