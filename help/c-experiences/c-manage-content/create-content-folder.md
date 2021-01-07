@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Maak een map voor de items in de bibliotheek met aanbiedingen.
+description: Maak een map voor de items in de bibliotheek met aanbiedingen in Adobe Target.
 title: Aanbiedingenmap maken
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 
-# Aanbiedingsmap maken{#create-offer-folder}
+# Aanbiedingenmap maken
 
-Maak een map voor de items in de bibliotheek met aanbiedingen.
+Maak een map voor de items in de bibliotheek met aanbiedingen in Adobe Target.
 
 1. Klik **[!UICONTROL Offers]**, dan selecteer **[!UICONTROL Code Offers]** of **[!UICONTROL Image Offers]** tabel, zoals aangewezen.
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
