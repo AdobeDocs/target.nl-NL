@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3258'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 11 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie en registratiegegevens toegevoegd voor het Adobe Target Community Q&amp;A Coffee Break van 13 januari. |
 | 6 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie en registratiegegevens voor de volgende levende webinar:<ul><li>Aanpassing op schaal: Belangrijke bevindingen van de Forrester Wave, de Platforms van de Optimalisering van de Ervaring.</li></ul> |
 | 4 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Veranderde datum wanneer Doel mbox.js van 18 januari 2021 tot 31 maart 2021 niet meer zal steunen. |
 | 18 december | [A/A-tests](/help/c-activities/t-test-ab/aa-testing.md) | Nieuw onderwerp. |
