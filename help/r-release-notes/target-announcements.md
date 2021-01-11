@@ -4,9 +4,9 @@ description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zitt
 title: Doelaankondigingen
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c129430e038d7179846761cf946c437d079e26ee
+source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,21 @@ Adobe Target werd onlangs door zowel Forrester als Gartner erkend als marktleide
 | --- | --- |
 | Forrester | **Adobe noemde een Leider in de golfrapport van de Forrester voor ervaring optimalisatieplatforms.**<br> Adobe kreeg de naam Leader in de Forrester Wave: Experience Optimization Platforms, Q4 2020 rapport voor zijn aanbieding in deze ruimte, Adobe Target Premium. Adobe heeft de hoogste score van alle deelnemende leveranciers behaald in de huidige aanbiedings- en marktaanwezigheidscategorieën, alsook in de aanbevelingen en criteria voor de ervaring met platforms. Target Premium behaalde ook de hoogst mogelijke score in de ervaring optimalisatietechniek innovatie en ondersteunende servicecriteria. Het verslag is gebaseerd op een grondige evaluatie van 10 aanbieders van het optimalisatieplatform voor ervaringen op 22 verschillende criteria.<br>Lees er op de  [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) over. |
 | Gartner | **Adobe noemde opnieuw een leider in het Gartner Magic Quadrant voor verpersoonlijkingsmotoren.**<br> Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid.<br>[Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
+## Adobe Target Community - Koffiepauze voor vragen en antwoorden
+
+* **Woensdag 13 januari**
+* **08:00 PT | 10.00 uur CT | 11.00 uur ET**
+* **Duur: 60 minuten**
+* **[Klik hier voor meer informatie](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
+
+Robert Calangiu, Senior Product Manager voor Adobe Target, zal zich hier bij de Adobe Target-gemeenschap aanmelden om rechtstreeks met u te kunnen chatten over uw vragen over Adobe Target met betrekking tot zijn expertisegebieden:
+
+* Interface voor doelinstellingen en beheerders
+* A4T-integratie
+* AEM integratie
+* Algemene gebruikersinterface van Adobe Target
+* Reacties op de vragen die u opneemt bij [registratie voor deze gebeurtenis](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/) (hoewel optioneel)
 
 ## Webinar: Aanpassing op schaal: Belangrijke bevindingen van de Forrester Wave, de Platforms van de Optimalisering van de Ervaring
 
