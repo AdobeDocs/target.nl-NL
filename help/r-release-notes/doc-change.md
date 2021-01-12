@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
 workflow-type: tm+mt
-source-wordcount: '3258'
+source-wordcount: '3273'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 12 januari | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie over de doelstandaard/Premium versie 21.1.1 is toegevoegd (19 januari 2021). |
 | 11 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie en registratiegegevens toegevoegd voor het Adobe Target Community Q&amp;A Coffee Break van 13 januari. |
 | 6 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie en registratiegegevens voor de volgende levende webinar:<ul><li>Aanpassing op schaal: Belangrijke bevindingen van de Forrester Wave, de Platforms van de Optimalisering van de Ervaring.</li></ul> |
 | 4 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Veranderde datum wanneer Doel mbox.js van 18 januari 2021 tot 31 maart 2021 niet meer zal steunen. |
