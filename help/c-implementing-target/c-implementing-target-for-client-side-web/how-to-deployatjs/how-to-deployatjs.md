@@ -2,9 +2,9 @@
 keywords: implement;at.js;javascript library
 description: Informatie over hoe u de Adobe Target JavaScript-bibliotheek in.js kunt implementeren met behulp van Adobe Launch, zonder tagbeheer of met behulp van Adobe Dynamic Tag Management (DTM).
 title: Hoe te opstellen bij.js
-feature: at.js
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Hoe te opstellen bij.js{#how-to-deploy-at-js}
+# Hoe te opstellen bij.js
 
 Informatie over hoe u de Adobe Target JavaScript-bibliotheek in.js kunt implementeren met behulp van Adobe Launch, zonder tagbeheer of met behulp van Adobe Dynamic Tag Management (DTM).
 
