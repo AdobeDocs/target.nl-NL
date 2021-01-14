@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Speciale rapporten zijn beschikbaar voor gebruikers van Automated Personalization-activiteiten in Adobe Target.
 title: Samenvattingsrapporten van Automated Personalization
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
