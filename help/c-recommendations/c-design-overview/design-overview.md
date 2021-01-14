@@ -2,9 +2,9 @@
 keywords: recommendations design;template;create design;delivery;output
 description: In Adobe Target Recommendations wordt gedefinieerd hoe aanbevelingen op een pagina worden weergegeven. De ontwerpen bepalen de lay-out en het formaat van uw aanbevelingen om de betrokkenheid, de omzetting, en de opbrengst van bezoekers te verbeteren.
 title: Overzicht van ontwerp
-feature: designs
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
