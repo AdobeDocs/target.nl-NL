@@ -2,9 +2,9 @@
 keywords: Release notes
 description: Opmerkingen bij de release voor eerdere Adobe Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
 title: Opmerkingen bij de release van vorige releases
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29542'
 ht-degree: 0%
@@ -1518,7 +1518,7 @@ Deze [!DNL Target]-release bevat de volgende klantgerichte verbeteringen, oploss
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>Toegevoegde verwerking van responstoken. Voor meer informatie, zie <a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Tokens van de Reactie </a>. </p> </li> 
       <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Correctie van het probleem zodat <span class="codeph"> document.currentScript polyfill </span> de hoekige 1.X niet beïnvloedt. </p> </li> 
-      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Wijzigingen aangebracht om ervoor te zorgen dat het bijhouden van klikken geen invloed heeft op de zichtbaarheidseigenschap. Klik op volgende elementen worden gemarkeerd met de CSS-klasse <span class="codeph"> in plaats van </span> at-element-marker <span class="codeph">.</span> </p> </li> 
+      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Wijzigingen aangebracht om ervoor te zorgen dat het bijhouden van klikken geen invloed heeft op de zichtbaarheidseigenschap. Klik op volgende elementen worden gemarkeerd met de CSS-klasse </span> in plaats van <span class="codeph"> at-element-marker </span>.<span class="codeph"> </span></p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -1862,7 +1862,7 @@ Deze [!DNL Target]-release richt zich op verbeteringen van de bruikbaarheid en p
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ). (TNT-26144) </p> <p>Zie <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> at.js Configurations </a> voor meer informatie. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Instelling <span class="codeph"> secureOnly </span> toegevoegd die aangeeft of <span class="codeph"> at.js </span> alleen HTTPS mag gebruiken of dat er mag worden overgeschakeld tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en die via <span class="codeph"> targetGlobalSettings </span> kan worden overschreven. (TNT-26183) </p> <p>Zie <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() </a> voor meer informatie. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De optie <span class="wintitle"> Ondersteuning oudere browser </span> is beschikbaar in <span class="codeph"> at.js </span> versie 0.9.3 en eerder. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> at.js Configurations </a> voor meer informatie. </p> </li> 
-     </ul> </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> at.js Version Details </a> voor gedetailleerde informatie over de wijzigingen in elke versie van <span class="codeph"> at.js Version Details &lt;a3/&gt;.</span> </p> </td> 
+     </ul> </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> at.js Version Details </a> voor gedetailleerde informatie over de wijzigingen in elke versie van <span class="codeph"> at.js Version Details </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
