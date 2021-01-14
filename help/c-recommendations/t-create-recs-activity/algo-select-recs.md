@@ -2,9 +2,9 @@
 keywords: recommendations;recommendations activity;criteria;algorithm
 description: Selecteer de criteria die je wilt gebruiken in je Adobe Target Recommendations-activiteit.
 title: Criteria selecteren
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
