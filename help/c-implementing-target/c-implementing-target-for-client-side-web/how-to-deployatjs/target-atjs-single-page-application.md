@@ -2,9 +2,9 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informatie voor het implementeren van toepassingen voor één pagina met Adobe Target at.js 2.x (SPA).
 title: Implementatie van één pagina-toepassing in Adobe Target
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '2749'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# Toepassing van één pagina{#single-page-application-implementation}
+# Toepassing van één pagina
 
 Traditionele websites werkten aan navigatiemodellen &quot;van pagina tot pagina&quot;, ook wel bekend als Toepassingen van meerdere pagina&#39;s, waarbij websiteontwerpen nauw gekoppeld waren aan URL&#39;s en overgangen van de ene webpagina naar de andere een pagina moesten laden. Moderne webtoepassingen, zoals Single Page Applications (SPA), maken in plaats daarvan gebruik van een model dat snel gebruik van de rendering van de gebruikersinterface van de browser aanmoedigt. Deze is vaak niet afhankelijk van het opnieuw laden van pagina&#39;s. Deze ervaringen worden vaak veroorzaakt door klanteninteractie, zoals scrolls, kliks, en curseurbewegingen. Naarmate de paradigma&#39;s van het moderne web zijn geëvolueerd, werkt de relevantie van traditionele generieke gebeurtenissen, zoals page-load, om personalisatie en experimenten te implementeren, niet meer.
 
@@ -282,7 +282,7 @@ De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoer
 
 | Stap | Handeling | Details |
 | --- | --- | --- |
-| 3 | Bezoeker-API JS laden | Deze bibliotheek is verantwoordelijk voor het toewijzen van een ECID aan de bezoeker. Deze id wordt later gebruikt door andere [!DNL Adobe]-oplossingen op de webpagina. |
+| 1 | Bezoeker-API JS laden | Deze bibliotheek is verantwoordelijk voor het toewijzen van een ECID aan de bezoeker. Deze id wordt later gebruikt door andere [!DNL Adobe]-oplossingen op de webpagina. |
 | 2 | Laden bij.js 2.x | at.js 2.x laadt alle noodzakelijke APIs die u gebruikt om [!DNL Target] verzoeken en meningen uit te voeren. |
 | 3 | [!DNL Target] verzoek uitvoeren | Als u een gegevenslaag hebt, adviseren wij dat u kritieke gegevens laadt die worden vereist om naar [!DNL Target] te verzenden alvorens [!DNL Target] verzoek uit te voeren. Dit laat u `targetPageParams` gebruiken om het even welke gegevens te verzenden u voor het richten wilt gebruiken. U moet ervoor zorgen dat u in deze API-aanroep een verzoek indient voor uitvoering > pageLoad en prefetch > weergaven. als u `pageLoadEnabled` en `viewsEnabled` hebt geplaatst, dan zowel uitvoeren > pageLoad als prefetch > de meningen automatisch met Stap 2 gebeuren; anders moet u de `getOffers()` API gebruiken om deze aanvraag in te dienen. |
 | 4 | `triggerView()` aanroepen | Omdat het [!DNL Target] verzoek u in Stap 3 in werking stelde ervaringen voor zowel de uitvoering van de Lading van de Pagina als Weergaven kon terugkeren, zorg ervoor dat `triggerView()` wordt geroepen nadat het [!DNL Target] verzoek is teruggekeerd en beëindigt het toepassen van de aanbiedingen aan geheime voorgeheugen. U moet deze stap slechts eenmaal per weergave uitvoeren. |
