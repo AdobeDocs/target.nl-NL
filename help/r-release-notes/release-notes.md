@@ -4,9 +4,9 @@ description: Deze releaseopmerkingen bevatten informatie over functies, verbeter
 title: 'Opmerkingen bij de release van Adobe Target (huidige) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,12 @@ Hoewel mbox.js momenteel wordt ondersteund (tot 31 maart 2021), hebben we sinds 
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
-## om 2.3.3.2013 (13 november 2020)
+## om 2.4.0 uur (14 januari 2021)
 
-Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:
+Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossingen:
 
-* Correctie van een probleem met betrekking tot het bijhouden van een postvak en A4T.
+* Hiermee wordt ondersteuning voor Unified Profile/Platform-id toegevoegd aan de levering-API van de klant
+* Oplossing voor een ongeldige inspuiting van stijltags
 
 ## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
