@@ -4,7 +4,7 @@ description: Deze releaseopmerkingen bevatten informatie over functies, verbeter
 title: 'Opmerkingen bij de release van Adobe Target (huidige) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
@@ -34,8 +34,8 @@ De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
 Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossingen:
 
-* Hiermee wordt ondersteuning voor Unified Profile/Platform-id toegevoegd aan de levering-API van de klant
-* Oplossing voor een ongeldige inspuiting van stijltags
+* Voegt ondersteuning voor Unified Profile/platform-id toe aan de levering-API van de klant.
+* Oplossing voor een ongeldige inspuiting van stijllabels.
 
 ## Target Standard/Premium 20.10.1 (27 oktober 2020)
 
