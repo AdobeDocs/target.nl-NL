@@ -2,9 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Informatie over het werken met een veld met meerdere waarden in Adobe Target Recommendations met behulp van speciale operatoren voor meerdere waarden.
 title: Werken met kenmerken voor meerdere waarden in Adobe Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
