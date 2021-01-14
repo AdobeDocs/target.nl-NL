@@ -4,9 +4,9 @@ description: Informatie over de wijzigingen in elke versie van Adobe Target op .
 title: details van de at.js-versie
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3996'
+source-wordcount: '4027'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,13 @@ Informatie over wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL A
 >Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis de voorkeursmethode voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en worden in de catalogus [!DNL Launch] beschikbaar gesteld als upgrades. Voor meer informatie, zie [Uitbreiding Verbetering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in *de Gids van de Gebruiker van het Experience Platform Launch*.
+
+## om 2.4.0 uur (14 januari 2021)
+
+Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossingen:
+
+* Hiermee wordt ondersteuning voor Unified Profile/Platform-id toegevoegd aan de levering-API van de klant
+* Oplossing voor een ongeldige inspuiting van stijltags
 
 ## om 2.3.3.2013 (13 november 2020)
 
