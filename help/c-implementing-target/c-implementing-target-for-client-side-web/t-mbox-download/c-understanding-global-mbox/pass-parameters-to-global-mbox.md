@@ -2,9 +2,9 @@
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: De JavaScript targetPageParams functie wordt gebruikt om parameters tot globale mbox over te gaan. Dit is nodig in elk scenario waarin aanvullende informatie over doelgerichtheid/context aan Adobe Target wordt doorgegeven.
 title: Parameters doorgeven aan een globale box
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Parameters doorgeven aan een globale box{#pass-parameters-to-a-global-mbox}
+# Parameters doorgeven aan een globale box
 
 De functie JavaScript `targetPageParams` wordt gebruikt om parameters tot globale mbox in &lt;a1 door te geven/>. [!DNL Adobe Target] Dit is nodig in elk scenario waarbij extra informatie over gericht/context moet worden doorgegeven aan [!DNL Target].
 
