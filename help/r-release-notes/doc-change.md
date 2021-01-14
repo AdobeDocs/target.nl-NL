@@ -2,9 +2,9 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de Adobe Target-documentatie en die zijn geordend in releases.
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '3273'
 ht-degree: 0%
