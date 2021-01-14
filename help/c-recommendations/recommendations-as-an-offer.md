@@ -2,9 +2,9 @@
 keywords: Recommendations;offer
 description: Adobe Recommendations als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten
 title: Adobe Recommendations als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
