@@ -2,9 +2,9 @@
 keywords: global mbox;target classic;use global mbox from target classic
 description: Door gebrek, leidt de Norm van het Doel tot globaal mbox genoemd target-global-mbox, die wordt gebruikt om activiteiten in werking te stellen die in de Standaard van het Doel worden gecreeerd. Nochtans, als u reeds een globale mbox op uw pagina's voor uw erfenisimplementaties hebt gecreeerd, kunt u die mbox voor uw Standaardactiviteiten van het Doel gebruiken.
 title: Een globale box uit een verouderde implementatie gebruiken
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Een globale box uit een oudere implementatie gebruiken{#use-a-global-mbox-from-a-legacy-implementation}
+# Een globale box uit een oudere implementatie gebruiken
 
 Standaard maakt [!DNL Target] een globale box met de naam target-global-mbox, die wordt gebruikt om activiteiten uit te voeren die zijn gemaakt in [!DNL Target]. Nochtans, als u reeds een globaal mbox op uw pagina&#39;s voor uw erfenisimplementaties hebt gecreeerd, kunt u dat mbox voor uw [!DNL Target] activiteiten gebruiken.
 
