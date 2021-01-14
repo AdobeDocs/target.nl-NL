@@ -4,9 +4,9 @@ description: Opmerkingen bij de release die informatie bevatten over functies, v
 title: Voorlopige Adobe Target-opmerkingen
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 83612ef2fa8d76f9318b0b9637203fefd82215ee
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 12 januari 2021**
+**Laatst bijgewerkt: 14 januari 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -49,7 +49,6 @@ De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 * Probleem verholpen waardoor gebruikers een publiek niet konden verwijderen uit een aanbieding in een activiteit [!UICONTROL Automated Personalization] (AP). (TGT-39058)
 * Probleem verholpen waarbij het onjuiste tijdframe (begin- en einddatum) voor sommige klanten werd weergegeven in [!UICONTROL Audience Info]-kaarten. (TGT-39150)
 * Probleem verholpen waardoor sommige klanten de lijst met activiteiten in [!UICONTROL Default Workspace] niet konden zien. (TGT-38526)
-* De groottegrenzen voor aanbiedingen in [!DNL Target] UI en API tot 1 MB verhoogd. (TGT-38304)
 
 ## Voorlopige-releasegegevens {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
