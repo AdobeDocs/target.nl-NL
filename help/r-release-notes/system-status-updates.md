@@ -2,9 +2,9 @@
 keywords: system update;troubleshooting;maintenance;system status;update status
 description: Gebruik de pagina van de Status van het Systeem van de Adobe om de status van de producten van de Adobe en van de Experience Cloud oplossingen, met inbegrip van Doel te bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
 title: Systeemstatusupdates
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
