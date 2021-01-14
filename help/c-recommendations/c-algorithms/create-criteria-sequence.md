@@ -2,9 +2,9 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over de items die in uw Adobe Target Recommendations-activiteiten worden weergegeven.
 title: Criteria-reeksen maken
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Er zijn meerdere manieren om het [!UICONTROL Create Criteria Sequence] scherm te
 
 * Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!UICONTROL Recommendations]-activiteiten.
 * Wanneer u een [!UICONTROL Recommendations] activiteit creeert, van het Uitgezochte scherm van Criteria, klik **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. U zult de optie hebben om uw nieuwe criteria opeenvolging voor gebruik met andere [!UICONTROL Recommendations] activiteiten te bewaren.
-* Wanneer u een [!UICONTROL Recommendations] activiteit uitgeeft, klik in [!UICONTROL Recommendations Location] doos op uw pagina, dan uitgezocht **[!UICONTROL Change Criteria]**. Klik op [!UICONTROL Select Criteria] > **[!UICONTROL Create Criteria Sequence]** in het scherm &lt;a0/>. **[!UICONTROL Create New]** U hebt de optie om uw nieuwe criteria voor gebruik met andere [!UICONTROL Recommendations] activiteiten te bewaren.
+* Wanneer u een [!UICONTROL Recommendations] activiteit uitgeeft, klik in [!UICONTROL Recommendations Location] doos op uw pagina, dan uitgezocht **[!UICONTROL Change Criteria]**. Klik op [!UICONTROL Select Criteria] > **[!UICONTROL Create Criteria Sequence]** in het scherm **[!UICONTROL Create New]**. U hebt de optie om uw nieuwe criteria voor gebruik met andere [!UICONTROL Recommendations] activiteiten te bewaren.
 
 In de volgende stappen wordt ervan uitgegaan dat u het scherm [!UICONTROL Create Criteria Sequence] opent met de eerste methode: het **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm.
 
