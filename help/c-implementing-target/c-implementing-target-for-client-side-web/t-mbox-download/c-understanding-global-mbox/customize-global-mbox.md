@@ -2,9 +2,9 @@
 keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
 description: Informatie om u te helpen een globale mbox voor at.js aanpassen.
 title: Een globale box aanpassen
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Een globale box aanpassen{#customize-a-global-mbox}
+# Een globale box aanpassen
 
 Informatie om u te helpen een globale mbox voor at.js aanpassen.
 
