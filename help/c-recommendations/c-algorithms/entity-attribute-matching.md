@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;entity attribute matching
 description: Filter dynamisch in Adobe Target Recommendations door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruiker met heeft in wisselwerking gestaan.
 title: Filter op kenmerk van entiteit matchen in regels voor dynamische insluiting in Adobe Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
