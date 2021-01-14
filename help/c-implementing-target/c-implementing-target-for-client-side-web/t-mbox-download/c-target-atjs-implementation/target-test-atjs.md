@@ -1,17 +1,18 @@
 ---
+keywords: at.js;non-production;non production;deploy
 description: Informatie over hoe te om bij.js aan een niet productiemilieu veilig op te stellen.
-title: Implementeren op .js naar een niet-productieomgeving
-feature: null
+title: Stel bij.js aan een Milieu van de Niet Productie op
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 
-# Implementeren in.js naar een niet-productieomgeving{#deploy-at-js-to-a-non-production-environment}
+# Implementeren bij.js in een niet-productieomgeving
 
 Informatie over de technieken om op veilige wijze in.js aan een niet-productiemilieu op te stellen.
 
