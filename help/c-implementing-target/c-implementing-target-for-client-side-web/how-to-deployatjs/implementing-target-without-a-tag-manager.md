@@ -2,9 +2,9 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Informatie over het implementeren van Adobe Target zonder gebruik te maken van een tagbeheer (Adobe starten of Dynamisch tagbeheer).
 title: Doel implementeren zonder tagbeheer
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 ---
 
 
-# Doel implementeren zonder tagbeheer{#implement-target-without-a-tag-manager}
+# Doel implementeren zonder tagbeheer
 
 Informatie over het implementeren van [!DNL Adobe Target] zonder een tagmanager ([!DNL Adobe Launch] of [!DNL Dynamic Tag Manager]).
 
