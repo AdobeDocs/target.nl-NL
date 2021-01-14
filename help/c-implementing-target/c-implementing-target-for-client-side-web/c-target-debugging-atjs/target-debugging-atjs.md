@@ -2,9 +2,9 @@
 keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Informatie over het gebruik van de Adobe Experience Cloud Debugger-extensie, waardoor u snel en gemakkelijk inzicht kunt krijgen in uw Target-implementatie.
 title: Foutopsporing in.js met Adobe Experience Cloud Debugger
-feature: troubleshooting general
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
