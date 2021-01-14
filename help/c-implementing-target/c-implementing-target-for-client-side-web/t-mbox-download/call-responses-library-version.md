@@ -1,9 +1,9 @@
 ---
 description: De manier waarop Doel maakt en reageert op aanroepen vanuit uw pagina is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de Experience Cloud Visitor ID-implementatie aanwezig is en of de bezoeker-id bestaat.
 title: Methoden voor doelpagina's door bibliotheekversie mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
