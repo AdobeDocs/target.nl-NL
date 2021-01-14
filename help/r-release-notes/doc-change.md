@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3282'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 januari | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over at.js versie 2.4.0. |
 | 12 januari | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie over de doelstandaard/Premium versie 21.1.1 is toegevoegd (19 januari 2021). |
 | 11 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie en registratiegegevens toegevoegd voor het Adobe Target Community Q&amp;A Coffee Break van 13 januari. |
 | 6 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie en registratiegegevens voor de volgende levende webinar:<ul><li>Aanpassing op schaal: Belangrijke bevindingen van de Forrester Wave, de Platforms van de Optimalisering van de Ervaring.</li></ul> |
