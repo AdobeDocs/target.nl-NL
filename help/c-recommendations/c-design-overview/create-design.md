@@ -2,9 +2,9 @@
 keywords: recommendations design;create design;copy design
 description: Een ontwerp bepaalt hoe de aanbevelingen op een pagina verschijnen.
 title: Een ontwerp maken
-feature: designs
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -140,7 +140,7 @@ In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd w
 
    1. Navigeer naar de pagina **[!UICONTROL Activities]**.
    1. Klik op **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
-   1. Selecteer **[!UICONTROL Choose Experience Composer]** onder &lt;a0/> en klik vervolgens **[!UICONTROL Next]**.**[!UICONTROL Form]**
+   1. Selecteer **[!UICONTROL Choose Experience Composer]** onder **[!UICONTROL Form]** en klik vervolgens **[!UICONTROL Next]**.
    1. Voer de tekst in onder Locatie: &quot;Sample_Recs_Response&quot;
    1. Klik onder **[!UICONTROL Default Content]** op de pijl omlaag en klik vervolgens op **[!UICONTROL Add Recommendation]**.
    1. Kies een paginatype. Hiermee bepaalt u de eerste filtering van het volgende scherm.
