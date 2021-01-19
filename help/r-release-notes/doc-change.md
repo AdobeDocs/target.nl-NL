@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '3282'
+source-wordcount: '3376'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,15 @@ ht-degree: 0%
 # Documentatiewijzigingen{#documentation-changes}
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 19 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de doelversie 21.1.1 (19 januari 2021). |
+|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst voor de parameter `productPurchasedID`. |
+|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Een bekend probleem toegevoegd bij het kopiëren van een [!UICONTROL Recommendation] activiteit met een actieve bevordering. Elke wijziging in de duplicaatactiviteit heeft ook invloed op de oorspronkelijke activiteit en omgekeerd. Een tijdelijke oplossing is inbegrepen. |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.1.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 20.10.1 (28 oktober 2020)
 
