@@ -4,9 +4,9 @@ description: Deze releaseopmerkingen bevatten informatie over functies, verbeter
 title: 'Opmerkingen bij de release van Adobe Target (huidige) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,25 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >
 Hoewel mbox.js momenteel wordt ondersteund (tot 31 maart 2021), hebben we sinds juli 2017 geen functie-updates voor deze bibliotheek beschikbaar gesteld. Door alle klanten naar [!UICONTROL Adobe Experience Platform Web SDK] of at.js te verplaatsen, zullen onze technici en ondersteunend personeel u van nieuwe functionaliteit kunnen voorzien en de steun aanbieden u van Adobe bent gekomen te verwachten.
 
+(De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## Target Standard/Premium 21.1.1 (19 januari 2021)
+
+Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen.
+
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
+
+* Er is een waarschuwing toegevoegd bij het selecteren van een [!DNL Adobe Analytics]-meting bij gebruik van [!UICONTROL Analytics as the reporting source] (A4T) in een [!UICONTROL Auto-Target]-activiteit. [!UICONTROL Auto-Target] modellen zijn geoptimaliseerd om met binaire (op omzetting-gebaseerde) metriek te werken. Het selecteren van ononderbroken metrisch, zoals opbrengst, zou suboptimale resultaten kunnen hebben en de [!UICONTROL Personalization Insights] rapporten zouden niet nauwkeurig kunnen zijn. (TGT-38926)
+* Er is een statuspictogram toegevoegd in het [!UICONTROL Auto-Target Summary]-rapport voor [!UICONTROL Auto-Target]-activiteiten die gebruikmaken van A4T. Het groene controlepictogram naast elke ervaring in het rapport geeft aan dat er een gepersonaliseerd model voor machinaal leren is gegenereerd voor die ervaring. Het klokpictogram wijst erop dat niet genoeg verkeer is gediend om het model te bouwen. (TGT-38925)
+* De [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporteren voor [!UICONTROL Auto-Target] activiteiten die A4T en [!DNL Analytics] omzettingsmetriek gebruiken worden geproduceerd en kijken het zelfde als wanneer het gebruiken van [!DNL Target] als rapporteringsbron. (TGT-38931)
+* Een omgevingsfilteroptie toegevoegd aan de lijst [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
+* Probleem verholpen waarbij het onjuiste aantal producten in verzamelingen [!UICONTROL Recommendations] werd weergegeven. (TGT-39162)
+* Filter [!UICONTROL Last Updated] toegevoegd aan [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
+* Probleem verholpen in [!UICONTROL Recommendations] dat ertoe leidde dat de pagina [!UICONTROL Create Sequence] vastliep nadat de verticale branche was gewijzigd. (TGT-38160)
+* Probleem verholpen waardoor de activiteit niet kon worden opgeslagen als Device Co-op was ingeschakeld en de gebruiker van [!DNL Target] als rapportbron veranderde in [!DNL Analytics] (A4T). (TGT-38163)
+* Probleem verholpen waardoor gebruikers een publiek niet konden verwijderen uit een aanbieding in een activiteit [!UICONTROL Automated Personalization] (AP). (TGT-39058)
+* Probleem verholpen waarbij het onjuiste tijdframe (begin- en einddatum) voor sommige klanten werd weergegeven in [!UICONTROL Audience Info]-kaarten. (TGT-39150)
+* Probleem verholpen waardoor sommige klanten de lijst met activiteiten in [!UICONTROL Default Workspace] niet konden zien. (TGT-38526)
 
 ## om 2.4.0 uur (14 januari 2021)
 
@@ -36,27 +54,6 @@ Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossingen
 
 * Voegt ondersteuning voor Unified Profile/platform-id toe aan de levering-API van de klant.
 * Oplossing voor een ongeldige inspuiting van stijllabels.
-
-## Target Standard/Premium 20.10.1 (27 oktober 2020)
-
-Deze release bevat de volgende nieuwe functies:
-
-| Functie | Details |
-| --- | --- |
-| [Apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie vanuit het apparaat van de gebruiker, via kanalen, met een bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid.<br>Door op het apparaat te beslissen kunt u belangrijke personalisatie- en experimenteringsinstructies in A/B Test and Experience Targeting (XT) activiteitstypen compileren in &quot;optimalisatieartefacten:&quot;JSON voorwerpen die op klantenapparaten via CDN worden geladen. En omdat gebruikers van [!DNL Target] op-device beslissingen native verbinden met producten van [!DNL Adobe Experience Cloud], krijgen ze een snelle analyse en snellere ervaringherhalingen.<br>Voor meer informatie, zie *[Op-apparatenbesluit](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
-
-Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
-
-* Probleem verholpen waardoor [!UICONTROL Average Lift Confidence Interval] en [!UICONTROL Confidence] niet konden worden weergegeven in [!DNL Auto-Target]-rapportage voor de [!UICONTROL Total]-rij. De metingen worden correct weergegeven voor alle afzonderlijke ervaringen. (TGT-37301)
-* [!DNL Adobe Target Premium] gebruikers&quot; [!UICONTROL Auto-Target] rapporteren vanaf 15 september om 14.30 uur. Dit probleem is nu opgelost. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (die of wordt gevormd gebruikend &quot;[!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie) wordt gevormd, worden de omzettingspercentages verkeerd gerapporteerd. Er is momenteel geen bekend leveringsprobleem. Zie [Automatische rapportage](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) onder *Opgeloste problemen* in *Bekende problemen en opgeloste problemen* voor informatie over het opnieuw synchroniseren en corrigeren van uw rapportage.
-* Er is een selecteerbare [!UICONTROL Last Updated At]-kolom toegevoegd in de tabel [!UICONTROL Catalog Search] en een [!UICONTROL Last Updated At]-filter. Deze verbetering bespaart tijd en inspanning omdat u niet elk individueel punt moet openen om te zien wanneer het laatst werd bijgewerkt en u kunt filtreren door datum de punten werden laatst bijgewerkt.
-
-   ![Laatst bijgewerkt bij kolom- en filterillustratie](/help/r-release-notes/assets/column-and-filter.png)
-
-* Er zijn updates uitgevoerd om de doelgebruikersinterface compatibel te maken met [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A en AA Success Criteria (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
-* Verbeterde CSP-functies (Content Security Policy). (TGT-37035)
-* Introduceerde een manier om de cliëntcode als parameter voor klanten te specificeren die CNAME gebruiken. (TNT-38571)
-* [!DNL Adobe Experience Cloud] de documentatie gaat verder naar  [!DNL Experience League]. In oktober worden alle opmerkingen bij de release, artikelen, video&#39;s en zelfstudies verplaatst van hun huidige locatie op `docs.adobe.com` naar [!DNL Experience League]. Deze beweging zorgt ervoor dat al het leren, zelfhulp, enablement, en communautaire inhoud van één enkele plaats wordt gediend. Wanneer deze wijziging optreedt, hoeft u niets te doen, aangezien alle koppelingen naar [!DNL Experience League] worden omgeleid. De opmerkingen bij de release worden bijgewerkt wanneer de cutover begint.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
