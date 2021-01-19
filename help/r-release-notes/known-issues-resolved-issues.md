@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '4294'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Hier volgen bekende problemen met omleidingsvoorstellen:
 
 De volgende problemen zijn bekend met [!UICONTROL Recommendations] activiteiten:
 
-* Wanneer een [!UICONTROL Recommendation] activiteit met een actieve bevordering wordt gekopieerd, beïnvloedt elke verandering in de dubbele activiteit ook de originele activiteit, en vice versa. (TGT-39155)
+* Wanneer het kopiëren van een [!UICONTROL Recommendation] activiteit met een actieve bevordering, beïnvloedt om het even welke verandering in de dubbele activiteit momenteel ook de originele activiteit, en vice versa. (TGT-39155)
 
    Als tijdelijke oplossing:
 
