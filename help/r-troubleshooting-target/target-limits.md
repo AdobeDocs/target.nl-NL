@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
 title: Limieten
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
 
-# Limieten{#limits}
+# Limieten
 
-Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
+Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen
 >
 >Wanneer de limieten die als &quot;aanbevolen&quot; zijn opgegeven, worden benaderd of overschreden, kan de prestatie trager worden. Trage tijden van interfacebelasting kunnen ook worden veroorzaakt door een zeer complexe activiteit, zoals vele publiek, doelstellingen, en ervaringen allen in één activiteit.
 >
->De zeer complexe activiteiten moeten worden herzien met behulp van Adobe Consulting en in een beperkte omgeving worden getest voordat ze worden vrijgegeven voor productie.
+>Zeer complexe activiteiten moeten worden beoordeeld met [!DNL Adobe] Consulting en worden getest in een beperkte omgeving voordat ze worden vrijgegeven voor productie.
 
 ## Activiteiten
 
@@ -194,9 +194,7 @@ Als u een globale box gebruikt, is de grens voor de volledige reeks inhoud terug
 
 ## productPurchasedId, parameter
 
-**Limiet**: 47 tekens per door komma&#39;s gescheiden waarde.
-
-Alles wordt langer afgekapt door het systeem.
+**Limiet**: 47 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 47 tekens kunnen door het systeem worden afgekapt. Totale lengten boven 250 tekens kunnen resulteren in een fout van 400.
 
 ## Profielscripts
 
