@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,15 @@ Hier volgen bekende problemen met omleidingsvoorstellen:
 
 ### Recommendations
 
-Hier volgen enkele bekende problemen met Recommendations-activiteiten:
+De volgende problemen zijn bekend met [!UICONTROL Recommendations] activiteiten:
+
+* Wanneer een [!UICONTROL Recommendation] activiteit met een actieve bevordering wordt gekopieerd, beïnvloedt elke verandering in de dubbele activiteit ook de originele activiteit, en vice versa. (TGT-39155)
+
+   Als tijdelijke oplossing:
+
+   * Activiteitenpromoties uitschakelen
+   * De activiteit dupliceren
+   * Promoties opnieuw inschakelen in elke activiteit
 
 * Entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. (IRI-857)
 * De &quot;Gebruiksinformatie&quot;-overlays voor Criteria en Ontwerpen weerspiegelen hun gebruik in A/B en de Ervaring gerichte activiteiten (TGT-34331) niet
