@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: Met de zoekactie in de catalogus in Adobe Target kunt u de producten of inhoud in de catalogus vinden.
-title: Cataloguszoekopdracht in Adobe Target
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Leer hoe u met de zoekfunctie voor Recommendations-catalogi producten of inhoud kunt zoeken, verzamelingen of uitsluitingen kunt maken, items uit uw catalogus kunt verwijderen en nog veel meer.
+title: Zoeken in Recommendations-catalogi gebruiken
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
 
-# ![Zoekopdracht ](/help/assets/premium.png) PREMIUMCatalog  {#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalog Search
 
-Met de pagina [!UICONTROL Catalog Search] kunt u de producten of inhoud in uw catalogus vinden.
+De [!UICONTROL Catalog Search] pagina in [!DNL Adobe Recommendations] helpt u van de producten of de inhoud in uw catalogus de plaats bepalen. De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Daarnaast kunt u de omgeving wijzigen, zoekresultaten opslaan in verzamelingen of uitsluitingen, filterfacetten toevoegen en kolommen in de tabel wijzigen, nieuwe zoekfacetten toevoegen en nog veel meer.
 
-De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus kan vele inzamelingen-manier bevatten om uw producten in logische emmers te organiseren.
+De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus kan vele inzamelingen bevatten, een manier om uw producten in logische emmers te organiseren.
+
+## Zoeken naar catalogus openen
 
 Als u de pagina [!UICONTROL Catalog Search] wilt openen, klikt u op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 ![Pagina Zoeken in catalogus](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Bovendien kunt u het milieu veranderen; de zoekresultaten opslaan in verzamelingen of uitsluitingen; U kunt kolommen in de tabel toevoegen, verwijderen of opnieuw rangschikken en nieuwe zoekfacetten toevoegen aan het venster [!UICONTROL Filters].
 
 ## Zoeken naar een object
 
@@ -59,9 +59,9 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
 
    >[!NOTE]
    >
-   >Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een type van Koord in plaats van een numerieke waarde te zijn.
+   >Wanneer u een catalogusonderzoek op een douanekenmerk met een numerieke waarde uitvoert, behandelen de resultaten het douanekenmerk om een koordtype in plaats van een numerieke waarde te zijn.
    >
-   >Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die van de attributen verwijzen die het type veranderen van koord in numeriek nodig hebben.
+   >Er is momenteel geen functionaliteit beschikbaar waarmee u het type van een kenmerk kunt wijzigen. Om een verandering aan te brengen, [open een klantenkwestie](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) die van de attributen verwijzen die het type veranderen van koord in numeriek nodig hebben.
 
 1. U kunt filters ook gebruiken om het gewenste product te vinden. In het volgende voorbeeld door het [!UICONTROL Collections]-facet uit te vouwen en &quot;Extra&#39;s maken&quot; te selecteren, worden alle fietsgereedschappen in het catalogusscherm weergegeven.
 
@@ -153,7 +153,7 @@ U kunt extra filterfacetten aan de [!UICONTROL Catalog Search] pagina toevoegen.
 
    ![Filters wijzigen, koppeling](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Selecteer de gewenste zoekfacetten (ID, naam, bericht, enz.).
+1. Selecteer de gewenste zoekfacetten (ID, naam, bericht, enz.) en klik op **[!UICONTROL Save]**.
 
    ![Filters toevoegen](/help/c-recommendations/c-products/assets/add-filters.png)
 
