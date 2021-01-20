@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '3376'
+source-wordcount: '3384'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 20 januari | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nieuw onderwerp. |
 | 19 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de doelversie 21.1.1 (19 januari 2021). |
 |  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst voor de parameter `productPurchasedID`. |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Een bekend probleem toegevoegd bij het kopiëren van een [!UICONTROL Recommendation] activiteit met een actieve bevordering. Elke wijziging in de duplicaatactiviteit heeft ook invloed op de oorspronkelijke activiteit en omgekeerd. Een tijdelijke oplossing is inbegrepen. |
