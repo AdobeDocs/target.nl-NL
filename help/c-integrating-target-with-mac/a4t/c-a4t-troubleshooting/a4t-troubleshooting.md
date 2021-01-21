@@ -4,7 +4,7 @@ description: Dit onderwerp behandelt sommige gemeenschappelijke kwesties die zij
 title: Los de Analytics en integratie van het Doel (A4T) problemen op
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
+source-git-commit: aeb18e5e27e821769e22e1fb4c36d2abb46c2950
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -38,14 +38,13 @@ Er zijn verschillende redenen waarom dit zou kunnen gebeuren:
 >
 >Er gaan geen gegevens verloren wanneer deze als &quot;niet opgegeven&quot; worden vermeld. De gegevens worden correct toegewezen aan de juiste activiteit of ervaring na de classificatieuitvoering.
 
-## A4T Activiteitenrapporten bevatten een rij met een groot aantal &quot;ongespecificeerde&quot; gebeurtenissen. {#added_unspecified_events}
+## A4T activiteitenrapporten omvatten een rij met een groot aantal &quot;niet gespecificeerde&quot;gebeurtenissen. {#added_unspecified_events}
 
-Er wordt altijd een rij met niet-opgegeven gebeurtenissen weergegeven, afhankelijk van de maateenheid die u gebruikt om de gegevens weer te geven.\
-Als u een metrische waarde gebruikt die alleen bestemd is, wordt die rij die &quot;niet is opgegeven&quot; niet weergegeven.
-Als u gemeenschappelijkere metrisch gebruikt, zal die rij opnieuw in het rapport verschijnen.
+Er wordt altijd een rij met niet-opgegeven gebeurtenissen weergegeven, afhankelijk van de maateenheid die u gebruikt om de gegevens weer te geven.
 
-Dit &quot;niet-gespecificeerde&quot;lijnpunt zal geen doel-geassocieerde informatie (b.v. geen bezoekers/bezoeken/impressies) hebben.\
-De enige manier om dit in het verslag te vermijden, is om Target in te stellen op absoluut elk verzoek dat van die pagina wordt verzonden, wat geen zin heeft.
+Als u een metrische waarde gebruikt die alleen bestemd is, wordt die rij die &quot;niet is opgegeven&quot; niet weergegeven. Als u gemeenschappelijkere metrisch gebruikt, zal die rij opnieuw in het rapport verschijnen.
+
+Dit &quot;niet-gespecificeerde&quot;lijnpunt zal geen doel-geassocieerde informatie (b.v. geen bezoekers/bezoeken/impressies) hebben. De enige manier om dit in het verslag te vermijden, is om Target in te stellen op absoluut elk verzoek dat van die pagina wordt verzonden, wat geen zin heeft.
 
 ## Mijn Analytische gegevens laten een opgeblazen bezoek of bezoekeraantal zien sinds het begin van A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
