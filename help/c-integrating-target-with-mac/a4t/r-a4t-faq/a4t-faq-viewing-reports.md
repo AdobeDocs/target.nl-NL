@@ -4,9 +4,9 @@ description: Dit onderwerp bevat antwoorden op vragen die vaak over het bekijken
 title: Rapporten weergeven - Veelgestelde vragen voor A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: 3776fac31aa512728f40211de8b8bb902df35070
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2311'
 ht-degree: 1%
 
 ---
@@ -69,6 +69,9 @@ In andere rapporten betekent &quot;niet gespecificeerd&quot; dat gegevens niet a
 
 Na de rubriceringsperiode worden in deze rapporten ongeveer een uur na de verzameling gegevens van de website weergegeven. Alle metriek, segmenten, en waarden in de rapporten komen uit de rapportreeks u selecteerde toen u opstelling de activiteit.
 
+In het geval dat de classificatie voor die activiteit werd gedaan, en u nog een &quot;niet gespecificeerde&quot;rij in het rapport ziet, zorg ervoor het rapport geen niet-doel metrisch gebruikt om de gegevens te tonen. Tenzij het rapport een doel-specifieke metrisch gebruikt, zal die &quot;unspecified&quot;rij gebeurtenissen voor vraag bevatten die niet met Doel worden geassocieerd.
+Die rij bevat respectievelijk geen informatie die verband houdt met Target (bv. geen bezoekers/bezoeken/indrukken).
+
 ## Waarom worden de metriek van het Doel verzonden naar Analytics zelfs nadat de activiteit is gedeactiveerd? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 De variabele [!DNL Target] die naar [!DNL Analytics] wordt verzonden heeft een standaardvervalperiode van 90 dagen. Deze vervalperiode kan indien nodig door de klantenservice worden aangepast. Deze instelling is echter algemeen voor alle activiteiten, zodat ze niet voor één geval hoeft te worden aangepast.
@@ -87,7 +90,7 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 5 | 3 | 3 |
+| XYZ | 3 | 5 | 3 | 1 |
 
 De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via persistentie van de eVar. De gegevens zien er nu als volgt uit:
 
@@ -99,14 +102,14 @@ De gebruiker komt terug op 1 maart en ziet een nieuwe activiteit, ABC. De gebrui
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 3 | 5 | 1 | 3 |
 
 De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar-waarde wordt opnieuw ingesteld op 1 april. Dat zullen we in de rapportage zien. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers | Orders |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 3 |
+| XYZ | 3 | 20 | 4 | 3 | 3 |
 | ABC | 3 | 10 | 2 | 3 | 3 |
 | Totaal | 2 | 20 | 3 | 3 | 3 |
 
