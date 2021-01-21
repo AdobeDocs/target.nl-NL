@@ -4,15 +4,15 @@ description: Dit onderwerp behandelt sommige gemeenschappelijke kwesties die zij
 title: Los de Analytics en integratie van het Doel (A4T) problemen op
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 
-# Los de Analytics en integratie van het Doel (A4T){#troubleshoot-the-analytics-and-target-integration-a-t} problemen op
+# Los de Analytics en integratie van het Doel (A4T) problemen op
 
 Dit onderwerp behandelt sommige gemeenschappelijke kwesties die zijn ontmoet wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
 
@@ -40,17 +40,15 @@ Als u de rij &quot;unspecified&quot; door de dimensie &quot;Analytics for Target
 >
 >Er gaan geen gegevens verloren wanneer deze als &quot;niet opgegeven&quot; worden vermeld. De gegevens worden correct toegewezen aan de juiste activiteit of ervaring na de classificatieuitvoering.
 
-
 ## A4T Activiteitenrapporten bevatten een rij met een groot aantal &quot;ongespecificeerde&quot; gebeurtenissen. {#added_unspecified_events}
 
-Er zou een &quot;niet gespecificeerde&quot;gebeurtenisrij in uw rapport kunnen zijn, afhankelijk van metrisch u gebruikt om uw gegevens met te tonen.
+Er zou &quot;[!UICONTROL Unspecified]&quot;gebeurtenisrij kunnen zijn in uw rapport wordt getoond, afhankelijk van metrisch u gebruikt om uw gegevens met te tonen.
 
-Typisch, toont deze rij als u gemeenschappelijke metrisch in het rapport kiest dat niet specifiek voor Doel is (bijvoorbeeld, de Weergaven van de Pagina, Bezoeken, Unieke Bezoekers, enz.).
-In dit geval bevat de rij &quot;Niet opgegeven&quot; alle paginaweergaven, bezoeken en unieke bezoekers die niet aan doelactiviteiten zijn gekoppeld.
-Die rij bevat geen informatie die aan het doel is gekoppeld (bijvoorbeeld geen bezoekers, bezoeken of indrukken). Zie [&quot;Niet gespecificeerd&quot;, &quot;Geen&quot;, &quot;Anders&quot; en &quot;Onbekend&quot; in rapportage](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in de *Technische notities voor Analytics* voor meer informatie.
+Typisch, toont deze rij als u gemeenschappelijke metrisch in het rapport kiest die niet [!DNL Target]-specifiek is (bijvoorbeeld, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], enz.). In dit geval bevat de rij [!UICONTROL “Unspecified”] alle [!UICONTROL Page Views], [!UICONTROL Visits] en [!UICONTROL Unique Visitors] die niet aan [!DNL Target] activiteiten zijn gekoppeld.
 
-Als u een doel-specifieke metrisch in het rapport kiest, zal die &quot;Niet gespecificeerde&quot;rij niet worden getoond.
-De enige manier om het hebben van het in het rapport geheel te vermijden is een vraag van het Doel op elk verzoek te plaatsen dat van die pagina wordt verzonden, wat niet gemeenschappelijk of noodzakelijk is.
+Die rij bevat geen [!DNL Target]-gerelateerde informatie (zoals geen bezoekers, bezoeken of indrukken). Zie [&quot;Niet gespecificeerd&quot;, &quot;Geen&quot;, &quot;Anders&quot; en &quot;Onbekend&quot; in rapportage](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in de *Technische notities voor Analytics* voor meer informatie.
+
+Als u [!DNL Target]-specifieke metrisch in het rapport kiest, dat [!UICONTROL “Unspecified”] rij niet toont. De enige manier om het hebben van het in het rapport geheel te vermijden is een [!DNL Target] vraag op elk verzoek te plaatsen dat van die pagina wordt verzonden, wat niet gemeenschappelijk of noodzakelijk is.
 
 ## Mijn Analytische gegevens laten een opgeblazen bezoek of bezoekeraantal zien sinds het begin van A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
