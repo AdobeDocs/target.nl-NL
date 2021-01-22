@@ -4,15 +4,15 @@ description: De conversiesnelheid, de lift, het vertrouwen (statistische signifi
 title: Omrekeningskoers
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '2120'
 ht-degree: 0%
 
 ---
 
 
-# Omzetsnelheid{#conversion-rate}
+# Omrekeningskoers
 
 De conversiesnelheid, de lift, het vertrouwen (statistische significantie) en het betrouwbaarheidsinterval worden voor elke ervaring gerapporteerd.
 
@@ -185,3 +185,27 @@ U kunt rapporten weergeven met de volgende telmethoden:
 >[!NOTE]
 >
 >Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook als de PCID- en `sessionID`-waarden niet veranderen.
+
+## Waarom gebruikt Target de t-tests van de Student? {#t-test}
+
+A/B-tests zijn experimenten om de gemiddelde waarde van bepaalde metrische bedrijfswaarden in een besturingsvariant (ook wel een ervaring genoemd) te vergelijken met de gemiddelde waarde van die metrische waarde in een of meer alternatieve ervaringen.
+
+[!DNL Target] Het verdient aanbeveling twee T-tests [ van ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)studenten te gebruiken, aangezien deze minder veronderstellingen vereisen dan alternatieven zoals z-tests, en de geschikte statistische test zijn voor het uitvoeren van paarsgewijze vergelijkingen van (kwantitatieve) bedrijfsmetriek tussen een controleervaring en alternatieve ervaringen.
+
+### Meer details
+
+Wanneer het runnen van online A/B tests, wordt elke gebruiker/bezoeker willekeurig toegewezen aan één enkele variant. Vervolgens meten we de maatstaven(s) van de betrokken ondernemingen (bijv. omzettingen, orders, inkomsten, enz.) voor bezoekers in elke variant. De statistische test die we vervolgens gebruiken, test de hypothese dat de gemiddelde maatstaf van het bedrijfsleven (bv. omrekeningskoers, orders per gebruiker, inkomsten per gebruiker, enz.) gelijk is voor het bedieningsorgaan en een bepaalde alternatieve variant.
+
+Hoewel de bedrijfsmetrische waarde zelf volgens één of andere willekeurige distributie zou kunnen worden verdeeld, zou de distributie van het gemiddelde van dit metrisch (binnen elke variant) in een normale distributie via [Centrale Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) moeten samenkomen. Hoewel er geen garantie is voor de snelheid waarmee deze bemonsteringsspreiding van het gemiddelde zal converteren naar normaal, wordt deze voorwaarde doorgaans bereikt gezien de omvang van de bezoekers bij online testen.
+
+Gezien deze normaliteit van het gemiddelde kan worden aangetoond dat de te gebruiken teststatistiek een t-verdeling volgt, omdat het de verhouding is tussen een normaal verdeelde waarde (het verschil in gemiddelden) en een schaaltermijn op basis van een schatting op basis van de gegevens (de standaardfout van het verschil in gemiddelden). De t-test van de **Student** is dan de geschikte hypothesetest, aangezien de teststatistiek een t-verdeling volgt.
+
+### Waarom geen andere tests worden gebruikt
+
+Een **z-test** is niet geschikt omdat in het typische A/B-testscenario de noemer van de teststatistiek niet is afgeleid van een bekende variantie en in plaats daarvan moet worden geschat aan de hand van de gegevens.
+
+**Chi-kwadraat-** tests worden niet gebruikt omdat deze geschikt zijn om te bepalen of er een kwalitatief verband is tussen twee varianten (d.w.z. een nulhypothese dat er geen verschil is tussen varianten). T-tests zijn geschikter voor het scenario _kwantitatief_ dat metriek vergelijkt.
+
+De **Mann-Whitney U test** is een niet-parametrische test, die passend is wanneer de bemonsteringsverdeling van de gemiddelde metrische waarde van het bedrijf (voor elke variant) normaal niet wordt verdeeld. Nochtans zoals eerder besproken, gezien de omvang van verkeer betrokken bij online het testen, typisch de Centrale Grenswaarden van Theorem van toepassing, en zodat kan t-test veilig worden toegepast.
+
+Complexere methoden zoals **ANOVA** (waarbij t-tests tot meer dan twee varianten worden uitgebreid) kunnen worden toegepast wanneer een test meer dan twee ervaringen heeft (&quot;A/Bn-tests&quot;). ANOVA beantwoordt echter de vraag of alle varianten hetzelfde gemiddelde hebben, terwijl we bij de typische A/Bn-test meer geïnteresseerd zijn in _welke specifieke variant_ het beste is. In [!DNL Target] passen we daarom regelmatig t-tests toe waarbij elke variant op een besturingselement wordt vergeleken, met een Bonferroni-correctie voor meerdere vergelijkingen.
