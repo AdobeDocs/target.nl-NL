@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '3431'
+source-wordcount: '3443'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 22 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md#t-test) | Toegevoegd: &quot;Waarom gebruikt Target de t-tests van de Student?&quot; |
 | 21 januari | [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nieuwe sectie toegevoegd: &quot;A4T Activiteitenrapporten bevatten een rij met een groot aantal &quot;ongespecificeerde&quot; gebeurtenissen.&quot; |
 |  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Bijgewerkte volgende sectie: &quot;Waarom zie ik &quot;niet gespecificeerd&quot;in de rapporten van Analytics? Wat betekent het?&quot; |
 | 20 januari | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nieuw onderwerp. |
