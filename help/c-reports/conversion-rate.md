@@ -4,9 +4,9 @@ description: De conversiesnelheid, de lift, het vertrouwen (statistische signifi
 title: Omrekeningskoers
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ U kunt rapporten weergeven met de volgende telmethoden:
 >
 >Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook als de PCID- en `sessionID`-waarden niet veranderen.
 
-## Waarom gebruikt Target de t-tests van de Student? {#t-test}
+## Waarom adviseert het Doel het gebruiken t-tests van de Student? {#t-test}
 
 A/B-tests zijn experimenten om de gemiddelde waarde van bepaalde metrische bedrijfswaarden in een besturingsvariant (ook wel een ervaring genoemd) te vergelijken met de gemiddelde waarde van die metrische waarde in een of meer alternatieve ervaringen.
 
