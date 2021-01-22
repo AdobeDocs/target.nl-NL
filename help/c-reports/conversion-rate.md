@@ -4,7 +4,7 @@ description: De conversiesnelheid, de lift, het vertrouwen (statistische signifi
 title: Omrekeningskoers
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 0%
@@ -208,4 +208,4 @@ Een **z-test** is niet geschikt omdat in het typische A/B-testscenario de noemer
 
 De **Mann-Whitney U test** is een niet-parametrische test, die passend is wanneer de bemonsteringsverdeling van de gemiddelde metrische waarde van het bedrijf (voor elke variant) normaal niet wordt verdeeld. Nochtans zoals eerder besproken, gezien de omvang van verkeer betrokken bij online het testen, typisch de Centrale Grenswaarden van Theorem van toepassing, en zodat kan t-test veilig worden toegepast.
 
-Complexere methoden zoals **ANOVA** (waarbij t-tests tot meer dan twee varianten worden uitgebreid) kunnen worden toegepast wanneer een test meer dan twee ervaringen heeft (&quot;A/Bn-tests&quot;). ANOVA beantwoordt echter de vraag of alle varianten hetzelfde gemiddelde hebben, terwijl we bij de typische A/Bn-test meer geïnteresseerd zijn in _welke specifieke variant_ het beste is. In [!DNL Target] passen we daarom regelmatig t-tests toe waarbij elke variant op een besturingselement wordt vergeleken, met een Bonferroni-correctie voor meerdere vergelijkingen.
+Complexere methoden zoals **ANOVA** (waarbij t-tests tot meer dan twee varianten worden uitgebreid) kunnen worden toegepast wanneer een test meer dan twee ervaringen heeft (&quot;A/Bn-tests&quot;). ANOVA beantwoordt echter de vraag of alle varianten hetzelfde gemiddelde hebben, terwijl we in de typische A/Bn-test meer geïnteresseerd zijn in _welke specifieke variant_ het beste is. In [!DNL Target] passen we daarom regelmatig t-tests toe waarbij elke variant op een besturingselement wordt vergeleken, met een Bonferroni-correctie voor meerdere vergelijkingen.
