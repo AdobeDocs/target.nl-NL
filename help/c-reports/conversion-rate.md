@@ -4,9 +4,9 @@ description: De conversiesnelheid, de lift, het vertrouwen (statistische signifi
 title: Omrekeningskoers
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
+source-git-commit: f30e16bdb24268e85f6cb3739455d77f7bcb4279
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2147'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Als u deze berekende metriek wilt berekenen, downloadt u het Excel-bestand [Comp
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics].
 
-Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test berekening van de Student uit te voeren, wordt de &quot;som vierkanten&quot;vereist. Dit kan van [!DNL Analytics] worden teruggewonnen. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test berekening van de student uit te voeren, is de &quot;som van kwadraten&quot;vereist om de variantie te berekenen, die in de noemer van t-statistiek wordt gebruikt. [In dit document worden de ](/help/assets/statistical-calculations.pdf) details van de gebruikte wiskundige formules uitgelegd. De som van vierkanten kan van [!DNL Analytics] worden teruggewonnen. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
 
 Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u een voorbeeld van het totale aantal paginaweergaven per bezoeker voor een bepaald tijdsbestek, misschien een paar dagen (een paar duizend gegevenspunten is alles wat u nodig hebt). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 
