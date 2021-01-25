@@ -5,9 +5,9 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Inleiding tot Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,10 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 [Met de functionaliteit ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Machtigingen voor gebruikers van een onderneming kunt u verschillende projecten maken (zogenaamde &quot;Productprofielen&quot; in de  [!DNL Adobe Admin Console for Enterprise]lijst), zodat u verschillende machtigingen kunt toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project bepaalt. Deze verschillende projecten kunnen worden vergeleken met de manier dat de rapportreeksen in [!DNL Adobe Analytics] werken. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten toegang tot hun gebruikers kunnen beperken, bewerken, goedkeuren en publiceren op basis van regio, omgeving (dvd/stage/prod), kanaal of andere aangepaste criteria.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] is een verouderd product. Voor de beste [!DNL Recommendations] ervaring, bevorder aan [!DNL Recommendations] activiteiten beschikbaar in [!DNL Adobe Target Premium], hierboven beschreven.
 
 [!DNL Recommendations Classic] geeft op uw website automatisch producten of inhoud weer die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om objecten die ze anders wellicht niet kennen, door te verwijzen naar betere verkoop op uw website.
 
