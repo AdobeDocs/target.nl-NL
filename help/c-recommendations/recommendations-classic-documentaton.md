@@ -4,17 +4,21 @@ description: Adobe Recommendations Classic-documentatie.
 title: Adobe Recommendations Classic-documentatie.
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: e43cb56ebe80e2df83b3c2a75dd90e28bf3870ff
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMR-aanbevelingen Klassieke documentatie
+# Recommendations Classic-documentatie
 
 [!DNL Recommendations Classic] geeft op uw website automatisch producten of inhoud weer die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten.
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] is een verouderd product. Voor de beste [!DNL Recommendations] ervaring, bevorder aan [!DNL Recommendations] activiteiten beschikbaar in [Adobe Target Premium](/help/c-intro/intro.md).
 
 Recommendations helpt klanten om objecten die ze anders wellicht niet kennen, door te verwijzen naar betere verkoop op uw website.
 
