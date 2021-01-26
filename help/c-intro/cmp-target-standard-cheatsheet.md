@@ -2,9 +2,9 @@
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
 title: Veelgestelde vragen over optimalisatie en personalisatie
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2901'
 ht-degree: 0%
@@ -110,7 +110,7 @@ Vergeet niet de activiteit te activeren. Alleen live-activiteiten voldoen aan he
 
 **Kan ik alleen de stap Doelgericht wijzigen en niet de hele driestappenworkflow met instructies doorlopen om te bewerken?**
 
-U kunt dat gemakkelijk doen door de gewenste stap van uw keus van de pagina van het Overzicht van de Activiteit [ direct in te gaan en dan uit die stap weg te gaan door sparen en te sluiten optie te gebruiken.](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)
+U kunt dat gemakkelijk doen door de gewenste stap van uw keus van de pagina van het Overzicht van de Activiteit ](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) direct in te gaan en dan uit die stap weg te gaan door sparen en te sluiten optie te gebruiken.[
 
 **Kan ik op een bepaalde stap blijven, de activiteit blijven wijzigen (aanbiedingstekst of aangepaste code, bijvoorbeeld), en dan QA in een ander lusje uitvoeren?**
 
@@ -128,7 +128,7 @@ Gebruik de kracht van [op vorm-gebaseerde activiteiten](/help/c-experiences/form
 
 **Mag ik de prioritaire orde van een paar activiteiten bepalen?**
 
-Gebruik de instelling voor prioriteit die beschikbaar is in stap 3 van de Geleide workflow met instructies voor het doel (Doelstellingen en instellingenpagina) om de prioriteit van de activiteiten [ te definiëren.](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)
+Gebruik de instelling voor prioriteit die beschikbaar is in stap 3 van de Geleide workflow met instructies voor het doel (Doelstellingen en instellingenpagina) om de prioriteit van de activiteiten ](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) te definiëren.[
 
 Er zijn twee opties:
 
@@ -159,7 +159,7 @@ Probeer de functie [Profielscripts](/help/c-target/c-visitor-profile/profile-par
 
 Gebruik de besturingselementen voor procentuele toewijzing beschikbaar in [Stap 2 van de Geleide workflow met instructies voor het doel (pagina met doelen)](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u de activiteit wilt instellen.
 
-**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
