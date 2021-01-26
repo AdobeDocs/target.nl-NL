@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: U kunt een activiteit in de Norm van het Doel/Premium vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
 title: Een activiteit maken die A4T als rapportagebron gebruikt
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Sommige beperkingen en notities zijn van toepassing op zowel Automatisch toewijz
 
 * De rapportbron kan niet worden gewijzigd van [!DNL Analytics] in [!DNL Target] of vice versa nadat een activiteit is geactiveerd.
 * Hoewel de berekende metriek niet als primaire doelmetriek worden gesteund, is het vaak mogelijk om het voorgenomen resultaat te bereiken door in plaats daarvan een douanegebeurtenis als primaire doel metrisch te selecteren. Als u bijvoorbeeld wilt optimaliseren voor metrische gegevens, zoals &#39;formulieraanvullen per bezoeker&#39;, selecteert u een aangepaste gebeurtenis die overeenkomt met &#39;formulieraanvullen&#39; als maatstaf voor het primaire doel. [!DNL Target] normaliseert automatisch omzettingsmetriek op een per-bezoek basis om voor ongelijke verkeersdistributie rekening te houden, zodat is het niet noodzakelijk om berekende metrisch te gebruiken om normalisatie uit te voeren.
-* [!DNL Target] gebruikt het attributiemodel &quot;Same Touch&quot; in de  [!UICONTROL Auto-Allocate] A4T-implementatie.
+* [!DNL Target] gebruikt het attribuutmodel &quot;Same Touch&quot; in de  [!UICONTROL Auto-Allocate] functie: Analyses voor Doel (A4T).
 
 #### Automatisch toewijzen
 
