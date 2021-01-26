@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target-welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van Target
 title: Adobe Target-welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van Target
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -24,7 +24,7 @@ U kunt bijvoorbeeld aankoopgegevens van uw verkooppunt koppelen aan een bezoeker
 
 Zie [Aangepaste kenmerken](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) voor stapsgewijze instructies.
 
-**Goed te weten**: Omdat  [!DNL Target] een open en agnostisch platform goed met verschillende technologieën werkt, kunt u CRM of gekochte gegevens op vele verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
+**Goed te weten**: Omdat  [!DNL Target] het een open en agnostisch platform is dat goed met verschillende technologieën werkt, kunt u CRM of gekochte gegevens op vele verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
 
 Zie [Methoden om gegevens in Doel te krijgen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) voor meer informatie.
 
