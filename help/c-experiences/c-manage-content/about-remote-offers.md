@@ -1,13 +1,13 @@
 ---
-keywords: remote offer;remote offer selection matrix;cached content;dynamic content
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content;url type
 description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
 title: Externe aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
+source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 0%
+source-wordcount: '809'
+ht-degree: 1%
 
 ---
 
@@ -44,12 +44,11 @@ Voorbeelden van externe aanbiedingen zijn:
 
    Met een beschrijvende naam kunnen u en anderen het aanbod snel vinden in de bibliotheek [!UICONTROL Assets].
 
-1. Geef de externe URL voor de externe aanbieding op:
+1. Geef het type Redirect URL op.
 
-   | Option | Beschrijving |
-   |--- |--- |
-   | cachegeheugen | De inhoud voor een externe aanbieding in cache wordt aangeboden vanaf [!DNL Target].<br>Om de twee uur  [!DNL Target] haalt u de inhoud op bij de externe URL en slaat u de inhoud vervolgens in  [!DNL Target]. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door [!DNL Target].<br>Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand zich heeft aangemeld om de inhoud  [!DNL Target] niet te kunnen wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.<br>U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst. |
-   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door [!DNL Target].<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens leveren  [!DNL Target] wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch (of verschillend) voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik  **[!UICONTROL Add Parameter]** om een of meer  [!DNL Target] aanvragen of aanvraagparameters toe te voegen. |
+   Zie [URL-type omleiden: In cache of dynamisch](#url-type) hieronder voor meer informatie.
+
+1. Geef de externe URL voor de externe aanbieding op.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -71,14 +70,35 @@ Voorbeelden van externe aanbiedingen zijn:
 
    Met een beschrijvende naam kunnen u en anderen het aanbod snel vinden in de bibliotheek [!UICONTROL Assets].
 
-1. Geef de externe URL voor de externe aanbieding op:
+1. Geef het type Redirect URL op.
 
-   | Option | Beschrijving |
-   |--- |--- |
-   | cachegeheugen | De inhoud voor een externe aanbieding in cache wordt aangeboden vanaf [!DNL Target].<br>Om de twee uur  [!DNL Target] haalt u de inhoud op bij de externe URL en slaat u de inhoud vervolgens in  [!DNL Target]. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door [!DNL Target].<br>Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand zich heeft aangemeld om de inhoud  [!DNL Target] niet te kunnen wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.<br>U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst. |
-   | Dynamisch | Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door [!DNL Target].<br>Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens leveren  [!DNL Target] wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch (of verschillend) voor elke gebruiker kan zijn.<br>Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.<br>Klik  **[!UICONTROL Add Parameter]** om een of meer  [!DNL Target] aanvragen of aanvraagparameters toe te voegen. |
+   Zie [URL-type omleiden: In cache of dynamisch](#url-type) hieronder voor meer informatie.
+
+1. Geef de externe URL voor de externe aanbieding op.
 
 1. Klik op **[!UICONTROL Save]**.
+
+## Type URL omleiden: In cache geplaatst of dynamisch {#url-type}
+
+Aan de hand van de volgende informatie kunt u de verschillen tussen de twee opties beter begrijpen:
+
+### Type in cache geplaatste URL
+
+De inhoud voor een externe aanbieding in cache wordt aangeboden vanaf [!DNL Target].
+
+[!DNL Target] haalt de inhoud om de twee uur op bij de externe URL en slaat de inhoud vervolgens op in [!DNL Target]. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door [!DNL Target].
+
+Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zich heeft aangemeld bij [!DNL Target], de inhoud niet kan wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.
+
+U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst.
+
+### Dynamisch URL-type
+
+Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door [!DNL Target].
+
+Mogelijk wilt u de inhoud niet periodiek in de cache plaatsen en vervolgens door [!DNL Target] leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch (of verschillend) voor elke gebruiker kan zijn. Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.
+
+U kunt **[!UICONTROL Add Parameter]** klikken om één of meerdere [!DNL Target] verzoeken of verzoekparameters toe te voegen.
 
 ## Aanbevolen procedures voor het gebruik van externe aanbiedingen {#section_7718512D08E14121B6F6B8C38134F4BC}
 
