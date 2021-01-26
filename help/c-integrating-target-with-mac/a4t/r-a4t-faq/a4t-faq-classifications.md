@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: Dit onderwerp bevat antwoorden op vragen die vaak over classificaties worden gevraagd en het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
 title: Classificaties - A4T Veelgestelde vragen
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
