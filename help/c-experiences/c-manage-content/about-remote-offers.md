@@ -4,9 +4,9 @@ description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
 title: Externe aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Voorbeelden van externe aanbiedingen zijn:
 
 Aan de hand van de volgende informatie kunt u de verschillen tussen de twee opties beter begrijpen:
 
-### Type in cache geplaatste URL
+### URL in cache
 
 De inhoud voor een externe aanbieding in cache wordt aangeboden vanaf [!DNL Target].
 
@@ -92,7 +92,7 @@ Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zi
 
 U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst.
 
-### Dynamisch URL-type
+### Dynamische URL
 
 Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door [!DNL Target].
 
