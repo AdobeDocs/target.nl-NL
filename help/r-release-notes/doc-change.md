@@ -4,15 +4,15 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 350d401accc7e7d937185c9a65d01a3f5266271e
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3458'
 ht-degree: 0%
 
 ---
 
 
-# Documentatiewijzigingen{#documentation-changes}
+# Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
 
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 26 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md#t-test) | Verduidelijkt hoe het Doel de &quot;som vierkanten&quot;in t-tests van de Student gebruikt. |
 | 22 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md#t-test) | Toegevoegd: &quot;Waarom adviseert het Doel het gebruiken t-tests van de Student?&quot; |
 | 21 januari | [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nieuwe sectie toegevoegd: &quot;A4T Activiteitenrapporten bevatten een rij met een groot aantal &quot;ongespecificeerde&quot; gebeurtenissen.&quot; |
 |  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Bijgewerkte volgende sectie: &quot;Waarom zie ik &quot;niet gespecificeerd&quot;in de rapporten van Analytics? Wat betekent het?&quot; |
