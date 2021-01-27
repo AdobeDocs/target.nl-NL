@@ -4,7 +4,7 @@ description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
 title: Externe aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
+source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
@@ -32,6 +32,18 @@ Voorbeelden van externe aanbiedingen zijn:
 * E-mails
 * Kiosks
 * Spraakassistenten
+
+## Aanbevolen procedures voor het gebruik van externe aanbiedingen {#section_7718512D08E14121B6F6B8C38134F4BC}
+
+Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteiten:
+
+* Als uw aanbieding zich in hetzelfde domein bevindt als de [!DNL Target]-aanvragen, kunt u met de optie [!UICONTROL Cached] relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
+
+   Dit betekent dat wanneer u uw activiteit van uw testservers naar productie verplaatst, de inhoud automatisch toegankelijk zal zijn zonder het moeten URL manueel veranderen.
+
+* Als uw test gegevens bevat die dynamisch door uw server worden gegenereerd, is de optie [!UICONTROL Dynamic] mogelijk de juiste keuze.
+* Als u alleen de weergave van uw bestaande externe aanbiedingsinhoud wilt testen, gebruikt u [!UICONTROL Visual Experience Composer] om de vormgeving van de inhoud die wordt geretourneerd vanuit het inhoudsbeheersysteem te wijzigen.
+* Gebruik de [Matrix voor selectie van aanbiedingen op afstand](#reference_B23BEDD29DDD47709A7651AFD27E776B) (hieronder) om u te helpen de aanbieding te kiezen die het meest geschikt is voor uw specifieke geval. Vraag uw accountvertegenwoordiger.
 
 ## Een externe aanbieding maken op de pagina Codeaanbiedingen
 
@@ -122,18 +134,6 @@ De [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-v
 1. Selecteer de gewenste externe aanbieding in het dialoogvenster [!UICONTROL Select Remote Offer] en klik op **[!UICONTROL Done]**.
 
 1. Voltooi de configuratie van de activiteit.
-
-## Aanbevolen procedures voor het gebruik van externe aanbiedingen {#section_7718512D08E14121B6F6B8C38134F4BC}
-
-Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteiten:
-
-* Als uw aanbieding zich in hetzelfde domein bevindt als de [!DNL Target]-aanvragen, kunt u met de optie [!UICONTROL Cached] relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
-
-   Dit betekent dat wanneer u uw activiteit van uw testservers naar productie verplaatst, de inhoud automatisch toegankelijk zal zijn zonder het moeten URL manueel veranderen.
-
-* Als uw test gegevens bevat die dynamisch door uw server worden gegenereerd, is de optie [!UICONTROL Dynamic] mogelijk de juiste keuze.
-* Als u alleen de weergave van uw bestaande externe aanbiedingsinhoud wilt testen, gebruikt u [!UICONTROL Visual Experience Composer] om de vormgeving van de inhoud die wordt geretourneerd vanuit het inhoudsbeheersysteem te wijzigen.
-* Gebruik de Selectiematrix voor externe aanbiedingen (hieronder) om u te helpen het aanbod te kiezen dat het meest geschikt is voor uw specifieke geval. Vraag uw accountvertegenwoordiger.
 
 ## Hoe dynamisch externe aanbiedingen werken {#concept_CC2A969420B34364A9FA78C1CE251818}
 
