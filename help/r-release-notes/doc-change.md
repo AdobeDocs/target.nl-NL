@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '3458'
+source-wordcount: '3469'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 27 januari | [Omleidingsvoorstellen maken](/help/c-experiences/c-manage-content/offer-redirect.md) | Bijgewerkt onderwerp. |
+|  | [Externe aanbiedingen maken](/help/c-experiences/c-manage-content/about-remote-offers.md) | Bijgewerkt onderwerp. |
 | 26 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md) | Verduidelijkt hoe het Doel de &quot;som vierkanten&quot;in t-tests van de Student gebruikt. |
 | 22 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md#t-test) | Toegevoegd: &quot;Waarom adviseert het Doel het gebruiken t-tests van de Student?&quot; |
 | 21 januari | [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nieuwe sectie toegevoegd: &quot;A4T Activiteitenrapporten bevatten een rij met een groot aantal &quot;ongespecificeerde&quot; gebeurtenissen.&quot; |
