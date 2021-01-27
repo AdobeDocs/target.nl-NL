@@ -4,9 +4,9 @@ description: De Adobe Target Form-Based Experience Composer biedt niet-visuele b
 title: Formuliergebaseerde Experience Composer
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
@@ -21,14 +21,18 @@ Er zijn geen ervaringen als u een Recommendations-activiteit maakt. Kies uw crit
 1. Klik op **[!UICONTROL Create Activity]** en selecteer het type activiteit dat u wilt maken.
 
    De Form-Based Experience Composer is beschikbaar voor A/B tests, Experience Targeting, Automated Personalization en Recommendations activiteiten.
-1. Selecteer **[!UICONTROL Form-Based Experience Composer]** van [!UICONTROL New Activity]dialoogvakje.
+1. Selecteer **[!UICONTROL Form-Based Experience Composer]** van [!UICONTROL Create Activity] dialoogvakje.
+
+1. (Voorwaardelijk) Kies een werkruimte en eigenschap.
+
+1. Klik op **[!UICONTROL Next]**.
 
    De op formulieren gebaseerde Experience Composer wordt geopend.
 
    ![](assets/location_refinements.png)
 
    Dit scherm is anders als u een Recommendations-activiteit maakt. De activiteiten van Recommendations omvatten geen ervaringen.
-1. Geef de activiteit een naam.
+1. Geef de activiteit een naam door op &quot;[!UICONTROL Untitled Activity]&quot; te klikken.
 1. Selecteer een locatie.
 
    Wanneer u in [!UICONTROL Select Location] doos klikt, verschijnt een lijst van beschikbare plaatsen. Selecteer een van deze locaties. Kies &quot;target-global-mbox&quot; als u de algemene locatie wilt kiezen die via target.js wordt geleverd.
@@ -64,9 +68,9 @@ Er zijn geen ervaringen als u een Recommendations-activiteit maakt. Kies uw crit
 
    **Beleidsfragment wijzigen:** Kies een ervaringsfragment.
 
-   **Omleidingsvoorstel wijzigen:** Kies een omleidingsvoorstel.
+   **Omleidingsvoorstel wijzigen:** Kies een omleidingsvoorstel. Zie [Omleidingsaanbiedingen maken](/help/c-experiences/c-manage-content/offer-redirect.md) voor meer informatie.
 
-   **Externe aanbieding wijzigen:** kies een externe aanbieding.
+   **Externe aanbieding wijzigen:** kies een externe aanbieding. Zie [Externe aanbiedingen maken](/help/c-experiences/c-manage-content/about-remote-offers.md) voor meer informatie.
 
    **HTML-voorstel maken:**
 
