@@ -4,9 +4,9 @@ description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
 title: Externe aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -156,3 +156,13 @@ Met de Matrix Selectie voor externe aanbiedingen kunt u bepalen welk type extern
 | Aanbiedingen kunnen JavaScript bevatten | Ja | Ja |
 | Aanbiedings-URL | Absoluut of Relatief | Relatief |
 | De computer aanvragen | Adobe-servers | De computer van de bezoeker, die de cookies van de bezoeker draagt |
+
+## Trainingsvideo: Formuliergebaseerde composer ![Zelfstudie-badge](/help/assets/tutorial.png)
+
+Deze video bevat een demo van de op formulieren gebaseerde composer, waarmee u externe aanbiedingen kunt maken.
+
+* Een activiteit maken met de Form-Based Experience Composer
+* Begrijp wanneer om vorm-Gebaseerde Composer van de Ervaring tegenover Visual Experience Composer te gebruiken
+* Verfijningen gebruiken om een locatie als doel in te stellen
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
