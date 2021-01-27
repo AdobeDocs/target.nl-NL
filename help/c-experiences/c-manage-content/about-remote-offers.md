@@ -4,7 +4,7 @@ description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
 title: Externe aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 1%
@@ -78,11 +78,11 @@ Voorbeelden van externe aanbiedingen zijn:
 
 1. Klik op **[!UICONTROL Save]**.
 
-### Type URL omleiden: In cache geplaatst of dynamisch {#url-type}
+## Type URL omleiden: In cache geplaatst of dynamisch {#url-type}
 
 Aan de hand van de volgende informatie kunt u de verschillen tussen de twee opties beter begrijpen:
 
-#### URL in cache
+### URL in cache
 
 De inhoud voor een externe aanbieding in cache wordt aangeboden vanaf [!DNL Target].
 
@@ -92,7 +92,7 @@ Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zi
 
 U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst.
 
-#### Dynamische URL
+### Dynamische URL
 
 Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door [!DNL Target].
 
