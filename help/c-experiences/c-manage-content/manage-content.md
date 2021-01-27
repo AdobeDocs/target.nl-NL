@@ -1,44 +1,67 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Gebruik de bibliotheek met aanbiedingen in Adobe Target om uw codeaanbieding en inhoud van de afbeeldingsaanbieding te beheren.
+description: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 title: Aanbiedingen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# Aanbiedingen{#offers}
+# Aanbiedingen
 
-Met de bibliotheek Aanbiedingen in [!DNL Adobe Target] kunt u uw codeaanbieding en inhoud van de afbeeldingsaanbieding beheren.
+Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanbieding en beeldaanbiedingsinhoud te beheren.
 
->[!NOTE]
->
->In de release van januari 2017 zijn aanbiedingen die zijn gemaakt via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s zichtbaar in de gebruikersinterface van [!DNL Target Standard/Premium]. Aanbiedingen die de afgelopen twee jaar met behulp van deze methoden zijn bijgewerkt, zijn zichtbaar (d.w.z. januari 2015 en daarna). De eerste synchronisatie vindt plaats wanneer een gebruiker in uw organisatie de pagina [!UICONTROL Offers] voor het eerst opent. De hoeveelheid tijd voor de eerste synchronisatie is afhankelijk van de hoeveelheid gegevens. Na de eerste synchronisatie worden de gegevens incrementeel gesynchroniseerd. Als er vóór deze release code en afbeeldingen in dezelfde map stonden, worden deze door [!DNL Target] gesplitst in twee dubbele mappen. De bijgewerkte datum en tijd verwijzen naar de tijd waarop de map is gemigreerd en geven niet de datum weer waarop u de map oorspronkelijk hebt gemaakt.
+1. Klik **[!UICONTROL Offers]** om de bibliotheek te openen.
 
-Klik **[!UICONTROL Offers]** om de bibliotheek te openen. De bibliotheek bevat de aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen die zijn gemaakt in [!DNL Target Classic] of andere oplossingen kunnen worden bewerkt in [!DNL Target Standard/Premium].
+   De bibliotheek bevat de aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen die zijn gemaakt in [!DNL Target Classic] of andere oplossingen kunnen worden bewerkt in [!DNL Target Standard/Premium].
 
-De pagina [!UICONTROL Offers] heeft twee tabbladen aan de rechterkant: Codevoorstellen en afbeeldingsvoorstellen waarmee u voorstellen op type kunt bekijken.
+   De pagina [!UICONTROL Offers] heeft twee tabbladen aan de rechterkant: [!UICONTROL Code Offers] en [!UICONTROL Image Offers] die u voorstellen door type laten bekijken.
 
-![](assets/offers_page.png)
+   ![Pagina met aanbiedingen met de tabbladen Codevoorstellen en Afbeeldingsaanbiedingen](/help/c-experiences/c-manage-content/assets/offers-page.png)
 
-U kunt aanbiedingen filteren op type (HTML-aanbieding, Aanbieding omleiden, Externe aanbieding of Map) en op bron (Adobe Target, Adobe Target Classic, Adobe Experience Manager, Mobiele Adobe-services of API).
+1. (Optioneel) Klik op de vervolgkeuzelijst **[!UICONTROL Type]** om aanbiedingen op type te filteren (HTML-aanbieding, [Gespecialiseerde fragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md), [Aanbieding omleiden](/help/c-experiences/c-manage-content/offer-redirect.md), [Externe aanbieding](/help/c-experiences/c-manage-content/about-remote-offers.md), [JSON-aanbiedingen](/help/c-experiences/c-manage-content/create-json-offer.md) en [Mappen](/help/c-experiences/c-manage-content/create-content-folder.md)).
 
-![](assets/offers_filter.png)
+   ![](assets/offers_filter.png)
 
-U kunt een map of aanbieding bewerken of kopiëren door de muisaanwijzer boven het gewenste item te houden en vervolgens op de pictogrammen Bewerken of Kopiëren te klikken.
+1. (Optioneel) Klik op de vervolgkeuzelijst **[!UICONTROL Source]** om aanbiedingen te filteren op bron (Adobe Target, Adobe Target Classic en Adobe Experience Manager).
 
-![](assets/offer-picker-large.png)
+1. (Optioneel) Voer aanvullende taken uit door de muisaanwijzer boven de gewenste aanbieding of map op het tabblad [!UICONTROL Code Offers] te houden en vervolgens op het gewenste pictogram te klikken.
 
-## Definities weergaveaanbieding {#section_6B059DD121434E6292CAB393507D010E}
+   ![Opties voor codeaanbiedingen](assets/offer-picker-large.png)
 
-U kunt definitiedetails van voorstellen op een pop-up kaart in de Bibliotheek van Aanbiedingen bekijken zonder de aanbieding te openen.
+   De volgende opties zijn beschikbaar:
 
-De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding wordt bijvoorbeeld geopend door de muisaanwijzer op een aanbieding in de lijst Inhoud te plaatsen en vervolgens op het informatiepictogram te klikken:
+   * Weergave (zie [Definities van aanbiedingen weergeven](#section_6B059DD121434E6292CAB393507D010E) hieronder voor meer informatie.)
+   * Bewerken
+   * Kopiëren
+   * Verplaats (als u bijvoorbeeld een of meer items naar een map wilt verplaatsen, klikt u op het pictogram **[!UICONTROL Move]** voor het gewenste item, klikt u op de gewenste map en vervolgens op **[!UICONTROL Drop]**.)
+   * Verwijderen
+
+   Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Bijvoorbeeld, heeft een gebruiker met [!UICONTROL Observer] toestemmingen niet de rechten om de [!UICONTROL Copy] optie te gebruiken.
+
+1. (Optioneel) Voer aanvullende taken uit door de muisaanwijzer boven de gewenste afbeeldingsaanbieding of map op het tabblad [!UICONTROL Image Offers] te houden en vervolgens op het gewenste pictogram te klikken.
+
+   ![Opties voor afbeeldingsaanbiedingen](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
+
+   De volgende opties zijn beschikbaar:
+
+   * Selecteren
+   * Downloaden
+   * Eigenschappen weergeven
+   * Bewerken
+   * Annoteren
+   * Kopiëren
+
+## Definities {#section_6B059DD121434E6292CAB393507D010E} weergeven
+
+U kunt definitiedetails van aanbiedingen op een pop-up kaart in [!UICONTROL Offers] bibliotheek bekijken zonder de aanbieding te openen.
+
+De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding wordt bijvoorbeeld geopend door de muisaanwijzer op een aanbieding in de lijst [!UICONTROL Content] te plaatsen en vervolgens op het informatiepictogram te klikken:
 
 ![](assets/offer-card-html.png)
 
@@ -51,7 +74,7 @@ De volgende informatie is beschikbaar:
 * Pad aanbod
 * Laatst gewijzigd
 
-Klik op het tabblad [!UICONTROL Offer Usage] om de activiteiten weer te geven die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. De informatie omvat Live Activiteiten en Inactieve Activiteiten.
+Klik op het tabblad [!UICONTROL Offer Usage] om de activiteiten weer te geven die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. De informatie omvat [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities].
 
 ![](assets/offer-card-usage.png)
 
@@ -68,8 +91,8 @@ De volgende informatie is beschikbaar:
 * Pad aanbod
 * Laatst gewijzigd
 * URL omleiden
-* Alle URL-parameters opnemen (aan of uit)
-* Identiteitskaart van de vergaderingszitting van de pas (of weg)
+* Alle URL-parameters opnemen (Aan of Uit)
+* Identiteitskaart van de vergaderingszitting van de pas (aan of weg)
 
 De volgende kaart van de aanbiedingsdefinitie voor een Verre aanbieding:
 
