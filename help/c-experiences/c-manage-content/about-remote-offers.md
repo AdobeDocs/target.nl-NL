@@ -4,9 +4,9 @@ description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
 title: Externe aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Gebruik externe aanbiedingen om inhoud te hosten buiten [!DNL Adobe Target] die 
 
 >[!NOTE]
 >
->Externe aanbiedingen kunnen worden gemaakt op de pagina Aanbiedingen > Codeaanbiedingen of in de [Op Forms gebaseerde Experience Composer](/help/c-experiences/form-experience-composer.md). U kunt geen verre aanbiedingen in de Visuele Composer van de Ervaring (VEC) tot stand brengen. De inhoud zal in de [!DNL Target] verzoekplaatsen worden geïnjecteerd, zodat zijn deze hoogstwaarschijnlijk niet aangewezen voor een globaal [!DNL Target] verzoek.
+>Externe aanbiedingen kunnen worden gemaakt op de [!UICONTROL Offers] > [!UICONTROL Code Offers]-pagina of in de [Op Forms gebaseerde Experience Composer](/help/c-experiences/form-experience-composer.md). U kunt geen verre aanbiedingen in de Visuele Composer van de Ervaring (VEC) tot stand brengen of toepassen. De inhoud zal in de [!DNL Target] verzoekplaatsen worden geïnjecteerd, zodat zijn deze hoogstwaarschijnlijk niet aangewezen voor een globaal [!DNL Target] verzoek.
 >
 >[!DNL Target Classic] meegeleverde vergelijkbare functies:  [!UICONTROL Offer on Your Site] en  [!UICONTROL Offer Outside Test&Target].
 
@@ -78,11 +78,11 @@ Voorbeelden van externe aanbiedingen zijn:
 
 1. Klik op **[!UICONTROL Save]**.
 
-## Type URL omleiden: In cache geplaatst of dynamisch {#url-type}
+### Type URL omleiden: In cache geplaatst of dynamisch {#url-type}
 
 Aan de hand van de volgende informatie kunt u de verschillen tussen de twee opties beter begrijpen:
 
-### URL in cache
+#### URL in cache
 
 De inhoud voor een externe aanbieding in cache wordt aangeboden vanaf [!DNL Target].
 
@@ -92,13 +92,31 @@ Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zi
 
 U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst.
 
-### Dynamische URL
+#### Dynamische URL
 
 Een dynamische aanbieding op afstand wordt aangeboden door het contentbeheer of een ander systeem in plaats van door [!DNL Target].
 
 Mogelijk wilt u de inhoud niet periodiek in de cache plaatsen en vervolgens door [!DNL Target] leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch (of verschillend) voor elke gebruiker kan zijn. Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.
 
 U kunt **[!UICONTROL Add Parameter]** klikken om één of meerdere [!DNL Target] verzoeken of verzoekparameters toe te voegen.
+
+## Externe aanbiedingen gebruiken in activiteiten
+
+U moet externe aanbiedingen toepassen met de [!UICONTROL Form-Based Experience Composer]. U kunt momenteel geen verre voorstellen toepassen gebruikend VEC.
+
+1. Maak of bewerk een activiteit in [!UICONTROL Form-Based Experience Composer].
+
+   Zie [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) voor gedetailleerde stapsgewijze instructies.
+
+1. Geef de gewenste locatie op en voeg desgewenst verfijningen voor de doelgroep toe.
+
+1. Klik op de vervolgkeuzelijst in de sectie **[!UICONTROL Content]** en klik vervolgens op **[!UICONTROL Change Remote Offer]**.
+
+   ![Externe aanbieding wijzigen, optie](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. Selecteer de gewenste externe aanbieding in het dialoogvenster [!UICONTROL Select Remote Offer] en klik op **[!UICONTROL Done]**.
+
+1. Voltooi de configuratie van de activiteit.
 
 ## Aanbevolen procedures voor het gebruik van externe aanbiedingen {#section_7718512D08E14121B6F6B8C38134F4BC}
 
