@@ -4,9 +4,9 @@ description: Kan ik aanbiedingen omleiden gebruiken om een browser naar een nieu
 title: Omleidingsvoorstellen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -134,12 +134,12 @@ De [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-v
 
 1. Voltooi de configuratie van de activiteit.
 
-## Trainingsvideo: De inhouds-opslagplaats (4:56) ![Overzichtsbadge](/help/assets/overview.png)
+## Trainingsvideo: Formuliergebaseerde composer ![Zelfstudie-badge](/help/assets/tutorial.png)
 
-Deze video bevat informatie over het beheren van inhoud.
+Deze video bevat een demo van de op formulieren gebaseerde composer, waarmee u omleidingsaanbiedingen kunt maken.
 
-* Verbinding tussen de [Experience Cloud-elementenbibliotheek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
-* Aangepaste HTML-aanbiedingen
-* Aangepaste HTML-aanbieding in de Visual Experience Composer
+* Een activiteit maken met de Form-Based Experience Composer
+* Begrijp wanneer om vorm-Gebaseerde Composer van de Ervaring tegenover Visual Experience Composer te gebruiken
+* Verfijningen gebruiken om een locatie als doel in te stellen
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
