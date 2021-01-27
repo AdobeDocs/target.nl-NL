@@ -4,10 +4,10 @@ description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
 title: Externe aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 1%
+source-wordcount: '931'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,9 @@ Voorbeelden van externe aanbiedingen zijn:
 * Forms
 * Rekenmachines
 * Renteverhoging
+* E-mails
+* Kiosks
+* Spraakassistenten
 
 ## Een externe aanbieding maken op de pagina Codeaanbiedingen
 
@@ -103,6 +106,8 @@ U kunt **[!UICONTROL Add Parameter]** klikken om één of meerdere [!DNL Target]
 ## Externe aanbiedingen gebruiken in activiteiten
 
 U moet externe aanbiedingen toepassen met de [!UICONTROL Form-Based Experience Composer]. U kunt momenteel geen verre voorstellen toepassen gebruikend VEC.
+
+De [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Recommendations]-activiteiten wanneer de visuele ervaringscomposer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de [!UICONTROL Form-Based Experience Composer] gebruiken om ervaringen op te doen die gebruikmaken van externe aanbiedingen.
 
 1. Maak of bewerk een activiteit in [!UICONTROL Form-Based Experience Composer].
 
