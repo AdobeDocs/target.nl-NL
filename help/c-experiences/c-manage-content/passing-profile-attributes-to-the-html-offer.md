@@ -1,12 +1,12 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: U kunt profielwaarden en activiteitgegevens rechtstreeks weergeven in een HTML- of JSON-aanbieding in Adobe Target.
+description: Hoe kan ik profielwaarden en activiteiteninformatie direct in een aanbieding van HTML of JSON overgaan?
 title: Dynamische gegevens in aanbiedingen doorgeven
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,17 @@ Voor Recommendations-ontwerpen raadpleegt u aanvullende voorbeelden in [Overzich
 
 ## Implementatie
 
-Gebruik de syntaxis voor profielparameters die aan een box worden doorgegeven: `${profile.parameter}` Voor profielparameters die in een profielmanuscript worden gecreeerd, gebruik de syntaxis:
+Gebruik de syntaxis voor profielparameters die aan een box worden doorgegeven:
+
+`${profile.parameter}`
+
+Gebruik de syntaxis voor profielparameters die zijn gemaakt in een profielscript:
 
 `${user.parameter}`
 
-Wanneer u dynamische kenmerken in een Recommendations-ontwerp gebruikt, moet u vóór het dollarteken ( $ ) een backslash ( \ ) invoegen om de dynamische waarde correct te laten renderen: `\${user.endpoint.lastViewedEntity}`
+Wanneer u dynamische kenmerken in een [!DNL Recommendations]-ontwerp gebruikt, moet u vóór het dollarteken ( $ ) een backslash ( \ ) invoegen om de dynamische waarde correct te laten renderen:
+
+`\${user.endpoint.lastViewedEntity}`
 
 Deze variabelen worden vervangen door de waarde aan de serverzijde, zodat er geen aanhalingstekens of andere JavaScript vereist zijn voor de juiste weergave.
 
