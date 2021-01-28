@@ -1,27 +1,40 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: U kunt items toevoegen aan de lijst Afbeeldingsaanbiedingen in Adobe Target.
+description: Hoe kan ik afbeeldingen uploaden om te gebruiken als afbeeldingsaanbiedingen?
 title: Inhoud uploaden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 5%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
 
 # Inhoud uploaden
 
-U kunt items toevoegen aan of verwijderen uit de lijst Afbeeldingsaanbiedingen in [!DNL Adobe Target].
+U kunt afbeeldingen uploaden naar de [!UICONTROL Image Offers]-lijst in [!DNL Adobe Target] om deze te gebruiken als aanbiedingen voor afbeeldingen in activiteiten. U kunt ook aanbiedingen voor afbeeldingen verwijderen die u niet meer nodig hebt in activiteiten.
 
-1. Klik op **[!UICONTROL Offers]** en selecteer vervolgens het tabblad **[!UICONTROL Image Offers]**.
+## Aanbiedingen voor afbeeldingen aan de lijst toevoegen
+
+1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+
+   ![Aanbiedingen > Afbeeldingsaanbiedingen](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]**.
-1. Selecteer het item dat u wilt toevoegen en klik op **[!UICONTROL Open]**.
+1. Blader naar het item dat u wilt toevoegen en selecteer dit item. Klik vervolgens op **[!UICONTROL Open]**.
 1. Bewerk indien nodig de bestandsnaam van het item en klik op **[!UICONTROL Upload]**.
 
-   Het item wordt geüpload naar de bibliotheek.
+## Aanbiedingen of mappen voor afbeeldingen verwijderen
+
+Als u wilt schakelen tussen [!UICONTROL Card View] en [!UICONTROL List View], klikt u op het pictogram [!UICONTROL Card View] of op het pictogram [!UICONTROL List View] in de rechterbovenhoek van de inhoudsbibliotheek.
+
+Houd de muisaanwijzer boven de gewenste afbeeldingsaanbieding of -map in [!UICONTROL Card View] en klik op **[!UICONTROL Select]** pictogram (het vinkje). Klik vervolgens op **[!UICONTROL Delete]**.
+
+Klik in [!UICONTROL List View] op de miniatuurafbeelding aan de linkerkant van de lijst om het gewenste afbeeldingsaanbod of de gewenste afbeeldingsmap te selecteren en klik vervolgens op **[!UICONTROL Delete]**, zoals hieronder wordt weergegeven:
+
+![Geselecteerd item verwijderen](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
 
 ## Trainingsvideo: De inhoudopslagplaats ![Overzichtsbadge](/help/assets/overview.png)
 
