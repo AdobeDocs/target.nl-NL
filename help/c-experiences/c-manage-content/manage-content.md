@@ -4,9 +4,9 @@ description: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 title: Aanbiedingen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
    Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Bijvoorbeeld, heeft een gebruiker met [!UICONTROL Observer] toestemmingen niet de rechten om de [!UICONTROL Copy] optie te gebruiken.
 
+   Zie [Werken met inhoud in de elementenbibliotheek](/help/c-experiences/c-manage-content/assets-working.md) voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedingen en mappen.
+
 1. (Optioneel) Voer aanvullende taken uit door de muisaanwijzer boven de gewenste afbeeldingsaanbieding of map op het tabblad [!UICONTROL Image Offers] te houden en vervolgens op het gewenste pictogram te klikken.
 
    ![Opties voor afbeeldingsaanbiedingen](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
    * Bewerken
    * Annoteren
    * Kopiëren
+
+   Zie [Werken met inhoud in de elementenbibliotheek](/help/c-experiences/c-manage-content/assets-working.md) voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedingen en mappen.
 
 ## Definities {#section_6B059DD121434E6292CAB393507D010E} weergeven
 
