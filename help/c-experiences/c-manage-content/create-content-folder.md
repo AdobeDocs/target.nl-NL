@@ -4,9 +4,9 @@ description: Hoe maak ik mappen in de bibliotheek met aanbiedingen?
 title: Aanbiedingenmap maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
@@ -62,13 +62,15 @@ Wanneer u de pagina [!UICONTROL Code Offers] weergeeft, kunt u de volgende hande
 
    Geeft aan dat u en anderen de positie van de map in de lijstweergave kunnen wijzigen.
 
-1. (Optioneel) Als u wilt schakelen tussen [!UICONTROL Card View] en [!UICONTROL List View], klikt u op het pictogram [!UICONTROL Card View] of op het pictogram [!UICONTROL List View] in de rechterbovenhoek van de inhoudsbibliotheek. U kunt [!UICONTROL View Settings] ook gebruiken om de kolommen verder te vormen wanneer het bekijken van [!UICONTROL List View].
-
-   In de volgende afbeelding ziet u de beschikbare opties bij het weergeven van de [!UICONTROL List View]:
-
-   ![Opties voor lijstweergave](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. Klik op **[!UICONTROL Create]**.
+
+### Schakelen tussen de Kaartweergave en de Lijstweergave
+
+Als u wilt schakelen tussen [!UICONTROL Card View] en [!UICONTROL List View], klikt u op het pictogram [!UICONTROL Card View] of op het pictogram [!UICONTROL List View] in de rechterbovenhoek van de inhoudsbibliotheek. U kunt [!UICONTROL View Settings] ook gebruiken om de kolommen verder te vormen wanneer het bekijken van [!UICONTROL List View].
+
+In de volgende afbeelding ziet u de beschikbare opties bij het weergeven van de [!UICONTROL List View]:
+
+![Opties voor lijstweergave](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### Opties voor afbeeldingsaanbiedingen
 
