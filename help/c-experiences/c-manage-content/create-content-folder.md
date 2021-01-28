@@ -1,83 +1,107 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Maak een map voor de items in de bibliotheek met aanbiedingen in Adobe Target.
+description: Hoe maak ik mappen in de bibliotheek met aanbiedingen?
 title: Aanbiedingenmap maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 0%
+source-wordcount: '528'
+ht-degree: 1%
 
 ---
 
 
-# Aanbiedingenmap maken
+# Aanbiedingsmappen maken
 
-Maak een map voor de items in de bibliotheek met aanbiedingen in Adobe Target.
+Maak mappen in de Adobe Target Offer-bibliotheek voor het bevatten van codeaanbiedingen, afbeeldingsaanbiedingen en andere mappen om een submapstructuur te maken.
 
-1. Klik **[!UICONTROL Offers]**, dan selecteer **[!UICONTROL Code Offers]** of **[!UICONTROL Image Offers]** tabel, zoals aangewezen.
+Het proces voor het maken van mappen voor codeaanbiedingen en afbeeldingsaanbiedingen verschilt enigszins. De volgende secties bevatten meer informatie.
+
+## Codeaanbiedingsmappen
+
+1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+
+   ![Tabblad Codeaanbiedingen](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
-1. Vul de velden in:
 
-   | Veld | Beschrijving |
-   |--- |--- |
-   | Titel (alleen van toepassing op aanbiedingen voor afbeeldingen) | Geef een beschrijvende naam voor de map op. U kunt bijvoorbeeld het type inhoud opnemen dat wordt opgeslagen.<br>De naam mag niet de volgende tekens bevatten:<br>Percent-teken  `%`<br>Forward-slash  `/`<br>Backslash  `\`<br>Colon  `:`<br>Asterisk  `*`<br>Vraagteken  `?`<br>Dubbele aanhalingstekens Vierkante haken  `"`<br>Vierkante haken  `[`<br>  `]`<br>Plus-teken:  `+`<br>Pijp:  `|`<br>Periode:  `.`<br>Getalteken:  `#`<br>accolade:  `{`<br>Curly bracket  `}`<br>Caret  `^`<br>Semicolon  `;`<br>U kunt een koppelteken (  `- `) in plaats van deze tekens gebruiken. |
-   | Naam (van toepassing op zowel code- als afbeeldingsaanbiedingen) | Bewerk desgewenst de naam. |
-   | Privé (alleen van toepassing op afbeeldingsaanbiedingen) | Geeft aan dat de map privé is, zodat alleen u deze en de inhoud ervan kunt zien. |
-   | Opnieuw ordenen is mogelijk in de lijstweergave (alleen van toepassing op afbeeldingsaanbiedingen) | Geeft aan dat u en anderen de positie van de map in de lijstweergave kunnen wijzigen.<br>Als u wilt schakelen tussen de Kaartweergave en de Lijstweergave, klikt u op het pictogram Kaartweergave of het pictogram Lijstweergave in de rechterbovenhoek van de inhoudsbibliotheek. U kunt ook Weergave-instellingen selecteren om kolommen in de lijstweergave op te nemen of uit te sluiten. |
+1. Geef een beschrijvende naam op voor de map.
 
 1. Klik op **[!UICONTROL Create]**.
 
-## Opties voor codeaanbiedingen
+### Opties voor codeaanbiedingen
 
 Wanneer u de pagina [!UICONTROL Code Offers] weergeeft, kunt u de volgende handelingen op de map uitvoeren door de muis boven de map te houden en vervolgens het juiste pictogram te selecteren.
 
-### Informatie ![](assets/icon_info.png)
+![Pictogrammen boven op het tabblad Codeaanbiedingen](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-Geef de mapgegevens weer.
+* **Informatie**: Bekijk de gegevens van de aanbieding.
+* **Bewerken**: Bewerk de map of het aanbod.
+* **Kopiëren**: Kopieer het voorstel. Door het voorstel te kopiëren en vervolgens te bewerken kunt u gemakkelijk een vergelijkbare nieuwe aanbieding maken.
+* **Verplaatsen**: Klik op het pictogram Verplaatsen, navigeer naar de locatie waarnaar u de map wilt verplaatsen en klik op het  **[!UICONTROL Drop]** pictogram. U kunt bijvoorbeeld een of meer mappen naar een andere map verplaatsen om submappen te maken. Klik op [!UICONTROL Clear Selection] om de selectie van aanbiedingen of mappen die u hebt geselecteerd, op te heffen.
+* **Verwijderen**: Verwijder de aanbieding of map.
 
-### ![](assets/icon_edit.png) bewerken
+## Afbeeldingsaanbiedingsmappen
 
-Bewerk de map.
+1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-### ![](assets/icon_copy.png) kopiëren
+   ![Tabblad Afbeeldingsaanbiedingen](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-Kopieer de map.
+1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Geef een beschrijvende **[!UICONTROL Title]** voor de map op.
 
-### ![](assets/icon_move_folder.png)
+   U kunt bijvoorbeeld het type inhoud opnemen dat wordt opgeslagen. De naam mag niet de volgende tekens bevatten: Percent sign `%`,Forward slash `/`,Backslash `\`, Colon `:`, Asterisk `*`, Question mark `?`, Double quotes `"`, Square bracket `[`, Square bracket `]`, Plus sign: `+`, pijp: `|`, punt: `.`, Nummer: `#`, accolade: `{`, accolade `}`, Caret `^` of Semicolon `;`. In plaats van deze tekens kunt u een afbreekstreepje ( `- `) gebruiken.
 
-Klik op het pictogram, navigeer naar de locatie waarnaar u de map wilt verplaatsen en klik vervolgens op het pictogram Verplaatsen.
+1. (Optioneel) Bewerk de **[!UICONTROL Name]**.
+1. (Optioneel) Selecteer het selectievakje **[!UICONTROL Private]**.
 
-U kunt bijvoorbeeld een of meer mappen naar een andere map verplaatsen om submappen te maken.
+   Geeft aan dat de map privé is, zodat alleen u deze en de inhoud ervan kunt zien.
 
-Klik op Selectie wissen om de geselecteerde mappen te deselecteren.
+1. (Optioneel) Selecteer het selectievakje **[!UICONTROL Reorder-able in List View]**.
 
-### ![](assets/icon_delete.png) verwijderen
+   Geeft aan dat u en anderen de positie van de map in de lijstweergave kunnen wijzigen.
 
-Verwijder de map.
+1. (Optioneel) Als u wilt schakelen tussen [!UICONTROL Card View] en [!UICONTROL List View], klikt u op het pictogram [!UICONTROL Card View] of op het pictogram [!UICONTROL List View] in de rechterbovenhoek van de inhoudsbibliotheek. U kunt [!UICONTROL View Settings] ook gebruiken om de kolommen verder te vormen wanneer het bekijken van [!UICONTROL List View].
 
-## Opties voor afbeeldingsaanbiedingen
+   In de volgende afbeelding ziet u de beschikbare opties bij het weergeven van de [!UICONTROL List View]:
 
-Wanneer u de pagina [!UICONTROL Image Offers] weergeeft, kunt u de volgende handelingen op de map uitvoeren door de muis boven de map te houden en vervolgens het juiste pictogram te selecteren:
+   ![Opties voor lijstweergave](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-### ![](assets/icon_check.png) selecteren
+1. Klik op **[!UICONTROL Create]**.
 
-Selecteer een of meer mappen waarop de volgende handelingen moeten worden uitgevoerd:
+### Opties voor afbeeldingsaanbiedingen
 
-* Downloaden
-* Kopiëren
-* Verplaatsen
-* Verwijderen
+Wanneer u de pagina [!UICONTROL Image Offers] weergeeft, kunt u de volgende handelingen op de map uitvoeren door de muis boven de map te houden en vervolgens het juiste pictogram te selecteren.
 
-### ![](assets/icon_download.png) downloaden
+In de volgende afbeelding ziet u de aanwijspictogrammen wanneer u de [!UICONTROL Card View] bekijkt.
 
-Download de map en de inhoud ervan.
+![Houd pictogrammen boven op het tabblad Afbeeldingsaanbiedingen in de Kaartweergave](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-### Delen naar Adobe Creative Cloud ![](assets/icon_creative_cloud.png)
+In de volgende afbeelding ziet u de aanwijspictogrammen wanneer u de [!UICONTROL List View] bekijkt. Klik op een item in de lijst om de pictogrammen weer te geven.
 
-Deel de map en de inhoud ervan met de Adobe Creative Cloud.
+![Pictogrammen in de lijstweergave op het tabblad Afbeeldingsaanbiedingen](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-### ![](assets/icon_copy_content.png) kopiëren
+* **Selecteren**: Selecteer een of meer mappen waarop de volgende handelingen moeten worden uitgevoerd:
 
-Kopieer de map en de inhoud ervan.
+   * Downloaden
+   * Kopiëren
+   * Verplaatsen
+   * Verwijderen
+
+   Selecteer een of meer afbeeldingsaanbiedingen waarop u de volgende handelingen wilt uitvoeren:
+
+   * Delen
+   * Downloaden
+   * Eigenschappen weergeven
+   * Bewerken
+   * Annoteren
+   * Verplaatsen
+
+
+* **Downloaden**: Download de afbeeldingsaanbieding of de map en de inhoud ervan.
+* **Weergave-eigenschappen**: De eigenschappen van het item weergeven. Klik op het tabblad [!UICONTROL Basic] en op het tabblad [!UICONTROL Advanced] om alle beschikbare informatie weer te geven.
+* **Meer handelingen**: Geef aanvullende opties weer wanneer u zich aanmeldt  [!UICONTROL Card View].
+* **Bewerken**: Bewerk de map of het aanbod.
+* **Annoteren**: Voeg annotaties toe aan de afbeeldingsaanbieding.
+* **Kopiëren**: Kopieer het voorstel. Door het voorstel te kopiëren en vervolgens te bewerken kunt u gemakkelijk een vergelijkbare nieuwe aanbieding maken.
