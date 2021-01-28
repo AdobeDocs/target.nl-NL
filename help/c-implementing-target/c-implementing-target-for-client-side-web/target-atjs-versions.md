@@ -4,9 +4,9 @@ description: Informatie over de wijzigingen in elke versie van Adobe Target op .
 title: details van de at.js-versie
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
 workflow-type: tm+mt
-source-wordcount: '4027'
+source-wordcount: '4062'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossingen
 
 Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:
 
-* Correctie van een probleem met betrekking tot het bijhouden van een postvak en A4T.
+* Correctie van een probleem met betrekking tot het bijhouden van een postvak en A4T. Met 0n-klik, vuurde het Doel een vraag van levering API met de correcte mbox en mbox parameters in brand. De SDID kwam echter niet overeen met de id in de [!DNL Analytics]-aanroep, zodat er geen raakdetectie en conversie heeft plaatsgevonden. (TNT-38372)
 
 ## te.js 2.3.2 (24 juli 2020)
 
