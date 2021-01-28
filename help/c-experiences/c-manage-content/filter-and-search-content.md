@@ -1,12 +1,12 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: Zoek naar activa door sleutelwoorden en sla onderzoeksomslagen, genoemd slimme inzamelingen op, die automatisch met onderzoeksresultaten worden bijgewerkt.
+description: Hoe kan ik naar elementen zoeken op trefwoorden en zoekmappen opslaan?
 title: Inhoud zoeken en slimme verzamelingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,6 @@ ht-degree: 0%
 Zoek naar activa door sleutelwoorden en sla onderzoeksomslagen, genoemd slimme inzamelingen op, die automatisch met onderzoeksresultaten worden bijgewerkt.
 
 Deze sectie bevat de volgende informatie:
-
-* [Middelen zoeken op trefwoord](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Slimme verzameling opslaan](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
 ## Middelen zoeken op trefwoord {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
