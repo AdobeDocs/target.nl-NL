@@ -1,13 +1,13 @@
 ---
 keywords: remote offer;create remote offer
-description: Maak JSON-aanbiedingen in de Aanbiedingsbibliotheek in Adobe Target voor gebruik in de Form-Based Experience Composer.
+description: Hoe maak ik JSON-aanbiedingen?
 title: JSON-aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '362'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +16,14 @@ ht-degree: 1%
 
 Maak JSON-aanbiedingen in [!UICONTROL Offer Library] in [!DNL Adobe Target] voor gebruik in [!UICONTROL Form-Based Experience Composer].
 
-JSON-aanbiedingen kunnen worden gebruikt in op formulieren gebaseerde activiteiten waarbij het mogelijk is gevallen te gebruiken waarin de beslissing van Target vereist is om een aanbod in JSON-indeling te verzenden voor gebruik in SPA framework of serverintegratie.
+JSON-aanbiedingen kunnen worden gebruikt in op formulieren gebaseerde activiteiten waarbij het mogelijk is gevallen te gebruiken waarin de beslissing van [!DNL Target] vereist is om een aanbieding in JSON-indeling te verzenden voor gebruik in SPA framework of serverintegratie.
+
+## JSON-overwegingen
 
 Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
-* JSON-aanbiedingen zijn momenteel alleen beschikbaar voor AB- en XT-activiteiten.
-* JSON-aanbiedingen kunnen alleen worden gebruikt in formuliergebaseerde activiteiten.
+* JSON-aanbiedingen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test]- en [!UICONTROL Experience Targeting] (XT)-activiteiten.
+* JSON-aanbiedingen kunnen alleen worden gebruikt in [op formulieren gebaseerde activiteiten](/help/c-experiences/form-experience-composer.md).
 * De JSON-aanbieding kan rechtstreeks worden opgehaald wanneer u de Server Side API, Mobile SDK of NodeJS SDK gebruikt.
 * In browser, kunnen de aanbiedingen JSON UITSLUITEND via at.js 1.2.3 (of recenter) worden teruggewonnen en gebruikend [getOffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) door acties te filtreren gebruikend `setJson` actie.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
@@ -30,7 +32,10 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 ## Een JSON-aanbieding {#section_BB9C72D59DEA4EFB97A906AE7569AD7A} maken
 
-1. Klik op **[!UICONTROL Offers]** en selecteer vervolgens het tabblad **[!UICONTROL Code Offers]**.
+1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+
+   ![Aanbiedingen > tabblad Codevoorstellen](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
    ![](assets/offer-json.png)
@@ -39,9 +44,9 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 1. Typ of plak uw JSON-code in het tekstvak **[!UICONTROL Code]**.
 1. Klik op **[!UICONTROL Save]**.
 
-## Voorbeeld {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
+## JSON-voorbeeld {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de Form-based Experience Composer. De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API-aanroepen.
+JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md). De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API-aanroepen.
 
 Hier volgt een voorbeeld:
 
@@ -78,7 +83,7 @@ De array actions heeft deze structuur:
 ]
 ```
 
-Als u de JSON-aanbieding wilt extraheren, doorloopt u handelingen en zoekt u de handeling met de handeling `setJson` en doorloopt u vervolgens de inhoudarray.
+Als u de JSON-aanbieding wilt extraheren, doorloopt u de handelingen en zoekt u de handeling met de handeling `setJson` en doorloopt u vervolgens de inhoudarray.
 
 ## Hoofdlettergebruik {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -128,9 +133,9 @@ adobe.target.getOffer({
 });
 ```
 
-## Aanbiedingen filteren op basis van het JSON-type aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Aanbiedingen filteren door het JSON-aanbiedingstype {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-U kunt de bibliotheek van Aanbiedingen door het aanbiedingstype van JSON filtreren door **[!UICONTROL Type]** drop-down lijst te klikken, dan door &lt;a1 te selecteren/> checkbox.**[!UICONTROL JSON]**
+U kunt de bibliotheek [!UICONTROL Offers] door het aanbiedingstype van JSON filtreren door **[!UICONTROL Type]** drop-down lijst te klikken, dan door **[!UICONTROL JSON]** checkbox te selecteren.
 
 ![](assets/offer-json-filter.png)
 
