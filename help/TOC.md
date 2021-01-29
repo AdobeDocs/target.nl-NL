@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 translation-type: tm+mt
-source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ ht-degree: 0%
       + [Externe aanbiedingen maken](c-experiences/c-manage-content/about-remote-offers.md)
       + [JSON-aanbiedingen maken](c-experiences/c-manage-content/create-json-offer.md)
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
-      + [Inhoud zoeken en slimme verzamelingen maken](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Inhoud zoeken](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Dynamische gegevens in aanbiedingen doorgeven](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM ervaren fragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporten {#reports}
