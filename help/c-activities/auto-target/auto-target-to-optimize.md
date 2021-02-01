@@ -4,9 +4,9 @@ description: Auto-Target in Adobe Target maakt gebruik van geavanceerd leren van
 title: Overzicht van automatisch doel
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >[!UICONTROL Auto-Target] is beschikbaar als onderdeel van de  [!DNL Target Premium] oplossing. Deze functie is niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie. Zie [Doelpremium](/help/c-intro/intro.md) voor meer informatie over de geavanceerde functies die deze licentie biedt.
 >
->[!UICONTROL Analytics for Target] (A4T) ondersteunt  [!UICONTROL Auto-Target] activiteiten. Zie [Een activiteit maken die Analytics als bron voor rapportage gebruikt](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) voor meer informatie.
+>[!UICONTROL Analytics for Target] (A4T) ondersteunt  [!UICONTROL Auto-Target] activiteiten. Voor meer informatie, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Real-world succesverhaal dat Auto-Target {#success} gebruikt
 
