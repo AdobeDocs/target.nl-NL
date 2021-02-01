@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 translation-type: tm+mt
-source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -175,6 +175,7 @@ ht-degree: 0%
       + [Analyses voor doelimplementatie](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Vereisten voor gebruikerstoegang](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [Maak een activiteit die Analytics als rapportbron gebruikt](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Een Analytics-trackingserver gebruiken](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T-rapportage](c-integrating-target-with-mac/a4t/reporting.md)
       + Problemen met de integratie van Analytics en Target oplossen (A4T) {#troubleshoot-a4t}
