@@ -4,9 +4,9 @@ description: Adobe "Analytics for Target" (A4T) is een integratie met meerdere o
 title: Adobe Analytics als bron van rapportage voor Adobe Target (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,8 @@ In de volgende tabel wordt aangegeven welke activiteitstypen [!DNL Analytics] al
 | Activiteitstypen | A4T-compatibel? | Opmerkingen, indien van toepassing |
 |--- |--- |--- |
 | A/B-activiteit met handmatige verkeersverdeling | Ja |  |
-| A/B-activiteit met automatisch toewijzen | Ja | Zie [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| A/B activiteit met AutoTarget | Ja | Zie [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| A/B-activiteit met automatisch toewijzen | Ja | Zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch doel](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| A/B activiteit met AutoTarget | Ja | Zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Gericht op ervaring (XT) | Ja |  |
 | MVT (Multivariate Test) | Ja | Vereist op doos-gebaseerde doel metrische doelstelling om het [!UICONTROL Element Contribution] rapport te krijgen.  Het [!UICONTROL Element Contribution]-rapport biedt momenteel geen ondersteuning voor [!DNL Analytics]-meetgegevens. |
 | Automated Personalization (AP)-activiteit | Nee |  |
