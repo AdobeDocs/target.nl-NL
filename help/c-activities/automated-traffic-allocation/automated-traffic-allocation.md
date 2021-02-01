@@ -4,9 +4,9 @@ description: Een activiteit van de Automatische Toewijzing in Adobe Target ident
 title: Automatisch toewijzen
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3352'
+source-wordcount: '3348'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UI
 
 ### Steunt de Analyse voor Doel (A4T) Auto-Toewijzing activiteiten?
 
-Ja. Zie [Analytics for Target (A4T) support for Auto-Allocate activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation* voor meer informatie.
+Ja. Voor meer informatie, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Worden de terugkerende bezoekers automatisch opnieuw toegewezen aan hoog presterende ervaringen?
 
