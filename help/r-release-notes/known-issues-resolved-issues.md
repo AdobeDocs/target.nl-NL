@@ -4,9 +4,9 @@ description: Informatie over bekende problemen voor deze release van Adobe Targe
 title: Bekende problemen en opgeloste problemen in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '4322'
+source-wordcount: '4316'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De volgende secties geven een overzicht van de bekende problemen voor [!DNL Targ
 
 In de [!DNL Target]-gebruikersinterface is een bekend probleem dat gebruikers in staat stelt niet-ondersteunde betrokkenheids- en inkomstenmetriek te selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten. Conversiemetriek worden ondersteund; de betrokkenheid en opbrengstmetriek zijn *niet* gesteund. Als u de maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld (ook al kunt u met de [!DNL Target]-interface momenteel niet-ondersteunde doelmeetgegevens selecteren).
 
-Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [Ondersteunde doelmetriek](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Creeer een activiteit die Analytics als rapporteringsbron* gebruikt. (TNT-38409)
+Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Aanlevering van pagina {#page-delivery}
 
