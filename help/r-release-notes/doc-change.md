@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3480'
+source-wordcount: '3477'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 |  | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | De rij &quot;user.header(&#39;x-door:sturen-for&#39;)&quot; is bijgewerkt om aan te geven dat &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; is vervangen. |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de release Target Standard/Premium 20.9.1 (30 september 2020). |
 | 15 september | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de introductie van de Target Standard/Premium 20.8.3, die ondersteuning van Analytics for Target (A4T) voor Auto-Target-activiteiten omvat. Ondersteuning voor activiteiten voor automatisch toewijzen is toegevoegd aan een vorige release. |
-|  | [Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). | Toegevoegde informatie over steun A4T in auto-Doelactiviteiten. |
+|  | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Toegevoegde informatie over steun A4T in auto-Doelactiviteiten. |
 |  | [Activity QA-bladwijzer](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Bijgewerkte tekst die aangeeft dat de methode om uzelf handmatig uit de QA-modus te dwingen door een pagina op uw site te laden met de parameter `at_preview_token` met een lege waarde, van toepassing is op at.js 1.** Alleen. |
 |  | [Catalogus zoeken](/help/c-recommendations/c-products/catalog-search.md) | Volledig onderwerp bijgewerkt. |
 | 10 september | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de release van Target Standard/Premium 20.9.2 met de volgende nieuwe functie: De aanbevelingen van de controle groeven binnen criteria opeenvolgingen. |
