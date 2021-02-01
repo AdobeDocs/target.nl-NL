@@ -4,9 +4,9 @@ description: Hoe gebruik ik de samenvattingsrapporten van Automated Personalizat
 title: Samenvattingsrapporten van Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -55,16 +55,6 @@ De aanbiedingen kunnen binnen rapportgroepen worden getoond, en deze rapportgroe
 >
 >Het klokpictogram wijst erop dat het algoritmemodel nog bouwt. Het pictogram van het vinkje geeft aan dat het basisalgoritme is ingesteld.
 
-## Verschillen in gegevens tussen de rapporten Activiteit Level en Aanbiedingsniveau
-
-**[!UICONTROL Activity Level]rapport**: De in het  [!UICONTROL Activity Level] verslag geregistreerde bezoeken geven het aantal bezoeken aan de controleervaring(en) weer, vergeleken met &quot;gericht&quot; verkeer. Het gerichte verkeer omvat een mengeling van exploratieverkeer en gepersonaliseerd verkeer.
-
-**Rapport** op aanbodniveau: In de indrukken die in het  [!UICONTROL Offer Level] rapport zijn opgenomen, wordt het aantal indrukken voor elke aanbieding weergegeven. Daarom in een activiteit met meer dan één plaats, is het totale aantal bezoeken die in [!UICONTROL Offer Level] rapport over alle Rapporterende Groepen worden geregistreerd gelijk aan het veelvoud van het aantal bezoeken die voor Controle of gericht verkeer in [!UICONTROL Activity Level] rapport worden geregistreerd keer het totale aantal plaatsen in de activiteit. Impressies van standaardinhoud die voorkomen op locaties waar de standaardinhoud een beschikbare optie was, worden opgenomen in de aanbiedingsgroep Standaardinhoud. Impressies van aanbiedingen die niet aan een rapportagegroep zijn toegewezen, worden in de &quot;Niet-gegroepeerde&quot; aanbiedingsgroep opgenomen.
-
->[!NOTE]
-
-Het aantal indrukkingen die in het [!UICONTROL Offer Level] rapport worden geregistreerd zou geen nauwkeurige geheel veelvoud van het aantal bezoeken kunnen zijn dat in [!UICONTROL Activity Level] rapport wordt geregistreerd. Dit is het gevolg van kleine discrepanties die zich voordoen bij het vastleggen van dataverkeer via internet (de gemiddelde discrepantie bedraagt minder dan 5%). Het aantal weergaven is dus geen exact veelvoud wanneer het aantal beschikbare locaties in de activiteit is gewijzigd nadat de activiteit was geactiveerd.
-
 ## Geautomatiseerde segmenten
 
 Klik op het pictogram [!UICONTROL Automated Segments]. Dit rapport laat zien hoe verschillende bezoekers anders reageren op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.
@@ -80,3 +70,15 @@ Klik op het pictogram [!UICONTROL Important Attributes]. Dit rapport toont aan h
 ![Pictogram Belangrijke kenmerken](/help/c-reports/assets/icon-important-attributes-ap.png)
 
 Voor meer informatie, zie [Belangrijk rapport van Attributen](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+
+## Veelgestelde vragen
+
+### Zijn er verschillen in gegevens tussen het activiteitenniveau en de verslagen op aanbodniveau?
+
+**[!UICONTROL Activity Level]rapport**: De in het  [!UICONTROL Activity Level] verslag geregistreerde bezoeken geven het aantal bezoeken aan de controleervaring(en) weer, vergeleken met &quot;gericht&quot; verkeer. Het gerichte verkeer omvat een mengeling van exploratieverkeer en gepersonaliseerd verkeer.
+
+**Rapport** op aanbodniveau: In de indrukken die in het  [!UICONTROL Offer Level] rapport zijn opgenomen, wordt het aantal indrukken voor elke aanbieding weergegeven. Daarom in een activiteit met meer dan één plaats, is het totale aantal bezoeken die in [!UICONTROL Offer Level] rapport over alle Rapporterende Groepen worden geregistreerd gelijk aan het veelvoud van het aantal bezoeken die voor Controle of gericht verkeer in [!UICONTROL Activity Level] rapport worden geregistreerd keer het totale aantal plaatsen in de activiteit. Impressies van standaardinhoud die voorkomen op locaties waar de standaardinhoud een beschikbare optie was, worden opgenomen in de aanbiedingsgroep Standaardinhoud. Impressies van aanbiedingen die niet aan een rapportagegroep zijn toegewezen, worden in de &quot;Niet-gegroepeerde&quot; aanbiedingsgroep opgenomen.
+
+>[!NOTE]
+
+Het aantal indrukkingen die in het [!UICONTROL Offer Level] rapport worden geregistreerd zou geen nauwkeurige geheel veelvoud van het aantal bezoeken kunnen zijn dat in [!UICONTROL Activity Level] rapport wordt geregistreerd. Dit is het gevolg van kleine discrepanties die zich voordoen bij het vastleggen van dataverkeer via internet (de gemiddelde discrepantie bedraagt minder dan 5%). Het aantal weergaven is dus geen exact veelvoud wanneer het aantal beschikbare locaties in de activiteit is gewijzigd nadat de activiteit was geactiveerd.
