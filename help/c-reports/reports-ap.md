@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Speciale rapporten zijn beschikbaar voor gebruikers van Automated Personalization-activiteiten in Adobe Target.
+description: Hoe gebruik ik de samenvattingsrapporten van Automated Personalization?
 title: Samenvattingsrapporten van Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 
-# ![Samenvattingsrapporten ](/help/assets/premium.png) PREMIUMAutomated Personalization{#automated-personalization-summary-reports}
+# ![Samenvattingsrapporten ](/help/assets/premium.png) PREMIUMAutomated Personalization
 
 De gespecialiseerde rapporten zijn beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] activiteiten in [!DNL Adobe Target].
 
@@ -24,9 +24,14 @@ De gespecialiseerde rapporten zijn beschikbaar aan gebruikers van [!UICONTROL Au
 
    Als u vele activiteiten hebt, kunt u de lijst filtreren door [!UICONTROL Automated Personalization] van [!UICONTROL Type] drop-down lijst te selecteren.
 
-1. (Optioneel) Klik op het pictogram [!UICONTROL Download] om de overzichtsweergave te downloaden (bijvoorbeeld door Control en gericht verkeer te vergelijken), onderverdeeld op basis van alle beschikbare succeswaarden.
+1. (Optioneel) Klik op het pictogram **[!UICONTROL Download]** om de overzichtsweergave te downloaden (bijvoorbeeld door Control en gericht verkeer te vergelijken), onderverdeeld op basis van alle beschikbare succeswaarden.
 
 [!UICONTROL Automated Personalization] bevat de volgende rapporten:
+
+* Activiteitsniveau
+* Aanbiedingsniveau
+* Geautomatiseerde segmenten
+* Belangrijke kenmerken
 
 ## Rapport over activiteitsniveau {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -48,7 +53,17 @@ De aanbiedingen kunnen binnen rapportgroepen worden getoond, en deze rapportgroe
 
 >[!NOTE]
 >
->Het klokpictogram wijst erop dat het algoritmemodel nog bouwt. Het vinkje geeft aan dat het basisalgoritme is ingesteld.
+>Het klokpictogram wijst erop dat het algoritmemodel nog bouwt. Het pictogram van het vinkje geeft aan dat het basisalgoritme is ingesteld.
+
+## Verschillen in gegevens tussen de rapporten Activiteit Level en Aanbiedingsniveau
+
+**[!UICONTROL Activity Level]rapport**: De in het  [!UICONTROL Activity Level] verslag geregistreerde bezoeken geven het aantal bezoeken aan de controleervaring(en) weer, vergeleken met &quot;gericht&quot; verkeer. Het gerichte verkeer omvat een mengeling van exploratieverkeer en gepersonaliseerd verkeer.
+
+**Rapport** op aanbodniveau: In de indrukken die in het  [!UICONTROL Offer Level] rapport zijn opgenomen, wordt het aantal indrukken voor elke aanbieding weergegeven. Daarom in een activiteit met meer dan één plaats, is het totale aantal bezoeken die in [!UICONTROL Offer Level] rapport over alle Rapporterende Groepen worden geregistreerd gelijk aan het veelvoud van het aantal bezoeken die voor Controle of gericht verkeer in [!UICONTROL Activity Level] rapport worden geregistreerd keer het totale aantal plaatsen in de activiteit. Impressies van standaardinhoud die voorkomen op locaties waar de standaardinhoud een beschikbare optie was, worden opgenomen in de aanbiedingsgroep Standaardinhoud. Impressies van aanbiedingen die niet aan een rapportagegroep zijn toegewezen, worden in de &quot;Niet-gegroepeerde&quot; aanbiedingsgroep opgenomen.
+
+>[!NOTE]
+
+Het aantal indrukkingen die in het [!UICONTROL Offer Level] rapport worden geregistreerd zou geen nauwkeurige geheel veelvoud van het aantal bezoeken kunnen zijn dat in [!UICONTROL Activity Level] rapport wordt geregistreerd. Dit is het gevolg van kleine discrepanties die zich voordoen bij het vastleggen van dataverkeer via internet (de gemiddelde discrepantie bedraagt minder dan 5%). Het aantal weergaven is dus geen exact veelvoud wanneer het aantal beschikbare locaties in de activiteit is gewijzigd nadat de activiteit was geactiveerd.
 
 ## Geautomatiseerde segmenten
 
