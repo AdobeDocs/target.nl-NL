@@ -4,9 +4,9 @@ description: Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in d
 title: Documentatiewijzigingen in de Adobe Target-productdocumentatie.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3488'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 1 februari | [Samenvattingsrapporten van Automated Personalization](/help/c-reports/reports-ap.md) | Nieuwe sectie toegevoegd: &quot;Verschillen in gegevens tussen de rapporten Activiteitsniveau en Aanbiedingsniveau.&quot; |
 | 27 januari | [Omleidingsvoorstellen maken](/help/c-experiences/c-manage-content/offer-redirect.md) | Bijgewerkt onderwerp. |
 |  | [Externe aanbiedingen maken](/help/c-experiences/c-manage-content/about-remote-offers.md) | Bijgewerkt onderwerp. |
 | 26 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md) | Verduidelijkt hoe het Doel de &quot;som vierkanten&quot;in t-tests van de Student gebruikt. |
