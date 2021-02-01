@@ -4,9 +4,9 @@ description: Hoe gebruik ik de samenvattingsrapporten van Automated Personalizat
 title: Samenvattingsrapporten van Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Voor meer informatie, zie [Belangrijk rapport van Attributen](/help/c-reports/c-
 
 ## Veelgestelde vragen
 
-### Zijn er verschillen in gegevens tussen het activiteitenniveau en de verslagen op aanbodniveau?
+### Waarom zijn er verschillen in gegevens tussen het activiteitenniveau en de verslagen van het Aanbiedingsniveau?
 
 **[!UICONTROL Activity Level]rapport**: De in het  [!UICONTROL Activity Level] verslag geregistreerde bezoeken geven het aantal bezoeken aan de controleervaring(en) weer, vergeleken met &quot;gericht&quot; verkeer. Het gerichte verkeer omvat een mengeling van exploratieverkeer en gepersonaliseerd verkeer.
 
