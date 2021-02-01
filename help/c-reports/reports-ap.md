@@ -4,9 +4,9 @@ description: Hoe gebruik ik de samenvattingsrapporten van Automated Personalizat
 title: Samenvattingsrapporten van Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ![Samenvattingsrapporten ](/help/assets/premium.png) PREMIUMAutomated Personalization
 
-De gespecialiseerde rapporten zijn beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] activiteiten in [!DNL Adobe Target].
+De gespecialiseerde summiere rapporten zijn beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] activiteiten in [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ Voor meer informatie, zie [Belangrijk rapport van Attributen](/help/c-reports/c-
 **Rapport** op aanbodniveau: In de indrukken die in het  [!UICONTROL Offer Level] rapport zijn opgenomen, wordt het aantal indrukken voor elke aanbieding weergegeven. Daarom in een activiteit met meer dan één plaats, is het totale aantal bezoeken die in [!UICONTROL Offer Level] rapport over alle Rapporterende Groepen worden geregistreerd gelijk aan het veelvoud van het aantal bezoeken die voor Controle of gericht verkeer in [!UICONTROL Activity Level] rapport worden geregistreerd keer het totale aantal plaatsen in de activiteit. Impressies van standaardinhoud die voorkomen op locaties waar de standaardinhoud een beschikbare optie was, worden opgenomen in de aanbiedingsgroep Standaardinhoud. Impressies van aanbiedingen die niet aan een rapportagegroep zijn toegewezen, worden in de &quot;Niet-gegroepeerde&quot; aanbiedingsgroep opgenomen.
 
 >[!NOTE]
-
-Het aantal indrukkingen die in het [!UICONTROL Offer Level] rapport worden geregistreerd zou geen nauwkeurige geheel veelvoud van het aantal bezoeken kunnen zijn dat in [!UICONTROL Activity Level] rapport wordt geregistreerd. Dit is het gevolg van kleine discrepanties die zich voordoen bij het vastleggen van dataverkeer via internet (de gemiddelde discrepantie bedraagt minder dan 5%). Het aantal weergaven is dus geen exact veelvoud wanneer het aantal beschikbare locaties in de activiteit is gewijzigd nadat de activiteit was geactiveerd.
+>
+>Het aantal indrukkingen die in het [!UICONTROL Offer Level] rapport worden geregistreerd zou geen nauwkeurige geheel veelvoud van het aantal bezoeken kunnen zijn dat in [!UICONTROL Activity Level] rapport wordt geregistreerd. Dit is het gevolg van kleine discrepanties die zich voordoen bij het vastleggen van dataverkeer via internet (de gemiddelde discrepantie bedraagt minder dan 5%). Het aantal weergaven is dus geen exact veelvoud wanneer het aantal beschikbare locaties in de activiteit is gewijzigd nadat de activiteit was geactiveerd.
