@@ -4,9 +4,9 @@ description: Lijst met onderwerpen om u te helpen problemen in Adobe Target op t
 title: Problemen met Adobe Target oplossen
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 
 * [Veelgestelde vragen over Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Problemen met Automated Personalization oplossen](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Samenvattingsrapporten van Automated Personalization](/help/c-reports/reports-ap.md)
 
 ### MVT (Multivariate Test)
 
