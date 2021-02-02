@@ -1,12 +1,12 @@
 ---
-keywords: traffic estimator;automated personalization;ap;estimate traffic
+keywords: verkeersraming;geautomatiseerde personalisatie;ap;schatting van verkeer
 description: De schatter van het Verkeer verstrekt terugkoppelen die u laat weten of u voldoende verkeer voor uw activiteit van Adobe Target hebt om te slagen.
-title: Schatting van het verkeer dat voor succes wordt vereist
+title: Schatting van het Verkeer Vereist voor Succes
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
