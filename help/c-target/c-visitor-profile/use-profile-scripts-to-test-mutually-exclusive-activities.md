@@ -1,12 +1,12 @@
 ---
-keywords: Profile script;profile script attributes;mutually exclusive activities
+keywords: Profielscript;profielscriptkenmerken;wederzijds uitsluitende activiteiten
 description: U kunt profielkenmerken gebruiken om tests in te stellen die twee of meer activiteiten vergelijken, maar niet toestaan dat dezelfde bezoekers aan elke activiteit deelnemen.
-title: Profielscripts gebruiken om activiteiten te testen die elkaar uitsluiten
-feature: visitor profiles
+title: Profielscripts gebruiken om wederzijds exclusieve activiteiten te testen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
