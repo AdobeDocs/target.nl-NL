@@ -1,12 +1,12 @@
 ---
-keywords: multiple audiences;experience versions;target experience versions
+keywords: meerdere soorten publiek;ervaringsversies;doelervaringsversies
 description: U kunt versies van dezelfde ervaring als doelversies gebruiken voor verschillende soorten publiek in Adobe Target A/B-activiteiten. U kunt veelvoudige toehoorders voor een ervaring in de Visuele Composer van de Ervaring of in Form-Based Composer van de Ervaring plaatsen.
 title: Meerdere ervaringsversies in een A/B-test
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
