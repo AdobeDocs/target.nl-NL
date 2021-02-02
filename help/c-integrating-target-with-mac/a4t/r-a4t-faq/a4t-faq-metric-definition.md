@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
+keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;metrisch;metrische definities
 description: Dit onderwerp bevat antwoorden op vragen die vaak over metrische definities en het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Metrische definities - Veelgestelde vragen A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
