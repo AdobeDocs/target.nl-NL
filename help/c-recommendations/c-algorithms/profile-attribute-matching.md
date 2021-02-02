@@ -1,12 +1,12 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
+keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevorderingen;dynamische filtratie;dynamic;profile kenmerkovereenkomsten
 description: Filter dynamisch in Adobe Target Recommendations door items (entiteiten) te vergelijken met een waarde in het gebruikersprofiel.
-title: Filteren op aanpassing van profielkenmerken in regels voor dynamische integratie in Adobe Target Recommendations
+title: Filteren op aanpassing van profielkenmerken in dynamische insluitingsregels in doelaanbevelingen v
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
