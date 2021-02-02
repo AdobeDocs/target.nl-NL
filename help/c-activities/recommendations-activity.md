@@ -1,12 +1,12 @@
 ---
-keywords: recommendations
+keywords: aanbevelingen
 description: Recommendations-activiteiten in Adobe Target geven automatisch producten of inhoud weer die voor uw klanten interessant kan zijn op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
 title: Recommendations-activiteit
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
