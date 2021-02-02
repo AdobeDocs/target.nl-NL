@@ -1,12 +1,12 @@
 ---
-keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
+keywords: ervaring;json;aem;adobe Experience Manager;exporteren naar adobe target;beleving, fragmenten;fragmenten;XF
 description: Hoe kan ik AEM ervaren fragmenten in de activiteiten van het Doel?
-title: Adobe Experience Manager (AEM) ervaart fragmenten in Adobe Target
+title: Adobe Experience Manager (AEM) Experience Fragments
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
