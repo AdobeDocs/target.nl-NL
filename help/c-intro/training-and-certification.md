@@ -1,10 +1,10 @@
 ---
-keywords: training;certification;target;online courses;courses;class;classes
+keywords: training;certificering;doel;online cursussen;cursussen;klasse;klassen
 description: Adobe Training Services biedt klassen en certificeringen voor Adobe-producten en -oplossingen, waaronder Adobe Target.
-title: Opleiding en certificering voor Adobe-producten en -oplossingen, waaronder Adobe Target
+title: Training en certificering
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
