@@ -1,12 +1,12 @@
 ---
-keywords: Administration;approver role;approver
+keywords: Beheer;goedkeurende rol;fiatteur
 description: De eerste stappen die Adobe Target-beheerders moeten uitvoeren nadat ze de e-mailuitnodiging aan de Adobe Experience Cloud hebben ontvangen.
-title: Eerste stappen van beheerder
+title: Eerste stappen beheerder
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
