@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;audience filter;audiences;filter
+keywords: Doel;publiek, filter;publiek, filter;filter
 description: Poortfilters in Adobe Target (of publiek) zijn groepen bezoekers die een specifieke eigenschap of een reeks kenmerken delen.
-title: Auditiefilters voor rapportage in Adobe Target
-feature: audiences
+title: Auditiefilters voor rapportage
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
