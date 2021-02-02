@@ -1,12 +1,12 @@
 ---
-keywords: experience preview;experience urls;generate urls;view experience urls
+keywords: ervaringsvoorvertoning;ervaring URL's;genereren URL's;belevenis weergeven
 description: U kunt voorvertonings-URL's genereren voor Target Automated Personalization-activiteiten, zodat u direct op uw site inhoud kunt zien voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL's en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
-title: Automated Personalization-activiteiten voorvertonen met voorbeeld-URL's
+title: Automated Personalization-activiteiten voorvertonen met voorbeeld-URL's met ervaring
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
