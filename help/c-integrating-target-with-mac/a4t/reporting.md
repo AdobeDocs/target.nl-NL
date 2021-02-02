@@ -1,12 +1,12 @@
 ---
-keywords: analytics for target;a4t;analytics as the reporting source
+keywords: analytische gegevens voor doel;a4t;analytische gegevens als bron van de rapportage
 description: Het gebruiken van Analytics als uw rapporteringsbron voor Doel (A4T) geeft u toegang tot de rapporten van Analytics voor uw activiteiten van het Doel.
 title: A4T-rapportage
-feature: a4t reports
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
