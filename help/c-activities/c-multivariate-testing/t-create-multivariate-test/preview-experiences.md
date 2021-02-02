@@ -1,12 +1,12 @@
 ---
-keywords: multivariate;mvt;preview;experiences
+keywords: multivariëren;mvt;voorvertoning;ervaringen
 description: Omdat bij een multivariate test in Adobe Target meerdere ervaringen op een pagina met elkaar worden vergeleken, is het handig om de pagina met elke ervaring voor te vertonen.
-title: Voorvertoning van ervaringen voor een multivariatietest in Adobe Target
+title: Voorvertoning van ervaringen voor een multivariate Test (MVT)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
