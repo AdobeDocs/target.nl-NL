@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
+keywords: AB;A/B;AB..n;fouten;valkuilen;fout;valkuil;significantie;winnaar;statistisch verschil;statistische macht;verkeersverdeling;toewijzing;
 description: A/B-tests in Adobe Target vormen de ruggengraat van de meeste optimalisatieprogramma's voor digitale marketing en helpen marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit gedeelte worden negen van de belangrijkste valkuilen beschreven waar bedrijven op stuiten wanneer zij A/B-tests uitvoeren in Adobe Target. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
-title: Negen gangbare A/B-testvalkuilen en hoe deze te vermijden
+title: Negen vaak voorkomende A/B testende valkuilen en hoe deze te vermijden
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: '3940'
 ht-degree: 0%
 
 ---
