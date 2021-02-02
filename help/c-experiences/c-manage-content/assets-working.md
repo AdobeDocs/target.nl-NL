@@ -1,12 +1,12 @@
 ---
-keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
+keywords: inhoudsbibliotheek;elementen;notitie;kopiëren;middelen verwijderen;element downloaden;inhoud bewerken;kaart delen;eigenschappen van inhoud weergeven
 description: Hoe werk ik met elementen in de inhoudsbibliotheek
 title: Werken met inhoud in de bibliotheek
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
