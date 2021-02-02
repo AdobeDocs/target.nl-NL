@@ -1,12 +1,12 @@
 ---
-keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
+keywords: aangepaste parameters;aangepaste doelparameters;doelparameters;doelparameters;doelframes;doelframes opgeven, parameters
 description: Aangepaste parameters zijn parameters mbox. Als u om het even welke mbox parameters tot dozen, of de targetPageParams functie doorgeeft, verschijnen die parameters hier voor gebruik in publiek.
-title: Aangepaste parameters in Adobe Target
-feature: audiences
+title: Aangepaste parameters
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
