@@ -1,12 +1,12 @@
 ---
-keywords: Target;reports;report settings;extreme orders;extreme values
+keywords: Doel;rapporten;rapport instellingen;extreme orden;extreme waarden
 description: U kunt extreme waarden uitsluiten van het beïnvloeden van rapporten in Adobe Target zodat een paar ongebruikelijke orden niet uw activiteitenresultaten beïnvloeden. Een voorbeeld van een ongebruikelijke bestelling zou een coach kunnen zijn die uniformen koopt voor een heel team in plaats van individuele kopers die individuele uniformen kopen.
-title: Extreme waarden uitsluiten in Adobe Target-rapporten
+title: Extreme waarden uitsluiten in rapporten
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
