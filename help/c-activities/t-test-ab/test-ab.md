@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
+keywords: AB;A/B;AB..n;vergelijk ervaringen;gericht;vergelijk inhoud;auto-doel;auto-toewijzen
 description: Met een handmatige A/B-testactiviteit worden twee of meer versies van uw website-inhoud vergeleken om te zien welke versie uw conversies het beste verbetert tijdens een vooraf opgegeven testperiode.
 title: A/B-testoverzicht
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
