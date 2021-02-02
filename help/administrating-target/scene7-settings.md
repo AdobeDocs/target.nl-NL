@@ -1,12 +1,12 @@
 ---
 keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
 description: Adobe Target kan worden geïntegreerd met Adobe Dynamic Media Classic (voorheen Scene7) voor Digital Asset Management (DAM) in de inhoudsbibliotheek.
-title: Integratie van Dynamic Media Classic-integratie
+title: Dynamic Media Klassieke integratie
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 2e80c972e432ce97596c856dd396b8f1be05a61a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Door [!DNL Target] te integreren met [!DNL Dynamic Media Classic], kunnen elementen (als onderdeel van activiteiten) worden geleverd die naar de map [!DNL Adobe Experience Cloud] assets zijn geüpload. Deze integratie maakt geen toegang mogelijk tot alle elementen die in [!DNL Dynamic Media Classic] zijn geüpload voor levering in [!DNL Target]-activiteiten.
 
-Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande referenties opgeven. Als u geen account hebt, kunt u uw [!DNL Dynamic Media Classic]-vertegenwoordiger om een beperkte-gebruikaccount verzoeken zonder extra kosten. [!DNL Adobe] Deze account kan alleen worden gebruikt voor doeleinden die zijn beperkt tot [!DNL Target]. Deze service wordt beschikbaar gesteld aan klanten voor workflows die functionaliteit voor het wisselen van afbeeldingen nodig hebben.
+Als u al een [!DNL Dynamic Media] account hebt, kunt u uw bestaande referenties opgeven. Als u geen account hebt, kunt u uw [!DNL Adobe]-vertegenwoordiger om een beperkte-gebruikaccount verzoeken zonder extra kosten. [!DNL Dynamic Media Classic] Deze account kan alleen worden gebruikt voor doeleinden die zijn beperkt tot [!DNL Target]. Deze service wordt beschikbaar gesteld aan klanten voor workflows die functionaliteit voor het wisselen van afbeeldingen nodig hebben.
 
 <!-- 
 >[!NOTE]
