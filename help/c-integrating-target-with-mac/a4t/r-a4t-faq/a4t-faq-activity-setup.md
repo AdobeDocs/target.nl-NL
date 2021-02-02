@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
+keywords: faq;vaak gestelde vragen;analyse voor doel;a4T;activiteitsinstelling
 description: Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 title: Activiteitsinstellingen - Veelgestelde vragen voor A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
