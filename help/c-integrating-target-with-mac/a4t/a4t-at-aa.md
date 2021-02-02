@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analyse als bron voor rapportage voor Target
 description: Kan ik A4T met auto-Doel en auto-Wijs activiteiten gebruiken?
 title: A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Aan de slag:
 
    * [!UICONTROL Auto-allocate to best experience]
    * [!UICONTROL Auto-target for personalized experiences]
+
+   ![Opties voor verkeerstoewijzingsmethoden: Handmatig, automatisch toegewezen en automatisch doel](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    Zie [Een activiteit voor automatisch toewijzen maken](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) en [Een activiteit voor automatisch doel maken](/help/c-activities/auto-target/create-auto-target.md) voor meer informatie en stapsgewijze instructies.
 
