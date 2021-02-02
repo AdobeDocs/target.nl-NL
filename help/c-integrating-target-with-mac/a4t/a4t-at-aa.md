@@ -4,9 +4,9 @@ description: Kan ik A4T met auto-Doel en auto-Wijs activiteiten gebruiken?
 title: A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,14 @@ Aan de slag:
 
 1. Selecteer **[!UICONTROL Adobe Analytics]** voor uw **[!UICONTROL Reporting Source]** op **[!UICONTROL Goals & Settings]** pagina en selecteer de rapportreeks die aan uw gewenste optimaliseringsdoel beantwoordt.
 
+   ![Sectie Bron rapporteren op pagina Doelstellingen en instellingen](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. Kies een maatstaf voor het primaire doel.
 
    * Kies **[!UICONTROL Conversion]** om [!DNL Adobe Target] te gebruiken om het optimalisatiedoel te specificeren.
    * Kies **[!UICONTROL Use an Analytics metric]** en selecteer dan metrisch van [!DNL Analytics] voor gebruik als optimalisatiedoel. U kunt een uit-van-doos [!DNL Analytics] omzettingsmetrisch of [!DNL Analytics] douanegebeurtenis gebruiken.
+
+   Zie [Ondersteunde doelmeetgegevens](#supported) hieronder voor meer informatie.
 
 1. Sla uw activiteiten op en activeer deze.
 
@@ -51,7 +55,7 @@ Aan de slag:
 
 1. Gebruik het tabblad **[!UICONTROL Reports]** om de rapportage van uw activiteit weer te geven op basis van uw keuze voor [!DNL Adobe Analytics]-meetwaarden. Klik op **[!UICONTROL View in Analytics]** om uw rapportgegevens diepgaand en verder te segmenteren.
 
-## Ondersteunde streefcijfers
+## Ondersteunde doelmeetgegevens {#supported}
 
 [!UICONTROL A4T] voor  [!UICONTROL Auto-Allocate] en  [!UICONTROL Auto-Target] laat u om het even welke volgende metrische types als uw primaire doel metrisch voor optimalisering kiezen:
 
