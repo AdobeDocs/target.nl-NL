@@ -1,12 +1,12 @@
 ---
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
+keywords: inkomstenlift;inkomsten;schatten van lift in inkomsten;berekenen van lift;geschatte waarde
 description: Gebruik Adobe Target om een schatting te maken van de inkomstenbelasting die u kunt bereiken als alle gebruikers de winnende ervaring bekijken.
-title: Schatting van de inkomsten
+title: Schatting van de opbrengst
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
