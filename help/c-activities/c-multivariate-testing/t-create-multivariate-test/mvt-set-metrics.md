@@ -1,12 +1,12 @@
 ---
-keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
+keywords: multivariëren;mvt;metriek;vastgestelde metriek;doel metrisch;activiteitenmontages;succes metrisch;omzetting;opbrengst;betrokkenheid
 description: Gebruik metriek in een Adobe Target-test met meerdere variaties om te bepalen wanneer een bezoek succesvol is.
 title: Metrisch instellen
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
