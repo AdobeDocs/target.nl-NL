@@ -1,12 +1,12 @@
 ---
-keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
+keywords: at.js releases;at.js versies;app van één pagina;spa;cross-domain;cross-domain
 description: Gedetailleerde informatie over het upgraden vanaf Adobe Target op 0.js 1.*x* naar at.js versie 2.0.0
-title: Voer een upgrade uit van Adobe Target op.js versie 1.*x* naar at.js versie 2.*x*
+title: Upgrade van versie 1.x van at.js naar versie 2.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.** Met weer
 
 | Bellen | Details |
 | --- | --- |
-| 3 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
+| 1 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
 | 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
