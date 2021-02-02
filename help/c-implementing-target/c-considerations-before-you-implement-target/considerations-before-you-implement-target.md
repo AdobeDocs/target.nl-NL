@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing
+keywords: implementeren;uitvoeren
 description: Overdenkingen die u moet bespreken voordat u Adobe Target implementeert.
-title: Voordat u implementeert
+title: Voordat u gaat implementeren
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
