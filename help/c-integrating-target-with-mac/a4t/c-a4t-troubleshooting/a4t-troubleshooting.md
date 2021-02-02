@@ -1,12 +1,12 @@
 ---
-keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
+keywords: analytische traceringsserver;A4T;analytische segmenten;rapportsuites;onjuiste gegevens;zwevend;sdid;VisitorAPI.js;mboxMCSDID;phantom;niet opgegeven
 description: Dit onderwerp behandelt sommige gemeenschappelijke kwesties die zijn ontmoet wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
-title: Los de Analytics en integratie van het Doel (A4T) problemen op
+title: De analyse- en doelintegratie oplossen (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
