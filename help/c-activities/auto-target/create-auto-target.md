@@ -1,12 +1,12 @@
 ---
-keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
+keywords: Automatisch doel maken;A/B-test;automatisch doelactiviteit;nieuwe a/b-activiteit;automatisch doel;automatisch doel voor persoonlijke ervaringen;gepersonaliseerd
 description: Gebruik Composer van de Visuele Ervaring (VEC) in Adobe Target om uw auto-Doel A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen en delen van de pagina binnen Doel te wijzigen.
 title: Een automatisch doelactiviteit maken
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -121,6 +121,10 @@ Een [!UICONTROL Auto-Target]-activiteit maken:
 1. Geef de [doelen en instellingen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) op voor de activiteit.
 
    ![A/B Activiteitsinstellingen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Als u [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) met deze activiteit wilt gebruiken, zie belangrijke informatie in [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klik op **[!UICONTROL Save & Close]** of **[!UICONTROL Save]**.
 
