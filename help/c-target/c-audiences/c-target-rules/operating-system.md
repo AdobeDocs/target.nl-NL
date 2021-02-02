@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
+keywords: gericht;doelbesturingssysteem;besturingssysteem;doelbesturingssysteem;doelbesturingssysteem;doelbesturingssysteem;os;doelLinux;linux;doelvensters;doelvensters;doelMacintosh;macintosh;mac;doelMac;win;doelversie
 description: U kunt zich richten op bezoekers die een bepaald besturingssysteem gebruiken.
-title: Opties voor besturingssystemen in Adobe Target-doelgroepen
-feature: audiences
+title: Opties besturingssysteem in publiek
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 1%
 
 ---
 
