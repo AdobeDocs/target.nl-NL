@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
+keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel;automatisch doelrapport;automatisch doelrapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen
 description: Informatie over het rapport Geautomatiseerde segmenten, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van de activiteiten van Automated Personalization (AP) en Auto-Target (AT) in Adobe Target.
-title: Rapport Automated Segments
+title: Rapport voor geautomatiseerde segmenten
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2046'
 ht-degree: 0%
 
 ---
