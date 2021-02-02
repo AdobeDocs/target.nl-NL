@@ -1,12 +1,12 @@
 ---
-keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
+keywords: hybride plaatsing;hybride;server-kant;server-kant;client-kant;client-kant;client-kant;hybride implementatie
 description: Adobe Target biedt een uniek hybride implementatiemodel voor personalisatie, het mengen van client-side en server-side implementaties.
 title: Hybride implementatie
-feature: hybrid implementation
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
