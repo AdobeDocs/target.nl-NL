@@ -1,12 +1,12 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+keywords: geautomatiseerde personalisatie;ap;publiek;ensemble;random forest;restvariantie;foutvariantie;levenswaarde
 description: De Automated Personalization-workflow voor activiteit in Adobe Target verschilt van de workflow van de andere typen activiteiten.
 title: Een Automated Personalization-activiteit maken
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
