@@ -1,12 +1,12 @@
 ---
-keywords: troubleshoot target;troubleshooting target
+keywords: het doel van problemen oplossen;het oplossen van problemendoel
 description: Lijst met onderwerpen om u te helpen problemen in Adobe Target op te lossen, waaronder onderwerpen voor het oplossen van problemen, veelgestelde vragen (FAQs) en andere nuttige onderwerpen.
-title: Problemen met Adobe Target oplossen
+title: Problemen oplossen
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
