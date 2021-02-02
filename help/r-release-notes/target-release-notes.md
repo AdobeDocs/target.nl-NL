@@ -1,12 +1,12 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
-description: Opmerkingen bij de release die informatie bevatten over functies, verbeteringen en oplossingen voor de nieuwste of komende DNL Adobe Target-releases.
-title: Voorlopige Adobe Target-opmerkingen
+keywords: releaseopmerkingen;releases;updates;toekomstige release;verbeteringen;nieuwe functies;oplossingen;updates;pre-release
+description: Welke functies zijn inbegrepen in de aanstaande versie?
+title: Opmerkingen bij de release
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
