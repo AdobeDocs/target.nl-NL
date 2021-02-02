@@ -1,12 +1,12 @@
 ---
-keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
+keywords: flikkering;at.js;implementatie;asynchroon;asynchroon;synchroon
 description: Informatie over hoe de JavaScript-bibliotheek Adobe Target at.js flikkering voorkomt tijdens het laden van de pagina of de toepassing.
-title: Hoe Adobe Target at.js flikkering beheert
+title: Hoe at.js flikkering beheert
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
