@@ -1,12 +1,12 @@
 ---
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
-description: Deze releaseopmerkingen bevatten informatie over functies, verbeteringen, oplossingen en bekende problemen voor elke release van Adobe Target Standard en Target Premium.
-title: 'Opmerkingen bij de release van Adobe Target (huidige) '
+keywords: Opmerkingen bij de release;nieuwe functies;releases;updates;update;release;verbetering;verbeteringen;correcties;foutoplossingen;updates
+description: Welke nieuwe functies zijn in de huidige release opgenomen?
+title: Opmerkingen bij de release (huidig)
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
