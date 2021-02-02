@@ -1,12 +1,12 @@
 ---
-keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
+keywords: omleidingsaanbod;maak omleidingsaanbod;voeg html-aanbieding toe;geef alle URL-parameters door in omleiding;geef mboxSessionId door in omleiding (alleen nodig wanneer de omleiding naar een ander domein gaat)
 description: Kan ik aanbiedingen omleiden gebruiken om een browser naar een nieuwe pagina te laten omleiden?
 title: Omleidingsvoorstellen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
