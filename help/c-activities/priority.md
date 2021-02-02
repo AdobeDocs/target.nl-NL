@@ -1,12 +1,12 @@
 ---
-keywords: settings;priority
+keywords: instellingen;prioriteit
 description: Adobe Target bepaalt welke activiteit (of activiteiten) om aan een pagina te leveren verschillend afhankelijk van welke interface van het Doel en welke functie van de activiteitenverwezenlijking (Visuele Composer van de Ervaring of Vorm Gebaseerde composer) u gebruikt.
-title: Prioriteit in Adobe Target
+title: Prioriteit
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
