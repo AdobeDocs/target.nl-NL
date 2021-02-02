@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;analytics;tracking server;analytics for target;a4t
+keywords: Doel;analyse;traceringsserver;analyse voor doel;a4t
 description: U kunt een activiteit in de Norm van Adobe Target vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
 title: Analysegegevens gebruiken
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
