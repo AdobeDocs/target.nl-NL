@@ -1,12 +1,12 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analyse als bron voor rapportage voor Target
 description: U kunt een activiteit in de Norm van het Doel/Premium vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
 title: Een activiteit maken die A4T als rapportagebron gebruikt
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -71,3 +71,6 @@ Het maken van een [!DNL Target] activiteit die [!DNL Analytics] als rapportbron 
 
 1. Klik op **[!UICONTROL Save]**.
 
+## A4T- en Auto-Allocate- en Auto-Target-activiteiten
+
+Voor meer informatie, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
