@@ -1,12 +1,12 @@
 ---
-keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
+keywords: composer voor visuele ervaring;visuele ervaring composer tips en trucs;visuele ervaring composer beperkingen;visuele ervaring composer beveats;vec best practices;vec
 description: De volgende best practices kunnen u helpen uw ervaringen naar behoren te laten werken. Er zijn ook andere uiteinden en beperkingen die u op de hoogte zou moeten zijn wanneer het gebruiken van Visual Experience Composer (VEC) in Adobe Target.
-title: Aanbevolen werkwijzen en beperkingen van Visual Experience Composer
+title: Aanbevolen werkwijzen en beperkingen voor composer visuele ervaring
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2466'
 ht-degree: 0%
 
 ---
