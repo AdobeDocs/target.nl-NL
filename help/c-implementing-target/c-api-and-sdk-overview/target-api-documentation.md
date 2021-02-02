@@ -1,12 +1,12 @@
 ---
 keywords: api;adobe i/o
 description: Informatie die u helpt bij het gebruik van de overgang van de verouderde API's van Adobe Target naar de nieuwe API's op Adobe I/O.
-title: Overgang van verouderde API's van Target naar Adobe I/O
+title: Overgang van verouderde API's naar Adobe I/O
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
