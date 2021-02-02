@@ -1,13 +1,13 @@
 ---
-keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: aanbeveling sleutel;aanbeveling logica;huidige categorie;aangepast kenmerk;laatst gekocht item;laatst bekeken item;meest bekeken item;meest bekeken item;favoriete categorie;populariteit;onlangs bekeken item;laatst gekocht;laatst bekeken item;laatst bekeken;meest bekeken;meest bekeken;favoriet;onlangs bekeken
 description: Recommendations op basis van sleutels gebruikt de gedragscontext van de bezoeker om relevante resultaten te tonen in Adobe Target Recommendations-activiteiten.
-title: De aanbeveling baseren op een aanbevelingen
+title: Baseer de Aanbeveling op een Sleutel van de Aanbeveling
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2762'
 ht-degree: 0%
 
 ---
