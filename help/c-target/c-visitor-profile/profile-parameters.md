@@ -1,12 +1,12 @@
 ---
-keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
+keywords: Profielscript;profielscriptkenmerken;profielscript, aanbevolen methoden;foutopsporing;scripts;profielscripts;kenmerken;kenmerk;parameter
 description: Profielkenmerken zijn parameters die specifiek zijn voor de bezoeker. Deze kenmerken worden opgeslagen in het profiel van de bezoeker om informatie te geven over de bezoeker die kan worden gebruikt in uw Adobe Target-activiteiten.
-title: Profielkenmerken in Adobe Target
-feature: visitor profiles
+title: Profielkenmerken
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2432'
 ht-degree: 0%
 
 ---
