@@ -1,12 +1,12 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: Doel en instellingen;Doel;prioriteit;duur
 description: Met Activiteitsinstellingen in Adobe Target kunt u het doel, de prioriteit en de duur van uw activiteiten beheren.
 title: Activiteiteninstellingen
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
