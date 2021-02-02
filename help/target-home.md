@@ -1,13 +1,13 @@
 ---
-keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Doel;home;populaire onderwerpen;adobe target;standard;premium;target documentatie;adobe target documentatie
 title: Adobe Target Guide
-description: Bekijk de homepage van de Gids van het Doel.
+description: Waar kan ik de documentatie van het Doel vinden?
 seo-description: Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
