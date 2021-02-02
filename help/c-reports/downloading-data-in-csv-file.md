@@ -1,12 +1,12 @@
 ---
-keywords: reports;download reports;csv;success metrics;order details
+keywords: rapporten;downloadrapporten;csv;succesmetriek;orderdetails
 description: Download gegevens in de CSV-indeling, zodat u deze snel kunt importeren in Excel, Access of andere programma's voor gegevensanalyse met Adobe Target.
-title: Gegevens in een CSV-bestand downloaden met Adobe Target
+title: Gegevens downloaden in een CSV-bestand
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
