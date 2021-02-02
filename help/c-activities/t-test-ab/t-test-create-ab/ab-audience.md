@@ -1,12 +1,12 @@
 ---
-keywords: audience;select audience;choose audience;Selectors
+keywords: publiek;selecteer publiek;kies publiek;Kiezers
 description: Het publiek bepaalt welke bezoekers van de site worden ingevoerd in uw Adobe Target-activiteit.
-title: Doelgroep selecteren
+title: Publiek selecteren
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
