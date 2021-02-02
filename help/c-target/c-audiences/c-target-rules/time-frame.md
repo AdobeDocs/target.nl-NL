@@ -1,12 +1,12 @@
 ---
-keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
+keywords: tijdframe;begindatum;einddatum;begin/einddatum;tijdframe;doelschema;week parteren;dag parteren;parkeren
 description: U kunt begin- en einddatums en -tijden toevoegen aan doelgebruikers die uw site gedurende een bepaald tijdsbestek bezoeken. U kunt ook de opties voor Week- en Dagscheiding instellen om herhalende patronen te maken voor doelgroepen.
-title: Opties voor tijdframes bij Adobe Target-publiek
-feature: audiences
+title: Opties voor tijdkader bij publiek
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
