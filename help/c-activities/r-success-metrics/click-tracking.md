@@ -1,12 +1,12 @@
 ---
-keywords: Click tracking;track clicks;clicks;AppMeasurement
+keywords: Klik op bijhouden;traceer klikken;klikken;AppMeasurement
 description: Met Adobe Target kunt u kliks op elk element bijhouden als een succesmetrische waarde.
-title: Klikken bijhouden
+title: Klik op Bijhouden
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
