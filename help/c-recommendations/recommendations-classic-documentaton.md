@@ -1,12 +1,12 @@
 ---
-keywords: recommendations Classic
+keywords: aanbevelingen Klassiek
 description: Adobe Recommendations Classic-documentatie.
-title: Adobe Recommendations Classic-documentatie.
+title: Klassieke Adobe Recommendations-documentatie
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
