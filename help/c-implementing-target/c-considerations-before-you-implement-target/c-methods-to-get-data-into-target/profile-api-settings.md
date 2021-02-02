@@ -1,12 +1,12 @@
 ---
-keywords: implementation;api;profile;profile api settings;authentication token
+keywords: implementatie;api;profiel;profiel api-instellingen;verificatietoken
 description: Schakel verificatie voor batchupdates via Adobe Target API's in of uit en genereer een profielverificatietoken.
-title: Profiel-API-instellingen in Adobe Target
+title: Profiel-API-instellingen
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
