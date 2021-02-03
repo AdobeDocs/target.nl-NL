@@ -1,12 +1,12 @@
 ---
-keywords: activity settings;goals and settings;multivariate;mvt
+keywords: activiteitinstellingen;doelen en instellingen;variëren;mvt
 description: Op de pagina Doelstellingen en instellingen in Adobe Target voert u informatie in over de doelen van de test.
 title: Doelstellingen en instellingen
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
