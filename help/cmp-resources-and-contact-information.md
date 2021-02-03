@@ -1,12 +1,12 @@
 ---
-keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
+keywords: contact;wettelijk;technische ondersteuning;technische ondersteuning;ondersteuning;service;mogelijkheden;facturering;feedback
 description: Informatie over extra middelen om u te helpen over de eigenschappen van het Doel leren en hoe te om Adobe te contacteren als u hulp met Doel nodig hebt.
 title: Bronnen en contactgegevens
-feature: Recommendations
+feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
