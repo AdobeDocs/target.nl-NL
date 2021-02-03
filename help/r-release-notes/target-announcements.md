@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informatie over aanstaande gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid van Adobe Target, ontwikkelaarchats, webinars, en de zittingen van het Break van de Koffie van het Doel.
-title: Doelaankondigingen
+keywords: aankondigingen;vaardigheid bouwen;ontwikkelaarspraatje;koffieonderbreking;gebeurtenissen;forrester;gartner;webinar
+description: Waar kan ik komende gebeurtenissen en webinars vinden?
+title: Aankondigingen en evenementen
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
