@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'De beslissing op het apparaat biedt de mogelijkheid om uw Adobe Target A/B- en Experience Targeting-activiteiten (XT) op uw server in cache te plaatsen en in het geheugen te beslissen bij bijna-nullatentie, zonder netwerkverzoeken aan het Adobe Target Edge Network te blokkeren. '
+keywords: serverzijde;serverzijde;sdk;sdks;op apparaat;besluitvorming;op apparaat;op apparaat;nul latentie;latentie;dichtbij-nul;node.js
+description: De beslissing op het apparaat biedt de mogelijkheid om uw Adobe Target A/B- en Experience Targeting-activiteiten (XT) op uw server in cache te plaatsen en in het geheugen te beslissen bij bijna-nullatentie, zonder netwerkverzoeken aan het Adobe Target Edge Network te blokkeren.
 title: Apparaatbeslissingen
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
