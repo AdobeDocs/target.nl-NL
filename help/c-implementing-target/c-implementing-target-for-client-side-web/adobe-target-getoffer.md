@@ -1,12 +1,12 @@
 ---
-keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
+keywords: adobe.target.getOffer;getOffer;getoffer;get aanbieding;at.js;functies;function
 description: Informatie over de functie adobe.target.getOffer(options) voor de Adobe Target at.js JavaScript-bibliotheek.
-title: adobe.target.getOffer(options)
+title: Adobe.Target.Getoffer(Options)
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
