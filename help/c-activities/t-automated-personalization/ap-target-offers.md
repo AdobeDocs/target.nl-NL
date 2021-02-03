@@ -1,14 +1,14 @@
 ---
-keywords: automated personalization;offers;target;audience;targeting rules;targeting
+keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van gericht
 description: In een Automated Personalization-activiteit kunt u aanbiedingen richten op specifieke doelgroepen.
-title: Automated Personalization-aanbiedingen voor Target in Adobe Target
+title: 'Automated Personalization-aanbiedingen '
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
