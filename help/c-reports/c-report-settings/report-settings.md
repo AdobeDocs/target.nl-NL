@@ -1,12 +1,12 @@
 ---
-keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
+keywords: Doel;rapporten;rapportinstellingen;voorinstelling;doel voorinstelling;metrisch;publiek;datumbereik;instellingen;download;tabelweergave;grafiekweergave;gemiddelde lift;lift gebonden;betrouwbaarheidsinterval;vertrouwen;locatie-bijdrage;lopende gemiddelde;telmethode
 description: Informatie die u helpt bij het instellen van de elementen die u wilt weergeven in uw Adobe Target-rapport. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
 title: Rapportinstellingen
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
