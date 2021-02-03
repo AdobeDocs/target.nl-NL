@@ -1,12 +1,12 @@
 ---
-keywords: email;adbox;email image adbox
+keywords: e-mail;adbox;e-mailafbeeldingsadbox
 description: Met Adobe Target kunt u afbeeldingen dynamisch testen in e-mail en deze afbeeldingen zelfs direct wijzigen wanneer iemand de e-mail opent.
-title: Een e-mailafbeeldingsvenster testen met Adobe Target
-feature: email implementation
+title: Een e-mailafbeeldingsvenster testen
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
