@@ -1,12 +1,12 @@
 ---
-keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
+keywords: klantenrelatiebeheer;de dienst van het klantenverslag;crs;crm;mbox3rdpartyid;klantenattributen;het richten;csv;crm;adobe ervaren wolken
 description: Informatie over het gebruiken van de gegevens van de ondernemingsklant van een gegevensbestanden van het het relatiebeheer van de klant (CRM) voor inhoud die zich in Adobe Target richt door de Attributen van de Klant in de dienst van de Mensen van Adobe Experience Cloud te gebruiken.
-title: Kenmerken van klanten in Adobe Target
-feature: visitor profiles
+title: Klantkenmerken
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
