@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
+keywords: AB;A/B;AB..n;voorbeeldgrootte;voorbeeldgroottecalculator;automatisch toewijzen;automatisch toewijzen;calculator
 description: Een succesvolle A/B test in Adobe Target vereist een adequaat aantal bezoekers (steekproefgrootte) om uw omzettingspercentage te verbeteren, maar hoe lang weet u hoe lang om een A/B test te runnen? Dit artikel bevat informatie over activiteiten voor automatisch toewijzen en de Adobe Target-voorbeeldgroottecalculator om ervoor te zorgen dat uw activiteit voldoende bezoekers heeft om uw doelstellingen te bereiken.
-title: Hoe lang moet u een A/B-test uitvoeren?
+title: Hoe lang moet je een A/B test uitvoeren?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3084'
+source-wordcount: '3097'
 ht-degree: 0%
 
 ---
