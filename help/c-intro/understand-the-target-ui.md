@@ -1,12 +1,12 @@
 ---
-keywords: target user interface;user interface;ui
-description: De Adobe Target-gebruikersinterface
-title: De interface van het doel begrijpen
+keywords: doelgebruikersinterface;gebruikersinterface;ui
+description: Hoe gebruik ik de gebruikersinterface (UI)?
+title: De gebruikersinterface begrijpen
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
