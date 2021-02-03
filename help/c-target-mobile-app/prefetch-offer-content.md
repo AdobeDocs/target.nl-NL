@@ -1,12 +1,12 @@
 ---
-keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
+keywords: aanbieding;prefetch;iOS;android;sdk;mobile;mobile sdk
 description: De Adobe Target-prefetch-functie gebruikt de iOS- en Android Mobile-SDK's om inhoud van de aanbieding zo weinig mogelijk op te halen door de serverreacties in cache te plaatsen.
-title: Prefetaanbiedingsinhoud
-feature: mobile implementation
+title: Inhoud van voorkeursaanbieding
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
