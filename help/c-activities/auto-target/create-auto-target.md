@@ -1,10 +1,10 @@
 ---
 keywords: Automatisch doel maken;A/B-test;automatisch doelactiviteit;nieuwe a/b-activiteit;automatisch doel;automatisch doel voor persoonlijke ervaringen;gepersonaliseerd
 description: Gebruik Composer van de Visuele Ervaring (VEC) in Adobe Target om uw auto-Doel A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen en delen van de pagina binnen Doel te wijzigen.
-title: Een automatisch doelactiviteit maken
+title: Een automatisch doelgerichte activiteit maken
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
