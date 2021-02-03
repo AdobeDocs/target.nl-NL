@@ -1,12 +1,12 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: bezoekersprofiel;doelbezoekersprofiel
 description: Maak een publiek in Adobe Target om bezoekers aan te wijzen die aan specifieke profielparameters voldoen.
-title: Opties voor bezoekersprofiel in Adobe Target-doelgroepen
-feature: audiences
+title: Opties voor bezoekersprofiel in soorten publiek
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
