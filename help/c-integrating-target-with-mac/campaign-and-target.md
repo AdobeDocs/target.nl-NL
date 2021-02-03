@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: Overzicht en referentie
 description: Gebruik Doel met Adobe Campaign om e-mailinhoud te optimaliseren.
-title: Doel integreren met Adobe Campaign
+title: Integreren met Adobe Campaign
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
