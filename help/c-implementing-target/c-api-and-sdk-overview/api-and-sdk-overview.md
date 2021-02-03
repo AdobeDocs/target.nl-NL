@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
+keywords: serverzijde;server-kant;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Informatie over Adobe Target API's voor levering aan de server, SDK's en doel-Recommendations API's.
-title: Informatie over Adobe Target API's voor levering aan de server, Node.js SDK en Target Recommendations API's.
+title: Informatie over API's voor levering op de server, Node.js SDK en Recommendations
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
