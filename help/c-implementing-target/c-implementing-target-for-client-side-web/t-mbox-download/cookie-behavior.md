@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;webkit
+keywords: Overzicht en referentie;webkit
 description: Het gedrag van de cookie hangt af van het feit of het een cookie van een eerste partij, een cookie van een derde partij met een cookie van de eerste partij of van een cookie van een andere fabrikant alleen is.
-title: mbox.js, cookies
-feature: null
+title: mbox.js Cookies
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
