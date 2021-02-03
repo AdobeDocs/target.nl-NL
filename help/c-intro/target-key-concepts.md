@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;act
-description: Informatie over belangrijke concepten die u helpen de eigenschappen en mogelijkheden van Adobe Target te begrijpen.
-title: Doelsleutelbegrippen
+keywords: Overzicht en referentie;act
+description: Hoe kan ik Target begrijpen en gebruiken?
+title: Belangrijke concepten
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1507'
 ht-degree: 2%
 
 ---
