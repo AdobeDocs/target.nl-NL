@@ -1,12 +1,12 @@
 ---
-keywords: Visual Experience Composer;VEC;carousel
+keywords: Visual Experience Composer;VEC;carrousel
 description: Dit onderwerp toont hoe te om een carrousel tot stand te brengen die in Adobe Target Visual Experience Composer (VEC) kan worden uitgegeven.
-title: Het creëren van Carrousels die in de Composer van de Visuele Ervaring werken
+title: Carrousels maken die werken in de composer voor visuele ervaring
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
