@@ -1,12 +1,12 @@
 ---
-keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
+keywords: rapport;rapporten;rapportering;ervaring wolkenoplossing;tijdzone;tijdzone;valuta;uitsluiten IPs;geschatte opheffing van inkomsten;opbrengst;opheffing van inkomsten;fijnkorrelige prioriteiten;fijnkorrelige prioriteiten
 description: Configureer algemene instellingen die u wilt gebruiken in Adobe Target-rapportage die van toepassing zijn op uw gehele Target-account. U kunt de oplossing van Adobe Experience Cloud voor rapportering (Doel of Analytics), de tijdzone en muntformaat vormen om voor rapportering te gebruiken, IP adressen om van rapportering uit te sluiten, en of om de geschatte lift in opbrengst en fijnkorrelige prioriteiten in rapportering te tonen.
-title: Rapporten configureren in Adobe Target
+title: Rapportage configureren
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
