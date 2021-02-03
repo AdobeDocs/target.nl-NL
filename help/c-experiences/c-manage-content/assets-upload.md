@@ -1,12 +1,12 @@
 ---
-keywords: content;update content;assets;upload content;upload asset
+keywords: inhoud;inhoud bijwerken;elementen;inhoud uploaden;element uploaden
 description: Hoe kan ik afbeeldingen uploaden om te gebruiken als afbeeldingsaanbiedingen?
 title: Inhoud uploaden
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 1%
 
 ---
