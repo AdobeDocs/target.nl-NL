@@ -1,12 +1,12 @@
 ---
-keywords: qa;preview;preview link;mobile;mobile preview
+keywords: qa;voorvertoning;voorvertoningskoppeling;mobiel;mobiele voorvertoning
 description: Gebruik de koppeling voor mobiele voorvertoningen om eenvoudige end-to-end QA's voor mobiele app-activiteiten uit te voeren en uzelf in te schrijven voor verschillende ervaringen op uw apparaat zonder speciale testapparaten.
-title: De koppeling voor mobiele voorvertoningen gebruiken in Adobe Target mobile
-feature: mobile implementation
+title: De koppeling Mobiele voorvertoning gebruiken in Target Mobile
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
