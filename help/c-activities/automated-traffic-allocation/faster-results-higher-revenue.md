@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;auto-allocate;auto allocate
+keywords: automatische verkeerstoewijzing;gericht;automatisch toewijzen;automatisch toewijzen
 description: Met de activiteit Automatisch toewijzen in Adobe Target wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversies toenemen terwijl de test nog steeds wordt uitgevoerd en opgedaan.
-title: Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test
+title: Automatisch toewijzen kan u sneller testresultaten en hogere opbrengsten opleveren dan een handmatige test
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
