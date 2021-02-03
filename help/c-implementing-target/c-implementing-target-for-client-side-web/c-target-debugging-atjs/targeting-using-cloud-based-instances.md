@@ -1,12 +1,12 @@
 ---
-keywords: cloud instances;public suffix list;public suffix;cookie;first-party cookie;1st-party cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
+keywords: wolkeninstanties;openbare achtervoegsellijst;openbaar achtervoegsel;cookie;cookie van eerste partij;cookie van eerste partij;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
 description: Informatie over problemen waarmee klanten worden geconfronteerd wanneer ze op cloud gebaseerde instanties gebruiken om Adobe Target te testen.
-title: Gebruik cloudgebaseerde instanties met Doel
+title: Op cloud gebaseerde instanties gebruiken
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
