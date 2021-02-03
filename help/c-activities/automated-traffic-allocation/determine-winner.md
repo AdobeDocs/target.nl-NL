@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+keywords: automatische verkeerstoewijzing;gericht;winnaar;statistische garantie;vertrouwen;bepalen winnaar;hef;vertrouwen;gebrek;standaardwaarde;automatisch toewijzen;automatisch toewijzen
 description: Interpreteer de resultaten van een A/B-activiteit in Adobe Target door belangrijke indicatoren te onderzoeken, waaronder lift en vertrouwen.
 title: Rapporten automatisch toewijzen interpreteren
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Normale A/B-tests berekenen het vertrouwen op basis van p-waarden. Automatisch t
 
 >[!IMPORTANT]
 >
->Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Het doel houdt geen rekening met de basisomrekeningskoersen van een site en andere belangrijke aspecten die in de rekenmachine worden verwerkt om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
+>Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Het doel houdt geen rekening met de basisomrekeningskoersen van een site en andere belangrijke aspecten die in de calculator worden ingevoerd om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
 
 ## Informatie over de rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen {#lift-confidence}
 
@@ -70,7 +70,7 @@ Om het even welke volgende redenen beschrijven waarom 0% vertoningen in de [!UIC
 
 * Handmatige A/B-tests en Automatisch toewijzen gebruiken verschillende statistieken om betrouwbaarheidswaarden weer te geven.
 
-   Handmatige A/B-tests gebruiken p-waarden op basis van de t-test van de student[. ](https://en.wikipedia.org/wiki/Student%27s_t-test) Een P-waarde is de waarschijnlijkheid om het waargenomen (of een meer extreme) verschil tussen een ervaring en de controle te vinden, aangezien er in werkelijkheid geen dergelijk verschil is. Deze P-waarden kunnen alleen worden gebruikt om te bepalen of waargenomen gegevens consistent zijn met een bepaalde ervaring en dat de controle hetzelfde is. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
+   Handmatige A/B-tests gebruiken p-waarden op basis van de t-test van de student](https://en.wikipedia.org/wiki/Student%27s_t-test). [ Een P-waarde is de waarschijnlijkheid om het waargenomen (of een meer extreme) verschil tussen een ervaring en de controle te vinden, aangezien er in werkelijkheid geen dergelijk verschil is. Deze P-waarden kunnen alleen worden gebruikt om te bepalen of waargenomen gegevens consistent zijn met een bepaalde ervaring en dat de controle hetzelfde is. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
 
    Automatisch toewijzen toont de waarschijnlijkheid dat een bepaalde ervaring een echte winnaar is in alle ervaringen in de activiteit. Dit betekent dat alleen een winnende ervaring (die waarschijnlijk de winnaar zal zijn) een betrouwbaarheidswaarde heeft die niet gelijk is aan nul. Alle anderen zullen waarschijnlijk verliezers zijn en 0%.
 
