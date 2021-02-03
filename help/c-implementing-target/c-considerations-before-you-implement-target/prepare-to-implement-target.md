@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;rfi;request for information
+keywords: implementeren;implementeren;rfi;verzoeken om informatie
 description: Er zijn taken die u moet voltooien en informatie die u moet verzamelen bij de voorbereiding van de implementatie van Adobe Target.
-title: Voorbereiden op implementatie van Adobe Target
+title: Implementeren voorbereiden
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
