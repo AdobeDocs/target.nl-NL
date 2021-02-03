@@ -1,13 +1,13 @@
 ---
-keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
+keywords: doel;a4t;geo;geotargeting;geotargeting nauwkeurigheid;land;land;land;plaats;zip-code;dma;mobiele carrier-codes;regio-codes;landcodes;metro-codes;profielscripts;geotargeting profielscripts;geotargeting mobile
 description: Gebruik een Adobe Target-publiek voor doelgebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode, DMA of mobiele luchtvaartmaatschappij.
-title: Geo-opties in Adobe Target-publiek
-feature: audiences
+title: Geo-opties in soorten publiek
+feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
