@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: gericht;verkeersbronnen;doelverkeersbronnen;doelzoekmachine;zoekengine;landingspagina;doellandingspagina;bestemmingspagina;doorvoerpagina
 description: Maak een publiek in Adobe Target om bezoekers te richten op basis van het zoekprogramma of de bestemmingspagina die hen naar uw site verwijst.
-title: Opties voor verkeersbronnen bij Adobe Target-publiek
-feature: audiences
+title: Opties voor verkeersbronnen in soorten publiek
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
