@@ -1,12 +1,12 @@
 ---
 keywords: Automated Personalization;ap;preview;exclude experience;
 description: Omdat een Automated Personalization-activiteit (AP) meerdere aanbiedingen op een pagina vergelijkt, is het handig om de pagina bij elke ervaring voor te vertonen.
-title: Voorvertoning van ervaringen voor een Automated Personalization-activiteit (AP) in de Adobe Target Visual Experience Composer
-feature: ap
+title: Voorvertoning van Automated Personalization-ervaringen weergeven in de Visual Experience Composer (VEC)
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
