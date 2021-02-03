@@ -1,12 +1,12 @@
 ---
-keywords: browser options;type;browser type;browser language;language;version;browser version
+keywords: browseropties;type;browsertype;browsertaal;taal;versie;browserversie
 description: U kunt in Adobe Target een publiek maken dat zich richt op gebruikers die een specifieke browser of browseropties gebruiken wanneer zij uw pagina bezoeken.
-title: Browseropties in Adobe Target-publiek
-feature: audiences
+title: Soorten publiek met browseropties
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
