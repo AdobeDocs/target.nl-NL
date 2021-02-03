@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target library;library
+keywords: gericht;doelbibliotheek;bibliotheek
 description: De gebruikers van het doel die op pre-gebouwde het richten regels worden gebaseerd.
-title: Doelbibliotheekopties in Adobe Target-publiek
-feature: audiences
+title: Opties doelbibliotheek voor publiek
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
