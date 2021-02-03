@@ -1,12 +1,12 @@
 ---
-keywords: Release notes
-description: Opmerkingen bij de release voor eerdere Adobe Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js). Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en jaar van de release.
-title: Opmerkingen bij de release van vorige releases
+keywords: Opmerkingen bij de release
+description: Waar vind ik informatie over vorige versies?
+title: Opmerkingen bij de release voor vorige releases
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '30211'
+source-wordcount: '30185'
 ht-degree: 0%
 
 ---
