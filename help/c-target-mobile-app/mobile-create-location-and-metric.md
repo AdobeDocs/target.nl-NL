@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
+keywords: mobiele app;mobiele toepassingslocatie;doel mobiele app;mobiele doellocaties;mobiele app, succesgegevens
 description: Als u Doel wilt gebruiken in uw mobiele app, maakt u een locatie en een succesmaatstaf.
-title: iOS - een doellocatie en succesmaatstaf maken
-feature: mobile implementation
+title: IOS - creeer een Plaats van het Doel en Metrisch Succes
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
