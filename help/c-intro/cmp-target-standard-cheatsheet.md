@@ -1,12 +1,12 @@
 ---
-keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
+keywords: Doelstandaard;vk;veelgestelde vragen;kappblad;kappblad;kappblad
 description: Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
 title: Veelgestelde vragen over optimalisatie en personalisatie
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2901'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Probeer de functie [Profielscripts](/help/c-target/c-visitor-profile/profile-par
 
 Gebruik de besturingselementen voor procentuele toewijzing beschikbaar in [Stap 2 van de Geleide workflow met instructies voor het doel (pagina met doelen)](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u de activiteit wilt instellen.
 
-**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
@@ -267,7 +267,7 @@ Gebruik de kracht van [op vorm-gebaseerde activiteiten](/help/c-experiences/form
 
 ## Rapporten (met inbegrip van Analytics voor doel-A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
