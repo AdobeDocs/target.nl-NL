@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
+keywords: mobiele app;mobiele app, proces;doel mobiele app;mobiele doellocaties;mobiele app, succesgegevens
 description: Doel kan worden gebruikt voor optimalisatie en personalisatie voor mobiele apps
 title: Doel voor mobiele apps
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
