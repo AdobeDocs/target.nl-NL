@@ -1,13 +1,13 @@
 ---
-keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
+keywords: partiële gegevens;partiële gegevens;A4T;discrepanties;analyses voor doel;wees;virtueel rapportsuite;fantoom;problemen oplossen;ongestikt;opgepompt;niet gespecificeerd
 description: Informatie die u helpt de gevolgen van opgeblazen Bezoek en Bezoeker te minimaliseren wanneer het gebruiken van Analytics als rapporteringsbron.
-title: Vergrote aantallen bezoeken en bezoekers in A4T minimaliseren
+title: Inflated Visit and Visitor Counts in A4T minimaliseren
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 1%
+source-wordcount: '1363'
+ht-degree: 0%
 
 ---
 
