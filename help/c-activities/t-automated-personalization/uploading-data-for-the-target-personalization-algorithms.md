@@ -1,12 +1,12 @@
 ---
-keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+keywords: Automated Personalization;ap;upload gegevens;offline gegevens;personalisatiealgoritme;auto target;autoTarget;best practices
 description: Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescores, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen in Adobe Target Automated Personalization (AP)-activiteiten.
-title: Gegevens uploaden voor de personalisatiealgoritmen van Target
+title: Gegevens uploaden voor persoonlijke algoritmen
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
