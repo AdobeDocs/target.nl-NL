@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: Overzicht en referentie
 description: Standaard worden bezoekersprofielen 14 dagen opgeslagen. Deze profiellevensduur kan worden verlengd.
 title: Levensduur bezoekersprofiel
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
