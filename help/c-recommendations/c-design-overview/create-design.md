@@ -1,12 +1,12 @@
 ---
-keywords: recommendations design;create design;copy design
+keywords: aanbevelingen ontwerp;ontwerp maken;ontwerp kopiëren
 description: Een ontwerp bepaalt hoe de aanbevelingen op een pagina verschijnen.
 title: Een ontwerp maken
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
