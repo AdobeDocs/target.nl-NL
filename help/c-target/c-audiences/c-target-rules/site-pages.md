@@ -1,12 +1,12 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: sitepagina's;doelsitepagina's;doel;huidige pagina;doel huidige pagina;vorige pagina;doel vorige pagina;landingspagina;doel landingspagina;http header
 description: U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site bevinden.
-title: Opties voor sitepagina's in Adobe Target-doelgroepen
-feature: audiences
+title: Opties voor sitepagina's in soorten publiek
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
