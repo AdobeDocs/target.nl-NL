@@ -1,12 +1,12 @@
 ---
-keywords: qa;preview;bookmarklet;preview links
+keywords: qa;preview;bookmarklet;voorvertoning van koppelingen
 description: Informatie die u helpt bij het gebruik van de Adobe Target QA-bladwijzer om Target te forceren u uit de QA-modus vrij te geven.
-title: Activity QA-bladwijzer voor Adobe Target
+title: Activity QA-bladwijzer
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
