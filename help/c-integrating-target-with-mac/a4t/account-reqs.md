@@ -1,13 +1,13 @@
 ---
-keywords: Analytics as reporting source;a4t;A4T;requirements
+keywords: Analyse als bron van rapportage;a4t;A4T;vereisten
 description: Gebruikersaccountvereisten om een op Adobe Analytics gebaseerde activiteit te maken in Adobe Target (A4T).
-title: Vereisten voor gebruikerstoegang
+title: Vereisten voor gebruikersmachtigingen
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
