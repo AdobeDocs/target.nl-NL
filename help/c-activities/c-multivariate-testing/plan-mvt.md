@@ -1,12 +1,12 @@
 ---
-keywords: multivariate test;mvt;mvt plan;multivariate test plan
+keywords: multivariatie-test;mvt;mvt-plan;multivariatie-testplan
 description: Multivariate Tests in Adobe Target vereisen wat planning voordat u een succesvolle test kunt maken.
-title: Een multivariatietest in Adobe Target plannen
+title: Een multivariatietest plannen
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
