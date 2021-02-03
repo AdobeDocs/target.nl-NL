@@ -1,12 +1,12 @@
 ---
-keywords: remote offer;create remote offer
+keywords: aanbieding op afstand;aanbieding op afstand maken
 description: Hoe maak ik JSON-aanbiedingen?
 title: JSON-aanbiedingen maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
