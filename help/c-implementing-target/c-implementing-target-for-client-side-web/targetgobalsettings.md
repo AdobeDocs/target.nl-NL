@@ -1,12 +1,12 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
+keywords: server;targetGlobalSettings;targetGlobalsettings;globalSettings;globalSettings;global settings;at.js;function;clientCode;clientDomain;serverDomain;serverDomain;cookieDomain;cookieDomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;bezoekerApiTimeout;defaultContentHiddenStyle defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;kiezersPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informatie over de targetGlobalSettings() functie voor de Adobe Target at.js JavaScript bibliotheek.
 title: targetGlobalSettings()
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
