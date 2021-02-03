@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
 description: Adobe Target-welkomstkit - Hoofdstuk 6 - Eenvoudig te vermijden valkuilen
-title: Adobe Target-welkomstkit - Hoofdstuk 6 - Eenvoudig te vermijden valkuilen
+title: Welkomstkit - Hoofdstuk 6 - Eenvoudig vermijdbare valkuilen
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
