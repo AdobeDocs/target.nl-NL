@@ -1,12 +1,12 @@
 ---
-keywords: order confirmation;orderConfirmPage
+keywords: orderbevestiging;orderConfirmPage
 description: In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw site vastgelegd en wordt rapportage op basis van inkomsten en bestellingen toegestaan. Met het selectievakje Order Confirmation (Bevestiging bestellen) kunt u ook aanbevelingen uitvoeren, zoals "People that purchase product x also purchase product y." (Personen die het product hebben gekocht).
 title: Een bevestigingsbox voor bestellingen maken - mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 15%
 
 ---
