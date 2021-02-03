@@ -1,12 +1,12 @@
 ---
-keywords: Targeting
+keywords: Doelstelling
 description: De conversiesnelheid, de lift, het vertrouwen (statistische significantie) en het betrouwbaarheidsinterval worden voor elke ervaring gerapporteerd.
-title: Omrekeningskoers
+title: Omzetsnelheid
 feature: Reports
 translation-type: tm+mt
-source-git-commit: f30e16bdb24268e85f6cb3739455d77f7bcb4279
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2148'
 ht-degree: 0%
 
 ---
