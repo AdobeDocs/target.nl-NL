@@ -1,12 +1,12 @@
 ---
-keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
+keywords: inhoud;map maken;middelen;map verplaatsen;map kopiëren;map verwijderen;map downloaden;map downloaden;map
 description: Hoe maak ik mappen in de bibliotheek met aanbiedingen?
 title: Aanbiedingenmap maken
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
