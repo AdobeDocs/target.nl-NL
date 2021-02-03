@@ -1,12 +1,12 @@
 ---
-keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
+keywords: Implementatie;mbox.js niet javascript;adbox;redirector;mbox
 description: Informatie over het implementeren van Doel in niet-JavaScript-scenario's, zoals het gebruik van een AdBox of Redirector.
-title: Doel e-mailimplementatie
-feature: email implementation
+title: E-mailimplementatie
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
