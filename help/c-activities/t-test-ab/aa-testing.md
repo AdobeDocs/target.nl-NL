@@ -4,9 +4,9 @@ description: Voordat u een A/A-test op uw site uitvoert met Adobe Target, is het
 title: A/A-tests
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
