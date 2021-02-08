@@ -1,12 +1,13 @@
 ---
-keywords: global mbox;implement mbox.js;implement at.js
-description: Informatie over globale mbox, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw implementatie van Adobe Target wordt gemaakt.
-title: De globale box begrijpen
+keywords: global mbox;mbox.js implementeren;at.js implementeren
+description: Leer over globale mbox in Adobe Target, een naam die wordt gebruikt om naar de enige servervraag te verwijzen die bij de bovenkant van elke Web-pagina in uw implementatie van het Doel wordt gemaakt.
+title: Wat is een globale box?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
