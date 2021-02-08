@@ -1,12 +1,12 @@
 ---
 keywords: contact;wettelijk;technische ondersteuning;technische ondersteuning;ondersteuning;service;mogelijkheden;facturering;feedback
-description: Informatie over extra middelen om u te helpen over de eigenschappen van het Doel leren en hoe te om Adobe te contacteren als u hulp met Doel nodig hebt.
-title: Bronnen en contactgegevens
+description: Meer informatie over extra bronnen voor meer informatie over Adobe Target-functies en over hoe u contact kunt opnemen met Adobe als u hulp nodig hebt bij Target.
+title: Waar kan ik middelen en contactinformatie voor Doel vinden?
 feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
