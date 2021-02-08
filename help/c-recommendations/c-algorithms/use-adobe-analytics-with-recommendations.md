@@ -1,12 +1,12 @@
 ---
-keywords: behavioral data source;analytics;recommendations;criteria;product variables
-description: Als u Adobe Analytics gebruikt als gegevensbron voor gedragsgegevens, kunnen clients de op weergaven gebaseerde en/of op aanschaf gebaseerde gedragsgegevens van Analytics in Adobe Recommendations gebruiken.
-title: Adobe Analytics gebruiken met Target Recommendations
+keywords: gedragsgegevensbron;analyse;aanbevelingen;criteria;productvariabelen
+description: Leer hoe u Adobe Analytics kunt gebruiken als gegevensbron voor gedragingen om de op weergave gebaseerde en/of op aankoop gebaseerde gedragsgegevens van Analytics in Target Recommendations te gebruiken.
+title: Hoe gebruik ik Adobe Analytics met Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
