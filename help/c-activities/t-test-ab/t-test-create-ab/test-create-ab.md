@@ -1,12 +1,12 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: Gebruik Composer van de Visuele Ervaring in Adobe Target om uw activiteit van de Test van A/B direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
-title: Een A/B-test maken
+keywords: A/B;A/B test;A/B activiteit;nieuwe a/b activiteit;creeer a/b
+description: Leer hoe te om Visuele Composer van de Ervaring (VEC) in Adobe Target te gebruiken om uw activiteit van de Test van A/B direct op een Doel-Toegelaten pagina tot stand te brengen.
+title: Hoe maak ik een A/B-test?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
