@@ -1,12 +1,12 @@
 ---
 keywords: faq;veelgestelde vragen;analytische gegevens voor doel;a4T;omleiden;aanbod omleiden;adobe-mc-sdid;adobe_mc_ref
-description: Dit onderwerp bevat antwoorden op vragen die vaak worden gevraagd over het gebruiken van doorverwijzing aanbiedingen wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
-title: Omleidingsvoorstellen - Veelgestelde vragen A4T
+description: Zoek antwoorden op vragen over het gebruik van omleidingsaanbiedingen bij Analytics voor Doel (A4T). A4T laat u Analytics rapportering voor de activiteiten van het Doel gebruiken.
+title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
