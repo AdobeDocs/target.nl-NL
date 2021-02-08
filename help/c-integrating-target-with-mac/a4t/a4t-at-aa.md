@@ -1,12 +1,12 @@
 ---
 keywords: a4t;A4T;Analyse als bron voor rapportage voor Target
-description: Kan ik A4T met auto-Doel en auto-Wijs activiteiten gebruiken?
-title: A4T-ondersteuning voor automatisch toegewezen en automatisch doelgerichte activiteiten
+description: Leer hoe u Auto-Allocate- en Auto-Target-activiteiten in Adobe Target maakt die Analytics als rapportagebron (A4T) gebruiken.
+title: Biedt A4T ondersteuning voor automatisch toegewezen en automatisch doelgerichte activiteiten?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
