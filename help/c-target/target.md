@@ -1,12 +1,12 @@
 ---
 keywords: Doelstelling;publiek;doelpercentage
-description: Gebruik het publiek in Adobe Target om verschillende inhoud en ervaringen te richten op specifieke doelgroepen om uw webmarketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven.
-title: Soorten publiek
+description: Leer hoe u publiek in Adobe Target kunt gebruiken om verschillende inhoud en ervaringen te richten op specifieke doelgroepen om uw marketingactiviteiten op het web te optimaliseren.
+title: Hoe kan ik publiek gebruiken om verschillende inhoud te richten aan specifieke segmenten?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
