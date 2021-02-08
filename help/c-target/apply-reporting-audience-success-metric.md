@@ -1,12 +1,12 @@
 ---
 keywords: gericht;publiek;rapportering;succes metrisch
-description: Kies een succesmetrische waarde in Adobe Target die de gebruiker voor het rapportpubliek kwalificeert.
-title: Pas een rapporteringspubliek op een Succes metrisch toe
+description: Leer hoe u in Adobe Target een succesmetrische waarde kiest die de gebruiker voor het rapportpubliek kwalificeert.
+title: Kan ik een rapporteringspubliek op een succes metrisch toepassen?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
