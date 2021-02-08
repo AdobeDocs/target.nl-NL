@@ -1,12 +1,12 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Adobe Target-welkomstkit - Hoofdstuk 2 - Doel in één oogopslag
-title: Welkomstkit - Hoofdstuk 2 - Beknopt overzicht
+description: Kijk eens naar Adobe Target. Meer informatie over beschikbare activiteiten, kanalen, implementatie, integratie en meer.
+title: Waar kan ik een Inleiding op hoog niveau aan doel vinden?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
