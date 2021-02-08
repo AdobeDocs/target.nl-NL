@@ -1,12 +1,12 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Adobe Target-welkomstkit - Hoofdstuk 9 - Volgende stappen en bronnen
-title: Welkomstkit - Hoofdstuk 9 - Volgende stappen en bronnen
+description: Je hebt je eerste activiteit in Adobe Target gemaakt. Wat nu? In dit artikel vindt u koppelingen naar aanvullende bronnen, trainingszelfstudies en 'Hoe kan ik'-video's.
+title: Waar kan ik extra middelen vinden om het doel effectiever te gebruiken?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
