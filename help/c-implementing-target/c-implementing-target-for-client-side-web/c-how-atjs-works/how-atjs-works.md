@@ -1,10 +1,11 @@
 ---
 keywords: systeemdiagram;flicker;at.js;implementatie;javascript-bibliotheek;js;atjs
-description: Het systeemdiagram van Adobe Target dat de stroom van vraag en informatie toont die voor een auto-gecreeerde globale mbox wordt verzonden of wordt verzameld gebruikend at.js.
-title: Hoe de JavaScript-bibliotheek at.js werkt
+description: Leer hoe de JavaScript-bibliotheek Doel in.js werkt, inclusief systeemdiagrammen, zodat u de workflow tijdens het laden van pagina's beter kunt begrijpen.
+title: Hoe werkt de JavaScript-bibliotheek at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 2%
@@ -43,9 +44,9 @@ Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met wee
 
 | Stap | Details |
 | --- | --- |
-| 1 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
+| 3 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 1 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
+| 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor weergaven die worden weergegeven als gevolg van gebruikershandelingen in een SPA, wordt in de browser in de cache opgeslagen, zodat deze direct kan worden toegepast zonder een extra serveraanroep wanneer de weergaven worden geactiveerd  `triggerView()`. |
@@ -80,7 +81,7 @@ Zie [Begrijpen hoe at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-dia
 | Stap | Beschrijving | Bellen | Beschrijving |
 |--- |--- |--- |--- |
 | 3 | De vraag keert [!DNL Experience Cloud ID] (MCID) terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen. |
-| 1 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De opslag vraagt gekwalificeerd publiek van [!UICONTROL Audience Library] (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Audience Manager], enz. wordt gedeeld).<br>Klantkenmerken worden  [!DNL Profile Store] in een batchproces naar de klant verzonden. |
+| 3 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De opslag vraagt gekwalificeerd publiek van [!UICONTROL Audience Library] (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Audience Manager], enz. wordt gedeeld).<br>Klantkenmerken worden  [!DNL Profile Store] in een batchproces naar de klant verzonden. |
 | 5 | Op basis van de URL, mbox-parameters en profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd aan de bezoeker. | 6 | Gerichte inhoud wordt teruggestuurd naar pagina, met eventueel ook profielwaarden voor extra personalisatie.<br>De ervaring wordt zo snel mogelijk getoond zonder flikkering van standaardinhoud. |
 | 7 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. | 8 | [!DNL Target] gegevens worden via de SDID aan  [!DNL Analytics] gegevens aangepast en worden in de  [!DNL Analytics]  rapportageopslag verwerkt.<br>[!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als   [!DNL Target] via  [!DNL Analytics for Target] (A4T) rapporten worden bekeken. |
 
