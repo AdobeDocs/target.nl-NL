@@ -7,8 +7,8 @@ role: Developer
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2774'
+ht-degree: 1%
 
 ---
 
@@ -294,7 +294,7 @@ De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoer
 
 | Stap | Handeling | Details |
 | --- | --- | --- |
-| 1 | `visitor.resetState()` aanroepen | Deze API zorgt ervoor dat de SDID opnieuw wordt gegenereerd voor de nieuwe weergave terwijl deze wordt geladen. |
+| 3 | `visitor.resetState()` aanroepen | Deze API zorgt ervoor dat de SDID opnieuw wordt gegenereerd voor de nieuwe weergave terwijl deze wordt geladen. |
 | 2 | Cache bijwerken door de `getOffers()` API aan te roepen | Dit is een optionele stap als deze weergavewijziging de huidige bezoeker kan kwalificeren voor meer [!DNL Target] activiteiten of deze kan uitschakelen. Op dit punt kunt u er ook voor kiezen om extra gegevens naar [!DNL Target] te verzenden voor het mogelijk maken van verdere doelmogelijkheden. |
 | 3 | `triggerView()` aanroepen | Als u Stap 2 hebt uitgevoerd, dan moet u op [!DNL Target] verzoek wachten en de aanbiedingen toepassen op geheime voorgeheugen alvorens deze stap uit te voeren. U moet deze stap slechts eenmaal per weergave uitvoeren. |
 | 4 | `triggerView()` aanroepen | Als u Stap 2 niet hebt uitgevoerd, kunt u deze stap uitvoeren zodra u Stap 1 voltooit. Als u Stap 2 en Stap 3 hebt uitgevoerd, dan zou u deze stap moeten overslaan. U moet deze stap slechts eenmaal per weergave uitvoeren. |
