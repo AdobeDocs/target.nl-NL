@@ -1,12 +1,12 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken;alleen publiek maken;activiteit;alleen activiteit;adhoc
-description: Maak een publiek met alleen activiteit vanuit de driestappenworkflow van Adobe Target wanneer u een activiteit maakt. Deze speciale doelgroepen kunnen op andere plaatsen binnen dezelfde activiteit worden gebruikt, maar worden niet opgeslagen in de Soortbibliotheek voor gebruik in andere activiteiten.
-title: Een alleen-actief publiek maken
+description: Leer hoe u in Adobe Target alleen voor activiteiten bestemde soorten publiek maakt die voor eenmalig gebruik in de huidige activiteit zijn en niet in de Soortbibliotheek zijn opgeslagen.
+title: Kan ik een publiek creëren om slechts één keer te gebruiken?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
