@@ -1,10 +1,11 @@
 ---
 keywords: tls;tls 1.0;veiligheid van de vervoerlaag;encryptie;tls 1.1;tls 1.2
-description: Informatie over veranderingen in hoe Adobe en het Gebruik van het Doel TLS (de Veiligheid van de Laag van het Vervoer) om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
-title: Wijzigingen in TLS-codering (Transport Layer Security)
+description: Leer hoe het Doel het protocol van TLS (de Veiligheid van de Laag van het Vervoer) gebruikt om de hoogste veiligheidsnormen te handhaven en de veiligheid van uw klantengegevens te bevorderen.
+title: Hoe gebruikt het doel TLS om beveiliging te bieden?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
