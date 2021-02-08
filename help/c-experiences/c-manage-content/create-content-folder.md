@@ -1,12 +1,12 @@
 ---
 keywords: inhoud;map maken;middelen;map verplaatsen;map kopiëren;map verwijderen;map downloaden;map downloaden;map
 description: Hoe maak ik mappen in de bibliotheek met aanbiedingen?
-title: Aanbiedingenmap maken
+title: Leer hoe u mappen maakt in de Adobe Target Offers-bibliotheek voor de opslag van code en afbeeldingsaanbiedingen en andere mappen.
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '256'
 ht-degree: 2%
 
 ---
