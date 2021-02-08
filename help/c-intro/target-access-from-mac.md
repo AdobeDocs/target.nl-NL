@@ -1,12 +1,12 @@
 ---
 keywords: Experience Cloud;aanmelden;taal;standaard ui-taal;standaardtaal
-description: Hoe heb ik toegang tot Target vanuit de Adobe Experience Cloud?
-title: Toegangsdoel van Adobe Experience Cloud
+description: Leer hoe te om tot Doel van Adobe Experience Cloud toegang te hebben, uw standaardmening te plaatsen, en de taal van het Doel UI en documentatie te veranderen.
+title: Hoe heb ik toegang tot het doel van de Adobe Experience Cloud?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
