@@ -1,11 +1,12 @@
 ---
-description: De mobiele SDK van Adobe neemt contact op met de doelserver om de inhoud samen met andere gegevenspunten op te halen en de gebruiker de juiste ervaring te laten zien.
-title: Hoe werkt Doel in mobiele apps
+description: Leer hoe u de Adobe Mobile SDK kunt gebruiken om de beste ervaringen te laten zien aan uw mobiele app-bezoekers.
+title: Hoe werkt het doel in mobiele apps?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
