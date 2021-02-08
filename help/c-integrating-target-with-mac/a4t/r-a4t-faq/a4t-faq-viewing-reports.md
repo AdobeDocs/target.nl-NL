@@ -89,13 +89,13 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 3 |
+| XYZ | 3 | 5 | 3 | 3 |
 
 De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via persistentie van de eVar. De gegevens zien er nu als volgt uit:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 3 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 De gebruiker komt terug op 1 maart en ziet een nieuwe activiteit, ABC. De gebruiker geeft ook vijf pagina&#39;s weer. Omdat activiteit XYZ de gebruiker door persistentie nog volgt, en deze gebruiker dan ABC heeft geplaatst, zullen wij twee lijnpunten in het melden zien:
 
@@ -108,9 +108,9 @@ De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. 
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers | Orders |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 3 |
-| Totaal | 2 | 20 | 1 | 3 | 3 |
+| XYZ | 1 | 20 | 4 | 3 | 1 |
+| ABC | 3 | 10 | 2 | 3 | 1 |
+| Totaal | 2 | 20 | 3 | 3 | 3 |
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target]-rapportage, omdat u geen [!DNL Target]-activiteit tegen een andere activiteit plaatst om te zien welke meer succes heeft, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items in één activiteit en het is voor een gebruiker niet mogelijk om verschillende ervaringen in dezelfde activiteit te zien, zodat u zich geen zorgen hoeft te maken over kruisbesmetting van orderkrediet.
 
