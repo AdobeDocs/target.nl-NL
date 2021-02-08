@@ -1,12 +1,12 @@
 ---
 keywords: activiteit montages;A/B doelstellingen en montages;het melden van montages;doel metriek;succesmetriek;afhankelijke succesmetriek;geavanceerde montages;primair doel;extra metriek;doelstelling;duur;het melden van oplossing;doel;publiek voor het melden;Welk succes metrisch moet worden bereikt alvorens deze metrisch te verhogen;Wat zal gebeuren nadat een gebruiker dit doel metrisch ontmoet;nota's
-description: Op de pagina Doelstellingen en instellingen in Adobe Target voert u informatie in over de doelen van de test.
-title: Doelstellingen en instellingen
+description: Leer hoe u de pagina Doelstellingen en instellingen in Adobe Target gebruikt om informatie op te geven over de doelen van een A/B-activiteit.
+title: Hoe specificeer ik Doelstellingen en Montages in een Activiteit van het Doel A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
