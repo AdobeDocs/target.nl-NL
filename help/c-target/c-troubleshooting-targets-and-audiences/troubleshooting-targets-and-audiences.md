@@ -1,12 +1,12 @@
 ---
 keywords: problemen oplossen;veelgestelde vragen;veelgestelde vragen;veelgestelde vragen;veelgestelde vragen;doelen;doelgroepen
-description: Lijst met veelgestelde vragen (FAQ's) over de ervaring die doelgericht en publiek is.
-title: Veelgestelde vragen over doelen en doelgroepen
+description: Veelgestelde vragen (FAQ's) weergeven over de ervaring die wordt gebruikt bij Adobe Target-activiteiten en over doelgroepen.
+title: Waar kan ik vragen en antwoorden vinden over doelen en publiek?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '950'
 ht-degree: 1%
 
 ---
