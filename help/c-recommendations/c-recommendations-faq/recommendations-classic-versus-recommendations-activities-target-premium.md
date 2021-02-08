@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;aanbevelingen algoritmen;aanbevelingen activiteit;aanbevelingen klassieke
-description: Informatie die u helpt bij het kiezen tussen Recommendations Classic- en Recommendations-activiteiten in Target Premium.
-title: Recommendations Classic Versus Recommendations Activiteiten in Target Premium
+description: Bekijk informatie om u te helpen de verschillen tussen de oudere Recommendations Classic- en Recommendations-activiteiten in Target Premium begrijpen.
+title: Wat is het verschil tussen Recommendations Classic en Recommendations in Target Premium?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
