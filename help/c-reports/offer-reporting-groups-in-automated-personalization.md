@@ -1,12 +1,12 @@
 ---
 keywords: geautomatiseerde personalisatie;aanbieding;rapportering;groep;rapporteringsgroep
-description: Informatie over het gebruik van rapportagegroepen in Automated Personalization (AP)-activiteiten in Adobe Target.
-title: Rapportgroepen aanbieden in Automated Personalization (AP)-activiteiten
+description: Leer hoe u rapportgroepen kunt aanbieden in Adobe Target Automated Personalization-activiteiten. Gebruikend rapporteringsgroepen, leidt het Doel tot slechts één verpersoonlijkingsmodel voor elke rapporteringsgroep.
+title: Kan ik rapportagegroepen voor aanbiedingen gebruiken bij Automated Personalization-activiteiten?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
