@@ -1,12 +1,12 @@
 ---
 keywords: Profielscript;profielscriptkenmerken;wederzijds uitsluitende activiteiten
-description: U kunt profielkenmerken gebruiken om tests in te stellen die twee of meer activiteiten vergelijken, maar niet toestaan dat dezelfde bezoekers aan elke activiteit deelnemen.
-title: Profielscripts gebruiken om wederzijds exclusieve activiteiten te testen
+description: Leer hoe u profielkenmerken kunt gebruiken om tests in te stellen in Adobe Target waarin meerdere activiteiten worden vergeleken, maar waarbij niet dezelfde bezoekers aan elke activiteit mogen deelnemen.
+title: Kan ik Profielscripts gebruiken om uitsluitende activiteiten te testen?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
