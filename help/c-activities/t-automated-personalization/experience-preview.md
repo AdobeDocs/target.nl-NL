@@ -1,12 +1,12 @@
 ---
 keywords: ervaringsvoorvertoning;ervaring URL's;genereren URL's;belevenis weergeven
-description: U kunt voorvertonings-URL's genereren voor Target Automated Personalization-activiteiten, zodat u direct op uw site inhoud kunt zien voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL's en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
-title: Automated Personalization-activiteiten voorvertonen met voorbeeld-URL's met ervaring
+description: Leer hoe u URL's met voorvertoningen kunt gebruiken voor Adobe Target Automated Personalization-activiteiten om inhoud direct op uw site te bekijken voordat de activiteit actief is.
+title: Hoe kan ik URL's van het ervaringsvoorbeeld in Automated Personalization-activiteiten gebruiken?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
