@@ -1,12 +1,12 @@
 ---
 keywords: automatische verkeerstoewijzing;gericht;automatisch toewijzen;automatisch toewijzen
-description: Met de activiteit Automatisch toewijzen in Adobe Target wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversies toenemen terwijl de test nog steeds wordt uitgevoerd en opgedaan.
-title: Automatisch toewijzen kan u sneller testresultaten en hogere opbrengsten opleveren dan een handmatige test
+description: Leer hoe een activiteit van Automatische toewijzing in Adobe Target een winnaar onder twee of meer ervaringen identificeert en automatisch meer verkeer aan de winnaar toewijst.
+title: Kunnen activiteiten die automatisch worden toegewezen sneller resultaten en hogere inkomsten opleveren?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
