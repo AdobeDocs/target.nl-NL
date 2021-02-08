@@ -1,12 +1,12 @@
 ---
 keywords: willekeurig bos;beslissingsboom;ap;Automated Personalization
-description: Het belangrijkste verpersoonlijkingsalgoritme van het doel dat in zowel Automated Personalization als Auto-Doel wordt gebruikt is Willekeurig bos. Met methoden als Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het Random Forest-algoritme in Automated Personalization is een classificatie- of regressiemethode die werkt door het aanleggen van een groot aantal beslissingsbomen tijdens de training.
-title: Random Forest Algorithm
+description: Leer hoe Adobe Target het Random Forest-algoritme gebruikt in zowel Automated Personalization (AP) als Auto-Target-activiteiten.
+title: Hoe gebruikt het doel het Random Forest Algorithm?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
