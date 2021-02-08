@@ -1,12 +1,12 @@
 ---
 keywords: Overzicht en referentie
-description: Bezoekersprofielen bevatten informatie over hoe bezoekers uw pagina's en andere geoptimaliseerde inhoudslocaties gebruiken
-title: Bezoekerprofielen
+description: Meer informatie over bezoekersprofielen met informatie over hoe bezoekers uw pagina's en andere geoptimaliseerde inhoudslocaties gebruiken.
+title: Wat zijn bezoekerprofielen?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
