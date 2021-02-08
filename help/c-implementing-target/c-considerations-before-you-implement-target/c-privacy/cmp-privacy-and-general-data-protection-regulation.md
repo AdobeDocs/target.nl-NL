@@ -1,12 +1,13 @@
 ---
 keywords: gdpr;eu;europese unie;privacy;faq;vaak gestelde vragen;cccpa;privacy;gegevensbescherming;opt-out;opt out;regering;regulering
-description: Informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
-title: Privacy- en gegevensbeschermingsvoorschriften
+description: Leer over Doel en de Algemene Verordening van de Europese Unie van de Bescherming van Gegevens (GDPR), de Wet van de Consumentenprivacy van Californië (CCPA), en andere privacyvereisten.
+title: Hoe handelt Target Privacy- en gegevensbeschermingsregels af?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2263'
 ht-degree: 0%
 
 ---
