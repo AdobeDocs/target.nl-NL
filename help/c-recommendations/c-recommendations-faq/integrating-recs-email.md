@@ -1,12 +1,12 @@
 ---
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time e-mail
-description: Informatie over de manieren om e-mail met Recommendations te integreren.
-title: Recommendations integreren met e-mail
+description: Leer hoe u e-mail kunt integreren met Adobe Target Recommendations, inclusief het gebruik van de API voor doellevering, webvaksjablonen en sjablonen voor alleen downloads.
+title: Hoe integreer ik Recommendations met e-mail?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | Parameter | Waarde | Beschrijving | Validatie |
 |--- |--- |--- |--- |
 | `mboxPC`<br>(Optioneel) | *mboxPCId* | Doelbezoeker-id. Gebruik deze waarde als u een volledige cirkel van een gebruiker bij meerdere bezoeken naar uw site wilt bijhouden of als u een parameter voor gebruikersprofielen gebruikt.<br>Deze waarde moet de werkelijke Adobe Target PCID voor de gebruiker zijn, die van de website naar uw CRM wordt geëxporteerd. De e-mailprovider haalt deze id op van uw CRM of Data-entrepot en gebruikt deze voor de waarde van deze parameter.<br>De  `mboxPC` waarde is ook handig voor het bijhouden van het gedrag van de bezoekerssite bij meerdere bezoeken voor het bijhouden van statistieken wanneer een aanbeveling deel uitmaakt van een A/B-activiteit.<br>**Opmerking**: Zorg ervoor dat u een unieke waarde opgeeft voor  `mboxSession` en  `mboxPC` voor elke e-mailontvanger (dus voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege het grote aantal gebeurtenissen dat binnen één profiel wordt gegenereerd. | 1 &lt; Length &lt; 128<br>Kan niet meer dan één &quot;.&quot; bevatten (punt).<br>Het enige toegestane punt is voor het achtervoegsel van de profiellocatie. |
-| `mboxNoRedirect`<br>(Optioneel) | 3 | Standaard wordt de aanroeper omgeleid wanneer geen te leveren inhoud wordt gevonden. Gebruik deze optie om het standaardgedrag uit te schakelen. |  |
+| `mboxNoRedirect`<br>(Optioneel) | 1 | Standaard wordt de aanroeper omgeleid wanneer geen te leveren inhoud wordt gevonden. Gebruik deze optie om het standaardgedrag uit te schakelen. |  |
 | `mbox3rdPartyId` | *xxx* | Gebruik deze optie als u uw eigen aangepaste bezoeker-id wilt gebruiken voor het opgeven van profielen. |  |
 
 ### Mogelijke reacties op doelserver
