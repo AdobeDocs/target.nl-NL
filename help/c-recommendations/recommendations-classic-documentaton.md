@@ -1,12 +1,12 @@
 ---
 keywords: aanbevelingen Klassiek
-description: Adobe Recommendations Classic-documentatie.
-title: Klassieke Adobe Recommendations-documentatie
+description: Download een PDF van de verouderde Adobe Recommendations Classic-documentatie.
+title: Waar vind ik documentatie voor Adobe Recommendations Classic?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
