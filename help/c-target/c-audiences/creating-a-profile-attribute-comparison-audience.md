@@ -1,12 +1,12 @@
 ---
 keywords: publiek;prioriteit;profielkenmerk;vergelijken;vergelijken;publiek maken;publiek maken;publiek maken
-description: Definieer een publiek om twee profielkenmerken voor uw doelpubliek of in een publiek met alleen activiteit te vergelijken. Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
-title: Een vergelijkingspubliek voor profielkenmerken maken
+description: Leer hoe te om een publiek te bepalen om twee profielattributen voor uw bibliotheek van het Doelpubliek of in een activiteit-slechts publiek te vergelijken.
+title: Kan ik twee profielkenmerken vergelijken voor gebruik bij het publiek?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
