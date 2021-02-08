@@ -1,12 +1,12 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Adobe Target-welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van Target
-title: Welkomstkit - Hoofdstuk 4 - Tips voor het gebruik van het doel
+description: Lees tips van ons panel van experts over het gebruik van Adobe Target als onderdeel van uw test- en personaliseringsinspanningen.
+title: Waar kan ik tips en trucs voor het gebruiken van Doel vinden?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
