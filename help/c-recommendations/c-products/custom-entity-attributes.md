@@ -1,13 +1,13 @@
 ---
 keywords: multi-value entiteitsattributen;douane entiteitattributen;geldige JSON;entiteitkenmerkwaarde;JSON serie;multi-getaxeerde;multivalueerde
-description: Gebruik de kenmerken van een enkele en meerdere aangepaste entiteit om aanvullende informatie over items in uw catalogus te definiëren.
-title: Kenmerken Aangepaste entiteit
+description: Leer hoe u aangepaste entiteitskenmerken voor enkelvoudige en meervoudige waarden gebruikt om aanvullende informatie over items in uw Adobe Target Recommendations-catalogus te definiëren.
+title: Hoe gebruik ik aangepaste entiteitskenmerken?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
