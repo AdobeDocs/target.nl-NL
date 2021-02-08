@@ -1,12 +1,12 @@
 ---
-keywords: recommendations;frequently asked questions;faq
-description: Lijst met veelgestelde vragen (FAQ's) over ontwerpen met Adobe Target-aanbevelingen.
-title: Veelgestelde vragen over ontwerp
+keywords: aanbevelingen;veelgestelde vragen;faq
+description: Bekijk een lijst met veelgestelde vragen (FAQ's) en hun antwoorden over Adobe Target Recommendations-ontwerpen.
+title: Waar kan ik antwoorden om Vragen voor doel-Recommendations te ontwerpen?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
