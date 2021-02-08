@@ -1,12 +1,12 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Adobe Target-welkomstkit - Hoofdstuk 6 - Eenvoudig te vermijden valkuilen
-title: Welkomstkit - Hoofdstuk 6 - Eenvoudig vermijdbare valkuilen
+description: Leer van fouten van anderen zodat u niet dezelfde maakt wanneer u Adobe Target gebruikt als onderdeel van uw test- en personalisatiestrategie.
+title: Wat zijn algemene fouten bij het gebruik van het doel en hoe kan ik deze vermijden?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
