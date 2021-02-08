@@ -1,12 +1,12 @@
 ---
 keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren door koppeling;navigeren door koppeling;navigeren;koppeling;ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren
-description: Wanneer u op een paginaelement in Adobe Target Visual Experience Composer (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn.
-title: Opties voor VEC (Visual Experience Composer)
+description: Verken de opties die beschikbaar zijn in Adobe Target Visual Experience Composer (VEC). Klik eenvoudig op een element om te zien welke opties beschikbaar zijn voor dat element.
+title: Hoe gebruik ik de opties Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
