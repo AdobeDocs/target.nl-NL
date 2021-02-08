@@ -1,10 +1,10 @@
 ---
 keywords: aanbevelingen ontwerp;malplaatje;creeer ontwerp;levering;output
-description: In Adobe Target Recommendations wordt gedefinieerd hoe aanbevelingen op een pagina worden weergegeven. De ontwerpen bepalen de lay-out en het formaat van uw aanbevelingen om de betrokkenheid, de omzetting, en de opbrengst van bezoekers te verbeteren.
-title: Overzicht van ontwerp
+description: Leer hoe u in Adobe Target Recommendations ontwerpen gebruikt om te bepalen hoe aanbevelingen op een pagina worden weergegeven (1X4, 1X6, 2X2 enzovoort).
+title: Hoe gebruik ik ontwerpen in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
