@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB..n;vergelijk ervaringen;gericht;vergelijk inhoud;auto-doel;auto-toewijzen
-description: Met een handmatige A/B-testactiviteit worden twee of meer versies van uw website-inhoud vergeleken om te zien welke versie uw conversies het beste verbetert tijdens een vooraf opgegeven testperiode.
-title: A/B-testoverzicht
+description: 'Leer meer over de verschillende soorten A/B-testactiviteiten in Adobe Target: Handmatig, Automatisch toewijzen en Automatisch richten. Kies de juiste voor je.'
+title: Welk type A/B-activiteiten is als doel beschikbaar?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
