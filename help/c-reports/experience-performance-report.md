@@ -1,12 +1,12 @@
 ---
 keywords: multivariërende test;mvt;ervaringsprestatie
-description: Het rapport Experience Performance laat zien hoe elke ervaring in de activiteit presteert.Dit rapport bevat informatie over het aantal deelnemers, de conversiesnelheid, de lift en het vertrouwen.
-title: Experience Performance Report (MVT)
+description: Leer hoe u het Experience Performance Report kunt gebruiken voor Adobe Target Experience Targeting-activiteiten die laten zien hoe elke ervaring in de activiteit presteert.
+title: Hoe gebruik ik het Rapport van de Prestaties van de Ervaring voor Multivariate Tests?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
