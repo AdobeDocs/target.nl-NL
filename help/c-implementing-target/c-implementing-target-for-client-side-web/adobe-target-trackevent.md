@@ -1,12 +1,13 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
-description: Informatie over de functie adobe.target.trackEvent(options) voor de JavaScript-bibliotheek van Adobe Target at.js.
-title: Adobe.Target.Trackevent(Options)
+description: Gebruik de functie adobe.target.trackEvent() voor de JavaScript-bibliotheek van Adobe Target at.js om een aanvraag in te dienen voor het rapporteren van gebruikersacties, zoals klikken en conversies op uw site.
+title: Hoe gebruik ik de functie adobe.target.trackEvent()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
