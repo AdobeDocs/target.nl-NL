@@ -1,12 +1,12 @@
 ---
-keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: Informatie over de pagina Wijzigingen in Adobe Target waarmee u wijzigingen op de pagina kunt bekijken en aanvullende wijzigingen (CSS-kiezer, Mbox en aangepaste code) kunt toevoegen.
-title: Wijzigingen
+keywords: css kiezer;aangepaste code;code editor;Mobile Web Experience Editor
+description: Leer hoe u het deelvenster Wijzigingen in Adobe Target gebruikt om paginawijzigingen weer te geven en extra wijzigingen toe te voegen (CSS-kiezer, Mbox en Aangepaste code).
+title: Welke wijzigingen kan ik aanbrengen in mijn pagina?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2088'
 ht-degree: 0%
 
 ---
