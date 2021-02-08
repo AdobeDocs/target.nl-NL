@@ -1,12 +1,12 @@
 ---
-keywords: targeting;collisions;conflicts
-description: Het lusje van Aanslagen op de pagina van het Overzicht van de Activiteit in Adobe Target maakt een lijst van activiteitenbotsingen op uw plaats.
-title: Activiteitenconflicten
+keywords: richten;botsingen;conflicten
+description: Er treden conflicten op wanneer meerdere activiteiten zijn ingesteld om inhoud aan dezelfde pagina te leveren. Leer hoe u conflicten kunt voorkomen wanneer u Adobe Target gebruikt.
+title: Hoe kan ik activiteitsbotsingen voorkomen?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
