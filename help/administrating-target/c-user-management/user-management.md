@@ -1,12 +1,13 @@
 ---
 keywords: gebruiker toevoegen;gebruiker beheren;gebruikersmachtigingen
-description: Beheer gebruikers in Adobe Target Standard en beheer Eigenschappen en machtigingen voor bedrijven in Adobe Target Premium.
-title: Gebruikersbeheer
+description: Leer hoe u gebruikers beheert in Adobe Target Standard en hoe u bedrijfseigenschappen en -machtigingen beheert in Adobe Target Premium.
+title: Hoe vorm ik Gebruikersbeheer?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
