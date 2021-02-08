@@ -1,12 +1,12 @@
 ---
 keywords: geautomatiseerde personalisatie;ap;publiek;ensemble;random forest;restvariantie;foutvariantie;levenswaarde
-description: De Automated Personalization-workflow voor activiteit in Adobe Target verschilt van de workflow van de andere typen activiteiten.
-title: Een Automated Personalization-activiteit maken
+description: Leer hoe te om een activiteit van Automated Personalization (AP) in Adobe Target tot stand te brengen gebruikend Visual Experience Composer (VEC).
+title: Hoe maak ik een Automated Personalization-activiteit?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
