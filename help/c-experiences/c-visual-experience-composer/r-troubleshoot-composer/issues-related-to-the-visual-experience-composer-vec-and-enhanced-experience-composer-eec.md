@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Adobe Target Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
-title: Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer
+keywords: gericht;visuele ervaringscomposer;whitelist;witte lijst;lijst van gewenste personen;lijst van gewenste personen;verbeterde visuele ervaringscomposer;vec;los visuele ervaringscomposer problemen op;het oplossen van problemen;eec;verbeterde ervaringscomposer;tls 1.2
+description: Leer hoe te om problemen op te lossen die soms in Adobe Target Visual Experience Composer (VEC) en de Verbeterde Composer van de Ervaring (EEC) onder bepaalde voorwaarden voorkomen.
+title: Hoe los ik kwesties met betrekking tot Visual Experience Composer en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
