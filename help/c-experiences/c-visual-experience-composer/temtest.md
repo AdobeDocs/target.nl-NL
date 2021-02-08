@@ -1,12 +1,12 @@
 ---
 keywords: sjabloon testen;sjabloon;zelfde ervaring op vergelijkbare pagina's;sjabloontest
-description: Gebruik een paginasjabloon in Adobe Target om uw pagina's een structuur te geven, of als uw pagina's vergelijkbare elementen bevatten, om variaties in pagina-elementen met een vergelijkbare structuur te testen.
-title: Dezelfde ervaring opnemen op vergelijkbare pagina's
+description: Leer hoe te om Adobe Target Visual Experience Composer (VEC) te gebruiken om de zelfde ervaring op veelvoudige pagina's te omvatten die op gelijkaardige wijze gestructureerd zijn of de zelfde malplaatjeelementen bevatten.
+title: Kan ik dezelfde ervaring opnemen op vergelijkbare pagina's?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
