@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: Weergaveproblemen doen zich soms onder bepaalde omstandigheden voor in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).
-title: Het oplossen van problemen de Composer van de Visuele Ervaring en Verbeterde Composer van de Ervaring
+keywords: gericht;visuele ervaringscomposer;verbeterde visuele ervaringscomposer;vec;los visuele ervaringscomposer problemen op;het oplossen van problemen;eec;verbeterde ervaringscomposer;tls 1.2
+description: Leer hoe te om problemen problemen op te lossen die soms in Visual Experience Composer (VEC) en Verbeterde Composer van de Ervaring (EEC) onder bepaalde voorwaarden voorkomen.
+title: Hoe los ik de Visuele Composer van de Ervaring en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
