@@ -1,12 +1,12 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Adobe Target-welkomstkit - Hoofdstuk 3 - Ontwikkel uw test- en personalisatieideeën
-title: Welkom kit - Hoofdstuk 3 - Ontwikkel uw test- en personalisatieideeën
+description: Leer zes stappen die een bewezen proces schetsen om uw test en verpersoonlijkingsideeën te verbeteren alvorens activiteiten in Adobe Target te creëren.
+title: Hoe kan ik mijn test- en personalisatieideeën ontwikkelen?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
