@@ -1,12 +1,12 @@
 ---
 keywords: automatische verkeerstoewijzing;gericht;winnaar;statistische garantie;vertrouwen;bepalen winnaar;hef;vertrouwen;gebrek;standaardwaarde;automatisch toewijzen;automatisch toewijzen
-description: Interpreteer de resultaten van een A/B-activiteit in Adobe Target door belangrijke indicatoren te onderzoeken, waaronder lift en vertrouwen.
-title: Rapporten automatisch toewijzen interpreteren
+description: Leer hoe u de resultaten van een automatisch toegewezen A/B-activiteit in Adobe Target kunt interpreteren door belangrijke indicatoren te onderzoeken, waaronder lift en vertrouwen.
+title: Hoe interpreteer ik automatisch toegewezen rapporten?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
