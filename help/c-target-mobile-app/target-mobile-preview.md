@@ -1,12 +1,13 @@
 ---
 keywords: qa;voorvertoning;voorvertoningskoppeling;mobiel;mobiele voorvertoning
-description: Gebruik de koppeling voor mobiele voorvertoningen om eenvoudige end-to-end QA's voor mobiele app-activiteiten uit te voeren en uzelf in te schrijven voor verschillende ervaringen op uw apparaat zonder speciale testapparaten.
-title: De koppeling Mobiele voorvertoning gebruiken in Target Mobile
+description: Gebruik koppelingen voor mobiele voorvertoningen om end-to-end kwaliteitscontroles uit te voeren voor mobiele toepassingsactiviteiten. U kunt zich inschrijven voor verschillende ervaringen zonder speciale testapparaten.
+title: Hoe gebruik ik de Mobiele Verbinding van de Voorproef in Mobiel Doel?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -76,10 +77,16 @@ Met de functie voor mobiele voorvertoningen kunt u uw mobiele-toepassingsactivit
      }
    ```
 
-   Als u Mobiele voorvertoning wilt laten werken voor Android, moet u ook het volgende codefragment toevoegen in [!DNL AndroidManifest.xml]:
+   Als u Mobiele voorvertoning wilt laten werken voor Android, moet u ook het volgende codefragment toevoegen in [!DNL AndroidManifest.xml] als u versie 5 van de SDK van Adobe Mobile gebruikt:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   Gebruik het volgende codefragment als u versie 4 van de Adobe Mobile SDK gebruikt:
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## Een voorbeeldkoppeling {#section_D9D58173FFF34E9BB75EBF357273F128} genereren
