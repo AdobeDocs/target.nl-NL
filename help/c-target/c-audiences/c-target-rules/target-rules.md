@@ -1,12 +1,12 @@
 ---
 keywords: gericht;doelcategorieën;doelvoorwaarden;doelmanager;aangepaste profielparameters;bezoekersprofiel;profiel;aangepaste gebruikersparameters;doelregels
-description: U kunt zich richten op om het even welk van verscheidene categorieën. Elke categorie werkt als een tabblad waarmee u voor elke categorie doelregels (of groepen) kunt maken.
-title: Categorieën voor soorten publiek
+description: Leer hoe u categorieën (zoals Browser, Geo, Netwerk, Besturingssysteem, Bezoekersprofiel) kunt gebruiken om inhoud als doel in te stellen.
+title: Wat zijn de categorieën voor het publiek?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
