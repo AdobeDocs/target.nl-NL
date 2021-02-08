@@ -1,12 +1,13 @@
 ---
 keywords: problemen oplossen doel;het oplossen van problemendoel;gebruikers;gebruikersbeheer
 description: Problemen met informatie over het beheren van gebruikers in Adobe Target oplossen.
-title: Gebruikersbeheer oplossen
+title: Hoe kan ik problemen met Gebruikersbeheer oplossen?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
