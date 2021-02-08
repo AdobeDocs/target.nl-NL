@@ -1,12 +1,13 @@
 ---
 keywords: mobiele app;mobiele app sdk;doel mobiele app;mobiele doel sdk;mobiele app sdk;doel inschakelen in sdk
-description: Voeg de SDK van Adobe Mobile Services toe aan uw app.
-title: Doel inschakelen in de SDK
+description: Leer hoe u de Adobe Mobile Services SDK toevoegt aan uw mobiele app.
+title: Hoe laat ik Doel in de Adobe Mobile SDK toe?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
