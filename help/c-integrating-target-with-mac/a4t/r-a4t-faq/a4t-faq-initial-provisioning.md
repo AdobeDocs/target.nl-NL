@@ -1,12 +1,12 @@
 ---
 keywords: faq;veelgestelde vragen;analyses voor doel;a4t;provisioning;provisioning;adobe Experience Cloud
-description: Dit onderwerp bevat antwoorden op vragen die vaak over leveringAnalytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
-title: Aanvankelijke levering - Veelgestelde vragen A4T
+description: Vind antwoorden op vragen die vaak over leveringAnalytics voor Doel (A4T) worden gevraagd, wat u Analytics laat gebruiken rapporteert voor de activiteiten van het Doel.
+title: Waar kan ik informatie over A4T aanvankelijke levering vinden?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
