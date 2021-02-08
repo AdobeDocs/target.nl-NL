@@ -1,12 +1,13 @@
 ---
 keywords: Implementatie;mbox.js niet javascript;redirector;kosten per klik;opbrengst per klik
-description: Gebruik een Redirector vergelijkbaar met hoe u een box in uw tests gebruikt.
-title: Werken met regisseurs
+description: Leer hoe u Redirector gebruikt in e-mailimplementaties, net als hoe u een box gebruikt in uw Adobe Target-activiteiten.
+title: Hoe werk ik met Redirector?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
