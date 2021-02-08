@@ -1,13 +1,13 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;creeer nieuwe criteria;bevordering;bevordering;dynamisch filtreren;dynamiek;lege waarden;negeren het filtreren regel;statische filter;filter door waarde;entiteitattribuut aanpassing;parameter aanpassing;filter door waarde;statische filter
-description: Informatie over het creëren van inclusieregels in Adobe Target Recommendations voor criteria en bevorderingen, en het toevoegen van extra dynamische of statische het filtreren regels om betere resultaten te bereiken.
-title: Dynamische en statische inclusieregels gebruiken in doel-Recommendations
+description: Leer hoe u regels voor deelname maakt in Adobe Target Recommendations voor criteria en promoties. Voeg extra dynamische of statische het filtreren regels toe om betere resultaten te bereiken.
+title: Hoe gebruik ik dynamische en statische inclusieregels in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
