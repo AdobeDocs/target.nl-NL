@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;Instellingen;naam;doel;prioriteit;duur;rapportage-instellingen;andere metagegevens
-description: U kunt verschillende instellingen gebruiken om een Recommendations-activiteit in Adobe Target te beschrijven en te beheren.
-title: Recommendations Activity Settings
+description: Leer hoe u de instellingen configureert die worden gebruikt om een Recommendations-activiteit in Adobe Target te beschrijven en te besturen.
+title: Hoe configureer ik Recommendations Activity Settings?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
