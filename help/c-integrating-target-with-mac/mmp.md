@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud Audiences;audiences
-description: Experience Cloud-publiek biedt Adobe Experience Cloud-oplossingen de mogelijkheid om informatie over websitebezoekers te communiceren en te delen, zodat elke oplossing dezelfde gegevens kan gebruiken.
-title: Experience Cloud publiek
+keywords: Experience Cloud publiek;publiek
+description: Leer hoe Adobe Experience Cloud-publiek Experience Cloud-oplossingen informatie over websitebezoekers laat communiceren en delen met andere Adobe-oplossingen.
+title: Hoe gebruik ik het Adobe Experience Cloud-publiek als doel?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
