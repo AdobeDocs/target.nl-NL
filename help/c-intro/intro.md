@@ -1,13 +1,13 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;wat is adobe target;
-description: Wat is het doel?
+description: Leer de basisbeginselen van Adobe Target Standard en Adobe Target Premium. Target Premium bevat geavanceerde functies die niet beschikbaar zijn in het standaardproduct.
 landing-page-description: Pas de ervaring van uw klanten aan om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
-title: Inleiding
+title: Wat is het doel?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
