@@ -1,12 +1,13 @@
 ---
-keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
-description: Informatie die u helpt bij het instellen van verschillende instellingen op de pagina mbox.js Settings.
-title: mbox.js configureren
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client-pc id support;pass page;references url;traffic level;verkeers duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flikkering;hoofdtekst verbergen;hoofdtekst verbergen
+description: Meer informatie over de oudere mbox.js-implementatie van Adobe Target. Migreer naar de Adobe Experience Platform Web SDK (AEP Web SDK) of naar de nieuwste versie van at.js.
+title: Hoe vorm ik de bibliotheek van Target mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
