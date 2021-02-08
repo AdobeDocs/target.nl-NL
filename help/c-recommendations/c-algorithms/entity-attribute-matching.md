@@ -1,12 +1,12 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevordering;dynamische filtering;dynamic;entiteitattributen die aanpassen
-description: Filter dynamisch in Adobe Target Recommendations door een pool van potentiële aanbevelingen punten aan een specifiek punt te vergelijken dat de gebruiker met heeft in wisselwerking gestaan.
-title: Filter op kenmerk van entiteit Afstemmen in dynamische insluitingsregels in doel-Recommendations
+description: Leer hoe u dynamisch kunt filteren in Adobe Target Recommendations door een groep potentiële items te vergelijken met een specifiek item waarmee de gebruiker heeft gewerkt.
+title: Hoe filtert ik op kenmerk Entiteit die overeenkomt met Recommendations-activiteiten?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
