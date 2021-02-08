@@ -1,12 +1,12 @@
 ---
 keywords: responsief;mobiele viewports;viewport;apparaten;mobiel;responsief webontwerp;rwd
-description: Met mobiele viewports kunt u een voorvertoning weergeven van uw Adobe Target-activiteiten op verschillende schermgrootten.
-title: Mobiele Viewports voor responsieve ervaringen
+description: Met mobiele viewports kunt u zien hoe uw Adobe Target-activiteiten eruit zien op schermen van verschillende formaten. Hier vindt u een lijst met populaire viewportgrootten en resoluties voor apparaten.
+title: Hoe gebruik ik mobiele Viewports voor Responsieve Ervaringen?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
