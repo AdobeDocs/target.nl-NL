@@ -1,12 +1,12 @@
 ---
 keywords: qa;voorvertoning;voorvertoning koppelingen;adobe target;target
-description: Gebruik Adobe Target QA URLs om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
-title: Activiteit QA
+description: Leer hoe te om Adobe Target QA URLs te gebruiken om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
+title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
