@@ -1,13 +1,13 @@
 ---
 keywords: dedupe;allow duplicates;exclude duplicate aanbiedingen;automatiseerd personalisatie;disallow duplicate aanbiedingen;exclude;default content;exclusion group;
-description: Uitsluitingen beheren door uitsluitingsgroepen te maken, met uitzondering van dubbele aanbiedingen, met uitzondering van specifieke ervaringen en met uitzondering van standaardinhoud in Adobe Target Automated Personalization (AP)-activiteiten.
-title: Uitsluitingen beheren
+description: Uitsluitingen beheren in Adobe Target Automated Personalization (AP)-activiteiten. Maak uitsluitingsgroepen en sluit dubbele aanbiedingen, specifieke ervaringen en standaardinhoud uit.
+title: Hoe kan ik uitsluitingen in Automated Personalization-activiteiten beheren?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
