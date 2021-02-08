@@ -1,12 +1,12 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: De Adobe Target Form-Based Experience Composer biedt niet-visuele beleving.
-title: Formuliergebaseerde Experience Composer
+keywords: op formulieren gebaseerde ervaringscomposer;op formulieren gebaseerde composer;verfijningen
+description: Leer hoe u de Adobe Target Form-Based Experience Composer kunt gebruiken voor het maken van niet-visuele ervaringen. Gebruik deze composer wanneer VEC niet beschikbaar of niet praktisch is te gebruiken.
+title: Hoe gebruik ik de op formulieren gebaseerde Experience Composer?
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '756'
 ht-degree: 2%
 
 ---
