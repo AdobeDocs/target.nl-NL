@@ -1,12 +1,12 @@
 ---
 keywords: het doel van problemen oplossen;het oplossen van problemendoel
-description: Lijst met onderwerpen om u te helpen problemen in Adobe Target op te lossen, waaronder onderwerpen voor het oplossen van problemen, veelgestelde vragen (FAQs) en andere nuttige onderwerpen.
-title: Problemen oplossen
+description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe Target, met inbegrip van het oplossen van problemenonderwerpen, vaak gestelde vragen (FAQs), en andere nuttige onderwerpen oplossen.
+title: Hoe los ik Doel problemen op?
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
