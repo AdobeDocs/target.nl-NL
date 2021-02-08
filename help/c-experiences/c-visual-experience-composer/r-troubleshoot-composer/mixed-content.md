@@ -1,12 +1,12 @@
 ---
 keywords: gemengde inhoud;veilig;onveilig;chroom;problemen;vec;visuele ervaringscomposer;onveilig;http;https;firefox;Internet Explorer
-description: Sommige browsers blokkeren de weergave van een pagina als beveiligde inhoud wordt gemengd met onveilige inhoud.
-title: Gemengde inhoud in uw browser inschakelen
+description: Sommige browsers blokkeren de weergave van een pagina als beveiligde inhoud wordt gemengd met onveilige inhoud. Leer hoe u gemengde inhoud inschakelt in Chrome, Firefox en Edge.
+title: Hoe laat ik Gemengde Inhoud in Mijn Browser toe?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
