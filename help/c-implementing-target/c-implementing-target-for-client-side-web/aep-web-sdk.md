@@ -1,12 +1,13 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;web sdk;sdk;adobe experience cloud;platform edge network;adobe experience platform edge network;edge network;aep edge network
-description: Adobe Experience Platform Web SDK is een JavaScript-bibliotheek aan de clientzijde waarmee klanten van Adobe Experience Cloud via het Adobe Experience Platform Edge Network kunnen communiceren met de verschillende services in de Experience Cloud.
-title: Adobe Experience Platform Web SDK
+keywords: Adobe Experience Platform Web SDK;aep web sdk;web sdk;sdk;adobe Experience cloud;platform edge network;adobe Experience platform edge network;edge network;aep edge network
+description: Leer hoe u de SDK van Adobe Experience Platform Web kunt gebruiken om via het AEP Edge Network te communiceren met de verschillende services in de Adobe Experience Cloud.
+title: Hoe voer ik met het Web SDK van het Experience Platform uit?
 feature: AEP Web SDK
+role: Developer
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
