@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3589'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 8 februari | [Voorvertoning voor mobiele doelversie](/help/c-target-mobile-app/target-mobile-preview.md) | Het codefragment dat u moet toevoegen aan het bestand AndroidManifest.xml voor versie 4 van de SDK van Adobe Mobile. |
+|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem wordt verduidelijkt:<ul><li>Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, zullen die veranderingen niet in het Doel UI worden weerspiegeld. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan.</li></ul> |
 | 1 februari | [Samenvattingsrapporten van Automated Personalization](/help/c-reports/reports-ap.md) | Nieuwe sectie toegevoegd: &quot;Veelgestelde vragen.&quot; |
 | 27 januari | [Omleidingsvoorstellen maken](/help/c-experiences/c-manage-content/offer-redirect.md) | Bijgewerkt onderwerp. |
 |  | [Externe aanbiedingen maken](/help/c-experiences/c-manage-content/about-remote-offers.md) | Bijgewerkt onderwerp. |
