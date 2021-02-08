@@ -1,12 +1,13 @@
 ---
 keywords: aangepaste gebeurtenissen;at.js;request is mislukt;request is geslaagd;content rendering is mislukt;content rendering is voltooid;bibliotheek geladen;request start;content rendering start;content rendering geen aanbiedingen;content rendering rediret
-description: Informatie over aangepaste gebeurtenissen voor de JavaScript-bibliotheek van Adobe Target at.js.
-title: at.js Aangepaste gebeurtenissen
+description: Gebruik aangepaste gebeurtenissen om de Adobe Target op .js JavaScript-bibliotheek op de hoogte te stellen wanneer een aanvraag of aanbieding voor een box mislukt of slaagt.
+title: Hoe gebruik ik aangepaste gebeurtenissen at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
