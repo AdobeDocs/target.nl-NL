@@ -1,12 +1,13 @@
 ---
 keywords: serverzijde;serverzijde;sdk;sdks;op apparaat;besluitvorming;op apparaat;op apparaat;nul latentie;latentie;dichtbij-nul;node.js
-description: De beslissing op het apparaat biedt de mogelijkheid om uw Adobe Target A/B- en Experience Targeting-activiteiten (XT) op uw server in cache te plaatsen en in het geheugen te beslissen bij bijna-nullatentie, zonder netwerkverzoeken aan het Adobe Target Edge Network te blokkeren.
-title: Apparaatbeslissingen
+description: Leer hoe te om op-apparatenbesluit te gebruiken om uw doelactiviteiten A/B en MVT op uw server in het voorgeheugen op te slaan om in-geheugenbesluit bij bijna-nul latentie uit te voeren.
+title: Wat is een apparaatbeslissing?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
