@@ -1,12 +1,12 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Adobe Target-welkomstkit - Hoofdstuk 5 - Inspiratie voor test- en personaliseringsactiviteiten
-title: Welkomstkit - Hoofdstuk 5 - Inspiratie voor test- en personaliseringsactiviteiten
+description: Waar kan ik ideeën en inspiratie vinden voor mijn test- en personalisatieactiviteiten met Adobe Target.
+title: Waar kan ik inspiratie vinden voor mijn test- en personaliseringsinspanningen?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Misschien wijzigt u gewoon de volgorde van opties waaruit u kunt kiezen wanneer 
 
 Als uw bedrijf middelen besteedt aan de ontwikkeling van een mobiele app voor iOS, Android of andere apparaten, hoeft u niet alleen maar stil te zitten en te hopen dat gebruikers in de App Store op uw app zullen stummen. In plaats daarvan moet er een degelijke strategie komen voor de bevordering ervan. Test verschillende benaderingen om downloads en gebruik van apps te stimuleren. Als uw niet-mobiele site een koppeling heeft om uw app te downloaden, probeert u de doeltreffendheid te testen van een tijdelijke bestemmingspagina die expliciet uw app promoot wanneer bezoekers op uw startpagina aankomen. Stel een omleidingstest in die de helft van uw mobiele verkeer naar uw huidige sitepagina en de andere helft naar de tijdelijke bestemmingspagina filtert.
 
-## Idee 9: gebruik innovaties voor mobiele apps.
+## Idee 9: Gebruik innovaties voor mobiele apps.
 
 Onderzoek aspecten van smartphone voorbij geolocatie, zoals de versnellingsmeter of gyroscoop. U kunt bijvoorbeeld een ervaring testen die de versnellingsmeter gebruikt om een weergegeven item aan een winkelwagentje toe te voegen door de telefoon te schudden. Test het zelfs voor gebruikers van verschillende merken apparaten, zoals iOS en Android, om te zien of hun reactie afwijkt. Met dergelijke tests kunt u nieuw gedrag van bezoekers ontdekken en overwegen om in toekomstige tests te gebruiken.
 
