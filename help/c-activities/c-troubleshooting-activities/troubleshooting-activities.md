@@ -1,12 +1,12 @@
 ---
 keywords: problemen oplossen doel;het oplossen van problemendoel;standaardinhoud;test niet live;activiteit niet live;het richten van niet werkt;de vorige ervaringsvertoningen;kan geen activiteiten tot stand brengen;kan activiteiten creëren;de paginastructuur veranderde;de paginastructuur veranderde;foutenmelding;fout schrapt profielmanuscript;ajax werkt niet
-description: Als uw Adobe Target-activiteit niet op uw site wordt weergegeven, kunt u met deze suggesties voor probleemoplossing beter een oplossing vinden.
-title: Problemen met activiteiten oplossen
+description: Zoek naar suggesties voor het oplossen van problemen als je Adobe Target-activiteiten niet op je site worden weergegeven.
+title: Hoe kan ik activiteiten problemen oplossen?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
