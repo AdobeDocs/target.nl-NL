@@ -1,12 +1,12 @@
 ---
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme;aanbeveling sleutel;douane sleutel;industrie verticaal;kleinhandel;handel;lood generatie;b2b;financiële diensten;media;het publiceren
-description: Criteria in Adobe Target zijn regels die bepalen welke producten of inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers.
-title: Criteria in Target Recommendations
+description: Leer hoe je criteria gebruikt in Adobe Target Recommendations. Criteria zijn regels die bepalen welke inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers.
+title: Hoe gebruik ik criteria in Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
