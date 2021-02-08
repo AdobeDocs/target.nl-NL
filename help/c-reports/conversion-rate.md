@@ -1,12 +1,12 @@
 ---
 keywords: Doelstelling
-description: De conversiesnelheid, de lift, het vertrouwen (statistische significantie) en het betrouwbaarheidsinterval worden voor elke ervaring gerapporteerd.
-title: Omzetsnelheid
+description: Leer hoe Adobe Target de conversiesnelheid, de lift, het vertrouwen (statistische significantie) en het betrouwbaarheidsinterval voor elke ervaring weergeeft en berekent.
+title: Hoe bekijk ik het Tarief van de Omzetting, Lift, en het Niveau van het Vertrouwen?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
