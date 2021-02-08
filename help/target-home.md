@@ -1,13 +1,12 @@
 ---
 keywords: Doel;home;populaire onderwerpen;adobe target;standard;premium;target documentatie;adobe target documentatie
-title: Adobe Target Guide
-description: Waar kan ik de documentatie van het Doel vinden?
-seo-description: Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
+title: Waar kan ik de documentatie van het Doel vinden?
+description: Leer hoe u Adobe Target kunt gebruiken om de ervaring van uw klanten aan te passen om uw omzet te maximaliseren op uw websites en mobiele sites, apps en andere digitale kanalen.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 1 februari 2021 (  [zie wat veranderde](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 8 februari 2021 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
