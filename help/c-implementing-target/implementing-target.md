@@ -1,13 +1,14 @@
 ---
-keywords: implement;implementing
-description: Voordat u Adobe Target gaat gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen, vertrouwd zijn met de werking en integratie van Target en begrijpen hoe bezoekers worden bijgehouden door het Target-systeem.
-landing-page-description: Before you start using Adobe Target, you should implement it on your site, understand a few basic concepts and terms, and be familiar with how Target works.
-title: Doel implementeren
+keywords: implementeren;uitvoeren
+description: Begrijp basisconcepten, ben vertrouwd met hoe het Doel werkt en met uw infrastructuur integreert, en begrijp hoe de bezoekers worden gevolgd.
+landing-page-description: Voordat u Adobe Target gaat gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen en vertrouwd zijn met de werking van Target.
+title: Hoe kan ik het doel implementeren?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
