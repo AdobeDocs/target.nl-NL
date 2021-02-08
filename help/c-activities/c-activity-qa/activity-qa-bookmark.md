@@ -1,12 +1,12 @@
 ---
 keywords: qa;preview;bookmarklet;voorvertoning van koppelingen
-description: Informatie die u helpt bij het gebruik van de Adobe Target QA-bladwijzer om Target te forceren u uit de QA-modus vrij te geven.
-title: Activity QA-bladwijzer
+description: Leer hoe u de Adobe Target QA-bladwijzer kunt gebruiken om Target te forceren om u vrij te geven van de QA-modus.
+title: Hoe gebruik ik de Activity QA Bookmarklet?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
