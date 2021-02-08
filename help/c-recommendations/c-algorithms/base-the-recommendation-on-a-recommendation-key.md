@@ -1,13 +1,13 @@
 ---
 keywords: aanbeveling sleutel;aanbeveling logica;huidige categorie;aangepast kenmerk;laatst gekocht item;laatst bekeken item;meest bekeken item;meest bekeken item;favoriete categorie;populariteit;onlangs bekeken item;laatst gekocht;laatst bekeken item;laatst bekeken;meest bekeken;meest bekeken;favoriet;onlangs bekeken
-description: Recommendations op basis van sleutels gebruikt de gedragscontext van de bezoeker om relevante resultaten te tonen in Adobe Target Recommendations-activiteiten.
-title: Baseer de Aanbeveling op een Sleutel van de Aanbeveling
+description: Leer hoe u aanbevelingen kunt gebruiken op basis van toetsen die de context van het gedrag van bezoekers gebruiken om relevante resultaten weer te geven in Adobe Target Recommendations-activiteiten.
+title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2762'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Er zijn twee typen Recommendations:
 * **Populariteit:** geeft items weer op basis van de opties Meest bekeken, Boven verkocht en Metrisch boven. De sleutel is leeg voor populiteitscriteria.
 * **Op sleutel gebaseerd:** Omvat de rest van de criteria. Recommendations biedt verschillende keuzemogelijkheden met betrekking tot het sleuteltype. De opties variëren van &quot;huidig punt&quot;tot &quot;profielparameters,&quot;die u toestaan om de sleutel van de waarden programmatically te plaatsen aan te bevelen. U kunt meerdere criteria op elkaar testen door de criteria op een andere toets te baseren.
 
-Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkmatig verdeeld over uw verschillende criteria testen. Met andere woorden, als je twee criteria hebt, is het verkeer in gelijke mate verdeeld. Als u twee criteria en twee ontwerpen hebt, wordt het verkeer gelijkmatig verdeeld tussen de vier combinaties. U kunt ook een percentage bezoekers van de site opgeven die de standaardinhoud ter vergelijking zien. In dat geval ziet het opgegeven percentage bezoekers de standaardinhoud en worden de rest opgedeeld tussen uw criteria en ontwerpcombinaties.
+Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkmatig verdeeld over uw verschillende criteria testen. Met andere woorden, als je twee criteria hebt, is het verkeer gelijk verdeeld. Als u twee criteria en twee ontwerpen hebt, wordt het verkeer gelijkmatig verdeeld tussen de vier combinaties. U kunt ook een percentage bezoekers van de site opgeven die de standaardinhoud ter vergelijking zien. In dat geval ziet het opgegeven percentage bezoekers de standaardinhoud en worden de rest opgedeeld tussen uw criteria en ontwerpcombinaties.
 
 1. Maak nieuwe criteria of selecteer een bestaand criterium en klik op **[!UICONTROL Edit]**.
 1. Als u de aanbevolen toets wilt wijzigen, selecteert u de nieuwe toets in de vervolgkeuzelijst [!UICONTROL Recommendation Key] en klikt u op **[!UICONTROL Save]** of **[!UICONTROL Update]**.
