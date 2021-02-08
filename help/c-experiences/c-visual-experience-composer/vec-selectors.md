@@ -1,12 +1,12 @@
 ---
 keywords: Gericht op ervaring;Bezig met landen van pagina testen
-description: Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd.
-title: Elementkiezers die worden gebruikt in de Visual Experience Composer (VEC)
+description: 'Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd. Leer hoe u elementkiezers in de Adobe Target Visual Experience Composer (VEC) kunt gebruiken. '
+title: Kan ik de Kiezers van het Element in Visual Experience Composer (VEC) gebruiken?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
