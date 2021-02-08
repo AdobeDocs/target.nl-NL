@@ -1,13 +1,13 @@
 ---
 keywords: ervaring;controle;geautomatiseerde verpersoonlijking;auto-doel
-description: Selecteer een ervaring die u als besturingselement wilt gebruiken tijdens het maken van een Automated Personalization- (AP) of Auto-Target-activiteit in Adobe Target.
-title: Een specifieke ervaring gebruiken als controle
+description: Leer hoe u een ervaring selecteert die u wilt gebruiken als besturing tijdens het maken van een Automated Personalization- (AP) of Auto-Target-activiteit in Adobe Target.
+title: Hoe kan ik een specifieke ervaring als Controle in een AP Activiteit gebruiken?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
