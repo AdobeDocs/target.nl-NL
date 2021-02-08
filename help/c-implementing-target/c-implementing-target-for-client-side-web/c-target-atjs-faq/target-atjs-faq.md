@@ -1,12 +1,13 @@
 ---
 keywords: at.js faq;at.js veelgestelde vragen;faq;flicker;loader;page loader;cross domain;file size;x-domain;at.js en mbox.js;x alleen;cross domain;safari;single page app;missing selectors;single page application;tt.omtr dc.net;spa;Adobe Experience Manager;AEM;ip adres, alleen;HttpOnly;secure;ip;cookie domain
-description: Antwoorden op veelgestelde vragen over de JavaScript-bibliotheek van Adobe Target at.js.
-title: om.js Veelgestelde Vragen
+description: Lees antwoorden op veelgestelde vragen over de JavaScript-bibliotheek van Adobe Target at.js.
+title: Wat zijn algemene vragen en antwoorden over at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2699'
 ht-degree: 0%
 
 ---
