@@ -1,12 +1,12 @@
 ---
 keywords: A/B;activiteitmetriek;metriek;vastgestelde metriek;doel metrisch;activiteitenmontages;succes metrisch;omzetting;opbrengst;overeenkomst
-description: Gebruik metriek in een Adobe Target A/B-activiteit om te bepalen wanneer een bezoek succesvol is.
-title: Metrisch instellen
+description: Leer hoe u metriek kunt opgeven in een Adobe Target A/B-activiteit om te bepalen wanneer een bezoek succesvol is, zoals Omzetten, Opbrengst en Betrokkenheid.
+title: Hoe kan ik Goal Metrics in een A/B-activiteit instellen?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
