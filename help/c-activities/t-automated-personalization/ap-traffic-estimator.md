@@ -1,12 +1,12 @@
 ---
 keywords: verkeersraming;geautomatiseerde personalisatie;ap;schatting van verkeer
-description: De schatter van het Verkeer verstrekt terugkoppelen die u laat weten of u voldoende verkeer voor uw activiteit van Adobe Target hebt om te slagen.
-title: Schatting van het Verkeer Vereist voor Succes
+description: Leer hoe u de Verkeersschatter gebruikt die u laat weten of u voldoende verkeer hebt om uw Adobe Target Automated Personalization-activiteit te laten slagen.
+title: Hoeveel verkeer is er nodig voor een Automated Personalization-activiteit?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
