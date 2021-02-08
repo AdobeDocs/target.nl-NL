@@ -1,12 +1,13 @@
 ---
 keywords: mobiele app;mobiele app verzendt gegevens;doel mobiele app;mobiele aangepaste gebruikersgegevens;mobiele app, aangepaste gegevens
-description: U kunt aanvullende informatie over de locatie of de gebruiker als naam-waardeparen naar Target sturen.
-title: IOS - verzend de Gegevens van de Gebruiker van de Douane
+description: Leer hoe u aanvullende informatie over de locatie of de gebruiker naar Adobe Target verzendt als naam-waardeparen om u te helpen een aangepast publiek te maken.
+title: Hoe kan ik aangepaste gebruikersgegevens verzenden in een iOS-app?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
