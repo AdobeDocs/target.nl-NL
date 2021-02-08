@@ -1,12 +1,12 @@
 ---
 keywords: sitepagina's;doelsitepagina's;doel;huidige pagina;doel huidige pagina;vorige pagina;doel vorige pagina;landingspagina;doel landingspagina;http header
-description: U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site bevinden.
-title: Opties voor sitepagina's in soorten publiek
+description: Leer hoe u zich kunt richten op bezoekers met Adobe Target die zich op een specifieke pagina op uw site bevinden.
+title: Kan ik bezoekers richten op basis van sitepagina's?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
