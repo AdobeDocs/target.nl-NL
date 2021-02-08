@@ -1,12 +1,12 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Gebruik metriek in een Adobe Target Experience Targeting (XT) activiteit om te bepalen wanneer een bezoek succesvol is.
-title: Metrisch instellen
+keywords: ervaring gericht;xt;metriek;vastgestelde metriek;doel metrisch;activiteit montages;succes metrisch;omzetting;opbrengst;betrokkenheid
+description: Leer hoe u metrische gegevens kunt opgeven in een Adobe Target Experience Targeting-activiteit om te bepalen wanneer een bezoek succesvol is, zoals Conversie, Revenue en Engagement.
+title: Hoe kan ik de meetwaarden voor het doel instellen in een ervaring die gericht is op activiteit?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
