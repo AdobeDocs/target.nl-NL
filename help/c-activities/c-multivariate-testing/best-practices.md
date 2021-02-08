@@ -1,12 +1,12 @@
 ---
 keywords: mvt;multivariate test;multivariate beste praktijken van de test;mvt beste praktijken;mvt combinaties;mvt rapporten
-description: Tips om u te helpen de prestaties te verbeteren, problemen te voorkomen en bekende problemen te verhelpen die zich kunnen voordoen bij het maken en uitvoeren van multivariate testactiviteiten in Adobe Target.
-title: Aanbevolen werkwijzen voor multivariatie testen met Adobe Target
+description: Leer hoe u de prestaties kunt verbeteren, problemen kunt voorkomen en bekende problemen kunt verhelpen die zich kunnen voordoen bij het maken en uitvoeren van Multivariate Test-activiteiten in Adobe Target.
+title: Welke Beste praktijken voor Multivariate Tests?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
