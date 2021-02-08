@@ -1,12 +1,12 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: Informatie over hoe bezoekers kunnen schakelen tussen ervaringen in een Experience Targeting (XT)-activiteit terwijl hun profielen evolueren.
-title: Overschakelen van ervaringen op het gebied van ervaring
+keywords: prioriteit;ervaring maken;prioriteit;ervaring;publiek;ervaring;schakelen tussen ervaringen;visuele ervaringscomposer
+description: Leer hoe bezoekers kunnen schakelen tussen ervaringen in een Adobe Target Experience Targeting-activiteit (XT) terwijl hun profielen evolueren.
+title: Kunnen bezoekers van ervaring in een ervaring veranderen richtend activiteit?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
