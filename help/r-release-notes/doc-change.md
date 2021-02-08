@@ -1,12 +1,12 @@
 ---
 keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe onderwerpen;bewerkingen;updates;update
-description: Welke wijzigingen zijn in de documentatie aangebracht?
-title: Documentatiewijzigingen
+description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de Adobe Target-productdocumentatie.
+title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '3511'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 8 februari | [Voorvertoning voor mobiele doelversie](/help/c-target-mobile-app/target-mobile-preview.md) | Het codefragment dat u moet toevoegen aan het bestand AndroidManifest.xml voor versie 4 van de SDK van Adobe Mobile. |
 | 1 februari | [Samenvattingsrapporten van Automated Personalization](/help/c-reports/reports-ap.md) | Nieuwe sectie toegevoegd: &quot;Veelgestelde vragen.&quot; |
 | 27 januari | [Omleidingsvoorstellen maken](/help/c-experiences/c-manage-content/offer-redirect.md) | Bijgewerkt onderwerp. |
 |  | [Externe aanbiedingen maken](/help/c-experiences/c-manage-content/about-remote-offers.md) | Bijgewerkt onderwerp. |
