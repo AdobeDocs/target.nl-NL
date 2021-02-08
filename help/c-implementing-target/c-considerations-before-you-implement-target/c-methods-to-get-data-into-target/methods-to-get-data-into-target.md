@@ -1,12 +1,13 @@
 ---
 keywords: implementeren;implementeren;instellen;instellen;pagina, parameter;tomcat;url gecodeerd;in-page profiel, kenmerk;mbox, parameter;in-page profiel, kenmerken;script, profielkenmerk;bulk profiel, update-API;single file, update-API;klantkenmerken;gegevensproviders;data provider;data provider
-description: Informatie over de verschillende methoden die u kunt gebruiken om gegevens in Adobe Target op te halen, zoals paginaparameters, paginapagroonprofielkenmerken, scriptprofielkenmerken, gegevensproviders, de API voor het bulkprofielbijwerken, de single-profile-update en klantkenmerken.
-title: Methoden om gegevens op te halen in doel
+description: Gegevens ophalen in Doel (paginaparameters, profielkenmerken, scriptprofielkenmerken, gegevensproviders, update-API's met één profiel en bulkprofielen, klantkenmerken).
+title: Hoe krijg ik gegevens in het doel?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
