@@ -1,12 +1,12 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Adobe Target-welkomstkit - Hoofdstuk 8 - Communiceer uw activiteitenresultaten
-title: Welkomstkit - Hoofdstuk 8 - Communiceer de resultaten van uw activiteit
+description: Gebruik de sjabloon Samenvattingsresultaten om u te helpen bij het communiceren van uw successen met uw Adobe Target-activiteiten.
+title: Hoe kan ik de resultaten van mijn doelactiviteiten met mijn organisatie delen?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
