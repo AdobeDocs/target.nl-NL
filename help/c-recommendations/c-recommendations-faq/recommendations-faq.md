@@ -1,12 +1,12 @@
 ---
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;aanbevelingen;speciale tekens;weging van kenmerken;gelijkenis van inhoud
-description: Lijst met veelgestelde vragen (FAQ's) over Adobe Target Recommendations-activiteiten.
-title: Veelgestelde vragen over Recommendations
+description: Bekijk een lijst met veelgestelde vragen en antwoorden over Adobe Target Recommendations-activiteiten.
+title: Waar kan ik vragen en antwoorden vinden over Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
