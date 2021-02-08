@@ -1,12 +1,13 @@
 ---
 keywords: visuele ervaringscomposer;vec;default url;enhanced experience composer;eec;gemengde inhoud;beleving momentopnamen;mobiele viewport;css;css kiezers
-description: Configureer de Adobe Target Visual Experience Composer (VEC) door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
-title: De Visual Experience Composer (Vec) configureren
+description: Leer hoe u de Adobe Target Visual Experience Composer (VEC) kunt configureren door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
+title: Hoe vorm ik de Visuele Composer van de Ervaring (VEC)?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
