@@ -1,12 +1,12 @@
 ---
 keywords: samenvatting
-description: Het testoverzicht geeft een visueel overzicht van uw Adobe Target Multivariate Test.
-title: Samenvatting testen
+description: Bekijk een overzicht van de MVT-activiteit (Multivariate Test) met een visueel overzicht van uw MVT-activiteit in Adobe Target.
+title: Hoe kan ik de Samenvatting van de Activiteiten van de Multivariate Test (MVT) bekijken?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
