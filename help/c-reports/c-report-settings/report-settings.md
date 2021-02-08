@@ -1,12 +1,12 @@
 ---
 keywords: Doel;rapporten;rapportinstellingen;voorinstelling;doel voorinstelling;metrisch;publiek;datumbereik;instellingen;download;tabelweergave;grafiekweergave;gemiddelde lift;lift gebonden;betrouwbaarheidsinterval;vertrouwen;locatie-bijdrage;lopende gemiddelde;telmethode
-description: Informatie die u helpt bij het instellen van de elementen die u wilt weergeven in uw Adobe Target-rapport. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
-title: Rapportinstellingen
+description: Leer hoe te om rapportmontages in Adobe Target, met inbegrip van metriek, publiek, datumwaaiers, en meer te vormen.
+title: Hoe vorm ik de Montages van het Rapport?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
