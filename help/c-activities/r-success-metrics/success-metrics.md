@@ -1,12 +1,12 @@
 ---
 keywords: Doelstelling;succes;omzettingsmetrische;paginascore;metrische paginamontages;opbrengstmetriek;tijd op plaats metrisch;geschatte waarde;geavanceerde montages;succesmetriek;gebiedsdeel;Afhankelijkheid;De Telling van de verhoging & houdt Gebruiker in Activiteit;De Telling van de verhoging, de gebruiker van de Versie, & Toestaan de Telling van de verhoging, de Gebruiker van de Versie, & Bar van Ingang
-description: In Adobe Target zijn succesmetriek parameters die worden gebruikt om het succes van een activiteit te meten. De metriek van het succes omvat zeer belangrijke bedrijfsmaatregelen die u toelaten om het succes van een bepaalde ervaring of een aanbieding in een activiteit van het Doel te bepalen.
-title: Succeswaarden
+description: Meer informatie over succesmetriek in Adobe Target die u helpen het succes van een activiteit te bepalen. Tot de succesmetingen behoren Conversie, Inkomsten, Paginaweergaven, Aangepaste score en Tijd op de site.
+title: Wat zijn succescijfers?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
