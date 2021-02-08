@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;aanbieding
-description: Adobe Recommendations als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten
-title: Recommendations als een aanbieding in A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten
+description: Leer hoe u Adobe Recommendations kunt gebruiken als een aanbieding voor A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten.
+title: Hoe gebruik ik Recommendations als een voorstel in andere soorten activiteiten?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
