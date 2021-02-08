@@ -1,12 +1,12 @@
 ---
 keywords: mvt;multivariërende test;locatie-bijdragerapport
-description: Het rapport Locatiebijdrage geeft de prestaties van elk element en elke aanbieding weer.
-title: Locatiebijdragerapport (MVT)
+description: Leer hoe u het rapport Locatiebijdrage kunt gebruiken voor Adobe Target Experience Targeting-activiteiten waarin de prestaties van elk element en elke aanbieding worden getoond.
+title: Hoe gebruik ik het rapport Locatiebijdrage voor multivariate tests?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
