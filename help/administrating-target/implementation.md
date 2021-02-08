@@ -1,12 +1,13 @@
 ---
 keywords: implementeren;uitvoeren
-description: Voordat u Adobe Target gaat gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen, vertrouwd zijn met de werking en integratie van Target en begrijpen hoe bezoekers worden bijgehouden door het Target-systeem.
-title: Implementeren
+description: Leer hoe u Adobe Target op uw site implementeert. Stel uw algemene instellingen, implementatiemethode (AEP Web SDK of at.js) en meer in.
+title: Hoe implementeert u het doel op mijn site?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
