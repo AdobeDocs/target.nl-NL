@@ -1,12 +1,13 @@
 ---
 keywords: appel;ITP;intelligente traceringspreventie;beleving cloud-id;ecid
-description: Informatie over Adobe Target-ondersteuning voor ITP 2.x van Apple via de Experience Cloud ID-bibliotheek 4.3.
-title: Ondersteuning voor doel- en Apple ITP
+description: Meer informatie over Adobe Target en de impact van het Apple Intelligent Tracking Prevention (ITP)-initiatief dat de privacy van Safari-gebruikers wil beschermen.
+title: Hoe wordt door het doel Apple ITP-ondersteuning ondersteund?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
