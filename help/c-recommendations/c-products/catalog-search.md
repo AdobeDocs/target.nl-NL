@@ -1,12 +1,12 @@
 ---
 keywords: cataloguszoekopdracht;catalogus;zoeken;uitsluiten;verzameling;filter
 description: Leer hoe u met de zoekfunctie voor Recommendations-catalogi producten of inhoud kunt zoeken, verzamelingen of uitsluitingen kunt maken, items uit uw catalogus kunt verwijderen en nog veel meer.
-title: Zoeken in Recommendations-catalogi gebruiken
+title: Hoe gebruik ik de zoekfunctie van de Recommendations-catalogus?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
