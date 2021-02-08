@@ -1,12 +1,12 @@
 ---
 keywords: activiteiten;activiteit;typen activiteiten;activiteit bewerken;activiteit bewerken;bewerken;concept
-description: Informatie over de verschillende manieren waarop u een bestaande activiteit in Adobe Target kunt bewerken, waaronder het opslaan van een activiteit in een conceptformulier.
-title: Een activiteit bewerken of Opslaan als concept
+description: Leer meer over de verschillende manieren waarop u een bestaande activiteit in Adobe Target kunt bewerken, zoals het opslaan van een activiteit in een conceptformulier.
+title: Hoe kan ik een activiteit bewerken of Opslaan als concept?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
