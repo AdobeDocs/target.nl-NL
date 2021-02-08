@@ -1,12 +1,12 @@
 ---
 keywords: qa;serverzijde;server-kant;voorvertoning;voorvertoning van koppelingen
-description: Gebruik Adobe Target QA URLs met server-zijlevering om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
-title: Activiteit QA met levering op de server gebruiken
+description: Leer hoe te om Adobe Target QA URLs met server-zijlevering te gebruiken om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
+title: Kan ik activiteit QA met Server-kant levering uitvoeren?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
