@@ -1,12 +1,13 @@
 ---
 keywords: Implementatie;mbox.js niet javascript;adbox;redirector;mbox
-description: Informatie over het implementeren van Doel in niet-JavaScript-scenario's, zoals het gebruik van een AdBox of Redirector.
-title: E-mailimplementatie
+description: Leer hoe u Adobe Target implementeert in andere scenario's dan JavaScript, zoals het gebruik van een AdBox of Redirector.
+title: Hoe implementeer ik Doel voor e-mail?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
