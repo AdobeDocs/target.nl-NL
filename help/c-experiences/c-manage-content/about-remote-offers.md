@@ -1,12 +1,12 @@
 ---
 keywords: externe aanbieding;externe aanbiedingsselectiematrix;inhoud in cache;dynamische inhoud;url-type
-description: Kan ik externe aanbiedingen gebruiken om externe inhoud te hosten?
-title: Externe aanbiedingen maken
+description: Leer hoe u externe aanbiedingen in Adobe Target kunt gebruiken om externe inhoud te hosten (inhoud in een CMS of een ander systeem). Ontdek waarom u externe aanbiedingen wilt gebruiken.
+title: Hoe maak ik externe aanbiedingen?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
