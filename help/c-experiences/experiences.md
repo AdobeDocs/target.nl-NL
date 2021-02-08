@@ -1,12 +1,12 @@
 ---
 keywords: beleving;visuele ervaringscomposer;uitgebreide ervaringscomposer;formuliergebaseerde ervaringscomposer;formuliercomposer;visuele composer;beleving composer;gemengde inhoud;iframe;iframe-bosting;bust iframe;x-frame-opties;x frameopties;kruisoorsprong;problemen met oorsprong;verificatieworkflow
-description: Een ervaring in Adobe Target bepaalt welke inhoud wordt weergegeven wanneer de bezoeker voldoet aan de publiekscriteria voor een activiteit.
-title: Ervaringen en aanbiedingen
+description: Meer informatie over de Adobe Experience Composers - Visual Experience Composer (VEC), Form-Based Experience Composer en de Single Page Visual Experience Composer.
+title: Welke ervaren componisten richten zich aan?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
