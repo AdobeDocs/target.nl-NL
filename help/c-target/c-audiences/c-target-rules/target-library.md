@@ -1,12 +1,12 @@
 ---
 keywords: gericht;doelbibliotheek;bibliotheek
-description: De gebruikers van het doel die op pre-gebouwde het richten regels worden gebaseerd.
-title: Opties doelbibliotheek voor publiek
+description: Leer hoe u bezoekers kunt aanwijzen met behulp van vooraf opgebouwd verouderde publiek. De beste manier is om de nieuwere publiekscategorieën te gebruiken voor betere prestaties.
+title: Kan ik bezoekers richten op basis van vooraf gebouwde richtingsregels?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
