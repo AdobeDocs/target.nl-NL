@@ -1,12 +1,12 @@
 ---
 keywords: Doel;analyse;traceringsserver;analyse voor doel;a4t
-description: U kunt een activiteit in de Norm van Adobe Target vormen om Adobe Analytics als rapporteringsbron (A4T) te gebruiken.
-title: Analysegegevens gebruiken
+description: Leer hoe u een activiteit in Adobe Target configureert om Adobe Analytics als bron voor rapportage te gebruiken. Deze integratie wordt genoemd Analytics voor Doel (A4T).
+title: Hoe kan ik de analysegegevens als doel gebruiken?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ U kunt een activiteit in [!DNL Adobe Target] vormen om [!DNL Adobe Analytics] al
 
 Voor gedetailleerde informatie over vestiging Analytics als gegevensbron voor Doel, zie [Adobe Analytics als Rapporterende Bron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-Voordat u een activiteit instelt die Analytics als bron voor rapportage gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een maatstaf voor het uiteindelijke succes van de campagne. Hoewel u extra metriek op elk ogenblik in Analytics kunt selecteren, moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
+Voordat u een activiteit instelt die Analytics als bron voor rapportage gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de campagne. Hoewel u extra metriek op elk ogenblik in Analytics kunt selecteren, moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
 
 >[!NOTE]
 >
