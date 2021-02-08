@@ -1,12 +1,13 @@
 ---
 keywords: wolkeninstanties;openbare achtervoegsellijst;openbaar achtervoegsel;cookie;cookie van eerste partij;cookie van eerste partij;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: Informatie over problemen waarmee klanten worden geconfronteerd wanneer ze op cloud gebaseerde instanties gebruiken om Adobe Target te testen.
-title: Op cloud gebaseerde instanties gebruiken
+description: Verken problemen (met oplossingen) waar klanten mee te maken krijgen wanneer ze cloudgebaseerde instanties gebruiken om Adobe Target te testen of voor concepttest-doeleinden.
+title: Kan ik Doel gebruiken met instanties op basis van cloud?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
