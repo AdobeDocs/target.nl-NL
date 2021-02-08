@@ -1,12 +1,12 @@
 ---
 keywords: criteria;algoritme;industrie verticaal;paginatype;aanbeveling sleutel;aanbeveling logica;logica;gegevenswaaier;gedragsgegevensbron;gedeeltelijk ontwerp;steun aanbevelingen;opname regels;attributenweging;huidige categorie;douane attribuut;laatst gekocht punt;laatst bekeken punt;het meest bekeken punt;meest bekeken punt;favoriete categorie;populariteit;onlangs bekeken punt;laatst aangekocht punt;laatst bekeken punt;laatst bekeken;meest bekeken;favoriet;onlangs bekeken
-description: Criteria bepalen de inhoud van je Adobe Recommendations-activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit.
-title: Criteria maken
+description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendations-activiteiten bepalen om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteiten.
+title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2352'
+source-wordcount: '2360'
 ht-degree: 0%
 
 ---
