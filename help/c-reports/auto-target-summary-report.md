@@ -1,12 +1,12 @@
 ---
 keywords: rapporten;autoTarget;autoTarget;AT;report
-description: Informatie over hoe te om het auto-Doel Summiere rapport in Adobe Target te interpreteren.
-title: Samenvattingsrapport autom. doel
+description: Leer hoe u het rapport Overzicht autom. doel in Adobe Target interpreteert. U kunt op de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen van dit rapport schakelen.
+title: Hoe gebruik ik het overzichtsrapport voor automatische doelen?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
