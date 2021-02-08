@@ -1,12 +1,12 @@
 ---
 keywords: analysetrackingserver;A4T;Adobe Experience Cloud-foutopsporing;Adobe Experience Platform-foutopsporing;bron rapporteren;ontwikkelprogramma's
-description: Als u een oudere versie van at.js of mbox.js gebruikt, moet u een analytische volgende server voor activiteiten specificeren die Analytics voor Doel (A4T) gebruiken.
-title: Een Analytics Tracking Server gebruiken
+description: 'Leer hoe u een Analytics tracking-server opgeeft voor activiteiten die Analytics for Target (A4T) gebruiken als u een oudere versie van at.js of mbox.js gebruikt. '
+title: Hoe gebruik ik een Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
