@@ -1,12 +1,12 @@
 ---
 keywords: autotarget;het richten;verkeerstoewijzing;vraag vaak;faq;het oplossen van problemen;het oplossen van problemen
-description: Auto-Target in Adobe Target maakt gebruik van geavanceerd leren van computers om te kiezen uit meerdere veeleisende markeervaringen om de inhoud en schijfconversies aan te passen. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring op basis van zijn of haar individuele klantprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen.
-title: Overzicht van automatisch doel
+description: Leer hoe een auto-Doelactiviteit in Doel de meest op maat gemaakte ervaring aan elke bezoeker op klantenprofielen en het gedrag van gelijkaardige bezoekers dient.
+title: Wat is een automatisch doelactiviteit?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
