@@ -1,12 +1,12 @@
 ---
 keywords: aanbieding op afstand;aanbieding op afstand maken
-description: Hoe maak ik JSON-aanbiedingen?
-title: JSON-aanbiedingen maken
+description: Leer hoe u JSON-aanbiedingen maakt in Adobe Target voor gebruik in de Form-based Experience Composer. JSON-aanbiedingen zijn handig voor SPA frameworks of server-side integratie.
+title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
