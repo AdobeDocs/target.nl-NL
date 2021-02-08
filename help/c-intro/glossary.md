@@ -1,12 +1,12 @@
 ---
-description: Definities van termen.
-title: Verklarende woordenlijst
+description: Wat betekent het verschil in termen die in Adobe Target worden gebruikt? Vind definities van gemeenschappelijke termijnen om u te helpen meer uit Doel krijgen.
+title: Waar kan ik Termen vinden en Definities die in Doel worden gebruikt?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
