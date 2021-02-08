@@ -1,12 +1,13 @@
 ---
 keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
-description: Met responstokens kunt u automatisch Adobe Target-specifieke informatie (activiteitsgegevens, gebruikersprofielgegevens, geografische informatie enzovoort) uitvoeren voor gebruik bij foutopsporing of integratie met systemen van derden (zoals Clicktale).
-title: Reactiepunten
+description: Leer hoe te om reactietokens in de output van Adobe Target specifieke informatie te gebruiken in het zuiveren en het integreren met derdesystemen (zoals Clicktale).
+title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
