@@ -1,12 +1,13 @@
 ---
 keywords: aanbieding;prefetch;iOS;android;sdk;mobile;mobile sdk
-description: De Adobe Target-prefetch-functie gebruikt de iOS- en Android Mobile-SDK's om inhoud van de aanbieding zo weinig mogelijk op te halen door de serverreacties in cache te plaatsen.
-title: Inhoud van voorkeursaanbieding
+description: Gebruik de Adobe Target-prefetch-functie in de iOS- en Android Mobile-SDK's om inhoud van de aanbieding zo weinig mogelijk op te halen door de serverreacties in de cache op te slaan.
+title: Kan ik inhoud voor mobiele apps vooraf aanbieden?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
