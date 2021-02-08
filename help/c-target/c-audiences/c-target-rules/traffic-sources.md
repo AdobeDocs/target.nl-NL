@@ -1,12 +1,12 @@
 ---
 keywords: gericht;verkeersbronnen;doelverkeersbronnen;doelzoekmachine;zoekengine;landingspagina;doellandingspagina;bestemmingspagina;doorvoerpagina
-description: Maak een publiek in Adobe Target om bezoekers te richten op basis van het zoekprogramma of de bestemmingspagina die hen naar uw site verwijst.
-title: Opties voor verkeersbronnen in soorten publiek
+description: Leer hoe u in Adobe Target een publiek kunt maken om bezoekers te richten op basis van de zoekmachine of bestemmingspagina die hen naar uw site verwijst.
+title: Kan ik bezoekers richten die op de Motor van het Onderzoek of Verwijzende Plaats worden gebaseerd?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
