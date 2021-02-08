@@ -1,5 +1,5 @@
 ---
-keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van richten
+keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van gericht
 description: Leer hoe u afzonderlijke aanbiedingen kunt richten op specifieke doelgroepen met behulp van een Automated Personalization-activiteit (AP) in Adobe Target.
 title: Hoe kan ik me richten op Automated Personalization-aanbiedingen?
 feature: Automated Personalization
