@@ -1,12 +1,12 @@
 ---
 keywords: variabelen;profielen;parameters;ingebouwde profielen;methoden;url-variabelen;geo-profielen;profielen van derden;mbox-variabelen;campagne-variabelen;klantkenmerken
-description: Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profielscripts.
-title: Profiel en variabele verklarende woordenlijst
+description: Een lijst met verschillende profielen, variabelen en parameters weergeven die nuttig zijn in profielscripts in Adobe Target.
+title: Welke profielen, variabelen, en parameters worden gebruikt in doel?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
