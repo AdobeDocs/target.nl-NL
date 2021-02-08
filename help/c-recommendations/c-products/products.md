@@ -1,12 +1,12 @@
 ---
-keywords: product;collections
-description: Entiteiten verwijzen naar de objecten die je met Adobe Target wilt aanbevelen. Entiteiten kunnen van alles zijn, zoals producten, inhoud (zoals artikelen, presentaties, afbeeldingen, films en tv-programma's), aanbiedingen van werk, restaurants enzovoort.
-title: Entiteiten in Adobe Target
+keywords: product;collecties
+description: Meer informatie over entiteiten in Adobe Target Recommendations. Entiteiten verwijzen naar de items die u wilt aanbevelen met Target, zoals artikelen, films of producten.
+title: Hoe gebruik ik Entiteiten?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
