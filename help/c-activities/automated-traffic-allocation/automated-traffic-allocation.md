@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation;auto-allocate;auto allocate
-description: Een activiteit van de Automatische Toewijzing in Adobe Target identificeert een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren.
-title: Automatisch toewijzen
+keywords: geautomatiseerde verkeerstoewijzing;het richten;het Telling van de verhoging en houdt Gebruiker in Activiteit;verkeerstoewijzing;auto-toewijst;auto toewijzen
+description: Leer hoe u in Adobe Target een activiteit voor automatisch toewijzen gebruikt die de winnaar identificeert op basis van twee of meer ervaringen en automatisch meer verkeer toewijst aan de winnaar.
+title: Wat is een automatisch toegewezen activiteit?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3348'
+source-wordcount: '3361'
 ht-degree: 0%
 
 ---
