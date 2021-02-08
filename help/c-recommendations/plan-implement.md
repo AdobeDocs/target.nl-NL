@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-description: Wat je moet weten voordat je een Recommendations-activiteit maakt.
-title: Recommendations plannen en implementeren
+keywords: Recommendations;instellingen;voorkeuren;industrie verticaal;filter incompatibele criteria;standaard hostgroep;thumb basis url;aanbevelingen api token
+description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Target. Zorg ervoor dat uw implementatie voldoet aan de vereiste vereisten. '
+title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
