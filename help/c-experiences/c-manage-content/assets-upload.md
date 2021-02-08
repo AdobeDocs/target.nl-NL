@@ -1,13 +1,13 @@
 ---
 keywords: inhoud;inhoud bijwerken;elementen;inhoud uploaden;element uploaden
-description: Hoe kan ik afbeeldingen uploaden om te gebruiken als afbeeldingsaanbiedingen?
-title: Inhoud uploaden
+description: Leer hoe u afbeeldingen kunt uploaden om te gebruiken als afbeeldingsaanbiedingen in Adobe Target.
+title: Hoe kan ik inhoud uploaden naar de bibliotheek met aanbiedingen?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 1%
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
