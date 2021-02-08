@@ -1,12 +1,12 @@
 ---
 keywords: autotarget;het richten;verkeerstoewijzing;vaak gestelde vragen;faq;het oplossen van problemen;het oplossen van problemen;verkeer
-description: Problemen oplossen en Veelgestelde vragen over automatisch doel in Adobe Target.
-title: Automatische probleemoplossing en veelgestelde vragen
+description: Onderzoek het oplossen van problemenonderwerpen en Veelgestelde Vragen over activiteiten Auto-Target in Adobe Target.
+title: Hoe kan ik auto-doelactiviteiten problemen oplossen?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1871'
 ht-degree: 0%
 
 ---
