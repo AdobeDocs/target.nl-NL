@@ -1,12 +1,12 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Omdat een multivariate test veelvoudige ervaringen vergelijkt, is het belangrijk om te weten hoeveel verkeer wordt vereist om betekenisvolle resultaten te verstrekken. De Adobe Target Traffic Estimator gebruikt statistieken over uw pagina en het aantal ervaringen die worden getest om de hoeveelheid verkeer en de testduur te schatten nodig om de test succesvol te maken.
-title: Schatting van het Verkeer dat voor een Succesvolle Test wordt vereist
+description: Leer hoe te om de schatter van het Verkeer te gebruiken die u laat weten of hebt u voldoende verkeer voor uw Adobe Target Multivariate activiteit van de Test om succesvol te zijn.
+title: Hoeveel verkeer wordt vereist voor een Multivariate Test (MVT) activiteit?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
