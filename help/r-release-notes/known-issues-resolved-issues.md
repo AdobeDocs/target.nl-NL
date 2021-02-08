@@ -1,12 +1,12 @@
 ---
 keywords: bekende problemen;opgeloste problemen;releaseopmerkingen;fouten;problemen;oplossingen
-description: Waar kan ik bekende problemen en opgeloste problemen vinden?
-title: Bekende problemen en opgeloste problemen
+description: Meer informatie over bekende problemen in Adobe Target, waaronder informatie over tijdelijke oplossingen. Wanneer problemen zijn opgelost, worden ze verplaatst naar de sectie Opgelost.
+title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '4312'
+source-wordcount: '4331'
 ht-degree: 0%
 
 ---
