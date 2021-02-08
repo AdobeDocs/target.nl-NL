@@ -1,12 +1,12 @@
 ---
 keywords: bezoekersprofiel;doelbezoekersprofiel
-description: Maak een publiek in Adobe Target om bezoekers aan te wijzen die aan specifieke profielparameters voldoen.
-title: Opties voor bezoekersprofiel in soorten publiek
+description: Leer hoe u in Adobe Target doelgroepen kunt maken voor bezoekers die voldoen aan specifieke profielparameters, zoals nieuwe of geretourneerde bezoeker, categorie affiniteit en meer.
+title: Kan ik bezoekers richten die aan specifieke profielparameters voldoen?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
