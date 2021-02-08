@@ -1,12 +1,12 @@
 ---
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel-rapport;automatisch doel-rapport;automatisch doelrapport;verpersoonlijking;veelgestelde vragen;belangrijke kenmerken
-description: Informatie over het Belangrijke rapport van Attributen, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van de activiteiten van Automated Personalization (AP) en Auto-Target (AT).
-title: Rapport Belangrijke kenmerken
+description: Leer hoe u het rapport Belangrijke kenmerken in Adobe Target gebruikt, waarin de belangrijkste kenmerken worden weergegeven die van invloed zijn geweest op het personalisatiemodel en hun relatieve belang.
+title: Wat is het Belangrijke Rapport van Attributen?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
