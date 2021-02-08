@@ -1,12 +1,13 @@
 ---
 keywords: implementeren;implementeren;rfi;verzoeken om informatie
-description: Er zijn taken die u moet voltooien en informatie die u moet verzamelen bij de voorbereiding van de implementatie van Adobe Target.
-title: Implementeren voorbereiden
+description: Weet welke overwegingen u zou moeten richten alvorens Adobe Target uit te voeren. Voltooi noodzakelijke taken en verzamel informatie wanneer het voorbereiden om Doel uit te voeren.
+title: Hoe moet ik de implementatie van het doel voorbereiden?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
