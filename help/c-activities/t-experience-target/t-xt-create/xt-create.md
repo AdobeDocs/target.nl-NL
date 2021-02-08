@@ -1,12 +1,12 @@
 ---
 keywords: Experience Targeting;xt;create
-description: Gebruik Composer van de Visuele Ervaring om een Ervaring tot stand te brengen richtend (XT) activiteit op een doel-Toegelaten pagina en om gedeelten van de pagina binnen Adobe Target te wijzigen.
-title: Een ervaring maken die gericht is op activiteiten
+description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om een Ervaring te creëren richtend (XT) activiteit op een doel-Toegelaten pagina.
+title: Hoe maak ik een ervaring die gericht is op activiteiten?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
