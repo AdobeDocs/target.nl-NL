@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations
-description: De scenario's in dit onderwerp laten zien hoe de wijzigingen die in uw pagina zijn aangebracht, van invloed zijn op de mogelijkheid van Adobe Target om een ervaring weer te geven.
-title: Paginawijzigingsscenario's
+description: Onderzoek gemeenschappelijke scenario's die tonen hoe de veranderingen die aan uw pagina in Visual Experience Composer (VEC) worden aangebracht de capaciteit van Adobe Target beïnvloeden om een ervaring te tonen.
+title: Wat zijn algemene scenario's voor paginawijziging?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
