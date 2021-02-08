@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;aanbieding;voorvertoning;start;status;criteria;algoritme
-description: Nadat u de Recommendations-, A/B Test- of Experience Targeting-activiteit (XT) met Adobe Target Recommendations-aanbiedingen hebt gemaakt, wilt u een voorvertoning weergeven om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. Target Recommendations biedt meerdere manieren om je aanbevelingen voor te vertonen.
-title: Je Recommendations-activiteit bekijken en starten
+description: 'Leer hoe u een voorbeeld van uw Adobe Target Recommendations-activiteiten kunt bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. '
+title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
