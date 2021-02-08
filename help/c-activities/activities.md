@@ -1,13 +1,13 @@
 ---
 keywords: activiteitenlijst;activiteiten;activiteit;activiteitstypen;activiteit bewerken;activiteit;activiteit, acties;activiteitskenmerk;activiteitlijstfilter;activiteitsbeperkingen;personaliseren;personalisatie
-description: Met de activiteiten in Adobe Target kunt u inhoud aanpassen aan specifieke doelgroepen en pagina-ontwerpen testen
-title: Inhoud aanpassen aan specifieke soorten publiek en ontwerpen voor testpagina
+description: Leer hoe u met activiteiten in Adobe Target inhoud kunt aanpassen aan specifieke doelgroepen en pagina-ontwerpen kunt testen
+title: Hoe kan ik inhoud aanpassen en pagina-ontwerpen testen met Doel?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
