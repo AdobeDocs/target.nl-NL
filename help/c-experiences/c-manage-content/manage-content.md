@@ -1,12 +1,12 @@
 ---
-keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
-title: Aanbiedingen
+keywords: inhoud;elementen;inhoud beheren;aanbiedingen;elementen beheren;selectiemodus openen;selectiemodus
+description: Leer hoe u code- en afbeeldingsaanbiedingen kunt beheren met de bibliotheek Aanbiedingen in Adobe Target.
+title: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
