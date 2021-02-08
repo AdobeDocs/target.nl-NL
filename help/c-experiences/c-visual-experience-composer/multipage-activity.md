@@ -1,12 +1,12 @@
 ---
-keywords: multi-page;journey testing;multipage activity
-description: Met een activiteit van meerdere pagina's in Adobe Target kunt u een artikel op meerdere pagina's maken, met een ontwerp dat specifiek is voor elke pagina.
-title: Meerdere pagina's
+keywords: meerdere pagina's;reistesten;meerdere pagina's tegelijk
+description: In deze video leert u hoe u een activiteit met meerdere pagina's maakt in Adobe Target, kunt u een artikel maken over meerdere pagina's, met een ontwerp dat specifiek is voor elke pagina.
+title: Hoe maak ik een activiteit met meerdere pagina's?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
