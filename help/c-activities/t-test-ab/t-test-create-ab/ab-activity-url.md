@@ -1,12 +1,12 @@
 ---
-keywords: activity url;url;different url
-description: De Activiteit URL bepaalt de pagina die in de test wordt gebruikt en die opent wanneer de test gebruikend Adobe Target wordt ontworpen.
-title: URL van activiteit
+keywords: activiteit-URL;url;verschillende URL
+description: Leer hoe u de URL van de activiteit opgeeft die de pagina bepaalt die in de test wordt gebruikt en die wordt geopend wanneer de test wordt ontworpen met Adobe Target.
+title: Wat is de activiteit URL in een activiteit A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
