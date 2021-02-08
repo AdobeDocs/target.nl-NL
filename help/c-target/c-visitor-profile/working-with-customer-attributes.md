@@ -1,12 +1,12 @@
 ---
 keywords: klantenrelatiebeheer;de dienst van het klantenverslag;crs;crm;mbox3rdpartyid;klantenattributen;het richten;csv;crm;adobe ervaren wolken
-description: Informatie over het gebruiken van de gegevens van de ondernemingsklant van een gegevensbestanden van het het relatiebeheer van de klant (CRM) voor inhoud die zich in Adobe Target richt door de Attributen van de Klant in de dienst van de Mensen van Adobe Experience Cloud te gebruiken.
-title: Klantkenmerken
+description: Leer hoe u bedrijfsklantgegevens uit een CRM-database (Customer relationship management) kunt gebruiken voor inhoud die op Adobe Target is gericht.
+title: Wat zijn klantkenmerken en hoe gebruik ik deze?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
