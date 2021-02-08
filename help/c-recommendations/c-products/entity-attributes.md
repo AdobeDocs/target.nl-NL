@@ -1,12 +1,12 @@
 ---
 keywords: entiteit;entiteitskenmerken;informatie doorgeven aan Recommendations;gedraggegevens;gegevensteller;relatieve URL definiëren;inventarisniveau weergeven;prijs definiëren;winstmarge definiëren;aangepaste kenmerken
-description: Gebruik entiteitskenmerken om product- of inhoudsgegevens door te geven aan Adobe Target Recommendations.
-title: Entiteitskenmerken
+description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhoudsgegevens door te geven aan Adobe Target Recommendations.
+title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
