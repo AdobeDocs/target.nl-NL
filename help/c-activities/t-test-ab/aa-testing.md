@@ -1,12 +1,12 @@
 ---
 keywords: a/b;a/a;aa;
-description: Voordat u een A/A-test op uw site uitvoert met Adobe Target, is het belangrijk te begrijpen wat een A/A-test is, waarom u een A/A-test wilt uitvoeren, hoe lang u de test moet uitvoeren en hoe u de resultaten moet interpreteren.
-title: A/A-tests
+description: Leer wat een A/A test is, waarom u een A/A test zou kunnen willen uitvoeren, hoe lang u de test zou moeten in werking stellen, en hoe te om de resultaten te interpreteren.
+title: Wat is een A/A-test?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
