@@ -1,12 +1,12 @@
 ---
 keywords: gericht;AP rapporten;geautomatiseerde verpersoonlijkingsrapporten;auto-doel;auto doel;auto doelrapport;auto-doel rapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen;belangrijke attributen
-description: Er zijn twee gespecialiseerde rapporten beschikbaar voor gebruikers van Automated Personalization (AP)- en Auto-Target (AT)-activiteiten in de rapporten Geautomatiseerde segmenten en Belangrijke kenmerken.
-title: Persoonlijkheidsrapporten
+description: Leer hoe te om de gespecialiseerde rapporten voor Automated Personalization (AP) en auto-Doel (AT) activiteiten - Geautomatiseerde Segmenten en Belangrijke Attributen te gebruiken.
+title: Hoe gebruik ik de rapporten over persoonlijke voorkeuren?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
