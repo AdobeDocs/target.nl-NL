@@ -1,12 +1,13 @@
 ---
 keywords: toevoegen gebruiker;project;gebruikersgroep;eigenschappen;werkruimte;beheren eigenschap;eigenschap;at_eigenschap;rollen;machtigingen
-description: Voeg gebruikers toe aan uw Adobe Target-implementatie; creëren werkruimten, gebruikersgroepen, en eigenschappen; werk uw implementatie van het Doel bij om de parameter te omvatten at_property; en geef rollen en machtigingen op.
-title: Bedrijfsmachtigingen configureren
+description: Leer hoe u gebruikers aan Adobe Target kunt toevoegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de implementatie bij te werken; en geef rollen en machtigingen op.
+title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
