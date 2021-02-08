@@ -1,12 +1,12 @@
 ---
 keywords: multivariëren;mvt;voorvertoning;ervaringen
-description: Omdat bij een multivariate test in Adobe Target meerdere ervaringen op een pagina met elkaar worden vergeleken, is het handig om de pagina met elke ervaring voor te vertonen.
-title: Voorvertoning van ervaringen voor een multivariate Test (MVT)
+description: Leer hoe u elke ervaring in een MVT-activiteit (Multivariate Test) in Adobe Target kunt voorvertonen met behulp van Visual Experience Composer (VEC).
+title: Hoe kan ik ervaringen voor een Multivariate Test (MVT) voorvertonen?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
