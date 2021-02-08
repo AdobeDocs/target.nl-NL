@@ -1,12 +1,12 @@
 ---
-keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate;integration
-description: De integratie van het Doel/van de Audience Manager laat u de segmenten van de Audience Manager naar Adobe Target verzenden
-title: Doel integreren met Adobe Audience Manager (AAM)
+keywords: segmenten;publiek;am;publieksmanager;adobe publieksmanager;integreren;integratie
+description: Leer hoe te om de integratie van het Doel/van de Audience Manager te gebruiken om de segmenten van de Audience Manager (AAM) naar Adobe Target te verzenden.
+title: Hoe integreer ik Doel met Adobe Audience Manager (AAM)?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
