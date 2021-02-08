@@ -1,12 +1,13 @@
 ---
 keywords: implementeren;implementeren;implementatie;adobe launch;launch;race;redirect;Experience platform starten
-description: Adobe Experience Platform Launch is het platform voor het beheer van tags van de volgende generatie van Adobe en heeft de voorkeur voor de implementatie van Adobe Target. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren.
-title: Implementeren met Adobe Launch
+description: Leer hoe u de Adobe Target at.js-bibliotheek implementeert met Adobe Experience Platform Launch, de voorkeursmethode voor het implementeren van Adobe Target.
+title: Hoe implementeer ik Doel met behulp van Adobe Launch?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
