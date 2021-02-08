@@ -1,12 +1,12 @@
 ---
-keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: Rapporten bevatten verschillende gegevenspunten en visualisatieweergaven die u helpen de grenzen van de lift en het betrouwbaarheidsniveau te begrijpen die aan uw Adobe Target-activiteit zijn gekoppeld, zodat u nauwkeuriger kunt bepalen wie de winnaar is.
-title: Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen
+keywords: Doel;rapporten;rapport montages;milieu;lift gebonden;variatie;vertrouwen;controle
+description: Leer hoe u Adobe Target-rapporten kunt interpreteren, die gegevenspunten en visualisatieweergaven bevatten om u te helpen de grenzen van de lift en het betrouwbaarheidsniveau van uw activiteiten te begrijpen.
+title: Hoe bekijk ik Gemiddelde Lift, Lift Bounds, en het Interval van het Vertrouwen?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
