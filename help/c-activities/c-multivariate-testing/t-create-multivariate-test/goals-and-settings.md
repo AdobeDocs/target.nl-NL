@@ -1,12 +1,12 @@
 ---
 keywords: activiteitinstellingen;doelen en instellingen;variëren;mvt
-description: Op de pagina Doelstellingen en instellingen in Adobe Target voert u informatie in over de doelen van de test.
-title: Doelstellingen en instellingen
+description: Leer hoe te om de Doelstellingen en pagina van Montages in Adobe Target te gebruiken om informatie over de doelstellingen van een Multivariate activiteit van de Test (MVT) te specificeren.
+title: Hoe specificeer ik Doelstellingen en Montages in een Multivariate Activiteit van de Test (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
