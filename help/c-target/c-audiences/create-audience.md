@@ -1,12 +1,12 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken
-description: U kunt aangepaste doelgroepen maken en deze opslaan in de doelbibliotheek voor gebruik in uw activiteiten. U kunt een bestaand publiek kopiëren dat u vervolgens kunt bewerken om een vergelijkbaar publiek te maken en meerdere soorten publiek te combineren.
-title: Soorten publiek maken
+description: Leer hoe u een aangepast publiek kunt maken en deze kunt opslaan in de Adobe Target-bibliotheek voor soorten publiek voor gebruik in uw activiteiten.
+title: Hoe kan ik publiek maken?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
