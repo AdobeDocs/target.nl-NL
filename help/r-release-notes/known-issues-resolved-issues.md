@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4331'
+source-wordcount: '4376'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ De volgende problemen zijn bekend met [!UICONTROL Recommendations] activiteiten:
 * Entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. (IRI-857)
 * De &quot;Gebruiksinformatie&quot;-overlays voor Criteria en Ontwerpen weerspiegelen hun gebruik in A/B en de Ervaring gerichte activiteiten (TGT-34331) niet
 * Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
-* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. (TGT-35777)
+* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, zullen die veranderingen niet in het Doel UI worden weerspiegeld. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan.  (TGT-35777)
 * Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
 * De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)
 * De criteria en de ontwerpkaarten geven niet het juiste aantal activiteiten aan waarin zij worden gebruikt. Indien de criteria of het ontwerp in een A/B-activiteit worden gebruikt, kan de kaart ten onrechte aantonen dat het ontwerp of de criteria niet worden gebruikt, zelfs wanneer het ontwerp of de criteria in de activiteit worden gebruikt. (TGT-36621, TGT-37217)
