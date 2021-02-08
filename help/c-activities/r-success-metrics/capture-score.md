@@ -1,12 +1,12 @@
 ---
-keywords: capture score;score
-description: De betrokkenheidsmetrische gegevens voor de opnamescore in Adobe Target berekenen een geaggregeerde score op basis van de waarde die is toegewezen aan pagina's die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste aanvraag voor het weergavedoel van de campagne ziet.
-title: Muziek vastleggen
+keywords: vastlegscore;score
+description: Leer meer over de betrokkenheidsmetrische gegevens voor de opnamescore in Adobe Target die een geaggregeerde score berekent op basis van de waarde die is toegewezen aan de pagina's die op de site zijn bezocht.
+title: Wat is de metrische score van de Score van de Vangst?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
