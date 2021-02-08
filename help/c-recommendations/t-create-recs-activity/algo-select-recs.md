@@ -1,12 +1,12 @@
 ---
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme
-description: Selecteer de criteria die je wilt gebruiken in je Adobe Target Recommendations-activiteit.
-title: Criteria selecteren
+description: Leer hoe u de criteria (regels die bepalen welke producten of inhoud moet worden aanbevolen) selecteert die u in Adobe Target Recommendations-activiteiten wilt gebruiken.
+title: Hoe selecteer ik criteria voor een Recommendations-activiteit?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
