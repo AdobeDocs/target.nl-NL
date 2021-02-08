@@ -1,12 +1,12 @@
 ---
 keywords: aanbevelingen ontwerp;ontwerp maken;ontwerp kopiëren
-description: Een ontwerp bepaalt hoe de aanbevelingen op een pagina verschijnen.
-title: Een ontwerp maken
+description: Leer hoe u een Adobe Target Recommendations-ontwerp maakt met een standaardontwerp of door een aangepast ontwerp te maken dat het beste aansluit bij de lay-out van uw pagina.
+title: Hoe maak ik een ontwerp in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
