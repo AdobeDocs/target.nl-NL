@@ -1,12 +1,12 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: Rapporten bevatten informatie over de prestaties van je Adobe Target-activiteiten
-title: Rapporten
+keywords: rapporten;blok ip adres;blok bezoeker van ip adres;download rapporten;csv;rapportering
+description: Leer hoe u de rapportfuncties in Adobe Target kunt gebruiken om de prestaties van uw activiteiten te controleren. Maak betere besluiten die op uw gegevens worden gebaseerd om ROI te verhogen.
+title: Hoe kan ik rapporten weergeven?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
