@@ -1,12 +1,13 @@
 ---
 keywords: mobiele app;mobiele toepassingslocatie;doel mobiele app;mobiele doellocaties;mobiele app, succesgegevens
-description: Als u Doel wilt gebruiken in uw mobiele app, maakt u een locatie en een succesmaatstaf.
-title: IOS - creeer een Plaats van het Doel en Metrisch Succes
+description: Bekijk voorbeeldcode voor meer informatie over het maken van locaties en succesmetingen in iOS-apps, zodat u uw app kunt personaliseren en optimaliseren met Adobe Target.
+title: Hoe kan ik doellocaties en succeswaarden maken in een iOS-app?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
