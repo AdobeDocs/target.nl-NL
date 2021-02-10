@@ -4,9 +4,9 @@ description: Lees aankondigingen en meld u aan voor Adobe Target-gebeurtenissen,
 title: Waar kan ik doelaankondigingen en gebeurtenissen vinden?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -25,20 +25,20 @@ Adobe Target werd onlangs door zowel Forrester als Gartner erkend als marktleide
 | Forrester | **Adobe noemde een Leider in de golfrapport van de Forrester voor ervaring optimalisatieplatforms.**<br> Adobe kreeg de naam Leader in de Forrester Wave: Experience Optimization Platforms, Q4 2020 rapport voor zijn aanbieding in deze ruimte, Adobe Target Premium. Adobe heeft de hoogste score van alle deelnemende leveranciers behaald in de huidige aanbiedings- en marktaanwezigheidscategorieën, alsook in de aanbevelingen en criteria voor de ervaring met platforms. Target Premium behaalde ook de hoogst mogelijke score in de ervaring optimalisatietechniek innovatie en ondersteunende servicecriteria. Het verslag is gebaseerd op een grondige evaluatie van 10 aanbieders van het optimalisatieplatform voor ervaringen op 22 verschillende criteria.<br>Lees er op de  [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) over. |
 | Gartner | **Adobe noemde opnieuw een leider in het Gartner Magic Quadrant voor verpersoonlijkingsmotoren.**<br> Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid.<br>[Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## Webinar: Aanpassing op schaal: Belangrijke bevindingen van de Forrester Wave, de Platforms van de Optimalisering van de Ervaring
+## Adobe Target Community - Koffiepauze voor vragen en antwoorden
 
-* **Dinsdag 19 januari**
-* **08:00 PT | 10.00 uur CT | 11.00 uur ET**
-* **Duur: 60 minuten**
-* **[Registreer hier](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
+* **Woensdag 24 februari**
+* **09:00 PST | 11.00 uur CST | 12.00 uur EST**
+* **Duur 60 minuten**
+* **[Meer informatie hier](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
 
-De mogelijkheid om de klantervaringen op schaal te optimaliseren is nu van essentieel belang voor het voldoen aan de dynamische behoeften van klanten en de huidige toename van nieuwe digitale bezoekers. Een ervaringoptimalisatieplatform, zoals [!DNL Adobe Target], kan over uw digitale eigenschappen worden opgesteld om snel de juiste ervaring voor uw klanten op het juiste ogenblik te bepalen en te leveren, leveraging handboek en AI-aangedreven gedraggericht, het testen, en aanbevelingen mogelijkheden. Doe mee met ons en onze speciale gast James McCormick, hoofdanalist bij Forrester, terwijl we de belangrijkste bevindingen presenteren en bespreken van The Forrester Wave, Experience Optimization Platforms, 4e kwartaal 2020.
+We zijn lid van Adobe Target Senior Product Manager Rob Hornick. Rob beantwoordt uw vragen met betrekking tot Target en zijn expertisegebieden:
 
-In dit webinar leert u:
-
-* Industrietrends die de evolutie van personalisatie en ervaring optimaliseringshulpmiddelen bepalen
-* Belangrijke mogelijkheden van een toonaangevend platform voor optimalisatie van de ervaring
-* Beste werkwijzen voor het optimaliseren van de ervaringen van klanten op schaal voor maximaal bedrijfseffect
+* Recommendations
+* Automatisch toewijzen
+* Automatisch doel
+* Automated Personalization
+* Machinaal leren en kunstmatige intelligentie
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
