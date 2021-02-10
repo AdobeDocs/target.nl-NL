@@ -4,9 +4,9 @@ description: Leer hoe u Adobe Analytics kunt gebruiken als gegevensbron voor ged
 title: Hoe gebruik ik Adobe Analytics met Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -57,83 +57,7 @@ Zie [products](https://experienceleague.adobe.com/docs/analytics/implementation/
 
 Voor snelle besluitvorming over welke gegevensbron moet worden gebruikt, als er veel organische gegevens zijn die elke dag door gebruikers worden geproduceerd, en niet veel afhankelijkheid die op historische gegevens wordt vereist, dan kan het gebruiken van een [!DNL Target] mbox als gedragsgegevensbron een goede pasvorm zijn. In gevallen van minder beschikbaarheid van onlangs gegenereerde organische gegevens, als u op [!DNL Analytics] gegevens wilt registreren, dan is het gebruiken [!DNL Analytics] als gedragsgegevensbron een goede pasvorm.
 
-### Stappen om te implementeren
-
-Ervan uitgaande dat aan alle voorwaarden is voldaan, moeten de volgende taken door het team van [!DNL Adobe Target Recommendations] worden uitgevoerd:
-
->[!IMPORTANT]
->
->De onderstaande stappen dienen slechts ter illustratie. Een lid van het [!DNL Recommendations] team moet deze stappen momenteel uitvoeren. [Neem contact op met de ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) klantenservice voor meer informatie.
-
-1. Klik in [!DNL Target] op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** om uw [!DNL Target]-clientcode aan te schaffen.
-
-   ![Clientcode](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. Verkrijg uw [!DNL Analytics] rapportsuite.
-
-   Gebruik uw [!DNL Analytics] rapportenpakket van de productiesite. Dit is de rapportsuite die de site bijhoudt waarin u [!DNL Recommendations] hebt geïmplementeerd.
-
-1. Klik in [!DNL Analytics] op **[!UICONTROL Admin]** > **[!UICONTROL Data Feeds]**.
-
-   ![Setup > Data feeds](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. Klik **[!UICONTROL Add]** om een nieuwe voer tot stand te brengen.
-
-   ![Feed toevoegen](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. Voer de gegevens in:
-
-   * **Naam**: Recs Prod Feed
-   * **Rapportsuite**: Uw vooraf bepaalde rapportsuite
-   * **E-mail**: Geef een geschikt adres voor een Admin-gebruiker op
-   * **Diervoederinterval**: Selecteer het gewenste interval
-   * **Vertraging**: Geen vertraging.
-   * **Begin- en einddatum**: Doorlopende diervoeders
-
-   ![Sectie met informatie over diervoeders](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. Vul de details in de **[!UICONTROL Destination]** sectie in:
-
-   >[!NOTE]
-   > 
-   >Raadpleeg het [!DNL Adobe Analytics]-team voordat u deze stap uitvoert.
-
-   * **Type**: FTP
-   * **Host**:  `xxx.yyy.com`
-   * **Pad**: Uw  [!DNL Target] clientcode
-   * **Gebruikersnaam**: Geef uw gebruikersnaam op
-   * **Wachtwoord**: Geef uw wachtwoord op
-
-   Screenshot is alleen ter referentie. Uw implementatie heeft andere referenties. Raadpleeg het [!DNL Adobe Analytics]-team of de klantenservice tijdens deze stap.
-
-   ![Doelsectie](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. Vul de **[!UICONTROL Data Column]** definities in:
-
-   * **Compressie-indeling**: Gzip
-   * **Verpakkingstype**: Eén bestand
-   * **manifest:bestand** voltooien
-
-      ![Compressie-indeling, Type pakket en Manifest-instellingen](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **Opgenomen kolommen**:
-
-      >[!IMPORTANT]
-      >
-      >De kolommen moeten worden toegevoegd in dezelfde volgorde die hier wordt beschreven. Selecteer de kolommen in de volgende volgorde en klik **[!UICONTROL Add]** voor elke kolom.
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * visit_num
-
-1. Klik op **[!UICONTROL Save]**.
-
-   ![Sectie met definities van gegevenskolommen](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-Hierdoor is de installatie aan de zijde [!DNL Analytics] voltooid. Nu is het tijd om deze variabelen aan de zijde [!DNL Target] in kaart te brengen voor ononderbroken levering van gedragsgegevens.
+Nu is het tijd om deze variabelen aan de zijde [!DNL Target] in kaart te brengen voor ononderbroken levering van gedragsgegevens.
 
 ## Implementeren in doel
 
