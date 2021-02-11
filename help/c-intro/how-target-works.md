@@ -4,9 +4,9 @@ description: Meer informatie over de werking van Adobe Target, zoals informatie 
 title: Hoe werkt het doel?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2559'
 ht-degree: 1%
 
 ---
@@ -200,7 +200,13 @@ Wij denken dat het moeilijk zou zijn om de betekenis van de originele inhoud onb
 
 ## Bots {#bots}
 
-Adobe Target gebruikt [DeviceAtlas](https://deviceatlas.com/) om bekende bots te detecteren. Verkeer dat wordt geïdentificeerd als gegenereerd door een bot wordt nog steeds aangeboden als inhoud, net als een gewone gebruiker, om ervoor te zorgen dat dit in overeenstemming is met SEO-richtlijnen. Door beide verkeer te gebruiken, kunnen A/B-tests of verpersoonlijkingsalgoritmen scheeftrekken als ze worden behandeld als normale gebruikers. Daarom als een bekende bot in uw activiteit van het Doel wordt ontdekt, wordt het verkeer lichtjes verschillend behandeld. Het verwijderen van beide verkeer zorgt voor een nauwkeurigere meting van de gebruikersactiviteit.
+Adobe Target gebruikt [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) metrisch &quot;isRobot&quot;om bekende bots te ontdekken die op het Koord van de Agent van de Gebruiker worden gebaseerd die in de Kopbal van het Verzoek wordt overgegaan.
+
+>[!NOTE]
+>
+> Voor [!DNL Server Side] verzoeken, wordt de waarde die in [de &quot;Context&quot;knoop ](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) van het Verzoek wordt overgegaan gegeven belangrijkheid over het Koord van de Agent van de Gebruiker voor beide opsporing.
+
+Verkeer dat wordt geïdentificeerd als gegenereerd door een bot wordt nog steeds aangeboden als inhoud, net als een gewone gebruiker, om ervoor te zorgen dat dit in overeenstemming is met SEO-richtlijnen. Door beide verkeer te gebruiken, kunnen A/B-tests of verpersoonlijkingsalgoritmen scheeftrekken als ze worden behandeld als normale gebruikers. Daarom als een bekende bot in uw activiteit van het Doel wordt ontdekt, wordt het verkeer lichtjes verschillend behandeld. Het verwijderen van beide verkeer zorgt voor een nauwkeurigere meting van de gebruikersactiviteit.
 
 Specifiek, voor bekende bot verkeer richt niet:
 
