@@ -1,12 +1,13 @@
 ---
 keywords: tekenlimiet;mbox-parameters;batch-levering api;profielparameters;limieten;ingebouwde profielen;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;problemen oplossen
 description: Een lijst weergeven met tekenlimieten en andere limieten (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
-title: Een lijst met tekenlimieten en andere limieten bekijken (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
+title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Target?
 feature: Troubleshooting
+mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Limieten
 
-Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target].
+Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -26,39 +27,45 @@ Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen
 
 ## Activiteiten
 
-**Aanbevolen limiet**: 10.000 actieve live activiteiten.
+### Activiteitennamen
 
-**Aanbevolen limiet**: 10.000 actieve opgeslagen (en niet beëindigde) activiteiten.
+* **Limiet**: 250 tekens.
 
-## Activiteitennamen
+### Aantal activiteiten per rekening
 
-**Limiet**: 250 tekens.
+* **Aanbevolen limiet**: 10.000 actieve live activiteiten.
 
-## Namen publiek
-
-**Limiet**: 255 tekens.
+* **Aanbevolen limiet**: 10.000 actieve opgeslagen (en niet beëindigde) activiteiten.
 
 ## Soorten publiek
 
-**Limiet**: 50 soorten publiek per doos, metrisch, of ervaring.
+### Namen publiek
 
-## Soorten publiek, herbruikbaar per account
+* **Limiet**: 255 tekens.
 
-**Aanbevolen limiet**: 20.000 publiek.
+### Soorten publiek, herbruikbaar per account
+
+* **Aanbevolen limiet**: 20.000 publiek.
+
+### Aantal soorten publiek per doos, metrisch, of ervaring
+
+* **Limiet**: 50 soorten publiek
 
 ## categoryId, parameter
 
-**Limiet**: 128 tekens.
+* **Limiet**: 128 tekens.
 
-## Kenmerknamen van klant
+## Klantkenmerken
 
-**Limiet**: 250 tekens via feed of API.
+### Kenmerknamen van klant
 
-## Aliasid van kenmerk Klant
+* **Limiet**: 250 tekens via feed of API.
 
-**Maximaal**  50 tekens.
+### Aliasid van kenmerk Klant
 
-## Klantkenmerken, uploaden
+* **Maximaal**  50 tekens.
+
+### Klantkenmerken, uploaden
 
 * **Maximale bestandsgrootte voor elke upload met de HTTP-methode**: 100 MB.
 * **maximale bestandsgrootte voor elke upload met de FTP-methode**: 4 GB.
@@ -66,187 +73,202 @@ Informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen
 
 ## Entiteiten
 
-Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99, ofwel hardcoded ofwel via lussen.
+### Aantal entiteiten
 
-## Aangepaste kenmerken van entiteit
+* Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99, ofwel hardcoded ofwel via lussen.
 
-U kunt maximaal 100 aangepaste entiteitskenmerken opnemen
+### Aangepaste kenmerken van entiteit
 
-**Limiet**: De maximale tekenlengte is afhankelijk van de taal.
+* **Kenmerken** van aangepaste entiteit: 100.
 
-* 15.000 tekens (talen van één waarde, van één en van twee bytes)
-* 500 waarden, 100 tekens per waarde (meerdere waarden)
+* **Limiet** tekens: De maximale tekenlengte is afhankelijk van de taal.
 
-De maximale lengte van aangepaste kenmerken van entiteiten met een enkele waarde is 15.000 tekens (voor UTF-8-gecodeerde talen van één byte en twee byte, zoals Engelse en andere Latijnse alfabeten) of 10.000 tekens (voor UTF-8-gecodeerde talen van drie bytes, zoals Chinees, Japans en Koreaans).
+   * 15.000 tekens (talen van één waarde, van één en van twee bytes)
+   * 500 waarden, 100 tekens per waarde (meerdere waarden)
 
-Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500 waarden bevatten. Elke individuele waarde is beperkt tot 100 tekens. Het totale aantal tekens voor alle waarden moet in overeenstemming zijn met de beperkingen voor de maximumlengte van aangepaste attributen voor entiteiten met één waarde (zie hierboven).
+   De maximale lengte van aangepaste kenmerken van entiteiten met een enkele waarde is 15.000 tekens (voor UTF-8-gecodeerde talen van één byte en twee byte, zoals Engelse en andere Latijnse alfabeten) of 10.000 tekens (voor UTF-8-gecodeerde talen van drie bytes, zoals Chinees, Japans en Koreaans).
 
-## entiteitID-parameters
+   Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500 waarden bevatten. Elke individuele waarde is beperkt tot 100 tekens. Het totale aantal tekens voor alle waarden moet in overeenstemming zijn met de beperkingen voor de maximumlengte van aangepaste attributen voor entiteiten met één waarde (zie hierboven).
 
-**Limiet**: 1.000 tekens.
+### entiteitID-parameters
+
+* **Limiet**: 1.000 tekens.
 
 ## excludeIds {#excludedid}
 
-**Limiet**: 5 kB voor verzoeken van de POST. 2.083 tekens min de lengte van de URL voor aanvragen van GET.
+* **Limiet**: 5 kB voor verzoeken van de POST. 2.083 tekens min de lengte van de URL voor aanvragen van GET.
 
-Voor verzoeken van GET, hoewel de grens op het achtereind 5 KB is, wegens het feit dat Microsoft Internet Explorer URL tot 2.083 karakters beperkt, is de realistische grens 2.083 karakters minus de huidige lengte van URL.
+   Voor verzoeken van GET, hoewel de grens op het achtereind 5 KB is, wegens het feit dat Microsoft Internet Explorer URL tot 2.083 karakters beperkt, is de realistische grens 2.083 karakters minus de huidige lengte van URL.
 
-## Ervaringsnamen
+## Ervaringen
 
-**Limiet**: 50 tekens.
+### Ervaringsnamen
 
-## Ervaringen per activiteit
+* **Limiet**: 50 tekens.
 
-**Limiet**: 2.000 ervaringen per ervaring gericht (XT), A/B Test, Multivariate Test (MVT), en auto-doelactiviteit.
+### Ervaringen per activiteit
 
-30.000 ervaringen per Automated Personalization (AP) activiteit.
+* **Limiet**: 2.000 ervaringen per ervaring gericht (XT), A/B Test, Multivariate Test (MVT), en auto-doelactiviteit.
 
-## In-box-profielkenmerkwaarde
+   30.000 ervaringen per Automated Personalization (AP) activiteit.
 
-**Limiet**: 256 tekens.
+## mboxes
 
-Waarden die langer zijn dan deze worden afgebroken.
+### In-box-profielkenmerkwaarde
 
-## In-box-profielnamen
+* **Limiet**: 256 tekens.
 
-**Limiet**: 128 tekens.
+   Waarden die langer zijn dan deze worden afgebroken.
 
-## mbox-namen
+### In-box-profielnamen
 
-**Limiet**: 250 tekens.
+* **Limiet**: 128 tekens.
 
-## mbox-parameters
+### mbox-namen
 
-**Limiet**: De volgende limieten gelden voor mbox-parameters:
+* **Limiet**: 250 tekens.
 
-Voor standaard mbox-aanroepen:
-* mbox-parameters: 500 parameters per mbox.
-* Profielparameters: 500 parameters van het parameterprofiel per mbox.
-* Andere parameters (URL, verwijzende URL, enz.): 50 per mbox voor elk ander parametertype.
+### mbox-parameters
 
-Deze limieten zijn van toepassing, tenzij de aanvraag wordt ingekort vanwege beperkingen in de webbrowser.
+* **Limiet**: De volgende limieten gelden voor mbox-parameters:
 
-Als u de Batch Delivery-API gebruikt, is de limiet 50 dozen per aanvraag voor de batch.
+   Voor standaard mbox-aanroepen:
 
-Als u de [Batch Delivery API](https://developers.adobetarget.com/api/#server-side-batch-delivery) in de Mobile Services SDK gebruikt, zijn de limiet van 50 mbox-parameters, 50 profielparameters en 50 voor andere parametertypen beperkingen van de API zelf. Het is niet mogelijk om een aanvraag met meer dan deze nummers te verzenden via de Batch Delivery-API. Als een aanvraag meer dan deze limieten bevat, retourneert de API het volgende foutbericht:
+   * mbox-parameters: 500 parameters per mbox.
+   * Profielparameters: 500 parameters van het parameterprofiel per mbox.
+   * Andere parameters (URL, verwijzende URL, enz.): 50 per mbox voor elk ander parametertype.
 
-&quot;Het aantal mboxParameters mag niet groter zijn dan 50.&quot;
+   Deze limieten zijn van toepassing, tenzij de aanvraag wordt ingekort vanwege beperkingen in de webbrowser.
 
-Limieten ingesteld voor eindpunten:
+   Als u de Batch Delivery-API gebruikt, is de limiet 50 dozen per aanvraag voor de batch.
 
-Batch mbox v2:
-* mbox-parameters 100
-* naam van parameter mbox max. lengte 128
-* parameterwaarde mbox mag niet null zijn
-* parameterwaarde mbox 5000
-* profielparameters 50
-* naam van profielparameter max. lengte 128
-* waarde van profielparameter mag niet null zijn
-* waarde van profielparameter max. lengte 256
+   Als u de [Batch Delivery API](https://developers.adobetarget.com/api/#server-side-batch-delivery) in de Mobile Services SDK gebruikt, zijn de limiet van 50 mbox-parameters, 50 profielparameters en 50 voor andere parametertypen beperkingen van de API zelf. Het is niet mogelijk om een aanvraag met meer dan deze nummers te verzenden via de Batch Delivery-API. Als een aanvraag meer dan deze limieten bevat, retourneert de API het volgende foutbericht:
 
-API-eindpunt voor levering
-* parameters mbox 50
-* naam van parameter mbox max. lengte 128
-* parameterwaarde mbox mag niet null zijn
-* parameterwaarde mbox 5000
-* profielparameters 50
-* naam van profielparameter max. lengte 128
-* waarde van profielparameter mag niet null zijn
-* waarde van profielparameter max. lengte 256
+   &quot;Het aantal mboxParameters mag niet groter zijn dan 50.&quot;
 
-## verzoek-URL&#39;s
+   Limieten ingesteld voor eindpunten:
 
-**Limiet**: 2.083 tekens.
+   **Batch mbox v2**:
 
-Deze limiet is het gevolg van lengtebeperkingen voor Microsoft Internet Explorer URL.
+   * mbox-parameters 100
+   * naam van parameter mbox max. lengte 128
+   * parameterwaarde mbox mag niet null zijn
+   * parameterwaarde mbox 5000
+   * profielparameters 50
+   * naam van profielparameter max. lengte 128
+   * waarde van profielparameter mag niet null zijn
+   * waarde van profielparameter max. lengte 256
 
-## mbox3rdPartyId, parameter
+   **API-eindpunt voor levering**
 
-**Limiet**: 60 tekens.
+   * parameters mbox 50
+   * naam van parameter mbox max. lengte 128
+   * parameterwaarde mbox mag niet null zijn
+   * parameterwaarde mbox 5000
+   * profielparameters 50
+   * naam van profielparameter max. lengte 128
+   * waarde van profielparameter mag niet null zijn
+   * waarde van profielparameter max. lengte 256
 
-## Aanbiedingsnamen
 
-**Limiet**: 250 tekens.
 
-## Grootte voorstel
+### verzoek-URL&#39;s
 
-**Limiet**: Voor aanbiedingen gelden de volgende groottegrenzen:
+* **Limiet**: 2.083 tekens.
 
-* 256 kB voor HTML-aanbiedingen.
-* 64 kB voor visuele aanbiedingen van UI.
-* 512 kB vanaf de API.
+   Deze limiet is het gevolg van lengtebeperkingen voor Microsoft Internet Explorer URL.
 
-Als u een globale box gebruikt, is de grens voor de volledige reeks inhoud teruggekeerd voor de pagina. Door het beperken van de aanbiedingsgrootte worden de laadtijden van de pagina verbeterd. Als de limiet wordt overschreden, wordt het volgende bericht weergegeven:
+### mbox3rdPartyId, parameter
 
-&quot;De inhoud voor de ervaring is te groot om te leveren. Pas de ervaring aan om minder paginacode te beïnvloeden.&quot;
+* **Limiet**: 60 tekens.
 
 ## Aanbiedingen
 
-**Aanbevolen limiet**: in totaal 50.000 aanbiedingen.
+### Aanbiedingsnamen
+
+* **Limiet**: 250 tekens.
+
+### Aantal aanbiedingen
+
+* **Aanbevolen limiet**: in totaal 50.000 aanbiedingen.
+
+### Grootte voorstel
+
+* **Limiet**: Voor aanbiedingen gelden de volgende groottegrenzen:
+
+   * 256 kB voor HTML-aanbiedingen.
+   * 64 kB voor visuele aanbiedingen van UI.
+   * 512 kB vanaf de API.
+
+   Als u een globale box gebruikt, is de grens voor de volledige reeks inhoud teruggekeerd voor de pagina. Door het beperken van de aanbiedingsgrootte worden de laadtijden van de pagina verbeterd. Als de limiet wordt overschreden, wordt het volgende bericht weergegeven:
+
+   &quot;De inhoud voor de ervaring is te groot om te leveren. Pas de ervaring aan om minder paginacode te beïnvloeden.&quot;
 
 ## orderId, parameter
 
-**Aanbevolen limiet**: 120 tekens.
+* **Aanbevolen limiet**: 120 tekens.
 
 ## orderTotal, parameter
 
-**Aanbevolen limiet**: 120 tekens.
+* **Aanbevolen limiet**: 120 tekens.
 
 ## productPurchasedId, parameter
 
-**Limiet**: 47 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 47 tekens kunnen door het systeem worden afgekapt. Totale lengten boven 250 tekens kunnen resulteren in een fout van 400.
+* **Limiet**: 47 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 47 tekens kunnen door het systeem worden afgekapt. Totale lengten boven 250 tekens kunnen resulteren in een fout van 400.
 
 ## Profielscripts
 
-**Aanbevolen limiet voor actieve profielscripts**: 300
+* **Aanbevolen limiet voor actieve profielscripts**: 300
 
-**Aanbevolen limiet voor totale profielscripts per account**: 2 000
+* **Aanbevolen limiet voor totale profielscripts per account**: 2 000
 
-**Recommendations voor het beperken van de complexiteit** van profielscripts: Profielscripts kunnen een beperkt aantal instructies uitvoeren. Zie [Beste werkwijzen](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profielkenmerken* voor meer informatie.
+* **Recommendations voor het beperken van de complexiteit** van profielscripts: Profielscripts kunnen een beperkt aantal instructies uitvoeren. Zie [Beste werkwijzen](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profielkenmerken* voor meer informatie.
 
 ## Eigenschappen
 
-**Aanbevolen limiet**: 5.000 eigenschappen.
+* **Aanbevolen limiet**: 5.000 eigenschappen.
 
 ## Publiek/segmenten rapporteren
 
-**Limiet**: 50 verslaggevingspubliek/segmenten per activiteit.
+* **Limiet**: 50 verslaggevingspubliek/segmenten per activiteit.
 
 ## Het de profielinputvakje van het manuscript in Doel UI
 
-**Aanbevolen limiet**: 2000 tekens.
+* **Aanbevolen limiet**: 2000 tekens.
 
-Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat deze naar Adobe Target gaat.
+   Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat deze naar Adobe Target gaat.
 
-## Scriptprofielnamen
+## Scriptprofielen
 
-**Limiet**: 50 tekens.
+### Scriptprofielnamen
 
-## Scriptprofielwaarden
+* **Limiet**: 50 tekens.
 
-**Limiet**: 2048 tekens.
+### Scriptprofielwaarden
 
-Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.
+* **Limiet**: 2048 tekens.
 
-Als de geretourneerde waarde van een tekenreeks groter is dan 2.048 tekens, wordt het script door het systeem uitgeschakeld.
+   Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.
 
-Als voor een geretourneerde waarde van een array de grootte van de samengevoegde waarden van de array groter is dan 2.048 tekens, wordt het script door het systeem uitgeschakeld.
+   Als de geretourneerde waarde van een tekenreeks groter is dan 2.048 tekens, wordt het script door het systeem uitgeschakeld.
+
+   Als voor een geretourneerde waarde van een array de grootte van de samengevoegde waarden van de array groter is dan 2.048 tekens, wordt het script door het systeem uitgeschakeld.
 
 ## Succeswaarden
 
-**Limiet**: 200 per activiteit.
+* **Limiet**: 200 per activiteit.
 
-## Doelvoorwaarden
+## Doelstelling
 
-**Aanbevolen limiet**: 1.000 waarden.
+### Doelvoorwaarden
 
-Dit verwijst naar het aantal waarden met regelscheiding in het tekstgebied dat als doel is ingesteld. U kunt bijvoorbeeld 1000 ZIP-codes invoeren in een ZIP-codedoel.
+* **Aanbevolen limiet**: 1.000 waarden.
 
-## Doelstellingen
+   Dit verwijst naar het aantal waarden met regelscheiding in het tekstgebied dat als doel is ingesteld. U kunt bijvoorbeeld 1000 ZIP-codes invoeren in een ZIP-codedoel.
 
-**Aanbevolen limiet**: 2.500 tekens per doelregelwaarde.
+### Doelstellingen
 
-**Aanbevolen limiet**: 30.000 unieke waarden per publiek over het richten van regels.
-
-**Aanbevolen limiet**: 100.000 unieke waarden voor richtingsregels per activiteit.
+* **Aanbevolen limiet**: 2.500 tekens per doelregelwaarde.
+* **Aanbevolen limiet**: 30.000 unieke waarden per publiek over het richten van regels.
+* **Aanbevolen limiet**: 100.000 unieke waarden voor richtingsregels per activiteit.
 
