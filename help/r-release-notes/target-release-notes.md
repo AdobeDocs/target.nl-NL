@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: e0d61de20501f40ea6b61db83be346072df997f0
+source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 10 februari 2021**
+**Laatst bijgewerkt: 16 februari 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -32,7 +32,14 @@ Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
-* De toegestane aanbiedingsgrootte via de API is verhoogd van 512 kB naar 1 MB. (TGT-38304)
+* De toegestane aanbiedingsgrootte is verhoogd:
+
+   | Type | Vorige limiet | Nieuwe limiet |
+   | --- | --- | --- |
+   | HTML | 256 kB | 1024 kB |
+   | Visuele aanbiedingen van het Doel UI | 64 kB | 1024 kB voor elke ervaring |
+   | Via API | 512 kB | 1024 kB |
+
 * Probleem verholpen waarbij de huidige afhankelijkheid niet werd weergegeven wanneer klanten [!UICONTROL Edit Dependency] op de pagina [!UICONTROL Goals & Settings] van een activiteit klikken. (TGT-39340)
 * Probleem verholpen bij het vernieuwen van de [!UICONTROL Audience Library] van een werkruimte. Vóór verfrist zich, toont het publiek voor de momenteel geselecteerde werkruimte. Na verfrissen, [!UICONTROL Default Workspace] en zijn publiek getoond. De huidige werkruimte en het publiek blijven nu behouden na het vernieuwen. (TGT-38871)
 * Probleem verholpen bij het kopiëren van een [!UICONTROL Recommendations]-activiteit en later het bewerken van de oorspronkelijke activiteit door de volgorde van criteria te wijzigen. De wijziging in de volgorde van criteria in de oorspronkelijke activiteit werd ook onjuist toegepast op de gekopieerde activiteit. (TGT-39155)
