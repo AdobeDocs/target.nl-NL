@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * waarde van profielparameter mag niet null zijn
    * waarde van profielparameter max. lengte 256
 
-   **API-eindpunt voor levering**
+   **API-eindpunt** van levering:
 
    * parameters mbox 50
    * naam van parameter mbox max. lengte 128
@@ -194,11 +194,11 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ### Grootte voorstel
 
-* **Limiet**: Voor aanbiedingen gelden de volgende groottegrenzen:
+Voor aanbiedingen gelden de volgende groottegrenzen:
 
-   * 256 kB voor HTML-aanbiedingen.
-   * 64 kB voor visuele aanbiedingen van UI.
-   * 512 kB vanaf de API.
+* 256 kB voor HTML-aanbiedingen.
+* 64 kB voor visuele aanbiedingen van UI.
+* 512 kB vanaf de API.
 
    Als u een globale box gebruikt, is de grens voor de volledige reeks inhoud teruggekeerd voor de pagina. Door het beperken van de aanbiedingsgrootte worden de laadtijden van de pagina verbeterd. Als de limiet wordt overschreden, wordt het volgende bericht weergegeven:
 
