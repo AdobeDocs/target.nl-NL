@@ -4,7 +4,7 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
+source-git-commit: 3e4b05553100efff697beec0824108f28d80ccb2
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 16 februari 2021**
+**Laatst bijgewerkt: 17 februari 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -26,7 +26,7 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 >
 >We raden alle klanten aan vóór deze datum te migreren naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.2.1 (2 maart 2021)
+## Target Standard/Premium 21.2.1 (9 maart en 10 maart 2021)
 
 Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen.
 
