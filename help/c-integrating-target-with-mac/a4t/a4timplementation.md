@@ -4,9 +4,9 @@ description: Voer de vereiste stappen uit om Analytics for Target (A4T) te imple
 title: Hoe implementeer ik Analytics voor Doel (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een op [!
 
 Met de bezoekersidentiteitsservice kunt u gebruikers identificeren met verschillende [!DNL Adobe Experience Cloud]-oplossingen. U moet de vereiste versie van de Experience Cloud Bezoeker-id implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u](/help/c-integrating-target-with-mac/a4t/before-implement.md) implementeert voor meer informatie.
 
-Zie [De Experience Cloud ID-service voor doel implementeren](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in de *Experience Cloud-documentatie voor bezoekers-id Service*.
+Zie [De Experience Cloud ID-service voor doel implementeren](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in de *Experience Cloud-documentatie voor bezoekers-id Service*.
 
 ## Stap 4: AppMeasurement voor JavaScript of s_code bijwerken
 
 U moet de vereiste versie van appMeasurement.js implementeren of migreren. Zie &quot;Implementatievereisten&quot; in [Voordat u](/help/c-integrating-target-with-mac/a4t/before-implement.md) implementeert voor meer informatie.
 
-Voor nieuwe implementaties, zie [Overzicht van de implementatie JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) in *de Gids van de Implementatie van Analytics*.
+Voor nieuwe implementaties, zie [Overzicht van de implementatie JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) in *de Gids van de Implementatie van Analytics*.
 
-Voor een migratie, zie [Migrating to AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) in *Analytics Implementation Guide*.
+Voor een migratie, zie [Migrating to AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) in *Analytics Implementation Guide*.
 
 ## Stap 5: Downloaden en bijwerken om.js
 
