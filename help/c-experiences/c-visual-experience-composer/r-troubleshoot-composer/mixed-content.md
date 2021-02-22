@@ -4,9 +4,9 @@ description: Sommige browsers blokkeren de weergave van een pagina als beveiligd
 title: Hoe laat ik Gemengde Inhoud in Mijn Browser toe?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Gemengde inhoud in uw browser inschakelen
 
-Gemengde inhoud komt voor als zowel (veilige) HTTPS *als* (onveilige) inhoud HTTP wordt geladen om de zelfde Web-pagina te tonen en het aanvankelijke verzoek veilig over HTTPS was.
+Gemengde inhoud komt voor als het aanvankelijke verzoek over HTTPS veilig is, maar de inhoud HTTPS *en* van HTTP wordt geladen om de Web-pagina te tonen. HTTPS-inhoud is beveiligd. HTTP-inhoud is onveilig.
 
 Moderne browsers kunnen de weergave van een pagina blokkeren of waarschuwingsberichten weergeven als beveiligde inhoud wordt gemengd met onveilige inhoud.
 
-Als [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] probeert om een pagina te openen die gemengde inhoud bevat, toont een bericht die hoe te om het blokkeren in uw browser onbruikbaar te maken zodat kunt u een plaats van HTTP openen of een plaats die gemengde vraag (HTTPS en HTTP) heeft.
+Er wordt een waarschuwingsbericht weergegeven als de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] een pagina probeert te openen die gemengde inhoud bevat. Dit bericht geeft aan hoe u blokkering in uw browser kunt uitschakelen. Als u het blokkeren uitschakelt, kunt u een HTTP-site of een site met gemengde aanroepen (HTTPS en HTTP) openen.
 
-![waarschuwing voor gemengde inhoud](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+![Waarschuwing gemengde inhoud](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 Eerder, toen gemengde inhoud niet werd toegestaan, kon u sommige acties in Stap 1 van het drie-stap geleide werkschema nog uitvoeren wanneer het creëren van activiteiten. [!DNL Target] blokkeert nu handelingen in stap 1. Wanneer dit bericht wordt weergegeven, moet u gemengde inhoud inschakelen voordat u verdergaat met het maken van de activiteit.
 
@@ -38,11 +38,11 @@ Zie [Gemengde inhoud](https://developer.mozilla.org/en-US/docs/Web/Security/Mixe
 
 Als u een site bezoekt via een beveiligde verbinding, controleert Chrome of de inhoud op de webpagina veilig is verzonden.
 
-Zie [Deze pagina heeft onveilige inhoud](https://support.google.com/chrome/answer/1342714?hl=en) in de Help van Google Chrome.
+Zie &quot;[Deze pagina heeft onveilige inhoud](https://support.google.com/chrome/answer/1342714?hl=en)&quot; in de Help van Google Chrome.
 
 Als u de VEC gebruikt met de nieuwste versie van Chrome (versie 79.0.3945.117 of hoger), moet u de site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
-1. Klik op het pictogram Vergrendelen of Voorzichtigheid en klik vervolgens op **[!UICONTROL Site settings]**.
+1. Klik op het vergrendelingspictogram (voorzichtig) en klik op **[!UICONTROL Site settings]**.
 
    ![Site-instellingen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -63,7 +63,7 @@ Standaard blokkeert Firebox pagina&#39;s die beveiligde en onveilige inhoud meng
 
 1. Typ `block_active` in de zoekbalk.
 
-   ![Actieve instelling Firefox-blok](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox block_active setting](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. Dubbelklik op ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
@@ -71,7 +71,7 @@ Standaard blokkeert Firebox pagina&#39;s die beveiligde en onveilige inhoud meng
 
    ![Firefox-beveiliging](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-We raden u aan de computer opnieuw op te starten nadat u deze instelling hebt gewijzigd.
+Start de computer opnieuw nadat u deze instelling hebt gewijzigd.
 
 ## Gemengde inhoud inschakelen in Microsoft Edge
 
@@ -79,7 +79,7 @@ Als u een site bezoekt via een beveiligde verbinding, controleert Edge of de inh
 
 Als u de VEC gebruikt met de nieuwste versie van Edge, moet u de site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
-1. Klik op het pictogram Vergrendelen of Voorzichtigheid en klik vervolgens op **[!UICONTROL Site Permissions]**.
+1. Klik op het vergrendelingspictogram (voorzichtig) en klik op **[!UICONTROL Site Permissions]**.
 
    ![Siterechten in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
