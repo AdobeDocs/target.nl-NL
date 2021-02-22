@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3648'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende probleem is verplaatst van de sectie Bekende problemen naar de sectie Opgeloste problemen: &quot;Afbeeldingsaanbiedingen met het label &quot;Verwerking&quot;.&quot; |
 | 1 december | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Sluit de webinar-opname in voor &quot;Aanpassen en testen met nullatentie met apparaatbeslissingen van Adobe Target&quot;. |
 | 24 november | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>[Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Het volgende probleem is opgelost:<ul><li>[Analyses voor doelrapportage (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
-|  | [Metrische definities - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Tijdens het vormen van mijn doelmetica, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; |
+|  | [Metrische definities - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Tijdens het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; |
 |  | [Succeswaarden](/help/c-activities/r-success-metrics/success-metrics.md) | Aangepaste tekst in de notitie over activiteiten die gebruikmaken van A4T. |
 | 17 november | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Volgende veelgestelde vragen toegevoegd: &quot;Kan een bezoeker schakelen tussen gerichte en gecontroleerde ervaringen in verschillende bezoeken in een auto-Doelactiviteit die A4T gebruikt?&quot; |
 |  | [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Volgende veelgestelde vragen toegevoegd: &quot;adviseert u dat wij AutoDoel met 90 (Controle)/10 (Gericht) verdelen gebruiken tot de modellen worden gebouwd?&quot; |
@@ -225,7 +225,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 | 7 april | [Optillen en vertrouwen - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Bijgewerkte tekst voor &quot;Waarom kan ik geen lift en vertrouwen op berekende metriek zien?&quot; |
 | 2 april | [Profiel en verklarende woordenlijst voor variabelen](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Toegevoegde informatie over het gebruik van `user.header('x-forwarded-for')` met nieuwere randen van AWS om IP van gebruikers adressen terug te winnen. |
 |  | [Upgrade uitvoeren vanaf 0,js 1.** xto om.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Toegevoegd:<ul><li>Na installatie van de ECID-bibliotheek v4.3.0+ en at.js 2.*x*, zult u activiteiten kunnen tot stand brengen die unieke domeinen evenals spoorgebruikers omspannen. Het is belangrijk om op te merken dat deze functionaliteit slechts werkt nadat de zitting verloopt.</li></ul> |
-| 30 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Er zijn een bekende problemen toegevoegd die van invloed zijn op versies at.js vóór at.js 2.2.0. Dit probleem heeft ertoe geleid dat klikspatiëring geen conversies rapporteert in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen. |
+| 30 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Er is een bekend probleem toegevoegd dat invloed heeft op versies van at.js vóór at.js 2.2.0. Dit probleem heeft ertoe geleid dat klikspatiëring geen conversies rapporteert in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | De volgende informatie is toegevoegd aan de gegevens van at.js versie 2.2.0:<ul><li>Probleem verholpen waarbij klikspatiëring ertoe leidde dat conversies niet werden gerapporteerd in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen.</li></ul> |
 | 25 maart | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de volgende nieuwe versies van at.js:<ul><li>at.js versie 2.3.0</li><li>at.js versie 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De volgende nieuwe rijen zijn toegevoegd in de sectie &quot;Instellingen&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>De volgende nieuwe sectie toegevoegd:<ul><li>Beveiligingsbeleid voor inhoud</li></ul> |
