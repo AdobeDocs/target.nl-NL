@@ -2,11 +2,11 @@
 keywords: bekende problemen;opgeloste problemen;releaseopmerkingen;fouten;problemen;oplossingen
 description: Meer informatie over bekende problemen in Adobe Target, waaronder informatie over tijdelijke oplossingen. Wanneer problemen zijn opgelost, worden ze verplaatst naar de sectie Opgelost.
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
-feature: Release Notes
+feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '4331'
 ht-degree: 0%
 
 ---
@@ -26,17 +26,17 @@ De volgende secties geven een overzicht van de bekende problemen voor [!DNL Targ
 
 ### Analyses voor doelmetriek (A4T) voor automatisch toegewezen en automatisch doelactiviteiten
 
-In de [!DNL Target]-gebruikersinterface is een bekend probleem dat gebruikers in staat stelt niet-ondersteunde betrokkenheids- en inkomstenmetriek te selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten. Conversiemetriek worden ondersteund; de betrokkenheid en opbrengstmetriek zijn *niet* gesteund. Als u de maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld (ook al kunt u met de [!DNL Target]-interface momenteel niet-ondersteunde doelmeetgegevens selecteren).
+Met de interface [!DNL Target] kunnen gebruikers niet-ondersteunde incasso&#39;s voor betrokkenheid en omzet selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten. Conversiemetriek worden ondersteund; de betrokkenheid en opbrengstmetriek zijn *niet* gesteund. Als u maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld.
 
 Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Aanlevering van pagina {#page-delivery}
 
-Als u een malplaatjeregel, zoals URL bevat (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zijn de extra ruimten vooraf aan uw regels. Dit is een cosmetische kwestie en heeft geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
+Als u een malplaatjeregel, zoals URL bevat (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zijn de extra ruimten vooraf aan uw regels. Deze extra ruimten zijn cosmetisch en hebben geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
 
 ### Kwaliteit van voorbeeldkoppelingen
 
-De QA-voorbeeldkoppelingen voor activiteit voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Het opnieuw proberen van de voorvertoningskoppelingen zou moeten werken. Opgeslagen activiteiten archiveren die niet meer actief worden gebruikt om te voorkomen dat dit probleem zich blijft voordoen. (TNT-37294)
+De QA-voorbeeldkoppelingen voor activiteit voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Probeer de voorbeeldkoppelingen opnieuw. Opgeslagen activiteiten archiveren die niet meer actief worden gebruikt om te voorkomen dat dit probleem zich blijft voordoen. (TNT-37294)
 
 ### QA-modus voor Recommendations-activiteiten
 
@@ -46,14 +46,14 @@ Een bekend probleem voorkomt een voorvertoning als de criteria die in de activit
 
 Hier volgen bekende problemen met omleidingsvoorstellen:
 
-* Onder sommige omstandigheden heeft een beperkt aantal klanten hogere mate van variatie in verkeersdistributie gemeld bij het gebruik van een omleidingsaanbod in activiteiten die zijn geconfigureerd met Analytics for Target (A4T). Adobe engineers werken momenteel aan dit probleem.
+* Een beperkt aantal klanten heeft een hogere mate van variatie in verkeersdistributie gemeld wanneer het gebruiken van omleidingsaanbiedingen in activiteiten die met Analytics voor Doel (A4T) worden gevormd.
 * De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [Wijze QA](/help/c-activities/c-activity-qa/activity-qa.md) in plaats daarvan gebruiken om Voorproef en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
-### Laden van een pagina in de VEC annuleren {#cancel}
+### Laden van een pagina in de Visual Experience Composer (VEC) {#cancel} annuleren
 
 * Het volgende bekende probleem bestaat momenteel wanneer het annuleren van het laden van een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) activiteit binnen VEC die omleidings URL bevat.
 
-   In stap één van de driedelige geleide werkschema binnen VEC, wanneer u het laden van de pagina annuleert, wordt het [!UICONTROL Modifications] paneel in de vertoningen VEC en het omleiden aan malplaatje URL toegepast op de ervaring (bijvoorbeeld, &quot;Ervaring B). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
+   In stap één van de Geleide VEC werkschema, wanneer u het laden van de pagina annuleert, wordt het [!UICONTROL Modifications] paneel in de vertoningen VEC en het opnieuw richten aan malplaatje URL toegepast op de ervaring (bijvoorbeeld, &quot;Ervaring B). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
 
    Bij &quot;Experience B&quot; wordt standaard de sjabloon voor het laden van de geannuleerde website weergegeven en is het deelvenster [!UICONTROL Modifications] toegankelijk, wat niet het geval moet zijn omdat er een omleiding naar een URL-sjabloon is toegepast. De omleiding naar URL-sjabloon moet worden weergegeven.
 
@@ -67,7 +67,7 @@ Hier volgen bekende problemen met omleidingsvoorstellen:
 
 De volgende problemen zijn bekend met [!UICONTROL Recommendations] activiteiten:
 
-* Wanneer het kopiëren van een [!UICONTROL Recommendation] activiteit met een actieve bevordering, beïnvloedt om het even welke verandering in de dubbele activiteit momenteel ook de originele activiteit, en vice versa. (TGT-39155)
+* Wanneer het kopiëren van een [!UICONTROL Recommendation] activiteit met een actieve bevordering, beïnvloedt om het even welke verandering in de dubbele activiteit momenteel ook de originele activiteit, en omgekeerd. (TGT-39155)
 
    Als tijdelijke oplossing:
 
@@ -79,27 +79,27 @@ De volgende problemen zijn bekend met [!UICONTROL Recommendations] activiteiten:
 * Entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. (IRI-857)
 * De &quot;Gebruiksinformatie&quot;-overlays voor Criteria en Ontwerpen weerspiegelen hun gebruik in A/B en de Ervaring gerichte activiteiten (TGT-34331) niet
 * Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
-* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, zullen die veranderingen niet in het Doel UI worden weerspiegeld. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan.  (TGT-35777)
+* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, worden die veranderingen niet weerspiegeld in het Doel UI. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan. (TGT-35777)
 * Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
 * De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)
 * De criteria en de ontwerpkaarten geven niet het juiste aantal activiteiten aan waarin zij worden gebruikt. Indien de criteria of het ontwerp in een A/B-activiteit worden gebruikt, kan de kaart ten onrechte aantonen dat het ontwerp of de criteria niet worden gebruikt, zelfs wanneer het ontwerp of de criteria in de activiteit worden gebruikt. (TGT-36621, TGT-37217)
 
 ### MVT-activiteiten (Multivariate Test)
 
-In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven, niet consistent bij het controleren van de meetwaarden. Dit komt voor als een gebruiker van Samenvatting aan de Mening van de Grafiek schakelt, dan terug naar Samenvattingsmening, metrisch verandert en dan aan de Mening van de Grafiek schakelt. Wanneer dit probleem optreedt, wordt in de overzichtsweergave altijd de juiste winnaar weergegeven. Als de gebruiker nooit schakelt tussen de overzichtsweergave, wordt in de grafiekweergave de juiste winnaar weergegeven.
+In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven, niet consistent bij het controleren van de meetwaarden. Deze situatie komt voor als een gebruiker van Samenvatting aan de Mening van de Grafiek schakelt, dan terug naar Summiere Mening, metrisch verandert, en dan schakelaars aan de Mening van de Grafiek. Wanneer dit probleem optreedt, wordt in de overzichtsweergave altijd de juiste winnaar weergegeven. Als de gebruiker nooit schakelt tussen de overzichtsweergave, wordt in de grafiekweergave de juiste winnaar weergegeven.
 
 ### at.js {#atjs}
 
 De volgende problemen zijn bekend met at.js:
 
-* Als u versies at.js gebruikt die ouder zijn dan 2.2.0, klikt u op bijhouden, rapporteert u geen conversies in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie ](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) op at.js als dit probleem zich voordoet.
+* Als u versies at.js vóór 2.2.0 gebruikt, rapporteert het bijhouden van klikken geen conversies in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie ](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) op at.js als dit probleem zich voordoet.
 * Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
 
    Als oplossing gebruikt u een witruimte in de ervaringsinhoud. (TNT-33366)
 
    >[!NOTE]
    >
-   >Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. U zou aan [recentste versie of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) moeten bevorderen of de oplossing gebruiken bovengenoemde slechts voor at.js versies vroeger dan 2.2.0.
+   >Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. Voer een upgrade uit naar de [nieuwste versie of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) of gebruik de hierboven vermelde tijdelijke oplossing alleen voor versies at.js die ouder zijn dan 2.2.0.
 
 * Wanneer een pagina in Visuele Composer van de Ervaring (VEC) wordt geladen, moet het Doel bepalen als globale mbox het plaatsen wordt toegelaten of onbruikbaar gemaakt en of entiteitID of categoryID aanwezig is op de plaats waar de gebruiker probeert om de aanbeveling in VEC toe te passen. Op basis van deze informatie wordt de lijst met criteria gefilterd. De standaardlijst heeft gefilterde algoritmen, maar [Compatible checkbox](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) laat u de volledige lijst van algoritmen bekijken.
 
@@ -116,23 +116,23 @@ De volgende problemen zijn bekend met at.js:
 
 ### Succeswaarden
 
-De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;zal worden verhoogd geplaatst aan &quot;elke indruk&quot;of &quot;elke indruk (met uitzondering van verfrissingen)&quot;kan niet als succes worden gebruikt metrisch dat een andere metrisch afhangt.
+De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;zal worden verhoogd geplaatst aan &quot;elke indruk&quot;of &quot;elke indruk (exclusief vernieuwingen)&quot;kan niet als succes worden gebruikt metrisch dat een andere metrisch afhangt.
 
-Wanneer een succes metrisch wordt geplaatst om op elke indruk worden verhoogd, telt Target opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. Het doel stelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 terug zodat kan het op de volgende indruk opnieuw tellen. Aldus, als een andere metrisch vereist dat metrisch eerst is gezien, zal het Doel nooit erkennen dat de gebruiker eerste metrisch heeft gezien.
+Wanneer een succes metrisch aan toename op elke indruk wordt geplaatst, telt Target opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. Het doel stelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 terug zodat kan het op de volgende indruk opnieuw tellen. Aldus, als een andere metrisch metrisch vereist om eerst te zijn gezien, erkent het Doel nooit dat de gebruiker eerste metrisch heeft gezien.
 
 ### Analyses voor doel (A4T)
 
 Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard attributiemodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) wilt toepassen, klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel** selecteren. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
 
-Alle huidige pakketten Analytics hebben de capaciteit om dit model met Attribution IQ toe te voegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
+Alle huidige pakketten Analytics kunnen dit model met Attribution IQ toevoegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
 
 ### Doel-API&#39;s
 
 Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch toewijzen via de v3-versie van de API voor A/B-activiteiten op Adobe I/O.
 
-### GEO gericht
+### GEO-gericht
 
-Op 10 mei 2020 hebben we onze bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op al onze leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
+Op 10 mei 2020 heeft Adobe de bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op alle Adobe-leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
 
 ### Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI. {#csv}
 
@@ -142,13 +142,13 @@ De bron van waarheid is altijd het getoonde rapport in [!DNL Target] UI.
 
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Aangezien de bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties en worden zo nodig aanvullende opmerkingen toegevoegd.
+Aangezien de bekende problemen hierboven zijn opgelost, worden deze naar de volgende secties verplaatst. Indien nodig worden aanvullende opmerkingen toegevoegd.
 
 ### Aanbiedingen voor afbeeldingen met het label &quot;Verwerking&quot;
 
 Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;Verwerking&quot; enkele uren nadat de afbeeldingen zijn geüpload. In de meeste gevallen is dit alleen een probleem met het etiket: de beeldaanbiedingen kunnen nog steeds worden gebruikt in activiteiten en worden geleverd . (MCUI-10264, TGT-37458)
 
-Dit probleem is opgelost in de Target Standard/Premium versie 20.10.1.
+Dit probleem is opgelost in de Target Standard/Premium-versie 20.10.1.
 
 ### Analyses voor doelrapportage (A4T)
 
@@ -284,7 +284,7 @@ Deze problemen zijn opgelost.
 
 ### Doel-API&#39;s
 
-v1-versie van de API&#39;s voor aanbiedingen op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte. (TTTEAM-41957)
+v1-versie van de API&#39;s van de aanbieding op Adobe I/O behandelt alle aanbiedingen die via Target zijn gemaakt, in de standaardwerkruimte. (TTTEAM-41957)
 
 Dit probleem is opgelost.
 
@@ -441,7 +441,7 @@ Opgelost in de Recommendations 17.2.2.0-release (6 maart 2017).
 
 ### Analyses voor doelrapportage (A4T)
 
-De rapporten worden niet bijgewerkt wanneer rapporteringsmetrisch wordt geschakeld. Dit is een UI-probleem. Er is geen invloed op het verzamelen of leveren van gegevens. (TGT-22970)
+De rapporten worden niet bijgewerkt wanneer rapporteringsmetrisch wordt geschakeld. Dit probleem is alleen van invloed op de gebruikersinterface. Er is geen invloed op het verzamelen of leveren van gegevens. (TGT-22970)
 
 Vast in de Target 17.2.2.0-release (24 februari 2017).
 
