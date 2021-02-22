@@ -2,11 +2,11 @@
 keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;rapport;rapporten;mening rapporten;rapportering;telmethode;impressies;bezoekers;standaard metrische;activiteitconversies;niet nader gespecificeerd
 description: Vind antwoorden op vragen die vaak worden gevraagd over het bekijken van rapporten wanneer het gebruiken van Analytics voor Doel (A4T). A4T laat u Analytics rapportering voor de activiteiten van het Doel gebruiken.
 title: Antwoorden op vragen over het bekijken van Rapporten met A4T vinden?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ Voor gedetailleerde informatie en voorbeelden opent u [Analytics &amp; Target: B
 
 ## Waar kunnen segmenten worden toegepast in Analysis Workspace? {#segmentation}
 
-Segmenten worden meestal toegepast op de bovenkant van een deelvenster in de neerzetzone van het segment. Het segment wordt toegepast op alle tabellen en visualisaties in het deelvenster. Deze techniek is het meest nuttig om te zien hoe de test een subset mensen beïnvloedt (bijvoorbeeld hoe heeft deze test voor mensen in het Verenigd Koninkrijk gepresteerd).
+Segmenten worden meestal boven aan een deelvenster in de neerzetzone van segmenten gebruikt. Het segment wordt toegepast op alle tabellen en visualisaties in het deelvenster. Deze techniek is het meest nuttig om te zien hoe de test een subset mensen beïnvloedt (bijvoorbeeld hoe heeft deze test voor mensen in het Verenigd Koninkrijk gepresteerd).
+
+Een segment kan ook rechtstreeks in de vrije-vormlijst worden gelaagd, maar merk op dat u het over de volledige lijst moet bedekken om de lift &amp; betrouwbaarheidsberekeningen binnen het Comité te bewaren A4T. Segmenten op kolomniveau worden momenteel niet ondersteund in het deelvenster.
 
 ## Wanneer ik een klapsegment voor een specifieke activiteit van het Doel toepast, waarom zie ik verwante ervaringen teruggekeerd? {#activity-segmentation}
 
@@ -89,28 +91,28 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 5 | 3 | 3 |
+| XYZ | 3 | 5 | 1 | 1 |
 
 De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via persistentie van de eVar. De gegevens zien er nu als volgt uit:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 De gebruiker komt terug op 1 maart en ziet een nieuwe activiteit, ABC. De gebruiker geeft ook vijf pagina&#39;s weer. Omdat activiteit XYZ de gebruiker door persistentie nog volgt, en deze gebruiker dan ABC heeft geplaatst, zullen wij twee lijnpunten in het melden zien:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 3 | 3 |
+| ABC | 3 | 5 | 1 | 1 |
 
 De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar-waarde wordt opnieuw ingesteld op 1 april. Dat zullen we in de rapportage zien. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers | Orders |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 3 | 1 |
-| ABC | 3 | 10 | 2 | 3 | 1 |
-| Totaal | 2 | 20 | 3 | 3 | 3 |
+| XYZ | 3 | 20 | 4 | 3 | 1 |
+| ABC | 3 | 10 | 2 | 3 | 3 |
+| Totaal | 2 | 20 | 1 | 3 | 3 |
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target]-rapportage, omdat u geen [!DNL Target]-activiteit tegen een andere activiteit plaatst om te zien welke meer succes heeft, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items in één activiteit en het is voor een gebruiker niet mogelijk om verschillende ervaringen in dezelfde activiteit te zien, zodat u zich geen zorgen hoeft te maken over kruisbesmetting van orderkrediet.
 
