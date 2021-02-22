@@ -4,9 +4,9 @@ description: Ontdek waarom sommige websites niet betrouwbaar in Visual Experienc
 title: Hoe gebruik ik de Helper Extension Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,14 @@ Met de [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper 
 * De QA- en/of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
 * U gebruikt Google Chrome 80+ met het verbeterde beleid voor het toepassen van cookies op SameSite. Zie [Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite cookie handhaving VEC en EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-Met de VEC Helper-browserextensie voor Chrome worden problemen met het laden van de site opgelost waarvoor klanten nu vertrouwen op de [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) of externe extensies, zoals Request.
+Met de VEC Helper-browserextensie voor Chrome worden problemen met het laden van sites opgelost waarvoor klanten nu vertrouwen op de [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) of extensies van derden, zoals Requely.
 
 ## Voordelen van het gebruik van de extensie VEC Helper
 
-* Alle iFrame-opbouwheaders, zoals X-Frame-Options en Content-Security-Policy, worden impliciet verwijderd van de website. Het is niet langer nodig om hiervoor ingewikkelde voorschriften in te voeren.
+* Alle iFrame-opbouwheaders, zoals X-Frame-Options en Content-Security-Policy, worden impliciet verwijderd van de website. Het is niet langer nodig om ingewikkelde regels voor verplichte naleving op te stellen.
 * Als een webpagina nog niet de JavaScript-bibliotheek [!DNL Target] at.js bevat, kunt u de extensie gebruiken om de bibliotheek te injecteren zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
 
-   Let op: bij gebruik van de Enhanced Experience Composer (EEC) injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
+   Let op: met de Enhanced Experience Composer (EEC) injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
 
 * [Mobiele ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) viewers worden ook zonder  [!UICONTROL Enhanced Experience Composer] (EEG) ondersteund.
 * Klanten die nog niet bekend zijn met [!DNL Target] kunnen de extensie gebruiken om te experimenteren met [!DNL Target], zelfs als hun IT-ontwikkelaars [!DNL Target] nog niet op hun websites hebben geïmplementeerd.
@@ -72,7 +72,7 @@ Met de VEC Helper-browserextensie voor Chrome worden problemen met het laden van
 * Uw implementatie moet de [!DNL Target] at.js-bibliotheek gebruiken. U kunt geen mbox.js-implementatie gebruiken met de extensie.
 * De markering [!UICONTROL Inject Target libraries] in de extensie is standaard UIT. U kunt deze markering inschakelen als u de VEC wilt gebruiken voor een site die nog niet is geïmplementeerd voor [!DNL Target].
 
-   Houd er rekening mee dat deze markering een algemene instelling is. De vlag wordt toegelaten of gehandicapt voor alle websites die in VEC worden geopend. Als u deze markering bijvoorbeeld instelt op &quot;on&quot; en een website opent die al is geïmplementeerd met at.js, ontvangt u een bericht met de melding dat at.js al is geladen. We verwachten dat de meeste klanten at.js al hebben geïmplementeerd op hun pagina&#39;s en de standaardinstelling van &#39;off&#39; gebruiken.
+   Deze markering is een globale instelling. De vlag wordt toegelaten of gehandicapt voor alle websites die in VEC worden geopend. Als u deze markering bijvoorbeeld instelt op &quot;on&quot; en een website opent die al is geïmplementeerd met at.js, ontvangt u een bericht met de melding dat at.js al is geladen. Adobe verwacht dat de meeste klanten at.js al hebben geïmplementeerd op hun pagina&#39;s en de standaardinstelling van &quot;off&quot; gebruiken.
 
 * De extensie laadt de nieuwste versie van at.js die beschikbaar is in [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * Wanneer u de extensie gebruikt om te injecteren in [QA-modus](/help/c-activities/c-activity-qa/activity-qa.md), moet u een ander Chrome-tabblad openen. Dit tabblad Chrome moet worden geverifieerd bij dezelfde [!DNL Adobe Experience Cloud] Organisatie waarin u de activiteit hebt gemaakt.
