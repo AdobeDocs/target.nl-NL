@@ -2,11 +2,11 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Gebruik Analytics voor Target (A4T) om activiteiten te maken die zijn gebaseerd op de conversiemetriek van Analytics en publiekssegmenten en gebruik Analytische rapporten om resultaten te onderzoeken.
 title: Wat is Analytics voor Doel (A4T)?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Als u [!DNL Analytics] als rapportagebron voor een activiteit gebruikt, is alle 
 
 Alle [!DNL Analytics] metriek, met inbegrip van berekende metriek, zijn beschikbaar in [!DNL Target] en [!UICONTROL Target Activities] rapport in [!DNL Analytics]. Evenzo kan elk segment dat beschikbaar is in [!DNL Analytics], worden toegepast op beide oplossingen. U kunt metrisch of publiek op het rapport in [!DNL Target] toepassen nadat de activiteit is begonnen, of zelfs nadat de activiteit heeft voltooid.
 
-Elke maatstaf is inbegrepen, met inbegrip van om het even welke klant of berekende metriek die ingebouwde [!DNL Analytics] zijn.
+Elke metrische waarde is inbegrepen, met inbegrip van om het even welke douane of berekende metriek die ingebouwd [!DNL Analytics] zijn.
 
 Na de rubriceringsperiode worden in deze rapporten ongeveer een uur na de verzameling gegevens van de website weergegeven. Alle metriek, segmenten, en waarden in de rapporten komen uit de rapportreeks u selecteerde toen u opstelling de activiteit.
 
@@ -51,7 +51,7 @@ Houd rekening met de volgende punten wanneer u overweegt A4T te gebruiken:
 * Bij het gebruik van [!DNL Analytics] als rapportagebron is slechts één metrische waarde op basis van een box toegestaan.
 * Een server-aan-server vraag van [!DNL Target] aan [!DNL Analytics] verzendt activiteit en ervaringsinformatie naar [!DNL Analytics]. Deze integratie leidt niet tot extra serveraanroepen voor [!DNL Target] of [!DNL Analytics].
 
-   In sommige situaties, zou de classificatievraag van [!DNL Target] aan [!DNL Analytics] kunnen ontbreken en de activiteiten tonen geen gegevens in [!DNL Analytics]. Als dit gebeurt, zie [Problemen met de integratie van Analytics en Target oplossen (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). U kunt ook [contact opnemen met de klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) voor verdere ondersteuning.
+   In sommige situaties zouden de classificaties van [!DNL Target] tot [!DNL Analytics] kunnen mislukken en zouden de activiteiten geen gegevens in [!DNL Analytics] tonen. Als dit gebeurt, zie [Problemen met de integratie van Analytics en Target oplossen (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). U kunt ook [contact opnemen met de klantenservice](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) voor verdere ondersteuning.
 
 ## Ondersteunde activiteitstypen {#section_F487896214BF4803AF78C552EF1669AA}
 
