@@ -2,11 +2,11 @@
 keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;metrisch;metrische definities
 description: Vind antwoorden op vragen over metrische definities en het gebruiken van Analytics voor Doel (A4T). Met A4T kunt u Analytics-rapporten gebruiken voor Adobe Target-activiteiten.
 title: Waar kan ik informatie over metrische definities met A4T vinden?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak over metrische definities en h
 
 De standaardvervaldatum voor de activiteit is 90 dagen na de laatste interactie van een bezoeker met de activiteit. Dit kan indien nodig door ClientCare worden aangepast. Deze instelling is echter algemeen voor alle activiteiten, zodat ze niet voor één geval hoeft te worden aangepast.
 
-## Waarom heb ik tijdens het configureren van mijn doelgeneesmiddelen geen toegang tot de opties voor Geavanceerde instellingen? {#adv-settings}
+## Waarom heb ik tijdens het configureren van mijn doelmeetgegevens geen toegang tot de opties voor Geavanceerde instellingen? {#adv-settings}
 
 De [!UICONTROL Advanced Settings] opties zijn niet beschikbaar voor activiteiten die [!DNL Analytics] als rapportagebron (A4T) gebruiken.
 
