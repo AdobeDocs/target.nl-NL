@@ -2,11 +2,11 @@
 keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe onderwerpen;bewerkingen;updates;update
 description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de Adobe Target-productdocumentatie.
 title: Waar kan ik documentatieupdates voor Doel bekijken?
-feature: Release Notes
+feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3630'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocu
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 22 februari | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Waar kunnen segmenten worden toegepast in Analysis Workspace?</li></ul> |
 | 16 februari | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De bijgewerkte tekst voor de limietgrootte van de aanbieding in de prereleaseopmerkingen. |
 | 11 februari | [Hoe Target werkt](/help/c-intro/how-target-works.md) | Bijgewerkte sectie &quot;Bots&quot;. |
 | 10 februari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het pagina-einde van de Adobe Target Community Coffee Coffee op woensdag 24 februari 2021. |
