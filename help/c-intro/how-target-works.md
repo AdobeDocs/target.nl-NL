@@ -1,41 +1,41 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
 description: Meer informatie over de werking van Adobe Target, zoals informatie over de JavaScript-doelbibliotheken (at.js en AEP Web SDK), Adobe-datacenters en SEO-tests.
 title: Hoe werkt het doel?
-feature: Overview
+feature: Overzicht
 translation-type: tm+mt
-source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
+source-git-commit: 8853551d2266836f4fe662c0882ba2af669d5a62
 workflow-type: tm+mt
-source-wordcount: '2559'
-ht-degree: 1%
+source-wordcount: '2592'
+ht-degree: 0%
 
 ---
 
 
 # Hoe Adobe Target werkt
 
-Informatie over hoe [!DNL Adobe Target] werkt, met inbegrip van informatie over [!DNL Adobe Experience Platform Web SDK], de [!DNL Target] bibliotheken JavaScript (at.js en mbox.js), en de diverse activiteitstypes u tot stand kunt brengen gebruikend Doel.
+Leer hoe [!DNL Adobe Target] werkt, met inbegrip van informatie over [!DNL Adobe Experience Platform Web SDK] en bibliotheken JavaScript (at.js en mbox.js). In dit artikel worden ook de verschillende typen activiteiten geïntroduceerd die u kunt maken met Target. U kunt over het de randnetwerk van het Doel, de Optimalisering van de Motor van het Onderzoek (SEO) ook leren, en hoe het Doel vlekken ontdekt.
 
 ## SDK&#39;s en JavaScript-bibliotheken voor Web-Platforms {#libraries}
 
-Adobe Target integreert met websites met behulp van de [!DNL AEP Web SDK]- of JavaScript-bibliotheken:
+[!DNL Adobe Target] Wordt geïntegreerd met websites die gebruikmaken van de JavaScript-  [!DNL AEP Web SDK] of JavaScript-bibliotheken:
 
-* **Adobe Experience Platform Web SDK:** De  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK is een nieuwe cliënt-kant bibliotheek JavaScript die klanten van toestaat  [!DNL Adobe Experience Cloud] om met de diverse diensten in de  [!DNL Experience Cloud] (met inbegrip van  [!DNL Target]) door het Netwerk van de  [!DNL Adobe Experience Platform] Rand in wisselwerking te staan.
-* **at.js:** De  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) bibliotheek is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. We raden u aan dat alle klanten de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) implementeren of naar deze nieuwste versie migreren.
+* **Adobe Experience Platform Web SDK:** De  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK is een nieuwe client-side JavaScript-bibliotheek. Met de AEP Web SDK kunnen klanten van [!DNL Adobe Experience Cloud] via het [!DNL AEP] Edge Network communiceren met de verschillende services in [!DNL Experience Cloud] (inclusief [!DNL Target]). Adobe raadt alle nieuwe [!DNL Target]-klanten aan [!DNL AEP Web SDK] te implementeren.
+* **at.js:** De  [bibliotheek at.js is een implementatiebibliotheek voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)   [!DNL Target]. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Adobe raadt alle klanten die at.js gebruiken aan hun implementaties bij te werken naar de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** De  [mbox.js-](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) bibliotheek is de oudere implementatiebibliotheek voor Doel. De bibliotheek mbox.js wordt ondersteund tot 31 maart 2021, maar er zijn geen functie-updates.
 
 >[!IMPORTANT]
 >
 >Alle klanten moeten naar [!DNL AEP Web SDK] of naar de recentste versie van at.js migreren. Zie [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) of [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
 
-U moet op elke pagina op uw site naar [!DNL AEP Web SDK] of at.js verwijzen. U kunt bijvoorbeeld een van deze elementen toevoegen aan de algemene koptekst. U kunt ook [Adobe Platform starten](https://experienceleague.adobe.com/docs/launch/using/overview.html) gebruiken.
+Verwijs [!DNL AEP Web SDK] of at.js op elke pagina op uw plaats. U kunt bijvoorbeeld een van deze bibliotheken toevoegen aan uw algemene koptekst. U kunt ook [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) gebruiken om [!DNL Target] te implementeren.
 
-De volgende bronnen helpen u bij het implementeren van de AEP Web SDK of at.js:
+De volgende bronnen bevatten gedetailleerde informatie om u te helpen bij het implementeren van de AEP Web SDK of at.js:
 
 * [Adobe Experience Platform Web SDK-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
 * [Doel implementeren met Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-Telkens wanneer een bezoeker een pagina aanvraagt die voor [!DNL Target] is geoptimaliseerd, wordt een verzoek verzonden naar het doelsysteem om te bepalen welke inhoud aan een bezoeker moet dienen. Dit proces vindt in real time plaats, telkens als een pagina wordt geladen, een verzoek voor de inhoud wordt gemaakt en door het systeem vervuld. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. De inhoud wordt gediend dat elke bezoeker van de plaats zeer waarschijnlijk zal antwoorden aan, met, en uiteindelijk kopen, om reactiesnelheden, aanschaftarieven, en opbrengst te maximaliseren.
+Telkens wanneer een bezoeker een pagina aanvraagt die voor [!DNL Target] is geoptimaliseerd, wordt een verzoek verzonden naar het doelsysteem. Aan de hand van de aanvraag kunt u bepalen welke inhoud voor die bezoeker moet worden gebruikt. Dit proces vindt in real time plaats. Telkens wanneer een pagina wordt geladen, wordt een verzoek om de inhoud gedaan en vervuld door het systeem. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. Inhoud wordt weergegeven waarmee elke bezoeker van de site meestal kan reageren op, communiceren met en uiteindelijk aankopen. De gepersonaliseerde inhoud helpt om reactiesnelheden, aanschafpercentages, en opbrengst te maximaliseren.
 
 In [!DNL Target] maakt elk element op de pagina deel uit van één enkele ervaring voor de gehele pagina. Elke ervaring kan meerdere elementen op de pagina bevatten.
 
@@ -45,9 +45,9 @@ De inhoud die aan bezoekers wordt weergegeven, is afhankelijk van het type activ
 
 Zie [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) voor meer informatie.
 
-De inhoud die wordt weergegeven in een standaard A/B-test, wordt willekeurig gekozen uit de elementen die u toewijst aan de activiteit, volgens de percentages die u voor elke ervaring kiest. Als resultaat van deze willekeurige splitsing van verkeer, kan het veel eerste verkeer vóór de percentages uit nemen. Als u bijvoorbeeld twee ervaringen creëert, wordt de startervaring willekeurig gekozen. Als er weinig verkeer is, is het mogelijk dat het percentage bezoekers naar één ervaring kan worden scheefgetrokken. Naarmate het verkeer toeneemt, zouden de percentages gelijker moeten worden.
+De inhoud die wordt weergegeven in een standaard A/B-test, wordt willekeurig gekozen uit de ervaringen die u toewijst aan de activiteit. U kunt de percentages van de verkeerstoewijzing voor elke ervaring toewijzen. Als gevolg van deze willekeurige splitsing van het verkeer kan het een aanzienlijke hoeveelheid eerste verkeer nemen vóór de percentages zelfs uit. Als u bijvoorbeeld twee ervaringen creëert, wordt de startervaring willekeurig gekozen. Als er weinig verkeer is, is het mogelijk dat het percentage bezoekers naar één ervaring kan worden scheefgetrokken. Naarmate het verkeer toeneemt, worden de percentages gelijkgetrokken.
 
-U kunt percentagedoelstellingen voor elke ervaring specificeren. In dit geval wordt een willekeurig getal gegenereerd en wordt dat nummer gebruikt om de ervaring te kiezen die moet worden weergegeven. De resulterende percentages zouden niet precies de gespecificeerde doelstellingen kunnen aanpassen, maar meer verkeer betekent dat de ervaringen dichter aan de doeldoelstellingen zouden moeten worden verdeeld.
+U kunt percentagedoelstellingen voor elke ervaring specificeren. In dit geval wordt een willekeurig getal gegenereerd en wordt dat nummer gebruikt om de ervaring te kiezen die u wilt weergeven. De resulterende percentages zouden niet precies de gespecificeerde doelstellingen kunnen aanpassen, maar meer verkeer betekent dat de ervaringen dichter aan de doeldoelstellingen zouden moeten worden verdeeld.
 
 1. Een klant vraagt om een pagina van uw server en het toont in browser.
 2. In de browser van de klant wordt een cookie van de eerste partij ingesteld om het gedrag van de klant op te slaan.
@@ -58,19 +58,19 @@ U kunt percentagedoelstellingen voor elke ervaring specificeren. In dit geval wo
 
 Zie [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) voor meer informatie.
 
-Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnende ervaring, zodat de conversies toenemen terwijl de test nog steeds wordt uitgevoerd en opgedaan.
+Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen. Auto-Wijst automatisch meer verkeer aan de het winnen ervaring toe om omzettingen te verhogen terwijl de test blijft lopen en leren.
 
 ### Auto-Target (AT)
 
 Zie [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) voor meer informatie.
 
-Auto-Target maakt gebruik van geavanceerd computerleren om uit meerdere, hoogpresterende, door de markator gedefinieerde ervaringen te kiezen en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, zodat de inhoud en stationsomzettingen kunnen worden aangepast.
+Auto-Doel gebruikt geavanceerd machine leren om uit veelvoudige hoog-presterende tellers-bepaalde ervaringen te selecteren. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring. De levering van de ervaring is gebaseerd op individuele klantenprofielen en het gedrag van vorige bezoekers met gelijkaardige profielen. Gebruik Auto-Target om inhoud en aandrijvingsomzettingen aan te passen.
 
 ### Automated Personalization (AP)
 
 Zie [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) voor meer informatie.
 
-Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computergebruik om verschillende aanbiedingsvariaties voor elke bezoeker af te stemmen op basis van hun individuele klantprofiel, om de inhoud en het optillen van de drive aan te passen.
+Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computerleren om verschillende aanbiedingsvariaties voor elke bezoeker aan te passen. De levering van de ervaring is gebaseerd op individuele klantenprofielen om inhoud en aandrijfhefboom te personaliseren.
 
 ### Gericht op ervaring (XT)
 
@@ -84,7 +84,7 @@ Gerichte ervaring, met inbegrip van geotargeting, is nuttig voor het bepalen van
 
 Zie [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) voor meer informatie.
 
-MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft.
+Multivariate Testing (MVT) vergelijkt combinaties aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifiek publiek presteert. MVT helpt te bepalen welk element het succes van de activiteit het meest beïnvloedt.
 
 ### Recommendations
 
@@ -108,19 +108,19 @@ De [!DNL Adobe Target]-oplossing wordt gehost op datacenters in Adobe-eigendom e
 
 De centrale plaatsen van de Cluster bevatten zowel een centrum van de gegevensinzameling als een centrum van de gegevensverwerking. De plaatsen van de Cluster van de rand bevatten slechts een centrum van de gegevensinzameling. Elke rapportsuite wordt toegewezen aan een specifiek gegevensverwerkingscentrum.
 
-De gegevens van de de plaatsactiviteit van de klant worden verzameld door het dichtst van zeven Clusters van Edge en geleid aan de vooraf bepaalde Centrale bestemming van de Cluster van een klant (één van drie plaatsen: Oregon, Dublin, Singapore) voor verwerking. Bezoekerprofielgegevens worden opgeslagen op de Edge Cluster die het dichtst bij de bezoeker van de site staat (de locaties zijn Centraal-clusterlocaties en Virginia, Amsterdam, Sydney, Tokio en Hongkong).
+De gegevens over de activiteiten op de locatie van de klant worden verzameld door de dichtstbijzijnde zeven Edge-clusters. Dit gegeven wordt geleid aan de vooraf bepaalde Centrale bestemming van de Cluster van een klant (één van drie plaatsen: Oregon, Dublin, Singapore) voor verwerking. Bezoekersprofielgegevens worden opgeslagen in de Edge-cluster die het dichtst bij de bezoeker van de site staat. De locaties van Edge-clusters omvatten de centrale clusterlocaties en Virginia, Amsterdam, Sydney, Tokio en Hongkong.
 
-In plaats van op alle gerichte verzoeken van één enkele plaats te antwoorden, worden de verzoeken verwerkt door de Cluster van de Rand dichtst bij de bezoeker, zo verzachtend de gevolgen van netwerk/Internet reistijd.
+In plaats van te reageren op alle doelverzoeken van één locatie, worden aanvragen verwerkt door de Edge-cluster die het dichtst bij de bezoeker ligt. Dit proces helpt om het effect van netwerk/Internet reistijd te verlichten.
 
 ![Typen doelservers met hyperlinks](/help/c-intro/assets/target-servers.png)
 
-De centrale clusters van het doel, die op de Diensten van het Web van Amazon (AWS) worden ontvangen, worden gevestigd in:
+De centrale clusters van het doel, die op de Diensten van het Web van Amazon (AWS) worden ontvangen, omvatten:
 
 * Oregon, VS
 * Dublin, Ierland
 * Republiek Singapore
 
-DoelEdge-clusters, gehost op AWS, bevinden zich in:
+DoelEdge-clusters, gehost op AWS, omvatten:
 
 * Mumbai, India
 * Tokio, Japan
@@ -134,15 +134,15 @@ De [!DNL Target Recommendations]-service wordt gehost in een [!DNL Adobe]-datace
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] heeft momenteel geen Edge Cluster in China en de prestaties van de eindgebruiker blijven beperkt voor  [!DNL Target] klanten in China. Vanwege de firewall en het gebrek aan Edge Clusters in het land, zullen sites met [!DNL Target] die worden geïmplementeerd, traag renderen en wordt het laden van pagina&#39;s beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
+>[!DNL Adobe Target] heeft momenteel geen Edge Cluster in China en de prestaties van de eindgebruiker blijven beperkt voor  [!DNL Target] klanten in China. Vanwege de firewall en het gebrek aan Edge Clusters in het land kunnen de ervaringen van sites met [!DNL Target] geïmplementeerd worden beïnvloed. De ervaring kan traag zijn bij het renderen en het laden van pagina&#39;s kan hierdoor worden beïnvloed. Ook, zouden de marketers latentie kunnen ervaren wanneer het gebruiken van [!DNL Target] auteursUI.
 
 Desgewenst kunt u doelEdge-clusters lijsten van gewenste personen. Voor meer informatie, zie [de randknopen van het Doel van de lijst van gewenste personen](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
 ## Beveiligde gebruikerservaring {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-Adobe zorgt ervoor dat de beschikbaarheid en prestaties van de doelinfrastructuur zo betrouwbaar mogelijk zijn. Een communicatieafbraak tussen de browser van de eindgebruiker en de servers van de Adobe kan echter een onderbreking in de levering van de inhoud veroorzaken.
+Adobe zorgt ervoor dat de beschikbaarheid en prestaties van de doelinfrastructuur zo betrouwbaar mogelijk zijn. Een communicatieafbraak tussen de browser van een eindgebruiker en de servers van Adobe kan echter een onderbreking in de levering van inhoud veroorzaken.
 
-Ter bescherming tegen onderbreking van de service en connectiviteitsproblemen worden alle locaties zo ingesteld dat standaardinhoud (gedefinieerd door de client) wordt opgenomen. Deze inhoud wordt weergegeven als de browser van de gebruiker geen verbinding kan maken met [!DNL Target].
+Om tegen de dienstonderbrekingen en connectiviteitskwesties te beschermen, zijn alle plaatsen opstelling om standaardinhoud (die door de cliënt wordt bepaald) te omvatten. Deze standaardinhoud wordt weergegeven als de browser van de gebruiker geen verbinding kan maken met [!DNL Target].
 
 Er worden geen wijzigingen aangebracht in de pagina als de browser van de gebruiker geen verbinding kan maken binnen een gedefinieerde time-outperiode (standaard: 15 seconden). Als deze time-outdrempel is bereikt, wordt standaardlocatie-inhoud weergegeven.
 
@@ -157,7 +157,7 @@ Adobe beschermt de gebruikerservaring door de prestaties te optimaliseren en te 
 
 [!DNL Adobe Target] wordt uitgelijnd op de richtlijnen voor zoekprogramma&#39;s voor testen.
 
-Google moedigt gebruikerstests aan en heeft in zijn documentatie verklaard dat A/B en multivariate tests geen nadelige invloed zullen hebben op de classificatie van organische zoekmachines zolang een aantal eenvoudige richtlijnen worden gevolgd.
+Google moedigt gebruikerstests aan. Google stelt in zijn documentatie dat A/B en Multivariate Testing geen schade toebrengen aan de classificatie van organische zoekmachines als u bepaalde richtlijnen opvolgt.
 
 Zie de volgende Google-bronnen voor meer informatie:
 
@@ -166,27 +166,27 @@ Zie de volgende Google-bronnen voor meer informatie:
 
 Richtlijnen zijn gepresenteerd in een bericht [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Hoewel de post dateert van 2012, blijft de meest recente verklaring van Google over deze kwestie en blijven de richtsnoeren relevant.
 
-* **Geen camouflage**  - Bij het camoufleren wordt één set inhoud weergegeven voor uw gebruikers en een andere set inhoud voor het doorzoeken van machinepunten door deze specifiek te identificeren en ze bewust verschillende inhoud te geven.
+* **Geen camouflage**: Bij Camoufleren wordt één set inhoud weergegeven voor uw gebruikers en een andere set inhoud voor zoekprogrammavakken. Camoufleren wordt uitgevoerd door bots specifiek te identificeren en ze doelbewust verschillende inhoud te geven.
 
-   Het doel, als platform, is gevormd om onderzoeksmotor bots te behandelen het zelfde als om het even welke gebruiker. Dit houdt in dat de beren kunnen worden opgenomen in tests die u uitvoert, als ze willekeurig worden geselecteerd en de testvariaties &quot;zien&quot;.
+   Het doel, als platform, is gevormd om onderzoeksmotor bots te behandelen het zelfde als om het even welke gebruiker. Als gevolg hiervan kunnen bots in de activiteiten worden opgenomen als de bots willekeurig worden geselecteerd en de testvariaties &quot;zie&quot;.
 
-* **Gebruik rel=&quot;canonical&quot;**  - Soms moet een A/B-test worden ingesteld met verschillende URL&#39;s voor de variaties. In deze gevallen moeten alle variaties een `rel="canonical"`-tag bevatten die verwijst naar de oorspronkelijke (controle)URL. Als Adobe bijvoorbeeld de startpagina test met verschillende URL&#39;s voor elke variatie, wordt de volgende canonieke tag voor de startpagina in de tag `<head>` geplaatst voor elk van de variaties:
+* **rel=&quot;canonical&quot;** gebruiken: Soms moet een A/B-test worden ingesteld met verschillende URL&#39;s voor de variaties. In deze gevallen moeten alle variaties een `rel="canonical"`-tag bevatten die verwijst naar de oorspronkelijke (controle)URL. Stel bijvoorbeeld dat Adobe de startpagina test met verschillende URL&#39;s voor elke variatie. De volgende canonieke tag voor de startpagina wordt in de tag `<head>` geplaatst voor elk van de variaties:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **Gebruik 302 (tijdelijk) omleidingen**  - In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan een omleiding van 302 te gebruiken om direct verkeer naar de testvariaties te leiden. Dit vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zal zijn zolang de test loopt.
+* **Gebruik 302 (tijdelijke) omleidingen**: In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan om een omleiding van 302 te gebruiken om direct verkeer naar de testvariaties te leiden. De 302 omleiding vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zolang de test loopt.
 
-   Een omleiding van 302 is een omleiding aan de serverzijde, en het Doel, samen met de meeste optimalisatieproviders, gebruikt cliënt-zijmogelijkheden. Daarom is dit een gebied waarop Target niet volledig voldoet aan de aanbevelingen van Google. Dit is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door Doel roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt Target de JavaScript-opdracht `window.location` om gebruikers te sturen naar het testen van variaties. Dit geeft niet expliciet aan of het omleiden een 301- of een 302-waarde is.
+   Een omleiding van 302 is een omleiding aan de serverzijde, en het Doel, samen met de meeste optimalisatieproviders, gebruikt cliënt-zijmogelijkheden. Daarom is dit een gebied waarop Target niet volledig voldoet aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door Doel roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt Target de JavaScript-opdracht `window.location`. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
 
-   Hoewel we blijven zoeken naar haalbare oplossingen die volledig in overeenstemming zijn met de richtlijnen voor zoekprogramma&#39;s, zijn we ervan overtuigd dat een correcte implementatie van de bovenstaande canonieke tags het risico dat aan deze aanpak is verbonden, beperkt.
+   Adobe blijft zoeken naar haalbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekprogramma&#39;s. Voor die cliënten die afzonderlijke URLs voor het testen moeten gebruiken, is Adobe zeker dat juiste implementatie van de canonieke markeringen het risico verbonden aan deze benadering verlicht.
 
-* **Pas als dat nodig**  is experimenten uit - wij zijn van mening dat &quot;zo lang als nodig&quot; is om statistische significantie te bereiken. Doel [biedt aanbevolen procedures](https://docs.adobe.com/content/target-microsite/testcalculator.html) om te bepalen wanneer uw test dit punt heeft bereikt. Wij adviseren dat u de hard-gecodeerde implementatie van het winnen van tests in uw testwerkschema opneemt en de aangewezen middelen toewijst.
+* **Alleen experimenten uitvoeren zolang als nodig**: Adobe is van mening dat &quot;zo lang als nodig&quot; is om statistische significantie te bereiken. Doel [biedt aanbevolen procedures](https://docs.adobe.com/content/target-microsite/testcalculator.html) om te bepalen wanneer uw test dit punt heeft bereikt. Adobe raadt u aan om de hardcoded implementatie van het winnen van tests in uw testworkflow op te nemen en de juiste bronnen toe te wijzen.
 
-   Het gebruik van het doelplatform voor het &quot;publiceren&quot; van winnende tests wordt niet aanbevolen als een permanente oplossing, maar zolang de winnende test voor 100% van de gebruikers 100% van de tijd wordt gepubliceerd, kan deze aanpak worden gebruikt terwijl het proces van het hardcoderen van de winnende test wordt voltooid.
+   Het gebruik van het doelplatform voor het &quot;publiceren&quot; van winnende tests wordt niet aanbevolen als een permanente oplossing. Als de winnende test voor 100% van de gebruikers 100% van de tijd wordt gepubliceerd, kan deze benadering worden gebruikt terwijl het proces van het hardcoderen van de het winnen test wordt voltooid.
 
-   Het is belangrijk om te overwegen wat uw test ook is veranderd. Als u de kleur van knoppen of andere kleine, niet-tekstuele items op de pagina bijwerkt, heeft dit geen invloed op de organische waarderingen. Wijzigingen in tekst moeten echter wel worden gecodeerd.
+   Het is belangrijk om te overwegen wat uw test ook is veranderd. Als u de kleur van knoppen of andere kleine, niet-tekstuele items op de pagina bijwerkt, heeft dit geen invloed op uw organische waarderingen. Wijzigingen in tekst moeten echter wel worden gecodeerd.
 
-   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te innemen in de zoekfunctie, zoals een speciale bestemmingspagina voor een e-mailcampagne, zijn geen van de bovenstaande overwegingen van toepassing.
+   Het is ook belangrijk om de toegankelijkheid van de pagina te overwegen u test. Als de pagina niet toegankelijk is voor zoekprogramma&#39;s en nooit is ontworpen om in de eerste plaats een plaats te krijgen in biologisch zoeken, zijn geen van de bovenstaande overwegingen van toepassing. Een voorbeeld is een speciale bestemmingspagina voor een e-mailcampagne.
 
 Google stelt dat het volgen van deze richtlijnen &quot;ertoe zou moeten leiden dat uw tests weinig of geen invloed hebben op uw site in zoekresultaten.&quot;
 
@@ -196,7 +196,7 @@ Naast deze richtlijnen geeft Google in de documentatie bij het programma Content
 
 Google geeft als voorbeeld dat &quot;als de originele pagina van een site wordt geladen met trefwoorden die geen betrekking hebben op de combinaties die worden weergegeven aan gebruikers, we die site mogelijk uit onze index kunnen verwijderen.&quot;
 
-Wij denken dat het moeilijk zou zijn om de betekenis van de originele inhoud onbedoeld te veranderen binnen testvariaties, maar wij adviseren ons bewust te zijn van de sleutelwoordthema&#39;s op een pagina en die thema&#39;s te handhaven. Wijzigingen in de pagina-inhoud, met name het toevoegen of verwijderen van relevante trefwoorden, kunnen ertoe leiden dat wijzigingen in de positie van de URL in de organische zoekopdracht worden gewijzigd. Wij adviseren dat u met uw partner SEO als deel van uw het testen protocol in dienst neemt.
+Adobe is van mening dat het moeilijk zou zijn om de betekenis van de oorspronkelijke inhoud onbedoeld te wijzigen in testvariaties. Adobe raadt echter aan de trefwoordthema&#39;s op een pagina onder de aandacht te brengen en deze thema&#39;s te behouden. Wijzigingen in de pagina-inhoud, met name het toevoegen of verwijderen van relevante trefwoorden, kunnen ertoe leiden dat wijzigingen in de positie van de URL in de organische zoekopdracht worden gewijzigd. Adobe adviseert dat u met uw partner SEO als deel van uw het testen protocol in dienst neemt.
 
 ## Bots {#bots}
 
@@ -204,9 +204,9 @@ Adobe Target gebruikt [DeviceAtlas](https://deviceatlas.com/device-data/user-age
 
 >[!NOTE]
 >
-> Voor [!DNL Server Side] verzoeken, wordt de waarde die in [de &quot;Context&quot;knoop ](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) van het Verzoek wordt overgegaan gegeven belangrijkheid over het Koord van de Agent van de Gebruiker voor beide opsporing.
+> Voor [!DNL Server-Side] verzoeken, wordt de waarde die in [de &quot;Context&quot;knoop ](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) van het Verzoek wordt overgegaan gegeven belangrijkheid over het Koord van de Agent van de Gebruiker voor beide opsporing.
 
-Verkeer dat wordt geïdentificeerd als gegenereerd door een bot wordt nog steeds aangeboden als inhoud, net als een gewone gebruiker, om ervoor te zorgen dat dit in overeenstemming is met SEO-richtlijnen. Door beide verkeer te gebruiken, kunnen A/B-tests of verpersoonlijkingsalgoritmen scheeftrekken als ze worden behandeld als normale gebruikers. Daarom als een bekende bot in uw activiteit van het Doel wordt ontdekt, wordt het verkeer lichtjes verschillend behandeld. Het verwijderen van beide verkeer zorgt voor een nauwkeurigere meting van de gebruikersactiviteit.
+Verkeer dat door een bot wordt gegenereerd, wordt nog steeds aangeboden. Bots worden behandeld als een normale gebruiker om ervoor te zorgen dat Target in overeenstemming is met SEO-richtlijnen. Door beide verkeer te gebruiken, kunnen A/B-tests of verpersoonlijkingsalgoritmen scheeftrekken als ze worden behandeld als normale gebruikers. Daarom als een bekende bot in uw activiteit van het Doel wordt ontdekt, wordt het verkeer lichtjes verschillend behandeld. Het verwijderen van beide verkeer zorgt voor een nauwkeurigere meting van de gebruikersactiviteit.
 
 Specifiek, voor bekende bot verkeer richt niet:
 
