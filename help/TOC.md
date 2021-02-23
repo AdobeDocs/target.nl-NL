@@ -4,9 +4,9 @@ breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
       + [Hoofdstuk 8: Laat je activiteitenresultaten weten](/help/c-intro/target-welcome-kit-8.md)
       + [Hoofdstuk 9: Volgende stappen en bronnen](/help/c-intro/target-welcome-kit-9.md)
    + [Verklarende woordenlijst](c-intro/glossary.md)
-   + [Hoe Adobe Target werkt](c-intro/how-target-works.md)
+   + [Hoe Target werkt](c-intro/how-target-works.md)
    + [Opleiding en certificering](c-intro/training-and-certification.md)
    + [Trainingsvideo&#39;s voor Adobe Target Standard en Premium](c-intro/target-standard-premium-training-videos.md)
    + [Veelgestelde vragen over optimalisatie en personalisatie](c-intro/cmp-target-standard-cheatsheet.md)
@@ -66,7 +66,7 @@ ht-degree: 0%
       + Machtigingen {#enterprise} voor zakelijke gebruikers
          + [Machtigingen voor Enterprise-gebruikers](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Bedrijfsmachtigingen configureren](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Doel {#implement-target} implementeren
    + [Overzicht van doel implementeren](c-implementing-target/implementing-target.md)
    + Voordat u {#before-implement} implementeert
@@ -161,7 +161,7 @@ ht-degree: 0%
       + [Locatieservice gebruiken](/help/c-target-mobile-app/use-location-service.md)
    + Serverzijde: Doel {#server-side} implementeren
       + [Serverzijde: Implementatie van doeloverzicht](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Overgang van verouderde API&#39;s van Target naar Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [Overgang van oudere API&#39;s van Target naar Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
       + [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Hybride implementatie](/help/c-implementing-target/hybrid-implementation.md)
    + E-mail: Doel {#implement-email} implementeren
