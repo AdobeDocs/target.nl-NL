@@ -4,9 +4,9 @@ description: Meer informatie over de werking van Adobe Target, zoals informatie 
 title: Hoe werkt het doel?
 feature: Overzicht
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Leer hoe [!DNL Adobe Target] werkt, met inbegrip van informatie over [!DNL Adobe
 >
 >Alle klanten moeten naar [!DNL AEP Web SDK] of naar de recentste versie van at.js migreren. Zie [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) of [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
 
-Verwijs [!DNL AEP Web SDK] of at.js op elke pagina op uw plaats. U kunt bijvoorbeeld een van deze bibliotheken toevoegen aan uw algemene koptekst. U kunt ook [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) gebruiken om [!DNL Target] te implementeren.
+Verwijs [!DNL AEP Web SDK] of at.js op elke pagina op uw plaats. U kunt bijvoorbeeld een van deze bibliotheken toevoegen aan uw algemene koptekst. U kunt ook [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) gebruiken om [!DNL Target] te implementeren.
 
 De volgende bronnen bevatten gedetailleerde informatie om u te helpen bij het implementeren van de AEP Web SDK of at.js:
 
@@ -56,7 +56,7 @@ Zie [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-crea
 
 ### Automatisch toewijzen
 
-Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen. Auto-Wijst automatisch meer verkeer aan de het winnen ervaring toe om omzettingen te verhogen terwijl de test blijft lopen en leren.
+Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen. Automatisch toewijzen herwijst automatisch meer verkeer aan de winnende ervaring, die helpt om omzettingen te verhogen terwijl de test blijft lopen en leren.
 
 Zie [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) voor meer informatie.
 
@@ -176,7 +176,7 @@ Richtlijnen zijn gepresenteerd in een bericht [Google Webmaster Central Blog](ht
 
 * **Gebruik 302 (tijdelijke) omleidingen**: In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan om een omleiding van 302 te gebruiken om direct verkeer naar de testvariaties te leiden. De 302 omleiding vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zolang de test loopt.
 
-   Een omleiding van 302 is een omleiding aan de serverzijde en [!DNL Target] gebruikt, samen met de meeste optimalisatieproviders, mogelijkheden aan de clientzijde. Daarom is dit een gebied waarop [!DNL Target] niet volledig voldoet aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt [!DNL Target] de JavaScript-opdracht `window.location`. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
+   Een omleiding van 302 is een omleiding aan de serverzijde en [!DNL Target] gebruikt, samen met de meeste optimalisatieproviders, mogelijkheden aan de clientzijde. Omleiding is daarom een gebied waar [!DNL Target] niet volledig voldoet aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt [!DNL Target] de JavaScript-opdracht `window.location`. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
 
    Adobe blijft zoeken naar haalbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekprogramma&#39;s. Voor die cliënten die afzonderlijke URLs voor het testen moeten gebruiken, is Adobe zeker dat juiste implementatie van de canonieke markeringen het risico verbonden aan deze benadering verlicht.
 
