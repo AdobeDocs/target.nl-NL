@@ -4,19 +4,19 @@ description: Met mobiele viewports kunt u zien hoe uw Adobe Target-activiteiten 
 title: Hoe gebruik ik mobiele Viewports voor Responsieve Ervaringen?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 
-# Mobiele Viewers voor responsieve ervaringen
+# Mobiele viewports voor responsieve ervaringen
 
-Met mobiele viewports kunt u een voorvertoning weergeven van uw [!DNL Adobe Target]-activiteiten op schermen van verschillende formaten.
+Met mobiele viewports kunt u een voorvertoning van uw [!DNL Adobe Target]-activiteiten weergeven op schermen van verschillende formaten.
 
-De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sites die goed worden weergegeven op verschillende apparaten, vensters of schermgrootten. Responsieve sites worden automatisch aangepast en aangepast aan elke schermgrootte, zoals desktops, laptops, tablets of mobiele telefoons.
+De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sites die goed worden weergegeven op verschillende apparaten, vensters en schermgrootten. Responsieve sites worden automatisch aangepast en aangepast aan elke schermgrootte, zoals desktops, laptops, tablets of mobiele telefoons.
 
 >[!NOTE]
 >
@@ -26,74 +26,86 @@ De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sit
 * Mobiele viewports zijn niet beschikbaar als deze worden overlapt door een overlay voor omleidingsaanbiedingen.
 
 
-Een viewport wordt bepaald door de grootte van de rechthoek die wordt gevuld door een webpagina op het scherm. Dit is de grootte van het browservenster, min de schuifbalken en werkbalken. Browsers gebruiken &#39;CSS-pixels&#39;. Voor veel apparaten, zoals apparaten met Retina-schermen, is de viewport kleiner dan de geadverteerde apparaatresolutie.
+Een viewport wordt bepaald door de grootte van de rechthoek die wordt gevuld door een webpagina op het scherm. De viewport is de grootte van het browservenster, min de schuifbalken en werkbalken. Browsers gebruiken &#39;CSS-pixels&#39;. Voor veel apparaten, zoals apparaten met Retina-schermen, is de viewport kleiner dan de geadverteerde apparaatresolutie.
 
-Hieronder staan de viewports en de resoluties voor sommige populaire apparaten. Vergeet niet de viewportgrootte te gebruiken in [!DNL Target]. Verschillende websites vermelden de viewportgrootten voor populaire apparaten. Zie bijvoorbeeld [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) of raadpleeg de website van de maker van het apparaat.
+Hieronder staan de viewports en de resoluties voor populaire apparaten. Vergeet niet de viewportgrootte te gebruiken in [!DNL Target].
 
-| Apparaat | Viewportgrootte | Apparaatresolutie |
+>[!NOTE]
+>
+>Verschillende websites vermelden de viewportgrootten voor populaire apparaten. Zie bijvoorbeeld [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Raadpleeg de website van de fabrikant van het apparaat voor de meest nauwkeurige, actuele informatie.
+
+| Apparaat | Viewportgrootte (breedte x hoogte) | Apparaatresolutie (breedte x hoogte) |
 |---|---|---|
-| iPhone SE | 375 x 667 uur | 750 x 1334 uur |
-| iPhone 11 Pro Max | 414 x 896 uur | 1242 x 2688 uur |
-| iPhone 11 x max. | 414 x 896 uur | 1242 x 2688 uur |
-| iPhone 11 | 414 x 896 uur | 828 x 1792 uur |
-| iPhone 11 Xr | 414 x 896 uur | 828 x 1792 uur |
-| iPhone 11 Pro | 375 x 812 uur | 1125b x 2436h |
-| iPhone 11 X | 375 x 812 uur | 1125b x 2436h |
-| iPhone 11 Xs | 375 x 812 uur | 1125b x 2436h |
-| iPhone X | 375 x 812 uur | 1125b x 2436h |
-| iPhone 8 Plus | 414 x 736 uur | 1080 x 1920 |
-| iPhone 8 | 375 x 667 uur | 750 x 1334 uur |
-| iPhone 7 Plus | 414 x 736 uur | 1080 x 1920 |
-| iPhone 7 | 375 x 667 uur | 750 x 1334 uur |
-| iPhone 6s Plus | 414 x 736 uur | 1080 x 1920 |
-| iPhone 6s | 375 x 667 uur | 750 x 1334 uur |
-| iPhone 6 Plus | 414 x 736 uur | 1080 x 1920 |
-| iPhone 6 | 375 x 667 uur | 750 x 1334 uur |
-| iPad Pro | 1024 x 1366 uur | 2048 x 2732 uur |
-| Derde en vierde generatie iPad | 768 x 1024 uur | 1536 x 2048 uur |
-| iPad AIR 1 &amp; 2 | 768 x 1024 uur | 1536 x 2048 uur |
-| iPad Mini | 768 x 1024 uur | 768 x 1024 uur |
-| iPad Mini 2 en 3 | 768 x 1024 uur | 1536 x 2048 uur |
-| Nexus 6P | 411w x 731h | 1440b x 2560h |
-| Nexus 5X | 411w x 731h | 1080 x 1920 |
-| Google Pixel | 411w x 731h | 1080 x 1920 |
-| Google Pixel XL | 411w x 731h | 1440b x 2560h |
-| Google Pixel 2 | 411w x 731h | 1080 x 1920 |
-| Google Pixel 2 XL | 411 x 823 uur | 1440b x 2880h |
-| Samsung Galaxy Noot 5 | 480 x 853 uur | 1440b x 2560h |
-| LG G5 | 480 x 853 uur | 1440b x 2560h |
-| One Plus 3 | 480 x 853 uur | 1080 x 1920 |
-| Samsung Galaxy S9 | 360 x 740 uur | 1440b x 2960h |
-| Samsung Galaxy S9+ | 360 x 740 uur | 1440b x 2960h |
-| Samsung Galaxy S8 | 360 x 740 uur | 1440b x 2960h |
-| Samsung Galaxy S8+ | 360 x 740 uur | 1440b x 2960h |
-| Samsung Galaxy S7 | 360 x 640 uur | 1440b x 2560h |
-| Samsung Galaxy S7 Edge | 360 x 640 uur | 1440b x 2560h |
-| Nexus 7 (2013) | 600 x 960 uur | 1200 x 1920 |
-| Nexus 9 | 768 x 1024 uur | 1536 x 2048 uur |
+| iPhone 12 | 390 x 844 | 1170 x 2532 |
+| iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
+| iPhone 12 Pro | 390 x 844 | 1170 x 2532 |
+| iPhone 12 Pro Max | 428 x 926 | 1248 x 2778 |
+| iPhone SE | 214 x 379 | 640 x 1136 |
+| iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
+| iPhone 11 x max. | 414 x 896 | 1242 x 2688 |
+| iPhone 11 | 414 x 896 | 828 x 1792 |
+| iPhone 11 Xr | 414 x 896 | 828 x 1792 |
+| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 11 X | 375 x 812 | 1125 x 2436 |
+| iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
+| iPhone X | 375 x 812 | 1125 x 2436 |
+| iPhone 8 Plus | 414 x 736 | 1080 x 1920 |
+| iPhone 8 | 375 x 667 | 750 x 1334 |
+| iPhone 7 Plus | 414 x 736 | 1080 x 1920 |
+| iPhone 7 | 375 x 667 | 750 x 1334 |
+| iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
+| iPhone 6s | 375 x 667 | 750 x 1334 |
+| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
+| iPhone 6 | 375 x 667 | 750 x 1334 |
+| iPad Pro | 1024 x 1366 | 2048 x 2732 |
+| Derde en vierde generatie iPad | 768 x 1024 | 1536 x 2048 |
+| iPad AIR 1 &amp; 2 | 768 x 1024 | 1536 x 2048 |
+| iPad Mini | 768 x 1024 | 768 x 1024 |
+| iPad Mini 2 en 3 | 768 x 1024 | 1536 x 2048 |
+| Nexus 6P | 411 x 731 | 1440 x 2560 |
+| Nexus 5X | 411 x 731 | 1080 x 1920 |
+| Google Pixel | 411 x 731 | 1080 x 1920 |
+| Google Pixel XL | 411 x 731 | 1440 x 2560 |
+| Google Pixel 2 | 411 x 731 | 1080 x 1920 |
+| Google Pixel 2 XL | 411 x 823 | 1440 x 2880 |
+| Samsung Galaxy Noot 5 | 480 x 853 | 1440 x 2560 |
+| LG G5 | 360 x 640 | 1440 x 2560 |
+| LG G4 | 360 x 640 | 1440 x 2560 |
+| LG G3 | 360 x 640 | 1440 x 2560 |
+| One Plus 3 | 480 x 853 | 1080 x 1920 |
+| Samsung Galaxy S9 | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S9+ | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S8 | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S8+ | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S7 | 360 x 640 | 1440 x 2560 |
+| Samsung Galaxy S7 Edge | 360 x 640 | 1440 x 2560 |
+| Nexus 7 (2013) | 600 x 960 | 1200 x 1920 |
+| Nexus 9 | 768 x 1024 | 1536 x 2048 |
 | Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
-| Chromebook Pixel | 1280 x 850 uur | 2560b x 1700h |
+| Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-Als u een activiteit aan mensen op een bepaald apparaat wilt leveren, kies het aangewezen publiek voor dat apparaat in het activiteitendiagram. Gebruik de Mobiele Composer van het Web om de pagina in de activiteit voor dat apparaat uit te geven. Als u een activiteit over uw volledige digitale ervaring wilt in werking stellen en ervoor wilt zorgen het goed kijkt over alle apparaten, pas geen het richten toe, en gebruik mobiele viewports om de activiteit op elke het schermgrootte voor te vertonen.
+Om een activiteit aan bezoekers op een bepaald apparaat te leveren, verkies het aangewezen publiek voor dat apparaat in het activiteitendiagram. Gebruik de Mobiele Composer van het Web om de pagina in de activiteit voor dat apparaat uit te geven. Om een activiteit over uw volledige digitale ervaring in werking te stellen om het te verzekeren goed kijkt over alle apparaten, pas geen het richten toe. Gebruik in plaats daarvan mobiele viewports om een voorvertoning van de activiteit op elke schermgrootte weer te geven.
 
-Als u een responsieve site hebt, is uw site doorgaans ontworpen om in een andere weergave te worden geopend wanneer deze wordt geopend door een apparaat met een specifieke schermgrootte. De schermgrootten die de nieuwe weergaven activeren, worden CSS-onderbrekingspunten genoemd. CSS-onderbrekingspunten zijn punten waar de website-inhoud afhankelijk van de apparaatbreedte reageert om de optimale lay-out voor bezoekers weer te geven. CSS-onderbrekingspunten worden ook [mediaquery](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) genoemd.
+Voor responsieve sites is uw site doorgaans ontworpen om in een andere weergave te worden geopend wanneer deze wordt geopend door een apparaat met een specifieke schermgrootte. De schermgrootten die de nieuwe weergaven activeren, worden CSS-onderbrekingspunten genoemd. CSS-onderbrekingspunten zijn punten waar de website-inhoud afhankelijk van de apparaatbreedte reageert om de optimale lay-out voor bezoekers weer te geven. CSS-onderbrekingspunten worden ook [mediaquery](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) genoemd.
 
-Sla uw CSS-onderbrekingspunten op in [!DNL Target] zodat u een voorvertoning van uw ervaringen kunt weergeven voor elke weergave die u definieert. Elk van deze ervaringen wordt getoond in een mobiele viewport in de [!DNL Target] interface. Open de weergave voor elke schermgrootte door op die viewport boven aan de weergave te klikken.
+Sla uw CSS-onderbrekingspunten op in [!DNL Target] zodat u een voorvertoning van uw ervaringen kunt weergeven voor elke weergave die u definieert. Elk van deze ervaringen toont in een mobiele viewport in de [!DNL Target] interface. Open de weergave voor elke schermgrootte door op die viewport boven aan de weergave te klikken.
 
-Als uw site niet reageert, kunt u nog steeds de Mobile Web Composer gebruiken om een site weer te geven als uw activiteit is gericht op een specifiek apparaat.
+Als uw site niet reageert, gebruikt u de Mobile Web Composer om een site weer te geven als uw activiteit is gericht op een specifiek apparaat.
 
 >[!IMPORTANT]
 >
->Hoewel u een ervaring vanuit mobiele viewports kunt bewerken, zijn deze wijzigingen van toepassing op alle viewports en apparaten, niet alleen op de viewport waarin u werkt. Op dezelfde manier wordt bij het bewerken van een ervaring in de normale desktopweergave de pagina voor alle schermgrootten gewijzigd, en niet alleen voor de desktopweergave. Momenteel ondersteunen we geen wijzigingen die specifiek zijn voor viewport.
+>U kunt een ervaring bewerken vanuit mobiele viewports. Nochtans, zijn deze veranderingen op alle viewports en apparaten, niet alleen viewport van toepassing die u binnen werkt. Op dezelfde manier wordt bij het bewerken van een ervaring in de normale desktopweergave de pagina voor alle schermgrootten gewijzigd, en niet alleen voor de desktopweergave. [!DNL Target] biedt momenteel geen ondersteuning voor wijzigingen die specifiek zijn voor de viewport.
 
 ## Configuratie mobiele viewport {#task_B4B161499DC0470584ED922A4D20FCAB}
 
-Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw ervaringen maakt.
+Configureer mobiele viewports die u beschikbaar wilt maken tijdens het maken van uw ervaringen.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Als u een nieuwe mobiele viewport wilt toevoegen, klikt u in de sectie **[!UICONTROL Mobile viewports configuration]** op **[!UICONTROL Add]**.
+1. Klik in de sectie **[!UICONTROL Mobile viewports configuration]** op **[!UICONTROL Add]**.
 
    ![viewport toevoegen](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
+
+   of
 
    Als u de configuratie van een bestaande mobiele viewport wilt wijzigen, selecteert u die viewport en klikt u op het pictogram [!UICONTROL Edit] (potlood).
 
@@ -101,9 +113,9 @@ Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw erv
 
    Geef uw mobiele viewport een beschrijvende naam die u gemakkelijk kunt herkennen. De naam mag maximaal 36 tekens lang zijn.
 
-1. Voer de schermgrootte van het mobiele apparaat in, zowel de breedte als de hoogte.
+1. Geef de schermgrootte van het mobiele apparaat op, zowel de breedte als de hoogte.
 
-   De breedte kan liggen tussen 150 en 968 pixels. De hoogte kan liggen tussen 150 en 1280 pixels.
+   De breedte kan 150 tot 968 pixels zijn. De hoogte kan 150 tot 1280 pixels zijn.
 
 1. (Optioneel) Selecteer het besturingssysteem van het apparaat.
 
@@ -128,7 +140,7 @@ Configureer alle mobiele viewports die u beschikbaar wilt maken wanneer u uw erv
 Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om ontvankelijke ervaringen voor mobiele schermen tot stand te brengen.
 
 1. Maak de [gewenste activiteit](/help/c-activities/activities.md).
-1. Klik in Visual Experience Composer op het tandwielpictogram **[!UICONTROL Settings]** en selecteer **[!UICONTROL Add Mobile Viewports]**.
+1. Klik in [!UICONTROL Visual Experience Composer] (VEC) op het tandwielpictogram **[!UICONTROL Settings]** en selecteer **[!UICONTROL Add Mobile Viewports]**.
 
    ![Mobiele Viewports toevoegen, optie](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -140,7 +152,7 @@ Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om ontvankelijke er
 
 1. Bewerk de mobiele viewports naar wens.
 
-   Wijzigingen die u aanbrengt in de ervaring (bijvoorbeeld als u de tekst in een kop wijzigt) worden toegepast op alle apparaten.
+   Alle wijzigingen die u aanbrengt in de ervaring worden op alle apparaten toegepast. U wijzigt bijvoorbeeld de tekst in een kop.
 
    Plaats de muis boven de naam van een viewport om de grootte van de viewport weer te geven.
 
@@ -149,32 +161,6 @@ Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om ontvankelijke er
 1. U kunt desgewenst schakelen tussen de modi Staand en Liggend door op het pictogram voor de gewenste richting te klikken.
 
    ![Afdrukopties](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
-
-## Hoofdlettergebruik: Doel twee iPhone-versies {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
-
-In dit gebruiksgeval ziet u hoe u ervaringen voor twee iPhone-versies kunt configureren: iPhone 6 en iPhone 6 Plus.
-
-1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Maak in de sectie **[!UICONTROL Mobile Viewport Configuration]** mobiele viewports voor iPhone 6 en iPhone 6 plus.
-
-   Gebruik de volgende instellingen voor elke viewport:
-
-   | Naam | Breedte | Hoogte | Besturingssysteem |
-   |---|---|---|---|
-   | iPhone 6 | 375 | 667 | iOS |
-   | iPhone 6 Plus | 414 | 736 | iOS |
-
-   ![](assets/iphoneviewportconfig.png)
-
-1. Maak een activiteit met de ervaring u zou willen richten.
-1. Selecteer de ervaring die u wilt gebruiken voor bezoekers die uw site openen via een iPhone 6 of iPhone 6 Plus.
-1. Wanneer u het doel selecteert, klikt u op **[!UICONTROL Create Audience]** en configureert u een publiek zoals in de onderstaande afbeelding wordt getoond:
-
-   ![](assets/iphoneaudiences.png)
-
-   Omdat de telefoon aan landschap kon worden geroteerd, die zowel hoogte als breedte vereisen om groter te zijn dan 320 leidt gelijktijdig tot een voorwaarde die slechts 6 en 6 plus zou kunnen ontmoeten, wanneer gecombineerd met het Model van het Apparaat van de iPhone.
-1. Klik op **[!UICONTROL Save]**.
-1. Ga door met het instellen van je activiteit zoals je normaal zou doen.
 
 ## Trainingsvideo&#39;s
 
