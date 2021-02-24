@@ -1,12 +1,12 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
 description: Meer informatie over de werking van Adobe Target, zoals informatie over de JavaScript-doelbibliotheken (at.js en AEP Web SDK), Adobe-datacenters en SEO-tests.
 title: Hoe werkt het doel?
 feature: Overzicht
 translation-type: tm+mt
-source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Richtlijnen zijn gepresenteerd in een bericht [Google Webmaster Central Blog](ht
 
 * **Gebruik 302 (tijdelijke) omleidingen**: In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan om een omleiding van 302 te gebruiken om direct verkeer naar de testvariaties te leiden. De 302 omleiding vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zolang de test loopt.
 
-   Een omleiding van 302 is een omleiding aan de serverzijde en [!DNL Target] gebruikt, samen met de meeste optimalisatieproviders, mogelijkheden aan de clientzijde. Omleiding is daarom een gebied waar [!DNL Target] niet volledig voldoet aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt [!DNL Target] de JavaScript-opdracht `window.location`. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
+   Een omleiding van 302 is een omleiding aan de serverzijde en [!DNL Target] gebruikt, samen met de meeste optimalisatieproviders, mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] niet volledig voldoet aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het runnen van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen gebruikt [!DNL Target] de JavaScript-opdracht `window.location`. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
 
    Adobe blijft zoeken naar haalbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekprogramma&#39;s. Voor die cliënten die afzonderlijke URLs voor het testen moeten gebruiken, is Adobe zeker dat juiste implementatie van de canonieke markeringen het risico verbonden aan deze benadering verlicht.
 
