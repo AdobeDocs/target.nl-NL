@@ -4,7 +4,7 @@ title: Waar kan ik de documentatie van het Doel vinden?
 description: Leer hoe u Adobe Target kunt gebruiken om de ervaring van uw klanten aan te passen om uw omzet te maximaliseren op uw websites en mobiele sites, apps en andere digitale kanalen.
 feature: Overzicht
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -41,18 +41,18 @@ In de volgende secties wordt verwezen naar handige koppelingen in deze handleidi
 
 Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborging.
 
-- [Opmerkingen](r-release-notes/release-notes.md) bij de doelversie: Bevat informatie over de huidige versie, informatie over bekende kwesties die  [!DNL Target], een lijst van belangrijke veranderingen in deze documentatie, en een archief van vroegere versienota&#39;s beïnvloeden.
+- [Opmerkingen](r-release-notes/release-notes.md) bij de doelversie: Bevat informatie over de huidige versie, informatie over bekende kwesties die gevolgen hebben  [!DNL Target], een lijst van belangrijke veranderingen in deze documentatie, en een archief van vroegere versienota&#39;s.
 - [Inleiding tot doel](c-intro/intro.md): Verklaart de kernconcepten van de  [!DNL Target] oplossing.
 - Doel integreren met de Adobe Experience Cloud: Verklaart hoe te om [!DNL Target] met andere [!DNL Experience Cloud] oplossingen, met inbegrip van [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Soorten ](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md), en [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md) te integreren.
 - [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Biedt zelfstudies en video&#39;s om u te helpen optimaal van het doel te profiteren.
-- [Doel](r-troubleshooting-target/troubleshooting-target.md) voor probleemoplossing: Verzekert verbindingen met het oplossen van problemeninformatie in deze gids, met inbegrip van informatie over de karaktergrenzen en andere grenzen (aanbieding grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Target].
+- [Doel](r-troubleshooting-target/troubleshooting-target.md) voor probleemoplossing: Verzekert verbindingen met het oplossen van problemeninformatie in deze gids, met inbegrip van informatie over de karaktergrenzen en andere grenzen (aanbiedingsgrootte, publiek, profielen, waarden, parameters, etc.) die activiteiten en andere elementen in  [!DNL Target]. beïnvloeden.
 - [Doel voor mobiele apps](c-target-mobile-app/target-mobile-app.md): Verklaart hoe  [!DNL Target] kan voor mobiele app optimalisering en verpersoonlijking worden gebruikt.
-- [Bronnen en contactgegevens](cmp-resources-and-contact-information.md): Verstrekt informatie over extra middelen om u te helpen over  [!DNL Target] eigenschappen leren en hoe te om met elkaar in contact te komen  [!DNL Adobe] als u hulp nodig hebt.
+- [Bronnen en contactgegevens](cmp-resources-and-contact-information.md): Verstrekt informatie over meer middelen om u te helpen over  [!DNL Target] eigenschappen leren en hoe te om met elkaar in contact te komen  [!DNL Adobe] als u hulp nodig hebt.
 
 ## Marketers {#marketers}
 
 - [Activiteiten](c-activities/activities.md): Verklaart hoe te opstelling, beheer, en  [!DNL Target] activiteiten QA.
-- [Soorten publiek](c-target/target.md): Verklaart hoe te om te bepalen wie inhoud en ervaringen in gerichte activiteiten zal zien.
+- [Soorten publiek](c-target/target.md): Verklaart hoe te om te bepalen wie inhoud en ervaringen in gerichte activiteiten ziet.
 - [Ervaringen en aanbiedingen](c-experiences/experiences.md): Verklaart hoe te om te specificeren welke inhoud toont wanneer een bezoeker aan de publiekscriteria voor een activiteit voldoet.
 - [Recommendations](c-recommendations/recommendations.md): Verklaart hoe de  [!DNL Recommendations] activiteiten automatisch producten of inhoud tonen die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren.
 
@@ -71,7 +71,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 ## Analyses {#analysts}
 
-- [Soorten publiek](c-target/target.md): Verklaart hoe te om te bepalen wie inhoud en ervaringen in gerichte activiteiten zal zien.
+- [Soorten publiek](c-target/target.md): Verklaart hoe te om te bepalen wie inhoud en ervaringen in gerichte activiteiten ziet.
 - [Rapporten](c-reports/reports.md): Verklaart hoe te om de prestaties van uw activiteiten te interpreteren.
 
 ## QA-engineers {#qa}
