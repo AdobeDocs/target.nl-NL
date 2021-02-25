@@ -3,53 +3,53 @@ keywords: Target Standard;Recommendations;Target Premium;Automated Personalizati
 description: Leer de basisbeginselen van Adobe Target Standard en Adobe Target Premium. Target Premium bevat geavanceerde functies die niet beschikbaar zijn in het standaardproduct.
 landing-page-description: Pas de ervaring van uw klanten aan om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 title: Wat is het doel?
-feature: Overview
+feature: Overzicht
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Inleiding aan Doel{#introduction-to-target}
+# Inleiding tot doel
 
-[!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen om uw omzet op uw website en mobiele sites, apps, sociale media en andere digitale kanalen te maximaliseren.
+[!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaringen van uw klanten op maat te maken en aan te passen. [!DNL Target] helpt u uw omzet te maximaliseren op uw web en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-De [!DNL Adobe Target] oplossing bevat verscheidene componenten:
+De [!DNL Adobe Target] oplossing kan als [!DNL Target Standard] of [!DNL Target Premium] in licentie worden gegeven.
 
 ## Doelstandaard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] is een front-end aan  [!DNL Adobe Target] die u helpt om tests A/B en op regels-gebaseerde het richten activiteiten visueel tot stand te brengen en te beheren, en met Adobe Experience Cloud te verbinden. [!DNL Target Standard] ondersteunt aangepaste code-invoeging zowel in als uit de  [!UICONTROL Visual Experience Composer] workflow. [!DNL Target Standard] biedt een vereenvoudigde implementatiestrategie met uw digitale eigenschappen: slechts één enkele lijn van code op elke pagina beheert alle communicatie vereiste tussen uw plaats en  [!DNL Adobe Target].
+[!DNL Target Standard] is het voorste eind aan  [!DNL Adobe Target] dat u visueel helpt A/B tests en op regel-gebaseerde het richten activiteiten tot stand brengen en leiden. [!DNL Target Standard] ondersteunt aangepaste code-invoeging in en uit de  [!UICONTROL Visual Experience Composer] (VEC)-workflow. [!DNL Target Standard] biedt een vereenvoudigde implementatiestrategie met uw digitale eigenschappen. Eén coderegel op elke pagina beheert alle vereiste communicatie tussen uw site en [!DNL Target].
 
-De beste praktijken van de industrie worden ingebouwd in [!DNL Target Standard], en het wordt ontworpen om door zowel nieuwe als ervaren gebruikers te worden gebruikt. U kunt gegevens en resultaten delen en gemakkelijk met andere teamleden samenwerken die [!DNL Adobe Experience Cloud] gebruiken.
+De beste praktijken van de industrie worden ingebouwd in [!DNL Target Standard]. [!DNL Target Standard] is ontworpen voor zowel nieuwe als ervaren gebruikers. U kunt gegevens en resultaten delen en gemakkelijk met andere teamleden samenwerken die [!DNL Adobe Experience Cloud] gebruiken.
 
 ## Doelpremie {#premium}
 
-[!DNL Target Premium] is een geavanceerde  [!DNL Target] licentie die premiumfuncties toevoegt  [!DNL Target Standard].
+[!DNL Target Premium] is een geavanceerd  [!DNL Target] aanbod waarvoor een licentie vereist is om premiumfuncties toe te voegen  [!DNL Target Standard].
 
-[!DNL Target Premium] In deze Help vindt u onder andere de Premium-badge boven aan de pagina:
+Alle [!DNL Target Premium] artikelen in deze handleiding bevatten het Premium-badge boven aan elke pagina:
 
 ![Premium badge](/help/assets/premium.png)
 
-Target Premium bevat de volgende premiefuncties:
+Target Premium bevat de volgende functies:
 
 ### Automated Personalization
 
-[Geautomatiseerde ](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) personalisatie biedt geavanceerde computerleeralgoritmen om persoonlijke ervaringen en verbeterde conversiesnelheden voor digitale ervaringen te stimuleren.
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) biedt geavanceerde computerleeralgoritmen om persoonlijke ervaringen en verbeterde conversiesnelheden voor digitale ervaringen te stimuleren.
 
-Bij geautomatiseerde personalisatie (voorheen Test&amp;Target 1:1) worden bezoekersactiviteiten op de site vastgelegd en wordt een profiel van bezoekers gemaakt, zodat inhoud voor vergelijkbare bezoekers kan worden gebruikt. Het volgt reacties op inhoud, zowel voor individuen als voor de bevolking als geheel, dan gebruikt verfijnde modelleringsbenaderingen om elk individu automatisch te richten door alles te verantwoorden die over die bezoeker gekend is.
+[!UICONTROL Automated Personalization] registreert de bezoekersactiviteit op de site en bouwt een profiel van bezoekers zodat de inhoud voor vergelijkbare bezoekers kan worden bestemd. AP volgt reacties op inhoud, zowel voor individuen als voor de bevolking als geheel. AP gebruikt dan verfijnde modelleringsbenaderingen om elk individu automatisch te richten. AP beschouwt alles dat over elke bezoeker bekend is.
 
-Automatische personalisatie leert alleen en vereist een minimale menselijke analyse. Volledig geautomatiseerd, leert het voortdurend. Het systeem bouwt modellen en leert automatisch welke producten een individuele bezoeker het meest waarschijnlijk in geinteresseerd zal zijn. Telkens wanneer een bezoeker met de site communiceert, wordt informatie verzameld en in het bezoekersprofiel opgeslagen. Er zijn meerdere algoritmen beschikbaar om het beste model voor uw systeem te bieden.
+[!UICONTROL Automated Personalization] leert alleen en vereist een minimale menselijke analyse. Volledig geautomatiseerd leert AP voortdurend. Het systeem bouwt modellen en leert automatisch welke producten een individuele bezoeker het meest waarschijnlijk in geinteresseerd zal zijn. Telkens wanneer een bezoeker met de site communiceert, wordt informatie verzameld en in het profiel van die bezoeker opgeslagen. Er zijn meerdere algoritmen beschikbaar om het beste model voor uw systeem te bieden.
 
 ### Automatisch doel
 
-[Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md) Targetuses geavanceerde machine leren om veelvoudige high-performance marketer-bepaalde ervaringen te identificeren, en dient de meest op maat gemaakte ervaring aan elke bezoeker op basis van hun individueel klantenprofiel en het gedrag van vorige bezoekers met gelijkaardige profielen, om inhoud en aandrijvingsomzettingen te personaliseren.
+[Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md) Targetuses geavanceerde machine leren om veelvoudige high-performance marketer-bepaalde ervaringen te identificeren. [!UICONTROL Auto-Target] dan dient elke bezoeker de meest toegesneden ervaring. De levering is gebaseerd op individuele klantenprofielen en het gedrag van vorige bezoekers met gelijkaardige profielen. [!UICONTROL Auto-Target] helpt inhoud en aandrijvingsomzettingen aan te passen.
 
 ### Recommendations
 
-[De activiteiten van ](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) Aanbevelingen tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit wordt gebaseerd. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
+[De activiteiten van ](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) Aanbevelingen tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit wordt gebaseerd. [!UICONTROL Recommendations] helpen klanten te leiden naar relevante items waarvan zij anders wellicht niet op de hoogte zijn.
 
 Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activiteiten van die klant op de plaats wordt voorgesteld. Bijvoorbeeld:
 
@@ -67,18 +67,18 @@ Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activi
 
 ### Recommendations als voorstel
 
-[Met Recommendations als ](/help/c-recommendations/recommendations-as-an-offer.md) aanbod kunt u aanbevelingen opnemen in  [!UICONTROL A/B Test] (inclusief  [!UICONTROL Auto-Allocate] en  [!UICONTROL Auto-Target]) en  [!UICONTROL Experience Targeting] (XT) activiteiten.
+[Met Recommendations als ](/help/c-recommendations/recommendations-as-an-offer.md) aanbod kunt u aanbevelingen opnemen binnen  [!UICONTROL A/B Test],  [!UICONTROL Auto-Allocate],  [!UICONTROL Auto-Target] en  [!UICONTROL Experience Targeting] (XT) activiteiten.
 
 Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 * Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.
 * Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.
 * Druk automatisch het verkeer naar de best-presterende aanbevelingen ervaring gebruikend [!UICONTROL Auto-Allocate].
-* Wijs bezoekers dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun profiel met [!UICONTROL Auto-Target].
+* Wijs bezoekers met behulp van [!UICONTROL Auto-Target] dynamisch toe aan op maat gemaakte aanbevelingen op basis van individuele profielen.
 
 ### Machtigingen voor zakelijke gebruikers
 
-[Met de functionaliteit ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Machtigingen voor gebruikers van een onderneming kunt u verschillende projecten maken (zogenaamde &quot;Productprofielen&quot; in de  [!DNL Adobe Admin Console for Enterprise]lijst), zodat u verschillende machtigingen kunt toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project bepaalt. Deze verschillende projecten kunnen worden vergeleken met de manier dat de rapportreeksen in [!DNL Adobe Analytics] werken. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten toegang tot hun gebruikers kunnen beperken, bewerken, goedkeuren en publiceren op basis van regio, omgeving (dvd/stage/prod), kanaal of andere aangepaste criteria.
+[Met de ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) functie voor Enterprise-gebruikersrechten kunt u verschillende projecten maken (in het  [!DNL Adobe Admin Console for Enterprise]venster &#39;Productprofielen&#39; genoemd). [!UICONTROL Enterprise User Permissions] laat u verschillende toestemmingen voor één enkele gebruiker toewijzen die de toegangsrechten van die gebruiker voor elk project dicteren. Deze verschillende projecten kunnen worden vergeleken met de manier dat de rapportreeksen in [!DNL Adobe Analytics] werken. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave kunnen beperken, de toegang tot hun gebruikers kunnen bewerken, goedkeuren en publiceren. U kunt gebruikers beperken op basis van regio-, omgeving- (dvd/stage/prod), kanaal- of andere aangepaste criteria.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -92,15 +92,15 @@ Raadpleeg de [Klassieke documentatie van Recommendations](/help/assets/adobe-rec
 
 ## Experience League: De Adobe Target-welkomstkit {#kit}
 
-Bouw uw optimalisatie- en personalisatieprogramma op Adobe Target met deze welkomstkit! Het omvat belangrijke informatie, hulpmiddelen, en middelen om u te helpen zich voor te bereiden op en uw eerste [!DNL Adobe Target] activiteit te lanceren, met korte termijn snelle wins en langetermijnoptimaliseringsstrategieën.
+Bouw uw optimalisatie en verpersoonlijkingsprogramma op [!DNL Adobe Target] met deze Welkome Kit. De welkomstkit bevat belangrijke informatie, gereedschappen en bronnen waarmee u uw eerste [!DNL Target]-activiteit kunt voorbereiden en starten. De kit bevat ideeën voor snelle wins op korte termijn en optimalisatiestrategieën op lange termijn.
 
 [De Adobe Target-welkomstkit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## Trainingsvideo: Activiteitstypen (9:03) ![Overzichtsbadge](/help/assets/overview.png)
 
-In de volgende video wordt uitgelegd welke soorten activiteiten beschikbaar zijn in [!DNL Target Standard/Premium] en hoe de driestappenworkflow met instructies van Target u kan helpen uw sitedoelen te bereiken.
+In de volgende video wordt uitgelegd welke soorten activiteiten beschikbaar zijn in [!DNL Target Standard/Premium] en hoe u uw sitedoelen kunt bereiken met de driestappenworkflow met instructies.[!DNL Target]
 
-* Beschrijf de soorten activiteiten die in Adobe Target zijn opgenomen
+* Beschrijf de soorten activiteiten inbegrepen in [!DNL Adobe Target]
 * Selecteer het juiste type activiteit om uw doelen te bereiken
 * Beschrijf de driestappenworkflow met instructies die van toepassing is op alle typen activiteiten
 
