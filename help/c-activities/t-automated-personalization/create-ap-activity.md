@@ -4,15 +4,15 @@ description: Leer hoe te om een activiteit van Automated Personalization (AP) in
 title: Hoe maak ik een Automated Personalization-activiteit?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
 
 
-# ![automated personalization-activiteit ](/help/assets/premium.png) PREMIUMCreproduceren
+# ![Automated Personalization-activiteiten ](/help/assets/premium.png) PREMIUMCreproduceren
 
 De [!UICONTROL Automated Personalization] (AP) activiteitenwerkstroom in [!DNL Adobe Target] varieert van het werkschema van de andere activiteitstypen.
 
@@ -48,18 +48,14 @@ De [!UICONTROL Automated Personalization] (AP) activiteitenwerkstroom in [!DNL A
 
    ![Naamveld](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   De volgende tekens zijn niet toegestaan in een naam van een activiteit:
+   De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
    | Teken | Beschrijving |
    |--- |--- |
-   | / | slash |
-   | ? | Vraagteken |
-   | Aantal | Nummerteken |
-   | : | Colon |
-   | = | Gelijk aan |
-   | + | Plus |
-   | - | Min |
-   | @ | Bij ondertekenen |
+   | `=` | Gelijk aan |
+   | `+` | Plus |
+   | `-` | Min |
+   | `@` | Bij ondertekenen |
 
 1. Wijzig pagina-elementen zoals uitgelegd in [Opties van de Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
