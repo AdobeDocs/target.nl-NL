@@ -2,11 +2,11 @@
 keywords: mvt;multivariate test;multivariate test creeert;multivariate test creeert;mvt creeert;mvt creeert;mvt hoe;multivariate test hoe
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om een Multivariate Test (MVT) recht op een Doel-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een multivariate test?
-feature: Multivariate Tests
+feature: Meervoudige tests
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -56,18 +56,14 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
 
    ![Veld voor naam van activiteit](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   De volgende tekens zijn niet toegestaan in een naam van een activiteit:
+   De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
    | Teken | Beschrijving |
    |--- |--- |
-   | / | slash |
-   | ? | Vraagteken |
-   | Aantal | Nummerteken |
-   | : | Colon |
-   | = | Gelijk aan |
-   | + | Plus |
-   | - | Min |
-   | @ | Bij ondertekenen |
+   | `=` | Gelijk aan |
+   | `+` | Plus |
+   | `-` | Min |
+   | `@` | Bij ondertekenen |
 
 1. [Maak de voorstellen op elke locatie](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
