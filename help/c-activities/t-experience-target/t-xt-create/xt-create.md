@@ -2,17 +2,17 @@
 keywords: Experience Targeting;xt;create
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om een Ervaring te creëren richtend (XT) activiteit op een doel-Toegelaten pagina.
 title: Hoe maak ik een ervaring die gericht is op activiteiten?
-feature: Experience Targeting
+feature: Gericht op ervaring
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 
-# Maak een ervaring die gericht is op activiteit{#create-an-experience-targeting-activity}
+# Een belevenis maken die gericht is op activiteit
 
 Gebruik [!UICONTROL Visual Experience Composer] (VEC) om een [!UICONTROL Experience Targeting] (XT) activiteit op een doel-toegelaten pagina tot stand te brengen en om gedeelten van de pagina binnen [!DNL Adobe Target] te wijzigen.
 
@@ -62,14 +62,10 @@ Zie [Experience Targeting](/help/c-activities/t-experience-target/experience-tar
 
    ![Naamveld](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   De volgende tekens zijn niet toegestaan in een naam van een activiteit:
+   De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
    | Teken | Beschrijving |
    |--- |--- |
-   | `/` | slash |
-   | `?` | Vraagteken |
-   | `#` | Nummerteken |
-   | `:` | Colon |
    | `=` | Gelijk aan |
    | `+` | Plus |
    | `-` | Min |
@@ -79,4 +75,4 @@ Zie [Experience Targeting](/help/c-activities/t-experience-target/experience-tar
 
    Zie [Ervaring toevoegen](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) voor stapsgewijze instructies.
 
-1. Geef de [doelen en instellingen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) op voor de activiteit.
+1. Geef de [doelen en instellingen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) voor de activiteit op.
