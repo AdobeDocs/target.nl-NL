@@ -1,12 +1,12 @@
 ---
-keywords: Automatisch doel maken;A/B-test;automatisch doelactiviteit;nieuwe a/b-activiteit;automatisch doel;automatisch doel voor persoonlijke ervaringen;gepersonaliseerd
+keywords: Automatisch doel maken;A/B-test;automatisch doelactiviteit;nieuwe a/b-activiteit;automatisch doel;automatisch doel voor persoonlijke ervaringen;gepersonaliseerd;optimalisatie
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om uw auto-Doel A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een automatisch doelgerichte activiteit?
-feature: Auto-Target
+feature: Automatisch doel
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -64,14 +64,10 @@ Een [!UICONTROL Auto-Target]-activiteit maken:
 
    ![Naamveld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   De volgende tekens zijn niet toegestaan in een naam van een activiteit:
+   De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
    | Teken | Beschrijving |
    |--- |--- |
-   | `/` | slash |
-   | `?` | Vraagteken |
-   | `#` | Nummerteken |
-   | `:` | Colon |
    | `=` | Gelijk aan |
    | `+` | Plus |
    | `-` | Min |
@@ -118,7 +114,7 @@ Een [!UICONTROL Auto-Target]-activiteit maken:
 
 1. Wanneer u met uw publiek, ervaringskeuzen, en de keuzen van de verkeerstoewijzing tevreden bent, klik **[!UICONTROL Next]** om naar de derde stap van de drie-stap geleide werkschema te bewegen.
 
-1. Geef de [doelen en instellingen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) op voor de activiteit.
+1. Geef de [doelen en instellingen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) voor de activiteit op.
 
    ![A/B Activiteitsinstellingen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
