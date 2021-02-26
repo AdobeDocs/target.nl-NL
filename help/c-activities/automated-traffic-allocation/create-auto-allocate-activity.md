@@ -2,11 +2,11 @@
 keywords: automatisch toewijzen maken;A/B-test;automatisch toewijzen van activiteit;nieuwe a/b-activiteit;automatisch toewijzen;automatisch toewijzen aan beste ervaring;toewijzen;automatisch toewijzen
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om een auto-Wijs A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een automatisch toegewezen activiteit?
-feature: Auto-Allocate
+feature: Automatisch toewijzen
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,10 @@ Een [!UICONTROL Auto-Allocate]-activiteit maken:
 
    ![Naamveld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   De volgende tekens zijn niet toegestaan in een naam van een activiteit:
+   De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
    | Teken | Beschrijving |
    |--- |--- |
-   | `/` | slash |
-   | `?` | Vraagteken |
-   | `#` | Nummerteken |
-   | `:` | Colon |
    | `=` | Gelijk aan |
    | `+` | Plus |
    | `-` | Min |
@@ -116,7 +112,7 @@ Een [!UICONTROL Auto-Allocate]-activiteit maken:
 
 1. Wanneer u met uw publiek, ervaringskeuzen, en de keuzen van de verkeerstoewijzing tevreden bent, klik **[!UICONTROL Next]** om naar de derde stap van de drie-stap geleide werkschema te bewegen.
 
-1. Geef de [doelen en instellingen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) op voor de activiteit.
+1. Geef de [doelen en instellingen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) voor de activiteit op.
 
    ![A/B Activiteitsinstellingen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
