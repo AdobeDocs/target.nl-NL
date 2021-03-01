@@ -3,12 +3,12 @@ keywords: implementeren;uitvoeren
 description: Begrijp basisconcepten, ben vertrouwd met hoe het Doel werkt en met uw infrastructuur integreert, en begrijp hoe de bezoekers worden gevolgd.
 landing-page-description: Voordat u Adobe Target gaat gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen en vertrouwd zijn met de werking van Target.
 title: Hoe kan ik het doel implementeren?
-feature: Implementation
-role: Developer
+feature: Implementatie
+role: Ontwikkelaar
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
