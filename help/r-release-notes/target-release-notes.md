@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 17 februari 2021**
+**Laatst bijgewerkt: 1 maart 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -32,7 +32,7 @@ Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen
 
 De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
-* De toegestane aanbiedingsgrootte is verhoogd:
+* De toegestane aanbiedingsgrootte is vergroot (TGT-38304):
 
    | Type | Vorige limiet | Nieuwe limiet |
    | --- | --- | --- |
@@ -40,9 +40,11 @@ De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
    | Visuele aanbiedingen van het Doel UI | 64 kB | 1024 kB voor elke ervaring |
    | Via API | 512 kB | 1024 kB |
 
+* [!UICONTROL Personalization Insights] Er worden nu dagelijks rapporten voor  [!UICONTROL Auto-Target] (AT)- en  [!UICONTROL Automated Personalization] (AP)-activiteiten opgesteld. U kunt een rapport kiezen dat [!UICONTROL Automated Segments] of [!UICONTROL Important Attributes] voor de laatste 15, 30, en 60 dagen verstrekt. De opties voor 45 en 90 dagen zijn verwijderd om de andere instellingen voor terugzoekvensters dagelijks uit te voeren. (TGT-39472)
 * Probleem verholpen waarbij de huidige afhankelijkheid niet werd weergegeven wanneer klanten [!UICONTROL Edit Dependency] op de pagina [!UICONTROL Goals & Settings] van een activiteit klikken. (TGT-39340)
 * Probleem verholpen bij het vernieuwen van de [!UICONTROL Audience Library] van een werkruimte. Vóór verfrist zich, toont het publiek voor de momenteel geselecteerde werkruimte. Na verfrissen, [!UICONTROL Default Workspace] en zijn publiek getoond. De huidige werkruimte en het publiek blijven nu behouden na het vernieuwen. (TGT-38871)
 * Probleem verholpen bij het kopiëren van een [!UICONTROL Recommendations]-activiteit en later het bewerken van de oorspronkelijke activiteit door de volgorde van criteria te wijzigen. De wijziging in de volgorde van criteria in de oorspronkelijke activiteit werd ook onjuist toegepast op de gekopieerde activiteit. (TGT-39155)
+* Probleem verholpen waarbij het onjuiste aantal producten voor uitsluitingen [!UICONTROL Recommendations] werd weergegeven. (TGT-39599)
 
 ## Voorlopige-releasegegevens {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
