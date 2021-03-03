@@ -2,11 +2,11 @@
 keywords: faq;vaak gestelde vragen;analyse voor doel;a4T;activiteitsinstelling
 description: Vind antwoorden op vragen over activiteitenopstelling wanneer het gebruiken van Analytics voor Doel (A4T). A4T laat u Analytics rapportering voor de activiteiten van het Doel gebruiken.
 title: Waar kan ik Veelgestelde vragen over activiteitenmontages met A4T vinden?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling wo
 
 Voor een volledige lijst, zie &quot;Gesteunde Types van Activiteit&quot;in [Adobe Analytics als Rapporterende Bron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
-## Waarom heb ik tijdens het configureren van mijn Goal Metics geen toegang tot Geavanceerde instellingen?
+## Waarom heb ik tijdens het configureren van mijn Goal Metrics geen toegang tot Geavanceerde instellingen?
 
-Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T) gebruiken, zal doel metrisch altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit is *niet* configureerbaar.
+Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T) gebruiken, het doel metrisch gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze instellingen kunnen *niet* worden geconfigureerd.
 
-Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetica, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [Metrische definities - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [Metrische definities - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Ik heb net een activiteit gecreëerd. Waarom zie ik geen gegevens binnenkomen? {#section_9F8092BE4225442896F926540292F221}
 
-Wanneer een activiteit wordt gecreeerd, [!DNL Target] verzendt een classificatiedossier naar [!DNL Analytics]. Hoewel [!DNL Analytics] de gegevens vastlegt en verwerkt, wordt deze pas in de rapporten weergegeven als het classificatiebestand is bijgewerkt. Dit kan tot 24 uur duren. Als u na 48 uur uw gegevens niet ziet, gelieve [de Zorg van de Cliënt ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) te contacteren. Als u weet dat u een activiteit start, kunt u de activiteit een paar dagen van tevoren maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics].
+Wanneer een activiteit wordt gecreeerd, [!DNL Target] verzendt een classificatiedossier naar [!DNL Analytics]. Hoewel [!DNL Analytics] de gegevens vastlegt en verwerkt, toont het niet dat in de rapporten tot het classificatiedossier is bijgewerkt. Dit proces kan tot 24 uur duren. Als u na 48 uur uw gegevens niet ziet, gelieve [de Zorg van de Cliënt ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) te contacteren. Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties verzenden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics].
 
-## Waarom kan ik Analytics niet selecteren als mijn rapporteringsbron wanneer ik een nieuwe activiteit creeer? {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## Waarom kan ik Analytics niet als mijn rapporteringsbron selecteren wanneer ik een activiteit creeer? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 U kunt uw [!UICONTROL Reporting Settings] opties in [!UICONTROL Administration] veranderen.
 
@@ -49,7 +49,7 @@ Het volgende is waar veronderstellend bezoekerId verandert niet voor een bezoeke
 
 Als het percentage voor de verkeerstoewijzing halverwege de activiteit wordt aangepast, is het mogelijk dat een bezoeker kan schakelen tussen doelgerichte en controleervaringen.
 
-Als de percentages niet worden aangepast halverwege de activiteit, zal een bezoeker die aanvankelijk de controle ziet altijd naar controle worden verzonden. Een bezoeker die naar gerichte ervaringen wordt verzonden zal altijd naar gerichte ervaringen worden verzonden.
+Als de percentages niet worden aangepast halverwege de activiteit, wordt een bezoeker die aanvankelijk de controle ziet altijd verzonden naar controle. Een bezoeker die naar gerichte ervaringen wordt verzonden wordt altijd naar gerichte ervaringen verzonden.
 
 * Nadat de bezoeker zich in de beoogde &quot;emmer&quot; van het verkeer bevindt, kan hij naar een andere ervaring worden gestuurd dan een bezoek om te bezoeken als de modellen voor machinaal leren bepalen dat een andere ervaring relevant is voor het nieuwe bezoek.
 * Nadat hij aan de controle &quot;emmer&quot;van verkeer wordt toegewezen, zal een bezoeker altijd de zelfde ervaring zien omdat de ervaringstaak op een deterministische pseudo-willekeurige hash van bezoekers bezoekerId gebaseerd is.
