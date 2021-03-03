@@ -2,11 +2,11 @@
 keywords: analytische traceringsserver;A4T;analytische segmenten;rapportsuites;onjuiste gegevens;zwevend;sdid;VisitorAPI.js;mboxMCSDID;phantom;niet opgegeven
 description: Ontdek de algemene problemen die klanten hebben ondervonden bij het gebruik van Analytics voor Target (A4T).
 title: Hoe los ik de Analytics en de Integratie van het Doel (A4T) problemen op
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Los de Analytics en integratie van het Doel (A4T) problemen op
 
-Dit onderwerp behandelt sommige gemeenschappelijke kwesties die zijn ontmoet wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T).
+Dit onderwerp behandelt enkele gemeenschappelijke kwesties die zijn ontmoet wanneer het gebruiken van [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Adobe Target] (A4T).
 
 ## Activiteiten tonen geen gegevens in Analytics, maar worden in plaats daarvan vermeld als &quot;unspecified&quot;. {#unspecified}
 
-Er zijn verschillende redenen waarom dit zou kunnen gebeuren:
+Er zijn verschillende redenen waarom gegevens &#39;unspecified&#39; kunnen voorkomen:
 
 * Classificatie in [!DNL Target] is niet volledig verwerkt.
 
-   De classificatie duurt over het algemeen tussen 24 en 72 uur om rapporten na eerste sparen te classificeren.
+   De classificatie duurt over het algemeen van 24 tot 72 uur om rapporten na eerste sparen te classificeren.
 
 * De rapportsuite bevat geen gegevens, maar [!DNL Target] heeft geprobeerd hits te classificeren. [!DNL Target] kan geen gegevens classificeren tot de eerste treffer voorkomt.
 
@@ -32,21 +32,21 @@ Er zijn verschillende redenen waarom dit zou kunnen gebeuren:
 
    [Neem contact op met de ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) klantenservice voor hulp.
 
-Als u de rij &quot;unspecified&quot; door de dimensie &quot;Analytics for Target&quot; indeelt en deze geen activiteit-id bevat, betekent dit dat alles correct is geclassificeerd.  Als daar activiteit-id&#39;s worden vermeld, dient deze als indicatie voor een classificatieprobleem.
+Als u de rij &quot;unspecified&quot; onderverdeelt door de dimensie &quot;Analytics for Target&quot; en deze geen activiteit-id bevat, betekent dit dat alles correct is geclassificeerd. Als daar activiteit-id&#39;s worden vermeld, dient deze als indicatie voor een classificatieprobleem.
 
 >[!NOTE]
 >
->Soms worden gegevens correct weergegeven in rapporten, maar er wordt teruggegaan naar &quot;niet opgegeven&quot; omdat er een nieuwe activiteit is toegevoegd die de classificatie niet heeft voltooid. Houd er rekening mee dat het meestal 24 tot 72 uur duurt voordat rapporten worden geclassificeerd na de eerste keer opslaan.
+>Soms worden gegevens correct weergegeven in rapporten, maar er wordt teruggegaan naar &quot;unspecified&quot; omdat er een nieuwe activiteit is toegevoegd die de classificatie niet heeft voltooid. Vergeet niet dat het meestal 24 tot 72 uur duurt om rapporten te classificeren na de eerste keer opslaan.
 >
 >Er gaan geen gegevens verloren wanneer deze als &quot;niet opgegeven&quot; worden vermeld. De gegevens worden correct toegewezen aan de juiste activiteit of ervaring na de classificatieuitvoering.
 
-## A4T Activiteitenrapporten bevatten een rij met een groot aantal &quot;ongespecificeerde&quot; gebeurtenissen. {#added_unspecified_events}
+## A4T Activiteitenrapporten bevatten een rij met veel &quot;niet-opgegeven&quot; gebeurtenissen. {#added_unspecified_events}
 
 Er zou &quot;[!UICONTROL Unspecified]&quot;gebeurtenisrij kunnen zijn in uw rapport wordt getoond, afhankelijk van metrisch u gebruikt om uw gegevens met te tonen.
 
-Typisch, toont deze rij als u gemeenschappelijke metrisch in het rapport kiest die niet [!DNL Target]-specifiek is (bijvoorbeeld, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], enz.). In dit geval bevat de rij [!UICONTROL “Unspecified”] alle [!UICONTROL Page Views], [!UICONTROL Visits] en [!UICONTROL Unique Visitors] die niet aan [!DNL Target] activiteiten zijn gekoppeld.
+Typisch, toont deze rij als u gemeenschappelijke metrisch in het rapport kiest die niet [!DNL Target]-specifiek is (bijvoorbeeld, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], etc.). In dit geval bevat de rij [!UICONTROL “Unspecified”] alle [!UICONTROL Page Views], [!UICONTROL Visits] en [!UICONTROL Unique Visitors] die niet aan [!DNL Target] activiteiten zijn gekoppeld.
 
-Die rij bevat geen [!DNL Target]-gerelateerde informatie (zoals geen bezoekers, bezoeken of indrukken). Zie [&quot;Niet gespecificeerd&quot;, &quot;Geen&quot;, &quot;Anders&quot; en &quot;Onbekend&quot; in rapportage](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in de *Technische notities voor Analytics* voor meer informatie.
+Die rij bevat geen [!DNL Target]-gerelateerde informatie (zoals geen bezoekers, bezoeken of afdrukken). Zie [&quot;Niet gespecificeerd&quot;, &quot;Geen&quot;, &quot;Anders&quot; en &quot;Onbekend&quot; in rapportage](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in de *Technische notities voor Analytics* voor meer informatie.
 
 Als u [!DNL Target]-specifieke metrisch in het rapport kiest, dat [!UICONTROL “Unspecified”] rij niet toont. De enige manier om het hebben van het in het rapport geheel te vermijden is een [!DNL Target] vraag op elk verzoek te plaatsen dat van die pagina wordt verzonden, wat niet gemeenschappelijk of noodzakelijk is.
 
@@ -60,33 +60,33 @@ De details voor optillen en vertrouwen zijn niet beschikbaar in Analytics. Zij z
 
 ## Activiteiten worden niet weergegeven in analyserapporten. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. Zie [Een Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken om ervoor te zorgen dat de Analytics Tracking Server op de juiste wijze is ingesteld.
+A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. Zie [Een Analytics Tracking Server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) gebruiken om ervoor te zorgen dat de Analytics Tracking Server correct is ingesteld.
 
 >[!NOTE]
 >
->Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
+>U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
 
 ## Mijn segmenten Analytics verschijnen niet in Doel. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Zorg ervoor u de juiste toestemmingen hebt alvorens u begint te creëren A4T activiteiten:
 
-* U moet tot de groep van de Toegang van de Diensten van het Web in Adobe Analytics behoren om Analytics als rapporteringsbron voor Doel te kunnen gebruiken.
-* U moet lid zijn van een of meer Experience Cloud-groepen die toegang hebben tot Analytics en Target.
+* Behoort tot de groep van de Toegang van de Diensten van het Web in Adobe Analytics om Analytics als rapporteringsbron voor Doel te kunnen gebruiken
+* Lid zijn van één of meerdere groepen van Experience Cloud die toegang tot Analytics en Doel hebben.
 * Controleer of Analytics en Target worden weergegeven in de sectie Marketing Apps van de linkernavigatie.
 
 ## Stuittarieven, stuitingen en afsluitingsmetriek worden in rapporten als positief weergegeven. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
-Dit is een bekend probleem.
+Deze cijfers die als positieve elementen in rapporten verschijnen zijn een bekende kwestie.
 
 Hoewel deze metriek negatief zijn, wordt de lift getoond alsof zij in de rapporten van het Doel positief waren. Hoewel u bijvoorbeeld een lagere stuitsnelheid wilt, wordt de hogere stuitsnelheid weergegeven als de winnaar met de hoogste lift. Houd rekening met deze en vergelijkbare cijfers en geef aan of u het aantal wilt verlagen of verhogen wanneer u beslissingen neemt op basis van uw rapporten.
 
 ## De rapportsuite die ik nodig heb, wordt niet weergegeven. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-De lijst van rapportsuites die in [!DNL Target Standard/Premium] verschijnt is de lijst van rapportsuites die voor [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T) zijn gevormd. Dit betekent dat u niet elke rapportsuite ziet die u hebt.
+De lijst van rapportsuites die in [!DNL Target Standard/Premium] verschijnt is de lijst van rapportsuites die voor [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T) zijn gevormd. Mogelijk ziet u niet elk rapportenpakket dat u hebt.
 
-Bovendien, als u veelvoudige rapporteringsbronnen gebruikt, moeten de rapportreeksen in de standaard rapporteringsbron aanwezig zijn die in [!DNL Target] eveneens wordt geplaatst; anders worden de rapporten niet weergegeven .
+Als u veelvoudige rapporteringsbronnen gebruikt, moeten de rapportreeksen in de standaard rapporteringsbron aanwezig zijn die in [!DNL Target] eveneens wordt geplaatst. Als de rapportsuites niet in de standaard rapporteringsbron zijn, tonen de rapportseries niet.
 
-Als u nog steeds niet de rapportreeks ziet u zoekt, contacteer [Clientzorg](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om het toegelaten te krijgen.
+Als u nog steeds niet de rapportsuite ziet die u zoekt, neemt u contact op met [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om deze toepassing in te schakelen.
 
 ## Ik zie niet zoveel gegevens in rapporten als verwacht. {#section_75002584FA63456D8D9086172925DD8D}
 
