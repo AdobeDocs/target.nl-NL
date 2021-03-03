@@ -2,11 +2,11 @@
 keywords: faq;veelgestelde vragen;analyses voor doel;a4t;provisioning;provisioning;adobe Experience Cloud
 description: Vind antwoorden op vragen die vaak over leveringAnalytics voor Doel (A4T) worden gevraagd, wat u Analytics laat gebruiken rapporteert voor de activiteiten van het Doel.
 title: Waar kan ik informatie over A4T aanvankelijke levering vinden?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aanvankelijke levering - A4T Veelgestelde vragen{#initial-provisioning-a-t-faq}
 
-Dit onderwerp bevat antwoorden op vragen die vaak over leveringAnalytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
+Dit onderwerp bevat antwoorden op vragen die vaak over levering [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Adobe Target] (A4T) worden gevraagd.
 
 ## Hoe kan ik opstelling een multi-pagina A4T activiteit?
 
@@ -28,7 +28,7 @@ Een standaard A4T-use-case met meerdere pagina&#39;s implementeren:
 
 Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [Vereisten voor gebruikersmachtigingen](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Zodra u lid bent van één of meerdere groepen van Experience Cloud die toegang tot Analytics en Doel hebben en u toegang tot alle rapportreeksen hebt, zou u de optie moeten zien om een A/B test tot stand te brengen gebruikend Analytics onder **[!UICONTROL Create Activity]**.
+Nadat u lid bent van één of meerdere groepen van Experience Cloud die toegang tot Analytics en Doel hebben en u toegang tot alle rapportreeksen hebt, zou u de optie moeten zien om een A/B test tot stand te brengen gebruikend Analytics onder **[!UICONTROL Create Activity]**.
 
 Als zich inrichtingsproblemen voordoen, controleert u of A4T correct is ingericht.
 
@@ -36,13 +36,13 @@ Als zich inrichtingsproblemen voordoen, controleert u of A4T correct is ingerich
 
 Controleer het volgende als een van deze problemen optreedt:
 
-* Zorg ervoor dat uw Analytics- en Target-accounts zijn gekoppeld in de Experience Cloud.
-* Als u veelvoudige het bedrijflogins van Analytics in het zelfde bedrijf van Experience Cloud gebruikt, zorg ervoor dat het laatste bedrijf van Analytics u het programma opent is die aan de rekening van het Doel voor de integratie gebonden is.
+* Controleer of uw Analytics- en Target-accounts zijn gekoppeld in de Experience Cloud.
+* Sommige klanten gebruiken veelvoudige het bedrijflogins van Analytics in het zelfde bedrijf van Experience Cloud. Als u veelvoudige logins gebruikt, zorg ervoor dat het laatste bedrijf van Analytics u aan het programma hebt geopend dat aan de rekening van het Doel voor de integratie gebonden is.
 * Als u zich enkele uren hebt aangemeld bij de Experience Cloud, kan de sessie Analytics soms verlopen. Meld u af en meld u weer aan om het opnieuw te proberen.
 
 ## Waarom zie ik geen opties voor Analytics in Doel? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-Zie &quot;Waarom laden mijn rapportsuites niet?&quot; hierboven. De oorzaak van dit probleem is hetzelfde.
+Zie &quot;Waarom laden mijn rapportsuites niet?&quot; Boven. De oorzaak van dit probleem is hetzelfde.
 
 ## Waarom zie ik geen A4T rapporten in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
