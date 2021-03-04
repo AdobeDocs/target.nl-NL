@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analyse als bron voor rapportage voor Target
 description: Leer hoe u een activiteit configureert in Adobe Target die Adobe Analytics als rapportagebron (A4T) gebruikt.
 title: Hoe maak ik een activiteit die A4T gebruikt?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Maak een activiteit die Analytics als rapportbron gebruikt
 
-U kunt een activiteit in [!DNL Target] vormen om [!DNL Adobe Analytics] als rapporteringsbron (A4T) te gebruiken.
+U kunt een activiteit in [!DNL Adobe Target] vormen om [!DNL Adobe Analytics] als rapporteringsbron (A4T) te gebruiken.
 
-Voordat u een activiteit instelt die [!DNL Analytics] als rapportagebron gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de activiteit. Hoewel u extra metriek op elk ogenblik in [!DNL Analytics] kunt selecteren, moet u nog bepaalde metrisch specificeren u deze test om verwacht te beïnvloeden.
+Voordat u een activiteit instelt die [!DNL Analytics] als rapportagebron gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de activiteit. Hoewel u meer metriek op elk ogenblik in [!DNL Analytics] kunt selecteren, moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
 
 ## De activiteit maken
 
@@ -41,12 +41,12 @@ Het maken van een [!DNL Target] activiteit die [!DNL Analytics] als rapportbron 
 
    * Er is een fout opgetreden omdat er geen rapportsuites beschikbaar zijn, maar uw account is juist ingesteld.
 
-      Mogelijk moet u uw [!DNL Analytics] bedrijf controleren. Als uw [!DNL Adobe Experience Cloud]-account aan meerdere [!DNL Analytics]-bedrijven is gekoppeld, meldt u zich af bij [!DNL Target] en meldt u zich aan bij [!DNL Analytics] onder het juiste bedrijf. Keer dan aan [!DNL Target] terug, en de rapportreeksen zullen laden.
+      Controleer uw [!DNL Analytics] bedrijf. Als uw [!DNL Adobe Experience Cloud]-account aan meerdere [!DNL Analytics]-bedrijven is gekoppeld, meldt u zich af bij [!DNL Target] en meldt u zich aan bij [!DNL Analytics] onder het juiste bedrijf. Keer dan aan [!DNL Target] terug, en de rapportreeksen laden.
 
    * Je ziet de rapportsuite die je verwacht niet.
 
-      Alleen rapportsuites die zijn ingericht om verbinding te maken met [!DNL Target] zijn beschikbaar voor selectie. Als u de rapportsuite(s) die u verwacht niet ziet, probeert u zich eerst af te melden en zich weer aan te melden bij [!DNL Adobe Experience Cloud] om het opnieuw te proberen.
-   Als de rapportsuite(s) nog steeds ontbreekt in de lijst, neemt u [contact op met de klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+      Alleen rapportsuites die zijn ingericht om verbinding te maken met [!DNL Target] zijn beschikbaar voor selectie. Als u niet de rapportsuites ziet die u verwacht, probeer eerst het programma openen en het programma openen aan [!DNL Adobe Experience Cloud] om opnieuw te proberen.
+   Als één of meerdere rapportreeksen nog van de lijst ontbreken, gelieve [de Zorg van de Klant ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) te contacteren.
 
 1. Geef de trackingserver op.
 
@@ -59,7 +59,7 @@ Het maken van een [!DNL Target] activiteit die [!DNL Analytics] als rapportbron 
 
    >[!NOTE]
    >
-   >U kunt een aangepaste op doel gebaseerde metrische waarde naar [!DNL Analytics] verzenden in plaats van alleen op [!DNL Analytics]-gegevens te vertrouwen. U kunt bijvoorbeeld controleren of er op een pagina wordt geklikt, wat gewoonlijk niet wordt bijgehouden door [!DNL Analytics]. Deze aangepaste metrische waarde wordt automatisch verzonden naar [!DNL Analytics] van de [!DNL Target] server, en verschijnt als &quot;[!DNL Target] Omzetting&quot;metrische metriek in [!DNL Analytics]. De omrekeningsnorm [!DNL Target] is leeg als u verkiest om [!DNL Analytics] metriek te gebruiken.
+   >U kunt een aangepaste op doel gebaseerde metrische waarde naar [!DNL Analytics] verzenden in plaats van alleen op [!DNL Analytics]-gegevens te vertrouwen. U kunt bijvoorbeeld controleren of u op een pagina klikt. Dit wordt gewoonlijk niet gevolgd door [!DNL Analytics]. Deze aangepaste metrische waarde wordt automatisch verzonden naar [!DNL Analytics] van de [!DNL Target] server, en verschijnt als &quot;[!DNL Target] Omzetting&quot;metrische metriek in [!DNL Analytics]. De omrekeningsnorm [!DNL Target] is leeg als u verkiest om [!DNL Analytics] metriek te gebruiken.
 
    Het plaatsen van een doel betekent niet u kunt geen andere metrisch gebruiken wanneer het evalueren van testresultaten. Het doel is echter een herinnering aan één ding dat u met de activiteit wilt verbeteren.
 
