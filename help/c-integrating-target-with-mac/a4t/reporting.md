@@ -2,11 +2,11 @@
 keywords: analytische gegevens voor doel;a4t;analytische gegevens als bron van de rapportage
 description: Leer hoe u Analytics for Target (A4T) gebruikt. A4T verleent toegang tot de rapporten van Analytics voor de activiteiten van het Doel die de metriek van de Analyse en publiekssegmenten gebruiken.
 title: Hoe gebruik ik Rapportering in A4T?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # A4T-rapportage{#a-t-reporting}
 
-Als u [!DNL Analytics] als rapportagebron voor [!DNL Target] (A4T) gebruikt, hebt u toegang tot [!DNL Analytics]-rapporten voor uw [!DNL Target]-activiteiten.
+Als u [!DNL Adobe Analytics] als rapportagebron voor [!DNL Adobe Target] (A4T) gebruikt, hebt u toegang tot [!DNL Analytics]-rapporten voor uw [!DNL Target]-activiteiten.
 
 U kunt rapporten voor uw activiteiten in zowel [!DNL Analytics] als [!DNL Target] bekijken.
 
-Voor het melden van beste praktijken die [!DNL Analytics] voor [!DNL Target], [deze Adobe Spark pagina](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) gebruiken.
+Voor het melden van beste praktijken die [!DNL Analytics] voor [!DNL Target], [dit Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) gebruiken.
 
 ## Overzicht {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -66,7 +66,7 @@ Wanneer [!DNL Analytics] als rapportbron wordt gebruikt, tonen de rapporten in [
 
    Elke metrisch is beschikbaar, met inbegrip van om het even welke douane of berekende metriek die ingebouwde [!DNL Analytics] zijn.
 
-   Houd er rekening mee dat een toename van het aantal positieve punten in het verslag wordt weergegeven, zelfs als een verhoging eigenlijk ongewenst is. Hoewel u bijvoorbeeld een lagere stuitsnelheid wilt, wordt de hogere stuitsnelheid weergegeven als de winnaar met de hoogste lift. Houd rekening met deze en vergelijkbare cijfers en geef aan of u het aantal wilt verlagen of verhogen wanneer u beslissingen neemt op basis van uw rapporten.
+   Om het even welke aantallen die stijgen worden getoond als positieven in het rapport, zelfs wanneer een verhoging ongewenste is. Hoewel u bijvoorbeeld een lagere stuitsnelheid wilt, wordt de hogere stuitsnelheid weergegeven als de winnaar met de hoogste lift. Houd rekening met deze en vergelijkbare cijfers en geef aan of u het aantal wilt verlagen of verhogen wanneer u beslissingen neemt op basis van uw rapporten.
 
 U kunt metrisch of publiek op het rapport in [!DNL Target] toepassen nadat de activiteit is begonnen, of zelfs nadat de test heeft voltooid. Je hoeft niet precies te weten wat je vooraf wilt meten.
 
