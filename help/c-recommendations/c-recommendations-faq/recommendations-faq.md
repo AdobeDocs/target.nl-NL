@@ -4,17 +4,17 @@ description: Bekijk een lijst met veelgestelde vragen en antwoorden over Adobe T
 title: Waar kan ik vragen en antwoorden vinden over Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e4d7f9d6bd42343c5c5e591853a4fc70d1f49ee7
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2015'
 ht-degree: 0%
 
 ---
 
 
-# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMR-aanbevelingen{#recommendations-faq}
+# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMR-aanbevelingen
 
-Lijst met veelgestelde vragen (FAQ&#39;s) over Adobe Target Recommendations-activiteiten.
+Lijst met veelgestelde vragen (FAQs) over [!DNL Adobe Target] [!DNL Recommendations] activiteiten.
 
 ## Waarom toont het Onderzoek van de Catalogus niet de correcte resultaten wanneer ik op een douanekenmerk met een numerieke waarde zoek?
 
@@ -36,11 +36,11 @@ De volgende wijzigingen worden pas doorgevoerd wanneer het volgende algoritme wo
 * Objectkenmerken die worden gebruikt in een speciale actie die is gebaseerd op een kenmerk of verzameling dat aan de activiteit is gekoppeld.
 * Objectcategorie waarin het item wordt weergegeven voor &quot;Huidige rubriek&quot; of &quot;Favoriete rubriek&quot; in de hoogste verkopers of het meest bekeken algoritme.
 * Het rangschikken van geadviseerde punten wanneer het attribuut veranderde is een douaneattribuut dat als douanetoets voor een algoritme wordt gebruikt.
-* Rangschikking van aanbevolen items op basis van de gewijzigde kenmerken wanneer de logica van de aanbeveling &quot;Items met vergelijkbare kenmerken&quot; is, wanneer de wegingsfactoren &quot;Gelijksoortigheid van inhoud&quot; worden gebruikt of wanneer de factoren &quot;Afweging van kenmerken&quot; worden gebruikt.
+* Rangschikking van aanbevolen items op basis van een of meer gewijzigde kenmerken wanneer de logica van de aanbeveling &quot;Items met vergelijkbare kenmerken&quot; is, wanneer de wegingsfactoren &quot;Gelijksoortigheid van inhoud&quot; worden gebruikt of wanneer de factoren &quot;Afweging van kenmerken&quot; worden gebruikt.
 
 >[!NOTE]
 >
->Een voederdossier wordt beschouwd als ingevoerd wanneer zijn status van &quot;het Importeren van Punten&quot;in &quot;het Voorbereiden van de Updates van de Index van het Onderzoek&quot; verandert. Het kan meer dan 60 minuten duren voordat updates worden weergegeven in de gebruikersinterface van Catalog Search; Zoekopdracht in catalogus is up-to-date wanneer de status van de feed verandert in &quot;Updates voltooid&quot;. Zelfs als Catalog Search nog niet bijgewerkt is, zal uw site updates op de hierboven vermelde tijdframes weerspiegelen. De meest recente update van de index van het Onderzoek van de Catalogus wordt getoond op de pagina van het Onderzoek van de Catalogus.
+>Een voederdossier wordt beschouwd als ingevoerd wanneer zijn status van &quot;het Importeren van Punten&quot;in &quot;het Voorbereiden van de Updates van de Index van het Onderzoek&quot; verandert. De updates kunnen meer dan 60 minuten vergen om in het gebruikersinterface van het Onderzoek van de Catalogus worden weerspiegeld; Zoekopdracht in catalogus is up-to-date wanneer de status van de feed verandert in &quot;Updates voltooid&quot;. Zelfs als Catalog Search nog niet bijgewerkt is, geeft uw site updates weer over de hierboven vermelde tijdframes. De meest recente update van de index van het Onderzoek van de Catalogus wordt getoond op de pagina van het Onderzoek van de Catalogus.
 
 ## Wat moet ik doen als speciale karakters mijn serie breken? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -59,11 +59,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## Waarom zijn niet alle criteria, met inbegrip van douanecriteria, beschikbaar voor selectie wanneer het creëren van een activiteit van Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
-De beschikbare criteria zijn gebaseerd op de huidige categorie. Wanneer u aanbevelingen aanbiedt, geeft de algoritmekiezer criteria weer op basis van categorie ID.
+De beschikbare criteria zijn gebaseerd op de huidige categorie. Wanneer u aanbevelingen aanbiedt, geeft de algoritmekiezer criteria weer op basis van categorie-id.
 
 Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn bepaalde criteria niet beschikbaar in de algoritmekiezer.
 
-Als u een locatie gebruikt waar categorie-id aanwezig is in het mbox, bevat de kiezer voor het criterium alle toepasselijke criteria.
+Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
 Doel heeft een instelling [Incompatibele criteria filteren](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om intelligent filteren van de algoritmekiezer te beheren.
 
@@ -94,7 +94,7 @@ De volgende lijst bevat speciale gevallen waarin het selectievakje [!UICONTROL C
 
 Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerder niet bij nul was:
 
-* U kunt de verzameling opnieuw opslaan en zien of het nummer wordt bijgewerkt. Merk op dat door het redden, de inzameling alle algoritmen opnieuw in werking zal stellen die die inzameling gebruiken.
+* U kunt de verzameling opnieuw opslaan en zien of het nummer wordt bijgewerkt. Door op te slaan, herstelt de inzameling alle algoritmen die die inzameling gebruiken.
 * Kijk je naar de juiste omgeving? Ga naar [!DNL /target/products.html#recsSettings] om te dubbelcontroleren (zoals hieronder getoond).
 
    ![](assets/product_catalog.png)
@@ -102,19 +102,19 @@ Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerd
 * Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren oud de index is (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;). U kunt de index naar wens vernieuwen.
 * Heeft u iets in de feed of de gegevenslaag gewijzigd waardoor de entiteiten niet meer overeenkomen met de verzamelingsregels? Zorg ervoor dat uw HOOFDLETTERS overeenkomen (hoofdlettergevoelig).
 * Is uw feed gelukt? Heeft iemand de FTP-map, het wachtwoord enzovoort gewijzigd?
-* Doel doet zijn best om updates aan de levering (op de pagina van de klant/app) te maken gebeuren zo snel mogelijk. Toch moeten wij ook een of andere vertegenwoordiging in UI voor de teller verstrekken. De leveringsupdates hoeven niet automatisch te worden vertraagd, zodat wordt gewacht tot de updates van de gebruikersinterface gesynchroniseerd zijn. U kunt [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
+* Doel doet zijn best om updates aan de levering (op de pagina van de klant/app) te maken gebeuren zo snel mogelijk. Toch moet Doel ook een representatie in de UI voor de markeerteken bieden. Het doel stelt de leveringsupdates niet uit zodat wordt gewacht tot de updates van de gebruikersinterface gesynchroniseerd zijn. U kunt [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
 
 ## Wat is het verschil tussen de algemene weging van de Waarden van Attributen en Inhoud gelijksoortig-specifieke attributen? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 Kenmerkweging bestaat in twee vormen: &quot;standard attribute weight&quot; en &quot;content similarity attribute weight&quot;.
 
-&quot;Standaardkenmerkweging&quot; is van toepassing op de meeste, zo niet alle, typen criteria (niet alleen op basis van inhoudsgelijkenis). Dit type weging geeft meer gewicht aan bepaalde kenmerkwaarden. In het volgende voorbeeld krijgen Nike-producten een reliëf in de aanbevelingen voor uitvoer.
+De &quot;Standaard kenmerkenweging&quot; is van toepassing op de meeste, zo niet alle, definitietypen (niet alleen de Gelijksoortigheid van de Inhoud). Dit type weging geeft meer gewicht aan bepaalde kenmerkwaarden. In het volgende voorbeeld krijgen Nike-producten een reliëf in de aanbevelingen voor uitvoer.
 
 ![](assets/attribute_weighting_example.png)
 
 De &quot;weging van de gelijksoortige eigenschappen van de inhoud&quot;is slechts op de criteria van de Gelijksoortigheid van de Inhoud van toepassing.
 
-Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling key&quot; (het momenteel bekeken item). In het volgende voorbeeld (merk x 16), als een bezoeker Nike sneakers zou bekijken, zal die bezoeker eerder andere Nike-producten (niet noodzakelijkerwijs alleen sneakers) dan concurrenten-sneakers aanraden. Als een bezoeker Adidas-sneakers zou bekijken, is het waarschijnlijker dat hij of zij Adidas-producten zal aanraden.
+Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling key&quot; (het momenteel bekeken item). In het volgende voorbeeld (merk x 16), als een bezoeker Nike sneakers zou bekijken, zal die bezoeker eerder andere Nike-producten (niet noodzakelijkerwijs alleen sneakers) dan concurrenten-sneakers aanraden. Als een bezoeker Adidas sneakers bekijkt, zal die bezoeker eerder Adidas producten worden geadviseerd.
 
 ![](assets/content_similarity_example.png)
 
@@ -122,7 +122,7 @@ Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling k
 
 Het doel kan soms geen aanbevelingen tonen wegens het lage aantal beschikbare aanbevelingen.
 
-Het aantal waarden dat per criterium wordt gegenereerd, is drie keer het aantal entiteiten dat in het ontwerp is opgegeven. Het filtreren van runtime (bijvoorbeeld, inventaris, mbox kenmerkenaanpassing) wordt toegepast nadat de 3x waarden worden geproduceerd, zodat is het mogelijk met minder dan 3x waarden bij leveringstijd beëindigen. Om deze situatie te verzachten, vergroot u het aantal entiteiten in het ontwerp door extra entiteiten te verbergen.
+Het aantal waarden dat per criterium wordt gegenereerd, is driemaal zo groot als het aantal entiteiten dat in het ontwerp is opgegeven. Het filtreren van runtime (bijvoorbeeld, inventaris, mbox kenmerkenaanpassing) wordt toegepast nadat de 3x waarden worden geproduceerd, zodat is het mogelijk met minder dan 3x waarden bij leveringstijd beëindigen. Om deze situatie te verzachten, vergroot u het aantal entiteiten in het ontwerp door andere entiteiten te verbergen.
 
 Het volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het aantal gevraagde entiteiten te verhogen. In dit voorbeeld is het aantal aangevraagde entiteiten 30 (3x10).
 
@@ -139,18 +139,18 @@ Het volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het
 
 Doel legt een postlimiet van 50 MB op toepassingsniveau op; nochtans, is dat slechts wanneer u de `application/x-www-form-urlencoded` inhoudstype kopbal doorgeeft.
 
-Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, zou u het in partijen moeten verdelen. Meestal raden we klanten aan hun aanroepen te onderbreken in 5.000 of 10.000 productbatches om de kans op een time-out als gevolg van systeembelasting te verkleinen.
+Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, kunt u het in partijen verdelen. Adobe raadt klanten aan hun aanroepen op te splitsen in 5.000 of 10.000 productbatches om de kans op een time-out als gevolg van systeembelasting te verkleinen.
 
-## Moet ik de naam van het selectievakje opgeven wanneer ik Recommendations-criteria, -promoties of -testregels voor sjablonen maak? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Moet ik de naam van het selectievakje opgeven bij het maken van Recommendations-criteria, -promoties of -testregels voor sjablonen? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Wanneer het creëren van een Recommendations criteria, bevorderingen, of malplaatje testende regel die op een mbox parameter wordt gebaseerd, `mboxParameter` vraagt u niet meer om `mboxName`. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 
 De gewenste parameter selecteren:
 
-* Selecteer tijdens het maken van nieuwe criteria, promoties of testregels voor sjablonen een parameternaam in de lijst, typ de eerste tekens van de gewenste parameternaam of typ de volledige naam van de gewenste parameternaam.
+* Selecteer een parameternaam in de lijst bij het maken van criteria, speciale acties of testregels voor sjablonen. Typ de eerste tekens van de gewenste parameternaam of typ de volledige naam van de gewenste parameternaam.
 * Als u de naam van het selectievakje, maar niet de naam van de parameter, onthoudt, gebruikt u het selectievakje om te filteren op een bekend selectievakje dat de gewenste parameter doorgeeft.
 
-Bij beide methoden is er geen koppeling tussen de mbox en de parameter. De criteria, bevordering, of malplaatje het testen regel zullen op basis van parameter over alle dozen werken die die parameter overgaan.
+Bij beide methoden is er geen koppeling tussen de mbox en de parameter. De criteria, de bevordering, of de malplaatje testende regel werken die op parameter over alle vakjes worden gebaseerd die die parameter overgaan.
 
 Als u bestaande criteria, bevordering, of malplaatje het testen regel uitgeeft, tonen de het filtreren criteria met de mbox naam die tijdens verwezenlijking werd verstrekt.
 
@@ -160,9 +160,9 @@ Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek dezelfde na
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. We raden echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, moet het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Aanvullende limieten voor de lengte van vereiste kolommen zijn beschikbaar op de [pagina Doelbeperkingen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. Adobe raadt echter aan om de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere limieten voor de lengte van vereiste kolommen zijn beschikbaar op [pagina Doelbeperkingen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
-## Kan ik een entiteit dynamisch uitsluiten?
+## Kan ik een entiteit dynamisch uitsluiten? {#exclude}
 
 In het vraagkoord, kunt u entiteit IDs voor entiteiten overgaan die u van uw aanbevelingen wilt uitsluiten. U kunt bijvoorbeeld items uitsluiten die zich al in het winkelwagentje bevinden.
 
@@ -180,21 +180,21 @@ Deze functie is standaard ingeschakeld voor nieuwe aanbevelingen. Bestaande aanb
 
 ## Wat betekent de reactie van NO_CONTENT soms teruggekeerd in de inhoud van Recommendations spoor?
 
-NO_CONTENT wordt geretourneerd wanneer aanbevelingen niet beschikbaar zijn voor het gevraagde algoritme en de toetsencombinatie. Over het algemeen gebeurt dit wanneer back-ups voor het algoritme zijn uitgeschakeld en een of meer van de volgende zaken ook waar zijn:
+NO_CONTENT wordt geretourneerd wanneer aanbevelingen niet beschikbaar zijn voor het gevraagde algoritme en de toetsencombinatie. Over het algemeen, komt deze situatie voor wanneer de steunen voor het algoritme en één of meerdere van het volgende ook waar zijn onbruikbaar gemaakt:
 
 * De resultaten zijn nog niet gereed.
 
-   Dit komt typisch voor wanneer eerst het bewaren van een pas gecreëerde activiteit of nadat de configuratieveranderingen in de inzameling, de criteria, of de bevorderingen worden aangebracht die in de activiteit worden gebruikt.
+   Deze situatie komt typisch voor wanneer eerst het bewaren van een pas gecreëerde activiteit of nadat de configuratieveranderingen in de inzameling, de criteria, of de bevorderingen worden aangebracht die in de activiteit worden gebruikt.
 
 * De resultaten zijn klaar, maar zijn nog niet in het voorgeheugen ondergebracht bij de dichtstbijzijnde randserver, voor de gevraagde algoritme/toetsencombinatie.
 
-   Het zojuist gedane verzoek zal een caching-bewerking starten. Dit probleem moet dus worden opgelost na een paar pagina&#39;s opnieuw te laden en/of na een paar minuten voorbij te zijn.
+   De aanvraag start een cachebewerking. Dit probleem moet dus worden opgelost nadat de pagina enkele keren opnieuw is geladen en/of een paar minuten is verstreken.
 
 * De resultaten zijn gereed, maar niet beschikbaar voor de opgegeven sleutelwaarde.
 
-   Dit komt typisch voor wanneer het verzoeken van om aanbevelingen voor een punt dat aan de catalogus na de meest recente looppas van het algoritme werd toegevoegd en zal na de volgende algoritmelooppas oplossen.
+   Deze situatie komt typisch voor wanneer het verzoeken van om aanbevelingen voor een punt dat aan de catalogus na de meest recente looppas van het algoritme werd toegevoegd en zal na de volgende algoritmelooppas oplossen.
 
 * Gedeeltelijke sjabloonrendering is uitgeschakeld en er zijn onvoldoende resultaten beschikbaar om de sjabloon te vullen.
 
-   Dit gebeurt gewoonlijk wanneer u een dynamische inclusieregel hebt, die veel punten agressief van de mogelijke resultaten filtert. Om dit te vermijden, laat steunen toe en pas niet de inclusieregel op steunen toe, of gebruik achtereenvolgens de criteria met minder-agressief gefilterde criteria.
+   Deze situatie komt typisch voor wanneer u een dynamische integratieregel hebt, die veel punten van de mogelijke resultaten agressief filtert. Om situatie te vermijden, laat steunen toe en pas niet de inclusieregel op steunen toe, of gebruik achtereenvolgens de criteria met minder-agressief gefilterde criteria.
 
