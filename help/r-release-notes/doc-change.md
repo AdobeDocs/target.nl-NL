@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3704'
+source-wordcount: '3729'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,15 @@ ht-degree: 0%
 
 # Documentatiewijzigingen
 
-Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
+Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
 
 ## Adobe Target Standard/Premium 21.2.1 (9 maart 2021)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 9 maart | [Limieten](/help/r-troubleshooting-target/target-limits.md#offer-size) | De toegestane limiet voor de aanbiedingsgrootte is bijgewerkt. |
+| 9 maart | [Limieten](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>De toegestane limiet voor de aanbiedingsgrootte is bijgewerkt.</li><li>Correctie van de tekenlimiet voor de parameter categoryId.</li></ul> |
 |  | [Lijst van gewenste personen randknooppunten doel](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Bijgewerkte [!DNL Target] rand IP adressen. |
+|  | [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md) | Toegevoegde tekst die aangeeft dat entity.value een decimale notatie moet hebben (bijvoorbeeld 15.99 in plaats van 15.99). |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.2.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
