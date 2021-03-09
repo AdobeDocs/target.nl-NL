@@ -5,7 +5,7 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ## categoryId, parameter
 
-* **Limiet**: 128 tekens.
+* **Limiet**: 250 tekens.
 
 ## Klantkenmerken
 
