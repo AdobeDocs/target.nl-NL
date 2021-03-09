@@ -4,15 +4,15 @@ description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhouds
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 
-# ![Kenmerken ](/help/assets/premium.png) PREMIUMEntity{#entity-attributes}
+# ![Kenmerken ](/help/assets/premium.png) PREMIUMEntity
 
 Gebruik entiteitskenmerken om product- of inhoudsinformatie door te geven aan [!DNL Adobe Target Recommendations].
 
@@ -72,7 +72,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->Relatieve URL&#39;s hebben de voorkeur voor `pageUrl` en `thumbnailUrl` in plaats van absolute URL&#39;s, omdat aanbevelingen gegevens ontvangen die worden verzonden vanuit alle omgevingen op uw site. Als u relatieve URL&#39;s gebruikt, worden hardcodeerde koppelingen naar een testserver of ontwikkelingsserver vermeden.
+>Relatieve URL&#39;s hebben de voorkeur voor `pageUrl` en `thumbnailUrl` in plaats van absolute URL&#39;s, omdat aanbevelingen gegevens ontvangen die worden verzonden vanuit alle omgevingen op uw site. Als u relatieve URL&#39;s gebruikt, vermijdt u hardcodeerde koppelingen naar een testserver of ontwikkelingsserver.
 
 Als het selectievakje op een productpagina staat, kunt u zowel de product-id als de categorie-id opnemen. Het geselecteerde algoritme bepaalt welke weergaven worden weergegeven. De product-id wordt gebruikt voor affiniteitsalgoritmen en de categorie-id wordt gebruikt voor categoriealgoritmen.
 
@@ -86,7 +86,7 @@ Alleen randwaarde.
 
 Deze vereiste parameter identificeert het product. Deze alfanumerieke id moet hetzelfde zijn voor alle [!DNL Adobe Experience Cloud]-producten die worden gebruikt, inclusief [!DNL Analytics], zodat de verschillende producten het item kunnen herkennen en gegevens erover kunnen delen.
 
-`entity.id` waarden mogen geen slashes, ampersands, vraagtekens, percentagesymbolen, komma&#39;s of andere leestekens bevatten die URL-codering vereisen wanneer deze worden doorgegeven in een REST API-aanroep. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Het opnemen van ongeldige interpunctie in een `entity.id` waarde veroorzaakt sommige [!DNL Recommendations] functionaliteit om te ontbreken.
+`entity.id` waarden mogen  ** geen slashes, ampersands, vraagtekens, percentagesymbolen, komma&#39;s of andere leestekens bevatten die URL-codering vereisen wanneer deze worden doorgegeven in een REST API-aanroep. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Het opnemen van ongeldige interpunctie in een `entity.id` waarde veroorzaakt sommige [!DNL Recommendations] functionaliteit om te ontbreken.
 
 Voorbeeld: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ Alleen één waarde.
 Hiermee definieert u de prijs of waarde van het item.
 
 Voorbeeld: `'entity.value=15.99'`
+
+entiteit.value ondersteunt alleen decimale notatie (bijvoorbeeld 15.99). De komma-indeling (15,99) wordt niet ondersteund.
 
 ### entity.margin
 
