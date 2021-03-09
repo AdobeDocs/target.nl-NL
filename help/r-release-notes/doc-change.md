@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '3648'
+source-wordcount: '3704'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,14 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 21.2.1 (9 maart 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 9 maart | [Limieten](/help/r-troubleshooting-target/target-limits.md#offer-size) | De toegestane limiet voor de aanbiedingsgrootte is bijgewerkt. |
+|  | [Lijst van gewenste personen randknooppunten doel](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Bijgewerkte [!DNL Target] rand IP adressen. |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.2.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
 
