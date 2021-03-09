@@ -2,12 +2,12 @@
 keywords: tekenlimiet;mbox-parameters;batch-levering api;profielparameters;limieten;ingebouwde profielen;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;problemen oplossen
 description: Een lijst weergeven met tekenlimieten en andere limieten (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
 title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Target?
-feature: Troubleshooting
+feature: Problemen oplossen
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -192,13 +192,13 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 * **Aanbevolen limiet**: in totaal 50.000 aanbiedingen.
 
-### Grootte voorstel
+### Grootte aanbod {#offer-size}
 
 Voor aanbiedingen gelden de volgende groottegrenzen:
 
-* 256 kB voor HTML-aanbiedingen.
-* 64 kB voor visuele aanbiedingen van UI.
-* 512 kB vanaf de API.
+* 1024 kB voor HTML-aanbiedingen.
+* 1024 kB (voor elke ervaring) voor visuele aanbiedingen van UI.
+* 1024 kB vanaf de API.
 
    Als u een globale box gebruikt, is de grens voor de volledige reeks inhoud teruggekeerd voor de pagina. Door het beperken van de aanbiedingsgrootte worden de laadtijden van de pagina verbeterd. Als de limiet wordt overschreden, wordt het volgende bericht weergegeven:
 
