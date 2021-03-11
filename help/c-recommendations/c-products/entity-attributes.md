@@ -1,12 +1,12 @@
 ---
 keywords: entiteit;entiteitskenmerken;informatie doorgeven aan Recommendations;gedraggegevens;gegevensteller;relatieve URL definiëren;inventarisniveau weergeven;prijs definiëren;winstmarge definiëren;aangepaste kenmerken
-description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhoudsgegevens door te geven aan Adobe Target Recommendations.
+description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhoudsgegevens door te geven aan Target Recommendations.
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
+source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,22 @@ ht-degree: 0%
 
 Gebruik entiteitskenmerken om product- of inhoudsinformatie door te geven aan [!DNL Adobe Target Recommendations].
 
+Entiteiten verwijzen naar de items die u wilt aanbevelen. De entiteiten kunnen producten, inhoud (artikelen, diashows, beelden, films, en televisieprogramma&#39;s), baanaanbiedingen, restaurants, etc. omvatten.
+
 [!DNL Recommendations] verzendt de  `productId` of  `productPurchasedId` (waarnaar wordt verwezen  `entity.id` in de code) die wordt gebruikt in de algoritmen.
 
->[!NOTE]
->
->* `entity.id` moet overeenkomen met de pagina die naar de pagina voor bevestiging van de bestelling is  `productPurchasedId` verzonden en met de pagina&#39;s die in Adobe Analytics-productrapporten zijn  `productId` gebruikt.
-   >
-   >
-* Waarden van opgegeven entiteitskenmerken verlopen na 61 dagen. Dit betekent dat u ervoor moet zorgen dat de recentste waarde van elk entiteitattribuut aan Doel Recommendations minstens eens per maand voor elk punt in uw catalogus wordt overgegaan.
+Overweeg het volgende:
 
+* `entity.id` moet overeenkomen met de pagina  `productPurchasedId` die naar de bevestigingspagina van de bestelling is verzonden en met de pagina die  `productId` wordt gebruikt in  [!DNL Adobe Analytics] productrapporten.
+* Waarden van entiteitskenmerken die u doorgeeft aan [!DNL Recommendations] verlopen na 61 dagen. Adobe raadt aan dat u de laatste waarde van elk entiteitskenmerk ten minste één keer per maand doorgeeft aan [!DNL Recommendations] voor elk item in de catalogus.
 
 De meeste vooraf gedefinieerde parameters accepteren slechts één waarde, waarbij nieuwe waarden oude waarden overschrijven. De parameter `categoryId` kan een komma-afgebakende lijst van waarden voor elke categorie goedkeuren die dat product bevat. Nieuwe `categoryId`-waarden overschrijven bestaande waarden niet, maar worden toegevoegd tijdens het bijwerken van de entiteit (limiet van 250 tekens).
 
-In het algemeen ziet het informatievenster voor de weergave er als in het volgende voorbeeld uit als u at.js 1 gebruikt.** xwith  `mboxCreate`.
+In het algemeen ziet het informatievenster voor de weergave er als in het volgende voorbeeld uit als u at.js 1 gebruikt.** xwith  `mboxCreate`. Alle attributen van de entiteitparameter zijn case-sensitive.
 
 >[!NOTE]
 >
->* Als u at.js 2 gebruikt.*x*,  `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan Recommendations met behulp van at.js 2.*x*, gebruik  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Zie [Recommendations](/help/c-recommendations/plan-implement.md) plannen en implementeren voor een voorbeeld.
-
->
-
-
-
-Alle attributen van de entiteitparameter zijn case-sensitive.
+>Als u at.js 2 gebruikt.*x*,  `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Zie [Recommendations](/help/c-recommendations/plan-implement.md) plannen en implementeren voor een voorbeeld.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -86,7 +79,7 @@ Alleen randwaarde.
 
 Deze vereiste parameter identificeert het product. Deze alfanumerieke id moet hetzelfde zijn voor alle [!DNL Adobe Experience Cloud]-producten die worden gebruikt, inclusief [!DNL Analytics], zodat de verschillende producten het item kunnen herkennen en gegevens erover kunnen delen.
 
-`entity.id` waarden mogen  ** geen slashes, ampersands, vraagtekens, percentagesymbolen, komma&#39;s of andere leestekens bevatten die URL-codering vereisen wanneer deze worden doorgegeven in een REST API-aanroep. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Het opnemen van ongeldige interpunctie in een `entity.id` waarde veroorzaakt sommige [!DNL Recommendations] functionaliteit om te ontbreken.
+De `entity.id` waarden moeten *not* schuine strepen, ampersands, vraagtekens, percentagesymbolen, komma&#39;s, of andere leestekens bevatten die URL het coderen vereisen wanneer overgegaan in een REST API vraag. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Het opnemen van ongeldige interpunctie in een `entity.id` waarde veroorzaakt sommige [!DNL Recommendations] functionaliteit om te ontbreken.
 
 Voorbeeld: `'entity.id=67833'`
 
@@ -102,9 +95,9 @@ Voorbeeld: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Ondersteunt meerdere waarden (door komma&#39;s gescheiden lijst).
 
-Categorie van de huidige pagina. De entiteit.categoryID kan meerdere categorieën bevatten, zoals een subsectie over cardigans (d.w.z. vrouwen, vrouwen:sweaters, vrouwen:sweaters:cardigans). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
+Categorie van de huidige pagina. De entity.categoryID kan meerdere categorieën bevatten, zoals een subsectie over cardigans (bijvoorbeeld vrouwen, vrouwen:sweaters, vrouwen:sweaters:cardigans). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
 
-`categoryId` is beperkt tot 250 tekens.
+De waarde `categoryId` is beperkt tot 250 tekens.
 
 >[!NOTE]
 >
@@ -116,7 +109,7 @@ Voorbeelden:
 * Voorbeeld van categorie Paginanummers: vrouwen:truien
 * Voorbeeld van paginakaartjes voor categorieën: vrouwen:sweaters:cardigans
 
-Voor op categorieën gebaseerde aanbevelingen wordt een komma gebruikt om de categoriewaarde te scheiden. Waarden die door komma&#39;s worden gescheiden, worden categorieën. U kunt ook subcategorieën definiëren door een ander scheidingsteken, zoals een dubbele punt (:), te gebruiken om subcategorieën binnen de categoriewaarde te scheiden.
+Voor op categorieën gebaseerde aanbevelingen wordt de categoriewaarde met een komma van elkaar gescheiden. Waarden die door komma&#39;s worden gescheiden, worden categorieën. U kunt ook subcategorieën definiëren door een ander scheidingsteken, zoals een dubbele punt (:), te gebruiken om subcategorieën binnen de categoriewaarde te scheiden.
 
 In de volgende code is de categorie Vrouwen bijvoorbeeld onderverdeeld in verschillende subcategorieën:
 
@@ -154,7 +147,7 @@ Voorbeeld: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Alleen één waarde.
 
-Een bericht over het product dat in de aanbeveling wordt getoond, zoals &quot;bij verkoop&quot; of &quot;klaring&quot;. Het bericht is doorgaans uitgebreider dan de productnaam. Gebruik deze optie om aanvullende informatie te definiëren die met het product in de sjabloon moet worden weergegeven.
+Een bericht over het product dat in de aanbeveling wordt getoond, zoals &quot;bij verkoop&quot; of &quot;klaring&quot;. Het bericht is doorgaans uitgebreider dan de productnaam. Gebruik entity.message om aanvullende informatie te definiëren die met het product in de sjabloon moet worden weergegeven.
 
 Voorbeeld: `'entity.message=Family&nbsp;special'`
 
@@ -170,7 +163,7 @@ Voorbeeld: `'entity.inventory=1'`
 
 En als u een globale uitsluitingsregel hebt met `entity.inventory` = 0 en `entity.inventory` niet is ingesteld, evalueert [!DNL Target] deze regel als WAAR en sluit het product uit.
 
-**Bekend probleem:** Productzoekopdracht is inconsistent met levering voor niet-ingestelde voorraadwaardekenmerken. Voor een regel met `entity.inventory` = 0 geeft productzoekopdracht bijvoorbeeld geen producten weer waarvoor de inventariswaarde niet is ingesteld.
+**Bekend probleem:** Productzoekopdracht is inconsistent met levering voor kenmerken van inventariswaarden die niet zijn ingesteld. Voor een regel met `entity.inventory` = 0 geeft productzoekopdracht bijvoorbeeld geen producten weer waarvoor de inventariswaarde niet is ingesteld.
 
 ### entity.value
 
@@ -211,9 +204,7 @@ Aangepaste entiteitskenmerken ondersteunen meerdere waarden. Zie [Aangepaste ent
 
 Voorbeeld: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]
->
->Aangepaste entiteitskenmerken van meerdere waarden vereisen geldige JSON-arrays. Zie Aangepaste entiteitskenmerken voor correcte syntaxisinformatie.
+Aangepaste entiteitskenmerken van meerdere waarden vereisen geldige JSON-arrays. Zie [Aangepaste entiteitskenmerken](/help/c-recommendations/c-products/custom-entity-attributes.md) voor correcte syntaxisinformatie.
 
 ### entity.event.detailsOnly
 
@@ -230,6 +221,7 @@ mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new yor
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
 
-## Verwante onderwerpen:
+>[!MORELIKETHIS]
+>
+>* [Kenmerken Aangepaste entiteit](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
 
-* [Kenmerken Aangepaste entiteit](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
