@@ -4,9 +4,9 @@ description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhouds
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,17 +28,17 @@ Gebruik entiteitskenmerken om product- of inhoudsinformatie door te geven aan [!
 
 De meeste vooraf gedefinieerde parameters accepteren slechts één waarde, waarbij nieuwe waarden oude waarden overschrijven. De parameter `categoryId` kan een komma-afgebakende lijst van waarden voor elke categorie goedkeuren die dat product bevat. Nieuwe `categoryId`-waarden overschrijven bestaande waarden niet, maar worden toegevoegd tijdens het bijwerken van de entiteit (limiet van 250 tekens).
 
-Over het algemeen ziet het informatievenster voor de weergave er als in het volgende voorbeeld uit als u at.js 1 gebruikt.** xwith  `mboxCreate`.
+In het algemeen ziet het informatievenster voor de weergave er als in het volgende voorbeeld uit als u at.js 1 gebruikt.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Als u at.js 2 gebruikt.*x*,  `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan Recommendations met behulp van at.js 2.*x*, gebruik  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Voor een voorbeeld van dit, zie [Plan en voer Recommendations](/help/c-recommendations/plan-implement.md) uit.
+>* Als u at.js 2 gebruikt.*x*,  `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan Recommendations met behulp van at.js 2.*x*, gebruik  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Zie [Recommendations](/help/c-recommendations/plan-implement.md) plannen en implementeren voor een voorbeeld.
 
 >
 
 
 
-Alle kenmerken van de entiteitsparameter zijn hoofdlettergevoelig.
+Alle attributen van de entiteitparameter zijn case-sensitive.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -102,7 +102,7 @@ Voorbeeld: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Ondersteunt meerdere waarden (door komma&#39;s gescheiden lijst).
 
-Categorie van de huidige pagina. Dit kan meerdere categorieën omvatten, zoals een subsectie over cardigans (d.w.z. vrouwen, vrouwen:zweet, vrouwen:zweet:verzorgers). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
+Categorie van de huidige pagina. De entiteit.categoryID kan meerdere categorieën bevatten, zoals een subsectie over cardigans (d.w.z. vrouwen, vrouwen:sweaters, vrouwen:sweaters:cardigans). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
 
 `categoryId` is beperkt tot 250 tekens.
 
@@ -166,7 +166,7 @@ Hiermee geeft u het voorraadniveau van het item weer.
 
 Voorbeeld: `'entity.inventory=1'`
 
-**Lege verwerking van inventariskenmerken:** Voor levering geldt dat als u een regel, verzamelingsregel of criteria hebt die zijn ingesteld op  `entity.inventory` > 0 of  `entity.inventory` = 0 en het product een voorraad heeft die niet is ingesteld, dit  [!DNL Target] wordt geëvalueerd op TRUE en dat er ook producten in worden opgenomen waarvoor de voorraad niet is ingesteld. Dit is standaard gedaan, zodat producten met een voorraad die niet is ingesteld, in de resultaten van de aanbeveling worden weergegeven.
+**Lege verwerking inventariskenmerken:** Voor levering, als u een opnameregel, verzamelingsregel of criteria hebt die met  `entity.inventory` > 0 of  `entity.inventory` = 0 zijn ingesteld en het product geen voorraad heeft,  [!DNL Target] evalueert u deze waarde naar TRUE en omvat u ook producten waarvoor de voorraad niet is ingesteld. Dit heeft tot gevolg dat producten met een voorraad die niet is ingesteld, in de resultaten van aanbevelingen worden weergegeven.
 
 En als u een globale uitsluitingsregel hebt met `entity.inventory` = 0 en `entity.inventory` niet is ingesteld, evalueert [!DNL Target] deze regel als WAAR en sluit het product uit.
 
@@ -194,7 +194,7 @@ Voorbeeld: `'entity.margin=1.00'`
 
 Ondersteunt multivalue (JSON-array).
 
-Definieer maximaal 100 aangepaste variabelen die aanvullende informatie over het item bevatten. U kunt elke ongebruikte kenmerknaam opgeven voor elk aangepast kenmerk. U kunt bijvoorbeeld een aangepast kenmerk met de naam `entity.genre` maken om een boek of film te definiëren. Of een verkoper van vervoerbewijzen kan kenmerken maken voor een plaats van een evenement voor een tweede uitvoerder, zoals een bezoekend team in een sportevenement of een openingsactie in een concert.
+Definieer maximaal 100 aangepaste variabelen die aanvullende informatie over het item bevatten. U kunt elke ongebruikte kenmerknaam opgeven voor elk aangepast kenmerk. U kunt bijvoorbeeld een aangepast kenmerk met de naam `entity.genre` maken om een boek of film te definiëren. Een verkoper van vervoerbewijzen kan kenmerken voor een gebeurtenisplaats voor een secundaire uitvoerder, zoals een bezoekend team in een sportevenement of een openingsactie in een concert tot stand brengen.
 
 Beperkingen:
 
@@ -223,7 +223,7 @@ Gebruikt om een mbox vraag te verhinderen gedragstellers van gegevens voor een a
 
 Voorbeeld: `'entity.event.detailsOnly=true'`
 
-In de onderstaande voorbeelden worden de catalogus en gedragsgegevens bijgewerkt met de eerste aanroep van het mbox. De tweede mbox-aanroep werkt alleen de catalogus bij.
+In de onderstaande voorbeelden werkt de eerste mbox-aanroep de catalogus en gedragsgegevens bij. De tweede mbox-aanroep werkt alleen de catalogus bij.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
