@@ -1,12 +1,12 @@
 ---
-keywords: analytische gegevens voor doel;a4t;analytische gegevens als bron van de rapportage
+keywords: analytische gegevens voor doel;a4t;analytische gegevens als bron van de rapportage;analytische gegevens
 description: Leer hoe u Analytics for Target (A4T) gebruikt. A4T verleent toegang tot de rapporten van Analytics voor de activiteiten van het Doel die de metriek van de Analyse en publiekssegmenten gebruiken.
 title: Hoe gebruik ik Rapportering in A4T?
 feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
