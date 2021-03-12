@@ -1,9 +1,9 @@
 ---
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '154'
-ht-degree: 81%
+source-wordcount: '145'
+ht-degree: 80%
 
 ---
 # Bijdragen
@@ -18,7 +18,7 @@ Dit project voldoet aan de Adobe-[gedragscode](https://git.corp.adobe.com/OpenSo
 
 ## Licentieovereenkomst voor contribuant
 
-Alle bijdragen van derden aan dit project moeten vergezeld zijn van een ondertekende bijdragelicentie. Dit geeft Adobe de toestemming om uw bijdragen als deel van het project opnieuw te verdelen. Onderteken onze CLA op [SOME LINK] (nog geen koppeling). U hoeft slechts één keer een Adobe CLA in te dienen, dus als u al eerder een CLA hebt ingediend, kunt u waarschijnlijk gewoon doorgaan.
+Alle bijdragen van derden aan dit project moeten vergezeld zijn van een ondertekende bijdragelicentie. Dit geeft Adobe de toestemming om uw bijdragen als deel van het project opnieuw te verdelen. U hoeft slechts één keer een Adobe CLA in te dienen, dus als u al eerder een CLA hebt ingediend, kunt u waarschijnlijk gewoon doorgaan.
 
 ## Codebeoordelingen
 
