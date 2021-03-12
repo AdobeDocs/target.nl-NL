@@ -4,9 +4,9 @@ description: Leer hoe u Auto-Allocate- en Auto-Target-activiteiten in Adobe Targ
 title: Biedt A4T ondersteuning voor automatisch toegewezen en automatisch doelgerichte activiteiten?
 feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -96,3 +96,11 @@ Sommige beperkingen en opmerkingen gelden voor zowel [!UICONTROL Auto-Allocate]-
 * Wanneer u [!DNL Analytics] gebruikt als gegevensbron voor een [!UICONTROL Auto-Target] activiteit, eindigen de zittingen nadat zes uren zijn verstreken. Conversies die na zes uur plaatsvinden, worden niet geteld.
 
 Voor meer informatie, zie [Attributiemodellen en terugkijkvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) in *de Gids van de Hulpmiddelen van Analytics*.
+
+## Zelfstudie: A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten {#tutorial}
+
+Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], zijn een paar wijzigingen in het standaard [!UICONTROL Analytics for Target] paneel vereist om Auto-Target activiteiten correct te interpreteren. Deze wijzigingen zijn vereist vanwege verschillen tussen experimentele activiteiten (handleiding A/B en [!UICONTROL Auto-Allocate]) en personalisatieactiviteiten ([!UICONTROL Auto-Target]).
+
+In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Target]-activiteiten in [!UICONTROL Workspace] besproken.
+
+Voor meer informatie, zie [Hoe te opstelling A4T rapporten in Analysis Workspace voor auto-Doel activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
