@@ -1,11 +1,11 @@
 ---
 description: Wat betekent het verschil in termen die in Adobe Target worden gebruikt? Vind definities van gemeenschappelijke termijnen om u te helpen meer uit Doel krijgen.
 title: Waar kan ik Termen vinden en Definities die in Doel worden gebruikt?
-feature: Overview
+feature: Overzicht
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2460'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ De [!DNL at.js]-bibliotheek is een nieuwe implementatiebibliotheek voor [!DNL Ad
 
 **publiek**
 
-Een groep van gelijksoortige deelnemers die een gerichte activiteit zullen zien.  Een groep mensen met dezelfde kenmerken, zoals een nieuwe bezoeker, een terugkerende bezoeker of terugkerende bezoekers uit het Midwesten. Met de functie Publiek kunt u verschillende inhoud en ervaringen toewijzen aan specifieke doelgroepen om uw digitale marketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven. Als een bezoeker als deel van een doelpubliek wordt geïdentificeerd, bepaalt Doel welke ervaring aan vertoning, op criteria wordt gebaseerd die tijdens activiteitenverwezenlijking worden bepaald.
+Een groep van gelijksoortige deelnemers die een gerichte activiteit zullen zien.  Een groep mensen met dezelfde kenmerken, zoals een nieuwe bezoeker, een terugkerende bezoeker of help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds uit het Midwesten. Met de functie Publiek kunt u verschillende inhoud en ervaringen toewijzen aan specifieke doelgroepen om uw digitale marketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven. Als een bezoeker als deel van een doelpubliek wordt geïdentificeerd, bepaalt Doel welke ervaring aan vertoning, op criteria wordt gebaseerd die tijdens activiteitenverwezenlijking worden bepaald.
 
 **Automatisch toewijzen**
 
@@ -241,6 +241,18 @@ Doorgegeven op de pagina, niet de URL. De parameters worden gebruikt om gegevens
 
 MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft
 
+## N
+
+**Nieuwe bezoeker**
+
+Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de volgende voorwaarden is voldaan:
+
+* Het is de eerste keer dat de bezoeker de site bezoekt.
+* Het is de eerste keer dat de bezoeker de site bezoekt sinds hij cookies wist.
+* Het is de eerste keer dat de bezoeker de site bezoekt sinds de levensduur van het [bezoekersprofiel](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
+
+Voor meer informatie, zie [Hoe worden de Nieuwe Bezoekers en Terugkerende metriek van Bezoekers geteld?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Vragen en antwoorden rapporteren. Contrast met &quot;Terugkerende Bezoeker&quot; hieronder.
+
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **doel**
@@ -278,6 +290,12 @@ Hiermee wordt een bezoeker omgeleid naar een andere webpagina. U kunt deze Redir
 **verwijzende URL, parameter**
 
 Geeft waarden door aan het vak van de doelpagina als verwijzende URL-parameters en -waarden. Gebruik deze om bijvoorbeeld de oorsprong van de bezoeker als doel in te stellen.
+
+**Bezoeker terugsturen**
+
+De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruiker de site eerder heeft bezocht, ten minste 30 minuten heeft verlaten en opnieuw met dezelfde cookies naar de site is teruggekeerd. Zolang een bezoeker binnen zijn profielleven terugkeert, deze bezoeker een terugkerende bezoeker.
+
+Voor meer informatie, zie [Hoe worden de Nieuwe Bezoekers en Terugkerende metriek van Bezoekers geteld](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in het Melden van Q&amp;A. Contrast met de bovenstaande &quot;Nieuwe bezoeker&quot;.
 
 **rol**
 
