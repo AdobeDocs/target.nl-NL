@@ -4,9 +4,9 @@ description: Vind antwoorden op vragen die vaak worden gevraagd over het bekijke
 title: Antwoorden op vragen over het bekijken van Rapporten met A4T vinden?
 feature: Analyses voor doel (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2369'
+source-wordcount: '2398'
 ht-degree: 1%
 
 ---
@@ -55,6 +55,8 @@ Overweeg het volgende:
 * De bovenstaande metrische trigger wanneer een gebruiker in aanmerking komt voor een activiteit en inhoud wordt geretourneerd van [!DNL Target]. Dit betekent niet noodzakelijk dat de gebruiker het aanbod zag. Als een activiteitservaring onder de vouw is en de gebruiker niet onderaan de pagina scrolt, dan werd de aanbieding gediend door [!DNL Target] maar niet door de gebruiker gezien.
 * [!UICONTROL Activity Impressions] (gemeten door  [!DNL Target]) en  [!UICONTROL Instances] (gemeten door  [!DNL Analytics]) zijn gelijk, tenzij er meerdere mbox-aanroepen zijn op dezelfde pagina in dezelfde activiteit. Hierdoor worden meerdere [!UICONTROL Activity Impressions] geteld, maar slechts één [!UICONTROL Instance].
 
+Voor meer informatie, zie [Hoe te opstelling A4T rapporten in Analysis Workspace voor auto-Doel activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+
 ## Waarom zijn &#39;activity impressions&#39; en &#39;activity conversions&#39; in Analysis Workspace hoger dan Reports &amp; Analytics? {#sametouch}
 
 [!DNL Reports & Analytics] past een attributiemodel met dezelfde aanraakinstelling toe op &quot;activity impressions&quot; en &quot;activity conversions&quot;, terwijl de onbewerkte maateenheden  [!DNL Analysis Workspace] worden weergegeven, die opgeblazen kunnen lijken als gevolg van de persistentie van de  [!DNL Target] dimensie.
@@ -91,28 +93,28 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 5 | 3 | 1 |
 
 De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via persistentie van de eVar. De gegevens zien er nu als volgt uit:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 De gebruiker komt terug op 1 maart en ziet een nieuwe activiteit, ABC. De gebruiker geeft ook vijf pagina&#39;s weer. Omdat de activiteit XYZ nog de gebruiker door persistentie volgt, en deze gebruiker dan ABC reeks heeft, zult u twee lijnpunten in het melden zien:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 1 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 1 | 3 |
 
 De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar wordt opnieuw ingesteld op 1 april, zodat u dat ziet in de rapportage. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers | Orders |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
-| Totaal | 2 | 20 | 3 | 1 | 1 |
+| XYZ | 3 | 20 | 4 | 3 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 3 |
+| Totaal | 2 | 20 | 1 | 3 | 3 |
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target]-rapportage, omdat u geen [!DNL Target]-activiteit tegen een andere activiteit plaatst om te zien welke meer succes heeft, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items in één activiteit. Het is voor een gebruiker niet mogelijk om verschillende ervaringen in dezelfde activiteit te zien zodat u zich geen zorgen hoeft te maken over kruisbesmetting van orderkrediet.
 
