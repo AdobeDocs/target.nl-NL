@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 ## Profielscripts
 
-* **Aanbevolen limiet voor actieve profielscripts**: 300
+* **Aanbevolen limiet voor actieve profielscripts (die zijn ingeschakeld)**: 300
 
 * **Aanbevolen limiet voor totale profielscripts per account**: 2 000
 
