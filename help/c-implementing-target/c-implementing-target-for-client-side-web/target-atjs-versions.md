@@ -3,11 +3,11 @@ keywords: at.js-releases;at.js-versies;releaseopmerkingen
 description: Bekijk de gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek van Adobe Target at.js.
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
-role: Developer
+role: Ontwikkelaar
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4078'
+source-wordcount: '4097'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,7 @@ Deze versie van at.js bevat de volgende verbeteringen en oplossingen:
 * Probleem verholpen waarbij met het bijhouden van klikken geen conversies werden gerapporteerd in Analytics for Target (A4T) wanneer Adobe Analytics-code niet aanwezig was op pagina-elementen.
 * Betere prestaties bij het gebruik van zowel Experience Cloud ID Service (ECID) v4.4 als at.js 2.2 op uw webpagina&#39;s.
 * Eerder, maakte ECID twee blokkerende vraag alvorens at.js ervaringen kon halen. Dit is verminderd tot één enkele vraag, die beduidend prestaties verbetert.
+* Correctie van foutieve vooraf ingestelde verwerking van weergaven, waarbij tokens voor gebeurtenissen van standaardaanbiedingen niet waren opgenomen in verzonden berichten.
 
    >[!NOTE]
    >
@@ -321,7 +322,7 @@ at.js versie 1.3.0 is nu beschikbaar.
 De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 1.1:
 
 * Toegevoegde verwerking van responstoken. Voor meer informatie, zie [Tokens van de Reactie](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
-* Het probleem is opgelost zodat `document.currentScript polyfill` niet interfereert met Hoek 1.X.
+* Het probleem is opgelost zodat `document.currentScript polyfill` niet interfereert met Angular 1.X.
 * Wijzigingen aangebracht om ervoor te zorgen dat het bijhouden van klikken geen invloed heeft op de zichtbaarheidseigenschap. Klik op volgende elementen worden gemarkeerd met de CSS-klasse `at-element-click-tracking` in plaats van `at-element-marker`.
 
 ## at.js Versie 1.0.0 {#section_37A3D23FC4AD42A68AA831B89E03E725}
@@ -354,7 +355,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 
 De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.9.6:
 
-* Omleiding biedt ondersteuning voor A4T. Nadat u [!DNL at.js] versie 0.9.6 downloadt en installeert, kunt u aanbiedingen in activiteiten opnieuw richten die [!DNL Adobe Analytics] als Rapporterende Bron voor [!DNL Target] (A4T) gebruiken. Naast [!DNL at.js] versie 0.9.6 zijn er andere minimumvereisten waaraan uw implementatie moet voldoen om omleidingsaanbiedingen en A4T te kunnen gebruiken. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie [Aanbiedingen van de Omleiding - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Omleiding biedt ondersteuning voor A4T. Nadat u [!DNL at.js] versie 0.9.6 downloadt en installeert, kunt u aanbiedingen in activiteiten opnieuw richten die [!DNL Adobe Analytics] als Rapporterende Bron voor [!DNL Target] (A4T) gebruiken. Naast [!DNL at.js] versie 0.9.6 zijn er andere minimumvereisten waaraan uw implementatie moet voldoen om omleidingsaanbiedingen en A4T te kunnen gebruiken. Zie [Aanbiedingen omleiden - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) voor meer informatie en aanvullende belangrijke informatie.
 * Vóór [!DNL at.js] 0.9.6, toen bezoeker API op de pagina aanwezig was en `visitorApiTimeout` het plaatsen te agressief was, kon Target in een situatie lopen toen geen MCID- gegevens in [!DNL Target] verzoek werden verzonden. Dit kan leiden tot problemen zoals onverwachte hits in [!DNL Analytics] bij het gebruik van A4T.
 
    Dit gedrag is gewijzigd in [!DNL at.js] 0.9.6, zelfs als `visitorApiTimeout` wordt geplaatst om 1 ms te zeggen, zal Target proberen SDID, volgende servers, en de gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden.
