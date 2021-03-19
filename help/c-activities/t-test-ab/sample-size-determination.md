@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB..n;voorbeeldgrootte;voorbeeldgroottecalculator;automatisch toewijzen;automatisch toewijzen;calculator
-description: Leer hoe lang een A/B test moet lopen. Voor een geslaagde A/B-test in Adobe Target is een voldoende aantal bezoekers (voorbeeldformaat) nodig om de conversiesnelheid te verbeteren.
+description: Leer hoe lang een A/B test moet lopen. Voor een geslaagde A/B-test in Adobe Target hebben voldoende bezoekers (voorbeeldgrootte) nodig om de conversiesnelheid te verbeteren.
 title: Hoe lang moet ik een A/B test uitvoeren?
-feature: A/B Tests
+feature: A/B-tests
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3044'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Hoe lang moet u een A/B-test uitvoeren?
 
-Een geslaagde [!UICONTROL A/B Test] activiteit vereist een adequaat aantal bezoekers (steekproefgrootte) om uw omzettingspercentage te verbeteren, maar hoe lang weet u hoe lang om een test A/B in werking te stellen? Dit artikel bevat informatie over [!UICONTROL Auto-Allocate] activiteiten en de [!UICONTROL Adobe Target] calculator van de Grootte van de Steekproef om u te helpen ervoor zorgen dat uw activiteit een voldoende aantal bezoekers heeft om uw doelstellingen te bereiken.
+Een geslaagde [!UICONTROL A/B Test] activiteit in [!DNL Adobe Target] vereist genoeg bezoekers (steekproefgrootte) om uw omzettingspercentage te verbeteren. Hoe weet u hoe lang om een test A/B in werking te stellen? Dit artikel bevat informatie over [!UICONTROL Auto-Allocate] activiteiten en de [!UICONTROL Adobe Target] calculator van de Grootte van de Steekproef om u te helpen ervoor zorgen dat uw activiteit genoeg bezoekers heeft om uw doelstellingen te bereiken.
 
 Het is verleidelijk om een activiteit stop te zetten als een van de aanbiedingen in de eerste dagen van de activiteit veel beter of slechter presteert dan de andere. Wanneer het aantal waarnemingen echter laag is, is het zeer waarschijnlijk dat een positieve of negatieve lift bij toeval wordt waargenomen omdat de omrekeningskoers gemiddeld is over een laag aantal bezoekers. Aangezien de activiteit meer gegevenspunten verzamelt, komen de omzettingspercentages in de richting van hun ware langetermijnwaarden.
 
@@ -22,33 +22,33 @@ Het is verleidelijk om een activiteit stop te zetten als een van de aanbiedingen
 >
 >Een vroegtijdig stoppen van een activiteit is een van de tien belangrijke valkuilen waar u bij het uitvoeren van een A/B-test op kunt vertrouwen. Voor meer informatie, zie [Tien gemeenschappelijke A/B testende valkuilen en hoe te om hen te vermijden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
-[!DNL Target] biedt hulpprogramma&#39;s waarmee u ervoor kunt zorgen dat uw activiteit een groot genoeg formaat heeft om uw conversiedoelstellingen te bereiken: Automatisch toewijzen.
+[!DNL Adobe Target] biedt hulpprogramma&#39;s waarmee u ervoor kunt zorgen dat uw activiteit een groot genoeg formaat heeft om uw conversiedoelstellingen te bereiken: Automatisch toewijzen.
 
 ## Automatisch toewijzen {#auto-allocate}
 
-Een [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activiteit is een type van test A/B die een winnaar onder twee of meer ervaringen identificeert en automatisch meer verkeer aan de winnaar toewijst om omzettingen te verhogen terwijl de test blijft lopen en leren.
+Een [Automatische toewijzing](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activiteit is een type A/B test die een winnaar onder twee of meer ervaringen identificeert. Een auto-toewijzen test wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren.
 
-Standaard A/B-tests hebben inherente kosten. U moet verkeer uitgeven om prestaties van elke ervaring te meten en door analyse de het winnen ervaring te berekenen. De verdeling van het verkeer blijft vast zelfs nadat u erkent dat sommige ervaringen anderen overtreffen. Bovendien is het ingewikkeld om de steekproefgrootte te bepalen, en de activiteit moet zijn volledige cursus in werking stellen alvorens u op een winnaar kunt handelen. Na dit alles is er nog steeds een kans dat de geïdentificeerde winnaar geen echte winnaar is.
+Standaard A/B-tests hebben inherente kosten. U moet verkeer uitgeven om prestaties van elke ervaring te meten en door analyse de het winnen ervaring te berekenen. De verdeling van het verkeer blijft vast zelfs nadat u erkent dat sommige ervaringen anderen overtreffen. Bovendien is het ingewikkeld om de steekproefgrootte te bepalen, en de activiteit moet zijn volledige cursus in werking stellen alvorens u op een winnaar kunt handelen. En er is nog steeds een kans dat de geïdentificeerde winnaar geen echte winnaar is.
 
 De oplossing is [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] vermindert deze kosten en overheadkosten van het bepalen van een het winnen ervaring. [!UICONTROL Auto-Allocate] bewaakt de beoogde metrische prestaties van alle ervaringen en stuurt meer nieuwkomers proportioneel naar de hoogwaardige ervaringen. Voldoende verkeer is gereserveerd om de andere ervaringen te onderzoeken. U kunt de voordelen van de activiteit op uw resultaten zien, zelfs terwijl de activiteit nog loopt: optimalisatie vindt plaats in combinatie met leren .
 
 [!UICONTROL Auto-Allocate] bezoekers gaan geleidelijk aan de winnende ervaringen op in plaats van te vereisen dat u wacht tot een activiteit eindigt om een winnaar te bepalen. U profiteert sneller van een lift omdat deelnemers aan activiteiten die naar minder succesvolle ervaringen zouden zijn gestuurd, potentiële winnende ervaringen kunnen laten zien.
 
-Als u de functie [!UICONTROL Auto-Allocate] gebruikt, wordt boven aan de pagina van de activiteit een badge weergegeven die aangeeft dat de activiteit het minimale aantal conversies met voldoende vertrouwen heeft bereikt. [!DNL Target] [!DNL Target] declareert vervolgens de winnende ervaring door een badge boven aan de pagina van de activiteit weer te geven.
+Als u de functie [!UICONTROL Auto-Allocate] gebruikt, wordt boven aan de pagina van de activiteit een badge weergegeven die aangeeft dat de activiteit het minimale aantal conversies met voldoende vertrouwen heeft bereikt. [!DNL Adobe Target] [!DNL Target] declareert vervolgens de winnende ervaring door een badge boven aan de pagina van de activiteit weer te geven.
 
 Zie [Overzicht automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) voor meer informatie.
 
 ## Adobe Target Samplegroottecalculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Als u een handmatige [!UICONTROL A/B Test] activiteit in plaats van [!UICONTROL Auto-Allocate] kiest, helpt [!DNL Target] de calculator van de Grootte van de Steekproef u de steekproefgrootte te bepalen nodig voor een succesvolle test. Een handmatige A/B-test is een test met een vaste horizon, zodat de calculator bijzonder nuttig is. Het gebruik van de calculator voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] een winnaar voor u declareert. De calculator geeft u een ruwe schatting van de steekproefgrootte nodig. Lees verder voor meer informatie over het gebruik van de rekenmachine.
+Als u een handmatige [!UICONTROL A/B Test] activiteit in plaats van [!UICONTROL Auto-Allocate] kiest, helpt [!DNL Target] de calculator van de Grootte van de Steekproef u de steekproefgrootte te bepalen nodig voor een succesvolle test. Een handmatige A/B-test is een test met een vaste horizon, zodat de calculator nuttig is. Het gebruik van de calculator voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] een winnaar voor u declareert. De calculator geeft u een ruwe schatting van de steekproefgrootte nodig. Lees verder voor meer informatie over het gebruik van de rekenmachine.
 
 Voordat u de A/B-test instelt, opent u de Adobe Target [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
 ![Adobe Target-voorbeeldgroottecalculator](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-Het is belangrijk om een adequate steekproefgrootte (aantal bezoekers) te bepalen alvorens een A/B test te doen om de tijd te bepalen dat de activiteit zou moeten lopen alvorens de resultaten te evalueren. Eenvoudig toezicht op de activiteit totdat statistische significantie wordt bereikt, leidt tot een veel te lage schatting van het betrouwbaarheidsinterval, waardoor de test onbetrouwbaar wordt. De intuïtie achter dit resultaat is dat, als een statistisch significant resultaat wordt vastgesteld, de test wordt stopgezet en een winnaar wordt gedeclareerd. Als het resultaat echter niet statistisch significant is, mag de test worden voortgezet. Deze procedure is sterk gunstig voor het positieve resultaat, waardoor de fout-positieve snelheid toeneemt en het effectieve significantieniveau van de test daardoor wordt verstoord.
+Het is belangrijk om een passende steekproefgrootte (aantal bezoekers) te bepalen alvorens een A/B test te doen om de tijd te bepalen dat de activiteit zou moeten lopen alvorens de resultaten te evalueren. Eenvoudig toezicht op de activiteit totdat statistische significantie wordt bereikt, leidt tot een veel te lage schatting van het betrouwbaarheidsinterval, waardoor de test onbetrouwbaar wordt. De intuïtie achter dit resultaat is dat, als een statistisch significant resultaat wordt vastgesteld, de test wordt stopgezet en een winnaar wordt gedeclareerd. Als het resultaat echter niet statistisch significant is, mag de test worden voortgezet. Deze procedure is sterk gunstig voor het positieve resultaat, waardoor de fout-positieve snelheid toeneemt en het effectieve significantieniveau van de test daardoor wordt verstoord.
 
-Dit kan leiden tot een groot aantal valse positieven, wat leidt tot de implementatie van aanbiedingen die op lange termijn niet de voorspelde lift leveren. Een slechte lift zelf is een onbevredigende uitkomst, maar een nog ernstiger gevolg is dat het onvermogen om de lift nauwkeurig te voorspellen, in de loop der tijd het organisatorische vertrouwen in het testen als praktijk ondermijnt.
+Dit kan leiden tot een groot aantal valse positieven, wat leidt tot de implementatie van aanbiedingen die uiteindelijk niet de voorspelde lift leveren. Een slechte lift zelf is een onbevredigende uitkomst, maar een nog ernstiger gevolg is dat het onvermogen om de lift nauwkeurig te voorspellen, in de loop der tijd het organisatorische vertrouwen in het testen als praktijk ondermijnt.
 
 In dit artikel worden de factoren besproken die in evenwicht moeten zijn wanneer een steekproefgrootte wordt bepaald en wordt een spreadsheetcalculator geïntroduceerd voor het schatten van een adequate steekproefgrootte. Als u de steekproefgrootte berekent met behulp van de voorbeeldgroottecalculator (koppeling hierboven) voordat een A/B-test begint, weet u zeker dat u altijd A/B-tests van hoge kwaliteit uitvoert die voldoen aan statistische standaarden.
 
@@ -60,7 +60,7 @@ Er zijn vijf user-defined parameters die een test A/B bepalen. Deze parameters z
 * Omrekeningskoers basislijn
 * Aantal bezoekers
 
-Voor een A/B-test worden de statistische significantie, het statistische vermogen, de minimale betrouwbaar detecteerbare lift en de basislijnconversiesnelheid door de analist vastgesteld en vervolgens wordt het vereiste aantal bezoekers berekend op basis van deze getallen. Dit artikel bespreekt deze elementen en geeft richtlijnen voor hoe te om deze voor een specifieke test te bepalen.
+Voor een A/B-test worden de statistische significantie, het statistische vermogen, de minimale betrouwbaar detecteerbare lift en de basislijnconversiesnelheid door de analist vastgesteld en vervolgens wordt het vereiste aantal bezoekers berekend op basis van deze getallen. Dit artikel bespreekt deze elementen en geeft richtlijnen voor hoe te om deze metriek voor een specifieke test te bepalen.
 
 ![](assets/samplesize.png)
 
@@ -68,13 +68,13 @@ In onderstaande afbeelding worden de vier mogelijke resultaten van een A/B-test 
 
 ![](assets/outcomes.png)
 
-Het is wenselijk om geen valse positieve of valse negatieven te krijgen. Dit kan echter nooit worden gegarandeerd door een statistische test. Het is altijd mogelijk dat waargenomen trends niet representatief zijn voor de onderliggende omrekeningskoersen. In een test om bijvoorbeeld te zien of koppen of staarten op een omdraaiing van een munt waarschijnlijker waren, zelfs met een eerlijke munt, kon je per toeval tien koppen op tien tenen krijgen. De statistische significantie en de macht helpen ons de vals positieve en vals negatieve cijfers te kwantificeren en ons in staat te stellen deze voor een bepaalde test op een redelijk niveau te houden.
+Het is wenselijk om geen valse positieve of valse negatieven te krijgen. Een statistische test kan echter nooit garanderen dat geen valse positieven worden verkregen. Het is altijd mogelijk dat waargenomen trends niet representatief zijn voor de onderliggende omrekeningskoersen. In een test om bijvoorbeeld te zien of koppen of staarten op een omdraaiing van een munt waarschijnlijker waren, zelfs met een eerlijke munt, kon je per toeval tien koppen op tien tenen krijgen. De statistische significantie en de macht helpen ons de vals positieve en vals negatieve cijfers te kwantificeren en ons in staat te stellen deze voor een bepaalde test op een redelijk niveau te houden.
 
 ### Statistische significantie {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
-Het significantieniveau van een test bepaalt hoe waarschijnlijk het is dat de test een significant verschil in omrekeningskoersen tussen twee verschillende aanbiedingen meldt, terwijl er in feite geen echt verschil is. Dit wordt een fout van het type I of positief genoemd. Het significantieniveau is een door de gebruiker opgegeven drempel en is een afweging tussen de tolerantie voor valse positieven en het aantal bezoekers dat in de test moet worden opgenomen.
+Het significantieniveau van een test bepaalt hoe waarschijnlijk het is dat de test een significant verschil in omrekeningskoersen tussen twee verschillende aanbiedingen meldt, terwijl er in feite geen echt verschil is. Deze situatie wordt een fout van het type I of een fout van het type I genoemd. Het significantieniveau is een door de gebruiker opgegeven drempel en is een afweging tussen de tolerantie voor valse positieven en het aantal bezoekers dat in de test moet worden opgenomen.
 
-Bij een A/B-test wordt er aanvankelijk van uitgegaan dat beide aanbiedingen dezelfde omrekeningskoers hebben. Vervolgens wordt de waarschijnlijkheid van het waargenomen resultaat berekend op basis van deze veronderstelling. Als deze waarschijnlijkheid (de p-waarde) kleiner is dan een vooraf gedefinieerde drempel (het significantieniveau), concludeert [!DNL Target] dat de oorspronkelijke veronderstelling (dat beide aanbiedingen dezelfde conversiekoers hebben) onjuist is en daarom de conversiekoersen van A en B statistisch verschillend zijn op het gegeven significantieniveau.
+Bij een A/B-test wordt er aanvankelijk van uitgegaan dat beide aanbiedingen dezelfde omrekeningskoers hebben. Vervolgens wordt de waarschijnlijkheid van het waargenomen resultaat berekend op basis van deze veronderstelling. Als deze waarschijnlijkheid (de p-waarde) kleiner is dan een vooraf gedefinieerde drempel (het significantieniveau), concludeert [!DNL Target] dat de aanvankelijke aanname (dat beide aanbiedingen dezelfde conversiekoers hebben) onjuist is. Daarom zijn de conversiekoersen van A en B statistisch verschillend op het gegeven significantieniveau.
 
 Een algemeen gebruikt significantieniveau bij A/B-tests is 5%, wat overeenkomt met een betrouwbaarheidsniveau van 95% (betrouwbaarheidsniveau = 100% - significantieniveau). Een betrouwbaarheidsniveau van 95% betekent dat er telkens als je een test doet, een kans van 5% is om een statistisch significante lift te detecteren, zelfs als er geen verschil is tussen de aanbiedingen.
 
@@ -94,9 +94,9 @@ Het is wenselijk het hoogst mogelijke betrouwbaarheidsniveau te gebruiken, zodat
 
 ### Statistisch vermogen {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-Het statistische vermogen van een A/B-test is de waarschijnlijkheid dat een reëel verschil in omrekeningskoers van een bepaalde omvang wordt opgespoord. Vanwege de willekeurige (stochastische) aard van conversiegebeurtenissen is het mogelijk dat een statistisch significant verschil niet wordt waargenomen, alleen toevallig, ook al is er een reëel verschil in conversiekoers tussen de twee aanbiedingen. Dit wordt een fout van het vals negatieve of type II genoemd.
+Het statistische vermogen van een A/B-test is de waarschijnlijkheid dat een reëel verschil in omrekeningskoers van een bepaalde omvang wordt opgespoord. Vanwege de willekeurige (stochastische) aard van conversiegebeurtenissen is het mogelijk dat een statistisch significant verschil niet wordt waargenomen, alleen toevallig, ook al is er een reëel verschil in conversiekoers tussen de twee aanbiedingen. Dit scenario wordt een fout van het vals negatieve of type II genoemd.
 
-De statistische macht wordt vaak genegeerd omdat de bepaling van het statistische vermogen, in tegenstelling tot de statistische significantie, niet vereist is voor een A/B-test. Door het statistische vermogen buiten beschouwing te laten, bestaat er echter een grote kans dat reële verschillen tussen de omrekeningskoersen van de verschillende aanbiedingen tijdens de test niet zullen worden opgespoord omdat de steekproefomvang te klein is. Dit heeft tot gevolg dat de tests worden gedomineerd door valse positieven.
+De statistische macht wordt vaak genegeerd omdat de bepaling van het statistische vermogen, in tegenstelling tot de statistische significantie, niet vereist is voor een A/B-test. Door het statistische vermogen buiten beschouwing te laten, bestaat er echter een grote kans dat reële verschillen tussen de omrekeningskoersen van de verschillende aanbiedingen tijdens de test niet zullen worden opgespoord omdat de steekproefgrootte te klein is. Dit heeft tot gevolg dat de tests worden gedomineerd door valse positieven.
 
 Het is wenselijk over een hoge statistische kracht te beschikken, zodat de test een grote kans heeft om een reëel verschil in omrekeningskoersen vast te stellen en minder valse negatieven oplevert. Er is echter een groter aantal bezoekers nodig om de statistische capaciteit voor het detecteren van een bepaalde lift te vergroten, waardoor de tijd die nodig is om de test uit te voeren, toeneemt.
 
@@ -104,7 +104,7 @@ Een algemeen gebruikte waarde voor het statistische vermogen is 80%, wat beteken
 
 ### Minimale betrouwbaar waarneembare lift {#section_6101367EE9634C298410BBC2148E33A9}
 
-De meeste organisaties willen het kleinst mogelijke verschil in conversiekoers meten omdat zelfs een kleine lift de implementatie waard is. Als u echter wilt dat de A/B-test een grote kans heeft om een zeer kleine lift te detecteren, zou het aantal bezoekers dat in de test moet worden opgenomen, buitensporig groot zijn. De reden hiervoor is dat, als het verschil in omrekeningskoers klein is, beide omrekeningskoersen zeer nauwkeurig moeten worden ingeschat om het verschil te kunnen vaststellen, wat een groot aantal bezoekers vereist. Daarom moet de minimale betrouwbare aantoonbare lift worden bepaald aan de hand van de bedrijfsvereisten, rekening houdend met de afwegingen tussen het opsporen van kleine liften en het gedurende langere tijd uitvoeren van de test.
+De meeste organisaties willen het kleinst mogelijke verschil in conversiekoers meten omdat zelfs een kleine lift de implementatie waard is. Als u echter wilt dat de A/B-test een grote kans heeft om een kleine lift te detecteren, is het aantal bezoekers dat in de test moet worden opgenomen, buitensporig groot. De reden hiervoor is dat, als het verschil in omrekeningskoers klein is, beide omrekeningskoersen zeer nauwkeurig moeten worden ingeschat om het verschil te kunnen vaststellen, wat veel bezoekers vereist. Daarom moet de minimale betrouwbare aantoonbare lift worden bepaald aan de hand van de bedrijfsvereisten, rekening houdend met de afwegingen tussen het opsporen van kleine liften en het gedurende langere tijd uitvoeren van de test.
 
 Stel dat twee aanbiedingen (A en B) werkelijke conversiekoersen hebben van respectievelijk 10% en 15%. Als deze aanbiedingen elk aan 100 bezoekers worden getoond, is er een kans van 95% om conversiekoersen in de waaier van 4% tot 16% voor aanbieding A en van 8% tot 22% voor aanbieding B als gevolg van het stochastische karakter van omzettingen in acht te nemen. Deze reeksen zijn bekend als betrouwbaarheidsintervallen in statistieken. Zij vertegenwoordigen het vertrouwen in de nauwkeurigheid van de geraamde omrekeningskoersen. Hoe groter de steekproefgrootte (meer bezoekers), des te betrouwbaarder kunt u zijn dat de ramingen van de omrekeningskoersen nauwkeurig zijn.
 
@@ -112,11 +112,11 @@ In de onderstaande afbeelding ziet u deze kansverdeling.
 
 ![](assets/probability_distributions.png)
 
-Wegens de grote overlapping tussen de twee bereiken, kan de test niet bepalen of de omzettingspercentages verschillend zijn. Daarom kan bij deze test met 100 bezoekers geen onderscheid worden gemaakt tussen de twee aanbiedingen. Maar als we de aanbiedingen aan 5.000 bezoekers elk onthullen, is er een kans van 95 procent dat de waargenomen omrekeningskoersen in de orde van grootte van 9 tot 11 procent en 14 tot 16 procent zullen dalen.
+Wegens de grote overlapping tussen de twee bereiken, kan de test niet bepalen of de omzettingspercentages verschillend zijn. Daarom kan bij deze test met 100 bezoekers geen onderscheid worden gemaakt tussen de twee aanbiedingen. Als Target echter elk de aanbiedingen aan 5000 bezoekers blootstelt, is er een kans van 95% dat de waargenomen omrekeningskoersen in de orde van grootte van 9% tot 11% en 14% tot 16% dalen.
 
 ![](assets/probability_distributions2.png)
 
-In dit geval is het zeer onwaarschijnlijk dat de test tot een verkeerde conclusie zal leiden, zodat de test met 5000 bezoekers een onderscheid kan maken tussen de twee aanbiedingen. De test met 5.000 bezoekers heeft een betrouwbaarheidsinterval van ongeveer +/-1%. Dit betekent dat de test verschillen van ongeveer 1% kan detecteren. Daarom zouden er nog meer bezoekers nodig zijn als de werkelijke omrekeningskoersen van de aanbiedingen bijvoorbeeld 10% en 10,5% waren in plaats van 10% en 15%.
+In dit geval is het onwaarschijnlijk dat de test tot een verkeerde conclusie leidt, zodat de test met 5000 bezoekers een onderscheid kan maken tussen de twee aanbiedingen. De test met 5.000 bezoekers heeft een betrouwbaarheidsinterval van ongeveer +/-1%. Dit betekent dat de test verschillen van ongeveer 1% kan detecteren. Daarom zouden er nog meer bezoekers nodig zijn als de werkelijke omrekeningskoersen van de aanbiedingen bijvoorbeeld 10% en 10,5% waren in plaats van 10% en 15%.
 
 ### Omrekeningskoers {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
@@ -161,6 +161,6 @@ Telkens wanneer u twee vergelijkt, is de kans om een fout-positief te krijgen (h
 
 ## Conclusie {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Door een [!UICONTROL Auto-Allocate] activiteit te gebruiken, identificeert [!DNL Target] een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren. [!UICONTROL Auto-Allocate] maakt het gemakkelijk om uw omzettingsdoelstellingen te bereiken terwijl het verwijderen van het gokken-werk.
+Door een [!UICONTROL Auto-Allocate] activiteit te gebruiken, identificeert [!DNL Target] een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren. [!UICONTROL Auto-Allocate] maakt het gemakkelijk om uw omzettingsdoelstellingen te bereiken terwijl het verwijderen van gokken-werk.
 
-Door de voorbeeldgroottecalculator (bovenstaande koppeling) te gebruiken die in dit artikel is geïntroduceerd en de test te laten uitvoeren voor de hoeveelheid tijd die door deze wordt voorgesteld, kunt u ervoor zorgen dat u altijd A/B-tests van hoge kwaliteit uitvoert die voldoen aan de fout-positieve en fout-negatieve waarden die u hebt bepaald, zijn geschikt voor de specifieke test. Dit zorgt ervoor dat uw tests verenigbaar zijn en de lift betrouwbaar kunnen ontdekken u zoekt.
+Door de voorbeeldgroottecalculator (hierboven beschreven link) te gebruiken die in dit artikel is geïntroduceerd en de test te laten uitvoeren voor de hoeveelheid tijd die door de test wordt voorgesteld, kunt u ervoor zorgen dat u altijd A/B tests van hoge kwaliteit doet die aan vals positieve en vals negatieve tarieven houden u hebt besloten voor de specifieke test adequaat zijn. Dit zorgt ervoor dat uw tests verenigbaar zijn en de lift betrouwbaar kunnen ontdekken u zoekt.
