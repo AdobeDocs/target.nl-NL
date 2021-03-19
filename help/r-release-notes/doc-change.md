@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 6a1f51cba34038abc3c73fa5cf88bfab183dfb28
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '3756'
+source-wordcount: '3779'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 12 maart 2021 | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | De volgende nieuwe zelfstudie is toegevoegd:<ul><li>A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten</li></ul> |
+| 19 maart | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Volgende veelgestelde vragen toegevoegd:<ul><li>Waarom zie ik nog meer indrukken nadat mijn activiteit is gedeactiveerd?</li></ul> |
+| 12 maart | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | De volgende nieuwe zelfstudie is toegevoegd:<ul><li>A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten</li></ul> |
 | 9 maart | [Limieten](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>De toegestane limiet voor de aanbiedingsgrootte is bijgewerkt.</li><li>Correctie van de tekenlimiet voor de parameter categoryId.</li></ul> |
 |  | [Lijst van gewenste personen randknooppunten doel](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Bijgewerkte [!DNL Target] rand IP adressen. |
 |  | [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md) | Toegevoegde tekst die aangeeft dat entity.value een decimale notatie moet hebben (bijvoorbeeld 15.99 in plaats van 15.99). |
