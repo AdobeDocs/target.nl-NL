@@ -2,12 +2,12 @@
 keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
 description: Leer hoe te om reactietokens in de output van Adobe Target specifieke informatie te gebruiken in het zuiveren en het integreren met derdesystemen (zoals Clicktale).
 title: Wat zijn reactietokens en hoe gebruik ik deze?
-feature: Administration & Configuration
-role: Administrator
+feature: Beheer en configuratie
+role: Beheerder
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1559'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat terwijl in
 
 >[!NOTE]
 >
->Responstempels zijn beschikbaar bij at.js 1.1 of hoger. Responstempels worden niet ondersteund met mbox.js.
+>Responstempels zijn beschikbaar bij at.js 1.1 of hoger.
 
 | Doelbibliotheek in gebruik | Voorgestelde handelingen |
 |--- |--- |
