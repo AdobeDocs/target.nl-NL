@@ -2,11 +2,11 @@
 keywords: qa;voorvertoning;voorvertoning koppelingen;adobe target;target
 description: Leer hoe te om Adobe Target QA URLs te gebruiken om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
 title: Hoe kan ik QA-activiteiten uitvoeren?
-feature: Activities
+feature: Activiteiten
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
    >[!NOTE]
    >
-   >Dit geldt voor at.js-implementaties met versie 2.** xor later. Voor om.js 1.*Dit geldt alleen voor* xand mbox.js-implementaties als de browser van de bezoeker cookies van derden niet blokkeert.
+   >Dit geldt voor at.js-implementaties met versie 2.** xor later. Voor om.js 1.*Dit is alleen van* toepassing als de browser van de bezoeker cookies van derden niet blokkeert.
 
 ## Toegang tot en het Delen van een URL QA {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -48,7 +48,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
       Als deze instelling wordt uitgeschakeld, kunt u het volgende overwegen:
 
-      * Als er botsingen tussen de activiteit zijn u test en andere levende activiteiten, [normale prioritaire regels](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) zijn van toepassing. Hierdoor is het mogelijk dat je de activiteit die je wilt uitvoeren, niet ziet.
+      * Als er botsingen zijn tussen de activiteit u test en andere levende activiteiten, [normale prioritaire regels](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) zijn van toepassing. Hierdoor is het mogelijk dat je de activiteit die je wilt uitvoeren, niet ziet.
       * De toename van metriek voor de bekeken activiteiten, maar slechts in het QA rapporterend milieu.
 
 1. Klik **[!UICONTROL Done]** om uw veranderingen te bewaren.
@@ -58,7 +58,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
    Elke Activity Link-URL (voor bijv. A, Exp B, enz.) Hiermee kunt u de gebruikersreis starten vanuit de bijbehorende ervaring. U kunt op de URL klikken die voor een ervaring is gegenereerd en vervolgens doorgaan met het bladeren door de normale site om ervaringen op meerdere pagina&#39;s te zien (als er meerdere pagina&#39;s zijn). Er wordt slechts één URL gegenereerd per ervaring, zelfs als de ervaring meerdere pagina&#39;s beslaat (sjabloontesten of meerdere pagina&#39;s testen).
 
-   U kunt op de site navigeren om de andere pagina&#39;s weer te geven, omdat Activiteit QA kleverig is. Merk op dat dit voor implementaties at.js met versie 2 waar is.** xor later. Voor om.js 1.*Dit geldt alleen voor* xand mbox.js-implementaties als de browser van de bezoeker cookies van derden niet blokkeert.
+   U kunt op de site navigeren om de andere pagina&#39;s weer te geven, omdat Activiteit QA kleverig is. Merk op dat dit voor implementaties at.js met versie 2 waar is.** xor later. Voor om.js 1.*Dit is alleen van* toepassing als de browser van de bezoeker cookies van derden niet blokkeert.
 
 1. Als u rapporten wilt bekijken die zijn gegenereerd via Activity Link URL&#39;s, klikt u op de pagina **[!UICONTROL Reports]** van de activiteit, klikt u op het pictogram **[!UICONTROL Settings]** ( ![](assets/icon_gear.png) ) en selecteert u **[!UICONTROL QA Mode]** in de vervolgkeuzelijst **[!UICONTROL Environment]**.
 
@@ -81,9 +81,9 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
    Vanwege deze dubbele codering, wanneer we `at_preview_token` proberen te decoderen, kan Target niet de juiste tokenwaarde extraheren, waardoor de voorvertoning niet werkt.
 
-   Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters worden toegevoegd op lijst van gewenste personen zodat deze waarden op geen enkele manier worden getransformeerd.
+   Wij adviseren dat u met uw team van IT spreekt om ervoor te zorgen dat alle voorproefparameters worden gevoegd op lijst van gewenste personen zodat deze waarden op geen enkele manier worden getransformeerd.
 
-   De volgende lijst maakt een lijst van de parameters die in uw domein kunnen worden toegevoegd op lijst van gewenste personen:
+   De volgende lijst maakt een lijst van de parameters die in uw domein kunnen worden gevoegd op lijst van gewenste personen:
 
    | Parameter | Type | Waarde | Beschrijving |
    |--- |--- |--- |--- |
@@ -93,6 +93,6 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
    | `at_preview_evaluate_as_true_audience_ids` | String | Leeg | Onderstrepingsteken-gescheiden (&quot;_&quot;) lijst van segmentId-s die altijd (bij gericht en rapporteringsniveau) als &quot;waar&quot;in het werkingsgebied van [!DNL Target] verzoek zou moeten worden beoordeeld. |
    | `_AT_Debug` | String | Venster of console | Logboekregistratie voor console of nieuw venster. |
    | `adobe_mc_ref` |  |  | Geeft de verwijzende URL van de standaardpagina door aan de nieuwe pagina. Als `AppMeasurement.js` versie 2.1 (of hoger) wordt gebruikt, gebruikt [!DNL Adobe Analytics] deze parameterwaarde als verwijzende URL op de nieuwe pagina. |
-   | `adobe_mc_sdid` |  |  | Geeft de [!DNL Supplemental Data Id] (SDID) en [!DNL Experience Cloud Org Id] van de standaardpagina door aan de nieuwe pagina zodat Analytics for Target (A4T) het verzoek van het Doel op de standaardpagina met het verzoek van de Analytics op de nieuwe pagina &quot;samenvoegt&quot;. |
+   | `adobe_mc_sdid` |  |  | Geeft de [!DNL Supplemental Data Id] (SDID) en [!DNL Experience Cloud Org Id] van de standaardpagina door aan de nieuwe pagina zodat Analytics for Target (A4T) het verzoek van het Doel op de standaardpagina met het verzoek Analytics op de nieuwe pagina &quot;samenvoegt&quot;. |
 
 * De interface van de Wijze van het Doel QA toont enkel eerste URL van een ervaring in een multi-paginaactiviteit. De veronderstelling is dat u een reistest creeert en u zich van URL1 aan URL2 zult bewegen. Als u echter onafhankelijk naar URL2 wilt gaan, kopieert u alle URL-parameters die via URL1 zijn opgegeven en past u deze toe op URL2 nadat u een &#39;?&#39; hebt geplaatst net als in URL1.
