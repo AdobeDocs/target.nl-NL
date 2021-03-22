@@ -2,12 +2,12 @@
 keywords: werkruimten;beheren eigenschap;machtigingen;productconfiguratie;productprofiel;rollen;project
 description: Leer hoe u afzonderlijke werkruimten (productprofielen) maakt en gebruikers vervolgens verschillende rollen en machtigingen toewijst voor afzonderlijke pagina's, eigenschappen of websites.
 title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebruik ik hen?
-feature: Administration & Configuration
-role: Administrator
+feature: Beheer en configuratie
+role: Beheerder
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '3027'
+source-wordcount: '2991'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # ![Gebruikersmachtigingen ](/help/assets/premium.png) PREMIUMEEnterprise{#enterprise-user-permissions}
 
-De gebruikerstoestemmingen van de onderneming zijn een middel om formele toegang van de gebruiker op bedrijfsniveau tot [!DNL Target] te beheren. Voeg gebruikers aan [!DNL Target] toe, wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen van [!UICONTROL Observer], [!UICONTROL Editor], of [!UICONTROL Approver] toewijzen.
+De gebruikerstoestemmingen van de onderneming zijn een middel om formele toegang van de gebruiker op bedrijfsniveau tot [!DNL Adobe Target] te beheren. Voeg gebruikers aan [!DNL Target] toe, wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen van [!UICONTROL Observer], [!UICONTROL Editor], of [!UICONTROL Approver] toewijzen.
 
 ## Bepaal of u toegang hebt tot bedrijfsgebruikersmachtigingen
 
@@ -23,11 +23,11 @@ De gebruikerstoestemmingen van de onderneming zijn een middel om formele toegang
 >
 >De eigenschappen en de functionaliteit van Toestemmingen is beschikbaar als deel van de [!DNL Target] Oplossing van de Premie. Ze zijn niet beschikbaar in [!DNL Target] Standard zonder een [!DNL Target] Premium-licentie.
 >
->Uw [!DNL Target]-implementatie kan elke versie van at.js of mbox.js gebruiken.
+>Uw [!DNL Target]-implementatie kan elke versie van at.js gebruiken.
 
 U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de koppeling [!UICONTROL Administration] boven aan de interface [!DNL Target] te klikken.
 
-* **[!DNL Target Standard]Klanten**: Als u het  [!UICONTROL Users] tabblad ([!UICONTROL Adminitration > Users]) ziet (en niet het  [!UICONTROL Properties] tabblad), heeft uw organisatie een  [!DNL Target Standard] licentie. [!DNL Target Standard]klanten moeten de instructies in  [](/help/administrating-target/c-user-management/c-user-management/user-management.md) Gebruikers volgen om gebruikers toe te voegen en machtigingen in de  [!DNL Adobe Admin Console]gebruikerslijst toe te wijzen.
+* **[!DNL Target Standard]Klanten**: Als u het  [!UICONTROL Users] tabblad ([!UICONTROL Administration > Users]) ziet (en niet het  [!UICONTROL Properties] tabblad), heeft uw organisatie een  [!DNL Target Standard] licentie. [!DNL Target Standard] klanten moeten de instructies in  [](/help/administrating-target/c-user-management/c-user-management/user-management.md) Gebruikers volgen om gebruikers toe te voegen en machtigingen in de  [!DNL Adobe Admin Console]gebruikerslijst toe te wijzen.
 
 * **[!DNL Target Premium]Klanten**: Als u het  [!UICONTROL Properties] tabblad ([!UICONTROL Administration > Properties]) en het  [!UICONTROL Users] tabblad ziet, heeft uw organisatie een  [!DNL Target Premium] licentie. [!DNL Target Premium] klanten moeten de instructies in dit artikel en in  [Configure ondernemingstoestemmingen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) volgen.
 
@@ -43,11 +43,11 @@ De volgende termen worden in deze sectie gebruikt en zijn mogelijk nieuw voor ge
 
 ### Eigenschap
 
-De eigenschappen zijn gelijkaardig in aard aan die binnen [!DNL Adobe Platform Launch] in zoverre dat zij een uniek codefragment gebruiken om hen te onderscheiden.
+De eigenschappen zijn van nature gelijkaardig aan eigenschappen binnen [!DNL Adobe Platform Launch] in zoverre dat zij een uniek codefragment gebruiken om hen te onderscheiden.
 
 Een webeigenschap is een bibliotheek met regels en één insluitcode. Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen zijn.
 
-Eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter met om het even welke vraag (de vraag van het Doel, api vraag, enz.) toe te voegen tot [!DNL Target].
+De eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter met om het even welke vraag (de vraag van het Doel, api vraag, etc.) aan [!DNL Target] toe te voegen.
 
 Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, of API/Overige).
 
@@ -65,7 +65,7 @@ Gebruikers kunnen verschillende weergaven van [!DNL Adobe Target] hebben door te
 
 De werkruimten kunnen volledige verschillende soorten publiek, codeaanbiedingen, en activiteiten omvatten.
 
-Alle publiek en activiteiten die vóór de nieuwe modelmigratie van de Toestemmingen van de Onderneming worden gecreeerd zullen samen in &quot;StandaardWerkruimte worden gegroepeerd,&quot;hieronder besproken.
+Alle publiek en activiteiten die vóór de nieuwe modelmigratie van de Toestemmingen van de Onderneming worden gecreeerd worden gegroepeerd in &quot;StandaardWerkruimte,&quot;hieronder besproken.
 
 Alle activiteiten die worden gemaakt via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] en [!DNL Adobe Target Classic] maken deel uit van de standaardwerkruimte.
 
@@ -77,11 +77,11 @@ Alle bestaande werkruimten (productprofielen) in [!DNL Admin Console] worden sam
 >
 >Verwijder de standaardwerkruimte niet.
 
-Alle gebruikersrollen en toegang tot alle functionaliteit [!DNL Target] blijven precies het zelfde als zij voorafgaand aan de migratie aan het nieuwe model van de Toestemmingen van de Onderneming waren.
+Alle gebruikersrollen en toegang tot alle [!DNL Target] functionaliteit blijven het zelfde als zij vóór de migratie aan het nieuwe model van de Toestemmingen van de Onderneming waren.
 
 ### Gebruikersgroepen
 
-U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Executives, enz., en vervolgens rechten toewijzen voor meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid alle aangewezen voorrechten over verschillende producten van de Adobe kan zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
+U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Managers enzovoort. Vervolgens kunt u rechten toewijzen voor meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid alle aangewezen voorrechten over verschillende producten van de Adobe kan zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
 
 ### Rollen en machtigingen
 
@@ -98,13 +98,13 @@ De rollen en de toestemmingen bepalen de toegangsniveaus die de gebruikers activ
 
 Het kanaal verwijst naar het inhoudstype van waar uw [!DNL Target] activiteiten worden geleverd: webpagina&#39;s, mobiele apps, e-mailberichten enzovoort.
 
-Wanneer u een nieuwe activiteit creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte. U ziet de opties voor kanaalselectie in het eerste dialoogvenster waarin u het gewenste kanaal voor de activiteit kunt kiezen: Web, Mobile App, Email of Other/API.
+Wanneer u een activiteit creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte. U ziet de opties voor kanaalselectie in het eerste dialoogvenster waarin u het gewenste kanaal voor de activiteit kunt kiezen: Web, Mobile App, Email of Other/API.
 
 ## Overzicht van machtigingen {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 De volgende informatie verklaart de manier de toestemmingen eerder in [!DNL Target] werden afgedwongen en hoe zij gebruikend [!UICONTROL Properties] en [!UICONTROL Permissions] functionaliteit worden afgedwongen.
 
-De nieuwe [!UICONTROL Permissions] functionaliteit laat u verschillende projecten (genoemd &quot;Profielen van het Product&quot;in [!DNL Adobe Admin Console for Enterprise]) tot stand brengen om u toe te staan om verschillende toestemmingen voor één enkele gebruiker toe te wijzen die de toegangsrechten van die gebruiker voor elk project dicteren. Deze verschillende projecten kunnen worden vergeleken met de manier dat de rapportreeksen in [!DNL Adobe Analytics] werken. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave-, bewerkings- en goedkeuringstoegang kunnen beperken tot hun gebruikers op basis van regio, omgeving (dev/stage/prod), kanaal of andere aangepaste criteria, zoals hieronder wordt weergegeven:
+Met de nieuwe [!UICONTROL Permissions]-functionaliteit kunt u verschillende projecten maken (de zogenaamde &quot;productprofielen&quot; in de [!DNL Adobe Admin Console for Enterprise]). De projecten staan u toe om verschillende toestemmingen voor één enkele gebruiker toe te wijzen die de toegangsrechten van die gebruiker voor elk project dicteren. Deze verschillende projecten kunnen worden vergeleken met de manier dat de rapportreeksen in [!DNL Adobe Analytics] werken. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave, bewerking en goedkeuringstoegang kunnen beperken tot hun gebruikers op basis van regio, omgeving (dvd/stage/prod), kanaal of andere aangepaste criteria, zoals hieronder wordt getoond:
 
 ![](assets/permissions.png)
 
@@ -133,7 +133,7 @@ Het nieuwe [!DNL Target] [!UICONTROL Permissions] model heeft de zelfde drie toe
 
 In dit voorbeeld heeft Jan de toestemmingen van de fiatteur aan de Homepage van de V.S. en de Plaats en de toestemmingen van de Waarnemer aan de Plaats van Frankrijk.
 
-Bovendien zal Jan pagina&#39;s, eigenschappen, of plaatsen in [!DNL Target] niet kunnen zien die zij geen toestemmingen heeft om te zien, zoals hieronder getoond:
+Bovendien kan Jan geen pagina&#39;s, eigenschappen, of plaatsen in [!DNL Target] zien die zij geen toestemmingen heeft om te zien, zoals hieronder getoond:
 
 ![](assets/permissions_4.png)
 
@@ -146,7 +146,7 @@ De volgende gebruiksgevallen kunnen nuttig zijn om te begrijpen hoe eigenschappe
 ### Meernationale organisatie
 
 Als u deel uitmaakt van een multinationale organisatie, hebt u mogelijk een werkruimte voor uw Europese webpagina&#39;s, eigenschappen of sites en een andere werkruimte voor uw Amerikaanse webpagina&#39;s, eigenschappen of sites.
-Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou u opstelling werkruimten en toestemmingen gelijkend op het volgende kunnen:
+Na een reorganisatie kunt u met de personen in de bovenstaande afbeeldingen werkruimten en machtigingen instellen, vergelijkbaar met de volgende:
 
 * **Jan**: Jan is het hoofd van Optimalisatie in het Centrum van Uitmuntendheid voor de Web-pagina&#39;s, de eigenschappen, en de plaatsen van haar organisatie van de Verenigde Staten. Ze heeft waarschijnlijk rechten voor Systeembeheer in de Adobe Experience Cloud.
 
@@ -158,7 +158,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Ernie**: Ernie is een marketingmanager van de organisatie die in de Verenigde Staten verantwoordelijk is voor marketing.
 
-   Omdat Ernie vrij nieuw aan de organisatie en enigszins onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Homepage van de V.S., Plaats, en de Pagina&#39;s van het Product van de V.S. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn, maar hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring, zoals Jan goedkeuren, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
+   Omdat Ernie vrij nieuw aan de organisatie en onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Homepage van de V.S., Plaats, en de Pagina&#39;s van het Product van de V.S. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring, zoals Jan goedkeuren, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
 
    Omdat Ernie geen rol heeft die hem vereist om de Russische Site, de Plaats van Frankrijk, of de Plaats van Careers te zien, kan hij geen activiteiten voor die plaatsen zien.
 
@@ -180,7 +180,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Ernie**: Ernie is een marketingmanager voor de organisatie die verantwoordelijk is voor marketing in de ruimte tussen consument en product.
 
-   Omdat Ernie vrij nieuw aan de organisatie en enigszins onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Plaats van de Consumenten. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn, maar hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring voor de Plaats van de Consumenten goedkeuren, maar niet Jan in dit scenario, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
+   Omdat Ernie vrij nieuw aan de organisatie en onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Plaats van de Consumenten. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring voor de Plaats van de Consumenten goedkeuren, maar niet Jan in dit scenario, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
 
    Omdat Ernie geen rol heeft die hem ertoe noopt de Ziekenhuis te zien, kan hij geen activiteiten voor die plaats zien.
 
@@ -194,12 +194,12 @@ De nieuwe functionaliteit van Toestemmingen kan op diverse plaatsen in [!DNL Tar
 
    ![](assets/workspace_drop-down.png)
 
-* **Maken van activiteit:** wanneer u een nieuwe activiteit creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte. U ziet de opties voor kanaalselectie in het eerste dialoogvenster waarin u het gewenste kanaal voor de activiteit kunt kiezen: Web, Mobile App, Email of Other/API.
+* **Activiteiten maken:** wanneer u een activiteit maakt, wordt deze gemaakt in de momenteel geselecteerde werkruimte. U ziet de opties voor kanaalselectie in het eerste dialoogvenster waarin u het gewenste kanaal voor de activiteit kunt kiezen: Web, Mobile App, Email of Other/API.
 
    ![](assets/channel_options.png)
 
-* **Publiek maken:** wanneer u een nieuw publiek maakt, wordt dit gemaakt in de momenteel geselecteerde werkruimte.
-* **Aanbieding maken:** wanneer u een nieuwe aanbieding maakt, wordt deze gemaakt in de momenteel geselecteerde werkruimte.
+* **Publiek maken:** wanneer u een publiek maakt, wordt dit gemaakt in de momenteel geselecteerde werkruimte.
+* **Aanbieding maken:** wanneer u een aanbieding maakt, wordt deze gemaakt in de momenteel geselecteerde werkruimte.
 * **Pagina Eigenschappen (Beheer > Eigenschappen):** u kunt het  [!UICONTROL Search] vak gebruiken om in de  [!UICONTROL Property] lijst te zoeken.
 
    ![](assets/properties_list.png)
@@ -208,11 +208,11 @@ De nieuwe functionaliteit van Toestemmingen kan op diverse plaatsen in [!DNL Tar
 
 Overweeg het volgende wanneer het gebruiken van of het vormen eigenschappen en toestemmingen in [!DNL Target] Premium:
 
-* **Belangrijk**: U mag geen werkruimten met activiteiten verwijderen. Als dit gebeurt, werkt u samen met de klantenservice om die activiteiten te herstellen.
+* **Belangrijk**: U mag geen werkruimten met activiteiten verwijderen. Als u een werkruimte met activiteiten schrapt, werk met klantenzorg om die activiteiten terug te krijgen.
 * Wanneer het gebruiken van Al Mijn mening van Werkruimten:
 
    * U kunt activiteiten, publiek, en aanbiedingen voor alle werkruimten zien die u de juiste rollen en toestemmingen hebt om toegang te hebben.
-   * Wanneer u Al Mijn mening van Werkruimten selecteert, wordt een nieuwe kolom toegevoegd aan de Activiteiten, Soorten publiek, en pagina van Aanbiedingen die van de werkruimte van het punt en uw gebruikerstoestemming verbonden aan dat punt (Waarnemer, Redacteur, of Approver) een lijst maken,
+   * Wanneer u de weergave [!UICONTROL All My Workspaces] selecteert, wordt een nieuwe kolom toegevoegd aan de pagina Activiteiten, Soorten publiek en Aanbiedingen. Deze kolom maakt een lijst van de werkruimte van het punt en uw gebruikerstoestemming verbonden aan dat punt (Observer, Redacteur, of Approver),
    * Wanneer u een activiteit, publiek of aanbieding maakt in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gemaakt. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
    * Wanneer u een activiteit, een publiek of een aanbieding kopieert in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gekopieerd. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
 
@@ -229,11 +229,11 @@ Overweeg het volgende wanneer het gebruiken van of het vormen eigenschappen en t
    * Gebruikers
 
 * Gebruikers kunnen bronnen niet van de ene werkruimte (productprofiel) naar de andere verplaatsen. Kopiëren wordt echter ondersteund.
-* Wanneer het bekijken van publiek van de [!DNL Audiences] pagina, laadt de pagina langzamer dan verwacht. Als u op een of andere manier met de zoekbalk werkt, worden de doelgroepen sneller weergegeven. Dit is een bekend probleem en wordt in een volgende update opgelost. Dit probleem heeft geen invloed op het selecteren van doelgroepen tijdens de workflow voor het maken van activiteiten.
+* Wanneer het bekijken van publiek van de [!DNL Audiences] pagina, laadt de pagina langzamer dan verwacht. Als u op een of andere manier met de zoekbalk werkt, worden de doelgroepen sneller weergegeven. Dit probleem is bekend en wordt in een volgende update opgelost. Dit probleem heeft geen invloed op het selecteren van doelgroepen tijdens de workflow voor het maken van activiteiten.
 * De volgende middelen maken deel uit van het nieuwe model van de Toestemmingen van de Onderneming:
 
    * Activiteiten, publiek en codeaanbiedingen die binnen Standaard/Premium van het Doel worden gecreeerd nadat de klant voor toestemmingen wordt toegelaten. (Opmerking: klanten moeten recht hebben op Target Premium.)
-   * Eigenschappen kunnen worden toegevoegd aan bestaande activiteiten in de standaardwerkruimte. dit kan echter veranderen .
+   * Eigenschappen kunnen worden toegevoegd aan bestaande activiteiten in de standaardwerkruimte. deze aanpak kan echter worden gewijzigd .
    * Alleen nieuwe bronnen (zoals activiteiten, codeaanbiedingen en publiek) die zijn gemaakt in Target Premium (nadat Enterprise-machtigingen zijn ingeschakeld) zijn beschikbaar om te worden beperkt door machtigingen.
    * Externe bronnen zijn alleen beschikbaar voor gebruikers in de standaardwerkruimte. De rol van een gebruiker in de Standaardwerkruimte wordt globaal toegepast (op alle doelverzoeken en alle doelbronnen).
 
@@ -241,18 +241,18 @@ Overweeg het volgende wanneer het gebruiken van of het vormen eigenschappen en t
 
    * Afbeeldingsaanbiedingen
    * Alle Recommendations-bronnen, inclusief Criteria Library, Design Library, Catalog en Recommendations Setup.
-   * Bestaande bronnen (zoals activiteiten, codeaanbiedingen en publiek) die zijn gemaakt in Target Premium voordat bedrijfsmachtigingen worden ingeschakeld, kunnen worden gekopieerd, maar kunnen niet naar andere werkruimten worden verplaatst.
-   * De activiteiten, het publiek, de codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar zullen deel van de StandaardWerkruimte uitmaken: Doel: Klassiek, Adobe Experience Manager (AEM), Mobiele Adobe-services en bronnen die via API zijn gemaakt. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
-   * Aanbiedingen voor images (middelen die zijn opgeslagen onder `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kunnen op dit moment niet worden beheerd door het model voor machtigingen voor ondernemingen.
-   * clickTracking en redirects zullen slechts werken wanneer de bestemmingsverbinding of bestemmingspagina deel van een bezit uitmaken dat in de activiteit inbegrepen is. Daarnaast werkt clickTracking mogelijk niet wanneer de functie `targetPageParams()` wordt gebruikt. De functie `targetPageParamsAll()` wordt aanbevolen.
+   * Bestaande bronnen (zoals activiteiten, codeaanbiedingen en publiek) die zijn gemaakt in Target Premium voordat u Enterprise-machtigingen inschakelt, kunnen worden gekopieerd, maar kunnen niet naar andere werkruimten worden verplaatst.
+   * De activiteiten, het publiek, de codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar maken deel uit van de StandaardWerkruimte: Doel: Klassiek, Adobe Experience Manager (AEM), Mobiele Adobe-services en bronnen die via API zijn gemaakt. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
+   * Aanbiedingen voor afbeeldingen (middelen die zijn opgeslagen onder `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kunnen momenteel niet worden beheerd door het machtigingenmodel voor ondernemingen.
+   * clickTracking en richt werk opnieuw wanneer de bestemmingsverbinding of bestemmingspagina deel van een bezit uitmaken dat in de activiteit inbegrepen is. Ook, kan clickTracking niet werken wanneer het gebruiken van de `targetPageParams()` functie. De functie `targetPageParamsAll()` wordt aanbevolen.
 
-   [!DNL Target] vereist momenteel dat er een  `at_property` token aanwezig is op elke pagina waar tekstspatiëring plaatsvindt. Als het token (1) niet aanwezig is, (2) niet wordt gedetecteerd op het moment dat de activiteit wordt ingesteld (binnen de VEC) of (3) niet wordt doorgegeven aan de clickTracking Target-aanroep via de functie `targetPageParamsAll()`, wordt de metrische waarde niet verhoogd en wordt deze weergegeven als &quot;0.&quot;
+   [!DNL Target] vereist momenteel dat er een  `at_property` token aanwezig is op elke pagina waar tekstspatiëring plaatsvindt. Als het teken (1) niet aanwezig is, (2) niet op het tijdstip van activiteitenopstelling (binnen VEC) wordt ontdekt, of (3) niet overgegaan tot de clickTracking van de vraag van het Doel via de `targetPageParamsAll()` functie, wordt metrisch niet verhoogd en verschijnt als &quot;0.&quot;
 
    Hetzelfde geldt voor activiteiten die omleidingen gebruiken. De bestemmingspagina moet een `at_property` teken hebben en op het tijdstip van opstelling binnen VEC worden erkend.
 
    In een toekomstige release werkt Target op pagina&#39;s waar geen `at_property`-token aanwezig is of op pagina&#39;s waar een ander `at_property`-token aanwezig is.
 
-* De functionaliteit voor gebruikersmachtigingen voor ondernemingen wordt niet ondersteund in [Adobe I/O API-aanroepen](https://developers.adobetarget.com).
+* De functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming wordt niet gesteund in [Adobe I/O API vraag](https://developers.adobetarget.com).
 
 ## Veelgestelde vragen {#faqs}
 
@@ -262,23 +262,23 @@ Veelgestelde vragen over bedrijfsmachtigingen zijn onder andere:
 
 Helaas kunt u activiteiten niet van de ene werkruimte naar de andere verplaatsen. U kunt een activiteit echter naar elke werkruimte kopiëren in de wetenschap dat de rapportgegevens niet worden overgedragen. Voor meer informatie, zie &quot;het Kopiëren/het uitgeven van een Activiteit wanneer het Gebruiken van Werkruimten&quot;in [het kopiëren van/het uitgeven van een Activiteit wanneer het Gebruiken van Werkruimten](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Activiteiten die vóór de migratie zijn gemaakt, worden in de standaardwerkruimte op dezelfde manier uitgevoerd, tenzij ze worden bewerkt en toegewezen eigenschappen. Activiteiten in een specifieke werkruimte zullen de eigenschappen respecteren die aan die werkruimte zijn toegewezen, zodat het gedrag mogelijk niet hetzelfde blijft als vóór de migratie.
+Activiteiten die vóór de migratie zijn gemaakt, worden in de standaardwerkruimte op dezelfde manier uitgevoerd, tenzij ze worden bewerkt en toegewezen eigenschappen. Activiteiten die onder een specifieke werkruimte vallen, respecteren de eigenschappen die aan die werkruimte zijn toegewezen, zodat het gedrag mogelijk niet hetzelfde blijft als vóór de migratie.
 
 ### Waarom krijg ik een foutenmelding erop wijst die dat geen bezit aan deze activiteit wordt geassocieerd, alhoewel er een toegewezen bezit is?
 
-Als u [!DNL Target] met [!DNL Adobe Launch] hebt uitgevoerd en een foutenmelding krijgt erop wijzend dat er geen bezit verbonden aan de activiteit is, ga de `at_property` parameter met de `targetPageParams` functie over.
+Als u [!DNL Target] met [!DNL Adobe Experience Platform Launch] hebt uitgevoerd en een foutenmelding krijgt erop wijzend dat er geen bezit verbonden aan de activiteit is, ga de `at_property` parameter met de `targetPageParams` functie over.
 
 ### Zijn klikspooromzettingen geregistreerd als een omleidingspagina en activiteit URL tot verschillende eigenschappen behoren?
 
 Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren.
 
-Overweeg het volgende scenario (van toepassing op zowel at.js als mbox.js):
+Overweeg het volgende scenario:
 
 * Pagina1 behoort tot Eigenschap1.
 * Pagina2 behoort tot Eigenschap2.
 * In de activiteit, richt Pagina1 zich aan Pagina2, die kliksporen bevat.
 
-Wanneer een bezoeker Pagina1 in browser opent, wordt hij of zij opnieuw gericht aan Pagina2. Omdat Page2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van het Doel geen kliksporen in zijn reactie.
+Wanneer een bezoeker Pagina1 in browser opent, wordt de bezoeker opnieuw gericht aan Pagina2. Omdat Page2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van het Doel geen kliksporen in zijn reactie.
 
 Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Zie [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md) voor meer informatie.
 
@@ -307,6 +307,6 @@ Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leid
 
 >[!NOTE]
 >
->De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
+>De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is correct. de opties kunnen zich echter op iets andere locaties bevinden .
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
