@@ -1,19 +1,19 @@
 ---
-keywords: host;hosts;hostgroep;problemen oplossen;aanbevolen procedures;ubox;omleiding;omleiding;whitelist;lijst van gewenste personen;zwarte lijst;lijst van afgewezen personen
+keywords: host;hosts;hostgroep;problemen oplossen;aanbevolen procedures;ubox;omleiding;omleiding;whitelist;lijst van gewenste personen;zwarte lijst;lijst van gewezen personen
 description: Leer hoe u uw websites en pre-productieomgevingen kunt ordenen voor eenvoudig beheer en gescheiden rapportering in Adobe Target.
 title: Wat zijn gastheren en hoe gebruik ik ze?
-feature: Administration & Configuration
-role: Administrator
+feature: Beheer en configuratie
+role: Beheerder
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
 
-# Gastheren{#hosts}
+# Gastheren
 
 Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage in [!DNL Adobe Target].
 
@@ -21,7 +21,7 @@ Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk ina
 
 Een gastheer is om het even welk domein waarvan een [!DNL Target] verzoek wordt gemaakt. Op een website is het doorgaans de eigenschap `location.hostname` van de URL die de aanvraag [!DNL Target] indient.
 
-[!DNL Target] beperkt standaard geen host die [!DNL Target]-aanvragen kan indienen en [!DNL Target]-reacties kan ontvangen. Wanneer nieuwe gastheren verzoeken indienen, werken zij automatisch. Hierdoor kunt u ook testen op verschillende domeinen die u niet kent of niet kunt voorzien. Als u dit standaardgedrag wilt met voeten treden, kunt u opstelling een lijst van gewenste personen of een lijst van afgewezen personen om te beperken welke gastheren met [!DNL Target] zullen werken.
+[!DNL Target] beperkt standaard geen host die [!DNL Target]-aanvragen kan indienen en [!DNL Target]-reacties kan ontvangen. Wanneer nieuwe gastheren verzoeken indienen, werken zij automatisch. Met dit proces kunt u ook testen op verschillende domeinen die u niet kent of niet kunt voorzien. Als u dit standaardgedrag wilt met voeten treden, kunt u opstelling een lijst van gewenste personen of een lijst van gewezen personen om te beperken welke gastheren met [!DNL Target] werken.
 
 Als u hosts wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -34,7 +34,7 @@ Als u een host wilt herkennen en toevoegen aan de lijst [!UICONTROL Hosts], moet
 * Er moet minstens één [!DNL Target]-verzoek op de host aanwezig zijn
 * Een pagina op de host moet het volgende bevatten:
 
-   * Een nauwkeurige referentie at.js of mbox.js
+   * Een nauwkeurige verwijzing naar at.js
    * Een [!DNL Target] verzoek of een automatisch gegenereerde globale [!DNL Target] verzoek
 
 * De pagina met het [!DNL Target] verzoek moet in browser worden bekeken
@@ -50,13 +50,13 @@ Nadat een gastheer aan [!UICONTROL Host] lijst wordt toegevoegd, zorg ervoor dat
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 1. Vernieuw de browser als uw host niet in de lijst staat.
 
-   Standaard wordt een nieuw herkende host in de [!UICONTROL Production]-omgeving geplaatst. Dit is het veiligste milieu omdat het inactieve activiteiten niet om van deze gastheren toelaat worden bekeken.
+   Standaard wordt een nieuw herkende host in de [!UICONTROL Production]-omgeving geplaatst. De [!UICONTROL Production] omgeving is het veiligste milieu omdat het inactieve activiteiten niet toelaat om van deze gastheren worden bekeken.
 
 1. (Voorwaardelijk) klik **[!UICONTROL Move]** pictogram ( ![verplaatsingspictogram](/help/administrating-target/assets/icon-move.png)) om de gastheer in [!UICONTROL Development], [!UICONTROL Staging], of andere milieu te bewegen.
 
 >[!NOTE]
 >
->De [!UICONTROL Production]-omgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. Men gaat ervan uit dat u hier de laatste, actieve activiteiten en tests zult bedienen. De standaardomgeving staat niet toe dat inactieve campagnes worden weergegeven.
+>De [!UICONTROL Production]-omgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. Men veronderstelt dat dit milieu is waar u definitieve, actieve activiteiten en tests dient. De standaardomgeving staat niet toe dat inactieve campagnes worden weergegeven.
 
 ## De lijst met hosts sorteren of doorzoeken {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
@@ -66,7 +66,7 @@ Als u in de lijst [!UICONTROL Hosts] wilt zoeken, typt u een zoekterm in het vak
 
 ## Creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om de verzoeken van het Doel naar Doel te verzenden. {#allowlist}
 
-U kunt een lijst van gewenste personen tot stand brengen die gastheren (domeinen) specificeert die [!DNL Target] verzoeken naar [!DNL Target] mogen verzenden. Alle andere gastheren die verzoeken produceren zullen een commentaar-uit reactie van de vergunningsfout krijgen. Door gebrek, om het even welke gastheer die [!DNL Target] verzoek bevat registreert bij [!DNL Target] in het [!UICONTROL Production] milieu en heeft toegang tot alle actieve en goedgekeurde activiteiten. Als dit niet de gewenste benadering is, kunt u in plaats daarvan de lijst van gewenste personen gebruiken om specifieke gastheren te registreren die geschikt zijn om [!DNL Target] verzoeken te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren zullen in de [!UICONTROL Hosts] lijst blijven tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve activiteiten kan zien.
+U kunt een lijst van gewenste personen tot stand brengen die gastheren (domeinen) specificeert die [!DNL Target] verzoeken naar [!DNL Target] mogen verzenden. Alle andere gastheren die verzoeken produceren krijgen een commentaar-uit reactie van de vergunningsfout. Door gebrek, om het even welke gastheer die [!DNL Target] verzoek bevat registreert bij [!DNL Target] in het [!UICONTROL Production] milieu en heeft toegang tot alle actieve en goedgekeurde activiteiten. Als deze benadering niet wordt gewenst, kunt u in plaats daarvan de lijst van gewenste personen gebruiken om specifieke gastheren te registreren die geschikt zijn om [!DNL Target] verzoeken te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren blijven in de [!UICONTROL Hosts] lijst tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve activiteiten kan zien.
 
 Een lijst van gewenste personen maken:
 
@@ -82,23 +82,23 @@ Een lijst van gewenste personen maken:
 
 1. Klik op **[!UICONTROL Save]**.
 
-Als een [!DNL Target] verzoek op een onbevoegde gastheer wordt gemaakt, zal de vraag met `/* no display - unauthorized mbox host */` antwoorden.
+Als een [!DNL Target] verzoek op een onbevoegde gastheer wordt gemaakt, antwoordt de vraag met `/* no display - unauthorized mbox host */`.
 
 >[!IMPORTANT]
 >
->**Aanbevolen werkwijzen** voor beveiliging: Als u ubox functionaliteit van gebruikt, merk op dat deze lijst van gewenste personen ook de lijst van domeinen zal controleren waaraan uw  [!DNL Target]  [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) redirectorcan navigeert. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd wordt verlaten, [!DNL Adobe] zal niet omleiden URLs kunnen verifiëren en tegen potentiële kwaadwillige omleidingen beschermen.
+>**Aanbevolen werkwijzen** voor beveiliging: Als u ubox functionaliteit van gebruikt  [!DNL Target], controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw redirectorcan  [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigeert. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd wordt verlaten, [!DNL Adobe] kan niet redirect URLs verifiëren en tegen potentiële kwaadwillige omleidingen beschermen.
 >
->De lijst van gewenste personen heeft voorrang op omgevingen. U zou alle gastheren moeten ontruimen alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
+>De lijst van gewenste personen heeft voorrang op omgevingen. Wis uit alle gastheren alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 
-Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein verschijnt in de lijst als het domein een vraag aan uw at.js of mbox.js maakt. Als iemand bijvoorbeeld een van uw webpagina&#39;s naar de server kopieert, wordt dat domein in uw omgeving weergegeven. U ziet wellicht ook domeinen van spintengines, vertaalsites of lokale schijfstations.
+Soms verschijnen domeinen van andere plaatsen in uw milieu&#39;s. Een domein verschijnt in de lijst als het domein at.js roept. Als iemand bijvoorbeeld een van uw webpagina&#39;s naar de server kopieert, wordt dat domein in uw omgeving weergegeven. U ziet wellicht ook domeinen van spintengines, vertaalsites of lokale schijfstations.
 
 In gevallen waarin `mboxHost` in een API vraag wordt overgegaan, wordt de omzetting geregistreerd voor het milieu dat binnen wordt overgegaan. Als geen milieu wordt overgegaan, blijft de gastheer in de vraag aan [!UICONTROL Production] in gebreke.
 
-U kunt een lijst van afgewezen personen ook tot stand brengen die gastheren (domeinen) specificeert dan geen [!DNL Target] verzoeken naar [!DNL Target] kan verzenden door de gewenste gastheren in [!UICONTROL Host Does Not Contain] doos toe te voegen.
+U kunt een lijst van gewezen personen ook tot stand brengen die gastheren (domeinen) specificeert die [!DNL Target] verzoeken aan [!DNL Target] niet kunnen verzenden door de gewenste gastheren in [!UICONTROL Host Does Not Contain] doos toe te voegen.
 
 >[!NOTE]
 >
->Omdat de lijst met geautoriseerde hosts wordt gebruikt voor zowel [!DNL Target] hosts als standaardhosts voor omleiding, moet u alle bestaande domeinen toevoegen die zijn goedgekeurd voor het gebruik van de [!DNL Adobe Target] Javascript SDK (at.js) *AND* alle domeinen die worden gebruikt in standaard URL&#39;s voor omleiding. U moet ook nieuwe, vergelijkbare domeinen toevoegen aan de lijst van gewenste personen in de toekomst.
+>De lijst [!UICONTROL Authorized Hosts] wordt gebruikt voor zowel [!DNL Target] gastheren als standaard opnieuw richten gastheren. Voeg alle bestaande domeinen toe die zijn goedgekeurd voor het gebruik van de [!DNL Adobe Target] JavaScript SDK (at.js) *AND* alle domeinen die in ubox standaard omleidings URLs worden gebruikt. Voeg nieuwe gelijkaardige domeinen aan de lijst van gewenste personen in de toekomst toe.
 
 ## Een host {#section_F56355BA4BC54B078A1A8179BC954632} verwijderen
 
@@ -109,7 +109,7 @@ U kunt een host verwijderen wanneer deze niet meer nodig is.
 
 >[!NOTE]
 >
->De host wordt opnieuw weergegeven als iemand naar een pagina bladert die een [!DNL Target]-verzoek op de host bevat.
+>De gastheer wordt opnieuw vermeld als iedereen aan een pagina doorbladert die een [!DNL Target] verzoek op de gastheer bevat.
 
 ## Problemen met hosts {#concept_B3D7583FA4BB480382CC7453529FE1B7} oplossen
 
@@ -118,7 +118,7 @@ Probeer de volgende tips voor het oplossen van problemen als u problemen ondervi
 **De host wordt niet weergegeven in de lijst voor uw account.**
 
 * Vernieuw de pagina [!UICONTROL Hosts] in uw browser.
-* Bevestig dat het [!DNL Target] verzoek correct is, met inbegrip van de verwijzing at.js of mbox.js.
+* Bevestig dat het [!DNL Target] verzoek correct is, met inbegrip van de verwijzing at.js.
 * Blader naar een van de [!DNL Target] aanvragen op de host. Het is mogelijk dat geen [!DNL Target] verzoek op de gastheer ooit in browser werd teruggegeven.
 
 **Willekeurige of onbekende domeinen worden in de  [!UICONTROL Host] lijst weergegeven.**
@@ -127,4 +127,4 @@ Een domein verschijnt in deze lijst als een verzoek aan [!DNL Target] van het do
 
 **Mijn  [!DNL Target] verzoek retourneert /* geen weergave - ongeoorloofde mbox-host */.**
 
-Als een [!DNL Target] verzoek op een onbevoegde gastheer wordt gemaakt, zal het verzoek met /* geen vertoning - onbevoegde mbox gastheer */ antwoorden.
+Als een [!DNL Target] verzoek op een onbevoegde gastheer wordt gemaakt, antwoordt het verzoek met /* geen vertoning - onbevoegde mbox gastheer */.
