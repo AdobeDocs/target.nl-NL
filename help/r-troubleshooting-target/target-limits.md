@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
+source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,8 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 ### Aantal entiteiten
 
 * Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99, ofwel hardcoded ofwel via lussen.
-* De aanbevolen limiet voor de beste prestaties is om de catalogus in alle omgevingen minder dan 1.000.000 items per omgeving en minder dan 10.000.000 items te laten bevatten.
-* De maximumgrens is 10.000.000 punten per milieu en 100.000.000 punten over alle milieu&#39;s. Als u tussen 1.000.000 en 10.000.000 punten per milieu hebt, worden de prestaties van [!UICONTROL Catalog Search] UI beïnvloed. [!DNL Target Recommendations], maar blijft aanbevelingen opstellen en doen.
+* De aanbevolen limiet voor de beste prestaties is om de catalogus minder dan 1 miljoen items per omgeving en minder dan 10 miljoen items in alle omgevingen te houden.
+* De maximumgrens is tien miljoen punten per milieu en 100 miljoen punten over alle milieu&#39;s. Als u tussen één miljoen en tien miljoen punten per milieu hebt, worden de prestaties van [!UICONTROL Catalog Search] UI beïnvloed. [!DNL Target Recommendations], maar blijft aanbevelingen opstellen en doen.
 
 ### Aangepaste kenmerken van entiteit
 
