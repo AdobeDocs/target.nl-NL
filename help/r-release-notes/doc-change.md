@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3779'
+source-wordcount: '3837'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 22 maart | [IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Bijgewerkte lijst van IP adressen. |
+|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | De sectie &quot;Aantal entiteiten&quot; onder &quot;Entiteiten&quot; is bijgewerkt. |
+|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Extra informatie over at.js 2.** xunder &quot;Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?&quot; |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.2.1. | Toegevoegd: <ul><li>IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)</li></ul> |
 | 19 maart | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Volgende veelgestelde vragen toegevoegd:<ul><li>Waarom zie ik nog meer indrukken nadat mijn activiteit is gedeactiveerd?</li></ul> |
 | 12 maart | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | De volgende nieuwe zelfstudie is toegevoegd:<ul><li>A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten</li></ul> |
 | 9 maart | [Limieten](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>De toegestane limiet voor de aanbiedingsgrootte is bijgewerkt.</li><li>Correctie van de tekenlimiet voor de parameter categoryId.</li></ul> |
