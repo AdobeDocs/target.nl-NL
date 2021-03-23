@@ -4,9 +4,9 @@ description: Bekijk een lijst met veelgestelde vragen en antwoorden over Adobe T
 title: Waar kan ik vragen en antwoorden vinden over Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -26,45 +26,21 @@ Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van ee
 
 Het tijdkader en de resultaten variëren, afhankelijk van hoe de items worden bijgewerkt.
 
-### Itemkenmerken bijgewerkt via mbox of API
-
-* Recommendations wordt binnen 15 minuten bijgewerkt.
-* Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.
-* Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).
-
-### Itemkenmerken bijgewerkt via feed
-
-* Recommendations wordt bijgewerkt na inname van het voer (2-8 uur).
-* Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.
-* Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na volgende catalogusindex (3-8 uur). Zoekopdracht in catalogus wordt meestal binnen 5-16 uur bijgewerkt.
-
-### Item verwijderd uit catalogus via doelinterface of -API
-
-* Recommendations wordt binnen 15 minuten bijgewerkt.
-* Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.
-* Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).
-
-### Item dat via mbox of API aan de catalogus is toegevoegd
-
-* Recommendations wordt bijgewerkt nadat het algoritme is uitgevoerd. Algorithm-run is elke 12 uur gepland voor algoritmes van 1 tot 2 dagen en elke 24 uur voor algoritmen van 7 of meer dagen.
-* Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.
-* Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.
-* Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).
-
-### Item dat via feed aan de catalogus is toegevoegd
-
-* Recommendations wordt bijgewerkt na inname van het voer (2-8 uur). De volgende algoritmelooppas wordt gepland om de 12 uur voor 1-2 dagalgoritmen en om de 24 uur voor 7+ dagalgoritmen. Recommendations wordt meestal binnen 2-32 uur bijgewerkt.
-* Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.
-* Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.
-* Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na catalogusindex (3-8 uur). Zoekopdracht in catalogus wordt meestal binnen 5-16 uur bijgewerkt.
-
-### Aanvullende wijzigingen
+| Bron | Details |
+| --- | --- |
+| Itemkenmerken bijgewerkt via mbox of API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Itemkenmerken bijgewerkt via feed | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur).</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na volgende catalogusindex (3-8 uur). Zoekopdracht in catalogus wordt meestal binnen 5-16 uur bijgewerkt.</li></ul> |
+| Item verwijderd uit catalogus via doelinterface of -API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Item dat via mbox of API aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt nadat het algoritme is uitgevoerd. Algorithm-run is elke 12 uur gepland voor algoritmes van 1 tot 2 dagen en elke 24 uur voor algoritmen van 7 of meer dagen.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Item dat via feed aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur). De volgende algoritmelooppas wordt gepland om de 12 uur voor 1-2 dagalgoritmen en om de 24 uur voor 7+ dagalgoritmen. Recommendations wordt meestal binnen 2-32 uur bijgewerkt.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na catalogusindex (3-8 uur). Zoekopdracht in catalogus wordt meestal binnen 5-16 uur bijgewerkt.</li></ul> |
 
 Nadat u een feed-bestand hebt geïmporteerd of nadat u eenheidupdates hebt ontvangen via API of mbox, worden de volgende wijzigingen in minder dan 60 minuten doorgevoerd:
 
-* Itemkenmerken die in de ontwerpsjabloon worden geretourneerd.
-* Itemkenmerken die worden gebruikt in algemene uitsluitingsregels die voorkomen dat het item wordt opgenomen in geretourneerde aanbevelingen.
-* Itemkenmerken die worden gebruikt in inclusieregels binnen de criteria die van invloed zijn op het feit of het item is opgenomen in of uitgesloten van geretourneerde aanbevelingen.
+* Als een item eerder was uitgesloten maar nu moet worden opgenomen, wordt het item opgenomen in de volgende reeks algoritmen (12-24 uur).
+
+   Dit gebeurt omdat Doel zowel online als offline uitsluitingen toepast. Wanneer een item pas wordt uitgesloten, wordt de online uitsluiting snel toegepast. Wanneer een item pas wordt opgenomen, gaat de onlineuitsluiting snel weg, maar de offline uitsluiting gaat pas weg als het volgende algoritme wordt uitgevoerd.
+
+* Als een item eerder was opgenomen maar nu moet worden uitgesloten, wordt het item uitgesloten op basis van de &quot;bijgewerkte itemkenmerken&quot;. de hierboven besproken tijdlijn, afhankelijk van de voederbron (15 minuten via mbox/API of 12-24 uur via feed).
 
 De volgende wijzigingen worden pas doorgevoerd wanneer het volgende algoritme wordt uitgevoerd (binnen 12-24 uur):
 
