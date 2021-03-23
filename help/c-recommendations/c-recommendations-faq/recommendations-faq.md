@@ -4,9 +4,9 @@ description: Bekijk een lijst met veelgestelde vragen en antwoorden over Adobe T
 title: Waar kan ik vragen en antwoorden vinden over Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e4d7f9d6bd42343c5c5e591853a4fc70d1f49ee7
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,42 @@ Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van ee
 
 ## Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?
 
+Het tijdkader en de resultaten variëren, afhankelijk van hoe de items worden bijgewerkt.
+
+### Itemkenmerken bijgewerkt via mbox of API
+
+* Recommendations wordt binnen 15 minuten bijgewerkt.
+* Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.
+* Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).
+
+### Itemkenmerken bijgewerkt via feed
+
+* Recommendations wordt bijgewerkt na inname van het voer (2-8 uur).
+* Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.
+* Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na volgende catalogusindex (3-8 uur). Zoekopdracht in catalogus wordt meestal binnen 5-16 uur bijgewerkt.
+
+### Item verwijderd uit catalogus via doelinterface of -API
+
+* Recommendations wordt binnen 15 minuten bijgewerkt.
+* Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.
+* Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).
+
+### Item dat via mbox of API aan de catalogus is toegevoegd
+
+* Recommendations wordt bijgewerkt nadat het algoritme is uitgevoerd. Algorithm-run is elke 12 uur gepland voor algoritmes van 1 tot 2 dagen en elke 24 uur voor algoritmen van 7 of meer dagen.
+* Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.
+* Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.
+* Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).
+
+### Item dat via feed aan de catalogus is toegevoegd
+
+* Recommendations wordt bijgewerkt na inname van het voer (2-8 uur). De volgende algoritmelooppas wordt gepland om de 12 uur voor 1-2 dagalgoritmen en om de 24 uur voor 7+ dagalgoritmen. Recommendations wordt meestal binnen 2-32 uur bijgewerkt.
+* Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.
+* Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.
+* Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na catalogusindex (3-8 uur). Zoekopdracht in catalogus wordt meestal binnen 5-16 uur bijgewerkt.
+
+### Aanvullende wijzigingen
+
 Nadat u een feed-bestand hebt geïmporteerd of nadat u eenheidupdates hebt ontvangen via API of mbox, worden de volgende wijzigingen in minder dan 60 minuten doorgevoerd:
 
 * Itemkenmerken die in de ontwerpsjabloon worden geretourneerd.
@@ -40,7 +76,7 @@ De volgende wijzigingen worden pas doorgevoerd wanneer het volgende algoritme wo
 
 >[!NOTE]
 >
->Een voederdossier wordt beschouwd als ingevoerd wanneer zijn status van &quot;het Importeren van Punten&quot;in &quot;het Voorbereiden van de Updates van de Index van het Onderzoek&quot; verandert. De updates kunnen meer dan 60 minuten vergen om in het gebruikersinterface van het Onderzoek van de Catalogus worden weerspiegeld; Zoekopdracht in catalogus is up-to-date wanneer de status van de feed verandert in &quot;Updates voltooid&quot;. Zelfs als Catalog Search nog niet bijgewerkt is, geeft uw site updates weer over de hierboven vermelde tijdframes. De meest recente update van de index van het Onderzoek van de Catalogus wordt getoond op de pagina van het Onderzoek van de Catalogus.
+>Een voederdossier wordt beschouwd als ingevoerd wanneer zijn status van &quot;het Importeren van Punten&quot;in &quot;het Voorbereiden van de Updates van de Index van het Onderzoek&quot; verandert. De updates kunnen meer dan 60 minuten vergen om in het gebruikersinterface van het Onderzoek van de Catalogus worden weerspiegeld; Zoekopdracht in catalogus is up-to-date wanneer de status van de feed verandert in &quot;Updates voltooid&quot;. Zelfs als Catalog Search nog niet bijgewerkt is, geeft uw site updates van de hierboven vermelde tijdframes weer. De meest recente update van de index van het Onderzoek van de Catalogus wordt getoond op de pagina van het Onderzoek van de Catalogus.
 
 ## Wat moet ik doen als speciale karakters mijn serie breken? {#section_D27214116EE443638A60887C7D1C534E}
 
