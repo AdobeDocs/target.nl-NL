@@ -5,9 +5,9 @@ title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Ontwikkelaar
 translation-type: tm+mt
-source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '4097'
+source-wordcount: '4152'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ Informatie over wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL A
 >Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis de voorkeursmethode voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en worden in de catalogus [!DNL Launch] beschikbaar gesteld als upgrades. Voor meer informatie, zie [Uitbreiding Verbetering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in *de Gids van de Gebruiker van het Experience Platform Launch*.
+
+## te.js 2.4.1 (23 maart 2021)
+
+Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:
+
+* Probleem verholpen waarbij targetPageParams was opgenomen in mbox-aanvragen. targetPageParams mag alleen worden opgenomen in pageLoad-aanvragen. (TNT-40247)
+* Geoptimaliseerde venster- en documentglobals die verwijzen naar de extensie [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Bijgewerkte build- en testafhankelijkheden om beveiligingskwetsbaarheden te verhelpen.
 
 ## om 2.4.0 uur (14 januari 2021)
 
