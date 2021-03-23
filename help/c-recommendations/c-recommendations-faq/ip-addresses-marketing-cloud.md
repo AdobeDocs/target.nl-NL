@@ -4,10 +4,10 @@ description: Bekijk een lijst van IP adressen die in de voer-verwerkingsservers 
 title: Welke IP adressen gebruiken de servers van de het voederverwerking van Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +18,19 @@ Lijst met IP-adressen die worden gebruikt in [!DNL Adobe Target] [!DNL Recommend
 
 [!DNL Target] [!UICONTROL Recommendations] De activiteiten gebruiken de volgende IP adressen wanneer het toegang tot van klanten de servers van FTP:
 
-| CIDR-notatie |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237,28
+
+44 232 167,82
+
+52.41.252.2005
 
 [!DNL Target] [!UICONTROL Recommendations] API&#39;s gebruiken de volgende IP-adressen:
 
-| CIDR-notatie |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237,28
+
+44 232 167,82
+
+52.41.252.2005
 
 >[!NOTE]
 >
