@@ -4,31 +4,35 @@ description: Bekijk een lijst van IP adressen die in de voer-verwerkingsservers 
 title: Welke IP adressen gebruiken de servers van de het voederverwerking van Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
 
 # ![PREMIUMIP-](/help/assets/premium.png) adressen die worden gebruikt door Recommendations-voederverwerkingsservers
 
-Lijst met IP-adressen die worden gebruikt in [!DNL Adobe Target] [!DNL Recommendations] feed-processing servers in het Oregon-datacenter om u te helpen uw firewall te configureren om IP-adressen van Adobe-servers toe te staan.
+Lijst met IP-adressen die worden gebruikt in [!DNL Adobe Target] [!DNL Recommendations] feed-processing-servers om u te helpen uw firewall te configureren om IP-adressen van Adobe-servers toe te staan.
 
-[!DNL Target] [!UICONTROL Recommendations] De activiteiten gebruiken de volgende IP adressen in het de gegevenscentrum van Oregon wanneer het toegang tot de servers van FTP van klanten (ben zeker om de verbinding hieronder voor de recentste informatie te controleren):
+[!DNL Target] [!UICONTROL Recommendations] De activiteiten gebruiken de volgende IP adressen wanneer het toegang tot van klanten de servers van FTP:
 
-| CIDR-notatie | IP starten | IP wordt beëindigd |
-|---|---|---|
-| 192.243.242.0/24 | 192 243 242,0 | 192 243 242 255 |
+| CIDR-notatie |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
-[!DNL Target] [!UICONTROL Recommendations] API&#39;s gebruiken de volgende IP-adressen in het Oregon-datacenter (controleer de koppeling hieronder voor de meest recente gegevens):
+[!DNL Target] [!UICONTROL Recommendations] API&#39;s gebruiken de volgende IP-adressen:
 
-| CIDR-notatie | IP starten | IP wordt beëindigd |
-|---|---|---|
-| 192.243.224.0/20 | 192 243 224,0 | 192 243 239 255 |
+| CIDR-notatie |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
 >[!NOTE]
 >
->Voor de volledige, meest bijgewerkte lijst, zie [IP Adressen die in Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) worden gebruikt.
+>Deze IP-adressen zijn voor het laatst bijgewerkt op 16 maart 2021. Eerder waren de servers die tot de servers van FTP toegang hadden in het 192.243.242.0/24 IP adresblok CIDR. De servers die als host fungeren voor Recommendations API&#39;s bevinden zich in het 192.243.224.0/20 IP-adresblok CIDR.
 
