@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen die
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer vóór deze datum naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)
+
+De IP-adressen van de [!DNL Target Recommendations]-server voor verwerking van bestandsgegevens zijn bijgewerkt op 16 maart 2021. Zie [IP-adressen die worden gebruikt door Recommendations-feed-processing-servers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) voor meer informatie.
 
 ## Target Standard/Premium 21.2.1 (9 maart 2021)
 
