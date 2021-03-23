@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '3837'
+source-wordcount: '3855'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 23 maart | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
+|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
 | 22 maart | [IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Bijgewerkte lijst van IP adressen. |
 |  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | De sectie &quot;Aantal entiteiten&quot; onder &quot;Entiteiten&quot; is bijgewerkt. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Extra informatie over at.js 2.** xunder &quot;Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?&quot; |
