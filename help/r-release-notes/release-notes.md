@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen die
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer vóór deze datum naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## te.js 2.4.1 (23 maart 2021)
+
+Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:
+
+* Probleem verholpen waarbij targetPageParams was opgenomen in mbox-aanvragen. targetPageParams mag alleen worden opgenomen in pageLoad-aanvragen. (TNT-40247)
+* Geoptimaliseerde venster- en documentglobals die verwijzen naar de extensie [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Bijgewerkte build- en testafhankelijkheden om beveiligingskwetsbaarheden te verhelpen.
 
 ## IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)
 
