@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen die
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringe
 
 * Probleem verholpen waarbij targetPageParams was opgenomen in mbox-aanvragen. targetPageParams mag alleen worden opgenomen in pageLoad-aanvragen. (TNT-40247)
 * Geoptimaliseerde venster- en documentglobals die verwijzen naar de extensie [!DNL Adobe Experience Platform Launch]. (TNT-37124)
-* Bijgewerkte build- en testafhankelijkheden om beveiligingskwetsbaarheden te verhelpen.
 
 ## IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)
 
