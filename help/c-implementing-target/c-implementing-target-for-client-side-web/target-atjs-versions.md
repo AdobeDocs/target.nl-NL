@@ -5,9 +5,9 @@ title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Ontwikkelaar
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
 workflow-type: tm+mt
-source-wordcount: '4152'
+source-wordcount: '4143'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringe
 
 * Probleem verholpen waarbij targetPageParams was opgenomen in mbox-aanvragen. targetPageParams mag alleen worden opgenomen in pageLoad-aanvragen. (TNT-40247)
 * Geoptimaliseerde venster- en documentglobals die verwijzen naar de extensie [!DNL Adobe Experience Platform Launch]. (TNT-37124)
-* Bijgewerkte build- en testafhankelijkheden om beveiligingskwetsbaarheden te verhelpen.
 
 ## om 2.4.0 uur (14 januari 2021)
 
