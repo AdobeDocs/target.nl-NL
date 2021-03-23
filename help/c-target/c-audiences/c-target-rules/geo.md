@@ -2,24 +2,24 @@
 keywords: doel;a4t;geo;geotargeting;geotargeting nauwkeurigheid;land;land;land;plaats;zip-code;dma;mobiele carrier-codes;regio-codes;landcodes;metro-codes;profielscripts;geotargeting profielscripts;geotargeting mobile
 description: Leer hoe u een Adobe Target-publiek kunt maken voor gebruikers op basis van hun geografische locatie, zoals hun land, plaats, postcode of postcode.
 title: Kan ik locatie voor bezoekers als doel instellen?
-feature: Audiences
+feature: Soorten publiek
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
 
 
-# Geo{#geo}
+# Geo
 
-Gebruik doelgroepen voor gebruikers op basis van hun geografische locatie, waaronder hun land, land/provincie, stad, postcode/postcode, DMA of mobiele luchtvaartmaatschappij.
+Gebruik het publiek in [!DNL Adobe Target] om gebruikers te richten op basis van hun geografische locatie, waaronder hun land, staat/provincie, stad, postcode/postcode, DMA of mobiele vervoerder.
 
 De parameters van de plaats van de geoplaats staan u toe om activiteiten en ervaringen te richten die op de aardrijkskunde van uw bezoekers worden gebaseerd. U kunt bezoekers opnemen of uitsluiten op basis van hun land, provincie, provincie, stad, postcode, breedte, lengte, DMA of mobiele provider. Dit gegeven wordt verzonden met elk verzoek van het Doel en is gebaseerd op het IP van de bezoeker adres. Selecteer deze parameters net als alle doelwaarden.
 
-## Een publiek maken met Geo gericht {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## Een publiek maken met geo als doel {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Noem het publiek.
@@ -50,7 +50,7 @@ In de volgende afbeelding ziet u een publiek dat gericht is op gebruikers die de
 
 ## Nauwkeurigheid {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-De nauwkeurigheid van geo-gerichtheid hangt af van verschillende factoren. WiFi-verbindingen zijn nauwkeuriger dan mobiele netwerken. Wanneer de bezoeker een cellulaire gegevensverbinding gebruikt, kan de nauwkeurigheid van de geo-raadpleging door plaats, de gegevensverhouding van de leverancier met [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), en andere factoren worden beïnvloed. Netwerkverbindingen die zijn gebaseerd op mobiele tower, zijn mogelijk minder nauwkeurig dan bekabelde of WiFi-verbindingen. Ook, zou het IP van een bezoeker adres aan zijn of haar ISP plaats kunnen worden in kaart gebracht, die niet het zelfde als de daadwerkelijke plaats van de bezoeker zou kunnen zijn. Sommige problemen met mobiele geolocatie kunnen worden opgelost met de [Geolocatie-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+De nauwkeurigheid van geo-gerichtheid hangt af van verschillende factoren. WiFi-verbindingen zijn nauwkeuriger dan mobiele netwerken. Wanneer de bezoeker een cellulaire gegevensverbinding gebruikt, kan de nauwkeurigheid van de geo-raadpleging door plaats, de gegevensverhouding van de leverancier met [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), en andere factoren worden beïnvloed. Netwerkverbindingen die zijn gebaseerd op mobiele tower, zijn mogelijk minder nauwkeurig dan bekabelde of WiFi-verbindingen. Ook, zou het IP van een bezoeker adres aan de ISP plaats van de bezoeker kunnen worden in kaart gebracht, die niet het zelfde als de daadwerkelijke plaats van de bezoeker zou kunnen zijn. Sommige problemen met mobiele geolocatie kunnen worden opgelost met de [Geolocatie-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 De volgende lijst toont de nauwkeurigheid van op IP-Gebaseerde geografische informatie van [DigitalEnvoy](https://www.digitalelement.com/solutions/) voor getelegrafeerde of verbindingen van WiFi Internet. DigitalEnvoy biedt de meest nauwkeurige gegevens in de branche. De wereldwijde nauwkeurigheid is meer dan 99,9 procent op landniveau en is tot 97 procent nauwkeurig op stadsniveau. Nauwkeurigheidsinformatie is niet van toepassing op netwerken op basis van mobiele towers.
 
@@ -116,11 +116,11 @@ Gebruik bijvoorbeeld:
 
 **Hoe richt geo zich op het werk voor mobiele apparaten?**
 
-Het overgrote deel van de gebruikers van mobiele apparaten heeft toegang tot inhoud via WiFi, wat betekent dat de op IP-Gebaseerde geo van Target net zo nauwkeurig is als op een Desktop. De op toren-gebaseerde verbindingen van de cel kunnen minder nauwkeurig zijn omdat het IP van de bezoeker adres op de toren gebaseerd is waar het signaal wordt opgepikt. Sommige problemen met mobiele geolocatie kunnen worden opgelost met de [Geolocatie-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+De meeste gebruikers van mobiele apparaten hebben toegang tot inhoud via WiFi, wat betekent dat de op IP gebaseerde geo-keuze van Target net zo nauwkeurig is als op een desktop. De op toren-gebaseerde verbindingen van de cel kunnen minder nauwkeurig zijn omdat het IP van de bezoeker adres op de toren gebaseerd is waar het signaal wordt opgepikt. Sommige problemen met mobiele geolocatie kunnen worden opgelost met de [Geolocatie-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Hoe behandelt de functie van geo bezoekers van AOL?**
 
-Door de manier waarop AOL zijn verkeer verrijkt, kunnen we ze alleen op nationaal niveau aanpakken. Zo zal een campagne voor Frankrijk met succes gericht zijn op AOL-gebruikers in Frankrijk. Maar een campagne gericht op Parijs zal niet succesvol zijn tegen AOL-gebruikers in Parijs. Als u specifiek op AOL-gebruikers wilt gericht, kunt u het gebiedveld instellen op &quot;aol&quot;. In feite kunt u de gebruikers van AOL van de V.S. door twee te specificeren richten voorwaarden richten: het land komt precies overeen met &quot; verenigde staten &quot; en de regio komt precies overeen met &quot; aol &quot; .
+Vanwege de manier waarop AOL zijn verkeer verrijkt, kan [!DNL Target] deze alleen op landniveau richten. Zo is een campagne gericht op Frankrijk succesvol gericht op gebruikers van AOL in Frankrijk. Maar een campagne gericht op Parijs is niet succesvol gericht op AOL-gebruikers in Parijs. Als u specifiek op AOL-gebruikers wilt gericht, kunt u het gebiedveld instellen op &quot;aol&quot;. In feite kunt u de gebruikers van AOL van de V.S. door twee te specificeren richten voorwaarden richten: het land komt precies overeen met &quot; verenigde staten &quot; en de regio komt precies overeen met &quot; aol &quot; .
 
 **Welke plaatsgranulariteit verstrekt geo richt?**
 
@@ -133,15 +133,17 @@ Door de manier waarop AOL zijn verkeer verrijkt, kunnen we ze alleen op nationaa
 
 **Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?**
 
-U kunt uw IP adres met een IP adres van een verschillende plaats met voeten treden en de `mboxOverride.browserIp url` parameter gebruiken. Dus als uw bedrijf zich in het Verenigd Koninkrijk bevindt, maar uw wereldwijde campagne gericht is op bezoekers in Aukland, Nieuw-Zeeland, gebruikt u deze URL, ervan uitgaande dat `60.234.0.39` een IP-adres is in Auckland:
+* **te.js 1.*x***: U kunt uw IP adres met een IP adres van een verschillende plaats met voeten treden en de  `mboxOverride.browserIp url` parameter gebruiken. Dus als uw bedrijf zich in het Verenigd Koninkrijk bevindt, maar uw wereldwijde campagne gericht is op bezoekers in Aukland, Nieuw-Zeeland, gebruikt u deze URL, ervan uitgaande dat `60.234.0.39` een IP-adres is in Auckland:
 
-`https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
+   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
-Je moet je cookies wissen voordat je dit doet.
+   Wis uw cookies voordat u de activiteit test.
 
->[!NOTE]
->
->`mboxOverride.browserIp` wordt ondersteund in at.js 1.** jxonly. Deze functionaliteit wordt niet ondersteund in at.js 2.*x*.
+   >[!NOTE]
+   >
+   >`mboxOverride.browserIp` wordt ondersteund in at.js 1.** Alleen. Deze functionaliteit wordt niet ondersteund in at.js 2.*x*.
+
+* **te.js 1.*x***: Om uw IP adres met at.js 2 met voeten te treden.*x*, installeer een browser uitbreiding/stop (zoals X-Door:sturen-voor Kopbal voor Chrome of Firefox). Met deze extensie kunt u de x-door:sturen-voor-header doorgeven in uw paginaaanvragen.
 
 **Hoe worden gebieden, zoals Puerto Rico en Hongkong, in de geo-gerichte structuur ondergebracht?**
 
@@ -149,7 +151,7 @@ Puerto Rico, Hong Kong en andere gebieden worden behandeld als afzonderlijke &qu
 
 **Vangt (en slaat) informatie zoals de Codes van het PIT op wanneer de activiteit met geo-plaats gerichte mogelijkheden wordt gericht?  [!DNL Target]**
 
-Nr, [!DNL Target] gebruikt geo gegevens voor de duur van de zitting slechts, dan worden de gegevens verworpen.
+Nee, [!DNL Target] gebruikt alleen geo-gegevens tijdens de sessie, dan worden de gegevens verwijderd.
 
 ## Trainingsvideo: Soorten publiek ![Zelfstudie-badge](/help/assets/tutorial.png) maken
 
