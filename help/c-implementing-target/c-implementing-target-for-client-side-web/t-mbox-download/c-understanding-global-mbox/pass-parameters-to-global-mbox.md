@@ -3,11 +3,11 @@ keywords: algemene mbox-parameters;targetPageParams;query-tekenreeks;array;json;
 description: Leer hoe u de functie targetPageParams gebruikt om aanvullende informatie over doelen of context door te geven aan de algemene Adobe Target-box.
 title: Hoe geef ik Parameters aan een Globale doos door?
 feature: at.js
-role: Developer
+role: Ontwikkelaar
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,7 @@ Hieronder ziet u hoe de code voor de pagina eruit kan zien:
     <title>Title here..</title> 
     <script type="text/javascript"> 
         function targetPageParams() { 
-           
-<b>return "p1=v1&p2=v2&p3=hello%20world"</b>; 
+          return "p1=v1&p2=v2&p3=hello%20world";
         } 
     </script> 
     <script src="mbox.js" type="text/javascript"></script> 
