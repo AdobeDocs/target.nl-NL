@@ -4,9 +4,9 @@ description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de 
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3879'
+source-wordcount: '3900'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 29 maart | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nieuwe veelgestelde vragen toegevoegd:<ul><li>Blijven aanbevelingen op basis van onlangs weergegeven items op meerdere apparaten voor één bezoeker?</li></ul> |
 | 23 maart | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
 |  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?</li></ul> |
