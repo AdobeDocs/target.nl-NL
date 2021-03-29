@@ -4,7 +4,7 @@ title: Waar kan ik de documentatie van het Doel vinden?
 description: Leer hoe u Adobe Target kunt gebruiken om de ervaring van uw klanten aan te passen om uw omzet te maximaliseren op uw websites en mobiele sites, apps en andere digitale kanalen.
 feature: Overzicht
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 23 maart 2021 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 29 maart 2021 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
