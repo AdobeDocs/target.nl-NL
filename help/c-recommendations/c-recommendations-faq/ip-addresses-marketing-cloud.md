@@ -4,9 +4,9 @@ description: Bekijk een lijst van IP adressen die in de voer-verwerkingsservers 
 title: Welke IP adressen gebruiken de servers van de het voederverwerking van Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,15 @@ ht-degree: 0%
 
 Lijst met IP-adressen die worden gebruikt in [!DNL Adobe Target] [!DNL Recommendations] feed-processing-servers om u te helpen uw firewall te configureren om IP-adressen van Adobe-servers toe te staan.
 
-[!DNL Target] [!UICONTROL Recommendations] De activiteiten gebruiken de volgende IP adressen wanneer het toegang tot van klanten de servers van FTP:
+[!DNL Target] [!UICONTROL Recommendations] De activiteiten gebruiken de volgende gastheren van AWS wanneer het toegang tot van klanten tot de servers van FTP:
 
-44 241 237,28
+| Locatie | Host |
+| --- | --- |
+| Oregon | `44.241.237.28` |
+| Oregon | `44.232.167.82` |
+| Oregon | `52.41.252.205` |
 
-44 232 167,82
-
-52.41.252.2005
-
-[!DNL Target] [!UICONTROL Recommendations] API&#39;s gebruiken de volgende IP-adressen:
-
-44 241 237,28
-
-44 232 167,82
-
-52.41.252.2005
+[!DNL Target] [!UICONTROL Recommendations] API&#39;s gebruiken ook dezelfde AWS-hosts.
 
 >[!NOTE]
 >
