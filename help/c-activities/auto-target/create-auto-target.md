@@ -3,14 +3,14 @@ keywords: Automatisch doel maken;A/B-test;automatisch doelactiviteit;nieuwe a/b-
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om uw auto-Doel A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een automatisch doelgerichte activiteit?
 feature: Automatisch doel
+exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMCcreate an Auto-Target activity
 
@@ -20,7 +20,7 @@ Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om 
 >
 >[!UICONTROL Auto-Target] is beschikbaar als onderdeel van de  [!DNL Target Premium] oplossing. Deze functie is niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] licentie. Zie [Doelpremium](/help/c-intro/intro.md) voor meer informatie over de geavanceerde functies die deze licentie biedt.
 >
->Naast de [!UICONTROL Auto-Target] [!UICONTROL A/B Test] activiteit (in dit artikel besproken), biedt [!DNL Target] twee extra typen [!UICONTROL A/B Test] activiteiten: [!UICONTROL Manual (Default)] en [!UICONTROL Auto-Allocate].
+>Naast de [!UICONTROL Auto-Target] [!UICONTROL A/B Test] activiteit (in dit artikel besproken), biedt [!DNL Target] twee andere soorten [!UICONTROL A/B Test] activiteiten: [!UICONTROL Manual (Default)] en [!UICONTROL Auto-Allocate].
 >
 >Zie [Typen A/B-testactiviteiten](/help/c-activities/t-test-ab/test-ab.md#types) in *A/B-testoverzicht*.
 
@@ -73,9 +73,9 @@ Een [!UICONTROL Auto-Target]-activiteit maken:
    | `-` | Min |
    | `@` | Bij ondertekenen |
 
-1. Maak nieuwe ervaringen door de elementen op de pagina te wijzigen.
+1. Maak ervaringen door de elementen op de pagina te wijzigen.
 
-   [!UICONTROL Visual Experience Composer] toont twee lusjes op de linkerkant nadat u een nieuwe activiteit creeert: Ervaring A en ervaring B. Ervaring A is de ervaring van de controle. De focus zal liggen op het tabblad Experience B, dat u naar wens kunt wijzigen. Ervaring B is de alternatieve ervaring die u aan de test kunt toevoegen. U kunt meerdere ervaringen toevoegen aan de test. U kunt ook Experience A verwijderen uit de activiteit als u geen standaard site-ervaring wilt opnemen als optie.
+   [!UICONTROL Visual Experience Composer] toont twee lusjes op de linkerkant nadat u een activiteit creeert: Ervaring A en ervaring B. Ervaring A is de ervaring van de controle. De focus ligt op het tabblad Experience B, dat u naar wens kunt wijzigen. Ervaring B is de alternatieve ervaring die u aan de test kunt toevoegen. U kunt meerdere ervaringen toevoegen aan de test. U kunt ook Experience A verwijderen uit de activiteit als u geen standaard site-ervaring wilt opnemen als optie.
 
    Zie [Ervaring toevoegen](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md) voor meer informatie over het toevoegen en wijzigen van ervaringen in [!UICONTROL Visual Experience Composer]. Om Ervaring B te wijzigen, begin met Stap 3.
 
@@ -101,15 +101,15 @@ Een [!UICONTROL Auto-Target]-activiteit maken:
 
    U kunt meerdere ervaringen aan hetzelfde publiek tonen. Een diagram toont het geselecteerde publiek en de ervaringen u aan de activiteit hebt toegevoegd.
 
-   Kies de gewenste methode voor verkeerstoewijzing. Als u een [!UICONTROL Auto-Target]-activiteit wilt maken, selecteert u **[!UICONTROL Auto-target for personalized experiences]**.
+   Kies de gewenste methode voor verkeerstoewijzing. Als u een [!UICONTROL Auto-Target]-activiteit wilt maken, selecteert u **[!UICONTROL Auto-Target for personalized experiences]**.
 
    De drie soorten verkeerstoewijzing worden hieronder beschreven:
 
    * **[!UICONTROL Manual (Default)]**: Geef het percentage voor alle ingangen op dat u wilt zien. U kunt de percentages gelijkmatig over alle ervaringen verdelen, of hogere of lagere percentages voor elke ervaring specificeren. Het totaal voor alle ervaringen moet 100% bedragen. Zie [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) voor meer informatie.
 
-   * **[!UICONTROL Auto-allocate to best experience]**: De meeste deelnemers aan de activiteit worden automatisch gericht op beter presterende ervaringen. Sommige bezoekers worden toegewezen aan alle ervaringen, om het verkennen van ervaringen te handhaven en veranderingen in prestatietrends te erkennen. Zie [Overzicht automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) voor meer informatie.
+   * **[!UICONTROL Auto-Allocate to best experience]**: De meeste deelnemers aan de activiteit worden automatisch gericht op beter presterende ervaringen. Sommige bezoekers worden toegewezen aan alle ervaringen, om het verkennen van ervaringen te handhaven en veranderingen in prestatietrends te erkennen. Zie [Overzicht automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) voor meer informatie.
 
-   * **[!UICONTROL Auto-target for personalized experiences]**:  [!DNL Target] maakt gebruik van geavanceerd computerleren om inhoud en stationsomzettingen aan te passen door het identificeren van meervoudige, door de markt gedefinieerde ervaringen, en vervolgens de meest toegesneden ervaring aan bezoekers te bezorgen op basis van hun individuele klantprofielen en eerdere gedragingen van vergelijkbare bezoekers.
+   * **[!UICONTROL Auto-Target for personalized experiences]**:  [!DNL Target] maakt gebruik van geavanceerd computerleren om inhoud en stationsomzettingen aan te passen door het identificeren van meervoudige, door de markt gedefinieerde ervaringen, en vervolgens de meest toegesneden ervaring aan bezoekers te bezorgen op basis van hun individuele klantprofielen en eerdere gedragingen van vergelijkbare bezoekers.
    U kunt ook op **[!UICONTROL Add]** klikken om een andere ervaring aan de activiteit toe te voegen.
 
 1. Wanneer u met uw publiek, ervaringskeuzen, en de keuzen van de verkeerstoewijzing tevreden bent, klik **[!UICONTROL Next]** om naar de derde stap van de drie-stap geleide werkschema te bewegen.
