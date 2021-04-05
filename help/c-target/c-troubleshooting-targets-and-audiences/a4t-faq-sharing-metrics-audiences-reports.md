@@ -1,16 +1,16 @@
 ---
-keywords: vk;vaak gestelde vragen;analyses voor doel;segmenten;a4T;gedeelde rapporten
+keywords: Veelgestelde vragen,Veelgestelde vragen,Analyse voor doel,Segmenten,A4T,Rapporten delen
 description: Veelgestelde vragen over het delen van metriek, publiek, en rapporten vinden wanneer het gebruiken van Analytics voor Doel (A4T). Met A4T kunt u Analytische rapporten gebruiken voor Adobe Target-activiteiten.
 title: Waar kan Veelgestelde vragen vinden die Metriek, publiek, en Rapporten in A4T delen?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
-
 
 # Metriek, publiek en rapporten delen - A4T Veelgestelde vragen{#share-metrics-audiences-and-reports-a-t-faq}
 
