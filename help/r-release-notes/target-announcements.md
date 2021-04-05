@@ -3,14 +3,14 @@ keywords: aankondigingen;vaardigheid bouwen;ontwikkelaarspraatje;koffieonderbrek
 description: Lees aankondigingen en meld u aan voor Adobe Target-gebeurtenissen, waaronder Skill Builder-sessies, chats voor ontwikkelaars en productmanagers, webinars en meer.
 title: Waar kan ik doelaankondigingen en gebeurtenissen vinden?
 feature: Opmerkingen bij de release
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # Aankondigingen en gebeurtenissen van het doel
 
@@ -51,6 +51,6 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 
 ## Adobe Target Skill Builder: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js {#skill-builder}
 
-Met de aanstaande afzetting van mbox.js op 31 maart 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
+Met de veroudering van mbox.js op 31 maart 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
 
 * **[Bekijk hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true) de webinar opname.**
