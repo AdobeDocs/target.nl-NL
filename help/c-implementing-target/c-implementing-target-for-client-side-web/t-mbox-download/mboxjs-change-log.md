@@ -6,9 +6,9 @@ feature: at.js
 role: Ontwikkelaar
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2407'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ Op deze pagina worden wijzigingen in elke versie van mbox.js weergegeven.
 >
 >**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
 >
->We raden alle klanten aan vóór deze datum te migreren naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migreer vóór deze datum naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
->We raden alle gebruikers van mbox.js aan een upgrade naar versie 57 of hoger uit te voeren. Sommige gebruikers hebben time-outproblemen ervaren toen `target.js` niet kon worden geladen. Versie 57 heeft dat probleem opgelost. Als u echter de [!DNL Experience Cloud Visitor ID]-service gebruikt, is versie 58 of hoger vereist.
+>Adobe raadt alle gebruikers van mbox.js aan een upgrade naar versie 57 of hoger uit te voeren. Sommige gebruikers hebben time-outproblemen ervaren toen `target.js` niet kon worden geladen. Versie 57 heeft dat probleem opgelost. Als u echter de [!DNL Experience Cloud Visitor ID]-service gebruikt, is versie 58 of hoger vereist.
 
 De manier waarop Doel reageert op aanroepen vanuit uw pagina is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de implementatie van de bezoekersidentiteitskaart aanwezig is en of de bezoekersidentiteitskaart bestaat. Voor informatie, zie [Reacties van de Vraag van het doel door Versie van de Bibliotheek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
@@ -41,12 +41,12 @@ De manier waarop Doel reageert op aanroepen vanuit uw pagina is afhankelijk van 
 
 De volgende verbeteringen en correcties zijn opgenomen in [!DNL mbox.js] versie 63:
 
-* Oplossing voor een probleem met het genereren van SDID bij gebruik van `mboxDefine()` en `mboxUpdate()`. Dit is alleen van toepassing op clients met de API voor bezoekers op de pagina.
+* Oplossing voor een probleem met het genereren van SDID bij gebruik van `mboxDefine()` en `mboxUpdate()`. Dit probleem is alleen van toepassing op clients met de API voor bezoekers op de pagina.
 
 ## mbox.js versie 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Problemen met flikkering bij omleidingsactiviteiten zijn opgelost bij weergave in Google Chrome-browsers.
-* Instelling `secureOnly` toegevoegd die aangeeft of mbox.js alleen HTTPS mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld.
+* Instelling `secureOnly` toegevoegd die aangeeft of mbox.js alleen HTTPS mag gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Deze instelling is een geavanceerde instelling die standaard op Onwaar wordt ingesteld.
 
 ## mbox.js versie 61 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -71,7 +71,7 @@ mbox.js versie 61 bevat de volgende verbeteringen:
 
 **Releasedatum: 21** april 2016
 
-Pagina-inhoud is standaard niet verborgen. Versie 60 verbergt alleen de pagina-inhoud wanneer de optie Globale box automatisch maken is ingeschakeld. De eigenschap CSS `opacity:0` wordt gebruikt voor het verbergen van pagina&#39;s in plaats van `display:none`. Dit verzekert juiste levering voor ontvankelijke plaatsen en richt zich op [!DNL at.js].
+Pagina-inhoud is standaard niet verborgen. Versie 60 verbergt alleen de pagina-inhoud wanneer de optie Globale box automatisch maken is ingeschakeld. De eigenschap CSS `opacity:0` wordt gebruikt voor het verbergen van pagina&#39;s in plaats van `display:none`. Deze eigenschap zorgt voor een correcte levering voor responsieve sites en richt zich op [!DNL at.js].
 
 U kunt het verbergen van het lichaam inschakelen door twee instellingen te gebruiken:
 
@@ -93,18 +93,18 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-De techniek voor het verbergen van pagina&#39;s maakt gebruik van stijllabels om stijlen toe te voegen en te verwijderen. Zo zorgt u ervoor dat de stijlen van de site ongewijzigd blijven nadat de code voor het verbergen van de pagina is uitgevoerd.
+De techniek voor het verbergen van pagina&#39;s maakt gebruik van stijllabels om stijlen toe te voegen en te verwijderen. Op deze manier weet u zeker dat de stijlen van de site ongewijzigd blijven nadat de code voor het verbergen van de pagina is uitgevoerd.
 
-**DTM-gebruikers:** hierdoor kunt u de optie voor automatisch importeren niet gebruiken, aangezien de bovenstaande configuratie niet kan worden opgeslagen in de doelinterface. U dient de bovenstaande instructies te gebruiken en de inhoud vervolgens in het codevak van de optie Aangepast hosten te plakken.
+**DTM-gebruikers:** deze techniek voorkomt dat u de optie Automatisch importeren gebruikt, aangezien het niet mogelijk is om de bovenstaande configuratie op te slaan in de interface van het doel. U moet de bovenstaande instructies gebruiken en de inhoud vervolgens in het codevak van de optie Aangepast hosten plakken.
 
-Ook in Versie 60, als het [!DNL visitorAPI.js] dossier voor de dienst van identiteitskaart van de Bezoeker van de Experience Cloud aanwezig is, worden alle dozen gevraagd via een AJAX eindpunt. Dit is vereist omdat de API-methoden van de bezoeker asynchroon zijn. Een voordeel van deze aanpak is dat de tijd van Rendering starten aanzienlijk is verminderd, omdat aanvragen voor een box de rendering niet blokkeren. Dit betekent echter ook dat alle [!DNL Target]-aanbiedingsinhoud asynchroon wordt uitgevoerd, zodat alle aanbiedingscode dienovereenkomstig moet worden geschreven. Aanbiedingen met `document.write` en andere code die ervan uitgaat dat deze wordt uitgevoerd bij het laden van de eerste pagina, worden niet uitgevoerd zoals verwacht.
+Ook in Versie 60, als het [!DNL visitorAPI.js] dossier voor de dienst van identiteitskaart van de Bezoeker van de Experience Cloud aanwezig is, worden alle dozen gevraagd via een AJAX eindpunt. Dit proces is vereist omdat de API-methoden van de bezoeker asynchroon zijn. Een voordeel van deze aanpak is dat de tijd van Rendering starten aanzienlijk is verminderd, omdat aanvragen voor een box de rendering niet blokkeren. Nochtans, betekent deze benadering ook dat alle [!DNL Target] aanbiedingsinhoud asynchroon loopt, zodat moet al aanbiedingscode dienovereenkomstig worden geschreven. Aanbiedingen met `document.write` en andere code die ervan uitgaat dat deze wordt uitgevoerd bij het laden van de eerste pagina, worden niet uitgevoerd zoals verwacht.
 
 * asynchrone aanroepen van V60
 
    Wanneer u v60 gebruikt met de service bezoekersidentiteitskaart, worden alle mbox-aanroepen asynchroon uitgevoerd. Dit is een verandering van hoe dozen altijd hebben gewerkt, dus voorzie als het bevorderen aan deze versie. Lees de sectie [Asynchrone Overwegingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) van de [!DNL at.js] documentatie ( [!DNL at.js] gebruikt ook asynchrone vraag) om enkele risico&#39;s te begrijpen.
 * Nieuwe bezoekersscenario&#39;s kunnen flikkeren
 
-   Wanneer u v58 tot v60 gebruikt met de service bezoekersidentiteitskaart, wachten mbox-aanroepen tot de bezoekersidentiteitskaart is ingesteld voordat deze wordt geactiveerd (of tot er een time-out is opgetreden). Dit gebeurt bij het laden van de eerste pagina van een nieuwe bezoeker.
+   Wanneer u v58 tot v60 gebruikt met de service bezoekersidentiteitskaart, wachten mbox-aanroepen tot de bezoekersidentiteitskaart is ingesteld voordat deze wordt geactiveerd (of totdat een time-out is opgetreden). Dit gebeurt bij het laden van de eerste pagina van een nieuwe bezoeker.
 
 ## mbox.js versie 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
@@ -131,7 +131,7 @@ Versie 58 van mbox.js verzekert de de dienstterugkeer van identiteitskaart van d
 
 Deze update verhelpt ook een probleem bij het gebruik van Analytics als rapportagebron voor Target die ertoe heeft geleid dat een opgeblazen aantal bezoekers in Analytics is gerapporteerd voor bezoeken die slechts één pagina bevatten.
 
-Mbox.js stelt time-outwaarden in voor het geval de bezoeker-id-service niet wordt geretourneerd. De standaardtime-out voor de service bezoekersidentiteitskaart is 500 ms (0,5 seconden). Met een extra time-out stelt u de bovengrens in voor de duur van de tag `<BODY>`. Deze standaardwaarde is 500 ms (0,5 seconden). Deze onderbrekingen kunnen worden gewijzigd door de volgende code vóór de verwijzing mbox.js op elke pagina in te voegen:
+Mbox.js stelt time-outwaarden in voor het geval de bezoeker-id-service niet wordt geretourneerd. De standaardonderbreking voor de dienst van bezoekersidentiteitskaart is 500 ms (0.5 seconden). Met een extra time-out stelt u de bovengrens in voor de duur van de tag `<BODY>`. Deze standaardwaarde is 500 ms (0,5 seconden). Deze onderbrekingen kunnen worden gewijzigd door de volgende code vóór de verwijzing mbox.js op elke pagina in te voegen:
 
 ```
 <script> 
@@ -154,9 +154,9 @@ De volgende wijzigingen zijn aangebracht in deze versie:
 
 * Auto-created global mbox response for Target Standard gebruikt document.write() niet meer of maakt een `<div>` element.
 
-   Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item in de `<head>` van de pagina moet zijn, verwijderd. Sterke QA wordt geadviseerd wanneer het bevorderen aan deze nieuwe versie.
+   Deze wijziging verwijdert de vereiste dat het bestand mbox.js het laatste item op de `<head>` van de pagina moet zijn. Sterke QA wordt geadviseerd wanneer het bevorderen aan deze nieuwe versie.
 
-   Deze verandering zou veranderingen in gedrag kunnen veroorzaken wanneer het leveren van sommige aanbiedingstypes. Hieronder volgen de specifieke omstandigheden die in overweging moeten worden genomen:
+   Deze verandering zou veranderingen in gedrag kunnen veroorzaken wanneer het leveren van sommige aanbiedingstypes. Hieronder volgen de specifieke omstandigheden die in aanmerking moeten worden genomen:
 
    * De HTML-inhoud die wordt geretourneerd als onderdeel van een &quot;insteekmodule-aanbieding&quot; wordt niet correct gerenderd, maar JavaScript in de aanbiedingen wordt naar behoren uitgevoerd.
    * JavaScript-aanbiedingen die worden geretourneerd aan de globale box, kunnen de JavaScript-code bevatten die is ingesloten in de tag `<script>` of waarnaar wordt verwezen door een `src`-kenmerk.
@@ -165,7 +165,7 @@ De volgende wijzigingen zijn aangebracht in deze versie:
 
       `<script src='external-url' async='true'></script>`
 
-      Het kenmerk `async` biedt beperkte ondersteuning in Internet Explorer (zie hier voor meer informatie: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) moet u dus bezoekers die oudere IE-versies gebruiken, uitsluiten van tests die deze scripts van derden bevatten.
+      Het `async`-kenmerk heeft beperkte ondersteuning in Internet Explorer (zie hier voor meer informatie: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) moet u dus bezoekers die oudere IE-versies gebruiken, uitsluiten van tests die deze scripts van derden bevatten.
 
 * Oplossing voor problemen die in versie 56 werden gemeld als gevolg van wijzigingen in de sectie Extra JavaScript van mbox.js. Alle code in de sectie Extra JavaScript is opnieuw beschikbaar in het algemene bereik.
 
@@ -197,7 +197,7 @@ mbox.js versie 57 bevat ook belangrijke oplossingen:
 De volgende wijzigingen zijn aangebracht in deze versie:
 
 * Wijzigingen voor Premium Recommendations ter ondersteuning van het doorgeven van parameters in algemene mbox
-* Voegt een 5 tweede onderbreking aan de target.js ladingsvraag toe. In het zeldzame geval dat het dossier niet laadt, zal de pagina teruggeven en geen activiteiten van de Norm van het Doel zullen tonen.
+* Voegt een timeout van 5 seconden toe aan de load call target.js. In het zeldzame geval dat het bestand niet wordt geladen, wordt de pagina weergegeven en worden er geen activiteiten van Target Standard weergegeven.
 * &quot;extra JavaScript&quot; verplaatst om te worden uitgevoerd vóór globale box
 
    Alle instellingen in v56+ hebben een naamruimte. Als er functies zijn gedeclareerd in &quot;extra JavaScript&quot;, moeten deze worden voorafgegaan door `window`.
@@ -232,7 +232,7 @@ Hiermee wijzigt u versie 53 met IE-oplossingen.
 
 **Releasedatum:30** september 2014
 
-Hiermee wijzigt u de globale mbox-implementatie in AJAX van document.write. Hierdoor wordt de vereiste dat het bestand mbox.js het laatste item in de sectie `<head>` van de pagina moet zijn, verwijderd. Deze versie is alleen beschikbaar via de API. Clients kunnen het bestand downloaden en dit bestand mbox.js gebruiken. Sommige sites ervaren inhoud die met deze implementatie flikkert. Controleer daarom de integratie op uw site.
+Hiermee wijzigt u de globale mbox-implementatie in AJAX van document.write. Deze wijziging verwijdert de vereiste dat het bestand mbox.js het laatste item in de sectie `<head>` van de pagina moet zijn. Deze versie is alleen beschikbaar via de API. Clients kunnen het bestand downloaden en dit bestand mbox.js gebruiken. Sommige sites ervaren inhoud die met deze implementatie flikkert. Controleer daarom de integratie op uw site.
 
 ## mbox versie 53
 
