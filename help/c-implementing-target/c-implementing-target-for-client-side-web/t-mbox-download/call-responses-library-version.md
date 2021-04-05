@@ -2,15 +2,15 @@
 description: Meer informatie over de oudere mbox.js-implementatie van Adobe Target. Migreer naar de Adobe Experience Platform Web SDK (AEP Web SDK) of naar de nieuwste versie van at.js.
 title: Welke paginamethoden worden door mbox.js gebruikt?
 feature: at.js
-role: Developer
+role: Ontwikkelaar
+exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
-
 
 # Methoden voor doelpagina&#39;s op versie van de bibliotheek mbox.js{#target-page-methods-by-mbox-js-library-version}
 
@@ -18,7 +18,7 @@ De manier waarop Doel maakt en reageert op aanroepen vanuit uw pagina is afhanke
 
 >[!IMPORTANT]
 >
->**mbox.js end-of-life**: Op 31 maart 2021  [!DNL Adobe Target] wordt de bibliotheek mbox.js niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
+>**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
 >
 >We raden alle klanten aan vóór deze datum te migreren naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
@@ -54,7 +54,7 @@ Als u uw eigen douanecode eerder dan het gebruiken van [!UICONTROL Visual Experi
 
 Als u &quot;auto-creeer globale mbox&quot;maar ook `mboxCreate` vraag op uw pagina gebruikt, bijvoorbeeld, als u [!DNL Target Standard] of [!DNL Premium] op een pagina uitvoert die eerder in een erfenis implementatie gebruikte, worden de globale mbox vraag gemaakt gebruikend het** autocreate globale mbox - standaard** eindpunt en `mboxCreate` vraag wordt gemaakt gebruikend het **standard** eindpunt. Het **standard** eindpuntgebruik `document.write()` om de vraag te maken en te antwoorden. Hierdoor wordt het laden van de pagina geblokkeerd, inclusief de inhoud die in het ajax-antwoord wordt geleverd, totdat alle informatie is gedownload.
 
-Als u alleen mboxCreate gebruikt, bijvoorbeeld op pagina&#39;s die zijn gemaakt met [!DNL Target Classic], werkt de pagina zoals altijd.
+Als u alleen mboxCreate gebruikt, bijvoorbeeld op pagina&#39;s die met [!DNL Target Classic] worden gemaakt, werkt de pagina zoals altijd.
 
 | Aanmaakmethode | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|
@@ -76,7 +76,7 @@ Als u [!DNL mbox.js] versie 57 in dit scenario gebruikt, werkt alles zoals het d
 | globale mbox automatisch maken | Automatisch globale box maken - synchroon | Automatisch globale box maken - asynchroon | Automatisch globale box maken - asynchroon | Automatisch globale box maken - asynchroon |
 | mboxCreate | standaard | ajax | ajax | ajax |
 
-## Implementatie van bezoekersidentiteitskaart aanwezig, en bezoekersidentiteitskaart bestaat {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## Implementatie bezoeker-id is aanwezig en bezoeker-id bestaat {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 Als het cookie van de bezoeker-id bestaat, hoeft [!DNL Target] de service Bezoeker-id niet aan te roepen. In dit geval hoeft u niet te wachten op de service Bezoeker-id voordat u inhoud weergeeft. Voor versies 57 tot en met 59, wordt **autocreate globale mbox - synchroon** type gebruikt, zodat wacht de pagina op de vraag aan [!DNL Target] om terug te keren alvorens te blijven laden. Zo voorkomt u flikkering van de standaardinhoud. Voor v60 wordt het **globale mbox-asynchrone type** gebruikt om ervoor te zorgen dat [!DNL Target] wacht tot de [!DNL Experience Cloud]-opt-out-service reageert. De opt-out-service maakt deel uit van de Data Co-op-release in de herfst van 2016. Omdat alle vraag gebruikend ajax is teruggekeerd, `document.write()` zou niet met [!DNL mbox.js] versie 60 moeten worden gebruikt.
 
