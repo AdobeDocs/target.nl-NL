@@ -3,14 +3,14 @@ keywords: releaseopmerkingen;releases;updates;toekomstige release;verbeteringen;
 description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in de komende release van Adobe Target, waaronder SDK's, API's en JavaScript-bibliotheken.
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
+exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release Doel (preRelease)
 
@@ -22,7 +22,7 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 
 >[!IMPORTANT]
 >
->**mbox.js end-of-life**: Op 31 maart 2021  [!DNL Adobe Target] wordt de bibliotheek mbox.js niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
+>**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
 >
 >Adobe raadt alle klanten aan vóór deze datum naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js te migreren om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
@@ -40,7 +40,7 @@ De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
    | Visuele aanbiedingen van het Doel UI | 64 kB | 1024 kB voor elke ervaring |
    | Via API | 512 kB | 1024 kB |
 
-* [!UICONTROL Personalization Insights] Er worden nu dagelijks rapporten voor  [!UICONTROL Auto-Target] (AT)- en  [!UICONTROL Automated Personalization] (AP)-activiteiten opgesteld. U kunt een rapport kiezen dat [!UICONTROL Automated Segments] of [!UICONTROL Important Attributes] voor de laatste 15, 30, en 60 dagen verstrekt. De opties voor 45 en 90 dagen zijn verwijderd om de andere instellingen voor terugzoekvensters dagelijks uit te voeren. (TGT-39472)
+* [!UICONTROL Personalization Insights] Er worden nu dagelijks rapporten over  [!UICONTROL Auto-Target] (AT)- en  [!UICONTROL Automated Personalization] (AP)-activiteiten opgesteld. U kunt een rapport kiezen dat [!UICONTROL Automated Segments] of [!UICONTROL Important Attributes] voor de laatste 15, 30, en 60 dagen verstrekt. De opties voor 45 en 90 dagen zijn verwijderd om de andere instellingen voor terugzoekvensters dagelijks uit te voeren. (TGT-39472)
 * Probleem verholpen waarbij de huidige afhankelijkheid niet werd weergegeven wanneer klanten [!UICONTROL Edit Dependency] op de pagina [!UICONTROL Goals & Settings] van een activiteit klikken. (TGT-39340)
 * Probleem verholpen bij het vernieuwen van de [!UICONTROL Audience Library] van een werkruimte. Vóór verfrist zich, toont het publiek voor de momenteel geselecteerde werkruimte. Na verfrissen, [!UICONTROL Default Workspace] en zijn publiek getoond. De huidige werkruimte en het publiek blijven nu behouden na het vernieuwen. (TGT-38871)
 * Probleem verholpen bij het kopiëren van een [!UICONTROL Recommendations]-activiteit en later het bewerken van de oorspronkelijke activiteit door de volgorde van criteria te wijzigen. De wijziging in de volgorde van criteria in de oorspronkelijke activiteit werd ook onjuist toegepast op de gekopieerde activiteit. (TGT-39155)
