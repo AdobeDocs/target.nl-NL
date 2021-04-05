@@ -1,16 +1,16 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Meer informatie over de werking van Adobe Target, zoals informatie over de JavaScript-doelbibliotheken (at.js en AEP Web SDK), Adobe-datacenters en SEO-tests.
+description: Leer hoe Adobe Target werkt, inclusief informatie over de JavaScript-doelbibliotheken (at.js en AEP Web SDK), Adobe-datacenters en SEO-tests.
 title: Hoe werkt het doel?
 feature: Overzicht
+exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
-
 
 # Hoe Adobe Target werkt
 
@@ -33,7 +33,7 @@ Verwijs [!DNL AEP Web SDK] of at.js op elke pagina op uw plaats. U kunt bijvoorb
 De volgende bronnen bevatten gedetailleerde informatie om u te helpen bij het implementeren van de AEP Web SDK of at.js:
 
 * [Adobe Experience Platform Web SDK-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Doel implementeren met Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Doel implementeren met Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Telkens wanneer een bezoeker een pagina aanvraagt die voor [!DNL Target] is geoptimaliseerd, wordt een verzoek verzonden naar het doelsysteem. Aan de hand van de aanvraag kunt u bepalen welke inhoud voor die bezoeker moet worden gebruikt. Dit proces vindt in real time plaats. Telkens wanneer een pagina wordt geladen, wordt een verzoek om de inhoud gedaan en vervuld door het systeem. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. Inhoud wordt weergegeven waarmee elke bezoeker van de site meestal kan reageren op, communiceren met of uiteindelijk aankopen. De gepersonaliseerde inhoud helpt reactiesnelheden, aanschafpercentages, en opbrengst maximaliseren.
 
@@ -48,9 +48,9 @@ De inhoud die wordt weergegeven in een standaard A/B-test, wordt willekeurig gek
 U kunt percentagedoelstellingen voor elke ervaring specificeren. In dit geval wordt een willekeurig getal gegenereerd en wordt dat nummer gebruikt om de ervaring te kiezen die u wilt weergeven. De resulterende percentages zouden niet precies de gespecificeerde doelstellingen kunnen aanpassen, maar meer verkeer betekent dat de ervaringen dichter aan de doeldoelstellingen zouden moeten worden verdeeld.
 
 1. Een klant vraagt om een pagina van uw server en het toont in browser.
-2. In de browser van de klant wordt een cookie van de eerste partij ingesteld om het gedrag van de klant op te slaan.
-3. De pagina roept het doelsysteem aan.
-4. De inhoud wordt weergegeven op basis van de regels van uw activiteit.
+1. In de browser van de klant wordt een cookie van de eerste partij ingesteld om het gedrag van de klant op te slaan.
+1. De pagina roept het doelsysteem aan.
+1. De inhoud wordt weergegeven op basis van de regels van uw activiteit.
 
 Zie [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) voor meer informatie.
 
@@ -112,7 +112,7 @@ De gegevens over de activiteiten op de locatie van de klant worden verzameld doo
 
 In plaats van te reageren op alle doelverzoeken van één locatie, worden aanvragen verwerkt door de Edge-cluster die het dichtst bij de bezoeker ligt. Dit proces helpt de gevolgen van netwerk/Internet reistijd verlichten.
 
-![Typen doelservers met hyperlinks](/help/c-intro/assets/target-servers.png)
+![Kaart die de verschillende types van de servers van het Doel toont](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] Centrale clusters, gehost op Amazon Web Services (AWS), omvatten:
 
