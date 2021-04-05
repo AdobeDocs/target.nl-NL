@@ -3,14 +3,14 @@ keywords: Opmerkingen bij de release;nieuwe functies;releases;updates;update;rel
 description: Leer meer over de nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de huidige versie van Adobe Target, waaronder SDK's, API's en JavaScript-bibliotheken.
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
+exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 8dc0e5084834102e387492eb4668761382e699f3
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de doelversie (huidig)
 
@@ -18,7 +18,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 >[!IMPORTANT]
 >
->**mbox.js end-of-life**: Op 31 maart 2021  [!DNL Adobe Target] wordt de bibliotheek mbox.js niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
+>**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
 >
 >Migreer vóór deze datum naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
