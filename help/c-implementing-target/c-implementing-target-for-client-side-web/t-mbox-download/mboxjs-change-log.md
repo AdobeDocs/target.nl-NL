@@ -3,15 +3,15 @@ keywords: mbox.js verandert;mbox.js versies
 description: Meer informatie over de oudere mbox.js-implementatie van Adobe Target. Migreer naar de Adobe Experience Platform Web SDK (AEP Web SDK) of naar de nieuwste versie van at.js.
 title: Wat is inbegrepen in Elke Versie van mbox.js?
 feature: at.js
-role: Developer
+role: Ontwikkelaar
+exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
-
 
 # mbox.js versiedetails{#mbox-js-version-details}
 
@@ -19,7 +19,7 @@ Op deze pagina worden wijzigingen in elke versie van mbox.js weergegeven.
 
 >[!IMPORTANT]
 >
->**mbox.js end-of-life**: Op 31 maart 2021  [!DNL Adobe Target] wordt de bibliotheek mbox.js niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
+>**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
 >
 >We raden alle klanten aan vóór deze datum te migreren naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
@@ -345,7 +345,7 @@ Veranderd mbox in gebruik tt.omtr dc.net
 
    Hiermee wordt een probleem verholpen waarbij de standaardinhoudsdiv in de cache zich niet in de DOM bevindt als gevolg van een mboxUpdate, die de inhoud voor de standaarddiv bevat.
 
-* mbox.getDefaultDiv heeft een nieuwe optionele booleaanse parameter. Indien waar (true), wordt het huidige standaarddiv geretourneerd. Indien false, wordt het laatste standaard div-element in de cache geretourneerd.
+* mbox.getDefaultDiv heeft een nieuwe optionele booleaanse parameter. Indien waar (true), wordt het huidige standaarddiv geretourneerd. Indien onwaar, keert het laatste caching standaarddiv terug.
 * Bijgewerkt mbox.loaded voor ondersteuning van Ajax-belasting
 * De parameter mboxURL is nu gecodeerd met encodeURIComponent in plaats van escape
 * Test of encodeURIComponent door browser wordt gesteund en toon standaardinhoud als het niet is. Verwijderde ook de volgende mbox.js config opties:
