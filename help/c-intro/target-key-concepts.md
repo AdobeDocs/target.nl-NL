@@ -1,36 +1,36 @@
 ---
-keywords: Overzicht en referentie;act
-description: Leer de basisbeginselen van Adobe Target. Dit is een goede plaats om vertrouwd te raken met Doel, zijn activiteitstypes, en andere eigenschappen.
+keywords: Overzicht en verwijzing;soorten activiteit;inleiding
+description: Leer de basisbeginselen van Adobe Target. Dit artikel introduceert u aan Doel, zijn activiteitstypes, en andere eigenschappen.
 title: Hoe gebruik ik Target?
-feature: Overview
+feature: Overzicht
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1528'
 ht-degree: 2%
 
 ---
 
+# Doelsleutelbegrippen
 
-# Belangrijkste doelconcepten{#target-key-concepts}
-
-Informatie over belangrijke concepten die u helpen de eigenschappen en mogelijkheden van Adobe Target te begrijpen.
+Informatie over zeer belangrijke concepten die u helpen de eigenschappen en de mogelijkheden van [!DNL Adobe Target] begrijpen.
 
 ## Activiteiten en tests {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 Een activiteit bepaalt de ervaringen een plaatsbezoeker zou kunnen ontmoeten.
 
-U kunt bijvoorbeeld een activiteit ontwerpen die twee verschillende landingspagina&#39;s test, een die informatie over dameszomerschoenen belicht, en een die meer algemene zomerkleding benadrukt. De activiteit bepaalt de voorwaarden die controleren wanneer elk van deze landingspagina&#39;s verschijnt, en de metriek die bepalen welke pagina succesvoller is. De activiteit wordt gevormd om te beginnen en te beëindigen wanneer specifieke voorwaarden, zoals tussen specifieke data worden voldaan, of om te beginnen wanneer de activiteit wordt goedgekeurd en te beëindigen wanneer het wordt gedeactiveerd.
+U kunt bijvoorbeeld een activiteit ontwerpen die twee verschillende landingspagina&#39;s test, een die informatie over dameszomerschoenen belicht, en een die meer algemene zomerkleding benadrukt. De activiteit bepaalt de voorwaarden die controleren wanneer elk van deze landingspagina&#39;s verschijnt, en de metriek die bepalen welke pagina succesvoller is. De activiteit wordt gevormd om te beginnen en te beëindigen wanneer de specifieke voorwaarden worden voldaan. Deze voorwaarden kunnen het begin en einde van de activiteit tussen bepaalde data omvatten, of het begin wanneer de activiteit wordt goedgekeurd en het einde wanneer deze wordt gedeactiveerd.
 
-Wanneer het ontwerpen van een activiteit, zou u zorgvuldig moeten plannen. Bepaal wanneer de activiteit zal beginnen en hoe lang het zal duren. Geef vervolgens een lijst met uw aanbiedingen en wijs een doelgroep toe aan elk aanbod.
+Plan zorgvuldig wanneer het ontwerpen van een activiteit. Bepaal wanneer de activiteit begint en hoe lang het duurt. Geef vervolgens een lijst met uw aanbiedingen en wijs een doelgroep toe aan elk aanbod.
 
-Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een overzicht van elk type activiteit met koppelingen voor meer informatie. Om u beter te helpen het beste activiteitstype voor uw doeleinden kiezen, hebben wij [de Handleiding van de Activiteiten van Adobe Target](/help/c-activities/target-activities-guide.md) ook gecreeerd.
+Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een overzicht van elk type activiteit met koppelingen voor meer informatie. Om u beter te helpen het beste activiteitstype voor uw doeleinden kiezen, heeft het team van het Doel ook [de Handleiding van de Activiteiten van Adobe Target](/help/c-activities/target-activities-guide.md) gecreeerd.
 
 | Type activiteit | Beschrijving |
 |--- |--- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | Bij het testen van A/B worden twee of meer versies van de inhoud van uw website vergeleken om te zien welke versie het beste uw omzettingen tijdens een vooraf gespecificeerde testperiode verbetert.<br>**Opmerking:** U kunt nu  [aanbevelingen opnemen in de testactiviteiten](/help/c-recommendations/recommendations-as-an-offer.md) van A/B. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
 | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Met Automatisch toewijzen wordt een winnaar geïdentificeerd aan de hand van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversie toeneemt terwijl de test nog steeds wordt uitgevoerd en opgedaan.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) voor automatisch toewijzen. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
-| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoTarget maakt gebruik van geavanceerd computerleren om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) voor automatisch doel. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
+| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoDoel gebruikt geavanceerd machine leren om veelvoudige hoog presterende tellers-bepaalde ervaringen te identificeren. Auto-Target activiteiten dienen voor elke bezoeker de meest toegesneden ervaring op basis van hun individuele klantprofiel en het gedrag van vorige bezoekers met vergelijkbare profielen, om inhoud en aandrijvingsomzettingen aan te passen.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) voor automatisch doel. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
 | [Analytische gegevens](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)  gebruiken (A4T) | U kunt een activiteit vormen om [!DNL Adobe Analytics] als rapporteringsbron te gebruiken. Dit type activiteit vereist dat u uw [!DNL Adobe Experience Cloud] rekening met zowel [!DNL Analytics] als [!DNL Target] verbindt. |
 | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft. |
 | [Gericht op ervaring](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) Experience Targeting. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
@@ -50,11 +50,11 @@ In [!DNL Target Standard], kan een plaats om het even welk element op een pagina
 
 Locaties worden gecombineerd met het publiek om een bijna oneindig aantal opties te bieden waarmee uw klanten informatie kunnen zoeken. Als een bezoeker bijvoorbeeld nog niet eerder naar de site is geweest, kunt u een kortingscoupon weergeven voor nieuwe klanten. Op dezelfde manier kan de pagina worden gewijzigd in weergaveaanbiedingen die beter zijn geoptimaliseerd voor terugkerende klanten.
 
-U kunt locaties ook gebruiken om de voortgang van een bezoeker door uw Website te volgen, of om te volgen of de bezoeker een specifiek succes metrisch voltooit, zoals het toevoegen van een punt aan het winkelwagentje of het voltooien van een aankoop.
+U kunt plaatsen ook gebruiken om de vooruitgang van een bezoeker door uw Website te volgen. U kunt locaties ook gebruiken om bij te houden of de bezoeker een bepaalde maatstaf voor succes heeft voltooid, zoals het toevoegen van een artikel aan het winkelwagentje of het voltooien van een aankoop.
 
 ## Ervaringen en paginaontwerpen {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-Een ervaring, ook wel een recept genoemd, definieert de inhoud die op de pagina wordt weergegeven, en andere pagina-elementen, zoals koppelingen.
+Een ervaring, ook wel een recept genoemd, definieert de inhoud die op uw pagina wordt weergegeven, en andere pagina-elementen, zoals koppelingen.
 
 Een ervaring bepaalt welke aanbiedingsvertoningen op een bepaalde plaats wanneer specifieke het richten voorwaarden worden voldaan aan. De ervaring bepaalt bijvoorbeeld dat, wanneer een retourbezoeker uw site bezoekt, boven aan de pagina een aanbieding voor verzending over twee dagen wordt weergegeven. De ervaring bepaalt ook dat wanneer een eerste bezoeker de pagina bekijkt, een korting van 10% op dezelfde locatie wordt weergegeven.
 
