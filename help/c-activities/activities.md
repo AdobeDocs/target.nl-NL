@@ -2,15 +2,15 @@
 keywords: activiteitenlijst;activiteiten;activiteit;activiteitstypen;activiteit bewerken;activiteit;activiteit, acties;activiteitskenmerk;activiteitlijstfilter;activiteitsbeperkingen;personaliseren;personalisatie
 description: Leer hoe u met activiteiten in Adobe Target inhoud kunt aanpassen aan specifieke doelgroepen en pagina-ontwerpen kunt testen
 title: Hoe kan ik inhoud aanpassen en pagina-ontwerpen testen met Doel?
-feature: Activities
+feature: Activiteiten
+exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2078'
 ht-degree: 1%
 
 ---
-
 
 # Activiteiten
 
@@ -28,7 +28,7 @@ Doel bevat verschillende typen activiteit. In de volgende tabel vindt u een over
 |--- |--- |
 | [A/B-test](/help/c-activities/t-test-ab/test-ab.md) | Bij het testen van A/B worden twee of meer versies van de inhoud van uw website vergeleken om te zien welke versie het beste uw omzettingen tijdens een vooraf gespecificeerde testperiode verbetert.<br>**Opmerking:** U kunt nu  [aanbevelingen opnemen in de testactiviteiten](/help/c-recommendations/recommendations-as-an-offer.md) van A/B. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
 | [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Met Automatisch toewijzen wordt een winnaar geïdentificeerd aan de hand van twee of meer ervaringen en wordt automatisch meer verkeer toegewezen aan de winnaar, zodat de conversie toeneemt terwijl de test nog steeds wordt uitgevoerd en opgedaan.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) voor automatisch toewijzen. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
-| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoTarget maakt gebruik van geavanceerd computerleren om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) voor automatisch doel. Deze functionaliteit vereist dat u een This functionaliteit vereist dat u een [vergunning van de Premie van het Doel](/help/c-intro/intro.md#premium) hebt. |
+| [Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | AutoTarget maakt gebruik van geavanceerd computerleren om meerdere ervaren die door markters worden gedefinieerd, te identificeren en biedt elke bezoeker de meest op maat gemaakte ervaring op basis van zijn individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen, om inhoud en stationsomzettingen aan te passen.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) voor automatisch doel. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
 | [Analytische gegevens](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)  gebruiken (A4T) | U kunt een activiteit vormen om [!DNL Adobe Analytics] als rapporteringsbron te gebruiken. Dit type activiteit vereist dat u uw [!DNL Adobe Experience Cloud] rekening met zowel [!DNL Analytics] als [!DNL Target] verbindt. |
 | [Multivariatietest](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | MVT (Multivariate Testing) vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft. |
 | [Gericht op ervaring](/help/c-activities/t-experience-target/experience-target.md) | Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.<br>**Opmerking:** u kunt nu  [aanbevelingen opnemen in de activiteiten](/help/c-recommendations/recommendations-as-an-offer.md) Experience Targeting. Deze functionaliteit vereist dat u een [Licentie voor doelpremium](/help/c-intro/intro.md#premium) hebt. |
@@ -69,7 +69,7 @@ De volgende handelingen zijn beschikbaar (afhankelijk van uw machtigingen):
 | Activeren | Een inactieve of kant-en-klare activiteit starten. |
 | Archief | Verzend de activiteit naar het archief. Gearchiveerde activiteiten worden standaard niet meer weergegeven in de lijst Activiteiten. Wijzig het filter voor de activiteitenlijst om gearchiveerde activiteiten op te nemen om ze te zien. U kunt een gearchiveerde activiteit activeren om deze opnieuw te gebruiken.<br>Als u een activiteit deactiveert of archiveert en deze later opnieuw activeert, blijft een bezoeker deel uitmaken van die activiteit nadat de activiteit opnieuw is geactiveerd, als hij of zij zich daarin bevond voordat de activiteit werd gedeactiveerd of gearchiveerd. Alle conversiemetriek die tijdens de tijd tussen de twee gebeurtenissen is vastgelegd, worden niet aan die activiteit toegewezen. |
 | Kopiëren | Kopieer een activiteit. Elke activiteit kan worden gekopieerd. Wanneer u een activiteit kopieert, wordt er een nieuwe activiteit met dezelfde naam gemaakt, die wordt toegevoegd met &quot;Copy&quot;. Een test met de naam &quot;Browser Offers&quot; wordt bijvoorbeeld gekopieerd naar &quot;Browser Offers Copy&quot;.<br>Visuele aanbiedingen worden gekopieerd met de activiteit. U kunt de voorstellen in de kopie veilig bewerken zonder dat dit invloed heeft op de oorspronkelijke activiteit. De enige uitzondering hierop vormen de opgeslagen aanbiedingen en afbeeldingen in de map Inhoud/Middelen. |
-| Verwijderen | Een concept of activiteit verwijderen.<BR>**OPMERKING**: Verwijderde activiteiten kunnen niet worden hersteld. Gebruik de handeling [!UICONTROL Archive], tenzij u er absoluut zeker van bent dat u deze activiteit nooit meer nodig hebt. U kunt de activiteit vervolgens desgewenst opnieuw activeren. |
+| Verwijderen | Een concept of activiteit verwijderen.<BR>**OPMERKING**: Verwijderde activiteiten kunnen niet worden hersteld. Tenzij u absoluut zeker bent dat u deze activiteit nooit meer zult nodig hebben, gebruik [!UICONTROL Archive] actie. U kunt de activiteit dan opnieuw activeren indien nodig. |
 
 Let op de volgende details over de activiteitenlijst:
 
