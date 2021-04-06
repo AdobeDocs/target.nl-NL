@@ -4,9 +4,9 @@ breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,6 @@ ht-degree: 0%
       + [Profiel en verklarende woordenlijst voor variabelen](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Veelgestelde vragen over doelen en doelgroepen {#faq-audiences}
       + [Veelgestelde vragen over doelen en doelgroepen](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [Metriek, publiek en rapporten delen - Veelgestelde vragen voor A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Ervaringen en aanbiedingen {#experiences}
    + [Overzicht van ervaringen en aanbiedingen](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
