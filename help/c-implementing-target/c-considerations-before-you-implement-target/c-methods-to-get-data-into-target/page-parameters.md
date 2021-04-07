@@ -5,7 +5,7 @@ title: Hoe krijg ik Gegevens in Doel gebruikend de Parameters van de Pagina?
 feature: Implementatie
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -22,20 +22,20 @@ Paginaparameters zijn handig voor het verzenden van paginagegevens naar Doel die
 
 De parameters van de pagina worden overgegaan in Doel via een servervraag als koordnaam/waardepaar. Parameternamen en -waarden kunnen worden aangepast (hoewel er enkele &#39;gereserveerde namen&#39; zijn voor specifieke toepassingen).
 
-### Voorbeelden:
+### Voorbeelden
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## Voorbeelden
+## Voorbeelden van gebruiksgevallen
 
 * **Productpagina**&#39;s: Informatie verzenden over het bekeken specifieke product (deze methode is hoe Recommendations werkt)
 * **Bestelgegevens**: Order-id, orderTotal enzovoort verzenden voor het verzamelen van bestellingen
 * **Categorie-affiniteit**: Door een categorie bekeken informatie naar Doel verzenden om kennis van de affiniteit van de gebruiker met bepaalde sitecategorieën te vergroten
 * **Gegevens** van derden: Verstuur informatie van derde gegevensbronnen, zoals weergerichte leveranciers, rekeningsgegevens (bijvoorbeeld, DemandBase), demografische gegevens (bijvoorbeeld Experian), en meer.
 
-## Voordelen van methode
+## Voordelen van de methode
 
 De gegevens worden verzonden naar Doel in echt - tijd, en kunnen op de zelfde servervraag worden gebruikt de gegevens waarop het binnen komt.
 
