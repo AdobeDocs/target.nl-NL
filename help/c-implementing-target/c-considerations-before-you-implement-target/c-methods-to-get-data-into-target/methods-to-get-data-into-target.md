@@ -6,9 +6,9 @@ feature: Implementatie
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -22,154 +22,18 @@ Beschikbare methoden zijn:
 | Methode | Details |
 | --- | --- |
 | [Paginaparameters](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br> (ook wel &quot;parameters mbox&quot; genoemd) | Paginaparameters zijn naam-/waardeparen die rechtstreeks via paginacode worden doorgegeven en die niet in het profiel van de bezoeker zijn opgeslagen voor toekomstig gebruik.<br>Paginaparameters zijn handig voor het verzenden van aanvullende paginagegevens naar Doel die niet met het profiel van de bezoeker hoeven te worden opgeslagen voor toekomstig doelgebruik. Deze waarden worden in plaats daarvan gebruikt om de pagina of de actie te beschrijven die de gebruiker op de specifieke pagina heeft ondernomen. |
-| Profielkenmerken in pagina (ook wel &#39;profielkenmerken in de box&#39; genoemd) | Profielkenmerken in pagina zijn naam-/waardeparen die rechtstreeks door paginacode worden doorgegeven en die in het profiel van de bezoeker worden opgeslagen voor toekomstig gebruik.<br>Met profielkenmerken van pagina&#39;s kunnen gebruikersspecifieke gegevens in het doelprofiel worden opgeslagen, zodat deze later kunnen worden toegewezen en gesegmenteerd. |
-| Scriptprofielkenmerken | Scriptprofielkenmerken zijn naam-/waardeparen die zijn gedefinieerd in de doeloplossing. De waarde wordt bepaald door het uitvoeren van een JavaScript-fragment op de server van Target per serveraanroep.<br>Gebruikers schrijven kleine codefragmenten die per mbox vraag uitvoeren, en alvorens een bezoeker voor publiek en activiteitenlidmaatschap wordt geëvalueerd. |
-| Gegevensleveranciers | Gegevensleveranciers zijn een mogelijkheid waarmee u eenvoudig gegevens van derden aan Target kunt doorgeven. |
+| [Profielkenmerken](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br> in pagina (ook wel &#39;profielkenmerken in de box&#39; genoemd) | Profielkenmerken in pagina zijn naam-/waardeparen die rechtstreeks door paginacode worden doorgegeven en die in het profiel van de bezoeker worden opgeslagen voor toekomstig gebruik.<br>Met profielkenmerken van pagina&#39;s kunnen gebruikersspecifieke gegevens in het doelprofiel worden opgeslagen, zodat deze later kunnen worden toegewezen en gesegmenteerd. |
+| [Scriptprofielkenmerken](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | Scriptprofielkenmerken zijn naam-/waardeparen die zijn gedefinieerd in de doeloplossing. De waarde wordt bepaald door het uitvoeren van een JavaScript-fragment op de server van Target per serveraanroep.<br>Gebruikers schrijven kleine codefragmenten die per mbox vraag uitvoeren, en alvorens een bezoeker voor publiek en activiteitenlidmaatschap wordt geëvalueerd. |
+| [Gegevensleveranciers](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | Gegevensleveranciers zijn een mogelijkheid waarmee u eenvoudig gegevens van derden aan Target kunt doorgeven. |
 | Bulkprofielupdate-API | Verzend via de API een CSV-bestand naar Target met updates van het bezoekersprofiel voor veel bezoekers. Elk bezoekersprofiel kan met veelvoudige in-pagina profielattributen in één vraag worden bijgewerkt. |
 | API voor bijwerken van één profiel | Bijna identiek aan de API voor het bijwerken van het bulkprofiel, maar één bezoekersprofiel wordt tegelijk bijgewerkt, in lijn in de API-aanroep in plaats van met een .csv-bestand. |
 | Klantkenmerken | Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar de Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target. |
 
-## Profielkenmerken in pagina (ook wel &#39;in-mbox-profielkenmerken&#39; genoemd) {#section_57E1C161AA7B444689B40B6F459302B6}
 
-Profielkenmerken in pagina zijn naam-/waardeparen die rechtstreeks door paginacode worden doorgegeven en die in het profiel van de bezoeker worden opgeslagen voor toekomstig gebruik.
 
-Met profielkenmerken van pagina&#39;s kunnen gebruikersspecifieke gegevens in het doelprofiel worden opgeslagen, zodat deze later kunnen worden toegewezen en gesegmenteerd.
 
-### Indeling
 
-Profielkenmerken in pagina&#39;s worden doorgegeven aan Target via een serveraanroep als een naam-/waardepaar met het voorvoegsel &quot;profiel&quot;. vóór de kenmerknaam.
 
-Kenmerknamen en -waarden kunnen worden aangepast (hoewel er enkele &#39;gereserveerde namen&#39; zijn voor specifieke toepassingen).
-
-Voorbeelden:
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### Voorbeelden
-
-**Aanmeldingsgegevens**: Deel niet-PII (Persoonlijk Identificeerbare Informatie) gegevens aan Doel die op login van de gebruiker wordt gebaseerd. Dit kan lidmaatschapsstatus, ordergeschiedenis of meer zijn.
-
-**Winkelgegevens**: Houd bij welke winkel de voorkeurslocatie van deze gebruiker is.
-
-**Vorige interacties**: Volg wat de gebruiker eerder op de site heeft gedaan om toekomstige personalisatie te informeren.
-
-### Voordelen van methode
-
-De gegevens worden verzonden naar Doel in real time, en kunnen op de zelfde servervraag worden gebruikt waarop de gegevens binnen komen.
-
-### Caveats
-
-Vereist updates van paginacode (direct of via een systeem van het markeringsbeheer).
-
-Kenmerken en waarden zijn zichtbaar in serveraanroepen, zodat een bezoeker de waarden kan zien. Als het delen van informatie zoals kredietbereiken of andere potentieel particuliere informatie, zou dit niet de beste benadering kunnen zijn.
-
-### Codevoorbeelden
-
-targetPageParamsAll (voegt de kenmerken toe aan alle mbox-aanroepen op de pagina):
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams (voegt de kenmerken toe aan het globale mabox op de pagina):
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-Attributen in mboxCreate code:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### Koppelingen naar relevante informatie
-
-[Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[Bezoekerprofiel](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## Scriptprofielkenmerken {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-Scriptprofielkenmerken zijn naam-/waardeparen die zijn gedefinieerd in de doeloplossing. De waarde wordt bepaald door het uitvoeren van een JavaScript-fragment op de server van Target per serveraanroep.
-
-Gebruikers schrijven kleine codefragmenten die per mbox vraag uitvoeren, en alvorens een bezoeker voor publiek en activiteitenlidmaatschap wordt geëvalueerd.
-
-### Indeling
-
-Scriptprofielkenmerken worden gemaakt in de sectie Soorten publiek van Doel. Elke kenmerknaam is geldig en de waarde is het resultaat van een JavaScript-functie die door de doelgebruiker is geschreven. De kenmerknaam wordt automatisch voorafgegaan door &quot; gebruiker. &quot; in Doel om ze te onderscheiden van de profielkenmerken in de pagina.
-
-Het codefragment wordt geschreven in de taal Rhino JS en kan naar tokens en andere waarden verwijzen.
-
-### Voorbeelden
-
-**Afschaffing** van winkelwagentje: Wanneer de bezoeker het winkelwagentje bereikt, stelt u het profielscript in op 1. Wanneer de bezoeker omzet, stel het aan 0 terug. Als de waarde =1 is, bevat de bezoeker een item in de winkelwagentje.
-
-**Aantal** bezoeken: Bij elk nieuw bezoek verhoogt u het aantal met 1 om te controleren hoe vaak een bezoeker naar de site terugkeert.
-
-### Voordelen van methode
-
-Er zijn geen updates van paginacode vereist.
-
-Voert uit vóór publiek en de besluiten van het activiteitenlidmaatschap, zodat kunnen deze attributen van het profielmanuscript lidmaatschap op één enkele servervraag beïnvloeden.
-
-Kan zeer robuust zijn. Er kunnen maximaal 2000 instructies per script worden uitgevoerd.
-
-### Caveats
-
-Hiervoor is JavaScript-kennis vereist.
-
-De uitvoeringsvolgorde van profielscripts kan niet worden gegarandeerd, zodat ze niet op elkaar kunnen vertrouwen.
-
-Kan moeilijk zijn om fouten op te sporen.
-
-### Codevoorbeelden
-
-Profielscripts zijn tamelijk flexibel:
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### Koppelingen naar relevante informatie
-
-[Profielscriptkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
-
-## Gegevensleveranciers {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-Gegevensleveranciers zijn een mogelijkheid waarmee u eenvoudig gegevens van derden aan Target kunt doorgeven.
-
-Opmerking: Data Providers vereist op .js 1.3 of hoger.
-
-### Indeling
-
-De instelling `window.targetGlobalSettings.dataProviders` is een array van gegevensproviders.
-
-Zie [Gegevensleveranciers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers) voor meer informatie over de structuur voor elke gegevensaanbieder.
-
-### Voorbeelden
-
-Verzamel gegevens van derden, zoals een weerservice, een DMP of zelfs uw eigen webservice. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken.
-
-### Voordelen van methode
-
-Met deze instelling kunnen klanten gegevens verzamelen van gegevensleveranciers van derden, zoals Demandbase, BlueKai en aangepaste services, en de gegevens doorgeven aan Target als mbox-parameters in het algemene mbox-verzoek.
-
-Het steunt de inzameling van gegevens van veelvoudige leveranciers via async en synchronisatieverzoeken.
-
-Op deze manier kunt u flikkering van de standaardpagina-inhoud eenvoudig beheren en onafhankelijke time-outs opnemen voor elke provider om de invloed op de paginaprestaties te beperken
-
-### Caveats
-
-Als de gegevensproviders die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, asynchroon zijn, worden ze parallel uitgevoerd. Het verzoek voor de bezoeker-API wordt parallel met de functies uitgevoerd die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, zodat er minimaal een wachttijd is.
-
-at.js zal niet proberen om de gegevens in het voorgeheugen onder te brengen. Als de gegevensleverancier gegevens slechts één keer haalt, zou de gegevensleverancier ervoor moeten zorgen dat de gegevens in het voorgeheugen wordt opgeslagen en, wanneer de leveranciersfunctie wordt aangehaald, de geheim voorgeheugengegevens voor de tweede aanroeping dienen.
-
-### Codevoorbeelden
-
-Verschillende voorbeelden vindt u in [Gegevensleveranciers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
-
-### Koppelingen naar relevante informatie
-
-Documentatie: [Gegevensleveranciers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### Trainingsvideo&#39;s:
-
-* [Gegevensleveranciers gebruiken in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Gegevensleveranciers implementeren in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API voor updates van bulkprofielen {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
