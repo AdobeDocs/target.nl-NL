@@ -2,90 +2,32 @@
 keywords: implementeren;implementeren;instellen;instellen;pagina, parameter;tomcat;url gecodeerd;in-page profiel, kenmerk;mbox, parameter;in-page profiel, kenmerken;script, profielkenmerk;bulk profiel, update-API;single file, update-API;klantkenmerken;gegevensproviders;data provider;data provider
 description: Gegevens ophalen in Doel (paginaparameters, profielkenmerken, scriptprofielkenmerken, gegevensproviders, update-API's met één profiel en bulkprofielen, klantkenmerken).
 title: Hoe krijg ik gegevens in het doel?
-feature: Implementation
+feature: Implementatie
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1864'
 ht-degree: 0%
 
 ---
 
+# Overzicht van methoden
 
-# Methoden om gegevens op te halen in Doel
+Informatie over de verschillende methodes u kunt gebruiken om gegevens in [!DNL Adobe Target] te krijgen.
 
-Informatie over de verschillende methoden die u kunt gebruiken om gegevens in [!DNL Adobe Target] op te halen, zoals paginaparameters, kenmerken van het paginaprofiel, kenmerken van het scriptprofiel, gegevensproviders, de API voor het bulkprofielbijwerken, de API voor één profielupdate en de kenmerken van de klant.
+Beschikbare methoden zijn:
 
-## Paginaparameters (ook wel &quot;mbox-parameters&quot; genoemd) {#section_5A297816173C4FE48DC4FE03860CB42B}
-
-Paginaparameters zijn naam-/waardeparen die rechtstreeks via paginacode worden doorgegeven en die niet in het profiel van de bezoeker zijn opgeslagen voor toekomstig gebruik.
-
-Paginaparameters zijn handig voor het verzenden van aanvullende paginagegevens naar Doel die niet met het profiel van de bezoeker hoeven te worden opgeslagen voor toekomstig doelgebruik. Deze waarden worden in plaats daarvan gebruikt om de pagina of de actie te beschrijven die de gebruiker op de specifieke pagina heeft ondernomen.
-
-### Indeling
-
-De parameters van de pagina worden overgegaan in Doel via een servervraag als koordnaam/waardepaar. Parameternamen en -waarden kunnen worden aangepast (hoewel er enkele &#39;gereserveerde namen&#39; zijn voor specifieke toepassingen).
-
-Voorbeelden:
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### Voorbeelden
-
-**Productpagina**&#39;s: Informatie verzenden over het bekeken specifieke product (dit is de manier waarop Recommendations werkt)
-
-**Bestelgegevens**: Order-id, orderTotal enzovoort verzenden voor het verzamelen van bestellingen
-
-**Categorie-affiniteit**: Door een categorie bekeken informatie naar Doel verzenden om kennis van de affiniteit van de gebruiker met bepaalde sitecategorieën te vergroten
-
-**Gegevens** van derden: Verstuur informatie van derde gegevensbronnen, zoals weergerichte leveranciers, rekeningsgegevens (bijvoorbeeld, DemandBase), demografische gegevens (bijvoorbeeld Experian), en meer.
-
-### Voordelen van methode
-
-De gegevens worden verzonden naar Doel in real time, en kunnen op de zelfde servervraag worden gebruikt de gegevens waarop het binnen komt.
-
-### Caveats
-
-* Vereist een update van de paginacode (direct of via een systeem van het markeringsbeheer).
-* Als de gegevens voor het richten op een volgende pagina/servervraag moeten worden gebruikt, moet het in een profielmanuscript worden vertaald.
-* De koorden van de vraag kunnen slechts karakters zoals volgens [de norm ](https://www.ietf.org/rfc/rfc3986.txt) van de Techniek van Internet van de Taakmacht (IETF) bevatten.
-
-   Naast die vermeld op de plaats IETF, staat het Doel de volgende karakters in vraagkoorden toe:
-
-   `&lt; > # % &quot; { } | \\ ^ \[\] \&quot;
-
-   Al het andere moet met url gecodeerd zijn. De standaard geeft de volgende notatie aan ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), zoals hieronder wordt geïllustreerd:
-
-   ![](assets/ietf1.png)
-
-   Of, de volledige lijst voor eenvoud:
-
-   ![](assets/ietf2.png)
-
-### Codevoorbeelden
-
-targetPageParamsAll (voegt de parameters aan alle mbox vraag op de pagina toe):
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams (voegt de parameters aan globale mbox op de pagina toe):
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parameters in mboxCreate-code:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### Koppelingen naar relevante informatie
-
-Recommendations: [Implementatie volgens paginatype](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-Bevestiging van bestelling: [Conversies bijhouden](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-Categorie-affiniteit: [Categorie-affiniteit](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| Methode | Details |
+| --- | --- |
+| [Paginaparameters](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br> (ook wel &quot;parameters mbox&quot; genoemd) | Paginaparameters zijn naam-/waardeparen die rechtstreeks via paginacode worden doorgegeven en die niet in het profiel van de bezoeker zijn opgeslagen voor toekomstig gebruik.<br>Paginaparameters zijn handig voor het verzenden van aanvullende paginagegevens naar Doel die niet met het profiel van de bezoeker hoeven te worden opgeslagen voor toekomstig doelgebruik. Deze waarden worden in plaats daarvan gebruikt om de pagina of de actie te beschrijven die de gebruiker op de specifieke pagina heeft ondernomen. |
+| Profielkenmerken in pagina (ook wel &#39;profielkenmerken in de box&#39; genoemd) | Profielkenmerken in pagina zijn naam-/waardeparen die rechtstreeks door paginacode worden doorgegeven en die in het profiel van de bezoeker worden opgeslagen voor toekomstig gebruik.<br>Met profielkenmerken van pagina&#39;s kunnen gebruikersspecifieke gegevens in het doelprofiel worden opgeslagen, zodat deze later kunnen worden toegewezen en gesegmenteerd. |
+| Scriptprofielkenmerken | Scriptprofielkenmerken zijn naam-/waardeparen die zijn gedefinieerd in de doeloplossing. De waarde wordt bepaald door het uitvoeren van een JavaScript-fragment op de server van Target per serveraanroep.<br>Gebruikers schrijven kleine codefragmenten die per mbox vraag uitvoeren, en alvorens een bezoeker voor publiek en activiteitenlidmaatschap wordt geëvalueerd. |
+| Gegevensleveranciers | Gegevensleveranciers zijn een mogelijkheid waarmee u eenvoudig gegevens van derden aan Target kunt doorgeven. |
+| Bulkprofielupdate-API | Verzend via de API een CSV-bestand naar Target met updates van het bezoekersprofiel voor veel bezoekers. Elk bezoekersprofiel kan met veelvoudige in-pagina profielattributen in één vraag worden bijgewerkt. |
+| API voor bijwerken van één profiel | Bijna identiek aan de API voor het bijwerken van het bulkprofiel, maar één bezoekersprofiel wordt tegelijk bijgewerkt, in lijn in de API-aanroep in plaats van met een .csv-bestand. |
+| Klantkenmerken | Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar de Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target. |
 
 ## Profielkenmerken in pagina (ook wel &#39;in-mbox-profielkenmerken&#39; genoemd) {#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -188,7 +130,7 @@ Profielscripts zijn tamelijk flexibel:
 
 ## Gegevensleveranciers {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-Gegevensleveranciers zijn een mogelijkheid waarmee u gegevens van derden eenvoudig aan Doel kunt doorgeven.
+Gegevensleveranciers zijn een mogelijkheid waarmee u eenvoudig gegevens van derden aan Target kunt doorgeven.
 
 Opmerking: Data Providers vereist op .js 1.3 of hoger.
 
@@ -273,7 +215,7 @@ Zie [Profielen bijwerken](https://developers.adobetarget.com/api/#updating-profi
 
 ## API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D} voor bijwerken van één profiel
 
-Bijna identiek aan de API voor het bijwerken van het bulkprofiel, maar één bezoekersprofiel wordt tegelijk bijgewerkt, in lijn in de API-aanroep in plaats van met een .csv-bestand
+Bijna identiek aan de API voor het bijwerken van het bulkprofiel, maar één bezoekersprofiel wordt tegelijk bijgewerkt, in lijn in de API-aanroep in plaats van met een .csv-bestand.
 
 ### Indeling
 
