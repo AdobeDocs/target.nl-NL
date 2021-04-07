@@ -4,9 +4,9 @@ breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,8 @@ ht-degree: 0%
          + [Inhoudsbeveiligingsbeleid (CSP)-instructies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
          + [Lijst van gewenste personen randknooppunten doel](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Methoden om gegevens op te halen in doel {#methods}
-         + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [Overzicht van methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [Paginaparameters](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
          + [Profiel-API-instellingen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Overzicht van doelbeveiliging](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Ondersteunde browsers](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
