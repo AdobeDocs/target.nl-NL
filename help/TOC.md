@@ -4,9 +4,9 @@ breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
+source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,10 @@ ht-degree: 0%
    + [Doelsleutelbegrippen](c-intro/target-key-concepts.md)
    + [De interface van het doel begrijpen](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target-welkomstkit {#welcome}
-      + [Overzicht van Adobe Target-welkomstkit](/help/c-intro/target-welcome-kit.md)
+      + [Overzicht van de welkomstkit](/help/c-intro/target-welcome-kit.md)
       + [Hoofdstuk 1: Inleiding](/help/c-intro/target-welcome-kit-1.md)
-      + [Hoofdstuk 2: Adobe Target in één oogopslag](/help/c-intro/target-welcome-kit-2.md)
-      + [Hoofdstuk 3: Ontwikkel uw testende en verpersoonlijkingsideeën](/help/c-intro/target-welcome-kit-3.md)
+      + [Hoofdstuk 2: Doel in één oogopslag](/help/c-intro/target-welcome-kit-2.md)
+      + [Hoofdstuk 3: Ontwikkel uw test en verpersoonlijkingsideeën](/help/c-intro/target-welcome-kit-3.md)
       + [Hoofdstuk 4: Tips voor het gebruik van Doel](/help/c-intro/target-welcome-kit-4.md)
       + [Hoofdstuk 5: Inspiratie voor test- en personalisatieactiviteiten](/help/c-intro/target-welcome-kit-5.md)
       + [Hoofdstuk 6: Gemakkelijk vermijdbare valkuilen](/help/c-intro/target-welcome-kit-6.md)
@@ -44,15 +44,15 @@ ht-degree: 0%
    + [Verklarende woordenlijst](c-intro/glossary.md)
    + [Hoe Target werkt](c-intro/how-target-works.md)
    + [Opleiding en certificering](c-intro/training-and-certification.md)
-   + [Trainingsvideo&#39;s voor Adobe Target Standard en Premium](c-intro/target-standard-premium-training-videos.md)
+   + [Trainingsvideo&#39;s voor Target Standard en Premium](c-intro/target-standard-premium-training-videos.md)
    + [Veelgestelde vragen over optimalisatie en personalisatie](c-intro/cmp-target-standard-cheatsheet.md)
 + Doel beheren {#administer}
-   + [Doeloverzicht beheren](administrating-target/administrating-target.md)
+   + [Overzicht van Doel beheren](administrating-target/administrating-target.md)
    + [Eerste stappen van beheerder](administrating-target/start-target.md)
    + [Vorm Composer van de Visuele Ervaring](/help/administrating-target/visual-experience-composer-set-up.md)
    + {#reporting} rapporteren
       + [Rapportage configureren](/help/administrating-target/reporting.md)
-      + [Schatting van de opbrengst](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+      + [Raming van de inkomsten](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7-configuratie](administrating-target/scene7-settings.md)
    + [Implementatie](/help/administrating-target/implementation.md)
    + [Gastheren](administrating-target/hosts.md)
@@ -101,7 +101,7 @@ ht-degree: 0%
             + [Doel implementeren met Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Doel implementeren zonder tagbeheer](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [Doel implementeren met dynamisch tagbeheer (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [Toepassing van één pagina](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+            + [Doel implementeren voor toepassingen van één pagina (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js-functies {#functions-overview}
             + [at.js, functieoverzicht](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
             + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
@@ -130,24 +130,24 @@ ht-degree: 0%
          + Migreren van mbox.js naar at.js {#migrate-mbox}
             + [Migreren van mbox.js naar at.js-overzicht](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
             + [Migreren naar at.js vanuit mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
-            + [om.js Beperkingen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-            + [at.js-plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [Implementeren op .js naar een niet-productieomgeving](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
+            + [beperkingen van at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
+            + [at.js plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+            + [Implementeren bij.js in een niet-productieomgeving](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
          + [Wat doet mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [mbox.js configureren](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [mbox.js downloaden](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
          + [Methoden voor doelpagina&#39;s door bibliotheekversie mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
          + [Een bevestigingsbox voor bestellingen maken - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js Veelgestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+         + [mbox.js, vaak gestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js, functies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
          + [mbox.js, cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js, versiedetails](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + Globale box {#global-mbox} begrijpen
-         + [Overzicht van het algemene mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [Globaal mbox-overzicht](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Een globale box aanpassen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [Een globale box uit een verouderde implementatie gebruiken](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [Globale mbox uit een oudere implementatie gebruiken](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
          + [Parameters doorgeven aan een globale box](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [Algemene mbox Veelgestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+         + [Algemene mbox vaak gestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + Doel voor mobiele apps {#mobile-apps}
       + [Overzicht van het doel voor mobiele apps](c-target-mobile-app/target-mobile-app.md)
       + [Hoe Target werkt in mobiele apps](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
@@ -169,8 +169,8 @@ ht-degree: 0%
       + [Een dialoogvenster maken voor een afbeelding](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Een e-mailafbeeldingsvenster testen](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Werken met directeuren](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
-+ Adobe Target integreren met de Experience Cloud {#integrate}
-   + Adobe Analytics als bron van rapportage voor Adobe Target (A4T) {#a4t}
++ Doel integreren met de Experience Cloud {#integrate}
+   + Adobe Analytics als rapportagebron voor Target (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
       + [Voordat u implementeert](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analyses voor doelimplementatie](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -229,9 +229,9 @@ ht-degree: 0%
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Een Automated Personalization-activiteit maken](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Gegevens uploaden voor de Target personalization-algoritmen](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
-      + [Gegevensverzameling voor personalisatiealgoritmen van Target](c-activities/t-automated-personalization/ap-data.md)
-      + [Schatting van het Verkeer Vereist voor Succes](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Voorvertoning van ervaringen weergeven voor een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Gegevensverzameling voor de personalisatiealgoritmen van het Doel](c-activities/t-automated-personalization/ap-data.md)
+      + [Schatting van het verkeer dat voor succes wordt vereist](c-activities/t-automated-personalization/ap-traffic-estimator.md)
+      + [Voorvertoning van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Automated Personalization-doelaanbiedingen](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](c-activities/t-automated-personalization/experience-as-control.md)
@@ -268,8 +268,8 @@ ht-degree: 0%
    + Slaagwaarden {#success-metrics}
       + [Succeswaarden](c-activities/r-success-metrics/success-metrics.md)
       + [Klikken bijhouden](c-activities/r-success-metrics/click-tracking.md)
-      + [Muziek vastleggen](c-activities/r-success-metrics/capture-score.md)
-   + [Activiteitenwijzigingslogboek](c-activities/change-log.md)
+      + [Vastlegscore](c-activities/r-success-metrics/capture-score.md)
+   + [Logboek voor wijziging van de activiteit](c-activities/change-log.md)
    + Problemen met activiteiten oplossen {#troubleshoot-activities}
       + [Overzicht van probleemoplossingactiviteiten](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
       + [Problemen met de levering van inhoud oplossen](c-activities/c-troubleshooting-activities/content-trouble.md)
@@ -280,7 +280,7 @@ ht-degree: 0%
 + Soorten publiek {#audiences}
    + [Overzicht van soorten publiek](c-target/target.md)
    + Soorten publiek {#create-audiences} maken
-      + [Maken](c-target/c-audiences/audiences.md)
+      + [Overzicht van soorten publiek maken](c-target/c-audiences/audiences.md)
       + [Stimuleer publiek in doel](c-target/c-audiences/create-audience.md)
       + Categorieën voor soorten publiek {#categories-audiences}
          + [Categorieën voor publiek overzicht](c-target/c-audiences/c-target-rules/target-rules.md)
@@ -315,16 +315,16 @@ ht-degree: 0%
    + [Overzicht van ervaringen en aanbiedingen](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Overzicht van Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [Opties voor composer visuele ervaring](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Opties voor Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](c-experiences/c-visual-experience-composer/temtest.md)
       + [Meerdere pagina&#39;s](c-experiences/c-visual-experience-composer/multipage-activity.md)
-      + [Activiteitenconflicten](c-experiences/c-visual-experience-composer/activity-collisions.md)
+      + [Conflicten bij activiteit](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Wijzigingen {#modifications}
          + [Overzicht van wijzigingen](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-         + [Experience Templates](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
+         + [Experience-sjablonen](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
       + [Elementkiezers die worden gebruikt in de composer voor visuele ervaring](c-experiences/c-visual-experience-composer/vec-selectors.md)
-      + [Mobiele Viewports voor responsieve ervaringen](c-experiences/c-visual-experience-composer/mobile-viewports.md)
-      + [Aanbevolen werkwijzen en beperkingen voor composer visuele ervaring](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+      + [Mobiele viewports voor responsieve ervaringen](c-experiences/c-visual-experience-composer/mobile-viewports.md)
+      + [Aanbevolen werkwijzen en beperkingen van Visual Experience Composer](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + Problemen met de composer voor visuele ervaring {#troubleshoot-composer} oplossen
          + [Het oplossen van problemen de Visuele Composer van de Ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Het oplossen van problemen de Composer van de Visuele Ervaring en Verbeterde Composer van de Ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
@@ -334,7 +334,7 @@ ht-degree: 0%
          + [Paginawijzigingsscenario&#39;s](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omleiden naar een URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [Het creëren van Carrousels die in de Composer van de Visuele Ervaring werken](c-experiences/c-visual-experience-composer/vec-carousels.md)
+      + [Het creëren van carrousels die in de Composer van de Visuele Ervaring werken](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Formuliergebaseerde Experience Composer](c-experiences/form-experience-composer.md)
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Aanbiedingen {#offers}
@@ -352,7 +352,7 @@ ht-degree: 0%
    + [Overzicht van rapporten](c-reports/reports.md)
    + Rapportinstellingen {#settings}
       + [Overzicht van rapportinstellingen](c-reports/c-report-settings/report-settings.md)
-      + [Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
+      + [Gemiddelde lift, liftbegrenzingen en betrouwbaarheidsinterval](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Meerdere metriek in een rapport weergeven](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Extreme waarden uitsluiten](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [Samenvattingsrapport voor automatisch doel](c-reports/auto-target-summary-report.md)
@@ -388,9 +388,9 @@ ht-degree: 0%
       + [Aangepaste criteria uploaden](c-recommendations/c-algorithms/recommendations-csv.md)
       + Dynamische en statische opnemingsregels {#dynamic-static}
          + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [Identieke kenmerk entiteit](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Identiteitskenmerk](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Overeenkomende profielkenmerken](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [Overeenkomende parameters](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Overeenkomende parameter](/help/c-recommendations/c-algorithms/parameter-matching.md)
          + [Statisch filter](/help/c-recommendations/c-algorithms/static-value.md)
       + [Een back-upaanbeveling gebruiken](c-recommendations/c-algorithms/backup-recs.md)
       + [Werken met kenmerken van meerdere waarden](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
@@ -404,7 +404,7 @@ ht-degree: 0%
       + [Een Recommendations-activiteit maken](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Criteria selecteren](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Promoties toevoegen](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Instellingen Recommendations-activiteit](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Instellingen voor Recommendations-activiteiten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations-activiteiten voorvertonen en starten](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations als voorstel](c-recommendations/recommendations-as-an-offer.md)
    + Veelgestelde vragen {#recommendations-faq}
