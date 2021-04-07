@@ -1,11 +1,11 @@
 ---
-keywords: implementeren;implementeren;instellen;instellen;script, profielkenmerk
+keywords: implementeren;implementeren;instellen;instellen;scriptprofielkenmerken
 description: Gegevens naar doel ophalen met behulp van scriptprofielkenmerken.
 title: Hoe krijg ik gegevens in doel gebruikend de Attributen van het Profiel van het Manuscript?
 feature: Implementatie
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
