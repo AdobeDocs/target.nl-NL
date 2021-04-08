@@ -4,15 +4,15 @@ description: Begrijp basisconcepten, ben vertrouwd met hoe het Doel werkt en met
 landing-page-description: Voordat u Adobe Target gaat gebruiken, moet u het programma implementeren op uw site, enkele basisbeginselen en -termen begrijpen en vertrouwd zijn met de werking van Target.
 title: Hoe kan ik het doel implementeren?
 feature: Implementatie
-role: Ontwikkelaar
+role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Doel implementeren
 
