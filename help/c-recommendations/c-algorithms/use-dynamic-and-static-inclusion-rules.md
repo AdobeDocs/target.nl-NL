@@ -4,14 +4,14 @@ description: Leer hoe u regels voor deelname maakt in Adobe Target Recommendatio
 title: Hoe gebruik ik dynamische en statische inclusieregels in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
-
 
 # ![Regels voor dynamische en statische integratie ](/help/assets/premium.png) PREMIUMU gebruiken{#use-dynamic-and-static-inclusion-rules}
 
@@ -29,7 +29,7 @@ Als u [criteria maakt, klikt u **[!UICONTROL Add Filtering Rule]** onder **[!UIC
 
 Welke opties beschikbaar zijn, is afhankelijk van de verticale en aanbevolen industriesleutel.
 
-## Filterregels toevoegen aan promoties {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Filterregels toevoegen aan speciale acties {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Terwijl [een bevordering creëren](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), selecteer **[!UICONTROL Promote by Attribute]**, dan klik **[!UICONTROL Add Filtering Rule]**.
 
@@ -91,7 +91,7 @@ Als u de gewenste actie wilt selecteren, houdt u de muisaanwijzer boven het tand
 
 | Handeling | Beschikbaar voor | Details |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] en[!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching].<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
+| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching].<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
 | [!UICONTROL Do not show any results for this criteria]<br>(Alleen criteria) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
 | [!UICONTROL Do not promote any items<br>(Alleen aanbiedingen)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Als een waarde leeg is, kunt u een statische waarde gebruiken. |
