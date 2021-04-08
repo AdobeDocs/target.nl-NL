@@ -5,9 +5,9 @@ title: Hoeveel verkeer is nodig voor een succesvolle activiteit?
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Onthoud dat [!DNL Target] willekeurig ervaringen dient tot de verpersoonlijkings
 
 Overweeg de volgende FAQs aangezien u met [!UICONTROL Traffic Estimator] werkt:
 
-### Waarom bouwt [!DNL Target] geen gepersonaliseerde modellen wanneer mijn AP activiteit genoeg verkeer heeft?
+### Waarom worden gepersonaliseerde modellen niet gebouwd alhoewel mijn AP activiteit genoeg verkeer heeft?
 
 In bepaalde omstandigheden, is uw verkeer groot genoeg voor een gepersonaliseerd model om worden gebouwd, maar dat verkeer zou [!DNL Target] kunnen informeren dat er geen zinvol verschil tussen het gepersonaliseerde model en willekeurig is. Hoewel het model is ingebouwd in [!DNL Target] en getest, wordt het niet geïmplementeerd omdat het model niet beter is dan willekeurig.
 
