@@ -5,9 +5,9 @@ title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -16,35 +16,42 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 1 maart 2021**
+**Laatst bijgewerkt: 9 april 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
+>**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 mislukken alle aanroepen van mbox.js op elegante wijze en worden deze van invloed op uw pagina&#39;s die [!DNL Target] activiteiten hebben die worden uitgevoerd door standaardinhoud te bedienen.
 >
->Migreer vóór deze datum naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.2.1 (9 maart 2021)
+## Target Standard/Premium 21.4.1 (19 april 2021)
 
-Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen.
+Deze release bevat de volgende nieuwe functies. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
-De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
+| Functie | Details |
+| --- | --- |
+| Ondersteuning voor apparaatbeslissingen voor at.js | Met apparaatbeslissingen kunnen marketers en ontwikkelaars experimenten en personalisatie uitvoeren in de browser van een gebruiker bij bijna-nullatentie. |
 
-* De toegestane aanbiedingsgrootte is vergroot (TGT-38304):
+Deze versie bevat de volgende verbeteringen, correcties en wijzigingen.
 
-   | Type | Vorige limiet | Nieuwe limiet |
-   | --- | --- | --- |
-   | HTML | 256 kB | 1024 kB |
-   | Visuele aanbiedingen van het Doel UI | 64 kB | 1024 kB voor elke ervaring |
-   | Via API | 512 kB | 1024 kB |
+* Probleem verholpen waardoor een activiteit niet kon worden gesynchroniseerd nadat het publiek was gewijzigd in [!UICONTROL All Visitors]. (TGT-40259)
+* Oplossing voor een probleem dat voorkwam dat aanbiedingen werden gedupliceerd wanneer ze op verschillende locaties in [!UICONTROL Automated Personalization]-activiteiten werden gebruikt, ook al is de optie [!UICONTROL Disallow Duplicates] ingeschakeld. (TGT-39567)
+* Probleem verholpen waardoor de pagina [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] niet correct kon worden geladen. (TGT-39918)
+* Probleem verholpen waarbij eigenschappen werden toegewezen aan de onjuiste werkruimte. (TGT-39869)
+* [!DNL Target Recommendations] steunt nieuwe op lijst-gebaseerde exploitanten voor entiteit het filtreren regels. (TGT-39234)
 
-* [!UICONTROL Personalization Insights] Er worden nu dagelijks rapporten over  [!UICONTROL Auto-Target] (AT)- en  [!UICONTROL Automated Personalization] (AP)-activiteiten opgesteld. U kunt een rapport kiezen dat [!UICONTROL Automated Segments] of [!UICONTROL Important Attributes] voor de laatste 15, 30, en 60 dagen verstrekt. De opties voor 45 en 90 dagen zijn verwijderd om de andere instellingen voor terugzoekvensters dagelijks uit te voeren. (TGT-39472)
-* Probleem verholpen waarbij de huidige afhankelijkheid niet werd weergegeven wanneer klanten [!UICONTROL Edit Dependency] op de pagina [!UICONTROL Goals & Settings] van een activiteit klikken. (TGT-39340)
-* Probleem verholpen bij het vernieuwen van de [!UICONTROL Audience Library] van een werkruimte. Vóór verfrist zich, toont het publiek voor de momenteel geselecteerde werkruimte. Na verfrissen, [!UICONTROL Default Workspace] en zijn publiek getoond. De huidige werkruimte en het publiek blijven nu behouden na het vernieuwen. (TGT-38871)
-* Probleem verholpen bij het kopiëren van een [!UICONTROL Recommendations]-activiteit en later het bewerken van de oorspronkelijke activiteit door de volgorde van criteria te wijzigen. De wijziging in de volgorde van criteria in de oorspronkelijke activiteit werd ook onjuist toegepast op de gekopieerde activiteit. (TGT-39155)
-* Probleem verholpen waarbij het onjuiste aantal producten voor uitsluitingen [!UICONTROL Recommendations] werd weergegeven. (TGT-39599)
+   Nieuw toegevoegde operatoren zijn onder andere:
+
+   * Is opgenomen in lijst
+   * Is niet opgenomen in lijst
+   * Lijst bevat een item in
+   * Lijst bevat geen item in
+   * Lijst bevat alle items in
+   * Lijst bevat niet alle items in
+
+* Probleem verholpen waarbij een oneindig laden werd veroorzaakt als de aanvraag mislukt nadat de omgeving was gewijzigd en een uitsluiting voor aanbevelingen werd gemaakt. (TGT-39948)
 
 ## Voorlopige-releasegegevens {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
