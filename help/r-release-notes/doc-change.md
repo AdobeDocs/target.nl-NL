@@ -3,14 +3,14 @@ keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe ond
 description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de Adobe Target-productdocumentatie.
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
+exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '3900'
+source-wordcount: '3915'
 ht-degree: 0%
 
 ---
-
 
 # Documentatiewijzigingen
 
@@ -20,6 +20,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 9 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie voor de doelstandaard/Premium versie 21.4.1 is toegevoegd (19 april 2021) |
 | 29 maart | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nieuwe veelgestelde vragen toegevoegd:<ul><li>Blijven aanbevelingen op basis van onlangs weergegeven items op meerdere apparaten voor één bezoeker?</li></ul> |
 | 23 maart | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
