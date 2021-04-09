@@ -3,16 +3,16 @@ keywords: email;ESP;email service provider;rawbox;delivery API;download-only tem
 description: Leer hoe u e-mail kunt integreren met Adobe Target Recommendations, inclusief het gebruik van de API voor doellevering, webvaksjablonen en sjablonen voor alleen downloads.
 title: Hoe integreer ik Recommendations met e-mail?
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
 
-
-# ![recommendations ](/help/assets/premium.png) integreren met e-mail{#integrate-recommendations-with-email}
+# ![Recommendations ](/help/assets/premium.png) integreren met e-mail
 
 Informatie over de manieren om e-mail met Recommendations te integreren.
 
@@ -65,7 +65,7 @@ Een box is gelijkaardig aan een mbox verzoek, maar voor milieu&#39;s buiten het 
 
 >[!NOTE]
 >
->Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidskennisgeving onder [creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden](/help/administrating-target/hosts.md#allowlist).
+>Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidsmededeling onder [creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden](/help/administrating-target/hosts.md#allowlist).
 
 Op deze manier kunt u de prestaties van aanbevelingen in e-mails volgen, deze op de normale manier testen met een aanbeveling en doorgaan met bijhouden op de site.
 
@@ -110,7 +110,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Vereist voor bepaalde soorten criteria: weergave/weergave, bekijken/kopen, kopen/kopen) | *entity_id* | De productID de aanbeveling is gebaseerd op, zoals een verlaten product in het karretje, of een vorige aankoop.<br>Indien vereist door de criteria, moet de radibox vraag het  `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Als `entity.id` wordt overgegaan, wordt het hoogst geadviseerd om deze parameter ook over te gaan om het verzoek te verhinderen het aantal van getalleerde paginameningen voor een punt te verhogen, zodat niet op productmening-gebaseerde algoritmen schuin te trekken. |  |
 | `entity.categoryId`<br>(Vereist voor bepaalde soorten criteria: meest bekeken op rubriek en topverkopers op rubriek) | *category_id* | De rubriek waarop de aanbeveling is gebaseerd, zoals topverkopers in een rubriek.<br>Indien vereist door de criteria, moet de radibox vraag het  `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Als de parameter `mboxNoRedirect` niet aanwezig is, `mboxDefault` zou een absolute URL moeten zijn die standaardinhoud zal terugkeren als geen aanbeveling beschikbaar is. Dit kan een afbeelding of andere statische inhoud zijn.<br>Als de  `mboxNoRedirect` parameter aanwezig is,  `mboxDefault` kan elke tekst zijn die aangeeft dat er bijvoorbeeld geen aanbevelingen zijn  `no_content`.<br>De e-mailprovider moet het geval afhandelen waar deze waarde wordt geretourneerd en standaard-HTML in de e-mail invoegen.  <br> **Beste praktijken** op het gebied van beveiliging: Merk op dat als het domein dat in  `mboxDefault` URL wordt gebruikt niet wordt toegevoegd op lijst van gewenste personen, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector of `mboxDefault` door derden te vermijden, adviseren wij u &quot;geautoriseerde gastheren&quot;gebruiken om de gebrek te lijsten van gewenste personen omleiding URL domeinen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden ](/help/administrating-target/hosts.md#allowlist) in *Gastheren*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Als de parameter `mboxNoRedirect` niet aanwezig is, `mboxDefault` zou een absolute URL moeten zijn die standaardinhoud zal terugkeren als geen aanbeveling beschikbaar is. Dit kan een afbeelding of andere statische inhoud zijn.<br>Als de  `mboxNoRedirect` parameter aanwezig is,  `mboxDefault` kan elke tekst zijn die aangeeft dat er bijvoorbeeld geen aanbevelingen zijn  `no_content`.<br>De e-mailprovider moet het geval afhandelen waar deze waarde wordt geretourneerd en standaard-HTML in de e-mail invoegen.  <br> **Beste praktijken** op het gebied van beveiliging: Merk op dat als het domein dat in  `mboxDefault` URL wordt gebruikt niet wordt gevoegd op lijst van gewenste personen, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector of `mboxDefault` door derden te vermijden, adviseren wij u &quot;geautoriseerde gastheren&quot;gebruiken om de gebrek te lijsten van gewenste personen omleiding URL domeinen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden ](/help/administrating-target/hosts.md#allowlist) in *Gastheren*. |  |
 | `mboxHost` | *mbox_host* | Dit is het domein dat aan het standaardmilieu (gastheergroep) wordt toegevoegd wanneer de vraag brandt. |  |
 | `mboxPC` | Leeg | (Vereist voor aanbevelingen die het profiel van een bezoeker gebruiken.)<br>Als er geen &quot;thirdPartyId&quot; is opgegeven, wordt een nieuwe tntId gegenereerd en geretourneerd als onderdeel van de reactie. Anders blijft het leeg.<br>**Opmerking**: Zorg ervoor dat u een unieke waarde opgeeft voor  `mboxSession` en  `mboxPC` voor elke e-mailontvanger (dus voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege het grote aantal gebeurtenissen dat binnen één profiel wordt gegenereerd. | 1 &lt; Length &lt; 128<br>Kan niet meer dan één &quot;.&quot; bevatten (punt).<br>Het enige toegestane punt is voor het achtervoegsel van de profiellocatie. |
 
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | Parameter | Waarde | Beschrijving | Validatie |
 |--- |--- |--- |--- |
 | `mboxPC`<br>(Optioneel) | *mboxPCId* | Doelbezoeker-id. Gebruik deze waarde als u een volledige cirkel van een gebruiker bij meerdere bezoeken naar uw site wilt bijhouden of als u een parameter voor gebruikersprofielen gebruikt.<br>Deze waarde moet de werkelijke Adobe Target PCID voor de gebruiker zijn, die van de website naar uw CRM wordt geëxporteerd. De e-mailprovider haalt deze id op van uw CRM of Data-entrepot en gebruikt deze voor de waarde van deze parameter.<br>De  `mboxPC` waarde is ook handig voor het bijhouden van het gedrag van de bezoekerssite bij meerdere bezoeken voor het bijhouden van statistieken wanneer een aanbeveling deel uitmaakt van een A/B-activiteit.<br>**Opmerking**: Zorg ervoor dat u een unieke waarde opgeeft voor  `mboxSession` en  `mboxPC` voor elke e-mailontvanger (dus voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege het grote aantal gebeurtenissen dat binnen één profiel wordt gegenereerd. | 1 &lt; Length &lt; 128<br>Kan niet meer dan één &quot;.&quot; bevatten (punt).<br>Het enige toegestane punt is voor het achtervoegsel van de profiellocatie. |
-| `mboxNoRedirect`<br>(Optioneel) | 3 | Standaard wordt de aanroeper omgeleid wanneer geen te leveren inhoud wordt gevonden. Gebruik deze optie om het standaardgedrag uit te schakelen. |  |
+| `mboxNoRedirect`<br>(Optioneel) | 1 | Standaard wordt de aanroeper omgeleid wanneer geen te leveren inhoud wordt gevonden. Gebruik deze optie om het standaardgedrag uit te schakelen. |  |
 | `mbox3rdPartyId` | *xxx* | Gebruik deze optie als u uw eigen aangepaste bezoeker-id wilt gebruiken voor het opgeven van profielen. |  |
 
 ### Mogelijke reacties op doelserver
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` niet opgegeven wanneer er geen overeenkomst voor de aanvraag bestaat en er geen  `mboxNoRedirect` parameter is opgegeven. |
 | `Invalid mbox name:= MBOX_NAME` | Geeft aan dat de parameter `mbox` ongeldige tekens bevat. |
 | `Mbox name [MBOX_NAME] is too long` | Geeft aan dat de parameter `mbox` langer is dan 250 tekens. |
+
+## Capaciteitsrichtlijnen voor Opties 1 en 2 {#capacity}
+
+De volgende capaciteitsrichtlijnen zijn van toepassing op de sjabloonopties voor de bezorgings-API en e-mailbox:
+
+* De verzoeken zouden tarief-beperkt moeten zijn tot het laagste van 1.000 verzoeken per seconde of 25 keer uw piekdagelijkse verkeer
+* Het verkeer van de slag in stappen van 200 verzoeken per seconde per minuut
+
+Neem contact op met uw accountmanager als u hogere tarieflimieten wilt gebruiken.
 
 ## Optie 3: De alleen-downloadsjabloon {#section_518C279AF0094BE780F4EA40A832A164} gebruiken
 
