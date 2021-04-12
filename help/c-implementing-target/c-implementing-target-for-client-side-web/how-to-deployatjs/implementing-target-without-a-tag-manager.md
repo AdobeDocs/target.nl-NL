@@ -6,10 +6,10 @@ feature: Server-kant implementeren
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 4%
+source-wordcount: '1657'
+ht-degree: 3%
 
 ---
 
@@ -44,6 +44,7 @@ U kunt de volgende accountdetails weergeven. Deze instellingen kunnen niet worde
 | [!UICONTROL Client Code] | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de doel-API&#39;s. |
 | [!UICONTROL IMS Organization ID] | Deze id koppelt uw implementatie aan uw [!DNL Adobe Experience Cloud]-account. |
 | [!UICONTROL On-Device Decisioning] | Schuif de schakeloptie naar de stand &quot;aan&quot; om de apparaatbesturing in te schakelen.<br>Door op het apparaat te beslissen kunt u uw A/B- en Experience Targeting (XT)-campagnes op uw server in het cachegeheugen plaatsen en in het geheugen beslissen bij bijna-nullatentie. Zie [Inleiding tot apparaatbesluitvorming](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de handleiding *Adobe Target SDKs* voor meer informatie. |
+| [!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.] | (Voorwaardelijk) Deze optie wordt weergegeven als u het bepalen op het apparaat inschakelt.<br>Schuif de schakeloptie naar de positie &quot;aan&quot; als u wilt dat al uw live doelactiviteiten die in aanmerking komen voor beslissingen op het apparaat automatisch worden opgenomen in het artefact.<br>Als u deze schakeloptie uitschakelt, moet u alle beslissingsactiviteiten op het apparaat opnieuw maken en activeren, zodat deze worden opgenomen in het gegenereerde regelartefact. |
 
 ## Implementatiemethoden
 
