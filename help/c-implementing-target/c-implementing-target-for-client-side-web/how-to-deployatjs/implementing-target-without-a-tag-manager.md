@@ -1,25 +1,25 @@
 ---
-keywords: doel implementeren;implementatie;uitvoeren op.js;tagbeheer
+keywords: doel implementeren;implementatie;implementatie uitvoeren op.js;tagbeheer;apparaatbeslissingen;op apparaatbeslissingen
 description: Leer hoe u de instellingen opgeeft (accountgegevens, implementatiemethoden, enz.) om de Adobe Target at.js-bibliotheek te implementeren zonder een tagbeheer te gebruiken.
 title: Kan ik Doel implementeren zonder tagbeheer?
-feature: Implement Server-side
+feature: Server-kant implementeren
 role: Developer
+exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1595'
 ht-degree: 4%
 
 ---
 
-
 # Doel implementeren zonder tagbeheer
 
-Informatie over het implementeren van [!DNL Adobe Target] zonder een tagmanager ([!DNL Adobe Launch] of [!DNL Dynamic Tag Manager]).
+Informatie over het implementeren van [!DNL Adobe Target] zonder een tagmanager ([!DNL Adobe Experience Platform Launch] of [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
->[Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis de aangewezen methode om Doel en de at.js bibliotheek uit te voeren. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Platform launch van Adobe om Doel uit te voeren.
 
 Als u de pagina [!UICONTROL Implementation] wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -41,8 +41,9 @@ U kunt de volgende accountdetails weergeven. Deze instellingen kunnen niet worde
 
 | Instelling | Beschrijving |
 | --- | --- |
-| Clientcode | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de doel-API&#39;s. |
-| IMS Organisatie-id | Deze id koppelt uw implementatie aan uw [!DNL Adobe Experience Cloud]-account. |
+| [!UICONTROL Client Code] | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de doel-API&#39;s. |
+| [!UICONTROL IMS Organization ID] | Deze id koppelt uw implementatie aan uw [!DNL Adobe Experience Cloud]-account. |
+| [!UICONTROL On-Device Decisioning] | Schuif de schakeloptie naar de stand &quot;aan&quot; om de apparaatbesturing in te schakelen.<br>Door op het apparaat te beslissen kunt u uw A/B- en Experience Targeting (XT)-campagnes op uw server in het cachegeheugen plaatsen en in het geheugen beslissen bij bijna-nullatentie. Zie [Inleiding tot apparaatbesluitvorming](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de handleiding *Adobe Target SDKs* voor meer informatie. |
 
 ## Implementatiemethoden
 
@@ -52,14 +53,14 @@ U kunt de volgende instellingen configureren in het deelvenster Implementatiemet
 
 >[!NOTE]
 >
->Deze instellingen worden toegepast op alle .js-bibliotheken van [!DNL Target]. Nadat u wijzigingen hebt aangebracht in de sectie [!UICONTROL Implementation methods], moet u de bibliotheek downloaden en bijwerken in de implementatie.
+>Deze instellingen worden toegepast op alle .js-bibliotheken van [!DNL Target]. Nadat u wijzigingen hebt aangebracht in de sectie Implementatiemethoden, moet u de bibliotheek downloaden en bijwerken in uw implementatie.
 
 | Instelling | Beschrijving |
 | --- | --- |
 | Laden van pagina ingeschakeld (Automatisch een globaal selectievakje maken | Geef op of u de algemene mbox-aanroep in het bestand at.js wilt insluiten om automatisch op elke pagina te starten. |
 | Globale mbox | Selecteer een naam voor het globale vakje. Deze naam is standaard target-global-mbox.<br>Speciale tekens, zoals ampersands (&amp;), kunnen worden gebruikt in mbox-namen met at.js. |
 | Time-out (seconden) | Als [!DNL Target] niet reageert met inhoud binnen de gedefinieerde periode, wordt de wachttijd van de serveraanroep en de standaardinhoud weergegeven. Aanvullende aanroepen worden nog steeds geprobeerd tijdens de sessie van de bezoeker. De standaardwaarde is 5 seconden.<br>De bibliotheek at.js gebruikt de time-outinstelling in  `XMLHttpRequest`. De time-out wordt gestart wanneer het verzoek wordt geactiveerd en stopt wanneer [!DNL Target] een reactie van de server krijgt. Zie [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) op het Mozilla Developer Network voor meer informatie.<br>Als de opgegeven time-out optreedt voordat de reactie wordt ontvangen, wordt standaardinhoud weergegeven en wordt de bezoeker mogelijk geteld als een deelnemer aan een activiteit omdat alle gegevensverzameling aan de  [!DNL Target] rand plaatsvindt. Als het verzoek de [!DNL Target] rand bereikt, wordt de bezoeker geteld.<br>Denk aan het volgende wanneer u de time-outinstelling configureert:<ul><li>Als de waarde te laag is, kunnen gebruikers de standaardinhoud het grootste deel van de tijd zien, hoewel de bezoeker als deelnemer aan de activiteit kon worden geteld.</li><li>Als de waarde te hoog is, kunnen bezoekers lege gebieden op uw webpagina of lege pagina&#39;s zien als u de hoofdtekst langere tijd verbergt.</li></ul>Om een beter inzicht in mbox reactietijden te krijgen, bekijk het lusje van het Netwerk in de Hulpmiddelen van de Ontwikkelaar van uw browser. U kunt ook controlehulpmiddelen voor webprestaties van derden gebruiken, zoals Catchpoint.<br>**Opmerking**: De  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) bezoekerApiTimeoutsetting zorgt ervoor dat  [!DNL Target] niet te lang op de reactie van de Bezoeker API wacht. Deze instelling en de instelling Time-out voor at.js die hier wordt beschreven, zijn niet van invloed op elkaar. |
-| Profiellevensduur | Deze instelling bepaalt hoe lang bezoekersprofielen worden opgeslagen. Profielen worden standaard twee weken opgeslagen. Dit kan tot 90 dagen worden verhoogd.<br>Als u de instelling voor de levensduur van het profiel wilt wijzigen, neemt u contact op met de  [klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html). |
+| Profiellevensduur | Deze instelling bepaalt hoe lang bezoekersprofielen worden opgeslagen. Profielen worden standaard twee weken opgeslagen. Deze instelling kan tot 90 dagen worden verhoogd.<br>Als u de instelling voor de levensduur van het profiel wilt wijzigen, neemt u contact op met de  [klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html). |
 
 ### Hoofduitvoeringsmethode
 
@@ -116,7 +117,7 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target]-interface of de
 
 >[!NOTE]
 >
->* [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis de aangewezen methode om Doel en de at.js bibliotheek uit te voeren. De volgende informatie is niet van toepassing wanneer het gebruiken van de Lancering van Adobe om Doel uit te voeren.
+>* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Platform launch van Adobe om Doel uit te voeren.
    >
    >
 * Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js de Details van de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
@@ -179,7 +180,7 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target]-interface of de
 
 at.js moet worden geïmplementeerd in het `<head>`-element van elke pagina van uw website.
 
-Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) of [Dynamisch het Beheer van de Markering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) gebruikt ziet als volgt uit:
+Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) of [Dynamisch het Beheer van de Markering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) gebruikt ziet als volgt:
 
 ```
 <!doctype html> 
@@ -235,11 +236,11 @@ Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Laun
 
 Houd rekening met de volgende belangrijke opmerkingen:
 
-* Het HTML5-document (bijvoorbeeld `<!doctype html>`) moet worden gebruikt. Niet-ondersteunde of oudere documenttypen kunnen ertoe leiden dat Target geen aanvraag kan indienen.
+* Het HTML5 Doctype (bijvoorbeeld `<!doctype html>`) moet worden gebruikt. Niet-ondersteunde of oudere documenttypen kunnen ertoe leiden dat Target geen aanvraag kan indienen.
 * De opties Preconnect en Prefetch zijn opties die u kunnen helpen uw webpagina&#39;s sneller te laden. Als u deze configuraties gebruikt, zorg ervoor dat u `<client code>` met uw eigen cliëntcode vervangt, die u van **[!UICONTROL Administration]** > **[!UICONTROL Implementation] pagina kunt verkrijgen.
-* Als u een gegevenslaag hebt, is het beter om zoveel mogelijk van het in `<head>` van uw pagina&#39;s te bepalen alvorens om.js laadt. Deze plaatsing verstrekt het maximumvermogen om deze informatie in Doel voor verpersoonlijking te gebruiken.
-* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`, Data Providers en `targetGlobalSettings()` moeten worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze bestanden ook opslaan in de sectie [!UICONTROL Library Header] van de pagina [!UICONTROL Edit at.js Settings] en opslaan als onderdeel van de bibliotheek at.js zelf. Voor meer informatie over deze functies, zie [at.js functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
-* Als u JavaScript-hulplijnbibliotheken gebruikt, zoals jQuery, neemt u deze op voordat u Target gaat gebruiken, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
+* Als u een gegevenslaag hebt, is het beter om zoveel mogelijk van het in `<head>` van uw pagina&#39;s te bepalen alvorens om.js laadt. Deze plaatsing verstrekt de maximumcapaciteit om deze informatie in Doel voor verpersoonlijking te gebruiken.
+* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`, Data Providers en `targetGlobalSettings()` moeten worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze functies ook opslaan in de sectie [!UICONTROL Library Header] van de pagina [!UICONTROL Edit at.js Settings] en opslaan als onderdeel van de bibliotheek at.js zelf. Voor meer informatie over deze functies, zie [at.js functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Als u JavaScript-hulplijnbibliotheken gebruikt, zoals jQuery, neemt u deze vóór Target op, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
 * Neem om .js op in de `<head>` van uw pagina&#39;s.
 
 ## Conversies bijhouden {#task_E85D2F64FEB84201A594F2288FABF053}
@@ -248,7 +249,7 @@ In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw si
 
 >[!NOTE]
 >
->Als gebruikers aankopen doen op uw website, raden we u aan een bevestigingsvak voor bestellingen te implementeren, zelfs als u Analytics for Target (A4T) gebruikt voor uw rapportage.
+>Als gebruikers aankopen doen op uw website, raadt Adobe u aan een bevestigingsvak voor bestellingen te implementeren, zelfs als u Analytics for Target (A4T) gebruikt voor uw rapportage.
 
 1. Voeg op de pagina met orderdetails het mbox-script in volgens het onderstaande model.
 1. Vervang de WOORDEN IN KAPITAALLETTERS door dynamische of statische waarden uit de catalogus.
