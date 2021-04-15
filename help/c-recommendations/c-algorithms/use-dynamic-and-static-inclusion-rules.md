@@ -1,25 +1,23 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;creeer nieuwe criteria;bevordering;bevordering;dynamisch filtreren;dynamiek;lege waarden;negeren het filtreren regel;statische filter;filter door waarde;entiteitattribuut aanpassing;parameter aanpassing;filter door waarde;statische filter
-description: Leer hoe u regels voor deelname maakt in Adobe Target Recommendations voor criteria en promoties. Voeg extra dynamische of statische het filtreren regels toe om betere resultaten te bereiken.
+description: Leer hoe u regels voor deelname maakt in Adobe Target Recommendations voor criteria en promoties. U bereikt betere resultaten door meer dynamische of statische filterregels toe te voegen.
 title: Hoe gebruik ik dynamische en statische inclusieregels in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
 
-# ![Regels voor dynamische en statische integratie ](/help/assets/premium.png) PREMIUMU gebruiken{#use-dynamic-and-static-inclusion-rules}
+# ![Regels voor dynamische en statische integratie ](/help/assets/premium.png) PREMIUMU gebruiken
 
-Informatie over het creëren van integratieregels voor criteria en bevorderingen in [!DNL Adobe Target] en het toevoegen van extra dynamische of statische het filtreren regels om betere resultaten voor uw aanbevelingen te bereiken.
+Informatie over het creëren van integratieregels voor criteria en bevorderingen in [!DNL Adobe Target] en het toevoegen van dynamische of statische het filtreren regels om betere resultaten voor uw aanbevelingen te bereiken.
 
->[!NOTE]
->
->Het proces om inclusieregels voor criteria en promoties tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden. In deze afdeling worden zowel de criteria als de promoties en het gebruik van de regels voor inclusie behandeld.
+Het proces om inclusieregels voor criteria en promoties tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden. In deze afdeling worden zowel de criteria als de promoties en het gebruik van de regels voor inclusie behandeld.
 
 ## Filterregels toevoegen aan criteria {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -45,7 +43,7 @@ Dynamische insluitingsregels zijn krachtiger dan statische insluitingsregels en 
 
 * De dynamische inclusieregels leveren aanbevelingen door een attribuut in de het profielparameter van een gebruiker of in een mbox vraag aan te passen.
 
-   Bijvoorbeeld, kunt u een &quot;Populaire Aanbeveling van Criteria&quot;tot stand brengen, en dan van de reeks teruggekeerde aanbevelingen, dan filter uit om het even welke aanbevelingen (in real time) tegen een attribuut dat wordt overgegaan wanneer de gebruiker tot een pagina toegang heeft waar de aanbevelingen worden getoond.
+   U kunt bijvoorbeeld een aanbeveling met de naam &quot;Populaire criteria&quot; maken. Van de reeks teruggekeerde aanbevelingen, kunt u om het even welke aanbevelingen (in echt - tijd) tegen een attribuut filtreren dat wordt overgegaan wanneer de gebruiker tot een pagina toegang heeft waar de aanbevelingen worden getoond.
 
 * Gebruik statische regels om te beperken welke items worden opgenomen in de aanbeveling (in plaats van verzamelingen te gebruiken).
 
@@ -67,17 +65,29 @@ De volgende optie is beschikbaar voor het filtreren door waarde:
 | --- | --- |
 | [Statisch filter](/help/c-recommendations/c-algorithms/static-value.md) | Voer handmatig een of meer statische waarden in die u wilt filteren. |
 
-## Dynamische criteria en promotievoorbeelden
+## Beschikbare operatoren {#operators}
 
 Dynamische criteria en promoties zijn veel krachtiger dan statische criteria en promoties en leveren betere resultaten en betrokkenheid op.
 
-De volgende voorbeelden bieden algemene ideeën over hoe u dynamische promoties kunt gebruiken bij uw marketingactiviteiten:
+De volgende voorbeelden bieden algemene ideeën over hoe u dynamische promoties en uitsluitingen kunt gebruiken bij uw marketingactiviteiten:
 
 | Operator | Voorbeelden |
 | --- | --- |
-| Gelijk | Wanneer u de operator &quot;equals&quot; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten op:<ul><li>hetzelfde merk</li><li>dezelfde categorie</li><li>dezelfde categorie AND van het huismerk</li><li>dezelfde winkel</li></ul> |
-| Niet gelijk | Met de operator &quot;is niet gelijk aan&quot; in dynamische promoties kunt u andere items promoten via:<ul><li>een andere tv-serie</li><li>een ander genre</li><li>een andere productreeks</li><li>een andere stijl-id</li></ul> |
-| Is tussen | Wanneer u de operator &#39;is between&#39; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten:<ul><li>duurder</li><li>goedkoper</li><li>kosten plus of minus 30%</li><li>latere episodes in hetzelfde seizoen</li><li>eerdere boeken in een reeks</li></ul> |
+| Gelijk aan<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, de Vergelijking van de Parameter, en Statische Filter.) | Wanneer u de operator &quot;equals&quot; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten op:<ul><li>Hetzelfde merk</li><li>Dezelfde categorie</li><li>Dezelfde categorie AND van het huismerk</li><li>Dezelfde winkel</li></ul> |
+| Niet gelijk<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, de Vergelijking van de Parameter, en Statisch filter.) | Met de operator &quot;is niet gelijk aan&quot; in dynamische promoties kunt u andere items promoten via:<ul><li>Een andere tv-serie</li><li>Een ander genre</li><li>Een andere productreeks</li><li>Een andere stijl-id</li></ul> |
+| Bevat substring<br> (Beschikbaar met kenmerk Matching van Entiteit, Attributen van het Profiel het Verstemmen, Identieke Parameter, en Statische Filter.) | Wanneer een bezoeker een item op uw website (zoals een product) weergeeft met de operator &quot;contains substring&quot;, kunt u andere items promoten die:<ul><li></li></ul> |  |
+| Bevat geen substring<br> (Beschikbaar met kenmerk Matching van Entiteit, Attributen van het Profiel het Verstemmen, Identieke Parameter, en Statische Filter.) | Wanneer u de operator &quot;bevat geen subtekenreeks&quot; gebruikt en een bezoeker een item op uw website weergeeft (zoals een product), kunt u andere items promoten die:<ul><li></li></ul> |
+| Begint met<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, de Vergelijking van de Parameter, en Statische Filter.) | Wanneer een bezoeker een item op uw website (zoals een product) weergeeft met de operator &quot;start met&quot;, kunt u andere items onder de aandacht brengen die:<ul><li></li></ul> |
+| Eindigt met<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, de Vergelijking van de Parameter, en Statisch filter.) | Wanneer een bezoeker een item op uw website bekijkt (bijvoorbeeld een product), kunt u andere items promoten met de operator &quot;ends with&quot;:<ul><li></li></ul> |
+| Is groter dan of gelijk aan <br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, de Vergelijking van de Parameter, en Statische Filter.) | Wanneer een bezoeker een item op uw website (zoals een product) bekijkt, gebruikt de operator &quot;is groter dan of gelijk aan&quot;, kunt u andere items promoten die:<ul><li>Kostprijs hetzelfde of duurder</li></ul> |
+| Is minder dan of gelijk aan <br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, de Vergelijking van de Parameter, en Statische Filter.) | Wanneer een bezoeker een item op uw website (zoals een product) bekijkt, gebruikt de operator &quot;is kleiner dan of gelijk aan&quot;, kunt u andere items promoten die:<ul><li>Kostprijs hetzelfde of minder duur</li><li>Objecten uitsluiten die goedkoper zijn</li></ul> |
+| Is tussen<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, en de Vergelijking van de Parameter.) | Wanneer u de operator &#39;is between&#39; gebruikt in dynamische promoties en een bezoeker een item op uw website weergeeft (zoals een product, artikel of film), kunt u andere items promoten:<ul><li>Meer geld</li><li>Minder duur</li><li>Kosten plus of min 30%</li><li>Later afleveringen in hetzelfde seizoen</li><li>Eerdere boeken in een reeks</li></ul> |
+| Bevat in lijst<br> (Beschikbaar met de aanpassing van de Attributen van het Profiel en van de Parameter.) | Wanneer u de operator &quot;bevindt zich in lijst&quot; gebruikt in overeenkomsten met profielkenmerken, kunt u andere items promoten wanneer een bezoeker een item op uw website weergeeft (zoals een product, artikel of film):<ul><li>Beschikbaar in de geografie van de bezoeker</li></ul>Wanneer het gebruiken van deze exploitant, wordt een lijst verwacht in [rechterkant](#caveats) van de regel. |
+| Is niet opgenomen in lijst<br> (Beschikbaar met de aanpassing van de Attributen van het Profiel en de Aanpassing van de Parameter.) | Wanneer u de operator &quot;is niet opgenomen in lijst&quot; gebruikt in overeenkomsten met profielkenmerken, kunt u andere items uitsluiten die:<ul><li>In de lijst van de laatste tien items die de bezoeker heeft weergegeven</li></ul></ul>Wanneer het gebruiken van deze exploitant, wordt een lijst verwacht in [rechterkant](#caveats) van de regel. |
+| De lijst bevat een punt in<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, en de Aanpassing van de Parameter.) | Wanneer u de operator &quot;list contains an item in&quot; gebruikt in overeenkomsten met profielkenmerken, kunt u andere items aanbevelen die zich voordoen wanneer een bezoeker een item op uw website weergeeft (zoals een product, artikel of film):<ul><li>Gekoppeld aan een van de favoriete teams van de bezoeker</li></ul></ul>Wanneer het gebruiken van deze exploitant, wordt een lijst verwacht in [beide kanten](#caveats) van de regel. |
+| De lijst bevat geen punt in<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, en de Aanpassing van de Parameter.) | Wanneer u de operator &quot;list bevat geen item in&quot; gebruikt in overeenkomende parameterkenmerken, kunt u andere items uitsluiten die:<ul><li>Bevat in een lijst met verboden typen</li></ul>Wanneer het gebruiken van deze exploitant, wordt een lijst verwacht in [beide kanten](#caveats) van de regel. |
+| De lijst bevat alle punten in<br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, en de Aanpassing van de Parameter.) | Wanneer u de operator &quot;list contains all items in&quot; gebruikt in overeenkomende parameterkenmerken, kunt u andere items promoten die:<ul><li></li></ul>Wanneer het gebruiken van deze exploitant, wordt een lijst verwacht in [beide kanten](#caveats) van de regel. |
+| De lijst bevat niet alle punten in <br> (Beschikbaar met de Vergelijking van de Attributen van de Entiteit, de Vergelijking van de Attributen van het Profiel, en de Aanpassing van de Parameter.) | Wanneer u de operator &quot;list bevat niet alle items in&quot; gebruikt in overeenkomende parameterkenmerken, kunt u andere items promoten die:<ul><li></li></ul>Wanneer het gebruiken van deze exploitant, wordt een lijst verwacht in [beide kanten](#caveats) van de regel. |
 
 ## Lege waarden afhandelen bij het filteren op overeenkomsten van kenmerken van entiteit, overeenkomsten van kenmerken van profiel en overeenkomsten van parameters {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -91,16 +101,16 @@ Als u de gewenste actie wilt selecteren, houdt u de muisaanwijzer boven het tand
 
 | Handeling | Beschikbaar voor | Details |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching].<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
-| [!UICONTROL Do not show any results for this criteria]<br>(Alleen criteria) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
-| [!UICONTROL Do not promote any items<br>(Alleen aanbiedingen)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Dit is de standaardactie voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria zullen geen resultaten worden getoond . |
+| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] en  [!UICONTROL Parameter Matching] | Deze handeling is de standaardinstelling voor [!UICONTROL Profile Attribute Matching] en [!UICONTROL Parameter Matching].<br>Met deze optie wordt opgegeven dat de regel wordt genegeerd. Bijvoorbeeld, als er drie het filtreren regels zijn en de derde regel geen waarden overgaat, in plaats van om het even welke resultaten terug te keren, kunt u de derde regel met de lege waarden eenvoudig negeren. |
+| [!UICONTROL Do not show any results for this criteria]<br>(Alleen criteria) | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Deze actie is het gebrek voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria worden geen resultaten getoond . |
+| [!UICONTROL Do not promote any items<br>(Alleen aanbiedingen)] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Deze actie is het gebrek voor [!UICONTROL Entity Attribute Matching].<br>Zo worden lege waarden vóór de toevoeging van deze optie  [!DNL Target] afgehandeld: voor deze criteria worden geen resultaten getoond . |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching],  [!UICONTROL Profile Attribute Matching]en  [!UICONTROL Parameter Matching] | Als een waarde leeg is, kunt u een statische waarde gebruiken. |
 
-## Voorwerpen {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Voorwerpen {#caveats}
 
 >[!IMPORTANT]
 >
->Verschillende kenmerken van gegevenstypen zijn mogelijk niet compatibel in dynamische criteria of promoties tijdens runtime met de operatoren &#39;equals&#39; en &#39;does not equal&#39;. Gebruik [!UICONTROL Value]-, [!UICONTROL Margin]-, [!UICONTROL Inventory]- en [!UICONTROL Environment]-waarden verstandig aan de rechterkant als de linkerkant vooraf gedefinieerde kenmerken of aangepaste kenmerken heeft.
+>Verschillende kenmerken van gegevenstypen zijn mogelijk niet compatibel in dynamische criteria of promoties tijdens runtime met de operatoren &#39;equals&#39; en &#39;does not equal&#39;. Gebruik de waarden [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] en [!UICONTROL Environment] verstandig aan de rechterkant als de linkerkant vooraf gedefinieerde kenmerken of aangepaste kenmerken heeft.
 
 ![](assets/left_right.png)
 
