@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Target Guide
 breadcrumb-title: Doelgids
-user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
+user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
