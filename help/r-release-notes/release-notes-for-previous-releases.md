@@ -2,15 +2,15 @@
 keywords: Opmerkingen bij de release
 description: Een lijst weergeven met functies, verbeteringen en oplossingen die zijn opgenomen in eerdere versies van Adobe Target.
 title: Welke functies zijn opgenomen in vorige releases?
-feature: Release Notes
+feature: Opmerkingen bij de release
+exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '30194'
+source-wordcount: '30485'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release van vorige releases{#release-notes-for-previous-releases}
 
@@ -23,6 +23,37 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de doelreleases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2021
+
+### te.js 2.4.1 (23 maart 2021)
+
+Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:
+
+* Probleem verholpen waarbij `targetPageParams` was opgenomen in mbox-aanvragen. `targetPageParams` uitsluitend in  `pageLoad` verzoeken worden opgenomen. (TNT-40247)
+* Probleem verholpen met globale objecten document en venster in de extensie [!DNL Adobe Experience Platform Launch] door de algemene objectafhankelijkheden van de Platform launch te vervangen door directe verwijzingen ernaar. (TNT-37124)
+
+### IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)
+
+De IP-adressen van de [!DNL Target Recommendations]-server voor verwerking van bestandsgegevens zijn bijgewerkt op 16 maart 2021. Zie [IP-adressen die worden gebruikt door Recommendations-feed-processing-servers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) voor meer informatie.
+
+### Target Standard/Premium 21.2.1 (9 maart 2021)
+
+Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen.
+
+De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
+
+* De toegestane aanbiedingsgrootte is vergroot (TGT-38304):
+
+   | Type | Vorige limiet | Nieuwe limiet |
+   | --- | --- | --- |
+   | HTML | 256 kB | 1024 kB |
+   | Visuele aanbiedingen van het Doel UI | 64 kB | 1024 kB voor elke ervaring |
+   | Via API | 512 kB | 1024 kB |
+
+* [!UICONTROL Personalization Insights] Er worden nu dagelijks rapporten voor  [!UICONTROL Auto-Target] (AT)- en  [!UICONTROL Automated Personalization] (AP)-activiteiten opgesteld. U kunt een rapport kiezen dat [!UICONTROL Automated Segments] of [!UICONTROL Important Attributes] voor de laatste 15, 30, en 60 dagen verstrekt. De opties van 45 dagen en 90 dagen zijn verwijderd om de andere montages van het terugkijkvenster toe te laten om dagelijks te lopen. (TGT-39472)
+* Probleem verholpen waarbij de huidige afhankelijkheid niet werd weergegeven wanneer klanten [!UICONTROL Edit Dependency] op de pagina [!UICONTROL Goals & Settings] van een activiteit klikken. (TGT-39340)
+* Probleem verholpen bij het vernieuwen van de [!UICONTROL Audience Library] van een werkruimte. Vóór verfrist zich, toont het publiek voor de momenteel geselecteerde werkruimte. Na verfrissen, [!UICONTROL Default Workspace] en zijn publiek getoond. De huidige werkruimte en het publiek blijven nu behouden na het vernieuwen. (TGT-38871)
+* Probleem verholpen bij het kopiëren van een [!UICONTROL Recommendations]-activiteit en later het bewerken van de oorspronkelijke activiteit door de volgorde van criteria te wijzigen. De wijziging in de volgorde van criteria in de oorspronkelijke activiteit werd ook onjuist toegepast op de gekopieerde activiteit. (TGT-39155)
+* Probleem verholpen waarbij het onjuiste aantal producten voor uitsluitingen [!UICONTROL Recommendations] werd weergegeven. (TGT-39599)
 
 ### Target Standard/Premium 21.1.1 (19 januari 2021)
 
@@ -297,7 +328,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
    * Verbeterde gebruikershulp: Zoekresultaten zijn onder andere resultaten van de productdocumentatie van [!DNL Target], maar ook communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om u te helpen [!DNL Target] optimaal te benutten. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help], waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.
 
-   * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
+   * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target]-klanten op de bestemmingspagina geland nadat ze op het pictogram [!DNL Target] in de koptekst hadden geklikt. Op deze pagina konden klanten doorgaan met [!DNL Target Standard/Premium], [!DNL Search&Promote] of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
@@ -359,7 +390,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
    * Verbeterde gebruikershulp: Zoekresultaten zijn onder andere resultaten van de productdocumentatie van [!DNL Target], maar ook communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om u te helpen [!DNL Target] optimaal te benutten. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help], waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.
 
-   * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
+   * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target]-klanten op de bestemmingspagina geland nadat ze op het pictogram [!DNL Target] in de koptekst hadden geklikt. Op deze pagina konden klanten doorgaan met [!DNL Target Standard/Premium], [!DNL Search&Promote] of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
@@ -389,7 +420,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Node.js SDK versie 1.0 | Met de SDK van Target Node.js kunt u de doelserver implementeren.<br>Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Experience Cloud-oplossingen, zoals de Adobe Experience Cloud Identity Service, Adobe Analytics en Adobe Audience Manager.<br>De SDK van Node.js introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met Adobe Target via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` die wordt gevuld met ervaringen die zijn opgehaald via de server-side, zodat at.js 2.2 geen extra serveraanroep meer doet om de ervaringen op te halen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door nieuwe Levering API mogelijk wordt gemaakt.</li><li>Open-sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul> |
+| Node.js SDK versie 1.0 | Met de SDK van Target Node.js kunt u de doelserver implementeren.<br>Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Experience Cloud-oplossingen, zoals de Adobe Experience Cloud Identity Service, Adobe Analytics en Adobe Audience Manager.<br>De SDK van Node.js introduceert best practices en verwijdert complexiteit bij de integratie met Adobe Target via onze API voor levering, zodat uw engineeringteams zich kunnen richten op bedrijfslogica. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` die wordt gevuld met ervaringen die zijn opgehaald via de server-side, zodat at.js 2.2 geen extra serveraanroep meer doet om de ervaringen op te halen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door nieuwe Levering API mogelijk wordt gemaakt.</li><li>Open-sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul> |
 | Leverings-API | Een geheel nieuw levering API eindpunt (/v1/levering) is beschikbaar in productie. Opmerkelijke functies zijn:<ul><li>Één eindpunt om ervaringen voor één of meerdere dozen terug te winnen.</li><li>Haal VEC-activiteiten op via de API.</li><li>Ondersteuning voor een geheel nieuw object genaamd Weergaven dat wordt gebruikt voor toepassingen voor één pagina (SPA) en mobiele toepassingen.</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 september 2019)
@@ -404,7 +435,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| ![Premium-](/help/assets/premium.png) badgeEnterprise-machtigingen | Met de Target-release van september 2019 bieden Enterprise-machtigingen klanten de volgende toegangsopties:<UL><li>U kunt de werkruimten kiezen waarop de integratie kan worden toegepast.</li><li>U kunt een rol op de integratie van Adobe I/O toepassen: Fiatteur, Editor of waarnemer.</li></ul>Zie [Adobe I/O-integraties toegang verlenen tot werkruimten en rollen toewijzen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) voor stapsgewijze instructies en meer informatie. |
+| ![Premium-](/help/assets/premium.png) badgeEnterprise-machtigingen | Met de Target-release van september 2019 bieden Enterprise-machtigingen klanten de volgende toegangsopties:<UL><li>U kunt de werkruimten kiezen waarop de integratie kan worden toegepast.</li><li>U kunt een rol op de integratie van Adobe I/O toepassen: Fiatteur, Editor of waarnemer.</li></ul>Voor geleidelijke instructies en meer informatie, zie [De integraties van de Adobe I/O toegang tot werkruimten verlenen en rollen toewijzen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ### Target Standard/Premium 19.7.1 (24 juli 2019) {#tgt-19-7-1}
 
@@ -502,7 +533,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 * We hebben de workflow verbeterd wanneer u elementen verwijdert met de VEC. Verwijderde elementen worden nu verwijderd uit [!UICONTROL Offers library] en [!DNL Scene7] (indien van toepassing). Verwijderde elementen worden niet meer weergegeven in zoekresultaten. (TGT-31981)
 * U kunt nu elementmappen verwijderen, zelfs als deze afbeeldingen bevatten (niet-lege mappen). (TGT-33265)
 
-   Eerder kon u een niet-lege map niet verwijderen uit de bibliotheek met doelafbeeldingen ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Er wordt dan een &#39;&#39;Map is niet leeg!&#39;&#39; weergegeven bericht wanneer u probeert de map te verwijderen uit de gebruikersinterface.  Met deze functie voegen we de mogelijkheid toe om het verwijderen van mappen uit te voeren en een volledige map te verwijderen die een willekeurig aantal elementen en submappen in de map bevat. Deze functie is beschikbaar in de interface Doel en in de gebruikersinterface van Adobe Experience Cloud Assets.
+   Eerder kon u een niet-lege map niet verwijderen uit de bibliotheek met doelafbeeldingen ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Er wordt dan een &#39;&#39;Map is niet leeg!&#39;&#39; weergegeven bericht wanneer u probeert de map te verwijderen uit de gebruikersinterface.  Met deze functie voegen we de mogelijkheid toe om het verwijderen van mappen uit te voeren, zodat een volledige map met daarin een willekeurig aantal elementen en submappen kan worden verwijderd. Deze functie is beschikbaar in de interface Doel en in de gebruikersinterface van Adobe Experience Cloud Assets.
 
    * U kunt niet-lege mappen uit de bibliotheek met afbeeldingsaanbiedingen verwijderen. Als in geen enkele activiteit naar alle afbeeldingen in de map wordt verwezen, worden de volledige map en de inhoud ervan verwijderd. Als er in een willekeurige activiteit naar bepaalde afbeeldingen in de map wordt verwezen, worden alle afbeeldingen zonder referenties verwijderd, maar blijven de afbeeldingen en mappen waarin naar wordt verwezen, behouden.
    * Het renderen van afbeeldingsaanbiedingen in de Afbeeldingselementkiezer gaat sneller en efficiënter.
@@ -571,7 +602,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Single Page App Visual Experience Composer | Met Visual Experience Composer (VEC) voor Single Page Apps (SPA) kunnen marketers tests maken en inhoud personaliseren op SPA op een doe-het-zelfmanier zonder voortdurende ontwikkelingsafhankelijkheden. De VEC kan worden gebruikt om activiteiten op populaire kaders, zoals React en Angular tot stand te brengen. (TGT-27916)<br>Zie [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) en [Integratie van één pagina-toepassing](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) voor meer informatie.<br>Naast het bovenstaande artikel zijn er veel onderwerpen die te maken hebben met SPA en at.js die betrekking hebben op deze functie en hoe deze te implementeren. Zie [Documentatiewijzigingen](/help/r-release-notes/doc-change.md) voor meer informatie. |
+| Single Page App Visual Experience Composer | Met Visual Experience Composer (VEC) voor Single Page Apps (SPA) kunnen marketers tests maken en inhoud personaliseren op SPA op een doe-het-zelfmanier zonder voortdurende ontwikkelingsafhankelijkheden. VEC kan worden gebruikt om activiteiten op populaire kaders, zoals React en Angular tot stand te brengen. (TGT-27916)<br>Zie [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) en [Integratie van één pagina-toepassing](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) voor meer informatie.<br>Naast het bovenstaande artikel zijn er veel onderwerpen die te maken hebben met SPA en at.js die betrekking hebben op deze functie en hoe deze te implementeren. Zie [Documentatiewijzigingen](/help/r-release-notes/doc-change.md) voor meer informatie. |
 | Visual Experience Composer | Visual Experience Composer (VEC) omvat de volgende verhogingen om uw werk sneller en efficiënter te maken:<ul><li>U kunt nu de opties Invoegen voor en Invoegen na in de VEC gebruiken terwijl u [AEM ervaringsfragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) invoegt. Zie [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>Met de extensie [!DNL Adobe Target] VEC Helper browser voor Google Chrome kunt u websites betrouwbaar laden binnen de VEC om snel een auteur en QA-webbeleving te maken. Zie [De helperuitbreiding van de Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
 | ![Premium ](/help/assets/premium.png)<br>badgeRecommendations in  [!UICONTROL A/B Test] en  [!UICONTROL Experience Targeting] activiteiten | U kunt nu aanbevelingen opnemen in [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten. Dit opent volledig nieuwe mogelijkheden, zoals:<ul><li>Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.</li><li>Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.</li><li>Druk automatisch het verkeer naar de best-presterende aanbevelingen ervaring gebruikend [!UICONTROL Auto-Allocate].</li><li>Wijs bezoekers met behulp van [!UICONTROL Auto-Target] dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun individuele profielen.</li></ul>Als u aan de slag wilt gaan, maakt u een [!UICONTROL A/B Test]- of [!UICONTROL Experience Targeting]-activiteit met behulp van de VEC en gebruikt u de handeling [!UICONTROL Insert Before], [!UICONTROL Insert After] of [!UICONTROL Replace With] om aanbevelingen aan een ervaring toe te voegen. (RECS-6166)<br>Zie [Recommendations als een aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) voor meer informatie. |
 | ![Premium-](/help/assets/premium.png)<br>badgeEnterprise-machtigingen in doel-API&#39;s | [Adobe Target Admin ](http://developers.adobetarget.com/api/#admin-apis) APIs zal nu volledig profiteren van de zelfde mogelijkheden van de Toestemmingen van de Onderneming die in de Doel UI worden gevonden. Vanaf **21 februari 2019** kunnen systeembeheerders via programmacode toegang krijgen tot rapportgegevens en activiteiten, aanbiedingen en publiek binnen elke werkruimte maken en beheren. Deze acties waren voorheen beperkt tot de standaardwerkruimte. De ondersteuning van Automated Personalization-activiteiten (AP) zal in een toekomstige release plaatsvinden.<br>**Opmerking:** er is een  [bekend ](/help/r-release-notes/known-issues-resolved-issues.md#api) probleem met deze functionaliteit. |
@@ -912,7 +943,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Wanneer u in het deelvenster Wijzigingen op een handeling klikt, schuift de VEC automatisch door de webpagina en wordt het bijbehorende element gemarkeerd. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is beïnvloed. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
+   <td colname="col2"> <p>Wanneer u een actie in het paneel van Aanpassingen klikt, scrolt VEC automatisch de Web-pagina en het overeenkomstige element wordt benadrukt. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is beïnvloed. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ondersteunde browsers </p> </td> 
@@ -1546,7 +1577,7 @@ Zie [Gemengde inhoud inschakelen in uw browser](/help/c-experiences/c-visual-exp
 
 Deze [!DNL Target]-release bevat de volgende klantgerichte verbeteringen, oplossingen en wijzigingen: (nummer van de uitgave staat tussen haakjes voor intern gebruik van Adobe):
 
-* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-upkaart in de doelinterface kunt weergeven zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
+* We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-up kaart in het Doel UI kunt bekijken zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
 * U kunt nu definities van ad-hocpubliek weergeven in het maken/overzicht van activiteiten. (TGT-25570)
 * De volgende variabelen zijn nu beschikbaar als [Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) arrays: `entiites` en `entityN.categoriesList`.
 
@@ -1565,7 +1596,7 @@ Deze [!DNL Target]-release bevat de volgende klantgerichte verbeteringen, oploss
    <td colname="col2"> <p><b>3 augustus 2017</b> </p> <p> <span class="filepath"> at.js  </span> versie 1.1 is nu beschikbaar. Zie <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Download at.js </a> voor meer informatie. </p> <p>De volgende verbeteringen en correcties zijn opgenomen in <span class="filepath"> at.js </span> versie 1.1: </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>Toegevoegde verwerking van responstoken. Voor meer informatie, zie <a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Tokens van de Reactie </a>. </p> </li> 
-      <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Correctie van het probleem zodat <span class="codeph"> document.currentScript polyfill </span> de hoekige 1.X niet beïnvloedt. </p> </li> 
+      <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Correctie van het probleem, zodat <span class="codeph"> document.currentScript polyfill </span> geen invloed heeft op Angular 1.X. </p> </li> 
       <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Wijzigingen aangebracht om ervoor te zorgen dat het bijhouden van klikken geen invloed heeft op de zichtbaarheidseigenschap. Klik op volgende elementen worden gemarkeerd met de CSS-klasse </span> in plaats van <span class="codeph"> at-element-marker </span>.<span class="codeph"> </span></p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -1984,7 +2015,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enhanced Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Bijgewerkt de IP adressen voor Verbeterde Visual Experience Composer (VEC). </p> <p>Als u IP adressen toe_voegt op lijst van gewenste personen die voor VEC worden gebruikt, voeg de nieuwe IP adressen toe. </p> <p>Voor meer informatie, zie <a href="/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> het Oplossen van problemen Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Bijgewerkt de IP adressen voor Verbeterde Visual Experience Composer (VEC). </p> <p>Als u IP adressen voegt op lijst van gewenste personen die voor VEC worden gebruikt, voeg de nieuwe IP adressen toe. </p> <p>Voor meer informatie, zie <a href="/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> het Oplossen van problemen Visual Experience Composer </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2466,7 +2497,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Nieuwe mogelijkheden voor foutopsporing in tekstgebied via <span class="codeph"> mboxTrace </span> </td> 
-   <td colname="col2"> <p>Als u <span class="codeph"> &amp;mboxTrace </span> toevoegt aan een URL, worden aanbevelingen op die pagina vervangen door foutopsporingsdetails, waaronder informatie over aanbevolen aanbevelingen, criteria, ontwerp, uitsluitingen, opgenomen gegevens, aanbevolen back-upinstructies en meer. </p> </td> 
+   <td colname="col2"> <p>Als u <span class="codeph"> &amp;mboxTrace </span> toevoegt aan een URL, worden aanbevelingen op die pagina vervangen door foutopsporingsdetails, zoals informatie over aanbevolen aanbevelingen, criteria, ontwerp, uitsluitingen, opgenomen gegevens, aanbevolen back-upinstructies en meer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations API: Een CSV uploaden voor de aangepaste criteria </td> 
@@ -2798,7 +2829,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> RTF- en HTML-bewerkingen in Visual Experience Composer voor MVT- en Automated Personalization-activiteiten </td> 
-   <td colname="col2"> <p> Tekst- en HTML-opmaak in een tekstverwerker-achtig venster bij het bewerken van Automated Personalization en Multivariate Test-activiteiten. </p> <p> Deze functie was voorheen alleen beschikbaar voor activiteiten van A/B en Gericht op ervaring. </p> <p>Deze acties bieden mogelijkheden voor tekstbewerking door HTML-tags toe te voegen of stijlen toe te passen. Deze wijzigingen door de rijke-tekstredacteur voor om het even welke actie kunnen in zijn bronmening worden gezien. Gebruikers kunnen op de knop HTML in de RTF-editor drukken om de bronweergave te bekijken. De stijlen die door de rijke redacteur worden toegevoegd kunnen zich met de stijlen van klantenwebsites mengen. In dit geval kunnen gebruikers naar de bronweergave gaan en de wijzigingen bewerken om deze uit te lijnen met de stijlen van hun websites. </p> <p>Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Tekst- en HTML-opmaak in een tekstverwerker-achtig venster bij het bewerken van Automated Personalization en Multivariate Test-activiteiten. </p> <p> Deze functie was voorheen alleen beschikbaar voor activiteiten van A/B en Gericht op ervaring. </p> <p>Deze acties bieden mogelijkheden voor tekstbewerking door HTML-tags toe te voegen of stijlen toe te passen. Deze wijzigingen door de rijke tekstredacteur voor om het even welke actie kunnen in zijn bronmening worden gezien. Gebruikers kunnen op de knop HTML in de RTF-editor drukken om de bronweergave te bekijken. De stijlen die door de rijke redacteur worden toegevoegd kunnen zich met de stijlen van klantenwebsites mengen. In dit geval kunnen gebruikers naar de bronweergave gaan en de wijzigingen bewerken om deze uit te lijnen met de stijlen van hun websites. </p> <p>Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Formuliergebaseerde aanbevelingen </p> </td> 
@@ -2997,7 +3028,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization: Visuele indicatie van modelstatus </p> </td> 
-   <td colname="col2"> <p> Zodra een voorspellend model aan de vereiste kwaliteitscriteria voldoet en als geldig wordt beschouwd, wordt het beschouwd klaar en gebruikt om een gepersonaliseerde score voor biedingsbesluit te berekenen. Een klokpictogram verandert in een vinkje wanneer het model klaar is en het Doel kan beginnen met het leveren van gepersonaliseerde inhoud. Aangezien de lift pas wordt verwacht nadat de modellen gereed zijn, kunt u met de visuele indicatie de juiste verwachting instellen. Gebruik de verkeersschatter in Visuele Composer van de Ervaring om een richtlijn te krijgen van wanneer de modellen klaar zullen zijn. </p></td> 
+   <td colname="col2"> <p> Wanneer een voorspellend model voldoet aan de vereiste kwaliteitscriteria en geldig wordt geacht, wordt het geschikt geacht en gebruikt om een gepersonaliseerde score voor offer decisioning te berekenen. Een klokpictogram verandert in een vinkje wanneer het model klaar is en het Doel kan beginnen met het leveren van gepersonaliseerde inhoud. Aangezien de lift pas wordt verwacht nadat de modellen gereed zijn, kunt u met de visuele indicatie de juiste verwachting instellen. Gebruik de verkeersschatter in Visuele Composer van de Ervaring om een richtlijn te krijgen van wanneer de modellen klaar zullen zijn. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Premium Recommendations: Bladeren en navigeren in de composer voor visuele ervaring </p> </td> 
