@@ -4,11 +4,12 @@ description: Leer hoe u apparaatbeslissingen kunt uitvoeren met de bibliotheek a
 title: Hoe werkt een apparaatbeslissing met de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
+exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
 workflow-type: tm+mt
-source-wordcount: '3314'
-ht-degree: 0%
+source-wordcount: '3391'
+ht-degree: 1%
 
 ---
 
@@ -69,28 +70,22 @@ In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, at.
 
 De volgende lijst komt overeen met de cijfers in het diagram:
 
-1. De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
-1. De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.
-
-   De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd.
-
-1. De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen.
-1. Er wordt een aanvraag voor het laden van een pagina ingediend die alle geconfigureerde parameters bevat, zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort).
-1. Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel.
-
-   De Opslag van het Profiel vraagt gekwalificeerd publiek van de Bibliotheek van het Publiek (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] wordt gedeeld, etc.).
-
-   Klantkenmerken worden in een batchproces naar de profielopslag verzonden.
-
-1. De profielenopslag wordt gebruikt voor publiekskwalificatie en het opnemen aan filteractiviteiten.
-1. De resulterende inhoud wordt geselecteerd nadat de ervaring van levende [!DNL Target] activiteiten wordt bepaald.
-1. De bibliotheek at.js verbergt de overeenkomstige elementen op de pagina die aan de ervaring worden geassocieerd die moet worden teruggegeven.
-1. De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen.
-1. De bibliotheek at.js manipuleert DOM om de ervaring van het Netwerk van de Rand van het Doel terug te geven.
-1. De ervaring wordt weergegeven voor de bezoeker.
-1. De hele webpagina wordt geladen.
-1. [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden.
-1. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken.
+| Stap | Beschrijving |
+| --- | --- |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>   De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
+| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 4 | Er wordt een aanvraag voor het laden van een pagina ingediend die alle geconfigureerde parameters bevat, zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort). |
+| 5 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel.<br>In het profielarchief wordt een gekwalificeerd publiek gevraagd uit de Audience Library (bijvoorbeeld een publiek dat wordt gedeeld vanuit  [!DNL Adobe Analytics],  [!DNL Adobe Audience Manager]enzovoort).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
+| 6 | De profielenopslag wordt gebruikt voor publiekskwalificatie en het opnemen aan filteractiviteiten. |
+| 7 | De resulterende inhoud wordt geselecteerd nadat de ervaring van levende [!DNL Target] activiteiten wordt bepaald. |
+| 8 | De bibliotheek at.js verbergt de overeenkomstige elementen op de pagina die aan de ervaring worden geassocieerd die moet worden teruggegeven. |
+| 9 | De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen. |
+| 10 | De bibliotheek at.js manipuleert DOM om de ervaring van het Netwerk van de Rand van het Doel terug te geven. |
+| 11 | De ervaring wordt weergegeven voor de bezoeker. |
+| 12 | De hele webpagina wordt geladen. |
+| 13 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. |
+| 14 | Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken. |
 
 ### Alleen op apparaat
 
@@ -98,7 +93,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 De besluitvorming op het apparaat kan uw ervaringen en verpersoonlijkingsactiviteiten bij het opblazen van snelle snelheid leveren omdat de besluiten van een caching regelartefact worden gemaakt dat al uw activiteiten bevat die voor op-apparaat besluitvorming kwalificeren.
 
-Zie de sectie met ondersteunde functies voor meer informatie over welke activiteiten in aanmerking komen voor beslissingen op het apparaat.
+Zie [Ondersteunde functies in apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) voor meer informatie over welke activiteiten in aanmerking komen voor apparaatbesluitvorming.
 
 Deze beslissingsmethode moet alleen worden gebruikt als de prestaties van essentieel belang zijn voor alle pagina&#39;s waarvoor beslissingen van [!DNL Target] vereist zijn. Houd er bovendien rekening mee dat wanneer deze beslissingsmethode wordt geselecteerd, uw [!DNL Target]-activiteiten die niet in aanmerking komen voor beslissingen op het apparaat niet worden uitgevoerd of uitgevoerd. De bibliotheek at.js 2.5+ wordt gevormd om het caching regelartefact slechts te zoeken om besluiten te nemen.
 
@@ -112,21 +107,20 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 >
 >[!DNL Adobe Target] Admin servers kwalificeren al uw activiteiten die voor op-apparatenbesluit verkiesbaar zijn, produceren het artefact van JSON-regels, en verspreidt het aan Akamai CDN. Uw activiteiten worden voortdurend gecontroleerd op updates om een nieuw Artefact van JSON-regels uit te voeren dat aan Akamai CDN moet worden doorgegeven.
 
-1. De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.
-
-   De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd.
-
-1. De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen.
-1. De bibliotheek at.js vraagt om het JSON-regelartefact van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen.
-1. De Akamai CDN reageert met het Artefact van de JSON-regel.
-1. De JSON-regelartefact wordt lokaal in de browser van de bezoeker in cache geplaatst.
-1. De bibliotheek at.js interpreteert het JSON-regelartefact en voert het besluit uit om de ervaring op te halen en verbergt de geteste elementen.
-1. De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen.
-1. De bibliotheek at.js manipuleert DOM om de ervaring van het caching JSON regelartefact terug te geven.
-1. De ervaring wordt weergegeven voor de bezoeker.
-1. De hele webpagina wordt geladen.
-1. [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via Analytics for Target (A4T)-rapporten worden weergegeven.
+| Stap | Beschrijving |
+| --- | --- |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 4 | De bibliotheek at.js vraagt om het JSON-regelartefact van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen. |
+| 5 | De Akamai CDN reageert met het Artefact van de JSON-regel. |
+| 6 | De JSON-regelartefact wordt lokaal in de browser van de bezoeker in cache geplaatst. |
+| 7 | De bibliotheek at.js interpreteert het JSON-regelartefact en voert het besluit uit om de ervaring op te halen en verbergt de geteste elementen. |
+| 8 | De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen. |
+| 9 | De bibliotheek at.js manipuleert DOM om de ervaring van het caching JSON regelartefact terug te geven. |
+| 10 | De ervaring wordt weergegeven voor de bezoeker. |
+| 11 | De hele webpagina wordt geladen. |
+| 12 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via Analytics for Target (A4T)-rapporten worden weergegeven. |
 
 In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, op .js 2.5+ en het in de cache opgeslagen JSON-regelartefact voor de volgende pagina die de bezoeker raakt of die een bezoek retourneert. Omdat het artefact van JSON-regels al in het cachegeheugen is opgeslagen en beschikbaar is in de browser, wordt de beslissing onmiddellijk genomen zonder een blokkerende netwerkaanroep. Dit stroomdiagram legt volgende paginanavigatie of terugkerende bezoekers vast.
 
@@ -138,19 +132,18 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 >
 >[!DNL Adobe Target] Admin servers kwalificeren al uw activiteiten die voor op-apparatenbesluit verkiesbaar zijn, produceren het artefact van JSON-regels, en verspreidt het aan Akamai CDN. Uw activiteiten worden voortdurend gecontroleerd op updates om een nieuw Artefact van JSON-regels uit te voeren dat aan Akamai CDN moet worden doorgegeven.
 
-1. De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.
-
-   De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd.
-
-1. De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen.
-1. De bibliotheek at.js interpreteert het JSON-regelartefact en voert de beslissing in het geheugen uit om de ervaring op te halen.
-1. De geteste elementen zijn verborgen.
-1. De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen.
-1. De bibliotheek at.js manipuleert DOM om de ervaring van het caching JSON regelartefact terug te geven.
-1. De ervaring wordt weergegeven voor de bezoeker.
-1. De hele webpagina wordt geladen.
-1. [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken.
+| Stap | Beschrijving |
+| --- | --- |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 4 | De bibliotheek at.js interpreteert het JSON-regelartefact en voert de beslissing in het geheugen uit om de ervaring op te halen. |
+| 5 | De geteste elementen zijn verborgen. |
+| 6 | De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen. |
+| 7 | De bibliotheek at.js manipuleert DOM om de ervaring van het caching JSON regelartefact terug te geven. |
+| 8 | De ervaring wordt weergegeven voor de bezoeker. |
+| 9 | De hele webpagina wordt geladen. |
+| 10 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken. |
 
 ### Hybride
 
@@ -172,24 +165,23 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 >
 >[!DNL Adobe Target] Admin servers kwalificeren al uw activiteiten die voor op-apparatenbesluit verkiesbaar zijn, produceren het artefact van JSON-regels, en verspreidt het aan Akamai CDN. Uw activiteiten worden voortdurend gecontroleerd op updates om een nieuw Artefact van JSON-regels uit te voeren dat aan Akamai CDN moet worden doorgegeven.
 
-1. De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.
-
-   De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd.
-
-1. De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen.
-1. Er wordt een aanvraag ingediend voor het laden van een pagina in het Adobe Target Edge-netwerk, inclusief alle geconfigureerde parameters zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort.)
-1. Parallel hieraan vraagt at.js om het Artefact van de JSON-regel van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen.
-1. (Adobe Target Edge Network) Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de Profile Store. De Opslag van het Profiel vraagt gekwalificeerd publiek van de Bibliotheek van het Publiek (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] wordt gedeeld, etc.).
-1. De Akamai CDN reageert met het Artefact van de JSON-regel.
-1. De profielenopslag wordt gebruikt voor publiekskwalificatie en het opnemen aan filteractiviteiten.
-1. De resulterende inhoud wordt geselecteerd nadat de ervaring van levende [!DNL Target] activiteiten wordt bepaald.
-1. De bibliotheek at.js verbergt de overeenkomstige elementen op de pagina die aan de ervaring worden geassocieerd die moet worden teruggegeven.
-1. De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen.
-1. De bibliotheek at.js manipuleert DOM om de ervaring van het Netwerk van de Rand van het Doel terug te geven.
-1. De ervaring wordt weergegeven voor de bezoeker.
-1. De hele webpagina wordt geladen.
-1. [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken.
+| Stap | Beschrijving |
+| --- | --- |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
+| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 4 | Er wordt een aanvraag ingediend voor het laden van een pagina in het Adobe Target Edge-netwerk, inclusief alle geconfigureerde parameters zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort.) |
+| 5 | Parallel hieraan vraagt at.js om het Artefact van de JSON-regel van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen. |
+| 6 | (Adobe Target Edge Network) Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de Profile Store. De Opslag van het Profiel vraagt gekwalificeerd publiek van de Bibliotheek van het Publiek (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] wordt gedeeld, etc.). |
+| 7 | De Akamai CDN reageert met het Artefact van de JSON-regel. |
+| 8 | De profielenopslag wordt gebruikt voor publiekskwalificatie en het opnemen aan filteractiviteiten. |
+| 9 | De resulterende inhoud wordt geselecteerd nadat de ervaring van levende [!DNL Target] activiteiten wordt bepaald. |
+| 10 | De bibliotheek at.js verbergt de overeenkomstige elementen op de pagina die aan de ervaring worden geassocieerd die moet worden teruggegeven. |
+| 11 | De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen. |
+| 12 | De bibliotheek at.js manipuleert DOM om de ervaring van het Netwerk van de Rand van het Doel terug te geven. |
+| 13 | De ervaring wordt weergegeven voor de bezoeker. |
+| 14 | De hele webpagina wordt geladen. |
+| 15 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken. |
 
 Het volgende diagram illustreert de interactie tussen uw bezoeker, browser, at.js 2.5+, en het cached JSON regelt artefact voor een verdere paginanavigatie of een terugkeerbezoek. In dit diagram, concentreert zich slechts op het gebruiksgeval dat een op-apparatenbesluit voor de verdere paginanavigatie of terugkeerbezoek wordt genomen. Houd in mening dat afhankelijk van welke activiteiten voor bepaalde pagina&#39;s levend zijn, een server-zijvraag kan worden gemaakt om server-zijbesluiten uit te voeren.
 
@@ -201,20 +193,19 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 >
 >[!DNL Adobe Target] Admin servers kwalificeren al uw activiteiten die voor op-apparatenbesluit verkiesbaar zijn, produceren het artefact van JSON-regels, en verspreidt het aan Akamai CDN. Uw activiteiten worden voortdurend gecontroleerd op updates om een nieuw Artefact van JSON-regels uit te voeren dat aan Akamai CDN moet worden doorgegeven.
 
-1. De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-1. De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.
-
-   De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd.
-
-1. De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen.
-1. Er wordt een verzoek ingediend om een ervaring op te halen.
-1. De bibliotheek at.js bevestigt dat het JSON-regelartefact al in de cache is geplaatst en voert het besluit in het geheugen uit om de ervaring op te halen.
-1. De geteste elementen zijn verborgen.
-1. De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen.
-1. De bibliotheek at.js manipuleert DOM om de ervaring van het caching JSON regelartefact terug te geven.
-1. De ervaring wordt weergegeven voor de bezoeker.
-1. De hele webpagina wordt geladen.
-1. [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken.
+| Stap | Beschrijving |
+| --- | --- |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
+| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 4 | Er wordt een verzoek ingediend om een ervaring op te halen. |
+| 5 | De bibliotheek at.js bevestigt dat het JSON-regelartefact al in de cache is geplaatst en voert het besluit in het geheugen uit om de ervaring op te halen. |
+| 6 | De geteste elementen zijn verborgen. |
+| 7 | De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen. |
+| 8 | De bibliotheek at.js manipuleert DOM om de ervaring van het caching JSON regelartefact terug te geven. |
+| 9 | De ervaring wordt weergegeven voor de bezoeker. |
+| 10 | De hele webpagina wordt geladen. |
+| 11 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken. |
 
 ## Hoe laat ik op apparaat besluiten toe?
 
@@ -259,6 +250,8 @@ Nadat [!UICONTROL On-Device Decisioning] schakelt, [!DNL Target] begint producer
    * [!UICONTROL On-device only]
    * [!UICONTROL Hybrid]
 
+   ![Bewerken bij.js, instellingenvenster](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/global-settings.png)
+
 ### Algemene instellingen
 
 U kunt een gebrek [!UICONTROL Decisioning Method] voor alle [!DNL Target] besluiten vormen. De verschillende beslissingsmethoden zijn [!UICONTROL Server-side only], [!UICONTROL On-device only] en [!UICONTROL Hybrid]. De besluitvormingsmethode die in het Doel UI wordt geselecteerd wordt gevormd op `window.targetGlobalSettings` onder het `decisioningMethod` gebied. Meer informatie over `decisioningMethod` in [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
@@ -302,7 +295,7 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Als u &quot;op apparaat&quot; of &quot;hybride&quot; wilt gebruiken als een beslissingsmethode in de aanroep getOffers(), moet u ervoor zorgen dat de algemene instelling `decisioningMethod` heeft als &quot;op apparaat&quot; of &quot;hybride&quot;. De bibliotheek at.js 2.5+ moet weten of om het Artefact van de regels JSON onmiddellijk na het laden op de pagina te downloaden en in het voorgeheugen onder te brengen. Als de besluitvormingsmethode voor het globale plaatsen aan &quot;server-kant&quot;wordt geplaatst, en &quot;op-apparaat&quot;of &quot;hybride&quot;besluitvormingsmethode wordt overgegaan in de getOffers () vraag, zou at.js 2.5+ niet het JSON regelartefact in het voorgeheugen ondergebracht hebben om uw op-apparatenbesluiten uit te voeren.
+>Als u &quot;op apparaat&quot; of &quot;hybride&quot; wilt gebruiken als een beslissingsmethode in de aanroep getOffers(), moet u ervoor zorgen dat de algemene instelling `decisioningMethod` heeft als &quot;op apparaat&quot; of &quot;hybride&quot;. In de bibliotheek at.js 2.5+ moet u weten of het Artefact van de JSON-regels direct na het laden op de pagina moet worden gedownload en in cache geplaatst. Als de besluitvormingsmethode voor het globale plaatsen aan &quot;server-kant&quot;wordt geplaatst, en &quot;op-apparaat&quot;of &quot;hybride&quot;besluitvormingsmethode wordt overgegaan in de getOffers () vraag, zou at.js 2.5+ niet het JSON regelartefact in het voorgeheugen ondergebracht hebben om uw op-apparatenbesluiten uit te voeren.
 
 ### Artefactcache TTL
 
