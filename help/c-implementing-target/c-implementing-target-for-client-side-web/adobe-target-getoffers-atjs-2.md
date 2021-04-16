@@ -4,14 +4,14 @@ description: Gebruik de functie adobe.target.getOffers() en de bijbehorende opti
 title: Hoe gebruik ik de functie adobe.target.getOffers()?
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 | Sleutel | Type | Vereist? | Beschrijving |
 | --- | --- | --- | --- |
 | consumerId | String | Nee | De standaardwaarde is het globale mbox van de cliënt als niet verstrekt. Deze sleutel wordt gebruikt om extra gegevens ID te produceren die voor integratie A4T wordt gebruikt. Deze sleutel is een unieke tekenreeks per bezoeker. |
+| determinoningMethod | String | Nee | &quot;server-side&quot;, &quot;on-device&quot;, &quot;hybride&quot; |
 | verzoek | Object | Ja | Zie onderstaande tabel Verzoeken. |
 | timeout | Getal | Nee | time-out verzoek. Als deze niet is opgegeven, wordt de standaardtime-out at.js gebruikt. |
 
@@ -84,6 +85,25 @@ adobe.target.getOffers({
     }
   }
 });
+```
+
+## getOffers() aanroepen om een apparaatbeslissing te maken
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
 ```
 
 ## Roep getOffers() aan om de nieuwste weergaven op te halen met de doorgegeven parameters en profielparameters
