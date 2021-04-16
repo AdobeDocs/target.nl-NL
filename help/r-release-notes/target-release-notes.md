@@ -5,9 +5,9 @@ title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 9 april 2021**
+**Laatst bijgewerkt: 16 april 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -52,6 +52,15 @@ Deze versie bevat de volgende verbeteringen, correcties en wijzigingen.
    * Lijst bevat niet alle items in
 
 * Probleem verholpen waarbij een oneindig laden werd veroorzaakt als de aanvraag mislukt nadat de omgeving was gewijzigd en een uitsluiting voor aanbevelingen werd gemaakt. (TGT-39948)
+
+## at.js versie 2.5.0 (19 april 2021)
+
+Deze versie van at.js bevat de volgende verbeteringen:
+
+* Ondersteuning voor apparaatbeslissingen voor at.js
+* Ondersteuning voor koppelingen voor Automated Personalization-activiteiten voorvertonen
+
+Deze release verwijdert ook ondersteuning voor Microsoft Internet Explorer 10 en hoger.
 
 ## Voorlopige-releasegegevens {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
