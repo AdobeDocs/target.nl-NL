@@ -4,14 +4,14 @@ description: Gebruik de targetGlobalSettings() functie voor de Adobe Target at.j
 title: Hoe gebruik ik de functie targetGlobalSettings()?
 feature: at.js
 role: Developer
+exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '2201'
 ht-degree: 0%
 
 ---
-
 
 # targetGlobalSettings()
 
@@ -72,6 +72,45 @@ U kunt de volgende instellingen overschrijven:
 * **Type**: Zie  [hieronder ](#data-providers) Gegevensproviders.
 * **Standaardwaarde**: Zie  [hieronder ](#data-providers) Gegevensproviders.
 * **Omschrijving**: Zie  [hieronder ](#data-providers) Gegevensproviders.
+
+### beslissingsmethode {#on-device-decisioning}
+
+* **Type**: String
+* **Standaardwaarde**: serverzijde
+* **Andere waarden**: op apparaat, hybride
+* **Omschrijving**: Zie de onderstaande beslissingsmethoden.
+
+**beslissingsmethoden**
+
+Met op-apparatenbesluit, introduceert het Doel een nieuw het plaatsen genoemd [!UICONTROL Decisioning Method] die dicteert hoe at.js uw ervaringen levert. De `decisioningMethod` heeft drie waarden: alleen aan de serverzijde, alleen op het apparaat en hybride. Wanneer `decisioningMethod` in `targetGlobalSettings()` wordt geplaatst, handelt het als standaardbepalingsmethode voor alle [!DNL Target] besluiten.
+
+[!UICONTROL Server-side only]:
+
+[!UICONTROL Server-side only] is de standaardbepalingsmethode die uit de doos wordt geplaatst wanneer at.js 2.5+ wordt uitgevoerd en op uw Web-eigenschappen opgesteld.
+
+Als u [!UICONTROL server-side only] gebruikt als de standaardconfiguratie, worden alle beslissingen genomen op het [!DNL Target] Edge-netwerk, dat een blokkerende serveraanroep omvat. Deze benadering kan incrementele latentie introduceren, maar biedt ook aanzienlijke voordelen, zoals de mogelijkheid om de mogelijkheden van Target voor machinaal leren toe te passen, zoals [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) en [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)-activiteiten.
+
+Bovendien kan het verbeteren van uw gepersonaliseerde ervaringen door het gebruikersprofiel van Target te gebruiken, dat over zittingen en kanalen wordt voortgeduurd, krachtige resultaten voor uw zaken verstrekken.
+
+Tot slot [!UICONTROL server-side only] laat u Adobe Experience Cloud gebruiken en verfijnen publiek dat tegen door Audience Manager en de segmenten van Adobe Analytics kan worden gericht.
+
+[!UICONTROL On-device only]:
+
+[!UICONTROL On-Device only] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer de op-apparatenbeslissing slechts door uw Web-pagina&#39;s zou moeten worden gebruikt.
+
+De besluitvorming op het apparaat kan uw ervaringen en verpersoonlijkingsactiviteiten bij het opblazen van snelle snelheid leveren omdat de besluiten van een caching regelartefact worden gemaakt dat al uw activiteiten bevat die voor op-apparaat besluitvorming kwalificeren.
+
+Zie de sectie met ondersteunde functies voor meer informatie over welke activiteiten in aanmerking komen voor beslissingen op het apparaat.
+
+Deze beslissingsmethode moet alleen worden gebruikt als de prestaties van essentieel belang zijn voor alle pagina&#39;s waarvoor beslissingen van [!DNL Target] vereist zijn. Houd er bovendien rekening mee dat wanneer deze beslissingsmethode wordt geselecteerd, uw [!DNL Target]-activiteiten die niet in aanmerking komen voor beslissingen op het apparaat niet worden uitgevoerd of uitgevoerd. De bibliotheek at.js 2.5+ wordt gevormd om het caching regelartefact slechts te zoeken om besluiten te nemen.
+
+Hybride:
+
+[!UICONTROL Hybrid] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer zowel op-apparatenbesluit als activiteiten die een netwerkvraag aan het netwerk van de Rand van Adobe Target vereisen moeten worden uitgevoerd.
+
+Wanneer u zowel beslissingsactiviteiten op het apparaat als serveractiviteiten beheert, kan het een beetje ingewikkeld en vervelend zijn wanneer u nadenkt over hoe u [!DNL Target] op uw pagina&#39;s kunt implementeren en plaatsen. Met hybride als beslissingsmethode weet [!DNL Target] wanneer het een serveraanroep naar het Adobe Target Edge-netwerk moet uitvoeren voor activiteiten die uitvoering op de server vereisen, en ook wanneer alleen beslissingen op het apparaat moeten worden uitgevoerd.
+
+Het Artefact van JSON-regels bevat metagegevens om at.js te informeren of een box een serveractiviteit heeft die wordt uitgevoerd of een beslissingsactiviteit op het apparaat. Deze beslissingsmethode zorgt ervoor dat activiteiten die u snel wilt laten uitvoeren, worden uitgevoerd via apparaatbeslissingen en voor activiteiten die krachtigere, door ML gestuurde personalisatie vereisen, worden deze activiteiten uitgevoerd via het Adobe Target Edge-netwerk.
 
 ### defaultContentHiddenStyle
 
