@@ -4,10 +4,11 @@ description: Leer welke functies worden ondersteund voor beslissingen op het app
 title: Welke functies worden ondersteund in een beslissing op het apparaat
 feature: at.js
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -53,11 +54,43 @@ In de volgende tabel wordt aangegeven welke publieksregels worden ondersteund vo
 
 Om minimale latentie voor op apparaat beslissingsactiviteiten met geo-gebaseerd publiek te handhaven, adviseert Adobe u de geo waarden in de vraag aan [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) te verstrekken. Stel het Geo-object in in de context van de aanvraag. Dit betekent vanuit de browser een manier om de locatie van elke bezoeker te bepalen. Bijvoorbeeld, kunt u een IP-aan-Geo raadpleging uitvoeren, gebruikend de dienst u vormt. Sommige hostingproviders, zoals Google Cloud, bieden deze functionaliteit via aangepaste koppen in elke `HttpServletRequest`.
 
-(Te ontvangen code)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 Nochtans, als u geen IP-aan-Geo raadplegingen op uw server kunt uitvoeren, maar u nog op-apparatenbesluit voor [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) verzoeken wilt uitvoeren die geo-based publiek bevatten, wordt dit ook gesteund. Het nadeel van deze benadering is dat het een verre IP-aan-Geo raadpleging gebruikt, die latentie aan elke `getOffers` vraag toevoegt. Deze latentie zou lager moeten zijn dan een `getOffers` vraag met server-zijbesluit, omdat het een CDN raakt die dicht bij uw server wordt gevestigd. Geef alleen het veld &quot;ipAddress&quot; in het Geo-object op in de context van uw verzoek aan de SDK om de geolocatie van het IP-adres van uw bezoeker op te halen. Als er een ander veld wordt opgegeven naast &quot;ipAddress&quot;, haalt de SDK [!DNL Target] de metagegevens voor de geolocatie niet op voor oplossing.
 
-(Te ontvangen code)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### Toewijzingsmethode
 
