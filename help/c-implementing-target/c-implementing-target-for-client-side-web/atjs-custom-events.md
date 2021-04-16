@@ -4,14 +4,14 @@ description: Gebruik aangepaste gebeurtenissen om de Adobe Target op .js JavaScr
 title: Hoe gebruik ik aangepaste gebeurtenissen at.js?
 feature: at.js
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
-
 
 # at.js, aangepaste gebeurtenissen
 
@@ -38,6 +38,7 @@ Om ervoor te zorgen dat gebeurtenissen in verschillende scenario&#39;s kunnen wo
 | mbox | String | naam van mbox |
 | message | String | Bevat een beschrijving die leesbaar is voor mensen, zoals wat er is gebeurd, het foutbericht, enzovoort. |
 | bijhouden | Object | Bevat `sessionId` en `deviceId`. In sommige gevallen kan `deviceId` ontbreken omdat [!DNL Target] het niet van de Edge-server kan ophalen. |
+| type | String | **Artefact voor**<br> succestatie op apparaat:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>tekenreekswaarde:  `artifactDownloadSucceeded`<br>Omschrijving: Wordt aangeroepen wanneer het beslissingsartefact op het apparaat correct is gedownload.<br>**Artefact voor beslissingen op een apparaat**<br> is misluktConstant:  `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Tekenreekswaarde:  `artifactDownloadFailed`<br>Omschrijving: Wordt aangeroepen wanneer het beslissingsartefact op het apparaat niet kon worden gedownload. |
 
 ## Gebruik {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
