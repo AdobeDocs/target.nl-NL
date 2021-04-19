@@ -5,9 +5,9 @@ title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4131'
+source-wordcount: '4142'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Extra informatie over `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Het volgende toegevoegd:<ul><li>Informatie over de `decisioningMethod` sleutel.</li><li>Een voorbeeld voor &quot;getCallOffers() om een apparaatbeslissing te maken.&quot;</li></ul> |
 |  | [at.js, aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | De volgende informatie is toegevoegd:<ul><li>Artefact voor apparaatbeslissingen is geslaagd</li><li>Artefact voor beslissingen op het apparaat is mislukt</li></ul> |
-|  | [Activiteiten](/help/c-activities/activities.md) | Toegevoegde informatie over de beslissing op het apparaat. |
+|  | [Activiteiten](/help/c-activities/activities.md) | Toegevoegde informatie over apparaatbeslissingen. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Extra informatie over at.js 2.5.0. |
+|  | [Doel implementeren zonder tagbeheer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | Toegevoegde informatie over apparaatbeslissingen. |
 |  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Ondersteuning voor voorbeeldkoppelingen voor [!UICONTROL Automated Personalization]-activiteiten is toegevoegd met [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Regels voor dynamische en statische integratie gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Informatie toegevoegd over de volgende nieuwe operatoren:<ul><li>Is opgenomen in lijst</li><li> Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul> |
 |  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services and* Administration guide) | Extra informatie over sessie-id toegevoegd. |
