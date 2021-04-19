@@ -5,9 +5,9 @@ title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenumme
 
 | Functie | Details |
 | --- | --- |
-| Ondersteuning voor apparaatbeslissingen voor at.js | Met apparaatbeslissingen kunnen marketers en ontwikkelaars experimenten en personalisatie uitvoeren in de browser van een gebruiker bij bijna-nullatentie.<br>Voor meer informatie, zie  [Op-apparatenbesluit voor at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| Ondersteuning voor apparaatbeslissingen voor at.js | Met apparaatbeslissingen kunnen marketers en ontwikkelaars experimenten en personalisatie uitvoeren in de browser van een gebruiker bij bijna-nullatentie.<br>Voor meer informatie, zie  [Op-apparatenbesluit voor at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)<br>(Aankondigde datum) |
 | ![Op ](/help/assets/premium.png) PremiumList gebaseerde operatoren voor filterregels voor entiteiten | [!DNL Target Recommendations] steunt nieuwe op lijst-gebaseerde exploitanten voor entiteit het filtreren regels. (TGT-39234)<br>Nieuw toegevoegde operatoren zijn onder andere:<br><ul><li>Is opgenomen in lijst</li><li>Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul>Zie &quot;Beschikbare operatoren&quot; in [Dynamische en statische inclusieregels gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) voor meer informatie. |
 
 Deze versie bevat de volgende oplossingen.
@@ -43,7 +43,7 @@ Deze versie bevat de volgende oplossingen.
 * Probleem verholpen waarbij eigenschappen werden toegewezen aan de onjuiste werkruimte. (TGT-39869)
 * Probleem verholpen waarbij een oneindig laden werd veroorzaakt als de aanvraag mislukt nadat de omgeving was gewijzigd en een uitsluiting voor aanbevelingen werd gemaakt. (TGT-39948)
 
-## at.js versie 2.5.0 (19 april 2021)
+## at.js versie 2.5.0 (Datum van bekendmaking)
 
 Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
 
