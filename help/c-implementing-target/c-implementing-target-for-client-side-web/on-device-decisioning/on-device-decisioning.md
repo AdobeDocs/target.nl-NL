@@ -1,29 +1,25 @@
 ---
-keywords: implementatie;javascript-bibliotheek;js;atjs;apparaatbeslissingen;apparaatbeslissingen;at.js
+keywords: implementatie;javascript-bibliotheek;js;atjs;apparaatbeslissingen;op apparaatbeslissingen;at.js;op apparaat;op apparaat
 description: Leer hoe u apparaatbeslissingen kunt uitvoeren met de bibliotheek at.js
 title: Hoe werkt een apparaatbeslissing met de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '3394'
+source-wordcount: '3386'
 ht-degree: 1%
 
 ---
 
-# Apparaatbeslissingen
+# Apparaatbeslissingen voor at.js
 
->[!NOTE]
->
->De beslissingsfunctionaliteit op het apparaat wordt volgens de planning vrijgegeven in de doelstandaard/Premium-versie 21.4.1 (19 april 2021).
-
-Vanaf versie 2.5 biedt at.js on-device beslissingen. Door op het apparaat te beslissen kunt u uw [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op de browser in het cachegeheugen plaatsen om in het geheugen te beslissen zonder een blokkerende netwerkaanvraag aan het [!DNL Adobe Target] Netwerk van de Rand.
+Vanaf versie 2.5.0 biedt at.js on-device beslissingen. Door op het apparaat te beslissen kunt u uw [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op de browser in het cachegeheugen plaatsen om in het geheugen te beslissen zonder een blokkerende netwerkaanvraag aan het [!DNL Adobe Target] Netwerk van de Rand.
 
 [!DNL Target] biedt ook de flexibiliteit om de meest relevante en meest recente ervaring van uw experimenteren en machine leergedreven (ML-gedreven) verpersoonlijkingsactiviteiten via een levende servervraag te leveren. Met andere woorden, wanneer de prestaties het belangrijkst zijn, kunt u verkiezen om op-apparatenbesluit te gebruiken. Nochtans, wanneer de meest relevante, bijgewerkte, en ML-gedreven ervaring nodig is, kan een servervraag in plaats daarvan worden gemaakt.
 
-## Wat zijn de voordelen?
+## Wat zijn de voordelen van apparaatbeslissingen?
 
 De voordelen van apparaatbeslissingen zijn onder meer:
 
@@ -56,7 +52,7 @@ Met op-apparatenbepaling, [!DNL Target] introduceert een nieuw die plaatsen [!UI
 
 ### Alleen server
 
-[!UICONTROL Server-side only] is de standaardbepalingsmethode die uit de doos wordt geplaatst wanneer at.js 2.5+ wordt uitgevoerd en op uw Web-eigenschappen opgesteld.
+[!UICONTROL Server-side only] is de standaardbepalingsmethode die uit de doos wordt geplaatst wanneer at.js 2.5.0+ wordt uitgevoerd en op uw Web-eigenschappen opgesteld.
 
 Als u [!UICONTROL server-side only] gebruikt als de standaardconfiguratie, worden alle beslissingen genomen op het [!DNL Target] Edge-netwerk, dat een blokkerende serveraanroep omvat. Deze benadering kan incrementele latentie introduceren, maar biedt ook aanzienlijke voordelen, zoals de mogelijkheid om de mogelijkheden van Target voor machinaal leren toe te passen, zoals [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) en [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)-activiteiten.
 
@@ -64,7 +60,7 @@ Bovendien kan het verbeteren van uw gepersonaliseerde ervaringen door het gebrui
 
 Tot slot [!UICONTROL server-side only] laat u Adobe Experience Cloud gebruiken en verfijnen publiek dat tegen door Audience Manager en de segmenten van Adobe Analytics kan worden gericht.
 
-In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, at.js 2.5+ en het Adobe Target Edge-netwerk. In dit stroomdiagram worden nieuwe bezoekers en terugkerende bezoekers vastgelegd.
+In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, at.js 2.5.0+ en het Adobe Target Edge-netwerk. In dit stroomdiagram worden nieuwe bezoekers en terugkerende bezoekers vastgelegd.
 
 ![Stroomdiagram alleen op de server](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/server-side-only.png)
 
@@ -72,7 +68,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 | Stap | Beschrijving |
 | --- | --- |
-| 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>   De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
 | 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | Er wordt een aanvraag voor het laden van een pagina ingediend die alle geconfigureerde parameters bevat, zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort). |
@@ -89,15 +85,15 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 ### Alleen op apparaat
 
-[!UICONTROL On-Device only] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer de op-apparatenbeslissing slechts door uw Web-pagina&#39;s zou moeten worden gebruikt.
+[!UICONTROL On-Device only] is de besluitvormingsmethode die in at.js 2.5.0+ moet worden geplaatst wanneer de op-apparatenbeslissing slechts door uw Web-pagina&#39;s zou moeten worden gebruikt.
 
 De besluitvorming op het apparaat kan uw ervaringen en verpersoonlijkingsactiviteiten bij het opblazen van snelle snelheid leveren omdat de besluiten van een caching regelartefact worden gemaakt dat al uw activiteiten bevat die voor op-apparaat besluitvorming kwalificeren.
 
 Zie [Ondersteunde functies in apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) voor meer informatie over welke activiteiten in aanmerking komen voor apparaatbesluitvorming.
 
-Deze beslissingsmethode moet alleen worden gebruikt als de prestaties van essentieel belang zijn voor alle pagina&#39;s waarvoor beslissingen van [!DNL Target] vereist zijn. Houd er bovendien rekening mee dat wanneer deze beslissingsmethode wordt geselecteerd, uw [!DNL Target]-activiteiten die niet in aanmerking komen voor beslissingen op het apparaat niet worden uitgevoerd of uitgevoerd. De bibliotheek at.js 2.5+ wordt gevormd om het caching regelartefact slechts te zoeken om besluiten te nemen.
+Deze beslissingsmethode moet alleen worden gebruikt als de prestaties van essentieel belang zijn voor alle pagina&#39;s waarvoor beslissingen van [!DNL Target] vereist zijn. Houd er bovendien rekening mee dat wanneer deze beslissingsmethode wordt geselecteerd, uw [!DNL Target]-activiteiten die niet in aanmerking komen voor beslissingen op het apparaat niet worden uitgevoerd of uitgevoerd. De bibliotheek at.js 2.5.0+ wordt gevormd om het caching regelartefact slechts te zoeken om besluiten te nemen.
 
-In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, at.js 2.5+ en de CDN van Akamai. De Akamai CDN slaat het artefact van de regels voor het eerste bezoek van de bezoeker in het voorgeheugen op. Voor het eerste paginabezoek voor een nieuwe bezoeker, moet het artefact van de JSON- regels van Akamai CDN worden gedownload om plaatselijk op browser van de bezoeker in het voorgeheugen onder te brengen. Nadat het artefact van JSON-regels is gedownload, wordt de beslissing onmiddellijk genomen zonder een blokkerende netwerkaanroep. In het volgende stroomdiagram worden nieuwe bezoekers vastgelegd.
+In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, at.js 2.5.0+ en de CDN van Akamai. De Akamai CDN slaat het artefact van de regels voor het eerste bezoek van de bezoeker in het voorgeheugen op. Voor het eerste paginabezoek voor een nieuwe bezoeker, moet het artefact van de JSON- regels van Akamai CDN worden gedownload om plaatselijk op browser van de bezoeker in het voorgeheugen onder te brengen. Nadat het artefact van JSON-regels is gedownload, wordt de beslissing onmiddellijk genomen zonder een blokkerende netwerkaanroep. In het volgende stroomdiagram worden nieuwe bezoekers vastgelegd.
 
 ![Stroomdiagram alleen op apparaat](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only.png)
 
@@ -111,7 +107,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | --- | --- |
 | 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | De bibliotheek at.js vraagt om het JSON-regelartefact van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen. |
 | 5 | De Akamai CDN reageert met het Artefact van de JSON-regel. |
 | 6 | De JSON-regelartefact wordt lokaal in de browser van de bezoeker in cache geplaatst. |
@@ -122,7 +118,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | 11 | De hele webpagina wordt geladen. |
 | 12 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via Analytics for Target (A4T)-rapporten worden weergegeven. |
 
-In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, op .js 2.5+ en het in de cache opgeslagen JSON-regelartefact voor de volgende pagina die de bezoeker raakt of die een bezoek retourneert. Omdat het artefact van JSON-regels al in het cachegeheugen is opgeslagen en beschikbaar is in de browser, wordt de beslissing onmiddellijk genomen zonder een blokkerende netwerkaanroep. Dit stroomdiagram legt volgende paginanavigatie of terugkerende bezoekers vast.
+In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, op .js 2.5.0+ en de JSON-regelartefact in de cache voor het volgende paginahit of terugkerend bezoek van de bezoeker. Omdat het artefact van JSON-regels al in het cachegeheugen is opgeslagen en beschikbaar is in de browser, wordt de beslissing onmiddellijk genomen zonder een blokkerende netwerkaanroep. Dit stroomdiagram legt volgende paginanavigatie of terugkerende bezoekers vast.
 
 ![Stroomdiagram alleen op apparaat voor paginanavigatie en herhaalde bezoeken](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only-subsequent.png)
 
@@ -136,7 +132,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | --- | --- |
 | 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | De bibliotheek at.js interpreteert het JSON-regelartefact en voert de beslissing in het geheugen uit om de ervaring op te halen. |
 | 5 | De geteste elementen zijn verborgen. |
 | 6 | De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen. |
@@ -147,13 +143,13 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 ### Hybride
 
-[!UICONTROL Hybrid] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer zowel op-apparatenbesluit als activiteiten die een netwerkvraag aan het netwerk van de Rand van Adobe Target vereisen moeten worden uitgevoerd.
+[!UICONTROL Hybrid] is de besluitvormingsmethode die in at.js 2.5.0+ moet worden geplaatst wanneer zowel op-apparatenbesluit als activiteiten die een netwerkvraag aan het netwerk van de Rand van Adobe Target vereisen moeten worden uitgevoerd.
 
 Wanneer u zowel beslissingsactiviteiten op het apparaat als serveractiviteiten beheert, kan het een beetje ingewikkeld en vervelend zijn wanneer u nadenkt over hoe u [!DNL Target] op uw pagina&#39;s kunt implementeren en plaatsen. Met hybride als beslissingsmethode weet [!DNL Target] wanneer het een serveraanroep naar het Adobe Target Edge-netwerk moet uitvoeren voor activiteiten die uitvoering op de server vereisen, en ook wanneer alleen beslissingen op het apparaat moeten worden uitgevoerd.
 
 Het Artefact van JSON-regels bevat metagegevens om at.js te informeren of een box een serveractiviteit heeft die wordt uitgevoerd of een beslissingsactiviteit op het apparaat. Deze beslissingsmethode zorgt ervoor dat activiteiten die u snel wilt laten uitvoeren, worden uitgevoerd via apparaatbeslissingen en voor activiteiten die krachtigere, door ML gestuurde personalisatie vereisen, worden deze activiteiten uitgevoerd via het Adobe Target Edge-netwerk.
 
-In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, op .js 2.5+, de Akamai CDN en het Adobe Target Edge Network voor een nieuwe bezoeker die uw pagina voor het eerst bezoekt. De afstand van dit diagram is dat het artefact van de JSON-regels asynchroon wordt gedownload terwijl de beslissingen via het Adobe Target Edge-netwerk worden genomen.
+In het volgende diagram ziet u de interactie tussen uw bezoeker, de browser, in.js 2.5.0+, de Akamai CDN en het Adobe Target Edge Network voor een nieuwe bezoeker die uw pagina voor het eerst bezoekt. De afstand van dit diagram is dat het artefact van de JSON-regels asynchroon wordt gedownload terwijl de beslissingen via het Adobe Target Edge-netwerk worden genomen.
 
 Deze aanpak zorgt ervoor dat de grootte van het artefact, dat vele activiteiten kan omvatten, de latentie van de beslissing niet negatief beïnvloedt. Het synchroon downloaden van de JSON-regels en het vervolgens nemen van de beslissing kan ook negatieve gevolgen hebben voor de latentie en kan inconsistent zijn. Daarom is de hybride besluitvormingsmethode een beste praktijkaanbeveling om altijd een server-zijvraag voor het besluit voor een nieuwe bezoeker te maken, en aangezien de JSON regels artefact parallel in het voorgeheugen wordt opgeslagen. Voor om het even welke verdere paginabezoeken en terugkeerbezoeken, worden de besluiten genomen van het geheime voorgeheugen en in geheugen door het JSON regelartefact.
 
@@ -167,7 +163,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 | Stap | Beschrijving |
 | --- | --- |
-| 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
 | 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | Er wordt een aanvraag ingediend voor het laden van een pagina in het Adobe Target Edge-netwerk, inclusief alle geconfigureerde parameters zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort.) |
@@ -183,7 +179,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | 14 | De hele webpagina wordt geladen. |
 | 15 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. Gericht gegeven wordt aangepast aan [!DNL Analytics] gegevens via SDID en wordt verwerkt tot [!DNL Analytics] rapporterend opslag. [!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als  [!DNL Target] via  [!UICONTROL Analytics for Target] (A4T) rapporten worden bekeken. |
 
-Het volgende diagram illustreert de interactie tussen uw bezoeker, browser, at.js 2.5+, en het cached JSON regelt artefact voor een verdere paginanavigatie of een terugkeerbezoek. In dit diagram, concentreert zich slechts op het gebruiksgeval dat een op-apparatenbesluit voor de verdere paginanavigatie of terugkeerbezoek wordt genomen. Houd in mening dat afhankelijk van welke activiteiten voor bepaalde pagina&#39;s levend zijn, een server-zijvraag kan worden gemaakt om server-zijbesluiten uit te voeren.
+Het volgende diagram illustreert de interactie tussen uw bezoeker, browser, at.js 2.5.0+, en het caching JSON regelt artefact voor een verdere paginanavigatie of een terugkeerbezoek. In dit diagram, concentreert zich slechts op het gebruiksgeval dat een op-apparatenbesluit voor de verdere paginanavigatie of terugkeerbezoek wordt genomen. Houd in mening dat afhankelijk van welke activiteiten voor bepaalde pagina&#39;s levend zijn, een server-zijvraag kan worden gemaakt om server-zijbesluiten uit te voeren.
 
 ![Hybride-stroomdiagram voor paginanavigatie en herhaalde bezoeken](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/hybrid-subsequent.png)
 
@@ -197,7 +193,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | --- | --- |
 | 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | Er wordt een verzoek ingediend om een ervaring op te halen. |
 | 5 | De bibliotheek at.js bevestigt dat het JSON-regelartefact al in de cache is geplaatst en voert het besluit in het geheugen uit om de ervaring op te halen. |
 | 6 | De geteste elementen zijn verborgen. |
@@ -209,7 +205,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 ## Hoe laat ik op apparaat besluiten toe?
 
-Beslissing op het apparaat is beschikbaar voor alle [!DNL Target] klanten die At.js 2.5+ gebruiken.
+Beslissing op het apparaat is beschikbaar voor alle [!DNL Target] klanten die At.js 2.5.0+ gebruiken.
 
 Om op apparaat het besluiten toe te laten:
 
@@ -233,10 +229,10 @@ Nadat [!UICONTROL On-Device Decisioning] schakelt, [!DNL Target] begint producer
 >
 >Zorg ervoor dat u de schakeloptie inschakelt voordat u de SDK van Adobe Target initialiseert om apparaatbeslissingen te gebruiken. De regelartefacten moeten eerst aan Akamai CDNs voor op-apparatenbesluit produceren en verspreiden om te werken. De propagatie kan vijf tot tien minuten voor het eerste regelartefact vergen om aan Akamai CDN te produceren en te verspreiden.
 
-## Hoe vorm ik bij.js 2.5+ om op-apparatenbesluit te gebruiken?
+## Hoe vorm ik bij.js 2.5.0+ om op-apparatenbesluit te gebruiken?
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Account details]**.
-1. Klik onder **[!UICONTROL Implementation Methods]** > **[!UICONTROL Main Implementation Method]** op **[!UICONTROL Edit]** naast uw versie at.js (moet zich bevinden op .js 2.5 of hoger).
+1. Klik onder **[!UICONTROL Implementation Methods]** > **[!UICONTROL Main Implementation Method]** op **[!UICONTROL Edit]** naast uw versie at.js (moet zich bevinden op .js 2.5.0 of hoger).
 
    ![Instellingen van hoofdimplementatiemethode bewerken](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/main-implementation-method.png)
 
@@ -274,7 +270,7 @@ U kunt een gebrek [!UICONTROL Decisioning Method] voor alle [!DNL Target] beslui
 
 ### Aangepaste instelling
 
-Als u `decisioningMethod` in `window.targetGlobalSettings` plaatst, maar `decisioningMethod` voor elke beslissing van Adobe Target volgens uw gebruiksgeval zou willen met voeten treden, kunt u deze procedure doen door `decisioningMethod` in bij.js2.5+ [getOffers () ](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) te specificeren vraag.
+Als u `decisioningMethod` in `window.targetGlobalSettings` plaatst, maar `decisioningMethod` voor elke beslissing van Adobe Target volgens uw gebruiksgeval zou willen met voeten treden, kunt u deze procedure doen door `decisioningMethod` in At.js2.5.0+ [getOffers () ](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) te specificeren vraag.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -295,7 +291,7 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Als u &quot;op apparaat&quot; of &quot;hybride&quot; wilt gebruiken als een beslissingsmethode in de aanroep getOffers(), moet u ervoor zorgen dat de algemene instelling `decisioningMethod` heeft als &quot;op apparaat&quot; of &quot;hybride&quot;. In de bibliotheek at.js 2.5+ moet u weten of het Artefact van de JSON-regels direct na het laden op de pagina moet worden gedownload en in cache geplaatst. Als de besluitvormingsmethode voor het globale plaatsen aan &quot;server-kant&quot;wordt geplaatst, en &quot;op-apparaat&quot;of &quot;hybride&quot;besluitvormingsmethode wordt overgegaan in de getOffers () vraag, zou at.js 2.5+ niet het JSON regelartefact in het voorgeheugen ondergebracht hebben om uw op-apparatenbesluiten uit te voeren.
+>Als u &quot;op apparaat&quot; of &quot;hybride&quot; wilt gebruiken als een beslissingsmethode in de aanroep getOffers(), moet u ervoor zorgen dat de algemene instelling `decisioningMethod` heeft als &quot;op apparaat&quot; of &quot;hybride&quot;. De bibliotheek at.js 2.5.0+ moet weten of om het Artefact van de regels JSON onmiddellijk na het laden op de pagina te downloaden en in het voorgeheugen onder te brengen. Als de besluitvormingsmethode voor het globale plaatsen aan &quot;server-kant&quot;wordt geplaatst, en &quot;op-apparaat&quot;of &quot;hybride&quot;besluitvormingsmethode wordt overgegaan in de getOffers () vraag, zou at.js 2.5.0+ niet het JSON regelartefact in het voorgeheugen ondergebracht hebben om uw op-apparatenbesluiten uit te voeren.
 
 ### Artefactcache TTL
 
@@ -309,7 +305,7 @@ Nadat u een activiteit creeert die op apparaat het besluiten geschikt is, is een
 
 ![Op Apparaatbeslissingsniveau komt in aanmerking voor label op de overzichtspagina van de activiteit.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-decisioning-eligible-label.png)
 
-Dit label betekent niet dat de activiteit altijd via beslissingen op het apparaat zal worden geleverd. Slechts wanneer at.js 2.5+ wordt gevormd om op-apparatenbesluit te gebruiken zal deze activiteit op-apparaat worden uitgevoerd. Als at.js 2.5+ niet wordt gevormd om op-apparaat te gebruiken, dan zal deze activiteit nog via een servervraag worden geleverd die van at.js wordt gemaakt.
+Dit label betekent niet dat de activiteit altijd via beslissingen op het apparaat zal worden geleverd. Slechts wanneer at.js 2.5.0+ wordt gevormd om op-apparatenbesluit te gebruiken zal deze activiteit op-apparaat worden uitgevoerd. Als at.js 2.5.0+ niet wordt gevormd om op-apparaat te gebruiken, dan zal deze activiteit nog via een servervraag worden geleverd die van at.js wordt gemaakt.
 
 Via het filter [!UICONTROL On-Device Decisioning Eligible] kunt u filteren op alle activiteiten die geschikt zijn voor apparaatbesluitvorming op de pagina [!UICONTROL Activities].
 
@@ -319,7 +315,7 @@ Via het filter [!UICONTROL On-Device Decisioning Eligible] kunt u filteren op al
 >
 >Na het creëren van en het activeren van een activiteit die op apparaat het besluiten in aanmerking komt, kan het vijf tot tien minuten nemen alvorens het in het regelvervorming wordt omvat die aan het punt van aanwezigheid Akamai CDN wordt geproduceerd en verspreid.
 
-## Overzicht van stappen om ervoor te zorgen dat mijn beslissingsactiviteiten op het apparaat via At.js 2.5+ worden geleverd?
+## Overzicht van stappen om ervoor te zorgen dat mijn beslissingsactiviteiten op het apparaat via At.js 2.5.0+ worden geleverd?
 
 1. Open de gebruikersinterface van Adobe Target en navigeer naar **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!DNL Account Details]** om de **[!UICONTROL On-Device Decisioning]**-schakeloptie in te schakelen.
 1. Schakel de schakeloptie **&quot;[!UICONTROL Include all existing on-device decisioning qualified activities in the artifact]&quot;** in.
@@ -328,4 +324,4 @@ Via het filter [!UICONTROL On-Device Decisioning Eligible] kunt u filteren op al
 
 1. Creeer en activeer een [activiteitstype dat door op-apparatenbesluit ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) wordt gesteund, en verifieer dat het op-apparatenbesluit geschikt is.
 1. Stel **[!UICONTROL Decisioning Method]** in op **[!UICONTROL “Hybrid”]** of **[!UICONTROL “On-device only”]** via de interface voor instellingen at.js.
-1. Download en implementeer At.js 2.5+ op uw pagina&#39;s.
+1. Download en implementeer At.js 2.5.0+ op uw pagina&#39;s.
