@@ -5,9 +5,9 @@ title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
 workflow-type: tm+mt
-source-wordcount: '3941'
+source-wordcount: '4125'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,20 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 21.4.1 (19 april 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 19 april 2021 | [Apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | De volgende nieuwe artikelen zijn toegevoegd:<ul><li>[Apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Ondersteunde functies voor apparaatbesluitvorming](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefact van de regel voor apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Extra informatie over `decisioningMethod`. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Het volgende toegevoegd:<ul><li>Informatie over de `decisioningMethod` sleutel.</li><li>Een voorbeeld voor &quot;getCallOffers() om een apparaatbeslissing te maken.&quot;</li></ul> |
+|  | [at.js, aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | De volgende informatie is toegevoegd:<ul><li>Artefact voor apparaatbeslissingen is geslaagd</li><li>Artefact voor beslissingen op het apparaat is mislukt</li></ul> |
+|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Extra informatie over at.js 2.5.0. |
+|  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Ondersteuning voor voorbeeldkoppelingen voor [!UICONTROL Automated Personalization]-activiteiten is toegevoegd met [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+|  | [Regels voor dynamische en statische integratie gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Informatie toegevoegd over de volgende nieuwe operatoren:<ul><li>Is opgenomen in lijst</li><li> Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul> |
+|  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services and* Administration guide) | Extra informatie over sessie-id toegevoegd. |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.4.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe Target Standard/Premium 21.2.1 (9 maart 2021)
 
