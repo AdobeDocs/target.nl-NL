@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
 workflow-type: tm+mt
-source-wordcount: '3392'
+source-wordcount: '3394'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Beslissing op een apparaat wordt gepland in de doelstandaard/Premium versie 21.4.1 (19 april 2021).
+>De beslissingsfunctionaliteit op het apparaat wordt volgens de planning vrijgegeven in de doelstandaard/Premium-versie 21.4.1 (19 april 2021).
 
 Vanaf versie 2.5 biedt at.js on-device beslissingen. Door op het apparaat te beslissen kunt u uw [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op de browser in het cachegeheugen plaatsen om in het geheugen te beslissen zonder een blokkerende netwerkaanvraag aan het [!DNL Adobe Target] Netwerk van de Rand.
 
@@ -134,7 +134,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 | Stap | Beschrijving |
 | --- | --- |
-| 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
 | 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | De bibliotheek at.js interpreteert het JSON-regelartefact en voert de beslissing in het geheugen uit om de ervaring op te halen. |
@@ -169,7 +169,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | --- | --- |
 | 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | Er wordt een aanvraag ingediend voor het laden van een pagina in het Adobe Target Edge-netwerk, inclusief alle geconfigureerde parameters zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort.) |
 | 5 | Parallel hieraan vraagt at.js om het Artefact van de JSON-regel van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen. |
 | 6 | (Adobe Target Edge Network) Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de Profile Store. De Opslag van het Profiel vraagt gekwalificeerd publiek van de Bibliotheek van het Publiek (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] wordt gedeeld, etc.). |
@@ -195,9 +195,9 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 | Stap | Beschrijving |
 | --- | --- |
-| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | Er wordt een verzoek ingediend om een ervaring op te halen. |
 | 5 | De bibliotheek at.js bevestigt dat het JSON-regelartefact al in de cache is geplaatst en voert het besluit in het geheugen uit om de ervaring op te halen. |
 | 6 | De geteste elementen zijn verborgen. |
