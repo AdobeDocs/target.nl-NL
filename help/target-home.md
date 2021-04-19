@@ -5,7 +5,7 @@ description: Leer hoe u Adobe Target kunt gebruiken om de ervaring van uw klante
 feature: Overzicht
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 16 april 2021 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 19 april 2021 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
