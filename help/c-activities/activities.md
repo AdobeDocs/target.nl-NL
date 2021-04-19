@@ -5,9 +5,9 @@ title: Hoe kan ik inhoud aanpassen en pagina-ontwerpen testen met Doel?
 feature: Activiteiten
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2082'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ De activiteitenlijst geeft een overzicht van alle activiteiten:
 | URL | De URL wordt weergegeven in lichtere tekst onder de naam.<br>De URL voor de activiteit identificeert waar de activiteit wordt getoond. Hierdoor kunt u snel een activiteit identificeren en bepalen of op een bepaalde pagina al een test wordt uitgevoerd.<br>Als een test op veelvoudige URLs loopt, toont een verbinding hoeveel meer URLs worden gebruikt. Klik op de koppeling om de volledige lijst met URL&#39;s voor die activiteit weer te geven.<br>U kunt zoeken op basis van URL. Gebruik de vervolgkeuzelijst naast het zoekvak en selecteer [!UICONTROL Search URL]. |
 | Status | De status van de activiteit kan een van de volgende zijn:<ul><li>**Live**: De activiteit wordt momenteel uitgevoerd.</li><li>**Concept**: De activiteitenopstelling is begonnen maar de activiteit is nog niet klaar om te lopen.</li><li>**Gepland**: De activiteit is klaar om te worden geactiveerd wanneer de gespecificeerde begindatum en de tijd aankomen.</li><li>**Inactief**: De activiteit is gepauzeerd of gedeactiveerd.</li><li>**Synchroniseren**: De activiteit is opgeslagen en wordt gesynchroniseerd aan het de leveringsnetwerk van het Doel.</li><li>**Beëindigd**: De opgegeven einddatum en -tijd van de activiteit zijn bereikt en de activiteit wordt niet meer uitgevoerd.</li><li>**Gearchiveerd**: De activiteit is gearchiveerd. U kunt een gearchiveerde activiteit activeren om deze opnieuw te gebruiken.</li></ul>**Opmerking**: Wanneer u bepaalde acties uitvoert, zoals het activeren van een activiteit buiten de UI die API methodes gebruikt, kan de update tot tien minuten vergen om aan UI te verspreiden. |
 | Bron | Toont waar de activiteit werd gecreeerd:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Beslissingen op het apparaat komen in aanmerking | Nadat u een activiteit creeert die op apparaat beslist geschikt is, is een etiket dat Beslissend In aanmerking komend op apparaat leest, zichtbaar in de pagina van het Overzicht van de activiteit.<br>Dit label betekent niet dat de activiteit altijd via beslissingen op het apparaat zal worden geleverd. Slechts wanneer at.js 2.5.0+ wordt gevormd om op-apparatenbesluit te gebruiken zal deze activiteit op-apparaat worden uitgevoerd. Als at.js 2.5.0+ niet wordt gevormd om op-apparaat te gebruiken, dan zal deze activiteit nog via een servervraag worden geleverd die van at.js wordt gemaakt.<br>Zie  [Apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | Eigenschap | Toont [bezit](/help/administrating-target/c-user-management/property-channel/property-channel.md) voor de activiteit. |
 | Geschat bedrag aan inkomsten | Toont de voorspelde toename van inkomsten als 100% van het publiek de winnende ervaring ziet.<br>Berekend met de volgende formule:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Dit getal wordt afgerond tot op één decimaal, maximaal, als het versmalde formulier slechts één cijfer voor het decimaalteken heeft. Bijvoorbeeld: $1.6M, $60K, $900, $8.5K, $205K<br>Deze kolom toont &quot;—&quot;voor activiteiten die niet genoeg gegevens hebben om een winnaar te roepen of geen kostenraming hebben.<br>Zie  [Schatting van Lift in ](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) Revenu voor meer informatie. |
 | Laatst bijgewerkt | De datum waarop de activiteit voor het laatst is bijgewerkt en door wie. |
@@ -108,6 +109,7 @@ U kunt filteren op de volgende opties. Als er in elke categorie niets is geselec
 |--- |--- |
 | Type | A/B-test: [Handmatig](/help/c-activities/t-test-ab/test-ab.md), [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) en [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Geautomatiseerde ](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[PersonalizationExperience ](/help/c-activities/t-experience-target/experience-target.md)<br>[TargetingMultivariate ](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[TestRecommendations](/help/c-recommendations/recommendations.md) |
 | Status | Live<br>Draft<br>Scheduled<br>Inactive<br>Syncing<br>Ended<br>Archived |
+| Beslissingen op het apparaat komen in aanmerking | Ja<br>Nee |
 | Rapportagebron | Doel<br>Analyse |
 | Experience Composer | Visueel<br>Op vorm gebaseerd |
 | Type statistieken | Conversie<br>Inkomsten<br>Betrokkenheid |
@@ -117,16 +119,10 @@ U kunt filteren op de volgende opties. Als er in elke categorie niets is geselec
 
 Klik op een van de volgende koppen om te schakelen of de activiteiten in oplopende of aflopende volgorde worden weergegeven volgens de geselecteerde kop.
 
-* Naam activiteit
-* Type activiteit
+* Type
+* Naam
 
 ![Activiteitenlijst oplopende volgorde](/help/c-activities/assets/activities_list_ascending.png)
-
-## Tips en trucs {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Haal het meeste uit Adobe Target door meer te leren over verschillende functies en te zien waarom je ze een poging moet doen. De functie Tips en trucs biedt koppelingen naar video&#39;s, gebruiksscenario&#39;s, blogs, documentatie en nog veel meer.
-
-De functie Tips en trucs wordt periodiek weergegeven op de pagina Activiteiten. Nadat u een tip hebt gelezen of gesloten, wordt deze pas weer weergegeven als de volgende tip beschikbaar is. U kunt desgewenst de weergave van alle tips uitschakelen door op het Help-pictogram > [!UICONTROL Disable Tip of the Day] te klikken.
 
 ![Tip van de dag uitschakelen](/help/c-activities/assets/tip-disable-new.png)
 
