@@ -3,14 +3,14 @@ keywords: qa;voorvertoning;voorvertoning koppelingen;adobe target;target
 description: Leer hoe te om Adobe Target QA URLs te gebruiken om gemakkelijke activiteit QA met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activiteiten
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
-
 
 # Activiteit QA {#activity-qa}
 
@@ -21,6 +21,9 @@ Gebruik QA URLs in [!DNL Adobe Target] om gemakkelijke activiteit QA van begin t
 Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live start. De QA-functionaliteit voor activiteit omvat:
 
 * Verbindingen om met teamleden te delen die nooit veranderen of regeneratie vereisen, ongeacht updates die aan de ervaringen of de activiteiten worden aangebracht. Dit laat u uw activiteiten over de volledige gebruikersreis volledig testen.
+
+   Ondersteuning voor voorbeeldkoppelingen voor [!UICONTROL Automated Personalization]-activiteiten is toegevoegd met [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
 * De voorwaarden van het publiek naar keuze gerespecteerd zodat kunnen de marketers het richten van criteria testen of het richten van criteria aan QA de verschijning van ervaringen negeren zonder het moeten aan de publieksvoorwaarden voldoen.
 * QA-rapportage wordt vastgelegd zodat marketers kunnen bevestigen dat de metriek naar verwachting toeneemt en dat de QA-rapportgegevens gescheiden worden gehouden van productierapportage (voor niet-A4T-rapportage).
 * De mogelijkheid om een ervaring op zichzelf of in combinatie met andere live activiteiten die aan de leveringscriteria voldoen (pagina/doelverzoek/publiek) voor te vertonen.
@@ -32,7 +35,7 @@ Met Activity QA kunt u uw doelactiviteiten volledig testen voordat u ze live sta
 
 ## Toegang tot en het Delen van een URL QA {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Klik op de koppeling **[!UICONTROL Activity QA]** van de pagina [!UICONTROL Overview] van een activiteit (alle typen behalve Automated Personalization).
+1. Klik op de koppeling **[!UICONTROL Activity QA]** van de pagina [!UICONTROL Overview] van een activiteit.
 
    ![QA-koppeling voor activiteit](assets/qa_link.png)
 
