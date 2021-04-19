@@ -5,9 +5,9 @@ title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '4175'
+source-wordcount: '4178'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Informatie over wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL A
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis de voorkeursmethode voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en worden in de catalogus [!DNL Launch] beschikbaar gesteld als upgrades. Voor meer informatie, zie [Uitbreiding Verbetering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in *de Gids van de Gebruiker van het Experience Platform Launch*.
 
-## om 2.5.0 uur (19 april 2021)
+## te.js 2.5.0 (datum van bekendmaking)
 
 Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
 
