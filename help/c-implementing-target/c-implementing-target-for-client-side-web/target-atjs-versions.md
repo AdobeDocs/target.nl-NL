@@ -3,11 +3,11 @@ keywords: at.js-releases;at.js-versies;releaseopmerkingen
 description: Bekijk de gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek van Adobe Target at.js.
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
-role: Ontwikkelaar
+role: Developer
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '4140'
+source-wordcount: '4175'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ Informatie over wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL A
 >Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis de voorkeursmethode voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en worden in de catalogus [!DNL Launch] beschikbaar gesteld als upgrades. Voor meer informatie, zie [Uitbreiding Verbetering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in *de Gids van de Gebruiker van het Experience Platform Launch*.
+
+## om 2.5.0 uur (19 april 2021)
+
+Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
+
+* [Ondersteuning voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslissingen op het apparaat voor at.js.
+* [Ondersteuning voor ](/help/c-activities/c-activity-qa/activity-qa.md) koppelingen voorvertonen voor Automated Personalization-activiteiten
+
+Deze release verwijdert ook ondersteuning voor Microsoft Internet Explorer 10 en hoger.
 
 ## te.js 2.4.1 (23 maart 2021)
 
