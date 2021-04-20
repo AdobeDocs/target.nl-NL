@@ -2,7 +2,7 @@
 keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;metrisch;metrische definities
 description: Vind antwoorden op vragen over metrische definities en het gebruiken van Analytics voor Doel (A4T). Met A4T kunt u Analytics-rapporten gebruiken voor Adobe Target-activiteiten.
 title: Waar kan ik informatie over metrische definities met A4T vinden?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

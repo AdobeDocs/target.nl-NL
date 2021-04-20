@@ -2,7 +2,7 @@
 keywords: Overzicht en verwijzing;soorten activiteit;inleiding
 description: Leer de basisbeginselen van Adobe Target. Dit artikel introduceert u aan Doel, zijn activiteitstypes, en andere eigenschappen.
 title: Hoe gebruik ik Target?
-feature: Overzicht
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

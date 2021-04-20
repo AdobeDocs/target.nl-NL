@@ -2,7 +2,7 @@
 keywords: implementeren;implementeren;instellen;instellen;bijwerken met één profiel
 description: Gegevens naar doel ophalen met de API voor één profielupdate.
 title: Hoe krijg ik gegevens in Doel met de Single Profile Update API?
-feature: Implementatie
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

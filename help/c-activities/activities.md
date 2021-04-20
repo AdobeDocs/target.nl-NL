@@ -2,7 +2,7 @@
 keywords: activiteitenlijst;activiteiten;activiteit;activiteitstypen;activiteit bewerken;activiteit;activiteit, acties;activiteitskenmerk;activiteitlijstfilter;activiteitsbeperkingen;personaliseren;personalisatie
 description: Leer hoe u met activiteiten in Adobe Target inhoud kunt aanpassen aan specifieke doelgroepen en pagina-ontwerpen kunt testen
 title: Hoe kan ik inhoud aanpassen en pagina-ontwerpen testen met Doel?
-feature: Activiteiten
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
 source-git-commit: e0a05d024170f819a417e50938c9765327f28b49

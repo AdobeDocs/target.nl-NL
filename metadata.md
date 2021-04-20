@@ -3,11 +3,11 @@ cloud: Experience Cloud
 product: target
 solution: Target
 audience: end-user
-type: Documentatie
+type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.nl-NL
 index: true
-role: Zakelijke praktiserer
-level: Intermediair
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 3f3c0227df7700537c30a3dcd651cc802db59448
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Wat betekent het verschil in termen die in Adobe Target worden gebruikt? Vind definities van gemeenschappelijke termijnen om u te helpen meer uit Doel krijgen.
 title: Waar kan ik Termen vinden en Definities die in Doel worden gebruikt?
-feature: Overzicht
+feature: Overview
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

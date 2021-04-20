@@ -2,7 +2,7 @@
 keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;rapport;rapporten;mening rapporten;rapportering;telmethode;impressies;bezoekers;standaard metrische;activiteitconversies;niet nader gespecificeerd
 description: Vind antwoorden op vragen die vaak worden gevraagd over het bekijken van rapporten wanneer het gebruiken van Analytics voor Doel (A4T). A4T laat u Analytics rapportering voor de activiteiten van het Doel gebruiken.
 title: Antwoorden op vragen over het bekijken van Rapporten met A4T vinden?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt

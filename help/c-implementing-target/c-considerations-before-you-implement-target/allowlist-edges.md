@@ -2,8 +2,8 @@
 keywords: implementeren;implementeren;whitelist;witte lijst;lijst van gewenste personen;lijst van gewenste personen;edge;edges
 description: Bekijk een lijst van gastheren om u te helpen de randen van Adobe Target lijsten van gewenste personen (geografisch verdeelde het dienen knopen die optimale reactietijden eind - gebruikers verzekeren).
 title: Hoe Voegt op lijst van gewenste personen ik de knopen van de Rand van het Doel?
-feature: Privacy en beveiliging
-role: Ontwikkelaar
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt

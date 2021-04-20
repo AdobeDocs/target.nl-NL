@@ -2,7 +2,7 @@
 keywords: Recommendations
 description: Leer de implementatievereisten voor Analytics for Target (A4T) en wat u moet overwegen voordat u deze integratie implementeert.
 title: Wat moet ik weten voordat ik A4T implementeer?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

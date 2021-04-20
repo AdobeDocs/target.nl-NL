@@ -2,7 +2,7 @@
 keywords: implementeren;implementeren;instellen;instellen;pagina-parameters
 description: Gegevens naar doel ophalen met behulp van paginaparameters.
 title: Hoe krijg ik Gegevens in Doel gebruikend de Parameters van de Pagina?
-feature: Implementatie
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

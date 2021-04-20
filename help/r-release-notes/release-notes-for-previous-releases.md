@@ -2,7 +2,7 @@
 keywords: Opmerkingen bij de release
 description: Een lijst weergeven met functies, verbeteringen en oplossingen die zijn opgenomen in eerdere versies van Adobe Target.
 title: Welke functies zijn opgenomen in vorige releases?
-feature: Opmerkingen bij de release
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

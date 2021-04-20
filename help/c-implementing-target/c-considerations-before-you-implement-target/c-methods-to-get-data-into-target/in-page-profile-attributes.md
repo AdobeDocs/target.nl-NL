@@ -2,7 +2,7 @@
 keywords: implementeren;implementeren;instellen;instellen;pagina, parameter
 description: Gegevens naar doel ophalen met de profielkenmerken van de pagina.
 title: Hoe krijg ik gegevens in doel gebruikend de Attributen van het Profiel in-Pagina?
-feature: Implementatie
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

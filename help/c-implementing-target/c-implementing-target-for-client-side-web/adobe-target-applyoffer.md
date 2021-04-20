@@ -3,7 +3,7 @@ keywords: adobe.target.applyOffer;applyOffer;applyAanbieding;apply aanbieding;at
 description: Gebruik de functie adobe.target.applyOffer() voor de JavaScript-bibliotheek Adobe Target at.js om de inhoud van het antwoord toe te passen.
 title: Hoe gebruik ik de functie adobe.target.applyOffer()?
 feature: at.js
-role: Ontwikkelaar
+role: Developer
 translation-type: tm+mt
 source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt

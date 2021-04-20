@@ -2,7 +2,7 @@
 keywords: implementeren;implementeren;instellen;instellen;klantkenmerken
 description: Krijg gegevens in Doel gebruikend klantenattributen.
 title: Hoe krijg ik gegevens in doel gebruikend de Attributen van de Klant?
-feature: Implementatie
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

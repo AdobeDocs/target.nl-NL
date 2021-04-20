@@ -2,7 +2,7 @@
 keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;lift;ad hoc;rapport aannemer;vertrouwen
 description: Vind antwoorden op vragen over lift en vertrouwen wanneer het gebruiken van Analytics voor Doel (A4T). A4T laat u Analytics rapportering voor de activiteiten van het Doel gebruiken.
 title: Waar kan ik informatie vinden over optillen en vertrouwen met A4T?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt

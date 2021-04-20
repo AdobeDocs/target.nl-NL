@@ -2,7 +2,7 @@
 keywords: mvt;multivariate test;multivariate test creeert;multivariate test creeert;mvt creeert;mvt creeert;mvt hoe;multivariate test hoe
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om een Multivariate Test (MVT) recht op een Doel-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een multivariate test?
-feature: Meervoudige tests
+feature: Multivariate Tests
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

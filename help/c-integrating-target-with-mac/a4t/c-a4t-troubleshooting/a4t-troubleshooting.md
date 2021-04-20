@@ -2,7 +2,7 @@
 keywords: analytische traceringsserver;A4T;analytische segmenten;rapportsuites;onjuiste gegevens;zwevend;sdid;VisitorAPI.js;mboxMCSDID;phantom;niet opgegeven
 description: Ontdek de algemene problemen die klanten hebben ondervonden bij het gebruik van Analytics voor Target (A4T).
 title: Hoe los ik de Analytics en de Integratie van het Doel (A4T) problemen op
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt

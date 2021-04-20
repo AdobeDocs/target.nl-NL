@@ -2,8 +2,8 @@
 keywords: clientzorg;naam;certificaatprogramma;canonieke naam;cookies;certificaat;amc;adobe managed certificaat;digicert;domeincontroledetectie;dcv
 description: Werk met de Zorg van de Cliënt van Adobe om de steun van CNAME (Canonical Name) in Adobe Target uit te voeren om ad-blokkerende kwesties of ITP-verwante koekjesbeleid te behandelen.
 title: Hoe gebruik ik CNAME als doel?
-feature: Privacy en beveiliging
-role: Ontwikkelaar
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt

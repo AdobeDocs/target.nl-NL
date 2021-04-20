@@ -2,7 +2,7 @@
 keywords: document.write;target;Implementeren;doel implementeren;dtm;dynamisch tagbeheer;at.js;mbox.js;target.js;mbox;adobe Experience platform web skd;aep web sdk;web sdk
 description: Implementeer Adobe Target door te verwijzen naar de doelbibliotheken (at.js of mbox.js) op uw webpagina's.
 title: JavaScript-doelbibliotheken begrijpen
-feature: Implementatie
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: Analyse als bron van rapportage;a4t;A4T;vereisten
 description: Leer hoe u de vereisten voor gebruikersaccounts configureert die nodig zijn om een op Adobe Analytics gebaseerde activiteit in Adobe Target te maken met Analytics for Target (A4T).
 title: Welke Vereisten van de Toestemming van de Gebruiker voor A4T worden vereist?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5

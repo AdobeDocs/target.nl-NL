@@ -2,7 +2,7 @@
 keywords: doel implementeren;implementatie;implementatie uitvoeren op.js;tagbeheer;apparaatbeslissingen;op apparaatbeslissingen
 description: Leer hoe u de instellingen opgeeft (accountgegevens, implementatiemethoden, enz.) om de Adobe Target at.js-bibliotheek te implementeren zonder een tagbeheer te gebruiken.
 title: Kan ik Doel implementeren zonder tagbeheer?
-feature: Server-kant implementeren
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

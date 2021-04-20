@@ -2,7 +2,7 @@
 keywords: implementeren;implementeren;instellen;instellen;bulkprofielupdate
 description: Met de API voor bulkprofielupdate kunt u gegevens ophalen bij Doel.
 title: Hoe krijg ik gegevens in Doel gebruikend de BulkUpdate API van het Profiel?
-feature: Implementatie
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

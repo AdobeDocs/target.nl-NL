@@ -2,7 +2,7 @@
 keywords: A4T;Adobe Analytics;Analytics-gebaseerde activiteit;Analytics-rapportreeks;rapportsuite;Analytics Target-integratie;configure rapportsuite
 description: Voer de vereiste stappen uit om Analytics for Target (A4T) te implementeren in uw Adobe Target- en Adobe Analytics-oplossingen.
 title: Hoe implementeer ik Analytics voor Doel (A4T)?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
 description: Leer hoe Adobe Target werkt, inclusief informatie over de JavaScript-doelbibliotheken (at.js en AEP Web SDK), Adobe-datacenters en SEO-tests.
 title: Hoe werkt het doel?
-feature: Overzicht
+feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

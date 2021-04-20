@@ -2,8 +2,8 @@
 keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
 description: Leer hoe te om reactietokens in de output van Adobe Target specifieke informatie te gebruiken in het zuiveren en het integreren met derdesystemen (zoals Clicktale).
 title: Wat zijn reactietokens en hoe gebruik ik deze?
-feature: Beheer en configuratie
-role: Beheerder
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

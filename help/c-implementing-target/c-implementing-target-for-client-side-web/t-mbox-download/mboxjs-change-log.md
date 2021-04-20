@@ -3,7 +3,7 @@ keywords: mbox.js verandert;mbox.js versies
 description: Meer informatie over de oudere mbox.js-implementatie van Adobe Target. Migreer naar de Adobe Experience Platform Web SDK (AEP Web SDK) of naar de nieuwste versie van at.js.
 title: Wat is inbegrepen in Elke Versie van mbox.js?
 feature: at.js
-role: Ontwikkelaar
+role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
 source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8

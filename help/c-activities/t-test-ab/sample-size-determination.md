@@ -2,7 +2,7 @@
 keywords: AB;A/B;AB..n;voorbeeldgrootte;voorbeeldgroottecalculator;automatisch toewijzen;automatisch toewijzen;calculator
 description: Leer hoe lang een A/B test moet lopen. Voor een geslaagde A/B-test in Adobe Target hebben voldoende bezoekers (voorbeeldgrootte) nodig om de conversiesnelheid te verbeteren.
 title: Hoe lang moet ik een A/B test uitvoeren?
-feature: A/B-tests
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt

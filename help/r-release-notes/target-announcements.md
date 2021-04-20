@@ -2,7 +2,7 @@
 keywords: aankondigingen;vaardigheid bouwen;ontwikkelaarspraatje;koffieonderbreking;gebeurtenissen;forrester;gartner;webinar
 description: Lees aankondigingen en meld u aan voor Adobe Target-gebeurtenissen, waaronder Skill Builder-sessies, chats voor ontwikkelaars en productmanagers, webinars en meer.
 title: Waar kan ik doelaankondigingen en gebeurtenissen vinden?
-feature: Opmerkingen bij de release
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

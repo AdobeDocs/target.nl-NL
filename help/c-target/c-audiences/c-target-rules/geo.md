@@ -2,7 +2,7 @@
 keywords: doel;a4t;geo;geotargeting;geotargeting nauwkeurigheid;land;land;land;plaats;zip-code;dma;mobiele carrier-codes;regio-codes;landcodes;metro-codes;profielscripts;geotargeting profielscripts;geotargeting mobile
 description: Leer hoe u een Adobe Target-publiek kunt maken voor gebruikers op basis van hun geografische locatie, zoals hun land, plaats, postcode of postcode.
 title: Kan ik locatie voor bezoekers als doel instellen?
-feature: Soorten publiek
+feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68

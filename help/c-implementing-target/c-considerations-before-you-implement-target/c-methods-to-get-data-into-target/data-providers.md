@@ -2,7 +2,7 @@
 keywords: implementeren;implementeren;instellen;instellen;gegevensproviders
 description: Krijg gegevens in Doel gebruikend gegevensleveranciers.
 title: Hoe krijg ik gegevens in doel gebruikend de Leveranciers van Gegevens?
-feature: Implementatie
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

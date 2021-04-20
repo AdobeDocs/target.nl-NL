@@ -2,7 +2,7 @@
 keywords: a4t;A4T;Analyse als bron voor rapportage voor Target
 description: Leer hoe u een activiteit configureert in Adobe Target die Adobe Analytics als rapportagebron (A4T) gebruikt.
 title: Hoe maak ik een activiteit die A4T gebruikt?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
 source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: bekende problemen;opgeloste problemen;releaseopmerkingen;fouten;problemen;oplossingen
 description: Meer informatie over bekende problemen in Adobe Target, waaronder informatie over tijdelijke oplossingen. Wanneer problemen zijn opgelost, worden ze verplaatst naar de sectie Opgelost.
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
-feature: Opmerkingen bij de release
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
