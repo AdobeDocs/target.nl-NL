@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;Analytics-gebaseerde activiteit;Analytics-rapportreeks;rapportsuite;Analytics Target-integratie;configure rapportsuite
-description: Voer de vereiste stappen uit om Analytics for Target (A4T) te implementeren in uw Adobe Target- en Adobe Analytics-oplossingen.
-title: Hoe implementeer ik Analytics voor Doel (A4T)?
-feature: Analytics for Target (A4T)
+description: Voer de stappen uit die nodig zijn voor het implementeren van Analytics voor [!DNL Target] (A4T) in your Adobe [!DNL Target] en Adobe Analytics-oplossingen.
+title: Hoe implementeer ik Analytics voor [!DNL Target] (A4T)?
+feature: Analyses voor doel (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
-
-# Analyses voor doelimplementatie{#analytics-for-target-implementation}
+# Analyses voor implementatie [!DNL Target]
 
 Bij de implementatie van [!DNL Adobe Analytics] als rapportagebron voor [!DNL Adobe Target] (A4T) zijn verschillende stappen vereist.
 
@@ -168,4 +168,3 @@ Klik in [!DNL Target] op **[!UICONTROL Administration > Visual Experience Compos
 
 * **[!UICONTROL Select per activity]** Hiermee kunt u kiezen tussen  [!DNL Target] en  [!DNL Analytics] bij het maken van elke activiteit.
 * **[!UICONTROL Adobe Analytics]** Hiermee stelt u  [!DNL Analytics] de rapportbron in voor alle activiteiten die u maakt.
-
