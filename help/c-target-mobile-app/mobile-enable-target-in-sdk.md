@@ -1,19 +1,19 @@
 ---
 keywords: mobiele app;mobiele app sdk;doel mobiele app;mobiele doel sdk;mobiele app sdk;doel inschakelen in sdk
 description: Leer hoe u de Adobe Mobile Services SDK toevoegt aan uw mobiele app.
-title: Hoe laat ik Doel in de Adobe Mobile SDK toe?
-feature: Implement Mobile
+title: Hoe laat ik [!DNL Target] in de Adobe Mobile SDK toe?
+feature: Mobiel implementeren
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-
-# Doel inschakelen in de SDK{#enable-target-in-the-sdk}
+# [!DNL Target] inschakelen in de SDK
 
 Voeg de SDK van Adobe Mobile Services toe aan uw app.
 
@@ -27,7 +27,7 @@ Voeg de SDK van Adobe Mobile Services toe aan uw app.
 
    Open Mobiele services in de Experience Cloud en ga vervolgens naar **[!UICONTROL Manage App Settings]** > **[!UICONTROL SDK Target Options]**.
 
-   Voeg uw clientcode van het Doel en onderbreking toe. De clientcode is uniek voor uw account of bedrijf. De onderbreking is de tijd in aantal seconden tot welk Doel op een reactie zal wachten alvorens de standaardinhoud te tonen. Controleer of de optie **[!UICONTROL Use HTTPS]** is ingeschakeld op de pagina Toepassingsinstellingen beheren in Adobe Mobile Services. Als HTTPS niet wordt toegelaten, zullen alle vraag in iOS9+ worden geblokkeerd tenzij u de server van het Doel toe_voegt op lijst van gewenste personen.
+   Voeg uw clientcode van het Doel en onderbreking toe. De clientcode is uniek voor uw account of bedrijf. De onderbreking is de tijd in aantal seconden tot welk Doel op een reactie zal wachten alvorens de standaardinhoud te tonen. Controleer of de optie **[!UICONTROL Use HTTPS]** is ingeschakeld op de pagina Toepassingsinstellingen beheren in Adobe Mobile Services. Als HTTPS niet wordt toegelaten, zullen alle vraag in iOS9+ worden geblokkeerd tenzij u de server van het Doel voegt op lijst van gewenste personen.
 
    ![](assets/mobile-clientcode.png)
 
@@ -38,4 +38,3 @@ Voeg de SDK van Adobe Mobile Services toe aan uw app.
 >[!IMPORTANT]
 >
 > Als u geen toegang hebt tot de mobiele marketinginterface, kunt u wijzigingen rechtstreeks doorvoeren in het configuratiebestand in uw toepassingscode. deze pagina is echter niet synchroon met de instellingenpagina in de gebruikersinterface.
-
