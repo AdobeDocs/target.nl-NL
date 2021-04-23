@@ -1,19 +1,19 @@
 ---
 keywords: at.js integratie;ondersteunde integratie;niet-ondersteunde integratie;integratie van derden
-description: Zie de integratie die wordt ondersteund (en niet wordt ondersteund) door Adobe Target at.js, inclusief Analytics for Target (A4T), de Experience Cloud ID Service en meer.
+description: Zie de integratie die door Adobe [!DNL Target] at.js, including Analytics for [!DNL Target]  (A4T), de Dienst van Experience Cloud identiteitskaart, en meer wordt gesteund.
 title: Welke integraties worden door at.js ondersteund?
 feature: at.js
 role: Developer
+exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
-
-# at.js integrations{#at-js-integrations}
+# at.js-integratie
 
 Informatie over gemeenschappelijke integratie met [!DNL Target] en hun steunstatus met at.js.
 
