@@ -1,16 +1,16 @@
 ---
 keywords: meerdere pagina's;reistesten;meerdere pagina's tegelijk
-description: In deze video leert u hoe u een activiteit met meerdere pagina's maakt in Adobe Target, kunt u een artikel maken over meerdere pagina's, met een ontwerp dat specifiek is voor elke pagina.
+description: Leer hoe u een activiteit met meerdere pagina's maakt in Adobe [!DNL Target] laat u een artikel maken over meerdere pagina's, met een ontwerp dat specifiek is voor elke pagina.
 title: Hoe maak ik een activiteit met meerdere pagina's?
 feature: Visual Experience Composer (VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # Meerdere pagina&#39;s
 
@@ -46,4 +46,3 @@ Pagina&#39;s toevoegen aan een test:
    In dit menu kunt u de naam van de pagina&#39;s wijzigen, een omleidingstest uitvoeren vanuit de activiteit met meerdere pagina&#39;s of de pagina verwijderen.
 
 1. Gebruik de Visuele Composer van de Ervaring om de manier te ontwerpen de aanbieding op elke pagina kijkt.
-
