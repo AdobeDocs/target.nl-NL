@@ -2,15 +2,15 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst purchase mbox;top selling;top-seller
 description: Zoek naar suggesties om problemen op te lossen als de pagina de verwachte inhoud niet weergeeft. Leer hoe u fouten kunt opsporen in de levering van inhoud in Adobe Target.
 title: Hoe kan ik problemen met de levering van inhoud oplossen?
-feature: Activities
+feature: Activiteiten
+exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
-
 
 # Problemen met de levering van inhoud oplossen
 
@@ -173,7 +173,7 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Standaarddoelfoutopsporing ![Zelfstudie-badge](/help/assets/tutorial.png)
+### Standaard Adobe Target-foutopsporing ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
