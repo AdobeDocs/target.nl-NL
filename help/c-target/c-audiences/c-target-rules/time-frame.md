@@ -1,18 +1,18 @@
 ---
 keywords: tijdframe;begindatum;einddatum;begin/einddatum;tijdframe;doelschema;week parteren;dag parteren;parkeren
 description: Leer hoe u begin- en einddatums en -tijden kunt gebruiken voor gebruikers die uw site gedurende een bepaald tijdsbestek bezoeken. U kunt ook de opties voor Week- en Dagscheiding instellen.
-title: Kan ik mij richten op bezoekers die mijn site op specifieke tijdstippen bezoeken?
-feature: Audiences
+title: 'Kan ik mijn website op specifieke tijdstippen bezoeken? [!DNL Target] '
+feature: Soorten publiek
+exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-
-# Tijdkader{#time-frame}
+# Tijdschema
 
 U kunt begin- en einddatums en -tijden toevoegen aan doelgebruikers die uw site gedurende een bepaald tijdsbestek bezoeken. U kunt ook de opties voor Week- en Dagscheiding instellen om herhalende patronen te maken voor doelgroepen.
 
