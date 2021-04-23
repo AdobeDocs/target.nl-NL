@@ -1,16 +1,16 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Kies voor Adobe Target om uw programma voor optimalisatie en personalisatie te starten. De Adobe Target Welcome Kit is een goede startplaats.
+description: Kies voor Adobe Target om uw programma voor optimalisatie en personalisatie te starten. De Adobe [!DNL Target] Welkomstkit is een goede startplaats.
 title: Hoe ga ik aan de slag met Target?
-feature: Overview
+feature: Overzicht
+exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdstuk 1: Inleiding
 
@@ -29,4 +29,3 @@ Als u deze welkomstkit opnieuw bekijkt, hebt u al besloten uw optimalisatie- en 
 Nu willen we ervoor zorgen dat je het meteen op de juiste manier gaat gebruiken.
 
 Om u daarbij te helpen, hebben we deze welkomstkit gemaakt met belangrijke informatie, gereedschappen en bronnen die u helpen bij de voorbereiding en start van uw eerste [!DNL Target]-activiteit. Op lange termijn vormen deze inhoud ook de basis voor het bouwen van een succesvol optimalisatie- en personalisatieprogramma.
-
