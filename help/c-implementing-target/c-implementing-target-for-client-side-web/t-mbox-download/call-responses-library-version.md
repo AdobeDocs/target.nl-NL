@@ -5,14 +5,14 @@ feature: at.js
 role: Developer
 exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Methoden voor doelpagina&#39;s op versie van de bibliotheek mbox.js{#target-page-methods-by-mbox-js-library-version}
+# Methoden voor doelpagina&#39;s door bibliotheekversie mbox.js
 
 De manier waarop Doel maakt en reageert op aanroepen vanuit uw pagina is afhankelijk van de versie van de doelbibliotheek die u gebruikt, of de Experience Cloud Visitor ID-implementatie aanwezig is en of de bezoeker-id bestaat.
 
