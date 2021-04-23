@@ -1,13 +1,13 @@
 ---
 keywords: autotarget;het richten;verkeerstoewijzing;vraag vaak;faq;het oplossen van problemen;het oplossen van problemen
-description: Leer hoe een auto-Doelactiviteit in Doel de meest op maat gemaakte ervaring aan elke bezoeker op klantenprofielen en het gedrag van gelijkaardige bezoekers dient.
+description: Leer hoe een auto-Doelactiviteit in [!DNL Target] de meest op maat gemaakte ervaring aan elke bezoeker op klantenprofielen en het gedrag van gelijkaardige bezoekers wordt gebaseerd.
 title: Wat is een automatisch doelactiviteit?
-feature: Auto-Target
+feature: Automatisch doel
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1927'
 ht-degree: 0%
 
 ---
