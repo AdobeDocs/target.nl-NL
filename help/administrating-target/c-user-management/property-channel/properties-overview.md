@@ -2,18 +2,18 @@
 keywords: toevoegen gebruiker;project;gebruikersgroep;eigenschappen;werkruimte;beheren eigenschap;eigenschap;at_eigenschap;rollen;machtigingen
 description: Leer hoe u gebruikers aan Adobe Target kunt toevoegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de implementatie bij te werken; en geef rollen en machtigingen op.
 title: Hoe kan ik bedrijfsmachtigingen configureren?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMConfigureren bedrijfsmachtigingen{#configure-enterprise-permissions}
+# ![](/help/assets/premium.png) PREMIUMConfigureren bedrijfsmachtigingen
 
 Informatie over de taken die worden vereist om gebruikers aan uw [!DNL Target] implementatie toe te voegen; creëren werkruimten, gebruikersgroepen, en eigenschappen; uw [!DNL Target]-implementatie bijwerken en de `at_property`-parameter opnemen; en geef rollen en machtigingen op.
 
@@ -206,7 +206,7 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 >
 >De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video&#39;s is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
 
-### Hoe te om de Werkruimten van het Doel (6:55) ![badge van het Leerprogramma](/help/assets/tutorial.png) te vormen
+### Adobe Target Workspaces configureren (6:55) ![Zelfstudie badge](/help/assets/tutorial.png)
 
 In deze video wordt uitgelegd hoe u werkruimten kunt maken.
 
