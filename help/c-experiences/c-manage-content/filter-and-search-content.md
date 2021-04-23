@@ -1,16 +1,16 @@
 ---
 keywords: inhoudsbibliotheek;elementen;zoeken;filter
-description: Leer hoe u naar code- en afbeeldingsaanbiedingen in de Adobe Target Offers-bibliotheek kunt zoeken.
+description: Leer hoe u naar code- en afbeeldingsaanbiedingen in de Adobe [!DNL Target] Biedt-bibliotheek kunt zoeken.
 title: Hoe zoek ik naar inhoud in de bibliotheek met aanbiedingen?
-feature: Experiences and Offers
+feature: Ervaringen en aanbiedingen
+exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud zoeken
 
