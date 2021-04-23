@@ -1,17 +1,17 @@
 ---
 keywords: browsers;Eerste vereisten;Eisen;Internet Explorer;chroom;Firefox;safari;android;oppervlak
-description: Leer welke internetbrowsers Adobe Target ondersteunt voor zijn interface en voor het leveren van inhoud.
-title: Welke browsers worden ondersteund?
-feature: Implementation
+description: Leer welke Internet browsers Adobe [!DNL Target] voor zijn interface en voor inhoudslevering steunt.
+title: Welke browsers [!DNL Target] steunen?
+feature: Implementatie
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Ondersteunde browsers
 
