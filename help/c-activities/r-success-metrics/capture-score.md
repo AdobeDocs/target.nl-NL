@@ -1,16 +1,16 @@
 ---
 keywords: vastlegscore;score
-description: Leer meer over de betrokkenheidsmetrische gegevens voor de opnamescore in Adobe Target die een geaggregeerde score berekent op basis van de waarde die is toegewezen aan de pagina's die op de site zijn bezocht.
+description: Leer over de metrisch met de betrokkenheid van de Score van de Vangst in Adobe [!DNL Target] die een bijeengevoegde score berekent op basis van de waarde die aan pagina's wordt toegewezen die op de plaats worden bezocht.
 title: Wat is de metrische score van de Score van de Vangst?
-feature: Success Metrics
+feature: Succeswaarden
+exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
-
 
 # Muziek vastleggen
 
