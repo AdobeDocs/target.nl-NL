@@ -2,15 +2,15 @@
 keywords: het doel van problemen oplossen;het oplossen van problemendoel
 description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe Target, met inbegrip van het oplossen van problemenonderwerpen, vaak gestelde vragen (FAQs), en andere nuttige onderwerpen oplossen.
 title: Hoe los ik Doel problemen op?
-feature: Troubleshooting
+feature: Problemen oplossen
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
 
 ---
-
 
 # Doel oplossen
 
@@ -56,7 +56,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 * [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analyse en doelintegratie (A4T)
+## Analyses en integratie [!DNL Target] (A4T)
 
 * [Analyse van problemen en doelintegratie](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [Adobe Analytics als de rapportbron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
