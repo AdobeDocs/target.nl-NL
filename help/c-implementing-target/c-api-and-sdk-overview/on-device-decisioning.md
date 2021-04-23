@@ -1,17 +1,17 @@
 ---
 keywords: serverzijde;serverzijde;sdk;sdks;op apparaat;besluitvorming;op apparaat;op apparaat;nul latentie;latentie;dichtbij-nul;node.js
-description: Leer hoe te om op-apparatenbesluit te gebruiken om uw doelactiviteiten A/B en MVT op uw server in het voorgeheugen op te slaan om in-geheugenbesluit bij bijna-nul latentie uit te voeren.
+description: Leer hoe te om op-apparaat besluitvorming te gebruiken om uw  [!DNL Target] A/B en activiteiten MVT op uw server in het voorgeheugen op te slaan om in-geheugenbesluit bij bijna-nul latentie uit te voeren.
 title: Wat is een apparaatbeslissing?
-feature: Implement Server-side
+feature: Server-kant implementeren
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # Apparaatbeslissingen
 
