@@ -1,19 +1,19 @@
 ---
 keywords: Implementatie;mbox.js niet javascript;adbox;redirector;mbox
-description: Leer hoe u Adobe Target implementeert in andere scenario's dan JavaScript, zoals het gebruik van een AdBox of Redirector.
-title: Hoe implementeer ik Doel voor e-mail?
-feature: Implement Email
+description: Leer hoe te om Adobe [!DNL Target] in scenario's uit te voeren niet-JavaScript, zoals het gebruiken van een AdBox of Redirector.
+title: Hoe implementeer ik  [!DNL Target] voor e-mail?
+feature: E-mail implementeren
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-
-# E-mail: Doel implementeren{#email-implement-target}
+# E-mail: Doel implementeren
 
 Informatie over het implementeren van Doel in niet-JavaScript-scenario&#39;s, zoals het gebruik van een AdBox of Redirector.
 
@@ -36,6 +36,6 @@ Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kun
 
 * Er is geen time-out aan de clientzijde, zoals bij standaardvakken. Als Doel volledig omlaag is, zien bezoekers van de advertentie de inhoud niet, zelfs niet standaard.
 * Cookies van derden worden gebruikt om de bezoeken bij te houden. Als de PCIds verschillend zijn, door gebrek wordt de derde partij van de bezoeker samengevoegd met om het even welke bestaande 1st-partijprofielen.
-* Als u cookies van één partij wilt gebruiken in de AdBox zelf, moet u de mBox-sessie doorgeven in de URL. Bespreek dit met uw accountvertegenwoordiger.
+* Als u cookies van de eerste partij op de AdBox zelf wilt gebruiken, moet u de mBox-sessie in de URL doorgeven. Bespreek dit met uw accountvertegenwoordiger.
 * Als u cookies van de eerste partij wilt gebruiken om cookies bij te houden en te klikken, geeft u de box-sessie door in de URL. Bespreek dit met uw accountvertegenwoordiger.
 * Als u meerdere AdBox op dezelfde pagina wilt gebruiken, moet u de Mbox-sessie doorgeven in de URL. Bespreek dit met uw accountvertegenwoordiger. U hebt mogelijk één AdBox en één Redirector-koppeling op dezelfde pagina (omdat Redirector zich op een tweede pagina bevindt).
