@@ -2,16 +2,16 @@
 keywords: tekenlimiet;mbox-parameters;batch-levering api;profielparameters;limieten;ingebouwde profielen;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;problemen oplossen
 description: Een lijst weergeven met tekenlimieten en andere limieten (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
 title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Target?
-feature: Troubleshooting
+feature: Problemen oplossen
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
-
 
 # Limieten
 
@@ -216,7 +216,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 ## productPurchasedId, parameter
 
-* **Limiet**: 47 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 47 tekens kunnen door het systeem worden afgekapt. Totale lengten boven 250 tekens kunnen resulteren in een fout van 400.
+* **Limiet**: 47 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 47 tekens kunnen door het systeem worden afgebroken. Totale lengten boven 250 tekens kunnen resulteren in een fout van 400.
 
 ## Profielscripts
 
@@ -234,7 +234,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 * **Limiet**: 50 verslaggevingspubliek/segmenten per activiteit.
 
-## Het de profielinputvakje van het manuscript in Doel UI
+## Invoervak voor scriptprofiel in de gebruikersinterface [!DNL Target]
 
 * **Aanbevolen limiet**: 2000 tekens.
 
@@ -273,4 +273,3 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 * **Aanbevolen limiet**: 2.500 tekens per doelregelwaarde.
 * **Aanbevolen limiet**: 30.000 unieke waarden per publiek over het richten van regels.
 * **Aanbevolen limiet**: 100.000 unieke waarden voor richtingsregels per activiteit.
-
