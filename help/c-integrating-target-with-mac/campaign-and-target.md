@@ -1,18 +1,18 @@
 ---
 keywords: Overzicht en referentie
-description: Leer hoe u Adobe Target met Adobe Campaign kunt gebruiken om e-mailinhoud te optimaliseren.
-title: Hoe integreer ik Doel met Adobe Campaign?
-feature: Integrations
+description: Leer hoe u Adobe [!DNL Target] met Adobe Campaign kunt gebruiken om e-mailinhoud te optimaliseren.
+title: Hoe integreer ik [!DNL Target] met Adobe Campaign?
+feature: Integraties
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 
-
-# Doel integreren met Adobe Campaign{#integrate-target-with-adobe-campaign}
+# [!DNL Target] integreren met Adobe Campaign
 
 Gebruik [!DNL Target] met [!DNL Adobe Campaign] om e-mailinhoud te optimaliseren.
 
@@ -39,7 +39,7 @@ Er zijn verschillende beperkingen:
    * De rawbox en de ervaring in [!DNL Target]
    >[!NOTE]
    >
-   >Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidskennisgeving onder [creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden](/help/administrating-target/hosts.md#allowlist).
+   >Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidsmededeling onder [creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden](/help/administrating-target/hosts.md#allowlist).
 
    * De levering in [!DNL Campaign]
 
@@ -58,7 +58,7 @@ Voordat u [!DNL Adobe Campaign] gebruikt om uw beoogde e-mailaanbiedingen in te 
 
 Start de activiteit in [!DNL Target] voordat u het [!DNL Campaign]-gedeelte van de integratie instelt.
 
-## Een doelaanbieding opnemen in een Adobe Campaign-e-mail {#section_B201BBE27A704E18AF0D553F35695837}
+## Een [!DNL Target]-aanbieding opnemen in een Adobe Campaign-e-mail {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Maak een e-mailbericht in [!DNL Adobe Campaign].
 1. Klik in de e-maileigenschappen op **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**.
