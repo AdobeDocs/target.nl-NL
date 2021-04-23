@@ -3,16 +3,16 @@ keywords: Recommendations;instellingen;voorkeuren;industrie verticaal;filter inc
 description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Target. Zorg ervoor dat uw implementatie voldoet aan de vereiste vereisten. '
 title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
 
-
-# ![recommendations ](/help/assets/premium.png) PREMIUMPlan en implementeren  {#plan-and-implement-recommendations}
+# ![Recommendations ](/help/assets/premium.png) PREMIUMPlan en implementeren
 
 Wat je moet weten voordat je een Recommendations-activiteit maakt.
 
