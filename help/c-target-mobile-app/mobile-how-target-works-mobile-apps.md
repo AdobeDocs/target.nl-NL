@@ -1,18 +1,18 @@
 ---
 description: Leer hoe u de Adobe Mobile SDK kunt gebruiken om de beste ervaringen te laten zien aan uw mobiele app-bezoekers.
-title: Hoe werkt het doel in mobiele apps?
-feature: Implement Mobile
+title: Hoe werkt [!DNL Target] in mobiele apps?
+feature: Mobiel implementeren
 role: Developer
+exl-id: 1a5f34dc-932d-47c7-b730-6d1658343fb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
-
-# Hoe werkt Doel in mobiele apps{#how-target-works-in-mobile-apps}
+# Hoe werkt [!DNL Target] in mobiele apps
 
 De mobiele SDK van Adobe neemt contact op met de doelserver om de inhoud samen met andere gegevenspunten op te halen en de gebruiker de juiste ervaring te laten zien.
 
@@ -33,4 +33,3 @@ Een *[succesmetrische](/help/c-activities/r-success-metrics/success-metrics.md#r
 **Begrijp hoe het Doel in SDK werkt**
 
 ![](assets/how-target-mobile-works.png)
-
