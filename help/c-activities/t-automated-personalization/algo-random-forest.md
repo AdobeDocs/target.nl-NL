@@ -1,16 +1,16 @@
 ---
 keywords: willekeurig bos;beslissingsboom;ap;Automated Personalization
-description: Leer hoe Adobe Target het Random Forest-algoritme gebruikt in zowel Automated Personalization (AP) als Auto-Target-activiteiten.
-title: Hoe gebruikt het doel het Random Forest Algorithm?
+description: Leer hoe Adobe [!DNL Target] het Willekeurige Bosalgoritme in zowel Automated Personalization (AP) als Auto-Doelactiviteiten gebruikt.
+title: Hoe gebruikt  [!DNL Target] het Willekeurige Bosalgoritme?
 feature: Automated Personalization
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMRandom Forest-algoritme
 
