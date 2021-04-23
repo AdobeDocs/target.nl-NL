@@ -2,17 +2,17 @@
 keywords: Meervoudige tests;activiteit-URL
 description: Leer hoe te om Activiteit URL te specificeren die de pagina bepaalt die in de test wordt gebruikt en die opent wanneer de Multivariate activiteit van de Test gebruikend Adobe Target wordt ontworpen.
 title: Wat is de activiteit URL in een Multivariate (MVT) activiteit?
-feature: Multivariate Tests
+feature: Meervoudige tests
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-
-# Activiteit-URL{#activity-url}
+# URL van activiteit
 
 De activiteit URL bepaalt de pagina die in [!UICONTROL Multivariate Test] (MVT) wordt gebruikt, en die opent wanneer de test in [!DNL Adobe Target] wordt ontworpen.
 
@@ -39,7 +39,7 @@ De extra regels kunnen op om het even welke volgend worden gebaseerd:
 * Query
 * Parameter
 
-De extra regels kunnen met EN of OF aan de Activiteit URL worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
+De extra regels kunnen tot aan de Activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
 
 Klik **[!UICONTROL Save]** wanneer u klaar bent.
 
