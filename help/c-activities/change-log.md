@@ -1,16 +1,16 @@
 ---
 keywords: logboek voor wijziging van activiteit;logboek wijzigen
-description: Open het Wijzigingslogboek van een activiteit in Adobe Target om een record te bekijken van wie uw activiteiten heeft gewijzigd en wanneer de wijzigingen zich hebben voorgedaan.
+description: Open het veranderingslogin van een activiteit Adobe [!DNL Target] om een verslag van te bekijken van wie uw activiteiten veranderde en wanneer de veranderingen voorkwamen.
 title: Hoe kan ik een activiteitenveranderingslogboek zien?
-feature: Activities
+feature: Activiteiten
+exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
 
 ---
-
 
 # Logboek voor wijziging van de activiteit
 
