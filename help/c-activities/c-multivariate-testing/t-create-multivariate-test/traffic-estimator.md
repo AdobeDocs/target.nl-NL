@@ -1,16 +1,16 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Leer hoe te om de schatter van het Verkeer te gebruiken die u laat weten of hebt u voldoende verkeer voor uw Adobe Target Multivariate activiteit van de Test om succesvol te zijn.
+description: Leer hoe te om de schatter van het Verkeer te gebruiken die u laat weten of hebt u voldoende verkeer voor uw Adobe [!DNL Target] Multivariate activiteit van de Test om te slagen.
 title: Hoeveel verkeer wordt vereist voor een Multivariate Test (MVT) activiteit?
-feature: Multivariate Tests
+feature: Meervoudige tests
+exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
-
 
 # Schatting van het verkeer dat nodig is voor een geslaagde test
 
@@ -61,4 +61,3 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
    Pas de aantallen aan tot de schatter van het Verkeer zegt u voldoende verkeer hebt, dan ontwerp dienovereenkomstig uw test.
 
    ![](assets/estimatorok.png)
-
