@@ -1,18 +1,18 @@
 ---
 keywords: doelgebruikersinterface;gebruikersinterface;ui
 description: Verken uzelf met de gebruikersinterface en zoek naar koppelingen naar meer gedetailleerde informatie om u te helpen het beste uit Target te halen.
-title: Hoe gebruik ik de doelinterface?
-feature: Overview
+title: Hoe gebruik ik  [!DNL Target] UI?
+feature: Overzicht
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
 
-
-# De interface van het doel begrijpen
+# De interface [!DNL Target] begrijpen
 
 De gebruikersinterface wordt gerangschikt in een logisch en gebruikersvriendelijk formaat om u te helpen het beste uit [!DNL Adobe Target] krijgen. Het volgende korte overzicht zal u helpen vertrouwd worden gemaakt met [!DNL Target] en verstrekt verbindingen voor meer diepgaande informatie en geleidelijke instructies.
 
