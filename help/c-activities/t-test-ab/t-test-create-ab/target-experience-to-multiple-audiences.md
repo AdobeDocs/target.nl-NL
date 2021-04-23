@@ -1,16 +1,16 @@
 ---
 keywords: meerdere soorten publiek;ervaringsversies;doelervaringsversies
-description: Leer hoe u versies van dezelfde ervaring kunt richten op verschillende soorten publiek in Adobe Target A/B-activiteiten.
+description: Leer hoe te om versies van de zelfde ervaring aan verschillende publiek in Adobe [!DNL Target] A/B activiteiten te richten.
 title: Kan ik de Veelvoudige Versies van de Ervaring in A/B activiteit gebruiken?
-feature: A/B Tests
+feature: A/B-tests
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
-
 
 # Meerdere ervaringsdoelgroepen in een A/B-test
 
@@ -53,4 +53,3 @@ In dit geval, wat u nodig hebt zijn geo-specifieke versies van de ervaring, zoda
 * Kies een publiek dat elkaar uitsluitt. Als de activiteit in VEC werd gecreeerd, als een bezoeker meer dan één publiek aanpast, is de inhoud voor elk publiek teruggekeerd, met de inhoud voor het publiek dat voor het laatst op de pagina wordt vermeld.
 * Het in het diagram gedefinieerde publiek voor activiteit en toegang wordt gecombineerd met het ervaringspubliek met behulp van een AND-voorwaarde. Om de activiteit binnen te gaan, moet een bezoeker voor het activiteitenpubliek, en één van de ervaringspubliek in aanmerking komen.
 * Voeg hetzelfde publiek toe als segmenten voor rapporten. Hierdoor kunt u de testresultaten bekijken op het hoge niveau van ervaring A versus B, en op het lagere niveau van ervaring A versus B voor enkel &quot;browser lang ja_JP.&quot; Dit werkt slechts voor op doel-gebaseerde rapporten, niet op Analytics-Gebaseerde rapporten.
-
