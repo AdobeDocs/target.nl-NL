@@ -1,18 +1,18 @@
 ---
 keywords: aangepaste parameters;aangepaste doelparameters;doelparameters;doelparameters;doelframes;doelframes opgeven, parameters
-description: Leer hoe u aangepaste parameters aan Adobe Target kunt doorgeven voor gebruik bij het publiek.
-title: Kan ik bezoekers richten die op de Parameters van de Douane worden gebaseerd?
-feature: Audiences
+description: Leer hoe u aangepaste parameters aan Adobe [!DNL Target] kunt doorgeven voor gebruik bij het publiek.
+title: Kan I [!DNL Target] Bezoekers gebaseerd op de Parameters van de Douane?
+feature: Soorten publiek
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-
-# Aangepaste parameters{#custom-parameters}
+# Aangepaste parameters
 
 Aangepaste parameters zijn parameters mbox. Als u om het even welke mbox parameters tot dozen, of de targetPageParams functie doorgeeft, verschijnen die parameters hier voor gebruik in publiek.
 
