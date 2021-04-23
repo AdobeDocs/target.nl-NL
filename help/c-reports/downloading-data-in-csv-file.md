@@ -1,18 +1,18 @@
 ---
 keywords: rapporten;downloadrapporten;csv;succesmetriek;orderdetails
-description: Leer hoe u gegevens uit Adobe Target-activiteiten kunt downloaden in CVS-indeling voor snelle import naar Excel, Access of andere programma's voor gegevensanalyse.
+description: Leer hoe te om gegevens van Adobe [!DNL Target] activiteiten in een formaat CVS voor snelle invoer in Excel, Toegang, of andere programma's van de gegevensanalyse te downloaden.
 title: Hoe kan ik rapportgegevens in een CSV-bestand downloaden?
-feature: Reports
+feature: Rapporten
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-
-# Gegevens downloaden in een CSV-bestand{#downloading-data-in-a-csv-file}
+# Gegevens downloaden in een CSV-bestand
 
 Download gegevens in de CSV-indeling, zodat u deze snel kunt importeren in Excel, Access of andere programma&#39;s voor gegevensanalyse.
 
