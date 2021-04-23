@@ -1,16 +1,16 @@
 ---
 keywords: sjabloon testen;sjabloon;zelfde ervaring op vergelijkbare pagina's;sjabloontest
-description: Leer hoe te om Adobe Target Visual Experience Composer (VEC) te gebruiken om de zelfde ervaring op veelvoudige pagina's te omvatten die op gelijkaardige wijze gestructureerd zijn of de zelfde malplaatjeelementen bevatten.
+description: Leer hoe te om Adobe [!DNL Target] Visual Experience Composer (VEC) te gebruiken om de zelfde ervaring op veelvoudige pagina's te omvatten die op gelijkaardige wijze gestructureerd zijn of de zelfde malplaatjeelementen bevatten.
 title: Kan ik dezelfde ervaring opnemen op vergelijkbare pagina's?
-feature: Experiences and Offers
+feature: Ervaringen en aanbiedingen
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
-
 
 # Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s
 
