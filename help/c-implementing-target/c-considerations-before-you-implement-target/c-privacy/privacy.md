@@ -1,17 +1,17 @@
 ---
 keywords: privacy;ip adres;geosegmentation;opt out;optout;opt-out;gegevensprivacy;overheidsverordeningen;gdpr;ccpa
-description: Leer hoe Adobe Target zich aan de toepasselijke wetten van de gegevensprivacy met inbegrip van inzameling en behandeling van IP adressen, en opt-out instructies houdt.
-title: Hoe behandelt het doel de kwesties van de Privacy?
-feature: Privacy & Security
+description: Leer hoe Adobe [!DNL Target] aan de toepasselijke wetten van de gegevensprivacy met inbegrip van inzameling en behandeling van IP adressen, en opt-out instructies voldoet.
+title: Hoe behandelt  [!DNL Target] Privacy kwesties?
+feature: Privacy en beveiliging
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
-
 
 # Privacy
 
