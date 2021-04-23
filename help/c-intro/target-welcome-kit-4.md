@@ -1,16 +1,16 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Lees tips van ons panel van experts over het gebruik van Adobe Target als onderdeel van uw test- en personaliseringsinspanningen.
+description: Lees tips uit ons panel van experts over het gebruik van Adobe [!DNL Target] als onderdeel van uw test- en personalisatiewerkzaamheden.
 title: Waar kan ik tips en trucs voor het gebruiken van Doel vinden?
-feature: Overview
+feature: Overzicht
+exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdstuk 4: Tips voor het gebruik van Doel
 
@@ -24,11 +24,11 @@ U kunt bijvoorbeeld aankoopgegevens van uw verkooppunt koppelen aan een bezoeker
 
 Zie [Aangepaste kenmerken](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) voor stapsgewijze instructies.
 
-**Goed te weten**: Omdat  [!DNL Target] het een open en agnostisch platform is dat goed met verschillende technologieën werkt, kunt u CRM of gekochte gegevens op vele verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
+**Goed te weten**: Omdat  [!DNL Target] een open en agnostisch platform goed met verschillende technologieën werkt, kunt u CRM of gekochte gegevens op vele verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
 
 Zie [Methoden om gegevens in Doel te krijgen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) voor meer informatie.
 
-## Tip 2: Personaliseer dieper door het publiek van het Doel met andere publiek van Adobe Experience Cloud te mengen.
+## Tip 2: Personaliseer dieper door [!DNL Target] publiek met ander publiek van Adobe Experience Cloud te mengen.
 
 Het mengen van publiek dat in verschillende [!DNL Adobe Experience Cloud] oplossingen leeft kan u een veel breder begrip van uw klanten, evenals de capaciteit geven om zich aan te passen dieper. Hoewel [!DNL Target] realtime publieksgegevens biedt, levert [!DNL Adobe Analytics] bijvoorbeeld historische publieksgegevens. Het combineren van twee kan u helpen identificeren wanneer het gedrag van een klant verenigbaar is, en wanneer er een kans zou kunnen zijn om op een nieuw gedrag te handelen. Klik op het vervolgkeuzemenu naast &quot;Alle bezoekers&quot; wanneer u een activiteit maakt. Schakel vervolgens de selectievakjes van maximaal twintig soorten publiek in, klik op Meerdere soorten publiek combineren en klik op Opslaan.
 
@@ -36,7 +36,7 @@ Zie [Meerdere doelgroepen combineren](/help/c-target/combining-multiple-audience
 
 **Goed te weten**:  [!DNL Adobe Audience Manager] publiek is  [!DNL Target] automatisch beschikbaar. Maar [!DNL Adobe Analytics] het delen van het publiek vereist een beetje handopstelling. Schakel gewoon het vakje &quot;Make this an Experience Cloud publiek&quot; in tijdens het publieksopbouwproces in [!DNL Analytics]. Klik vervolgens vanuit [!DNL Target] op &quot;Experience Cloud-publiek importeren&quot;.
 
-## Tip 3: Exporteer gegevens van Target voor gebruik met gereedschappen van derden.
+## Tip 3: Exporteer gegevens van [!DNL Target] voor gebruik met gereedschappen van derden.
 
 Met reactietokens, kunnen de beheerders gegevens uit [!DNL Target] en in derdehulpmiddelen gemakkelijk krijgen. Dit kan handig zijn als u gegevens wilt toevoegen aan gegevens die zijn verzameld in een enquêteprogramma. Als een enquête bijvoorbeeld een voorbeeld toont van een populatie met een score van &quot;9&quot; en een andere met een score van &quot;4&quot; toont, kunt u uw gegevens gebruiken om te zien wie ervaring A heeft gezien en wie ervaring B heeft gezien. U kunt reactietokens ook gebruiken om [!DNL Target] gegevens naar uw intern gegevenspakhuis uit te voeren. Klik eenvoudig &quot;Beleid,&quot;dan knevel de schakelaar naast het gewenste Symbolische van de Reactie aan op positie. Maak vervolgens een activiteit. De gegevens kunnen vervolgens naar de externe leverancier worden overgedragen. U kunt controleren dat [!DNL Target] de gegevens gebruikend het zuiveren hulpmiddelen uitvoert.
 
