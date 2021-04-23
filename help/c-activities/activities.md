@@ -1,13 +1,13 @@
 ---
 keywords: activiteitenlijst;activiteiten;activiteit;activiteitstypen;activiteit bewerken;activiteit;activiteit, acties;activiteitskenmerk;activiteitlijstfilter;activiteitsbeperkingen;personaliseren;personalisatie
-description: Leer hoe u met activiteiten in Adobe Target inhoud kunt aanpassen aan specifieke doelgroepen en pagina-ontwerpen kunt testen
+description: Leer hoe u met activiteiten in Adobe [!DNL Target] inhoud kunt aanpassen aan specifieke doelgroepen en pagina-ontwerpen kunt testen
 title: Hoe kan ik inhoud aanpassen en pagina-ontwerpen testen met Doel?
-feature: Activities
+feature: Activiteiten
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Als u het aantal van deze items in uw activiteit vergroot, neemt ook de tijd die
 
 Voor extra grenzen van Visual Experience Composer, zie [Visuele Beperkingen van de Composer van de Ervaring](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-## Attributen die in Doel worden ingevoerd voor activiteiten die buiten Doel {#section_802B0D174E6A44E1A96F404CA81AAE44} worden bijgewerkt
+## Kenmerken die worden geïmporteerd in [!DNL Target] voor activiteiten die worden bijgewerkt buiten [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Als in [!DNL Target] gemaakte activiteiten van buiten [!DNL Target] (bijvoorbeeld via Adobe I/O) worden bijgewerkt, worden de volgende activiteitskenmerken weer geïmporteerd in [!DNL Target]:
 
