@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;triggerweergave;at.js;functies;function;viewName;viewname;view name
-description: Gebruik de functie adobe.target.triggerView() voor de JavaScript-bibliotheek Adobe Target at.js voor gebruik in toepassingen voor één pagina (SPA). (om 2.x.js)
+description: Gebruik de functie adobe.target.triggerView() voor de JavaScript-bibliotheek Adobe [!DNL Target] at.js voor gebruik in toepassingen voor één pagina (SPA). (om 2.x.js)
 title: Hoe gebruik ik de functie adobe.target.triggerView()?
 feature: at.js
 role: Developer
+exl-id: 619d5166-d1d9-49a6-9807-338544782e66
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
 
 ---
-
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
