@@ -1,18 +1,18 @@
 ---
 keywords: Profielscript;profielscriptkenmerken;profielscript, aanbevolen methoden;foutopsporing;scripts;profielscripts;kenmerken;kenmerk;parameter
-description: Meer informatie over bezoekersspecifieke kenmerken die zijn opgeslagen in het profiel van de bezoeker voor informatie over de kenmerken die kunnen worden gebruikt in uw Adobe Target-activiteiten.
+description: Leer over bezoekersspecifieke attributen die in het profiel van de bezoeker worden opgeslagen om informatie over te verstrekken die in uw Adobe [!DNL Target] activiteiten kan worden gebruikt.
 title: Wat zijn profielkenmerken?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 0%
 
 ---
 
-
-# Profielkenmerken{#profile-attributes}
+# Profielkenmerken
 
 Profielkenmerken zijn parameters die specifiek zijn voor een bezoeker. Deze kenmerken worden opgeslagen in het profiel van de bezoeker om informatie over de bezoeker te verstrekken die in uw activiteiten kan worden gebruikt.
 
