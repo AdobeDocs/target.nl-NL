@@ -1,16 +1,16 @@
 ---
 keywords: gedragsgegevensbron;analyse;aanbevelingen;criteria;productvariabelen
-description: Leer hoe u Adobe Analytics kunt gebruiken als gegevensbron voor gedragingen om de op weergave gebaseerde en/of op aankoop gebaseerde gedragsgegevens van Analytics in Target Recommendations te gebruiken.
-title: Hoe gebruik ik Adobe Analytics met Target Recommendations?
+description: Leer hoe u Adobe Analytics gebruikt als gegevensbron voor gedragsgegevens om de op weergave gebaseerde en/of op aankoop gebaseerde gedragsgegevens van Analytics in [!DNL Target] Recommendations te gebruiken.
+title: Hoe gebruik ik Adobe Analytics met [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 translation-type: tm+mt
-source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Analytics gebruiken met Recommendations
 
@@ -88,4 +88,3 @@ Ja, die twee waarden zijn nog steeds vereist. De overige kenmerken kunnen worden
 ### Kan ik dynamische inclusieregels, zoals de attributen van de entiteitparameter gebruiken profielattributen gebruikend de [!DNL Analytics] voederbenadering?
 
 Ja, dat kan. De methode is vergelijkbaar bij gebruik van [!DNL Target] op zelfstandige basis. In dit geval moet u echter rekening houden met de tijdsfactor. De entiteitvariabelen die met de profielvariabelen zouden moeten aanpassen zijn afhankelijk van de gegevenslaag die veel later op de pagina zou kunnen verschijnen.
-
