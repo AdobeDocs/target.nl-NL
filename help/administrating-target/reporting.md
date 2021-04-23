@@ -1,17 +1,17 @@
 ---
-keywords: rapport;rapporten;rapportering;ervaring wolkenoplossing;tijdzone;tijdzone;valuta;uitsluiten IPs;geschatte opheffing van inkomsten;opbrengst;opheffing van inkomsten;fijnkorrelige prioriteiten;fijnkorrelige prioriteiten
-description: Gebruik Doel of Adobe Analytics als de rapporteringsbron, geef de standaardtijdzone en valutanotatie op, voeg IP adressen toe om van rapportering uit te sluiten, en meer.
+keywords: rapport;rapporten;rapportering;ervaring wolkenoplossing;tijdzone;tijdzone;valuta;sluit IPs uit;geschatte opheffing van opbrengst;opheffing van opbrengst;fijnkorrelige prioriteiten;fijnkorrelige prioriteiten
+description: Gebruik [!DNL Target] of Adobe Analytics als rapporteringsbron, specificeer de standaardtijdzone en muntformaat, voeg IP adressen toe om van rapportering uit te sluiten, en meer.
 title: Hoe vorm ik Rapportering in Doel?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
 
 ---
-
 
 # Rapportage in doel configureren
 
@@ -55,7 +55,7 @@ Geef de tijdzone op die moet worden gebruikt voor rapportage.
 
 Geef de valuta op die moet worden gebruikt voor rapportage.
 
-## IPs om van het Doel uit te sluiten rapporteringsgegevens
+## IPs om van [!DNL Target] het melden van gegevens uit te sluiten
 
 Specificeer om het even welke IP adressen die u van het melden van gegevens wilt uitsluiten. Het uitsluiten van interne bedrijfsadressen is bijvoorbeeld een goede manier om ervoor te zorgen dat uw rapportgegevens de interactie van klanten op uw website weerspiegelen.
 
