@@ -1,18 +1,18 @@
 ---
 keywords: rapporten;blok ip adres;blok bezoeker van ip adres;download rapporten;csv;rapportering
-description: Leer hoe u de rapportfuncties in Adobe Target kunt gebruiken om de prestaties van uw activiteiten te controleren. Maak betere besluiten die op uw gegevens worden gebaseerd om ROI te verhogen.
+description: Leer hoe te om de rapporteringseigenschappen in Adobe te gebruiken [!DNL Target] om de prestaties van uw activiteiten te onderzoeken. Maak betere besluiten die op uw gegevens worden gebaseerd om ROI te verhogen.
 title: Hoe kan ik rapporten weergeven?
-feature: Reports
+feature: Rapporten
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
-
-# Rapporten{#reports}
+# Rapporten
 
 De rapporten verstrekken informatie over de vooruitgang en de resultaten van uw [!DNL Adobe Target] activiteiten die u helpen besluiten nemen die op uw gegevens worden gebaseerd. Met behulp van rapportgegevens kunt u bepalen wanneer een activiteit moet worden beëindigd, u laten zien welke ervaring met het aanbieden de winnaar is en kunt u inzichten of lessen bieden die u nodig hebt om de volgende acties te bepalen.
 
