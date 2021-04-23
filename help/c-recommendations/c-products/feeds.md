@@ -1,18 +1,18 @@
 ---
 keywords: aanbevelingen feed;feed;SAINT;ftp;csv;classificaties;analytische classificaties
-description: Leer hoe u entiteiten in Adobe Target Recommendations importeert met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en productclassificaties van Analytics.
-title: Hoe gebruik ik feeds in Target Recommendations?
+description: Leer hoe u entiteiten in Adobe [!DNL Target] Recommendations importeert met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en productclassificaties van Analytics.
+title: Hoe gebruik ik feeds in [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2498'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMFeeds{#feeds}
+# ![](/help/assets/premium.png) PREMIUMFeeds
 
 Met feeds kunt u entiteiten importeren in [!DNL Adobe Target Recommendations]. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de Google Product Search-feed-indeling en Adobe Analytics-productclassificaties.
 
