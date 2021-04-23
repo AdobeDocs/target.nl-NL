@@ -1,22 +1,22 @@
 ---
 keywords: Experience Cloud;aanmelden;taal;standaard ui-taal;standaardtaal
-description: Leer hoe te om tot Doel van Adobe Experience Cloud toegang te hebben, uw standaardmening te plaatsen, en de taal van het Doel UI en documentatie te veranderen.
-title: Hoe heb ik toegang tot het doel van de Adobe Experience Cloud?
-feature: Overview
+description: Leer hoe te om tot [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UI en documentatie toegang te hebben.
+title: Hoe heb ik toegang tot [!DNL Target] van de Adobe Experience Cloud?
+feature: Overzicht
+exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
-
-# Toegangsdoel van de Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Toegang [!DNL Target] van de Adobe Experience Cloud
 
 Informatie over de toegang tot [!DNL Adobe Target] van [!DNL Adobe Experience Cloud], het plaatsen van uw standaard het landen pagina, en het veranderen van de taal van [!DNL Target] gebruikersinterface.
 
-## Aanmelden bij Adobe Target en de standaardweergave instellen
+## Aanmelden bij Adobe [!DNL Target] en de standaardweergave instellen
 
 1. Meld u aan bij [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -30,7 +30,7 @@ Informatie over de toegang tot [!DNL Adobe Target] van [!DNL Adobe Experience Cl
 
    ![Openingspagina](/help/c-intro/assets/pagepref-new.png)
 
-## Wijzig de standaardtaal voor de doelinterface {#language}
+## Wijzig de standaardtaal voor de [!DNL Target] UI {#language}
 
 1. Nadat u zich hebt aangemeld bij [!DNL Adobe Experience Cloud ] of [!DNL Target], klikt u op uw profielavatar en vervolgens op **[!UICONTROL Edit Preferences]**.
 
@@ -65,7 +65,7 @@ Informatie over de toegang tot [!DNL Adobe Target] van [!DNL Adobe Experience Cl
 
 1. Log uit [!DNL Adobe Experience Cloud] of [!DNL Target], dan login opnieuw voor uw veranderingen om van kracht te worden.
 
-## Taal wijzigen voor de documentatie van het doelproduct {#doc-lang}
+## Taal wijzigen voor de [!DNL Target] productdocumentatie {#doc-lang}
 
 Uw besturingssysteem- of browserinstellingen moeten uw voorkeurstaal detecteren en de documentatie in die taal weergeven (indien beschikbaar). [!DNL Target] De documentatie wordt automatisch vertaald en zal in synchronisatie met de Engelse versie binnen uren van veranderingen in de Engelse documentatie zijn aangebracht.
 
