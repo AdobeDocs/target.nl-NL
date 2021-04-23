@@ -1,16 +1,16 @@
 ---
 keywords: analysetrackingserver;A4T;Adobe Experience Cloud-foutopsporing;Adobe Experience Platform-foutopsporing;bron rapporteren;ontwikkelprogramma's
-description: 'Leer hoe u een Analytics tracking-server opgeeft voor activiteiten die Analytics for Target (A4T) gebruiken als u een oudere versie van at.js of mbox.js gebruikt. '
+description: 'Leer hoe te om een Analytics het volgen server voor activiteiten te specificeren die Analytics voor  [!DNL Target] (A4T) gebruiken als u een oudere versie van at.js of mbox.js gebruikt. '
 title: Hoe gebruik ik een Analytics Tracking Server?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
-
 
 # Een Analytics-trackingserver gebruiken
 
@@ -77,4 +77,3 @@ De Developer Tools moet worden weergegeven op een pagina waarop de activiteit wo
    >[!NOTE]
    >
    >Selecteer [!UICONTROL Analytics as the Reporting Source] voor uw activiteit voor [!UICONTROL Tracking Server] gebied om beschikbaar te zijn.
-
