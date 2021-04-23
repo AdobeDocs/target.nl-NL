@@ -2,17 +2,17 @@
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
 description: Kijk eens naar Adobe Target. Meer informatie over beschikbare activiteiten, kanalen, implementatie, integratie en meer.
 title: Waar kan ik een Inleiding op hoog niveau aan doel vinden?
-feature: Overview
+feature: Overzicht
+exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
 
 ---
 
-
-# Hoofdstuk 2: Adobe Target in één oogopslag
+# Hoofdstuk 2: Adobe [!DNL Target] in één oogopslag
 
 Voordat u [!DNL Adobe Target] gaat gebruiken, is het wellicht handig om een overzicht op hoog niveau van de oplossing te krijgen. In dit hoofdstuk, krijg om de belangrijkste mogelijkheden van de oplossing, merkaanraakpunten te kennen waarop u het kunt gebruiken, implementatieopties, belangrijke gebruikersinterfacefuncties en workflows, governancefuncties, en zijn rol in globaal [!DNL Adobe Experience Cloud]. Tenzij anders vermeld als [!DNL Adobe Target Premium] eigenschappen, zijn de punten die in dit hoofdstuk worden beschreven beschikbaar met zowel [!DNL Adobe Target Premium] als [!DNL Adobe Target Standard]. Voor meer informatie, zie [Inleiding aan Doel](/help/c-intro/intro.md).
 
@@ -77,7 +77,7 @@ In [!DNL Target], kunt u een verpersoonlijkingsactiviteit, een optimaliseringsac
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] (VEC) | Een WYSIWYG-gebruikersinterface waarmee u in de context van de site eenvoudig persoonlijke ervaringen en aanbiedingen kunt maken en testen. U kunt ervaringen en aanbiedingen maken voor [!DNL Target]-activiteiten door slepen en neerzetten, omwisselen en de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina wijzigen. [Meer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) informatie. |
 | [!UICONTROL Form-based Experience Composer] | Een niet-visuele ervaring en een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in A/B-tests, Experience Targeting, Automated Personalization en Recommendations-activiteiten wanneer de Visual Experience Composer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten. [Meer](/help/c-experiences/form-experience-composer.md) informatie. |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | VEC voor SPA laat marketers toe om tests tot stand te brengen en inhoud op SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. De VEC kan worden gebruikt om A/B Test en Ervaring gerichte (XT) activiteiten op populaire kaders, zoals React en Hoekig tot stand te brengen. [Meer](/help/c-experiences/spa-visual-experience-composer.md) informatie. |
+| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | VEC voor SPA laat marketers toe om tests tot stand te brengen en inhoud op SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. VEC kan worden gebruikt om A/B Test en Ervaring gerichte (XT) activiteiten op populaire kaders, zoals React en Angular tot stand te brengen. [Meer](/help/c-experiences/spa-visual-experience-composer.md) informatie. |
 
 ## Bestuur en controle
 
@@ -87,7 +87,7 @@ met [!UICONTROL Enterprise Permissions].
 | Gereedschap | Details |
 | --- | --- |
 | [!UICONTROL Adobe Admin Console for Enterprise] | Voeg gebruikers toe aan Adobe Target en wijs machtigingen van de Adobe Admin Console toe. [Meer](/help/administrating-target/c-user-management/c-user-management/user-management.md) informatie. |
-| [!UICONTROL Enterprise Permission]s<br>(Premium) | Een manier om gebruikers toegang tot [!DNL Target] voor het hele bedrijf formeel te beheren. Voeg gebruikers toe aan [!DNL Target], wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanaal, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen van Waarnemer, Redacteur, Uitgever, of Approver toewijzen. [Meer](/help/administrating-target/c-user-management/property-channel/property-channel.md) informatie. |
+| [!UICONTROL Enterprise Permission]s<br>(Premium) | Een manier om gebruikers toegang tot [!DNL Target] voor het hele bedrijf formeel te beheren. Voeg gebruikers aan [!DNL Target] toe, wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanaal, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen van Waarnemer, Redacteur, Uitgever, of Approver toewijzen. [Meer](/help/administrating-target/c-user-management/property-channel/property-channel.md) informatie. |
 
 ## Integraties
 
@@ -105,7 +105,7 @@ Overweeg de volgende ideeën voordat we verdergaan met het volgende hoofdstuk: &
 
 ### Aanbevolen procedures voor optimalisatie
 
-* **Goede strategie**: Wat is ons doel en onze hypothese? Zijn ze uitgelijnd? We willen bijvoorbeeld meer aanvragen voor een lening indienen, dus we veronderstelden dat dit zou gebeuren door het aantal velden in het aanvraagformulier te verminderen.
+* **Goede strategie**: Wat is ons doel en onze hypothese? Zijn ze uitgelijnd? We willen bijvoorbeeld meer aanvragen voor een lening indienen, dus we hebben een hypothese dat het aantal velden in het aanvraagformulier zal afnemen.
 * **Disciplinaire** methodologieBeginnen we op de juiste plaatsen te testen? Bijvoorbeeld, hebt u plaatsen nodig die genoeg verkeer hebben en die de metriek beïnvloeden die belangrijk is    aan het bedrijf.
 * **Juiste** opzetIs onze activiteit opgezet om ons doel te bereiken? Als we bijvoorbeeld proberen meer aanvragen voor leningen in te dienen, moeten we ons richten op mensen die geïnteresseerd zijn in leningen en klikken op de knop Verzenden meten.
 * **Diepgaande analyse**: Heeft de testactiviteit tot voltooiing geleid? Wat staat er in de resultaten? Voer uw activiteit uit tot het statistisch vertrouwen tussen 95% en 99% bereikt. Documenteer waarom u denkt dat de winnende ervaring heeft gewonnen en het leren elders toepast.
