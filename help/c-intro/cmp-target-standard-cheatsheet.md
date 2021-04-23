@@ -2,17 +2,17 @@
 keywords: Doelstandaard;vk;veelgestelde vragen;kappblad;kappblad;kappblad
 description: Ontdek een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
-feature: Overview
+feature: Overzicht
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
 
-
-# Veelgestelde vragen over optimalisatie en personalisatie{#target-optimization-and-personalization-faq}
+# Veelgestelde vragen over optimalisatie en personalisatie
 
 Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
 
