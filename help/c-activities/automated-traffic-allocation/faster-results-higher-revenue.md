@@ -1,16 +1,16 @@
 ---
 keywords: automatische verkeerstoewijzing;gericht;automatisch toewijzen;automatisch toewijzen
-description: Leer hoe een activiteit van Automatische toewijzing in Adobe Target een winnaar onder twee of meer ervaringen identificeert en automatisch meer verkeer aan de winnaar toewijst.
+description: Leer hoe een activiteit Automatisch toewijzen in Adobe [!DNL Target] een winnaar uit twee of meer ervaringen identificeert en automatisch meer verkeer aan de winnaar toewijst.
 title: Kunnen activiteiten die automatisch worden toegewezen sneller resultaten en hogere inkomsten opleveren?
-feature: Auto-Allocate
+feature: Automatisch toewijzen
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
 
 ---
-
 
 # Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test
 
@@ -47,4 +47,3 @@ Wanneer u de rangorde van elke ervaring ten opzichte van de andere moet bepalen,
 ## Aan de slag
 
 Klaar om uw eerste [!UICONTROL Auto-Allocate] activiteit te lanceren? [Leer hier](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) hoe.
-
