@@ -2,17 +2,17 @@
 keywords: variabelen;profielen;parameters;ingebouwde profielen;methoden;url-variabelen;geo-profielen;profielen van derden;mbox-variabelen;campagne-variabelen;klantkenmerken
 description: Een lijst met verschillende profielen, variabelen en parameters weergeven die nuttig zijn in profielscripts in Adobe Target.
 title: Welke profielen, variabelen, en parameters worden gebruikt in doel?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
-
-# Profiel en variabele woordenlijst{#profile-and-variable-glossary}
+# Profiel en verklarende woordenlijst voor variabelen
 
 Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profielscripts.
 
@@ -43,7 +43,7 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Profielkenmerken voor continue verbindingen die zijn gemaakt op basis van profielscripts. Verwijst ook naar &#39;systeem&#39;-profielen zoals geolocatie, aantal bezoeken, enz. |
-| profile.get(&#39;param_name&#39;) | De juiste manier om een profielparameter te verkrijgen om in een profielmanuscript te gebruiken is profiel.get (&#39;param_name&#39;) methode. |
+| profile.get(&#39;param_name&#39;) | De juiste manier om een profielparameter te verkrijgen die in een profielmanuscript moet worden gebruikt is de profile.get (&#39;param_name&#39;) methode. |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Mbox-parameters die blijvend worden gemaakt vanwege hun profiel.  voorvoegsel. |
 | profile.browserTime | De lokale browsertijd van de bezoeker. Maak voor de systeemtijd een nieuw datumobject in het profielscript |
