@@ -1,16 +1,16 @@
 ---
 keywords: Doel;rapporten;rapport instellingen;extreme orden;extreme waarden
-description: Leer hoe u extreme waarden kunt uitsluiten van invloed op rapporten in Adobe Target, zodat een paar ongebruikelijke bestellingen geen invloed hebben op uw activiteitenresultaten.
+description: Leer hoe u extreme waarden kunt uitsluiten van het beïnvloeden van rapporten in Adobe [!DNL Target] zodat beïnvloeden een paar ongebruikelijke orden niet uw activiteitenresultaten.
 title: Hoe sluit ik extreme waarden uit in rapporten?
-feature: Reports
+feature: Rapporten
+exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
 
 ---
-
 
 # Extreme waarden uitsluiten
 
