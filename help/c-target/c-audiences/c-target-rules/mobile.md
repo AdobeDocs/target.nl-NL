@@ -1,18 +1,18 @@
 ---
 keywords: doel;mobiel;doel mobiele;apparaten;apparaten;iphone;iphone modellen;apparatenatlas;display breedte;display breedte;display hoogte;type apparaat;displayheight;phone;tablet;device model
-description: Leer hoe u in Adobe Target een publiek kunt maken om mobiele apparaten als doel in te stellen op basis van parameters zoals mobiel apparaat, apparaattype, apparaatleverancier, schermafmetingen (per pixel) en meer.
-title: Kan ik bezoekers richten op basis van mobiele opties?
-feature: Audiences
+description: Leer hoe u een publiek in Adobe [!DNL Target] kunt maken om mobiele apparaten als doel in te stellen op basis van parameters zoals mobiel apparaat, type apparaat, leverancier van apparaten, schermafmetingen (per pixel) en meer.
+title: Kan ik [!DNL Target] Bezoekers op basis van mobiele opties?
+feature: Soorten publiek
+exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
-
-# Mobile{#mobile}
+# Mobiel
 
 Maak een publiek voor mobiele doelapparaten op basis van parameters zoals mobiel apparaat, type apparaat, leverancier van apparaat, schermafmetingen (per pixel) en meer.
 
