@@ -1,17 +1,17 @@
 ---
-keywords: omgeving;problemen oplossen;aanbevolen procedures;ubox;omleiding;omleiding;whitelist;blacklist;lijst van afgewezen personen;lijst van gewenste personen
-description: Leer hoe u omgevingen in Adobe Target kunt gebruiken om uw sites en pre-productieomgevingen te ordenen voor eenvoudig beheer en gescheiden rapportering.
+keywords: omgeving;problemen oplossen;aanbevolen procedures;ubox;omleiding;omleiding;whitelist;blacklist;lijst van gewezen personen;lijst van gewenste personen
+description: Leer hoe u omgevingen in Adobe [!DNL Target] kunt gebruiken om uw sites en pre-productieomgevingen te ordenen voor eenvoudig beheer en gescheiden rapportering.
 title: Wat zijn omgevingen en hoe gebruik ik deze?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
-
 
 # Omgevingen
 
