@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] ?
 feature: Overzicht
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2548'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Leer hoe [!DNL Adobe Target] werkt, met inbegrip van informatie over [!DNL Adobe Experience Platform Web SDK] en bibliotheken JavaScript (at.js en mbox.js). In dit artikel worden ook de verschillende typen activiteiten geïntroduceerd die u kunt maken met [!DNL Target]. U kunt ook leren over het [!DNL Target] randnetwerk, de Optimalisering van de Motor van het Onderzoek (SEO), en hoe [!DNL Target] bots ontdekt.
 
-## SDK&#39;s en JavaScript-bibliotheken voor Web-Platforms {#libraries}
+## [!DNL Target] Platform Web SDK&#39;s en JavaScript-bibliotheken  {#libraries}
 
 [!DNL Target] Wordt geïntegreerd met websites die gebruikmaken van de JavaScript-  [!DNL AEP Web SDK] of JavaScript-bibliotheken:
 
@@ -41,7 +41,7 @@ In [!DNL Target] maakt elk element op de pagina deel uit van één enkele ervari
 
 De inhoud die aan bezoekers wordt weergegeven, is afhankelijk van het type activiteit dat u maakt:
 
-### A/B-test
+### [!UICONTROL A/B Test]
 
 De inhoud die wordt weergegeven in een standaard A/B-test, wordt willekeurig gekozen uit de ervaringen die u toewijst aan de activiteit. U kunt de percentages van de verkeerstoewijzing voor elke ervaring toewijzen. Als gevolg van deze willekeurige splitsing van het verkeer kan het een aanzienlijke hoeveelheid eerste verkeer nemen vóór de percentages zelfs uit. Als u bijvoorbeeld twee ervaringen creëert, wordt de startervaring willekeurig gekozen. Als er weinig verkeer is, is het mogelijk dat het percentage bezoekers naar één ervaring kan worden scheefgetrokken. Naarmate het verkeer toeneemt, worden de percentages gelijkgetrokken.
 
@@ -54,25 +54,25 @@ U kunt percentagedoelstellingen voor elke ervaring specificeren. In dit geval wo
 
 Zie [Een A/B-test maken](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) voor meer informatie.
 
-### Automatisch toewijzen
+### [!UICONTROL Auto-Allocate]
 
-Met Automatisch toewijzen wordt een winnaar geïdentificeerd op basis van twee of meer ervaringen. Automatisch toewijzen herwijst automatisch meer verkeer aan de winnende ervaring, die helpt om omzettingen te verhogen terwijl de test blijft lopen en leren.
+[!UICONTROL Auto-Allocate] geeft de winnaar aan uit twee of meer ervaringen. [!UICONTROL Auto-Allocate] Wijst automatisch meer verkeer aan de het winnen ervaring opnieuw toe, die helpt om omzettingen te verhogen terwijl de test blijft lopen en leren.
 
-Zie [Automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) voor meer informatie.
+Zie [[!UICONTROL Auto-Allocate]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) voor meer informatie.
 
-### Auto-Target (AT)
+### [!UICONTROL Auto-Target] (AT)
 
 Auto-Doel gebruikt geavanceerd machine leren om uit veelvoudige hoog-presterende tellers-bepaalde ervaringen te selecteren. Auto-Target dient voor elke bezoeker de meest toegesneden ervaring. De levering van de ervaring is gebaseerd op individuele klantenprofielen en het gedrag van vorige bezoekers met gelijkaardige profielen. Gebruik Auto-Target om inhoud en aandrijvingsomzettingen aan te passen.
 
 Zie [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) voor meer informatie.
 
-### Automated Personalization (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 Automated Personalization (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computerleren om verschillende aanbiedingsvariaties voor elke bezoeker aan te passen. De levering van de ervaring is gebaseerd op individuele klantenprofielen om inhoud en aandrijfhefboom te personaliseren.
 
 Zie [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) voor meer informatie.
 
-### Gericht op ervaring (XT)
+### [!UICONTROL Experience Targeting] (XT)
 
 Experience Targeting (XT) levert inhoud aan een specifiek publiek die op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.
 
@@ -80,13 +80,13 @@ Gerichte ervaring, met inbegrip van geotargeting, is nuttig voor het bepalen van
 
 Zie [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) voor meer informatie.
 
-### MVT (Multivariate Test)
+### [!UICONTROL Multivariate Test] (MVT)
 
 Multivariate Testing (MVT) vergelijkt combinaties aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifiek publiek presteert. MVT helpt te bepalen welk element het succes van de activiteit het meest beïnvloedt.
 
 Zie [Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) voor meer informatie.
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten of andere algoritmen. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
 
@@ -213,6 +213,6 @@ Voor bekende beide geldt dat verkeer [!DNL Target] niet:
 * Een bezoekersprofiel maken of ophalen
 * Profielkenmerken vastleggen of profielscripts uitvoeren
 * Adobe Audience Manager-segmenten (AAM) opzoeken (indien van toepassing)
-* Gebruik zowel het verkeer in modellering en het dienen van gepersonaliseerde inhoud voor Recommendations, auto-Doel, Automated Personalization, of Auto-Allocate activiteiten
+* Gebruik zowel het verkeer in modellering en het dienen van gepersonaliseerde inhoud voor Recommendations, auto-Doel, Automated Personalization of [!UICONTROL Auto-Allocate] activiteiten
 * Een activiteitenbezoek aanmelden voor rapportage
 * Loggegevens die naar het [!DNL Adobe Experience Cloud]-platform moeten worden verzonden
