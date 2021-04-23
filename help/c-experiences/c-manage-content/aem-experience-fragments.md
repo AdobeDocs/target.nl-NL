@@ -1,16 +1,16 @@
 ---
 keywords: ervaring;json;aem;adobe Experience Manager;exporteren naar adobe target;beleving, fragmenten;fragmenten;XF
-description: Leer hoe u fragmenten kunt gebruiken AEM ervaren in Adobe Target-activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige AI- en ML-mogelijkheden in Target.
+description: Leer hoe te om AEM ervaringsfragmenten in Adobe te gebruiken  [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige AI- en ML-mogelijkheden in [!DNL Target].
 title: Hoe gebruik ik Adobe Experience Manager (AEM) Experience Fragments?
-feature: Experiences and Offers
+feature: Ervaringen en aanbiedingen
+exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 0%
 
 ---
-
 
 # AEM ervaren fragmenten
 
@@ -78,7 +78,7 @@ Afhankelijk van uw [!DNL AEM] versie, zie de volgende verbindingen voor geleidel
 * **[!DNL AEM]6.4**:  [Exporteer een Experience Fragment naar ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) de  *Adobe Experience Manager 6.4-* documentatie.
 * **[!DNL AEM]6.5**:  [Exporteer een Experience Fragment naar ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) de  *Adobe Experience Manager 6.5-* documentatie.
 
-## Werken met ervaringsfragmenten in doelactiviteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Werken met fragmenten in [!DNL Target]-activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Na het uitvoeren van de voorafgaande taken, toont het ervaringsfragment op [!UICONTROL Offers] pagina in [!DNL Target].
 
