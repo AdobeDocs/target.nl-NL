@@ -1,16 +1,16 @@
 ---
 keywords: multivariatie-test;mvt;mvt-plan;multivariatie-testplan
-description: Leer hoe u multivariate Tests plant in Adobe Target zodat u een succesvolle test kunt tot stand brengen.
+description: Leer hoe te om multivariate Tests in Adobe te plannen [!DNL Target] zodat kunt u een succesvolle test tot stand brengen.
 title: Hoe plant ik een multivariate test?
-feature: Multivariate Tests
+feature: Meervoudige tests
+exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
-
 
 # Een multivariatietest plannen
 
