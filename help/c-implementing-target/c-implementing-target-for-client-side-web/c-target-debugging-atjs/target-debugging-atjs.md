@@ -1,19 +1,19 @@
 ---
 keywords: at.js;debug at.js;adobe Experience Cloud debugger;Experience cloud debugger;mbox trace;mbox highlight;debug;debugging
-description: Gebruik Foutopsporing van Adobe Experience Cloud om uw bibliotheekconfiguratie te bekijken, verzoeken te onderzoeken, console het registreren aan te zetten, de vraagverzoeken van het Doel onbruikbaar te maken, en meer.
+description: Gebruik Debugger van Adobe Experience Cloud om uw bibliotheekconfiguratie te bekijken, verzoeken te onderzoeken, console het registreren, onbruikbaar maken  [!DNL Target] vraagverzoeken, en meer aan te zetten.
 title: Hoe kan ik foutopsporing uitvoeren op .JS met Adobe Experience Cloud Debugger?
 feature: at.js
 role: Developer
+exl-id: 764155e2-e55d-4637-8da3-44f70f3aa2a7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-
-# Foutopsporing in.js met Adobe Experience Cloud Debugger{#debug-at-js-using-the-adobe-experience-cloud-debugger}
+# Foutopsporing in.js met Adobe Experience Cloud Debugger
 
 Informatie over het gebruik van de Adobe Experience Cloud Debugger-extensie, waardoor u snel en gemakkelijk inzicht kunt krijgen in uw Target-implementatie.
 
@@ -29,7 +29,7 @@ De volgende video&#39;s begeleiden u door het foutopsporingsproces:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Standaarddoelfoutopsporing met de Adobe Experience Cloud-foutopsporing ![overzichtsbadge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Standaard Adobe Target-foutopsporing met behulp van de Adobe Experience Cloud-foutopsporing ![overzichtsbadge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
