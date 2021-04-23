@@ -4,16 +4,16 @@ description: Een lijst weergeven met functies die kunnen worden gebruikt met de 
 title: Welke functies kan ik gebruiken met at.js?
 feature: at.js
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
-
-# at.js-functies{#at-js-functions}
+# at.js-functies
 
 Lijst met functies die kunnen worden gebruikt met de JavaScript-bibliotheek Adobe Target at.js. Klik op de koppelingen in de kolom Functie voor meer informatie en voorbeelden.
 
@@ -33,4 +33,3 @@ Lijst met functies die kunnen worden gebruikt met de JavaScript-bibliotheek Adob
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | Verstrekt een standaardmanier om een specifieke uitbreiding te registreren.<br>**Opmerking:** deze functie is beschikbaar voor at.js versies 1.** Alleen. Deze functie is vervangen door de release van at.js 2.x. Deze functie retourneert standaardinhoud als deze wordt gebruikt met at.js 2.x. |
 | [at.js, aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | op.js laten de douanegebeurtenissen u weten wanneer een mbox- verzoek of een aanbieding ontbreekt of slaagt. |
 | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | Deze functie verzendt een bericht naar de rand van het Doel wanneer een ervaring wordt teruggegeven zonder `adobe.target.applyOffer()` of `adobe.target.applyOffers()` te gebruiken.<br>**Opmerking**: Deze functie is geïntroduceerd in at.js 2.1.0 en zal voor om het even welke versies boven 2.1.0 beschikbaar zijn. |
-
