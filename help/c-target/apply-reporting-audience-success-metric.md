@@ -1,18 +1,18 @@
 ---
 keywords: gericht;publiek;rapportering;succes metrisch
-description: Leer hoe u in Adobe Target een succesmetrische waarde kiest die de gebruiker voor het rapportpubliek kwalificeert.
+description: Leer hoe te om een succes metrisch in Adobe te kiezen [!DNL Target] die de gebruiker voor het rapporterende publiek kwalificeert.
 title: Kan ik een rapporteringspubliek op een succes metrisch toepassen?
-feature: Success Metrics
+feature: Succeswaarden
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-
-# Pas een rapporterend publiek op succes toe metrisch{#apply-a-reporting-audience-to-a-success-metric}
+# Pas een rapporterend publiek op succes toe metrisch
 
 Kies een succesmetrische methode die de gebruiker voor het rapporterende publiek kwalificeert.
 
@@ -34,4 +34,3 @@ Overweeg de volgende informatie wanneer het toepassen van een rapporterend publi
 Om de segmentatie in het melden te bekijken, selecteer het gewenste publiek van de drop-down lijst van het Publiek in het rapport van de activiteit.
 
 ![](assets/reporting_audience_dropdown.png)
-
