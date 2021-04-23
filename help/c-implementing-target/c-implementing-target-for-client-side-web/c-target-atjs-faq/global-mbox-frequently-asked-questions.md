@@ -1,23 +1,23 @@
 ---
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;Algemene vragen;globaal;globale mbox
-description: Lees veelgestelde vragen (FAQ's) en antwoorden over algemene Adobe Target-vakken.
+description: Lees veelgestelde vragen (FAQs) en antwoorden over Adobe [!DNL Target] globale dozen.
 title: Wat worden vaak gestelde vragen over Global mbox?
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
-
-# Algemene veelgestelde vragen{#global-mbox-frequently-asked-questions}
+# Algemene mbox Veelgestelde vragen
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over globale vakken.
 
-## Kan ik meer dan één globale mbox hebben als mijn rekening van het Doel over veelvoudige domeinen wordt geplaatst? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## Kan ik meer dan één globale mbox hebben als mijn [!DNL Target] rekening over veelvoudige domeinen wordt geplaatst? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Er wordt slechts één globale box ondersteund voor uw account.
 
@@ -25,7 +25,7 @@ U kunt beperken waar uw activiteiten lopen door URL-regels aan uw activiteiten t
 
 U kunt ook een parameter op de pagina doorgeven met [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) en vervolgens die parameters selecteren in de sectie &quot;configure URL&quot; in de [!UICONTROL Visual Experience Composer] (VEC) of door de parameters toe te voegen als &quot;verfijningen&quot; in de Form-Based Experience Composer.
 
-## Hoe geef ik opbrengstgegevens over een Globaal doel door mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
+## Hoe kan ik inkomstengegevens doorgeven op een globale mbox van [!DNL Target]? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 Om opbrengst en ordeinformatie over target-global-mbox te verzamelen, moeten de &quot;mbox parameters&quot;naar Doel worden verzonden. Deze parameters zijn naam/waardeparen die worden gebruikt om meer informatie naar Doel te verzenden. Het doel zoekt automatisch deze parameters (gereserveerde namen) om opbrengstgegevens te bevolken.
 
