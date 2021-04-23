@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations
-description: Leer de implementatievereisten voor Analytics for Target (A4T) en wat u moet overwegen voordat u deze integratie implementeert.
+description: Leer de implementatievereisten voor Analytics voor [!DNL Target] (A4T) en wat te overwegen alvorens u deze integratie implementeert.
 title: Wat moet ik weten voordat ik A4T implementeer?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
-
-# Voordat u{#before-you-implement} implementeert
+# Voordat u implementeert
 
 Er vinden verschillende wijzigingen plaats in het gegevensverzamelingsproces wanneer [!DNL Adobe Analytics] wordt ingeschakeld als rapportagebron voor [!DNL Adobe Target] (A4T).
 
