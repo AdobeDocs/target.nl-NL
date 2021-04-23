@@ -1,18 +1,18 @@
 ---
 keywords: aanbieding op afstand;aanbieding op afstand maken
-description: Leer hoe u JSON-aanbiedingen maakt in Adobe Target voor gebruik in de Form-based Experience Composer. JSON-aanbiedingen zijn handig voor SPA frameworks of server-side integratie.
+description: Leer hoe u JSON-aanbiedingen maakt in Adobe [!DNL Target] voor gebruik in de Form-based Experience Composer. JSON-aanbiedingen zijn handig voor SPA frameworks of server-side integratie.
 title: Hoe maak ik JSON-aanbiedingen?
-feature: Experiences and Offers
+feature: Ervaringen en aanbiedingen
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-
-# JSON-aanbiedingen maken{#create-json-offers}
+# JSON-aanbiedingen maken
 
 Maak JSON-aanbiedingen in [!UICONTROL Offer Library] in [!DNL Adobe Target] voor gebruik in [!UICONTROL Form-Based Experience Composer].
 
@@ -138,4 +138,3 @@ adobe.target.getOffer({
 U kunt de bibliotheek [!UICONTROL Offers] door het aanbiedingstype van JSON filtreren door **[!UICONTROL Type]** drop-down lijst te klikken, dan door **[!UICONTROL JSON]** checkbox te selecteren.
 
 ![](assets/offer-json-filter.png)
-
