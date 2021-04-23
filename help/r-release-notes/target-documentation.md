@@ -1,16 +1,16 @@
 ---
 keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentatie
-description: Toegang tot Adobe Target-documentatie, waaronder online Help, zelfstudies, video's en documentatie voor ontwikkelaars (SDK's, API's en JavaScript-bibliotheken).
+description: Toegang tot Adobe [!DNL Target] documentatie, waaronder online Help, zelfstudies, video's en documentatie voor ontwikkelaars (SDK's, API's en JavaScript-bibliotheken).
 title: Waar kan ik documentatie voor Doel vinden?
-feature: Release Notes
+feature: Opmerkingen bij de release
+exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van doeldocumentatie
 
