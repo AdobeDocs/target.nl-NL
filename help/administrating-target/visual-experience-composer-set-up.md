@@ -1,17 +1,17 @@
 ---
 keywords: visuele ervaringscomposer;vec;default url;enhanced experience composer;eec;gemengde inhoud;beleving momentopnamen;mobiele viewport;css;css kiezers
-description: Leer hoe u de Adobe Target Visual Experience Composer (VEC) kunt configureren door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
+description: Leer hoe te om Adobe te vormen  [!DNL Target] Visual Experience Composer (VEC) door zijn algemene montages, mobiele viewport configuratie, en CSS selecteurs te specificeren.
 title: Hoe vorm ik de Visuele Composer van de Ervaring (VEC)?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
-
 
 # Vorm Composer van de Visuele Ervaring
 
@@ -84,7 +84,7 @@ Schakel deze optie uit als dezelfde id wordt gebruikt voor meerdere elementen of
 
 ### Elementklassen gebruiken
 
-Standaard gebruikt [!DNL Target] alleen element-id&#39;s. Als uw pagina echter is ontworpen om klassen te gebruiken voor het identificeren van elementen, zoals een pagina die is gemaakt met [!DNL Adobe Experience Manager], moet u ook [!UICONTROL Use element classes] selecteren.
+Standaard gebruikt [!DNL Target] alleen element-id&#39;s. Als uw pagina echter is ontworpen om klassen te gebruiken om elementen te identificeren, zoals een pagina die is gemaakt met [!DNL Adobe Experience Manager], moet u ook [!UICONTROL Use element classes] selecteren.
 
 >[!NOTE]
 >
