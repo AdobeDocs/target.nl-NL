@@ -1,22 +1,22 @@
 ---
 keywords: faq;veelgestelde vragen;analytische gegevens voor doel;a4T;omleiden;aanbod omleiden;adobe-mc-sdid;adobe_mc_ref
-description: Zoek antwoorden op vragen over het gebruik van omleidingsaanbiedingen bij Analytics voor Doel (A4T). A4T laat u Analytics rapportering voor de activiteiten van het Doel gebruiken.
+description: Vind antwoorden op vragen over het gebruiken van redirect aanbiedingen wanneer het gebruiken van Analytics voor  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activiteiten.
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
-
 
 # Aanbiedingen omleiden - Veelgestelde vragen A4T
 
 Dit onderwerp bevat antwoorden op vragen die vaak worden gevraagd over het gebruiken van omleidingsaanbiedingen wanneer het gebruiken van [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Adobe Target] (A4T).
 
-## Biedt Analytics for Target (A4T) ondersteuning voor omleidingsaanbiedingen? {#section_46B8B03ED4D542C6AD875F5F61176298}
+## Biedt Analytics for Adobe Target (A4T) ondersteuning voor omleidingsaanbiedingen? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Ja, als uw implementatie [!DNL at.js] gebruikt. Uw implementatie moet echter voldoen aan de hieronder vermelde minimumvereisten om [aanbiedingen omleiden](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) te kunnen gebruiken in activiteiten die Analytics als rapportagebron gebruiken.
 
