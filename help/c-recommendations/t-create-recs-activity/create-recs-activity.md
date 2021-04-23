@@ -1,18 +1,18 @@
 ---
 keywords: aanbevelingen maken;aanbevelingen, activiteit;nieuwe aanbevelingen;aanbevelingen, overzicht
-description: Leer hoe te om Adobe Target Visual Experience Composer (VEC) te gebruiken om een activiteit van Recommendations direct op een Doel-Toegelaten pagina tot stand te brengen.
+description: Leer hoe te om Adobe [!DNL Target] Visual Experience Composer (VEC) te gebruiken om een activiteit van Recommendations direct op a [!DNL Target]-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een Recommendations-activiteit?
 feature: Recommendations
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
 
 ---
 
-
-# ![recommendations-activiteit ](/help/assets/premium.png) PREMIUMCreproduceren{#create-a-recommendations-activity}
+# ![Recommendations-activiteit ](/help/assets/premium.png) PREMIUMCreproduceren
 
 Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit van Recommendations direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
 
