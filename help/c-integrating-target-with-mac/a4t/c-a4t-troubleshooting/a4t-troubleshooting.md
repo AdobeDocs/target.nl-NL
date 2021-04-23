@@ -1,18 +1,18 @@
 ---
 keywords: analytische traceringsserver;A4T;analytische segmenten;rapportsuites;onjuiste gegevens;zwevend;sdid;VisitorAPI.js;mboxMCSDID;phantom;niet opgegeven
-description: Ontdek de algemene problemen die klanten hebben ondervonden bij het gebruik van Analytics voor Target (A4T).
-title: Hoe los ik de Analytics en de Integratie van het Doel (A4T) problemen op
-feature: Analytics for Target (A4T)
+description: Ontdek de algemene problemen die klanten hebben ondervonden bij het gebruik van Analytics voor [!DNL Target] (A4T).
+title: Hoe los ik Analytics en [!DNL Target] Integratie (A4T) problemen op
+feature: Analyses voor doel (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
-
-# Los de Analytics en integratie van het Doel (A4T) problemen op
+# Los de Analytics en [!DNL Target] integratie (A4T) problemen op
 
 Dit onderwerp behandelt enkele gemeenschappelijke kwesties die zijn ontmoet wanneer het gebruiken van [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Adobe Target] (A4T).
 
