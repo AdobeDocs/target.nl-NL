@@ -1,16 +1,16 @@
 ---
 keywords: activiteit montages;ervaring richtend doelstellingen en montages;xt doelstellingen en montages;ervaring richtend;rapporteringsmontages;doel metriek;afhankelijke succesmetriek;afhankelijke succesmetriek;primair doel;extra metriek;prioriteit;duur;rapporteringsoplossing;doel;publiek voor het melden;Welk succes metrisch moet worden bereikt alvorens deze metrisch te verhogen;Wat zal gebeuren nadat een gebruiker dit doel metrisch ontmoet;nota's
-description: Leer hoe u de pagina Doelstellingen en instellingen in Adobe Target gebruikt om informatie op te geven over de doelstellingen van een Experience Targeting-activiteit (XT).
+description: Leer hoe te om de Doelstellingen en pagina van Montages in Adobe te gebruiken [!DNL Target] om informatie over de doelstellingen van een Ervaring te specificeren richtend (XT) activiteit.
 title: Hoe specificeer ik Doelstellingen en Montages in een Ervaring richtend activiteit?
-feature: Experience Targeting
+feature: Gericht op ervaring
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
-
 
 # Doelstellingen en instellingen in Experience Targeting (XT)-activiteiten
 
