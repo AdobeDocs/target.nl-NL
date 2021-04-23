@@ -1,19 +1,19 @@
 ---
 keywords: mobiele app;mobiele app verzendt gegevens;doel mobiele app;mobiele aangepaste gebruikersgegevens;mobiele app, aangepaste gegevens
-description: Leer hoe u aanvullende informatie over de locatie of de gebruiker naar Adobe Target verzendt als naam-waardeparen om u te helpen een aangepast publiek te maken.
+description: Leer hoe te om extra informatie over de plaats of de gebruiker naar Adobe [!DNL Target] als naam-waarde paren te verzenden om u te helpen douanepubliek bouwen.
 title: Hoe kan ik aangepaste gebruikersgegevens verzenden in een iOS-app?
-feature: Implement Mobile
+feature: Mobiel implementeren
 role: Developer
+exl-id: c64219ec-8d60-4d05-b2b8-103e8ffcaefc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
-
-# iOS - aangepaste gebruikersgegevens verzenden{#ios-send-custom-user-data}
+# iOS - aangepaste gebruikersgegevens verzenden
 
 U kunt aanvullende informatie over de locatie of de gebruiker als naam-waardeparen naar Target sturen.
 
