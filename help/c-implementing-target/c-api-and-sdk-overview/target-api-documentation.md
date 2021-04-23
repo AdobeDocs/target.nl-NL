@@ -1,23 +1,23 @@
 ---
 keywords: api;adobe i/o
-description: Leer hoe u van de klassieke Adobe Target API's van oudere API's naar de nieuwe API's op Adobe I/O overschakelt.
+description: Leer hoe u van de Adobe [!DNL Target] klassieke verouderde API's overgaat naar de nieuwe API's op de Adobe I/O.
 title: Hoe kan ik overstappen van verouderde API's naar Adobe I/O?
-feature: Implement Server-side
+feature: Server-kant implementeren
 role: Developer
+exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
+# Overgang van oudere API&#39;s van [!DNL Target] naar Adobe I/O
 
-# Overgang van verouderde API&#39;s van Target naar Adobe I/O
+Informatie die u helpt bij het gebruik van de overgang van de verouderde API&#39;s van het Doel naar de nieuwe API&#39;s op de Adobe I/O.
 
-Informatie die u helpt bij het gebruik van de overgang van de verouderde API&#39;s van het Doel naar de nieuwe API&#39;s op Adobe I/O.
-
-Met de buitenbedrijfstelling van Adobe Target Classic zijn de API&#39;s die zijn verbonden met uw Target Classic-account ook niet beschikbaar. Dit document helpt u bij de overgang van uw verouderde API-integratie naar de doel-API&#39;s die door Adobe I/O worden aangedreven.
+Met de buitenbedrijfstelling van Adobe Target Classic zijn de API&#39;s die zijn verbonden met uw Target Classic-account ook niet beschikbaar. Dit document helpt u bij de overgang van uw verouderde API-gebaseerde integratie naar de doel-API&#39;s die worden aangedreven door Adobe I/O.
 
 Voor meer informatie over de documentatie van doel API, zie [Doel APIs en NodeJS SDK](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
@@ -25,8 +25,8 @@ Voor meer informatie over de documentatie van doel API, zie [Doel APIs en NodeJS
 
 | Term | Beschrijving |
 |--- |--- |
-| Verouderde API | API&#39;s die zijn gekoppeld aan uw Classic-doelaccount. Deze API-aanroepen zijn gebaseerd op een gebruikersbenaming en op een wachtwoord gebaseerde verificatie en gebruiken de hostnaam `testandtarget.omniture.com`. Als uw API-aanroepen een gebruikersnaam en wachtwoord bevatten in de aanvraag-URL, moet u een overgang maken naar Adobe I/O API&#39;s. |
-| Adobe I/O | Adobe I/O is de nieuwe gateway voor doel APIs. Deze API&#39;s zijn verbonden met uw Target Standard/Premium-account. De doel-API&#39;s op Adobe I/O maken gebruik van een JWT-verificatie, de industriestandaard voor veilige bedrijf-API&#39;s. |
+| Verouderde API | API&#39;s die zijn gekoppeld aan uw Classic-doelaccount. Deze API-aanroepen zijn gebaseerd op een gebruikersbenaming en op een wachtwoord gebaseerde verificatie en gebruiken de hostnaam `testandtarget.omniture.com`. Als uw API-aanroepen een gebruikersnaam en wachtwoord bevatten in de aanvraag-URL, moet u een overgang maken naar Adobe I/O-API&#39;s. |
+| Adobe I/O | Adobe I/O is de nieuwe gateway voor Doel APIs. Deze API&#39;s zijn verbonden met uw Target Standard/Premium-account. De doel-API&#39;s op Adobe I/O maken gebruik van een JWT-verificatie, de industriestandaard voor veilige bedrijf-API&#39;s. |
 
 ## Tijdlijn {#section_A478EBF637554A2DB5A31661955121ED}
 
@@ -43,7 +43,7 @@ Recommendations Classic API&#39;s worden niet beïnvloed door deze tijdlijn.
 
 De volgende tabel bevat een lijst met equivalente nieuwe doel-API-methoden voor de oudere API-methoden. De nieuwe API&#39;s retourneren JSON in vergelijking met de XML-respons van de verouderde API&#39;s.
 
-De nieuwe API-methoden zijn gekoppeld aan de corresponderende sectie in de API-documentatiesite. Voor elke API-methode wordt een voorbeeld gegeven. U kunt ook de Admin Postman Collection gebruiken die steekproefAPI vraag voor alle nieuwe Adobe API methodes op Adobe I/O bevat.
+De nieuwe API-methoden zijn gekoppeld aan de corresponderende sectie in de API-documentatiesite. Voor elke API-methode wordt een voorbeeld gegeven. U kunt de Inzameling Admin Postman ook gebruiken die steekproefAPI vraag voor alle nieuwe Adobe API methodes op Adobe I/O bevat.
 
 | Groepering | Oudere API-methode | Nieuwe API-methode | Notities |
 |--- |--- |--- |--- |
@@ -69,4 +69,4 @@ Neem contact op met de succesmanager van de klant als u een uitzondering nodig h
 
 ## Help {#section_591F850E2B7A4342B1C233693425415C}
 
-Neem contact op met de Adobe Target Client Care (tt-support@adobe.com) als u vragen hebt of hulp nodig hebt bij de overgang naar de nieuwe doel-API&#39;s op Adobe I/O.
+Neem contact op met de Adobe Target Client Care (tt-support@adobe.com) als u vragen hebt of hulp nodig hebt bij de overgang naar de nieuwe doel-API&#39;s op de Adobe I/O.
