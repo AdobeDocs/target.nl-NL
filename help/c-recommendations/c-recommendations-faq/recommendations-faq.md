@@ -1,16 +1,16 @@
 ---
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;aanbevelingen;speciale tekens;weging van kenmerken;gelijkenis van inhoud
-description: Bekijk een lijst met veelgestelde vragen en antwoorden over Adobe Target Recommendations-activiteiten.
-title: Waar kan ik vragen en antwoorden vinden over Target Recommendations?
+description: Een lijst met veelgestelde vragen en antwoorden over Adobe [!DNL Target] Recommendations-activiteiten weergeven.
+title: Waar kan ik Vragen en Antwoorden over  [!DNL Target] Recommendations vinden?
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2675'
 ht-degree: 0%
 
 ---
-
 
 # ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMR-aanbevelingen
 
@@ -130,7 +130,7 @@ Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling k
 
 ![](assets/content_similarity_example.png)
 
-## Waarom kan Target soms geen aanbevelingen tonen? {#section_DB3F40673AED42228E407C05437D99E9}
+## Waarom kan [!DNL Target] soms geen aanbevelingen tonen? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Het doel kan soms geen aanbevelingen tonen wegens het lage aantal beschikbare aanbevelingen.
 
@@ -223,5 +223,3 @@ Als een bezoeker twee actieve zittingen tezelfdertijd heeft, onlangs bekeken pun
 Dit gedrag treedt nog steeds op als een bezoeker actief is op het ene apparaat en vervolgens een paar minuten later actief wordt op het andere apparaat. De sessie van het eerste apparaat verloopt niet gedurende 30 minuten en er kan maximaal vijf minuten vertraging optreden voordat de profielstatus naar de permanente status wordt geschreven en verwerkt. 35 minuten laten verlopen voordat de sessie verloopt en het profiel moet worden opgeslagen wanneer dit gedrag wordt getest.
 
 Als de bezoeker niet tegelijkertijd twee actieve sessies heeft, worden onlangs bekeken items op het ene apparaat bijgewerkt met de onlangs weergegeven items op het andere apparaat zolang de sessie is beëindigd. Laat 35 minuten verlopen voor de sessie wanneer u dit gedrag test.
-
-
