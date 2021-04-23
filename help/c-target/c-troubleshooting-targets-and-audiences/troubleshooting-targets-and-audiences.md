@@ -1,22 +1,22 @@
 ---
 keywords: problemen oplossen;veelgestelde vragen;veelgestelde vragen;veelgestelde vragen;veelgestelde vragen;doelen;doelgroepen
-description: Veelgestelde vragen (FAQ's) weergeven over de ervaring die wordt gebruikt bij Adobe Target-activiteiten en over doelgroepen.
+description: Veelgestelde vragen (FAQs) van de mening over ervaring richtend en publiek dat in Adobe [!DNL Target] activiteiten wordt gebruikt.
 title: Waar kan ik vragen en antwoorden vinden over doelen en publiek?
-feature: Audiences
+feature: Soorten publiek
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
 
-
-# Veelgestelde vragen over doelen en doelgroepen{#targets-and-audiences-faq}
+# Veelgestelde vragen over doelen en doelgroepen
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over de ervaring die doelgericht en publiek is.
 
-## Hoe evalueert Doel URLs in het richten? {#url}
+## Hoe evalueert [!DNL Target] URLs in het richten? {#url}
 
 Het doel evalueert URLs verschillend afhankelijk van of u publiek URL het richten tijdens het creëren van een activiteit gebruikt of of gebruikt u URL het richten terwijl het creëren van een publiek.
 
@@ -36,7 +36,7 @@ URL van publiek zoekt naar een exacte URL-overeenkomst. Als de URL overeenkomt, 
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Buiten het publiek dat op URL richt, kunt u specifieke waarden specificeren die in de vraag kunnen zijn.
+Buiten het publiek dat op URL richt, kunt u specifieke waarden ook specificeren die in de vraag kunnen zijn.
 
 ### URL-doel
 
@@ -65,7 +65,7 @@ De beste manier is om meerdere waarden aan één categorie te koppelen, zoals hi
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## Waarom worden bij het maken van publiek vooraf gebouwde soorten publiek onder Doelbibliotheek gevonden onder andere categorieën? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## Waarom worden bij het maken van publiek vooraf gebouwde soorten publiek onder [!DNL Target] Bibliotheek gevonden onder andere categorieën? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 Het vooraf gebouwde publiek in de categorie Doelbibliotheek is verouderd publiek en bestaat in andere categorieën. Het publiek van de oudere doelbibliotheek > Nieuwe bezoekers heeft bijvoorbeeld een bijgewerkte tegenhanger: Bezoekersprofiel > Nieuwe bezoeker.
 
@@ -73,7 +73,7 @@ De beste manier is om het nieuwere publiek te gebruiken omdat het betere prestat
 
 ## Hoe weet ik hoe verkeer verdeeld zal worden tussen het publiek? {#section_067EEFB956E7465CBF77EC86834470AB}
 
-Door gebrek, is het verkeer gelijkmatig tussen ervaringen verdeeld. U kunt echter voor elke ervaring streefpercentages opgeven. In dit geval wordt een willekeurig getal gegenereerd en wordt dat nummer gebruikt om de ervaring te kiezen die moet worden weergegeven. De resulterende percentages zouden niet precies de gespecificeerde doelstellingen kunnen aanpassen, maar meer verkeer betekent dat de ervaringen dichter aan de doeldoelstellingen zouden moeten worden verdeeld.
+Door gebrek, is het verkeer gelijkmatig tussen ervaringen verdeeld. U kunt echter voor elke ervaring streefpercentages opgeven. In dit geval wordt een willekeurig getal gegenereerd en wordt dat nummer gebruikt om de ervaring te kiezen die u wilt weergeven. De resulterende percentages zouden niet precies de gespecificeerde doelstellingen kunnen aanpassen, maar meer verkeer betekent dat de ervaringen dichter aan de doeldoelstellingen zouden moeten worden verdeeld.
 
 ## Welke ervaring toont als een gebruiker voor een activiteit kwalificeert die veelvoudige ervaringen met veelvoudige gekwalificeerde publiek bevat? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
@@ -83,7 +83,7 @@ Bijvoorbeeld, in de volgende illustratie, kwalificeert een gebruiker van Califor
 
 ![](assets/audiences_order.png)
 
-## Waarom verschillen namen voor hetzelfde publiek in Target, Adobe Audience Manager (AAM) en de Audience Library in kernservices? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Waarom verschillen namen voor hetzelfde publiek in [!DNL Target], Adobe Audience Manager (AAM) en de Audience Library in core services? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 De namen van het publiek in [!DNL Target] zijn uniek; nochtans, in [!DNL AAM] en [!DNL Audience Library], kunt u de zelfde naam voor veelvoudige publiek hebben (als zij in verschillende omslagen zijn).Wanneer [!DNL Target] een publieksnaam ontmoet die aan [!DNL AAM] of [!DNL Audience Library] publiek beantwoordt, [!DNL Target] toevoegt &quot;#&lt;number>&quot;aan de naam.
 
@@ -93,7 +93,7 @@ U kunt bijvoorbeeld het volgende publiek zien: &quot;PC Users&quot; (in [!DNL AA
 
 Sommige doelgroepen zijn vooraf gedefinieerd, zoals &quot;Nieuwe bezoekers&quot; en &quot;Terugkerende bezoekers&quot;. Gebruikers kunnen de naam van dit vooraf gedefinieerde publiek niet wijzigen.
 
-## Waarom worden alle profielparameters niet getoond in het gebruikersinterface van het Doel? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Waarom worden alle profielparameters niet getoond in [!DNL Target] gebruikersinterface? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielattributen aan [!DNL Target] moet overgaan, kunt u hen overgaan gebruikend de [!UICONTROL Profile Update] API methode. Zie [Profielupdate](https://developers.adobetarget.com/api/#authentication-tokens) in de Adobe Target API-documentatie voor meer informatie.
 
@@ -101,7 +101,7 @@ Sommige doelgroepen zijn vooraf gedefinieerd, zoals &quot;Nieuwe bezoekers&quot;
 
 Automated Personalization-activiteiten worden één keer per sessie geëvalueerd. Als er actieve sessies waren die in aanmerking kwamen voor een bepaalde ervaring en er nu nieuwe aanbiedingen aan zijn toegevoegd, zien gebruikers de nieuwe inhoud samen met de eerder weergegeven aanbiedingen. Omdat ze eerder gekwalificeerd waren voor die ervaringen, zouden ze ze nog steeds zien gedurende de sessie. Als u dit bij elk paginabezoek wilt evalueren, kunt u beter overschakelen op het type activiteit Experience Targeting (XT).
 
-## Waarom worden wijzigingen aangebracht in publiek dat via API is gemaakt, niet weerspiegeld in de doelinterface? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Waarom worden wijzigingen aangebracht in soorten publiek die zijn gemaakt via API, niet weergegeven in de gebruikersinterface van [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 In tegenstelling tot aanbiedingen en profielscripts, worden wijzigingen die door API worden aangebracht in publiek dat is gemaakt via Target Standard, momenteel niet opnieuw gesynchroniseerd naar de doelinterface.
 
@@ -114,7 +114,7 @@ Bijvoorbeeld:
 | Waarde | Doelcriteria | Resultaat |
 | --- | --- | --- |
 | 1,0 | is gelijk aan 1 | true |
-| 3 | equalsIgnoreCase 1.0 | true |
+| 1 | equalsIgnoreCase 1.0 | true |
 | 1,230 | is gelijk aan 1 | true |
 | 1,500 | is gelijk aan 1,5 | true |
 | 1,200 | is kleiner dan 2 | true |
