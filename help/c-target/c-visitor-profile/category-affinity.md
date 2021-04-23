@@ -1,22 +1,22 @@
 ---
 keywords: affiniteit;categorie-affiniteit
-description: In deze video ziet u meer informatie over rubriekaffiniteit in Adobe Target, waarin automatisch categorieën worden vastgelegd die gebruikers bezoeken. Vervolgens wordt de affiniteit van de gebruiker voor de categorie berekend, zodat deze kan worden aangewezen en gesegmenteerd.
+description: Meer informatie over categorie-affiniteit in Adobe [!DNL Target] die automatisch categorieën vastlegt die een gebruiker bezoekt en vervolgens de affiniteit van de gebruiker voor de categorie berekent, zodat deze kan worden aangewezen en gesegmenteerd.
 title: Wat is rubriekaffiniteit?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '797'
 ht-degree: 3%
 
 ---
 
-
-# Categorie-affiniteit{#category-affinity}
+# Categorie-affiniteit
 
 Met de functie voor affiniteit van categorieën worden automatisch de categorieën vastgelegd die een gebruiker bezoekt en wordt vervolgens de affiniteit van de gebruiker voor de categorie berekend, zodat deze kan worden geactiveerd en gesegmenteerd. Dit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die het meest waarschijnlijk op die informatie handelen.
 
-## Categorieaffiniteitsgegevens doorgeven aan doel {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Categorieaffiniteitsgegevens doorgeven in [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Wanneer een gebruiker uw site bezoekt, worden profielparameters die specifiek zijn voor de bezoeker opgenomen in de [!DNL Target]-database. Deze gegevens zijn gekoppeld aan de cookie van de gebruiker. Een bijzonder nuttige parameter is `user.categoryId`, een mbox-parameter die op een productpagina is toegewezen. Terwijl de bezoeker doorbladert of voor een andere sessie terugkeert, kunnen de productcategorieën van een bepaalde gebruikersweergave worden opgenomen. U kunt categorieinformatie ook registreren door het als mbox parameter `user.categoryId` in om het even welk vakje (met inbegrip van een genestelde mbox), als URL parameter `user.categoryId`, of in de paginaparameters van het Doel met een globale mbox door te geven. Raadpleeg uw accountvertegenwoordiger voor meer informatie.
 
