@@ -1,16 +1,16 @@
 ---
 keywords: geautomatiseerde personalisatie;ap;publiek;ensemble;random forest;multi-gewapende bandit;thompson sampling;ml;machine leren
-description: Leer hoe u Automated Personalization-activiteiten (AP) gebruikt in Adobe Target die gebruik maken van geavanceerd computerleren om verschillende aanbiedingsvariaties voor elke bezoeker op elkaar af te stemmen.
+description: Leer hoe u Automated Personalization-activiteiten (AP) gebruikt in Adobe [!DNL Target] die gebruikmaken van geavanceerd leren van computers om verschillende aanbiedingsvariaties voor elke bezoeker op elkaar af te stemmen.
 title: Wat is een Automated Personalization-activiteit (AP)?
 feature: Automated Personalization
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMAutomated Personalization (AP)
 
