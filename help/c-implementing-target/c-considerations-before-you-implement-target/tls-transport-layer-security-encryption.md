@@ -1,19 +1,19 @@
 ---
 keywords: tls;tls 1.0;veiligheid van de vervoerlaag;encryptie;tls 1.1;tls 1.2
-description: Leer hoe het Doel het protocol van TLS (de Veiligheid van de Laag van het Vervoer) gebruikt om de hoogste veiligheidsnormen te handhaven en de veiligheid van uw klantengegevens te bevorderen.
-title: Hoe gebruikt het doel TLS om beveiliging te bieden?
-feature: Privacy & Security
+description: Leer hoe [!DNL Target] het protocol van TLS (de Veiligheid van de Laag van het Vervoer) gebruikt om de hoogste veiligheidsnormen te handhaven en de veiligheid van uw klantengegevens te bevorderen.
+title: Hoe  [!DNL Target] Gebruik TLS om veiligheid te verstrekken?
+feature: Privacy en beveiliging
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
-
-# TLS (Transport Layer Security)-coderingswijzigingen{#tls-transport-layer-security-encryption-changes}
+# De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)
 
 Informatie over veranderingen in hoe [!DNL Adobe] en [!DNL Adobe Target] TLS (de Veiligheid van de Laag van het Vervoer) gebruiken om de hoogste veiligheidsnormen te handhaven en de veiligheid van klantengegevens te bevorderen.
 
@@ -59,7 +59,7 @@ Overweeg het volgende terwijl u deze wijziging wilt uitvoeren (de deadline van 1
 
 Zie [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) voor meer informatie over ondersteunde browsers en hun versies.
 
-## Adobe Target API&#39;s {#section_88797FA5434049EC89F908853CC76903}
+## Adobe [!DNL Target] API&#39;s {#section_88797FA5434049EC89F908853CC76903}
 
 Vanaf 1 maart 2020 bieden doel-API&#39;s geen ondersteuning meer voor TLS 1.1-codering. Klanten die toegang hebben tot de API moeten controleren of dit geen gevolgen heeft.
 
