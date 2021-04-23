@@ -1,18 +1,18 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Nieuw bij Adobe Target? Met de Adobe Target Welcome Kit kunt u aan de slag.
+description: Nieuw bij Adobe Target? Krijg een sprong-begin met de Adobe [!DNL Target] Welkome Kit.
 title: Hoe begin ik met het doel
-feature: Overview
+feature: Overzicht
+exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Target-welkomstkit
+# Adobe [!DNL Target] welkomstkit
 
 Welkom bij Adobe Target.
 
