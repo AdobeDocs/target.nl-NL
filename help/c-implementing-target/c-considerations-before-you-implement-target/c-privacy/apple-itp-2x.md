@@ -1,17 +1,17 @@
 ---
 keywords: appel;ITP;intelligente traceringspreventie;beleving cloud-id;ecid
-description: Meer informatie over Adobe Target en de impact van het Apple Intelligent Tracking Prevention (ITP)-initiatief dat de privacy van Safari-gebruikers wil beschermen.
-title: Hoe wordt door het doel Apple ITP-ondersteuning ondersteund?
-feature: Privacy & Security
+description: Meer informatie over Adobe [!DNL Target] en de impact van het Apple Intelligent Tracking Prevention (ITP)-initiatief dat de privacy van Safari-gebruikers wil beschermen.
+title: Hoe wordt  [!DNL Target] Apple ITP-ondersteuning verwerkt?
+feature: Privacy en beveiliging
 role: Developer
+exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
-
 
 # Apple Intelligent Tracking Prevention (ITP) 2.x
 
@@ -27,7 +27,7 @@ Deze versies van ITP bevatten de volgende beperkingen:
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Verminderde de 7-daagse vervalsingsdop drastisch tot één dag.<br>Release van 24 april 2019. |
 | [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | Er zijn verschillende tijdelijke oplossingen verwijderd, zoals het gebruik van localStorage of het gebruik van JavaScript `Document.referrer property`.<br>Release van 23 september 2019. |
 
-## Wat is de impact voor mij als Adobe Target-klant? {#impact}
+## Wat is de impact voor mij als Adobe [!DNL Target] klant? {#impact}
 
 [!DNL Target] biedt JavaScript-bibliotheken waarmee u inhoud op uw pagina&#39;s kunt implementeren zodat u uw bezoekers in real-time kunt personaliseren.  [!DNL Target] Er zijn drie JavaScript-doelbibliotheken ([at.js 1.x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) en [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) die cookies aan de clientzijde [!DNL Target] via de `document.cookie`-API in de browsers van uw bezoekers plaatsen. Als gevolg hiervan worden [!DNL Target] cookies beïnvloed door ITP 2.x van Apple en verlopen deze na zeven dagen (met ITP 2.1) en na één dag (met ITP 2.2 en ITP 2.3).
 
@@ -42,7 +42,7 @@ Apple ITP 2.x beïnvloedt [!DNL Target] op de volgende gebieden:
 
 ## Heeft mijn huidige implementatie van [!DNL Target] gevolgen?
 
-Navigeer in een Safari-browser naar de website waarop u een JavaScript-bibliotheek hebt. [!DNL Target] Als u een [!DNL Target] koekje ziet dat in de context van een CNAME, zoals `analytics.company.com` wordt geplaatst, dan wordt u niet beïnvloed door ITP 2.x.
+Navigeer in een Safari-browser naar uw website waarop u een JavaScript-bibliotheek [!DNL Target] hebt. Als u een [!DNL Target] koekje ziet dat in de context van een CNAME, zoals `analytics.company.com` wordt geplaatst, dan wordt u niet beïnvloed door ITP 2.x.
 
 Als u de Experience Cloud-id (ECID)-bibliotheek gebruikt in aanvulling op de JavaScript-doelbibliotheek, wordt de implementatie beïnvloed op de manieren die in dit artikel worden vermeld: [Safari ITP 2.1 Impact op klanten van Adobe Experience Cloud en Experience Platform](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
