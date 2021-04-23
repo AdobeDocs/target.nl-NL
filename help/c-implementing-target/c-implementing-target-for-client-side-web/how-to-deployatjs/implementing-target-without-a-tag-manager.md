@@ -1,19 +1,19 @@
 ---
 keywords: doel implementeren;implementatie;implementatie uitvoeren op.js;tagbeheer;apparaatbeslissingen;op apparaatbeslissingen
-description: Leer hoe u de instellingen opgeeft (accountgegevens, implementatiemethoden, enz.) om de Adobe Target at.js-bibliotheek te implementeren zonder een tagbeheer te gebruiken.
-title: Kan ik Doel implementeren zonder tagbeheer?
-feature: Implement Server-side
+description: Leer hoe u de instellingen opgeeft (accountgegevens, implementatiemethoden, enz.) om de Adobe [!DNL Target] at.js bibliotheek zonder een markeringsmanager uit te voeren.
+title: Kan ik  [!DNL Target] zonder een Manager van de Markering uitvoeren?
+feature: Server-kant implementeren
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1652'
 ht-degree: 3%
 
 ---
 
-# Doel implementeren zonder tagbeheer
+# [!DNL Target] implementeren zonder tagbeheer
 
 Informatie over het implementeren van [!DNL Adobe Target] zonder een tagmanager ([!DNL Adobe Experience Platform Launch] of [!DNL Dynamic Tag Manager]).
 
@@ -124,14 +124,14 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target]-interface of de
 * Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js de Details van de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### Download at.js gebruikend de interface van het Doel {#section_1F5EE401C2314338910FC57F9592894E}
+### Download at.js met de [!DNL Target]-interface {#section_1F5EE401C2314338910FC57F9592894E}
 
 [!DNL at.js] downloaden van de [!DNL Target] interface:
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 1. Klik in de sectie [!UICONTROL Implementation methods] op de knop **[!UICONTROL Download]** naast de gewenste versie at.js.
 
-### Download at.js met de doel-API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Download at.js met de [!DNL Target] Download-API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 [!DNL at.js] downloaden met behulp van de API.
 
