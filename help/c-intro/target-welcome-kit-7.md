@@ -1,18 +1,18 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Laten we aan de slag gaan met je eerste activiteit in Adobe Target, zodat je investeringsrendement kunt behalen.
+description: Laten we beginnen met uw eerste activiteit in Adobe [!DNL Target] zodat u ROI op uw investering kunt verkrijgen.
 title: Ik moet mijn eerste activiteit in Doel creëren. Waar begin ik?
-feature: Overview
+feature: Overzicht
+exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
 
-
-# Hoofdstuk 7: Uw eerste doelactiviteit maken en uitvoeren
+# Hoofdstuk 7: Uw eerste [!DNL Target]-activiteit maken en uitvoeren
 
 U bent dus klaar om aan de slag te gaan met uw eerste activiteit in [!DNL Target]? Uitstekend. Hier vindt u een activiteit voor uw website, mobiele site of mobiele app die niet al te complex is. Deze activiteit kan een snel rendement op uw investeringen opleveren en u kunt enthousiast maken over de mogelijkheden om [!DNL Target] te gebruiken voor het testen en personaliseren. Afhankelijk van uw organisatie en zijn nadruk, zou u het gaan van één van drie verschillende routes met die eerste activiteit kunnen overwegen.
 
@@ -30,7 +30,7 @@ U kon een [Ervaring richten](/help/c-activities/t-experience-target/experience-t
 
 Voorbeeld: Een luchtvaartmaatschappij richt haar leden op platina-niveau aan met een speciaal aanbod dat hun punten op hun volgende vliegaankoop verdubbelt om hen te belonen en klantenloyaliteit verder op te bouwen.
 
-## Route 3: Toepassing van AI en automatisering om op grote schaal individuele bezoekers te personaliseren
+## Route 3: Toepassing van AI en automatisering om individuele bezoekers op schaal te personaliseren
 
 U kunt een door AI aangedreven activiteit opzetten om de beste ervaring van verscheidene voor elke bezoeker te leveren door [Auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) in de tweede stap van de A/B testopstellingswerkschema eenvoudig te selecteren. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder handig zijn als u niet weet welke ervaring geschikt is voor verschillende bezoekers. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
 
@@ -106,6 +106,6 @@ Nadat de activiteit heeft voltooid, documenteer de resultaten, die zeker zijn om
 
 De resultaten van uw activiteiten geven vaak inzicht in acties die u daarna moet ondernemen. Als een variatie in de ervaring echt succesvol was, kunt u dat in uw website hard-code willen. Misschien ziet u mogelijkheden om dat succes toe te passen op vergelijkbare pagina&#39;s. De resultaten zouden aan meer werk kunnen wijzen om de klantenervaring op deze pagina te verbeteren. In dit gebied kunt u de belangrijkste lessen uit de activiteit documenteren en documenteren wat u op basis van deze lessen gaat doen.
 
-## Open Target en maak en start uw activiteiten
+## [!DNL Target] openen en uw activiteit maken en starten
 
 U hebt uw activiteitenplan ingevuld. Nu is het tijd om de oplossing in te pakken en uw activiteiten uit te bouwen. [!DNL Target] maakt het supergemakkelijk om uw Web-pagina in de  [!UICONTROL Visual Experience Composer]te wijzigen.
