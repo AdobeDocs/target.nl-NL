@@ -1,13 +1,13 @@
 ---
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time e-mail
-description: Leer hoe u e-mail kunt integreren met Adobe Target Recommendations, inclusief het gebruik van de API voor doellevering, webvaksjablonen en sjablonen voor alleen downloads.
+description: Leer hoe u e-mail kunt integreren met Adobe [!DNL Target] Recommendations, including using the [!DNL Target] Delivery API, framesjablonen en sjablonen met alleen downloads.
 title: Hoe integreer ik Recommendations met e-mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Het e-mailsysteem dat u gebruikt, moet deze scenario&#39;s kunnen verwerken:
 * In dit geval zal de reactie wat als mboxDefault parameterwaarde wordt geplaatst zijn. Zie de uitleg hieronder over deze parameter.
 * De e-mailprovider moet een standaard HTML-blok met aanbevelingen hebben om in dit geval te gebruiken.
 
-### De time-out van de doelserver en retourneert deze zonder gegevens
+### De [!DNL Target]-server keer uit en retourneert zonder gegevens
 
 * In dit geval retourneert de doelserver de volgende inhoud:
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Optioneel) | 1 | Standaard wordt de aanroeper omgeleid wanneer geen te leveren inhoud wordt gevonden. Gebruik deze optie om het standaardgedrag uit te schakelen. |  |
 | `mbox3rdPartyId` | *xxx* | Gebruik deze optie als u uw eigen aangepaste bezoeker-id wilt gebruiken voor het opgeven van profielen. |  |
 
-### Mogelijke reacties op doelserver
+### Potentiële [!DNL Target] serverreacties
 
 | Antwoord | Beschrijving |
 |--- |--- |
