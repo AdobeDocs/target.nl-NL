@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;intro;introductie;webinar;demo
-description: Meer informatie over Recommendations-activiteiten in Adobe Target die automatisch inhoud weergeven die uw klanten interesseert op basis van eerdere gebruikersactiviteiten of andere algoritmen.
+description: Meer informatie over Recommendations-activiteiten in Adobe [!DNL Target] die automatisch inhoud weergeven die uw klanten interesseert op basis van eerdere gebruikersactiviteiten of andere algoritmen.
 title: Wat zijn Recommendations-activiteiten?
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
+source-wordcount: '2115'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMInleiding naar Recommendations
 
@@ -57,7 +57,7 @@ Grote aanbevelingen moeten relevant en gepersonaliseerd zijn. Dit betekent dat u
 * **Verfijnde** modellen om inzicht te krijgen in miljoenen items in uw catalogus en interactiegebeurtenissen. [!DNL Target] beschikt over geavanceerde mogelijkheden voor machinaal leren die gedurende een decennium van ervaring zijn opgebouwd en we verwerken miljarden aanbevelingen per jaar.
 * **De context van de gebruiker** om ervoor te zorgen dat de aanbevelingen voor uw gebruikers en relevant tijdig zijn. U wilt de video die iemand net heeft bekeken of het shirt dat iemand net aan zijn winkelwagentje heeft toegevoegd, niet aanbevelen. Het rijke gebruikersprofiel van het doel kan in aanbevelingen worden gebruikt om verpersoonlijking te verzekeren.
 
-## Doel Recommendations implementeren
+## [!DNL Target] Recommendations implementeren
 
 Begin met een strategie.
 
@@ -195,6 +195,6 @@ In de context van de inhoud kunt u bijvoorbeeld films uitsluiten die de bezoeker
 
 Nadat u de taken voltooit die in de hierboven beschreven aanbevelingen trechter worden geïllustreerd, wordt u verlaten met uw definitieve aanbeveling. Als u een demonstratie in het product wilt bekijken binnen [!DNL Target], begint de demo om 21:00 in *Adobe Target Basics Webinar*, onderaan gekoppeld.
 
-## Adobe Target Basics Webinar: Inleiding tot Recommendations {#intro-to-recs}
+## Adobe [!DNL Target] Basics Webinar: Inleiding tot Recommendations {#intro-to-recs}
 
 [Inleiding tot Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
