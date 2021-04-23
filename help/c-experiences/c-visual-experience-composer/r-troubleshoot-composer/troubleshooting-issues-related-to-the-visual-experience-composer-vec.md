@@ -1,22 +1,22 @@
 ---
 keywords: gericht;visuele ervaringscomposer;vec;los visuele ervaringscomposer problemen op;het oplossen van problemen;tls;tls 1.2
-description: Leer hoe te om problemen problemen op te lossen die soms in Adobe Target Visual Experience Composer (VEC) onder bepaalde voorwaarden voorkomen.
+description: Leer hoe te om problemen problemen op te lossen die soms in Adobe [!DNL Target] Visual Experience Composer (VEC) onder bepaalde voorwaarden voorkomen.
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer problemen op?
 feature: Visual Experience Composer (VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
-
 
 # Problemen met de Visual Experience Composer oplossen
 
 Weergaveproblemen treden soms op in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) onder bepaalde omstandigheden.
 
-## Wanneer ik mijn website in de Visuele Composer van de Ervaring open, laden de bibliotheken van het Doel niet. (Alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Wanneer ik mijn website in Visual Experience Composer open, laden de [!DNL Target] bibliotheken niet. (Alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Doel voegt twee parameters toe (`mboxEdit=1` en `mboxDisable=1`) terwijl het openen van de website in de Composer van de Visuele Ervaring.
 
