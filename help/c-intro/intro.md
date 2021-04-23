@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;wat is adobe target;
-description: Leer de basisbeginselen van Adobe Target Standard en Adobe Target Premium. Target Premium bevat geavanceerde functies die niet beschikbaar zijn in het standaardproduct.
+description: Leer de basisbeginselen van Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium bevat geavanceerde functies die niet beschikbaar zijn in het standaardproduct.
 landing-page-description: Pas de ervaring van uw klanten aan om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 title: Wat is het doel?
-feature: Overview
+feature: Overzicht
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 Raadpleeg de [Klassieke documentatie van Recommendations](/help/assets/adobe-recommendations-classic.pdf) voor meer informatie.
 
-## Experience League: De Adobe Target-welkomstkit {#kit}
+## Experience League: De Adobe [!DNL Target] Welkomstkit {#kit}
 
 Bouw uw optimalisatie en verpersoonlijkingsprogramma op [!DNL Adobe Target] met deze Welkome Kit. De welkomstkit bevat belangrijke informatie, gereedschappen en bronnen waarmee u uw eerste [!DNL Target]-activiteit kunt voorbereiden en starten. De kit bevat ideeën voor snelle wins op korte termijn en optimalisatiestrategieën op lange termijn.
 
