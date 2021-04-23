@@ -1,16 +1,16 @@
 ---
 keywords: Doelstelling
-description: Leer hoe Adobe Target de conversiesnelheid, de lift, het vertrouwen (statistische significantie) en het betrouwbaarheidsinterval voor elke ervaring weergeeft en berekent.
+description: Leer hoe Adobe [!DNL Target] de conversiesnelheid, lift, betrouwbaarheid (statistische significantie) en betrouwbaarheidsinterval voor elke ervaring toont en berekent.
 title: Hoe bekijk ik het Tarief van de Omzetting, Lift, en het Niveau van het Vertrouwen?
-feature: Reports
+feature: Rapporten
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2162'
 ht-degree: 0%
 
 ---
-
 
 # Omrekeningskoers
 
@@ -112,7 +112,7 @@ Als u deze berekende metriek wilt berekenen, downloadt u het Excel-bestand [Comp
 >
 >Deze rekenmachine is bedoeld voor op Target gebaseerde rapportage en niet voor A4T-rapportage.
 
-## Offlineberekeningen uitvoeren voor Analytics voor Doel (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Offlineberekeningen uitvoeren voor analyse voor Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics].
 
@@ -186,7 +186,7 @@ U kunt rapporten weergeven met de volgende telmethoden:
 >
 >Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook als de PCID- en `sessionID`-waarden niet veranderen.
 
-## Waarom adviseert het Doel het gebruiken t-tests van de Student? {#t-test}
+## Waarom adviseert [!DNL Target] het gebruiken van t-tests van de Student? {#t-test}
 
 A/B-tests zijn experimenten om de gemiddelde waarde van bepaalde metrische bedrijfswaarden in een besturingsvariant (ook wel een ervaring genoemd) te vergelijken met de gemiddelde waarde van die metrische waarde in een of meer alternatieve ervaringen.
 
