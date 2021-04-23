@@ -1,16 +1,16 @@
 ---
 keywords: inhoudsbibliotheek;elementen;notitie;kopiëren;middelen verwijderen;element downloaden;inhoud bewerken;kaart delen;eigenschappen van inhoud weergeven
-description: Leer hoe u code- en afbeeldingsaanbiedingen in de Adobe Target Offers-bibliotheek beheert. Leer hoe u de details van een aanbieding kunt weergeven en hoe u aanbiedingen kunt bewerken, kopiëren, verplaatsen of verwijderen.
+description: Leer hoe u code- en afbeeldingsaanbiedingen beheert in de Adobe [!DNL Target] Biedt-bibliotheek. Leer hoe u de details van een aanbieding kunt weergeven en hoe u aanbiedingen kunt bewerken, kopiëren, verplaatsen of verwijderen.
 title: Hoe werk ik met inhoud in de bibliotheek met aanbiedingen?
-feature: Experiences and Offers
+feature: Ervaringen en aanbiedingen
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
-
 
 # Werken met inhoud in de elementenbibliotheek
 
