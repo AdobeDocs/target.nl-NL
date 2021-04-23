@@ -1,18 +1,18 @@
 ---
 keywords: Automated Personalization;ap;upload gegevens;offline gegevens;personalisatiealgoritme;auto target;autoTarget;best practices
-description: Leer hoe u offlinegegevens, zoals CRM-informatie, uploadt bij het maken van personalisatiemodellen in Adobe Target Automated Personalization (AP)-activiteiten.
+description: Leer hoe te om off-line gegevens, zoals informatie van CRM te uploaden, wanneer het bouwen van verpersoonlijkingsmodellen in Adobe [!DNL Target] Automated Personalization (AP) activiteiten.
 title: Hoe kan ik gegevens voor de algoritmen van de Personalisatie uploaden?
 feature: Automated Personalization
+exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-
-# Gegevens uploaden voor de Target personalization-algoritmen
+# Gegevens uploaden voor de [!DNL Target]-verpersoonlijkingsalgoritmen
 
 Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het maken van personalisatiemodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-activiteiten.
 
@@ -30,4 +30,3 @@ In de volgende lijst vindt u de aanbevolen procedures voor het uploaden van gege
 * Controleer welke gegevens Doel automatisch verzamelt ( [Gegevensverzameling voor de Verpersoonlijkingsalgoritmen van het Doel](/help/c-activities/t-automated-personalization/ap-data.md)) zodat u geen dubbele informatie verzendt. Bijvoorbeeld, gebruikt het Doel IP adressen om de codes van het ZIP van bezoekers te bepalen. Deze informatie hoeft niet als een afzonderlijke variabele te worden doorgegeven.
 * Meerdere waarden in hetzelfde kenmerk/dezelfde variabele niet doorgeven. Als er meerdere variabelen zijn samengevoegd, behandelen de personalisatiealgoritmen van Target elke tekenreeks als een unieke waarde, waardoor de waarde van de informatie voor personalisatie wordt verminderd.
 * Gebruik een gedenkwaardige en zinvolle naamgevingsconventie om uw [Persoonlijke inzichten > Rapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) begrijpelijker te maken.
-
