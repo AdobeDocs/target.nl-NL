@@ -1,19 +1,19 @@
 ---
 keywords: multi-value entiteitsattributen;douane entiteitattributen;geldige JSON;entiteitkenmerkwaarde;JSON serie;multi-getaxeerde;multivalueerde
-description: Leer hoe u aangepaste entiteitskenmerken voor enkelvoudige en meervoudige waarden gebruikt om aanvullende informatie over items in uw Adobe Target Recommendations-catalogus te definiëren.
+description: Leer hoe te om enige en multi-waarde attributen van de douaneentiteit te gebruiken om extra informatie over punten in uw Adobe [!DNL Target] catalogus van Recommendations te bepalen.
 title: Hoe gebruik ik aangepaste entiteitskenmerken?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
 
 ---
 
-
-# ![Kenmerken van ](/help/assets/premium.png) PREMIUMCcustomentity{#custom-entity-attributes}
+# ![Kenmerken van ](/help/assets/premium.png) PREMIUMCcustomentity
 
 Gebruik de kenmerken van een aangepaste entiteit met enkele en meerdere waarden in [!DNL Adobe Target Recommendations] om aanvullende informatie over items in uw catalogus te definiëren.
 
