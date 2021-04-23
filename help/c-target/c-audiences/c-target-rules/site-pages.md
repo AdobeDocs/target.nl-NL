@@ -1,18 +1,18 @@
 ---
 keywords: sitepagina's;doelsitepagina's;doel;huidige pagina;doel huidige pagina;vorige pagina;doel vorige pagina;landingspagina;doel landingspagina;http header
-description: Leer hoe u zich kunt richten op bezoekers met Adobe Target die zich op een specifieke pagina op uw site bevinden.
-title: Kan ik bezoekers richten op basis van sitepagina's?
-feature: Audiences
+description: Leer hoe u bezoekers kunt aanwijzen met Adobe [!DNL Target] die zich op een specifieke pagina op uw site bevinden.
+title: Kan I [!DNL Target] Bezoekers op basis van sitepagina's?
+feature: Soorten publiek
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
-
-# Sitepagina&#39;s{#site-pages}
+# Sitepagina&#39;s
 
 U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site bevinden.
 
@@ -103,7 +103,7 @@ U kunt zich richten op bezoekers die zich op een specifieke pagina op uw site be
 
    Als u [!UICONTROL Current Page], [!UICONTROL Previous Page], of [!UICONTROL Landing Page] kiest, zijn de [!UICONTROL Domain] en [!UICONTROL Query] opties beschikbaar. Houd rekening met het volgende wanneer u deze opties kiest:
 
-   * **Domein:** het volledige domein van de pagina. Als u een domein opgeeft, kunt u het beste &#39;contains&#39; gebruiken. &quot;Domain equals facebook.com&quot; accepteert bijvoorbeeld `m.facebook.com` of `www.facebook.com` niet. &quot;Het domein bevat facebook.com&quot;zal om het even welke variant van facebook.com goedkeuren.
+   * **Domein:** het volledige domein van de pagina. Als u een domein opgeeft, kunt u het beste &#39;contains&#39; gebruiken. &quot;Domain equals facebook.com&quot; accepteert bijvoorbeeld `m.facebook.com` of `www.facebook.com` niet. &quot;Domein bevat facebook.com&quot; accepteert elke variant van facebook.com.
    * **Query:** De inhoud van de URL na het eerste vraagteken (?).
 
       `foo.html?e0a72cb2a2c7`
