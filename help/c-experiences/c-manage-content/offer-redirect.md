@@ -1,16 +1,16 @@
 ---
 keywords: omleidingsaanbod;maak omleidingsaanbod;voeg html-aanbieding toe;geef alle URL-parameters door in omleiding;geef mboxSessionId door in omleiding (alleen nodig wanneer de omleiding naar een ander domein gaat)
-description: 'Leer hoe u omleidingsvoorstellen maakt in Adobe Target, zodat een browser omleidt naar een nieuwe pagina. '
+description: 'Leer hoe u omleidingsvoorstellen maakt in Adobe [!DNL Target] om te zorgen dat een browser omleidt naar een nieuwe pagina. '
 title: Hoe maak ik omleidingsvoorstellen?
-feature: Experiences and Offers
+feature: Ervaringen en aanbiedingen
+exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
-
 
 # Omleidingsvoorstellen maken
 
