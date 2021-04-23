@@ -1,18 +1,18 @@
 ---
 keywords: contact;wettelijk;technische ondersteuning;technische ondersteuning;ondersteuning;service;mogelijkheden;facturering;feedback
-description: Meer informatie over extra bronnen voor meer informatie over Adobe Target-functies en over hoe u contact kunt opnemen met Adobe als u hulp nodig hebt bij Target.
+description: Leer over extra middelen om u te helpen over Adobe [!DNL Target] eigenschappen leren en hoe te om Adobe te contacteren als u hulp met [!DNL Target] nodig hebt.
 title: Waar kan ik middelen en contactinformatie voor Doel vinden?
-feature: Release Notes,Overview
+feature: Opmerkingen bij de release, overzicht
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
 
-
-# Bronnen en contactgegevens{#resources-and-contact-information}
+# Bronnen en contactgegevens
 
 Informatie over extra middelen om u te helpen over de eigenschappen van het Doel leren en hoe te om Adobe te contacteren als u hulp met Doel nodig hebt.
 
@@ -46,7 +46,7 @@ Huidige opgenomen doelsessies zijn:
 | Onderwerp / Runtime / Opnamedatum | Wat u gaat leren |
 |--- |--- |
 | [tips en overzicht](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>juni 2019 | U leert:<ul><li>Voordelen van het gebruik van at.js</li><li>at.js-instellingen</li><li>Flikkerverwerking</li><li>Foutopsporing bij.js</li><li>Bekende problemen</li><li>Veelgestelde vragen</li></ul>Zie [Hoe werkt at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) voor meer informatie. |
-| [Doelpremiumwerkruimten](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49<br>september 4, 2018 | U leert:<ul><li>Een werkruimte maken (productprofiel)</li><li>Eigenschappen maken</li><li>Gebruikers toevoegen</li><li>Implementatie bijwerken</li></ul>Zie [Machtigingen voor zakelijke gebruikers](/help/administrating-target/c-user-management/property-channel/property-channel.md) voor meer informatie. |
+| [Doelpremiumwerkruimten](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49<br>september 4, 2018 | U leert:<ul><li>Een werkruimte maken (productprofiel)</li><li>Eigenschappen maken</li><li>Gebruikers toevoegen</li><li>Implementatie bijwerken</li></ul>Voor meer informatie, zie [De gebruikerstoestemmingen van de Onderneming](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>december 2017 | U leert:<ul><li>Hoe werkt VEC</li><li>Hoe te vermijden gemeenschappelijke kwesties met VEC</li><li>Werk-rond praktijken u met VEC kunt gebruiken</li></ul>Zie [Ervaringen](/help/c-experiences/experiences.md) voor meer informatie in deze handleiding. |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>januari 2018 | U leert:<ul><li>Hoe te opstelling en te bevestigen dat de integratie werkt </li><li>Hoe de integratie werkt</li><li>Meer informatie over de ideale rapporten die u kunt gebruiken in Analytics</li><li>Antwoorden op algemene vragen over A4T</li></ul>Voor meer informatie in deze gids, zie [Adobe Analytics als Rapporterende Bron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js: Voordelen en best practices](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br> voor implementatie 26:43<br>april 2018 | U leert: <ul><li>Hoe de bibliotheek at.js werkt</li><li>De voordelen van at.js ten opzichte van mbox.js</li><li>Hoe at.js flikkering beheert</li><li>Foutafhandeling in at.js</li><li>Foutopsporingsmethoden</li><li>Bekende problemen en toekomstig stappenplan</li></ul>Zie [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) voor meer informatie in deze handleiding. |
@@ -102,7 +102,7 @@ Informatie om contact op te nemen met Adobe en om inzicht te krijgen in de jurid
 Het Adobe Experience Cloud Customer Care-team is hier om u te helpen en biedt een aantal mechanismen waarmee zij zich kunnen aansluiten:
 
 * [Raadpleeg de Help-pagina&#39;s van de Experience Cloud voor advies, tips en veelgestelde vragen](https://helpx.adobe.com/marketing-cloud.html)
-* [Een korte vraag stellen op Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
+* [Een snelle vraag stellen over Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
 * [Een ticket openen voor hulp van ondersteuning](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [Neem rechtstreeks contact op met het zorgteam van de klant](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [De beschikbaarheid en status van Experience Cloud-oplossingen controleren](https://status.adobe.com/)
@@ -121,7 +121,7 @@ We zijn blij met eventuele suggesties of feedback met betrekking tot deze oploss
 
 ### Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2021 Adobe Systems Incorporated. Alle rechten voorbehouden.
+* © 2021 Adobe Systems Incorporated. all rights reserved.
 * Gepubliceerd door Adobe Systems Incorporated.
 
 [Gebruiksvoorwaarden](https://www.adobe.com/go/marketingcloud_terms_of_use)  |  [Privacy Center](https://www.adobe.com/privacy.html)
