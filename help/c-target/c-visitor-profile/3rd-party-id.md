@@ -2,17 +2,17 @@
 keywords: mbox;mbox3rdPartyId;profielsynchronisatie;profielsynchronisatie;PCID
 description: Leer hoe u mbox3rdPartyId gebruikt. Dit is de bezoekersidentiteitskaart van uw organisatie, zoals lidmaatschap identiteitskaart of het loyaliteitsprogramma van uw organisatie.
 title: Hoe gebruik ik Real-Time Profile Syncing voor mbox3rdPartyId?
-feature: Audiences
+feature: Soorten publiek
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-
-# Real-time profielsynchronisatie voor mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Real-time profielsynchronisatie voor mbox3rdPartyId
 
 De mbox3rdPartyId is de bezoeker-id van uw bedrijf, zoals de lidmaatschap-id voor het loyaliteitsprogramma van uw bedrijf.
 
