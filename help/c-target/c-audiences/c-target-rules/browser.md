@@ -1,18 +1,18 @@
 ---
 keywords: browseropties;type;browsertype;browsertaal;taal;versie;browserversie
-description: Leer hoe u in Adobe Target een publiek kunt maken dat zich richt op gebruikers die een specifieke browser of browseropties gebruiken wanneer ze uw pagina bezoeken.
-title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
-feature: Audiences
+description: Leer hoe u een publiek in Adobe [!DNL Target] kunt maken om gebruikers die een specifieke browser of specifieke browseropties gebruiken, als ze uw pagina bezoeken, als doel in te stellen.
+title: Kan I [!DNL Target] Bezoekers gebaseerd op Browser Type?
+feature: Soorten publiek
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-
-# Browser{#browser}
+# Browser
 
 U kunt zich richten op gebruikers die een specifieke browser of specifieke browseropties gebruiken wanneer zij uw pagina bezoeken.
 
