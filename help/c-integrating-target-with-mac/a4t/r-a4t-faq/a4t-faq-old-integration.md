@@ -1,16 +1,16 @@
 ---
 keywords: faq;veelgestelde vragen;analyses voor doel;a4T;sitecatalyst;campagne>recept;test&target;integratie
-description: Vind antwoorden op vragen die vaak over de erfenis SiteCatalyst aan Test&Target integratie worden gevraagd en het gebruiken van Analytics voor Doel (A4T).
+description: Vind antwoorden op vragen die vaak over de erfenis SiteCatalyst aan Test&Target integratie worden gevraagd en het gebruiken van Analytics voor  [!DNL Target] (A4T).
 title: Waar kan ik Veelgestelde vragen over de SiteCatalyst vinden om integratie te testen&richten?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # Legacy SiteCatalyst to Test&amp;Target integration - A4T Veelgestelde vragen
 
