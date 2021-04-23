@@ -3,16 +3,16 @@ keywords: Recommendations;Instellingen;naam;doel;prioriteit;duur;rapportage-inst
 description: Leer hoe u de instellingen configureert die worden gebruikt om een Recommendations-activiteit in Adobe Target te beschrijven en te besturen.
 title: Hoe configureer ik Recommendations Activity Settings?
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-
-# ![Activiteitsinstellingen voor ](/help/assets/premium.png) PREMIUMReperingen{#recommendations-activity-settings}
+# ![Activiteitsinstellingen voor ](/help/assets/premium.png) PREMIUMReperingen
 
 Informatie over de montages u kunt gebruiken om een [!UICONTROL Recommendations] activiteit in [!DNL Adobe Target] te beschrijven en te controleren.
 
