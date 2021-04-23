@@ -1,16 +1,16 @@
 ---
 keywords: publiek;selecteer publiek;kies publiek;Kiezers
-description: Het publiek bepaalt welke bezoekers van de site worden ingevoerd in uw Adobe Target-activiteit.
-title: Hoe selecteer ik een Publiek in een Activiteit van het Doel A/B?
-feature: A/B Tests
+description: Het publiek bepaalt welke bezoekers van de site worden ingevoerd in uw Adobe [!DNL Target] activiteit.
+title: Hoe selecteer ik een Publiek in a [!DNL Target] A/B Activiteit?
+feature: A/B-tests
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Doelgroep selecteren
 
@@ -34,7 +34,7 @@ Wanneer u een publiek maakt, kunt u een locatie (mbox) selecteren en parameters 
 
 >[!NOTE]
 >
->Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de publiekslijst opent en het geïmporteerde publiek langer dan 10 minuten oud is.
+>Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de lijst met doelgroepen opent en het geïmporteerde publiek langer dan 10 minuten oud is.
 
 Klik op de pijl-omlaag om het bestaande publiek te verwijderen of het publiek te wijzigen.
 
