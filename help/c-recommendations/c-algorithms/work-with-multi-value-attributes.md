@@ -1,16 +1,16 @@
 ---
 keywords: multi-value;attributes;recommendations;multi-value;multivalue;multi-value
-description: Leer hoe u met een veld met meerdere waarden in Adobe Target Recommendations werkt met speciale operatoren voor meerdere waarden, bijvoorbeeld wanneer u films met meerdere acteurs aanbeveelt.
+description: Leer hoe u met een veld met meerdere waarden werkt in Adobe [!DNL Target] Recommendations met behulp van speciale operatoren voor meerdere waarden, bijvoorbeeld wanneer u films met meerdere acteurs aanbeveelt.
 title: Kan ik multiwaardekenmerken gebruiken in Recommendations?
 feature: Recommendations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Werken met kenmerken van meerdere waarden
 
