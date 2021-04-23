@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB..n;vergelijk ervaringen;gericht;vergelijk inhoud;auto-doel;auto-toewijzen
-description: 'Leer meer over de verschillende soorten A/B-testactiviteiten in Adobe Target: Handmatig, Automatisch toewijzen en Automatisch richten. Kies de juiste voor je.'
+description: Leer over de verschillende types van de Test van A/B in Adobe [!DNL Target]  - Handboek, auto-Wijs, en auto-Doel. Kies de juiste voor je.
 title: Welk type A/B-activiteiten is als doel beschikbaar?
-feature: A/B Tests
+feature: A/B-tests
+exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
-
 
 # A/B-testoverzicht
 
