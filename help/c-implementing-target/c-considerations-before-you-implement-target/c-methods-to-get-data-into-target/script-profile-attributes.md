@@ -1,14 +1,14 @@
 ---
 keywords: implementeren;implementeren;instellen;instellen;scriptprofielkenmerken
-description: Gegevens naar doel ophalen met behulp van scriptprofielkenmerken.
-title: Hoe krijg ik gegevens in doel gebruikend de Attributen van het Profiel van het Manuscript?
-feature: Implementation
+description: Krijg gegevens in [!DNL Target] gebruikend de attributen van het manuscriptprofiel.
+title: Hoe krijg ik gegevens in [!DNL Target] Gebruikend de Attributen van het Profiel van het Manuscript?
+feature: Implementatie
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
