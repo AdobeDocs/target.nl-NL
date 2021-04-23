@@ -1,18 +1,18 @@
 ---
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme
-description: Leer hoe u de criteria (regels die bepalen welke producten of inhoud moet worden aanbevolen) selecteert die u in Adobe Target Recommendations-activiteiten wilt gebruiken.
+description: Leer hoe te om de criteria (regels te selecteren die welke producten of inhoud om) bepalen te gebruiken in uw Adobe [!DNL Target] Recommendations activiteit.
 title: Hoe selecteer ik criteria voor een Recommendations-activiteit?
 feature: Recommendations
+exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMSelecteer criteria{#select-criteria}
+# ![](/help/assets/premium.png) PREMIUMSelecteer criteria
 
 Selecteer de [criteria](/help/c-recommendations/c-algorithms/algorithms.md) om in uw [!DNL Adobe Target Recommendations] activiteit te gebruiken. Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
 
