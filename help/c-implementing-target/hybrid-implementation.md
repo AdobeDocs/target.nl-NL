@@ -1,17 +1,17 @@
 ---
 keywords: hybride plaatsing;hybride;server-kant;server-kant;client-kant;client-kant;client-kant;hybride implementatie
 description: Meer informatie over het unieke hybride Adobe Target-implementatiemodel voor personalisatie, het overvloeien van client-side en server-side implementaties.
-title: Wat is een hybride doelimplementatie?
-feature: Implementation
+title: Wat is een hybride [!DNL Target] implementatie?
+feature: Implementatie
 role: Developer
+exl-id: af898360-217f-4c90-ac26-e80735e4dd20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # Hybride implementatie
 
