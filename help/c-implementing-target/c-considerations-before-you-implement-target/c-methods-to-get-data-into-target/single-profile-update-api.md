@@ -1,14 +1,14 @@
 ---
 keywords: implementeren;implementeren;instellen;instellen;bijwerken met één profiel
-description: Gegevens naar doel ophalen met de API voor één profielupdate.
-title: Hoe krijg ik gegevens in Doel met de Single Profile Update API?
-feature: Implementation
+description: Gegevens ophalen in [!DNL Target] de API voor één profielupdate gebruiken.
+title: Hoe krijg ik Gegevens in [!DNL Target] Gebruikend de Enige API van de Update van het Profiel?
+feature: Implementatie
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
