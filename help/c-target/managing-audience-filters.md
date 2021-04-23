@@ -1,18 +1,18 @@
 ---
 keywords: Doel;publiek, filter;publiek, filter;filter
-description: Leer hoe u publieksfilters in Adobe Target kunt gebruiken om gegevens weer te geven van groepen bezoekers die een bepaalde eigenschap of een bepaalde set kenmerken delen.
+description: Leer hoe u publieksfilters in Adobe [!DNL Target] kunt gebruiken om gegevens weer te geven van groepen bezoekers die een specifieke eigenschap of een reeks kenmerken delen.
 title: Kan ik de Filters van het Publiek voor het Melden gebruiken?
-feature: Audiences
+feature: Soorten publiek
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-
-# Auditiefilters voor rapportage{#audience-filters-for-reporting}
+# Auditiefilters voor rapportage
 
 Poortfilters (of doelgroepen) zijn groepen bezoekers die een specifieke eigenschap of reeks kenmerken delen.
 
@@ -38,4 +38,3 @@ In de volgende secties vindt u meer informatie over het instellen en rapporteren
 | Combineer indien nodig meerdere soorten publiek. | [Meerdere soorten publiek combineren](/help/c-target/combining-multiple-audiences.md) |
 | Pas een publiek toe op de pagina Doelstellingen en instellingen van de activiteit. | A/B-test: [Doelstellingen en instellingen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Doelstellingen en instellingen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Meervoudige test:  [Doelstellingen en instellingen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Instellingen voor Recommendations-activiteit](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Instellingen voor activiteit: [Activiteitsinstellingen](/help/c-activities/activity-settings.md) |
 | Rapporten weergeven met informatie over uw publieksfilters. | [Rapportinstellingen](/help/c-reports/c-report-settings/report-settings.md) |
-
