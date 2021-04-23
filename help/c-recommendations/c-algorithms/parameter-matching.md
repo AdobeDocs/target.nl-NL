@@ -1,16 +1,16 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevordering;dynamische filtering;dynamische;parameter aanpassing
-description: Leer hoe u dynamisch in Adobe Target Recommendations kunt filteren door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).
+description: Leer hoe u dynamisch in Adobe [!DNL Target] Recommendations filtert door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).
 title: Hoe filteren ik op parameter-overeenkomsten in Recommendations-activiteiten?
 feature: Recommendations
+exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
 
 ---
-
 
 # ![Overeenkomende ](/help/assets/premium.png) parameters PREMIUMP
 
