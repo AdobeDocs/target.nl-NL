@@ -1,18 +1,18 @@
 ---
 keywords: partiële gegevens;partiële gegevens;A4T;discrepanties;analyses voor doel;wees;virtueel rapportsuite;fantoom;problemen oplossen;ongestikt;opgepompt;niet gespecificeerd
-description: Leer hoe u de effecten van opgeblazen bezoeken en bezoekers kunt minimaliseren wanneer u Analytics for Target (A4t) gebruikt. Leer wat "gedeeltelijke gegevens"is en hoe te om het te verminderen.
+description: Leer hoe te om de gevolgen van opgeblazen Bezoek en het tellen van de Bezoeker te minimaliseren wanneer het gebruiken van Analytics voor  [!DNL Target] (A4t). Leer wat "gedeeltelijke gegevens"is en hoe te om het te verminderen.
 title: Hoe minimaliseer ik het aantal opgeblazen bezoekers en bezoekers in A4T?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
 
-
-# Vergrote aantallen bezoeken en bezoekers in A4T minimaliseren{#minimizing-inflated-visit-and-visitor-counts-in-a-t}
+# Vergrote aantallen bezoeken en bezoekers in A4T minimaliseren
 
 Informatie om u te helpen de gevolgen van opgeblazen Bezoek en Bezoeker te minimaliseren wanneer het gebruiken van [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Adobe Target] (A4T).
 
