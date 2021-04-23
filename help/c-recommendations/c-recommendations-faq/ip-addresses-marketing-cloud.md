@@ -1,16 +1,16 @@
 ---
 keywords: IP-adres;IP-adressen;whitelist;lijst van gewenste personen;firewall;recs;feed;servers;adobe-marketingcloud;aanbevelingen
-description: Bekijk een lijst van IP adressen die in de voer-verwerkingsservers van Recommendations van het Doel worden gebruikt om u te helpen uw firewall vormen om IP adressen uit de servers van Adobe toe te staan.
+description: Bekijk een lijst van IP adressen die in  [!DNL Target] Recommendations wordt gebruikt voer-verwerkende servers helpen u uw firewall vormen om IP adressen uit de servers van Adobe toe te staan.
 title: Welke IP adressen gebruiken de servers van de het voederverwerking van Recommendations?
 feature: Recommendations
+exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 translation-type: tm+mt
-source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # ![PREMIUMIP-](/help/assets/premium.png) adressen die worden gebruikt door Recommendations-voederverwerkingsservers
 
@@ -29,4 +29,3 @@ Lijst met IP-adressen die worden gebruikt in [!DNL Adobe Target] [!DNL Recommend
 >[!NOTE]
 >
 >Deze IP-adressen zijn voor het laatst bijgewerkt op 16 maart 2021. Eerder waren de servers die tot de servers van FTP toegang hadden in het 192.243.242.0/24 IP adresblok CIDR. De servers die als host fungeren voor Recommendations API&#39;s bevinden zich in het 192.243.224.0/20 IP-adresblok CIDR.
-
