@@ -1,18 +1,18 @@
 ---
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel;automatisch doelrapport;automatisch doelrapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen
-description: Leer hoe de verschillende segmenten die door de verpersoonlijkingsmodellen van Adobe Target worden bepaald op aanbiedingen/ervaringen in de activiteit antwoorden door het Geautomatiseerde rapport van Segmenten te bekijken.
+description: Leer hoe de verschillende segmenten die door Adobe [!DNL Target] verpersoonlijkingsmodellen worden bepaald op aanbiedingen/ervaringen in de activiteit antwoorden door het Geautomatiseerde rapport van Segmenten te bekijken.
 title: Wat is het Geautomatiseerde Rapport van Segmenten?
-feature: Reports
+feature: Rapporten
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2046'
 ht-degree: 0%
 
 ---
 
-
-# ![Rapport ](/help/assets/premium.png) PREMIUMAutomated Segments{#automated-segments-report}
+# ![Rapport ](/help/assets/premium.png) PREMIUMAutomated Segments
 
 Informatie over het Geautomatiseerde rapport van Segmenten, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van de activiteiten van Automated Personalization (AP) en Auto-Target (AT).
 
@@ -158,7 +158,7 @@ De rapportage van persoonlijke inzichten (zowel [!UICONTROL Automated Segments] 
 
 **Waarom passen de totale gegevens van het bezoekersverkeer in het  [!UICONTROL Automated Segments] rapport niet mijn AP of bij Samenvatting/het rapport van Prestaties aan?**
 
-De [!UICONTROL Personalization Insights] rapporten omvatten slechts bezoekers die een stuk van inhoud zagen die door de verpersoonlijkingsmodellen van Target wordt geselecteerd (d.w.z. het controleert geen verkeer of verkeer dat door het algemene windenermodel wordt gediend). Dit verkeerstype wordt genoemd &quot;gepersonaliseerd&quot;verkeer. Het summiere prestatiesrapport in AP/AT omvat controle tegenover &quot;gericht&quot;verkeer. Het gerichte verkeer omvat gepersonaliseerd verkeer, evenals verkeer dat gebruikend het algemene windenermodel en wat willekeurig bediende verkeer werd gediend dat werd gebruikt om verder te leren.
+De [!UICONTROL Personalization Insights]-rapporten bevatten alleen bezoekers die een stuk inhoud hebben gezien dat door de personalisatiemodellen van Target is geselecteerd (d.w.z. dat er geen rekening wordt gehouden met verkeer of verkeer dat door het algemene winnersmodel wordt bediend). Dit verkeerstype wordt genoemd &quot;gepersonaliseerd&quot;verkeer. Het summiere prestatiesrapport in AP/AT omvat controle tegenover &quot;gericht&quot;verkeer. Het gerichte verkeer omvat gepersonaliseerd verkeer, evenals verkeer dat gebruikend het algemene windenermodel en wat willekeurig bediende verkeer werd gediend dat werd gebruikt om verder te leren.
 
 **Sluit de geautomatiseerde segmenten elkaar uit?**
 
