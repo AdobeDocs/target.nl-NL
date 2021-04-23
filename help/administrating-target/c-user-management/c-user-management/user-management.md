@@ -2,18 +2,18 @@
 keywords: gebruiker toevoegen;gebruiker beheren;gebruikersmachtigingen
 description: Leer hoe u de Adobe Admin Console gebruikt om gebruikers en hun machtigingen en rechten in Adobe Target te beheren.
 title: Hoe kan ik gebruikers toevoegen en machtigingen beheren?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-
-# Gebruikers{#users}
+# Gebruikers
 
 Voeg gebruikers toe en beheer hun toestemmingen in [!DNL Adobe Admin Console].
 
@@ -107,7 +107,7 @@ Gebruikers van systeembeheerders moeten gebruikers aan het systeem toevoegen. Ge
 
 Zie [Productmachtigingen en -rollen beheren in de Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in de *Handleiding voor bedrijven* voor meer informatie.
 
-## Trainingsvideo: Hoe te om de Werkruimten van het Doel ![badge van het Leerprogramma](/help/assets/tutorial.png) te vormen
+## Trainingsvideo: Adobe Target-werkruimten configureren ![Zelfstudie-badge](/help/assets/tutorial.png)
 
 Leerdoelstellingen:
 
