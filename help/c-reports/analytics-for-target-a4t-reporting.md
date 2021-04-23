@@ -1,18 +1,18 @@
 ---
 keywords: analytische gegevens voor doel;a4t;analytische gegevens als bron van de rapportage
-description: Leer hoe u Analytics for Target (A4T) gebruikt. De integratie A4T biedt u toegang tot robuuste Adobe Analytics-rapporten voor uw Adobe Target-activiteiten.
-title: Hoe gebruik ik Analytics voor Doel (A4T) het melden?
-feature: Analytics for Target (A4T)
+description: Leer hoe te om Analytics voor [!DNL Target] (A4T). The A4T integration gives you access to robust Adobe Analytics reports for your Adobe [!DNL Target] activiteiten te gebruiken.
+title: Hoe gebruik ik Analytics voor [!DNL Target] (A4T) het melden?
+feature: Analyses voor doel (A4T)
+exl-id: 43d31231-e258-458e-b371-08214fd903b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-
-# Analyses voor doelrapportage (A4T){#analytics-for-target-a-t-reporting}
+# Analyses voor Adobe Target (A4T)-rapportage
 
 Het gebruiken van Analytics als uw rapporteringsbron voor Doel (A4T) geeft u toegang tot de rapporten van Analytics voor uw activiteiten van het Doel.
 
