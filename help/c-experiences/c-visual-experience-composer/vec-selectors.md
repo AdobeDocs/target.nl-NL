@@ -1,16 +1,16 @@
 ---
 keywords: Gericht op ervaring;Bezig met landen van pagina testen
-description: 'Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd. Leer hoe u elementkiezers in de Adobe Target Visual Experience Composer (VEC) kunt gebruiken. '
+description: 'Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd. Leer hoe te om elementenselecteurs in Adobe [!DNL Target] Visual Experience Composer (VEC) te gebruiken. '
 title: Kan ik de Kiezers van het Element in Visual Experience Composer (VEC) gebruiken?
 feature: Visual Experience Composer (VEC)
+exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
-
 
 # Elementkiezers die worden gebruikt in de composer voor visuele ervaring
 
@@ -28,7 +28,7 @@ U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id w
 
 Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke IDs te gebruiken, zie [Aanbevolen Praktijken en Beperkingen van Composer van de Visuele Ervaring ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Hoe Adobe Target een kiezer genereert voor een element {#section_D89D954BCBFB486CA081BE183776A475}
+## Hoe Adobe [!DNL Target] een Kiezer voor een Element {#section_D89D954BCBFB486CA081BE183776A475} produceert
 
 Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een korte uitleg van de generatielogica:
 
@@ -100,4 +100,3 @@ In het bovenstaande proces:
 * U kunt elke CSS-kiezer gebruiken zolang deze een element in het DOM op unieke wijze identificeert.
 * De bovenstaande benadering wordt door Target gebruikt. Het doel verplicht u niet om deze benadering te gebruiken. U kunt elke kiezer toevoegen zolang punt #1 waar is.
 * U kunt elk willekeurig kenmerk in de kiezer gebruiken. Dit document gebruikt alleen een klassenaam als voorbeeld.
-
