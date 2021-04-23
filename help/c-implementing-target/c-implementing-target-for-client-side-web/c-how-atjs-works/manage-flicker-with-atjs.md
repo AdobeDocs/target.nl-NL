@@ -1,19 +1,19 @@
 ---
 keywords: flikkering;at.js;implementatie;asynchroon;asynchroon;synchroon
-description: Leer hoe u flikkering voorkomt door .js en Adobe Target (standaardinhoud wordt tijdelijk weergegeven voordat deze wordt vervangen door activiteiteninhoud) tijdens het laden van de pagina of de app.
+description: Leer hoe u bij .js en Adobe [!DNL Target] flikkering voorkomt (inhoud die standaard tijdelijk wordt weergegeven voordat deze wordt vervangen door inhoud die actief is) tijdens het laden van de pagina of de toepassing.
 title: Hoe beheert at.js Flicker?
 feature: at.js
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
-
-# Hoe at.js flikkering{#how-at-js-manages-flicker} beheert
+# Hoe at.js flikkering beheert
 
 Informatie over hoe de JavaScript-bibliotheek Doel op.js flikkering voorkomt tijdens het laden van de pagina of toepassing.
 
@@ -49,7 +49,7 @@ U kunt flikkering voorkomen door een vooraf verborgen fragment te gebruiken dat 
 
 at.js kan asynchroon worden geladen, direct ingesloten op de pagina of via een tagbeheer (Adobe Launch, Dynamic Tag Manager (DTM), enz.).
 
-Als at.js op de pagina is ingesloten, moet het fragment worden toegevoegd voordat u at.js laadt. Als u at.js laadt via een tagmanager die ook asynchroon wordt geladen, moet u het fragment toevoegen voordat u het tagbeheer laadt. Als de tagmanager synchroon wordt geladen, kan het script vóór at.js worden opgenomen in de tagmanager.
+Als at.js op de pagina is ingesloten, moet het fragment worden toegevoegd voordat u at.js laadt. Als u at.js laadt via een tagmanager die ook asynchroon wordt geladen, moet u het fragment toevoegen voordat u het tagbeheer laadt. Als tagbeheer synchroon wordt geladen, wordt het script mogelijk vóór at.js opgenomen in de tagmanager.
 
 Het vooraf verborgen codefragment ziet er als volgt uit:
 
