@@ -1,18 +1,18 @@
 ---
 keywords: gericht;doelbibliotheek;bibliotheek
 description: Leer hoe u bezoekers kunt aanwijzen met behulp van vooraf opgebouwd verouderde publiek. De beste manier is om de nieuwere publiekscategorieën te gebruiken voor betere prestaties.
-title: Kan ik bezoekers richten op basis van vooraf gebouwde richtingsregels?
-feature: Audiences
+title: Kan ik [!DNL Target] Bezoekers op basis van vooraf gebouwde richtingsregels?
+feature: Soorten publiek
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
-
-# Doelbibliotheek{#target-library}
+# Doelbibliotheek
 
 De gebruikers van het doel die op pre-gebouwde het richten regels worden gebaseerd.
 
