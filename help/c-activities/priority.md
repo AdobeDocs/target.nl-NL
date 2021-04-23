@@ -1,22 +1,22 @@
 ---
 keywords: instellingen;prioriteit
-description: Leer hoe Adobe Target bepaalt welke activiteit (of activiteiten) er op een pagina moet worden uitgevoerd, afhankelijk van welke doelinterface en welke functie voor het maken van activiteiten u gebruikt.
-title: Hoe wordt prioriteit toegekend aan verschillende activiteiten?
-feature: Activities
+description: Leer hoe u Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface en welke functie voor het maken van activiteit gebruikt.
+title: Hoe kan  [!DNL Target] Prioriteit toewijzen aan verschillende activiteiten?
+feature: Activiteiten
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
-
 
 # Prioriteit
 
 Het doel bepaalt welke activiteit (of activiteiten) om aan een pagina te leveren verschillend afhankelijk van welke interface van het Doel en welke functie van de activiteitenverwezenlijking (Visuele Composer van de Ervaring of Vorm Gebaseerde composer) u gebruikt.
 
-## Alleen de doelstandaard/Premium Visual Experience Composer of op formulier gebaseerde Composer die gebruikmaakt van alleen Global Target Request {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Alleen doelstandaard/Premium Visual Experience Composer of op formulier gebaseerde Composer met behulp van Global [!DNL Target] Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Als uw bedrijf Norm/Premium van het Doel en Visual Experience Composer exclusief gebruikt, dan kan de inhoud van veelvoudige activiteiten voor de zelfde vraag zijn teruggekeerd. De activiteiten worden geleverd gebruikend de volgende beslissingsstroom:
 
@@ -40,7 +40,7 @@ Als uw bedrijf Norm/Premium van het Doel en Visual Experience Composer exclusief
    * Als slechts één activiteit het richten van het publiek heeft, wordt die activiteit getoond.
    * Als alles of niets het richten hebben, dan wordt de activiteit die eerst werd goedgekeurd getoond.
 
-## Target Standard/Premium-composer op basis van formulieren en Target Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
+## Target Standard/Premium Form-Based Composer en [!DNL Target] Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Als u twee activiteiten hebt, één gericht op het branded onderzoekssleutelwoor
 
 Als beide doelactiviteiten dezelfde prioriteit hebben, wordt de activiteit weergegeven die het laatst is bekeken. Als de bezoeker nieuw is voor de pagina, wordt de activiteit weergegeven die het laatst is geactiveerd.
 
-## Doel Standaard/Premium op formulier gebaseerde composer met niet-globale doelverzoeken {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Doel Standaard/Premium op formulier gebaseerde composer met niet-globale [!DNL Target] verzoeken {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
