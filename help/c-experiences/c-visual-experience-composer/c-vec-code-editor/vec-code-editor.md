@@ -1,18 +1,18 @@
 ---
 keywords: css kiezer;aangepaste code;code editor;Mobile Web Experience Editor
-description: Leer hoe u het deelvenster Wijzigingen in Adobe Target gebruikt om paginawijzigingen weer te geven en extra wijzigingen toe te voegen (CSS-kiezer, Mbox en Aangepaste code).
+description: Leer hoe u het deelvenster Wijzigingen in Adobe [!DNL Target] kunt gebruiken om paginawijzigingen weer te geven en extra wijzigingen toe te voegen (CSS-kiezer, Mbox en Aangepaste code).
 title: Welke wijzigingen kan ik aanbrengen in mijn pagina?
 feature: Visual Experience Composer (VEC)
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2091'
 ht-degree: 0%
 
 ---
 
-
-# Wijzigingen{#modifications}
+# Wijzigingen
 
 Informatie over de pagina Wijzigingen in [!DNL Adobe Target] waarmee u wijzigingen op de pagina kunt bekijken en extra wijzigingen (CSS-kiezer, Mbox en Aangepaste code) kunt toevoegen.
 
