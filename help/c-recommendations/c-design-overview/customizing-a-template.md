@@ -1,18 +1,18 @@
 ---
 keywords: aangepast ontwerp;snelheid;decimaal;komma;ontwerp aanpassen
-description: Leer hoe u de ontwerptaal van de opensource-snelheid kunt gebruiken om aanbevelingen aan te passen in Adobe Target Recommendations.
+description: Leer hoe u de ontwerptaal van de opensource-snelheid gebruikt om aanbevolen ontwerpen aan te passen in Adobe [!DNL Target] Recommendations.
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
 feature: Recommendations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCPas een ontwerp aan met Snelheid{#customize-a-design-using-velocity}
+# ![](/help/assets/premium.png) PREMIUMCPas een ontwerp aan met Snelheid
 
 Gebruik de ontwerptaal van de snelheid open-source om aanbevelingen in [!DNL Adobe Target Recommendations] aan te passen.
 
@@ -20,7 +20,7 @@ Gebruik de ontwerptaal van de snelheid open-source om aanbevelingen in [!DNL Ado
 
 Informatie over snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org).
 
-Alle logica van de Snelheid, syntaxis, etc. kan voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *for* lussen, *if* verklaringen, en andere code kunt tot stand brengen gebruikend Snelheid eerder dan JavaScript.
+Alle logica van de Snelheid, syntaxis, etc. kunnen voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *for* lussen, *if* verklaringen, en andere code kunt tot stand brengen gebruikend Snelheid eerder dan JavaScript.
 
 Elke variabele die naar [!DNL Recommendations] wordt verzonden in de `productPage` box of de CSV upload kan in een ontwerp worden getoond. Naar deze waarden wordt verwezen met de volgende syntaxis:
 
