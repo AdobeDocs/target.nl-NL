@@ -1,16 +1,16 @@
 ---
 keywords: Doel;analyse;traceringsserver;analyse voor doel;a4t
-description: Leer hoe u een activiteit in Adobe Target configureert om Adobe Analytics als bron voor rapportage te gebruiken. Deze integratie wordt genoemd Analytics voor Doel (A4T).
+description: Leer hoe te om een activiteit in Adobe te vormen [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T).
 title: Hoe kan ik de analysegegevens als doel gebruiken?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
-
 
 # Analysegegevens gebruiken
 
@@ -18,7 +18,7 @@ U kunt een activiteit in [!DNL Adobe Target] vormen om [!DNL Adobe Analytics] al
 
 Voor gedetailleerde informatie over vestiging Analytics als gegevensbron voor Doel, zie [Adobe Analytics als Rapporterende Bron voor Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-Voordat u een activiteit instelt die Analytics als bron voor rapportage gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de campagne. Hoewel u extra metriek op elk ogenblik in Analytics kunt selecteren, moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
+Voordat u een activiteit instelt die Analytics als bron voor rapportage gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de inkomsten per bezoeker (RPV) of het verhogen van de klik op uw winkelwagentje. Kies een maatstaf voor het uiteindelijke succes van de campagne. Hoewel u extra metriek op elk ogenblik in Analytics kunt selecteren, moet u bepaalde metrisch nog specificeren u deze test om verwacht te beïnvloeden.
 
 >[!NOTE]
 >
