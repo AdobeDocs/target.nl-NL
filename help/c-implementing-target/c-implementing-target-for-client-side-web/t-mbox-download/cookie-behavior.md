@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 0%
 
 ---
 
-# mbox.js cookies{#mbox-js-cookies}
+# mbox.js, cookies
 
 Het gedrag van de cookie hangt af van het feit of het een cookie van een eerste partij, een cookie van een derde partij met een cookie van de eerste partij of van een cookie van een andere fabrikant alleen is.
 
@@ -117,7 +117,7 @@ Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers campagnes
 | controleren | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
 | disable | Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand mbox.js. Standaard duurt dit 1 uur. |
 
-## Effect op Doel voor Safari-bezoekers door wijzigingen {#section_2A2E5730ED7D4A0985C904AFEA310AAE} van Apple WebKit bijhouden
+## Effect op [!DNL Target] voor Safari-bezoekers door wijzigingen in het bijhouden van Apple WebKit {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **Hoe werkt Adobe Target Tracking?**
 
