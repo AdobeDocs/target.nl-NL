@@ -1,18 +1,18 @@
 ---
 keywords: op formulieren gebaseerde ervaringscomposer;op formulieren gebaseerde composer;verfijningen
-description: Leer hoe u de Adobe Target Form-Based Experience Composer kunt gebruiken voor het maken van niet-visuele ervaringen. Gebruik deze composer wanneer VEC niet beschikbaar of niet praktisch is te gebruiken.
+description: Leer hoe u de Adobe [!DNL Target] Form-Based Experience Composer kunt gebruiken voor het maken van niet-visuele ervaringen. Gebruik deze composer wanneer VEC niet beschikbaar of niet praktisch is te gebruiken.
 title: Hoe gebruik ik de op formulieren gebaseerde Experience Composer?
 feature: Form-based Experience Composer
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '758'
 ht-degree: 2%
 
 ---
 
-
-# Form-Based Experience Composer{#form-based-experience-composer}
+# Formuliergebaseerde Experience Composer
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in A/B-tests, Experience Targeting, Automated Personalization en Recommendations-activiteiten wanneer de visuele ervaringscomposer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten.
 
