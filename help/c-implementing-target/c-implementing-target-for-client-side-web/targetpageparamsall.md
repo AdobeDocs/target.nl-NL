@@ -1,17 +1,17 @@
 ---
 keywords: targetPageParamsAll;targetPageParameter;PageParamsAll;pageparamsall;page params;page parameters;at.js;function;function
-description: Gebruik de targetPageParamsAll() functie voor de Adobe Target at.js JavaScript bibliotheek om parameters aan alle dozen van buiten de verzoekcode vast te maken.
+description: Gebruik de targetPageParamsAll() functie voor de Adobe [!DNL Target] at.js JavaScript bibliotheek om parameters aan alle dozen van buiten de verzoekcode vast te maken.
 title: Hoe gebruik ik de functie targetPageParamsAll()?
 feature: at.js
 role: Developer
+exl-id: 58fbb62e-30da-486f-b771-6452ad5e27e6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # targetPageParamsAll()
 
