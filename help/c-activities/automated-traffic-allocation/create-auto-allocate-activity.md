@@ -1,16 +1,16 @@
 ---
 keywords: automatisch toewijzen maken;A/B-test;automatisch toewijzen van activiteit;nieuwe a/b-activiteit;automatisch toewijzen;automatisch toewijzen aan beste ervaring;toewijzen;automatisch toewijzen
-description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken om een auto-Wijs A/B activiteit van de Test direct op een Doel-Toegelaten pagina tot stand te brengen.
+description: Leer hoe te om Visuele Composer van de Ervaring (VEC) in Adobe te gebruiken  [!DNL Target] om een auto-Wijs direct activiteit van de Test A/B op een  [!DNL Target]-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een automatisch toegewezen activiteit?
-feature: Auto-Allocate
+feature: Automatisch toewijzen
+exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # Een activiteit voor automatisch toewijzen maken
 
