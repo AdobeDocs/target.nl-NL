@@ -1,23 +1,23 @@
 ---
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: Meer informatie over de oudere mbox.js-implementatie van Adobe Target. Migreer naar de Adobe Experience Platform Web SDK (AEP Web SDK) of naar de nieuwste versie van at.js.
-title: Welke verouderde plug-ins worden niet ondersteund in target at.js?
+title: Welke verouderde plug-ins worden niet ondersteund in [!DNL Target] at.js?
 feature: at.js
 role: Developer
+exl-id: 1d858f5b-58dc-4181-9cb5-aa6b22011abc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
-
 # at.js plug-ins
 
 Informatie over ondersteunde en niet-ondersteunde insteekmodules van het type at.js in Adobe Target.
 
-Veel mensen hebben aangepaste plug-ins en responsplug-ins voor [!DNL mbox.js] gemaakt. Deze aangepaste plug-ins worden mogelijk niet door [!DNL at.js] ondersteund zonder te worden bijgewerkt.
+Veel mensen hebben aangepaste plug-ins en responsplug-ins voor [!DNL mbox.js] gemaakt. Deze aangepaste plug-ins worden mogelijk niet ondersteund door [!DNL at.js] zonder te worden bijgewerkt.
 
 Neem contact op met uw accountvertegenwoordiger als u een plug-in gebruikt die hier niet wordt vermeld en u de status wilt weten.
 
