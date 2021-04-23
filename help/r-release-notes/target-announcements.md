@@ -1,13 +1,13 @@
 ---
 keywords: aankondigingen;vaardigheid bouwen;ontwikkelaarspraatje;koffieonderbreking;gebeurtenissen;forrester;gartner;webinar
-description: Lees aankondigingen en meld u aan voor Adobe Target-gebeurtenissen, waaronder Skill Builder-sessies, chats voor ontwikkelaars en productmanagers, webinars en meer.
-title: Waar kan ik doelaankondigingen en gebeurtenissen vinden?
-feature: Release Notes
+description: Lees aankondigingen en onderteken omhoog voor Adobe [!DNL Target] gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid, ontwikkelaar en productmanager klusjes, webinars, en meer.
+title: Waar kan ik  [!DNL Target] aankondigingen en Gebeurtenissen vinden?
+feature: Opmerkingen bij de release
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In dit geregistreerde webinar bespreken de productdeskundigen van Adobe Target h
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinar: Hoe HSBC Adobe Target en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
+## Webinar: Hoe HSBC Adobe [!DNL Target] en AI gebruikt om personalisatie snel te optimaliseren en te leveren op schaal
 
 * **[Bekijk hier](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true) de webinar opname.**
 
@@ -49,7 +49,7 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 
 *McKinsey-artikel: &quot;[De terugwinning COVID-19 zal digitaal](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot;Mei 2020 zijn
 
-## Adobe Target Skill Builder: Chat ontwikkelaar, migrate Adobe Target mbox.js aan at.js {#skill-builder}
+## Adobe [!DNL Target] Skill Builder: Chat ontwikkelaar, migrate Adobe [!DNL Target] mbox.js aan at.js {#skill-builder}
 
 Met de veroudering van mbox.js op 31 maart 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
 
