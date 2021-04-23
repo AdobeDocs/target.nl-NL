@@ -1,18 +1,18 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken
-description: Leer hoe u een aangepast publiek kunt maken en deze kunt opslaan in de Adobe Target-bibliotheek voor soorten publiek voor gebruik in uw activiteiten.
+description: Leer hoe u aangepaste soorten publiek maakt en deze opslaat in de Adobe [!DNL Target] Soortenbibliotheek voor gebruik in uw activiteiten.
 title: Hoe kan ik publiek maken?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-
-# Stimuleer publiek in doel{#build-audiences-in-target}
+# Stimuleer publiek in doel
 
 U kunt aangepaste doelgroepen maken en deze opslaan in de doelbibliotheek voor gebruik in uw activiteiten. U kunt een bestaand publiek kopiëren dat u vervolgens kunt bewerken om een vergelijkbaar publiek te maken en meerdere soorten publiek te combineren.
 
