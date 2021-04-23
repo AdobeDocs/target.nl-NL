@@ -1,16 +1,16 @@
 ---
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme;aanbeveling sleutel;douane sleutel;industrie verticaal;kleinhandel;handel;lood generatie;b2b;financiële diensten;media;het publiceren
-description: Leer hoe je criteria gebruikt in Adobe Target Recommendations. Criteria zijn regels die bepalen welke inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers.
-title: Hoe gebruik ik criteria in Target Recommendations?
+description: Leer hoe u criteria gebruikt in Adobe [!DNL Target] Recommendations. Criteria zijn regels die bepalen welke inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers.
+title: Hoe gebruik ik criteria in [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMCCriteria
 
