@@ -1,18 +1,18 @@
 ---
 keywords: faq;veelgestelde vragen;analyses voor doel;a4t;provisioning;provisioning;adobe Experience Cloud
-description: Vind antwoorden op vragen die vaak over leveringAnalytics voor Doel (A4T) worden gevraagd, wat u Analytics laat gebruiken rapporteert voor de activiteiten van het Doel.
+description: Vind antwoorden op vragen die vaak over leveringAnalytics voor  [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] activiteiten worden gevraagd.
 title: Waar kan ik informatie over A4T aanvankelijke levering vinden?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
-# Aanvankelijke levering - A4T Veelgestelde vragen{#initial-provisioning-a-t-faq}
+# Aanvankelijke levering - Veelgestelde vragen A4T
 
 Dit onderwerp bevat antwoorden op vragen die vaak over levering [!DNL Adobe Analytics] als rapporteringsbron voor [!DNL Adobe Target] (A4T) worden gevraagd.
 
@@ -24,7 +24,7 @@ Een standaard A4T-use-case met meerdere pagina&#39;s implementeren:
 
 * Voor de resterende pagina&#39;s op de site, waar alleen de gegevens van Analytics moeten worden bijgehouden, implementeert u Analytics op die pagina&#39;s. Het is niet nodig Target op deze pagina&#39;s te implementeren. De metriek Analytics die over die pagina&#39;s wordt gevangen wordt automatisch vastgemaakt aan de activiteit van het Doel de gebruiker oorspronkelijk voor kwalificeerde, die op de informatie van het Doel wordt gebaseerd aan die bezoeker van het voorafgaande kogel in bijlage.
 
-## Hoe kan ik vertellen of A4T op mijn rekening van het Doel wordt toegelaten? {#section_4437D284448F4313BF953D4B6EDBACA6}
+## Hoe kan ik vertellen of A4T op mijn [!DNL Target] rekening wordt toegelaten? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [Vereisten voor gebruikersmachtigingen](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
@@ -48,6 +48,6 @@ Zie &quot;Waarom laden mijn rapportsuites niet?&quot; Boven. De oorzaak van dit 
 
 Zie &quot;Waarom laden mijn rapportsuites niet?&quot; hierboven. De oorzaak van dit probleem is hetzelfde.
 
-## Waarom zijn mijn rapporten in Target leeg? {#section_3837104757464CB488C5A83014A669A1}
+## Waarom zijn mijn rapporten in [!DNL Target] leeg? {#section_3837104757464CB488C5A83014A669A1}
 
 Zie &quot;Waarom laden mijn rapportsuites niet?&quot; hierboven. De oorzaak van dit probleem is hetzelfde.
