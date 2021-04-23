@@ -1,19 +1,19 @@
 ---
 keywords: implementeren;implementeren;implementatie;tagbeheer;dtm;at.js;dynamisch tagbeheer
-description: Leer hoe u de Adobe Target at.js-bibliotheek implementeert met behulp van het verouderde Dynamic Tag Management (DTM). De Lancering van de Adobe is de aangewezen methode om Doel uit te voeren.
-title: Kan ik Doel implementeren met Dynamic Tag Management (DTM)?
-feature: Implement Server-side
+description: Leer hoe u de Adobe [!DNL Target] at.js-bibliotheek implementeert met behulp van het verouderde Dynamic Tag Management (DTM). De Lancering van de Adobe is de aangewezen methode om  [!DNL Target] uit te voeren.
+title: Kan ik  [!DNL Target] implementeren met Dynamic Tag Management (DTM)?
+feature: Server-kant implementeren
 role: Developer
+exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-
-# Doel implementeren met dynamisch tagbeheer (DTM)
+# [!DNL Target] implementeren met Dynamic Tag Management (DTM)
 
 Adobe Dynamic Tag Management (DTM) is beheer van bestaande Adobe (beheer van oudere tags).
 
