@@ -1,18 +1,18 @@
 ---
 keywords: faq;veelgestelde vragen;analyses voor doel;a4T;opgeblazen;bezoek;bezoeker;gedeeltelijke hit;wees;wees;gedeeltelijk geraakt
-description: Vind antwoorden op vragen over opgeblazen bezoek en bezoekersaantallen wanneer het gebruiken van Analytics voor Doel (A4T). Leer hoe u "gedeeltelijke gegevens" minimaliseert.
+description: Vind antwoorden op vragen over opgeblazen bezoek en bezoekersaantallen wanneer het gebruiken van Analytics voor [!DNL Target] (A4T). Leer hoe u "gedeeltelijke gegevens" minimaliseert.
 title: Waar kan ik Veelgestelde vragen over de Inflated Visit en de Tellingen van de Bezoeker met A4T vinden?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-
-# Opgeblazen bezoek en aantal bezoekers - A4T veelgestelde vragen{#inflated-visit-and-visitor-counts-a-t-faq}
+# Opgeblazen bezoek en aantal bezoekers - A4T Veelgestelde vragen
 
 Dit onderwerp bevat antwoorden op vragen die vaak over opgeblazen bezoek en bezoekersaantallen wanneer het gebruiken van Analytics als rapporteringsbron voor Doel (A4T) worden gevraagd.
 
@@ -50,12 +50,12 @@ Na 14 november 2016 neemt Adobe alleen gegevens op wanneer zowel de tag [!DNL Ta
 
 Er zijn ook stappen die u kunt uitvoeren om ongewenste resultaten met gedeeltelijke gegevens te minimaliseren. Voor meer informatie, zie &quot;wat de Beste praktijken zijn om Gedeeltelijke Gegevens te verminderen?&quot; in [Inflated Visit and Visitor Counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235) minimaliseren.
 
-## Als gegevens met een gedeeltelijke gegevenshit uit de rapportage worden verwijderd, verlies ik dan geen waardevolle doel- of analysegegevens? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## Verlies ik dan geen waardevolle [!DNL Target]- of analysegegevens als gegevens die gedeeltelijk door gegevens zijn geraakt, uit de rapportage worden verwijderd? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 Het opnemen van gedeeltelijke gegevens in [!DNL Analytics]-rapportage biedt weliswaar aanvullende informatie, maar creëert ook inconsistentie met historische gegevens uit perioden waarin geen [!DNL Target]-activiteiten werden uitgevoerd. Het opnemen van gegevens die gedeeltelijk worden geraakt, kan problemen veroorzaken voor [!DNL Analytics] gebruikers die tendensen in tijd analyseren.
 
 Er zijn stappen die u kunt uitvoeren om hits met gedeeltelijke gegevens te minimaliseren. Voor meer informatie, zie &quot;wat de Beste praktijken zijn om Gedeeltelijke Gegevens te verminderen?&quot; in [Inflated Visit and Visitor Counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235) minimaliseren.
 
-## Zijn er om het even welke specifieke soorten activiteiten van het Doel die eerder gedeeltelijk-gegevensklappen zullen veroorzaken? {#section_69837442A9B84366BEFDA4588B31E574}
+## Zijn er om het even welke specifieke soorten [!DNL Target] activiteiten die eerder gedeeltelijke-gegevensklappen zullen veroorzaken? {#section_69837442A9B84366BEFDA4588B31E574}
 
 Met de omleidingsaanbiedingen wordt een gebruiker direct naar een andere pagina gestuurd. Dit betekent dat de [!DNL Analytics]-aanroep niet op de eerste pagina wordt afgespeeld.
