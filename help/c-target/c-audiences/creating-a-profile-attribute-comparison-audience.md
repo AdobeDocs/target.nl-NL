@@ -1,18 +1,18 @@
 ---
 keywords: publiek;prioriteit;profielkenmerk;vergelijken;vergelijken;publiek maken;publiek maken;publiek maken
-description: Leer hoe te om een publiek te bepalen om twee profielattributen voor uw bibliotheek van het Doelpubliek of in een activiteit-slechts publiek te vergelijken.
+description: Leer hoe te om een publiek te bepalen om twee profielattributen voor uw  [!DNL Target] bibliotheek van het publiek of in een activiteit-slechts publiek te vergelijken.
 title: Kan ik twee profielkenmerken vergelijken voor gebruik bij het publiek?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
-
-# Creeer een publiek van de profielattributen vergelijking{#create-a-profile-attribute-comparison-audience}
+# Een vergelijkingspubliek voor profielkenmerken maken
 
 Definieer een publiek om twee profielkenmerken te vergelijken voor uw [Audience library](/help/c-target/c-audiences/audiences.md) of in een [activity-only publiek](/help/c-target/creating-activity-only-audience.md). Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
 
