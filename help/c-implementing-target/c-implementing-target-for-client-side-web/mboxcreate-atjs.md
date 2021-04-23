@@ -1,19 +1,19 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
-description: Gebruik de functie mboxCreate() voor de JavaScript-bibliotheek Adobe Target at.js om aanbiedingen toe te passen op de dichtstbijzijnde DIV met de naam van de mboxDefault-klasse. (om 1.js)
+description: Gebruik de functie mboxCreate() voor de JavaScript-bibliotheek Adobe [!DNL Target] at.js om aanbiedingen toe te passen op de dichtstbijzijnde DIV met de klassenaam mboxDefault. (om 1.js)
 title: Hoe gebruik ik de functie mboxCreate()?
 feature: at.js
 role: Developer
+exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
-
-# mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
+# mboxCreate(mbox,params) - at.js 1.x
 
 Voert een verzoek uit en past de aanbieding op dichtstbijzijnde div met mboxDefault klassennaam toe.
 
@@ -21,7 +21,7 @@ Voert een verzoek uit en past de aanbieding op dichtstbijzijnde div met mboxDefa
 >
 >Deze functie is beschikbaar voor at.js versies 1.** Alleen. Deze functie is vervangen door de release van at.js 2.x. Deze functie retourneert standaardinhoud als deze wordt gebruikt met at.js 2.x.
 
-Deze functie is vooral ingebouwd in [!DNL at.js] om de overgang van [!DNL mbox.js] naar [!DNL at.js] te vergemakkelijken. Een nieuwer alternatief voor `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` of de hoekige instructie.
+Deze functie is vooral ingebouwd in [!DNL at.js] om de overgang van [!DNL mbox.js] naar [!DNL at.js] te vergemakkelijken. Een nieuwer alternatief voor `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` of de richtlijn van de Angular.
 
 ## Voorbeeld
 
