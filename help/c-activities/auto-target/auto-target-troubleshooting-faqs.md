@@ -2,15 +2,15 @@
 keywords: autotarget;het richten;verkeerstoewijzing;vaak gestelde vragen;faq;het oplossen van problemen;het oplossen van problemen;verkeer
 description: Onderzoek het oplossen van problemenonderwerpen en Veelgestelde Vragen over activiteiten Auto-Target in Adobe Target.
 title: Hoe kan ik auto-doelactiviteiten problemen oplossen?
-feature: Auto-Target
+feature: Automatisch doel
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 0%
 
 ---
-
 
 # ![Problemen met ](/help/assets/premium.png) PREMIUMAuto-Target en veelgestelde vragen
 
@@ -33,7 +33,7 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UI
 
 * Probeer de ervaringen tijdens de activiteiten niet ingrijpend te wijzigen.
 
-### adviseert u dat wij AutoDoel met 90 (Controle)/10 (Gericht) verdelen gebruiken tot de modellen worden gebouwd?
+### adviseert u dat wij Auto [!DNL Target] met 90 (Controle)/10 (Gericht) verdelen gebruiken tot de modellen worden gebouwd?
 
 Uw optimale verdeling van de verkeerstoewijzing hangt af van wat u wilt verwezenlijken.
 
@@ -149,4 +149,3 @@ Dit wordt verwacht.
 In een [!UICONTROL Auto-Target] activiteit, zodra een omzettingsmetrisch (of optimalisatiedoel of post doel) wordt omgezet, wordt de gebruiker vrijgegeven uit de ervaring en de activiteit wordt opnieuw begonnen.
 
 Bijvoorbeeld, is er een activiteit met metrisch (C1) en extra metrisch (A1). A1 is afhankelijk van C1. Wanneer een bezoeker de activiteit voor het eerst ingaat, en de criteria voor het omzetten A1 en C1 niet worden omgezet, wordt metrische A1 niet omgezet toe te schrijven aan het succes metrische gebiedsdeel. Als de bezoeker C1 omzet en dan A1 omzet, wordt A1 nog niet omgezet omdat zodra C1 wordt omgezet, de bezoeker wordt vrijgegeven.
-
