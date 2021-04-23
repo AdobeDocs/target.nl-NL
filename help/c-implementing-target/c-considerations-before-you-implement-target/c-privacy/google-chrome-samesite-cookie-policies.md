@@ -1,17 +1,17 @@
 ---
 keywords: google;samesite;cookies;chroom 80;ietf
-description: Ontdek hoe Adobe Target omgaat met de SameSite IETF-standaard die is geïntroduceerd met Google Chrome versie 80 en wat u moet doen om aan dit beleid te voldoen.
-title: Hoe handelt Target het Samesite Cookie-beleid van Google af?
-feature: Privacy & Security
+description: Ontdek hoe Adobe [!DNL Target] de SameSite IETF-standaard verwerkt die is geïntroduceerd met Google Chrome versie 80 en wat u moet doen om aan dit beleid te voldoen.
+title: 'Hoe gaat u omgaan met het Samesite Cookie-beleid van Google? [!DNL Target] '
+feature: Privacy en beveiliging
 role: Developer
+exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2048'
 ht-degree: 0%
 
 ---
-
 
 # Google Chrome SameSite-cookiebeleid
 
@@ -19,7 +19,7 @@ Google zal standaard een nieuw beleid voor cookies gaan toepassen voor gebruiker
 
 Vanaf Chrome 80 moeten webontwikkelaars expliciet opgeven welke cookies op verschillende websites kunnen worden gebruikt. Dit is het eerste van de vele aankondigingen die Google voornemens is te doen om de privacy en veiligheid op het web te verbeteren.
 
-Gezien het feit dat Facebook op het punt van privacy en veiligheid op de proppen is gekomen, hebben andere belangrijke spelers zoals Apple en nu Google snel geprofiteerd van de mogelijkheid om nieuwe identiteiten te creëren als privacy- en veiligheidskampioen. Apple leidde het pakket door begin dit jaar via ITP 2.1 en onlangs, ITP 2.2, wijzigingen aan te kondigen in zijn beleid voor cookies. In ITP 2.1 blokkeert Apple cookies van derden volledig en worden cookies die zijn gemaakt op de browser slechts zeven dagen bewaard. In ITP 2.2 worden cookies slechts één dag bewaard. De aankondiging van Google is bij lange na niet zo agressief als die van Apple, maar het is de eerste stap naar hetzelfde einddoel. Zie [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) voor meer informatie over het beleid van Apple.
+Gezien het feit dat Facebook op het gebied van privacy en veiligheid op de proppen is gekomen, hebben andere belangrijke spelers zoals Apple en nu Google snel geprofiteerd van de mogelijkheid om nieuwe identiteiten te creëren als privacy- en veiligheidskampioen. Apple leidde het pakket door begin dit jaar via ITP 2.1 en onlangs, ITP 2.2, wijzigingen aan te kondigen in zijn beleid voor cookies. In ITP 2.1 blokkeert Apple cookies van derden volledig en worden cookies die zijn gemaakt op de browser slechts zeven dagen bewaard. In ITP 2.2 worden cookies slechts één dag bewaard. De aankondiging van Google is bij lange na niet zo agressief als die van Apple, maar het is de eerste stap naar hetzelfde einddoel. Zie [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) voor meer informatie over het beleid van Apple.
 
 ## Wat zijn cookies en hoe worden ze gebruikt?
 
@@ -43,9 +43,9 @@ Meer in het algemeen maken cookies van derden het mogelijk dat gegevens worden o
 
 Hoewel cookies de gebruikerservaring en energiereclame verbeteren, kunnen ze ook beveiligingskwetsbaarheden zoals CSRF-aanvallen (Cross-Site Request Modification) introduceren. Als een gebruiker zich bijvoorbeeld aanmeldt bij een banksite om creditcardrekeningen te betalen en de site verlaat zonder zich af te melden en vervolgens in dezelfde sessie naar een kwaadaardige site bladert, kan een CSRF-aanval optreden. De kwaadaardige site kan code bevatten die een aanvraag doet naar de banksite die wordt uitgevoerd wanneer de pagina wordt geladen. Aangezien de gebruiker nog steeds op de banksite is geverifieerd, kan het sessiecookie worden gebruikt om een CSRF-aanval te starten en een gebeurtenis voor de overboeking van gelden vanuit de bankrekening van de gebruiker te starten. Dit komt omdat wanneer u een site bezoekt, alle cookies in de HTTP-aanvraag zijn opgenomen. Vanwege deze veiligheidsproblemen probeert Google ze nu te verzachten.
 
-## Hoe gebruikt Target cookies?
+## Hoe gebruikt [!DNL Target] cookies?
 
-Met al deze elementen kunt u zien hoe cookies worden gebruikt. [!DNL Target] Als u [!DNL Target] in de eerste plaats wilt gebruiken, moet u de JavaScript-bibliotheek [!DNL Target] op uw site installeren. Hierdoor kunt u een cookie van de eerste partij plaatsen in de browser van de gebruiker die uw site bezoekt. Wanneer de gebruiker op uw website werkt, kunt u de gedrags- en interessegegevens van de gebruiker doorgeven aan [!DNL Target] via de JavaScript-bibliotheek. De JavaScript-bibliotheek [!DNL Target] gebruikt cookies van de eerste partij om identificatiegegevens over de gebruiker te extraheren en toe te wijzen aan de gedragsgegevens en interessegegevens van de gebruiker. Deze gegevens worden vervolgens door [!DNL Target] gebruikt om uw personalisatieactiviteiten te stimuleren.
+Met al deze elementen kunt u zien hoe cookies worden gebruikt. [!DNL Target] Als u [!DNL Target] in de eerste plaats wilt gebruiken, moet u de JavaScript-bibliotheek [!DNL Target] op uw site installeren. Hierdoor kunt u een cookie van de eerste partij plaatsen in de browser van de gebruiker die uw site bezoekt. Wanneer de gebruiker op uw website werkt, kunt u de gedrags- en interessegegevens van de gebruiker doorgeven aan [!DNL Target] via de JavaScript-bibliotheek. De JavaScript-bibliotheek [!DNL Target] gebruikt cookies van de eerste partij om identificatiegegevens over de gebruiker op te halen en toe te wijzen aan de gedragsgegevens en interessegegevens van de gebruiker. Deze gegevens worden vervolgens door [!DNL Target] gebruikt om uw personalisatieactiviteiten te stimuleren.
 
 Het doel gebruikt (soms) ook cookies van derden. Als u meerdere websites hebt die op verschillende domeinen wonen en u de gebruikersreis over die websites wilt bijhouden, kunt u cookies van derden gebruiken door interdomeintracering te gebruiken. Als u het bijhouden van bestanden tussen domeinen inschakelt in de JavaScript-bibliotheek [!DNL Target], wordt het gebruik van cookies van derden voor uw account gestart. Aangezien een gebruiker van één domein aan een ander hoopt, communiceert browser met de achterste deelserver van [!DNL Target], en in dit proces, wordt een derdekoekje gecreeerd en op browser van de gebruiker geplaatst. Met behulp van het cookie van derden dat zich in de browser van de gebruiker bevindt, kan [!DNL Target] een consistente ervaring op verschillende domeinen bieden voor één gebruiker.
 
@@ -94,7 +94,7 @@ Als u wilt begrijpen wat u moet doen om ervoor te zorgen dat [!DNL Target] blijf
 | te.js 1.** xwith cross-domain tracking enabled. | Geen effect. | U moet het HTTPS-protocol inschakelen voor uw site.<br>[!DNL Target] gebruikt een cookie van een andere fabrikant om gebruikers bij te houden en Google vereist dat cookies van andere bedrijven markering  `SameSite = None` en Beveiliging hebben. De markering voor Beveiligen vereist dat uw sites het HTTPS-protocol gebruiken. |
 | te.js 2.*x* | Geen effect. | Geen effect. |
 
-## Wat moet Target doen?
+## Wat moet [!DNL Target] doen?
 
 Wat moesten we dus doen in ons platform om u te helpen te voldoen aan het nieuwe Google Chrome 80+ SameSite cookie beleid?
 
