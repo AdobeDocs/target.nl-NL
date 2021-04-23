@@ -2,15 +2,15 @@
 keywords: klantenrelatiebeheer;de dienst van het klantenverslag;crs;crm;mbox3rdpartyid;klantenattributen;het richten;csv;crm;adobe ervaren wolken
 description: Leer hoe u bedrijfsklantgegevens uit een CRM-database (Customer relationship management) kunt gebruiken voor inhoud die op Adobe Target is gericht.
 title: Wat zijn klantkenmerken en hoe gebruik ik deze?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1489'
 ht-degree: 0%
 
 ---
-
 
 # Klantkenmerken
 
@@ -52,7 +52,7 @@ Neem de volgende informatie in overweging als uw werk met klantkenmerken en [!DN
 
    ![Klantkenmerken, tabblad](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Workflow voor klantkenmerken voor doel {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Workflow voor klantkenmerken voor [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Voer de volgende stappen uit om CRM-gegevens te gebruiken in [!DNL Target], zoals hieronder wordt geïllustreerd:
 
@@ -111,7 +111,7 @@ Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vind
    * De maximale bestandsgrootte voor elke upload met de FTP-methode is 4 GB.
    * Het aantal kenmerken dat mag worden geabonneerd: 5 voor [!DNL Target Standard] en 200 voor [!DNL Target Premium].
 
-## Klantkenmerken gebruiken in doel {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## Klantkenmerken gebruiken in [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
 U kunt klantkenmerken op de volgende manieren gebruiken:[!DNL Target]
 
