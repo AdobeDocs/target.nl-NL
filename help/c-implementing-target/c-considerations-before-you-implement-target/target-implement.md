@@ -1,18 +1,18 @@
 ---
 keywords: document.write;target;Implementeren;doel implementeren;dtm;dynamisch tagbeheer;at.js;mbox.js;target.js;mbox;adobe Experience platform web skd;aep web sdk;web sdk
-description: Implementeer Adobe Target door te verwijzen naar de doelbibliotheken (at.js of mbox.js) op uw webpagina's.
-title: JavaScript-doelbibliotheken begrijpen
-feature: Implementation
+description: Voer Adobe [!DNL Target] by referencing the [!DNL Target] bibliotheken (at.js of mbox.js) op uw Web-pagina's uit.
+title: De [!DNL Target] JavaScript-bibliotheken begrijpen
+feature: Implementatie
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 
-# JavaScript-doelbibliotheken begrijpen
+# De JavaScript-bibliotheken [!DNL Target] begrijpen
 
 Implementeer [!DNL Adobe Target] door te verwijzen naar de [!DNL Adobe Target]-bibliotheken (Adobe Experience Platform Web SDK of at.js) op uw webpagina&#39;s.
 
@@ -20,7 +20,7 @@ Implementeer [!DNL Adobe Target] door te verwijzen naar de [!DNL Adobe Target]-b
 >
 >De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten vóór 31 maart 2021 migreren van mbox.js naar at.js of naar [!UICONTROL Adobe Experience Platform Web SDK]. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) of [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) voor meer informatie.
 
-## Verschillen tussen de JavaScript-doelbibliotheken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Verschillen tussen de [!DNL Target] JavaScript-bibliotheken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 In de volgende tabel worden de verschillen tussen de JavaScript-bibliotheken [!DNL Target] uitgelegd:
 
