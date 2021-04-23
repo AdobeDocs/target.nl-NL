@@ -1,19 +1,19 @@
 ---
 keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
-description: Leer hoe te om reactietokens in de output van Adobe Target specifieke informatie te gebruiken in het zuiveren en het integreren met derdesystemen (zoals Clicktale).
+description: Leer hoe te om reactietokens in Adobe te gebruiken [!DNL Target] output specifieke informatie aan gebruik in het zuiveren en het integreren met derdesystemen (zoals Clicktale).
 title: Wat zijn reactietokens en hoe gebruik ik deze?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
 
-
-# Reactietokens{#response-tokens}
+# Reactietokens
 
 Met responstokens kunt u automatisch informatie uitvoeren die specifiek is voor [!DNL Target] (activiteitsdetails, gebruikersprofielinformatie, geografische informatie enzovoort) en die u kunt gebruiken bij foutopsporing of integratie met systemen van derden (zoals Clicktale).
 
