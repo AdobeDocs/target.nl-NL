@@ -2,17 +2,17 @@
 keywords: Doel;rapporten;rapportinstellingen;voorinstelling;doel voorinstelling;metrisch;publiek;datumbereik;instellingen;download;tabelweergave;grafiekweergave;gemiddelde lift;lift gebonden;betrouwbaarheidsinterval;vertrouwen;locatie-bijdrage;lopende gemiddelde;telmethode
 description: Leer hoe te om rapportmontages in Adobe Target, met inbegrip van metriek, publiek, datumwaaiers, en meer te vormen.
 title: Hoe vorm ik de Montages van het Rapport?
-feature: Reports
+feature: Rapporten
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
 
-
-# Rapportinstellingen{#report-settings}
+# Rapportinstellingen
 
 Informatie om u te helpen de elementen plaatsen u in uw rapport in [!DNL Adobe Target] wilt verschijnen. Rapportinstellingen kunnen voor later gebruik worden opgeslagen.
 
@@ -290,4 +290,3 @@ Als u de muis boven een van de grijze ervaringen houdt, wordt er tijdelijk een n
 Stel dat u de plotlijn voor Ervaring R wilt tonen en u niet de lijn voor Ervaring P wilt zien. U kunt de naam van P van de Ervaring klikken om het te schrappen en dan de naam van Ervaring R klikken om het, zoals hieronder getoond te selecteren:
 
 ![](assets/graph_3.png)
-
