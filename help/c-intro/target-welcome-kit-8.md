@@ -1,16 +1,16 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Gebruik de sjabloon Samenvattingsresultaten om u te helpen bij het communiceren van uw successen met uw Adobe Target-activiteiten.
-title: Hoe kan ik de resultaten van mijn doelactiviteiten met mijn organisatie delen?
-feature: Overview
+description: Gebruik het Directe Summiere malplaatje van Resultaten helpen u uw successen met uw Adobe [!DNL Target] activiteiten meedelen.
+title: Hoe kan ik de resultaten van My [!DNL Target] Acties met Mijn Organisatie delen?
+feature: Overzicht
+exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdstuk 8: Laat je activiteitenresultaten weten
 
