@@ -1,13 +1,13 @@
 ---
 keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe onderwerpen;bewerkingen;updates;update
-description: Blijf up-to-date met belangrijke toevoegingen en wijzigingen in de Adobe Target-productdocumentatie.
+description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de Adobe [!DNL Target] productdocumentatie.
 title: Waar kan ik documentatieupdates voor Doel bekijken?
-feature: Release Notes
+feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 21.4.1 (19 april 2021)
+## Adobe [!DNL Target] Standaard/Premium 21.4.1 (19 april 2021)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services and* Administration guide) | Extra informatie over sessie-id toegevoegd. |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.4.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
-## Adobe Target Standard/Premium 21.2.1 (9 maart 2021)
+## Adobe [!DNL Target] Standaard/Premium 21.2.1 (9 maart 2021)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |  | [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md) | Toegevoegde tekst die aangeeft dat entity.value een decimale notatie moet hebben (bijvoorbeeld 15.99 in plaats van 15.99). |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.2.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
-## Adobe Target Standard/Premium 21.1.1 (19 januari 2021)
+## Adobe [!DNL Target] Standaard/Premium 21.1.1 (19 januari 2021)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
