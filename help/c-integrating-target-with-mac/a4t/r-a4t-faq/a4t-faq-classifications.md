@@ -1,18 +1,18 @@
 ---
 keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;classificaties;classificatie;classificaties importeur;post-tnt-action
-description: Zoek antwoorden op vragen over classificaties en gebruik Analytics voor Doel (A4T). A4T laat u Analytics rapportering voor de activiteiten van het Doel gebruiken.
+description: Vind antwoorden op vragen over classificaties en het gebruiken van Analytics voor  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activiteiten.
 title: Waar kan ik informatie over classificaties met A4T vinden?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-
-# Classificaties - A4T Veelgestelde vragen{#classifications-a-t-faq}
+# Classificaties - A4T Veelgestelde vragen
 
 Dit onderwerp bevat antwoorden op vragen die vaak over classificaties worden gevraagd en gebruikend [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T).
 
