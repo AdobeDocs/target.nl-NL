@@ -1,18 +1,18 @@
 ---
 keywords: aanbevelingen;veelgestelde vragen;faq
-description: Bekijk een lijst met veelgestelde vragen (FAQ's) en hun antwoorden over Adobe Target Recommendations-ontwerpen.
-title: Waar kan ik antwoorden om Vragen voor doel-Recommendations te ontwerpen?
+description: Bekijk een lijst met veelgestelde vragen (FAQs) en hun antwoorden over Adobe [!DNL Target] Recommendations-ontwerpen.
+title: Waar kan ik antwoorden om Vragen voor  [!DNL Target] Recommendations te ontwerpen?
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
-
-# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMDesign  {#design-faq}
+# ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMDesign
 
 Lijst met veelgestelde vragen (FAQs) over [!DNL Adobe Target] aanbevelingen ontwerpen.
 
