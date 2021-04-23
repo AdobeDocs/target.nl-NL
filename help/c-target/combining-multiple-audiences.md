@@ -1,18 +1,18 @@
 ---
 keywords: publiek;publieksregels;samenvoegen publiek;uitsluiten;toevoegen uitsluiting;uitsluiten;combineren publiek;ad-hocpubliek
-description: Leer hoe u meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) tegelijk kunt combineren om een ad-hocpubliek te maken.
+description: Leer hoe u meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en [!DNL Target] publiek) tegelijk kunt combineren om een ad-hocpubliek te maken.
 title: Kan ik Meerdere soorten publiek combineren om een nieuw publiek te maken?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-
-# Meerdere soorten publiek combineren{#combine-multiple-audiences}
+# Meerdere soorten publiek combineren
 
 Combineer meerdere soorten publiek (inclusief Adobe Experience Cloud-publiek en doelpubliek) om een ad-hocpubliek te maken. U kunt ook uitsluitingsregels maken en het publiek uitsluiten van een regel.
 
