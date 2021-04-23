@@ -1,16 +1,16 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevordering;dynamische filtratie;statisch;statische filter
-description: Leer hoe u handmatig een of meer statische waarden invoert om te filteren met behulp van insluitingsregels in Adobe Target Recommendations.
+description: Leer hoe te om één of meerdere statische waarden manueel in te gaan om het gebruiken van inclusieregels in Adobe [!DNL Target] Recommendations te filtreren.
 title: Hoe filtert ik op statische waarden in Recommendations-activiteiten?
 feature: Recommendations
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMStatic-filter
 
@@ -29,4 +29,3 @@ U kunt zo veel inclusieregels tot stand brengen zoals nodig. De inclusieregels w
 Om een inclusieregel met statische waarden tot stand te brengen om inhoud met een classificatie MPA van &quot;G&quot;of &quot;PG&quot;slechts (exclusief &quot;R&quot;en &quot;NC17&quot;inhoud) aan te bevelen, kon u de volgende het filtreren regels &quot;film-rating evenaart g-rating&quot;en &quot;film-rating gelijk pg-schatten&quot;, zoals hieronder getoond.
 
 ![voorbeeld voor filmbeoordeling](/help/c-recommendations/c-algorithms/assets/movies.png)
-
