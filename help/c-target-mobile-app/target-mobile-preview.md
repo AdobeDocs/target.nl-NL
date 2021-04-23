@@ -1,19 +1,19 @@
 ---
 keywords: qa;voorvertoning;voorvertoningskoppeling;mobiel;mobiele voorvertoning
 description: Gebruik koppelingen voor mobiele voorvertoningen om end-to-end kwaliteitscontroles uit te voeren voor mobiele toepassingsactiviteiten. U kunt zich inschrijven voor verschillende ervaringen zonder speciale testapparaten.
-title: Hoe gebruik ik de Mobiele Verbinding van de Voorproef in Mobiel Doel?
-feature: Implement Mobile
+title: Hoe gebruik ik de Mobiele Verbinding van de Voorproef in  [!DNL Target] Mobiel?
+feature: Mobiel implementeren
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
-
-# Doelmobiele voorvertoning{#target-mobile-preview}
+# Voorvertoning voor mobiele doelversie
 
 Gebruik de koppeling voor mobiele voorvertoningen om eenvoudige end-to-end QA&#39;s voor mobiele app-activiteiten uit te voeren en uzelf in te schrijven voor verschillende ervaringen op uw apparaat zonder speciale testapparaten.
 
