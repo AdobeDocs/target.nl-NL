@@ -1,19 +1,19 @@
 ---
 keywords: mobiele app;mobiele app, proces;doel mobiele app;mobiele doellocaties;mobiele app, succesgegevens
-description: Leer hoe u Adobe Target kunt gebruiken voor optimalisatie en personalisatie voor mobiele apps, met iteratieve tests en op regels gebaseerde en door AI aangedreven personalisatie.
-title: Kan ik Target gebruiken met mobiele apps?
-feature: Implement Mobile
+description: Leer hoe u Adobe [!DNL Target] kunt gebruiken voor optimalisatie en personalisatie van mobiele apps, met iteratieve tests en op regels gebaseerde en door AI aangedreven personalisatie.
+title: Kan ik [!DNL Target] met mobiele apps gebruiken?
+feature: Mobiel implementeren
 role: Developer
+exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-
-# Doel voor mobiele apps{#target-for-mobile-apps}
+# Doel voor mobiele apps
 
 Met Adobe Target kunt u mobiele apps testen, personaliseren en optimaliseren op basis van gebruikersgedrag en mobiele context. U kunt interacties leveren die zich door het iteratieve testen evenals op regels-gebaseerde en op AI-Aangedreven personalisatie verbinden en omzetten.
 
