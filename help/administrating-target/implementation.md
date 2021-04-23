@@ -1,17 +1,17 @@
 ---
 keywords: implementeren;uitvoeren
-description: Leer hoe u Adobe Target op uw site implementeert. Stel uw algemene instellingen, implementatiemethode (AEP Web SDK of at.js) en meer in.
-title: Hoe implementeert u het doel op mijn site?
-feature: Administration & Configuration
+description: Leer hoe u Adobe [!DNL Target] op uw site implementeert. Stel uw algemene instellingen, implementatiemethode (AEP Web SDK of at.js) en meer in.
+title: Hoe implementeert u  [!DNL Target] op mijn site?
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
 
 ---
-
 
 # Implementatie
 
