@@ -1,18 +1,18 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken;alleen publiek maken;activiteit;alleen activiteit;adhoc
-description: Leer hoe u in Adobe Target alleen voor activiteiten bestemde soorten publiek maakt die voor eenmalig gebruik in de huidige activiteit zijn en niet in de Soortbibliotheek zijn opgeslagen.
+description: Leer hoe te om activiteit-slechts publiek in Adobe [!DNL Target] tot stand te brengen die voor eenmalig gebruik in de huidige activiteit en niet opgeslagen in de Bibliotheek van Soorten van het publiek zijn.
 title: Kan ik een publiek creëren om slechts één keer te gebruiken?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-
-# Creeer een activiteit-slechts publiek{#create-an-activity-only-audience}
+# Een alleen-activiteitpubliek maken
 
 Maak een alleen-activiteit publiek vanuit de driestappenworkflow met instructies bij het maken van een activiteit. Deze ad-hocdoelgroepen kunnen op andere plaatsen binnen dezelfde activiteit worden gebruikt, maar worden niet in [!UICONTROL Audiences Library] opgeslagen voor gebruik in andere activiteiten.
 
@@ -52,4 +52,3 @@ Houd rekening met de volgende informatie wanneer u alleen werkt met activiteiten
 * Toegankelijke doelgroepen hebben de status [!UICONTROL Used] of [!UICONTROL Unused]. Ongebruikte publiek met alleen activiteit wordt weergegeven totdat de activiteit is opgeslagen. Als u de activiteit niet gebruikt en probeert op te slaan, wordt een waarschuwingsbericht weergegeven met de melding dat ongebruikte publiek met alleen de activiteit wordt verwijderd.
 * U kunt de definitiedetails van het publiek op een pop-up kaart bekijken die van de publiekskiezer wordt betreden zonder het publiek te openen.
 * U kunt [meerdere soorten publiek combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om alleen-activiteit publiek te maken.
-
