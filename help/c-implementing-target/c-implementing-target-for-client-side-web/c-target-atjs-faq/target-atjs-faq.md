@@ -1,19 +1,19 @@
 ---
 keywords: at.js faq;at.js veelgestelde vragen;faq;flicker;loader;page loader;cross domain;file size;x-domain;at.js en mbox.js;x alleen;cross domain;safari;single page app;missing selectors;single page application;tt.omtr dc.net;spa;Adobe Experience Manager;AEM;ip adres, alleen;HttpOnly;secure;ip;cookie domain
-description: Lees antwoorden op veelgestelde vragen over de JavaScript-bibliotheek van Adobe Target at.js.
+description: Lees antwoorden op veelgestelde vragen over de JavaScript-bibliotheek Adobe [!DNL Target] at.js.
 title: Wat zijn algemene vragen en antwoorden over at.js?
 feature: at.js
 role: Developer
+exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2699'
+source-wordcount: '2696'
 ht-degree: 0%
 
 ---
 
-
-# at.js Veelgestelde Vragen{#at-js-frequently-asked-questions}
+# om.js Veelgestelde Vragen
 
 Antwoorden op veelgestelde vragen over at.js.
 
@@ -65,7 +65,7 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 
 >[!NOTE]
 >
->Voor nieuwe bezoekers, wanneer de Bezoeker-API aanwezig is, moet Target meerdere keren over de kabel gaan om ervoor te zorgen dat de doelaanvragen gegevens van de Experience Cloud Bezoeker-id bevatten. Voor terugkerende bezoekers, gaat het Doel over de draad slechts aan Doel om de gepersonaliseerde inhoud terug te winnen.
+>Voor nieuwe bezoekers, wanneer de Bezoeker-API aanwezig is, moet Target meerdere keren over de kabel gaan om ervoor te zorgen dat de Target-aanvragen gegevens van de Experience Cloud Bezoeker-id bevatten. Voor terugkerende bezoekers, gaat het Doel over de draad slechts aan Doel om de gepersonaliseerde inhoud terug te winnen.
 
 ## Waarom lijkt het alsof ik langzamere reactietijden na bevordering van een vorige versie van at.js aan versie 1.0.0 zie? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
@@ -84,7 +84,7 @@ Vanuit het perspectief van de reactietijd, wiskundig, kan dit als dit worden sam
 
 Zoals u kunt zien, zal [!DNL at.js] 1.0.0 de verzoeken sneller voltooien. Bovendien zijn [!DNL at.js] verzoeken asynchroon, zodat blokkeert Doel paginerendering niet. Zelfs als verzoeken seconden duren om te voltooien, ziet u nog steeds de gerenderde pagina, worden slechts enkele delen van de pagina gewist totdat Doel een reactie krijgt van de rand van het Doel.
 
-## Kan ik de doelbibliotheek asynchroon laden? {#section_AB9A0CA30C5440C693413F1455841470}
+## Kan ik de bibliotheek [!DNL Target] asynchroon laden? {#section_AB9A0CA30C5440C693413F1455841470}
 
 Met de release at.js 1.0.0 kunt u de doelbibliotheek asynchroon laden.
 
@@ -150,13 +150,13 @@ Om Safari bezoekers te ondersteunen, zou een beter X-Domein &quot;gehandicapt&qu
 
 Niet op dezelfde pagina. Tijdens het implementeren en testen van [!DNL at.js] kunt u [!DNL at.js] op sommige pagina&#39;s en [!DNL mbox.js] op andere pagina&#39;s uitvoeren totdat u [!DNL at.js] volledig hebt gevalideerd.
 
-## Kan ik de Composer van de Ervaring van het Doel Visuele in mijn enig-paginatoepassingen gebruiken? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## Kan ik [!DNL Target] Visual Experience Composer in mijn enig-paginatoepassingen gebruiken? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 Ja, u kunt VEC voor uw SPA gebruiken als u at.js 2.x gebruikt. Zie [Single Page (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) voor meer informatie.
 
 ## Kan ik de Adobe Experience Cloud Debugger gebruiken met at.js implementaties? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
-Ja. U kunt mboxTrace voor het zuiveren doeleinden of de Hulpmiddelen van de Ontwikkelaar van uw browser ook gebruiken om de verzoeken van het Netwerk te inspecteren, filtrerend aan &quot;mbox&quot;om mbox vraag te isoleren.
+Ja. U kunt mboxTrace ook gebruiken voor het zuiveren doeleinden of de Hulpmiddelen van de Ontwikkelaar van uw browser om de verzoeken van het Netwerk te inspecteren, filtrerend aan &quot;mbox&quot;om mbox vraag te isoleren.
 
 ## Kan ik speciale karakters in mbox namen met at.js gebruiken? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
@@ -212,7 +212,7 @@ Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofd
 
    Download en gebruik de nieuwste versie van [!DNL at.js] voor de beste resultaten. Zie [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) en [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2) voor meer informatie.
 
-## Wat is het domein tt.omtr dc.net dat de servervraag van het Doel gaat? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## Wat is het domein tt.omtr dc.net dat de [!DNL Target] servervraag gaat naar? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] is de domeinnaam voor Adobe EDGE netwerk, dat wordt gebruikt om alle vraag naar Doel te ontvangen.
 
