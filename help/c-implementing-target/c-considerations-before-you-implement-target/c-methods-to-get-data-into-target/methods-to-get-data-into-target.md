@@ -1,14 +1,14 @@
 ---
 keywords: implementeren;implementeren;instellen;instellen;pagina, parameter;tomcat;url gecodeerd;in-page profiel, kenmerk;mbox, parameter;in-page profiel, kenmerken;script, profielkenmerk;bulk profiel, update-API;single file, update-API;klantkenmerken;gegevensproviders;data provider;data provider
-description: Gegevens ophalen in Doel (paginaparameters, profielkenmerken, scriptprofielkenmerken, gegevensproviders, update-API's met één profiel en bulkprofielen, klantkenmerken).
+description: Gegevens ophalen in  [!DNL Target] (paginaparameters, profielkenmerken, kenmerken van scriptprofielen, gegevensproviders, API's voor één en één bulkprofielupdate, klantkenmerken).
 title: Hoe krijg ik gegevens in het doel?
-feature: Implementation
+feature: Implementatie
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
