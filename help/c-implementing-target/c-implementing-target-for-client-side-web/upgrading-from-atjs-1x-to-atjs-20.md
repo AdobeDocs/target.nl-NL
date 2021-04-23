@@ -1,19 +1,19 @@
 ---
 keywords: at.js releases;at.js versies;app van één pagina;spa;cross-domain;cross-domain
-description: Leer hoe u een upgrade uitvoert van Adobe Target op .js 1.x naar at.js 2.x. Onderzoek systeemstroomdiagrammen, leer over nieuwe en verouderde functies, en meer.
+description: Leer hoe u een upgrade uitvoert van Adobe [!DNL Target] at.js 1.x naar at.js 2.x. Onderzoek systeemstroomdiagrammen, leer over nieuwe en verouderde functies, en meer.
 title: Hoe werk ik bij van versie 1.js naar versie 2.x?
 feature: at.js
 role: Developer
+exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2756'
 ht-degree: 0%
 
 ---
 
-
-# Upgrade uitvoeren vanaf 0,js 1.** xto om.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
+# Upgrade uitvoeren vanaf 0,js 1.** xto om.js 2.*x*
 
 De nieuwste versie van at.js in [!DNL Adobe Target] verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).
 
@@ -31,9 +31,9 @@ De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.** Met weer
 
 | Bellen | Details |
 | --- | --- |
-| 3 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
+| 1 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
-| 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
+| 1 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht  `triggerView()`. |
@@ -46,9 +46,9 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 | Bellen | Details |
 | --- | --- |
-| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
-| 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
+| 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
