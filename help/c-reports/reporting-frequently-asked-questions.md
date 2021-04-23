@@ -1,16 +1,16 @@
 ---
 keywords: problemen oplossen;metrische verschillen;Veelgestelde vragen;rapporten;nieuwe bezoeker;nieuwe bezoekers;terugkerende bezoeker;terugkerende bezoekers;terugkeer bezoek;nieuw bezoek
-description: Ontdek een lijst met veelgestelde vragen en antwoorden over Adobe Target-rapportage.
-title: Waar kan ik antwoorden op vragen over Doel het Melden vinden?
-feature: Reports
+description: Ontdek een lijst met veelgestelde vragen en antwoorden over Adobe [!DNL Target] rapportering.
+title: Waar kan ik antwoorden op vragen over  [!DNL Target] Rapportering vinden?
+feature: Rapporten
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
-
 
 # Veelgestelde vragen over rapportage
 
