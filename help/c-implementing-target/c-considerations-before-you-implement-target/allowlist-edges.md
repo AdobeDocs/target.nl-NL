@@ -1,19 +1,19 @@
 ---
 keywords: implementeren;implementeren;whitelist;witte lijst;lijst van gewenste personen;lijst van gewenste personen;edge;edges
-description: Bekijk een lijst van gastheren om u te helpen de randen van Adobe Target lijsten van gewenste personen (geografisch verdeelde het dienen knopen die optimale reactietijden eind - gebruikers verzekeren).
-title: Hoe Voegt op lijst van gewenste personen ik de knopen van de Rand van het Doel?
-feature: Privacy & Security
+description: Bekijk een lijst van gastheren om u te helpen Adobe lijsten van gewenste personen  [!DNL Target] randen (geografisch verdeelde het dienen knopen die optimale reactietijden eind - gebruikers verzekeren).
+title: Hoe kan ik Lijst van gewenste personen [!DNL Target] Edge-knooppunten?
+feature: Privacy en beveiliging
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '246'
 ht-degree: 5%
 
 ---
 
-
-# Lijst van gewenste personen randknooppunten doel
+# Lijst van gewenste personen [!DNL Target] randknooppunten
 
 Informatie en een bijgewerkte lijst van gastheren om u te helpen [!DNL Adobe Target] randen lijsten van gewenste personen.
 
@@ -21,7 +21,7 @@ Een rand is een geografisch verspreide serverende architectuur die optimale reac
 
 U kunt de randknooppunten [!DNL Target] desgewenst lijsten van gewenste personen.
 
-## IP-adressen (NAT) van het netwerkadres van doelranden
+## IP-adressen (NAT) van [!DNL Target]-randen voor netwerkadresomzetting
 
 Lijst met IP-adressen van egress-randen van [!DNL Target]. Lijst van gewenste personen deze IPs als u het bereik van het Doel aan uw diensten wilt hebben.
 
@@ -49,8 +49,3 @@ Lijst van IP adressen van [!DNL Target] randen. Lijst van gewenste personen deze
 | Edge36 (Sydney) | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37 (Ierland) | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>5 2.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38 (Singapore) | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
