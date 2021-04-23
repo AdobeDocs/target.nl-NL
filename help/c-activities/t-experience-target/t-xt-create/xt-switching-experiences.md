@@ -1,16 +1,16 @@
 ---
 keywords: prioriteit;ervaring maken;prioriteit;ervaring;publiek;ervaring;schakelen tussen ervaringen;visuele ervaringscomposer
-description: Leer hoe bezoekers kunnen schakelen tussen ervaringen in een Adobe Target Experience Targeting-activiteit (XT) terwijl hun profielen evolueren.
+description: Leer hoe bezoekers kunnen schakelen tussen ervaringen in een Adobe [!DNL Target] Experience Targeting (XT) activiteit terwijl hun profielen evolueren.
 title: Kunnen bezoekers van ervaring in een ervaring veranderen richtend activiteit?
-feature: Experience Targeting
+feature: Gericht op ervaring
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # Overschakelen van ervaringen op het gebied van ervaring
 
@@ -72,4 +72,3 @@ Om deze mogelijkheden in [!DNL Target] te gebruiken, is het belangrijk om de vol
    Dit is belangrijk om in gedachten te houden in scenario&#39;s waar een bezoeker voor meer dan één van uw publiek in aanmerking zou kunnen komen. Als u bijvoorbeeld twee ervaringen hebt: Een bezoeker in New York zou in aanmerking komen voor beide soorten publiek. Daarom moet u ervoor zorgen dat de &quot;ervaring van New York&quot;vóór de &quot;Verenigde Staten&quot;ervaring in het Doel UI wordt bepaald. Dit zorgt ervoor dat de gerichtere ervaring &quot;New York&quot;de hogere prioriteit heeft, zoals aangetoond in het volgende voorbeeld:
 
    ![Priority NY > US](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
