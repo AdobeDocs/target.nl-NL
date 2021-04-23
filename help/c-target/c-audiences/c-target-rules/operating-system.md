@@ -1,18 +1,18 @@
 ---
 keywords: gericht;doelbesturingssysteem;besturingssysteem;doelbesturingssysteem;doelbesturingssysteem;doelbesturingssysteem;os;doelLinux;linux;doelvensters;doelvensters;doelMacintosh;macintosh;mac;doelMac;win;doelversie
 description: Leer hoe u bezoekers kunt aanwijzen die een bepaald besturingssysteem gebruiken (Linux, Macintosh of Windows).
-title: Kan ik bezoekers richten op basis van het besturingssysteem?
-feature: Audiences
+title: Kan I [!DNL Target] Bezoekers op basis van besturingssysteem?
+feature: Soorten publiek
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 1%
 
 ---
 
-
-# Besturingssysteem{#operating-system}
+# Besturingssysteem
 
 U kunt zich richten op bezoekers die een bepaald besturingssysteem gebruiken.
 
