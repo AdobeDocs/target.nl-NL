@@ -1,16 +1,16 @@
 ---
 keywords: spa vec;response;angular;response.js;spa visual experience composer;spa experience composer opties;single page apps;single-page-app;spa;mobile experience opties;target view
-description: Leer hoe te om SPA VEC in Adobe Target te gebruiken om tests tot stand te brengen en inhoud op SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren.
+description: Leer hoe te om SPA VEC in Adobe te gebruiken  [!DNL Target] om tests tot stand te brengen en inhoud op SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren.
 title: Hoe gebruik ik Composer van de Ervaring van de Enige Pagina App Visuele (SPA VEC)?
 feature: Visual Experience Composer (VEC)
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3655'
+source-wordcount: '3656'
 ht-degree: 0%
 
 ---
-
 
 # Single Page App (SPA) Visual Experience Composer
 
@@ -18,9 +18,9 @@ In [!DNL Adobe Target] biedt de [!UICONTROL Visual Experience Composer] (VEC) ma
 
 ![Traditionele levenscyclus versus SPA levenscyclus](/help/c-experiences/assets/trad-vs-spa.png)
 
-Met de nieuwste release introduceren we nu de VEC voor SPA. VEC voor SPA laat marketers toe om tests tot stand te brengen en inhoud op SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. De VEC kan worden gebruikt om [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op populaire kaders, zoals React en Hoekig tot stand te brengen.
+Met de nieuwste release introduceren we nu de VEC voor SPA. VEC voor SPA laat marketers toe om tests tot stand te brengen en inhoud op SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. De VEC kan worden gebruikt om [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op populaire kaders, zoals React en Angular tot stand te brengen.
 
-## Adobe Target Views and Single Page Applications
+## Adobe [!DNL Target] Weergaven en toepassingen voor één pagina
 
 Adobe Target VEC for SPA maakt gebruik van een nieuw concept genaamd Views: een logische groep visuele elementen die samen een SPA ervaring vormen. Een SPA kan daarom worden beschouwd als een overgang door weergaven in plaats van URL&#39;s, op basis van gebruikersinteracties. Een weergave kan doorgaans een hele site of gegroepeerde visuele elementen binnen een site vertegenwoordigen.
 
@@ -56,7 +56,7 @@ Bovendien kan het concept van de standpunten veel verder worden uitgebreid. Als 
 
 Marktdeelnemers kunnen nu een A/B-test uitvoeren om te zien of het wijzigen van de kleur van blauw in rood wanneer Express Delivery is geselecteerd, conversies kan stimuleren in plaats van de knopkleur blauw te houden voor beide leveringsopties.
 
-## Adobe Target-weergaven implementeren
+## Adobe [!DNL Target]-weergaven implementeren
 
 Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Target gebruiken om marketers in staat te stellen A/B- en XT-tests uit te voeren op SPA via de VEC. Hiervoor is een eenmalige ontwikkelaarsinstelling vereist. Laten we de stappen doorlopen om dit in te stellen.
 
@@ -66,7 +66,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    ![Dialoogvenster Implementatiedetails](/help/c-experiences/assets/imp-200.png)
 
-   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden opgesteld via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden opgesteld via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). De Adobe Target Extensions zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
 1. Implementeer de nieuwste functie van at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) op uw sites.
 
@@ -322,7 +322,7 @@ Ja, at.js 2.x steunt A4T voor SPA via de `triggerView()` functie aangezien u Ado
 | --- | --- |
 | 1 | `triggerView()` wordt opgeroepen in de SPA om een weergave te renderen en acties toe te passen om visuele elementen die aan de weergave zijn gekoppeld, te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
-| 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
+| 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de Target Profile Store om de bezoeker te tellen in de activiteit en de verhogingsmetriek. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
