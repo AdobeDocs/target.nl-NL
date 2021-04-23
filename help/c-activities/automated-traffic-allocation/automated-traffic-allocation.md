@@ -1,16 +1,16 @@
 ---
 keywords: geautomatiseerde verkeerstoewijzing;het richten;het Telling van de verhoging en houdt Gebruiker in Activiteit;verkeerstoewijzing;auto-toewijst;auto toewijzen
-description: Leer hoe u in Adobe Target een activiteit voor automatisch toewijzen gebruikt die de winnaar identificeert op basis van twee of meer ervaringen en automatisch meer verkeer toewijst aan de winnaar.
+description: Leer hoe te om een auto-Wijs activiteit in Adobe te gebruiken [!DNL Target] die een winnaar onder twee of meer ervaringen identificeert en automatisch meer verkeer aan de winnaar opnieuw toewijst.
 title: Wat is een automatisch toegewezen activiteit?
-feature: Auto-Allocate
+feature: Automatisch toewijzen
+exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van automatisch toewijzen
 
@@ -134,7 +134,7 @@ Deze kunnen de resultaten bij een autotoewijzing meer scheeftrekken dan bij een 
 
 Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UICONTROL Auto-Allocate]-activiteiten:
 
-### Steunt de Analyse voor Doel (A4T) Auto-Toewijzing activiteiten?
+### Ondersteunt Analytics for Adobe Target (A4T) Auto-Allocate activiteiten?
 
 Ja. Voor meer informatie, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
@@ -170,13 +170,13 @@ Auto-Allocate daarentegen is een A/B test die een gezamenlijke winnaar (de popul
 
 ### Worden de terugkerende bezoekers de omzettingspercentage op mijn succes metrisch?
 
-Op dit moment is de logica gunstig voor bezoekers die snel converteren of vaker een bezoek brengen. De reden hiervoor is dat dergelijke bezoekers tijdelijk de algemene omrekeningskoers van de ervaring die zij hebben, verhogen. Het algoritme past zich regelmatig aan, zodat wordt de verhoging van omzettingspercentage versterkt bij elke momentopname. Als de site veel bezoekers retourneert, kunnen hun conversies de algemene conversiekoers voor de ervaring tot wie ze behoren, potentieel verhogen. Er is een goede kans dat retourbezoekers willekeurig worden verdeeld, waardoor het totale effect (verhoogde lift) gelijkmatig wordt verdeeld. Om dit effect te verzachten, kunt u de telmethode van de succesmetrische methode zo wijzigen dat deze slechts eenmaal per entry wordt geteld.
+Op dit moment is de logica gunstig voor bezoekers die snel converteren of vaker een bezoek brengen. De reden hiervoor is dat dergelijke bezoekers tijdelijk de algemene omrekeningskoers van de ervaring die zij hebben, verhogen. Het algoritme past zich regelmatig aan, zodat wordt de verhoging van conversiesnelheid versterkt bij elke momentopname. Als de site veel bezoekers retourneert, kunnen hun conversies de algemene conversiekoers voor de ervaring tot wie ze behoren, potentieel verhogen. Er is een goede kans dat retourbezoekers willekeurig worden verdeeld, waardoor het totale effect (verhoogde lift) gelijkmatig wordt verdeeld. Om dit effect te verzachten, kunt u de telmethode van de succesmetrische methode zo wijzigen dat deze slechts eenmaal per entry wordt geteld.
 
 ### Kan ik de calculator van de steekproefgrootte gebruiken wanneer het gebruiken van auto-Toewijzing om te schatten hoe lang de activiteit zal duren om de winnaar te identificeren?
 
 U kunt de bestaande [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) gebruiken om een schatting te krijgen van hoe lang de test zal lopen. (Zoals bij traditionele A/B-tests kunt u Bonferroni-correctie toepassen als u meer dan twee aanbiedingen of meer dan één omzettingsmeting/hypothese test.) Deze rekenmachine is ontworpen voor traditionele A/B-tests met een vaste tijdshorizon en biedt alleen een schatting. Het gebruiken van de calculator voor een auto-Wijs activiteit is facultatief omdat auto-toewijst een winnaar voor u zal verklaren-u te hoeven om geen vast punt in tijd te kiezen om de testresultaten-verstrekt waarden te bekijken altijd statistisch geldig zijn. In onze experimenten hebben we het volgende gevonden:
 * Bij het testen van precies twee ervaringen wordt met Automatisch toewijzen een winnaar sneller gevonden dan met tests met een vaste tijdshorizon (dat wil zeggen het tijdsbestek dat wordt voorgesteld door de calculator voor de voorbeeldgrootte) wanneer het prestatieverschil tussen ervaringen groot is, maar extra tijd nodig kan zijn om een winnaar te identificeren wanneer het prestatieverschil tussen ervaringen klein is. In deze gevallen zouden de vastrentende tests doorgaans zijn geëindigd zonder een statistisch significant resultaat.
-* Bij het testen van meer dan twee ervaringen wordt met Automatisch toewijzen een winnaar sneller gevonden dan met tests met een vaste tijdshorizon (d.w.z. het tijdpad dat wordt voorgesteld door de calculator voor de voorbeeldgrootte) wanneer één ervaring alle andere ervaringen sterk overtreft. Wanneer twee of meer ervaringen allebei &quot;het winnen&quot;tegen andere ervaringen maar dicht bij elkaar aansluiten, zou de auto-Toewijzing extra tijd kunnen vereisen om te bepalen wat superieur is. In deze gevallen zouden de tests met een vaste looptijd doorgaans zijn geëindigd door te concluderen dat de &quot;winnende&quot; ervaringen beter waren dan de minder presterende ervaringen, maar niet hebben vastgesteld welke beter was.
+* Bij het testen van meer dan twee ervaringen wordt met Automatisch toewijzen een winnaar sneller gevonden dan met tests met een vaste tijdshorizon (d.w.z. het tijdpad dat wordt voorgesteld door de calculator voor voorbeeldgrootte) wanneer één ervaring alle andere ervaringen sterk overtreft. Wanneer twee of meer ervaringen allebei &quot;het winnen&quot;tegen andere ervaringen maar dicht bij elkaar aansluiten, zou de auto-Toewijzing extra tijd kunnen vereisen om te bepalen wat superieur is. In deze gevallen zouden de tests met een vaste looptijd doorgaans zijn geëindigd door te concluderen dat de &quot;winnende&quot; ervaringen beter waren dan de minder presterende ervaringen, maar niet hebben vastgesteld welke beter was.
 
 ### Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?
 
