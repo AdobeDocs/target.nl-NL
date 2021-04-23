@@ -1,19 +1,19 @@
 ---
 keywords: mobiele app;mobiele toepassingslocatie;doel mobiele app;mobiele doellocaties;mobiele app, succesgegevens
-description: Bekijk voorbeeldcode voor meer informatie over het maken van locaties en succesmetingen in iOS-apps, zodat u uw app kunt personaliseren en optimaliseren met Adobe Target.
-title: Hoe kan ik doellocaties en succeswaarden maken in een iOS-app?
-feature: Implement Mobile
+description: Bekijk voorbeeldcode om te leren hoe u locaties en succesmetingen kunt maken in iOS-toepassingen, zodat u uw app kunt personaliseren en optimaliseren met Adobe [!DNL Target] .
+title: Hoe kan ik  [!DNL Target] Locaties en succeswaarden maken in een iOS-app?
+feature: Mobiel implementeren
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
-
-# iOS - een doellocatie en succesmetrisch maken{#ios-create-a-target-location-and-success-metric}
+# iOS - een [!DNL Target]-locatie en succesmetrische waarde maken
 
 Als u Doel wilt gebruiken in uw mobiele app, maakt u een locatie en een succesmaatstaf.
 
@@ -64,7 +64,7 @@ Er zijn twee primaire methoden om een doellocatie in uw app te maken en een aanv
 
 1. Maak een succesmetrische methode.
 
-   Met de methode `targetCreateOrderConfirmRequestWithName` kunt u een metrische waarde voor conversie/succes bijhouden in uw app.
+   De methode `targetCreateOrderConfirmRequestWithName` kan worden gebruikt om een omzettings/succes metrisch in uw app te volgen.
 
    ```
    ADBTargetLocationRequest *req = [ADBMobile targetCreateOrderConfirmRequestWithName: "orderConfirm" 
