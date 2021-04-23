@@ -1,16 +1,16 @@
 ---
 keywords: problemen oplossen doel;het oplossen van problemendoel;standaardinhoud;test niet live;activiteit niet live;het richten van niet werkt;de vorige ervaringsvertoningen;kan geen activiteiten tot stand brengen;kan activiteiten creëren;de paginastructuur veranderde;de paginastructuur veranderde;foutenmelding;fout schrapt profielmanuscript;ajax werkt niet
-description: Zoek naar suggesties voor het oplossen van problemen als je Adobe Target-activiteiten niet op je site worden weergegeven.
+description: Vind het oplossen van problemensuggesties als uw Adobe [!DNL Target] activiteit niet op uw plaats verschijnt.
 title: Hoe kan ik activiteiten problemen oplossen?
-feature: Activities
+feature: Activiteiten
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
-
 
 # Problemen met activiteiten oplossen
 
@@ -22,7 +22,7 @@ Als uw [!DNL Adobe Target] activiteit niet op uw plaats verschijnt, zouden deze 
 
 De volgende secties bevatten problemen u met voorgestelde oplossingen zou kunnen ontmoeten.
 
-## Ik heb een activiteit gemaakt met de interface van het Doel en ik kan deze niet bijwerken via de API.
+## Ik heb een activiteit met [!DNL Target] UI gecreeerd en ik kan niet het via API bijwerken.
 
 Activiteiten die zijn gemaakt met behulp van de doelinterface, moeten worden bijgewerkt via de doelinterface. Activiteiten die via API zijn gemaakt, moeten via API worden bijgewerkt. Als u bijvoorbeeld oorspronkelijk een activiteit gebruikend API creeerde, maar dan later de activiteit via het Doel UI uitgeeft, niet worden alle veranderingen bijgewerkt. Alle wijzigingen worden opgeslagen op de achtergrond en kunnen worden bijgewerkt door een andere API-aanroep te maken.
 
@@ -69,7 +69,7 @@ Zorg ervoor dat de activiteit is voltooid en geactiveerd.
 * Probeer een andere browser.
 * Gebruik de modus Private/Incognito.
 
-## U bent onlangs toegevoegd aan Target, maar u kunt geen activiteiten maken.
+## U bent onlangs toegevoegd aan [!DNL Target] maar kunt geen activiteiten creëren.
 
 **Valideren:** klik op Activiteit maken. Als de optie niet beschikbaar is, hebt u hoogstwaarschijnlijk niet voldoende rechten gekregen om een activiteit tot stand te brengen.
 
@@ -96,7 +96,7 @@ Zie [Paginawijzigingsscenario&#39;s](/help/c-experiences/c-visual-experience-com
 
 **Valideren:** Vraag het de ontwikkelaar.
 
-**Opmerking:** Als Target wil weten waar wijzigingen in de activiteit moeten worden toegepast, moet u voorkomen dat er dynamisch elementen met dezelfde klasse worden ingevoegd of dat de klasse van een item op hetzelfde niveau dynamisch wordt gewijzigd.
+**Opmerking:** Als Target wil weten waar wijzigingen in de activiteit moeten worden toegepast, moet u voorkomen dat elementen met dezelfde klasse dynamisch worden ingevoegd of dat de klasse van een item op hetzelfde niveau dynamisch wordt gewijzigd.
 
 **Opties:**
 
@@ -141,6 +141,6 @@ Voer een van de volgende handelingen uit:
 
 **Opmerking:** meerdere ajax- [!DNL Target] aanroepen met dezelfde naam maar verschillende parameters werken niet op dezelfde pagina. Slechts zal de eerste vraag worden gemaakt.
 
-## U activeerde een activiteit gebruikend het Doel API, maar de activiteit toont een status van [!UICONTROL Inactive] in het Doel UI.
+## U activeerde een activiteit gebruikend [!DNL Target] API, maar de activiteit toont een status van [!UICONTROL Inactive] in [!DNL Target] UI.
 
 Wanneer u bepaalde acties uitvoert, zoals het activeren van een activiteit buiten de UI die het Doel API gebruikt, kan de update tot tien minuten duren om aan UI te verspreiden.
