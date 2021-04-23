@@ -1,13 +1,13 @@
 ---
 keywords: verkeersschatting;geautomatiseerde personalisatie;ap;schatting van verkeer;auto-target
-description: Gebruik de Adobe Target Traffic Estimator om te bepalen of u voldoende verkeer hebt om uw Automated Personalization-activiteit te laten slagen.
+description: Gebruik Adobe [!DNL Target] Verkeersschatter om te bepalen of u voldoende verkeer voor uw activiteit van Automated Personalization hebt om te slagen.
 title: Hoeveel verkeer is nodig voor een succesvolle activiteit?
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
