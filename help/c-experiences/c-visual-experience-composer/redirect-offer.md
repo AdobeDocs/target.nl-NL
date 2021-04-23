@@ -1,16 +1,16 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Leer hoe u de optie Omleiden naar URL in Adobe Target gebruikt wanneer u de bezoeker naar een andere pagina wilt sturen in plaats van de inhoud op dezelfde pagina weer te geven.
+description: Leer hoe u de optie Omleiden naar URL in Adobe [!DNL Target] gebruikt wanneer u de bezoeker naar een andere pagina wilt sturen in plaats van de inhoud op dezelfde pagina weer te geven.
 title: Kan ik een pagina omleiden naar een andere URL?
 feature: Visual Experience Composer (VEC)
+exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
-
 
 # Omleiden naar een URL
 
@@ -52,4 +52,4 @@ Een omleidingsvoorstel maken:
    * Hash-fragment (#)
    * Query
    * mbox-parameter
-   De extra regels kunnen met EN of OF aan de Activiteit URL worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
+   De extra regels kunnen tot aan de Activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
