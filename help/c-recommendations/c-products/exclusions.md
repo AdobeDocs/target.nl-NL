@@ -1,18 +1,18 @@
 ---
 keywords: uitsluitingen
-description: Leer hoe u in Adobe Target Recommendations uitsluitingen kunt maken om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen.
+description: Leer hoe u uitsluitingen maakt in Adobe [!DNL Target] Recommendations om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen.
 title: Hoe gebruik ik uitsluitingen in Recommendations-activiteiten?
 feature: Recommendations
+exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
-
-# Exclusies{#exclusions}
+# Uitsluitingen
 
 Maak een uitsluiting in [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud worden aanbevolen aan bezoekers. Een uitsluiting is een subset van producten of inhoud die niet aan bezoekers mag worden aanbevolen.
 
