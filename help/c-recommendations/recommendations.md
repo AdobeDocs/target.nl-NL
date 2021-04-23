@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;Recommendations criteria;aanbevelingen algoritmen;aanbevelingen activiteit;criteria;aanbevelingen gericht;recs
-description: Meer informatie over Recommendations-activiteiten in Adobe Target die automatisch inhoud weergeven die uw klanten interesseert op basis van eerdere gebruikersactiviteiten of andere algoritmen.
-title: Wat is Target Recommendations?
+description: Meer informatie over Recommendations-activiteiten in Adobe [!DNL Target] die automatisch inhoud weergeven die uw klanten interesseert op basis van eerdere gebruikersactiviteiten of andere algoritmen.
+title: Wat is  [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMR-aanbevelingen{#recommendations}
+# ![](/help/assets/premium.png) PREMIUMR-aanbevelingen
 
 [!DNL Adobe Target Recommendations] bij activiteiten worden automatisch producten, services of inhoud weergegeven die uw bezoekers interessant kunnen maken op basis van eerdere gebruikersactiviteiten, voorkeuren of andere criteria. [!DNL Target Recommendations] helpt directe bezoekers naar relevante objecten die zij anders wellicht niet kennen. [!DNL Recommendations] Hiermee kunt u uw bezoekers relevante inhoud op het juiste tijdstip en op de juiste plaats geven.
 
