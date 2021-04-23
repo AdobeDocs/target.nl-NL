@@ -1,19 +1,19 @@
 ---
 keywords: cookie;cookies;delete cookie;delete doel cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: Leer hoe u uw doelbrowsercookies verwijdert, zodat u uw ervaringen kunt valideren.
-title: Hoe verwijder ik de doelcookie?
-feature: Privacy & Security
+description: Leer hoe u uw  [!DNL Target] browsercookies verwijdert, zodat u uw ervaringen kunt valideren.
+title: Hoe schrap ik  [!DNL Target] Cookie?
+feature: Privacy en beveiliging
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
-
-# Het doelcookie verwijderen
+# Het cookie [!DNL Target] verwijderen
 
 U kunt uw [!DNL Adobe Target] browser koekje (mbox) schrappen zodat u al uw ervaringen tijdens het testen kunt bevestigen.
 
@@ -23,7 +23,7 @@ Als er geen [!DNL Target] koekje (mbox) is, wordt u beschouwd als een nieuwe bez
 >
 >De volgende instructies zijn correct voor de vermelde browsers en versies. Zoek op internet naar instructies voor uw specifieke browser of versie.
 
-## Het doelcookie verwijderen uit Google Chrome
+## Het [!DNL Target]-cookie verwijderen uit Google Chrome
 
 Versie 84.0.4147.105
 
@@ -33,7 +33,7 @@ Versie 84.0.4147.105
 1. Klik **Alle cookies en sitegegevens bekijken**.
 1. Breid `adobe.com` sectie uit, selecteer **mbox** koekje, dan klik het schrappingspictogram (X).
 
-## Het doelcookie verwijderen uit Mozilla Firefox
+## Het [!DNL Target]-cookie verwijderen uit Mozilla Firefox
 
 Versie 79.0
 
@@ -56,7 +56,7 @@ Versie 79.0
 1. Vouw de sectie **Cookies** uit en klik vervolgens op `https://experience.adobe.com`.
 1. Klik met de rechtermuisknop op het cookie **mbox** en klik vervolgens op **Delete**.
 
-## Het doelcookie verwijderen uit Microsoft Edge
+## Het [!DNL Target]-cookie verwijderen uit Microsoft Edge
 
 Versie 84.0.522.52
 
@@ -66,7 +66,7 @@ Versie 84.0.522.52
 1. Klik **Alle cookies en sitegegevens bekijken**.
 1. Breid `adobe.com` sectie uit, selecteer **mbox** koekje, dan klik het schrappingspictogram (X).
 
-## Het doelcookie verwijderen uit Apple Safari
+## Het [!DNL Target]-cookie verwijderen uit Apple Safari
 
 Versie 13.1.2
 
