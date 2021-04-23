@@ -3,16 +3,16 @@ kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Ontdek mogelijke uitdagingen waarmee u kunt worden geconfronteerd wanneer u Automated Personalization-activiteiten (AP) gebruikt in Adobe Target, samen met voorgestelde oplossingen.
 title: Hoe los ik Automated Personalization problemen op?
 feature: Automated Personalization
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
-
-# ![automated personalization ](/help/assets/premium.png) PREMIUMTroubleshoot{#troubleshoot-automated-personalization}
+# ![Automated Personalization ](/help/assets/premium.png) PREMIUMTroubleshoot
 
 Soms gaan activiteiten niet zoals verwacht. Hier volgen enkele potentiële uitdagingen waarmee u kunt worden geconfronteerd wanneer u Automated Personalization gebruikt en enkele oplossingen.
 
@@ -58,4 +58,3 @@ Bijvoorbeeld, is er een activiteit met metrisch (C1) en extra metrisch (A1). A1 
 
 * Als u de voorvertoning niet kunt zien op het nieuwe tabblad (vanwege de cache van de browser), probeert u de koppeling twee of drie keer te vernieuwen of kopieert u de koppeling en opent u deze in een nieuwe browser of sessie.
 * Regenereer de URL-koppelingen voor beleving als u inhoud hebt gewijzigd en deel de nieuwe koppelingen met uw collega&#39;s.
-
