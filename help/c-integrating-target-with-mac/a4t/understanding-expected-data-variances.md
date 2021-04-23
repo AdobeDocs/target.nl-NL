@@ -1,18 +1,18 @@
 ---
 keywords: gegevensvariaties;analyses;verschillen;variantie;a4t;analytische gegevens voor doel;analytische gegevens als bron van de rapportage;discrepanties;discrepantie
-description: Leer over de verwachte gegevensvariaties tussen Adobe Target en Analytics wanneer het gebruiken van Analytics voor Doel (A4T) niet, die gegevensvariantie algeheel elimineert.
+description: Leer over de verwachte gegevensvariaties tussen Adobe [!DNL Target] and Analytics when not using Analytics for [!DNL Target] (A4T), die gegevensvariatie helemaal elimineert.
 title: Wat is de verwachte Variantie van Gegevens tussen Analytics en A4T?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
 
-
-# Verwachte gegevensvariaties tussen Adobe Target en Adobe Analytics bij gebruik en niet bij gebruik van A4T
+# Verwachte gegevensvariaties tussen Adobe [!DNL Target] en Adobe Analytics bij gebruik en niet bij gebruik van A4T
 
 Informatie over verwachte gegevensvariaties tussen [!DNL Target] en Adobe [!DNL Analytics] wanneer *het gebruik van* en *niet* het gebruiken van Analytics als Rapporterende Bron (A4T). A4T verlaagt de gegevensvariantie aanzienlijk.
 
