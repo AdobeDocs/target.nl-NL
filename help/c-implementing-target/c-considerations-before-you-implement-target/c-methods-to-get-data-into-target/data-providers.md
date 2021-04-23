@@ -1,14 +1,14 @@
 ---
 keywords: implementeren;implementeren;instellen;instellen;gegevensproviders
-description: Krijg gegevens in Doel gebruikend gegevensleveranciers.
-title: Hoe krijg ik gegevens in doel gebruikend de Leveranciers van Gegevens?
-feature: Implementation
+description: Haal gegevens op in [!DNL Target] met behulp van gegevensproviders.
+title: Hoe krijg ik gegevens in [!DNL Target] Gebruikend de Leveranciers van Gegevens?
+feature: Implementatie
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
