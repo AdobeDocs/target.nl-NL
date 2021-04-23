@@ -1,18 +1,18 @@
 ---
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
-description: Gebruik Analytics voor Target (A4T) om activiteiten te maken die zijn gebaseerd op de conversiemetriek van Analytics en publiekssegmenten en gebruik Analytische rapporten om resultaten te onderzoeken.
-title: Wat is Analytics voor Doel (A4T)?
-feature: Analytics for Target (A4T)
+description: Gebruik Analytics voor [!DNL Target] (A4T) om activiteiten te creëren die op de metriek van de omzetting van Analytics en publiekssegmenten worden gebaseerd en gebruik de rapporten van de Analytics om resultaten te onderzoeken.
+title: Wat is Analytics voor [!DNL Target] (A4T)?
+feature: Analyses voor doel (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Analytics als bron van rapportage voor Adobe Target (A4T)
+# Adobe Analytics als bron van rapportage voor Adobe [!DNL Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van  [!DNL Analytics] conversiemetriek en publiekssegmenten. Met de integratie A4T kunt u [!DNL Analytics]-rapporten gebruiken om uw resultaten te bekijken. Als u [!DNL Analytics] als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op [!DNL Analytics] gegevensinzameling.
 
@@ -22,7 +22,7 @@ De [!DNL Analytics for Target]-integratie tussen [!DNL Analytics] en [!DNL Targe
 
 De drie belangrijkste voordelen van het gebruik van [!DNL Analytics]-gegevens in [!DNL Target] zijn:
 
-* Marktdeelnemers kunnen [!DNL Analytics] succesmaatstaven of rapportagesegmenten op elk gewenst moment dynamisch toepassen op activiteitenrapporten [!DNL Target]. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
+* Marktdeelnemers kunnen [!DNL Analytics] succesmaatstaven of rapportagesegmenten op elk gewenst moment dynamisch toepassen op [!DNL Target] activiteitenrapporten. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
 * Eén gegevensbron voorkomt de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
 * Uw bestaande [!DNL Analytics]-implementatie verzamelt alle vereiste gegevens. Het is niet nodig vakken op pagina&#39;s te implementeren om alleen gegevens voor rapporten te verzamelen. Adobe raadt u nog steeds aan een bevestigingsbox voor uw bestelling te implementeren voor activiteiten van [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
@@ -110,7 +110,7 @@ Open [Analytics &amp; Target: Beste praktijken voor Analyse](https://spark.adobe
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit onderwerp worden besproken.
 
-### Analytics for Target (A4T) (4:32) ![Overview badge](/help/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Overview badge](/help/assets/overview.png)
 
 In deze video wordt uitgelegd hoe u [!DNL Analytics] kunt gebruiken als rapporteringsbron in [!DNL Target] om de analyse van uw optimalisatieprogramma te stimuleren.
 
@@ -120,7 +120,7 @@ In deze video wordt uitgelegd hoe u [!DNL Analytics] kunt gebruiken als rapporte
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Target Integration (A4T) (40:33) ![Tutorial badge](/help/assets/tutorial.png)
+### Analytics / Adobe Target Integration (A4T) (40:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 Deze video is een opname van &quot; [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, een initiatief onder leiding van het team van de klantenservice van Adobe.
 
