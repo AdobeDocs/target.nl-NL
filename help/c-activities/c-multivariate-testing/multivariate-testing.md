@@ -1,16 +1,16 @@
 ---
 keywords: multivariatie test;mvt;volledige factorial;mvt of a/b;multivariate a/b;verkeersschatter;wanneer om mvt te gebruiken;mvt overwegingen;multivariate;gedeeltelijk-factorial;gedeeltelijke factor;volledig-factorial
-description: Leer hoe u Multivariate Testing (MVT) in Adobe Target kunt gebruiken om combinaties van aanbiedingen in elementen op een pagina te vergelijken om te bepalen welke combinatie het beste presteert.
+description: Leer hoe u Multivariate Testing (MVT) in Adobe  [!DNL Target] kunt gebruiken om combinaties van aanbiedingen in elementen op een pagina te vergelijken om te bepalen welke combinatie het beste presteert.
 title: Wat is een multivariate Test?
-feature: Multivariate Tests
+feature: Meervoudige tests
+exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van multivariatie-test
 
