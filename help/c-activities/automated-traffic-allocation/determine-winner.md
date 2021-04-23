@@ -1,18 +1,18 @@
 ---
 keywords: automatische verkeerstoewijzing;gericht;winnaar;statistische garantie;vertrouwen;bepalen winnaar;hef;vertrouwen;gebrek;standaardwaarde;automatisch toewijzen;automatisch toewijzen
-description: Leer hoe u de resultaten van een automatisch toegewezen A/B-activiteit in Adobe Target kunt interpreteren door belangrijke indicatoren te onderzoeken, waaronder lift en vertrouwen.
+description: 'Leer hoe te om de resultaten van een auto-Wijs A/B activiteit in Adobe te interpreteren door belangrijke indicatoren, met inbegrip van lift en vertrouwen te onderzoeken. [!DNL Target] '
 title: Hoe interpreteer ik automatisch toegewezen rapporten?
-feature: Auto-Allocate
+feature: Automatisch toewijzen
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
-
-# Automatisch toegewezen rapporten interpreteren {#determine-a-winner}
+# Rapporten automatisch toewijzen interpreteren
 
 Interpreteer de resultaten van een [!UICONTROL Auto-Allocate] A/B activiteit in [!UICONTROL Adobe Target] door belangrijke indicatoren, met inbegrip van lift en vertrouwen te onderzoeken.
 
@@ -48,7 +48,7 @@ Normale A/B-tests berekenen het vertrouwen op basis van p-waarden. Automatisch t
 
 >[!IMPORTANT]
 >
->Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Het doel houdt geen rekening met de basisomrekeningskoersen van een site en andere belangrijke aspecten die in de calculator worden ingevoerd om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
+>Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Doel houdt geen rekening met de basisconversiekoersen van een site en andere belangrijke aspecten die in de rekenmachine worden verwerkt om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
 
 ## Informatie over de rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen {#lift-confidence}
 
@@ -76,4 +76,3 @@ Om het even welke volgende redenen beschrijven waarom 0% vertoningen in de [!UIC
 
 * Automatisch toewijzen begint pas vertrouwen te tonen nadat de winnende ervaring een betrouwbaarheid van 60% heeft opgeleverd. Deze betrouwbaarheidsniveaus worden doorgaans weergegeven in ongeveer de helft van de tijd die een normale A/B-test nodig heeft om te voltooien (hoewel dit niet gegarandeerd is). Om te bepalen hoe lang een normale A/B test zou lopen, te gebruiken gelieve [steekproefgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): de conversiesnelheid van de plug-in &#39;Baseline conversion rate&#39;, &#39;5%&#39; voor &#39;Lift&#39; en &#39;95% voor &#39;Trust&#39;. Doorgaans begint de betrouwbaarheid te worden aangetoond nadat elke ervaring ten minste 50% van de vereiste monsters per ervaring heeft genomen. Dit geeft u een idee wanneer er vertrouwen begint te ontstaan.
 * Als het verslag over de hele linie 0% toont, is het waarschijnlijk te vroeg in de activiteit.
-
