@@ -1,16 +1,16 @@
 ---
 keywords: gericht;ervaring gericht;xt;landingspagina;landingspagina campagne
-description: Leer hoe u Experience Targeting (XT)-activiteiten in Adobe Target kunt gebruiken om inhoud te leveren aan een bepaald publiek op basis van een set regels en criteria die door de markter zijn gedefinieerd.
+description: Leer hoe te om Ervaring het Targeting (XT) activiteiten in Adobe [!DNL Target] te gebruiken om inhoud aan een specifiek publiek te leveren dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.
 title: Wat is een ervaring gericht op (XT) activiteit?
-feature: Experience Targeting
+feature: Gericht op ervaring
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
-
 
 # Gericht op ervaring
 
