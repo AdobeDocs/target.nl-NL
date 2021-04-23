@@ -1,18 +1,18 @@
 ---
 keywords: multivariëren;mvt;voorvertoning;ervaringen
-description: Leer hoe u elke ervaring in een MVT-activiteit (Multivariate Test) in Adobe Target kunt voorvertonen met behulp van Visual Experience Composer (VEC).
+description: Leer hoe te om elke ervaring in een Multivariate activiteit van de Test (MVT) in Adobe te voorproef [!DNL Target] gebruikend Visual Experience Composer (VEC).
 title: Hoe kan ik ervaringen voor een Multivariate Test (MVT) voorvertonen?
-feature: Multivariate Tests
+feature: Meervoudige tests
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-
-# Voorvertoning voor een multivariatie-test{#preview-experiences-for-a-multivariate-test}
+# Voorvertoning van ervaringen voor een multivariatietest
 
 Omdat een [!UICONTROL Multivariate Test] in [!DNL Adobe Target] veelvoudige ervaringen op een pagina vergelijkt, is het nuttig om de pagina met elke ervaring voor te vertonen.
 
@@ -37,4 +37,3 @@ Omdat een [!UICONTROL Multivariate Test] in [!DNL Adobe Target] veelvoudige erva
    Standaard worden alle ervaringen opgenomen in de multivariatietest. Als u een ervaring wilt opnemen die is uitgesloten, selecteert u de uitgesloten ervaring en klikt u op **[!UICONTROL Include]**.
 
 Klik **[!UICONTROL Exit Preview Mode]** om naar de Composer van de Ervaring terug te keren zodat kunt u veranderingen aanbrengen, of **[!UICONTROL Continue]** klikken om naar de testsamenvatting te gaan.
-
