@@ -3,16 +3,16 @@ keywords: criteria;algoritme;industrie verticaal;paginatype;aanbeveling sleutel;
 description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendations-activiteiten bepalen om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteiten.
 title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCreate-criteria{#create-criteria}
+# ![](/help/assets/premium.png) PREMIUMCreate-criteria
 
 Criteria in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controleren de inhoud van uw [!UICONTROL Recommendations] activiteiten. Maak criteria om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteit. Deze criteria gebruiken de acties van de bezoeker om te bepalen welke inhoud of producten aan vertoning worden.
 
