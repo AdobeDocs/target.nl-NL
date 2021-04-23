@@ -1,18 +1,18 @@
 ---
 keywords: geautomatiseerde personalisatie;aanbieding;rapportering;groep;rapporteringsgroep
-description: Leer hoe u rapportgroepen kunt aanbieden in Adobe Target Automated Personalization-activiteiten. Gebruikend rapporteringsgroepen, leidt het Doel tot slechts één verpersoonlijkingsmodel voor elke rapporteringsgroep.
+description: Leer hoe te om aanbiedingsrapporteringsgroepen in Adobe te gebruiken [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] creeert slechts één verpersoonlijkingsmodel voor elke rapporteringsgroep.
 title: Kan ik rapportagegroepen voor aanbiedingen gebruiken bij Automated Personalization-activiteiten?
-feature: Reports
+feature: Rapporten
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMObied rapportagegroepen in Automated Personalization{#offer-reporting-groups-in-automated-personalization}
+# ![](/help/assets/premium.png) PREMIUMObied rapportagegroepen in Automated Personalization
 
 Informatie over het gebruik van rapportgroepen in [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activiteiten.
 
@@ -23,7 +23,7 @@ Rapporterende groepen voeren twee belangrijke functies uit:
 
 Wanneer u rapportgroepen gebruikt, [!DNL Target] creeert slechts één verpersoonlijkingsmodel voor elke rapportgroep in plaats van elke aanbieding in uw AP activiteit gebruikend de gegevens van alle aanbiedingen in die groep.
 
-Als uw activiteitenopstelling niet genoeg gegevens voor een verpersoonlijkingsmodel heeft om per aanbieding worden gebouwd, kunnen de rapportagegroepen helpen de gegevensvereisten verminderen om Automated Personalization te gebruiken. Rapportagegroepen kunnen ook helpen het &quot;koudstartprobleem&quot; voor nieuwe aanbiedingen op te lossen door vergelijkbare aanbiedingen te groeperen zodat elk model meer gegevens krijgt om op te leiden. De modelleringsgroepen kunnen ook voor activiteiten worden gebruikt waar de nieuwe aanbiedingen regelmatig aan uw AP activiteit worden geïntroduceerd.
+Als uw activiteitenopstelling niet genoeg gegevens voor een verpersoonlijkingsmodel heeft om per aanbieding worden gebouwd, kunnen de rapportagegroepen helpen de gegevensvereisten verminderen om Automated Personalization te gebruiken. Rapportagegroepen kunnen ook helpen het &quot;koudstartprobleem&quot;voor nieuwe aanbiedingen op te lossen door gelijkaardige aanbiedingen te groeperen zodat elk model meer gegevens krijgt om op te leiden. De modelleringsgroepen kunnen ook voor activiteiten worden gebruikt waar de nieuwe aanbiedingen regelmatig aan uw AP activiteit worden geïntroduceerd.
 
 Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbiedingen in een groep. De beste manier is om aanbiedingen te groeperen waarop vergelijkbare groepen bezoekers op dezelfde manier reageren. Met andere woorden, groepsobjecten met vergelijkbare conversiekoersen. Je mag niet alle voorstellen in één rapportagegroep plaatsen. Het groeperen van alle aanbiedingen of het groeperen van aanbiedingen met zeer verschillende omzettingspercentages vermindert waarschijnlijk de doeltreffendheid van [!DNL Target] verpersoonlijkingsmodellen.
 
@@ -53,4 +53,3 @@ Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbied
    Als u een nieuwe rapportgroep wilt maken waaraan u de geselecteerde aanbieding wilt toewijzen, selecteert u **[!UICONTROL New]**, geeft u de nieuwe rapportgroep een naam en klikt u op **[!UICONTROL Apply]**.
 
    ![](assets/ap_reporting_groups.png)
-
