@@ -1,16 +1,16 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Leer van fouten van anderen zodat u niet dezelfde maakt wanneer u Adobe Target gebruikt als onderdeel van uw test- en personalisatiestrategie.
-title: Wat zijn algemene fouten bij het gebruik van het doel en hoe kan ik deze vermijden?
-feature: Overview
+description: Leer van fouten van anderen zodat u niet de zelfde maakt wanneer het gebruiken van Adobe [!DNL Target] als deel van uw het testen en verpersoonlijkingsstrategie.
+title: Wat zijn gemeenschappelijke fouten wanneer het gebruiken van [!DNL Target] en hoe kan ik hen vermijden?
+feature: Overzicht
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdstuk 6: Gemakkelijk vermijdbare valkuilen
 
