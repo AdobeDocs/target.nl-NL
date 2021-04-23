@@ -1,16 +1,16 @@
 ---
 keywords: gericht;visuele ervaringscomposer;whitelist;witte lijst;lijst van gewenste personen;lijst van gewenste personen;verbeterde visuele ervaringscomposer;vec;los visuele ervaringscomposer problemen op;het oplossen van problemen;eec;verbeterde ervaringscomposer;tls 1.2
-description: Leer hoe te om problemen op te lossen die soms in Adobe Target Visual Experience Composer (VEC) en de Verbeterde Composer van de Ervaring (EEC) onder bepaalde voorwaarden voorkomen.
+description: Leer hoe te om problemen problemen op te lossen die soms in Adobe [!DNL Target] Visual Experience Composer (VEC) en Verbeterde Composer van de Ervaring (EEC) onder bepaalde voorwaarden voorkomen.
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
-
 
 # Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer
 
@@ -42,7 +42,7 @@ Gebruik één van de volgende opties om ervoor te zorgen dat uw VEC en EEG blijv
    >
    >Dit zal *niet* genoeg zijn als de koekjes reeds het attribuut SameSite hebben die aan &quot;Lax&quot;of &quot;Strikt&quot;van de server wordt geplaatst.
 
-## Biedt het Doel ondersteuning voor iframes op meerdere niveaus?
+## Biedt [!DNL Target] ondersteuning voor iframes op meerdere niveaus?
 
 Doel ondersteunt geen iframes op meerdere niveaus. Als uw website een iframe laadt dat een onderliggend iframe heeft, werken doelbibliotheken (at.js en mbox.js) alleen met het bovenliggende iframe. Doelbibliotheken hebben geen interactie met het onderliggende iframe.
 
@@ -52,7 +52,7 @@ Als tussenoplossing kunt u een pagina toevoegen in de ervaring met de URL van he
 
 Dit kan gebeuren als de URL een #-teken bevat. Om de kwestie te bevestigen, schakelaar op Browse wijze in de Visuele Composer van de Ervaring, en dan terug te schakelen om wijze samen te stellen. De spinner moet weggaan en de pagina moet worden geladen.
 
-## De kopballen van het Beleid van de Veiligheid van de inhoud (CSP) blokkeren de bibliotheken van het Doel op mijn website. (VEC en EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## De kopballen van het Beleid van de Veiligheid van de inhoud (CSP) blokkeren de [!DNL Target] bibliotheken op mijn website. (VEC en EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Als de CSP-headers van uw website de doelbibliotheken blokkeren, wordt de website geladen, maar wordt het bewerken voorkomen, zorgt u ervoor dat de doelbibliotheken niet worden geblokkeerd.
 
