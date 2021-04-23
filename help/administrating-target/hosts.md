@@ -2,16 +2,16 @@
 keywords: host;hosts;hostgroep;problemen oplossen;aanbevolen procedures;ubox;omleiding;omleiding;whitelist;lijst van gewenste personen;zwarte lijst;lijst van gewezen personen
 description: Leer hoe u uw websites en pre-productieomgevingen kunt ordenen voor eenvoudig beheer en gescheiden rapportering in Adobe Target.
 title: Wat zijn gastheren en hoe gebruik ik ze?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
-
 
 # Gastheren
 
@@ -64,7 +64,7 @@ Als u de lijst [!UICONTROL Hosts] wilt sorteren, klikt u op een kolomkop ([!UICO
 
 Als u in de lijst [!UICONTROL Hosts] wilt zoeken, typt u een zoekterm in het vak [!UICONTROL Search Hosts].
 
-## Creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om de verzoeken van het Doel naar Doel te verzenden. {#allowlist}
+## Creeer lijsten van gewenste personen die gastheren specificeren die [!DNL Target] verzoeken naar [!DNL Target] mogen verzenden. {#allowlist}
 
 U kunt een lijst van gewenste personen tot stand brengen die gastheren (domeinen) specificeert die [!DNL Target] verzoeken naar [!DNL Target] mogen verzenden. Alle andere gastheren die verzoeken produceren krijgen een commentaar-uit reactie van de vergunningsfout. Door gebrek, om het even welke gastheer die [!DNL Target] verzoek bevat registreert bij [!DNL Target] in het [!UICONTROL Production] milieu en heeft toegang tot alle actieve en goedgekeurde activiteiten. Als deze benadering niet wordt gewenst, kunt u in plaats daarvan de lijst van gewenste personen gebruiken om specifieke gastheren te registreren die geschikt zijn om [!DNL Target] verzoeken te maken en [!DNL Target] inhoud te ontvangen. Alle gastheren blijven in de [!UICONTROL Hosts] lijst tonen, en de milieu&#39;s kunnen nog worden gebruikt om deze gastheren te groeperen en verschillende niveaus aan elk toe te wijzen, zoals of de gastheer actieve en/of inactieve activiteiten kan zien.
 
