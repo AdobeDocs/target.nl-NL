@@ -1,17 +1,17 @@
 ---
 keywords: beveiliging;beveiligingspraktijken
-description: Meer informatie over de procedures die Adobe gebruikt om de beveiliging van uw gegevens en Adobe Target-ervaring te verbeteren. Download de whitepaper over Adobe Target Security Overview.
-title: Hoe behandelt het Doel Veiligheid van Mijn Gegevens?
-feature: Privacy & Security
+description: Leer over de procedures die Adobe gebruikt om de veiligheid van uw gegevens en Adobe te versterken  [!DNL Target] experience. Download the Adobe [!DNL Target] het Witboek van het Overzicht van de Veiligheid.
+title: Hoe behandelt  [!DNL Target] Veiligheid van Mijn Gegevens?
+feature: Privacy en beveiliging
 role: Developer
+exl-id: be93072f-2c21-40fa-8648-513348afacc8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van doelbeveiliging
 
