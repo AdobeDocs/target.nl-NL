@@ -1,17 +1,17 @@
 ---
 keywords: implementeren;at.js;javascript-bibliotheek
-description: Leer hoe u de Adobe Target at.js JavaScript-bibliotheek implementeert met Adobe Experience Platform Launch of zonder tagbeheer.
+description: Leer hoe u de JavaScript-bibliotheek Adobe [!DNL Target] at.js implementeert met Adobe Experience Platform Launch of zonder tagbeheer.
 title: Hoe kan ik .js implementeren?
-feature: Implement Server-side
+feature: Server-kant implementeren
 role: Developer
+exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
-
 
 # Hoe te opstellen bij.js
 
