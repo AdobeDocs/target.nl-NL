@@ -1,16 +1,16 @@
 ---
 keywords: ervaring gericht;xt;metriek;vastgestelde metriek;doel metrisch;activiteit montages;succes metrisch;omzetting;opbrengst;betrokkenheid
-description: Leer hoe u metrische gegevens kunt opgeven in een Adobe Target Experience Targeting-activiteit om te bepalen wanneer een bezoek succesvol is, zoals Conversie, Revenue en Engagement.
+description: Leer hoe te om metriek in een Adobe te specificeren [!DNL Target] Ervaar gerichte activiteit om te bepalen wanneer een bezoek, zoals Omzetting, Ontvangsten, en Betrokkenheid succesvol is.
 title: Hoe kan ik de meetwaarden voor het doel instellen in een ervaring die gericht is op activiteit?
-feature: Experience Targeting
+feature: Gericht op ervaring
+exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Metriek instellen in Experience Targeting (XT)-activiteiten
 
