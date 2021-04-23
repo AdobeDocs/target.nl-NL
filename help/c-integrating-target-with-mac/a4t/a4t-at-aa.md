@@ -1,16 +1,16 @@
 ---
 keywords: a4t;A4T;Analyse als bron voor rapportage voor Target
-description: Leer hoe u Auto-Allocate- en Auto-Target-activiteiten in Adobe Target maakt die Analytics als rapportagebron (A4T) gebruiken.
+description: Leer hoe te om auto-Toewijzing en auto-Doel activiteiten in Adobe te creëren [!DNL Target] die Analytics als rapporteringsbron (A4T) gebruiken.
 title: Biedt A4T ondersteuning voor automatisch toegewezen en automatisch doelgerichte activiteiten?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
-
 
 # A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten
 
