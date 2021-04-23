@@ -2,18 +2,18 @@
 keywords: instellen;instellen;instellen;instellen;instellen;instellen;beheer
 description: Stel Adobe Target in, inclusief voorkeuren, implementatie, gebruikersbeheer, eigenschappen, Scene7-configuratie, hostbeheer en reactietokens.
 title: Hoe dien ik Target toe?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
-
-# Doeloverzicht beheren{#administer-target}
+# Overzicht van [!DNL Target] beheren
 
 Informatie om u te helpen [!DNL Adobe Target] beheren, met inbegrip van configuratiemontages voor Visual Experience Composer (VEC), het melden, de configuratie van Scene7, implementatie, gastheren, milieu&#39;s, reactietokens, en gebruikers.
 
