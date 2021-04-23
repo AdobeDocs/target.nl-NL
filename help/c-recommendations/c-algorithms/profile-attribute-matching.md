@@ -1,16 +1,16 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevorderingen;dynamische filtratie;dynamic;profile kenmerkovereenkomsten
-description: Leer hoe u in Adobe Target Recommendations dynamisch kunt filteren door items (entiteiten) te vergelijken met een waarde in het gebruikersprofiel.
+description: Leer hoe u dynamisch in Adobe [!DNL Target] Recommendations filtert door items (entiteiten) te vergelijken met een waarde in het gebruikersprofiel.
 title: Hoe filtert ik op de aanpassing van profielkenmerken in Recommendations-activiteiten?
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
-
 
 # ![Identieke ](/help/assets/premium.png) PREMIUMP-profielkenmerken
 
