@@ -1,19 +1,19 @@
 ---
 keywords: mbox.js faq;mbox.js veelgestelde vragen;document.write;tt.omtr dc.net;parser blocking
 description: Meer informatie over de oudere mbox.js-implementatie van Adobe Target. Migreer naar de Adobe Experience Platform Web SDK (AEP Web SDK) of naar de nieuwste versie van at.js.
-title: Wat zijn een aantal veelgestelde vragen over target mbox.js?
+title: Wat zijn een aantal veelgestelde vragen over  [!DNL Target] mbox.js?
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
-# mbox.js Veelgestelde Vragen{#mbox-js-frequently-asked-questions}
+# mbox.js Veelgestelde vragen
 
 Antwoorden op veelgestelde vragen over mbox.js.
 
@@ -39,7 +39,7 @@ Doelklanten gebruiken soms cloudgebaseerde instanties met [!DNL Target] voor tes
 
 Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de instelling `cookieDomain` aanpast met targetGlobalSettings(). Zie [Op wolken gebaseerde instanties gebruiken met Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566) voor meer informatie.
 
-## Wat is het domein tt.omtr dc.net dat de servervraag van het Doel gaat? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## Wat is het domein tt.omtr dc.net dat de [!DNL Target] servervraag gaat naar? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] is de domeinnaam voor Adobe EDGE netwerk, dat wordt gebruikt om alle vraag naar Doel te ontvangen.
 
