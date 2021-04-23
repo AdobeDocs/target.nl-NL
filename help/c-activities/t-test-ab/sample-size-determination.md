@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB..n;voorbeeldgrootte;voorbeeldgroottecalculator;automatisch toewijzen;automatisch toewijzen;calculator
-description: Leer hoe lang een A/B test moet lopen. Voor een geslaagde A/B-test in Adobe Target hebben voldoende bezoekers (voorbeeldgrootte) nodig om de conversiesnelheid te verbeteren.
+description: Leer hoe lang een A/B test moet lopen. Voor een geslaagde A/B-test in Adobe [!DNL Target] zijn voldoende bezoekers (voorbeeldgrootte) nodig om de conversiesnelheid te verbeteren.
 title: Hoe lang moet ik een A/B test uitvoeren?
-feature: A/B Tests
+feature: A/B-tests
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3044'
+source-wordcount: '3042'
 ht-degree: 0%
 
 ---
-
 
 # Hoe lang moet u een A/B-test uitvoeren?
 
@@ -38,7 +38,7 @@ Als u de functie [!UICONTROL Auto-Allocate] gebruikt, wordt boven aan de pagina 
 
 Zie [Overzicht automatisch toewijzen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) voor meer informatie.
 
-## Adobe Target Samplegroottecalculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe [!DNL Target] Berekening van monstergrootte {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Als u een handmatige [!UICONTROL A/B Test] activiteit in plaats van [!UICONTROL Auto-Allocate] kiest, helpt [!DNL Target] de calculator van de Grootte van de Steekproef u de steekproefgrootte te bepalen nodig voor een succesvolle test. Een handmatige A/B-test is een test met een vaste horizon, zodat de calculator nuttig is. Het gebruik van de calculator voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] een winnaar voor u declareert. De calculator geeft u een ruwe schatting van de steekproefgrootte nodig. Lees verder voor meer informatie over het gebruik van de rekenmachine.
 
@@ -68,7 +68,7 @@ In onderstaande afbeelding worden de vier mogelijke resultaten van een A/B-test 
 
 ![](assets/outcomes.png)
 
-Het is wenselijk om geen valse positieve of valse negatieven te krijgen. Een statistische test kan echter nooit garanderen dat geen valse positieven worden verkregen. Het is altijd mogelijk dat waargenomen trends niet representatief zijn voor de onderliggende omrekeningskoersen. In een test om bijvoorbeeld te zien of koppen of staarten op een omdraaiing van een munt waarschijnlijker waren, zelfs met een eerlijke munt, kon je per toeval tien koppen op tien tenen krijgen. De statistische significantie en de macht helpen ons de vals positieve en vals negatieve cijfers te kwantificeren en ons in staat te stellen deze voor een bepaalde test op een redelijk niveau te houden.
+Het is wenselijk om geen valse positieve of valse negatieven te krijgen. Een statistische test kan echter nooit garanderen dat geen valse positieven worden verkregen. Het is altijd mogelijk dat waargenomen trends niet representatief zijn voor de onderliggende omrekeningskoersen. In een test om bijvoorbeeld te zien of koppen of staarten op een omdraaiing van een munt waarschijnlijker waren, zelfs met een eerlijke munt, kon je per toeval tien koppen op tien tenen krijgen. De statistische significantie en macht helpen ons de vals-positieve en vals-negatieve cijfers te kwantificeren en ons in staat te stellen deze voor een bepaalde test op een redelijk niveau te houden.
 
 ### Statistische significantie {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
