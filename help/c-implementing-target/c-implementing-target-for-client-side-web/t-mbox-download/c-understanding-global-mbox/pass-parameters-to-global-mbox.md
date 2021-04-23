@@ -1,17 +1,17 @@
 ---
 keywords: algemene mbox-parameters;targetPageParams;query-tekenreeks;array;json;dtm;dynamic tag management
-description: Leer hoe u de functie targetPageParams gebruikt om aanvullende informatie over doelen of context door te geven aan de algemene Adobe Target-box.
+description: Leer hoe te om de targetPageParams functie te gebruiken om extra het richten of contextinformatie in de Adobe  [!DNL Target] globale mbox over te gaan.
 title: Hoe geef ik Parameters aan een Globale doos door?
 feature: at.js
 role: Developer
+exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
-
 
 # Parameters doorgeven aan een globale box
 
