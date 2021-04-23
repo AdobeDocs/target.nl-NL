@@ -1,18 +1,18 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken;publiek instellen;publiek rapporteren;publiek rapporteren;segment;aangepaste profielparameters;publieksdefinitie;publiekslijst
-description: Leer hoe u de pagina Soorten publiek in Adobe Target gebruikt en hoe u de kaarten voor de definitie van het publiek met publieksdetails en gebruiksinformatie bekijkt.
+description: Leer hoe te om de pagina van het publiek in Adobe te gebruiken [!DNL Target] en hoe te om de kaarten van de Definitie van het publiek te bekijken die publieksdetails en gebruiksinformatie bevatten.
 title: Hoe gebruik ik de Audience List?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
-
-# Soorten publiek maken{#create-audiences}
+# Soorten publiek maken
 
 Het publiek in Adobe Target bepaalt wie de inhoud en ervaringen van een gerichte activiteit zal zien.
 
