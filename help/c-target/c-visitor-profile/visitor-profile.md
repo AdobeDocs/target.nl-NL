@@ -2,17 +2,17 @@
 keywords: Overzicht en referentie
 description: Meer informatie over bezoekersprofielen met informatie over hoe bezoekers uw pagina's en andere geoptimaliseerde inhoudslocaties gebruiken.
 title: Wat zijn bezoekerprofielen?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
 
-
-# Bezoekerprofielen{#visitor-profiles}
+# Bezoekerprofielen
 
 Bezoekersprofielen bevatten informatie over hoe bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken
 
