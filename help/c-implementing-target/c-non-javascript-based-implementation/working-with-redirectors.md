@@ -1,19 +1,19 @@
 ---
 keywords: Implementatie;mbox.js niet javascript;redirector;kosten per klik;opbrengst per klik
-description: Leer hoe u Redirector gebruikt in e-mailimplementaties, net als hoe u een box gebruikt in uw Adobe Target-activiteiten.
+description: Leer hoe te om Redirecteurs in e-mailimplementaties te gebruiken, gelijkaardig aan hoe u een mbox in uw Adobe [!DNL Target] activiteiten gebruikt.
 title: Hoe werk ik met Redirector?
-feature: Implement Email
+feature: E-mail implementeren
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-
-# Werken met regisseurs{#work-with-redirectors}
+# Werken met directeuren
 
 Gebruik een Redirector vergelijkbaar met hoe u een box in uw tests gebruikt.
 
@@ -61,7 +61,7 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
       >Merk op dat u met Redirector aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden ](/help/administrating-target/hosts.md#allowlist) in *Gastheren*.
 
 1. Valideer Redirector.
-   1. *Beste praktijken* op het gebied van beveiliging: Zorg ervoor dat het domein dat in Redirector wordt gebruikt wordt toegevoegd op lijst van gewenste personen, zoals hierboven vermeld. Als u een domein gebruikt dat niet toegevoegd op lijst van gewenste personen is, zal Adobe om het even welke vraag aan dat domein blokkeren om kwaadwillige acteurs te verhinderen Redirector te gebruiken om aan potentieel kwaadwillige domeinen om te leiden.
+   1. *Beste praktijken* op het gebied van beveiliging: Zorg ervoor dat het domein dat in Redirector wordt gebruikt wordt gevoegd op lijst van gewenste personen, zoals hierboven vermeld. Als u een domein gebruikt dat niet gevoegd op lijst van gewenste personen is, zal Adobe om het even welke vraag aan dat domein blokkeren om kwaadwillige acteurs te verhinderen Redirector te gebruiken om aan potentieel kwaadwillige domeinen om te leiden.
    1. Voeg de Redirector-URL in een browser in en vernieuw deze.
    1. Meld u aan bij uw account, vernieuw de keuzelijst en controleer of de nieuwe Redirector als een box wordt weergegeven.
 1. Als u verschillende bestemmingen voor één advertentie zult testen, creeer [Aanbiedingen opnieuw richten](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) voor elke versie.
