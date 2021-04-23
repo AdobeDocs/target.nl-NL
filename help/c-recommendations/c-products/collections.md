@@ -1,18 +1,18 @@
 ---
 keywords: verzameling;gericht
-description: Leer hoe u verzamelingen kunt gebruiken in Adobe Target Recommendations. Een verzameling is een reeks producten of items die in aanmerking komen voor een aanbeveling.
+description: Leer hoe u verzamelingen in Adobe [!DNL Target] Recommendations kunt gebruiken. Een verzameling is een reeks producten of items die in aanmerking komen voor een aanbeveling.
 title: Hoe gebruik ik verzamelingen in Recommendations-activiteiten?
 feature: Recommendations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMCollections  {#collections}
+# ![](/help/assets/premium.png) PREMIUMCollections
 
 Een verzameling is een reeks producten of items die in aanmerking komen voor een aanbeveling. Een verzameling wordt gedefinieerd door de voorwaarden op te geven waaraan items moeten voldoen om deel uit te maken van de verzameling.
 
