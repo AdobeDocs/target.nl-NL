@@ -1,18 +1,18 @@
 ---
 keywords: training;certificering;doel;online cursussen;cursussen;klasse;klassen
-description: Zoek naar Adobe Target-klassen en -certificeringen die worden aangeboden door Adobe Training Services.
+description: Zoek naar Adobe [!DNL Target] klassen en certificeringen die door de Diensten van de Opleiding van Adobe worden aangeboden.
 title: Waar kan ik trainings- en certificeringsklassen vinden?
-feature: Overview
+feature: Overzicht
+exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-
-# Training en certificering{#training-and-certification}
+# Opleiding en certificering
 
 Adobe Training Services biedt klassen en certificeringen voor Adobe-producten en -oplossingen, waaronder Adobe Target.
 
@@ -24,4 +24,3 @@ Neem voor meer informatie contact op met het Adobe Training Services-centrum voo
 |---|---|
 | Europa, het Midden-Oosten en Afrika | [ats_emea@adobe.com](mailto:ats_emea@adobe.com) |
 | Azië-Stille Oceaan | [ats_apac@adobe.com](mailto:ats_apac@adobe.com) |
-
