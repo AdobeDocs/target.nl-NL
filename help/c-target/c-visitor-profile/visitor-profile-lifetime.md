@@ -2,17 +2,17 @@
 keywords: Overzicht en referentie
 description: Meer informatie over het verlopen van een bezoekersprofiel (standaard 14 dagen) in Adobe Target. De levensduur van het profiel kan worden verlengd door contact op te nemen met de Adobe Client Care.
 title: Wat is de levensduur van het bezoekersprofiel en kan ik deze verlengen?
-feature: Audiences
+feature: Soorten publiek
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
-
-# Levensduur van bezoekersprofiel{#visitor-profile-lifetime}
+# Levensduur bezoekersprofiel
 
 Een bezoekersprofiel verloopt standaard na 14 dagen inactiviteit voor die bezoeker. Deze profiellevensduur kan worden verlengd.
 
