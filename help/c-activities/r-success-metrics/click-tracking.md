@@ -1,16 +1,16 @@
 ---
 keywords: Klik op bijhouden;traceer klikken;klikken;AppMeasurement
-description: Leer hoe u met Adobe Target op elk element kunt bijhouden of dit een succesmetrisch element is.
+description: Leer hoe u met Adobe [!DNL Target] kliks op elk element kunt bijhouden als succesmetrisch.
 title: Wat volgt de klik?
-feature: Success Metrics
+feature: Succeswaarden
+exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
-
 
 # Klikken bijhouden
 
@@ -105,7 +105,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    Dit standaardgedrag kan problemen veroorzaken bij het bijhouden van klikken op Analytics. Als u Analytics gebruikt, zou u voor het volgen van klik eerder dan Doel op Analytics moeten vertrouwen.
 
-* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor gebruikers in de onderneming zijn een Target Premium-functie. Zie [Machtigingen voor zakelijke gebruikers](/help/administrating-target/c-user-management/property-channel/property-channel.md) voor meer informatie.
+* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor gebruikers in de onderneming zijn een Target Premium-functie. Voor meer informatie, zie [De gebruikerstoestemmingen van de Onderneming](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 ## Trainingsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
