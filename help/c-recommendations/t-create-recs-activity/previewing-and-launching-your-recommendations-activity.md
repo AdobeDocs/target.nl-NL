@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;aanbieding;voorvertoning;start;status;criteria;algoritme
-description: 'Leer hoe u een voorbeeld van uw Adobe Target Recommendations-activiteiten kunt bekijken om te controleren of de resultaten beschikbaar zijn voordat u de activiteit start. '
+description: 'Leer hoe u een voorvertoning van uw Adobe [!DNL Target] Recommendations-activiteit bekijkt om ervoor te zorgen dat de resultaten beschikbaar zijn voordat u de activiteit start. '
 title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
 feature: Recommendations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
 
 ---
-
 
 # Recommendations-activiteiten voorvertonen en starten
 
