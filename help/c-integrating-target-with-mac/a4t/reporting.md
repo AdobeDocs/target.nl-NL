@@ -1,18 +1,18 @@
 ---
 keywords: analytische gegevens voor doel;a4t;analytische gegevens als bron van de rapportage;analytische gegevens
-description: Leer hoe u Analytics for Target (A4T) gebruikt. A4T verleent toegang tot de rapporten van Analytics voor de activiteiten van het Doel die de metriek van de Analyse en publiekssegmenten gebruiken.
+description: Leer hoe te om Analytics voor [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] activiteiten te gebruiken die de metriek van de Analyse en publiekssegmenten gebruiken.
 title: Hoe gebruik ik Rapportering in A4T?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
 
-
-# A4T-rapportage{#a-t-reporting}
+# A4T-rapportage
 
 Als u [!DNL Adobe Analytics] als rapportagebron voor [!DNL Adobe Target] (A4T) gebruikt, hebt u toegang tot [!DNL Analytics]-rapporten voor uw [!DNL Target]-activiteiten.
 
@@ -57,7 +57,7 @@ In [!DNL Analysis Workspace] gebruikt u het [!UICONTROL Analytics for Target] pa
 
 Voor gedetailleerde informatie en voorbeelden opent u [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, geleverd door Adobe Experience League.
 
-## Rapporten in doel {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Rapporten in [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Wanneer [!DNL Analytics] als rapportbron wordt gebruikt, tonen de rapporten in [!DNL Target] de gegevens die van [!DNL Analytics] worden verzameld. Het rapport verschilt enigszins van andere [!DNL Target] rapporten:
 
@@ -76,7 +76,7 @@ Klik om het volledige [!DNL Analytics] rapport direct van de pagina van het acti
 
 Tijdens het creëren van activiteit, moet u een doel voor de activiteit op [!UICONTROL Settings] pagina specificeren. Dit doel wordt standaard metrisch voor het rapport en is altijd vermeld als eerste optie in de metriekselecteur. U kunt geen segmenten voor rapportering selecteren zoals u voor een regelmatige activiteit van het Doel zou doen. Een test met [!DNL Analytics] gebruikt [!DNL Adobe Analytics] segmenten eerder dan [!DNL Target] publiek.
 
-## Offline berekeningen uitvoeren voor Analytics voor Doel (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Offline berekeningen uitvoeren voor Analytics voor Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics].
 
