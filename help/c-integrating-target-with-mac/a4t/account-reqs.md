@@ -1,17 +1,17 @@
 ---
 keywords: Analyse als bron van rapportage;a4t;A4T;vereisten
-description: Leer hoe u de vereisten voor gebruikersaccounts configureert die nodig zijn om een op Adobe Analytics gebaseerde activiteit in Adobe Target te maken met Analytics for Target (A4T).
+description: Leer hoe u de vereisten voor gebruikersaccounts configureert die nodig zijn om een op Adobe Analytics gebaseerde activiteit te maken in Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
 title: Welke Vereisten van de Toestemming van de Gebruiker voor A4T worden vereist?
-feature: Analytics for Target (A4T)
+feature: Analyses voor doel (A4T)
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 translation-type: tm+mt
-source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
-
 
 # Vereisten voor gebruikerstoegang
 
@@ -56,6 +56,6 @@ Om A4T op een bepaalde rapportreeks te gebruiken, moet u toegang tot die rapport
    Toegang tot de [!UICONTROL Web Services Access]-groep in [!DNL Analytics] is vereist om [!DNL Analytics] als rapportagebron voor [!DNL Target] te kunnen gebruiken.
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 Er zijn geen aanvullende rechten vereist.
