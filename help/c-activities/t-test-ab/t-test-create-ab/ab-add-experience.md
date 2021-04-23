@@ -1,16 +1,16 @@
 ---
 keywords: gericht;ervaring;ervaring toevoegen;ervaring toevoegen
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe Target te gebruiken. VEC verstrekt een visuele interface voor het toevoegen van en het uitgeven van ervaringen op uw pagina.
-title: Hoe voeg ik ervaringen toe in een A/B-doelactiviteit?
-feature: A/B Tests
+title: Hoe voeg ik Ervaringen in a [!DNL Target] A/B Activiteit toe?
+feature: A/B-tests
+exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # Ervaring toevoegen
 
