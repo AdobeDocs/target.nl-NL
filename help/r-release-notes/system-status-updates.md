@@ -1,16 +1,16 @@
 ---
 keywords: systeemupdate;problemen oplossen;onderhoud;systeemstatus;update-status
-description: Bekijk de huidige status van Adobe Target om u te helpen bepalen of de problemen die u zou kunnen tegenkomen te wijten zijn aan systeemupdates of routineonderhoud.
-title: Waar kan ik de status van Target en andere producten van Adobe bekijken?
-feature: Release Notes
+description: Bekijk de huidige status van Adobe [!DNL Target] om u te helpen bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven zijn aan systeemupdates of routineonderhoud.
+title: Waar kan ik het statuut van  [!DNL Target] en andere Producten van Adobe bekijken?
+feature: Opmerkingen bij de release
+exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
-
 
 # Systeemstatusupdates en proactieve meldingen
 
