@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;cookies
-description: Informatie over hoe Adobe Target op 2.js 2.x en at.js 1.x cookies verwerkt
+description: Details over hoe Adobe [!DNL Target] at.js 2.x en at.js 1.x cookies verwerken
 title: at.js Cookies
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
 
-
-# at.js cookies {#at-js-cookies}
+# at.js cookies
 
 Informatie over at.js 2.x en at.js 1.** xcookie gedrag.
 
@@ -124,11 +124,11 @@ Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers campagnes
 | controleren | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
 | disable | Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand mbox.js. Standaard duurt dit 1 uur. |
 
-## Effect op Doel voor Safari-bezoekers als gevolg van wijzigingen in het bijhouden van Apple WebKit
+## Effect op [!DNL Target] voor Safari-bezoekers door wijzigingen in het bijhouden van Apple WebKit
 
 Houd rekening met het volgende:
 
-### Hoe werkt Adobe Target Tracking?
+### Hoe werkt het bijhouden van Adobe [!DNL Target]?
 
 | Cookies | Details |
 |--- |--- |
