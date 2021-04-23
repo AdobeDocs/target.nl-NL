@@ -1,16 +1,16 @@
 ---
 keywords: ervaringsvoorvertoning;ervaring URL's;genereren URL's;belevenis weergeven
-description: Leer hoe u URL's met voorvertoningen kunt gebruiken voor Adobe Target Automated Personalization-activiteiten om inhoud direct op uw site te bekijken voordat de activiteit actief is.
+description: Leer hoe u URL's met voorvertoningen kunt gebruiken voor Adobe [!DNL Target] Automated Personalization-activiteiten om inhoud direct op uw site te bekijken voordat de activiteit actief is.
 title: Hoe kan ik URL's van het ervaringsvoorbeeld in Automated Personalization-activiteiten gebruiken?
 feature: Automated Personalization
+exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
-
 
 # ![PREMIUMP-](/help/assets/premium.png) revisie van Automated Personalization-activiteiten met voorbeeld-URL&#39;s
 
