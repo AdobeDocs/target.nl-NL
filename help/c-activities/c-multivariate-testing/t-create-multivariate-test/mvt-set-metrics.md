@@ -1,16 +1,16 @@
 ---
 keywords: multivariëren;mvt;metriek;vastgestelde metriek;doel metrisch;activiteitenmontages;succes metrisch;omzetting;opbrengst;betrokkenheid
-description: Leer hoe u metrische gegevens kunt opgeven in een Adobe Target Multivariate Test-activiteit om te bepalen wanneer een bezoek succesvol is, zoals Conversie, Revenue en Engagement.
-title: Hoe kan ik de meetwaarden voor het doel instellen in een activiteit voor multivariate Test (MVT)?
-feature: Multivariate Tests
+description: Leer hoe te om metriek in een Adobe [!DNL Target] Multivariate activiteit van de Test te specificeren om te bepalen wanneer een bezoek, zoals Omzetting, Ontvangsten, en Betrokkenheid succesvol is.
+title: Hoe stel ik de Goal Metrics in een Multivariate Activiteit van de Test (MVT)?
+feature: Meervoudige tests
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Metriek instellen voor multivariatie testen
 
