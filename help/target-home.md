@@ -1,13 +1,13 @@
 ---
 keywords: Doel;home;populaire onderwerpen;adobe target;standard;premium;target documentatie;adobe target documentatie
-title: Waar kan ik de documentatie van het Doel vinden?
-description: Leer hoe u Adobe Target kunt gebruiken om de ervaring van uw klanten aan te passen om uw omzet te maximaliseren op uw websites en mobiele sites, apps en andere digitale kanalen.
-feature: Overview
+title: Waar kan ik  [!DNL Target] documentatie vinden?
+description: Leer hoe u Adobe [!DNL Target] kunt gebruiken om de ervaring van uw klanten aan te passen en uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
+feature: Overzicht
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
