@@ -1,16 +1,16 @@
 ---
 keywords: Doel;rapporten;rapport montages;milieu;lift gebonden;variatie;vertrouwen;controle
-description: Leer hoe u Adobe Target-rapporten kunt interpreteren, die gegevenspunten en visualisatieweergaven bevatten om u te helpen de grenzen van de lift en het betrouwbaarheidsniveau van uw activiteiten te begrijpen.
+description: Leer hoe te om Adobe [!DNL Target] rapporten te interpreteren, die gegevenspunten en visualisatievertegenwoordiging omvatten om u te helpen de liftgrenzen en het betrouwbaarheidsniveau van uw activiteiten begrijpen.
 title: Hoe bekijk ik Gemiddelde Lift, Lift Bounds, en het Interval van het Vertrouwen?
-feature: Reports
+feature: Rapporten
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
 
 ---
-
 
 # Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen
 
