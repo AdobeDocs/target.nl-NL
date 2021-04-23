@@ -1,13 +1,13 @@
 ---
 keywords: at.js-releases;at.js-versies;releaseopmerkingen
-description: Bekijk de gegevens over de wijzigingen in elke versie van de JavaScript-bibliotheek van Adobe Target at.js.
+description: Bekijk de details over veranderingen in elke versie van de Adobe [!DNL Target] at.js JavaScript bibliotheek.
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '4178'
+source-wordcount: '4177'
 ht-degree: 0%
 
 ---
