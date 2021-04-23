@@ -1,16 +1,16 @@
 ---
 keywords: dynamische gegevens;elementen;gegevens;aanbiedingen;gepersonaliseerde aanbiedingen;persoonlijke aanbiedingen;symbolische vervanging
-description: Leer hoe u dynamische gegevens kunt doorgeven aan Adobe Target-aanbiedingen. Onderzoek bedrijfsgevallen die tonen waarom u dynamische aanbiedingen en meningsvoorbeelden en implementatieinformatie zou kunnen willen gebruiken.
+description: Leer hoe u dynamische gegevens doorgeeft in Adobe [!DNL Target] Aanbiedingen. Onderzoek bedrijfsgevallen die tonen waarom u dynamische aanbiedingen en meningsvoorbeelden en implementatieinformatie zou kunnen willen gebruiken.
 title: Hoe geef ik dynamische gegevens in aanbiedingen door?
-feature: Experiences and Offers
+feature: Ervaringen en aanbiedingen
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
-
 
 # Dynamische gegevens in aanbiedingen doorgeven
 
