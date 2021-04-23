@@ -1,17 +1,17 @@
 ---
 keywords: clientzorg;naam;certificaatprogramma;canonieke naam;cookies;certificaat;amc;adobe managed certificaat;digicert;domeincontroledetectie;dcv
-description: Werk met de Zorg van de Cliënt van Adobe om de steun van CNAME (Canonical Name) in Adobe Target uit te voeren om ad-blokkerende kwesties of ITP-verwante koekjesbeleid te behandelen.
+description: Werk met de Zorg van de Cliënt van Adobe om de steun van CNAME (Canonical Name) in Adobe uit te voeren  [!DNL Target] om ad-blokkerende kwesties of ITP-Verwante koekjesbeleid te behandelen.
 title: Hoe gebruik ik CNAME als doel?
-feature: Privacy & Security
+feature: Privacy en beveiliging
 role: Developer
+exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
-
 
 # CNAME en Adobe Target
 
@@ -79,7 +79,7 @@ De meeste klanten kiezen een hostnaam zoals `target.example.com`. Adobe beveelt 
 
 Nee, [!DNL Target] vereist een aparte hostnaam en certificaat.
 
-### Is mijn huidige implementatie van Doel beïnvloed door ITP 2.x?
+### Heeft mijn huidige implementatie van [!DNL Target] invloed op ITP 2.x?
 
 Navigeer in een Safari-browser naar uw website waarop u een JavaScript-bibliotheek [!DNL Target] hebt. Als u een [!DNL Target] koekje ziet dat in de context van een CNAME, zoals `analytics.company.com` wordt geplaatst, dan wordt u niet beïnvloed door ITP 2.x.
 
