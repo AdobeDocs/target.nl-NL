@@ -2,17 +2,17 @@
 keywords: Doel;rapporten;rapport montages;veelvoudige metriek;metriek;getoonde metriek;verborgen metriek
 description: Leer hoe u meerdere metriek selecteert om in een rapport te bekijken met Adobe Target.
 title: Hoe bekijk ik Meerdere metriek in een Rapport?
-feature: Reports
+feature: Rapporten
+exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
-
-# Meerdere metriek weergeven in een rapport{#view-multiple-metrics-in-a-report}
+# Meerdere metriek in een rapport weergeven
 
 U kunt veelvoudige metriek aan mening in een [!DNL Adobe Target] rapport selecteren.
 
@@ -45,7 +45,7 @@ Houd rekening met de volgende informatie wanneer u met meerdere meetgegevens wer
    U kunt de metriek anders rangschikken door hen in de gewenste orde in [!UICONTROL Shown Metrics] lijst te slepen. De geselecteerde volgorde wordt weergegeven in de [!UICONTROL Table View] en [!UICONTROL Graph View]. Als u een metrische waarde uit de lijst [!UICONTROL Shown Metrics] wilt verwijderen, plaatst u de muisaanwijzer boven de metrische waarde en klikt u op het pictogram **X**.
 
 1. Klik **[!UICONTROL Save]** wanneer gebeëindigd.
-1. (Voorwaardelijk) terwijl het bekijken van het rapport in [!UICONTROL Table View], beweegt uw muiswijzer op om het even welke metrische kolomkopbal om een blauwe pijl te tonen. Klik de pijl om de lijst uit te breiden om [!UICONTROL Lift] en [!UICONTROL Confidence] voor dat metrisch te tonen.
+1. (Voorwaardelijk) terwijl het bekijken van het rapport in [!UICONTROL Table View], beweegt uw muiswijzer op om het even welke metrische kolomkopbal om een blauwe pijl te tonen. Klik op de pijl om de tabel uit te vouwen om de [!UICONTROL Lift] en [!UICONTROL Confidence] voor die metrische waarde weer te geven.
 
    ![](assets/multiple_metrics_table.png)
 
@@ -54,4 +54,3 @@ Houd rekening met de volgende informatie wanneer u met meerdere meetgegevens wer
 1. (Voorwaardelijk) terwijl het bekijken van het rapport in de Mening van de Grafiek, kunt u individuele metriek selecteren om van de drop-down lijst te tonen:
 
    ![](assets/multiple_metrics_graph.png)
-
