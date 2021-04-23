@@ -1,16 +1,16 @@
 ---
 keywords: Doel en instellingen;Doel;prioriteit;duur
-description: Leer hoe u Activity Settings in Adobe Target gebruikt om het doel, de prioriteit en de duur van uw activiteiten te beheren.
+description: Leer hoe te om de Montages van de Activiteit in Adobe te gebruiken [!DNL Target] om het doel, de prioriteit, en de duur van uw activiteiten te beheren.
 title: Hoe kan ik activiteiteninstellingen opgeven?
-feature: Activities
+feature: Activiteiten
+exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
 
 ---
-
 
 # Activiteiteninstellingen
 
