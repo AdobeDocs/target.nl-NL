@@ -1,16 +1,16 @@
 ---
 keywords: creëren ervaring;ervaring creëren;prioriteit;publiek;ervaring;visuele ervaringscomposer
-description: Leer hoe u de Adobe Target Visual Experience Composer (VEC) gebruikt om ervaringen op uw pagina te maken en te bewerken in een Experience Targeting-activiteit (XT).
+description: Leer hoe u de Adobe [!DNL Target] Visual Experience Composer (VEC) gebruikt om ervaringen op uw pagina te maken en te bewerken in een Experience Targeting-activiteit (XT).
 title: Hoe creëer ik ervaringen in een ervaring die gericht is op activiteit?
-feature: Experience Targeting
+feature: Gericht op ervaring
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
-
 
 # Ervaring maken met gerichte (XT) activiteiten op het gebied van ervaring
 
@@ -48,7 +48,7 @@ De [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] verstrek
 
    >[!NOTE]
    >
-   >Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de publiekslijst opent en het geïmporteerde publiek langer dan 10 minuten oud is.
+   >Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de lijst met doelgroepen opent en het geïmporteerde publiek langer dan 10 minuten oud is.
 
 1. Selecteer een of meer soorten publiek die u wilt aanwijzen met de ervaring en klik op **[!UICONTROL Done]**.
 
