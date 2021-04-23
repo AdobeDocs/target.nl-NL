@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB..n;fouten;valkuilen;fout;valkuil;significantie;winnaar;statistisch verschil;statistische macht;verkeersverdeling;toewijzing;
-description: Leer hoe u de meest voorkomende valkuilen en fouten die bedrijven maken bij het uitvoeren van A/B-tests in Adobe Target en andere testoplossingen kunt vermijden.
+description: Leer hoe u de meest voorkomende valkuilen en fouten die bedrijven maken bij het uitvoeren van A/B-tests in Adobe [!DNL Target] en andere testoplossingen kunt vermijden.
 title: Hoe vermijd ik vaak voorkomende fouten in A/B-tests?
-feature: A/B Tests
+feature: A/B-tests
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
-
 
 # Tien gemeenschappelijke A/B-testvalkuilen en hoe deze te vermijden
 
@@ -58,7 +58,7 @@ Twee situaties verdienen echter de nodige aandacht voor het significantieniveau 
 
 ## Pitfall 2: winnaars van tests met meerdere aanbiedingen declareren zonder statistisch significant verschil {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
-Bij het testen van meerdere aanbiedingen verklaren marketers vaak het aanbod met de hoogste lift als testwinnaar, hoewel er geen statistisch significant verschil is tussen de winnaar en de runner-up. Deze situatie doet zich voor wanneer het verschil tussen de alternatieven kleiner is dan het verschil tussen de alternatieven en de controle. In de onderstaande afbeelding ziet u dit concept, waarbij de zwarte foutenbalken een betrouwbaarheidsinterval van 95% vertegenwoordigen. De ware lift voor elke aanbieding met betrekking tot de controleaanbieding is 95% waarschijnlijk inbegrepen binnen het betrouwbaarheidsinterval-de waaier die door de foutenbars wordt getoond.
+Bij het testen van meerdere aanbiedingen verklaren marketeers vaak het aanbod met de hoogste lift als testwinnaar, hoewel er geen statistisch significant verschil is tussen de winnaar en de runner-up. Deze situatie doet zich voor wanneer het verschil tussen de alternatieven kleiner is dan het verschil tussen de alternatieven en de controle. In de onderstaande afbeelding ziet u dit concept, waarbij de zwarte foutenbalken een betrouwbaarheidsinterval van 95% vertegenwoordigen. De ware lift voor elke aanbieding met betrekking tot de controleaanbieding is 95% waarschijnlijk inbegrepen binnen het betrouwbaarheidsinterval-de waaier die door de foutenbars wordt getoond.
 
 ![](assets/pitfalls2.png)
 
@@ -173,4 +173,3 @@ Met de onderstaande stappen kunt u deze valkuilen voorkomen en de nadruk leggen 
 * Bereken de steekproefgrootte (aantal bezoekers) alvorens de test wordt begonnen.
 * Wacht tot de berekende monstergrootte is bereikt voordat de test wordt gestopt.
 * Pas het betrouwbaarheidsniveau aan wanneer u segmentatie na de test uitvoert of meer dan één alternatief evalueert, bijvoorbeeld door de Bonferroni-correctie te gebruiken.
-
