@@ -1,19 +1,19 @@
 ---
 keywords: api;apis;admin api;delivery api;reporting api;profile api
-description: Zoek naar Adobe Target API's, waaronder de API's Admin, Delivery, Reporting en Profile.
-title: Waar kan ik doel-API en SDK-documentatie vinden?
-feature: APIs/SDKs
+description: Zoek Adobe [!DNL Target] API's, waaronder de API's Admin, Delivery, Reporting en Profile.
+title: Waar kan ik  [!DNL Target] API en SDK documentatie vinden?
+feature: API's/SDK's
 role: Developer
+exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-
-# Overzicht Adobe Target API
+# API-overzicht Adobe [!DNL Target]
 
 [!DNL Adobe Target] API&#39;s kunnen worden gegroepeerd op basis van het type: API&#39;s voor beheer, levering, rapportage en profiel.
 
