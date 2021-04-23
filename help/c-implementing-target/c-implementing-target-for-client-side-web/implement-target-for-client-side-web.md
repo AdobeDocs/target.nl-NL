@@ -1,19 +1,19 @@
 ---
 keywords: implementeren;implementatie;at.js;adobe Experience platform web sdk;aep web sdk
-description: Leer hoe u Adobe Target for client-side web implementeert met de Adobe Experience Platform Web SDK (AEP Web SDK) of de Target at.js JavaScript-bibliotheek.
-title: Hoe voer ik Doel voor Cliënt-zij Web uit
+description: Leer hoe u de JavaScript-bibliotheek Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js implementeert.
+title: Hoe kan ik  [!DNL Target] implementeren voor web op de client
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
-# Overzicht: Doel voor client-side web implementeren
+# Overzicht: [!DNL Target] implementeren voor client-side web
 
 In een client-side implementatie van [!DNL Adobe Target] levert [!DNL Target] de ervaringen die met een activiteit zijn gekoppeld rechtstreeks aan de clientbrowser. De browser bepaalt welke ervaring wordt weergegeven en geeft deze weer. Met een cliënt-zijimplementatie, kunt u een redacteur WYSIWYG, [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC), of een niet-visuele interface, [Op vorm-gebaseerde Composer van de Ervaring](/help/c-experiences/form-experience-composer.md), gebruiken om uw activiteit en verpersoonlijkingservaringen tot stand te brengen.
 
