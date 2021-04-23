@@ -2,15 +2,15 @@
 keywords: bekende problemen;opgeloste problemen;releaseopmerkingen;fouten;problemen;oplossingen
 description: Meer informatie over bekende problemen in Adobe Target, waaronder informatie over tijdelijke oplossingen. Wanneer problemen zijn opgelost, worden ze verplaatst naar de sectie Opgelost.
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
-feature: Release Notes
+feature: Opmerkingen bij de release
+exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '4331'
+source-wordcount: '4330'
 ht-degree: 0%
 
 ---
-
 
 # Bekende problemen en opgeloste problemen
 
@@ -24,7 +24,7 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
 
-### Analyses voor doelmetriek (A4T) voor automatisch toegewezen en automatisch doelactiviteiten
+### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
 
 Met de interface [!DNL Target] kunnen gebruikers niet-ondersteunde incasso&#39;s voor betrokkenheid en omzet selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten. Conversiemetriek worden ondersteund; de betrokkenheid en opbrengstmetriek zijn *niet* gesteund. Als u maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld.
 
@@ -120,7 +120,7 @@ De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;za
 
 Wanneer een succes metrisch aan toename op elke indruk wordt geplaatst, telt Target opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. Het doel stelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 terug zodat kan het op de volgende indruk opnieuw tellen. Aldus, als een andere metrisch metrisch vereist om eerst te zijn gezien, erkent het Doel nooit dat de gebruiker eerste metrisch heeft gezien.
 
-### Analyses voor doel (A4T)
+### Analyses voor [!DNL Target] (A4T)
 
 Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard attributiemodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) wilt toepassen, klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel** selecteren. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
 
@@ -134,7 +134,7 @@ Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch 
 
 Op 10 mei 2020 heeft Adobe de bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op alle Adobe-leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
 
-### Rapportering - Inconsistente gegevens in het downloadbare .csv- rapport tegenover het getoonde rapport in het Doel UI. {#csv}
+### Rapportage - Inconsistente gegevens in het downloadbare.csv- rapport versus het getoonde rapport in [!DNL Target] UI. {#csv}
 
 Rapporten die worden gegenereerd om te worden gedownload als CSV-bestanden, zijn inconsistent als de activiteit meer dan één metrische waarde gebruikt. Het downloadbare rapport wordt geproduceerd gebaseerd op de rapportmontages slechts en beschouwt de zelfde waarde voor een andere gebruikte metriek.
 
@@ -150,7 +150,7 @@ Afbeeldingsaanbiedingen op de pagina Aanbiedingen behouden soms het label &quot;
 
 Dit probleem is opgelost in de Target Standard/Premium-versie 20.10.1.
 
-### Analyses voor doelrapportage (A4T)
+### Analyses voor Adobe Target (A4T)-rapportage
 
 De volgende kwesties in verband met A4T zijn opgelost:
 
@@ -237,7 +237,7 @@ Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTR
 
 at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huurder worden gedownload. Als mbox.js eerst wordt gedownload, global\_mbox\_autocreate is set to &quot;waar&quot;en at.js zullen ook met `global_mbox_autocreate = true` worden gedownload. (TGT-15929)
 
-### Ondersteuning voor Enterprise-machtigingen in doel-API&#39;s {#api}
+### Ondersteuning voor bedrijfsmachtigingen in [!DNL Target] API&#39;s {#api}
 
 Codeaanbiedingen die zijn gemaakt vanuit de doelinterface in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft geen invloed op aanbiedingen die zijn gemaakt op basis van API&#39;s. ** Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de doelinterface.
 
@@ -348,7 +348,7 @@ Het algoritme voor het extraheren van het domein op hoofdniveau dat moet worden 
 
 Dit probleem is opgelost in at.js versie 1.2.
 
-### Gebruikersmachtigingen voor doelversie
+### Gebruikersmachtigingen voor [!DNL Target] Premium
 
 Als onderdeel van de migratie naar Enterprise-machtigingen is al het gebruikersbeheer voor Target Premium verplaatst van de gebruikersinterface van Adobe Target naar Adobe Admin Console.
 
@@ -439,7 +439,7 @@ De wereldwijde uitsluitingsregels duren 10 tot 20 minuten om zich aan de rand va
 
 Opgelost in de Recommendations 17.2.2.0-release (6 maart 2017).
 
-### Analyses voor doelrapportage (A4T)
+### Analyses voor Adobe Target (A4T)-rapportage
 
 De rapporten worden niet bijgewerkt wanneer rapporteringsmetrisch wordt geschakeld. Dit probleem is alleen van invloed op de gebruikersinterface. Er is geen invloed op het verzamelen of leveren van gegevens. (TGT-22970)
 
