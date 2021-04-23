@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;aanbevelingen algoritmen;aanbevelingen activiteit;aanbevelingen klassieke
-description: Bekijk informatie om u te helpen de verschillen tussen de oudere Recommendations Classic- en Recommendations-activiteiten in Target Premium begrijpen.
-title: Wat is het verschil tussen Recommendations Classic en Recommendations in Target Premium?
+description: Bekijk informatie om u te helpen de verschillen tussen de oudere Recommendations Classic- en Recommendations-activiteiten in  [!DNL Target] Premium begrijpen.
+title: Wat is het verschil tussen Recommendations Classic en Recommendations in  [!DNL Target] Premium?
 feature: Recommendations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMR-aanbevelingen Classic versus Recommendations-activiteiten in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![](/help/assets/premium.png) PREMIUMR-aanbevelingen Classic versus Recommendations-activiteiten in  [!DNL Target] Premium
 
 Informatie die u helpt bij het kiezen tussen Recommendations Classic- en Recommendations-activiteiten in Target Premium.
 
@@ -76,4 +76,3 @@ In [!DNL Recommendations Classic], waren er zes het richten opties. Recommendati
 In [!DNL Target] biedt [!DNL Recommendations] verbeterde rapportering die gebruikmaakt van de mogelijkheden die worden geboden door [!DNL Target] en [!DNL Experience Cloud]. In plaats van alleen maar de lift te tonen die door [!DNL Recommendations] wordt geleverd in vergelijking met de resultaten zonder deze, kunt u volledige informatie over uw [!DNL Recommendations] activiteit bekijken.
 
 ![](assets/overview_report.png)
-
