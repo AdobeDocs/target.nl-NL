@@ -2,17 +2,17 @@
 keywords: Opmerkingen bij de release
 description: Een lijst weergeven met functies, verbeteringen en oplossingen die zijn opgenomen in eerdere versies van Adobe Target.
 title: Welke functies zijn opgenomen in vorige releases?
-feature: Release Notes
+feature: Opmerkingen bij de release
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '30485'
+source-wordcount: '30452'
 ht-degree: 0%
 
 ---
 
-# Opmerkingen bij de release van vorige releases{#release-notes-for-previous-releases}
+# Opmerkingen bij de release van vorige releases
 
 Opmerkingen bij de release voor vorige Target-releases, waaronder releaseopmerkingen voor Target Standard/Premium, het doelplatform en de Javascript-bibliotheek van het doel (at.js).
 
@@ -2201,7 +2201,7 @@ Deze release bevat de volgende verbeteringen:
 
 * De optie [!UICONTROL Render Using JavaScript] wordt momenteel niet gesteund als het samen met douanecode in de Visuele Composer van de Ervaring wordt gebruikt.
 
-### Adobe Target Standard/Premium 16.8.1 (23 augustus 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe [!DNL Target] Standaard/Premium 16.8.1 (23 augustus 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 De Adobe Target Standard/Premium 16.8.1-release (23 augustus 2016) bevat de volgende functies en verbeteringen:
 
@@ -2272,7 +2272,7 @@ De volgende bekende problemen zijn gemeld:
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.7.1 (21 juli 2016) {#section_DB583EF9A30247A488EE319583911F22}
+### Adobe [!DNL Target] Standard/Premium 16.7.1 (21 juli 2016) {#section_DB583EF9A30247A488EE319583911F22}
 
 De Adobe Target Standard/Premium 16.7.1-release (21 juli 2016) bevat de volgende functies en verbeteringen:
 
@@ -2337,7 +2337,7 @@ De Adobe Target Standard/Premium 16.7.1-release (21 juli 2016) bevat de volgende
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.6.1 (16 juni 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
+### Adobe [!DNL Target] Standard/Premium 16.6.1 (16 juni 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
 
 Er is geen klant-onder ogen ziende versie gepland voor Juni.
 
@@ -2367,7 +2367,7 @@ De volgende bekende problemen zijn gemeld:
 
    Voor oudere activiteiten, als deze optie in ervaringscomposer van uw activiteit wordt gecontroleerd, betekent het uw redirection de vraagparameters zal omvatten. Als het niet wordt gecontroleerd, zullen de huidige vraagparameters niet in redirection worden omvat.
 
-### Adobe Target Standard/Premium 16.5.1 (19 mei 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe [!DNL Target] Standaard/Premium 16.5.1 (19 mei 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
 
 De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende functies en verbeteringen:
 
@@ -2441,7 +2441,7 @@ De volgende bekende problemen zijn gemeld:
 * Wanneer JavaScript uitschakelen is geselecteerd voor pagina A in een activiteit met meerdere pagina&#39;s, wordt JavaScript overal uitgeschakeld, ook al is JavaScript uitschakelen niet geselecteerd voor andere pagina&#39;s.
 * Probleem met voorbeeld-URL&#39;s voor ervaringen met omleiding. Als tussenoplossing klikt u in Experience Composer op **[!UICONTROL Configure]**, kiest u **[!UICONTROL Multiple Audiences]** en voegt u **[!UICONTROL All visitors]** toe als het enige publiek. Sla je activiteit verder op. Dit verandert niets aan de levering van uw activiteit, maar staat voorproef toe om te werken. Dit zal worden vastgesteld in de release van Adobe Target in juli.
 
-### Nieuwe bibliotheek voor doelimplementatie, at.js 0.8.0 (5 mei 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
+### Nieuwe [!DNL Target] Implementatiebibliotheek, at.js 0.8.0 (5 mei 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js is een nieuwe implementatiebibliotheek voor Doel die voor zowel typische implementaties van het Web als enig-paginatoepassingen wordt ontworpen.
 
@@ -2456,7 +2456,7 @@ Houd rekening met het volgende wanneer u at.js implementeert:
 * Asynchrone implementatie betekent dat verouderde integratie, zoals de insteekmodule Testen en Doel naar SiteCatalyst, mogelijk niet werkt.
 * Alle aanroepen naar Target worden uitgevoerd via XMLHTTPRequest en de inhoud wordt geretourneerd via JSON.
 
-### Adobe Target Standard/Premium 16.4.1 Fix (5 mei 2016) {#section_70552F61E83140C7B4D2A245198B630E}
+### Adobe [!DNL Target] Standard/Premium 16.4.1 Fix (5 mei 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
 * at.js v 0.8.0 is nu beschikbaar voor download van de interface van het Doel.
 * Doel-API&#39;s gewijzigd. `applyOffer` nu vereist  `mbox param [0]`.
@@ -2470,7 +2470,7 @@ Houd rekening met het volgende wanneer u at.js implementeert:
    });
    ```
 
-### Adobe Target Standard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe [!DNL Target] Standaard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2542,7 +2542,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is geselecteerd voor pagina A in een activiteit met meerdere pagina&#39;s, wordt JavaScript overal uitgeschakeld, ook al is JavaScript uitschakelen niet geselecteerd voor andere pagina&#39;s.
 
-### Adobe Target Standard/Premium 16.3.1 (15 maart 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe [!DNL Target] Standaard/Premium 16.3.1 (15 maart 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2591,7 +2591,7 @@ De volgende bekende problemen zijn gemeld:
    * Gebruik Firefox of Internet Explorer.
    * Schakel de Enhanced Experience Composer in, die kan worden geconfigureerd via het tabblad **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 
-### Adobe Target Standard/Premium 16.2.1 (18 februari 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe [!DNL Target] Standaard/Premium 16.2.1 (18 februari 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2613,7 +2613,7 @@ De volgende bekende problemen zijn gemeld:
    * Gebruik Firefox of Internet Explorer.
    * Schakel de Enhanced Experience Composer in, die kan worden geconfigureerd via het tabblad **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 
-### Adobe Target Standard/Premium 16.1.1 (28 januari 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
+### Adobe [!DNL Target] Standaard/Premium 16.1.1 (28 januari 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2693,7 +2693,7 @@ De volgende bekende problemen zijn gemeld:
 
 ## releases 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe Target Standard/Premium 15.10.1 (2 november 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe [!DNL Target] Standaard/Premium 15.10.1 (2 november 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2803,7 +2803,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is ingeschakeld voor pageA in een activiteit met meerdere pagina&#39;s, blijft JavaScript ingeschakeld voor alle pagina&#39;s, maar blijft de functionaliteit uitgeschakeld.
 
-### Adobe Target Standard/Premium 15.9.1 (30 september 2015) {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe [!DNL Target] Standaard/Premium 15.9.1 (30 september 2015) {#section_A54204291A99476688E8C0BD8255F93C}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2879,7 +2879,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is ingeschakeld voor pageA in een activiteit met meerdere pagina&#39;s, blijft JavaScript ingeschakeld voor alle pagina&#39;s, maar blijft de functionaliteit uitgeschakeld.
 
-### Adobe Target Standard/Premium 15.8.1 (20 augustus 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe [!DNL Target] Standaard/Premium 15.8.1 (20 augustus 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 Het doel van deze versie is eigenschappariteit van het Klassieke Doel te verstrekken. De meest gebruikte eigenschappen van Doel Klassiek zijn nu beschikbaar in de Norm van het Doel.
 
@@ -2945,7 +2945,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 15.7.1 (30 juli 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe [!DNL Target] Standaard/Premium 15.7.1 (30 juli 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3006,7 +3006,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is ingeschakeld voor pageA in een activiteit met meerdere pagina&#39;s, blijft JavaScript ingeschakeld voor alle pagina&#39;s, maar blijft de functionaliteit uitgeschakeld.
 
-### Adobe Target Standard/Premium 15.6.1 (25 juni 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe [!DNL Target] Standaard/Premium 15.6.1 (25 juni 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3057,7 +3057,7 @@ Deze release bevat de volgende oplossingen:
 * Probleem verholpen waarbij mbox-parameters niet altijd op de schermen voor het maken van een publiek werden weergegeven.
 * Probleem verholpen waarbij updates op de miniatuur van Recommendations-ontwerpen werden geblokkeerd.
 
-### Adobe Target Standard/Premium 15.5.1_Hotfix (28 mei 2015) {#section_D751F55A3812417FAA72BD6872AE3C2A}
+### Adobe [!DNL Target] Standaard/Premium 15.5.1_Hotfix (28 mei 2015) {#section_D751F55A3812417FAA72BD6872AE3C2A}
 
 Deze hotfix-release bevat de volgende oplossingen:
 
@@ -3065,7 +3065,7 @@ Deze hotfix-release bevat de volgende oplossingen:
 * Probleem verholpen waardoor de knop Activiteit maken voor sommige gebruikers niet correct werd weergegeven.
 * Probleem verholpen dat ertoe leidde dat het tekstvak Naam activiteit in de Visual Experience Composer verdween tijdens het bewerken van A/B en de Experience Targeting-activiteiten.
 
-### Adobe Target Standard/Premium 15.5.1 (21 mei 2015) {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe [!DNL Target] Standaard/Premium 15.5.1 (21 mei 2015) {#section_FF0F959908784AF0906EFB9E8324F207}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3162,7 +3162,7 @@ Deze release bevat de volgende oplossingen:
 * Probleem verholpen in Recommendations waarbij kenmerken met double-bytetekens (voor meertalige gevallen) de regels voor het filteren van insluiting omzeilden.
 * Alle activiteitstypen ondersteunen nu activiteitennamen van maximaal 200 tekens.
 
-### Adobe Target Standard/Premium15.3.1 (26 maart 2015) {#section_591371851693496C820175753F588E73}
+### Adobe [!DNL Target] Standard/Premium15.3.1 (26 maart 2015) {#section_591371851693496C820175753F588E73}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3212,7 +3212,7 @@ Deze release bevat de volgende oplossingen:
 
 * Doelgebaseerde conversiegebeurtenissen voor multivariate tests in Target Standard/Premium worden niet gerapporteerd wanneer Analytics wordt gebruikt als rapportagebron voor Target. Dit probleem zal naar verwachting binnenkort worden opgelost.
 
-### Adobe Target 15.2.1 (19 februari 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
+### Adobe [!DNL Target] 15.2.1 (19 februari 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3237,7 +3237,7 @@ Deze release bevat de volgende oplossingen:
 
 * Probleem verholpen waarbij een omleidingsvoorstel niet werkte bij het reviseren van een pagina.
 
-### Adobe Target 15.1.1 (22 januari 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe [!DNL Target] 15.1.1 (22 januari 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3280,7 +3280,7 @@ Deze release bevat de volgende oplossingen:
 
 ## releases 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
-### Adobe Target 14.10.2 (6 november 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
+### Adobe [!DNL Target] 14.10.2 (6 november 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
 
 <!-- 
 
@@ -3290,7 +3290,7 @@ target/r_release-notes-2014.xml
 
 Deze kleine release is vooral gericht op serverstabiliteit. Er zijn geen nieuwe functies als onderdeel van deze patch.
 
-### Adobe Target 14.10.1 (30 oktober 2014) {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe [!DNL Target] 14.10.1 (30 oktober 2014) {#section_D557CB331A004155B91CFE5B197076F3}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3306,7 +3306,7 @@ Deze release bevat de volgende verbeteringen:
 * De overzichtspagina toont het activiteitendoel.
 * Er wordt een waarschuwing weergegeven wanneer JavaScript wordt ingevoerd in het HTML-bewerkingsvak.
 
-### Adobe Target 14.9.1 (19 september 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe [!DNL Target] 14.9.1 (19 september 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3323,7 +3323,7 @@ Deze release bevat de volgende oplossingen:
 * Probleem verholpen in de ervaringseditor van Automated Personalization die ertoe leidde dat een gewijzigd videoaanbod niet zo veranderde werd weergegeven.
 * Correctie van een fout die ervoor zorgde dat de botsingspagina van een activiteit in Google Chrome als lege pagina werd getoond.
 
-### Adobe Target 14.8.1 (21 augustus 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe [!DNL Target] 14.8.1 (21 augustus 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 Deze release bevat de volgende nieuwe functies en verbeteringen:
 
@@ -3346,7 +3346,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 * Probleem verholpen met een fout tijdens klikconversie die `target="_blank" functions.` heeft genegeerd
 * Probleem verholpen waarbij met klikken bijhouden werd genavigeerd buiten de pagina.
 
-### Adobe Target 14.6.1 (25 juni 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe [!DNL Target] 14.6.1 (25 juni 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 Deze release bevat de volgende nieuwe functies:
 
@@ -3395,13 +3395,13 @@ Deze release bevat de volgende nieuwe functies:
 
 * Probleem verholpen waarbij de weergave van verwijderde items werd voortgezet.
 
-### Adobe Target Standard 14.5 (28 mei 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe [!DNL Target] Standaard 14.5 (28 mei 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
 
 Deze release bevat de volgende opgeloste problemen:
 
 * Probleem verholpen waarbij het voorvertonen van een ervaring niet naar behoren functioneerde.
 
-### Adobe Target Standard 1.7 (28 april 2014) {#section_2C2B9B6299ED4F48A3B983AB015F381A}
+### Adobe [!DNL Target] Standaard 1.7 (28 april 2014) {#section_2C2B9B6299ED4F48A3B983AB015F381A}
 
 [Doelstandaard 1.7-releasewebinar](https://my.adobeconnect.com/p1oabaz3cxi/)
 
@@ -3452,7 +3452,7 @@ Deze release bevat de volgende bekende problemen. Dit probleem wordt in een volg
 * Kan een afbeelding niet wisselen wanneer naar de afbeelding wordt verwezen in CSS.
 * Als u een afbeelding omwisselt en deze vervolgens vergroot of verkleint, worden de ervaringen in de Experience Editor niet correct weergegeven.
 
-### Adobe Target Standard 1.6 (17 maart 2014) {#section_DB1319CDD8944F6FB749E525EB551017}
+### Adobe [!DNL Target] Standaard 1.6 (17 maart 2014) {#section_DB1319CDD8944F6FB749E525EB551017}
 
 Deze release bevat de volgende nieuwe functies:
 
@@ -3480,7 +3480,7 @@ Deze release bevat de volgende bekende problemen. Dit probleem wordt in een volg
 * Het zoekvak Soorten publiek ondersteunt geen niet-ASCII-tekens.
 * Voor gebruikers van de Spaanse en Japanse versie leidt het opslaan van een activiteit na het instellen van de begin- en einddatum tot een fout. U wordt aangeraden op te slaan zonder begin- en einddatum in te stellen en uw activiteit vervolgens te activeren en stop te zetten vanuit de pagina Overzicht van activiteit of Activiteitenlijst wanneer dat nodig is.
 
-### Adobe Target Standard 1.5 (25 februari 2014) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
+### Adobe [!DNL Target] Standaard 1.5 (25 februari 2014) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
 Deze release bevat de volgende nieuwe functies:
 
@@ -3514,7 +3514,7 @@ Deze release bevat de volgende bekende problemen. Dit probleem wordt in een volg
 * Er treedt een synchronisatiefout op als Geo-publiek wordt gemaakt in Target Standard wanneer de geolocatie wordt uitgeschakeld in Target Advanced.
 * Kan een afbeelding niet wisselen wanneer naar de afbeelding wordt verwezen in CSS.
 
-### Adobe Target Standard 1.4 (20 januari 2014) {#section_CD27AEE32B4F40BDAB422711B96739A5}
+### Adobe [!DNL Target] Standaard 1.4 (20 januari 2014) {#section_CD27AEE32B4F40BDAB422711B96739A5}
 
 Deze release bevat de volgende nieuwe functies en verbeteringen:
 
@@ -3566,7 +3566,7 @@ Deze release bevat de volgende bekende problemen. Deze problemen worden in een v
 
 ## Uitzettingen 2013
 
-### Adobe Target Standard 1.3 (19 november 2013) {#section_D633ACA56FA941648219EB3748D814EC}
+### Adobe [!DNL Target] Standaard 1.3 (19 november 2013) {#section_D633ACA56FA941648219EB3748D814EC}
 
 Deze release bevat de volgende nieuwe functies en verbeteringen:
 
@@ -3588,7 +3588,7 @@ Deze release bevat de volgende bekende problemen. Deze problemen worden in een v
 * Klik het volgen werkt niet aan elementen die zijn herschikt gebruikend Composer van de Visuele Ervaring. Vermijd het instellen van het bijhouden van klikken op opnieuw gerangschikte elementen totdat deze fout is opgelost.
 * Gebruikers kunnen de actie **[!UICONTROL Remove]** niet selecteren voor inhoud die in een box is verpakt.
 
-### Adobe Target Standard 1.2 (31 oktober 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
+### Adobe [!DNL Target] Standaard 1.2 (31 oktober 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
 Er zijn vier bekende problemen met deze release. Deze problemen worden in een volgende update opgelost.
 
@@ -3610,7 +3610,7 @@ Deze release bevat de volgende correcties en verbeteringen:
 * Toegevoegde functionaliteit voor toetsenbordinvoer voor vervolgkeuzemenu&#39;s voor locatie.
 * Verbeterde de foutmelding die wordt weergegeven wanneer u een aanbieding verwijdert die in een activiteit wordt gebruikt.
 
-### Adobe Target Standard 1.1 (18 oktober 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
+### Adobe [!DNL Target] Standaard 1.1 (18 oktober 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
 
 Deze release bevat de volgende correcties en verbeteringen:
 
