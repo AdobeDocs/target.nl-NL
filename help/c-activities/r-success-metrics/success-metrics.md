@@ -1,16 +1,16 @@
 ---
 keywords: Doelstelling;succes;omzettingsmetrische;paginascore;metrische paginamontages;opbrengstmetriek;tijd op plaats metrisch;geschatte waarde;geavanceerde montages;succesmetriek;gebiedsdeel;Afhankelijkheid;De Telling van de verhoging & houdt Gebruiker in Activiteit;De Telling van de verhoging, de gebruiker van de Versie, & Toestaan de Telling van de verhoging, de Gebruiker van de Versie, & Bar van Ingang
-description: Meer informatie over succesmetriek in Adobe Target die u helpen het succes van een activiteit te bepalen. Tot de succesmetingen behoren Conversie, Inkomsten, Paginaweergaven, Aangepaste score en Tijd op de site.
+description: Leer over succesmetriek in Adobe [!DNL Target] die u helpen het succes van een activiteit bepalen. Tot de succesmetingen behoren Conversie, Inkomsten, Paginaweergaven, Aangepaste score en Tijd op de site.
 title: Wat zijn succescijfers?
-feature: Success Metrics
+feature: Succeswaarden
+exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
-
 
 # Succeswaarden
 
