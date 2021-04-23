@@ -1,19 +1,19 @@
 ---
 keywords: gebruiker toevoegen;gebruiker beheren;gebruikersmachtigingen
-description: Leer hoe u gebruikers beheert in Adobe Target Standard en hoe u bedrijfseigenschappen en -machtigingen beheert in Adobe Target Premium.
+description: Leer hoe u gebruikers beheert in Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium.
 title: Hoe vorm ik Gebruikersbeheer?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
-
-# Gebruikersbeheer{#user-management}
+# Gebruikersbeheer
 
 Informatie over het beheren van gebruikers in [!DNL Target] Standaard en het beheren van onderneming [!UICONTROL Properties] en [!UICONTROL Permissions] in [!DNL Target] Premium.
 
@@ -40,4 +40,3 @@ U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de
 In de volgende afbeelding ziet u de pagina [!UICONTROL Administration] voor een Premium-account. [!DNL Target] De tabbladen [!UICONTROL Properties] en [!UICONTROL Users] zijn beschikbaar:
 
 ![Het tabblad Beheer](/help/administrating-target/assets/premium.png)
-
