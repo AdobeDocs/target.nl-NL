@@ -1,17 +1,17 @@
 ---
 keywords: aanbeveling sleutel;aanbeveling logica;huidige categorie;aangepast kenmerk;laatst gekocht item;laatst bekeken item;meest bekeken item;meest bekeken item;favoriete categorie;populariteit;onlangs bekeken item;laatst gekocht;laatst bekeken item;laatst bekeken;meest bekeken;meest bekeken;favoriet;onlangs bekeken
-description: Leer hoe u aanbevelingen kunt gebruiken op basis van toetsen die de context van het gedrag van bezoekers gebruiken om relevante resultaten weer te geven in Adobe Target Recommendations-activiteiten.
+description: Leer hoe te om aanbevelingen te gebruiken die op sleutels worden gebaseerd die de context van het bezoekersgedrag gebruiken om relevante resultaten in Adobe [!DNL Target] Recommendations activiteiten te tonen.
 title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
+exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
 
 ---
-
 
 # De aanbeveling baseren op een aanbevelingen
 
@@ -199,7 +199,7 @@ Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volg
 * 5 punten voor elke volgende weergave
 * Aan het einde van de sessie worden alle waarden door 2 gedeeld
 
-Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u een A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
+Als u surfboardA en surfboardB bijvoorbeeld in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u een A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
 
 #### Logica (criteria)
 
