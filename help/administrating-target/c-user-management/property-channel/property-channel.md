@@ -2,18 +2,18 @@
 keywords: werkruimten;beheren eigenschap;machtigingen;productconfiguratie;productprofiel;rollen;project
 description: Leer hoe u afzonderlijke werkruimten (productprofielen) maakt en gebruikers vervolgens verschillende rollen en machtigingen toewijst voor afzonderlijke pagina's, eigenschappen of websites.
 title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebruik ik hen?
-feature: Administration & Configuration
+feature: Beheer en configuratie
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2991'
+source-wordcount: '2989'
 ht-degree: 0%
 
 ---
 
-
-# ![Gebruikersmachtigingen ](/help/assets/premium.png) PREMIUMEEnterprise{#enterprise-user-permissions}
+# ![Gebruikersmachtigingen ](/help/assets/premium.png) PREMIUMEEnterprise
 
 De gebruikerstoestemmingen van de onderneming zijn een middel om formele toegang van de gebruiker op bedrijfsniveau tot [!DNL Adobe Target] te beheren. Voeg gebruikers aan [!DNL Target] toe, wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen van [!UICONTROL Observer], [!UICONTROL Editor], of [!UICONTROL Approver] toewijzen.
 
@@ -296,7 +296,7 @@ Leerdoelstellingen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Kantooruren: Doeltopwerkruimten
+### Kantooruren: [!DNL Target] Premium-werkruimten
 
 Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leiding van het Adobe Customer Care-team.
 
