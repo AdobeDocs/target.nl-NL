@@ -1,23 +1,23 @@
 ---
-keywords: implementeren;implementeren;implementatie;adobe launch;launch;race;redirect;Experience platform starten
-description: Leer hoe u de Adobe Target at.js-bibliotheek implementeert met Adobe Experience Platform Launch, de voorkeursmethode voor het implementeren van Adobe Target.
-title: Hoe implementeer ik Doel met behulp van Adobe Launch?
-feature: Implement Server-side
+keywords: implementeren;implementeren;implementatie;adobe launch;launch;race;redirect;Experience platform launch
+description: Leer hoe u de Adobe [!DNL Target] at.js-bibliotheek implementeert met Adobe Experience Platform Launch, de voorkeursmethode voor het implementeren van Adobe [!DNL Target].
+title: Hoe voer ik  [!DNL Target] het gebruiken van de Lancering van Adobe uit?
+feature: Server-kant implementeren
 role: Developer
+exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
 
-
-# Doel implementeren met Adobe Launch
+# [!DNL Target] implementeren met Adobe Launch
 
 Adobe Experience Platform Launch is het platform voor het beheer van tags van de volgende generatie van Adobe en heeft de voorkeur voor de implementatie van Adobe Target. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren.
 
-## Doel implementeren met Adobe starten {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## [!DNL Target] implementeren met Adobe starten {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
 Starten is het platform voor tagbeheer van de volgende generatie van Adobe en is de voorkeursmethode voor het implementeren van Adobe Target. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren.
 
@@ -29,7 +29,7 @@ In de volgende tabel worden de verschillende bronnen weergegeven waar u meer inf
 | [Adobe Starten van documentatie](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informatie over het opstellen en beheren van alle analyses, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
 | [Adobe Target Extension Documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informatie over het implementeren van Doel met behulp van Starten. |
 
-## Voordelen van het uitvoeren van at.js die de uitbreiding {#section_48B3F938B6F8491DAF798E0DB54EF304} van de Lancering van het Doel gebruiken
+## Voordelen van het implementeren van at.js met de [!DNL Target] extensie {#section_48B3F938B6F8491DAF798E0DB54EF304} starten
 
 De volgende voordelen zijn alleen van toepassing als u Adobe Launch gebruikt om at.js te implementeren. Daarom stellen wij ten zeerste voor om Adobe Launch te gebruiken in plaats van DTM of een handmatige implementatie van at.js.
 
