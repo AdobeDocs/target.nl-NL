@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get aanbiedingen;at.js;functies;function
-description: Gebruik de functie adobe.target.getOffers() en de bijbehorende opties voor de Adobe Target-bibliotheek at.js om aanvragen in werking te stellen voor het ophalen van meerdere Target-aanbiedingen. (om 2.x.js)
+description: Gebruik de functie adobe.target.getOffers() en de bijbehorende opties voor de Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] aanbiedingen. (om 2.x.js)
 title: Hoe gebruik ik de functie adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: 82c66de1d4a6680392b7e73759dc824c4df22d2f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
