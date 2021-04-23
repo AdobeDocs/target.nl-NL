@@ -1,19 +1,19 @@
 ---
-keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van gericht
+keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van richten
 description: Leer hoe u afzonderlijke aanbiedingen kunt richten op specifieke doelgroepen met behulp van een Automated Personalization-activiteit (AP) in Adobe Target.
-title: Hoe kan ik me richten op Automated Personalization-aanbiedingen?
+title: Hoe kan ik [!DNL Target] Automated Personalization aanbieden?
 feature: Automated Personalization
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
 
 ---
 
-
-# ![automated personalization-aanbiedingen voor ](/help/assets/premium.png) PREMIUMTarget{#target-automated-personalization-offers}
+# ![Aanbiedingen voor ](/help/assets/premium.png) [!DNL Target] PREMIUMAutomated Personalization
 
 In een [!DNL Adobe Target] [!DNL Automated Personalization] (AP) activiteit, kunt u aanbiedingen aan specifiek publiek richten.
 
