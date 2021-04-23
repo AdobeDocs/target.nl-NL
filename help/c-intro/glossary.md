@@ -1,17 +1,17 @@
 ---
-description: Wat betekent het verschil in termen die in Adobe Target worden gebruikt? Vind definities van gemeenschappelijke termijnen om u te helpen meer uit Doel krijgen.
+description: Wat betekenen de verschillende termen die in Adobe [!DNL Target] worden gebruikt? Vind definities van gemeenschappelijke termijnen om u te helpen meer uit [!DNL Target] krijgen.
 title: Waar kan ik Termen vinden en Definities die in Doel worden gebruikt?
-feature: Overview
+feature: Overzicht
+exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2458'
 ht-degree: 1%
 
 ---
 
-
-# Verklarende woordenlijst{#glossary}
+# Verklarende woordenlijst
 
 Definities van termen.
 
@@ -95,7 +95,7 @@ Een subset van producten of inhoud die in aanmerking komen om te worden aanbevol
 
 **combinatie**
 
-De variaties in de inhoud die worden gemaakt wanneer u meerdere inhoudsopties test op meerdere locaties in een multivariate test. Als u bijvoorbeeld drie locaties test, elk met drie inhoudsopties, zijn er 27 mogelijke combinaties (3x3x3). Een bezoeker van uw site ziet één combinatie, ook wel een ervaring genoemd.
+De variaties in de inhoud die worden gemaakt wanneer u meerdere inhoudsopties op meerdere locaties in een multivariate test test test. Als u bijvoorbeeld drie locaties test, elk met drie inhoudsopties, zijn er 27 mogelijke combinaties (3x3x3). Een bezoeker van uw site ziet één combinatie, ook wel een ervaring genoemd.
 
 **content**
 
