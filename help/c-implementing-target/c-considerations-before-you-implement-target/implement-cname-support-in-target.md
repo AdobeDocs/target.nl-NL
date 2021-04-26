@@ -6,9 +6,9 @@ feature: Privacy en beveiliging
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Instructies voor het werken met de Zorg van de Cliënt [!DNL Adobe] om steun CNA
    >
    >Adobe, DigiCert, kan pas een certificaat uitgeven als deze stap is voltooid. Daarom [!DNL Adobe] kan uw verzoek om een implementatie CNAME niet vervullen tot deze stap volledig is.
 
-1. [Vul dit ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) formulier in en neem het op wanneer u een Adobe Client Care-ticket  [opent dat CNAME-ondersteuning](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) aanvraagt:
+1. [Vul dit ](/help/assets/FPC_Request_Form.xlsx) formulier in en neem het op wanneer u een Adobe Client Care-ticket  [opent dat CNAME-ondersteuning](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) aanvraagt:
 
    * Adobe [!DNL Target] clientcode:
    * SSL-certificaathostnamen (voorbeeld: `target.example.com target.example.org`):
