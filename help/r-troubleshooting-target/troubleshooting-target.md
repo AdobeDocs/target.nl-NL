@@ -5,9 +5,9 @@ title: Hoe los ik Doel problemen op?
 feature: Problemen oplossen
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,10 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 ## Mobiele apps
 
 * [Veelgestelde vragen over het doel voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+
+## Apparaatbeslissingen
+
+* [Apparaatbeslissingen voor at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
 
 ## Rapportage
 
