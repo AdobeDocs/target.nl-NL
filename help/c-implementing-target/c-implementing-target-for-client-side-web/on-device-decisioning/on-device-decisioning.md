@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '3401'
+source-wordcount: '3642'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | --- | --- |
 | 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | De bibliotheek at.js vraagt om het JSON-regelartefact van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen. |
 | 5 | De Akamai CDN reageert met het Artefact van de JSON-regel. |
 | 6 | De JSON-regelartefact wordt lokaal in de browser van de bezoeker in cache geplaatst. |
@@ -136,7 +136,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 | --- | --- |
 | 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | De bibliotheek at.js interpreteert het JSON-regelartefact en voert de beslissing in het geheugen uit om de ervaring op te halen. |
 | 5 | De geteste elementen zijn verborgen. |
 | 6 | De bibliotheek at.js toont het lichaam zodat de rest van de pagina voor uw bezoeker aan mening kan worden geladen. |
@@ -167,9 +167,9 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 | Stap | Beschrijving |
 | --- | --- |
-| 3 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | De [!DNL Experience Cloud Visitor ID] wordt opgehaald uit [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>De bibliotheek at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 3 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
+| 1 | De bibliotheek at.js verbergt het lichaam om flikkering te voorkomen. |
 | 4 | Er wordt een aanvraag ingediend voor het laden van een pagina in het Adobe Target Edge-netwerk, inclusief alle geconfigureerde parameters zoals (ECID, Customer ID, Custom Parameters, User Profile, enzovoort.) |
 | 5 | Parallel hieraan vraagt at.js om het Artefact van de JSON-regel van de dichtstbijzijnde Akamai CDN naar de bezoeker op te halen. |
 | 6 | (Adobe Target Edge Network) Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de Profile Store. De Opslag van het Profiel vraagt gekwalificeerd publiek van de Bibliotheek van het Publiek (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] wordt gedeeld, etc.). |
@@ -329,3 +329,63 @@ Via het filter [!UICONTROL On-Device Decisioning Eligible] kunt u filteren op al
 1. Creeer en activeer een [activiteitstype dat door op-apparatenbesluit ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) wordt gesteund, en verifieer dat het op-apparatenbesluit geschikt is.
 1. Stel **[!UICONTROL Decisioning Method]** in op **[!UICONTROL “Hybrid”]** of **[!UICONTROL “On-device only”]** via de interface voor instellingen at.js.
 1. Download en implementeer At.js 2.5.0+ op uw pagina&#39;s.
+
+## Problemen oplossen
+
+Voer de volgende stappen uit om de beslissing op het apparaat problemen op te lossen:
+
+1. Het consolelogboek voor at.js inschakelen
+1. Verifieer de download van het regelartefact in het lusje van het Netwerk van uw browser
+1. Verifieer de download van het regelartefact gebruikend at.js douanegebeurtenissen
+
+In de volgende secties wordt elke stap nader beschreven:
+
+### Stap 1: Het consolelogboek voor at.js inschakelen
+
+Als u de URL-parameter `mboxDebug=1` toevoegt, kan at.js berichten afdrukken in de browserconsole.
+
+Alle berichten bevatten een voorvoegsel &quot;AT:&quot;voor geschikt overzicht. Om ervoor te zorgen dat een artefact met succes is geladen, zou uw consolelogboek berichten gelijkend op het volgende moeten bevatten:
+
+```
+AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
+AT: LD.ArtifactProvider artifact received - status=200
+```
+
+De volgende illustratie toont deze berichten in het consolelogboek:
+
+![Logbestand van console met artefactberichten](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
+
+### Stap 2: Verifieer de download van het regelartefact in het lusje van het Netwerk van uw browser
+
+Open het tabblad Netwerk van uw browser.
+
+Als u bijvoorbeeld DevTools wilt openen in Google Chrome:
+
+1. Druk op Ctrl+Shift+J (Windows) of Command+Option+J (Mac).
+1. Navigeer naar het tabblad Netwerk.
+1. Filter uw vraag door sleutelwoord &quot;rules.json&quot;om ervoor te zorgen dat slechts de vertoningen van het artefactregelingendossier.
+
+   Daarnaast kunt u filteren op &quot;/delivery|rules.json/&quot; om alle [!DNL Target] aanroepen en artefactrules.json weer te geven.
+
+   ![Het tabblad Netwerk in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
+
+### Verifieer de download van het regelartefact gebruikend at.js douanegebeurtenissen
+
+De bibliotheek at.js verzendt twee nieuwe douanegebeurtenissen om op-apparatenbesluit te steunen.
+
+* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
+* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
+
+U kunt zich abonneren om naar deze aangepaste gebeurtenissen in uw toepassing te luisteren en deze te activeren wanneer het downloaden van het bestand met artefactregels is gelukt of mislukt.
+
+In het volgende voorbeeld ziet u een voorbeeld van code die luistert naar gebeurtenissen voor het downloaden van artefacten en mislukken:
+
+```javascript
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
+  console.log("Artifact successfully downloaded", e.detail);
+}, false);
+
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
+  console.log("Artifact failed to download", e.detail);
+}, false);
+```
