@@ -5,22 +5,16 @@ title: Hoe los ik op-Apparaatbesluit met de JavaScript-bibliotheek at.js problem
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
-# Beslissing van problemen op het apparaat voor at.js
+# Problemen met apparaatbeslissingen voor at.js oplossen
 
-Voer de volgende stappen uit om problemen op te lossen met de JavaScript-bibliotheek at.js op het apparaat in Adobe Target:
-
-1. Het consolelogboek voor at.js inschakelen
-1. Verifieer de download van het regelartefact in het lusje van het Netwerk van uw browser
-1. Verifieer de download van het regelartefact gebruikend at.js douanegebeurtenissen
-
-In de volgende secties wordt elke stap nader beschreven:
+Voer de volgende stappen uit om problemen op te lossen bij het bepalen van het apparaat in [!DNL Adobe Target] met de JavaScript-bibliotheek at.js:
 
 ## Stap 1: Het consolelogboek voor at.js inschakelen
 
