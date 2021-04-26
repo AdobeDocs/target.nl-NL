@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '3643'
+source-wordcount: '3401'
 ht-degree: 1%
 
 ---
@@ -329,63 +329,3 @@ Via het filter [!UICONTROL On-Device Decisioning Eligible] kunt u filteren op al
 1. Creeer en activeer een [activiteitstype dat door op-apparatenbesluit ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) wordt gesteund, en verifieer dat het op-apparatenbesluit geschikt is.
 1. Stel **[!UICONTROL Decisioning Method]** in op **[!UICONTROL “Hybrid”]** of **[!UICONTROL “On-device only”]** via de interface voor instellingen at.js.
 1. Download en implementeer At.js 2.5.0+ op uw pagina&#39;s.
-
-## Problemen oplossen
-
-Voer de volgende stappen uit om de beslissing op het apparaat problemen op te lossen:
-
-1. Het consolelogboek voor at.js inschakelen
-1. Verifieer de download van het regelartefact in het lusje van het Netwerk van uw browser
-1. Verifieer de download van het regelartefact gebruikend at.js douanegebeurtenissen
-
-In de volgende secties wordt elke stap nader beschreven:
-
-### Stap 1: Het consolelogboek voor at.js inschakelen
-
-Als u de URL-parameter `mboxDebug=1` toevoegt, kan at.js berichten afdrukken in de browserconsole.
-
-Alle berichten bevatten een voorvoegsel &quot;AT:&quot;voor geschikt overzicht. Om ervoor te zorgen dat een artefact met succes is geladen, zou uw consolelogboek berichten gelijkend op het volgende moeten bevatten:
-
-```
-AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
-AT: LD.ArtifactProvider artifact received - status=200
-```
-
-De volgende illustratie toont deze berichten in het consolelogboek:
-
-![Logbestand van console met artefactberichten](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
-
-### Stap 2: Verifieer de download van het regelartefact in het lusje van het Netwerk van uw browser
-
-Open het tabblad Netwerk van uw browser.
-
-Als u bijvoorbeeld DevTools wilt openen in Google Chrome:
-
-1. Druk op Ctrl+Shift+J (Windows) of Command+Option+J (Mac).
-1. Navigeer naar het tabblad Netwerk.
-1. Filter uw vraag door sleutelwoord &quot;rules.json&quot;om ervoor te zorgen dat slechts de vertoningen van het artefactregelingendossier.
-
-   Daarnaast kunt u filteren op &quot;/delivery|rules.json/&quot; om alle [!DNL Target] aanroepen en artefactrules.json weer te geven.
-
-   ![Het tabblad Netwerk in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
-
-### Stap 3: Verifieer de download van het regelartefact gebruikend at.js douanegebeurtenissen
-
-De bibliotheek at.js verzendt twee nieuwe douanegebeurtenissen om op-apparatenbesluit te steunen.
-
-* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
-* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
-
-U kunt zich abonneren om naar deze aangepaste gebeurtenissen in uw toepassing te luisteren en deze te activeren wanneer het downloaden van het bestand met artefactregels is gelukt of mislukt.
-
-In het volgende voorbeeld ziet u een voorbeeld van code die luistert naar gebeurtenissen voor het downloaden van artefacten en mislukken:
-
-```javascript
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
-  console.log("Artifact successfully downloaded", e.detail);
-}, false);
-
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
-  console.log("Artifact failed to download", e.detail);
-}, false);
-```
