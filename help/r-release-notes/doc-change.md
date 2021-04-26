@@ -5,9 +5,9 @@ title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | --- | --- | --- |
 | 9 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie voor de release van at.js versie 2.5.0 is toegevoegd (19 april 2021) |
 | 9 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie voor de doelstandaard/Premium versie 21.4.1 is toegevoegd (19 april 2021) |
-|  | [Recommendations integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | De volgende sectie toegevoegd: &quot;Capaciteitsrichtlijnen voor Opties 1 &amp; 2.&quot; |
+|  | [Recommendations integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Toegevoegde notitie met een beschrijving van de capaciteitsrichtlijnen voor opties 1 en 2. |
 | 29 maart | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nieuwe veelgestelde vragen toegevoegd:<ul><li>Blijven aanbevelingen op basis van onlangs weergegeven items op meerdere apparaten voor één bezoeker?</li></ul> |
 | 23 maart | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
