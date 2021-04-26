@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3643'
 ht-degree: 1%
 
 ---
@@ -369,7 +369,7 @@ Als u bijvoorbeeld DevTools wilt openen in Google Chrome:
 
    ![Het tabblad Netwerk in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### Verifieer de download van het regelartefact gebruikend at.js douanegebeurtenissen
+### Stap 3: Verifieer de download van het regelartefact gebruikend at.js douanegebeurtenissen
 
 De bibliotheek at.js verzendt twee nieuwe douanegebeurtenissen om op-apparatenbesluit te steunen.
 
