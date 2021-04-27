@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1827'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Het cookie heeft verschillende standaardinstellingen. U kunt deze instellingen d
 | Naam cookie | mbox. |
 | Cookie-domein | Het tweede en bovenste niveau van de domeinen waaruit u de inhoud aanbiedt. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. |
 | Serverdomein | `clientcode.tt.omtrdc.net`, met de clientcode voor uw account. |
-| Duur van cookie | Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan. U kunt de duur van het cookie niet wijzigen. |
+| Duur van cookie | Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan.<br>De  `deviceIdLifetime` instelling kan worden overschreven in  [versie 2.3.1 of hoger](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) op at.js. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie. |
 | P3P-beleid | De cookie wordt gepubliceerd met een P3P-beleid, zoals vereist door de standaardinstelling in de meeste browsers. Een P3P-beleid geeft aan welke browser de cookie aanbiedt en hoe de informatie wordt gebruikt. |
 
 Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers campagnes ervaren:
