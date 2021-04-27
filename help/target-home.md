@@ -5,7 +5,7 @@ description: Leer hoe u Adobe [!DNL Target] kunt gebruiken om de ervaring van uw
 feature: Overzicht
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
+source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 ## Top Adobe: De Digital Experience Conference
 
 [Klik hier voor meer informatie over de top van Adobe.](https://business.adobe.com/summit/adobe-summit.html)
+
+Altijd Pacific Daylight Time (PDT) -7 GMT.
 
 ![Vergaderingen](/help/assets/summit-2021.png)
 
