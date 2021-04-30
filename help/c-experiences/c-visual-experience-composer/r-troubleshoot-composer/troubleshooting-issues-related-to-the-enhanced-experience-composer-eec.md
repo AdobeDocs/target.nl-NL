@@ -5,10 +5,10 @@ title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Compose
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 28e21ea0b0e2306a54c9353ae57de7de5d94f564
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: '430'
+ht-degree: 1%
 
 ---
 
@@ -22,11 +22,12 @@ Dit kan worden opgelost door de volgende IP adressen te voegend op lijst van gew
 
 Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen:
 
-| Regio | IP-adressen | Hostnamen |
-|--- |--- |--- |
-| Verenigde Staten | 52 55 99 45 | `us1-proxy.adobemc.com` |
-| Europa, Midden-Oosten en Afrika (EMEA) | 52.51.238.221 | `emea1-proxy.adobemc.com` |
-| Azië-Stille Oceaan (APAC) | 52 193 67,35 | `apac1-proxy.adobemc.com` |
+* 52 16 72 74
+* 52.5.174,79
+* 54 246 238,65
+* 54 249 183 154
+* 54 65 105 214
+* 54 82 142 68
 
 Het volgende foutbericht wordt mogelijk weergegeven in Target:
 
