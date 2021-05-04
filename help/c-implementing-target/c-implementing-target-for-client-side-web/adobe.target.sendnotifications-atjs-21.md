@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Deze functie verzendt een bericht naar de rand van het Doel wanneer een ervaring
 | Request > notifications > view > key | String | Nee | `<=` 512 tekens. | Weergavesleutel. De sleutel die is ingesteld met de weergave via de API. |
 | Verzoek > meldingen > Weergave > Status | String | Nee |  | Statustoken weergeven. |
 
-**Opmerking**: De volgende tekens zijn toegestaan voor  `Request > notifications > mbox > name`:
+**Opmerking**: De volgende tekens zijn  ** niet toegestaan voor  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
