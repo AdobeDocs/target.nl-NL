@@ -5,9 +5,9 @@ description: Leer hoe u Adobe [!DNL Target] kunt gebruiken om de ervaring van uw
 feature: Overzicht
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-## Top Adobe: De Digital Experience Conference
-
-[Klik hier voor meer informatie over de top van Adobe.](https://business.adobe.com/summit/adobe-summit.html)
-
-Altijd Pacific Daylight Time (PDT) -7 GMT.
-
-![Vergaderingen](/help/assets/summit-2021.png)
-
-**Laatst bijgewerkt: 27 april 2021 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 5 mei 2021 ( [zie wat veranderde](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
