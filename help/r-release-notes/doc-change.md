@@ -5,9 +5,9 @@ title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 5 mei | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de door de Adobe Target Community opgestelde afkapping van vragen en antwoorden die woensdag 12 mei 2021 om 8.00 uur wordt gehouden. (PDT, GMT-7). |
 | 27 april | [Cookie-instellingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Bijgewerkt onderwerp om erop te wijzen dat de koekjesduur (`deviceIdLifetime` het plaatsen) in at.js versie 2.3.1 of later met voeten kan treden. |
 |  | [Adobe Target-gids](/help/target-home.md) | Informatie toegevoegd over de top van Adobe. |
 | 26 april | [Beslissing van problemen op het apparaat voor at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nieuw onderwerp. |
