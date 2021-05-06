@@ -6,9 +6,9 @@ feature: Soorten publiek
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Gebruik het publiek in [!DNL Adobe Target] om gebruikers te richten op basis van hun geografische locatie, waaronder hun land, staat/provincie, stad, postcode/postcode, DMA of mobiele vervoerder.
 
-De parameters van de plaats van de geoplaats staan u toe om activiteiten en ervaringen te richten die op de aardrijkskunde van uw bezoekers worden gebaseerd. U kunt bezoekers opnemen of uitsluiten op basis van hun land, provincie, provincie, stad, postcode, breedte, lengte, DMA of mobiele provider. Dit gegeven wordt verzonden met elk verzoek van het Doel en is gebaseerd op het IP van de bezoeker adres. Selecteer deze parameters net als alle doelwaarden.
+De parameters van de plaats van de geoplaats staan u toe om activiteiten en ervaringen te richten die op de aardrijkskunde van uw bezoekers worden gebaseerd. U kunt bezoekers opnemen of uitsluiten op basis van hun land, provincie, provincie, stad, postcode, breedte, lengte, DMA of mobiele provider. Dit gegeven wordt verzonden met elk [!DNL Target] verzoek en is gebaseerd op het IP van de bezoeker adres. Selecteer deze parameters net als alle doelwaarden.
 
 ## Een publiek maken met geo als doel {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -44,7 +44,7 @@ De parameters van de plaats van de geoplaats staan u toe om activiteiten en erva
 1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
 1. Klik op **[!UICONTROL Save]**.
 
-In de volgende afbeelding ziet u een publiek dat gericht is op gebruikers die de activiteit betreden vanaf een breedte van meer dan 44 graden en een lengte van minder dan 22 graden.
+In de volgende afbeelding ziet u een publiek dat gericht is op gebruikers die de activiteit betreden vanaf een breedte van meer dan 44° en een lengte van minder dan 22°.
 
 ![](assets/target_geo.png)
 
@@ -116,7 +116,7 @@ Gebruik bijvoorbeeld:
 
 **Hoe richt geo zich op het werk voor mobiele apparaten?**
 
-De meeste gebruikers van mobiele apparaten hebben toegang tot inhoud via WiFi, wat betekent dat de op IP gebaseerde geo-keuze van Target net zo nauwkeurig is als op een desktop. De op toren-gebaseerde verbindingen van de cel kunnen minder nauwkeurig zijn omdat het IP van de bezoeker adres op de toren gebaseerd is waar het signaal wordt opgepikt. Sommige problemen met mobiele geolocatie kunnen worden opgelost met de [Geolocatie-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+De meeste gebruikers van mobiele apparaten hebben toegang tot inhoud via WiFi, wat betekent dat de op IP gebaseerde geotargeting van [!DNL Target] even nauwkeurig is als op een desktop. De op toren-gebaseerde verbindingen van de cel kunnen minder nauwkeurig zijn omdat het IP van de bezoeker adres op de toren gebaseerd is waar het signaal wordt opgepikt. Sommige problemen met mobiele geolocatie kunnen worden opgelost met de [Geolocatie-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Hoe behandelt de functie van geo bezoekers van AOL?**
 
@@ -133,7 +133,7 @@ Vanwege de manier waarop AOL zijn verkeer verrijkt, kan [!DNL Target] deze allee
 
 **Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?**
 
-* **te.js 1.*x***: U kunt uw IP adres met een IP adres van een verschillende plaats met voeten treden en de  `mboxOverride.browserIp url` parameter gebruiken. Dus als uw bedrijf zich in het Verenigd Koninkrijk bevindt, maar uw wereldwijde campagne gericht is op bezoekers in Aukland, Nieuw-Zeeland, gebruikt u deze URL, ervan uitgaande dat `60.234.0.39` een IP-adres is in Auckland:
+* **te.js 1.*x***: U kunt uw IP adres met een IP adres van een verschillende plaats met voeten treden en de  `mboxOverride.browserIp url` parameter gebruiken. Dus als uw bedrijf zich in het Verenigd Koninkrijk bevindt, maar uw wereldwijde campagne gericht is op bezoekers in Auckland, Nieuw-Zeeland, gebruikt u deze URL ervan uitgaande dat `60.234.0.39` een IP-adres is in Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -143,7 +143,7 @@ Vanwege de manier waarop AOL zijn verkeer verrijkt, kan [!DNL Target] deze allee
    >
    >`mboxOverride.browserIp` wordt ondersteund in at.js 1.** Alleen. Deze functionaliteit wordt niet ondersteund in at.js 2.*x*.
 
-* **te.js 1.*x***: Om uw IP adres met at.js 2 met voeten te treden.*x*, installeer een browser uitbreiding/stop (zoals X-Door:sturen-voor Kopbal voor Chrome of Firefox). Met deze extensie kunt u de x-door:sturen-voor-header doorgeven in uw paginaaanvragen.
+* **te.js 2.*x***: Om uw IP adres met at.js 2 met voeten te treden.*x*, installeer een browser uitbreiding/stop (zoals X-Door:sturen-voor Kopbal voor Chrome of Firefox). Met deze extensie kunt u de x-door:sturen-voor-header doorgeven in uw paginaaanvragen.
 
 **Hoe worden gebieden, zoals Puerto Rico en Hongkong, in de geo-gerichte structuur ondergebracht?**
 
