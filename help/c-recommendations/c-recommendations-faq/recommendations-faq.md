@@ -5,9 +5,9 @@ title: Waar kan ik Vragen en Antwoorden over  [!DNL Target] Recommendations vind
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '2938'
+source-wordcount: '2921'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het tijdkader en de resultaten variëren, afhankelijk van hoe de items worden bi
 | --- | --- |
 | Itemkenmerken bijgewerkt via mbox of API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
 | Itemkenmerken bijgewerkt via feed | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur).</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na volgende catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
-| Item verwijderd uit catalogus via doelinterface of -API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Item verwijderd uit catalogus via [!DNL Target] UI of API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
 | Item dat via mbox of API aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt nadat het algoritme is uitgevoerd. Algorithm-run is elke 12 uur gepland voor algoritmes van 1 tot 2 dagen en elke 24 uur voor algoritmen van 7 of meer dagen.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
 | Item dat via feed aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur). De volgende algoritmelooppas wordt gepland om de 12 uur voor 1-2 dagalgoritmen en om de 24 uur voor 7+ dagalgoritmen. Recommendations wordt in totaal binnen 2-32 uur bijgewerkt.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
 
@@ -65,8 +65,8 @@ De volgende wijzigingen worden pas doorgevoerd wanneer het volgende algoritme wo
 
 ## Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) wordt weerspiegeld in de aanbevelingen *die* gebruiker ontvangt?
 
-* Het product/de inhoud die momenteel wordt weergegeven/aangeschaft, is van invloed op de aanbevelingen die de gebruiker ontvangt voor dezelfde pagina/aanvraag voor inhoud.
-* Historisch gebruikersgedrag, zoals &quot;laatst bekeken product,&quot;het meest bekeken product,&quot;en algemene het bekijken/het kopen geschiedenis wordt bijgewerkt met dat verzoek en beïnvloedt de aanbevelingen die de gebruiker op de volgende pagina ontvangt/van het Doel inhoudsverzoek. De algoritmen &quot;Recent bekeken items&quot; en &quot;Aanbevolen voor u&quot; werken bijvoorbeeld bij met elke productweergave/aankoop en worden weergegeven in de volgende inhoudsaanvraag.
+* Momenteel bekeken/gekochte product/inhoud beïnvloeden de aanbevelingen de gebruiker op de zelfde pagina/[!DNL Target] inhoudsverzoek ontvangt.
+* Historisch gebruikersgedrag, zoals &quot;laatst bekeken product,&quot;het meest bekeken product,&quot;en algemene het bekijken/het kopen geschiedenis wordt bijgewerkt met dat verzoek en beïnvloedt de aanbevelingen die de gebruiker op de volgende pagina/[!DNL Target] inhoudsverzoek ontvangt. De algoritmen &quot;Recent bekeken items&quot; en &quot;Aanbevolen voor u&quot; werken bijvoorbeeld bij met elke productweergave/aankoop en worden weergegeven in de volgende inhoudsaanvraag.
 
 ## Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) wordt weerspiegeld in de aanbevelingen *andere* gebruikers ontvangen?
 
@@ -95,30 +95,30 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
-Doel heeft een instelling [Incompatibele criteria filteren](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om intelligent filteren van de algoritmekiezer te beheren.
+[!DNL Target] heeft een  [filter Niet-compatibele ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) Criterium om intelligent filtreren van de algoritmekiezer te controleren.
 
 >[!NOTE]
 >
->Dit het plaatsen is op activiteiten van toepassing die in Visuele Composer van de Ervaring (VEC) slechts worden gecreeerd. Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer (Target heeft geen locatiecontext).
+>Dit het plaatsen is op activiteiten van toepassing die in Visuele Composer van de Ervaring (VEC) slechts worden gecreeerd. Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer ([!DNL Target] heeft geen locatiecontext).
 
 Als u de instelling [!UICONTROL Filter Incompatible Criteria] wilt openen, klikt u op [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
 ![](assets/recs_settings_filter.png)
 
-Als de instelling [!UICONTROL Filter Incompatible Criteria] NIET is ingeschakeld, filtert Doel geen algoritmen in de Algorituurkiezer en worden alle algoritmen weergegeven.
+Als de instelling [!UICONTROL Filter Incompatible Criteria] NIET is ingeschakeld, filtert [!DNL Target] geen algoritmen in de Algoritmekiezer en worden alle algoritmen weergegeven.
 
-Als [!UICONTROL Filter Incompatible Criteria] het plaatsen wordt toegelaten, in VEC activiteiten, leest Doel entiteitId en categorie ID van de geselecteerde plaats en toont dan algoritmen die op `currentItem|currentCategory` worden gebaseerd (als respectieve waarden op die plaats aanwezig zijn). Hierdoor worden standaard alleen compatibele algoritmen voor de geselecteerde locatie weergegeven in de algoritmekiezer.
+Als [!UICONTROL Filter Incompatible Criteria] wordt toegelaten, in VEC activiteiten, [!DNL Target] leest entiteitId en categorie ID van de geselecteerde plaats en toont dan algoritmen die op `currentItem|currentCategory` worden gebaseerd (als respectieve waarden op die plaats aanwezig zijn). Hierdoor worden standaard alleen compatibele algoritmen voor de geselecteerde locatie weergegeven in de algoritmekiezer.
 
 Als de instelling [!UICONTROL Filter Incompatible Criteria] is ingeschakeld, kunt u nog steeds niet-compatibele algoritmen weergeven door het selectievakje [!UICONTROL Compatible] uit te schakelen terwijl u criteria selecteert.
 
 ![](assets/compatible_checkbox.png)
 
-De volgende lijst bevat speciale gevallen waarin het selectievakje [!UICONTROL Compatible] niet wordt weergegeven door Doel:
+De volgende lijst bevat speciale gevallen waarin [!DNL Target] het selectievakje [!UICONTROL Compatible] niet weergeeft:
 
 * Zowel entiteitskaart als categorie ID zijn aanwezig op de plaats, dan niets wordt gefilterd.
 * U gebruikt [!DNL mbox.js] versie 55 of vroeger.
 * Geen mbox vraag wordt in brand gestoken van de pagina (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* Doelparameters zijn niet gedefinieerd.
+* [!DNL Target] parameters zijn niet gedefinieerd.
 
 ## Wat moet ik doen als een verzameling in Recommendations naar nul gaat (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
@@ -132,7 +132,7 @@ Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerd
 * Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren oud de index is (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;). U kunt de index naar wens vernieuwen.
 * Heeft u iets in de feed of de gegevenslaag gewijzigd waardoor de entiteiten niet meer overeenkomen met de verzamelingsregels? Zorg ervoor dat uw HOOFDLETTERS overeenkomen (hoofdlettergevoelig).
 * Is uw feed gelukt? Heeft iemand de FTP-map, het wachtwoord enzovoort gewijzigd?
-* Doel doet zijn best om updates aan de levering (op de pagina van de klant/app) te maken gebeuren zo snel mogelijk. Toch moet Doel ook een representatie in de UI voor de markeerteken bieden. Het doel stelt de leveringsupdates niet uit zodat wordt gewacht tot de updates van de gebruikersinterface gesynchroniseerd zijn. U kunt [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
+* [!DNL Target] doet zijn best om updates aan de levering (op de pagina van de klant/app) te maken zo snel mogelijk gebeuren. Toch moet [!DNL Target] ook één of andere vertegenwoordiging in UI voor de teller verstrekken. [!DNL Target] zorgt ervoor dat de leveringsupdates niet worden vertraagd totdat de UI-updates gesynchroniseerd zijn. U kunt [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
 
 ## Wat is het verschil tussen de algemene weging van de Waarden van Attributen en Inhoud gelijksoortig-specifieke attributen? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -150,7 +150,7 @@ Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling k
 
 ## Waarom kan [!DNL Target] soms geen aanbevelingen tonen? {#section_DB3F40673AED42228E407C05437D99E9}
 
-Het doel kan soms geen aanbevelingen tonen wegens het lage aantal beschikbare aanbevelingen.
+[!DNL Target] kunnen soms geen aanbevelingen tonen wegens het lage aantal beschikbare aanbevelingen.
 
 Het aantal waarden dat per criterium wordt gegenereerd, is driemaal zo groot als het aantal entiteiten dat in het ontwerp is opgegeven. Het filtreren van runtime (bijvoorbeeld, inventaris, mbox kenmerkenaanpassing) wordt toegepast nadat de 3x waarden worden geproduceerd, zodat is het mogelijk met minder dan 3x waarden bij leveringstijd beëindigen. Om deze situatie te verzachten, vergroot u het aantal entiteiten in het ontwerp door andere entiteiten te verbergen.
 
@@ -167,7 +167,7 @@ Het volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het
 
 ## Wat is de formaatgrens van een API vraag voor tussenvoegsel/updateproducten? Kan ik 50.000 producten in één vraag bijwerken gebruikend API in plaats van een voer? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Doel legt een postlimiet van 50 MB op toepassingsniveau op; nochtans, is dat slechts wanneer u de `application/x-www-form-urlencoded` inhoudstype kopbal doorgeeft.
+[!DNL Target] stelt een postlimiet van 50 MB op toepassingsniveau op; dat is echter alleen wanneer u de koptekst voor het  `application/x-www-form-urlencoded` inhoudstype doorgeeft.
 
 Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, kunt u het in partijen verdelen. Adobe raadt klanten aan hun aanroepen op te splitsen in 5.000 of 10.000 productbatches om de kans op een time-out als gevolg van systeembelasting te verkleinen.
 
@@ -190,7 +190,7 @@ Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek dezelfde na
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. Adobe raadt echter aan om de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere limieten voor de lengte van vereiste kolommen zijn beschikbaar op [pagina Doelbeperkingen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. Adobe raadt echter aan om de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere limieten betreffende de lengte van vereiste kolommen zijn beschikbaar op [[!DNL Target] Beperkingen pagina](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kan ik een entiteit dynamisch uitsluiten? {#exclude}
 
@@ -198,7 +198,7 @@ In het vraagkoord, kunt u entiteit IDs voor entiteiten overgaan die u van uw aan
 
 Om de uitsluitingsfunctionaliteit toe te laten, gebruik de `excludedIds` mbox parameter. Deze parameter verwijst naar een lijst met door komma&#39;s gescheiden entiteit-id&#39;s. Bijvoorbeeld, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. De waarde wordt verzonden wanneer het verzoeken van om aanbevelingen.
 
-De uitsluiting wordt uitgevoerd voor de huidige vraag van het Doel slechts; De punten worden niet uitgesloten op verdere vraag van het Doel tenzij de `excludedIds` waarde opnieuw wordt overgegaan. Als u items in het winkelwagentje wilt uitsluiten van aanbevelingen op elke pagina, blijft u de waarde `excludedIds` op elke pagina doorgeven.
+De uitsluiting wordt uitgevoerd voor de huidige [!DNL Target] vraag slechts; De punten worden niet uitgesloten op volgende [!DNL Target] vraag tenzij de `excludedIds` waarde opnieuw wordt overgegaan. Als u items in het winkelwagentje wilt uitsluiten van aanbevelingen op elke pagina, blijft u de waarde `excludedIds` op elke pagina doorgeven.
 
 >[!NOTE]
 >
