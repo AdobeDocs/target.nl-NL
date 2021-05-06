@@ -6,9 +6,9 @@ feature: Server-kant implementeren
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,7 @@ Deze video van 7 minuten:
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
 Zie de handleiding [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) voor meer video&#39;s en zelfstudies.
+
+## Adobe Tech Blog - Deel 1: [!DNL Adobe Target] NodeJS SDK uitvoeren voor experimenteren en personalisatie op Edge-platforms (Akamai Edge Workers)
+
+[Klik hier om het blogbericht](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9) te openen.
