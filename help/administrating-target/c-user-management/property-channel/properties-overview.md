@@ -6,9 +6,9 @@ feature: Beheer en configuratie
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De volgende lijst maakt een lijst van de taken u zou moeten uitvoeren om eigensc
 | 2. Een werkruimte maken (productprofiel) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Gebruikersgroepen maken (optioneel) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Eigenschappen maken | [!DNL Target] UI |
-| 5: Werk uw implementatie bij om de parameter `at_property` op te nemen | [!DNL Target] UI, at.js-functies,  [!DNL Adobe Launch]of  [!DNL Dynamic Tag Management] |
+| 5: Werk uw implementatie bij om de parameter `at_property` op te nemen | [!DNL Target] UI, at.js-functies, of  [!DNL Adobe Experience Platform Launch] |
 | 6: Rollen en machtigingen opgeven | [!DNL Adobe Admin Console for Enterprise] |
 
 Voor die taken die in [!DNL Adobe Admin Console for Enterprise] worden uitgevoerd, toegang tot de console door deze stappen te volgen:
@@ -150,12 +150,6 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
    * **Via een &quot;Algemene parameter in  [!DNL Adobe Launch]:**
 
       Zie [Globale doelparameters toevoegen](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in de documentatie *Adobe Experience Platform Launch* voor meer informatie.
-
-   * **Via een &quot;globale parameter&quot; in  [!DNL Dynamic Tag Management]:**
-
-      ![](assets/property_token_2.png)
-
-      Voor meer informatie, zie [Globale Parameters - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in *Dynamische Document van het Product van het Beheer van de Markering*.
 
    * **Via de functie targetPageParams():** Plaats de volgende code in de  `<head>` tags, boven de verwijzing at.js of mbox.js.
 
