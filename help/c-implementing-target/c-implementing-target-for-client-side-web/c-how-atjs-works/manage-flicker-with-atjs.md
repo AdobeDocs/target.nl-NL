@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Het asynchroon laden van at.js is een goede manier om te voorkomen dat de browse
 
 U kunt flikkering voorkomen door een vooraf verborgen fragment te gebruiken dat zichtbaar zal zijn nadat de relevante HTML-elementen zijn aangepast door [!DNL Target].
 
-at.js kan asynchroon worden geladen, direct ingesloten op de pagina of via een tagbeheer (Adobe Launch, Dynamic Tag Manager (DTM), enz.).
+at.js kan asynchroon worden geladen, hetzij direct ingebed op de pagina of via een markeringsmanager (bijvoorbeeld [!DNL Adobe Experience Platform Launch]).
 
 Als at.js op de pagina is ingesloten, moet het fragment worden toegevoegd voordat u at.js laadt. Als u at.js laadt via een tagmanager die ook asynchroon wordt geladen, moet u het fragment toevoegen voordat u het tagbeheer laadt. Als tagbeheer synchroon wordt geladen, wordt het script mogelijk vóór at.js opgenomen in de tagmanager.
 
