@@ -6,9 +6,9 @@ feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -95,30 +95,6 @@ In het volgende codevoorbeeld wordt een aangepaste gebeurtenishandler [!DNL at.j
 </html>
 ```
 
-De volgende instructies tonen hoe u een aangepaste gebeurtenishandler [!DNL at.js] kunt toevoegen met gebruik van Adobe Dynamic Tag Manager (DTM):
-
-1. Meld u aan bij DTM.
-1. Blader naar de juiste eigenschap.
-1. Gereedschap Doel openen.
-
-   Omdat DTM geen eigen ondersteuning biedt voor at.js, moet u de code-editor gebruiken.
-
-1. Voeg in de code-editor de volgende code toe aan [!DNL at.js]:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-U kunt het volgende fragment toevoegen aan de bibliotheekvoettekst [at.js Setup page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) als u wilt dat alles één bestand is.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
 ## Veelgestelde vragen over responstoken {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **Welke rol wordt vereist om reactietokens te activeren of te deactiveren?**
@@ -133,7 +109,7 @@ U zult de reactietokens zien, maar at.js zal niet hen kunnen gebruiken.
 
 De tokens van de reactie zullen aan [!DNL at.js] Reacties van het Doel, maar niet aan [!DNL mbox.js] reacties worden geleverd.
 
-**Kan ik tegelijkertijd zowel de Insteekmodules van het Doel Klassieke als reactietokens actief hebben?**
+**Kan ik tegelijkertijd zowel  [!DNL Target Classic] insteekmodules als reactietokens actief hebben?**
 
 Plugins en reactietokens zijn parallel beschikbaar; insteekmodules worden in de toekomst echter afgekeurd .
 
