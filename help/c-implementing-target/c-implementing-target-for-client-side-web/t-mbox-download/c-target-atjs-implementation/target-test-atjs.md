@@ -4,26 +4,18 @@ description: Meer informatie over de oudere mbox.js-implementatie van Adobe Targ
 title: Hoe kan ik .js implementeren in een omgeving zonder productie?
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-
 # Implementeren bij.js in een niet-productieomgeving
 
 Informatie over de technieken om op veilige wijze in.js aan een niet-productiemilieu op te stellen.
-
-## Distribueren naar DTM-werkruimte
-
-Als u DTM gebruikt, kunt u gemakkelijk sparen bij.js in uw configuratie van het Hulpmiddel van Adobe Target.
-
-Nadat u de bibliotheek hebt bewaard, gebruik het hulpmiddel van de Schakelaar DTM om het tegen uw productiecode te testen. Dit zal het voor uw consultants van de Adobe gemakkelijk maken om u te steunen.
-
-Zie [Optie 3 voor meer informatie: Implementeer Doel handmatig met de JavaScript-doelbibliotheek die wordt gehost door DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) in de *Aanbevolen procedures voor het implementeren van Adobe Target met behulp van de handleiding Dynamisch tagbeheer*.
 
 ## Chrome-extensie &quot;strikt&quot; gebruiken om aan een ander bestand toe te wijzen
 
