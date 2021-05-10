@@ -5,9 +5,9 @@ title: Hoe integreer ik [!DNL Target] met Adobe Campaign?
 feature: Integraties
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Gebruik [!DNL Target] met [!DNL Adobe Campaign] om e-mailinhoud te optimaliseren.
 
-Als u uw e-mailinhoud wilt optimaliseren, bijvoorbeeld om verschillende aanbiedingen voor mannelijke en vrouwelijke ontvangers weer te geven, kunt u een omleidingsaanbieding maken in [!DNL Target] en vervolgens [!DNL Adobe Campaign] gebruiken om de e-mailaanbiedingen te beheren.
+Als u uw e-mailinhoud wilt optimaliseren, kunt u een omleidingsvoorstel maken in [!DNL Target] en [!DNL Adobe Campaign] gebruiken om de e-mailaanbiedingen te beheren. U kunt bijvoorbeeld verschillende aanbiedingen voor mannelijke en vrouwelijke ontvangers weergeven.
 
 De integratie vindt plaats wanneer de e-mail wordt geopend. Wanneer de klant het e-mailbericht opent, wordt [!DNL Target] aangeroepen en wordt een dynamische versie van de inhoud weergegeven. De inhoud bestaat uit een statische afbeelding die door alle browsers wordt ondersteund. [!DNL Target] volgt de reactie op het aanbod op publiek of sessieniveau en dat gegevens beschikbaar zijn in  [!DNL Target] rapporten.
 
-Doel kan de volgende gegevens bijhouden:
+[!DNL Target] U kunt de volgende gegevens bijhouden:
 
 * Gebruikersagent
 * IP-adres
 * Geografische locatie
-* Segment dat aan de bezoekersidentiteitskaart in Doel (onderworpen aan wettelijke goedkeuring) wordt geassocieerd
+* Segment dat is gekoppeld aan de id van de bezoeker in [!DNL Target] (onder voorbehoud van juridische goedkeuring)
 * Gegevens van [!DNL Campaign] Datamart
 
 Er zijn verschillende beperkingen:
@@ -34,16 +34,15 @@ Er zijn verschillende beperkingen:
 * Tekstspatiëring wordt niet geconsolideerd in [!DNL Adobe Campaign].
 * Geen uniforme gebruikerservaring.
 
-   U moet zowel [!DNL Target] als [!DNL Campaign] gebruiken om verschillende delen van de integratie in te stellen:
+Gebruik zowel [!DNL Target] als [!DNL Campaign] om verschillende onderdelen van de integratie in te stellen:
 
-   * De rawbox en de ervaring in [!DNL Target]
-   >[!NOTE]
-   >
-   >Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidsmededeling onder [creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden](/help/administrating-target/hosts.md#allowlist).
-
-   * De levering in [!DNL Campaign]
-
-
+    * De onbewerkte doos en de ervaring in [!DNL Target]
+    
+    >[!NOTE]
+    >
+    >Bij gebruik van een rawbox en [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#lijst van gewenste personen).
+    
+    * De levering in [!DNL Campaign]
 
 ## Voordat u {#section_FF19BF1BCA064260930BF6C141313B0E} begint
 
@@ -52,13 +51,14 @@ Voordat u [!DNL Adobe Campaign] gebruikt om uw beoogde e-mailaanbiedingen in te 
 * Twee of meer [!DNL Target] omleidingsaanbiedingen
 
    Zie [Omleidingsaanbieding maken](/help/c-experiences/c-manage-content/offer-redirect.md).
-* Een activiteit van het Doel met een ervaring voor elke aanbieding en gewenste [succes metrisch](/help/c-activities/r-success-metrics/success-metrics.md).
+
+* Een [!DNL Target] activiteit met een ervaring voor elke aanbieding en gewenste [succesmetrisch](/help/c-activities/r-success-metrics/success-metrics.md).
 
    Zie [Omleiden naar een URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 Start de activiteit in [!DNL Target] voordat u het [!DNL Campaign]-gedeelte van de integratie instelt.
 
-## Een [!DNL Target]-aanbieding opnemen in een Adobe Campaign-e-mail {#section_B201BBE27A704E18AF0D553F35695837}
+## Een [!DNL Target]-aanbieding opnemen in een [!DNL Adobe Campaign]-e-mail {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Maak een e-mailbericht in [!DNL Adobe Campaign].
 1. Klik in de e-maileigenschappen op **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**.
@@ -70,3 +70,7 @@ Start de activiteit in [!DNL Target] voordat u het [!DNL Campaign]-gedeelte van 
 1. Geef de externe account op die wordt gebruikt voor de [!DNL Adobe Experience Cloud], zodat u toegang kunt krijgen tot de bronnen in [!DNL Experience Cloud].
 
 Raadpleeg de documentatie [!DNL Adobe Campaign] voor meer informatie.
+
+## Video: [!DNL Target] integreren met [!DNL Campaign]
+
+>[!VIDEO](https://video.tv.adobe.com/v/35149)
