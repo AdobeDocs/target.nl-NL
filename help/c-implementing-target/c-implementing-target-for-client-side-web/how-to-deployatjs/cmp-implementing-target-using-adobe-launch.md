@@ -1,37 +1,35 @@
 ---
-keywords: implementeren;implementeren;implementatie;adobe launch;launch;race;redirect;Experience platform launch
+keywords: implementeren;implementeren;implementatie;adobe launch;launch;race;redirect;Experience platform launch;platform launch
 description: Leer hoe u de Adobe [!DNL Target] at.js-bibliotheek implementeert met Adobe Experience Platform Launch, de voorkeursmethode voor het implementeren van Adobe [!DNL Target].
 title: Hoe voer ik  [!DNL Target] het gebruiken van de Lancering van Adobe uit?
 feature: Server-kant implementeren
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
-# [!DNL Target] implementeren met Adobe Launch
+# [!DNL Target] implementeren met [!DNL Adobe Platform Launch]
 
-Adobe Experience Platform Launch is het platform voor het beheer van tags van de volgende generatie van Adobe en heeft de voorkeur voor de implementatie van Adobe Target. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren.
+[!DNL Adobe Experience Platform Launch] is het platform voor tagbeheer van de volgende generatie van  [!DNL Adobe] en is de voorkeursmethode voor implementatie  [!DNL Adobe Target]. [!DNL Platform Launch] biedt klanten een eenvoudige manier om de analytische, marketing- en advertentietags te implementeren en te beheren die nodig zijn om de relevante ervaringen van klanten te verbeteren.
 
-## [!DNL Target] implementeren met Adobe starten {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## [!DNL Target] implementeren met [!DNL Platform Launch] {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
-Starten is het platform voor tagbeheer van de volgende generatie van Adobe en is de voorkeursmethode voor het implementeren van Adobe Target. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren.
-
-In de volgende tabel worden de verschillende bronnen weergegeven waar u meer informatie over Starten kunt vinden:
+In de volgende tabel worden de verschillende bronnen weergegeven waar u meer informatie kunt vinden over [!DNL Platform Launch]:
 
 | Resource | Details |
 |--- |--- |
-| [Doel implementeren met de zelfstudie voor Adobe Target-extensies](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Deze zelfstudie bevat stapsgewijze instructies voor het implementeren van Adobe Target in een website met Starten. Tot de onderwerpen behoren het toevoegen van de JavaScript-bibliotheek at.js, het afvuren van de globale box, het toevoegen van parameters en het integreren met andere oplossingen. Dit artikel maakt deel uit van een grotere zelfstudie die u laat zien hoe u Adobe Launch en de andere Adobe Experience Cloud-oplossingen implementeert. |
-| [Adobe Starten van documentatie](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informatie over het opstellen en beheren van alle analyses, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
-| [Adobe Target Extension Documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informatie over het implementeren van Doel met behulp van Starten. |
+| [Implementeren  [!DNL Target] met de  [!UICONTROL Adobe Target Extension Tutorial]](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#implement-solutions) | Deze zelfstudie bevat stapsgewijze instructies voor het implementeren van [!DNL Target] in een website met [!DNL Platform Launch]. Tot de onderwerpen behoren het toevoegen van de JavaScript-bibliotheek at.js, het afvuren van de globale box, het toevoegen van parameters en het integreren met andere oplossingen. Dit artikel maakt deel uit van een grotere zelfstudie die u toont hoe te om [!DNL Platform Launch], en andere [!DNL Adobe Experience Cloud] oplossingen uit te voeren. |
+| [[!DNL Adobe Platform Launch] Documentatie](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html#get-started) | Informatie over het opstellen van en het beheren van de analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
+| [Documentatie  [!DNL Target] voor Adobe-extensies](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informatie over het implementeren van [!DNL Target] met [!DNL Platform Launch]. |
 
-## Voordelen van het implementeren van at.js met de [!DNL Target] extensie {#section_48B3F938B6F8491DAF798E0DB54EF304} starten
+## Voordelen van het implementeren van at.js met de [!DNL Target] [!DNL Platform Launch]-extensie {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
-De volgende voordelen zijn alleen van toepassing als u Adobe Launch gebruikt om at.js te implementeren. Daarom stellen wij ten zeerste voor om Adobe Launch te gebruiken in plaats van DTM of een handmatige implementatie van at.js.
+De volgende voordelen zijn alleen van toepassing als u [!DNL Platform Launch] gebruikt om at.js te implementeren. Daarom [!DNL Adobe] wordt sterk aangeraden [!DNL Platform Launch] te gebruiken in plaats van een handmatige implementatie van at.js.
 
-* **Los Analytics en de Voorwaarde van de Ras van het Doel op:** Omdat de vraag van Analytics vóór de vraag van het Doel kon worden in brand gestoken, wordt de vraag van het Doel niet vastgemaakt aan de vraag van Analytics. Dit kan leiden tot onjuiste gegevens. Beginnend met 0.6.0, zorgt de uitbreiding van de Lancering van het Doel ervoor dat de het bakenvraag van de Analyse wacht tot de vraag van het Doel met succes voltooit of niet. Dit zou de gegevensinconsistentie moeten oplossen klanten zouden kunnen ervaren.
-* **Voorkomt onjuiste omleiding van aanbiedingen:** Als u Doel en Analyse op de pagina hebt en er een omleidingsaanbieding door Target wordt uitgevoerd, zou u een situatie kunnen ervaren waarin de Analytics tracker een verzoek in brand steekt wanneer het niet zou moeten (omdat de gebruiker aan een verschillende URL wordt opnieuw gericht). Als u Target en Analytics implementeert via Launch, ondervindt u dit probleem niet. Gebruikend Lancering, instrueert het Doel Analytics om het het bakenverzoek van de Analyse af te breken.
+* **Oplost  [!DNL Adobe Analytics] en  [!DNL Target] rasvoorwaarde:** Omdat de  [!DNL Analytics] vraag vóór de  [!DNL Target] vraag kon worden in brand gestoken, wordt de  [!DNL Target] vraag niet vastgemaakt aan de  [!DNL Analytics] vraag. Deze volgorde kan leiden tot onjuiste gegevens. Beginnend met 0.6.0, zorgt de [!DNL Platform Launch] uitbreiding ervoor dat de [!DNL Analytics] bakenvraag wacht tot de [!DNL Target] vraag voltooit, met succes of niet. Met [!DNL Platform Launch] wordt de gegevensinconsistentie opgelost die klanten kunnen ervaren wanneer ze handmatig implementeren.
+* **Voorkomt onjuiste omleiding van aanbiedingen:** Als u  [!DNL Target] en  [!DNL Analytics] op de pagina hebt, en er een omleidingsaanbieding door wordt uitgevoerd  [!DNL Target], kunt u een situatie ervaren waarin de  [!DNL Analytics] tracker een verzoek in brand steekt wanneer het niet zou moeten (omdat de gebruiker aan een verschillende URL wordt opnieuw gericht). Als u [!DNL Target] en [!DNL Analytics] via [!DNL Platform Launch] implementeert, zult u dit probleem niet ervaren. [!DNL Platform Launch] gebruiken, [!DNL Target] geeft [!DNL Analytics] opdracht om het [!DNL Analytics] bakenverzoek af te breken.
