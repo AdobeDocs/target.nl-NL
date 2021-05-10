@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -364,7 +364,6 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met versch
 | Adobe-extensie starten | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Foutopsporing | Ja |
 | Auditor | De regels zijn nog niet bijgewerkt voor om.js 2.*x* |
-| Dynamisch tagbeheer (DTM) | Ja |
 | Inschakelen | Nee. Ondersteuning voor aanmelden voor [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) wordt ondersteund in [at.js versie 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | AEM verbeterde personalisatie door Adobe Target | Nee |
 
