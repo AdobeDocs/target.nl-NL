@@ -5,9 +5,9 @@ title: Waar kan ik Vragen en Antwoorden over  [!DNL Target] Recommendations vind
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2976'
 ht-degree: 0%
 
 ---
@@ -241,3 +241,9 @@ Als een bezoeker twee actieve zittingen tezelfdertijd heeft, onlangs bekeken pun
 Dit gedrag treedt nog steeds op als een bezoeker actief is op het ene apparaat en vervolgens een paar minuten later actief wordt op het andere apparaat. De sessie van het eerste apparaat verloopt niet gedurende 30 minuten en er kan maximaal vijf minuten vertraging optreden voordat de profielstatus naar de permanente status wordt geschreven en verwerkt. 35 minuten laten verlopen voordat de sessie verloopt en het profiel moet worden opgeslagen wanneer dit gedrag wordt getest.
 
 Als de bezoeker niet tegelijkertijd twee actieve sessies heeft, worden onlangs bekeken items op het ene apparaat bijgewerkt met de onlangs weergegeven items op het andere apparaat zolang de sessie is beëindigd. Laat 35 minuten verlopen voor de sessie wanneer u dit gedrag test.
+
+## Kan ik een algoritme gebruiken dat in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] wordt gecreeerd?
+
+Een algoritme dat is gemaakt in [!DNL Recommendations Classic] wordt niet ondersteund in [!DNL Recommendations Premium]. U zou het erfenisalgoritme in [!DNL Target Premium] kunnen kunnen gebruiken; het algoritme kan echter synchronisatieproblemen veroorzaken wanneer de activiteit in [!DNL Target Premium] UI wordt gedeactiveerd of verwijderd. Voor meer informatie over de verschillen tussen de twee oplossingen, zie [[!DNL Recommendations Classic] versus [!DNL Recommendations] activiteiten in  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+
