@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Gebruik de volgende stappen om van [!DNL mbox.js] naar [!DNL at.js] te migreren 
 
    **Gebruikt u een tagbeheer?**
 
-   * Dynamisch tagbeheer
+   * Adobe Experience Platform Launch
    * Vergroten
    * Tealium
    * Signal/BrightTag
@@ -86,7 +86,11 @@ Gebruik de volgende stappen om van [!DNL mbox.js] naar [!DNL at.js] te migreren 
 
    >[!NOTE]
    >
-   >Als u momenteel geen markeringsmanager gebruikt om [!DNL Target] op te stellen, zou nu een goede tijd kunnen zijn om het te overwegen. Dynamic Tag Management [Dynamic Tag Management is gratis voor [!DNL Target]-klanten en is de aanbevolen methode om [!DNL Target] te implementeren. ](https://dtm.adobe.com) Voor meer informatie, zie [Beste praktijken voor het Uitvoeren van Adobe Target gebruikend Dynamisch Beheer van de Markering](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+   >Als u momenteel geen markeringsmanager gebruikt om [!DNL Target] op te stellen, zou nu een goede tijd kunnen zijn om het te overwegen.
+   >
+   >[!DNL Platform Launch] is het platform voor tagbeheer van de volgende generatie van  [!DNL Adobe] en is de voorkeursmethode voor implementatie  [!DNL Adobe Target]. [!DNL Platform Launch] biedt klanten een eenvoudige manier om de analytische, marketing- en advertentietags te implementeren en te beheren die nodig zijn om de relevante ervaringen van klanten te verbeteren.
+   >
+   >Zie [Implementeren [!DNL Target] met [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer informatie.
 
 1. Controleer of alle huidige activiteiten en integraties naar verwachting werken.
 
