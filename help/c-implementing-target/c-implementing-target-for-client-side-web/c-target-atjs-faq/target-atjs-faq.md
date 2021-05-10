@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2683'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Met de release at.js 1.0.0 kunt u de doelbibliotheek asynchroon laden.
 
 Zo laadt u at.js asynchroon:
 
-* De aanbevolen aanpak vindt u via een tagbeheer, zoals Adobe Launch of Adobe Dynamic Tag Manager (DTM). Zie de [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) les van [Implementatie van de Experience Cloud in Websites met de zelfstudie van de Lanceer](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) voor meer informatie.
+* De aanbevolen benadering is via [!DNL Adobe Experience Platform Launch]. Zie de [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) les van [Implementatie van de Experience Cloud in Websites met de zelfstudie van de Lanceer](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) voor meer informatie.
 * U kunt ook asynchroon laden bij .js door het asynchrone attribuut aan de manuscriptmarkering toe te voegen die at.js laadt. Je moet iets als dit gebruiken:
 
    ```
