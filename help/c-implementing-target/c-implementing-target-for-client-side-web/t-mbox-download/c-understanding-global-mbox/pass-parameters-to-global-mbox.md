@@ -1,14 +1,14 @@
 ---
-keywords: algemene mbox-parameters;targetPageParams;query-tekenreeks;array;json;dtm;dynamic tag management
+keywords: algemene mbox-parameters;targetPageParams;query-tekenreeks;array;json;dtm
 description: Leer hoe te om de targetPageParams functie te gebruiken om extra het richten of contextinformatie in de Adobe  [!DNL Target] globale mbox over te gaan.
 title: Hoe geef ik Parameters aan een Globale doos door?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
