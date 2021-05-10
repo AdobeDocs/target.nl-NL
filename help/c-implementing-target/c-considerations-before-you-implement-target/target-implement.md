@@ -1,12 +1,12 @@
 ---
-keywords: document.write;target;Implementeren;doel implementeren;dtm;dynamisch tagbeheer;at.js;mbox.js;target.js;mbox;adobe Experience platform web skd;aep web sdk;web sdk
+keywords: document.write;target;Implementeren;doel implementeren;dtm;at.js;mbox.js;target.js;mbox;mbox;adobe Experience platform web skd;aep web sdk;web sdk
 description: Voer Adobe [!DNL Target] by referencing the [!DNL Target] bibliotheken (at.js of mbox.js) op uw Web-pagina's uit.
 title: De [!DNL Target] JavaScript-bibliotheken begrijpen
 feature: Implementatie
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
