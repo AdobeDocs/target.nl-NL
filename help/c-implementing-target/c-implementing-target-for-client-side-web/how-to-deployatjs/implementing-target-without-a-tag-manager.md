@@ -6,16 +6,16 @@ feature: Server-kant implementeren
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1647'
 ht-degree: 3%
 
 ---
 
 # [!DNL Target] implementeren zonder tagbeheer
 
-Informatie over het implementeren van [!DNL Adobe Target] zonder een tagmanager ([!DNL Adobe Experience Platform Launch] of [!DNL Dynamic Tag Manager]).
+Informatie over het implementeren van [!DNL Adobe Target] zonder een tagbeheer ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target]-interface of de
 
 at.js moet worden geïmplementeerd in het `<head>`-element van elke pagina van uw website.
 
-Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) of [Dynamisch het Beheer van de Markering](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) gebruikt ziet als volgt:
+Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) gebruikt ziet als volgt uit:
 
 ```
 <!doctype html> 
