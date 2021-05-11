@@ -5,9 +5,9 @@ title: Hoe integreer ik [!DNL Target] met Adobe Campaign?
 feature: Integraties
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
+source-git-commit: 2a78828c0d04add812a73ea04f4b3927d3dbc392
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ Er zijn verschillende beperkingen:
 
 Gebruik zowel [!DNL Target] als [!DNL Campaign] om verschillende onderdelen van de integratie in te stellen:
 
-    * De onbewerkte doos en de ervaring in [!DNL Target]
-    
-    >[!NOTE]
-    >
-    >Bij gebruik van een rawbox en [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#lijst van gewenste personen).
-    
-    * De levering in [!DNL Campaign]
+* De onbewerkte doos en de ervaring in [!DNL Target]
+
+>[!NOTE]
+>
+>Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidsmededeling onder [creeer lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden](/help/administrating-target/hosts.md#allowlist).
+
+* De levering in [!DNL Campaign]
 
 ## Voordat u {#section_FF19BF1BCA064260930BF6C141313B0E} begint
 
