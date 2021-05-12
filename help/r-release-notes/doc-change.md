@@ -4,10 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 10 mei | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Kan ik een algoritme gebruiken die in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] wordt gecreeerd?&quot; |
+| 12 mei | [[!DNL Target] releaseopmerkingen (pre-release)](/help/r-release-notes/target-release-notes.md) | Voorlopige opmerkingen toegevoegd voor het volgende:<ul><li>Adobe Experience Platform Web SDK (17 mei 2021)</li><li>Target Standard Premium 21.5.2</li></ul> |
+| 10 mei | [[!DNL Recommendations] Veelgestelde vragen](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Kan ik een algoritme gebruiken die in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] wordt gecreeerd?&quot; |
 |  | [Implementeren [!DNL Target] using [!DNL Dynamic Tag Manager]  (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Geeft aan dat [!DNL Adobe Dynamic Tag Manager] niet meer wordt ondersteund. [!DNL Adobe] raadt in plaats daarvan implementatie met [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) aan. |
 | 6 mei | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang duurt het voor een wijziging in de configuratie van mijn [!UICONTROL Recommendations] activiteit, aanbieding, bevorderingen, of criteria montages op mijn plaats worden weerspiegeld?</li><li>Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) wordt weerspiegeld in de aanbevelingen *die* gebruiker ontvangt?</li><li>Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) wordt weerspiegeld in de aanbevelingen *andere* gebruikers ontvangen?</li></ul> |
 |  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Deel 1: Adobe Target NodeJS SDK uitvoeren voor experimenteren en personaliseren op Edge-Platforms (Akamai Edge Workers)</li></ul> |
