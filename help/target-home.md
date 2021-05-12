@@ -4,8 +4,7 @@ title: Waar kan ik  [!DNL Target] documentatie vinden?
 description: Leer hoe u Adobe [!DNL Target] kunt gebruiken om de ervaring van uw klanten aan te passen en uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overzicht
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 10 mei 2021 ( [zie wat er is gewijzigd](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 12 mei 2021 ( [zie wat er is veranderd](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -69,12 +68,12 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 - [Doel](administrating-target/administrating-target.md) beheren: Verklaart hoe te om gebruikers toe te voegen en uw  [!DNL Target] rekening te vormen.
 
-## Analyses {#analysts}
+## Analysefuncties {#analysts}
 
 - [Soorten publiek](c-target/target.md): Verklaart hoe te om te bepalen wie inhoud en ervaringen in gerichte activiteiten ziet.
 - [Rapporten](c-reports/reports.md): Verklaart hoe te om de prestaties van uw activiteiten te interpreteren.
 
-## QA-engineers {#qa}
+## QA-ingenieurs {#qa}
 
 - [Activiteiten](c-activities/activities.md): Verklaart hoe te opstelling, beheer, en  [!DNL Target] activiteiten QA.
 
