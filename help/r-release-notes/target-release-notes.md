@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
+source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 ## [!DNL Adobe Experience Platform Web SDK] (17 mei 2021)
 
 Deze versie van [!DNL Platform Web SDK] omvat steun voor [!UICONTROL Analytics for Target] (A4T) voor [!DNL Target] omleidingen.
+
+## [!DNL Target Standard/Premium] 21.5.1 (25 mei 2021)
+
+Inhoud wordt toegevoegd wanneer de releasedatum nadert.
 
 ## [!DNL Target Standard/Premium] 21.5.2 (nog te bepalen datum)
 
