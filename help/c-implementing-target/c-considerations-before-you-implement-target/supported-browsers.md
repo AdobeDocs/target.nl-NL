@@ -5,10 +5,9 @@ title: Welke browsers [!DNL Target] steunen?
 feature: Implementatie
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ De [!DNL Adobe Target]-toepassing en de levering van inhoud zijn getest voor een
 
 Voor meer belangrijke informatie over TLS, zie [TLS (de Veiligheid van de Laag van het Vervoer) de Veranderingen van de Encryptie](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target] Standaard/Premium-interface  {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Standaard/Premium-interface {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 De [!DNL Target] interface steunt de volgende browsers en de apparaten:
 
@@ -28,13 +27,13 @@ De [!DNL Target] interface steunt de volgende browsers en de apparaten:
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (laatste, laatste min 1)</li><li>Mozilla Firefox (laatste, laatste min 1)</li></ul> |
 | Mac | <ul><li>Firefox (laatste, laatste min 1)</li><li>Chrome (nieuwste, laatste min 1)</li></ul> |
 
-## Inhoudslevering {#section_1045A946056441268D40025529918D3D}
+## Inhoud leveren {#section_1045A946056441268D40025529918D3D}
 
 De levering van inhoud is getest in de volgende browsers en apparaten:
 
 | Apparaattype | Browserversie |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 en 10. Getest in emulatiemodus.<br>**Opmerking**: in.js 1.3.0 (en hoger) biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (nieuwste, laatste min 1)</li><li>Firefox (laatste, laatste min 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 en 10. Getest in emulatiemodus.<br>**Opmerking**: Inhoudslevering op IE 9 wordt niet meer ondersteund met at.js 1.3.0 (en hoger). De levering van inhoud op IE 10, 11, en alle oudere versies wordt niet meer gesteund met at.js 2.5.0 (en later).</li><li>Internet Explorer 11 <br>**Opmerking**: De levering van inhoud op IE 10, 11, en alle oudere versies wordt niet meer gesteund met at.js 2.5.0 (en later).</li><li>Microsoft Edge</li><li>Chrome (nieuwste, laatste min 1)</li><li>Firefox (laatste, laatste min 1)</li></ul> |
 | Mac | <ul><li>Apple Safari (Latest)<br>**Opmerking**: Voor meer informatie over hoe Safari eerste en derdekoekjes behandelt, zie [Cookie van het Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (laatste, laatste min 1)</li><li>Chrome (nieuwste, laatste min 1)</li></ul> |
 | Mobiel/tablet | <ul><li>Apple iOS (nieuwste)</li><li>Android-apparaten en -tablets (Android 4 en hoger)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
