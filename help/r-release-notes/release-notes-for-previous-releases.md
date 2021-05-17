@@ -4,10 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Opmerkingen bij de release
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '30452'
+source-wordcount: '30716'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,32 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de doelreleases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2021
+
+### at.js versie 2.5.0 (13 mei 2021)
+
+Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
+
+* [Ondersteuning voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslissingen op het apparaat voor at.js.
+* [Ondersteuning voor ](/help/c-activities/c-activity-qa/activity-qa.md) koppelingen voorvertonen voor Automated Personalization-activiteiten
+
+Deze versie verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger.
+
+### Target Standard/Premium 21.4.1 (19 april 2021)
+
+Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
+
+| Functie | Details |
+| --- | --- |
+| Apparaatondersteuning voor beslissingen voor at.js<br>(Datum die moet worden aangekondigd) | Met apparaatbeslissingen kunnen marketers en ontwikkelaars experimenten en personalisatie uitvoeren in de browser van een gebruiker bij bijna-nullatentie.<br>Voor meer informatie, zie  [Op-apparatenbesluit voor at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![Op ](/help/assets/premium.png) PremiumList gebaseerde operatoren voor filterregels voor entiteiten | [!DNL Target Recommendations] steunt nieuwe op lijst-gebaseerde exploitanten voor entiteit het filtreren regels. (TGT-39234)<br>Nieuw toegevoegde operatoren zijn onder andere:<br><ul><li>Is opgenomen in lijst</li><li>Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul>Zie &quot;Beschikbare operatoren&quot; in [Dynamische en statische inclusieregels gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) voor meer informatie. |
+
+Deze versie bevat de volgende oplossingen.
+
+* Probleem verholpen waardoor een activiteit niet kon worden gesynchroniseerd nadat het publiek was gewijzigd in [!UICONTROL All Visitors]. (TGT-40259)
+* Oplossing voor een probleem dat voorkwam dat aanbiedingen werden gedupliceerd wanneer ze op verschillende locaties in [!UICONTROL Automated Personalization]-activiteiten werden gebruikt, ook al is de optie [!UICONTROL Disallow Duplicates] ingeschakeld. (TGT-39567)
+* Probleem verholpen waardoor de pagina [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] niet correct kon worden geladen. (TGT-39918)
+* Probleem verholpen waarbij eigenschappen werden toegewezen aan de onjuiste werkruimte. (TGT-39869)
+* Probleem verholpen waarbij een oneindig laden werd veroorzaakt als de aanvraag mislukt nadat de omgeving was gewijzigd en een uitsluiting voor aanbevelingen werd gemaakt. (TGT-39948)
 
 ### te.js 2.4.1 (23 maart 2021)
 
@@ -390,7 +415,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
    * Verbeterde gebruikershulp: Zoekresultaten zijn onder andere resultaten van de productdocumentatie van [!DNL Target], maar ook communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om u te helpen [!DNL Target] optimaal te benutten. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help], waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.
 
-   * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
+   * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target]-klanten op de bestemmingspagina geland nadat ze op het pictogram [!DNL Target] in de koptekst hadden geklikt. Op deze pagina konden klanten doorgaan met [!DNL Target Standard/Premium], [!DNL Search&Promote] of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
@@ -897,7 +922,7 @@ Deze [!DNL Target]-release bevat de volgende verbeteringen, correcties en wijzig
 * De diagrammen in de stap Doel (stap 2 van de driestappenworkflow met instructies) voor de activiteiten Automated Personalization (AP) en Multivariate Test (MVT) zijn opnieuw ontworpen met het oog op meer consistentie met de ontwerpen die worden gebruikt voor de activiteiten A/B, Experience Targeting (XT) en Recommendations. (TGT-30712)
 * De metrische waarde voor het MVT-rapport (Multivariate Test Location Contribution) is nu consistenter met de waarden voor andere metriek, die tot twee decimalen wordt afgerond. (TGT-30921)
 
-### at.js Versie 1.5.0 (22 juni 2018) {#section_53C622F4978F4BC9ACD932D4B7194C12}
+### at.js versie 1.5.0 (22 juni 2018) {#section_53C622F4978F4BC9ACD932D4B7194C12}
 
 <table id="table_B332A93D4A6E4568BA3F7FA8EC0787F4"> 
  <thead> 
@@ -963,7 +988,7 @@ Deze [!DNL Target]-release bevat de volgende verbeteringen, correcties en wijzig
 * De back-uprij van de CSV-download van Recommendations heeft nu een voorloopteken &quot;*&quot; (dubbele aanhalingstekens die een sterretje omsluiten) in plaats van * (één sterretje).
 * De bovenste rij Verkocht / Bovenste bekeken rij in de Recommendations CSV-download heeft niet langer een komma vooraan.
 
-### Wijzigingen in Platform (19 juni 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
+### Wijziging van het Platform (19 juni 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
 
 Deze release bevat de volgende verbeteringen:
 
@@ -1219,7 +1244,7 @@ Deze release bevat de volgende functies en verbeteringen:
 
 Deze [!DNL Target]-release bevat enkele back-endverbeteringen, correcties en wijzigingen.
 
-### Doel Platform (18 januari 2018) {#section_F6A0DC31636D403F92BDB9DCE7A3F6ED}
+### Platform van doel (18 januari 2018) {#section_F6A0DC31636D403F92BDB9DCE7A3F6ED}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -1309,7 +1334,7 @@ Deze [!DNL Target]-release bevat de volgende klantgerichte verbeteringen, oploss
 * Bij URL-validatie kunt u nu dubbele afbreekstreepjes gebruiken in de URL. Eerder, kon een URL met dubbele koppeltekens niet in Visual Experience Composer (VEC) worden geladen. (TGT-28176)
 * Meerdere oplossingen voor de lokalisatie van de gebruikersinterface voor ondersteunde talen.
 
-## releases 2017 {#reference_59C7622A111C4147804A8AAC6D27BB8D}
+## Uitzettingen 2017 {#reference_59C7622A111C4147804A8AAC6D27BB8D}
 
 ### Doel Platform (8 november 2017) {#section_536B3C0F32ED441C8D82704B94F6AF7E}
 
@@ -1423,7 +1448,7 @@ Deze [!DNL Target]-release bevat de volgende klantgerichte verbeteringen, oploss
 * U kunt filteren op Workspace in de Audience Library and Offer Library (van toepassing op Target Premium-gebruikers met Enterprise-gebruikersmachtigingen). (TGT-26813)
 * Verbeterde gebruikersinterface voor rapporten voor beter schuiven in tabellen en plaatsen van vervolgkeuzelijsten met filters. (TGT-23713 &amp; TGT-26819)
 
-### Wijzigingen in Platform (13 oktober 2017) {#section_6C298C5C3D01415CB4B658EB2166096C}
+### Wijziging van streefcijfers voor Platforms (13 oktober 2017) {#section_6C298C5C3D01415CB4B658EB2166096C}
 
 <table id="table_8457FAE3508F454F9DFDEF093FBD7E40"> 
  <thead> 
@@ -2020,7 +2045,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </tbody> 
 </table>
 
-## releases 2016 {#reference_607661929B504CCFAB3791B13C0DCDBE}
+## Uitzettingen 2016 {#reference_607661929B504CCFAB3791B13C0DCDBE}
 
 ### Target Standard/Premium 16.10.2 (8 november 2016) {#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
 
@@ -2071,7 +2096,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </tbody> 
 </table>
 
-### Wijzigingen in Platform (10 oktober 2016) {#section_0761AED70C3E44EA9D8546107B162CC1}
+### Wijziging van streefcijfers voor Platforms (10 oktober 2016) {#section_0761AED70C3E44EA9D8546107B162CC1}
 
 <table id="table_E3E52A4362724D05A8472DB5F51A2429"> 
  <thead> 
@@ -2136,7 +2161,7 @@ Deze release bevat de volgende verbeteringen:
 
 * De optie [!UICONTROL Render Using JavaScript] wordt momenteel niet gesteund als het samen met douanecode in de Visuele Composer van de Ervaring wordt gebruikt.
 
-### Wijzigingen in Platform (september 2016) {#section_1955146045A247D393DB824669A2A916}
+### Wijziging van het streefcijfer voor Platforms (september 2016) {#section_1955146045A247D393DB824669A2A916}
 
 <table id="table_8FDAEED5D84C4C718AB863BD6C383F20"> 
  <thead> 
@@ -2201,7 +2226,7 @@ Deze release bevat de volgende verbeteringen:
 
 * De optie [!UICONTROL Render Using JavaScript] wordt momenteel niet gesteund als het samen met douanecode in de Visuele Composer van de Ervaring wordt gebruikt.
 
-### Adobe [!DNL Target] Standaard/Premium 16.8.1 (23 augustus 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe [!DNL Target] Standard/Premium 16.8.1 (23 augustus 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 De Adobe Target Standard/Premium 16.8.1-release (23 augustus 2016) bevat de volgende functies en verbeteringen:
 
@@ -2255,7 +2280,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Enkele tekst UI voor de [!UICONTROL Category Affinity] eigenschap toont slechts in het Engels. Tekst in andere talen is beschikbaar in de release van september [!DNL Target].
 
-### Wijzigingen in Platform (juli 2016) {#section_09C18773707B4059852A41C764F817E4}
+### Wijziging van het streefcijfer voor Platforms (juli 2016) {#section_09C18773707B4059852A41C764F817E4}
 
 <table id="table_33B60910EAE24BAFA778F280F72FB683"> 
  <thead> 
@@ -2367,7 +2392,7 @@ De volgende bekende problemen zijn gemeld:
 
    Voor oudere activiteiten, als deze optie in ervaringscomposer van uw activiteit wordt gecontroleerd, betekent het uw redirection de vraagparameters zal omvatten. Als het niet wordt gecontroleerd, zullen de huidige vraagparameters niet in redirection worden omvat.
 
-### Adobe [!DNL Target] Standaard/Premium 16.5.1 (19 mei 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe [!DNL Target] Standard/Premium 16.5.1 (19 mei 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
 
 De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende functies en verbeteringen:
 
@@ -2470,7 +2495,7 @@ Houd rekening met het volgende wanneer u at.js implementeert:
    });
    ```
 
-### Adobe [!DNL Target] Standaard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe [!DNL Target] Standard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2542,7 +2567,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is geselecteerd voor pagina A in een activiteit met meerdere pagina&#39;s, wordt JavaScript overal uitgeschakeld, ook al is JavaScript uitschakelen niet geselecteerd voor andere pagina&#39;s.
 
-### Adobe [!DNL Target] Standaard/Premium 16.3.1 (15 maart 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe [!DNL Target] Standard/Premium 16.3.1 (15 maart 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2591,7 +2616,7 @@ De volgende bekende problemen zijn gemeld:
    * Gebruik Firefox of Internet Explorer.
    * Schakel de Enhanced Experience Composer in, die kan worden geconfigureerd via het tabblad **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 
-### Adobe [!DNL Target] Standaard/Premium 16.2.1 (18 februari 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe [!DNL Target] Standard/Premium 16.2.1 (18 februari 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2691,9 +2716,9 @@ De volgende bekende problemen zijn gemeld:
    * Gebruik Firefox of Internet Explorer.
    * Schakel de Enhanced Experience Composer in, die kan worden geconfigureerd via het tabblad **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 
-## releases 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
+## Uitzettingen 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe [!DNL Target] Standaard/Premium 15.10.1 (2 november 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe [!DNL Target] Standard/Premium 15.10.1 (2 november 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2803,7 +2828,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is ingeschakeld voor pageA in een activiteit met meerdere pagina&#39;s, blijft JavaScript ingeschakeld voor alle pagina&#39;s, maar blijft de functionaliteit uitgeschakeld.
 
-### Adobe [!DNL Target] Standaard/Premium 15.9.1 (30 september 2015) {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe [!DNL Target] Standard/Premium 15.9.1 (30 september 2015) {#section_A54204291A99476688E8C0BD8255F93C}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -2879,7 +2904,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is ingeschakeld voor pageA in een activiteit met meerdere pagina&#39;s, blijft JavaScript ingeschakeld voor alle pagina&#39;s, maar blijft de functionaliteit uitgeschakeld.
 
-### Adobe [!DNL Target] Standaard/Premium 15.8.1 (20 augustus 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe [!DNL Target] Standard/Premium 15.8.1 (20 augustus 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 Het doel van deze versie is eigenschappariteit van het Klassieke Doel te verstrekken. De meest gebruikte eigenschappen van Doel Klassiek zijn nu beschikbaar in de Norm van het Doel.
 
@@ -2945,7 +2970,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </tbody> 
 </table>
 
-### Adobe [!DNL Target] Standaard/Premium 15.7.1 (30 juli 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe [!DNL Target] Standard/Premium 15.7.1 (30 juli 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3006,7 +3031,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is ingeschakeld voor pageA in een activiteit met meerdere pagina&#39;s, blijft JavaScript ingeschakeld voor alle pagina&#39;s, maar blijft de functionaliteit uitgeschakeld.
 
-### Adobe [!DNL Target] Standaard/Premium 15.6.1 (25 juni 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe [!DNL Target] Standard/Premium 15.6.1 (25 juni 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 Deze release bevat de volgende functies en verbeteringen:
 
@@ -3278,7 +3303,7 @@ Deze release bevat de volgende oplossingen:
 
 * Probleem verholpen waarbij schuiven niet correct werkte in IE10.
 
-## releases 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
+## Uitzettingen 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
 ### Adobe [!DNL Target] 14.10.2 (6 november 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
 
