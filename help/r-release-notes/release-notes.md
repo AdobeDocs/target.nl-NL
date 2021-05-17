@@ -2,12 +2,11 @@
 keywords: Opmerkingen bij de release;nieuwe functies;releases;updates;update;release;verbetering;verbeteringen;correcties;foutoplossingen;updates
 description: Leer meer over de nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de huidige versie van Adobe Target, waaronder SDK's, API's en JavaScript-bibliotheken.
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
-feature: Release Notes
+feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,15 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer vóór deze datum naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## at.js versie 2.5.0 (13 mei 2021)
+
+Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
+
+* [Ondersteuning voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslissingen op het apparaat voor at.js.
+* [Ondersteuning voor ](/help/c-activities/c-activity-qa/activity-qa.md) koppelingen voorvertonen voor Automated Personalization-activiteiten
+
+Deze versie verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger.
 
 ## Target Standard/Premium 21.4.1 (19 april 2021)
 
@@ -41,15 +49,6 @@ Deze versie bevat de volgende oplossingen.
 * Probleem verholpen waarbij eigenschappen werden toegewezen aan de onjuiste werkruimte. (TGT-39869)
 * Probleem verholpen waarbij een oneindig laden werd veroorzaakt als de aanvraag mislukt nadat de omgeving was gewijzigd en een uitsluiting voor aanbevelingen werd gemaakt. (TGT-39948)
 
-## at.js versie 2.5.0 (Datum van bekendmaking)
-
-Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
-
-* [Ondersteuning voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslissingen op het apparaat voor at.js.
-* [Ondersteuning ](/help/c-activities/c-activity-qa/activity-qa.md) voor voorbeeldkoppelingen voor Automated Personalization-activiteiten.
-
-Deze release verwijdert ook ondersteuning voor Microsoft Internet Explorer 10 en hoger.
-
 ## Aanvullende opmerkingen bij de release en versiedetails
 
 | Resource | Details |
@@ -66,7 +65,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 | Opmerkingen bij de release van vorige releases | Informatie weergeven over nieuwe functies en verbeteringen in eerdere versies van Target Standard en Target Premium.<br>Voor meer informatie, zie de nota&#39;s van de  [Versie voor vorige versies](/help/r-release-notes/release-notes-for-previous-releases.md). |
 | Opmerkingen bij de release van Adobe Experience Cloud | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen.<br>Zie Opmerkingen bij de release  [Experience Cloud voor meer informatie](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html). |
 
-## Voorlopige-releasegegevens {#section_5D588F0415A2435B851A4D0113ACA3A0}
+## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
 De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
