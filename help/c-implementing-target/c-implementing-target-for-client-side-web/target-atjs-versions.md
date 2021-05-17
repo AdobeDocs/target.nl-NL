@@ -4,10 +4,9 @@ description: Bekijk de details over veranderingen in elke versie van de Adobe [!
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '4177'
+source-wordcount: '4174'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Informatie over wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL A
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis de voorkeursmethode voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en worden in de catalogus [!DNL Launch] beschikbaar gesteld als upgrades. Voor meer informatie, zie [Uitbreiding Verbetering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in *de Gids van de Gebruiker van het Experience Platform Launch*.
 
-## te.js 2.5.0 (datum van bekendmaking)
+## om 2.5.0 uur (13 mei 2021)
 
 Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
 
@@ -214,7 +213,7 @@ at.js 1.6.4 is een onderhoudsrelease en behandelt het volgende probleem:
 
 * Probleem verholpen waarbij zich in Microsoft Internet Explorer 11 een zeldzame omstandigheid manifesteerde die dubbele aanbiedingen veroorzaakte die moesten worden toegepast.
 
-## at.js Versie 1.6.3 {#section_484A56774E004282B98FFFF851E4E670}
+## at.js versie 1.6.3 {#section_484A56774E004282B98FFFF851E4E670}
 
 at.js versie 1.6.3 bevat de volgende correcties en verbeteringen:
 
@@ -223,7 +222,7 @@ at.js versie 1.6.3 bevat de volgende correcties en verbeteringen:
 * Probleem verholpen waarbij een belofte werd nagekomen in omgevingen waar geen native ondersteuning voor beloften bestond. (TNT-30974)
 * Problemen worden nu correct vastgelegd en gerapporteerd via de gebeurtenis content-rendering mislukt. Eerder werd mogelijk gemeld dat JavaScript goed was uitgevoerd, zelfs als dat niet het geval was. (TNT-30599)
 
-## at.js Versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
+## at.js versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
 
 Dit is een onderhoudsrelease en het volgende probleem wordt opgelost:
 
@@ -270,7 +269,7 @@ at.js versie 1.5.0 is nu beschikbaar.
      scheduler = setTimeout
    ```
 
-## at.js Versie 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## at.js versie 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js versie 1.3.0 is nu beschikbaar.
 
@@ -295,13 +294,13 @@ at.js versie 1.3.0 is nu beschikbaar.
 * Deze versie voegt vele prestatiesverbeteringen, met inbegrip van kortere callstacks toe wanneer het inspecteren van een profiel van Chrome cpu.
 * at.js 1.3.0 biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9. Zie [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) voor een lijst met ondersteunde browsers. Voorwaarts, worden alle verzoeken uitgevoerd via `XMLHttpRequest` met steun CORS zonder JSONP- verzoeken. Deze wijziging verbetert de veiligheid aanzienlijk.
 
-## at.js Versie 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
+## at.js versie 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
 [!DNL at.js] versie 1.2.3 is nu beschikbaar.
 
 * Voegt ondersteuning toe voor JSON-aanbiedingen. JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de Form-based Experience Composer. De enige manier om JSON-aanbiedingen te gebruiken is momenteel via directe API-aanroepen. Zie [JSON-aanbiedingen maken](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
 
-## at.js Versie 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
+## at.js versie 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
 [!DNL at.js] versie 1.2.2 is nu beschikbaar.
 
@@ -310,13 +309,13 @@ at.js versie 1.3.0 is nu beschikbaar.
 * Probleem verholpen waarbij `getOffer() params` mislukte wanneer `targetPageParams()` een lege tekenreeks retourneert. (TNT-28359)
 * Probleem verholpen met genereren van sessie-id bij gebruik van alleen x. (TNT-28361)
 
-## at.js Versie 1.2.1 {#section_F757C8174BBA4F68AC5524ADC3D9C5E3}
+## at.js versie 1.2.1 {#section_F757C8174BBA4F68AC5524ADC3D9C5E3}
 
 [!DNL at.js] versie 1.2.1 is nu beschikbaar.
 
 * Probleem verholpen wanneer op een koppeling met target=&quot;_blank&quot; werd geklikt, zodat Target de koppeling niet op een nieuw tabblad kon openen.
 
-## at.js Versie 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
+## at.js versie 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
 [!DNL at.js] versie 1.2 is nu beschikbaar als een onderhoudsversie die meestal foutoplossingen bevat.
 
@@ -331,7 +330,7 @@ at.js versie 1.3.0 is nu beschikbaar.
 * Wijzigingen aangebracht om ervoor te zorgen dat `sdidParamExpiry` correct wordt geïnitialiseerd en wordt doorgegeven aan de API van de bezoeker. Dit is een regressie die aan `at.js 1.1.0` is toegevoegd. Dit heeft geen invloed op eerdere [!DNL at.js] versies. Dit is alleen van invloed op clients die omleidingsaanbiedingen en A4T gebruiken. (TNT-27791)
 * Wijzigingen aangebracht om ervoor te zorgen dat `SCRIPT` wordt uitgevoerd, ongeacht het type dat wordt gebruikt. (TNT-27865)
 
-## at.js Versie 1.1.0 {#section_8F494E1EA94E48A9B169F5CF9FE6DC56}
+## at.js versie 1.1.0 {#section_8F494E1EA94E48A9B169F5CF9FE6DC56}
 
 **Datum:2** augustus 2017
 
