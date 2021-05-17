@@ -5,19 +5,14 @@ title: Hoe werkt een apparaatbeslissing met de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7f1db24e902c4b06c2035a94924abfe2d254bf25
 workflow-type: tm+mt
-source-wordcount: '3401'
+source-wordcount: '3386'
 ht-degree: 1%
 
 ---
 
 # Apparaatbeslissingen voor at.js
-
->[!NOTE]
->
->Beslissing op het apparaat is beschikbaar met de aanstaande [at.js 2.5.0 release](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). De datum die binnenkort bekend zal worden gemaakt.
 
 Vanaf versie 2.5.0 biedt at.js on-device beslissingen. Door op het apparaat te beslissen kunt u uw [A/B Test](/help/c-activities/t-test-ab/test-ab.md) en [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op de browser in het cachegeheugen plaatsen om in het geheugen te beslissen zonder een blokkerende netwerkaanvraag aan het [!DNL Adobe Target] Netwerk van de Rand.
 
