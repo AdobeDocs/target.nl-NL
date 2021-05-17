@@ -4,19 +4,22 @@ description: Leer de implementatievereisten voor Analytics voor [!DNL Target] (A
 title: Wat moet ik weten voordat ik A4T implementeer?
 feature: Analyses voor doel (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# Voordat u implementeert
+# Voordat u Analytics for Target (A4T) implementeert met at.js
 
 Er vinden verschillende wijzigingen plaats in het gegevensverzamelingsproces wanneer [!DNL Adobe Analytics] wordt ingeschakeld als rapportagebron voor [!DNL Adobe Target] (A4T).
 
-Voordat u besluit om deze integratie te gebruiken, moet u de volgende secties doornemen en de gevolgen voor uw rapportageprocessen in overweging nemen:
+Voordat u besluit om deze integratie te gebruiken, moet u de volgende secties doornemen en de gevolgen voor uw rapportageprocessen in overweging nemen.
+
+>[!NOTE]
+>
+>Dit artikel is alleen van toepassing op at.js-implementaties.
 
 ## Implementatievereisten {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -47,7 +50,7 @@ Als u omleidingsaanbiedingen met A4T wilt gebruiken, moet u de volgende (of nieu
 
 Download- en implementatieinstructies worden vermeld in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-## Te weten dingen voordat u {#section_50D49CC52E11414089C89FB67F9B88F5} implementeert
+## Wat u moet weten voordat u gaat implementeren {#section_50D49CC52E11414089C89FB67F9B88F5}
 
 * Deze integratie wordt toegelaten op nieuwe activiteiten wanneer u om [!DNL Analytics] als rapporteringsbron selecteert te gebruiken. Nadat u de implementatiewijzigingen hebt aangebracht die in dit document worden beschreven, heeft dit geen invloed op uw bestaande activiteiten.
 * Het proces om [!DNL Analytics] als rapporteringsbron voor [!DNL Target] te vestigen omvat verscheidene implementatiestappen, die door een leveringsstap worden gevolgd. Het is een goed idee om het hieronder beschreven proces te doorlopen alvorens uit te voeren. Nadat u deze stappen voltooit, bent u klaar om [!DNL Analytics] als uw rapporteringsbron te gebruiken wanneer het voor u wordt toegelaten. Het inrichtingsproces kan maximaal vijf werkdagen in beslag nemen.
@@ -61,7 +64,7 @@ Nadat deze integratie is ingeschakeld, zult u een extra vertraging van 5 tot 10 
 Deze toename wordt weerspiegeld in alle [!DNL Analytics] diensten en hulpmiddelen, met inbegrip van live-stream en real-time rapportering, en is van toepassing in de volgende scenario&#39;s:
 
 * Voor live stream, real-time rapporten en API-aanvragen en huidige gegevens voor verkeersvariabelen worden alleen hits met een aanvullende gegevens-id vertraagd.
-* Voor de huidige gegevens over conversiemetriek, voltooide gegevens, en gegevensvoer, worden alle klappen een extra 5-7 minuten vertraagd.
+* Voor huidige gegevens over conversiemetriek, voltooide gegevens, en gegevensvoer, worden alle klappen een extra 5-7 minuten vertraagd.
 
 De latentieverhoging begint nadat u de [!DNL Experience Cloud] dienst van bezoekersidentiteitskaart uitvoert, zelfs als u deze integratie niet volledig hebt uitgevoerd.
 
