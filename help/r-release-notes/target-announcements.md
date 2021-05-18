@@ -4,10 +4,9 @@ description: Lees aankondigingen en onderteken omhoog voor Adobe [!DNL Target] g
 title: Waar kan ik  [!DNL Target] aankondigingen en Gebeurtenissen vinden?
 feature: Opmerkingen bij de release
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -24,20 +23,6 @@ Adobe Target werd onlangs door zowel Forrester als Gartner erkend als marktleide
 | --- | --- |
 | Forrester | **Adobe noemde een Leider in de golfrapport van de Forrester voor ervaring optimalisatieplatforms.**<br> Adobe kreeg de naam Leader in de Forrester Wave: Experience Optimization Platforms, Q4 2020 rapport voor zijn aanbieding in deze ruimte, Adobe Target Premium. Adobe heeft de hoogste score van alle deelnemende leveranciers behaald in de huidige aanbiedings- en marktaanwezigheidscategorieën, alsook in de aanbevelingen en criteria voor de ervaring met platforms. Target Premium behaalde ook de hoogst mogelijke score in de ervaring optimalisatietechniek innovatie en ondersteunende servicecriteria. Het verslag is gebaseerd op een grondige evaluatie van 10 aanbieders van het optimalisatieplatform voor ervaringen op 22 verschillende criteria.<br>Lees er op de  [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) over. |
 | Gartner | **Adobe noemde opnieuw een leider in het Gartner Magic Quadrant voor verpersoonlijkingsmotoren.**<br> Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid.<br>[Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
-## Adobe Target Community - Koffiepauze voor vragen en antwoorden
-
-* Woensdag 12 mei 2021
-* 08:00 (PDT, GMT-7)
-* [Klik hier voor meer informatie](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
-
-Shannon Hamilton, Group Product Manager voor [!DNL Adobe Target], wordt aangemeld bij de [!DNL Target] Community om uw vragen met betrekking tot haar expertisegebieden te beantwoorden:
-
-* Integraties
-* Verenigd profiel
-* Doelintegratie van Adobe Experience Platform (AEP)
-* Puntintegratie met andere Adobe-oplossingen
-* Workflows in de kerngebruikersinterface
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
