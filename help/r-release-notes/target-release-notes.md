@@ -4,7 +4,7 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 7eb44049a954f1f18c1e4a52d455d352d0fcfdf0
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Deze versie verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, In
 
 Deze versie van [!DNL Platform Web SDK] omvat steun voor [!UICONTROL Analytics for Target] (A4T) voor [!DNL Target] omleidingen.
 
-## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
+## [!DNL Target Standard/Premium] 21.5.1 (25 mei 2021)
 
 Inhoud wordt toegevoegd wanneer de releasedatum nadert.
 
