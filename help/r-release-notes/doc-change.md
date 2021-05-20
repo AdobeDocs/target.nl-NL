@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 20 mei | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: Bij archivering van [!UICONTROL Auto Target] kunnen synchronisatieproblemen optreden. |
 | 17 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de release at.js 2.5.0. |
 |  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Bijgewerkt onderwerp om erop te wijzen dat de voorproefverbindingen voor [!UICONTROL Automated Personalization] (AP) activiteiten met at.js 2.5.0 (en later) beschikbaar zijn. |
 |  | [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Geeft aan dat de release van at.js 2.5.0 ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies verwijdert. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger. |
