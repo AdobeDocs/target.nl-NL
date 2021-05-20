@@ -4,10 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Opmerkingen bij de release
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4330'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,10 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
+
+### Bij archivering van [!UICONTROL Auto Target]-activiteiten kunnen synchronisatieproblemen optreden
+
+Het proberen om inactieve [!UICONTROL Auto-Target] activiteiten te archiveren zou tot synchronisatiekwesties kunnen leiden. archiveer [!UICONTROL Auto-Target] activiteiten totdat dit probleem is opgelost. Laat ze in de status [!UICONTROL Inactive] staan. (TGT-40885)
 
 ### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
 
@@ -49,7 +52,7 @@ Hier volgen bekende problemen met omleidingsvoorstellen:
 * Een beperkt aantal klanten heeft een hogere mate van variatie in verkeersdistributie gemeld wanneer het gebruiken van omleidingsaanbiedingen in activiteiten die met Analytics voor Doel (A4T) worden gevormd.
 * De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [Wijze QA](/help/c-activities/c-activity-qa/activity-qa.md) in plaats daarvan gebruiken om Voorproef en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
-### Laden van een pagina in de Visual Experience Composer (VEC) {#cancel} annuleren
+### Het laden van een pagina in Visual Experience Composer (VEC) annuleren {#cancel}
 
 * Het volgende bekende probleem bestaat momenteel wanneer het annuleren van het laden van een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) activiteit binnen VEC die omleidings URL bevat.
 
@@ -237,7 +240,7 @@ Wanneer mbox.js voor het eerst na levering wordt gedownload, wordt het [!UICONTR
 
 at.js zal met `global_mbox_autocreate = false` voor een onlangs provisioned huurder worden gedownload. Als mbox.js eerst wordt gedownload, global\_mbox\_autocreate is set to &quot;waar&quot;en at.js zullen ook met `global_mbox_autocreate = true` worden gedownload. (TGT-15929)
 
-### Ondersteuning voor bedrijfsmachtigingen in [!DNL Target] API&#39;s {#api}
+### Ondersteuning voor bedrijfsmachtigingen in [!DNL Target]-API&#39;s {#api}
 
 Codeaanbiedingen die zijn gemaakt vanuit de doelinterface in de bibliotheek met aanbiedingen, worden mogelijk weergegeven in de standaardwerkruimte als de lijst met aanbiedingen wordt opgehaald met GET-API&#39;s. Deze kwestie zal in de eerste week van maart 2019 worden geregeld. Nadat deze oplossing is ingesteld, worden de codeaanbiedingen in de juiste werkruimte weergegeven wanneer ze van API&#39;s worden gehaald. Dit probleem heeft geen invloed op aanbiedingen die zijn gemaakt op basis van API&#39;s. ** Codeaanbiedingen die zijn gemaakt op basis van API&#39;s worden bijvoorbeeld weergegeven in de werkruimte waarin ze zijn gemaakt, ongeacht of ze zijn opgehaald met GET-API&#39;s of vanuit de doelinterface.
 
