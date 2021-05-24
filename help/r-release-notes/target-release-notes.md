@@ -4,7 +4,7 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 20 mei 2021**
+**Laatst bijgewerkt: 24 mei 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -25,7 +25,7 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 >
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (24 mei 2021)
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1 juni 2021)
 
 Deze versie van [!DNL Platform Web SDK] omvat steun voor het volgende:
 
