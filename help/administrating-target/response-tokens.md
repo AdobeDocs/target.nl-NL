@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 >[!NOTE]
 >
->Responstempels zijn beschikbaar in [!DNL Adobe Experience Platform Web SDK] versie 2.5.0 of hoger (release gepland voor 24 mei 2021) en in versie 1.js of hoger.
+>Responstkens zijn beschikbaar in [!DNL Adobe Experience Platform Web SDK] versie 2.5.0 of hoger (release gepland voor 1 juni 2021) en met versie 1.1 of hoger op at.js.
 
 | Doel-SDK | Voorgestelde acties |
 |--- |--- |
@@ -212,13 +212,13 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 [!DNL Target] vernieuwt kenmerken regelmatig. Om het even welk attribuut dat niet wordt van een knevel voorzien wordt verwijderd tijdens volgende verfrist zich. Als u echter een kenmerk hebt dat is ingeschakeld en verwijderd, wordt dat script pas verwijderd uit de lijst met kenmerken nadat u het hebt uitgeschakeld. U hebt bijvoorbeeld een profielscript verwijderd dat als token is gebruikt. [!DNL Target] Hiermee verwijdert u alleen de in- en uitschakelkenmerken uit de lijst wanneer deze worden verwijderd of hernoemd.
 
-## Gegevens verzenden naar Google Analytics via Platform Web SDK
+## ![AEP ](/help/assets/platform.png) badgeSending data to Google Analytics via Platform Web SDK
 
 Google Analytics kunnen via Platform Web SDK versie 2.5.0 (of later) gegevens worden verzonden door de volgende code in de HTML-pagina toe te voegen:
 
 (Te ontvangen code)
 
-## Gegevens naar Google Analytics verzenden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js ](/help/assets/atjs.png) badgeGegevens worden naar Google Analytics verzonden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kunnen via at.js gegevens worden verzonden door de volgende code toe te voegen in de HTML-pagina:
 
@@ -288,7 +288,7 @@ Google Analytics kunnen via at.js gegevens worden verzonden door de volgende cod
 
 De volgende secties verstrekken informatie over het zuiveren reactietokens:
 
-### Google Analytics en foutopsporing
+### ![at.js ](/help/assets/atjs.png) badgeGoogle Analytics en foutopsporing
 
 Met de volgende code kunt u fouten opsporen met behulp van Google Analytics:
 
@@ -405,7 +405,7 @@ Het equivalent van de ttMeta-insteekmodule voor foutopsporingsdoeleinden kan wor
 </script>
 ```
 
-## Trainingsvideo: Responstkens en aangepaste gebeurtenissen ![Zelfstudie-badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.](/help/assets/atjs.png) jsTraining Video: Response Tokens en aangepaste gebeurtenissen at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 In de volgende video wordt uitgelegd hoe u responstokens en aangepaste gebeurtenissen at.js kunt gebruiken om profielgegevens te delen van [!DNL Target] naar systemen van derden.
 
