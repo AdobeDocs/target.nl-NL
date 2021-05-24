@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,11 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 1. Maak een activiteit.
 
-## ![Adobe Experience Platform Web SDK-](/help/assets/platform.png) [!DNL Platform Web SDK] badge met de Handle-objectklasse
+## Luisteren naar reacties en reactietokens lezen
+
+Het proces dat u gebruikt om te luisteren naar [!DNL Target] reacties en om reactietokens te lezen, is afhankelijk van het feit of u een [!DNL Platform Web SDK]- of at.js-implementatie hebt.
+
+### ![Adobe Experience Platform Web SDK-](/help/assets/platform.png) [!DNL Platform Web SDK] badge met de Handle-objectklasse
 
 Gebruik de klasse van het voorwerp van de Handle, die een meta- gegevensvoorwerp en een gegevensvoorwerp heeft om op [!DNL Target] reacties te luisteren en de reactietokens te lezen.
 
@@ -143,7 +147,7 @@ In het volgende codevoorbeeld wordt een aangepaste gebeurtenishandler [!DNL Plat
 | Meta | Metagegevens die worden doorgegeven aan de pagina. |
 | Gegevens | Waarden van de metagegevens die aan de pagina zijn doorgegeven. |
 
-## ![at.js ](/help/assets/atjs.png) badgeat.js die aangepaste gebeurtenissen gebruiken
+### ![at.js ](/help/assets/atjs.png) badgeat.js die aangepaste gebeurtenissen gebruiken
 
 Gebruik [at.js aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) om te luisteren naar de [!DNL Target]-reactie en de reactietokens te lezen.
 
@@ -212,13 +216,17 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 [!DNL Target] vernieuwt kenmerken regelmatig. Om het even welk attribuut dat niet wordt van een knevel voorzien wordt verwijderd tijdens volgende verfrist zich. Als u echter een kenmerk hebt dat is ingeschakeld en verwijderd, wordt dat script pas verwijderd uit de lijst met kenmerken nadat u het hebt uitgeschakeld. U hebt bijvoorbeeld een profielscript verwijderd dat als token is gebruikt. [!DNL Target] Hiermee verwijdert u alleen de in- en uitschakelkenmerken uit de lijst wanneer deze worden verwijderd of hernoemd.
 
-## ![AEP ](/help/assets/platform.png) badgeSending data to Google Analytics via Platform Web SDK
+## Gegevens verzenden naar Google Analytics
+
+In de volgende secties wordt beschreven hoe u [!DNL Target]-gegevens naar Google Analytics verzendt:
+
+### ![AEP ](/help/assets/platform.png) badgeSending data to Google Analytics via Platform Web SDK
 
 Google Analytics kunnen via Platform Web SDK versie 2.5.0 (of later) gegevens worden verzonden door de volgende code in de HTML-pagina toe te voegen:
 
 (Te ontvangen code)
 
-## ![at.js ](/help/assets/atjs.png) badgeGegevens worden naar Google Analytics verzonden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js ](/help/assets/atjs.png) badgeGegevens worden naar Google Analytics verzonden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kunnen via at.js gegevens worden verzonden door de volgende code toe te voegen in de HTML-pagina:
 
