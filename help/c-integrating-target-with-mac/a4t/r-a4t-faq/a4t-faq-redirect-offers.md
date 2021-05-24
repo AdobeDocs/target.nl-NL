@@ -4,9 +4,9 @@ description: Vind antwoorden op vragen over het gebruiken van redirect aanbiedin
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analyses voor doel (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Met [!DNL at.js] versie 0.9.6 (of later) en [!DNL AppMeasurement.js] 2.1 (of lat
 
 Nee, u moet een ingebouwde omleidingsaanbieding gebruiken voor activiteiten die [!DNL Analytics] als rapportagebron (A4T) gebruiken. Vanuit het perspectief van [!DNL Target] zijn de HTML-aanbiedingen ondoorzichtig: [!DNL Target] kan niet weten dat een bepaald deel van HTML JavaScript bevat dat een omleiding concretiseert.
 
-## Biedt de [!DNL Adobe Experience Platform Web SDK] ondersteuning voor omleiding van aanbiedingen voor A4T? {#platform}
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) badgeBiedt de  [!DNL Adobe Experience Platform Web SDK] ondersteuning een omleiding voor A4T? {#platform}
 
 De volgende FAQs verstrekt meer informatie over het gebruiken van A4T en richt aanbiedingen met [!DNL Platform Web SDK] om.
 
