@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 031512e205fc26dd51ad5d586d8a68bbe0a26484
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 17 mei 2021**
+**Laatst bijgewerkt: 20 mei 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -25,18 +25,14 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 >
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## at.js versie 2.5.0 (13 mei 2021)
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (24 mei 2021)
 
-Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
+Deze versie van [!DNL Platform Web SDK] omvat steun voor het volgende:
 
-* [Ondersteuning voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslissingen op het apparaat voor at.js.
-* [Ondersteuning voor ](/help/c-activities/c-activity-qa/activity-qa.md) koppelingen voor  [!UICONTROL Automated Personalization] (AP)-activiteiten voorvertonen
-
-Deze versie verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger. Zie [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) voor meer informatie.
-
-## [!DNL Adobe Experience Platform Web SDK] versie 2.5.0 (24 mei 2021)
-
-Deze versie van [!DNL Platform Web SDK] omvat steun voor [!UICONTROL Analytics for Target] (A4T) voor [!DNL Target] omleidingen.
+| Functie | Details |
+| --- | --- |
+| Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | De SDK van het Web van het Platform steunt nu [!DNL Target] omleidingen wanneer het gebruiken van A4T. Met omleiding van voorstellen in [!DNL Adobe Target] wordt een browser omgeleid naar een nieuwe pagina. |
+| Reactietokens | De SDK van het Web van het Platform steunt nu [!DNL Target] reactietokens. Met responstokens kunt u automatisch specifieke informatie voor [!DNL Adobe Target] uitvoeren op de webpagina van uw merk. Deze informatie kan details over de activiteit, de aanbieding, de ervaring, het gebruikersprofiel, geo informatie, en meer omvatten. Deze details verstrekken extra reactiegegevens om met interne of derdesystemen te delen of voor het zuiveren te gebruiken. |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
 
