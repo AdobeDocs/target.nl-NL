@@ -5,10 +5,9 @@ title: Wat is een apparaatbeslissing?
 feature: Server-kant implementeren
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-translation-type: tm+mt
-source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -46,3 +45,7 @@ Zie de handleiding [Adobe Target Tutorials](https://experienceleague.adobe.com/d
 ## Adobe Tech Blog - Deel 1: [!DNL Adobe Target] NodeJS SDK uitvoeren voor experimenteren en personalisatie op Edge-platforms (Akamai Edge Workers)
 
 [Klik hier om het blogbericht](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9) te openen.
+
+## Adobe Tech Blog - Deel 2: [!DNL Adobe Target] NodeJS SDK uitvoeren voor experimenteren en personalisatie op randplatforms (AWS Lambda@Edge)
+
+[Klik hier om het blogbericht](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563) te openen.
