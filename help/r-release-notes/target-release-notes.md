@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14e1a71bbebbf8baec09df41e3e08f89bb64a4e0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 24 mei 2021**
+**Laatst bijgewerkt: 25 mei 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -36,7 +36,9 @@ Deze versie van [!DNL Platform Web SDK] omvat steun voor het volgende:
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
 
-Inhoud wordt toegevoegd wanneer de releasedatum nadert.
+| Functie | Details |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] badgeAPI | Zoek in uw [!DNL Recommendations] product- en inhoudscatalogus via de API programmatisch naar items die voldoen aan een zoekcriterium en vereenvoudig het beheer van uw catalogus.<br>**Beperkingen en opmerkingen**:<ul><li>Cataloguszoekopdrachten via API worden niet ondersteund voor omgevingen met meer dan 2.000.000 items.</li><li>Zoekresultaten van catalogi via API worden sneller bijgewerkt dan zoekresultaten van catalogi via de gebruikersinterface [!DNL Target]. Het zoeken naar catalogi in de interface [!DNL Target] kan extra tijd vergen om de meest recente resultaten weer te geven.</li></ul>Zie [Zoeken in entiteiten](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) in de handleiding *[!DNL Adobe Target][!DNL Recommendations] API* voor meer informatie. |
 
 ## [!DNL Target Standard/Premium] 21.5.2 (nog te bepalen datum)
 
