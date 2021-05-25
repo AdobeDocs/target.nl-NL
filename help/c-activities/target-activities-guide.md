@@ -2,15 +2,14 @@
 keywords: activiteitengids;activiteiten;activiteit;soorten activiteiten;activiteiten
 description: Download een interactieve PDF die de verschillende activiteitstypen in Adobe Target beschrijft.
 title: Welke activiteitstypen zijn beschikbaar in doel?
-feature: Activities
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+feature: Activiteiten
+exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
+source-git-commit: 882f656ee2f534e39ad608d06829c2bea463a029
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
-
 
 # Doelactiviteitstypen
 
@@ -53,7 +52,7 @@ Download een interactieve PDF die de verschillende activiteitstypen in [!DNL Ado
 | Multivariate Testing (MVT) | Heeft kennis van status.<br/>Heeft een of meer voorstellen.<br/>Wil conversietrends met betrekking tot interacties van pagina-elementen analyseren. |
 | Gericht op ervaring (XT) | Moet een specifieke ervaring of inhoud aan een specifiek publiek leveren. |
 
-## Statistische details {#section_22CF2D07DB054505AB5EC702B99A5BB0}
+## Statistische gegevens {#section_22CF2D07DB054505AB5EC702B99A5BB0}
 
 | Type activiteit | Details |
 |--- |--- |
@@ -69,8 +68,8 @@ Download een interactieve PDF die de verschillende activiteitstypen in [!DNL Ado
 | Type activiteit | Voordelen | Overwegingen |
 |--- |--- |--- |
 | Handmatige A/B-test | Met een A/B-test kunt u volledig begrijpen hoe elke ervaring presteert, waarna de ervaring het beste presteert. | Als u in een A/B-test naar de testresultaten kijkt voordat de monstergrootte wordt bereikt, loopt u het risico dat u op onjuiste resultaten vertrouwt (u kunt niet &quot;eerder&quot;pieken!).</br>In tegenstelling tot Automatisch toewijzen blijft in een A/B-test de verkeersverdeling vast, zelfs nadat u hebt onderkend dat sommige ervaringen beter presteren dan andere. |
-| Automatisch toewijzen | Automatisch toewijzen verlaagt de kosten van een typische A/B-test omdat de totale conversiesnelheid hoger is dan bij een handmatige A/B-test. De conversiesnelheid is hoger, omdat bij Automatisch toewijzen meer verkeer de best presterende ervaring bereikt. Dit betekent dat u het voordeel van die winnende ervaring kunt realiseren vóór het einde van de testperiode (u kunt zoeken!). | Met Automatisch toewijzen wordt de winnaar geïdentificeerd, maar wordt geen onderscheid gemaakt tussen de verliezers. Als u wilt weten hoe elke ervaring is uitgevoerd, kunt u beter A/B testen.</br>De functie Automatisch toewijzen werkt met slechts één geavanceerde metrische instelling, namelijk &quot;Aantal verhogen en Gebruiker in activiteit houden&quot;.Dit betekent dat als u geen herhaalde omzettingen wilt tellen, u in plaats daarvan A/B het testen zou moeten gebruiken.  Automatisch toewijzen kan geen rapporten in A4T verbruiken. |
-| Automatisch doel | Met Auto-Target wordt het leren van machines toegepast op om het even welk soort ervaring, met inbegrip van multi-paginagenervaringen. U kunt hiermee ook de waarde van Automated Personalization ophalen terwijl u de vertrouwde testworkflow voor A/B gebruikt. | Met Auto-Doel, als u de inhoud van uw aanbiedingen vaak of vaak wilt veranderen, zal het algoritme genoeg tijd na elke verandering nodig hebben om te exploiteren wat het leert en daadwerkelijk die inhoud aan de juiste bezoekers te leveren.</br>AutoDoel kan geen rapporten in A4T verbruiken. |
+| Automatisch toewijzen | Automatisch toewijzen verlaagt de kosten van een typische A/B-test omdat de totale conversiesnelheid hoger is dan bij een handmatige A/B-test. De conversiesnelheid is hoger, omdat bij Automatisch toewijzen meer verkeer de best presterende ervaring bereikt. Dit betekent dat u het voordeel van die winnende ervaring kunt realiseren vóór het einde van de testperiode (u kunt zoeken!). | Met Automatisch toewijzen wordt de winnaar geïdentificeerd, maar wordt geen onderscheid gemaakt tussen de verliezers. Als u wilt weten hoe elke ervaring is uitgevoerd, kunt u beter A/B testen.</br>De functie Automatisch toewijzen werkt met slechts één geavanceerde metrische instelling, namelijk &quot;Aantal verhogen en Gebruiker in activiteit houden&quot;.Dit betekent dat als u geen herhaalde omzettingen wilt tellen, u in plaats daarvan A/B het testen zou moeten gebruiken. |
+| Automatisch doel | Met Auto-Target wordt het leren van machines toegepast op om het even welk soort ervaring, met inbegrip van multi-paginagenervaringen. U kunt hiermee ook de waarde van Automated Personalization ophalen terwijl u de vertrouwde testworkflow voor A/B gebruikt. | Met Auto-Doel, als u de inhoud van uw aanbiedingen vaak of vaak wilt veranderen, zal het algoritme genoeg tijd na elke verandering nodig hebben om te exploiteren wat het leert en daadwerkelijk die inhoud aan de juiste bezoekers te leveren. |
 | Automated Personalization (AP) | Met Automated Personalization kunt u al uw aanbiedingen op één plaats verzamelen, en het algoritme toont eenvoudig de beste combinatie ervan. U hoeft geen afzonderlijke ervaringen op te geven of samen te stellen. Automated Personalization gebruikt dezelfde instructiealgoritmen voor computers als Auto-Target. | Wanneer u veelvoudige aanbiedingen combineert, komt een combinatoriale explosie voor resulterend in de behoefte aan een significante hoeveelheid verkeer. Automated Personalization&#39;s algoritme is verantwoordelijk voor een groot aantal factoren; de meeste verkeersbehoefte.</br>Automated Personalization kan geen rapporten in A4T verbruiken. |
 | Multivariate Testing (MVT) | Met Multivariate Testing kunt u meerdere elementen tegelijk testen. | Een multivariate test is tijdrovend, en door de veelvoudige variabelen bij spel, veroorzaakt het niet noodzakelijk een het winnen Ervaring met vertrouwen.</br>Het is vaak uitdagend om de hoeveelheid verkeer te bereiken nodig om de test te voltooien. Aangezien alle experimenten met multivariate-tests volledig rekening houden, kunnen te veel veranderende elementen in één keer snel een zeer groot aantal mogelijke combinaties optellen die moeten worden getest.</br>Zelfs een plaats met vrij hoog verkeer zou problemen kunnen hebben die een test met meer dan 25 combinaties in een uitvoerbare hoeveelheid tijd voltooien. |
 | Gericht op ervaring (XT) | Met Experience Targeting, kunt u snel op inzichten handelen die van om het even welke activiteitenresultaten worden afgeleid.</br>Bijvoorbeeld, als u een A/B test in werking stelde waar de uitdager niet de controle overtrof, maar de resultaten wijzen erop dat een zeer specifiek segment van bezoekers eigenlijk 4x meer met de bezoeker dan zij met de controle uitvoerde, dan kunt u Ervaring gebruiken die richt om de belenervaring aan dat bepaalde segment te leiden. | Met Experience Targeting kunt u niet de procentuele verdeling van een ervaring voor meerdere soorten publiek bepalen. |
