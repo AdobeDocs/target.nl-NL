@@ -5,16 +5,16 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1581'
 ht-degree: 0%
 
 ---
 
 # Reactietokens
 
-Met responstokens kunt u automatisch specifieke informatie voor [!DNL Adobe Target] uitvoeren op de webpagina van uw merk. Deze informatie kan details over de activiteit, de aanbieding, de ervaring, het gebruikersprofiel, geo informatie, en meer omvatten. Deze details verstrekken extra reactiegegevens om met interne of derdesystemen (zoals Clicktale) te delen of voor het zuiveren te gebruiken.
+Met responstokens kunt u automatisch specifieke informatie voor [!DNL Adobe Target] uitvoeren op de webpagina van uw merk. Deze informatie kan details over de activiteit, de aanbieding, de ervaring, het gebruikersprofiel, geo informatie, en meer omvatten. Deze details verstrekken extra reactiegegevens om met interne of derdehulpmiddelen te delen of voor het zuiveren te gebruiken.
 
 De tekenen van de reactie laten u kiezen welke variabelen (in zeer belangrijke waardeparen) te gebruiken en dan hen toe te laten om als deel van een [!DNL Target] reactie worden verzonden. U laat een variabele toe gebruikend de schakelaar en de variabele wordt verzonden met [!DNL Target] reacties, die in netwerkvraag kunnen worden bevestigd. De tekenen van de reactie werken ook op [!UICONTROL Preview] wijze.
 
