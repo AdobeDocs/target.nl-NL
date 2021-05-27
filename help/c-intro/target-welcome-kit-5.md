@@ -4,10 +4,9 @@ description: Waar kan ik ideeën en inspiratie vinden voor mijn test- en persona
 title: Waar kan ik inspiratie vinden voor mijn test- en personaliseringsinspanningen?
 feature: Overzicht
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ Nadat u die doelgroepen hebt geïdentificeerd, test en onderzoek naar de gebruik
 
 Bijvoorbeeld, wanneer een bezoeker die in een &quot;ernstig gamer&quot;publiek voor een telecommunicatiebedrijf valt de website van het bedrijf bezoekt, een ervaring levert die exemplaar en beelden omvat die met gamers en een aanbieding voor hoge snelheidsInternet resoneert.
 
-## Idee 2: [!DNL Target] voor het eerst bezoekers en herhaal klanten anders.
+## Idee 2: Doel voor eerste bezoekers en herhaal klanten anders.
 
 Digitale marketers erkennen intuïtief dat bestaande klanten waardevoller zijn dan nieuwe klanten, maar ze geven te vaak geen prioriteit aan marketingprogramma&#39;s die bedoeld zijn om klanten terug te laten komen. Om deze gemeenschappelijke valkuil te vermijden, analyseer uw metriek van de herhaalde klant om te bepalen hoe de loyale klanten zich op uw plaats gedragen. Gebruik deze inzichten om gerichte campagnes te maken voor bezoekers met een of twee aankopen en om hen aan te sporen aanvullende bezoeken ter plaatse te brengen.
 
