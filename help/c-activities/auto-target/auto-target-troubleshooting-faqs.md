@@ -4,10 +4,9 @@ description: Onderzoek het oplossen van problemenonderwerpen en Veelgestelde Vra
 title: Hoe kan ik auto-doelactiviteiten problemen oplossen?
 feature: Automatisch doel
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Problemen oplossen en Veelgestelde vragen (FAQ&#39;s) over [!UICONTROL Auto-Target] in [!DNL Adobe Target].
 
-## Veelgestelde vragen {#section_5C120A2B11D14D9BAF767BBAB50FED23} automatisch bepalen
+## Veelgestelde vragen over automatisch doel {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
 Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UICONTROL Auto-Target]-activiteiten:
 
@@ -33,7 +32,7 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UI
 
 * Probeer de ervaringen tijdens de activiteiten niet ingrijpend te wijzigen.
 
-### adviseert u dat wij Auto [!DNL Target] met 90 (Controle)/10 (Gericht) verdelen gebruiken tot de modellen worden gebouwd?
+### adviseert u dat wij [!UICONTROL Auto Target] met 90 (Controle)/10 (Gericht) verdelen gebruiken tot de modellen worden gebouwd?
 
 Uw optimale verdeling van de verkeerstoewijzing hangt af van wat u wilt verwezenlijken.
 
@@ -84,7 +83,7 @@ Enkele andere punten om in mening over het modelgebouw van [!UICONTROL Auto-Targ
 
 ### Eén model is ingebouwd in mijn activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd?
 
-Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie begint.
+Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie kan beginnen.
 
 ### Wanneer kan ik beginnen de resultaten van mijn [!UICONTROL Auto-Target] activiteit te bekijken?
 
