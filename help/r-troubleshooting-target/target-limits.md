@@ -5,10 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -36,6 +35,12 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 * **Aanbevolen limiet**: 10.000 actieve live activiteiten.
 
 * **Aanbevolen limiet**: 10.000 actieve opgeslagen (en niet beëindigde) activiteiten.
+
+## API-aanroepen van doel
+
+* **Limiet**: 50 vraag per minuut.
+
+   Als u meer dan 50 API vraag per minuut maakt, [!DNL Target] keert een &quot;503 HTTP status&quot;foutenmelding terug.
 
 ## Soorten publiek
 
