@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,14 @@ Het proces dat u gebruikt om te luisteren naar [!DNL Target] reacties en om reac
 
 Gebruik de klasse van het voorwerp van de Handle, die een meta- gegevensvoorwerp en een gegevensvoorwerp heeft om op [!DNL Target] reacties te luisteren en de reactietokens te lezen.
 
-In het volgende codevoorbeeld wordt een aangepaste gebeurtenishandler [!DNL Platform Web SDK] rechtstreeks aan de HTML-pagina toegevoegd:
+In het volgende reactievoorbeeld wordt een aangepaste gebeurtenishandler [!DNL Platform Web SDK] rechtstreeks aan de HTML-pagina toegevoegd (in de tabel worden de objecten in de code uitgelegd):
+
+| Object | Informatie |
+| --- | --- |
+| Type - Personalisatie.Besluit | Of de beslissing is genomen door de [!DNL Target] of Offer decisioning provider. |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] Hiermee geeft u de metagegevens en waarden van het reactietoken op de pagina op. |
+| Meta | Metagegevens die aan de pagina worden doorgegeven. |
+| Gegevens | Waarden van de metagegevens die aan de pagina zijn doorgegeven. |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ In het volgende codevoorbeeld wordt een aangepaste gebeurtenishandler [!DNL Plat
 
 </html>
 ```
-
-| Object | Informatie |
-| --- | --- |
-| Type - Personalisatie.Besluit | [!DNL Target] en hier worden de gegevens van de Offer decisioning doorgegeven. |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] Hiermee geeft u de metagegevens en waarden van het reactietoken op de pagina op. |
-| Meta | Metagegevens die worden doorgegeven aan de pagina. |
-| Gegevens | Waarden van de metagegevens die aan de pagina zijn doorgegeven. |
 
 ### ![at.js ](/help/assets/atjs.png) badgeat.js die aangepaste gebeurtenissen gebruiken
 
@@ -218,7 +218,7 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 ## Gegevens verzenden naar Google Analytics
 
-In de volgende secties wordt beschreven hoe u [!DNL Target]-gegevens naar Google Analytics verzendt:
+In de volgende secties wordt beschreven hoe u [!DNL Target] gegevens naar Google Analytics verzendt. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
 
 ### ![AEP ](/help/assets/platform.png) badgeSending data to Google Analytics via Platform Web SDK
 
