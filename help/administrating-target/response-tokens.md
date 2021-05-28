@@ -1,13 +1,13 @@
 ---
 keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
-description: Leer hoe te om reactietokens in Adobe [!DNL Target] output-specifieke informatie te gebruiken in het zuiveren en het integreren met derdesystemen (zoals Clicktale).
+description: Leer hoe te om reactietokens in Adobe [!DNL Target] output-specifieke informatie te gebruiken in het zuiveren en het integreren met derdehulpmiddelen.
 title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1611'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,16 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 >[!NOTE]
 >
->Responstkens zijn beschikbaar in [!DNL Adobe Experience Platform Web SDK] versie 2.5.0 of hoger (release gepland voor 1 juni 2021) en met versie 1.1 of hoger op at.js.
+>Responstkens zijn beschikbaar in [!DNL Adobe Experience Platform Web SDK] versie 2.6.0 of hoger (release gepland voor 1 juni 2021) en met versie 1.1 of hoger op at.js.
 
 | Doel-SDK | Voorgestelde acties |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Zorg ervoor dat u versie 2.5.0 of later van SDK van het Web van het Platform gebruikt. Voor informatie over het downloaden van de recentste versie van het Web SDK van het Platform, zie [SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in *Overzicht SDK van het Web SDK van het Platform* gids. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [Nota&#39;s van de Versie](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in *Overzicht van SDK van het Web van het Platform* gids. |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Zorg ervoor dat u versie 2.6.0 van SDK van het Web van Platforms of later gebruikt. Voor informatie over het downloaden van de recentste versie van het Web SDK van het Platform, zie [SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in *Overzicht SDK van het Web SDK van het Platform* gids. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [Nota&#39;s van de Versie](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in *Overzicht van SDK van het Web van het Platform* gids. |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [Download bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [at.js de Details van de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Sommige plug-ins die afhankelijk zijn van interne methoden die in mbox.js bestaan, maar niet in at.js, worden geleverd, maar mislukken. Voor meer informatie, zie [at.js Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 
 ## Reactietokens gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Zorg ervoor dat u Platform Web SDK versie 2.5.0 (of later) of versie 1.1 (of later) gebruikt.
+1. Zorg ervoor dat u Platform Web SDK versie 2.6.0 (of later) of versie 1.1 (of later) gebruikt.
 
    Voor meer informatie:
 
@@ -176,7 +176,7 @@ In het volgende codevoorbeeld wordt een aangepaste gebeurtenishandler [!DNL at.j
 
 De tekenen van de reactie kunnen slechts door gebruikers met de [!DNL Target] [!UICONTROL Administrator] rol worden geactiveerd of worden gedeactiveerd.
 
-**Wat gebeurt er als ik [!DNL Platform Web SDK] 2.5.0 (of eerder) in werking stel?
+**Wat gebeurt er als ik [!DNL Platform Web SDK] 2.6.0 (of eerder) in werking stel?
 
 U hebt geen toegang tot reactietokens.
 
@@ -222,9 +222,60 @@ In de volgende secties wordt beschreven hoe u [!DNL Target] gegevens naar Google
 
 ### ![AEP ](/help/assets/platform.png) badgeSending data to Google Analytics via Platform Web SDK
 
-Google Analytics kunnen via Platform Web SDK versie 2.5.0 (of later) gegevens worden verzonden door de volgende code in de HTML-pagina toe te voegen:
+Google Analytics kunnen via Platform Web SDK versie 2.6.0 (of later) gegevens worden verzonden door de volgende code in de HTML-pagina toe te voegen.
 
-(Te ontvangen code)
+>[!NOTE]
+>
+>Zorg ervoor dat het sleutelwaardepaar van het reactietoken zich onder het `alloy(“sendEvent”` voorwerp bevindt.
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.js ](/help/assets/atjs.png) badgeGegevens worden naar Google Analytics verzonden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
