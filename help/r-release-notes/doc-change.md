@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 1 juni | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volgende veelgestelde vragen toegevoegd:<ul><li>Hoe gebruik ik een opt-out-koppeling met CNAME</li></ul> |
+|  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | De sectie &quot;Uitschakelen&quot; is bijgewerkt om uit te leggen hoe u de koppeling om te weigeren met CNAME kunt gebruiken. |
 | 27 mei | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Toegevoegde sectie voor [!DNL Target] API vraag. De grens is 50 vraag per minuut. |
 | 20 mei | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Adobe Tech Blog - Deel 2: [!DNL Adobe Target] NodeJS SDK uitvoeren voor experimenteren en personalisatie op randplatforms (AWS Lambda@Edge)</li></ul> |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: Bij archivering van [!UICONTROL Auto Target] kunnen synchronisatieproblemen optreden. |
