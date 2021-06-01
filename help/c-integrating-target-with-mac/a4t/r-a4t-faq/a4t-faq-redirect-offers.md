@@ -4,9 +4,9 @@ description: Vind antwoorden op vragen over het gebruiken van redirect aanbiedin
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analyses voor doel (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -109,10 +109,6 @@ Nee, u moet een ingebouwde omleidingsaanbieding gebruiken voor activiteiten die 
 ## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) badgeBiedt de  [!DNL Adobe Experience Platform Web SDK] ondersteuning een omleiding voor A4T? {#platform}
 
 De volgende FAQs verstrekt meer informatie over het gebruiken van A4T en richt aanbiedingen met [!DNL Platform Web SDK] om.
-
->[!NOTE]
->
->A4T-ondersteuning in een [!DNL Adobe Experience Platform Web SDK]-implementatie die in dit artikel wordt besproken, is volgens de planning beschikbaar met de [!DNL Platform Web SDK] versie 2.5.0-release (1 juni 2021).
 
 ### Biedt Analytics for Target (A4T) ondersteuning voor omleidingsaanbiedingen?
 
