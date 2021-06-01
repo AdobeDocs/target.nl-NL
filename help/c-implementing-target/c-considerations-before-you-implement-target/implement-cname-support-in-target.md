@@ -5,14 +5,14 @@ title: Hoe gebruik ik CNAME als doel?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
+source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
 
-# CNAME en Adobe Target
+# CNAME en Doel
 
 Instructies voor het werken met de Zorg van de Cliënt [!DNL Adobe] om steun CNAME (Canonical Name) in &lt;a1 uit te voeren/>. [!DNL Adobe Target] Gebruik CNAME om problemen met of beleid voor ITP-cookies (Intelligent Tracking Prevention) te verwerken en te blokkeren. Met CNAME, worden de vraag gemaakt aan een domein dat door de klant eerder dan een domein wordt bezeten van [!DNL Adobe].
 
