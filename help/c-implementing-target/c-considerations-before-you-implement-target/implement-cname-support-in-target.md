@@ -5,10 +5,9 @@ title: Hoe gebruik ik CNAME als doel?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -140,6 +139,13 @@ Gebruik de volgende set opdrachten (in de opdrachtregelterminal van MacOS of Lin
    >[!NOTE]
    >
    >Als dit bevel ontbreekt maar het `validateEdgeFpsslSni` bevel hierboven slaagt, wacht op uw DNS updates om volledig te verspreiden. DNS-records hebben een gekoppelde [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) die de verlooptijd van de cache voor DNS-antwoorden van die records dicteert. Dientengevolge, zou u minstens zolang uw TTLs kunnen moeten wachten. U kunt `dig target.example.com` bevel of [Toolbox van de Reeks van G gebruiken ](https://toolbox.googleapps.com/apps/dig/#CNAME) om uw specifieke TTLs omhoog te zoeken.
+
+### Hoe gebruik ik een opt-out-koppeling met CNAME
+
+Als u CNAME gebruikt, zou de opt-out verbinding de &quot;client=`clientcode` parameter, bijvoorbeeld moeten bevatten:
+`https://my.cname.domain/optout?client=clientcode`.
+
+Vervang `clientcode` door uw clientcode en voeg vervolgens de tekst of afbeelding toe die u wilt koppelen aan de [opt-out URL](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
 
 ## Bekende beperkingen
 
