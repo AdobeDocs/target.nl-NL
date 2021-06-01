@@ -4,8 +4,7 @@ description: 'Leer hoe u een voorvertoning van uw Adobe [!DNL Target] Recommenda
 title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f4972f04906cb3476f50abedd6cec847e015daf9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -77,7 +76,7 @@ Als u een koppeling QA gebruikt, kunt u de aanbevelingen op uw pagina bekijken:
 >* De doel-QA-modus is &quot;plakken&quot; en wordt in een cookie opgeslagen. Als u de QA-modus niet afsluit, blijven de resultaten van de QA op de hele site zichtbaar. Als u de QA-modus wilt afsluiten, gebruikt u [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
    >
    >
-* In de QA-modus heeft het bladeren door de site geen invloed op de [!UICONTROL Recently Viewed Items] of [!UICONTROL Recently Purchased Items] van uw profiel.&quot; Dit gedrag gebeurt door het ontwerp om onopzettelijke verontreiniging van gedragsgegevens van de productie te voorkomen. Als u resultaten wilt voorvertonen op basis van een [!UICONTROL Recently Viewed Items]- of [!UICONTROL User-Based Recommendations]-criterium, bladert u eerst naar de site buiten de QA-modus en opent u vervolgens dezelfde sessie voor een koppeling in de QA-modus.
+* In de QA-modus heeft het bladeren door de site geen invloed op de [!UICONTROL Recently Viewed Items] of [!UICONTROL Recently Purchased Items] van uw profiel. Dit gedrag gebeurt door het ontwerp om onopzettelijke verontreiniging van gedragsgegevens van de productie te voorkomen. Als u resultaten wilt voorvertonen op basis van een [!UICONTROL Recently Viewed Items]- of [!UICONTROL User-Based Recommendations]-criterium, bladert u eerst naar de site buiten de QA-modus en opent u vervolgens dezelfde sessie voor een koppeling in de QA-modus.
 
 
 ## De CSV-download gebruiken om aanbevelingen voor te vertonen
