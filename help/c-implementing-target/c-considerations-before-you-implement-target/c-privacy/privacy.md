@@ -5,10 +5,9 @@ title: Hoe behandelt  [!DNL Target] Privacy kwesties?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] heeft processen en instellingen ingeschakeld waarmee u processen en instellingen kunt gebruiken  [!DNL Target] in overeenstemming met de toepasselijke wetgeving inzake privacy van gegevens.
 
-## Verzameling van IP-adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Verzameling IP-adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 Het IP-adres van een bezoeker van uw website wordt naar een Adobe Data Processing Center (DPC) verzonden. Afhankelijk van de netwerkconfiguratie voor de bezoeker, vertegenwoordigt het IP adres niet noodzakelijk het IP adres van de computer van de bezoeker. Bijvoorbeeld, zou het IP adres het externe IP adres van een firewall van het Vertaal adres van het Netwerk (NATIONAAL), de volmacht van HTTP, of de gateway van Internet kunnen zijn. Het doel slaat geen IP adressen van de gebruiker of om het even welke Persoonlijk Identificeerbare Informatie (PII) op. IP de adressen worden gebruikt slechts door Doel voor de duur van de zitting (in geheugen, nooit voortgeduurd).
 
@@ -45,14 +44,18 @@ Als u de vervanging van het laatste octet van het IP adres toelaat, kunnen de re
 
 Als IP de adressen volledig verduisterd zijn, is GeoSegmentation en geo het richten niet beschikbaar.
 
-## Koppeling {#section_E7A62B7B99C94B3A806CB262D16E27FC} uitschakelen
+## Koppeling uitschakelen {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 U kunt een koppeling om te weigeren toevoegen aan uw sites zodat bezoekers zich kunnen afmelden voor alle aftellingen en de levering van inhoud.
 
 1. Voeg de volgende koppeling toe aan uw site:
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
-1. Vervang de `clientcode`-tekst met uw clientcode en voeg de tekst of afbeelding toe die u wilt koppelen aan de URL voor niet-deelname.
+
+1. (Voorwaardelijk) als u CNAME gebruikt, zou de verbinding de &quot;client=`clientcode` parameter, bijvoorbeeld moeten bevatten:
+https://my.cname.domain/optout?client=clientcode.
+
+1. Vervang `clientcode` door uw clientcode en voeg de tekst of afbeelding toe die u wilt koppelen aan de URL voor niet-deelname.
 
 Elke bezoeker die op deze koppeling klikt, wordt niet opgenomen in een box-aanvraag die vanaf zijn browsersessies wordt aangeroepen totdat hij of zij zijn of haar cookies verwijdert, of gedurende twee jaar, afhankelijk van welke eerst aankomt. Dit werkt door een koekje voor de bezoeker te plaatsen genoemd `disableClient` in `clientcode.tt.omtrdc.net` domein.
 
