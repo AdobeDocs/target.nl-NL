@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Deze versie van [!DNL Platform Web SDK] omvat steun voor het volgende:
 
 | Functie | Details |
 | --- | --- |
-| Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | De SDK van het Web van het Platform steunt nu [!DNL Target] omleidingen wanneer het gebruiken van A4T. Met omleiding van voorstellen in [!DNL Adobe Target] wordt een browser omgeleid naar een nieuwe pagina.<br>Zie Aanbiedingen omleiden voor meer informatie. |
-| Reactietokens | De SDK van het Web van het Platform steunt nu [!DNL Target] reactietokens.<br> Met responstokens kunt u automatisch informatie uitvoeren die specifiek is voor  [!DNL Adobe Target] de webpagina van uw merk. Deze informatie kan details over de activiteit, de aanbieding, de ervaring, het gebruikersprofiel, geo informatie, en meer omvatten. Deze details verstrekken extra reactiegegevens om met interne of derdesystemen te delen of voor het zuiveren te gebruiken.<br>Zie  [Reactietokens](/help/administrating-target/response-tokens.md) voor meer informatie. |
+| Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | De SDK van het Web van het Platform steunt nu [!DNL Target] omleidingen wanneer het gebruiken [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Zie  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) voor meer informatie. |
+| Reactietokens | De SDK van het Web van het Platform steunt nu [!DNL Target] reactietokens.<br>Zie  [Reactietokens](/help/administrating-target/response-tokens.md) voor meer informatie. |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juni 2021)
 
