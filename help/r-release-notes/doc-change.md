@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | --- | --- | --- |
 | 1 juni | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volgende veelgestelde vragen toegevoegd:<ul><li>Hoe gebruik ik een opt-out-koppeling met CNAME</li></ul> |
 |  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | De sectie &quot;Uitschakelen&quot; is bijgewerkt om uit te leggen hoe u de koppeling om te weigeren met CNAME kunt gebruiken. |
+|  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Toegevoegde informatie over [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Analyse  [!DNL Target] voor implementatie](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Nieuwe sectie toegevoegd:<ul><li>Implementatiestappen voor een [!DNL Adobe Experience Platform Web SDK]-implementatie</li></ul> |
+|  | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Toegevoegde informatie over het gebruiken van redirect aanbiedingen met A4T en het Web SDK van het Platform. |
+|  | [Reactiepunten](/help/administrating-target/response-tokens.md) | Toegevoegde informatie over het gebruiken van reactietokens met [!DNL Adobe Experience Platform Web SDK]. |
 | 27 mei | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Toegevoegde sectie voor [!DNL Target] API vraag. De grens is 50 vraag per minuut. |
 | 20 mei | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Adobe Tech Blog - Deel 2: [!DNL Adobe Target] NodeJS SDK uitvoeren voor experimenteren en personalisatie op randplatforms (AWS Lambda@Edge)</li></ul> |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: Bij archivering van [!UICONTROL Auto Target] kunnen synchronisatieproblemen optreden. |
