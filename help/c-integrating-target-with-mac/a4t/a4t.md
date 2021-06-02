@@ -4,9 +4,9 @@ description: Gebruik [!DNL Analytics] for [!DNL Target] (A4T) to create activiti
 title: Wat is  [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analyses voor doel (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14dfc3e19333848e50324a61539ddf693e17d3ce
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 # [!DNL Adobe Analytics] als bron van rapportage voor  [!DNL Adobe Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van  [!DNL Analytics] conversiemetriek en publiekssegmenten. Met de integratie A4T kunt u [!DNL Analytics]-rapporten gebruiken om uw resultaten te bekijken. Als u [!DNL Analytics] als rapporteringsbron voor een activiteit gebruikt, is al rapportering en segmentatie voor die activiteit gebaseerd op [!DNL Analytics] gegevensinzameling.
-
->[!NOTE]
->
->A4T-ondersteuning in een [!DNL Adobe Experience Platform Web SDK]-implementatie die in dit artikel wordt besproken, is volgens de planning beschikbaar met de [!DNL Platform Web SDK] versie 2.5.0-release (1 juni 2021).
 
 ## Overzicht {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -67,6 +63,7 @@ De volgende secties bevatten informatie over ondersteunde activiteitstypen bij g
 | [MVT (Multivariate Test)](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Vereist op doos-gebaseerde doel metrische doelstelling om het [!UICONTROL Element Contribution] rapport te krijgen. Het [!UICONTROL Element Contribution]-rapport biedt momenteel geen ondersteuning voor [!DNL Analytics]-meetgegevens. |
 | [Automated Personalization (AP)-activiteit](/help/c-activities/t-automated-personalization/automated-personalization.md) | Nee |  |
 | [Recommendations-activiteit](/help/c-recommendations/recommendations.md) | Ja |  |
+| [Elke activiteit die een omleidingsaanbieding gebruikt](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Ja |
 
 Omdat alle activiteitstypen A4T nog niet ondersteunen, wordt u aangeraden belangrijke conversievakken, zoals de mbox `orderConfirmPage`, te behouden of te implementeren.
 
