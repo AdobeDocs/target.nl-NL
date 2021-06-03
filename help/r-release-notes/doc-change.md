@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 3 juni | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de door de Adobe Target Community opgestelde afkapping van vragen en antwoorden, die woensdag 9 juni 2021 om 8.00 uur zal worden gehouden. (PDT, GMT-7). |
 | 1 juni | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volgende veelgestelde vragen toegevoegd:<ul><li>Hoe gebruik ik een opt-out-koppeling met CNAME</li></ul> |
 |  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | De sectie &quot;Uitschakelen&quot; is bijgewerkt om uit te leggen hoe u de koppeling om te weigeren met CNAME kunt gebruiken. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Toegevoegde informatie over [!DNL Adobe Experience Platform Web SDK]. |
