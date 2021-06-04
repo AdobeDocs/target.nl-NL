@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen die
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Deze versie van [!DNL Platform Web SDK] omvat steun voor het volgende:
 | Functie | Details |
 | --- | --- |
 | Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | De SDK van het Web van het Platform steunt nu [!DNL Target] omleidingen wanneer het gebruiken [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Zie  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) voor meer informatie. |
-| Reactietokens | De SDK van het Web van het Platform steunt nu [!DNL Target] reactietokens.<br>Zie  [Reactietokens](/help/administrating-target/response-tokens.md) voor meer informatie. |
 
 ## at.js versie 2.5.0 (13 mei 2021)
 
