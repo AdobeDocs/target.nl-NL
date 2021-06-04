@@ -1,24 +1,27 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken;publiek instellen;publiek rapporteren;publiek rapporteren;segment;aangepaste profielparameters;publieksdefinitie;publiekslijst
-description: Leer hoe te om de pagina van het publiek in Adobe te gebruiken [!DNL Target] en hoe te om de kaarten van de Definitie van het publiek te bekijken die publieksdetails en gebruiksinformatie bevatten.
+description: Leer hoe te om de [!UICONTROL Audiences] lijst in Adobe te gebruiken [!DNL Target] en hoe te om de kaarten van de Definitie van het publiek te bekijken die publieksdetails en gebruiksinformatie bevatten.
 title: Hoe gebruik ik de Audience List?
 feature: Soorten publiek
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 06a5fda72a649c4037cb78d3e670747cd297a64d
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
 # Soorten publiek maken
 
-Het publiek in Adobe Target bepaalt wie de inhoud en ervaringen van een gerichte activiteit zal zien.
+Het publiek in [!DNL Adobe Target] bepaalt wie inhoud en ervaringen in een gerichte activiteit ziet.
 
-Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een activiteit als doel instelt, kunt u een herbruikbaar publiek selecteren in de [!UICONTROL Audiences]-lijst, [een activiteitspecifiek publiek maken](/help/c-target/creating-activity-only-audience.md) en deze als doel instellen, of [meerdere soorten publiek](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om een ad-hocpubliek te maken.
+Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u zich richt op een activiteit, kunt u de volgende opties hebben:
 
-U kunt publieksgegevens ook gebruiken die door [!DNL Analytics] voor het in real time richten en verpersoonlijken in [!DNL Adobe Target] en andere [!DNL Experience Cloud] oplossingen worden verzameld. Zie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *Gebruikershandleiding voor kernservices*.
+* Selecteer een herbruikbaar publiek in de lijst [!UICONTROL Audiences]
+* [Een activiteitspecifiek ](/help/c-target/creating-activity-only-audience.md) publiek maken en dit als doel instellen
+* [Meerdere ](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) doelgroepen combineren om een ad-hocpubliek te maken
+
+U kunt publieksgegevens ook gebruiken die door [!DNL Adobe Analytics] voor het in real time richten en verpersoonlijken in [!DNL Target] en andere [!DNL Adobe Experience Cloud] toepassingen worden verzameld. Zie [Experience Cloud Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de handleiding *Experience Cloud Central Interface Components*.
 
 [!DNL Target] definieert twee soorten publiek:
 
@@ -27,40 +30,46 @@ U kunt publieksgegevens ook gebruiken die door [!DNL Analytics] voor het in real
 
    In [!DNL Target], kunt u rapportpubliek vormen slechts als u [!DNL Target] als uw rapporteringsbron gebruikt. Als u [Adobe Analytics als rapportbron](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt, moet u uw rapporteringspubliek binnen [!DNL Analytics] vormen.
 
-## De lijst Soorten publiek gebruiken
+## De lijst [!UICONTROL Audiences] gebruiken
 
 Als u de lijst [!UICONTROL Audiences] wilt openen, klikt u op **[!UICONTROL Audiences]** in de bovenste menubalk:
 
-![Publiek](assets/audiences_list.png)
+![[!UICONTROL Audiences] list](/help/c-target/c-audiences/assets/audiences_list.png)
 
-De lijst [!UICONTROL Audiences] bevat alle soorten publiek die u in uw activiteiten kunt gebruiken. Met de lijst [!UICONTROL Audiences] kunt u soorten publiek maken, bewerken, verwijderen, kopiëren of combineren. De lijst toont ook de bron waar het publiek werd gecreeerd ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud], etc.). Vooraf gedefinieerde doelgroepen, zoals &quot;Nieuwe bezoekers&quot; en &quot;Terugkerende bezoekers&quot;, kunnen niet worden hernoemd.
+De lijst [!UICONTROL Audiences] bevat alle soorten publiek die u in uw activiteiten kunt gebruiken. Met de lijst [!UICONTROL Audiences] kunt u soorten publiek maken, bewerken, verwijderen, kopiëren of combineren. De lijst toont ook de bron waar het publiek werd gecreeerd ([!DNL Target], [!DNL Target Classic], en [!DNL Experience Cloud]. Vooraf gedefinieerde doelgroepen, zoals &quot;[!UICONTROL New Visitors]&quot; en &quot;[!UICONTROL Returning Visitors]&quot;, kunnen niet worden hernoemd.
 
-Wanneer het werken met publiek dat oorspronkelijk in AAM werd gecreeerd, het alarm van het Doel u als u een publiek in de activiteiten van het Doel van verwijzingen voorziet die later in AAM zijn geschrapt.
+Wanneer het werken met publiek dat oorspronkelijk in [!DNL Experience Cloud] werd gecreeerd, het alarm van het Doel u als u een publiek in [!DNL Target] activiteiten van verwijzingen voorziet die later in [!DNL Experience Cloud] zijn geschrapt.
 
-* Als een publiek in AAM werd geschrapt, een waarschuwingspictogram in zowel [!UICONTROL Audience] lijst als de publieksplukker toont. Een hulpmiddel-uiteinde in UI wijst ook erop dat het publiek in AAM werd geschrapt.
+* Als een publiek in [!DNL Experience Cloud] werd geschrapt, toont een waarschuwingspictogram in zowel [!UICONTROL Audience] lijst als de publieksplukker. Een hulpmiddel-uiteinde in UI wijst ook erop dat het publiek in [!DNL Experience Cloud] werd geschrapt.
 * Als u meerdere soorten publiek probeert te combineren met een verwijderd publiek of als u een activiteit probeert op te slaan die verwijst naar een verwijderd publiek, wordt een waarschuwingsbericht weergegeven.
 
-U kunt ook aangepaste profielparameters en `user.` parameters als doel instellen. Wanneer u een publiek toevoegt, klikt u op **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]** en kiest u de parameter die u wilt gebruiken om uw activiteit als doel in te stellen. Als de gewenste parameter niet verschijnt, is de parameter niet in brand gestoken door een mbox. Andere aangepaste mbox-parameters zijn beschikbaar in de vervolgkeuzelijst [!UICONTROL Custom Parameters].
+U kunt ook aangepaste profielparameters en `user.` parameters als doel instellen. Wanneer u een publiek toevoegt, klikt u op het kenmerk dat u wilt gebruiken om uw activiteit als doel in te stellen. Als het gewenste kenmerk niet wordt weergegeven, is het kenmerk niet geactiveerd door een mbox. Andere aangepaste mbox-parameters zijn beschikbaar in de vervolgkeuzelijst [!UICONTROL Custom Parameters].
 
-Gebruik het zoekvak om te zoeken in uw lijst [!UICONTROL Audiences]. U kunt zoeken naar een willekeurig deel van een publieksnaam of u kunt een specifieke tekenreeks tussen aanhalingstekens plaatsen.
+Met de knop [!UICONTROL Filters] kunt u de lijst [!UICONTROL Audiences] filteren op bron: [!DNL Adobe Target], [!DNL Adobe Target Classic] en [!DNL Experience Cloud].
+
+![De optie Filters in de  [!UICONTROL Audiences] lijst](/help/c-target/c-audiences/assets/filters.png)
+
+Gebruik het vakje [!UICONTROL Search audiences] om uw [!UICONTROL Audiences] lijst te zoeken. U kunt zoeken naar een willekeurig deel van een publieksnaam of u kunt een specifieke tekenreeks tussen aanhalingstekens plaatsen.
 
 U kunt de lijst [!UICONTROL Audiences] sorteren op publieksnaam of op de datum waarop het voor het laatst werd gewijzigd. Als u op naam of datum wilt sorteren, klikt u op de kolomkop en selecteert u deze om het publiek in oplopende of aflopende volgorde weer te geven.
 
-## Weergeven van publieksdefinities {#section_11B9C4A777E14D36BA1E925021945780}
+## Scherptedefinities weergeven {#section_11B9C4A777E14D36BA1E925021945780}
 
-U kunt de details van de publieksdefinitie op een pop-up kaart op diverse plaatsen in het Doel UI bekijken zonder het publiek te openen. Deze functionaliteit is van toepassing op publiek dat is gemaakt in Target Standard/Premium en publiek dat is geïmporteerd uit Target Classic of gemaakt via API.
+U kunt de details van de publieksdefinitie op een pop-up kaart op diverse plaatsen in het Doel UI bekijken zonder het publiek te openen. Deze functionaliteit is van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium] en publiek dat is geïmporteerd uit [!DNL Target Classic] of gemaakt via API.
 
-De volgende publieksdefinitiekaart is bijvoorbeeld toegankelijk door de muisaanwijzer boven een publiek in de lijst met doelgroepen te plaatsen en vervolgens op het pictogram Weergave te klikken:
-
-![Activiteiten > Definitie van publiek](assets/audience_definition_list.png)
-
-De volgende publieksdefinitiekaart wordt betreden door het pictogram van de Mening op de pagina van het Overzicht van een activiteit te klikken:
+De volgende publieksdefinitiekaart is bijvoorbeeld toegankelijk door op het pictogram [!UICONTROL View Details] voor het gewenste publiek te klikken:
 
 ![Activiteiten > Definitie van publiek](assets/audience_definition_list.png)
 
-Klik op het tabblad [!UICONTROL Audience Usage] om andere activiteiten weer te geven die naar dat publiek verwijzen, indien van toepassing. Op deze manier kunt u onbedoelde gevolgen voor andere activiteiten tijdens het bewerken van soorten publiek voorkomen. De informatie omvat Live-activiteiten, inactieve activiteiten, gearchiveerde activiteiten en synchronisatieactiviteiten. Deze functie is beschikbaar voor alle soorten publiek (bibliotheekpubliek en [alleen-activiteit](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+De volgende publieksdefinitiekaart wordt betreden door het [!UICONTROL View Details] pictogram op de pagina [!UICONTROL Overview] van een activiteit te klikken:
 
-Als een publiek met een ander publiek wordt gecombineerd en het gecombineerde publiek wordt gebruikt om een activiteit tot stand te brengen, zal de gebruiksinformatie voor beide publiek die pas gecreëerde activiteit vermelden.
+![Activiteiten > Definitie van publiek](/help/c-target/c-audiences/assets/view-details-activity-overview.png)
+
+De publieksdefinitiekaart toont zij het type, de bron, en de attributen van het publiek. Klik **[!UICONTROL View full details]** om andere activiteiten te zien die van dat publiek, als toepasselijk verwijzen. Als u een publieksdefinitiekaart van een activiteit [!UICONTROL Overview] pagina bekijkt, klik **[!UICONTROL Audience Usage]**.
+
+De informatie over het gebruik van het publiek kan u helpen onbedoelde gevolgen voor andere activiteiten te vermijden terwijl het uitgeven van publiek. De informatie omvat Live-activiteiten, inactieve activiteiten, gearchiveerde activiteiten en synchronisatieactiviteiten. Deze functie is beschikbaar voor alle soorten publiek (bibliotheekpubliek en [alleen-activiteit](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+
+Als een publiek met een ander publiek wordt gecombineerd en het gecombineerde publiek wordt gebruikt om een activiteit tot stand te brengen, maakt de gebruiksinformatie voor beide publiek een lijst van die pas gecreëerde activiteit.
 
 ![](assets/audience_definition_list_usage.png)
 
