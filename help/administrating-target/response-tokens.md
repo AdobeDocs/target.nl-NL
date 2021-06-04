@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 >[!IMPORTANT]
 >
->Functionaliteit voor responstoken met de [!DNL Adobe Experience Platform Web SDK] is in een toekomstige release beschikbaar (datum die moet worden bepaald). De documentatie hieronder over reactietokens en het Web SDK van het Platform is inbegrepen als sneak piek.
+>Het responstoken is in een toekomstige release beschikbaar met de [!DNL Adobe Experience Platform Web SDK] (datum die moet worden bepaald). De documentatie hieronder over reactietokens en het Web SDK van het Platform is inbegrepen als sneak piek.
 
 | Doel-SDK | Voorgestelde acties |
 |--- |--- |
