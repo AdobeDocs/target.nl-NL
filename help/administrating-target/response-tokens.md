@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 >[!NOTE]
 >
->De tekenen van de reactie zijn beschikbaar met [!DNL Adobe Experience Platform Web SDK] versie 2.6.0 of later en met at.js versie 1.1 of later.
+>Responstokens zijn beschikbaar in versie 1.1 of hoger van at.js.
+
+>[!IMPORTANT]
+>
+>Functionaliteit voor responstoken met de [!DNL Adobe Experience Platform Web SDK] is in een toekomstige release beschikbaar (datum die moet worden bepaald). De documentatie hieronder over reactietokens en het Web SDK van het Platform is inbegrepen als sneak piek.
 
 | Doel-SDK | Voorgestelde acties |
 |--- |--- |
