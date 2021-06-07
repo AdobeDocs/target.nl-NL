@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,19 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## Target Standard/Premium 21.6.1 (7 juni 2021)
+
+Deze release bevat de volgende verbeteringen:
+
+| Functie | Details |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] badgeAPI | Zoek in uw [!DNL Recommendations] product- en inhoudscatalogus via de API programmatisch naar items die voldoen aan een zoekcriterium en vereenvoudig het beheer van uw catalogus.<br>**Beperkingen en opmerkingen**:<ul><li>Cataloguszoekopdrachten via API worden niet ondersteund voor omgevingen met meer dan 2.000.000 items.</li><li>Zoekresultaten van catalogi via API worden sneller bijgewerkt dan zoekresultaten van catalogi via de gebruikersinterface [!DNL Target]. Het zoeken naar catalogi in de interface [!DNL Target] kan extra tijd vergen om de meest recente resultaten weer te geven.</li></ul>Zie [Zoeken in entiteiten](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) in de handleiding *[!DNL Adobe Target][!DNL Recommendations] API* voor meer informatie. |
+
+Deze release voor onderhoudsdoeleinden bevat de volgende oplossingen.
+
+* Probleem verholpen waarbij de standaardwerkruimte werd gewijzigd in een andere werkruimte tijdens het vernieuwen van de pagina [!UICONTROL Audiences]. (TGT-38871)
+* Probleem verholpen in [!UICONTROL Administration] > [!UICONTROL Implementation] die soms een foutbericht veroorzaakte met de tekst &quot;Uw globale box is mogelijk niet synchroon. Probeer het opnieuw op te slaan.&quot;
 
 ## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1 juni 2021)
 
@@ -39,23 +52,6 @@ Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
 * [Ondersteuning voor ](/help/c-activities/c-activity-qa/activity-qa.md) koppelingen voorvertonen voor Automated Personalization-activiteiten
 
 Deze versie verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger.
-
-## Target Standard/Premium 21.4.1 (19 april 2021)
-
-Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
-
-| Functie | Details |
-| --- | --- |
-| Apparaatondersteuning voor beslissingen voor at.js<br>(Datum die moet worden aangekondigd) | Met apparaatbeslissingen kunnen marketers en ontwikkelaars experimenten en personalisatie uitvoeren in de browser van een gebruiker bij bijna-nullatentie.<br>Voor meer informatie, zie  [Op-apparatenbesluit voor at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![Op ](/help/assets/premium.png) PremiumList gebaseerde operatoren voor filterregels voor entiteiten | [!DNL Target Recommendations] steunt nieuwe op lijst-gebaseerde exploitanten voor entiteit het filtreren regels. (TGT-39234)<br>Nieuw toegevoegde operatoren zijn onder andere:<br><ul><li>Is opgenomen in lijst</li><li>Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul>Zie &quot;Beschikbare operatoren&quot; in [Dynamische en statische inclusieregels gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) voor meer informatie. |
-
-Deze versie bevat de volgende oplossingen.
-
-* Probleem verholpen waardoor een activiteit niet kon worden gesynchroniseerd nadat het publiek was gewijzigd in [!UICONTROL All Visitors]. (TGT-40259)
-* Oplossing voor een probleem dat voorkwam dat aanbiedingen werden gedupliceerd wanneer ze op verschillende locaties in [!UICONTROL Automated Personalization]-activiteiten werden gebruikt, ook al is de optie [!UICONTROL Disallow Duplicates] ingeschakeld. (TGT-39567)
-* Probleem verholpen waardoor de pagina [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] niet correct kon worden geladen. (TGT-39918)
-* Probleem verholpen waarbij eigenschappen werden toegewezen aan de onjuiste werkruimte. (TGT-39869)
-* Probleem verholpen waarbij een oneindig laden werd veroorzaakt als de aanvraag mislukt nadat de omgeving was gewijzigd en een uitsluiting voor aanbevelingen werd gemaakt. (TGT-39948)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
