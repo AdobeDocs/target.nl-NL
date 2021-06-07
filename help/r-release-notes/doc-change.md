@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
+
+## Adobe [!DNL Target] Standaard/Premium 21.6.1 (7 juni 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 7 juni | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.6.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe [!DNL Target] Standaard/Premium 21.4.1 (19 april 2021)
 
