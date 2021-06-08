@@ -5,10 +5,9 @@ title: Wat zijn omgevingen en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -32,6 +31,9 @@ Als u omgevingen wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!
 1. Klik in de lijst [!UICONTROL Environments] op **[!UICONTROL Add Environment]**.
 1. Geef een beschrijvende naam voor de omgeving op.
 1. Geef de gewenste actieve modus voor de omgeving op: [!UICONTROL Active Activities] of [!UICONTROL Active and Inactive Activities].
+
+   Als u [!UICONTROL Active and Inactive Activities] specificeert, tonen de gastheren van dit milieu ook inactieve activiteiten.
+
 1. Klik op **[!UICONTROL Save]**.
 
 ## De standaardomgeving voor rapportage instellen {#section_4F8539B07C0C45E886E8525C344D5FB0}
@@ -54,7 +56,7 @@ De standaardomgeving voor rapportage instellen:
 1. Wijzig de naam van de omgeving.
 1. Klik op **[!UICONTROL Save]**.
 
-## Een omgeving {#section_737F8869612047868D03FC755B1223D3} verwijderen
+## Een omgeving verwijderen {#section_737F8869612047868D03FC755B1223D3}
 
 U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 
