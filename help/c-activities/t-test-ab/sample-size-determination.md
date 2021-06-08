@@ -4,8 +4,7 @@ description: Leer hoe lang een A/B test moet lopen. Voor een geslaagde A/B-test 
 title: Hoe lang moet ik een A/B test uitvoeren?
 feature: A/B-tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3042'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Zie [Overzicht automatisch toewijzen](/help/c-activities/automated-traffic-alloc
 
 Als u een handmatige [!UICONTROL A/B Test] activiteit in plaats van [!UICONTROL Auto-Allocate] kiest, helpt [!DNL Target] de calculator van de Grootte van de Steekproef u de steekproefgrootte te bepalen nodig voor een succesvolle test. Een handmatige A/B-test is een test met een vaste horizon, zodat de calculator nuttig is. Het gebruik van de calculator voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] een winnaar voor u declareert. De calculator geeft u een ruwe schatting van de steekproefgrootte nodig. Lees verder voor meer informatie over het gebruik van de rekenmachine.
 
-Voordat u de A/B-test instelt, opent u de Adobe Target [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Voordat u de A/B-test instelt, opent u de Adobe Target [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
 
 ![Adobe Target-voorbeeldgroottecalculator](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -68,7 +67,7 @@ In onderstaande afbeelding worden de vier mogelijke resultaten van een A/B-test 
 
 ![](assets/outcomes.png)
 
-Het is wenselijk om geen valse positieve of valse negatieven te krijgen. Een statistische test kan echter nooit garanderen dat geen valse positieven worden verkregen. Het is altijd mogelijk dat waargenomen trends niet representatief zijn voor de onderliggende omrekeningskoersen. In een test om bijvoorbeeld te zien of koppen of staarten op een omdraaiing van een munt waarschijnlijker waren, zelfs met een eerlijke munt, kon je per toeval tien koppen op tien tenen krijgen. De statistische significantie en macht helpen ons de vals-positieve en vals-negatieve cijfers te kwantificeren en ons in staat te stellen deze voor een bepaalde test op een redelijk niveau te houden.
+Het is wenselijk om geen valse positieve of valse negatieven te krijgen. Een statistische test kan echter nooit garanderen dat geen valse positieven worden verkregen. Het is altijd mogelijk dat waargenomen trends niet representatief zijn voor de onderliggende omrekeningskoersen. In een test om bijvoorbeeld te zien of koppen of staarten op een omdraaiing van een munt waarschijnlijker waren, zelfs met een eerlijke munt, kon je per toeval tien koppen op tien tenen krijgen. De statistische significantie en de macht helpen ons de vals positieve en vals negatieve cijfers te kwantificeren en ons in staat te stellen deze voor een bepaalde test op een redelijk niveau te houden.
 
 ### Statistische significantie {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
@@ -102,7 +101,7 @@ Het is wenselijk over een hoge statistische kracht te beschikken, zodat de test 
 
 Een algemeen gebruikte waarde voor het statistische vermogen is 80%, wat betekent dat de test een kans van 80% heeft om een verschil te detecteren dat gelijk is aan de minimale betrouwbaar waarneembare lift. De kans dat bij de test kleinere liften worden opgespoord en de kans dat grotere liften worden opgespoord, is kleiner.
 
-### Minimale betrouwbaar waarneembare lift {#section_6101367EE9634C298410BBC2148E33A9}
+### Minimale betrouwbare aantoonbare lift {#section_6101367EE9634C298410BBC2148E33A9}
 
 De meeste organisaties willen het kleinst mogelijke verschil in conversiekoers meten omdat zelfs een kleine lift de implementatie waard is. Als u echter wilt dat de A/B-test een grote kans heeft om een kleine lift te detecteren, is het aantal bezoekers dat in de test moet worden opgenomen, buitensporig groot. De reden hiervoor is dat, als het verschil in omrekeningskoers klein is, beide omrekeningskoersen zeer nauwkeurig moeten worden ingeschat om het verschil te kunnen vaststellen, wat veel bezoekers vereist. Daarom moet de minimale betrouwbare aantoonbare lift worden bepaald aan de hand van de bedrijfsvereisten, rekening houdend met de afwegingen tussen het opsporen van kleine liften en het gedurende langere tijd uitvoeren van de test.
 
@@ -118,7 +117,7 @@ Wegens de grote overlapping tussen de twee bereiken, kan de test niet bepalen of
 
 In dit geval is het onwaarschijnlijk dat de test tot een verkeerde conclusie leidt, zodat de test met 5000 bezoekers een onderscheid kan maken tussen de twee aanbiedingen. De test met 5.000 bezoekers heeft een betrouwbaarheidsinterval van ongeveer +/-1%. Dit betekent dat de test verschillen van ongeveer 1% kan detecteren. Daarom zouden er nog meer bezoekers nodig zijn als de werkelijke omrekeningskoersen van de aanbiedingen bijvoorbeeld 10% en 10,5% waren in plaats van 10% en 15%.
 
-### Omrekeningskoers {#section_39380C9CA3C649B6BE6E1F8A06178B05}
+### Omrekeningskoers basislijn {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
 De basisomrekeningskoers is de omrekeningskoers van de controleaanbieding (aanbod A). Vaak hebt u een goed idee van het conversieniveau voor de aanbieding op basis van eerdere ervaring. Als dat niet het geval is, bijvoorbeeld omdat het een nieuw soort aanbod of creatief is, kan de test een dag of zo lopen om een ruwe schatting te krijgen van de basisomrekeningskoers die kan worden gebruikt in de steekproefgrootteberekening.
 
@@ -155,7 +154,7 @@ De calculator van de steekproefgrootte (de verbinding die hierboven wordt verstr
 
 Over het algemeen duurt het gebruik van RPV als metrische waarde 20-30% langer om hetzelfde niveau van statistisch vertrouwen te bereiken voor hetzelfde niveau van gemeten lift. Dit komt omdat RPV de extra variantie van verschillende ordegrootten per omzetting heeft. Dit zou een overweging moeten zijn wanneer het kiezen tussen recht omzettingspercentage en RPV als metrisch waarop uw definitieve bedrijfsbesluit wordt gebaseerd.
 
-## Correctie voor het vergelijken van meerdere aanbiedingen {#section_1474113764224D0B85472D8B023CCA15}
+## Correctie voor vergelijking van meerdere aanbiedingen {#section_1474113764224D0B85472D8B023CCA15}
 
 Telkens wanneer u twee vergelijkt, is de kans om een fout-positief te krijgen (het observeren van een statistisch significant verschil zelfs wanneer er geen verschil in omrekeningskoers is) gelijk aan het significant niveau. Als er bijvoorbeeld vijf aanbiedingen aanwezig zijn, A/B/C/D/E en A het controleaanbod is, worden vier vergelijkingen uitgevoerd (controle op B, controle op C, controle op D en controle op E) en is de waarschijnlijkheid van een vals positief 18,5%, zelfs als het betrouwbaarheidsniveau 95% is, omdat Pr(ten minste één vals positief) = 1 - Pr(geen vals positief) = 1 - 0,95 = 18,5%. Een vals positief is in deze context gedefinieerd als ofwel de controle waarvan melding wordt gemaakt beter is dan het alternatief, ofwel het alternatief waarvan melding wordt gemaakt dat het beter is dan de controle, terwijl er in feite geen verschil tussen de controles is.
 
