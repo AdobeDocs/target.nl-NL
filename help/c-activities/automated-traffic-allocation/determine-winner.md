@@ -4,8 +4,7 @@ description: 'Leer hoe te om de resultaten van een auto-Wijs A/B activiteit in A
 title: Hoe interpreteer ik automatisch toegewezen rapporten?
 feature: Automatisch toewijzen
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -22,7 +21,7 @@ Veel marketeers maken de fout om voortijdig een winnende ervaring te declareren 
 >
 >Voor algemene informatie over het verklaren van een winnaar, zie [Tien gemeenschappelijke A/B testende valkuilen en hoe te om hen te vermijden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
-## De winnende ervaring {#section_24007470CF5B4D30A06610CE8DD23CE3} identificeren
+## De winnende ervaring identificeren {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Als u de functie [!UICONTROL Auto-Allocate] gebruikt, wordt boven aan de pagina van de activiteit een badge weergegeven die aangeeft dat de activiteit het minimale aantal conversies met voldoende vertrouwen heeft bereikt.[!DNL Target]
 
@@ -48,7 +47,7 @@ Normale A/B-tests berekenen het vertrouwen op basis van p-waarden. Automatisch t
 
 >[!IMPORTANT]
 >
->Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Doel houdt geen rekening met de basisconversiekoersen van een site en andere belangrijke aspecten die in de rekenmachine worden verwerkt om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
+>Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). Doel houdt geen rekening met de basisconversiekoersen van een site en andere belangrijke aspecten die in de rekenmachine worden verwerkt om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
 
 ## Informatie over de rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen {#lift-confidence}
 
@@ -74,5 +73,5 @@ Om het even welke volgende redenen beschrijven waarom 0% vertoningen in de [!UIC
 
    Automatisch toewijzen toont de waarschijnlijkheid dat een bepaalde ervaring een echte winnaar is in alle ervaringen in de activiteit. Dit betekent dat alleen een winnende ervaring (die waarschijnlijk de winnaar zal zijn) een betrouwbaarheidswaarde heeft die niet gelijk is aan nul. Alle anderen zullen waarschijnlijk verliezers zijn en 0%.
 
-* Automatisch toewijzen begint pas vertrouwen te tonen nadat de winnende ervaring een betrouwbaarheid van 60% heeft opgeleverd. Deze betrouwbaarheidsniveaus worden doorgaans weergegeven in ongeveer de helft van de tijd die een normale A/B-test nodig heeft om te voltooien (hoewel dit niet gegarandeerd is). Om te bepalen hoe lang een normale A/B test zou lopen, te gebruiken gelieve [steekproefgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): de conversiesnelheid van de plug-in &#39;Baseline conversion rate&#39;, &#39;5%&#39; voor &#39;Lift&#39; en &#39;95% voor &#39;Trust&#39;. Doorgaans begint de betrouwbaarheid te worden aangetoond nadat elke ervaring ten minste 50% van de vereiste monsters per ervaring heeft genomen. Dit geeft u een idee wanneer er vertrouwen begint te ontstaan.
+* Automatisch toewijzen begint pas vertrouwen te tonen nadat de winnende ervaring een betrouwbaarheid van 60% heeft opgeleverd. Deze betrouwbaarheidsniveaus worden doorgaans weergegeven in ongeveer de helft van de tijd die een normale A/B-test nodig heeft om te voltooien (hoewel dit niet gegarandeerd is). Om te bepalen hoe lang een normale A/B test zou lopen, te gebruiken gelieve [steekproefgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): de conversiesnelheid van de plug-in &#39;Baseline conversion rate&#39;, &#39;5%&#39; voor &#39;Lift&#39; en &#39;95% voor &#39;Trust&#39;. Doorgaans begint de betrouwbaarheid te worden aangetoond nadat elke ervaring ten minste 50% van de vereiste monsters per ervaring heeft genomen. Dit geeft u een idee wanneer er vertrouwen begint te ontstaan.
 * Als het verslag over de hele linie 0% toont, is het waarschijnlijk te vroeg in de activiteit.
