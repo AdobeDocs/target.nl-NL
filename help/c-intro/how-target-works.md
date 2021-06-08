@@ -4,8 +4,7 @@ description: Leer hoe Adobe [!DNL Target] works, including information about the
 title: Hoe werkt [!DNL Target] ?
 feature: Overzicht
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2547'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Leer hoe [!DNL Adobe Target] werkt, met inbegrip van informatie over [!DNL Adobe Experience Platform Web SDK] en bibliotheken JavaScript (at.js en mbox.js). In dit artikel worden ook de verschillende typen activiteiten geïntroduceerd die u kunt maken met [!DNL Target]. U kunt ook leren over het [!DNL Target] randnetwerk, de Optimalisering van de Motor van het Onderzoek (SEO), en hoe [!DNL Target] bots ontdekt.
 
-## [!DNL Target] Platform Web SDK&#39;s en JavaScript-bibliotheken  {#libraries}
+## [!DNL Target] Platform Web SDK&#39;s en JavaScript-bibliotheken {#libraries}
 
 [!DNL Target] Wordt geïntegreerd met websites die gebruikmaken van de JavaScript-  [!DNL AEP Web SDK] of JavaScript-bibliotheken:
 
@@ -33,7 +32,7 @@ Verwijs [!DNL AEP Web SDK] of at.js op elke pagina op uw plaats. U kunt bijvoorb
 De volgende bronnen bevatten gedetailleerde informatie om u te helpen bij het implementeren van de AEP Web SDK of at.js:
 
 * [Adobe Experience Platform Web SDK-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Adobe Experience Platform Launch  [!DNL Target] implementeren](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementeren [!DNL Target] met Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Telkens wanneer een bezoeker een pagina aanvraagt die voor [!DNL Target] is geoptimaliseerd, wordt een verzoek verzonden naar het doelsysteem. Aan de hand van de aanvraag kunt u bepalen welke inhoud voor die bezoeker moet worden gebruikt. Dit proces vindt in real time plaats. Telkens wanneer een pagina wordt geladen, wordt een verzoek om de inhoud gedaan en vervuld door het systeem. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. Inhoud wordt weergegeven waarmee elke bezoeker van de site meestal kan reageren op, communiceren met of uiteindelijk aankopen. De gepersonaliseerde inhoud helpt reactiesnelheden, aanschafpercentages, en opbrengst maximaliseren.
 
@@ -153,7 +152,7 @@ Adobe beschermt de gebruikerservaring door de prestaties te optimaliseren en te 
 * Adobe gebruikt een multi-tiered benadering om zijn toepassingen te beveiligen om het hoogste niveau van beschikbaarheid en betrouwbaarheid voor klanten te verstrekken.
 * [!DNL Target] Consulting biedt implementatieondersteuning en doorlopende productondersteuning.
 
-## SEO (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s) - vriendelijke tests {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] wordt uitgelijnd op de richtlijnen voor zoekprogramma&#39;s voor testen.
 
@@ -180,7 +179,7 @@ Richtlijnen zijn gepresenteerd in een bericht [Google Webmaster Central Blog](ht
 
    Adobe blijft zoeken naar haalbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekprogramma&#39;s. Voor die cliënten die afzonderlijke URLs voor het testen moeten gebruiken, is Adobe zeker dat juiste implementatie van de canonieke markeringen het risico verbonden aan deze benadering verlicht.
 
-* **Alleen experimenten uitvoeren zolang als nodig**: Adobe is van mening dat &quot;zo lang als nodig&quot; is om statistische significantie te bereiken. [!DNL Target] [biedt de beste ](https://docs.adobe.com/content/target-microsite/testcalculator.html) praktijken om te bepalen wanneer uw test dit punt heeft bereikt. Adobe raadt u aan om de hardcoded implementatie van het winnen van tests in uw testworkflow op te nemen en de juiste bronnen toe te wijzen.
+* **Alleen experimenten uitvoeren zolang als nodig**: Adobe is van mening dat &quot;zo lang als nodig&quot; is om statistische significantie te bereiken. [!DNL Target] [biedt de beste ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) praktijken om te bepalen wanneer uw test dit punt heeft bereikt. Adobe raadt u aan om de hardcoded implementatie van het winnen van tests in uw testworkflow op te nemen en de juiste bronnen toe te wijzen.
 
    Het gebruik van het [!DNL Target]-platform voor het &quot;publiceren&quot; van winnende tests wordt niet aanbevolen als een permanente oplossing. Als de winnende test voor 100% van de gebruikers 100% van de tijd wordt gepubliceerd, kan deze benadering worden gebruikt terwijl het proces van het hardcoderen van de het winnen test wordt voltooid.
 
