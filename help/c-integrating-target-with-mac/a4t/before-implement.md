@@ -4,9 +4,9 @@ description: Leer de implementatievereisten voor Analytics voor [!DNL Target] (A
 title: Wat moet ik weten voordat ik A4T implementeer?
 feature: Analyses voor doel (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 8c0cdfbe02e9159cf8348e68a782a4268a8df687
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,12 @@ Deze integratie vereist dat u de volgende (of nieuwere) bibliotheekversies imple
 Als u omleidingsaanbiedingen met A4T wilt gebruiken, moet u de volgende (of nieuwere) bibliotheekversies implementeren. De vermelde volgorde is de volgorde van de bewerkingen.
 
 * [!DNL Experience Cloud Visitor ID Service]: bezoekerAPI.js versie 2.3.0
+
+   **Opmerking:**  at.js 1.8.0 of hoger werkt niet meer met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters  [!DNL Adobe Audeince Manager] (AAM).
+
 * [!DNL Adobe Target]: at.js versie 1.6.2
 
-   **Opmerking:** de bibliotheek mbox.js ondersteunt geen omleidingsaanbiedingen met A4T. Uw implementatie moet at.js gebruiken.
+   **Opmerking**: De bibliotheek mbox.js ondersteunt geen omleidingsaanbiedingen met A4T. Uw implementatie moet at.js gebruiken.
 
 * Adobe Analytics: appMeasurement.js versie 2.1
 
