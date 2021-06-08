@@ -4,9 +4,9 @@ description: Leer de implementatievereisten voor Analytics voor [!DNL Target] (A
 title: Wat moet ik weten voordat ik A4T implementeer?
 feature: Analyses voor doel (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 8c0cdfbe02e9159cf8348e68a782a4268a8df687
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Als u omleidingsaanbiedingen met A4T wilt gebruiken, moet u de volgende (of nieu
 
 * [!DNL Experience Cloud Visitor ID Service]: bezoekerAPI.js versie 2.3.0
 
-   **Opmerking:**  at.js 1.8.0 of hoger werkt niet meer met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters  [!DNL Adobe Audeince Manager] (AAM).
+   **Opmerking:**  at.js 1.8.0 of hoger werkt niet meer met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters  [!DNL Adobe Audience Manager] (AAM).
 
 * [!DNL Adobe Target]: at.js versie 1.6.2
 
@@ -67,7 +67,7 @@ Nadat deze integratie is ingeschakeld, zult u een extra vertraging van 5 tot 10 
 Deze toename wordt weerspiegeld in alle [!DNL Analytics] diensten en hulpmiddelen, met inbegrip van live-stream en real-time rapportering, en is van toepassing in de volgende scenario&#39;s:
 
 * Voor live stream, real-time rapporten en API-aanvragen en huidige gegevens voor verkeersvariabelen worden alleen hits met een aanvullende gegevens-id vertraagd.
-* Voor huidige gegevens over conversiemetriek, voltooide gegevens, en gegevensvoer, worden alle klappen een extra 5-7 minuten vertraagd.
+* Voor de huidige gegevens over conversiemetriek, voltooide gegevens, en gegevensvoer, worden alle klappen een extra 5-7 minuten vertraagd.
 
 De latentieverhoging begint nadat u de [!DNL Experience Cloud] dienst van bezoekersidentiteitskaart uitvoert, zelfs als u deze integratie niet volledig hebt uitgevoerd.
 
