@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Opmerkingen bij de release
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
+
+### [!DNL Adobe Experience Platform] de segmentnamen worden niet weergegeven in het  [!UICONTROL Important Attributes] rapport.
+
+[!DNL Adobe Experience Platform] De segmentnamen worden niet weergegeven in het  [!UICONTROL Important Attributes] rapport voor  [!UICONTROL Automated Personalization] (AP)- en  [!UICONTROL Auto-Target] (AT)-activiteiten. (TOP-3813)
 
 ### Bij archivering van [!UICONTROL Auto Target]-activiteiten kunnen synchronisatieproblemen optreden
 
