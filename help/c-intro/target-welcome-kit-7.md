@@ -4,8 +4,7 @@ description: Laten we beginnen met uw eerste activiteit in Adobe [!DNL Target] z
 title: Ik moet mijn eerste activiteit in Doel creëren. Waar begin ik?
 feature: Overzicht
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 0%
@@ -92,7 +91,7 @@ Als voor uw activiteit de assistent van een ontwerper, webontwikkelaar of een ge
 
 U moet een bepaald aantal bezoekers in de testpopulatie opnemen om een statistisch significante conclusie uit de test te trekken. Denk er eens over na, als er maar twee mensen deelnemen aan je test, ben je dan zeker van de resultaten?
 
-[!DNL Target] baseert zich op statistische beginselen om de resultaten van een test statistisch geldig te bepalen. Met de Adobe [voorbeeldgroottecalculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) kunt u bepalen hoe lang een test moet worden uitgevoerd op basis van het vertrouwen dat u nodig hebt in de resultaten. Klik op de koppeling [!UICONTROL Learn More] in dit vak om de rekenmachine te openen en te gebruiken.
+[!DNL Target] baseert zich op statistische beginselen om de resultaten van een test statistisch geldig te bepalen. Met de Adobe [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) kunt u bepalen hoe lang een test moet worden uitgevoerd op basis van het vertrouwen dat u nodig hebt in de resultaten. Klik op de koppeling [!UICONTROL Learn More] in dit vak om de rekenmachine te openen en te gebruiken.
 
 ### Hoe belangrijk is deze activiteit?
 
