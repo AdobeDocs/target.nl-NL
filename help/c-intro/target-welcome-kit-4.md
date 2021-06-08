@@ -4,8 +4,7 @@ description: Lees tips uit ons panel van experts over het gebruik van Adobe [!DN
 title: Waar kan ik tips en trucs voor het gebruiken van Doel vinden?
 feature: Overzicht
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -110,7 +109,7 @@ Vele marketers lanceren optimaliseringsprogramma&#39;s voor publiekssegmentatie 
 * Wat is de omrekeningskoers voor de pagina?
 * Hoe lang verwacht u dat u de test moet uitvoeren voordat u deze met vertrouwen volledig kunt noemen?
 
-**Nuttige tip**: Gebruik de  [calculator voor de ](https://docs.adobe.com/content/target-microsite/testcalculator.html) monstergrootte van het Doel als hulpmiddel om de steekproefgrootte te bepalen nodig voor een succesvolle test.
+**Nuttige tip**: Gebruik de  [calculator voor de ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) monstergrootte van het Doel als hulpmiddel om de steekproefgrootte te bepalen nodig voor een succesvolle test.
 
 ## Tip 12: Ontwerp eenvoudiger tests om ervoor te zorgen dat u deze kunt maken en implementeren.
 
