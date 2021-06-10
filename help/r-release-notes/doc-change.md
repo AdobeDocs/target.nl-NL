@@ -4,7 +4,7 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
 
-## Adobe [!DNL Target] Standaard/Premium 21.6.1 (7 juni 2021)
+## Adobe [!DNL Target] Standaard/Premium 21.5.1 (8 juni 2021)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 8 juni | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Opmerking die aangeeft dat at.js 1.8.0 of hoger niet meer werkt met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters [!DNL Adobe Audience Manager] (AAM). |
 |  | [Omgevingen](/help/administrating-target/environments.md) | Toegevoegde notitie die aangeeft dat als u [!UICONTROL Active and Inactive Activities] opgeeft, hosts vanuit deze omgeving ook inactieve activiteiten weergeven. |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>[!DNL Adobe Experience Platform] de segmentnamen worden niet weergegeven in het  [!UICONTROL Important Attributes] rapport.</li></ul> |
-| 7 juni | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.6.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| 7 juni | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.5.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe [!DNL Target] Standaard/Premium 21.4.1 (19 april 2021)
 
