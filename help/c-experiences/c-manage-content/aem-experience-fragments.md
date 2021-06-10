@@ -4,10 +4,9 @@ description: Leer hoe te om AEM ervaringsfragmenten in Adobe te gebruiken  [!DNL
 title: Hoe gebruik ik Adobe Experience Manager (AEM) Experience Fragments?
 feature: Ervaringen en aanbiedingen
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -47,6 +46,7 @@ Als u [!DNL AEM] wilt gebruiken om fragmenten in [!DNL Target] te ervaren, moet 
 
 Zie voor meer informatie:
 
+* **Adobe I/O**:  [Integratie met Adobe Target met behulp van Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) in de documentatie van de  _Gebruikershandleiding_ voor het beheer.
 * **[!DNL AEM]6.3**:  [Opent Adobe Analytics en Adobe ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) richt zich op de  _Adobe Experience Manager 6.3-_ documentatie.
 * **[!DNL AEM]6.4**:  [Open Adobe Analytics en Adobe ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) richt zich op de  _Adobe Experience Manager 6.4-_ documentatie.
 * **[!DNL AEM]6.5**:  [Open Adobe Analytics en Adobe ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) richt zich op de  *Adobe Experience Manager 6.5-* documentatie.
@@ -78,7 +78,7 @@ Afhankelijk van uw [!DNL AEM] versie, zie de volgende verbindingen voor geleidel
 * **[!DNL AEM]6.4**:  [Exporteer een Experience Fragment naar ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) de  *Adobe Experience Manager 6.4-* documentatie.
 * **[!DNL AEM]6.5**:  [Exporteer een Experience Fragment naar ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) de  *Adobe Experience Manager 6.5-* documentatie.
 
-## Werken met fragmenten in [!DNL Target]-activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Werken met ervaringsfragmenten in [!DNL Target]-activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Na het uitvoeren van de voorafgaande taken, toont het ervaringsfragment op [!UICONTROL Offers] pagina in [!DNL Target].
 
