@@ -4,10 +4,9 @@ description: Leer hoe te om auto-Toewijzing en auto-Doel activiteiten in Adobe t
 title: Biedt A4T ondersteuning voor automatisch toegewezen en automatisch doelgerichte activiteiten?
 feature: Analyses voor doel (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 103ee22a4bf37569f8a02a91af194ebcdc79f3b4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -55,7 +54,7 @@ Aan de slag:
 
 1. Gebruik het tabblad **[!UICONTROL Reports]** om de rapportage van uw activiteit weer te geven op basis van uw keuze voor [!DNL Adobe Analytics]-meetwaarden. Klik op **[!UICONTROL View in Analytics]** om uw rapportgegevens diepgaand en verder te segmenteren.
 
-## Ondersteunde doelmeetgegevens {#supported}
+## Ondersteunde streefcijfers {#supported}
 
 [!UICONTROL A4T] voor  [!UICONTROL Auto-Allocate] en  [!UICONTROL Auto-Target] laat u om het even welke volgende metrische types als uw primaire doel metrisch voor optimalisering kiezen:
 
@@ -82,6 +81,7 @@ Sommige beperkingen en opmerkingen gelden voor zowel [!UICONTROL Auto-Allocate]-
 
 ### Automatische toewijzing en automatisch doel
 
+* Wanneer u [!DNL Adobe Analytics] als rapportagebron voor [!UICONTROL Auto-Allocate] of [!UICONTROL Auto-Target] gebruikt, moet u rapporten altijd weergeven in [!DNL Analytics].
 * De rapportbron kan niet worden gewijzigd van [!DNL Analytics] in [!DNL Target] of omgekeerd nadat een activiteit is geactiveerd.
 * Hoewel de berekende metriek niet als primaire doelmetriek worden gesteund, is het vaak mogelijk om het voorgenomen resultaat te bereiken door in plaats daarvan een douanegebeurtenis als primaire doel metrisch te selecteren. Als u bijvoorbeeld wilt optimaliseren voor metrische gegevens, zoals &#39;formulieraanvullen per bezoeker&#39;, selecteert u een aangepaste gebeurtenis die overeenkomt met &#39;formulieraanvullen&#39; als maatstaf voor het primaire doel. [!DNL Target] normaliseert automatisch omzettingsmetriek op een per-bezoek basis om voor ongelijke verkeersdistributie rekening te houden, zodat is het niet noodzakelijk om berekende metrisch te gebruiken om normalisatie uit te voeren.
 * [!DNL Target] gebruikt het attribuutmodel &quot;Same Touch&quot; in de  [!UICONTROL Auto-Allocate] functie: Analyses voor Doel (A4T).
