@@ -4,17 +4,16 @@ description: Leer hoe de verschillende segmenten die door Adobe [!DNL Target] ve
 title: Wat is het Geautomatiseerde Rapport van Segmenten?
 feature: Rapporten
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # ![Rapport ](/help/assets/premium.png) PREMIUMAutomated Segments
 
-Informatie over het Geautomatiseerde rapport van Segmenten, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van de activiteiten van Automated Personalization (AP) en Auto-Target (AT).
+Informatie over het [!UICONTROL Automated Segments] rapport, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.
 
 >[!NOTE]
 >
@@ -26,7 +25,7 @@ Informatie over het Geautomatiseerde rapport van Segmenten, één van de twee ge
 * [!UICONTROL Personalization Insights] rapporten zijn beschikbaar slechts voor AP en bij activiteiten die een doel van de omzetoptimalisering gebruiken. Activiteiten waarbij de optimalisatiedoelstelling werd gewijzigd in een omrekening van inkomsten nadat de activiteit al actief was, worden ook niet ondersteund.
    >
    >
-* [!UICONTROL Personalization Insights] rapporten zijn alleen beschikbaar als u deze  [!UICONTROL Primary Goal] hebt geselecteerd in de  [!UICONTROL Report Metric] vervolgkeuzelijst.
+* [!UICONTROL Personalization Insights] rapporten zijn alleen beschikbaar als de optie  [!UICONTROL Primary Goal] is geselecteerd in de  [!UICONTROL Report Metric] vervolgkeuzelijst.
    >
    >
 * [!UICONTROL Personalization Insights] rapporten worden alleen ondersteund in de  [standaardomgeving ](/help/administrating-target/hosts.md) .
@@ -45,7 +44,7 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
 1. Klik op **[!UICONTROL Reports]**.
 
-   Het rapport [Automated Personalization Summary](/help/c-reports/reports-ap.md) of [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) geeft informatie over de prestaties van uw activiteiten, voorgesteld door het pictogram voor het eerste scherm. De twee extra pictogrammen vertegenwoordigen de twee rapporten van de Inzichten van de Personalisatie: Geautomatiseerde segmenten en belangrijke kenmerken. Merk op dat Auto-Doel een extra grafiekpictogram voor de grafische mening van het [!UICONTROL Summary] rapport heeft.
+   Het rapport [Automated Personalization Summary](/help/c-reports/reports-ap.md) of [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) geeft informatie over de prestaties van uw activiteiten, voorgesteld door het pictogram voor het eerste scherm. De twee extra pictogrammen vertegenwoordigen de twee rapporten van de Inzichten van de Personalisatie: Geautomatiseerde segmenten en belangrijke kenmerken. Auto-Doel heeft een extra grafiekpictogram voor de grafische mening van het [!UICONTROL Summary] rapport.
 
    ![](assets/personalization_insights.png)
 
@@ -59,7 +58,7 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
 1. Selecteer het gewenste datumbereik.
 
-   In tegenstelling tot het [!UICONTROL Summary]-rapport (prestatierapportage) is [!UICONTROL Personalization Insights], inclusief [!UICONTROL Automated Segments], alleen beschikbaar voor vaste datumbereiken: 15 dagen, 30 dagen, 45 dagen, 60 dagen en 90 dagen. Met deze vaste datumbereiken kan [!UICONTROL Personalization Insights] een groot genoeg gegevensbereik gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. De twee besluiten u voor uw datumwaaier kunt maken zijn de &quot;Datum van het Eind&quot;en &quot;Duur.&quot; U zult merken dat het &quot;Begin&quot;grijs uit is. De begindatum wordt automatisch gewijzigd op basis van uw selecties voor de einddatum en -duur.
+   In tegenstelling tot het [!UICONTROL Summary]-rapport (prestatierapportage) is [!UICONTROL Personalization Insights], inclusief [!UICONTROL Automated Segments], alleen beschikbaar voor vaste datumbereiken: 15 dagen, 30 dagen en 60 dagen. Met deze vaste datumbereiken kan [!UICONTROL Personalization Insights] een groot genoeg gegevensbereik gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. De twee besluiten u voor uw datumwaaier kunt maken zijn de &quot;Datum van het Eind&quot;en &quot;Duur.&quot; U zult merken dat het &quot;Begin&quot;grijs uit is. De begindatum wordt automatisch gewijzigd op basis van uw selecties voor de einddatum en -duur.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -85,8 +84,8 @@ De volgende lijst verklaart hoe te om het rapport te interpreteren en beschrijft
 | Element | Details |
 |--- |--- |
 | Linkerzijpaneel | Het linkerpaneel maakt een lijst van de 20 grootste &quot;geautomatiseerde segmenten&quot;die door de verpersoonlijkingsmodellen van Target voor deze activiteit worden geïdentificeerd. Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaald door de verpersoonlijkingsmodellen van Target in plaats van door de telleraar. Elk geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken.<br>Geautomatiseerde segmenten kunnen elkaar overlappen. Geautomatiseerde segmenten kunnen worden gedefinieerd door één, twee, drie of vier kenmerken. Zie de voorbeelden hieronder voor meer informatie.<br>Meer over de verpersoonlijkingsmodellen van het Doel leren, zie  [Willekeurig Bosalgoritme](/help/c-activities/t-automated-personalization/algo-random-forest.md). Om meer over de attributen te leren gebruiken de verpersoonlijkingsmodellen van het Doel om de geautomatiseerde segmenten tot stand te brengen, zie [Inzameling van Gegevens voor de Algoritmen van de Aanpassing van het Doel ](/help/c-activities/t-automated-personalization/ap-data.md). |
-| Grafiek centreren | In de middelste grafieken ziet u hoe de inhoud van uw activiteit wordt uitgevoerd voor het gemarkeerde geautomatiseerde segment. Als u op verschillende segmenten in het linkerdeelvenster klikt, worden de middelste grafieken bijgewerkt. |
-| Cirkeldiagrammen | De schijfgrafieken bij de bovenkant van het centrumpaneel tonen de grootte van het geautomatiseerde segment, evenals het totale aantal gepersonaliseerde bezoeken in de activiteit (bijvoorbeeld, verkeer aan deze activiteit die door het verpersoonlijkingsmodel werd gediend. Het omvat geen controleverkeer of verkeer dat door het algemene windenermodel wordt gediend). Merk op dat de grootte van het segment slechts op gepersonaliseerde bezoeken gebaseerd is.<br>![Cirkeldiagram](/help/c-reports/c-personalization-insights-reports/assets/pie.png) |
+| Grafiek centreren | De middelste grafieken tonen hoe de inhoud van uw activiteit voor het benadrukte geautomatiseerde segment wordt uitgevoerd. Als u op verschillende segmenten in het linkerdeelvenster klikt, worden de middelste grafieken bijgewerkt. |
+| Cirkeldiagrammen | De schijfgrafieken bij de bovenkant van het centrumpaneel tonen de grootte van het geautomatiseerde segment, evenals het totale aantal gepersonaliseerde bezoeken in de activiteit (bijvoorbeeld, verkeer aan deze activiteit die door het verpersoonlijkingsmodel werd gediend. Het omvat geen controleverkeer of verkeer dat door het algemene windenermodel wordt gediend). De omvang van het segment is uitsluitend gebaseerd op individuele bezoeken.<br>![Cirkeldiagram](/help/c-reports/c-personalization-insights-reports/assets/pie.png) |
 | Streepjesgrafiek met twee assen | Het staafdiagram met twee assen bevat informatie over bezoeken en conversie door de aanbieding of ervaring voor dat specifieke geautomatiseerde segment. |
 | Roze balk | De roze balk vertegenwoordigt de conversiesnelheid en gebruikt de onderste as van de grafiek. U kunt de muisaanwijzer op de balk plaatsen voor meer informatie |
 | Blauwe balk | De blauwe balk geeft het aantal bezoeken aan en gebruikt de bovenste as van de grafiek. U kunt de muisaanwijzer op de balk plaatsen voor meer informatie. |
@@ -110,9 +109,9 @@ Dit geautomatiseerde segment wordt gedefinieerd op basis van twee kenmerken. Bez
 
 Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights]-rapporten nog niet beschikbaar zijn voor uw activiteit:
 
-* Er is geen 15 dagen verstreken sinds u de activiteit hebt geactiveerd. De geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen zullen niet tot minstens 15 dagen beschikbaar zijn nadat u uw activiteit hebt begonnen. Tijdens deze eerste periode kunt u deze rapporten niet openen of op de pictogrammen Geautomatiseerde segmenten en Belangrijke kenmerken klikken.
+* Er zijn geen 15 dagen verstreken sinds u de activiteit hebt geactiveerd. De geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen zullen niet tot minstens 15 dagen beschikbaar zijn nadat u uw activiteit hebt begonnen. Tijdens deze eerste periode kunt u deze rapporten niet openen of op de pictogrammen Geautomatiseerde segmenten en Belangrijke kenmerken klikken.
 * Uw activiteit heeft niet voldoende verkeer tijdens het gespecificeerde tijdkader gehad. Na 15 dagen zijn overgegaan, veronderstellend is er voldoende gepersonaliseerd verkeer in uw activiteit om de verpersoonlijkingsmodellen te bouwen, zullen de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen beschikbaar zijn.
-* Uw activiteit heeft een opbrengstoptimalisatiedoel. Op dit moment is [!UICONTROL Personalization Insights] alleen beschikbaar voor doelactiviteiten voor conversie. In een toekomstige release zullen we ondersteuning toevoegen voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
+* Uw activiteit heeft een opbrengstoptimalisatiedoel. [!UICONTROL Personalization Insights] is momenteel alleen beschikbaar voor doelactiviteiten voor conversie. Adobe voegt in een toekomstige release ondersteuning toe voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
 
 **Wat is een kenmerk?**
 
@@ -124,7 +123,7 @@ Voor meer informatie over welke attributen [!DNL Target] in zijn verpersoonlijki
 
 Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaald door de verpersoonlijkingsmodellen van Target in plaats van door de telleraar.
 
-Een geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken. Zie Stap 5 hierboven, bijvoorbeeld geautomatiseerde segmenten. Merk op dat de segmenten elkaar kunnen overlappen.
+Een geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken. Zie Stap 5 hierboven, bijvoorbeeld geautomatiseerde segmenten. Segmenten kunnen elkaar overlappen.
 
 Meer over het willekeurige bosverpersoonlijkingsalgoritme leren, dat de basis voor de verpersoonlijkingsmodellen van het Doel is, zie [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
@@ -150,7 +149,7 @@ Nr, bevat het UI rapport uitgezochte informatie. De CSV-download bevat aanvullen
 
 **Kan ik zien  [!UICONTROL Personalization Insights] voor een aangepast datumbereik?**
 
-De rapportage van persoonlijke inzichten (zowel [!UICONTROL Automated Segments] als [!UICONTROL Important Attributes]) is alleen beschikbaar voor vaste datumbereiken: 15 dagen, 30 dagen, 45 dagen, 60 dagen en 90 dagen. Met deze vaste datumbereiken kan [!UICONTROL Personalization Insights] een groot genoeg gegevensbereik gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. U kunt deze tijdsduur voor om het even welke einddatum selecteren (waar deze genoeg gegevens in de activiteit zijn om aan de duur te voldoen).
+De rapportage van persoonlijke inzichten (zowel [!UICONTROL Automated Segments] als [!UICONTROL Important Attributes]) is alleen beschikbaar voor vaste datumbereiken: 15 dagen, 30 dagen en 60 dagen. Met deze vaste datumbereiken kan [!UICONTROL Personalization Insights] een groot genoeg gegevensbereik gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. U kunt deze tijdsduur voor om het even welke einddatum selecteren (waar deze genoeg gegevens in de activiteit zijn om aan de duur te voldoen).
 
 **Hoe wordt  [!UICONTROL Personalization Insights] deze gemaakt?**
 
@@ -166,12 +165,12 @@ Nee, er is sprake van overlapping tussen de geautomatiseerde segmenten.
 
 **Is  [!UICONTROL Personalization Insights] beschikbaar voor op opbrengst-gebaseerde modelleringsdoelstellingen/primair doel?**
 
-Op dit moment is [!UICONTROL Personalization Insights] alleen beschikbaar voor doelactiviteiten voor conversie. In een toekomstige release zullen we ondersteuning toevoegen voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
+Op dit moment is [!UICONTROL Personalization Insights] alleen beschikbaar voor doelactiviteiten voor conversie. Adobe voegt in een toekomstige release ondersteuning toe voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
 
 **Wat zijn verschillende manieren waarop ik de informatie in de Inzichten van de Personalisatie kan gebruiken?**
 
-* Nieuw doelpubliek ontdekken: Als u een bepaald geautomatiseerd segment ziet dat bijzonder goed presteert, zou u kunnen overwegen om een publiek tot stand te brengen zodat kunt u dat segment in andere rapporten opnieuw gebruiken.
-* Test uw hypothesen van welk type bezoekers zullen antwoorden op welke van uw ervaringen.
+* Nieuw doelpubliek ontdekken: Als u een bepaald geautomatiseerd segment ziet dat goed presteert, zou u kunnen overwegen om een publiek tot stand te brengen zodat kunt u dat segment in andere rapporten opnieuw gebruiken.
+* Test uw hypothesen van welk type bezoekers reageren op welke van uw ervaringen.
 * Afleiden inzicht in welke inhoud werkte voor wat soort bezoekers: Welke aanbiedingen waren verantwoordelijk voor het optillen van de bezoekers.
 * Ondermaatse inhoud identificeren.
 * Begrijp welke attributen het meest kritiek aan hoe het model leerde.
