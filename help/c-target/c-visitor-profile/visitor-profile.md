@@ -4,21 +4,22 @@ description: Meer informatie over bezoekersprofielen met informatie over hoe bez
 title: Wat zijn bezoekerprofielen?
 feature: Soorten publiek
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Bezoekerprofielen
 
-Bezoekersprofielen bevatten informatie over hoe bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken
+Bezoekersprofielen bevatten informatie over hoe bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken.
 
-Als uw Doel wordt gebruikt in combinatie met andere Adobe Marketing Suite-oplossingen, zoals Adobe Analytics, deelt het Experience Cloud publiek bezoekersinformatie over de verschillende oplossingen.
+Als [!DNL Adobe Target] wordt gebruikt met andere [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] deelt bezoekersinformatie over oplossingen.
 
-Standaard worden de doelprofielgegevens opgeslagen in één cookie van de eerste fabrikant. De configuratie kan gemakkelijk worden veranderd om derdekoekjes eveneens te dienen.
+Standaard worden [!DNL Target]-profielgegevens opgeslagen in één cookie van de eerste partij. De configuratie kan gemakkelijk worden veranderd om derdekoekjes eveneens te dienen.
+
+De volgende secties bevatten meer informatie:
 
 - [Levensduur bezoekersprofiel](visitor-profile-lifetime.md)
 - [Profielkenmerken](profile-parameters.md)
