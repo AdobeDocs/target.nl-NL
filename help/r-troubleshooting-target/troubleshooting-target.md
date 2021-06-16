@@ -4,10 +4,9 @@ description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe T
 title: Hoe los ik Doel problemen op?
 feature: Problemen oplossen
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,12 +37,14 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 ### Automatisch doel
 
 * [Automatische probleemoplossing en veelgestelde vragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
 * [Veelgestelde vragen over Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Problemen met Automated Personalization oplossen](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Samenvattingsrapporten van Automated Personalization](/help/c-reports/reports-ap.md)
+* [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### MVT (Multivariate Test)
 
