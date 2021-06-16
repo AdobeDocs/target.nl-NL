@@ -5,10 +5,9 @@ title: Hoe gebruik ik de functie adobe.target.trackEvent()?
 feature: at.js
 role: Developer
 exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ Hier volgen de API-details:
 | mbox | String | Ja | Naam van box <br>**Opmerking**: Als een trackEvent()-aanroep wordt geactiveerd met een naam van een box die al op de pagina is geactiveerd, wordt de SDID van trackEvent() opnieuw ingesteld en verschilt deze van de aanroepen van Target op de pagina. Als u echter een trackEvent()-aanroep met een andere naam mbox afvuurt, blijft de SDID van de trackEvent()-aanroep consistent met de aanroepen van Page Load Request/triggerView() op de pagina. |
 | kiezer | String | Nee | CSS-kiezers die worden gebruikt om de HTML-elementen te zoeken. De gebeurtenislisteners worden aan gevonden elementen gekoppeld. |
 | type | String | Nee | Vertegenwoordigt een geregistreerd gebeurtenistype. Dit kunnen beide bekende HTML-gebeurtenissen zijn, zoals: klikken, mousedown, enz., evenals de gebeurtenissen van douaneHTML. |
-| preventDefault | Boolean | Nee | Geeft aan of `event.preventDefault()` moet worden gebruikt in de callback van de gebeurtenislistener. De standaardwaarde is false.<br>**Opmerking**: Alleen  `form[submit] and `[klikken] wordt ondersteund. Andere scenario&#39;s worden niet gesteund wegens ingewikkeldheid en enorme hoeveelheid te steunen scenario&#39;s. |
+| preventDefault | Boolean | Nee | Geeft aan of `event.preventDefault()` moet worden gebruikt in de callback van de gebeurtenislistener. De standaardwaarde is false.<br>**Opmerking**: Alleen  `form[submit]` en  `a[click]` worden ondersteund. Andere scenario&#39;s worden niet gesteund wegens ingewikkeldheid en enorme hoeveelheid te steunen scenario&#39;s. |
 | param | Object | Nee | Mbox-parameters. Een object van sleutelwaardeparen met de volgende structuur:<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | Getal | Nee | Time-out in milliseconden.<br>Indien niet opgegeven, wordt de standaardwaarde gebruikt:<br>`...timeoutInSeconds: 0.15...}` |
 | succes | -functie | Nee | Een callback-functie die wordt gebruikt om aan te geven dat de gebeurtenis is gerapporteerd. |
