@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 16 juni | [[!DNL Target] releaseopmerkingen (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de [!DNL Adobe Target] release van Python SDK versie 1.0.0. |
-|  | [Veelgestelde vragen over rapportage](/help/c-reports/reporting-frequently-asked-questions.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen bestaan?</li></ul> |
+|  | [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen bestaan?</li></ul> |
 | 8 juni | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Opmerking die aangeeft dat at.js 1.8.0 of hoger niet meer werkt met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters [!DNL Adobe Audience Manager] (AAM). |
 |  | [Omgevingen](/help/administrating-target/environments.md) | Toegevoegde notitie die aangeeft dat als u [!UICONTROL Active and Inactive Activities] opgeeft, hosts vanuit deze omgeving ook inactieve activiteiten weergeven. |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>[!DNL Adobe Experience Platform] de segmentnamen worden niet weergegeven in het  [!UICONTROL Important Attributes] rapport.</li></ul> |
