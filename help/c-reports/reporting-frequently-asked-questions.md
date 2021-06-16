@@ -4,10 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen en antwoorden over Adobe [
 title: Waar kan ik antwoorden op vragen over  [!DNL Target] Rapportering vinden?
 feature: Rapporten
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -15,6 +14,12 @@ ht-degree: 0%
 # Veelgestelde vragen over rapportage
 
 Lijst met veelgestelde vragen over rapportage in [!DNL Adobe Target].
+
+## Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen bestaan?
+
+[!UICONTROL Automated Personalization] (AP) en  [!UICONTROL Auto-Target] modellen worden getraind op de laatste 45 dagen van gebruikersgedrag (gebruikersprofielen, impliciete gebeurtenissen en conversiegebeurtenissen) voor de activiteit.
+
+[!UICONTROL Automated Personalization] (AP) en  [!UICONTROL Auto-Target] modellen behouden het gebruikersgedrag, de trainingsverslagen, en de modelbeslissingsgegevens gedurende 90 dagen om  [!UICONTROL Insights] rapporten te produceren. Na 90 dagen worden trainingsgegevens en modelbeslissingen genegeerd. [!UICONTROL Automated Personalization] (AP) en  [!UICONTROL Auto-Target] modellen bewaren voor rapportagedoeleinden ook geaggregeerde gegevens over ervaring/aanbod en de conversie gedurende twee jaar. Deze gegevens zijn alleen gegevens op geaggregeerd niveau en bevatten geen profielgegevens op individueel niveau.
 
 ## Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld? {#methodology}
 
