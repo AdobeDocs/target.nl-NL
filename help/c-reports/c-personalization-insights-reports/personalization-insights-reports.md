@@ -4,10 +4,9 @@ description: Leer hoe te om de gespecialiseerde rapporten voor Automated Persona
 title: Hoe gebruik ik de rapporten over persoonlijke voorkeuren?
 feature: Rapporten
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -48,7 +47,7 @@ Er zijn twee [!UICONTROL Personalization Insights] rapporten beschikbaar:
 | [!UICONTROL Automated Segments] | Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport toont hoe de verschillende geautomatiseerde segmenten die door de [!DNL Target] verpersoonlijkingsmodellen worden bepaald op de aanbiedingen/ervaringen in de activiteit reageerden. |
 | [!UICONTROL Important Attributes] | In verschillende activiteiten zijn verschillende kenmerken meer of minder belangrijk voor de manier waarop het model beslist om zich aan te passen. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden. |
 
-## Kenmerken interpreteren in Inzichten voor persoonlijke voorkeur {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
+## Kenmerken interpreteren in de functie Persoonlijke inzichten {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
 Er zijn twee soorten attributen die in [!UICONTROL Personalization Insights] rapporten worden vertegenwoordigd die in uw AP of Auto modellen van het Doel worden gebruikt:
 
@@ -64,6 +63,16 @@ Er zijn twee soorten attributen die in [!UICONTROL Personalization Insights] rap
 | Klantkenmerken | Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar de Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Gedeeld publiek (Adobe Audience Manager of Adobe Analytics) | Soorten publiek gemaakt via Adobe Audience Manager of Adobe Analytics en gedeeld met Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Activiteitenrapportage publiek/segmenten | Soorten publiek gedefinieerd in uw AP- of Auto Target-activiteit tijdens installatie in &quot;Doelen &amp; Metriek.&quot; | `Custom - Reporting Segment - [segment name]` |
+
+## Veelgestelde vragen
+
+Lijst met veelgestelde vragen over [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] [!UICONTROL Insights] rapporten.
+
+### Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen bestaan?
+
+[!UICONTROL Automated Personalization] (AP) en  [!UICONTROL Auto-Target] modellen worden getraind op de laatste 45 dagen van gebruikersgedrag (gebruikersprofielen, impliciete gebeurtenissen en conversiegebeurtenissen) voor de activiteit.
+
+[!UICONTROL Automated Personalization] (AP) en  [!UICONTROL Auto-Target] modellen behouden het gebruikersgedrag, de trainingsverslagen, en de modelbeslissingsgegevens gedurende 90 dagen om  [!UICONTROL Insights] rapporten te produceren. Na 90 dagen worden trainingsgegevens en modelbeslissingen genegeerd. [!UICONTROL Automated Personalization] (AP) en  [!UICONTROL Auto-Target] modellen bewaren voor rapportagedoeleinden ook geaggregeerde gegevens over ervaring/aanbod en de conversie gedurende twee jaar. Deze gegevens zijn alleen gegevens op geaggregeerd niveau en bevatten geen profielgegevens op individueel niveau.
 
 ## Trainingsvideo: De rapporten ![Lesbestand badge](/help/assets/tutorial.png) gebruiken voor het aanpassen van inzichten
 
