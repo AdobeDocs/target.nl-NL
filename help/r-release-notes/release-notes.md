@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## Python SDK 1.0.0 (16 juni 2021)
+
+De nieuwe [!DNL Adobe Target] Python SDK met beslissingsmogelijkheden op het apparaat is nu beschikbaar. Deze nieuwste toevoeging biedt een ondersteuning voor de [!DNL Target]-suite met SDK&#39;s op de server. Met deze SDKS kunt u integreren met [!DNL Target] en uw tijd naar waarde versnellen, in de taal van uw keuze. Integraties aan de serverzijde worden een populaire keuze, aangezien de markt verschuift naar een wereld zonder cookie waarin gegevens van de eerste partij waardevol zijn. DoelSDK&#39;s zijn beschikbaar in de populairste programmeertalen op de markt (Python, Java, JavaScript, C# / .Net).
+
+Raadpleeg de [Python SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) in de [handleiding SDK&#39;s van Adobe Target](https://adobetarget-sdks.gitbook.io/docs/) voor meer informatie.
 
 ## Target Standard/Premium 21.5.1 (7 juni 2021)
 
