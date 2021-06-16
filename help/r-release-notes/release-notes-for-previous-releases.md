@@ -4,7 +4,7 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Opmerkingen bij de release
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '30716'
 ht-degree: 0%
@@ -233,8 +233,8 @@ Met de versie van 20 mei, zal de status van de Batch van het Profiel slechts rij
 
 De vorige en nieuwe API-reacties zijn als volgt:
 
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+`ProfileBatchStatus Api`
+`http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **Momenteel zien we het antwoord als:**
 
@@ -415,7 +415,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
    * Verbeterde gebruikershulp: Zoekresultaten zijn onder andere resultaten van de productdocumentatie van [!DNL Target], maar ook communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om u te helpen [!DNL Target] optimaal te benutten. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help], waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.
 
-   * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
+   * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target]-klanten op de bestemmingspagina geland nadat ze op het pictogram [!DNL Target] in de koptekst hadden geklikt. Op deze pagina konden klanten doorgaan met [!DNL Target Standard/Premium], [!DNL Search&Promote] of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
@@ -1317,8 +1317,8 @@ Deze release bevat de volgende functies en verbeteringen:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Adobe Target Insider-nieuwsbrief </p> </td> 
-   <td colname="col2"> <p>Adobe Target Insider is een maandelijkse nieuwsbrief voor leden van de Adobe Target-gemeenschap. Meer informatie over productupdates en toekomstige plannen, tips en trucs voor personalisatie en optimalisatie, successen van klanten, aanstaande gebeurtenissen, whitepapers met informatie, populaire blogberichten en nog veel meer. Lees de <a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external"> aankondigingsbrief </a> om meer te leren. </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external"> Schrijf u in voor de nieuwsbrief  </a> om u te helpen de uitzonderlijke klantervaringen te leveren die bedrijfssucces bevorderen. </p> </td> 
+   <td colname="col1"> <p>Adobe Target Insider nieuwsbrief </p> </td> 
+   <td colname="col2"> <p>De Adobe Target Insider is een maandelijkse nieuwsbrief voor leden van de Adobe Target-gemeenschap. Meer informatie over productupdates en toekomstige plannen, tips en trucs voor personalisatie en optimalisatie, successen van klanten, aanstaande gebeurtenissen, whitepapers met informatie, populaire blogberichten en nog veel meer. Lees de <a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external"> aankondigingsbrief </a> om meer te leren. </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external"> Schrijf u in voor de nieuwsbrief  </a> om u te helpen de uitzonderlijke klantervaringen te leveren die bedrijfssucces bevorderen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
