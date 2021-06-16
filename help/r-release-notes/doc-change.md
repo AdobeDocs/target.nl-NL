@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 16 juni | [[!DNL Target] releaseopmerkingen (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de [!DNL Adobe Target] release van Python SDK versie 1.0.0. |
+|  | [Veelgestelde vragen over rapportage](/help/c-reports/reporting-frequently-asked-questions.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen bestaan?</li></ul> |
 | 8 juni | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Opmerking die aangeeft dat at.js 1.8.0 of hoger niet meer werkt met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters [!DNL Adobe Audience Manager] (AAM). |
 |  | [Omgevingen](/help/administrating-target/environments.md) | Toegevoegde notitie die aangeeft dat als u [!UICONTROL Active and Inactive Activities] opgeeft, hosts vanuit deze omgeving ook inactieve activiteiten weergeven. |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>[!DNL Adobe Experience Platform] de segmentnamen worden niet weergegeven in het  [!UICONTROL Important Attributes] rapport.</li></ul> |
@@ -50,7 +52,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Deel 1: Adobe Target NodeJS SDK uitvoeren voor experimenteren en personaliseren op Edge-Platforms (Akamai Edge Workers)</li></ul> |
 | 5 mei | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de door de Adobe Target Community opgestelde afkapping van vragen en antwoorden die woensdag 12 mei 2021 om 8.00 uur wordt gehouden. (PDT, GMT-7). |
 | 27 april | [Cookie-instellingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Bijgewerkt onderwerp om erop te wijzen dat de koekjesduur (`deviceIdLifetime` het plaatsen) in at.js versie 2.3.1 of later met voeten kan treden. |
-|  | [Adobe Target-gids](/help/target-home.md) | Informatie toegevoegd over de top van Adobe. |
+|  | [Adobe Target-gids](/help/target-home.md) | Informatie over Adobe Summit toegevoegd. |
 | 26 april | [Beslissing van problemen op het apparaat voor at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nieuw onderwerp. |
 | 19 april | [Apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | De volgende nieuwe artikelen zijn toegevoegd:<ul><li>[Apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Ondersteunde functies voor apparaatbesluitvorming](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefact van de regel voor apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Extra informatie over `decisioningMethod`. |
