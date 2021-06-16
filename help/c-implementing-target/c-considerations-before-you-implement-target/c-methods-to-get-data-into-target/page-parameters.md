@@ -5,8 +5,7 @@ title: Hoe krijg ik Gegevens in [!DNL Target] Gebruikend de Parameters van de Pa
 feature: Implementatie
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -48,7 +47,7 @@ De gegevens worden verzonden naar Doel in echt - tijd, en kunnen op de zelfde se
 
    Naast de tekens die op de IETF-site worden vermeld, staat Target de volgende tekens in querytekenreeksen toe:
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \&quot;
+   ```< > # % " { } | \ ^ [ ] ` ```
 
    Al het andere moet met url gecodeerd zijn. De standaard geeft de volgende notatie aan ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), zoals hieronder wordt geïllustreerd:
 
