@@ -5,10 +5,9 @@ title: Wat zijn algemene vragen en antwoorden over at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2683'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Antwoorden op veelgestelde vragen over at.js.
 
 ## Wat zijn de voordelen om at.js tegenover mbox.js te gebruiken? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
-Hoewel [!DNL at.js] [!DNL mbox.js] vervangt, blijft [!DNL mbox.js] ondersteund. Voor de meeste mensen biedt [!DNL at.js] echter voordelen ten opzichte van [!DNL mbox.js].
+De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js]. De bibliotheek [!DNL mbox.js] wordt niet meer ondersteund. Voor de meeste mensen biedt [!DNL at.js] echter voordelen ten opzichte van [!DNL mbox.js].
 
 [!DNL at.js] verbetert onder andere de laadtijden voor webimplementaties, verbetert de beveiliging en biedt betere implementatieopties voor toepassingen van één pagina.
 
@@ -33,7 +32,7 @@ Zoals hierboven wordt geïllustreerd, begint met het gebruik van mbox.js, de pag
 
 Veel klanten en consultants willen weten wat de gevolgen zijn van [!DNL at.js] en [!DNL mbox.js] voor de laadtijd van de pagina, vooral in de context van nieuwe gebruikers of terugkerende gebruikers. Jammer genoeg, is het moeilijk om concrete aantallen betreffende te meten en te geven hoe [!DNL at.js] of [!DNL mbox.js] paginaoplaadtijd wegens de implementatie van elke klant beïnvloeden.
 
-Als de API voor bezoekers echter aanwezig is op de pagina, kunnen we beter begrijpen hoe [!DNL at.js] en [!DNL mbox.js] de laadtijd van pagina&#39;s beïnvloeden.
+Als de API voor bezoekers echter aanwezig is op de pagina, kan [!DNL Target] beter begrijpen hoe [!DNL at.js] en [!DNL mbox.js] de laadtijd van de pagina beïnvloeden.
 
 >[!NOTE]
 >
@@ -49,7 +48,7 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 
    * Instantieert het object Visitor.
    * De doelbibliotheek probeert de gegevens van de Experience Cloud Visitor-id op te halen.
-   * Omdat dit een nieuwe bezoeker is, leidt de bezoeker-API een aanvraag voor een ander domein in naar demdex.net.
+   * Omdat deze bezoeker een nieuwe bezoeker is, leidt de bezoeker-API een aanvraag voor een ander domein in naar demdex.net.
    * Nadat de gegevens van de identiteitskaart van de Bezoeker van Experience Cloud worden teruggewonnen, wordt een verzoek aan Doel in brand gestoken.
 
 ### Bezoekers terugsturen
@@ -73,16 +72,16 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 
 De manier de vorige versies van [!DNL at.js] verzoeken uitvoeren is vatbaar voor het zogenaamde &quot;hoofd van lijnblokkering.&quot; In [!DNL at.js] 1.0.0 en later, schakelde het Doel naar parallelle verzoekuitvoering.
 
-Als u de waterval van het netwerklusje voor [!DNL at.js] 0.9.1 controleert, bijvoorbeeld, zult u zien dat het volgende verzoek van het Doel niet begint tot vorige is gebeëindigd. Dit is niet het geval met [!DNL at.js] 1.0.0 en later waar al verzoek eigenlijk tezelfdertijd begint.
+Als u de waterval van het netwerklusje voor [!DNL at.js] 0.9.1 controleert, bijvoorbeeld, zult u zien dat volgende [!DNL Target] verzoek niet begint tot vorige is gebeëindigd. Deze opeenvolging is niet het geval met [!DNL at.js] 1.0.0 en later waar alle verzoeken eigenlijk tezelfdertijd beginnen.
 
-Vanuit het perspectief van de reactietijd, wiskundig, kan dit als dit worden samengevat
+Vanuit het perspectief van de reactietijd, wiskundig, kan deze opeenvolging als dit worden samengevoegd
 
 <ul class="simplelist"> 
  <li> om.js 0.9.1: De tijd van de reactie van alle verzoeken van het Doel = som van de tijd van de verzoekreactie </li> 
  <li> in.js 1.0.0 en hoger: De tijd van de reactie van alle verzoeken van het Doel = maximum van de tijd van de verzoekreactie </li> 
 </ul>
 
-Zoals u kunt zien, zal [!DNL at.js] 1.0.0 de verzoeken sneller voltooien. Bovendien zijn [!DNL at.js] verzoeken asynchroon, zodat blokkeert Doel paginerendering niet. Zelfs als verzoeken seconden duren om te voltooien, ziet u nog steeds de gerenderde pagina, worden slechts enkele delen van de pagina gewist totdat Doel een reactie krijgt van de rand van het Doel.
+Met de bibliotheekversie 1.0.0 van [!DNL at.js] worden de aanvragen sneller voltooid. Bovendien zijn [!DNL at.js] verzoeken asynchroon, zodat [!DNL Target] paginerendering niet blokkeert. Zelfs als verzoeken seconden duren om te voltooien, ziet u nog steeds de gerenderde pagina, worden slechts enkele delen van de pagina leeg gemaakt totdat Doel een reactie krijgt van de rand van het Doel.
 
 ## Kan ik de bibliotheek [!DNL Target] asynchroon laden? {#section_AB9A0CA30C5440C693413F1455841470}
 
@@ -90,8 +89,8 @@ Met de release at.js 1.0.0 kunt u de doelbibliotheek asynchroon laden.
 
 Zo laadt u at.js asynchroon:
 
-* De aanbevolen benadering is via [!DNL Adobe Experience Platform Launch]. Zie de [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) les van [Implementatie van de Experience Cloud in Websites met de zelfstudie van de Lanceer](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) voor meer informatie.
-* U kunt ook asynchroon laden bij .js door het asynchrone attribuut aan de manuscriptmarkering toe te voegen die at.js laadt. Je moet iets als dit gebruiken:
+* De aanbevolen benadering is via [!DNL Adobe Experience Platform Launch]. Zie de [Add Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) les van [Implementatie van de Experience Cloud in Websites met de zelfstudie van de Lanceer](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) voor meer informatie.
+* U kunt ook asynchroon laden bij .js door het asynchrone attribuut aan de manuscriptmarkering toe te voegen die at.js laadt. Gebruik iets als dit:
 
    ```
    <script src="<URL to at.js>" async></script>
@@ -108,17 +107,17 @@ Zo laadt u at.js asynchroon:
 
 Het asynchroon laden van at.js is een goede manier om te voorkomen dat de browser de rendering blokkeert. deze techniek kan echter tot flikkering op de webpagina leiden .
 
-U kunt flikkering vermijden door een vooraf verborgen fragment te gebruiken dat de pagina (of gespecificeerde gedeelten) verbergt en het dan onthult nadat om.js en het globale verzoek volledig geladen hebben. Het fragment moet worden toegevoegd voordat u het bestand at.js laadt.
+U kunt flikkering vermijden door een vooraf verborgen fragment te gebruiken dat de pagina (of gespecificeerde gedeelten) verbergt en het dan onthult nadat om.js en het globale verzoek hebben geladen. Het fragment moet worden toegevoegd voordat u het bestand at.js laadt.
 
-Als u at.js door een asynchrone implementatie van de Lancering opstelt, ben zeker om het pre-verbergende fragment direct op uw pagina&#39;s, vóór de Lancering te omvatten bed code, zoals die in [Add het Doel pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) sectie van [Implementeert de Experience Cloud in Websites met het Lanceerprogramma](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) wordt beschreven.
+Als u at.js door een asynchrone implementatie van de Lancering opstelt, ben zeker om het pre-verbergende fragment direct op uw pagina&#39;s, vóór de Lancering te omvatten bed code, zoals die in [Add het Doel pre-Hiding Snippet](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) sectie van [Implementeert de Experience Cloud in Websites met het Lanceerprogramma](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) wordt beschreven.
 
 Als u at.js door een synchrone implementatie DTM opstelt, kan het pre-verbergende fragment worden toegevoegd door een lijn van de Lading van de Pagina die bij de bovenkant van de pagina wordt teweeggebracht.
 
 Zie [How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) voor meer informatie.
 
-## Is at.js verenigbaar met de integratie van Adobe Experience Manager (AEM)? {#section_6177AE10542344239753764C6165FDDC}
+## Is at.js verenigbaar met de integratie van Adobe Experience Manager (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
-[!DNL Adobe Experience Manager] 6.2 met FP-11577 (of later) steunt nu  [!DNL at.js] implementaties met zijn  [!UICONTROL Adobe Target Cloud Services] integratie. Zie [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) en [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in de *Adobe Experience Manager 6.2* documentatie voor meer informatie.
+[!DNL Adobe Experience Manager] 6.2 met FP-11577 (of later) steunt nu  [!DNL at.js] implementaties met zijn  [!UICONTROL Adobe Target Cloud Services] integratie.
 
 ## Hoe kan ik flikkering tijdens het laden van pagina&#39;s voorkomen met at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
@@ -134,11 +133,11 @@ de implementaties at.js gebruiken één enkele bibliotheek ( [!DNL at.js]), terw
 
 at.js is groter omdat het veel meer DOM ontleedt in vergelijking met mbox.js. Dit is vereist omdat at.js &quot;onbewerkte&quot;gegevens in de reactie JSON krijgt en het moet zinvol maken. mbox.js gebruikt `document.write()` en al het ontleden wordt gedaan door browser.
 
-Ondanks de grotere bestandsgrootte geven onze tests aan dat pagina&#39;s sneller worden geladen met at.js versus mbox.js. Daarnaast is at.js vanuit het oogpunt van beveiliging superieur omdat het geen extra bestanden dynamisch laadt of `document.write` gebruikt.
+Ondanks de grotere bestandsgrootte geven onze tests aan dat pagina&#39;s sneller worden geladen met at.js versus mbox.js. Ook, is at.js superieur vanuit veiligheidsperspectief omdat het geen extra dossiers dynamisch laadt of `document.write` gebruikt.
 
 ## Heeft at.js er jQuery in? Kan ik dit deel van at.js verwijderen omdat ik al jQuery op mijn website heb? {#section_E4604E46E7B34460B8DD6A78D9B476F9}
 
-at.js gebruikt momenteel delen van jQuery en zo ziet u de MIT-licentiemelding boven aan at.js. jQuery wordt niet weergegeven en heeft geen invloed op de jQuery-bibliotheek die u al op de pagina hebt, wat een andere versie kan zijn. Het verwijderen van de jQuery-code in at.js wordt niet ondersteund.
+at.js gebruikt momenteel delen van jQuery en dus ziet u de MIT-licentiemelding boven aan at.js. jQuery wordt niet weergegeven en heeft geen invloed op de jQuery-bibliotheek die u al op de pagina hebt, wat een andere versie kan zijn. Het verwijderen van de jQuery-code in at.js wordt niet ondersteund.
 
 ## Biedt at.js ondersteuning voor Safari en cross domain ingesteld op x-only? {#section_114EC271A6E045E1B2183B66F1B71285}
 
@@ -148,9 +147,9 @@ Om Safari bezoekers te ondersteunen, zou een beter X-Domein &quot;gehandicapt&qu
 
 ## Kan ik bij.js en mbox.js naast elkaar lopen? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
 
-Niet op dezelfde pagina. Tijdens het implementeren en testen van [!DNL at.js] kunt u [!DNL at.js] op sommige pagina&#39;s en [!DNL mbox.js] op andere pagina&#39;s uitvoeren totdat u [!DNL at.js] volledig hebt gevalideerd.
+Niet op dezelfde pagina. Tijdens het implementeren en testen van [!DNL at.js] kunt u [!DNL at.js] op sommige pagina&#39;s en [!DNL mbox.js] op andere pagina&#39;s uitvoeren totdat u [!DNL at.js] hebt gevalideerd.
 
-## Kan ik [!DNL Target] Visual Experience Composer in mijn enig-paginatoepassingen gebruiken? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## Kan ik [!DNL Target] Visual Experience Composer (VEC) in mijn enig-paginatoepassingen gebruiken? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 Ja, u kunt VEC voor uw SPA gebruiken als u at.js 2.x gebruikt. Zie [Single Page (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) voor meer informatie.
 
@@ -166,11 +165,11 @@ Ja, hetzelfde als met mbox.js.
 
 Doelklanten gebruiken soms cloudgebaseerde instanties met [!DNL Target] voor testdoeleinden of eenvoudige concepttest-doeleinden. Deze domeinen, en vele anderen, maken deel uit van [Openbare Achtervoegsellijst](https://publicsuffix.org/list/public_suffix_list.dat).
 
-Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de instelling `cookieDomain` aanpast met targetGlobalSettings(). Zie [Op wolken gebaseerde instanties gebruiken met Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566) voor meer informatie.
+Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de instelling `cookieDomain` aanpast met targetGlobalSettings(). Zie [Op wolken gebaseerde instanties gebruiken met Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md) voor meer informatie.
 
 ## Kunnen IP adressen als koekjesdomein worden gebruikt wanneer het gebruiken van at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, als u [at.js versie 1.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) gebruikt. We raden u echter ten zeerste aan de nieuwste versie bij te houden.
+Ja, als u [at.js versie 1.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) gebruikt. Adobe raadt u echter ten zeerste aan de nieuwste versie bij te houden.
 
 >[!NOTE]
 >
@@ -200,17 +199,17 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 ## Waarom zie ik waarschuwingsberichten, zoals &quot;acties met ontbrekende kiezers&quot;? {#section_C36BED5B16634361A1BA46FCB731489D}
 
-Dit bericht heeft geen betrekking op de [!DNL at.js]-functionaliteit. De bibliotheek [!DNL at.js] probeert om het even wat te melden die niet in DOM kan worden gevonden.
+Deze berichten hebben geen betrekking op [!DNL at.js] functionaliteit. De bibliotheek [!DNL at.js] probeert om het even wat te melden die niet in DOM kan worden gevonden.
 
 Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofdoorzaken:
 
 * De pagina wordt dynamisch samengesteld en at.js kan het element niet vinden.
 * De pagina wordt langzaam samengesteld (vanwege een traag netwerk) en at.js kan de kiezer niet vinden in de DOM.
-* De paginastructuur waarop de activiteit wordt uitgevoerd, is gewijzigd. Als u de activiteit in de Visuele Composer van de Ervaring (VEC) heropent, zou u een waarschuwingsbericht moeten krijgen. U moet de activiteit bijwerken zodat alle noodzakelijke elementen kunnen worden gevonden.
+* De paginastructuur waarop de activiteit wordt uitgevoerd, is gewijzigd. Als u de activiteit in de Visuele Composer van de Ervaring (VEC) heropent, zou u een waarschuwingsbericht moeten krijgen. Werk de activiteit bij zodat alle noodzakelijke elementen kunnen worden gevonden.
 * De onderliggende pagina maakt deel uit van een toepassing voor één pagina (SPA) of de pagina bevat elementen die verder naar beneden op de pagina worden weergegeven en het [!DNL at.js] &#39;selector polling mechanism&#39; kan die elementen niet vinden. Het verhogen van `selectorsPollingTimeout` zou kunnen helpen. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
 * Om het even welke klik-volgende metrisch probeert om aan elke pagina toe te voegen, ongeacht URL waarop metrisch opstelling was. Hoewel onschuldig, maakt deze situatie veel van deze berichten tonen.
 
-   Download en gebruik de nieuwste versie van [!DNL at.js] voor de beste resultaten. Zie [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) en [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2) voor meer informatie.
+   Download en gebruik de nieuwste versie van [!DNL at.js] voor de beste resultaten. Zie [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) en [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) voor meer informatie.
 
 ## Wat is het domein tt.omtr dc.net dat de [!DNL Target] servervraag gaat naar? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -244,17 +243,17 @@ Het verzoek at.js is een async `XMLHttpRequest`, zodat voeren wij de volgende st
 1. De vooraf verborgen STIJL voor het HTML-LICHAAM wordt verwijderd.
 1. Doel start opiniepeiling voor DOM-elementen.
 1. Als een DOM-element wordt gevonden, past Target DOM-wijzigingen toe en wordt de vooraf verborgen STIJL van het element verwijderd.
-1. Als DOM-elementen niet worden gevonden, worden de elementen tijdens een algemene time-out niet verborgen om te voorkomen dat een pagina wordt verbroken.
+1. Als DOM-elementen niet worden gevonden, verbergt een algemene time-out de elementen om te voorkomen dat een pagina wordt verbroken.
 
 ## Hoe vaak wordt de inhoud van de pagina volledig geladen en zichtbaar wanneer at.js definitief het element ontverbergt de activiteit verandert? {#section_01AFF476EFD046298A2E17FE3ED85075}
 
 Gezien het bovenstaande scenario, hoe vaak wordt de inhoud van de pagina volledig geladen en zichtbaar wanneer at.js definitief het element ontverbergt de activiteit verandert? Met andere woorden, de pagina is volledig zichtbaar behalve de inhoud van de activiteit, die dan lichtjes na de rest van de inhoud wordt onthuld.
 
-at.js blokkeert niet dat de pagina wordt weergegeven. Een gebruiker zou sommige lege gebieden op de pagina kunnen opmerken die elementen vertegenwoordigen die door Doel zullen worden aangepast. Als de toe te passen inhoud niet vele verre activa, zoals SCRIPTs of IMGs bevat, zou alles snel moeten teruggeven.
+at.js blokkeert niet dat de pagina wordt weergegeven. Een gebruiker kan bepaalde lege gebieden op de pagina opmerken die elementen vertegenwoordigen die door [!DNL Target] worden aangepast. Als de toe te passen inhoud niet vele verre activa, zoals SCRIPTs of IMGs bevat, zou alles snel moeten teruggeven.
 
 ## Hoe zou een volledig caching pagina het bovengenoemde scenario beïnvloeden? Zou het waarschijnlijker zijn dat de inhoud van de activiteit merkbaar zichtbaar wordt nadat de rest inhoud van de pagina laadt? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-Als een pagina in het cachegeheugen is opgeslagen op een CDN die zich dicht bij de locatie van de gebruiker bevindt, maar niet bij de rand van het doel, kan die gebruiker enige vertragingen zien. De doelranden zijn goed over de hele wereld verdeeld, dus dit is niet de meeste tijd een kwestie.
+Als een pagina in het cachegeheugen is opgeslagen op een CDN die zich dicht bij de locatie van de gebruiker bevindt, maar niet bij de rand van het doel, kan die gebruiker enige vertragingen zien. De doelranden zijn over de hele wereld goed verdeeld, dus dit is niet de meeste tijd een probleem.
 
 ## Is het mogelijk dat een hoofdafbeelding na een korte vertraging wordt weergegeven en vervolgens wordt omgewisseld? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
