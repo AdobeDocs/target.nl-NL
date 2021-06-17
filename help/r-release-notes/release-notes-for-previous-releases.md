@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Opmerkingen bij de release
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '30716'
+source-wordcount: '30692'
 ht-degree: 0%
 
 ---
@@ -2514,7 +2514,7 @@ Deze release bevat de volgende functies en verbeteringen:
       <li id="li_C47240826E5844D6843314F453F042FC">Navigatie is van links naar boven verplaatst </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Verbeterde dialoogvensters </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">Verbeterde stroom voor het maken van activiteiten </li> 
-     </ul> </p> <p>De manier waarop Experience Cloud-oplossingen, inclusief Target, worden geselecteerd, is ook gewijzigd. Klik op het menupictogram voor toegang tot Experience Cloud-oplossingen en -services: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Voor meer informatie over de toegang tot van Doel en het maken van Doel uw standaardpagina nadat het programma openen aan de Experience Cloud, zie <a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Doel van de Toegang van Adobe Experience Cloud </a>. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external"> Nieuwe functies in de Adobe Experience Cloud - Lente 2016 </a> voor meer informatie over de verbeteringen in de gebruikersinterface. </p> </td> 
+     </ul> </p> <p>De manier waarop Experience Cloud-oplossingen, inclusief Target, worden geselecteerd, is ook gewijzigd. Klik op het menupictogram voor toegang tot Experience Cloud-oplossingen en -services: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Voor meer informatie over de toegang tot van Doel en het maken van Doel uw standaardpagina nadat het programma openen aan de Experience Cloud, zie <a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Doel van de Toegang van Adobe Experience Cloud </a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Opnameregels kunnen worden uitgeschakeld voor aanbevelingen voor back-ups </td> 
