@@ -1,12 +1,12 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;search engine optimization;search engine optimization;seo;edge clusters, central clusters;at.js;mbox.js;
-description: Leer hoe Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript bibliotheken (at.js en AEP Web SDK), de gegevenscentra van Adobe, en SEO het testen.
+description: Leer hoe Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript bibliotheken (at.js en het Web SDK van het Experience Platform), de gegevenscentra van Adobe, en SEO het testen.
 title: Hoe werkt [!DNL Target] ?
 feature: Overzicht
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2544'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ Leer hoe [!DNL Adobe Target] werkt, met inbegrip van informatie over [!DNL Adobe
 
 ## [!DNL Target] Platform Web SDK&#39;s en JavaScript-bibliotheken {#libraries}
 
-[!DNL Target] Wordt geïntegreerd met websites die gebruikmaken van de JavaScript-  [!DNL AEP Web SDK] of JavaScript-bibliotheken:
+[!DNL Target] Wordt geïntegreerd met websites die gebruikmaken van de JavaScript-  [!DNL Experience Platform Web SDK] of JavaScript-bibliotheken:
 
-* **Adobe Experience Platform Web SDK:** De  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK is een nieuwe client-side JavaScript-bibliotheek. Met de AEP Web SDK kunnen klanten van [!DNL Adobe Experience Cloud] via het [!DNL AEP] Edge Network communiceren met de verschillende services in [!DNL Experience Cloud] (inclusief [!DNL Target]). Adobe raadt alle nieuwe [!DNL Target]-klanten aan [!DNL AEP Web SDK] te implementeren.
+* **Adobe Experience Platform Web SDK:** De  [Experience Platform Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK is een nieuwe client-side JavaScript-bibliotheek. Met de Web SDK van het Experience Platform kunnen klanten van [!DNL Adobe Experience Cloud] via het [!DNL Experience Platform] Edge Network communiceren met de verschillende services in [!DNL Experience Cloud] (inclusief [!DNL Target]). Adobe raadt alle nieuwe [!DNL Target]-klanten aan [!DNL Experience Platform Web SDK] te implementeren.
 * **at.js:** De  [bibliotheek at.js is een implementatiebibliotheek voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)   [!DNL Target]. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Adobe raadt alle klanten die at.js gebruiken aan hun implementaties bij te werken naar de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** De  [mbox.js-](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) bibliotheek is de oudere implementatiebibliotheek voor  [!DNL Target]. De bibliotheek mbox.js wordt ondersteund tot 31 maart 2021; er zijn echter geen functie-updates.
+* **mbox.js:** De  [mbox.js-](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) bibliotheek is de oudere implementatiebibliotheek voor  [!DNL Target]. De bibliotheek mbox.js wordt na 31 maart 2021 niet meer ondersteund.
 
 >[!IMPORTANT]
 >
->Alle klanten moeten naar [!DNL AEP Web SDK] of naar de recentste versie van at.js migreren. Zie [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) of [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
+>Alle klanten moeten naar [!DNL Experience Platform Web SDK] of naar de recentste versie van at.js migreren. Zie [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) of [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
 
-Verwijs [!DNL AEP Web SDK] of at.js op elke pagina op uw plaats. U kunt bijvoorbeeld een van deze bibliotheken toevoegen aan uw algemene koptekst. U kunt ook [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) gebruiken om [!DNL Target] te implementeren.
+Verwijs [!DNL Experience Platform Web SDK] of at.js op elke pagina op uw plaats. U kunt bijvoorbeeld een van deze bibliotheken toevoegen aan uw algemene koptekst. U kunt ook [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) gebruiken om [!DNL Target] te implementeren.
 
-De volgende bronnen bevatten gedetailleerde informatie om u te helpen bij het implementeren van de AEP Web SDK of at.js:
+De volgende middelen bevatten gedetailleerde informatie om u te helpen SDK van het Web van het Experience Platform of at.js uitvoeren:
 
 * [Adobe Experience Platform Web SDK-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
 * [Implementeren [!DNL Target] met Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -107,7 +107,7 @@ De [!DNL Target]-oplossing wordt gehost op datacenters in Adobe-eigendom en Adob
 
 De centrale plaatsen van de Cluster bevatten zowel een centrum van de gegevensinzameling als een centrum van de gegevensverwerking. De plaatsen van de Cluster van de rand bevatten slechts een centrum van de gegevensinzameling. Elke rapportsuite wordt toegewezen aan een specifiek gegevensverwerkingscentrum.
 
-De gegevens over de activiteiten op de locatie van de klant worden verzameld door de dichtstbijzijnde zeven Edge-clusters. Dit gegeven wordt geleid aan de vooraf bepaalde Centrale bestemming van de Cluster van een klant (één van drie plaatsen: Oregon, Dublin, Singapore) voor verwerking. Bezoekersprofielgegevens worden opgeslagen in de Edge-cluster die het dichtst bij de bezoeker van de site staat. De locaties van Edge-clusters omvatten de centrale clusterlocaties en Virginia, Amsterdam, Sydney, Tokio en Hongkong.
+De gegevens over de activiteiten op de locatie van de klant worden verzameld door de dichtstbijzijnde zeven Edge-clusters. Dit gegeven wordt geleid aan de vooraf bepaalde Centrale bestemming van de Cluster van een klant (één van drie plaatsen: Oregon, Dublin, Singapore) voor verwerking. Bezoekersprofielgegevens worden opgeslagen in de Edge-cluster die het dichtst bij de bezoeker van de site staat. De locaties van Edge-clusters omvatten de centrale clusterlocaties en Virginia, Mumbai, Sydney en Tokio.
 
 In plaats van te reageren op alle doelverzoeken van één locatie, worden aanvragen verwerkt door de Edge-cluster die het dichtst bij de bezoeker ligt. Dit proces helpt de gevolgen van netwerk/Internet reistijd verlichten.
 
@@ -181,7 +181,7 @@ Richtlijnen zijn gepresenteerd in een bericht [Google Webmaster Central Blog](ht
 
 * **Alleen experimenten uitvoeren zolang als nodig**: Adobe is van mening dat &quot;zo lang als nodig&quot; is om statistische significantie te bereiken. [!DNL Target] [biedt de beste ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) praktijken om te bepalen wanneer uw test dit punt heeft bereikt. Adobe raadt u aan om de hardcoded implementatie van het winnen van tests in uw testworkflow op te nemen en de juiste bronnen toe te wijzen.
 
-   Het gebruik van het [!DNL Target]-platform voor het &quot;publiceren&quot; van winnende tests wordt niet aanbevolen als een permanente oplossing. Als de winnende test voor 100% van de gebruikers 100% van de tijd wordt gepubliceerd, kan deze benadering worden gebruikt terwijl het proces van het hardcoderen van de het winnen test wordt voltooid.
+   Het gebruik van het [!DNL Target]-platform voor het &quot;publiceren&quot; van winnende tests wordt niet aanbevolen als een permanente oplossing. Als de winnende test voor 100% van de gebruikers 100% van de tijd wordt gepubliceerd, kan deze benadering worden gebruikt terwijl het proces van hard-coderen de het winnen test wordt voltooid.
 
    Het is belangrijk om te overwegen wat uw test ook is veranderd. Als u de kleur van knoppen of andere kleine, niet-tekstuele items op de pagina bijwerkt, heeft dit geen invloed op uw organische waarderingen. Wijzigingen in tekst moeten echter wel worden gecodeerd.
 
