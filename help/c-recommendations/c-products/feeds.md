@@ -4,10 +4,9 @@ description: Leer hoe u entiteiten in Adobe [!DNL Target] Recommendations import
 title: Hoe gebruik ik feeds in [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 062a47e2dd76fe6dc87a71ad7b17355d57d769dd
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2489'
 ht-degree: 0%
 
 ---
@@ -207,7 +206,7 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Productclassificaties {#section_79E430D2C75443BEBC9AA0916A337E0A} analyseren
+### Productclassificaties van Analytics {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 De classificatie van het Product Analytics is de enige classificatie die voor aanbevelingen beschikbaar is. Zie [Informatie over classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in de handleiding *Analytics Components* voor meer informatie over dit classificatiebestand. Mogelijk is niet alle informatie die u nodig hebt voor aanbevelingen beschikbaar in uw huidige implementatie. Volg deze gebruikershandleiding als u gegevens wilt toevoegen aan uw classificatiebestand.
 
@@ -221,7 +220,7 @@ De classificatie van het Product Analytics is de enige classificatie die voor aa
 >* [!DNL Target] biedt alleen ondersteuning voor productclassificaties. Het product-SKU Analytics moet op hetzelfde niveau worden toegewezen als [!DNL Recommendations] `entity.id`. Aangepaste analytische classificaties kunnen worden ontwikkeld met behulp van Adobe Consulting Services. Neem contact op met uw accountmanager voor vragen.
 
 
-## Feed {#steps} maken
+## Feed maken {#steps}
 
 Maak een feed om informatie over uw producten of services in te voegen in [!DNL Recommendations].
 
@@ -236,7 +235,7 @@ Maak een feed om informatie over uw producten of services in te voegen in [!DNL 
    * Google Product Feed
    * Analytische classificaties
 
-   Zie [Overzicht van feeds](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890) voor informatie over de feed CSV en Google Product Feed-typen. U kunt een modelCSV gids [ook downloaden om u te helpen de voer correct formatteren.](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv)
+   Zie [Overzicht van feeds](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890) voor informatie over de feed CSV en Google Product Feed-typen. U kunt een modelCSV gids [ook downloaden om u te helpen de voer correct formatteren.](/help/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)
 
 1. (Voorwaardelijk) Als u **[!UICONTROL CSV]** of **[!UICONTROL Google Product Feed]** selecteerde, specificeer de plaats waar de voer kan worden betreden.
 
@@ -311,7 +310,7 @@ Als u een feed wilt bijwerken (bijvoorbeeld om wijzigingen aan te brengen in de 
 >
 >Geüploade entiteiten verlopen na 61 dagen. Dit betekent dat uw voederdossier minstens om de 60 dagen moet worden geupload om een verstoring van uw aanbevelingen activiteiten te vermijden. Als een item niet minstens om de 60 dagen in een voederbestand (of een andere methode voor het bijwerken van entiteiten) is opgenomen, geeft [!DNL Adobe Target] aan dat het item niet langer relevant is en wordt het uit de catalogus verwijderd.
 
-### Indicatoren voor de voedingsstatus {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicatoren voor de voederstatus {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 De volgende statusindicatoren voor feed worden weergegeven in de kolom [!UICONTROL Status]:
 
