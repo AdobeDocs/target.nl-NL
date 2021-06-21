@@ -5,8 +5,7 @@ title: Hoe werk ik bij van versie 1.js naar versie 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
 workflow-type: tm+mt
 source-wordcount: '2751'
 ht-degree: 0%
@@ -33,7 +32,7 @@ De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.** Met weer
 | --- | --- |
 | 1 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
-| 1 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
+| 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht  `triggerView()`. |
@@ -46,9 +45,9 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 | Bellen | Details |
 | --- | --- |
-| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
-| 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
+| 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
@@ -337,7 +336,7 @@ De volgende parameters at.js 1.x worden *NOT* momenteel gesteund voor publieksve
 
 In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met verschillende activiteitstypen, integraties, functies en at.js-functies.
 
-### Activiteitstypen {#types}
+### Typen activiteiten {#types}
 
 | Type | Ondersteund? |
 | --- | --- |
@@ -353,7 +352,7 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met versch
 >
 >Auto-Target activiteiten worden gesteund door at.js 2.*VEC* uitbreiden wanneer alle wijzigingen op het  `Page Load Event`bestand worden toegepast. Als er wijzigingen worden toegevoegd aan bepaalde weergaven, worden alleen de activiteiten A/B Test, Auto-Allocate en Experience Targeting (XT) ondersteund.
 
-### Integratie {#integrations}
+### Integraties {#integrations}
 
 | Type | Ondersteund? |
 | --- | --- |
@@ -391,7 +390,7 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met versch
 | `?mboxDisable` | Ja |
 | `?mboxTrace` | Ja |
 | `?mboxSession` | Nee |
-| `?mboxOverride.browserIp` | Nee |
+| `?mboxOverride.browserIp` | Ja |
 
 ## Reactietokens {#response-tokens}
 
