@@ -4,10 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overzicht
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2847'
 ht-degree: 0%
 
 ---
@@ -35,14 +34,6 @@ Ontdek het [Doelcommunityforum](/help/cmp-resources-and-contact-information.md#c
 **Welke browsers worden door het doel ondersteund?**
 
 Lees onze [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) matrix voor meer informatie. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
-
-## Doel JavaScript-bibliotheken (at.js en mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**Welk implementatie-JavaScript-bestand moet ik gebruiken, at.js of mbox.js?**
-
-at.js is onze nieuwste en grootste JavaScript-bibliotheek. mbox.js is onze oudere versie. Zie [Voordelen van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) om de verschillen tussen de twee bibliotheken te begrijpen. Alle nieuwe klanten zouden at.js moeten gebruiken.
-
-Alle bestaande mbox.js-klanten moeten migreren naar at.js. Leer meer over de stappen betrokken bij [migrerend van mbox.js aan at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) alvorens de overgang te maken.
 
 ## Activiteiten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -159,7 +150,7 @@ Probeer de functie [Profielscripts](/help/c-target/c-visitor-profile/profile-par
 
 Gebruik de besturingselementen voor procentuele toewijzing beschikbaar in [Stap 2 van de Geleide workflow met instructies voor het doel (pagina met doelen)](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u de activiteit wilt instellen.
 
-**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
@@ -304,7 +295,7 @@ Breng deze wijzigingen aan met het gereedschap [Instellingen op de pagina Rappor
 
 We hebben geprobeerd zo intuïtief mogelijk rapporten te maken met functies zoals [betrouwbaarheidsintervalstaven, liftgrenzen, significantie/betrouwbaarheid en meerdere metrische selecties, tabel- en grafiekweergaven, lopende gemiddelden en meer](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) voor krachtige, maar eenvoudige rapportanalyse. Uiteraard kunt u in Analytics kijken als u [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) activiteiten voor verdere analyse op publiek gebruikt.
 
-## Reactietokens {#section_C2A7118B4B62482A9D630C2212112A3D}
+## Reactiepunten {#section_C2A7118B4B62482A9D630C2212112A3D}
 
 **Kan ik een integratie met een derdepartijsysteem, zoals Google Analytics of ClickTale uitvoeren, om de activiteiteninformatie over te gaan die aan een eindgebruiker voor analyse wordt geleverd?**
 
@@ -320,7 +311,7 @@ Gebruik de [pagina van de Status van het Systeem van de Adobe ](/help/r-release-
 
 Het spijt ons dat u problemen ondervindt. Controle [Het Doel van het Oplossen van problemen](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) voor verbindingen aan vele het oplossen van problemenonderwerpen.
 
-## Doel mobiele toepassingen {#section_07BA89F2C38747158ECD5B153274AEAF}
+## Doeltoepassingen voor mobiele apparaten {#section_07BA89F2C38747158ECD5B153274AEAF}
 
 **We hebben een mobiele SKU. Kan ik mobiele activiteiten maken?**
 
