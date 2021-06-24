@@ -5,10 +5,9 @@ title: Wat is inbegrepen in Elke Versie van mbox.js?
 feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -31,13 +30,13 @@ De manier waarop Doel reageert op aanroepen vanuit uw pagina is afhankelijk van 
 
 >[!NOTE]
 >
->De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
+>De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren.
 
 ## mbox.js versie 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Doelversie:** 17.7.1
 
-[!DNL mbox.js] versie 63 is nu beschikbaar. Zie [mbox.js downloaden](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md) voor meer informatie.
+[!DNL mbox.js] versie 63 is nu beschikbaar.
 
 De volgende verbeteringen en correcties zijn opgenomen in [!DNL mbox.js] versie 63:
 
@@ -101,7 +100,7 @@ Ook in Versie 60, als het [!DNL visitorAPI.js] dossier voor de dienst van identi
 
 * asynchrone aanroepen van V60
 
-   Wanneer u v60 gebruikt met de service bezoekersidentiteitskaart, worden alle mbox-aanroepen asynchroon uitgevoerd. Dit is een verandering van hoe dozen altijd hebben gewerkt, dus voorzie als het bevorderen aan deze versie. Lees de sectie [Asynchrone Overwegingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) van de [!DNL at.js] documentatie ( [!DNL at.js] gebruikt ook asynchrone vraag) om enkele risico&#39;s te begrijpen.
+   Wanneer u v60 gebruikt met de service bezoekersidentiteitskaart, worden alle mbox-aanroepen asynchroon uitgevoerd. Dit is een verandering van hoe dozen altijd hebben gewerkt, dus voorzie als het bevorderen aan deze versie.
 * Nieuwe bezoekersscenario&#39;s kunnen flikkeren
 
    Wanneer u v58 tot v60 gebruikt met de service bezoekersidentiteitskaart, wachten mbox-aanroepen tot de bezoekersidentiteitskaart is ingesteld voordat deze wordt geactiveerd (of totdat een time-out is opgetreden). Dit gebeurt bij het laden van de eerste pagina van een nieuwe bezoeker.
@@ -119,7 +118,7 @@ mbox.js versie 59 bevat de volgende verbeteringen:
 
    In plaats van `display:none` te gebruiken om de pagina te verbergen zoals in versie 58, `opacity:0` wordt gebruikt. Dit verhelpt problemen met responsieve sites die het gevolg zijn van de vorige methode om de pagina te verbergen.
 
-## mbox.js versie 58 {#section_5070B0D1C87F4937BB97727923DD36C7}
+## mbox.js, versie 58 {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Doelversie:** 15.7.1
 
@@ -184,7 +183,7 @@ mbox.js versie 57 bevat ook belangrijke oplossingen:
 * Probleem verholpen waarbij extra JavaScript-fouten zijn opgetreden als gevolg van bereikwijziging.
 * Wijzigingen in constructor van mboxFactory herstellen.
 
-## mbox.js versie 56 {#section_C4F4A53584B741FF9FD907D81CB7E164}
+## mbox.js, versie 56 {#section_C4F4A53584B741FF9FD907D81CB7E164}
 
 **Doelversie:** 15.1.2
 
