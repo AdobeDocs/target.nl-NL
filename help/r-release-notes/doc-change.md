@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 24 juni | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de [!DNL Target Standard/Premium] 21.6.1-release (30 juni 2021) zijn bijgewerkt. |
 | 16 juni | [[!DNL Target] releaseopmerkingen (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de [!DNL Adobe Target] release van Python SDK versie 1.0.0. |
 |  | [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen bestaan?</li></ul> |
 | 8 juni | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Opmerking die aangeeft dat at.js 1.8.0 of hoger niet meer werkt met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters [!DNL Adobe Audience Manager] (AAM). |
