@@ -5,10 +5,9 @@ title: Migreren naar at.js vanuit mbox.js
 feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -97,7 +96,7 @@ Gebruik de volgende stappen om van [!DNL mbox.js] naar [!DNL at.js] te migreren 
    Hier volgen enkele voorbeelden van wat u kunt doen tijdens het testen om te bevestigen dat [!DNL at.js] naar behoren werkt:
 
    * Zorg ervoor dat al uw huidige activiteiten werken met de nieuwe JavaScript-bibliotheek.
-   * Bevestig dat alle [integraties](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) en [plugins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) zoals verwacht werken.
+   * Bevestig dat alle [integraties](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) en plug-ins naar behoren werken.
    * Zorg ervoor dat u comfortabel [foutopsporing](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) bent met de benaderingen die beschikbaar zijn bij [!DNL at.js].
 
 **Mogelijke problemen bij het migreren naar at.** jsSommige klanten hebben na het uitvoeren van de migratie naar at.js de volgende problemen gemeld:
@@ -125,4 +124,4 @@ In deze gevallen kunnen elementkiezers beginnen met iets als
 
    Voor meer informatie over hoe te om de coderedacteur te gebruiken om dit te doen, zie [de Redacteur van de Code](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Omdat alle vakken nu asynchroon zijn, blokkeren ze het weergeven van pagina&#39;s of retourneren ze niet in de volgorde waarin ze zijn gestart. Voor meer informatie, zie &quot;Asynchrone Overwegingen&quot;in [at.js Beperkingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Omdat alle vakken nu asynchroon zijn, blokkeren ze het weergeven van pagina&#39;s of retourneren ze niet in de volgorde waarin ze zijn gestart.
