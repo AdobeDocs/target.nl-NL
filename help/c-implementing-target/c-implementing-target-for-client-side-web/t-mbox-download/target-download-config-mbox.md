@@ -5,10 +5,9 @@ title: Hoe kan ik de bibliotheek [!DNL Target] mbox.js downloaden?
 feature: at.js
 role: Developer
 exl-id: 92096b1b-a8a5-435b-8e62-24b5d15d392f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -29,14 +28,12 @@ Als u [!DNL Adobe Target] [!UICONTROL Visual Experience Editor] wilt gebruiken, 
 1. Klik op **[!UICONTROL Download mbox.js]** en volg de aanwijzingen om het bestand op te slaan.
 1. (Voorwaardelijk) Als u [!DNL mbox.js] versie 60 of later gebruikt, kunt u de bibliotheek zodanig configureren dat de pagina-inhoud standaard automatisch wordt verborgen totdat de vakken worden geladen, zodat er minder flikkering optreedt op responsieve sites.
 
-   Zie &quot;Paginabelastingsflikkering onderdrukken&quot; in [mbox.js Advanced Settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C) voor meer informatie.
-
 1. Maak de [!DNL mbox.js] verwijzing op de website.
 
    Vanaf [!DNL mbox.js] versie 57 kan de [!DNL mbox.js] verwijzing overal binnen `<head>` sectie van de pagina worden geplaatst.
 
    >[!IMPORTANT]
    >
-   >Als u een versie van [!DNL mbox.js] voorafgaand aan versie 57 gebruikt, moet de verwijzing het laatste punt in `<head>` sectie van uw pagina&#39;s zijn. Als de verwijzing niet het laatste item is, kunnen er ernstige weergave- of prestatieproblemen optreden. Zie [Wat mbox.js doet](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md) voor meer informatie.
+   >Als u een versie van [!DNL mbox.js] voorafgaand aan versie 57 gebruikt, moet de verwijzing het laatste punt in `<head>` sectie van uw pagina&#39;s zijn. Als de verwijzing niet het laatste item is, kunnen er ernstige weergave- of prestatieproblemen optreden.
 
 1. Upload het opgeslagen [!DNL mbox.js]-bestand naar de locatie in uw hostingomgeving die u in de code hebt opgegeven.
