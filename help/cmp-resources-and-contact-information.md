@@ -4,10 +4,9 @@ description: Leer over extra middelen om u te helpen over Adobe [!DNL Target] ei
 title: Waar kan ik middelen en contactinformatie voor Doel vinden?
 feature: Opmerkingen bij de release, overzicht
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Informatie over extra middelen om u te helpen over de eigenschappen van het Doel leren en hoe te om Adobe te contacteren als u hulp met Doel nodig hebt.
 
-## Doelcommunautair forum {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## Doelforum van de Gemeenschap {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
 De Target Community is je one-stop shop voor alles wat Adobe Target doet.
 
@@ -28,14 +27,14 @@ Met de community kunt u:
 
 Bezoek het [Doelcommunityforum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) om aan de slag te gaan.
 
-## Doelbasis Webinar-reeks {#concept_11902FAC95C64479AABE020557A7EEE4}
+## Doelbasis van de webinarreeks {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 De informatie van de registratie en verbindingen met vorige zittingen van de Reeks van de Grondbeginselen van het Doel Webinar, een Reeks van het Succes van de Klant Webinar die aan u door de Gemeenschap wordt gebracht.
 
 [Klik hier voor meer informatie over komende sessies en registratiegegevens](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
 
-## Adobe uur {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
+## Adobe Customer Care Office-uren {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 &quot;Office Hours&quot; is een initiatief van het Adobe Customer Care-team. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om te slagen met de Adobe Experience Cloud-oplossingen, waaronder Target.
 
@@ -49,7 +48,7 @@ Huidige opgenomen doelsessies zijn:
 | [Doelpremiumwerkruimten](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49<br>september 4, 2018 | U leert:<ul><li>Een werkruimte maken (productprofiel)</li><li>Eigenschappen maken</li><li>Gebruikers toevoegen</li><li>Implementatie bijwerken</li></ul>Voor meer informatie, zie [De gebruikerstoestemmingen van de Onderneming](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>december 2017 | U leert:<ul><li>Hoe werkt VEC</li><li>Hoe te vermijden gemeenschappelijke kwesties met VEC</li><li>Werk-rond praktijken u met VEC kunt gebruiken</li></ul>Zie [Ervaringen](/help/c-experiences/experiences.md) voor meer informatie in deze handleiding. |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>januari 2018 | U leert:<ul><li>Hoe te opstelling en te bevestigen dat de integratie werkt </li><li>Hoe de integratie werkt</li><li>Meer informatie over de ideale rapporten die u kunt gebruiken in Analytics</li><li>Antwoorden op algemene vragen over A4T</li></ul>Voor meer informatie in deze gids, zie [Adobe Analytics als Rapporterende Bron voor Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js: Voordelen en best practices](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br> voor implementatie 26:43<br>april 2018 | U leert: <ul><li>Hoe de bibliotheek at.js werkt</li><li>De voordelen van at.js ten opzichte van mbox.js</li><li>Hoe at.js flikkering beheert</li><li>Foutafhandeling in at.js</li><li>Foutopsporingsmethoden</li><li>Bekende problemen en toekomstig stappenplan</li></ul>Zie [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) voor meer informatie in deze handleiding. |
+| [at.js: Voordelen en best practices](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br> voor implementatie 26:43<br>april 2018 | U leert: <ul><li>Hoe de bibliotheek at.js werkt</li><li>De voordelen van at.js ten opzichte van mbox.js</li><li>Hoe at.js flikkering beheert</li><li>Foutafhandeling in at.js</li><li>Foutopsporingsmethoden</li><li>Bekende problemen en toekomstig stappenplan</li></ul> |
 
 >[!NOTE]
 >
@@ -84,7 +83,7 @@ Voor de snelste versie van uw uitgave, gelieve de volgende basisinformatie klaar
 
 Zie [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md) voor mogelijke oplossingen en informatie over probleemoplossing.
 
-### Bij een storing {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### In geval van uitval {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Als u vermoedt dat er een stroomstoring is, controleert u eerst de [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) Dit heeft een overzicht van alle uitvallen, incidenten en onderhoud voor de Oplossingen van Experience Cloud, met inbegrip van Doel, en omvat de recentste updates van ons team van TechOps. Als u nog steeds hulp nodig hebt, moet u naast de bovenstaande informatie het volgende weten wanneer u contact opneemt met de klantenservice:
 
@@ -111,15 +110,15 @@ Als u geavanceerde meldingen wilt ontvangen over toekomstige productverbeteringe
 
 [Adobe Priority-productupdate](https://www.adobe.com/subscription/priority-product-update.html)
 
-### Service, capaciteit en facturering {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
+### Service, mogelijkheden en facturering {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
 Afhankelijk van uw oplossingsconfiguratie zijn sommige opties die in deze documentatie worden beschreven mogelijk niet beschikbaar voor u. Aangezien elke account uniek is, kunt u uw overeenkomst raadplegen voor prijzen, vervaldatums, voorwaarden en bepalingen. Neem contact op met uw accountmanager als u uw serviceniveau wilt uitbreiden of anderszins wilt wijzigen, of als u vragen hebt over uw huidige service.
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-We zijn blij met eventuele suggesties of feedback met betrekking tot deze oplossing. U kunt verbeteringsideeën en suggesties toevoegen aan de [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Klik op het tabblad [!UICONTROL Ideas].
+We zijn blij met eventuele suggesties of feedback met betrekking tot deze oplossing. De ideeën en de suggesties van de verbetering kunnen aan [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) worden toegevoegd. Klik op het tabblad [!UICONTROL Ideas].
 
-### Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
+### Juridisch {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 * © 2021 Adobe Systems Incorporated. all rights reserved.
 * Gepubliceerd door Adobe Systems Incorporated.
