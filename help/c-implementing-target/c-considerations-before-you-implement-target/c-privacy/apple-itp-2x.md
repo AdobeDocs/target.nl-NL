@@ -5,10 +5,9 @@ title: Hoe wordt  [!DNL Target] Apple ITP-ondersteuning verwerkt?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Deze versies van ITP bevatten de volgende beperkingen:
 
 ## Wat is de impact voor mij als Adobe [!DNL Target] klant? {#impact}
 
-[!DNL Target] biedt JavaScript-bibliotheken waarmee u inhoud op uw pagina&#39;s kunt implementeren zodat u uw bezoekers in real-time kunt personaliseren.  [!DNL Target] Er zijn drie JavaScript-doelbibliotheken ([at.js 1.x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) en [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) die cookies aan de clientzijde [!DNL Target] via de `document.cookie`-API in de browsers van uw bezoekers plaatsen. Als gevolg hiervan worden [!DNL Target] cookies beïnvloed door ITP 2.x van Apple en verlopen deze na zeven dagen (met ITP 2.1) en na één dag (met ITP 2.2 en ITP 2.3).
+[!DNL Target] biedt JavaScript-bibliotheken waarmee u inhoud op uw pagina&#39;s kunt implementeren zodat u uw bezoekers in real-time kunt personaliseren.  [!DNL Target] Er zijn drie Target JavaScript-bibliotheken op .js 1.x, op.js 2.x die client-side [!DNL Target] cookies plaatsen in de browsers van uw bezoekers via de `document.cookie` API. Als gevolg hiervan worden [!DNL Target] cookies beïnvloed door ITP 2.x van Apple en verlopen deze na zeven dagen (met ITP 2.1) en na één dag (met ITP 2.2 en ITP 2.3).
 
 Apple ITP 2.x beïnvloedt [!DNL Target] op de volgende gebieden:
 
