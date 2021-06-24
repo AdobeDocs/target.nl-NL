@@ -5,8 +5,7 @@ title: Hoe werkt de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 2%
@@ -21,7 +20,7 @@ In een client-side implementatie van [!DNL Adobe Target] levert [!DNL Target] de
 
 ## Wat is at.js?
 
-De [at.js bibliotheek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. We raden u aan dat alle klanten de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) implementeren of naar deze nieuwste versie migreren.
+De bibliotheek at.js is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. We raden u aan dat alle klanten de [nieuwste versie van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) implementeren of naar deze nieuwste versie migreren.
 
 Zie [JavaScript-bibliotheken van doel](/help/c-intro/how-target-works.md#libraries) voor meer informatie.
 
@@ -44,9 +43,9 @@ Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met wee
 
 | Stap | Details |
 | --- | --- |
-| 1 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
+| 3 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd. |
-| 1 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
+| 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor weergaven die worden weergegeven als gevolg van gebruikershandelingen in een SPA, wordt in de browser in de cache opgeslagen, zodat deze direct kan worden toegepast zonder extra serveraanroep wanneer de weergaven worden geactiveerd  `triggerView()`. |
@@ -59,7 +58,7 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 | Stap | Details |
 | --- | --- |
-| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
@@ -80,8 +79,8 @@ Zie [Begrijpen hoe at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-dia
 
 | Stap | Beschrijving | Bellen | Beschrijving |
 |--- |--- |--- |--- |
-| 1 | De vraag keert [!DNL Experience Cloud ID] (MCID) terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen. |
-| 1 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De opslag vraagt gekwalificeerd publiek van [!UICONTROL Audience Library] (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Audience Manager], enz. wordt gedeeld).<br>Klantkenmerken worden  [!DNL Profile Store] in een batchproces naar de klant verzonden. |
+| 3 | De vraag keert [!DNL Experience Cloud ID] (MCID) terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen. |
+| 3 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De opslag vraagt gekwalificeerd publiek van [!UICONTROL Audience Library] (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Audience Manager], enz. wordt gedeeld).<br>Klantkenmerken worden  [!DNL Profile Store] in een batchproces naar de klant verzonden. |
 | 5 | Op basis van de URL, mbox-parameters en profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd aan de bezoeker. | 6 | Gerichte inhoud wordt teruggestuurd naar pagina, met eventueel ook profielwaarden voor extra personalisatie.<br>De ervaring wordt zo snel mogelijk getoond zonder flikkering van standaardinhoud. |
 | 7 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. | 8 | [!DNL Target] gegevens worden via de SDID aan  [!DNL Analytics] gegevens aangepast en worden in de  [!DNL Analytics]  rapportageopslag verwerkt.<br>[!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als   [!DNL Target] via  [!DNL Analytics for Target] (A4T) rapporten worden bekeken. |
 
@@ -98,7 +97,7 @@ Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leid
 
 >[!VIDEO](https://video.tv.adobe.com/v/27959)
 
-## Hoe geeft at.js aanbiedingen met HTML-inhoud {#render} weer
+## Hoe geeft at.js aanbiedingen met HTML-inhoud weer {#render}
 
 Bij rendering van aanbiedingen met HTML-inhoud past at.js het volgende algoritme toe:
 
