@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Opmerkingen bij de release
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4335'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Met de interface [!DNL Target] kunnen gebruikers niet-ondersteunde incasso&#39;s
 
 Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### Aanlevering van pagina {#page-delivery}
+### Paginalevering {#page-delivery}
 
 Als u een malplaatjeregel, zoals URL bevat (/checkout, /cart) in [paginalevering](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zijn de extra ruimten vooraf aan uw regels. Deze extra ruimten zijn cosmetisch en hebben geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
 
@@ -100,7 +100,7 @@ In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven
 De volgende problemen zijn bekend met at.js:
 
 * Als u versies at.js vóór 2.2.0 gebruikt, rapporteert het bijhouden van klikken geen conversies in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie ](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) op at.js als dit probleem zich voordoet.
-* Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) mogelijk niet correct.
+* Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de insteekmodule ttMeta mogelijk niet correct.
 
    Als oplossing gebruikt u een witruimte in de ervaringsinhoud. (TNT-33366)
 
@@ -188,7 +188,7 @@ De volgende kwesties in verband met A4T zijn opgelost:
 
 Als u nog vragen hebt, kunt u contact opnemen met uw Customer Success Manager (CSM) of [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (PB 2011/11/EG)
 
-### Automatische rapportage {#at-metrics}
+### Automatische doelrapportage {#at-metrics}
 
 Er is een probleem opgelost dat gevolgen heeft voor [!DNL Adobe Target Premium] gebruikers’ [!UICONTROL Auto-Target] rapportage vanaf 15 september, 2:30 uur. (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (die of wordt gevormd gebruikend &quot;[!UICONTROL Viewed a page]&quot;of &quot;[!UICONTROL Clicked on mbox]&quot;optie) wordt gevormd, worden de omzettingspercentages verkeerd gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
 
@@ -200,7 +200,7 @@ Je melding opnieuw synchroniseren en corrigeren:
 
 (TGT-38522, CSO 201006007)
 
-### {#conversions-audiences} rapporteren
+### Rapportage {#conversions-audiences}
 
 Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebruikt.
 
@@ -229,12 +229,6 @@ Zie voor meer informatie en een oplossing &quot;Hoe beïnvloedt het onlangs aang
 Het grafiekrapport voor een activiteit auto-Doel ontbreekt om voor &quot;differentiële&quot;wijzen (Gemiddelde Lift en Dagelijkse Lift) terug te geven als er geen gegevens (0 bezoeken) in om het even welke ervaring zijn. Deze situatie kan zich voordoen tijdens de vroege fase van een activiteit als de controleervaring aan douane wordt geplaatst. Voor de andere wijzen (het Lopen Gemiddelde Controle en Gericht, Dagelijkse Controle en Gericht, en Bezoek) werkt het fijn. Zodra er gegevens zijn (bezoeken die niet gelijk zijn aan nul), wordt het rapport weergegeven zoals verwacht.
 
 Dit probleem is opgelost in de Doelversie 19.7.1.
-
-### mbox.js
-
-De bibliotheek mbox.js ondersteunt geen sjabloontalen aan de clientzijde, zoals Handlebars en Mustache. De bibliotheek at.js *biedt ondersteuning voor deze talen.*
-
-**Opmerking**: De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten van mbox.js naar at.js migreren. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) voor meer informatie.
 
 ### Implementatie: Automatisch een globale box maken
 
