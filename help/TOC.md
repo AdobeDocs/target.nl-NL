@@ -5,7 +5,7 @@ user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en 
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,6 @@ ht-degree: 0%
          + [Een bevestigingsbox voor bestellingen maken - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [mbox.js, vaak gestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js, functies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
-         + [mbox.js, versiedetails](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + Globale box {#global-mbox} begrijpen
          + [Globaal mbox-overzicht](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Een globale box aanpassen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
