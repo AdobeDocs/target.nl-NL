@@ -4,8 +4,7 @@ description: Leer hoe Adobe [!DNL Target] de conversiesnelheid, lift, betrouwbaa
 title: Hoe bekijk ik het Tarief van de Omzetting, Lift, en het Niveau van het Vertrouwen?
 feature: Rapporten
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2162'
 ht-degree: 0%
@@ -38,7 +37,7 @@ De eerste regel is de besturingservaring. Het toont een 15% omzettingspercentage
 >
 >Momenteel, wordt het betrouwbaarheidsinterval berekend slechts voor binaire metriek.
 
-## {#section_0F409572C720433D9378092ABC999982} optillen
+## Optillen {#section_0F409572C720433D9378092ABC999982}
 
 Vergelijkt de omrekeningskoers voor elke ervaring met controle.
 
@@ -54,9 +53,9 @@ Zie [Vertrouwensniveau en Vertrouwensinterval](/help/c-reports/conversion-rate.m
 
 ## Detailgegevens {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV-, RPV- en verkoopgegevens worden voor elke ervaring weergegeven als u een vakje [Place Order](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) ( `orderConfirmPage`) hebt ingevoegd en dit als het conversiembox hebt geselecteerd.
+AOV-, RPV- en verkoopgegevens worden voor elke ervaring weergegeven als u een vak Plaatsvolgorde (`orderConfirmPage`) hebt ingevoegd en dit als het conversiemavak hebt geselecteerd.
 
-## Betrouwbaarheidsniveau en betrouwbaarheidsinterval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Vertrouwensniveau en betrouwbaarheidsinterval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 Voor elke ervaring worden het betrouwbaarheidsniveau en het betrouwbaarheidsinterval weergegeven.
 
@@ -67,7 +66,7 @@ Conversies en doorlopende variabelen voor op doelen gebaseerde metriek, zoals om
 
 U kunt offlineberekeningen voor Analytics voor Doel (A4T) uitvoeren, maar het vereist een stap met gegevensuitvoer in [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor analyse voor doel (A4T)&quot; hieronder voor meer informatie.
 
-### Vertrouwelijkheidsniveau {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Vertrouwensniveau {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
 Het *betrouwbaarheidsniveau* wordt vertegenwoordigd door het donkerdere percentage in de kolom van het Tarief van de Omzetting voor elke ervaring.
 
@@ -85,7 +84,7 @@ Als het betrouwbaarheidsniveau boven 90% of 95% ligt, kan het resultaat als stat
 >
 >Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
 
-### Vertrouwelijkheidsinterval {#section_F582738DFE1648C78B93D81EBC6CACF7}
+### Vertrouwelijk interval {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
 >[!NOTE]
 >
@@ -102,7 +101,7 @@ Het *betrouwbaarheidsinterval* is een bereik waarbinnen de werkelijke waarde op 
 * **Samplegrootte:** Als het monster groeit, wordt het interval kleiner of kleiner. Dit wordt geprefereerd aangezien het betekent uw rapporten dichter aan de ware waarde van succes metrisch raken.
 * **Standaardafwijking kleiner:** meer vergelijkbare resultaten, zoals vergelijkbare AOV&#39;s of vergelijkbare nummers of bezoekers die elke dag converteren, verminderen de standaardafwijking.
 
-## De Berekening van het vertrouwen en hoe te om het off-line {#section_86F7C231943043A5B8B6BFE67B706E3B} uit te voeren
+## De Berekening van het vertrouwen en hoe te om het off-line uit te voeren {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Het [gedownloade CSV-rapport](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) bevat alleen onbewerkte gegevens en bevat geen berekende meetgegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests.
 
@@ -112,7 +111,7 @@ Als u deze berekende metriek wilt berekenen, downloadt u het Excel-bestand [Comp
 >
 >Deze rekenmachine is bedoeld voor op Target gebaseerde rapportage en niet voor A4T-rapportage.
 
-## Offlineberekeningen uitvoeren voor analyse voor Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Offlineberekeningen uitvoeren voor analyses voor Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics].
 
