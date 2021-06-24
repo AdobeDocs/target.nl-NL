@@ -5,10 +5,9 @@ title: Wat zijn een aantal veelgestelde vragen over  [!DNL Target] mbox.js?
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -22,16 +21,6 @@ Antwoorden op veelgestelde vragen over mbox.js.
 >**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 zullen alle aanroepen van mbox.js netjes mislukken en van invloed zijn op uw pagina&#39;s die [!DNL Target] activiteiten hebben die door standaardinhoud te dienen worden uitgevoerd.
 >
 >We raden alle klanten aan vóór deze datum te migreren naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## Wat is het effect van mbox.js op pagina-lading tijden? {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-Zie [Voordelen van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) voor meer informatie.
-
-## Waarom krijg ik &quot;Parser-blocking&quot;waarschuwingsberichten in Google Chrome wanneer het gebruiken van mbox.js en document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
-
-Dit consolebericht toont wanneer het gebruiken van Chrome in vele scenario&#39;s waarin de functie `document.write` binnen het mbox.js- dossier wordt gebruikt. Dit is een waarschuwingsbericht en heeft geen invloed op het installatieproces van uw activiteit.
-
-De beste manier om deze situatie te verhinderen is [uw implementatie van het Doel aan de bibliotheek van at.js JavaScript ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) te migreren, die niet de `document.write` functie gebruikt. Het gebruik van at.js biedt veel voordelen ten opzichte van het gebruik van mbox.js. Zie [at.js Veelgestelde vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769) voor meer informatie.
 
 ## Waarom worden mijn dozen niet op mijn webpagina&#39;s geactiveerd? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
