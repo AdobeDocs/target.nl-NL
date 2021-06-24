@@ -4,10 +4,9 @@ description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Tar
 title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Wat je moet weten voordat je een Recommendations-activiteit maakt.
 
-## Recommendations {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1} plannen en implementeren
+## Recommendations plannen en implementeren {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1}
 
 Wat u moet weten voordat u een [!DNL Recommendations]-activiteit maakt.
 
@@ -24,13 +23,13 @@ Wat u moet weten voordat u een [!DNL Recommendations]-activiteit maakt.
 
 | Stap | Informatie | Details |
 |--- |--- |--- |
-| ![Stap 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-bibliotheek | Voor elke pagina is een verwijzing naar versie 0.js 0.9.1 (of hoger) of versie 55 (of hoger) van mbox.js vereist. Deze implementatiestap is vereist op alle pagina&#39;s waar een doelactiviteit wordt gebruikt en kan sleutels zoals een product of een categorie ID omvatten.<BR>Zie  [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) voor meer informatie over at.js.<br>Zie  [Mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) voor meer informatie over mbox.js. |
+| ![Stap 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-bibliotheek | Voor elke pagina is een verwijzing naar versie 0.js 0.9.1 (of hoger) of versie 55 (of hoger) van mbox.js vereist. Deze implementatiestap is vereist op alle pagina&#39;s waar een [!DNL Target] activiteit zal worden gebruikt, en kan sleutels zoals een product of een categorie ID omvatten. |
 | ![Stap 2](/help/c-recommendations/assets/step2_red.png) | Toetsen | De sleutel bepaalt het type product of inhoud dat in uw aanbevelingen wordt weergegeven. De sleutel kan bijvoorbeeld een productcategorie zijn. Zie [De aanbeveling baseren op een Sleutel van de Aanbeveling](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 | ![Stap 3](/help/c-recommendations/assets/step3_red.png) | Attributen | Kenmerken bieden specifiekere informatie over de producten die u wilt weergeven. U kunt bijvoorbeeld producten weergeven binnen een bepaald prijsbereik of objecten die aan een voorraaddrempel voldoen. Kenmerken kunnen worden opgegeven in de mbox of via een [feed](/help/c-recommendations/c-products/feeds.md).<br>Zie  [Opnameregels](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) opgeven. |
 | ![Stap 4](/help/c-recommendations/assets/step4_red.png) | Uitsluitingen | De uitsluitingen bepalen welke specifieke punten niet in uw aanbevelingen verschijnen.<br>Zie  [Uitsluitingen](/help/c-recommendations/c-products/exclusions.md). |
 | ![Stap 5](/help/c-recommendations/assets/step5_red.png) | Aankoopgegevens | De koopgegevens bevatten informatie over de aangeschafte objecten en de order wanneer de aankoop is voltooid. |
 
-## Basis-implementatie {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
+## Basisimplementatie {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
 De basisimplementatie vereist dat u parameters aan uw pagina doorgeeft die bepalen welke producten of de diensten in uw aanbevelingen verschijnen.
 
@@ -81,7 +80,7 @@ Wanneer de feed is ingesteld en aan [!DNL Recommendations] is doorgegeven, geeft
 
 Prioriteit wordt gegeven aan welke reeks gegevens het laatst wordt uitgevoerd. Als u eerst de feed doorgeeft en vervolgens de paginaparameters bijwerkt, worden de wijzigingen die in de paginaparameters zijn aangebracht, weergegeven ter vervanging van de iteminformatie die in de feed is doorgegeven.
 
-## Voorbeeld twee: Geef alle parameters op de pagina met productdetails (of inhoudsgegevens) {#section_D5A4F69457604CA7AACFD7BFF79B58A9} door
+## Voorbeeld twee: Geef alle parameters op de pagina met productdetails (of inhoudsgegevens) door {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Als u alle parameters op de pagina doorgeeft, kunt u snel updates uitvoeren door de pagina bij te werken. In sommige organisaties vereist dit de betrokkenheid van IT of uw team van het Ontwerp van het Web.
 
@@ -138,15 +137,9 @@ Voor alle pagina&#39;s die aanbevelingen bevatten, is een [!DNL at.js]- of [!DNL
 
 Deze implementatie vereist:
 
-* [!DNL at.js] versie 0.9.2 (of hoger) of  [!DNL mbox.js] versie 55 (of hoger)
-
-* [!DNL mbox.js] moet de verwijzing naar  [!DNL target.js] (  [!DNL at.js] geen verwijzing naar vereist  [!DNL target.js]) bevatten
+* [!DNL at.js] versie 0.9.2 (of hoger)
 
 Voor meer informatie over het uitvoeren van [!DNL at.js], zie [hoe te bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556) opstellen.
-
-Zie [Mbox.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420) voor meer informatie over het implementeren van [!DNL mbox.js].
-
-Voor meer informatie over de verschillen tussen de twee bibliotheken van het Doel Javascript, zie [Voordelen van at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Categoriepagina {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -179,7 +172,7 @@ function targetPageParams() {
 }
 ```
 
-## Nieuwe pagina {#section_D37E48700F074556B925D0CA0291405E}
+## Winkelpagina {#section_D37E48700F074556B925D0CA0291405E}
 
 Op een winkelwagentje wilt u waarschijnlijk bepaalde items uitsluiten van uw aanbevelingen, zoals de items die al in het winkelwagentje staan.
 
@@ -193,12 +186,11 @@ function targetPageParams() {
 </script>
 ```
 
-## Bedankt voor uw pagina {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Dankbriefje {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 Op de pagina Hartelijk dank kunt u het totaal van de bestellingen en de bestellings-id weergeven en de aangekochte producten weergeven zonder extra objecten aan te raden. U kunt een tweede box uitvoeren om de ordeinformatie te vangen.
 
 * Als u at.js gebruikt, zie [Conversies van het Spoor](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Als u mbox.js gebruikt, zie [Een doos van de Bevestiging van de Orde creëren - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Instellingen {#concept_C1E1E2351413468692D6C21145EF0B84}
 
