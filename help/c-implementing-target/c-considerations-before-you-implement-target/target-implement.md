@@ -3,10 +3,9 @@ keywords: document.write;target;Implementeren;doel implementeren;dtm;at.js;mbox.
 description: Voer Adobe [!DNL Target] by referencing the [!DNL Target] bibliotheken (at.js of mbox.js) op uw Web-pagina's uit.
 title: De [!DNL Target] JavaScript-bibliotheken begrijpen
 feature: Implementatie
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -18,18 +17,18 @@ Implementeer [!DNL Adobe Target] door te verwijzen naar de [!DNL Adobe Target]-b
 
 >[!NOTE]
 >
->De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten vóór 31 maart 2021 migreren van mbox.js naar at.js of naar [!UICONTROL Adobe Experience Platform Web SDK]. Zie [Migreren naar at.js vanuit mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) of [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) voor meer informatie.
+>De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten vóór 31 maart 2021 migreren van mbox.js naar at.js of naar [!UICONTROL Adobe Experience Platform Web SDK].
 
-## Verschillen tussen de [!DNL Target] JavaScript-bibliotheken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Verschillen tussen de JavaScript-bibliotheken [!DNL Target] {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 In de volgende tabel worden de verschillen tussen de JavaScript-bibliotheken [!DNL Target] uitgelegd:
 
 | Bibliotheekreferentie | Beschrijving |
 |--- |--- |
 | Adobe Experience Platform Web SDK | Met [!UICONTROL Adobe Experience Platform Web SDK] kunt u via het Adobe Experience Edge Network communiceren met de verschillende services in [!DNL Experience Cloud] (inclusief [!DNL Target]). Als u ervoor kiest om naar [!DNL Adobe Experience Platform Web SDK] te migreren, zie [Wat is Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) in *Web SDK Guide*. |
-| at.js | at.js vervangt mbox.js voor [!DNL [!DNL Target]] implementaties.<br>Met at.js worden onder andere de laadtijden voor webimplementaties verbeterd, wordt de beveiliging verbeterd, wordt voorkomen dat documenten.write-waarschuwingen in Google Chrome verschijnen en worden betere implementatieopties geboden voor toepassingen van één pagina.<br>Zie  [at.js Implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) voor meer informatie. |
+| at.js | at.js vervangt mbox.js voor [!DNL [!DNL Target]] implementaties.<br>Met at.js worden onder andere de laadtijden voor webimplementaties verbeterd, wordt de beveiliging verbeterd, wordt voorkomen dat documenten.write-waarschuwingen in Google Chrome verschijnen en worden betere implementatieopties geboden voor toepassingen van één pagina. |
 
-## Effect van at.js op pagina-lading tijd {#section_16630CD0FF0A498EB596A51381366A5A}
+## Effect van at.js op de tijd van het laden van de pagina {#section_16630CD0FF0A498EB596A51381366A5A}
 
 Veel klanten en consultants willen weten wat de impact is van [!DNL at.js] op de laadtijd van pagina&#39;s, met name in de context van nieuwe gebruikers of gebruikers die de pagina&#39;s retourneren. Jammer genoeg, is het moeilijk om concrete aantallen betreffende te meten en te geven hoe [!DNL at.js] paginaladingstijd wegens de implementatie van elke klant beïnvloedt.
 
