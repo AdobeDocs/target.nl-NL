@@ -4,20 +4,19 @@ description: Meer informatie over de oudere mbox.js-implementatie van Adobe Targ
 title: Wat zijn de verschillen tussen at.js en mbox.js?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
-
 
 # om.js Beperkingen
 
 Er zijn enkele verschillen tussen at.js en mbox.js. Deze sectie maakt een lijst van enkele verschillen en beperkingen, om u te helpen met at.js succesvol zijn.
 
-## Bekende beperkingen van composer voor visuele ervaring {#section_4B63C97169DE4C93B22944E880FD3DF1}
+## Bekende beperkingen van composers voor visuele ervaring {#section_4B63C97169DE4C93B22944E880FD3DF1}
 
 * De opties Element invoegen en Opnieuw rangschikken in Composer visuele ervaring moeten worden vermeden in apps van één pagina.
 
@@ -28,9 +27,8 @@ Er zijn enkele verschillen tussen at.js en mbox.js. Deze sectie maakt een lijst 
 Sommige functies in [!DNL mbox.js] zijn niet beschikbaar in [!DNL at.js]. Interne [mbox.js-objecten en -methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (zoals `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` en andere) worden niet meer ondersteund door [!DNL at.js] (voorbeeld: `mboxFactoryDefault`). Dit is door ontwerp, bedoeld om u te ontmoedigen om [!DNL at.js] te &quot;hacken&quot;om niet gestaafde functionaliteit te ontwikkelen die op lange termijn een implementatie kan verlammen en het onmogelijk maken om te bevorderen. De enige methoden die beschikbaar zijn, worden beschreven in de API-pagina&#39;s van deze documentatie. Daarom:
 
 * Verouderde, op pagina&#39;s gebaseerde [integraties](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) met andere Adobe oplossingen werken mogelijk niet en zouden aan nieuwere, server-zijintegratie moeten worden bevorderd.
-* [Aangepaste plug-ins die zijn ontwikkeld voor mbox.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) jsmight werken alleen als deze zijn bijgewerkt voor  [!DNL at.js].
 
-   Zorg ervoor dat u [plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) als onderdeel van de test opneemt.
+   Zorg ervoor dat u eventuele plug-ins opneemt als onderdeel van de test.
 
 ## Asynchrone overwegingen {#section_B586360A3DD34E2995AE25A18E3FB953}
 
@@ -52,7 +50,6 @@ Omdat alle vakken nu asynchroon zijn, blokkeren ze het weergeven van pagina&#39;
 
    Je kunt er niet langer van uitgaan dat de aanbieding van de eerste box wordt uitgevoerd vóór de aanbieding van de tweede box.
 
-* Aanbiedingen voor DOM Manipulation en Redirect moeten worden geleverd via de automatisch gemaakte algemene mbox in [!DNL at.js] en worden geleverd in `<head>`.
+* Aanbiedingen voor DOM Manipulation en Redirect moeten worden geleverd via de automatisch gemaakte globale box in [!DNL at.js] en worden geleverd in `<head>`.
 
    Een functie `mboxCreate()` boven aan `<body>` zal waarschijnlijk in flikkering van standaardinhoud resulteren.
-
