@@ -5,10 +5,9 @@ title: Wat worden vaak gestelde vragen over Global mbox?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -29,9 +28,9 @@ U kunt ook een parameter op de pagina doorgeven met [targetPageParams](/help/c-i
 
 Om opbrengst en ordeinformatie over target-global-mbox te verzamelen, moeten de &quot;mbox parameters&quot;naar Doel worden verzonden. Deze parameters zijn naam/waardeparen die worden gebruikt om meer informatie naar Doel te verzenden. Het doel zoekt automatisch deze parameters (gereserveerde namen) om opbrengstgegevens te bevolken.
 
-Voor `orderConfirmPage`, zou u binnen `orderTotal`, `orderId`, en `productPurchasedId` moeten overgaan. Zie [Een bevestigingsvak voor bestellingen maken - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82) voor meer informatie.
+Voor `orderConfirmPage`, zou u binnen `orderTotal`, `orderId`, en `productPurchasedId` moeten overgaan.
 
-Dezelfde parameters moeten via `targetPageParams()` naar de target-global-mbox worden verzonden. Voor meer informatie, zie [Het overgaan van Parameters tot Globale mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Deze parameters moeten naar target-global-mbox via `targetPageParams()` worden verzonden. Voor meer informatie, zie [Het overgaan van Parameters tot Globale mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
 
 U zult ook het richten aan het omzettingsstuk willen toevoegen zodat het Doel slechts omzettingen op doel-globaal-mbox telt wanneer de pagina van de ordesbevestiging is bekeken, zoals hieronder getoond:
 
