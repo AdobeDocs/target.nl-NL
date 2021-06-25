@@ -4,10 +4,9 @@ description: Leer hoe u URL's met voorvertoningen kunt gebruiken voor Adobe [!DN
 title: Hoe kan ik URL's van het ervaringsvoorbeeld in Automated Personalization-activiteiten gebruiken?
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 568760262622b1097dca9384ed9d1360cfadfb6f
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -19,8 +18,6 @@ U kunt voorvertonings-URL&#39;s genereren voor Target Automated Personalization-
 >[!NOTE]
 >
 >De voorvertoning-URL&#39;s voor Automated Personalization verschillen van de modus Activiteit-QA. Met de modus Activiteit-QA kunt u Activiteiten-URL&#39;s maken voor andere typen activiteiten. Voor meer informatie, zie [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md).
->
->De voorproef URLs van de ervaring voor AP activiteiten zijn slechts beschikbaar wanneer het gebruiken van at.js 1.x. De voorproef URLs van de ervaring voor AP activiteiten wordt momenteel niet gesteund voor at.js 2.x.
 
 Gebruik de ervaring voorproef URLs om ervaringen met teamleden en aan ervaring van QA over browsers en milieu&#39;s te delen, zonder een afzonderlijke activiteit van QA te creëren. Deze functie is vooral handig als een site complex is of als het beveiligingsbeleid het niet toestaat dat de site in een simulator wordt weergegeven.
 
