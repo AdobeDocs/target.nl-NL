@@ -4,9 +4,9 @@ description: Leer hoe te om problemen problemen op te lossen die soms in Adobe [
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Gebruik één van de volgende opties om ervoor te zorgen dat uw VEC en EEG blijv
 
 ## Biedt [!DNL Target] ondersteuning voor iframes op meerdere niveaus?
 
-Doel ondersteunt geen iframes op meerdere niveaus. Als uw website een iframe laadt dat een onderliggend iframe heeft, werken doelbibliotheken (at.js en mbox.js) alleen met het bovenliggende iframe. Doelbibliotheken hebben geen interactie met het onderliggende iframe.
+[!DNL Target] biedt geen ondersteuning voor iframes met meerdere niveaus. Als uw website een iframe laadt dat een onderliggend iframe heeft, heeft at.js alleen invloed op het bovenliggende iframe. [!DNL Target] bibliotheken hebben geen interactie met het onderliggende iframe.
 
 Als tussenoplossing kunt u een pagina toevoegen in de ervaring met de URL van het onderliggende iframe.
 
