@@ -3,14 +3,13 @@ keywords: composer voor visuele ervaring;visuele ervaring composer tips en trucs
 description: Leer beste praktijken om uw ervaringen te maken zoals verwacht wanneer het gebruiken van Visual Experience Composer (VEC) in Adobe Target werken.
 title: Wat zijn de Beste praktijken en de Beperkingen van Composer van de Visuele Ervaring?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen werkwijzen en beperkingen van Visual Experience Composer
 
@@ -18,15 +17,11 @@ De volgende best practices kunnen u helpen uw ervaringen naar behoren te laten w
 
 Door deze beste praktijken te volgen, zult u minder waarschijnlijk onverwachte problemen met de ervaringen ontmoeten u ontwerpt.
 
-## Aanbevolen procedures {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Aanbevolen werkwijzen {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Voor mbox.js versie 57 en later, en voor at.js, plaats mbox.js of bij.js verwijzing bij de bovenkant van de  `<head>` sectie van uw pagina.**
+**Plaats de verwijzing at.js bij de bovenkant van de  `<head>` sectie van uw pagina.**
 
-Als u ook de Bezoeker-API-service gebruikt, plaatst u het bezoeker-API-script boven mbox.js of at.js.
-
-**Voor versies van mbox.js vóór versie 57 plaatst u de code mbox.js zo laag mogelijk in de  `<head>` sectie van uw pagina.**
-
-Plaats mbox.js aan het eind van `<head>` sectie, zonder extra verklaringen na het. Anders worden script- of koppelingstags verplaatst naar de sectie `<body>`.
+Als u ook de Bezoeker API-service gebruikt, plaatst u het API-script voor bezoekers boven op at.js.
 
 **U kunt de Enhanced Experience Composer inschakelen op accountniveau (ingeschakeld voor alle activiteiten die in de account zijn gemaakt) of op het niveau van de individuele activiteit.**
 
@@ -36,7 +31,7 @@ Om Verbeterde Composer van de Ervaring op het activiteitenniveau toe te laten te
 
 **U kunt bepaalde IP adressen lijsten van gewenste personen als Verbeterde Visual Experience Composer niet op veilige pagina&#39;s op uw plaats zal laden.**
 
-De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen te toevoegend op lijst van gewenste personen. Deze IP-adressen worden gebruikt voor de Adobe die wordt gebruikt voor de proxy van de Enhanced Experience Composer. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze op de lijst met gewenste personen staan IP-adressen niet nodig.
+De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen te voegend op lijst van gewenste personen. Deze IP-adressen worden gebruikt voor de Adobe die wordt gebruikt voor de proxy van de Enhanced Experience Composer. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze op de lijst met gewenste personen staan IP-adressen niet nodig.
 
 Verenigde Staten: 52.55.99.45, 54.80.158.92 en 54.204.197.253
 
@@ -182,7 +177,7 @@ Schakel de technieken voor het opbouwen van iframe op uw website uit en controle
 </html>
 ```
 
-## Voorwerpen {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## Caveats {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 Overweeg de volgende bedenkingen wanneer het gebruiken van de Visuele Composer van de Ervaring om uw activiteit te ontwerpen.
 
@@ -234,7 +229,7 @@ Een element kan niet worden verplaatst buiten een container die wordt gevolgd do
 
 **Alleen wisselvoorstellen zijn beschikbaar op vakjes.**
 
-Handelingen zoals Klasse bewerken en opnieuw rangschikken zijn niet toegestaan in een kader. Mbox-inhoud wordt aangeboden door mbox.js.
+Handelingen zoals Klasse bewerken en opnieuw rangschikken zijn niet toegestaan in een kader.
 
 **U moet niet hetzelfde element opnieuw rangschikken en verplaatsen.**
 
