@@ -4,8 +4,7 @@ description: Leer hoe te om problemen problemen op te lossen die soms in Adobe [
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -16,14 +15,14 @@ ht-degree: 0%
 
 Weergaveproblemen treden soms op in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) onder bepaalde omstandigheden.
 
-## Wanneer ik mijn website in Visual Experience Composer open, laden de [!DNL Target] bibliotheken niet. (Alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Wanneer ik mijn website in Visual Experience Composer open, laden de [!DNL Target] bibliotheken niet. (alleen VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Doel voegt twee parameters toe (`mboxEdit=1` en `mboxDisable=1`) terwijl het openen van de website in de Composer van de Visuele Ervaring.
 
 Als uw website (met name Apps met één pagina) uw parameters bijsnijdt of deze verwijdert terwijl u van de ene pagina naar de andere navigeert (zonder dat de pagina opnieuw wordt geladen), wordt de functie Doel verbroken en worden de doelbibliotheken niet geladen.
 U voorkomt dit probleem door deze twee parameters niet bij te snijden of te verwijderen.
 
-## Mijn pagina wordt niet geopend in de EEG, of wordt langzaam geladen. Activiteiten of ervaringen laden langzaam in de VEC. (Alleen VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Mijn pagina wordt niet geopend in de EEG, of wordt langzaam geladen. Activiteiten of ervaringen laden langzaam in de VEC. (alleen VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Verschillende problemen kunnen van invloed zijn op de paginaprestaties in de doelervaringscomposers. Enkele veelvoorkomende problemen zijn:
 
@@ -118,8 +117,8 @@ Open Target nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu worde
 * U hebt een ongeldige URL ingevoerd.
 * U hebt geen standaard-URL ingevoerd op de pagina voor het instellen van uw account.
 
-Zorg ervoor dat deze instelling is ingeschakeld en download en werk mbox.js op uw website bij.
+Zorg ervoor dat deze instelling is ingeschakeld en download en werk vervolgens om.js op uw website bij.
 
-## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (Alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Wanneer het gebruiken doorbladert wijze, als u tot een URL toegang hebt die target.js niet heeft of een kader-busterkopbal bevat, lijkt de Visuele Composer van de Ervaring gebroken. Vanwege beveiligingsproblemen in de browser heeft Target geen toegang tot de URL waarnaar u bent genavigeerd.
