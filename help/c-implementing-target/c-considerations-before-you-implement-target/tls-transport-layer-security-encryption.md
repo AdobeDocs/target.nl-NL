@@ -5,10 +5,9 @@ title: Hoe  [!DNL Target] Gebruik TLS om veiligheid te verstrekken?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ De Veiligheid van de Laag van het vervoer (TLS) is het wijdst opgestelde veiligh
 
 We verwachten niet dat dit een aanzienlijke invloed zal hebben op klantgegevens of rapportage.
 
-## Visual Experience Composer (VEC) met Enhanced Experience Composer (EEC) ingeschakeld {#section_B374B62DEC3344C194AC7BECC2EE0AA0}
+## Visual Experience Composer (VEC) met Enhanced Experience Composer (EEC) Enabled {#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
 TLS 1.2 is de standaard vanaf 1 maart 2020 en TLS 1.1 wordt niet meer ondersteund.
 
@@ -37,7 +36,7 @@ Als u echter een van deze klanten bent die op TSL 1.1 werken zonder TLS 1.2 te o
 
 Hoewel wij iedereen ten zeerste adviseren om op TLS 1.2 vooruit te zijn, als u een nieuwe klant bent maar *NOT* steun TLS 1.2, gelieve te richten aan de Zorg van de Klant die hen meedeelt dat u op TLS 1.1 voor de Verbeterde Composer van de Ervaring moet zijn. Overstappen naar TLS 1.2 is echter niet mogelijk, aangezien u ook na 1 maart 2020 geen ondersteuning meer krijgt.
 
-## Activiteitenlevering {#section_46CA5943E4354B259014C2BF340AECD6}
+## Levering van activiteiten {#section_46CA5943E4354B259014C2BF340AECD6}
 
 Vanaf 1 maart 2020 ondersteunen doelservers TLS 1.1 niet meer. Met deze wijziging accepteren de doelservers geen aanvragen meer van bezoekers met oudere apparaten of webbrowsers die geen TLS 1.2 (of hoger) ondersteunen. Hierdoor ontvangen oudere apparaten en browsers die alleen TLS 1.1 ondersteunen (of standaard TLS 1.1 ondersteunen) geen inhoud met activiteiten van Adobe Target. De standaardinhoud van de site wordt weergegeven.
 
@@ -88,23 +87,22 @@ U kunt als volgt de TLS-versie op uw website controleren met Google Chrome:
 >
 >Deze instructies zijn actueel vanaf de publicatie en kunnen worden gewijzigd. Een snelle internetzoekactie moet helpen als deze instructies veranderen.  Andere browsers hebben vergelijkbare stappen.
 
-## Verwacht gedrag bij browsers die TLS-versies onder 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F} ondersteunen
+## Verwacht gedrag bij browsers die TLS-versies onder 1.2 ondersteunen {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-In deze sectie wordt beschreven wat u alleen kunt verwachten bij browsers die TLS-versies onder 1.2 ondersteunen bij het gebruik van een at.js- of mbox.js-implementatie. Ter vergelijking wordt in deze sectie ook beschreven wat u kunt verwachten bij browsers die TLS 1.2 ondersteunen.
+In deze sectie wordt beschreven wat u alleen kunt verwachten bij browsers die TLS-versies onder 1.2 ondersteunen wanneer u een at.js-implementatie gebruikt. Ter vergelijking wordt in deze sectie ook beschreven wat u kunt verwachten bij browsers die TLS 1.2 ondersteunen.
 
 ### Centrale eindpunten
 
 | Doel JavaScript-implementatie | Details |
 |--- |--- |
 | at.js | Als TLS 1.0 of TLS 1.1 is ingeschakeld:<ul><li>Gebruikend browser ontwikkelt hulpmiddelen, op het lusje van het Netwerk, zult u &quot;200 O.K.&quot;zien. Dit betekent dat het verzoek is ingewilligd.</li><li>De gebruiker ziet een bericht &quot;Kan niet veilig met deze pagina verbinden&quot;. In het bericht wordt uitgelegd dat dit kan worden veroorzaakt omdat de site verouderde of onveilige TLS-beveiligingsinstellingen gebruikt.</li><li>Er worden geen consolefouten weergegeven.</li></ul>Met TLS 1.2 ingeschakeld:<ul><li>bestand at.js wordt gedownload.</li></ul> |
-| mbox.js | Als TLS 1.0 of TLS 1.1 is ingeschakeld:<ul><li>Gebruikend browser ontwikkelt hulpmiddelen, op het lusje van het Netwerk, zult u &quot;200 O.K.&quot;zien. Dit betekent dat het verzoek is ingewilligd.</li><li>De gebruiker ziet een bericht &quot;Kan niet veilig met deze pagina verbinden&quot;. In het bericht wordt uitgelegd dat dit kan worden veroorzaakt omdat de site verouderde of onveilige TLS-beveiligingsinstellingen gebruikt.</li><li>Er worden geen consolefouten weergegeven.</li></ul>Met TLS 1.2 ingeschakeld:<ul><li>het bestand mbox.js wordt gedownload.</li></ul> |
 
 ### Eindpunten rand
 
 | Doel JavaScript-implementatie | Details |
 |--- |--- |
+| [!DNL Adobe Experience Platform Web SDK] | Als TLS 1.0 of TLS 1.1 is ingeschakeld:<ul><li>Gebruikend browser ontwikkelt hulpmiddelen, op het lusje van het Netwerk, zult u &quot;200 O.K.&quot;zien. Dit betekent dat het verzoek is ingewilligd.</li><li>De gebruiker ziet een bericht &quot;Kan niet veilig met deze pagina verbinden&quot;. In het bericht wordt uitgelegd dat dit kan worden veroorzaakt omdat de site verouderde of onveilige TLS-beveiligingsinstellingen gebruikt.</li><li>Er worden geen consolefouten weergegeven.</li><li>De standaardinhoud wordt weergegeven.</li></ul>Met TLS 1.2 ingeschakeld:<ul><li>Inhoud van voorstel wordt weergegeven.</li></ul> |
 | at.js | Als TLS 1.0 of TLS 1.1 is ingeschakeld:<ul><li>Gebruikend browser ontwikkelt hulpmiddelen, op het lusje van het Netwerk, zult u &quot;200 O.K.&quot;zien. Dit betekent dat het verzoek is ingewilligd.</li><li>De gebruiker ziet een bericht &quot;Kan niet veilig met deze pagina verbinden&quot;. In het bericht wordt uitgelegd dat dit kan worden veroorzaakt omdat de site verouderde of onveilige TLS-beveiligingsinstellingen gebruikt.</li><li>Er worden geen consolefouten weergegeven.</li><li>De standaardinhoud wordt weergegeven.</li></ul>Met TLS 1.2 ingeschakeld:<ul><li>Inhoud van voorstel wordt weergegeven.</li></ul> |
-| mbox.js | Als TLS 1.0 of TLS 1.1 is ingeschakeld:<ul><li>Gebruikend browser ontwikkelt hulpmiddelen, op het lusje van het Netwerk, zult u &quot;200 O.K.&quot;zien. Dit betekent dat het verzoek is ingewilligd.</li><li>De gebruiker ziet een bericht &quot;Kan niet veilig met deze pagina verbinden&quot;. In het bericht wordt uitgelegd dat dit kan worden veroorzaakt omdat de site verouderde of onveilige TLS-beveiligingsinstellingen gebruikt.</li><li>Er worden geen consolefouten weergegeven.</li><li>De standaardinhoud wordt weergegeven.</li></ul>Met TLS 1.2 ingeschakeld:<ul><li>Aanbiedingsinhoud is verzonden</li></ul> |
 
 ### Activiteit gericht met browser-versie publiek (Internet Explorer, Versies 6, 7, of 8)
 
@@ -114,5 +112,5 @@ In deze sectie wordt beschreven wat u alleen kunt verwachten bij browsers die TL
 
 | Doel JavaScript-implementatie | Details |
 |--- |--- |
+| [!DNL Adobe Experience Platform Web SDK] | De Platform-SDK wordt niet ondersteund in eerdere versies dan versie 10 van Internet Explorer. |
 | at.js | at.js wordt niet ondersteund in versies van Internet Explorer ouder dan versie 10. |
-| mbox.js | Als TLS 1.0 of TLS 1.1 is ingeschakeld:<ul><li>De standaardinhoud wordt weergegeven.</li><li>Geen doelverzoeken worden geactiveerd.</li><li>Er wordt geen consolefout weergegeven.</li><li>Gebruikend browser ontwikkelt hulpmiddelen, op het lusje van het Netwerk, zult u &quot;200 O.K.&quot;zien. Dit betekent dat het verzoek is ingewilligd.</li></ul>Met TLS 1.2 ingeschakeld:<ul><li>Inhoud van voorstel wordt weergegeven.</li></ul> |
