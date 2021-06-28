@@ -4,10 +4,9 @@ description: Vind het oplossen van problemensuggesties als uw Adobe [!DNL Target
 title: Hoe kan ik activiteiten problemen oplossen?
 feature: Activiteiten
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -104,15 +103,6 @@ Zie [Paginawijzigingsscenario&#39;s](/help/c-experiences/c-visual-experience-com
 * Hiermee wordt gestopt met het dynamisch wijzigen van de klasse of op hetzelfde niveau als hierboven is beschreven.
 
 Zie [Paginawijzigingsscenario&#39;s](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB) voor meer informatie over de invloed die paginawijzigingen hebben op de weergavemogelijkheid van Target.
-
-## Mbox.js springt alle volgende code uit het hoofd en in het lichaam.
-
-**Valideren:bron** weergeven om te bepalen of declaraties het bestand mbox.js volgen vóór de afsluitende  `</body>` tag.
-
-**Opties:**
-
-* Plaats mbox.js als het laatste item binnen de sectie `<head>` van uw pagina.
-* Gebruik unieke div-id&#39;s op de elementen op het hoogste niveau in het lichaam.
 
 ## Andere activiteiten worden uitgevoerd op dezelfde pagina.
 
