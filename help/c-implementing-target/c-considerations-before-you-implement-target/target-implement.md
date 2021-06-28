@@ -1,11 +1,11 @@
 ---
-keywords: document.write;target;Implementeren;doel implementeren;dtm;at.js;mbox.js;target.js;mbox;mbox;adobe Experience platform web skd;aep web sdk;web sdk
-description: Voer Adobe [!DNL Target] by referencing the [!DNL Target] bibliotheken (at.js of mbox.js) op uw Web-pagina's uit.
+keywords: document.write;target;Implementeren;doel implementeren;dtm;at.js;adobe Experience platform web skd;aep web sdk;web sdk
+description: Voer Adobe [!DNL Target] by referencing the [!DNL Target] JavaScript bibliotheken op uw Web-pagina's uit.
 title: De [!DNL Target] JavaScript-bibliotheken begrijpen
 feature: Implementatie
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Implementeer [!DNL Adobe Target] door te verwijzen naar de [!DNL Adobe Target]-b
 
 >[!NOTE]
 >
->De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten vóór 31 maart 2021 migreren van mbox.js naar at.js of naar [!UICONTROL Adobe Experience Platform Web SDK].
+>De bibliotheek mbox.js wordt niet meer ontwikkeld. Alle klanten moeten vóór 31 maart 2021 migreren naar om.js of naar [!UICONTROL Adobe Experience Platform Web SDK].
 
 ## Verschillen tussen de JavaScript-bibliotheken [!DNL Target] {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
@@ -26,7 +26,7 @@ In de volgende tabel worden de verschillen tussen de JavaScript-bibliotheken [!D
 | Bibliotheekreferentie | Beschrijving |
 |--- |--- |
 | Adobe Experience Platform Web SDK | Met [!UICONTROL Adobe Experience Platform Web SDK] kunt u via het Adobe Experience Edge Network communiceren met de verschillende services in [!DNL Experience Cloud] (inclusief [!DNL Target]). Als u ervoor kiest om naar [!DNL Adobe Experience Platform Web SDK] te migreren, zie [Wat is Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) in *Web SDK Guide*. |
-| at.js | at.js vervangt mbox.js voor [!DNL [!DNL Target]] implementaties.<br>Met at.js worden onder andere de laadtijden voor webimplementaties verbeterd, wordt de beveiliging verbeterd, wordt voorkomen dat documenten.write-waarschuwingen in Google Chrome verschijnen en worden betere implementatieopties geboden voor toepassingen van één pagina. |
+| at.js | at.js verbetert de laadtijden voor webimplementaties voor pagina&#39;s, verbetert de beveiliging, voorkomt waarschuwingen voor document.write in Google Chrome en biedt betere implementatieopties voor toepassingen van één pagina. |
 
 ## Effect van at.js op de tijd van het laden van de pagina {#section_16630CD0FF0A498EB596A51381366A5A}
 
