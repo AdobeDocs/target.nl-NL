@@ -3,14 +3,13 @@ keywords: vec;composer voor visuele ervaring; vec;iframe;extension;browser
 description: Ontdek waarom sommige websites niet betrouwbaar in Visual Experience Composer (VEC) zouden kunnen openen. Met de VEC Helper-browserextensie kunt u websites betrouwbaar laden binnen de VEC.
 title: Hoe gebruik ik de Helper Extension Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
+exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
-
 
 # Helpextensie Visual Experience Composer
 
@@ -69,7 +68,6 @@ Met de VEC Helper-browserextensie voor Chrome worden problemen met het laden van
 
 ## Notities
 
-* Uw implementatie moet de [!DNL Target] at.js-bibliotheek gebruiken. U kunt geen mbox.js-implementatie gebruiken met de extensie.
 * De markering [!UICONTROL Inject Target libraries] in de extensie is standaard UIT. U kunt deze markering inschakelen als u de VEC wilt gebruiken voor een site die nog niet is geïmplementeerd voor [!DNL Target].
 
    Deze markering is een globale instelling. De vlag wordt toegelaten of gehandicapt voor alle websites die in VEC worden geopend. Als u deze markering bijvoorbeeld instelt op &quot;on&quot; en een website opent die al is geïmplementeerd met at.js, ontvangt u een bericht met de melding dat at.js al is geladen. Adobe verwacht dat de meeste klanten at.js al hebben geïmplementeerd op hun pagina&#39;s en de standaardinstelling van &quot;off&quot; gebruiken.
@@ -81,4 +79,3 @@ Met de VEC Helper-browserextensie voor Chrome worden problemen met het laden van
    * Als u probeert om een website te laden die VEC gebruikt die er niet in slaagt te laden, toont een bericht die suggereert dat u de VEC Helper browser uitbreiding installeert.
    * Als at.js nog niet op de website wordt uitgevoerd, toont een bericht in VEC die dat u de uitbreiding installeert.
    * Als de extensie is ingeschakeld en de laadbewerking uitvoert, worden berichten weergegeven wanneer de extensie de bibliotheek at.js injecteert (indien nodig) of wanneer de website betrouwbaar wordt geopend in de VEC.
-
