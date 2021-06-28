@@ -5,9 +5,9 @@ title: Welke browsers [!DNL Target] steunen?
 feature: Implementatie
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ De levering van inhoud is getest in de volgende browsers en apparaten:
 
 Let op het volgende:
 
-* Voor [!DNL at.js]-implementaties geeft [!DNL Target] standaardinhoud weer in eerdere versies van Internet Explorer en mogelijk in eerdere versies van de hierboven vermelde browsers. Voor [!DNL mbox.js] implementaties, [!DNL Target] probeert om inhoud terug te geven maar zou niet succesvol kunnen zijn.
+* Voor [!DNL at.js]-implementaties geeft [!DNL Target] standaardinhoud weer in eerdere versies van Internet Explorer en mogelijk in eerdere versies van de hierboven vermelde browsers.
 * Internet Explorer behandelt alle onbekende elementen (zoals aangepaste elementen) als hetzelfde elementtype. Dientengevolge, werkt de levering niet met douaneelementen.
 * [!DNL Target] Hiermee geeft u de standaardinhoud weer in browsers die hierboven niet worden vermeld en in browsers die de  [modus](https://en.wikipedia.org/wiki/Quirks_mode) Kirken gebruiken. at.js vereist een documenttype dat op standaardwijze teruggeeft, bijvoorbeeld: `<!DOCTYPE html>` .
 * De Adobe-leveringsinfrastructuur wordt na 12 september 2018 beveiligd om GEEN TLS 1.0-apparaten en browsers te ondersteunen. Zie [TLS (de Veiligheid van de Laag van het Vervoer) de Veranderingen van de Encryptie ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) om het algemene effect van deze verandering te begrijpen.
