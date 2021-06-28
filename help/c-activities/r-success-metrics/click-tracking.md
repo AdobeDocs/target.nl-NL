@@ -4,10 +4,9 @@ description: Leer hoe u met Adobe [!DNL Target] kliks op elk element kunt bijhou
 title: Wat volgt de klik?
 feature: Succeswaarden
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 0%
 >
 >Het volgen van kliks wordt niet gesteund op het globale verzoek van het Doel wanneer het als plaats in een vorm-gebaseerde activiteit wordt gebruikt.
 
-## Klik op bijhouden instellen {#section_5540C5A533114E57BAE022A600B02E72}
+## Klikspatiëring instellen {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Wanneer het plaatsen van uw doelstellingen op de [!UICONTROL Goals & Settings] pagina voor uw activiteit, selecteer **[!UICONTROL Conversion]** succesmetrisch.
 1. Selecteer **[!UICONTROL Clicked an element]** voor de actie en klik op **[!UICONTROL Select elements]**.
@@ -51,7 +50,7 @@ Er zijn verscheidene acties die kunnen worden toegepast wanneer u over een eleme
 
 ### Element toevoegen
 
-Als u het DOM-pad naar de kiezer al kent, kunt u het handmatig toevoegen door op het pluspictogram boven in het deelvenster te klikken.
+Als u het DOM-pad naar de kiezer al kent, kunt u het handmatig toevoegen door op het plusteken boven in het deelvenster te klikken.
 
 ![Pictogram Element toevoegen](/help/c-activities/r-success-metrics/assets/add-element.png)
 
@@ -73,7 +72,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    Zie [Navigeren door elementen met het DOM-pad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Opties voor Visual Experience Composer* voor meer informatie.
 
-* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze verschillende pagina moet in de activiteit worden omvat gebruikend [multipage eigenschap](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) en [!DNL at.js] of [!DNL mbox.js] moet op het worden uitgevoerd.
+* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze verschillende pagina moet in de activiteit worden omvat gebruikend [multipage eigenschap](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) en [!DNL at.js] moet op het worden uitgevoerd.
 * Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.
 * Selecteer het niveau van het element dat u wilt bijhouden. Wanneer u bijvoorbeeld een knop opgeeft, moet u de koppeling selecteren en niet de knoptekst.
 * Klik gebeurtenissen worden verzonden naar [!DNL Target] op de zelfde pagina zoals de klik.
