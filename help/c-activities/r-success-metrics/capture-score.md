@@ -4,10 +4,9 @@ description: Leer over de metrisch met de betrokkenheid van de Score van de Vang
 title: Wat is de metrische score van de Score van de Vangst?
 feature: Succeswaarden
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -54,7 +53,7 @@ De beste praktijken moeten waarden in het [!DNL Target] verzoek toewijzen. Hierd
 
 >[!NOTE]
 >
->Voor gemakkelijker onderhoud kunt u de waardetoewijzingen voor de pagina&#39;s van uw site configureren in het [!DNL at.js]- of [!DNL mbox.js]-bestand met voorwaardelijke JavaScript-logica. Zo hoeft u niet meer code aan uw pagina&#39;s toe te voegen. Neem contact op met uw accountconsultant voor hulp.
+>Voor gemakkelijker onderhoud kunt u de waardetoewijzingen voor de pagina&#39;s van uw site configureren in het [!DNL at.js]-bestand met voorwaardelijke JavaScript-logica. Zo hoeft u niet meer code aan uw pagina&#39;s toe te voegen. Neem contact op met uw accountconsultant voor hulp.
 
 U kunt de twee methoden combineren, maar dit kan resulteren in een hogere score dan u had verwacht. Als u bijvoorbeeld een waarde van 10 toewijst aan elk van de drie [!DNL Target]-aanvragen en geen score toewijst aan een vierde aanvraag, geeft u de URL-parameter `?mboxPageValue=5` door. De paginascore is dan 50, 30 voor de drie aanvragen met toegewezen waarden en vervolgens 5 voor elk van de vier aanvragen op de pagina.
 
