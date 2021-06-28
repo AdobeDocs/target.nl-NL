@@ -2,16 +2,15 @@
 keywords: implementeren;uitvoeren
 description: Weet welke overwegingen u zou moeten richten alvorens Adobe Target uit te voeren.
 title: Wat moet ik weten voordat ik implementeer?
-feature: Implementation
+feature: Implementatie
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # Voordat u implementeert
 
@@ -21,7 +20,7 @@ Deze sectie omvat informatie voor ontwikkelaars specifiek voor hun implementatie
 
 >[!IMPORTANT]
 >
->Wijzigingen in at.js of mbox.js worden niet ondersteund door de klantenservice van Adobe.
+>Wijzigingen in at.js of de Adobe Experience Platform Web SDK worden niet ondersteund door de klantenservice van Adobe.
 
 - [Voorbereiden op implementatie van doel](prepare-to-implement-target.md)
 - [Privacy](c-privacy/privacy.md)
