@@ -5,10 +5,9 @@ title: at.js Cookies
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -35,7 +34,7 @@ In at.js 2.x wordt HTTP-GET echter niet meer gebruikt en wordt in plaats daarvan
 
 Daarom worden cookies van derden en interdomeintracering niet ondersteund in at.js 2.0.0.
 
-## te.js 1.** xcookie, gedrag  {#at-js-1x-cookie-behavior}
+## te.js 1.** xcookie, gedrag {#at-js-1x-cookie-behavior}
 
 Voor at.js versies 1.*x*, hangt het koekjesgedrag af van of het een eerderangs koekje, een derdekoekje met een eerstepartijkoekje, of een derdekoekje alleen is.
 
@@ -122,7 +121,7 @@ Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers campagnes
 | sessie-id | Een unieke id voor een gebruikerssessie. Standaard duurt dit 30 minuten. |
 | pc-id | Een halfpermanente id voor de browser van een bezoeker. Laadt 14 dagen. |
 | controleren | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
-| disable | Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand mbox.js. Standaard duurt dit 1 uur. |
+| disable | Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand [!DNL Adobe Experience Platform Web SDK] of at.js. Standaard duurt dit 1 uur. |
 
 ## Effect op [!DNL Target] voor Safari-bezoekers door wijzigingen in het bijhouden van Apple WebKit
 
