@@ -4,10 +4,9 @@ description: Leer hoe u JSON-aanbiedingen maakt in Adobe [!DNL Target] voor gebr
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Ervaringen en aanbiedingen
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -28,9 +27,8 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 * In browser, kunnen de aanbiedingen JSON UITSLUITEND via at.js 1.2.3 (of recenter) worden teruggewonnen en gebruikend [getOffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) door acties te filtreren gebruikend `setJson` actie.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
 * JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen) omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. Ontwikkelaars moeten code schrijven om de aanbieding expliciet op te halen met [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
-* JSON-aanbiedingen worden niet ondersteund als u mbox.js gebruikt.
 
-## Een JSON-aanbieding {#section_BB9C72D59DEA4EFB97A906AE7569AD7A} maken
+## Een JSON-aanbieding maken {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -85,7 +83,7 @@ De array actions heeft deze structuur:
 
 Als u de JSON-aanbieding wilt extraheren, doorloopt u de handelingen en zoekt u de handeling met de handeling `setJson` en doorloopt u vervolgens de inhoudarray.
 
-## Hoofdlettergebruik {#section_85B07907B51A43239C8E3498EF58B1E5}
+## Hoofdletters gebruiken {#section_85B07907B51A43239C8E3498EF58B1E5}
 
 Stel dat de volgende JSON-aanbieding op uw webpagina wordt afgeleverd:
 
@@ -133,7 +131,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Aanbiedingen filteren door het JSON-aanbiedingstype {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Aanbiedingen filteren door het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 U kunt de bibliotheek [!UICONTROL Offers] door het aanbiedingstype van JSON filtreren door **[!UICONTROL Type]** drop-down lijst te klikken, dan door **[!UICONTROL JSON]** checkbox te selecteren.
 
