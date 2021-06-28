@@ -4,10 +4,9 @@ description: Leer hoe te om SPA VEC in Adobe te gebruiken  [!DNL Target] om test
 title: Hoe gebruik ik Composer van de Ervaring van de Enige Pagina App Visuele (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3656'
+source-wordcount: '3655'
 ht-degree: 0%
 
 ---
@@ -62,7 +61,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
 1. Installeer om 0.js 2.x.
 
-   Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPA in mening. Eerdere versies van at.js en mbox.js bieden geen ondersteuning voor Adobe Target Views en VEC for SPA.
+   Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPA in mening. Eerdere versies van at.js en bieden geen ondersteuning voor Adobe Target Views en de VEC for SPA.
 
    ![Dialoogvenster Implementatiedetails](/help/c-experiences/assets/imp-200.png)
 
@@ -322,7 +321,7 @@ Ja, at.js 2.x steunt A4T voor SPA via de `triggerView()` functie aangezien u Ado
 | --- | --- |
 | 1 | `triggerView()` wordt opgeroepen in de SPA om een weergave te renderen en acties toe te passen om visuele elementen die aan de weergave zijn gekoppeld, te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
-| 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
+| 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de Target Profile Store om de bezoeker te tellen in de activiteit en de verhogingsmetriek. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
