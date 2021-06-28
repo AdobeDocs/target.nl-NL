@@ -4,10 +4,9 @@ description: Zoek naar suggesties om problemen op te lossen als de pagina de ver
 title: Hoe kan ik problemen met de levering van inhoud oplossen?
 feature: Activiteiten
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ Als op de pagina de verwachte inhoud niet wordt weergegeven, zijn er een paar st
 
 mboxDebug is vooral handig wanneer u [!DNL Target] op uw pagina instelt om ervoor te zorgen dat het [!DNL Target]-verzoek wordt geactiveerd en het cookie wordt ingesteld. Nochtans, gaat het niet in het soort detail dat wanneer het zuiveren van inhoudslevering nuttig is. Als uw activiteit niet op uw pagina verschijnt of ongewenste inhoud verschijnt, gebruik mboxTrace om de pagina in detail te onderzoeken en te zuiveren.
 
-## Hiermee wordt het machtigingstoken opgehaald dat moet worden gebruikt met foutopsporingsgereedschappen {#section_BED130298E794D1FA229DB7C3358BA54}
+## Haal het toestemmingstoken terug om met het zuiveren hulpmiddelen te gebruiken {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Omdat mboxTrace en mboxDebug campagnegegevens en profielgegevens aan externe partijen kunnen blootstellen, wordt een toestemmingstoken vereist. Het toestemmingstoken kan in [!DNL Target] UI worden teruggewonnen. De token is zes uur geldig.
 
@@ -57,7 +56,7 @@ De volgende parameters zijn beschikbaar:
 
 | mboxTrace-opties | Resultaat |
 |--- |--- |
-| `?mboxTrace=console` | Hiermee wordt het logboek als objecten afgedrukt in het logbestand van de console.<br>Voor at.js, in plaats van een nieuw browser venster of output aan de console zoals in mbox.js te poppen, zult u het verzoek van het Netwerk moeten inspecteren en onder Voorproef (Chrome) of Reactie (Firefox) kijken. |
+| `?mboxTrace=console` | Hiermee wordt het logboek als objecten afgedrukt in het logbestand van de console.<br>Voor at.js, in plaats van een nieuw browser venster of output aan de console zoals in mbox.js was, zult u het verzoek van het Netwerk moeten inspecteren en onder Voorproef (Chrome) of Reactie (Firefox) kijken. |
 | `?mboxTrace=json` | Drukt in consolelogboek als letterlijke JSON-tekenreeks af |
 | `?mboxTrace=window` | Drukt in een pop-upvenster af als een JSON-tekenreeks |
 | `?mboxTrace=disable` | Hiermee schakelt u de overtreksessiemodus uit |
@@ -109,7 +108,7 @@ Als u mboxDebug wilt gebruiken, voegt u een parameter mboxDebug toe aan het eind
 >
 >Controleer of het URL-fragment zich na parameters van queryreeksen bevindt. Om het even wat na eerste `#` is een fragmentherkenningsteken en veroorzaakt het zuiveren parameters om niet correct te functioneren.
 
-## Adobe Experience Cloud-foutopsporing {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van het Doel onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel MboxTrace gebruiken om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
 
@@ -117,27 +116,17 @@ Zie de volgende trainingsvideo&#39;s voor meer informatie:
 
 Zie [Foutopsporing bij.js met Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) voor meer informatie.
 
-## Als target.js tijdens levering {#section_ABBA5EFDFFB749D8BEE172DB1F973058} niet kan laden
-
-Mbox.js verzendt een koekje genoemd &quot;em-gehandicapt&quot;naar de bezoeker als target.js er niet in slaagt om tijdens levering te laden. Dit koekje verhindert aanbiedingen die gebruikend de Visuele Composer van de Ervaring worden gecreeerd op de plaats terug te geven. Bezoekers met dit cookie zien de testinhoud niet en worden niet meegeteld in die activiteitenrapporten. Alle andere aanbiedingsinhoud (bijvoorbeeld uit campagnes in Target Classic) wordt verder geladen. De cookie heeft een levensduur van 30 minuten vanaf het moment dat het laden mislukt.
-
 ## Topverkopers worden niet weergegeven in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 De *`SiteCatalyst: purchase`* vraag kan niet voor de gegevens van het het algoritmeverkeer van de Aankoop worden gebruikt. Gebruik in plaats hiervan de *`orderConfirmPage`*-aanroep.
 
-## Prioriteit activiteit {#section_3D0DD07240F0465BAF655D0804100AED} controleren
+## Prioriteit activiteit controleren {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Op vorm-gebaseerde activiteiten die met [!DNL Target Standard/Premium] worden gecreeerd zouden met activiteiten kunnen botsen die in [!DNL Target Classic] UI worden gecreeerd die de zelfde prioriteit hebben en het zelfde [!DNL Target] verzoek gebruiken.
 
 ## De code van de douane veroorzaakt niet de verwachte resultaten in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Doel biedt geen ondersteuning meer voor IE 8.
-
-## JavaScript-inhoud die door de algemene [!DNL Target]-aanvraag wordt geleverd, wordt niet geladen wanneer u mbox.js gebruikt. {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-Voer een upgrade uit naar [!DNL mbox.js] versie 58 of hoger.
-
-mbox.js versie 58 en hoger voert niet-JavaScript inhoud voor het globale [!DNL Target] verzoek onmiddellijk uit nadat de markering van HTML `BODY` aanwezig is. JavaScript-inhoud binnen `<script>`-tags voor de algemene [!DNL Target]-aanvraag wordt uitgevoerd nadat de gebeurtenis `DOMContentLoaded` is geactiveerd. Deze volgorde van de levering van inhoud zorgt ervoor dat JavaScript-inhoud voor het algemene [!DNL Target]-verzoek op de juiste wijze wordt geleverd en weergegeven.
 
 ## Doelcookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
 
