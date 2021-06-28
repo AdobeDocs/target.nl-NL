@@ -5,10 +5,9 @@ title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Beheer en configuratie
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -82,7 +81,7 @@ Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen zelfs verschi
 >[!NOTE]
 >Zie de trainingsvideo hieronder voor meer informatie over het configureren van werkruimten.
 
-### Verkrijg uw werkruimte-id {#workspace-id}
+### Vraag uw werkruimte-id op {#workspace-id}
 
 U moet de werkruimte-id doorgeven aan Enterprise-machtigingen in [Doel-API&#39;s](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
@@ -123,7 +122,7 @@ Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overig
 >[!NOTE]
 >Zie de trainingsvideo hieronder voor meer informatie over het maken van eigenschappen.
 
-## Stap 5: Werk uw implementatie bij om de parameter at_property {#section_9B17A59807A94712BE642942442EBBC8} op te nemen
+## Stap 5: Werk uw implementatie bij om de parameter at_property op te nemen {#section_9B17A59807A94712BE642942442EBBC8}
 
 Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `at_property` parameter aan om het even welke vraag toevoegen die [!DNL Target] (de vraag van het Doel, api vraag, enz.) raakt.
 
@@ -151,7 +150,7 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
 
       Zie [Globale doelparameters toevoegen](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in de documentatie *Adobe Experience Platform Launch* voor meer informatie.
 
-   * **Via de functie targetPageParams():** Plaats de volgende code in de  `<head>` tags, boven de verwijzing at.js of mbox.js.
+   * **Via de functie targetPageParams():** Plaats de volgende code in de  `<head>` tags, boven de verwijzing at.js.
 
       ![](assets/property_token_1.png)
 
