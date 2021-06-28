@@ -4,10 +4,9 @@ description: Leer hoe te om een activiteit in Adobe te vormen [!DNL Target] to u
 title: Hoe kan ik de analysegegevens als doel gebruiken?
 feature: Analyses voor doel (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Analytics for Target vereist een trackingserver om de resultaten correct te rapp
 
 >[!NOTE]
 >
->Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
+>Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u versie 0.js 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
 
 Wanneer u activiteiten instelt nadat u Analytics hebt ingesteld als uw rapporteringsbron, is er geen optie voor het instellen van soorten publiek voor rapportage. De segmenten van Analytics zijn beschikbaar in het rapport van de Activiteiten van het Doel.
 
