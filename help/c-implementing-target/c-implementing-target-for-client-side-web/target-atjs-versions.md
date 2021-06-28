@@ -4,9 +4,9 @@ description: Bekijk de details over veranderingen in elke versie van de Adobe [!
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '4174'
+source-wordcount: '4136'
 ht-degree: 0%
 
 ---
@@ -195,7 +195,7 @@ Zie [Upgraden van at.js 1.x naar at.js 2.x](/help/c-implementing-target/c-implem
 >
 >Als u Adobe Opt-in steun voor [Algemene Voorschrift van de Bescherming van Gegevens](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) vereist, moet u momenteel at.js 1.7.0 of at.js 2.1.0 gebruiken.
 
-## at.js Versie 1.7.0 {#at-js-170}
+## at.js versie 1.7.0 {#at-js-170}
 
 at.js 1.7.0 biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.
 
@@ -406,7 +406,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 
 **Datum:21** september 2016
 
-* Er is een `optoutEnabled`-instelling toegevoegd om de optie Weigeren apparaatgrafiek in of uit te schakelen. Als deze instelling is ingesteld op `true` en de bezoeker de instelling niet meer heeft gevolgd, wordt er in de browser van de bezoeker geen mbox-aanroepen uitgevoerd. Apparaatgrafiek bevindt zich momenteel in bètaversie. Deze instelling wordt standaard ingesteld op `false`, maar moet worden ingesteld op `true` als u Apparaatgrafiek gebruikt. Een vergelijkbare optie maakt deel uit van mbox.js v61.
+* Er is een `optoutEnabled`-instelling toegevoegd om de optie Weigeren apparaatgrafiek in of uit te schakelen. Als deze instelling is ingesteld op `true` en de bezoeker de instelling niet meer heeft gevolgd, wordt er in de browser van de bezoeker geen mbox-aanroepen uitgevoerd. Apparaatgrafiek bevindt zich momenteel in bètaversie. Deze instelling wordt standaard ingesteld op `false`, maar moet worden ingesteld op `true` als u Apparaatgrafiek gebruikt.
 * `CustomEvent` steun voor het berichtmechanisme toegevoegd. Eerder kon het meldingsmechanisme voor de gebeurtenis at.js niet worden gebruikt via standaard DOM API&#39;s, zoals `document.addEventListener()`. Nu kunt u `document.addEventListener()` gebruiken om zich aan de gebeurtenissen van at.js, zoals verzoekgebeurtenissen en inhoud terug te geven gebeurtenissen in te schrijven.
 * Oplossing voor een probleem met betrekking tot aanbiedingen die zijn gemaakt in Visual Experience Composer (VEC). Vóór deze release heeft Target de kiezers verborgen en deze alleen niet verborgen wanneer alle kiezers overeenkomen. In at.js 0.9.2 worden de kiezers door Target niet verborgen zodra ze overeenkomen.
 
@@ -416,7 +416,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 
 * Verstrekt at.js een onderbreking voor de Dienst van identiteitskaart van de Bezoeker, die van de eigen onderbreking van de dienst onafhankelijk is.
 * Hiermee wordt een probleem in 0.9.0 verholpen dat invloed had op implementaties met at.js op sommige pagina&#39;s en mbox.js op andere pagina&#39;s.
-* Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
+* Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
 
 ## at.js Versie 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -451,10 +451,6 @@ Dit is de eerste officiële release van de bibliotheek [!DNL at.js].
 [!DNL at.js] is een nieuwe implementatiebibliotheek die is  [!DNL Target] ontworpen voor zowel typische webimplementaties als toepassingen van één pagina.
 
 [!DNL at.js] vervangt  [!DNL mbox.js] voor  [!DNL Adobe Target] implementaties.
-
->[!NOTE]
->
->Hoewel [!DNL at.js] [!DNL mbox.js] vervangt, blijft mbox.js ondersteund. Voor de meeste mensen biedt [!DNL at.js] voordelen ten opzichte van [!DNL mbox.js]. Dit geeft u tijd om [!DNL at.js] te testen en de implementatie op uw pagina&#39;s te veranderen.
 
 [!DNL at.js] verbetert onder andere de laadtijden voor webimplementaties, verbetert de beveiliging en biedt betere implementatieopties voor toepassingen van één pagina.
 
