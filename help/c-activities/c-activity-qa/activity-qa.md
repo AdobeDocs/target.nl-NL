@@ -1,12 +1,12 @@
 ---
-keywords: qa;qa-modus; activiteit qa;qa url;qa urls
+keywords: qa;qa-modus; activiteit qa;qa url;qa urls;voorvertoning url;voorvertoning urls
 description: Leer hoe te om Adobe [!DNL Target] QA URLs te gebruiken om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft.
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activiteiten
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Gebruik QA URLs in [!DNL Adobe Target] om gemakkelijke activiteit QA van begin t
 
 * De interface [!UICONTROL Target QA Mode] toont slechts eerste URL van een ervaring in een multi-paginaactiviteit. De veronderstelling is dat u een reistest creeert en u zich van URL1 aan URL2 beweegt. Als u echter onafhankelijk naar URL2 wilt gaan, kopieert u alle URL-parameters die via URL1 zijn opgegeven en past u deze toe op URL2 nadat u een &#39;?&#39; hebt geplaatst net als in URL1.
 
-## JavaScript-bibliotheekcompatibiliteit als doel instellen
+## Doelcompatibiliteit met JavaScript-bibliotheek [!UICONTROL QA Mode]
 
 [!DNL Target] ondersteunt de volgende JavaScript-bibliotheken:
 
@@ -113,6 +113,32 @@ In de volgende tabel worden de verschillende typen activiteiten vermeld en wordt
 | [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
+
+## Voorvertoning van URL&#39;s {#preview}
+
+De voorproef URLs van de ervaring kan voor alle [!DNL Target] activiteitentypes worden geproduceerd. Met voorbeeld-URL&#39;s kunt u inhoud direct op uw site bekijken voordat de activiteit live is voor voorvertoning en kwaliteitscontrole. Ervaar de voorvertoning van URL&#39;s en omzeilt het opgeven van doelen om een bepaalde ervaring geforceerd weer te geven.
+
+Zie [Automated Personalization-activiteiten voorvertonen met URL&#39;s voor voorvertoningen[!UICONTROL Automated Personalization] (AP)-activiteiten.](/help/c-activities/t-automated-personalization/experience-preview.md)
+
+Als u een voorbeeld-URL vanaf de pagina **[!UICONTROL Overview]** van een activiteit wilt openen en delen, klikt u op de koppeling **[!UICONTROL Activity QA]**.
+
+>[!NOTE]
+>
+>De koppeling [!UICONTROL Activity QA] en de voorbeeld-URL zijn hetzelfde voor alle andere activiteiten dan AP-activiteiten [!DNL Target].
+
+In de volgende tabel worden de verschillende typen activiteiten vermeld en wordt aangegeven of de functie URL&#39;s voorvertonen wordt ondersteund voor elke bibliotheek of API:
+
+| Type activiteit | at.js 1.x | at.js 2.x | Platform Web SDK | Leverings-API | Admin-API |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL A/B Test] | Ja | Ja | Ja | Niet van toepassing | Ja |
+| [!UICONTROL Auto-Allocate] | Ja | Ja | Ja | Niet van toepassing | Ja |
+| [!UICONTROL Auto-Target] | Ja | Ja | Ja | Niet van toepassing | Ja |
+| [!UICONTROL Automated Personalization] (AP) | Ja | Ja | Nee | Niet van toepassing | Ja |
+| [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja | Niet van toepassing | Ja |
+| [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja | Niet van toepassing | Ja |
+| [!UICONTROL Recommendations] | Ja | Ja | Ja | Niet van toepassing | Ja |
+
+
 
 
 
