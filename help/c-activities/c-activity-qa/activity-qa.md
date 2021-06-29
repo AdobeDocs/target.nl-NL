@@ -4,9 +4,9 @@ description: Leer hoe te om Adobe [!DNL Target] QA URLs te gebruiken om gemakkel
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activiteiten
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1661'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Gebruik QA URLs in [!DNL Adobe Target] om gemakkelijke activiteit QA van begin t
 
 * De interface [!UICONTROL Target QA Mode] toont slechts eerste URL van een ervaring in een multi-paginaactiviteit. De veronderstelling is dat u een reistest creeert en u zich van URL1 aan URL2 beweegt. Als u echter onafhankelijk naar URL2 wilt gaan, kopieert u alle URL-parameters die via URL1 zijn opgegeven en past u deze toe op URL2 nadat u een &#39;?&#39; hebt geplaatst net als in URL1.
 
-## Doelcompatibiliteit met JavaScript-bibliotheek [!UICONTROL QA Mode]
+## Doelcompatibiliteit met JavaScript-bibliotheek [!UICONTROL QA Mode] {#compatibility}
 
 [!DNL Target] ondersteunt de volgende JavaScript-bibliotheken:
 
@@ -128,18 +128,13 @@ Als u een voorbeeld-URL vanaf de pagina **[!UICONTROL Overview]** van een activi
 
 In de volgende tabel worden de verschillende typen activiteiten vermeld en wordt aangegeven of de functie URL&#39;s voorvertonen wordt ondersteund voor elke bibliotheek of API:
 
-| Type activiteit | at.js 1.x | at.js 2.x | Platform Web SDK | Leverings-API | Admin-API |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL A/B Test] | Ja | Ja | Ja | Niet van toepassing | Ja |
-| [!UICONTROL Auto-Allocate] | Ja | Ja | Ja | Niet van toepassing | Ja |
-| [!UICONTROL Auto-Target] | Ja | Ja | Ja | Niet van toepassing | Ja |
-| [!UICONTROL Automated Personalization] (AP) | Ja | Ja | Nee | Niet van toepassing | Ja |
-| [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja | Niet van toepassing | Ja |
-| [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja | Niet van toepassing | Ja |
-| [!UICONTROL Recommendations] | Ja | Ja | Ja | Niet van toepassing | Ja |
-
-
-
-
-
+| Type activiteit | at.js 1.x | at.js 2.x | Platform Web SDK |
+| --- | --- | --- | --- |
+| [!UICONTROL A/B Test] | Ja | Ja | Ja |
+| [!UICONTROL Auto-Allocate] | Ja | Ja | Ja |
+| [!UICONTROL Auto-Target] | Ja | Ja | Ja |
+| [!UICONTROL Automated Personalization] (AP) | Ja | Ja | Ja |
+| [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
+| [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja |
+| [!UICONTROL Recommendations] | Ja | Ja | Ja |
 
