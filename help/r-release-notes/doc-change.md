@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
+source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 29 juni | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Er is een compatibiliteitsmatrix toegevoegd om aan te geven welke activiteitstypen de activiteitsmodus ondersteunen bij het gebruik van verschillende Target JavaScript-bibliotheken. |
 | 24 juni | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de [!DNL Target Standard/Premium] 21.6.1-release (30 juni 2021) zijn bijgewerkt. |
 | 16 juni | [[!DNL Target] releaseopmerkingen (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de [!DNL Adobe Target] release van Python SDK versie 1.0.0. |
 |  | [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen bestaan?</li></ul> |
