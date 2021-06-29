@@ -5,9 +5,9 @@ title: Hoe werk ik bij van versie 1.js naar versie 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.** Met weer
 | --- | --- |
 | 1 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
-| 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
+| 1 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht  `triggerView()`. |
@@ -45,9 +45,9 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 | Bellen | Details |
 | --- | --- |
-| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
-| 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
+| 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
@@ -217,7 +217,7 @@ Klanten die `mboxCreate()` gebruiken voor het bijhouden van conversies, moeten `
 
 Klanten die `mboxCreate()` niet vervangen door `getOffer()` of `applyOffer()`, lopen het risico dat er geen aanbiedingen worden geleverd.
 
-### Mag om.js 2.*Op sommige pagina&#39;s* wordt xbe gebruikt en op 0,js 1.*Wilt* u xor mbox.js op andere pagina&#39;s plaatsen?
+### Mag om.js 2.*Op sommige pagina&#39;s* wordt xbe gebruikt en op 0,js 1.*Wilt* u andere pagina&#39;s gebruiken?
 
 Ja, het bezoekersprofiel blijft op alle pagina&#39;s behouden met behulp van verschillende versies en bibliotheken. De cookieindeling is hetzelfde.
 
@@ -248,7 +248,7 @@ In wezen is het algemene mbox-concept geïntroduceerd om [!DNL Target] te laten 
 
 ### Maakt de globale naam van de box in at.js nog uit?
 
-Klanten kunnen een algemene naam voor een box opgeven via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Deze instelling wordt door de Edge-servers [!DNL Target] gebruikt om uitvoering > pageLoad om te zetten in de algemene naam van het selectievakje die wordt weergegeven in de gebruikersinterface [!DNL Target]. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken met de algemene mbox-naam. Wij adviseren sterk dat u ook ervoor zorgt de zelfde globale naam van mbox op de [!UICONTROL Administration > Visual Experience Composer] pagina wordt gevormd, eveneens voor het geval u nog pagina&#39;s hebt die at.js 1 gebruiken.** xor mbox.js, zoals in de volgende afbeeldingen wordt getoond.
+Klanten kunnen een algemene naam voor een box opgeven via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Deze instelling wordt door de Edge-servers [!DNL Target] gebruikt om uitvoering > pageLoad om te zetten in de algemene naam van het selectievakje die wordt weergegeven in de gebruikersinterface [!DNL Target]. Hierdoor kunnen klanten API&#39;s aan de serverzijde, de op formulieren gebaseerde composer, profielscripts blijven gebruiken en een publiek maken met de algemene mbox-naam. Wij adviseren sterk dat u ook ervoor zorgt de zelfde globale naam van mbox op de [!UICONTROL Administration > Visual Experience Composer] pagina wordt gevormd, eveneens voor het geval u nog pagina&#39;s hebt die at.js 1 gebruiken.*x*, zoals in de volgende afbeeldingen wordt getoond.
 
 ![Dialoogvenster Wijzigen bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -396,7 +396,7 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met versch
 
 te.js 2.*x*, net als bij .js 1.*x*, gebruikt de douanegebeurtenis  `at-request-succeeded` aan tokens van de oppervlakreactie. Voor codevoorbeelden die de `at-request-succeeded` douanegebeurtenis gebruiken, zie [Reactietokens](/help/administrating-target/response-tokens.md).
 
-## te.js 1.*xparameters* naar at.js 2.** xpayload-toewijzing  {#payload-mapping}
+## te.js 1.*xparameters* naar at.js 2.** xpayload-toewijzing {#payload-mapping}
 
 In deze sectie worden de toewijzingen tussen at.js 1 beschreven.** xand at.js 2.*x*.
 
