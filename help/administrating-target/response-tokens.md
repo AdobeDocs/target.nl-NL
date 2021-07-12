@@ -3,9 +3,9 @@ keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
 description: Leer hoe te om reactietokens in Adobe [!DNL Target] output-specifieke informatie te gebruiken in het zuiveren en het integreren met derdehulpmiddelen.
 title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 0%
