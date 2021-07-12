@@ -3,10 +3,9 @@ keywords: host;hosts;hostgroep;problemen oplossen;aanbevolen procedures;ubox;oml
 description: Leer hoe u uw websites en pre-productieomgevingen kunt ordenen voor eenvoudig beheer en gescheiden rapportering in Adobe Target.
 title: Wat zijn gastheren en hoe gebruik ik ze?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -27,7 +26,7 @@ Als u hosts wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!UICON
 
 ![](assets/hosts_list.png)
 
-## Hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65} herkennen
+## Hosts herkennen {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 Als u een host wilt herkennen en toevoegen aan de lijst [!UICONTROL Hosts], moet aan de volgende voorwaarden zijn voldaan:
 
@@ -58,7 +57,7 @@ Nadat een gastheer aan [!UICONTROL Host] lijst wordt toegevoegd, zorg ervoor dat
 >
 >De [!UICONTROL Production]-omgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. Men veronderstelt dat dit milieu is waar u definitieve, actieve activiteiten en tests dient. De standaardomgeving staat niet toe dat inactieve campagnes worden weergegeven.
 
-## De lijst met hosts sorteren of doorzoeken {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## De lijst met gastheren sorteren of doorzoeken {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Als u de lijst [!UICONTROL Hosts] wilt sorteren, klikt u op een kolomkop ([!UICONTROL Name], [!UICONTROL Environment] of [!UICONTROL Last Requested]) om de lijst in oplopende of aflopende volgorde te sorteren.
 
@@ -100,7 +99,7 @@ U kunt een lijst van gewezen personen ook tot stand brengen die gastheren (domei
 >
 >De lijst [!UICONTROL Authorized Hosts] wordt gebruikt voor zowel [!DNL Target] gastheren als standaard opnieuw richten gastheren. Voeg alle bestaande domeinen toe die zijn goedgekeurd voor het gebruik van de [!DNL Adobe Target] JavaScript SDK (at.js) *AND* alle domeinen die in ubox standaard omleidings URLs worden gebruikt. Voeg nieuwe gelijkaardige domeinen aan de lijst van gewenste personen in de toekomst toe.
 
-## Een host {#section_F56355BA4BC54B078A1A8179BC954632} verwijderen
+## Een host verwijderen {#section_F56355BA4BC54B078A1A8179BC954632}
 
 U kunt een host verwijderen wanneer deze niet meer nodig is.
 
@@ -111,7 +110,7 @@ U kunt een host verwijderen wanneer deze niet meer nodig is.
 >
 >De gastheer wordt opnieuw vermeld als iedereen aan een pagina doorbladert die een [!DNL Target] verzoek op de gastheer bevat.
 
-## Problemen met hosts {#concept_B3D7583FA4BB480382CC7453529FE1B7} oplossen
+## Problemen met hosts oplossen {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
 Probeer de volgende tips voor het oplossen van problemen als u problemen ondervindt met uw hosts:
 
