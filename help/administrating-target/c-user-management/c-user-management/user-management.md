@@ -3,10 +3,9 @@ keywords: gebruiker toevoegen;gebruiker beheren;gebruikersmachtigingen
 description: Leer hoe u de Adobe Admin Console gebruikt om gebruikers en hun machtigingen en rechten in Adobe Target te beheren.
 title: Hoe kan ik gebruikers toevoegen en machtigingen beheren?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -62,14 +61,14 @@ Voor taken die in Adobe Admin Console worden uitgevoerd, opent u de console door
 
 1. (Voorwaardelijk) als u toegang tot [!DNL Admin Console for Enterprise] voor meer dan één organisatie hebt, klik de gebruikersavatar in de juiste hoek of de hoogste navigatiebar, dan selecteer de gewenste organisatie.
 
-## Gebruikers {#add-users} toevoegen
+## Gebruikers toevoegen {#add-users}
 
 Al gebruikersbeheer moet in [!DNL Adobe Admin Console for Enterprise] worden uitgevoerd. Alle bestaande gebruikers in [!DNL Target] worden echter gemigreerd van [!DNL Target] naar [!DNL Admin Console for Enterprise].
 
 1. [Klik in de Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) op  **[!UICONTROL Users]** >  **[!UICONTROL Users]** om nieuwe gebruikers te maken of bestaande gebruikers te bewerken.
 1. Volg de instructies in [Gebruikers en groepen beheren in de Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in *Handleiding voor gebruikers in de onderneming*.
 
-## Gebruikersgroepen {#user-groups} maken
+## Gebruikersgroepen maken {#user-groups}
 
 U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Executives, enz., en vervolgens rechten toewijzen voor meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid alle aangewezen voorrechten over verschillende producten van de Adobe kan zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
 
