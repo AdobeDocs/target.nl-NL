@@ -4,7 +4,7 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe [!DNL Ta
 title: Waar kan ik Vragen en Antwoorden over  [!DNL Target] Recommendations vinden?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 0%
@@ -247,7 +247,7 @@ Een algoritme dat is gemaakt in [!DNL Recommendations Classic] wordt niet onders
 
 ## Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen? {#recommend-new-articles}
 
-Sommige klanten in media en publicaties willen er mogelijk voor zorgen dat de aanbevolen items alleen de nieuwste artikelen of video&#39;s bevatten. Een [!DNL Target]-klant heeft bijvoorbeeld de volgende benadering gebruikt om artikelen van minder dan 60 dagen oud aan te bevelen:
+Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen items alleen de nieuwste artikelen of video&#39;s bevatten. Een [!DNL Target]-klant heeft bijvoorbeeld de volgende benadering gebruikt om artikelen van minder dan 60 dagen oud aan te bevelen:
 
 1. Geef de publicatiedatum van het artikel in de notatie JJMMDDD door als een attribuut van de douaneentiteit.
 1. Maak een profielscript dat de datum minus 60 dagen van vandaag is, ook in de notatie JJJMMDD.
