@@ -4,9 +4,9 @@ description: Lees aankondigingen en onderteken omhoog voor Adobe [!DNL Target] g
 title: Waar kan ik  [!DNL Target] aankondigingen en Gebeurtenissen vinden?
 feature: Opmerkingen bij de release
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,26 @@ Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van [!
 | --- | --- |
 | Forrester | **Adobe noemde een Leider in de golfrapport van de Forrester voor ervaring optimalisatieplatforms.**<br> Adobe kreeg de naam Leader in de Forrester Wave: Experience Optimization Platforms, Q4 2020 rapport voor zijn aanbieding in deze ruimte, Adobe Target Premium. Adobe heeft de hoogste score van alle deelnemende leveranciers behaald in de huidige aanbiedings- en marktaanwezigheidscategorieën, alsook in de aanbevelingen en criteria voor de ervaring met platforms. Target Premium behaalde ook de hoogst mogelijke score in de ervaring optimalisatietechniek innovatie en ondersteunende servicecriteria. Het verslag is gebaseerd op een grondige evaluatie van 10 aanbieders van het optimalisatieplatform voor ervaringen op 22 verschillende criteria.<br>Lees er op de  [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) over. |
 | Gartner | **Adobe noemde opnieuw een leider in het Gartner Magic Quadrant voor verpersoonlijkingsmotoren.**<br> Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid.<br>[Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
+## Webinar: Het kwantificeren van de significante ROI, inzichten, en tijd-besparingen van het integreren [!DNL Adobe Analytics] + [!DNL Adobe Target]
+
+* **Dinsdag 20 juli 2021**
+* **08:00 (PDT, UTC -7)**
+* **[Klik hier voor meer informatie en om u te registreren](https://www.adobeeventsonline.com/Webinar/2021/Quantifying/).**
+
+## [!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie
+
+* **Woensdag 21 juli 2021**
+* **08:00 (PDT, UTC -7)**
+* **[Klik hier voor meer informatie en om u te registreren](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+
+David Son, [!DNL Target] Senior Product Manager zal uw vragen met betrekking tot zijn vakgebieden beantwoorden:
+
+* [!DNL Adobe Experience Platform Web SDK]
+* Apparaatbeslissingen
+* at.js
+* Mobiel
+* Doel-API&#39;s
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
