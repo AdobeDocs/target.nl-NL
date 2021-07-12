@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,9 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 12 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>Webinar: Het kwantificeren van de significante ROI, inzichten, en tijd-besparingen van het integreren Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Communautair afscheid van Koffie Vragen en antwoorden te houden op woensdag 21 juli 2021 om 8.00 uur. (PDT, GMT-7).</li></ul> |
-|  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Hoe kan ik artikelen aanbevelen die niet ouder zijn dan 60 dagen?&quot; |
+|  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen?&quot; |
+|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst in de sectie van de vraag van doel API. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte beschrijving voor de `consumerId` sleutel. |
 |  | Experience Cloud Device Co-op | Verwijderd onderwerp. Deze functionaliteit is vervangen. |
 | 29 juni | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De volgende secties toegevoegd:<ul><li>Doelcompatibiliteit met JavaScript-bibliotheek [!UICONTROL QA Mode]</li><li>Voorvertoning van URL&#39;s</li></ul> |
 | 24 juni | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de [!DNL Target Standard/Premium] 21.6.1-release (30 juni 2021) zijn bijgewerkt. |
