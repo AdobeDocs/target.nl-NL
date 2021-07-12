@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Hulplijn
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,6 @@ ht-degree: 0%
    + [Experience Cloud publiek](c-integrating-target-with-mac/mmp.md)
    + [Doel integreren met Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Doel integreren met Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
-   + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Activiteiten {#activities}
    + [Overzicht van activiteiten](c-activities/activities.md)
    + [Doelactiviteitstypen](c-activities/target-activities-guide.md)
