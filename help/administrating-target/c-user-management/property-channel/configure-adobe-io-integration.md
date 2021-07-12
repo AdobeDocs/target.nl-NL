@@ -1,19 +1,18 @@
 ---
 keywords: integratie;rollen;gebruikersmachtigingen;beheerconsole
 description: Leer hoe u bestaande Adobe I/O-integraties toegang geeft tot alle werkruimten met de gewenste rol in Adobe Target.
-title: Hoe kan ik Adobe I/O toegang verlenen tot werkruimten en Rollen toewijzen?
-feature: Administration & Configuration
-role: Administrator
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+title: Hoe verstrek ik de Toegang van Adobe I/O tot Werkruimten en wijs Rollen toe?
+feature: Beheer en configuratie
+role: Admin
+exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
 
-
-# ![PREMIUMGrant Adobe I/O integrations access to workspaces and assign rollen ](/help/assets/premium.png) 
+# ![Toegang tot werkruimten voor PREMIUMGrant-Adobe I/O-integratie en het toewijzen van rollen ](/help/assets/premium.png) 
 
 [!UICONTROL Enterprise Permissions] staat  [!DNL Target] klanten toe om één enkele organisatie te gebruiken, maar het te verdelen in werkruimten voor hun verschillende teams of werkschema&#39;s.
 
@@ -31,17 +30,17 @@ Met de [!DNL Target] release van september 2019 biedt [!DNL Target] [!UICONTROL 
 Deze update biedt ondersteuning voor de volgende gebruiksgevallen:
 
 * Verleen de integratietoegang van Adobe I/O tot alle werkruimten met de [!UICONTROL Observer] rol voor rapporteringsdoeleinden zonder rechten om middelen tot stand te brengen of uit te geven.
-* Verleen de integratie van Adobe I/O de toegang tot uitgezochte werkruimten met de aangewezen rol om een centraal team toe te staan om API-gedreven veranderingen in slechts een paar werkruimten aan te brengen.
+* Verleen de Adobe I/O integratie de toegang tot uitgezochte werkruimten met de aangewezen rol om een centraal team toe te staan om API-gedreven veranderingen in slechts een paar werkruimten aan te brengen.
 * Laat elk team dat eigenaar is van zijn werkruimte zijn eigen integratie hebben wanneer het team klaar is om API&#39;s te verkennen en de rol dienovereenkomstig te kiezen.
 * Mengen en afstemmen van bovenstaande scenario&#39;s.
 
-**Actie vereist**: De klanten die momenteel APIs voor verrichtingen CRUD op middelen (activiteiten, publiek, aanbiedingen, en rapportering) over alle werkruimten leveraging moeten hun bestaande de integratietoegang van Adobe I/O tot alle werkruimten met de gewenste rol volgens hun gebruikscase verlenen. U kunt dit doen door elke [!DNL Target] [!UICONTROL Product Profile] in [!DNL Adobe Admin Console] te selecteren en de integratie(s) in &lt;a3 toe te voegen/> tabel. [!UICONTROL Integration] Vóór de release van september werkten alle integratie met behulp van [!UICONTROL Approver]-toegang, ongeacht de keuze uit de vervolgkeuzelijst [!UICONTROL Product Role]. U kunt nu de gewenste rol kiezen.
+**Actie vereist**: De klanten die momenteel APIs voor verrichtingen CRUD op middelen (activiteiten, publiek, aanbiedingen, en rapportering) over alle werkruimten gebruiken moeten hun bestaande de integratietoegang van Adobe I/O tot alle werkruimten met de gewenste rol zoals per hun gebruikscase verlenen. U kunt dit doen door elke [!DNL Target] [!UICONTROL Product Profile] in [!DNL Adobe Admin Console] te selecteren en de integratie(s) in &lt;a3 toe te voegen/> tabel. [!UICONTROL Integration] Vóór de release van september werkten alle integratie met behulp van [!UICONTROL Approver]-toegang, ongeacht de keuze uit de vervolgkeuzelijst [!UICONTROL Product Role]. U kunt nu de gewenste rol kiezen.
 
 >[!NOTE]
 >
 >Als deze actie niet wordt uitgevoerd, na [!DNL Target] Versie van september 2019, zullen de toegangscontroles activeren en u zult toegang tot enkel de standaardwerkruimte waarnemen als dat is hoe u momenteel opstelling bent. Er is geen negatieve reactie op het vooraf opzetten van integraties. Hoe eerder u deze wijziging aanbrengt, des te beter. Afhankelijk van het aantal werkruimten in uw organisatie, vergt dit proces slechts een paar klikken om een bestaande integratie in werkruimten met de gewenste rol toe te voegen.
 
-**Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen:**
+**Om Adobe I/O integraties toegang tot werkruimten te verlenen en rollen toe te wijzen:**
 
 1. Open **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
