@@ -3,10 +3,9 @@ keywords: inkomstenlift;inkomsten;schatten van lift in inkomsten;berekenen van l
 description: Schatting van de lift die u kunt bereiken als elke bezoeker de winnende ervaring ziet, als de trends doorzetten zoals deze tijdens de test zijn.
 title: Wat schat ik de opbrengst in?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
