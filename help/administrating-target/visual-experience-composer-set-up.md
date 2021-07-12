@@ -3,10 +3,9 @@ keywords: visuele ervaringscomposer;vec;default url;enhanced experience composer
 description: Leer hoe te om Adobe te vormen  [!DNL Target] Visual Experience Composer (VEC) door zijn algemene montages, mobiele viewport configuratie, en CSS selecteurs te specificeren.
 title: Hoe vorm ik de Visuele Composer van de Ervaring (VEC)?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -37,7 +36,7 @@ De volgende instellingen zijn beschikbaar:
 
 Stel de standaard-URL in die door de [!UICONTROL Visual Experience Composer] wordt gebruikt. Dit is de standaardpagina, zoals uw homepage, die wordt gebruikt wanneer u opstelling een ervaring voor elke nieuwe activiteit. Als u geen standaard-URL instelt, moet u voor elke activiteit een URL invoeren wanneer u deze maakt.
 
-### Enhanced Experience Composer {#eec} inschakelen
+### Enhanced Experience Composer inschakelen {#eec}
 
 Hiermee kunt u iFrame-sites en sites met gemengde inhoud bewerken. Sommige sites zijn mogelijk niet compatibel met de verbeterde versie. Schakel deze optie uit om terug te keren naar het origineel [!UICONTROL Visual Experience Composer]. Deze keuze heeft geen invloed op de levering van activiteiten op sites.
 
