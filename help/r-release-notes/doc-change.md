@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen?&quot; |
 |  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst in de sectie van de vraag van doel API. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte beschrijving voor de `consumerId` sleutel. |
+|  | [Een globale box aanpassen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Bijgewerkte Stap 1 om erop te wijzen dat de verandering automatisch wordt bewaard nadat u een nieuw vakje selecteert. |
 |  | Experience Cloud Device Co-op | Verwijderd onderwerp. Deze functionaliteit is vervangen. |
 | 29 juni | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De volgende secties toegevoegd:<ul><li>Doelcompatibiliteit met JavaScript-bibliotheek [!UICONTROL QA Mode]</li><li>Voorvertoning van URL&#39;s</li></ul> |
 | 24 juni | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de [!DNL Target Standard/Premium] 21.6.1-release (30 juni 2021) zijn bijgewerkt. |
