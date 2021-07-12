@@ -3,9 +3,9 @@ keywords: omgeving;problemen oplossen;aanbevolen procedures;ubox;omleiding;omlei
 description: Leer hoe u omgevingen in Adobe [!DNL Target] kunt gebruiken om uw sites en pre-productieomgevingen te ordenen voor eenvoudig beheer en gescheiden rapportering.
 title: Wat zijn omgevingen en hoe gebruik ik deze?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
