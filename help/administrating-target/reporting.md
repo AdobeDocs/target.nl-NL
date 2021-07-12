@@ -3,10 +3,9 @@ keywords: rapport;rapporten;rapportering;ervaring wolkenoplossing;tijdzone;tijdz
 description: Gebruik [!DNL Target] of Adobe Analytics als rapporteringsbron, specificeer de standaardtijdzone en muntformaat, voeg IP adressen toe om van rapportering uit te sluiten, en meer.
 title: Hoe vorm ik Rapportering in Doel?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
