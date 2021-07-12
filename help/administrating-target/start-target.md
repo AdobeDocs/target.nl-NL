@@ -3,10 +3,9 @@ keywords: Beheer;goedkeurende rol;fiatteur
 description: Voer de eerste taken uit Adobe [!DNL Target] beheerders zouden na het ontvangen van de e-mailuitnodiging aan Adobe Experience Cloud moeten nemen.
 title: Waar kan ik aan de slag met het beheerdoel?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -25,7 +24,7 @@ Zie [Experience Cloud-gebruikers en -producten beheren](https://experienceleague
 
 U ontvangt een uitnodigingse-mail nadat de systeembeheerder deze stappen heeft uitgevoerd.
 
-## De uitnodiging {#task_24FE66659E634B24AB61DB8497772E17} accepteren
+## De uitnodiging accepteren {#task_24FE66659E634B24AB61DB8497772E17}
 
 Nadat u de uitnodiging hebt ontvangen om deel te nemen aan de [!DNL Adobe Experience Cloud], accepteert u de uitnodiging, meldt u zich aan en accepteert u de licentieovereenkomst voor eindgebruikers (EULA).
 
@@ -49,7 +48,7 @@ Nadat u de uitnodiging hebt ontvangen om deel te nemen aan de [!DNL Adobe Experi
 1. Als u uw nieuwe rechten wilt zien en toegang wilt krijgen tot het product, meldt u zich af van [!DNL Adobe Experience Cloud] en meldt u zich vervolgens weer aan.
 1. Ga verder met de volgende stap, [en wijs zelf de rol Approver toe](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
-## Wijs me de rol van fiatteur {#task_15CAA437A71444E2932B333D5E66A3C7} toe
+## Wijs me de rol van fiatteur toe {#task_15CAA437A71444E2932B333D5E66A3C7}
 
 Nadat u de uitnodiging om deel te nemen aan [!DNL Adobe Experience Cloud] hebt geaccepteerd en u hebt aangemeld, bevestigt u dat Target is toegevoegd aan uw [!DNL Experience Cloud]-account en wijst u uzelf vervolgens de [!UICONTROL Approver]-rol toe voor [!DNL Target].
 
