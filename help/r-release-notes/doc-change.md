@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
+source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 11 juli | Experience Cloud Device Co-op | Verwijderd onderwerp. Deze functionaliteit is vervangen. |
+| 12 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>Webinar: Het kwantificeren van de significante ROI, inzichten, en tijd-besparingen van het integreren Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Communautair afscheid van Koffie Vragen en antwoorden te houden op woensdag 21 juli 2021 om 8.00 uur. (PDT, GMT-7).</li></ul> |
+|  | Experience Cloud Device Co-op | Verwijderd onderwerp. Deze functionaliteit is vervangen. |
 | 29 juni | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De volgende secties toegevoegd:<ul><li>Doelcompatibiliteit met JavaScript-bibliotheek [!UICONTROL QA Mode]</li><li>Voorvertoning van URL&#39;s</li></ul> |
 | 24 juni | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de [!DNL Target Standard/Premium] 21.6.1-release (30 juni 2021) zijn bijgewerkt. |
 | 16 juni | [[!DNL Target] releaseopmerkingen (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de [!DNL Adobe Target] release van Python SDK versie 1.0.0. |
