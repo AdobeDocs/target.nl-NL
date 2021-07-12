@@ -4,9 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overzicht
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Probeer de functie [Profielscripts](/help/c-target/c-visitor-profile/profile-par
 
 Gebruik de besturingselementen voor procentuele toewijzing beschikbaar in [Stap 2 van de Geleide workflow met instructies voor het doel (pagina met doelen)](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u de activiteit wilt instellen.
 
-**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
@@ -224,12 +224,6 @@ Klik op de miniatuur vóór de naam van de ervaring in Stap 2 en u gaat aan de s
 
 Gebruik [formuliergebaseerde benadering](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) om activiteiten te maken.
 
-**Kan ik ervoor zorgen dat dezelfde ervaring consistent wordt opgedaan op alle apparaten die een gebruiker kan hebben?**
-
-Bekijk onze [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) waarmee u deterministisch en waarschijnlijk meerdere apparaten van een gebruiker kunt koppelen via de kracht van een Co-op.
-
-Als u in Co-op bent, laat een eenvoudige vlag op de Doelstellingen en de pagina van Montages de eigenschap toe. De rapportage verandert ook om nu Mensen te weerspiegelen in plaats van Bezoekers. Neem contact op met uw Adobe-contactpersoon voor meer informatie over deze functie, omdat deze functie niet in alle regio&#39;s beschikbaar is.
-
 **Waarom zie ik niet het gewenste aanbod/de gewenste ervaring en zie ik in plaats daarvan een andere activiteit?**
 
 Gebruik [debugger](/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) en controleer [activity collisions](/help/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
@@ -258,7 +252,7 @@ Gebruik de kracht van [op vorm-gebaseerde activiteiten](/help/c-experiences/form
 
 ## Rapporten (met inbegrip van Analytics voor doel-A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**Ik heb ook Adobe Analytics en ik wil het benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijkste mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
