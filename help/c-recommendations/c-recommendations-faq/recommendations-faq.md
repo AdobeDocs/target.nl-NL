@@ -4,10 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe [!DNL Ta
 title: Waar kan ik Vragen en Antwoorden over  [!DNL Target] Recommendations vinden?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-translation-type: tm+mt
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -99,7 +98,7 @@ Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de ki
 
 >[!NOTE]
 >
->Dit het plaatsen is op activiteiten van toepassing die in Visuele Composer van de Ervaring (VEC) slechts worden gecreeerd. Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer ([!DNL Target] heeft geen locatiecontext).
+>Deze instelling is alleen van toepassing op activiteiten die zijn gemaakt in de [!UICONTROL Visual Experience Composer] (VEC). Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer ([!DNL Target] heeft geen locatiecontext).
 
 Als u de instelling [!UICONTROL Filter Incompatible Criteria] wilt openen, klikt u op [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
