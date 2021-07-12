@@ -3,10 +3,9 @@ keywords: werkruimten;beheren eigenschap;machtigingen;productconfiguratie;produc
 description: Leer hoe u afzonderlijke werkruimten (productprofielen) maakt en gebruikers vervolgens verschillende rollen en machtigingen toewijst voor afzonderlijke pagina's, eigenschappen of websites.
 title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebruik ik hen?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -204,7 +203,7 @@ De nieuwe functionaliteit van Toestemmingen kan op diverse plaatsen in [!DNL Tar
 
    ![](assets/properties_list.png)
 
-## Voorwerpen {#section_9714311B1CD9497A86F4910F8AE635E2}
+## Caveats {#section_9714311B1CD9497A86F4910F8AE635E2}
 
 Overweeg het volgende wanneer het gebruiken van of het vormen eigenschappen en toestemmingen in [!DNL Target] Premium:
 
