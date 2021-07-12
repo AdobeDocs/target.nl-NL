@@ -5,10 +5,9 @@ title: Hoe gebruik ik de functie adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -23,10 +22,10 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 
 | Sleutel | Type | Vereist? | Beschrijving |
 | --- | --- | --- | --- |
-| consumerId | String | Nee | De standaardwaarde is het globale mbox van de cliënt als niet verstrekt. Deze sleutel wordt gebruikt om extra gegevens ID te produceren die voor integratie A4T wordt gebruikt. Deze sleutel is een unieke tekenreeks per bezoeker. |
-| determinoningMethod | String | Nee | &quot;server-side&quot;, &quot;on-device&quot;, &quot;hybride&quot; |
-| verzoek | Object | Ja | Zie onderstaande tabel Verzoeken. |
-| timeout | Getal | Nee | time-out verzoek. Als deze niet is opgegeven, wordt de standaardtime-out at.js gebruikt. |
+| `consumerId` | String | Nee | De standaardwaarde is het globale mbox van de cliënt als niet verstrekt. Deze sleutel wordt gebruikt om de supplementaire gegevens ID (SDID) te produceren die voor integratie A4T wordt gebruikt. Deze sleutel is een unieke tekenreeks per bezoeker.<br>Wanneer het gebruiken  `getOffers()`, produceert elke vraag een nieuwe SDID. Als er meerdere box-aanvragen op dezelfde pagina staan en u wilt de SDID behouden (zodat deze overeenkomt met de SDID van de target-global-mbox en de Adobe Analytics SDID), gebruikt u de parameter `consumerId`.<br>Als er drie  `getOffers()` vakken in staan (met de namen &quot;mbox1&quot;, &quot;mbox2&quot; en &quot;mbox3&quot;), moet u ook het volgende vermelden:  `consumerId: "mbox1, mbox2, mbox3"` in de  `getOffers()` vraag. |
+| `decisioningMethod` | String | Nee | &quot;server-side&quot;, &quot;on-device&quot;, &quot;hybride&quot; |
+| `request` | Object | Ja | Zie onderstaande tabel Verzoeken. |
+| `timeout` | Getal | Nee | Verzoek time-out. Als deze niet is opgegeven, wordt de standaardtime-out at.js gebruikt. |
 
 ## Verzoek
 
@@ -208,7 +207,7 @@ adobe.target.getOffers({
 
 De nuttige lading kan dan aan Adobe Analytics via [de Invoeging API van Gegevens](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) door:sturen.
 
-## Gegevens uit meerdere vakken ophalen en renderen via getOffers() en applyOffers() {#multiple}
+## Gegevens ophalen en renderen vanuit meerdere vakken via getOffers() en applyOffers() {#multiple}
 
 met at.js 2.x kunt u meerdere vakken ophalen via de `getOffers()`-API. U kunt ook gegevens ophalen voor meerdere vakken en vervolgens `applyOffers()` gebruiken om de gegevens te renderen op verschillende locaties die door een CSS-kiezer worden geïdentificeerd.
 
