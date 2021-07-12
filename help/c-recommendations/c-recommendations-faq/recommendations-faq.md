@@ -4,9 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe [!DNL Ta
 title: Waar kan ik Vragen en Antwoorden over  [!DNL Target] Recommendations vinden?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3128'
 ht-degree: 0%
 
 ---
@@ -244,5 +244,39 @@ Als de bezoeker niet tegelijkertijd twee actieve sessies heeft, worden onlangs b
 ## Kan ik een algoritme gebruiken dat in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] wordt gecreeerd?
 
 Een algoritme dat is gemaakt in [!DNL Recommendations Classic] wordt niet ondersteund in [!DNL Recommendations Premium]. U zou het erfenisalgoritme in [!DNL Target Premium] kunnen kunnen gebruiken; het algoritme kan echter synchronisatieproblemen veroorzaken wanneer de activiteit in [!DNL Target Premium] UI wordt gedeactiveerd of verwijderd. Voor meer informatie over de verschillen tussen de twee oplossingen, zie [[!DNL Recommendations Classic] versus [!DNL Recommendations] activiteiten in  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+## Hoe kan ik artikelen aanbevelen die niet ouder zijn dan 60 dagen? {#less-than-60}
+
+Een [!DNL Target]-klant heeft bijvoorbeeld de volgende benadering gebruikt om artikelen aan te bevelen die minder dan 60 dagen oud zijn.
+
+Deze klant gebruikt geen gegevensfeed. Alle gegevens die over artikelen worden verzameld, komen uit de gegevenslaag en worden doorgegeven aan [!DNL Target] in paginaweergaven.
+
+Deze klant gebruikte de volgende benadering:
+
+* De publicatiedatum is doorgegeven in de notatie JJJMMDD als een entiteitsparameter.
+* Een profielscript gemaakt dat de datum minus 60 dagen van vandaag is, ook in de notatie JJJMMDD.
+* Gebruikt een dynamisch inclusiefilter in de criteria zodat `publish date > today’s date minus 60 days`.
+
+Deze klant heeft de volgende gegevensvelden vastgelegd:
+
+| Gegevensveld | Voorbeeld |
+| --- | --- |
+| issueDate | 2021218 |
+| lastViewDate | 2021701 |
+| parentCategory | commentaar |
+| publishDate | 20210113 |
+| publishDateDisplay | 13 jan. 2021 |
+
+Deze klant gebruikte de volgende inclusieregel gebruikend profielkenmerkaanpassing:
+
+![Voorbeeld van insluitingsregel](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+Deze klant heeft het volgende profielscript gebruikt:
+
+![Voorbeeldprofielscript](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>Dit voorbeeld kan ook worden uitgevoerd met parameter-overeenkomsten die de waarde `priorDate60` doorgeven als een mbox-parameter.
 
 
