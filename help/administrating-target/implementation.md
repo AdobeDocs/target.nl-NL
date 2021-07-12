@@ -3,10 +3,9 @@ keywords: implementeren;uitvoeren
 description: Leer hoe u Adobe [!DNL Target] op uw site implementeert. Stel uw algemene instellingen, implementatiemethode (AEP Web SDK of at.js) en meer in.
 title: Hoe implementeert u  [!DNL Target] op mijn site?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
