@@ -3,9 +3,9 @@ keywords: toevoegen gebruiker;project;gebruikersgroep;eigenschappen;werkruimte;b
 description: Leer hoe u gebruikers aan Adobe Target kunt toevoegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de implementatie bij te werken; en geef rollen en machtigingen op.
 title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Beheer en configuratie
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 0%
