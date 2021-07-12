@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Opmerkingen bij de release
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '30692'
+source-wordcount: '30664'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,6 @@ De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 * Probleem verholpen waarbij het onjuiste aantal producten in verzamelingen [!UICONTROL Recommendations] werd weergegeven. (TGT-39162)
 * Filter [!UICONTROL Last Updated] toegevoegd aan [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
 * Probleem verholpen in [!UICONTROL Recommendations] dat ertoe leidde dat de pagina [!UICONTROL Create Sequence] vastliep nadat de verticale branche was gewijzigd. (TGT-38160)
-* Probleem verholpen waardoor de activiteit niet kon worden opgeslagen als Device Co-op was ingeschakeld en de gebruiker van [!DNL Target] als rapportbron veranderde in [!DNL Analytics] (A4T). (TGT-38163)
 * Probleem verholpen waardoor gebruikers een publiek niet konden verwijderen uit een aanbieding in een activiteit [!UICONTROL Automated Personalization] (AP). (TGT-39058)
 * Probleem verholpen waarbij het onjuiste tijdframe (begin- en einddatum) voor sommige klanten werd weergegeven in [!UICONTROL Audience Info]-kaarten. (TGT-39150)
 * Probleem verholpen waardoor sommige klanten de lijst met activiteiten in [!UICONTROL Default Workspace] niet konden zien. (TGT-38526)
@@ -353,7 +352,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
    * Verbeterde gebruikershulp: Zoekresultaten zijn onder andere resultaten van de productdocumentatie van [!DNL Target], maar ook communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om u te helpen [!DNL Target] optimaal te benutten. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help], waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.
 
-   * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
+   * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target]-klanten op de bestemmingspagina geland nadat ze op het pictogram [!DNL Target] in de koptekst hadden geklikt. Op deze pagina konden klanten doorgaan met [!DNL Target Standard/Premium], [!DNL Search&Promote] of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
@@ -415,7 +414,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
    * Eenvoudiger overschakelen tussen [!DNL Identity Management System] (IMS) organisaties of naar een andere oplossing.
    * Verbeterde gebruikershulp: Zoekresultaten zijn onder andere resultaten van de productdocumentatie van [!DNL Target], maar ook communityforums en meer video-inhoud. Hierdoor hebt u gemakkelijker toegang tot meer inhoud om u te helpen [!DNL Target] optimaal te benutten. Er is ook een feedbackmechanisme toegevoegd in het menu [!UICONTROL Help], waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.
 
-   * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
+   * De verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw workflow niet verstoort.
    * Verbeterde aanmeldstroom. Eerder zijn alle [!DNL Target]-klanten op de bestemmingspagina geland nadat ze op het pictogram [!DNL Target] in de koptekst hadden geklikt. Op deze pagina konden klanten doorgaan met [!DNL Target Standard/Premium], [!DNL Search&Promote] of [!DNL Recommendations Classic], zoals hieronder wordt getoond:
 
       ![Openingspagina](/help/r-release-notes/assets/landing.png)
@@ -527,7 +526,7 @@ We zijn blij om de volgende spannende functies aan te kondigen in at.js 2.1.0:
 | Beperkte bestandsgrootte | De grootte van at.js wordt verminderd met ~24%. De kleinere bestandsgrootte verbetert de laadprestaties van de pagina en verkort de downloadtijd op .js op de pagina. |
 | op.js documentatie updates | Voor een volledige lijst van alle artikelen die wegens de versie at.js 2.1.0 worden bijgewerkt, zie de 3 Juni, 2019 ingangen in [Documentatieveranderingen](/help/r-release-notes/doc-change.md). |
 
-### [!DNL Target] Standard/Premium 19.5.1 (21 mei 2019)  {#tgt-19-5-1-historical}
+### [!DNL Target] Standard/Premium 19.5.1 (21 mei 2019) {#tgt-19-5-1-historical}
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
 
@@ -541,7 +540,7 @@ We zijn blij om de volgende spannende functies aan te kondigen in at.js 2.1.0:
 
 * De pictogrammen van de werkbalk worden correct weergegeven nadat u het laden van een pagina in de VEC hebt geannuleerd. Als specifieke handelingen pas kunnen worden uitgevoerd nadat de pagina volledig is geladen, worden de bijbehorende werkbalkpictogrammen uitgeschakeld. (TGT-33811)
 
-### [!DNL Target] Standard/Premium 19.4.2 (30 april 2019)  {#release-19-4-2}
+### [!DNL Target] Standard/Premium 19.4.2 (30 april 2019) {#release-19-4-2}
 
 Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 
@@ -570,7 +569,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 * Nadat u een [!UICONTROL Recommendations] inzameling van de plukker van Inzamelingen selecteert, moet u [!UICONTROL Save] knoop nu klikken. Deze workflow is consistent met andere workflows binnen [!DNL Target]. (TGT-33205)
 * Probleem verholpen waarbij een kleine set inzichtsrapporten 0% omzettingspercentages retourneerde in plaats van de werkelijke omrekeningskoersen. (TNT-32125)
 
-### [!DNL Target] Standard/Premium 19.4.1 (15 april 2019)  {#release-19-4-1}
+### [!DNL Target] Standard/Premium 19.4.1 (15 april 2019) {#release-19-4-1}
 
 Deze release is een onderhoudrelease en bevat de volgende wijziging:
 
@@ -578,7 +577,7 @@ Deze release is een onderhoudrelease en bevat de volgende wijziging:
 
 * De interface van [!DNL Adobe Experience Cloud] is bijgewerkt om de wijzigingen van branding en producten te weerspiegelen. (TGT-33546, TGT-33272, en TGT-33331)
 
-#### [!DNL Target] Standard/Premium 19.3.1 (29 maart 2019)  {#release-19-3-1}
+#### [!DNL Target] Standard/Premium 19.3.1 (29 maart 2019) {#release-19-3-1}
 
 Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 
@@ -619,7 +618,7 @@ Dit is een onderhoudrelease met de volgende oplossing:
 | at.js versie 2.0.0<br>19 februari 2019 | at.js 2.x is nu beschikbaar.<br>De nieuwste versie van at.js verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende generatie cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).<br>Hier volgen enkele voordelen van het gebruik van at.js 2.x die niet beschikbaar zijn in eerdere versies:<ul><li>De capaciteit om alle aanbiedingen op paginading in het voorgeheugen onder te brengen om veelvoudige servervraag aan één enkele servervraag te verminderen.</li><li>Verbeter de ervaringen van uw eindgebruikers op uw site aanzienlijk, omdat aanbiedingen direct via het cachegeheugen worden weergegeven zonder vertraging die traditionele serveraanroepen introduceren.</li><li>Eenvoudige one-line van code en éénmalige ontwikkelaarsopstelling om uw marketers toe te laten om A/B en de activiteiten van de Ervaring (XT) via Visual Experience Composer (VEC) op uw enige paginatoepassingen tot stand te brengen en in werking te stellen.</li></ul>at.js 2.x introduceert de volgende nieuwe functies:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>De volgende functies zijn vervangen door de introductie van at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Zie [Upgraden van at.js 1.x naar at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) en [at.js functies](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) voor meer informatie.<br>**Opmerking**: Als u Adobe Opt-in ondersteuning voor de  [algemene gegevensbeschermingsverordening](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)  (GDPR) nodig hebt, moet u momenteel op 0,js 1.7.0 gebruiken. Ondersteuning voor aanmelden wordt niet ondersteund in at.js 2.x. |
 | at.js versie 1.7.0<br>14 februari 2019 | om.js 1.7.0 is beschikbaar.<br>Deze release biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.<br>Zie  [Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)  (GDPR) voor meer informatie over Adobe Opt-in.<br>Deze versie verhelpt ook een probleem waarbij Doel URL-parameters omleiden kan negeren met parameters die afkomstig zijn van de omleidings-URL.<br>**Opmerking**: Als u ondersteuning voor Adobe Opt-in voor GDPR nodig hebt, moet u momenteel at.js 1.7.0 gebruiken. Ondersteuning voor aanmelden wordt niet ondersteund in at.js 2.x.<br>Raadpleeg de versiedetails [ van ](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js voor een lijst met alle versies. |
 
-### [!DNL Target] Standard/Premium 19.2.1 (19 februari 2019)  {#target-19-2-1}
+### [!DNL Target] Standard/Premium 19.2.1 (19 februari 2019) {#target-19-2-1}
 
 Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 
@@ -644,7 +643,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 | Profielscripts<br>17 januari 2019 | Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.<br>Als de geretourneerde waarde van een tekenreeks groter is dan 2048 tekens, wordt het script door het systeem uitgeschakeld.<br>Als voor een geretourneerde waarde van een array de grootte van de samengevoegde waarden van de array groter is dan 2048 tekens, wordt het script door het systeem uitgeschakeld.<br>Voor meer informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die activiteiten en andere elementen in Doel beïnvloeden, zie [Limieten](/help/r-troubleshooting-target/target-limits.md). |
 | te.js<br>16 januari 2019 | at.js 1.6.4 is een onderhoudsrelease en behandelt de volgende problemen:<ul><li>Probleem verholpen waarbij zich in Microsoft Internet Explorer 11 een zeldzame omstandigheid manifesteerde die dubbele aanbiedingen veroorzaakte die moesten worden toegepast. (TNT-31374)</li><li>Probleem verholpen dat invloed had op het bijhouden van klikken als er een standaardaanbieding is met een click-token en HTML-aanbiedingen. (TNT-31493)</li><li>Het mboxEdgeCluster-cookie is uitgebreid met elke doelaanvraag. Dit wordt alleen gebruikt wanneer mboxEdgeOverride is ingeschakeld. (TNT-31485)</li></ul> |
 
-### [!DNL Target] Standard/Premium 19.1.1 (22 januari 2019)  {#release-19-1-1-previous}
+### [!DNL Target] Standard/Premium 19.1.1 (22 januari 2019) {#release-19-1-1-previous}
 
 Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 
