@@ -4,10 +4,9 @@ description: Vind antwoorden op vragen die vaak over leveringAnalytics voor  [!D
 title: Waar kan ik informatie over A4T aanvankelijke levering vinden?
 feature: Analyses voor doel (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak over levering [!DNL Adobe Anal
 
 Een standaard A4T-use-case met meerdere pagina&#39;s implementeren:
 
-* Implementeer de JavaScript-bibliotheken voor zowel Doel (at.js of mbox.js) als Analytics op de activiteit die URL/pagina landt. Bij het implementeren van beide oplossingen worden de doelgegevens gekoppeld aan de analysegegevens voor elke bezoeker. Deze gegevens blijven in Analytics tot het met de standaardvervaldatum verloopt die aan 90 dagen wordt geplaatst.
+* Implementeer de JavaScript-bibliotheken voor zowel Doel als Analyse op de activiteit die URL/pagina landt. Bij het implementeren van beide oplossingen worden de doelgegevens gekoppeld aan de analysegegevens voor elke bezoeker. Deze gegevens blijven in Analytics tot het met de standaardvervaldatum verloopt die aan 90 dagen wordt geplaatst.
 
 * Voor de resterende pagina&#39;s op de site, waar alleen de gegevens van Analytics moeten worden bijgehouden, implementeert u Analytics op die pagina&#39;s. Het is niet nodig Target op deze pagina&#39;s te implementeren. De metriek Analytics die over die pagina&#39;s wordt gevangen wordt automatisch vastgemaakt aan de activiteit van het Doel de gebruiker oorspronkelijk voor kwalificeerde, die op de informatie van het Doel wordt gebaseerd aan die bezoeker van het voorafgaande kogel in bijlage.
 
