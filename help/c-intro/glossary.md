@@ -3,10 +3,9 @@ description: Wat betekenen de verschillende termen die in Adobe [!DNL Target] wo
 title: Waar kan ik Termen vinden en Definities die in Doel worden gebruikt?
 feature: Overzicht
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2405'
 ht-degree: 1%
 
 ---
@@ -95,7 +94,7 @@ Een subset van producten of inhoud die in aanmerking komen om te worden aanbevol
 
 **combinatie**
 
-De variaties in de inhoud die worden gemaakt wanneer u meerdere inhoudsopties op meerdere locaties in een multivariate test test test. Als u bijvoorbeeld drie locaties test, elk met drie inhoudsopties, zijn er 27 mogelijke combinaties (3x3x3). Een bezoeker van uw site ziet één combinatie, ook wel een ervaring genoemd.
+De variaties in de inhoud die worden gemaakt wanneer u meerdere inhoudsopties test op meerdere locaties in een multivariate test. Als u bijvoorbeeld drie locaties test, elk met drie inhoudsopties, zijn er 27 mogelijke combinaties (3x3x3). Een bezoeker van uw site ziet één combinatie, ook wel een ervaring genoemd.
 
 **content**
 
@@ -228,10 +227,6 @@ Een specifiek inhoudsgebied op een pagina, dat vaak wordt opgenomen door één D
 **mbox**
 
 &quot;Marketing box,&quot;de plaats op uw Web-pagina waar de inhoud wordt getoond en bezoekersgedrag wordt geregistreerd. In sommige vakken wordt niets weergegeven. Zij zouden de vooruitgang van een bezoeker door uw Website kunnen volgen, of zouden kunnen volgen of de bezoeker een specifiek succes metrisch voltooit, zoals het toevoegen van een punt aan het winkelwagentje of het voltooien van een aankoop. Een dergelijk type box is een *conversiembox*.
-
-**mbox.js**
-
-Vóór Doel 16.3.1, [!DNL Target] vereiste een vraag aan [!DNL mbox.js] om globale mbox te creëren die voor [!DNL Adobe Target]wordt vereist om [!DNL Target] activiteiten te leveren, kliks te volgen, en de meeste succesmetriek te volgen. Dit bestand bevat de bibliotheken die nodig zijn voor al uw activiteiten. U hoeft geen verschillende activiteitspecifieke versies van het bestand te onderhouden. De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js] voor [!DNL Target] implementaties.
 
 **mbox, parameter**
 
