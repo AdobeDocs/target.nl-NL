@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1781'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
+
+## Adobe [!DNL Target] Standaard/Premium 21.6.1 (30 juni 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 12 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>Webinar: Het kwantificeren van de significante ROI, inzichten, en tijd-besparingen van het integreren Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Communautair afscheid van Koffie Vragen en antwoorden te houden op woensdag 21 juli 2021 om 8.00 uur. (PDT, GMT-7).</li></ul> |
+|  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen?&quot; |
+|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst in de sectie van de vraag van doel API. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte beschrijving voor de `consumerId` sleutel. |
+|  | [Een globale box aanpassen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Bijgewerkte Stap 1 om erop te wijzen dat de verandering automatisch wordt bewaard nadat u een nieuw vakje selecteert. |
+|  | Experience Cloud Device Co-op | Verwijderd onderwerp. Deze functionaliteit is vervangen. |
+| 30 juni | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.6.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe [!DNL Target] Standaard/Premium 21.5.1 (8 juni 2021)
 
