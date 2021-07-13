@@ -1,24 +1,23 @@
 ---
 keywords: analysetrackingserver;A4T;Adobe Experience Cloud-foutopsporing;Adobe Experience Platform-foutopsporing;bron rapporteren;ontwikkelprogramma's
-description: 'Leer hoe te om een Analytics het volgen server voor activiteiten te specificeren die Analytics voor  [!DNL Target] (A4T) gebruiken als u een oudere versie van at.js of mbox.js gebruikt. '
+description: 'Leer hoe te om een Analytics het volgen server voor activiteiten te specificeren die Analytics voor  [!DNL Target] (A4T) gebruiken als u een oudere versie van at.js gebruikt. '
 title: Hoe gebruik ik een Analytics Tracking Server?
 feature: Analyses voor doel (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Een Analytics-trackingserver gebruiken
 
-Als u een oudere versie van at.js of mbox.js gebruikt, moet u een Analytics tracking-server opgeven voor activiteiten die [!DNL Adobe Analytics] voor [!DNL Adobe Target] (A4T) gebruiken.
+Als u een oudere versie van at.js gebruikt, moet u een Analytics tracking-server opgeven voor activiteiten die [!DNL Adobe Analytics] voor [!DNL Adobe Target] (A4T) gebruiken.
 
 >[!NOTE]
 >
->U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
+>U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u at.js versie 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
 >
 >Het [!DNL Target] team steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie [at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) voor meer informatie.
 
