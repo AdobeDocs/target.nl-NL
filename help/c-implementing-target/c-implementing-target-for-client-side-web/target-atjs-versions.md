@@ -4,9 +4,9 @@ description: Bekijk de details over veranderingen in elke versie van de Adobe [!
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '4136'
+source-wordcount: '4125'
 ht-degree: 0%
 
 ---
@@ -195,7 +195,7 @@ Zie [Upgraden van at.js 1.x naar at.js 2.x](/help/c-implementing-target/c-implem
 >
 >Als u Adobe Opt-in steun voor [Algemene Voorschrift van de Bescherming van Gegevens](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) vereist, moet u momenteel at.js 1.7.0 of at.js 2.1.0 gebruiken.
 
-## at.js versie 1.7.0 {#at-js-170}
+## at.js versie 1.3.0 {#at-js-170}
 
 at.js 1.7.0 biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.
 
@@ -387,7 +387,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 
 **Datum:19** januari 2017
 
-* mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ), zodat deze consistent zijn met de naamgevingsvereisten voor mbox-namen met mbox.js.
+* mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ).
 
    Zie [at.js Configurations](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) voor een lijst met toegestane speciale tekens.
 
