@@ -4,9 +4,9 @@ description: Vind antwoorden op vragen over het gebruiken van redirect aanbiedin
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analyses voor doel (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Uw implementatie moet aan de volgende minimumvereisten voldoen:
 * Adobe Analytics: [!DNL appMeasurement.js] versie 2.1.
 * Adobe Target: [!DNL at.js] versie 1.6.2 of hoger.
 
-   De bibliotheek [!DNL mbox.js] biedt geen ondersteuning voor omleiding van aanbiedingen met A4T. Uw implementatie moet [!DNL at.js] gebruiken.
-
 De drie bibliotheken moeten op zowel de pagina met het omleidingsaanbod als de pagina worden opgenomen waarnaar de bezoeker wordt omgeleid.
 
 ## Waarom zijn er soms gegevensdiscrepanties tussen A4T en Analytics?
@@ -50,10 +48,6 @@ Het wordt aanbevolen om met de op formulieren gebaseerde composer een omleidings
 Eén reden dat u omleidingsaanbiedingen wilt gebruiken voor alle ervaringen in de activiteit, inclusief de standaardeigenschap (controle), is om dezelfde voorwaarden op alle ervaringen te plaatsen. Bijvoorbeeld, als de standaardervaring geen omleidingsaanbod heeft maar de andere ervaringen hebben omleidingsaanbiedingen, heeft de snelheid van de ervaring zonder de omleidingsaanbieding een inherent voordeel. Aanbiedingen voor omleiding worden alleen aanbevolen voor tijdelijke scenario&#39;s, zoals testen. Het doorsturen van aanbiedingen wordt niet aanbevolen voor permanente scenario&#39;s, zoals personalisatie. Nadat u de winnaar hebt bepaald, moet u de omleiding verwijderen om de prestaties bij het laden van de pagina te verbeteren.
 
 Zie de informatie over &quot;Aanbiedingen doorsturen&quot; in [Bekende problemen](/help/r-release-notes/known-issues-resolved-issues.md#redirect) voor meer informatie over dit probleem.
-
-## Kan ik omleidingsaanbiedingen met A4T gebruiken als ik de JavaScript-bibliotheek mbox.js gebruik? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-De bibliotheek [!DNL mbox.js] biedt geen ondersteuning voor omleiding van aanbiedingen met A4T. Uw implementatie moet [!DNL at.js] gebruiken.
 
 ## Wordt zowel Visual Experience Composer (VEC) als Form-Based Experience Composer ondersteund? {#section_FDA26FE7909B48539DA770559E687677}
 
