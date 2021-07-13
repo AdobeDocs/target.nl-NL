@@ -5,10 +5,9 @@ title: Kan ik [!DNL Target] met op wolken gebaseerde instanties gebruiken?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -25,6 +24,6 @@ Deze domeinen, en vele anderen, maken deel uit van [Openbare Achtervoegsellijst]
 
 **Probleem:** moderne browsers slaan geen cookies op als u deze domeinen gebruikt.
 
-De JavaScript-bibliotheken [!DNL at.js] en [!DNL mbox.js] gebruiken cookies om gebruikers bij te houden om ervoor te zorgen dat [!DNL Target] altijd een consistente ervaring biedt. Als de [!DNL Target] JavaScript-bibliotheken geen cookies kunnen opslaan, worden [!DNL Target]-aanvragen uitgeschakeld.
+In de JavaScript-bibliotheek [!DNL at.js] worden cookies gebruikt om gebruikers bij te houden, zodat [!DNL Target] altijd een consistente ervaring biedt. Als de JavaScript-bibliotheek [!DNL Target] geen cookies kan opslaan, worden [!DNL Target]-aanvragen uitgeschakeld.
 
 **Oplossing:** Als beste praktijken, als u op wolk-gebaseerde instanties met domeinen inbegrepen op de Openbare Lijst van het Achtervoegsel van het Hoogtepunt wilt gebruiken, zorg ervoor dat u het  `cookieDomain` plaatsen aanpast. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
