@@ -4,10 +4,9 @@ description: Ontdek de algemene problemen die klanten hebben ondervonden bij het
 title: Hoe los ik Analytics en [!DNL Target] Integratie (A4T) problemen op
 feature: Analyses voor doel (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ A4T-activiteiten vereisen dat een analytische traceringsserver wordt opgegeven. 
 
 >[!NOTE]
 >
->U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek mbox.js of at.js verzendt automatisch het volgen serverwaarden naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
+>U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u at.js versie 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings].
 
 ## Mijn segmenten Analytics verschijnen niet in Doel. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -101,6 +100,6 @@ Als u debugger niet hebt geïnstalleerd, zie [Inleiding aan de Debugger van Adob
 
 ![Foutopsporing](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-Als de [!DNL Target]-aanroep geen aanvullende gegevens-id bevat, controleert u of het [!DNL VisitorAPI.js]-bestand is geladen vóór [!DNL at.js] of [!DNL mbox.js]. Als er geen extra gegevens identiteitskaart in [!DNL Analytics] vraag is, bevestig dat [!DNL Target] vraag vóór [!DNL Analytics] vraag brandt.
+Als de [!DNL Target]-aanroep geen aanvullende gegevens-id bevat, controleert u of het [!DNL VisitorAPI.js]-bestand vóór [!DNL at.js] is geladen. Als er geen extra gegevens identiteitskaart in [!DNL Analytics] vraag is, bevestig dat [!DNL Target] vraag vóór [!DNL Analytics] vraag brandt.
 
 Zie [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) of neem contact op met [Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor meer informatie.
