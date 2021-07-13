@@ -5,10 +5,9 @@ title: Hoe test ik een e-mailafbeeldingsadbox?
 feature: E-mail implementeren
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ Waar de onderstaande waarden specifiek voor u zijn:
 
 | Waarde | Beschrijving |
 |--- |--- |
-| clientcode | De clientcode van uw bedrijf. Zoek dit in uw bestand at.js of mbox.js dat als `clientCode='yourclientcode'` wordt vermeld. Dit is allemaal kleine letters en heeft geen speciale tekens. |
+| clientcode | De clientcode van uw bedrijf. Zoek dit in uw bestand at.js dat als `clientCode='yourclientcode'` wordt vermeld. Dit is allemaal kleine letters en heeft geen speciale tekens. |
 | image | Het type voorstel. Het is altijd &quot;beeld&quot;voor grafische advertenties en &quot;pagina&quot;voor bestuurders. |
 | email_header | De naam van het selectievakje. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Vereist. Vervang de URL door de juiste standaardinhoud voor uw adbox. Dit moet een absolute verwijzing zijn en moet URL-gecodeerd zijn. |
