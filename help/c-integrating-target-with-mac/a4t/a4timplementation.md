@@ -4,9 +4,9 @@ description: Voer de stappen uit die nodig zijn voor het implementeren van Analy
 title: Hoe implementeer ik Analytics voor [!DNL Target] (A4T)?
 feature: Analyses voor doel (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Voor at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-De visitorAPI.js moet worden geladen vóór at.js. Als u een bestaand bestand van het type at.js of mbox.js bijwerkt, moet u de laadvolgorde controleren.
+De visitorAPI.js moet worden geladen vóór at.js. Als u een bestaand at.js- dossier bijwerkt, zorg ervoor dat u de ladingsorde verifieert.
 
 De standaardinstelling voor [!DNL Target]- en [!DNL Analytics]-integratie vanuit implementatieperspectief is dat de SDID wordt gebruikt die vanuit de pagina wordt doorgegeven, zodat de aanvraag [!DNL Target] en [!DNL Analytics] automatisch op de achtergrond wordt gekoppeld.
 
