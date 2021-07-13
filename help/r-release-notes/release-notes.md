@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -23,24 +23,20 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
+
+Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
+
+| Functie | Details |
+| --- | --- |
+| [!UICONTROL Analytics for Target] (A4T) | Wanneer u op de koppeling &quot;[!UICONTROL View in Analytics]&quot; op de pagina [!UICONTROL Reports] klikt vanuit een activiteit die [!DNL Analytics] als rapportagebron (A4T) gebruikt, wordt [!DNL Analysis Workspace] nu geopend. Eerder, opende de verbinding [!DNL Analytics] rapportering. (TGT-36959) |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | De volgende verbeteringen zijn van toepassing op populariteitsalgoritmen [!DNL Recommendations]:<ul><li>Er is een nieuwe optie van zes uur beschikbaar voor alle populariteitsalgoritmen (Meest bekeken/Top Sellers) wanneer [!DNL Target] de gegevensbron voor gedragsgegevens is. (Dit terugzoekvenster is *niet* beschikbaar wanneer [!DNL Adobe Analytics] de gegevensbron voor gedragsgegevens is.)</li><li>Als deze optie is geselecteerd, worden de volgende algoritmen ongeveer om de drie uur uitgevoerd (in plaats van om de twaalf uur).<ul><li>Meest bekeken</li><li>Meest aangeschaft</li><li>Meest bekeken op categorie</li><li>Meest gekocht per categorie</li><li>Meest weergegeven door aangepast kenmerk (met de functie groupBy)</li><li>Meest aangeschaft door aangepast kenmerk (met functie groupBy)</li></ul></ul>Releasedatum die moet worden aangekondigd. (TOP-1086) |
+
 ## Python SDK 1.0.0 (16 juni 2021)
 
 De nieuwe [!DNL Adobe Target] Python SDK met beslissingsmogelijkheden op het apparaat is nu beschikbaar. Deze nieuwste toevoeging biedt een ondersteuning voor de [!DNL Target]-suite met SDK&#39;s op de server. Met deze SDKS kunt u integreren met [!DNL Target] en uw tijd naar waarde versnellen, in de taal van uw keuze. Integraties aan de serverzijde worden een populaire keuze, aangezien de markt verschuift naar een wereld zonder cookie waarin gegevens van de eerste partij waardevol zijn. DoelSDK&#39;s zijn beschikbaar in de populairste programmeertalen op de markt (Python, Java, JavaScript, C# / .Net).
 
 Raadpleeg de [Python SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) in de [handleiding SDK&#39;s van Adobe Target](https://adobetarget-sdks.gitbook.io/docs/) voor meer informatie.
-
-## Target Standard/Premium 21.5.1 (7 juni 2021)
-
-Deze release bevat de volgende verbeteringen:
-
-| Functie | Details |
-| --- | --- |
-| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] badgeAPI | Zoek in uw [!DNL Recommendations] product- en inhoudscatalogus via de API programmatisch naar items die voldoen aan een zoekcriterium en vereenvoudig het beheer van uw catalogus.<br>**Beperkingen en opmerkingen**:<ul><li>Cataloguszoekopdrachten via API worden niet ondersteund voor omgevingen met meer dan 2.000.000 items.</li><li>Zoekresultaten van catalogi via API worden sneller bijgewerkt dan zoekresultaten van catalogi via de gebruikersinterface [!DNL Target]. Het zoeken naar catalogi in de interface [!DNL Target] kan extra tijd vergen om de meest recente resultaten weer te geven.</li></ul>Zie [Zoeken in entiteiten](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) in de handleiding *[!DNL Adobe Target][!DNL Recommendations] API* voor meer informatie. |
-
-Deze release voor onderhoudsdoeleinden bevat de volgende oplossingen.
-
-* Probleem verholpen waarbij de standaardwerkruimte werd gewijzigd in een andere werkruimte tijdens het vernieuwen van de pagina [!UICONTROL Audiences]. (TGT-38871)
-* Probleem verholpen in [!UICONTROL Administration] > [!UICONTROL Implementation] die soms een foutbericht veroorzaakte met de tekst &quot;Uw globale box is mogelijk niet synchroon. Probeer het opnieuw op te slaan.&quot;
 
 ## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1 juni 2021)
 
@@ -49,15 +45,6 @@ Deze versie van [!DNL Platform Web SDK] omvat steun voor het volgende:
 | Functie | Details |
 | --- | --- |
 | Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | De SDK van het Web van het Platform steunt nu [!DNL Target] omleidingen wanneer het gebruiken [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Zie  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) voor meer informatie. |
-
-## at.js versie 2.5.0 (13 mei 2021)
-
-Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
-
-* [Ondersteuning voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslissingen op het apparaat voor at.js.
-* [Ondersteuning voor ](/help/c-activities/c-activity-qa/activity-qa.md) koppelingen voorvertonen voor Automated Personalization-activiteiten
-
-Deze versie verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
