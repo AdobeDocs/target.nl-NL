@@ -5,10 +5,9 @@ title: 'Hoe gaat u omgaan met het Samesite Cookie-beleid van Google? [!DNL Targe
 feature: Privacy en beveiliging
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -82,14 +81,12 @@ Wanneer u echter de optie voor domeinoverschrijdende tracering gebruikt om [!DNL
 
 Als u wilt begrijpen wat u moet doen om ervoor te zorgen dat [!DNL Target] blijft werken voor Google Chrome 80+-gebruikers, raadpleegt u de onderstaande tabel, waarvan u de volgende kolommen ziet:
 
-* **Doel JavaScript-bibliotheek**: Als u mbox.js, bij.js 1 gebruikt.*x*, of at.js 2.** Sluit uw sites af.
+* **Doel JavaScript-bibliotheek**: Als u at.js 1 gebruikt.** xor at.js 2.** Sluit uw sites af.
 * **SameSite by default cookies = Enabled**: Als uw gebruikers &quot;SameSite door gebrek toegelaten koekjes&quot;hebben, hoe beïnvloedt het u en is er om het even wat u moet doen om  [!DNL Target] te blijven werken.
 * **Cookies zonder SameSite moeten secure = Enabled** zijn: Als uw gebruikers &quot;Cookies zonder SameSite moeten veilig&quot;toegelaten zijn, hoe beïnvloedt het u en is er om het even wat u moet doen  [!DNL Target] blijven werken.
 
 | Doel JavaScript-bibliotheek | SameSite standaard cookies = Ingeschakeld | Cookies zonder SameSite moeten beveiligd zijn = Ingeschakeld |
 | --- | --- | --- |
-| mbox.js met alleen cookie van de eerste fabrikant. | Geen effect. | Geen effect als u geen interdomeintracering gebruikt. |
-| mbox.js waarvoor cross-domain tracking is ingeschakeld. | Geen effect. | U moet het HTTPS-protocol inschakelen voor uw site.<br>[!DNL Target] gebruikt een cookie van een andere fabrikant om gebruikers bij te houden en Google vereist dat cookies van andere bedrijven markering  `SameSite = None` en Beveiliging hebben. De markering voor Beveiligen vereist dat uw sites het HTTPS-protocol gebruiken. |
 | te.js 1.** Exwith first-party cookie. | Geen effect. | Geen effect als u geen interdomeintracering gebruikt. |
 | te.js 1.** xwith cross-domain tracking enabled. | Geen effect. | U moet het HTTPS-protocol inschakelen voor uw site.<br>[!DNL Target] gebruikt een cookie van een andere fabrikant om gebruikers bij te houden en Google vereist dat cookies van andere bedrijven markering  `SameSite = None` en Beveiliging hebben. De markering voor Beveiligen vereist dat uw sites het HTTPS-protocol gebruiken. |
 | te.js 2.*x* | Geen effect. | Geen effect. |
@@ -100,15 +97,13 @@ Wat moesten we dus doen in ons platform om u te helpen te voldoen aan het nieuwe
 
 | Doel JavaScript-bibliotheek | SameSite standaard cookies = Ingeschakeld | Cookies zonder SameSite moeten beveiligd zijn = Ingeschakeld |
 | --- | --- | --- |
-| mbox.js met alleen cookie van de eerste fabrikant. | Geen effect. | Geen effect als u geen interdomeintracering gebruikt. |
-| mbox.js waarvoor cross-domain tracking is ingeschakeld. | Geen effect. | [!DNL Target] voegt  `SameSite = None` en Veilige vlag aan het derdekoekje toe wanneer de  [!DNL Target] servers worden geroepen. |
 | te.js 1.** Exwith first-party cookie. | Geen effect. | Geen effect als u geen interdomeintracering gebruikt. |
 | te.js 1.** xwith cross-domain tracking enabled. | Geen effect. | te.js 1.** xwith cross-domain tracking enabled. |
 | te.js 2.*x* | Geen effect. | Geen effect. |
 
 ## Wat is het effect als u het HTTPS-protocol niet gebruikt?
 
-Het enige gebruiksgeval dat u zal beïnvloeden is als u de dwars-domein volgende eigenschap in [!DNL Target] door mbox.js of at.js 1 gebruikt.*x*. Als u niet overschakelt naar HTTPS, wat een vereiste is voor Google, wordt er een spiek weergegeven in unieke bezoekers over uw domeinen, omdat de cookie van derden die we gebruiken, door Google wordt verwijderd. En omdat het derdekoekje zal worden gelaten vallen, [!DNL Target] zal niet een verenigbare en gepersonaliseerde ervaring voor die gebruiker kunnen verstrekken aangezien de gebruiker van één domein aan een ander navigeert. Het cookie van derden wordt vooral gebruikt om één gebruiker te identificeren die door domeinen navigeert die u bezit.
+Het enige gebruiksgeval dat u zal beïnvloeden is als u de dwars-domein volgende eigenschap in [!DNL Target] door at.js 1 gebruikt.*x*. Als u niet overschakelt naar HTTPS, wat een vereiste is voor Google, wordt er een spiek weergegeven in unieke bezoekers over uw domeinen, omdat de cookie van derden die we gebruiken, door Google wordt verwijderd. En omdat het derdekoekje zal worden gelaten vallen, [!DNL Target] zal niet een verenigbare en gepersonaliseerde ervaring voor die gebruiker kunnen verstrekken aangezien de gebruiker van één domein aan een ander navigeert. Het cookie van derden wordt vooral gebruikt om één gebruiker te identificeren die door domeinen navigeert die u bezit.
 
 ## Conclusie
 
