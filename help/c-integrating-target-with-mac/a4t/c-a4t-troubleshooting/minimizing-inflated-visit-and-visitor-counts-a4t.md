@@ -4,10 +4,9 @@ description: Leer hoe te om de gevolgen van opgeblazen Bezoek en het tellen van 
 title: Hoe minimaliseer ik het aantal opgeblazen bezoekers en bezoekers in A4T?
 feature: Analyses voor doel (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -27,9 +26,6 @@ Informatie om u te helpen de gevolgen van opgeblazen Bezoek en Bezoeker te minim
 >* Adobe Analytics: appMeasurement.js versie 2.1.
 >* Adobe Target: at.js versie 0.9.6 of hoger (behalve versie 1.1.0 als het gebruiken van aanbiedingen om met A4T te richten).
 
->
->  
-De bibliotheek mbox.js ondersteunt geen omleidingsaanbiedingen met A4T. Uw implementatie moet at.js gebruiken.
 
 ## Wat is er veranderd? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -49,7 +45,7 @@ De vastgestelde oorzaken van gedeeltelijke gegevens zijn onder meer:
 * **Trage pagina&#39;s:** [!DNL Target] vraag is bij de bovenkant van de pagina en de  [!DNL Analytics] vraag is typisch bij de bodem van de pagina. Als de pagina langzaam wordt geladen, verhoogt dit de kans dat een bezoeker de pagina verlaat nadat de [!DNL Target] oproep wordt geactiveerd, maar vóór de [!DNL Analytics] oproep. Trage pagina&#39;s kunnen vooral problematisch zijn op mobiele websites, waar de verbindingen vaak trager zijn.
 * **Paginafouten:** Als er JavaScript-fouten zijn of andere scenario&#39;s waarbij geen van de aanraakpunten wordt geactiveerd (Experience Cloud ID-service, Doel en Analyse), resulteert dit in gedeeltelijke gegevensresultaten.
 * **Omleiding van aanbiedingen in  [!DNL Target] activiteit:** Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie [Aanbiedingen omleiden - A4T veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) voor meer informatie.
-* **Oude versies van de bibliotheken:** Het afgelopen jaar heeft Adobe verschillende verbeteringen aangebracht in de JavaScript-bibliotheken ( [!DNL appMeasurement.js],  `at.js/mbox.js`en  `visitorAPI.js`) om ervoor te zorgen dat gegevens zo efficiënt mogelijk worden verzonden. Meer over implementatievereisten leren, zie [Alvorens u ](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543) uitvoert.
+* **Oude versies van de bibliotheken:** Het afgelopen jaar heeft Adobe verschillende verbeteringen aangebracht in de JavaScript-bibliotheken ( [!DNL appMeasurement.js],  `at.js`en  `visitorAPI.js`) om ervoor te zorgen dat gegevens zo efficiënt mogelijk worden verzonden. Meer over implementatievereisten leren, zie [Alvorens u ](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543) uitvoert.
 
 ## Wat zijn de beste praktijken om gedeeltelijke gegevens te verminderen? {#section_065C38501527451C8058278054A1818D}
 
@@ -58,7 +54,7 @@ Controleer de volgende stappen om gedeeltelijke gegevensverzameling te verminder
 | Stap | Taak |
 | --- | --- |
 | ![Stap 1](assets/step1_icon.png) | Zorg ervoor dat de rapportsuite die is geselecteerd in [!DNL Target] gelijk is aan de suite op de pagina&#39;s waar de activiteit wordt weergegeven. |
-| ![Stap 2](assets/step2_icon.png) | Zorg ervoor dat de bibliotheken bezoekerAPI.js, appMeasurement.js, at.js / mbox.js zich in versies bevinden die compatibel zijn met A4T. Meer over implementatievereisten leren, zie [Alvorens u ](/help/c-integrating-target-with-mac/a4t/before-implement.md) uitvoert. |
+| ![Stap 2](assets/step2_icon.png) | Zorg ervoor dat de bibliotheken bezoekerAPI.js, appMeasurement.js en at.js zich in versies bevinden die compatibel zijn met A4T. Meer over implementatievereisten leren, zie [Alvorens u ](/help/c-integrating-target-with-mac/a4t/before-implement.md) uitvoert. |
 | ![Stap 3](assets/step3_icon.png) | Zorg ervoor dat de SDID wordt geplaatst op alle [!DNL Target] en [!DNL Analytics] vraag verlatend de pagina en dat zij aanpassen.<br/>Gebruik een netwerkanalysator of het zuiveren hulpmiddel om ervoor te zorgen dat de  `mboxMCSDID` parameter op  [!DNL Target] vraag de parameter SDID in de  [!DNL Analytics] vraag aanpast. |
 | ![Stap 4](assets/step4_icon.png) | Controleer of de implementatiebibliotheken in de juiste volgorde op uw sites worden geladen. Zie [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) voor meer informatie. |
 
