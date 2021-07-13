@@ -1,14 +1,13 @@
 ---
-keywords: Implementatie;mbox.js niet javascript;mbox;adbox
+keywords: Implementatie;niet javascript;mbox;adbox
 description: Gebruik een AdBox om afbeeldingen te leveren in een externe implementatie met Adobe Target. Een AdBox is vergelijkbaar met een box, maar wordt bestuurd door een URL in plaats van JavaScript.
 title: Hoe maak ik een Adbox voor een afbeelding?
 feature: E-mail implementeren
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
