@@ -4,7 +4,7 @@ description: Laten we beginnen met uw eerste activiteit in Adobe [!DNL Target] z
 title: Ik moet mijn eerste activiteit in Doel creëren. Waar begin ik?
 feature: Overzicht
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 0%
@@ -29,7 +29,7 @@ U kon een [Ervaring richten](/help/c-activities/t-experience-target/experience-t
 
 Voorbeeld: Een luchtvaartmaatschappij richt haar leden op platina-niveau aan met een speciaal aanbod dat hun punten op hun volgende vliegaankoop verdubbelt om hen te belonen en klantenloyaliteit verder op te bouwen.
 
-## Route 3: Toepassing van AI en automatisering om individuele bezoekers op schaal te personaliseren
+## Route 3: Toepassing van AI en automatisering om op grote schaal individuele bezoekers te personaliseren
 
 U kunt een door AI aangedreven activiteit opzetten om de beste ervaring van verscheidene voor elke bezoeker te leveren door [Auto-Doel](/help/c-activities/auto-target/auto-target-to-optimize.md) in de tweede stap van de A/B testopstellingswerkschema eenvoudig te selecteren. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder handig zijn als u niet weet welke ervaring geschikt is voor verschillende bezoekers. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
 
