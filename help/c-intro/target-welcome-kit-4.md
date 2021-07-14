@@ -4,7 +4,7 @@ description: Lees tips uit ons panel van experts over het gebruik van Adobe [!DN
 title: Waar kan ik tips en trucs voor het gebruiken van Doel vinden?
 feature: Overzicht
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ U kunt bijvoorbeeld aankoopgegevens van uw verkooppunt koppelen aan een bezoeker
 
 Zie [Aangepaste kenmerken](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) voor stapsgewijze instructies.
 
-**Goed te weten**: Omdat  [!DNL Target] een open en agnostisch platform goed met verschillende technologieën werkt, kunt u CRM of gekochte gegevens op vele verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
+**Goed te weten**: Omdat  [!DNL Target] het een open en agnostisch platform is dat goed met verschillende technologieën werkt, kunt u CRM of gekochte gegevens op vele verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
 
 Zie [Methoden om gegevens in Doel te krijgen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) voor meer informatie.
 
@@ -137,7 +137,7 @@ Het vergelijken van de omzettingsprestaties van verschillende soorten publiek bi
 
 Een klant van financiële services voerde bijvoorbeeld een promotiecampagne uit voor een creditcard die professionele prikkels voor sportevenementen omvatte. Door de gedeeltelijke factoriële multivariate tests van zijn landingspagina&#39;s, kon de klant het overseinen over creditcardvoordelen met sportieve prikkels optimaliseren om verschillend publiek van zijn klantenbasis te richten. Dankzij deze aanpak kon het bedrijf profiteren van de conversie en deze maximaliseren tijdens een tijdgevoelig venster rond een belangrijk sportevenement.
 
-## Tip 17: Maak tests nuttig door hen slechts te lanceren als u weet u van de gegevens kunt handelen.
+## Tip 17: Maak tests nuttig door hen slechts te lanceren als u weet u op de gegevens kunt handelen.
 
 Een test is zinloos als u niet precies weet hoe u op de gegevens gaat werken. Dit omvat het weten van uw belangrijkste succes metrisch, wat moet gebeuren om een winnaar te duwen, hoe u op testresultaten zult volgen, en wat u met de publieksinformatie zult doen. Voor een snelle en geslaagde test is het van essentieel belang dat elke bij de test betrokken groep (ontwikkelaars, creatieven, testspecialisten en anderen) zich bewust is van zijn rol voordat de test wordt gestart.
 
