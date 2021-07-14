@@ -5,9 +5,9 @@ title: Hoe gebruik ik de functie adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 
 | Sleutel | Type | Vereist? | Beschrijving |
 | --- | --- | --- | --- |
-| `consumerId` | String | Nee | De standaardwaarde is het globale mbox van de cliënt als niet verstrekt. Deze sleutel wordt gebruikt om de supplementaire gegevens ID (SDID) te produceren die voor integratie A4T wordt gebruikt. Deze sleutel is een unieke tekenreeks per bezoeker.<br>Wanneer het gebruiken  `getOffers()`, produceert elke vraag een nieuwe SDID. Als er meerdere box-aanvragen op dezelfde pagina staan en u wilt de SDID behouden (zodat deze overeenkomt met de SDID van de target-global-mbox en de Adobe Analytics SDID), gebruikt u de parameter `consumerId`.<br>Als er drie  `getOffers()` vakken in staan (met de namen &quot;mbox1&quot;, &quot;mbox2&quot; en &quot;mbox3&quot;), moet u ook het volgende vermelden:  `consumerId: "mbox1, mbox2, mbox3"` in de  `getOffers()` vraag. |
+| `consumerId` | String | Nee | De standaardwaarde is het globale mbox van de cliënt als niet verstrekt. Deze sleutel wordt gebruikt om de supplementaire gegevens ID (SDID) te produceren die voor integratie A4T wordt gebruikt. Deze sleutel (consumerId) is niet uniek.<br>Wanneer het gebruiken  `getOffers()`, produceert elke vraag een nieuwe SDID. Als er meerdere box-aanvragen op dezelfde pagina staan en u wilt de SDID behouden (zodat deze overeenkomt met de SDID van de target-global-mbox en de Adobe Analytics SDID), gebruikt u de parameter `consumerId`.<br>Als er drie  `getOffers()` vakken in staan (met de namen &quot;mbox1&quot;, &quot;mbox2&quot; en &quot;mbox3&quot;), moet u ook het volgende vermelden:  `consumerId: "mbox1, mbox2, mbox3"` in de  `getOffers()` vraag. |
 | `decisioningMethod` | String | Nee | &quot;server-side&quot;, &quot;on-device&quot;, &quot;hybride&quot; |
 | `request` | Object | Ja | Zie onderstaande tabel Verzoeken. |
 | `timeout` | Getal | Nee | Verzoek time-out. Als deze niet is opgegeven, wordt de standaardtime-out at.js gebruikt. |
