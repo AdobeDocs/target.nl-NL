@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## om 2.6.0 uur (16 juli 2021)
+
+* Beveiligd kenmerk toegevoegd aan cookies wanneer de instellingen `secureOnly` op `true` zijn ingesteld.
+* De tokens van de reactie zijn nu beschikbaar wanneer het gebruiken `triggerView()`.
+* Probleem verholpen met betrekking tot de gebeurtenis `CONTENT_RENDERING_NO_OFFERS`. Deze gebeurtenis wordt nu correct geactiveerd wanneer er geen inhoud wordt geretourneerd van [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) klik metriekdetails correct zijn teruggekeerd wanneer het gebruiken van  `prefetch` verzoeken.
+* Bij UUID-generatie wordt `Math.random()` niet meer gebruikt, maar wordt `window.crypto` gebruikt.
+* De vervaldatum van het `sessionId` cookie wordt correct verlengd bij elke netwerkaanroep.
+* De [!UICONTROL Single Page Application] (SPA) initialisatie van het meningsgeheime voorgeheugen wordt nu correct behandeld en handhaaft montages `viewsEnable`.
 
 ## [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
 
