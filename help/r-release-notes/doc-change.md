@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel bekijken?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 16 juli | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br><br>[andat.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over de release at.js 2.6.0. |
+|  | [Problemen met de  [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Bijgewerkt de lijst van IP adres aan lijst van gewenste personen. |
 | 12 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>Webinar: Het kwantificeren van de significante ROI, inzichten, en tijd-besparingen van het integreren Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Communautair afscheid van Koffie Vragen en antwoorden te houden op woensdag 21 juli 2021 om 8.00 uur. (PDT, GMT-7).</li></ul> |
 |  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen?&quot; |
 |  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst in de sectie van de vraag van doel API. |
