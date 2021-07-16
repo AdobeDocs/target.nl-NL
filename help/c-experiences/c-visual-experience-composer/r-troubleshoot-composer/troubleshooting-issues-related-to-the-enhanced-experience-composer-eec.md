@@ -4,9 +4,9 @@ description: Leer hoe te om problemen problemen op te lossen die soms in Adobe [
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,15 @@ Dit kan worden opgelost door de volgende IP adressen te voegend op lijst van gew
 
 Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen:
 
-* 52 55 99 45
-* 52.51.238.221
-* 52 193 67,35
+* 34 253 100 20
+* 34 248 100,23
+* 52 49 228 246
+* 54.205.42.123
+* 107 22 177 39
+* 52.201.5.105
+* 52 193 211 177
+* 18 180 24 249
+* 52 194 154 154
 
 Het volgende foutbericht wordt mogelijk weergegeven in [!DNL Target]:
 
