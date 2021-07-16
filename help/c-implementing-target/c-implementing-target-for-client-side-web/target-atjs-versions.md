@@ -4,9 +4,9 @@ description: Bekijk de details over veranderingen in elke versie van de Adobe [!
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '4125'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ Informatie over wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL A
 >Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis de voorkeursmethode voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en worden in de catalogus [!DNL Launch] beschikbaar gesteld als upgrades. Voor meer informatie, zie [Uitbreiding Verbetering](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in *de Gids van de Gebruiker van het Experience Platform Launch*.
+
+## om 2.6.0 uur (16 juli 2021)
+
+* Beveiligd kenmerk toegevoegd aan cookies wanneer de instellingen `secureOnly` op `true` zijn ingesteld.
+* De tokens van de reactie zijn nu beschikbaar wanneer het gebruiken `triggerView()`.
+* Probleem verholpen met betrekking tot de gebeurtenis `CONTENT_RENDERING_NO_OFFERS`. Deze gebeurtenis wordt nu correct geactiveerd wanneer er geen inhoud wordt geretourneerd van [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) klik metriekdetails correct zijn teruggekeerd wanneer het gebruiken van  `prefetch` verzoeken.
+* Bij UUID-generatie wordt `Math.random()` niet meer gebruikt, maar wordt `window.crypto` gebruikt.
+* De vervaldatum van het `sessionId` cookie wordt correct verlengd bij elke netwerkaanroep.
+* De [!UICONTROL Single Page Application] (SPA) initialisatie van het meningsgeheime voorgeheugen wordt nu correct behandeld en handhaaft montages `viewsEnable`.
 
 ## om 2.5.0 uur (13 mei 2021)
 
@@ -195,7 +205,7 @@ Zie [Upgraden van at.js 1.x naar at.js 2.x](/help/c-implementing-target/c-implem
 >
 >Als u Adobe Opt-in steun voor [Algemene Voorschrift van de Bescherming van Gegevens](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) vereist, moet u momenteel at.js 1.7.0 of at.js 2.1.0 gebruiken.
 
-## at.js versie 1.3.0 {#at-js-170}
+## at.js versie 1.7.0 {#at-js-170}
 
 at.js 1.7.0 biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.
 
