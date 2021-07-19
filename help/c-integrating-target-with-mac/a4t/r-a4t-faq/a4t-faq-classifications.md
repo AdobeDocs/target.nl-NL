@@ -4,10 +4,9 @@ description: Vind antwoorden op vragen over classificaties en het gebruiken van 
 title: Waar kan ik informatie over classificaties met A4T vinden?
 feature: Analyses voor doel (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -30,5 +29,6 @@ De tekenreeksindeling van de TNT-variabele is `activityID:experienceID:targettyp
 * Event = 2 is een activiteitsindruk.
 * Event = 3-32766 vertegenwoordigt metrische id van het analyseresultaat.
 * Gebeurtenis = 32767 vertegenwoordigt een activiteitconversie.
+* Gebeurtenis -1 of 65535 vertegenwoordigt dat de gebruiker uit de activiteit of de ervaring wordt verwijderd. Dit gebeurt vaak wanneer de bezoeker de site omslaat. De bezoeker wordt losgelaten uit de ervaring en is nu beschikbaar om in aanmerking te komen voor een andere ervaring.
 
-U kunt het classificatiebestand regelmatig vanuit de gebruikersinterface importeren met een [browser-import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) of een [FTP-import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). U kunt met de Diensten van de Techniek ook in dienst nemen om het dossier als raadplegingslijst samen met een klikstroomgegevens te verkrijgen.
+U kunt het classificatiebestand regelmatig vanuit de gebruikersinterface importeren met een [browser-import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) of een [FTP-import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). U kunt met de Diensten van de Techniek ook in dienst nemen om het dossier als raadplegingslijst samen met een klikstroomgegevens te verkrijgen.
