@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenumme
 | Functie | Details |
 | --- | --- |
 | [!UICONTROL Analytics for Target] (A4T) | Wanneer u op de koppeling &quot;[!UICONTROL View in Analytics]&quot; op de pagina [!UICONTROL Reports] klikt vanuit een activiteit die [!DNL Analytics] als rapportagebron (A4T) gebruikt, wordt [!DNL Analysis Workspace] nu geopend. Eerder, opende de verbinding [!DNL Analytics] rapportering. (TGT-36959) |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | De volgende verbeteringen zijn van toepassing op populariteitsalgoritmen [!DNL Recommendations]:<ul><li>Er is een nieuwe optie van zes uur beschikbaar voor alle populariteitsalgoritmen (Meest bekeken/Top Sellers) wanneer [!DNL Target] de gegevensbron voor gedragsgegevens is. (Dit terugzoekvenster is *niet* beschikbaar wanneer [!DNL Adobe Analytics] de gegevensbron voor gedragsgegevens is.)</li><li>Als deze optie is geselecteerd, worden de volgende algoritmen ongeveer om de drie uur uitgevoerd (in plaats van om de twaalf uur).<ul><li>Meest bekeken</li><li>Meest aangeschaft</li><li>Meest bekeken op categorie</li><li>Meest gekocht per categorie</li><li>Meest weergegeven door aangepast kenmerk (met de functie groupBy)</li><li>Meest aangeschaft door aangepast kenmerk (met functie groupBy)</li></ul></ul>Releasedatum die moet worden aangekondigd. (TOP-1086) |
 
 ## Python SDK 1.0.0 (16 juni 2021)
 
