@@ -4,28 +4,51 @@ description: Leer hoe te om problemen problemen op te lossen die soms in Adobe [
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 068cce681946382365049fdc69671cd011431201
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
 
 # Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer
 
-Weergaveproblemen en andere problemen kunnen zich soms onder bepaalde omstandigheden voordoen in de Visual Experience Composer (VEC) en de Enhanced Experience Composer (EEC).[!DNL Adobe Target]
+Weergaveproblemen en andere problemen doen zich soms voor in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) en [!UICONTROL Enhanced Experience Composer] (EEC) onder bepaalde omstandigheden.
 
-## Hoe beïnvloedt het onlangs aangekondigde beleid van Google Chrome SameSite voor de handhaving van cookies de VEC en EEC? {#samesite}
+## Hoe beïnvloedt het Google Chrome SameSite-beleid voor de handhaving van cookies de VEC en EEC? {#samesite}
 
-Met de recentste veranderingen (Augustus 2020), alle gebruikers met Chrome 80+ browser versies:
+Met de aanstaande veranderingen die voor de Versie van Chrome 94 (21 September, 2021) worden gepland, beïnvloedt de volgende verandering alle gebruikers met Chrome 94+ browser versies:
 
-* Zal *niet* VEC (met of zonder de geïnstalleerde en toegelaten uitbreiding van de Helper VEC) in wachtwoord-beschermde pagina&#39;s van hun plaatsen kunnen gebruiken. De reden hiervoor is dat hun aanmeldcookie(s) voor de site als een cookie van een andere fabrikant worden beschouwd en niet samen met de aanmeldingsaanvraag worden verzonden. De enige uitzondering is wanneer voor het aanmeldingscookie van de site van de klant al de parameter SameSite is ingesteld op &quot;none&quot;.
+* De opdrachtregelmarkering `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` wordt verwijderd.
+
+Met de wijzigingen die zijn geïmplementeerd voor de Chrome 91-release (25 mei 2021), is de volgende wijziging van invloed op alle gebruikers met Chrome 91+-browserversies:
+
+* De markeringen `#same-site-by-default-cookies` en `#cookies-without-same-site-must-be-secure` zijn verwijderd uit `chrome://flags`. Dit gedrag is nu standaard ingeschakeld.
+
+Met de veranderingen die in Augustus 2020 worden uitgevoerd, alle gebruikers met Chrome 80+ browser versies:
+
+* Zal *niet* VEC (met of zonder de geïnstalleerde en toegelaten uitbreiding van de Helper VEC) in wachtwoord-beschermde pagina&#39;s van hun plaatsen kunnen gebruiken. De aanmeldcookies van uw site worden beschouwd als een cookie van een andere fabrikant en worden samen met de aanmeldingsaanvraag verzonden. De enige uitzondering is wanneer voor het aanmeldcookie van de site de parameter SameSite al is ingesteld op &quot;none&quot;.
 * *niet* kan [!DNL Target] bibliotheken downloaden tijdens het bewerken van een activiteit (als deze nog niet op de site staan). Dit is omdat de downloadvraag van het klantendomein aan een beveiligd Adobe domein wordt gemaakt en als unauthenticated wordt verworpen.
-* De E.E.G. zal *niet* functie voor alle gebruikers omdat het niet het attribuut SameSite voor koekjes op `adobemc.com domain` kan plaatsen. Zonder dit kenmerk zal de browser deze cookies negeren, waardoor de EEG mislukt.
+* De E.E.G. zal *niet* functie voor alle gebruikers omdat het niet het attribuut SameSite voor koekjes op `adobemc.com domain` kan plaatsen. Zonder dit kenmerk weigert de browser deze cookies, waardoor de EEG mislukt.
+
+Gebruik de Developer Tools in Chrome om te controleren welke cookies zijn geblokkeerd vanwege het beleid voor het toepassen van cookies op de SameSite.
+
+1. Om tot de Hulpmiddelen van de Ontwikkelaar toegang te hebben, terwijl het bekijken van VEC in Chrome, klik het **[!UICONTROL ellipsis]** pictogram bij de hoger-juiste hoek van Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
+1. Klik op het tabblad **[!UICONTROL Network]** en zoek op geblokkeerde cookies.
+
+   In de volgende afbeelding ziet u een geblokkeerde cookie:
+
+   ![Gereedschappen voor ontwikkelaars > tabblad Netwerk waarop een geblokkeerd cookie wordt weergegeven](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
 Adobe heeft een bijgewerkte VEC Helper-extensie ingediend bij de Google Chrome Store. Deze extensie overschrijft de cookie-kenmerken om, indien nodig, het `SameSite="none"`-kenmerk in te stellen. De [bijgewerkte extensie vindt u hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Voor meer informatie over het installeren van en het gebruiken van de Uitbreiding van de Helper VEC, zie [de helperuitbreiding van de Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Voor uw eigen sitecookies moet u de cookies op naam opgeven. Schakel de schuifregelaar [!UICONTROL Cookie] in op de aan-positie en geef vervolgens de cookie op naam en het cookiedomein op. De cookienaam is &quot;mbox&quot;en het koekjesdomein is de tweede en hoogste niveaus van de domeinen waarvan u mbox dient. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. Voor meer informatie, zie [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) in *de Gids van de Gebruiker van de Interface van de Experience Cloud*.
+Voor uw eigen sitecookies moet u de cookies op naam opgeven.
+
+>[!NOTE]
+>
+>Deze aanpak is alleen geschikt wanneer alle cookies in één domein zijn ingesteld. De hulp VEC staat [!DNL Target] niet toe om koekjes voor meer dan één domein te specificeren.
+
+Schakel de schuifregelaar [!UICONTROL Cookie] in op de aan-positie en geef vervolgens de cookie op naam en het cookiedomein op. De cookienaam is &quot;mbox&quot;en het koekjesdomein is de tweede en hoogste niveaus van de domeinen waarvan u mbox dient. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. Voor meer informatie, zie [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) in *de Gids van de Gebruiker van de Interface van de Experience Cloud*.
 
 ![Kookies in de VEC helperuitbreiding](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -35,11 +58,11 @@ Gebruik één van de volgende opties om ervoor te zorgen dat uw VEC en EEG blijv
 
 * Download en gebruik de bijgewerkte [VEC Helper extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Gebruik de browser Mozilla Firefox. Firefox voert dit beleid nog niet uit.
-* Blijf Chrome gebruiken, maar plaats de `chrome://flags/#same-site-by-default-cookies` vlag aan &quot;Gehandicapten.&quot;
+* Gebruik de volgende markeringen om Google Chrome uit te voeren vanaf de opdrachtregel tot 21 september 2021. Na 21 september werkt uw website niet meer in de VEC. Als u Chrome 94 bijwerkt, moet u cookies handmatig genereren met `SameSite=none` en `Secure` op uw websites.
 
-   >[!NOTE]
-   >
-   >Dit zal *niet* genoeg zijn als de koekjes reeds het attribuut SameSite hebben die aan &quot;Lax&quot;of &quot;Strikt&quot;van de server wordt geplaatst.
+   ```
+   --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
+   ```
 
 ## Biedt [!DNL Target] ondersteuning voor iframes op meerdere niveaus?
 
@@ -49,7 +72,7 @@ Als tussenoplossing kunt u een pagina toevoegen in de ervaring met de URL van he
 
 ## Wanneer ik een pagina probeer te bewerken, zie ik alleen een spinner in plaats van mijn pagina. (VEC en EEG) {#section_313001039F79446DB28C70D932AF5F58}
 
-Dit kan gebeuren als de URL een #-teken bevat. Om de kwestie te bevestigen, schakelaar op Browse wijze in de Visuele Composer van de Ervaring, en dan terug te schakelen om wijze samen te stellen. De spinner moet weggaan en de pagina moet worden geladen.
+Deze situatie kan zich voordoen als de URL een #-teken bevat. Om de kwestie te bevestigen, schakelaar op Browse wijze in de Visuele Composer van de Ervaring, en dan terug te schakelen om wijze samen te stellen. De spinner moet weggaan en de pagina moet worden geladen.
 
 ## De kopballen van het Beleid van de Veiligheid van de inhoud (CSP) blokkeren de [!DNL Target] bibliotheken op mijn website. (VEC en EEG) {#section_89A30C7A213D43BFA0822E66B482B803}
 
@@ -82,11 +105,11 @@ Standaard blokkeert de Visual Experience Composer JavaScript-elementen. U kunt m
 
 ## Wanneer ik één element op de pagina verander, veranderen de veelvoudige elementen. (VEC en EEG) {#section_309188ACF34942989BE473F63C5710AF}
 
-Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en u een van deze elementen wijzigt, worden alle elementen met die id gewijzigd. Om dit te voorkomen, zou een identiteitskaart slechts eenmaal op elke pagina moeten worden gebruikt. Dit is een standaard HTML aanbevolen werkwijze. Zie [Paginawijzigingsscenario&#39;s](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB) voor meer informatie.
+Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en u een van deze elementen wijzigt, worden alle elementen met die id gewijzigd. Om dit te voorkomen, zou een identiteitskaart slechts eenmaal op elke pagina moeten worden gebruikt. Dit is een standaard beste HTML-praktijk. Zie [Paginawijzigingsscenario&#39;s](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB) voor meer informatie.
 
 ## Ik kan geen ervaringen bewerken voor een iFrame-opbouwende site. (VEC en EEG) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Dit probleem kan worden opgelost door de Enhanced Experience Composer in te schakelen. Klik op **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** en schakel vervolgens het selectievakje in waarmee de Enhanced Experience Composer wordt ingeschakeld. De Enhanced Experience Composer gebruikt een proxy met Adobe-beheer om uw pagina te laden voor bewerken. Op deze manier kunt u sites bewerken op iFrame en kunt u ze bewerken op sites en pagina&#39;s waaraan u nog geen Adobe Target-code hebt toegevoegd. De activiteiten leveren niet aan de plaats tot de code is toegevoegd. Sommige sites worden mogelijk niet geladen via de Enhanced Experience Composer. In dat geval kunt u deze optie uitschakelen om de Visual Experience Composer via een iFrame te laden. []
+Dit probleem kan worden opgelost door de Enhanced Experience Composer in te schakelen. Klik op **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** en schakel vervolgens het selectievakje in waarmee de Enhanced Experience Composer wordt ingeschakeld. De Enhanced Experience Composer gebruikt een proxy met Adobe-beheer om uw pagina te laden voor bewerken. Met deze proxy kunt u sites bewerken op iFrame en kunt u deze bewerken op sites en pagina&#39;s waar u nog geen Adobe Target-code hebt toegevoegd. De activiteiten leveren niet aan de plaats tot de code is toegevoegd. Sommige sites worden mogelijk niet geladen via de Enhanced Experience Composer. In dat geval kunt u deze optie uitschakelen om de Visual Experience Composer via een iFrame te laden.
 
 >[!NOTE]
 >
@@ -98,7 +121,7 @@ Zie &quot;Ik kan bovenstaande ervaringen voor een iFrame-bursting site niet bewe
 
 ## Vette en cursieve tekststijlen met Tekst bewerken/HTML of Tekst wijzigen/HTML worden niet op mijn pagina weergegeven. Soms verdwijnt de tekst na het toepassen van deze stijlwijzigingen. (VEC en EEG) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Als u **[!UICONTROL Edit Text/HTML]** in de Composer van de Visuele Ervaring voor A/B of Ervaring richt activiteiten of **[!UICONTROL Change Text/HTML]** voor Automated Personalization of Multivariate de activiteiten van de Test gebruikt om tekst vet of cursief te maken, zouden die stijlen niet op de pagina kunnen worden toegepast of de tekst verdwijnt van de pagina in Visual Experience Composer. De manier waarop de RTF-editor deze stijlen toepast, kan de websiteopmaak beïnvloeden.
+Als u **[!UICONTROL Edit Text/HTML]** in de Composer van de Visuele Ervaring voor A/B of Ervaring richt activiteiten of **[!UICONTROL Change Text/HTML]** voor Automated Personalization of Multivariate de activiteiten van de Test gebruikt om tekst vet of cursief te maken, zouden die stijlen niet op de pagina kunnen worden toegepast of de tekst verdwijnt van de pagina in Visual Experience Composer. Dit gebeurt als gevolg van de manier waarop de RTF-editor deze stijlen toepast, waardoor de markering van de website mogelijk wordt beïnvloed.
 
 Als u dit probleem ziet:
 
