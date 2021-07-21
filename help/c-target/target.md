@@ -1,21 +1,21 @@
 ---
-keywords: Doelstelling;publiek;doelpercentage
-description: Leer hoe u publiek in Adobe [!DNL Target] kunt gebruiken om verschillende inhoud en ervaringen te richten op specifieke doelgroepen om uw webmarketingactiviteiten te optimaliseren.
+keywords: Doel;publiek
+description: Leer hoe u het publiek in [!DNL Adobe Target] kunt gebruiken om verschillende inhoud en ervaringen te richten op specifieke doelgroepen om uw inspanningen voor webmarketing te optimaliseren.
 title: Hoe kan ik publiek gebruiken om verschillende inhoud te richten aan specifieke segmenten?
 feature: Soorten publiek
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: 06a5fda72a649c4037cb78d3e670747cd297a64d
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
 # Soorten publiek
 
-Gebruik soorten publiek om verschillende inhoud en ervaringen te richten op specifieke doelgroepen om uw webmarketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven.
+Gebruik publiek in [!DNL Adobe Target] om verschillende inhoud en ervaringen aan specifiek publiek te richten om uw Webmarketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste ogenblik te tonen.
 
-Een publiek is een groep van gelijkaardige activiteitendeelnemers die een gerichte activiteit zien. Een publiek is een groep mensen met dezelfde kenmerken, zoals een nieuwe bezoeker, een terugkerende bezoeker of terugkerende bezoekers uit het Midwesten. Met de functie [!UICONTROL Audience] kunt u verschillende inhoud en ervaringen afstemmen op specifieke doelgroepen om uw digitale marketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven. Als een bezoeker wordt geïdentificeerd als deel van een doelpubliek, [!DNL Target] bepaalt welke ervaring aan vertoning, die op criteria wordt gebaseerd tijdens activiteitenverwezenlijking worden bepaald.
+Een publiek is een groep van gelijkaardige activiteitendeelnemers die een gerichte activiteit zien. Een publiek is een groep mensen met dezelfde kenmerken, zoals nieuwe bezoekers, bezoekers die terugkeren of bezoekers uit Californië terugsturen. Als een bezoeker wordt geïdentificeerd als deel van een doelpubliek, [!DNL Target] bepaalt welke ervaring aan vertoning, die op criteria wordt gebaseerd tijdens activiteitenverwezenlijking worden bepaald.
 
 Door gebrek, is het verkeer gelijkmatig tussen ervaringen verdeeld. U kunt echter voor elke ervaring streefpercentages opgeven.
 
@@ -23,7 +23,7 @@ Het publiek kan ook op regel-gebaseerd zijn. Een op regel-gebaseerd publiek is g
 
 Als u dezelfde inhoud aan iedereen wilt tonen, maar gegevens per groep wilt uitsplitsen, gebruikt u segmentfilters in plaats van soorten publiek.
 
-Wanneer een bezoeker op een pagina landt waarop u een activiteit hebt ingesteld, bepaalt [!DNL Target] of de bezoeker in aanmerking komt als lid van een publiek dat is geïdentificeerd voor de activiteit. Als de bezoeker niet als lid van een doelpubliek kan worden geïdentificeerd, wordt die bezoeker getoond standaardinhoud en niet inbegrepen in de rapporten voor de activiteit.
+Wanneer een bezoeker op een pagina landt waarop u een activiteit hebt ingesteld, bepaalt [!DNL Target] of de bezoeker in aanmerking komt als lid van een publiek dat is geïdentificeerd voor de activiteit. Als de bezoeker niet als lid van een doelpubliek kan worden geïdentificeerd, wordt die bezoeker getoond standaardinhoud en niet inbegrepen in de rapporten voor die activiteit.
 
 Als de bezoeker wordt geïdentificeerd als deel van een doelpubliek, [!DNL Target] bepaalt welke ervaring aan vertoning, op de criteria wordt gebaseerd die werden bepaald toen de activiteit werd gecreeerd.
 
