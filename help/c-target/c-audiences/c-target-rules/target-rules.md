@@ -4,29 +4,32 @@ description: Leer hoe u categorieën (zoals Browser, Geo, Netwerk, Besturingssys
 title: Wat zijn de categorieën voor het publiek?
 feature: Soorten publiek
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
 
 # Categorieën voor soorten publiek
 
-U kunt zich richten op om het even welk van verscheidene categorieën. Elke categorie werkt als een tabblad waarmee u voor elke categorie doelregels (of groepen) kunt maken.
+Met [!DNL Adobe Target] kunt u zich richten op een van de verschillende categoriekenmerken. Om het richten regels (of groepen) voor elk attribuut tot stand te brengen, sleep en laat vallen de gewenste attributen in de publieksbouwer.
+
+![Attributen voor publiek](/help/c-target/c-audiences/assets/attributes.png)
 
 Als een bepaalde categorie is geselecteerd, kunt u een of meer doelvoorwaarden toepassen. In de categorie Geo definieert u bijvoorbeeld een regel als City=San Francisco. Als u meerdere waarden toevoegt, wordt een OR-voorwaarde gemaakt. De bezoeker moet slechts één van de waarden aanpassen om aan de het richten voorwaarde te voldoen. Voor EN-voorwaarden op dezelfde parameter maakt u een aangepast expressiedoel.
 
-Nadat u een regel hebt gecreeerd, klik **[!UICONTROL Save]**. Een samenvatting van de regelvertoningen naast de het richten verbinding voor het niveau u richt.
+Nadat u een regel hebt gecreeerd, klik **[!UICONTROL Done]**. Een samenvatting van de regelvertoningen naast de het richten verbinding voor het niveau u richt.
 
-U kunt een regel verder verfijnen door meer voorwaarden toe te voegen of door extra regels te maken in andere categorieën. Als u bijvoorbeeld alleen Firefox-gebruikers uit San Francisco wilt aanwijzen die uw site hebben geopend vanuit Google, stelt u de categorie [!UICONTROL Geo] in op gebruikers uit San Francisco, de categorie [!UICONTROL Visitor Behavior] op Firefox en de categorie [!UICONTROL Traffic Sources] op Google. Alle regels die in verschillende categorieën worden gemaakt, worden gecombineerd met &#39;&#39;AND&#39;&#39;. Om complexe het richten regels tot stand te brengen die &quot;OF&quot;verrichtingen over categorieën omvatten, creeer een uitdrukkingsdoel.
+U kunt een regel verder verfijnen door meer voorwaarden toe te voegen of door extra regels te maken in andere categorieën. U kunt bijvoorbeeld alleen Firefox-gebruikers uit San Francisco aanspreken die uw site hebben geopend vanuit Google. Stel de categorie [!UICONTROL Geo] in op gebruikers uit San Francisco, de categorie [!UICONTROL Browser] op doelgebruikers met Firefox en de categorie [!UICONTROL Traffic Sources] op doelgebruikers uit [!UICONTROL From Google]. De regels die over categorieën worden gecreeerd worden gecombineerd met de exploitant AND.
 
-U kunt ook aangepaste profielparameters en `user.` parameters als doel instellen. Wanneer het toevoegen van een publiek, klik **[!UICONTROL Visitor Profile]**, dan kies de parameter u wilt gebruiken om uw activiteit te richten. Als de gewenste parameter niet verschijnt, is de parameter niet in brand gestoken door een mbox. Andere aangepaste mbox-parameters zijn beschikbaar in de vervolgkeuzelijst [!UICONTROL Custom Parameters].
+Om complexe het richten regels tot stand te brengen die OF verrichtingen over categorieën omvatten, creeer een uitdrukkingsdoel.
+
+U kunt ook aangepaste profielparameters en `user.` parameters als doel instellen. Wanneer u een publiek toevoegt, sleept u **[!UICONTROL Visitor Profile]** en zet u de parameter die u wilt gebruiken om uw activiteit als doel in te stellen. Als de gewenste parameter niet wordt weergegeven, is de parameter niet geactiveerd door een mbox.
 
 Gebruik het zoekvak om te zoeken in uw lijst [!UICONTROL Audiences]. U kunt zoeken naar een willekeurig deel van een publieksnaam of u kunt een specifieke tekenreeks tussen aanhalingstekens plaatsen.
 
-U kunt de lijst Publiek sorteren op publieksnaam of op de datum waarop deze voor het laatst is gewijzigd. Als u op naam of datum wilt sorteren, klikt u op de kolomkop en selecteert u deze om het publiek in oplopende of aflopende volgorde weer te geven.
+U kunt de lijst [!UICONTROL Audience] sorteren op publieksnaam of op de datum waarop het voor het laatst werd gewijzigd. Als u op naam of datum wilt sorteren, klikt u op de kolomkop en selecteert u deze om het publiek in oplopende of aflopende volgorde weer te geven.
 
 ## Trainingsvideo: Soorten publiek ![Zelfstudie-badge](/help/assets/tutorial.png) maken
 
