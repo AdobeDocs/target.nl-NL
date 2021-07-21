@@ -4,17 +4,16 @@ description: Leer hoe u profielkenmerken kunt gebruiken om tests in te stellen i
 title: Kan ik Profielscripts gebruiken om uitsluitende activiteiten te testen?
 feature: Soorten publiek
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
 
 # Profielscripts gebruiken om activiteiten te testen die elkaar uitsluiten
 
-U kunt profielkenmerken gebruiken om tests in te stellen die twee of meer activiteiten vergelijken, maar niet toestaan dat dezelfde bezoekers aan elke activiteit deelnemen.
+U kunt profielkenmerken in [!DNL Adobe Target] gebruiken om tests in te stellen die twee of meer activiteiten vergelijken maar niet de zelfde bezoekers aan elke activiteit laten deelnemen.
 
 Het testen van activiteiten die elkaar uitsluiten, voorkomt dat een bezoeker in één activiteit de testresultaten voor de andere activiteiten beïnvloedt. Wanneer een bezoeker aan meerdere activiteiten deelneemt, kan het moeilijk zijn te bepalen of de positieve of negatieve lift het resultaat is van de ervaring van de bezoeker met één activiteit, of of de interacties tussen meerdere activiteiten van invloed waren op de resultaten van een of meer activiteiten.
 
