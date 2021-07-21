@@ -1,13 +1,12 @@
 ---
 keywords: klantenrelatiebeheer;de dienst van het klantenverslag;crs;crm;mbox3rdpartyid;klantenattributen;het richten;csv;crm;adobe ervaren wolken
-description: Leer hoe u bedrijfsklantgegevens uit een CRM-database (Customer relationship management) kunt gebruiken voor inhoud die op Adobe Target is gericht.
+description: Leer hoe te om de gegevens van de ondernemingsklant van een gegevensbestand van het het relatiebeheer van de klant (CRM) voor inhoud te gebruiken richtend in  [!DNL Adobe Target].
 title: Wat zijn klantkenmerken en hoe gebruik ik deze?
 feature: Soorten publiek
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
@@ -34,7 +33,7 @@ Neem de volgende informatie in overweging als uw werk met klantkenmerken en [!DN
    >
    >[!DNL at.js] (elke versie) of  [!DNL mbox.js] versie 58 of hoger is vereist.
 
-* [!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de klant worden doorgegeven  [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij  [!DNL Target]de klant. In ons huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt.
+* [!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de klant worden doorgegeven  [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij  [!DNL Target]de klant. In het huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt.
 * De levensduur van klantgegevens die worden geïmporteerd van [!DNL Experience Cloud] naar [!DNL Target], is afhankelijk van de levensduur van het bezoekersprofiel, die standaard 14 dagen is. Zie [Levensduur bezoekersprofiel](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD) voor meer informatie.
 * Als de parameters `vst.*` het enige element zijn dat de bezoeker identificeert, wordt het bestaande &quot;geverifieerde&quot; profiel niet opgehaald zolang `authState` ONGEAUTHENTIFICEERD is (0). Het profiel wordt alleen in werking gesteld als `authState` is gewijzigd in AUTHENTICATED (1).
 
@@ -80,12 +79,12 @@ Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vind
    >
    >De naam van de gegevensbron en de kenmerknaam mogen geen punt bevatten.
 
-   Het gegevensbestand moet voldoen aan de vereisten voor het uploaden van bestanden en mag niet groter zijn dan 100 MB. Als het bestand te groot is of als u gegevens hebt die u regelmatig wilt uploaden, kunt u in plaats daarvan FTP op uw bestanden toepassen.
+   Het gegevensbestand moet voldoen aan de vereisten voor het uploaden van het bestand en mag niet groter zijn dan 100 MB. Als uw bestand te groot is of als u gegevens hebt die op terugkerende basis moeten worden geüpload, kunt u in plaats daarvan FTP op uw bestanden toepassen.
 
    * **HTTPS:** U kunt het CSV-gegevensbestand slepen en neerzetten of klikken  **[!UICONTROL Browse]** om te uploaden vanaf uw bestandssysteem.
    * **FTP:** klik op de FTP-koppeling om het bestand te  [uploaden via FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). De eerste stap bestaat uit het opgeven van een wachtwoord voor de door Adobe verschafte FTP-server. Geef het wachtwoord op en klik op **[!UICONTROL Done]**.
 
-   Breng nu uw CSV/ZIP/GZIP-bestand over naar de FTP-server. Nadat deze bestandsoverdracht is gelukt, maakt u een nieuw bestand met dezelfde naam en extensie .fin. Breng dit lege bestand over naar de server. Dit geeft een einde aan de gegevensoverdracht aan en de [!DNL Experience Cloud] verwerkt het gegevensbestand.
+   Breng nu uw CSV/ZIP/GZIP-bestand over naar de FTP-server. Nadat deze bestandsoverdracht is gelukt, maakt u een bestand met dezelfde naam en met de extensie `.fin`. Breng dit lege bestand over naar de server. Dit geeft een einde aan de gegevensoverdracht aan en de [!DNL Experience Cloud] verwerkt het gegevensbestand.
 
 1. Valideer het schema.
 
@@ -141,7 +140,7 @@ Geef `mbox3rdPartyId` als parameter aan globale mbox binnen de `targetPageParams
 
 ### De Experience Cloud ID-service gebruiken
 
-Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, moet u een identiteitskaart van de Klant en de Staat van de Authentificatie plaatsen om klantenattributen in het richten te gebruiken. Voor meer informatie, zie [Klantidentiteitskaart en de Staat van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in *Experience Cloud ID de Hulp van de Dienst*.
+Als u de Experience Cloud-id-service gebruikt, moet u een klant-id en verificatiestatus instellen om klantkenmerken te gebruiken voor het opgeven van doelen. Voor meer informatie, zie [Klantidentiteitskaart en de Staat van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in *Experience Cloud ID de Hulp van de Dienst*.
 
 Zie de volgende bronnen voor meer informatie over het gebruik van klantkenmerken in [!DNL Target]:
 
@@ -158,7 +157,7 @@ Als u met klantkenmerken en [!DNL Target] werkt, kunnen de volgende problemen op
 
 ### Uitgave 1: Klantkenmerken worden verwijderd omdat het profiel te groot is
 
-Er is geen tekenlimiet voor een bepaald veld in het gebruikersprofiel, maar als het profiel groter wordt dan 64 kB, wordt het afgebroken door de oudste kenmerken te verwijderen totdat het profiel weer lager is dan 64 kB.
+Er is geen tekenlimiet voor een bepaald veld in het gebruikersprofiel, maar als het profiel groter is dan 64 kB, wordt het afgebroken door de oudste kenmerken te verwijderen totdat het profiel weer lager is dan 64 kB.
 
 ### Uitgave 2: Kenmerken die niet worden vermeld in de Audience Library in [!DNL Target], zelfs na enkele dagen
 
