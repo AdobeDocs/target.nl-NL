@@ -4,19 +4,18 @@ description: Leer over bezoekersspecifieke attributen die in het profiel van de 
 title: Wat zijn profielkenmerken?
 feature: Soorten publiek
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
 
 # Profielkenmerken
 
-Profielkenmerken zijn parameters die specifiek zijn voor een bezoeker. Deze kenmerken worden opgeslagen in het profiel van de bezoeker om informatie over de bezoeker te verstrekken die in uw activiteiten kan worden gebruikt.
+Profielkenmerken in [!DNL Adobe Target] zijn parameters die specifiek zijn voor een bezoeker. Deze kenmerken worden opgeslagen in het profiel van de bezoeker om informatie over de bezoeker te verstrekken die in uw activiteiten kan worden gebruikt.
 
-Een gebruikersprofiel bevat demografische en gedragsinformatie van een bezoeker van een webpagina, zoals leeftijd, geslacht, aangeschafte producten, laatste tijd van het bezoek, enzovoort. Deze informatie wordt door Target gebruikt om de inhoud die deze bezoeker toekomt, aan te passen.
+Een gebruikersprofiel bevat demografische en gedragsinformatie van een bezoeker van een webpagina. Deze informatie kan leeftijd, geslacht, aangekochte producten, laatste tijd van bezoek omvatten, etc., die [!DNL Target] gebruikt om de inhoud te personaliseren het aan de bezoeker dient.
 
 Wanneer een bezoeker door uw website bladert of wanneer de bezoeker voor een andere sessie terugkeert, kunnen de opgeslagen profielkenmerken in het profiel worden gebruikt om inhoud of logboekinformatie voor segmentfiltering als doel in te stellen.
 
@@ -24,42 +23,40 @@ Profielkenmerken instellen:
 
 1. Klik op **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
 
-   ![Profielscripts, tabblad](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+   ![Profielscripts, tabblad](/help/c-target/c-visitor-profile/assets/create-script.png)
 
 1. Klik op **[!UICONTROL Create Script]**.
 
-   ![Profielscript maken, dialoogvenster](/help/c-target/c-visitor-profile/assets/create-script.png)
+   ![Profielscript maken, dialoogvenster](/help/c-target/c-visitor-profile/assets/profile-script.png)
 
    De volgende typen profielkenmerken zijn beschikbaar:
 
    | Type parameter | Beschrijving |
    |--- |--- |
-   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Opmerking**: Doel heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken aan Doel moet doorgeven, kunt u deze doorgeven met de API-methode voor het bijwerken van profiel. Zie [Profielupdate in de Adobe Target API-documentatie](http://developers.adobetarget.com/api/#updating-profiles) voor meer informatie. |
-   | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze kunnen lopende totalen opslaan zoals het totale geld dat door de consument wordt uitgegeven en op elke mbox verzoek uitgevoerd. Zie Profielscriptkenmerken hieronder. |
+   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Opmerking**:  [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target], geeft u deze door met de API-methode voor het bijwerken van profiel. Zie [Profielupdate in de [!DNL Adobe Target] API-documentatie](http://developers.adobetarget.com/api/#updating-profiles) voor meer informatie. |
+   | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze fragmenten kunnen lopende totalen opslaan zoals het totale geld dat de consument besteedt en worden uitgevoerd op elke mbox-aanvraag. Zie Profielscriptkenmerken hieronder. |
 
 ## Profielscriptkenmerken {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Definieer een profielscriptkenmerk met het bijbehorende JavaScript-codefragment.
 
-U kunt profielscripts gebruiken om bezoekerskenmerken voor meerdere bezoeken vast te leggen. Profielscripts zijn codefragmenten die binnen Doel worden gedefinieerd met behulp van een vorm van JavaScript op de server. U kunt bijvoorbeeld een profielscript gebruiken om vast te leggen hoe vaak een bezoeker uw site bezoekt en wanneer hij of zij voor het laatst is bezocht.
+U kunt profielscripts gebruiken om bezoekerskenmerken voor meerdere bezoeken vast te leggen. Profielscripts zijn codefragmenten die worden gedefinieerd in [!DNL Target] met behulp van een vorm van JavaScript op de server. U kunt bijvoorbeeld een profielscript gebruiken om vast te leggen hoe vaak een bezoeker uw site bezoekt en wanneer die bezoeker het laatst is bezocht.
 
-Profielscripts zijn niet hetzelfde als profielparameters. Profielparameters leggen informatie over bezoekers vast met behulp van de mbox-code-implementatie van Target.
+Profielscripts zijn niet hetzelfde als profielparameters. Profielparameters leggen informatie over bezoekers vast met behulp van de mbox-code-implementatie van [!DNL Target].
 
 ## Profielscripts maken {#section_CB02F8B97CAF407DA84F7591A7504810}
 
 Profielscripts zijn beschikbaar op het tabblad [!UICONTROL Audiences] in de interface [!DNL Target].
 
-Als u een nieuw profielscript wilt toevoegen, klikt u op het tabblad **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]** en schrijft u vervolgens uw script.
+Als u een profielscript wilt toevoegen, klikt u op de tab **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]** en schrijft u vervolgens uw script.
 
 of
 
-Als u een bestaand profielscript wilt kopiëren, houdt u de muisaanwijzer boven het gewenste script in de lijst [!UICONTROL Profile Scripts] en klikt u op het pictogram **[!UICONTROL Copy]**: ![kopieerpictogram](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Als u een bestaand profielscript wilt kopiëren, klikt u in de lijst [!UICONTROL Profile Scripts] op het pictogram voor het gewenste script en vervolgens op **[!UICONTROL Duplicate]**.
 
 Vervolgens kunt u het publiek bewerken om een vergelijkbaar publiek te maken.
 
-![Profielscript maken, dialoogvenster](assets/profile-script.png)
-
-Profielscripts voeren profielkenmerk &#39;catchers&#39; uit op elke locatieaanvraag. Wanneer een plaatsverzoek wordt ontvangen, bepaalt het Doel welke activiteit zou moeten in werking stellen en toont inhoud die aan die activiteit en die ervaring aangewezen is, het succes van de activiteit volgt, en om het even welke relevante profielmanuscripten in werking stelt. Op deze manier kunt u informatie over het bezoek bijhouden, zoals de locatie, het tijdstip van de bezoeker, het aantal keren dat de bezoeker naar de site is geweest, als hij of zij eerder heeft gekocht, enzovoort. Deze informatie wordt vervolgens toegevoegd aan het profiel van de bezoeker, zodat u de activiteiten van die bezoeker op uw site beter kunt bijhouden.
+Profielscripts voeren profielkenmerk &#39;catchers&#39; uit op elke locatieaanvraag. Wanneer een plaatsverzoek wordt ontvangen, [!DNL Target] bepaalt welke activiteit zou moeten lopen en toont inhoud die aan die activiteit en die ervaring aangewezen is. [!DNL Target] volgt ook het succes van de activiteit en stelt om het even welke relevante profielmanuscripten in werking. Met dit proces kunt u informatie bijhouden over het bezoek, zoals de locatie, het tijdstip van de bezoeker, het aantal keren dat de bezoeker naar de site is geweest, als hij of zij eerder heeft gekocht, enzovoort. Deze informatie wordt vervolgens toegevoegd aan het profiel van de bezoeker, zodat u de activiteiten van die bezoeker op uw site beter kunt bijhouden.
 
 Voor profielscriptkenmerken wordt de tag `user.` ingevoegd vóór de kenmerknaam. Bijvoorbeeld:
 
@@ -73,33 +70,33 @@ if (mbox.name == 'Track_Interest') {
 
 Houd rekening met het volgende:
 
-* Raadpleeg scriptkenmerken voor profielen (ook zichzelf) in de code met `user.get('parameterName')`
-* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (bij de volgende mbox-aanvraag), kunnen worden benaderd met `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit is handig voor situaties waarin u naar de datum en het tijdstip van de laatste aanvraag wilt verwijzen.
+* Raadpleeg de profielscriptkenmerken (ook zichzelf) in de code met `user.get('parameterName')`.
+* Sla variabelen op die de volgende keer dat het script wordt uitgevoerd (bij de volgende mbox-aanvraag), kunnen worden benaderd met `user.setLocal('variable_name', 'value')`. Verwijs naar de variabele met `user.getLocal('variable_name')`. Dit proces is handig voor situaties waarin u naar de datum en het tijdstip van het laatste verzoek wilt verwijzen.
 * Parameters en waarden zijn hoofdlettergevoelig. Komt overeen met het geval van de parameters en waarden die u ontvangt tijdens de activiteit of test.
 * Zie de sectie &quot;JavaScript reference for script profile parameters&quot; hieronder voor meer JavaScript-syntaxis.
-* De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, zullen in die activiteit kwalificeren.
+* De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, kwalificeren in die activiteit.
 * Profielscripts kunnen niet worden verwijderd terwijl ze in een activiteit worden gebruikt.
 * Het wordt niet aanbevolen afhankelijke profielscripts te maken die het resultaat van een profielscript in een ander profielscript gebruiken. De volgorde waarin profielscripts worden uitgevoerd, is niet gegarandeerd.
 
-## Informatiekaarten voor profielscripts {#section_18EA3B919A8E49BBB09AA9215E1E3F17} weergeven
+## Informatiekaarten voor profielscripts weergeven {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
 U kunt pop-upkaarten met profielscriptinformatie weergeven, vergelijkbaar met informatiekaarten. Met deze informatiekaarten voor profielscripts kunt u een lijst weergeven met activiteiten die verwijzen naar het geselecteerde profielscript, samen met andere nuttige metagegevens.
 
-De volgende profielscriptinformatiekaart is bijvoorbeeld toegankelijk door de muisaanwijzer boven een profielscript in de lijst Profielscripts (Soorten publiek > Profielscripts) te houden en vervolgens op het pictogram Info te klikken.
+De volgende informatiekaart voor profielscripts is bijvoorbeeld toegankelijk door op het pictogram [!UICONTROL Info] voor het gewenste profielscript in de lijst ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]) te klikken.
 
-Het tabblad [!UICONTROL Script Info] bevat de volgende informatie: Naam, status, Type token, Script-id, Wijzigingslogboek en Beschrijving.
+Het tabblad [!UICONTROL Script Info] bevat de volgende informatie: Naam, Beschrijving en scriptcode.
 
 ![Profielscript-infokaart](assets/profile_script_info_card.png)
 
-Op het tabblad [!UICONTROL Script Usage] staan de activiteiten (en de bijbehorende werkruimten) die naar het geselecteerde profielscript verwijzen.
+Klik **[!UICONTROL View full details]** om het publiek en de activiteiten te zien die van het geselecteerde profielmanuscript van verwijzingen voorzien.
 
 ![Profile Script info card > Script Usage, tabblad](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->Op het tabblad Scriptgebruik worden in de volgende situaties geen activiteiten weergegeven die verwijzen naar het geselecteerde profielscript:
+>Op het tabblad [!UICONTROL Script Usage] worden in de volgende situaties geen activiteiten weergegeven die verwijzen naar het geselecteerde profielscript:
 >
-> * De activiteit is in de staat van het Ontwerp.
+> * De activiteit is in de [!UICONTROL Draft] staat.
 > * De inhoud of de aanbieding die in de activiteit wordt gebruikt gebruikt manuscriptvariabelen (of een gealigneerde aanbieding binnen de activiteit of een aanbieding binnen de bibliotheek van de Aanbieding).
 
 
@@ -118,11 +115,11 @@ Bij aanwijzen worden details op de foutweergave weergegeven, zoals hieronder wor
 De meest gangbare redenen voor het uitschakelen van profielscripts zijn:
 
 * Een niet-gedefinieerde variabele waarnaar wordt verwezen.
-* Er wordt verwezen naar een ongeldige waarde. Dit wordt vaak veroorzaakt door het verwijzen naar URL-waarden en andere door de gebruiker ingevoerde gegevens zonder juiste validatie.
-* Er worden te veel JavaScript-instructies gebruikt. Doel heeft een limiet van 2.000 JavaScript-instructies per script, maar dit kan niet eenvoudig worden berekend door het JavaScript handmatig te lezen. Rhino behandelt bijvoorbeeld alle functieaanroepen en &quot;nieuwe&quot; aanroepen als 100 instructies. Dit betekent dat elke aanroep van een functie 100 instructies gebruikt. Ook, kan de grootte van om het even welke ingangsgegevens, zoals waarden URL, de instructietelling beïnvloeden.
+* Er wordt verwezen naar een ongeldige waarde. Deze fout wordt vaak veroorzaakt door naar URL-waarden en andere door de gebruiker ingevoerde gegevens te verwijzen zonder juiste validatie.
+* Er worden te veel JavaScript-instructies gebruikt. [!DNL Target] heeft een limiet van 2.000 JavaScript-instructies per script, maar deze limiet kan niet eenvoudig worden berekend door het JavaScript handmatig te lezen. Rhino behandelt bijvoorbeeld alle functieaanroepen en &quot;nieuwe&quot; aanroepen als 100 instructies. Om het even welke vraag aan om het even welke functie verbruikt 100 instructies. Ook, kan de grootte van om het even welke ingangsgegevens, zoals waarden URL, de instructietelling beïnvloeden.
 * Items die in de sectie [best practices](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) hieronder zijn gemarkeerd, worden niet gevolgd.
 
-## Aanbevolen werkwijzen {#best}
+## Aanbevolen procedures {#best}
 
 De volgende richtlijnen zijn bedoeld om vereenvoudigde profielmanuscripten te schrijven die fout-falend-vrij zo mogelijk zijn door code te schrijven die zachtjes zakt zodat worden de manuscripten verwerkt zonder een systeem-manuscript-halt te dwingen. Deze richtsnoeren zijn het resultaat van goede praktijken die efficiënt zijn gebleken te werken. Deze richtsnoeren moeten worden toegepast in samenhang met de beginselen en aanbevelingen van de Rijnse ontwikkelingsgemeenschap.
 
@@ -131,9 +128,9 @@ De volgende richtlijnen zijn bedoeld om vereenvoudigde profielmanuscripten te sc
 * Gebruik op tekenreeks gebaseerde manipulatiefuncties vs. Reguliere expressies.
 * Gebruik limited for loops vs. open ended for or while loops.
 * Gebruik niet meer dan 1.300 tekens of 50 lusherhalingen.
-* Gebruik niet meer dan 2.000 JavaScript-instructies. Doel heeft een limiet van 2.000 JavaScript-instructies per script, maar dit kan niet eenvoudig worden berekend door het JavaScript handmatig te lezen. Rhino behandelt bijvoorbeeld alle functieaanroepen en &quot;nieuwe&quot; aanroepen als 100 instructies. Ook, kan de grootte van om het even welke ingangsgegevens, zoals waarden URL, de instructietelling beïnvloeden.
-* Houd niet alleen rekening met de scriptprestaties, maar ook met de gecombineerde prestaties van alle scripts. Als beste praktijken, adviseren wij minder dan 5.000 instructies in totaal. Het tellen van het aantal instructies is niet voor de hand liggend, maar het belangrijkste is dat scripts die hoger zijn dan 2000 instructies automatisch worden uitgeschakeld. Het aantal actieve profielscripts mag niet groter zijn dan 300. Elk manuscript wordt uitgevoerd met elke enige brievenbusvraag. Voer zo veel scripts uit als u nodig hebt.
-* in een regex, met een puntster aan het begin (bv.: `/.*match/`, `/a|.*b/`) is bijna nooit nodig. De regex-zoekopdracht begint op alle posities in een tekenreeks (tenzij deze is gebonden met `^`), dus de punt-ster wordt al aangenomen. De uitvoering van het script kan worden onderbroken als een dergelijke regex overeenkomt met een lang genoeg aantal invoergegevens (die wel honderden tekens kunnen bevatten).
+* Gebruik niet meer dan 2.000 JavaScript-instructies. [!DNL Target] heeft een limiet van 2.000 JavaScript-instructies per script, maar deze limiet kan niet eenvoudig worden berekend door het JavaScript handmatig te lezen. Rhino behandelt bijvoorbeeld alle functieaanroepen en &quot;nieuwe&quot; aanroepen als 100 instructies. Ook, kan de grootte van om het even welke ingangsgegevens, zoals waarden URL, de instructietelling beïnvloeden.
+* Houd niet alleen rekening met de scriptprestaties, maar ook met de gecombineerde prestaties van alle scripts. Als beste praktijken, [!DNL Adobe] adviseert minder dan 5.000 instructies in totaal. Het tellen van het aantal instructies is niet voor de hand liggend, maar het belangrijkste is dat scripts die hoger zijn dan 2000 instructies automatisch worden uitgeschakeld. Het aantal actieve profielscripts mag niet groter zijn dan 300. Elk manuscript wordt uitgevoerd met elke enige brievenbusvraag. Voer zo veel scripts uit als u nodig hebt.
+* In een regex met een puntster in het begin (bijvoorbeeld: `/.*match/`, `/a|.*b/`) is bijna nooit nodig. De regex-zoekopdracht begint op alle posities in een tekenreeks (tenzij deze is gebonden met `^`), dus de punt-ster wordt al aangenomen. De uitvoering van het script kan worden onderbroken als een dergelijke regex overeenkomt met een lang genoeg aantal invoergegevens (die wel honderden tekens kunnen bevatten).
 * Als alles ontbreekt, verpak manuscript in probeer/vangst.
 * De volgende aanbevelingen kunnen u helpen de ingewikkeldheid van het profielmanuscript beperken. Profielscripts kunnen een beperkt aantal instructies uitvoeren.
 
@@ -142,7 +139,7 @@ De volgende richtlijnen zijn bedoeld om vereenvoudigde profielmanuscripten te sc
    * Houd profielscripts klein en zo eenvoudig mogelijk.
    * Vermijd reguliere expressies of gebruik alleen eenvoudige reguliere expressies. Zelfs eenvoudige expressies kunnen veel instructies gebruiken om te evalueren.
    * Vermijd herhaling.
-   * Profielscripts moeten op prestaties worden getest voordat ze aan Target worden toegevoegd. Alle profielscripts worden uitgevoerd op elke mbox-aanvraag. Als profielscripts niet correct worden uitgevoerd, duurt het langer om mbox-aanvragen uit te voeren. Dit zou verkeer en omzetting kunnen beïnvloeden.
+   * Profielscripts moeten op prestaties worden getest voordat ze aan [!DNL Target] worden toegevoegd. Alle profielscripts worden uitgevoerd op elke mbox-aanvraag. Als profielscripts niet correct worden uitgevoerd, duurt het langer om mbox-aanvragen uit te voeren, wat invloed kan hebben op verkeer en conversie.
    * Als profielscripts te complex worden, kunt u [responstokens](/help/administrating-target/response-tokens.md) gebruiken.
 
 * Raadpleeg de documentatie bij de JS Rhino-engine voor meer informatie: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -155,21 +152,21 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 >
 >Als u [!DNL console.log] in een profielscript gebruikt, wordt de profielwaarde niet uitgevoerd, omdat profielscripts op de server worden uitgevoerd.
 
-* **Profielscripts toevoegen als responstokens om fouten in profielscripts op te sporen:**
+* **Profielscripts toevoegen als reactietokens voor foutopsporing in profielscripts:**
 
-   Klik in Doel op **[!UICONTROL Administration]**, klik op **[!UICONTROL Response Tokens]** en schakel vervolgens het profielscript in dat u wilt debuggen.
+   Klik in [!DNL Target] op **[!UICONTROL Administration]**, klik op **[!UICONTROL Response Tokens]** en schakel vervolgens het profielscript in dat u wilt debuggen.
 
-   Elke keer dat u een pagina voor uw site laadt met Target erop, bevat een deel van de reactie van Target uw waarde voor het opgegeven profielscript, zoals hieronder wordt weergegeven:
+   Telkens wanneer u een pagina voor uw site laadt met [!DNL Target] erop, bevat een deel van de reactie van [!DNL Target] uw waarde voor het opgegeven profielscript, zoals hieronder wordt getoond:
 
    ![](assets/debug_profile_script_1.png)
 
-* **Met het gereedschap MboxTrace-foutopsporing kunt u fouten in profielscripts opsporen.**
+* **Gebruik het foutopsporingsprogramma mboxTrace om fouten in profielscripts op te sporen.**
 
    Deze methode vereist een toestemmingstoken dat u kunt produceren door **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in [!UICONTROL Debugger tools] sectie te klikken.
 
    Vervolgens voegt u deze twee parameters toe aan de URL van de pagina na &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
 
-   Dit is een iets informatiefunctie dan de reactietoken omdat u een voor-uitgevoerde momentopname en een na-momentopname van uw profiel krijgt. Ook worden alle beschikbare profielen weergegeven.
+   Het toevoegen van deze parameters is een weinig informatiefunctie dan het reactietoken omdat u een voor-uitgevoerde momentopname en een na-momentopname van uw profiel krijgt. Ook worden alle beschikbare profielen weergegeven.
 
    ![](assets/debug_profile_script_2.png)
 
@@ -177,7 +174,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 **Is het mogelijk om profielmanuscripten te gebruiken om informatie van een pagina te vangen die in een gegevenslaag verblijft?**
 
-Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [methodes worden overgegaan om gegevens in Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) te krijgen. Nadat de gegevens zich in Doel bevinden, kunnen de profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
+Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [methodes worden overgegaan om gegevens in Doel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) te krijgen. Nadat de gegevens zich in [!DNL Target] bevinden, kunnen de profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
 
 ## JavaScript-referentie voor scriptprofielparameters
 
@@ -201,7 +198,7 @@ if (lastPurchaseTime) {
 }
 ```
 
-Hiermee maakt u een variabele voor de dag, gemeten in milliseconden. Als de naam van het selectievakje `orderThankyouPage` is, stelt u een lokaal (onzichtbaar) gebruikersprofielkenmerk met de naam `lastPurchaseTime` zo in dat de waarde van de huidige datum en tijd wordt gebruikt. De waarde van de laatste aankooptijd wordt gelezen en als deze is gedefinieerd, retourneren we de tijd die is verstreken sinds de laatste aanschaftijd, gedeeld door het aantal milliseconden in een dag (wat resulteert in het aantal dagen sinds de laatste aankoop).
+Hiermee maakt u een variabele voor de dag, gemeten in milliseconden. Als de naam van het selectievakje `orderThankyouPage` is, stelt u een lokaal (onzichtbaar) gebruikersprofielkenmerk met de naam `lastPurchaseTime` in om de waarde van de huidige datum en tijd weer te geven. De waarde van de laatste aankooptijd wordt gelezen, en als bepaald, [!DNL Target] keert de tijd terug die sinds de laatste aankooptijd is overgegaan, gedeeld door het aantal milliseconden in een dag (die in het aantal dagen sinds de laatste aankoop resulteert).
 
 **Naam:** *user.frequency*
 
@@ -269,10 +266,10 @@ Alle standaard JavaScript-operatoren zijn aanwezig en kunnen worden gebruikt. Ja
 | --- | --- |
 | `==` | Geeft gelijkheid aan. Houdt waar wanneer de operands aan beide kanten gelijk zijn. |
 | `!=` | Geeft ongelijkheid aan. Houdt waar wanneer de operands aan beide kanten niet gelijk zijn. |
-| `<` | Geeft aan dat de variabele aan de linkerkant kleiner is dan de variabele aan de rechterkant. Zal evalueren naar false als de variabelen gelijk zijn. |
-| `>` | Geeft aan dat de variabele aan de linkerkant groter is dan de variabele aan de rechterkant. Zal evalueren naar false als de variabelen gelijk zijn. |
-| `<=` | Hetzelfde als `<`, behalve als de variabelen gelijk zijn, wordt het geëvalueerd op true. |
-| `>=` | Hetzelfde als `>`, behalve als de variabelen gelijk zijn, wordt het geëvalueerd op true. |
+| `<` | Geeft aan dat de variabele aan de linkerkant kleiner is dan de variabele aan de rechterkant. Evalueert naar false als de variabelen gelijk zijn. |
+| `>` | Geeft aan dat de variabele aan de linkerkant groter is dan de variabele aan de rechterkant. Evalueert naar false als de variabelen gelijk zijn. |
+| `<=` | Hetzelfde als `<`, behalve als de variabelen gelijk zijn, levert dit de waarde true op. |
+| `>=` | Hetzelfde als `>`, behalve als de variabelen gelijk zijn, levert dit de waarde true op. |
 | `&&` | Logisch &quot;ENs&quot;de uitdrukkingen aan de linkerzijde en het recht van het - is slechts waar wanneer beide kanten waar (vals anders) zijn. |
 | `||` | Logisch &quot;ORs&quot;de uitdrukkingen aan de linkerzijde en het recht van het - is slechts waar als één van de kanten (vals anders) waar is. |
 | `//` | Controleert of de bron alle elementen van doel boolean bevat (Array-bron, Array-doel).<br>`//` extraheert substring uit target (overeenkomend met regexp) en decodeert deze  `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>De functie ondersteunt ook het gebruik van constante tekenreekswaarden, groepering (`condition1 || condition2) && condition3` en reguliere expressies (`/[^a-z]$/.test(landing.referring.url)`. |
