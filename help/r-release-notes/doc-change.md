@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 21 juli | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie is bijgewerkt:<ul><li>Hoe beïnvloedt het Google Chrome SameSite-beleid voor de handhaving van cookies de VEC en EEC?</li></ul> |
 | 19 juli | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Toegevoegde informatie over gebeurteniscode -1 of 65535. |
 | 16 juli | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br><br>[andat.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over de release at.js 2.6.0. |
 |  | [Problemen met de  [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Bijgewerkt de lijst van IP adres aan lijst van gewenste personen. |
