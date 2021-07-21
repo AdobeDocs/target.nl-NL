@@ -1,39 +1,38 @@
 ---
 keywords: gericht;doelbibliotheek;bibliotheek
-description: Leer hoe u bezoekers kunt aanwijzen met behulp van vooraf opgebouwd verouderde publiek. De beste manier is om de nieuwere publiekscategorieën te gebruiken voor betere prestaties.
-title: Kan ik [!DNL Target] Bezoekers op basis van vooraf gebouwde richtingsregels?
+description: Leer hoe u bezoekers kunt aanwijzen met behulp van vooraf opgebouwd verouderde publiek.
+title: Kan ik bezoekers richten op basis van vooraf gebouwde richtingsregels?
 feature: Soorten publiek
 exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 
 # Doelbibliotheek
 
-De gebruikers van het doel die op pre-gebouwde het richten regels worden gebaseerd.
+Gebruik [!DNL Adobe Target] om gebruikers te richten die op pre-gebouwde het richten regels worden gebaseerd.
 
-Het vooraf gebouwde publiek in de categorie Doelbibliotheek is verouderd publiek en bestaat in andere categorieën. Voor meer informatie en beste praktijken, zie [Doelen en het publiek vaak Gestelde Vragen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Het vooraf gebouwde publiek in de categorie [!UICONTROL Target Library] is verouderd publiek en bestaat in andere categorieën. Voor meer informatie en beste praktijken, zie [Doelen en publiek vaak gestelde vragen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. Noem het publiek.
-1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Target Library]**.
+1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
+1. Sleep **[!UICONTROL Target Library]** in de ruit van de publieksbouwer.
 
    ![Doelbibliotheek](assets/target_library.png)
 
 1. Klik **[!UICONTROL Select]**, dan selecteer een pre-gebouwde het richten regel.
 
-   Vooraf gebouwde het richten regels omvatten, het Werkende Systeem van het Venster, TabletApparaat, Browser Safari, Terugkomende Bezoekers, van Google, en meer.
+   Vooraf gebouwde richtingsregels zijn onder andere [!UICONTROL Windows Operating System], [!UICONTROL Tablet Device], [!UICONTROL Safari Browser], [!UICONTROL Returning Visitors], [!UICONTROL Referred from Google] en meer.
 
-   Het vooraf gedefinieerde publiek &quot;Tablet Device&quot; komt al in aanmerking wanneer de gebruikersagent een van de volgende tekenreeksen bevat (waarvan sommige modelnummers van apparaten zijn). U hoeft geen aangepaste doelregels voor deze apparaten te maken.
+   Het vooraf gedefinieerde publiek &quot;[!UICONTROL Tablet Device]&quot; komt al in aanmerking wanneer de gebruikersagent een van de volgende tekenreeksen bevat (waarvan sommige modelnummers van apparaten zijn). U hoeft geen aangepaste doelregels voor deze apparaten te maken.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I900 0T, BNTV250 en tablet-pc.
 
-1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
-1. Klik op **[!UICONTROL Save]**.
+1. (Optioneel) Stel aanvullende regels voor het publiek in.
+1. Klik op **[!UICONTROL Done]**.
 
 ## Trainingsvideo: Soorten publiek maken
 
