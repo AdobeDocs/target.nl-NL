@@ -1,24 +1,23 @@
 ---
 keywords: gericht;netwerk;doelnetwerk;isp;domeinnaam;verbindingssnelheid;doel isp;doeldomeinnaam;doelverbindingssnelheid
-description: Leer hoe te om publiek in Adobe [!DNL Target] te creëren dat op netwerkdetails zoals ISP, de Naam van het Domein, en de Snelheid van de Verbinding wordt gebaseerd.
-title: Kan I [!DNL Target] Bezoekers gebaseerd op netwerkopties?
+description: Leer hoe te om publiek in [!DNL Adobe Target] te creëren gebaseerd op netwerkdetails.
+title: Kan ik Bezoekers richten op basis van netwerkopties?
 feature: Soorten publiek
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '510'
 ht-degree: 2%
 
 ---
 
 # Netwerk
 
-U kunt publiek tot stand brengen dat op netwerkdetails wordt gebaseerd.
+U kunt publiek in [!DNL Adobe Target] tot stand brengen die op netwerkdetails, zoals ISP, domeinnaam, en verbindingssnelheid wordt gebaseerd.
 
 1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. Noem het publiek.
-1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Network]**.
+1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
+1. Sleep **[!UICONTROL Network]** in de ruit van de publieksbouwer.
 1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
    * **ISP:** ISP is een organisatie die Internet toegang tot zijn abonnees, gewoonlijk tegen een maandelijkse of jaarlijkse prijs verleent. Vele ISPs verleent de extra diensten, zoals Web het ontvangen of e-mail. Het ISP gebied is of commerciële ISP (zoals Comcast of TimeWarner) of een andere entiteit zoals een zaken of onderwijsinstelling.
@@ -47,13 +46,13 @@ U kunt publiek tot stand brengen dat op netwerkdetails wordt gebaseerd.
 
       U kunt de waarden voor de ISP- en domeinnaam testen. [https://www.whoismyisp.](https://www.whoismyisp.org) orgis een goede bron voor doelgerichte doeleinden. U kunt de steekproefIP adressen gebruiken die in de lijst hierboven worden gegeven, of uw ingaan. Dan gebruik `mboxOverride.browserIp= URL` parameter om dat IP adres na te bootsen.
 
-   * **Domeinnaam:** dit is de domeinnaam voor het IP-adres van de bezoeker. Dit is niet de domeinnaam van de website die u gebruikt met [!DNL Target]. Deze domeinnaam is gerelateerd aan het IP-adres van de bezoeker en wordt soms een hostnaam genoemd. Het is gewoonlijk zeer gelijkaardig aan de ISP naam. Soms verwijzingen hostname oudere namen van bedrijven die hun ISP naam maar niet de domeinnaam hebben herbrandd.
-   * **Verbindingssnelheid:** dit is de snelheid waarmee de bezoeker verbinding maakt met internet. De volgende opties zijn beschikbaar: breedband, kabel, dialup, mobiel, oc3, oc12, satelliet, t1, t2, en radio, en xdsl.
+   * **Domeinnaam:** deze naam is de domeinnaam voor het IP-adres van de bezoeker. Deze naam is niet de domeinnaam van de website die u gebruikt met [!DNL Target]. Deze domeinnaam is gerelateerd aan het IP-adres van de bezoeker en wordt soms een hostnaam genoemd. Het is gelijkaardig aan de ISP naam. Soms verwijzingen hostname oudere namen van bedrijven die hun ISP naam maar niet de domeinnaam hebben herbrandd.
+   * **Verbindingssnelheid:** deze snelheid is de snelheid waarmee de bezoeker verbinding maakt met internet. De volgende opties zijn beschikbaar: breedband, kabel, dialup, mobiel, oc3, oc12, satelliet, t1, t2, en radio, en xdsl.
 
       Dit veld is gebaseerd op het type verbinding en niet op de werkelijke snelheid zelf. [!DNL Target] kan niet de nauwkeurige verbindingssnelheden van verbindingen bepalen. Het verbindingstype Breedband wordt gebruikt wanneer er geen aanwijzing van andere verbindingstypes is zodat kan een specifiek type niet worden gekozen.
 
-1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
-1. Klik op **[!UICONTROL Save]**.
+1. (Optioneel) Stel aanvullende regels voor het publiek in.
+1. Klik op **[!UICONTROL Done]**.
 
 In de volgende afbeelding ziet u een publiek dat is gericht op bezoekers die AT&amp;T gebruiken met een verbindingssnelheid van [!UICONTROL Mobile].
 
