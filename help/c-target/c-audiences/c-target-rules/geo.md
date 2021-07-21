@@ -1,48 +1,47 @@
 ---
 keywords: doel;a4t;geo;geotargeting;geotargeting nauwkeurigheid;land;land;land;plaats;zip-code;dma;mobiele carrier-codes;regio-codes;landcodes;metro-codes;profielscripts;geotargeting profielscripts;geotargeting mobile
-description: Leer hoe u een Adobe [!DNL Target] publiek kunt maken voor gebruikers op basis van hun geografische locatie, waaronder hun land, plaats, postcode en meer.
-title: Kan ik  [!DNL Target] op bezoekers gebaseerde locatie?
+description: Leer hoe u een publiek maakt in [!DNL Adobe Target] om gebruikers te richten op basis van hun geografische locatie.
+title: Kan ik bezoekers richten op basis van locatie?
 feature: Soorten publiek
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '969'
 ht-degree: 2%
 
 ---
 
 # Geo
 
-Gebruik het publiek in [!DNL Adobe Target] om gebruikers te richten op basis van hun geografische locatie, waaronder hun land, staat/provincie, stad, postcode/postcode, DMA of mobiele vervoerder.
+Gebruik het publiek in [!DNL Adobe Target] om gebruikers te richten op basis van hun geografische locatie.
 
-De parameters van de plaats van de geoplaats staan u toe om activiteiten en ervaringen te richten die op de aardrijkskunde van uw bezoekers worden gebaseerd. U kunt bezoekers opnemen of uitsluiten op basis van hun land, provincie, provincie, stad, postcode, breedte, lengte, DMA of mobiele provider. Dit gegeven wordt verzonden met elk [!DNL Target] verzoek en is gebaseerd op het IP van de bezoeker adres. Selecteer deze parameters net als alle doelwaarden.
+De parameters van de plaats van de geoplaats laten u activiteiten en ervaringen richten die op de aardrijkskunde van uw bezoekers worden gebaseerd. U kunt bezoekers opnemen of uitsluiten op basis van hun land, provincie, provincie, stad, postcode, breedte, lengte, DMA of mobiele provider. Dit gegeven wordt verzonden met elk [!DNL Target] verzoek en is gebaseerd op het IP van de bezoeker adres. Selecteer deze parameters net als alle doelwaarden.
 
-## Een publiek maken met geo als doel {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## Een publiek maken met geo-doelen {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. Noem het publiek.
-1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Geo]**.
+1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
+1. Sleep **[!UICONTROL Geo]** in de ruit van de publieksbouwer.
 
 1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
-   * Land
-   * Staat
-   * Plaats
-   * Postcode
-   * Breedte
-   * Lengtegraad
-   * DMA
-   * Mobiele vervoerder
+   * [!UICONTROL Country/Region]
+   * [!UICONTROL State]
+   * [!UICONTROL City]
+   * [!UICONTROL Zip Code]
+   * [!UICONTROL Longitude]
+   * [!UICONTROL Latitude]
+   * [!UICONTROL DMA]
+   * [!UICONTROL Mobile Carrier]
 
    IP van een bezoeker adres wordt overgegaan met een brievenbusverzoek, eens per bezoek (zitting), om geo richtende parameters voor die bezoeker op te lossen.
 
-   Voor Mobiele drager, [!DNL Target] gebruikt de IP gegevens van de adresregistratie (die het blok van IP adressen) bezit om de aangewezen mobiele drager te bepalen gebruikend [Mobiele Codes van het Land (MCC) en Mobiele Codes MNC) ](https://www.mcc-mnc.com).
+   Voor [!UICONTROL Mobile Carrier] gebruikt [!DNL Target] de IP gegevens van de adresregistratie (die het blok van IP adressen) bezit om de aangewezen mobiele drager te bepalen gebruikend [Mobiele Codes van het Land (MCC) en Mobiele Codes MNC) ](https://www.mcc-mnc.com).
 
 1. Geef een operator en de juiste waarde op.
-1. (Optioneel) Klik op **[!UICONTROL Add Rule]** en stel aanvullende regels in voor het publiek.
-1. Klik op **[!UICONTROL Save]**.
+1. (Optioneel) Stel aanvullende regels voor het publiek in.
+1. Klik op **[!UICONTROL Done]**.
 
 In de volgende afbeelding ziet u een publiek dat gericht is op gebruikers die de activiteit betreden vanaf een breedte van meer dan 44° en een lengte van minder dan 22°.
 
@@ -67,7 +66,7 @@ De volgende lijst toont de nauwkeurigheid van op IP-Gebaseerde geografische info
 | Japan | 99,99% | Midden 90 | Laag 90 s |
 | Australië | 99,99% | 94% | 91% |
 
-## Geo-gericht gebruiken in Profielscripts {#section_92C93138542C4A94997E3F4BE3F5DA28}
+## Geo-targeting gebruiken in profielscripts {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
 U kunt geo-informatie gebruiken voor profielscripts.
 
@@ -87,9 +86,9 @@ U kunt dus een doelexpressie met de naam &#39;Uit Noord-Amerika&#39; schrijven m
 
 `return profile.geolocation.country == 'united states' || profile.geolocation.country == 'canada' || profile.geolocation.country == 'mexico';`
 
-## Geo-richtende waarden als tokens {#section_E7F7FDF62C3B4934A6565D04B24655F6} gebruiken
+## Geo-richtingswaarden gebruiken als tokens {#section_E7F7FDF62C3B4934A6565D04B24655F6}
 
-U kunt nu `profile.geolocation`-waarden direct als tokens gebruiken in aanbiedingen, plug-ins enzovoort.
+U kunt `profile.geolocation` waarden direct als tekenen in aanbiedingen, plugins, etc. gebruiken.
 
 Gebruik bijvoorbeeld:
 
@@ -105,24 +104,26 @@ Gebruik bijvoorbeeld:
 * `${profile.geolocation.latitude}`
 * `${profile.geolocation.longitude}`
 
-## Geotargeting FAQ {#section_DD308A53AF0F48FA8C81423580561FE7}
+## Veelgestelde vragen over geo-targeting {#section_DD308A53AF0F48FA8C81423580561FE7}
 
-**Hoe kan ik breedte- en lengtegraad opgeven?**
+De volgende vragen worden vaak gesteld over geo-targeting:
 
-* De waarde voor breedte/lengte moet een numerieke waarde in graden zijn.
-* De waarde voor latitude/longitude kan een maximale precisie van vijf decimalen hebben.
+### Hoe kan ik breedte- en lengtegraad opgeven?
+
+* De waarde voor breedte en lengte moet een numerieke waarde in graden zijn.
+* De waarde voor breedte en lengte kan een maximale precisie van vijf decimalen hebben.
 * De waarde voor latitude moet liggen tussen -90 en 90.
 * De waarde voor longitude moet liggen tussen -180 en 180.
 
-**Hoe richt geo zich op het werk voor mobiele apparaten?**
+### Hoe werkt geo-targeting voor mobiele apparaten?
 
 De meeste gebruikers van mobiele apparaten hebben toegang tot inhoud via WiFi, wat betekent dat de op IP gebaseerde geotargeting van [!DNL Target] even nauwkeurig is als op een desktop. De op toren-gebaseerde verbindingen van de cel kunnen minder nauwkeurig zijn omdat het IP van de bezoeker adres op de toren gebaseerd is waar het signaal wordt opgepikt. Sommige problemen met mobiele geolocatie kunnen worden opgelost met de [Geolocatie-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
-**Hoe behandelt de functie van geo bezoekers van AOL?**
+### Hoe behandelt de functie van geo bezoekers van AOL?
 
 Vanwege de manier waarop AOL zijn verkeer verrijkt, kan [!DNL Target] deze alleen op landniveau richten. Zo is een campagne gericht op Frankrijk succesvol gericht op gebruikers van AOL in Frankrijk. Maar een campagne gericht op Parijs is niet succesvol gericht op AOL-gebruikers in Parijs. Als u specifiek op AOL-gebruikers wilt gericht, kunt u het gebiedveld instellen op &quot;aol&quot;. In feite kunt u de gebruikers van AOL van de V.S. door twee te specificeren richten voorwaarden richten: het land komt precies overeen met &quot; verenigde staten &quot; en de regio komt precies overeen met &quot; aol &quot; .
 
-**Welke plaatsgranulariteit verstrekt geo richt?**
+### Welke plaatsgranulariteit verstrekt geo-richt?
 
 * Land - wereldwijd
 * Staat/provincie/regio - wereldwijd
@@ -131,9 +132,9 @@ Vanwege de manier waarop AOL zijn verkeer verrijkt, kan [!DNL Target] deze allee
 * DMA/ITV (VK) - VS, VK
 * Mobiele provider - wereldwijd
 
-**Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?**
+### Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?
 
-* **te.js 1.*x***: U kunt uw IP adres met een IP adres van een verschillende plaats met voeten treden en de  `mboxOverride.browserIp url` parameter gebruiken. Dus als uw bedrijf zich in het Verenigd Koninkrijk bevindt, maar uw wereldwijde campagne gericht is op bezoekers in Auckland, Nieuw-Zeeland, gebruikt u deze URL ervan uitgaande dat `60.234.0.39` een IP-adres is in Auckland:
+* **te.js 1.*x***: U kunt uw IP adres met een IP adres van een verschillende plaats met voeten treden en de  `mboxOverride.browserIp url` parameter gebruiken. Bijvoorbeeld, als uw bedrijf in het VK is, maar uw globale campagne richt bezoekers in Auckland, Nieuw Zeeland, gebruik deze stijl van URL veronderstellend dat `60.234.0.39` een IP adres in Auckland is:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -145,11 +146,11 @@ Vanwege de manier waarop AOL zijn verkeer verrijkt, kan [!DNL Target] deze allee
 
 * **te.js 2.*x***: Om uw IP adres met at.js 2 met voeten te treden.*x*, installeer een browser uitbreiding/stop (zoals X-Door:sturen-voor Kopbal voor Chrome of Firefox). Met deze extensie kunt u de x-door:sturen-voor-header doorgeven in uw paginaaanvragen.
 
-**Hoe worden gebieden, zoals Puerto Rico en Hongkong, in de geo-gerichte structuur ondergebracht?**
+### Hoe worden gebieden, zoals Puerto Rico en Hongkong, in de geo-gerichte structuur ondergebracht?
 
 Puerto Rico, Hong Kong en andere gebieden worden behandeld als afzonderlijke &quot;Land&quot;-waarden.
 
-**Vangt (en slaat) informatie zoals de Codes van het PIT op wanneer de activiteit met geo-plaats gerichte mogelijkheden wordt gericht?  [!DNL Target]**
+### Vangt (en slaat) [!DNL Target] informatie zoals de Code van het PIT wanneer de activiteit met geo-plaats het richten mogelijkheden wordt gericht?
 
 Nee, [!DNL Target] gebruikt alleen geo-gegevens tijdens de sessie, dan worden de gegevens verwijderd.
 
