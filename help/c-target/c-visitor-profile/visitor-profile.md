@@ -1,21 +1,21 @@
 ---
 keywords: Overzicht en referentie
-description: Meer informatie over bezoekersprofielen met informatie over hoe bezoekers uw pagina's en andere geoptimaliseerde inhoudslocaties gebruiken.
+description: Leer meer over bezoekersprofielen die informatie bevatten over hoe uw bezoekers uw pagina's en andere geoptimaliseerde inhoudslocaties gebruiken.
 title: Wat zijn bezoekerprofielen?
 feature: Soorten publiek
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
 # Bezoekerprofielen
 
-Bezoekersprofielen bevatten informatie over hoe bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken.
+Bezoekersprofielen in [!DNL Adobe Target] bevatten informatie over hoe bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken.
 
-Als [!DNL Adobe Target] wordt gebruikt met andere [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] deelt bezoekersinformatie over oplossingen.
+Als [!DNL Target] wordt gebruikt met andere [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] deelt bezoekersinformatie over oplossingen.
 
 Standaard worden [!DNL Target]-profielgegevens opgeslagen in één cookie van de eerste partij. De configuratie kan gemakkelijk worden veranderd om derdekoekjes eveneens te dienen.
 
