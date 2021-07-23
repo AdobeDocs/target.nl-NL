@@ -4,9 +4,9 @@ description: Leer hoe te om problemen problemen op te lossen die soms in Adobe [
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Wees op de hoogte van de wijzigingen die van invloed zijn op de VEC en de EEG wa
 >
 >De volgende wijziging is van invloed op de drie updates die hieronder worden beschreven:
 >
-> * Zal *niet* VEC (met of zonder de geïnstalleerde en toegelaten uitbreiding van de Helper VEC) in wachtwoord-beschermde pagina&#39;s van hun plaatsen kunnen gebruiken. De aanmeldcookies van uw site worden beschouwd als een cookie van een andere fabrikant en worden samen met de aanmeldingsaanvraag verzonden. De enige uitzondering is wanneer voor het aanmeldcookie van de site de parameter SameSite al is ingesteld op &quot;none&quot;.
+> * Zal *niet* VEC (met of zonder de geïnstalleerde en toegelaten uitbreiding van de Helper VEC) in wachtwoord-beschermde pagina&#39;s van uw plaatsen kunnen gebruiken. De aanmeldcookies van uw site worden beschouwd als een cookie van een andere fabrikant en worden samen met de aanmeldingsaanvraag verzonden. De enige uitzondering is wanneer voor het aanmeldcookie van de site de parameter SameSite al is ingesteld op `none` en `Secure.`
 
 
 **Chrome 94 (21 september 2021)**: Met de aanstaande veranderingen die voor de Versie van Chrome 94 (21 September, 2021) worden gepland, beïnvloedt de volgende verandering alle gebruikers met Chrome 94+ browser versies:
@@ -36,7 +36,7 @@ Wees op de hoogte van de wijzigingen die van invloed zijn op de VEC en de EEG wa
 
 **Chrome 80 (augustus 2020)**: Met de veranderingen die in Augustus 2020 worden uitgevoerd, alle gebruikers met Chrome 80+ browser versies:
 
-* *niet* kan [!DNL Target] bibliotheken downloaden tijdens het bewerken van een activiteit (als deze nog niet op de site staan). Dit is omdat de downloadvraag van het klantendomein aan een beveiligd Adobe domein wordt gemaakt en als unauthenticated wordt verworpen.
+* *niet* kan [!DNL Target] bibliotheken downloaden tijdens het bewerken van een activiteit (als deze nog niet op de site staan). Dit is omdat de downloadvraag van het klantendomein aan beveiligd [!DNL Adobe] domein wordt gemaakt en als niet voor authentiek verklaard verworpen.
 * De E.E.G. zal *niet* functie voor alle gebruikers omdat het niet het attribuut SameSite voor koekjes op `adobemc.com domain` kan plaatsen. Zonder dit kenmerk weigert de browser deze cookies, waardoor de EEG mislukt.
 
 ### Bepalen welke cookies worden geblokkeerd
@@ -56,7 +56,7 @@ Gebruik de Developer Tools in Chrome om te bepalen welke cookies worden geblokke
 
 ### Google VEC Helper-extensie
 
-Adobe heeft een bijgewerkte VEC Helper-extensie ingediend bij de Google Chrome Store. Deze extensie overschrijft de cookie-kenmerken om, indien nodig, het `SameSite="none"`-kenmerk in te stellen. De [bijgewerkte extensie vindt u hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Voor meer informatie over het installeren van en het gebruiken van de Uitbreiding van de Helper VEC, zie [de helperuitbreiding van de Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+[!DNL Adobe] heeft een bijgewerkte VEC Helper-extensie ingediend bij de Google Chrome Store. Deze extensie overschrijft de cookie-kenmerken om, indien nodig, het `SameSite="none"`-kenmerk in te stellen. De [bijgewerkte extensie vindt u hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Voor meer informatie over het installeren van en het gebruiken van de Uitbreiding van de Helper VEC, zie [de helperuitbreiding van de Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 Voor uw eigen sitecookies moet u de cookies op naam opgeven.
 
@@ -74,7 +74,7 @@ Gebruik één van de volgende opties om ervoor te zorgen dat uw VEC en EEG blijv
 
 * Download en gebruik de bijgewerkte [VEC Helper extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Gebruik de browser Mozilla Firefox. Firefox voert dit beleid nog niet uit.
-* Gebruik de volgende markeringen om Google Chrome uit te voeren vanaf de opdrachtregel tot 21 september 2021. Na 21 september werkt uw website niet meer in de VEC. Als u Chrome 94 bijwerkt, moet u cookies handmatig genereren met `SameSite=none` en `Secure` op uw websites.
+* Gebruik de volgende markeringen om Google Chrome uit te voeren vanaf de opdrachtregel tot 21 september 2021. Na 21 september werken functies die cookies vereisen niet meer in de VEC, zoals aanmeldings- of cookie-acceptatie-popups. Als u Chrome 94 bijwerkt, moet u cookies handmatig genereren met `SameSite=none` en `Secure` op uw websites.
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
