@@ -1,13 +1,13 @@
 ---
 keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
-description: Leer hoe te om reactietokens in Adobe [!DNL Target] output-specifieke informatie te gebruiken in het zuiveren en het integreren met derdehulpmiddelen.
+description: Leer hoe te om reactietokens in [!DNL Adobe Target] aan output-specifieke informatie voor het zuiveren en het integreren met derdehulpmiddelen te gebruiken.
 title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,7 @@ In het volgende codevoorbeeld wordt een aangepaste gebeurtenishandler [!DNL at.j
 
 De tekenen van de reactie kunnen slechts door gebruikers met de [!DNL Target] [!UICONTROL Administrator] rol worden geactiveerd of worden gedeactiveerd.
 
-**Wat gebeurt er als ik [!DNL Platform Web SDK] 2.6.0 (of eerder) in werking stel?
+**Wat gebeurt er als ik  [!DNL Platform Web SDK] 2.6.0 (of eerder) voer?**
 
 U hebt geen toegang tot reactietokens.
 
