@@ -5,7 +5,7 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 Het proces dat u gebruikt om te luisteren naar [!DNL Target] reacties en om reactietokens te lezen, is afhankelijk van het feit of u een [!DNL Platform Web SDK]- of at.js-implementatie hebt.
 
-### ![Adobe Experience Platform Web SDK-](/help/assets/platform.png) [!DNL Platform Web SDK] badge met de Handle-objectklasse
+### ![Adobe Experience Platform Web SDK-](/help/assets/platform.png) [!DNL Platform Web SDK] badge met de Handle-objectklasse {#platform-web-sdk}
 
 Gebruik de klasse van het voorwerp van de Handle, die een meta- gegevensvoorwerp en een gegevensvoorwerp heeft om op [!DNL Target] reacties te luisteren en de reactietokens te lezen.
 
