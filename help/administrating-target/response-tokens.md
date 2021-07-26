@@ -1,13 +1,13 @@
 ---
-keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response
+keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response;platform, web-sdk
 description: Leer hoe te om reactietokens in [!DNL Adobe Target] aan output-specifieke informatie voor het zuiveren en het integreren met derdehulpmiddelen te gebruiken.
 title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Beheer en configuratie
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
