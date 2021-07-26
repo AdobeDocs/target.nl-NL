@@ -5,9 +5,9 @@ title: Hoe voer ik met het Web SDK van het Experience Platform uit?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
+source-git-commit: 054ec2658e311e6eeae475ee02dbfce48242331f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,5 @@ Naast de bovenstaande [!DNL Platform Web SKD] documentatie, hebben onderwerpen i
 
 | Onderwerp | Beschrijving |
 | --- | --- |
-| [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | QA URLs in [!DNL Adobe Target] laat om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft. U test uw [!DNL Target] activiteiten volledig voordat u ze live start.<br>Zie  [JavaScript-bibliotheekcompatibiliteit [!UICONTROL QA Mode]  ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) als doel. |
-| [Reactietokens](/help/administrating-target/response-tokens.md) | Met responstokens kunt u doelgegevens verzenden naar Google Analytics en andere integratie van derden.<br>Zie het  [Verzenden van gegevens naar Google Analytics via het Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk) van het Platform. |
-
+| [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Gebruik QA URLs in [!DNL Adobe Target] om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft. [!UICONTROL Activity QA] Hiermee kunt u uw  [!DNL Target] activiteiten volledig testen voordat u ze live start. |
+| [Reactietokens](/help/administrating-target/response-tokens.md) | Met responstokens kunt u doelgegevens verzenden naar Google Analytics en andere integratie van derden.<br>Zie het  [Verzenden van gegevens naar Google Analytics via het Web ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK van het Platform om een codesteekproef van te zien hoe te om deze taak te verwezenlijken. |
