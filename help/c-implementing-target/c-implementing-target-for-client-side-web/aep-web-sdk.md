@@ -5,9 +5,9 @@ title: Hoe voer ik met het Web SDK van het Experience Platform uit?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
+source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Raadpleeg de volgende koppelingen in de Help van *Adobe Experience Platform Web 
 * Voor uitgebreide informatie: [Wat is Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * Voor specifieke informatie over [!DNL Target]: [Doeloverzicht](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 
-## Aanbevolen documentatie in deze handleiding
+## Aanbevolen documentatie
 
 Naast de bovenstaande [!DNL Platform Web SDK] documentatie, hebben onderwerpen in deze handleiding ook specifieke informatie over [!DNL Platform Web SDK] omdat deze betrekking heeft op [!DNL Target] functies en functionaliteit.
 
@@ -32,5 +32,5 @@ Naast de bovenstaande [!DNL Platform Web SDK] documentatie, hebben onderwerpen i
 | [Soorten publiek](/help/c-target/target.md) | Het publiek in [!DNL Adobe Target] bepaalt wie inhoud en ervaringen in een gerichte activiteit ziet.<br>Zie  [De ](/help/c-target/c-audiences/audiences.md#use-list) lijst Soorten publiek gebruiken  [Meerdere soorten publiek](/help/c-target/combining-multiple-audiences.md) combineren. |
 | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Met omleidingsvoorstellen leiden bezoekersbrowsers om naar een nieuwe pagina.<br>Zie  [Verleidt  [!DNL Adobe Experience Platform Web SDK] de steun aanbiedingen voor A4T om?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Reactietokens](/help/administrating-target/response-tokens.md) | Met responstokens kunt u doelgegevens verzenden naar Google Analytics en andere integratie van derden.<br>Zie het  [Verzenden van gegevens naar Google Analytics via het Web ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK van het Platform om een codesteekproef van te zien hoe te om deze taak te verwezenlijken. |
-| [Implementatie van één pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Adobe Experience Platform Web SDK] biedt rijke functies die uw bedrijf uitrusten om personalisatie uit te voeren op de volgende generatie, clienttechnologieën zoals single-page toepassingen (SPA).<br>Dit onderwerp is in de  *Platform* overzicht van SDK van het Web. |
+| [De ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) implementatie van de enig-paginatoepassing in de  *Platform* overviewguide van SDK van het Web. | [!UICONTROL Adobe Experience Platform Web SDK] biedt rijke functies die uw bedrijf uitrusten om personalisatie uit te voeren op de volgende generatie, clienttechnologieën zoals single-page toepassingen (SPA). |
 | [De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS (de Veiligheid van de Laag van het Vervoer) helpt u de hoogste veiligheidsnormen handhaven en de veiligheid van klantengegevens bevorderen. |
