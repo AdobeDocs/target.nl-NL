@@ -5,9 +5,9 @@ title: Hoe behandelt  [!DNL Target] Privacy kwesties?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## Verzameling IP-adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-Het IP-adres van een bezoeker van uw website wordt naar een Adobe Data Processing Center (DPC) verzonden. Afhankelijk van de netwerkconfiguratie voor de bezoeker, vertegenwoordigt het IP adres niet noodzakelijk het IP adres van de computer van de bezoeker. Bijvoorbeeld, zou het IP adres het externe IP adres van een firewall van het Vertaal adres van het Netwerk (NATIONAAL), de volmacht van HTTP, of de gateway van Internet kunnen zijn. Het doel slaat geen IP adressen van de gebruiker of om het even welke Persoonlijk Identificeerbare Informatie (PII) op. IP de adressen worden gebruikt slechts door Doel voor de duur van de zitting (in geheugen, nooit voortgeduurd).
+Het IP-adres van een bezoeker van uw website wordt naar een Adobe Data Processing Center (DPC) verzonden. Afhankelijk van de netwerkconfiguratie voor de bezoeker, vertegenwoordigt het IP adres niet noodzakelijk het IP adres van de computer van de bezoeker. Bijvoorbeeld, zou het IP adres het externe IP adres van een firewall van het Vertaal adres van het Netwerk (NATIONAAL), de volmacht van HTTP, of de gateway van Internet kunnen zijn. Het doel slaat geen IP adressen van de gebruiker of om het even welke Persoonlijk Identificeerbare Informatie (PII) op. IP de adressen worden gebruikt slechts door Doel tijdens de zitting (in geheugen, nooit voortgeduurd).
 
 ## Vervanging van laatste octet van IP adressen {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe heeft een nieuwe &quot;privacy-door-ontwerp&quot;instelling ontwikkeld die door de Zorg van de Cliënt van Adobe voor Adobe Target kan worden toegelaten. Wanneer dit het plaatsen wordt toegelaten, wordt het laatste octet (het laatste gedeelte) van het IP adres onmiddellijk verborgen wanneer het IP adres door Adobe wordt verzameld. Deze anonymization wordt uitgevoerd voorafgaand aan om het even welke verwerking van het IP adres, met inbegrip van vóór een facultatieve geo-raadpleging van het IP adres.
+Adobe heeft een nieuwe &quot;privacy-door-ontwerp&quot;instelling ontwikkeld die door de Zorg van de Cliënt van Adobe voor Adobe Target kan worden toegelaten. Wanneer dit het plaatsen wordt toegelaten, wordt het laatste octet (het laatste gedeelte) van het IP adres onmiddellijk verborgen wanneer het IP adres door Adobe wordt verzameld. Deze anonymization wordt uitgevoerd vóór om het even welke verwerking van het IP adres, met inbegrip van vóór een facultatieve geo-raadpleging van het IP adres.
 
 Wanneer deze eigenschap wordt toegelaten, wordt het IP adres gemaakt voldoende anoniem zodat is het niet meer identificeerbaar als persoonlijke informatie. Als gevolg hiervan kan Adobe Target worden gebruikt in overeenstemming met de wetgeving inzake de privacy van gegevens in landen die het verzamelen van persoonsgegevens niet toestaan. Het verkrijgen van informatie op het niveau van de stad zal waarschijnlijk aanzienlijk worden beïnvloed door de verduistering van het IP-adres. Het verkrijgen van informatie op regionaal en nationaal niveau mag slechts enigszins worden beïnvloed.
 
@@ -32,7 +32,7 @@ De volgende instellingen zijn beschikbaar:
 * Laatste octet: Het doel verbergt het laatste octet van het IP adres.
 * Volledige IP: Het doel verbergt het volledige IP adres.
 
-Het doel ontvangt het volledige IP adres en verduistert het (als reeks aan Laatste octet of Volledige IP) zoals gespecificeerd. Het doel houdt dan het verduisterde IP adres in geheugen voor de duur van de zitting.
+Het doel ontvangt het volledige IP adres en verduistert het (als reeks aan Laatste octet of Volledige IP) zoals gespecificeerd. Het doel houdt dan het verduisterde IP adres in geheugen tijdens de zitting.
 
 >[!NOTE]
 >
@@ -60,6 +60,12 @@ https://my.cname.domain/optout?client=clientcode.
 Elke bezoeker die op deze koppeling klikt, wordt niet opgenomen in een box-aanvraag die vanaf zijn browsersessies wordt aangeroepen totdat hij of zij zijn of haar cookies verwijdert, of gedurende twee jaar, afhankelijk van welke eerst aankomt. Dit werkt door een koekje voor de bezoeker te plaatsen genoemd `disableClient` in `clientcode.tt.omtrdc.net` domein.
 
 Zelfs als u een eersteklas cookie-implementatie gebruikt, wordt de opgegeven opt-out ingesteld via een cookie van een andere fabrikant. Als de client alleen een eersteklas cookie gebruikt, controleert Target of een uitschakelcookie is ingesteld.
+
+## Verzameling van gebruiksgegevens {#feature-usage}
+
+De individuele eigenschap-gebruik gegevens worden verzameld voor interne [!DNL Adobe] doeleinden om te identificeren of [!DNL Target] eigenschappen zoals bedoeld presteren of om eigenschappen te identificeren die onderbenut worden. Er worden verschillende metingen van de latentie verzameld om prestatieproblemen te verhelpen. Persoonlijke gegevens worden niet verzameld.
+
+U kunt opteren uit het melden van gebruiksgegevens door `telemetryEnabled` in uw configuratiebestand in te stellen op `false`.
 
 ## Regels inzake privacy en gegevensbescherming
 
