@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,24 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 ## categoryId, parameter
 
 * **Limiet**: 250 tekens.
+
+## Inhoud leveren {#content-delivery}
+
+* **Limiet**: 100 aanvragen voor gelijktijdige  [!DNL Target] levering van inhoud.
+
+   Als een klant meer dan 100 gelijktijdige [!DNL Target] verzoeken om inhoud voor een bepaalde gebruikerssessie indient, worden alle volgende verzoeken voor die gebruikerssessie geblokkeerd. Twee of meer verzoeken worden beschouwd als gelijktijdig als ze allemaal naar de [!DNL Target]-server worden verzonden voordat de reactie voor een van deze verzoeken wordt ontvangen. [!DNL Target] verwerkt opeenvolgende gezamenlijke aanvragen voor dezelfde sessie.
+
+* **Foutgedrag**:
+
+   * Delivery API and Batch Mbox v2:
+      * Foutcode: HTTP 420 Te veel verzoeken
+      * Foutbericht: &quot;Te veel aanvragen met dezelfde sessie-id&quot;
+   * Verouderde mbox-API:
+      * Standaardinhoud met opmerking &quot;Te veel aanvragen met dezelfde sessie-id&quot;
+   * at.js:
+      * Standaardinhoud weergegeven
+
+
 
 ## Klantkenmerken
 
