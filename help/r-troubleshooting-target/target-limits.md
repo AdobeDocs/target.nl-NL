@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ## Inhoud leveren {#content-delivery}
 
-* **Limiet**: 100 aanvragen voor gelijktijdige  [!DNL Target] levering van inhoud.
+* **Limiet**: 100 gelijktijdige aanvragen voor  [!DNL Target] inhoudslevering per gebruikerssessie.
 
    Als een klant meer dan 100 gelijktijdige [!DNL Target] verzoeken om inhoud voor een bepaalde gebruikerssessie indient, worden alle volgende verzoeken voor die gebruikerssessie geblokkeerd. Twee of meer verzoeken worden beschouwd als gelijktijdig als ze allemaal naar de [!DNL Target]-server worden verzonden voordat de reactie voor een van deze verzoeken wordt ontvangen. [!DNL Target] verwerkt opeenvolgende gezamenlijke aanvragen voor dezelfde sessie.
 
