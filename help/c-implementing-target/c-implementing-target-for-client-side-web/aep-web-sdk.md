@@ -5,9 +5,9 @@ title: Hoe voer ik met het Web SDK van het Experience Platform uit?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: 0cfab8d09b74b3eb0ead33a0c37f9dab68a88305
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ Naast de bovenstaande [!DNL Platform Web SKD] documentatie, hebben onderwerpen i
 
 | Functie | Beschrijving/koppeling |
 | --- | --- |
-| [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van  [!DNL Analytics] conversiemetriek en publiekssegmenten. Met de integratie A4T kunt u [!DNL Analytics]-rapporten gebruiken om uw resultaten te bekijken.<br>Zie  [Ondersteunde ](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) typen activiteiten en stappen voor  [implementatie voor een Adobe Experience Platform Web SDK-implementatie](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
-| [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Gebruik QA URLs in [!DNL Adobe Target] om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft. [!UICONTROL Activity QA] Hiermee kunt u uw  [!DNL Target] activiteiten volledig testen voordat u ze live start.<br>Zie  [Doelcompatibiliteit van de JavaScript-bibliotheek in de QA-modus ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) en  [Voorbeeld-URL&#39;](/help/c-activities/c-activity-qa/activity-qa.md#preview) s voor meer informatie. |
+| [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Gebruik QA URLs in [!DNL Adobe Target] om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft. [!UICONTROL Activity QA] Hiermee kunt u uw  [!DNL Target] activiteiten volledig testen voordat u ze live start.<br>Zie  [Doelcompatibiliteit met de JavaScript-bibliotheek in QA-modus en URL&#39;s met ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) voorvertoningen [ ](/help/c-activities/c-activity-qa/activity-qa.md#preview). |
+| [[!UICONTROL Analytics for Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van  [!DNL Analytics] conversiemetriek en publiekssegmenten. Met de integratie A4T kunt u [!DNL Analytics]-rapporten gebruiken om uw resultaten te bekijken.<br>Zie  [Ondersteunde ](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) typen activiteiten en stappen voor  [implementatie voor een Adobe Experience Platform Web SDK-implementatie](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [Soorten publiek](/help/c-target/target.md) | Het publiek in [!DNL Adobe Target] bepaalt wie inhoud en ervaringen in een gerichte activiteit ziet.<br>Zie  [De ](/help/c-target/c-audiences/audiences.md#use-list) lijst Soorten publiek gebruiken  [Meerdere soorten publiek](/help/c-target/combining-multiple-audiences.md) combineren. |
 | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Met omleidingsvoorstellen leiden bezoekersbrowsers om naar een nieuwe pagina.<br>Zie  [Verleidt  [!DNL Adobe Experience Platform Web SDK] de steun aanbiedingen voor A4T om?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Reactietokens](/help/administrating-target/response-tokens.md) | Met responstokens kunt u doelgegevens verzenden naar Google Analytics en andere integratie van derden.<br>Zie het  [Verzenden van gegevens naar Google Analytics via het Web ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK van het Platform om een codesteekproef van te zien hoe te om deze taak te verwezenlijken. |
