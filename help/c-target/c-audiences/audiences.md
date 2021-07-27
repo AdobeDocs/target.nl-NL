@@ -4,7 +4,7 @@ description: Leer hoe te om [!UICONTROL Audiences] lijst in  [!DNL Adobe Target]
 title: Hoe gebruik ik de Audience List?
 feature: Soorten publiek
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Er zijn twee soorten publiek in [!DNL Target]:
 
    In [!DNL Target], kunt u rapportpubliek vormen slechts als u [!DNL Target] als uw rapporteringsbron gebruikt. Als u [Adobe Analytics als rapportbron](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt, moet u uw rapporteringspubliek binnen [!DNL Analytics] vormen.
 
-## De lijst [!UICONTROL Audiences] gebruiken
+## De lijst [!UICONTROL Audiences] gebruiken {#use-list}
 
 Als u de lijst [!UICONTROL Audiences] wilt openen, klikt u op **[!UICONTROL Audiences]** in de bovenste menubalk:
 
