@@ -5,9 +5,9 @@ title: Wat moet ik weten voordat ik implementeer?
 feature: Implementatie
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze sectie omvat informatie voor ontwikkelaars specifiek voor hun implementatie
 
 >[!IMPORTANT]
 >
->Wijzigingen in at.js of de Adobe Experience Platform Web SDK worden niet ondersteund door de klantenservice van Adobe.
+>Wijzigingen in at.js of [!DNL Adobe Experience Platform Web SDK] worden niet ondersteund door de klantenservice van Adobe.
 
 - [Voorbereiden op implementatie van doel](prepare-to-implement-target.md)
 - [Privacy](c-privacy/privacy.md)
