@@ -5,9 +5,9 @@ title: Hoe voer ik met het Web SDK van het Experience Platform uit?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 0cfab8d09b74b3eb0ead33a0c37f9dab68a88305
+source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Raadpleeg de volgende koppelingen in de Help van *Adobe Experience Platform Web 
 
 ## Aanbevolen documentatie in deze handleiding
 
-Naast de bovenstaande [!DNL Platform Web SKD] documentatie, hebben onderwerpen in deze handleiding ook specifieke informatie over [!DNL Platform Web SDK] omdat deze betrekking heeft op [!DNL Target] functies en functionaliteit.
+Naast de bovenstaande [!DNL Platform Web SDK] documentatie, hebben onderwerpen in deze handleiding ook specifieke informatie over [!DNL Platform Web SDK] omdat deze betrekking heeft op [!DNL Target] functies en functionaliteit.
 
 | Functie | Beschrijving/koppeling |
 | --- | --- |
