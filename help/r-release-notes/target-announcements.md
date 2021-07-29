@@ -4,9 +4,9 @@ description: Lees aankondigingen en onderteken omhoog voor Adobe [!DNL Target] g
 title: Waar kan ik  [!DNL Target] aankondigingen en Gebeurtenissen vinden?
 feature: Opmerkingen bij de release
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -26,17 +26,15 @@ Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van [!
 
 ## [!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie
 
-* **Woensdag 21 juli 2021**
+* **Woensdag 11 augustus 2021**
 * **08:00 (PDT, UTC -7)**
-* **[Klik hier voor meer informatie en om u te registreren](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **[Klik hier voor meer informatie en om u te registreren](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-David Son, [!DNL Target] Senior Product Manager zal uw vragen met betrekking tot zijn vakgebieden beantwoorden:
+De belangrijkste consultant voor Oplossingen voor [!DNL Adobe Target], James McTiernan zal klantenvragen met betrekking tot zijn gebieden van deskundigheid binnen [!DNL Target] beantwoorden:
 
-* [!DNL Adobe Experience Platform Web SDK]
-* Apparaatbeslissingen
-* at.js
-* Mobiel
-* Doel-API&#39;s
+* Recommendations
+* A/B- en MVT-tests (Multivariate)
+* Personalisatie
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
