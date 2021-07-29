@@ -5,9 +5,9 @@ title: Hoe behandelt  [!DNL Target] Privacy kwesties?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,6 @@ https://my.cname.domain/optout?client=clientcode.
 Elke bezoeker die op deze koppeling klikt, wordt niet opgenomen in een box-aanvraag die vanaf zijn browsersessies wordt aangeroepen totdat hij of zij zijn of haar cookies verwijdert, of gedurende twee jaar, afhankelijk van welke eerst aankomt. Dit werkt door een koekje voor de bezoeker te plaatsen genoemd `disableClient` in `clientcode.tt.omtrdc.net` domein.
 
 Zelfs als u een eersteklas cookie-implementatie gebruikt, wordt de opgegeven opt-out ingesteld via een cookie van een andere fabrikant. Als de client alleen een eersteklas cookie gebruikt, controleert Target of een uitschakelcookie is ingesteld.
-
-## Verzameling van gebruiksgegevens {#feature-usage}
-
-De individuele eigenschap-gebruik gegevens worden verzameld voor interne [!DNL Adobe] doeleinden om te identificeren of [!DNL Target] eigenschappen zoals bedoeld presteren of om eigenschappen te identificeren die onderbenut worden. Er worden verschillende metingen van de latentie verzameld om prestatieproblemen te verhelpen. Persoonlijke gegevens worden niet verzameld.
-
-U kunt opteren uit het melden van gebruiksgegevens door `telemetryEnabled` in uw configuratiebestand in te stellen op `false`.
 
 ## Regels inzake privacy en gegevensbescherming
 
