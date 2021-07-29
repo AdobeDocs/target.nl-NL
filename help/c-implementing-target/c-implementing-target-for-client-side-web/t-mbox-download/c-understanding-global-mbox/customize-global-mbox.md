@@ -5,16 +5,16 @@ title: Hoe kan ik een globale box aanpassen?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # Een globale box aanpassen
 
-Informatie om u te helpen een globale mbox voor at.js aanpassen.
+Informatie om u te helpen een [!DNL Adobe Target] globale mbox voor at.js aanpassen.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -40,4 +40,5 @@ Informatie om u te helpen een globale mbox voor at.js aanpassen.
 
    >[!IMPORTANT]
    >
-   >Alle activiteiten in uw account worden gesynchroniseerd met dit selectievakje. Als dit selectievakje niet op uw site staat, werken alle activiteiten niet meer.
+   >Alle activiteiten in uw account worden gesynchroniseerd met dit selectievakje. Zorg ervoor dat de globale box op uw plaats aanwezig is zodat de activiteiten blijven functioneren. Ben zeker om beïnvloede activiteiten uit te geven en opnieuw op te slaan die met Visual Experience Composer (VEC) werden gecreeerd die synchronisatie met dit mbox. Het is niet nodig om activiteiten die zijn gemaakt in de Form-Based Experience Composer of via API opnieuw op te slaan.
+
