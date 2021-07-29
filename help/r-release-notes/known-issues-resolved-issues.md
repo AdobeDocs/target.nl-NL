@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Opmerkingen bij de release
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '4335'
+source-wordcount: '4364'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
+
+### De Enhanced Experience Composer (EEC) ondersteunt geen verzoeken om PUT.
+
+Een probleem met de EEG verhindert momenteel dat het aanvragen van PUTTEN ondersteunt en leidt tot een time-outfout van 504. (TGT-41493)
 
 ### [!DNL Adobe Experience Platform] de segmentnamen worden niet weergegeven in het  [!UICONTROL Important Attributes] rapport.
 
