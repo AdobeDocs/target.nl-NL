@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -243,7 +243,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 ## productPurchasedId, parameter
 
-* **Limiet**: 47 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 47 tekens kunnen door het systeem worden afgekapt. Totale lengten boven 250 tekens kunnen resulteren in een fout van 400.
+* **Limiet**: 50 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 50 tekens worden door het systeem afgekapt. Totale lengte boven 250 tekens resulteert in een fout van 400.
 
 ## Profielscripts
 
