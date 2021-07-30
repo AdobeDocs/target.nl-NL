@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 30 juli | [Limieten](/help/r-troubleshooting-target/target-limits.md) | De volgende secties zijn bijgewerkt:<ul><li>entity.id</li><li>productPurchasedId, parameter</li></ul> |
 | 29 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | De informatie over het [!DNL Adobe Target] communityeinde voor vragen en antwoorden is toegevoegd: Woensdag 11 augustus 2021. |
 |  | [Een globale box aanpassen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Bijgewerkte Belangrijke nota om erop te wijzen dat u beïnvloede die activiteiten moet uitgeven en heropslaan in VEC na het aanpassen van een globale mbox worden gecreeerd. |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>De Enhanced Experience Composer (EEC) ondersteunt geen verzoeken om PUT.</li></ul> |
