@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,15 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
    Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500 waarden bevatten. Elke individuele waarde is beperkt tot 100 tekens. Het totale aantal tekens voor alle waarden moet in overeenstemming zijn met de beperkingen voor de maximumlengte van aangepaste attributen voor entiteiten met één waarde (zie hierboven).
 
-### entiteitID-parameters
+### entity.id
 
-* **Limiet**: 1.000 tekens.
+* **Limiet voor implementaties waarvoor aankoopgegevens** moeten worden vastgelegd: 50 tekens.
+
+   Deze beperking wordt afgedwongen omdat de parameter `productPurchasedId` mbox de entiteit.ids vangt, die het karakteraantal tot 50 beperkt.
+
+* **Limiet voor implementaties die alleen op weergave gebaseerde algoritmen vereisen:**: 1.000 tekens.
+
+   Op weergave gebaseerde algoritmen zijn onder andere weergave/weergave, meest bekeken, onlangs weergegeven enzovoort.
 
 ## excludeIds {#excludedid}
 
