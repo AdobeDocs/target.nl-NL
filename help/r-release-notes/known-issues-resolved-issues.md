@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Opmerkingen bij de release
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4421'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
 
+### Verkeersverdeling van activiteiten die automatisch worden toegewezen met behulp van A4T {#aa-a4t}
+
+In sommige gevallen kan de verkeersverdeling van [!UICONTROL Auto-Allocate]-activiteiten met [!UICONTROL Analytics for Target] (A4T) afwijken van wat zou moeten gebeuren op basis van de gerapporteerde omrekeningskoers van elke ervaring. Dit komt vaker voor bij activiteiten met een hoog percentage retourbezoekers. Betrokken klanten worden op de hoogte gesteld van de betrokken activiteiten. (TOP-131)
+
+### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
+
+Met de interface [!DNL Target] kunnen gebruikers niet-ondersteunde incasso&#39;s voor betrokkenheid en omzet selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten. Conversiemetriek worden ondersteund; de betrokkenheid en opbrengstmetriek zijn *niet* gesteund. Als u maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld.
+
+Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
+
 ### De Enhanced Experience Composer (EEC) ondersteunt geen verzoeken om PUT.
 
 Een probleem met de EEG verhindert momenteel dat het aanvragen van PUTTEN ondersteunt en leidt tot een time-outfout van 504. (TGT-41493)
@@ -34,12 +44,6 @@ Een probleem met de EEG verhindert momenteel dat het aanvragen van PUTTEN onders
 ### Bij archivering van [!UICONTROL Auto Target]-activiteiten kunnen synchronisatieproblemen optreden
 
 Het proberen om inactieve [!UICONTROL Auto-Target] activiteiten te archiveren zou tot synchronisatiekwesties kunnen leiden. archiveer [!UICONTROL Auto-Target] activiteiten totdat dit probleem is opgelost. Laat ze in de status [!UICONTROL Inactive] staan. (TGT-40885)
-
-### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
-
-Met de interface [!DNL Target] kunnen gebruikers niet-ondersteunde incasso&#39;s voor betrokkenheid en omzet selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten. Conversiemetriek worden ondersteund; de betrokkenheid en opbrengstmetriek zijn *niet* gesteund. Als u maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld.
-
-Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Paginalevering {#page-delivery}
 
