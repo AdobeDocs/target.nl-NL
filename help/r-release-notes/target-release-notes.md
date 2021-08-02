@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
+source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 24 juni 2021**
+**Laatst bijgewerkt: 3 augustus 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -25,14 +25,19 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 >
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
+## Doelleverings-API (te bepalen datum)
 
-Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
+Deze release bevat de volgende verbeteringen:
 
-| Functie | Details |
-| --- | --- |
-| [!UICONTROL Analytics for Target] (A4T) | Wanneer u op de koppeling &quot;[!UICONTROL View in Analytics]&quot; op de pagina [!UICONTROL Reports] klikt vanuit een activiteit die [!DNL Analytics] als rapportagebron (A4T) gebruikt, wordt [!DNL Analysis Workspace] nu geopend. Eerder, opende de verbinding [!DNL Analytics] rapportering. (TGT-36959) |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | De volgende verbeteringen zijn van toepassing op populariteitsalgoritmen [!DNL Recommendations]:<ul><li>Er is een nieuwe optie van zes uur beschikbaar voor alle populariteitsalgoritmen (Meest bekeken/Top Sellers) wanneer [!DNL Target] de gegevensbron voor gedragsgegevens is. (Dit terugzoekvenster is *niet* beschikbaar wanneer [!DNL Adobe Analytics] de gegevensbron voor gedragsgegevens is.)</li><li>Als deze optie is geselecteerd, worden de volgende algoritmen ongeveer om de drie uur uitgevoerd (in plaats van om de twaalf uur).<ul><li>Meest bekeken</li><li>Meest aangeschaft</li><li>Meest bekeken op categorie</li><li>Meest gekocht per categorie</li><li>Meest weergegeven door aangepast kenmerk (met de functie groupBy)</li><li>Meest aangeschaft door aangepast kenmerk (met functie groupBy)</li></ul></ul>Releasedatum die moet worden aangekondigd. (TOP-1086) |
+* De limiet voor mbox-parameters is verhoogd tot 100 parameters. De vorige limiet was 50 parameters.
+* De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
+* De volgende [!DNL Adobe Audience Manager] (AAM) details zijn toegevoegd aan de leverings-API:
+
+   * UUID AAM (unieke gebruikersnaam van Adobe Audience Manager)
+   * dataPartnerId
+   * dataPartnerUserId
+
+   Eerder bevatte de leverings-API alleen `dcsLocationHint` en `blob`. (TNT-41644)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
