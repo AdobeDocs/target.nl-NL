@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Deze onderhoudsversie bevat vele achterste verbeteringen, waaronder de volgende 
 
 * Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization]-activiteiten die zijn gemaakt in [!UICONTROL Form-Based Experience Composer] om te verwijzen naar verwijderde aanbiedingen in rapporten. Dit gaf het volgende foutenbericht aan vertoning toe, &quot;wij hebben probleem het terugwinnen van gegevens voor dit rapport. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-41028)
 
-## Doelleverings-API (te bepalen datum)
+## API voor doellevering (3 augustus 2021)
 
 Deze release bevat de volgende verbeteringen:
 
