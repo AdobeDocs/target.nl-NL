@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,20 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## API voor doellevering (3 augustus 2021)
+
+Deze release bevat de volgende verbeteringen:
+
+* De limiet voor mbox-parameters is verhoogd tot 100 parameters. De vorige limiet was 50 parameters. (TNT-41717)
+* De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
+* De volgende [!DNL Adobe Audience Manager] (AAM) details zijn toegevoegd aan de leverings-API:
+
+   * UUID AAM (unieke gebruikersnaam van Adobe Audience Manager)
+   * dataPartnerId
+   * dataPartnerUserId
+
+   Eerder bevatte de leverings-API alleen `dcsLocationHint` en `blob`. (TNT-41644)
 
 ## om 2.6.0 uur (16 juli 2021)
 
