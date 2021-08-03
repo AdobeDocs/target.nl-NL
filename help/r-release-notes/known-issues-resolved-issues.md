@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Opmerkingen bij de release
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4421'
+source-wordcount: '4444'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ De volgende secties geven een overzicht van de bekende problemen voor [!DNL Targ
 
 ### Verkeersverdeling van activiteiten die automatisch worden toegewezen met behulp van A4T {#aa-a4t}
 
-In sommige gevallen kan de verkeersverdeling van [!UICONTROL Auto-Allocate]-activiteiten met [!UICONTROL Analytics for Target] (A4T) afwijken van wat zou moeten gebeuren op basis van de gerapporteerde omrekeningskoers van elke ervaring. Dit komt vaker voor bij activiteiten met een hoog percentage retourbezoekers. Betrokken klanten worden op de hoogte gesteld van de betrokken activiteiten. (TOP-131)
+In sommige gevallen kan de verkeersverdeling van [!UICONTROL Auto-Allocate]-activiteiten met [!UICONTROL Analytics for Target] (A4T) afwijken van wat zou moeten gebeuren op basis van de gerapporteerde omrekeningskoers van elke ervaring. Dit komt vaker voor bij activiteiten met een hoog percentage retourbezoekers. Betrokken klanten worden op de hoogte gesteld van de betrokken activiteiten.
+
+Tot dit probleem is opgelost, gebruikt u [!UICONTROL Auto-Allocate] met standaard [!DNL Target]-rapportage of gebruikt u standaard A/B-tests met [!DNL Analytics]-rapportage als alternatief voor [!UICONTROL Auto-Allocate] met [!DNL Analytics]-rapportage. (TOP-131)
 
 ### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
 
