@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 3 augustus | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Informatie toegevoegd over de aanstaande [!DNL Target Standard/Premium] versie 21.8.1 (4 augustus 2021). |
+| 3 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de [!UICONTROL Target Delivery API]-release. |
+|  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Informatie toegevoegd over de aanstaande [!DNL Target Standard/Premium] versie 21.8.1 (4 augustus 2021). |
 | 2 augustus | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>Verkeersverdeling van activiteiten die automatisch worden toegewezen met behulp van A4T</li></ul> |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de aanstaande [!UICONTROL Target Delivery API] versie. |
 | 30 juli | [Limieten](/help/r-troubleshooting-target/target-limits.md) | De volgende secties zijn bijgewerkt:<ul><li>entity.id</li><li>productPurchasedId, parameter</li></ul> |
