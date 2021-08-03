@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 
 Deze release bevat de volgende verbeteringen:
 
-* De limiet voor mbox-parameters is verhoogd tot 100 parameters. De vorige limiet was 50 parameters.
+* De limiet voor mbox-parameters is verhoogd tot 100 parameters. De vorige limiet was 50 parameters. (TNT-41717)
 * De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
 * De volgende [!DNL Adobe Audience Manager] (AAM) details zijn toegevoegd aan de leverings-API:
 
