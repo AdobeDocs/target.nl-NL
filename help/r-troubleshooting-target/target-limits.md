@@ -5,7 +5,7 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Problemen oplossen
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ## categoryId, parameter
 
-* **Limiet**: 250 tekens.
+* **Limiet**: 256 tekens.
 
 ## Inhoud leveren {#content-delivery}
 
@@ -196,7 +196,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
    **API-eindpunt** van levering:
 
-   * parameters mbox 50
+   * mbox-parameters 100
    * naam van parameter mbox max. lengte 128
    * parameterwaarde mbox mag niet null zijn
    * parameterwaarde mbox 5000
