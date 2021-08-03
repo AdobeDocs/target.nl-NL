@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Opmerkingen bij de release
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Deze release bevat de volgende verbeteringen:
 * De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
 * De volgende [!DNL Adobe Audience Manager] (AAM) details zijn toegevoegd aan de leverings-API:
 
-   * UUID AAM (unieke gebruikersnaam van Adobe Audience Manager)
-   * dataPartnerId
-   * dataPartnerUserId
+   * UUID AAM: De interne AAM-id die wordt gebruikt om een gebruiker op unieke wijze te identificeren.
+   * dataPartnerId: Identiteitskaart voor een gegevenspartner.
+   * dataPartnerUserId: De gebruikers-id die door een gegevenspartner wordt verstrekt.
 
    Eerder bevatte de leverings-API alleen `dcsLocationHint` en `blob`. (TNT-41644)
 
