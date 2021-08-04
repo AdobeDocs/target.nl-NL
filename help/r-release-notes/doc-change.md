@@ -4,7 +4,7 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 4 augustus | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Toegevoegde informatie over de instelling `optinEnabled`. |
-|  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md): 21.6.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md): 21.8.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe [!DNL Target] Standaard/Premium 21.6.1 (30 juni 2021)
 
