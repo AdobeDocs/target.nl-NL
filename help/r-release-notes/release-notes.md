@@ -4,16 +4,16 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen bij de doelversie (huidig)
 
-Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke [!DNL Adobe Target Standard]- en [!DNL Target Premium]-versie. Daarnaast worden releaseopmerkingen voor doel-API&#39;s, SDK&#39;s, de JavaScript-bibliotheek (at.js) en andere platformwijzigingen, indien van toepassing, ook opgenomen.
+Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke [!DNL Adobe Target Standard]- en [!DNL Target Premium]-versie. Daarnaast worden releaseopmerkingen voor doel-API&#39;s, SDK&#39;s, [!DNL Adobe Experience Platform Web SDK], at.js en andere platformwijzigingen, indien van toepassing, ook opgenomen.
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,13 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
 
-## API voor doellevering (3 augustus 2021)
+## [!DNL Target Standard/Premium] 21.8.1 (4 augustus 2021)
+
+Deze onderhoudsversie bevat vele achterste verbeteringen, waaronder de volgende klantgerichte wijziging:
+
+* Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization]-activiteiten die zijn gemaakt in [!UICONTROL Form-Based Experience Composer] om te verwijzen naar verwijderde aanbiedingen in rapporten. Dit gaf het volgende foutenbericht aan vertoning toe, &quot;wij hebben probleem het terugwinnen van gegevens voor dit rapport. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-41028)
+
+## [!DNL Target Delivery API] (3 augustus 2021)
 
 Deze release bevat de volgende verbeteringen:
 
@@ -37,7 +43,7 @@ Deze release bevat de volgende verbeteringen:
 
    Eerder bevatte de leverings-API alleen `dcsLocationHint` en `blob`. (TNT-41644)
 
-## om 2.6.0 uur (16 juli 2021)
+## om 2.6.0 uur (27 juli 2021)
 
 * Beveiligd kenmerk toegevoegd aan cookies wanneer de instellingen `secureOnly` op `true` zijn ingesteld.
 * De tokens van de reactie zijn nu beschikbaar wanneer het gebruiken `triggerView()`.
@@ -47,32 +53,11 @@ Deze release bevat de volgende verbeteringen:
 * De vervaldatum van het `sessionId` cookie wordt correct verlengd bij elke netwerkaanroep.
 * De [!UICONTROL Single Page Application] (SPA) initialisatie van het meningsgeheime voorgeheugen wordt nu correct behandeld en handhaaft montages `viewsEnable`.
 
-## [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
-
-Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
-
-| Functie | Details |
-| --- | --- |
-| [!UICONTROL Analytics for Target] (A4T) | Wanneer u op de koppeling &quot;[!UICONTROL View in Analytics]&quot; op de pagina [!UICONTROL Reports] klikt vanuit een activiteit die [!DNL Analytics] als rapportagebron (A4T) gebruikt, wordt [!DNL Analysis Workspace] nu geopend. Eerder, opende de verbinding [!DNL Analytics] rapportering. (TGT-36959) |
-
-## Python SDK 1.0.0 (16 juni 2021)
-
-De nieuwe [!DNL Adobe Target] Python SDK met beslissingsmogelijkheden op het apparaat is nu beschikbaar. Deze nieuwste toevoeging biedt een ondersteuning voor de [!DNL Target]-suite met SDK&#39;s op de server. Met deze SDKS kunt u integreren met [!DNL Target] en uw tijd naar waarde versnellen, in de taal van uw keuze. Integraties aan de serverzijde worden een populaire keuze, aangezien de markt verschuift naar een wereld zonder cookie waarin gegevens van de eerste partij waardevol zijn. DoelSDK&#39;s zijn beschikbaar in de populairste programmeertalen op de markt (Python, Java, JavaScript, C# / .Net).
-
-Raadpleeg de [Python SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) in de [handleiding SDK&#39;s van Adobe Target](https://adobetarget-sdks.gitbook.io/docs/) voor meer informatie.
-
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1 juni 2021)
-
-Deze versie van [!DNL Platform Web SDK] omvat steun voor het volgende:
-
-| Functie | Details |
-| --- | --- |
-| Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | De SDK van het Web van het Platform steunt nu [!DNL Target] omleidingen wanneer het gebruiken [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Zie  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) voor meer informatie. |
-
 ## Aanvullende opmerkingen bij de release en versiedetails
 
 | Resource | Details |
 |--- |--- |
+| [Opmerkingen bij de release: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
 | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie over wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release Experience Cloud
