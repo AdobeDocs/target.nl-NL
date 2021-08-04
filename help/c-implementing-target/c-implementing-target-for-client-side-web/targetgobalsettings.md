@@ -5,9 +5,9 @@ title: Hoe gebruik ik de functie targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2283'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: Boolean
 * **Standaardwaarde**: false
-* **Omschrijving**:  [!DNL Target] biedt ondersteuning voor aanmeldingsfuncties via  [!DNL Adobe Platform Launch] om uw strategie voor het beheer van uw toestemming te ondersteunen. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de tag [!DNL Target] wordt geactiveerd. Er is ook een optie via [!DNL Platform Launch] om de tag [!DNL Target] vooraf goed te keuren. Als u de mogelijkheid wilt inschakelen om Opt-In te gebruiken in de bibliotheek [!DNL Target] at.js, voegt u de instelling `optinEnabled=true` toe. In [!DNL Platform Launch] moet u &quot;toelaten&quot;van [!UICONTROL GDPR Opt-In] drop-down lijst in de de installatiemening van de uitbreiding van de Lancering selecteren. Zie de [documentatie van de Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer details.
+* **Omschrijving**:  [!DNL Target] biedt ondersteuning voor aanmeldingsfuncties via  [!DNL Adobe Platform Launch] om uw strategie voor het beheer van uw toestemming te ondersteunen. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de tag [!DNL Target] wordt geactiveerd. Er is ook een optie via [!DNL Platform Launch] om de tag [!DNL Target] vooraf goed te keuren. Als u de mogelijkheid wilt inschakelen om Opt-In te gebruiken in de bibliotheek [!DNL Target] at.js, voegt u de instelling `optinEnabled=true` toe. In [!DNL Platform Launch] moet u &quot;toelaten&quot;van [!UICONTROL GDPR Opt-In] drop-down lijst in de de installatiemening van de uitbreiding van de Lancering selecteren. Zie de [documentatie van de Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer details. Zie [Privacy- en gegevensbeschermingsregels](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) voor meer informatie over deze instelling, aangezien deze betrekking heeft op privacy- en gegevensbeschermingsvoorschriften, waaronder de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR) en de California Consumer Privacy Act (CCPA).
 
 ### optoutEnabled
 
