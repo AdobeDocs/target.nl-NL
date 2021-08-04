@@ -5,10 +5,9 @@ title: Hoe gebruik ik de functie targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -71,44 +70,44 @@ U kunt de volgende instellingen overschrijven:
 * **Standaardwaarde**: Zie  [hieronder ](#data-providers) Gegevensproviders.
 * **Omschrijving**: Zie  [hieronder ](#data-providers) Gegevensproviders.
 
-### beslissingsmethode {#on-device-decisioning}
+### determinoningMethod {#on-device-decisioning}
 
 * **Type**: String
 * **Standaardwaarde**: serverzijde
 * **Andere waarden**: op apparaat, hybride
 * **Omschrijving**: Zie de onderstaande beslissingsmethoden.
 
-**beslissingsmethoden**
+   **beslissingsmethoden**
 
-Met op-apparatenbesluit, introduceert het Doel een nieuw het plaatsen genoemd [!UICONTROL Decisioning Method] die dicteert hoe at.js uw ervaringen levert. De `decisioningMethod` heeft drie waarden: alleen aan de serverzijde, alleen op het apparaat en hybride. Wanneer `decisioningMethod` in `targetGlobalSettings()` wordt geplaatst, handelt het als standaardbepalingsmethode voor alle [!DNL Target] besluiten.
+   Met op-apparatenbesluit, introduceert het Doel een nieuw het plaatsen genoemd [!UICONTROL Decisioning Method] die dicteert hoe at.js uw ervaringen levert. De `decisioningMethod` heeft drie waarden: alleen aan de serverzijde, alleen op het apparaat en hybride. Wanneer `decisioningMethod` in `targetGlobalSettings()` wordt geplaatst, handelt het als standaardbepalingsmethode voor alle [!DNL Target] besluiten.
 
-[!UICONTROL Server-side only]:
+   **[!UICONTROL Server-side only]**:
 
-[!UICONTROL Server-side only] is de standaardbepalingsmethode die uit de doos wordt geplaatst wanneer at.js 2.5+ wordt uitgevoerd en op uw Web-eigenschappen opgesteld.
+   [!UICONTROL Server-side only] is de standaardbepalingsmethode die uit de doos wordt geplaatst wanneer at.js 2.5+ wordt uitgevoerd en op uw Web-eigenschappen opgesteld.
 
-Als u [!UICONTROL server-side only] gebruikt als de standaardconfiguratie, worden alle beslissingen genomen op het [!DNL Target] Edge-netwerk, dat een blokkerende serveraanroep omvat. Deze benadering kan incrementele latentie introduceren, maar biedt ook aanzienlijke voordelen, zoals de mogelijkheid om de mogelijkheden van Target voor machinaal leren toe te passen, zoals [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) en [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)-activiteiten.
+   Als u [!UICONTROL server-side only] gebruikt als de standaardconfiguratie, worden alle beslissingen genomen op het [!DNL Target] Edge-netwerk, dat een blokkerende serveraanroep omvat. Deze benadering kan incrementele latentie introduceren, maar biedt ook aanzienlijke voordelen, zoals de mogelijkheid om de mogelijkheden van Target voor machinaal leren toe te passen, zoals [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) en [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md)-activiteiten.
 
-Bovendien kan het verbeteren van uw gepersonaliseerde ervaringen door het gebruikersprofiel van Target te gebruiken, dat over zittingen en kanalen wordt voortgeduurd, krachtige resultaten voor uw zaken verstrekken.
+   Bovendien kan het verbeteren van uw gepersonaliseerde ervaringen door het gebruikersprofiel van Target te gebruiken, dat over zittingen en kanalen wordt voortgeduurd, krachtige resultaten voor uw zaken verstrekken.
 
-Tot slot [!UICONTROL server-side only] laat u Adobe Experience Cloud gebruiken en verfijnen publiek dat tegen door Audience Manager en de segmenten van Adobe Analytics kan worden gericht.
+   Tot slot [!UICONTROL server-side only] laat u Adobe Experience Cloud gebruiken en verfijnen publiek dat tegen door Audience Manager en de segmenten van Adobe Analytics kan worden gericht.
 
-[!UICONTROL On-device only]:
+   **[!UICONTROL On-device only]**:
 
-[!UICONTROL On-Device only] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer de op-apparatenbeslissing slechts door uw Web-pagina&#39;s zou moeten worden gebruikt.
+   [!UICONTROL On-Device only] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer de op-apparatenbeslissing slechts door uw Web-pagina&#39;s zou moeten worden gebruikt.
 
-De besluitvorming op het apparaat kan uw ervaringen en verpersoonlijkingsactiviteiten bij het opblazen van snelle snelheid leveren omdat de besluiten van een caching regelartefact worden gemaakt dat al uw activiteiten bevat die voor op-apparaat besluitvorming kwalificeren.
+   De besluitvorming op het apparaat kan uw ervaringen en verpersoonlijkingsactiviteiten bij het opblazen van snelle snelheid leveren omdat de besluiten van een caching regelartefact worden gemaakt dat al uw activiteiten bevat die voor op-apparaat besluitvorming kwalificeren.
 
-Zie de sectie met ondersteunde functies voor meer informatie over welke activiteiten in aanmerking komen voor beslissingen op het apparaat.
+   Zie de sectie met ondersteunde functies voor meer informatie over welke activiteiten in aanmerking komen voor beslissingen op het apparaat.
 
-Deze beslissingsmethode moet alleen worden gebruikt als de prestaties van essentieel belang zijn voor alle pagina&#39;s waarvoor beslissingen van [!DNL Target] vereist zijn. Houd er bovendien rekening mee dat wanneer deze beslissingsmethode wordt geselecteerd, uw [!DNL Target]-activiteiten die niet in aanmerking komen voor beslissingen op het apparaat niet worden uitgevoerd of uitgevoerd. De bibliotheek at.js 2.5+ wordt gevormd om het caching regelartefact slechts te zoeken om besluiten te nemen.
+   Deze beslissingsmethode moet alleen worden gebruikt als de prestaties van essentieel belang zijn voor alle pagina&#39;s waarvoor beslissingen van [!DNL Target] vereist zijn. Houd er bovendien rekening mee dat wanneer deze beslissingsmethode wordt geselecteerd, uw [!DNL Target]-activiteiten die niet in aanmerking komen voor beslissingen op het apparaat niet worden uitgevoerd of uitgevoerd. De bibliotheek at.js 2.5+ wordt gevormd om het caching regelartefact slechts te zoeken om besluiten te nemen.
 
-Hybride:
+   **Hybride**:
 
-[!UICONTROL Hybrid] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer zowel op-apparatenbesluit als activiteiten die een netwerkvraag aan het netwerk van de Rand van Adobe Target vereisen moeten worden uitgevoerd.
+   [!UICONTROL Hybrid] is de besluitvormingsmethode die in at.js 2.5+ moet worden geplaatst wanneer zowel op-apparatenbesluit als activiteiten die een netwerkvraag aan het netwerk van de Rand van Adobe Target vereisen moeten worden uitgevoerd.
 
-Wanneer u zowel beslissingsactiviteiten op het apparaat als serveractiviteiten beheert, kan het een beetje ingewikkeld en vervelend zijn wanneer u nadenkt over hoe u [!DNL Target] op uw pagina&#39;s kunt implementeren en plaatsen. Met hybride als beslissingsmethode weet [!DNL Target] wanneer het een serveraanroep naar het Adobe Target Edge-netwerk moet uitvoeren voor activiteiten die uitvoering op de server vereisen, en ook wanneer alleen beslissingen op het apparaat moeten worden uitgevoerd.
+   Wanneer u zowel beslissingsactiviteiten op het apparaat als serveractiviteiten beheert, kan het een beetje ingewikkeld en vervelend zijn wanneer u nadenkt over hoe u [!DNL Target] op uw pagina&#39;s kunt implementeren en plaatsen. Met hybride als beslissingsmethode weet [!DNL Target] wanneer het een serveraanroep naar het Adobe Target Edge-netwerk moet uitvoeren voor activiteiten die uitvoering op de server vereisen, en ook wanneer alleen beslissingen op het apparaat moeten worden uitgevoerd.
 
-Het Artefact van JSON-regels bevat metagegevens om at.js te informeren of een box een serveractiviteit heeft die wordt uitgevoerd of een beslissingsactiviteit op het apparaat. Deze beslissingsmethode zorgt ervoor dat activiteiten die u snel wilt laten uitvoeren, worden uitgevoerd via apparaatbeslissingen en voor activiteiten die krachtigere, door ML gestuurde personalisatie vereisen, worden deze activiteiten uitgevoerd via het Adobe Target Edge-netwerk.
+   Het Artefact van JSON-regels bevat metagegevens om at.js te informeren of een box een serveractiviteit heeft die wordt uitgevoerd of een beslissingsactiviteit op het apparaat. Deze beslissingsmethode zorgt ervoor dat activiteiten die u snel wilt laten uitvoeren, worden uitgevoerd via apparaatbeslissingen en voor activiteiten die krachtigere, door ML gestuurde personalisatie vereisen, worden deze activiteiten uitgevoerd via het Adobe Target Edge-netwerk.
 
 ### defaultContentHiddenStyle
 
@@ -151,6 +150,12 @@ Het Artefact van JSON-regels bevat metagegevens om at.js te informeren of een bo
 * **Type**: Sting
 * **Standaardwaarde**: true
 * **Omschrijving**: Vertegenwoordigt de IMS ORG-ID.
+
+### optinEnabled
+
+* **Type**: Boolean
+* **Standaardwaarde**: false
+* **Omschrijving**:  [!DNL Target] biedt ondersteuning voor aanmeldingsfuncties via  [!DNL Adobe Platform Launch] om uw strategie voor het beheer van uw toestemming te ondersteunen. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de tag [!DNL Target] wordt geactiveerd. Er is ook een optie via [!DNL Platform Launch] om de tag [!DNL Target] vooraf goed te keuren. Als u de mogelijkheid wilt inschakelen om Opt-In te gebruiken in de bibliotheek [!DNL Target] at.js, voegt u de instelling `optinEnabled=true` toe. In [!DNL Platform Launch] moet u &quot;toelaten&quot;van [!UICONTROL GDPR Opt-In] drop-down lijst in de de installatiemening van de uitbreiding van de Lancering selecteren. Zie de [documentatie van de Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer details.
 
 ### optoutEnabled
 
@@ -355,7 +360,7 @@ Houd rekening met het volgende wanneer u met de instelling `dataProviders` werkt
 * Als de gegevensproviders die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, asynchroon zijn, worden ze parallel uitgevoerd. Het verzoek voor de bezoeker-API wordt parallel met de functies uitgevoerd die aan `window.targetGlobalSettings.dataProviders` zijn toegevoegd, zodat er minimaal een wachttijd is.
 * at.js zal niet proberen om de gegevens in het voorgeheugen onder te brengen. Als de gegevensleverancier gegevens slechts één keer haalt, zou de gegevensleverancier ervoor moeten zorgen dat de gegevens in het voorgeheugen wordt opgeslagen en, wanneer de leveranciersfunctie wordt aangehaald, de geheim voorgeheugengegevens voor de tweede aanroeping dienen.
 
-## Inhoudbeveiligingsbeleid {#content-security}
+## Beveiligingsbeleid voor inhoud {#content-security}
 
 at.js 2.3.0+ steunt het plaatsen van de nonces van het Veiligheidsbeleid van de Inhoud op SCRIPT en STYLE markeringen die aan pagina DOM worden toegevoegd wanneer het toepassen van geleverde aanbiedingen van het Doel.
 
