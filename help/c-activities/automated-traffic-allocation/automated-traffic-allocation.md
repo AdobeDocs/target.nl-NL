@@ -4,42 +4,42 @@ description: Leer hoe te om een auto-Wijs activiteit in Adobe te gebruiken [!DNL
 title: Wat is een automatisch toegewezen activiteit?
 feature: Automatisch toewijzen
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '3362'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
 
-# Overzicht van automatisch toewijzen
+# [!UICONTROL Auto-Allocate] overzicht
 
-Een auto-Wijs activiteit in [!DNL Adobe Target] identificeert een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren.
+Een [!UICONTROL Auto-Allocate] activiteit in [!DNL Adobe Target] identificeert een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren.
 
 Tijdens het maken van een A/B-activiteit met behulp van de driestappe geleide workflow kunt u de optie [!UICONTROL Auto-Allocate to best experience] kiezen.
 
 ## De uitdaging {#section_85D5A03637204BACA75E19646162ACFF}
 
-Standaard A/B-tests hebben inherente kosten. U moet verkeer uitgeven om prestaties van elke ervaring te meten en door analyse de het winnen ervaring te berekenen. De verdeling van het verkeer blijft vast zelfs nadat u erkent dat sommige ervaringen anderen overtreffen. Bovendien is het ingewikkeld om de steekproefgrootte te bepalen, en de activiteit moet zijn volledige cursus in werking stellen alvorens u op een winnaar kunt handelen. Na dit alles is er nog steeds een kans dat de geïdentificeerde winnaar geen echte winnaar is.
+Standaard A/B-tests hebben inherente kosten. U moet verkeer uitgeven om prestaties van elke ervaring te meten en door analyse de het winnen ervaring te berekenen. De verdeling van het verkeer blijft vast zelfs nadat u erkent dat sommige ervaringen anderen overtreffen. Bovendien is het ingewikkeld om de steekproefgrootte te bepalen, en de activiteit moet zijn volledige cursus in werking stellen alvorens u op een winnaar kunt handelen. En er is nog steeds een kans dat de geïdentificeerde winnaar geen echte winnaar is.
 
-## De oplossing: Automatisch toewijzen {#section_98388996F0584E15BF3A99C57EEB7629}
+## De oplossing: [!UICONTROL Auto-Allocate] {#section_98388996F0584E15BF3A99C57EEB7629}
 
-Automatisch toewijzen verlaagt deze kosten en overheadkosten voor het bepalen van een winnende ervaring. Automatisch toewijzen bewaakt de beoogde metrische prestaties van alle ervaringen en stuurt meer nieuwkomers proportioneel naar de hoogwaardige ervaringen. Voldoende verkeer is gereserveerd om de andere ervaringen te onderzoeken. U kunt de voordelen van de test op uw resultaten zien, zelfs terwijl de activiteit nog loopt: optimalisatie vindt plaats in combinatie met leren .
+[!UICONTROL Auto-Allocate] vermindert deze kosten en overheadkosten van het bepalen van een het winnen ervaring. [!UICONTROL Auto-Allocate] bewaakt de beoogde metrische prestaties van alle ervaringen en stuurt meer nieuwkomers proportioneel naar de hoogwaardige ervaringen. Voldoende verkeer is gereserveerd om de andere ervaringen te onderzoeken. U kunt de voordelen van de test op uw resultaten zien, zelfs terwijl de activiteit nog loopt: optimalisatie vindt plaats in combinatie met leren .
 
-Met Automatisch toewijzen gaan bezoekers geleidelijk over op het winnen van ervaringen, in plaats van dat u wacht tot een activiteit eindigt om een winnaar te bepalen. U profiteert sneller van een lift omdat deelnemers aan activiteiten die naar minder succesvolle ervaringen zouden zijn gestuurd, potentiële winnende ervaringen kunnen laten zien.
+[!UICONTROL Auto-Allocate] bezoekers gaan geleidelijk aan de winnende ervaringen op in plaats van te vereisen dat u wacht tot een activiteit eindigt om een winnaar te bepalen. U profiteert sneller van een lift omdat deelnemers aan activiteiten die naar minder succesvolle ervaringen zouden zijn gestuurd, potentiële winnende ervaringen kunnen laten zien.
 
-Bij een normale A/B-test in Target worden alleen paarsgewijze vergelijkingen van challengers met besturing getoond. Als een activiteit bijvoorbeeld ervaringen heeft: A, B, C, en D waar A de controle is, zou een normale Doel A/B test A versus B, A versus C, en A versus D vergelijken.
+Bij een normale A/B-test in [!DNL Target] worden alleen paarsgewijze vergelijkingen van klanken met besturing getoond. Als een activiteit bijvoorbeeld ervaringen heeft: A, B, C, en D waar A de controle is, zou een normale [!DNL Target] A/B test A versus B, A versus C, en A versus D vergelijken.
 
-In dergelijke tests, gebruiken de meeste producten, met inbegrip van Doel, t-test van een Student om op p-waarde-gebaseerd vertrouwen te veroorzaken. Deze betrouwbaarheidswaarde wordt vervolgens gebruikt om te bepalen of de toerist voldoende van de controle verschilt. Nochtans, voert het Doel automatisch niet de impliciete vergelijkingen (B tegen C, B tegen D, en C tegen D) uit die worden vereist om de &quot;beste&quot;ervaring te vinden. Het resultaat is dat de markeerstift de resultaten handmatig moet analyseren om de &quot;beste&quot; ervaring te bepalen.
+In dergelijke tests, gebruiken de meeste producten, met inbegrip van [!DNL Target], t-test van een Student om op p-waarde-gebaseerd vertrouwen te veroorzaken. Deze betrouwbaarheidswaarde wordt vervolgens gebruikt om te bepalen of de toerist voldoende van de controle verschilt. [!DNL Target] voert echter niet automatisch de impliciete vergelijkingen uit (B tegenover C, B tegenover D, en C tegenover D) die worden vereist om de &quot;beste&quot;ervaring te vinden. Het resultaat is dat de markeerstift de resultaten handmatig moet analyseren om de &quot;beste&quot; ervaring te bepalen.
 
-Automatisch toewijzen voert alle impliciete vergelijkingen tussen ervaringen uit en levert een &quot;echte&quot; winnaar op. Er bestaat geen begrip van een &quot;controle&quot;ervaring in de test.
+[!UICONTROL Auto-Allocate] alle impliciete vergelijkingen tussen ervaringen worden uitgevoerd en er wordt een &#39;&#39;echte&#39;&#39; winnaar gegenereerd. Er bestaat geen begrip van een &quot;controle&quot;ervaring in de test.
 
-Automatisch toewijzen wijst nieuwe bezoekers op intelligente wijze toe aan ervaringen totdat de betrouwbaarheidsinterval van de beste ervaring niet overlapt met die van een andere ervaring. Normaal zou dit proces valse positieven kunnen veroorzaken, maar auto-toewijzen gebruikt betrouwbaarheidsintervallen die op [Bernstein Onquality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) worden gebaseerd die voor herhaalde evaluaties compenseren. Op dit moment hebben we een echte winnaar. Wanneer Automatisch toewijzen stopt, mits de bezoekers die op de pagina aankomen niet in aanzienlijke mate afhankelijk zijn van de tijd, is er ten minste een kans van 95% dat automatisch toewijzen een ervaring retourneert waarvan de werkelijke respons niet minder is dan 1% (relatief) dan de werkelijke respons van de winnende ervaring.
+[!UICONTROL Auto-Allocate] Wijst intelligent nieuwe bezoekers aan ervaringen toe tot het betrouwbaarheidsinterval van de beste ervaring niet met het betrouwbaarheidsinterval van een andere ervaring overlapt. Normaal gesproken zou dit proces valse positieven kunnen veroorzaken, maar [!UICONTROL Auto-Allocate] gebruikt betrouwbaarheidsintervallen die op [Bernstein Onquality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) worden gebaseerd die voor herhaalde evaluaties compenseren. Op dit moment is er een echte winnaar. Wanneer [!UICONTROL Auto-Allocate] stopt, op voorwaarde dat de bezoekers die op de pagina aankomen niet in aanzienlijke mate afhankelijk zijn van de tijd, is er ten minste een kans van 95% dat [!UICONTROL Auto-Allocate] een ervaring retourneert waarvan de werkelijke respons niet minder is dan 1% (relatief) dan de werkelijke respons van de winnende ervaring.
 
-## Wanneer wordt Automatisch toewijzen gebruikt in plaats van A/B of Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Wanneer wordt [!UICONTROL Auto-Allocate] versus A/B of [!UICONTROL Automated Personalization] gebruikt {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
-* Gebruik **Automatisch toewijzen** wanneer u uw activiteit vanaf het begin wilt optimaliseren en de winnende ervaringen zo snel mogelijk wilt identificeren. Doordat de prestaties van de activiteit in het algemeen vaker worden verbeterd, zijn de prestaties beter afgestemd op de prestaties.
-* Gebruik een standaard **[A/B test](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** wanneer u de prestaties van alle ervaringen wilt karakteriseren alvorens uw plaats te optimaliseren. Een A/B test helpt u al uw ervaringen te rangschikken, terwijl de Geautomatiseerde Toewijzing van het Verkeer hoogste uitvoerders vindt maar geen verschil tussen de lagere uitvoerders garandeert.
-* Gebruik [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) wanneer u optimalisatiealgoritmen van de hoogste ingewikkeldheid, zoals machine-leert modellen wilt die voorspellingen bouwen die op individuele profielattributen worden gebaseerd. De geautomatiseerde Toewijzing van het Verkeer kijkt naar het gezamenlijke gedrag van ervaringen (enkel als standaard A/B tests), en maakt geen onderscheid tussen bezoekers.
+* Gebruik **[!UICONTROL Auto-Allocate]** als u uw activiteit vanaf het begin wilt optimaliseren en de winnende ervaringen zo snel mogelijk wilt identificeren. Doordat de prestaties van de activiteit in het algemeen vaker worden verbeterd, zijn de prestaties beter afgestemd op de prestaties.
+* Gebruik een standaard **[A/B test](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** wanneer u de prestaties van alle ervaringen wilt karakteriseren alvorens uw plaats te optimaliseren. Met een A/B-test kunt u al uw ervaringen rangschikken, terwijl [!UICONTROL Auto-Allocate] topuitvoerders vindt, maar geen onderscheid tussen de lagere uitvoerders garandeert.
+* Gebruik [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) wanneer u optimalisatiealgoritmen van de hoogste ingewikkeldheid, zoals machine-leert modellen wilt die voorspellingen bouwen die op individuele profielattributen worden gebaseerd. [!UICONTROL Auto-Allocate] kijkt naar het totale gedrag van ervaringen (net als standaard A/B tests), en maakt geen onderscheid tussen bezoekers.
 
 ## Belangrijkste voordelen {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -49,13 +49,13 @@ Automatisch toewijzen wijst nieuwe bezoekers op intelligente wijze toe aan ervar
 
 ## Terminologie {#section_670F8785BA894745B43B6D4BFF953188}
 
-De volgende termen zijn handig bij het bespreken van Automatisch toewijzen:
+De volgende termen zijn handig wanneer u [!UICONTROL Auto-Allocate] bespreekt:
 
 **Meervoudig bewapende bandit:** Een  [meervoudig bewapende ](https://en.wikipedia.org/wiki/Multi-armed_bandit) banditaanpak om optimalisering evenwicht te brengen tussen verkennend leren en het gebruik van dat leren.
 
 ## Hoe het algoritme werkt {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
-In de algemene logica achter Automatisch toewijzen zijn zowel gemeten prestaties (zoals de conversiesnelheid) als betrouwbaarheidsintervallen van de cumulatieve gegevens opgenomen. In tegenstelling tot een standaard A/B test waar het verkeer gelijkelijk tussen ervaringen wordt verdeeld, verandert de auto-Toewijzing verkeerstoewijzing over ervaringen.
+De algemene logica achter [!UICONTROL Auto-Allocate] omvat zowel gemeten prestaties (zoals omzettingspercentage) als betrouwbaarheidsintervallen van de cumulatieve gegevens. In tegenstelling tot een standaard A/B test waar het verkeer gelijkelijk tussen ervaringen wordt verdeeld, [!UICONTROL Auto-Allocate] verandert verkeerstoewijzing over ervaringen.
 
 * 80 % van de bezoekers wordt toegewezen op basis van de hieronder beschreven intelligente logica .
 * 20% van de bezoekers wordt willekeurig toegewezen in alle ervaringen om zich aan te passen aan het veranderende gedrag van bezoekers.
@@ -72,16 +72,16 @@ De illustratie toont hoe het verkeer dat aan elke ervaring wordt toegewezen zich
 
 | Rond | Beschrijving |
 |--- |--- |
-| ![Warm-omhoog rond](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Warm-omhoog rond (0)**: Tijdens de opwarmen ronde, krijgt elke ervaring gelijke verkeerstoewijzing tot elke ervaring in de activiteit een minimum van 1.000 bezoekers en 50 omzettingen heeft.<ul><li>Ervaring A=25%</li><li>Ervaring B=25%</li><li>Ervaring C=25%</li><li>Ervaring D=25%</li></ul>Nadat elke ervaring 1.000 bezoekers en 50 omzettingen krijgt, begint Doel geautomatiseerde verkeerstoewijzing. Alle toewijzingen vinden plaats in rondes en voor elke ronde worden twee ervaringen gekozen.<br>Slechts twee ervaringen gaan verder in de volgende ronde: D en C.<br>Vooruit bewegen betekent dat de twee ervaringen 80% van het verkeer gelijkelijk worden toegewezen, terwijl de andere twee ervaringen blijven deelnemen, maar slechts dienen als deel van de 20% willekeurige verkeerstoewijzing wanneer nieuwe bezoekers de activiteit betreden.<br>Alle toewijzingen worden elk uur bijgewerkt (weergegeven aan de hand van rondes langs de x-as hierboven). Na elke ronde worden de cumulatieve gegevens vergeleken. |
+| ![Warm-omhoog rond](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png) | **Warm-omhoog rond (0)**: Tijdens de opwarmen ronde, krijgt elke ervaring gelijke verkeerstoewijzing tot elke ervaring in de activiteit een minimum van 1.000 bezoekers en 50 omzettingen heeft.<ul><li>Ervaring A=25%</li><li>Ervaring B=25%</li><li>Ervaring C=25%</li><li>Ervaring D=25%</li></ul>Nadat elke ervaring 1.000 bezoekers en 50 omzettingen krijgt, begint Doel geautomatiseerde verkeerstoewijzing. Alle toewijzingen vinden plaats in rondes en voor elke ronde worden twee ervaringen gekozen.<br>Slechts twee ervaringen gaan verder in de volgende ronde: D en C.<br>Moving forward betekent dat de twee ervaringen 80% van het verkeer gelijkelijk worden toegewezen. De andere twee ervaringen blijven deelnemen, maar worden slechts gebruikt als onderdeel van de 20% willekeurige verkeerstoewijzing wanneer nieuwe bezoekers de activiteit betreden.<br>Alle toewijzingen worden elk uur bijgewerkt (weergegeven aan de hand van rondes langs de x-as hierboven). Na elke ronde worden de cumulatieve gegevens vergeleken. |
 | ![Afgerond 1](/help/c-activities/automated-traffic-allocation/assets/aa-phase-1.png) | **Rond 1**: Tijdens deze ronde wordt 80% van het verkeer toegewezen aan ervaringen C en D (elk 40%). 20% van het verkeer wordt willekeurig toegewezen aan ervaringen A, B, C, en D (elk 5%). Tijdens deze ronde presteert A goed.<ul><li>Het algoritme plukt ervaring D om zich in de volgende ronde vooruit te bewegen omdat het de hoogste omzettingspercentage heeft (zoals die door op de verticale schaal van elke activiteit wordt vermeld).</li><li>Het algoritme plukt ervaring A om zich ook vooruit te bewegen omdat het de hoogste bovengrens van Bernstein 95% betrouwbaarheidsinterval van de resterende ervaringen heeft.</li></ul>De ervaringen D en A gaan verder. |
 | ![Rond 2](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **Rond 2**: Tijdens deze ronde wordt 80% van het verkeer toegewezen aan ervaringen A en D (elk 40%). 20% van het verkeer wordt willekeurig toegewezen, zodat A, B, C, en D elk 5% van het verkeer krijgen. Tijdens deze ronde functioneert ervaring B goed.<ul><li>Het algoritme plukt ervaring D om zich in de volgende ronde vooruit te bewegen omdat het de hoogste omzettingspercentage heeft (zoals die door op de verticale schaal van elke activiteit wordt vermeld).</li><li>Het algoritme plukt ervaring B om zich eveneens te bewegen omdat het de hoogste bovengrens van Bernstein 95% betrouwbaarheidsinterval van de resterende ervaringen heeft.</li></ul>De ervaringen D en B gaan verder. |
 | ![Rond 3](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **Rond 3**: Tijdens deze ronde wordt 80% van het verkeer toegewezen aan ervaringen B en D (40% elk). 20% van het verkeer wordt willekeurig toegewezen, zodat A, B, C, en D elk 5% van het verkeer krijgen. Tijdens deze ronde blijft de ervaring D goed presteren en de ervaring C functioneert goed.<ul><li>Het algoritme plukt ervaring D om zich in de volgende ronde vooruit te bewegen omdat het de hoogste omzettingspercentage heeft (zoals die door op de verticale schaal van elke activiteit wordt vermeld).</li><li>Het algoritme plukt ervaring C om zich eveneens te bewegen omdat het de hoogste bovengrens van Bernstein 95% betrouwbaarheidsinterval van de resterende ervaringen heeft.</li></ul>De ervaringen D en C gaan verder. |
 | ![Afgerond 4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **Rond 4**: Tijdens deze ronde wordt 80% van het verkeer toegewezen aan ervaringen C en D (elk 40%). 20% van het verkeer wordt willekeurig toegewezen, zodat A, B, C, en D elk 5% van het verkeer krijgen. Tijdens deze ronde functioneert ervaring C goed.<ul><li>Het algoritme verkiest ervaring C om zich in de volgende ronde vooruit te bewegen omdat het de hoogste omzettingspercentage heeft (zoals die door op de verticale schaal van elke activiteit wordt vermeld).</li><li>Het algoritme plukt ervaring D om zich eveneens te bewegen omdat het de hoogste bovengrens van Bernstein 95% betrouwbaarheidsinterval van de resterende ervaringen heeft.</li></ul>De ervaringen C en D gaan verder. |
-| ![Rond n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Rond n**: Naarmate de activiteit vordert, begint een krachtige ervaring op te komen en gaat het proces door tot er een winnende ervaring is. Wanneer het betrouwbaarheidsinterval van de ervaring met de hoogste omzettingspercentage niet met een ander het betrouwbaarheidsinterval van de ervaring overlapt, wordt het geëtiketteerd de winnaar en een [badge vertoningen op de pagina van de activiteit](/help/c-activities/automated-traffic-allocation/determine-winner.md) en in de lijst van de Activiteit.<ul><li>Het algoritme kiest ervaring C als duidelijke winnaar</li></ul>Op dit punt dient het algoritme 80% van het verkeer om C te ervaren, terwijl 20% van het verkeer willekeurig aan alle ervaringen (A, B, C, en D) wordt gediend. In totaal krijgt C 85% van het verkeer. In het onwaarschijnlijke geval dat het betrouwbaarheidsinterval van de winnaar opnieuw begint te overlappen, keert het algoritme terug naar het gedrag van ronde 4 hierboven.<br>**Belangrijk**: Als u eerder tijdens het proces handmatig een winnaar koos, was het gemakkelijk geweest om de verkeerde ervaring te kiezen. Daarom is het aan te raden te wachten totdat het algoritme de winnende ervaring bepaalt. |
+| ![Rond n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Rond n**: Naarmate de activiteit vordert, begint een krachtige ervaring op te komen en gaat het proces door tot er een winnende ervaring is. Als het betrouwbaarheidsinterval van de ervaring met de hoogste conversiesnelheid niet overlapt met het betrouwbaarheidsinterval van een andere ervaring, wordt dit aangeduid als de winnaar. Een [symbool wordt weergegeven op de pagina van de winnende activiteit](/help/c-activities/automated-traffic-allocation/determine-winner.md) en in de lijst [!UICONTROL Activity].<ul><li>Het algoritme kiest ervaring C als duidelijke winnaar</li></ul>Op dit punt dient het algoritme 80% van het verkeer om C te ervaren, terwijl 20% van het verkeer willekeurig aan alle ervaringen (A, B, C, en D) wordt gediend. In totaal krijgt C 85% van het verkeer. In het onwaarschijnlijke geval dat het betrouwbaarheidsinterval van de winnaar opnieuw begint te overlappen, keert het algoritme terug naar het gedrag van ronde 4 hierboven.<br>**Belangrijk**: Als u eerder tijdens het proces handmatig een winnaar koos, was het gemakkelijk geweest om de verkeerde ervaring te kiezen. Daarom is het aan te raden te wachten totdat het algoritme de winnende ervaring bepaalt. |
 
 >[!NOTE]
 >
->Als een activiteit slechts twee ervaringen heeft, krijgen beide ervaringen gelijk verkeer tot [!DNL Target] een het winnen ervaring met 75% vertrouwen vindt. Op dat moment wordt 2/3 van het verkeer toegewezen aan de winnaar en 1/3 aan de verliezer. Als een ervaring 95% betrouwbaarheid bereikt, wordt 90% van het verkeer aan de winnaar toegewezen en wordt 10% aan de verliezer toegewezen. We blijven er altijd voor zorgen dat er wat verkeer naar de &quot;verliezende&quot; ervaring wordt gestuurd om op lange termijn valse positieven te voorkomen (d.w.z. om wat exploratie te behouden).
+>Als een activiteit slechts twee ervaringen heeft, krijgen beide ervaringen gelijk verkeer tot [!DNL Target] een het winnen ervaring met 75% vertrouwen vindt. Op dat moment wordt tweederde van het verkeer toegewezen aan de winnaar, en eenderde aan de verliezer. Als een ervaring 95% betrouwbaarheid bereikt, wordt 90% van het verkeer aan de winnaar toegewezen en wordt 10% aan de verliezer toegewezen. [!DNL Target] er blijft altijd wat verkeer over naar de &quot; verliezende &quot; ervaring om valse positieven te voorkomen ( d.w.z. enige exploratie te behouden ) .
 
 Nadat een [!UICONTROL Auto-Allocate] activiteit wordt geactiveerd, worden de volgende verrichtingen van UI niet toegestaan:
 
@@ -95,35 +95,35 @@ Voor meer informatie, zie [Auto-Toewijzing kan u snellere testresultaten en hoge
 
 ## Caveats {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**De functie Automatisch toewijzen werkt met slechts één geavanceerde metrische instelling: Aantal verhogen en Gebruiker in activiteit houden**
+**De  [!UICONTROL Auto-Allocate] functie werkt met slechts één geavanceerde metrische instelling:[!UICONTROL Increment Count and Keep User in Activity]**
 
-De volgende geavanceerde metrische instellingen worden niet ondersteund: Het Aantal van de verhoging, de Gebruiker van de Versie, staat het Aantal van de Terugkeer en van de Toename, en de Gebruiker en de Bar van de Versie van de Versie van Terugkeer toe.
+De volgende geavanceerde metrische instellingen worden niet ondersteund: [!UICONTROL Increment Count], [!UICONTROL Release User], [!UICONTROL Allow Reentry and Increment Count] en [!UICONTROL Release User and Bar from Reentry].
 
 **De frequente terugkeerbezoekers kunnen ervaring omzettingspercentages opblazen.**
 
-Als een bezoeker die A ziet vaak terugkeert en verscheidene keren omzet, wordt het Tarief van de Omzetting (CR) van ervaring A kunstmatig verhoogd. Vergelijk dit met B, waar bezoekers zich bekeren maar niet vaak terugkeren. Als gevolg hiervan ziet de CR van A er beter uit dan de CR van B, zodat nieuwe bezoekers eerder aan A zullen worden toegewezen dan aan B. Als u ervoor kiest om één keer per toetreder te tellen, kan de CR van A en CR van B identiek zijn.
+Als een bezoeker die A ziet vaak terugkeert en verscheidene keren omzet, wordt het Tarief van de Omzetting (CR) van ervaring A kunstmatig verhoogd. Vergelijk dit resultaat met B, waar bezoekers wel converteren maar niet vaak terugkeren. Als gevolg hiervan ziet de CR van ervaring A er beter uit dan de CR van ervaring B, zodat nieuwe bezoekers eerder aan A zullen worden toegewezen dan aan B. Als u ervoor kiest om één keer per toetreder te tellen, kan de CR van A en CR van B identiek zijn.
 
 Als retourbezoekers willekeurig worden verdeeld, is het waarschijnlijker dat hun effect op de omrekeningskoersen wordt gelijkgetrokken. Om dit effect te verlichten, denk na veranderend de tellende methode van doel metrisch om slechts eenmaal per ingang te tellen.
 
 **Verschillen tussen hoogpresteerders, niet tussen slechtpresterende.**
 
-Automatisch toewijzen is goed in het onderscheid maken tussen hoogwaardige ervaringen (en het zoeken naar een winnaar). Er kunnen momenten zijn dat je niet genoeg onderscheid hebt tussen de ondermaatse ervaringen.
+[!UICONTROL Auto-Allocate] is goed in het differentiëren tussen hoogwaardige ervaringen (en het vinden van een winnaar). Er kunnen momenten zijn dat je niet genoeg onderscheid hebt tussen de ondermaatse ervaringen.
 
-Als u statistisch significante differentiatie tussen alle ervaringen wilt veroorzaken, zou u het gebruiken van de manuele wijze van de Toewijzing van het Verkeer kunnen willen overwegen.
+Als u statistisch significante differentiatie tussen alle ervaringen wilt veroorzaken, zou u kunnen willen overwegen gebruikend de handwijze van de verkeerstoewijzing.
 
 **Conversietarieven die zijn gecorreleerd aan de tijd (of contextueel variëren), kunnen de toewijzingsbedragen scheeftrekken.**
 
-Sommige factoren die tijdens een standaard A/B test kunnen worden genegeerd omdat zij alle ervaringen evenzeer beïnvloeden kunnen niet in een auto-Wijs test worden genegeerd. Het algoritme is gevoelig voor de waargenomen omrekeningskoersen. Hier volgen voorbeelden van factoren die de prestaties op verschillende manieren kunnen beïnvloeden:
+Sommige factoren die tijdens een standaard A/B test kunnen worden genegeerd omdat zij alle ervaringen evenzeer beïnvloeden kunnen niet in een [!UICONTROL Auto-Allocate] test worden genegeerd. Het algoritme is gevoelig voor de waargenomen omrekeningskoersen. Hier volgen voorbeelden van factoren die de prestaties op verschillende manieren kunnen beïnvloeden:
 
-* Ervaringen met verschillende contextuele (tijd, locatie, geslacht, enz.) relevantie.
+* Ervaringen met verschillende contextuele (tijd, locatie, geslacht, enzovoort) relevantie.
 
    Bijvoorbeeld:
 
    * &quot;God zij dank is het Vrijdag&quot;resulteert in hogere omzettingen op Vrijdag
    * &quot;Springen naar uw maandag&quot; heeft een hogere conversie op maandag
-   * &quot;Opslaan voor een winter voor de oostkust&quot; zorgt voor een hogere ombouw in door Oost-Coast of winter getroffen gebieden
+   * &quot;Opslaan voor een winter voor de oostkust&quot; zorgt voor een hogere ombouw in door de oostkust of de winter getroffen gebieden
 
-Deze kunnen de resultaten bij een autotoewijzing meer scheeftrekken dan bij een A/B-test, omdat de resultaten bij de A/B-test gedurende een langere periode worden geanalyseerd.
+Het gebruik van ervaringen met verschillende contextuele relevantie kan de resultaten in een [!UICONTROL Auto-Allocate]-test meer scheeftrekken dan in een A/B-test, omdat de A/B-test de resultaten over een langere periode analyseert.
 
 * Ervaringen met uiteenlopende vertragingen bij de conversie, mogelijk als gevolg van de urgentie van de boodschap.
 
@@ -133,25 +133,25 @@ Deze kunnen de resultaten bij een autotoewijzing meer scheeftrekken dan bij een 
 
 Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UICONTROL Auto-Allocate]-activiteiten:
 
-### Ondersteunt Analytics for Adobe Target (A4T) Auto-Allocate activiteiten?
+### Ondersteunt [!UICONTROL Analytics for Target] (A4T) [!UICONTROL Auto-Allocate] activiteiten?
 
 Ja. Voor meer informatie, zie [A4T steun voor auto-Wijs en auto-Doel activiteiten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Worden de terugkerende bezoekers automatisch opnieuw toegewezen aan hoog presterende ervaringen?
 
-Nee. Alleen nieuwe bezoekers worden automatisch toegewezen. De terugkerende bezoekers blijven hun originele ervaring zien. Hiermee wordt de geldigheid van de A/B-test beschermd.
+Nee. Alleen nieuwe bezoekers worden automatisch toegewezen. Terugkerende bezoekers blijven hun oorspronkelijke ervaring zien om de geldigheid van de A/B-test te beschermen.
 
 ### Hoe behandelt het algoritme valse positieven?
 
 Het algoritme garandeert een betrouwbaarheid van 95% of een percentage van 5% ten onrechte als u wacht tot de winnaar-badge wordt weergegeven.
 
-### Wanneer begint de auto-Toewijzing verkeer toe te wijzen?
+### Wanneer begint [!UICONTROL Auto-Allocate] verkeer toe te wijzen?
 
 Het algoritme begint te werken nadat alle ervaringen in de activiteit minimaal 1000 bezoekers en 50 conversies hebben.
 
 ### Hoe agressief benut het algoritme?
 
-80% van het verkeer wordt gediend gebruikend auto-Toewijzing en 20% van verkeer wordt willekeurig gediend. Wanneer een winnaar werd geïdentificeerd, gaat alle 80% van het verkeer naar het, terwijl alle ervaringen wat verkeer als deel van de 20%, met inbegrip van de het winnen ervaring blijven krijgen.
+80% van het verkeer wordt gediend gebruikend [!UICONTROL Auto-Allocate] en 20% van verkeer wordt willekeurig gediend. Wanneer een winnaar werd geïdentificeerd, gaat alle 80% van het verkeer naar het, terwijl alle ervaringen wat verkeer als deel van de 20%, met inbegrip van de het winnen ervaring blijven krijgen.
 
 ### Worden er al ervaringen verloren?
 
@@ -159,47 +159,53 @@ Ja. De multigewapende bandit zorgt ervoor dat minstens 20% van het verkeer wordt
 
 ### Wat gebeurt er met activiteiten met lange omzettingsvertragingen?
 
-Zolang alle ervaringen die worden geoptimaliseerd met gelijkaardige vertragingen worden geconfronteerd, is het gedrag het zelfde als een activiteit met een snellere omzettingscyclus, hoewel het langer zal duren om de 50 omzettingsdrempel te bereiken alvorens het proces van de verkeerstoewijzing begint.
+Zolang alle ervaringen die worden geoptimaliseerd vergelijkbare vertragingen hebben, is het gedrag hetzelfde als een activiteit met een snellere conversiecyclus. Nochtans, duurt het langer om de 50 omzettingsdrempel te bereiken alvorens het proces van de verkeerstoewijzing begint.
 
-### Hoe verschilt Automatisch toewijzen van Automated Personalization?
+### Hoe verschilt [!UICONTROL Auto-Allocate] van [!UICONTROL Automated Personalization]?
 
-Automated Personalization gebruikt de profielkenmerken van elke bezoeker om de beste ervaring te bepalen. Hierdoor wordt niet alleen de activiteit geoptimaliseerd, maar wordt ook de activiteit voor die gebruiker aangepast.
+[!UICONTROL Automated Personalization] gebruikt de profielkenmerken van elke bezoeker om de beste ervaring te bepalen. Hierdoor wordt niet alleen de activiteit geoptimaliseerd, maar wordt ook de activiteit voor die gebruiker aangepast.
 
-Auto-Allocate daarentegen is een A/B test die een gezamenlijke winnaar (de populairste ervaring, maar niet noodzakelijk de meest efficiënte ervaring voor elke bezoeker) produceert.
+[!UICONTROL Auto-Allocate]Anderzijds is er een A/B-test die een gezamenlijke winnaar oplevert (de meest populaire ervaring, maar niet noodzakelijkerwijs de meest effectieve ervaring voor elke bezoeker).
 
 ### Worden de terugkerende bezoekers de omzettingspercentage op mijn succes metrisch?
 
-Op dit moment is de logica gunstig voor bezoekers die snel converteren of vaker een bezoek brengen. De reden hiervoor is dat dergelijke bezoekers tijdelijk de algemene omrekeningskoers van de ervaring die zij hebben, verhogen. Het algoritme past zich regelmatig aan, zodat wordt de verhoging van omzettingspercentage versterkt bij elke momentopname. Als de site veel bezoekers retourneert, kunnen hun conversies de algemene conversiekoers voor de ervaring tot wie ze behoren, potentieel verhogen. Er is een goede kans dat retourbezoekers willekeurig worden verdeeld, waardoor het totale effect (verhoogde lift) gelijkmatig wordt verdeeld. Om dit effect te verzachten, kunt u de telmethode van de succesmetrische methode zo wijzigen dat deze slechts eenmaal per entry wordt geteld.
+Op dit moment bevoordeelt de logica bezoekers die snel converteren of vaker bezoeken, omdat dergelijke bezoekers tijdelijk de algemene conversiesnelheid verhogen van de ervaring waartoe zij behoren. Het algoritme past zich regelmatig aan, zodat wordt de verhoging van omzettingspercentage versterkt bij elke momentopname. Als de site talloze retouradres krijgt, kan de conversie van deze sites de algemene conversiekoers verhogen voor de ervaring waartoe ze behoren. Er is een goede kans dat retourbezoekers willekeurig worden verdeeld, waardoor het totale effect (verhoogde lift) gelijkmatig wordt verdeeld. Om dit effect te verzachten, kunt u de telmethode van de succesmetrische methode zo wijzigen dat deze slechts eenmaal per entry wordt geteld.
 
-### Kan ik de calculator van de steekproefgrootte gebruiken wanneer het gebruiken van auto-Toewijzing om te schatten hoe lang de activiteit zal duren om de winnaar te identificeren?
+### Kan ik de calculator van de steekproefgrootte gebruiken wanneer het gebruiken van [!UICONTROL Auto-Allocate] om te schatten hoe lang de activiteit duurt om de winnaar te identificeren?
 
-U kunt de bestaande [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) gebruiken om een schatting te krijgen van hoe lang de test zal lopen. (Zoals bij traditionele A/B-tests kunt u Bonferroni-correctie toepassen als u meer dan twee aanbiedingen of meer dan één omzettingsmeting/hypothese test.) Deze rekenmachine is ontworpen voor traditionele A/B-tests met een vaste tijdshorizon en biedt alleen een schatting. Het gebruiken van de calculator voor een auto-Wijs activiteit is facultatief omdat auto-toewijst een winnaar voor u zal verklaren-u te hoeven om geen vast punt in tijd te kiezen om de testresultaten-verstrekt waarden te bekijken altijd statistisch geldig zijn. In onze experimenten hebben we het volgende gevonden:
-* Bij het testen van precies twee ervaringen wordt met Automatisch toewijzen een winnaar sneller gevonden dan met tests met een vaste tijdshorizon (dat wil zeggen het tijdsbestek dat wordt voorgesteld door de calculator voor de voorbeeldgrootte) wanneer het prestatieverschil tussen ervaringen groot is, maar extra tijd nodig kan zijn om een winnaar te identificeren wanneer het prestatieverschil tussen ervaringen klein is. In deze gevallen zouden de vastrentende tests doorgaans zijn geëindigd zonder een statistisch significant resultaat.
-* Bij het testen van meer dan twee ervaringen wordt met Automatisch toewijzen een winnaar sneller gevonden dan met tests met een vaste tijdshorizon (d.w.z. het tijdpad dat wordt voorgesteld door de calculator voor de voorbeeldgrootte) wanneer één ervaring alle andere ervaringen sterk overtreft. Wanneer twee of meer ervaringen allebei &quot;het winnen&quot;tegen andere ervaringen maar dicht bij elkaar aansluiten, zou de auto-Toewijzing extra tijd kunnen vereisen om te bepalen wat superieur is. In deze gevallen zouden de tests met een vaste looptijd doorgaans zijn geëindigd door te concluderen dat de &quot;winnende&quot; ervaringen beter waren dan de minder presterende ervaringen, maar niet hebben vastgesteld welke beter was.
+U kunt de bestaande [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) gebruiken om een schatting te krijgen van hoe lang de test loopt. (Zoals bij traditionele A/B-tests kunt u Bonferroni-correctie toepassen als u meer dan twee aanbiedingen of meer dan één omzettingsmeting/hypothese test.) Deze rekenmachine is ontworpen voor traditionele A/B-tests met een vaste tijdshorizon en biedt alleen een schatting. Het gebruik van de calculator voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] een winnaar voor u declareert. U hoeft geen vast punt in de tijd te kiezen om de testresultaten te bekijken. De opgegeven waarden zijn altijd statistisch geldig. In onze experimenten hebben we het volgende gevonden:
+* Bij het testen van precies twee ervaringen vindt [!UICONTROL Auto-Allocate] een winnaar sneller dan het testen met een vaste tijdshorizon (d.w.z. het tijdkader dat wordt voorgesteld door de voorbeeldgroottecalculator) wanneer het prestatieverschil tussen ervaringen groot is. [!UICONTROL Auto-Allocate] kan echter extra tijd nodig hebben om een winnaar te identificeren wanneer het prestatieverschil tussen ervaringen klein is. In deze gevallen zouden de vastrentende tests doorgaans zijn geëindigd zonder een statistisch significant resultaat.
+* Bij het testen van meer dan twee ervaringen vindt [!UICONTROL Auto-Allocate] een winnaar sneller dan het testen met een vaste tijdshorizon (d.w.z. het tijdkader dat wordt voorgesteld door de voorbeeldgroottecalculator) wanneer één ervaring alle andere ervaringen sterk overdoet. Wanneer twee of meer ervaringen allebei &quot;winnen&quot;tegen andere ervaringen maar dicht bij elkaar aansluiten, [!UICONTROL Auto-Allocate] extra tijd kan vereisen om te bepalen wat superieur is. In deze gevallen zouden de tests met een vaste looptijd doorgaans zijn geëindigd door te concluderen dat de &quot;winnende&quot; ervaringen beter waren dan de minder presterende ervaringen, maar niet hebben vastgesteld welke beter was.
 
-### Moet ik een ondermaatse ervaring verwijderen uit een automatisch toegewezen activiteit om het proces van het bepalen van een winnaar te versnellen?
+### Moet ik een ondermaatse ervaring uit een [!UICONTROL Auto-Allocate] activiteit verwijderen om het proces te versnellen om een winnaar te bepalen?
 
-Er is echt geen reden om een ondermaatse ervaring te verwijderen. Automatisch toewijzen dient automatisch om beter presterende ervaringen te dienen en leidt tot minder vaak presterende ervaringen. Als u een ondermaatse ervaring op het gebied van de activiteit laat staan, heeft dat geen grote invloed op de snelheid waarmee de winnaar wordt bepaald.
+Er is echt geen reden om een ondermaatse ervaring te verwijderen. [!UICONTROL Auto-Allocate] Deze service dient automatisch vaker voor hoogwaardige ervaringen en werkt minder vaak voor ondermaatse ervaringen. Een ondermaatse ervaring in de activiteit heeft geen significante invloed op de snelheid om een winnaar te bepalen.
 
 20% van de bezoekers wordt willekeurig toegewezen in alle ervaringen. De hoeveelheid verkeer die aan een ondermaatse ervaring wordt besteed, is minimaal (20% gedeeld door het aantal ervaringen).
 
-### Kan ik het doel metrische middenweg door een auto-Wijs activiteit veranderen? {#change-metric}
+### Kan ik het doel metrische middenweg door een [!UICONTROL Auto-Allocate] activiteit veranderen? {#change-metric}
 
-Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
+[!DNL Adobe] adviseert niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. [!DNL Adobe] garandeert niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
 
 Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
 
-### Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een activiteit voor automatisch toewijzen?
+### Kan ik de rapportbron halverwege een [!UICONTROL Auto-Allocate] activiteit veranderen? {#change-reporting}
 
-Het gebruik van de optie [!UICONTROL Reset Report Data] voor [!UICONTROL Auto-Allocate]-activiteiten wordt niet aanbevolen. Hoewel de zichtbare rapportgegevens worden verwijderd, verwijdert deze optie niet alle trainingsrecords uit het model [!UICONTROL Auto-Allocate]. In plaats van de optie [!UICONTROL Reset Report Data] te gebruiken voor [!UICONTROL Auto-Allocate]-activiteiten, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Opmerking: Deze leidraad is ook van toepassing op [!UICONTROL Auto-Target]- en [!UICONTROL Automated Personalization]-activiteiten.)
+[!DNL Adobe] adviseert niet dat u de rapporteringsbron halverwege een activiteit verandert. Hoewel het mogelijk is om de rapportbron (van [!DNL Target] in A4T of vice versa) tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. [!DNL Adobe] garandeert niet wat er gebeurt als u de rapportbron wijzigt in een activiteit nadat deze is uitgevoerd.
 
-### Hoe wijst de auto-Wijs bouwmodellen met betrekking tot milieu&#39;s toe?
+Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten die ofwel [!DNL Target] of [!DNL Analytics] (A4T) als rapportagebron gebruiken.
 
-[!UICONTROL Auto-Allocate] bouwt modellen die op het verkeer en omzettingsgedrag worden gebaseerd dat in het standaardmilieu slechts wordt geregistreerd. Standaard is [!UICONTROL Production] de standaardomgeving, maar dit kan worden gewijzigd in Doel [Beheer > Omgevingen](/help/administrating-target/environments.md).
+### Kan ik de optie [!UICONTROL Reset Report Data] gebruiken terwijl het runnen van een [!UICONTROL Auto-Allocate] activiteit?
 
-Als een treffer in een andere (niet gebrek) milieu voorkomt, zal het verkeer volgens het waargenomen omzettingsgedrag in het standaardmilieu worden verdeeld. Het resultaat van die treffer (conversie of niet-conversie) wordt geregistreerd voor rapportagedoeleinden, maar wordt niet in het [!UICONTROL Auto-Allocate]-model in aanmerking genomen.
+Het gebruik van de optie [!UICONTROL Reset Report Data] voor [!UICONTROL Auto-Allocate]-activiteiten wordt niet aanbevolen. Hoewel de zichtbare rapportgegevens worden verwijderd, verwijdert deze optie niet alle trainingsrecords uit het model [!UICONTROL Auto-Allocate]. In plaats van de optie [!UICONTROL Reset Report Data] te gebruiken voor [!UICONTROL Auto-Allocate]-activiteiten, maakt u een nieuwe activiteit en deactiveert u de oorspronkelijke activiteit. (Deze leidraad is ook van toepassing op [!UICONTROL Auto-Target]- en [!UICONTROL Automated Personalization]-activiteiten.)
 
-Wanneer het selecteren van een ander milieu, zal het rapport verkeer en omzettingen voor dat milieu tonen. De standaard geselecteerde omgeving voor een rapport zal altijd de standaard voor de hele account zijn die is geselecteerd. De standaardomgeving kan niet per activiteit worden ingesteld.
+### Hoe bouwt [!UICONTROL Auto-Allocate] modellen met betrekking tot milieu&#39;s?
+
+[!UICONTROL Auto-Allocate] bouwt modellen die op het verkeer en omzettingsgedrag worden gebaseerd dat in het standaardmilieu slechts wordt geregistreerd. Standaard is [!UICONTROL Production] de standaardomgeving, maar de standaardomgeving kan worden gewijzigd in [!DNL Target] [Beheer > Omgevingen](/help/administrating-target/environments.md).
+
+Als een treffer in een andere (niet gebrek) milieu voorkomt, wordt het verkeer verdeeld volgens het waargenomen omzettingsgedrag in het standaardmilieu. Het resultaat van die hit (conversie of niet-conversie) wordt geregistreerd voor rapportagedoeleinden, maar wordt niet in het model [!UICONTROL Auto-Allocate] meegenomen.
+
+Wanneer het selecteren van een ander milieu, toont het rapport verkeer en omzettingen voor dat milieu. De standaard geselecteerde omgeving voor een rapport is de standaard voor de gehele account die is geselecteerd. De standaardomgeving kan niet per activiteit worden ingesteld.
 
 ## Trainingsvideo&#39;s {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
@@ -212,15 +218,15 @@ Deze video omvat informatie over vestiging verkeerstoewijzing.
 * Een publiek toewijzen aan uw activiteit
 * Verkeer omhoog of omlaag duwen
 * Selecteer uw methode voor verkeerstoewijzing
-* verdeel verkeer tussen verschillende ervaringen
+* Verkeer toewijzen tussen verschillende ervaringen
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### A/B-tests maken (8:36) ![Zelfstudie-badge](/help/assets/tutorial.png)
 
-In deze video ziet u hoe u een A/B-test maakt met behulp van de driestapige workflow met instructies voor het doel. De geautomatiseerde verkeerstoewijzing wordt besproken beginnend bij 4:45.
+In deze video ziet u hoe u een A/B-test maakt met behulp van de driestapige workflow met instructies voor het doel. [!UICONTROL Auto-Allocate] wordt om 4:45 uur besproken.
 
-* A/B-activiteit maken in Adobe Target
+* Een A/B-activiteit maken in [!DNL Adobe Target]
 * Verkeer toewijzen met een handmatige splitsing of automatische verkeerstoewijzing
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
