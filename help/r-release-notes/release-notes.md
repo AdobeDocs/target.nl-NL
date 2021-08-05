@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,11 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 21.8.1 (4 augustus 2021)
+## [!DNL Target Standard/Premium] 21.8.1 (nog te bepalen datum)
+
+>[!NOTE]
+>
+>De [!DNL Target Standard/Premium] 21.8.1-release is uitgesteld. In plaats van op 4 augustus 2021 te worden uitgebracht, wordt versie 21.8.1 in de komende dagen uitgebracht. Meer informatie indien beschikbaar.
 
 Deze onderhoudsversie bevat vele achterste verbeteringen, waaronder de volgende klantgerichte wijziging:
 
