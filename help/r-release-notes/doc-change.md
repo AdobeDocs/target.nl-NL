@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 5 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Opmerking die aangeeft dat de release [!DNL Target Standard/Premium] 18.8.1 wordt vertraagd. |
+|  | [[!UICONTROL Auto-Allocate] overzicht](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de rapportbron halverwege een [!UICONTROL Auto-Allocate] activiteit veranderen?</li></ul> |
 | 4 augustus | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Toegevoegde informatie over de instelling `optinEnabled`. |
 | 3 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de [!UICONTROL Target Delivery API]-release. |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Informatie toegevoegd over de aanstaande [!DNL Target Standard/Premium] versie 21.8.1 (4 augustus 2021). |
