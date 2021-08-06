@@ -4,9 +4,9 @@ description: Leer de implementatievereisten voor Analytics voor [!DNL Target] (A
 title: Wat moet ik weten voordat ik A4T implementeer?
 feature: Analyses voor doel (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Als u omleidingsaanbiedingen met A4T wilt gebruiken, moet u de volgende (of nieu
 
 * [!DNL Experience Cloud Visitor ID Service]: bezoekerAPI.js versie 2.3.0
 
-   **Opmerking:**  at.js 1.8.0 of hoger werkt niet meer met versies van de bezoeker-API ouder dan 2.5.0 voor het doorgeven van parameters  [!DNL Adobe Audience Manager] (AAM).
+   >[!NOTE]
+   >
+   >at.js 1.8.0+ en at.js 2.x+ werken niet meer met Bezoeker-API-versies ouder dan 2.5.0 voor het doorgeven van Adobe Audience Manager-parameters (AAM).
 
 * [!DNL Adobe Target]: at.js versie 1.6.2
 
