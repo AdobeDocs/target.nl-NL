@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
+source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2145'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 9 augustus | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Bijgewerkt onderwerp. |
 | 6 augustus | [Voordat u  [!UICONTROL Analytics for Target] (A4T) implementeert met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Bijgewerkte volgende opmerking:<ul><li>at.js 1.8.0+ en at.js 2.x+ werken niet meer met Bezoeker-API-versies ouder dan 2.5.0 voor het doorgeven van Adobe Audience Manager-parameters (AAM).</li></ul> |
 | 5 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Opmerking die aangeeft dat de release [!DNL Target Standard/Premium] 18.8.1 wordt vertraagd. |
 |  | [[!UICONTROL Auto-Allocate] overzicht](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de rapportbron halverwege een [!UICONTROL Auto-Allocate] activiteit veranderen?</li></ul> |
