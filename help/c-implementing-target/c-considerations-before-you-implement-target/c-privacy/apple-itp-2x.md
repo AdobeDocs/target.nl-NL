@@ -5,16 +5,14 @@ title: Hoe wordt  [!DNL Target] Apple ITP-ondersteuning verwerkt?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # Apple Intelligent Tracking Prevention (ITP) 2.x
-
-Informatie over [!DNL Adobe Target] ondersteuning voor ITP 2.x van Apple via de Experience Cloud ID-bibliotheek 4.3.
 
 Intelligent Tracking Prevention (ITP) is het initiatief van Apple om de privacy van Safari-gebruikers te beschermen. De eerste release van ITP, die in 2017 plaatsvond, was gericht op het gebruik van cookies van derden. In feite heeft Apple alle cookies van derden geblokkeerd, wat op zijn beurt weer ernstige hoofdpijn heeft veroorzaakt voor technische en technische bedrijven, omdat cookies van derden doorgaans worden gebruikt voor het bijhouden van bezoekers en het verzamelen van bezoekersgegevens. Apple is nu onderweg om beperkingen en beperkingen in te stellen voor het gebruik van cookies van eerste partijen in Safari.
 
@@ -24,11 +22,11 @@ Deze versies van ITP bevatten de volgende beperkingen:
 | --- | --- |
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Er zijn gemaximeerde clientcookies die met de API `document.cookie` op de browser worden geplaatst bij een vervaldatum van zeven dagen.<br>Release van 21 februari 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Verminderde de 7-daagse vervalsingsdop drastisch tot één dag.<br>Release van 24 april 2019. |
-| [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | Er zijn verschillende tijdelijke oplossingen verwijderd, zoals het gebruik van localStorage of het gebruik van JavaScript `Document.referrer property`.<br>Release van 23 september 2019. |
+| [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | Er zijn verschillende tijdelijke oplossingen verwijderd, zoals het gebruik van localStorage of het gebruik van JavaScript `Document.referrer property`.<br>Release van 23 september 2019.<br>De CNAME-camouflage-verdedigingsfunctie van ITP die in Safari 14, macOS Big Sur, Catalina, Mojave, iOS 14 en iPadOS 14 is uitgebracht. Alle cookies die door een derde CNAME-camouflage HTTP-respons worden gemaakt, verlopen over zeven dagen.<br>Aankondigd op 12 november 2020. |
 
 ## Wat is de impact voor mij als Adobe [!DNL Target] klant? {#impact}
 
-[!DNL Target] biedt JavaScript-bibliotheken waarmee u inhoud op uw pagina&#39;s kunt implementeren zodat u uw bezoekers in real-time kunt personaliseren.  [!DNL Target] Er zijn drie Target JavaScript-bibliotheken op .js 1.x, op.js 2.x die client-side [!DNL Target] cookies plaatsen in de browsers van uw bezoekers via de `document.cookie` API. Als gevolg hiervan worden [!DNL Target] cookies beïnvloed door ITP 2.x van Apple en verlopen deze na zeven dagen (met ITP 2.1) en na één dag (met ITP 2.2 en ITP 2.3).
+[!DNL Target] biedt JavaScript-bibliotheken waarmee u inhoud op uw pagina&#39;s kunt implementeren zodat u uw bezoekers in real-time kunt personaliseren.  [!DNL Target] Er zijn drie Target JavaScript-bibliotheken op .js 1.x, op.js 2.x die client-side [!DNL Target] cookies plaatsen in de browsers van uw bezoekers via de `document.cookie` API. Als gevolg hiervan worden cookies van [!DNL Target] beïnvloed door ITP 2.1, 2.2 en 2.3 van Apple en verlopen deze na zeven dagen (met ITP 2.1) en na één dag (met ITP 2.2 en ITP 2.3).
 
 Apple ITP 2.x beïnvloedt [!DNL Target] op de volgende gebieden:
 
@@ -41,28 +39,4 @@ Apple ITP 2.x beïnvloedt [!DNL Target] op de volgende gebieden:
 
 ## Heeft mijn huidige implementatie van [!DNL Target] gevolgen?
 
-Navigeer in een Safari-browser naar uw website waarop u een JavaScript-bibliotheek [!DNL Target] hebt. Als u een [!DNL Target] koekje ziet dat in de context van een CNAME, zoals `analytics.company.com` wordt geplaatst, dan wordt u niet beïnvloed door ITP 2.x.
-
-Als u de Experience Cloud-id (ECID)-bibliotheek gebruikt in aanvulling op de JavaScript-doelbibliotheek, wordt de implementatie beïnvloed op de manieren die in dit artikel worden vermeld: [Safari ITP 2.1 Impact op klanten van Adobe Experience Cloud en Experience Platform](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
-
-## Hoe kan ik het effect van toekomstige versies ITP 2.x aan Doel verlichten?
-
-Om het effect van toekomstige versies ITP 2.x aan Doel te verlichten, voltooi de volgende taken:
-
-1. Implementeer de Experience Cloud-id (ECID)-bibliotheek op uw pagina&#39;s.
-
-   Met de ECID-bibliotheek kunnen mensen identificeren met Experience Cloud Core-oplossingen. Met de ECID-bibliotheek kunt u dezelfde sitebezoekers en hun gegevens identificeren in verschillende Experience Cloud-oplossingen door permanente en unieke id&#39;s toe te wijzen. De ECID-bibliotheek wordt regelmatig bijgewerkt om u te helpen eventuele ITP-gerelateerde wijzigingen die van invloed zijn op uw implementatie, te beperken.
-
-   Voor ITP 2.x moet [ECID-bibliotheek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) worden gebruikt voor mitigatie.
-
-1. CNAME van Adobe en Inschrijven van het gebruik in het Beheerde Programma van het Certificaat van Adobe Analytics.
-
-   Nadat u de ECID-bibliotheek 4.3.0+ hebt geïnstalleerd, kunt u de CNAME van Adobe Analytics en het Beheerde Certificaatprogramma gebruiken. Met dit programma kunt u gratis een eersteklas certificaat voor cookies van andere bedrijven implementeren. De hefboomwerking CNAME zal klanten [!DNL Target] helpen de gevolgen van ITP 2.x verlichten.
-
-   Als u geen gebruik maakt van CNAME, kunt u het proces starten door met uw accountvertegenwoordiger te spreken en u in te schrijven in het [Adobe Beheerde certificaatprogramma](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
-
-Nadat u een bibliotheek van het Doel JavaScript samen met de bibliotheek ECID v4.3.0+ opstelt en in het Adobe Beheerde Programma van het Certificaat aan hefboomwerking CNAME inschrijft, zult u een robuust en op lange termijn matigingsplan voor op ITP betrekking hebbende veranderingen hebben.
-
-Aangezien de branche vooruitgang boekt bij het creëren van een veiliger web voor consumenten, is [!DNL Adobe Target] absoluut gecommitteerd aan het bieden van persoonlijke ervaringen terwijl het voldoen aan en het overtreffen van de privacyverwachtingen van bezoekers. [!DNL Adobe Target] heeft al steun aangekondigd voor het SameSite Chrome- [beleid van ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) Google naast ondersteuning voor het ITP 2.x van Apple.
-
-Aangezien het beleid zich blijft ontwikkelen om onze consumenten te beschermen, zal [!DNL Adobe] deze initiatieven ook blijven steunen in [!DNL Target], terwijl het helpen van onze klanten de best-in-klasse gepersonaliseerde ervaringen verstrekken.
+Als u naast de JavaScript-bibliotheek [!DNL Target] ook de Experience Cloud-id (ECID) gebruikt, wordt de implementatie beïnvloed op de manieren die in dit artikel worden vermeld: [Safari ITP 2.1 Impact op klanten van Adobe Experience Cloud en Experience Platform](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
