@@ -5,9 +5,9 @@ landing-page-description: Leer over de nieuwe eigenschappen, de verhogingen, en 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2d11409e9bab2db5d12c5961c7336040b8544614
+source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## [!DNL Target] node.js SDK 2.1.8 (11 augustus 2021)
+
+* Toegevoegde SDK-telemetriegegevensverzameling
+* Automated Delivery API client openapi-codegen
+
+Voor meer informatie over deze en vorige versies, zie [Logboek van de Verandering ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in [de documentatie van SDK van het Doel knoop.js](https://github.com/adobe/target-nodejs-sdk) op Github.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (nog te bepalen datum)
 
