@@ -5,7 +5,7 @@ landing-page-description: Leer over de nieuwe eigenschappen, de verhogingen, en 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
 
-## [!DNL Target] node.js SDK 2.1.8 (11 augustus 2021)
+## [!DNL Target] node.js SDK 2.2.0 (11 augustus 2021)
 
 * Toegevoegde SDK-telemetriegegevensverzameling
 * Automated Delivery API client openapi-codegen
