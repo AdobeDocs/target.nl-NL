@@ -5,9 +5,9 @@ landing-page-description: Leer over de nieuwe eigenschappen, de verhogingen, en 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
+
+## om 2.6.1.2021 (16 augustus 2021)
+
+* Bugcorrectie voor &quot;Geen artefact in cache beschikbaar voor hybride modus&quot; bij gebruik van apparaatbeslissingen.
 
 ## [!DNL Target] node.js SDK 2.2.0 (11 augustus 2021)
 
