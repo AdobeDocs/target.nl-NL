@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2195'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 19 augustus | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Steunt A4T virtuele rapportseries?</li></ul> |
 | 16 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br><br>[andat.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.6.1. |
 |  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Sectie &#39;Tips en trucs&#39; toegevoegd. |
 | 11 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Added release notes for the [!DNL Target] node.js SDK version 2.2.0. |
