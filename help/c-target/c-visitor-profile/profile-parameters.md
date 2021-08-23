@@ -4,7 +4,7 @@ description: Leer over bezoekersspecifieke attributen die in het profiel van de 
 title: Wat zijn profielkenmerken?
 feature: Soorten publiek
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2367'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Profielkenmerken instellen:
 
    | Type parameter | Beschrijving |
    |--- |--- |
-   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Opmerking**:  [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target], geeft u deze door met de API-methode voor het bijwerken van profiel. Zie [Profielupdate in de [!DNL Adobe Target] API-documentatie](http://developers.adobetarget.com/api/#updating-profiles) voor meer informatie. |
+   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Opmerking**:  [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target], geeft u deze door met de API-methode voor het bijwerken van profiel. Zie [Profielupdate in de [!DNL Adobe Target] API-documentatie](https://developers.adobetarget.com/api/#updating-profiles) voor meer informatie. |
    | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze fragmenten kunnen lopende totalen opslaan zoals het totale geld dat de consument besteedt en worden uitgevoerd op elke mbox-aanvraag. Zie Profielscriptkenmerken hieronder. |
 
 ## Profielscriptkenmerken {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
