@@ -4,9 +4,9 @@ description: Leer over bezoekersspecifieke attributen die in het profiel van de 
 title: Wat zijn profielkenmerken?
 feature: Soorten publiek
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ De volgende richtlijnen zijn bedoeld om vereenvoudigde profielmanuscripten te sc
    * Profielscripts moeten op prestaties worden getest voordat ze aan [!DNL Target] worden toegevoegd. Alle profielscripts worden uitgevoerd op elke mbox-aanvraag. Als profielscripts niet correct worden uitgevoerd, duurt het langer om mbox-aanvragen uit te voeren, wat invloed kan hebben op verkeer en conversie.
    * Als profielscripts te complex worden, kunt u [responstokens](/help/administrating-target/response-tokens.md) gebruiken.
 
-* Raadpleeg de documentatie bij de JS Rhino-engine voor meer informatie: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Zie de documentatie van de JS Rhino-engine voor meer informatie.
 
 ## Fouten opsporen in profielscripts {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
