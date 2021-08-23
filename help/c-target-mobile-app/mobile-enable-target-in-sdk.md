@@ -5,8 +5,7 @@ title: Hoe laat ik [!DNL Target] in de Adobe Mobile SDK toe?
 feature: Mobiel implementeren
 role: Developer
 exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 Voeg de SDK van Adobe Mobile Services toe aan uw app.
 
-1. Als u de SDK van Adobe Mobile Services niet hebt geïnstalleerd in uw app, gebruikt u uw Analytics- of Experience Cloud-gegevens en downloadt u de SDK van de [Adobe Mobile Services](https://mobilemarketing.adobe.com)-website.
+1. Als u de SDK van Adobe Mobile Services niet hebt geïnstalleerd in uw app, gebruikt u uw Analytics- of Experience Cloud-gegevens en downloadt u de SDK van de [Adobe Mobile Services](https://mobilemarketing.adobe.com/)-website.
 
 1. Voeg de SDK van Adobe Mobile Services toe aan uw app.
 
