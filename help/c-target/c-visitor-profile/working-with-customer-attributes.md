@@ -4,9 +4,9 @@ description: Leer hoe te om de gegevens van de ondernemingsklant van een gegeven
 title: Wat zijn klantkenmerken en hoe gebruik ik deze?
 feature: Soorten publiek
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,6 @@ Als u de Experience Cloud-id-service gebruikt, moet u een klant-id en verificati
 Zie de volgende bronnen voor meer informatie over het gebruik van klantkenmerken in [!DNL Target]:
 
 * [Creeer een bron van de klantenattributen en upload het gegevensdossier ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in de documentatie van de Diensten van  *Experience Cloud en van het Beleid*
-* [Klantkenmerken: Hoe meer u weet, des te beter u ](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) verbindt de  *Digitale Marketing Blog*
 
 ## Problemen die klanten vaak tegenkomen {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
