@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Opmerkingen bij de release
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '31009'
+source-wordcount: '30999'
 ht-degree: 0%
 
 ---
@@ -1956,7 +1956,7 @@ Deze [!DNL Target]-release bevat de volgende verbeteringen en oplossingen: :
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 met FP-11577 (of later) steunt nu  [!DNL at.js] implementaties met zijn  [!UICONTROL Adobe Target Cloud Services] integratie. Zie [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) en [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in de *Adobe Experience Manager 6.2* documentatie voor meer informatie.
+>[!DNL Adobe Experience Manager] 6.2 met FP-11577 (of later) steunt nu  [!DNL at.js] implementaties met zijn  [!UICONTROL Adobe Target Cloud Services] integratie. Zie [Feature Packs](https://experienceleague.adobe.com/docs/) en [Integrating with Adobe Target](https://experienceleague.adobe.com/docs/) in de *Adobe Experience Manager 6.2* documentatie voor meer informatie.
 
 Deze [!DNL Target]-release richt zich op verbeteringen van de bruikbaarheid en prestaties en bevat de volgende verbeteringen en correcties (nummer van de uitgave tussen haakjes is voor intern gebruik van Adobe):
 
