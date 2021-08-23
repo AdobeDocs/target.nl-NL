@@ -4,8 +4,7 @@ description: Toegang tot Adobe [!DNL Target] documentatie, waaronder online Help
 title: Waar kan ik documentatie voor Doel vinden?
 feature: Opmerkingen bij de release
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -26,11 +25,11 @@ Hier volgt een korte beschrijving van de meest gangbare documentatietypen die be
 | [Adobe Experience Platform Launch Target-documentatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informatie over het implementeren van [!DNL Target] met [!DNL Adobe Experience Platform Launch], het tagbeheerplatform van [!DNL Adobe] van de volgende generatie. Dit is de aangewezen methode om [!DNL Target] uit te voeren. |
 | [Adobe Customer Care Office-uren](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informatie over &quot;Office Hours&quot;, een initiatief dat wordt geleid door het Adobe Customer Care-team. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om te slagen met de [!DNL Adobe Experience Cloud]-oplossingen, waaronder [!DNL Target]. |
 | [Webinar-reeksen, basiskennis](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registratiegegevens en koppelingen naar vorige sessies van de [!DNL Target] Basics Webinar Series, een Success Webinar Series van de Klant die aan u door de Gemeenschap wordt gebracht. |
-| [Adobe Target Developers](http://developers.adobetarget.com/) | Informatie over de Adobe Target Developers-site helpt u bij het implementeren van [!DNL Target] op client-side toepassingen, servertoepassingen, mobiele apps, IoT en meer. U kunt uw [!DNL Target] gegevens aan derdeoplossingen ook uitvoeren. |
+| [Adobe Target Developers](https://developers.adobetarget.com/) | Informatie over de Adobe Target Developers-site helpt u bij het implementeren van [!DNL Target] op client-side toepassingen, servertoepassingen, mobiele apps, IoT en meer. U kunt uw [!DNL Target] gegevens aan derdeoplossingen ook uitvoeren. |
 | [Doel Recommendations API&#39;s](https://developers.adobetarget.com/api/recommendations/) | Informatie over de [!UICONTROL Recommendations] APIs die u programmatically met [!DNL Target] aanbevelingen servers laten in wisselwerking staan. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de interface [!DNL Target] doet. |
 | [Server Side Delivery-API&#39;s](https://developers.adobetarget.com/api/delivery-api/) | Informatie over de bronnen waaruit de Adobe Target Delivery-API bestaat. |
 | [SDK&#39;s aan de serverzijde van het doel](https://adobetarget-sdks.gitbook.io/docs/) | Verklaart hoe te om [!DNL Target] serverkant op te stellen gebruikend SDKs. |
-| [Doel: Adobe.IO-documentatie](http://developers.adobetarget.com/api/#introduction) | Informatie over de API&#39;s Admin en Profile REST van Adobe Target die gebruikmaken van de Adobe.IO-integratie voor het beheer van activiteiten, publiek, aanbiedingen, eigenschappen, rapporten, vakken, omgevingen en profielen. |
+| [Doel: Adobe.IO-documentatie](https://developers.adobetarget.com/api/#introduction) | Informatie over de API&#39;s Admin en Profile REST van Adobe Target die gebruikmaken van de Adobe.IO-integratie voor het beheer van activiteiten, publiek, aanbiedingen, eigenschappen, rapporten, vakken, omgevingen en profielen. |
 | [Adobe Experience Platform Mobile SDK&#39;s](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informatie over het implementeren van [!DNL Target] op mobiele apps. |
 
 Naast de bovenstaande bronnen gaat u naar [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), waar u:
