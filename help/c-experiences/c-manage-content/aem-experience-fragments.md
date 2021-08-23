@@ -4,7 +4,7 @@ description: Leer hoe te om AEM ervaringsfragmenten in Adobe te gebruiken  [!DNL
 title: Hoe gebruik ik Adobe Experience Manager (AEM) Experience Fragments?
 feature: Ervaringen en aanbiedingen
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Als u [!DNL AEM] wilt gebruiken om fragmenten in [!DNL Target] te ervaren, moet 
 Zie voor meer informatie:
 
 * **Adobe I/O**:  [Integratie met Adobe Target met behulp van Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) in de documentatie van de  _Gebruikershandleiding_ voor het beheer.
-* **[!DNL AEM]6.3**:  [Opent Adobe Analytics en Adobe ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) richt zich op de  _Adobe Experience Manager 6.3-_ documentatie.
-* **[!DNL AEM]6.4**:  [Open Adobe Analytics en Adobe ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) richt zich op de  _Adobe Experience Manager 6.4-_ documentatie.
-* **[!DNL AEM]6.5**:  [Open Adobe Analytics en Adobe ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) richt zich op de  *Adobe Experience Manager 6.5-* documentatie.
+* **[!DNL AEM]6.3**:  [Opent Adobe Analytics en Adobe ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) richt zich op de  _Adobe Experience Manager 6.3-_ documentatie.
+* **[!DNL AEM]6.4**:  [Open Adobe Analytics en Adobe ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) richt zich op de  _Adobe Experience Manager 6.4-_ documentatie.
+* **[!DNL AEM]6.5**:  [Open Adobe Analytics en Adobe ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) richt zich op de  *Adobe Experience Manager 6.5-* documentatie.
 
 ### Stap 2: Het ervaringsfragment maken
 
