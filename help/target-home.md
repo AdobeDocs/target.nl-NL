@@ -4,7 +4,7 @@ title: Waar kan ik  [!DNL Target] documentatie vinden?
 description: Leer hoe u Adobe [!DNL Target] kunt gebruiken om de ervaring van uw klanten aan te passen en uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overzicht
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Verklaart hoe te om server-kant van het Doel op te stellen. Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Adobe Experience Cloud-oplossingen.
 - [Doel Java SDK](https://github.com/adobe/target-java-sdk): Verklaart hoe te om server-kant van het Doel op te stellen. Met deze Java SDK kunt u Target eenvoudig integreren met andere Adobe Experience Cloud-oplossingen.
 - [Doel Recommendations-API](https://developers.adobetarget.com/api/recommendations/): Beschrijft de bronnen waaruit de officiële Adobe Target Recommendations API bestaat.
-- [Doel Adobe.IO-documentatie](http://developers.adobetarget.com/api/#introduction): Beschrijft hoe te om Admin en de REST APIs van het Profiel van het Doel te gebruiken die de integratie Adobe.IO gebruiken om activiteiten, publiek, aanbiedingen, eigenschappen, rapporten, dozen, milieu&#39;s, en profielen te beheren.
+- [Doel Adobe.IO-documentatie](https://developers.adobetarget.com/api/#introduction): Beschrijft hoe te om Admin en de REST APIs van het Profiel van het Doel te gebruiken die de integratie Adobe.IO gebruiken om activiteiten, publiek, aanbiedingen, eigenschappen, rapporten, dozen, milieu&#39;s, en profielen te beheren.
 
 ## Doel- en Adobe Experience Cloud-beheerders {#admins}
 
