@@ -5,10 +5,9 @@ title: Hoe voer ik  [!DNL Target] het gebruiken van de Lancering van Adobe uit?
 feature: Server-kant implementeren
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -24,10 +23,10 @@ In de volgende tabel worden de verschillende bronnen weergegeven waar u meer inf
 | Resource | Details |
 |--- |--- |
 | [Implementeren  [!DNL Target] met de  [!UICONTROL Adobe Target Extension Tutorial]](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#implement-solutions) | Deze zelfstudie bevat stapsgewijze instructies voor het implementeren van [!DNL Target] in een website met [!DNL Platform Launch]. Tot de onderwerpen behoren het toevoegen van de JavaScript-bibliotheek at.js, het afvuren van de globale box, het toevoegen van parameters en het integreren met andere oplossingen. Dit artikel maakt deel uit van een grotere zelfstudie die u toont hoe te om [!DNL Platform Launch], en andere [!DNL Adobe Experience Cloud] oplossingen uit te voeren. |
-| [[!DNL Adobe Platform Launch] Documentatie](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html#get-started) | Informatie over het opstellen van en het beheren van de analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
-| [Documentatie  [!DNL Target] voor Adobe-extensies](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informatie over het implementeren van [!DNL Target] met [!DNL Platform Launch]. |
+| [QuickStart-handleiding voor tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html) | Informatie over het opstellen van en het beheren van de analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen te aandrijven. |
+| [Documentatie  [!DNL Target] voor Adobe-extensies](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html) | Informatie over het implementeren van [!DNL Target] met [!DNL Platform Launch]. |
 
-## Voordelen van het implementeren van at.js met de [!DNL Target] [!DNL Platform Launch]-extensie {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Voordelen van het implementeren van at.js met de extensie [!DNL Target] [!DNL Platform Launch] {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 De volgende voordelen zijn alleen van toepassing als u [!DNL Platform Launch] gebruikt om at.js te implementeren. Daarom [!DNL Adobe] wordt sterk aangeraden [!DNL Platform Launch] te gebruiken in plaats van een handmatige implementatie van at.js.
 
