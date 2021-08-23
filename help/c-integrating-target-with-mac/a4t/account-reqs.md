@@ -5,10 +5,9 @@ title: Welke Vereisten van de Toestemming van de Gebruiker voor A4T worden verei
 feature: Analyses voor doel (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Voltooi de volgende taken in [!DNL Adobe Experience Cloud] [Admin Console](https
 
 Uw [!DNL Analytics]- en [!DNL Target]-gebruikersaccounts moeten aan uw Adobe ID zijn gekoppeld.
 
-Zie [Organisaties en account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html) voor meer informatie.
+Zie [Organisaties en account linking](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en) voor meer informatie.
 
 ### Experience Cloud-groepslidmaatschap configureren
 
