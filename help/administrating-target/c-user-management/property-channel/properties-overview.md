@@ -5,9 +5,9 @@ title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Beheer en configuratie
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
 
    * **Via een &quot;Algemene parameter in  [!DNL Adobe Launch]:**
 
-      Zie [Globale doelparameters toevoegen](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in de documentatie *Adobe Experience Platform Launch* voor meer informatie.
+      Zie [Globale doelparameters toevoegen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in de documentatie *Adobe Experience Platform Launch* voor meer informatie.
 
    * **Via de functie targetPageParams():** Plaats de volgende code in de  `<head>` tags, boven de verwijzing at.js.
 
