@@ -4,7 +4,7 @@ description: Leer hoe te om een auto-Wijs activiteit in Adobe te gebruiken [!DNL
 title: Wat is een automatisch toegewezen activiteit?
 feature: Automatisch toewijzen
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3349'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In dergelijke tests, gebruiken de meeste producten, met inbegrip van [!DNL Targe
 
 [!UICONTROL Auto-Allocate] alle impliciete vergelijkingen tussen ervaringen worden uitgevoerd en er wordt een &#39;&#39;echte&#39;&#39; winnaar gegenereerd. Er bestaat geen begrip van een &quot;controle&quot;ervaring in de test.
 
-[!UICONTROL Auto-Allocate] Wijst intelligent nieuwe bezoekers aan ervaringen toe tot het betrouwbaarheidsinterval van de beste ervaring niet met het betrouwbaarheidsinterval van een andere ervaring overlapt. Normaal gesproken zou dit proces valse positieven kunnen veroorzaken, maar [!UICONTROL Auto-Allocate] gebruikt betrouwbaarheidsintervallen die op [Bernstein Onquality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) worden gebaseerd die voor herhaalde evaluaties compenseren. Op dit moment is er een echte winnaar. Wanneer [!UICONTROL Auto-Allocate] stopt, op voorwaarde dat de bezoekers die op de pagina aankomen niet in aanzienlijke mate afhankelijk zijn van de tijd, is er ten minste een kans van 95% dat [!UICONTROL Auto-Allocate] een ervaring retourneert waarvan de werkelijke respons niet minder is dan 1% (relatief) dan de werkelijke respons van de winnende ervaring.
+[!UICONTROL Auto-Allocate] Wijst intelligent nieuwe bezoekers aan ervaringen toe tot het betrouwbaarheidsinterval van de beste ervaring niet met het betrouwbaarheidsinterval van een andere ervaring overlapt. Normaal gesproken zou dit proces valse positieven kunnen veroorzaken, maar [!UICONTROL Auto-Allocate] gebruikt betrouwbaarheidsintervallen die op [Bernstein Onquality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) worden gebaseerd die voor herhaalde evaluaties compenseren. Op dit moment is er een echte winnaar. Wanneer [!UICONTROL Auto-Allocate] stopt, op voorwaarde dat de bezoekers die op de pagina aankomen niet in aanzienlijke mate afhankelijk zijn van de tijd, is er ten minste een kans van 95% dat [!UICONTROL Auto-Allocate] een ervaring retourneert waarvan de werkelijke respons niet minder is dan 1% (relatief) dan de werkelijke respons van de winnende ervaring.
 
 ## Wanneer wordt [!UICONTROL Auto-Allocate] versus A/B of [!UICONTROL Automated Personalization] gebruikt {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
