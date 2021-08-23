@@ -4,7 +4,7 @@ description: 'Leer hoe te om de resultaten van een auto-Wijs A/B activiteit in A
 title: Hoe interpreteer ik automatisch toegewezen rapporten?
 feature: Automatisch toewijzen
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -41,13 +41,13 @@ Aan het einde van een A/B-activiteit garandeert Automatische toewijzing dat de b
 
 We gebruiken geen op p-waarde gebaseerd vertrouwen voor Automatisch toewijzen.
 
-In de kolom Vertrouwd in een activiteit voor automatisch toewijzen (zie hieronder) wordt de waarschijnlijkheid weergegeven dat een ervaring de winnaar is binnen een foutenmarge van 1% (het algoritme gebruikt dus een detecteerbaar effect van minimaal 1% tussen de beste en de op één na beste conversiekoers). Merk op dat het algoritme [Bernstein Onquality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) gebruikt om deze waarschijnlijkheid te berekenen.
+In de kolom Vertrouwd in een activiteit voor automatisch toewijzen (zie hieronder) wordt de waarschijnlijkheid weergegeven dat een ervaring de winnaar is binnen een foutenmarge van 1% (het algoritme gebruikt dus een detecteerbaar effect van minimaal 1% tussen de beste en de op één na beste conversiekoers). Merk op dat het algoritme [Bernstein Onquality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) gebruikt om deze waarschijnlijkheid te berekenen.
 
 Normale A/B-tests berekenen het vertrouwen op basis van p-waarden. Automatisch toewijzen gebruikt geen p-waarden. P-waarden berekenen de waarschijnlijkheid dat een bepaalde ervaring verschilt van het besturingselement. Deze p-waarden kunnen slechts worden gebruikt om te bepalen of een ervaring van de controle zou kunnen verschillend zijn. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
 
 >[!IMPORTANT]
 >
->Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). Doel houdt geen rekening met de basisconversiekoersen van een site en andere belangrijke aspecten die in de rekenmachine worden verwerkt om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
+>Doel toont een winnaar na een vooraf bepaald minimumaantal omzettingen; de uiteindelijke beslissing om de winnaar te kiezen moet echter altijd gebaseerd zijn op de resultaten van de Adobe Target [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). Het doel houdt geen rekening met de basisomrekeningskoersen van een site en andere belangrijke aspecten die in de calculator worden ingevoerd om de duur van de activiteit te bepalen. Als gevolg hiervan kan Target een winnaar eerder dan gerechtvaardigd weergeven op basis van een minimumaantal omzettingen. Zie [Voorbeeldgroottecalculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) voor meer informatie.
 
 ## Informatie over de rapportage van optillen en vertrouwen bij activiteiten voor automatisch toewijzen {#lift-confidence}
 
