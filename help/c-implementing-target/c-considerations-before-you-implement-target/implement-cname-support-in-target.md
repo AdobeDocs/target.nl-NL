@@ -5,9 +5,9 @@ title: Hoe gebruik ik CNAME als doel?
 feature: Privacy en beveiliging
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U kunt uw eigen certificaat opgeven. [!DNL Adobe] adviseert deze praktijk echter
 
 ### Hoe lang tot mijn nieuwe SSL certificaat verloopt?
 
-Certificaten die vóór 1 september 2020 zijn afgegeven, zijn certificaten van twee jaar. Certificaten die op of na 1 september 2020 zijn afgegeven, zijn certificaten van één jaar. U kunt meer over de beweging aan één jaar certificaten [hier ](https://www.digicert.com/position-on-1-year-certificates) lezen.
+Certificaten die vóór 1 september 2020 zijn afgegeven, zijn certificaten van twee jaar. Certificaten die op of na 1 september 2020 zijn afgegeven, zijn certificaten van één jaar.
 
 ### Welke hostnames moet ik kiezen? Hoeveel hostnames per domein zou ik moeten kiezen?
 
