@@ -5,8 +5,7 @@ title: Hoe kan ik overstappen van verouderde API's naar Adobe I/O?
 feature: Server-kant implementeren
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
@@ -35,11 +34,11 @@ De oudere API&#39;s worden uit bedrijf genomen wanneer u de optie voor het uit b
 | Datum | Details |
 |--- |--- |
 | 17 oktober 2017 | Alle API methodes die een schrijfverrichting (`saveCampaign`, `copyCampaign`, `saveHTMLOfferContent`, en `setCampaignState`) uitvoeren werden ontmanteld.<br>Dit is dezelfde datum waarop alle Classic doelgebruikersaccounts zijn ingesteld op de status Alleen-lezen. |
-| 14 november 2017 | De overige API&#39;s zijn uit bedrijf genomen. Dit is de datum waarop de Klassieke gebruikersinterface van het Doel werd ontmanteld |
+| 14 november 2018 | De overige API&#39;s zijn uit bedrijf genomen. Dit is de datum waarop de Klassieke gebruikersinterface van het Doel werd ontmanteld |
 
 Recommendations Classic API&#39;s worden niet beïnvloed door deze tijdlijn.
 
-## Equivalente methoden {#section_DDB42CCC172545B09CB728D794CC466B}
+## Gelijkwaardige methoden {#section_DDB42CCC172545B09CB728D794CC466B}
 
 De volgende tabel bevat een lijst met equivalente nieuwe doel-API-methoden voor de oudere API-methoden. De nieuwe API&#39;s retourneren JSON in vergelijking met de XML-respons van de verouderde API&#39;s.
 
@@ -47,21 +46,21 @@ De nieuwe API-methoden zijn gekoppeld aan de corresponderende sectie in de API-d
 
 | Groepering | Oudere API-methode | Nieuwe API-methode | Notities |
 |--- |--- |--- |--- |
-| Campagne/activiteit | Campagne maken | [AB-](http://developers.adobetarget.com/api/#create-ab-activity)<br>[activiteit maken](http://developers.adobetarget.com/api/#create-xt-activity) | De nieuwe APIs verstrekt afzonderlijke creeert methodes voor AB en XT |
-|  | Campagne bijwerken | [AB ](http://developers.adobetarget.com/api/#update-ab-activity)<br>[ActivityUpdate XT-activiteit bijwerken](http://developers.adobetarget.com/api/#update-xt-activity) |  |
+| Campagne/activiteit | Campagne maken | [AB-](https://developers.adobetarget.com/api/#create-ab-activity)<br>[activiteit maken](https://developers.adobetarget.com/api/#create-xt-activity) | De nieuwe APIs verstrekt afzonderlijke creeert methodes voor AB en XT |
+|  | Campagne bijwerken | [AB ](https://developers.adobetarget.com/api/#update-ab-activity)<br>[ActivityUpdate XT-activiteit bijwerken](https://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | Campagne kopiëren | N.v.t. | De API&#39;s voor het maken van activiteiten gebruiken |
-|  | Lijst met campagnes | [Lijstactiviteiten](http://developers.adobetarget.com/api/#list-activities) |  |
-|  | Campagnestaat | [Activiteitenstatus bijwerken](http://developers.adobetarget.com/api/#update-activity-state) |  |
-|  | Campagneweergave | [Krijg Activiteit van AB door ](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[activiteit IDGet XT door identiteitskaart](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
+|  | Lijst met campagnes | [Lijstactiviteiten](https://developers.adobetarget.com/api/#list-activities) |  |
+|  | Campagnestaat | [Activiteitenstatus bijwerken](https://developers.adobetarget.com/api/#update-activity-state) |  |
+|  | Campagneweergave | [Krijg Activiteit van AB door ](https://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[activiteit IDGet XT door identiteitskaart](https://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | Campagne-id van derden | N.v.t. | Als u een id van een andere leverancier gebruikt, kunnen de relevante activiteitsmethoden worden gebruikt |
-| Aanbiedingen | Voorstel maken | [Voorstel maken](http://developers.adobetarget.com/api/#create-offer) |  |
-|  | Voorstel ophalen | [Voorstel ophalen op ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
-|  | Aanbiedingslijst | [Aanbiedingen](http://developers.adobetarget.com/api/#list-offers) |  |
+| Aanbiedingen | Voorstel maken | [Voorstel maken](https://developers.adobetarget.com/api/#create-offer) |  |
+|  | Voorstel ophalen | [Voorstel ophalen op ID](https://developers.adobetarget.com/api/#get-offer-by-id) |  |
+|  | Aanbiedingslijst | [Aanbiedingen](https://developers.adobetarget.com/api/#list-offers) |  |
 |  | Maplijst | N.v.t. | Mappen worden niet ondersteund in Target Standard/Premium |
-| Rapportage | Rapport Campagneprestaties | [Get AB Performance ](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[ReportGet XT Performance Report](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
-|  | Controlerapport | [Controlerapport ophalen](http://developers.adobetarget.com/api/#get-audit-report) |  |
-|  | 1-1 Inhoudsrapport | [AP-prestatierapport ophalen](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
-| Accountinstellingen | Hostgroepen ophalen | [Omgevingen weergeven](http://developers.adobetarget.com/api/#list-environments) |  |
+| Rapportage | Rapport Campagneprestaties | [Get AB Performance ](https://developers.adobetarget.com/api/#get-ab-performance-report)<br>[ReportGet XT Performance Report](https://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+|  | Controlerapport | [Controlerapport ophalen](https://developers.adobetarget.com/api/#get-audit-report) |  |
+|  | 1-1 Inhoudsrapport | [AP-prestatierapport ophalen](https://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
+| Accountinstellingen | Hostgroepen ophalen | [Omgevingen weergeven](https://developers.adobetarget.com/api/#list-environments) |  |
 
 ## Uitzonderingen {#section_09CF9A0E289149279783B4801D1B6D4C}
 
