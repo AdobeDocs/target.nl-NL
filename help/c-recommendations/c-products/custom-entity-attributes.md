@@ -5,8 +5,7 @@ title: Hoe gebruik ik aangepaste entiteitskenmerken?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -25,7 +24,7 @@ De maximale lengte van aangepaste kenmerken van entiteiten met een enkele waarde
 
 Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500 waarden bevatten. Elke individuele waarde is beperkt tot 100 tekens. Het totale aantal tekens voor alle waarden moet in overeenstemming zijn met de beperkingen voor de maximumlengte van aangepaste attributen voor entiteiten met één waarde (zie hierboven).
 
-## Eigen kenmerkwaarden entiteit {#section_313331A9F8194A89B5EDD89363018651}
+## Kenmerkwaarden van aangepaste entiteit {#section_313331A9F8194A89B5EDD89363018651}
 
 Aangepaste entiteitskenmerken kunnen één waarde of meerdere waarden bevatten. Kenmerkwaarden voor entiteit worden weergegeven in de productweergave.
 
@@ -61,7 +60,7 @@ Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het k
 * Arrays moeten één waardetype bevatten. Arrays met gemengde waarden ( `["AB",1,true]`) worden niet ondersteund.
 * Een kenmerk met meerdere waarden dat een geneste JSON-array ( `[10,12,[1,2,3]]`) bevat, wordt behandeld als een kenmerk met één waarde.
 
-## Meerwaardekenmerken implementeren {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Meerdere-waardekenmerken implementeren {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund bij gebruik van feeds (CSV), `targetPageParams`, Delivery API en de Save entities API om producten te uploaden. Nieuwe waarden vervangen huidige waarden. zij worden niet toegevoegd. Lege arrays ( []) worden beschouwd als arrays zonder waarden.
 
@@ -127,9 +126,9 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Raadpleeg de [Adobe Recommendations API-documentatie](http://developers.adobetarget.com/api/recommendations) voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
+Raadpleeg de [Adobe Recommendations API-documentatie](https://developers.adobetarget.com/api/recommendations) voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
 
-## Operatoren gebruiken met attributen {#section_83C2288A805242D9A02EBC4F07DEE945} voor meerdere waarden
+## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Wanneer u exploitanten op multi-getaxeerde douanekenmerken in algoritmeopname regels, catalogusregels, en uitsluitingsregels toepast, zal het resultaat *true* zijn als minstens één waarde in de lijst de verrichting (booleaanse *of*) overgaat.
 
@@ -252,7 +251,7 @@ Voorbeeld: `price dynamically ranges in 80% to 120% of 100`
 >
 >** Dubbel is een Java-gegevenstype. Voor operatoren die numerieke waarden nodig hebben, worden bij het omzetten in dubbele waarden geen niet-numerieke waarden in aanmerking genomen in de resultaten.
 
-## Kenmerken van meerdere waarden in ontwerpen {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Kenmerken met meerdere waarden in ontwerpen {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Kenmerken met meerdere waarden worden weergegeven als een lijst met door komma&#39;s gescheiden waarden wanneer hiernaar wordt verwezen in een ontwerp.
 
