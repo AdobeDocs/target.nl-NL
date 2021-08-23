@@ -4,10 +4,9 @@ description: Vind antwoorden op vragen die vaak over het bekijken van rapporten 
 title: Antwoorden op vragen over het bekijken van Rapporten met A4T vinden?
 feature: Analyses voor doel (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2502'
 ht-degree: 1%
 
 ---
@@ -93,27 +92,27 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 5 | 1 | 1 |
 
 De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via persistentie van de eVar. De gegevens zien er nu als volgt uit:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 1 | 10 | 2 | 3 |
 
 De gebruiker komt terug op 1 maart en ziet een nieuwe activiteit, ABC. De gebruiker geeft ook vijf pagina&#39;s weer. Omdat de activiteit XYZ nog de gebruiker door persistentie volgt, en deze gebruiker dan ABC reeks heeft, zult u twee lijnpunten in het melden zien:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 1 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 3 | 5 | 3 | 3 |
 
 De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar wordt opnieuw ingesteld op 1 april, zodat u dat ziet in de rapportage. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers | Orders |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 3 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 3 |
 | Totaal | 2 | 20 | 1 | 1 | 1 |
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target]-rapportage, omdat u geen [!DNL Target]-activiteit tegen een andere activiteit plaatst om te zien welke meer succes heeft, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items in één activiteit. Het is voor een gebruiker niet mogelijk om verschillende ervaringen in dezelfde activiteit te zien zodat u zich geen zorgen hoeft te maken over kruisbesmetting van orderkrediet.
@@ -142,9 +141,9 @@ In de volgende lijst worden redenen beschreven waarom dezelfde bezoeker kan word
 * Als de bezoeker `mbox3rdPartyId` gebruikt, kan [!DNL Target] de bezoeker in een andere ervaring samenvoegen met het profiel van de derde-partij-id, zodat deze overeenkomt met de id van de derde. Zie [Real-Time Profile Syncing voor mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732) voor meer informatie.
 * [!DNL Analytics] Verschillende apparaten zoals dezelfde bezoeker kunnen op een andere manier worden bijgehouden dan deze apparaten  [!DNL Target] bijhoudt: De installatie van de id van een andere leverancier in  [!DNL Target] is anders dan in Analytics.
 
-## Steunt A4T virtuele rapportseries?
+## Steunt A4T virtuele rapportseries? {#virtual}
 
-Virtuele rapportsuites worden *niet* opgenomen in de [!UICONTROL Report Suite] lijst en het publiek van virtuele rapportsuites wordt niet gesteund in A4T rapportering.
+Hoewel virtuele rapportsuites niet in [!UICONTROL Report Suite] lijst worden omvat, hebben om het even welke die A4T gegevens met een rapportreeks worden gedeeld die met een virtuele rapportreeks in [!DNL Analytics] wordt verbonden toegang tot die gegevens. Merk op dat om het even welk publiek dat van een virtuele rapportreeksen wordt gecreeerd niet kan worden gedeeld terug naar [!DNL Target].
 
 ## Kan ik het percentage van verkeerstoewijzing in een activiteit veranderen die A4T gebruikt nadat de activiteit is geactiveerd?
 
