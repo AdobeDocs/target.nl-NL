@@ -5,7 +5,7 @@ title: Hoe gebruik ik de functie adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Deze functie laat u veelvoudige aanbiedingen terugwinnen door in veelvoudige doz
 
 >[!NOTE]
 >
->Raadpleeg de [Delivery API documentatie](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) voor informatie over de acceptabele typen voor alle hieronder vermelde velden.
+>Raadpleeg de [Delivery API documentatie](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) voor informatie over de acceptabele typen voor alle hieronder vermelde velden.
 
 | Veldnaam | Vereist? | Beperkingen | Beschrijving |
 | --- | --- | --- | --- |
