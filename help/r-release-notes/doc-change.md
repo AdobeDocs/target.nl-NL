@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Opmerkingen bij de release
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '2195'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 23 augustus | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 8 september 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
 | 19 augustus | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Steunt A4T virtuele rapportseries?</li></ul> |
 | 16 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br><br>[andat.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.6.1. |
 |  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Sectie &#39;Tips en trucs&#39; toegevoegd. |
