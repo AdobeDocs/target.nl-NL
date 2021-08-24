@@ -5,9 +5,9 @@ title: Kan ik  [!DNL Target] zonder een Manager van de Markering uitvoeren?
 feature: Server-kant implementeren
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1632'
 ht-degree: 3%
 
 ---
@@ -117,10 +117,10 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target]-interface of de
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Platform launch van Adobe om Doel uit te voeren.
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Dit is de voorkeursmethode voor implementatie  [!DNL Target] en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van markeringen in [!DNL Adobe Experience Platform] om [!DNL Target] uit te voeren.
    >
    >
-* Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js de Details van de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* Het [!DNL Target] team steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js de Details van de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
 ### Download at.js met behulp van de [!DNL Target]-interface {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target]-interface of de
 
 at.js moet worden geïmplementeerd in het `<head>`-element van elke pagina van uw website.
 
-Een typische implementatie van Doel die geen markeringsmanager zoals [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) gebruikt ziet als volgt uit:
+Een typische implementatie van Doel die geen markeringsmanager gebruikt, zoals markeringen in [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) kijkt als dit:
 
 ```
 <!doctype html> 
