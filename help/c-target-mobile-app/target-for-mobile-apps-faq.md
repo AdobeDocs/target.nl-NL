@@ -5,9 +5,9 @@ title: Wat worden vaak gestelde vragen over [!DNL Target] voor mobiele apps?
 feature: Mobiel implementeren
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Lijst met veelgestelde vragen over [!DNL Target] voor mobiele apps.
 
-## Moet ik [!DNL Adobe Experience Platform Launch] gebruiken om SDK op te stellen, of kan ik SDK opstellen zonder [!DNL Launch] te gebruiken?
+## Moet ik labels gebruiken in [!DNL Adobe Experience Platform] om de SDK te implementeren, of kan ik de SDK implementeren zonder [!DNL Launch] te gebruiken?
 
 De SDK is beschikbaar op de [Adobe Marketing Cloud-it](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Als u [tags niet gebruikt in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), moet u uw eigen instellingenbestand beheren en dit beheren in uw app.
 
