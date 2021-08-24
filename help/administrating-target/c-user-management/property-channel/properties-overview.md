@@ -5,9 +5,9 @@ title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Beheer en configuratie
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De volgende lijst maakt een lijst van de taken u zou moeten uitvoeren om eigensc
 | 2. Een werkruimte maken (productprofiel) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Gebruikersgroepen maken (optioneel) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Eigenschappen maken | [!DNL Target] UI |
-| 5: Werk uw implementatie bij om de parameter `at_property` op te nemen | [!DNL Target] UI, at.js-functies, of  [!DNL Adobe Experience Platform Launch] |
+| 5: Werk uw implementatie bij om de parameter `at_property` op te nemen | [!DNL Target] UI, at.js-functies of -tags in  [!DNL Adobe Experience Platform] |
 | 6: Rollen en machtigingen opgeven | [!DNL Adobe Admin Console for Enterprise] |
 
 Voor die taken die in [!DNL Adobe Admin Console for Enterprise] worden uitgevoerd, toegang tot de console door deze stappen te volgen:
@@ -146,9 +146,9 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
 
    Er zijn verschillende manieren om uw [!DNL Target]-implementatie bij te werken. De volgende methoden kunnen bijvoorbeeld worden gebruikt voor webpagina&#39;s:
 
-   * **Via een &quot;Algemene parameter in  [!DNL Adobe Launch]:**
+   * **Via een &quot;Algemene parameter in tags in   [!DNL Adobe Experience Platform]:**
 
-      Zie [Globale doelparameters toevoegen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in de documentatie *Adobe Experience Platform Launch* voor meer informatie.
+      Zie [Globale doelparameters toevoegen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in de documentatie *Overzicht van tags* voor meer informatie.
 
    * **Via de functie targetPageParams():** Plaats de volgende code in de  `<head>` tags, boven de verwijzing at.js.
 
