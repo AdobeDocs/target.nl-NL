@@ -5,9 +5,9 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Beheer en configuratie
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2991'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ De volgende termen worden in deze sectie gebruikt en zijn mogelijk nieuw voor ge
 
 ### Eigenschap
 
-De eigenschappen zijn van nature gelijkaardig aan eigenschappen binnen [!DNL Adobe Platform Launch] in zoverre dat zij een uniek codefragment gebruiken om hen te onderscheiden.
+De eigenschappen zijn van nature gelijkaardig aan eigenschappen binnen [!DNL Adobe Experience Platform] in zoverre dat zij een uniek codefragment gebruiken om hen te onderscheiden.
 
 Een webeigenschap is een bibliotheek met regels en één insluitcode. Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen zijn.
 
@@ -265,7 +265,7 @@ Activiteiten die vóór de migratie zijn gemaakt, worden in de standaardwerkruim
 
 ### Waarom krijg ik een foutenmelding erop wijst die dat geen bezit aan deze activiteit wordt geassocieerd, alhoewel er een toegewezen bezit is?
 
-Als u [!DNL Target] met [!DNL Adobe Experience Platform Launch] hebt uitgevoerd en een foutenmelding krijgt erop wijzend dat er geen bezit verbonden aan de activiteit is, ga de `at_property` parameter met de `targetPageParams` functie over.
+Als u [!DNL Target] met markeringen in [!DNL Adobe Experience Platform] hebt uitgevoerd en een foutenmelding krijgt erop wijzend dat er geen bezit verbonden aan de activiteit is, ga de `at_property` parameter met de `targetPageParams` functie over.
 
 ### Zijn klikspooromzettingen geregistreerd als een omleidingspagina en activiteit URL tot verschillende eigenschappen behoren?
 
