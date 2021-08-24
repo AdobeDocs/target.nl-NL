@@ -4,9 +4,9 @@ description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Tar
 title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Zie [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md
 
 Geldige JSON-opmaak is vereist.
 
-De hieronder getoonde functie `targetPageParams` is vooral nuttig als u een oplossing van het markeringsbeheer gebruikt om uw pagina&#39;s uit te voeren. [!DNL Adobe Experience Platform Launch] plaatst de verwijzing at.js/mbox.js en de  `targetPageParams` functie op uw pagina en staat u toe om de waarden te vormen. Plaats die functie voor uw aanroep naar at.js/mbox.js of plaats deze in de sectie Extra JavaScript van uw at.js/mbox.js.
+De hieronder getoonde functie `targetPageParams` is vooral nuttig als u een oplossing van het markeringsbeheer gebruikt om uw pagina&#39;s uit te voeren. Met labels in [!DNL Adobe Experience Platform] worden de verwijzing at.js/mbox.js en de functie `targetPageParams` op de pagina geplaatst en kunt u de waarden configureren. Plaats die functie voor uw aanroep naar at.js/mbox.js of plaats deze in de sectie Extra JavaScript van uw at.js/mbox.js.
 
 ## Alle pagina&#39;s {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
