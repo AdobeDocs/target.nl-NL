@@ -5,21 +5,20 @@ title: Kan ik  [!DNL Target] zonder een Manager van de Markering uitvoeren?
 feature: Server-kant implementeren
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1640'
 ht-degree: 3%
 
 ---
 
 # [!DNL Target] implementeren zonder tagbeheer
 
-Informatie over het implementeren van [!DNL Adobe Target] zonder een tagbeheer ([!DNL Adobe Experience Platform Launch]).
+Informatie over het implementeren van [!DNL Adobe Target] zonder gebruik te maken van een of meer tags in [!DNL Adobe Experience Platform].
 
 >[!NOTE]
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis de voorkeursmethode voor het implementeren van Target en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van de Platform launch van Adobe om Doel uit te voeren.
+>Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) hebben de voorkeur voor de implementatie van [!DNL Target] en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer het gebruiken van markeringen in [!DNL Adobe Experience Platform] om [!DNL Target] uit te voeren.
 
 Als u de pagina [!UICONTROL Implementation] wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -33,7 +32,7 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 >[!NOTE]
 >
->U kunt instellingen in de bibliotheek at.js overschrijven in plaats van de instellingen in de gebruikersinterface van Target Standard/Premium te configureren of REST API&#39;s te gebruiken. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
+>U kunt instellingen in de bibliotheek at.js overschrijven in plaats van de instellingen in de gebruikersinterface van [!DNL Target Standard/Premium] te configureren of REST API&#39;s te gebruiken. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
 
 ## Accountgegevens
 
@@ -41,9 +40,9 @@ U kunt de volgende accountdetails weergeven. Deze instellingen kunnen niet worde
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL Client Code] | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de doel-API&#39;s. |
+| [!UICONTROL Client Code] | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de [!DNL Target]-API&#39;s. |
 | [!UICONTROL IMS Organization ID] | Deze id koppelt uw implementatie aan uw [!DNL Adobe Experience Cloud]-account. |
-| [!UICONTROL On-Device Decisioning] | Schuif de schakeloptie naar de stand &quot;aan&quot; om de apparaatbesturing in te schakelen.<br>Door op het apparaat te beslissen kunt u uw A/B- en Experience Targeting (XT)-campagnes op uw server in het cachegeheugen plaatsen en in het geheugen beslissen bij bijna-nullatentie. Zie [Inleiding tot apparaatbesluitvorming](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de handleiding *Adobe Target SDKs* voor meer informatie. |
+| [!UICONTROL On-Device Decisioning] | Schuif de schakeloptie naar de stand &quot;aan&quot; om de apparaatbesturing in te schakelen.<br>Met apparaatbeslissingen kunt u uw A/B- en  [!UICONTROL Experience Targeting] (XT)-campagnes op uw server in het cachegeheugen plaatsen en de geheugenbesluitvorming bij bijna-nullatentie uitvoeren. Voor meer informatie, zie [Inleiding aan op-apparatenbesluit](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in *[!DNL Adobe Target]SDKs* gids. |
 | [!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.] | (Voorwaardelijk) Deze optie wordt weergegeven als u het bepalen op het apparaat inschakelt.<br>Schuif de schakeloptie naar de positie &quot;aan&quot; als u wilt dat al uw live doelactiviteiten die in aanmerking komen voor beslissingen op het apparaat automatisch worden opgenomen in het artefact.<br>Als u deze schakeloptie uitschakelt, moet u alle beslissingsactiviteiten op het apparaat opnieuw maken en activeren, zodat deze worden opgenomen in het gegenereerde regelartefact. |
 
 ## Implementatiemethoden
@@ -124,7 +123,7 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target]-interface of de
 * Het team van het Doel steunt allebei at.js 1.** xand at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js de Details van de Versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### Download at.js met de [!DNL Target]-interface {#section_1F5EE401C2314338910FC57F9592894E}
+### Download at.js met behulp van de [!DNL Target]-interface {#section_1F5EE401C2314338910FC57F9592894E}
 
 [!DNL at.js] downloaden van de [!DNL Target] interface:
 
@@ -244,7 +243,7 @@ Houd rekening met de volgende belangrijke opmerkingen:
 * Als u JavaScript-hulplijnbibliotheken gebruikt, zoals jQuery, neemt u deze vóór Target op, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
 * Neem om .js op in de `<head>` van uw pagina&#39;s.
 
-## Conversies bijhouden {#task_E85D2F64FEB84201A594F2288FABF053}
+## Omzettingen bijhouden {#task_E85D2F64FEB84201A594F2288FABF053}
 
 In het vak Bevestiging van bestelling worden gegevens over bestellingen op uw site vastgelegd en wordt rapportage op basis van inkomsten en bestellingen toegestaan. Met het selectievakje Order Confirmation (Bevestiging bestellen) kunt u ook aanbevelingen uitvoeren, zoals &quot;People that purchase product x also purchase product y.&quot; (Personen die het product hebben gekocht).
 
