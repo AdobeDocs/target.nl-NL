@@ -5,9 +5,9 @@ title: Hoe werkt de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1105'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ De bibliotheek at.js is de nieuwe implementatiebibliotheek voor Doel. De bibliot
 
 Zie [JavaScript-bibliotheken van doel](/help/c-intro/how-target-works.md#libraries) voor meer informatie.
 
-In de [!DNL Target]-implementatie hieronder worden de volgende [!DNL Adobe Experience Cloud]-oplossingen geïmplementeerd: Analytics, Target en Audience Manager. Daarnaast worden de volgende Experience Cloud core services geïmplementeerd: Adobe Starten, Soorten publiek en Bezoekersidentiteitsservice.
+In de [!DNL Target]-implementatie hieronder worden de volgende [!DNL Adobe Experience Cloud]-oplossingen geïmplementeerd: Analytics, Target en Audience Manager. Daarnaast worden de volgende Experience Cloud core services geïmplementeerd: [!DNL Adobe Experience Platform], [!DNL Audiences] en [!DNL Visitor ID Service].
 
 ## Wat is het verschil tussen at.js 1.*Workflowdiagrammen* bij.js 2.x uitbreiden?
 
@@ -58,7 +58,7 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 | Stap | Details |
 | --- | --- |
-| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
 | 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
@@ -80,7 +80,7 @@ Zie [Begrijpen hoe at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-dia
 | Stap | Beschrijving | Bellen | Beschrijving |
 |--- |--- |--- |--- |
 | 3 | De vraag keert [!DNL Experience Cloud ID] (MCID) terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen. |
-| 3 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De opslag vraagt gekwalificeerd publiek van [!UICONTROL Audience Library] (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Audience Manager], enz. wordt gedeeld).<br>Klantkenmerken worden  [!DNL Profile Store] in een batchproces naar de klant verzonden. |
+| 1 | Er wordt een globaal mbox-verzoek ingediend, inclusief alle geconfigureerde parameters, MCID, SDID en klant-id (optioneel). | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De opslag vraagt gekwalificeerd publiek van [!UICONTROL Audience Library] (bijvoorbeeld, publiek dat van [!DNL Adobe Analytics], [!DNL Audience Manager], enz. wordt gedeeld).<br>Klantkenmerken worden  [!DNL Profile Store] in een batchproces naar de klant verzonden. |
 | 5 | Op basis van de URL, mbox-parameters en profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd aan de bezoeker. | 6 | Gerichte inhoud wordt teruggestuurd naar pagina, met eventueel ook profielwaarden voor extra personalisatie.<br>De ervaring wordt zo snel mogelijk getoond zonder flikkering van standaardinhoud. |
 | 7 | [!DNL Analytics] gegevens worden naar gegevensverzamelingsservers verzonden. | 8 | [!DNL Target] gegevens worden via de SDID aan  [!DNL Analytics] gegevens aangepast en worden in de  [!DNL Analytics]  rapportageopslag verwerkt.<br>[!DNL Analytics] gegevens kunnen vervolgens zowel in  [!DNL Analytics] als   [!DNL Target] via  [!DNL Analytics for Target] (A4T) rapporten worden bekeken. |
 
