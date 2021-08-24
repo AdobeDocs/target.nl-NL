@@ -4,10 +4,9 @@ description: Leer hoe u Adobe [!DNL Target] at.js 2.x to implement [!DNL Target]
 title: Kan ik  [!DNL Target] implementeren voor toepassingen van één pagina (SPA)?
 feature: Server-kant implementeren
 role: Developer
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2768'
 ht-degree: 1%
 
 ---
@@ -71,7 +70,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPA in mening. Eerdere versies van at.js en mbox.js bieden geen ondersteuning voor Adobe Target Views en VEC for SPA.
 
-   Download bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden opgesteld via Adobe Launch. De Adobe Target Extensions zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via tags in [!DNL Adobe Experience Platform]. De extensies [!DNL Adobe Target] zijn momenteel echter niet bijgewerkt en worden wel ondersteund.
 
 1. Implementeer de nieuwste functie van `triggerView()` op uw sites bij .js 2.x.
 
@@ -209,9 +208,9 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 | Stap | Details |
 | --- | --- |
-| 1 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
+| 3 | `triggerView()` wordt opgeroepen in de SPA om de weergave te renderen en acties toe te passen om visuele elementen te wijzigen. |
 | 2 | De gerichte inhoud voor de mening wordt gelezen van het geheime voorgeheugen. |
-| 1 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
+| 3 | Gerichte inhoud wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud. |
 | 4 | Het verzoek om een melding wordt verzonden naar de [!DNL Target] Opslag van het Profiel om de bezoeker in de activiteit en verhogingsmetriek te tellen. |
 | 5 | Analytische gegevens die naar de Servers van de Inzameling van Gegevens worden verzonden. |
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
@@ -224,7 +223,7 @@ Nadat u klaar bent met het installeren van at.js 2.x en het toevoegen van `trigg
 >
 >De VEC voor SPA is in feite dezelfde VEC als voor gewone webpagina&#39;s, maar er zijn enkele extra mogelijkheden beschikbaar wanneer u een app van één pagina opent met `triggerView()` geïmplementeerd.
 
-## Gebruik TriggerView om ervoor te zorgen dat A4T correct met at.js 2.x en SPA {#triggerview} werkt
+## Gebruik TriggerView om ervoor te zorgen dat A4T correct met at.js 2.x en SPA werkt {#triggerview}
 
 Om ervoor te zorgen dat [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) correct met at.js 2.x werkt, ben zeker om zelfde SDID in het verzoek van het Doel en in het verzoek van Analytics te verzenden.
 
@@ -269,11 +268,11 @@ document.addEventListener("at-view-end", function(e) {
 >
 >U moet de gebeurtenissen `at-view-start` en `at-view-end` in brand steken. Deze gebeurtenissen maken geen deel uit van aangepaste gebeurtenissen at.js.
 
-Hoewel in deze voorbeelden JavaScript-code wordt gebruikt, kan dit alles worden vereenvoudigd als u een tagbeheer gebruikt, zoals [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Hoewel in deze voorbeelden JavaScript-code wordt gebruikt, kan dit alles worden vereenvoudigd als u een tagbeheer gebruikt, zoals tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 Als de voorafgaande stappen worden gevolgd zou u een robuuste oplossing A4T voor SPA moeten hebben.
 
-## Best practices voor implementatie {#bp}
+## Best practices implementeren {#bp}
 
 met API&#39;s van het type at.js 2.x kunt u uw [!DNL Target]-implementatie op vele manieren aanpassen, maar het is belangrijk dat u de juiste volgorde van bewerkingen tijdens dit proces volgt.
 
@@ -283,9 +282,9 @@ De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoer
 
 | Stap | Handeling | Details |
 | --- | --- | --- |
-| 1 | Bezoeker-API JS laden | Deze bibliotheek is verantwoordelijk voor het toewijzen van een ECID aan de bezoeker. Deze id wordt later gebruikt door andere [!DNL Adobe]-oplossingen op de webpagina. |
+| 3 | Bezoeker-API JS laden | Deze bibliotheek is verantwoordelijk voor het toewijzen van een ECID aan de bezoeker. Deze id wordt later gebruikt door andere [!DNL Adobe]-oplossingen op de webpagina. |
 | 2 | Laden bij.js 2.x | at.js 2.x laadt alle noodzakelijke APIs die u gebruikt om [!DNL Target] verzoeken en meningen uit te voeren. |
-| 1 | [!DNL Target] verzoek uitvoeren | Als u een gegevenslaag hebt, adviseren wij dat u kritieke gegevens laadt die worden vereist om naar [!DNL Target] te verzenden alvorens [!DNL Target] verzoek uit te voeren. Dit laat u `targetPageParams` gebruiken om het even welke gegevens te verzenden u voor het richten wilt gebruiken. U moet ervoor zorgen dat u in deze API-aanroep een verzoek indient voor uitvoering > pageLoad en prefetch > weergaven. als u `pageLoadEnabled` en `viewsEnabled` hebt geplaatst, dan zowel uitvoeren > pageLoad als prefetch > de meningen automatisch met Stap 2 gebeuren; anders moet u de `getOffers()` API gebruiken om deze aanvraag in te dienen. |
+| 3 | [!DNL Target] verzoek uitvoeren | Als u een gegevenslaag hebt, adviseren wij dat u kritieke gegevens laadt die worden vereist om naar [!DNL Target] te verzenden alvorens [!DNL Target] verzoek uit te voeren. Dit laat u `targetPageParams` gebruiken om het even welke gegevens te verzenden u voor het richten wilt gebruiken. U moet ervoor zorgen dat u in deze API-aanroep een verzoek indient voor uitvoering > pageLoad en prefetch > weergaven. als u `pageLoadEnabled` en `viewsEnabled` hebt geplaatst, dan zowel uitvoeren > pageLoad als prefetch > de meningen automatisch met Stap 2 gebeuren; anders moet u de `getOffers()` API gebruiken om deze aanvraag in te dienen. |
 | 4 | `triggerView()` aanroepen | Omdat het [!DNL Target] verzoek u in Stap 3 in werking stelde ervaringen voor zowel de uitvoering van de Lading van de Pagina als Weergaven kon terugkeren, zorg ervoor dat `triggerView()` wordt geroepen nadat het [!DNL Target] verzoek is teruggekeerd en beëindigt het toepassen van de aanbiedingen aan geheime voorgeheugen. U moet deze stap slechts eenmaal per weergave uitvoeren. |
 | 5 | Roep het paginaweergavebaken [!DNL Analytics] aan | Dit baken verzendt SDID verbonden aan Stap 3 en 4 naar [!DNL Analytics] voor gegevens het stitching. |
 | 6 | Aanvullende `triggerView({"page": false})` aanroepen | Dit is een optionele stap voor SPA frameworks die bepaalde componenten op de pagina kunnen renderen zonder dat er een weergavewijziging plaatsvindt. In dergelijke gevallen is het belangrijk dat u deze API aanroept om ervoor te zorgen dat [!DNL Target]-ervaringen opnieuw worden toegepast nadat het SPA-framework de componenten opnieuw heeft gerenderd. U kunt deze stap zo vaak uitvoeren als u wilt ervoor zorgen dat [!DNL Target] ervaringen in uw SPA blijven. |
@@ -294,7 +293,7 @@ De volgende informatie beschrijft de volgorde van bewerkingen die u moet uitvoer
 
 | Stap | Handeling | Details |
 | --- | --- | --- |
-| 1 | `visitor.resetState()` aanroepen | Deze API zorgt ervoor dat de SDID opnieuw wordt gegenereerd voor de nieuwe weergave terwijl deze wordt geladen. |
+| 3 | `visitor.resetState()` aanroepen | Deze API zorgt ervoor dat de SDID opnieuw wordt gegenereerd voor de nieuwe weergave terwijl deze wordt geladen. |
 | 2 | Cache bijwerken door de `getOffers()` API aan te roepen | Dit is een optionele stap als deze weergavewijziging de huidige bezoeker kan kwalificeren voor meer [!DNL Target] activiteiten of deze kan uitschakelen. Op dit punt kunt u er ook voor kiezen om extra gegevens naar [!DNL Target] te verzenden voor het mogelijk maken van verdere doelmogelijkheden. |
 | 1 | `triggerView()` aanroepen | Als u Stap 2 hebt uitgevoerd, dan moet u op [!DNL Target] verzoek wachten en de aanbiedingen toepassen op geheime voorgeheugen alvorens deze stap uit te voeren. U moet deze stap slechts eenmaal per weergave uitvoeren. |
 | 4 | `triggerView()` aanroepen | Als u Stap 2 niet hebt uitgevoerd, kunt u deze stap uitvoeren zodra u Stap 1 voltooit. Als u Stap 2 en Stap 3 hebt uitgevoerd, dan zou u deze stap moeten overslaan. U moet deze stap slechts eenmaal per weergave uitvoeren. |
