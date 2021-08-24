@@ -4,7 +4,7 @@ description: Voer de stappen uit die nodig zijn voor het implementeren van Analy
 title: Hoe implementeer ik Analytics voor [!DNL Target] (A4T)?
 feature: Analyses voor doel (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een activ
 
 ### Stap 3: Een Edge-configuratie maken
 
-Creeer een configuratie van de Rand gebruikend [!DNL Adobe Experience Platform Launch] gebruikend het hulpmiddel van de randconfiguratie. Vorm [[!DNL Analytics] and [!DNL Target] de montages van de randconfiguratie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Creeer een configuratie van de Rand gebruikend [!DNL Adobe Experience Platform] gebruikend het hulpmiddel van de randconfiguratie. Vorm [[!DNL Analytics] and [!DNL Target] de montages van de randconfiguratie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
 
 ### Stap 4: De SDK van het Web Platform installeren en configureren
 
