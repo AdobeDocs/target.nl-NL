@@ -4,7 +4,7 @@ description: Meer informatie over Recommendations-activiteiten in Adobe [!DNL Ta
 title: Wat zijn Recommendations-activiteiten?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Vervolgens moet u tags toevoegen of gebruikmaken van uw bestaande [!DNL Analytic
 
 U moet ervoor zorgen dat [!DNL Target] zich bewust is van de punten die uw gebruikers bekijken en kopen. Als aankopen niet relevant zijn voor uw context, wilt u wellicht een ander type conversiegebeurtenis volgen, bijvoorbeeld het downloaden van een PDF, het voltooien van een enquête, het abonneren op een nieuwsbrief, het bekijken van een video enzovoort.
 
-Als u al [!DNL Target] gebruikt om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen hebben voltooid. Of als u al [!DNL Adobe Analytics] gebruikt om op plaatsbezoeken en omzettingsgedrag te melden, kunt u [!DNL Analytics] als uw gedragsgegevensbron gebruiken. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Het is ook mogelijk om offline- of in-app-interacties naar [!DNL Target] te verzenden via real-time API.
+Als u al [!DNL Target] gebruikt om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen hebben voltooid. Of als u al [!DNL Adobe Analytics] gebruikt om op plaatsbezoeken en omzettingsgedrag te melden, kunt u [!DNL Analytics] als uw gedragsgegevensbron gebruiken. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals codes in [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Het is ook mogelijk om offline- of in-app-interacties naar [!DNL Target] te verzenden via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 
