@@ -4,9 +4,9 @@ description: Leer hoe te om AEM ervaringsfragmenten in Adobe te gebruiken  [!DNL
 title: Hoe gebruik ik Adobe Experience Manager (AEM) Experience Fragments?
 feature: Ervaringen en aanbiedingen
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 0437d7c83734ee707d4d42996d856f9e19416c3d
+source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,8 @@ Zie voor meer informatie:
 
 De fragmenten van de ervaring worden gecreeerd in [!DNL AEM]. Zie voor meer informatie:
 
-* **[!DNL AEM]6.3**:  [Ervaar ](https://experienceleague.adobe.com/docs/) Fragmentaties in de  *Adobe Experience Manager 6.3-* documentatie.
-* **[!DNL AEM]6.4**:  [Ervaar ](https://experienceleague.adobe.com/docs/) Fragmentaties in de  *Adobe Experience Manager 6.4-* documentatie.
+* **[!DNL AEM]6.3**:  [Ervaar ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Fragmentaties in de  *Adobe Experience Manager 6.3-* documentatie.
+* **[!DNL AEM]6.4**:  [Ervaar ](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en) Fragmentaties in de  *Adobe Experience Manager 6.4-* documentatie.
 * **[!DNL AEM]6.5**:  [Ervaar ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Fragmentaties in de  *Adobe Experience Manager 6.5-* documentatie.
 
 ### Stap 3: [!DNL AEM] configureren om het ervaringsfragment te delen met [!DNL Target]
