@@ -5,9 +5,9 @@ title: Hoe behandelt  [!DNL Target] Privacy en gegevensbeschermingsverordeningen
 feature: Privacy en beveiliging
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2ee87e2c6e8bbdb62eedf709e6454a0467197749
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2189'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Als u zich vorig jaar zou voorbereiden op de Europese privacywetgeving (GDPR), z
 >
 >De toegang tot en het schrappen van gegevens zoals die op CCPA van toepassing zijn volgt het zelfde proces zoals voor GDPR.
 
-## Adobe [!DNL Target] en [!DNL Adobe Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] en [!DNL Adobe Experience Platform] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] biedt ondersteuning voor aanmeldingsfuncties via  [!DNL Platform Launch] om uw strategie voor het beheer van uw toestemming te ondersteunen. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de tag [!DNL Target] wordt geactiveerd. Er is ook een optie via [!DNL Platform Launch] om de tag [!DNL Target] vooraf goed te keuren. Als u de mogelijkheid wilt inschakelen om Opt-In te gebruiken in de bibliotheek [!DNL Target] at.js, moet u `targetGlobalSettings` gebruiken en de instelling `optinEnabled=true` toevoegen. Selecteer in [!DNL Platform Launch] &quot;enable&quot; in de vervolgkeuzelijst [!UICONTROL GDPR Opt-In] in de installatieweergave van de [!DNL Platform Launch]-extensie. Zie de [documentatie van de Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer details.
+[!DNL Target] biedt ondersteuning voor aanmeldingsfuncties via tags  [!DNL Adobe Experience Platform] om uw strategie voor het beheer van machtigingen te ondersteunen. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de tag [!DNL Target] wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de tag [!DNL Target] vooraf goed te keuren. Als u de mogelijkheid wilt inschakelen om Opt-In te gebruiken in de bibliotheek [!DNL Target] at.js, moet u `targetGlobalSettings` gebruiken en de instelling `optinEnabled=true` toevoegen. Selecteer in [!DNL Adobe ExperiencePlatform] &quot;enable&quot; in de vervolgkeuzelijst [!UICONTROL GDPR Opt-In] in de installatieweergave van de extensie. Zie [Implementeren [!DNL Target] met [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer informatie.
 
 Het volgende codefragment toont u hoe te om `optinEnabled=true` het plaatsen toe te laten:
 
@@ -67,13 +67,13 @@ window.targetGlobalSettings = {
 >
 >De aanmeldingsfunctionaliteit wordt ondersteund in at.js versie 1.7.0 en at.js 2.1.0 of hoger. Inschakelen wordt niet ondersteund in at.js versie 2.0.0 en 2.0.1.
 >
->Het gebruik van [!DNL Platform Launch] voor het beheer van opt-in is de aanbevolen aanpak. Er is nog meer korrelige controle in [!DNL Platform Launch] om geselecteerde elementen van uw pagina te verbergen voordat [!DNL Target] wordt geactiveerd die nuttig zijn om als onderdeel van uw toestemmingsstrategie te gebruiken.
+>Het gebruik van [!DNL Adobe Experience Platform] voor het beheer van opt-in is de aanbevolen aanpak. Er is nog meer korrelige controle in [!DNL Adobe Experience Platform] om geselecteerde elementen van uw pagina te verbergen voordat [!DNL Target] wordt geactiveerd die nuttig zijn om als onderdeel van uw toestemmingsstrategie te gebruiken.
 
 Er zijn drie scenario&#39;s om te overwegen wanneer het gebruiken van Opt-binnen:
 
-1. **De  [!DNL Target] tag wordt vooraf goedgekeurd via  [!DNL Platform Launch] (of de betrokkene heeft eerder goedgekeurd  [!DNL Target]):** De  [!DNL Target] tag wordt niet bewaard voor toestemming en functies zoals verwacht.
+1. **De  [!DNL Target] tag wordt vooraf goedgekeurd via  [!DNL Adobe Experience Platform] (of de betrokkene heeft eerder goedgekeurd  [!DNL Target]):** De  [!DNL Target] tag wordt niet bewaard voor toestemming en functies zoals verwacht.
 1. **De  [!DNL Target] tag is NIET vooraf goedgekeurd en  `bodyHidingEnabled` is FALSE:** De  [!DNL Target] tag wordt pas geactiveerd nadat de toestemming van de klant is verzameld. Voordat toestemming wordt verzameld, is alleen de standaardinhoud beschikbaar. Nadat de toestemming is ontvangen, wordt [!DNL Target] geroepen en de gepersonaliseerde inhoud is beschikbaar aan de betrokkene (bezoeker). Omdat alleen de standaardinhoud beschikbaar is vóór de toestemming, is het belangrijk om een geschikte strategie te gebruiken, zoals een welkomstpagina die een gedeelte van de pagina of inhoud beslaat die kan worden aangepast. Dit proces zorgt ervoor dat de ervaring voor de betrokkene (bezoeker) consistent blijft.
-1. **De  [!DNL Target] tag is NIET vooraf goedgekeurd en  `bodyHidingEnabled` is TRUE:** de  [!DNL Target] tag wordt alleen geactiveerd nadat toestemming van de klant is verzameld. Voordat toestemming wordt verzameld, is alleen de standaardinhoud beschikbaar. Omdat `bodyHidingEnabled` is ingesteld op true, bepaalt `bodyHiddenStyle` echter welke inhoud op de pagina wordt verborgen totdat de tag [!DNL Target] wordt geactiveerd (of de betrokkene de aanmeldingsnaam weigert, in welk geval standaardinhoud wordt weergegeven). Standaard is `bodyHiddenStyle` ingesteld op `body { opacity:0;}`, waardoor de HTML-body-tag wordt verborgen. Aanbevolen pagina-configuratie bevindt zich hieronder zodat de gehele hoofdtekst van de pagina, behalve het dialoogvenster voor het beheer van de Adobe, wordt verborgen door de inhoud van de pagina in één container te plaatsen en het dialoogvenster voor het beheer van de toestemming in een aparte container. Met deze setup wordt [!DNL Target] zo geconfigureerd dat alleen de container van de pagina-inhoud wordt verborgen. Zie de [documentatie van de Platform launch voor meer informatie over hoe te om deze montages te vormen](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
+1. **De  [!DNL Target] tag is NIET vooraf goedgekeurd en  `bodyHidingEnabled` is TRUE:** de  [!DNL Target] tag wordt alleen geactiveerd nadat toestemming van de klant is verzameld. Voordat toestemming wordt verzameld, is alleen de standaardinhoud beschikbaar. Omdat `bodyHidingEnabled` is ingesteld op true, bepaalt `bodyHiddenStyle` echter welke inhoud op de pagina wordt verborgen totdat de tag [!DNL Target] wordt geactiveerd (of de betrokkene de aanmeldingsnaam weigert, in welk geval standaardinhoud wordt weergegeven). Standaard is `bodyHiddenStyle` ingesteld op `body { opacity:0;}`, waardoor de HTML-body-tag wordt verborgen. Aanbevolen pagina-configuratie bevindt zich hieronder zodat de gehele hoofdtekst van de pagina, behalve het dialoogvenster voor het beheer van de Adobe, wordt verborgen door de inhoud van de pagina in één container te plaatsen en het dialoogvenster voor het beheer van de toestemming in een aparte container. Met deze setup wordt [!DNL Target] zo geconfigureerd dat alleen de container van de pagina-inhoud wordt verborgen. Zie [Overzicht van de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
 
    De geadviseerde pagina opstelling voor scenario 3 is:
 
@@ -145,9 +145,9 @@ GDPR en CCPA veranderen niet wanneer u toestemming moet krijgen, maar hoe u het 
 
 [!DNL Adobe] biedt momenteel geen oplossing voor het beheer van instemming, maar er zijn verschillende hulpmiddelen die zich op de markt ontwikkelen om aan enkele nieuwe vereisten te voldoen. Zie het [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) op de *International Association of Privacy Professionals (iaap)*-website voor meer informatie over privacy-instrumenten in het algemeen, inclusief machtigingsmanagers.
 
-[!DNL Target] biedt ondersteuning voor aanmeldingsfuncties via  [!DNL Platform Launch] de ondersteuning van uw toestemmingsbeheerstrategie. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de tag [!DNL Target] wordt geactiveerd. Er is ook een optie via [!DNL Platform Launch] om de tag [!DNL Target] vooraf goed te keuren. Het gebruik van [!DNL Platform Launch] voor het beheer van opt-in is de aanbevolen aanpak. Er is meer korrelige controle in [!DNL Platform Launch] om geselecteerde elementen van uw pagina vóór het [!DNL Target] branden te verbergen die nuttig zouden kunnen zijn om als deel van uw toestemmingsstrategie te gebruiken.
+[!DNL Target] biedt ondersteuning voor aanmeldingsfuncties via  [!DNL Adobe Experience Platform] de ondersteuning van uw toestemmingsbeheerstrategie. Met de functie Inschakelen kunnen klanten bepalen hoe en wanneer de tag [!DNL Target] wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de tag [!DNL Target] vooraf goed te keuren. Het gebruik van [!DNL Adobe Experience Platform] voor het beheer van opt-in is de aanbevolen aanpak. Er is meer korrelige controle in [!DNL Adobe Experience Platform] om geselecteerde elementen van uw pagina vóór het [!DNL Target] branden te verbergen die nuttig zouden kunnen zijn om als deel van uw toestemmingsstrategie te gebruiken.
 
-Voor meer informatie over GDPR, CCPA, en [!DNL Launch], zie [De Bibliotheek van JavaScript van de Privacy van de Adobe en GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Zie ook de sectie *Adobe Target en Experience Platform Launch opt-in* hierboven.
+Voor meer informatie over GDPR, CCPA, en [!DNL Adobe Experience Platform], zie [De Bibliotheek van JavaScript van de Privacy van de Adobe en GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Zie ook de sectie *Adobe Target en Adobe Experience Platform opt-in* hierboven.
 
 ### Verzendt `AdobePrivacy.js` informatie naar de GDPR API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
