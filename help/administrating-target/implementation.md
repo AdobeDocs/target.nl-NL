@@ -5,9 +5,9 @@ title: Hoe implementeert u  [!DNL Target] op mijn site?
 feature: Beheer en configuratie
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Voor meer informatie, zie de diverse onderwerpen onder [Implementeer Doel](/help
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] is de aangewezen methode om uit te voeren  [!DNL Target]. [!DNL Launch] biedt klanten een eenvoudige manier om alle analytische, marketing- en advertentietags te implementeren en te beheren die nodig zijn om de relevante ervaringen van klanten te verbeteren. Zie [Doel implementeren met Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer informatie.
+>De markeringen in [!DNL Adobe Experience Platform] is de aangewezen methode om [!DNL Target] uit te voeren. Tags in [!DNL Adobe Experience Platform] zijn de volgende generatie mogelijkheden voor tagbeheer van [!DNL Adobe]. Met labels kunnen klanten op eenvoudige wijze de analytische, marketing- en advertentietags implementeren en beheren die nodig zijn om relevante klantervaringen mogelijk te maken. Zie [Implementeren [!DNL Target] met [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer informatie.
 
 1. Als u de pagina [!UICONTROL Implementation] wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
