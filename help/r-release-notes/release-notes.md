@@ -5,9 +5,9 @@ landing-page-description: Leer over de nieuwe eigenschappen, de verhogingen, en 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Opmerkingen bij de release
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 Voor meer informatie over deze en vorige versies, zie [Logboek van de Verandering ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in [de documentatie van SDK van het Doel knoop.js](https://github.com/adobe/target-nodejs-sdk) op Github.
 
-## [!DNL Target Standard/Premium] 21.8.1 (nog te bepalen datum)
-
->[!NOTE]
->
->De [!DNL Target Standard/Premium] 21.8.1-release is uitgesteld. In plaats van op 4 augustus 2021 te worden uitgebracht, wordt versie 21.8.1 in de komende dagen uitgebracht. Meer informatie indien beschikbaar.
+## [!DNL Target Standard/Premium] 21.8.1 (10 augustus 2021)
 
 Deze onderhoudsversie bevat vele achterste verbeteringen, waaronder de volgende klantgerichte wijziging:
 
