@@ -2,21 +2,20 @@
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
 description: Je hebt je eerste activiteit in Adobe Target gemaakt. Wat nu? In dit artikel vindt u koppelingen naar aanvullende bronnen, trainingszelfstudies en 'Hoe kan ik'-video's.
 title: Waar kan ik extra middelen vinden om het doel effectiever te gebruiken?
-feature: Overview
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+feature: Overzicht
+exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
 
-
 # Hoofdstuk 9: Volgende stappen en bronnen
 
-We hebben de basisbeginselen van het uitvoeren van uw eerste activiteit besproken. Wij hopen dat deze activiteit u en uw bedrijf het ongelooflijke potentieel toonde dat het gebruiken van [!DNL Adobe Target] om heeft te optimaliseren en te personaliseren voor het beïnvloeden van de bedrijfsbodem. Dit is slechts een begin. Het is tijd om na te denken over waar u zich op gaat richten voor uw tweede activiteit. U kunt overwegen een lijst met prioritaire activiteiten te maken die u wilt uitvoeren. U zult verrast zijn door hoe snel u ziet hoe activiteit door activiteit u de klantenervaring verbetert en bedrijfssucces drijft.
+We hebben de basisbeginselen van het uitvoeren van uw eerste activiteit besproken. Wij hopen dat deze activiteit u en uw bedrijf het ongelooflijke potentieel toonde dat het gebruiken van [!DNL Adobe Target] om heeft te optimaliseren en te personaliseren voor het beïnvloeden van de bedrijfsbodem. Dit is slechts een begin. Het is tijd om na te denken over waar u zich op gaat richten voor uw tweede activiteit. U kunt overwegen een lijst met geprioriteerde activiteiten te maken die u wilt uitvoeren. U zult verrast zijn door hoe snel u ziet hoe activiteit door activiteit u de klantenervaring verbetert en bedrijfssucces drijft.
 
-Overigens, hebt u zo vele manieren om meer over het testen, verpersoonlijking, en het gebruiken [!DNL Target] te leren. Controleer de lijst met bronnen hieronder om die kennis op te bouwen. Luister in onze webinars, lees het Adobe Target-blog, neem deel aan de top van Adobe en word actief in de online gemeenschap van Adobe Target. Vergeet niet dat we hier altijd zijn om u te helpen uw programma te starten en op een pad naar succes te zetten. Bereik op elk gewenst moment.
+Overigens, hebt u zo vele manieren om meer over het testen, verpersoonlijking, en het gebruiken [!DNL Target] te leren. Controleer de lijst met bronnen hieronder om die kennis op te bouwen. Luister in onze webinars, lees het Adobe Target-blog, neem deel aan de Adobe Summit en word actief in de online gemeenschap van Adobe Target. Vergeet niet dat we hier altijd zijn om u te helpen uw programma te starten en op een pad naar succes te zetten. Bereik op elk gewenst moment.
 
 We hebben een georganiseerde lijst met waardevolle informatie gecompileerd om u te helpen nog meer kennis te verwerven over optimalisatie en personalisatie met [!DNL Target].
 
@@ -35,9 +34,9 @@ We hebben een georganiseerde lijst met waardevolle informatie gecompileerd om u 
 * **Adobe Target-video&#39;s:** Binge bekijkt de  [!DNL Target] video&#39;s om succesverhalen en oplossingsmogelijkheden te bekijken. Zie [Trainingsvideo&#39;s voor Adobe Target Standard en Premium](/help/c-intro/target-standard-premium-training-videos.md)
 * **Webinar Series**: Adobe Target Basics. Neem deel aan onze webinarserie voor succes van klanten waarin de basisbeginselen van optimalisatie met Adobe Target-gebruikers worden besproken. Zie [Doelgrondbeginselen Webinar Reeks](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Adobe-kantooruren** van de klantendienst: &quot;Office Hours&quot; is een initiatief van het Adobe Customer Care-team. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om te slagen met de [!DNL Adobe Experience Cloud]-oplossingen, waaronder [!DNL Target]. Zie [Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) van het Bureau van de Zorg van de Adobe.
-* **Top** Adobe: De grootste professionele evenement van het jaar bijwonen voor digitale marketers.
-   * [Top](https://summit.adobe.com/na/)  van Adobe (Noord-Amerika)
-   * [Adobe Summit](http://summit-emea.adobe.com/emea/)  (EMEA)
+* **Adobe Summit**: De grootste professionele evenement van het jaar bijwonen voor digitale marketers.
+   * [Adobe Summit](https://summit.adobe.com/na/)  (Noord-Amerika)
+   * [Adobe Summit](https://summit-emea.adobe.com/emea/)  (EMEA)
 
 ## Aanvullende bronnen
 
@@ -47,4 +46,3 @@ We hebben een georganiseerde lijst met waardevolle informatie gecompileerd om u 
 * **Adobe Target-certificering**: Met nieuwe Adobe Target-examens krijgt u de status van een Adobe-gecertificeerd expert. Plan hier een examen of trainingscursussen. Zie [Training en certificering](/help/c-intro/training-and-certification.md).
 * **Opmerkingen** bij de release van Adobe Target: Informatie over eigenschappen, verhogingen, en moeilijke situaties voor elke  [!DNL Target Standard] en  [!DNL Target Premium] versie. Daarnaast worden releaseopmerkingen voor doel-API&#39;s, SDK&#39;s, de JavaScript-bibliotheek (at.js) en andere platformwijzigingen, indien van toepassing, ook opgenomen. Zie [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md).
 * **Adobe Target-nieuwsbrief**: Meer informatie over productupdates en toekomstige plannen, tips en trucs voor personalisatie en optimalisatie, successen van klanten, aanstaande gebeurtenissen, populaire blogberichten en meer. Zie [Nieuwsbrief met voorwetenschap van doel](/help/r-release-notes/target-insider-newsletter.md).
-
