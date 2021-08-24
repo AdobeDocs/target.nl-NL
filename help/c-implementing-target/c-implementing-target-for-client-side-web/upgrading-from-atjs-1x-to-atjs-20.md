@@ -5,9 +5,9 @@ title: Hoe werk ik bij van versie 1.js naar versie 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2744'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.** Met weer
 | --- | --- |
 | 1 | De vraag keert [!DNL Experience Cloud ID] terug als de gebruiker voor authentiek wordt verklaard; een andere vraag synchroniseert de klant identiteitskaart |
 | 2 | De bibliotheek at.js wordt synchroon geladen en de hoofdtekst van het document verborgen.<br>at.js kan ook asynchroon worden geladen met een optie die fragment verbergt dat op de pagina is geïmplementeerd. |
-| 1 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
+| 3 | Er wordt een aanvraag voor het laden van een pagina ingediend, inclusief alle geconfigureerde parameters (MCID, SDID en klant-id). |
 | 4 | Profielscripts worden uitgevoerd en vervolgens toegevoegd aan de profielenwinkel. De winkel vraagt om gekwalificeerd publiek uit de Audience Library (bijvoorbeeld publiek dat wordt gedeeld vanuit Adobe Analytics, Publiek beheer, enz.).<br>Klantkenmerken worden in een batchproces naar de profielopslag verzonden. |
 | 5 | Op basis van URL-aanvraagparameters en -profielgegevens bepaalt [!DNL Target] welke activiteiten en ervaringen moeten worden geretourneerd naar de bezoeker voor de huidige pagina en de toekomstige weergaven. |
 | 6 | Gerichte inhoud wordt teruggestuurd naar de pagina, waarbij eventueel ook profielwaarden voor extra personalisatie worden opgenomen.<br>Gerichte inhoud op de huidige pagina wordt zo snel mogelijk zichtbaar zonder flikkering van de standaardinhoud.<br>Gerichte inhoud voor meningen die als resultaat aan gebruikersacties in een SPA worden getoond die in browser caching is zodat kan het onmiddellijk zonder een extra servervraag worden toegepast wanneer de meningen door worden teweeggebracht  `triggerView()`. |
@@ -54,11 +54,11 @@ Nu, waar `triggerView()` op uw SPA wordt uitgevoerd, worden de Meningen en de ac
 
 ## Implementeer om.js 2.*x* {#deploy-atjs-200}
 
-1. Implementeer om.js 2.** xvia de  [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchextension.
+1. Implementeer om.js 2.** xvia-tags in  [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extensie.
 
    >[!NOTE]
    >
-   > Het implementeren van at.js met behulp van Adobe Launch heeft de voorkeur.
+   > Het implementeren van at.js met tags in [!DNL Adobe Experience Platform] heeft de voorkeur.
 
    of
 
@@ -360,7 +360,7 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met versch
 | Soorten publiek | Ja |
 | Klantkenmerken | Ja |
 | Fragmenten voor AEM | Ja |
-| Adobe-extensie starten | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] extension | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Foutopsporing | Ja |
 | Auditor | De regels zijn nog niet bijgewerkt voor om.js 2.*x* |
 | Inschakelen | Nee. Ondersteuning voor aanmelden voor [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) wordt ondersteund in [at.js versie 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
