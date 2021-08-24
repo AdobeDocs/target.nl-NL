@@ -5,8 +5,7 @@ title: Kan ik  [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM) uitvoeren?
 feature: Server-kant implementeren
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -15,9 +14,9 @@ ht-degree: 0%
 
 # [!DNL Target] implementeren met [!DNL Dynamic Tag Manager] (DTM)
 
-[!DNL Adobe Dynamic Tag Manager] is een verouderd product en wordt niet meer ondersteund. [!DNL Adobe] raadt u aan [!DNL Adobe Experience Platform Launch] te gebruiken voor een optimale ervaring met de implementatie.
+[!DNL Adobe Dynamic Tag Manager] is een verouderd product en wordt niet meer ondersteund. [!DNL Adobe] raadt u aan labels te gebruiken in [!DNL Adobe Experience Platform] voor een optimale ervaring met de implementatie.
 
-[!DNL Platform Launch] is het platform voor tagbeheer van de volgende generatie van  [!DNL Adobe] en is de voorkeursmethode voor implementatie  [!DNL Adobe Target]. [!DNL Platform Launch] biedt klanten een eenvoudige manier om de analytische, marketing- en advertentietags te implementeren en te beheren die nodig zijn om de relevante ervaringen van klanten te verbeteren.
+Tags in [!DNL Adobe Experience Platform] zijn de volgende generatie mogelijkheden voor tagbeheer van [!DNL Adobe]. Met labels kunnen klanten op eenvoudige wijze de analytische, marketing- en advertentietags implementeren en beheren die nodig zijn om relevante klantervaringen mogelijk te maken.
 
 Zie [Implementeren [!DNL Target] met [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer informatie.
 
