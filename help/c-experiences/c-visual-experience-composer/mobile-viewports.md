@@ -4,10 +4,9 @@ description: De mobiele viewports helpen u zien hoe uw Adobe [!DNL Target] activ
 title: Hoe gebruik ik mobiele Viewports voor Responsieve Ervaringen?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Hieronder staan de viewports en de resoluties voor populaire apparaten. Vergeet 
 
 >[!NOTE]
 >
->Verschillende websites vermelden de viewportgrootten voor populaire apparaten. Zie bijvoorbeeld [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Raadpleeg de website van de fabrikant van het apparaat voor de meest nauwkeurige, actuele informatie.
+>Verschillende websites vermelden de viewportgrootten voor populaire apparaten. Zie bijvoorbeeld `https://viewportsizer.com/devices/`. Raadpleeg de website van de fabrikant van het apparaat voor de meest nauwkeurige, actuele informatie.
 
 | Apparaat | Viewportgrootte (breedte x hoogte) | Apparaatresolutie (breedte x hoogte) |
 |---|---|---|
@@ -96,7 +95,7 @@ Als uw site niet reageert, gebruikt u de Mobile Web Composer om een site weer te
 >
 >U kunt een ervaring bewerken vanuit mobiele viewports. Nochtans, zijn deze veranderingen op alle viewports en apparaten, niet alleen viewport van toepassing die u binnen werkt. Op dezelfde manier wordt bij het bewerken van een ervaring in de normale desktopweergave de pagina voor alle schermgrootten gewijzigd, en niet alleen voor de desktopweergave. [!DNL Target] biedt momenteel geen ondersteuning voor wijzigingen die specifiek zijn voor de viewport.
 
-## Configuratie mobiele viewport {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Configuratie van mobiele viewport {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Configureer mobiele viewports die u beschikbaar wilt maken tijdens het maken van uw ervaringen.
 
@@ -135,7 +134,7 @@ Configureer mobiele viewports die u beschikbaar wilt maken tijdens het maken van
 >
 >Als u probeert een mobiele viewport te verwijderen die in gebruik is, wordt het volgende bericht weergegeven: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot;
 
-## Maak een responsieve ervaring {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Een responsieve ervaring maken {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 Voeg mobiele viewports aan uw [!DNL Target] activiteiten toe om ontvankelijke ervaringen voor mobiele schermen tot stand te brengen.
 
