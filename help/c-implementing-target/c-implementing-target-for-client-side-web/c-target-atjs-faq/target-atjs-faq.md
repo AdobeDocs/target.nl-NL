@@ -5,9 +5,9 @@ title: Wat zijn algemene vragen en antwoorden over at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2605'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Met de release at.js 1.0.0 kunt u de doelbibliotheek asynchroon laden.
 
 Zo laadt u at.js asynchroon:
 
-* De aanbevolen benadering is via [!DNL Adobe Experience Platform Launch]. Zie de [Add Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) les van [Implementatie van de Experience Cloud in Websites met de zelfstudie van de Lanceer](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) voor meer informatie.
+* De aanbevolen benadering is via tags in [!DNL Adobe Experience Platform].
 * U kunt ook asynchroon laden bij .js door het asynchrone attribuut aan de manuscriptmarkering toe te voegen die at.js laadt. Gebruik iets als dit:
 
    ```
@@ -109,7 +109,7 @@ Het asynchroon laden van at.js is een goede manier om te voorkomen dat de browse
 
 U kunt flikkering vermijden door een vooraf verborgen fragment te gebruiken dat de pagina (of gespecificeerde gedeelten) verbergt en het dan onthult nadat om.js en het globale verzoek hebben geladen. Het fragment moet worden toegevoegd voordat u het bestand at.js laadt.
 
-Als u at.js door een asynchrone implementatie van de Lancering opstelt, ben zeker om het pre-verbergende fragment direct op uw pagina&#39;s, vóór de Lancering te omvatten bed code, zoals die in [Add het Doel pre-Hiding Snippet](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) sectie van [Implementeert de Experience Cloud in Websites met het Lanceerprogramma](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) wordt beschreven.
+Als u at.js door een asynchrone [!DNL Adobe Experience Platform] implementatie opstelt, ben zeker om het pre-verbergende fragment op uw pagina&#39;s direct te omvatten, vóór Implementeer [!DNL Target] gebruikend [!DNL Adobe Experience Platform] bed code in.
 
 Als u at.js door een synchrone implementatie DTM opstelt, kan het pre-verbergende fragment worden toegevoegd door een lijn van de Lading van de Pagina die bij de bovenkant van de pagina wordt teweeggebracht.
 
