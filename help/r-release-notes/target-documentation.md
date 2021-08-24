@@ -4,9 +4,9 @@ description: Toegang tot Adobe [!DNL Target] documentatie, waaronder online Help
 title: Waar kan ik documentatie voor Doel vinden?
 feature: Opmerkingen bij de release
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Hier volgt een korte beschrijving van de meest gangbare documentatietypen die be
 | [Adobe Target-productdocumentatie](/help/target-home.md)<br> (deze handleiding) | De informatie van het overzicht, de stappen, en de schermafbeeldingen concentreerden zich bij het in wisselwerking staan met [!DNL Target] door het gebruikersinterface. In deze handleiding worden alle beschikbare acties en opties beschreven, inclusief de te vermijden gotchas. Dit is het meest gedetailleerde middel voor het werken met [!DNL Target] UI. |
 | [Adobe Target-zelfstudies](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | Video&#39;s en zelfstudies die u helpen de vele componenten van [!DNL Target] te leren. |
 | [Adobe Experience League Target-inhoudsbibliotheek](https://guided.adobe.com/#recommended/solutions/target) | Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies die de mogelijkheden van [!DNL Target] op de pagina [!DNL Adobe Target Experience League] benadrukken. |
-| [Adobe Experience Platform Launch Target-documentatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informatie over het implementeren van [!DNL Target] met [!DNL Adobe Experience Platform Launch], het tagbeheerplatform van [!DNL Adobe] van de volgende generatie. Dit is de aangewezen methode om [!DNL Target] uit te voeren. |
+| [Adobe Experience Platform Target-documentatie](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informatie over het implementeren van [!DNL Target] met tags in [!DNL Adobe Experience Platform], het tagbeheerplatform van [!DNL Adobe] van de volgende generatie. Dit is de aangewezen methode om [!DNL Target] uit te voeren. |
 | [Adobe Customer Care Office-uren](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informatie over &quot;Office Hours&quot;, een initiatief dat wordt geleid door het Adobe Customer Care-team. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om te slagen met de [!DNL Adobe Experience Cloud]-oplossingen, waaronder [!DNL Target]. |
 | [Webinar-reeksen, basiskennis](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registratiegegevens en koppelingen naar vorige sessies van de [!DNL Target] Basics Webinar Series, een Success Webinar Series van de Klant die aan u door de Gemeenschap wordt gebracht. |
 | [Adobe Target Developers](https://developers.adobetarget.com/) | Informatie over de Adobe Target Developers-site helpt u bij het implementeren van [!DNL Target] op client-side toepassingen, servertoepassingen, mobiele apps, IoT en meer. U kunt uw [!DNL Target] gegevens aan derdeoplossingen ook uitvoeren. |
