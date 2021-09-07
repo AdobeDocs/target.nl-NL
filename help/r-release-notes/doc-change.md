@@ -2,11 +2,11 @@
 keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe onderwerpen;bewerkingen;updates;update
 description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de Adobe [!DNL Target] productdocumentatie.
 title: Waar kan ik documentatieupdates voor Doel zien?
-feature: Opmerkingen bij de release
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,23 @@ ht-degree: 0%
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
 
-## Adobe [!DNL Target] Standaard/Premium 21.6.1 (30 juni 2021)
+## Adobe [!DNL Target] Standaard/Premium 21.8.1 (10 augustus 2021)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 7 september | [Mobiel](/help/c-target/c-audiences/c-target-rules/mobile.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met informatie over het activeren van apparaten met Safari 14.0.2 (of hoger). |
+|  | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Bijgewerkte informatie over `targettype` en `algorithmId`, die interne herkenningstekens zijn die door [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten worden gebruikt. |
 | 24 augustus | [ [!DNL Target] Implementeren [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] is omgedoopt tot een reeks technologieën voor gegevensverzameling in  [!DNL Adobe Experience Platform]. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. |
 | 23 augustus | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 8 september 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
 | 19 augustus | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Steunt A4T virtuele rapportseries?</li></ul> |
 | 16 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br><br>[andat.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.6.1. |
 |  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Sectie &#39;Tips en trucs&#39; toegevoegd. |
 | 11 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Added release notes for the [!DNL Target] node.js SDK version 2.2.0. |
+
+## Adobe [!DNL Target] Standaard/Premium 21.6.1 (30 juni 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
 | 9 augustus | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Bijgewerkt onderwerp. |
 | 6 augustus | [Voordat u  [!UICONTROL Analytics for Target] (A4T) implementeert met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Bijgewerkte volgende opmerking:<ul><li>at.js 1.8.0+ en at.js 2.x+ werken niet meer met Bezoeker-API-versies ouder dan 2.5.0 voor het doorgeven van Adobe Audience Manager-parameters (AAM).</li></ul> |
 | 5 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Opmerking die aangeeft dat de release [!DNL Target Standard/Premium] 18.8.1 wordt vertraagd. |

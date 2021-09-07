@@ -1,12 +1,12 @@
 ---
 keywords: faq;vaak gestelde vragen;analyses voor doel;a4T;classificaties;classificatie;classificaties importeur;post-tnt-action;gebeurteniscodes
-description: Vind antwoorden op vragen over classificaties en het gebruiken van Analytics voor  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activiteiten.
+description: Zoek antwoorden op vragen over classificaties en gebruik [!UICONTROL Analytics for Target] (A4T).
 title: Waar kan ik informatie over classificaties met A4T vinden?
-feature: Analyses voor doel (A4T)
+feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,25 @@ ht-degree: 0%
 
 Dit onderwerp bevat antwoorden op vragen die vaak over classificaties worden gevraagd en gebruikend [!DNL Analytics] als rapporteringsbron voor [!DNL Target] (A4T).
 
-## Hoe kan ik, nadat ik de Classificatieimportmodule heb gebruikt om classificaties te downloaden, de waarde voor post-tnt-action afstemmen op de naam van een activiteit? {#section_6045DAC488B248418F430E663C38D001}
+## Hoe kan ik, nadat ik de [!UICONTROL Classifications Importer] heb gebruikt om classificaties te downloaden, de waarde voor post-tnt-action afstemmen op de naam van een activiteit? {#section_6045DAC488B248418F430E663C38D001}
 
 U kunt de classificaties voor de tekenreeks A4T/TNT downloaden van de Admin Tools [Classification Importer](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). De variabele wordt &quot;TNT&quot; genoemd in de exportlijst. De gedownloade gegevens bevatten de vriendelijke namen voor activiteiten, ervaringen enzovoort.
 
-Dit opzoekbestand is handig voor klanten die de gegevens van de clickstream van Adobe ontvangen. Het bestand bevat vriendelijke namen voor de kolommen `post_tnt` en `post_tnt_action`.
+Dit opzoekbestand is handig voor klanten die [!DNL Adobe]&#39;s clickstream-gegevensfeed ontvangen. Het bestand bevat vriendelijke namen voor de kolommen `post_tnt` en `post_tnt_action`.
 
-De tekenreeksindeling van de TNT-variabele is `activityID:experienceID:targettype|event`.
+Voor standaard [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten, is het formaat van het TNT koord:
 
-* targetType = 0 (controle/willekeurig) of 1 (gericht) voor [!UICONTROL Auto-Allocate]- en [!UICONTROL Auto-Target]-activiteiten.
+```
+activityID:experienceID:targettype|event
+```
+
+Voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten, is het formaat van het TNT koord:
+
+```
+activityId:experienceId:targettype:algorithmId|event
+```
+
+* `targettype` =  `targettype` en  `algorithmId` zijn interne identificatoren die door  [!UICONTROL Auto-Allocate] en  [!UICONTROL Auto-Target] activiteiten worden gebruikt.
 * Event = 0 staat voor een ervaringstoegang.
 * Gebeurtenis = 1 vertegenwoordigt een ervaringsbezoek.
 * Event = 2 is een activiteitsindruk.
