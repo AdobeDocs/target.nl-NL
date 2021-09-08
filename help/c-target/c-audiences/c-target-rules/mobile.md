@@ -1,12 +1,12 @@
 ---
 keywords: doel;mobiel;doel mobiele;apparaten;apparaten;iphone;iphone modellen;apparatenatlas;display breedte;display breedte;display hoogte;type apparaat;displayheight;phone;tablet;device model
-description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om mobiele apparaten te activeren op basis van parameters zoals mobiel apparaat, type apparaat, leverancier van apparaten, schermafmetingen (per pixel) en meer.
+description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om mobiele apparaten als doel in te stellen.
 title: Kan ik bezoekers richten op basis van mobiele opties?
-feature: Soorten publiek
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -56,12 +56,6 @@ Klanten die een aangepaste integratie gebruiken (zonder at.js of de Mobile SDK),
 
    >[!NOTE]
    >
-   >Als gevolg van de nieuwe wijzigingen die in iOS 12.2 zijn geïntroduceerd, heeft dit gevolgen voor het maken van een publiek met regels die worden gedefinieerd door [!UICONTROL Device Marketing Name] en [!UICONTROL Device Model] die iPhone-modellen opgeven. [!DNL Target] kan zich niet meer richten op gebruikers die iPhones met iOS 12.2 (of later) hebben geïnstalleerd op hen. Als deze gebruikers echter geen iOS 12.2 (of hoger) hebben, werkt het iPhone-model dat als doel is ingesteld, nog steeds correct.
-   >
-   >De iOS 12.2-update (of hoger) heeft geen invloed op de identificatie van de volgende modellen omdat deze modellen geen upgrade naar iOS 12.2 ondersteunen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina-display, iPad Retina (vierde generatie), iPod Touch 4 en iPod Touch 5.
-
-   >[!NOTE]
-   >
    >U kunt zich richten door mobiele apparatendrager gebruikend [Geo montages](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
@@ -70,6 +64,20 @@ Klanten die een aangepaste integratie gebruiken (zonder at.js of de Mobile SDK),
 In de volgende afbeelding wordt een publiek getoond dat doelt op bezoekers die apparaten gebruiken die door Google zijn gemaakt en die mobiele apparaten zijn.
 
 ![Doelmobiele apparaten](assets/target_mobile.png)
+
+## Overwegingen
+
+Houd rekening met de volgende informatie wanneer u zich richt op mobiele apparaten:
+
+### Doelapparaten waarop iOS 12.2 of hoger wordt uitgevoerd
+
+Als gevolg van de nieuwe wijzigingen die in iOS 12.2 zijn geïntroduceerd, heeft dit gevolgen voor het maken van een publiek met regels die worden gedefinieerd door [!UICONTROL Device Marketing Name] en [!UICONTROL Device Model] die iPhone-modellen opgeven. [!DNL Target] kan zich niet meer richten op gebruikers die iPhones met iOS 12.2 (of later) hebben geïnstalleerd op hen. Als deze gebruikers echter geen iOS 12.2 (of hoger) hebben, werkt het iPhone-model dat als doel is ingesteld, nog steeds correct.
+
+De iOS 12.2-update (of hoger) heeft geen invloed op de identificatie van de volgende modellen omdat deze modellen geen upgrade naar iOS 12.2 ondersteunen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina-display, iPad Retina (vierde generatie), iPod Touch 4 en iPod Touch 5.
+
+### Doelapparaten met Safari 14.0.2 (of hoger)
+
+Wanneer u mobiele regels gebruikt om apparaten met Safari versie 14.0.2 (of hoger) op Mac OS als doel in te stellen, wordt Safari op Mac-apparaten door [!DNL Target] onjuist geïdentificeerd als een iPad-versie als gevolg van een bekend probleem met de gebruikersvertegenwoordigers van Apple en DeviceAtlas. Deze kwestie zal in de toekomst worden aangepakt.
 
 ## Trainingsvideo: Soorten publiek maken
 

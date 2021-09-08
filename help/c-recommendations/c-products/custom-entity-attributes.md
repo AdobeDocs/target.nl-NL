@@ -5,9 +5,9 @@ title: Hoe gebruik ik aangepaste entiteitskenmerken?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het k
 
 ## Meerdere-waardekenmerken implementeren {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund bij gebruik van feeds (CSV), `targetPageParams`, Delivery API en de Save entities API om producten te uploaden. Nieuwe waarden vervangen huidige waarden. zij worden niet toegevoegd. Lege arrays ( []) worden beschouwd als arrays zonder waarden.
+Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund bij gebruik van feeds (CSV), `targetPageParams` en de bezorgings-API voor het uploaden van producten. Nieuwe waarden vervangen huidige waarden. zij worden niet toegevoegd. Lege arrays ( []) worden beschouwd als arrays zonder waarden.
 
 Dubbele aanhalingstekens moeten worden vermeden. `"[""test"", ""value""]"` is bijvoorbeeld een geldige JSON-array die in CSV kan worden gebruikt.
 

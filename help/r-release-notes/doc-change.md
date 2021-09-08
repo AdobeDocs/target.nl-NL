@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2263'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 7 september | [Mobiel](/help/c-target/c-audiences/c-target-rules/mobile.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met informatie over het activeren van apparaten met Safari 14.0.2 (of hoger). |
-|  | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Bijgewerkte informatie over `targettype` en `algorithmId`, die interne herkenningstekens zijn die door [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten worden gebruikt. |
 | 24 augustus | [ [!DNL Target] Implementeren [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] is omgedoopt tot een reeks technologieën voor gegevensverzameling in  [!DNL Adobe Experience Platform]. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. |
 | 23 augustus | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 8 september 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
 | 19 augustus | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Steunt A4T virtuele rapportseries?</li></ul> |
