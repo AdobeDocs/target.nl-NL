@@ -2,11 +2,11 @@
 keywords: Opmerkingen bij de release
 description: Een lijst weergeven met functies, verbeteringen en oplossingen die zijn opgenomen in eerdere versies van Adobe Target.
 title: Welke functies zijn opgenomen in vorige releases?
-feature: Opmerkingen bij de release
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '30977'
+source-wordcount: '31180'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,37 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de doelreleases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2021
+
+### om 2.6.1.2021 (16 augustus 2021)
+
+* Bugcorrectie voor &quot;Geen artefact in cache beschikbaar voor hybride modus&quot; bij gebruik van apparaatbeslissingen.
+
+### [!DNL Target] node.js SDK 2.2.0 (11 augustus 2021)
+
+* Toegevoegde SDK-telemetriegegevensverzameling
+* Automated Delivery API client openapi-codegen
+
+Voor meer informatie over deze en vorige versies, zie [Logboek van de Verandering ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in [de documentatie van SDK van het Doel knoop.js](https://github.com/adobe/target-nodejs-sdk) op Github.
+
+### [!DNL Target Standard/Premium] 21.8.1 (10 augustus 2021)
+
+Deze onderhoudsversie bevat vele achterste verbeteringen, waaronder de volgende klantgerichte wijziging:
+
+* Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization]-activiteiten die zijn gemaakt in [!UICONTROL Form-Based Experience Composer] om te verwijzen naar verwijderde aanbiedingen in rapporten. Dit gaf het volgende foutenbericht aan vertoning toe, &quot;wij hebben probleem het terugwinnen van gegevens voor dit rapport. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-41028)
+
+### API voor doellevering (3 augustus 2021)
+
+Deze release bevat de volgende verbeteringen:
+
+* De limiet voor mbox-parameters is verhoogd tot 100 parameters. De vorige limiet was 50 parameters. (TNT-41717)
+* De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
+* De volgende [!DNL Adobe Audience Manager] (AAM) details zijn toegevoegd aan de leverings-API:
+
+   * UUID AAM: De interne AAM-id die wordt gebruikt om een gebruiker op unieke wijze te identificeren.
+   * dataPartnerId: Identiteitskaart voor een gegevenspartner.
+   * dataPartnerUserId: De gebruikers-id die door een gegevenspartner wordt verstrekt.
+
+   Eerder bevatte de leverings-API alleen `dcsLocationHint` en `blob`. (TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
 

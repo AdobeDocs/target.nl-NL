@@ -2,11 +2,11 @@
 keywords: releaseopmerkingen;releases;updates;toekomstige release;verbeteringen;nieuwe functies;oplossingen;updates;pre-release
 description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in de komende release van Adobe Target, waaronder SDK's, API's en JavaScript-bibliotheken.
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
-feature: Opmerkingen bij de release
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -25,25 +25,9 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 >
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.8.1 (10 augustus 2021)
+## [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
 
-Deze onderhoudsversie bevat vele achterste verbeteringen, waaronder de volgende klantgerichte wijziging:
-
-* Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization]-activiteiten die zijn gemaakt in [!UICONTROL Form-Based Experience Composer] om te verwijzen naar verwijderde aanbiedingen in rapporten. Dit gaf het volgende foutenbericht aan vertoning toe, &quot;wij hebben probleem het terugwinnen van gegevens voor dit rapport. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-41028)
-
-## API voor doellevering (3 augustus 2021)
-
-Deze release bevat de volgende verbeteringen:
-
-* De limiet voor mbox-parameters is verhoogd tot 100 parameters. De vorige limiet was 50 parameters. (TNT-41717)
-* De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
-* De volgende [!DNL Adobe Audience Manager] (AAM) details zijn toegevoegd aan de leverings-API:
-
-   * UUID AAM: De interne AAM-id die wordt gebruikt om een gebruiker op unieke wijze te identificeren.
-   * dataPartnerId: Identiteitskaart voor een gegevenspartner.
-   * dataPartnerUserId: De gebruikers-id die door een gegevenspartner wordt verstrekt.
-
-   Eerder bevatte de leverings-API alleen `dcsLocationHint` en `blob`. (TNT-41644)
+Hier wordt de komende week aanvullende informatie geplaatst.
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
