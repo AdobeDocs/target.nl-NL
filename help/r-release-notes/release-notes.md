@@ -3,11 +3,11 @@ keywords: Opmerkingen bij de release;nieuwe functies;releases;updates;update;rel
 description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke situaties inbegrepen in de huidige versie van  [!DNL Adobe Target], met inbegrip van SDKs, APIs, en bibliotheken JavaScript.
 landing-page-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke situaties inbegrepen in de huidige versie van  [!DNL Adobe Target].
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
-feature: Opmerkingen bij de release
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -24,46 +24,22 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
 
-## om 2.6.1.2021 (16 augustus 2021)
+## [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
 
-* Bugcorrectie voor &quot;Geen artefact in cache beschikbaar voor hybride modus&quot; bij gebruik van apparaatbeslissingen.
+Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen.
 
-## [!DNL Target] node.js SDK 2.2.0 (11 augustus 2021)
-
-* Toegevoegde SDK-telemetriegegevensverzameling
-* Automated Delivery API client openapi-codegen
-
-Voor meer informatie over deze en vorige versies, zie [Logboek van de Verandering ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in [de documentatie van SDK van het Doel knoop.js](https://github.com/adobe/target-nodejs-sdk) op Github.
-
-## [!DNL Target Standard/Premium] 21.8.1 (10 augustus 2021)
-
-Deze onderhoudsversie bevat vele achterste verbeteringen, waaronder de volgende klantgerichte wijziging:
-
-* Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization]-activiteiten die zijn gemaakt in [!UICONTROL Form-Based Experience Composer] om te verwijzen naar verwijderde aanbiedingen in rapporten. Dit gaf het volgende foutenbericht aan vertoning toe, &quot;wij hebben probleem het terugwinnen van gegevens voor dit rapport. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-41028)
-
-## [!DNL Target Delivery API] (3 augustus 2021)
-
-Deze release bevat de volgende verbeteringen:
-
-* De limiet voor mbox-parameters is verhoogd tot 100 parameters. De vorige limiet was 50 parameters. (TNT-41717)
-* De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
-* De volgende [!DNL Adobe Audience Manager] (AAM) details zijn toegevoegd aan de leverings-API:
-
-   * UUID AAM: De interne AAM-id die wordt gebruikt om een gebruiker op unieke wijze te identificeren.
-   * dataPartnerId: Identiteitskaart voor een gegevenspartner.
-   * dataPartnerUserId: De gebruikers-id die door een gegevenspartner wordt verstrekt.
-
-   Eerder bevatte de leverings-API alleen `dcsLocationHint` en `blob`. (TNT-41644)
-
-## om 2.6.0 uur (27 juli 2021)
-
-* Beveiligd kenmerk toegevoegd aan cookies wanneer de instellingen `secureOnly` op `true` zijn ingesteld.
-* De tokens van de reactie zijn nu beschikbaar wanneer het gebruiken `triggerView()`.
-* Probleem verholpen met betrekking tot de gebeurtenis `CONTENT_RENDERING_NO_OFFERS`. Deze gebeurtenis wordt nu correct geactiveerd wanneer er geen inhoud wordt geretourneerd van [!DNL Target].
-* [!DNL Analytics for Target] (A4T) klik metriekdetails correct zijn teruggekeerd wanneer het gebruiken van  `prefetch` verzoeken.
-* Bij UUID-generatie wordt `Math.random()` niet meer gebruikt, maar wordt `window.crypto` gebruikt.
-* De vervaldatum van het `sessionId` cookie wordt correct verlengd bij elke netwerkaanroep.
-* De [!UICONTROL Single Page Application] (SPA) initialisatie van het meningsgeheime voorgeheugen wordt nu correct behandeld en handhaaft montages `viewsEnable`.
+* Problemen verholpen waardoor klanten zich niet konden aanmelden bij [!UICONTROL Visual Experience Composer] (VEC) vanwege nieuw beveiligingsbeleid voor cookies van derden in sommige webbrowsers. Dit probleem is besproken in &quot;Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+&quot; in [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Probleem verholpen waarbij aanbiedingsnamen in de VEC het pad van de aanbieding weergeven in plaats van de vriendelijke naam van de aanbieding. (TGT-41300)
+* De namen van de ervaring worden nu weerspiegeld in [!DNL Analysis Workspace] voor activiteiten A4T (TGT-38674)
+* Probleem verholpen in [!DNL Recommendations] waarbij wijzigingen in de entiteit-id bij een promotie in een gedupliceerde activiteit ten onrechte werden toegepast op de oorspronkelijke activiteit. (TGT-41482)
+* Probleem verholpen waardoor de knop &quot;Criteria bewerken&quot; niet correct kon worden weergegeven op de pagina [!UICONTROL Experiences] voor [!DNL Recommendations]-activiteiten in de VEC. (TGT-39512)
+* Probleem verholpen waarbij synchronisatie van activiteiten tijdens het dupliceren en kopiëren naar een testwerkruimte werd voorkomen. (TGT-40686)
+* Probleem verholpen waarbij wijzigingen in een kiezer met [ervaringsfragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) tijdens het gebruik van &quot;[!UICONTROL Insert After]&quot; in de VEC werden voorkomen. (TGT-41802)
+* Probleem verholpen waarbij lege JSON-inhoud in een aanbieding niet naar de achtergrond kon worden verzonden. [!DNL Target] verzendt nu het JSON-object, ook al is het leeg. (TGT-41555)
+* Probleem verholpen waarbij rapportage [!DNL Analytics] werd geopend in plaats van [!DNL Analysis Workspace] wanneer klanten tijdens het weergeven van een rapport op &quot;[!UICONTROL View in Analytics]&quot; hadden geklikt. (TGT-41867)
+* Er is extra verduidelijking toegevoegd aan het weergegeven UI-bericht wanneer een klant [!DNL Analytics] probeert te selecteren als rapportagebron (A4T) voor een [!UICONTROL Automated Personalization]-activiteit. In het bericht staat dat &quot;[!DNL Target] de enige ondersteunde bron is voor [!UICONTROL Automated Personalization]-activiteiten.&quot; (TGT-41954)
+* Er is extra verduidelijking toegevoegd aan het foutbericht wanneer klanten proberen hosts te scheiden met &quot;newline&quot; in plaats van met komma&#39;s. (TGT-40671)
+* Probleem verholpen waarbij de datums &quot;[!UICONTROL Last Updated]&quot; van sommige activiteiten verschilden van de Engelse gebruikersinterface voor Spaanse en Japanse klanten (wanneer de gebruikersinterface wordt weergegeven in het Spaans en Japans). (TGT-38980)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

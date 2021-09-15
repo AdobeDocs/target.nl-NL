@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2360'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,17 @@ ht-degree: 0%
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
 
+## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 september 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 14 september | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.9.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+
 ## Adobe [!DNL Target] Standaard/Premium 21.8.1 (10 augustus 2021)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 14 september | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Informatie toegevoegd over de release [!DNL Target Standard/Premium] 21.9.1 (14 september 2021). Deze informatie wordt later vandaag verplaatst naar [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md). |
+| 14 september | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Informatie toegevoegd over de release [!DNL Target Standard/Premium] 21.9.1 (14 september 2021). |
 | 7 september | [Mobiel](/help/c-target/c-audiences/c-target-rules/mobile.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met informatie over het activeren van apparaten met Safari 14.0.2 (of hoger). |
 |  | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Bijgewerkte informatie over `targettype` en `algorithmId`, die interne herkenningstekens zijn die door [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten worden gebruikt. |
 | 24 augustus | [ [!DNL Target] Implementeren [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] is omgedoopt tot een reeks technologieën voor gegevensverzameling in  [!DNL Adobe Experience Platform]. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. |
@@ -28,6 +34,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | 16 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br><br>[andat.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.6.1. |
 |  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Sectie &#39;Tips en trucs&#39; toegevoegd. |
 | 11 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Added release notes for the [!DNL Target] node.js SDK version 2.2.0. |
+| 10 augustus | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.8.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe [!DNL Target] Standaard/Premium 21.6.1 (30 juni 2021)
 
