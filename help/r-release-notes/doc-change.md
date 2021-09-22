@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
+source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2511'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-|  | [Een ontwerp aanpassen met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Veranderd `$Double` in `$double` in codesteekproeven om dubbelzinnigheid te verhinderen. |
-| 22 september | [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Kan ik een profielmanuscript in een [!DNL Recommendations] ontwerp gebruiken?</li></ul> |
+| 22 september | [Een ontwerp aanpassen met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Veranderd `$Double` in `$double` in codesteekproeven om mogelijke dubbelzinnigheid te verhinderen. |
+|  | [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Kan ik een profielmanuscript in een [!DNL Recommendations] ontwerp gebruiken?</li></ul> |
 |  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende overwegingen zijn toegevoegd:<ul><li>Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.</li><li>Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.</li><li>De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle verwante activiteiten die de bezoeker voor kwalificeerde.</li></ul> |
 |  | [ [!DNL Target] Implementeren [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Opmerking toegevoegd in de sectie &#39;Voordelen van het implementeren van de extensie [!DNL Target]&#39; in het bestand at.js. |
 |  | [Real-time profielsynchronisatie voor mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met nieuwe informatie. |
