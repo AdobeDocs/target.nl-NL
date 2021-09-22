@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,11 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 22 september | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende overwegingen zijn toegevoegd:<ul><li>Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.</li><li>Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.</li><li>De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle verwante activiteiten die de bezoeker voor kwalificeerde.</li></ul> |
+|  | [ [!DNL Target] Implementeren [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Opmerking toegevoegd in de sectie &#39;Voordelen van het implementeren van de extensie [!DNL Target]&#39; in het bestand at.js. |
+|  | [Real-time profielsynchronisatie voor mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met nieuwe informatie. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De sectie &quot;secureOnly&quot; is bijgewerkt. |
+|  | [om.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Bijgewerkt van de volgende veelgestelde vragen: &quot;Waarom gebruikt at.js niet altijd vlaggen van HttpOnly en van het Veilige koekje?&quot; |
 | 14 september | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.9.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## Adobe [!DNL Target] Standaard/Premium 21.8.1 (10 augustus 2021)

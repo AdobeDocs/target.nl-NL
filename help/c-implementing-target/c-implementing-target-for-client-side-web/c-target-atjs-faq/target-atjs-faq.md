@@ -5,16 +5,16 @@ title: Wat zijn algemene vragen en antwoorden over at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # om.js Veelgestelde Vragen
 
-Antwoorden op veelgestelde vragen over at.js.
+Antwoorden op veelgestelde vragen over de JavaScript-bibliotheek [!DNL Adobe Target] at.js.
 
 ## Wat zijn de voordelen om at.js tegenover mbox.js te gebruiken? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
@@ -47,45 +47,45 @@ De volgende secties beschrijven de opeenvolging van acties voor nieuwe en terugk
 1. Als Automatisch maken van globale box is ingeschakeld, wordt de JavaScript-doelbibliotheek gebruikt:
 
    * Instantieert het object Visitor.
-   * De doelbibliotheek probeert de gegevens van de Experience Cloud Visitor-id op te halen.
+   * De [!DNL Target] bibliotheek probeert [!DNL Experience Cloud Visitor ID] gegevens terug te winnen.
    * Omdat deze bezoeker een nieuwe bezoeker is, leidt de bezoeker-API een aanvraag voor een ander domein in naar demdex.net.
-   * Nadat de gegevens van de identiteitskaart van de Bezoeker van Experience Cloud worden teruggewonnen, wordt een verzoek aan Doel in brand gestoken.
+   * Nadat [!DNL Experience Cloud Visitor ID] gegevens worden teruggewonnen, wordt een verzoek aan [!DNL Target] in brand gestoken.
 
 ### Bezoekers terugsturen
 
 1. De bezoeker-API wordt geladen, geparseerd en uitgevoerd.
 1. at.js / mbox.js wordt geladen, geparseerd en uitgevoerd.
-1. Als Automatisch maken van globale box is ingeschakeld, wordt de JavaScript-doelbibliotheek gebruikt:
+1. Als global mbox auto-create is ingeschakeld, gebruikt u de JavaScript-bibliotheek [!DNL Target]:
 
    * Instantieert het object Visitor.
-   * De doelbibliotheek probeert de gegevens van de Experience Cloud Visitor-id op te halen.
+   * De [!DNL Target] bibliotheek probeert [!DNL Experience Cloud Visitor ID] gegevens terug te winnen.
    * De bezoeker-API haalt gegevens op uit cookies.
-   * Nadat de gegevens van de identiteitskaart van de Bezoeker van Experience Cloud worden teruggewonnen, wordt een verzoek aan Doel in brand gestoken.
+   * Nadat [!DNL Experience Cloud Visitor ID] gegevens worden teruggewonnen, wordt een verzoek aan [!DNL Target] in brand gestoken.
 
 >[!NOTE]
 >
->Voor nieuwe bezoekers, wanneer de Bezoeker-API aanwezig is, moet Target meerdere keren over de kabel gaan om ervoor te zorgen dat de Target-aanvragen gegevens van de Experience Cloud Bezoeker-id bevatten. Voor terugkerende bezoekers, gaat het Doel over de draad slechts aan Doel om de gepersonaliseerde inhoud terug te winnen.
+>Voor nieuwe bezoekers, wanneer de bezoeker API aanwezig is, [!DNL Target] moet over de draad veelvoudige tijden gaan om ervoor te zorgen dat [!DNL Target] verzoeken [!DNL Experience Cloud Visitor ID] gegevens bevatten. Voor het terugkeren van bezoekers, [!DNL Target] gaat over de draad slechts aan [!DNL Target] om de gepersonaliseerde inhoud terug te winnen.
 
 ## Waarom lijkt het alsof ik langzamere reactietijden na bevordering van een vorige versie van at.js aan versie 1.0.0 zie? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
-[!DNL at.js] in versie 1.0.0 en hoger worden alle aanvragen parallel afgehandeld . Eerdere versies voeren de verzoeken opeenvolgend uit, wat betekent dat de verzoeken in een rij worden gezet en het Doel wacht op eerste verzoek om te voltooien alvorens op het volgende verzoek over te gaan.
+[!DNL at.js] in versie 1.0.0 en hoger worden alle aanvragen parallel afgehandeld . Eerdere versies voeren de verzoeken opeenvolgend uit, wat betekent dat de verzoeken in een rij worden gezet en [!DNL Target] wacht op eerste verzoek om te voltooien alvorens op het volgende verzoek over te gaan.
 
-De manier de vorige versies van [!DNL at.js] verzoeken uitvoeren is vatbaar voor het zogenaamde &quot;hoofd van lijnblokkering.&quot; In [!DNL at.js] 1.0.0 en later, schakelde het Doel naar parallelle verzoekuitvoering.
+De manier de vorige versies van [!DNL at.js] verzoeken uitvoeren is vatbaar voor het zogenaamde &quot;hoofd van lijnblokkering.&quot; In [!DNL at.js] 1.0.0 en later schakelde [!DNL Target] over naar parallelle uitvoering van het verzoek.
 
 Als u de waterval van het netwerklusje voor [!DNL at.js] 0.9.1 controleert, bijvoorbeeld, zult u zien dat volgende [!DNL Target] verzoek niet begint tot vorige is gebeëindigd. Deze opeenvolging is niet het geval met [!DNL at.js] 1.0.0 en later waar alle verzoeken eigenlijk tezelfdertijd beginnen.
 
 Vanuit het perspectief van de reactietijd, wiskundig, kan deze opeenvolging als dit worden samengevoegd
 
 <ul class="simplelist"> 
- <li> om.js 0.9.1: De tijd van de reactie van alle verzoeken van het Doel = som van de tijd van de verzoekreactie </li> 
- <li> in.js 1.0.0 en hoger: De tijd van de reactie van alle verzoeken van het Doel = maximum van de tijd van de verzoekreactie </li> 
+ <li> om.js 0.9.1: Responstijd van alle [!DNL Target]-verzoeken = som van de reactietijd van verzoeken </li> 
+ <li> in.js 1.0.0 en hoger: Responstijd van alle [!DNL Target] verzoeken = maximum van de tijd van de vraagreactie </li> 
 </ul>
 
-Met de bibliotheekversie 1.0.0 van [!DNL at.js] worden de aanvragen sneller voltooid. Bovendien zijn [!DNL at.js] verzoeken asynchroon, zodat [!DNL Target] paginerendering niet blokkeert. Zelfs als verzoeken seconden duren om te voltooien, ziet u nog steeds de gerenderde pagina, worden slechts enkele delen van de pagina leeg gemaakt totdat Doel een reactie krijgt van de rand van het Doel.
+Met de bibliotheekversie 1.0.0 van [!DNL at.js] worden de aanvragen sneller voltooid. Bovendien zijn [!DNL at.js] verzoeken asynchroon, zodat [!DNL Target] paginerendering niet blokkeert. Zelfs als verzoeken seconden duren om te voltooien, ziet u nog steeds de weergegeven pagina, worden slechts enkele delen van de pagina gewist totdat [!DNL Target] een reactie krijgt van de [!DNL Target] rand.
 
 ## Kan ik de bibliotheek [!DNL Target] asynchroon laden? {#section_AB9A0CA30C5440C693413F1455841470}
 
-Met de release at.js 1.0.0 kunt u de doelbibliotheek asynchroon laden.
+Met de release at.js 1.0.0 kunt u de bibliotheek [!DNL Target] asynchroon laden.
 
 Zo laadt u at.js asynchroon:
 
@@ -115,7 +115,7 @@ Als u at.js door een synchrone implementatie DTM opstelt, kan het pre-verbergend
 
 Zie [How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) voor meer informatie.
 
-## Is at.js verenigbaar met de integratie van Adobe Experience Manager (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
+## Is at.js compatibel met [!DNL Adobe Experience Manager] integratie (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
 [!DNL Adobe Experience Manager] 6.2 met FP-11577 (of later) steunt nu  [!DNL at.js] implementaties met zijn  [!UICONTROL Adobe Target Cloud Services] integratie.
 
@@ -149,7 +149,7 @@ Om Safari bezoekers te ondersteunen, zou een beter X-Domein &quot;gehandicapt&qu
 
 Ja, u kunt VEC voor uw SPA gebruiken als u at.js 2.x gebruikt. Zie [Single Page (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) voor meer informatie.
 
-## Kan ik de Adobe Experience Cloud Debugger gebruiken met at.js implementaties? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## Kan ik de [!DNL Adobe Experience Cloud] Foutopsporing gebruiken met implementaties at.js? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 Ja. U kunt mboxTrace ook gebruiken voor het zuiveren doeleinden of de Hulpmiddelen van de Ontwikkelaar van uw browser om de verzoeken van het Netwerk te inspecteren, filtrerend aan &quot;mbox&quot;om mbox vraag te isoleren.
 
@@ -159,13 +159,13 @@ Ja, hetzelfde als met mbox.js.
 
 ## Waarom worden mijn dozen niet op mijn webpagina&#39;s geactiveerd? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
-Doelklanten gebruiken soms cloudgebaseerde instanties met [!DNL Target] voor testdoeleinden of eenvoudige concepttest-doeleinden. Deze domeinen, en vele anderen, maken deel uit van [Openbare Achtervoegsellijst](https://publicsuffix.org/list/public_suffix_list.dat).
+[!DNL Target] klanten gebruiken soms cloudgebaseerde instanties  [!DNL Target] voor testdoeleinden of eenvoudige concepttest. Deze domeinen, en vele anderen, maken deel uit van [Openbare Achtervoegsellijst](https://publicsuffix.org/list/public_suffix_list.dat).
 
 Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de instelling `cookieDomain` aanpast met targetGlobalSettings(). Zie [Op wolken gebaseerde instanties gebruiken met Doel](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md) voor meer informatie.
 
 ## Kunnen IP adressen als koekjesdomein worden gebruikt wanneer het gebruiken van at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, als u [at.js versie 1.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) gebruikt. Adobe raadt u echter ten zeerste aan de nieuwste versie bij te houden.
+Ja, als u [at.js versie 1.2 of later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) gebruikt. [!DNL Adobe] Het is echter van belang dat u de nieuwste versie blijft gebruiken.
 
 >[!NOTE]
 >
@@ -201,8 +201,8 @@ Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofd
 
 * De pagina wordt dynamisch samengesteld en at.js kan het element niet vinden.
 * De pagina wordt langzaam samengesteld (vanwege een traag netwerk) en at.js kan de kiezer niet vinden in de DOM.
-* De paginastructuur waarop de activiteit wordt uitgevoerd, is gewijzigd. Als u de activiteit in de Visuele Composer van de Ervaring (VEC) heropent, zou u een waarschuwingsbericht moeten krijgen. Werk de activiteit bij zodat alle noodzakelijke elementen kunnen worden gevonden.
-* De onderliggende pagina maakt deel uit van een toepassing voor één pagina (SPA) of de pagina bevat elementen die verder naar beneden op de pagina worden weergegeven en het [!DNL at.js] &#39;selector polling mechanism&#39; kan die elementen niet vinden. Het verhogen van `selectorsPollingTimeout` zou kunnen helpen. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
+* De paginastructuur die [!UICONTROL y is running on has been changed. If you reopen the activity in the ]Visual Experience Composer (VEC) activeert, zou u een waarschuwingsbericht moeten krijgen. Werk de activiteit bij zodat alle noodzakelijke elementen kunnen worden gevonden.
+* De onderliggende pagina maakt deel uit van een [!UICONTROL Single Page Application] (SPA) of de pagina bevat elementen die verder naar beneden op de pagina worden weergegeven en het [!DNL at.js] &quot;selector polling mechanism&quot; kan die elementen niet vinden. Het verhogen van `selectorsPollingTimeout` zou kunnen helpen. Zie [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) voor meer informatie.
 * Om het even welke klik-volgende metrisch probeert om aan elke pagina toe te voegen, ongeacht URL waarop metrisch opstelling was. Hoewel onschuldig, maakt deze situatie veel van deze berichten tonen.
 
    Download en gebruik de nieuwste versie van [!DNL at.js] voor de beste resultaten. Zie [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) en [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) voor meer informatie.
@@ -211,17 +211,17 @@ Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofd
 
 [!DNL tt.omtrdc.net] is de domeinnaam voor Adobe EDGE netwerk, dat wordt gebruikt om alle vraag naar Doel te ontvangen.
 
-## Waarom gebruiken at.js en mbox.js geen vlag HttpOnly en Veilige koekjes? {#section_74527E3B41B54B0A83F217C3E664ED1F}
+## Waarom gebruikt at.js altijd vlaggen van het Toegangske- en Veilige koekje HttpOnly? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-HttpOnly kan alleen worden ingesteld via code op de server. Doelcookies, zoals mbox, worden gemaakt en opgeslagen via JavaScript-code, zodat Target de Cookie-vlag HttpOnly niet kan gebruiken.
+HttpOnly kan alleen worden ingesteld via code op de server. [!DNL Target] cookies, zoals mbox, worden gemaakt en opgeslagen via JavaScript-code, zodat  [!DNL Target] u de vlag van het alleen-http-cookie niet kunt gebruiken. [!DNL Target] Hierbij wordt HttpOnly ingesteld voor cookies van derden die vanaf de server worden ingesteld wanneer cross-domain is ingeschakeld.
 
-Beveiliging kan alleen via JavaScript worden ingesteld wanneer de pagina via HTTPS is geladen. Als de pagina voor het eerst wordt geladen via HTTP, kan JavaScript deze markering niet instellen. Als de markering Beveiligen wordt gebruikt, is de cookie bovendien alleen beschikbaar op HTTPS-pagina&#39;s.
+Beveiliging kan alleen via JavaScript worden ingesteld wanneer de pagina via HTTPS is geladen. Als de pagina voor het eerst wordt geladen via HTTP, kan JavaScript deze markering niet instellen. Als de markering Beveiligen wordt gebruikt, is de cookie bovendien alleen beschikbaar op HTTPS-pagina&#39;s. Voor pagina&#39;s die via HTTPS worden geladen, stelt [!DNL Target] de kenmerken Secure en SameSite=None in.
 
-Om ervoor te zorgen dat Doel gebruikers correct kan volgen, en omdat de koekjes cliënt-kant worden geproduceerd, gebruikt Target geen van beide vlaggen.
+[!DNL Target] gebruikt geen van deze markeringen, behalve in de hierboven vermelde situaties, om ervoor te zorgen dat [!DNL Target] gebruikers correct kan volgen en omdat de cookies op de client worden gegenereerd.
 
 ## Hoe vaak brand at.js een netwerkverzoek? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target voert al zijn besluiten op de server uit. Dit betekent dat at.js elke keer dat de pagina opnieuw wordt geladen of een openbare API van at.js wordt aangeroepen, een netwerkverzoek in werking stelt.
+[!DNL Target] voert al zijn besluit op de server uit. Dit betekent dat at.js elke keer dat de pagina opnieuw wordt geladen of een openbare API van at.js wordt aangeroepen, een netwerkverzoek in werking stelt.
 
 ## In het beste geval, kunnen wij verwachten dat de gebruiker geen zichtbare gevolgen op paginading met betrekking tot het verbergen van, het vervangen van, en het tonen van inhoud ervaart? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
@@ -234,11 +234,11 @@ Het verzoek at.js is een async `XMLHttpRequest`, zodat voeren wij de volgende st
 1. De pagina wordt geladen.
 1. at.js prehides the HTML BODY. Er is een instelling voor het vooraf verbergen van een bepaalde container in plaats van de HTML-BODY.
 1. De aanvraag at.js wordt geactiveerd.
-1. Nadat het doelantwoord is ontvangen, extraheert Target de CSS-kiezers.
-1. Met CSS-kiezers maakt Target STIJL-tags om de DOM-elementen die worden aangepast, vooraf te verbergen.
+1. Nadat de reactie [!DNL Target] is ontvangen, haalt [!DNL Target] de CSS-kiezers uit.
+1. Met CSS-kiezers maakt [!DNL Target] STIJL-tags om de DOM-elementen die worden aangepast, vooraf te verbergen.
 1. De vooraf verborgen STIJL voor het HTML-LICHAAM wordt verwijderd.
-1. Doel start opiniepeiling voor DOM-elementen.
-1. Als een DOM-element wordt gevonden, past Target DOM-wijzigingen toe en wordt de vooraf verborgen STIJL van het element verwijderd.
+1. [!DNL Target] start opiniepeiling voor DOM-elementen.
+1. Als een DOM-element wordt gevonden, past [!DNL Target] DOM-wijzigingen toe en wordt de vooraf verborgen STIJL van het element verwijderd.
 1. Als DOM-elementen niet worden gevonden, verbergt een algemene time-out de elementen om te voorkomen dat een pagina wordt verbroken.
 
 ## Hoe vaak wordt de inhoud van de pagina volledig geladen en zichtbaar wanneer at.js definitief het element ontverbergt de activiteit verandert? {#section_01AFF476EFD046298A2E17FE3ED85075}
@@ -249,17 +249,17 @@ at.js blokkeert niet dat de pagina wordt weergegeven. Een gebruiker kan bepaalde
 
 ## Hoe zou een volledig caching pagina het bovengenoemde scenario beïnvloeden? Zou het waarschijnlijker zijn dat de inhoud van de activiteit merkbaar zichtbaar wordt nadat de rest inhoud van de pagina laadt? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-Als een pagina in het cachegeheugen is opgeslagen op een CDN die zich dicht bij de locatie van de gebruiker bevindt, maar niet bij de rand van het doel, kan die gebruiker enige vertragingen zien. De doelranden zijn over de hele wereld goed verdeeld, dus dit is niet de meeste tijd een probleem.
+Als een pagina in de cache wordt geplaatst op een CDN die dicht bij de locatie van de gebruiker staat, maar niet dichtbij de [!DNL Target] rand, kan die gebruiker enige vertragingen zien. [!DNL Target] de randen zijn over de hele wereld goed verdeeld , dus dit is niet de meeste tijd een probleem .
 
 ## Is het mogelijk dat een hoofdafbeelding na een korte vertraging wordt weergegeven en vervolgens wordt omgewisseld? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Met het volgende scenario:
 
-De time-out Doel is vijf seconden. Een gebruiker laadt een pagina die een activiteit heeft om een hoofdafbeelding aan te passen. at.js verzendt het verzoek om te bepalen als er een activiteit is om toe te passen, maar er is geen aanvankelijke reactie. Veronderstel de gebruiker de regelmatige inhoud van het heldenbeeld ziet, omdat geen reactie van Target werd ontvangen betreffende of er een bijbehorende activiteit is. Na vier seconden, keert het Doel een reactie met de activiteiteninhoud terug.
+De time-out [!DNL Target] is vijf seconden. Een gebruiker laadt een pagina die een activiteit heeft om een hoofdafbeelding aan te passen. at.js verzendt het verzoek om te bepalen als er een activiteit is om toe te passen, maar er is geen aanvankelijke reactie. Veronderstel de gebruiker de regelmatige inhoud van het heldenbeeld ziet, omdat geen reactie van [!DNL Target] betreffende of er een bijbehorende activiteit is ontvangen. Na vier seconden retourneert [!DNL Target] wel een reactie met de inhoud van de activiteit.
 
 Zou het in dit stadium mogelijk zijn de alternatieve versie te tonen? Na vier seconden kon de hoofdafbeelding worden omgewisseld en kon de gebruiker deze afbeeldingswisseling zien?
 
-In eerste instantie is het DOM-element voor de held van de afbeelding verborgen. Nadat een reactie van Doel is ontvangen, past at.js de DOM-wijzigingen toe, zoals het vervangen van de IMG en het weergeven van de aangepaste hoofdafbeelding.
+In eerste instantie is het DOM-element voor de held van de afbeelding verborgen. Nadat een reactie van [!DNL Target] is ontvangen, past at.js de DOM-wijzigingen toe, zoals het vervangen van de IMG en het weergeven van de aangepaste hoofdafbeelding.
 
 ## Welk HTML-doctype vereist at.js?
 
@@ -269,4 +269,4 @@ Deze syntaxis is:
 
 `<!DOCTYPE html>`
 
-Het HTML 5-documenttype zorgt ervoor dat de pagina in de standaardmodus wordt geladen. Bij het laden in de modus Kirken zijn sommige JS API&#39;s waarvan at.js afhankelijk is, uitgeschakeld. Doel schakelt in de modus Kirken de optie at.js uit.
+Het HTML 5-documenttype zorgt ervoor dat de pagina in de standaardmodus wordt geladen. Bij het laden in de modus Kirken zijn sommige JS API&#39;s waarvan at.js afhankelijk is, uitgeschakeld. [!DNL Target] Schakelt in de modus kirken de modus at.js uit.

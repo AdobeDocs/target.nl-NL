@@ -1,13 +1,13 @@
 ---
 keywords: implementeren;implementeren;implementatie;adobe launch;launch;ras;redirect;Experience platform launch;platform launch;tags;adobe platform
-description: Leer hoe u de Adobe [!DNL Target] at.js-bibliotheek implementeert met Adobe Experience Platform Launch, de voorkeursmethode voor het implementeren van Adobe [!DNL Target].
-title: Hoe voer ik  [!DNL Target] het gebruiken van de Lancering van Adobe uit?
-feature: Server-kant implementeren
+description: Leer hoe te om  [!DNL Adobe Target] at.js bibliotheek uit te voeren gebruikend [!DNL Adobe Experience Platform], the preferred method to implement [!DNL Target].
+title: Hoe implementeer ik [!DNL Target] using [!DNL Adobe Experience Platform]?
+feature: Implement Server-side
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,9 @@ In de volgende tabel worden de verschillende bronnen weergegeven waar u meer inf
 De volgende voordelen zijn alleen van toepassing als u tags gebruikt in [!DNL Adobe Experience Platform] om at.js te implementeren. Daarom [!DNL Adobe] wordt sterk aangeraden dat u labels gebruikt in [!DNL Adobe Experience Platform] in plaats van een handmatige implementatie van at.js.
 
 * **Oplost  [!DNL Adobe Analytics] en  [!DNL Target] rasvoorwaarde:** Omdat de  [!DNL Analytics] vraag vóór de  [!DNL Target] vraag kon worden in brand gestoken, wordt de  [!DNL Target] vraag niet vastgemaakt aan de  [!DNL Analytics] vraag. Deze volgorde kan leiden tot onjuiste gegevens. De [!DNL Target] uitbreiding zorgt ervoor dat de [!DNL Analytics] bakenvraag wacht tot de [!DNL Target] vraag voltooit, met succes of niet. Door tags te gebruiken in [!DNL Adobe Experience Platform] worden de inconsistente gegevens opgelost die klanten kunnen ervaren bij het handmatig implementeren.
+
+   >[!NOTE]
+   >
+   >Gebruik de [!UICONTROL Send Beacon] actie in de [!DNL Adobe Analytics] uitbreiding zodat de [!DNL Analytics] vraag op de [!DNL Target] vraag wacht. Als u `s.t()` of `s.tl()` gebruikend douanecode direct roept, [!DNL Analytics] de vraag wacht niet tot [!DNL Target] volledig vraag is.
+
 * **Voorkomt onjuiste omleiding van aanbiedingen:** Als u  [!DNL Target] en  [!DNL Analytics] op de pagina hebt, en er een omleidingsaanbieding door wordt uitgevoerd  [!DNL Target], kunt u een situatie ervaren waarin de  [!DNL Analytics] tracker een verzoek in brand steekt wanneer het niet zou moeten (omdat de gebruiker aan een verschillende URL wordt opnieuw gericht). Als u [!DNL Target] en [!DNL Analytics] via tags implementeert in [!DNL Adobe Experience Platform], zult u dit probleem niet ervaren. Met behulp van tags in [!DNL Adobe Experience Platform] geeft [!DNL Target] [!DNL Analytics] de instructie om het [!DNL Analytics]-verzoek af te breken.

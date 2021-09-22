@@ -1,12 +1,12 @@
 ---
 keywords: Klik op bijhouden;traceer klikken;klikken;AppMeasurement
-description: Leer hoe u met Adobe [!DNL Target] kliks op elk element kunt bijhouden als succesmetrisch.
+description: Leer hoe [!DNL Adobe Target] u kliks op om het even welk element als succes metrisch laat volgen.
 title: Wat volgt de klik?
-feature: Succeswaarden
+feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Het volgen van kliks wordt niet gesteund op het globale verzoek van het Doel wanneer het als plaats in een vorm-gebaseerde activiteit wordt gebruikt.
+>Het volgen van kliks wordt niet gesteund op het globale [!DNL Target] verzoek wanneer het als plaats in een op vorm-gebaseerde activiteit wordt gebruikt.
 
 ## Klikspatiëring instellen {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 
 1. Selecteer de elementen die u wilt bijhouden.
 
-   Zie de sectie Overwegingen hieronder voor tips over het selecteren van elementen.
+   Zie de sectie *Overwegingen* hieronder voor tips over het selecteren van elementen.
 
-1. Klik op het vinkje boven aan het scherm om de selecties op te slaan.
+1. Klik **[!UICONTROL Save]** bij de bovenkant van het scherm om uw selecties te bewaren.
 
 Wanneer een deelnemer aan een activiteit op een geselecteerd element klikt, wordt die klik geteld als een omzetting.
 
 ## Deelvenster Geselecteerde elementen {#selected-elements}
 
-Voor A/B-test-, Experience Targeting (XT)-, Automated Personalization (AP)- en MVT-activiteiten (Multivariate Test) worden in het deelvenster [!UICONTROL Selected Elements] alle geselecteerde elementen weergegeven voor klikken op bijhouden aan de rechterkant.
+Voor [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), en [!UICONTROL Multivariate Test] (MVT) activiteiten, een [!UICONTROL Selected Elements] paneel maakt een lijst van de geselecteerde elementen voor klik het volgen op de rechterkant.
 
 ![Deelvenster Geselecteerde elementen](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Er zijn verscheidene acties die kunnen worden toegepast wanneer u over een element in het [!UICONTROL Selected Elements] paneel beweegt. In de volgende tabel wordt elke actie beschreven die op een element kan worden uitgevoerd:
+Er zijn verschillende handelingen die u kunt toepassen wanneer u de muisaanwijzer op een element in het deelvenster [!UICONTROL Selected Elements] plaatst. In de volgende tabel wordt elke actie beschreven die op een element kan worden uitgevoerd:
 
 | Handeling | Beschrijving |
 | --- | --- |
@@ -50,11 +50,11 @@ Er zijn verscheidene acties die kunnen worden toegepast wanneer u over een eleme
 
 ### Element toevoegen
 
-Als u het DOM-pad naar de kiezer al kent, kunt u het handmatig toevoegen door op het plusteken boven in het deelvenster te klikken.
+Als u het DOM-pad naar de kiezer al kent, kunt u het handmatig toevoegen door op het pluspictogram boven in het deelvenster te klikken.
 
 ![Pictogram Element toevoegen](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### Geselecteerde elementen boven pop-up plaatsen
+### Pop-up Geselecteerde elementen
 
 Nadat u meerdere elementen hebt geselecteerd voor klikken op bijhouden, kunt u op de [!UICONTROL Elements Selected]-koppeling in de stap [!UICONTROL Goals & Settings] van de activiteit klikken om de volledige lijst met elementen weer te geven die zijn geselecteerd voor klikken op bijhouden. De lijst bevat het volledige DOM-pad voor het element, zodat u kunt controleren of het geselecteerde element moet worden gebruikt voor klikken op bijhouden.
 
@@ -76,7 +76,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 * Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.
 * Selecteer het niveau van het element dat u wilt bijhouden. Wanneer u bijvoorbeeld een knop opgeeft, moet u de koppeling selecteren en niet de knoptekst.
 * Klik gebeurtenissen worden verzonden naar [!DNL Target] op de zelfde pagina zoals de klik.
-* Als de metrisch klikt-tracking metrisch de Metrische Goal van een activiteit A4T is, moet de bezoeker dit element binnen 60 seconden na het laden van de pagina klikken om metrisch te volgen.
+* Als de metrische klikspatiëring de metrische waarde van het Doel van een [!UICONTROL Analytics for Target] (A4T) activiteit is, moet de bezoeker dit element binnen 60 seconden na het laden van de pagina klikken om metrisch te volgen.
 * Klik op Tekstspatiëring om elementen te selecteren die beschermde tekens bevatten, zoals de volgende:
 
    | Teken | Beschrijving |
@@ -87,7 +87,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
    | $ | Dollar-teken |
    | `[ ]` | Vierkante haken |
 
-* Als u [!DNL at.js] klikt het volgen en u ook Analytics AppMeasurement gebruikt, [!DNL at.js] annuleert het volgen alle andere handlers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
+* Als u [!DNL at.js] klikt het volgen en u [!DNL Analytics] AppMeasurement ook gebruikt, [!DNL at.js] klikt het volgen annuleert alle andere managers van de klikgebeurtenis. Dientengevolge, voert de AppMeasurement klikmanager nooit uit.
 
    [!DNL at.js] heeft een speciale afhandeling voor het bijhouden van klikken wanneer het onderliggende element een  `A` (koppeling)tag of  `FORM` tag is.
 
@@ -95,23 +95,29 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
    1. `event.preventDefault()` aanroepen.
 
-   1. Verzoek branddoel.
+   1. Verzoek [!DNL Target] vuur.
 
-   1. Voer het standaardgedrag uit wanneer de aanvraag van het Doel is geslaagd of er een fout is teruggeroepen:
+   1. Bij [!DNL Target] vraagsucces of foutencallback, voer standaardgedrag uit:
 
       * `A` (link) tag: Standaard wordt naar de URL gegaan die door het kenmerk HREF wordt gedefinieerd.
       * `FORM` tag: Standaard wordt het formulier verzonden.
 
-   Dit standaardgedrag kan problemen veroorzaken bij het bijhouden van klikken op Analytics. Als u Analytics gebruikt, zou u voor het volgen van klik eerder dan Doel op Analytics moeten vertrouwen.
+   Dit standaardgedrag kan problemen opleveren met [!DNL Analytics] klikken op bijhouden. Als u [!DNL Analytics] gebruikt, zou u voor het volgen van klikken eerder dan [!DNL Target] moeten vertrouwen.[!DNL Analytics]
 
-* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor gebruikers in de onderneming zijn een Target Premium-functie. Voor meer informatie, zie [De gebruikerstoestemmingen van de Onderneming](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. De gebruikerstoestemmingen van de onderneming zijn een [!DNL Target Premium] eigenschap. Voor meer informatie, zie [De gebruikerstoestemmingen van de Onderneming](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+* Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.
+
+* Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.
+
+* De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle verwante activiteiten die de bezoeker voor kwalificeerde.
 
 ## Trainingsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 In deze video vindt u informatie over het maken van succesmetriek voor klikken en bijhouden.
 
 * Begrijp &quot;doel&quot;metriek
-* Omzetten, Inkomsten en Betrokkenheid begrijpen en bouwen
+* [!UICONTROL Conversion], [!UICONTROL Revenue] en [!UICONTROL Engagement] metriek begrijpen en bouwen
 * Bouw metrisch klikken-volgend
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)
