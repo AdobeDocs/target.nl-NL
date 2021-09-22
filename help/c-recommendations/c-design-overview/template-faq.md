@@ -4,17 +4,16 @@ description: Bekijk een lijst met veelgestelde vragen (FAQs) en hun antwoorden o
 title: Waar kan ik antwoorden om Vragen voor  [!DNL Target] Recommendations te ontwerpen?
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # ![Veelgestelde vragen over ](/help/assets/premium.png) PREMIUMDesign
 
-Lijst met veelgestelde vragen (FAQs) over [!DNL Adobe Target] aanbevelingen ontwerpen.
+Lijst met veelgestelde vragen (FAQs) over [!DNL Adobe Target] [!DNL Recommendations] ontwerpen.
 
 ## De prijs van mijn aanbevolen object geeft beide waarden niet rechts van het decimaalteken weer. Hoe kan ik ze weergeven?
 
@@ -30,7 +29,7 @@ Er zijn twee opties beschikbaar om dit probleem op te lossen:
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Waarom wordt categorie niet weergegeven in het ontwerp? Ik gebruik $entiteit1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
+## Waarom wordt categorie niet weergegeven in het ontwerp? Ik gebruik `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 Categorie-id kan niet worden weergegeven in het ontwerp. Omdat de veelvoudige categorieën kunnen worden opgeslagen, zou het systeem niet weten welke categorie aan vertoning.
 
@@ -50,6 +49,6 @@ Versie 1.7 zonder extra hulpmiddelen of toegevoegde bibliotheken. De basisfuncti
 
 Dit lijkt te gebeuren door verzending in een vaste JavaScript-ruimte. Laat de ontwikkelaars `\u00A0` als waarde inzenden. Voorbeeld: `entity.message=\u00A0`. U zou kunnen overwegen dat de standaardwaarde is wanneer geen waarde in plaats van ongeldig aanwezig is.
 
-## Kan ik een profielscript gebruiken in een Recommendations-ontwerp? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Kan ik een profielmanuscript in een [!DNL Recommendations] ontwerp gebruiken? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Ja. U moet echter een backslash (\) toevoegen vóór de $ in de naam van het profielscript.
+Ja. Als u een profielscript wilt gebruiken in een [!DNL Recommendations]-ontwerp, plaatst u de naam in `\${...}`. Als uw profielscript bijvoorbeeld de naam `user.basket` heeft, raadpleegt u het als `\${user.basket}` in het ontwerp. Merk op dat backslash impliceert dat het profielmanuscript niet door Snelheid wordt teruggegeven. Daarom kunt u geen verrichtingen op het profielmanuscript in een malplaatje van de Snelheid uitvoeren. De waarde wordt rechtstreeks op de pagina afgedrukt.
