@@ -4,10 +4,9 @@ description: Leer hoe u de ontwerptaal van de opensource-snelheid gebruikt om aa
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -137,10 +136,10 @@ Door gebrek, behandelen de malplaatjes van de Snelheid alle entiteitattributen a
 Stel dat je de weergegeven prijs van een object met $0,99 wilt verlagen om een korting toe te passen. U kunt de volgende methode gebruiken om dit resultaat te bereiken:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
@@ -152,10 +151,10 @@ Stel dat je de weergegeven prijs van een object met $0,99 wilt verlagen om een k
 Stel dat u een geschikt aantal sterren wilt weergeven op basis van de numerieke gemiddelde klantbeoordeling van een item. U kunt de volgende methode gebruiken om dit resultaat te bereiken:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
@@ -185,7 +184,7 @@ Stel dat u de lengte van een film in minuten opslaat, maar de lengte in uren en 
 #end
 ```
 
-## Een belangrijk item weergeven met aanbevolen producten {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Een sleutelitem weergeven met aanbevolen producten {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 U kunt uw ontwerp aanpassen om uw belangrijkste punt naast andere geadviseerde producten te tonen. U kunt bijvoorbeeld het huidige item ter referentie naast de aanbevelingen weergeven.
 
@@ -208,7 +207,7 @@ Het resultaat is een ontwerp als het volgende, waarbij in één kolom het sleute
 
 Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot;[!DNL Target] toont een willekeurig product in [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
 
-## Vervangingen uitvoeren in een tekenreekswaarde {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Vervangingen in een tekenreekswaarde uitvoeren {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 U kunt uw ontwerp wijzigen om waarden binnen een tekenreeks te vervangen. Zo vervangt u het decimaalteken dat in de Verenigde Staten wordt gebruikt door het komma-scheidingsteken dat in Europa en andere landen wordt gebruikt.
 
@@ -234,7 +233,7 @@ De volgende code is een volledig voorwaardelijk voorbeeld van een verkoopprijs:
                                     </span>
 ```
 
-## De sjabloongrootte aanpassen en controleren op lege waarden {#default}
+## De sjabloongrootte aanpassen en blanco waarden controleren {#default}
 
 Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege elementen van HTML wanneer er niet genoeg passende entiteiten zijn teruggekeerd van [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut zouden hebben en [!UICONTROL Partial Template Rendering] is ingeschakeld.
 
