@@ -2,11 +2,11 @@
 keywords: aankondigingen;vaardigheid bouwen;ontwikkelaarspraatje;koffieonderbreking;gebeurtenissen;forrester;gartner;webinar
 description: Lees aankondigingen en onderteken omhoog voor Adobe [!DNL Target] gebeurtenissen, met inbegrip van de zittingen van de Bouwer van de Vaardigheid, ontwikkelaar en productmanager klusjes, webinars, en meer.
 title: Waar kan ik  [!DNL Target] aankondigingen en Gebeurtenissen vinden?
-feature: Opmerkingen bij de release
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -15,27 +15,18 @@ ht-degree: 0%
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, met inbegrip van [!DNL Adobe Target] de zittingen van de Bouwer van de Vaardigheid, ontwikkelaarchats, webinars, en [!DNL Target] de zittingen van de Onderbreking van de Koffie.
 
-## Herkenning voor [!DNL Adobe Target]
-
-[!DNL Adobe Target] werd onlangs door Forrester en Gartner erkend als marktleider.
-
-| Onderzoeksdienst | Details |
-| --- | --- |
-| Forrester | **Adobe noemde een Leider in de golfrapport van de Forrester voor ervaring optimalisatieplatforms.**<br> Adobe kreeg de naam Leader in de Forrester Wave: Experience Optimization Platforms, Q4 2020 rapport voor zijn aanbieding in deze ruimte, Adobe Target Premium. Adobe heeft de hoogste score van alle deelnemende leveranciers behaald in de huidige aanbiedings- en marktaanwezigheidscategorieën, alsook in de aanbevelingen en criteria voor de ervaring met platforms. Target Premium behaalde ook de hoogst mogelijke score in de ervaring optimalisatietechniek innovatie en ondersteunende servicecriteria. Het verslag is gebaseerd op een grondige evaluatie van 10 aanbieders van het optimalisatieplatform voor ervaringen op 22 verschillende criteria.<br>Lees er op de  [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) over. |
-| Gartner | **Adobe noemde opnieuw een leider in het Gartner Magic Quadrant voor verpersoonlijkingsmotoren.**<br> Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid.<br>[Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
 ## [!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie
 
-* **Woensdag 8 september 2021**
+* **Woensdag 13 oktober 2021**
 * **08:00 (PDT, UTC -7)**
-* **[Klik hier voor meer informatie en om u te registreren](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
+* **[Klik hier voor meer informatie en om u te registreren](https://adobe.ly/3CoUIVz).**
 
-Vishal Chordia, Senior Product Manager voor [!DNL Adobe Target], beantwoordt de vragen van klanten met betrekking tot zijn expertisegebieden:
+Gentry Lin, Senior Solutions Consultant voor [!DNL Adobe Target], zal de vragen van klanten met betrekking tot haar expertisegebieden beantwoorden:
 
-* [!DNL Adobe Experience Platform]
-* personalisatie op basis van doelgroepen
-* [!DNL Real-time Customer Data Platform] (RTCDP) integratie met  [!DNL Target]
-* Algemene [!DNL Target]-onderwerpen
+* Implementatie
+* Personalisatie
+* Workflows voor het ontwerpen van kernwebsites
+* [!DNL Adobe Experience Cloud] integratie
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
@@ -66,3 +57,13 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 Met de veroudering van mbox.js op 31 maart 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
 
 * **[Bekijk hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true) de webinar opname.**
+
+## Herkenning voor [!DNL Adobe Target]
+
+[!DNL Adobe Target] werd onlangs door Forrester en Gartner erkend als marktleider.
+
+| Onderzoeksdienst | Details |
+| --- | --- |
+| Forrester | **Adobe noemde een Leider in de golfrapport van de Forrester voor ervaring optimalisatieplatforms.**<br> Adobe kreeg de naam Leader in de Forrester Wave: Experience Optimization Platforms, Q4 2020 rapport voor zijn aanbieding in deze ruimte, Adobe Target Premium. Adobe heeft de hoogste score van alle deelnemende leveranciers behaald in de huidige aanbiedings- en marktaanwezigheidscategorieën, alsook in de aanbevelingen en criteria voor de ervaring met platforms. Target Premium behaalde ook de hoogst mogelijke score in de ervaring optimalisatietechniek innovatie en ondersteunende servicecriteria. Het verslag is gebaseerd op een grondige evaluatie van 10 aanbieders van het optimalisatieplatform voor ervaringen op 22 verschillende criteria.<br>Lees er op de  [Adobe-blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) over. |
+| Gartner | **Adobe noemde opnieuw een leider in het Gartner Magic Quadrant voor verpersoonlijkingsmotoren.**<br> Adobe werd opnieuw benoemd tot leider in het derde jaarlijkse Gartner Magic Quadrant for Personalization Engines, verslag 2020. Het Magische kwadrant van Gartner voor de Motoren van de Personalisatie evalueerde verkopers over 15 criteria die in twee categorieën vallen: de volledigheid van het gezichtsvermogen en de uitvoerbaarheid.<br>[Lees er over op The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
