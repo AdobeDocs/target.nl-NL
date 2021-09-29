@@ -2,11 +2,11 @@
 keywords: ervaring;json;aem;adobe Experience Manager;exporteren naar adobe target;beleving, fragmenten;fragmenten;XF
 description: Leer hoe te om AEM ervaringsfragmenten in Adobe te gebruiken  [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige AI- en ML-mogelijkheden in [!DNL Target].
 title: Hoe gebruik ik Adobe Experience Manager (AEM) Experience Fragments?
-feature: Ervaringen en aanbiedingen
+feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
+source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,6 @@ U kunt ervaringsfragmenten in [!DNL Target] activiteiten gebruiken gebruikend [V
 
 * [!DNL Target] zoekt momenteel naar ervaringsfragmenten die om de tien minuten moeten worden geïmporteerd. Het geïmporteerde ervaringsfragment moet binnen tien minuten beschikbaar zijn in [!DNL Target], maar dit tijdkader moet het vooruit gaan verkorten.
 * Het ervaringsfragment wordt momenteel geïmporteerd in [!DNL Target] als een HTML-aanbieding. Het ervaringsfragment &#39;primaire&#39; versie blijft in [!DNL AEM] staan. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
-* U kunt JSON-aanbiedingen als ervaringsfragmenten importeren in [!DNL Target]. Deze aanbiedingen worden echter geïmporteerd als HTML-aanbiedingen. JSON-aanbiedingen (ervaringsfragmenten) worden momenteel niet volledig ondersteund in de gebruikersinterface van [!DNL Target].
 * U kunt geen ervaringsfragmenten maken met gebruik van Adobe IO. U moet ervaringsfragmenten maken met behulp van AEM, zoals hierboven beschreven.
 
 ## Trainingsvideo: Werken met AEM ervaringsfragmenten met Adobe Target ![Zelfstudie-badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
