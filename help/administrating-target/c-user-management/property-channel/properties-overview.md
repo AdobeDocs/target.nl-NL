@@ -5,9 +5,9 @@ title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,6 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
       ![Code voor aanwijzen van eigenschap](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. Klik met de rechtermuisknop op de gemarkeerde implementatiecode om deze naar het klembord te kopiëren.
-
-      ![Eigenschappencode](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. Werk uw [!DNL Target] implementatie met de implementatiecode bij die in de vorige stap wordt verkregen.
 
