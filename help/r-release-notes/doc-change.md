@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2575'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 30 september | Activiteitsgegevens verzenden naar [!DNL Adobe Analytics] | Het gehele onderwerp is verwijderd omdat de beschreven stappen niet langer nodig zijn om [!DNL Target] informatie over activiteiten in de mobiele app naar [!DNL Analytics] te verzenden voor posthosegmentatie. |
-|  | [Bedrijfsmachtigingen configureren](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Veranderd `targetPageParams` in `targetPageParamsAll` in Stap 2. |
+|  | [Bedrijfsmachtigingen configureren](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Veranderd `targetPageParams` in `targetPageParamsAll` in &quot;Stap 5 Werk uw implementatie bij om de `at_property` parameter te omvatten.&quot; |
 | 27 september | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 13 oktober 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 september | [Een ontwerp aanpassen met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Veranderd `$Double` in `$double` in codesteekproeven om mogelijke dubbelzinnigheid te verhinderen. |
 |  | [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Kan ik een profielmanuscript in een [!DNL Recommendations] ontwerp gebruiken?</li></ul> |

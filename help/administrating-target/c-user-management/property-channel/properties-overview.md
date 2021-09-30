@@ -2,12 +2,12 @@
 keywords: toevoegen gebruiker;project;gebruikersgroep;eigenschappen;werkruimte;beheren eigenschap;eigenschap;at_eigenschap;rollen;machtigingen
 description: Leer hoe u gebruikers aan Adobe Target kunt toevoegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de implementatie bij te werken; en geef rollen en machtigingen op.
 title: Hoe kan ik bedrijfsmachtigingen configureren?
-feature: Beheer en configuratie
+feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -150,17 +150,25 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
 
       Zie [Globale doelparameters toevoegen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in de documentatie *Overzicht van tags* voor meer informatie.
 
-   * **Via de functie targetPageParams():** Plaats de volgende code in de  `<head>` tags, boven de verwijzing at.js.
+   * **Via de functie targetPageParamsAll():** Plaats de volgende code in de  `<head>` tags, boven de verwijzing at.js.
 
-      ![](assets/property_token_1.png)
+      ```javascript
+      <script>
+       function targetPageParamsAll() {
+        return {
+         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+        };
+       }
+      </script>
+      ```
 
-      Zie [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) voor meer informatie over hoe u dit met at.js kunt doen.
+      Voor meer informatie over hoe te om dit met at.js te doen, zie [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
 
    * **Via de functie mboxCreate():**
 
       ![](assets/property_token_3.png)
 
-      Voor meer informatie over hoe te om dit met at.js te doen, zie [targetPageParams ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) en [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      Voor meer informatie over hoe te om dit met at.js te doen, zie [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) en [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Stap 6: Rollen en machtigingen opgeven {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
