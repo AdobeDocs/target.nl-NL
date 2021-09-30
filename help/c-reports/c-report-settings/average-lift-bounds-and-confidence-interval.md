@@ -2,12 +2,11 @@
 keywords: Doel;rapporten;rapport montages;milieu;lift gebonden;variatie;vertrouwen;controle
 description: Leer hoe te om Adobe [!DNL Target] rapporten te interpreteren, die gegevenspunten en visualisatievertegenwoordiging omvatten om u te helpen de liftgrenzen en het betrouwbaarheidsniveau van uw activiteiten begrijpen.
 title: Hoe bekijk ik Gemiddelde Lift, Lift Bounds, en het Interval van het Vertrouwen?
-feature: Rapporten
+feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordig
 >
 >Deze functie is alleen beschikbaar bij het weergeven van rapporten in de weergave [!UICONTROL Table]. Deze functie is niet beschikbaar voor activiteiten die [Analytics als rapportagebron (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) gebruiken.
 
-## De gegevens {#section_62C0D7E76F3D49A7B3C371C82AEF27D5} interpreteren
+## De gegevens interpreteren {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
 In de volgende afbeelding wordt [!UICONTROL Lift Bounds and Confidence Level]-informatie weergegeven:
 
@@ -47,6 +46,10 @@ De lengte van de balk van het boxplot geeft aan hoe groot het betrouwbaarheidsin
 ### Vertrouwen
 
 Het vertrouwen van een ervaring of aanbod geeft de waarschijnlijkheid weer dat het optillen van de ervaring/het aanbod in verband daarmee boven de ervaring/het aanbod van de controle &quot;reëel&quot; is (niet veroorzaakt door een willekeurige kans). Doorgaans is 95% het aanbevolen betrouwbaarheidsniveau om de lift als significant te beschouwen.
+
+## Begrijp hoe het betrouwbaarheidsinterval voor lift wordt bepaald {#pdf}
+
+Download het [Betrouwbaarheidsinterval voor Lift pdf](/help/assets/confidence_interval_lift.pdf) voor meer informatie.
 
 ## Hoe worden liftgrenzen berekend? {#section_1D360781D972483693680BE0F07AEAD1}
 

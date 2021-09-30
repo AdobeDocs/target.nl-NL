@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2595'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 30 september | Activiteitsgegevens verzenden naar [!DNL Adobe Analytics] | Het gehele onderwerp is verwijderd omdat de beschreven stappen niet langer nodig zijn om [!DNL Target] informatie over activiteiten in de mobiele app naar [!DNL Analytics] te verzenden voor posthosegmentatie. |
+|  | [Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | PDF-bestand toegevoegd om uit te leggen hoe het betrouwbaarheidsinterval voor optillen wordt berekend. |
 |  | [Bedrijfsmachtigingen configureren](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Veranderd `targetPageParams` in `targetPageParamsAll` in &quot;Stap 5 Werk uw implementatie bij om de `at_property` parameter te omvatten.&quot; |
 | 27 september | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 13 oktober 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 september | [Een ontwerp aanpassen met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Veranderd `$Double` in `$double` in codesteekproeven om mogelijke dubbelzinnigheid te verhinderen. |
 |  | [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Kan ik een profielmanuscript in een [!DNL Recommendations] ontwerp gebruiken?</li></ul> |
-|  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende overwegingen zijn toegevoegd:<ul><li>Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.</li><li>Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.</li><li>De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle bijbehorende activiteiten die de bezoeker voor kwalificeerde.</li></ul> |
+|  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende overwegingen zijn toegevoegd:<ul><li>Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.</li><li>Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.</li><li>De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle verwante activiteiten die de bezoeker voor kwalificeerde.</li></ul> |
 |  | [ [!DNL Target] Implementeren [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Opmerking toegevoegd in de sectie &#39;Voordelen van het implementeren van de extensie [!DNL Target]&#39; in het bestand at.js. |
 |  | [Real-time profielsynchronisatie voor mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met nieuwe informatie. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De sectie &quot;secureOnly&quot; is bijgewerkt. |
