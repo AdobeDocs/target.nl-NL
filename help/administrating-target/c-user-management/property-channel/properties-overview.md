@@ -5,7 +5,7 @@ title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -108,8 +108,6 @@ Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overig
 1. Klik in [!DNL Target] op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** om de lijst [!UICONTROL Properties] weer te geven.
 1. Klik **Eigenschap maken**.
 
-   ![Nieuwe eigenschap, dialoogvenster](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    Vul de velden in:
 
    * **Eigenschapnaam (vereist):** geef een beschrijvende naam voor de eigenschap op.
@@ -144,7 +142,7 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
 
    Er zijn verschillende manieren om uw [!DNL Target]-implementatie bij te werken. De volgende methoden kunnen bijvoorbeeld worden gebruikt voor webpagina&#39;s:
 
-   * **Via een &quot;Algemene parameter in tags in   [!DNL Adobe Experience Platform]:**
+   * **Via een algemene parameter in tags in   [!DNL Adobe Experience Platform]:**
 
       Zie [Globale doelparameters toevoegen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in de documentatie *Overzicht van tags* voor meer informatie.
 
@@ -161,12 +159,6 @@ Om [!DNL Target] gebruiker-toestemmingsfunctionaliteit te gebruiken, moet u de `
       ```
 
       Voor meer informatie over hoe te om dit met at.js te doen, zie [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
-
-   * **Via de functie mboxCreate():**
-
-      ![](assets/property_token_3.png)
-
-      Voor meer informatie over hoe te om dit met at.js te doen, zie [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) en [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Stap 6: Rollen en machtigingen opgeven {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
