@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Hulplijn
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,6 @@ ht-degree: 0%
       + [Doel inschakelen in de SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - een doellocatie en succesmaatstaf maken](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - aangepaste gebruikersgegevens verzenden](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Activiteitsgegevens naar Adobe Analytics verzenden](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Voorvertoning voor mobiele doelversie](c-target-mobile-app/target-mobile-preview.md)
       + [Prefetaanbiedingsinhoud](c-target-mobile-app/prefetch-offer-content.md)
       + [Veelgestelde vragen over het doel voor mobiele apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
