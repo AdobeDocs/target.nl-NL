@@ -4,7 +4,7 @@ description: Leer hoe te om Adobe [!DNL Target] rapporten te interpreteren, die 
 title: Hoe bekijk ik Gemiddelde Lift, Lift Bounds, en het Interval van het Vertrouwen?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -111,7 +111,7 @@ De limieten voor de lift voor ervaring B zouden daarom als volgt zijn:
 >
 >Verwacht kleine verschillen tussen handmatige berekeningen met behulp van de bovenstaande formules en de getallen die in het rapport worden weergegeven. Het verschil kan worden toegeschreven aan het feit dat de getallen die in handmatige berekeningen worden gebruikt, op de pagina worden afgerond. De lift die in het [!DNL Target]-rapport wordt weergegeven, is gebaseerd op de exacte getallen die zijn verkregen uit de totale betrokkenheid en de telling van de betrokkenheid. De betrokkenheidsnummers kunnen worden verkregen via de prestatierapport-API.
 
-## Wanneer worden de liftgrenzen niet getoond? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## Wanneer worden liftgrenzen niet weergegeven? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
 In bepaalde gevallen geeft [!DNL Target] geen liftgrenzen weer:
 
