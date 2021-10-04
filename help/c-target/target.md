@@ -1,12 +1,12 @@
 ---
 keywords: Doel;publiek
 description: Leer hoe u het publiek in [!DNL Adobe Target] kunt gebruiken om verschillende inhoud en ervaringen te richten op specifieke doelgroepen om uw inspanningen voor webmarketing te optimaliseren.
-title: Hoe kan ik publiek gebruiken om verschillende inhoud te richten aan specifieke segmenten?
-feature: Soorten publiek
+title: Hoe kan ik [!UICONTROL Audiences] gebruiken om verschillende inhoud aan specifieke segmenten te richten?
+feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---

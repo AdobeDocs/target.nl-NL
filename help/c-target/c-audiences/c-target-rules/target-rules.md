@@ -2,9 +2,9 @@
 keywords: gericht;doelcategorieën;doelvoorwaarden;doelmanager;aangepaste profielparameters;bezoekersprofiel;profiel;aangepaste gebruikersparameters;doelregels
 description: Leer hoe u categorieën (zoals Browser, Geo, Netwerk, Besturingssysteem, Bezoekersprofiel) kunt gebruiken om inhoud als doel in te stellen.
 title: Wat zijn de categorieën voor het publiek?
-feature: Soorten publiek
+feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Categorieën voor soorten publiek
 
-Met [!DNL Adobe Target] kunt u zich richten op een van de verschillende categoriekenmerken. Om het richten regels (of groepen) voor elk attribuut tot stand te brengen, sleep en laat vallen de gewenste attributen in de publieksbouwer.
+Met [!DNL Adobe Target] kunt u zich richten op een van de verschillende categoriekenmerken. Om het richten regels (of groepen) voor elk attribuut tot stand te brengen, sleep en laat vallen de gewenste attributen in de ruit van de Bouwer van de Publiek.
 
 ![Attributen voor publiek](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ Als een bepaalde categorie is geselecteerd, kunt u een of meer doelvoorwaarden t
 
 Nadat u een regel hebt gecreeerd, klik **[!UICONTROL Done]**. Een samenvatting van de regelvertoningen naast de het richten verbinding voor het niveau u richt.
 
-U kunt een regel verder verfijnen door meer voorwaarden toe te voegen of door extra regels te maken in andere categorieën. U kunt bijvoorbeeld alleen Firefox-gebruikers uit San Francisco aanspreken die uw site hebben geopend vanuit Google. Stel de categorie [!UICONTROL Geo] in op gebruikers uit San Francisco, de categorie [!UICONTROL Browser] op doelgebruikers met Firefox en de categorie [!UICONTROL Traffic Sources] op doelgebruikers uit [!UICONTROL From Google]. De regels die over categorieën worden gecreeerd worden gecombineerd met de exploitant AND.
+U kunt een regel verder verfijnen door meer voorwaarden toe te voegen of door extra regels te maken in andere categorieën. U kunt bijvoorbeeld alleen Firefox-gebruikers uit San Francisco als doel instellen die uw site openen via Google. Stel de categorie [!UICONTROL Geo] in op gebruikers uit San Francisco, de categorie [!UICONTROL Browser] op doelgebruikers met Firefox en de categorie [!UICONTROL Traffic Sources] op doelgebruikers uit [!UICONTROL From Google]. De regels die over categorieën worden gecreeerd worden gecombineerd met de exploitant AND.
 
 Om complexe het richten regels tot stand te brengen die OF verrichtingen over categorieën omvatten, creeer een uitdrukkingsdoel.
 

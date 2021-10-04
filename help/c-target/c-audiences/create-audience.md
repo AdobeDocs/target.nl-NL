@@ -1,12 +1,12 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken
-description: Leer hoe u een aangepast publiek kunt maken en deze kunt opslaan in de  [!DNL Adobe Target] [!UICONTROL Audiences] bibliotheek voor gebruik in uw activiteiten.
+description: Leer hoe u een aangepast publiek kunt maken en deze kunt opslaan in de  [!DNL Adobe Target] [!UICONTROL Audiences] bibliotheek voor gebruik in activiteiten.
 title: Hoe kan ik publiek maken?
-feature: Soorten publiek
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ De volgende regel geldt bijvoorbeeld voor bezoekers die Chrome *of* Firefox gebr
 
 1. (Voorwaardelijk) Ga verder met het toevoegen en definiëren van de gewenste kenmerken.
 
-   Als u een andere container wilt maken, klikt u op **[!UICONTROL Add container]** of sleept u gewoon een ander kenmerk naar het middelste frame. Vervolgens kunt u de operator (AND of OR) aanpassen met de vervolgkeuzelijst.
+   Als u een andere container wilt maken, klikt u op **[!UICONTROL Add container]** of sleept u een ander kenmerk naar het deelvenster Audience Builder. Vervolgens kunt u de operator (AND of OR) aanpassen met de vervolgkeuzelijst.
 
 1. Klik op **[!UICONTROL Done]**.
 

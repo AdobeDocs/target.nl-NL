@@ -2,11 +2,11 @@
 keywords: aangepaste parameters;aangepaste doelparameters;doelparameters;doelparameters;doelframes;doelframes opgeven, parameters
 description: Leer hoe te om douaneparameters tot  [!DNL Adobe Target] voor gebruik in publiek over te gaan.
 title: Kan ik bezoekers richten die op de Parameters van de Douane worden gebaseerd?
-feature: Soorten publiek
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, vraagt `m
 
 1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-1. Sleep **[!UICONTROL Custom]** in de ruit van de publieksbouwer.
+1. Sleep **[!UICONTROL Custom]** in de Bouwer van de Publiek.
 
    De gewenste parameter selecteren:
 
@@ -56,7 +56,7 @@ Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, vraagt `m
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
 1. Klik op **[!UICONTROL Done]**.
 
-De [definitiedetails pop-up kaart](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) van het publiek toont de parameternaam in de sectie van Regels. Er is geen verwijzing naar mbox gebruikt voor het filtreren.
+De [definitiedetails pop-up kaart](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) van het publiek toont de parameternaam in **[!UICONTROL Rules]** sectie. Er is geen verwijzing naar mbox gebruikt voor het filtreren.
 
 >[!NOTE]
 >

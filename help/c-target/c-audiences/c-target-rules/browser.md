@@ -2,11 +2,11 @@
 keywords: browseropties;type;browsertype;browsertaal;taal;versie;browserversie
 description: Leer hoe u een publiek kunt maken in  [!DNL Adobe Target] om gebruikers die een specifieke browser of specifieke browseropties gebruiken, als ze uw pagina bezoeken, als doel in te stellen.
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
-feature: Soorten publiek
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Er zijn twee manieren om browsers als doel in te stellen:
 
    1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
    1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-   1. Sleep **[!UICONTROL Browser]** in de ruit van de publieksbouwer.
+   1. Sleep **[!UICONTROL Browser]** in de Bouwer van de Publiek.
 
       ![Regels > Browser](assets/target_browser.png)
 

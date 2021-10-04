@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 27 september 2021**
+**Laatst bijgewerkt: 4 oktober 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -32,6 +32,7 @@ Deze release bevat de volgende nieuwe functies:
 | Functie | Details |
 | --- | --- |
 | Gebruikersinterface voor publiek vernieuwen | We herschrijven geleidelijk de gehele [!DNL Target]-interface met behulp van een nieuwe technologiestapel om verbeterde prestaties te kunnen bieden, de vereiste onderhoudstijd te verminderen wanneer nieuwe functies worden uitgebracht en de gebruikerservaring in het hele product te verbeteren. De sectie [Beheer](/help/administrating-target/administrating-target.md) is in 2020 vernieuwd. De [!UICONTROL Audiences] sectie is tweede belangrijke UI verfrist zich. |
+| ![Criteria voor ](/help/assets/premium.png) aanbevolen premiumbadgeAanbevelingen maken en bewerken | De [!UICONTROL Recommendations Criteria]-workflow voor maken en bewerken is gestroomlijnd om het kiezen van het juiste algoritme en de juiste instellingen voor aanbevelingen te vereenvoudigen en uw doelen te bereiken. |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -2,11 +2,11 @@
 keywords: publiek;publieksregels;publiek maken;publiek maken;publiek instellen;publiek rapporteren;publiek rapporteren;segment;aangepaste profielparameters;publieksdefinitie;publiekslijst
 description: Leer hoe te om [!UICONTROL Audiences] lijst in  [!DNL Adobe Target] te gebruiken.
 title: Hoe gebruik ik de Audience List?
-feature: Soorten publiek
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ De lijst [!UICONTROL Audiences] bevat het publiek dat u in uw activiteiten kunt 
 
    >[!NOTE]
    >
-   >De [!DNL Adobe Experience Platform]-bron bevindt zich in een bètatestprogramma, maar is beschikbaar voor alle [!DNL Target]-klanten die de [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) gebruiken. Publiek beschikbaar bij [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/c-target/combining-multiple-audiences.md).
+   >De [!DNL Adobe Experience Platform]-bron is beschikbaar voor alle [!DNL Target]-klanten die de [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) gebruiken. Publiek beschikbaar bij [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/c-target/combining-multiple-audiences.md).
 
 Vooraf gedefinieerde doelgroepen, zoals &quot;[!UICONTROL New Visitors]&quot; en &quot;[!UICONTROL Returning Visitors]&quot;, kunnen niet worden hernoemd.
 
