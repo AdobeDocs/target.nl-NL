@@ -5,10 +5,9 @@ title: Hoe gebruik ik de functie adobe.target.sendNotifications()?
 feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
-translation-type: tm+mt
-source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
+source-git-commit: 07ef58419f1785633bee930e2f9bd5451394ad93
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -35,8 +34,8 @@ Deze functie verzendt een bericht naar de rand van het Doel wanneer een ervaring
 | Verzoek > meldingen > adres | Object | Nee |  |  |
 | Verzoek > meldingen > adres > URL | String | Nee |  | URL vanwaar het bericht is gestart. |
 | Verzoek > meldingen > adres > referencesUrl | String | Nee |  | De verwijzings-URL waarvan het bericht is gestart. |
-| Verzoek > meldingen > parameters | Object | Nee | De volgende namen zijn niet toegestaan voor parameters:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Overweeg het volgende:<ul><li>Maximaal 50 parameterlimiet.</li><li>Parameternaam mag niet leeg zijn.</li><li>Parameternaam max. lengte 128.</li><li>Parameternaam mag niet beginnen met &quot;profiel&quot;.</li><li>Parameterwaarde lengte max. 5000.</li></ul> |  |
-| Verzoek > meldingen > profileParameters | Object | Nee | De volgende namen zijn niet toegestaan voor parameters:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Overweeg het volgende:<ul><li>Maximaal 50 parameterlimiet.</li><li>Parameternaam mag niet leeg zijn.</li><li>Parameternaam max. lengte 128.</li><li>Parameternaam mag niet beginnen met &quot;profiel&quot;.</li><li>Parameterwaarde lengte max. 5000.</li></ul> |  |
+| Verzoek > meldingen > parameters | String | Nee | De volgende namen zijn niet toegestaan voor parameters:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Overweeg het volgende:<ul><li>Maximaal 50 parameterlimiet.</li><li>Parameternaam mag niet leeg zijn.</li><li>Parameternaam max. lengte 128.</li><li>Parameternaam mag niet beginnen met &quot;profiel&quot;.</li><li>Parameterwaarde lengte max. 5000.</li></ul> |  |
+| Verzoek > meldingen > profileParameters | String | Nee | De volgende namen zijn niet toegestaan voor parameters:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Overweeg het volgende:<ul><li>Maximaal 50 parameterlimiet.</li><li>Parameternaam mag niet leeg zijn.</li><li>Parameternaam max. lengte 128.</li><li>Parameternaam mag niet beginnen met &quot;profiel&quot;.</li><li>Parameterwaarde lengte max. 5000.</li></ul> |  |
 | Verzoek > meldingen > Bestelling | Object | Nee |  | Object dat de orderdetails beschrijft. |
 | Verzoek > meldingen > Bestelling > Id | String | Nee | `<=` 250 tekens. | Order-id. |
 | Verzoek > meldingen > Bestelling > Totaal | String | Nee | `>=` 0 | Totaal bestellen. |
