@@ -1,13 +1,12 @@
 ---
-keywords: criteria;algoritme;industrie verticaal;paginatype;aanbeveling sleutel;aanbeveling logica;logica;gegevenswaaier;gedragsgegevensbron;gedeeltelijk ontwerp;steun aanbevelingen;opname regels;attributenweging;huidige categorie;douane attribuut;laatst gekocht punt;laatst bekeken punt;het meest bekeken punt;meest bekeken punt;favoriete categorie;populariteit;onlangs bekeken punt;laatst aangekocht punt;laatst bekeken punt;laatst bekeken;meest bekeken;favoriet;onlangs bekeken
+keywords: criteria;algoritme;industrie verticaal;paginatype;aanbeveling sleutel;logica;gegevenswaaier;gegevenswaaier;lookback venster;gedraggegevensbron;gedeeltelijk ontwerp;steun aanbevelingen;opnameregels;opnameregels;attribuut weging;huidige categorie;laatst gekocht punt;laatst bekeken punt;het meest bekeken punt;meest bekeken punt;favoriete categorie;populariteit;onlangs bekeken punt;laatst bekeken punt;laatst bekeken punt;laatst bekeken;meest bekeken;favoriet;onlangs bekeken
 description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendations-activiteiten bepalen om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteiten.
 title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a86726aa6cc11f229c8157bb6d81a40d9f6b994e
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,17 +31,17 @@ In de volgende stappen wordt ervan uitgegaan dat u het scherm [!UICONTROL Create
 
 1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
-   ![Nieuwe criteria maken](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+   ![Nieuwe criteria maken](assets/CreateNewCriteria_full-new.png)
 
 1. Configureer de informatie in de volgende secties.
 
-## Basisinformatie {#info}
+## [!UICONTROL Basic Information] {#info}
 
 1. Typ een **[!UICONTROL Criteria Name]**.
 
    Dit is de &quot;interne&quot;naam die wordt gebruikt om de criteria te beschrijven. U kunt bijvoorbeeld uw criteria &quot;Hoogste margeproducten&quot; noemen, maar u wilt niet dat die titel openbaar wordt weergegeven. Zie de volgende stap om de naar buiten gerichte titel in te stellen.
 
-   ![Sectie Basisinformatie](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+   ![Sectie Basisinformatie](assets/basic-information.png)
 
 1. Typ een publiek-gericht **[!UICONTROL Display Title]** om op de pagina voor om het even welke aanbevelingen te verschijnen die deze criteria gebruiken.
 
@@ -68,43 +67,38 @@ In de volgende stappen wordt ervan uitgegaan dat u het scherm [!UICONTROL Create
 
    Samen, worden de industrie verticale en paginatypes gebruikt om uw bewaarde criteria te categoriseren, die het gemakkelijker maken om criteria voor andere [!DNL Recommendations] activiteiten opnieuw te gebruiken.
 
-1. Selecteer een **[!UICONTROL Recommendation Key]**.
+## [!UICONTROL Recommendations Algorithm] {#rec-algo}
 
-   Voor meer informatie over het baseren van criteria op een sleutel, zie [de aanbeveling op een aanbeveling - sleutel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) baseren.
+1. Selecteer een **[!UICONTROL Algorithm Type]** en **[!UICONTROL Algorithm]**:
 
-1. Selecteer **[!UICONTROL Recommendation Logic]**.
+   ![Aanbevolen Algoritmesectie](assets/recommended-algorithm.png)
 
-   Zie [Criteria](/help/c-recommendations/c-algorithms/algorithms.md) voor meer informatie over de opties van de aanbevolen logica.
+   | Het type Algorithm | Wanneer gebruiken | Beschikbare algoritmen |
+   | --- | --- | --- |
+   | [!UICONTROL Popularity-Based] | Aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker. | <ul><li>Meest bekeken op de site</li><li>Meest bekeken op rubriek</li><li>Meest bekeken door kenmerk Item</li><li>Topverkopers op de hele site</li><li>Topverkopers op rubriek</li><li>Topverkopers op objectkenmerk</li><li>Metrisch, boven op Analytics</li></ul> |
+   | [!UICONTROL Item-Based] | Aanbevelingen doen op basis van het zoeken naar objecten die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken. | <ul><li>Personen die dit hebben bekeken, zagen het volgende</li><li>Mensen die dit bekeken hebben, hebben het volgende gekocht</li><li>Mensen die dit hebben gekocht, hebben het volgende gekocht</li><li>Objecten met vergelijkbare kenmerken</li></ul> |
+   | [!UICONTROL User-Based] | Aanbevelingen doen op basis van het gedrag van de gebruiker. | <ul><li>Onlangs bekeken objecten</li><li>Aanbevolen voor u</li></ul> |
+   | Op basis van winkelwagentje | (Binnenkort beschikbaar) Aanbevelingen doen op basis van de inhoud van het winkelwagentje van de gebruiker. | <ul><li>Personen die ze bekeken, bekeken ze</li><li>Mensen die ze bekeken, kochten hen</li><li>Mensen die deze hebben gekocht, hebben de</li></ul> |
+   | [!UICONTROL Custom Criteria] | Aanbevelingen doen op basis van een aangepast bestand dat u uploadt. | <ul><li>Aangepast algoritme</li></ul> |
+
 
    >[!NOTE]
    >
    >Als u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** selecteert, kunt u [regels voor gelijkenis van inhoud instellen](#similarity).
 
-## Gegevensbron {#data-source}
+1. Selecteer zo nodig een **Itemkenmerk** en **Profielkenmerk om overeen te komen**, een **Aanbeveling Key**, **Sleutel filteren** en/of **Analytics Metric** om het algoritme te configureren.
 
-1. Plaats **[!UICONTROL Data Range]** om de tijdwaaier van beschikbare historische gegevens van het gebruikersgedrag te bepalen om te gebruiken wanneer het bepalen van welke te tonen aanbevelingen.
+Voor meer informatie over het kiezen van een Sleutel van de Aanbeveling, zie [Baseer de aanbeveling op een aanbeveling sleutel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
-   ![Schuifregelaar voor gegevensbereik](/help/c-recommendations/c-algorithms/assets/data-range.png)
+## [!UICONTROL Data Source] {#data-source}
 
-   Als uw site veel verkeer heeft en het gedrag vaak verandert, kiest u een korter gegevensvenster. Met een korter venster kan [!DNL Recommendations] beter reageren op veranderingen in de markt en in uw bedrijf. Een korter venster betekent bijvoorbeeld dat [!DNL Recommendations] wijzigingen in het gedrag van bezoekers detecteert wanneer uw bezoekers seizoensgebonden winkelen beginnen, zoals winkelen op school of Kerstmis, en dat ze artikelen aanbevelen die geschikt zijn voor die winkelseizoenen.
-
-   Als u niet veel gegevens hebt of als het gedrag van de bezoeker niet vaak verandert, kunt u een langer venster selecteren. Nochtans, voor vele plaatsen, resulteert een korter venster in betere aanbevelingen.
-
-   De beschikbare gegevensbereiken zijn:
-
-   * Twee dagen
-   * Eén week
-   * Twee weken
-   * Eén maand
-   * Twee maanden
-
-1. (Voorwaardelijk) selecteer gewenste **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] of [!UICONTROL Analytics].
+1. Selecteer het gewenste **[!UICONTROL Behavioral Data Source]**: [!UICONTROL Adobe Target] of [!UICONTROL Analytics].
 
    >[!NOTE]
    >
    >De [!UICONTROL Behavioral Data Source] sectie toont slechts als uw implementatie [Analytics voor Doel ](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt.
 
-   ![Sectie Gedragsgegevensbron](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
+   ![Sectie Gedragsgegevensbron](assets/data-source.png)
 
    Als u [!UICONTROL Analytics] kiest, selecteer de gewenste rapportreeks.
 
@@ -116,11 +110,31 @@ In de volgende stappen wordt ervan uitgegaan dat u het scherm [!UICONTROL Create
 
    Zie [Adobe Analytics gebruiken met doel-Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) voor meer informatie.
 
-## Inhoud {#content}
+1. Plaats **[!UICONTROL Lookback Window]** om de tijdwaaier van beschikbare historische gegevens van het gebruikersgedrag te bepalen om te gebruiken wanneer het bepalen van welke te tonen aanbevelingen. Deze optie is beschikbaar voor alle algoritmes, met uitzondering van Items met vergelijkbare kenmerken en aangepaste algoritmen.
 
-De inhoudsregels bepalen wat gebeurt als het aantal geadviseerde punten uw [aanbevelingen ontwerp](/help/c-recommendations/c-design-overview/design-overview.md) niet vult. Het is mogelijk dat [!DNL Recommendations] criteria minder aanbevelingen dan uw ontwerpvraag terugkeren. Als uw ontwerp bijvoorbeeld sleuven voor vier items bevat, maar uw criteria slechts twee items aanbevolen laten, kunt u de resterende sleuven leeg laten of back-upaanbevelingen gebruiken om de extra sleuven te vullen.
+   ![Schuifregelaar voor Venster opzoeken](assets/data-range.png)
 
-![Sectie Inhoud](/help/c-recommendations/c-algorithms/assets/content.png)
+   Als uw site veel verkeer heeft en het gedrag vaak verandert, kiest u een korter gegevensvenster. Met een korter venster kan [!DNL Recommendations] beter reageren op veranderingen in de markt en in uw bedrijf. Een korter venster betekent bijvoorbeeld dat [!DNL Recommendations] wijzigingen in het gedrag van bezoekers detecteert wanneer uw bezoekers seizoensgebonden winkelen beginnen, zoals winkelen op school of Kerstmis, en dat ze artikelen aanbevelen die geschikt zijn voor die winkelseizoenen.
+
+   Als u niet veel gegevens hebt of als het gedrag van de bezoeker niet vaak verandert, kunt u een langer venster selecteren. Voor veel sites leidt een korter venster echter tot aanbevelingen van hogere kwaliteit.
+
+   De beschikbare gegevensbereiken zijn:
+
+   | Venster opzoeken, optie | Bijgewerkte frequentie (weergegeven bij aanwijzen) | Ondersteunde algoritmen |
+   | --- | --- | --- |
+   | Zes uur | Algorithm wordt elke 3-6 uur uitgevoerd | [!UICONTROL Popularity-Based] algoritmen wanneer de geselecteerde algoritmen  [!UICONTROL Behavioral Data Source] zijn  [!DNL Adobe Target] |
+   | Eén dag | Algorithm wordt elke 12-24 uur uitgevoerd | [!UICONTROL Popularity-Based] algoritmen |
+   | Twee dagen | Algorithm wordt elke 12-24 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>[!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
+   | Eén week | Algorithm wordt elke 24-48 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>[!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
+   | Twee weken | Algorithm wordt elke 24-48 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>Alle [!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
+   | Eén maand (30 dagen) | Algorithm wordt elke 24-48 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>[!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
+   | Twee maanden (61 dagen) | Algorithm wordt elke 24-48 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>[!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
+
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] de regels bepalen wat gebeurt als het aantal geadviseerde punten uw  [aanbevelingen ontwerp](/help/c-recommendations/c-design-overview/design-overview.md) niet vult. Het is mogelijk dat [!DNL Recommendations] criteria minder aanbevelingen dan uw ontwerpvraag terugkeren. Als uw ontwerp bijvoorbeeld sleuven voor vier items bevat, maar uw criteria slechts twee items aanbevolen laten, kunt u de resterende sleuven leeg laten, back-upaanbevelingen gebruiken om de extra sleuven te vullen, of u kunt ervoor kiezen geen aanbevelingen weer te geven.
+
+![Sectie Inhoud](assets/content.png)
 
 1. (Optioneel) Verschuif de **[!UICONTROL Partial Design Rendering]**-schakeloptie naar de aan-positie.
 
@@ -128,7 +142,7 @@ De inhoudsregels bepalen wat gebeurt als het aantal geadviseerde punten uw [aanb
 
    Schakel deze optie in als u wilt dat aanbevelingen worden gedaan met lege sleuven. Gebruik back-upaanbevelingen als u wilt dat de aanbevolen sleuven worden gevuld met inhoud op basis van uw criteria met lege sleuven die zijn gevuld met vergelijkbare of populaire inhoud van uw site, zoals in de volgende stap wordt uitgelegd.
 
-1. (Optioneel) Verschuif de **[!UICONTROL Show Backup Recommendations]**-schakeloptie naar de aan-positie.
+1. (Optioneel) Verschuif de **[!UICONTROL Show Backup Content]**-schakeloptie naar de aan-positie.
 
    Vul eventueel resterende lege sleuven in het ontwerp met een willekeurige selectie van de meest bekeken producten van de hele site.
 
@@ -138,9 +152,9 @@ De inhoudsregels bepalen wat gebeurt als het aantal geadviseerde punten uw [aanb
 
    Op basis van uw criteria worden slechts twee objecten aanbevolen. Als u de optie [!UICONTROL Partial Design Rendering] inschakelt, worden de eerste twee sleuven gevuld, maar blijven de resterende twee sleuven leeg. Als u echter de optie [!UICONTROL Show Backup Recommendations] inschakelt, worden de eerste twee sleuven gevuld op basis van de opgegeven criteria en worden de resterende twee sleuven gevuld op basis van uw aanbevelingen voor back-ups.
 
-   De volgende matrix toont het resultaat dat u zult waarnemen wanneer u de opties [!UICONTROL Partial Design Rendering] en [!UICONTROL Backup Recommendations] gebruikt:
+   De volgende matrix toont het resultaat dat u zult waarnemen wanneer u de opties [!UICONTROL Partial Design Rendering] en [!UICONTROL Backup Content] gebruikt:
 
-   | Gedeeltelijke rendering van ontwerp | Backup Recommendations | Resultaat |
+   | Gedeeltelijke rendering van ontwerp | Back-upinhoud | Resultaat |
    |--- |--- |--- |
    | Uitgeschakeld | Uitgeschakeld | Als er minder aanbevelingen worden geretourneerd dan door het ontwerp wordt gevraagd, wordt het ontwerp van de aanbevelingen vervangen door de standaardinhoud en worden er geen aanbevelingen weergegeven. |
    | Ingeschakeld | Uitgeschakeld | Het ontwerp wordt teruggegeven, maar kan lege ruimte omvatten als minder aanbevelingen zijn teruggekeerd dan het ontwerp verzoekt. |
@@ -149,7 +163,7 @@ De inhoudsregels bepalen wat gebeurt als het aantal geadviseerde punten uw [aanb
 
    Zie [Een back-upaanbeveling gebruiken](/help/c-recommendations/c-algorithms/backup-recs.md) voor meer informatie.
 
-1. (Voorwaardelijk) Als u **[!UICONTROL Show Backup Recommendations]** in de vorige stap selecteerde, kunt u **[!UICONTROL Apply inclusion rules to backup recommendations]** toelaten.
+1. (Voorwaardelijk) Als u **[!UICONTROL Show Backup Content]** in de vorige stap selecteerde, kunt u **[!UICONTROL Apply inclusion rules to backup recommendations]** toelaten.
 
    In de insluitingsregels wordt bepaald welke items in uw aanbevelingen worden opgenomen. Welke opties beschikbaar zijn, is afhankelijk van de verticale situatie in uw branche.
 
@@ -165,13 +179,13 @@ Gebruik [!UICONTROL Content Similarity] regels om aanbevelingen te doen die op p
 
 >[!NOTE]
 >
->Als u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** als uw [aanbeveling logica](#info) selecteerde, zult u de optie hebben om de regels van de inhoudgelijkenis te plaatsen.
+>Als u **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** als uw Type en Algoritme van Algoritme selecteerde, hebt u de optie om de regels van de inhoudsgelijkenis te plaatsen.
 
 De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Recommendations op basis van gelijkenis met inhoud vereist geen gegevens uit het verleden om sterke resultaten te bereiken.
 
 Het gebruiken van inhoudgelijkenis om aanbevelingen te produceren is vooral effectief voor nieuwe punten, die niet waarschijnlijk in aanbevelingen gebruikend *Mensen zullen tonen die dit, Bekeken dat* en andere logica die op verleden gedrag wordt gebaseerd. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
 
-Wanneer u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** selecteert, hebt u de optie om regels tot stand te brengen om het belang van specifieke puntattributen in het bepalen van aanbevelingen te verhogen of te verminderen. Voor items zoals boeken kunt u het belang van kenmerken zoals *genre*, *auteur*, *series* enzovoort vergroten om vergelijkbare boeken aan te bevelen.
+Wanneer u **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** selecteert, hebt u de optie om regels tot stand te brengen om het belang van specifieke puntattributen in het bepalen van aanbevelingen te verhogen of te verminderen. Voor items zoals boeken kunt u het belang van kenmerken zoals *genre*, *auteur*, *series* enzovoort vergroten om vergelijkbare boeken aan te bevelen.
 
 ![](assets/ContentSimilarity.png)
 
@@ -183,7 +197,7 @@ Standaard worden alle kenmerken ingesteld op *Basislijn*. U hoeft geen regel te 
 >
 >Het algoritme voor de gelijkenis van de inhoud kan gebruikmaken van willekeurige sampling bij het berekenen van gelijkenis tussen items. Hierdoor kunnen de overeenkomsten tussen items per algoritme verschillen.
 
-## Inclusieregels {#inclusion}
+## Opnameregels {#inclusion}
 
 Met behulp van verschillende opties kunt u de items beperken die in uw aanbevelingen worden weergegeven. U kunt inclusieregels gebruiken terwijl het creëren van criteria of bevorderingen.
 
