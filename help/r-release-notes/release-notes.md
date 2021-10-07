@@ -5,9 +5,9 @@ landing-page-description: Leer over de nieuwe eigenschappen, de verhogingen, en 
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
+source-git-commit: 874c27fe7d0144b0485545cf687d50215309d416
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -24,22 +24,16 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
+## [!DNL Target Standard/Premium] 21.10.1 (6 oktober 2021)
 
-Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen.
+Deze release bevat de volgende nieuwe functies:
 
-* Problemen verholpen waardoor klanten zich niet konden aanmelden bij [!UICONTROL Visual Experience Composer] (VEC) vanwege nieuw beveiligingsbeleid voor cookies van derden in sommige webbrowsers. Dit probleem is besproken in &quot;Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+&quot; in [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
-* Probleem verholpen waarbij aanbiedingsnamen in de VEC het pad van de aanbieding weergeven in plaats van de vriendelijke naam van de aanbieding. (TGT-41300)
-* De namen van de ervaring worden nu weerspiegeld in [!DNL Analysis Workspace] voor activiteiten A4T (TGT-38674)
-* Probleem verholpen in [!DNL Recommendations] waarbij wijzigingen in de entiteit-id bij een promotie in een gedupliceerde activiteit ten onrechte werden toegepast op de oorspronkelijke activiteit. (TGT-41482)
-* Probleem verholpen waardoor de knop &quot;Criteria bewerken&quot; niet correct kon worden weergegeven op de pagina [!UICONTROL Experiences] voor [!DNL Recommendations]-activiteiten in de VEC. (TGT-39512)
-* Probleem verholpen waarbij synchronisatie van activiteiten tijdens het dupliceren en kopiëren naar een testwerkruimte werd voorkomen. (TGT-40686)
-* Probleem verholpen waarbij wijzigingen in een kiezer met [ervaringsfragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) tijdens het gebruik van &quot;[!UICONTROL Insert After]&quot; in de VEC werden voorkomen. (TGT-41802)
-* Probleem verholpen waarbij lege JSON-inhoud in een aanbieding niet naar de achtergrond kon worden verzonden. [!DNL Target] verzendt nu het JSON-object, ook al is het leeg. (TGT-41555)
-* Probleem verholpen waarbij rapportage [!DNL Analytics] werd geopend in plaats van [!DNL Analysis Workspace] wanneer klanten tijdens het weergeven van een rapport op &quot;[!UICONTROL View in Analytics]&quot; hadden geklikt. (TGT-41867)
-* Er is extra verduidelijking toegevoegd aan het weergegeven UI-bericht wanneer een klant [!DNL Analytics] probeert te selecteren als rapportagebron (A4T) voor een [!UICONTROL Automated Personalization]-activiteit. In het bericht staat dat &quot;[!DNL Target] de enige ondersteunde bron is voor [!UICONTROL Automated Personalization]-activiteiten.&quot; (TGT-41954)
-* Er is extra verduidelijking toegevoegd aan het foutbericht wanneer klanten proberen hosts te scheiden met &quot;newline&quot; in plaats van met komma&#39;s. (TGT-40671)
-* Probleem verholpen waarbij de datums &quot;[!UICONTROL Last Updated]&quot; van sommige activiteiten verschilden van de Engelse gebruikersinterface voor Spaanse en Japanse klanten (wanneer de gebruikersinterface wordt weergegeven in het Spaans en Japans). (TGT-38980)
+| Functie | Details |
+| --- | --- |
+| [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van de voortdurende inspanningen van het [!DNL Adobe Target]-team om de gebruikerservaring voor [!DNL Target]-gebruikers te verbeteren, vernieuwt deze release de [!UICONTROL Audiences]- en [!UICONTROL Profile Scripts]-pagina&#39;s in de [!DNL Target]-interface. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp voor publieksbuilder](/help/c-target/c-audiences/create-audience.md)</li><li>De regelsteun van de uitsluiting in [!UICONTROL Audience] de bouwer van de bibliotheekregel</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li></ul>Zie [Soorten publiek](/help/c-target/target.md) voor meer informatie.<br>**Opmerking**: Deze interface wordt alleen aangepast aan klanten in de EMEA-regio. De klanten in andere delen van de wereld, met inbegrip van Noord-Amerika, zullen volgende week de vernieuwde UI zien. |
+| [!UICONTROL Profile Scripts] UI vernieuwen | De bibliotheek [!UICONTROL Profile Scripts] is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>De mogelijkheid om meerdere profielscripts tegelijk te selecteren en te verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie [Bezoekersprofielen](/help/c-target/c-visitor-profile/visitor-profile.md) voor meer informatie.<br>**Opmerking**: Deze interface wordt alleen aangepast aan klanten in de EMEA-regio. De klanten in andere delen van de wereld, met inbegrip van Noord-Amerika, zullen volgende week de vernieuwde UI zien. |
+| ![Criteria voor ](/help/assets/premium.png) het maken en bewerken van premiumbadgeRecommendations | De workflow voor het maken en bewerken van [!UICONTROL Recommendations Criteria] is gestroomlijnd en eenvoudiger om het juiste algoritme en de juiste instellingen voor aanbevelingen te kiezen om uw doelen te bereiken.<br>Zie  [Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md) maken voor meer informatie. |
+| ![Premium ](/help/assets/premium.png) badgeRecommendations lookback window en algoritme verfrissen tariefverbeteringen | U kunt de algoritmen &quot;Meest bekeken&quot; en &quot;Hoogste verkopers&quot; nu uitvoeren met een terugkijkvenster van zes uur om de inhoud vast te leggen die het laatst wordt doorzocht. Wanneer het terugkijkvenster van zes uur wordt geselecteerd, worden uw aanbevelingen resultaten bijgewerkt om de 3-6 uur door de dag.<br>Zie  [Gegevensbron in criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)   ** maken voor meer informatie. |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
