@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '2611'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,15 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target].
+
+## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 oktober 2021)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 6 oktober | [Stimuleer publiek in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Bijgewerkte tekst en afbeeldingen die de bijgewerkte gebruikersinterface [!DNL Target] [!UICONTROL Audiences] weerspiegelen. Vergelijkbare wijzigingen zijn doorgevoerd in de [!UICONTROL Audiences]-onderwerpen. |
+|  | [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | De volgende secties zijn bijgewerkt:<ul><li>Basisinformatie</li><li>Gegevensbron</li></ul> |
+|  | [Aangepaste criteria uploaden](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Bijgewerkte instructies voor de nieuwe workflow. |
+|  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.10.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 september 2021)
 
@@ -68,9 +77,9 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | 27 juli | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nieuwe sectie toegevoegd:<ul><li>Aanbevolen documentatie</li></ul> |
 |  | [Limieten](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Nieuwe sectie toegevoegd:<ul><li>Inhoud leveren</li></ul> |
 | 26 juli | [Het gebruiken van Adobe Target met het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK van het Platform in de  *Adobe Experience Platform Web SDK* overviewguide | Nieuwe sectie toegevoegd:<ul><li>Platform Web SDK systeemdiagram</li></ul> |
-| 23 juli | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie is bijgewerkt voor meer informatie:<ul><li>Hoe beïnvloedt het Google Chrome SameSite-beleid voor de handhaving van cookies de VEC en EEC?</li></ul> |
+| 23 juli | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie is bijgewerkt voor meer informatie:<ul><li>Hoe beïnvloedt het Google Chrome SameSite cookie handhavingsbeleid VEC en EEC?</li></ul> |
 |  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Toegevoegde nieuwe rubriek &quot;Wijzigingen per ervaring&quot; onder &quot;Ervaringen&quot;. |
-| 21 juli | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie is bijgewerkt:<ul><li>Hoe beïnvloedt het Google Chrome SameSite-beleid voor de handhaving van cookies de VEC en EEC?</li></ul> |
+| 21 juli | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie is bijgewerkt:<ul><li>Hoe beïnvloedt het Google Chrome SameSite cookie handhavingsbeleid VEC en EEC?</li></ul> |
 | 19 juli | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Toegevoegde informatie over gebeurteniscode -1 of 65535. |
 | 16 juli | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br><br>[andat.js, versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over de release at.js 2.6.0. |
 |  | [Problemen met de  [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Bijgewerkt de lijst van IP adres aan lijst van gewenste personen. |
@@ -114,11 +123,11 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |  | [Reactiepunten](/help/administrating-target/response-tokens.md) | Toegevoegde informatie over het gebruiken van reactietokens met [!DNL Adobe Experience Platform Web SDK].<br>**Opmerking**: Deze functionaliteit zal in een toekomstige versie van het Web SDK van het Platform (te bepalen datum) worden vrijgegeven. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de release Adobe Experience Platform Web SDK 2.5.0 (1 juni 2021). |
 | 27 mei | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Toegevoegde sectie voor [!DNL Target] API vraag. De grens is 50 vraag per minuut. |
-| 20 mei | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Adobe Tech Blog - Deel 2: [!DNL Adobe Target] NodeJS SDK uitvoeren voor experimenteren en personalisatie op randplatforms (AWS Lambda@Edge)</li></ul> |
+| 20 mei | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Adobe Tech Blog - Deel 2: [!DNL Adobe Target] NodeJS SDK uitvoeren voor experimenteren en personalisatie op Edge-platforms (AWS Lambda@Edge)</li></ul> |
 |  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: Bij archivering van [!UICONTROL Auto Target] kunnen synchronisatieproblemen optreden. |
 | 17 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de release at.js 2.5.0. |
 |  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Bijgewerkt onderwerp om erop te wijzen dat de voorproefverbindingen voor [!UICONTROL Automated Personalization] (AP) activiteiten met at.js 2.5.0 (en later) beschikbaar zijn. |
-|  | [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Geeft aan dat de release van at.js 2.5.0 ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies verwijdert. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger. |
+|  | [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Opgegeven dat de release van at.js 2.5.0 de ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies verwijdert. Microsoft Edge wordt nog steeds ondersteund in om.js 2.5.0 en hoger. |
 |  | [Problemen met de  [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkt de lijst van IP adressen aan lijst van gewenste personen. |
 | 12 mei | [[!DNL Target] releaseopmerkingen (pre-release)](/help/r-release-notes/target-release-notes.md) | Voorlopige opmerkingen toegevoegd voor het volgende:<ul><li>Adobe Experience Platform Web SDK (17 mei 2021)</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 10 mei | [[!DNL Recommendations] Veelgestelde vragen](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Kan ik een algoritme gebruiken die in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] wordt gecreeerd?&quot; |
@@ -154,7 +163,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?</li></ul> |
 | 22 maart | [IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Bijgewerkte lijst van IP adressen. |
 |  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | De sectie &quot;Aantal entiteiten&quot; onder &quot;Entiteiten&quot; is bijgewerkt. |
-|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Extra informatie over at.js 2.** xunder &quot;Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?&quot; |
+|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Extra informatie over at.js 2.** xunder &quot;Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een andere plaats komt?&quot; |
 |  | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.2.1. | Toegevoegd: <ul><li>IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)</li></ul> |
 | 19 maart | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Volgende veelgestelde vragen toegevoegd:<ul><li>Waarom zie ik nog meer indrukken nadat mijn activiteit is gedeactiveerd?</li></ul> |
 | 12 maart | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | De volgende nieuwe zelfstudie is toegevoegd:<ul><li>A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten</li></ul> |

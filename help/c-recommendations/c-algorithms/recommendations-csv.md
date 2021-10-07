@@ -4,79 +4,80 @@ description: Leer hoe u een CSV-bestand uploadt om uw aanbevelingen aan te passe
 title: Hoe upload ik aangepaste criteria in Recommendations?
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '632'
+ht-degree: 1%
 
 ---
 
-# ![Aangepaste criteria ](/help/assets/premium.png) PREMIUMUpload
+# ![](/help/assets/premium.png) PREMIUMUpload, aangepaste criteria
 
-Upload een CSV-bestand om uw aanbevelingen aan te passen.
+Upload een CSV-bestand om uw aanbevelingen in [!DNL Adobe Target] aan te passen.
 
 Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] scherm te bereiken. Sommige schermopties variëren afhankelijk van de manier waarop u het scherm bereikt.
 
 * Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!DNL Recommendations]-activiteiten.
-* Wanneer u een [!DNL Recommendations] activiteit gebruikend [!UICONTROL Visual Experience Composer] (VEC) creeert, wordt u onmiddellijk genomen aan het [!UICONTROL Select Criteria] scherm nadat u een element op uw pagina selecteert en [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before], of [!UICONTROL Insert Recommendations After] klikt. U kunt dan een beschikbare criteria selecteren of u kunt **[!UICONTROL Create Criteria]** klikken. Als u nieuwe criteria creeert, hebt u de optie om uw criteria voor gebruik met andere [!DNL Recommendations] activiteiten te bewaren. Zie [Een Recommendations-activiteit maken](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) voor meer informatie.
-* Wanneer u een [!DNL Recommendations] activiteit uitgeeft, klik in [!UICONTROL Recommendations Location] doos op uw pagina, en selecteer **[!UICONTROL Change Criteria]**. Klik op [!UICONTROL Select Criteria] in het scherm **[!UICONTROL Create Criteria]**. U hebt de optie om uw nieuwe criteria voor gebruik met andere [!DNL Recommendations] activiteiten te bewaren.
+* Wanneer u een [!DNL Recommendations] activiteit gebruikend [!UICONTROL Visual Experience Composer] (VEC) creeert, wordt u onmiddellijk genomen aan het [!UICONTROL Select Criteria] scherm nadat u een element op uw pagina selecteert en [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before], of [!UICONTROL Insert Recommendations After] klikt. U kunt dan een beschikbare criteria selecteren of u kunt **[!UICONTROL Create Criteria]** klikken. Als u nieuwe criteria creeert, kunt u uw criteria voor gebruik met andere [!DNL Recommendations] activiteiten bewaren. Zie [Een Recommendations-activiteit maken](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) voor meer informatie.
+* Wanneer u een [!DNL Recommendations] activiteit uitgeeft, klik in [!UICONTROL Recommendations Location] doos op uw pagina, en selecteer **[!UICONTROL Change Criteria]**. Klik op [!UICONTROL Select Criteria] in het scherm **[!UICONTROL Create Criteria]**. U kunt uw nieuwe criteria voor gebruik met andere [!DNL Recommendations] activiteiten bewaren.
 
 In de volgende stappen wordt ervan uitgegaan dat u het scherm [!UICONTROL Create New Criteria] opent met de eerste methode: het **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** bibliotheekscherm.
 
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Upload Custom Criteria]**.
+1. Klik op **[!UICONTROL Create Criteria]**.
 
 1. Vul de gegevens in de sectie [Basisinformatie](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) in.
 
-1. Vul de informatie in [Gegevensbron](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) sectie in.
+   1. Selecteer **[!UICONTROL Custom Criteria]** in de vervolgkeuzelijst **[!UICONTROL Select Algorithm]** Type.
 
-1. Vul de informatie in de sectie [Inhoud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) in.
+   1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Algorithm]** de optie **[!UICONTROL Custom Algorithm]**.
 
-1. (Voorwaardelijk) Vul de informatie in de sectie [Vergelijkbare inhoud](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) in.
+      >[!NOTE]
+      >
+      >De voorgaande stappen zorgen ervoor dat de sectie [!UICONTROL Upload CSV] onder in het dialoogvenster [!UICONTROL Create New Criteria] wordt weergegeven.
+
+1. (Voorwaardelijk) Vul de informatie in [Backup Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) sectie in.
 
 1. (Voorwaardelijk) Vul de informatie in [Regels voor opname](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) sectie in.
 
-1. (Voorwaardelijk) Vul de informatie in [Kenmerkweging](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) sectie in.
-
 1. Selecteer in de sectie **[!UICONTROL Upload CSV]** de **[!UICONTROL Location]** van het CSV-bestand.
 
-   ![CSV-sectie uploaden](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
+   ![CSV-sectie uploaden](assets/upload-csv.png)
 
    Het CSV-bestand moet correct zijn opgemaakt om te kunnen worden geüpload. Klik **[!UICONTROL Download the CSV template]** om een correct geformatteerd Csv- dossier te krijgen.
 
    U hebt twee locatieopties:
 
-   * **FTP:** Als u uw CSV-bestand vanaf een FTP-server wilt uploaden, selecteert u  **[!UICONTROL FTP]** en voert u de vereiste gegevens in. U hebt de optie om SSL te gebruiken, die het protocol van FTPS gebruikt om uw Csv- dossier veilig over te brengen.
+   * **FTP:** Als u uw CSV-bestand vanaf een FTP-server wilt uploaden, selecteert u  **[!UICONTROL FTP]** en voert u de vereiste gegevens in. U kunt SSL gebruiken, dat het protocol van FTPS gebruikt om uw Csv- dossier veilig over te brengen.
    * **URL:** Als u uw CSV-bestand via een URL wilt uploaden, selecteert u  **[!UICONTROL URL]** en voert u vervolgens een URL in.
 
 1. Klik op **[!UICONTROL Save]**.
 
-   >[!NOTE]
-   >
-   >Entiteiten met aangepaste criteria (rijen) kunnen maximaal 1000 aanbevolen items (kolommen) bevatten.
+## Overwegingen
 
-Updates van aangepaste criteria zijn standaard &#39;cumulatief&#39;. Nieuwe sleutelwaardeparen die in het CSV-uploadbestand zijn opgegeven, overschrijven bestaande sleutelwaardeparen. Bestaande sleutel-waarde paren die geen sleutels hebben die in CSV uploaden worden gespecificeerd zullen nog voor levering beschikbaar zijn en zullen verlopen over 31 dagen vanaf de tijd zij als deel van het Csv- dossier het laatst worden geupload.
+* Entiteiten met aangepaste criteria (rijen) kunnen maximaal 1000 aanbevolen items (kolommen) bevatten.
 
-De Zorg van de Cliënt van het contact om het plaatsen toe te laten om de bestaande resultaten te verwerpen die niet inbegrepen in volgende Csv uploaden zijn. Als deze instelling is ingeschakeld, zijn alleen de sleutels in het aangepaste CSV-voederbestand beschikbaar voor levering. Deze instelling is van toepassing op alle aangepaste criteria.
+* Updates van aangepaste criteria zijn standaard &#39;cumulatief&#39;. Nieuwe sleutelwaardeparen die in het CSV-uploadbestand zijn opgegeven, overschrijven bestaande sleutelwaardeparen. Bestaande sleutel-waarde paren die geen sleutels hebben die in CSV worden gespecificeerd uploaden zijn nog beschikbaar voor levering en verlopen in 31 dagen vanaf de tijd zij als deel van het Csv- dossier het laatst worden geupload.
 
-Aangepaste criteria worden elke 24 uur bijgewerkt.
+   De Zorg van de Cliënt van het contact om het plaatsen toe te laten om de bestaande resultaten te verwerpen die niet inbegrepen in volgende Csv uploaden zijn. Als deze instelling is ingeschakeld, zijn alleen de sleutels in het aangepaste CSV-voederbestand beschikbaar voor levering. Deze instelling is van toepassing op alle aangepaste criteria.
 
-U kunt de upload- en synchronisatiestatus van uw aangepaste criteria bekijken onder aan elke criteria-kaart op de pagina Recommendations > Criteria. De status wordt ook weergegeven in het dialoogvenster Bewerken wanneer u aangepaste criteria bewerkt.
+* Aangepaste criteria worden elke 24 uur bijgewerkt.
 
-De stroom voor een foutloze upload moet zijn gepland > Feed-bestand downloaden > Importeren > Succesvol.
+   U kunt de upload- en synchronisatiestatus zien van uw aangepaste criteria die u uploadt onder aan elke criteria op de pagina [!UICONTROL Recommendations] > [!UICONTROL Criteria]. U kunt de status in het [!UICONTROL Edit] dialoogvakje ook zien wanneer het uitgeven van douanecriteria.
 
-Hieronder volgen mogelijke foutberichten die u kunt ontvangen als [!DNL Target] een probleem tegenkomt met het uploaden:
+* De stroom voor een foutloze upload moet [!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful] zijn.
 
-| Foutbericht | Details |
-|--- |--- |
-| Onbekende fout | Geeft een interne technische fout aan. |
-| Parseringsfout | Er is waarschijnlijk een probleem met de bestandsindeling feed. Corrigeer de bestandsindeling en sla het algoritme opnieuw op. Hiermee wordt het downloadproces van het bestand opnieuw gestart. |
-| Server niet gevonden | Geef een IP- of hostnaam op die op internet zichtbaar is. |
-| Credentials-fout | Geef een geldige gebruiker en een geldig wachtwoord op voor een actieve account op de server. |
-| Map niet gevonden | Geef een map op die op de server bestaat. |
-| Bestand niet gevonden | Geef de naam op van een bestand dat op de server in de aangegeven directory staat. |
+* Hieronder volgen mogelijke foutberichten die u kunt ontvangen als [!DNL Target] een probleem tegenkomt met het uploaden:
+
+   | Foutbericht | Details |
+   |--- |--- |
+   | Onbekende fout | Geeft een interne technische fout aan. |
+   | Parseringsfout | Er is waarschijnlijk een probleem met de bestandsindeling feed. Corrigeer de bestandsindeling en sla het algoritme opnieuw op, waardoor het downloadproces van het bestand opnieuw wordt gestart. |
+   | Server niet gevonden | Geef een IP- of hostnaam op die op internet zichtbaar is. |
+   | Credentials-fout | Geef een geldige gebruiker en een geldig wachtwoord op voor een actieve account op de server. |
+   | Map niet gevonden | Geef een map op die op de server bestaat. |
+   | Bestand niet gevonden | Geef de naam op van een bestand dat op de server in de aangegeven directory staat. |
 
 ## Trainingsvideo: Criteria maken in Recommendations (12:33) ![Zelfstudie badge](/help/assets/tutorial.png)
 

@@ -4,7 +4,7 @@ title: Waar kan ik  [!DNL Target] documentatie vinden?
 description: Leer hoe u Adobe [!DNL Target] kunt gebruiken om de ervaring van uw klanten aan te passen en uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de  [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 4 oktober 2021 ( [zie wat er is veranderd](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 6 oktober 2021 ( [zie wat er is veranderd](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ In de volgende secties wordt verwezen naar handige koppelingen in deze handleidi
 
 Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborging.
 
-- [Opmerkingen](r-release-notes/release-notes.md) bij de doelversie: Bevat informatie over de huidige versie, informatie over bekende kwesties die gevolgen hebben  [!DNL Target], een lijst van belangrijke veranderingen in deze documentatie, en een archief van vroegere versienota&#39;s.
+- [Opmerkingen](r-release-notes/release-notes.md) bij de doelversie: Bevat informatie over de huidige versie, informatie over bekende kwesties die  [!DNL Target], een lijst van belangrijke veranderingen in deze documentatie, en een archief van vroegere versienota&#39;s beïnvloeden.
 - [Inleiding tot doel](c-intro/intro.md): Verklaart de kernconcepten van de  [!DNL Target] oplossing.
 - Doel integreren met de Adobe Experience Cloud: Verklaart hoe te om [!DNL Target] met andere [!DNL Experience Cloud] oplossingen, met inbegrip van [Analytics voor Doel](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud publiek](/help/c-integrating-target-with-mac/mmp.md), en [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) te integreren.
 - [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Biedt zelfstudies en video&#39;s om u te helpen optimaal van het doel te profiteren.

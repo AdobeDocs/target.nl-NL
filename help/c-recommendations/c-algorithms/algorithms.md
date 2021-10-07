@@ -1,24 +1,23 @@
 ---
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme;aanbeveling sleutel;douane sleutel;industrie verticaal;kleinhandel;handel;lood generatie;b2b;financiële diensten;media;het publiceren
-description: Leer hoe u criteria gebruikt in Adobe [!DNL Target] Recommendations. Criteria zijn regels die bepalen welke inhoud moet worden aanbevolen op basis van een vooraf bepaalde set gedragingen van bezoekers.
+description: Leer hoe te om criteria in Adobe te gebruiken [!DNL Target] [!DNL Recommendations].
 title: Hoe gebruik ik criteria in [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
 
 # ![](/help/assets/premium.png) PREMIUMCCriteria
 
-De criteria in [!DNL Adobe Target] zijn regels die welke producten of inhoud bepalen om op een vooraf bepaalde reeks bezoekersgedrag te adviseren. De criteria kunnen op populaire tendensen, het huidige en vroegere gedrag van een bezoeker, of gelijkaardige producten en inhoud worden gebaseerd. U kunt veelvoudige aanbevelingstypes tegen elkaar testen door veelvoudige criteria toe te voegen.
+Criteria in [!DNL Adobe Target] [!DNL Recommendations] zijn regels die bepalen welke producten of inhoud moet worden aanbevolen op basis van een vooraf bepaalde set bezoekersgedrag. De criteria kunnen op populaire tendensen, het huidige en vroegere gedrag van een bezoeker, of gelijkaardige producten en inhoud worden gebaseerd. U kunt veelvoudige aanbevelingstypes tegen elkaar testen door veelvoudige criteria toe te voegen.
 
 In de volgende secties wordt meer uitgelegd over criteria en de logica van de aanbeveling die u voor elke toets kunt gebruiken. Klik op de koppelingen voor meer informatie.
 
-## Verticaal {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
+## Verticale industrie {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
 Terwijl het creëren van criteria, selecteert u een industrie verticaal die op de doelstellingen van uw aanbevelingen activiteit wordt gebaseerd.
 
@@ -30,76 +29,47 @@ Terwijl het creëren van criteria, selecteert u een industrie verticaal die op d
 
 Andere criteria worden gewijzigd op basis van de verticale industriestandaard die u selecteert. U kunt uw standaardindustrie verticaal op **[!UICONTROL Recommendations > Settings]** pagina plaatsen of u kunt de industrie verticaal voor elke criteria specificeren.
 
-## Aanbevelingssleutel {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Type algoritme {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Het type criteria wordt bepaald door de toets die u voor de aanbeveling selecteert. Er zijn verscheidene criteria types, die als criteria kaarten worden vertegenwoordigd wanneer u opstelling een [!DNL Recommendations] activiteit.
+Het algoritmetype dat u selecteert, bepaalt de beschikbare algoritmen. Er zijn verscheidene algoritmenypes, die als criteria kaarten worden vertegenwoordigd wanneer u opstelling een [!DNL Recommendations] activiteit.
 
-![Criteria pagina](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+![Criteria pagina](assets/criteria-page.png)
 
-In de volgende tabel worden de verschillende typen criteria en de bijbehorende sleutels uitgelegd. Klik op de koppelingen voor meer informatie over elke toets.
+In de volgende tabel worden de verschillende algoritmische typen en de bijbehorende algoritmen beschreven.
 
-| Criteria Type | Toetsen |
-|--- |--- |
-| Activiteit huidige pagina | Aanbevolen items op basis van wat gebruikers op de huidige pagina doen. bezoekers die bijvoorbeeld een bepaald artikel bekijken, kunnen andere artikelen uit dezelfde categorie bekijken.<ul><li>[Huidig item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-item)</li><li>[Huidige rubriek](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-category)</li></ul> |
-| Aangepast | Aanbevolen items op basis van aangepaste kenmerken.<ul><li>[Aangepast kenmerk](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Wanneer u aanbevelingen baseert op douanekenmerken, moet u het douanekenmerk selecteren en dan het aanbevelingstype selecteren. |
-| Gedrag in verleden | Aanbevolen objecten op basis van hoe bezoekers in het verleden op een object hebben gereageerd. Mensen die bijvoorbeeld een bepaald merk hebben aangeschaft, hebben meer kans om een ander product van dat merk te kopen.<ul><li>[Laatst gekocht object](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Laatst weergegeven item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Meest bekeken item](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favoriete rubriek](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
-| Populariteit | Aanbevelen de populairste items, zoals de populairste video&#39;s in een verwante categorie of de producten die het meest op uw site zijn weergegeven.<ul><li>[Populariteit](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| [Onlangs bekeken objecten](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Aanbevolen objecten die een bezoeker het laatst heeft bekeken, zoals de objecten die een bezoeker voor het laatst heeft bekeken op het moment dat hij of zij uw site heeft bezocht, of de artikelen die momenteel het meest trending hebben. |
+| Het type Algorithm | Wanneer gebruiken | Beschikbare algoritmen |
+| --- | --- | --- |
+| [!UICONTROL Popularity-Based] | Aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker. | <ul><li>Meest bekeken op de site</li><li>Meest bekeken op rubriek</li><li>Meest bekeken door kenmerk Item</li><li>Topverkopers op de hele site</li><li>Topverkopers op rubriek</li><li>Topverkopers op objectkenmerk</li><li>Metrisch, boven op Analytics</li></ul> |
+| [!UICONTROL Item-Based] | Aanbevelingen doen op basis van het zoeken naar objecten die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken. | <ul><li>Personen die dit hebben bekeken, zagen het volgende</li><li>Mensen die dit bekeken hebben, hebben het volgende gekocht</li><li>Mensen die dit hebben gekocht, hebben het volgende gekocht</li><li>Objecten met vergelijkbare kenmerken</li></ul> |
+| [!UICONTROL User-Based] | Aanbevelingen doen op basis van het gedrag van de gebruiker. | <ul><li>Onlangs bekeken objecten</li><li>Aanbevolen voor u</li></ul> |
+| Op basis van winkelwagentje | (Binnenkort beschikbaar) Aanbevelingen doen op basis van de inhoud van het winkelwagentje van de gebruiker. | <ul><li>Personen die ze bekeken, bekeken ze</li><li>Mensen die ze bekeken, kochten hen</li><li>Mensen die deze hebben gekocht, hebben de</li></ul> |
+| [!UICONTROL Custom Criteria] | Aanbevelingen doen op basis van een aangepast bestand dat u uploadt. | <ul><li>Aangepast algoritme</li></ul> |
 
-## Een aangepaste aanbevolen toets {#custom-key} gebruiken
+Voor meer informatie over elk algoritme, zie [Baseer de aanbeveling op een aanbeveling sleutel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+
+## Een aangepaste aanbevolen toets gebruiken {#custom-key}
 
 U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel ook baseren.
 
 >[!NOTE]
 >
->Aangepaste profielparameters kunnen aan Doel worden doorgegeven via JavaScript, API of integratie. Zie [Bezoekersprofielen](/help/c-target/c-visitor-profile/visitor-profile.md) voor meer informatie over kenmerken van aangepaste profielen.
+>Aangepaste profielparameters kunnen worden doorgegeven aan [!DNL Target] via JavaScript, API of integratie. Zie [Bezoekersprofielen](/help/c-target/c-visitor-profile/visitor-profile.md) voor meer informatie over kenmerken van aangepaste profielen.
 
 Stel dat u aanbevolen films wilt weergeven op basis van de film die een gebruiker het laatst aan de wachtrij heeft toegevoegd.
 
-1. Selecteer uw attribuut van het douaneprofiel van [!UICONTROL Recommendation Key] drop-down lijst (bijvoorbeeld, [!UICONTROL Last Show Added to Watchlist]).
+1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Selecteer uw [!UICONTROL Recommendation Logic] (bijvoorbeeld [!UICONTROL People Who Viewed This, Viewed That]).
+1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
-   ![Nieuwe criteria maken, dialoogvenster](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+1. Vul de informatie in [Basisinformatie sectie](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) in.
 
-Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitidentiteitskaart aanpast, is het noodzakelijk om aan [!DNL Recommendations] uit te leggen hoe u de gelijke aan een entiteit wilt voorkomen.
+1. Selecteer **[!UICONTROL Item Based]** in de lijst [Aanbevolen algoritme](/help/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) in de sectie **[!UICONTROL Algorithm Type]**.
 
-Stel dat u de meest verkochte objecten van het favoriete merk van een gebruiker wilt weergeven.
+1. Selecteer **[!UICONTROL People Who Viewed This, Viewed That]** in de lijst **[!UICONTROL Algorithm]**.
 
-1. Selecteer uw attribuut van het douaneprofiel van [!UICONTROL Recommendation Key] drop-down lijst (bijvoorbeeld, [!UICONTROL Favorite Brand]).
+1. Selecteer het kenmerk Aangepast profiel in de lijst **[!UICONTROL Recommendation Key]** (bijvoorbeeld [!UICONTROL Last Show Added to Watchlist]).
 
-1. Selecteer [!UICONTROL Recommendation Logic] u met deze sleutel wilt gebruiken (bijvoorbeeld, [!UICONTROL Top Sellers]).
-
-   De optie [!UICONTROL Group By Unique Value Of] wordt weergegeven.
-
-1. Selecteer het entiteitskenmerk dat overeenkomt met de gekozen sleutel. In dit geval komt [!UICONTROL Favorite Brand] overeen met `entity.brand`.
-
-   [!DNL Recommendations] produceert nu een lijst met &#39;Topverkopers&#39; voor elk merk en geeft de gebruiker de juiste lijst met &#39;Topverkopers&#39; weer op basis van de waarde die is opgeslagen in het  [!UICONTROL Favorite Brand] profielkenmerk.
-
-   ![Kenmerk topverkopers](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
-
-## Criteria/algoritmen {#criteria-algorithms}
-
-[!DNL Target Recommendations] gebruikt geavanceerde algoritmen om te bepalen wanneer de acties van een bezoeker voor de criteria in uw activiteit kwalificeren. De advisesleutel bepaalt de aanbevelingen logische opties die beschikbaar zijn.
-
-| Criteria | Beschrijving |
-|--- |--- |
-| [Items/media met vergelijkbare kenmerken](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#similar-attributes) | Aanbevolen items of media die vergelijkbaar zijn met items of media op basis van de huidige paginageactiviteit of het gedrag van een bezoeker. |
-| [Personen die dit hebben bekeken, zagen het volgende](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-viewed) | Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven. |
-| [Mensen die dit bekeken hebben, hebben het volgende gekocht](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-bought) | raadt objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. |
-| [Mensen die dit hebben gekocht, hebben het volgende gekocht](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#bought-bought) | Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden gekocht. |
-| [Affiniteit site](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | Aanbevolen items op basis van de zekerheid van een relatie tussen items. |
-| [Topverkopers](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | De items die zijn opgenomen in de meest voltooide orders. Meerdere eenheden van hetzelfde item in één volgorde worden als één volgorde geteld. |
-| [Meest bekeken](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | De items of media die het vaakst worden weergegeven. |
-| [Op gebruiker gebaseerde Recommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | Aanbevolen objecten op basis van de browsergeschiedenis, weergavegeschiedenis en aankoopgeschiedenis van elke bezoeker. Deze objecten worden doorgaans &#39;Aanbevolen voor je&#39; genoemd. |
-
->[!NOTE]
->
->Als u een aanbeveling uitvoert en de criteria wijzigt, gaan de rapportgegevens verloren.
-
-U kunt ook aanvullende bekende informatie over een bezoeker gebruiken om uw aanbevelingen te verbeteren.
-
-Alle criteria van één dag worden tweemaal daags uitgevoerd. Alle criteria van één week en langer lopen eenmaal per dag. De criteria voor affiniteit van de site worden eenmaal daags uitgevoerd. Back-upcriteria worden tweemaal daags uitgevoerd.
+   ![Nieuwe criteria maken, dialoogvenster](assets/custom-key1.png)
 
 ## Informatie over criteria weergeven {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 

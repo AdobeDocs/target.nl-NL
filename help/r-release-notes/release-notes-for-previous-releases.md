@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '31180'
+source-wordcount: '31491'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,23 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de doelreleases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2021
+
+### [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
+
+Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen.
+
+* Problemen verholpen waardoor klanten zich niet konden aanmelden bij [!UICONTROL Visual Experience Composer] (VEC) vanwege nieuw beveiligingsbeleid voor cookies van derden in sommige webbrowsers. Dit probleem is besproken in &quot;Pagina&#39;s die niet worden geladen in Visual Experience Composer (VEC) of Enhanced Experience Composer (EEC) bij gebruik van Google Chrome versie 80+&quot; in [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Probleem verholpen waarbij aanbiedingsnamen in de VEC het pad van de aanbieding weergeven in plaats van de vriendelijke naam van de aanbieding. (TGT-41300)
+* De namen van de ervaring worden nu weerspiegeld in [!DNL Analysis Workspace] voor activiteiten A4T (TGT-38674)
+* Probleem verholpen in [!DNL Recommendations] waarbij wijzigingen in de entiteit-id bij een promotie in een gedupliceerde activiteit ten onrechte werden toegepast op de oorspronkelijke activiteit. (TGT-41482)
+* Probleem verholpen waardoor de knop &quot;Criteria bewerken&quot; niet correct kon worden weergegeven op de pagina [!UICONTROL Experiences] voor [!DNL Recommendations]-activiteiten in de VEC. (TGT-39512)
+* Probleem verholpen waarbij synchronisatie van activiteiten tijdens het dupliceren en kopiëren naar een testwerkruimte werd voorkomen. (TGT-40686)
+* Probleem verholpen waarbij wijzigingen in een kiezer met [ervaringsfragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) tijdens het gebruik van &quot;[!UICONTROL Insert After]&quot; in de VEC werden voorkomen. (TGT-41802)
+* Probleem verholpen waarbij lege JSON-inhoud in een aanbieding niet naar de achtergrond kon worden verzonden. [!DNL Target] verzendt nu het JSON-object, ook al is het leeg. (TGT-41555)
+* Probleem verholpen waarbij rapportage [!DNL Analytics] werd geopend in plaats van [!DNL Analysis Workspace] wanneer klanten tijdens het weergeven van een rapport op &quot;[!UICONTROL View in Analytics]&quot; hadden geklikt. (TGT-41867)
+* Er is extra verduidelijking toegevoegd aan het weergegeven UI-bericht wanneer een klant [!DNL Analytics] probeert te selecteren als rapportagebron (A4T) voor een [!UICONTROL Automated Personalization]-activiteit. In het bericht staat dat &quot;[!DNL Target] de enige ondersteunde bron is voor [!UICONTROL Automated Personalization]-activiteiten.&quot; (TGT-41954)
+* Er is extra verduidelijking toegevoegd aan het foutbericht wanneer klanten proberen hosts te scheiden met &quot;newline&quot; in plaats van met komma&#39;s. (TGT-40671)
+* Probleem verholpen waarbij de datums &quot;[!UICONTROL Last Updated]&quot; van sommige activiteiten verschilden van de Engelse gebruikersinterface voor Spaanse en Japanse klanten (wanneer de gebruikersinterface wordt weergegeven in het Spaans en Japans). (TGT-38980)
 
 ### om 2.6.1.2021 (16 augustus 2021)
 
@@ -96,7 +113,7 @@ Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
 * [Ondersteuning voor ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) beslissingen op het apparaat voor at.js.
 * [Ondersteuning voor ](/help/c-activities/c-activity-qa/activity-qa.md) koppelingen voorvertonen voor Automated Personalization-activiteiten
 
-Deze versie verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in at.js 2.5.0 en hoger.
+Deze release verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in om.js 2.5.0 en hoger.
 
 ### Target Standard/Premium 21.4.1 (19 april 2021)
 
@@ -105,7 +122,7 @@ Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenumme
 | Functie | Details |
 | --- | --- |
 | Apparaatondersteuning voor beslissingen voor at.js<br>(Datum die moet worden aangekondigd) | Met apparaatbeslissingen kunnen marketers en ontwikkelaars experimenten en personalisatie uitvoeren in de browser van een gebruiker bij bijna-nullatentie.<br>Voor meer informatie, zie  [Op-apparatenbesluit voor at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![Op ](/help/assets/premium.png) PremiumList gebaseerde operatoren voor filterregels voor entiteiten | [!DNL Target Recommendations] steunt nieuwe op lijst-gebaseerde exploitanten voor entiteit het filtreren regels. (TGT-39234)<br>Nieuw toegevoegde operatoren zijn onder andere:<br><ul><li>Is opgenomen in lijst</li><li>Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul>Zie &quot;Beschikbare operatoren&quot; in [Dynamische en statische inclusieregels gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) voor meer informatie. |
+| ![](/help/assets/premium.png) Op PremiumList gebaseerde operatoren voor filterregels voor entiteiten | [!DNL Target Recommendations] steunt nieuwe op lijst-gebaseerde exploitanten voor entiteit het filtreren regels. (TGT-39234)<br>Nieuw toegevoegde operatoren zijn onder andere:<br><ul><li>Is opgenomen in lijst</li><li>Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul>Zie &quot;Beschikbare operatoren&quot; in [Dynamische en statische inclusieregels gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) voor meer informatie. |
 
 Deze versie bevat de volgende oplossingen.
 
@@ -220,7 +237,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem verholpen waarbij fouten werden weergegeven bij het laden van de nieuwe [!UICONTROL Administration] pagina&#39;s na het schakelen tussen organisaties. (TGT-37730)
 * Probleem verholpen waarbij de onjuiste clientcode op de pagina [!UICONTROL Administration > Implementation] werd weergegeven. (TGT-37849)
 * Probleem verholpen waardoor gebruikers soms de bewerkingsfuncties in [!UICONTROL Visual Experience Composer] (VEC) niet konden gebruiken nadat de VEC met succes was geladen. (TGT-37162)
-* Probleem verholpen waardoor pagina&#39;s niet konden worden geladen in de VEC en de Enhanced Experience Composer (EEC), ook al was de extensie VEC Helper geïnstalleerd. Dit was het gevolg van wijzigingen in Google Chrome 80+. Download de [bijgewerkte VEC Helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md). (TGT-37893)
+* Probleem verholpen waardoor pagina&#39;s niet konden worden geladen in de VEC en de Enhanced Experience Composer (EEC), ook al was de extensie VEC Helper geïnstalleerd. Dit was het gevolg van veranderingen in Google Chrome 80+. Download de [bijgewerkte VEC Helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md). (TGT-37893)
 * Probleem verholpen waarbij gebruikers soms werden verhinderd om op de pagina [!UICONTROL Administration > Implementation] te downloaden van at.js na het schakelen tussen organisaties. (TGT-37668)
 * De downloadknop at.js is nu uitgeschakeld tijdens het laden om te voorkomen dat [!DNL Target] meerdere aanvragen verzendt als gebruikers meerdere keren op de downloadknop klikken. (TGT-37633)
 * Probleem verholpen in [!UICONTROL Experience Targeting] (XT) activiteiten die ervoor zorgden dat ervaringen gedurende een langere periode &quot;ophaalresultaten&quot; konden weergeven. (TGT-37684)
@@ -409,7 +426,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
    | Dagelijkse Bezoekers, Uur Bezoekers, Maandelijkse Bezoekers, Driemaandelijkse Bezoekers, Wekelijkse Bezoekers, Jaarlijkse Bezoekers | Unieke bezoekers |
    | Gemiddelde visdiepte | n.v.t. Niet voorgesteld als primair doel metrisch |
    | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
-   | Snelheid bij vastlopen van mobiele apparaten, Mobile Avg vorige sessielengte, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
+   | Mobiele crashsnelheid, Mobile Avg vorige sessieduur, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
 
 ### Navigatie door Adobe Experience Cloud (22 februari 2019)
 
@@ -537,7 +554,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 | --- | --- |
 | ![Premium ](/help/assets/premium.png)<br>badgeRecommendations in A/B Test and Experience Targeting (XT)-activiteiten | De Recommendations-aanbiedingsstatus (algoritme) wordt weergegeven op de overzichtspagina voor A/B Test- en XT-activiteiten die Recommendations-aanbiedingen bevatten. Voorbeelden van statussen zijn: Resultaten gereed, resultaten niet gereed en Feed-fout. (TGT-33649)<br>Zie [Recommendations als een aanbieding](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Ondersteuning voor interdomeintracering voor at.js 2.0+ via de Experience Cloud ID-bibliotheek (ECID) | Eerder werd interdomeintracering niet ondersteund in at.js 2.*x*. Met deze release kunnen klanten die at.js 2.0 of hoger gebruiken nu interdomeintracering gebruiken via de ECID-bibliotheek. De ECID-bibliotheek moet op de pagina worden geïnstalleerd in combinatie met at.js 2.0 of hoger om interdomeintracering mogelijk te maken. [Experience Cloud ID-bibliotheek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) moet worden gebruikt.<br>Zie Ondersteuning voor  [interdomeintracering in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Doelondersteuning voor ITP 2.1 en ITP 2.2 van Apple via de Experience Cloud ID-bibliotheek 4.3 | Vandaag, kunnen de klanten van het Doel ITP 2.1 en ITP 2.2 van Apple verlichten door CNAME van Adobe certificatieprogramma leveraging.<br>Met deze release introduceert Target een naadloze integratie met de ECID-bibliotheek 4.3, die een servercookie gebruikt om ITP 2.1 en ITP 2.2 te beperken. Het wordt ten zeerste aanbevolen dat doelklanten  [ECID-bibliotheek 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in combinatie met de JavaScript-bibliotheek van Target implementeren om toekomstige ITP-releases te beperken. De ECID-bibliotheek blijft verbeterde functies implementeren die een robuuste oplossing bieden voor het voortdurend veranderende beleid van cookies dat door browsers wordt geïntroduceerd.<br>Zie  [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+| Doelondersteuning voor ITP 2.1 en ITP 2.2 van Apple via de Experience Cloud ID-bibliotheek 4.3 | Vandaag, kunnen de klanten van het Doel Apple ITP 2.1 en ITP 2.2 verlichten door het certificatieprogramma van CNAME van Adobe te leveraging.<br>Met deze release introduceert Target een naadloze integratie met de ECID-bibliotheek 4.3, die een servercookie gebruikt om ITP 2.1 en ITP 2.2 te beperken. Het wordt ten zeerste aanbevolen dat doelklanten  [ECID-bibliotheek 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in combinatie met de JavaScript-bibliotheek van Target implementeren om toekomstige ITP-releases te beperken. De ECID-bibliotheek blijft verbeterde functies implementeren die een robuuste oplossing bieden voor het voortdurend veranderende beleid van cookies dat door browsers wordt geïntroduceerd.<br>Zie  [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
 **Verbeteringen, correcties en wijzigingen**
 
@@ -561,7 +578,7 @@ Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringe
 * Probleem verholpen waarbij klikken-volgen over meerdere ervaringen ertoe leidde dat het programma niet naar behoren functioneerde. (TNT-32644)
 * Probleem verholpen waardoor at.js de tweede metrische waarde niet kon toepassen na het renderen van de eerste metrische waarde. (TNT-32628)
 * Probleem verholpen bij het doorgeven van `mboxThirdPartyId` met behulp van de functie `targetPageParams` die ervoor zorgde dat de lading van de verzoeklading niet in of de vraagparameters of in de verzoeklading aanwezig was. (TNT-32613)
-* Probleem verholpen waarbij weergave- en berichtreacties werden geblokkeerd in op Chromium gebaseerde browsers (inclusief Google Chrome). (TNT-32290)
+* Probleem verholpen waardoor de weergave werd geblokkeerd en op reacties op meldingen werd geklikt in browsers op basis van chroom (inclusief Google Chrome). (TNT-32290)
 
 Voor informatie over dit en vorige versies van at.js, zie [at.js versiedetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -577,7 +594,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 | Single Page App Visual Experience Composer (SPA VEC) | **Workflow** met instructies: Een nieuwe geleide werkstroom helpt u begrijpen hoe pagina-levering-regel montages zou moeten worden gevormd om een activiteit voor uw Enige Pagina App met succes uit te voeren en in werking te stellen. (TGT-33718)<br> Zie [App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Kloonwijzigingen**: U kunt nu een wijziging definiëren met de SPA VEC en die wijziging vervolgens klonen voor gebruik in andere weergaven in de app voor één pagina. (TGT-33882)<br>Zie [App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
 | ![Premium-](/help/assets/premium.png) badgeAutomated Personalization (AP) en Auto-Target | **Specifieke ervaring als controle**: U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een AP of een auto-Doel activiteit. Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren. De huidige controleoptie (willekeurig bediende ervaringen) zal beschikbaar blijven. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Zie [Selecteer het besturingselement voor uw Automated Personalization- of Auto-Target-activiteit](/help/c-activities/t-automated-personalization/experience-as-control.md). Merk op dat er [huidige bekende kwestie](/help/r-release-notes/known-issues-resolved-issues.md) met deze eigenschap is.<br>**Persoonlijkheidsgegevens**: De markeringsvriendelijke naamgeving voor kenmerken wanneer een bezoeker een bepaald stuk inhoud op een specifieke locatie ziet, levert zinvollere informatie op. (TGT-33421 &amp; TGT-34957)<br>Zie [Gegevensverzameling voor de doelverpersoonlijkingsalgoritmen](/help/c-activities/t-automated-personalization/ap-data.md). |
 | ![Premium ](/help/assets/premium.png) badgeRecommendations | U kunt de optie Aanbevolen eerder aangeschafte items gebruiken tijdens het maken van de logica Onlangs bekeken items. (TGT-34030)<br>Raadpleeg [Onlangs bekeken items](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in &quot;Criteria maken&quot; voor meer informatie. |
-| Google Chrome SameSite-cookiebeleid | Google heeft onlangs aangekondigd dat ontwikkelaars vanaf Chrome 76, die is gepland voor een release van 30 juli 2019, expliciet moeten opgeven welke cookies op verschillende websites kunnen werken en welke cookies gebruikers kunnen volgen.<br>Aangezien de industrie streeft naar het creëren van een veiliger web voor consumenten, is Target absoluut geëngageerd om persoonlijke ervaringen te leveren terwijl aan de privacyverwachtingen van bezoekers wordt voldaan en deze wordt overschreden.<br>Zie  [Google Chrome SameSite cookie policies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+| Beleid voor cookies van Google Chrome SameSite | Google heeft onlangs aangekondigd dat ontwikkelaars vanaf Chrome 76, die is gepland voor een release van 30 juli 2019, expliciet moeten opgeven welke cookies op verschillende websites kunnen werken en welke cookies gebruikers kunnen volgen.<br>Aangezien de industrie streeft naar het creëren van een veiliger web voor consumenten, is Target absoluut geëngageerd om persoonlijke ervaringen te leveren terwijl aan de privacyverwachtingen van bezoekers wordt voldaan en deze wordt overschreden.<br>Zie  [Google Chrome SameSite cookie policies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
 
 ### at.js versie 2.1.0 (3 juni 2019) {#atjs-210}
 
@@ -616,7 +633,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] | De [!UICONTROL Visual Experience Composer] (VEC) bevat de volgende verbeteringen om uw werk sneller en efficiënter te maken:<ul><li>De DOM-padfunctie is nu beschikbaar wanneer u klikt op bijhouden.<br>Zie  [Klikken op bijhouden](/help/c-activities/r-success-metrics/click-tracking.md#considerations) voor meer informatie.</li><li>In het deelvenster Stijlen kunt u de waarde van bestaande stijlen voor het geselecteerde element weergeven of bewerken. U kunt ook extra stijlen toevoegen.<br>U opent het deelvenster Stijlen door in de VEC op een pagina-element te klikken en vervolgens op  [!UICONTROL Edit] >  [!UICONTROL Styles].<br>Het deelvenster Stijlen wordt rechts van de VEC weergegeven. Het deelvenster bevat een lijst met stijlen waarmee u het geselecteerde element kunt bewerken of uitbreiden. Met een real-time CSS-editor kunt u wijzigingen weergeven en stijlen toevoegen als u dit comfortabel vindt met CSS (Cascading Style Sheets) of als u code van uw ontwikkelaar ontvangt.<br>Voor meer informatie, zie  [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) Stylesin de Opties *van de Composer van de* Visuele Ervaring.</li><li>De Rich Text Editor ondersteunt nu geneste HTML5-elementen.<br>HTML5-specificaties staan nieuwe combinaties van tags voor nesten toe. In de vorige versie van de RTF-editor werd het nesten van tags niet ondersteund, zoals is toegestaan door de HTML5-specificatie. Dientengevolge, werden om het even welke genestelde die elementen in VEC werden geselecteerd niet behoorlijk behandeld, die tot ongewenste HTML- veranderingen leidden. (TGT-33618)<br>Zie [Tekst/HTML bewerken](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in *Opties voor Visual Experience Composer* voor meer informatie.</li> |
+| [!UICONTROL Visual Experience Composer] | De [!UICONTROL Visual Experience Composer] (VEC) bevat de volgende verbeteringen om uw werk sneller en efficiënter te maken:<ul><li>De DOM-padfunctie is nu beschikbaar wanneer u klikt op bijhouden.<br>Zie  [Klikken op bijhouden](/help/c-activities/r-success-metrics/click-tracking.md#considerations) voor meer informatie.</li><li>In het deelvenster Stijlen kunt u de waarde van bestaande stijlen voor het geselecteerde element weergeven of bewerken. U kunt ook extra stijlen toevoegen.<br>U opent het deelvenster Stijlen door in de VEC op een pagina-element te klikken en vervolgens op  [!UICONTROL Edit] >  [!UICONTROL Styles].<br>Het deelvenster Stijlen wordt rechts van de VEC weergegeven. Het deelvenster bevat een lijst met stijlen waarmee u het geselecteerde element kunt bewerken of uitbreiden. Met een real-time CSS-editor kunt u wijzigingen weergeven en stijlen toevoegen als u dit comfortabel vindt met CSS (Cascading Style Sheets) of als u code van uw ontwikkelaar ontvangt.<br>Voor meer informatie, zie  [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) Stylesin de Opties *van de Composer van de* Visuele Ervaring.</li><li>De rijke Redacteur van de Tekst steunt nu genestelde HTML5 elementen.<br>HTML5-specificaties maken nieuwe combinaties van tags voor nesten mogelijk. De vorige versie van de rijke teksteditor ondersteunt geen nieuwe nesting van tags, zoals is toegestaan door de HTML5-specificatie. Dientengevolge, werden om het even welke genestelde die elementen in VEC werden geselecteerd niet behoorlijk behandeld, die tot ongewenste HTML veranderingen leidden. (TGT-33618)<br>Zie [Tekst/HTML bewerken](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in *Opties voor Visual Experience Composer* voor meer informatie.</li> |
 
 #### Verbeteringen, correcties en wijzigingen
 
@@ -693,13 +710,13 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 | Functie/verbetering | Beschrijving |
 | --- | --- |
 | Single Page App Visual Experience Composer | Met Visual Experience Composer (VEC) voor Single Page Apps (SPA) kunnen marketers tests maken en inhoud personaliseren op SPA op een doe-het-zelfmanier zonder voortdurende ontwikkelingsafhankelijkheden. VEC kan worden gebruikt om activiteiten op populaire kaders, zoals React en Angular tot stand te brengen. (TGT-27916)<br>Zie [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) en [Integratie van één pagina-toepassing](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) voor meer informatie.<br>Naast het bovenstaande artikel zijn er veel onderwerpen die te maken hebben met SPA en at.js die betrekking hebben op deze functie en hoe deze te implementeren. Zie [Documentatiewijzigingen](/help/r-release-notes/doc-change.md) voor meer informatie. |
-| Visual Experience Composer | Visual Experience Composer (VEC) omvat de volgende verhogingen om uw werk sneller en efficiënter te maken:<ul><li>U kunt nu de opties Invoegen voor en Invoegen na in de VEC gebruiken terwijl u [AEM ervaringsfragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) invoegt. Zie [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>Met de extensie [!DNL Adobe Target] VEC Helper browser voor Google Chrome kunt u websites betrouwbaar laden binnen de VEC om snel een auteur en QA-webbeleving te maken. Zie [De helperuitbreiding van de Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
+| Visual Experience Composer | Visual Experience Composer (VEC) omvat de volgende verhogingen om uw werk sneller en efficiënter te maken:<ul><li>U kunt nu de opties Invoegen voor en Invoegen na in de VEC gebruiken terwijl u [AEM ervaringsfragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) invoegt. Zie [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>Met de extensie [!DNL Adobe Target] VEC Helper browser voor Google Chrome kunt u websites betrouwbaar laden binnen de VEC om snel een auteur en QA-webbeleving te kunnen maken. Zie [De helperuitbreiding van de Composer van de Visuele Ervaring](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
 | ![Premium ](/help/assets/premium.png)<br>badgeRecommendations in  [!UICONTROL A/B Test] en  [!UICONTROL Experience Targeting] activiteiten | U kunt nu aanbevelingen opnemen in [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten. Dit opent volledig nieuwe mogelijkheden, zoals:<ul><li>Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.</li><li>Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.</li><li>Druk automatisch het verkeer naar de best-presterende aanbevelingen ervaring gebruikend [!UICONTROL Auto-Allocate].</li><li>Wijs bezoekers met behulp van [!UICONTROL Auto-Target] dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun individuele profielen.</li></ul>Als u aan de slag wilt gaan, maakt u een [!UICONTROL A/B Test]- of [!UICONTROL Experience Targeting]-activiteit met behulp van de VEC en gebruikt u de handeling [!UICONTROL Insert Before], [!UICONTROL Insert After] of [!UICONTROL Replace With] om aanbevelingen aan een ervaring toe te voegen. (RECS-6166)<br>Zie [Recommendations als een aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) voor meer informatie. |
 | ![Premium-](/help/assets/premium.png)<br>badgeEnterprise-machtigingen in doel-API&#39;s | [Adobe Target Admin ](https://developers.adobetarget.com/api/#admin-apis) APIs zal nu volledig profiteren van de zelfde mogelijkheden van de Toestemmingen van de Onderneming die in de Doel UI worden gevonden. Vanaf **21 februari 2019** kunnen systeembeheerders via programmacode toegang krijgen tot rapportgegevens en activiteiten, aanbiedingen en publiek binnen elke werkruimte maken en beheren. Deze acties waren voorheen beperkt tot de standaardwerkruimte. De ondersteuning van Automated Personalization-activiteiten (AP) zal in een toekomstige release plaatsvinden.<br>**Opmerking:** er is een  [bekend ](/help/r-release-notes/known-issues-resolved-issues.md#api) probleem met deze functionaliteit. |
 
 **Verbeteringen, correcties en wijzigingen**
 
-* Om de beveiliging te verbeteren, voorkomt [!DNL Target] nu dat eindpunten van metagegevens van Amazon Web Services (AWS) worden geopend tijdens het laden van de VEC. (TGT-33129)
+* Om de beveiliging te verbeteren, voorkomt [!DNL Target] nu dat eindpunten van Amazon Web Services-metagegevens (AWS) worden geopend tijdens het laden van de VEC. (TGT-33129)
 
 ### Wijzigingen in Platform (januari 2019) {#platform-19-1-previous}
 
@@ -707,7 +724,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 | --- | --- |
 | Targeting<br>25 januari 2019 | Wijzigingen aangebracht in de manier waarop &#39;target&#39; overeenkomt met functie voor &#39;equals&#39;-vergelijkingen met niet-decimale en decimale waarden die worden geretourneerd door profielscripts of een andere invoerbron, zoals mbox-parameters, profielparameters, enz.<br>Zie  [Veelgestelde vragen over doelen en ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) soorten publiek voor meer informatie. |
 | Profielscripts<br>17 januari 2019 | Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.<br>Als de geretourneerde waarde van een tekenreeks groter is dan 2048 tekens, wordt het script door het systeem uitgeschakeld.<br>Als voor een geretourneerde waarde van een array de grootte van de samengevoegde waarden van de array groter is dan 2048 tekens, wordt het script door het systeem uitgeschakeld.<br>Voor meer informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die activiteiten en andere elementen in Doel beïnvloeden, zie [Limieten](/help/r-troubleshooting-target/target-limits.md). |
-| te.js<br>16 januari 2019 | at.js 1.6.4 is een onderhoudsrelease en behandelt de volgende problemen:<ul><li>Probleem verholpen waarbij zich in Microsoft Internet Explorer 11 een zeldzame omstandigheid manifesteerde die dubbele aanbiedingen veroorzaakte die moesten worden toegepast. (TNT-31374)</li><li>Probleem verholpen dat invloed had op het bijhouden van klikken als er een standaardaanbieding is met een click-token en HTML-aanbiedingen. (TNT-31493)</li><li>Het mboxEdgeCluster-cookie is uitgebreid met elke doelaanvraag. Dit wordt alleen gebruikt wanneer mboxEdgeOverride is ingeschakeld. (TNT-31485)</li></ul> |
+| te.js<br>16 januari 2019 | at.js 1.6.4 is een onderhoudsrelease en behandelt de volgende problemen:<ul><li>Probleem verholpen waarbij zich in Microsoft Internet Explorer 11 een zeldzame omstandigheid manifesteerde die dubbele aanbiedingen tot gevolg had. (TNT-31374)</li><li>Probleem verholpen dat invloed had op het bijhouden van klikken als er een standaardaanbieding is met een click-token en HTML-aanbiedingen. (TNT-31493)</li><li>Het mboxEdgeCluster-cookie is uitgebreid met elke doelaanvraag. Dit wordt alleen gebruikt wanneer mboxEdgeOverride is ingeschakeld. (TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1 (22 januari 2019) {#release-19-1-1-previous}
 
@@ -866,7 +883,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Wij hebben <span class="wintitle"> Tussenvoegsel vóór </span> actie aan (VEC) toegevoegd. Dit is gelijkaardig aan eerder bestaand <span class="wintitle"> Tussenvoegsel na </span> optie. Wanneer u een element op de pagina selecteert, kunt u <span class="wintitle"> Tussenvoegsel vóór </span> klikken en kiezen of u een beeld, HTML, of tekst wilt opnemen. Het ingevoegde element wordt vóór het geselecteerde element weergegeven. (TGT-30473) Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Wij hebben <span class="wintitle"> Tussenvoegsel vóór </span> actie aan (VEC) toegevoegd. Dit is gelijkaardig aan eerder bestaand <span class="wintitle"> Tussenvoegsel na </span> optie. Wanneer u een element op de pagina selecteert, kunt u <span class="wintitle"> Invoegen voor </span> klikken en kiezen of u een afbeelding, HTML of tekst wilt invoegen. Het ingevoegde element wordt vóór het geselecteerde element weergegeven. (TGT-30473) Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1004,7 +1021,7 @@ Deze [!DNL Target]-release bevat de volgende verbeteringen, correcties en wijzig
       <li id="li_2DC17381CB7949AFA35B054B9CA723FA"> <p>De details van de <span class="codeph"> op verzoek-volgde </span> gebeurtenis bevatten de omleidingsvlag. Met deze markering kunt u bepalen of de pagina wordt omgeleid naar een andere URL. Als u de URL wilt weten, meldt u zich aan <span class="codeph"> at-content-rendering-redirect </span>. (TNT-29834) </p> </li> 
       <li id="li_2852878862724BB2BD475C8FC7BF20DA"> <p>Probleem verholpen waarbij <span class="codeph"> window.targetGlobalSettings.enabled </span> mislukte met een runtime-uitzondering als deze op false was ingesteld. (TNT-29829) </p> </li> 
       <li id="li_96E5E409B36444F1B0E3E2606DC03996"> <p>Probleem verholpen die ertoe leidde dat de pagina mislukte tijdens het laden in Visual Experience Composer (VEC) als het gebruiken van douanecode aan een brand globale mbox verzoek en het gebruiken van lichaam het verbergen. (TNT-29795) </p> </li> 
-      <li id="li_818AA4EDDAC04D8B9BB4BA708D6BEF99"> <p>Toegevoegde ondersteuning voor <span class="codeph"> screenOrientation </span>, <span class="codeph"> devicePixelRatio </span> en <span class="codeph"> webGLRenderer </span>. Deze nieuwe parameters voor doelverzoeken worden gebruikt voor iPhone X en andere moderne apparaatdetectie. Zie <a href="/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> Mobiel </a> voor meer informatie. (TNT-29781) </p> </li> 
+      <li id="li_818AA4EDDAC04D8B9BB4BA708D6BEF99"> <p>Toegevoegde ondersteuning voor <span class="codeph"> screenOrientation </span>, <span class="codeph"> devicePixelRatio </span> en <span class="codeph"> webGLRenderer </span>. Deze nieuwe parameters van het Verzoek van het Doel worden gebruikt voor iPhone X en andere moderne apparatenopsporing. Zie <a href="/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> Mobiel </a> voor meer informatie. (TNT-29781) </p> </li> 
       <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Probleem verholpen waarbij de locatie-hint van de Adobe Audience Manager (AAM) niet altijd werd verzonden. (TNT-29695) </p> </li> 
       <li id="li_E9E5A5035AC24F54ADEF5447E3F15D3B"> <p>Voor browsers die dit ondersteunen, schakelt at.js 1.5.0 over naar MutationObserver voor kiezersopiniepeiling. In versies vóór at.js 1.0.0 werd een MutationObserver-polyfill gebruikt, wat problematisch bleek te zijn. Om de polyfill problemen te voorkomen, gebruikt versie 1.5.0 de volgende pseudo-code om te bepalen welk planningsmechanisme moet worden gebruikt: </p> <p> 
         <code>
@@ -1033,7 +1050,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Wanneer u een actie in het paneel van Aanpassingen klikt, scrolt VEC automatisch de Web-pagina en het overeenkomstige element wordt benadrukt. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is beïnvloed. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
+   <td colname="col2"> <p>Wanneer u een actie in het paneel van Aanpassingen klikt, scrolt VEC automatisch de Web-pagina en het overeenkomstige element wordt benadrukt. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is gewijzigd. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ondersteunde browsers </p> </td> 
@@ -1577,7 +1594,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code-editor </p> </td> 
-   <td colname="col2"> <p>De op vorm-gebaseerde Composer van de Ervaring en de HTML biedt redacteur nu het zelfde coderedacteur aan die de Visuele Composer van de Ervaring (VEC) in douanecode gebruikt. (TGT-25808) </p> <p>Deze verbetering geeft u de volgende eigenschappen wanneer het gebruiken van de code redacteur in de Op vorm-gebaseerde Composer van de Ervaring en wanneer het creëren van HTML- aanbiedingen: </p> <p> 
+   <td colname="col2"> <p>De op vorm-gebaseerde Composer van de Ervaring en de HTML biedt redacteur nu de zelfde coderedacteur aan die Visual Experience Composer (VEC) in douanecode gebruikt. (TGT-25808) </p> <p>Deze verbetering geeft u de volgende eigenschappen wanneer het gebruiken van de code redacteur in de Op vorm-gebaseerde Composer van de Ervaring en wanneer het creëren van HTML aanbiedingen: </p> <p> 
      <ul id="ul_CBB17806FBF34774A8160A61204ED014"> 
       <li id="li_22665F583F1742E280D5BC7EC4203007"> <p>Regelnummers zijn nu zichtbaar voor betere bruikbaarheid. </p> </li> 
       <li id="li_B0D863CDAD2E46A4B133BB86886EB527"> <p>Met syntaxismarkering voorkomt u onjuiste syntaxis voor HTML-aanbiedingen. </p> </li> 
@@ -2741,7 +2758,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: </p> <p>Wijziging in algemene mbox-leveringscodering </p> </td> 
-   <td colname="col2"> <p>Bij het maken van een ontwerp is het nu de standaardinstelling om een HTML-ontwerp te plaatsen in een <span class="codeph"> &lt;div&gt; </span>-element. </p> <p>Zie <a href="/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Een ontwerp maken </a> voor informatie over het maken van een ontwerp. </p> </td> 
+   <td colname="col2"> <p>Bij het maken van een ontwerp is het nu de standaardinstelling om een HTML-ontwerp om te zetten in een <span class="codeph"> &lt;div&gt; </span>-element. </p> <p>Zie <a href="/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Een ontwerp maken </a> voor informatie over het maken van een ontwerp. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>LTV (Life Time Value) machine learningversterkingtechniek </p> </td> 
@@ -2918,8 +2935,8 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Met een kleurkiezer kunt u achtergrondkleuren instellen tijdens het bewerken van Automated Personalization- en multivariate-testactiviteiten. </p> <p>Deze functie was voorheen alleen beschikbaar voor activiteiten van A/B en Gericht op ervaring. </p> <p>Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> RTF- en HTML-bewerkingen in Visual Experience Composer voor MVT- en Automated Personalization-activiteiten </td> 
-   <td colname="col2"> <p> Tekst- en HTML-opmaak in een tekstverwerker-achtig venster bij het bewerken van Automated Personalization en Multivariate Test-activiteiten. </p> <p> Deze functie was voorheen alleen beschikbaar voor activiteiten van A/B en Gericht op ervaring. </p> <p>Deze acties bieden mogelijkheden voor tekstbewerking door HTML-tags toe te voegen of stijlen toe te passen. Deze wijzigingen door de rijke tekstredacteur voor om het even welke actie kunnen in zijn bronmening worden gezien. Gebruikers kunnen op de knop HTML in de RTF-editor drukken om de bronweergave te bekijken. De stijlen die door de rijke redacteur worden toegevoegd kunnen zich met de stijlen van klantenwebsites mengen. In dit geval kunnen gebruikers naar de bronweergave gaan en de wijzigingen bewerken om deze uit te lijnen met de stijlen van hun websites. </p> <p>Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
+   <td colname="col1"> Rijke Tekst en HTML het uitgeven in Visual Experience Composer voor MVT en de activiteiten van Automated Personalization </td> 
+   <td colname="col2"> <p> Tekst- en HTML-opmaak in een tekstverwerker-achtig venster bij het bewerken van Automated Personalization en Multivariate Test-activiteiten. </p> <p> Deze functie was voorheen alleen beschikbaar voor activiteiten van A/B en Gericht op ervaring. </p> <p>Deze handelingen bieden bewerkingsmogelijkheden met tekstopmaak door HTML-tags toe te voegen of stijlen toe te passen. Deze wijzigingen door de rijke tekstredacteur voor om het even welke actie kunnen in zijn bronmening worden gezien. Gebruikers kunnen op de knop HTML in de RTF-editor drukken om de bronweergave te bekijken. De stijlen die door de rijke redacteur worden toegevoegd kunnen zich met de stijlen van klantenwebsites mengen. In dit geval kunnen gebruikers naar de bronweergave gaan en de wijzigingen bewerken om deze uit te lijnen met de stijlen van hun websites. </p> <p>Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Formuliergebaseerde aanbevelingen </p> </td> 
@@ -2998,7 +3015,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Rijke tekst en HTML-bewerking in Visual Experience Composer </td> 
-   <td colname="col2"> <p>De het formatteren van de tekst opties zijn beschikbaar wanneer het uitgeven van tekst en HTML voor A/B en de Gerichte Ervaring activiteiten in Visual Experience Composer. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Bij het wijzigen van HTML kunt u schakelen tussen de codeweergave en de rijke-bewerkingsweergave van de HTML. </p> <p>Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>De het formatteren van de tekst opties zijn beschikbaar wanneer het uitgeven van tekst en HTML voor A/B en Ervaring gerichte activiteiten in de Composer van de Visuele Ervaring. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Wanneer u HTML wijzigt, kunt u schakelen tussen de codeweergave en de rijke bewerkingsweergave van de HTML. </p> <p>Zie <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Achtergrondkleur selecteren in Visual Experience Composer </td> 
@@ -3394,7 +3411,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze release bevat de volgende verbeteringen:
 
 * De overzichtspagina toont het activiteitendoel.
-* Er wordt een waarschuwing weergegeven wanneer JavaScript wordt ingevoerd in het HTML-bewerkingsvak.
+* Er wordt een waarschuwing weergegeven wanneer JavaScript wordt ingevoerd in het bewerkingsvak HTML.
 
 ### Adobe [!DNL Target] 14.9.1 (19 september 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
@@ -3404,14 +3421,14 @@ Deze release bevat de volgende functies en verbeteringen:
 |---|---|
 | Invoegen en bewerken van JavaScript toestaan | De mogelijkheid om aangepaste JavaScript te bewerken en te injecteren in de ervaringseditor is toegevoegd wanneer u **[!UICONTROL Edit HTML]** kiest in het menu Handelingen. |
 | Automatisch publiek importeren | Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer een gebruiker de lijst met doelgroepen opent en het geïmporteerde publiek langer dan 10 minuten oud is. |
-| Grotere grootte van HTML-aanbiedingen dan kan worden gesynchroniseerd met [!DNL Target Classic] | De voormalige 64 kB-limiet is verhoogd tot 256 kB. |
+| Grotere HTML-aanbiedingen dan kunnen worden gesynchroniseerd met [!DNL Target Classic] | De voormalige 64 kB-limiet is verhoogd tot 256 kB. |
 
 Deze release bevat de volgende oplossingen:
 
 * Probleem verholpen waarbij videovoorstellen niet correct werden geleverd op Firefox.
 * Probleem verholpen waardoor een ongedaan maken van het bewerken van een koppeling niet kon worden weergegeven als ongedaan gemaakt in de composer voor visuele ervaring.
 * Probleem verholpen in de ervaringseditor van Automated Personalization die ertoe leidde dat een gewijzigd videoaanbod niet zo veranderde werd weergegeven.
-* Correctie van een fout die ervoor zorgde dat de botsingspagina van een activiteit in Google Chrome als lege pagina werd getoond.
+* Probleem verholpen waarbij de botsingspagina van een activiteit als een lege pagina in Google Chrome werd weergegeven.
 
 ### Adobe [!DNL Target] 14.8.1 (21 augustus 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
@@ -3419,7 +3436,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 |---|---|
-| Verbeterde synchronisatie van HTML-aanbiedingen met [!DNL Target Classic] door de tekenlimiet te verhogen | De tekenlimiet van een HTML-aanbieding die onder Inhoud is gemaakt, is verhoogd om deze uit te lijnen met de limiet van 256 kB voor HTML-aanbiedingen die zijn gesynchroniseerd met [!DNL Target Classic]. |
+| Verbeterde synchronisatie van HTML-aanbiedingen met [!DNL Target Classic] door de tekenlimiet te verhogen | Hiermee werd de tekenlimiet van een HTML-aanbieding bij Inhoud aangepast aan de limiet van 256 kB voor het aantal HTML-aanbiedingen dat is gesynchroniseerd met [!DNL Target Classic]. |
 | Verbeterde gebruikerservaring wanneer een fout wordt gecreeerd in de Redacteur van de Ervaring. | De Experience Editor geeft een bericht weer wanneer de wijzigingen in de DOM-structuur op de pagina de kiezers afbreekt. |
 
 **Oplossingen**
@@ -3481,7 +3498,7 @@ Deze release bevat de volgende nieuwe functies:
 * Probleem verholpen waarbij het publiek voor een ervaring niet werd weergegeven in rapporten.
 * Probleem verholpen waarbij overeenkomende metrische lijsten in [!DNL Target] en [!DNL Analytics] niet konden worden gevonden.
 
-* Probleem verholpen waarbij gebruikers hun globale box konden opgeven als een box die wordt gebruikt om HTML-inhoud te leveren door [!DNL Target Standard]. Het gebruik van de globale box op die manier heeft een negatief effect op de levering van inhoud en op de mogelijkheid van [!DNL Target Classic] om meerdere campagnes op één pagina in één aanvraag te leveren.
+* Probleem verholpen waarbij gebruikers hun globale box konden opgeven als een mbox die wordt gebruikt om HTML-inhoud te leveren tegen [!DNL Target Standard]. Het gebruik van de globale box op die manier heeft een negatief effect op de levering van inhoud en op de mogelijkheid van [!DNL Target Classic] om meerdere campagnes op één pagina in één aanvraag te leveren.
 
 * Probleem verholpen waarbij de weergave van verwijderde items werd voortgezet.
 
@@ -3685,7 +3702,7 @@ Er zijn vier bekende problemen met deze release. Deze problemen worden in een vo
 * Op sommige clusters wordt het bewerken van een herbruikbare aanbieding mogelijk niet weerspiegeld op de locatie van de klant voor activiteiten die buiten een box worden aangeboden.
 * Als u afbeeldingen omwisselt in een gebied van een pagina die niet door een box wordt beheerd, treedt mogelijk een fout van 404 op.
 * Wanneer u een nieuw publiek maakt of een bestaand publiek bewerkt en opslaat, wordt dit pas weergegeven in de lijst Soorten publiek als u het scherm vernieuwt of naar het publiek zoekt.
-* Als u een HTML-aanbieding verwijdert uit de Target Standard, wordt deze niet verwijderd uit de Target Advanced.
+* Wanneer u een aanbieding van de HTML van de Norm van het Doel schrapt, wordt het niet geschrapt van Target Advanced.
 
 Deze release bevat de volgende correcties en verbeteringen:
 
@@ -3709,7 +3726,7 @@ Deze release bevat de volgende correcties en verbeteringen:
 * Probleem verholpen dat onnauwkeurige bezoekersgegevens veroorzaakte wanneer een bezoeker meerdere ervaringen bekijkt.
 * De begin- en eindtijd van de activiteit synchroniseren nu correct tussen Standaard en Geavanceerd.
 * De weergave van gemengde inhoud is verbeterd.
-* Probleem verholpen waardoor de composer voor visuele ervaring niet goed functioneerde als JavaScript in de HTML-code de browserdefinitie van het JSON-object overschrijft.
+* Probleem verholpen waarbij de Visual Experience Composer niet goed functioneerde als JavaScript in de HTML-code de browserdefinitie van het JSON-object overschrijft.
 * Probleem verholpen waarbij het weergegeven aantal activiteiten onjuist was tijdens het sorteren op status.
 * Probleem verholpen waarbij witruimte in het veld Doel niet correct werd gevalideerd.
 * Probleem verholpen waarbij meerdere aanbiedingen voor één functie werden gemaakt in Geavanceerd toen de afbeelding werd gewisseld.
