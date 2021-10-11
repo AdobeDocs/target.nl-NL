@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 11 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de Target Standard/Premium versie 21.10.2 (13 oktober 2021). |
 | 6 oktober | [Stimuleer publiek in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Bijgewerkte tekst en afbeeldingen die de bijgewerkte gebruikersinterface [!DNL Target] [!UICONTROL Audiences] weerspiegelen. Vergelijkbare wijzigingen zijn doorgevoerd in de [!UICONTROL Audiences]-onderwerpen. |
 |  | [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | De volgende secties zijn bijgewerkt:<ul><li>Basisinformatie</li><li>Gegevensbron</li></ul> |
 |  | [Aangepaste criteria uploaden](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Bijgewerkte instructies voor de nieuwe workflow. |
