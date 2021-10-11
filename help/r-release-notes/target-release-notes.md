@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: bd7032b915bf1b333fa5cc3cb4825eaa7e4f83fb
+source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 6 oktober 2021**
+**Laatst bijgewerkt: 11 oktober 2021**
 
 Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
 
@@ -25,16 +25,37 @@ Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de hu
 >
 >Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.1 (6 oktober 2021)
+## [!DNL Target Standard/Premium] 21.10.2 (13 oktober 2021)
 
-Deze release bevat de volgende nieuwe functies:
+De volgende verbeteringen zijn toegevoegd bij het gebruik van [!DNL Target] [!UICONTROL Audiences] met [!DNL Adobe Experience Platform Web SDK]:
 
-| Functie | Details |
-| --- | --- |
-| [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van de voortdurende inspanningen van het [!DNL Adobe Target]-team om de gebruikerservaring voor [!DNL Target]-gebruikers te verbeteren, vernieuwt deze release de [!UICONTROL Audiences]- en [!UICONTROL Profile Scripts]-pagina&#39;s in de [!DNL Target]-interface. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp voor publieksbuilder](/help/c-target/c-audiences/create-audience.md)</li><li>De regelsteun van de uitsluiting in [!UICONTROL Audience] de bouwer van de bibliotheekregel</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li></ul>Zie [Soorten publiek](/help/c-target/target.md) voor meer informatie.<br>**Opmerking**: De volgende week worden de nieuwe  [!UICONTROL Audiences] en de  [!UICONTROL Profile Scripts] gebruikersinterface geïmplementeerd voor alle regio&#39;s. |
-| [!UICONTROL Profile Scripts] UI vernieuwen | De bibliotheek [!UICONTROL Profile Scripts] is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>De mogelijkheid om meerdere profielscripts tegelijk te selecteren en te verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie [Bezoekersprofielen](/help/c-target/c-visitor-profile/visitor-profile.md) voor meer informatie.<br>**Opmerking**: De volgende week worden de nieuwe  [!UICONTROL Audiences] en de  [!UICONTROL Profile Scripts] gebruikersinterface geïmplementeerd voor alle regio&#39;s. |
-| ![Criteria voor ](/help/assets/premium.png) het maken en bewerken van premiumbadgeRecommendations | De workflow voor het maken en bewerken van [!UICONTROL Recommendations Criteria] is gestroomlijnd en eenvoudiger om het juiste algoritme en de juiste instellingen voor aanbevelingen te kiezen om uw doelen te bereiken.<br>Zie  [Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md) maken voor meer informatie. |
-| ![Premium ](/help/assets/premium.png) badgeRecommendations lookback window en algoritme verfrissen tariefverbeteringen | U kunt de algoritmen &quot;Meest bekeken&quot; en &quot;Hoogste verkopers&quot; nu uitvoeren met een terugkijkvenster van zes uur om de inhoud vast te leggen die het laatst wordt doorzocht. Wanneer het terugkijkvenster van zes uur wordt geselecteerd, worden uw aanbevelingen resultaten bijgewerkt om de 3-6 uur door de dag.<br>Zie  [Gegevensbron in criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)   ** maken voor meer informatie. |
+* Toegevoegde waarschuwingspictogrammen, popovers, en berichten op diverse plaatsen in [!DNL Target] UI om erop te wijzen dat het publiek bij de bron werd geschrapt en niet meer voor gebruik in [!DNL Target] activiteiten beschikbaar is.
+
+   In de volgende afbeeldingen ziet u een aantal plaatsen waar de pictogrammen, popovers en berichten worden weergegeven:
+
+   * [!UICONTROL Activity] lijstpagina
+
+      ![Publiek verwijderd bij bronbericht op pagina Activiteiten](assets/deleted-at-source-audiences-list.png)
+
+   * Pagina&#39;s van activiteit [!UICONTROL Overview]:
+
+      ![Publiek verwijderd bij bronbericht op overzichtspagina](assets/deleted-at-source-overview.png)
+
+   * [!UICONTROL Experiences] stap van de workflow voor het maken van activiteiten:
+
+      ![Publiek verwijderd bij bronbericht op  [!UICONTROL Experiences] pagina](assets/deleted-at-source-experiences.png)
+
+   * [!UICONTROL Targeting] stap van de workflow voor het maken van activiteiten:
+
+      ![Publiek verwijderd bij bronbericht op  [!UICONTROL Targeting] pagina](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL Goals & Settings] stap van de workflow voor het maken van activiteiten:
+
+      ![Publiek verwijderd bij bronbericht op de  [!UICONTROL Goals & Settings] pagina](assets/deleted-at-source-goals-settings.png)
+
+   * Poortverfijningen ([!UICONTROL Replace Audience] in de stap [!UICONTROL Targeting] van de workflow voor het maken van activiteiten):
+
+* Als u de functie Soorten publiek combineren probeert te gebruiken en een van de soorten publiek bij de bron is verwijderd, wordt [!UICONTROL Save] uitgeschakeld.
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
