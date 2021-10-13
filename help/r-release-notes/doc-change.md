@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
+source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 13 oktober | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.10.2. | Informatie toegevoegd over de [!DNL Target Standard/Premium] release 21.10.2 (13 oktober 2021). |
 | 11 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de Target Standard/Premium versie 21.10.2 (13 oktober 2021). |
 | 6 oktober | [Stimuleer publiek in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Bijgewerkte tekst en afbeeldingen die de bijgewerkte gebruikersinterface [!DNL Target] [!UICONTROL Audiences] weerspiegelen. Vergelijkbare wijzigingen zijn doorgevoerd in de [!UICONTROL Audiences]-onderwerpen. |
 |  | [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | De volgende secties zijn bijgewerkt:<ul><li>Basisinformatie</li><li>Gegevensbron</li></ul> |
