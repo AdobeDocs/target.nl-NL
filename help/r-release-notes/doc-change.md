@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de A
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 oktober | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Kan ik een binomiale [!DNL Analytics] metrisch met een segment gebruiken dat als optimaliserend doel in een [!UICONTROL Auto-Allocate] activiteit wordt toegepast?&quot; |
 | 13 oktober | [Opmerkingen bij](/help/r-release-notes/release-notes.md) de release: 21.10.2. | Informatie toegevoegd over de [!DNL Target Standard/Premium] release 21.10.2 (13 oktober 2021). |
 | 11 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de Target Standard/Premium versie 21.10.2 (13 oktober 2021). |
 | 6 oktober | [Stimuleer publiek in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Bijgewerkte tekst en afbeeldingen die de bijgewerkte gebruikersinterface [!DNL Target] [!UICONTROL Audiences] weerspiegelen. Vergelijkbare wijzigingen zijn doorgevoerd in de [!UICONTROL Audiences]-onderwerpen. |
