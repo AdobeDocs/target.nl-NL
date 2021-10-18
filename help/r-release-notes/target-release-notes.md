@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -17,45 +17,23 @@ Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere inform
 
 **Laatst bijgewerkt: 11 oktober 2021**
 
-Zie [Opmerkingen bij de doelversie](release-notes.md) voor informatie over de huidige versie. De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik [!DNL Adobe].
+Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
 >[!IMPORTANT]
 >
->**mbox.js end-of-life**: Vanaf 31 maart 2021 wordt de bibliotheek mbox.js  [!DNL Adobe Target] niet meer ondersteund. Na 31 maart 2021 mislukken alle aanroepen van mbox.js op elegante wijze en worden deze van invloed op uw pagina&#39;s die [!DNL Target] activiteiten hebben die worden uitgevoerd door standaardinhoud te bedienen.
+>**mbox.js end-of-life**: Vanaf 31 maart 2021, [!DNL Adobe Target] ondersteunt de bibliotheek mbox.js niet meer. Na 31 maart 2021 mislukken alle aanroepen van mbox.js op elegante wijze en hebben deze invloed op uw pagina&#39;s die [!DNL Target] activiteiten die worden uitgevoerd door het bedienen van standaardinhoud.
 >
->Migreer naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js om mogelijke problemen met uw sites te voorkomen. Voor meer informatie, zie [Overzicht: Implementeer Doel voor client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Als u potentiële problemen met uw sites wilt voorkomen, migreert u naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js. Zie voor meer informatie [Overzicht: Doel voor client-side web implementeren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.2 (13 oktober 2021)
+## [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
 
-De volgende verbeteringen zijn toegevoegd bij het gebruik van [!DNL Target] [!UICONTROL Audiences] met [!DNL Adobe Experience Platform Web SDK]:
+Deze onderhoudrelease bevat de volgende verbeteringen, correcties en wijzigingen:
 
-* Toegevoegde waarschuwingspictogrammen, popovers, en berichten op diverse plaatsen in [!DNL Target] UI om erop te wijzen dat het publiek bij de bron werd geschrapt en niet meer voor gebruik in [!DNL Target] activiteiten beschikbaar is.
-
-   In de volgende afbeeldingen ziet u een aantal plaatsen waar de pictogrammen, popovers en berichten worden weergegeven:
-
-   * [!UICONTROL Activity] lijstpagina
-
-      ![Publiek verwijderd bij bronbericht op pagina Activiteiten](assets/deleted-at-source-audiences-list.png)
-
-   * Pagina&#39;s van activiteit [!UICONTROL Overview]:
-
-      ![Publiek verwijderd bij bronbericht op overzichtspagina](assets/deleted-at-source-overview.png)
-
-   * [!UICONTROL Experiences] stap van de workflow voor het maken van activiteiten:
-
-      ![Publiek verwijderd bij bronbericht op  [!UICONTROL Experiences] pagina](assets/deleted-at-source-experiences.png)
-
-   * [!UICONTROL Targeting] stap van de workflow voor het maken van activiteiten:
-
-      ![Publiek verwijderd bij bronbericht op  [!UICONTROL Targeting] pagina](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Goals & Settings] stap van de workflow voor het maken van activiteiten:
-
-      ![Publiek verwijderd bij bronbericht op de  [!UICONTROL Goals & Settings] pagina](assets/deleted-at-source-goals-settings.png)
-
-   * Poortverfijningen ([!UICONTROL Replace Audience] in de stap [!UICONTROL Targeting] van de workflow voor het maken van activiteiten):
-
-* Als u de functie Soorten publiek combineren probeert te gebruiken en een van de soorten publiek bij de bron is verwijderd, wordt [!UICONTROL Save] uitgeschakeld.
+* Opgeloste problemen waardoor klanten de [!UICONTROL A4T] in [!DNL Analysis Workspace] door op de knop [!UICONTROL View in Analytics] knop in [!DNL Target] activiteitenrapportage. (TGT-42099, TGT-42100)
+* Het probleem dat de oorzaak was van de [!UICONTROL Edit Design] niet weergeven tijdens bewerken [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die de [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
+* Het probleem dat ervoor zorgde dat de [!UICONTROL Compatible] selectievakje van weergave in selectie criteria tijdens het maken van een nieuwe [!UICONTROL Recommendations] activiteit. (TGT-42053)
+* Probleem verholpen waarbij het foutbericht niet kon worden geselecteerd [!DNL Analytics] als rapportagebron (A4T) wegens gebrek aan [!DNL Analytics] machtigingen. (TGT-41954)
+* Geïmplementeerde veelvoudige toegankelijkheidsmoeilijke situaties om toetsenbordnavigatie over de [!DNL Target] UI.
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
