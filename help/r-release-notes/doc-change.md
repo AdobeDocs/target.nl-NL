@@ -4,7 +4,7 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 19 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.3 (19 oktober 2021). |
+| 19 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.3 (19 oktober 2021). |
 | 14 oktober | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Mag ik een binomiaal [!DNL Analytics] metrisch met een segment dat als optimaliserend doel in wordt toegepast [!UICONTROL Auto-Allocate] activiteit?&quot; |
 | 13 oktober | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.10.2. | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.2 (13 oktober 2021). |
 | 11 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de Target Standard/Premium versie 21.10.2 (13 oktober 2021). |
