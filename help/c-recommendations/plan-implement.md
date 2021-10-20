@@ -1,202 +1,126 @@
 ---
 keywords: Recommendations;instellingen;voorkeuren;industrie verticaal;filter incompatibele criteria;standaard hostgroep;thumb basis url;aanbevelingen api token
-description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Target. Zorg ervoor dat uw implementatie voldoet aan de vereiste vereisten. '
+description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Target. '
 title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
 
-# ![Recommendations ](/help/assets/premium.png) PREMIUMPlan en implementeren
+# ![PREMIUM](/help/assets/premium.png) Recommendations plannen en implementeren
 
-Wat je moet weten voordat je een Recommendations-activiteit maakt.
+Voordat u de eerste instelt [!DNL Recommendations] activiteit in [!DNL Adobe Target]Voer de volgende stappen uit:
 
-## Recommendations plannen en implementeren {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1}
-
-Wat u moet weten voordat u een [!DNL Recommendations]-activiteit maakt.
-
-[!DNL Recommendations] vereist dat u de volgende hiërarchie van informatie instelt:
-
-| Stap | Informatie | Details |
-|--- |--- |--- |
-| ![Stap 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-bibliotheek | Voor elke pagina is een verwijzing naar versie 0.js 0.9.1 (of hoger) of versie 55 (of hoger) van mbox.js vereist. Deze implementatiestap is vereist op alle pagina&#39;s waar een [!DNL Target] activiteit zal worden gebruikt, en kan sleutels zoals een product of een categorie ID omvatten. |
-| ![Stap 2](/help/c-recommendations/assets/step2_red.png) | Toetsen | De sleutel bepaalt het type product of inhoud dat in uw aanbevelingen wordt weergegeven. De sleutel kan bijvoorbeeld een productcategorie zijn. Zie [De aanbeveling baseren op een Sleutel van de Aanbeveling](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-| ![Stap 3](/help/c-recommendations/assets/step3_red.png) | Attributen | Kenmerken bieden specifiekere informatie over de producten die u wilt weergeven. U kunt bijvoorbeeld producten weergeven binnen een bepaald prijsbereik of objecten die aan een voorraaddrempel voldoen. Kenmerken kunnen worden opgegeven in de mbox of via een [feed](/help/c-recommendations/c-products/feeds.md).<br>Zie  [Opnameregels](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) opgeven. |
-| ![Stap 4](/help/c-recommendations/assets/step4_red.png) | Uitsluitingen | De uitsluitingen bepalen welke specifieke punten niet in uw aanbevelingen verschijnen.<br>Zie  [Uitsluitingen](/help/c-recommendations/c-products/exclusions.md). |
-| ![Stap 5](/help/c-recommendations/assets/step5_red.png) | Aankoopgegevens | De koopgegevens bevatten informatie over de aangeschafte objecten en de order wanneer de aankoop is voltooid. |
-
-## Basisimplementatie {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
-
-De basisimplementatie vereist dat u parameters aan uw pagina doorgeeft die bepalen welke producten of de diensten in uw aanbevelingen verschijnen.
-
-Voordat u begint met het instellen van een [!DNL Recommendations]-activiteit, dient u te begrijpen hoe productgegevens worden geleverd aan [!DNL Recommendations] en te beslissen welke methode het beste geschikt is voor uw behoeften.
-
-Er zijn twee methodes om informatie over producten en de diensten aan [!DNL Recommendations] te verstrekken:
-
-| Methode | Beschrijving |
+| Stap | Details |
 |--- |--- |
-| Parameters rechtstreeks aan de pagina doorgeven | Deze methode werkt goed voor items die vaak veranderen. Omdat het echter vereist dat wijzigingen rechtstreeks op de pagina worden aangebracht, moet deze methode in veel organisaties worden toegepast door de IT-afdeling en de personen die de pagina&#39;s implementeren. |
-| Parameters doorgeven via een Google- of CSV-feed | Deze methode werkt goed voor verzamelingen die niet vaak worden gewijzigd. Het is gewoonlijk niet nodig om uw implementatie of andere paginacode te veranderen om productinformatie door een voer te verstrekken. De productlijst blijft echter statisch, dus snelle wijzigingen zijn moeilijker. Zie [Feeds](/help/c-recommendations/c-products/feeds.md) voor meer informatie. |
+| ![Stap 1](/help/c-recommendations/assets/step1_red.png) | [Implementeren [!DNL Adobe Target]](#implement-target) op het web en in mobiele apps die u wilt gebruiken voor het vastleggen van gebruikersgedrag en het doen van aanbevelingen. |
+| ![Stap 2](/help/c-recommendations/assets/step2_red.png) | [Stel uw [!DNL Recommendations] catalogus](#rec-catalog) van producten of inhoud die u aan uw gebruikers wilt aanbevelen. |
+| ![Stap 3](/help/c-recommendations/assets/step3_red.png) | [Gedragsinformatie en context doorgeven](#pass-behavioral) tot [!DNL Adobe Target Recommendations] om het in staat te stellen gepersonaliseerde aanbevelingen te doen. |
+| ![Stap 4](/help/c-recommendations/assets/step4_red.png) | [Algemene uitsluitingen configureren](#exclusions). |
+| ![Stap 5](/help/c-recommendations/assets/step5_red.png) | [Configureren [!DNL Recommendations] instellingen](#concept_C1E1E2351413468692D6C21145EF0B84). |
 
-Deze methoden kunnen afzonderlijk of samen worden gebruikt, zoals in de volgende voorbeelden.
+## Adobe Target implementeren {#implement-target}
 
-## Voorbeeld één: Pagina en feeds combineren {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+[!DNL Target Recommendations] vereist dat u de [!DNL Adobe Experience Platform Web SDK] of om 0.js 0.9.2 (of later). Zie [Doel implementeren](/help/c-implementing-target/implementing-target.md) voor meer informatie .
 
-Één gemeenschappelijke [!DNL Recommendations] implementatieoptie gebruikt zowel paginaparameters als voer.
+## Een Recommendations-catalogus instellen {#rec-catalog}
 
-Deze methode kan de voorkeur krijgen van een detailhandelaar die een relatief vastgestelde productcatalogus heeft, maar die wellicht specifieke seizoensgebonden artikelen of objecten die te koop zijn, wil benadrukken. De meeste klanten kunnen hun informatie hoofdzakelijk door het voer, met slechts af en toe aanpassingen op de pagina verstrekken.
+Om aanbevelingen van hoge kwaliteit te doen, [!DNL Target] moet weten welke producten of inhoud u wilt aanbevelen. De catalogus bevat gewoonlijk drie soorten informatie over de items die u wilt aanbevelen. Stel dat u films aanbeveelt. Neem het volgende op:
 
-Gebruik een feed om informatie te geven die niet vaak verandert. Gebruik de volgende parameters, of u nu een CSV-bestand of een Google-feed gebruikt:
+1. Gegevens die u aan de gebruiker wilt tonen die de aanbeveling ontvangt. U kunt bijvoorbeeld de naam van de film en een URL voor een miniatuurafbeelding van de filmposter weergeven.
+1. Gegevens die nuttig zijn voor het toepassen van marketing- en verkoopbesturingselementen. U kunt bijvoorbeeld de classificatie van de film weergeven, zodat u geen NC-17-films aanbeveelt.
+1. Gegevens die nuttig zijn om de gelijkenis van items met andere items te bepalen. U kunt bijvoorbeeld het genre van de film en de filmdirecteur weergeven.
 
-* Vereiste parameters
+[!DNL Target] bevat meerdere integratieopties om uw catalogus te vullen. Deze opties kunnen in combinatie worden gebruikt om verschillende items in de catalogus bij te werken of om verschillende itemkenmerken op verschillende frequenties bij te werken.
 
-   * `entity.id`
+| Methode | Wat het is | Wanneer gebruikt u het | Aanvullende informatie |
+| --- | --- | --- | --- |
+| Catalogusfeed | Een feed plannen (CSV, Google Product XML, of [!DNL Analytics Product Classifications]) die dagelijks worden geüpload en opgenomen. | Voor het verzenden van informatie over meerdere items tegelijk. Voor het verzenden van informatie die niet vaak wordt gewijzigd. | Zie [Feeds](/help/c-recommendations/c-products/feeds.md). |
+| Entiteiten-API | Roep API aan om updates naar de minuut voor één enkel punt te verzenden. | Voor het verzenden van updates zoals deze over één item tegelijk plaatsvinden. Voor het verzenden van informatie die regelmatig verandert (bijvoorbeeld prijs, voorraad/voorraadniveau). | Zie de [Documentatie voor ontwikkelaars van Entiteiten-API](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
+| Updates op de pagina doorgeven | Updates voor één item verzenden met JavaScript op de pagina of met de API voor levering. | Voor het verzenden van updates zoals deze over één item tegelijk plaatsvinden. Voor het verzenden van informatie die regelmatig verandert (bijvoorbeeld prijs, voorraad/voorraadniveau). | Zie de objectweergaven en productpagina&#39;s hieronder. |
 
-* Nuttige parameters
+De meeste klanten zouden minstens één voer moeten uitvoeren. Vervolgens kunt u ervoor kiezen om uw feed aan te vullen met updates voor vaak gewijzigde kenmerken of items met behulp van de Entities API of de on-the-page methode.
 
-   * `entity.name`
-   * `entity.categoryId`
-   * `entity.brand`
-   * `entity.pageUrl`
-   * `entity.thumbnailUrl`
-   * `entity.message`
-   * Alle aangepaste kenmerken
+## Gedragsinformatie en context doorgeven {#pass-behavioral}
 
-Wanneer de feed is ingesteld en aan [!DNL Recommendations] is doorgegeven, geeft u op de pagina parameters door voor kenmerken die vaak veranderen, d.w.z. vaker dan dagelijks.
+De gedragsinformatie en context die u moet doorgeven [!DNL Target] is afhankelijk van de actie die de bezoeker uitvoert. Dit is vaak afhankelijk van het type pagina waarmee de bezoeker communiceert.
 
-* Vereiste parameters
+### Objectweergaven/productpagina&#39;s
 
-   * `entity.id`
-   * `entity.categoryId`
+Op pagina&#39;s waarop een bezoeker één item weergeeft, zoals een pagina met productdetails, moet u de identiteit doorgeven van het item dat de bezoeker bekijkt. U zou ook de korrelste categorie van het punt moeten overgaan dat de bezoeker bekijkt, om het filtreren aanbevelingen aan de huidige categorie toe te staan.
 
-* Nuttige parameters
-
-   * `entity.inventory`
-   * `entity.value`
-
-Prioriteit wordt gegeven aan welke reeks gegevens het laatst wordt uitgevoerd. Als u eerst de feed doorgeeft en vervolgens de paginaparameters bijwerkt, worden de wijzigingen die in de paginaparameters zijn aangebracht, weergegeven ter vervanging van de iteminformatie die in de feed is doorgegeven.
-
-## Voorbeeld twee: Geef alle parameters op de pagina met productdetails (of inhoudsgegevens) door {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
-
-Als u alle parameters op de pagina doorgeeft, kunt u snel updates uitvoeren door de pagina bij te werken. In sommige organisaties vereist dit de betrokkenheid van IT of uw team van het Ontwerp van het Web.
-
-Dit voorbeeld is vooral handig voor een mediabedrijf, met inhoud die voortdurend verandert.
-
-* Vereiste parameters
-
-   * `entity.id`
-   * `entity.categoryId`
-   * Alle andere kenmerken
-
-## Voorbeeldcode {#section_6E8A73376F30468BB549F337C4C220B1}
-
-U kunt bijvoorbeeld de volgende code gebruiken in de koptekstsectie van uw product- of inhoudspagina&#39;s:
+U kunt ook bepaalde snel veranderende kenmerken op de productpagina zelf doorgeven. U kunt bijvoorbeeld de prijs doorgeven (`value`) en voorraadniveau.
 
 ```
-function targetPageParams() {
- return {
-    "entity": {
-       "id": "32323",
-       "categoryId": "My Category",
-       "value": 105.56,
-       "inventory": 329
-    }
- }
-}
-```
-
-Zie [Implementatie volgens paginatype](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC) voor meer voorbeelden van de code die u op verschillende typen pagina&#39;s kunt gebruiken.
-
-## Implementatie volgens paginatype {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
-
-Paginatype beïnvloedt de [!DNL Recommendations]-implementatie.
-
-De typen aanbevelingen die u bijvoorbeeld op een productpagina wilt presenteren, kunnen anders zijn dan op een categoriepagina of uw homepage. Voor elke pagina, kunt u specifieke functies in werking stellen voorafgaand aan de mbox vraag om de aangewezen aanbevelingen te tonen.
-
-Zie [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F) voor informatie over de kenmerken in de voorbeelden.
-
-Geldige JSON-opmaak is vereist.
-
-De hieronder getoonde functie `targetPageParams` is vooral nuttig als u een oplossing van het markeringsbeheer gebruikt om uw pagina&#39;s uit te voeren. Met labels in [!DNL Adobe Experience Platform] worden de verwijzing at.js/mbox.js en de functie `targetPageParams` op de pagina geplaatst en kunt u de waarden configureren. Plaats die functie voor uw aanroep naar at.js/mbox.js of plaats deze in de sectie Extra JavaScript van uw at.js/mbox.js.
-
-## Alle pagina&#39;s {#section_A22061788BAB42BB82BA087DEC3AA4AD}
-
-Voor alle pagina&#39;s die aanbevelingen bevatten, is een [!DNL at.js]- of [!DNL mbox.js]-verwijzing op de pagina vereist. Voeg een van de volgende verwijzingen naar alle pagina&#39;s met aanbevelingen toe:
-
-```
-<script src="/help/at.js /></script>
-```
-
-```
-<script src="/help/mbox.js /></script>
-```
-
-Deze implementatie vereist:
-
-* [!DNL at.js] versie 0.9.2 (of hoger)
-
-Voor meer informatie over het uitvoeren van [!DNL at.js], zie [hoe te bij.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556) opstellen.
-
-## Categoriepagina {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
-
-Op een categoriepagina wilt u waarschijnlijk uw aanbevelingen beperken tot producten of inhoud binnen die categorie. Als u een categoriepagina wilt instellen, stelt u de sleutels in die door de pagina worden gebruikt. Voor meer informatie over sleutels, zie [Baseer de Aanbeveling op een Sleutel ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) van de Aanbeveling.
-
-```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "categoryId": "My Category" 
-      } 
-   } 
-}
-```
-
-## Productpagina {#section_205B3953C9664125A17CA8574FA6B2A3}
-
-Op een productpagina kun je bepaalde objecten of objecten met een bepaalde prijs of voorraad aanbevelen. Voor een productpagina moet u mogelijk veelvoorkomende veranderende kenmerken instellen (zoals waarde en voorraad), naast de sleutels die vereist zijn voor een categoriepagina.
-
-```
+<script type="text/javascript">
 function targetPageParams() { 
    return { 
       "entity": { 
          "id": "32323", 
-         "categoryId": "My Category", 
-         "value": 105.56, 
+         "categoryId": "running-shoes", 
+         "value": 119.99, 
          "inventory": 329 
+      } 
+   } 
+}
+</script>
+```
+
+### Categorieweergaven/categoriepagina&#39;s
+
+Op een categoriepagina wilt u waarschijnlijk uw aanbevelingen beperken tot producten of inhoud binnen die categorie. Hiervoor moet u de identiteit van de momenteel weergegeven categorie doorgeven.
+
+```
+function targetPageParams() { 
+   return { 
+      "entity": { 
+         "categoryId": "running-shoes" 
       } 
    } 
 }
 ```
 
-## Winkelpagina {#section_D37E48700F074556B925D0CA0291405E}
+### Winkelwagentweergaven/winkelwagentjes/afhandelingspagina&#39;s
 
-Op een winkelwagentje wilt u waarschijnlijk bepaalde items uitsluiten van uw aanbevelingen, zoals de items die al in het winkelwagentje staan.
+Op een winkelwagentje kunt u objecten aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. Geef hiertoe de id&#39;s van alle items in het huidige winkelwagentje van de bezoeker door met behulp van de speciale parameter `cartIds`.
 
 ```
-<script type="text/javascript">
 function targetPageParams() {
    return {
-      "excludedIds": [352, 223, 23432, 432, 553]
+      "cartIds": ["352", "223", "23432", "432", "553"]
       }
 }
-</script>
 ```
 
-## Dankbriefje {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+### Objecten uitsluiten die al in de winkelwagentje van de bezoeker staan
 
-Op de pagina Hartelijk dank kunt u het totaal van de bestellingen en de bestellings-id weergeven en de aangekochte producten weergeven zonder extra objecten aan te raden. U kunt een tweede box uitvoeren om de ordeinformatie te vangen.
+Op pagina&#39;s op de hele site kunt u bepaalde items uitsluiten van aanbevelingen. U kunt bijvoorbeeld items die zich al in het huidige winkelwagentje van de bezoeker bevinden, niet aanbevelen. Geef daartoe de id&#39;s door van alle items die u wilt uitsluiten met behulp van de speciale parameter `excludedIds`.
 
-* Als u at.js gebruikt, zie [Conversies van het Spoor](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+```
+function targetPageParams() {
+   return {
+      "excludedIds": ["352", "223", "23432", "432", "553"]
+      }
+}
+```
 
-## Instellingen {#concept_C1E1E2351413468692D6C21145EF0B84}
+### Pagina&#39;s voor kopen/bestellen bevestigen
 
-Gebruik instellingen om uw [!DNL Recommendations]-implementatie te beheren.
+Wanneer een aankoopgebeurtenis plaatsvindt, geeft u de identiteit door van het gekochte item of de gekochte items. Zie [Conversies bijhouden](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053) in *Implementeren [!DNL Target] zonder tagbeheer*.
 
-Als u toegang wilt krijgen tot de [!UICONTROL Recommendations Settings]-opties, opent u [!DNL Target] in [!DNL Adobe Experience Cloud] en klikt u op **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
+## Algemene uitsluitingen configureren {#exclusions}
+
+Sluit items op algemeen niveau uit die u nooit aan een bezoeker wilt aanbevelen. Zie [Uitsluitingen](/help/c-recommendations/c-products/exclusions.md).
+
+## Configureren [!DNL Recommendations] instellingen {#concept_C1E1E2351413468692D6C21145EF0B84}
+
+Instellingen gebruiken om uw [!DNL Recommendations] uitvoering.
+
+Om toegang te krijgen tot [!UICONTROL Recommendations Settings] opties, openen [!DNL Target] in de [!DNL Adobe Experience Cloud]en klik vervolgens op **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
 
 ![](assets/recs_settings.png)
 
@@ -204,9 +128,9 @@ De volgende opties zijn beschikbaar:
 
 | Instelling | Beschrijving |
 |--- |--- |
-| Aangepaste globale mabox | (Optioneel) Geef de aangepaste globale box op die wordt gebruikt voor activiteiten van [!DNL Target]. Standaard wordt de algemene mbox die door [!DNL Target] wordt gebruikt, gebruikt voor [!DNL Recommendations].<br>Opmerking: Deze optie is ingesteld op de  [!DNL Target] [!UICONTROL Administration] pagina. Open [!DNL Target] en klik vervolgens op [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]. |
-| Verticale industrie | De industrie verticaal wordt gebruikt helpen uw aanbevelingen criteria categoriseren. Hierdoor kunnen leden van uw team criteria vinden die voor een bepaalde pagina zinnig zijn, zoals criteria die het beste bij de winkelwagentje of een mediagina horen. |
-| Niet-compatibele criteria filteren | Schakel deze optie in om alleen die criteria weer te geven waarbij de geselecteerde pagina de vereiste gegevens doorgeeft. Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het kader moet `entity.id` of `entity.categoryId` voor de huidige punt/huidige categorieconflicten overgaan om compatibel te zijn. Over het algemeen is het beter alleen compatibele criteria te laten zien. Schakel deze optie echter uit als u incompatibele criteria voor de activiteit wilt gebruiken.<br>U wordt aangeraden deze optie uit te schakelen als u een oplossing voor tagbeheer gebruikt.<br>Zie Veelgestelde vragen over  [Recommendations voor meer informatie over deze optie](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
-| Standaardhostgroep | Selecteer de standaardhostgroep.<br>U kunt de hostgroep gebruiken om de beschikbare items in uw catalogus te scheiden voor verschillende toepassingen. U kunt bijvoorbeeld hostgroepen gebruiken voor ontwikkelings- en productieomgevingen, verschillende merken of verschillende geografische locaties. Standaard zijn de voorvertoningsresultaten in Cataloguszoekopdrachten, Verzamelingen en Uitsluitingen gebaseerd op de standaardhostgroep. (U kunt ook een andere hostgroep selecteren om een voorvertoning van de resultaten weer te geven met behulp van het filter Omgeving.) Nieuwe toegevoegde items zijn standaard beschikbaar in alle hostgroepen, tenzij een milieu-id is opgegeven bij het maken of bijwerken van het item. De geleverde aanbevelingen hangen van de gastheergroep af die in het verzoek wordt gespecificeerd.<br>Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Om te zien welke producten in elke milieu beschikbaar zijn, gebruik CatalogusOnderzoek met elke milieu. U kunt ook een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).<br>**Opmerking:** nadat u de geselecteerde omgeving hebt gewijzigd, moet u op Zoeken klikken om de geretourneerde resultaten bij te werken.<br>Het  [!UICONTROL Environment] filter is beschikbaar op de volgende plaatsen in  [!DNL Target] UI:<ul><li>Cataloguszoekopdracht ([!UICONTROL Recommendations] > Cataloguszoekopdracht)</li><li>Dialoogvenster Verzameling maken ([!UICONTROL Recommendations > Collections > Create New])</li><li>Dialoogvenster Verzameling bijwerken ([!UICONTROL Recommendations > Collections > Edit])</li><li>Dialoogvenster Uitsluiting maken ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Dialoogvenster Uitsluiting bijwerken ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul>Zie [Gastheren](/help/administrating-target/hosts.md) voor meer informatie. |
-| Basis-URL miniatuur | Als u een basis-URL instelt voor uw productcatalogus, kunt u relatieve URL&#39;s gebruiken wanneer u miniaturen van uw producten opgeeft wanneer u de URL van de miniatuur doorgeeft.<br>Bijvoorbeeld: hiermee <br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br>stelt u een URL in ten opzichte van de basis-URL van de miniatuur. |
+| Aangepaste globale mabox | (Optioneel) Geef de aangepaste globale box op die wordt gebruikt voor de server [!DNL Target] activiteiten. Standaard wordt de algemene box gebruikt door [!DNL Target] wordt gebruikt voor [!DNL Recommendations].<br>Opmerking: Deze optie is ingesteld op [!DNL Target] [!UICONTROL Administration] pagina. Openen [!DNL Target]en klik vervolgens op [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]. |
+| Verticale industrie | De industrie verticaal wordt gebruikt helpen uw aanbevelingen criteria categoriseren. Deze informatie helpt leden van uw team criteria te vinden die voor een bepaalde pagina, zoals criteria zinvol zijn die voor de het winkelwagentje pagina of voor een media pagina het best zijn. |
+| Niet-compatibele criteria filteren | Schakel deze optie in om alleen die criteria weer te geven waarbij de geselecteerde pagina de vereiste gegevens doorgeeft. Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` voor het huidige item/de huidige categorie-aanbevelingen compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Schakel deze optie echter uit als u incompatibele criteria voor de activiteit wilt gebruiken.<br>U wordt aangeraden deze optie uit te schakelen als u een oplossing voor tagbeheer gebruikt.<br>Zie voor meer informatie over deze optie [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
+| Standaardhostgroep | Selecteer de standaardhostgroep.<br>U kunt de hostgroep gebruiken om de beschikbare items in uw catalogus te scheiden voor verschillende toepassingen. U kunt bijvoorbeeld hostgroepen gebruiken voor ontwikkelings- en productieomgevingen, verschillende merken of verschillende geografische locaties. Standaard zijn de voorvertoningsresultaten in Cataloguszoekopdrachten, Verzamelingen en Uitsluitingen gebaseerd op de standaardhostgroep. (U kunt ook een andere hostgroep selecteren om een voorvertoning van de resultaten weer te geven met behulp van het filter Omgeving.) Nieuwe toegevoegde items zijn standaard beschikbaar in alle hostgroepen, tenzij een milieu-id is opgegeven bij het maken of bijwerken van het item. De geleverde aanbevelingen hangen van de gastheergroep af die in het verzoek wordt gespecificeerd.<br>Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Om te zien welke producten in elke milieu beschikbaar zijn, gebruik CatalogusOnderzoek met elke milieu. U kunt ook een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).<br>**Opmerking:** Nadat u de geselecteerde omgeving hebt gewijzigd, moet u op Zoeken klikken om de geretourneerde resultaten bij te werken.<br>De [!UICONTROL Environment] is beschikbaar op de volgende plaatsen in het dialoogvenster [!DNL Target] UI:<ul><li>Catalogus zoeken ([!UICONTROL Recommendations] > Catalogus zoeken)</li><li>Verzameling maken, dialoogvenster ([!UICONTROL Recommendations > Collections > Create New])</li><li>Dialoogvenster Verzameling bijwerken ([!UICONTROL Recommendations > Collections > Edit])</li><li>Dialoogvenster Uitsluiting maken ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Dialoogvenster Uitsluiting bijwerken ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul>Zie voor meer informatie [Gastheren](/help/administrating-target/hosts.md). |
+| Basis-URL miniatuur | Als u een basis-URL instelt voor uw productcatalogus, kunt u relatieve URL&#39;s gebruiken wanneer u miniaturen van uw producten opgeeft wanneer u de URL van de miniatuur doorgeeft.<br>Bijvoorbeeld:<br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br>Hiermee stelt u een URL in ten opzichte van de basis-URL van de miniatuur. |
 | Recommendations API Token | Gebruik dit token in Recommendations API-aanroepen, zoals de Download API. |
