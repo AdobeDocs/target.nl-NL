@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa4dbcf7ac584247f9fb991dfe16b953c273612c
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,31 @@ ht-degree: 0%
 # Aankondigingen en gebeurtenissen van het doel
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
+
+## [!DNL Adobe Target] Koffiepauze voor vragen en antwoorden van de Gemeenschap (10 november 2021)
+
+* **Woensdag 10 november 2021**
+* **08:00 (PST, UTC -8)**
+* **[Meer informatie en registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
+
+Cristinel &quot;Muti&quot; Anastasoaie, Senior Product Manager voor [!DNL Adobe Target], zal u vragen met betrekking tot zijn vakkennis beantwoorden:
+
+* [!DNL Target] gebruikersinterface
+* [!DNL Target] integratie
+* [!UICONTROL Enterprise permissions] en [!UICONTROL workspaces]
+
+## [!DNL Adobe Target] Communautair afbreekpunt van Q&amp;A-koffie (8 december 2021)
+
+* **Woensdag 8 december 2021**
+* **08:00 (PST, UTC -8)**
+* **[Meer informatie en registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+
+Robert Calangiu, Senior Product Manager voor [!DNL Adobe Target], zal u vragen met betrekking tot zijn vakkennis beantwoorden:
+
+* [!DNL Target] interface instellen en beheren
+* [!UICONTROL Analytics for Target] (A4T) integratie
+* [!DNL Adobe Audience Manager] AEM) integratie
+* Algemeen [!DNL Target] UI
 
 ## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
 
