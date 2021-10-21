@@ -4,28 +4,26 @@ description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Tar
 title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations plannen en implementeren
+# ![PREMIUM](/help/assets/premium.png) Plan en implementeer [!DNL Recommendations]
 
 Voordat u de eerste instelt [!DNL Recommendations] activiteit in [!DNL Adobe Target]Voer de volgende stappen uit:
 
-| Stap | Details |
-|--- |--- |
-| ![Stap 1](/help/c-recommendations/assets/step1_red.png) | [Implementeren [!DNL Adobe Target]](#implement-target) op het web en in mobiele apps die u wilt gebruiken voor het vastleggen van gebruikersgedrag en het doen van aanbevelingen. |
-| ![Stap 2](/help/c-recommendations/assets/step2_red.png) | [Stel uw [!DNL Recommendations] catalogus](#rec-catalog) van producten of inhoud die u aan uw gebruikers wilt aanbevelen. |
-| ![Stap 3](/help/c-recommendations/assets/step3_red.png) | [Gedragsinformatie en context doorgeven](#pass-behavioral) tot [!DNL Adobe Target Recommendations] om het in staat te stellen gepersonaliseerde aanbevelingen te doen. |
-| ![Stap 4](/help/c-recommendations/assets/step4_red.png) | [Algemene uitsluitingen configureren](#exclusions). |
-| ![Stap 5](/help/c-recommendations/assets/step5_red.png) | [Configureren [!DNL Recommendations] instellingen](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [Implementeren [!DNL Target]](#implement-target) op het web en in mobiele apps die u wilt gebruiken voor het vastleggen van gebruikersgedrag en het doen van aanbevelingen.
+1. [Stel uw [!DNL Recommendations] catalogus](#rec-catalog) van producten of inhoud die u aan uw gebruikers wilt aanbevelen.
+1. [Gedragsinformatie en context doorgeven](#pass-behavioral) tot [!DNL Target Recommendations] om het in staat te stellen gepersonaliseerde aanbevelingen te doen.
+1. [Algemene uitsluitingen configureren](#exclusions).
+1. [Configureren [!DNL Recommendations] instellingen](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## Adobe Target implementeren {#implement-target}
+## Implementeren [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] vereist dat u de [!DNL Adobe Experience Platform Web SDK] of om 0.js 0.9.2 (of later). Zie [Doel implementeren](/help/c-implementing-target/implementing-target.md) voor meer informatie .
+[!DNL Target Recommendations] vereist dat u de [!DNL Adobe Experience Platform Web SDK] of om 0.js 0.9.2 (of later). Zie [Implementeren [!DNL Target]](/help/c-implementing-target/implementing-target.md) voor meer informatie .
 
 ## Een Recommendations-catalogus instellen {#rec-catalog}
 
@@ -41,7 +39,7 @@ Om aanbevelingen van hoge kwaliteit te doen, [!DNL Target] moet weten welke prod
 | --- | --- | --- | --- |
 | Catalogusfeed | Een feed plannen (CSV, Google Product XML, of [!DNL Analytics Product Classifications]) die dagelijks worden geüpload en opgenomen. | Voor het verzenden van informatie over meerdere items tegelijk. Voor het verzenden van informatie die niet vaak wordt gewijzigd. | Zie [Feeds](/help/c-recommendations/c-products/feeds.md). |
 | Entiteiten-API | Roep API aan om updates naar de minuut voor één enkel punt te verzenden. | Voor het verzenden van updates zoals deze over één item tegelijk plaatsvinden. Voor het verzenden van informatie die regelmatig verandert (bijvoorbeeld prijs, voorraad/voorraadniveau). | Zie de [Documentatie voor ontwikkelaars van Entiteiten-API](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| Updates op de pagina doorgeven | Updates voor één item verzenden met JavaScript op de pagina of met de API voor levering. | Voor het verzenden van updates zoals deze over één item tegelijk plaatsvinden. Voor het verzenden van informatie die regelmatig verandert (bijvoorbeeld prijs, voorraad/voorraadniveau). | Zie de objectweergaven en productpagina&#39;s hieronder. |
+| Updates op de pagina doorgeven | Updates voor één item verzenden met JavaScript op de pagina of met de API voor levering. | Voor het verzenden van updates zoals deze over één item tegelijk plaatsvinden. Voor het verzenden van informatie die regelmatig verandert (bijvoorbeeld prijs, voorraad/voorraadniveau). | Zie [Objectweergaven/productpagina&#39;s](#items-product-pages) hieronder. |
 
 De meeste klanten zouden minstens één voer moeten uitvoeren. Vervolgens kunt u ervoor kiezen om uw feed aan te vullen met updates voor vaak gewijzigde kenmerken of items met behulp van de Entities API of de on-the-page methode.
 
@@ -49,7 +47,7 @@ De meeste klanten zouden minstens één voer moeten uitvoeren. Vervolgens kunt u
 
 De gedragsinformatie en context die u moet doorgeven [!DNL Target] is afhankelijk van de actie die de bezoeker uitvoert. Dit is vaak afhankelijk van het type pagina waarmee de bezoeker communiceert.
 
-### Objectweergaven/productpagina&#39;s
+### Objectweergaven/productpagina&#39;s {#items-product-pages}
 
 Op pagina&#39;s waarop een bezoeker één item weergeeft, zoals een pagina met productdetails, moet u de identiteit doorgeven van het item dat de bezoeker bekijkt. U zou ook de korrelste categorie van het punt moeten overgaan dat de bezoeker bekijkt, om het filtreren aanbevelingen aan de huidige categorie toe te staan.
 

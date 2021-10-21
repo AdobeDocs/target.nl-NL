@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '32078'
+source-wordcount: '32079'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie | Details |
 | --- | --- |
-| Recommendations op basis van winkelwagentjes | Een nieuwe reeks algoritmen om aanbevelingen te doen op basis van de inhoud van het winkelwagentje van de bezoeker.<br>Zie &quot;Op winkelwagentje gebaseerd&quot; in [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) en &quot;Winkelwagentjes toevoegen/winkelwagentjes weergeven/uitchecken van pagina&#39;s&quot; en &quot;Items uitsluiten die zich al in het winkelwagentje van de bezoeker bevinden&quot; in [Recommendations plannen en implementeren](/help/c-recommendations/plan-implement.md). |
+| Recommendations op basis van winkelwagentjes | Er is een nieuwe reeks algoritmen toegevoegd om aanbevelingen te doen op basis van de inhoud van het winkelwagentje van de bezoeker.<br>Zie &quot;Op winkelwagentje gebaseerd&quot; in [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) en &quot;Winkelwagentjes toevoegen/winkelwagentjes weergeven/uitchecken van pagina&#39;s&quot; en &quot;Items uitsluiten die zich al in het winkelwagentje van de bezoeker bevinden&quot; in [Recommendations plannen en implementeren](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
 
