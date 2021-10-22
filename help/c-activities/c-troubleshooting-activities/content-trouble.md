@@ -4,7 +4,7 @@ description: Zoek naar suggesties om problemen op te lossen als de pagina de ver
 title: Hoe kan ik problemen met de levering van inhoud oplossen?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -154,7 +154,7 @@ U kunt de [!DNL Target] in de browser of met mboxTrace. Zie [https://tools.ietf.
 
 at.js leidt geen verzoeken van het Doel in brand als u een ongeldig documenttype gebruikt. at.js vereist HTML 5 doctype.
 
-## Zorg ervoor dat [!DNL Target] de activiteiten behandelen correct URLs met de parameters van het vraagkoord {#query-strings}
+## Zorg ervoor dat [!DNL Target] De activiteiten behandelen URLs met de parameters van het vraagkoord correct. {#query-strings}
 
 De [!UICONTROL Activity URL] bepaalt de pagina die bezoekers voor de activiteit kwalificeert en geeft de activiteitenervaringen aan gebruikers terug. Wanneer u hierom wordt gevraagd tijdens het maken van activiteiten, zorgt het typen van de volledige URL niet altijd ervoor dat de inhoud op die sitepagina wordt geleverd, vooral niet met URL&#39;s die querytekenreeksparameters bevatten.
 
