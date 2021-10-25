@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '2807'
+source-wordcount: '2818'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 25 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.5 (26 oktober 2021). |
 | 22 oktober | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | De volgende sectie toegevoegd:<ul><li>Zorg ervoor dat [!DNL Target] de activiteiten behandelen correct URLs met de parameters van het vraagkoord</li></ul> |
 | 21 oktober | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>[!DNL Adobe Target] Koffiepauze voor vragen en antwoorden van de Gemeenschap (10 november 2021)</li><li>[!DNL Adobe Target] Communautair afbreekpunt van Q&amp;A-koffie (8 december 2021)</li></ul> |
 | 20 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.4 (21 oktober 2021). |

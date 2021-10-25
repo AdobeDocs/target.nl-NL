@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 20 oktober 2021**
+**Laatst bijgewerkt: 25 oktober 2021**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
@@ -24,6 +24,14 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 >**mbox.js end-of-life**: Vanaf 31 maart 2021, [!DNL Adobe Target] ondersteunt de bibliotheek mbox.js niet meer. Na 31 maart 2021 mislukken alle aanroepen van mbox.js op elegante wijze en hebben deze invloed op uw pagina&#39;s die [!DNL Target] activiteiten die worden uitgevoerd door het bedienen van standaardinhoud.
 >
 >Als u potentiële problemen met uw sites wilt voorkomen, migreert u naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js. Zie voor meer informatie [Overzicht: Doel voor client-side web implementeren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.5 (26 oktober 2021)
+
+Deze onderhoudrelease bevat de volgende verbeteringen:
+
+| Functie | Details |
+| --- | --- |
+| [!UICONTROL Visual Experience Composer] (VEC) | Toegevoegde ondersteuning voor webcomponenten. Persoonlijke ervaringen en aanbiedingen kunnen worden gemaakt en getest op Aangepaste elementen en op elementen in Aangepaste elementen. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
 
