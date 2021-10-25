@@ -4,14 +4,14 @@ description: Verken de opties die beschikbaar zijn in Adobe Target Visual Experi
 title: Hoe gebruik ik de opties Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
+source-git-commit: 823694603c0248316e471f0b15070c0a34356620
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Opties voor composer visuele ervaring
+# Opties voor Visual Experience Composer
 
 Wanneer u op een pagina-element klikt in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), toont een menu de opties die voor dat elementtype beschikbaar zijn. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
 
@@ -25,11 +25,11 @@ De diverse acties Visual Experience Composer (VEC) worden gegroepeerd aangewezen
 >
 >Welke opties beschikbaar zijn, is afhankelijk van het type activiteit dat u bewerkt.
 
-### Bewerken
+### [!UICONTROL Edit]
 
 De volgende opties zijn beschikbaar:
 
-#### Tekst/HTML {#edit-text-html}
+#### [!UICONTROL Text/HTML] {#edit-text-html}
 
 Wijzig de HTML-code voor het element, zoals de tekst voor een tekstgebied, knop of koppeling.
 
@@ -46,13 +46,13 @@ De volgende HTML5-tags kunnen worden genest:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### Achtergrondkleur
+#### [!UICONTROL Background Color]
 
 Gebruik de kleurkiezer om een achtergrondkleur te selecteren of te configureren. U kunt een kleurstaal selecteren en dit aanpassen met RGB-waarden of kleurhexcodes. De rode x in de kleurkiezer maakt de achtergrond transparant.
 
 **Opmerking:** Deze optie is niet beschikbaar voor een element waarbij een achtergrondafbeelding is ingesteld.
 
-#### Stijlen {#styles}
+#### [!UICONTROL Styles] {#styles}
 
 Gebruik de [!UICONTROL Styles] om de waarde van bestaande stijlen voor het geselecteerde element weer te geven of te bewerken. U kunt ook extra stijlen toevoegen.
 
@@ -72,7 +72,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 >
 >Snelle acties voor lay-outveranderingen, achtergrondkleur, resizing, en beweging zijn ook beschikbaar als afzonderlijke acties in het menu VEC. Deze opties kunnen als afzonderlijke acties worden gebruikt of u kunt het menu van Stijlen gebruiken, zoals hier wordt uitgelegd.
 
-* **Achtergrond**
+* **[!UICONTROL Background]**
 
    Wijzig de achtergrondkleur en -afbeelding.
 
@@ -86,7 +86,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
       * Klik op de bovenste vervolgkeuzelijst om een randvak, opvulvak, inhoudsvak of tekst te selecteren
       * Klik op de onderste vervolgkeuzelijst om automatische audio of audio te selecteren
 
-* **Typografie**
+* **[!UICONTROL Typography]**
 
    De typografie van een element wijzigen. Typografische bewerkingen zijn snel en gemakkelijk.
 
@@ -94,28 +94,28 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
    U kunt de volgende typografiestijlen bewerken:
 
-   * Fontgrootte
-   * Lettertypedikte
-   * Lettertypestijl
-   * Kleur (geef de kleurcode op of gebruik de kleurkiezer)
-   * Woordspatiëring
-   * Lijnhoogte
-   * Tekstuitlijning
+   * [!UICONTROL Font size]
+   * [!UICONTROL Font weight]
+   * [!UICONTROL Font style]
+   * [!UICONTROL Color] (geef de kleurcode op of gebruik de kleurkiezer)
+   * [!UICONTROL Word spacing]
+   * [!UICONTROL Line height]
+   * [!UICONTROL Text alignment]
 
-* **Marge**
+* **[!UICONTROL Margin]**
 
    Wijzig de marge voor het geselecteerde element. U kunt de linker-, rechter-, onder- en bovenmarge wijzigen.
 
    Klik op het vervolgkeuzepictogram voor elke marge om een van de volgende opties te kiezen:
 
-   * Automatisch
-   * Waarde (sleep de schuifregelaar om de marge in te stellen of geef het aantal pixels voor elke marge op)
+   * [!UICONTROL Auto]
+   * [!UICONTROL Value] (Sleep de schuifregelaar om de marge in te stellen of het aantal pixels voor elke marge op te geven)
 
    Marge ondersteunt positieve en negatieve waarden.
 
    Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc en em. Zie voor meer informatie over deze eenheden [CSS-tips en trucs voor webstijlpagina&#39;s](https://www.w3.org/Style/Examples/007/units.en.html).
 
-* **Opvulling**
+* **[!UICONTROL Padding]**
 
    Wijzig de opvulling voor het geselecteerde element. U kunt de opvulling links, rechts, onder en boven wijzigen.
 
@@ -125,65 +125,66 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
    Ook ondersteuning voor target [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
-* **Rand**
+* **[!UICONTROL Border]**
 
    Klik op de randpictogrammen boven in het deelvenster om de rand van het geselecteerde element te wijzigen.
 
    U kunt de volgende stijlen voor elke rand (boven, rechts, onder en links) bewerken:
 
-   * Randstijl (geen, verborgen, gestippeld, onderbroken, effen of dubbel)
-   * Randkleur (geef de kleurcode op of gebruik de kleurkiezer)
-   * Randbreedte (sleep de schuifregelaar om een randbreedte te selecteren of geef de breedte op in pixels)
+   * [!UICONTROL Border style] (geen, verborgen, gestippeld, onderbroken, effen of dubbel)
+   * [!UICONTROL Border color] (geef de kleurcode op of gebruik de kleurkiezer)
+   * [!UICONTROL Border width] (Sleep de schuifregelaar om een randbreedte te selecteren of geef de breedte op in pixels)
 
    Rand ondersteunt breedteschalen vanaf 0.
 
    Ook ondersteuning voor target [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
-* **Positie**
+* **[!UICONTROL Position]**
 
    Verplaats het geselecteerde element vanaf de huidige positie. U kunt de boven-, onder-, links-, rechts- en [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) positie.
 
    Klik op de knop [!UICONTROL Static] een vervolgkeuzelijst die u kunt kiezen uit de volgende plaatsingsopties:
 
-   * Statisch
-   * Relatief
-   * Absoluut
-   * Vast
-   * Vast
+   * [!UICONTROL Static]
+   * [!UICONTROL Relative]
+   * [!UICONTROL Absolute]
+   * [!UICONTROL Sticky]
+   * [!UICONTROL Fixed]
 
    Klik op het vervolgkeuzepictogram voor elke positie om een van de volgende opties te kiezen:
 
-   * Automatisch
-   * Waarde (sleep de schuifregelaar om het element te plaatsen of geef het aantal pixels op dat u het element wilt verplaatsen)
+   * [!UICONTROL Auto]
+   * [!UICONTROL Value] (Sleep de schuifregelaar om het element te plaatsen of geef het aantal pixels op dat u het element wilt verplaatsen)
 
    De positie ondersteunt positieve en negatieve waarden.
 
    Ook ondersteuning voor target [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
-* **Grootte**
+* **[!UICONTROL Size]**
 
    Wijzig de breedte en hoogte van het geselecteerde element.
 
    Klik op het vervolgkeuzepictogram naast [!UICONTROL Width] en [!UICONTROL Height] kiezen uit de volgende opties:
 
-   * Automatisch
-   * Waarde (sleep de schuifregelaar om de grootte van het element te wijzigen of om het aantal pixels voor elke dimensie op te geven)
+   * [!UICONTROL Auto]
+   * [!UICONTROL Value] (sleep de schuifregelaar om het formaat van het element te wijzigen of om het aantal pixels voor elke dimensie op te geven)
 
-* **Filter**
+* **[!UICONTROL Filter]**
 
    Sleep de schuifregelaar voor elke filteroptie of geef het gewenste percentage op:
 
-   * Sepia
-   * Contrast
-   * Helderheid
-   * Grijswaarden
-   * Vervagen
-   * Dekking
-   * Omkeren
-   * Kleurtoon roteren
-   * Verzadigen
+   * [!UICONTROL Sepia]
+   * [!UICONTROL Contrast]
+   * [!UICONTROL Brightness]
+   * [!UICONTROL GrayScale]
+   * [!UICONTROL Blur]
+   * [!UICONTROL Opacity]
+   * [!UICONTROL Invert]
+*
+[!UICONTROL  Hue-rotate]
+   * [!UICONTROL Saturate]
 
-* **CSS-editor**
+* **[!UICONTROL CSS Editor]**
 
    Met de CSS-editor in real-time kunt u wijzigingen bekijken en stijlen toevoegen als u het prettig vindt Cascading Style Sheets (CSS) te gebruiken of als u code van uw ontwikkelaar ontvangt.
 
@@ -201,23 +202,23 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
    >
    >U kunt een achtergrondafbeelding toepassen met de CSS-editor, maar dit kan flikkering veroorzaken. Test uw wijzigingen vóór de implementatie.
 
-#### CSS-klasse
+#### [!UICONTROL CSS Class]
 
 Geef de vooraf gedefinieerde CSS-klasse op die voor het element wordt gebruikt. Als er meer dan één element is geselecteerd, scheidt u meerdere CSS-klassen met een spatie.
 
 Beschikbaar voor [!UICONTROL A/B], [!UICONTROL Automated Personalization], en [!UICONTROL Multivariate Test] activiteiten.
 
-#### Koppeling
+#### [!UICONTROL Link]
 
 Wijzig de URL in de koppeling.
 
 Gebruik Koppeling bewerken om de kiezer bij te werken zodat deze naar hetzelfde afbeeldingselement wijst. Koppelingen naar een ander afbeeldingselement worden echter niet ondersteund. Als u een koppeling wilt maken naar een ander afbeeldingselement, verwijdert u de oorspronkelijke handeling uit de code-editor en gebruikt u de opdracht [!UICONTROL Visual Experience Composer] om de handeling toe te passen op het andere afbeeldingselement.
 
-### Invoegen voor
+### [!UICONTROL Insert Before]
 
 De volgende opties zijn beschikbaar:
 
-#### Afbeelding, HTML en Tekst
+#### [!UICONTROL Image], [!UICONTROL HTML], en [!UICONTROL Text]
 
 Voeg om het even welk soort element aan uw pagina naast het wijzigen van bestaande inhoud toe. Voeg tekst, code, lijsten en meer toe om geheel verschillende ervaringen te maken die u wilt testen.
 
@@ -233,15 +234,15 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Ervaar fragment
+#### [!UICONTROL Experience Fragment]
 
 Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Invoegen na
+### [!UICONTROL Insert After]
 
 De volgende opties zijn beschikbaar:
 
-#### Afbeelding, HTML en Tekst
+#### [!UICONTROL Image], [!UICONTROL HTML], en [!UICONTROL Text]
 
 Voeg om het even welk soort element aan uw pagina naast het wijzigen van bestaande inhoud toe. Voeg tekst, code, lijsten en meer toe om geheel verschillende ervaringen te maken die u wilt testen.
 
@@ -257,15 +258,15 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Ervaar fragment
+#### [!UICONTROL Experience Fragment]
 
 Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Vervangen door
+### [!UICONTROL Replace With]
 
 De volgende opties zijn beschikbaar:
 
-#### Afbeelding
+#### [!UICONTROL Image]
 
 Selecteer een andere afbeelding in de inhoudsbibliotheek. Tot de afbeeldingen die u kunt wisselen, behoren de afbeeldingen die naar de map Experience Cloud Assets zijn geüpload of die in de inhoudsbibliotheek in Doel zijn geüpload.
 
@@ -283,7 +284,7 @@ Recommendations biedt ondersteuning voor Vervangen door in DIV-, SECTION- en ART
 
 **Opmerking:** Voor het wisselen van afbeeldingen is een Adobe Scene7 Publishing System-account vereist.
 
-#### HTML-aanbod
+#### [!UICONTROL HTML Offer]
 
 Selecteer een ander voorstel van de [!UICONTROL Content Library].
 
@@ -295,51 +296,51 @@ Een HTML-aanbieding kan maximaal 256 kB bedragen.
 
 Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Ervaar fragment
+#### [!UICONTROL Experience Fragment]
 
 Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Layout
+### [!UICONTROL Layout]
 
 De volgende opties zijn beschikbaar:
 
-#### Opnieuw rangschikken
+#### [!UICONTROL Rearrange]
 
 Sleep het element naar een andere locatie binnen hetzelfde bovenliggende element of DIV. Andere elementen verschuiven de locatie om ruimte te maken voor het opnieuw gerangschikte element.
 
 **Opmerking:** Klik op bijhouden om de items niet opnieuw te rangschikken.
 
-#### Formaat wijzigen
+#### [!UICONTROL Resize]
 
 Wijzig de grootte van een element op de pagina. Wanneer u [!UICONTROL Resize], wordt een handgreep weergegeven in de rechterbenedenhoek van het element waarmee u die hoek kunt slepen om het formaat te wijzigen. Houd Shift ingedrukt als u dezelfde hoogte-breedteverhouding wilt behouden.
 
 **Opmerking:** Inline-elementen kunnen niet worden vergroot of verkleind.
 
-#### Verplaatsen {#move}
+#### [!UICONTROL Move] {#move}
 
 Verplaats elementen op de pagina. In tegenstelling tot [!UICONTROL Rearrange] optie, [!UICONTROL Move] verschuift andere elementen niet om ruimte te maken voor het element dat wordt verplaatst. Gebruik de pijltoetsen om de verplaatsing te verfijnen. (Geplande verbetering: ondersteuning om ervoor te zorgen dat verplaatste elementen niet achter andere elementen worden verborgen.)
 
 In bepaalde situaties, bijvoorbeeld wanneer een CSS-beperking vereist dat een element binnen het bovenliggende element blijft, kunt u het element niet buiten het bovenliggende element plaatsen. Een element kan niet worden verplaatst buiten een container met de volgende CSS-eigenschap: `overflow: hidden`.
 
-#### Verbergen
+#### [!UICONTROL Hide]
 
 Verberg het element. De witruimte blijft behouden, maar de inhoud wordt verwijderd.
 
-#### Verwijderen
+#### [!UICONTROL Remove]
 
 Verwijder het element. De witruimte achter de afbeelding wordt verwijderd en de ruimte waar het element is samengevouwen.
 
 **Opmerking:** Items in een &#39;klassieke&#39; box (een box die is gemaakt in een campagne voor &#39;klassieke inhoud&#39; van Target) kunnen met deze optie niet worden verwijderd.
 
-### Sectie uitvouwen
+### [!UICONTROL Expand Section]
 
 Selecteer naast het oorspronkelijk geselecteerde element ook het bovenliggende element. Wanneer u een bovenliggend element selecteert, worden alle onderliggende elementen van dat element automatisch geselecteerd. U kunt de selectie meerdere keren uitbreiden.
 
-### Navigeren naar koppeling
+### [!UICONTROL Navigate to Link]
 
 Open de bestemming van de koppeling.
 
-### Ongedaan maken/Opnieuw
+### [!UICONTROL Undo]/[!UICONTROL Redo]
 
 Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ongedaan maken. U kunt ook wijzigingen opnieuw uitvoeren die eerder ongedaan zijn gemaakt.
 
@@ -357,14 +358,21 @@ De steun VEC [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_C
 >
 >VEC-ondersteuning voor aangepaste elementen wordt momenteel niet ondersteund door de [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen. De volgende acties zijn niet beschikbaar:
+De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen, met de volgende uitzonderingen:
 
-* Bewerken
-   * Tekst/HTML
-   * Koppeling
-   * Bron bewerken
+De volgende acties zijn niet beschikbaar voor aangepaste elementen:
 
-* Inhoud vervangen
+* [!UICONTROL Edit]
+   * [!UICONTROL Text/HTML]
+   * [!UICONTROL Link]
+   * [!UICONTROL Edit Source]
+
+* [!UICONTROL Replace Content]
+
+De volgende actie is niet beschikbaar in aangepaste elementen:
+
+* [!UICONTROL Layout]
+   * [!UICONTROL Rearrange]
 
 ## Navigeren door elementen met het DOM-pad {#dom-path}
 
