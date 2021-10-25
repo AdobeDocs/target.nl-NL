@@ -1,20 +1,19 @@
 ---
-keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren door koppeling;navigeren door koppeling;navigeren;koppeling;ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren
+keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren door koppeling;navigeren via koppeling;navigeren;koppeling;ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren;aangepaste gebeurtenissen;webcomponenten
 description: Verken de opties die beschikbaar zijn in Adobe Target Visual Experience Composer (VEC). Klik eenvoudig op een element om te zien welke opties beschikbaar zijn voor dat element.
 title: Hoe gebruik ik de opties Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
+source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
 
-
 # Opties voor composer visuele ervaring
 
-Wanneer u een paginaelement in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
+Wanneer u op een pagina-element klikt in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), toont een menu de opties die voor dat elementtype beschikbaar zijn. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
 
 ## VEC-opties
 
@@ -36,42 +35,42 @@ Wijzig de HTML-code voor het element, zoals de tekst voor een tekstgebied, knop 
 
 Naast HTML-code kunt u aangepaste JavaScript bewerken en injecteren.
 
-Er zijn verschillende opmaakopties voor RTF-tekst beschikbaar bij het bewerken van tekst en HTML voor [!UICONTROL A/B]- en [!UICONTROL Experience Targeting]-activiteiten. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Bij het wijzigen van HTML kunt u schakelen tussen de codeweergave en de rijke-bewerkingsweergave van de HTML.
+Er zijn verschillende opties voor tekstopmaak beschikbaar wanneer u tekst en HTML bewerkt voor [!UICONTROL A/B] en [!UICONTROL Experience Targeting] activiteiten. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Wanneer u HTML wijzigt, kunt u schakelen tussen de codeweergave en de rijke bewerkingsweergave van de HTML.
 
 De volgende HTML5-tags kunnen worden genest:
 
 | Tag | Geneste tags toegestaan |
 | --- | --- |
-| `<a>` | `<h1-h6>`,  `<p>`,  `<ul>`,  `<ol>`,  `<menu>`,  `<div>`,  `<figure>`,  `<figcaption>` |
-| `<ins>` | `<h1-h6>`,  `<p>`,  `<ul>`,  `<ol>`,  `<menu>` |
-| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
+| `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
+| `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
+| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
 #### Achtergrondkleur
 
 Gebruik de kleurkiezer om een achtergrondkleur te selecteren of te configureren. U kunt een kleurstaal selecteren en dit aanpassen met RGB-waarden of kleurhexcodes. De rode x in de kleurkiezer maakt de achtergrond transparant.
 
-**Opmerking:** deze optie is niet beschikbaar voor een element waarbij een achtergrondafbeelding is ingesteld.
+**Opmerking:** Deze optie is niet beschikbaar voor een element waarbij een achtergrondafbeelding is ingesteld.
 
 #### Stijlen {#styles}
 
-In het deelvenster [!UICONTROL Styles] kunt u de waarde van bestaande stijlen voor het geselecteerde element weergeven of bewerken. U kunt ook extra stijlen toevoegen.
+Gebruik de [!UICONTROL Styles] om de waarde van bestaande stijlen voor het geselecteerde element weer te geven of te bewerken. U kunt ook extra stijlen toevoegen.
 
-Als u het deelvenster [!UICONTROL Styles] wilt openen, klikt u in de VEC op een pagina-element en vervolgens op **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+Om toegang te krijgen tot [!UICONTROL Styles] klikt u in het deelvenster VEC op een pagina-element en vervolgens klikt u op **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
-Het [!UICONTROL Styles] paneel toont op de rechterkant van VEC. Het deelvenster bevat een lijst met stijlen waarmee u het geselecteerde element kunt bewerken of uitbreiden. Met een real-time CSS-editor kunt u wijzigingen weergeven en stijlen toevoegen als u dit comfortabel vindt met CSS (Cascading Style Sheets) of als u code van uw ontwikkelaar ontvangt.
+De [!UICONTROL Styles] aan de rechterkant van de VEC. Het deelvenster bevat een lijst met stijlen waarmee u het geselecteerde element kunt bewerken of uitbreiden. Met een real-time CSS-editor kunt u wijzigingen weergeven en stijlen toevoegen als u dit comfortabel vindt met CSS (Cascading Style Sheets) of als u code van uw ontwikkelaar ontvangt.
 
 ![Deelvenster Stijlen](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Als u verschillende stijlen toepast, kunt u uw wijzigingen altijd herstellen door te klikken op het pictogram [!UICONTROL Revert] dat rechtsboven in het deelvenster [!UICONTROL Styles] wordt weergegeven nadat u een wijziging hebt aangebracht in een sectie. Als u op het pictogram [!UICONTROL Revert] klikt, worden alle wijzigingen in het deelvenster van de huidige sectie ongedaan gemaakt.
+Als u verschillende stijlen toepast, kunt u de wijzigingen altijd herstellen door op de knop [!UICONTROL Revert] pictogram dat in de rechterbovenhoek van [!UICONTROL Styles] nadat u een sectie hebt gewijzigd. Klik op de knop [!UICONTROL Revert] worden alle wijzigingen in het deelvenster van de huidige sectie hersteld.
 
 Breid elke sectie uit om stijlen te bewerken of toe te voegen, zoals hieronder wordt uitgelegd. Als u uw wijzigingen wilt opslaan, klikt u op het pictogram Vorige boven in het deelvenster om terug te keren naar de hoofdweergave van het deelvenster en klikt u vervolgens op **[!UICONTROL Save]**.
 
-De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende sectiedeelvensters geven aan dat u wijzigingen hebt aangebracht in de overeenkomende stijlen. Hierdoor kunt u uw wijzigingen eenvoudig controleren voordat u op [!UICONTROL Save] klikt.
+Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende sectiedeelvensters geven aan dat u de bijbehorende stijlen hebt gewijzigd. Met deze visuele indicator kunt u gemakkelijk uw wijzigingen bekijken voordat u op [!UICONTROL Save].
 
 >[!NOTE]
 >
->Snelle acties voor lay-outveranderingen, achtergrondkleur, resizing, en beweging zijn ook beschikbaar als afzonderlijke acties in het menu VEC. U kunt deze opties gebruiken als afzonderlijke handelingen of u kunt het menu Stijlen gebruiken, zoals hier wordt uitgelegd.
+>Snelle acties voor lay-outveranderingen, achtergrondkleur, resizing, en beweging zijn ook beschikbaar als afzonderlijke acties in het menu VEC. Deze opties kunnen als afzonderlijke acties worden gebruikt of u kunt het menu van Stijlen gebruiken, zoals hier wordt uitgelegd.
 
 * **Achtergrond**
 
@@ -91,7 +90,7 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
 
    De typografie van een element wijzigen. Typografische bewerkingen zijn snel en gemakkelijk.
 
-   Hoewel de rijke tekstredacteur (geef Tekst/HTML uit) beschikbaar voor het nauwkeurige stemmen is, zijn de snelle acties om veranderingen in het volledige element aan te brengen beschikbaar door deze optie. Als u typografie-wijzigingen alleen op een deel van de tekst wilt toepassen (en niet op de volledige tekst), gebruikt u de [RTF-editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Hoewel de rijke tekstredacteur (geef Tekst/HTML uit) voor het verfijnen beschikbaar is, zijn de snelle acties om het volledige element te veranderen beschikbaar via deze optie. Als u wijzigingen in de typografie wilt toepassen op slechts een deel van de tekst (en niet op de volledige tekst), gebruikt u de optie [rijke teksteditor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    U kunt de volgende typografiestijlen bewerken:
 
@@ -114,7 +113,7 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
 
    Marge ondersteunt positieve en negatieve waarden.
 
-   Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc, em, enz. Zie [CSS-tips en trucs voor webstijlpagina&#39;s](https://www.w3.org/Style/Examples/007/units.en.html) voor meer informatie over deze eenheden.
+   Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc en em. Zie voor meer informatie over deze eenheden [CSS-tips en trucs voor webstijlpagina&#39;s](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Opvulling**
 
@@ -124,7 +123,7 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
 
    Opvulling ondersteunt de breedte vanaf 0.
 
-   Het doel ondersteunt ook [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em, enz.
+   Ook ondersteuning voor target [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
 * **Rand**
 
@@ -138,13 +137,13 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
 
    Rand ondersteunt breedteschalen vanaf 0.
 
-   Het doel ondersteunt ook [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em, enz.
+   Ook ondersteuning voor target [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
 * **Positie**
 
-   Verplaats het geselecteerde element vanaf de huidige positie. U kunt de positie boven, onder, links, rechts en [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) van het element wijzigen.
+   Verplaats het geselecteerde element vanaf de huidige positie. U kunt de boven-, onder-, links-, rechts- en [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) positie.
 
-   Klik op de vervolgkeuzelijst [!UICONTROL Static] om een van de volgende positieopties te kiezen:
+   Klik op de knop [!UICONTROL Static] een vervolgkeuzelijst die u kunt kiezen uit de volgende plaatsingsopties:
 
    * Statisch
    * Relatief
@@ -159,13 +158,13 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
 
    De positie ondersteunt positieve en negatieve waarden.
 
-   Het doel ondersteunt ook [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em, enz.
+   Ook ondersteuning voor target [andere maateenheden](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
 * **Grootte**
 
    Wijzig de breedte en hoogte van het geselecteerde element.
 
-   Klik op het vervolgkeuzepictogram naast [!UICONTROL Width] en [!UICONTROL Height] om een van de volgende opties te kiezen:
+   Klik op het vervolgkeuzepictogram naast [!UICONTROL Width] en [!UICONTROL Height] kiezen uit de volgende opties:
 
    * Automatisch
    * Waarde (sleep de schuifregelaar om de grootte van het element te wijzigen of om het aantal pixels voor elke dimensie op te geven)
@@ -192,11 +191,11 @@ De blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillend
 
    ![CSS-editor met wijzigingen](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Let op de blauwe stippen naast de opties [!UICONTROL Typography], [!UICONTROL Border] en [!UICONTROL Size] in de voorafgaande illustratie. Deze punten geven aan dat u wijzigingen hebt aangebracht in deze secties. Als u deze sectievensters opent, worden blauwe stippen weergegeven naast de specifieke opties die u hebt gewijzigd.
+   Let op de blauwe stippen naast de [!UICONTROL Typography], [!UICONTROL Border], en [!UICONTROL Size] opties in de vorige illustratie. Deze punten geven aan dat u deze secties hebt gewijzigd. Als u deze sectievensters opent, worden blauwe stippen weergegeven naast de specifieke opties die u hebt gewijzigd.
 
-   U kunt uw eigen code typen als uw gewenste stijl niet standaard beschikbaar in [!UICONTROL Styles] is.
+   U kunt uw eigen code typen als de gewenste stijl niet standaard beschikbaar is in het dialoogvenster [!UICONTROL Styles].
 
-   Houd er rekening mee dat in de CSS-editor alleen details voor de huidige sessie worden weergegeven. Als u de wijzigingen opslaat en de editor vervolgens opnieuw opent, worden de gegevens over de vorige wijziging niet weergegeven in de editor, zelfs niet als u hetzelfde element opnieuw selecteert.
+   In de CSS-editor worden alleen details voor de huidige sessie weergegeven. Als u de wijzigingen opslaat en de editor vervolgens opnieuw opent, worden de gegevens over de vorige wijziging niet weergegeven in de editor, zelfs niet als u hetzelfde element opnieuw selecteert.
 
    >[!IMPORTANT]
    >
@@ -212,7 +211,7 @@ Beschikbaar voor [!UICONTROL A/B], [!UICONTROL Automated Personalization], en [!
 
 Wijzig de URL in de koppeling.
 
-Gebruik Koppeling bewerken om de kiezer bij te werken zodat deze naar hetzelfde afbeeldingselement wijst. Koppelingen naar een ander afbeeldingselement worden echter niet ondersteund. Als u een koppeling wilt maken naar een ander afbeeldingselement, verwijdert u de oorspronkelijke handeling uit de code-editor en gebruikt u [!UICONTROL Visual Experience Composer] om de handeling toe te passen op het andere afbeeldingselement.
+Gebruik Koppeling bewerken om de kiezer bij te werken zodat deze naar hetzelfde afbeeldingselement wijst. Koppelingen naar een ander afbeeldingselement worden echter niet ondersteund. Als u een koppeling wilt maken naar een ander afbeeldingselement, verwijdert u de oorspronkelijke handeling uit de code-editor en gebruikt u de opdracht [!UICONTROL Visual Experience Composer] om de handeling toe te passen op het andere afbeeldingselement.
 
 ### Invoegen voor
 
@@ -222,21 +221,21 @@ De volgende opties zijn beschikbaar:
 
 Voeg om het even welk soort element aan uw pagina naast het wijzigen van bestaande inhoud toe. Voeg tekst, code, lijsten en meer toe om geheel verschillende ervaringen te maken die u wilt testen.
 
-Selecteer een element op de pagina, klik dan [!UICONTROL Insert Before] en kies of u een beeld, HTML, of tekst wilt opnemen. Het ingevoegde element wordt vóór het geselecteerde element weergegeven.
+Selecteer een element op de pagina en klik op [!UICONTROL Insert Before] en kiest u of u een afbeelding, HTML of tekst wilt invoegen. Het ingevoegde element wordt vóór het geselecteerde element weergegeven.
 
-Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pagina, uw CSS en andere opties voor paginaconfiguratie. Geldige HTML is vereist om de pagina correct te laten verschijnen. Test de pagina altijd nadat u een item hebt ingevoegd om er zeker van te zijn dat het er naar behoren uitziet.
+Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pagina, uw CSS en andere opties voor paginaconfiguratie. Geldige HTML is vereist om de pagina correct weer te geven. Test de pagina altijd nadat u een item hebt ingevoegd om er zeker van te zijn dat het er naar behoren uitziet.
 
-[!UICONTROL Recommendations] ondersteunt  [!UICONTROL Insert Before] de inhoud van DIV-, SECTION- en ARTIKEL-tags.
+[!UICONTROL Recommendations] supports [!UICONTROL Insert Before] de inhoud van DIV-, SECTION- en ARTIKEL-tags.
 
-**Opmerking:voor het** invoegen van een afbeelding  [!DNL Adobe Scene7 Publishing System] is deze ingeschakeld, zodat u toegang hebt tot de afbeeldingsbibliotheek.
+**Opmerking:** Als u een afbeelding invoegt, moet u [!DNL Adobe Scene7 Publishing System] is ingeschakeld, zodat u toegang hebt tot de afbeeldingsbibliotheek.
 
 #### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Recommendations als een aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) voor meer informatie.
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
 #### Ervaar fragment
 
-Voeg ervaringsfragmenten in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om optimalisatie of verpersoonlijking te helpen. Voor meer informatie, zie [AEM de Fragmenten van de Ervaring](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Invoegen na
 
@@ -246,21 +245,21 @@ De volgende opties zijn beschikbaar:
 
 Voeg om het even welk soort element aan uw pagina naast het wijzigen van bestaande inhoud toe. Voeg tekst, code, lijsten en meer toe om geheel verschillende ervaringen te maken die u wilt testen.
 
-Selecteer een element op de pagina, klik dan [!UICONTROL Insert After] en kies of u een beeld, HTML, of tekst wilt opnemen. Het ingevoegde element verschijnt na het geselecteerde element.
+Selecteer een element op de pagina en klik op [!UICONTROL Insert After] en kiest u of u een afbeelding, HTML of tekst wilt invoegen. Het ingevoegde element verschijnt na het geselecteerde element.
 
-Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pagina, uw CSS en andere opties voor paginaconfiguratie. Geldige HTML is vereist om de pagina correct te laten verschijnen. Test de pagina altijd nadat u een item hebt ingevoegd om er zeker van te zijn dat het er naar behoren uitziet.
+Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pagina, uw CSS en andere opties voor paginaconfiguratie. Geldige HTML is vereist om de pagina correct weer te geven. Test de pagina altijd nadat u een item hebt ingevoegd om er zeker van te zijn dat het er naar behoren uitziet.
 
-[!UICONTROL Recommendations] ondersteunt  [!UICONTROL Insert After] de inhoud van DIV-, SECTION- en ARTIKEL-tags.
+[!UICONTROL Recommendations] supports [!UICONTROL Insert After] de inhoud van DIV-, SECTION- en ARTIKEL-tags.
 
-**Opmerking:voor het** invoegen van een afbeelding  [!DNL Adobe Scene7 Publishing System] is deze ingeschakeld, zodat u toegang hebt tot de afbeeldingsbibliotheek.
+**Opmerking:** Als u een afbeelding invoegt, moet u [!DNL Adobe Scene7 Publishing System] is ingeschakeld, zodat u toegang hebt tot de afbeeldingsbibliotheek.
 
 #### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Recommendations als een aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) voor meer informatie.
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
 #### Ervaar fragment
 
-Voeg ervaringsfragmenten in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om optimalisatie of verpersoonlijking te helpen. Voor meer informatie, zie [AEM de Fragmenten van de Ervaring](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Vervangen door
 
@@ -282,23 +281,23 @@ Na het synchroniseren van activiteiten, zou de levering URL als het volgende voo
 
 Recommendations biedt ondersteuning voor Vervangen door in DIV-, SECTION- en ARTIKEL-tags.
 
-**Opmerking:voor het** wisselen van afbeeldingen is een Adobe Scene7 Publishing System-account vereist.
+**Opmerking:** Voor het wisselen van afbeeldingen is een Adobe Scene7 Publishing System-account vereist.
 
-#### HTML-aanbieding
+#### HTML-aanbod
 
-Selecteer een andere aanbieding in de [!UICONTROL Content Library].
+Selecteer een ander voorstel van de [!UICONTROL Content Library].
 
-**Opmerking:** HTML-aanbiedingen worden opgeslagen op  [!DNL Target] servers.
+**Opmerking:** HTML-aanbiedingen worden opgeslagen op [!DNL Target] servers.
 
-Een HTML-aanbieding kan maximaal 256 kB groot zijn.
+Een HTML-aanbieding kan maximaal 256 kB bedragen.
 
 #### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie [Recommendations als een aanbieding](/help/c-recommendations/recommendations-as-an-offer.md) voor meer informatie.
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
 #### Ervaar fragment
 
-Voeg ervaringsfragmenten in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om optimalisatie of verpersoonlijking te helpen. Voor meer informatie, zie [AEM de Fragmenten van de Ervaring](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ### Layout
 
@@ -308,19 +307,19 @@ De volgende opties zijn beschikbaar:
 
 Sleep het element naar een andere locatie binnen hetzelfde bovenliggende element of DIV. Andere elementen verschuiven de locatie om ruimte te maken voor het opnieuw gerangschikte element.
 
-**Opmerking:** klik op bijhouden werkt niet bij opnieuw gerangschikte items.
+**Opmerking:** Klik op bijhouden om de items niet opnieuw te rangschikken.
 
 #### Formaat wijzigen
 
-Wijzig de grootte van een element op de pagina. Wanneer u [!UICONTROL Resize] selecteert, verschijnt een handgreep in de rechterbenedenhoek van het element waarmee u die hoek kunt slepen om het formaat te wijzigen. Houd Shift ingedrukt als u dezelfde hoogte-breedteverhouding wilt behouden.
+Wijzig de grootte van een element op de pagina. Wanneer u [!UICONTROL Resize], wordt een handgreep weergegeven in de rechterbenedenhoek van het element waarmee u die hoek kunt slepen om het formaat te wijzigen. Houd Shift ingedrukt als u dezelfde hoogte-breedteverhouding wilt behouden.
 
-**Opmerking: de grootte van** inline-elementen kan niet worden gewijzigd.
+**Opmerking:** Inline-elementen kunnen niet worden vergroot of verkleind.
 
-#### {#move}
+#### Verplaatsen {#move}
 
-Verplaats elementen op de pagina. In tegenstelling tot de optie [!UICONTROL Rearrange] verschuift [!UICONTROL Move] andere elementen niet om ruimte te maken voor het element dat wordt verplaatst. Gebruik de pijltoetsen om de verplaatsing te verfijnen. (Geplande verbetering: ondersteuning om ervoor te zorgen dat verplaatste elementen niet achter andere elementen worden verborgen.)
+Verplaats elementen op de pagina. In tegenstelling tot [!UICONTROL Rearrange] optie, [!UICONTROL Move] verschuift andere elementen niet om ruimte te maken voor het element dat wordt verplaatst. Gebruik de pijltoetsen om de verplaatsing te verfijnen. (Geplande verbetering: ondersteuning om ervoor te zorgen dat verplaatste elementen niet achter andere elementen worden verborgen.)
 
-In sommige gevallen, bijvoorbeeld wanneer een CSS-beperking vereist dat een element binnen het bovenliggende element blijft, kunt u het element niet buiten het bovenliggende element plaatsen. Een element kan niet worden verplaatst buiten een container met de volgende CSS-eigenschap: `overflow: hidden`.
+In bepaalde situaties, bijvoorbeeld wanneer een CSS-beperking vereist dat een element binnen het bovenliggende element blijft, kunt u het element niet buiten het bovenliggende element plaatsen. Een element kan niet worden verplaatst buiten een container met de volgende CSS-eigenschap: `overflow: hidden`.
 
 #### Verbergen
 
@@ -330,7 +329,7 @@ Verberg het element. De witruimte blijft behouden, maar de inhoud wordt verwijde
 
 Verwijder het element. De witruimte achter de afbeelding wordt verwijderd en de ruimte waar het element is samengevouwen.
 
-**Opmerking:** Items in een &#39;klassieke&#39; box (een box die is gemaakt in een Classic-doelcampagne) kunnen met deze optie niet worden verwijderd.
+**Opmerking:** Items in een &#39;klassieke&#39; box (een box die is gemaakt in een campagne voor &#39;klassieke inhoud&#39; van Target) kunnen met deze optie niet worden verwijderd.
 
 ### Sectie uitvouwen
 
@@ -346,7 +345,26 @@ Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ong
 
 ## Overwegingen {#considerations}
 
-* Als een aanbieding HTML-inhoud bevat, raadpleegt u &quot;How at.js renders aanbiedingen with HTML content&quot; in [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) voor meer informatie.
+* Als een aanbieding HTML-inhoud bevat, raadpleegt u &quot;Hoe geeft at.js aanbiedingen met HTML-inhoud weer&quot; in [Hoe werkt at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) voor meer informatie .
+
+## Ondersteuning voor aangepaste elementen (26 oktober 2021) {#custom}
+
+De steun VEC [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components) om persoonlijke ervaringen en aanbiedingen op aangepaste elementen en op elementen in aangepaste elementen te maken en te testen. Deze functionaliteit is beschikbaar in de VEC voor alle [!DNL Target] typen activiteiten.
+
+>[!NOTE]
+>
+>VEC-ondersteuning voor aangepaste elementen wordt ondersteund in [at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (of hoger). Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u het [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), moet ook de vereiste versie van at.js worden opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
+>
+>VEC-ondersteuning voor aangepaste elementen wordt momenteel niet ondersteund door de [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen. De volgende acties zijn niet beschikbaar:
+
+* Bewerken
+   * Tekst/HTML
+   * Koppeling
+   * Bron bewerken
+
+* Inhoud vervangen
 
 ## Navigeren door elementen met het DOM-pad {#dom-path}
 
@@ -360,4 +378,4 @@ Wanneer u de cursor op het DOM-pad plaatst, wordt het bijbehorende element in de
 
 U kunt gemakkelijk aan om het even welk ouder, sibling, of kindelement binnen VEC navigeren gebruikend de weg DOM.
 
-De DOM wegeigenschap is ook beschikbaar wanneer vestiging [klik het volgen](/help/c-activities/r-success-metrics/click-tracking.md).
+De DOM-padfunctie is ook beschikbaar bij het instellen [klikken op bijhouden](/help/c-activities/r-success-metrics/click-tracking.md).
