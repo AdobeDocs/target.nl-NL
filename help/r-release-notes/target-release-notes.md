@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie | Details |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Toegevoegde ondersteuning voor webcomponenten. Persoonlijke ervaringen en aanbiedingen kunnen worden gemaakt en getest op Aangepaste elementen en op elementen in Aangepaste elementen. |
+| [!UICONTROL Visual Experience Composer] (VEC) | Extra ondersteuning voor [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). U kunt persoonlijke ervaringen en aanbiedingen maken en testen op aangepaste elementen en op elementen in aangepaste elementen. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
 
