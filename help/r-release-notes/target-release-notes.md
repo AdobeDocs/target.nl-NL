@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3fb58864e265653b48e851c8dff404589bb867a6
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie | Details |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Extra ondersteuning voor [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). U kunt persoonlijke ervaringen en aanbiedingen maken en testen op aangepaste elementen en op elementen in aangepaste elementen. |
+| [!UICONTROL Visual Experience Composer] (VEC) | Extra ondersteuning voor [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). U kunt persoonlijke ervaringen en aanbiedingen maken en testen op aangepaste elementen en op elementen in aangepaste elementen.<br>Deze release valt samen met de release van at.js versie 2.7.0. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
 
