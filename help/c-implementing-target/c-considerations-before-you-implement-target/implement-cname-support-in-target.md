@@ -1,22 +1,22 @@
 ---
 keywords: clientzorg;naam;certificaatprogramma;canonieke naam;cookies;certificaat;amc;adobe managed certificaat;digicert;domeincontroledetectie;dcv
-description: Werk met de Zorg van de Cliënt van Adobe om steun CNAME (Canonical Name) in Adobe uit te voeren [!DNL Target] om ad-blocking kwesties te behandelen.
+description: Werken met [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target] om ad-blocking kwesties te behandelen.
 title: Hoe gebruik ik CNAME als doel?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: e51c7805939e8bf32d7f358036c9070931580187
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
 
-# CNAME en Doel
+# NAAM en [!DNL Target]
 
 Instructies voor het werken met [!DNL Adobe] De Zorg van de cliënt om steun CNAME (Canonical Name) in uit te voeren [!DNL Adobe Target]. Gebruik CNAME om problemen met of beleid voor ITP-cookies (Intelligent Tracking Prevention) te verwerken en te blokkeren. Met CNAME, worden de vraag gemaakt aan een domein dat door de klant eerder dan een domein wordt bezeten door [!DNL Adobe].
 
-## Ondersteuning voor CNAME aanvragen in Doel
+## Ondersteuning voor CNAME aanvragen in [!DNL Target]
 
 1. Bepaal de lijst met hostnamen die u nodig hebt voor uw SSL-certificaat (zie de Veelgestelde vragen hieronder).
 
@@ -30,13 +30,13 @@ Instructies voor het werken met [!DNL Adobe] De Zorg van de cliënt om steun CNA
 
    >[!IMPORTANT]
    >
-   >Adobe, DigiCert, kan pas een certificaat uitgeven als deze stap is voltooid. Daarom [!DNL Adobe] kan uw verzoek om een implementatie CNAME niet vervullen tot deze stap volledig is.
+   >[!DNL Adobe]De certificeringsinstantie van DigiCert kan pas een certificaat uitgeven als deze stap is voltooid. Daarom [!DNL Adobe] kan uw verzoek om een implementatie CNAME niet vervullen tot deze stap volledig is.
 
-1. [Dit formulier invullen](/help/assets/FPC_Request_Form.xlsx) en neemt het op wanneer u [een Adobe Client Care-ticket openen waarin CNAME-ondersteuning wordt aangevraagd](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Dit formulier invullen](/help/assets/FPC_Request_Form.xlsx) en neemt het op wanneer u [open [!DNL Adobe] Clientzorgticket dat om CNAME-ondersteuning vraagt](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] clientcode:
+   * [!DNL Adobe Target] clientcode:
    * SSL-certificaathostnamen (voorbeeld: `target.example.com target.example.org`):
-   * Aankoper van SSL-certificaat (Adobe wordt ten zeerste aanbevolen, zie Veelgestelde vragen): Adobe/klant
+   * koper van SSL-certificaat ([!DNL Adobe] wordt ten zeerste aanbevolen, zie Veelgestelde vragen): Adobe/klant
    * Als de klant het certificaat aanschaft, ook wel &#39;Create Your Own Certificate&#39; (BYOC) genoemd, voert u de volgende aanvullende gegevens in:
       * Certificaatorganisatie (voorbeeld: Voorbeeld van Company Inc):
       * Organisatorische eenheid van het certificaat (facultatief, voorbeeld: Marketing):
@@ -44,7 +44,7 @@ Instructies voor het werken met [!DNL Adobe] De Zorg van de cliënt om steun CNA
       * Certificaatstatus/gebied (voorbeeld: Californië):
       * Plaats certificaat (voorbeeld: San Jose):
 
-1. Indien [!DNL Adobe] de aanschaf van het certificaat; [!DNL Adobe] werkt samen met DigiCert om uw certificaat aan te schaffen en te implementeren op Adobe productieservers.
+1. Indien [!DNL Adobe] het certificaat koopt, [!DNL Adobe] werkt samen met DigiCert om uw certificaat aan te schaffen en te implementeren op [!DNL Adobe]productieservers.
 
    Als de klant het certificaat aanschaft (BYOC), [!DNL Adobe] De Zorg van de cliënt verzendt u het certificaat ondertekenend verzoek (CSR). Gebruik de CSR wanneer u het certificaat aanschaft via de gekozen certificeringsinstantie. Nadat het certificaat is afgegeven, stuurt u een kopie van het certificaat en eventuele tussentijdse certificaten naar [!DNL Adobe] Clientservice voor implementatie.
 
@@ -66,13 +66,13 @@ U kunt uw eigen certificaat opgeven. Maar [!DNL Adobe] adviseert deze praktijk n
 
 ### Hoe lang tot mijn nieuwe SSL certificaat verloopt?
 
-Alle Adobe-gekochte certificaten zijn één jaar geldig. Zie [Het artikel van DigiCert over 1 jaar certificaten](https://www.digicert.com/blog/position-on-1-year-certificates) voor meer informatie .
+Alles [!DNL Adobe]-Ingekochte certificaten zijn één jaar geldig. Zie [Het artikel van DigiCert over 1 jaar certificaten](https://www.digicert.com/blog/position-on-1-year-certificates) voor meer informatie .
 
 ### Welke hostnames moet ik kiezen? Hoeveel hostnames per domein zou ik moeten kiezen?
 
-[!DNL Target] De implementaties van CNAME vereisen slechts één hostname per domein op het SSL certificaat en in DNS van de klant. Adobe raadt één hostnaam per domein aan. Sommige klanten vereisen meer hostnames per domein voor hun eigen doeleinden (bijvoorbeeld het testen in het opvoeren), wat wordt ondersteund.
+[!DNL Target] De implementaties van CNAME vereisen slechts één hostname per domein op het SSL certificaat en in DNS van de klant. [!DNL Adobe] adviseert één hostname per domein. Sommige klanten vereisen meer hostnames per domein voor hun eigen doeleinden (bijvoorbeeld het testen in het opvoeren), wat wordt ondersteund.
 
-De meeste klanten kiezen een hostnaam als `target.example.com`. Adobe beveelt aan deze praktijk te volgen, maar uiteindelijk is de keuze aan u. Vraag geen hostname van een bestaand DNS verslag aan. Dit veroorzaakt een conflict en vertraagt de tijd aan resolutie van uw [!DNL Target] CNAME request.
+De meeste klanten kiezen een hostnaam als `target.example.com`. [!DNL Adobe] beveelt aan deze praktijk te volgen, maar uiteindelijk is de keuze aan u. Vraag geen hostname van een bestaand DNS verslag aan. Dit veroorzaakt een conflict en vertraagt de tijd aan resolutie van uw [!DNL Target] CNAME request.
 
 ### Ik heb al een CNAME-implementatie voor [!DNL Adobe Analytics], kan ik hetzelfde certificaat of dezelfde hostnaam gebruiken?
 
@@ -80,8 +80,7 @@ Nee, [!DNL Target] vereist een aparte hostnaam en certificaat.
 
 ### Is mijn huidige implementatie van [!DNL Target] beïnvloed door ITP 2.x?
 
-Apple Intelligent Tracking Prevention (ITP) versie 2.3 introduceerde de CNAME Cloaking Mitigation-functie, die implementaties van Adobe Target CNAME kan detecteren en de vervaldatum van het cookie tot zeven dagen kan beperken. Momenteel [!DNL Target] heeft geen oplossing voor de Beperking van de Camouflatie van de NAAM van ITP. Voor meer informatie over ITP, zie [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
-
+Apple Intelligent Tracking Prevention (ITP) versie 2.3 introduceerde de CNAME Camaking Mitigation-functie, die kan detecteren [!DNL Adobe Target] De implementaties van CNAME en vermindert het verlopen van het koekje tot zeven dagen. Momenteel [!DNL Target] heeft geen oplossing voor de Beperking van de Camouflatie van de NAAM van ITP. Voor meer informatie over ITP, zie [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### Welk soort de dienstverstoringen kan ik verwachten wanneer mijn implementatie CNAME wordt opgesteld?
 
@@ -329,7 +328,7 @@ Gebruik de volgende set opdrachten (in de opdrachtregelterminal van macOS of Lin
 
    >[!NOTE]
    >
-   >Als dit bevestigingsbevel op DNS bevestiging ontbreekt maar u reeds de noodzakelijke DNS veranderingen hebt aangebracht, kunt u op uw DNS updates moeten wachten om volledig te verspreiden. DNS-records hebben een koppeling [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) die de tijd van de geheim voorgeheugenvervaldatum voor DNS antwoorden van die verslagen dicteert. Dientengevolge, zou u minstens zolang uw TTLs kunnen moeten wachten. U kunt de `dig target.example.com` of [De G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) om uw specifieke TTLs op te zoeken. Om DNS propagatie rond de wereld te controleren, zie [what smydns.net](https://whatsmydns.net/#CNAME).
+   >Als dit bevestigingsbevel op DNS bevestiging ontbreekt maar u reeds de noodzakelijke DNS veranderingen hebt aangebracht, zou u op uw DNS updates kunnen moeten wachten om volledig te verspreiden. DNS-records hebben een koppeling [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) die de tijd van de geheim voorgeheugenvervaldatum voor DNS antwoorden van die verslagen dicteert. Dientengevolge, zou u minstens zolang uw TTLs kunnen moeten wachten. U kunt de `dig target.example.com` of [De G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) om uw specifieke TTLs op te zoeken. Om DNS propagatie rond de wereld te controleren, zie [what smydns.net](https://whatsmydns.net/#CNAME).
 
 ### Hoe gebruik ik een opt-out-koppeling met CNAME
 

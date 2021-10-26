@@ -4,7 +4,7 @@ title: Waar kan ik vinden? [!DNL Target] documentatie?
 description: Leer hoe u Adobe gebruikt [!DNL Target] om de ervaring van uw klanten aan te passen om uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] -oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 25 oktober 2021 ( [Wat is gewijzigd bekijken](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 26 oktober 2021 ( [Wat is gewijzigd bekijken](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
