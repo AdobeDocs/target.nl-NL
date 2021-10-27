@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2834'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 27 oktober | [Plan en implementeer [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Extra informatie over op karretjes gebaseerde aanbevelingen toegevoegd. |
 | 26 oktober | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volledig onderwerp bijgewerkt. |
 | 25 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.5 (28 oktober 2021). |
 | 22 oktober | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | De volgende sectie toegevoegd:<ul><li>Zorg ervoor dat [!DNL Target] de activiteiten behandelen correct URLs met de parameters van het vraagkoord</li></ul> |
@@ -45,7 +46,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | 27 september | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 13 oktober 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 september | [Een ontwerp aanpassen met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Gewijzigd `$Double` tot `$double` in codevoorbeelden om mogelijke dubbelzinnigheid te voorkomen. |
 |  | [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Kan ik een profielscript gebruiken in een [!DNL Recommendations] ontwerp?</li></ul> |
-|  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende overwegingen zijn toegevoegd:<ul><li>Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.</li><li>Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.</li><li>De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle bijbehorende activiteiten die de bezoeker voor kwalificeerde.</li></ul> |
+|  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende overwegingen zijn toegevoegd:<ul><li>Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.</li><li>Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.</li><li>De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle verwante activiteiten die de bezoeker voor kwalificeerde.</li></ul> |
 |  | [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Opmerking toegevoegd in de &quot;Voordelen van het implementeren van at.js met behulp van de [!DNL Target] extensie&quot;. |
 |  | [Real-time profielsynchronisatie voor mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met nieuwe informatie. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De sectie &quot;secureOnly&quot; is bijgewerkt. |

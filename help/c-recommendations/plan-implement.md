@@ -4,9 +4,9 @@ description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Tar
 title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ function targetPageParams() {
 }
 ```
 
-### Winkelwagentweergaven/winkelwagentjes/afhandelingspagina&#39;s
+### Winkelwagentweergaven/winkelwagentjes/afhandelingspagina&#39;s {#cart}
 
 Op een winkelwagentje kunt u objecten aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. Geef hiertoe de id&#39;s van alle items in het huidige winkelwagentje van de bezoeker door met behulp van de speciale parameter `cartIds`.
 
@@ -93,6 +93,22 @@ function targetPageParams() {
       }
 }
 ```
+
+De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met &quot;[!UICONTROL Recommended For You]&quot; op gebruiker gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; op items gebaseerde algoritmen.
+
+[!DNL Target] gebruikt samenwerkings het filtreren technieken om gelijkenissen voor elk punt in de kar van de bezoeker te bepalen, dan combineert deze gedragsgelijkenissen over elk punt om een samengevoegde lijst te krijgen.
+
+[!DNL Target] biedt marketers ook de keuze om het gedrag van bezoekers binnen één sessie of over meerdere sessies te bekijken:
+
+* **Binnen één sessie**: Gebaseerd op wat andere bezoekers binnen één enkele zitting deden.
+
+* **Meerdere sessies**: Gebaseerd op wat andere bezoekers tijdens meerdere sessies deden. 
+
+Ongeacht of u het gedrag van de bezoeker in één enkele zitting of over veelvoudige zittingen bekijkt, [!DNL Target] doet aanbevelingen voor deze bezoeker op basis van de items in hun huidige winkelwagentje.
+
+Het bekijken van gedrag binnen één enkele zitting zou kunnen zinvol zijn wanneer er een gevoel is dat de producten sterk &quot;met&quot;elkaar op basis van een gebruik, een geval, of een gebeurtenis &quot;gaan. Een bezoeker koopt bijvoorbeeld een printer en heeft inkt en papier nodig. Of een bezoeker koopt pindakaas en heeft misschien ook brood en gelei nodig.
+
+Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk &quot;met elkaar meegaan&quot; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen.
 
 ### Objecten uitsluiten die al in de winkelwagentje van de bezoeker staan
 
