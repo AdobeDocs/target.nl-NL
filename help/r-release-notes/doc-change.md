@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '2834'
+source-wordcount: '2868'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,9 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 28 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De informatie over de volgende releases is toegevoegd:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5</li></ul> |
+|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release at.js 2.7.0. |
+|  | [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | De volgende sectie toegevoegd: &quot;Ondersteuning voor aangepaste elementen.&quot; |
 | 27 oktober | [Plan en implementeer [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Extra informatie over op karretjes gebaseerde aanbevelingen toegevoegd. |
 | 26 oktober | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volledig onderwerp bijgewerkt. |
 | 25 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.5 (28 oktober 2021). |

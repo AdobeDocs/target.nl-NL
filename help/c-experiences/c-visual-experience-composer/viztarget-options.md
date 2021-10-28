@@ -4,9 +4,9 @@ description: Verken de opties die beschikbaar zijn in Adobe Target Visual Experi
 title: Hoe gebruik ik de opties Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2474'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,7 @@ Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ong
 
 * Als een aanbieding HTML-inhoud bevat, raadpleegt u &quot;Hoe geeft at.js aanbiedingen met HTML-inhoud weer&quot; in [Hoe werkt at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) voor meer informatie .
 
-## Ondersteuning voor aangepaste elementen (28 oktober 2021) {#custom}
+## Ondersteuning voor aangepaste elementen {#custom}
 
 De steun VEC [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components) om persoonlijke ervaringen en aanbiedingen op aangepaste elementen en op elementen in aangepaste elementen te maken en te testen. Deze functionaliteit is beschikbaar in de VEC voor alle [!DNL Target] typen activiteiten.
 
