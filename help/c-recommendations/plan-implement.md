@@ -4,9 +4,9 @@ description: 'Leer hoe u Recommendations-activiteiten implementeert in Adobe Tar
 title: Hoe kan ik Recommendations-activiteiten implementeren?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
+source-git-commit: 2910fd1130030df79b96160b64e6bd1bdf295814
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met 
 
    Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk &quot;met elkaar meegaan&quot; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen. 
 
-Ongeacht of u het gedrag van de bezoeker in één enkele zitting of over veelvoudige zittingen bekijkt, [!DNL Target] doet aanbevelingen voor deze bezoeker op basis van de items in hun huidige winkelwagentje.
+Ongeacht of u het gedrag van de bezoeker in één enkele zitting of over veelvoudige zittingen bekijkt, [!DNL Target] doet aanbevelingen voor elke bezoeker op basis van de items in hun huidige winkelwagentje.
 
 ### Objecten uitsluiten die al in de winkelwagentje van de bezoeker staan
 
