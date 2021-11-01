@@ -4,7 +4,7 @@ description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendation
 title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
@@ -82,7 +82,6 @@ De volgende stappen veronderstellen u tot [!UICONTROL Create New Criteria] scher
 
    |[!UICONTROL Custom Criteria]|Aanbevelingen doen op basis van een aangepast bestand dat u uploadt.|<ul><li>Aangepast algoritme</li></ul>|
 
-
    >[!NOTE]
    >
    >Als u **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** kunt u instellen [regels voor gelijkenis met inhoud](#similarity).
@@ -151,7 +150,7 @@ Voor meer informatie over het kiezen van een Sleutel van de Aanbeveling, zie [De
 
    ![4 x 1 ontwerp](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Op basis van uw criteria worden slechts twee objecten aanbevolen. Als u de optie [!UICONTROL Partial Design Rendering] de eerste twee sleuven zijn ingevuld , maar de resterende twee sleuven blijven leeg . Als u echter de optie [!UICONTROL Show Backup Recommendations] de eerste twee sleuven worden gevuld op basis van de opgegeven criteria en de resterende twee sleuven worden ingevuld op basis van uw aanbevelingen voor back-up.
+   Op basis van uw criteria worden slechts twee objecten aanbevolen. Als u de optie [!UICONTROL Partial Design Rendering] de eerste twee sleuven zijn ingevuld , maar de resterende twee sleuven blijven leeg . Als u echter de optie [!UICONTROL Show Backup Recommendations] de eerste twee sleuven worden gevuld op basis van de door u opgegeven criteria en de resterende twee sleuven worden ingevuld op basis van uw aanbevelingen voor back-ups.
 
    De volgende matrix toont het resultaat dat u zult waarnemen bij het gebruik van de [!UICONTROL Partial Design Rendering] en [!UICONTROL Backup Content] opties:
 
