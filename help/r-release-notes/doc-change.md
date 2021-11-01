@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2868'
+source-wordcount: '2871'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | 28 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De informatie over de volgende releases is toegevoegd:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5</li></ul> |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release at.js 2.7.0. |
 |  | [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | De volgende sectie toegevoegd: &quot;Ondersteuning voor aangepaste elementen.&quot; |
-| 27 oktober | [Plan en implementeer [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Extra informatie over op karretjes gebaseerde aanbevelingen toegevoegd. |
+| 27 oktober | [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Toegevoegde informatie over op karretjes gebaseerde aanbevelingen. |
 | 26 oktober | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volledig onderwerp bijgewerkt. |
 | 25 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.5 (28 oktober 2021). |
 | 22 oktober | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | De volgende sectie toegevoegd:<ul><li>Zorg ervoor dat [!DNL Target] de activiteiten behandelen correct URLs met de parameters van het vraagkoord</li></ul> |

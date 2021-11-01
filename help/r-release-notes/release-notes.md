@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie | Details |
 | --- | --- |
-| Recommendations op basis van winkelwagentjes | Er is een nieuwe reeks algoritmen toegevoegd om aanbevelingen te doen op basis van de inhoud van het winkelwagentje van de bezoeker.<br>Zie &quot;Op winkelwagentje gebaseerd&quot; in [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) en &quot;Winkelwagentjes toevoegen/winkelwagentjes weergeven/uitchecken van pagina&#39;s&quot; en &quot;Items uitsluiten die zich al in het winkelwagentje van de bezoeker bevinden&quot; in [Recommendations plannen en implementeren](/help/c-recommendations/plan-implement.md). |
+| Recommendations op basis van winkelwagentjes | Er is een nieuwe reeks algoritmen toegevoegd om aanbevelingen te doen op basis van de inhoud van het winkelwagentje van de bezoeker.<br>Zie &quot;Op winkelwagentje gebaseerd&quot; in [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Winkelwagentjes toevoegen/winkelwagentjes weergeven/uitchecken van pagina&#39;s&quot; en &quot;Items uitsluiten die zich al in de winkelwagentje van de bezoeker bevinden&quot; in [Recommendations plannen en implementeren](/help/c-recommendations/plan-implement.md)en op basis van winkelwagentje in [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
 

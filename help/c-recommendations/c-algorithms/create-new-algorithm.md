@@ -4,9 +4,9 @@ description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendation
 title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,12 @@ De volgende stappen veronderstellen u tot [!UICONTROL Create New Criteria] scher
 
    | Het type Algorithm | Wanneer gebruiken | Beschikbare algoritmen |
    | --- | --- | --- |
+   | [!UICONTROL Cart-Based] | Aanbevelingen doen op basis van de inhoud van het winkelwagentje van de gebruiker. | <ul><li>Personen die ze bekeken, bekeken ze</li><li>Mensen die ze bekeken, kochten hen</li><li>Mensen die deze hebben gekocht, hebben de</li></ul>Zie voor meer informatie [Op basis van winkelwagentje](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *De aanbeveling baseren op een aanbevelingen*. |
    | [!UICONTROL Popularity-Based] | Aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker. | <ul><li>Meest bekeken op de site</li><li>Meest bekeken op rubriek</li><li>Meest bekeken door kenmerk Item</li><li>Topverkopers op de hele site</li><li>Topverkopers op rubriek</li><li>Topverkopers op objectkenmerk</li><li>Metrisch, boven op Analytics</li></ul> |
    | [!UICONTROL Item-Based] | Aanbevelingen doen op basis van het zoeken naar objecten die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken. | <ul><li>Personen die dit hebben bekeken, zagen het volgende</li><li>Mensen die dit bekeken hebben, hebben het volgende gekocht</li><li>Mensen die dit hebben gekocht, hebben het volgende gekocht</li><li>Objecten met vergelijkbare kenmerken</li></ul> |
    | [!UICONTROL User-Based] | Aanbevelingen doen op basis van het gedrag van de gebruiker. | <ul><li>Onlangs bekeken objecten</li><li>Aanbevolen voor u</li></ul> |
-   | Op basis van winkelwagentje | Aanbevelingen doen op basis van de inhoud van het winkelwagentje van de gebruiker. | <ul><li>Personen die ze bekeken, bekeken ze</li><li>Mensen die ze bekeken, kochten hen</li><li>Mensen die deze hebben gekocht, hebben de</li></ul> |
-   | [!UICONTROL Custom Criteria] | Aanbevelingen doen op basis van een aangepast bestand dat u uploadt. | <ul><li>Aangepast algoritme</li></ul> |
+
+   |[!UICONTROL Custom Criteria]|Aanbevelingen doen op basis van een aangepast bestand dat u uploadt.|<ul><li>Aangepast algoritme</li></ul>|
 
 
    >[!NOTE]
@@ -150,7 +151,7 @@ Voor meer informatie over het kiezen van een Sleutel van de Aanbeveling, zie [De
 
    ![4 x 1 ontwerp](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Op basis van uw criteria worden slechts twee objecten aanbevolen. Als u de optie [!UICONTROL Partial Design Rendering] de eerste twee sleuven zijn ingevuld , maar de resterende twee sleuven blijven leeg . Als u echter de optie [!UICONTROL Show Backup Recommendations] de eerste twee sleuven worden gevuld op basis van de door u opgegeven criteria en de resterende twee sleuven worden ingevuld op basis van uw aanbevelingen voor back-ups.
+   Op basis van uw criteria worden slechts twee objecten aanbevolen. Als u de optie [!UICONTROL Partial Design Rendering] de eerste twee sleuven zijn ingevuld , maar de resterende twee sleuven blijven leeg . Als u echter de optie [!UICONTROL Show Backup Recommendations] de eerste twee sleuven worden gevuld op basis van de opgegeven criteria en de resterende twee sleuven worden ingevuld op basis van uw aanbevelingen voor back-up.
 
    De volgende matrix toont het resultaat dat u zult waarnemen bij het gebruik van de [!UICONTROL Partial Design Rendering] en [!UICONTROL Backup Content] opties:
 
