@@ -4,9 +4,9 @@ description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendation
 title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2650'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ De volgende stappen veronderstellen u tot [!UICONTROL Create New Criteria] scher
 
 1. Selecteer zo nodig een **Itemkenmerk** en **Profielkenmerk dat moet overeenkomen**, **Aanbevelingssleutel**, **Filtersleutel**, en/of **Metrisch** om het algoritme te vormen.
 
-Voor meer informatie over het kiezen van een Sleutel van de Aanbeveling, zie [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+De resterende opties van de algoritmeconfiguratie variëren afhankelijk van het geselecteerde algoritme. Als u het configureren van het algoritme wilt voltooien, selecteert u een [!UICONTROL Recommendation Key], [!UICONTROL Filtering Key], [!UICONTROL Co-Occurrence Basis], [!UICONTROL Analytics Metric], en/of [!UICONTROL Item Attribute] en [!UICONTROL Profile Attribute to Match].
+
+Voor meer informatie over het kiezen van een [!UICONTROL Recommendation Key], zie [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Data Source] {#data-source}
 
