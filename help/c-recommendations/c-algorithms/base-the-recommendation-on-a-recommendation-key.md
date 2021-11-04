@@ -5,9 +5,9 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '3679'
+source-wordcount: '3660'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,6 @@ Er zijn vijf typen algoritmen in [!DNL Target Recommendations]:
 * [!UICONTROL Custom Criteria]
 
 Elk type algoritme verstrekt verschillende algoritmen aangewezen voor zijn type, zoals aangetoond in de volgende lijst:
-
->[!NOTE]
->
->De [!UICONTROL Cart-Based] type wordt beschreven in de onderstaande tabel en komt binnenkort beschikbaar.
 
 | Het type Algorithm | Wanneer gebruiken | Beschikbare algoritmen |
 | --- | --- | --- |
@@ -54,11 +50,11 @@ De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met 
 
 [!DNL Target] biedt marketers ook de keuze om het gedrag van bezoekers binnen één sessie of over meerdere sessies te bekijken:
 
-* **Binnen één sessie**: Gebaseerd op wat andere bezoekers binnen één enkele zitting deden.
+* **[!UICONTROL Single Session]**: Gebaseerd op wat andere bezoekers binnen één enkele zitting deden.
 
    Het bekijken van gedrag binnen één enkele zitting zou kunnen zinvol zijn wanneer er een gevoel is dat de producten sterk &quot;met&quot;elkaar op basis van een gebruik, een geval, of een gebeurtenis &quot;gaan. Een bezoeker koopt bijvoorbeeld een printer en heeft inkt en papier nodig. Of een bezoeker koopt pindakaas en heeft misschien ook brood en gelei nodig.
 
-* **Meerdere sessies**: Gebaseerd op wat andere bezoekers tijdens meerdere sessies deden.
+* **[!UICONTROL Across Sessions]**: Gebaseerd op wat andere bezoekers tijdens meerdere sessies deden.
 
    Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk &quot;met elkaar meegaan&quot; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen. 
 
