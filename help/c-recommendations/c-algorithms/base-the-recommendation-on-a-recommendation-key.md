@@ -5,9 +5,9 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3709'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met 
 
 * **[!UICONTROL Across Sessions]**: Gebaseerd op wat andere bezoekers tijdens meerdere sessies deden.
 
-   Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk &quot;met elkaar meegaan&quot; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen. 
+   Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk met elkaar &#39;meegaan&#39; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen. 
 
 [!DNL Target] doet aanbevelingen voor elke bezoeker op de punten in hun huidige kar wordt gebaseerd die, ongeacht of u bezoekersgedrag binnen één enkele zitting of over veelvoudige zittingen bekijkt.
 
@@ -113,7 +113,7 @@ De aanbeveling wordt bepaald door het punt dat het vaakst is bekeken. Dit wordt 
 * 5 punten voor elke volgende weergave
 * Aan het einde van de sessie worden alle waarden door 2 gedeeld
 
-Als u surfboardA en surfboardB bijvoorbeeld in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de zitting beëindigt, hebt u A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
+Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de zitting beëindigt, hebt u A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
 
 Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
@@ -139,7 +139,11 @@ Als u het algoritme Meest bekeken door Categorie selecteert, kunt u de volgende 
 
 ### Meest bekeken door kenmerk Item
 
-(Info binnenkort beschikbaar)
+Aanbevolen items of media die vergelijkbaar zijn met de meest bekeken items of media op uw site.
+
+Met dit algoritme kunt u selecteren op welk itemkenmerk u de aanbeveling wilt baseren, bijvoorbeeld &quot;Naam&quot; of &quot;Merk&quot;.
+
+Vervolgens selecteert u welke profielkenmerken uit het profiel van de bezoeker overeenkomen, bijvoorbeeld Favoriete merk, Laatste object toegevoegd aan winkelwagentje of Meest bekeken presentatie.
 
 ### Topverkopers op de hele site {#top-sellers}
 
