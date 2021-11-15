@@ -1,21 +1,21 @@
 ---
 keywords: Doelstelling
-description: Leer hoe Adobe [!DNL Target] de conversiesnelheid, lift, betrouwbaarheid (statistische significantie) en betrouwbaarheidsinterval voor elke ervaring toont en berekent.
+description: Meer informatie over Adobe [!DNL Target] toont en berekent de omrekeningskoers, de lift, het vertrouwen, en het betrouwbaarheidsinterval voor elke ervaring.
 title: Hoe bekijk ik het Tarief van de Omzetting, Lift, en het Niveau van het Vertrouwen?
-feature: Rapporten
+feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2111'
 ht-degree: 0%
 
 ---
 
 # Omrekeningskoers
 
-De conversiesnelheid, de lift, het vertrouwen (statistische significantie) en het betrouwbaarheidsinterval worden voor elke ervaring gerapporteerd.
+Voor elke ervaring worden de omrekeningskoers, de lift, het betrouwbaarheidsinterval en het betrouwbaarheidsinterval gerapporteerd.
 
-In de volgende afbeelding ziet u de diagramkop voor een voorbeeldactiviteit met de gemarkeerde [!UICONTROL Conversion Rate]-, [!UICONTROL Lift]- en [!UICONTROL Confidence]-koppen.
+In de volgende afbeelding ziet u de diagramkop voor een voorbeeldactiviteit met de [!UICONTROL Conversion Rate], [!UICONTROL Lift], en [!UICONTROL Confidence] kopteksten gemarkeerd.
 
 ![](assets/conversion-rate.jpg)
 
@@ -45,44 +45,25 @@ Lift = (Experience CR - Control CR) / Control CR
 
 Als de controle 0 is, is er geen percentagelift.
 
-## Vertrouwen (statistische significantie) {#section_35DB6724813D40C7B0808DE18FE595C1}
-
-Dit aantal vertegenwoordigt de waarschijnlijkheid dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
-
-Zie [Vertrouwensniveau en Vertrouwensinterval](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Detailgegevens {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV-, RPV- en verkoopgegevens worden voor elke ervaring weergegeven als u een vak Plaatsvolgorde (`orderConfirmPage`) hebt ingevoegd en dit als het conversiemavak hebt geselecteerd.
+De AOV-, RPV- en verkoopgegevens worden voor elke ervaring weergegeven als u een plaatsorder hebt ingevoegd (`orderConfirmPage`) en selecteert u deze als het conversiekader.
 
-## Vertrouwensniveau en betrouwbaarheidsinterval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Vertrouwen en vertrouwen {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
-Voor elke ervaring worden het betrouwbaarheidsniveau en het betrouwbaarheidsinterval weergegeven.
+Voor elke ervaring, worden het vertrouwen en het betrouwbaarheidsinterval getoond.
 
-Conversies en doorlopende variabelen voor op doelen gebaseerde metriek, zoals omzet- en betrokkenheidsmetriek, worden als volgt berekend:
+U kunt offlineberekeningen voor Analytics voor Doel (A4T) uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor analyse voor doel (A4T)&quot; hieronder voor meer informatie.
 
-* **Conversie:** ja of nee
-* **Alle andere:** waarden over een bereik
+### Vertrouwen {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-U kunt offlineberekeningen voor Analytics voor Doel (A4T) uitvoeren, maar het vereist een stap met gegevensuitvoer in [!DNL Analytics]. Zie &quot;Offlineberekeningen uitvoeren voor analyse voor doel (A4T)&quot; hieronder voor meer informatie.
-
-### Vertrouwensniveau {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
-
-Het *betrouwbaarheidsniveau* wordt vertegenwoordigd door het donkerdere percentage in de kolom van het Tarief van de Omzetting voor elke ervaring.
+Het vertrouwen van een getoonde ervaring of aanbieding is een waarschijnlijkheid (uitgedrukt als percentage) om een minder extreem resultaat te verkrijgen dan het resultaat dat daadwerkelijk wordt waargenomen, indien de nulhypothese waar is, d.w.z. indien er geen verschil is in omrekeningskoersen tussen die ervaring of dat aanbod, en de ervaring/het aanbod van de controle. Wat de p-waarden betreft, wordt dit vertrouwen weergegeven als een 1-p-waarde. Eenvoudiger gezegd, geeft een hoger vertrouwen aan dat de gegevens minder consistent zijn met de aanname dat het aanbod/de ervaring van de controle en de niet-controle gelijke omrekeningskoersen hebben. Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
-Het betrouwbaarheidsniveau, of statistische significantie, geeft aan hoe waarschijnlijk het is dat het succes van een ervaring niet te wijten was aan toeval. Een hoger betrouwbaarheidsniveau geeft aan:
+Alvorens om het even welke bedrijfsbesluiten te nemen, probeer om te wachten tot uw steekproefgrootte groot genoeg is en dat de vier bars van vertrouwen op één of meerdere ervaringen voor een ononderbroken tijdsduur verenigbaar blijven om de resultaten te verzekeren stabiel zijn.
 
-* De ervaring verschilt aanzienlijk van de controle.
-* De ervaringsprestaties zijn niet alleen te wijten aan ruis.
-* Als u deze test opnieuw uitvoert, is het waarschijnlijk dat u dezelfde resultaten zult zien.
-
-Als het betrouwbaarheidsniveau boven 90% of 95% ligt, kan het resultaat als statistisch significant worden beschouwd. Alvorens om het even welke bedrijfsbesluiten te nemen, probeer om te wachten tot uw steekproefgrootte groot genoeg is en dat de vier bars van vertrouwen op één of meerdere ervaringen voor een ononderbroken tijdsduur verenigbaar blijven om de resultaten te verzekeren stabiel zijn.
-
->[!NOTE]
->
->Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
 
 ### Vertrouwelijk interval {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
@@ -90,22 +71,22 @@ Als het betrouwbaarheidsniveau boven 90% of 95% ligt, kan het resultaat als stat
 >
 >Momenteel, wordt het betrouwbaarheidsinterval berekend slechts voor binaire metriek.
 
-Het *betrouwbaarheidsinterval* is een bereik waarbinnen de werkelijke waarde op een bepaald betrouwbaarheidsniveau kan worden gevonden. Het betrouwbaarheidsinterval wordt weergegeven als een lichtgrijs +/- percentage in de kolom Conversiesnelheid. In het onderstaande voorbeeld is het betrouwbaarheidsinterval voor de lift van Experience B plus of min 15,65%.
+De *betrouwbaarheidsinterval* is een reeks schattingen waarbinnen de werkelijke waarde van de maatstaf op een bepaald betrouwbaarheidsniveau kan worden gevonden. Doel geeft altijd een betrouwbaarheidsinterval van 95% weer. Het betrouwbaarheidsinterval wordt weergegeven als een lichtgrijs +/- percentage in de kolom Conversiesnelheid. In het onderstaande voorbeeld is het betrouwbaarheidsinterval voor de lift van Experience B plus of min 15,65%.
 
 ![](assets/conversion_rate.png)
 
-**Voorbeeld: de RPV van** een ervaring is $10, het betrouwbaarheidsniveau is 95% en de  **** betrouwbaarheidsintervalis $5 tot $15. Als we deze test meerdere keren zouden uitvoeren, zou 95% van de tijd de RPV tussen $5 en $15 liggen.
+**Voorbeeld:** De waargenomen RPV van een ervaring is $10, en zijn 95% **betrouwbaarheidsinterval** is $5 tot $15. Onbekend voor ons is de werkelijke RPV $12. Als we deze test meerdere keren uitvoeren, zal 95% van de tijd die we berekenen het betrouwbaarheidsinterval bevatten _true_ waarde van de RPV van $12.
 
 **Wat beïnvloedt het vertrouwensinterval?** De formule volgt de statistische standaardmethoden voor de berekening van betrouwbaarheidsintervallen.
 
-* **Samplegrootte:** Als het monster groeit, wordt het interval kleiner of kleiner. Dit wordt geprefereerd aangezien het betekent uw rapporten dichter aan de ware waarde van succes metrisch raken.
-* **Standaardafwijking kleiner:** meer vergelijkbare resultaten, zoals vergelijkbare AOV&#39;s of vergelijkbare nummers of bezoekers die elke dag converteren, verminderen de standaardafwijking.
+* **Voorbeeldformaat:** Als het monster groeit, zal het interval krimpen of smal. Dit wordt geprefereerd aangezien het betekent uw rapporten dichter aan de ware waarde van succes metrisch raken.
+* **Standaardafwijking kleiner:** Vergelijkbare resultaten, zoals vergelijkbare AOV&#39;s of vergelijkbare nummers of bezoekers die elke dag converteren, verminderen de standaardafwijking.
 
 ## De Berekening van het vertrouwen en hoe te om het off-line uit te voeren {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-Het [gedownloade CSV-rapport](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) bevat alleen onbewerkte gegevens en bevat geen berekende meetgegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests.
+De [gedownload CSV-rapport](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) omvat alleen onbewerkte gegevens en omvat geen berekende meetwaarden, zoals inkomsten per bezoeker, lift of betrouwbaarheid die voor A/B-tests worden gebruikt.
 
-Als u deze berekende metriek wilt berekenen, downloadt u het Excel-bestand [Complete Trust Calculator](/help/assets/complete_confidence_calculator.xlsx) om de waarde van de activiteit in te voeren of bekijkt u de [statistische berekeningen die door Target](/help/assets/statistical-calculations.pdf) worden gebruikt.
+Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrouwbaarheidscalculator](/help/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren of de [Door Target gebruikte statistische berekeningen](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -113,17 +94,17 @@ Als u deze berekende metriek wilt berekenen, downloadt u het Excel-bestand [Comp
 
 ## Offlineberekeningen uitvoeren voor analyses voor Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics].
+U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics].
 
-Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test berekening van de student uit te voeren, is de &quot;som van kwadraten&quot;vereist om de variantie te berekenen, die in de noemer van t-statistiek wordt gebruikt. [In dit document worden de ](/help/assets/statistical-calculations.pdf) details van de gebruikte wiskundige formules uitgelegd. De som van vierkanten kan van [!DNL Analytics] worden teruggewonnen. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test berekening van de student uit te voeren, is de &quot;som van kwadraten&quot;vereist om de variantie te berekenen, die in de noemer van t-statistiek wordt gebruikt. [In dit document worden de details uitgelegd](/help/assets/statistical-calculations.pdf) van de gebruikte wiskundige formules. De som van de vierkanten kan worden opgehaald [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
 
 Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u een voorbeeld van het totale aantal paginaweergaven per bezoeker voor een bepaald tijdsbestek, misschien een paar dagen (een paar duizend gegevenspunten is alles wat u nodig hebt). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 
-**Hiervoor gebruikt u de functie voor  [!DNL Analytics] gegevensexport:**
+**Als u de opdracht [!DNL Analytics] functie voor het exporteren van gegevens om dit te doen:**
 
-1. Meld u aan bij [!DNL Adobe Analytics].
+1. Aanmelden bij [!DNL Adobe Analytics].
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
-1. Vul op het tabblad **[!UICONTROL Data Warehouse Request]** de velden in.
+1. Op de **[!UICONTROL Data Warehouse Request]** , vult u de velden in.
 
    Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
@@ -132,18 +113,18 @@ Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u
    | Naam aanvraag | Geef een naam op voor uw aanvraag. |
    | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br>Als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  De dossiers van de Data Warehouse nemen langer om de langere gevraagde tijdspanne te verwerken, zodat is het altijd beste om een kleine tijdspanne eerst om gegevens te verzoeken om ervoor te zorgen uw dossier het verwachte resultaat terugkeert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Beschikbare segmenten | Pas indien nodig een segment toe. |
-   | Uitsplitsingen | Selecteer de gewenste afmetingen:  Standaard is OOTB (out-of-the-box) en Aangepast bevat Vars en props. U kunt het beste &quot;Bezoeker-id&quot; gebruiken als er gegevens op bezoekersidentiteitsniveau nodig zijn in plaats van &quot;Bezoeker-id Experience Cloud&quot;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of HULP (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
+   | Uitsplitsingen | Selecteer de gewenste afmetingen: Standaard is OOTB (out-of-the-box) en Aangepast bevat Vars en props. U kunt het beste &quot;Bezoeker-id&quot; gebruiken als er gegevens op bezoekersidentiteitsniveau nodig zijn in plaats van &quot;Bezoeker-id Experience Cloud&quot;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of HULP (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
    | Metrisch | Selecteer de gewenste meetgegevens. Standaard is OOTB, terwijl Aangepast aangepaste gebeurtenissen bevat. |
    | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
-   | Levering plannen | Voer een e-mailadres in waarnaar het bestand moet worden verzonden, geef het bestand een naam en selecteer [!UICONTROL Send Immediately].<br>Opmerking: Het bestand kan via FTP worden geleverd onder  [!UICONTROL Advanced Delivery Options]<br>![Planningslevering](/help/c-reports/assets/datawarehouse3.png). |
+   | Levering plannen | Voer een e-mailadres in waarnaar u het bestand wilt verzenden, geef het bestand een naam en selecteer vervolgens [!UICONTROL Send Immediately].<br>Opmerking: Het bestand kan via FTP worden geleverd onder [!UICONTROL Advanced Delivery Options]<br>![Levering plannen](/help/c-reports/assets/datawarehouse3.png). |
 
 1. Klik op **[!UICONTROL Request this Report]**.
 
-   De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk ogenblik controleren door [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] te klikken.
+   De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk gewenst moment controleren door op [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
 
-   Als u gegevens die u in het verleden hebt aangevraagd opnieuw wilt aanvragen, kunt u een oud verzoek van [!UICONTROL Request Manager] naar wens dupliceren.
+   Als u gegevens die u in het verleden hebt aangevraagd opnieuw wilt aanvragen, kunt u een oude aanvraag van het [!UICONTROL Request Manager] indien nodig.
 
-Raadpleeg de volgende koppelingen in de Help van [!DNL Analytics] voor meer informatie over [!DNL Data Warehouse]:
+Meer informatie over [!DNL Data Warehouse], zie de volgende koppelingen in de [!DNL Analytics] Help-documentatie:
 
 * [Een Data Warehouse-aanvraag maken](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
 * [Aanbevolen werkwijzen voor Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
@@ -171,40 +152,40 @@ U kunt rapporten weergeven met de volgende telmethoden:
 
 * **Bezoeker:** Een unieke deelnemer aan de activiteit, gedurende de levensduur van de activiteit.
 
-   Een persoon wordt als nieuwe gegadigde beschouwd als hij of zij de site bezoekt vanuit een nieuwe computer of een nieuwe browser; verwijdert het cookie; of converteert en retourneert de activiteit met dezelfde cookie. Een deelnemer wordt geïdentificeerd door de PCID in het cookie van de bezoeker. Als de PCID verandert, wordt de persoon beschouwd als een nieuwe bezoeker.
+   Een persoon wordt als nieuwe gegadigde beschouwd als hij of zij de site bezoekt vanuit een nieuwe computer of een nieuwe browser; verwijdert het cookie; of converteert en retourneert de activiteit met dezelfde cookie. Een deelnemer wordt door de PCID geïdentificeerd in het cookie van de bezoeker. Als de PCID verandert, wordt de persoon beschouwd als een nieuwe bezoeker.
 
 * **Bezoek:** Een unieke deelnemer aan een ervaring tijdens een enkele browsersessie van 30 minuten.
 
-   Als een conversie is bereikt of een bezoeker na minimaal 30 minuten weer naar de site terugkeert, telt een terugkerende bezoeker als een nieuw bezoek. Een bezoek wordt geïdentificeerd door `sessionID` in het mbox koekje van de bezoeker. Wanneer `sessionID` verandert, wordt het bezoek beschouwd als nieuw.
+   Als een conversie is bereikt of een bezoeker na minimaal 30 minuten weer naar de site terugkeert, telt een terugkerende bezoeker als een nieuw bezoek. Een bezoek wordt vastgesteld door de `sessionID` in het cookie van de bezoeker. Wanneer de `sessionID` wijzigingen , wordt het bezoek als nieuw beschouwd .
 
-* **Afdruk/paginaweergave:** Telkens wanneer een bezoeker een pagina van de activiteit laadt, wordt geteld.
+* **Afdruk-/paginaweergave:** Telkens wanneer een bezoeker een pagina van de activiteit laadt.
 
    Eén bezoek kan verschillende indrukken van bijvoorbeeld uw homepage bevatten.
 
 >[!NOTE]
 >
->Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook als de PCID- en `sessionID`-waarden niet veranderen.
+>Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook voor PCID&#39;s en `sessionID` waarden veranderen niet.
 
-## Waarom adviseert [!DNL Target] het gebruiken van t-tests van de Student? {#t-test}
+## Waarom doet [!DNL Target] adviseren het gebruiken van t-tests van de Student? {#t-test}
 
 A/B-tests zijn experimenten om de gemiddelde waarde van bepaalde metrische bedrijfswaarden in een besturingsvariant (ook wel een ervaring genoemd) te vergelijken met de gemiddelde waarde van die metrische waarde in een of meer alternatieve ervaringen.
 
-[!DNL Target] Het verdient aanbeveling twee T-tests [ van ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)studenten te gebruiken, aangezien deze minder veronderstellingen vereisen dan alternatieven zoals z-tests, en de geschikte statistische test zijn voor het uitvoeren van paarsgewijze vergelijkingen van (kwantitatieve) bedrijfsmetriek tussen een controleervaring en alternatieve ervaringen.
+[!DNL Target] raadt u aan [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test), aangezien deze minder veronderstellingen vereisen dan alternatieven zoals z-tests, en de geschikte statistische test zijn voor het uitvoeren van paarsgewijze vergelijkingen van (kwantitatieve) bedrijfsmetriek tussen een controleervaring en alternatieve ervaringen.
 
 ### Meer details
 
 Wanneer het runnen van online A/B tests, wordt elke gebruiker/bezoeker willekeurig toegewezen aan één enkele variant. Vervolgens meten we de maatstaven(s) van de betrokken ondernemingen (bijv. omzettingen, orders, inkomsten, enz.) voor bezoekers in elke variant. De statistische test die we vervolgens gebruiken, test de hypothese dat de gemiddelde maatstaf van het bedrijfsleven (bv. omrekeningskoers, orders per gebruiker, inkomsten per gebruiker, enz.) gelijk is voor het bedieningsorgaan en een bepaalde alternatieve variant.
 
-Hoewel de bedrijfsmetrische waarde zelf volgens één of andere willekeurige distributie zou kunnen worden verdeeld, zou de distributie van het gemiddelde van dit metrisch (binnen elke variant) in een normale distributie via [Centrale Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) moeten samenkomen. Hoewel er geen garantie is voor de snelheid waarmee deze bemonsteringsspreiding van het gemiddelde zal converteren naar normaal, wordt deze voorwaarde doorgaans bereikt gezien de omvang van de bezoekers bij online testen.
+Hoewel de bedrijfsmetrische waarde zelf volgens één of andere willekeurige distributie zou kunnen worden verdeeld, zou de distributie van het gemiddelde van dit metrisch (binnen elke variant) in een normale distributie via moeten samenkomen [Centrale limiet](https://en.wikipedia.org/wiki/Central_limit_theorem). Hoewel er geen garantie is voor de snelheid waarmee deze bemonsteringsspreiding van het gemiddelde zal converteren naar normaal, wordt deze voorwaarde doorgaans bereikt gezien de omvang van de bezoekers bij online testen.
 
-Gezien deze normaliteit van het gemiddelde kan worden aangetoond dat de te gebruiken teststatistiek een t-verdeling volgt, omdat het de verhouding is tussen een normaal verdeelde waarde (het verschil in gemiddelden) en een schaaltermijn op basis van een schatting op basis van de gegevens (de standaardfout van het verschil in gemiddelden). De t-test van de **Student** is dan de geschikte hypothesetest, aangezien de teststatistiek een t-verdeling volgt.
+Gezien deze normaliteit van het gemiddelde kan worden aangetoond dat de te gebruiken teststatistiek een t-verdeling volgt, omdat het de verhouding is tussen een normaal verdeelde waarde (het verschil in gemiddelden) en een schaaltermijn op basis van een schatting op basis van de gegevens (de standaardfout van het verschil in gemiddelden). De **t-test** Vervolgens wordt de juiste hypothesetest uitgevoerd, aangezien de teststatistiek een t-verdeling volgt.
 
 ### Waarom geen andere tests worden gebruikt
 
-Een **z-test** is niet geschikt omdat in het typische A/B-testscenario de noemer van de teststatistiek niet is afgeleid van een bekende variantie en in plaats daarvan moet worden geschat aan de hand van de gegevens.
+A **z-test** technisch niet geschikt is omdat in het typische A/B-testscenario de noemer van de teststatistiek geen afgeleid product is van een bekende variantie en in plaats daarvan moet worden geschat op basis van de gegevens. Voor grote monsters zijn de z-test en de t-test echter identiek.
 
-**Chi-kwadraat-** tests worden niet gebruikt omdat deze geschikt zijn om te bepalen of er een kwalitatief verband is tussen twee varianten (d.w.z. een nulhypothese dat er geen verschil is tussen varianten). T-tests zijn geschikter voor het scenario _kwantitatief_ dat metriek vergelijkt.
+**Chi-kwadraat testen** niet worden gebruikt omdat deze geschikt zijn om te bepalen of er een kwalitatieve relatie bestaat tussen twee varianten (d.w.z. een nulhypothese dat er geen verschil is tussen varianten). T-tests zijn geschikter voor het scenario van _kwantitatief_ het vergelijken van metriek.
 
-De **Mann-Whitney U test** is een niet-parametrische test, die passend is wanneer de bemonsteringsverdeling van de gemiddelde metrische waarde van het bedrijf (voor elke variant) normaal niet wordt verdeeld. Nochtans zoals eerder besproken, gezien de omvang van verkeer betrokken bij online het testen, typisch de Centrale Grenswaarden van Theorem van toepassing, en zodat kan t-test veilig worden toegepast.
+De **Mann-Whitney U test** is een niet-parametrische test, die geschikt is wanneer de bemonsteringsverdeling van de gemiddelde metrische waarde van het bedrijf (voor elke variant) normaal niet wordt verdeeld. Nochtans zoals eerder besproken, gezien de omvang van verkeer betrokken bij online het testen, typisch de Centrale Grenswaarden van Theorem van toepassing, en zodat kan t-test veilig worden toegepast.
 
-Complexere methoden zoals **ANOVA** (waarbij t-tests tot meer dan twee varianten worden uitgebreid) kunnen worden toegepast wanneer een test meer dan twee ervaringen heeft (&quot;A/Bn-tests&quot;). ANOVA beantwoordt echter de vraag of alle varianten hetzelfde gemiddelde hebben, terwijl we in de typische A/Bn-test meer geïnteresseerd zijn in _welke specifieke variant_ het beste is. In [!DNL Target] passen we daarom regelmatig t-tests toe waarbij elke variant op een besturingselement wordt vergeleken, met een Bonferroni-correctie voor meerdere vergelijkingen.
+Complexere methoden zoals **ANOVA** (waarbij t-tests tot meer dan twee varianten worden veralgemeend) kan worden toegepast wanneer een test meer dan twee ervaringen heeft (&quot;A/Bn-tests&quot;). ANOVA beantwoordt echter de vraag of alle varianten hetzelfde gemiddelde hebben, terwijl we bij de typische A/Bn-test meer geïnteresseerd zijn in _specifieke variant_ is het beste. In [!DNL Target]Daarom passen we regelmatig t-tests toe waarbij elke variant op een controle wordt vergeleken, met een Bonferroni-correctie om rekening te houden met meerdere vergelijkingen.
