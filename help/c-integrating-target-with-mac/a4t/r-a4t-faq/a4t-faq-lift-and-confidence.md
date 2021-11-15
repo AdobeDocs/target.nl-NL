@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over lift en vertrouwen wanneer u Analyti
 title: Waar kan ik informatie vinden over optillen en vertrouwen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Voorbeelden van niet-ondersteunde metriek- of gebruiksgevallen zijn:
 
 ## Hoe verwerkt A4T betrouwbaarheidsberekeningen? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T berekent betrouwbaarheid/p-waarden op een manier die aan regelmatige t-tests gebruikend binaire metriek verschillend is. De berekeningen die A4T gebruikt, maken het met name mogelijk dat elke gebruiker een continu metrisch resultaat heeft (niet slechts 1 of 0 voor elke gebruiker), zodat de variantie (of een relatant, de standaardafwijking) voor elke ervaring precies moet worden berekend. Extreme bestellingen worden niet in aanmerking genomen. Bovendien wordt bij de berekening van het betrouwbaarheidsinterval geen Bonferroni-correctie toegepast voor meerdere aanbiedingen.
+[!DNL Adobe Analytics] behandelt alle metriek als niet binair, en daarom, berekent vertrouwen/p-waarden op een manier die aan het gebruik van binaire metriek in een regelmatige t-test verschillend is. Met name kunnen de door A4T gebruikte berekeningen voor elke gebruiker een continu metrisch resultaat opleveren (niet slechts 1 of 0 voor elke gebruiker), zodat de variantie (of een relatant, de standaardafwijking) voor elke ervaring op de juiste wijze moet worden berekend. Extreme bestellingen worden niet in aanmerking genomen. Bovendien wordt bij de berekening van het betrouwbaarheidsinterval geen Bonferroni-correctie toegepast voor meerdere aanbiedingen.
 
 ## Werken lift en vertrouwen in ad hoc en Report Builder? Als het niet inheems is, kan ik het daar zelf doen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
