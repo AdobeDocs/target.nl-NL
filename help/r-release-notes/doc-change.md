@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
+source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
 workflow-type: tm+mt
-source-wordcount: '2879'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 16 november | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Bijgewerkt &quot;Hoe beïnvloedt het Google Chrome SameSite cookie handhavingsbeleid VEC en EEC?&quot; met informatie over de nieuwste versie van de hulplijnextensie. |
+|  | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Bijgewerkt de sectie &quot;Vraag en installeer de VEC Helper-browserextensie&quot;. |
 | 12 november | [Integreren [!DNL Recommendations] met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Nieuwe inleidende informatie toegevoegd. |
 | 28 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De informatie over de volgende releases is toegevoegd:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5</li></ul> |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release at.js 2.7.0. |
