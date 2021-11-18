@@ -4,9 +4,9 @@ description: Leer hoe te om de gegevens van ondernemingsklanten van een gegevens
 title: Wat zijn klantkenmerken en hoe gebruik ik deze?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
+source-git-commit: a600559cd4aa6bf4335af4ef1143472183a998ff
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Overweeg de volgende informatie als uw werk met klantenattributen en [!DNL Targe
 * Houd rekening met de beperkingen met betrekking tot het uploaden van bestanden, zoals beschreven in [Gegevensbestand en gegevensbronnen voor klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in de *Experience Cloud Central Interface Components Guide*. Als beste praktijken:
 
    * Enkelvoudige grote bestanden uploaden (binnen de [gespecificeerde limieten](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Enkelvoudige grote bestanden hebben de voorkeur boven meerdere kleinere bestanden.
-   * Als u de upload in verscheidene dossiers moet verdelen, zorg ervoor dat de dossiers volledig worden verwerkt alvorens nieuwe dossiers voor te leggen. Zorg ervoor dat elk bestand in een batch volledig is verwerkt voordat u de volgende batch verzendt.
+   * Als u de upload in verscheidene dossiers moet verdelen, zorg ervoor dat de dossiers volledig worden verwerkt alvorens nieuwe dossiers voor te leggen. Zorg ervoor dat elk bestand in een batch volledig is verwerkt voordat u het volgende bestand in de batch verzendt.
 
 * [!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij [!DNL Target]. In het huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt.
 * De levensduur van klantkenmerkgegevens die zijn geïmporteerd uit de [!DNL Experience Cloud] tot [!DNL Target] is afhankelijk van de levensduur van het bezoekersprofiel, dat standaard 14 dagen is. Zie voor meer informatie [Levensduur bezoekersprofiel](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
