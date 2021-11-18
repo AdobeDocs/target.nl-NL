@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3001'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 18 november | [Wijzigingen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Een opmerking in de rij Mbox toegevoegd die aangeeft dat de vakken niet meer worden ondersteund in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) op pagina&#39;s die bij .js 2 gebruiken.*x*. |
 | 16 november | [Klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Informatie toegevoegd over de beperkingen met betrekking tot het uploaden van bestanden met een koppeling naar [Gegevensbestand en gegevensbronnen voor klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in de *Experience Cloud Central Interface Components Guide*. |
 |  | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Bijgewerkt &quot;Hoe beïnvloedt het Google Chrome SameSite cookie handhavingsbeleid VEC en EEC?&quot; met informatie over de nieuwste versie van de hulplijnextensie. |
 |  | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Bijgewerkt de sectie &quot;Vraag en installeer de VEC Helper-browserextensie&quot;. |

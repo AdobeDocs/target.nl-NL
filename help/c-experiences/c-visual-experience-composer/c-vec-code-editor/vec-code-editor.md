@@ -1,29 +1,29 @@
 ---
 keywords: css kiezer;aangepaste code;code editor;Mobile Web Experience Editor
-description: Leer hoe u het deelvenster Wijzigingen in Adobe [!DNL Target] kunt gebruiken om paginawijzigingen weer te geven en extra wijzigingen toe te voegen (CSS-kiezer, Mbox en Aangepaste code).
+description: Leer hoe u het deelvenster Wijzigingen in Adobe gebruikt [!DNL Target] om paginawijzigingen weer te geven en extra wijzigingen toe te voegen (CSS-kiezer, Mbox en Aangepaste code).
 title: Welke wijzigingen kan ik aanbrengen in mijn pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
 
 # Wijzigingen
 
-Informatie over de pagina Wijzigingen in [!DNL Adobe Target] waarmee u wijzigingen op de pagina kunt bekijken en extra wijzigingen (CSS-kiezer, Mbox en Aangepaste code) kunt toevoegen.
+Informatie over de pagina Wijzigingen in [!DNL Adobe Target] Hiermee kunt u wijzigingen op de pagina weergeven en aanvullende wijzigingen toevoegen (CSS-kiezer, Mbox en Aangepaste code).
 
-De pagina van Wijzigingen toont alle veranderingen die aan uw pagina in Visuele Composer van de Ervaring (VEC) zijn aangebracht en laat u extra veranderingen aanbrengen door elk element op de pagina te klikken en [selecterend een actie](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Elke wijziging die u aanbrengt, wordt als een afzonderlijke actie of element weergegeven in de lijst [!UICONTROL Modifications]. U kunt ook wijzigingen toevoegen, zoals de volgende wijzigingstypen: CSS-kiezer, Mbox. en Aangepaste code.
+De pagina van Wijzigingen toont alle veranderingen die aan uw pagina in Visuele Composer van de Ervaring (VEC) zijn aangebracht en laat u extra veranderingen aanbrengen door elk element op de pagina te klikken en [een handeling selecteren](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Elke wijziging die u aanbrengt, verschijnt als een afzonderlijke actie of als een afzonderlijk element in het dialoogvenster [!UICONTROL Modifications] lijst. U kunt ook wijzigingen toevoegen, zoals de volgende wijzigingstypen: CSS-kiezer, Mbox. en Aangepaste code.
 
 ## Overzicht van wijzigingen {#section_EE27E7572AA74397BBDED563B2B3D509}
 
-De [!UICONTROL Modifications] pagina toont alle veranderingen die aan uw pagina in VEC zijn aangebracht. Elke wijziging die u aanbrengt, wordt als een afzonderlijke actie of element weergegeven in de lijst [!UICONTROL Modifications].
+De [!UICONTROL Modifications] toont alle veranderingen die aan uw pagina in VEC zijn aangebracht. Elke wijziging die u aanbrengt, verschijnt als een afzonderlijke actie of als een afzonderlijk element in het dialoogvenster [!UICONTROL Modifications] lijst.
 
 ![](assets/codeeditor_page_mods.png)
 
-Gebruik de pagina van Wijzigingen om kleine veranderingen in selecteur aan te brengen die het Doel kiest wanneer u VEC gebruikt om te vormen hoe de inhoud wordt geleverd. U kunt de inhoud of een HTML-kenmerk wijzigen. U kunt de code ook bewerken om het equivalent van een HTML-aanbieding in een box te maken.
+Gebruik de pagina van Wijzigingen om kleine veranderingen in selecteur aan te brengen die het Doel kiest wanneer u VEC gebruikt om te vormen hoe de inhoud wordt geleverd. U kunt de inhoud of het kenmerk HTML wijzigen. U kunt de code ook bewerken om het equivalent van een HTML-aanbieding binnen een mbox te maken.
 
 Met de pagina Wijzigingen kunt u:
 
@@ -31,7 +31,7 @@ Met de pagina Wijzigingen kunt u:
 
    ![](assets/codeeditor_viewchange.png)
 
-* Bewerk een bestaande handeling. Houd de cursor boven de gewenste wijziging en klik op het pictogram **[!UICONTROL Edit]**.
+* Bewerk een bestaande handeling. Houd de aanwijzer boven de gewenste wijziging en klik vervolgens op de knop **[!UICONTROL Edit]** pictogram.
 
    ![](assets/codeeditor_edit.png)
 
@@ -39,17 +39,17 @@ Met de pagina Wijzigingen kunt u:
 
    ![](assets/codeeditor_changechange1.png)
 
-* Een bestaande handeling verwijderen. Houd de cursor boven de gewenste wijziging en klik op het pictogram **[!UICONTROL Delete]**.
+* Een bestaande handeling verwijderen. Houd de aanwijzer boven de gewenste wijziging en klik vervolgens op de knop **[!UICONTROL Delete]** pictogram.
 
    ![](assets/codeditor_delete.png)
 
-* Voeg een nieuwe wijziging toe. Klik **[!UICONTROL Add Modification]** of + pictogram, dan specificeer uw veranderingen zoals hieronder beschreven.
+* Voeg een nieuwe wijziging toe. Klikken **[!UICONTROL Add Modification]** of het + pictogram, dan specificeer uw veranderingen zoals hieronder beschreven.
 
    ![](assets/codeeditor_new.png)
 
    Nadat één wijziging is gemaakt, wordt boven in het deelvenster Wijzigingen een pictogram + weergegeven in plaats van de knop Wijziging toevoegen onder in het deelvenster.
 
-* Koppel het deelvenster Wijzigingen verticaal langs de zijkant van de doelinterface of horizontaal onder aan het venster. Klik op het pictogram [!UICONTROL Dock] om te schakelen tussen de twee instellingen.
+* Koppel het deelvenster Wijzigingen verticaal langs de zijkant van de doelinterface of horizontaal onder aan het venster. Klik op de knop [!UICONTROL Dock] om tussen de twee instellingen te schakelen.
 
    ![](assets/codeditor_dock.png)
 
@@ -59,54 +59,54 @@ Met de pagina Wijzigingen kunt u:
 
 ## Wijzigingen toevoegen {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. Als u de pagina [!UICONTROL Modifications] voor een geselecteerde ervaring wilt weergeven, klikt u in de VEC op het pictogram **[!UICONTROL Modifications]** &lt;/>.
+1. Als u het dialoogvenster [!UICONTROL Modifications] pagina voor een geselecteerde ervaring, in VEC klikken **[!UICONTROL Modifications]** &lt;/>-pictogram.
 
    ![](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
-   >Als u het deelvenster Wijzigingen wilt openen in de Form-based Experience Composer, maakt of bewerkt u een HTML-aanbieding. Zie [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) voor meer informatie.
+   >Als u het deelvenster Wijzigingen wilt openen in de Form-based Experience Composer, maakt of bewerkt u een HTML-aanbieding. Zie voor meer informatie [Formuliergebaseerde Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
-   De pagina [!UICONTROL Modifications] wordt geopend, waarbij het scherm wordt gesplitst tussen de visuele modus aan de linkerkant en het deelvenster Wijzigingen aan de rechterkant. Klik op het pictogram [!UICONTROL Dock] om het deelvenster Wijzigingen verticaal langs de zijde van de doelinterface of horizontaal onder aan het venster te koppelen. U ziet dat de ervaring A in de volgende afbeelding geen eerdere wijzigingen heeft ondergaan.
+   De [!UICONTROL Modifications] pagina wordt geopend, waarbij het scherm wordt gesplitst tussen de visuele modus aan de linkerkant en het deelvenster Wijzigingen aan de rechterkant. Klik op de knop [!UICONTROL Dock] pictogram om het deelvenster Wijzigingen verticaal langs de zijde van de doelinterface of horizontaal onderaan te koppelen. U ziet dat de ervaring A in de volgende afbeelding geen eerdere wijzigingen heeft ondergaan.
 
    ![](assets/codeeditor_page.png)
 
-   De ervaring B toont de vorige wijzigingen in het [!UICONTROL Modifications] paneel op het recht.
+   De ervaring B toont de vorige wijzigingen in [!UICONTROL Modifications] aan de rechterkant.
 
    ![](assets/codeeditor_page_mods.png)
 
 1. Een wijziging toevoegen:
 
-   * Als er geen eerdere wijzigingen voor de ervaring zijn aangebracht, klikt u op de **[!UICONTROL Add Modification]**-knop onder aan het deelvenster [!UICONTROL Modifications] aan de rechterkant.
-   * Als er vorige wijzigingen voor de ervaring zijn, klik + pictogram bij de bovenkant van [!UICONTROL Modifications] paneel op de rechterkant.
+   * Als er geen eerdere wijzigingen voor de ervaring zijn aangebracht, klikt u op de knop **[!UICONTROL Add Modification]** onder aan het dialoogvenster [!UICONTROL Modifications] aan de rechterkant.
+   * Als er vorige wijzigingen zijn aangebracht in de ervaring, klikt u op het pictogram + boven aan het dialoogvenster [!UICONTROL Modifications] aan de rechterkant.
 
    In het deelvenster Wijzigingen wordt het volgende weergegeven:
 
    ![](assets/codeeditor_page_mods_add.png)
 
-1. Kies het gewenste type in de vervolgkeuzelijst **[!UICONTROL Modifications Type]**:
+1. Van de **[!UICONTROL Modifications Type]** Kies het gewenste type in de vervolgkeuzelijst:
 
    | Type wijzigingen | Details |
    |--- |--- |
    | CSS-kiezer | Geef in het vak CSS-elementkiezer het gewenste CSS-element op dat u wilt wijzigen, selecteer een handelingstype (Inhoud instellen of Kenmerk instellen) en vul vervolgens de vereiste informatie en de gewenste inhoud in. |
-   | Mbox | Geef de naam van de box en de gewenste inhoud op. |
-   | Aangepaste code | Geef een optionele naam op, schakel het selectievakje [!UICONTROL Add Code in the `<HEAD>` Sectie] desgewenst in of uit en voeg uw aangepaste code toe.<br>Als u  [!UICONTROL Add Code in the `<HEAD>` Sectie] selecteert, wordt de douanecode toegevoegd aan de   `<head>`  sectie en zijn uitvoering wacht niet op lichaam of pagina-lading gebeurtenissen. Voeg alleen `<script>`- en `<style>`-elementen toe. Als u `<div>`-tags en andere elementen toevoegt, kunnen resterende `<head>`-elementen in `<body>` komen te staan. Als u at.js gebruikt, zullen alle aanbiedingen asynchroon leveren.<br> Als u  [!UICONTROL Add Code in the `<HEAD>` Sectie] uitschakelt, wordt de aangepaste code direct na de  `<body>` tag uitgevoerd. Plaats alle code in één `<div>` om de DOM-structuur te behouden. Als u at.js gebruikt, zullen alle aanbiedingen asynchroon leveren.<br>**Opmerking**: Scripts worden asynchroon uitgevoerd. Dit betekent dat u, bijvoorbeeld, geen `document.write` of gelijkaardige manuscriptmethodes kunt gebruiken.<br>De code van de douane verstrekt een niet visuele interface aan mening, geeft uit en voegt nieuwe acties binnen VEC, op vorm-gebaseerde Composer van de Ervaring toe, en HTML biedt redacteur aan. Het paneel verstrekt een codemening van een ervaring om u te helpen complexere ervaringen bouwen, bestaande ervaringen verfijnen, en kwesties problemen oplossen.<br>Aangepaste code is bedoeld voor geavanceerde gebruikers die vertrouwd zijn met HTML, JavaScript en CSS. De codeweergave kan u helpen wijzigingen aan te passen of te perfectioneren, of selecteurproblemen te verhelpen. Deze kan ook worden gebruikt om nieuwe aangepaste code en handelingen toe te voegen. U kunt meerdere aangepaste code toevoegen en elke aangepaste code optioneel een naam geven.<br>**Opmerking**: De aangepaste code is momenteel alleen beschikbaar voor activiteiten van het type A/B en Experience Targeting (XT). Aangepaste code is uitgeschakeld voor overlay en als een omleidingsvoorstel wordt toegepast.<br>De code van de douane steunt de volgende gebruiksgevallen:<ul><li>Aangepaste JavaScript, HTML of CSS toevoegen die boven aan de pagina moet worden uitgevoerd</li><li>De code weergeven of bewerken die door VEC wordt gegenereerd nadat wijzigingen zijn aangebracht</li><li>HTML-inhoud instellen voor een kiezer (alleen CSS-kiezers)</li><li>Een kenmerk instellen op een HTML-element</li><li>Aanbiedingsinhoud toevoegen die in een regionale box moet worden geleverd</li><li>Omwisselen op DOM-gereed met jQuery</li><li>Wisselen op DOM-klaar, geen jQuery (ondersteunt Internet Explorer 8 niet)</li><li>Wisselen met DOM-polling via &quot;elementOnLoad&quot;-plug-in</li><li>Aangepaste omleiding</li></ul>Aangepaste code biedt:<ul><li>Regelnummers voor betere bruikbaarheid.</li><li>Syntaxis markeren om onjuiste syntaxis voor HTML-aanbiedingen te voorkomen.</li><li>De mogelijkheid om meerdere aangepaste codes te maken en voor elke code een optionele naam op te geven. Door meerdere aangepaste codes te maken, kunt u in de toekomst gemakkelijker fouten opsporen. In plaats van bijvoorbeeld één aangepaste code te maken om verschillende wijzigingen door te voeren, kunt u voor elke wijziging een aparte aangepaste code met een beschrijvende naam maken. Als u afzonderlijke aangepaste codes hebt, kunt u uw wijzigingen modulair en beter beheren. Merk op dat de uitvoering van veelvoudige douanecodes in een activiteit niet gewaarborgd is om in de opeenvolging te gebeuren waarin zij werden gecreeerd.</li></ul>In het deelvenster Wijzigingen wordt het scherm opgesplitst tussen de visuele modus en de codemodus. Beide modi blijven gesynchroniseerd. Elke visueel aangebrachte wijziging heeft een overeenkomstige rij in de codemening. Op dezelfde manier elke verandering die in de codemening wordt begaan toont in de visuele ervaring. Wanneer u op een rij in de codeweergave klikt, wordt het bijbehorende element op de visuele pagina geselecteerd.<br>Aangepaste code ondersteunt HTML, scripts en stijlen. U kunt elke geldige HTML-code of elk geldig script toevoegen of bewerken. |
+   | Mbox | Geef de naam van het selectievakje en de gewenste inhoud op.<br>**OPMERKING**: Mboxes worden niet meer ondersteund in de VEC op pagina&#39;s die at.js 2 gebruiken.*x*.<br>Als tijdelijke oplossing:<ul><li>Als u at.js 2 gebruikt.*x* voegt u een CSS-selectorwijziging toe in plaats van een Mbox-wijziging en voegt u de inhoud toe aan de kiezer die uw box gebruikte. </li><li>Gebruik op formulieren gebaseerde activiteiten (werkt met vakken en at.js 1.*x* en te.js 2.*x*).</li><li>Gebruik at.js 1.*x* in de VEC.</li></ul> |
+   | Aangepaste code | Geef een optionele naam op of schakel de optie [!UICONTROL Add Code in the `<HEAD>` Sectie] Schakel het selectievakje naar wens in en voeg vervolgens uw aangepaste code toe.<br>Als u [!UICONTROL Add Code in the `<HEAD>` Sectie], wordt aangepaste code toegevoegd aan de  `<head>`  en de uitvoering ervan wachten niet op de gebeurtenissen body of page-load. Alleen toevoegen `<script>` en  `<style>` elementen. Toevoegen  `<div>`  tags en andere elementen kunnen de resterende  `<head>`  elementen die in de  `<body>`. Als u at.js gebruikt, zullen alle aanbiedingen asynchroon leveren.<br> Als u [!UICONTROL Add Code in the `<HEAD>` Sectie], wordt de aangepaste code direct na de gebeurtenis `<body>` tag. Alle code onderbrengen in één code `<div>` om de DOM-structuur te behouden. Als u at.js gebruikt, zullen alle aanbiedingen asynchroon leveren.<br>**Opmerking**: Scripts worden asynchroon uitgevoerd. Dit betekent dat u bijvoorbeeld niet kunt gebruiken `document.write`  of vergelijkbare scriptmethoden.<br>De code van de douane verstrekt een niet visuele interface aan mening, geeft uit en voegt nieuwe acties binnen VEC, op vorm-gebaseerde Composer van de Ervaring toe, en de HTML biedt redacteur aan. Het paneel verstrekt een codemening van een ervaring om u te helpen complexere ervaringen bouwen, bestaande ervaringen verfijnen, en kwesties problemen oplossen.<br>Aangepaste code is bedoeld voor geavanceerde gebruikers die comfortabel zijn met HTML, JavaScript en CSS. De codeweergave kan u helpen wijzigingen aan te passen of te perfectioneren, of selecteurproblemen te verhelpen. Deze kan ook worden gebruikt om nieuwe aangepaste code en handelingen toe te voegen. U kunt meerdere aangepaste code toevoegen en elke aangepaste code optioneel een naam geven.<br>**Opmerking**: De aangepaste code is momenteel alleen beschikbaar voor activiteiten van het type A/B en Experience Targeting (XT). Aangepaste code is uitgeschakeld voor overlay en als een omleidingsvoorstel wordt toegepast.<br>De code van de douane steunt de volgende gebruiksgevallen:<ul><li>Aangepaste JavaScript, HTML of CSS toevoegen die boven aan de pagina moet worden uitgevoerd</li><li>De code weergeven of bewerken die door VEC wordt gegenereerd nadat wijzigingen zijn aangebracht</li><li>Inhoud van HTML instellen voor een kiezer (alleen CSS-kiezers)</li><li>Een kenmerk instellen op een HTML-element</li><li>Aanbiedingsinhoud toevoegen die in een regionale box moet worden geleverd</li><li>Omwisselen op DOM-gereed met jQuery</li><li>Wisselen op DOM-klaar, geen jQuery (ondersteunt Internet Explorer 8 niet)</li><li>Wisselen met DOM-polling via &quot;elementOnLoad&quot;-plug-in</li><li>Aangepaste omleiding</li></ul>Aangepaste code biedt:<ul><li>Regelnummers voor betere bruikbaarheid.</li><li>Syntaxis markeren om onjuiste syntaxis voor HTML-aanbiedingen te voorkomen.</li><li>De mogelijkheid om meerdere aangepaste codes te maken en voor elke code een optionele naam op te geven. Door meerdere aangepaste codes te maken, kunt u in de toekomst gemakkelijker fouten opsporen. In plaats van bijvoorbeeld één aangepaste code te maken om verschillende wijzigingen door te voeren, kunt u voor elke wijziging een aparte aangepaste code met een beschrijvende naam maken. Als u afzonderlijke aangepaste codes hebt, kunt u uw wijzigingen modulair en beter beheren. Merk op dat de uitvoering van veelvoudige douanecodes in een activiteit niet gewaarborgd is om in de opeenvolging te gebeuren waarin zij werden gecreeerd.</li></ul>In het deelvenster Wijzigingen wordt het scherm opgesplitst tussen de visuele modus en de codemodus. Beide modi blijven gesynchroniseerd. Elke visueel aangebrachte wijziging heeft een overeenkomstige rij in de codemening. Op dezelfde manier elke verandering die in de codemening wordt begaan toont in de visuele ervaring. Wanneer u op een rij in de codeweergave klikt, wordt het bijbehorende element op de visuele pagina geselecteerd.<br>Aangepaste code ondersteunt HTML, scripts en stijlen. U kunt elke geldige HTML-code of elk geldig script toevoegen of bewerken. |
 
 1. Voeg desgewenst aanvullende wijzigingen toe.
 
 ## Aangepaste praktijkgevallen voor code {#section_26CB3360097D400FB02E20AE5FDBA352}
 
-Het deelvenster **[!UICONTROL Custom Code]** bevat code die wordt uitgevoerd aan het begin van het laden van de pagina.
+De **[!UICONTROL Custom Code]** bevat code die wordt uitgevoerd aan het begin van het laden van de pagina.
 
-U kunt de JavaScript-code in de tag `<head>` uitvoeren. Uitvoering van code wacht niet tot de tag `<body>` in het DOM aanwezig is.
+U kunt de JavaScript-code in het dialoogvenster `<head>` tag. De uitvoering van code wacht niet op de `<body>` -tag aanwezig in het DOM.
 
-Kiezers voor volgende visuele handelingen zijn afhankelijk van de HTML-elementen die op dit tabblad zijn toegevoegd.
+Kiezers voor volgende visuele handelingen zijn afhankelijk van de HTML-elementen die op dit tabblad worden toegevoegd.
 
 Het deelvenster Aangepaste code wordt vaak gebruikt om JavaScript of CSS boven aan de pagina toe te voegen.
 
 ![](assets/codeeditor_custom.png)
 
-Gebruik de tab **[!UICONTROL Custom Code]** om:
+Gebruik de **[!UICONTROL Custom Code]** tab naar:
 
 * JavaScript inline gebruiken of koppelen naar een extern JavaScript-bestand
 
@@ -131,7 +131,7 @@ Gebruik de tab **[!UICONTROL Custom Code]** om:
 
 * HTML-fragmenten toevoegen om nieuwe elementen te definiëren
 
-   Gebruik bijvoorbeeld het volgende HTML-fragment om een overlay `<div>` te maken met de hierboven gedefinieerde CSS-klasse:
+   Gebruik bijvoorbeeld het volgende HTML-fragment om een bedekking te maken `<div>` de hierboven gedefinieerde CSS-klasse gebruiken:
 
    ```html
    <div class="overlay"></div>
@@ -161,7 +161,7 @@ Gebruik de tab **[!UICONTROL Custom Code]** om:
    </script> 
    ```
 
-* Wisselen met DOM-polling via `elementOnLoad` plug-in
+* Omwisselen met DOM-opiniepeiling via `elementOnLoad` insteekmodule
 
    Het voordeel hiervan is dat de swap eerder plaatsvindt dan op DOM-gereed. De insteekmodule handelt het vooraf verbergen en tonen af en vereist een id op het element.
 
@@ -175,7 +175,7 @@ Gebruik de tab **[!UICONTROL Custom Code]** om:
    </script> 
    ```
 
-* Aangepaste omleiding door bestaande params, `s_tnt` param (voor verouderde integratie naar Analytics), verwijzingsparam, en mbox zitting
+* Aangepaste omleiding door bestaande params `s_tnt` param (voor verouderde integratie aan Analytics), verwijzerparam, en mbox zitting
 
    ```javascript
    <style type="text/css">body{display:none!important;}</style> 
@@ -187,7 +187,7 @@ Gebruik de tab **[!UICONTROL Custom Code]** om:
 
 * Voeg Adobe Target Experience Templates toe voor gebruik in aangepaste code. De Malplaatjes van de Ervaring van het doel zijn vooraf gecodeerde steekproeven met configureerbare input die moeten worden gebruikt om gemeenschappelijke telleruse-cases uit te voeren. Deze ervaringssjablonen worden gratis aan ontwikkelaars en marketers aangeboden als uitgangspunt voor het uitvoeren van veelvoorkomende gebruiksgevallen, hetzij via de VEC of de Form-based Experience Composer. Gebruiksgevallen zijn onder andere lichtbakken, carrousels, aftellingen en meer.
 
-   Voor meer informatie, zie [de Malplaatjes van de Ervaring ](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Zie voor meer informatie [Experience Templates](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Aangepaste aanbevolen procedures voor code {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -211,7 +211,7 @@ Het doel past een nieuwe elementidentiteitskaart met de waarde &quot;CDQID&quot;
 
 **Voer geen document.write acties in de manuscripten van de douanecode uit.**
 
-Scripts worden asynchroon uitgevoerd. Hierdoor worden `document.write` handelingen vaak op de verkeerde plaats op de pagina weergegeven. Het gebruik van `document.write` in scripts die in aangepaste code zijn gemaakt, wordt afgeraden.
+Scripts worden asynchroon uitgevoerd. Dit veroorzaakt vaak `document.write` acties die op de verkeerde plaats op uw pagina worden weergegeven. Gebruiken `document.write` in scripts die in aangepaste code worden gemaakt, wordt niet aangeraden.
 
 **Als u een element maakt en het vervolgens wijzigt, verwijdert u het oorspronkelijke element niet.**
 
@@ -242,9 +242,9 @@ Bij elke wijziging wordt een nieuw element gemaakt in het deelvenster Wijziginge
 
 Met andere woorden, als u een element met tekst toevoegt, dan in een afzonderlijke actie bewerkt u dat element met verschillende tekst, toont het paneel van Wijzigingen beide acties als afzonderlijke elementen. Wanneer u het element hebt bewerkt, hebt u een nieuw element gemaakt dat het oorspronkelijke element wijzigt dat u hebt gemaakt en dat de bewerkte tekst bevat. Als u vervolgens het oorspronkelijke element verwijdert, kan de bewerkte tekst het bewerkte element niet vinden en wordt deze niet weergegeven. Het tweede element blijft in de lijst met elementen, maar heeft geen invloed op de pagina omdat het element dat wordt gewijzigd, niet meer bestaat.
 
-***Een element dat ik  `document.write` in een script heb gemaakt, wordt niet weergegeven op de positie die ik verwacht.***
+***An element I created using `document.write` in een script wordt niet weergegeven op de positie die ik verwacht.***
 
-Scripts worden asynchroon uitgevoerd. Hierdoor worden `document.write` handelingen vaak op de verkeerde plaats op de pagina weergegeven. Adobe raadt u niet aan `document.write` te gebruiken in scripts die in de aangepaste code worden gemaakt.
+Scripts worden asynchroon uitgevoerd. Dit veroorzaakt vaak `document.write` acties die op de verkeerde plaats op uw pagina worden weergegeven. Adobe adviseert niet gebruikend `document.write` in scripts die in de aangepaste code worden gemaakt.
 
 ***Mijn JavaScript geeft fouten in de aangepaste code weer.***
 
