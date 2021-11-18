@@ -1,11 +1,11 @@
 ---
-description: Wat betekenen de verschillende termen die in Adobe [!DNL Target] worden gebruikt? Vind definities van gemeenschappelijke termijnen om u te helpen meer uit [!DNL Target] krijgen.
+description: Wat zijn de verschillende termen die in Adobe worden gebruikt [!DNL Target] bedoel? Definities van algemene termen zoeken om meer informatie te krijgen [!DNL Target].
 title: Waar kan ik Termen vinden en Definities die in Doel worden gebruikt?
-feature: Overzicht
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2413'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Nuttig voor het testen van marketing van sites die geen box hebben, zoals filial
 
 **at.js**
 
-De [!DNL at.js]-bibliotheek is een nieuwe implementatiebibliotheek voor [!DNL Adobe Target] die is ontworpen voor zowel gangbare webimplementaties als toepassingen met één pagina. De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js] voor [!DNL Target] implementaties.
+De [!DNL at.js] bibliotheek is een nieuwe implementatiebibliotheek voor [!DNL Adobe Target] ontworpen voor zowel typische webimplementaties als toepassingen van één pagina. De [!DNL at.js] bibliotheek vervangt [!DNL mbox.js] for [!DNL Target] implementaties.
 
 **publiek**
 
@@ -98,7 +98,7 @@ De variaties in de inhoud die worden gemaakt wanneer u meerdere inhoudsopties te
 
 **content**
 
-De tekst of afbeelding bestaande uit een testvariatie binnen een locatie. In een multivariate test, worden een aantal inhoudsopties binnen veelvoudige plaatsen vergeleken. In methodologie MVT, wordt de inhoud soms bedoeld als *niveau*.
+De tekst of afbeelding bestaande uit een testvariatie binnen een locatie. In een multivariate test, worden een aantal inhoudsopties binnen veelvoudige plaatsen vergeleken. In de MVT-methodologie wordt de inhoud soms aangeduid als een *niveau*.
 
 **conversiembox**
 
@@ -132,7 +132,7 @@ Kan deel uitmaken van elk type test of activiteit. Er is geen aanvullende progra
 
 **dynamische mbox**
 
-Hiermee worden RIA&#39;s (Rich Internet Applications) ingeschakeld om HTML te manipuleren nadat de pagina al is geladen met technologieën zoals DHTML en AJAX.
+Laat de Rijke Toepassingen van Internet (RIAs) toe om HTML te manipuleren nadat de pagina reeds heeft geladen, door technologieën zoals DHTML en AJAX te gebruiken.
 
 **dynamische aanbieding**
 
@@ -146,7 +146,7 @@ De meting van de interesse van een bezoeker in een site, gemeten in tijd op de s
 
 **composer voor verbeterde ervaring**
 
-De [!UICONTROL Enhanced Experience Composer] is een uitbreiding van [!UICONTROL Visual Experience Composer] die u helpt een ervaring voor een iframe-bosting plaats of pagina&#39;s uitgeven die nog niet [!DNL Target] implementatie omvatten. Als u problemen hebt met het openen van uw pagina in [!UICONTROL Visual Experience Composer], probeert u [!UICONTROL Enhanced Experience Composer].
+De [!UICONTROL Enhanced Experience Composer] is een uitbreiding van de [!UICONTROL Visual Experience Composer] waarmee u een ervaring kunt bewerken voor een iframe-opbouwende site of pagina&#39;s die nog niet de [!DNL Target] uitvoering. Als u problemen hebt met het openen van de pagina in het dialoogvenster [!UICONTROL Visual Experience Composer], probeer de [!UICONTROL Enhanced Experience Composer].
 
 **Machtigingen voor Enterprise-gebruikers**
 
@@ -204,7 +204,7 @@ Om het even welke server van het Web (of domein van het Web) van waar u inhoud t
 
 **hostgroep**
 
-Zie *Omgeving*. Hostgroepen worden &#39;omgevingen&#39; genoemd in [!DNL Target Standard/Premium].
+Zie *Omgeving*. Hostgroepen worden &quot;omgevingen&quot; genoemd in [!DNL Target Standard/Premium].
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
@@ -216,17 +216,21 @@ Bezoekersspecifieke parameter die vanuit de box aan het cookie van de bezoeker w
 
 **paginaconactiviteit landing**
 
-Met behulp van een openingspagina-activiteit kunt u verschillende bestemmingspagina-inhoud voor verschillende bezoeken weergeven. Anders wordt op de landingspagina dezelfde inhoud weergegeven voor elk bezoek. Een openingspagina-activiteit vergelijkt verschillende versies van de pagina om u te helpen zien welke versie van de landende pagina succesvollere resultaten veroorzaakt. In de Norm van het Doel, die door *ervaring het richten* wordt vervangen.
+Met behulp van een openingspagina-activiteit kunt u verschillende bestemmingspagina-inhoud voor verschillende bezoeken weergeven. Anders wordt op de landingspagina dezelfde inhoud weergegeven voor elk bezoek. Een openingspagina-activiteit vergelijkt verschillende versies van de pagina om u te helpen zien welke versie van de landende pagina succesvollere resultaten veroorzaakt. In Target Standard, vervangen door *ervaring*.
 
 **locatie**
 
-Een specifiek inhoudsgebied op een pagina, dat vaak wordt opgenomen door één DOM-element. In methodologie MVT, wordt een plaats soms bedoeld als *factor*. Een full-factorial multivariate test vergelijkt alle mogelijke combinaties aanbiedingen in uw plaatsen.
+Een specifiek inhoudsgebied op een pagina, dat vaak wordt opgenomen door één DOM-element. In de MVT-methodologie wordt een locatie soms aangeduid als een *factor*. Een full-factorial multivariate test vergelijkt alle mogelijke combinaties aanbiedingen in uw plaatsen.
 
 ## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
 &quot;Marketing box,&quot;de plaats op uw Web-pagina waar de inhoud wordt getoond en bezoekersgedrag wordt geregistreerd. In sommige vakken wordt niets weergegeven. Zij zouden de vooruitgang van een bezoeker door uw Website kunnen volgen, of zouden kunnen volgen of de bezoeker een specifiek succes metrisch voltooit, zoals het toevoegen van een punt aan het winkelwagentje of het voltooien van een aankoop. Een dergelijk type box is een *conversiembox*.
+
+**mbox.js**
+
+A [!DNL Target] JavaScript-implementatiebibliotheek is vervangen.
 
 **mbox, parameter**
 
@@ -244,9 +248,9 @@ Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de 
 
 * Het is de eerste keer dat de bezoeker de site bezoekt.
 * Het is de eerste keer dat de bezoeker de site bezoekt sinds hij cookies wist.
-* Het is de eerste keer dat de bezoeker de site bezoekt sinds de levensduur van het [bezoekersprofiel](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
+* Het is de eerste keer dat de bezoeker de site bezoekt sinds de [Levensduur bezoekersprofiel](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
 
-Voor meer informatie, zie [Hoe worden de Nieuwe Bezoekers en Terugkerende metriek van Bezoekers geteld?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Vragen en antwoorden rapporteren. Contrast met &quot;Terugkerende Bezoeker&quot; hieronder.
+Zie voor meer informatie [Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Vragen en antwoorden rapporteren. Contrast met &quot;Terugkerende Bezoeker&quot; hieronder.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -276,7 +280,7 @@ Prioriteit wordt gebruikt als meerdere activiteiten worden toegewezen aan dezelf
 
 **recept**
 
-Vervangen term die de inhoud definieert die op een locatie wordt weergegeven. Zie *experience*.
+Vervangen term die de inhoud definieert die op een locatie wordt weergegeven. Zie *ervaring*.
 
 **redirector**
 
@@ -290,7 +294,7 @@ Geeft waarden door aan het vak van de doelpagina als verwijzende URL-parameters 
 
 De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruiker de site eerder heeft bezocht, ten minste 30 minuten heeft verlaten en opnieuw met dezelfde cookies naar de site is teruggekeerd. Zolang een bezoeker binnen zijn profielleven terugkeert, deze bezoeker een terugkerende bezoeker.
 
-Voor meer informatie, zie [Hoe worden de Nieuwe Bezoekers en Terugkerende metriek van Bezoekers geteld](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in het Melden van Q&amp;A. Contrast met de bovenstaande &quot;Nieuwe bezoeker&quot;.
+Zie voor meer informatie [Hoe worden de metriek Nieuwe Bezoekers en Terugkerende Bezoekers geteld](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Vragen en antwoorden rapporteren. Contrast met de bovenstaande &quot;Nieuwe bezoeker&quot;.
 
 **rol**
 
@@ -298,7 +302,7 @@ Een groep gebruikers met een specifieke set rechten.
 
 **extern aanbod**
 
-Gebruik externe aanbiedingen om inhoud te hosten buiten [!DNL Target] die [!DNL Target] verwijzingen en aan de websites van gebruikers levert. Deze inhoud kan zich in een inhoudsbeheer of een ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
+Externe aanbiedingen gebruiken om inhoud te hosten buiten [!DNL Target] dat [!DNL Target] verwijzingen en aanbiedingen naar websites van gebruikers. Deze inhoud kan zich in een inhoudsbeheer of ander systeem bevinden, om redenen van gebruiksgemak of beveiliging.
 
 **rapporten**
 
@@ -350,7 +354,7 @@ Een bezoek wordt soms een zitting genoemd. Een bezoek eindigt na 30 minuten inac
 
 **bezoeker**
 
-Een bezoeker is een persoon die toegang heeft tot uw site. Een bezoeker wordt beoordeeld aan de hand van activiteitscriteria om te bepalen of de bezoeker is opgenomen in een activiteit. Zie *entrant*.
+Een bezoeker is een persoon die toegang heeft tot uw site. Een bezoeker wordt beoordeeld aan de hand van activiteitscriteria om te bepalen of de bezoeker is opgenomen in een activiteit. Zie *nieuwkomer*.
 
 **Visual Experience Composer**
 

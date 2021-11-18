@@ -4,9 +4,9 @@ description: Leer hoe u e-mail kunt integreren met Adobe [!DNL Target Recommenda
 title: Hoe integreer ik Recommendations met e-mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Zie [Leverings-API-documentatie](https://developers.adobetarget.com/api/#server-
 
 ## Methode 2: Een e-mailsjabloon voor een rawbox gebruiken {#rawbox}
 
-Een box is gelijkaardig aan een mbox verzoek, maar voor milieu&#39;s buiten het Web, zoals e-maildienstverleners (ESPs). Omdat je dat niet hebt [!DNL mbox.js] of [!DNL at.js] om in radibox verzoeken te gebruiken, moet u uw verzoeken manueel tot stand brengen. In de onderstaande voorbeelden wordt uitgelegd hoe u met e-mailverzoeken in een tekstvak werkt.
+Een box is gelijkaardig aan een mbox verzoek, maar voor milieu&#39;s buiten het Web, zoals e-maildienstverleners (ESPs). Omdat je het [!DNL Adobe Experience Platform Web SDK] of [!DNL at.js] om in radibox verzoeken te gebruiken, moet u uw verzoeken manueel tot stand brengen. In de onderstaande voorbeelden wordt uitgelegd hoe u met e-mailverzoeken in een tekstvak werkt.
 
 >[!NOTE]
 >

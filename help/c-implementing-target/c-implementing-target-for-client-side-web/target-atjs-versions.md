@@ -4,9 +4,9 @@ description: Bekijk de details over veranderingen in elke versie van Adobe [!DNL
 title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4268'
+source-wordcount: '4270'
 ht-degree: 0%
 
 ---
@@ -242,7 +242,7 @@ at.js versie 1.6.3 bevat de volgende correcties en verbeteringen:
 * Probleem verholpen waarbij een belofte werd nagekomen in omgevingen waar geen native ondersteuning voor beloften bestond. (TNT-30974)
 * Problemen worden nu correct vastgelegd en gerapporteerd via de gebeurtenis content-rendering mislukt. Eerder werd mogelijk gemeld dat JavaScript goed was uitgevoerd, zelfs als dat niet het geval was. (TNT-30599)
 
-## at.js versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
+## at.js Versie 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
 
 Dit is een onderhoudsrelease en het volgende probleem wordt opgelost:
 
@@ -346,7 +346,7 @@ at.js versie 1.3.0 is nu beschikbaar.
 * Probleem verholpen in Experience Targeting activity setup mislukt binnen de VEC bij het schakelen tussen Bladeren en Samenstellen. (TNT-27942)
 * Probleem verholpen met onjuiste afhandeling van flikkerstijlklassen voor kliktrackelementen. (TNT-27896)
 * Probleem verholpen waarbij algemene mbox-parameters werden gemengd met alle mbox-parameters. (TNT-27846)
-* Wijzigingen aangebracht om ervoor te zorgen dat Handlebars, Mustache en andere sjabloonbibliotheken op de juiste wijze worden verwerkt door [!DNL at.js]. (TNT-27831)
+* Wijzigingen aangebracht om ervoor te zorgen dat Handlebars, Mustache en andere sjabloonbibliotheken aan de clientzijde correct worden verwerkt door [!DNL at.js]. (TNT-27831)
 * Wijzigingen aangebracht om ervoor te zorgen dat `sdidParamExpiry` wordt op de juiste wijze geïnitialiseerd en doorgegeven aan de Bezoeker-API. Deze regressie is toegevoegd aan `at.js 1.1.0`. Vorige [!DNL at.js] Dit heeft geen invloed op versies. Dit is alleen van invloed op clients die omleidingsaanbiedingen en A4T gebruiken. (TNT-27791)
 * Wijzigingen aangebracht om ervoor te zorgen dat `SCRIPT` wordt uitgevoerd ongeacht het type-kenmerk dat wordt gebruikt. (TNT-27865)
 
@@ -435,7 +435,7 @@ De volgende verbeteringen en correcties zijn opgenomen in [!DNL at.js] versie 0.
 **Datum:** 14 juli 2016
 
 * Verstrekt at.js een onderbreking voor de Dienst van identiteitskaart van de Bezoeker, die van de eigen onderbreking van de dienst onafhankelijk is.
-* Hiermee wordt een probleem in 0.9.0 verholpen dat invloed had op implementaties met at.js op sommige pagina&#39;s en mbox.js op andere pagina&#39;s.
+* Hiermee wordt een probleem in 0.9.0 verholpen dat invloed had op implementaties met at.js op sommige pagina&#39;s en mbox.js (nu afgekeurd) op andere pagina&#39;s.
 * Als u Adobe Analytics gebruikt als rapportagebron van uw activiteit, hoeft u tijdens het maken van activiteiten geen trackingserver op te geven als u mbox.js versie 61 (of hoger) of versie 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het creëren van activiteit, kunt u verlaten [!UICONTROL Tracking Server] veld leeg op [!UICONTROL Goals & Settings] pagina.
 
 ## at.js Versie 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}

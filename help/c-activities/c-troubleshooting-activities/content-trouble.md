@@ -4,9 +4,9 @@ description: Zoek naar suggesties om problemen op te lossen als de pagina de ver
 title: Hoe kan ik problemen met de levering van inhoud oplossen?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ De volgende parameters zijn beschikbaar:
 
 | mboxTrace-opties | Resultaat |
 |--- |--- |
-| `?mboxTrace=console` | Hiermee wordt het logboek als objecten afgedrukt in het logbestand van de console.<br>Voor at.js, in plaats van een nieuw browser venster of output aan de console zoals in mbox.js was, moet u het verzoek van het Netwerk inspecteren en onder Voorproef (Chrome) of Reactie (Firefox) kijken. |
+| `?mboxTrace=console` | Hiermee wordt het logboek als objecten afgedrukt in het logbestand van de console.<br>Voor at.js, in plaats van een nieuw browser venster of output aan de console zoals was in mbox.js (nu afgekeurd), moet u het verzoek van het Netwerk inspecteren en onder Voorproef (Chrome) of Reactie (Firefox) kijken. |
 | `?mboxTrace=json` | Drukt in consolelogboek als letterlijke JSON-tekenreeks af |
 | `?mboxTrace=window` | Drukt in een pop-upvenster af als een JSON-tekenreeks |
 | `?mboxTrace=disable` | Hiermee schakelt u de overtreksessiemodus uit |

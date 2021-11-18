@@ -1,14 +1,13 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
-description: Gebruik de functie mboxCreate() voor de JavaScript-bibliotheek Adobe [!DNL Target] at.js om aanbiedingen toe te passen op de dichtstbijzijnde DIV met de klassenaam mboxDefault. (om 1.js)
+description: Gebruik de functie mboxCreate() voor de Adobe [!DNL Target] in.js JavaScript-bibliotheek om aanbiedingen toe te passen op de dichtstbijzijnde DIV met de naam van de klasse mboxDefault. (om 1.js)
 title: Hoe gebruik ik de functie mboxCreate()?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -19,9 +18,9 @@ Voert een verzoek uit en past de aanbieding op dichtstbijzijnde div met mboxDefa
 
 >[!NOTE]
 >
->Deze functie is beschikbaar voor at.js versies 1.** Alleen. Deze functie is vervangen door de release van at.js 2.x. Deze functie retourneert standaardinhoud als deze wordt gebruikt met at.js 2.x.
+>Deze functie is beschikbaar voor at.js versies 1.*x* alleen. Deze functie is vervangen door de release van at.js 2.x. Deze functie retourneert standaardinhoud als deze wordt gebruikt met at.js 2.x.
 
-Deze functie is vooral ingebouwd in [!DNL at.js] om de overgang van [!DNL mbox.js] naar [!DNL at.js] te vergemakkelijken. Een nieuwer alternatief voor `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` of de richtlijn van de Angular.
+Deze functie is ingebouwd in [!DNL at.js] vooral om de overgang van [!DNL mbox.js] (nu afgekeurd) naar [!DNL at.js]. Een nieuwer alternatief voor `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` of de Angular.
 
 ## Voorbeeld
 
@@ -38,13 +37,13 @@ Deze functie is vooral ingebouwd in [!DNL at.js] om de overgang van [!DNL mbox.j
 
 `mboxCreate()` gebruikt nu het &quot;json&quot;eindpunt in plaats van het &quot;standaard&quot;eindpunt en brand asynchroon. Daarom:
 
-* [](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) Debuggingatie is iets anders.
+* [Foutopsporing](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) is iets anders.
 * Vermijd aanbiedingscode die synchrone, blokkerende vraag vereist.
 
    Bijvoorbeeld, aanbiedingen die variabelen plaatsen JavaScript die door plaatscode of andere dozen worden gebruikt die later op de pagina komen.
 
-* Zorg ervoor dat u een `<div class="mboxDefault"></div>`hebt voordat u `mboxCreate()` aanroept, omdat [!DNL at.js] er geen voor u toevoegt.
+* Zorg ervoor dat u een `<div class="mboxDefault"></div>`voordat wordt aangeroepen `mboxCreate()`, omdat [!DNL at.js] Hiermee voegt u er geen toe.
 
-* Lege functies van boven aan pagina `mboxCreate()` worden niet aanbevolen als een globale box.
+* Leeg, bovenaan pagina `mboxCreate()` functies worden niet aanbevolen als een globale mbox.
 
-   Het automatisch gemaakte globale mbox in [!DNL at.js] is een betere optie omdat het van `<head>` in brand steekt en inhoud kan vroeger terugkeren.
+   De automatisch gemaakte globale mbox in [!DNL at.js] is een betere optie omdat het van `<head>` en kan inhoud eerder retourneren.

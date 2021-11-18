@@ -1,13 +1,13 @@
 ---
-keywords: Implementatie;mbox.js niet javascript;adbox;redirector;mbox
-description: Leer hoe te om Adobe [!DNL Target] in scenario's uit te voeren niet-JavaScript, zoals het gebruiken van een AdBox of Redirector.
-title: Hoe implementeer ik  [!DNL Target] voor e-mail?
-feature: E-mail implementeren
+keywords: Implementatie;at.js niet javascript;adbox;redirector;mbox
+description: Leer hoe u Adobe implementeert [!DNL Target] in niet-JavaScript-scenario's, zoals het gebruik van een AdBox of Redirector.
+title: Hoe kan ik implementeren [!DNL Target] voor e-mail?
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Informatie over het implementeren van Doel in niet-JavaScript-scenario&#39;s, zoals het gebruik van een AdBox of Redirector.
 
-U kunt bezoeken aan advertenties en andere content buiten de site volgen. U kunt dezelfde gebruiker ook op en buiten uw site identificeren en een consistente ervaring bieden tijdens de hele webervaring. Met behulp van één URL staat AdBox tests toe zonder JavaScript of [!DNL at.js] of [!DNL mbox.js].
+U kunt bezoeken aan advertenties en andere content buiten de site volgen. U kunt dezelfde gebruiker ook op en buiten uw site identificeren en een consistente ervaring bieden tijdens de hele webervaring. Met behulp van één URL staat AdBox tests toe zonder JavaScript of [!DNL at.js].
 
-Een AdBox is handig voor sites die geen [!DNL at.js] hebben, zoals filialen. Als uw activiteit dynamisch creatief (bijvoorbeeld, moet u een product in de advertentie tonen die in het karretje werd verlaten) vereist, kunt u geen AdBox gebruiken.
+Een AdBox is handig voor sites die geen [!DNL at.js], zoals filialen. Als uw activiteit dynamisch creatief (bijvoorbeeld, moet u een product in de advertentie tonen die in het karretje werd verlaten) vereist, kunt u geen AdBox gebruiken.
 
 Advertentievakken en Redirector kunnen met om het even welke soort activiteit worden gebruikt. In de volgende tabel worden ADBox en Redirector vergeleken en wanneer beide worden gebruikt:
 
@@ -29,7 +29,7 @@ Advertentievakken en Redirector kunnen met om het even welke soort activiteit wo
 
 ## Aanbevolen werkwijzen voor beveiliging {#security}
 
-Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [Lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden ](/help/administrating-target/hosts.md#allowlist) in *Gastheren*.
+Merk op dat met Redirector, u aan een risico van Open Redirect Kwetsbaarheid kunt worden blootgesteld. Om het ongeoorloofde gebruik van verbindingen van Redirector door derden te vermijden, adviseren wij u &quot;erkende gastheren&quot;gebruiken om de standaard omleiding URL domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Zie voor meer informatie [Creeer Lijsten van gewenste personen die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel te verzenden](/help/administrating-target/hosts.md#allowlist) in *Gastheren*.
 
 ## Restricties {#section_38F559DCF1324271926608BCD4AB1227}
 
