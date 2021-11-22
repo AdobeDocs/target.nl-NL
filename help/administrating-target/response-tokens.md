@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
    |  | `profile.thirdPartyId` | Retourneert de id van de derde partij van de bezoeker. |
    |  | `profile.categoryAffinity` | Geeft de favoriete categorie van de bezoeker. |
    |  | `profile.categoryAffinities` | Retourneert een array van de bovenste 5 categorieën van de bezoeker als tekenreeksen. |
-   | Activiteit | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Details van de huidige activiteit. Merk op dat &quot;optie&quot;&quot;voorstel&quot;evenaart. |
+   | Activiteit | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Details van de huidige activiteit.<br> Merk op dat de waarden voor aanbiedingsparameters op het ervaringsniveau worden geëvalueerd. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Zie [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) voor meer informatie over het gebruik van geo - gerichte toepassingen in activiteiten . |
    | Methode voor verkeerstoewijzing<br>(Van toepassing op [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] alleen activiteiten.) | `experience.trafficAllocationId` | Keert 0 terug als een bezoeker een ervaring van het zijn in &quot;controle&quot;verkeer en 1 ontving als een bezoeker een ervaring van de &quot;gerichte&quot;verkeersdistributie ontving. |
    |  | `experience.trafficAllocationType` | Retourneer &quot;besturingselement&quot; of &quot;gericht&quot;. |
