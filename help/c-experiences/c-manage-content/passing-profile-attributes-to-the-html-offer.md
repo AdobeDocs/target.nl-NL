@@ -4,9 +4,9 @@ description: Leer hoe u dynamische gegevens kunt doorgeven [!DNL Adobe Target] V
 title: Hoe geef ik dynamische gegevens in aanbiedingen door?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -81,4 +81,4 @@ U kunt ook escape- en unescape-waarden weergeven. Als uw waarde een apostrof hee
 
 Voor aanbiedingsparameters (aanbieding.name, aanbieding.id) die worden gebruikt in de inhoud van een aanbieding:
 
-Als die aanbieding één van verscheidene reeksen op een ervaring is, bevolkt de waarde van de laatste toegevoegde aanbieding de waarde van de parameter. Dit betekent dat deze parameters op het ervaringsniveau worden geëvalueerd.
+Als dat aanbod een van de verschillende aanbiedingen is die op een ervaring zijn ingesteld, wordt met de waarde van de laatste toegevoegde aanbieding de waarde van de parameter ingevuld. Dit betekent dat deze parameters op het ervaringsniveau worden geëvalueerd.
