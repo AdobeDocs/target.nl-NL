@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
    ![](assets/response_tokens-new.png)
 
-1. De gewenste reactietokens activeren, zoals `activity.id` en `option.id`.
+1. De gewenste reactietokens activeren, zoals `activity.id` en `offer.id`.
 
    De volgende parameters zijn standaard beschikbaar:
 
@@ -435,8 +435,8 @@ Het equivalent van de ttMeta-plug-in voor foutopsporingsdoeleinden kan worden ge
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ In de volgende video wordt uitgelegd hoe u responstokens en aangepaste gebeurten
 >[!NOTE]
 >
 >De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is correct. de opties bevinden zich echter op een iets andere locatie .
+>
+>In de video wordt gesproken over `option.name` en `option.id`, die zijn vervangen door `offer.name` en `offer.id`, respectievelijk.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
