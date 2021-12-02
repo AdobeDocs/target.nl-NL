@@ -5,9 +5,9 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3709'
+source-wordcount: '3726'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina
 
 ## Op basis van winkelwagentje {#cart-based}
 
-De [!UICONTROL Cart-Based] Met het type algoritme kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker.
+De [!UICONTROL Cart-Based] Met het type algoritme kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingen sleutels worden geleverd door mbox parameter `cartIds` in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
 De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met &quot;[!UICONTROL Recommended For You]&quot; op gebruiker gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; op items gebaseerde algoritmen.
 
