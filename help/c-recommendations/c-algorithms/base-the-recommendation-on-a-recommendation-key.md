@@ -5,9 +5,9 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
 workflow-type: tm+mt
-source-wordcount: '3726'
+source-wordcount: '3769'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Als u het algoritme Meest bekeken door Categorie selecteert, kunt u de volgende 
 
 ### Metrisch, boven op Analytics
 
-(Info binnenkort beschikbaar)
+Hiermee wordt de &#39;Top x&#39; weergegeven, waarbij x willekeurig is [!DNL Analytics] metrisch. Wanneer u gedragsgegevens uit vakken gebruikt, kunt u alleen de optie Boven verkocht of Boven bekeken gebruiken (x = &quot;Verkocht&quot; of x = &quot;Weergegeven&quot;). Als u gedragsgegevens gebruikt van [!DNL Adobe Analytics], kunt u x = &quot;Kart Adds&quot; of een andere [!DNL Analytics] metrisch.
 
 ## [!UICONTROL Item-Based]
 
