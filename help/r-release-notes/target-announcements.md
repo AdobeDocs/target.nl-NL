@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,6 @@ ht-degree: 0%
 # Aankondigingen en gebeurtenissen van het doel
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
-
-## [!DNL Adobe Target] Koffiepauze voor vragen en antwoorden van de Gemeenschap (10 november 2021)
-
-* **Woensdag 10 november 2021**
-* **08:00 (PST, UTC -8)**
-* **[Meer informatie en registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
-
-Cristinel &quot;Muti&quot; Anastasoaie, Senior Product Manager voor [!DNL Adobe Target], zal u vragen met betrekking tot zijn vakkennis beantwoorden:
-
-* [!DNL Target] gebruikersinterface
-* [!DNL Target] integratie
-* [!UICONTROL Enterprise permissions] en [!UICONTROL workspaces]
 
 ## [!DNL Adobe Target] Communautair afbreekpunt van Q&amp;A-koffie (8 december 2021)
 
