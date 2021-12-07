@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3043'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 7 december | [De wetenschap achter de aanbevelingen van Target algoritmen](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nieuw onderwerp. |
 | 2 december | [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Bijgewerkt op het op kunst-Gebaseerde algoritme om te omvatten dat de aanbevelingssleutels door mbox parameter cartIds in komma-gescheiden waarden worden geleverd. Alleen de eerste tien waarden worden in aanmerking genomen. |
 | 18 november | [Wijzigingen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Een opmerking in de rij Mbox toegevoegd die aangeeft dat de vakken niet meer worden ondersteund in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) op pagina&#39;s die bij .js 2 gebruiken.*x*. |
 | 16 november | [Klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Informatie toegevoegd over de beperkingen met betrekking tot het uploaden van bestanden met een koppeling naar [Gegevensbestand en gegevensbronnen voor klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in de *Experience Cloud Central Interface Components Guide*. |

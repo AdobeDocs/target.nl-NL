@@ -1,17 +1,17 @@
 ---
 keywords: aanbevelingen, algoritmen;modeltraining;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Meer informatie over de algoritmen die worden gebruikt in [!DNL Target Recommendations], met inbegrip van modelopleiding en modeldienstverlening.
-title: Waar kan ik leren over de wetenschap achter Recommendations-algoritmen?
+title: Waar kan ik leren over de wetenschap achter de Recommendations-algoritmen van Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2696'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) De wetenschap achter Recommendations-algoritmen
+# ![PREMIUM](/help/assets/premium.png) De wetenschap achter de aanbevelingen van Target algoritmen
 
 Een diepgaande beschrijving van de gebruikte algoritmen [!DNL Adobe Target Recommendations], met inbegrip van de logische en wiskundige details van modeltraining en het proces van modeldienstverlening.
 
@@ -106,7 +106,7 @@ De details van deze stappen zijn als volgt:
 
       Om significante complexheid in gegevensverwerkingsgelijkenissen tussen alle N x N punten te vermijden, *tf-idf* de vector wordt afgekapt om slechts zijn grootste 500 ingangen te bevatten, en dan cosinegelijkenissen tussen punten te berekenen gebruikend deze afgekapte vectorvertegenwoordiging. Deze aanpak blijkt robuuster te zijn voor dunne berekeningen van de vectorgelijkenis, in vergelijking met andere benaderende dichtstbijzijnde (ANN) technieken, zoals localiteitsgevoelige hashing.
 
-* **Modelweergave**: Dit proces is identiek aan punt-punt samenwerkings het filtreren technieken die in de vorige sectie worden beschreven.
+   * **Modelweergave**: Dit proces is identiek aan punt-punt samenwerkings het filtreren technieken die in de vorige sectie worden beschreven.
 
 ## Aanbevelingen voor meerdere sleutels
 
@@ -137,7 +137,7 @@ De details van deze stappen zijn als volgt:
 
    ![FormulaFormula](assets/formula4.png)
 
-   * **Evaluatie van het model voor gelijkenis van item**: De modelevaluatie wordt uitgevoerd door de in de vorige stap gegenereerde aanbevelingen te nemen en voorspellingen te doen over de reeks testgegevens. De online het scoren fase wordt nagebootst door chronologisch het puntengebruik van elke gebruiker in de testdataset te bepalen, dan het doen van 100 aanbevelingen voor geordende ondergroepen van punten in een poging om verdere meningen en aankopen te voorspellen. Een metrische informatie van de informatieherwinning, [Gemiddelde precisie](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)) wordt gebruikt om de kwaliteit van deze aanbevelingen te beoordelen. Deze maatstaf houdt rekening met de volgorde van aanbevelingen, en geeft de voorkeur aan relevante punten hoger in de lijst van aanbevelingen, die een belangrijk bezit voor rangschikkingssystemen is.
+   * **Evaluatie van het model voor gelijkenis van item**: De modelevaluatie wordt uitgevoerd door de in de vorige stap gegenereerde aanbevelingen te nemen en voorspellingen te doen over de reeks testgegevens. De online het scoren fase wordt nagebootst door chronologisch het puntengebruik van elke gebruiker in de testdataset te bepalen, dan het doen van 100 aanbevelingen voor geordende ondergroepen van punten in een poging om verdere meningen en aankopen te voorspellen. Een metrische informatie van de informatieherwinning, [Gemiddelde precisie](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), wordt gebruikt om de kwaliteit van deze aanbevelingen te beoordelen. Deze maatstaf houdt rekening met de volgorde van aanbevelingen, en geeft de voorkeur aan relevante punten hoger in de lijst van aanbevelingen, die een belangrijk bezit voor rangschikkingssystemen is.
    * **Modelselectie**: Na off-line evaluatie, wordt het model dat de hoogste Gemiddelde Precisie heeft geselecteerd, en alle individuele punt-punt aanbevelingen die voor het worden gegevens verwerkt.
    * **Offline filteren**: De laatste fase van modeltraining is de toepassing van eventuele toepasselijke dynamische filters. Na deze stap worden vooraf berekende aanbevelingen globaal in cache geplaatst om beschikbaar te zijn voor het dienen.
 

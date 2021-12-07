@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Hulplijn
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ ht-degree: 0%
       + [Criteria maken](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Criteria-reeksen maken](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [De wetenschap achter Recommendations-algoritmen](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [De wetenschap achter de aanbevelingen van Target algoritmen](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Aangepaste criteria uploaden](c-recommendations/c-algorithms/recommendations-csv.md)
       + Dynamische en statische insluitingsregels {#dynamic-static}
          + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
