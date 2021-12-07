@@ -4,7 +4,7 @@ description: Meer informatie over de algoritmen die worden gebruikt in [!DNL Tar
 title: Waar kan ik leren over de wetenschap achter Recommendations-algoritmen?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2694'
 ht-degree: 0%
