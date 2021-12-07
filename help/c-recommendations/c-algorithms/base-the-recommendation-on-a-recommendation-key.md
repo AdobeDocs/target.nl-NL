@@ -5,7 +5,7 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 0%
@@ -312,7 +312,7 @@ Mogelijke gebruiksgevallen zijn:
 * U wilt een off-line algoritme in werking stellen en de resultaten gebruiken om uw aanbevelingen aan te drijven, maar u moet ervoor zorgen dat de uit-van-voorraad punten nooit worden geadviseerd.
 * Je wilt alleen objecten opnemen die afkomstig zijn uit de favoriete rubriek van deze bezoeker.
 
-## Aanbevolen toetsen
+## Aanbevolen toetsen {#keys}
 
 De volgende aanbevelingen zijn beschikbaar via de [!UICONTROL Recommendation Key] vervolgkeuzelijst:
 
