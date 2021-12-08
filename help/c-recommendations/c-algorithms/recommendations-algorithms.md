@@ -4,9 +4,9 @@ description: Meer informatie over de algoritmen die worden gebruikt in [!DNL Tar
 title: Waar kan ik leren over de wetenschap achter de Recommendations-algoritmen van Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Een voorbeeld van zo&#39;n gelijkenis is de co-existentie tussen items: een eenv
 
 Als
 
-![Formule](assets/formula.png)
+![Formule voor het weergegeven/gekochte algoritme](assets/formula.png)
 
 dan wordt item B niet aanbevolen bij item A. Deze berekening van de waarschijnlijkheidsverhouding van de logaritme wordt uitvoerig toegelicht. [in deze PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 De logische stroom van de daadwerkelijke algoritmeimplementatie wordt getoond in het volgende schematische diagram:
 
-![Schematisch diagram](assets/diagram1.png)
+![Schematisch diagram van een bekeken/gekocht algoritme](assets/diagram1.png)
 
 De details van deze stappen zijn als volgt:
 
@@ -83,7 +83,7 @@ In dit type algoritme worden twee items beschouwd als gerelateerd als de naam en
 
 Hoewel het model dat dienst doet en de tevreden leveringsaspecten van [!DNL Target]De algoritmen voor de gelijkenis van de inhoud zijn identiek aan andere op items gebaseerde algoritmen. De trainingsstappen van het model zijn drastisch verschillend en omvatten een reeks stappen voor de verwerking en voorbewerking van natuurlijke talen, zoals weergegeven in het volgende diagram. De kern van de gelijkheidsberekening is het gebruik van de cosinusgelijkenis van gewijzigde tf-idf vectoren die elk punt in de catalogus vertegenwoordigen.
 
-![Figuur 2](assets/diagram2.png)
+![Diagram dat de stroom van het proces van de inhoudsgelijkenis toont](assets/diagram2.png)
 
 De details van deze stappen zijn als volgt:
 
@@ -96,13 +96,13 @@ De details van deze stappen zijn als volgt:
    * **n-gram maken**: Na de vorige stappen wordt elk woord beschouwd als een token. Het proces waarbij opeenvolgende reeksen tokens worden gecombineerd tot één token, wordt n-gram maken genoemd. [!DNL Target]De algoritmen van de fabrikant overwegen maximaal 2 gram.
    * **tf-idf, berekening**: De volgende stap bestaat uit het maken van tf-idf-vectoren om het relatieve belang van tokens in de itembeschrijving te weerspiegelen. Voor elke token/term t in een item i, in een catalogus D met |D| De term frequentie TF(t, i) wordt als eerste berekend (het aantal keren dat de term voorkomt in item i) en de documentfrequentie DF(t, D). In wezen het aantal items waar het token bestaat. De tf-idf-maatregel is dan
 
-      ![Formule](assets/formula2.png)
+      ![Formule met de tf-idf-maat](assets/formula2.png)
 
       [!DNL Target] gebruikt Apache Spark&#39;s *tf-idf* de implementatie van de featurisatie, die onder de kap elk teken aan een ruimte van 218 tokens hakt. In deze stap, wordt de klant-gespecificeerde attributenverhoging en het begraven ook toegepast door de term frequenties in elke vector aan te passen die op montages wordt gebaseerd die in [criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Berekening van gelijkenis van item**: De uiteindelijke berekening van de gelijkenis van het item wordt uitgevoerd op basis van een cosingelijkenis. Voor twee items: *A* en *B* Met de vectoren tA en tB wordt de cosinegelijkenis gedefinieerd als:
 
-      ![FormulaFormula](assets/formula3.png)
+      ![Formule die de vergelijkingsberekening van het item weergeeft](assets/formula3.png)
 
       Om significante complexheid in gegevensverwerkingsgelijkenissen tussen alle N x N punten te vermijden, *tf-idf* de vector wordt afgekapt om slechts zijn grootste 500 ingangen te bevatten, en dan cosinegelijkenissen tussen punten te berekenen gebruikend deze afgekapte vectorvertegenwoordiging. Deze aanpak blijkt robuuster te zijn voor dunne berekeningen van de vectorgelijkenis, in vergelijking met andere benaderende dichtstbijzijnde (ANN) technieken, zoals localiteitsgevoelige hashing.
 
@@ -121,7 +121,7 @@ Deze algoritmen bouwen op de fundamentele samenwerkings het filtreren technieken
 
 De logica van modelopleiding en het scoren stappen worden getoond in het volgende diagram:
 
-![Diagram](assets/diagram3.png)
+![Diagram met de logica van modeltraining en -scoring](assets/diagram3.png)
 
 De details van deze stappen zijn als volgt:
 
@@ -135,7 +135,7 @@ De details van deze stappen zijn als volgt:
 
    In de trainingsstap worden verschillende typen vectorgelijkenissen berekend: LR-gelijkenis ([hier besproken](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), cosinegelijkenis (eerder gedefinieerd) en een genormaliseerde L2-gelijkenis, gedefinieerd als:
 
-   ![FormulaFormula](assets/formula4.png)
+   ![Formule voor het berekenen van trainingen](assets/formula4.png)
 
    * **Evaluatie van het model voor gelijkenis van item**: De modelevaluatie wordt uitgevoerd door de in de vorige stap gegenereerde aanbevelingen te nemen en voorspellingen te doen over de reeks testgegevens. De online het scoren fase wordt nagebootst door chronologisch het puntengebruik van elke gebruiker in de testdataset te bepalen, dan het doen van 100 aanbevelingen voor geordende ondergroepen van punten in een poging om verdere meningen en aankopen te voorspellen. Een metrische informatie van de informatieherwinning, [Gemiddelde precisie](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), wordt gebruikt om de kwaliteit van deze aanbevelingen te beoordelen. Deze maatstaf houdt rekening met de volgorde van aanbevelingen, en geeft de voorkeur aan relevante punten hoger in de lijst van aanbevelingen, die een belangrijk bezit voor rangschikkingssystemen is.
    * **Modelselectie**: Na off-line evaluatie, wordt het model dat de hoogste Gemiddelde Precisie heeft geselecteerd, en alle individuele punt-punt aanbevelingen die voor het worden gegevens verwerkt.
@@ -149,7 +149,7 @@ De details van deze stappen zijn als volgt:
 
 Deze processen worden geïllustreerd in de volgende afbeelding, waarbij een bezoeker item A heeft bekeken en item B heeft aangeschaft. De individuele aanbevelingen worden teruggewonnen met de off-line gelijkenisscores die onder elk puntetiket worden getoond. Na terugwinning, worden de aanbevelingen samengevoegd met gewogen gelijkenisscores samengevat. Tot slot in een scenario waarin de klant heeft gespecificeerd dat eerder bekeken en gekochte punten uit moeten worden gefiltreerd, verwijdert de het filtreren stap punten A en B uit de lijst van aanbevelingen.
 
-![DiagramDiagram](assets/diagram4.png)
+![Diagram van de verwerking van meertalige algoritmen](assets/diagram4.png)
 
 ## Gebaseerd op populariteit
 
