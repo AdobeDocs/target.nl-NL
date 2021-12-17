@@ -1,13 +1,13 @@
 ---
 keywords: implementeren;implementeren;instellen;instellen;pagina-parameters
-description: Krijg gegevens in [!DNL Target] gebruikend paginaparameters.
-title: Hoe krijg ik Gegevens in [!DNL Target] Gebruikend de Parameters van de Pagina?
-feature: Implementatie
+description: Gegevens ophalen in [!DNL Target] het gebruiken van paginaparameters.
+title: Hoe krijg ik gegevens in [!DNL Target] Paginaparameters gebruiken?
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ De parameters van de pagina worden overgegaan in Doel via een servervraag als ko
 
 ## Voorbeelden van gebruiksgevallen
 
-* **Productpagina**&#39;s: Informatie verzenden over het bekeken specifieke product (deze methode is hoe Recommendations werkt)
+* **Productpagina&#39;s**: Informatie verzenden over het bekeken specifieke product (deze methode is hoe Recommendations werkt)
 * **Bestelgegevens**: Order-id, orderTotal enzovoort verzenden voor het verzamelen van bestellingen
 * **Categorie-affiniteit**: Door een categorie bekeken informatie naar Doel verzenden om kennis van de affiniteit van de gebruiker met bepaalde sitecategorieën te vergroten
-* **Gegevens** van derden: Verstuur informatie van derde gegevensbronnen, zoals weergerichte leveranciers, rekeningsgegevens (bijvoorbeeld, DemandBase), demografische gegevens (bijvoorbeeld Experian), en meer.
+* **Gegevens van derden**: Verstuur informatie van derde gegevensbronnen, zoals weergerichte leveranciers, rekeningsgegevens (bijvoorbeeld, DemandBase), demografische gegevens (bijvoorbeeld Experian), en meer.
 
 ## Voordelen van de methode
 
@@ -43,7 +43,7 @@ De gegevens worden verzonden naar Doel in echt - tijd, en kunnen op de zelfde se
 
 * Vereist een update van de paginacode (direct of via een systeem van het markeringsbeheer).
 * Als de gegevens voor het richten op een volgende pagina/servervraag moeten worden gebruikt, moet het in een profielmanuscript worden vertaald.
-* De koorden van de vraag kunnen slechts karakters zoals volgens [de norm ](https://www.ietf.org/rfc/rfc3986.txt) van de Techniek van Internet van de Taakmacht (IETF) bevatten.
+* Zoektekenreeksen kunnen alleen tekens bevatten volgens de [Internet Engineering Task Force (IETF)-standaard](https://www.ietf.org/rfc/rfc3986.txt) .
 
    Naast de tekens die op de IETF-site worden vermeld, staat Target de volgende tekens in querytekenreeksen toe:
 
@@ -66,10 +66,6 @@ targetPageParamsAll (voegt de parameters aan alle mbox vraag op de pagina toe):
 targetPageParams (voegt de parameters aan globale mbox op de pagina toe):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parameters in mboxCreate-code:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## Koppelingen naar relevante informatie
 
