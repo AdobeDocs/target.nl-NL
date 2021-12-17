@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '3043'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 17 december | [Rapport Belangrijke kenmerken](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | De volgende opmerking over datumbereiken is toegevoegd bij het weergeven van rapporten met belangrijke kenmerken:<ul><li>De [!DNL Target] Met de gebruikersinterface kunt u momenteel datumbereiken van 45 dagen en 90 dagen kiezen. De [!DNL Target] backend verwerkt deze twee waaiers niet. Vanwege gebruikspatronen en in een poging om de prestaties te verbeteren, zijn deze datumbereiken vervangen. De interface wordt bijgewerkt met de momenteel toegestane bereiken: 15, 30 en 60 dagen.</li></ul> |
 | 7 december | [De wetenschap achter de aanbevelingen van Target algoritmen](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nieuw onderwerp. |
 | 2 december | [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Bijgewerkt op het op kunst-Gebaseerde algoritme om te omvatten dat de aanbevelingssleutels door mbox parameter cartIds in komma-gescheiden waarden worden geleverd. Alleen de eerste tien waarden worden in aanmerking genomen. |
 | 18 november | [Wijzigingen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Een opmerking in de rij Mbox toegevoegd die aangeeft dat de vakken niet meer worden ondersteund in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) op pagina&#39;s die bij .js 2 gebruiken.*x*. |
@@ -152,7 +153,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 |  | [Problemen met de [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkt de lijst van IP adressen aan lijst van gewenste personen. |
 | 12 mei | [[!DNL Target] releaseopmerkingen (pre-release)](/help/r-release-notes/target-release-notes.md) | Voorlopige opmerkingen toegevoegd voor het volgende:<ul><li>Adobe Experience Platform Web SDK (17 mei 2021)</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 10 mei | [[!DNL Recommendations] Veelgestelde vragen](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Kan ik een algoritme gebruiken dat is gemaakt in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?&quot; |
-|  | [Implementeren [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Geeft aan dat [!DNL Adobe Dynamic Tag Manager] wordt niet meer ondersteund. In plaats daarvan, [!DNL Adobe] beveelt uitvoering aan met [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
+|  | [Implementeren [!DNL Target] gebruiken [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Geeft aan dat [!DNL Adobe Dynamic Tag Manager] wordt niet meer ondersteund. In plaats daarvan, [!DNL Adobe] beveelt uitvoering aan met [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
 | 6 mei | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang duurt het voor een verandering in de configuratie van mijn [!UICONTROL Recommendations] activiteiten, aanbiedingen, promoties of criteria die op mijn site worden weergegeven?</li><li>Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) in de aanbevelingen wordt weerspiegeld *dat* gebruiker ontvangt?</li><li>Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) in de aanbevelingen wordt weerspiegeld *overige* gebruikers ontvangen?</li></ul> |
 |  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Deel 1: Adobe Target NodeJS SDK uitvoeren voor experimenteren en personaliseren op Edge-Platforms (Akamai Edge Workers)</li></ul> |
 | 5 mei | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de door de Adobe Target Community opgestelde afkapping van vragen en antwoorden die woensdag 12 mei 2021 om 8.00 uur wordt gehouden. (PDT, GMT-7). |
