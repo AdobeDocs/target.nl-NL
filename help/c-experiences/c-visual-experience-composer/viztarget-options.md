@@ -1,12 +1,12 @@
 ---
-keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren door koppeling;navigeren via koppeling;navigeren;koppeling;ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren;aangepaste gebeurtenissen;webcomponenten
-description: Verken de opties die beschikbaar zijn in Adobe Target Visual Experience Composer (VEC). Klik eenvoudig op een element om te zien welke opties beschikbaar zijn voor dat element.
-title: Hoe gebruik ik de opties Visual Experience Composer (VEC)?
+keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren naar koppeling;koppeling navigeren;navigeren;koppeling;ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren;aangepaste gebeurtenissen;webcomponenten;aanbieden, beslissing;offer decisioning
+description: Ontdek de opties in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
+title: Hoe gebruik ik de [!UICONTROL Visual Experience Composer] (VEC) Opties?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: fb9c9e4d2a3d0cf330724dfd02e329fedc388f01
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,19 @@ ht-degree: 0%
 
 Wanneer u op een pagina-element klikt in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), toont een menu de opties die voor dat elementtype beschikbaar zijn. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
 
-## VEC-opties
-
-De diverse acties Visual Experience Composer (VEC) worden gegroepeerd aangewezen menuopties om uw baan sneller en efficiënter te maken:
+De verschillende [!UICONTROL Visual Experience Composer] (VEC) Acties worden gegroepeerd in de juiste menuopties om uw taak sneller en efficiënter te maken:
 
 ![Menu VEC-opties](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->Welke opties beschikbaar zijn, is afhankelijk van het type activiteit dat u bewerkt.
+>Welke opties beschikbaar zijn, is afhankelijk van het type activiteit dat u maakt of bewerkt.
 
-### [!UICONTROL Edit]
+## [!UICONTROL Edit]
 
 De volgende opties zijn beschikbaar:
 
-#### [!UICONTROL Text/HTML] {#edit-text-html}
+### [!UICONTROL Text/HTML] {#edit-text-html}
 
 Wijzig de HTML-code voor het element, zoals de tekst voor een tekstgebied, knop of koppeling.
 
@@ -46,13 +44,13 @@ De volgende HTML5-tags kunnen worden genest:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### [!UICONTROL Background Color]
+### [!UICONTROL Background Color]
 
 Gebruik de kleurkiezer om een achtergrondkleur te selecteren of te configureren. U kunt een kleurstaal selecteren en dit aanpassen met RGB-waarden of kleurhexcodes. De rode x in de kleurkiezer maakt de achtergrond transparant.
 
 **Opmerking:** Deze optie is niet beschikbaar voor een element waarbij een achtergrondafbeelding is ingesteld.
 
-#### [!UICONTROL Styles] {#styles}
+### [!UICONTROL Styles] {#styles}
 
 Gebruik de [!UICONTROL Styles] om de waarde van bestaande stijlen voor het geselecteerde element weer te geven of te bewerken. U kunt ook extra stijlen toevoegen.
 
@@ -64,7 +62,7 @@ De [!UICONTROL Styles] aan de rechterkant van de VEC. Het deelvenster bevat een 
 
 Als u verschillende stijlen toepast, kunt u de wijzigingen altijd herstellen door op de knop [!UICONTROL Revert] pictogram dat in de rechterbovenhoek van [!UICONTROL Styles] nadat u een sectie hebt gewijzigd. Klik op de knop [!UICONTROL Revert] worden alle wijzigingen in het deelvenster van de huidige sectie hersteld.
 
-Breid elke sectie uit om stijlen te bewerken of toe te voegen, zoals hieronder wordt uitgelegd. Als u uw wijzigingen wilt opslaan, klikt u op het pictogram Vorige boven in het deelvenster om terug te keren naar de hoofdweergave van het deelvenster en klikt u vervolgens op **[!UICONTROL Save]**.
+Breid elke sectie uit om stijlen te bewerken of toe te voegen, zoals hieronder wordt uitgelegd. Als u de wijzigingen wilt opslaan, klikt u op de knop [!UICONTROL Back] om terug te keren naar de hoofdweergave van het deelvenster en vervolgens op **[!UICONTROL Save]**.
 
 Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende sectiedeelvensters geven aan dat u de bijbehorende stijlen hebt gewijzigd. Met deze visuele indicator kunt u gemakkelijk uw wijzigingen bekijken voordat u op [!UICONTROL Save].
 
@@ -202,23 +200,31 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
    >
    >U kunt een achtergrondafbeelding toepassen met de CSS-editor, maar dit kan flikkering veroorzaken. Test uw wijzigingen vóór de implementatie.
 
-#### [!UICONTROL CSS Class]
+### [!UICONTROL CSS Class]
 
 Geef de vooraf gedefinieerde CSS-klasse op die voor het element wordt gebruikt. Als er meer dan één element is geselecteerd, scheidt u meerdere CSS-klassen met een spatie.
 
 Beschikbaar voor [!UICONTROL A/B], [!UICONTROL Automated Personalization], en [!UICONTROL Multivariate Test] activiteiten.
 
-#### [!UICONTROL Link]
+### [!UICONTROL Link]
 
 Wijzig de URL in de koppeling.
 
 Gebruik Koppeling bewerken om de kiezer bij te werken zodat deze naar hetzelfde afbeeldingselement wijst. Koppelingen naar een ander afbeeldingselement worden echter niet ondersteund. Als u een koppeling wilt maken naar een ander afbeeldingselement, verwijdert u de oorspronkelijke handeling uit de code-editor en gebruikt u de opdracht [!UICONTROL Visual Experience Composer] om de handeling toe te passen op het andere afbeeldingselement.
 
-### [!UICONTROL Insert Before]
+## [!UICONTROL Insert Before]
 
 De volgende opties zijn beschikbaar:
 
-#### [!UICONTROL Image], [!UICONTROL HTML], en [!UICONTROL Text]
+### [!UICONTROL Offer Decision]
+
+Een [voorstel gemaakt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} om uw klanten met offer decisioning de beste aanbieding en ervaring te bieden.
+
+**Opmerking:** Deze optie is beschikbaar bij het bewerken of maken van [handmatig [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) alleen activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
+
+Zie voor meer informatie [Besluiten over aanbiedingen gebruiken](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image], [!UICONTROL HTML], en [!UICONTROL Text]
 
 Voeg om het even welk soort element aan uw pagina naast het wijzigen van bestaande inhoud toe. Voeg tekst, code, lijsten en meer toe om geheel verschillende ervaringen te maken die u wilt testen.
 
@@ -230,19 +236,27 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 **Opmerking:** Als u een afbeelding invoegt, moet u [!DNL Adobe Scene7 Publishing System] is ingeschakeld, zodat u toegang hebt tot de afbeeldingsbibliotheek.
 
-#### Aanbeveling
+### Aanbeveling
 
 Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Experience Fragment]
+### [!UICONTROL Experience Fragment]
 
 Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Insert After]
+## [!UICONTROL Insert After]
 
 De volgende opties zijn beschikbaar:
 
-#### [!UICONTROL Image], [!UICONTROL HTML], en [!UICONTROL Text]
+### [!UICONTROL Offer Decision]
+
+Een [voorstel gemaakt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} om uw klanten met offer decisioning de beste aanbieding en ervaring te bieden.
+
+**Opmerking:** Deze optie is beschikbaar bij het bewerken of maken van [handmatig [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) alleen activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
+
+Zie voor meer informatie [Besluiten over aanbiedingen gebruiken](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image], [!UICONTROL HTML], en [!UICONTROL Text]
 
 Voeg om het even welk soort element aan uw pagina naast het wijzigen van bestaande inhoud toe. Voeg tekst, code, lijsten en meer toe om geheel verschillende ervaringen te maken die u wilt testen.
 
@@ -254,19 +268,27 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 **Opmerking:** Als u een afbeelding invoegt, moet u [!DNL Adobe Scene7 Publishing System] is ingeschakeld, zodat u toegang hebt tot de afbeeldingsbibliotheek.
 
-#### Aanbeveling
+### Aanbeveling
 
 Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Experience Fragment]
+### [!UICONTROL Experience Fragment]
 
 Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Replace With]
+## [!UICONTROL Replace Content]
 
 De volgende opties zijn beschikbaar:
 
-#### [!UICONTROL Image]
+### [!UICONTROL Offer Decision]
+
+Een [voorstel gemaakt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} om uw klanten met offer decisioning de beste aanbieding en ervaring te bieden.
+
+**Opmerking:** Deze optie is beschikbaar bij het bewerken of maken van [handmatig [!UICONTROL A/B Test]](/help/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/c-activities/t-experience-target/experience-target.md) (XT) alleen activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
+
+Zie voor meer informatie [Besluiten over aanbiedingen gebruiken](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Image]
 
 Selecteer een andere afbeelding in de inhoudsbibliotheek. Tot de afbeeldingen die u kunt wisselen, behoren de afbeeldingen die naar de map Experience Cloud Assets zijn geüpload of die in de inhoudsbibliotheek in Doel zijn geüpload.
 
@@ -284,7 +306,7 @@ Recommendations biedt ondersteuning voor Vervangen door in DIV-, SECTION- en ART
 
 **Opmerking:** Voor het wisselen van afbeeldingen is een Adobe Scene7 Publishing System-account vereist.
 
-#### [!UICONTROL HTML Offer]
+### [!UICONTROL HTML Offer]
 
 Selecteer een ander voorstel van de [!UICONTROL Content Library].
 
@@ -292,55 +314,55 @@ Selecteer een ander voorstel van de [!UICONTROL Content Library].
 
 Een HTML-aanbieding kan maximaal 256 kB bedragen.
 
-#### Aanbeveling
+### Aanbeveling
 
 Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Zie voor meer informatie [Recommendations als voorstel](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Experience Fragment]
+### [!UICONTROL Experience Fragment]
 
 Ervaringsfragmenten invoegen die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie. Zie voor meer informatie [Fragmenten voor AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Layout]
+## [!UICONTROL Layout]
 
 De volgende opties zijn beschikbaar:
 
-#### [!UICONTROL Rearrange]
+### [!UICONTROL Rearrange]
 
 Sleep het element naar een andere locatie binnen hetzelfde bovenliggende element of DIV. Andere elementen verschuiven de locatie om ruimte te maken voor het opnieuw gerangschikte element.
 
 **Opmerking:** Klik op bijhouden om de items niet opnieuw te rangschikken.
 
-#### [!UICONTROL Resize]
+### [!UICONTROL Resize]
 
 Wijzig de grootte van een element op de pagina. Wanneer u [!UICONTROL Resize], wordt een handgreep weergegeven in de rechterbenedenhoek van het element waarmee u die hoek kunt slepen om het formaat te wijzigen. Houd Shift ingedrukt als u dezelfde hoogte-breedteverhouding wilt behouden.
 
 **Opmerking:** Inline-elementen kunnen niet worden vergroot of verkleind.
 
-#### [!UICONTROL Move] {#move}
+### [!UICONTROL Move] {#move}
 
 Verplaats elementen op de pagina. In tegenstelling tot [!UICONTROL Rearrange] optie, [!UICONTROL Move] verschuift andere elementen niet om ruimte te maken voor het element dat wordt verplaatst. Gebruik de pijltoetsen om de verplaatsing te verfijnen. (Geplande verbetering: ondersteuning om ervoor te zorgen dat verplaatste elementen niet achter andere elementen worden verborgen.)
 
 In bepaalde situaties, bijvoorbeeld wanneer een CSS-beperking vereist dat een element binnen het bovenliggende element blijft, kunt u het element niet buiten het bovenliggende element plaatsen. Een element kan niet worden verplaatst buiten een container met de volgende CSS-eigenschap: `overflow: hidden`.
 
-#### [!UICONTROL Hide]
+### [!UICONTROL Hide]
 
 Verberg het element. De witruimte blijft behouden, maar de inhoud wordt verwijderd.
 
-#### [!UICONTROL Remove]
+### [!UICONTROL Remove]
 
 Verwijder het element. De witruimte achter de afbeelding wordt verwijderd en de ruimte waar het element is samengevouwen.
 
 **Opmerking:** Items in een &#39;klassieke&#39; box (een box die is gemaakt in een campagne voor &#39;klassieke inhoud&#39; van Target) kunnen met deze optie niet worden verwijderd.
 
-### [!UICONTROL Expand Section]
+## [!UICONTROL Expand Section]
 
 Selecteer naast het oorspronkelijk geselecteerde element ook het bovenliggende element. Wanneer u een bovenliggend element selecteert, worden alle onderliggende elementen van dat element automatisch geselecteerd. U kunt de selectie meerdere keren uitbreiden.
 
-### [!UICONTROL Navigate to Link]
+## [!UICONTROL Navigate to Link]
 
 Open de bestemming van de koppeling.
 
-### [!UICONTROL Undo]/[!UICONTROL Redo]
+## [!UICONTROL Undo]/[!UICONTROL Redo]
 
 Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ongedaan maken. U kunt ook wijzigingen opnieuw uitvoeren die eerder ongedaan zijn gemaakt.
 

@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] Hulplijn
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 89adab57c2f84d6d92056c9c445ca3102f181f38
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,9 @@ ht-degree: 0%
          + [Metriek, publiek en rapporten delen - Veelgestelde vragen voor A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Legacy SiteCatalyst to Test&amp;Target Integration - A4T-veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + [Experience Cloud publiek](c-integrating-target-with-mac/mmp.md)
+   + Doel integreren met Adobe Journey Optimizer {#ajo}
+      + [Besluiten over aanbiedingen gebruiken](/help/c-integrating-target-with-mac/ajo/offer-decision.md)
+   + [Experience Cloud publiek](/help/c-integrating-target-with-mac/mmp.md)
    + [Doel integreren met Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Doel integreren met Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activiteiten {#activities}
