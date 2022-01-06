@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 28 oktober 2021**
+**Laatst bijgewerkt: 6 januari 2022**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
@@ -24,6 +24,14 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 >**mbox.js end-of-life**: Vanaf 31 maart 2021, [!DNL Adobe Target] ondersteunt de bibliotheek mbox.js niet meer. Na 31 maart 2021 mislukken alle aanroepen van mbox.js op elegante wijze en hebben deze invloed op uw pagina&#39;s die [!DNL Target] activiteiten die worden uitgevoerd door het bedienen van standaardinhoud.
 >
 >Als u potentiële problemen met uw sites wilt voorkomen, migreert u naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek at.js. Zie voor meer informatie [Overzicht: Doel voor client-side web implementeren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 22.1.1 (6 januari 2022)
+
+Deze release bevat de volgende nieuwe functie:
+
+| Functie | Details |
+| --- | --- |
+| Aanbiedingsbeslissingen gebruiken in doelactiviteiten | U kunt nu [!DNL Adobe Journey Optimizer] besluiten aanbieden in [!DNL Adobe Target] A/B Test and Experience Targeting (XT)-activiteiten om de volgende beste aanbieding voor uw bezoekers op het web en mobiel te bepalen en te leveren.<br>Zie Aanbiedingsbesluiten gebruiken voor meer informatie.<br>**Opmerking**: Deze mogelijkheid is beschikbaar voor [!DNL Target] klanten die ook toegang hebben tot Offer decisioning en een [!DNL Target] implementatie die op het Web SDK van het Platform van de Adobe Ervaring wordt gebaseerd. |
 
 ## at.js versie 2.7.0 (28 oktober 2021)
 
