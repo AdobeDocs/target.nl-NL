@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de 
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3119'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 6 januari | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release 22.1.1. |
 | 17 december | [Rapport Belangrijke kenmerken](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | De volgende opmerking over datumbereiken is toegevoegd bij het weergeven van rapporten met belangrijke kenmerken:<ul><li>De [!DNL Target] Met de gebruikersinterface kunt u momenteel datumbereiken van 45 dagen en 90 dagen kiezen. De [!DNL Target] backend verwerkt deze twee waaiers niet. Vanwege gebruikspatronen en in een poging om de prestaties te verbeteren, zijn deze datumbereiken vervangen. De interface wordt bijgewerkt met de momenteel toegestane bereiken: 15, 30 en 60 dagen.</li></ul> |
 | 7 december | [De wetenschap achter de aanbevelingen van Target algoritmen](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nieuw onderwerp. |
 | 2 december | [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Bijgewerkt op het op kunst-Gebaseerde algoritme om te omvatten dat de aanbevelingssleutels door mbox parameter cartIds in komma-gescheiden waarden worden geleverd. Alleen de eerste tien waarden worden in aanmerking genomen. |

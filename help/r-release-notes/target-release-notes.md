@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Deze release bevat de volgende nieuwe functie:
 
 | Functie | Details |
 | --- | --- |
-| Aanbiedingsbeslissingen gebruiken in doelactiviteiten | U kunt nu [!DNL Adobe Journey Optimizer] besluiten aanbieden in [!DNL Adobe Target] A/B Test and Experience Targeting (XT)-activiteiten om de volgende beste aanbieding voor uw bezoekers op het web en mobiel te bepalen en te leveren.<br>Zie Aanbiedingsbesluiten gebruiken voor meer informatie.<br>**Opmerking**: Deze mogelijkheid is beschikbaar voor [!DNL Target] klanten die ook toegang hebben tot Offer decisioning en een [!DNL Target] implementatie die op het Web SDK van het Platform van de Adobe Ervaring wordt gebaseerd. |
+| Beslissingen over voorstellen gebruiken in [!DNL Target] activiteiten | U kunt nu [!DNL Adobe Journey Optimizer] besluiten aanbieden in [!DNL Target] [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten om de volgende beste aanbieding voor uw bezoekers op het web en mobiel te bepalen en te leveren.<br>Zie voor meer informatie [Besluiten over aanbiedingen gebruiken](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Opmerking**: Deze mogelijkheid is beschikbaar voor [!DNL Target] klanten die ook toegang hebben tot Offer decisioning en een [!DNL Target] implementatie gebaseerd op de SDK van het Web van Adobe Experience Platform. |
 
 ## at.js versie 2.7.0 (28 oktober 2021)
 
