@@ -1,20 +1,26 @@
 ---
 keywords: privacy;ip adres;geosegmentation;opt out;optout;opt-out;gegevensprivacy;overheidsverordeningen;gdpr;ccpa
-description: Leer hoe Adobe [!DNL Target] aan de toepasselijke wetten van de gegevensprivacy met inbegrip van inzameling en behandeling van IP adressen, en opt-out instructies voldoet.
-title: Hoe behandelt  [!DNL Target] Privacy kwesties?
-feature: Privacy en beveiliging
+description: Meer informatie over Adobe [!DNL Target] voldoet aan de toepasselijke wetgeving inzake gegevensprivacy, waaronder het verzamelen en afhandelen van IP-adressen, en instructies om te weigeren.
+title: Hoe werkt [!DNL Target] Privacyproblemen verwerken?
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # Privacy
 
-[!DNL Adobe Target] heeft processen en instellingen ingeschakeld waarmee u processen en instellingen kunt gebruiken  [!DNL Target] in overeenstemming met de toepasselijke wetgeving inzake privacy van gegevens.
+[!DNL Adobe Target] heeft processen en instellingen ingeschakeld waarmee u [!DNL Target] in overeenstemming met de toepasselijke wetgeving inzake gegevensbescherming.
+
+## Verzameling van gebruiksgegevens
+
+De individuele eigenschap-gebruik gegevens worden verzameld voor intern [!DNL Adobe] wordt nagegaan of [!DNL Target] functies worden uitgevoerd zoals bedoeld of om te bepalen welke functies onderbenut worden. Er worden verschillende metingen van de latentie verzameld om prestatieproblemen te verhelpen. Persoonlijke gegevens worden niet verzameld.
+
+U kunt het rapporteren van gebruiksgegevens in onze SDK&#39;s uitschakelen door het instellen van `telemetryEnabled` naar false in de initialisatieopties voor de client. Zie voor meer informatie [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Verzameling IP-adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Het doel ontvangt het volledige IP adres en verduistert het (als reeks aan Laats
 
 >[!NOTE]
 >
->[De Cliënt van de Adobe van het contact ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Caret om te bepalen welke het plaatsen u momenteel gebruikt of om de IP verduisteringseigenschap toe te laten.
+>[Contact opnemen met de Adobe-klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om te bepalen welke het plaatsen u momenteel gebruikt of om de IP verduisteringseigenschap toe te laten.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,15 +58,14 @@ U kunt een koppeling om te weigeren toevoegen aan uw sites zodat bezoekers zich 
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. (Voorwaardelijk) als u CNAME gebruikt, zou de verbinding de &quot;client=`clientcode` parameter, bijvoorbeeld moeten bevatten:
-https://my.cname.domain/optout?client=clientcode.
+1. (Voorwaardelijk) als u CNAME gebruikt, zou de verbinding &quot;client= moeten bevatten`clientcode` parameter, bijvoorbeeld: https://my.cname.domain/optout?client=clientcode.
 
-1. Vervang `clientcode` door uw clientcode en voeg de tekst of afbeelding toe die u wilt koppelen aan de URL voor niet-deelname.
+1. Vervangen `clientcode` met uw clientcode en voeg de tekst of afbeelding toe die u wilt koppelen aan de URL voor niet-deelname.
 
-Elke bezoeker die op deze koppeling klikt, wordt niet opgenomen in een box-aanvraag die vanaf zijn browsersessies wordt aangeroepen totdat hij of zij zijn of haar cookies verwijdert, of gedurende twee jaar, afhankelijk van welke eerst aankomt. Dit werkt door een koekje voor de bezoeker te plaatsen genoemd `disableClient` in `clientcode.tt.omtrdc.net` domein.
+Elke bezoeker die op deze koppeling klikt, wordt niet opgenomen in een box-aanvraag die vanaf zijn browsersessies wordt aangeroepen totdat hij of zij zijn of haar cookies verwijdert, of gedurende twee jaar, afhankelijk van welke eerst aankomt. Dit werkt door een cookie in te stellen voor de bezoeker die wordt aangeroepen `disableClient` in de `clientcode.tt.omtrdc.net` domein.
 
 Zelfs als u een eersteklas cookie-implementatie gebruikt, wordt de opgegeven opt-out ingesteld via een cookie van een andere fabrikant. Als de client alleen een eersteklas cookie gebruikt, controleert Target of een uitschakelcookie is ingesteld.
 
 ## Regels inzake privacy en gegevensbescherming
 
-Zie [Privacy- en gegevensbeschermingsregels](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) voor informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+Zie [Regels inzake privacy en gegevensbescherming](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) voor meer informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
