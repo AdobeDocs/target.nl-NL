@@ -3,9 +3,9 @@ description: Wat zijn de verschillende termen die in Adobe worden gebruikt [!DNL
 title: Waar kan ik Termen vinden en Definities die in Doel worden gebruikt?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2481'
 ht-degree: 1%
 
 ---
@@ -272,6 +272,10 @@ Stelt bezoekers in staat zich af te melden voor het volgen en afleveren van inho
 
 Een betrokkenheidsmaatstaf die het aantal pagina&#39;s meet dat tijdens een bezoek wordt gezien vanaf het punt waarop de bezoeker de eerste weergavekader van de activiteit ziet.
 
+**paginaweergave**
+
+Paginaweergave: één weergave van een mobiele toepassing of browsertoepassing, e-mail of webpagina van een website, inclusief schermweergaven van de toepassing, schermstatussen van de toepassing, mobiele webpagina&#39;s en pagina&#39;s voor sociale netwerken. Paginaweergaven worden altijd weergegeven wanneer een webpagina wordt geladen of vernieuwd, een toepassing wordt geladen, als de beoogde inhoud wordt weergegeven of gegenereerd, of wordt weergegeven via een geopende of weergegeven e-mail.
+
 **prioriteit**
 
 Prioriteit wordt gebruikt als meerdere activiteiten worden toegewezen aan dezelfde locatie met hetzelfde publiek. Als twee of meer activiteiten aan de plaats worden toegewezen, de activiteit met de hoogste prioritaire vertoningen.
@@ -358,7 +362,7 @@ Een bezoeker is een persoon die toegang heeft tot uw site. Een bezoeker wordt be
 
 **Visual Experience Composer**
 
-In de Norm van het Doel, een WYSIWYG gebruikersinterface die u gemakkelijk gepersonaliseerde ervaringen en aanbiedingen in de plaatcontext kunt creëren en testen. U kunt ervaringen en aanbiedingen voor doelactiviteiten maken door te slepen en neer te zetten, te wisselen en de lay-out en inhoud van een webpagina (of aanbieding) te wijzigen.
+In de Norm van het Doel, een WYSIWYG gebruikersinterface die u gemakkelijk gepersonaliseerde ervaringen en aanbiedingen in de plaatscontext kunt creëren en testen. U kunt ervaringen en aanbiedingen voor doelactiviteiten maken door te slepen en neer te zetten, te wisselen en de lay-out en inhoud van een webpagina (of aanbieding) te wijzigen.
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
