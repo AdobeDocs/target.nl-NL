@@ -1,16 +1,16 @@
 ---
 keywords: implementatie van één pagina;toepassing van één pagina implementeren;spa;at.js 2.x;at.js;toepassing van één pagina;app van één pagina;spa;SPA
-description: Leer hoe u Adobe gebruikt [!DNL Target] at.js 2.x to implement [!DNL Target] voor toepassingen voor één pagina (SPA).
+description: Leer hoe u Adobe gebruikt [!DNL Target] om.js 2.x uit te voeren [!DNL Target] voor toepassingen voor één pagina (SPA).
 title: Kan ik implementeren [!DNL Target] voor Single Page Applications (SPA)?
 feature: Implement Server-side
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
+source-git-commit: a2a70136dba70a8b5b448b00199d3113f5f14da4
 workflow-type: tm+mt
-source-wordcount: '2768'
+source-wordcount: '2761'
 ht-degree: 1%
 
 ---
-
 
 # Toepassing van één pagina
 
@@ -70,7 +70,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPA in mening. Eerdere versies van at.js en mbox.js (nu afgekeurd) bieden geen ondersteuning voor Adobe Target Views en de VEC voor SPA.
 
-   Download bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via tags in [!DNL Adobe Experience Platform]. De [!DNL Adobe Target] extensies zijn momenteel niet up-to-date en worden ook niet ondersteund.
+   Download bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via tags in [!DNL Adobe Experience Platform].
 
 1. Voer de nieuwste functie van at.js 2.x uit, `triggerView()` op uw sites.
 
