@@ -1,11 +1,12 @@
 ---
 keywords: visuele ervaringscomposer-opties;beleving composer-opties;ervaringsopties;bied beslissing aan;offer decisioning;ajo;optimaliseer de reis
 description: Meer informatie over het toevoegen van een beslissing over voorstellen die is gemaakt in [!DNL Adobe Journey Optimizer] aan een activiteit.
-title: 'Hoe gebruik ik beslissingen over aanbiedingen? '
+title: Hoe gebruik ik beslissingen over aanbiedingen?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Aanbiedingsbesluiten toevoegen die zijn gemaakt in [!DNL Adobe Journey Optimizer
 >
 >De functionaliteit van de aanbieding die in dit onderwerp wordt beschreven is gepland om 13 Januari, 2022 met te worden vrijgegeven [!DNL Target Standard/Premium] Release 22.1.1.
 
-Meer informatie over [!DNL Adobe Journey Optimizer], zie [Aan de slag met Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in de *Journey Optimizer* documentatie.
+Meer informatie over [!DNL Adobe Journey Optimizer], zie [Aan de slag met Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in de *Journey Optimizer* documentatie.
 
 Voor meer informatie over biedingsbesluiten, zie [Over Besluitbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in de *[!DNL Journey Optimizer]documentatie*.
 
@@ -40,13 +41,18 @@ In het volgende voorbeeld wordt beschreven hoe u de [!DNL Target]/[!DNL Adobe Jo
 
 ### Sport
 
-Als markator voor een sportieve ligging wilt u de inhoud op uw homepage (zowel op de website voor bureaublad als op de website voor mobiele apparaten) aanpassen. U wilt inhoud personaliseren op basis van het favoriete team van de bezoeker en de recente speler probeert hen een aanbieding te presenteren aan winkelgerelateerde franchiseproducten. Bijvoorbeeld, om een gepersonaliseerde ervaring voor elk van de volgende gebieden te leveren: Dortmund, Frankfurt en Bochum en voor impliciete en expliciete fans van deze teams. Als metriek, wilt u bezoeken bekijken en aan de plaats van koopwaar klikken.
+Als markator voor een sportieve ligging wilt u de inhoud op uw homepage (zowel op de website voor bureaublad als op de website voor mobiele apparaten) aanpassen. U wilt inhoud aanpassen op basis van meerdere dimensies en een aanbieding doen aan winkelgerelateerde franchise-producten. U bent geïnteresseerd in:
 
-U wilt een activiteit van de Test A/B (50/50 splitsing) tussen de standaardervaring en de gepersonaliseerde ervaring (die een aanbiedingsbesluit met aanbiedingen voor elke regio en team omvat) ontwerpen. U wilt deze activiteit gebruiken om de omzetting en de lift voor de gepersonaliseerde ervaring tegenover controle te bepalen.
+* Het favoriete team van de bezoeker
+* Recente activiteiten van atleten/spelers (bijvoorbeeld teambewegingen, contractupdates of verwondingen)
+
+U wilt bijvoorbeeld een persoonlijke ervaring bieden voor elk van de volgende gebieden: Dortmund, Frankfurt en Bochum en voor impliciete en expliciete fans van deze teams. Als metriek, wilt u bezoeken bekijken en aan de plaats van koopwaar klikken.
+
+U wilt een [!UICONTROL A/B Test] activiteit (50/50 splitsing) tussen de standaardervaring en de gepersonaliseerde ervaring (die een aanbodbesluit met aanbiedingen voor elke regio en elk team omvat). U wilt deze activiteit gebruiken om de omzetting en de lift voor de gepersonaliseerde ervaring tegenover controle te bepalen.
 
 ### Spelstreamingplatforms
 
-Als een marketeer voor een sportorganisatie, wilt u een gepersonaliseerde aanbieding voor een gamestreamingsplatform voor Desktop en mobiele gebruikers van verschillende aardrijkskundigen leveren: Duitsland, Frankrijk, Mexico en Brazilië. Wanneer een bezoeker de website voor bureaublad of mobiele apparaten opent vanuit een van deze regio&#39;s, wilt u een aanbieding voor streaming van games aanbieden in de lokale taal en met een overeenkomstige prijs voor de lokale valuta.
+Als marketeer voor een gamingorganisatie wilt u een gepersonaliseerde aanbieding leveren voor een gamestreamingplatform voor desktopgebruikers en mobiele gebruikers uit verschillende geografische regio&#39;s: Duitsland, Frankrijk, Mexico en Brazilië. Wanneer een bezoeker de website voor bureaublad of mobiele apparaten opent vanuit een van deze regio&#39;s, wilt u een aanbieding voor streaming van games aanbieden in de lokale taal en met een overeenkomstige prijs voor de lokale valuta.
 
 In [!DNL Adobe Journey Optimizer], kunt u een persoonlijk aanbod van de homepage held maken voor elk van de beoogde geografische gebieden, plus een fallback-aanbod met een standaard homepage-held. Vervolgens kunt u een besluit over het voorstel maken waarin deze aanbiedingen en de bijbehorende voorwaarden zijn opgenomen. Dan, binnen [!DNL Target]kunt u een [!DNL Experience Targeting] (XT) en voeg die beslissing toe op uw bureaublad of mobiele website om de persoonlijke ervaring aan bezoekers te leveren.
 
@@ -105,11 +111,3 @@ Houd rekening met de volgende opmerkingen en beperkingen wanneer u werkt met bes
 * [!DNL Target] rapportage biedt geen rapportage op het niveau van de biedingsbeschikking.
 
 * Visualisatie [QA-koppelingen](/help/c-activities/c-activity-qa/activity-qa.md) for [!DNL Target] ervaringen met biedbeslissingen hebben invloed op de in [!DNL Adobe Journey Optimizer] voor deze biedingsbesluiten.
-
-
-
-
-
-
-
-
