@@ -1,12 +1,12 @@
 ---
 keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe onderwerpen;bewerkingen;updates;update
-description: Houd up-to-date met belangrijke toevoegingen en wijzigingen aan de Adobe [!DNL Target] productdocumentatie.
+description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [!DNL Adobe Target] documentatie.
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '3179'
+source-wordcount: '3194'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 11 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreekpunt van Vragen en antwoorden (19 januari 2022)</li></ul> |
 | 7 januari | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de release van at.js versie 2.8.0. |
 |  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release van at.js versie 2.8.0. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Extra informatie over de `telemetry` instellen. |

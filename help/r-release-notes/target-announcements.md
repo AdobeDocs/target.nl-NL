@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -15,20 +15,19 @@ ht-degree: 0%
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
 
-## [!DNL Adobe Target] Communautair afbreekpunt van Q&amp;A-koffie (8 december 2021)
+## [!DNL Adobe Target] Communautair afbreekpunt van Vragen en antwoorden (19 januari 2022)
 
-* **Woensdag 8 december 2021**
+* **Woensdag 19 januari 2022**
 * **08:00 (PST, UTC -8)**
-* **[Meer informatie en registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+* **[Meer informatie en registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Robert Calangiu, Senior Product Manager voor [!DNL Adobe Target], zal u vragen met betrekking tot zijn vakkennis beantwoorden:
+Jon Tehero, Group Product Manager for [!DNL Adobe Target], zal u vragen met betrekking tot zijn vakkennis beantwoorden:
 
-* [!DNL Target] interface instellen en beheren
-* [!UICONTROL Analytics for Target] (A4T) integratie
-* [!DNL Adobe Audience Manager] AEM) integratie
-* Algemeen [!DNL Target] UI
+* [!DNL Adobe Target] integratie met [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target] UI
+* Algemeen [!DNL Adobe Target] onderwerpen
 
-## Webinar: Persoonlijk maken en testen met nullatentie met apparaatbeslissingen van Adobe Target
+## Webinar: Personaliseer en test bij nul latentie met op apparaat besluiten van [!DNL Adobe Target]
 
 Meer dan ooit, worden de marketers, de producteigenaars, en de ontwikkelaars belast met het optimaliseren van de algemene klantenervaring op plaatsen, in apps, en overal anders zij met hun klanten verbinden. Meerdere gereedschappen met gegevenssilo&#39;s en ingewikkelde implementaties knippen deze niet.
 
