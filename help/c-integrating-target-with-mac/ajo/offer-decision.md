@@ -4,7 +4,7 @@ description: Meer informatie over het toevoegen van een beslissing over voorstel
 title: Hoe gebruik ik beslissingen over aanbiedingen?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Aanbiedingsbesluiten toevoegen die zijn gemaakt in [!DNL Adobe Journey Optimizer
 
 >[!NOTE]
 >
->De functionaliteit van de aanbieding die in dit onderwerp wordt beschreven is gepland om 13 Januari, 2022 met te worden vrijgegeven [!DNL Target Standard/Premium] Release 22.1.1.
+>De functionaliteit van de aanbieding die in dit onderwerp wordt beschreven momenteel in Bèta en beschikbaar om klanten slechts te selecteren.
 
 Meer informatie over [!DNL Adobe Journey Optimizer], zie [Aan de slag met Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in de *Journey Optimizer* documentatie.
 

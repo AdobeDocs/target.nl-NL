@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3184'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Extra informatie over de `telemetry` instellen. |
 |  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | De volgende sectie toegevoegd: &quot;Verzameling van eigenschaps-gebruiks gegevens.&quot; |
 |  | [Gegevens gebruikt door [!DNL Target] computerleeralgoritmen](/help/c-activities/t-automated-personalization/ap-data.md) | Bijgewerkt volledig onderwerp, met inbegrip van:<ul><li>Nieuwe sectie: &quot;Functies blokkeren [!DNL Target] computerleeralgoritmen&quot;</li><li>Kolommen en informatie voor &quot;Systeemnaam&quot; toegevoegd aan verschillende tabellen.</li></ul> |
-| 6 januari | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release 22.1.1. |
 | 17 december | [Rapport Belangrijke kenmerken](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | De volgende opmerking over datumbereiken is toegevoegd bij het weergeven van rapporten met belangrijke kenmerken:<ul><li>De [!DNL Target] Met de gebruikersinterface kunt u momenteel datumbereiken van 45 dagen en 90 dagen kiezen. De [!DNL Target] backend verwerkt deze twee waaiers niet. Vanwege gebruikspatronen en in een poging om de prestaties te verbeteren, zijn deze datumbereiken vervangen. De interface wordt bijgewerkt met de momenteel toegestane bereiken: 15, 30 en 60 dagen.</li></ul> |
 | 7 december | [De wetenschap achter de aanbevelingen van Target algoritmen](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nieuw onderwerp. |
 | 2 december | [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Bijgewerkt op het op kunst-Gebaseerde algoritme om te omvatten dat de aanbevelingssleutels door mbox parameter cartIds in komma-gescheiden waarden worden geleverd. Alleen de eerste tien waarden worden in aanmerking genomen. |
