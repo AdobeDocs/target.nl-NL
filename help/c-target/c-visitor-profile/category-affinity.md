@@ -1,23 +1,23 @@
 ---
 keywords: affiniteit;categorie-affiniteit
-description: Meer informatie over categorie-affiniteit in Adobe [!DNL Target] die automatisch categorieën vastlegt die een gebruiker bezoekt en vervolgens de affiniteit van de gebruiker voor de categorie berekent, zodat deze kan worden aangewezen en gesegmenteerd.
+description: Meer informatie over rubriekaffiniteit in Adobe [!DNL Target] die automatisch categorieën vastlegt die een gebruiker bezoekt en vervolgens de affiniteit van de gebruiker voor de categorie berekent, zodat deze kan worden geactiveerd en gesegmenteerd.
 title: Wat is rubriekaffiniteit?
-feature: Soorten publiek
+feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '785'
 ht-degree: 3%
 
 ---
 
 # Categorie-affiniteit
 
-De categorie affiniteit in [!DNL Adobe Target] vangt automatisch de categorieën vast een gebruiker bezoekt en berekent dan de affiniteit van de gebruiker voor de categorie zodat het kan worden gericht en worden gesegmenteerd. Categorie-affiniteit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die waarschijnlijk op die informatie reageren.
+De categorie affiniteit in [!DNL Adobe Target] legt automatisch de categorieën vast die een gebruiker bezoekt en berekent vervolgens de affiniteit van de gebruiker voor de categorie zodat deze kan worden aangewezen en gesegmenteerd. Categorie-affiniteit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die waarschijnlijk op die informatie reageren.
 
-## Categorieaffiniteitsgegevens overbrengen naar [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Informatie over categorie-affiniteit overbrengen naar [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Wanneer een gebruiker uw site bezoekt, worden profielparameters die specifiek zijn voor de bezoeker opgenomen in de [!DNL Target]-database. Deze gegevens zijn gekoppeld aan de cookie van de gebruiker. Een nuttige parameter is `user.categoryId`, een mbox-parameter die op een productpagina is toegewezen. Terwijl de bezoeker doorbladert of voor een andere sessie terugkeert, kunnen de productcategorieën van een bepaalde gebruikersweergave worden opgenomen. U kunt categorieinformatie ook registreren door het als mbox parameter `user.categoryId` in om het even welk vakje (met inbegrip van een genestelde mbox), als URL parameter `user.categoryId`, of in de paginaparameters van het Doel met een globale mbox door te geven. Raadpleeg uw accountvertegenwoordiger voor meer informatie.
+Wanneer een gebruiker uw site bezoekt, worden de profielparameters die specifiek zijn voor de bezoeker vastgelegd in het dialoogvenster [!DNL Target] database. Deze gegevens zijn gekoppeld aan de cookie van de gebruiker. Eén nuttige parameter is `user.categoryId`, een mbox-parameter die op een productpagina is toegewezen. Terwijl de bezoeker doorbladert of voor een andere sessie terugkeert, kunnen de productcategorieën van een bepaalde gebruikersweergave worden opgenomen. U kunt ook categoriegegevens opnemen door deze als parameter mbox door te geven `user.categoryId` in elke mbox (inclusief een genest mbox), als een URL-parameter `user.categoryId`, of in [!DNL Target] paginaparameters met een globale mbox. Raadpleeg uw accountvertegenwoordiger voor meer informatie.
 
 Afzonderlijke rubrieken met een komma om een object in meerdere rubrieken op te nemen. Bijvoorbeeld:
 
@@ -25,15 +25,15 @@ Afzonderlijke rubrieken met een komma om een object in meerdere rubrieken op te 
 
 Op basis van de frequentie en de frequentie van bezoeken aan de productcategorieën wordt de categoriaffiniteit (indien van toepassing) geregistreerd die een gebruiker heeft. De affiniteit van de categorie kan worden gebruikt om populaties voor uw activiteiten te richten.
 
-U kunt `user.categoryAffinities[]` in een profielmanuscript gebruiken om een serie van de affiniteiten terug te keren die een bezoeker heeft bevolkt.
+U kunt `user.categoryAffinities[]` in een profielscript om een array met affiniteiten te retourneren die een bezoeker heeft gevuld. Zie voor meer informatie [user.categoryAffinities onder Objecten en methoden in Profielkenmerken](/help/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
->Het kenmerk `user.categoryId` dat voor het algoritme van de categorieaffiniteit wordt gebruikt, verschilt van het kenmerk `entity.categoryId` dat voor de aanbevelingen voor producten en inhoud van [!DNL Adobe Target Recommendations] wordt gebruikt. `user.categoryId` is vereist om de favoriete rubriek van een gebruiker bij te houden. `entity.categoryId` is vereist om aanbevelingen te baseren op de categorie van de huidige pagina of van het huidige item. Geef beide waarden door aan Adobe Target als u beide mogelijkheden wilt gebruiken.
+>De `user.categoryId` het kenmerk dat wordt gebruikt voor het algoritme voor affiniteit van de categorie, verschilt van het kenmerk dat wordt gebruikt voor het algoritme voor affiniteit `entity.categoryId` kenmerk gebruikt voor [!DNL Adobe Target Recommendations]aanbevelingen voor producten en inhoud. `user.categoryId` is vereist om de favoriete rubriek van een gebruiker bij te houden. `entity.categoryId` is vereist om aanbevelingen te baseren op de categorie van de huidige pagina of van het huidige item. Geef beide waarden door [!DNL Target] als u beide mogelijkheden wilt gebruiken.
 
 ## Bedrijfscase voor categorieaffiniteit {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-De activiteit van een bezoeker in één zitting, zoals welke categorie hij of zij het vaakst bekijkt, kan worden gebruikt om zich bij volgende bezoeken te richten. Elke categoriepagina bevat een bezoeker die tijdens een sessie weergeeft, en zijn of haar categorie &quot;favoriet&quot; wordt berekend op basis van een recentiemodel en een frequentiemodel. Telkens wanneer de bezoeker terugkeert naar de homepage, kan het hoofdafbeeldingsgebied worden gebruikt om inhoud weer te geven die betrekking heeft op de favoriete categorie van die gebruiker.
+De activiteit van een bezoeker in één zitting, zoals welke categorie zij het vaakst bekijken, kan worden gebruikt voor het richten in volgende bezoeken. Elke categoriepagina bevat een bezoeker die tijdens een sessie weergeeft, en zijn of haar categorie &quot;favoriet&quot; wordt berekend op basis van een recentiemodel en een frequentiemodel. Telkens wanneer de bezoeker terugkeert naar de homepage, kan het hoofdafbeeldingsgebied worden gebruikt om inhoud weer te geven die betrekking heeft op de favoriete categorie van die gebruiker.
 
 ## Voorbeeld van het gebruik van een categorie-affiniteit {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -52,7 +52,7 @@ Het categorieaffiniteitsalgoritme werkt als volgt:
 
 ### Voorbeeld: categorieaffiniteitalgoritme
 
-Als u bijvoorbeeld de categorie `mens-clothing` weergeeft, vervolgens `accessories`, vervolgens `jewelry` en vervolgens `accessories` opnieuw in een sessie, resulteert dit in affiniteiten van:
+Als u bijvoorbeeld de `mens-clothing` categorie, dan `accessories`vervolgens `jewelry`vervolgens `accessories` opnieuw tijdens een zitting heeft de commissie de volgende affiniteiten :
 
 * `accessories`: 9 (+5 - 1 + 5)
 
@@ -68,7 +68,7 @@ Wanneer de sessie wordt beëindigd en de gebruiker later terugkeert naar de site
 
 * `jewelry`: 2,5 (5/2)
 
-Ervan uitgaande dat de gebruiker dan `jewelry`, `accessories`, `beauty`, `shoes` en `womens-clothing` op volgorde bekijkt:
+Ervan uitgaande dat de gebruiker dan de volgorde volgt, `jewelry`, `accessories`, `beauty`, `shoes`, en `womens-clothing`:
 
 * `accessories`: 6,5 (4,5 + 5 - 1 - 1 - 1)
 
@@ -80,7 +80,7 @@ Ervan uitgaande dat de gebruiker dan `jewelry`, `accessories`, `beauty`, `shoes`
 
 * `beauty`: 3 (+5 - 1 - 1)
 
-* `mens-clothing` wordt verwijderd na de laatste klik van  `womens-clothing` de categorie met de laagste score met een score van 1 (4 - 1 - 1 - 1)
+* `mens-clothing` wordt verwijderd na de laatste klik van `womens-clothing` als laagste scoringcategorie met een score van 1 (4 - 1 - 1 - 1)
 
 Wanneer de sessie wordt beëindigd en de gebruiker later terugkeert naar de site, worden de scores gehalveerd:
 
@@ -100,7 +100,7 @@ De volgende secties bevatten informatie om u te helpen een publiek van de catego
 
 ### Een publiek maken om de affiniteit van categorieën te gebruiken {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Klik in de lijst **[!UICONTROL Audiences]** op **[!UICONTROL Create Audience]**.
+1. Van de **[!UICONTROL Audiences]** lijst, klikt u op **[!UICONTROL Create Audience]**.
 
    of
 
@@ -114,7 +114,7 @@ De volgende secties bevatten informatie om u te helpen een publiek van de catego
 
 1. Selecteer de gewenste categorie:
 
-   ![Categorie-affiniteit > Categorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Categorie-affiniteit > Categorie](assets/affinity-category.png)
 
    Tot de categorieën behoren:
 
@@ -138,4 +138,4 @@ De volgende secties bevatten informatie om u te helpen een publiek van de catego
 
 ### Het publiek met de affiniteit van de categorie gebruiken in een activiteit {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-U kunt het publiek met affiniteit gebruiken in elke activiteit. Tijdens de driestapige geleide workflow kiest u in de stap [!UICONTROL Target] het gewenste publiek.
+U kunt het publiek met affiniteit gebruiken in elke activiteit. Tijdens de driestapsgestuurde workflow kunt u het volgende doen: [!UICONTROL Target] kiest u het gewenste publiek.
