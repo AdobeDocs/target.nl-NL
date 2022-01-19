@@ -1,19 +1,19 @@
 ---
 keywords: affiniteit;categorie-affiniteit
-description: Meer informatie over rubriekaffiniteit in Adobe [!DNL Target] die automatisch categorieën vastlegt die een gebruiker bezoekt en vervolgens de affiniteit van de gebruiker voor de categorie berekent, zodat deze kan worden geactiveerd en gesegmenteerd.
+description: Meer informatie over rubriekaffiniteit in [!DNL Adobe Target] die automatisch categorieën vastlegt die een gebruiker bezoekt en vervolgens de affiniteit van de gebruiker voor de categorie berekent, zodat deze kan worden geactiveerd en gesegmenteerd.
 title: Wat is rubriekaffiniteit?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '788'
 ht-degree: 3%
 
 ---
 
 # Categorie-affiniteit
 
-De categorie affiniteit in [!DNL Adobe Target] legt automatisch de categorieën vast die een gebruiker bezoekt en berekent vervolgens de affiniteit van de gebruiker voor de categorie zodat deze kan worden aangewezen en gesegmenteerd. Categorie-affiniteit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die waarschijnlijk op die informatie reageren.
+De categorie affiniteit in [!DNL Adobe Target] legt automatisch de categorieën vast op uw site die een gebruiker bezoekt en berekent vervolgens de affiniteit van de gebruiker voor elke categorie zodat deze kan worden aangewezen en gesegmenteerd. Categorie-affiniteit helpt ervoor te zorgen dat de inhoud gericht is op bezoekers die waarschijnlijk op die informatie reageren.
 
 ## Informatie over categorie-affiniteit overbrengen naar [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
