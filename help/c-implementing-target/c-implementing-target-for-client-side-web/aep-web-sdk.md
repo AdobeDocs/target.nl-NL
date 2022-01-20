@@ -5,9 +5,9 @@ title: Hoe voer ik met het Web SDK van het Experience Platform uit?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
+source-git-commit: 636016be6e8a6adc8c4b7fb09af93bb89e28373a
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ Naast de [!DNL Platform Web SDK] de hierboven vermelde documentatie, onderwerpen
 | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek het richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft. [!UICONTROL Activity QA] laat u volledig testen [!DNL Target] activiteiten voordat ze worden gelanceerd.<br>Zie [Compatibiliteit met de QA-modus van de JavaScript-bibliotheek als doel](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) en [Voorvertoning van URL&#39;s](/help/c-activities/c-activity-qa/activity-qa.md#preview). |
 | [[!UICONTROL Analytics for Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) is een integratie met meerdere oplossingen waarmee u activiteiten kunt maken op basis van [!DNL Analytics] conversiemetriek en publiekssegmenten. De integratie A4T laat u gebruiken [!DNL Analytics] rapporten om uw resultaten te onderzoeken.<br>Zie [Ondersteunde activiteitstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) en [Implementatiestappen voor een Adobe Experience Platform Web SDK-implementatie](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [Soorten publiek](/help/c-target/target.md) | Soorten publiek in [!DNL Adobe Target] bepalen wie inhoud en ervaringen in een gerichte activiteit ziet.<br>Zie [De lijst Soorten publiek gebruiken](/help/c-target/c-audiences/audiences.md#use-list) en [Meerdere doelgroepen combineren](/help/c-target/combining-multiple-audiences.md). |
+| [Besluiten voorstellen](/help/c-integrating-target-with-mac/ajo/offer-decision.md) | Voeg aanbodbeslissingen die in Adobe Journey Optimizer zijn gemaakt, toe aan Doelactiviteiten (handmatige A/B-test of Experience Targeting) om de volgende beste aanbieding voor uw bezoekers op internet en mobiel te bepalen en te leveren. |
 | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Met omleidingsvoorstellen leiden bezoekersbrowsers om naar een nieuwe pagina.<br>Zie [doet het [!DNL Adobe Experience Platform Web SDK] steun omleidingsaanbiedingen voor A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Reactietokens](/help/administrating-target/response-tokens.md) | Met responstokens kunt u doelgegevens verzenden naar Google Analytics en andere integratie van derden.<br>Zie [Gegevens verzenden naar Google Analytics via Platform Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk) om een codevoorbeeld van te zien hoe te om deze taak te verwezenlijken. |
 | [Implementatie van één pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) in de *Overzicht van Platform Web SDK* hulplijn. | [!UICONTROL Adobe Experience Platform Web SDK] biedt rijke functies die uw bedrijf uitrusten om personalisatie uit te voeren op de volgende generatie, clienttechnologieën zoals single-page toepassingen (SPA). |
