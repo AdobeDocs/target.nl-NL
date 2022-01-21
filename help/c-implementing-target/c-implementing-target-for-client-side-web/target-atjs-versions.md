@@ -5,9 +5,9 @@ title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '4308'
+source-wordcount: '4347'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,13 @@ De [!DNL Target] in de JavaScript-bibliotheek at.js worden nu gegevens over het 
 Deze release bevat de volgende verbeteringen:
 
 * Extra ondersteuning voor [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Deze versie van at.js wordt vereist om gepersonaliseerde ervaringen en aanbiedingen op douaneelementen en op elementen binnen douaneelementen tot stand te brengen en te testen. Deze functionaliteit is opgenomen in de [!DNL Target Standard/Premium] Release 21.10.5.
+
+## om 1.js 1.8.3 (21 september 2021) {#183}
+
+Deze release bevat de volgende wijzigingen:
+
+* De `reactor-window` en `reactor-document` [!DNL Adobe Experience Platform Launch] om ervoor te zorgen dat de [!DNL Platform Launch] bouwt correct functies voor klanten die `window.default` of `document-default` set.
+* at.js 1.8.3 wordt nu expliciet ingesteld `Samesite=None` en `Secure` om ervoor te zorgen dat cookies van derden correct worden ingesteld.
 
 ## om 2.6.1.2021 (16 augustus 2021)
 
