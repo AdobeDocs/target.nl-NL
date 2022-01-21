@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: b4c64f3fbc266b86cfffa6e5526a074b76b8b6ee
+source-git-commit: 5e67c963087cc07d09e65ded48a8f5777104019d
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,16 @@ De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de
 
 ## Vereisten {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-U moet beschikken over de functionaliteit voor ervaringsfragmenten binnen [!DNL Target]. Bovendien moet u [!DNL AEM] 6.3 met de juiste service pack of [!DNL AEM] 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
+U moet beschikken over de functionaliteit voor ervaringsfragmenten binnen [!DNL Target]. Bovendien moet u [!DNL AEM] as a Cloud Service of [!DNL AEM] 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
+* [!DNL Adobe Experience Manager ] as a Cloud Service
 * [!DNL Adobe Experience Manager] 6.5
 * [!DNL Adobe Experience Manager] 6.4
-* [!DNL Adobe Experience Manager] 6.3 SP2 (of hoger).
 * [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] account.
+
+>[!NOTE]
+>
+>[!DNL Adobe Experience Manager] 6.3 en 6.4 hebben het einde van de levensduur bereikt en worden niet meer ondersteund (behalve voor klanten die uitgebreide ondersteuning hebben aangeschaft).
 
 Contact [Adobe Target Klantenservice](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.
 
@@ -46,18 +50,18 @@ Voor gebruik [!DNL AEM] ervaren fragmenten in [!DNL Target]moet u de volgende st
 
 Zie voor meer informatie:
 
-* **Adobe I/O**: [Integratie met Adobe Target met behulp van Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) in de _Gebruikershandleiding beheren_ documentatie.
-* **[!DNL AEM]6,3**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in de _Adobe Experience Manager 6.3_ documentatie.
-* **[!DNL AEM]6,4**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in de _Adobe Experience Manager 6.4_ documentatie.
-* **[!DNL AEM]6,5**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) in de *Adobe Experience Manager 6.5* documentatie.
+* **AEM as a Cloud Service**: [Integreren met Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} in het dialoogvenster *Experience Manager as a Cloud Service* hulplijn.
+* **Adobe I/O**: [Integratie met Adobe Target met behulp van Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} in het dialoogvenster *Gebruikershandleiding beheren* documentatie.
+* **[!DNL AEM]6,5**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6,4**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.4* documentatie.
 
 ### Stap 2: Het ervaringsfragment maken
 
 Experience-fragmenten gemaakt in [!DNL AEM]. Zie voor meer informatie:
 
-* **[!DNL AEM]6,3**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in de *Adobe Experience Manager 6.3* documentatie.
-* **[!DNL AEM]6,4**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en) in de *Adobe Experience Manager 6.4* documentatie.
-* **[!DNL AEM]6,5**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en) in de *Adobe Experience Manager 6.5* documentatie.
+* **AEM as a Cloud Service**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} in het dialoogvenster *Experience Manager as a Cloud Service* hulplijn.
+* **[!DNL AEM]6,5**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6,4**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.4* documentatie.
 
 ### Stap 3: Configureren [!DNL AEM] om het ervaringsfragment te delen met [!DNL Target]
 
@@ -74,9 +78,9 @@ Experience-fragmenten gemaakt in [!DNL AEM]. Zie voor meer informatie:
 
 Afhankelijk van uw [!DNL AEM] versie, zie de volgende verbindingen voor geleidelijke instructies:
 
-* **[!DNL AEM]6,3**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in de *Adobe Experience Manager 6.3* documentatie.
-* **[!DNL AEM]6,4**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) in de *Adobe Experience Manager 6.4* documentatie.
-* **[!DNL AEM]6,5**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en) in de *Adobe Experience Manager 6.5* documentatie.
+* **AEM as a Cloud Service**:
+* **[!DNL AEM]6,5**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6,4**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.4* documentatie.
 
 ## Ervaar fragmenten in [!DNL Target] activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -142,6 +146,7 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 * [!DNL Target] zoekt momenteel naar ervaringsfragmenten die om de tien minuten moeten worden geïmporteerd. Het geïmporteerde ervaringsfragment moet beschikbaar zijn in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
 * Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML-voorstel. Het ervaringsfragment &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 * U kunt geen ervaringsfragmenten maken met [!DNL Adobe I/O]. Maak ervaringsfragmenten met AEM, zoals hierboven beschreven.
+* Als u het ervaringsfragment bijwerkt in AEM, moet het ervaringsfragment worden gepubliceerd en geëxporteerd naar [!DNL Target] opnieuw [!DNL Target] De meest recente wijzigingen kunnen worden gebruikt.
 
 ## Trainingsvideo: Fragmenten AEM ervaren met [!DNL Adobe Target]
 
