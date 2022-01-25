@@ -1,12 +1,12 @@
 ---
 keywords: publiek;publieksregels;publiek maken;publiek maken;publiek instellen;publiek rapporteren;publiek rapporteren;segment;aangepaste profielparameters;publieksdefinitie;publiekslijst
-description: Leer hoe u de [!UICONTROL Audiences] lijst in [!DNL Adobe Target].
+description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: d8b18c77d6df2fb9db01b64268e555f9a4b10adf
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een
 
 * Selecteer een herbruikbaar publiek in het menu [!UICONTROL Audiences] list
 * [Een activiteitspecifiek publiek maken](/help/c-target/creating-activity-only-audience.md) en als doel instellen
-* [Meerdere soorten publiek combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om een ad-hocpubliek te maken
+* [Meerdere doelgroepen combineren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om een ad-hocpubliek te maken
 
 U kunt ook publieksgegevens gebruiken die zijn verzameld door [!DNL Adobe Analytics] voor realtime gericht werken en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] toepassingen. Zie [Experience Cloud publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *Experience Cloud Central-interfacecomponenten* hulplijn.
 
