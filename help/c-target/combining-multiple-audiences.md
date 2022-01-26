@@ -4,9 +4,9 @@ description: Leer hoe u meerdere soorten publiek kunt combineren (inclusief Adob
 title: Kan ik Meerdere soorten publiek combineren om een nieuw publiek te maken?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Meerdere soorten publiek combineren (inclusief [!DNL Adobe Experience Cloud], [!
 >[!NOTE]
 >
 >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals het is of gecombineerd met bestaand publiek, zoals in dit onderwerp wordt uitgelegd).
+>
+>Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](/help/c-target/c-audiences/audiences.md#aep).
 
 Stel dat u een publiek hebt met de doelgroep &quot;Nieuwe bezoekers&quot; en een publiek met de doelgroep &quot;Chrome-gebruikers&quot;. Voor een specifieke activiteit, zou u deze bestaande publiek aan doelnieuwe bezoekers kunnen willen combineren gebruikend browsers van Chrome. In plaats van een derde publiek te maken en het op te slaan in de [!UICONTROL Audiences] kunt u deze twee soorten publiek combineren tijdens het maken van activiteiten of tijdens het bewerken van een bestaande activiteit.
 

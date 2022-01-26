@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,9 @@ De [!UICONTROL Audiences] Deze lijst bevat het publiek dat u in uw activiteiten 
    >
    >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/c-target/combining-multiple-audiences.md).
    >
-   >Gebruikers moeten beschikken over [!UICONTROL Approver] of hoger [!DNL Target] om te vormen [!DNL Target] [!UICONTROL Destinations] kaarten in AEP/RTCDP ([!DNL Real-Time Customer Data Platform]).
+   >Gebruikers moeten beschikken over [!UICONTROL Approver] of hoger [!DNL Target] om te vormen [!DNL Target] [!UICONTROL Destinations] kaarten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+   >
+   >Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](#aep).
 
 Vooraf gedefinieerde doelgroepen, zoals &quot;[!UICONTROL New Visitors]&quot; en &quot;[!UICONTROL Returning Visitors],&quot; kan niet worden hernoemd.
 
@@ -102,6 +104,29 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## Gebruik publiek van [!DNL Adobe Experience Platform] {#aep}
+
+Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), gebouwd op [!DNL Adobe Experience Platform]helpt bedrijven bekende en anonieme gegevens uit meerdere bedrijfsbronnen bij elkaar te brengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
+
+Door verbinding te maken [!DNL Target] aan de [!DNL Real-time Customer Data Platform]kunnen klanten hun webpersonalisatie verrijken door nieuwe segmenten te ontsluiten die eerder niet toegankelijk waren voor [!DNL Target] om realtime millisecondenpersonalisatie in te schakelen op de eerste pagina van het webbezoek van een klant. Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Hiermee kunt u de beschikbare gegevenspunten uitbreiden voor een rijkere personalisatie.
+
+Raadpleeg de volgende onderwerpen voor meer informatie:
+
+* [Opmerkingen bij de release Doelen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Aangepaste aanpassingsverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
+* [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
+* [Vorm verpersoonlijkingsbestemmingen voor de zelfde pagina en volgende de gebruiksgevallen van de paginagrootte](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+De volgende lijst toont de tijd van de segmentevaluatie voor gebeurtenissen die uit verschillende implementatiescenario&#39;s komen:
+
+| Scenario | Edge-segment (millisecondenevaluatie) | Streaming segment (mindevaluatie) | Evaluatie van batchsegment |
+| --- | --- | --- | --- |
+| Gebeurtenissen/gegevens van SDK&#39;s van Adobe Experience Platform | Ja | Ja | N.v.t. |
+| Gebeurtenissen van at.js | Nee | Ja | N.v.t. |
+| Gebeurtenissen van mobiele SDK&#39;s van doel | Nee | Ja | N.v.t. |
+| Gebeurtenissen van geüpload item | Nee | Nee | Ja |
+| Gebeurtenissen van offlinegegevens (stroom) | Nee | Ja | Ja |
 
 ## Trainingsvideo: Soorten publiek gebruiken ![Zelfstudie-badge](/help/assets/tutorial.png)
 

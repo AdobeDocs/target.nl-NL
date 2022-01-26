@@ -4,9 +4,9 @@ description: Meer informatie over het toevoegen van een beslissing over voorstel
 title: Hoe gebruik ik beslissingen over aanbiedingen?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 9843b146b35de3a42408b689f4326fce12bbee5d
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 Gebruiken [!DNL Adobe Target] with [!DNL Adobe Journey Optimizer] biedt beslissingen om de volgende beste aanbieding voor uw bezoekers op internet en mobiel te bepalen en te leveren.
 
 Aanbiedingsbesluiten toevoegen die zijn gemaakt in [!DNL Adobe Journey Optimizer] tot [!DNL Target] activiteiten (handboek [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting]) met behulp van [!UICONTROL Visual Experience Composer] (VEC) of de [!UICONTROL Form-Based Composer] om persoonlijke aanbiedingen te testen en te leveren aan uw bezoekers op uw binnenkomende kanalen aangedreven door [!DNL Target].
-
->[!NOTE]
->
->De functionaliteit van de aanbieding die in dit onderwerp wordt beschreven momenteel in Bèta en beschikbaar om klanten slechts te selecteren.
 
 Meer informatie over [!DNL Adobe Journey Optimizer], zie [Aan de slag met Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in de *Journey Optimizer* documentatie.
 

@@ -2,12 +2,12 @@
 keywords: Opmerkingen bij de release;nieuwe functies;releases;updates;update;release;verbetering;verbeteringen;correcties;foutoplossingen;updates
 description: Meer informatie over de nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de huidige release van [!DNL Adobe Target], inclusief SDK's, API's en JavaScript-bibliotheken.
 landing-page-description: Meer informatie over de nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de huidige release van [!DNL Adobe Target].
-title: Welke nieuwe eigenschappen worden inbegrepen in de huidige Versie?
+title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: 8d252255499dd8ece5e1de1220a97723659a4bf8
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -16,86 +16,23 @@ ht-degree: 0%
 
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast bevat de release notities voor doel-API&#39;s, SDK&#39;s en de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
->[!IMPORTANT]
->
->**mbox.js end-of-life**: Vanaf 31 maart 2021, [!DNL Adobe Target] ondersteunt de bibliotheek mbox.js niet meer. Post Maart 31, 2021, zullen alle vraag die van mbox.js wordt gemaakt zachtjes ontbreken en uw pagina&#39;s beïnvloeden die hebben [!DNL Target] activiteiten die worden uitgevoerd door het bedienen van standaardinhoud.
->
->Migreren naar de meest recente versie van de nieuwe [!DNL Adobe Experience Platform Web SDK] of de JavaScript-bibliotheek op at.js om mogelijke problemen met uw sites te voorkomen. Zie voor meer informatie [Overzicht: Doel voor client-side web implementeren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Target Standard/Premium] 22.1.2 (26 januari 2022)
+
+| Functie | Details |
+| --- | --- |
+| [!DNL Adobe Experience Platform] publiek in [!DNL Target] | U kunt nu consumeren en gebruiken [!DNL Adobe Experience Platform] publiek in [!DNL Target]. De [!DNL Target] team, [!DNL Experience Platform] [!DNL Destinations] en de [!DNL Unified Profile Service] -team is verheugd de algemene beschikbaarheid van de gebruiksgevallen &quot;Zelfde pagina/Volgende pagina aanpassen&quot; aan te kondigen.<br>Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), gebouwd op [!DNL Adobe Experience Platform] helpt bedrijven bekende en anonieme gegevens van veelvoudige ondernemingsbronnen samenbrengen om klantenprofielen tot stand te brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.<br>Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](/help/c-target/c-audiences/audiences.md#aep) in *Soorten publiek maken*. |
+| [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li><li>De mogelijkheid om het publiek tussen werkruimten te verplaatsen voor [!DNL Target Premium] klanten.</li></ul>Zie voor meer informatie [Soorten publiek](/help/c-target/target.md).<br>**OPMERKING**: Dit onderdeel wordt de komende zes weken uitgerold naar klanten in verschillende regio&#39;s. |
+| [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>De mogelijkheid om meerdere profielscripts tegelijk te selecteren en te verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**OPMERKING**: Dit onderdeel wordt de komende zes weken uitgerold naar klanten in verschillende regio&#39;s. |
+
+## [!DNL Target Standard/Premium] 22.1.1 (12 januari 2022)
+
+Deze release bevat foutoplossingen en de vereiste functies voor toekomstige integratie.
 
 ## at.js versie 2.8.0 (7 januari 2022)
 
 De [!DNL Target] in de JavaScript-bibliotheek at.js worden nu gegevens over het gebruik van functies en de prestaties van telemetriegegevens verzameld. Persoonlijke gegevens worden niet verzameld. Afmelden voor deze functie is beschikbaar door de instelling `telemetryEnabled` naar false in `targetGlobalSettings`. Zie voor meer informatie [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
-
-## [!DNL Target Standard/Premium] 21.10.5 (28 oktober 2021)
-
-Deze onderhoudrelease bevat de volgende verbeteringen:
-
-| Functie | Details |
-| --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Extra ondersteuning voor [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). U kunt persoonlijke ervaringen en aanbiedingen maken en testen op aangepaste elementen en op elementen in aangepaste elementen.<br>Zie voor meer informatie [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4 (21 oktober 2021)
-
-Deze onderhoudrelease bevat de volgende verbeteringen:
-
-| Functie | Details |
-| --- | --- |
-| Recommendations op basis van winkelwagentjes | Er is een nieuwe reeks algoritmen toegevoegd om aanbevelingen te doen op basis van de inhoud van het winkelwagentje van de bezoeker.<br>Zie &quot;Op winkelwagentje gebaseerd&quot; in [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Winkelwagentjes toevoegen/winkelwagentjes weergeven/uitchecken van pagina&#39;s&quot; en &quot;Items uitsluiten die zich al in de winkelwagentje van de bezoeker bevinden&quot; in [Recommendations plannen en implementeren](/help/c-recommendations/plan-implement.md)en op basis van winkelwagentje in [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-
-## [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
-
-Deze onderhoudrelease bevat de volgende verbeteringen, correcties en wijzigingen:
-
-* Opgeloste problemen waardoor klanten de [!UICONTROL A4T] in [!DNL Analysis Workspace] door op de knop [!UICONTROL View in Analytics] knop in [!DNL Target] activiteitenrapportage. (TGT-42099, TGT-42100)
-* Het probleem dat de oorzaak was van de [!UICONTROL Edit Design] knop niet weergeven tijdens bewerken [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die de [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
-* Het probleem dat ervoor zorgde dat de [!UICONTROL Compatible] selectievakje van weergave in selectie criteria tijdens het maken van een nieuwe [!UICONTROL Recommendations] activiteit. (TGT-42053)
-* Probleem verholpen waarbij een foutbericht werd weergegeven dat niet kon worden geselecteerd [!DNL Analytics] als rapportagebron (A4T) wegens gebrek aan [!DNL Analytics] machtigingen. (TGT-41954)
-* Geïmplementeerde veelvoudige toegankelijkheidsmoeilijke situaties om toetsenbordnavigatie over de [!DNL Target] UI.
-
-## [!DNL Target Standard/Premium] 21.10.2 (13 oktober 2021)
-
-De volgende verbeteringen zijn toegevoegd tijdens het gebruik [!DNL Target] [!UICONTROL Audiences] met de [!DNL Adobe Experience Platform Web SDK]:
-
-* Er zijn waarschuwingspictogrammen, popovers en berichten toegevoegd op verschillende plaatsen in het dialoogvenster [!DNL Target] UI om aan te geven dat het publiek bij de bron is verwijderd en niet langer beschikbaar is voor gebruik in [!DNL Target] activiteiten.
-
-   In de volgende afbeeldingen ziet u een aantal plaatsen waar de pictogrammen, popovers en berichten worden weergegeven:
-
-   * [!UICONTROL Activity] lijstpagina
-
-      ![Publiek verwijderd bij bronbericht op pagina Activiteiten](assets/deleted-at-source-audiences-list.png)
-
-   * Activiteit [!UICONTROL Overview] pagina&#39;s:
-
-      ![Publiek verwijderd bij bronbericht op overzichtspagina](assets/deleted-at-source-overview.png)
-
-   * [!UICONTROL Experiences] stap van de workflow voor het maken van activiteiten:
-
-      ![Publiek verwijderd bij bronbericht op [!UICONTROL Experiences] page](assets/deleted-at-source-experiences.png)
-
-   * [!UICONTROL Targeting] stap van de workflow voor het maken van activiteiten:
-
-      ![Publiek verwijderd bij bronbericht op [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Goals & Settings] stap van de workflow voor het maken van activiteiten:
-
-      ![Publiek verwijderd bij bronbericht op de [!UICONTROL Goals & Settings] page](assets/deleted-at-source-goals-settings.png)
-
-   * Poortverfijningen ([!UICONTROL Replace Audience] op de [!UICONTROL Targeting] stap van de workflow voor het maken van activiteiten):
-
-* Als u de functie Soorten publiek combineren probeert te gebruiken en een van de soorten publiek bij de bron is verwijderd, [!UICONTROL Save] is uitgeschakeld.
-
-## [!DNL Target Standard/Premium] 21.10.1 (6 oktober 2021)
-
-Deze release bevat de volgende nieuwe functies:
-
-| Functie | Details |
-| --- | --- |
-| [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li></ul>Zie voor meer informatie [Soorten publiek](/help/c-target/target.md).<br>**OPMERKING**: De nieuwe [!UICONTROL Audiences] UI is beschikbaar om klanten slechts te selecteren. De update wordt vanaf januari 2022 geleidelijk aan voor alle klanten beschikbaar gesteld. |
-| [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>De mogelijkheid om meerdere profielscripts tegelijk te selecteren en te verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**OPMERKING**: De nieuwe [!UICONTROL Profile Scripts] UI is beschikbaar om klanten slechts te selecteren. De update wordt vanaf januari 2022 geleidelijk aan voor alle klanten beschikbaar gesteld. |
-| ![Premium badge](/help/assets/premium.png) Recommendations-criteria maken en bewerken | De [!UICONTROL Recommendations Criteria] de workflow voor het maken en bewerken van bestanden is gestroomlijnd om het kiezen van het juiste algoritme en de juiste instellingen voor het uitvoeren van aanbevelingen te vereenvoudigen.<br>Zie voor meer informatie [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium badge](/help/assets/premium.png) Verbeteringen in de snelheid van Recommendations-terugzoekvensters en -algoritmes | U kunt de algoritmen &quot;Meest bekeken&quot; en &quot;Hoogste verkopers&quot; nu uitvoeren met een terugkijkvenster van zes uur om de inhoud vast te leggen die het laatst wordt doorzocht. Wanneer het terugkijkvenster van zes uur wordt geselecteerd, worden uw aanbevelingen resultaten bijgewerkt om de 3-6 uur door de dag.<br>Zie voor meer informatie [Gegevensbron](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Criteria maken*. |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
