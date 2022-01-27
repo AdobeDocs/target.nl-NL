@@ -1,12 +1,12 @@
 ---
 keywords: omgevingsgegevens;sessiegegevens;geo-gegevens;geografische gegevens;apparaatgegevens;mobiele gegevens;kenmerken;profielkenmerken;verpersoonlijkingsalgoritmen;machinaal leeralgoritmen;machinaal leeralgoritmen
-description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt om de bijbehorende computerleeralgoritmen op te bouwen in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.
+description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt om zijn machine-leert algoritmen te bouwen.
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
+source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
