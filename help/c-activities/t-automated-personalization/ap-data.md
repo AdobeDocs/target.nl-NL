@@ -4,7 +4,7 @@ description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt o
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
+source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Om één of meerdere specifieke eigenschappen van te blokkeren [!DNL Target] com
 | Kenmerknaam | Beschrijving van kenmerk | Samplewaarden | Systeemnaam |
 | --- | --- | --- | --- |
 | Geo - Plaats | De stad waar de bezoeker de activiteit heeft geopend. | San Francisco | Geo_City |
-| Geo - Land | Het land waar de bezoeker de activiteit heeft geopend. | Duitsland | Geo_County |
+| Geo - Land | Het land waar de bezoeker de activiteit heeft geopend. | Duitsland | Geo_Land |
 | Geo - DMA | Het toegewezen marketinggebied (DMA) waar de bezoeker toegang toe had tot de activiteit. | Charlottesville | Geo_DMA |
 | Geo - breedtegraad | De breedtegraad waartoe de bezoeker de activiteit heeft benaderd. | 47,269<br>Afgerond tot 3 decimalen (nauwkeurigheid ongeveer 100 meter) | GEO_Latitude |
 | Geo - Lengte | De lengtegraad waartoe de bezoeker de activiteit heeft benaderd. | -122,269<br>Afgerond tot 3 decimalen (nauwkeurigheid ongeveer 100 meter) | GEO_Lengtegraad |
