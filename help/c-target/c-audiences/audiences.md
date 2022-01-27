@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
+source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -107,9 +107,20 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Gebruik publiek van [!DNL Adobe Experience Platform] {#aep}
 
-Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), gebouwd op [!DNL Adobe Experience Platform]helpt bedrijven bekende en anonieme gegevens uit meerdere bedrijfsbronnen bij elkaar te brengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
+Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), gebouwd op [!DNL Adobe Experience Platform]helpt bedrijven bekende en anonieme gegevens uit meerdere bedrijfsbronnen bij elkaar te brengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
 
 Door verbinding te maken [!DNL Target] aan de [!DNL Real-time Customer Data Platform]kunnen klanten hun webpersonalisatie verrijken door nieuwe segmenten te ontsluiten die eerder niet toegankelijk waren voor [!DNL Target] om realtime millisecondenpersonalisatie in te schakelen op de eerste pagina van het webbezoek van een klant. Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Hiermee kunt u de beschikbare gegevenspunten uitbreiden voor een rijkere personalisatie.
+
+Deze integratie ontgrendelt belangrijke gebruiksgevallen met RTCDP:
+
+* Zelfde pagina/volgende hoogte-personalisatie
+* Eerste/onbekende gebruikerspersonalisatie
+
+Belangrijke functies zijn:
+
+* Directe doelintegratie met RTCDP/[!DNL Adobe Experience Platform] op de rand (afhankelijkheid van [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target Edge Destinations Card] met toezicht
+* Randsegmentatie en randprofiel met verenigd profiel
 
 Raadpleeg de volgende onderwerpen voor meer informatie:
 
@@ -117,6 +128,12 @@ Raadpleeg de volgende onderwerpen voor meer informatie:
 * [Aangepaste aanpassingsverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
 * [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
 * [Vorm verpersoonlijkingsbestemmingen voor de zelfde pagina en volgende de gebruiksgevallen van de paginagrootte](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+### Adobe Target-blog en -video:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] en [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+
+### Aanvullende informatie
 
 De volgende lijst toont de tijd van de segmentevaluatie voor gebeurtenissen die uit verschillende implementatiescenario&#39;s komen:
 
