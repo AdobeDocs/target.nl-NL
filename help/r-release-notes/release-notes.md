@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast bevat de release notities voor doel-API&#39;s, SDK&#39;s en de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## at.js versie 2.8.1 (28 januari 2022)
+
+* Vast `pageLoad` niet toegewezen aan target-global-mbox in [!UICONTROL On Device Decisioning] (ODD) hybride uitvoeringsmodus.
+* Probleem verholpen met analytische details voor mbox-aanvraag.
+* Verbeterde dev-afhankelijkheden om beveiligingskwetsbaarheden te verhelpen.
 
 ## [!DNL Target Standard/Premium] 22.1.2 (26 januari 2022)
 

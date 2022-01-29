@@ -5,9 +5,9 @@ title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4347'
+source-wordcount: '4377'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,12 @@ Details over de wijzigingen in elke versie van het dialoogvenster [!DNL Adobe Ta
 >Het team van het Doel steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is de aangewezen methode om at.js te bevorderen. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Adobe Experience Platform] catalogus als upgrades. Zie voor meer informatie [Uitbreidingen upgraden](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in de *Overzicht van codes* hulplijn.
+
+## at.js versie 2.8.1 (28 januari 2022)
+
+* Vast `pageLoad` niet toegewezen aan target-global-mbox in [!UICONTROL On Device Decisioning] (ODD) hybride uitvoeringsmodus.
+* Probleem verholpen met analytische details voor mbox-aanvraag.
+* Verbeterde dev-afhankelijkheden om beveiligingskwetsbaarheden te verhelpen.
 
 ## at.js versie 2.8.0 (7 januari 2022)
 

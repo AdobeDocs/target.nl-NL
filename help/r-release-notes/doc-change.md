@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '3285'
+source-wordcount: '3305'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 28 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de release at.js 2.8.1. |
+|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over de release at.js 2.8.1. |
 | 27 januari | [AEM ervaren fragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Bijgewerkt onderwerp en toegevoegde informatie over [!DNL AEM as a Cloud Service] en [!DNL Adobe I/0]. |
 | 26 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de doelversie Standard/Premium 22.1.2. |
 |  | [Soorten publiek maken](/help/c-target/c-audiences/audiences.md) | Extra informatie over [!DNL Adobe Experience Platform] publiek. |
