@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
+source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,13 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast bevat de release notities voor doel-API&#39;s, SDK&#39;s en de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## Target Standard/Premium 22.2.1 (1 februari 2022)
+
+Deze onderhoudsversie bevat de volgende oplossingen en verbeteringen voor de nieuwe [!UICONTROL Audiences] UI die in de Versie van het Doel Standard/Premium 22.1.2 wordt aangekondigd die aan klanten over alle gebieden in de volgende zes weken uitrolt. Met deze correcties lijnt u de functionaliteit uit van publiek dat is gemaakt in [!DNL Adobe Target Standard/Premium].
+
+* Probleem verholpen waarbij geïmporteerd publiek werd verhinderd [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], en [!DNL Adobe Target Classic] worden toegewezen als rapportagepubliek. (TGT-43140)
+* Toegevoegde [!UICONTROL Delete] in de [!UICONTROL Audiences] lijst voor geïmporteerde soorten publiek uit [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], en [!DNL Adobe Target Classic]. Ook functionaliteit voor bulksgewijs verwijderen toegevoegd. (TGT-42914)
 
 ## at.js versie 2.8.1 (28 januari 2022)
 
@@ -31,14 +38,6 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 | [!DNL Adobe Experience Platform] publiek in [!DNL Target] | U kunt nu consumeren en gebruiken [!DNL Adobe Experience Platform] publiek in [!DNL Target]. De [!DNL Target] team, [!DNL Experience Platform] [!DNL Destinations] en de [!DNL Unified Profile Service] -team is verheugd de algemene beschikbaarheid van de gebruiksgevallen &quot;Zelfde pagina/Volgende pagina aanpassen&quot; aan te kondigen.<br>Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), gebouwd op [!DNL Adobe Experience Platform] helpt bedrijven bekende en anonieme gegevens van veelvoudige ondernemingsbronnen samenbrengen om klantenprofielen tot stand te brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.<br>Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](/help/c-target/c-audiences/audiences.md#aep) in *Soorten publiek maken*.<br>Lees de Adobe-blog en bekijk de video: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] en [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
 | [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li><li>De mogelijkheid om het publiek tussen werkruimten te verplaatsen voor [!DNL Target Premium] klanten.</li></ul>Zie voor meer informatie [Soorten publiek](/help/c-target/target.md).<br>**OPMERKING**: Deze functie wordt de komende acht weken uitgerold naar klanten in verschillende regio&#39;s. |
 | [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>De mogelijkheid om meerdere profielscripts tegelijk te selecteren en te verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**OPMERKING**: Deze functie wordt de komende acht weken uitgerold naar klanten in verschillende regio&#39;s. |
-
-## [!DNL Target Standard/Premium] 22.1.1 (12 januari 2022)
-
-Deze release bevat foutoplossingen en de vereiste functies voor toekomstige integratie.
-
-## at.js versie 2.8.0 (7 januari 2022)
-
-De [!DNL Target] in de JavaScript-bibliotheek at.js worden nu gegevens over het gebruik van functies en de prestaties van telemetriegegevens verzameld. Persoonlijke gegevens worden niet verzameld. Afmelden voor deze functie is beschikbaar door de instelling `telemetryEnabled` naar false in `targetGlobalSettings`. Zie voor meer informatie [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
