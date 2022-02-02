@@ -4,9 +4,9 @@ description: Zoek naar suggesties om problemen op te lossen als de pagina de ver
 title: Hoe kan ik problemen met de levering van inhoud oplossen?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Als u mboxDebug wilt gebruiken, voegt u een parameter mboxDebug toe aan het eind
 | URL-parameters | Doel |
 |--- |--- |
 | `mboxDebug=1` | Foutopsporing<br>Als u deze parameter toevoegt aan een URL waarvoor Target-aanvragen zijn gedefinieerd, wordt een pop-upvenster geopend met waardevolle foutopsporingsgegevens. De informatie van het cookie, de waarden van PCid en van identiteitskaart van de Zitting worden weggeschreven, en alle URLs zijn zichtbaar. Klik op een aanvraag-URL van het doel om het antwoord voor die URL weer te geven [!DNL Target] verzoek. Meer informatie vindt u in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
-| `mboxDebug=x-cookie` | Het cookie wijzigen |
 | `mboxDisable=1` | Vakken op de pagina uitschakelen |
-| `mboxDebug=x-profile` | Profielenset weergeven. |
-| `mboxDebug=x-time` | Responstijd voor elk weergeven [!DNL Target] verzoek |
 | `mboxOverride.browserIp=<Insert IP address>` | Verplaatsing testen<br>Testen met deze URL-parameter. Typ een IP adres als waarde voor dit attribuut, en het groeperen van Test&amp;Target evalueert dat IP adres tegen om het even welke geotargeting of segmentatie die in een campagne wordt geplaatst aan te passen. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ In dit scenario is de URL `https://shopping.mycart.com?type=Summers%20Offers` en
 In dit scenario is de URL `https://shopping.mycart.com?type=Summers%20Offers` en aanvullende sjabloonregels specificeren een [!UICONTROL Query] with [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Aanbiedingen, gescheiden door een OR-operator:
 
 ![Sjabloonregel die een specifiek deel van de URL gebruikt](assets/option3.png)
+
+## Dubbele aanhalingstekens schalen in [!DNL Target] de waarde van het profielkenmerk werkt niet zoals verwacht. {#escape}
+
+Wanneer u waarden verzendt die dubbele aanhalingstekens bevatten in een [!DNL Target] profielkenmerk, moet u het opnieuw laten werken zoals hieronder wordt weergegeven.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Trainingsvideo&#39;s
 
