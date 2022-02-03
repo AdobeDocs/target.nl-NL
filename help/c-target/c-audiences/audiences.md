@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -125,13 +125,10 @@ Belangrijke functies zijn:
 Raadpleeg de volgende onderwerpen voor meer informatie:
 
 * [Opmerkingen bij de release Doelen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Vorm verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijking](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
 * [Aangepaste aanpassingsverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
 * [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
 * [Vorm verpersoonlijkingsbestemmingen voor de zelfde pagina en volgende de gebruiksgevallen van de paginagrootte](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
-
-### Adobe Target-blog en -video:
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] en [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ### Aanvullende informatie
 
@@ -144,6 +141,18 @@ De volgende lijst toont de tijd van de segmentevaluatie voor gebeurtenissen die 
 | Gebeurtenissen van mobiele SDK&#39;s van doel | Nee | Ja | N.v.t. |
 | Gebeurtenissen van geüpload item | Nee | Nee | Ja |
 | Gebeurtenissen van offlinegegevens (stroom) | Nee | Ja | Ja |
+
+### Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target]{#RTCDP}
+
+Leer hoe u een persoonlijke voorstelling kunt maken bij de volgende hit met [!DNL Real-time Customer Data Platform] en [!DNL Adobe Target]. De [!DNL Adobe Target] bestemming in [!DNL Real-time CDP] staat u toe te gebruiken [!DNL Experience Platform] segmenten in [!DNL Adobe Target] voor dezelfde pagina en paginagrootte personalisatie met beheer en privacyondersteuning.
+
+Zie voor meer informatie [Volgend-klare verpersoonlijking met Real-Time CDP en Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} in het dialoogvenster *Platform Tutorials* hulplijn.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Adobe Target-blog en -video:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] en [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ## Trainingsvideo: Soorten publiek gebruiken ![Zelfstudie-badge](/help/assets/tutorial.png)
 
