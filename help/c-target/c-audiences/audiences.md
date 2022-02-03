@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -124,11 +124,11 @@ Belangrijke functies zijn:
 
 Raadpleeg de volgende onderwerpen voor meer informatie:
 
-* [Opmerkingen bij de release Doelen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
-* [Vorm verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijking](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
+* [Opmerkingen bij de release Doelen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} in het dialoogvenster *Opmerkingen bij de release van Adobe Experience Platform*
+* [Vorm verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijking](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn.
 * [Aangepaste aanpassingsverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
 * [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
-* [Vorm verpersoonlijkingsbestemmingen voor de zelfde pagina en volgende de gebruiksgevallen van de paginagrootte](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+* [Vorm verpersoonlijkingsbestemmingen voor de zelfde pagina en volgende de gebruiksgevallen van de paginagrootte](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} in het dialoogvenster *Overzicht van doelen* hulplijn
 
 ### Aanvullende informatie
 
