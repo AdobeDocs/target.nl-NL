@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,20 @@ ht-degree: 0%
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
 
-## [!DNL Adobe Target] Communautair afbreekpunt van Vragen en antwoorden (19 januari 2022)
+## [!DNL Adobe Target] Koffiepauze (23 februari 2022)
 
-* **Woensdag 19 januari 2022**
+* **Woensdag 23 februari 2022**
 * **08:00 (PST, UTC -8)**
-* **[Meer informatie en registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
+* **[Meer informatie en registratiegegevens](https://adobe.ly/3skO6DV)**
 
-Jon Tehero, Group Product Manager for [!DNL Adobe Target], zal u vragen met betrekking tot zijn vakkennis beantwoorden:
+Senior Product Manager Vishal Chordia beantwoordt klantvragen met betrekking tot zijn volgende expertisegebieden:
 
-* [!DNL Adobe Target] integratie met [!DNL Adobe Journey Optimizer] (AJO)
-* [!DNL Adobe Target] UI
-* Algemeen [!DNL Adobe Target] onderwerpen
+* [!DNL Adobe Experience Platform]
+* personalisatie op basis van doelgroepen
+* [!DNL Real-time Customer Data Platform] (RTCDP) integratie met [!DNL Target]
+* Algemeen [!DNL Target] onderwerpen
+
+Technisch ondersteunend ingenieur Mihnea Docea zal Vishal helpen.
 
 ## Webinar: Personaliseer en test bij nul latentie met op apparaat besluiten van [!DNL Adobe Target]
 

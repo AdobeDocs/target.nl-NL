@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '3368'
+source-wordcount: '3385'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 7 februari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze (23 februari 2022)</li></ul> |
 | 3 februari | [Soorten publiek maken](/help/c-target/c-audiences/audiences.md#RTCDP) | Nieuwe sectie en video toegevoegd: &quot;Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target].&quot; |
 | 2 februari | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Toegevoegd: &quot;Dubbele aanhalingstekens schalen in [!DNL Target] de waarde van het profielkenmerk werkt niet zoals verwacht.&quot; |
 | 1 februari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release 22.2.1. |
