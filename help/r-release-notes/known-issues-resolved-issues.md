@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
-source-wordcount: '4443'
+source-wordcount: '4500'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
+
+### VEC (Visual Experience Composer) die websites met de Workers van de Dienst laadt
+
+Er zijn momenteel enkele beperkingen wanneer u probeert de VEC te gebruiken om een website te openen die de Workers van de Dienst gebruikt. Één oplossing moet de Werknemers van de Dienst van de Hulpmiddelen van de Ontwikkelaar van Chrome onbruikbaar maken > het lusje van de Toepassing, dan om &quot;Bypass voor netwerk&quot;checkbox onder de sectie van de Werknemers van de Dienst toe te laten. (kB-2006)
 
 ### Verkeersverdeling van activiteiten die automatisch worden toegewezen met behulp van A4T {#aa-a4t}
 
