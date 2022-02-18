@@ -4,9 +4,9 @@ description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt o
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ In de volgende tabel worden de door de klant verschafte gegevens weergegeven die
 | URL-parameters | URL | URL en eventuele URL-parameters voor de momenteel weergegeven pagina. | Aangepast - URL-parameter - [URL-parameter] |
 | URL verwijzen | REF | Verwijzen naar URL- en URL-parameters voor de verwijzende URL. | Aangepast - [Verwijzen naar URL-parameter] - [Parameterwaarde] |
 | Adobe Experience Cloud, gedeeld publiek | AAM | Alle soorten publiek die worden gedeeld met [!DNL Target] van andere [!DNL Adobe Experience Cloud] oplossingen (bijvoorbeeld [!DNL Adobe Audience Manager] en [!DNL Adobe Analytics]via de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Aangepast, Experience Cloud-publiek - [Auditienaam] |
-| Adobe Experience Platform RTCDP-publiek | UPS | AEP RTCDP-publiek gedeeld met [!DNL Target] via Doelen.<br>Deze functionaliteit bevindt zich nog niet in [!DNL Target] maar zal in de toekomst ten uitvoer worden gelegd . |  |
+| Adobe Experience Platform RTCDP-publiek | UPS | AEP RTCDP-publiek gedeeld met [!DNL Target] via Doelen. |  |
 
 ## Functies blokkeren [!DNL Target] computerleeralgoritmen
 
