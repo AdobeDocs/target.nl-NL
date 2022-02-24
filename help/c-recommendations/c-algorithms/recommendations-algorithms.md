@@ -4,9 +4,10 @@ description: Meer informatie over de algoritmen die worden gebruikt in [!DNL Tar
 title: Waar kan ik leren over de wetenschap achter de Recommendations-algoritmen van Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
+exl-id: c156952b-8eda-491d-a68e-d3d09846f640
+source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2739'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Algoritmen zijn:
 
 De punt-punt samenwerkings het filtreren aanbevelingen algoritmen zijn gebaseerd op het idee dat u de gedragspatronen van vele gebruikers (vandaar samenwerkingsverband) zou moeten gebruiken om nuttige aanbevelingen voor een bepaald punt (bijvoorbeeld, filter de catalogus van mogelijke punten om aan te bevelen) te verstrekken. Hoewel er veel verschillende algoritmen zijn die onder de algemene paraplu van vallen [gezamenlijk filteren](https://en.wikipedia.org/wiki/Collaborative_filtering)Deze algoritmen gebruiken voor iedereen gedragsgegevensbronnen als input. In [!DNL Target Recommendations]Deze invoer is de unieke weergave en aankoop van objecten door gebruikers.
 
-Voor het algoritme &quot;Personen die dit item hebben bekeken/aangeschaft, hebben deze items ook bekeken/aangeschaft&quot;, is het doel een overeenkomst (A,B) tussen alle paren items te berekenen. Voor een bepaald punt A worden de belangrijkste aanbevelingen vervolgens geordend op basis van hun gelijkenis s(A,B).
+Voor het algoritme &quot;Personen die dit item hebben bekeken/aangeschaft, hebben deze items ook bekeken/aangeschaft&quot;, is het doel een overeenkomst (A,B) tussen alle paren items te berekenen. Voor een bepaald punt A worden de hoogste aanbevelingen vervolgens geordend op basis van hun gelijkenis s(A,B).
 
 Een voorbeeld van zo&#39;n gelijkenis is de co-existentie tussen items: een eenvoudige telling van het aantal gebruikers dat beide objecten heeft gekocht. Hoewel intuïtief, is zo&#39;n metrische waarde naïef in die zin dat het in de richting gaat van het aanbevelen van populaire objecten. Als de meeste mensen bijvoorbeeld bij een groothandelaar brood kopen, zal brood een grote co-existentie hebben met alle producten, maar het is niet noodzakelijk een goede aanbeveling. [!DNL Target] in plaats daarvan gebruikt een verfijndere metrische gelijkenis die als logboekwaarschijnlijkheidsverhouding (LLR) wordt bekend. Deze hoeveelheid is groot wanneer de kans dat twee items, A en B, samen voorkomen, zeer verschillend is van de waarschijnlijkheid dat ze zich niet samen voordoen. Neem voor de concretisering een geval van [!UICONTROL People Who Viewed This, Bought That] algoritme. De gelijkenis van de LLR is groot wanneer de waarschijnlijkheid dat B werd gekocht onafhankelijk is van of iemand A bekeken of niet.
 
