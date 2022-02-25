@@ -4,7 +4,7 @@ description: Leer hoe te om de resultaten van een auto-Wijs A/B activiteit in Ad
 title: Hoe interpreteer ik automatisch toegewezen rapporten?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Om een van de volgende redenen wordt beschreven waarom 0% wordt weergegeven in h
 * Automatisch toewijzen begint pas vertrouwen te tonen nadat de winnende ervaring een betrouwbaarheid van 60% heeft opgeleverd. Deze betrouwbaarheidsniveaus worden doorgaans weergegeven in ongeveer de helft van de tijd die een normale A/B-test nodig heeft om te voltooien (hoewel dit niet gegarandeerd is). Om te bepalen hoe lang een normale A/B test zou lopen, gelieve te gebruiken a [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): de conversiesnelheid van de plug-in &#39;Baseline conversion rate&#39;, &#39;5%&#39; voor &#39;Lift&#39; en &#39;95% voor &#39;Trust&#39;. Doorgaans begint de betrouwbaarheid te worden aangetoond nadat elke ervaring ten minste 50% van de vereiste monsters per ervaring heeft genomen. Dit geeft u een idee wanneer er vertrouwen begint te ontstaan.
 * Als het verslag over de hele linie 0% toont, is het waarschijnlijk te vroeg in de activiteit.
 
-## Zijn de &quot;Geen Winner,&quot; &quot;Winner,&quot;en &quot;ster&quot;badges beschikbaar voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics as the reporting source] (A4T)?
+### Zijn de &quot;Geen Winner,&quot; &quot;Winner,&quot;en &quot;ster&quot;badges beschikbaar voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics as the reporting source] (A4T)?
 
 De badges &quot;Geen Winner nog&quot; en &quot;Winner&quot; zijn momenteel niet beschikbaar in de [!UICONTROL A4T] in [!DNL Analysis Workspace]. Deze badges zijn ook niet beschikbaar als hetzelfde rapport wordt weergegeven in [!DNL Target]. Een winnares-&quot;ster&quot;-badge weergegeven in een [!DNL Target] verslag voor een [!UICONTROL Auto-Allocate] activiteit die A4T gebruikt zou moeten worden genegeerd.
 
