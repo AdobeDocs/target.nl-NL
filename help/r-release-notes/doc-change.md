@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3443'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 25 februari | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | De volgende secties zijn bijgewerkt:<ul><li>[Automatische toewijzing en automatisch doel](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisch toewijzen](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
+|  | [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Nieuwe veelgestelde vragen toegevoegd:<ul><li>Zijn de &quot;Geen Winner,&quot; &quot;Winner,&quot;en &quot;ster&quot;badges beschikbaar voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul> |
 | 10 februari | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>VEC (Visual Experience Composer) die websites met de Workers van de Dienst laadt</li></ul> |
 | 7 februari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze (23 februari 2022)</li></ul> |
 | 3 februari | [Soorten publiek maken](/help/c-target/c-audiences/audiences.md#RTCDP) | Nieuwe sectie en video toegevoegd: &quot;Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target].&quot; |
