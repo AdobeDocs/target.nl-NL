@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -132,13 +132,27 @@ Raadpleeg de volgende onderwerpen voor meer informatie:
 
 ### Aanvullende informatie
 
+Houd rekening met de volgende informatie wanneer u publiek gebruikt van [!DNL Adobe Experience Platform]:
+
+#### Gebruikszaken aanpassen
+
+In de volgende tabel wordt aangegeven welk type gebruiksscenario voor personalisatie (volgende sessie of dezelfde pagina) beschikbaar is wanneer u de [!DNL Adobe Experience Platform Web SDK] versus het gebruik van at.js:
+
+| Implementatie | Oplossingen/Hoofdletters gebruiken ingeschakeld |
+| --- | --- |
+| at.js | **Oplossingen**:<ul><li>[!DNL Adobe Audience Manager] (AAM) en [!DNL Target]</li><li>[!DNL RTCDP] (Premium of Ultimate) en [!DNL Target]</li><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li></ul> |
+| [!DNL Platform Web SDK] of [!DNL AEP Server-Side API] | **Oplossingen**:<ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><li>Dezelfde pagina aanpassen via Edge</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul>**Oplossingen**:<ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul><li>Dezelfde pagina aanpassen via Edge</li><ul><li>[!DNL RTCDP] segmenten</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul> |
+| Mix van [!UICONTROL at.js] en [!DNL Platform Web SDK] | **Oplossingen**:<ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li></ul><li>Zelfde paginagrootte</li><ul><li>Voor alle pagina&#39;s met [!DNL Platform Web SDK]</li></ul></ul>**Oplossingen**:<ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul> |
+
+#### Evaluatietijd segment
+
 De volgende lijst toont de tijd van de segmentevaluatie voor gebeurtenissen die uit verschillende implementatiescenario&#39;s komen:
 
 | Scenario | Edge-segment (millisecondenevaluatie) | Streaming segment (mindevaluatie) | Evaluatie van batchsegment |
 | --- | --- | --- | --- |
-| Gebeurtenissen/gegevens van SDK&#39;s van Adobe Experience Platform | Ja | Ja | N.v.t. |
-| Gebeurtenissen van at.js | Nee | Ja | N.v.t. |
-| Gebeurtenissen van mobiele SDK&#39;s van doel | Nee | Ja | N.v.t. |
+| Gebeurtenissen/gegevens van [!DNL Adobe Experience Platform] SDK&#39;s | Ja | Ja | N.v.t. |
+| Gebeurtenissen van [!UICONTROL at.js] | Nee | Ja | N.v.t. |
+| Gebeurtenissen van [!DNL Target Mobile] SDK&#39;s | Nee | Ja | N.v.t. |
 | Gebeurtenissen van geüpload item | Nee | Nee | Ja |
 | Gebeurtenissen van offlinegegevens (stroom) | Nee | Ja | Ja |
 
