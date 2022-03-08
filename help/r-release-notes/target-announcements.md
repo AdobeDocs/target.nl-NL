@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+source-git-commit: 91fe1cc485daa89936b0560039901dc3e78ad27f
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -15,18 +15,18 @@ ht-degree: 0%
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
 
-## [!DNL Adobe Target] Koffiepauze (23 februari 2022)
+## [!DNL Adobe Target] Koffiepauze EU-Koffie (30 maart 2022)
 
-* **Woensdag 23 februari 2022**
-* **08:00 (PST, UTC -8)**
-* **[Meer informatie en registratiegegevens](https://adobe.ly/3skO6DV)**
+* **Woensdag 30 maart 2022**
+* **08:00 (PDT, UTC -7)**
+* **[Meer informatie en registratiegegevens](https://adobe.ly/3sIS5Mg)**
 
-Senior Product Manager Vishal Chordia beantwoordt klantvragen met betrekking tot zijn volgende expertisegebieden:
+De Senior Solutions Consultant, Ryan Pizzuto, zal de vragen van klanten met betrekking tot zijn volgende expertisegebieden beantwoorden:
 
-* [!DNL Adobe Experience Platform]
-* personalisatie op basis van doelgroepen
-* [!DNL Real-time Customer Data Platform] (RTCDP) integratie met [!DNL Target]
-* Algemeen [!DNL Target] onderwerpen
+* [!UICONTROL Auto-Target]
+* [!UICONTROL Automated Personalization]
+* [!UICONTROL Recommendations]
+* Algemeen [!UICONTROL Adobe Target] onderwerpen
 
 Technisch ondersteunend ingenieur Mihnea Docea zal Vishal helpen.
 
