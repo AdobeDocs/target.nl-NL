@@ -4,9 +4,9 @@ description: Learn how to use the mbox3rdPartyId, which is your organization's v
 title: How Do I Use Real-Time Profile Syncing for mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
+source-git-commit: 211931f4456f5360efb1fbaa4f0bc23f5bfbcfc1
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ When a visitor logs in to a company&#39;s site, the company typically creates an
 
 [!DNL Target][!DNL Target] `mbox3rdPartyId`[!DNL Target][!DNL Target]`mbox3rdPartyId`[!DNL Target]
 
-Every three to five minutes, updates are synced with the database. `mbox3rdPartyId` `mbox3rdPartyId``mbox3rdPartyId``mbox3rdPartyId` `mbox3rdPartyId``mbox3rdPartyId`
+Updates are synced with the profile store every 5-10 minutes. `mbox3rdPartyId` `mbox3rdPartyId``mbox3rdPartyId``mbox3rdPartyId` `mbox3rdPartyId``mbox3rdPartyId`
 
 | PCID (Not Logged In) | mbox3rdPartyId (Logged In) | Merged and Saved to mbox3rdPartyId |
 |---|---|---|

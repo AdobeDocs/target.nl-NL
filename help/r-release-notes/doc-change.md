@@ -1,256 +1,257 @@
 ---
-keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe onderwerpen;bewerkingen;updates;update
-description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [!DNL Adobe Target] documentatie.
-title: Waar kan ik documentatieupdates voor Doel zien?
+keywords: target documentation change log;documentation updates;new topics;edits;updates;update
+description: ' [!DNL Adobe Target] '
+title: Where Can I See Documentation Updates for Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+source-git-commit: 36ed858c1f241e69e9aa1a8cadbe2c128f99665c
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3532'
 ht-degree: 0%
 
 ---
 
-# Documentatiewijzigingen
+# Documentation changes
 
-Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
+[!DNL Adobe Target]
 
-## Adobe Target Standard/Premium 22.2.1 (1 februari 2022)
+## Adobe Target Standard/Premium 22.2.1 (February 1, 2022)
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 9 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Het volgende bekende probleem is toegevoegd:<ul><li>Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer</li></ul> |
-| 8 maart | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze EU-Koffie (30 maart 2022)</li></ul> |
-| 7 maart | [Soorten publiek maken](/help/c-target/c-audiences/audiences.md#aep) | Nieuwe sectie toegevoegd onder &quot;Gebruik publiek van [!DNL Adobe Experience Platform]:&quot;<ul><li>Gebruikszaken aanpassen</li></ul> |
-| 25 februari | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | De volgende secties zijn bijgewerkt:<ul><li>[Automatische toewijzing en automatisch doel](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisch toewijzen](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
-|  | [Rapporten automatisch toewijzen interpreteren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Nieuwe veelgestelde vragen toegevoegd:<ul><li>Zijn de &quot;Geen Winner,&quot; &quot;Winner,&quot;en &quot;ster&quot;badges beschikbaar voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul> |
-|  | [Een alleen-activiteitpubliek maken](/help/c-target/creating-activity-only-audience.md) | Toegevoegde informatie in de sectie &quot;Overwegingen&quot; waarin regels worden besproken, sluit regels uit. |
-| 10 februari | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>VEC (Visual Experience Composer) die websites met de Workers van de Dienst laadt</li></ul> |
-| 7 februari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze (23 februari 2022)</li></ul> |
-| 3 februari | [Soorten publiek maken](/help/c-target/c-audiences/audiences.md#RTCDP) | Nieuwe sectie en video toegevoegd: &quot;Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target].&quot; |
-| 2 februari | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Toegevoegd: &quot;Dubbele aanhalingstekens schalen in [!DNL Target] de waarde van het profielkenmerk werkt niet zoals verwacht.&quot; |
-| 1 februari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release 22.2.1. |
+| March 9 | [](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Added the following known issue:<ul><li>Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer</li></ul> |
+|  | [](/help/c-target/c-visitor-profile/3rd-party-id.md) | Updated following sentence regarding profile syncing: &quot;Updates are synced with the profile store every 5-10 minutes.&quot; |
+| March 8 | [](/help/r-release-notes/target-announcements.md) | Added information about the following event:<ul><li>[!DNL Adobe Target]</li></ul> |
+| March 7 | [](/help/c-target/c-audiences/audiences.md#aep) | [!DNL Adobe Experience Platform]<ul><li>Personalization use cases</li></ul> |
+| February 25 | [](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Updated the following sections:<ul><li>[](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
+|  | [](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Added new FAQ:<ul><li>[!UICONTROL Auto-Allocate][!UICONTROL Analytics as the reporting source]</li></ul> |
+|  | [](/help/c-target/creating-activity-only-audience.md) | Added information in the &quot;Considerations&quot; section discussing exclude rules. |
+| February 10 | [](/help/r-release-notes/known-issues-resolved-issues.md) | Added the following known issue:<ul><li>Visual Experience Composer (VEC) loading websites with Service Workers</li></ul> |
+| February 7 | [](/help/r-release-notes/target-announcements.md) | Added information about the following event:<ul><li>[!DNL Adobe Target]</li></ul> |
+| February 3 | [](/help/c-target/c-audiences/audiences.md#RTCDP) | [!DNL Adobe Target] |
+| February 2 | [](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | [!DNL Target] |
+| February 1 | [](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] |
 
-## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 januari 2022)
+## [!DNL Adobe Target Standard/Premium]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 31 januari | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] Release 22.2.1. |
-| 28 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de release at.js 2.8.1. |
-|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over de release at.js 2.8.1. |
-| 27 januari | [AEM ervaren fragmenten](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Bijgewerkt onderwerp en toegevoegde informatie over [!DNL AEM as a Cloud Service] en [!DNL Adobe I/0]. |
-| 26 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de doelversie Standard/Premium 22.1.2. |
-|  | [Soorten publiek maken](/help/c-target/c-audiences/audiences.md) | Extra informatie over [!DNL Adobe Experience Platform] publiek. |
-|  | [Meerdere doelgroepen combineren](/help/c-target/combining-multiple-audiences.md) | Extra informatie over [!DNL Adobe Experience Platform] publiek. |
-| 21 januari | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Informatie toegevoegd over de release at.js 1.8.3. |
-| 19 januari | [Upgrade uitvoeren vanaf 0,js 1.*x* tot en met at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Toegevoegd: &quot;at.js 2.*x* biedt geen ondersteuning voor het maken van soorten publiek met behulp van vst.* parameters&quot; |
-| 12 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de doelversie Standard/Premium 22.1.1. |
-|  | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Koppeling naar zelfstudie toegevoegd met instructies voor implementatie [!DNL Adobe Experience Cloud] met Web SDK. |
+| January 31 | [](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] |
+| January 28 | [](/help/r-release-notes/release-notes.md) | Added information about the at.js 2.8.1 release. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Added information about the at.js 2.8.1 release. |
+| January 27 | [](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL AEM as a Cloud Service][!DNL Adobe I/0] |
+| January 26 | [](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 22.1.2 release. |
+|  | [](/help/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] |
+|  | [](/help/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] |
+| January 21 | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Added information about the at.js 1.8.3 release. |
+| January 19 | [****](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Added following section: &quot;at.js 2.*** parameters&quot; |
+| January 12 | [](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 22.1.1 release. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | [!DNL Adobe Experience Cloud] |
 
-## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 oktober 2021)
+## [!DNL Adobe Target Standard/Premium]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 11 januari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreekpunt van Vragen en antwoorden (19 januari 2022)</li></ul> |
-| 7 januari | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de release van at.js versie 2.8.0. |
-|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release van at.js versie 2.8.0. |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Extra informatie over de `telemetry` instellen. |
-|  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | De volgende sectie toegevoegd: &quot;Verzameling van eigenschaps-gebruiks gegevens.&quot; |
-|  | [Gegevens gebruikt door [!DNL Target] computerleeralgoritmen](/help/c-activities/t-automated-personalization/ap-data.md) | Bijgewerkt volledig onderwerp, met inbegrip van:<ul><li>Nieuwe sectie: &quot;Functies blokkeren [!DNL Target] computerleeralgoritmen&quot;</li><li>Kolommen en informatie voor &quot;Systeemnaam&quot; toegevoegd aan verschillende tabellen.</li></ul> |
-| 17 december | [Rapport Belangrijke kenmerken](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | De volgende opmerking over datumbereiken is toegevoegd bij het weergeven van rapporten met belangrijke kenmerken:<ul><li>De [!DNL Target] Met de gebruikersinterface kunt u momenteel datumbereiken van 45 dagen en 90 dagen kiezen. De [!DNL Target] backend verwerkt deze twee waaiers niet. Vanwege gebruikspatronen en in een poging om de prestaties te verbeteren, zijn deze datumbereiken vervangen. De interface wordt bijgewerkt met de momenteel toegestane bereiken: 15, 30 en 60 dagen.</li></ul> |
-| 7 december | [De wetenschap achter de aanbevelingen van Target algoritmen](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nieuw onderwerp. |
-| 2 december | [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Bijgewerkt op het op kunst-Gebaseerde algoritme om te omvatten dat de aanbevelingssleutels door mbox parameter cartIds in komma-gescheiden waarden worden geleverd. Alleen de eerste tien waarden worden in aanmerking genomen. |
-| 18 november | [Wijzigingen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Een opmerking in de rij Mbox toegevoegd die aangeeft dat de vakken niet meer worden ondersteund in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) op pagina&#39;s die bij .js 2 gebruiken.*x*. |
-| 16 november | [Klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Informatie toegevoegd over de beperkingen met betrekking tot het uploaden van bestanden met een koppeling naar [Gegevensbestand en gegevensbronnen voor klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in de *Experience Cloud Central Interface Components Guide*. |
-|  | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Bijgewerkt &quot;Hoe beïnvloedt het Google Chrome SameSite cookie handhavingsbeleid VEC en EEC?&quot; met informatie over de nieuwste versie van de hulplijnextensie. |
-|  | [Helpextensie Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Bijgewerkt de sectie &quot;Vraag en installeer de VEC Helper-browserextensie&quot;. |
-| 12 november | [Integreren [!DNL Recommendations] met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Nieuwe inleidende informatie toegevoegd. |
-| 28 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | De informatie over de volgende releases is toegevoegd:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5</li></ul> |
-|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release at.js 2.7.0. |
-|  | [Opties voor Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | De volgende sectie toegevoegd: &quot;Ondersteuning voor aangepaste elementen.&quot; |
-| 27 oktober | [De aanbeveling baseren op een aanbevelingen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Toegevoegde informatie over op karretjes gebaseerde aanbevelingen. |
-| 26 oktober | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volledig onderwerp bijgewerkt. |
-| 25 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.5 (28 oktober 2021). |
-| 22 oktober | [Problemen met de levering van inhoud oplossen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | De volgende sectie toegevoegd:<ul><li>Zorg ervoor dat [!DNL Target] de activiteiten behandelen correct URLs met de parameters van het vraagkoord</li></ul> |
-| 21 oktober | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>[!DNL Adobe Target] Koffiepauze voor vragen en antwoorden van de Gemeenschap (10 november 2021)</li><li>[!DNL Adobe Target] Communautair afbreekpunt van Q&amp;A-koffie (8 december 2021)</li></ul> |
-| 20 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.4 (21 oktober 2021). |
-|  | [Recommendations plannen en implementeren](/help/c-recommendations/plan-implement.md) | Volledig onderwerp bijgewerkt. |
-| 19 oktober | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.3 (19 oktober 2021). |
-| 14 oktober | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Mag ik een binomiaal [!DNL Analytics] metrisch met een segment dat als optimaliserend doel in wordt toegepast [!UICONTROL Auto-Allocate] activiteit?&quot; |
-| 13 oktober | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.10.2. | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.10.2 (13 oktober 2021). |
-| 11 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Toegevoegde informatie over de Target Standard/Premium versie 21.10.2 (13 oktober 2021). |
-| 6 oktober | [Stimuleer publiek in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Bijgewerkte tekst en afbeeldingen die de bijgewerkte versie weerspiegelen [!DNL Target] [!UICONTROL Audiences] UI. In de gehele [!UICONTROL Audiences] onderwerpen. |
-|  | [Criteria maken](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | De volgende secties zijn bijgewerkt:<ul><li>Basisinformatie</li><li>Gegevensbron</li></ul> |
-|  | [Aangepaste criteria uploaden](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Bijgewerkte instructies voor de nieuwe workflow. |
-|  | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.10.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| January 11 | [](/help/r-release-notes/target-announcements.md) | Added information about the following event:<ul><li>[!DNL Adobe Target]</li></ul> |
+| January 7 | [](/help/r-release-notes/release-notes.md) | Added information about the at.js version 2.8.0 release. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Added information about the at.js version 2.8.0 release. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` |
+|  | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Added the following section: &quot;Collection of feature-usage data.&quot; |
+|  | [ [!DNL Target] ](/help/c-activities/t-automated-personalization/ap-data.md) | Updated entire topic, including:<ul><li>[!DNL Target]</li><li>Added &quot;System name&quot; columns and information to several tables.</li></ul> |
+| December 17 | [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Added following note about date ranges when viewing Important Attributes reports:<ul><li>[!DNL Target] [!DNL Target] Because of usage patterns and in an effort to improve performance, these date ranges have been deprecated. The UI will be updated to reflect the currently allowed ranges: 15, 30, and 60 days.</li></ul> |
+| December 7 | [](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | New topic. |
+| December 2 | [](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Updated the Cart-Based algorithm to include that the recommendation keys are supplied through mbox parameter cartIds in comma-separated values. Only the first 10 values are considered. |
+| November 18 | [](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | [!UICONTROL Visual Experience Composer]** |
+| November 16 | [Klantkenmerken](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | [](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)** |
+|  | [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Updated the &quot;How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?&quot; section with information about the newest version of the helper extension. |
+|  | [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Updated the &quot;Obtain and install the VEC Helper browser extension&quot; section. |
+| November 12 | [ [!DNL Recommendations] ](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Added new introductory information. |
+| October 28 | [](/help/r-release-notes/release-notes.md) | Added the information about the following releases:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Added information about the at.js 2.7.0 release. |
+|  | [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Added the following section: &quot;Custom element support.&quot; |
+| October 27 | [](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Added information about cart-based recommendations. |
+| October 26 | [ [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Updated entire topic. |
+| October 25 | [](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] |
+| October 22 | [](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Added the following section:<ul><li>[!DNL Target]</li></ul> |
+| October 21 | [](/help/r-release-notes/target-announcements.md) | Added information about the following events:<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Target]</li></ul> |
+| October 20 | [](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] |
+|  | [](/help/c-recommendations/plan-implement.md) | Updated entire topic. |
+| October 19 | [](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] |
+| October 14 | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | [!DNL Analytics][!UICONTROL Auto-Allocate] |
+| October 13 | [](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] |
+| October 11 | [](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 21.10.2 release (October 13, 2021). |
+| October 6 | [ [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | [!DNL Target][!UICONTROL Audiences] [!UICONTROL Audiences] |
+|  | [](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Updated the following sections:<ul><li>Basic Information</li><li>Data Source</li></ul> |
+|  | [](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Updated instructions to reflect new workflow. |
+|  | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
-## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 september 2021)
+## [!DNL Adobe Target Standard/Premium]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 4 oktober | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Bijgewerkte pre-releasenota&#39;s voor de StandaardNorm van het Doel/Premium versie 21.10.1 (6 oktober 2021). |
-| 30 september | Activiteitsgegevens verzenden naar [!DNL Adobe Analytics] | Geheel onderwerp verwijderd omdat de beschreven stappen niet meer nodig zijn om te verzenden [!DNL Target] activiteitsgegevens van mobiele apps naar [!DNL Analytics] voor post-hocsegmentatie. |
-|  | [Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Er is een pdf-bestand toegevoegd om uit te leggen hoe het betrouwbaarheidsinterval voor optillen wordt berekend. |
-|  | [Bedrijfsmachtigingen configureren](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Gewijzigd `targetPageParams` tot `targetPageParamsAll` in &quot;Stap 5 Werk uw implementatie bij om te omvatten `at_property` parameter.&quot; |
-| 27 september | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 13 oktober 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
-| 22 september | [Een ontwerp aanpassen met Snelheid](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Gewijzigd `$Double` tot `$double` in codevoorbeelden om mogelijke dubbelzinnigheid te voorkomen. |
-|  | [Veelgestelde vragen over ontwerp](/help/c-recommendations/c-design-overview/template-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Kan ik een profielscript gebruiken in een [!DNL Recommendations] ontwerp?</li></ul> |
-|  | [Klikken bijhouden](/help/c-activities/r-success-metrics/click-tracking.md) | De volgende overwegingen zijn toegevoegd:<ul><li>Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.</li><li>Gebruik een publiek als het nodig is om het bereik van de gegevens voor het bijhouden van klikken te beperken.</li><li>De veelvoudige activiteiten kunnen klikken-spoor metrisch voor de zelfde selecteur bepalen. Als zo, wanneer een bezoeker voor één van die activiteiten kwalificeert en die selecteur klikt, klik-spoor metrische verhogingen voor alle bijbehorende activiteiten die de bezoeker voor kwalificeerde.</li></ul> |
-|  | [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Opmerking toegevoegd in de &quot;Voordelen van het implementeren van at.js met behulp van de [!DNL Target] extensie&quot;. |
-|  | [Real-time profielsynchronisatie voor mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met nieuwe informatie. |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | De sectie &quot;secureOnly&quot; is bijgewerkt. |
-|  | [om.js Veelgestelde Vragen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Bijgewerkt van de volgende veelgestelde vragen: &quot;Waarom gebruikt at.js niet altijd vlaggen van HttpOnly en van het Veilige koekje?&quot; |
-| 14 september | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.9.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| October 4 | [](/help/r-release-notes/target-release-notes.md) | Updated prerelease notes for the Target Standard/Premium 21.10.1 release (October 6, 2021). |
+| September 30 | [!DNL Adobe Analytics] | [!DNL Target][!DNL Analytics] |
+|  | [](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Added a pdf file to explain how the confidence interval for lift is calculated. |
+|  | [](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `targetPageParams``targetPageParamsAll``at_property` |
+| September 27 | [](/help/r-release-notes/target-announcements.md) | Added information about the following event:<ul><li>[!DNL Adobe Target]<ul><li>Wednesday, October 13, 2021</li><li>8 a.m. (PDT, UTC -7)</li></ul></li></ul> |
+| September 22 | [](/help/c-recommendations/c-design-overview/customizing-a-template.md) | `$Double``$double` |
+|  | [](/help/c-recommendations/c-design-overview/template-faq.md) | Updated the following FAQ:<ul><li>[!DNL Recommendations]</li></ul> |
+|  | [](/help/c-activities/r-success-metrics/click-tracking.md) | Added the following considerations:<ul><li>Click-tracking metrics are not linked to any specific experience in an activity.</li><li>Use audiences if it is necessary to restrict the scope of the click-tracking metrics.</li><li>Multiple activities can define a click-track metric for the same selector. If so, when a visitor qualifies for one of those activities and clicks that selector, the click-track metric increases for all associated activities that the visitor qualified for.</li></ul> |
+|  | [ [!DNL Target]  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Target] |
+|  | [](/help/c-target/c-visitor-profile/3rd-party-id.md) | Updated the &quot;Considerations&quot; section with new information. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the &quot;secureOnly&quot; section. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Updated the following FAQ: &quot;Why doesn&#39;t at.js always use HttpOnly and Secure cookie flags?&quot; |
+| September 14 | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
-## Adobe [!DNL Target] Standaard/Premium 21.8.1 (10 augustus 2021)
+## [!DNL Target]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 14 september | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release van 21.9.1 (14 september 2021). |
-| 7 september | [Mobiel](/help/c-target/c-audiences/c-target-rules/mobile.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt met informatie over het activeren van apparaten met Safari 14.0.2 (of hoger). |
-|  | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Bijgewerkte informatie over `targettype` en `algorithmId`, die interne id&#39;s zijn die door [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. |
-| 24 augustus | [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] is omgedoopt tot een reeks technologieën voor gegevensverzameling in [!DNL Adobe Experience Platform]. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. |
-| 23 augustus | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie<ul><li>Woensdag 8 september 2021</li><li>08:00 (PDT, UTC -7)</li></ul></li></ul> |
-| 19 augustus | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Steunt A4T virtuele rapportseries?</li></ul> |
-| 16 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br>en<br>[details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.6.1. |
-|  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Sectie &#39;Tips en trucs&#39; toegevoegd. |
-| 11 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target] node.js SDK versie 2.2.0. |
-| 10 augustus | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.8.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| September 14 | [](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] |
+| September 7 | [](/help/c-target/c-audiences/c-target-rules/mobile.md) | Updated the &quot;Considerations&quot; section with information about targeting devices running Safari 14.0.2 (or later). |
+|  | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | `targettype``algorithmId`[!UICONTROL Auto-Allocate][!UICONTROL Auto-Target] |
+| August 24 | [ [!DNL Target]  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch][!DNL Adobe Experience Platform] Several terminology changes have rolled out across the product documentation as a result. |
+| August 23 | [](/help/r-release-notes/target-announcements.md) | Added information about the following event:<ul><li>[!DNL Adobe Target]<ul><li>Wednesday, September 8, 2021</li><li>8 a.m. (PDT, UTC -7)</li></ul></li></ul> |
+| August 19 | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Updated the following FAQ:<ul><li>Does A4T support virtual report suites?</li></ul> |
+| August 16 | [](/help/r-release-notes/release-notes.md)<br><br>[](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Added release notes for at.js 2.6.1. |
+|  | [](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Added &quot;Best practices&quot; section. |
+| August 11 | [](/help/r-release-notes/release-notes.md) | [!DNL Target] |
+| August 10 | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juni 2021)
+## [!DNL Target]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 9 augustus | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Bijgewerkt onderwerp. |
-| 6 augustus | [Voordat u implementeert [!UICONTROL Analytics for Target] (A4T) met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Bijgewerkte volgende opmerking:<ul><li>at.js 1.8.0+ en at.js 2.x+ werken niet meer met Bezoeker-API-versies ouder dan 2.5.0 voor het doorgeven van Adobe Audience Manager-parameters (AAM).</li></ul> |
-| 5 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Opmerking toegevoegd die aangeeft dat de [!DNL Target Standard/Premium] 18.8.1 lozing wordt uitgesteld. |
-|  | [[!UICONTROL Auto-Allocate] overzicht](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik de rapportbron halverwege veranderen [!UICONTROL Auto-Allocate] activiteit?</li></ul> |
-| 4 augustus | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Extra informatie over de `optinEnabled` instellen. |
-| 3 augustus | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!UICONTROL Target Delivery API] vrijgeven. |
-|  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de komende [!DNL Target Standard/Premium] Release van 21.8.1 (4 augustus 2021). |
-| 2 augustus | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>Verkeersverdeling van activiteiten die automatisch worden toegewezen met behulp van A4T</li></ul> |
-|  | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Extra informatie over de komende [!UICONTROL Target Delivery API] vrijgeven. |
-| 30 juli | [Limieten](/help/r-troubleshooting-target/target-limits.md) | De volgende secties zijn bijgewerkt:<ul><li>entity.id</li><li>productPurchasedId, parameter</li></ul> |
-| 29 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | De informatie over de [!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie: Woensdag 11 augustus 2021. |
-|  | [Een globale box aanpassen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Bijgewerkte Belangrijke nota om erop te wijzen dat u beïnvloede die activiteiten moet uitgeven en heropslaan in VEC na het aanpassen van een globale mbox worden gecreeerd. |
-|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>De Enhanced Experience Composer (EEC) ondersteunt geen verzoeken om PUT.</li></ul> |
-| 27 juli | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nieuwe sectie toegevoegd:<ul><li>Aanbevolen documentatie</li></ul> |
-|  | [Limieten](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Nieuwe sectie toegevoegd:<ul><li>Inhoud leveren</li></ul> |
-| 26 juli | [Adobe Target gebruiken met de SDK van het Web van het Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) in de *Overzicht Adobe Experience Platform Web SDK* hulplijn | Nieuwe sectie toegevoegd:<ul><li>Platform Web SDK systeemdiagram</li></ul> |
-| 23 juli | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie is bijgewerkt voor meer informatie:<ul><li>Hoe beïnvloedt het Google Chrome SameSite cookie handhavingsbeleid VEC en EEC?</li></ul> |
-|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Toegevoegde nieuwe rubriek &quot;Wijzigingen per ervaring&quot; onder &quot;Ervaringen&quot;. |
-| 21 juli | [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | De volgende sectie is bijgewerkt:<ul><li>Hoe beïnvloedt het Google Chrome SameSite cookie handhavingsbeleid VEC en EEC?</li></ul> |
-| 19 juli | [Classificaties - A4T Veelgestelde vragen](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Toegevoegde informatie over gebeurteniscode -1 of 65535. |
-| 16 juli | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md)<br>en<br>[details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Toegevoegde informatie over de release at.js 2.6.0. |
-|  | [Problemen met de [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Bijgewerkt de lijst van IP adres aan lijst van gewenste personen. |
-| 12 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>Webinar: De aanzienlijke investeringsrendement, inzichten en tijdbesparingen van de integratie van Adobe Analytics + kwantificeren [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Communautair afscheid van Koffie Vragen en antwoorden te houden op woensdag 21 juli 2021 om 8.00 uur. (PDT, GMT-7).</li></ul> |
-|  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen?&quot; |
-|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst in de sectie van de vraag van doel API. |
-|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte beschrijving voor `consumerId` toets. |
-|  | [Een globale box aanpassen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Bijgewerkte Stap 1 om erop te wijzen dat de verandering automatisch wordt bewaard nadat u een nieuw vakje selecteert. |
-|  | Experience Cloud Device Co-op | Verwijderd onderwerp. Deze functionaliteit is vervangen. |
-| 30 juni | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.6.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| August 9 | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Updated topic. |
+| August 6 | [[!UICONTROL Analytics for Target]](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Updated following note:<ul><li>at.js 1.8.0+ and at.js 2.x+ no longer work with Visitor API versions older than 2.5.0 for passing Adobe Audience Manager (AAM) parameters.</li></ul> |
+| August 5 | [](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] |
+|  | [[!UICONTROL Auto-Allocate]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Added the following FAQ:<ul><li>[!UICONTROL Auto-Allocate]</li></ul> |
+| August 4 | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` |
+| August 3 | [](/help/r-release-notes/release-notes.md) | [!UICONTROL Target Delivery API] |
+|  | [](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] |
+| August 2 | [](/help/r-release-notes/known-issues-resolved-issues.md) | Added the following known issue:<ul><li>Traffic distribution of Auto-Allocate activities using A4T</li></ul> |
+|  | [](/help/r-release-notes/target-release-notes.md) | [!UICONTROL Target Delivery API] |
+| July 30 | [](/help/r-troubleshooting-target/target-limits.md) | Updated the following sections:<ul><li>entity.id</li><li>productPurchasedId parameter</li></ul> |
+| July 29 | [](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Updated Important note to indicate that you must edit and re-save affected activities created in the VEC after customizing a global mbox. |
+|  | [](/help/r-release-notes/known-issues-resolved-issues.md) | Added the following known issue:<ul><li>The Enhanced Experience Composer (EEC) does not support PUT requests.</li></ul> |
+| July 27 | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Added new section:<ul><li>Recommended documentation</li></ul> |
+|  | [](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Added new section:<ul><li>Content delivery</li></ul> |
+| July 26 | [](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en)** | Added new section:<ul><li>Platform Web SDK system diagram</li></ul> |
+| July 23 | [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Updated the following section to provide more detail:<ul><li>How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?</li></ul> |
+|  | [](/help/r-troubleshooting-target/target-limits.md) | Added new section &quot;Modifications per experience&quot; under &quot;Experiences.&quot; |
+| July 21 | [](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Updated the following section:<ul><li>How do the Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?</li></ul> |
+| July 19 | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Added information about event code -1 or 65535. |
+| July 16 | [](/help/r-release-notes/release-notes.md)<br><br>[](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Added information about the at.js 2.6.0 release. |
+|  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Updated the list of IP address to allowlist. |
+| July 12 | [](/help/r-release-notes/target-announcements.md) | Added information about the following events:<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Target]</li></ul> |
+|  | [](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Added the following FAQ: &quot;How can I recommend only new articles or videos?&quot; |
+|  | [](/help/r-troubleshooting-target/target-limits.md) | Updated text in the &quot;Target API calls&quot; section. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Updated Step 1 to indicate that the change is automatically saved after you select a new mbox. |
+|  | Experience Cloud Device Co-op | Removed topic. This functionality has been deprecated. |
+| June 30 | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
-## Adobe [!DNL Target] Standard/Premium 21.5.1 (8 juni 2021)
+## [!DNL Target]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 12 juli | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>Webinar: De aanzienlijke investeringsrendement, inzichten en tijdbesparingen van de integratie van Adobe Analytics + kwantificeren [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Communautair afscheid van Koffie Vragen en antwoorden te houden op woensdag 21 juli 2021 om 8.00 uur. (PDT, GMT-7).</li></ul> |
-|  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen?&quot; |
-|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst in de sectie van de vraag van doel API. |
-|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Bijgewerkte beschrijving voor `consumerId` toets. |
-|  | [Een globale box aanpassen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Bijgewerkte Stap 1 om erop te wijzen dat de verandering automatisch wordt bewaard nadat u een nieuw vakje selecteert. |
-|  | Experience Cloud Device Co-op | Verwijderd onderwerp. Deze functionaliteit is vervangen. |
-| 29 juni | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | De volgende secties toegevoegd:<ul><li>Doel JavaScript-bibliotheek [!UICONTROL QA Mode] compatibiliteit</li><li>Voorvertoning van URL&#39;s</li></ul> |
-| 24 juni | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen voor de [!DNL Target Standard/Premium] Release van 21.6.1 (30 juni 2021). |
-| 16 juni | [[!DNL Target] releaseopmerkingen (huidig)](/help/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Adobe Target] Release van Python SDK versie 1.0.0. |
-|  | [Persoonlijkheidsrapporten](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoelang gegevens [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen blijven bestaan?</li></ul> |
-| 8 juni | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Opmerking die aangeeft dat at.js 1.8.0 of hoger niet meer werkt met versies van de Bezoeker-API ouder dan 2.5.0 voor het doorgeven [!DNL Adobe Audience Manager] (AAM) parameters. |
-|  | [Omgevingen](/help/administrating-target/environments.md) | Opmerking toegevoegd die aangeeft dat als u [!UICONTROL Active and Inactive Activities], tonen de gastheren van deze milieu ook inactieve activiteiten. |
-|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>[!DNL Adobe Experience Platform] segmentnamen worden niet weergegeven in het dialoogvenster [!UICONTROL Important Attributes] verslag.</li></ul> |
-| 7 juni | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.5.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| July 12 | [](/help/r-release-notes/target-announcements.md) | Added information about the following events:<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Target]</li></ul> |
+|  | [](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Added the following FAQ: &quot;How can I recommend only new articles or videos?&quot; |
+|  | [](/help/r-troubleshooting-target/target-limits.md) | Updated text in the &quot;Target API calls&quot; section. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Updated Step 1 to indicate that the change is automatically saved after you select a new mbox. |
+|  | Experience Cloud Device Co-op | Removed topic. This functionality has been deprecated. |
+| June 29 | [](/help/c-activities/c-activity-qa/activity-qa.md) | Added the following sections:<ul><li>[!UICONTROL QA Mode]</li><li>Preview URLs</li></ul> |
+| June 24 | [](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] |
+| June 16 | [[!DNL Target] ](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] |
+|  | [](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Added the following FAQ:<ul><li>[!UICONTROL Automated Personalization][!UICONTROL Auto-Target]</li></ul> |
+| June 8 | [](/help/c-integrating-target-with-mac/a4t/before-implement.md) | [!DNL Adobe Audience Manager] |
+|  | [](/help/administrating-target/environments.md) | [!UICONTROL Active and Inactive Activities] |
+|  | [](/help/r-release-notes/known-issues-resolved-issues.md) | Added the following known issue:<ul><li>[!DNL Adobe Experience Platform][!UICONTROL Important Attributes]</li></ul> |
+| June 7 | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
-## Adobe [!DNL Target] Standaard/Premium 21.4.1 (19 april 2021)
+## [!DNL Target]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 3 juni | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de door de Adobe Target Community opgestelde afkapping van vragen en antwoorden die woensdag 9 juni 2021 om 8.00 uur zal worden gehouden. (PDT, GMT-7). |
-| 1 juni | [NAAM en [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Volgende veelgestelde vragen toegevoegd:<ul><li>Hoe gebruik ik een opt-out-koppeling met CNAME</li></ul> |
-|  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | De sectie &quot;Uitschakelen&quot; is bijgewerkt om uit te leggen hoe u de koppeling om te weigeren met CNAME kunt gebruiken. |
-|  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Extra informatie over de [!DNL Adobe Experience Platform Web SDK]. |
-|  | [Analyses voor [!DNL Target] uitvoering](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Nieuwe sectie toegevoegd:<ul><li>Uitvoeringsstappen voor een [!DNL Adobe Experience Platform Web SDK] uitvoering</li></ul> |
-|  | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Toegevoegde informatie over het gebruiken van redirect aanbiedingen met A4T en het Web SDK van het Platform. |
-|  | [Reactiepunten](/help/administrating-target/response-tokens.md) | Toegevoegde informatie over het gebruik van reactietokens met de [!DNL Adobe Experience Platform Web SDK].<br>**Opmerking**: Deze functionaliteit zal in een toekomstige versie van het Web SDK van het Platform (te bepalen datum) worden vrijgegeven. |
-|  | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de release Adobe Experience Platform Web SDK 2.5.0 (1 juni 2021). |
-| 27 mei | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Toegevoegde sectie voor [!DNL Target] API-aanroepen. De grens is 50 vraag per minuut. |
-| 20 mei | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Adobe Tech Blog - Deel 2: Uitvoeren [!DNL Adobe Target] NodeJS SDK voor experimenteren en personalisatie op Edge-platforms (AWS Lambda@Edge)</li></ul> |
-|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd: &quot;Archivering [!UICONTROL Auto Target] synchronisatieproblemen kunnen optreden.&quot; |
-| 17 mei | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Informatie toegevoegd over de release at.js 2.5.0. |
-|  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Bijgewerkt onderwerp om erop te wijzen dat de voorproefverbindingen beschikbaar zijn voor [!UICONTROL Automated Personalization] (AP) activiteiten met at.js 2.5.0 (en later). |
-|  | [Ondersteunde browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Opgegeven dat de release van at.js 2.5.0 de ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies verwijdert. Microsoft Edge wordt nog steeds ondersteund in om.js 2.5.0 en hoger. |
-|  | [Problemen met de [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkt de lijst van IP adressen aan lijst van gewenste personen. |
-| 12 mei | [[!DNL Target] releaseopmerkingen (pre-release)](/help/r-release-notes/target-release-notes.md) | Voorlopige opmerkingen toegevoegd voor het volgende:<ul><li>Adobe Experience Platform Web SDK (17 mei 2021)</li><li>Target Standard Premium 21.5.2</li></ul> |
-| 10 mei | [[!DNL Recommendations] Veelgestelde vragen](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Kan ik een algoritme gebruiken dat is gemaakt in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?&quot; |
-|  | [Implementeren [!DNL Target] gebruiken [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Geeft aan dat [!DNL Adobe Dynamic Tag Manager] wordt niet meer ondersteund. In plaats daarvan, [!DNL Adobe] beveelt uitvoering aan met [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
-| 6 mei | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe lang duurt het voor een verandering in de configuratie van mijn [!UICONTROL Recommendations] activiteiten, aanbiedingen, promoties of criteria die op mijn site worden weergegeven?</li><li>Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) in de aanbevelingen wordt weerspiegeld *dat* gebruiker ontvangt?</li><li>Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) in de aanbevelingen wordt weerspiegeld *overige* gebruikers ontvangen?</li></ul> |
-|  | [Apparaatbeslissingen](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Koppeling toegevoegd naar het volgende blogbericht op het Tech Blog van Adobe:<ul><li>Deel 1: Adobe Target NodeJS SDK uitvoeren voor experimenteren en personaliseren op Edge-Platforms (Akamai Edge Workers)</li></ul> |
-| 5 mei | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Toegevoegde informatie over de door de Adobe Target Community opgestelde afkapping van vragen en antwoorden die woensdag 12 mei 2021 om 8.00 uur wordt gehouden. (PDT, GMT-7). |
-| 27 april | [Cookie-instellingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Bijgewerkt onderwerp om aan te geven dat de cookieduur (`deviceIdLifetime` instelling) kan worden overschreven in at.js versie 2.3.1 of hoger. |
-|  | [Adobe Target-gids](/help/target-home.md) | Informatie over Adobe Summit toegevoegd. |
-| 26 april | [Beslissing van problemen op het apparaat voor at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nieuw onderwerp. |
-| 19 april | [Apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | De volgende nieuwe artikelen zijn toegevoegd:<ul><li>[Apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Ondersteunde functies voor apparaatbesluitvorming](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefact van de regel voor apparaatbeslissingen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Extra informatie over `decisioningMethod`. |
-|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Het volgende toegevoegd:<ul><li>Informatie over de `decisioningMethod` toets.</li><li>Een voorbeeld voor &quot;getCallOffers() om een apparaatbeslissing te maken.&quot;</li></ul> |
-|  | [at.js, aangepaste gebeurtenissen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | De volgende informatie is toegevoegd:<ul><li>Artefact voor apparaatbeslissingen is geslaagd</li><li>Artefact voor beslissingen op het apparaat is mislukt</li></ul> |
-|  | [Activiteiten](/help/c-activities/activities.md) | Toegevoegde informatie over apparaatbeslissingen. |
-|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Extra informatie over at.js 2.5.0. |
-|  | [Doel implementeren zonder tagbeheer](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | Toegevoegde informatie over apparaatbeslissingen. |
-|  | [Activiteit QA](/help/c-activities/c-activity-qa/activity-qa.md) | Ondersteuning voor voorbeeldkoppelingen voor [!UICONTROL Automated Personalization] activiteiten toegevoegd met [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-|  | [Regels voor dynamische en statische integratie gebruiken](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Informatie toegevoegd over de volgende nieuwe operatoren:<ul><li>Is opgenomen in lijst</li><li> Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul> |
-|  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud Services en beheer* gids) | Extra informatie over sessie-id toegevoegd. |
-|  | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.4.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| June 3 | [](/help/r-release-notes/target-announcements.md) | Added information about the Adobe Target Community Q&amp;A Coffee Break to be held Wednesday, June 9, 2021 at 8 a.m. (PDT, GMT-7). |
+| June 1 | [ [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Added following FAQ:<ul><li>How do I use an opt-out link with CNAME</li></ul> |
+|  | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Updated the &quot;Opt-out link&quot; section to explain how to use the opt-out link with CNAME. |
+|  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] ](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK] |
+|  | [ [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Added new section:<ul><li>[!DNL Adobe Experience Platform Web SDK]</li></ul> |
+|  | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Added information about using redirect offers with A4T and the Platform Web SDK. |
+|  | [](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK]<br>**** |
+|  | [](/help/r-release-notes/release-notes.md) | Added information about the Adobe Experience Platform Web SDK 2.5.0 (June 1, 2021) release. |
+| May 27 | [](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] The limit is 50 calls per minute. |
+| May 20 | [](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Added link to the following blog post on the Adobe Tech Blog:<ul><li>[!DNL Adobe Target]</li></ul> |
+|  | [](/help/r-release-notes/known-issues-resolved-issues.md) | [!UICONTROL Auto Target] |
+| May 17 | [](/help/r-release-notes/release-notes.md) | Added information about the at.js 2.5.0 release. |
+|  | [](/help/c-activities/c-activity-qa/activity-qa.md) | [!UICONTROL Automated Personalization] |
+|  | [](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Indicated that the at.js 2.5.0 release removes support for Microsoft Internet Explorer 10, Internet Explorer 11, and all older versions. Microsoft Edge continues to be supported in at.js 2.5.0 and later. |
+|  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Updated the list of IP addresses to allowlist. |
+| May 12 | [[!DNL Target] ](/help/r-release-notes/target-release-notes.md) | Added prerelease notes for the following:<ul><li>Adobe Experience Platform Web SDK (May 17, 2021</li><li>Target Standard Premium 21.5.2</li></ul> |
+| May 10 | [[!DNL Recommendations] ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | [!DNL Adobe Recommendations Classic][!DNL Recommendations Premium] |
+|  | [ [!DNL Target]  [!DNL Dynamic Tag Manager] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager] [!DNL Adobe][[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| May 6 | [](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Added the following FAQs:<ul><li>[!UICONTROL Recommendations]</li><li>**</li><li>**</li></ul> |
+|  | [](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Added link to the following blog post on the Adobe Tech Blog:<ul><li>Part 1: Run Adobe Target NodeJS SDK for Experimentation and Personalization on Edge Platforms (Akamai Edge Workers)</li></ul> |
+| May 5 | [](/help/r-release-notes/target-announcements.md) | Added information about the Adobe Target Community Q&amp;A Coffee Break to be held Wednesday, May 12, 2021 at 8 a.m. (PDT, GMT-7). |
+| April 27 | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | `deviceIdLifetime` |
+|  | [](/help/target-home.md) | Added information about Adobe Summit. |
+| April 26 | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | New topic. |
+| April 19 | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Added the following new articles:<ul><li>[](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | `decisioningMethod` |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Added the following:<ul><li>`decisioningMethod`</li><li>An example for &quot;getCallOffers() to make an on-device decisioning.&quot;</li></ul> |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Added the following information:<ul><li>On-device decisioning artifact succeeded</li><li>On-device decisioning artifact failed</li></ul> |
+|  | [](/help/c-activities/activities.md) | Added information about on-device decisioning. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Added information about at.js 2.5.0. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | Added information about on-device decisioning. |
+|  | [](/help/c-activities/c-activity-qa/activity-qa.md) | [!UICONTROL Automated Personalization][](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) |
+|  | [](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Added information about the following new operators:<ul><li>Is Contained In List</li><li> Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul> |
+|  | [](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>** | Added additional information about &quot;session ID.&quot; |
+|  | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
-## Adobe [!DNL Target] Standard/Premium 21.2.1 (9 maart 2021)
+## [!DNL Target]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 9 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie voor de release van at.js versie 2.5.0 is toegevoegd (19 april 2021) |
-| 9 april | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | Voorlopige informatie voor de doelstandaard/Premium versie 21.4.1 is toegevoegd (19 april 2021) |
-|  | [Recommendations integreren met e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Toegevoegde notitie met een beschrijving van de capaciteitsrichtlijnen voor opties 1 en 2. |
-| 29 maart | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nieuwe veelgestelde vragen toegevoegd:<ul><li>Blijven aanbevelingen op basis van onlangs weergegeven items op meerdere apparaten voor één bezoeker?</li></ul> |
-| 23 maart | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
-|  | [details van de at.js-versie](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Opmerkingen bij de release toegevoegd voor versie 2.4.1 van at.js. |
-|  | [Veelgestelde vragen over Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?</li></ul> |
-| 22 maart | [IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Bijgewerkte lijst van IP adressen. |
-|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | De sectie &quot;Aantal entiteiten&quot; onder &quot;Entiteiten&quot; is bijgewerkt. |
-|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Extra informatie over at.js 2.*x* onder &quot;Hoe kan ik mijn activiteiten testen alsof ik een gebruiker ben die van een verschillende plaats komt?&quot; |
-|  | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.2.1. | Toegevoegd: <ul><li>IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)</li></ul> |
-| 19 maart | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Volgende veelgestelde vragen toegevoegd:<ul><li>Waarom zie ik nog meer indrukken nadat mijn activiteit is gedeactiveerd?</li></ul> |
-| 12 maart | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | De volgende nieuwe zelfstudie is toegevoegd:<ul><li>A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten</li></ul> |
-| 9 maart | [Limieten](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>De toegestane limiet voor de aanbiedingsgrootte is bijgewerkt.</li><li>Correctie van de tekenlimiet voor de parameter categoryId.</li></ul> |
-|  | [Lijst van gewenste personen randknooppunten doel](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Bijgewerkt [!DNL Target] IP-adressen van randen. |
-|  | [Entiteitskenmerken](/help/c-recommendations/c-products/entity-attributes.md) | Toegevoegde tekst die aangeeft dat entity.value een decimale notatie moet hebben (bijvoorbeeld 15.99 in plaats van 15.99). |
-|  | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.2.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| April 9 | [](/help/r-release-notes/target-release-notes.md) | Added prerelease information for the at.js version 2.5.0 release (April 19, 2021) |
+| April 9 | [](/help/r-release-notes/target-release-notes.md) | Added prerelease information for the Target Standard/Premium 21.4.1 release (April 19, 2021) |
+|  | [](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Added note describing capacity guidelines for options 1 &amp; 2. |
+| March 29 | [](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Added new FAQ:<ul><li>Do recommendations based on recently viewed items persist across multiple devices for a single visitor?</li></ul> |
+| March 23 | [](/help/r-release-notes/release-notes.md) | Added release notes for at.js version 2.4.1. |
+|  | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Added release notes for at.js version 2.4.1. |
+|  | [](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Updated the following FAQ:<ul><li>How long does it take for updates to items in my catalog to be reflected on my site?</li></ul> |
+| March 22 | [](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Updated list of IP addresses. |
+|  | [](/help/r-troubleshooting-target/target-limits.md) | Updated the &quot;Number of entities&quot; section under &quot;Entities.&quot; |
+|  | [](/help/c-target/c-audiences/c-target-rules/geo.md) | Added information about at.js 2.** |
+|  | [](/help/r-release-notes/release-notes.md) | Added following section: <ul><li>IP address changes for Recommendations feed-processing servers (March 16, 2021)</li></ul> |
+| March 19 | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Added following FAQ:<ul><li>Why do I continue to see more impressions after my activity has been deactivated?</li></ul> |
+| March 12 | [](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Added the following new tutorial:<ul><li>How to set up A4T reports in Analysis Workspace for Auto-Target activities</li></ul> |
+| March 9 | [](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Updated the allowable offer size limits.</li><li>Corrected the character limit for the categoryId parameter.</li></ul> |
+|  | [](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target] |
+|  | [](/help/c-recommendations/c-products/entity-attributes.md) | Added text to indicate that entity.value must be in decimal format (for example 15.99 instead of 15,99). |
+|  | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
-## Adobe [!DNL Target] Standaard/Premium 21.1.1 (19 januari 2021)
+## [!DNL Target]
 
-| Datum | Onderwerp | Wijzigingen |
+| Date | Topic | Changes |
 | --- | --- | --- |
-| 22 februari | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Bijgewerkt van de volgende veelgestelde vragen:<ul><li>Waar kunnen segmenten worden toegepast in Analysis Workspace?</li></ul> |
-| 16 februari | [Opmerkingen bij de release Doel (preRelease)](/help/r-release-notes/target-release-notes.md) | De bijgewerkte tekst voor de limietgrootte van de aanbieding in de prereleaseopmerkingen. |
-| 11 februari | [Hoe Target werkt](/help/c-intro/how-target-works.md) | Bijgewerkte sectie &quot;Bots&quot;. |
-| 10 februari | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over het pagina-einde van de Adobe Target Community Coffee Coffee op woensdag 24 februari 2021. |
-| 8 februari | [Voorvertoning voor mobiele doelversie](/help/c-target-mobile-app/target-mobile-preview.md) | Het codefragment dat u moet toevoegen aan het bestand AndroidManifest.xml voor versie 4 van de SDK van Adobe Mobile. |
-|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem wordt verduidelijkt:<ul><li>Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, zullen die veranderingen niet in het Doel UI worden weerspiegeld. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan.</li></ul> |
-| 1 februari | [Samenvattingsrapporten van Automated Personalization](/help/c-reports/reports-ap.md) | Nieuwe sectie toegevoegd: &quot;Veelgestelde vragen.&quot; |
-| 27 januari | [Omleidingsvoorstellen maken](/help/c-experiences/c-manage-content/offer-redirect.md) | Bijgewerkt onderwerp. |
-|  | [Externe aanbiedingen maken](/help/c-experiences/c-manage-content/about-remote-offers.md) | Bijgewerkt onderwerp. |
-| 26 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md) | Verduidelijkt hoe het Doel de &quot;som vierkanten&quot;in t-tests van de Student gebruikt. |
-| 22 januari | [Omrekeningskoers](/help/c-reports/conversion-rate.md#t-test) | Toegevoegd: &quot;Waarom adviseert het Doel het gebruiken t-tests van de Student?&quot; |
-| 21 januari | [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nieuwe sectie toegevoegd: &quot;A4T Activiteitenrapporten bevatten een rij met een groot aantal &quot;ongespecificeerde&quot; gebeurtenissen.&quot; |
-|  | [Rapporten weergeven - Veelgestelde vragen voor A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Bijgewerkte volgende sectie: &quot;Waarom zie ik &quot;niet gespecificeerd&quot;in de rapporten van Analytics? Wat betekent het?&quot; |
-| 20 januari | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nieuw onderwerp. |
-| 19 januari | [Opmerkingen bij de doelversie (huidig)](/help/r-release-notes/release-notes.md) | Toegevoegde informatie over de doelversie 21.1.1 (19 januari 2021). |
-|  | [Limieten](/help/r-troubleshooting-target/target-limits.md) | Bijgewerkte tekst voor de `productPurchasedID` parameter. |
-|  | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md) | Een bekend probleem toegevoegd tijdens het kopiëren van een [!UICONTROL Recommendation] activiteit met een actieve bevordering. Elke wijziging in de duplicaatactiviteit heeft ook invloed op de oorspronkelijke activiteit en omgekeerd. Een tijdelijke oplossing is inbegrepen. |
-|  | [Opmerkingen bij de release](/help/r-release-notes/release-notes.md): 21.1.1. | Deze release bevat verbeteringen en correcties. U kunt over hen lezen en met de documentatie van de Nota&#39;s van de Versie verbinden. Deze release bevat ook een groot aantal documentatie-updates voor de hele Help. |
+| February 22 | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Updated the following FAQ:<ul><li>Where can segments be applied in Analysis Workspace?</li></ul> |
+| February 16 | [](/help/r-release-notes/target-release-notes.md) | Updated text for offer limit size in the prerelease notes. |
+| February 11 | [](/help/c-intro/how-target-works.md) | Updated &quot;Bots&quot; section. |
+| February 10 | [](/help/r-release-notes/target-announcements.md) | Added information about the Adobe Target Community Q&amp;A Coffee Break on Wednesday, February 24, 2021. |
+| February 8 | [](/help/c-target-mobile-app/target-mobile-preview.md) | Added the code snippet you should add to the AndroidManifest.xml file for version 4 of the Adobe Mobile SDK. |
+|  | [](/help/r-release-notes/known-issues-resolved-issues.md) | Clarified the following known issue:<ul><li>Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can be edited only via API. Likewise, if you create any of these items in the Target UI and later edit them via API, those changes will not be reflected in the Target UI. Items edited via API should continue to be edited via API to avoid loss of any modifications.</li></ul> |
+| February 1 | [](/help/c-reports/reports-ap.md) | Added new section: &quot;Frequently Asked Questions.&quot; |
+| January 27 | [](/help/c-experiences/c-manage-content/offer-redirect.md) | Updated topic. |
+|  | [](/help/c-experiences/c-manage-content/about-remote-offers.md) | Updated topic. |
+| January 26 | [](/help/c-reports/conversion-rate.md) | Clarified how Target uses the &quot;sum of squares&quot; in Student&#39;s t-tests. |
+| January 22 | [](/help/c-reports/conversion-rate.md#t-test) | Added following section: &quot;Why does Target recommend using Student&#39;s t-tests?&quot; |
+| January 21 | [](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Added new section: &quot;A4T Activity reports include a row with a large number of &quot;unspecified&quot; events.&quot; |
+|  | [](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Updated following section: &quot;Why do I see &quot;unspecified&quot; in the Analytics reports? What does it mean?&quot; |
+| January 20 | [](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | New topic. |
+| January 19 | [](/help/r-release-notes/release-notes.md) | Added information about the Target 21.1.1 release (January 19, 2021). |
+|  | [](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID` |
+|  | [](/help/r-release-notes/known-issues-resolved-issues.md) | [!UICONTROL Recommendation] Any change in the duplicate activity also affects the original activity, and vice versa. A temporary workaround is included. |
+|  | [](/help/r-release-notes/release-notes.md) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
