@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '4677'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ De software kan de caching controleren; kan de webpagina zelf, statische bronnen
 Helaas ontvangen de Chrome-API&#39;s die webverzoeken onderscheppen niet de aanvragen die zijn onderschept en verwerkt door een software. Daarom kan de extensie de headers en cookies niet corrigeren als het verzoek van de webpagina vanuit een cache is verzonden door een SWF-bestand, omdat de webpagina niet in de VEC wordt geladen vanwege de X-Frame-Options of CSP-headers die ook in de cache zijn geplaatst.
 
 Als potentiële oplossing, kunt u de Werknemers van de Dienst van de Hulpmiddelen van de Ontwikkelaar van Chrome onbruikbaar maken > het lusje van de Toepassing, dan om &quot;Bypass voor netwerk&quot;checkbox onder de sectie van de Werknemers van de Dienst toe te laten. (kB-2006)
+
+### Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer {#ad-hoc}
+
+Verwijder geen locaties in een activiteit die is gemaakt in de Form-Based Experience Composer als deze locaties gebruikmaken van ad-hocaanbiedingen (aanbiedingen die binnen de activiteit zijn gemaakt). Als u locaties verwijdert, kan de activiteit beschadigd raken. De [!DNL Target] team werkt aan een oplossing hiervoor. Als tijdelijke oplossing kunt u wereldwijde aanbiedingen maken van de [!UICONTROL Offer library] en gebruik ze op locaties, of u kunt nieuwe ervaringen maken, indien nodig. (kB-2014)
 
 ### Verkeersverdeling van activiteiten die automatisch worden toegewezen met behulp van A4T {#aa-a4t}
 

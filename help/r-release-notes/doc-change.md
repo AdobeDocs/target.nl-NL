@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3511'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 9 maart | [Bekende problemen en opgeloste problemen](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Het volgende bekende probleem is toegevoegd:<ul><li>Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer</li></ul> |
 | 8 maart | [Aankondigingen en gebeurtenissen van het doel](/help/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze EU-Koffie (30 maart 2022)</li></ul> |
 | 7 maart | [Soorten publiek maken](/help/c-target/c-audiences/audiences.md#aep) | Nieuwe sectie toegevoegd onder &quot;Gebruik publiek van [!DNL Adobe Experience Platform]:&quot;<ul><li>Gebruikszaken aanpassen</li></ul> |
 | 25 februari | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | De volgende secties zijn bijgewerkt:<ul><li>[Automatische toewijzing en automatisch doel](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisch toewijzen](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
