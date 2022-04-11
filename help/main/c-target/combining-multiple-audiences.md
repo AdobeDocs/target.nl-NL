@@ -4,9 +4,9 @@ description: Leer hoe u meerdere soorten publiek kunt combineren (inclusief Adob
 title: Kan ik Meerdere soorten publiek combineren om een nieuw publiek te maken?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Meerdere soorten publiek combineren (inclusief [!DNL Adobe Experience Cloud], [!
 
 >[!NOTE]
 >
->De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals het is of gecombineerd met bestaand publiek, zoals in dit onderwerp wordt uitgelegd).
+>De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals het is of gecombineerd met bestaande doelgroepen, zoals in dit onderwerp wordt uitgelegd.
 >
 >Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -25,7 +25,7 @@ Stel dat u een publiek hebt met de doelgroep &quot;Nieuwe bezoekers&quot; en een
 
 Als een ander voorbeeld, kunt u alle loyaliteitklanten richten. U kunt bijvoorbeeld een specifieke [!DNL Audience Manager] publiek voor loyaliteitsstatus en combineer deze met een [!DNL Target] publiek dat bestaat uit mensen die zich tijdens de huidige sessie hebben aangemeld voor uw loyaliteitsprogramma . Het combineren van deze twee soorten publiek is eenvoudiger dan het creëren van een derde, permanent publiek.
 
-U kunt maximaal tien soorten publiek combineren met AND en OR.
+U kunt maximaal 20 soorten publiek combineren met AND en OR.
 
 U kunt een gecombineerd publiek maken en gebruiken op verschillende plaatsen in de [!DNL Target] UI.
 
@@ -37,13 +37,13 @@ U kunt een ad hoc gecombineerd publiek op de activiteit tot stand brengen [!UICO
 
    ![Stap resultaat](assets/edit_audience.png)
 
-1. Op de [!UICONTROL Choose Audience] , selecteert u de selectievakjes naast het gewenste publiek dat u als bouwstenen voor uw gecombineerde publiek wilt gebruiken.
+1. Op de **[!UICONTROL Choose Audience]** , selecteert u de selectievakjes naast het gewenste publiek dat u als bouwstenen voor uw gecombineerde publiek wilt gebruiken.
 
-   Klik op de knop [!UICONTROL Filters] om uw zoekopdracht naar het gewenste publiek te beperken. U kunt het publiek filteren op de bron: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
+   Gebruik de [!UICONTROL Search Audiences] om uw zoekopdracht naar het gewenste publiek te beperken.
 
    ![Stap resultaat](assets/combine_multiple_audiences1.png)
 
-1. Klikken **[!UICONTROL Combine Audiences]** in de rechterbovenhoek.
+1. Klikken **[!UICONTROL Combine Multiple Audiences]** in de rechterbovenhoek.
 
    ![Stap resultaat](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ U kunt een ad hoc gecombineerd publiek op de activiteit tot stand brengen [!UICO
 
       ![](assets/combine_multiple_audiences3.png)
 
-      De operator tussen het twee publiek van het browsertype is AND. Selecteer de vervolgkeuzelijst En en wijzig deze in &quot;OR&quot; om een nieuw, gecombineerd publiek te maken voor nieuwe bezoekers met Firefox of Safari. Zorg ervoor dat u geen regels maakt die alle mogelijke publieksleden uitsluiten. Het is bijvoorbeeld niet mogelijk dat iemand een pagina gelijktijdig bezoekt met Firefox en Safari.
+      De operator tussen het twee publiek van het browsertype is AND. Selecteer [!UICONTROL And] vervolgkeuzelijst en wijzig deze in &quot;OR&quot; om een nieuw, gecombineerd publiek te maken voor nieuwe bezoekers met Firefox of Safari. Zorg ervoor dat u geen regels maakt die alle mogelijke publieksleden uitsluiten. Het is bijvoorbeeld niet mogelijk dat iemand een pagina gelijktijdig bezoekt met Firefox en Safari.
 
       >[!NOTE]
       >

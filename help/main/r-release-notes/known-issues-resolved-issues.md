@@ -4,7 +4,7 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -59,13 +59,13 @@ Een probleem met de EEG verhindert momenteel dat het aanvragen van PUTTEN onders
 
 [!DNL Adobe Experience Platform] segmentnamen worden niet weergegeven in het dialoogvenster [!UICONTROL Important Attributes] verslag voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten. (TOP-3813)
 
-### Archiveren [!UICONTROL Auto Target] activiteiten kunnen synchronisatieproblemen veroorzaken
+### Archiveren [!UICONTROL Auto-Target] activiteiten kunnen synchronisatieproblemen veroorzaken
 
 Poging om inactief te archiveren [!UICONTROL Auto-Target] activiteiten kunnen leiden tot synchronisatieproblemen. Niet archiveren totdat dit probleem is opgelost [!UICONTROL Auto-Target] activiteiten. Laat ze in de [!UICONTROL Inactive] status. (TGT-40885)
 
 ### Paginalevering {#page-delivery}
 
-Als u een sjabloonregel toevoegt, zoals de URL, bevat deze regel (/checkout, /cart) in [paginalevering](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaties staan aan uw regels vooraf. These extra spaces are cosmetic and do not affect audience-definition creation and offer delivery. (TGT-35920)
+Als u een sjabloonregel toevoegt, zoals de URL, bevat deze regel (/checkout, /cart) in [paginalevering](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaties staan aan uw regels vooraf. Deze extra ruimten zijn cosmetisch en hebben geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
 
 ### Kwaliteit van voorbeeldkoppelingen
 
@@ -73,20 +73,20 @@ De QA-voorbeeldkoppelingen voor activiteit voor opgeslagen activiteiten worden m
 
 ### QA-modus voor Recommendations-activiteiten
 
-A known issue prevents preview if criteria used in the activity is item-based or category-based. (TNT-37455)
+Een bekend probleem voorkomt een voorvertoning als de criteria die in de activiteit worden gebruikt, op een item of categorie zijn gebaseerd. (TNT-37455)
 
-### Redirect offers {#redirect}
+### Aanbiedingen omleiden {#redirect}
 
 Hier volgen bekende problemen met omleidingsvoorstellen:
 
 * Een beperkt aantal klanten heeft een hogere mate van variatie in verkeersdistributie gemeld wanneer het gebruiken van omleidingsaanbiedingen in activiteiten die met Analytics voor Doel (A4T) worden gevormd.
-* Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). U kunt [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) om Voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
+* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) om Voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
 ### Het laden van een pagina in Visual Experience Composer (VEC) annuleren {#cancel}
 
-* The following known issue currently exists when cancelling the loading of an [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] (XT) activity within the VEC that contains a redirect URL.
+* Het volgende bekende probleem bestaat momenteel wanneer u het laden van een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) activiteit binnen VEC die een omleidingsURL bevat.
 
-   Als u in stap een van de VEC-workflow met instructies het laden van pagina&#39;s annuleert, wordt de [!UICONTROL Modifications] in de VEC-weergaven en de omleiding naar de URL-sjabloon wordt toegepast op de ervaring (bijvoorbeeld &#39;Experience B&#39;). When you progress to steps two or three and then come back to step one, the following situation occurs.
+   Als u in stap een van de VEC-workflow met instructies het laden van pagina&#39;s annuleert, wordt de [!UICONTROL Modifications] in de VEC-weergaven en de omleiding naar de URL-sjabloon wordt toegepast op de ervaring (bijvoorbeeld &#39;Experience B&#39;). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
 
    Bij &quot;Experience B&quot; wordt standaard de sjabloon voor het laden van de geannuleerde website weergegeven en wordt de [!UICONTROL Modifications] is toegankelijk, wat niet het geval zou moeten zijn omdat deze ervaring een omleiding naar toegepaste malplaatje URL heeft. De omleiding naar URL-sjabloon moet worden weergegeven.
 
@@ -153,11 +153,11 @@ De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;za
 
 Wanneer een succes metrisch aan toename op elke indruk wordt geplaatst, telt Target opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. Het doel stelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 terug zodat kan het op de volgende indruk opnieuw tellen. Aldus, als een andere metrisch metrisch vereist om eerst te zijn gezien, erkent het Doel nooit dat de gebruiker eerste metrisch heeft gezien.
 
-### Analytics for [!DNL Target] (A4T)
+### Analyses voor [!DNL Target] (A4T)
 
-Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel selecteren**. Without this model applied, the metrics are overstated.
+Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel selecteren**. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
 
-All current Analytics packages can add this model with Attribution IQ. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
+Alle huidige pakketten Analytics kunnen dit model met Attribution IQ toevoegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
 
 ### Doel-API&#39;s
 
@@ -167,7 +167,7 @@ Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch 
 
 Op 10 mei 2020 heeft Adobe de bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op alle Adobe-leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
 
-### Reporting - Inconsistent data in the downloadable .csv report versus the displayed report in the [!DNL Target] UI. {#csv}
+### Rapportage - de Inconsistente gegevens in het downloadbare .csv- rapport versus het getoonde rapport in [!DNL Target] UI. {#csv}
 
 Rapporten die worden gegenereerd om te worden gedownload als CSV-bestanden, zijn inconsistent als de activiteit meer dan één metrische waarde gebruikt. Het downloadbare rapport wordt geproduceerd gebaseerd op de rapportmontages slechts en beschouwt de zelfde waarde voor een andere gebruikte metriek.
 
@@ -233,11 +233,11 @@ Conversies verhogen momenteel verschillend gebaseerd op welk publiek wordt gebru
 Als voor dezelfde bezoeker bijvoorbeeld het aantal conversies is ingesteld op &quot;Eenmaal per binnenkomst:&quot;
 
 * Publiek: &quot;Alle Gekwalificeerde Bezoekers&quot;voor op bezoek-niveau omzettingen verhogen slechts één keer. Dit is het verwachte gedrag.
-* Audience: &quot;New Visitors&quot; for visit-level conversions incorrectly increment every time, instead of incrementing one time only. Dit is niet het verwachte gedrag.
+* Publiek: &quot;Nieuwe Bezoekers&quot;voor op bezoek-niveau omzettingen verhogen verkeerd elke keer, in plaats van slechts één keer te verhogen. Dit is niet het verwachte gedrag.
 
 Als het aantal conversies is ingesteld op &quot;Op elke indruk:&quot;
 
-* Audience: &quot;All Qualified Visitors&quot; for visitor-level conversions incorrectly increment one time only, instead of incrementing every time. Dit is niet het verwachte gedrag.
+* Publiek: &quot;Alle gekwalificeerde Bezoekers&quot; voor conversies op bezoekersniveau worden slechts eenmaal incorrect verhoogd in plaats van elke keer te verhogen. Dit is niet het verwachte gedrag.
 * Publiek: &quot;Nieuwe Bezoekers&quot; voor conversies op bezoekersniveau nemen telkens toe. Dit is het verwachte gedrag.
 
 Dit probleem houdt verband met [!DNL Target] alleen rapporteren. Dit is geen probleem bij het gebruik [!UICONTROL Analytics for Target] (A4T) rapportage.
@@ -248,11 +248,11 @@ Dit probleem is opgelost.
 
 Dit bekende probleem betreft het besluit van Google om het standaardgedrag van cookies te wijzigen zonder het SameSite-kenmerk te beginnen met Chrome versie 80. Voordat de wijzigingsinterface alle cookies zonder het SameSite-kenmerk standaard instelde op &quot;SameSite=None&quot; en nu wordt de standaardwaarde ingesteld op &quot;SameSite=Lax&quot;. Hierdoor wordt de manier gewijzigd waarop cookies worden verzonden op GET- en POST-aanvragen. Zie [SameSite-updates](https://www.chromium.org/updates/same-site).
 
-For more information and a fix, see &quot;How do the recently announced Google Chrome SameSite cookie enforcement policies impact the VEC and EEC?&quot; in [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+Zie &quot;Hoe beïnvloedt het onlangs aangekondigde Google Chrome SameSite cookie handhavingsbeleid de VEC en EEC?&quot; voor meer informatie en een oplossing. in [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Grafiekrapport voor een activiteit Auto-Doel ontbreekt teruggeven wanneer het gebruiken van een douaneervaring als controle
 
-Het grafiekrapport voor een activiteit auto-Doel ontbreekt om voor &quot;differentiële&quot;wijzen (Gemiddelde Lift en Dagelijkse Lift) terug te geven als er geen gegevens (0 bezoeken) in om het even welke ervaring zijn. This situation might occur during the early stage of an activity if the control experience is set to custom. Voor de andere wijzen (het Lopen Gemiddelde Controle en Gericht, Dagelijkse Controle en Gericht, en Bezoek) werkt het fijn. As soon as there is some data (non-zero visits), the report renders as expected.
+Het grafiekrapport voor een activiteit auto-Doel ontbreekt om voor &quot;differentiële&quot;wijzen (Gemiddelde Lift en Dagelijkse Lift) terug te geven als er geen gegevens (0 bezoeken) in om het even welke ervaring zijn. Deze situatie kan zich voordoen tijdens de vroege fase van een activiteit als de controleervaring aan douane wordt geplaatst. Voor de andere wijzen (het Lopen Gemiddelde Controle en Gericht, Dagelijkse Controle en Gericht, en Bezoek) werkt het fijn. Zodra er gegevens zijn (bezoeken die niet gelijk zijn aan nul), wordt het rapport weergegeven zoals verwacht.
 
 Dit probleem is opgelost in de Doelversie 19.7.1.
 
@@ -300,7 +300,7 @@ Als u wilt bepalen of dit probleem gevolgen heeft voor uw doelrapportage, kunt u
 
 Een zeldzame omstandigheid op uw pagina kan ertoe leiden dat paginaweergaven op de oorspronkelijke pagina en op de pagina voor omleiding worden geteld. De implementatie van at.js zal worden bijgewerkt om ervoor te zorgen dat deze rasvoorwaarde kan worden vermeden.
 
-This issue was fixed in at.js 1.6.3.
+Dit probleem is opgelost in 1.js 1.6.3.
 
 ### Uitsluitingsgroepen
 
@@ -323,7 +323,7 @@ Opgelost met de release van API 2.3.0 of hoger.
 
 ### Geo targeting
 
-Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences. Dit probleem doet zich bijvoorbeeld voor bij het creëren van publiek op basis van steden, staten, landen, enz. Wanneer u bijvoorbeeld zoekt naar &quot;new york&quot;, retourneert de zoekopdracht geen geldige resultaten.
+Het zoeken naar een tekenreeks die speciale tekens bevat (zoals een spatie of komma) werkt momenteel niet wanneer u doelgroepen maakt. Dit probleem doet zich bijvoorbeeld voor bij het creëren van publiek op basis van steden, staten, landen, enz. Wanneer u bijvoorbeeld zoekt naar &quot;new york&quot;, retourneert de zoekopdracht geen geldige resultaten.
 
 Vast in november 2018.
 
@@ -341,9 +341,9 @@ Vast 25 oktober 2018
 
 ### Automated Personalization (AP)-rapportage op aanbodniveau
 
-When you click the targeted experience in an Automated Personalization (AP) activity&#39;s report to view offer-level reporting, currently you see empty results, an error message, or a spinning icon. (TNT-30695)
+Wanneer u op de beoogde ervaring in een rapport van een Automated Personalization-activiteit (AP) klikt om rapportage op aanbiedingsniveau weer te geven, ziet u momenteel lege resultaten, een foutbericht of een draaiend pictogram. (TNT-30695)
 
-Fixed September 27, 2018.
+Vast op 27 september 2018.
 
 ### Code-editor
 
@@ -353,7 +353,7 @@ Dit probleem is opgelost in de release 18.9.1.
 
 ### Recommendations-activiteit die een kenmerkpromotieregel gebruikt
 
-When you edit or copy a Recommendations activity that uses an Attribute Promotion rule, the &quot;Has missing field&quot; error displays when clicking Save .
+Wanneer u een Recommendations-activiteit bewerkt of kopieert die gebruikmaakt van een kenmerkpromotieregel, wordt de fout &quot;Heeft ontbrekend veld&quot; weergegeven wanneer u op Opslaan klikt.
 
 Dit probleem is opgelost in de release 17.8.1.
 
@@ -386,7 +386,7 @@ Als gevolg van de migratie zijn er twee mogelijke problemen die u dient te kenne
 
 Dit probleem is opgelost op 30 augustus 2017
 
-### Activity Creation
+### Activiteiten maken
 
 Een probleem met de release 17.6.2 kan van invloed zijn geweest op activiteiten die zijn gemaakt en/of bijgewerkt tussen 22 juni 2017 en 29 juni 2017. De volgende activiteiten werden beïnvloed:
 
@@ -395,13 +395,13 @@ Een probleem met de release 17.6.2 kan van invloed zijn geweest op activiteiten 
 
 Dit had geen gevolgen voor andere activiteiten.
 
-**Important**: This issue is not fixed automatically. U moet alle betrokken activiteiten opnieuw opslaan om het probleem op te lossen.
+**Belangrijk**: Dit probleem wordt niet automatisch opgelost. U moet alle betrokken activiteiten opnieuw opslaan om het probleem op te lossen.
 
 Dit probleem is op 29 juni 2017 opgelost
 
 ### Formuliergebaseerde Experience Composer
 
-The following known issues have been reported when using the Form-Based Experience Composer:
+De volgende bekende problemen zijn gemeld bij gebruik van de Form-Based Experience Composer:
 
 * Als u de Form-Based Composer van de Ervaring met een doos buiten auto-gecreeerde globale mbox ( doel-globaal-mbox) gebruikt, en dan kiest metrisch als succes metrisch, de metrische verhogingen slechts op pagina&#39;s die de mbox hebben die in de activiteit wordt gebruikt. Als uw box bijvoorbeeld homepage\_mbox is, is de metrische waarde Pagina&#39;s per bezoek het aantal hits op de startpagina\_mbox tijdens dat bezoek. (TGT-22789)
 * Er wordt een JavaScript-uitzondering gegenereerd wanneer u tijdens stap 1 van het proces een ervaring verwijdert die betrekking heeft op een Experience Targeting-activiteit (XT) wanneer u de Form-Based Experience Composer gebruikt. (TGT-24366)
@@ -426,7 +426,7 @@ Opgelost in de hotfix Doel 17.4.3.
 
 ### Voorstellen: Activiteiten in het kader van A/B en Experience Targeting (XT)
 
-The delivery and preview was impacted for offers in A/B and XT activities having at least two experiences and that were either created or edited using the Form-Based Experience Composer between Friday April 28 (9 p.m. PT) and Monday May 1 (9:15 p.m. PT). Er zijn alleen voorstellen met standaardinhoud weergegeven.
+De levering en voorvertoning werden beïnvloed voor aanbiedingen in A/B- en XT-activiteiten met ten minste twee ervaringen die zijn gemaakt of bewerkt met behulp van de Form-Based Experience Composer tussen vrijdag 28 april (28.00 uur PT) en maandag 1 mei (28.00 uur PT). Er zijn alleen voorstellen met standaardinhoud weergegeven.
 
 Opgelost in de hotfix Doel 17.4.3.
 
@@ -440,11 +440,11 @@ Er is een oplossing voor dit probleem gemaakt voor versie 0.js 0.9.6.
 
 De capaciteit om veelvoudige metriek in een rapport te bekijken, inbegrepen in Doelversie 17.3.1 (30 maart, 2017) is verwijderd toe te schrijven aan onverwacht gedrag. Deze functie is in een volgende release weer beschikbaar.
 
-The ability to view multiple metrics in a report was included in the Target 17.4.1 release (April 27, 2017).
+De capaciteit om veelvoudige metriek in een rapport te bekijken was inbegrepen in Doelversie 17.4.1 (27 april 2017).
 
-### Offers
+### Aanbiedingen
 
-Afbeeldingen die zijn verwijderd uit de bibliotheek met afbeeldingsaanbiedingen ( \> Afbeeldingsaanbiedingen ) blijven zichtbaar in de gebruikersinterface. In an upcoming release, these deleted images will no longer display. Ondertussen worden verwijderde afbeeldingen weergegeven in de gebruikersinterface, maar hebben ze de status Verwijderd. (TGT-23793)
+Afbeeldingen die zijn verwijderd uit de bibliotheek met afbeeldingsaanbiedingen ( \> Afbeeldingsaanbiedingen ) blijven zichtbaar in de gebruikersinterface. In een volgende release worden deze verwijderde afbeeldingen niet meer weergegeven. Ondertussen worden verwijderde afbeeldingen weergegeven in de gebruikersinterface, maar hebben ze de status Verwijderd. (TGT-23793)
 
 Opgelost in de doelversie 17.4.1 (27 april 2017).
 

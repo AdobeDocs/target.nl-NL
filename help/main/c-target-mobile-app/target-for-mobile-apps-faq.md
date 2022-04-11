@@ -5,9 +5,9 @@ title: Veelgestelde vragen over [!DNL Target] voor mobiele apps?
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -22,20 +22,20 @@ De SDK is beschikbaar op de [Adobe Marketing Cloud git](https://github.com/Adobe
 
 ## Welke SDK&#39;s zijn momenteel beschikbaar?
 
-The Adobe Experience Platform Mobile SDKs currently support iOS, Android, and React. For more information, see the [Adobe Experience Cloud Platform Mobile SDKs guide](https://aep-sdks.gitbook.io/docs/).
+De Adobe Experience Platform Mobile SDK&#39;s ondersteunen momenteel iOS, Android en React. Zie voor meer informatie de [Handleiding voor Adobe Experience Cloud Platform Mobile SDK&#39;s](https://aep-sdks.gitbook.io/docs/).
 
 ## Wat is de frequentie van de locatiegebaseerde functie, in termen van controle over de breedte en lengte?
 
-Zie de [Documentatie voor Adobe-plaatsen](https://placesdocs.com/places-services-by-adobe-documentation/) voor meer informatie .
+Zie de [Adobe Plaatsingsservice-documentatie](https://experienceleague.adobe.com/docs/places/using/home.html) voor meer informatie .
 
-## Do I need at.js for the Adobe Experience Platform Mobile SDKs to work?
+## Moet ik om.js voor Adobe Experience Platform Mobile SDKs hebben te werken?
 
-No, you don’t need at.js to use the mobile SDKs. at.js is de [!DNL Target] JavaScript-bibliotheek voor websites. De Adobe Experience Platform Mobile-SDK&#39;s zijn bedoeld voor mobiele apps.
+Nee, u hebt at.js niet nodig om de mobiele SDK&#39;s te gebruiken. at.js is de [!DNL Target] JavaScript-bibliotheek voor websites. De Adobe Experience Platform Mobile-SDK&#39;s zijn bedoeld voor mobiele apps.
 
 ## Is [!DNL Target] Mobiele Adobe [!DNL Target] Alleen SKU voor premiumproduct?
 
 Nee. Voor [!DNL Adobe Target Standard] klanten, kunt u onze Mobiele SDKs voor A/B Test en Ervaring gerichte (XT) activiteiten slechts met de [!DNL Target Standard] Mobile App-invoegtoepassing. Als u Recommendations- of AI-functies wilt gebruiken in de mobiele app, hebt u een [Adobe Target Premium](/help/main/c-intro/intro.md#premium) licentie.
 
-## Is there a mobile app integration between Adobe Experience Manager (AEM) and [!DNL Target] mobile activities?
+## Is er een mobiele toepassingsintegratie tussen Adobe Experience Manager (AEM) en [!DNL Target] mobiele activiteiten?
 
-It is on our roadmap but there is no timeline yet. Currently, you can share JSON [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) from AEM to Target and there might be potential to then use them in a mobile app activity.
+Het ligt op onze routekaart, maar er is nog geen tijdlijn. U kunt momenteel JSON delen [Ervaar fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) van AEM naar Target en er kan potentieel zijn om deze vervolgens te gebruiken in een mobiele app-activiteit.

@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3532'
+source-wordcount: '3614'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,21 @@ ht-degree: 0%
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
 
+## Adobe Target Standard/Premium 22.3.1 (4-6 april 2022; gespreide release)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 4 april | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] 22.3.1. |
+
 ## Adobe Target Standard/Premium 22.2.1 (1 februari 2022)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 30 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Informatie over de toegevoegde versie [!DNL Target] release van Platform. |
+| 28 maart | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target] release van Platform. |
+| 22 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Informatie over de toegevoegde versie [!DNL Target Standard/Premium] release van oplossingen voor klantentechnologie. |
+|  | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] 22.3.1. |
+| 17 maart | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] release van oplossingen voor klantentechnologie. |
 | 9 maart | [Bekende problemen en opgeloste problemen](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Het volgende bekende probleem is toegevoegd:<ul><li>Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer</li></ul> |
 |  | [Real-time profielsynchronisatie voor mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | De volgende zin voor profielsynchronisatie is bijgewerkt: &quot;Updates worden om de 5-10 minuten gesynchroniseerd met het profielarchief.&quot; |
 | 8 maart | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze EU-Koffie (30 maart 2022)</li></ul> |

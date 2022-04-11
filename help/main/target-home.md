@@ -1,12 +1,12 @@
 ---
-keywords: Doel;home;populaire onderwerpen;adobe target;standard;premium;target documentatie;adobe target documentatie;adobe target documentatie;home
+keywords: Doel;home;populaire onderwerpen;adobe target;target standaard;target premium;target premium;documentatie;adobe target documentatie;home
 title: Waar kan ik vinden? [!DNL Target] documentatie?
 description: Leer hoe u Adobe gebruikt [!DNL Target] om de ervaring van uw klanten aan te passen om uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] -oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 9 maart 2022 ( [Wat is gewijzigd bekijken](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 2 april 2022 ( [Wat is gewijzigd bekijken](r-release-notes/doc-change.md) )**
 
 In de volgende secties wordt verwezen naar handige koppelingen in deze handleiding, gerangschikt op doelgroep op basis van standaardfuncties:
 

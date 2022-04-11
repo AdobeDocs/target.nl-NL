@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] Regels voor privacy en gegevensbescherming afhand
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,9 @@ Als Controlemechanisme van Gegevens, bepaalt u de persoonlijke gegevens die [!DN
 
 Zie voor meer informatie:
 
-* [API-website van Adobe General Data Protection Regulation](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [GDPR-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Overzicht Adobe Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Handleiding Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Overzicht van de gebruikersinterface voor Privacys Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## Overzicht van de California Consumer Privacy Act (CCPA)
 
