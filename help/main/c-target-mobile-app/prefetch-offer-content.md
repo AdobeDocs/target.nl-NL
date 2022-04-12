@@ -5,9 +5,9 @@ title: Kan ik inhoud voor mobiele apps vooraf aanbieden?
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Dit proces verkort de ladingstijd, verhindert veelvoudige netwerkvraag, en staat
 Houd rekening met de volgende beperkingen wanneer u de prefetch-methode gebruikt met de iOS en Android Mobile SDK&#39;s:
 
 * Prefetch-inhoud blijft niet behouden bij alle opstarters. De prefetch-inhoud wordt in de cache geplaatst zolang de toepassing actief is of totdat de `clearPrefetchCache()` wordt aangeroepen.
-* Prefetch-functionaliteit wordt niet ondersteund voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] verkeerstoewijzingsmethoden, voor [!UICONTROL Automated Personalization] of [!UICONTROL Recommendations] typen activiteit, of voor [aanbevelingen worden aangeboden binnen een A/B- of XT-activiteit](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Voor meer informatie, met inbegrip van prefetch methodes, openbare klassen, en codesteekproeven, zie:
 
