@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -15,20 +15,21 @@ ht-degree: 0%
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
 
-## [!DNL Adobe Target] Koffiepauze EU-Koffie (30 maart 2022)
+## [!DNL Adobe Target] Koffiepauze (27 april 2022)
 
-* **Woensdag 30 maart 2022**
+* **Woensdag 27 april 2022**
 * **08:00 (PDT, UTC -7)**
-* **[Meer informatie en registratiegegevens](https://adobe.ly/3sIS5Mg)**
+* **[Meer informatie en registratiegegevens](https://adobe.ly/371Uny2)**
 
-De Senior Solutions Consultant, Ryan Pizzuto, zal de vragen van klanten met betrekking tot zijn volgende expertisegebieden beantwoorden:
+De belangrijkste consultant voor Oplossingen, James McTiernan, zal de vragen van klanten met betrekking tot zijn volgende expertisegebieden beantwoorden:
 
-* [!UICONTROL Auto-Target]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B Test] activiteiten
+* [!UICONTROL Multivariate Test] activiteiten
+* [!UICONTROL Recommendations] activiteiten
+* Personalisatie
 * Algemeen [!UICONTROL Adobe Target] onderwerpen
 
-Technisch ondersteunend ingenieur Mihnea Docea zal Vishal helpen.
+Technisch ondersteunend ingenieur Simon Chen zal James helpen.
 
 ## Webinar: Personaliseer en test bij nul latentie met op apparaat besluiten van [!DNL Adobe Target]
 

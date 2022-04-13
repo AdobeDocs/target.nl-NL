@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '3614'
+source-wordcount: '3642'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 4 april | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] 22.3.1. |
+| 13 april | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze (27 april 2022)</li></ul> |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Informatie over de toegevoegde versie [!DNL Target] release van Platform. |
+| 4 april | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Bijgewerkte informatie over de [!DNL Target Standard/Premium] 22.3.1. |
 
 ## Adobe Target Standard/Premium 22.2.1 (1 februari 2022)
 
