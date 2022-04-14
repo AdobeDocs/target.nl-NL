@@ -4,9 +4,9 @@ description: Ontdek de opties in het dialoogvenster [!DNL Adobe Target] [!UICONT
 title: Hoe gebruik ik de [!UICONTROL Visual Experience Composer] (VEC) Opties?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -330,7 +330,9 @@ De volgende opties zijn beschikbaar:
 
 Sleep het element naar een andere locatie binnen hetzelfde bovenliggende element of DIV. Andere elementen verschuiven de locatie om ruimte te maken voor het opnieuw gerangschikte element.
 
-**Opmerking:** Klik op bijhouden om de items niet opnieuw te rangschikken.
+**Opmerking**: Klikken en bijhouden werkt niet bij opnieuw gerangschikte items.
+
+Momenteel, bepaalde acties VEC, zoals [!UICONTROL Rearrange] en [!UICONTROL Move], veronderstellen dat de elementen van de bron en bestemmingsouder elementen volledig worden geladen. Als lazy het laden onder de ouderelementen DOM (bron of bestemming) voorkomt, kunnen deze acties VEC inconsistent gedrag veroorzaken. We werken aan een betrouwbaardere benadering om VEC-acties te laten werken in lui geladen DOM-elementen. Als tijdelijke oplossing kunt u [!UICONTROL Custom Code] in deze scenario&#39;s om uw ervaringen terug te geven.
 
 ### [!UICONTROL Resize]
 
@@ -343,6 +345,8 @@ Wijzig de grootte van een element op de pagina. Wanneer u [!UICONTROL Resize], w
 Verplaats elementen op de pagina. In tegenstelling tot [!UICONTROL Rearrange] optie, [!UICONTROL Move] verschuift andere elementen niet om ruimte te maken voor het element dat wordt verplaatst. Gebruik de pijltoetsen om de verplaatsing te verfijnen. (Geplande verbetering: ondersteuning om ervoor te zorgen dat verplaatste elementen niet achter andere elementen worden verborgen.)
 
 In bepaalde situaties, bijvoorbeeld wanneer een CSS-beperking vereist dat een element binnen het bovenliggende element blijft, kunt u het element niet buiten het bovenliggende element plaatsen. Een element kan niet worden verplaatst buiten een container met de volgende CSS-eigenschap: `overflow: hidden`.
+
+Zie [!UICONTROL Rearrange] voor meer informatie over inconsequent gedrag met de [!UICONTROL Move] en [!UICONTROL Rearrange] handelingen als gevolg van het uitgestelde laden van DOM-elementen.
 
 ### [!UICONTROL Hide]
 
