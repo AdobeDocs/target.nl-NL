@@ -4,9 +4,9 @@ description: Meer informatie over het toevoegen van een beslissing over voorstel
 title: Hoe gebruik ik beslissingen over aanbiedingen?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
+source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,11 @@ Gebruiken [!DNL Adobe Target] with [!DNL Adobe Journey Optimizer] biedt beslissi
 
 Aanbiedingsbesluiten toevoegen die zijn gemaakt in [!DNL Adobe Journey Optimizer] tot [!DNL Target] activiteiten (handboek [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting]) met behulp van [!UICONTROL Visual Experience Composer] (VEC) of de [!UICONTROL Form-Based Composer] om persoonlijke aanbiedingen te testen en te leveren aan uw bezoekers op uw binnenkomende kanalen aangedreven door [!DNL Target].
 
-Meer informatie over [!DNL Adobe Journey Optimizer], zie [Aan de slag met Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) in de *Journey Optimizer* documentatie.
+Meer informatie over [!DNL Adobe Journey Optimizer] en bied besluiten aan, zie de volgende onderwerpen in *[!DNL Journey Optimizer]* documentatie:
 
-Voor meer informatie over biedingsbesluiten, zie [Over Besluitbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) in de *[!DNL Journey Optimizer]* documentatie.
+* [Aan de slag met Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [Over Besluitbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## Vereisten
 
@@ -96,7 +98,7 @@ In [!DNL Adobe Journey Optimizer], kunt u een persoonlijk aanbod van de homepage
 
 ## Opmerkingen en beperkingen
 
-Houd rekening met de volgende opmerkingen en beperkingen wanneer u werkt met beslissingen over aanbiedingen:
+Neem de volgende informatie in overweging wanneer u met de beslissingen over aanbiedingen werkt:
 
 * De integratie van de offer decisioning werkt voor [!DNL Target] op de [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Deze functie is niet beschikbaar tijdens de implementatie [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
 
