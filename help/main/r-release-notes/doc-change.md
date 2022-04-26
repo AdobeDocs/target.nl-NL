@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3765'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 26 april | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe kan ik discrepanties in verkeersdistributie minimaliseren wanneer het gebruiken van omleidingsaanbiedingen in A4T activiteiten?</li></ul> |
+| 26 april | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd voor de volgende gebeurtenissen:<ul><li>Webinar: Real-Time Personalization with Adobe Target (28 april 2022)</li><li>[!DNL Adobe Target] Communautaire afbreking van Q&amp;A-koffie (25 mei 2022)</li></ul> |
+|  | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Hoe kan ik discrepanties in verkeersdistributie minimaliseren wanneer het gebruiken van omleidingsaanbiedingen in A4T activiteiten?</li></ul> |
+|  | [AEM ervaren fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Toegevoegd:<ul><li>ClientLibs en externe HTML verwijderen uit Experience Fragments die naar Target zijn geëxporteerd</li></ul> |
 | 21 april | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target] platformrelease gepland voor 17 april 2022. |
 | 20 april | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] Release 22.4.1. |
 | 14 april | [Opties voor Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Toegevoegde informatie aan de Rearrange sectie om te verklaren hoe te om met inconsistent gedrag VEC met te behandelen [!UICONTROL Move] en [!UICONTROL Rearrange] handelingen als gevolg van het uitgestelde laden van DOM-elementen. |

@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,36 @@ De belangrijkste consultant voor Oplossingen, James McTiernan, zal de vragen van
 * Algemeen [!UICONTROL Adobe Target] onderwerpen
 
 Technisch ondersteunend ingenieur Simon Chen zal James helpen.
+
+## Webinar: Real-Time Personalization with Adobe Target (28 april 2022)
+
+* **Donderdag 28 april 2022**
+* **13:00 - 14:00 uur (EDT, UTC -4)**
+* **[Meer informatie en registratiegegevens](https://real-time.dxfieldmarketing.adobeevents.com/)**
+
+Hoe kunt u uw digitale ervaringen personaliseren met deze verschillende profielbronnen vandaag? Hoe positioneert u uw team voor succes in de toekomst? Wat zijn de voordelen om merken toe te laten om hun klanten werkelijk te kennen en te respecteren terwijl het optimaliseren van elke klanteninteractie?
+
+Leer in deze sessie hoe [!DNL Adobe Target] brugt de hiaat bij het combineren van gegevens over veelvoudige bronnen voor Realtime Personalisatie aangezien wij bespreken:
+
+* Waarom personalisatieprestaties en snelheid van belang zijn voor een snellere bedrijfsgroei
+* Hoe de teams de strategieën van de eerste-partijgegevens kunnen bouwen en hun uitdagingen van de gegevensfragmentatie oplossen
+* End-to-end workflows voor persoonlijke ervaringen in milliseconden
+* Unieke gebruiksgevallen voor merken voor het in dienst nemen van klanten en vooruitzichten in real time met relevant overseinen, inhoud, en aanbiedingen.
+
+## [!DNL Adobe Target] Communautaire afbreking van Q&amp;A-koffie (25 mei 2022)
+
+* **Woensdag 25 mei 2022**
+* **08:00 (PDT, UTC -7)**
+* **[Meer informatie en registratiegegevens](https://adobe.ly/3LbOj4G)**
+
+Brent Kostak en Drew Burns van het Adobe Target Product Marketing-team zullen vragen van klanten met betrekking tot hun expertisegebieden beantwoorden. Klanten worden uitgenodigd om vragen te posten met betrekking tot de volgende onderwerpen die tijdens het webinar 4/28/22 in real time van de Personalisatie zijn behandeld:
+
+* Gezamenlijk publiek maken met Adobe Target en Real-Time CDP
+* Het bouwen van de strategieën van de eerste-partijgegevens om de uitdagingen van de gegevensfragmentatie op te lossen
+* De werkschema&#39;s van begin tot eind voor millisecondenverpersoonlijking opstellen
+* Het leveren van relevante overseinen, inhoud, en aanbiedingen in real time om overeenkomst te drijven
+
+Kai Motoyama, Technisch ondersteunend ingenieur, zal ook op de discussielijn zitten die extra steun verleent.
 
 ## Webinar: Personaliseer en test bij nul latentie met op apparaat besluiten van [!DNL Adobe Target]
 

@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -150,11 +150,13 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 * U kunt geen ervaringsfragmenten maken met [!DNL Adobe I/O]. Maak ervaringsfragmenten met AEM, zoals hierboven beschreven.
 * Als u het ervaringsfragment bijwerkt in AEM, moet het ervaringsfragment worden gepubliceerd en geëxporteerd naar [!DNL Target] opnieuw [!DNL Target] De meest recente wijzigingen kunnen worden gebruikt.
 
-## ClientLibs verwijderen uit Experience Fragments geëxporteerd naar Target
+## ClientLibs en externe HTML verwijderen uit Experience Fragments die naar Target zijn geëxporteerd
 
-Als u een ervaringsfragment gebruikt met [!DNL Target] op een pagina die wordt geleverd door AEM, bevat de doelpagina al alle benodigde clientbibliotheken. Daarnaast is de externe html in de XF-aanbieding ook niet nodig.
+Als u ervaring hebt met fragmentatieaanbiedingen met [!DNL Target] op een pagina die wordt geleverd door AEM, bevat de doelpagina al alle benodigde clientbibliotheken. Er zij ook op gewezen dat het aanbod ook geen andere HTML-elementen behoeft.
 
-Zie voor meer informatie [dit blogbericht](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+Soms lopen hele HTML pagina&#39;s het ervaringsfragment om en veroorzaken ze problemen. Zorg ervoor dat het ervaringsfragment een klein stuk HTML is en geen volledige HTML pagina met HTML, HEAD, BODY enzovoort.
+
+Raadpleeg het volgende blogbericht voor meer informatie: [AEM 6.5: ClientLibs verwijderen uit Experience Fragments geëxporteerd naar Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Trainingsvideo: Fragmenten AEM ervaren met [!DNL Adobe Target]
 
