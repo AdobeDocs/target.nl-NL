@@ -4,16 +4,16 @@ description: Leer hoe u het deelvenster Wijzigingen in Adobe gebruikt [!DNL Targ
 title: Welke wijzigingen kan ik aanbrengen in mijn pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
 
 # Wijzigingen
 
-Informatie over de pagina Wijzigingen in [!DNL Adobe Target] Hiermee kunt u wijzigingen op de pagina weergeven en aanvullende wijzigingen toevoegen (CSS-kiezer, Mbox en Aangepaste code).
+Informatie over de [!UICONTROL Modifications] pagina in [!DNL Adobe Target] Hiermee kunt u wijzigingen op de pagina weergeven en aanvullende wijzigingen toevoegen (CSS-kiezer, Mbox en Aangepaste code).
 
 De pagina van Wijzigingen toont alle veranderingen die aan uw pagina in Visuele Composer van de Ervaring (VEC) zijn aangebracht en laat u extra veranderingen aanbrengen door elk element op de pagina te klikken en [een handeling selecteren](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Elke wijziging die u aanbrengt, verschijnt als een afzonderlijke actie of als een afzonderlijk element in het dialoogvenster [!UICONTROL Modifications] lijst. U kunt ook wijzigingen toevoegen, zoals de volgende wijzigingstypen: CSS-kiezer, Mbox. en Aangepaste code.
 
@@ -157,20 +157,6 @@ Gebruik de **[!UICONTROL Custom Code]** tab naar:
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* Omwisselen met DOM-opiniepeiling via `elementOnLoad` insteekmodule
-
-   Het voordeel hiervan is dat de swap eerder plaatsvindt dan op DOM-gereed. De insteekmodule handelt het vooraf verbergen en tonen af en vereist een id op het element.
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
