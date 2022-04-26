@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4721'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,6 @@ Een bekend probleem voorkomt een voorvertoning als de criteria die in de activit
 
 ### Aanbiedingen omleiden {#redirect}
 
-Hier volgen bekende problemen met omleidingsvoorstellen:
-
-* Een beperkt aantal klanten heeft een hogere mate van variatie in verkeersdistributie gemeld wanneer het gebruiken van omleidingsaanbiedingen in activiteiten die met Analytics voor Doel (A4T) worden gevormd.
 * De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) om Voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
 ### Het laden van een pagina in Visual Experience Composer (VEC) annuleren {#cancel}

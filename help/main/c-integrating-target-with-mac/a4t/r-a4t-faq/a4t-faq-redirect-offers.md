@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over het gebruik van omleidingsaanbieding
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,21 @@ De drie bibliotheken moeten op zowel de pagina met het omleidingsaanbod als de p
 ## Waarom zijn er soms gegevensdiscrepanties tussen A4T en Analytics?
 
 Sommige gegevensdiscrepanties worden verwacht. Zie voor meer informatie [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
+## Hoe kan ik discrepanties in verkeersdistributie minimaliseren wanneer het gebruiken van omleidingsaanbiedingen in A4T activiteiten? {#discrepancies}
+
+Een beperkt aantal klanten heeft een hogere mate van variatie in verkeersdistributie gemeld wanneer het gebruiken van omleidingsaanbiedingen in activiteiten gevormd met [!UICONTROL Analytics for Target] (A4T).
+
+Overweeg het volgende:
+
+* Onjuiste volgorde van [!DNL Target] en [!DNL Analytics] de vraag zou voor hogere graad van variantie kunnen verantwoordelijk zijn.
+
+   De [!DNL Target] de vraag moet voorafgaan aan [!DNL Analytics] de vraag op de bronpagina (waar redirect voorkomt) en op de bestemmingspagina (waar redirect beëindigt).
+
+* Zorg ervoor dat u omleidingsaanbiedingen in A4T omleidingsactiviteiten gebruikt.
+* Als er meerdere [!DNL Target] locatieverzoeken op de bronpagina (waar de omleiding plaatsvindt); [!DNL Adobe] raadt u aan de omleidingsactiviteit uit te voeren op de eerste [!DNL Target] locatieverzoek.
+
+   De omleidingsactiviteit uitvoeren op de eerste [!DNL Target] locatieverzoek verkleint de kans dat er op andere activiteiten kwalificaties plaatsvinden [!DNL Target] locatieverzoeken en meegeteld in het rapport. Bezoekers die worden omgeleid, hoeven niet mee te tellen in de verslagen van andere activiteiten, aangezien zij de ervaringen niet zullen zien.
 
 ## Waarom worden paginaweergaven op de oorspronkelijke pagina en op de omleidingspagina soms geteld? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
