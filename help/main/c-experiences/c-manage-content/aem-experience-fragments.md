@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,12 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 * Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML-voorstel. Het ervaringsfragment &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 * U kunt geen ervaringsfragmenten maken met [!DNL Adobe I/O]. Maak ervaringsfragmenten met AEM, zoals hierboven beschreven.
 * Als u het ervaringsfragment bijwerkt in AEM, moet het ervaringsfragment worden gepubliceerd en geëxporteerd naar [!DNL Target] opnieuw [!DNL Target] De meest recente wijzigingen kunnen worden gebruikt.
+
+## ClientLibs verwijderen uit Experience Fragments geëxporteerd naar Target
+
+Als u een ervaringsfragment gebruikt met [!DNL Target] op een pagina die wordt geleverd door AEM, bevat de doelpagina al alle benodigde clientbibliotheken. Daarnaast is de externe html in de XF-aanbieding ook niet nodig.
+
+Zie voor meer informatie [dit blogbericht](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Trainingsvideo: Fragmenten AEM ervaren met [!DNL Adobe Target]
 
