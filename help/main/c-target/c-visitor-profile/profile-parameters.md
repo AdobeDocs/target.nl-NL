@@ -4,9 +4,9 @@ description: Meer informatie over bezoekersspecifieke kenmerken die zijn opgesla
 title: Wat zijn profielkenmerken?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,9 @@ Houd rekening met het volgende:
 
 * Raadpleeg scriptkenmerken voor profielen (ook zichzelf) in de code met `user.get('parameterName')`.
 * Variabelen opslaan die de volgende keer kunnen worden geopend dat het script wordt uitgevoerd (op de volgende mbox-aanvraag) met `user.setLocal('variable_name', 'value')`. Verwijs met de variabele `user.getLocal('variable_name')`. Dit proces is handig voor situaties waarin u naar de datum en het tijdstip van het laatste verzoek wilt verwijzen.
+
+   Deze waarden blijven bestaan als een profielscript, maar u hebt er alleen toegang tot binnen het script dat ze zijn ingesteld.
+
 * Parameters en waarden zijn hoofdlettergevoelig. Komt overeen met het geval van de parameters en waarden die u ontvangt tijdens de activiteit of test.
 * Zie de sectie &quot;JavaScript reference for script profile parameters&quot; hieronder voor meer JavaScript-syntaxis.
 * De parameter blijft in het profiel nadat het script is uitgeschakeld. Gebruikers waarvan de profielen al een parameter bevatten die in het publiek van een activiteit wordt gebruikt, kwalificeren in die activiteit.
