@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Target] platformrelease (27 april 2022)
+
+Deze release bevat de volgende wijziging:
+
+* Met deze release kunt u inhoud vooraf instellen voor [!UICONTROL Auto Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten (voorheen niet teruggegeven door [!DNL Target]). Dit zou de ervaringen kunnen veranderen het eind - de gebruikers zien in het geval van een pre-fetch vraag (geen veranderingen in &quot;uitvoeren&quot;stroom) als een AP/AT activiteit op de leveringsweg is en hoger in prioriteit dan andere activiteiten AB/XT is die de zelfde plaats voor inhoudslevering gebruiken.
 
 ## Doelversie van Platform (13 april 2022)
 

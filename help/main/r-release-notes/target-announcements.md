@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -14,22 +14,6 @@ ht-degree: 0%
 # Aankondigingen en gebeurtenissen van het doel
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
-
-## [!DNL Adobe Target] Koffiepauze (27 april 2022)
-
-* **Woensdag 27 april 2022**
-* **08:00 (PDT, UTC -7)**
-* **[Meer informatie en registratiegegevens](https://adobe.ly/371Uny2)**
-
-De belangrijkste consultant voor Oplossingen, James McTiernan, zal de vragen van klanten met betrekking tot zijn volgende expertisegebieden beantwoorden:
-
-* [!UICONTROL A/B Test] activiteiten
-* [!UICONTROL Multivariate Test] activiteiten
-* [!UICONTROL Recommendations] activiteiten
-* Personalisatie
-* Algemeen [!UICONTROL Adobe Target] onderwerpen
-
-Technisch ondersteunend ingenieur Simon Chen zal James helpen.
 
 ## Webinar: Real-Time Personalization with Adobe Target (28 april 2022)
 
