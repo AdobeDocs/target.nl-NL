@@ -5,9 +5,9 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -262,6 +262,22 @@ Veelgestelde vragen over bedrijfsmachtigingen zijn onder andere:
 Helaas kunt u activiteiten niet van de ene werkruimte naar de andere verplaatsen. U kunt een activiteit echter naar elke werkruimte kopiëren in de wetenschap dat de rapportgegevens niet worden overgedragen. Zie &quot;Een activiteit kopiëren/bewerken bij het gebruik van werkruimten&quot; voor meer informatie in [Activiteit kopiëren/bewerken bij gebruik van werkruimten](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Activiteiten die vóór de migratie zijn gemaakt, worden in de standaardwerkruimte op dezelfde manier uitgevoerd, tenzij ze worden bewerkt en toegewezen eigenschappen. Activiteiten die onder een specifieke werkruimte vallen, respecteren de eigenschappen die aan die werkruimte zijn toegewezen, zodat het gedrag mogelijk niet hetzelfde blijft als vóór de migratie.
+
+### Kan ik een publiek van de ene werkruimte naar de andere verplaatsen? {#move-audience}
+
+Ja, u kunt een publiek tussen werkruimten verplaatsen met de opdracht [!UICONTROL More Actions] de optie [!UICONTROL Audiences] pagina.
+
+1. Klik op de knop **[!UICONTROL More Actions]** (de drie ellipsen), en klik dan **[!UICONTROL Move]**.
+
+   ![Meer handelingen > Verplaatsen](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. Selecteer de gewenste werkruimte in het menu **[!UICONTROL Workspace]** vervolgkeuzelijst en vervolgens op **[!UICONTROL Move]**.
+
+   ![Selecteer het gewenste publiek om naar de nieuwe werkruimte te gaan](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>U moet de juiste rechten hebben om een publiek te bewerken. Bovendien mag het publiek niet bij andere activiteiten worden gebruikt. Als het publiek in andere activiteiten wordt gebruikt en u het publiek naar een ander werkstation wilt verplaatsen, verwijdert u het publiek uit de andere activiteiten waar het wordt gebruikt.
 
 ### Waarom krijg ik een foutenmelding erop wijst die dat geen bezit aan deze activiteit wordt geassocieerd, alhoewel er een toegewezen bezit is?
 
