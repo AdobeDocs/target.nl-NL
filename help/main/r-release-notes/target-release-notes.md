@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 Deze versie bevat de volgende oplossing:
 
 * Probleem verholpen waarbij drie op een kar gebaseerde algoritmen dezelfde voorwaarde voor kopen en kopen gebruikten op de knop [!DNL Target] achterkant. (TGT-43456)
-* Ingeschakeld [!DNL Target] Het teken van UI verfrist zich voor T2E &amp; PBA (Beleid Gebaseerde Authentificatie) toegelaten organisaties (TGT-42590).
+* Ingeschakeld [!DNL Target] UI-token vernieuwt voor organisaties die zijn ingeschakeld met [Zakelijke id-accounts](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} en beleidsgebaseerde verificatie (PBA). (TGT-42590)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
