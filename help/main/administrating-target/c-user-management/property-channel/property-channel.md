@@ -5,9 +5,9 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: '3096'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
    * Wanneer u een activiteit, publiek of aanbieding maakt in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gemaakt. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
    * Wanneer u een activiteit, een publiek of een aanbieding kopieert in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gekopieerd. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
 
-* Om het even welk plaatsen op de volgende pagina&#39;s van het Beleid kan door om het even welke Approver in om het even welke werkruimte worden gecontroleerd:
+* Willekeurige instelling op de volgende beheerderDe pagina&#39;s van het rantsoen kunnen door om het even welke Approver in om het even welke werkruimte worden gecontroleerd:
 
    * Visual Experience Composer
    * Rapportage
@@ -277,7 +277,7 @@ Ja, u kunt een publiek tussen werkruimten verplaatsen met de opdracht [!UICONTRO
 
 >[!NOTE]
 >
->U moet de juiste rechten hebben om een publiek te bewerken. Bovendien mag het publiek niet bij andere activiteiten worden gebruikt. Als het publiek in andere activiteiten wordt gebruikt en u het publiek naar een ander werkstation wilt verplaatsen, verwijdert u het publiek uit de andere activiteiten waar het wordt gebruikt.
+>U moet de juiste rechten hebben om een publiek te bewerken. Bovendien mag het publiek niet bij andere activiteiten worden gebruikt. Als het publiek in andere activiteiten wordt gebruikt en u wilt het publiek naar een ander werkstation verplaatsen, verwijdert u het publiek uit de andere activiteiten waar zij worden gebruikt.
 
 ### Waarom krijg ik een foutenmelding erop wijst die dat geen bezit aan deze activiteit wordt geassocieerd, alhoewel er een toegewezen bezit is?
 
