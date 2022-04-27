@@ -5,7 +5,7 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
+source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
 workflow-type: tm+mt
 source-wordcount: '3096'
 ht-degree: 0%
@@ -277,7 +277,7 @@ Ja, u kunt een publiek tussen werkruimten verplaatsen met de opdracht [!UICONTRO
 
 >[!NOTE]
 >
->U moet de juiste rechten hebben om een publiek te bewerken. Bovendien mag het publiek niet bij andere activiteiten worden gebruikt. Als het publiek in andere activiteiten wordt gebruikt en u wilt het publiek naar een ander werkstation verplaatsen, verwijdert u het publiek uit de andere activiteiten waar zij worden gebruikt.
+>U moet de juiste rechten hebben om een publiek te bewerken. Bovendien mag het publiek niet bij andere activiteiten worden gebruikt. Als het publiek in andere activiteiten wordt gebruikt en u wilt het publiek naar een andere werkplaats verplaatsen, verwijdert u het publiek uit de andere activiteiten waar zij worden gebruikt.
 
 ### Waarom krijg ik een foutenmelding erop wijst die dat geen bezit aan deze activiteit wordt geassocieerd, alhoewel er een toegewezen bezit is?
 
