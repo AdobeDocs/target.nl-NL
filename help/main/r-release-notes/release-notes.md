@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -18,27 +18,18 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
+## [!DNL Target Standard/Premium] 22.4.1 (28 april 2022)
+
+Deze versie bevat de volgende oplossing:
+
+* Probleem verholpen waarbij drie op een kar gebaseerde algoritmen dezelfde voorwaarde voor kopen en kopen gebruikten op de knop [!DNL Target] achterkant. (TGT-43456)
+* Ingeschakeld [!DNL Target] UI-token vernieuwt voor organisaties die zijn ingeschakeld met [Zakelijke id-accounts](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} en beleidsgebaseerde verificatie (PBA). (TGT-42590)
+
 ## [!DNL Target] platformrelease (27 april 2022)
 
 Deze release bevat de volgende wijziging:
 
 * Met deze release kunt u inhoud vooraf instellen voor [!UICONTROL Auto Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten (voorheen niet teruggegeven door [!DNL Target]). Dit zou de ervaringen kunnen veranderen het eind - de gebruikers zien in het geval van een pre-fetch vraag (geen veranderingen in &quot;uitvoeren&quot;stroom) als een AP/AT activiteit op de leveringsweg is en hoger in prioriteit dan andere activiteiten AB/XT is die de zelfde plaats voor inhoudslevering gebruiken.
-
-## Doelversie van Platform (13 april 2022)
-
-Deze release bevat de volgende update:
-
-* Probleem opgelost om ervoor te zorgen dat het laatste octet van IP-adressen behoorlijk wordt verduisterd wanneer deze worden vastgelegd met profielscripts. (TNT-44076)
-
-## [!DNL Target Standard/Premium] 22.3.1 (5 april 2022)
-
-Deze release bevat de volgende wijzigingen en verbeteringen:
-
-* Het probleem dat de oorzaak was van de [!UICONTROL Include] en [!UICONTROL Exclude] opties die bij het bewerken van een activiteit moeten worden uitgeschakeld voor een gecombineerd publiek. (TGT-43422)
-* Probleem verholpen waardoor sommige klanten de lijst met beschikbare soorten publiek niet konden zien tijdens het bewerken van een activiteit. (TGT-43404)
-* Probleem verholpen waardoor sommige klanten een IP-adres niet konden verwijderen van &quot;[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; lijst in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
-* Probleem verholpen waarbij het gebruik van negatieve getallen in publiekscriterium werd voorkomen waarmee werd gecontroleerd of een variabele &quot;groter dan&quot;, &quot;groter dan of gelijk aan&quot;, &quot;kleiner dan&quot; of &quot;kleiner dan of gelijk aan&quot; is. (TGT-43367)
-* Probleem verholpen waardoor klanten de [!UICONTROL Audience Details] kaart bij het maken van een gecombineerd publiek. (TGT-43303)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

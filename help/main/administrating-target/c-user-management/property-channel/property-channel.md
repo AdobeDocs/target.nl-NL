@@ -5,9 +5,9 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -198,6 +198,7 @@ De nieuwe machtigingsfunctionaliteit is op verschillende plaatsen te zien in de 
    ![](assets/channel_options.png)
 
 * **Aanmaken publiek:** Wanneer u een publiek maakt, wordt dit gemaakt in de momenteel geselecteerde werkruimte.
+* **Poortlijst:** U kunt een publiek tussen werkruimten verplaatsen met de opdracht [!UICONTROL More Actions] > [!DNL Move] de optie [!UICONTROL Audiences] pagina.
 * **Aanbieding maken:** Wanneer u een aanbieding creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte.
 * **Pagina Eigenschappen (Beheer > Eigenschappen):** U kunt de [!UICONTROL Search] vak waarin u kunt zoeken [!UICONTROL Property] lijst.
 
@@ -215,7 +216,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
    * Wanneer u een activiteit, publiek of aanbieding maakt in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gemaakt. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
    * Wanneer u een activiteit, een publiek of een aanbieding kopieert in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gekopieerd. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
 
-* Willekeurige instelling op de volgende beheerderDe pagina&#39;s van het rantsoen kunnen door om het even welke Approver in om het even welke werkruimte worden gecontroleerd:
+* Willekeurige instelling op het volgende [!UICONTROL Administration] pagina&#39;s kunnen door om het even welke worden gecontroleerd [!UICONTROL Approver] in elke werkruimte:
 
    * Visual Experience Composer
    * Rapportage

@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3765'
+source-wordcount: '3802'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,14 @@ ht-degree: 0%
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
 
-## Adobe Target Standard/Premium 22.3.1 (4-6 april 2022; gespreide release)
+## Adobe Target Standard/Premium 22.4.1 (28 april)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 28 april | [Machtigingen voor Enterprise-gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik een publiek van de ene werkruimte naar de andere verplaatsen?</li></ul> |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] 22.4.1 en de versies Target platform (27 april 2022). |
+
+## Adobe Target Standard/Premium 22.3.1 (5 april)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |

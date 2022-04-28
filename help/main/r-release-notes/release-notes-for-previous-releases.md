@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '32706'
+source-wordcount: '32850'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,22 @@ Deze onderhoudsversie bevat de volgende oplossingen en verbeteringen voor de nie
 ### [!DNL Target Standard/Premium] 22.1.1 (12 januari 2022)
 
 Deze release bevat foutoplossingen en de vereiste functies voor toekomstige integratie.
+
+### Doelversie van Platform (13 april 2022)
+
+Deze release bevat de volgende update:
+
+* Probleem opgelost om ervoor te zorgen dat het laatste octet van IP-adressen behoorlijk wordt verduisterd wanneer deze worden vastgelegd met profielscripts. (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1 (5 april 2022)
+
+Deze release bevat de volgende wijzigingen en verbeteringen:
+
+* Het probleem dat de oorzaak was van de [!UICONTROL Include] en [!UICONTROL Exclude] opties die bij het bewerken van een activiteit moeten worden uitgeschakeld voor een gecombineerd publiek. (TGT-43422)
+* Probleem verholpen waardoor sommige klanten de lijst met beschikbare soorten publiek niet konden zien tijdens het bewerken van een activiteit. (TGT-43404)
+* Probleem verholpen waardoor sommige klanten een IP-adres niet konden verwijderen van &quot;[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; lijst in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
+* Probleem verholpen waarbij het gebruik van negatieve getallen in publiekscriterium werd voorkomen waarmee werd gecontroleerd of een variabele &quot;groter dan&quot;, &quot;groter dan of gelijk aan&quot;, &quot;kleiner dan&quot; of &quot;kleiner dan of gelijk aan&quot; is. (TGT-43367)
+* Probleem verholpen waardoor klanten de [!UICONTROL Audience Details] kaart bij het maken van een gecombineerd publiek. (TGT-43303)
 
 ### at.js versie 2.8.0 (7 januari 2022)
 
