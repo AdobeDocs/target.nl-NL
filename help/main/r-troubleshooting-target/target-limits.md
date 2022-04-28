@@ -5,9 +5,9 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ### Ervaringen per activiteit
 
-* **Limiet**: 2.000 ervaringen per ervaring gericht (XT), A/B Test, Multivariate Test (MVT), en auto-doelactiviteit.
+* **Limiet**: 2.000 ervaringen per [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), en [!UICONTROL Auto-Target] activiteit.
 
    30.000 ervaringen per Automated Personalization (AP) activiteit.
 
