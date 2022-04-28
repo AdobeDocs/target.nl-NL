@@ -4,9 +4,9 @@ description: Leer hoe u een activiteit Automatisch toewijzen in Adobe gebruikt [
 title: Wat is een automatisch toegewezen activiteit?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3348'
+source-wordcount: '3447'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,16 @@ Met de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Auto-Allocate] acti
 Als een treffer in een andere (niet gebrek) milieu voorkomt, wordt het verkeer verdeeld volgens het waargenomen omzettingsgedrag in het standaardmilieu. Het resultaat van die treffer (conversie of niet-conversie) wordt geregistreerd voor rapportagedoeleinden, maar wordt niet in de [!UICONTROL Auto-Allocate] model.
 
 Wanneer het selecteren van een ander milieu, toont het rapport verkeer en omzettingen voor dat milieu. De standaard geselecteerde omgeving voor een rapport is de standaard voor de gehele account die is geselecteerd. De standaardomgeving kan niet per activiteit worden ingesteld.
+
+### Kan [!UICONTROL Auto-Allocate] de activiteit past het raadplegingsvenster over de cursus van een test aan om rekening te houden met veranderende tendensen in tijd?
+
+Bijvoorbeeld, kan de activiteit de maand van December voor het beslissen over hoe te om verkeer toe te wijzen, eerder dan het bekijken van de gegevens van de bezoeker van September (toen de test begon) overwegen?
+
+Nee, [!UICONTROL Auto-Allocate] rekening houdt met de uitvoering van de gehele activiteit.
+
+### doet [!UICONTROL Auto-Allocate] een winnende ervaring tonen aan een terugkerende bezoeker als de winnende ervaring verschilt van wat de bezoeker zag toen hij in aanmerking kwam voor de activiteit?
+
+[!UICONTROL Auto-Allocate] om dezelfde redenen een krappe beslissing gebruikt [!UICONTROL A/B Test] de activiteiten blijven steken . De verkeerstoewijzing werkt alleen voor nieuwe bezoekers.
 
 ## Trainingsvideo&#39;s {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
