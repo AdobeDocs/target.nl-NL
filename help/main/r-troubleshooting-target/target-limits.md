@@ -1,13 +1,13 @@
 ---
 keywords: tekenlimiet;mbox-parameters;batch-levering api;profielparameters;limieten;ingebouwde profielen;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;problemen oplossen
-description: Een lijst weergeven met tekenlimieten en andere limieten (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Adobe Target.
-title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Target?
+description: Een lijst weergeven met tekenlimieten en andere beperkingen die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target].
+title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
+source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
