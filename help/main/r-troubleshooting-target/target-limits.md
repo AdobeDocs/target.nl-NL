@@ -5,7 +5,7 @@ title: Wat zijn de verschillende tekens, grootte en andere limieten in Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 256
+   * waarde van profielparameter max. lengte 5000
 
    **API-eindpunt voor levering**:
 
@@ -203,7 +203,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 256
+   * waarde van profielparameter max. lengte 5000
 
 
 
