@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ca2e85a5cadd014c192be6795445e0cfc4ca75cb
+source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere inform
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target Standard/Premium] 22.5.1 (gespreide vrijgave; mei (10-12 mei 2022)
+## [!DNL Target Standard/Premium] 22.5.1 (gespreide vrijgave; mei (11-13 mei 2022)
 
 Deze release is beschikbaar volgens het volgende schema:
 
