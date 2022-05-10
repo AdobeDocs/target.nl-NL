@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3864'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 mei | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] Release 22.5.1. |
 | 28 april | [Machtigingen voor Enterprise-gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan ik een publiek van de ene werkruimte naar de andere verplaatsen?</li></ul> |
 |  | [[!UICONTROL Auto-Allocate] overzicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Kan [!UICONTROL Auto-Allocate] de activiteit past het raadplegingsvenster over de cursus van een test aan om rekening te houden met veranderende tendensen in tijd?</li><li>doet [!UICONTROL Auto-Allocate] een winnende ervaring tonen aan een terugkerende bezoeker als de winnende ervaring verschilt van wat de bezoeker zag toen hij in aanmerking kwam voor de activiteit?</li></ul> |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] 22.4.1 en de versies Target platform (27 april 2022). |
