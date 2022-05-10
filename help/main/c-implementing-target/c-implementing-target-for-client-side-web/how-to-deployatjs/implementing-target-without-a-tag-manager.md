@@ -5,9 +5,9 @@ title: Kan ik implementeren [!DNL Target] zonder tagbeheer?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1752'
 ht-degree: 3%
 
 ---
@@ -82,6 +82,20 @@ Naast de hierboven beschreven instellingen zijn ook de volgende specifieke inste
 |--- |--- |
 | Aangepaste bibliotheekkoptekst | Voeg aangepaste JavaScript toe die u boven aan de bibliotheek wilt opnemen. |
 | Aangepaste bibliotheekvoettekst | Voeg aangepaste JavaScript toe die u onder aan de bibliotheek wilt opnemen. |
+
+### Implementatiemethoden met Apparaatbesluit
+
+Vanaf versie 2.5.0 biedt at.js on-device beslissingen. Op apparaat kunt u de beslissing in de cache plaatsen [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) en [Gericht op ervaring](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op browser om in geheugenbesluiten zonder een blokkerend netwerkverzoek aan browser uit te voeren [!DNL Adobe Target] Edge Network.
+
+Zie voor meer informatie:
+
+* Client-kant: [Apparaatbeslissingen voor at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Server-kant: [Inleiding tot apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Server-kant: [Apparaatbeslissingen](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
 
 ### Profiel-API
 
