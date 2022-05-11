@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '32850'
+source-wordcount: '32974'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,19 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2022
+
+### [!DNL Target Standard/Premium] 22.4.1 (28 april 2022)
+
+Deze versie bevat de volgende oplossing:
+
+* Probleem verholpen waarbij drie op een kar gebaseerde algoritmen dezelfde voorwaarde voor kopen en kopen gebruikten op de knop [!DNL Target] achterkant. (TGT-43456)
+* Ingeschakeld [!DNL Target] UI-token vernieuwt voor organisaties die zijn ingeschakeld met [Zakelijke id-accounts](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} en beleidsgebaseerde verificatie (PBA). (TGT-42590)
+
+### [!DNL Target] platformrelease (27 april 2022)
+
+Deze release bevat de volgende wijziging:
+
+* Met deze release kunt u inhoud vooraf instellen voor [!UICONTROL Auto Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten (voorheen niet teruggegeven door [!DNL Target]). Dit zou de ervaringen kunnen veranderen het eind - de gebruikers zien in het geval van een pre-fetch vraag (geen veranderingen in &quot;uitvoeren&quot;stroom) als een AP/AT activiteit op de leveringsweg is en hoger in prioriteit dan andere activiteiten AB/XT is die de zelfde plaats voor inhoudslevering gebruiken.
 
 ### [!DNL Target] Release van Platform (30 maart)
 
