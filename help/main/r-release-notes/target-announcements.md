@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1997fb8e290541fc9e194d582ccc2587595ccfa7
+source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,15 @@ Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Ado
 
 ## [!DNL Adobe Target] Communautaire afbreking van Q&amp;A-koffie (25 mei 2022)
 
+Brent Kostak en Drew Burns van de [!DNL Adobe Target] Het team van de Marketing van het product zal klantenvragen met betrekking tot hun gebieden van deskundigheid beantwoorden.
+
++++klik op mij
+
 * **Woensdag 25 mei 2022**
 * **08:00 (PDT, UTC -7)**
 * **[Meer informatie en registratiegegevens](https://adobe.ly/3LbOj4G)**
 
-Brent Kostak en Drew Burns van de [!DNL Adobe Target] Het team van de Marketing van het product zal klantenvragen met betrekking tot hun gebieden van deskundigheid beantwoorden. Klanten worden uitgenodigd om vragen te posten met betrekking tot de volgende onderwerpen die tijdens het webinar van de Personalisatie in real time 4/28/22 (toegang hieronder) zijn behandeld:
+Klanten worden uitgenodigd om vragen te posten met betrekking tot de volgende onderwerpen die tijdens het webinar van de Personalisatie in real time 4/28/22 (toegang hieronder) zijn behandeld:
 
 * Gezamenlijk publiek maken met [!DNL Adobe Target] en Real-Time CDP
 * Het bouwen van de strategieën van de eerste-partijgegevens om de uitdagingen van de gegevensfragmentatie op te lossen
@@ -29,6 +33,7 @@ Brent Kostak en Drew Burns van de [!DNL Adobe Target] Het team van de Marketing 
 * Het leveren van relevante overseinen, inhoud, en aanbiedingen in real time om overeenkomst te drijven
 
 Kai Motoyama, Technisch ondersteunend ingenieur, zal ook op de discussielijn zitten die extra steun verleent.
++++
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
@@ -36,13 +41,15 @@ Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Adob
 
 ### Sportgoederen van Dick: Personalisatie en het veranderende landschap in de detailhandel (19 mei 2022)
 
+Leer beste praktijken bij het opvoeren van verpersoonlijkingsprogramma&#39;s op schaal. Zie hoe Dick&#39;s Sporting Goods gebruikt [!DNL Adobe Target] om topsporters en -merken te betrekken.
+
 +++klik op mij
 
 * **Donderdag 19 mei 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
 * **[Meer informatie en registratiegegevens](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Word Shawn Wilkinson (eCommerce Perssonalization Manager) om te leren hoe [!DNL Target] helpt gemiddelde bezoekers om atleten terug te sturen.
+Word Shawn Wilkinson (eCommerce Perssonalization Manager) om te leren hoe [!DNL Target] helpt Dick&#39;s Sporting Goods gemiddelde bezoekers om te zetten in terugkerende atleten.
 
 Leer hoe Dick&#39;s Sporting Goods de groei van dubbele cijfers drijft terwijl we uitpakken:
 
@@ -55,6 +62,8 @@ Leer hoe Dick&#39;s Sporting Goods de groei van dubbele cijfers drijft terwijl w
 
 ### Adobe: Personalization Industry Insider - Financial Services and Insurance (24 mei 2022)
 
+Leer hoe financiële dienstverleners klanten steunen en informeren gebruikend verpersoonlijking om op inflatiepatronen en investeringsstrategieën voor te bereiden.
+
 +++klik op mij
 
 * **Dinsdag 24 mei 2022**
@@ -65,6 +74,8 @@ Join Christopher Young (Director, Industry Strategy Financial Services) en James
 ++ 
 
 ### Nationale bank van de stad: De beste 1% voor digitale optimalisatie bereiken (26 mei 2022)
+
+De toolkit van de mening en gebruiksgevallen voor het uitvoeren van dwars-functionele verpersoonlijkingsstrategieën. Zie hoe CNB van de onderste 26% van zijn industrie naar de top 1% ging met [!DNL Adobe Target].
 
 +++klik op mij
 
@@ -85,6 +96,8 @@ Leer hoe de Nationale Bank van de Stad leverde [!DNL Target] tot:
 
 ### Adobe: Personalisatie met precisie - [!DNL Adobe Analytics] en [!DNL Target] (2 juni 2022)
 
+Leer hoe de Kunstmatige Intelligentie consumentenverwachtingen blijft herdefiniëren aangezien machine het leren modellen en gegevensinzichten nieuwe deuren openen voor marketers, ontwikkelaars, en producteigenaars om consumenten met gepersonaliseerde ervaringen te betrekken die belangrijk zijn. Volg een stapsgewijze rondleiding van [!DNL Adobe Analytics] + [!DNL Adobe Target] workflows voor personalisatie, doelgerichtheid en testen.
+
 +++klik op mij
 
 * **Donderdag 2 juni 2022**
@@ -102,6 +115,8 @@ Join Jordan Ison (Hoofd Expert Solution Consultant bij [!DNL Adobe]) te bespreke
 
 ### Nationale bank van de stad: Nul naar Hero - Een personalisatieprogramma starten en schalen (9 juni 2022)
 
+Leer beste praktijken hoe te om een &quot;relatiebank&quot;te worden om merkloyaliteit te verhogen. Ontdek hoe u mensen en processen kunt aansturen om succesvolle verpersoonlijkingsprogramma&#39;s op te zetten en te schalen.
+
 +++klik op mij
 
 * **Donderdag 9 juni 2022**
@@ -112,6 +127,8 @@ Sluit zich aan bij Heather Adkins (SVP Marketing Technology) om beste praktijken
 +++
 
 ### Adobe: Ontdek de mogelijkheden voor optimalisatie met hoge effecten (16 juni 2022)
+
+Leer hoe wij nieuw normaal-die digitaler dan ooit zijn geworden-is het essentieel dat de organisaties van elke kans voordeel halen om uitzonderlijke digitale ervaringen te leveren. Goed genoeg is niet meer echt goed genoeg. Het kost grote ervaring om concurrerend te blijven.
 
 +++klik op mij
 
@@ -129,6 +146,8 @@ Sluit zich aan bij Kaitlin White (de Manager van de Marketing van het Product va
 +++
 
 ### Adobe: Personalization Industry Insider - Retail (21 juni 2022)
+
+2022 heeft bedrijven een dynamische en snel veranderende omgeving gegeven om te werken en te exploiteren. Leer hoe experts in de branche nieuwe trends voor consumenten zien ontstaan terwijl het leven weer normaal wordt voor werknemers en reizigers. 
 
 +++klik op mij
 
