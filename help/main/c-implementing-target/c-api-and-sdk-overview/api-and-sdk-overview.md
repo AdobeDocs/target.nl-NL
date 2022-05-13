@@ -5,7 +5,7 @@ title: Waar kan ik informatie over krijgen? [!DNL Target] Server-Side Delivery A
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Koppeling: [Server Side Delivery-API&#39;s](https://developers.adobetarget.com/a
 
 `/rest/v1/delivery`
 
-De [!DNL Target] Leverings-API, kunt u:
+Met de [!DNL Target] Leverings-API, kunt u:
 
 * Lever ervaringen over het web, met inbegrip van SPA, en mobiele kanalen evenals niet-browser gebaseerde IoT apparaten, zoals aangesloten TVs, kiosken, of in-store digitale schermen.
 * Lever ervaringen van om het even welke server-zijplatform of toepassing die HTTP/s vraag kan maken.

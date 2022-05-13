@@ -4,9 +4,9 @@ description: Leer hoe u uitsluitingen maakt in Adobe [!DNL Target] Recommendatio
 title: Hoe gebruik ik uitsluitingen in Recommendations-activiteiten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 * Producten die nooit mogen worden aanbevolen (misschien bestaat er een SKU in het systeem voor iets, maar het is geen aanschafbaar item, of misschien is het een nep-SKU voor het QA-team om een aankoop te simuleren zonder iets te bestellen, enz.)
 
 >[!IMPORTANT]
+>
+>Uitsluitingsregels worden globaal toegepast op alle omgevingen.
 >
 >Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruiksscenario&#39;s, zie [Dynamische en statische insluitingsregels gebruiken](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
