@@ -5,9 +5,9 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3107'
 ht-degree: 0%
 
 ---
@@ -232,7 +232,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
 * Bij het weergeven van soorten publiek vanuit het deelvenster [!DNL Audiences] pagina, wordt de pagina langzamer geladen dan u had verwacht. Als u op een of andere manier met de zoekbalk werkt, worden de doelgroepen sneller weergegeven. Dit probleem is bekend en wordt in een volgende update opgelost. Dit probleem heeft geen invloed op het selecteren van doelgroepen tijdens de workflow voor het maken van activiteiten.
 * De volgende middelen maken deel uit van het nieuwe model van de Toestemmingen van de Onderneming:
 
-   * Activiteiten, publiek en codeaanbiedingen die binnen Standaard/Premium van het Doel worden gecreeerd nadat de klant voor toestemmingen wordt toegelaten. (Opmerking: klanten moeten recht hebben op Target Premium.)
+   * Activiteiten, publiek en codeaanbiedingen die zijn gemaakt binnen [!DNL Target Standard/Premium] zijn beschikbaar voor gebruik nadat de klant voor toestemmingen wordt toegelaten. (Opmerking: klanten moeten het recht hebben om [!DNL Target Premium].)
    * Eigenschappen kunnen worden toegevoegd aan bestaande activiteiten in de standaardwerkruimte. deze aanpak kan echter worden gewijzigd .
    * Alleen nieuwe bronnen (zoals activiteiten, codeaanbiedingen en publiek) die zijn gemaakt in Target Premium (nadat Enterprise-machtigingen zijn ingeschakeld) zijn beschikbaar om te worden beperkt door machtigingen.
    * Externe bronnen zijn alleen beschikbaar voor gebruikers in de standaardwerkruimte. De rol van een gebruiker in de Standaardwerkruimte wordt globaal toegepast (op alle doelverzoeken en alle doelbronnen).

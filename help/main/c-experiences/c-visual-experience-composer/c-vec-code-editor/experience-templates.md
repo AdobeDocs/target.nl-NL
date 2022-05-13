@@ -1,10 +1,10 @@
 ---
 keywords: ervaringssjabloon;aangepaste code;banner;lightbox;carrousel;countdown;ribbon;buttons
 description: Leer hoe u Experience Templates kunt gebruiken. Dit zijn vooraf gecodeerde voorbeelden met configureerbare invoer die moet worden gebruikt om veelgebruikte markeringsvoorbeelden in Adobe Target uit te voeren.
-title: Welke ervaringssjablonen zijn beschikbaar als doel?
+title: Welke Ervaringsmalplaatjes beschikbaar in doel zijn?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

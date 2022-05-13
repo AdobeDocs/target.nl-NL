@@ -5,9 +5,9 @@ title: at.js Cookies
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers campagnes
 |--- |--- |
 | sessie-id | Een unieke id voor een gebruikerssessie. Standaard duurt dit 30 minuten. |
 | pc-id | Een halfpermanente id voor de browser van een bezoeker. Laadt 14 dagen. |
-| controleren | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
+| at_check | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
 | disable | Instellen als de laadtijd van de bezoeker de time-out overschrijdt die is geconfigureerd in het dialoogvenster [!DNL Adobe Experience Platform Web SDK] of het bestand at.js. Standaard duurt dit 1 uur. |
 
 ## Gevolgen voor [!DNL Target] voor Safari-bezoekers vanwege wijzigingen in het bijhouden van Apple WebKit
