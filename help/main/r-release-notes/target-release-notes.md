@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,6 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 * Probleem verholpen waardoor klanten geen dubbel publiek konden maken, maar in verschillende werkruimten. (TGT-43423)
 * Probleem verholpen waardoor klanten geen locaties konden verwijderen die ad-hocaanbiedingen hadden in activiteiten die in het dialoogvenster [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
 * Probleem verholpen waarbij klanten geen toegang kregen tot de aangeboden code nadat ze op de aanbiedingen voor afbeeldingen hadden geklikt en de interface vervolgens hadden vernieuwd. (TGT-43566)
-* Zorgde ervoor dat de lijst van metriek beschikbaar in [!DNL Target] UI wanneer het creëren van activiteiten die gebruiken [!DNL Analytics for Target] (A4T) geeft alleen die metriek weer die zijn verzameld door [!DNL Adobe Analytics]. (TGT-43294)
 * Probleem verholpen waarbij tijdens het bewerken van profielscripts het oorspronkelijke, onbewerkte script werd hersteld nadat het script was bewerkt, geactiveerd en vervolgens gedeactiveerd. Het profielscript blijft nu in de bewerkte status staan. (TGT-43249)
 * Probleem verholpen waarbij de volgende fout is opgetreden bij een poging een publiek naar een andere werkruimte te verplaatsen: &quot;We kunnen je aanvraag niet voltooien. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-43212)
 * Correctie van een fout die een fout veroorzaakte bij het klonen van aangepaste codewijzigingen voor App-pagina&#39;s (SPA) van één pagina. (TGT-43137)
