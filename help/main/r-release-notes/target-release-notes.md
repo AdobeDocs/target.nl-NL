@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
+source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 Deze release is beschikbaar volgens het volgende schema:
 
 * **11 mei**: Regio Azië-Stille Oceaan (APAC)
-* **12 mei**: Noord-Amerika (NA)
+* **12 mei**: Amerikaanse regio
 * **13 mei**: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:

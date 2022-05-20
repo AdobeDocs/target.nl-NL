@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
+source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 Deze release is beschikbaar volgens het volgende schema:
 
 * **11 mei**: Regio Azië-Stille Oceaan (APAC)
-* **12 mei**: Noord-Amerika (NA)
+* **12 mei**: Amerikaanse regio
 * **13 mei**: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
