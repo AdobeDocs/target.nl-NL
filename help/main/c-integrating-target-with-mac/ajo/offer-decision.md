@@ -2,9 +2,9 @@
 keywords: visuele ervaringscomposer-opties;beleving composer-opties;ervaringsopties;bied beslissing aan;offer decisioning;ajo;optimaliseer de reis
 description: Meer informatie over het toevoegen van een beslissing over voorstellen die is gemaakt in [!DNL Adobe Journey Optimizer] aan een activiteit.
 title: Hoe gebruik ik beslissingen over aanbiedingen?
-feature: Visual Experience Composer (VEC)
+feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
+source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
