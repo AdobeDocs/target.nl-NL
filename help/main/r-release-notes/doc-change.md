@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4042'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 25 mei | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de release van het Target-platform (25 mei 2022) en de release van at.js 2.9.0 (27 mei 2022). |
+|  | [details van de at.js-versie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release at.js 2.9.0. |
+|  | [Gebruiker-agent en de wenken van de Cliënt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | Nieuw onderwerp. |
+|  | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Toegevoegde koppeling voor het opnemen van het volgende webinar: Sportgoederen van Dick: Personalisatie en het veranderende landschap in de detailhandel (19 mei 2022) |
 | 23 mei | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige releaseopmerkingen toegevoegd voor versie 2.9.0 van .js (25 mei 2022). |
 | 11 mei | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Toegevoegde informatie- en registratiekoppelingen voor de volgende webinars:<ul><li>Sportgoederen van Dick: Personalisatie en het veranderende landschap in de detailhandel</li><li>Adobe: Personaliserings-industrie-insider - Financiële diensten en verzekeringen</li><li>Nationale bank van de stad: De beste 1% voor digitale optimalisatie bereiken</li><li>Adobe: Personalisatie met precisie - [!DNL Adobe Analytics] en [!DNL Target]</li><li>Nationale bank van de stad: Nul naar hoofdmenu - Een aanpassingsprogramma starten en schalen</li><li>Adobe: Ontdek mogelijkheden voor optimalisatie met hoge effecten</li><li>Adobe: Personaliserings-industrie-insider - detailhandel</li></ul>De opname voor het volgende webinar is toegevoegd:<ul><li>Aanpassing in realtime met [!DNL Adobe Target]</li></ul> |
 |  | [Inhoudsbeveiligingsbeleid (CSP)-instructies](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Sectie Veelgestelde vragen toegevoegd. |

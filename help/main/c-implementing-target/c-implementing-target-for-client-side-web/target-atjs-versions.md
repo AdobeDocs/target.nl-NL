@@ -5,9 +5,9 @@ title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4377'
+source-wordcount: '4401'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ Details over de wijzigingen in elke versie van het dialoogvenster [!DNL Adobe Ta
 >Het team van het Doel steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
 >Tags in [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) is de aangewezen methode om at.js te bevorderen. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Adobe Experience Platform] catalogus als upgrades. Zie voor meer informatie [Uitbreidingen upgraden](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in de *Overzicht van codes* hulplijn.
+
+## at.js versie 2.9.0 (27 mei 2022)
+
+* Toegevoegd [Clienttips van gebruikersagent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) ondersteuning.
+* Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
 ## at.js versie 2.8.1 (28 januari 2022)
 

@@ -4,7 +4,7 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '32974'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Deze release bevat de volgende wijziging:
 
 * Met deze release kunt u inhoud vooraf instellen voor [!UICONTROL Auto Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten (voorheen niet teruggegeven door [!DNL Target]). Dit zou de ervaringen kunnen veranderen het eind - de gebruikers zien in het geval van een pre-fetch vraag (geen veranderingen in &quot;uitvoeren&quot;stroom) als een AP/AT activiteit op de leveringsweg is en hoger in prioriteit dan andere activiteiten AB/XT is die de zelfde plaats voor inhoudslevering gebruiken.
 
-### [!DNL Target] Release van Platform (30 maart)
+### [!DNL Target] platformrelease (30 maart)
 
 Deze release bevat de volgende verbeteringen:
 

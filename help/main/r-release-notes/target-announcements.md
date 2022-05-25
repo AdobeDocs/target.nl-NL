@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -14,26 +14,6 @@ ht-degree: 0%
 # Aankondigingen en gebeurtenissen van het doel
 
 Aankondigingen en informatie over aanstaande gebeurtenissen, waaronder [!DNL Adobe Target] Skill Builder-sessies, ontwikkelaarstekkers, webinars en [!DNL Target] Koffieonderbrekingssessies.
-
-## [!DNL Adobe Target] Communautaire afbreking van Q&amp;A-koffie (25 mei 2022)
-
-Brent Kostak en Drew Burns van de [!DNL Adobe Target] Het team van de Marketing van het product zal klantenvragen met betrekking tot hun gebieden van deskundigheid beantwoorden.
-
-+++klik op mij
-
-* **Woensdag 25 mei 2022**
-* **08:00 (PDT, UTC -7)**
-* **[Meer informatie en registratiegegevens](https://adobe.ly/3LbOj4G)**
-
-Klanten worden uitgenodigd om vragen te posten met betrekking tot de volgende onderwerpen die tijdens het webinar van de Personalisatie in real time 4/28/22 (toegang hieronder) zijn behandeld:
-
-* Gezamenlijk publiek maken met [!DNL Adobe Target] en Real-Time CDP
-* Het bouwen van de strategieën van de eerste-partijgegevens om de uitdagingen van de gegevensfragmentatie op te lossen
-* De werkschema&#39;s van begin tot eind voor millisecondenverpersoonlijking opstellen
-* Het leveren van relevante overseinen, inhoud, en aanbiedingen in real time om overeenkomst te drijven
-
-Kai Motoyama, Technisch ondersteunend ingenieur, zal ook op de discussielijn zitten die extra steun verleent.
-+++
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
@@ -43,13 +23,11 @@ Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Adob
 
 Leer beste praktijken bij het opvoeren van verpersoonlijkingsprogramma&#39;s op schaal. Zie hoe Dick&#39;s Sporting Goods gebruikt [!DNL Adobe Target] om topsporters en -merken te betrekken.
 
+* [Koppeling opnemen](https://video.tv.adobe.com/v/343042){target=_blank}
+
 +++klik op mij
 
-* **Donderdag 19 mei 2022**
-* **13:00 - 14:00 uur (EDT, UTC-4)**
-* **[Meer informatie en registratiegegevens](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-Word Shawn Wilkinson (eCommerce Perssonalization Manager) om te leren hoe [!DNL Target] helpt Dick&#39;s Sporting Goods gemiddelde bezoekers om te zetten in terugkerende atleten.
+Word Shawn Wilkinson (eCommerce Personalization Manager) voor meer informatie [!DNL Target] helpt Dick&#39;s Sporting Goods gemiddelde bezoekers om te zetten in terugkerende atleten.
 
 Leer hoe Dick&#39;s Sporting Goods de groei van dubbele cijfers drijft terwijl we uitpakken:
 

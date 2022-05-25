@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## Doelplatformversie (25 mei 2022)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Toegevoegd [Clienttips van gebruikersagent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) ondersteuning.
+* Probleem verholpen waarbij periodiek time-outs werden veroorzaakt tijdens het renderen [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activiteiten. (TNT-44611)
+
+## at.js versie 2.9.0 (27 mei 2022)
+
+* Toegevoegd [Clienttips van gebruikersagent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) ondersteuning.
+* Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
 ## [!DNL Target Standard/Premium] 22.5.1 (gespreide vrijgave; mei (11-13 mei 2022)
 

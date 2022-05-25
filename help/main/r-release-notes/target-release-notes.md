@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,20 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 23 mei 2022**
+**Laatst bijgewerkt: 25 mei 2022**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## at.js versie 2.9.0 (25 mei 2022)
+## Doelplatformversie (25 mei 2022)
 
-* Ondersteuning voor Client Hints voor toegevoegde gebruikersagent.
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Toegevoegd [Clienttips van gebruikersagent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) ondersteuning.
+* Probleem verholpen waarbij periodiek time-outs werden veroorzaakt tijdens het renderen [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activiteiten. (TNT-44611)
+
+## at.js versie 2.9.0 (27 mei 2022)
+
+* Toegevoegd [Clienttips van gebruikersagent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) ondersteuning.
 * Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
 ## [!DNL Target Standard/Premium] 22.5.1 (gespreide vrijgave; mei (11-13 mei 2022)

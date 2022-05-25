@@ -4,9 +4,10 @@ description: Meer informatie [!DNL Adobe Target] gebruikt de gebruiker-agent en 
 title: Gebruikersagent en clienttips
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 0%
 # Gebruiker-agent en de wenken van de Cliënt
 
 [!DNL Adobe Target] gebruikt de gebruiker-agent om bezoekers voor segmentatie en verpersoonlijking te kwalificeren.
+
+>[!NOTE]
+>
+>De informatie in dit artikel is van toepassing op [at.js versie 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (of hoger).
+
 
 Elke keer dat een webbrowser een aanvraag naar een server indient, wordt in de header van de aanvraag informatie opgenomen over de browser en de omgeving waarin de browser wordt uitgevoerd. Sinds de vroege dagen van Internet, zijn deze gegevens bijeengevoegd in één enkel koord genoemd user-agent.
 
@@ -158,11 +164,13 @@ Entropie: Lage documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/
 
 #### Sec-CH-UA-Arch
 
-Entropie: Hoge documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Audience, kenmerk: Gebruik van profielscript: `user.clientHint('sec-ch-ua-arch')`
+Entropie: Hoge documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Audience, kenmerk: Aan gebruikers beschikbaar via profielscripts.
+Gebruik van profielscript: `user.clientHint('sec-ch-ua-arch')`
 
 #### Sec-CH-UA-Bitness
 
-Entropie: Hoge documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Audience, kenmerk: Gebruik van profielscript: `user.clientHint('sec-ch-ua-bitness')`
+Entropie: Hoge documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Audience, kenmerk: Aan gebruikers beschikbaar via profielscripts.
+Gebruik van profielscript: `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-Full-Version-List
 
@@ -182,7 +190,8 @@ Entropie: Lage documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/
 
 #### Sec-CH-UA-Platform-Version
 
-Entropie: Hoge documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Audience, kenmerk: Gebruik van profielscript: `user.clientHint('sec-ch-ua-platform-version')`
+Entropie: Hoge documentatie: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Audience, kenmerk: Aan gebruikers beschikbaar via profielscripts.
+Gebruik van profielscript: `user.clientHint('sec-ch-ua-platform-version')`
 
 ## Clienttips doorgeven aan [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ Vanaf at.js 2.9.0, zullen de wenken van de Cliënt van de Agent van de Gebruiker
 ### SDK&#39;s aan serverzijde
 
 Voor meer informatie over hoe te om cliëntwenken via server-kant SDKs over te gaan, zie [Clienttips](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} in het dialoogvenster *Adobe Target SDK&#39;s* documentatie.
-
-
-
-
-
-
-
-
-
-
-
-
