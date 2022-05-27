@@ -4,7 +4,7 @@ description: Er treden conflicten op wanneer meerdere activiteiten zijn ingestel
 title: Hoe kan ik activiteitsbotsingen voorkomen?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De [!UICONTROL Collisions] de lijst helpt u:
 * Bepaal of een test al op een pagina wordt uitgevoerd voordat u een nieuwe activiteit instelt
 * Een activiteit oplossen als de verwachte inhoud niet wordt weergegeven
 
-De [!UICONTROL Collisions] lijst toont elke [!DNL Target] scenario waar mbox wordt gebruikt en dat zelfde URL gebruikt. Voor elke potentiële botsing, toont de lijst de Activiteit URL, de kadernaam waar de botsing zou kunnen voorkomen, en om het even welke activiteiten die beide criteria aanpassen. Als er meerdere vakken zijn, worden deze weergegeven.
+De [!UICONTROL Collisions] lijst toont elke [!DNL Target] scenario waar mbox wordt gebruikt en dat zelfde URL gebruikt. Voor elke potentiële botsing, toont de lijst de Activiteit URL, de mbox naam waar de botsing zou kunnen voorkomen, en om het even welke activiteiten die beide criteria aanpassen. Als er meerdere vakken zijn, worden deze weergegeven.
 
 De lijst toont de status en de prioriteit van elke potentiële botsing, samen met andere informatie. U kunt de status en de prioriteit gebruiken om u te helpen de waarschijnlijkheid bepalen van een botsing die voorkomt. Bijvoorbeeld, als er een potentiële botsing tussen twee activiteiten is en één inactief is, zal er geen daadwerkelijke botsing zijn tenzij de inactieve activiteit wordt geactiveerd. Als de potentiële botsing tussen twee levende activiteiten met de zelfde prioriteit en het zelfde publiek is, zal een botsing voorkomen. U kunt de prioriteit of de status veranderen om de botsing te verhinderen.
 
