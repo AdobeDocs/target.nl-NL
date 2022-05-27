@@ -4,9 +4,9 @@ description: Er treden conflicten op wanneer meerdere activiteiten zijn ingestel
 title: Hoe kan ik activiteitsbotsingen voorkomen?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De [!UICONTROL Collisions] op het tabblad [!UICONTROL Activity Overview] pagina 
 
 Een activiteitenbotsing komt voor wanneer de veelvoudige activiteiten opstelling zijn om inhoud aan de zelfde pagina te leveren. Als er een conflict optreedt met een activiteit, ziet u mogelijk niet de verwachte inhoud op de pagina.
 
-Als uw activiteit potentiële botsingen bevat, [!UICONTROL Collisions] is beschikbaar op de pagina met het activiteitenoverzicht. Alle activiteiten op dezelfde URL worden vermeld, ongeacht de doelgroep in elke activiteit. Open dit tabblad voor een lijst met activiteiten die mogelijk aan elkaar botsen. Klik op een activiteit in de lijst om de overzichtspagina voor die activiteit weer te geven. Als de botsing de verwachte ervaring verandert, geef de activiteit uit.
+De [!UICONTROL Collisions] is beschikbaar op de pagina van het activiteitenoverzicht en kan u informeren als uw activiteit potentiële botsingen bevat. Alle activiteiten op dezelfde URL worden vermeld, ongeacht de doelgroep in elke activiteit. Open dit tabblad voor een lijst met activiteiten die mogelijk aan elkaar botsen. Klik op een activiteit in de lijst om de overzichtspagina voor die activiteit weer te geven. Als de botsing de verwachte ervaring verandert, geef de activiteit uit.
 
 De [!UICONTROL Collisions] de lijst helpt u:
 
