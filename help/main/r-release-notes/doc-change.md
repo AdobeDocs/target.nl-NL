@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: f29d01b8851efee1ab0b412f8cba3692c68efc7b
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4055'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 25 mei | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de release van het Target-platform (25 mei 2022) en de release van at.js 2.9.0 (27 mei 2022). |
+| 31 mei | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Extra informatie over de komende [!DNL Adobe Target] Communautaire koffiepauze (29 juni 2022) |
+| 25 mei | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target] platformversie (25 mei 2022) en de release van 2.9.0.00 uur (27 mei 2022). |
 |  | [details van de at.js-versie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release at.js 2.9.0. |
 |  | [Gebruiker-agent en de wenken van de Cliënt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | Nieuw onderwerp. |
 |  | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Toegevoegde koppeling voor het opnemen van het volgende webinar: Sportgoederen van Dick: Personalisatie en het veranderende landschap in de detailhandel (19 mei 2022) |
