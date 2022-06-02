@@ -4,9 +4,9 @@ description: 'Leer hoe u een voorvertoning van uw Adobe kunt weergeven [!DNL Tar
 title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -120,17 +120,17 @@ Wijzigen [!DNL Recommendations] verzamelingen, criteria, promoties of ontwerpins
 
 Om te voorkomen dat een live activiteit wordt onderbroken, raden we u aan de volgende aanpak te volgen bij het wijzigen van een live activiteit:
 
-1. Dupliceer de activiteit en de criteria u wilt wijzigen.
-1. Breng wijzigingen aan in de gedupliceerde activiteit en criteria en wacht tot het algoritme resultaten genereert.
-1. Bekijk een voorvertoning van de nieuwe, gewijzigde activiteit en bevestig dat de resultaten naar wens zijn.
-1. Activeer de nieuwe activiteit.
-1. Deactiveer de oude activiteit.
+1. Dupliceer de oorspronkelijke activiteit (activiteit 1) en de criteria u wilt wijzigen om een nieuwe activiteit (activiteit 2) tot stand te brengen.
+1. Breng wijzigingen aan in de gedupliceerde activiteit (activiteit 2) en de criteria en wacht tot het algoritme resultaten genereert.
+1. Bekijk een voorvertoning van de nieuwe, gewijzigde activiteit (activiteit 2) en bevestig dat de resultaten naar wens zijn.
+1. Activeer de nieuwe activiteit (activiteit 2).
+1. Deactiveer de oorspronkelijke activiteit (activiteit 1).
 
 Als u historische rapporteringsresultaten in de zelfde activiteit moet behouden, is een alternatieve benadering mogelijk, die in een tijdelijke verstoring van aanbevelingen beschikbaarheid zou kunnen resulteren:
 
-1. Dupliceer de activiteit en de criteria u wilt wijzigen.
-1. Breng wijzigingen aan in de gedupliceerde activiteit en criteria en wacht tot het algoritme resultaten genereert.
-1. Bekijk een voorvertoning van de nieuwe, gewijzigde activiteit en bevestig dat de resultaten naar wens zijn.
-1. Onderbreek de bestaande activiteit en verander de montages/de criteria aan de nieuwe criteria.
-1. Geef een voorvertoning van de bestaande activiteit weer en bevestig dat de resultaten naar wens zijn.
-1. Activeer de activiteit opnieuw.
+1. Dupliceer de oorspronkelijke activiteit (activiteit 1) en de criteria u wilt wijzigen om een nieuwe activiteit (activiteit 2) tot stand te brengen.
+1. Breng wijzigingen aan in de gedupliceerde activiteit (activiteit 2) en de criteria en wacht tot het algoritme resultaten genereert.
+1. Bekijk een voorvertoning van de nieuwe, gewijzigde activiteit (activiteit 2) en bevestig dat de resultaten naar wens zijn.
+1. Pauzeer de nieuwe, gewijzigde activiteit (activiteit 2) en verander de montages/de criteria aan de originele activiteit (activiteit 1).
+1. Geef een voorvertoning weer van de oorspronkelijke activiteit (activiteit 1) en bevestig dat de resultaten naar wens zijn.
+1. De oorspronkelijke activiteit opnieuw activeren (activiteit 1).
