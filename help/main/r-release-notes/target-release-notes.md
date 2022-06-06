@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -15,44 +15,24 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 25 mei 2022**
+**Laatst bijgewerkt: 6 juni 2022**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## Doelplatformversie (25 mei 2022)
-
-Deze versie bevat de volgende verbeteringen en oplossingen:
-
-* Toegevoegd [Clienttips van gebruikersagent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) ondersteuning.
-* Probleem verholpen waarbij periodiek time-outs werden veroorzaakt tijdens het renderen [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activiteiten. (TNT-44611)
-
-## at.js versie 2.9.0 (27 mei 2022)
-
-* Toegevoegd [Clienttips van gebruikersagent](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) ondersteuning.
-* Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
-
-## [!DNL Target Standard/Premium] 22.5.1 (gespreide vrijgave; mei (11-13 mei 2022)
+## [!DNL Target Standard/Premium] 22.6.1 (gespreide vrijgave; (7-9 juni 2022)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **11 mei**: Regio Azië-Stille Oceaan (APAC)
-* **12 mei**: Amerikaanse regio
-* **13 mei**: Europa, Midden-Oosten en Afrika (EMEA)
+* **7 juni**: Regio Azië-Stille Oceaan (APAC)
+* **8 juni**: Amerikaanse regio
+* **9 juni**: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Probleem verholpen dat een JavaScript-fout veroorzaakte en sommige klanten de toegang tot de activiteitsgegevens voor bepaalde [!UICONTROL Automated Personalization] (AP) activiteiten. (TGT-43526)
-* Probleem verholpen waardoor sommige klanten geen specifieke aanbieding aan een AP-activiteit konden toevoegen (of bewerken). (TGT-43503)
-* Probleem opgelost in het dialoogvenster [!DNL Target] UI die het volgende foutenbericht toonde: &quot;Uw globale box is mogelijk niet synchroon. Probeer het opnieuw op te slaan.&quot; Dit probleem betrof een UI-probleem en had geen invloed op de implementaties van klanten. (TGT-43475)
-* Probleem verholpen waardoor één klant geen verfijningen en publiek op ervaringsniveau kon bewerken voor een activiteit als de verfijningen en het publiek vóór de nieuwe [!UICONTROL Audiences] UI is geïmplementeerd. (TGT-43433)
-* Het probleem waarbij klanten dubbele gegevens konden selecteren, is opgelost. [!DNL Adobe Audience Manager] (AAM) publiek tijdens het bewerken van het rapportagepubliek voor een activiteit. (TGT-43430)
-* Probleem verholpen waardoor klanten geen dubbel publiek konden maken, maar in verschillende werkruimten. (TGT-43423)
-* Probleem verholpen waardoor klanten geen locaties konden verwijderen die ad-hocaanbiedingen hadden in activiteiten die in het dialoogvenster [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
-* Probleem verholpen waarbij klanten geen toegang kregen tot de aangeboden code nadat ze op de aanbiedingen voor afbeeldingen hadden geklikt en de interface vervolgens hadden vernieuwd. (TGT-43566)
-* Probleem verholpen waarbij tijdens het bewerken van profielscripts het oorspronkelijke, onbewerkte script werd hersteld nadat het script was bewerkt, geactiveerd en vervolgens gedeactiveerd. Het profielscript blijft nu in de bewerkte status staan. (TGT-43249)
-* Probleem verholpen waarbij de volgende fout is opgetreden bij een poging een publiek naar een andere werkruimte te verplaatsen: &quot;We kunnen je aanvraag niet voltooien. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-43212)
-* Correctie van een fout die een fout veroorzaakte bij het klonen van aangepaste codewijzigingen voor App-pagina&#39;s (SPA) van één pagina. (TGT-43137)
-* Probleem verholpen waarbij de oorspronkelijke aanbieding werd beïnvloed nadat een ervaring was gedupliceerd en de promotie vervolgens was bewerkt. (TGT-41775)
+* Gebruikers met de [!UICONTROL Editor] de rol kan nu publiek in levende activiteiten uitgeven. (TGT-43582)
+* Een uitroepteken ( ! ) is geen geldig teken aan het begin van een publieksnaam. Er wordt nu een bericht weergegeven als een gebruiker een publiek probeert op te slaan met een uitroepteken als eerste teken (bijvoorbeeld !Londen). (TGT-43643)
+* Probleem verholpen waardoor sommige klanten niet alle kenmerken konden bewerken tijdens het bewerken van soorten publiek in het dialoogvenster [!DNL Target] UI. De [!UICONTROL Edit Audience] op de pagina wordt één kenmerk weergegeven dat u wilt bewerken, ondanks het feit dat het publiek meerdere kenmerken heeft. (TGT-43552)
+* Probleem verholpen waardoor sommige klanten geen gecombineerd publiek konden opslaan dat was veroorzaakt door het maken van &quot;lege&quot; containers in de doelgebruikersinterface. (TGT-43588)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

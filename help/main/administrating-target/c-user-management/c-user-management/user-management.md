@@ -5,9 +5,9 @@ title: Hoe kan ik gebruikers toevoegen en machtigingen beheren?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Gebruikers van systeembeheerders moeten gebruikers aan het systeem toevoegen. Ge
    | Rol | Beschrijving |
    |--- |--- |
    | Fiatteur | Kan activiteiten maken, bewerken en activeren of stoppen. |
-   | Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
+   | Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. Kan publiek in live activiteiten bewerken. |
    | Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
    | Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
 
