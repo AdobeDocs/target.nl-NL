@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4487'
+source-wordcount: '4444'
 ht-degree: 0%
 
 ---
@@ -51,18 +51,6 @@ Een probleem met de EEG verhindert momenteel dat het aanvragen van PUTTEN onders
 
 Poging om inactief te archiveren [!UICONTROL Auto-Target] activiteiten kunnen leiden tot synchronisatieproblemen. Niet archiveren totdat dit probleem is opgelost [!UICONTROL Auto-Target] activiteiten. Laat ze in de [!UICONTROL Inactive] status. (TGT-40885)
 
-### Paginalevering {#page-delivery}
-
-Als u een sjabloonregel toevoegt, zoals de URL, bevat deze regel (/checkout, /cart) in [paginalevering](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaties staan aan uw regels vooraf. Deze extra ruimten zijn cosmetisch en hebben geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
-
-### Kwaliteit van voorbeeldkoppelingen
-
-De QA-voorbeeldkoppelingen voor activiteit voor opgeslagen activiteiten worden mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Probeer de voorbeeldkoppelingen opnieuw. Opgeslagen activiteiten archiveren die niet meer actief worden gebruikt om te voorkomen dat dit probleem zich blijft voordoen. (TNT-37294)
-
-### QA-modus voor Recommendations-activiteiten
-
-Een bekend probleem voorkomt een voorvertoning als de criteria die in de activiteit worden gebruikt, op een item of categorie zijn gebaseerd. (TNT-37455)
-
 ### Aanbiedingen omleiden {#redirect}
 
 * De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) om Voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
@@ -84,14 +72,6 @@ Een bekend probleem voorkomt een voorvertoning als de criteria die in de activit
 ### Recommendations
 
 De volgende problemen zijn bekend met: [!UICONTROL Recommendations] activiteiten:
-
-* Bij het kopiëren van een [!UICONTROL Recommendation] activiteiten met een actieve promotie ; elke wijziging in de dubbele activiteit heeft momenteel ook invloed op de oorspronkelijke activiteit , en omgekeerd . (TGT-39155)
-
-   Als tijdelijke oplossing:
-
-   * Activiteitenpromoties uitschakelen
-   * De activiteit dupliceren
-   * Promoties opnieuw inschakelen in elke activiteit
 
 * Wanneer [!DNL Target] retourneert een JSON-aanbieding met getOffer(), het retourneert het type JSON. Als u echter een JSON Recommendations-ontwerp retourneert, retourneert dit met een type HTML.
 * Entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. (IRI-857)
@@ -148,10 +128,6 @@ Alle huidige pakketten Analytics kunnen dit model met Attribution IQ toevoegen. 
 
 Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch toewijzen via de v3-versie van de API voor A/B-activiteiten op Adobe I/O.
 
-### GEO-gericht
-
-Op 10 mei 2020 heeft Adobe de bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op alle Adobe-leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
-
 ### Rapportage - de Inconsistente gegevens in het downloadbare .csv- rapport versus het getoonde rapport in [!DNL Target] UI. {#csv}
 
 Rapporten die worden gegenereerd om te worden gedownload als CSV-bestanden, zijn inconsistent als de activiteit meer dan één metrische waarde gebruikt. Het downloadbare rapport wordt geproduceerd gebaseerd op de rapportmontages slechts en beschouwt de zelfde waarde voor een andere gebruikte metriek.
@@ -160,7 +136,27 @@ De bron van de waarheid is altijd het verslag dat in het [!DNL Target] UI.
 
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Aangezien de bekende problemen hierboven zijn opgelost, worden deze naar de volgende secties verplaatst. Indien nodig worden aanvullende opmerkingen toegevoegd.
+Aangezien bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties. Indien nodig worden aanvullende opmerkingen toegevoegd.
+
+### GEO-gericht
+
+Op 10 mei 2020 heeft Adobe de bestanden van de GEO-provider bijgewerkt, waardoor enkele inconsistenties zijn ontstaan. Sommige waarden met komma&#39;s zijn bijvoorbeeld toegevoegd. hoewel de waarden bij het bestaande publiek geen komma hebben . Deze wijziging had geen invloed op alle Adobe-leveringsservers. Dientengevolge hebben de kijkers die dergelijke waarden gebruiken, tussen 10 mei en 22 juli 2020 mogelijk niet alle juiste bezoekers gekwalificeerd.
+
+### Een [!UICONTROL Recommendations] activiteit
+
+Bij het kopiëren van een [!UICONTROL Recommendations] activiteiten met een actieve promotie ; elke wijziging in de dubbele activiteit heeft momenteel ook invloed op de oorspronkelijke activiteit , en omgekeerd . (TGT-39155)
+
+Dit probleem is opgelost in het dialoogvenster [!DNL Target Standard/Premium] Release 21.2.1.
+
+### QA-modus voor Recommendations-activiteiten
+
+Een bekend probleem voorkomt een voorvertoning als de criteria die in de activiteit worden gebruikt, op een item of categorie zijn gebaseerd. (TNT-37455)
+
+Dit probleem is in januari 2022 opgelost. (TNT-37455)
+
+### Paginalevering {#page-delivery}
+
+Als u een sjabloonregel toevoegt, zoals de URL, bevat deze regel (/checkout, /cart) in [paginalevering](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaties staan aan uw regels vooraf. Deze extra ruimten zijn cosmetisch en hebben geen invloed op het creëren van publieksdefinities en het aanbieden van levering. (TGT-35920)
 
 ### Aanbiedingen voor afbeeldingen met het label &quot;Verwerking&quot;
 
