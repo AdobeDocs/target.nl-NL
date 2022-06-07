@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 6 juni 2022**
+**Laatst bijgewerkt: 7 juni 2022**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target Standard/Premium] 22.6.1 (gespreide vrijgave; (7-9 juni 2022)
+## [!DNL Target Standard/Premium] Oplossingen voor klantentechnologie (gefaseerde release: (7-9 juni 2022)
 
 Deze release is beschikbaar volgens het volgende schema:
 
@@ -29,9 +29,8 @@ Deze release is beschikbaar volgens het volgende schema:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Gebruikers met de [!UICONTROL Editor] de rol kan nu publiek in levende activiteiten uitgeven. (TGT-43582)
-* Een uitroepteken ( ! ) is geen geldig teken aan het begin van een publieksnaam. Er wordt nu een bericht weergegeven als een gebruiker een publiek probeert op te slaan met een uitroepteken als eerste teken (bijvoorbeeld !Londen). (TGT-43643)
-* Probleem verholpen waardoor sommige klanten niet alle kenmerken konden bewerken tijdens het bewerken van soorten publiek in het dialoogvenster [!DNL Target] UI. De [!UICONTROL Edit Audience] op de pagina wordt één kenmerk weergegeven dat u wilt bewerken, ondanks het feit dat het publiek meerdere kenmerken heeft. (TGT-43552)
+* Gebruikers met de [!UICONTROL Editor] rol kan het publiek in live activiteiten niet meer bewerken. (TGT-43582)
+* Er is een verbetering voor de nieuwe [!UICONTROL Audiences] pagina om een inconsistente staat tussen het oude gegevensbestand te verhinderen waar het publiek in het verleden en de nieuwe architectuur werd opgeslagen die de informatie direct van het achtereind terugwint. (TGT-43552)
 * Probleem verholpen waardoor sommige klanten geen gecombineerd publiek konden opslaan dat was veroorzaakt door het maken van &quot;lege&quot; containers in de doelgebruikersinterface. (TGT-43588)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Target Standard/Premium] Oplossingen voor klantentechnologie (gefaseerde release: (7-9 juni 2022)
+
+Deze release is beschikbaar volgens het volgende schema:
+
+* **7 juni**: Regio Azië-Stille Oceaan (APAC)
+* **8 juni**: Amerikaanse regio
+* **9 juni**: Europa, Midden-Oosten en Afrika (EMEA)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Gebruikers met de [!UICONTROL Editor] rol kan het publiek in live activiteiten niet meer bewerken. (TGT-43582)
+* Er is een verbetering voor de nieuwe [!UICONTROL Audiences] pagina om een inconsistente staat tussen het oude gegevensbestand te verhinderen waar het publiek in het verleden en de nieuwe architectuur werd opgeslagen die de informatie direct van het achtereind terugwint. (TGT-43552)
+* Probleem verholpen waardoor sommige klanten geen gecombineerd publiek konden opslaan dat was veroorzaakt door het maken van &quot;lege&quot; containers in de doelgebruikersinterface. (TGT-43588)
 
 ## Doelplatformversie (25 mei 2022)
 

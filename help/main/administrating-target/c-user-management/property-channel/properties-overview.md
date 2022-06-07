@@ -5,9 +5,9 @@ title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Als u de opdracht [!DNL Target] gebruiker-toestemmingenfunctionaliteit, moet u t
    | Rol | Beschrijving |
    |--- |--- |
    | Fiatteur | Kan activiteiten maken, bewerken en activeren of stoppen. |
-   | Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. Kan publiek in live activiteiten bewerken. |
+   | Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
    | Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
    | Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
 
