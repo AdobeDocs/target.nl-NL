@@ -4,9 +4,9 @@ description: Ontdek waarom sommige websites niet betrouwbaar in Visual Experienc
 title: Hoe gebruik ik de Helper Extension Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,16 @@ De [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Met de brow
 * De website bevindt zich in een iframe.
 * De bibliotheek at.js is nog niet geïmplementeerd op de website.
 * De QA- en/of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
+* Er zijn momenteel enkele beperkingen wanneer u probeert de VEC te gebruiken om een website te openen die [Dienstverleners](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+
+SW is een Webtechnologie die kan worden gebruikt om verzoeken voor het domein te onderscheppen zij op door een Web-pagina worden geïnstalleerd. De SBW heeft het paginabezoek overleefd en activeert zichzelf bij volgende bezoeken. SW beslist welke verzoeken door gaan en welke degenen in plaats daarvan van een geheim voorgeheugen worden onderschept en worden gediend.
+
+De software kan de caching controleren; kan de webpagina zelf, statische bronnen zoals JS, CSS, IMG, AJAX aanvragen, de inhoud ervan en de antwoordheaders in cache plaatsen, inclusief de bronnen die onze [Doel VEC Helper-extensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) probeert te verwijderen, zoals X-Frame-Opties: SAMEORIGIN, CSP (Content-Security-Policy) of Set-Cookie.
+
+Helaas ontvangen de Chrome-API&#39;s die webverzoeken onderscheppen niet de aanvragen die zijn onderschept en verwerkt door een software. Daarom kan de extensie de headers en cookies niet corrigeren als het verzoek van de webpagina vanuit een cache is verzonden door een SWF-bestand, omdat de webpagina niet in de VEC wordt geladen vanwege de X-Frame-Options of CSP-headers die ook in de cache zijn geplaatst.
+
+Als potentiële oplossing, kunt u de Werknemers van de Dienst van de Hulpmiddelen van de Ontwikkelaar van Chrome onbruikbaar maken > het lusje van de Toepassing, dan om &quot;Bypass voor netwerk&quot;checkbox onder de sectie van de Werknemers van de Dienst toe te laten.
+
 * U gebruikt Google Chrome 80+ met het verbeterde beleid voor het uitvoeren van cookies van SameSite. Zie voor meer informatie [Hoe beïnvloedt het onlangs aangekondigde Google Chrome SameSite cookie handhavingsbeleid de VEC en EEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 Met de VEC Helper-browserextensie voor Chrome worden de problemen opgelost die gebruikers momenteel ondervinden bij het laden van sites [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) of extensies van derden, zoals &quot;opzichtig&quot;.

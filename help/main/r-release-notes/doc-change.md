@@ -4,7 +4,7 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4083'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | 25 februari | [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | De volgende secties zijn bijgewerkt:<ul><li>[Automatische toewijzing en automatisch doel](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatisch toewijzen](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Rapporten automatisch toewijzen interpreteren](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Nieuwe veelgestelde vragen toegevoegd:<ul><li>Zijn de &quot;Geen Winner,&quot; &quot;Winner,&quot;en &quot;ster&quot;badges beschikbaar voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics as the reporting source] (A4T)?</li></ul> |
 |  | [Een alleen-activiteitpubliek maken](/help/main/c-target/creating-activity-only-audience.md) | Toegevoegde informatie in de sectie &quot;Overwegingen&quot; waarin regels worden besproken, sluit regels uit. |
-| 10 februari | [Bekende problemen en opgeloste problemen](/help/main/r-release-notes/known-issues-resolved-issues.md) | Het volgende bekende probleem is toegevoegd:<ul><li>VEC (Visual Experience Composer) die websites met de Workers van de Dienst laadt</li></ul> |
+| 10 februari | [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Toegevoegde informatie over het laden van websites met de Werknemers van de Dienst in Visual Experience Composer (VEC). |
 | 7 februari | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze (23 februari 2022)</li></ul> |
 | 3 februari | [Soorten publiek maken](/help/main/c-target/c-audiences/audiences.md#RTCDP) | Nieuwe sectie en video toegevoegd: &quot;Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target].&quot; |
 | 2 februari | [Problemen met de levering van inhoud oplossen](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Toegevoegd: &quot;Dubbele aanhalingstekens schalen in [!DNL Target] de waarde van het profielkenmerk werkt niet zoals verwacht.&quot; |

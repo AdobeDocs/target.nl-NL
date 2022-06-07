@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '4721'
+source-wordcount: '4487'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,6 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
-
-### VEC (Visual Experience Composer) die websites met de Workers van de Dienst laadt
-
-Er zijn momenteel enkele beperkingen wanneer u probeert de VEC te gebruiken om een website te openen die [Dienstverleners](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
-
-SW is een Webtechnologie die kan worden gebruikt om verzoeken voor het domein te onderscheppen zij op door een Web-pagina worden geïnstalleerd. De SBW heeft het paginabezoek overleefd en activeert zichzelf bij volgende bezoeken. SW beslist welke verzoeken door gaan en welke degenen in plaats daarvan van een geheim voorgeheugen worden onderschept en worden gediend.
-
-De software kan de caching controleren; kan de webpagina zelf, statische bronnen zoals JS, CSS, IMG, AJAX aanvragen, de inhoud ervan en de antwoordheaders in cache plaatsen, inclusief de bronnen die onze [Doel VEC Helper-extensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) probeert te verwijderen, zoals X-Frame-Opties: SAMEORIGIN, CSP (Content-Security-Policy) of Set-Cookie.
-
-Helaas ontvangen de Chrome-API&#39;s die webverzoeken onderscheppen niet de aanvragen die zijn onderschept en verwerkt door een software. Daarom kan de extensie de headers en cookies niet corrigeren als het verzoek van de webpagina vanuit een cache is verzonden door een SWF-bestand, omdat de webpagina niet in de VEC wordt geladen vanwege de X-Frame-Options of CSP-headers die ook in de cache zijn geplaatst.
-
-Als potentiële oplossing, kunt u de Werknemers van de Dienst van de Hulpmiddelen van de Ontwikkelaar van Chrome onbruikbaar maken > het lusje van de Toepassing, dan om &quot;Bypass voor netwerk&quot;checkbox onder de sectie van de Werknemers van de Dienst toe te laten. (kB-2006)
 
 ### Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer {#ad-hoc}
 
