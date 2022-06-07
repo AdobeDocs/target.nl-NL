@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
 workflow-type: tm+mt
-source-wordcount: '4444'
+source-wordcount: '4440'
 ht-degree: 0%
 
 ---
@@ -90,15 +90,6 @@ In een MVT-activiteit is de winnaar die in de tabel en grafiek wordt weergegeven
 
 De volgende problemen zijn bekend met at.js:
 
-* Als u versies at.js vóór 2.2.0 gebruikt, rapporteert het bijhouden van klikken geen conversies in Analytics for Target (A4T) als Adobe Analytics-code niet aanwezig is op pagina-elementen (zoals knoppen). In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie om.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) als u dit probleem ondervindt.
-* Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de insteekmodule ttMeta mogelijk niet correct.
-
-   Als oplossing gebruikt u een witruimte in de ervaringsinhoud. (TNT-33366)
-
-   >[!NOTE]
-   >
-   >Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. Upgrade naar [nieuwste versie of at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) of gebruik de hierboven vermelde tijdelijke oplossing alleen voor versies van at.js die ouder zijn dan 2.2.0.
-
 * Wanneer een pagina in Visuele Composer van de Ervaring (VEC) wordt geladen, moet het Doel bepalen als globale mbox het plaatsen wordt toegelaten of onbruikbaar gemaakt en of entiteitID of categoryID aanwezig is op de plaats waar de gebruiker probeert om de aanbeveling in VEC toe te passen. Op basis van deze informatie wordt de lijst met criteria gefilterd. De standaardlijst heeft gefilterde algoritmen, maar [Compatibel selectievakje](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) Hiermee kunt u de volledige lijst met algoritmen weergeven.
 
    Als u at.js gebruikt, is het selectievakje Compatibiliteit verborgen, zodat incompatibele algoritmen niet zichtbaar zijn.
@@ -137,6 +128,18 @@ De bron van de waarheid is altijd het verslag dat in het [!DNL Target] UI.
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties. Indien nodig worden aanvullende opmerkingen toegevoegd.
+
+### at.js
+
+* Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de insteekmodule ttMeta mogelijk niet correct.
+
+   Als oplossing gebruikt u een witruimte in de ervaringsinhoud.
+
+   Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. Upgrade naar [nieuwste versie of at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) of gebruik de hierboven vermelde tijdelijke oplossing alleen voor versies van at.js die ouder zijn dan 2.2.0.  (TNT-33366)
+
+* Als u versies at.js gebruikt vóór 2.2.0, klikt u op tracking en worden geen conversies gerapporteerd in [!UICONTROL Analytics for Target] (A4T) als [!DNL Adobe Analytics] code is niet aanwezig op pagina-elementen (zoals knoppen).
+
+   In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie om.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) als u dit probleem ondervindt.
 
 ### GEO-gericht
 
