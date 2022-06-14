@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
-source-wordcount: '4077'
+source-wordcount: '4112'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,18 @@ ht-degree: 0%
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
 
+## Adobe Target Standard/Premium 22.6.1 (gefaseerde release: (7-9 juni 2022)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 14 juni | [Recommendations plannen en implementeren](/help/main/c-recommendations/plan-implement.md) | Bijgewerkte codevoorbeelden in de volgende secties:<ul><li>Winkelwagentweergaven/winkelwagentjes/afhandelingspagina&#39;s</li><li>Objecten uitsluiten die al in de winkelwagentje van de bezoeker staan</li></ul> |
+| 7 juni | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.6.1. |
+
 ## Adobe Target Standard/Premium 22.5.1 (gefaseerde release; mei (11-13 mei 2022)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 7 juni | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.6.1. |
-| 6 juni | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande informatie voor de [!DNL Target Standard/Premium] Release 22.6.1. |
+| 7 juni | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande informatie voor de [!DNL Target Standard/Premium] Release 22.6.1. |
 | 31 mei | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Extra informatie over de komende [!DNL Adobe Target] Communautaire koffiepauze (29 juni 2022) |
 | 25 mei | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target] platformversie (25 mei 2022) en de release van 2.9.0.00 uur (27 mei 2022). |
 |  | [details van de at.js-versie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informatie toegevoegd over de release at.js 2.9.0. |
