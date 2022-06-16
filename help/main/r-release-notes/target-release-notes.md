@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: c9032a8c537a7618b92996c042688a84ea9649c2
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,17 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 7 juni 2022**
+**Laatst bijgewerkt: 16 juni 2022**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target Standard/Premium] 22.6.1 (gefaseerde release: (7-9 juni 2022)
-
-Deze release is beschikbaar volgens het volgende schema:
-
-* **7 juni**: Regio Azië-Stille Oceaan (APAC)
-* **8 juni**: Amerikaanse regio
-* **9 juni**: Europa, Midden-Oosten en Afrika (EMEA)
+## [!DNL Target Standard/Premium] 22.6.2 (24 juni 2022)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Gebruikers met de [!UICONTROL Editor] rol kan het publiek in live activiteiten niet meer bewerken. (TGT-43582)
-* Er is een verbetering voor de nieuwe [!UICONTROL Audiences] pagina om een inconsistente staat tussen het oude gegevensbestand te verhinderen waar het publiek in het verleden en de nieuwe architectuur werd opgeslagen die de informatie direct van het achtereind terugwint. (TGT-43552)
-* Probleem verholpen waardoor sommige klanten geen gecombineerd publiek konden opslaan dat was veroorzaakt door het maken van &quot;lege&quot; containers in de doelgebruikersinterface. (TGT-43588)
+* Klantkenmerken die worden gedeeld door [!DNL Adobe Experience Platform] tot [!DNL Target] in de [!DNL Platform] UI is zichtbaar in [!DNL Target] UI. (TGT-43150)
+* Een waarschuwingsbericht wordt weergegeven als een klant een publiek probeert op te slaan met een uitroepteken ( ! ) als het eerste teken van de naam van het publiek (bijvoorbeeld !Londen). (TGT-43643)
+* Probleem verholpen waarbij definitiedetails voor bepaalde klanten werden veroorzaakt om aan te geven dat een beëindigde activiteit nog steeds actief is. (TGT-43527)
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
