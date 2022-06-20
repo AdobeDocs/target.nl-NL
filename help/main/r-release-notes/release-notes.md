@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Deze release is beschikbaar volgens het volgende schema:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Gebruikers met de [!UICONTROL Editor] rol kan het publiek in live activiteiten niet meer bewerken. (TGT-43582)
 * Er is een verbetering voor de nieuwe [!UICONTROL Audiences] pagina om een inconsistente staat tussen het oude gegevensbestand te verhinderen waar het publiek in het verleden en de nieuwe architectuur werd opgeslagen die de informatie direct van het achtereind terugwint. (TGT-43552)
 * Probleem verholpen waardoor sommige klanten geen gecombineerd publiek konden opslaan dat was veroorzaakt door het maken van &quot;lege&quot; containers in de doelgebruikersinterface. (TGT-43588)
 

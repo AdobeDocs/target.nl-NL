@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c9032a8c537a7618b92996c042688a84ea9649c2
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 16 juni 2022**
+**Laatst bijgewerkt: 20 juni 2022**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
@@ -23,6 +23,7 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
+* Gebruikers met de [!UICONTROL Editor] rol kan het publiek in live activiteiten niet meer bewerken. (TGT-43582)
 * Klantkenmerken die worden gedeeld door [!DNL Adobe Experience Platform] tot [!DNL Target] in de [!DNL Platform] UI is zichtbaar in [!DNL Target] UI. (TGT-43150)
 * Een waarschuwingsbericht wordt weergegeven als een klant een publiek probeert op te slaan met een uitroepteken ( ! ) als het eerste teken van de naam van het publiek (bijvoorbeeld !Londen). (TGT-43643)
 * Probleem verholpen waarbij definitiedetails voor bepaalde klanten werden veroorzaakt om aan te geven dat een beëindigde activiteit nog steeds actief is. (TGT-43527)
