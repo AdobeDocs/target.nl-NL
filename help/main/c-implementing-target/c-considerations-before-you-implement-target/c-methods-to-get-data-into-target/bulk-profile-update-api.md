@@ -5,9 +5,9 @@ title: Hoe krijg ik gegevens in [!DNL Target] De API voor updates van bulkprofie
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Deze optie lijkt op Customer Attributes met een paar verschillen:
 * Klantkenmerken gebruiken een FTP-upload terwijl de API voor het bijwerken van het doelbulkprofiel een HTTP-POST-API gebruikt.
 * De gegevens van de Attributen van de klant kunnen met Analytics worden gedeeld. Bulkprofielupdate kan alleen worden gebruikt in Doel.
 * De steun van de Attributen van de klant die tot een profiel voor een gebruikersDoel leidt heeft nog niet gezien. De API voor het bijwerken van het bulkprofiel werkt alleen bestaande doelprofielen bij.
-* Klantkenmerken vereisen het gebruik van de Experience Cloud-id (ECID). De API voor het bijwerken van een bulkprofiel vereist de TNT-id of de `mbox3rdPartyId`.
+* Klantkenmerken vereisen het gebruik van de Experience Cloud-id (ECID) en het gebruik van een bron-id, zoals de CRM-id of de Loyalty-id.
+* De API voor het bijwerken van een bulkprofiel vereist de TNT-id of de `mbox3rdPartyId`.
 * U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/).
 
 ## Indeling
