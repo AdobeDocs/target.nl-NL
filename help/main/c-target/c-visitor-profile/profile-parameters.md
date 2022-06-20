@@ -4,7 +4,7 @@ description: Meer informatie over bezoekersspecifieke kenmerken die zijn opgesla
 title: Wat zijn profielkenmerken?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
+source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
 workflow-type: tm+mt
 source-wordcount: '2387'
 ht-degree: 0%
@@ -245,7 +245,7 @@ Naar de volgende objecten en methoden kan worden verwezen door scriptprofielpara
 | --- | --- |
 | `page.url` | De huidige URL. |
 | `page.protocol` | Het protocol dat wordt gebruikt voor de pagina (http of https). |
-| `page.domain` | Het huidige URL-domein (alles vóór de eerste schuine streep). Bijvoorbeeld: `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | Het huidige URL-domein (alles vóór de eerste schuine streep). Bijvoorbeeld: `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
 | `page.query` | De queryreeks voor de huidige pagina. Alles na de &quot;?&quot;. Bijvoorbeeld: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param(‘<par_name>’)` | De waarde van de parameter die wordt aangegeven door `<par_name>`. Als de huidige URL de zoekpagina van Google is en u hebt opgegeven `page.param('hl')`, krijgt u &quot;en&quot; voor de URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Dezelfde operaties als hierboven gelden voor referentie en landing (d.w.z. referentie.url is het URL-adres van de referentie). |
