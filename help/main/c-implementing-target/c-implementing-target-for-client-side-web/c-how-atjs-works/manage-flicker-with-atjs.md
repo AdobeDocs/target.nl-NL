@@ -5,9 +5,9 @@ title: Hoe beheert at.js Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## Flicker beheren in at.js 2.x voor triggerView()
 
-Wanneer u `triggerView()` om de gerichte inhoud in uw SPA te tonen, wordt het flikkerbeheer verstrekt uit de doos. Dit betekent dat vooraf verborgen logica niet handmatig hoeft te worden toegevoegd. In plaats daarvan verbergt at at.js 2.x de locatie waar de weergave moet worden weergegeven voordat de doelinhoud wordt toegepast.
+DOM-voorverbergen is alleen van toepassing op het laden van de eerste pagina. Voor SPA wordt het DOM bijgewerkt wanneer `triggerView()` wordt aangeroepen. Er kan een korte flikkering optreden tussen het moment dat de SPA inhoud rendert naar de DOM en het moment dat updates at.js worden uitgevoerd [!DNL Target] voorstellen.  Als u flikkering wilt minimaliseren, `triggerView` Als u inhoud voor het laden van pagina&#39;s wilt wijzigen, moet &#39;triggerView&#39; worden aangeroepen zodra de pagina is gerenderd.
 
 ## Flicker beheren met getOffer() en applyOffer()
 
