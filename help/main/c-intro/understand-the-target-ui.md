@@ -1,25 +1,25 @@
 ---
-keywords: doelgebruikersinterface;gebruikersinterface;ui
-description: Verken uzelf met de gebruikersinterface en zoek naar koppelingen naar meer gedetailleerde informatie om u te helpen het beste uit Target te halen.
+keywords: doelgebruikersinterface;gebruikersinterface;ui;aankondigingen;gebeurtenissen
+description: Verken uzelf met de gebruikersinterface en zoek koppelingen naar meer gedetailleerde informatie om u te helpen het beste te halen uit [!DNL Target].
 title: Hoe gebruik ik de [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 # Begrijp het [!DNL Target] UI
 
-De gebruikersinterface is in een logische en gebruiksvriendelijke indeling gerangschikt, zodat u optimaal kunt profiteren van [!DNL Adobe Target]. Het volgende korte overzicht zal u helpen vertrouwd worden gemaakt met [!DNL Target] en biedt koppelingen naar meer uitgebreide informatie en stapsgewijze instructies.
+De gebruikersinterface is in een logische en gebruiksvriendelijke indeling gerangschikt, zodat u optimaal kunt profiteren van [!DNL Adobe Target]. Het volgende korte overzicht helpt u vertrouwd worden gemaakt met [!DNL Target] en biedt koppelingen naar meer uitgebreide informatie en stapsgewijze instructies.
 
-De koptekst boven aan het dialoogvenster [!DNL Target] UI bevat lusjes en opties om u te helpen de verschillende mogelijkheden van de oplossing navigeren, evenals schakelaarorganisaties en [!DNL Adobe Experience Cloud] oplossingen, hulp en meldingen krijgen, uw [!DNL Adobe] profiel, en logout van [!DNL Target].
+De koptekst boven aan het dialoogvenster [!DNL Target] UI bevat lusjes en opties om u te helpen de verschillende mogelijkheden van de oplossing navigeren. U kunt ook van organisatie veranderen en [!DNL Adobe Experience Cloud] oplossingen, hulp en meldingen krijgen, uw [!DNL Adobe] profiel, en logout van [!DNL Target].
 
 ![Doelkop](/help/main/c-intro/assets/target-header.png)
 
-Met de tabbladen aan de linkerkant hebt u toegang tot de verschillende mogelijkheden van [!DNL Target], die we later zullen bespreken. Laten we beginnen met de opties aan de rechterkant te bespreken voordat we in de tabbladen springen.
+Met de tabbladen aan de linkerkant hebt u toegang tot de verschillende mogelijkheden van [!DNL Target], die later wordt besproken. Laten we beginnen met de opties aan de rechterkant te bespreken voordat we in de tabbladen springen.
 
 ## Organisaties
 
@@ -37,17 +37,96 @@ Met de schakeloptie Apps hebt u snel toegang tot [!DNL Adobe Experience Cloud] o
 
 ## Help
 
-Met het Help-pictogram hebt u toegang tot informatie, video&#39;s, blogs en meer, zodat u deze functie kunt gebruiken [!DNL Target] effectiever. U kunt een ondersteuningsticket maken, telefoonnummers voor ondersteuning zoeken, vragen stellen via Twitter of feedback geven over [!DNL Target] om ons te laten weten hoe we dat doen.
+Met het Help-pictogram hebt u toegang tot informatie, video&#39;s, blogs en meer, zodat u deze functie kunt gebruiken [!DNL Target] effectiever. U kunt een ondersteuningsticket maken, telefoonnummers voor ondersteuning zoeken, vragen stellen via Twitter of feedback geven over [!DNL Target] om ons te laten weten hoe [!DNL Target] team doet het.
 
 ![Help](/help/main/c-intro/assets/help.png)
 
 ## Meldingen en aankondigingen
 
-De [!UICONTROL Notifications] en [!UICONTROL Announcements] de panelen helpen u bijgewerkt houden over alle dingen [!DNL Adobe Target]. Met pro-actieve meldingen weet u beter wat de status is van [!DNL Adobe] producten en [!DNL Adobe Experience Cloud] oplossingen. Proactieve aankondigingen waarschuwen u aan outage gebeurtenissen en onderhoudsgebeurtenissen.
+De [!UICONTROL Notifications] en [!UICONTROL Announcements] de panelen helpen u bijgewerkt houden over alle dingen [!DNL Adobe Target]. Met pro-actieve meldingen weet u beter wat de status is van [!DNL Adobe Experience Cloud] oplossingen en [!DNL Target] gebeurtenissen. Proactieve aankondigingen waarschuwen u aan outage gebeurtenissen en onderhoudsgebeurtenissen.
 
-![Meldingen](/help/main/c-intro/assets/notifications.png)
+>[!NOTE]
+>
+>De informatie over de verbeterde [!UICONTROL Notifications and Announcements] in deze sectie is momenteel van toepassing op selecteren [!DNL Target] en worden in de komende maanden aan alle klanten uitgerold.
 
-Meer gedetailleerde informatie is te vinden op de [Adobe-status](https://status.adobe.com/) pagina. Zie voor meer informatie [Systeemstatusupdates en proactieve meldingen](/help/main/c-intro/assets/notifications.png).
+Klik op het belpictogram in de koptekst om meldingen weer te geven:
+
+![Bell-pictogram voor meldingen en aankondigingen](assets/bell-icon.png)
+
+Het deelvenster bevat tabbladen voor [!UICONTROL Notifications] en [!UICONTROL Announcements].
+
+![Meldingen](assets/notifications.png)
+
+De volgende secties bevatten informatie over elk lusje, en hoe te om berichten en aankondigingen te vormen.
+
+### Meldingen
+
+[!DNL Target] gebeurtenismeldingen zijn onder meer:
+
+* **Activiteiten**: Meldingen voor alle soorten activiteiten wanneer een activiteit handmatig wordt goedgekeurd of gedeactiveerd of wanneer de begin- of einddatum wordt bereikt. Het bericht bevat de naam van de activiteit met een koppeling naar de overzichtspagina van de activiteit.
+
+   Meldingen zijn configureerbaar en worden standaard ontvangen door productbeheerders, uitgevers en fiatteurs in de werkruimte van de activiteit voor [!DNL Target Premium] rekeningen. Voor [!DNL Target Standard] accounts, meldingen worden ontvangen door alle uitgevers en fiatteurs.
+
+   Meldingen worden als de volgende voorbeelden opgemaakt:
+
+   * `Activity {target.activity.name} has been activated`
+
+   * `Activity {target.activity.name} has been deactivated`
+
+* **Profielscripts**: Meldingen wanneer een profielscript handmatig of door [!DNL Target].
+
+   Meldingen zijn configureerbaar en worden standaard door productbeheerders en fiatteurs ontvangen voor beide [!DNL Target Premium] en [!DNL Target Standard] rekeningen.
+
+   Meldingen worden als de volgende voorbeelden opgemaakt:
+
+   * `Profile Script {target.profileScript.name} has been activated`
+   * `Profile Script {target.profileScript.name} has been deactivated`
+
+* **Recommendations feeds**: Meldingen wanneer een [!DNL Recommendations] het diervoeder wordt geactiveerd of gedeactiveerd, hetzij handmatig, hetzij door [!DNL Target]. Meldingen worden ook verzonden wanneer een [!DNL Recommendations] feed mislukt.
+
+   Meldingen zijn configureerbaar en worden standaard door productbeheerders en fiatteurs ontvangen voor [!DNL Target Premium] rekeningen. [!DNL Recommendations] is een [!DNL Target Premium] en niet beschikbaar in [!DNL Target Standard].
+
+   Meldingen worden als de volgende voorbeelden opgemaakt:
+
+   * `Feed  {target.feed.name} has been activated`
+   * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed to import from source`
+
+U kunt alle meldingen markeren als gelezen of alle meldingen weergeven onder in het deelvenster.
+
+### Aankondigingen
+
+Proactieve aankondigingen waarschuwen u aan outage gebeurtenissen en onderhoudsgebeurtenissen.
+
+Meer gedetailleerde informatie is te vinden op de [Adobe-status](https://status.adobe.com/) pagina.
+
+### Meldingen en aankondigingen configureren
+
+Je berichtgevingsvoorkeuren bewerken:
+
+1. Klik op het tandwielpictogram en klik vervolgens op **[!UICONTROL Notifications]**.
+1. Onder **[!UICONTROL Target]**, klikt u op **[!UICONTROL Customize]**.
+1. Selecteer of deselecteer de categorieën waarvoor u meldingen wilt ontvangen:
+
+   * Verzoeken: Wanneer iemand u een verzoek stuurt om een object goed te keuren of om toegang tot een object te verlenen. Je kunt je abonnement op deze rubriek niet opzeggen.
+   * Toegewezen aan mij: Wanneer iemand een object aan u toewijst.
+   * Opmerkingen: Wanneer iemand u in een opmerking noemt.
+   * Nieuwe releases: Wanneer een nieuwe versie voor een product of de dienst beschikbaar is die u toegang hebt tot.
+   * Gedeeld met mij: Wanneer iemand een object met u deelt.
+   * Updates voor inhoud: Wanneer iemand een object bewerkt, verwijdert of opmerkingen maakt die u hebt gemaakt of volgt.
+   * Overige:
+
+1. Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd.
+1. Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser.
+
+   Deze waarschuwingen worden een paar seconden in de rechterbovenhoek van uw browser weergegeven. U kunt kiezen of u categorieën met hoge prioriteit, alle categorieën of alle pop-ups met meldingen wilt verbergen. U kunt ook configureren als u wilt dat de meldingen zichtbaar blijven totdat u ze sluit of u kunt de meldingsduur configureren.
+
+1. Selecteer de frequentie waarop u e-mailberichten wilt ontvangen:
+
+   * Geen e-mails verzenden
+   * Directe meldingen
+   * Dagelijks overzicht
+   * Wekelijks overzicht
 
 ## Profiel
 
@@ -59,7 +138,7 @@ Nu bespreken de lusjes langs de linkerkant van [!DNL Target] header.
 
 ## Activiteiten
 
-De **[!UICONTROL Activities]** lijst is de standaardweergave wanneer u opent [!DNL Target]. U kunt nieuwe activiteiten maken op deze pagina en bestaande activiteiten beheren.
+De **[!UICONTROL Activities]** lijst is de standaardweergave wanneer u opent [!DNL Target]. U kunt activiteiten maken op deze pagina en bestaande activiteiten beheren.
 
 ![Activiteitenlijst](/help/main/c-intro/assets/activities-list.png)
 
@@ -67,17 +146,17 @@ Zie [Activiteiten](/help/main/c-activities/activities.md) voor uitgebreide infor
 
 ## Soorten publiek
 
-Klik op de knop **[!UICONTROL Audiences]** om de [!UICONTROL Audiences] een lijst waarin u nieuwe doelgroepen kunt maken en bestaande doelgroepen kunt beheren.
+Klik op de knop **[!UICONTROL Audiences]** om de [!UICONTROL Audiences] Hier kunt u een publiek maken en bestaande soorten publiek beheren.
 
 ![Poortlijst](/help/main/c-intro/assets/audience-list.png)
 
-Een publiek is een groep van gelijkaardige activiteitendeelnemers die een gerichte activiteit zullen zien. Een publiek is een groep mensen met dezelfde kenmerken, zoals een nieuwe bezoeker, een terugkerende bezoeker of terugkerende bezoekers uit het Midwesten. De [!UICONTROL Audience] met deze functie kunt u verschillende inhoud en ervaringen op specifieke doelgroepen afstemmen om uw digitale marketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven. Als een bezoeker wordt geïdentificeerd als deel van een doelpubliek, [!DNL Target] bepaalt welke ervaring moet worden weergegeven op basis van criteria die zijn gedefinieerd tijdens het maken van activiteiten.
+Een publiek is een groep van gelijkaardige activiteitendeelnemers die een gerichte activiteit zien. Een publiek is een groep mensen met dezelfde kenmerken, zoals een nieuwe bezoeker, een terugkerende bezoeker of terugkerende bezoekers uit het Midwesten. De [!UICONTROL Audience] met deze functie kunt u verschillende inhoud en ervaringen op specifieke doelgroepen afstemmen om uw digitale marketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven. Als een bezoeker wordt geïdentificeerd als deel van een doelpubliek, [!DNL Target] bepaalt welke ervaring moet worden weergegeven op basis van criteria die zijn gedefinieerd tijdens het maken van activiteiten.
 
 Zie [Soorten publiek maken](/help/main/c-target/c-audiences/create-audience.md) voor diepgaande informatie over de publiekstypen in [!DNL Target] en meer informatie over de [!UICONTROL Audience] gebruikersinterface van de lijst.
 
 ## Aanbiedingen
 
-Klik op de knop **[!UICONTROL Offers]** om de [!UICONTROL Offers] lijst waar u nieuwe ervaringen en aanbiedingen kunt maken en bestaande ervaringen en aanbiedingen kunt beheren.
+Klik op de knop **[!UICONTROL Offers]** om de [!UICONTROL Offers] lijst waar u ervaringen en aanbiedingen kunt maken en bestaande ervaringen en aanbiedingen kunt beheren.
 
 ![Lijst met aanbiedingen](/help/main/c-intro/assets/offers.png)
 
@@ -95,7 +174,7 @@ Klik op de knop **[!UICONTROL Recommendations]** tabblad voor toegang [!DNL Targ
 
 ![Recommendations](/help/main/c-intro/assets/recommendations.png)
 
-[!UICONTROL Recommendations] de activiteiten tonen automatisch producten of inhoud die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn.
+[!UICONTROL Recommendations] de activiteiten tonen automatisch producten of inhoud die uw klanten op vorige gebruikersactiviteit of andere algoritmen zouden kunnen interesseren. Recommendations helpt klanten om relevante items die ze anders wellicht niet kennen, door te sturen.
 
 Zie [Recommendations](/help/main/c-recommendations/recommendations.md) voor uitgebreide informatie over [!UICONTROL Recommendations] in [!DNL Target] en meer informatie over de [!UICONTROL Recommendations] gebruikersinterface.
 
