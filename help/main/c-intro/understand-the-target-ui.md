@@ -4,9 +4,9 @@ description: Verken uzelf met de gebruikersinterface en zoek koppelingen naar me
 title: Hoe gebruik ik de [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,11 @@ Je berichtgevingsvoorkeuren bewerken:
    * Gedeeld met mij: Wanneer iemand een object met u deelt.
    * Updates voor inhoud: Wanneer iemand een object bewerkt, verwijdert of opmerkingen maakt die u hebt gemaakt of volgt.
    * Overige:
+
+   >[!NOTE]
+   >
+   >De &quot;Nieuwe versies&quot;en &quot;Updates op inhoud&quot; zijn de enige berichtcategorieën die van toepassing zijn op [!DNL Target]. De andere categorieën zijn van toepassing op andere Adobe oplossingen.
+
 
 1. Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd.
 1. Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser.
