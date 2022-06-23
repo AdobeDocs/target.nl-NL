@@ -5,9 +5,9 @@ title: Gebruikersagent en clienttips
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel is van toepassing op [at.js versie 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (of hoger).
+>De informatie in dit artikel is van toepassing op [at.js versie 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (of hoger).
 
 
 Elke keer dat een webbrowser een aanvraag naar een server indient, wordt in de header van de aanvraag informatie opgenomen over de browser en de omgeving waarin de browser wordt uitgevoerd. Sinds de vroege dagen van Internet, zijn deze gegevens bijeengevoegd in één enkel koord genoemd user-agent.

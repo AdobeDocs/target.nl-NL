@@ -4,9 +4,9 @@ description: Leer hoe u verzamelingen in Adobe kunt gebruiken [!DNL Target] Reco
 title: Hoe gebruik ik verzamelingen in Recommendations-activiteiten?
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
    ![Aanwijspictogrammen: bewerken, kopiëren en verwijderen](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Het &quot;aantal items&quot; dat voor elke verzameling op het [!UICONTROL Collections] lijstmening is het aantal producten die de regels voor die inzameling binnen gevormde gebrek Recommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://developer.adobe.com/target/implement/recommendations/) om de standaardgastheergroep te veranderen.
+   Het &quot;aantal items&quot; dat voor elke verzameling op het [!UICONTROL Collections] lijstmening is het aantal producten die de regels voor die inzameling binnen gevormde gebrek Recommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://developer.adobe.com/target/implement/recommendations/){target=_blank} om de standaardhostgroep te wijzigen.
 
 1. Klik op **[!UICONTROL Create Collection]**.
 

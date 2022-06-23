@@ -5,9 +5,9 @@ title: Hoe gebruik ik aangepaste entiteitskenmerken?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1400'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Zie de [Adobe Recommendations API-documentatie](https://developer.adobe.com/target/implement/recommendations/) voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
+Zie de [Adobe Recommendations API-documentatie](https://developer.adobe.com/target/implement/recommendations/){target=_blank} voor informatie over het gebruik van de API&#39;s voor leveren en opslaan van entiteiten.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 

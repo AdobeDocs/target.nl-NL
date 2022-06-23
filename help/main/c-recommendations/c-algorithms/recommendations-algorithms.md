@@ -5,9 +5,9 @@ title: Waar kan ik leren over de wetenschap achter de Recommendations-algoritmen
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ De logische stroom van de daadwerkelijke algoritmeimplementatie wordt getoond in
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Gedragsgegevens, in de vorm van weergaven en aankopen van bezoekers die bij u worden verzameld [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/) of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Invoergegevens**: Gedragsgegevens, in de vorm van weergaven en aankopen van bezoekers die bij u worden verzameld [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modeltraining**:
 
@@ -126,7 +126,7 @@ De logica van modelopleiding en het scoren stappen worden getoond in het volgend
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en algoritmen op basis van winkelwagentjes gedragsgegevens gebruiken, in de vorm van weergaven en aankopen van gebruikers die worden verzameld wanneer u [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/) of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Invoergegevens**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en algoritmen op basis van winkelwagentjes gedragsgegevens gebruiken, in de vorm van weergaven en aankopen van gebruikers die worden verzameld wanneer u [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modeltraining**:
 

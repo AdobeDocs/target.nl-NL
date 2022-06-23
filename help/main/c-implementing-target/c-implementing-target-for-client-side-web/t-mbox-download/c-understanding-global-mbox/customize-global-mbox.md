@@ -5,9 +5,9 @@ title: Hoe kan ik een globale box aanpassen?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Informatie die u helpt bij het aanpassen van een [!DNL Adobe Target] global mbox
 
 1. Implementeer de [!DNL at.js] bibliotheek op uw site.
 
-   Zie [Hoe te opstellen bij.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) voor meer informatie .
+   Zie [Hoe te opstellen bij.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank} voor meer informatie.
 
 1. Tijd de overgang met uw versie.
 

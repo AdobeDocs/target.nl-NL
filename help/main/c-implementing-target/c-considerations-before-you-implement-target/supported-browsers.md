@@ -5,9 +5,9 @@ title: Wat browsers doen [!DNL Target] Ondersteuning?
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Let op het volgende:
 * Voor [!DNL at.js] implementaties, [!DNL Target] Hiermee geeft u standaardinhoud weer in eerdere versies van Internet Explorer en mogelijk in eerdere versies van de hierboven vermelde browsers.
 * Internet Explorer behandelt alle onbekende elementen (zoals aangepaste elementen) als hetzelfde elementtype. Dientengevolge, werkt de levering niet met douaneelementen.
 * [!DNL Target] geeft standaardinhoud weer in browsers die hierboven niet worden vermeld en in browsers die [quirks, modus](https://en.wikipedia.org/wiki/Quirks_mode). at.js vereist een documenttype dat op standaardwijze teruggeeft, bijvoorbeeld: `<!DOCTYPE html>` .
-* De Adobe-leveringsinfrastructuur wordt na 12 september 2018 beveiligd om GEEN TLS 1.0-apparaten en browsers te ondersteunen. Zie [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) inzicht te krijgen in de algemene gevolgen van deze wijziging.
+* De Adobe-leveringsinfrastructuur wordt na 12 september 2018 beveiligd om GEEN TLS 1.0-apparaten en browsers te ondersteunen. Zie [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} om de algemene impact van deze wijziging te begrijpen.

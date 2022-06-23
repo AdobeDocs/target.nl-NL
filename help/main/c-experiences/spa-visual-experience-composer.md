@@ -4,9 +4,9 @@ description: Leer hoe u de SPA VEC in Adobe gebruikt [!DNL Target] om tests tot 
 title: Hoe gebruik ik Composer van de Ervaring van de Enige Pagina App Visuele (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3678'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
-1. Implementeer de nieuwste functie van at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) op uw sites.
+1. Implementeer de nieuwste functie van at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} op uw sites.
 
    Nadat u de Weergaven van uw SPA hebt gedefinieerd waar u een A/B- of XT-test wilt uitvoeren, implementeert u at.js 2.x `triggerView()` gebruiken met Weergaven die als parameter worden doorgegeven. Dit staat marketers toe om VEC te gebruiken om de tests A/B en XT voor die Gedefinieerde Kijken te ontwerpen en in werking te stellen. Als de `triggerView()` De functie wordt niet bepaald voor die Kijken, zal VEC niet de Kijken ontdekken en zo kunnen de verkopers niet VEC gebruiken om A/B en XT tests te ontwerpen en in werking te stellen.
 

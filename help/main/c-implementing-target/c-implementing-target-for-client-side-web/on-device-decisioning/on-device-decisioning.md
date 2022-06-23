@@ -5,9 +5,9 @@ title: Hoe werkt een apparaatbeslissing met de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3447'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Zie voor meer informatie [Ondersteunde functies voor apparaatbesluitvorming](htt
 
 ## Hoe werkt apparaatbesluitvorming?
 
-Wanneer u bij.js opstelt en initialiseert met toegelaten op-apparatenbesluit, een [regelartefact](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) die uw op-apparatenbesluit voor activiteiten A/B en XT, publiek, en activa omvat, wordt gedownload van dichtst Akamai CDN aan uw bezoeker en plaatselijk in het voorgeheugen ondergebracht op browser van uw bezoeker. Wanneer een verzoek van at.js wordt gedaan om een ervaring terug te winnen, wordt het besluit betreffende welke ervaring om in geheugen terug te keren wordt gemaakt, die op de meta-gegevens wordt gebaseerd in het caching regelartefact worden gecodeerd.
+Wanneer u bij.js opstelt en initialiseert met toegelaten op-apparatenbesluit, een [regelartefact](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank} die uw apparaatbeslissingen voor A/B- en XT-activiteiten, -publiek en -middelen bevat, wordt gedownload van de dichtstbijzijnde Akamai CDN naar uw bezoeker en lokaal in de browser van uw bezoeker in het cachegeheugen opgeslagen. Wanneer een verzoek van at.js wordt gedaan om een ervaring terug te winnen, wordt het besluit betreffende welke ervaring om in geheugen terug te keren wordt gemaakt, die op de meta-gegevens wordt gebaseerd in het caching regelartefact worden gecodeerd.
 
 ## Beslissingsmethode
 
@@ -222,7 +222,7 @@ Om op apparaat het besluiten toe te laten:
 
    Als u deze schakeloptie uitschakelt, moet u alle beslissingsactiviteiten op het apparaat opnieuw maken en activeren, zodat deze in het gegenereerde regelartefact kunnen worden opgenomen. Met andere woorden, elke activiteit in actieve staat voordat de [!UICONTROL On-Device Decisioning] toggle is niet opgenomen in het artefact van de regels.
 
-Nadat u het dialoogvenster [!UICONTROL On-Device Decisioning] schakelen, [!DNL Target] begint het produceren en het verspreiden [regelartefacten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) voor uw client.
+Nadat u het dialoogvenster [!UICONTROL On-Device Decisioning] schakelen, [!DNL Target] begint het produceren en het verspreiden [regelartefacten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank} voor uw client.
 
 >[!IMPORTANT]
 >
@@ -269,7 +269,7 @@ U kunt een standaard configureren [!UICONTROL Decisioning Method] voor alle [!DN
 
 ### Aangepaste instelling
 
-Als u de `decisioningMethod` in `window.targetGlobalSettings`, maar wil de `decisioningMethod` voor elke Adobe Target-beslissing kunt u deze procedure uitvoeren door `decisioningMethod` in At.js2.5.0+&#39;s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) vraag.
+Als u de `decisioningMethod` in `window.targetGlobalSettings`, maar wil de `decisioningMethod` voor elke Adobe Target-beslissing kunt u deze procedure uitvoeren door `decisioningMethod` in At.js2.5.0+&#39;s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} aanroep.
 
 ```javascript
 adobe.target.getOffers({ 

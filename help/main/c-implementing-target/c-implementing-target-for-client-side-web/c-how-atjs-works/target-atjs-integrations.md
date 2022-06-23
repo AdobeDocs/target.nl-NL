@@ -5,9 +5,9 @@ title: Welke integraties worden door at.js ondersteund?
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Neem contact op met uw accountvertegenwoordiger of consultant als u een dwingend
 | Integratie | Details |
 |--- |--- |
 | Andere tagmanagers | at.js zou met niet-Adobe markeringsbeheerplatforms moeten werken, maar ben zorgvuldig het gebruiken van de eigenschappen van de douaneintegratie die andere verkopers hebben ontwikkeld. Hun integratie zou van interne mbox.js functies afhankelijk kunnen zijn die niet meer in at.js bestaan. |
-| Externe gegevensleveranciers (bv. Demandbase, Bluekai, weer-API&#39;s) | Veel gegevensproviders van derden die worden gebruikt als aanvulling op de gebruikerprofilering van Target, kunnen worden geïntegreerd met behulp van at.js [Gegevensleveranciers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) gebruiken. |
+| Externe gegevensleveranciers (bv. Demandbase, Bluekai, weer-API&#39;s) | Veel gegevensproviders van derden die worden gebruikt als aanvulling op de gebruikerprofilering van Target, kunnen worden geïntegreerd met behulp van at.js [Gegevensleveranciers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} functie. |

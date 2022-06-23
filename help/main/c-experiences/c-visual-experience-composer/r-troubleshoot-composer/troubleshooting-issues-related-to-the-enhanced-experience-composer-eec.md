@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 
    ![](assets/firefox_more_info_3.png)
 
-1. Als u ziet dat op uw website TLS 1.0 wordt weergegeven, raadpleegt u [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) voor informatie over het TLS-ondersteuningsbeleid van Target. Om de situatie voor nu te verhelpen (geldig tot 12 september 2018), moet u [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie van TLS en het domein.
+1. Als u ziet dat op uw website TLS 1.0 wordt weergegeven, raadpleegt u [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} voor informatie over het TLS-ondersteuningsbeleid van Target. Om de situatie voor nu te verhelpen (geldig tot 12 september 2018), moet u [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie van TLS en het domein.
 
 ## Ik zie onderbrekingen of &quot;ontkende toegang&quot;fouten wanneer het laden van plaatsen met toegelaten volmacht. (alleen EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 

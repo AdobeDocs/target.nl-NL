@@ -4,9 +4,9 @@ description: Meer informatie over Adobe [!DNL Target] werken, met inbegrip van i
 title: Hoe werkt [!DNL Target] Werken?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Meer informatie [!DNL Adobe Target] werken, met inbegrip van informatie over de 
 
 [!DNL Target] integreert met websites die de [!DNL Experience Platform Web SDK] of JavaScript-bibliotheken:
 
-* **Adobe Experience Platform Web SDK:** De [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) is een nieuwe JavaScript-bibliotheek aan de clientzijde. Het Web SDK van het Experience Platform laat klanten van [!DNL Adobe Experience Cloud] in de [!DNL Experience Cloud] (inclusief [!DNL Target]via de [!DNL Experience Platform] Edge Network. Adobe beveelt aan dat alle nieuwe [!DNL Target] klanten implementeren [!DNL Experience Platform Web SDK].
+* **Adobe Experience Platform Web SDK:** De [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} is een nieuwe JavaScript-bibliotheek aan de clientzijde. Het Web SDK van het Experience Platform laat klanten van [!DNL Adobe Experience Cloud] in de [!DNL Experience Cloud] (inclusief [!DNL Target]via de [!DNL Experience Platform] Edge Network. Adobe beveelt aan dat alle nieuwe [!DNL Target] klanten implementeren [!DNL Experience Platform Web SDK].
 * **at.js:** De bibliotheek at.js is een implementatiebibliotheek voor [!DNL Target]. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Adobe raadt alle klanten die at.js gebruiken aan hun implementaties bij te werken naar de [nieuwste versie van at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 * **mbox.js:** De bibliotheek mbox.js is de oudere implementatiebibliotheek voor [!DNL Target]. De bibliotheek mbox.js wordt na 31 maart 2021 niet meer ondersteund.
 
@@ -171,7 +171,7 @@ Richtsnoeren werden gepresenteerd in een [Google Webmaster Central-blog](https:/
 
 * **302 (tijdelijke) omleidingen gebruiken**: In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan om 302 te gebruiken om het directe verkeer naar de testvariaties te leiden. De 302 omleiding vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zolang de test loopt.
 
-   Een omleiding van 302 is een omleiding aan de serverzijde, en [!DNL Target]gebruikt samen met de meeste optimalisatieproviders mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] voldoet niet volledig aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardaanpak voor het uitvoeren van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen [!DNL Target] gebruikt het JavaScript `window.location` gebruiken. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
+   Een omleiding van 302 is een omleiding aan de serverzijde, en [!DNL Target]gebruikt samen met de meeste optimalisatieproviders mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] voldoet niet volledig aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het uitvoeren van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen [!DNL Target] gebruikt het JavaScript `window.location` gebruiken. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
 
    Adobe blijft zoeken naar haalbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekprogramma&#39;s. Voor die cliënten die afzonderlijke URLs voor het testen moeten gebruiken, is Adobe zeker dat juiste implementatie van de canonieke markeringen het risico verbonden aan deze benadering verlicht.
 

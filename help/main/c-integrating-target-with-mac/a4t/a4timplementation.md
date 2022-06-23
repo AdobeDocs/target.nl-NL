@@ -4,9 +4,9 @@ description: Voer de stappen uit die nodig zijn voor het implementeren van Analy
 title: Hoe kan ik Analyses implementeren voor [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -116,9 +116,9 @@ Deze opzet heeft een mondiaal effect, wat betekent dat elke oproep van at.js **a
 }
 ```
 
-De lading kan dan aan Analytics via [API voor gegevensinvoer](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Voor auto-Wijs en auto-Doel activiteiten, moet u sessionId ook door:sturen. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) in de *Adobe Target SDK&#39;s* hulplijn.
+De lading kan dan aan Analytics via [API voor gegevensinvoer](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Voor auto-Wijs en auto-Doel activiteiten, moet u sessionId ook door:sturen. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} in het dialoogvenster *Adobe Target SDK&#39;s* hulplijn.
 
-Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, gebruikt u de functie at.js [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) door **analyticsLogging: &quot;client_side&quot;**. De analytische lading is teruggekeerd voor deze vraag slechts en [!DNL Target] backend stuurt niet de lading door aan [!DNL Analytics]. Door deze benadering na te streven, om de [!DNL Target] request retourneert standaard de payload, maar alleen wanneer gewenst en opgegeven.
+Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, gebruikt u de functie at.js [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} door in te geven **analyticsLogging: &quot;client_side&quot;**. De analytische lading is teruggekeerd voor deze vraag slechts en [!DNL Target] backend stuurt niet de lading door aan [!DNL Analytics]. Door deze benadering na te streven, om de [!DNL Target] request retourneert standaard de payload, maar alleen wanneer gewenst en opgegeven.
 
 Bijvoorbeeld:
 

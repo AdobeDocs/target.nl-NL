@@ -5,9 +5,9 @@ title: Wat zijn algemene vragen en antwoorden over at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofd
 * De onderliggende pagina is onderdeel van een [!UICONTROL Single Page Application] (SPA) of de pagina bevat elementen die verderop op op de pagina en de [!DNL at.js] Deze elementen kunnen niet worden gevonden door middel van een &#39;kiezeropiniepeilingsmechanisme&#39;. De `selectorsPollingTimeout` zou kunnen helpen. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 * Om het even welke klik-volgende metrisch probeert om aan elke pagina toe te voegen, ongeacht URL waarop metrisch opstelling was. Hoewel onschuldig, maakt deze situatie veel van deze berichten tonen.
 
-   Download en gebruik de nieuwste versie van [!DNL at.js]. Zie voor meer informatie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) en [Downloaden om.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+   Download en gebruik de nieuwste versie van [!DNL at.js]. Zie voor meer informatie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} en [Downloaden om.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 ## Wat is het domein tt.omtr dc.net dat [!DNL Target] serveraanroepen gaan naar? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ Om ervoor te zorgen dat [!DNL Target] gebruikers goed kunnen volgen en omdat de 
 
 ## In het beste geval, kunnen wij verwachten dat de gebruiker geen zichtbare gevolgen op paginading met betrekking tot het verbergen van, het vervangen van, en het tonen van inhoud ervaart? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js probeert pre-verbergen HTML BODY of andere DOM elementen voor een langere periode te vermijden, maar dit hangt van netwerkvoorwaarden en activiteitenopstelling af. at.js biedt [instellingen](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) U kunt de LICHAAM die CSS-stijl verbergt, aanpassen, zodat u in plaats van de hele HTML BODY te lekken, slechts enkele delen van de pagina kunt voorverbergen. De verwachting is dat die onderdelen DOM-elementen bevatten die &quot;gepersonaliseerd&quot; moeten worden.
+at.js probeert pre-verbergen HTML BODY of andere DOM elementen voor een langere periode te vermijden, maar dit hangt van netwerkvoorwaarden en activiteitenopstelling af. at.js biedt [instellingen](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} kunt u gebruiken om de BODY die CSS-stijl verbergt aan te passen, zodat u in plaats van de volledige HTML BODY te leegmaken, slechts enkele delen van de pagina vooraf kunt verbergen. De verwachting is dat die onderdelen DOM-elementen bevatten die &quot;gepersonaliseerd&quot; moeten worden.
 
 ## Wat is de opeenvolging van gebeurtenissen in een gemiddeld scenario waar een gebruiker voor een activiteit kwalificeert? {#section_56E6F448E901403FB77DF02F44C44452}
 

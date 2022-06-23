@@ -5,9 +5,9 @@ title: Hoe gebruik ik de functie adobe.target.applyOffers()?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Met deze functie kunt u meerdere aanbiedingen toepassen die zijn opgehaald door 
 
 >[!NOTE]
 >
->Raadpleeg de [Leverings-API-documentatie](https://developer.adobe.com/target/before-administer/) voor informatie over de acceptabele typen voor alle onderstaande velden.
+>Raadpleeg de [Leverings-API-documentatie](https://developer.adobe.com/target/before-administer/){target=_blank} voor informatie over de acceptabele typen voor alle onderstaande velden.
 
 | Veldnaam | Beschrijving |
 | --- | --- |

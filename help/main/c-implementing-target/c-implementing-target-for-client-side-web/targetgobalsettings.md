@@ -5,9 +5,9 @@ title: Hoe gebruik ik de functie targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2377'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: Boolean
 * **Standaardwaarde**: false
-* **Beschrijving**: [!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js-bibliotheek toevoegen `optinEnabled=true` instellen. In [!DNL Adobe Experience Platform] u moet &quot;toelaten&quot;van selecteren [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie de [Adobe Experience Platform-documentatie](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) voor meer informatie . Zie voor meer informatie over deze instelling in verband met privacy- en gegevensbeschermingsvoorschriften, waaronder de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR) en de California Consumer Privacy Act (CCPA) [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Beschrijving**: [!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js-bibliotheek toevoegen `optinEnabled=true` instellen. In [!DNL Adobe Experience Platform] u moet &quot;toelaten&quot;van selecteren [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie de [Adobe Experience Platform-documentatie](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} voor meer informatie. Zie voor meer informatie over deze instelling in verband met privacy- en gegevensbeschermingsvoorschriften, waaronder de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR) en de California Consumer Privacy Act (CCPA) [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ U kunt de volgende instellingen overschrijven:
 * **Standaardwaarde**: true (waar, vanaf at.js versie 1.6.2)
 * **Beschrijving**: Geeft aan of we moeten gebruiken `<clientCode>.tt.omtrdc.net` domein of `mboxedge<clusterNumber>.tt.omtrdc.net` domein.
 
-   Als deze waarde waar is, `mboxedge<clusterNumber>.tt.omtrdc.net` domein wordt opgeslagen in een cookie. Werken momenteel niet met [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) bij gebruik van at.js-versies vóór at.js 1.8.2 en at.js 2.3.1. Als dit voor u een probleem is, kunt u [bijwerken om.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) naar een nieuwere, ondersteunde versie.
+   Als deze waarde waar is, `mboxedge<clusterNumber>.tt.omtrdc.net` domein wordt opgeslagen in een cookie. Werken momenteel niet met [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank} bij gebruik van at.js-versies vóór at.js 1.8.2 en at.js 2.3.1. Als dit voor u een probleem is, kunt u [bijwerken om.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} naar een nieuwere, ondersteunde versie.
 
 ### overrideMboxEdgeServerTimeout
 

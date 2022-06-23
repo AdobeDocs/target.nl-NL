@@ -5,9 +5,9 @@ title: Hoe werk ik met Redirector?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 1. Als u verschillende bestemmingen voor één advertentie zult testen, creeer [Omleidingsvoorstellen](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) voor elke versie.
 1. Maak de campagne.
 
-   Zie [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/) voor de juiste opstelling om uw doelstellingen te ontmoeten.
+   Zie [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/){target=_blank} voor de juiste setup om uw doelen te bereiken.
 1. Voltooi de kwaliteitscontrole op de campagne.
 
    Een dummypagina maken met een `<a href>` met de Redirector-URL. Voorbeeld:

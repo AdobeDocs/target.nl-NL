@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,6 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 |  | [Soorten publiek maken](/help/main/c-target/c-audiences/audiences.md) | Extra informatie over [!DNL Adobe Experience Platform] publiek. |
 |  | [Meerdere doelgroepen combineren](/help/main/c-target/combining-multiple-audiences.md) | Extra informatie over [!DNL Adobe Experience Platform] publiek. |
 | 21 januari | [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Informatie toegevoegd over de release at.js 1.8.3. |
-| 19 januari | [Upgrade uitvoeren vanaf 0,js 1.*x* tot en met at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Toegevoegd: &quot;at.js 2.*x* biedt geen ondersteuning voor het maken van soorten publiek met behulp van vst.* parameters&quot; |
+| 19 januari | [Upgrade uitvoeren vanaf 0,js 1.*x* tot en met at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Toegevoegd: &quot;at.js 2.*x* biedt geen ondersteuning voor het maken van soorten publiek met behulp van vst.* parameters&quot; |
 | 12 januari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de doelversie Standard/Premium 22.1.1. |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Koppeling naar zelfstudie toegevoegd met instructies voor implementatie [!DNL Adobe Experience Cloud] met Web SDK. |

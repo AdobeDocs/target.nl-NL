@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] Regels voor privacy en gegevensbescherming afhand
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2225'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Als u zich vorig jaar zou voorbereiden op de Europese privacywetgeving (GDPR), z
 
 ## Adobe [!DNL Target] en [!DNL Adobe Experience Platform] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via tags in [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js bibliotheek, zou u moeten gebruiken `targetGlobalSettings` en voeg de `optinEnabled=true` instellen. In [!DNL Adobe ExperiencePlatform], selecteert u &quot;inschakelen&quot; in het menu [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) voor meer informatie .
+[!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via tags in [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js bibliotheek, zou u moeten gebruiken `targetGlobalSettings` en voeg de `optinEnabled=true` instellen. In [!DNL Adobe ExperiencePlatform], selecteert u &quot;inschakelen&quot; in het menu [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} voor meer informatie.
 
 In het volgende codefragment wordt getoond hoe u het `optinEnabled=true` instellen:
 

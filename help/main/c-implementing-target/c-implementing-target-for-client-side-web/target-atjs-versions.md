@@ -5,9 +5,9 @@ title: Wat is inbegrepen in Elke Versie van at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4557'
+source-wordcount: '4571'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Details over de wijzigingen in elke versie van het dialoogvenster [!DNL Adobe Ta
 >
 >Het team van het Doel steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert.
 >
->Tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) is de aangewezen methode om at.js te bevorderen. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Adobe Experience Platform] catalogus als upgrades. Zie voor meer informatie [Uitbreidingen upgraden](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in de *Overzicht van codes* hulplijn.
+>Tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} is de voorkeursmethode voor het upgraden van at.js. Extensieontwikkelaars voegen voortdurend nieuwe functies toe aan hun extensies en corrigeren vaak bugs. Deze updates worden verpakt in nieuwe versies van een extensie en beschikbaar gesteld in de [!DNL Adobe Experience Platform] catalogus als upgrades. Zie voor meer informatie [Uitbreidingen upgraden](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in de *Overzicht van codes* hulplijn.
 
 ## at.js versie 2.9.0 (27 mei 2022)
 
-* Toegevoegd [Clienttips van gebruikersagent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) ondersteuning.
+* Toegevoegd [Clienttips van gebruikersagent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} ondersteuning.
 * Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
 ## at.js versie 2.8.1 (28 januari 2022)
@@ -68,7 +68,7 @@ Deze release bevat de volgende wijzigingen:
 
 Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
 
-* [Apparaatbeslissingen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) ondersteuning voor at.js.
+* [Apparaatbeslissingen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank} ondersteuning voor at.js.
 * [Koppelingen voorvertonen](/help/main/c-activities/c-activity-qa/activity-qa.md) ondersteuning van Automated Personalization-activiteiten
 
 Deze release verwijdert ook ondersteuning voor Microsoft Internet Explorer 10 en hoger.
@@ -117,7 +117,7 @@ Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringe
 
 Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:
 
-* Ondersteuning voor het instellen van Content Security Policy-nonces op SCRIPT- en STYLE-tags die aan het pagina-DOM zijn toegevoegd bij het toepassen van geleverde Target-aanbiedingen. Klanten kunnen instellen `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce` zodat at.js het overeenkomstige script en de stijlmarkering nonces op toegepaste aanbiedingen kan plaatsen. Zie  [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) voor meer informatie .
+* Ondersteuning voor het instellen van Content Security Policy-nonces op SCRIPT- en STYLE-tags die aan het pagina-DOM zijn toegevoegd bij het toepassen van geleverde Target-aanbiedingen. Klanten kunnen instellen `targetGlobalSettings.cspScriptNonce` en `targetGlobalSettings.cspStyleNonce` zodat at.js het overeenkomstige script en de stijlmarkering nonces op toegepaste aanbiedingen kan plaatsen. Zie  [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} voor meer informatie.
 * Probleem verholpen bij het compileren van at.js met de Google-compiler voor de implementatie van Google-tagbeheer.
 * De naam van het selectievakje at.js is gewijzigd in `check` tot `at_check` om botsingen met de implementaties van klanten te vermijden.
 
@@ -231,17 +231,17 @@ De volgende functies zijn vervangen door de introductie van at.js 2.x:
 * mboxDefine
 * registerExtension()
 
-Zie voor meer informatie [Bijwerken van at.js 1.x naar at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) en [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+Zie voor meer informatie [Bijwerken van at.js 1.x naar at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} en [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 
 >[!NOTE]
 >
->Als u Adobe Opt-in-ondersteuning nodig hebt voor de [Algemene verordening inzake gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR), moet u momenteel gebruiken om .js 1.7.0 of om.js 2.1.0 te gebruiken.
+>Als u Adobe Opt-in-ondersteuning nodig hebt voor de [Algemene verordening inzake gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR), moet u momenteel gebruiken om 0.js 1.7.0 of om 0.js 2.1.0.
 
 ## at.js versie 1.7.0 {#at-js-170}
 
 at.js 1.7.0 biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.
 
-Voor meer informatie over Adobe Opt-in, zie [Privacy en algemene gegevensbeschermingsverordening](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR).
+Voor meer informatie over Adobe Opt-in, zie [Privacy en algemene gegevensbeschermingsverordening](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR).
 
 Deze versie verhelpt ook een probleem waarbij Doel URL-parameters omleiden kan negeren met parameters die afkomstig zijn van de omleidings-URL.
 

@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Toegevoegd [Clienttips van gebruikersagent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) ondersteuning.
+* Toegevoegd [Clienttips van gebruikersagent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} ondersteuning.
 * Probleem verholpen waarbij periodiek time-outs werden veroorzaakt tijdens het renderen [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activiteiten. (TNT-44611)
 
 ## at.js versie 2.9.0 (27 mei 2022)
 
-* Toegevoegd [Clienttips van gebruikersagent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) ondersteuning.
+* Toegevoegd [Clienttips van gebruikersagent](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} ondersteuning.
 * Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
 ## Aanvullende opmerkingen bij de release en versiedetails

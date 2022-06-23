@@ -4,9 +4,9 @@ description: Leer hoe te om off-line gegevens, zoals de informatie van CRM te up
 title: Hoe kan ik gegevens voor de algoritmen van de Personalisatie uploaden?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescores, kunnen ongelooflijk waardevol zijn wanneer u modellen voor personalisatie ontwikkelt in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activiteiten.
 
-Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] personalisatiealgoritmen. Naast de methoden in [Methoden om gegevens op te halen in doel](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), Experience Cloud delen het publiek (Adobe Analytics, Audience Management) en het publiek dat actief rapporteert, worden ook in onze algoritmen gebruikt.
+Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] personalisatiealgoritmen. Naast de methoden in [Methoden om gegevens op te halen in doel](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), Experience Cloud wordt het gedeelde publiek (Adobe Analytics, het Beheer van het Publiek) {target=_blank} en het in-activity rapporteringspubliek ook gebruikt in onze algoritmen.
 
 Voor informatie over de gegevens die automatisch worden verzameld en gebruikt door Automated Personalization en Auto-Target verpersoonlijkingsalgoritmen, zie [Automated Personalization-gegevensverzameling](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

@@ -5,9 +5,9 @@ title: Hoe maak ik een Adbox voor een afbeelding?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Voor hulp bij het selecteren van de juiste setup raadpleegt u [Implementaties di
 
 1. Maak de activiteit.
 
-   Zie [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/) voor de juiste opstelling om uw doelstellingen te ontmoeten.
+   Zie [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/){target=_blank} voor de juiste instelling om uw doelen te bereiken.
 1. Volledige kwaliteitscontrole op de activiteit.
 
    Als beste praktijken, creeer een dummypagina en verifieer dat alle ervaringen, standaardinhoud, en rapporten zoals verwacht op alle browser types, voor al uw milieu&#39;s handelen.

@@ -5,9 +5,9 @@ title: Welke functies worden ondersteund in een beslissing op het apparaat
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-Nochtans, als u geen IP-aan-Geo raadplegingen op uw server kunt uitvoeren, maar u nog wilt op-apparatenbesluit voor uitvoeren [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) aanvragen die op geo gebaseerde doelgroepen bevatten, wordt dit ook ondersteund. Het nadeel van deze benadering is dat het een verre IP-aan-Geo raadpleging gebruikt, die latentie aan elk toevoegt `getOffers` vraag. Deze latentie moet lager zijn dan een `getOffers` vraag met server-zijbesluit, omdat het een CDN raakt die dicht bij uw server wordt gevestigd. Geef alleen het veld &quot;ipAddress&quot; in het Geo-object op in de context van uw verzoek aan de SDK om de geolocatie van het IP-adres van uw bezoeker op te halen. Als een ander gebied naast &quot;ipAddress&quot;wordt verstrekt, [!DNL Target] SDK haalt de metagegevens voor de geolocatie niet op voor oplossing.
+Nochtans, als u geen IP-aan-Geo raadplegingen op uw server kunt uitvoeren, maar u nog wilt op-apparatenbesluit voor uitvoeren [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} -aanvragen die op geo gebaseerde soorten publiek bevatten, wordt dit ook ondersteund. Het nadeel van deze benadering is dat het een verre IP-aan-Geo raadpleging gebruikt, die latentie aan elk toevoegt `getOffers` vraag. Deze latentie moet lager zijn dan een `getOffers` vraag met server-zijbesluit, omdat het een CDN raakt die dicht bij uw server wordt gevestigd. Geef alleen het veld &quot;ipAddress&quot; in het Geo-object op in de context van uw verzoek aan de SDK om de geolocatie van het IP-adres van uw bezoeker op te halen. Als een ander gebied naast &quot;ipAddress&quot;wordt verstrekt, [!DNL Target] SDK haalt de metagegevens voor de geolocatie niet op voor oplossing.
 
 ```javascript
 window.adobe.target.getOffers({ 

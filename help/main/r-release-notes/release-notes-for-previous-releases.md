@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '33674'
+source-wordcount: '33686'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenumme
 
 De nieuwe [!DNL Adobe Target] Python SDK met mogelijkheden voor het bepalen van apparaten is nu beschikbaar. Deze nieuwste toevoeging versterkt de [!DNL Target] suite SDK&#39;s aan serverzijde. Met deze SDK&#39;s kunt u integreren [!DNL Target] en versnelt u de waardetijd in de taal van uw keuze. Integraties aan de serverzijde worden een populaire keuze, aangezien de markt verschuift naar een wereld zonder cookie waarin gegevens van de eerste partij waardevol zijn. DoelSDK&#39;s zijn beschikbaar in de populairste programmeertalen op de markt (Python, Java, JavaScript, C# / .Net).
 
-Zie voor meer informatie de [Python SDK-documentatie](https://developer.adobe.com/target/implement/server-side/python/) in de [Adobe Target Developer Guide](https://developer.adobe.com/target/).
+Zie voor meer informatie de [Python SDK-documentatie](https://developer.adobe.com/target/implement/server-side/python/){target=_blank} in het dialoogvenster [Adobe Target Developer Guide](https://developer.adobe.com/target/).
 
 ### Target Standard/Premium 21.5.1 (7 juni 2021)
 
@@ -287,7 +287,7 @@ Deze release van de [!DNL Platform Web SDK] omvat ondersteuning voor:
 
 Deze versie van at.js bevat de volgende verbeteringen en wijzigingen:
 
-* [Apparaatbeslissingen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) ondersteuning voor at.js.
+* [Apparaatbeslissingen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank} ondersteuning voor at.js.
 * [Koppelingen voorvertonen](/help/main/c-activities/c-activity-qa/activity-qa.md) ondersteuning van Automated Personalization-activiteiten
 
 Deze release verwijdert ook ondersteuning voor Microsoft Internet Explorer 10, Internet Explorer 11 en alle oudere versies. Microsoft Edge wordt nog steeds ondersteund in om.js 2.5.0 en hoger.
@@ -372,7 +372,7 @@ Deze release bevat de volgende nieuwe functies:
 
 | Functie | Details |
 | --- | --- |
-| Apparaatbeslissingen | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie vanuit het apparaat van de gebruiker, via kanalen, met een bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid.<br>Door op het apparaat te beslissen kunt u belangrijke personalisatie- en experimenteringsinstructies in A/B Test and Experience Targeting (XT) activiteitstypen compileren in &quot;optimalisatieartefacten:&quot;JSON voorwerpen die op klantenapparaten via CDN worden geladen. En omdat beslissingen op het apparaat native verbinding maken met [!DNL Adobe Experience Cloud] producten, [!DNL Target] gebruikers krijgen een snelle analyse en snellere ervaringen.<br>Zie * voor meer informatie[Apparaatbeslissingen voor at.js](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) en [Inleiding tot apparaatbeslissingen](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank} voor server-side. |
+| Apparaatbeslissingen | Bij beslissingen op het apparaat kunnen zowel marketers als productontwikkelaars experimenteren en op machinaal leren gebaseerde personalisatie vanuit het apparaat van de gebruiker, via kanalen, met een bijna-nullatentie.<br>De snelheid en de prestaties zaken-in klanteninzichten en gebruikerstevredenheid.<br>Door op het apparaat te beslissen kunt u belangrijke personalisatie- en experimenteringsinstructies in A/B Test and Experience Targeting (XT) activiteitstypen compileren in &quot;optimalisatieartefacten:&quot;JSON voorwerpen die op klantenapparaten via CDN worden geladen. En omdat beslissingen op het apparaat native verbinding maken met [!DNL Adobe Experience Cloud] producten, [!DNL Target] gebruikers krijgen een snelle analyse en snellere ervaringen.<br>Zie * voor meer informatie[Apparaatbeslissingen voor at.js](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank} en [Inleiding tot apparaatbeslissingen](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank} voor server-side. |
 
 Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
@@ -875,8 +875,8 @@ Dit is een onderhoudrelease met de volgende oplossing:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| at.js versie 2.0.0<br>19 februari 2019 | at.js 2.x is nu beschikbaar.<br>De nieuwste versie van at.js verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende generatie cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).<br>Hier volgen enkele voordelen van het gebruik van at.js 2.x die niet beschikbaar zijn in eerdere versies:<ul><li>De capaciteit om alle aanbiedingen op paginading in het voorgeheugen onder te brengen om veelvoudige servervraag aan één enkele servervraag te verminderen.</li><li>Verbeter de ervaringen van uw eindgebruikers op uw site aanzienlijk, omdat aanbiedingen direct via het cachegeheugen worden weergegeven zonder vertraging die traditionele serveraanroepen introduceren.</li><li>Eenvoudige one-line van code en éénmalige ontwikkelaarsopstelling om uw marketers toe te laten om A/B en de activiteiten van de Ervaring (XT) via Visual Experience Composer (VEC) op uw enige paginatoepassingen tot stand te brengen en in werking te stellen.</li></ul>at.js 2.x introduceert de volgende nieuwe functies:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>De volgende functies zijn vervangen door de introductie van at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Zie voor meer informatie [Bijwerken van at.js 1.x naar at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) en [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).<br>**Opmerking**: Als u Adobe Opt-in-ondersteuning nodig hebt voor de [Algemene verordening inzake gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR), moet u momenteel gebruiken om .js 1.7.0 te gebruiken. Ondersteuning voor aanmelden wordt niet ondersteund in at.js 2.x. |
-| at.js versie 1.7.0<br>14 februari 2019 | om.js 1.7.0 is beschikbaar.<br>Deze release biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.<br>Voor meer informatie over Adobe Opt-in, zie [Privacy en algemene gegevensbeschermingsverordening](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR).<br>Deze versie verhelpt ook een probleem waarbij Doel URL-parameters omleiden kan negeren met parameters die afkomstig zijn van de omleidings-URL.<br>**Opmerking**: Als u ondersteuning voor Adobe Opt-in voor GDPR nodig hebt, moet u momenteel at.js 1.7.0 gebruiken. Ondersteuning voor aanmelden wordt niet ondersteund in at.js 2.x.<br>Voor een lijst met alle versies raadpleegt u [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| at.js versie 2.0.0<br>19 februari 2019 | at.js 2.x is nu beschikbaar.<br>De nieuwste versie van at.js verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende generatie cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).<br>Hier volgen enkele voordelen van het gebruik van at.js 2.x die niet beschikbaar zijn in eerdere versies:<ul><li>De capaciteit om alle aanbiedingen op paginading in het voorgeheugen onder te brengen om veelvoudige servervraag aan één enkele servervraag te verminderen.</li><li>Verbeter de ervaringen van uw eindgebruikers op uw site aanzienlijk, omdat aanbiedingen direct via het cachegeheugen worden weergegeven zonder vertraging die traditionele serveraanroepen introduceren.</li><li>Eenvoudige one-line van code en éénmalige ontwikkelaarsopstelling om uw marketers toe te laten om A/B en de activiteiten van de Ervaring (XT) via Visual Experience Composer (VEC) op uw enige paginatoepassingen tot stand te brengen en in werking te stellen.</li></ul>at.js 2.x introduceert de volgende nieuwe functies:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>De volgende functies zijn vervangen door de introductie van at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Zie voor meer informatie [Bijwerken van at.js 1.x naar at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} en [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).<br>**Opmerking**: Als u Adobe Opt-in-ondersteuning nodig hebt voor de [Algemene verordening inzake gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR), moet u momenteel gebruiken om 0.js 1.7.0. Ondersteuning voor aanmelden wordt niet ondersteund in at.js 2.x. |
+| at.js versie 1.7.0<br>14 februari 2019 | om.js 1.7.0 is beschikbaar.<br>Deze release biedt ondersteuning voor Adobe Opt-In. Adobe Opt-In is een manier om de integratie van Adobe-oplossingen met toestemmingsbeheerplatforms te vereenvoudigen.<br>Voor meer informatie over Adobe Opt-in, zie [Privacy en algemene gegevensbeschermingsverordening](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR).<br>Deze versie verhelpt ook een probleem waarbij Doel URL-parameters omleiden kan negeren met parameters die afkomstig zijn van de omleidings-URL.<br>**Opmerking**: Als u ondersteuning voor Adobe Opt-in voor GDPR nodig hebt, moet u momenteel at.js 1.7.0 gebruiken. Ondersteuning voor aanmelden wordt niet ondersteund in at.js 2.x.<br>Voor een lijst met alle versies raadpleegt u [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (19 februari 2019) {#target-19-2-1}
 
@@ -3489,7 +3489,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze release bevat de volgende oplossingen:
 
 * Voor Analytics voor op Doel gebaseerde activiteiten, zijn de Lift en de kolommen van het Vertrouwen nu verborgen voor de metriek van de Analyse waar de berekeningen niet kunnen worden uitgevoerd.
-* Probleem verholpen waarbij de korte indeling van de `charset` metatag is niet herkend in de Enhanced Experience Composer
+* Probleem verholpen waarbij de korte indeling van het `charset` metatag is niet herkend in de Enhanced Experience Composer
 
 **Bekende problemen**
 

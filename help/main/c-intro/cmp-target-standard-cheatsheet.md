@@ -4,9 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Kijk uit de [Doelforum van de Gemeenschap](/help/main/cmp-resources-and-contact-
 
 **Welke browsers worden door het doel ondersteund?**
 
-Lees onze [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/) matrix voor meer details. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
+Lees onze [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank} matrix voor meer informatie. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
 
 ## Activiteiten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 

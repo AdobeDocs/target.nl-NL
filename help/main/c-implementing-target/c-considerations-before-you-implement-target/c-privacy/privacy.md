@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] Privacyproblemen verwerken?
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -68,4 +68,4 @@ Zelfs als u een eersteklas cookie-implementatie gebruikt, wordt de opgegeven opt
 
 ## Regels inzake privacy en gegevensbescherming
 
-Zie [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) voor meer informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+Zie [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} voor informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.

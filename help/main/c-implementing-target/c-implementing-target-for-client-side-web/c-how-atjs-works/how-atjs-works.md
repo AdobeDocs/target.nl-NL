@@ -5,9 +5,9 @@ title: Hoe werkt de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1136'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ In de [!DNL Target] hieronder weergegeven, de volgende [!DNL Adobe Experience Cl
 
 ## Wat is het verschil tussen at.js 1.*x* en werkstroomdiagrammen bij .js 2.x?
 
-Zie [Bijwerken van at.js 1.x naar at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) voor meer informatie over de verschillen die in 2.O van 1 werden ingevoerd.*x*.
+Zie [Bijwerken van at.js 1.x naar at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} voor meer informatie over de verschillen die zijn geïntroduceerd in 2.O vanaf 1.*x*.
 
 Vanuit een weergave op hoog niveau zijn er enkele verschillen tussen de twee versies:
 

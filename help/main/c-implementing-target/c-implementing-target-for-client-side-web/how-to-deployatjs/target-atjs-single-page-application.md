@@ -5,9 +5,9 @@ title: Kan ik implementeren [!DNL Target] voor Single Page Applications (SPA)?
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2787'
 ht-degree: 1%
 
 ---
@@ -233,7 +233,7 @@ Als beste praktijken met betrekking tot SPA:
 * Een aangepaste gebeurtenis activeren voordat de weergave begint met renderen
 * Een aangepaste gebeurtenis activeren wanneer de weergave is voltooid
 
-at.js 2.x heeft een nieuwe API toegevoegd [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) functie. U moet `triggerView()` om at.js te laten weten dat een weergave begint met renderen.
+at.js 2.x heeft een nieuwe API toegevoegd [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} functie. U moet `triggerView()` om at.js te laten weten dat een weergave begint met renderen.
 
 Een voorbeeld bekijken om te zien hoe u aangepaste gebeurtenissen, in.js 2.x en Analytics kunt combineren. In dit voorbeeld wordt ervan uitgegaan dat de pagina HTML de Bezoeker-API bevat, gevolgd door at.js 2.x, gevolgd door AppMeasurement.
 

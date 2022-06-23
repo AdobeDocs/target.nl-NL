@@ -5,9 +5,9 @@ title: Wat zijn gastheren en hoe gebruik ik ze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Indien een [!DNL Target] het verzoek wordt gemaakt op een onbevoegde gastheer, b
 
 >[!IMPORTANT]
 >
->**Aanbevolen werkwijzen voor beveiliging**: Als u de functionaliteit van het selectievakje [!DNL Target], controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [directeuren](https://developer.adobe.com/target/implement/email/working-with-redirectors/) kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd is, [!DNL Adobe] kan de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke omleiding door kwaadwillende gebruikers.
+>**Aanbevolen werkwijzen voor beveiliging**: Als u de functionaliteit van het selectievakje [!DNL Target], controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [directeuren](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd is, [!DNL Adobe] kan de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke omleiding door kwaadwillende gebruikers.
 >
 >De lijst van gewenste personen heeft voorrang op omgevingen. Wis uit alle gastheren alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 

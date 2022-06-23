@@ -5,9 +5,9 @@ title: Hoe beheert at.js Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Er wordt geflikkerd als de standaardinhoud tijdelijk aan bezoekers wordt weergeg
 
 ## Een automatisch gemaakte globale mbox gebruiken {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Als u de optie [Globale box automatisch maken](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) Als u instelt bij het configureren van at.js, beheert at.js flikkering door de instelling voor dekking te wijzigen terwijl de pagina wordt geladen. Wanneer at.js laadt, wijzigt dit de dekkingsinstelling van het gereedschap `<body>` element aan &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
+Als u de optie [Globale box automatisch maken](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/)De instelling {target=_blank} wordt tijdens het configureren van at.js bij .js beheerd met flikkering door de instelling voor dekking te wijzigen terwijl de pagina wordt geladen. Wanneer at.js laadt, wijzigt dit de dekkingsinstelling van het gereedschap `<body>` element aan &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
 
 Als u de instelling inschakelt tijdens het configureren van at.js, stelt at.js de dekking van de HTML BODY-stijl in op 0. Nadat een reactie van Doel wordt ontvangen, stelt at.js HTML BODY opaciteit aan 1 terug.
 

@@ -5,9 +5,9 @@ title: Wat worden vaak gestelde vragen over Global mbox?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Er wordt slechts één globale box ondersteund voor uw account.
 
 U kunt beperken waar uw activiteiten lopen door URL-regels aan uw activiteiten toe te voegen. Zie voor meer informatie [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-U kunt ook een parameter op de pagina doorgeven met [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/) en selecteer vervolgens de parameters in de sectie &quot;URL configureren&quot; in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) of door de parameters toe te voegen als &quot;verfijningen&quot; in de Form-Based Experience Composer.
+U kunt ook een parameter op de pagina doorgeven met [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} en selecteer vervolgens de parameters in de sectie &quot;URL configureren&quot; in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) of door de parameters toe te voegen als &quot;verfijningen&quot; in de Form-Based Experience Composer.
 
 ## Hoe kan ik inkomstengegevens doorgeven aan een [!DNL Target] globale mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 

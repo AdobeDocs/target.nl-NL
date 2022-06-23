@@ -5,9 +5,9 @@ title: Hoe werk ik bij van versie 1.js naar versie 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Nu, waar dan ook `triggerView()` wordt geïmplementeerd op uw SPA, worden de wee
 
 ## Implementeer om.js 2.*x* {#deploy-atjs-200}
 
-1. Implementeer om.js 2.*x* via tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) extensie.
+1. Implementeer om.js 2.*x* via tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} extensie.
 
    >[!NOTE]
    >
@@ -368,7 +368,7 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met versch
 | [!DNL Adobe Experience Platform] extension | [Ja](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | Foutopsporing | Ja |
 | Auditor | De regels zijn nog niet bijgewerkt voor om.js 2.*x* |
-| Inschakelen | Nee. Ondersteuning voor Inschakelen voor [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) wordt ondersteund in [at.js versie 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| Inschakelen | Nee. Ondersteuning voor Inschakelen voor [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} wordt ondersteund in [at.js versie 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 | AEM verbeterde personalisatie door Adobe Target | Nee |
 
 ### Functies
