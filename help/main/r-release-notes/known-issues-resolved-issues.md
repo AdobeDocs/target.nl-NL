@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '4440'
+source-wordcount: '4454'
 ht-degree: 0%
 
 ---
@@ -135,11 +135,11 @@ Aangezien bekende problemen hierboven zijn opgelost, worden ze verplaatst naar d
 
    Als oplossing gebruikt u een witruimte in de ervaringsinhoud.
 
-   Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. Upgrade naar [nieuwste versie of at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) of gebruik de hierboven vermelde tijdelijke oplossing alleen voor versies van at.js die ouder zijn dan 2.2.0.  (TNT-33366)
+   Een oplossing voor dit probleem is opgenomen in at.js 2.2.0. Upgrade naar [nieuwste versie of at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) of gebruik de hierboven vermelde tijdelijke oplossing alleen voor versies van at.js die ouder zijn dan 2.2.0.  (TNT-33366)
 
 * Als u versies at.js gebruikt vóór 2.2.0, klikt u op tracking en worden geen conversies gerapporteerd in [!UICONTROL Analytics for Target] (A4T) als [!DNL Adobe Analytics] code is niet aanwezig op pagina-elementen (zoals knoppen).
 
-   In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie om.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) als u dit probleem ondervindt.
+   In 0.js 2.2.0 is een oplossing voor dit probleem geïntroduceerd. [Voer een upgrade uit naar de nieuwste versie om.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) als u dit probleem ondervindt.
 
 ### GEO-gericht
 

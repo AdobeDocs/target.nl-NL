@@ -5,9 +5,9 @@ title: Hoe geef ik Parameters aan een Globale doos door?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De code die de JavaScript-functie moet aanroepen, moet vóór het globale vakje 
 
 >[!NOTE]
 >
->Als u parameters wilt toevoegen aan alle vakken op de pagina en niet alleen aan de globale box, gebruikt u de optie [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) functie.
+>Als u parameters wilt toevoegen aan alle vakken op de pagina en niet alleen aan de globale box, gebruikt u de optie [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/) functie.
 
 U kunt parameters doorgeven aan `target-global-mbox` met de `targetPageParams()` op een van de volgende manieren te werken:
 

@@ -5,9 +5,9 @@ title: Hoe kan ik overstappen van verouderde API's naar Adobe I/O?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Informatie die u helpt bij het gebruik van de overgang van de verouderde API&#39
 
 Met de buitenbedrijfstelling van Adobe Target Classic zijn de API&#39;s die zijn verbonden met uw Target Classic-account ook niet beschikbaar. Dit document helpt u bij de overgang van uw verouderde API-gebaseerde integratie naar de doel-API&#39;s die worden aangedreven door Adobe I/O.
 
-Zie voor meer informatie over de documentatie van de doel-API [Doel-API&#39;s en NodeJS-SDK](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Zie voor meer informatie over de documentatie van de doel-API [Doel-API&#39;s en NodeJS-SDK](https://developer.adobe.com/target/implement/server-side/).
 
 ## Terminologie {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
@@ -42,7 +42,7 @@ Recommendations Classic API&#39;s worden niet beïnvloed door deze tijdlijn.
 
 De volgende tabel bevat een lijst met equivalente nieuwe doel-API-methoden voor de oudere API-methoden. De nieuwe API&#39;s retourneren JSON in vergelijking met de XML-respons van de verouderde API&#39;s.
 
-De nieuwe API-methoden zijn gekoppeld aan de corresponderende sectie in de API-documentatiesite. Voor elke API-methode wordt een voorbeeld gegeven. U kunt de Inzameling Admin Postman ook gebruiken die steekproefAPI vraag voor alle nieuwe Adobe API methodes op Adobe I/O bevat.
+De nieuwe API-methoden zijn gekoppeld aan de corresponderende sectie in de API-documentatiesite. Voor elke API-methode wordt een voorbeeld gegeven. U kunt ook de Admin Postman Collection gebruiken die steekproefAPI vraag voor alle nieuwe Adobe API methodes op Adobe I/O bevat.
 
 | Groepering | Oudere API-methode | Nieuwe API-methode | Notities |
 |--- |--- |--- |--- |

@@ -5,9 +5,9 @@ title: Hoe gebruik ik de functie mboxCreate()?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Deze functie is ingebouwd in [!DNL at.js] vooral om de overgang van [!DNL mbox.j
 
 `mboxCreate()` gebruikt nu het &quot;json&quot;eindpunt in plaats van het &quot;standaard&quot;eindpunt en brand asynchroon. Daarom:
 
-* [Foutopsporing](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) is iets anders.
+* [Foutopsporing](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/) is iets anders.
 * Vermijd aanbiedingscode die synchrone, blokkerende vraag vereist.
 
    Bijvoorbeeld, aanbiedingen die variabelen plaatsen JavaScript die door plaatscode of andere dozen worden gebruikt die later op de pagina komen.

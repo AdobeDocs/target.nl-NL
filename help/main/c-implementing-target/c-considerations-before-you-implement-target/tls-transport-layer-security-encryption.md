@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] TLS gebruiken om beveiliging te bieden?
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Overweeg het volgende terwijl u deze wijziging wilt uitvoeren (de deadline van 1
 * Houd er rekening mee dat het aantal bezoekers in uw doelrapporten mogelijk een onbeduidende daling van het aantal bezoekers kan zien.
 * Mogelijk moet u het publiek wijzigen dat specifiek is gemaakt voor oudere apparaten of browsers die geen TLS 1.2 ondersteunen. Levering aan deze apparaten en browsers werkt niet meer.
 
-Voor meer informatie over ondersteunde browsers en hun versies raadpleegt u [Ondersteunde browsers](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Voor meer informatie over ondersteunde browsers en hun versies raadpleegt u [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/).
 
 ## Adobe [!DNL Target] API&#39;s {#section_88797FA5434049EC89F908853CC76903}
 
@@ -68,7 +68,7 @@ Vanaf 1 maart 2020 bieden doel-API&#39;s geen ondersteuning meer voor TLS 1.1-co
 
 ## Toegang tot Experience Cloud Solutions-interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Omdat voor de interface Target Standard/Premium al een [moderne webbrowser](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)We verwachten echter geen problemen. Als u geen verbinding kunt maken met Target, moet u de browser upgraden naar de meest recente versie.
+Omdat voor de interface Target Standard/Premium al een [moderne webbrowser](https://developer.adobe.com/target/before-implement/supported-browsers/)We verwachten echter geen problemen. Als u geen verbinding kunt maken met Target, moet u de browser upgraden naar de meest recente versie.
 
 ## Controleren welke TLS-versie uw browser gebruikt {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

@@ -5,9 +5,9 @@ title: Wat zijn gastheren en hoe gebruik ik ze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Indien een [!DNL Target] het verzoek wordt gemaakt op een onbevoegde gastheer, b
 
 >[!IMPORTANT]
 >
->**Aanbevolen werkwijzen voor beveiliging**: Als u de functionaliteit van het selectievakje [!DNL Target], controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [directeuren](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd is, [!DNL Adobe] kan de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke omleiding door kwaadwillende gebruikers.
+>**Aanbevolen werkwijzen voor beveiliging**: Als u de functionaliteit van het selectievakje [!DNL Target], controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [directeuren](https://developer.adobe.com/target/implement/email/working-with-redirectors/) kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd is, [!DNL Adobe] kan de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke omleiding door kwaadwillende gebruikers.
 >
 >De lijst van gewenste personen heeft voorrang op omgevingen. Wis uit alle gastheren alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 
@@ -124,6 +124,6 @@ Probeer de volgende tips voor het oplossen van problemen als u problemen ondervi
 
 Een domein verschijnt in deze lijst als een verzoek om [!DNL Target] wordt gemaakt van het domein. Vaak kunt u domeinen zien van spintengines, vertaalsites of lokale schijfstations. Als het vermelde domein niet een domein is dat uw team gebruikt, kunt u op [!UICONTROL Delete] om het te verwijderen.
 
-**Mijn [!DNL Target] request returns /* no display - unauthorised mbox host */.**
+**Mijn [!DNL Target] request returns /&#42; geen weergave - ongeoorloofde mbox-host &#42;/.**
 
-Indien een [!DNL Target] het verzoek wordt gedaan op een ongeoorloofde gastheer, het verzoek antwoordt met /* geen vertoning - ongeoorloofde mbox gastheer */.
+Indien een [!DNL Target] het verzoek wordt ingediend op een ongeoorloofde gastheer , het verzoek beantwoordt met /&#42; geen weergave - ongeoorloofde mbox-host &#42;/.

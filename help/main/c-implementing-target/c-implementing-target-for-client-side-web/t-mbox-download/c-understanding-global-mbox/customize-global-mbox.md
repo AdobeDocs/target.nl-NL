@@ -1,13 +1,13 @@
 ---
-keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
-description: Learn how to customize a global mbox for at.js on the Administration-Implementation page in Adobe Target.
+keywords: global mbox;aanpassen global mbox;bewerken at.js;at.js;implementeren at.js
+description: Leer hoe u een globale mbox voor at.js op de pagina Beheer-Implementatie in Adobe Target aanpast.
 title: Hoe kan ik een globale box aanpassen?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -22,23 +22,23 @@ Informatie die u helpt bij het aanpassen van een [!DNL Adobe Target] global mbox
 
    >[!IMPORTANT]
    >
-   >The change is automatically saved when you select a different global mbox.
+   >De wijziging wordt automatisch opgeslagen wanneer u een ander algemeen vakje selecteert.
 
-   This custom global mbox is also used for click tracking.
+   Dit aangepaste globale vakje wordt ook gebruikt voor klik het volgen.
 
    ![custom-global-mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/assets/custom-global-mbox.png)
 
 1. Implementeer de [!DNL at.js] bibliotheek op uw site.
 
-   See [How to deploy at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) for more information.
+   Zie [Hoe te opstellen bij.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) voor meer informatie .
 
 1. Tijd de overgang met uw versie.
 
    Wanneer u klaar bent voor [!DNL Target] om uw globale mbox voor alle activiteiten in de toekomst te beginnen gebruiken, kunt u met deze stap te werk gaan.
 
-   Update the name of the custom global mbox to match the name used in Step 2, above.
+   Werk de naam van de aangepaste globale box bij zodat deze overeenkomt met de naam die in Stap 2, hierboven, wordt gebruikt.
 
    >[!IMPORTANT]
    >
-   >All activities in your account sync with this mbox. Ensure that the global mbox is present on your site so that activities continue functioning. Ben zeker om beïnvloede activiteiten uit te geven en opnieuw op te slaan die met Visual Experience Composer (VEC) werden gecreeerd die synchronisatie met dit mbox. Het is niet nodig om activiteiten die zijn gemaakt in de Form-Based Experience Composer of via API opnieuw op te slaan.
+   >Alle activiteiten in uw account worden gesynchroniseerd met dit selectievakje. Zorg ervoor dat de globale box op uw plaats aanwezig is zodat de activiteiten blijven functioneren. Ben zeker om beïnvloede activiteiten uit te geven en opnieuw op te slaan die met Visual Experience Composer (VEC) werden gecreeerd die synchronisatie met dit mbox. Het is niet nodig om activiteiten die zijn gemaakt in de Form-Based Experience Composer of via API opnieuw op te slaan.
 

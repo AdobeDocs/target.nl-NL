@@ -4,9 +4,9 @@ description: Meer informatie over het toevoegen van een beslissing over voorstel
 title: Hoe gebruik ik beslissingen over aanbiedingen?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Meer informatie over [!DNL Adobe Journey Optimizer] en bied besluiten aan, zie d
 
 Aanbiedingsbesluiten gebruiken in [!DNL Target]hebt u het volgende nodig:
 
-* [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] geïmplementeerd met behulp van de [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+* [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] geïmplementeerd met behulp van de [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
    De functie is niet beschikbaar tijdens de implementatie [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
 
@@ -100,7 +100,7 @@ In [!DNL Adobe Journey Optimizer], kunt u een persoonlijk aanbod van de homepage
 
 Neem de volgende informatie in overweging wanneer u met de beslissingen over aanbiedingen werkt:
 
-* De integratie van de offer decisioning werkt voor [!DNL Target] op de [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Deze functie is niet beschikbaar tijdens de implementatie [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
+* De integratie van de offer decisioning werkt voor [!DNL Target] op de [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Deze functie is niet beschikbaar tijdens de implementatie [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
 
 * De integratie tussen Doel en Adobe Journey Optimizer ondersteunt [handmatig [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) en [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) alleen activiteiten. Deze functie is niet beschikbaar voor andere typen activiteiten.
 

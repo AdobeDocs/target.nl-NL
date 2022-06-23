@@ -4,9 +4,9 @@ description: Ontdek de opties in het dialoogvenster [!DNL Adobe Target] [!UICONT
 title: Hoe gebruik ik de [!UICONTROL Visual Experience Composer] (VEC) Opties?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -372,7 +372,7 @@ Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ong
 
 ## Overwegingen {#considerations}
 
-* Als een aanbieding HTML-inhoud bevat, raadpleegt u &quot;Hoe geeft at.js aanbiedingen met HTML-inhoud weer&quot; in [Hoe werkt at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) voor meer informatie .
+* Als een aanbieding HTML-inhoud bevat, raadpleegt u &quot;Hoe geeft at.js aanbiedingen met HTML-inhoud weer&quot; in [Hoe werkt at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) voor meer informatie .
 
 ## Ondersteuning voor aangepaste elementen {#custom}
 
@@ -380,9 +380,9 @@ De steun VEC [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_C
 
 >[!NOTE]
 >
->VEC-ondersteuning voor aangepaste elementen wordt ondersteund in [at.js-versie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (of hoger). Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u het [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), moet ook de vereiste versie van at.js worden opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
+>VEC-ondersteuning voor aangepaste elementen wordt ondersteund in [at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 2.7.0 (of hoger). Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u het [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), moet ook de vereiste versie van at.js worden opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
 >
->VEC-ondersteuning voor aangepaste elementen wordt momenteel niet ondersteund door de [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+>VEC-ondersteuning voor aangepaste elementen wordt momenteel niet ondersteund door de [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
 De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen, met de volgende uitzonderingen:
 

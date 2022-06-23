@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 | Doel-SDK | Voorgestelde acties |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Zorg ervoor dat u versie 2.6.0 van SDK van het Web van Platforms of later gebruikt. Voor informatie over het downloaden van de recentste versie van het Web SDK van het Platform, zie [De SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de *Overzicht van Platform Web SDK* hulplijn. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [Opmerkingen bij de release](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in de *Overzicht van Platform Web SDK* hulplijn. |
-| [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de nieuwste versie van at.js raadpleegt u [Downloaden om.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [at.js - Versiedetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Sommige plug-ins die afhankelijk zijn van interne methoden die in mbox.js (nu afgekeurd) bestaan, maar niet in at.js, worden geleverd, maar mislukken. |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Zorg ervoor dat u versie 2.6.0 van SDK van het Web van Platforms of later gebruikt. Voor informatie over het downloaden van de recentste versie van het Web SDK van het Platform, zie [De SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de *Overzicht van Platform Web SDK* hulplijn. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [Opmerkingen bij de release](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in de *Overzicht van Platform Web SDK* hulplijn. |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de nieuwste versie van at.js raadpleegt u [Downloaden om.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/). Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Sommige plug-ins die afhankelijk zijn van interne methoden die in mbox.js (nu afgekeurd) bestaan, maar niet in at.js, worden geleverd, maar mislukken. |
 
 ## Reactietokens gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
    Voor meer informatie:
 
    * **Platform Web SDK**: Zie [De SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de *Overzicht van Platform Web SDK* hulplijn.
-   * **at.js**: Zie [Downloaden om.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   * **at.js**: Zie [Downloaden om.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 1. In [!DNL Target], klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -149,7 +149,7 @@ In het volgende reactievoorbeeld wordt een [!DNL Platform Web SDK] de manager va
 
 ### ![at.js badge](/help/main/assets/atjs.png) at.js gebruiken, aangepaste gebeurtenissen
 
-Gebruiken [at.js, aangepaste gebeurtenissen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) om te luisteren naar [!DNL Target] reactietokens lezen en erop reageren.
+Gebruiken [at.js, aangepaste gebeurtenissen](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) om te luisteren naar [!DNL Target] reactietokens lezen en erop reageren.
 
 Het volgende codevoorbeeld voegt een [!DNL at.js] aangepaste gebeurtenishandler rechtstreeks naar de pagina HTML:
 

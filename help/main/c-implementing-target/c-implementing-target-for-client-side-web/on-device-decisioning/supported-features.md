@@ -5,9 +5,9 @@ title: Welke functies worden ondersteund in een beslissing op het apparaat
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ In de volgende tabel wordt aangegeven welke publieksregels worden ondersteund vo
 
 ### Geo targeting voor apparaatbesluitvorming
 
-Om minimale latentie voor op apparaat beslissingsactiviteiten met geo-gebaseerd publiek te handhaven, adviseert Adobe u de geo waarden zelf in de vraag te verstrekken aan [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md). Stel het Geo-object in in de context van de aanvraag. Dit betekent vanuit de browser een manier om de locatie van elke bezoeker te bepalen. Bijvoorbeeld, kunt u een IP-aan-Geo raadpleging uitvoeren, gebruikend de dienst u vormt. Sommige hostingproviders, zoals Google Cloud, bieden deze functionaliteit via aangepaste headers in elk `HttpServletRequest`.
+Om minimale latentie voor op apparaat beslissingsactiviteiten met geo-gebaseerd publiek te handhaven, adviseert Adobe u de geo waarden zelf in de vraag te verstrekken aan [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Stel het Geo-object in in de context van de aanvraag. Dit betekent vanuit de browser een manier om de locatie van elke bezoeker te bepalen. Bijvoorbeeld, kunt u een IP-aan-Geo raadpleging uitvoeren, gebruikend de dienst u vormt. Sommige hostingproviders, zoals Google Cloud, bieden deze functionaliteit via aangepaste headers in elk `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-Nochtans, als u geen IP-aan-Geo raadplegingen op uw server kunt uitvoeren, maar u nog wilt op-apparatenbesluit voor uitvoeren [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) aanvragen die op geo gebaseerde doelgroepen bevatten, wordt dit ook ondersteund. Het nadeel van deze benadering is dat het een verre IP-aan-Geo raadpleging gebruikt, die latentie aan elk toevoegt `getOffers` vraag. Deze latentie moet lager zijn dan een `getOffers` vraag met server-zijbesluit, omdat het een CDN raakt die dicht bij uw server wordt gevestigd. Geef alleen het veld &quot;ipAddress&quot; in het Geo-object op in de context van uw verzoek aan de SDK om de geolocatie van het IP-adres van uw bezoeker op te halen. Als een ander gebied naast &quot;ipAddress&quot;wordt verstrekt, [!DNL Target] SDK haalt de metagegevens voor de geolocatie niet op voor oplossing.
+Nochtans, als u geen IP-aan-Geo raadplegingen op uw server kunt uitvoeren, maar u nog wilt op-apparatenbesluit voor uitvoeren [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) aanvragen die op geo gebaseerde doelgroepen bevatten, wordt dit ook ondersteund. Het nadeel van deze benadering is dat het een verre IP-aan-Geo raadpleging gebruikt, die latentie aan elk toevoegt `getOffers` vraag. Deze latentie moet lager zijn dan een `getOffers` vraag met server-zijbesluit, omdat het een CDN raakt die dicht bij uw server wordt gevestigd. Geef alleen het veld &quot;ipAddress&quot; in het Geo-object op in de context van uw verzoek aan de SDK om de geolocatie van het IP-adres van uw bezoeker op te halen. Als een ander gebied naast &quot;ipAddress&quot;wordt verstrekt, [!DNL Target] SDK haalt de metagegevens voor de geolocatie niet op voor oplossing.
 
 ```javascript
 window.adobe.target.getOffers({ 

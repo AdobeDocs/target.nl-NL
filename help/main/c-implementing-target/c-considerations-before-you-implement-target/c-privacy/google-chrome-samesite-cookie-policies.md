@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] Handelen met Samesite Cookie-beleid voor Google?
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Google zal standaard een nieuw beleid voor cookies gaan toepassen voor gebruiker
 
 Vanaf Chrome 80 moeten webontwikkelaars expliciet opgeven welke cookies op verschillende websites kunnen worden gebruikt. Dit is het eerste van de vele mededelingen die Google van plan is te doen om privacy en veiligheid op het web te verbeteren.
 
-Gezien het feit dat Facebook op het gebied van privacy en veiligheid op de proppen is gekomen, hebben andere belangrijke spelers zoals Apple en nu Google snel geprofiteerd van de mogelijkheid om nieuwe identiteiten te creëren als beschermers van privacy en veiligheid. Apple leidde het pakket door begin dit jaar via ITP 2.1 en onlangs, ITP 2.2, voor het eerst wijzigingen aan te kondigen in zijn beleid inzake cookies. In ITP 2.1 blokkeert Apple cookies van derden en worden cookies die op de browser zijn gemaakt, slechts zeven dagen bewaard. In ITP 2.2 worden cookies slechts één dag bewaard. De aankondiging van Google is bij lange na niet zo agressief als die van Apple, maar het is de eerste stap naar hetzelfde einddoel. Voor meer informatie over het beleid van Apple raadpleegt u [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Gezien het feit dat Facebook op het gebied van privacy en veiligheid op de proppen is gekomen, hebben andere belangrijke spelers zoals Apple en nu Google snel geprofiteerd van de mogelijkheid om nieuwe identiteiten te creëren als beschermers van privacy en veiligheid. Apple leidde het pakket door begin dit jaar via ITP 2.1 en onlangs, ITP 2.2, voor het eerst wijzigingen aan te kondigen in zijn beleid inzake cookies. In ITP 2.1 blokkeert Apple cookies van derden en worden cookies die op de browser zijn gemaakt, slechts zeven dagen bewaard. In ITP 2.2 worden cookies slechts één dag bewaard. De aankondiging van Google is bij lange na niet zo agressief als die van Apple, maar het is de eerste stap naar hetzelfde einddoel. Voor meer informatie over het beleid van Apple raadpleegt u [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
 
 ## Wat zijn cookies en hoe worden ze gebruikt?
 

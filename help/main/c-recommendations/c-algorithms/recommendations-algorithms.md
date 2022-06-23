@@ -5,9 +5,9 @@ title: Waar kan ik leren over de wetenschap achter de Recommendations-algoritmen
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2753'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ De logische stroom van de daadwerkelijke algoritmeimplementatie wordt getoond in
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Gedragsgegevens, in de vorm van weergaven en aankopen van bezoekers die bij u worden verzameld [Doel implementeren](/help/main/c-recommendations/plan-implement.md#pass-behavioral) of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Invoergegevens**: Gedragsgegevens, in de vorm van weergaven en aankopen van bezoekers die bij u worden verzameld [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/) of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modeltraining**:
 
@@ -88,7 +88,7 @@ Hoewel het model dat dienst doet en de tevreden leveringsaspecten van [!DNL Targ
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Zoals eerder beschreven, is dit algoritme uitsluitend gebaseerd op catalogusgegevens (opgenomen op [!DNL Target] via een [Catalogusfeed, de Entiteiten-API of updates op de pagina](/help/main/c-recommendations/plan-implement.md#rec-catalog).
+* **Invoergegevens**: Zoals eerder beschreven, is dit algoritme uitsluitend gebaseerd op catalogusgegevens (opgenomen op [!DNL Target] via een [Catalogusfeed, de Entiteiten-API of updates op de pagina](https://developer.adobe.com/target/implement/recommendations/).
 
 * **Modeltraining**:
 
@@ -126,7 +126,7 @@ De logica van modelopleiding en het scoren stappen worden getoond in het volgend
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en algoritmen op basis van winkelwagentjes gedragsgegevens gebruiken, in de vorm van weergaven en aankopen van gebruikers die worden verzameld wanneer u [Doel implementeren](/help/main/c-recommendations/plan-implement.md#pass-behavioral) of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Invoergegevens**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en algoritmen op basis van winkelwagentjes gedragsgegevens gebruiken, in de vorm van weergaven en aankopen van gebruikers die worden verzameld wanneer u [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/) of van [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modeltraining**:
 

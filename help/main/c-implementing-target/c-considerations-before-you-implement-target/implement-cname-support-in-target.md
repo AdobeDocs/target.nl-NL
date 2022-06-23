@@ -5,9 +5,9 @@ title: Hoe gebruik ik CNAME als doel?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Instructies voor het werken met [!DNL Adobe] De Zorg van de cliënt om steun CNA
 
    [!DNL Adobe] De Zorg van de cliënt brengt u op de hoogte wanneer uw implementatie klaar is.
 
-1. Werk de `serverDomain` ([documentatie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#serverDomain)) naar de nieuwe CNAME-hostnaam en -set `overrideMboxEdgeServer` tot `false` ([documentatie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#overridemboxedgeserver)) in uw configuratie at.js.
+1. Werk de `serverDomain` ([documentatie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) naar de nieuwe CNAME-hostnaam en -set `overrideMboxEdgeServer` tot `false` ([documentatie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) in uw configuratie at.js.
 
 ## Veelgestelde vragen
 
@@ -80,7 +80,7 @@ Nee, [!DNL Target] vereist een aparte hostnaam en certificaat.
 
 ### Is mijn huidige implementatie van [!DNL Target] beïnvloed door ITP 2.x?
 
-Apple Intelligent Tracking Prevention (ITP) versie 2.3 introduceerde de CNAME Camaking Mitigation-functie, die kan detecteren [!DNL Adobe Target] De implementaties van CNAME en vermindert het verlopen van het koekje tot zeven dagen. Momenteel [!DNL Target] heeft geen oplossing voor de Beperking van de Camouflatie van de NAAM van ITP. Voor meer informatie over ITP, zie [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Apple Intelligent Tracking Prevention (ITP) versie 2.3 introduceerde de CNAME Camaking Mitigation-functie, die kan detecteren [!DNL Adobe Target] De implementaties van CNAME en vermindert het verlopen van het koekje tot zeven dagen. Momenteel [!DNL Target] heeft geen oplossing voor de Beperking van de Camouflatie van de NAAM van ITP. Voor meer informatie over ITP, zie [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
 
 ### Welk soort de dienstverstoringen kan ik verwachten wanneer mijn implementatie CNAME wordt opgesteld?
 
@@ -335,7 +335,7 @@ Gebruik de volgende set opdrachten (in de opdrachtregelterminal van macOS of Lin
 Als u CNAME gebruikt, zou de opt-out verbinding &quot;client= moeten bevatten`clientcode` parameter, bijvoorbeeld:
 `https://my.cname.domain/optout?client=clientcode`.
 
-Vervangen `clientcode` met uw clientcode, voegt u vervolgens de tekst of afbeelding toe die u wilt koppelen aan de [opt-out-URL](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
+Vervangen `clientcode` met uw clientcode, voegt u vervolgens de tekst of afbeelding toe die u wilt koppelen aan de [opt-out-URL](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ## Bekende beperkingen
 

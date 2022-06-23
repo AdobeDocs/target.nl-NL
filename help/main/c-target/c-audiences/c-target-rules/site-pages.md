@@ -4,9 +4,9 @@ description: Leer hoe u bezoekers kunt aanwijzen met [!DNL Adobe Target] die zic
 title: Kan ik bezoekers richten op basis van sitepagina's?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Gebruik een:
 
    Als dit gedrag niet aan uw vereisten voldoet, kunt u een van de volgende handelingen uitvoeren:
 
-   * Voldoende [mbox-parameters](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) tot [!DNL Target] voor doeldoeleinden te gebruiken.
+   * Voldoende [mbox-parameters](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) tot [!DNL Target] voor doeldoeleinden te gebruiken.
    * Een [A/B Testactiviteit](/help/main/c-activities/t-test-ab/test-ab.md) in plaats van een activiteit op een bestemmingspagina. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
    * Een [bezoekersprofiel](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) in plaats daarvan.
 

@@ -4,9 +4,9 @@ description: Leer hoe u meerdere soorten publiek kunt combineren (inclusief Adob
 title: Kan ik Meerdere soorten publiek combineren om een nieuw publiek te maken?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Meerdere soorten publiek combineren (inclusief [!DNL Adobe Experience Cloud], [!
 
 >[!NOTE]
 >
->De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals het is of gecombineerd met bestaande doelgroepen, zoals in dit onderwerp wordt uitgelegd.
+>De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals het is of gecombineerd met bestaande doelgroepen, zoals in dit onderwerp wordt uitgelegd.
 >
 >Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](/help/main/c-target/c-audiences/audiences.md#aep).
 

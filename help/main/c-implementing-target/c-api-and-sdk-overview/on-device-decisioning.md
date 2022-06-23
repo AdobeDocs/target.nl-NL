@@ -5,9 +5,9 @@ title: Wat is een apparaatbeslissing?
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,10 @@ ht-degree: 0%
 
 De beslissing op het apparaat biedt de mogelijkheid om uw [!DNL Adobe Target] [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) de activiteiten op uw server en voeren in geheugenbesluit bij bijna-nul latentie uit, zonder netwerkverzoeken aan te blokkeren [!DNL Adobe Target] Edge Network.
 
-Zie voor meer informatie [Inleiding tot apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de *[Adobe Target SDKs-documentatie](https://adobetarget-sdks.gitbook.io/docs/)*.
+Zie onderwerpen voor meer informatie:
+
+* [Apparaatbeslissingen voor client-side](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [Apparaatbeslissingen voor server-side](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ## Webinar: Personaliseer en test bij nul latentie met op apparaat besluiten van [!DNL Adobe Target]
 

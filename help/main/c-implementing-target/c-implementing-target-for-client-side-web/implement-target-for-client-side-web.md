@@ -5,9 +5,9 @@ title: Hoe kan ik implementeren [!DNL Target] voor Client-Side Web
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Bij een clientimplementatie van [!DNL Adobe Target], [!DNL Target] levert de erv
 
 Om [!DNL Adobe Target] aan clientzijde moet u een van de volgende JavaScript-bibliotheken gebruiken:
 
-* [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+* [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)
 
-   De [!UICONTROL Adobe Experience Platform Web SDK] kunt u de verschillende services van de [!DNL Experience Cloud] (inclusief [!DNL Target]) via Adobe Experience Edge Network. Als u naar de [!DNL Adobe Experience Platform Web SDK], zie [Wat is Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) in de *Web SDK Guide*.
+   De [!UICONTROL Adobe Experience Platform Web SDK] kunt u de verschillende services van de [!DNL Experience Cloud] (inclusief [!DNL Target]) via Adobe Experience Edge Network. Als u naar de [!DNL Adobe Experience Platform Web SDK], zie [Wat is Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) in de *Web SDK Guide*.
 
-* [Doel in JavaScript-bibliotheek.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Doel in JavaScript-bibliotheek.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
-   De JavaScript-bibliotheek at.js verbetert de laadtijden van pagina&#39;s voor webimplementaties, verbetert de beveiliging en biedt betere implementatieopties voor toepassingen op één pagina. Als u naar at.js wilt migreren, raadpleegt u [Hoe werkt At.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) en [Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+   De JavaScript-bibliotheek at.js verbetert de laadtijden van pagina&#39;s voor webimplementaties, verbetert de beveiliging en biedt betere implementatieopties voor toepassingen op één pagina. Als u naar at.js wilt migreren, raadpleegt u [Hoe werkt At.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) en [Adobe Target Skill Builder: Chat op ontwikkelaar, migrate Adobe Target mbox.js naar at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 
 

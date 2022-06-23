@@ -4,9 +4,9 @@ description: Meer informatie over Adobe [!DNL Target] werken, met inbegrip van i
 title: Hoe werkt [!DNL Target] Werken?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -19,18 +19,18 @@ Meer informatie [!DNL Adobe Target] werken, met inbegrip van informatie over de 
 
 [!DNL Target] integreert met websites die de [!DNL Experience Platform Web SDK] of JavaScript-bibliotheken:
 
-* **Adobe Experience Platform Web SDK:** De [Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) is een nieuwe JavaScript-bibliotheek aan de clientzijde. Het Web SDK van het Experience Platform laat klanten van [!DNL Adobe Experience Cloud] in de [!DNL Experience Cloud] (inclusief [!DNL Target]via de [!DNL Experience Platform] Edge Network. Adobe beveelt aan dat alle nieuwe [!DNL Target] klanten implementeren [!DNL Experience Platform Web SDK].
-* **at.js:** De bibliotheek at.js is een implementatiebibliotheek voor [!DNL Target]. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Adobe raadt alle klanten die at.js gebruiken aan hun implementaties bij te werken naar de [nieuwste versie van at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** The mbox.js library is the legacy implementation library for [!DNL Target]. The mbox.js library is no longer supported after March 31, 2021.
+* **Adobe Experience Platform Web SDK:** De [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) is een nieuwe JavaScript-bibliotheek aan de clientzijde. Het Web SDK van het Experience Platform laat klanten van [!DNL Adobe Experience Cloud] in de [!DNL Experience Cloud] (inclusief [!DNL Target]via de [!DNL Experience Platform] Edge Network. Adobe beveelt aan dat alle nieuwe [!DNL Target] klanten implementeren [!DNL Experience Platform Web SDK].
+* **at.js:** De bibliotheek at.js is een implementatiebibliotheek voor [!DNL Target]. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Adobe raadt alle klanten die at.js gebruiken aan hun implementaties bij te werken naar de [nieuwste versie van at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **mbox.js:** De bibliotheek mbox.js is de oudere implementatiebibliotheek voor [!DNL Target]. De bibliotheek mbox.js wordt na 31 maart 2021 niet meer ondersteund.
 
 Verwijs naar de [!DNL Experience Platform Web SDK] of om.js op elke pagina op uw plaats. U kunt bijvoorbeeld een van deze bibliotheken toevoegen aan uw algemene koptekst. U kunt ook overwegen om [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) uitvoeren [!DNL Target].
 
 De volgende middelen bevatten gedetailleerde informatie om u te helpen SDK van het Web van het Experience Platform of at.js uitvoeren:
 
 * [Adobe Experience Platform Web SDK-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
-* [Implementeren [!DNL Target] gebruiken, Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementeren [!DNL Target] gebruiken, Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
-Telkens wanneer een bezoeker een pagina aanvraagt waarvoor is geoptimaliseerd [!DNL Target], wordt een verzoek naar het doelsysteem verzonden. The request helps to determine what content to serve to that visitor. Dit proces vindt in real time plaats. Every time a page is loaded, a request for the content is made and fulfilled by the system. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. Inhoud wordt weergegeven waarmee elke bezoeker van de site meestal kan reageren op, communiceren met of uiteindelijk aankopen. De gepersonaliseerde inhoud helpt reactiesnelheden, aanschafpercentages, en opbrengst maximaliseren.
+Telkens wanneer een bezoeker een pagina aanvraagt waarvoor is geoptimaliseerd [!DNL Target], wordt een verzoek naar het doelsysteem verzonden. Aan de hand van de aanvraag kunt u bepalen welke inhoud voor die bezoeker moet worden gebruikt. Dit proces vindt in real time plaats. Telkens wanneer een pagina wordt geladen, wordt een verzoek om de inhoud gedaan en vervuld door het systeem. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. Inhoud wordt weergegeven waarmee elke bezoeker van de site meestal kan reageren op, communiceren met of uiteindelijk aankopen. De gepersonaliseerde inhoud helpt reactiesnelheden, aanschafpercentages, en opbrengst maximaliseren.
 
 In [!DNL Target], maakt elk element op de pagina deel uit van één enkele ervaring voor de gehele pagina. Elke ervaring kan meerdere elementen op de pagina bevatten.
 
@@ -115,11 +115,11 @@ In plaats van te reageren op alle doelverzoeken van één locatie, worden aanvra
 * Dublin, Ierland
 * Republiek Singapore
 
-[!DNL Target] Edge Clusters, hosted on AWS, include:
+[!DNL Target] Edge-clusters, gehost op AWS, omvatten:
 
 * Mumbai, India
 * Tokio, Japan
-* Virginia, USA
+* Virginia, VS
 * Oregon, VS
 * Sydney, Australië
 * Dublin, Ierland
@@ -131,7 +131,7 @@ De [!DNL Target Recommendations] service wordt gehost in een [!DNL Adobe] datace
 >
 >[!DNL Adobe Target] heeft momenteel geen Edge Cluster in China en de prestaties van de bezoeker blijven beperkt tot [!DNL Target] afnemers in China. Vanwege de firewall en het gebrek aan Edge Clusters in het land, hebben sites met [!DNL Target] kan worden beïnvloed. De ervaring kan traag zijn bij het renderen en het laden van pagina&#39;s kan hierdoor worden beïnvloed. Ook kunnen marketers enige vertraging ervaren bij het gebruik van de [!DNL Target] ontwerpinterface.
 
-U kunt lijst van gewenste personen [!DNL Target] Edge-clusters, indien gewenst. For more information, see [allowlist Target edge nodes](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
+U kunt lijst van gewenste personen [!DNL Target] Edge-clusters, indien gewenst. Zie voor meer informatie [lijst van gewenste personen randknooppunten doel](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/).
 
 ## Beveiligde gebruikerservaring {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -171,7 +171,7 @@ Richtsnoeren werden gepresenteerd in een [Google Webmaster Central-blog](https:/
 
 * **302 (tijdelijke) omleidingen gebruiken**: In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan om 302 te gebruiken om het directe verkeer naar de testvariaties te leiden. De 302 omleiding vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zolang de test loopt.
 
-   Een omleiding van 302 is een omleiding aan de serverzijde, en [!DNL Target]gebruikt samen met de meeste optimalisatieproviders mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] voldoet niet volledig aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het uitvoeren van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen [!DNL Target] gebruikt het JavaScript `window.location` gebruiken. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
+   Een omleiding van 302 is een omleiding aan de serverzijde, en [!DNL Target]gebruikt samen met de meeste optimalisatieproviders mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] voldoet niet volledig aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardaanpak voor het uitvoeren van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen [!DNL Target] gebruikt het JavaScript `window.location` gebruiken. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
 
    Adobe blijft zoeken naar haalbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekprogramma&#39;s. Voor die cliënten die afzonderlijke URLs voor het testen moeten gebruiken, is Adobe zeker dat juiste implementatie van de canonieke markeringen het risico verbonden aan deze benadering verlicht.
 

@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] voor mobie
 title: Kan ik bezoekers richten op basis van mobiele opties?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om dit probleem op te lossen, [!DNL Target] verzamelt aanvullende gegevens om iP
 
 >[!NOTE]
 >
->Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit toe te passen. Klanten die at.js gebruiken, moeten [upgrade naar at.js versie 1.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (of hoger).
+>Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit toe te passen. Klanten die at.js gebruiken, moeten [upgrade naar at.js versie 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (of hoger).
 
 U kunt meerdere eigenschappen voor mobiele apparaten kiezen. Meerdere selecties worden verbonden met een operator OR.
 

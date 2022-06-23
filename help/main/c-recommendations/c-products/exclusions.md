@@ -4,9 +4,9 @@ description: Leer hoe u uitsluitingen maakt in Adobe [!DNL Target] Recommendatio
 title: Hoe gebruik ik uitsluitingen in Recommendations-activiteiten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
    ![](assets/exclusions_list.png)
 
-   Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) om de standaardgastheergroep te veranderen.
+   Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://developer.adobe.com/target/implement/recommendations/) om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Exclusion]**.
 

@@ -4,9 +4,9 @@ description: Meer informatie over Recommendations-activiteiten in Adobe [!DNL Ta
 title: Wat zijn Recommendations-activiteiten?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Vervolgens moet u tags toevoegen of gebruikmaken van uw bestaande tags [!DNL Ana
 
 U moet ervoor zorgen dat [!DNL Target] Houd rekening met de objecten die uw gebruikers bekijken en kopen. Als aankopen niet relevant zijn voor uw context, wilt u wellicht een ander type conversiegebeurtenis volgen, bijvoorbeeld het downloaden van een PDF, het voltooien van een enquête, het abonneren op een nieuwsbrief, het bekijken van een video enzovoort.
 
-Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Het is ook mogelijk om offline- of in-app-interacties te verzenden naar [!DNL Target] via real-time API.
+Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Het is ook mogelijk om offline- of in-app-interacties te verzenden naar [!DNL Target] via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 

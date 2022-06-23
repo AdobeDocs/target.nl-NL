@@ -5,9 +5,9 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -252,7 +252,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
 
    In een toekomstige release werkt Target op pagina&#39;s waar geen `at_property` token aanwezig is of pagina&#39;s waarop een ander token aanwezig is `at_property` token is aanwezig.
 
-* De functionaliteit voor gebruikersmachtigingen voor ondernemingen wordt niet ondersteund in [Adobe I/O API-aanroepen](https://developers.adobetarget.com).
+* De functionaliteit voor gebruikersmachtigingen voor ondernemingen wordt niet ondersteund in [Adobe I/O API-aanroepen](https://developer.adobe.com/target/).
 
 ## Veelgestelde vragen {#faqs}
 

@@ -4,9 +4,9 @@ description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe T
 title: Hoe los ik Doel problemen op?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 
 ## Globale mbox
 
-* [Globale mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [Globale mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ## Gastheren/omgevingen
 
@@ -110,18 +110,18 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ### Algemene uitvoering
 
-* [Ondersteunde browsers](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-* [Op cloud gebaseerde instanties gebruiken met Doel](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+* [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/)
+* [Op cloud gebaseerde instanties gebruiken met Doel](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
 
 ### Algemene vakken
 
-* [Veelgestelde vragen over Global mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [Veelgestelde vragen over Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ### at.js
 
-* [at.js Veelgestelde vragen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [details van de at.js-versie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* [at.js Veelgestelde vragen](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
+* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
+* [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team.
 
 ## Bekende problemen
@@ -130,11 +130,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ## Mobiele apps
 
-* [Veelgestelde vragen over het doel voor mobiele apps](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-
-## Apparaatbeslissingen
-
-* [Problemen met apparaatbeslissingen voor at.js oplossen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [Veelgestelde vragen over het doel voor mobiele apps](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
 
 ## Rapportage
 
@@ -143,11 +139,11 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ## SEO (Search Engine Optimization)
 
-* [SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s)](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
 ## Beveiliging
 
-* [Inhoudsbeveiligingsbeleid (CSP)-instructies](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+* [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
 
 ## Systeemstatus
 

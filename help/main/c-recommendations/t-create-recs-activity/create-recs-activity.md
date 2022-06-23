@@ -4,9 +4,9 @@ description: Leer hoe u de Adobe gebruikt [!DNL Target] Visual Experience Compos
 title: Hoe maak ik een Recommendations-activiteit?
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` voor het huidige item of de huidige categorie. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. De [!UICONTROL Compatible] deze optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie voor meer informatie [Instellingen](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` voor het huidige item of de huidige categorie. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. De [!UICONTROL Compatible] deze optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie voor meer informatie [Instellingen](https://developer.adobe.com/target/implement/recommendations/).
 
    ![Selectiecriteria, dialoogvenster](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

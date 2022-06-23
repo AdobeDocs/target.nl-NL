@@ -5,9 +5,9 @@ title: Hoe werk ik met Redirector?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Gebruik Redirector om het volgende te doen:
 
 * Zoeken naar welke landingspagina de meeste conversies tot gevolg hebben
 
-Voor hulp bij het bepalen van de juiste instelling raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Voor hulp bij het bepalen van de juiste instelling raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/).
 
 ## Een redirector maken {#redirector}
 
@@ -66,7 +66,7 @@ Voordat u een redirector kunt gebruiken, moet u deze maken.
 1. Als u verschillende bestemmingen voor één advertentie zult testen, creeer [Omleidingsvoorstellen](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) voor elke versie.
 1. Maak de campagne.
 
-   Zie [Implementaties die niet op JavaScript zijn gebaseerd](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) voor de juiste opstelling om uw doelstellingen te ontmoeten.
+   Zie [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/) voor de juiste opstelling om uw doelstellingen te ontmoeten.
 1. Voltooi de kwaliteitscontrole op de campagne.
 
    Een dummypagina maken met een `<a href>` met de Redirector-URL. Voorbeeld:

@@ -5,9 +5,9 @@ title: Hoe krijg ik gegevens in [!DNL Target] Paginaparameters gebruiken?
 feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,8 @@ targetPageParams (voegt de parameters aan globale mbox op de pagina toe):
 
 ## Koppelingen naar relevante informatie
 
-Recommendations: [Implementatie volgens paginatype](/help/main/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+Recommendations: [Implementatie volgens paginatype](https://developer.adobe.com/target/implement/recommendations/)
 
-Bevestiging van bestelling: [Conversies bijhouden](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
+Bevestiging van bestelling: [Conversies bijhouden](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)
 
 Categorie-affiniteit: [Categorie-affiniteit](/help/main/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)

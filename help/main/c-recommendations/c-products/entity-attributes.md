@@ -4,9 +4,9 @@ description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhouds
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In het algemeen ziet het informatievenster voor de weergave er als in het volgen
 
 >[!NOTE]
 >
->Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Zie voor een voorbeeld [Recommendations plannen en implementeren](/help/main/c-recommendations/plan-implement.md).
+>Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). Zie voor een voorbeeld [Recommendations plannen en implementeren](https://developer.adobe.com/target/implement/recommendations/).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

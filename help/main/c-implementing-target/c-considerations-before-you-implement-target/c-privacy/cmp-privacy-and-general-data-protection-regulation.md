@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] Regels voor privacy en gegevensbescherming afhand
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Als u zich vorig jaar zou voorbereiden op de Europese privacywetgeving (GDPR), z
 
 ## Adobe [!DNL Target] en [!DNL Adobe Experience Platform] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via tags in [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js bibliotheek, zou u moeten gebruiken `targetGlobalSettings` en voeg de `optinEnabled=true` instellen. In [!DNL Adobe ExperiencePlatform], selecteert u &quot;inschakelen&quot; in het menu [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) voor meer informatie .
+[!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via tags in [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js bibliotheek, zou u moeten gebruiken `targetGlobalSettings` en voeg de `optinEnabled=true` instellen. In [!DNL Adobe ExperiencePlatform], selecteert u &quot;inschakelen&quot; in het menu [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) voor meer informatie .
 
 In het volgende codefragment wordt getoond hoe u het `optinEnabled=true` instellen:
 
@@ -284,7 +284,7 @@ De volgende tabel bevat een beschrijving van de JSON-velden voor het illustratie
 
 | Veld | Beschrijving |
 |--- |--- |
-| sample_parameter | Veel informatie in de [!DNL Target] worden geüpload of rechtstreeks geleverd door de Data Controller. In dit voorbeeld is een parameter geüpload naar de [!DNL Target] profiel gebruiken met de API voor het bijwerken van profielen. Zie voor meer informatie [Methoden om gegevens in te voeren [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| sample_parameter | Veel informatie in de [!DNL Target] worden geüpload of rechtstreeks geleverd door de Data Controller. In dit voorbeeld is een parameter geüpload naar de [!DNL Target] profiel gebruiken met de API voor het bijwerken van profielen. Zie voor meer informatie [Methoden om gegevens in te voeren [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | Dit standaardveld bevat de tijd van de dag van het meest recente retourbezoek van een gebruiker. |
 | firstSessionStart | Dit standaardveld bevat de tijd van de dag waarop de eerste sessie van de gebruiker is gestart. |
 | user.sessionCountScript | Veel informatie in de [!DNL Target] worden geüpload of rechtstreeks geleverd door de Data Controller. In dit voorbeeld verhoogt een profielscript het aantal sessies dat deze bezoeker op de site van de Data Controller heeft uitgevoerd. Zie voor meer informatie [Profielscriptkenmerken](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ De volgende tabel bevat een beschrijving van de JSON-velden voor het illustratie
 
 ### doet [!DNL Target] steun IP verduistering? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] steunt IP verwarring als u verkiest om het als deel van uw GDPR of CCPA implementatiestrategie te gebruiken. Zie voor meer informatie [Privacy](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] steunt IP verwarring als u verkiest om het als deel van uw GDPR of CCPA implementatiestrategie te gebruiken. Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ### Moet ik iets doen om te voorkomen dat mijn gegevens worden gedeeld of verkocht aan derden?
 

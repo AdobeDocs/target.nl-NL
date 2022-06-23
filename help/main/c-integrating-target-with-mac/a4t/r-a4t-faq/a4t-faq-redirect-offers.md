@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over het gebruik van omleidingsaanbieding
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Overweeg het volgende:
 
 ## Waarom worden paginaweergaven op de oorspronkelijke pagina en op de omleidingspagina soms geteld? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Wanneer u at.js versie 1.6.3 of hoger gebruikt, is het niet van belang om paginaweergaven op beide pagina&#39;s te tellen. Deze rasvoorwaarde beïnvloedt slechts klanten die vroegere versies gebruiken. Het team van het Doel handhaaft twee versies van at.js: de huidige versie en de tweede nieuwste versie. Voer indien nodig een upgrade uit naar .js om ervoor te zorgen dat u een [ondersteunde versie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Wanneer u at.js versie 1.6.3 of hoger gebruikt, is het niet van belang om paginaweergaven op beide pagina&#39;s te tellen. Deze rasvoorwaarde beïnvloedt slechts klanten die vroegere versies gebruiken. Het team van het Doel handhaaft twee versies van at.js: de huidige versie en de tweede nieuwste versie. Voer indien nodig een upgrade uit naar .js om ervoor te zorgen dat u een [ondersteunde versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 Als u een vroegere, niet-gesteunde versie van at.js gebruikt, is er een mogelijkheid dat een rassenvoorwaarde kan voorkomen die de Analytische vraag zou kunnen veroorzaken om te vuren alvorens redirect op de eerste pagina uitvoert. Hierdoor kunnen paginaweergaven op de oorspronkelijke pagina en op de omleidingspagina worden geteld. Deze situatie leidt tot een extra paginaweergave op de eerste pagina, wanneer de bezoeker deze eerste pagina nooit echt &#39;zag&#39;.
 

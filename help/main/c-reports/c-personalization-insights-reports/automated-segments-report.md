@@ -4,9 +4,9 @@ description: Leer hoe verschillende segmenten die worden gedefinieerd door Adobe
 title: Wat is het Geautomatiseerde Rapport van Segmenten?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] ra
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Meer informatie over welke kenmerken [!DNL Target] gebruik in zijn verpersoonlijkingsmodellen, zie [Gegevensverzameling voor personaliseringsalgoritmen van het Doel](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van Target te gebruiken, zie [Methoden om gegevens op te halen in doel](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Meer informatie over welke kenmerken [!DNL Target] gebruik in zijn verpersoonlijkingsmodellen, zie [Gegevensverzameling voor personaliseringsalgoritmen van het Doel](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van Target te gebruiken, zie [Methoden om gegevens op te halen in doel](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
 
 **Wat is een geautomatiseerd segment?**
 

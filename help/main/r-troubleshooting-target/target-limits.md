@@ -5,9 +5,9 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
    Als u de Batch Delivery-API gebruikt, is de limiet 50 dozen per aanvraag voor de batch.
 
-   Als u het [Batchlevering-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) in de SDK van de Mobiele Diensten, zijn de grens van 50 mbox parameters, 50 profielparameters, en 50 voor andere parametertypes beperkingen van API zelf. Het is niet mogelijk om een aanvraag met meer dan deze nummers te verzenden via de Batch Delivery-API. Als een aanvraag meer dan deze limieten bevat, retourneert de API het volgende foutbericht:
+   Als u de Batch Delivery-API in de Mobile Services SDK gebruikt, zijn de limiet van 50 mbox-parameters, 50 profielparameters en 50 voor andere parametertypen beperkingen van de API zelf. Het is niet mogelijk om een aanvraag met meer dan deze nummers te verzenden via de Batch Delivery-API. Als een aanvraag meer dan deze limieten bevat, retourneert de API het volgende foutbericht:
 
    &quot;Het aantal mboxParameters mag niet groter zijn dan 50.&quot;
 

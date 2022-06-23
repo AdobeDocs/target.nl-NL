@@ -4,9 +4,9 @@ description: Verken uzelf met de gebruikersinterface en zoek koppelingen naar me
 title: Hoe gebruik ik de [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,9 @@ De volgende secties bevatten informatie over elk lusje, en hoe te om berichten e
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-U kunt alle meldingen markeren als gelezen of alle meldingen weergeven onder in het deelvenster.
+U kunt afzonderlijke meldingen markeren als gelezen door de muisaanwijzer op de gewenste melding te plaatsen en vervolgens op het vinkje te klikken. U kunt alle meldingen als gelezen markeren of alle meldingen weergeven door op [!UICONTROL "Mark as Read"] of [!UICONTROL "View All"] onder aan het deelvenster.
+
+U kunt ook een herinnering instellen die opnieuw moet worden gewaarschuwd door de muisaanwijzer boven een bericht te houden en op &quot;[!UICONTROL Remind me]&quot;, selecteert u vervolgens wanneer u een melding wilt ontvangen: 5 minuten, 15 minuten, 1 uur of morgen.
 
 ### Aankondigingen
 

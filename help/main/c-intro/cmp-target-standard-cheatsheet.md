@@ -4,9 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Kijk uit de [Doelforum van de Gemeenschap](/help/main/cmp-resources-and-contact-
 
 **Welke browsers worden door het doel ondersteund?**
 
-Lees onze [Ondersteunde browsers](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) matrix voor meer details. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
+Lees onze [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/) matrix voor meer details. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
 
 ## Activiteiten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -43,11 +43,11 @@ Gebruiken [A/B-tests](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB1
 
 **Hoe weet ik wanneer ik een activiteit stop?**
 
-Voortijdig stoppen van activiteiten kan leiden tot verkeerde conclusies. Be aware of [common pitfalls and ensure practices to avoid them](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). See also, [How long should you run an A/B Test](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
+Voortijdig stoppen van activiteiten kan leiden tot verkeerde conclusies. Wees op de hoogte van [gemeenschappelijke valkuilen en praktijken om deze te voorkomen](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Zie ook: [Hoe lang moet u een A/B-test uitvoeren?](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
 
-**How can I perform an activity if the time-window is small?**
+**Hoe kan ik een activiteit uitvoeren als het time-window klein is?**
 
-**Can I optimize for my goal as I test?**
+**Kan ik optimaliseren voor mijn doel terwijl ik test?**
 
 Gebruik onze [rapporten om de winnende ervaring te bepalen](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
 
@@ -57,13 +57,13 @@ Uitchecken [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to
 
 **Hoe kan ik weten welk type activiteit het beste bij mijn behoeften past?**
 
-Read the [Target Activities Guide](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) to understand the scenarios where each of the options provided by Adobe Target makes sense.
+Lees de [Doelgids voor activiteiten](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) om inzicht te krijgen in de scenario&#39;s waarin elk van de door Adobe Target geboden opties zinvol is.
 
 Zorg ervoor dat u ook rekening houdt met [Recommendations-activiteiten](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 **Hoe kan ik ontdekken welke combinaties van elementen op mijn pagina bijdragen aan het succes ervan en in welke mate elk element helpt?**
 
-Check out our [Full Factorial Multivariate (MVT) activities](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) with Element contribution analysis to see if it meets your needs.
+Bekijk onze [Volledige multivariatie (MVT)-activiteiten](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) met de Contribute-analyse van Element om te zien of het voldoet aan uw behoeften.
 
 Merk op dat de verkeersbehoefte met de activiteiten van MVT toeneemt.
 
@@ -75,7 +75,7 @@ Probeer de [Multipage Activity, functie](/help/main/c-experiences/c-visual-exper
 
 **Hoe kan ik ervoor zorgen dat een gebruiker, zodra een doel (Primair of Secundair) is bereikt, nooit opnieuw de activiteit ingaat en in plaats daarvan een verschillende activiteit ziet die verder gaat?**
 
-Dit kunt u eenvoudig bereiken met de [Geavanceerde instellingen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) optie beschikbaar bij elk doel. You have options to decide what should happen after user reaches the goal and how you want the counting to be incremented.
+Dit kunt u eenvoudig bereiken met de [Geavanceerde instellingen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) optie beschikbaar bij elk doel. U kunt kiezen wat er moet gebeuren als de gebruiker het doel heeft bereikt en hoe u het tellen wilt verhogen.
 
 Zo, in dit geval, zou u &quot;de Telling van de Toename, Gebruiker &amp; Bar van de Versie van Terugkeer&quot;samen met &quot;Standaard/Andere Inhoud van de Activiteit&quot;kunnen kiezen om het doel te bereiken. Bekijk ook andere opties.
 
@@ -142,23 +142,23 @@ De beste manier zou zijn om dozen te gebruiken en [aangepast publiek](/help/main
 
 **Kan ik ervaringen aanbieden op basis van bezoekerskenmerken voor meerdere bezoeken?**
 
-**Can I randomly split the traffic in two buckets?**
+**Kan ik het verkeer in twee emmers willekeurig verdelen?**
 
-Try the [Profile Scripts feature](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2). Het is een krachtige manier om ervaringen te personaliseren, hoewel het vereist dat u code schrijft.
+Probeer de [Profielscripts, functie](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2). Het is een krachtige manier om ervaringen te personaliseren, hoewel het vereist dat u code schrijft.
 
 **Kan ik een activiteit beginnen met een kleiner aantal bezoekers?**
 
 Gebruik de besturingselementen voor procentuele toewijzing die beschikbaar zijn via [Stap 2 van de Geleide workflow met instructies voor het doel (Doelpagina)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te bepalen hoe u over vestiging de activiteit wilt gaan.
 
-**I also have Adobe Analytics and want to leverage it with Target. What key capabilities do I get by integrating the two solutions?**
+**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
-* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Klantkenmerken](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
-## Experiences {#section_5959536B8D6A4BEA8FAA1273338F3451}
+## Ervaringen {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
 **Kan ik een activiteit op veelvoudige pagina&#39;s in werking stellen waar de paginastructuur gemeenschappelijk is?**
 
@@ -168,7 +168,7 @@ Uitchecken [Sjabloonregels](/help/main/c-experiences/c-visual-experience-compose
 
 De reden hiervoor is dat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- als HTTPS-bronnen ophaalt. Vraag uw team van IT zich volledig naar HTTPS te bewegen.
 
-Until this happens, follow the instructions in [Enabling Mixed Content in Your Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) to allow your browser to load mixed content. Dit is een beveiligingsfunctie van de meeste moderne browsers.
+Volg de instructies in het dialoogvenster [Gemengde inhoud in uw browser inschakelen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) zodat de browser gemengde inhoud kan laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
 **Kan ik Visual Experience Composer (VEC) op mijn plaats proberen alhoewel het Doel at.js bibliotheek nog niet is opgesteld?**
 
@@ -246,19 +246,19 @@ Het is mogelijk dat uw site dynamische id&#39;s, dubbele id&#39;s of dynamische 
 
 Gebruik onze [foutopsporing](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) en controleren op [activiteitenbotsingen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**Can I use Target&#39;s decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations?**
+**Kan ik de beslissingskracht van Target gebruiken om een ervaring/aanbieding te ontvangen die kan worden gebruikt in toepassingen van één pagina (SPA) of serverintegratie?**
 
-Use the power of [form-based activities](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) with [JSON offers](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) to meet your goal.
+Gebruik de kracht van [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) with [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te bereiken.
 
 ## Rapporten (met inbegrip van Analytics voor doel-A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**I also have Adobe Analytics and want to leverage it with Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**Ik heb ook Adobe Analytics en ik wil dit benutten met Target. Welke belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Klantkenmerken](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Het spijt ons dat u problemen ondervindt. Uitchecken [Probleemoplossing](/help/m
 
 **We hebben een mobiele SKU. Kan ik mobiele activiteiten creëren?**
 
-Voor optimalisatie en personalisatie op mobiele apparaten moet u [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) samen met de [Adobe SDK](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Meer informatie over [Doel voor mobiele apps](/help/main/c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
+Voor optimalisatie en personalisatie op mobiele apparaten moet u [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) samen met de [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Meer informatie over [Doel voor mobiele apps](https://developer.adobe.com/target/implement/mobile/).
 
 ## Doel-API&#39;s {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Waar kan ik meer leren over doel-API&#39;s?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [Leverings-API&#39;s, NodeJS SDK en Recommendations API&#39;s-documentatie](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+We hebben uitgebreide documentatie over API&#39;s. Zie [Leverings-API&#39;s, NodeJS SDK en Recommendations API&#39;s-documentatie](https://developer.adobe.com/target/implement/server-side/).

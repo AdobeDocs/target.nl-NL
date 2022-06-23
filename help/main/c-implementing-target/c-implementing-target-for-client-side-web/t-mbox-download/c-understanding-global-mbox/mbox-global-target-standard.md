@@ -5,9 +5,9 @@ title: Kan ik een globale box van een Verouderde implementatie gebruiken?
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ De volgende FAQs kan worden gebruikt om uw globale mbox implementatie problemen 
 
 ### Waarom wordt het globale selectievakje niet geladen, of waarom is er latentie bij het laden van het globale selectievakje wanneer de pagina wordt geladen?
 
-Zorg ervoor dat de verwijzing at.js de eerste JavaScript-aanroep op de pagina is. Voor andere oplossingen voor dit probleem raadpleegt u [Algemene mbox Veelgestelde vragen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
+Zorg ervoor dat de verwijzing at.js de eerste JavaScript-aanroep op de pagina is. Voor andere oplossingen voor dit probleem raadpleegt u [Algemene mbox Veelgestelde vragen](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).

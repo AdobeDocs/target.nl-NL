@@ -5,9 +5,9 @@ title: Kan ik implementeren [!DNL Target] zonder tagbeheer?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1782'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Informatie over de uitvoering [!DNL Adobe Target] zonder gebruik te maken van ta
 
 >[!NOTE]
 >
->Tags in [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor de implementatie [!DNL Target] en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer u tags gebruikt in [!DNL Adobe Experience Platform] uitvoeren [!DNL Target].
+>Tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) is de voorkeursmethode voor de implementatie [!DNL Target] en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer u tags gebruikt in [!DNL Adobe Experience Platform] uitvoeren [!DNL Target].
 
 Om toegang te krijgen tot [!UICONTROL Implementation] pagina, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -32,7 +32,7 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 >[!NOTE]
 >
->U kunt instellingen in de bibliotheek at.js overschrijven in plaats van de instellingen in het dialoogvenster [!DNL Target Standard/Premium] UI of door REST APIs te gebruiken. Zie voor meer informatie [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>U kunt instellingen in de bibliotheek at.js overschrijven in plaats van de instellingen in het dialoogvenster [!DNL Target Standard/Premium] UI of door REST APIs te gebruiken. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Accountgegevens
 
@@ -42,7 +42,7 @@ U kunt de volgende accountdetails weergeven. Deze instellingen kunnen niet worde
 | --- | --- |
 | [!UICONTROL Client Code] | De clientcode is een clientspecifieke reeks tekens die vaak vereist zijn bij het gebruik van de [!DNL Target] API&#39;s. |
 | [!UICONTROL IMS Organization ID] | Deze id koppelt uw implementatie aan uw [!DNL Adobe Experience Cloud] account. |
-| [!UICONTROL On-Device Decisioning] | Schuif de schakeloptie naar de stand &quot;aan&quot; om de apparaatbesturing in te schakelen.<br>Op apparaat beslissend laat u uw A/B en in het voorgeheugen onderbrengen [!UICONTROL Experience Targeting] (XT) voert campagnes op uw server en in-geheugenbesluit bij bijna-nul latentie uit. Zie voor meer informatie [Inleiding tot apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in de *[!DNL Adobe Target]SDK&#39;s* hulplijn. |
+| [!UICONTROL On-Device Decisioning] | Schuif de schakeloptie naar de stand &quot;aan&quot; om de apparaatbesturing in te schakelen.<br>Op apparaat beslissend laat u uw A/B en in het voorgeheugen onderbrengen [!UICONTROL Experience Targeting] (XT) voert campagnes op uw server en in-geheugenbesluit bij bijna-nul latentie uit. Zie voor meer informatie [Inleiding tot apparaatbeslissingen](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) in de *[!DNL Adobe Target]SDK&#39;s* hulplijn. |
 | [!UICONTROL Include all existing on-device decisioning qualified activities in the artifact.] | (Voorwaardelijk) Deze optie wordt weergegeven als u het bepalen op het apparaat inschakelt.<br>Schuif de schakeloptie naar de positie &quot;aan&quot; als u wilt dat al uw live doelactiviteiten die in aanmerking komen voor beslissingen op het apparaat automatisch worden opgenomen in het artefact.<br>Als u deze schakeloptie uitschakelt, moet u alle beslissingsactiviteiten op het apparaat opnieuw maken en activeren, zodat deze worden opgenomen in het gegenereerde regelartefact. |
 
 ## Implementatiemethoden
@@ -59,7 +59,7 @@ U kunt de volgende instellingen configureren in het deelvenster Implementatiemet
 | --- | --- |
 | Laden van pagina ingeschakeld (Automatisch een globaal selectievakje maken | Geef op of u de algemene mbox-aanroep in het bestand at.js wilt insluiten om automatisch op elke pagina te starten. |
 | Globale mbox | Selecteer een naam voor het globale vakje. Deze naam is standaard target-global-mbox.<br>Speciale tekens, zoals ampersands (&amp;), kunnen worden gebruikt in mbox-namen met at.js. |
-| Time-out (seconden) | Indien [!DNL Target] reageert niet met inhoud binnen de gedefinieerde periode, de wachttijden van de serveraanroep zijn verstreken en de standaardinhoud wordt weergegeven. Aanvullende aanroepen worden nog steeds geprobeerd tijdens de sessie van de bezoeker. De standaardwaarde is 5 seconden.<br>De bibliotheek at.js gebruikt de time-outinstelling in `XMLHttpRequest`. De time-out begint wanneer de aanvraag wordt geactiveerd en stopt wanneer [!DNL Target] krijgt een reactie van de server. Zie voor meer informatie [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) op het Mozilla Developer Network.<br>Als de opgegeven time-out optreedt voordat de reactie wordt ontvangen, wordt standaardinhoud weergegeven en wordt de bezoeker wellicht geteld als een deelnemer aan een activiteit omdat alle gegevensverzameling plaatsvindt op het tabblad [!DNL Target] rand. Als de aanvraag de [!DNL Target] edge, de bezoeker wordt geteld.<br>Denk aan het volgende wanneer u de time-outinstelling configureert:<ul><li>Als de waarde te laag is, kunnen gebruikers de standaardinhoud het grootste deel van de tijd zien, hoewel de bezoeker als deelnemer aan de activiteit kon worden geteld.</li><li>Als de waarde te hoog is, kunnen bezoekers lege gebieden op uw webpagina of lege pagina&#39;s zien als u de hoofdtekst langere tijd verbergt.</li></ul>Om een beter inzicht in mbox reactietijden te krijgen, bekijk het lusje van het Netwerk in de Hulpmiddelen van de Ontwikkelaar van uw browser. U kunt ook controlehulpmiddelen voor webprestaties van derden gebruiken, zoals Catchpoint.<br>**Opmerking**: De [bezoekerApiTimeout](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) het plaatsen zorgt ervoor dat [!DNL Target] wacht niet te lang op de reactie van de bezoeker-API. Deze instelling en de instelling Time-out voor at.js die hier wordt beschreven, zijn niet van invloed op elkaar. |
+| Time-out (seconden) | Indien [!DNL Target] reageert niet met inhoud binnen de gedefinieerde periode, de wachttijden van de serveraanroep zijn verstreken en de standaardinhoud wordt weergegeven. Aanvullende aanroepen worden nog steeds geprobeerd tijdens de sessie van de bezoeker. De standaardwaarde is 5 seconden.<br>De bibliotheek at.js gebruikt de time-outinstelling in `XMLHttpRequest`. De time-out begint wanneer de aanvraag wordt geactiveerd en stopt wanneer [!DNL Target] krijgt een reactie van de server. Zie voor meer informatie [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) op het Mozilla Developer Network.<br>Als de opgegeven time-out optreedt voordat de reactie wordt ontvangen, wordt standaardinhoud weergegeven en wordt de bezoeker wellicht geteld als een deelnemer aan een activiteit omdat alle gegevensverzameling plaatsvindt op het tabblad [!DNL Target] rand. Als de aanvraag de [!DNL Target] edge, de bezoeker wordt geteld.<br>Denk aan het volgende wanneer u de time-outinstelling configureert:<ul><li>Als de waarde te laag is, kunnen gebruikers de standaardinhoud het grootste deel van de tijd zien, hoewel de bezoeker als deelnemer aan de activiteit kon worden geteld.</li><li>Als de waarde te hoog is, kunnen bezoekers lege gebieden op uw webpagina of lege pagina&#39;s zien als u de hoofdtekst langere tijd verbergt.</li></ul>Om een beter inzicht in mbox reactietijden te krijgen, bekijk het lusje van het Netwerk in de Hulpmiddelen van de Ontwikkelaar van uw browser. U kunt ook controlehulpmiddelen voor webprestaties van derden gebruiken, zoals Catchpoint.<br>**Opmerking**: De [bezoekerApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) het plaatsen zorgt ervoor dat [!DNL Target] wacht niet te lang op de reactie van de bezoeker-API. Deze instelling en de instelling Time-out voor at.js die hier wordt beschreven, zijn niet van invloed op elkaar. |
 | Profiellevensduur | Deze instelling bepaalt hoe lang bezoekersprofielen worden opgeslagen. Profielen worden standaard twee weken opgeslagen. Deze instelling kan tot 90 dagen worden verhoogd.<br>Als u de instelling voor de levensduur van het profiel wilt wijzigen, neemt u contact op met [Clientservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html). |
 
 ### Hoofduitvoeringsmethode
@@ -87,21 +87,16 @@ Naast de hierboven beschreven instellingen zijn ook de volgende specifieke inste
 
 Vanaf versie 2.5.0 biedt at.js on-device beslissingen. Op apparaat kunt u de beslissing in de cache plaatsen [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) en [Gericht op ervaring](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op browser om in geheugenbesluiten zonder een blokkerend netwerkverzoek aan browser uit te voeren [!DNL Adobe Target] Edge Network.
 
-Zie voor meer informatie:
+Zie onderwerpen voor meer informatie:
 
-* Client-kant: [Apparaatbeslissingen voor at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-* Server-kant: [Inleiding tot apparaatbeslissingen](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Server-kant: [Apparaatbeslissingen](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
-* Node.js: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
-* Java: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
-* .NET: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
-* Python: [Beslissing op apparaat inschakelen voor uw organisatie](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+* [Apparaatbeslissingen voor client-side](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [Apparaatbeslissingen voor server-side](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ### Profiel-API
 
 Schakel verificatie voor batchupdates via API in of uit en genereer een profielverificatietoken.
 
-Zie voor meer informatie [Profiel-API-instellingen](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+Zie voor meer informatie [Profiel-API-instellingen](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
 
 ### Foutopsporingsgereedschappen
 
@@ -119,11 +114,11 @@ Kies het gewenste plaatsen van de IP van de Bezoeker van de Verduistering adresd
 * Volledige IP-verduistering
 * Geen
 
-Zie voor meer informatie [Privacy](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 >[!NOTE]
 >
->De optie Verouderde browserondersteuning was beschikbaar in versie 0.js 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4. Voor een lijst met browsers die door at.js worden ondersteund, raadpleegt u [Ondersteunde browsers](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Verouderde browsers zijn oudere browsers die geen volledige ondersteuning bieden voor CORS (Cross Origin Resource Sharing). Deze browsers zijn: Browsers van Internet Explorer ouder dan versie 11 en Safari versies 6 en lager. Als ondersteuning voor verouderde browsers was uitgeschakeld, heeft Target geen inhoud geleverd of heeft Target geen bezoekers geteld in rapporten over deze browsers. Als deze optie is ingeschakeld, wordt u aangeraden kwaliteitsborging toe te passen in alle oudere browsers, zodat de klant er optimaal van profiteert.
+>De optie Verouderde browserondersteuning was beschikbaar in versie 0.js 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4. Voor een lijst met browsers die door at.js worden ondersteund, raadpleegt u [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/).<br>Verouderde browsers zijn oudere browsers die geen volledige ondersteuning bieden voor CORS (Cross Origin Resource Sharing). Deze browsers zijn: Browsers van Internet Explorer ouder dan versie 11 en Safari versies 6 en lager. Als ondersteuning voor verouderde browsers was uitgeschakeld, heeft Target geen inhoud geleverd of heeft Target geen bezoekers geteld in rapporten over deze browsers. Als deze optie is ingeschakeld, wordt u aangeraden kwaliteitsborging toe te passen in alle oudere browsers, zodat de klant er optimaal van profiteert.
 
 ## Downloaden om.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -131,9 +126,9 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target] of de Download 
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is de voorkeursmethode voor de implementatie [!DNL Target] en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer u tags gebruikt in [!DNL Adobe Experience Platform] uitvoeren [!DNL Target].
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) is de voorkeursmethode voor de implementatie [!DNL Target] en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer u tags gebruikt in [!DNL Adobe Experience Platform] uitvoeren [!DNL Target].
 >
->* De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+>* De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 
 ### Download om.js met de [!DNL Target] interface {#section_1F5EE401C2314338910FC57F9592894E}
@@ -185,7 +180,7 @@ Downloaden [!DNL at.js] met de API.
 
    >[!IMPORTANT]
    >
-   >Het team van het Doel handhaaft slechts twee versies [!DNL at.js]—de huidige versie en de tweede nieuwste versie. Voer een upgrade uit [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+   >Het team van het Doel handhaaft slechts twee versies [!DNL at.js]—de huidige versie en de tweede nieuwste versie. Voer een upgrade uit [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
    Wanneer u deze URL laadt, wordt het downloaden van uw aangepaste [!DNL at.js] bestand.
 
@@ -193,7 +188,7 @@ Downloaden [!DNL at.js] met de API.
 
 te.js moet worden geïmplementeerd in de `<head>` element van elke pagina van uw website.
 
-Een standaardimplementatie van Doel waarbij geen tagbeheer wordt gebruikt, zoals tags in [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ziet er als volgt uit:
+Een standaardimplementatie van Doel waarbij geen tagbeheer wordt gebruikt, zoals tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) ziet er als volgt uit:
 
 ```
 <!doctype html> 
@@ -252,7 +247,7 @@ Houd rekening met de volgende belangrijke opmerkingen:
 * Het HTML5 Doctype (bijvoorbeeld `<!doctype html>`) moet worden gebruikt. Niet-ondersteunde of oudere documenttypen kunnen ertoe leiden dat Target geen aanvraag kan indienen.
 * De opties Preconnect en Prefetch zijn opties die u kunnen helpen uw webpagina&#39;s sneller te laden. Als u deze configuraties gebruikt, zorg ervoor dat u vervangt `<client code>` met uw eigen clientcode, die u kunt verkrijgen via de **[!UICONTROL Administration]** > **[!UICONTROL Implementation] pagina.
 * Als u een gegevenslaag hebt, kunt u het beste zo veel mogelijk definiëren in het dialoogvenster `<head>` van uw pagina&#39;s voordat om.js wordt geladen. Deze plaatsing verstrekt de maximumcapaciteit om deze informatie in Doel voor verpersoonlijking te gebruiken.
-* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`, gegevensleveranciers, en `targetGlobalSettings()` moet worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze functies ook opslaan in het dialoogvenster [!UICONTROL Library Header] van de [!UICONTROL Edit at.js Settings] en wordt opgeslagen als onderdeel van de bibliotheek at.js zelf. Zie voor meer informatie over deze functies [at.js-functies](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`, gegevensleveranciers, en `targetGlobalSettings()` moet worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze functies ook opslaan in het dialoogvenster [!UICONTROL Library Header] van de [!UICONTROL Edit at.js Settings] en wordt opgeslagen als onderdeel van de bibliotheek at.js zelf. Zie voor meer informatie over deze functies [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 * Als u JavaScript-hulplijnbibliotheken gebruikt, zoals jQuery, neemt u deze vóór Target op, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
 * Omvat om.js in `<head>` van uw pagina&#39;s.
 

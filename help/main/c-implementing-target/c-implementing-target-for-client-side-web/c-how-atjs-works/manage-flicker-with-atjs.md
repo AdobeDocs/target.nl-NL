@@ -5,9 +5,9 @@ title: Hoe beheert at.js Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Er wordt geflikkerd als de standaardinhoud tijdelijk aan bezoekers wordt weergeg
 
 ## Een automatisch gemaakte globale mbox gebruiken {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Als u de optie [Globale box automatisch maken](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) Als u instelt bij het configureren van at.js, beheert at.js flikkering door de instelling voor dekking te wijzigen terwijl de pagina wordt geladen. Wanneer at.js laadt, wijzigt dit de dekkingsinstelling van het gereedschap `<body>` element aan &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
+Als u de optie [Globale box automatisch maken](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) Als u instelt bij het configureren van at.js, beheert at.js flikkering door de instelling voor dekking te wijzigen terwijl de pagina wordt geladen. Wanneer at.js laadt, wijzigt dit de dekkingsinstelling van het gereedschap `<body>` element aan &quot;0&quot;, waardoor de pagina aanvankelijk onzichtbaar wordt voor bezoekers. Nadat een reactie van Doel wordt ontvangen-of als een fout met het verzoek van het Doel wordt ontdekt-at.js stelt opaciteit aan &quot;1&quot;terug. Zo weet u zeker dat de bezoeker de pagina alleen ziet nadat de inhoud van uw activiteiten is toegepast.
 
 Als u de instelling inschakelt tijdens het configureren van at.js, stelt at.js de dekking van de HTML BODY-stijl in op 0. Nadat een reactie van Doel wordt ontvangen, stelt at.js HTML BODY opaciteit aan 1 terug.
 
@@ -38,7 +38,7 @@ De volgende illustratie toont het Lichaam van de Huid en toont de vraag van het 
 
 ![](assets/target-flow2.png)
 
-Voor meer informatie over de `bodyHiddenStyle` override, zie [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Voor meer informatie over de `bodyHiddenStyle` override, zie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## flikkering beheren bij asynchroon laden bij .js
 

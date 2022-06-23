@@ -4,9 +4,9 @@ description: Leer hoe u e-mail kunt integreren met Adobe [!DNL Target Recommenda
 title: Hoe integreer ik Recommendations met e-mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Wanneer `clientcode` is uw [!DNL Target] clientcode.
 >
 >Zorg ervoor dat u een unieke waarde opgeeft voor beide `sessionId` en een van `tntId` of `thirdPartyId` voor elke e-mailontvanger (bijvoorbeeld voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege de vele gebeurtenissen die binnen één profiel zijn gegenereerd.
 
-Zie [Leverings-API-documentatie](https://developers.adobetarget.com/api/#server-side-delivery) voor meer informatie .
+Zie [Leverings-API-documentatie](https://developer.adobe.com/target/implement/delivery-api/) voor meer informatie .
 
 ## Methode 2: Een e-mailsjabloon voor een rawbox gebruiken {#rawbox}
 

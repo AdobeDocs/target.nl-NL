@@ -5,9 +5,9 @@ title: Hoe werkt de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1134'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Bij een clientimplementatie van [!DNL Adobe Target], [!DNL Target] levert de erv
 
 ## Wat is at.js?
 
-De bibliotheek at.js is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Wij adviseren dat alle klanten uitvoeren of aan migreren [nieuwste versie van at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+De bibliotheek at.js is de nieuwe implementatiebibliotheek voor Doel. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js is de aanbevolen implementatiebibliotheek en wordt regelmatig bijgewerkt met nieuwe mogelijkheden. Wij adviseren dat alle klanten uitvoeren of aan migreren [nieuwste versie van at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 Zie voor meer informatie [JavaScript-doelbibliotheken](/help/main/c-intro/how-target-works.md#libraries).
 
@@ -28,7 +28,7 @@ In de [!DNL Target] hieronder weergegeven, de volgende [!DNL Adobe Experience Cl
 
 ## Wat is het verschil tussen at.js 1.*x* en werkstroomdiagrammen bij .js 2.x?
 
-Zie [Bijwerken van at.js 1.x naar at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) voor meer informatie over de verschillen die in 2.O van 1 werden ingevoerd.*x*.
+Zie [Bijwerken van at.js 1.x naar at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) voor meer informatie over de verschillen die in 2.O van 1 werden ingevoerd.*x*.
 
 Vanuit een weergave op hoog niveau zijn er enkele verschillen tussen de twee versies:
 
@@ -37,7 +37,7 @@ Vanuit een weergave op hoog niveau zijn er enkele verschillen tussen de twee ver
 
 ## at.js 2.x-diagrammen
 
-Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met weergaven en in de manier waarop dit de integratie van SPA verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie [Toepassing van één pagina](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met weergaven en in de manier waarop dit de integratie van SPA verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie [Toepassing van één pagina](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Doelstroom met at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -52,7 +52,7 @@ Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met wee
 | 7 | De analysegegevens worden verzonden naar de servers van de Inzameling van Gegevens. |
 | 8 | De gerichte gegevens worden aangepast aan de analysegegevens via SDID en worden verwerkt in de analytische rapporteringsopslag.<br>De analysegegevens kunnen dan in zowel Analytics als Doel via Analytics voor de rapporten van het Doel (A4T) worden bekeken. |
 
-Nu, waar dan ook `triggerView()` wordt geïmplementeerd op uw SPA, worden de weergaven en acties opgehaald uit het cachegeheugen en aan de gebruiker getoond zonder een serveraanroep. `triggerView()` verzoekt de Commissie tevens [!DNL Target] achterkant om het aantal beeldingen te verhogen en op te nemen. Ga voor meer informatie over at.js voor SPA met Weergaven naar [Toepassing van één pagina](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Nu, waar dan ook `triggerView()` wordt geïmplementeerd op uw SPA, worden de weergaven en acties opgehaald uit het cachegeheugen en aan de gebruiker getoond zonder een serveraanroep. `triggerView()` verzoekt de Commissie tevens [!DNL Target] achterkant om het aantal beeldingen te verhogen en op te nemen. Ga voor meer informatie over at.js voor SPA met Weergaven naar [Toepassing van één pagina](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Doelstroom bij.js 2.x triggerView](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 

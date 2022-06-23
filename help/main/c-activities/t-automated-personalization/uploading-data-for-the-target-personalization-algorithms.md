@@ -4,9 +4,9 @@ description: Leer hoe te om off-line gegevens, zoals de informatie van CRM te up
 title: Hoe kan ik gegevens voor de algoritmen van de Personalisatie uploaden?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescores, kunnen ongelooflijk waardevol zijn wanneer u modellen voor personalisatie ontwikkelt in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activiteiten.
 
-Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] personalisatiealgoritmen. Naast de methoden in [Methoden om gegevens op te halen in doel](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), Experience Cloud delen het publiek (Adobe Analytics, Audience Management) en het publiek dat actief rapporteert, worden ook in onze algoritmen gebruikt.
+Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] personalisatiealgoritmen. Naast de methoden in [Methoden om gegevens op te halen in doel](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), Experience Cloud delen het publiek (Adobe Analytics, Audience Management) en het publiek dat actief rapporteert, worden ook in onze algoritmen gebruikt.
 
 Voor informatie over de gegevens die automatisch worden verzameld en gebruikt door Automated Personalization en Auto-Target verpersoonlijkingsalgoritmen, zie [Automated Personalization-gegevensverzameling](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

@@ -5,9 +5,9 @@ title: Hoe maak ik een Adbox voor een afbeelding?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Gebruik een AdBox om afbeeldingen te leveren in een externe implementatie met Ad
 
 Een AdBox is vergelijkbaar met een box, maar wordt beheerd door een URL in plaats van JavaScript. AdBox wordt gemaakt met een speciale URL voor een advertentievak die een advertentievak (of advertentievak) in uw Adobe-account laadt. Gebruik deze AdBox in plaats van de box in uw activiteiten. Gebruik de URL van het AdBox in plaats van een verwijzing naar een directe afbeelding in e-mail of andere niet-JavaScript-implementaties.
 
-Voor hulp bij het selecteren van de juiste setup raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Voor hulp bij het selecteren van de juiste setup raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/).
 
 1. Maak de URL van het advertentievak:
 
@@ -48,7 +48,7 @@ Voor hulp bij het selecteren van de juiste setup raadpleegt u [Implementaties di
 
 1. Maak de activiteit.
 
-   Zie [Implementaties die niet op JavaScript zijn gebaseerd](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) voor de juiste opstelling om uw doelstellingen te ontmoeten.
+   Zie [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/) voor de juiste opstelling om uw doelstellingen te ontmoeten.
 1. Volledige kwaliteitscontrole op de activiteit.
 
    Als beste praktijken, creeer een dummypagina en verifieer dat alle ervaringen, standaardinhoud, en rapporten zoals verwacht op alle browser types, voor al uw milieu&#39;s handelen.

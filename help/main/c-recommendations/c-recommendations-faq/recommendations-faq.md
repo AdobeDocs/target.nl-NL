@@ -4,9 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe weergeve
 title: Waar kan ik vragen en antwoorden vinden over [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3106'
+source-wordcount: '3111'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
-[!DNL Target] heeft een [Niet-compatibele criteria filteren](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) instellen om het intelligent filteren van de algoritmekiezer te beheren.
+[!DNL Target] heeft een [Niet-compatibele criteria filteren](https://developer.adobe.com/target/implement/recommendations/) instellen om het intelligent filteren van de algoritmekiezer te beheren.
 
 >[!NOTE]
 >

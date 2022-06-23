@@ -4,9 +4,9 @@ description: Kijk eens naar Adobe Target. Meer informatie over beschikbare activ
 title: Waar kan ik een Inleiding op hoog niveau aan doel vinden?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2486'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ Velen van u zouden kunnen willen gebruiken [!DNL Target] om op uw vele verschill
 
 | Type implementatie | Details |
 | --- | --- |
-| Client-kant | Met deze [!DNL Target], [!DNL Target] levert de ervaringen verbonden aan een activiteit rechtstreeks aan cliëntbrowser. De browser bepaalt welke ervaring wordt weergegeven en geeft deze weer. Met cliënt-kant, kunt u een redacteur gebruiken WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) of een niet-visuele interface **[!UICONTROL Form-based Experience Composer]**, om uw test- en personaliservaringen te maken. [Meer informatie](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
-| Server-kant | In dit type [!DNL Target] een clientapparaat een aanvraag doet voor een ervaring via uw server, verzendt de server die aanvraag naar [!DNL Target], [!DNL Target] verzendt de reactie terug naar uw server, en uw server neemt het besluit over welke ervaring om aan het cliëntapparaat voor het terug te geven te leveren. De ervaring hoeft niet in een browser te worden weergegeven. het kan in een e-mail of kiosk, via een stemmedewerker, of door één of andere andere niet-visuele ervaring of niet op browser-gebaseerd apparaat tonen. Omdat uw server tussen de client en [!DNL Target]Dit type implementatie is ook ideaal als u meer controle en beveiliging nodig hebt of complexe back-endprocessen hebt die u op uw server wilt uitvoeren. [Meer informatie](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| Client-kant | Met deze [!DNL Target], [!DNL Target] levert de ervaringen verbonden aan een activiteit rechtstreeks aan cliëntbrowser. De browser bepaalt welke ervaring wordt weergegeven en geeft deze weer. Met cliënt-kant, kunt u een redacteur gebruiken WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) of een niet-visuele interface **[!UICONTROL Form-based Experience Composer]**, om uw test- en personaliservaringen te maken. [Meer informatie](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/). |
+| Server-kant | In dit type [!DNL Target] een clientapparaat een aanvraag doet voor een ervaring via uw server, verzendt de server die aanvraag naar [!DNL Target], [!DNL Target] verzendt de reactie terug naar uw server, en uw server neemt het besluit over welke ervaring om aan het cliëntapparaat voor het terug te geven te leveren. De ervaring hoeft niet in een browser te worden weergegeven. het kan in een e-mail of kiosk, via een stemmedewerker, of door één of andere andere niet-visuele ervaring of niet op browser-gebaseerd apparaat tonen. Omdat uw server tussen de client en [!DNL Target]Dit type implementatie is ook ideaal als u meer controle en beveiliging nodig hebt of complexe back-endprocessen hebt die u op uw server wilt uitvoeren. [Meer informatie](https://developer.adobe.com/target/implement/server-side/). |
 | Hybride implementatie | In deze implementatie kiest u de implementatieaanpak die het beste werkt voor een bepaald gebruiksgeval. Bijvoorbeeld, zou u een cliënt-zijimplementatie aan A/B test een aanbieding in een heldenbanner op de homepage kunnen gebruiken, maar ook een server-zijimplementatie gebruiken om de interne onderzoeksresultaten te bepalen om op cliëntbrowser, ervaring aan vertoning op een slim autodashboard, of stemreactie te tonen om van een stemmedewerker te leveren. |
 
 ## Activiteitenelementen

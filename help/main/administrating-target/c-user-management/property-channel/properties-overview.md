@@ -5,9 +5,9 @@ title: Hoe kan ik bedrijfsmachtigingen configureren?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen zelfs verschi
 
 ### Vraag uw werkruimte-id op {#workspace-id}
 
-U moet de werkruimte-id doorgeven aan Enterprise-machtigingen in [Doel-API&#39;s](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+U moet de werkruimte-id doorgeven aan Enterprise-machtigingen in [Doel-API&#39;s](https://developer.adobe.com/target/implement/server-side/).
 
 1. In de [Adobe Admin Console](https://adminconsole.adobe.com)klikt u op de knop [!UICONTROL Products] klikt u op het product in het linkermenu om de lijst PLC (werkruimte) weer te geven.
 1. Klik op de gewenste PLC (werkruimte) en zoek de id voor &quot;profielen&quot; in de URL, zoals hieronder wordt weergegeven.
@@ -158,7 +158,7 @@ Als u de opdracht [!DNL Target] gebruiker-toestemmingenfunctionaliteit, moet u t
       </script>
       ```
 
-      Ga voor meer informatie over hoe u dit kunt doen met at.js naar [targetPageParamsAll](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
+      Ga voor meer informatie over hoe u dit kunt doen met at.js naar [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/).
 
 ## Stap 6: Rollen en machtigingen opgeven {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

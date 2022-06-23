@@ -5,9 +5,9 @@ title: Wat worden vaak gestelde vragen over Global mbox?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Er wordt slechts één globale box ondersteund voor uw account.
 
 U kunt beperken waar uw activiteiten lopen door URL-regels aan uw activiteiten toe te voegen. Zie voor meer informatie [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-U kunt ook een parameter op de pagina doorgeven met [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) en selecteer vervolgens de parameters in de sectie &quot;URL configureren&quot; in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) of door de parameters toe te voegen als &quot;verfijningen&quot; in de Form-Based Experience Composer.
+U kunt ook een parameter op de pagina doorgeven met [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/) en selecteer vervolgens de parameters in de sectie &quot;URL configureren&quot; in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) of door de parameters toe te voegen als &quot;verfijningen&quot; in de Form-Based Experience Composer.
 
 ## Hoe kan ik inkomstengegevens doorgeven aan een [!DNL Target] globale mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -30,7 +30,7 @@ Om opbrengst en ordeinformatie over target-global-mbox te verzamelen, moeten de 
 
 Voor de `orderConfirmPage`, moet u `orderTotal`, `orderId`, en `productPurchasedId`.
 
-Deze parameters moeten via `targetPageParams()`. Zie voor meer informatie [Parameters doorgeven aan een globale box](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Deze parameters moeten via `targetPageParams()`. Zie voor meer informatie [Parameters doorgeven aan een globale box](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
 
 U zult ook het richten aan het omzettingsstuk willen toevoegen zodat het Doel slechts omzettingen op doel-globaal-mbox telt wanneer de pagina van de ordesbevestiging is bekeken, zoals hieronder getoond:
 

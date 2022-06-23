@@ -5,9 +5,9 @@ title: Gebruikersagent en clienttips
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel is van toepassing op [at.js versie 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (of hoger).
+>De informatie in dit artikel is van toepassing op [at.js versie 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (of hoger).
 
 
 Elke keer dat een webbrowser een aanvraag naar een server indient, wordt in de header van de aanvraag informatie opgenomen over de browser en de omgeving waarin de browser wordt uitgevoerd. Sinds de vroege dagen van Internet, zijn deze gegevens bijeengevoegd in één enkel koord genoemd user-agent.
@@ -205,4 +205,4 @@ Vanaf at.js 2.9.0, zullen de wenken van de Cliënt van de Agent van de Gebruiker
 
 ### SDK&#39;s aan serverzijde
 
-Voor meer informatie over hoe te om cliëntwenken via server-kant SDKs over te gaan, zie [Clienttips](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} in het dialoogvenster *Adobe Target SDK&#39;s* documentatie.
+Voor meer informatie over hoe te om cliëntwenken via server-kant SDKs over te gaan, zie [Clienttips](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} onder *Doelgerichtheid publiek* in de *Adobe Target SDK&#39;s* documentatie.
