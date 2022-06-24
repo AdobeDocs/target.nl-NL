@@ -1,17 +1,17 @@
 ---
-user-guide-title: Adobe [!DNL Target] Hulplijn
+user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Target Guide {#using}
+# Adobe Target Business Practice Guide {#using}
 
 + [Adobe Target Guide Home](target-home.md)
 + Opmerkingen bij de doelversie {#release-notes}
@@ -68,102 +68,6 @@ ht-degree: 0%
          + [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Doel implementeren {#implement-target}
    + [Overzicht van doel implementeren](c-implementing-target/implementing-target.md)
-   + Voordat u implementeert {#before-implement}
-      + [Voordat u implementeert](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Voorbereiden op implementatie van doel](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Privacy en beveiliging {#privacy}
-         + [Privacyoverzicht](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Regels inzake privacy en gegevensbescherming](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
-         + [Doelcookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
-         + [Het doelcookie verwijderen](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Beleid voor cookies van Google Chrome SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Inhoudsbeveiligingsbeleid (CSP)-instructies](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Lijst van gewenste personen randknooppunten doel](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
-      + Methoden om gegevens op te halen in Doel {#methods}
-         + [Overzicht van methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-         + [Paginaparameters](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
-         + [Profielkenmerken in pagina](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
-         + [Scriptprofielkenmerken](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
-         + [Gegevensleveranciers](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
-         + [Bulkprofielupdate-API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
-         + [API voor bijwerken van één profiel](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
-         + [Klantkenmerken](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
-         + [Profiel-API-instellingen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Overzicht van doelbeveiliging](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
-      + [Ondersteunde browsers](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-      + [De encryptieveranderingen van TLS (de Veiligheid van de Laag van het Vervoer)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
-      + [CNAME en Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + Client-kant web: Doel implementeren {#client-side}
-      + [Overzicht: Doel voor client-side web implementeren](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Adobe Experience Platform Web SDK-implementatie {#aep-implementation}
-         + [Overzicht AEP Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + at.js-implementatie {#at-js-implementation}
-         + Apparaatbeslissingen {#on-device-decisioning}
-            + [Overzicht van apparaatbeslissingen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [Ondersteunde functies](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [Artefact](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
-            + [Problemen oplossen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
-         + Hoe werkt at.js {#at-js}
-            + [Overzicht van de werking van at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-            + [Hoe at.js flikkering beheert](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
-            + [at.js-integratie](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
-         + Hoe te opstellen bij.js {#deploy-at-js}
-            + [Hoe te opstellen bij.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Doel implementeren met Adobe Experience Platform](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-            + [Doel implementeren zonder tagbeheer](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Doel implementeren met Dynamic Tag Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [Doel implementeren voor toepassingen van één pagina (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-         + at.js-functies {#functions-overview}
-            + [at.js, functieoverzicht](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-            + [adobe.target.getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-            + [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-            + [adobe.target.applyOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-            + [adobe.target.applyOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-            + [adobe.target.triggerView() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-            + [adobe.target.trackEvent()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-            + [mboxCreate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
-            + [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
-            + [mboxDefine() en mboxUpdate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
-            + [targetPageParams()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
-            + [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
-            + [registerExtension() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-            + [sendNotifications() - at.js 2.1](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
-            + [at.js, aangepaste gebeurtenissen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
-            + [Foutopsporing in.js met Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-            + [Gebruik cloudgebaseerde instanties met Doel](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
-         + at.js veelgestelde vragen {#faq-at-js}
-            + [at.js Veelgestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-         + [details van de at.js-versie](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-         + [Bijwerken van at.js 1.x naar at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
-         + [at.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-         + [Gebruiker-agent en de wenken van de Cliënt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
-      + De globale box begrijpen {#global-mbox}
-         + [Globaal mbox-overzicht](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-         + [Een globale box aanpassen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [Globale mbox uit een oudere implementatie gebruiken](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [Parameters doorgeven aan een globale box](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [Algemene mbox vaak gestelde vragen](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
-   + Doel voor mobiele apps {#mobile-apps}
-      + [Overzicht van het doel voor mobiele apps](c-target-mobile-app/target-mobile-app.md)
-      + [Hoe Target werkt in mobiele apps](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-      + [Doel inschakelen in de SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
-      + [iOS - maak een doellocatie en succesmaatstaf](c-target-mobile-app/mobile-create-location-and-metric.md)
-      + [iOS - aangepaste gebruikersgegevens verzenden](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Voorvertoning voor mobiele doelversie](c-target-mobile-app/target-mobile-preview.md)
-      + [Prefetaanbiedingsinhoud](c-target-mobile-app/prefetch-offer-content.md)
-      + [Veelgestelde vragen over het doel voor mobiele apps](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [Locatieservice gebruiken](/help/main/c-target-mobile-app/use-location-service.md)
-   + Serverzijde: Doel implementeren {#server-side}
-      + [Serverzijde: Implementatie van doeloverzicht](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Overgang van oudere API&#39;s van Target naar Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-      + [Apparaatbeslissingen](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
-   + [Hybride implementatie](/help/main/c-implementing-target/hybrid-implementation.md)
-   + E-mail: Doel implementeren {#implement-email}
-      + [E-mail: Implementatie van doeloverzicht](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
-      + [Een dialoogvenster maken voor een afbeelding](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
-      + [Een e-mailafbeeldingsvenster testen](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
-      + [Werken met directeuren](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Doel integreren met de Experience Cloud {#integrate}
    + Adobe Analytics als de rapportagebron voor Target (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
