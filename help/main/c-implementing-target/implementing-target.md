@@ -6,9 +6,9 @@ title: Hoe kan ik implementeren [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: d8fd919830cb6f73540af842a3b87b06b0bece3c
+source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,19 @@ De [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){ta
 
 Het ontwikkelaarsportaal bevat informatie over de volgende implementatietypen:
 
-* Client, inclusief informatie over implementatie met behulp van de [!DNL Adobe Experience Platform Web SDK] of de [!DNL Target Web SDK] (te.js).
-* Server-kant, met inbegrip van informatie over het uitvoeren over het gebruiken van Node.JS, JAVA, .NET, en Python SDKs.
-* Hybride, informatie om u te helpen uitvoeren als u een combinatie cliënt-kant en server-zijimplementaties gebruikt.
-* Recommendations, informatie om u te helpen implementeren [!DNL Recommendations], [Doelpremie](/help/main/c-intro/intro.md#premium) aanbieden.
-* Mobiele apps.
-* E-mail.
+* Client-kant: Informatie over de implementatie van het [!DNL Adobe Experience Platform Web SDK] of de [!DNL Target Web SDK] (te.js).
+* Server-kant: Informatie over het uitvoeren over het gebruiken van Node.JS, JAVA, .NET, en Python SDKs.
+* Hybride: Informatie over het uitvoeren als u een combinatie cliënt-kant en server-zijimplementaties gebruikt.
+* Recommendations: Informatie die u helpt bij het implementeren [!DNL Recommendations], [Doelpremie](/help/main/c-intro/intro.md#premium) aanbieden.
+* Mobiele apps: Informatie die u helpt bij het implementeren met [!DNL Adobe Experience Platform Mobile] SDK&#39;s.
+* E-mail: Informatie die u helpt bij het implementeren [!DNL Target] in e-mails.
+
+Zie voor meer informatie de [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank}.
+
+>[!NOTE]
+>
+>Alle informatie die eerder in het *Doel implementeren* in deze handleiding (de *Handleiding voor Adobe Target Practiter*) is nu opgenomen in het Developer-portaal.
+
 
 
 
