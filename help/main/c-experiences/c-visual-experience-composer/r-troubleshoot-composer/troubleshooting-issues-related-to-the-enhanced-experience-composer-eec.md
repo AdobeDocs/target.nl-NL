@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '429'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ Hieronder ziet u mogelijk een foutbericht en oplossingen voor het verhelpen van 
 
    **Oplossing:** Lijst van gewenste personen de IP hierboven vermelde adressen.
 
-* **Probleem:** De IP-adressen worden op de lijst met gewenste personen staan, maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór de [!DNL Target] 18.4.1 (25 april 2018), de standaardconfiguratie ondersteunde TLS 1.0. Zie voor meer informatie [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+* **Probleem:** De IP-adressen worden op de lijst met gewenste personen staan, maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór de [!DNL Target] 18.4.1 (25 april 2018), de standaardconfiguratie ondersteunde TLS 1.0. Zie voor meer informatie [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
    **Oplossing:** Zie de volgende vraag [!UICONTROL Enhanced Visual Experience Composer] niet laden op beveiligde pagina&#39;s op mijn site die TLS 1.2 gebruiken.
 
 ## De EEG wordt niet geladen op beveiligde pagina&#39;s op mijn site die TLS 1.0 gebruiken. (alleen EEG) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-U ziet mogelijk het hierboven beschreven foutbericht in &quot;The [!UICONTROL Enhanced Visual Experience Composer] niet laden op beveiligde pagina&#39;s op mijn site.&quot; als de bovenstaande IP-adressen zijn gevoegd op lijst van gewenste personen, maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór de [!DNL Target] 18.4.1 (25 april 2018), de standaardconfiguratie ondersteunde TLS 1.0. Zie voor meer informatie [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+U ziet mogelijk het hierboven beschreven foutbericht in &quot;The [!UICONTROL Enhanced Visual Experience Composer] niet laden op beveiligde pagina&#39;s op mijn site.&quot; als de bovenstaande IP-adressen zijn gevoegd op lijst van gewenste personen, maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór de [!DNL Target] 18.4.1 (25 april 2018), de standaardconfiguratie ondersteunde TLS 1.0. Zie voor meer informatie [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
 Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers hebben vergelijkbare stappen):
 
@@ -66,7 +66,7 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 
    ![](assets/firefox_more_info_3.png)
 
-1. Als u ziet dat op uw website TLS 1.0 wordt weergegeven, raadpleegt u [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} voor informatie over het TLS-ondersteuningsbeleid van Target. Om de situatie voor nu te verhelpen (geldig tot 12 september 2018), moet u [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie van TLS en het domein.
+1. Als u ziet dat op uw website TLS 1.0 wordt weergegeven, raadpleegt u [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} voor informatie over het TLS-ondersteuningsbeleid van Target. Om de situatie voor nu (geldig tot 12 september 2018) {target=_blank} te verhelpen, bereik [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie van TLS en het domein.
 
 ## Ik zie onderbrekingen of &quot;ontkende toegang&quot;fouten wanneer het laden van plaatsen met toegelaten volmacht. (alleen EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 

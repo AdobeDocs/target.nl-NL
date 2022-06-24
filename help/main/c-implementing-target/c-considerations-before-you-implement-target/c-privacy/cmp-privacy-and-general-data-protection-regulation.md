@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] Regels voor privacy en gegevensbescherming afhand
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2229'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,7 @@ De volgende tabel bevat een beschrijving van de JSON-velden voor het illustratie
 
 | Veld | Beschrijving |
 |--- |--- |
-| sample_parameter | Veel informatie in de [!DNL Target] worden geüpload of rechtstreeks geleverd door de Data Controller. In dit voorbeeld is een parameter geüpload naar de [!DNL Target] profiel gebruiken met de API voor het bijwerken van profielen. Zie voor meer informatie [Methoden om gegevens in te voeren [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| sample_parameter | Veel informatie in de [!DNL Target] worden geüpload of rechtstreeks geleverd door de Data Controller. In dit voorbeeld is een parameter geüpload naar de [!DNL Target] profiel gebruiken met de API voor het bijwerken van profielen. Zie voor meer informatie [Methoden om gegevens in te voeren [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. |
 | user.ReturnTimeOfDay | Dit standaardveld bevat de tijd van de dag van het meest recente retourbezoek van een gebruiker. |
 | firstSessionStart | Dit standaardveld bevat de tijd van de dag waarop de eerste sessie van de gebruiker is gestart. |
 | user.sessionCountScript | Veel informatie in de [!DNL Target] worden geüpload of rechtstreeks geleverd door de Data Controller. In dit voorbeeld verhoogt een profielscript het aantal sessies dat deze bezoeker op de site van de Data Controller heeft uitgevoerd. Zie voor meer informatie [Profielscriptkenmerken](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ De volgende tabel bevat een beschrijving van de JSON-velden voor het illustratie
 
 ### doet [!DNL Target] steun IP verduistering? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] steunt IP verwarring als u verkiest om het als deel van uw GDPR of CCPA implementatiestrategie te gebruiken. Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+[!DNL Target] steunt IP verwarring als u verkiest om het als deel van uw GDPR of CCPA implementatiestrategie te gebruiken. Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ### Moet ik iets doen om te voorkomen dat mijn gegevens worden gedeeld of verkocht aan derden?
 

@@ -5,9 +5,9 @@ title: Welke functies worden ondersteund in een beslissing op het apparaat
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ In de volgende tabel wordt aangegeven welke publieksregels worden ondersteund vo
 
 ### Geo targeting voor apparaatbesluitvorming
 
-Om minimale latentie voor op apparaat beslissingsactiviteiten met geo-gebaseerd publiek te handhaven, adviseert Adobe u de geo waarden zelf in de vraag te verstrekken aan [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Stel het Geo-object in in de context van de aanvraag. Dit betekent vanuit de browser een manier om de locatie van elke bezoeker te bepalen. Bijvoorbeeld, kunt u een IP-aan-Geo raadpleging uitvoeren, gebruikend de dienst u vormt. Sommige hostingproviders, zoals Google Cloud, bieden deze functionaliteit via aangepaste headers in elk `HttpServletRequest`.
+Om minimale latentie voor op apparaat beslissingsactiviteiten met geo-gebaseerd publiek te handhaven, adviseert Adobe u de geo waarden zelf in de vraag te verstrekken aan [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. Stel het Geo-object in in de context van de aanvraag. Dit betekent vanuit de browser een manier om de locatie van elke bezoeker te bepalen. Bijvoorbeeld, kunt u een IP-aan-Geo raadpleging uitvoeren, gebruikend de dienst u vormt. Sommige hostingproviders, zoals Google Cloud, bieden deze functionaliteit via aangepaste headers in elk `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

@@ -5,16 +5,16 @@ title: Hoe werkt [!DNL Target] Beveiligingsbeleid voor inhoud (CSP) verwerken?
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
 
 # Inhoudsbeveiligingsbeleid (CSP)-instructies
 
-Als u [Beveiligingsbeleid voor inhoud](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) voor uw [!DNL Adobe Target] implementatie, moet u de volgende CSP-instructies toevoegen bij het gebruik [at.js 2.1 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/):
+Als u [Beveiligingsbeleid voor inhoud](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) voor uw [!DNL Adobe Target] implementatie, moet u de volgende CSP-instructies toevoegen bij het gebruik [at.js 2.1 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}:
 
 * `connect-src` with `*.tt.omtrdc.net` gevoegd op lijst van gewenste personen. Noodzakelijk om het netwerkverzoek toe te staan aan [!DNL Target] rand.
 * `style-src unsafe-inline`. Vereist voor het voorbeverbergen en flikkeren van de besturing.

@@ -5,9 +5,9 @@ title: Waar kan ik informatie vinden over [!DNL Target] Cookies?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Het gedrag van de cookie hangt af van het feit of het een cookie van een eerste 
 >
 >Dit onderwerp bevat informatie over `mboxSession` en `mboxPC`. Op basis van de best practices voor implementatie wordt aanbevolen geen vertrouwelijke informatie te koppelen of op te slaan met de cookiegegevens: `mboxSession` of `mboxPC`.
 
-Zie ook [Het doelcookie verwijderen](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
+Zie ook [Het doelcookie verwijderen](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/){target=_blank}.
 
 ## Wanneer om Eerste of derdekoekjes te gebruiken {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ Uit Apple:
 
 | Betrokken functionaliteit | Details |
 |--- |--- |
-| Ondersteuning voor uitschakelen | Wijzigingen in WebKit voor Apple worden afgebroken.<br>[!DNL Target] de optie om te weigeren gebruikt een cookie in de `clientcode.tt.omtrdc.net` domein. Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>[!DNL Target] ondersteunt twee opt-outs:<ul><li>Eén per client (de client beheert de koppeling om te weigeren).</li><li>Eén via [!DNL Adobe] dat de gebruiker uit alle [!DNL Target] functionaliteit voor alle klanten.</li></ul>Beide methoden gebruiken het cookie van derden. |
+| Ondersteuning voor uitschakelen | Wijzigingen in WebKit voor Apple worden afgebroken.<br>[!DNL Target] de optie om te weigeren gebruikt een cookie in de `clientcode.tt.omtrdc.net` domein. Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.<br>[!DNL Target] ondersteunt twee opt-outs:<ul><li>Eén per client (de client beheert de koppeling om te weigeren).</li><li>Eén via [!DNL Adobe] dat de gebruiker uit alle [!DNL Target] functionaliteit voor alle klanten.</li></ul>Beide methoden gebruiken het cookie van derden. |
 | [!DNL Target] activiteiten | Klanten kunnen hun [lengte van profielleven](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) voor hun [!DNL Target] accounts (maximaal 90 dagen). Het probleem is dat als de profiellevensduur van de account langer is dan 30 dagen en de cookie van de eerste partij wordt gewist omdat het domein van de klant is gemarkeerd als het controleren van gebruikers naar andere sites, het gedrag voor Safari-bezoekers wordt beïnvloed in de volgende gebieden op [!DNL Target]:<br>**[!DNL Target] rapporten **: Als een gebruiker Safari in een activiteit ingaat, na 30 dagen terugkeert, en dan omzet, telt die gebruiker als twee bezoekers en één omzetting.<br>Dit gedrag is hetzelfde voor activiteiten die [!DNL Analytics] als bron van rapportage (A4T).<br>** Profiel en lidmaatschap van activiteiten **:<ul><li>Profielgegevens worden gewist wanneer het cookie van de eerste partij verloopt.</li><li>Het lidmaatschap van de activiteit wordt gewist wanneer het eerste-partijkoekje verloopt.</li><li> [!DNL Target] werkt niet in Safari voor accounts die een cookie-implementatie van een andere fabrikant of een cookie-implementatie van een andere fabrikant gebruiken. Dit gedrag is niet nieuw. Safari heeft cookies van derden al een tijdje niet toegestaan.</li></ul><br>**Suggesties**: Als er een zorg is dat het klantendomein als één het volgen bezoekers dwars-zitting zou kunnen worden gemerkt, is het het veiligst om het profielleven aan 30 dagen of minder binnen te plaatsen [!DNL Target]. Deze limiet zorgt ervoor dat gebruikers op dezelfde manier worden bijgehouden in Safari en alle andere browsers. |

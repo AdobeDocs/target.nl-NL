@@ -5,9 +5,9 @@ title: Kan ik implementeren [!DNL Target] voor Single Page Applications (SPA)?
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2791'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ Marketers willen nu een A/B-test uitvoeren om te zien of het wijzigen van de kle
 
 ## at.js 2.x systeemdiagrammen
 
-Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met weergaven en in de manier waarop dit de integratie van SPA verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie [Toepassing van één pagina](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+Met de volgende diagrammen krijgt u inzicht in de workflow van at.js 2.x met weergaven en in de manier waarop dit de integratie van SPA verbetert. Voor een betere inleiding van de concepten die in at.js 2.x worden gebruikt, zie [Toepassing van één pagina](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![Doelstroom met at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ Als beste praktijken met betrekking tot SPA:
 * Een aangepaste gebeurtenis activeren voordat de weergave begint met renderen
 * Een aangepaste gebeurtenis activeren wanneer de weergave is voltooid
 
-at.js 2.x heeft een nieuwe API toegevoegd [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} functie. U moet `triggerView()` om at.js te laten weten dat een weergave begint met renderen.
+at.js 2.x heeft een nieuwe API toegevoegd [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} functie. U moet `triggerView(){target=_blank}` om at.js te laten weten dat een weergave begint met renderen.
 
 Een voorbeeld bekijken om te zien hoe u aangepaste gebeurtenissen, in.js 2.x en Analytics kunt combineren. In dit voorbeeld wordt ervan uitgegaan dat de pagina HTML de Bezoeker-API bevat, gevolgd door at.js 2.x, gevolgd door AppMeasurement.
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >U moet de `at-view-start` en `at-view-end` gebeurtenissen. Deze gebeurtenissen maken geen deel uit van aangepaste gebeurtenissen at.js.
 
-Hoewel in deze voorbeelden JavaScript-code wordt gebruikt, kan dit alles worden vereenvoudigd als u een tagbeheer gebruikt, zoals tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+Hoewel in deze voorbeelden JavaScript-code wordt gebruikt, kan dit alles worden vereenvoudigd als u een tagbeheer gebruikt, zoals tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 Als de voorafgaande stappen worden gevolgd zou u een robuuste oplossing A4T voor SPA moeten hebben.
 

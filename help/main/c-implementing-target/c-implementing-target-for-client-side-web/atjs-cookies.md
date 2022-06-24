@@ -5,9 +5,9 @@ title: at.js Cookies
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1852'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Het cookie heeft verschillende standaardinstellingen. U kunt deze instellingen d
 | Naam cookie | mbox. |
 | Cookie-domein | Het tweede en bovenste niveau van de domeinen waaruit u de inhoud aanbiedt. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. |
 | Serverdomein | `clientcode.tt.omtrdc.net`, met de clientcode voor uw account. |
-| Duur van cookie | Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan.<br>De `deviceIdLifetime` instelling kan worden overschreven in [at.js versie 2.3.1 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/). |
+| Duur van cookie | Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan.<br>De `deviceIdLifetime` instelling kan worden overschreven in [at.js versie 2.3.1 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}. |
 | P3P-beleid | De cookie wordt gepubliceerd met een P3P-beleid, zoals vereist door de standaardinstelling in de meeste browsers. Een P3P-beleid geeft aan welke browser de cookie aanbiedt en hoe de informatie wordt gebruikt. |
 
 Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers campagnes ervaren:
@@ -152,5 +152,5 @@ Uit Apple:
 
 | Betrokken functionaliteit | Details |
 |--- |--- |
-| Ondersteuning voor uitschakelen | Wijzigingen in WebKit voor Apple worden afgebroken.<br>De optie voor het niet volgen van doelen gebruikt een cookie in het dialoogvenster `clientcode.tt.omtrdc.net` domein. Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>Doel ondersteunt twee opt-outs:<ul><li>Eén per client (de client beheert de koppeling om te weigeren).</li><li>Een via Adobe die de gebruiker uit alle functionaliteit van het Doel voor alle klanten kiest.</li></ul>Beide methoden gebruiken het cookie van derden. |
+| Ondersteuning voor uitschakelen | Wijzigingen in WebKit voor Apple worden afgebroken.<br>De optie voor het niet volgen van doelen gebruikt een cookie in het dialoogvenster `clientcode.tt.omtrdc.net` domein. Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.<br>Doel ondersteunt twee opt-outs:<ul><li>Eén per client (de client beheert de koppeling om te weigeren).</li><li>Een via Adobe die de gebruiker uit alle functionaliteit van het Doel voor alle klanten kiest.</li></ul>Beide methoden gebruiken het cookie van derden. |
 | Doelactiviteiten | Klanten kunnen hun [lengte van profielleven](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) voor hun Target-accounts: maximaal 90 dagen. Het probleem is dat als de profiellevensduur van de account langer is dan 30 dagen en de cookie van de eerste partij wordt gewist omdat het domein van de klant is gemarkeerd als het controleren van gebruikers naar andere sites, het gedrag voor Safari-bezoekers wordt beïnvloed in de volgende gebieden in Target:<br>**Doelrapporten**: Als een gebruiker Safari in een activiteit ingaat, na 30 dagen terugkeert, en dan omzet, telt die gebruiker als twee bezoekers en één omzetting.<br>Dit gedrag is het zelfde voor activiteiten die Analytics gebruiken zoals de rapporteringsbron (A4T).<br>**Profiel en activiteitenlidmaatschap**:<ul><li>Profielgegevens worden gewist wanneer het cookie van de eerste partij verloopt.</li><li>Het lidmaatschap van de activiteit wordt gewist wanneer het eerste-partijkoekje verloopt.</li><li> Het doel werkt niet in Safari voor accounts die een cookie-implementatie van een andere fabrikant of een cookie-implementatie van een andere fabrikant gebruiken. Dit gedrag is niet nieuw. Safari heeft cookies van derden al een tijdje niet toegestaan.</li></ul><br>**Suggesties**: Als er een zorg is dat het klantendomein als één het volgen bezoekers dwars-zitting zou kunnen worden gemerkt, is het het veiligst om het profielleven aan 30 dagen of minder in Doel te plaatsen. Dit zorgt ervoor dat gebruikers op dezelfde manier worden bijgehouden in Safari en alle andere browsers. |

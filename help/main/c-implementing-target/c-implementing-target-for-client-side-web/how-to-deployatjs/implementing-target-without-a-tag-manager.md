@@ -5,9 +5,9 @@ title: Kan ik implementeren [!DNL Target] zonder tagbeheer?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1806'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 >[!NOTE]
 >
->U kunt instellingen in de bibliotheek at.js overschrijven in plaats van de instellingen in het dialoogvenster [!DNL Target Standard/Premium] UI of door REST APIs te gebruiken. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+>U kunt instellingen in de bibliotheek at.js overschrijven in plaats van de instellingen in het dialoogvenster [!DNL Target Standard/Premium] UI of door REST APIs te gebruiken. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Accountgegevens
 
@@ -96,7 +96,7 @@ Zie onderwerpen voor meer informatie:
 
 Schakel verificatie voor batchupdates via API in of uit en genereer een profielverificatietoken.
 
-Zie voor meer informatie [Profiel-API-instellingen](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
+Zie voor meer informatie [Profiel-API-instellingen](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}.
 
 ### Foutopsporingsgereedschappen
 
@@ -114,11 +114,11 @@ Kies het gewenste plaatsen van de IP van de Bezoeker van de Verduistering adresd
 * Volledige IP-verduistering
 * Geen
 
-Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+Zie voor meer informatie [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 >[!NOTE]
 >
->De optie Verouderde browserondersteuning was beschikbaar in versie 0.js 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4. Voor een lijst met browsers die door at.js worden ondersteund, raadpleegt u [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/).<br>Verouderde browsers zijn oudere browsers die geen volledige ondersteuning bieden voor CORS (Cross Origin Resource Sharing). Deze browsers zijn: Browsers van Internet Explorer ouder dan versie 11 en Safari versies 6 en lager. Als ondersteuning voor verouderde browsers was uitgeschakeld, heeft Target geen inhoud geleverd of heeft Target geen bezoekers geteld in rapporten over deze browsers. Als deze optie is ingeschakeld, wordt u aangeraden kwaliteitsborging toe te passen in alle oudere browsers, zodat de klant er optimaal van profiteert.
+>De optie Verouderde browserondersteuning was beschikbaar in versie 0.js 0.9.3 en eerder. Deze optie is verwijderd in versie 0.js 0.9.4. Voor een lijst met browsers die door at.js worden ondersteund, raadpleegt u [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.<br>Verouderde browsers zijn oudere browsers die geen volledige ondersteuning bieden voor CORS (Cross Origin Resource Sharing). Deze browsers zijn: Browsers van Internet Explorer ouder dan versie 11 en Safari versies 6 en lager. Als ondersteuning voor verouderde browsers was uitgeschakeld, heeft Target geen inhoud geleverd of heeft Target geen bezoekers geteld in rapporten over deze browsers. Als deze optie is ingeschakeld, wordt u aangeraden kwaliteitsborging toe te passen in alle oudere browsers, zodat de klant er optimaal van profiteert.
 
 ## Downloaden om.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -128,7 +128,7 @@ Instructies om de bibliotheek te downloaden met de [!DNL Target] of de Download 
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} is de voorkeursmethode voor de implementatie [!DNL Target] en de bibliotheek at.js. De volgende informatie is niet van toepassing wanneer u tags gebruikt in [!DNL Adobe Experience Platform] uitvoeren [!DNL Target].
 >
->* De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>* De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 
 ### Download om.js met de [!DNL Target] interface {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ Downloaden [!DNL at.js] met de API.
 
    >[!IMPORTANT]
    >
-   >Het team van het Doel handhaaft slechts twee versies [!DNL at.js]—de huidige versie en de tweede nieuwste versie. Voer een upgrade uit [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   >Het team van het Doel handhaaft slechts twee versies [!DNL at.js]—de huidige versie en de tweede nieuwste versie. Voer een upgrade uit [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    Wanneer u deze URL laadt, wordt het downloaden van uw aangepaste [!DNL at.js] bestand.
 
@@ -247,7 +247,7 @@ Houd rekening met de volgende belangrijke opmerkingen:
 * Het HTML5 Doctype (bijvoorbeeld `<!doctype html>`) moet worden gebruikt. Niet-ondersteunde of oudere documenttypen kunnen ertoe leiden dat Target geen aanvraag kan indienen.
 * De opties Preconnect en Prefetch zijn opties die u kunnen helpen uw webpagina&#39;s sneller te laden. Als u deze configuraties gebruikt, zorg ervoor dat u vervangt `<client code>` met uw eigen clientcode, die u kunt verkrijgen via de **[!UICONTROL Administration]** > **[!UICONTROL Implementation] pagina.
 * Als u een gegevenslaag hebt, kunt u het beste zo veel mogelijk definiëren in het dialoogvenster `<head>` van uw pagina&#39;s voordat om.js wordt geladen. Deze plaatsing verstrekt de maximumcapaciteit om deze informatie in Doel voor verpersoonlijking te gebruiken.
-* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`, gegevensleveranciers, en `targetGlobalSettings()` moet worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze functies ook opslaan in het dialoogvenster [!UICONTROL Library Header] van de [!UICONTROL Edit at.js Settings] en wordt opgeslagen als onderdeel van de bibliotheek at.js zelf. Zie voor meer informatie over deze functies [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+* Speciale doelfuncties, zoals `targetPageParams()`, `targetPageParamsAll()`, gegevensleveranciers, en `targetGlobalSettings()` moet worden gedefinieerd na de gegevenslaag en voordat at.js wordt geladen. U kunt deze functies ook opslaan in het dialoogvenster [!UICONTROL Library Header] van de [!UICONTROL Edit at.js Settings] en wordt opgeslagen als onderdeel van de bibliotheek at.js zelf. Zie voor meer informatie over deze functies [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 * Als u JavaScript-hulplijnbibliotheken gebruikt, zoals jQuery, neemt u deze vóór Target op, zodat u de syntaxis en methoden van deze bibliotheken kunt gebruiken wanneer u Target-ervaringen opstelt.
 * Omvat om.js in `<head>` van uw pagina&#39;s.
 

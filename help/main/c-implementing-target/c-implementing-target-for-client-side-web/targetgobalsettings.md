@@ -5,9 +5,9 @@ title: Hoe gebruik ik de functie targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ U kunt de volgende instellingen overschrijven:
 * **Standaardwaarde**: body {-dekking: 0 }
 * **Beschrijving**: Wordt alleen gebruikt wanneer `globalMboxAutocreate === true` om de kans op flikkering te minimaliseren.
 
-   Zie voor meer informatie [Hoe at.js flikkering beheert](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+   Zie voor meer informatie [Hoe at.js flikkering beheert](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ U kunt de volgende instellingen overschrijven:
 
 * **Type**: Boolean
 * **Standaardwaarde**: false
-* **Beschrijving**: [!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js-bibliotheek toevoegen `optinEnabled=true` instellen. In [!DNL Adobe Experience Platform] u moet &quot;toelaten&quot;van selecteren [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie de [Adobe Experience Platform-documentatie](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} voor meer informatie. Zie voor meer informatie over deze instelling in verband met privacy- en gegevensbeschermingsvoorschriften, waaronder de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR) en de California Consumer Privacy Act (CCPA) [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Beschrijving**: [!DNL Target] biedt ondersteuning voor aanmeldingsfunctionaliteit via [!DNL Adobe Experience Platform] om u te helpen uw toestemmingsbeheerstrategie steunen. De opt-in functionaliteit laat klanten controleren hoe en wanneer [!DNL Target] -tag wordt geactiveerd. Er is ook een optie via [!DNL Adobe Experience Platform] om de [!DNL Target] tag. De mogelijkheid om Opt-In te gebruiken in het dialoogvenster [!DNL Target] at.js-bibliotheek toevoegen `optinEnabled=true` instellen. In [!DNL Adobe Experience Platform] u moet &quot;toelaten&quot;van selecteren [!UICONTROL GDPR Opt-In] vervolgkeuzelijst in de installatieweergave van de extensie. Zie de [Adobe Experience Platform-documentatie](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} voor meer informatie. Voor meer informatie over dit het plaatsen aangezien het op privacy en gegevensbeschermingsverordeningen, met inbegrip van de Algemene Verordening van de Bescherming van Gegevens van de Europese Unie (GDPR) {target=_blank} en de Wet van de Privacy van de Consumentenprivacy van Californië (CCPA) betrekking heeft, zie [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ Na `cspScriptNonce` en `cspStyleNonce` de instellingen worden opgegeven, stelt a
 U moet een hybride integratie hebben van [!DNL Target].
 
 * **Server-kant**: U moet de nieuwe [bezorgings-API](https://developers.adobetarget.com/api/delivery-api/) of [Doel-SDK&#39;s](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Client-kant**: U moet [at.js versie 2.2 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Client-kant**: U moet [at.js versie 2.2 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Codevoorbeelden
 

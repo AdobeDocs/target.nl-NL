@@ -4,9 +4,9 @@ description: 'Leer hoe u een Analytics-traceringsserver opgeeft voor activiteite
 title: Hoe gebruik ik een Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Als u een oudere versie van at.js gebruikt, moet u een Analytics tracking-server
 >
 >U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u at.js versie 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het creëren van activiteit, kunt u verlaten [!UICONTROL Tracking Server] veld leeg op [!UICONTROL Goals & Settings] pagina.
 >
->De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie voor meer informatie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie voor meer informatie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 Om ervoor te zorgen dat gegevens van [!DNL Target] gaat naar de juiste locatie in [!DNL Analytics], A4T vereist een Analytics die server controleert om in alle vraag naar Modstats van te worden verzonden [!DNL Target]. Voor implementaties die meerdere trackingservers gebruiken, gebruikt u de opdracht [!DNL Adobe Experience Platform Debugger] of de ontwikkelaarsgereedschappen van uw browser om de juiste trackingserver voor uw activiteit te bepalen.
 

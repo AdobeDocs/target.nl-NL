@@ -5,9 +5,9 @@ title: Hoe werk ik bij van versie 1.js naar versie 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '2874'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Hier volgen enkele voordelen van het gebruik van at.js 2.*x* die niet beschikbaa
 
 ## te.js 2.*x* systeemdiagrammen
 
-De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.*x* met Weergaven en hoe dit de SPA integratie verbetert. Een betere introductie van de concepten die worden gebruikt in at.js 2.*x*, zie [Toepassing van één pagina](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+De volgende diagrammen helpen u het werkschema van at.js 2 begrijpen.*x* met Weergaven en hoe dit de SPA integratie verbetert. Een betere introductie van de concepten die worden gebruikt in at.js 2.*x*, zie [Toepassing van één pagina](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![Doelstroom met at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -62,7 +62,7 @@ Nu, waar dan ook `triggerView()` wordt geïmplementeerd op uw SPA, worden de wee
 
    of
 
-   Handmatig downloaden om.js 2.*x* het gebruiken van het Doel UI en stelt het op gebruikend [methode naar keuze](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/).
+   Handmatig downloaden om.js 2.*x* het gebruiken van het Doel UI en stelt het op gebruikend [methode naar keuze](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}.
 
 ## Vervangen at.js-functies
 
@@ -72,7 +72,7 @@ Er zijn verschillende functies die zijn vervangen in at.js 2.*x*.
 >
 >Als deze vervangen functies nog steeds op uw site worden gebruikt wanneer at.js 2.*x* wordt opgesteld, zult u consolewaarschuwingen zien. De aanbevolen aanpak bij de upgrade is het testen van de implementatie van at.js 2.*x* in een het opvoeren milieu en zorg ervoor om door elk en elke waarschuwing te gaan die in de console is geregistreerd en de verouderde functies aan nieuwe functies te vertalen die in at.js 2 worden geïntroduceerd.*x*.
 
-U kunt de vervangen functies en hun tegenhanger hieronder vinden. Voor een volledige lijst met functies raadpleegt u [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+U kunt de vervangen functies en hun tegenhanger hieronder vinden. Voor een volledige lijst met functies raadpleegt u [at.js-functies](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 
 >[!NOTE]
 >te.js 2.*x* niet meer automatisch voorverborgen `mboxDefault` gemarkeerde elementen. Klanten moeten daarom de vooraf verborgen logica handmatig op de site of via een tagmanager kunnen gebruiken.
@@ -365,10 +365,10 @@ In de volgende tabellen wordt om .js uitgelegd. 2.*x* compatibiliteit met versch
 | Soorten publiek | Ja |
 | Klantkenmerken | Ja |
 | Fragmenten voor AEM | Ja |
-| [!DNL Adobe Experience Platform] extension | [Ja](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] extension | [Ja](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | Foutopsporing | Ja |
 | Auditor | De regels zijn nog niet bijgewerkt voor om.js 2.*x* |
-| Inschakelen | Nee. Ondersteuning voor Inschakelen voor [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} wordt ondersteund in [at.js versie 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| Inschakelen | Nee. Ondersteuning voor Inschakelen voor [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} wordt ondersteund in [at.js versie 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 | AEM verbeterde personalisatie door Adobe Target | Nee |
 
 ### Functies

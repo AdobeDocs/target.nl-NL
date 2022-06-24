@@ -5,9 +5,9 @@ title: Hoe werk ik met Redirector?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Gebruik Redirector om het volgende te doen:
 
 * Zoeken naar welke landingspagina de meeste conversies tot gevolg hebben
 
-Voor hulp bij het bepalen van de juiste instelling raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/).
+Voor hulp bij het bepalen van de juiste instelling raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 ## Een redirector maken {#redirector}
 

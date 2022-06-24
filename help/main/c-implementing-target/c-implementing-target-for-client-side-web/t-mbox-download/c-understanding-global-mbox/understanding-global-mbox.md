@@ -5,9 +5,9 @@ title: Wat is een globale box?
 feature: at.js
 role: Developer
 exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ Er zijn verschillende verschillen tussen een standaard mbox (non-global mbox) en
 
 Als er meerdere activiteiten worden geleverd via de globale box of via meerdere gewone vakjes, [!DNL Target] [bepaalt de prioriteit](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) waardoor de activiteit (of activiteiten) aan een webpagina wordt (worden) geleverd.
 
-Er kunnen aanvullende gegevens op paginaniveau worden verzonden naar [!DNL Target] samen met de globale box door `targetPageParams` functie. Dit is vergelijkbaar met de functionaliteit van de mbox-parameter. Zie voor meer informatie [Parameters doorgeven aan een globale box](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+Er kunnen aanvullende gegevens op paginaniveau worden verzonden naar [!DNL Target] samen met de globale box door `targetPageParams` functie. Dit is vergelijkbaar met de functionaliteit van de mbox-parameter. Zie voor meer informatie [Parameters doorgeven aan een globale box](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.

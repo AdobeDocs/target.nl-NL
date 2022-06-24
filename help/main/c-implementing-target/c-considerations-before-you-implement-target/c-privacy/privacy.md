@@ -5,9 +5,9 @@ title: Hoe werkt [!DNL Target] Privacyproblemen verwerken?
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De individuele eigenschap-gebruik gegevens worden verzameld voor intern [!DNL Adobe] wordt nagegaan of [!DNL Target] functies worden uitgevoerd zoals bedoeld of om te bepalen welke functies onderbenut worden. Er worden verschillende metingen van de latentie verzameld om prestatieproblemen te verhelpen. Persoonlijke gegevens worden niet verzameld.
 
-U kunt het rapporteren van gebruiksgegevens in onze SDK&#39;s uitschakelen door het instellen van `telemetryEnabled` naar false in de initialisatieopties voor de client. Zie voor meer informatie [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+U kunt het rapporteren van gebruiksgegevens in onze SDK&#39;s uitschakelen door het instellen van `telemetryEnabled` naar false in de initialisatieopties voor de client. Zie voor meer informatie [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Verzameling IP-adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -68,4 +68,4 @@ Zelfs als u een eersteklas cookie-implementatie gebruikt, wordt de opgegeven opt
 
 ## Regels inzake privacy en gegevensbescherming
 
-Zie [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} voor informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Target.
+Zie [Regels inzake privacy en gegevensbescherming](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} voor informatie over de Algemene Verordening van de Bescherming van Gegevens van de Europese Unie (GDPR) {target=_blank}, de Californische Consumer Privacy Act (CCPA), en andere internationale privacyvereisten, en hoe deze verordeningen uw organisatie en Adobe Target beïnvloeden.

@@ -4,9 +4,9 @@ description: Leer hoe u de Adobe gebruikt [!DNL Target] Visual Experience Compos
 title: Hoe maak ik een Recommendations-activiteit?
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` voor het huidige item of de huidige categorie. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. De [!UICONTROL Compatible] deze optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie voor meer informatie [Instellingen](https://developer.adobe.com/target/implement/recommendations/).
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` voor het huidige item of de huidige categorie. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. De [!UICONTROL Compatible] deze optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie voor meer informatie [Instellingen](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
    ![Selectiecriteria, dialoogvenster](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

@@ -5,9 +5,9 @@ title: Hoe werkt een apparaatbeslissing met de JavaScript-bibliotheek at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3447'
+source-wordcount: '3455'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ De Adobe Target JS SDK biedt klanten de flexibiliteit om te kiezen tussen presta
 * Doelgerichtheid publiek
 * Toewijzingsmethode
 
-Zie voor meer informatie [Ondersteunde functies voor apparaatbesluitvorming](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Zie voor meer informatie [Ondersteunde functies voor apparaatbesluitvorming](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 ## Hoe werkt apparaatbesluitvorming?
 
@@ -88,7 +88,7 @@ De volgende lijst komt overeen met de cijfers in het diagram:
 
 De besluitvorming op het apparaat kan uw ervaringen en verpersoonlijkingsactiviteiten bij het opblazen van snelle snelheid leveren omdat de besluiten van een caching regelartefact worden gemaakt dat al uw activiteiten bevat die voor op-apparaat besluitvorming kwalificeren.
 
-Zie voor meer informatie over welke activiteiten in aanmerking komen voor beslissingen op het apparaat [Ondersteunde functies in apparaatbeslissingen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Zie voor meer informatie over welke activiteiten in aanmerking komen voor beslissingen op het apparaat [Ondersteunde functies in apparaatbeslissingen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 Deze beslissingsmethode moet alleen worden gebruikt als de prestaties van essentieel belang zijn voor alle pagina&#39;s waarvoor beslissingen nodig zijn [!DNL Target]. Houd er bovendien rekening mee dat wanneer deze beslissingsmethode wordt geselecteerd, uw [!DNL Target] activiteiten die niet in aanmerking komen voor beslissingen op het apparaat worden niet uitgevoerd of uitgevoerd. De bibliotheek at.js 2.5.0+ wordt gevormd om het caching regelartefact slechts te zoeken om besluiten te nemen.
 
@@ -249,7 +249,7 @@ Nadat u het dialoogvenster [!UICONTROL On-Device Decisioning] schakelen, [!DNL T
 
 ### Algemene instellingen
 
-U kunt een standaard configureren [!UICONTROL Decisioning Method] voor alle [!DNL Target] besluiten. De verschillende besluitvormingsmethoden zijn [!UICONTROL Server-side only], [!UICONTROL On-device only], en [!UICONTROL Hybrid]. De besluitvormingsmethode die in het Doel UI wordt geselecteerd wordt gevormd binnen `window.targetGlobalSettings` onder de `decisioningMethod` veld. Meer informatie over de `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+U kunt een standaard configureren [!UICONTROL Decisioning Method] voor alle [!DNL Target] besluiten. De verschillende besluitvormingsmethoden zijn [!UICONTROL Server-side only], [!UICONTROL On-device only], en [!UICONTROL Hybrid]. De besluitvormingsmethode die in het Doel UI wordt geselecteerd wordt gevormd binnen `window.targetGlobalSettings` onder de `decisioningMethod` veld. Meer informatie over de `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ U kunt filteren op alle activiteiten die op apparaat in aanmerking komen voor be
 
    De eerste JSON-regels kunnen tot 10 minuten duren.
 
-1. Een [Type activiteit dat door op apparaat het besluit wordt gesteund](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)en controleert of de beslissing op het apparaat in aanmerking komt.
+1. Een [Type activiteit dat door op apparaat het besluit wordt gesteund](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank} en controleer of deze geschikt is voor apparaatbesluitvorming.
 1. Stel de **[!UICONTROL Decisioning Method]** hetzij **[!UICONTROL “Hybrid”]** of **[!UICONTROL “On-device only”]** via de interface voor instellingen bij.js.
 1. Download en implementeer At.js 2.5.0+ op uw pagina&#39;s.

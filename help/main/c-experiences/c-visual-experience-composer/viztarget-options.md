@@ -4,9 +4,9 @@ description: Ontdek de opties in het dialoogvenster [!DNL Adobe Target] [!UICONT
 title: Hoe gebruik ik de [!UICONTROL Visual Experience Composer] (VEC) Opties?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2748'
 ht-degree: 0%
 
 ---
@@ -380,9 +380,9 @@ De steun VEC [Webcomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_C
 
 >[!NOTE]
 >
->VEC-ondersteuning voor aangepaste elementen wordt ondersteund in [at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (of hoger). Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u het [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), moet ook de vereiste versie van at.js worden opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
+>VEC-ondersteuning voor aangepaste elementen wordt ondersteund in [at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (of hoger){target=_blank}. Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u het [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), moet ook de vereiste versie van at.js worden opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
 >
->VEC-ondersteuning voor aangepaste elementen wordt momenteel niet ondersteund door de [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+>VEC-ondersteuning voor aangepaste elementen wordt momenteel niet ondersteund door de [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen, met de volgende uitzonderingen:
 

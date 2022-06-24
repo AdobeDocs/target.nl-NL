@@ -4,9 +4,9 @@ description: Een lijst met verschillende profielen, variabelen en parameters wee
 title: Welke profielen, variabelen, en parameters worden gebruikt in doel?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | mbox.param(&#39;param_name&#39;) |  |
 | Parameters die automatisch bij elk verzoek worden doorgegeven:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Parameters die met volgvakjes worden doorgegeven:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | Een mbox-parameter om een klant-id te synchroniseren met de mboxPCID van Target. Een klant-id is een id die uw bedrijf gebruikt om bezoekers bij te houden, zoals een CRM-id, lidmaatschap-id of iets dergelijks. Deze id kan vervolgens worden gebruikt om informatie toe te voegen via de profiel-API&#39;s en [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/). |
+| mbox3rdPartyId | Een mbox-parameter om een klant-id te synchroniseren met de mboxPCID van Target. Een klant-id is een id die uw bedrijf gebruikt om bezoekers bij te houden, zoals een CRM-id, lidmaatschap-id of iets dergelijks. Deze id kan vervolgens worden gebruikt om informatie toe te voegen via de profiel-API&#39;s en [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank}. |
 | mboxPageValue | In elke mbox-aanroep wordt een waarde toegewezen aan de pagina. |
 | mboxDebug | Wordt alleen gebruikt voor foutopsporingsinformatie. Toegevoegd aan de pagina-URL waar het bestand at.js ernaar zoekt. |
 | mboxOverride.browserIp | Hiermee stelt u een andere geo in dan de werkelijke locatie, zodat u kunt testen hoe iets er op een andere locatie uitziet.<br>**Opmerking:** Het gebruik van mboxOverride-parameters moet alleen worden gebruikt tijdens het testen van de activiteit en niet tijdens de productie. Het gebruik van mboxOverride-parameters kan bij het gebruik van  [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md)  (A4T). U moet [De modus Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) tijdens het testen of uw activiteit werkt zoals u had verwacht voordat u de activiteit in uw live omgeving duwt. |

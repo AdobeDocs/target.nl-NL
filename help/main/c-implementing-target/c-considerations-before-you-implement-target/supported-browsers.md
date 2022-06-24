@@ -5,9 +5,9 @@ title: Wat browsers doen [!DNL Target] Ondersteuning?
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De [!DNL Adobe Target] de toepassing en de inhoudslevering zijn getest in een groot aantal browsers en apparaten.
 
-Voor meer belangrijke informatie over TLS raadpleegt u [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+Voor meer belangrijke informatie over TLS raadpleegt u [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
 ## [!DNL Target] Standaard/Premium-interface {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
@@ -34,7 +34,7 @@ De levering van inhoud is getest in de volgende browsers en apparaten:
 | Apparaattype | Browserversie |
 |--- |--- |
 | Windows | <ul><li>Microsoft Internet Explorer 9 en 10. Getest in emulatiemodus.<br>**Opmerking**: Inhoudslevering op IE 9 wordt niet meer ondersteund met at.js 1.3.0 (en hoger). De levering van inhoud op IE 10, 11, en alle oudere versies wordt niet meer gesteund met at.js 2.5.0 (en later).</li><li>Internet Explorer 11 <br>**Opmerking**: De levering van inhoud op IE 10, 11, en alle oudere versies wordt niet meer gesteund met at.js 2.5.0 (en later).</li><li>Microsoft Edge</li><li>Chrome (nieuwste, laatste min 1)</li><li>Firefox (laatste, laatste min 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (nieuwste)<br>**Opmerking**: Voor meer informatie over hoe Safari first- en derdekoekjes behandelt, zie [Doelcookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/).</li><li>Firefox (laatste, laatste min 1)</li><li>Chrome (nieuwste, laatste min 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (nieuwste)<br>**Opmerking**: Voor meer informatie over hoe Safari first- en derdekoekjes behandelt, zie [Doelcookie](https://developer.adobe.com/target/before-implement/privacy/cookie-behavior/){target=_blank}.</li><li>Firefox (laatste, laatste min 1)</li><li>Chrome (nieuwste, laatste min 1)</li></ul> |
 | Mobiel/tablet | <ul><li>Apple iOS (nieuwste)</li><li>Android-apparaten en -tablets (Android 4 en hoger)</li><li>Microsoft-oppervlak (Windows 8.1)</li></ul> |
 
 Let op het volgende:

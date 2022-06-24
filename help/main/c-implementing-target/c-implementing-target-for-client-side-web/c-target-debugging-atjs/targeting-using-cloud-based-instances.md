@@ -5,9 +5,9 @@ title: Kan ik gebruiken [!DNL Target] met op cloud gebaseerde instanties?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Deze en vele andere domeinen maken deel uit van de [Lijst met openbare achtervoe
 
 De [!DNL at.js] JavaScript-bibliotheek gebruikt cookies om gebruikers bij te houden om ervoor te zorgen dat [!DNL Target] biedt altijd een consistente ervaring. Als de [!DNL Target] JavaScript-bibliotheek kan cookies niet opslaan, [!DNL Target] aanvragen zijn uitgeschakeld.
 
-**Oplossing:** Als beste praktijken, als u op wolk-gebaseerde instanties met domeinen inbegrepen op de Openbare Lijst van het Achtervoegsel van het Hoogtepunt wilt gebruiken, zorg ervoor dat u aanpast `cookieDomain` instellen. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+**Oplossing:** Als beste praktijken, als u op wolk-gebaseerde instanties met domeinen inbegrepen op de Openbare Lijst van het Achtervoegsel van het Hoogtepunt wilt gebruiken, zorg ervoor dat u aanpast `cookieDomain` instellen. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.

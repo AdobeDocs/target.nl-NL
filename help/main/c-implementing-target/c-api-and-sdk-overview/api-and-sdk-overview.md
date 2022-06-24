@@ -5,9 +5,9 @@ title: Waar kan ik informatie over krijgen? [!DNL Target] Server-Side Delivery A
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,6 @@ De [!DNL Adobe Target] SDK-documentatieportal voor server-side helpt u bij de im
 
 ## Doel Recommendations API&#39;s
 
-Koppeling: [Doel Recommendations API&#39;s](https://developer.adobe.com/target/).
+Koppeling: [Doel Recommendations API&#39;s](https://developer.adobe.com/target/){target=_blank}.
 
 Met de Recommendations API&#39;s kunt u programmatisch communiceren met [!DNL Target] aanbevelingen servers. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de [!DNL Target] gebruikersinterface.

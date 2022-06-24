@@ -4,9 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '2795'
 ht-degree: 0%
 
 ---
@@ -309,10 +309,10 @@ Het spijt ons dat u problemen ondervindt. Uitchecken [Probleemoplossing](/help/m
 
 **We hebben een mobiele SKU. Kan ik mobiele activiteiten creëren?**
 
-Voor optimalisatie en personalisatie op mobiele apparaten moet u [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) samen met de [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Meer informatie over [Doel voor mobiele apps](https://developer.adobe.com/target/implement/mobile/).
+Voor optimalisatie en personalisatie op mobiele apparaten moet u [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) samen met de [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Meer informatie over [Doel voor mobiele apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## Doel-API&#39;s {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Waar kan ik meer leren over doel-API&#39;s?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [Leverings-API&#39;s, NodeJS SDK en Recommendations API&#39;s-documentatie](https://developer.adobe.com/target/implement/server-side/).
+We hebben uitgebreide documentatie over API&#39;s. Zie [Leverings-API&#39;s, NodeJS SDK en Recommendations API&#39;s-documentatie](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

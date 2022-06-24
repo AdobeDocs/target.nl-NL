@@ -5,9 +5,9 @@ title: Hoe krijg ik gegevens in [!DNL Target] Gegevensproviders gebruiken?
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Opmerking: Gegevensleveranciers vereisen at.js 1.3 of later.
 
 De `window.targetGlobalSettings.dataProviders` het plaatsen is een serie van gegevensleveranciers.
 
-Voor meer informatie over de structuur voor elke gegevensleverancier, zie [Gegevensleveranciers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Voor meer informatie over de structuur voor elke gegevensleverancier, zie [Gegevensleveranciers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Voorbeelden van gebruiksgevallen
 
@@ -44,7 +44,7 @@ at.js probeert niet om de gegevens in het voorgeheugen onder te brengen. Als de 
 
 ## Codevoorbeelden
 
-Verschillende voorbeelden vindt u in [Gegevensleveranciers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Verschillende voorbeelden vindt u in [Gegevensleveranciers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Koppelingen naar relevante informatie
 

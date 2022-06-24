@@ -5,9 +5,9 @@ title: Hoe beheert at.js Flicker?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ De volgende illustratie toont het Lichaam van de Huid en toont de vraag van het 
 
 ![](assets/target-flow2.png)
 
-Voor meer informatie over de `bodyHiddenStyle` override, zie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Voor meer informatie over de `bodyHiddenStyle` override, zie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## flikkering beheren bij asynchroon laden bij .js
 

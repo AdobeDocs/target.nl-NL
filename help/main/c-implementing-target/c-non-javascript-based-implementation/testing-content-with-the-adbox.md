@@ -5,9 +5,9 @@ title: Hoe maak ik een Adbox voor een afbeelding?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Gebruik een AdBox om afbeeldingen te leveren in een externe implementatie met Ad
 
 Een AdBox is vergelijkbaar met een box, maar wordt beheerd door een URL in plaats van JavaScript. AdBox wordt gemaakt met een speciale URL voor een advertentievak die een advertentievak (of advertentievak) in uw Adobe-account laadt. Gebruik deze AdBox in plaats van de box in uw activiteiten. Gebruik de URL van het AdBox in plaats van een verwijzing naar een directe afbeelding in e-mail of andere niet-JavaScript-implementaties.
 
-Voor hulp bij het selecteren van de juiste setup raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/).
+Voor hulp bij het selecteren van de juiste setup raadpleegt u [Implementaties die niet op JavaScript zijn gebaseerd](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 1. Maak de URL van het advertentievak:
 

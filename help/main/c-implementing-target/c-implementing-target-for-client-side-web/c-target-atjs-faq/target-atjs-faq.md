@@ -5,9 +5,9 @@ title: Wat zijn algemene vragen en antwoorden over at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Als u at.js door asynchroon opstelt [!DNL Adobe Experience Platform] implementat
 
 Als u at.js door een synchrone implementatie DTM opstelt, kan het pre-verbergende fragment worden toegevoegd door een lijn van de Lading van de Pagina die bij de bovenkant van de pagina wordt teweeggebracht.
 
-Zie voor meer informatie [Hoe at.js flikkering beheert](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+Zie voor meer informatie [Hoe at.js flikkering beheert](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ## Is at.js compatibel met [!DNL Adobe Experience Manager] integratie (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ Zie voor meer informatie [Hoe at.js flikkering beheert](https://developer.adobe.
 
 ## Hoe kan ik flikkering tijdens het laden van pagina&#39;s voorkomen met at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Doel biedt verschillende manieren om flikkering bij het laden van pagina&#39;s te voorkomen. Zie voor meer informatie [Flikkering voorkomen met at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+Doel biedt verschillende manieren om flikkering bij het laden van pagina&#39;s te voorkomen. Zie voor meer informatie [Flikkering voorkomen met at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ## Wat is de bestandsgrootte van at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ Ja, hetzelfde als met mbox.js.
 
 [!DNL Target] klanten gebruiken soms cloudgebaseerde instanties met [!DNL Target] voor tests of eenvoudige concepttest. Deze en vele andere domeinen maken deel uit van de [Lijst met openbare achtervoegsels](https://publicsuffix.org/list/public_suffix_list.dat).
 
-Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de opties `cookieDomain` instellen met targetGlobalSettings(). Zie voor meer informatie [Op cloud gebaseerde instanties gebruiken met het doel](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/).
+Moderne browsers slaan cookies niet op als u deze domeinen gebruikt, tenzij u de opties `cookieDomain` instellen met targetGlobalSettings(). Zie voor meer informatie [Op cloud gebaseerde instanties gebruiken met het doel](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/){target=_blank}.
 
 ## Kunnen IP adressen als koekjesdomein worden gebruikt wanneer het gebruiken van at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Ja, als u [at.js versie 1.2 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). [!DNL Adobe] Het is echter van belang dat u de nieuwste versie blijft gebruiken.
+Ja, als u [at.js versie 1.2 of hoger](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. [!DNL Adobe] Het is echter van belang dat u de nieuwste versie blijft gebruiken.
 
 >[!NOTE]
 >
 >De volgende voorbeelden zijn niet nodig als u at.js versie 1.2 of later gebruikt.
 
-Afhankelijk van hoe u [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/), moet u mogelijk aanvullende wijzigingen in de code aanbrengen nadat u het bestand at.js hebt gedownload. Als u bijvoorbeeld iets andere instellingen voor uw [!DNL Target] implementaties op verschillende websites die deze instellingen niet dynamisch kunnen definiëren met behulp van aangepaste JavaScript, deze aanpassingen handmatig uitvoeren nadat het bestand is gedownload en voordat het bestand naar de desbetreffende website wordt geüpload.
+Afhankelijk van hoe u [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} moet u mogelijk aanvullende wijzigingen in de code aanbrengen nadat u het bestand at.js hebt gedownload. Als u bijvoorbeeld iets andere instellingen voor uw [!DNL Target] implementaties op verschillende websites die deze instellingen niet dynamisch kunnen definiëren met behulp van aangepaste JavaScript, deze aanpassingen handmatig uitvoeren nadat het bestand is gedownload en voordat het bestand naar de desbetreffende website wordt geüpload.
 
 In de volgende voorbeelden kunt u de `targetGlobalSettings()` de functie at.js om een codefragment op te nemen om IP adressen te steunen:
 
@@ -202,10 +202,10 @@ Als dit waarschuwingsbericht wordt weergegeven, zijn de volgende mogelijke hoofd
 * De pagina wordt dynamisch samengesteld en at.js kan het element niet vinden.
 * De pagina wordt langzaam samengesteld (vanwege een traag netwerk) en at.js kan de kiezer niet vinden in de DOM.
 * De paginastructuur die actief is[!UICONTROL y is running on has been changed. If you reopen the activity in the ]Visual Experience Composer (VEC), zou u een waarschuwingsbericht moeten krijgen. Werk de activiteit bij zodat alle noodzakelijke elementen kunnen worden gevonden.
-* De onderliggende pagina is onderdeel van een [!UICONTROL Single Page Application] (SPA) of de pagina bevat elementen die verderop op op de pagina en de [!DNL at.js] Deze elementen kunnen niet worden gevonden door middel van een &#39;kiezeropiniepeilingsmechanisme&#39;. De `selectorsPollingTimeout` zou kunnen helpen. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+* De onderliggende pagina is onderdeel van een [!UICONTROL Single Page Application] (SPA) of de pagina bevat elementen die verderop op op de pagina en de [!DNL at.js] Deze elementen kunnen niet worden gevonden door middel van een &#39;kiezeropiniepeilingsmechanisme&#39;. De `selectorsPollingTimeout` zou kunnen helpen. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 * Om het even welke klik-volgende metrisch probeert om aan elke pagina toe te voegen, ongeacht URL waarop metrisch opstelling was. Hoewel onschuldig, maakt deze situatie veel van deze berichten tonen.
 
-   Download en gebruik de nieuwste versie van [!DNL at.js]. Zie voor meer informatie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} en [Downloaden om.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+   Download en gebruik de nieuwste versie van [!DNL at.js]. Zie voor meer informatie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} en [Downloaden om.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ## Wat is het domein tt.omtr dc.net dat [!DNL Target] serveraanroepen gaan naar? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
