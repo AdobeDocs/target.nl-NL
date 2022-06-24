@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
+source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Target Business Practice Guide {#using}
 
-+ [Adobe Target Guide Home](target-home.md)
++ [Adobe Target Business Practice Guide Home](target-home.md)
 + Opmerkingen bij de doelversie {#release-notes}
    + [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md)
    + [Opmerkingen bij de doelversie (huidig)](r-release-notes/release-notes.md)
