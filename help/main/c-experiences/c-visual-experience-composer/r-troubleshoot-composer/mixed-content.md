@@ -1,12 +1,12 @@
 ---
 keywords: gemengde inhoud;veilig;onveilig;chroom;problemen;vec;visuele ervaringscomposer;onveilig;http;https;firefox;Internet Explorer
-description: Sommige browsers blokkeren de weergave van een pagina als beveiligde inhoud wordt gemengd met onveilige inhoud. Leer hoe u gemengde inhoud inschakelt in Chrome, Firefox en Edge.
-title: Hoe laat ik Gemengde Inhoud in Mijn Browser toe?
+description: Leer hoe u gemengde inhoud in Chrome, Firefox en Edge kunt inschakelen. U kunt gemengde inhoud inschakelen wanneer een browser de weergave van een pagina blokkeert omdat beveiligde inhoud wordt gemengd met onveilige inhoud.
+title: Gemengde inhoud in mijn browser inschakelen
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Gemengde inhoud komt voor als het aanvankelijke verzoek veilig over HTTPS is, ma
 
 Moderne browsers kunnen de weergave van een pagina blokkeren of waarschuwingsberichten weergeven als beveiligde inhoud wordt gemengd met onveilige inhoud.
 
-Er verschijnt een waarschuwingsbericht als de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] probeert een pagina met gemengde inhoud te openen. Dit bericht geeft aan hoe u blokkering in uw browser kunt uitschakelen. Als u het blokkeren uitschakelt, kunt u een HTTP-site of een site met gemengde aanroepen (HTTPS en HTTP) openen.
+Er verschijnt een waarschuwingsbericht als de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] probeert een pagina met gemengde inhoud te openen. Dit bericht geeft aan hoe u blokkering in uw browser kunt uitschakelen. Als u het blokkeren uitschakelt, kunt u een HTTP-site of een site met gemengde aanroepen (HTTPS en HTTP) openen.
 
 ![Waarschuwing gemengde inhoud](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
