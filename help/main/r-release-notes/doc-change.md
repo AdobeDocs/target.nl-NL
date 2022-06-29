@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 24 juni | [Adobe Target Developer Guide portal](https://developer-stage.adobe.com/target/){target=_blank} | De *Adobe Target Developer Guide* portaal om alles te consolideren [!DNL Target] ontwikkelaarsinhoud in één handige portal. Het portaal bevat informatie over de implementatie [!DNL Target] en [!DNL Recommendations], [!DNL Target] SDK&#39;s, en [!DNL Target] API&#39;s. |
+| 24 juni | [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} | De *Adobe Target Developer Guide* alle [!DNL Target] ontwikkelaarsinhoud in één handige portal. Het portaal bevat informatie over de implementatie [!DNL Target] en [!DNL Recommendations], [!DNL Target] SDK&#39;s, en [!DNL Target] API&#39;s. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.6.2. |
 | 14 juni | [Recommendations plannen en implementeren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Bijgewerkte codevoorbeelden in de volgende secties:<ul><li>Winkelwagentweergaven/winkelwagentjes/afhandelingspagina&#39;s</li><li>Objecten uitsluiten die al in de winkelwagentje van de bezoeker staan</li></ul> |
 | 7 juni | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.6.1. |

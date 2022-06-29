@@ -4,7 +4,7 @@ description: Leer hoe u Multivariate Testing (MVT) kunt gebruiken in Adobe [!DNL
 title: Wat is een multivariate Test?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -55,7 +55,7 @@ U kunt meerdere tests gebruiken in combinatie met A/B-tests om de pagina te opti
 
 * Gebruik een MVT-test om te bepalen welk element het belangrijkste is en volg vervolgens een meer gerichte A/B-test op dat element.
 
-   Wanneer het aantal verschillende ervaringen vijf overschrijdt en twee of meer elementen overspant, is het een goed idee om een test MVT alvorens uw tests A/B uit te voeren te overwegen. Uit de MVT-test blijkt welke gebieden op de pagina de conversie waarschijnlijk zullen verbeteren. Dit zijn de elementen waarop een markeerteken zich moet concentreren. Bijvoorbeeld, zou de test MVT kunnen tonen dat de vraag aan actie het belangrijkste element voor het bereiken van uw doelstellingen is. Zodra u hebt bepaald welke elementen en inhoud het nuttigst zijn om u te helpen uw doelstellingen bereiken, kunt u een test A/B in werking stellen om de resultaten verder te verfijnen, zoals twee specifieke beelden tegen elkaar te testen, of de formulering of de kleuren van een vraag aan actie te vergelijken. Door een MVT-test met een of meer A/B-tests uit te voeren, kunt u de best mogelijke inhoud voor de gewenste resultaten bepalen.
+   Wanneer het aantal verschillende ervaringen vijf overschrijdt en twee of meer elementen overspant, is het een goed idee om een test MVT alvorens uw tests A/B uit te voeren te overwegen. Uit de MVT-test blijkt welke gebieden op de pagina de conversie waarschijnlijk zullen verbeteren. Dit zijn de elementen waarop een markeerteken zich moet concentreren. Bijvoorbeeld, zou de test MVT kunnen tonen dat de vraag aan actie het belangrijkste element voor het bereiken van uw doelstellingen is. Zodra u hebt bepaald welke elementen en inhoud het nuttigst om u te helpen uw doelstellingen bereiken, kunt u een test A/B in werking stellen om de resultaten verder te verfijnen, zoals twee specifieke beelden tegen elkaar te testen, of de formulering of de kleuren van een vraag aan actie te vergelijken. Door een MVT-test met een of meer A/B-tests uit te voeren, kunt u de best mogelijke inhoud voor de gewenste resultaten bepalen.
 
 ## Overwegingen {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
