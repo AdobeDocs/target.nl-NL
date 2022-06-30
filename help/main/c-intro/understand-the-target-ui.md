@@ -4,9 +4,9 @@ description: Verken uzelf met de gebruikersinterface en zoek koppelingen naar me
 title: Hoe gebruik ik de [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,6 @@ Met het Help-pictogram hebt u toegang tot informatie, video&#39;s, blogs en meer
 ## Meldingen en aankondigingen {#notifications-announcements}
 
 De [!UICONTROL Notifications] en [!UICONTROL Announcements] de panelen helpen u bijgewerkt houden over alle dingen [!DNL Adobe Target]. Met pro-actieve meldingen weet u beter wat de status is van [!DNL Adobe Experience Cloud] oplossingen en [!DNL Target] gebeurtenissen. Proactieve aankondigingen waarschuwen u aan outage gebeurtenissen en onderhoudsgebeurtenissen.
-
->[!NOTE]
->
->De informatie over de verbeterde [!UICONTROL Notifications and Announcements] in deze sectie is momenteel van toepassing op selecteren [!DNL Target] en worden in de komende maanden aan alle klanten uitgerold.
 
 Klik op het belpictogram in de koptekst om meldingen weer te geven:
 
