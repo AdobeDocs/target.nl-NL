@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target Standard/Premium] 22.6.2 (24 juni 2022)
+## [!DNL Target Standard/Premium] 22.6.2 (30 juni 2022)
 
-Deze versie bevat de volgende verbeteringen en oplossingen:
+Deze versie bevat de volgende functies, verbeteringen en oplossingen:
+
+| Functie | Beschrijving |
+| --- | ---  |
+| Meldingen in producten | Verkrijg de volgende relevante in-product berichten:<ul><li>**Activiteiten**: Meldingen voor alle soorten activiteiten wanneer een activiteit handmatig wordt goedgekeurd of gedeactiveerd of wanneer de begin- of einddatum wordt bereikt. Het bericht bevat de naam van de activiteit met een koppeling naar de overzichtspagina van de activiteit.</li><li>**Profielscripts** Meldingen wanneer een profielscript handmatig of door Doel is geactiveerd of gedeactiveerd.</li><li>**Recommendations feeds**: Meldingen wanneer een Recommendations-feed handmatig of via Target is geactiveerd of gedeactiveerd. Meldingen worden ook verzonden wanneer een Recommendations-feed mislukt.</li></ul> Standaard worden meldingen ontvangen door productbeheerders, uitgevers en fiatteurs. Meldingen kunnen worden geconfigureerd in de voorkeuren voor Experience Cloud.<br>Zie voor meer informatie [Meldingen en aankondigingen](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
+| *Adobe Target Developer Guide* | De *Adobe Target Developer Guide* consolideert alles [!DNL Target] ontwikkelaarsinhoud in één handige handleiding. De gids bevat informatie over de implementatie [!DNL Target] en [!DNL Recommendations], [!DNL Target] SDK&#39;s, en [!DNL Target] API&#39;s.<br>Zie voor meer informatie [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
 
 * Gebruikers met de [!UICONTROL Editor] rol kan het publiek in live activiteiten niet meer bewerken. (TGT-43582)
 * Een waarschuwingsbericht wordt weergegeven als een klant een publiek probeert op te slaan met een uitroepteken ( ! ) als het eerste teken van de naam van het publiek (bijvoorbeeld !Londen). (TGT-43643)

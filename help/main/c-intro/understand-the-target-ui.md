@@ -4,9 +4,9 @@ description: Verken uzelf met de gebruikersinterface en zoek koppelingen naar me
 title: Hoe gebruik ik de [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Met het Help-pictogram hebt u toegang tot informatie, video&#39;s, blogs en meer
 
 ![Help](/help/main/c-intro/assets/help.png)
 
-## Meldingen en aankondigingen
+## Meldingen en aankondigingen {#notifications-announcements}
 
 De [!UICONTROL Notifications] en [!UICONTROL Announcements] de panelen helpen u bijgewerkt houden over alle dingen [!DNL Adobe Target]. Met pro-actieve meldingen weet u beter wat de status is van [!DNL Adobe Experience Cloud] oplossingen en [!DNL Target] gebeurtenissen. Proactieve aankondigingen waarschuwen u aan outage gebeurtenissen en onderhoudsgebeurtenissen.
 
