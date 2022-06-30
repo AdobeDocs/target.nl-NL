@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Adob
 
 +++klik op mij
 
-* **Donderdag 21 juni 2022**
+* **Donderdag 11 augustus 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
 * **[Meer informatie en registratiegegevens](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
