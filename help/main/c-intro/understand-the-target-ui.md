@@ -1,12 +1,12 @@
 ---
-keywords: doelgebruikersinterface;gebruikersinterface;ui;aankondigingen;gebeurtenissen
+keywords: doelgebruikersinterface;gebruikersinterface;ui;aankondigingen;gebeurtenissen;meldingen
 description: Verken uzelf met de gebruikersinterface en zoek koppelingen naar meer gedetailleerde informatie om u te helpen het beste te halen uit [!DNL Target].
 title: Hoe gebruik ik de [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Het deelvenster bevat tabbladen voor [!UICONTROL Notifications] en [!UICONTROL A
 
 ![Meldingen](assets/notifications.png)
 
-De volgende secties bevatten informatie over elk lusje, en hoe te om berichten en aankondigingen te vormen.
+De volgende secties bevatten informatie over elk lusje, en hoe te om berichten en aankondigingen te vormen:
 
 ### Meldingen
 
