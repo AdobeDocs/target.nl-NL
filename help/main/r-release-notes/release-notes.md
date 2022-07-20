@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Target] platformrelease (20 juli 2022)
+
+Deze versie bevat de volgende functies, verbeteringen en oplossingen:
+
+| Functie | Beschrijving |
+| --- | --- |
+| Verbeterde nauwkeurigheid van de publieksevaluatie en verminderde latentie van de eindgebruiker door IPv6 steun (TNT-43364, TNT-44692) | De geo-plaatsen van bezoekers worden nu bepaald door IPv6 adressen, als beschikbaar, in tegenstelling tot slechts IPv4 adressen. De levering APIs steunt ook IPv6 inputparameters. Het filteren en toestaan-lijst steunen zowel IPv4 als IPv6 adressen. De IPv6-ondersteuning in deze release betekent dat bezoekers nauwkeuriger worden opgenomen in het publiek (kwalificeer nauwkeuriger voor activiteiten of worden opgenomen in filtercriteria). Het verbetert ook gegevenslatentie, aangezien de cliënten IPv6 rechtstreeks zullen leiden, vermijdend de overheadkosten van de gateway IPv6-aan-IPv4. |
+| Vast probleem met de afhandeling van betalingen aan de client-side A4T (TNT-44926) | Met integratie op de server-side van A4T, als Adobe Target een verzoek als afkomstig van beide identificeert, stuurt het niet de nuttige lading naar Analytics, en er is geen mod_stats gebeurtenis in geregistreerd in [!DNL Target] logboeken. Met deze versie, is het cliënt-zijregistreren A4T verbeterd zodat het gedrag met betrekking tot de A4T lading het zelfde als met server-kant A4T is: Bezoekers die als bots zijn geïdentificeerd, worden uitgesloten van [!DNL Target] tellen/rapporteren. (Let op: het probleem in kwestie was beperkt tot implementaties die gebruik maakten van client-side payload handling; server-kant niet beïnvloed. Met deze release is het gedrag nu consistent voor zowel server-side als client-side payload-afhandeling.) |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30 juni 2022)
 
