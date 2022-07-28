@@ -4,7 +4,7 @@ product: target
 solution: Target
 audience: end-user
 type: Documentation
-git-repo: https://git.corp.adobe.com/AdobeDocs/target.nl-NL
+git-repo: https://github.com/AdobeDocs/target.nl-NL
 index: true
 role: User
 level: Intermediate
