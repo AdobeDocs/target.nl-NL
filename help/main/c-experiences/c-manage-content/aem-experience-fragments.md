@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,10 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 
 **Ervaar fragmenten met de VEC als u deze wilt gebruiken:**
 
+>[!NOTE]
+>
+>Ervaar fragmenten die als JSON zijn geëxporteerd in [!DNL Target] niet kan worden gebruikt bij activiteiten die met de VEC worden gecreëerd; alleen HTML-ervaringsfragmenten worden ondersteund in VEC-activiteiten. Als u JSON-ervaringsfragmenten wilt gebruiken, gebruikt u deze in activiteiten die u maakt met de [Formuliergebaseerde ervaringscomposer](/help/main/c-experiences/form-experience-composer.md).
+
 1. In [!DNL Target]tijdens het maken of bewerken van een ervaring in de [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), klikt u op de locatie op de pagina waar u het invoegpunt wilt invoegen [!DNL AEM] selecteert u vervolgens de gewenste optie om de [!UICONTROL Choose an Experience Fragment] lijst.
 
    * [!UICONTROL Insert Before]
@@ -146,7 +150,7 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 ## Overwegingen {#considerations}
 
 * [!DNL Target] zoekt momenteel naar ervaringsfragmenten die om de tien minuten moeten worden geïmporteerd. Het geïmporteerde ervaringsfragment moet beschikbaar zijn in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
-* Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML-voorstel. Het ervaringsfragment &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
+* Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML- of JSON-aanbieding. Het ervaringsfragment &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 * U kunt geen ervaringsfragmenten maken met [!DNL Adobe I/O]. Maak ervaringsfragmenten met AEM, zoals hierboven beschreven.
 * Als u het ervaringsfragment bijwerkt in AEM, moet het ervaringsfragment worden gepubliceerd en geëxporteerd naar [!DNL Target] opnieuw [!DNL Target] De meest recente wijzigingen kunnen worden gebruikt.
 
