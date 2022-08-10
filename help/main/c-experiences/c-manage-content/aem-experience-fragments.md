@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Nadat u de voorgaande taken hebt uitgevoerd, wordt het ervaringsfragment weergeg
 >
 >* [!DNL Target] zoekt momenteel naar ervaringsfragmenten die om de tien minuten moeten worden geïmporteerd. Het geïmporteerde ervaringsfragment moet beschikbaar zijn in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
 >
->* Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML-voorstel. Het fragment &quot;primaire&quot; versie blijft behouden in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
+>* Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML- of JSON-aanbieding. Het fragment &quot;primaire&quot; versie blijft behouden in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 
 
 U kunt de muisaanwijzer boven een ervaringsfragment in de lijst plaatsen en vervolgens op de knop [!UICONTROL View] pictogram ![Weergavepictogram](assets/icon_info.png) voor meer informatie over het ervaringsfragment, waaronder de URL voor openbare aanbieding en de bijbehorende [!DNL AEM] pad.
@@ -104,10 +104,6 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 >Experience-fragmenten worden niet ondersteund in [!DNL Recommendations] activiteiten. Als u echter ervaringsfragmenten wilt gebruiken voor aanbevelingen, kunt u een [!UICONTROL A/B Test] activiteit (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of een [!UICONTROL Experience Targeting] (XT) en [aanbevelingen als aanbod opnemen](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **Ervaar fragmenten met de VEC als u deze wilt gebruiken:**
-
->[!NOTE]
->
->Ervaar fragmenten die als JSON zijn geëxporteerd in [!DNL Target] niet kan worden gebruikt bij activiteiten die met de VEC worden gecreëerd; alleen HTML-ervaringsfragmenten worden ondersteund in VEC-activiteiten. Als u JSON-ervaringsfragmenten wilt gebruiken, gebruikt u deze in activiteiten die u maakt met de [Formuliergebaseerde ervaringscomposer](/help/main/c-experiences/form-experience-composer.md).
 
 1. In [!DNL Target]tijdens het maken of bewerken van een ervaring in de [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), klikt u op de locatie op de pagina waar u het invoegpunt wilt invoegen [!DNL AEM] selecteert u vervolgens de gewenste optie om de [!UICONTROL Choose an Experience Fragment] lijst.
 
@@ -135,6 +131,10 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
    * **Gericht op ervaring (XT):** [Een ervaring maken die gericht is op activiteiten](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **MVT (Multivariate Test):** [Een multivariatietest maken](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendations:** [Een Recommendations-activiteit maken](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>Ervaar fragmenten die als JSON zijn geëxporteerd in [!DNL Target] niet kan worden gebruikt bij activiteiten die met de VEC worden gecreëerd; alleen HTML-ervaringsfragmenten worden ondersteund in VEC-activiteiten. Als u JSON-ervaringsfragmenten wilt gebruiken, gebruikt u deze in activiteiten die u maakt met de [Formuliergebaseerde ervaringscomposer](/help/main/c-experiences/form-experience-composer.md).
 
 **Ervaar fragmenten op basis van de Form-based Experience Composer:**
 
