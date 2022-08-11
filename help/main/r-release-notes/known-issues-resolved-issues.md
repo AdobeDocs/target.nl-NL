@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
 workflow-type: tm+mt
-source-wordcount: '4458'
+source-wordcount: '4585'
 ht-degree: 0%
 
 ---
@@ -209,6 +209,12 @@ Je melding opnieuw synchroniseren en corrigeren:
 1. Verwijder de originele (beïnvloede) activiteiten.
 
 (TGT-38522, CSO 201006007)
+
+### Indicator voor beschikbaarheid van AutoTarget- en Automated Personalization-modellen {#at-ap-model}
+
+De functionaliteit van de Beschikbaarheid Model voor auto-Doel en Automated Personalization activiteiten mislukte periodiek van 1 juni 2022 tot 19 juli 2022. Dit betekende het Doel melden UI kan er niet in zijn geslaagd een groen controleteken te tonen die erop wijzen dat een model met succes werd gebouwd, alhoewel de ervaringen of de aanbiedingen op een gepersonaliseerde basis in of auto-Doel of de activiteiten van Automated Personalization werden gediend.
+
+Let op: **gepersonaliseerd modelgebouw zelf** Dit had geen gevolgen en de modellen werden gedurende de hele periode met succes gebouwd. Deze fout had alleen invloed op het systeem voor de beschikbaarheid van het model. **De rapportgegevens zijn ook niet beïnvloed**. Met andere woorden, de prestaties (bezoeken, conversies en conversiesnelheden) van ervaringen en aanbiedingen werden niet beïnvloed. Alleen het groene vinkje dat de beschikbaarheid van het gepersonaliseerde model aangeeft, is mogelijk niet weergegeven.
 
 ### Rapportage {#conversions-audiences}
 
