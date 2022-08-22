@@ -4,18 +4,18 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
 
-# Aankondigingen en gebeurtenissen van het doel
+# [!DNL Adobe Target] aankondigingen en evenementen
 
 Aankondigingen en informatie over komende [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
-## Doel benoemd leider in Gartner Magic Quadrant for Personalization Engines (2022)
+## [!DNL Target] benoemd tot leider in Gartner Magic Quadrant for Personalization Engines (2022)
 
 Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] ook de hoogste scores voor onze testmogelijkheden onder alle geëvalueerde leveranciers.
 
