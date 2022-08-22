@@ -4,9 +4,9 @@ description: Meer informatie over succesmetriek in Adobe [!DNL Target] die u hel
 title: Wat zijn succescijfers?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De metriek van de opbrengst die aan &quot; worden geplaatst[!UICONTROL Increment
 
 >[!NOTE]
 >
->Voor activiteiten die [Analyses als bron van rapportage](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) het doel metrisch altijd zal gebruiken &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;. Dit is *niet* configureerbaar.
+>Voor activiteiten die [Analyses als bron van rapportage](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), zal het doel metrisch altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;. Dit is *niet* configureerbaar.
 
 De volgende succeswaarden zijn beschikbaar:
 
