@@ -4,7 +4,7 @@ description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendation
 title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
 source-wordcount: '2650'
 ht-degree: 0%
@@ -170,10 +170,6 @@ Voor meer informatie over het kiezen van een [!UICONTROL Recommendation Key], zi
 
    Zie voor meer informatie [Opnameregels opgeven](#inclusion) hieronder.
 
-1. (Optioneel) Schuif de schuifregelaar **[!UICONTROL Recommend Previously Purchased Items]** schakelen naar de positie &quot;aan&quot;.
-
-   Deze instelling is gebaseerd op de `productPurchasedId`. Standaard wordt eerder aangeschafte items niet aanbevolen. In de meeste gevallen wilt u geen objecten promoten die een klant onlangs heeft aangeschaft. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als je objecten verkoopt die mensen herhaaldelijk kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet je deze optie inschakelen.
-
 ## Vergelijkbare inhoud {#similarity}
 
 Gebruiken [!UICONTROL Content Similarity] regels om aanbevelingen te doen die op punt of media attributen worden gebaseerd.
@@ -219,6 +215,10 @@ De opties voor de inclusieregel variëren per verticale branche. Standaard worde
 De inclusieregels worden aangesloten bij EN. Aan alle regels moet worden voldaan om een punt in een aanbeveling te omvatten.
 
 Voer de volgende stappen uit om een eenvoudige regel voor insluiting te maken, zoals eerder vermeld, om alleen vrouwenschoenen weer te geven met een voorraad van meer dan 50 en een prijs tussen 25 en 45 dollar:
+
+1. (Voorwaardelijk) Schuif de **[!UICONTROL Allow recently purchased items to be recommended?]** schakelen naar de positie &quot;aan&quot;.
+
+   Deze instelling is gebaseerd op de `productPurchasedId`. Standaard wordt eerder aangeschafte items niet aanbevolen. In de meeste gevallen wilt u geen objecten promoten die een klant onlangs heeft aangeschaft. Het is handig om objecten te verkopen die mensen doorgaans slechts eenmaal kopen, zoals kajaks. Als je objecten verkoopt die mensen herhaaldelijk kunnen kopen, zoals shampoo of andere persoonlijke objecten, moet je deze optie inschakelen.
 
 1. Stel een prijsbereik in voor de producten die u wilt aanbevelen.
 1. Stel het minimale voorraadbedrag in voor de producten die u wilt aanbevelen.
