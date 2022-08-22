@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magi
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Koffiepauze: Vragen en antwoorden
+## [!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (31 augustus 2022)
 
 * **Woensdag 31 augustus 2022**
 * **09:00 - 10:00 (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Laten we ideeën verkennen over:
 * Hyperpersonaliseerde ervaringen creëren
 +++
 
-## [!DNL Adobe Target] Skill Builders - Mobiele ervaring optimaliseren (6 september 2022)
+### [!DNL Adobe Target] Skill Builders - Mobiele ervaring optimaliseren (6 september 2022)
 
 Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engineeringteams productgestuurde strategieën gebruiken voor interkanaalpersonalisatie in internet en toepassingen. Verbinden met [!DNL Adobe] Skill Builder-sessie en leer hoe [!DNL Adobe Target] ontgrendelt nieuwe potentiële betrokkenheid en inkomstengroei voor marketers, ontwikkelaars en producteigenaars om bloeiende productgemeenschappen op te bouwen.
 
@@ -70,7 +70,7 @@ Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engine
 
 +++
 
-## [!DNL Adobe Target] Skill Builders - AI-gestuurde personalisatie en Recommendations (15 september 2022)
+### [!DNL Adobe Target] Skill Builders - AI-gestuurde personalisatie en Recommendations (15 september 2022)
 
 Automatisering in experimenten en verpersoonlijking blijft de hoogste omzettingen en ROI voor marketing, techniek, en productteams drijven. Verbinden met [!DNL Adobe] De zitting van de Bouwers van de Vaardigheid en leren hoe te gebruiken [!DNL Adobe Target] geavanceerde door AI aangestuurde gebruiksgevallen en mogelijkheden met aanbevelingen voor producten en inhoud om de concurrentie te blijven voorstaan en elke ervaring te winnen.
 
