@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
+source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Target Standard/Premium] 22.8.1 (gespreide release 17-18 augustus 2022)
+
+Deze onderhoudrelease bevat oplossingen voor back-end en lokalisatie.
 
 ## [!DNL Target] platformrelease (20 juli 2022)
 

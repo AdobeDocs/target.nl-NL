@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9f758ce9b86bc795a6f846a759e7a3d0a8578a47
+source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,12 @@ ht-degree: 0%
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
 
-## Adobe Target Standard/Premium 22.7.1
+## Adobe Target Standard/Premium 22.8.1 (gefaseerde release: (17 augustus 2022)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 22 augustus | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | De informatie over de volgende aankondiging is toegevoegd:<ul><li>[!DNL Target] benoemd tot leider in Gartner Magic Quadrant for Personalization Engines (2022)</li></ul>Informatie toegevoegd over de volgende gebeurtenissen:<ul><li>[!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (31 augustus 2022)</li><li>Chef-collectie: Recipes for Personalization (30 augustus 2022)</li><li>[!DNL Adobe Target] Skill Builders - Mobiele ervaring optimaliseren (6 september 2022)</li><li>[!DNL Adobe Target] Skill Builders - AI-gestuurde personalisatie en Recommendations (15 september 2022)</li></ul>Toegevoegde opnamekoppeling voor de volgende webinarsessie:<ul><li>Adobe: Personalization Industry Insider - Retail (11 augustus 2022)</li></ul> |
+| 22 augustus[Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.8.1. |
 
 ## Adobe Target Standard/Premium 22.6.1 (gefaseerde release: (7-9 juni 2022)
 
