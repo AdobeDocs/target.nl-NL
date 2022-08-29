@@ -4,9 +4,9 @@ description: Leer hoe u een activiteit Automatisch toewijzen in Adobe gebruikt [
 title: Wat is een automatisch toegewezen activiteit?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '3447'
+source-wordcount: '3455'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Standaard A/B-tests hebben inherente kosten. U moet verkeer uitgeven om prestati
 
 Een normale A/B-test in [!DNL Target] toont alleen paarsgewijze vergelijkingen van challengers met controle. Als een activiteit bijvoorbeeld ervaringen heeft: A, B, C en D, waarbij A het besturingselement is, een normaal [!DNL Target] A/B test zou A versus B, A versus C, en A versus D vergelijken.
 
-Bij dergelijke tests worden de meeste producten, waaronder [!DNL Target], gebruik de t-test van een student om op p-waarde gebaseerd vertrouwen te produceren. Deze betrouwbaarheidswaarde wordt vervolgens gebruikt om te bepalen of de toerist voldoende van de controle verschilt. Maar [!DNL Target] voert niet automatisch de impliciete vergelijkingen (B tegen C, B tegen D, en C tegen D) uit die worden vereist om de &quot;beste&quot;ervaring te vinden. Het resultaat is dat de markeerstift de resultaten handmatig moet analyseren om de &quot;beste&quot; ervaring te bepalen.
+Bij dergelijke tests worden de meeste producten, waaronder [!DNL Target], gebruikt u een [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} om op p-value gebaseerde betrouwbaarheid te produceren. Deze betrouwbaarheidswaarde wordt vervolgens gebruikt om te bepalen of de toerist voldoende van de controle verschilt. Maar [!DNL Target] voert niet automatisch de impliciete vergelijkingen (B tegen C, B tegen D, en C tegen D) uit die worden vereist om de &quot;beste&quot;ervaring te vinden. Het resultaat is dat de markeerstift de resultaten handmatig moet analyseren om de &quot;beste&quot; ervaring te bepalen.
 
 [!UICONTROL Auto-Allocate] alle impliciete vergelijkingen tussen ervaringen worden uitgevoerd en er wordt een &#39;&#39;echte&#39;&#39; winnaar gegenereerd. Er bestaat geen begrip van een &quot;controle&quot;ervaring in de test.
 

@@ -4,9 +4,9 @@ description: Meer informatie over Adobe [!DNL Target] toont en berekent de omrek
 title: Hoe bekijk ik het Tarief van de Omzetting, Lift, en het Niveau van het Vertrouwen?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -98,9 +98,9 @@ Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrou
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics].
 
-Voor A4T, gebruiken wij t-test van een Student berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test berekening van de student uit te voeren, is de &quot;som van kwadraten&quot;vereist om de variantie te berekenen, die in de noemer van t-statistiek wordt gebruikt. [In dit document worden de details uitgelegd](/help/main/assets/statistical-calculations.pdf) van de gebruikte wiskundige formules. De som van de vierkanten kan worden opgehaald [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+Voor A4T gebruiken wij [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor doorlopende variabelen (in plaats van binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [In dit document worden de details uitgelegd](/help/main/assets/statistical-calculations.pdf) van de gebruikte wiskundige formules. De som van de vierkanten kan worden opgehaald [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
 
-Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u een voorbeeld van het totale aantal paginaweergaven per bezoeker voor een bepaald tijdsbestek, misschien een paar dagen (een paar duizend gegevenspunten is alles wat u nodig hebt). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
+Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een steekproef van het totale aantal paginameningen op een per bezoekersbasis voor een gespecificeerd tijdkader uitvoeren, misschien een paar dagen (een paar duizend gegevenspunten is allen u nodig). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 
 **Als u de opdracht [!DNL Analytics] functie voor het exporteren van gegevens om dit te doen:**
 
@@ -124,7 +124,7 @@ Als u bijvoorbeeld optimaliseert voor paginaweergaven per bezoeker, exporteert u
 
    De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk gewenst moment controleren door op [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
 
-   Als u gegevens die u in het verleden hebt aangevraagd opnieuw wilt aanvragen, kunt u een oude aanvraag van het [!UICONTROL Request Manager] indien nodig.
+   Als u gegevens opnieuw wilt aanvragen die u in het verleden hebt aangevraagd, kunt u een oude aanvraag van de [!UICONTROL Request Manager] indien nodig.
 
 Meer informatie over [!DNL Data Warehouse], zie de volgende koppelingen in de [!DNL Analytics] Help-documentatie:
 
@@ -168,7 +168,7 @@ U kunt rapporten weergeven met de volgende telmethoden:
 >
 >Meestal worden tellingen bepaald door cookies en sessieactiviteit. Als u echter het laatste conversiepunt van een activiteit bereikt en vervolgens de activiteit weer betreedt, wordt u beschouwd als een nieuwe deelnemer en een nieuw bezoek aan de activiteit. Dit geldt ook voor PCID&#39;s en `sessionID` waarden veranderen niet.
 
-## Waarom doet [!DNL Target] adviseren het gebruiken van t-tests van de Student? {#t-test}
+## Waarom doet [!DNL Target] het gebruik van de t-tests van Welch aanbevelen? {#t-test}
 
 A/B-tests zijn experimenten om de gemiddelde waarde van bepaalde metrische bedrijfswaarden in een besturingsvariant (ook wel een ervaring genoemd) te vergelijken met de gemiddelde waarde van die metrische waarde in een of meer alternatieve ervaringen.
 

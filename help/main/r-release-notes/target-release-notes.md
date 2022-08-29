@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8f4228720632fd037c7568c328f899362c0baa32
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze release is beschikbaar volgens het volgende schema:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Extra ondersteuning voor andere domeinen is beschikbaar in at.js versie 2.9.0.
+* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.9.0 (en hoger) om het instellen van cookies van andere leveranciers in of uit te schakelen (TGT-43674)
 * Probleem verholpen dat ertoe heeft geleid [!UICONTROL Decision Offers] niet naar behoren binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Probleem verholpen waarbij een foutbericht werd weergegeven wanneer u het selectievakje [!UICONTROL Clicked an Element] conversiedoel tijdens het maken van een [!UICONTROL Multivariate Testing] (MVT) activiteit. (TGT-43842)
 * Het probleem dat ervoor zorgde dat de [!UICONTROL Impressions] kolom van het tonen in het gedownloade CSV- rapportdossier voor [!UICONTROL Automated Personalization] (AP) activiteiten. (TGT-43780)

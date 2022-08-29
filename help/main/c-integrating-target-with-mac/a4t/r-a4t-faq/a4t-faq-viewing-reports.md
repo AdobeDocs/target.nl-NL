@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen die vaak worden gesteld over het weergeve
 title: Antwoorden op vragen over het bekijken van Rapporten met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2515'
 ht-degree: 1%
 
 ---
@@ -84,9 +84,9 @@ Dit betekent dat de activiteiten paginaweergaven, bezoeken, enzovoort blijven kr
 
 Dit is normaal en verwacht gedrag. De variabele A4T werkt net als elke andere eVar. De waarde wordt aan de gebruiker gekoppeld totdat deze de verlooptijdperiode (90 dagen) bereikt. Als een activiteit dus slechts twee weken actief is, wordt de waarde nog steeds geassocieerd met de gebruiker gedurende ten minste de volgende 90 dagen.
 
-De beste praktijken zijn meningsrapporten voor die activiteit slechts voor de periode dat de activiteit levend was. De datums moeten standaard correct worden ingesteld wanneer u de activiteit in [!DNL Analytics], dus tenzij u de datum handmatig hebt verlengd, dient dit vanuit een rapportagerefase geen probleem te zijn.
+De beste praktijken zijn meningsrapporten voor die activiteit slechts voor de periode dat de activiteit levend was. De datums moeten standaard correct worden ingesteld wanneer u de activiteit in [!DNL Analytics], dus tenzij u de datum manueel hebt verlengd zou dit geen kwestie uit een rapporteringsstandpunt moeten zijn.
 
-Laten we er bijvoorbeeld van uitgaan dat de variabele A4T na 90 dagen vervalt en dat de test van 1 januari tot en met 15 januari actief is.
+Als voorbeeld, veronderstellen wij dat de variabele A4T na 90 dagen verloopt en de test van 1 Januari door 15 Januari actief is.
 
 Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en heeft daarna vijf paginaweergaven. In de komende twee weken keert de gebruiker nooit terug naar de site. De gegevens zien er voor deze gebruiker als volgt uit:
 
@@ -115,7 +115,7 @@ De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. 
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Totaal | 2 | 20 | 3 | 1 | 1 |
 
-Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target] rapporteren, omdat u geen [!DNL Target] Als u een andere activiteit wilt gebruiken om te zien wat beter werkt, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items in één activiteit. Het is voor een gebruiker niet mogelijk om verschillende ervaringen in dezelfde activiteit te zien zodat u zich geen zorgen hoeft te maken over kruisbesmetting van orderkrediet.
+Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target] rapporteren, omdat je geen [!DNL Target] De activiteit tegen een andere activiteit om te zien welke succesvoller is, maakt niet uit dat alle activiteiten de gebruiker zag krediet kregen. U vergelijkt de resultaten van twee items binnen één activiteit. Het is niet mogelijk voor een gebruiker om verschillende ervaringen in de zelfde activiteit te zien zodat moet u zich niet over kruisbesmetting van orderkrediet ongerust maken.
 
 Zie voor meer informatie [Conversievariabelen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in de *Handleiding Analysebeheer*.
 
@@ -125,13 +125,13 @@ Een bron van beelden aan het rapport van een activiteit A4T na deactivatie kan v
 
 ## Waarom berekenen Analytics en Analytics voor Adobe Target (A4T) aantallen voor de Unieke metrische bezoekers verschillend? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-Wanneer u een test A/B in werking stelt, die de Studenten t-test (betrouwbaarheidsmetrisch) gebruikt om een winnaar van een test te kiezen, één van de veronderstellingen is dat er een vaste tijdhorizon is. De test is alleen statistisch geldig als u naar die vaste steekproefgrootte kijkt.
+Wanneer u een A/B test in werking stelt, die gebruikt [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (de betrouwbaarheidsmaatstaf) om een winnaar van een test te kiezen, is een van de veronderstellingen dat er een vaste tijdshorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
 
-De [!UICONTROL Unique Visitors] De metrische waarde is anders in [!DNL Analytics] en [!DNL Target] alleen als u een periode bekijkt die korter is dan de werkelijke test. Als u de grootte van het monster niet hebt bereikt, is de test minder betrouwbaar. Zie [Een A/B-test niet uitvoeren](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) op [De website van Evan Miller](https://www.evanmiller.org/index.html) voor meer informatie .
+De [!UICONTROL Unique Visitors] De metrische waarde is anders in [!DNL Analytics] en [!DNL Target] alleen als u een periode bekijkt die korter is dan de werkelijke test. Als u uw steekproefgrootte niet hebt bereikt, is de test niet zo betrouwbaar. Zie [Een A/B-test niet uitvoeren](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) op [De website van Evan Miller](https://www.evanmiller.org/index.html) voor meer informatie .
 
 De [!UICONTROL Unique Visitors] In de metrische code wordt het aantal personen weergegeven dat tijdens de opgegeven periode aan de test is blootgesteld en dat de site heeft bezocht. Deze mensen maken deel uit van de test en moeten worden geteld. Als u slechts het aantal mensen wilt zien die tijdens één enkele week werden blootgesteld, kunt u een segment van bezoekers tot stand brengen die een activiteitenindruk hadden en het toepassen op het rapport.
 
-U kunt de hoeveelheid tijd verkorten [!DNL Target] de variabele blijft tot een zitting voortbestaan; Dit is echter problematisch voor tests waarbij de conversiegebeurtenis minder waarschijnlijk binnen dezelfde sessie plaatsvindt.
+U kunt de hoeveelheid tijd verkorten [!DNL Target] de variabele blijft tot een zitting voortbestaan; nochtans, is dat problematisch voor tests waar de conversiegebeurtenis niet zo waarschijnlijk binnen de zelfde zitting is.
 
 ## Waarom wordt dezelfde bezoeker soms geteld in meerdere ervaringen in Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
 

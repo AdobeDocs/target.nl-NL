@@ -4,7 +4,7 @@ description: Leer hoe te om de resultaten van een auto-Wijs A/B activiteit in Ad
 title: Hoe interpreteer ik automatisch toegewezen rapporten?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Bij Auto-Wijs activiteiten, wordt de eerste ervaring (door gebrek genoemd Ervari
 
 De numerieke waarde &quot;Lift&quot; en de 95%-grenzen voor elke ervaring worden altijd berekend op basis van de gedefinieerde ervaring &quot;Control&quot;. De gedefinieerde ervaring met &quot;Besturing&quot; kan geen lift hebben ten opzichte van zichzelf, zodat een lege waarde &quot;—&quot; wordt gerapporteerd voor deze ervaring. In tegenstelling tot bij A/B-tests wordt bij Auto-Allocate-tests, als een ervaring slechter is dan de gedefinieerde controle, geen negatieve Liftwaarde gerapporteerd. in plaats daarvan wordt &quot;—&quot; weergegeven.
 
-De getoonde bars van het Interval van het Vertrouwen vertegenwoordigen het 95% betrouwbaarheidsinterval rond de gemiddelde schatting van de de omzettingssnelheid van een ervaring. Deze zijn ook van kleur-gecodeerd met betrekking tot de bepaalde ervaring van de &quot;Controle&quot;. De balk &quot;Besturingservaring&quot; is altijd grijs. De betrouwbaarheidsintervallen onder het betrouwbaarheidsinterval &quot;Besturing&quot; zijn rood van kleur en de betrouwbaarheidsintervallen boven de ervaring &quot;Besturing&quot; zijn groen van kleur.
+De getoonde bars van het Interval van het Vertrouwen vertegenwoordigen het 95% betrouwbaarheidsinterval rond de gemiddelde schatting van de de omzettingssnelheid van een ervaring. Deze zijn ook van kleur-gecodeerd met betrekking tot de bepaalde ervaring van de &quot;Controle&quot;. De balk &quot;Besturingservaring&quot; is altijd grijs. De betrouwbaarheidsintervallen onder het betrouwbaarheidsinterval van de ervaring &quot;Besturing&quot; zijn rood van kleur en de betrouwbaarheidsintervallen boven de ervaring &quot;Besturing&quot; zijn groen van kleur.
 
-Een winnaar wordt gevonden wanneer het 95%-betrouwbaarheidsinterval van de toonaangevende ervaring niet overlapt met andere ervaringen. De winnende ervaring wordt aangeduid met een groene sterrenbadge links van de ervaringsnaam en in de banner &quot;Winner&quot;. Als er geen ster zichtbaar is, wordt op de banner &#39;&#39;Geen winnaar nog&#39;&#39; weergegeven en is er nog geen winnaar gevonden.
+Een winnaar wordt gevonden wanneer het 95% Betrouwbaarheidsinterval van de toonaangevende ervaring niet overlapt met andere ervaringen. De winnende ervaring wordt aangeduid met een groene sterrenbadge links van de ervaringsnaam en in de banner &quot;Winner&quot;. Als er geen ster zichtbaar is, wordt op de banner &#39;&#39;Geen winnaar nog&#39;&#39; weergegeven en is er nog geen winnaar gevonden.
 
 Er wordt ook een &quot;Vertrouwensnummer&quot; gerapporteerd naast de huidige leidende of winnende ervaring. Dit cijfer wordt slechts gerapporteerd tot het Vertrouwen van de leidende ervaring minstens 60% bereikt. Als er precies twee ervaringen aanwezig zijn in het Automatisch toewijzen-experiment, geeft dit getal het betrouwbaarheidsniveau aan dat de ervaring beter presteert dan de andere ervaring. Als er meer dan twee ervaringen aanwezig zijn in het experiment voor automatisch toewijzen, geeft dit getal het betrouwbaarheidsniveau aan dat de ervaring beter presteert dan de gedefinieerde ervaring voor besturing. Als de &quot;Controle&quot;ervaring het winnen is, wordt geen &quot;Vertrouwen&quot;cijfer gemeld.
 
@@ -71,7 +71,7 @@ Om een van de volgende redenen wordt beschreven waarom 0% wordt weergegeven in h
 
 * Handmatige A/B-tests en Automatisch toewijzen gebruiken verschillende statistieken om betrouwbaarheidswaarden weer te geven.
 
-   Handmatige A/B-tests gebruiken p-waarden op basis van [T-test van de student](https://en.wikipedia.org/wiki/Student%27s_t-test). Een P-waarde is de waarschijnlijkheid om het waargenomen (of een meer extreme) verschil tussen een ervaring en de controle te vinden, aangezien er in werkelijkheid geen dergelijk verschil is. Deze P-waarden kunnen alleen worden gebruikt om te bepalen of waargenomen gegevens consistent zijn met een bepaalde ervaring en dat de controle hetzelfde is. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
+   Handmatige A/B-tests gebruiken p-waarden op basis van [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test). Een P-waarde is de waarschijnlijkheid om het waargenomen (of een meer extreme) verschil tussen een ervaring en de controle te vinden, aangezien er in werkelijkheid geen dergelijk verschil is. Deze P-waarden kunnen alleen worden gebruikt om te bepalen of waargenomen gegevens consistent zijn met een bepaalde ervaring en dat de controle hetzelfde is. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
 
    Automatisch toewijzen toont de waarschijnlijkheid dat een bepaalde ervaring een echte winnaar is in alle ervaringen in de activiteit. Dit betekent dat alleen een winnende ervaring (die waarschijnlijk de winnaar zal zijn) een betrouwbaarheidswaarde heeft die niet gelijk is aan nul. Alle anderen zullen waarschijnlijk verliezers zijn en 0%.
 
