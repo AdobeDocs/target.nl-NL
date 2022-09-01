@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
+source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,11 @@ Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magi
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (31 augustus 2022)
-
-* **Woensdag 31 augustus 2022**
-* **09:00 - 10:00 (PDT, UTC-7)**
-* **[Registratiegegevens](https://adobe.ly/3buoDUt){target=_blank}**
-
-We worden lid van Senior [!DNL Adobe] Consultant voor Premieren Support Moses Maxen om te chatten over uw [!DNL Adobe Target] vraagstukken in verband met de onderwerpen die in de recente [8/11/22 Retail Personalization Industry Insiders Webinar](https://video.tv.adobe.com/v/346323){target=_blank} en zijn expertisegebieden met [!DNL Target]:
-
-* Hoe de verkoop van e-commerce in de detailhandel sterk groeit naarmate de kooppatronen en het gedrag van de consument de afgelopen maanden zijn verschoven, met een hogere vraag naar goederen en diensten op bepaalde markten, waaronder verpakte consumptiegoederen
-* Verwante optimalisatie- en personalisatiestrategieën
-* [!DNL Target] Implementatie
-* [!DNL Adobe] Sensei-functies
-* Workflows in de kerngebruikersinterface
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
 Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Adobe Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
 
-### Chef-collectie: Recipes for Personalization (30 augustus 2022)
-
-Verbinden met [!DNL Adobe Target] [!DNL ]team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde van Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
-
-+++klik op mij
-
-* **Donderdag 30 augustus 2022**
-* **13:00 - 14:00 uur (EDT, UTC-4)**
-* **[Meer informatie en registratiegegevens](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-We zullen de verhalen van onze klanten over &#39;chef-koks&#39; en wat ze hebben gekookt in hun eigen personalisatiekeuken bekijken.
-
-Laten we ideeën verkennen over:
-
-* Hoe te om verpersoonlijking te gebruiken om loyaliteit te bouwen
-* Optimaliseren voor een concurrentievoordeel
-* Hyperpersonaliseerde ervaringen creëren
-+++
 
 ### [!DNL Adobe Target] Skill Builders - Mobiele ervaring optimaliseren (6 september 2022)
 
@@ -86,6 +55,25 @@ Automatisering in experimenten en verpersoonlijking blijft de hoogste omzettinge
 
 Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
 
+### Chef-collectie: Recipes for Personalization (30 augustus 2022)
+
+Verbinden met [!DNL Adobe Target] [!DNL ]team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde van Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+
++++klik op mij
+
+* **Donderdag 30 augustus 2022**
+* **13:00 - 14:00 uur (EDT, UTC-4)**
+* **[Meer informatie en registratiegegevens](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+We zullen de verhalen van onze klanten &#39;chef-koks&#39; en wat ze hebben gekookt in hun eigen personalisatiekeuken bekijken.
+
+Laten we ideeën verkennen over:
+
+* Hoe te om verpersoonlijking te gebruiken om loyaliteit te bouwen
+* Optimaliseren voor een concurrentievoordeel
+* Hyperpersonaliseerde ervaringen creëren
++++
+
 ### Real Time Loyalty Activation (25 augustus 2022)
 
 De toenemende loyaliteit in een tijd van versnelde kwesties van de leveringsketen, de dienstmislukkingen, en het beperkte personeel is een uitdaging de meeste reis, gastvrijheid en het dineren merken worden geconfronteerd. Hoe kunnen merken in het tijdperk van AI hun ervaringen schalen zonder de benodigde middelen die de industrie hebben verlaten. Digitale vooruitgang heeft 20-25 sneller versneld om niet alleen versnelde klantenverwachtingen te steunen, maar ook om teams door automatisering te schrapen.
@@ -98,7 +86,7 @@ De toenemende loyaliteit in een tijd van versnelde kwesties van de leveringskete
 
 In 2022 hebben systemen een kantelpunt bereikt in het vermogen om continue intelligentie te leveren om in real time loyaliteitsactivering te kunnen uitvoeren.
 
-Onderwerpen die we zullen onderzoeken:
+Onderwerpen die we zullen verkennen:
 
 * De versnelling van digitale storingen en de toename van AI
 * Waarom vroege adopters winnen in zowel top-line als bottom-line groei
@@ -135,7 +123,7 @@ Leer hoe de Kunstmatige Intelligentie consumentenverwachtingen blijft herdefini�
 
 Join Jordan Ison (Hoofd Expert Solution Consultant bij [!DNL Adobe]) te bespreken:
 
-* Hoe marketers, ontwikkelaars en productteams de &quot;zwarte doos&quot; van AI kunnen openen om toekomstige test- en personalisatiestrategieën te drijven
+* Hoe marketers, ontwikkelaars en productteams de &#39;zwarte doos&#39; van AI kunnen openen om toekomstige test- en personalisatiestrategieën te drijven
 * Oplossing voor uitdagingen bij het optimaliseren van web, mobiele app, e-mail, IoT en elk digitaal aanraakpunt voor hogere conversie en betrokkenheid
 * Stapsgewijze rondleiding door [!DNL Adobe Analytics] en [!DNL Target] workflows voor personalisatie, targeting en testen
 * De meest gebruikte gevallen om te ontgrendelen welke kenmerken het gedrag van de bezoeker voorspellen en welke kenmerken het belangrijkst zijn voor de belangrijkste visualisaties en segmentatieanalyse
@@ -188,7 +176,7 @@ Leer beste praktijken bij het opvoeren van verpersoonlijkingsprogramma&#39;s op 
 
 Word Shawn Wilkinson (eCommerce Personalization Manager) voor meer informatie [!DNL Target] helpt Dick&#39;s Sporting Goods gemiddelde bezoekers om te zetten in terugkerende atleten.
 
-Leer hoe Dick&#39;s Sporting Goods de groei van dubbele cijfers drijft terwijl we uitpakken:
+Leer hoe Dick&#39;s Sporting Goods de groei van dubbele cijfers stimuleert terwijl we uitpakken:
 
 * Hoe te om een krachtige verpersoonlijkingsprogramma voor kleinhandel te plannen en te lanceren
 * Waarom het vinden van inkoop in de hele organisatie cruciaal is om obstakels en obstakels te overwinnen
