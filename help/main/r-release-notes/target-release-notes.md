@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze release is beschikbaar volgens het volgende schema:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.9.1 (en hoger) om het instellen van cookies van andere leveranciers in of uit te schakelen (TGT-43674)
+* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.9.1 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
 * Bijgewerkte meldingen in de [!DNL Target] UI om klanten te informeren dat de activiteiten zijn toegelaten, gehandicapt, en doel en liftdrempels hebben bereikt. (TGT-35811)
 * De mogelijkheid toegevoegd om een bloklijst van kenmerken via API in te stellen [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto Target] activiteiten.
 * Probleem verholpen dat ertoe heeft geleid [!UICONTROL Decision Offers] niet naar behoren binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
