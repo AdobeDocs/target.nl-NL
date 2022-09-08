@@ -4,7 +4,7 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Deze release is beschikbaar volgens het volgende schema:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.9.1 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
+* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.10.0 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
 * Bijgewerkte meldingen in de [!DNL Target] UI om klanten te informeren dat de activiteiten zijn toegelaten, gehandicapt, en doel en liftdrempels hebben bereikt. (TGT-35811)
 * Probleem verholpen dat ertoe heeft geleid [!UICONTROL Decision Offers] niet naar behoren binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Probleem verholpen waarbij een foutbericht werd weergegeven wanneer u het selectievakje [!UICONTROL Clicked an Element] conversiedoel tijdens het maken van een [!UICONTROL Multivariate Testing] (MVT) activiteit. (TGT-43842)
