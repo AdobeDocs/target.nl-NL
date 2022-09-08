@@ -1,12 +1,12 @@
 ---
 keywords: aankondigingen;vaardigheid bouwen;ontwikkelaarspraatje;koffieonderbreking;gebeurtenissen;forrester;gartner;webinar
 description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] gebeurtenissen, waaronder Skill Builder-sessies, chats voor ontwikkelaars en productmanagers, webinars en meer.
-title: Waar kan ik vinden? [!DNL Target] Aankondigingen en evenementen?
+title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
+source-git-commit: a37a530a4ea163070e82820801f7acdfa1eae7c5
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1757'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Aankondigingen en informatie over komende [!DNL Adobe Target] gebeurtenissen, wa
 
 ## [!DNL Target] benoemd tot leider in Gartner Magic Quadrant for Personalization Engines (2022)
 
-Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] ook de hoogste scores voor onze testmogelijkheden onder alle geëvalueerde leveranciers.
+Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] hebben de hoogste scores voor onze testmogelijkheden onder alle beoordeelde leveranciers ontvangen.
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
@@ -26,24 +26,11 @@ Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://busines
 
 Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Adobe Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
 
-
-### [!DNL Adobe Target] Skill Builders - Mobiele ervaring optimaliseren (6 september 2022)
-
-Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engineeringteams productgestuurde strategieën gebruiken voor interkanaalpersonalisatie in internet en toepassingen. Verbinden met [!DNL Adobe] Skill Builder-sessie en leer hoe [!DNL Adobe Target] ontgrendelt nieuwe potentiële betrokkenheid en inkomstengroei voor marketers, ontwikkelaars en producteigenaars om bloeiende productgemeenschappen op te bouwen.
-
-+++klik op mij
-
-* **Donderdag 6 september 2022**
-* **13:00 - 14:00 uur (EDT, UTC-4)**
-* **[Meer informatie en registratiegegevens](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
-
 ### [!DNL Adobe Target] Skill Builders - AI-gestuurde personalisatie en Recommendations (15 september 2022)
 
 Automatisering in experimenten en verpersoonlijking blijft de hoogste omzettingen en ROI voor marketing, techniek, en productteams drijven. Verbinden met [!DNL Adobe] De zitting van de Bouwers van de Vaardigheid en leren hoe te gebruiken [!DNL Adobe Target] geavanceerde door AI aangestuurde gebruiksgevallen en mogelijkheden met aanbevelingen voor producten en inhoud om de concurrentie te blijven voorstaan en elke ervaring te winnen.
 
-+++klik op mij
++++Details
 
 * **Donderdag 15 september 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
@@ -55,11 +42,23 @@ Automatisering in experimenten en verpersoonlijking blijft de hoogste omzettinge
 
 Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
 
+### [!DNL Adobe Target] Skill Builders - Mobiele ervaring optimaliseren (6 september 2022)
+
+Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engineeringteams productgestuurde strategieën gebruiken voor interkanaalpersonalisatie in internet en toepassingen. Verbinden met [!DNL Adobe] Skill Builder-sessie en leer hoe [!DNL Adobe Target] ontgrendelt nieuwe potentiële betrokkenheid en inkomstengroei voor marketers, ontwikkelaars en producteigenaars om bloeiende productgemeenschappen op te bouwen.
+
++++Details
+
+* **Donderdag 6 september 2022**
+* **13:00 - 14:00 uur (EDT, UTC-4)**
+* **[Meer informatie en registratiegegevens](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ### Chef-collectie: Recipes for Personalization (30 augustus 2022)
 
 Verbinden met [!DNL Adobe Target] [!DNL ]team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde van Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
 
-+++klik op mij
++++Details
 
 * **Donderdag 30 augustus 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
@@ -78,7 +77,7 @@ Laten we ideeën verkennen over:
 
 De toenemende loyaliteit in een tijd van versnelde kwesties van de leveringsketen, de dienstmislukkingen, en het beperkte personeel is een uitdaging de meeste reis, gastvrijheid en het dineren merken worden geconfronteerd. Hoe kunnen merken in het tijdperk van AI hun ervaringen schalen zonder de benodigde middelen die de industrie hebben verlaten. Digitale vooruitgang heeft 20-25 sneller versneld om niet alleen versnelde klantenverwachtingen te steunen, maar ook om teams door automatisering te schrapen.
 
-+++klik op mij
++++Details
 
 * **Donderdag 25 augustus 2022**
 * **22:00 - 11:00 uur (PDT, UTC-7)**
@@ -94,13 +93,13 @@ Onderwerpen die we zullen verkennen:
 * Real Time Loyalty Activation in action
 +++
 
-### Adobe: Personalization Industry Insider - Retail (11 augustus 2022)
+### [!DNL Adobe]: Personalization Industry Insider - Retail (11 augustus 2022)
 
 2022 heeft bedrijven een dynamische en snel veranderende omgeving gegeven om te werken en te exploiteren. Leer hoe experts in de branche nieuwe trends voor consumenten zien ontstaan terwijl het leven weer normaal wordt voor werknemers en reizigers.
 
 * [Koppeling opnemen](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++klik op mij
++++Details
 
 * **Donderdag 11 augustus 2022**
 * **13:00 - 14:00 uur ()**
@@ -109,13 +108,13 @@ Onderwerpen die we zullen verkennen:
 Sluit u aan bij Michael Klein (Director, Industry Strategy Retail) en Leina Betzer (Target Consultant, Adobe Premier Support) om te bespreken hoe de verkoop van e-mails in de detailhandel sterk groeit naarmate de kooppatronen en het gedrag van consumenten verschuiven, met een hogere vraag naar goederen en diensten op bepaalde markten.
 +++
 
-### Adobe: Personalisatie met precisie - [!DNL Adobe Analytics] en [!DNL Target] (2 juni 2022)
+### [!DNL Adobe]: Personalisatie met precisie - [!DNL Adobe Analytics] en [!DNL Target] (2 juni 2022)
 
 Leer hoe de Kunstmatige Intelligentie consumentenverwachtingen blijft herdefiniëren aangezien machine het leren modellen en gegevensinzichten nieuwe deuren openen voor marketers, ontwikkelaars, en producteigenaars om consumenten met gepersonaliseerde ervaringen te betrekken die belangrijk zijn. Volg een stapsgewijze rondleiding van [!DNL Adobe Analytics] + [!DNL Adobe Target] workflows voor personalisatie, doelgerichtheid en testen.
 
 * [Koppeling opnemen](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++klik op mij
++++Details
 
 * **Donderdag 2 juni 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
@@ -136,7 +135,7 @@ Leer beste praktijken hoe te om een &quot;relatiebank&quot;te worden om merkloya
 
 * [Koppeling opnemen](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++klik op mij
++++Details
 
 * **Donderdag 9 juni 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
@@ -145,13 +144,13 @@ Leer beste praktijken hoe te om een &quot;relatiebank&quot;te worden om merkloya
 Sluit zich aan bij Heather Adkins (SVP Marketing Technology) om beste praktijken te leren om een &quot;relatiebank&quot;te worden om merkloyaliteit te verhogen en hoe te om mensen en processen te drijven om succesvolle verpersoonlijkingsprogramma&#39;s te bouwen en te schrapen.
 +++
 
-### Adobe: Ontdek de mogelijkheden voor optimalisatie met hoge effecten (16 juni 2022)
+### [!DNL Adobe]: Ontdek de mogelijkheden voor optimalisatie met hoge effecten (16 juni 2022)
 
 Leer hoe wij nieuw normaal-die digitaler dan ooit zijn geworden-is het essentieel dat de organisaties van elke kans voordeel halen om uitzonderlijke digitale ervaringen te leveren. Goed genoeg is niet meer echt goed genoeg. Het kost grote ervaring om concurrerend te blijven.
 
 * [Koppeling opnemen](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++klik op mij
++++Details
 
 * **Donderdag 16 juni 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
@@ -172,7 +171,7 @@ Leer beste praktijken bij het opvoeren van verpersoonlijkingsprogramma&#39;s op 
 
 * [Koppeling opnemen](https://video.tv.adobe.com/v/343042){target=_blank}
 
-+++klik op mij
++++Details
 
 Word Shawn Wilkinson (eCommerce Personalization Manager) voor meer informatie [!DNL Target] helpt Dick&#39;s Sporting Goods gemiddelde bezoekers om te zetten in terugkerende atleten.
 
@@ -185,13 +184,13 @@ Leer hoe Dick&#39;s Sporting Goods de groei van dubbele cijfers stimuleert terwi
 
 +++
 
-### Adobe: Personalization Industry Insider - Financial Services and Insurance (24 mei 2022)
+### [!DNL Adobe]: Personalization Industry Insider - Financial Services and Insurance (24 mei 2022)
 
 Leer hoe financiële dienstverleners klanten steunen en informeren gebruikend verpersoonlijking om op inflatiepatronen en investeringsstrategieën voor te bereiden.
 
 [Koppeling opnemen](https://video.tv.adobe.com/v/343240){target=_blank}
 
-+++klik op mij
++++Details
 
 Join Christopher Young (Director, Industry Strategy Financial Services) en James Capasso (Target Consultant, Adobe-Premier Support) voor informatie over hoe merken reageren op directe veranderingen in de vraag en tegelijk personalisatie centraal stellen in hun klantenservice. Leer hoe financiële dienstverleners klanten over de hele wereld steunen en informeren die zich zorgen maken over recente inflatiepatronen en -omstandigheden op hun investeringen.
 ++ 
@@ -202,7 +201,7 @@ De toolkit van de mening en gebruiksgevallen voor het uitvoeren van dwars-functi
 
 [Koppeling opnemen](https://video.tv.adobe.com/v/343344){target=_blank}
 
-+++klik op mij
++++Details
 
 Sluit u aan bij Heather Adkins (SVP Marketing Technology Manager) om te leren hoe de City National Bank een van de meest geavanceerde ‘Digitaal-Enabled Relationship Banks’ is geworden.
 
@@ -219,7 +218,7 @@ Leer hoe de Nationale Bank van de Stad leverde [!DNL Target] tot:
 
 **[Registreren om de webinar-opname te bekijken](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-+++klik op mij
++++Details
 
 Leer in deze sessie hoe [!DNL Adobe Target] brugt de hiaat bij het combineren van gegevens over veelvoudige bronnen voor Realtime Personalisatie aangezien wij bespreken:
 
@@ -234,7 +233,7 @@ Leer in deze sessie hoe [!DNL Adobe Target] brugt de hiaat bij het combineren va
 
 [Koppeling opnemen](https://video.tv.adobe.com/v/328148){target=_blank}
 
-+++klik op mij
++++Details
 
 Meer dan ooit, worden de marketers, de producteigenaars, en de ontwikkelaars belast met het optimaliseren van de algemene klantenervaring op plaatsen, in apps, en overal anders zij met hun klanten verbinden. Meerdere gereedschappen met gegevenssilo&#39;s en ingewikkelde implementaties knippen deze niet.
 
@@ -245,7 +244,7 @@ In dit geregistreerde webinar bespreken de productdeskundigen van Adobe Target h
 
 * **[Koppeling opnemen](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
-+++klik op mij
++++Details
 
 McKinsey Digital meldt dat &quot;we vijf jaar vooruit hebben gespaard in de digitale adoptie van consumenten en bedrijven in een kwestie van ongeveer acht weken.&quot; *
 
@@ -260,7 +259,7 @@ Sluit u aan bij Adobe en HSBC voor dit webinar om te leren:
 *McKinsey-artikel: &quot;[Het herstel van COVID-19 is digitaal](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; mei 2020
 +++
 
-### Adobe [!DNL Target] Skill Builder: Chat op ontwikkelaar, Adobe migreren [!DNL Target]s mbox.js to at.js {#skill-builder}
+### [!DNL Adobe Target] Skill Builder: Chat op ontwikkelaar, migreren [!DNL Adobe Target]s mbox.js to at.js {#skill-builder}
 
 Met de veroudering van mbox.js op 31 maart 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
 
