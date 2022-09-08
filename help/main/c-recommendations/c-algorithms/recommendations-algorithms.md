@@ -5,9 +5,9 @@ title: Waar kan ik leren over de wetenschap achter de Recommendations-algoritmen
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2763'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Algoritmen zijn:
 
 De meest recente toevoegingen aan de [!DNL Target] reeks aanbevelingen algoritmen zijn [!UICONTROL Recommended For You] en een reeks aanbevelingen op basis van kunst algoritmen. Beide types van algoritmen gebruiken samenwerkings het filtreren technieken om individuele op punt-gebaseerde aanbevelingen te vormen. Dan, bij tijd, veelvoudige punten in de het doorbladeren van de gebruiker geschiedenis (voor [!UICONTROL Recommended For You]) of de huidige winkelwagentje van de gebruiker (voor aanbevelingen op basis van winkelwagentje) wordt gebruikt om deze op items gebaseerde aanbevelingen op te halen, die vervolgens worden samengevoegd tot de definitieve lijst met aanbevelingen. Merk op dat vele vloeren van gepersonaliseerde aanbevelingen algoritmen bestaan. De keuze van een algoritme met meerdere sleutels houdt in dat de aanbevelingen direct beschikbaar zijn nadat een bezoeker een browsergeschiedenis heeft en dat aanbevelingen kunnen worden bijgewerkt om te reageren op het meest recente gedrag van de bezoeker.
 
-Deze algoritmen bouwen op de fundamentele samenwerkings het filtreren technieken voort die in op punt-gebaseerde aanbevelingen sectie worden beschreven, maar omvatten ook hyperparameterhet stemmen om optimale gelijkenis tussen punten te bepalen. Het algoritme voert een chronologische scheiding van gedragsgegevens voor elke gebruiker uit, en treinraadmodellen op de vroegere gegevens terwijl het proberen om de punten te voorspellen die een gebruiker of aankopen later bekijkt. De maatstaf van de gelijkenis die de optimale [Gemiddelde precisie](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) wordt vervolgens gekozen.
+Deze algoritmen bouwen op de fundamentele samenwerkings het filtreren technieken voort die in op punt-gebaseerde aanbevelingen sectie worden beschreven, maar omvatten ook hyperparameterhet stemmen om optimale gelijkenis tussen punten te bepalen. Het algoritme voert een chronologische scheiding van gedragsgegevens voor elke gebruiker uit, en treinraadmodellen op de vroegere gegevens terwijl het proberen om de punten te voorspellen die een gebruiker of aankopen later bekijkt. De maatstaf van de gelijkenis die de optimale [Gemiddelde precisie](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval).
 
 De logica van modelopleiding en het scoren stappen worden getoond in het volgende diagram:
 
@@ -138,7 +138,7 @@ De details van deze stappen zijn als volgt:
 
    ![Formule voor het berekenen van trainingen](assets/formula4.png)
 
-   * **Evaluatie van het model voor gelijkenis van item**: De modelevaluatie wordt uitgevoerd door de in de vorige stap gegenereerde aanbevelingen te nemen en voorspellingen te doen over de reeks testgegevens. De online het scoren fase wordt nagebootst door chronologisch het puntengebruik van elke gebruiker in de testdataset te bepalen, dan het doen van 100 aanbevelingen voor geordende ondergroepen van punten in een poging om verdere meningen en aankopen te voorspellen. Een metrische informatie van de informatieherwinning, [Gemiddelde precisie](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), wordt gebruikt om de kwaliteit van deze aanbevelingen te beoordelen. Deze maatstaf houdt rekening met de volgorde van aanbevelingen, en geeft de voorkeur aan relevante punten hoger in de lijst van aanbevelingen, die een belangrijk bezit voor rangschikkingssystemen is.
+   * **Evaluatie van het model voor gelijkenis van item**: De modelevaluatie wordt uitgevoerd door de in de vorige stap gegenereerde aanbevelingen te nemen en voorspellingen te doen over de reeks testgegevens. De online het scoren fase wordt nagebootst door chronologisch het puntengebruik van elke gebruiker in de testdataset te bepalen, dan het doen van 100 aanbevelingen voor geordende ondergroepen van punten in een poging om verdere meningen en aankopen te voorspellen. Een metrische informatie van de informatieherwinning, [Gemiddelde precisie](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) wordt gebruikt om de kwaliteit van deze aanbevelingen te evalueren. Deze maatstaf houdt rekening met de volgorde van aanbevelingen, en geeft de voorkeur aan relevante punten hoger in de lijst van aanbevelingen, die een belangrijk bezit voor rangschikkingssystemen is.
    * **Modelselectie**: Na off-line evaluatie, wordt het model dat de hoogste Gemiddelde Precisie heeft geselecteerd, en alle individuele punt-punt aanbevelingen die voor het worden gegevens verwerkt.
    * **Offline filteren**: De laatste fase van modeltraining is de toepassing van eventuele toepasselijke dynamische filters. Na deze stap worden vooraf berekende aanbevelingen globaal in cache geplaatst om beschikbaar te zijn voor het dienen.
 

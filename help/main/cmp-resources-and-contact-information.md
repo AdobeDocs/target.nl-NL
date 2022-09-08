@@ -4,9 +4,9 @@ description: Meer informatie over extra bronnen voor meer informatie over Adobe 
 title: Waar kan ik middelen en contactinformatie voor Doel vinden?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -120,10 +120,10 @@ We zijn blij met eventuele suggesties of feedback met betrekking tot deze oploss
 
 ### Juridisch {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2021 Adobe Systems Incorporated. all rights reserved.
+* © 2022 Adobe Systems Incorporated. all rights reserved.
 * Gepubliceerd door Adobe Systems Incorporated.
 
-[Gebruiksvoorwaarden](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Gebruiksvoorwaarden](https://www.adobe.com/legal/terms.html)
 
 Adobe en het logo van de Adobe zijn gedeponeerde handelsmerken of handelsmerken van Adobe Systems Incorporated in de Verenigde Staten en/of andere landen. Een handelsmerksymbool (®, ™, enz.) duidt een Adobe-handelsmerk aan.
 
