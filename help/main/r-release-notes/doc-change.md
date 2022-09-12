@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,13 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
+
+## [!DNL Adobe Target] Standard/Premium 22.9.1 (gefaseerde release 13-15 september 2022)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 22 augustus | [Begrijp het [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) | Informatie toegevoegd over meldingen bij een [!DNL Recommendations] feed mislukt. |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.9.1. |
 
 ## Adobe Target Standard/Premium 22.8.1 (gefaseerde release: (17 augustus 2022)
 

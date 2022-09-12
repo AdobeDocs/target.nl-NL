@@ -4,7 +4,7 @@ description: Verken uzelf met de gebruikersinterface en zoek koppelingen naar me
 title: Hoe gebruik ik de [!DNL Target] UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Het deelvenster bevat tabbladen voor [!UICONTROL Notifications] en [!UICONTROL A
 
 De volgende secties bevatten informatie over elk lusje, en hoe te om berichten en aankondigingen te vormen:
 
-### Meldingen
+### Meldingen {#notifications}
 
 [!DNL Target] gebeurtenismeldingen zijn onder meer:
 
@@ -86,6 +86,7 @@ De volgende secties bevatten informatie over elk lusje, en hoe te om berichten e
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 U kunt afzonderlijke meldingen markeren als gelezen door de muisaanwijzer op de gewenste melding te plaatsen en vervolgens op het vinkje te klikken. U kunt alle meldingen als gelezen markeren of alle meldingen weergeven door op [!UICONTROL "Mark as Read"] of [!UICONTROL "View All"] onder aan het deelvenster.
