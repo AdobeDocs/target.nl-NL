@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
+source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1826'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,29 @@ Automatisering in experimenten en verpersoonlijking blijft de hoogste omzettinge
 * **Donderdag 15 september 2022**
 * **13:00 - 14:00 uur (EDT, UTC-4)**
 * **[Meer informatie en registratiegegevens](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
+### Fijnafstemming door AI aangedreven Personalisatie: Nieuwe functies in [!DNL Adobe Target] (11 oktober 2022)
+
+Graag bij ons voor dit speciale webinar van de productaankondiging!
+
+We zijn erg blij om wat &#39;zeer groot&#39;, baanbrekend nieuws te delen op het gebied van personalisatie op schaal met [!DNL Adobe Target]: nieuwe filters en intelligentie die de mogelijkheden van [!DNL Target] gebruikers om door AI aangedreven verpersoonlijkingsactiviteiten te verfijnen om de bedrijfsmetriek direct te beïnvloeden die het belangrijkst op een per activiteitenbasis zijn.
+
++++Details
+
+Deze nieuwe productaankondiging komt op het juiste moment en is hyperkritisch, zoals we de noodzaak van personalisatie hebben gezien, ongeacht de industrie, in de afgelopen jaren. Het is voor bedrijven een middel geworden om zich tijdens de hele reis van hun klanten kritisch te onderscheiden van de concurrentie. Personalisatie kan zeer effectief zijn &quot;overal:&quot;beginnend bij de eerste aanraking van een bezoeker, leveraging basisgegevens voor de gevallen van het aanschafgebruik, helemaal tot de klantendienst en loyaliteitsgebruiksgevallen.
+
+Leer in deze sessie hoe u een oplaadbare conversielift kunt gebruiken door [!DNL Adobe Target]De nieuwe functies waarover we debatteren:
+
+* Verbeterde modelbesturingselementen binnen [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target] activiteiten
+* De mogelijkheid ontgrendelen om profielkenmerken en hoogwaardige segmenten te evalueren vanuit [!DNL Adobe]s [!DNL Real-Time Customer Data Platform]
+* Hoe merken snellere snelheden en beslissingen kunnen bieden door hun door AI aangedreven algoritmen af te stemmen
+* Unieke gebruiksscenario&#39;s voor het leveren van 1-op-1 personalisatie
+
+* **Dinsdag 11 oktober 2022**
+* **13:00 - 14:00 uur (EDT, UTC-4)**
+* **[Meer informatie en registratiegegevens](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 +++
 

@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 22 augustus | [Begrijp het [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) | Informatie toegevoegd over meldingen bij een [!DNL Recommendations] feed mislukt. |
+| 15 september | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde informatie over het volgende webinar:<ul><li>Fijnafstemming door AI aangedreven Personalisatie: Nieuwe functies in [!DNL Adobe Target] (11 oktober 2022)</li></ul> |
+| 13 september | [Begrijp het [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) | Informatie toegevoegd over meldingen bij een [!DNL Recommendations] feed mislukt. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.9.1. |
 
 ## Adobe Target Standard/Premium 22.8.1 (gefaseerde release: (17 augustus 2022)
