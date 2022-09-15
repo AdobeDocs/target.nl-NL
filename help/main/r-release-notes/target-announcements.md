@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
+source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,13 @@ Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
 
 Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engineeringteams productgestuurde strategieën gebruiken voor interkanaalpersonalisatie in internet en toepassingen. Verbinden met [!DNL Adobe] Skill Builder-sessie en leer hoe [!DNL Adobe Target] ontgrendelt nieuwe potentiële betrokkenheid en inkomstengroei voor marketers, ontwikkelaars en producteigenaars om bloeiende productgemeenschappen op te bouwen.
 
+* [Koppeling opnemen](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### Chef-collectie: Recipes for Personalization (30 augustus 2022)
 
 Verbinden met [!DNL Adobe Target] [!DNL ]team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde van Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+
+* [Koppeling opnemen](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++Details
 
