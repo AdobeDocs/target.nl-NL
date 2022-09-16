@@ -4,7 +4,7 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1834'
 ht-degree: 0%
@@ -91,16 +91,16 @@ Ontdek ideeën over:
 
 De toenemende loyaliteit in een tijd van versnelde kwesties van de leveringsketen, de dienstmislukkingen, en het beperkte personeel is een uitdaging de meeste reis, gastvrijheid en het dineren merken worden geconfronteerd. Hoe kunnen merken in het tijdperk van AI hun ervaringen schalen zonder de benodigde middelen die de industrie hebben verlaten. Digitale vooruitgang heeft 20-25 sneller versneld om niet alleen versnelde klantenverwachtingen te steunen, maar ook om teams door automatisering te schrapen.
 
-+++Details
+* +++Details
 
-In 2022 hebben systemen een kantelpunt bereikt in het vermogen om continue intelligentie te leveren om in real time loyaliteitsactivering te kunnen uitvoeren.
+   In 2022 hebben systemen een kantelpunt bereikt in het vermogen om continue intelligentie te leveren om in real time loyaliteitsactivering te kunnen uitvoeren.
 
-Onderwerpen die we zullen verkennen:
+   Onderwerpen die we zullen verkennen:
 
-* De versnelling van digitale storingen en de toename van AI
-* Waarom vroege adopters winnen in zowel top-line als bottom-line groei
-* Automatiseren van personalisatie op reis
-* Real Time Loyalty Activation in action
+   * De versnelling van digitale storingen en de toename van AI
+   * Waarom vroege adopters winnen in zowel top-line als bottom-line groei
+   * Automatiseren van personalisatie op reis
+   * Real Time Loyalty Activation in action
 
 +++
 
@@ -110,9 +110,9 @@ Onderwerpen die we zullen verkennen:
 
 * [Koppeling opnemen](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Details
+* +++Details
 
-Sluit u aan bij Michael Klein (Director, Industry Strategy Retail) en Leina Betzer (Target Consultant, Adobe Premier Support) om te bespreken hoe de verkoop van e-mails in de detailhandel sterk groeit naarmate de kooppatronen en het gedrag van consumenten verschuiven, met een hogere vraag naar goederen en diensten op bepaalde markten.
+   Sluit u aan bij Michael Klein (Director, Industry Strategy Retail) en Leina Betzer (Target Consultant, Adobe Premier Support) om te bespreken hoe de verkoop van e-mails in de detailhandel sterk groeit naarmate de kooppatronen en het gedrag van consumenten verschuiven, met een hogere vraag naar goederen en diensten op bepaalde markten.
 
 +++
 
