@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
+source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '2027'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,27 @@ Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magi
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+
+## [!DNL Adobe Target] Communautair afscheid van Q&amp;A-koffie (28 september 2022)
+
+Sluit u aan bij Gentry Lin en Brent Kostak om in real-time te antwoorden op vragen van [!DNL Adobe Target] klanten in de specifieke gebeurtenis [!UICONTROL Target Community] discussielijn. Deze koffieonderbreking zal een uitbreiding van het webinar gesprek van Q&amp;A van recente zijn [!DNL Adobe Target] Skill Builder - webinar voor optimalisatie van mobiele beleving.
+
++++Details
+
+* **Woensdag 28 september 2022**
+* **08:00 - 9:00 (PDT, UTC-7)**
+* **[Koppeling registreren](https://adobe.ly/3pYkmMG){target=_blank}**
+
+U wordt uitgenodigd vragen te plaatsen over de onderwerpen die tijdens de [[!DNL Adobe Target] De Reeksen Webinar van de Uitbreiding van de Bouwer van de Vaardigheid op Mobiele Optimalisering van de Ervaring](https://video.tv.adobe.com/v/347360){target=_blank} en andere met Gentry- en Brent-expertisegebieden samenhangende gebieden [!DNL Target]:
+
+* [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), [!UICONTROL Experience Targeting] (XT) activiteiten, geautomatiseerde tests en personalisatie
+* Workflows voor stapsgewijze installatie van activiteiten
+* Prefetch met batterijervaring, zodat altijd-on personalisatie voor mobiele apparaten mogelijk is
+* Levenscyclusstatistieken voor het testen en richten op klanten, mobiele SDK&#39;s en API&#39;s en iOS- en Android-platformimplementaties
+* Workflows voor het ontwerpen van kernwebsites
+* [!DNL Adobe Experience Cloud] integratie
+
++++
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
