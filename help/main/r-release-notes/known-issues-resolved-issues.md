@@ -4,7 +4,7 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4553'
 ht-degree: 0%
@@ -26,12 +26,6 @@ De volgende secties geven een overzicht van de bekende problemen voor [!DNL Targ
 ### Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer {#ad-hoc}
 
 Verwijder geen locaties in een activiteit die is gemaakt in de Form-Based Experience Composer als deze locaties gebruikmaken van ad-hocaanbiedingen (aanbiedingen die binnen de activiteit zijn gemaakt). Als u locaties verwijdert, kan de activiteit beschadigd raken. De [!DNL Target] team werkt aan een oplossing hiervoor. Als tijdelijke oplossing kunt u wereldwijde aanbiedingen maken van de [!UICONTROL Offer library] en gebruik ze op locaties, of u kunt nieuwe ervaringen maken, indien nodig. (kB-2014)
-
-### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
-
-De [!DNL Target] Met de gebruikersinterface kunnen gebruikers niet-ondersteunde gegevens voor betrokkenheid en omzet selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. Conversiemetriek worden ondersteund; service- en inkomstenwaarden zijn *niet* ondersteund. Als u maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld.
-
-Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### De Enhanced Experience Composer (EEC) ondersteunt geen verzoeken om PUT.
 
@@ -122,6 +116,12 @@ De bron van de waarheid is altijd het verslag dat in het [!DNL Target] UI.
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties. Indien nodig worden aanvullende opmerkingen toegevoegd.
+
+### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
+
+De [!DNL Target] Met de gebruikersinterface kunnen gebruikers niet-ondersteunde gegevens voor betrokkenheid en omzet selecteren als primaire doelmaatstaf voor optimalisatie in [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. Conversiemetriek worden ondersteund; service- en inkomstenwaarden zijn *niet* ondersteund. Als u maatstaven voor betrokkenheid of inkomstendoel selecteert, wordt geen optimalisatiemodel samengesteld.
+
+Voor een lijst van gesteunde en niet gestaafde doelmetriek, zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Verkeersverdeling van [!DNL Auto-Allocate] activiteiten die gebruikmaken van A4T {#aa-a4t}
 
