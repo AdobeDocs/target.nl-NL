@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
 workflow-type: tm+mt
-source-wordcount: '4585'
+source-wordcount: '4553'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,6 @@ De volgende secties geven een overzicht van de bekende problemen voor [!DNL Targ
 ### Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer {#ad-hoc}
 
 Verwijder geen locaties in een activiteit die is gemaakt in de Form-Based Experience Composer als deze locaties gebruikmaken van ad-hocaanbiedingen (aanbiedingen die binnen de activiteit zijn gemaakt). Als u locaties verwijdert, kan de activiteit beschadigd raken. De [!DNL Target] team werkt aan een oplossing hiervoor. Als tijdelijke oplossing kunt u wereldwijde aanbiedingen maken van de [!UICONTROL Offer library] en gebruik ze op locaties, of u kunt nieuwe ervaringen maken, indien nodig. (kB-2014)
-
-### Verkeersverdeling van activiteiten die automatisch worden toegewezen met behulp van A4T {#aa-a4t}
-
-In sommige gevallen, de verkeersverdeling van [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) kan afwijken van wat er zou moeten gebeuren op basis van de gerapporteerde omrekeningskoers van elke ervaring. Dit komt vaker voor bij activiteiten met een hoog percentage retourbezoekers. Betrokken klanten worden op de hoogte gesteld van de betrokken activiteiten.
-
-Gebruik totdat dit probleem is opgelost [!UICONTROL Auto-Allocate] met standaard [!DNL Target] rapportage of gebruik van standaard A/B-tests met [!DNL Analytics] rapportage als alternatief voor [!UICONTROL Auto-Allocate] with [!DNL Analytics] rapportage. (TOP-131)
 
 ### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
 
@@ -129,6 +123,10 @@ De bron van de waarheid is altijd het verslag dat in het [!DNL Target] UI.
 
 Aangezien bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties. Indien nodig worden aanvullende opmerkingen toegevoegd.
 
+### Verkeersverdeling van [!DNL Auto-Allocate] activiteiten die gebruikmaken van A4T {#aa-a4t}
+
+In sommige gevallen, de verkeersverdeling van [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) kan afwijken van wat er zou moeten gebeuren op basis van de gerapporteerde omrekeningskoers van elke ervaring. Dit komt vaker voor bij activiteiten met een hoog percentage retourbezoekers. (TOP-131)
+
 ### at.js
 
 * Als u een ervaring zonder wijzigingen creeert gebruikend at.js 2.1.1 of vroeger (bijvoorbeeld, een standaardervaring), zou de ervaring niet in rapporten, Analytics voor Doel (A4T), Adobe Analytics, of Google Analytics kunnen worden geteld. Bovendien werkt de insteekmodule ttMeta mogelijk niet correct.
@@ -200,7 +198,7 @@ Als u nog vragen hebt, kunt u contact opnemen met uw Customer Success Manager (C
 
 ### Automatische doelrapportage {#at-metrics}
 
-Er is een probleem opgelost dat gevolgen heeft [!DNL Adobe Target Premium] gebruikers&quot; [!UICONTROL Auto-Target] rapportage vanaf 15 september, 2:30 uur (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd die of &quot;[!UICONTROL Viewed a page]&quot; of &quot;[!UICONTROL Clicked on mbox]&quot; optie), worden de omrekeningskoersen onjuist gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
+Er is een probleem opgelost dat gevolgen heeft [!DNL Adobe Target Premium] gebruikers [!UICONTROL Auto-Target] rapportage vanaf 15 september, 2:30 uur (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd die of &quot;[!UICONTROL Viewed a page]&quot; of &quot;[!UICONTROL Clicked on mbox]&quot; optie), worden de omrekeningskoersen onjuist gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
 
 Je melding opnieuw synchroniseren en corrigeren:
 
