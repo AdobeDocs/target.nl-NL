@@ -4,7 +4,7 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4553'
 ht-degree: 0%
@@ -22,10 +22,6 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 ## Bekende problemen {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
-
-### Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer {#ad-hoc}
-
-Verwijder geen locaties in een activiteit die is gemaakt in de Form-Based Experience Composer als deze locaties gebruikmaken van ad-hocaanbiedingen (aanbiedingen die binnen de activiteit zijn gemaakt). Als u locaties verwijdert, kan de activiteit beschadigd raken. De [!DNL Target] team werkt aan een oplossing hiervoor. Als tijdelijke oplossing kunt u wereldwijde aanbiedingen maken van de [!UICONTROL Offer library] en gebruik ze op locaties, of u kunt nieuwe ervaringen maken, indien nodig. (kB-2014)
 
 ### De Enhanced Experience Composer (EEC) ondersteunt geen verzoeken om PUT.
 
@@ -116,6 +112,10 @@ De bron van de waarheid is altijd het verslag dat in het [!DNL Target] UI.
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Aangezien bekende problemen hierboven zijn opgelost, worden ze verplaatst naar de volgende secties. Indien nodig worden aanvullende opmerkingen toegevoegd.
+
+### Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer {#ad-hoc}
+
+Verwijder geen locaties in een activiteit die is gemaakt in de Form-Based Experience Composer als deze locaties gebruikmaken van ad-hocaanbiedingen (aanbiedingen die binnen de activiteit zijn gemaakt). Als u locaties verwijdert, kan de activiteit beschadigd raken. De [!DNL Target] team werkt aan een oplossing hiervoor. Als tijdelijke oplossing kunt u wereldwijde aanbiedingen maken van de [!UICONTROL Offer library] en gebruik ze op locaties, of u kunt nieuwe ervaringen maken, indien nodig. (kB-2014)
 
 ### Analyses voor Adobe Target (A4T)-meetgegevens voor automatisch toegewezen en automatisch doelactiviteiten
 
