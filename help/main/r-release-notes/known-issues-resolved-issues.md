@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
+source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
 workflow-type: tm+mt
-source-wordcount: '4553'
+source-wordcount: '4529'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,6 @@ Wanneer een succes metrisch aan toename op elke indruk wordt geplaatst, telt Tar
 Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel selecteren**. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
 
 Alle huidige pakketten Analytics kunnen dit model met Attribution IQ toevoegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
-
-### Doel-API&#39;s
-
-Klanten kunnen geen CRUD-bewerkingen uitvoeren op activiteiten voor automatisch toewijzen via de v3-versie van de API voor A/B-activiteiten op Adobe I/O.
 
 ### Rapportage - de Inconsistente gegevens in het downloadbare .csv- rapport versus het getoonde rapport in [!DNL Target] UI. {#csv}
 
