@@ -5,7 +5,7 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 0%
@@ -301,8 +301,8 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
    Dit verwijst naar het aantal waarden met regelscheiding in het tekstgebied dat als doel is ingesteld. U kunt bijvoorbeeld 1000 ZIP-codes invoeren in een ZIP-codedoel.
 
-### Doelstellingen
+### Doelstellingen {#targeting-rules}
 
 * **Aanbevolen limiet**: 2.500 tekens per doelregelwaarde.
-* **Aanbevolen limiet**: 30.000 unieke waarden per publiek over het richten van regels.
+* **Aanbevolen limiet**: 50.000 unieke waarden per publiek over het richten van regels.
 * **Aanbevolen limiet**: 100.000 unieke waarden voor richtingsregels per activiteit.
