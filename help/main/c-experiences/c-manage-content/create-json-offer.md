@@ -4,9 +4,9 @@ description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,16 @@ adobe.target.getOffer({
   } 
 });
 ```
+
+## JSON-aanbiedingsvoorbeeld met CDP-profielkenmerken in realtime
+
+CDP-profielkenmerken in realtime kunnen worden gedeeld met Target voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. (Merk op dat deze functie momenteel in Bèta is.)
+
+Voorbeeld van gebruik: Als online telleraar, wil Grace het AEP/Verenigde Profiel kenmerkwaarden met Doel delen om verpersoonlijking in real time te verstrekken. Door de Attributen van het Profiel in real time te gebruiken CDP, kan Grace de waarde van het attribuut AEP in een aanbieding van het Doel tonen gebruikend symbolenvervanger. Ze kan bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+In het bovenstaande voorbeeld is het toewijzen van standaardwaarden optioneel.
 
 ## Aanbiedingen filteren door het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

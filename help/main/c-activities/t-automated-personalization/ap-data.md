@@ -4,9 +4,9 @@ description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt o
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2071'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,8 @@ In de volgende tabel worden de door de klant verschafte gegevens weergegeven die
 | URL-parameters | URL | URL en eventuele URL-parameters voor de momenteel weergegeven pagina. | Aangepast - URL-parameter - [URL-parameter] |
 | URL verwijzen | REF | Verwijzen naar URL- en URL-parameters voor de verwijzende URL. | Aangepast - [Verwijzen naar URL-parameter] - [Parameterwaarde] |
 | Adobe Experience Cloud, gedeeld publiek | AAM | Alle soorten publiek die worden gedeeld met [!DNL Target] van andere [!DNL Adobe Experience Cloud] oplossingen (bijvoorbeeld [!DNL Adobe Audience Manager] en [!DNL Adobe Analytics]via de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Aangepast, Experience Cloud-publiek - [Auditienaam] |
-| Adobe Experience Platform RTCDP-publiek | UPS | AEP RTCDP-publiek gedeeld met [!DNL Target] via Doelen. |  |
+| Adobe Experience Platform CDP-publiek in realtime | UPS | AEP CDP-publiek in realtime gedeeld met [!DNL Target] via Doelen. |  |
+| Adobe Experience Platform CDP-kenmerken in realtime | AEP | AEP CDP-kenmerken in realtime die worden gedeeld met [!DNL Target] via Doelen. Deze functie staat momenteel in bètaversie. |  |
 
 ## Functies blokkeren [!DNL Target] computerleeralgoritmen
 

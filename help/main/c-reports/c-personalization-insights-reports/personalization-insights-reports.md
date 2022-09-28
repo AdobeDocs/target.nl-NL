@@ -4,9 +4,9 @@ description: Leer hoe te om de gespecialiseerde rapporten voor Automated Persona
 title: Hoe gebruik ik de rapporten over persoonlijke voorkeuren?
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,8 @@ Er zijn twee typen kenmerken die worden vertegenwoordigd in [!UICONTROL Personal
 | Paginaparameters (ook wel &quot;parameters mbox&quot; genoemd) | Naam-/waardeparen die rechtstreeks via paginacode worden doorgegeven en die niet in het profiel van de bezoeker zijn opgeslagen voor toekomstig gebruik. | `Custom - Mbox Parameter - [parameter name]` |
 | Klantkenmerken | Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar de Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Gedeeld publiek (Adobe Audience Manager of Adobe Analytics) | Soorten publiek gemaakt via Adobe Audience Manager of Adobe Analytics en gedeeld met Target. | `Custom - Experience Cloud Segment - [segment name]` |
+| Gedeeld publiek (Adobe Experience Platform/Real-Time CDP) | Publiek dat door Adobe Experience Platform/Real-time CDP wordt gecreeerd en met Doel via Doelen wordt gedeeld. | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| Gedeelde kenmerken (Adobe Experience Platform/Real-Time CDP) | Attributen die door Adobe Experience Platform/Real-Time CDP worden gecreeerd en met Doel via Doelen worden gedeeld. Deze functie staat momenteel in bètaversie. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | Activiteitenrapportage publiek/segmenten | Soorten publiek gedefinieerd in uw AP- of Auto Target-activiteit tijdens installatie in &quot;Doelen &amp; Metriek.&quot; | `Custom - Reporting Segment - [segment name]` |
 
 ## Veelgestelde vragen

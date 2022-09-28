@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -108,19 +108,30 @@ Keep the following points in mind as you work with imported audiences:
 ## Gebruik publiek van [!DNL Adobe Experience Platform] {#aep}
 
 Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), gebouwd op [!DNL Adobe Experience Platform]helpt bedrijven bekende en anonieme gegevens uit meerdere bedrijfsbronnen bij elkaar te brengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
++ Door verbinding te maken [!DNL Target] aan de [!DNL Real-time Customer Data Platform]kunnen klanten hun webpersonalisatie verrijken door nieuwe segmenten te ontsluiten die eerder niet toegankelijk waren voor [!DNL Target] om realtime millisecondenpersonalisatie in te schakelen op de eerste pagina van het webbezoek van een klant. Soorten publiek en profielkenmerken gebruiken die zijn gemaakt in [!DNL Adobe Experience Platform] Hiermee kunt u de beschikbare gegevenspunten uitbreiden voor een rijkere personalisatie.
 
-Door verbinding te maken [!DNL Target] aan de [!DNL Real-time Customer Data Platform]kunnen klanten hun webpersonalisatie verrijken door nieuwe segmenten te ontsluiten die eerder niet toegankelijk waren voor [!DNL Target] om realtime millisecondenpersonalisatie in te schakelen op de eerste pagina van het webbezoek van een klant. Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Hiermee kunt u de beschikbare gegevenspunten uitbreiden voor een rijkere personalisatie.
-
-Deze integratie ontgrendelt belangrijke gebruiksgevallen met RTCDP:
+Deze integratie ontgrendelt zeer belangrijke gebruiksgevallen met CDP in real time:
 
 * Zelfde pagina/volgende hoogte-personalisatie
 * Eerste/onbekende gebruikerspersonalisatie
 
 Belangrijke functies zijn:
 
-* Directe doelintegratie met RTCDP/[!DNL Adobe Experience Platform] op de rand (afhankelijkheid van [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] met toezicht
-* Randsegmentatie en randprofiel met verenigd profiel
+* Directe doelintegratie met Real-time CDP/[!DNL Adobe Experience Platform] op de rand (afhankelijkheid van [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target Edge Destinations Card] met governance en beleidshandhaving
+* CDP-segmenten en gedeelde profielkenmerken in realtime
+
+Beperkingen en overwegingen met betrekking tot de eigenschapkenmerken van CDP-profielen in realtime:
+
+* Kenmerken binnen een gegeven aanbod moeten afkomstig zijn van dezelfde AEP-sandbox. (Met andere woorden, een aanbieding mag geen kenmerken van verschillende AEP-sandboxen bevatten.)
+* Kenmerken binnen een bepaalde aanbieding kunnen uit verschillende bronnen afkomstig zijn; het doelprofiel en het AEP-profiel.(Met andere woorden, u kunt kenmerken combineren, ongeacht of ze afkomstig zijn van Target of van het AEP-profiel.)
+* Wanneer u een aanbieding definieert, kunt u standaardwaarden toewijzen voor CDP-profielkenmerken in realtime, voor het geval dat het kenmerk geen expliciete waarde heeft. Als een toestemmings- of governancebeleid bijvoorbeeld blokkeert dat het kenmerk wordt gebruikt in de verpersoonlijkingsservice, kan in plaats daarvan de standaardwaarde worden gebruikt.
+* Wanneer gedeeld, worden de Attributen van het Profiel in real time CDP gebruikt in de Verpersoonlijkingsmodellen van de Kunstmatige Intelligentie/van het Leren van de Machine voor auto-Doel en Automated Personalization.
+
+>[!NOTE]
+>
+>De eigenschap van de Attributen van het Profiel in real time CDP is momenteel beschikbaar in Bèta voor HTML Aanbiedingen en [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
 
 Raadpleeg de volgende onderwerpen voor meer informatie:
 
