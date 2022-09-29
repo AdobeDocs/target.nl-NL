@@ -3,9 +3,9 @@ keywords: vec;composer voor visuele ervaring; vec;iframe;extension;browser
 description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geopend in de [!UICONTROL Visual Experience Composer] (VEC). De [!UICONTROL Visual Editing Helper] Met browserextensie kunt u websites betrouwbaar laden binnen de VEC.
 title: Hoe gebruik ik de [!UICONTROL Visual Editing Helper] Uitbreiding?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -56,12 +56,6 @@ Let erop dat u de [Enhanced Experience Composer](/help/main/administrating-targe
 
    * Als u probeert een website te laden met de VEC die niet kan worden geladen, wordt een bericht weergegeven waarin wordt gesuggereerd dat u de [!UICONTROL Visual Editing Helper] browserextensie.
    * Als at.js of alloy.js nog niet op de website wordt uitgevoerd, toont een bericht in VEC die suggereert dat u de uitbreiding installeert.
-
-## Meer hulp bij deze functie
-
-* [Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Problemen oplossen met betrekking tot Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Problemen met de Enhanced Experience Composer oplossen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 
