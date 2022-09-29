@@ -4,9 +4,9 @@ description: Ontdek waarom sommige websites niet betrouwbaar in Visual Experienc
 title: Hoe gebruik ik de Helper Extension Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 De [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Met de browserextensie van Google Chrome kunt u websites betrouwbaar laden binnen de VEC zodat u snel kunt ontwerpen en er een kwaliteitscontrole op kunt uitvoeren.
 
->[!NOTE]
+De browser VEC Helper is een Chrome-extensie. Deze extensie is niet nodig wanneer u Mozilla Firefox gebruikt.
+
+>[!IMPORTANT]
 >
->De browser VEC Helper is een Chrome-extensie. Deze extensie is niet nodig wanneer u Mozilla Firefox gebruikt.
+>Vanaf januari 2023 wordt de huidige [!DNL Target] De extensie VEC Helper werkt niet meer in Google Chrome omdat Google extensies niet toestaat met Manifest V2. Download de nieuwe extensie om uw websites visueel te blijven ontwerpen in [!DNL Target] vanaf het nieuwe jaar. Zie voor meer informatie [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 
@@ -31,7 +33,7 @@ SW is een Webtechnologie die kan worden gebruikt om verzoeken voor het domein te
 
 De software kan de caching controleren; kan de webpagina zelf, statische bronnen zoals JS, CSS, IMG, AJAX aanvragen, de inhoud ervan en de antwoordheaders in cache plaatsen, inclusief de bronnen die onze [Doel VEC Helper-extensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) probeert te verwijderen, zoals X-Frame-Opties: SAMEORIGIN, CSP (Content-Security-Policy) of Set-Cookie.
 
-Helaas ontvangen de Chrome-API&#39;s die webverzoeken onderscheppen niet de aanvragen die zijn onderschept en verwerkt door een software. Daarom kan de extensie de headers en cookies niet corrigeren als het verzoek van de webpagina vanuit een cache is verzonden door een SWF-bestand, omdat de webpagina niet in de VEC wordt geladen vanwege de X-Frame-Options of CSP-headers die ook in de cache zijn geplaatst.
+Jammer genoeg, ontvangen de uitbreiding APIs van Chrome die Webverzoeken onderscheppen niet de verzoeken die werden onderschept en door SW behandeld. Daarom kan de uitbreiding niet de kopballen en de koekjes bevestigen als het Web-pagina verzoek van een geheime voorgeheugen door een SW werd gediend omdat de Web-pagina niet binnen VEC wegens de x-Kader-Opties of CSP kopballen zal laden die ook in het voorgeheugen werden opgenomen.
 
 Als potentiële oplossing, kunt u de Werknemers van de Dienst van de Hulpmiddelen van de Ontwikkelaar van Chrome onbruikbaar maken > het lusje van de Toepassing, dan om &quot;Bypass voor netwerk&quot;checkbox onder de sectie van de Werknemers van de Dienst toe te laten.
 

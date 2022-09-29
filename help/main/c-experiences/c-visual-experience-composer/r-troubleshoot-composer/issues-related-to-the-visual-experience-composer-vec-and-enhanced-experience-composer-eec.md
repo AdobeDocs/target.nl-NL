@@ -4,14 +4,14 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
 
-# Problemen oplossen met betrekking tot Visual Experience Composer en Enhanced Experience Composer
+# Problemen met de [!UICONTROL Visual Experience Composer] en [!UICONTROL Enhanced Experience Composer]
 
 Weergaveproblemen en andere problemen doen zich soms voor in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) en de [!UICONTROL Enhanced Experience Composer] (EEG) onder bepaalde voorwaarden.
 

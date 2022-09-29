@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -234,6 +234,7 @@ ht-degree: 0%
          + [Problemen met de Enhanced Experience Composer oplossen](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Gemengde inhoud in uw browser inschakelen](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Paginawijzigingsscenario&#39;s](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension)
          + [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omleiden naar een URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Het creëren van carrousels die in de Composer van de Visuele Ervaring werken](c-experiences/c-visual-experience-composer/vec-carousels.md)
