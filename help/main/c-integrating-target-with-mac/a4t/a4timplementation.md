@@ -4,7 +4,7 @@ description: Voer de stappen uit die nodig zijn voor het implementeren van Analy
 title: Hoe kan ik Analyses implementeren voor [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Adobe raadt u aan de vorige integratie te verwijderen om de implementatie te ver
 
 ### Stap 10: De opties inschakelen voor het gebruik van Analytics als rapportagebron voor Doel
 
-In [!DNL Target], klikt u op **[!UICONTROL Administration > Visual Experience Composer]** en kiest u **[!UICONTROL Select per activity]** of **[!UICONTROL Adobe Analytics]** om de opties in te schakelen.
+In [!DNL Target], klikt u op **[!UICONTROL Administration > Reporting]** en kiest u **[!UICONTROL Select per activity]** of **[!UICONTROL Adobe Analytics]** om de opties in te schakelen.
 
 * **[!UICONTROL Select per activity]** laat u kiezen tussen [!DNL Target] en [!DNL Analytics] bij het maken van elke activiteit.
 * **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] als de rapportbron voor alle activiteiten die u maakt.
