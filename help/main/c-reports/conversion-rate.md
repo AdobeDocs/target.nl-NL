@@ -4,9 +4,9 @@ description: Meer informatie over Adobe [!DNL Target] toont en berekent de omrek
 title: Hoe bekijk ik het Tarief van de Omzetting, Lift, en het Niveau van het Vertrouwen?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2125'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ De *betrouwbaarheidsinterval* is een reeks schattingen waarbinnen de werkelijke 
 
 De [gedownload CSV-rapport](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) omvat alleen onbewerkte gegevens en omvat geen berekende meetwaarden, zoals inkomsten per bezoeker, lift of betrouwbaarheid die voor A/B-tests worden gebruikt.
 
-Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren of de [Door Target gebruikte statistische berekeningen](/help/main/assets/statistical-calculations.pdf).
+Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren of te reviseren [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrou
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics].
 
-Voor A4T gebruiken wij [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor doorlopende variabelen (in plaats van binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [In dit document worden de details uitgelegd](/help/main/assets/statistical-calculations.pdf) van de gebruikte wiskundige formules. De som van de vierkanten kan worden opgehaald [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+Voor A4T gebruiken wij [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor doorlopende variabelen (in plaats van binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) licht de details van de gebruikte wiskundige formules toe. De som van de vierkanten kan worden opgehaald [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
 
 Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een steekproef van het totale aantal paginameningen op een per bezoekersbasis voor een gespecificeerd tijdkader uitvoeren, misschien een paar dagen (een paar duizend gegevenspunten is allen u nodig). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 

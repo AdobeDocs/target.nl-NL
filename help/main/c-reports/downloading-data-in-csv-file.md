@@ -4,7 +4,7 @@ description: Leer hoe u gegevens kunt downloaden van Adobe [!DNL Target] activit
 title: Hoe kan ik rapportgegevens in een CSV-bestand downloaden?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Gegevens worden opgeslagen tot het einde van de activiteit.
 
 >[!NOTE]
 >
->Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren of de [Door Target gebruikte statistische berekeningen](/help/main/assets/statistical-calculations.pdf).
+>Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren of te reviseren [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Bestelgegevens exporteren naar CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

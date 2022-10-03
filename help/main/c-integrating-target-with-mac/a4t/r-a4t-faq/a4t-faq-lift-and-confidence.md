@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over lift en vertrouwen wanneer u Analyti
 title: Waar kan ik informatie vinden over optillen en vertrouwen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over lift en ve
 
 ## Kan ik off-line berekeningen voor A4T uitvoeren? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics]. Voor meer informatie, zie &quot;het Uitvoeren Offline Berekeningen voor Analytics voor Doel (A4T)&quot;in [Vertrouwensniveau en betrouwbaarheidsinterval](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics]. Zie voor meer informatie [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Hoe wordt lift berekend? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ Lift is het percentageverschil tussen uw resultaten van de controlepagina en een
 
 ## Hoe wordt het vertrouwen berekend? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-Het betrouwbaarheidsniveau is een waarschijnlijkheid, uitgedrukt als een percentage, die gelijk is aan `1 - p-value`, waarbij `p-value` wordt berekend aan de hand van een t-test. Zie [Omrekeningskoers](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Het betrouwbaarheidsniveau is een waarschijnlijkheid, uitgedrukt als een percentage, die gelijk is aan `1 - p-value`, waarbij `p-value` wordt berekend aan de hand van een t-test. Zie [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Waarom kan ik geen lift en vertrouwen zien op berekende maatstaven? {#lift-confidence}
 

@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van Analytics voor [!DNL Target] (
 title: Hoe gebruik ik Rapportering in A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,39 @@ Klik om de volledige [!DNL Analytics] rechtstreeks vanuit de pagina activiteiten
 
 Tijdens het creëren van activiteit, moet u een doel voor de activiteit op specificeren [!UICONTROL Settings] pagina. Dit doel wordt standaard metrisch voor het rapport en is altijd vermeld als eerste optie in de metriekselecteur. U kunt geen segmenten voor rapportering selecteren zoals u voor een regelmatige activiteit van het Doel zou doen. Een test met [!DNL Analytics] gebruik [!DNL Adobe Analytics] segmenten in plaats van [!DNL Target] publiek.
 
-## Offline berekeningen uitvoeren voor Analytics voor Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Offlineberekeningen uitvoeren voor analyses voor Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren binnen [!DNL Analytics].
 
-Zie voor meer informatie [Offlineberekeningen uitvoeren voor Analytics voor Doel (A4T)](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Voor A4T gebruiken wij [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor doorlopende variabelen (in plaats van binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) licht de details van de gebruikte wiskundige formules toe. De som van de vierkanten kan worden opgehaald [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+
+Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een steekproef van het totale aantal paginameningen op een per bezoekersbasis voor een gespecificeerd tijdkader uitvoeren, misschien een paar dagen (een paar duizend gegevenspunten is allen u nodig). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
+
+**Als u de opdracht [!DNL Analytics] functie voor het exporteren van gegevens om dit te doen:**
+
+1. Aanmelden bij [!DNL Adobe Analytics].
+1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
+1. Op de **[!UICONTROL Data Warehouse Request]** , vult u de velden in.
+
+   Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
+
+   | Veld | Instructies |
+   |--- |--- |
+   | Naam aanvraag | Geef een naam op voor uw aanvraag. |
+   | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br>Als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  De dossiers van de Data Warehouse nemen langer om de langere gevraagde tijdspanne te verwerken, zodat is het altijd beste om een kleine tijdspanne eerst om gegevens te verzoeken om ervoor te zorgen uw dossier het verwachte resultaat terugkeert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | Beschikbare segmenten | Pas indien nodig een segment toe. |
+   | Uitsplitsingen | Selecteer de gewenste afmetingen: Standaard is OOTB (out-of-the-box) en Aangepast bevat Vars en props. U kunt het beste &quot;Bezoeker-id&quot; gebruiken als er gegevens op bezoekersidentiteitsniveau nodig zijn in plaats van &quot;Bezoeker-id Experience Cloud&quot;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of HULP (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
+   | Metrisch | Selecteer de gewenste meetgegevens. Standaard is OOTB, terwijl Aangepast aangepaste gebeurtenissen bevat. |
+   | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
+   | Levering plannen | Voer een e-mailadres in waarnaar u het bestand wilt verzenden, geef het bestand een naam en selecteer vervolgens [!UICONTROL Send Immediately].<br>Opmerking: Het bestand kan via FTP worden geleverd onder [!UICONTROL Advanced Delivery Options]<br>![Levering plannen](/help/main/c-reports/assets/datawarehouse3.png). |
+
+1. Klik op **[!UICONTROL Request this Report]**.
+
+   De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk gewenst moment controleren door op [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
+
+   Als u gegevens opnieuw wilt aanvragen die u in het verleden hebt aangevraagd, kunt u een oude aanvraag van de [!UICONTROL Request Manager] indien nodig.
+
+Meer informatie over [!DNL Data Warehouse], zie de volgende koppelingen in de [!DNL Analytics] Help-documentatie:
+
+* [Een Data Warehouse-aanvraag maken](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Aanbevolen werkwijzen voor Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

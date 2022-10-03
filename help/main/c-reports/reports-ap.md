@@ -4,9 +4,9 @@ description: Leer hoe u het Automated Personalization Summary-rapport in Adobe T
 title: Hoe gebruik ik de samenvattingsrapporten van Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ De [!UICONTROL Activity Level] het rapport vergelijkt de gezamenlijke prestaties
 
 ![Rapport over activiteitsniveau](/help/main/c-reports/assets/box_plot_ap.png)
 
-De standaardregels voor de interpretatie van resultaten voor A/B-tests zijn nog steeds van toepassing, zoals lift, betrouwbaarheid, trending, duur, enzovoort. Voor meer informatie over het interpreteren van resultaten raadpleegt u [De conversiesnelheid](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+De standaardregels voor de interpretatie van resultaten voor A/B-tests zijn nog steeds van toepassing, zoals lift, betrouwbaarheid, trending, duur, enzovoort. Voor meer informatie over het interpreteren van resultaten raadpleegt u [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Rapport op aanbodniveau {#section_CAA6409879E349C6906E2BE8156D87A1}
 
