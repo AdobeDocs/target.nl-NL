@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 0%
       + [Gemiddelde lift, liftbegrenzingen en betrouwbaarheidsinterval](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Meerdere metriek in een rapport weergeven](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Extreme waarden uitsluiten](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + Statistische methodologie {#statistical-methodology}
+      + [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [Samenvattingsrapport voor automatisch doel](c-reports/auto-target-summary-report.md)
    + [Samenvattingsrapporten van Automated Personalization](c-reports/reports-ap.md)
    + Verslag over persoonlijke inzichten {#insights}
