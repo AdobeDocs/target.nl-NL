@@ -4,7 +4,7 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 29 september 2022**
+**Laatst bijgewerkt: 3 oktober 2022**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
@@ -23,9 +23,9 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **4 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
 * **5 oktober**: Regio Azië-Stille Oceaan (APAC)
 * **6 oktober**: Amerikaanse regio
+* **7 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
