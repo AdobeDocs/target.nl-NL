@@ -4,9 +4,9 @@ description: Leer hoe te om rapportmontages in Adobe Target, met inbegrip van me
 title: Hoe vorm ik de Montages van het Rapport?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Selecteer de gewenste voorinstelling in het menu **[!UICONTROL Target Preset]** 
 1. Selecteer de voorinstelling die u wilt bewerken.
 1. Geef de configuratie van het rapport zoals gewenst uit (metriek, datumwaaiers, publiek, geavanceerde montages, etc.).
 
-   Nadat u op [!UICONTROL Save] na het bewerken van de configuratie van het rapport wordt een sterretje ( * ) weergegeven achter de naam van de voorinstelling om aan te geven dat de voorinstelling is gewijzigd, zoals hieronder wordt weergegeven:
+   Nadat u op [!UICONTROL Save] na het uitgeven van de configuratie van het rapport, een asterisk ( &#42; ) wordt weergegeven na de naam van de voorinstelling om aan te geven dat de voorinstelling is gewijzigd, zoals hieronder wordt weergegeven:
 
    ![Voorinstelling rapporteren met sterretje](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ Klik op de knop **[!UICONTROL Download]** pictogram om rapportgegevens in een [!
 
 ![Downloadpictogram](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-Zie voor meer informatie [Gegevens downloaden in een CSV-bestand](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Zie voor meer informatie [Gegevens downloaden in een CSV-bestand](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Vernieuwen {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ U kunt het rapport in diverse formaten, afhankelijk van het activiteitstype beki
 
 De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die de liftgrenzen en het betrouwbaarheidsniveau verbonden aan uw activiteit begrijpen. Hierdoor kunt u nauwkeuriger bepalen wie de winnaar is.
 
-Zie voor meer informatie [Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Zie voor meer informatie [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Overweeg het volgende:
 

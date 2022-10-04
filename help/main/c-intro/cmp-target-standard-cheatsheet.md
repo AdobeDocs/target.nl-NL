@@ -4,7 +4,7 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 0%
@@ -166,7 +166,7 @@ Uitchecken [Sjabloonregels](/help/main/c-experiences/c-visual-experience-compose
 
 **Ik ben moe van het bericht &quot;uw browser toestaan om manuscripten&quot;te laden wanneer ik probeer om mijn pagina in Visual Experience Composer (VEC) te laden. Hoe kan ik dit voorkomen?**
 
-De reden hiervoor is dat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- als HTTPS-bronnen ophaalt. Vraag uw team van IT zich volledig naar HTTPS te bewegen.
+Dit komt doordat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- als HTTPS-bronnen ophaalt. Vraag uw team van IT zich volledig naar HTTPS te bewegen.
 
 Volg de instructies in het dialoogvenster [Gemengde inhoud in uw browser inschakelen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) zodat de browser gemengde inhoud kan laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
@@ -279,7 +279,7 @@ Dit is waar [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/
 
 **Kan ik offline rapporteringsberekeningen uitvoeren?**
 
-Gebruik de [Rapporten exporteren naar CSV en Bestelgegevens downloaden naar CSV-opties](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) op de pagina Rapporten om de gewenste rapportgegevens te downloaden.
+Gebruik de [Rapporten exporteren naar CSV en Bestelgegevens downloaden naar CSV-opties](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) op de pagina Rapporten om de gewenste rapportgegevens te downloaden.
 
 **Kan ik de controleervaring voor het evalueren van rapporten veranderen of de telmethode wijzigen van Bezoekers naar Bezoekers?**
 

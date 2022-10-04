@@ -4,7 +4,7 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '34113'
 ht-degree: 0%
@@ -1472,7 +1472,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporten </p> </td> 
-   <td colname="col2"> <p>Verbeterde de informatie over de lift en de begrenzingen in rapporten om deze uitgebreider en handiger te maken, inclusief knopinfo waarin wordt uitgelegd hoe de grenzen worden berekend. (TGT-28729) </p> <p>Zie voor meer informatie <a href="/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local"> Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen </a>. </p> </td> 
+   <td colname="col2"> <p>Verbeterde de informatie over de lift en de begrenzingen in rapporten om deze uitgebreider en handiger te maken, inclusief knopinfo waarin wordt uitgelegd hoe de grenzen worden berekend. (TGT-28729) </p> <p>Zie voor meer informatie <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization (AP) en Auto-Target activiteiten </p> </td> 
@@ -3153,7 +3153,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>Conversierapport </p> </td> 
-   <td colname="col2"> <p> Als het optimalisatiedoel omzettings metrisch is, dan toont het rapport van het Detail van de Aanbieding nu het effect van de hoogste voorspellende variabelen in lift en stijgende omzettingen. Dit verslag was pas eerder gebaseerd op inkomsten, zodat deze mogelijkheid ervoor zorgt dat activiteiten zonder inkomstengegevens nog steeds relevante en activeerbare inzichten produceren. </p> <p>Zie <a href="/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization-rapporten </a>. </p> </td> 
+   <td colname="col2"> <p> Als het optimalisatiedoel omzettings metrisch is, dan toont het rapport van het Detail van de Aanbieding nu het effect van de hoogste voorspellende variabelen in lift en stijgende omzettingen. Dit verslag was pas eerder gebaseerd op inkomsten, zodat deze mogelijkheid ervoor zorgt dat activiteiten zonder inkomstengegevens nog steeds relevante en activeerbare inzichten produceren. </p> <p>Zie <a href="/help/main/c-reports/personalization-reports/reports-ap.md" format="dita" scope="local"> Automated Personalization-rapporten </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Adobe Campaign e-mailintegratie met Target Standard </td> 

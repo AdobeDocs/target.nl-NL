@@ -4,7 +4,7 @@ description: Leer hoe u de prestaties kunt verbeteren, problemen kunt voorkomen 
 title: Welke Beste praktijken voor Multivariate Tests?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -45,8 +45,8 @@ Tips om u te helpen de prestaties te verbeteren, problemen te voorkomen en beken
 
 ## Analyseren {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Vaak gebruik maken van de [Locatiebijdragerapport](/help/main/c-reports/location-contribution-report.md) de prestaties van elke locatie en elke aanbieding te controleren.
-* In de [Experience Performance Report](/help/main/c-reports/experience-performance-report.md)baseer uw beslissingen op de gegevens die worden weergegeven met de filters Best 5 en Worst 5.
+* Vaak gebruik maken van de [Locatiebijdragerapport](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) de prestaties van elke locatie en elke aanbieding te controleren.
+* In de [Experience Performance Report](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)baseer uw beslissingen op de gegevens die worden weergegeven met de filters Best 5 en Worst 5.
 
    De [!UICONTROL All] Het filter maakt het moeilijk om de gewenste informatie op te halen en niet alle ervaringen kunnen in de grafiek worden weergegeven. Gebruik de [!UICONTROL All] filter als u naar een specifieke ervaring wilt kijken die niet in de beste of slechtste vijf is.
 

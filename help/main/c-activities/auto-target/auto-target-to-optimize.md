@@ -4,9 +4,9 @@ description: Leer hoe een activiteit AutoTarget in [!DNL Target] biedt iedere be
 title: Wat is een automatisch doelactiviteit?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Voor [!UICONTROL Auto-Target]Eenvoudige duimregels kunnen worden gebruikt om de 
 
 ## Rapportage en [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Zie voor meer informatie [Samenvattingsrapport autom. doel](/help/main/c-reports/auto-target-summary-report.md) in de [Rapporten](/help/main/c-reports/reports.md) sectie.
+Zie voor meer informatie [Samenvattingsrapport autom. doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Trainingsvideo: Werken met Auto-Target ![Overzicht badge](/help/main/assets/overview.png)
 

@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -255,22 +255,23 @@ ht-degree: 0%
    + [Overzicht van rapporten](c-reports/reports.md)
    + Rapportinstellingen {#settings}
       + [Overzicht van rapportinstellingen](c-reports/c-report-settings/report-settings.md)
-      + [Gemiddelde lift, liftbegrenzingen en betrouwbaarheidsinterval](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Meerdere metriek in een rapport weergeven](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Extreme waarden uitsluiten](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [Gegevens downloaden in een CSV-bestand](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Statistische methodologie {#statistical-methodology}
       + [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [Samenvattingsrapport voor automatisch doel](c-reports/auto-target-summary-report.md)
-   + [Samenvattingsrapporten van Automated Personalization](c-reports/reports-ap.md)
+   + Persoonlijke rapporten {#personalization-reports}
+      + [Samenvattingsrapport voor automatisch doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Samenvattingsrapporten van Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Verslag over persoonlijke inzichten {#insights}
       + [Overzicht van rapporten over persoonlijke inzichten](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport Automated Segments](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapport Belangrijke kenmerken](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Rapportagegroepen aanbieden in Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [Experience Performance Report (MVT)](c-reports/experience-performance-report.md)
-   + [Locatiebijdrage (MVT)](c-reports/location-contribution-report.md)
+   + Testrapporten met meerdere varianten {#multivariate-test-reports}
+      + [Experience Performance Report (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [Locatiebijdrage (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analyses voor doelrapportage (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Gegevens downloaden in een CSV-bestand](c-reports/downloading-data-in-csv-file.md)
    + [Veelgestelde vragen over rapportage](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Recommendations-overzicht](c-recommendations/recommendations.md)

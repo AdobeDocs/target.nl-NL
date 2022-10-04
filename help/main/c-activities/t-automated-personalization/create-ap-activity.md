@@ -4,7 +4,7 @@ description: Leer hoe u een [!UICONTROL Automated Personalization] (AP) activite
 title: Hoe maak ik een [!UICONTROL Automated Personalization] Activiteit?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 0%
@@ -86,7 +86,7 @@ De [!UICONTROL Automated Personalization] (AP) werkstroom in [!DNL Adobe Target]
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Offers]** om stukken inhoud te selecteren en deze aan rapportagegroepen toe te wijzen, of alleen bepaalde bezoekers bepaalde aanbiedingen te laten zien waarvoor ze zich richten.
 
-   Zie voor meer informatie [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Zie voor meer informatie [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
 
    Gebruik de [!UICONTROL Location] lijst om aanbiedingen te filteren op locatie. Gebruik de [!UICONTROL Report Group] lijst aan filteraanbiedingen door rapporterende groepen. U kunt ook de opdracht [!UICONTROL Report Group] lijst die moet worden gefilterd voor [!UICONTROL Unassigned Offers] zodat kunt u een rapportgroep aan een aanbieding toewijzen die momenteel niet aan om het even welke rapporteringsgroep wordt toegewezen.
 
@@ -164,4 +164,4 @@ De [!UICONTROL Automated Personalization] (AP) werkstroom in [!DNL Adobe Target]
 
 Nadat u op **[!UICONTROL Create]**, wordt het Activiteitenoverzicht weergegeven. Klikken **Voorvertoning van ervaringen** om te bekijken hoe je ervaringen eruit zien wanneer je wordt geleverd. Er wordt een pop-up weergegeven die u kunt gebruiken om koppelingen naar uw AP-ervaringen op uw site weer te geven en te delen voor een &quot;echte voorvertoning&quot; van de ervaringen buiten de Visual Experience Composer van Target. U moet de koppelingen vanuit het bericht delen om de voorvertoning te kunnen delen. Wanneer u op een koppeling klikt en vervolgens de URL rechtstreeks vanaf de pagina kopieert, werkt de URL niet omdat de URL een parameter bevat die de pagina alleen correct weergeeft wanneer u de pagina opent via de koppeling in het bericht.
 
-Voor informatie over rapportage raadpleegt u [Automated Personalization-rapporten](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Voor informatie over rapportage raadpleegt u [Automated Personalization-rapporten](/help/main/c-reports/personalization-reports/reports-ap.md).

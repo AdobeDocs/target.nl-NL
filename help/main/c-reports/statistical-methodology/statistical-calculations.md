@@ -3,9 +3,9 @@ keywords: rapporten;statistische methodologie;statistische berekeningen;statisti
 description: Meer informatie over de statistische berekeningen in de handleiding [!UICONTROL A/B Test] activiteiten in [!DNL Adobe Target].
 title: Hoe kan ik leren over de statistische berekeningen die worden gebruikt in [!UICONTROL A/B Test] Activiteiten?
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,6 @@ Ten slotte wordt in de [!DNL Target] wordt gedefinieerd als:
 
 ## Berekeningen offline uitvoeren
 
-De [gedownload CSV-rapport](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) omvat alleen onbewerkte gegevens en omvat geen berekende meetwaarden, zoals inkomsten per bezoeker, lift of betrouwbaarheid die voor A/B-tests worden gebruikt.
+De [gedownload CSV-rapport](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) omvat alleen onbewerkte gegevens en omvat geen berekende meetwaarden, zoals inkomsten per bezoeker, lift of betrouwbaarheid die voor A/B-tests worden gebruikt.
 
 Als u deze statistische hoeveelheden wilt berekenen, downloadt u de [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren.

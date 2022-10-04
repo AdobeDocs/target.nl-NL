@@ -4,7 +4,7 @@ description: Leer hoe u de [!UICONTROL Important Attributes] rapport dat de hoog
 title: Wat is het Belangrijke Rapport van Attributen?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -40,13 +40,13 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
 1. Klik op **[!UICONTROL Reports]**.
 
-   De [Automated Personalization-overzicht](/help/main/c-reports/reports-ap.md) of [Overzicht autom. doel](/help/main/c-reports/auto-target-summary-report.md) rapportvertoningen, die informatie over de prestaties van uw activiteiten verstrekken, die door het eerste het schermpictogram wordt vertegenwoordigd. De twee extra pictogrammen vertegenwoordigen de twee [!UICONTROL Personalization Insights] rapporten: [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes].
+   De [Automated Personalization-overzicht](/help/main/c-reports/personalization-reports/reports-ap.md) of [Overzicht autom. doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) rapportvertoningen, die informatie over de prestaties van uw activiteiten verstrekken, die door het eerste het schermpictogram wordt vertegenwoordigd. De twee extra pictogrammen vertegenwoordigen de twee [!UICONTROL Personalization Insights] rapporten: [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes].
 
-   ![Samenvattingsrapport voor Automated Personalization-activiteit](assets/summary-report-ap.png)
+   ![Samenvattingsrapport voor Automated Personalization-activiteit](/help/main/c-reports/assets/summary-report-ap.png)
 
    Let op: [!UICONTROL Auto-Target] heeft een extra grafiekpictogram voor de grafische weergave van het dialoogvenster [!UICONTROL Summary] verslag.
 
-   ![Samenvattingsrapport voor Auto-Target-activiteit](assets/personalization_insights.png)
+   ![Samenvattingsrapport voor Auto-Target-activiteit](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
 1. Na 15 dagen vanaf het activeren van de activiteit klikt u op de knop **[!UICONTROL Important Attributes]** pictogram.
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Selecteer het gewenste datumbereik.
 
@@ -66,16 +66,15 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
    Deze vaste datumbereiken staan [!UICONTROL Personalization Insights] om een groot genoeg bereik aan gegevens te gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. De twee besluiten u voor uw datumwaaier kunt maken zijn de &quot;Datum van het Eind&quot;en &quot;Duur.&quot; U zult merken dat het &quot;Begin&quot;grijs uit is. De begindatum wordt automatisch gewijzigd op basis van uw selecties voor de einddatum en -duur.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    U hebt toegang tot de beschikbare vaste datumbereiken via de [!UICONTROL Choose Duration] vervolgkeuzelijst.
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Controleer de [!UICONTROL Important Attributes] rapportgegevens.
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Optioneel) [Het rapport downloaden in CSV-indeling](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere hulpmiddelen.
 
@@ -118,7 +117,7 @@ Verslaglegging over persoonlijke inzichten (beide [!UICONTROL Automated Segments
 
 **Hoe wordt [!UICONTROL Personalization Insights] gemaakt?**
 
-[!UICONTROL Personalization Insights] wordt gecreeerd gebruikend een Adobe octrooi-hangende techniek genoemd MAGIX (ModelAgnostic globally Interpretable Verklaringen). U kunt meer over MAGIX in het Adobe onderzoeksteam gepubliceerde document op het [arXiv.org-website](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] wordt gecreeerd gebruikend een Adobe octrooi-hangende techniek genoemd MAGIX (ModelAgnostic globally Interpretable Verklaringen). Meer informatie over MAGIX vindt u in het gepubliceerde document van het onderzoeksteam van Adobe op het tabblad [arXiv.org-website](https://arxiv.org/abs/1706.07160).
 
 **Is [!UICONTROL Personalization Insights] beschikbaar voor op opbrengst-gebaseerde modelleringsdoelstellingen/primair doel?**
 
@@ -136,7 +135,7 @@ Er zijn verscheidene potentiële redenen waarom u meer bezoeken aan een laag-omz
 * Ondermaatse activiteiten waarbij bepaalde aanbiedingen of ervaringen geen modellen hebben.
 * Minder volume-activiteiten waarin modellen eerder werden gebouwd voor sommige aanbiedingen/ervaringen dan andere. Stel dat op dag 22 een aanvullend model is gemaakt en u kijkt naar gegevens van dag 10-24.
 * Gerichte regels voor een specifieke aanbieding die de bezoekers kunnen zien welke aanbiedingen/ervaringen er zijn.
-* Er zijn geen betrouwbaarheidsintervallen in de rapportage van inzichten. Als de conversiesnelheden echter dicht genoeg bij elkaar liggen, kan het model het verkeer bedienen, zodat het in de punthoeveelheid hoger ligt, maar het zijn geen &quot;statistisch verschillende&quot; getallen.
+* Er zijn geen betrouwbaarheidsintervallen in de rapportage van inzichten. Nochtans, als de omrekeningskoersen dicht genoeg zijn, zou het model verkeer kunnen dienen zodat het in de punthoeveelheid hoger is, maar zij zijn niet &quot;statistisch verschillend&quot;aantallen.
 
 Het kan nuttig zijn te weten hoe het model werkt dat verkeer dient. Elke persoon wordt gediend op basis van zijn of haar totale profiel. In de rapporten van Insights wordt dit gedrag echter veralgemeend, zodat het beter door een mens kan worden geïnterpreteerd. Dientengevolge, sluiten de segmenten elkaar niet uit. Dit kan ertoe leiden dat afzonderlijke segmenten dit type gedrag weergeven omdat dezelfde persoon in meerdere segmenten kan worden weergegeven.
 
