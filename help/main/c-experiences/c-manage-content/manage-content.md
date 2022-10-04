@@ -4,9 +4,9 @@ description: Leer hoe u code- en afbeeldingsaanbiedingen kunt beheren met de bib
 title: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
 1. (Optioneel) Klik op de knop **[!UICONTROL Type]** vervolgkeuzelijst voor het filteren van aanbiedingen op type (HTML-aanbieding, [Ervaar fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Omleidingsvoorstel](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Externe aanbieding](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md), en [Mappen](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![aanbiedingen_filter, afbeelding](assets/offers_filter.png)
 
 1. (Optioneel) Klik op de knop **[!UICONTROL Source]** vervolgkeuzelijst voor het filteren van aanbiedingen op bron (Adobe Target, Adobe Target Classic en Adobe Experience Manager).
 
@@ -66,7 +66,7 @@ U kunt definitiedetails van voorstellen op een pop-up kaart in bekijken [!UICONT
 
 De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding is bijvoorbeeld toegankelijk door de muis boven een aanbieding op de [!UICONTROL Content] en klik vervolgens op het informatiepictogram:
 
-![](assets/offer-card-html.png)
+![aanbieding-kaart-html beeld](assets/offer-card-html.png)
 
 De volgende informatie is beschikbaar:
 
@@ -79,11 +79,11 @@ De volgende informatie is beschikbaar:
 
 Klik op de knop [!UICONTROL Offer Usage] om de activiteiten weer te geven die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Informatie omvat [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities].
 
-![](assets/offer-card-usage.png)
+![afbeelding met handige kaart](assets/offer-card-usage.png)
 
 De volgende aanbieding definitiekaart voor een Voorstelling van de Omleiding:
 
-![](assets/offer-card-redirect.png)
+![aanbieding-kaart-omleiding afbeelding](assets/offer-card-redirect.png)
 
 De volgende informatie is beschikbaar:
 
@@ -99,7 +99,7 @@ De volgende informatie is beschikbaar:
 
 De volgende kaart van de aanbiedingsdefinitie voor een Verre aanbieding:
 
-![](assets/offer-card-remote.png)
+![extern image met creditcard](assets/offer-card-remote.png)
 
 De volgende informatie is beschikbaar:
 

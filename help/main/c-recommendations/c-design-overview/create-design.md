@@ -4,9 +4,9 @@ description: Leer hoe u een Adobe maakt [!DNL Target] Recommendations-ontwerp me
 title: Hoe maak ik een ontwerp in Recommendations?
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. Plaats de muis boven de kaart voor het ontwerp dat u wilt maken en klik vervolgens op de knop **[!UICONTROL Copy]** pictogram.
 
-   ![](assets/Card_CopyDesign.png)
+   ![Afbeelding Kaart_CopyDesign](assets/Card_CopyDesign.png)
 
    De [!UICONTROL Create Design] wordt weergegeven.
 
-   ![](assets/createDesign.png)
+   ![createDesign-afbeelding](assets/createDesign.png)
 
 1. In de **[!UICONTROL Information]** deelvenster, een **[!UICONTROL Content Name]** en optionele voorvertoningsafbeelding die op de ontwerpkaart wordt weergegeven.
 
@@ -104,7 +104,7 @@ In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd w
 
 1. Zorg ervoor dat de optie &quot;HTML-ontwerp&quot; is uitgeschakeld:
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle image](assets/html_design_toggle.png)
 
 1. De volgende code is een voorbeeld van wat u in uw ontwerp kunt plakken:
 
@@ -169,7 +169,7 @@ In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd w
 
 Nadat het algoritme is uitgevoerd en u resultaten hebt, moet uw reactie er ongeveer als volgt uitzien:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommended, image](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## Extra tips en trucs voor JSON-objecten {#section_C305673C68944749969DB239E3221DC2}
 

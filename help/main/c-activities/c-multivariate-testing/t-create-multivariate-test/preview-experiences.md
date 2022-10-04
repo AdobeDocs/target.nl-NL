@@ -4,9 +4,9 @@ description: Leer hoe u elke ervaring kunt voorvertonen in een MVT-activiteit (M
 title: Hoe kan ik ervaringen voor een Multivariate Test (MVT) voorvertonen?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Omdat [!UICONTROL Multivariate Test] in [!DNL Adobe Target] Vergelijkt meerdere 
 
    Er wordt een lijst met alle ervaringen weergegeven.
 
-   ![](assets/preview.png)
+   ![voorvertoning van afbeelding](assets/preview.png)
 
 1. Klik op een ervaring in de lijst om die ervaring weer te geven.
 

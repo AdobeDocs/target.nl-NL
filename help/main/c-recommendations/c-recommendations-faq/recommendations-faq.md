@@ -4,9 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe weergeve
 title: Waar kan ik vragen en antwoorden vinden over [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3113'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de ki
 
 Om toegang te krijgen tot [!UICONTROL Filter Incompatible Criteria] instellen, klikt u op [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
-![](assets/recs_settings_filter.png)
+![recs_settings_filter, afbeelding](assets/recs_settings_filter.png)
 
 Als de [!UICONTROL Filter Incompatible Criteria] instelling NIET ingeschakeld is, [!DNL Target] filtert geen algoritmes in de Algorituurkiezer en alle algoritmen worden weergegeven.
 
@@ -110,7 +110,7 @@ Als de [!UICONTROL Filter Incompatible Criteria] de instelling is ingeschakeld b
 
 Als de [!UICONTROL Filter Incompatible Criteria] instelling is ingeschakeld, kunt u nog steeds niet-compatibele algoritmen weergeven door de selectie van de optie [!UICONTROL Compatible] selectievakje tijdens het selecteren van criteria.
 
-![](assets/compatible_checkbox.png)
+![afbeelding compatible_checkbox](assets/compatible_checkbox.png)
 
 De volgende lijst bevat speciale gevallen waarin [!DNL Target] wordt niet weergegeven [!UICONTROL Compatible] selectievakje:
 
@@ -126,7 +126,7 @@ Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerd
 * U kunt de verzameling opnieuw opslaan en zien of het nummer wordt bijgewerkt. Door op te slaan, herstelt de inzameling alle algoritmen die die inzameling gebruiken.
 * Kijk je naar de juiste omgeving? Ga naar [!DNL /target/products.html#recsSettings] om (zoals hieronder getoond) tweemaal te controleren.
 
-   ![](assets/product_catalog.png)
+   ![product_catalog-afbeelding](assets/product_catalog.png)
 
 * Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren de index (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;) is. U kunt de index naar wens vernieuwen.
 * Heeft u iets in de feed of de gegevenslaag gewijzigd waardoor de entiteiten niet meer overeenkomen met de verzamelingsregels? Zorg ervoor dat uw HOOFDLETTERS overeenkomen (hoofdlettergevoelig).
@@ -139,13 +139,13 @@ Kenmerkweging bestaat in twee vormen: &quot;standard attribute weight&quot; en &
 
 De &quot;Standaard kenmerkenweging&quot; is van toepassing op de meeste, zo niet alle, definitietypen (niet alleen de Gelijksoortigheid van de Inhoud). Dit type weging geeft meer gewicht aan bepaalde kenmerkwaarden. In het volgende voorbeeld krijgen Nike-producten een reliëf in de aanbevelingen voor uitvoer.
 
-![](assets/attribute_weighting_example.png)
+![attribute_weight_example, afbeelding](assets/attribute_weighting_example.png)
 
 De &quot;weging van de gelijksoortige eigenschappen van de inhoud&quot;is slechts op de criteria van de Gelijksoortigheid van de Inhoud van toepassing.
 
 Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling key&quot; (het momenteel bekeken item). In het volgende voorbeeld (merk x 16), als een bezoeker Nike sneakers zou bekijken, zal die bezoeker eerder andere Nike-producten (niet noodzakelijkerwijs alleen sneakers) dan concurrenten-sneakers aanraden. Als een bezoeker Adidas sneakers bekijkt, zal die bezoeker eerder Adidas producten worden geadviseerd.
 
-![](assets/content_similarity_example.png)
+![content_similarity_example image](assets/content_similarity_example.png)
 
 ## Waarom [!DNL Target] soms niet in staat om aanbevelingen te tonen? {#section_DB3F40673AED42228E407C05437D99E9}
 

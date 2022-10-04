@@ -4,9 +4,9 @@ description: Leer hoe u Multivariate Testing (MVT) kunt gebruiken in Adobe [!DNL
 title: Wat is een multivariate Test?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Met behulp van verschillende tests kunt u ook samengestelde effecten tussen twee
 
 Bij Doel is elke combinatie één ervaring. De multivariate test vergelijkt elke ervaring zodat kunt u leren welke combinaties het meest succesvol zijn. Tegelijkertijd worden gegevens verzameld en geanalyseerd om te begrijpen hoe elke locatie en de aanbiedingen invloed hebben op de succesmaatstaf.
 
-![](assets/multivariate.png)
+![afbeelding met meerdere variaties](assets/multivariate.png)
 
 Wegens het aantal combinaties die kunnen worden geproduceerd, vereist een multivariate test meer tijd en verkeer dan een test A/B. De pagina moet voldoende verkeer krijgen om statistisch significante resultaten voor elke ervaring te produceren. Om nuttige resultaten te verkrijgen, moet u begrijpen hoeveel verkeer uw pagina ontvangt en het optimale aantal combinaties voor de juiste hoeveelheid tijd testen om de vereiste resultaten te krijgen. Doel [Verkeersschatting](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan u helpen een test ontwerpen die met uw verkeer werkt. Voordat u de Verkeersschatting gebruikt, moet u over goede statistieken beschikken die het aantal afbeeldingen en conversies weergeven dat uw site normaal ontvangt. Overweeg uw verkeersniveaus per dag. Hoe meer ervaringen in een activiteit, des te meer verkeer de activiteit zal moeten omvatten of des te langer uw activiteit zal moeten lopen. Als uw verkeer niet zeer hoog is, zou u een klein aantal combinaties moeten testen; anders kan de tijd die nodig is om zinvolle testresultaten te produceren te lang zijn om nuttig te zijn.
 

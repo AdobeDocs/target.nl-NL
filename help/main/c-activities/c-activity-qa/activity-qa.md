@@ -4,9 +4,9 @@ description: Leer hoe u Adobe gebruikt [!DNL Target] QA URLs om gemakkelijke act
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 
    U kunt op de site navigeren om de andere pagina&#39;s te zien, omdat de [!UICONTROL Activity QA] de modus blijft ongewijzigd. Deze situatie geldt voor at.js-implementaties met versie 2.*x* of hoger. Voor om.js 1.*x* implementaties, is deze situatie alleen waar als de browser van de bezoeker cookies van derden niet blokkeert.
 
-1. Als u rapporten wilt zien die zijn gegenereerd via de URL&#39;s van de activiteitenkoppeling, klikt u op de activiteit **[!UICONTROL Reports]** pagina, klikt u op de knop **[!UICONTROL Settings]** icon (  ![](assets/icon_gear.png) ), selecteert u vervolgens **[!UICONTROL QA Mode Traffic]** van de **[!UICONTROL Environment]** vervolgkeuzelijst.
+1. Als u rapporten wilt zien die zijn gegenereerd via de URL&#39;s van de activiteitenkoppeling, klikt u op de activiteit **[!UICONTROL Reports]** pagina, klikt u op de knop **[!UICONTROL Settings]** icon (  ![icon_tandbeeld](assets/icon_gear.png) ), selecteert u vervolgens **[!UICONTROL QA Mode Traffic]** van de **[!UICONTROL Environment]** vervolgkeuzelijst.
 
 ## Overwegingen {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

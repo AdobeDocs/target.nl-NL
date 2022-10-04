@@ -4,9 +4,9 @@ description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendation
 title: Hoe maak ik criteria in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2650'
+source-wordcount: '2658'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Het gebruiken van inhoudgelijkenis om aanbevelingen te produceren is vooral effe
 
 Wanneer u **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]**, hebt u de optie om regels tot stand te brengen om het belang van specifieke puntattributen in het bepalen van aanbevelingen te verhogen of te verminderen. Voor objecten zoals boeken kunt u het belang van kenmerken zoals *genre*, *auteur*, *serie*, enzovoort, om soortgelijke boeken aan te bevelen.
 
-![](assets/ContentSimilarity.png)
+![ContentGelijksoortigheidsafbeelding](assets/ContentSimilarity.png)
 
 Omdat bij gelijkenis met inhoud trefwoorden worden gebruikt om items te vergelijken, kunnen sommige kenmerken, zoals *message* of *beschrijving*, kan &quot;lawaai&quot;in de vergelijking introduceren. U kunt regels maken om deze kenmerken te negeren.
 
@@ -224,7 +224,7 @@ Voer de volgende stappen uit om een eenvoudige regel voor insluiting te maken, z
 1. Stel het minimale voorraadbedrag in voor de producten die u wilt aanbevelen.
 1. Vorm de aanbeveling om punten slechts te tonen wanneer zij aan bepaalde criteria voldoen.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Afbeelding Recs_InclusionRules](assets/Recs_InclusionRules.png)
 
    U kunt opgeven dat items alleen worden opgenomen wanneer een van de kenmerken in de lijst voldoet aan een of meer opgegeven voorwaarden of niet overeenkomt.
 
@@ -254,7 +254,7 @@ U kunt bijvoorbeeld een hogere wegingsfactor toepassen op onverkochte objecten, 
 
    De volledige regel kan bijvoorbeeld &#39;Categorie bevat schoenen voor subreeksen&#39; zijn.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Afbeelding Recs_AttributeWeighting](assets/Recs_AttributeWeighting.png)
 
 1. Selecteer de dikte die u aan de regel wilt toewijzen.
 

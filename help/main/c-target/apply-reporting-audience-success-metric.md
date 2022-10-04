@@ -4,9 +4,9 @@ description: Leer hoe u een succesmetrische keuze kunt maken in [!DNL Adobe Targ
 title: Kan ik een rapporteringspubliek op een succes metrisch toepassen?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Kies een succesmaatstaf die de gebruiker voor het rapportagepubliek in aanmerkin
 
 Voor alle activiteiten [!UICONTROL Applied At] Met de vervolgkeuzelijst kunt u een publiek toepassen op een succesmetrische methode, zodat u rapportnummers kunt weergeven nadat de metrische waarde is bereikt en voor volgende acties.
 
-![](assets/success_metric.png)
+![success_tem-afbeelding](assets/success_metric.png)
 
 Stel dat u een activiteit hebt gemaakt voor alle bezoekers die uw startpagina betreden en de conversiepagina bereiken, maar u wilt ook meer informatie weergeven over bezoekers die meer dan € 50 aan de winkelwagentje hebben toegevoegd voordat u deze omzet.
 
@@ -32,4 +32,4 @@ Overweeg de volgende informatie wanneer het toepassen van een rapporterend publi
 
 Als u de segmentatie in de rapportage wilt weergeven, selecteert u het gewenste publiek in het menu [!UICONTROL Audience] vervolgkeuzelijst in het activiteitenverslag.
 
-![](assets/reporting_audience_dropdown.png)
+![reporting_publiek_dropdown afbeelding](assets/reporting_audience_dropdown.png)

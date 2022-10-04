@@ -4,9 +4,9 @@ description: Leer hoe u een activiteit Automatisch toewijzen in Adobe gebruikt [
 title: Wat is een automatisch toegewezen activiteit?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3458'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Naarmate meer bezoekers de activiteit betreden, worden sommige ervaringen succes
 
 De volgende illustratie vertegenwoordigt hoe het algoritme tijdens een test met vier ervaringen zou kunnen uitvoeren:
 
-![](assets/auto-allocate.png)
+![afbeelding automatisch toewijzen](assets/auto-allocate.png)
 
 De illustratie toont hoe het verkeer dat aan elke ervaring wordt toegewezen zich over verscheidene ronden van het activiteitenleven ontwikkelt tot een duidelijke winnaar wordt bepaald.
 

@@ -4,9 +4,9 @@ description: Veelgestelde vragen (FAQ's) weergeven over de ervaring die wordt ge
 title: Waar kan ik vragen en antwoorden vinden over doelen en publiek?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ De gebruiker komt in aanmerking voor de eerste ervaring/het eerste publiek dat w
 
 Bijvoorbeeld, in de volgende illustratie, kwalificeert een gebruiker van Californië die een apparaat van Vensters gebruikt voor zowel Ervaring A (het publiek van Vensters) als Ervaring C (het publiek van Californië). Deze gebruiker krijgt Experience A te zien, omdat deze wordt weergegeven in de lijst hierboven Experience C op de pagina Target.
 
-![](assets/audiences_order.png)
+![soorten publiek_afbeelding rangschikken](assets/audiences_order.png)
 
 ## Waarom namen maken voor hetzelfde publiek in [!DNL Target] , Adobe Audience Manager (AAM) en de Audience Library in core services verschillen? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

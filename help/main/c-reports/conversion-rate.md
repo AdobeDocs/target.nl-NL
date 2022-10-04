@@ -4,9 +4,9 @@ description: Meer informatie over Adobe [!DNL Target] toont en berekent de omrek
 title: Hoe bekijk ik het Tarief van de Omzetting, Lift, en het Niveau van het Vertrouwen?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Voor elke ervaring worden de omrekeningskoers, de lift, het betrouwbaarheidsinte
 
 In de volgende afbeelding ziet u de diagramkop voor een voorbeeldactiviteit met de [!UICONTROL Conversion Rate], [!UICONTROL Lift], en [!UICONTROL Confidence] kopteksten gemarkeerd.
 
-![](assets/conversion-rate.jpg)
+![afbeelding met conversiesnelheid](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Hiermee geeft u de mediaan van de conversiesnelheid, het vertrouwen, het interva
 
 Kijk bijvoorbeeld naar de volgende rapportkolom Conversiesnelheid:
 
-![](assets/conversion-rate-detail.jpg)
+![conversie-rate-detail-afbeelding](assets/conversion-rate-detail.jpg)
 
 De eerste regel is de besturingservaring. Het toont een 15% omzettingspercentage, met drie omzettingen. De tweede regel, Experience B, toont een 15% conversiesnelheid, met een betrouwbaarheidsinterval van 15,65% of minder en drie conversies.
 
@@ -62,7 +62,7 @@ Het vertrouwen van een getoonde ervaring of aanbieding is een waarschijnlijkheid
 
 Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![conf_report, afbeelding](assets/conf_report.png)  ![conf_report_detail, afbeelding](assets/conf_report_detail.png)
 
 Alvorens om het even welke bedrijfsbesluiten te nemen, probeer om te wachten tot uw steekproefgrootte groot genoeg is en dat de vier bars van vertrouwen op één of meerdere ervaringen voor een ononderbroken tijdsduur verenigbaar blijven om de resultaten te verzekeren stabiel zijn.
 
@@ -75,7 +75,7 @@ Alvorens om het even welke bedrijfsbesluiten te nemen, probeer om te wachten tot
 
 De *betrouwbaarheidsinterval* is een reeks schattingen waarbinnen de werkelijke waarde van de maatstaf op een bepaald betrouwbaarheidsniveau kan worden gevonden. Doel geeft altijd een betrouwbaarheidsinterval van 95% weer. Het betrouwbaarheidsinterval wordt weergegeven als een lichtgrijs +/- percentage in de kolom Conversiesnelheid. In het onderstaande voorbeeld is het betrouwbaarheidsinterval voor de lift van Experience B plus of min 15,65%.
 
-![](assets/conversion_rate.png)
+![omzetten_afbeelding waarderen](assets/conversion_rate.png)
 
 **Voorbeeld:** De waargenomen RPV van een ervaring is $10, en zijn 95% **betrouwbaarheidsinterval** is $5 tot $15. Onbekend voor ons is de werkelijke RPV $12. Als we deze test meerdere keren uitvoeren, zal 95% van de tijd die we berekenen het betrouwbaarheidsinterval bevatten _true_ waarde van de RPV van $12.
 

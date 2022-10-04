@@ -4,9 +4,9 @@ description: Gebruiken [!DNL Analytics] for [!DNL Target] (A4T) om activiteiten 
 title: Wat is [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -79,15 +79,15 @@ U kunt schakelen tussen de [!UICONTROL Table View] en [!UICONTROL Graph View] va
 
 In de volgende afbeelding ziet u de [!UICONTROL Graph View] van een A4T-rapport met de [!UICONTROL Report Metric] vervolgkeuzelijst met de beschikbare [!DNL Analytics] meetgegevens doel:
 
-![](assets/a4t_report_graph1.png)
+![a4t_report_graph1-afbeelding](assets/a4t_report_graph1.png)
 
 In de volgende afbeelding ziet u de [!UICONTROL Graph View] van een A4T-rapport met de [!UICONTROL Audience] vervolgkeuzelijst met de beschikbare [!DNL Analytics] publiek:
 
-![](assets/a4t_report_graph2.png)
+![a4t_report_graph2-afbeelding](assets/a4t_report_graph2.png)
 
 In de volgende afbeelding ziet u de [!UICONTROL Table View] van een A4T-rapport:
 
-![](assets/a4t_report_table.png)
+![a4t_report_table-afbeelding](assets/a4t_report_table.png)
 
 Als u het rapport wilt weergeven in [!DNL Analytics] eerder dan in [!DNL Target], klikt u op **[!UICONTROL View in Analytics]** boven aan het rapport.
 

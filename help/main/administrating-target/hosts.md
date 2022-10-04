@@ -5,9 +5,9 @@ title: Wat zijn gastheren en hoe gebruik ik ze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk ina
 
 Een host is elk domein waaruit een [!DNL Target] verzoek wordt ingediend. Op een website is het meestal de `location.hostname` eigenschap van de URL die de [!DNL Target] verzoek.
 
-Standaard, [!DNL Target] beperkt geen host die [!DNL Target] verzoeken en ontvangen [!DNL Target] reacties. Wanneer nieuwe gastheren verzoeken indienen, werken zij automatisch. Met dit proces kunt u ook testen op verschillende domeinen die u niet kent of niet kunt voorzien. Als u dit standaardgedrag wilt met voeten treden, kunt u opstelling een lijst van gewenste personen of een lijst van gewezen personen om te beperken welke gastheren werken met [!DNL Target].
+Standaard, [!DNL Target] beperkt geen host die [!DNL Target] verzoeken en ontvangen [!DNL Target] reacties. Wanneer nieuwe gastheren verzoeken indienen, werken zij automatisch. Dit proces laat ook het testen op verschillende domeinen toe u niet kent of niet kan voorzien. Als u dit standaardgedrag wilt met voeten treden, kunt u opstelling een lijst van gewenste personen of een lijst van gewezen personen om te beperken welke gastheren werken met [!DNL Target].
 
 Als u hosts wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
-![](assets/hosts_list.png)
+![host_list, afbeelding](assets/hosts_list.png)
 
 ## Hosts herkennen {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

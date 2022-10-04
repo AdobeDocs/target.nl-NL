@@ -1,12 +1,12 @@
 ---
 keywords: analysetrackingserver;A4T;Adobe Experience Cloud-foutopsporing;Adobe Experience Platform-foutopsporing;bron rapporteren;ontwikkelprogramma's
-description: 'Leer hoe u een Analytics-traceringsserver opgeeft voor activiteiten waarvoor Analytics wordt gebruikt [!DNL Target] (A4T) als u een oudere versie van at.js gebruikt. '
+description: Leer hoe u een Analytics-traceringsserver opgeeft voor activiteiten waarvoor Analytics wordt gebruikt [!DNL Target] (A4T) als u een oudere versie van at.js gebruikt.
 title: Hoe gebruik ik een Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit wordt g
 
 1. Klikken **[!UICONTROL Analytics]** in het navigatiemenu aan de linkerkant.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ-afbeelding](assets/Screen_DebuggerTrackServ.png)
 
    De [!DNL Analytics] de volgende server wordt gevonden in [!UICONTROL Hostname] van het foutopsporingsprogramma.
 

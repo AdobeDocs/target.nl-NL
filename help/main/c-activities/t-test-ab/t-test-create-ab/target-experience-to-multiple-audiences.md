@@ -4,9 +4,9 @@ description: Leer hoe u versies van dezelfde ervaring kunt richten op verschille
 title: Kan ik de Veelvoudige Versies van de Ervaring in A/B activiteit gebruiken?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ In dit geval, wat u nodig hebt zijn geo-specifieke versies van de ervaring, zoda
 
 1. Klikken **[!UICONTROL Add Audience]** Selecteer vervolgens het eerste publiek waarvoor u een doelgroep wilt instellen. Herhaal dit voor elk publiek.
 
-   ![](assets/exp-versions.png)
+   ![exp-versieafbeelding](assets/exp-versions.png)
 
    Als het publiek nog niet bestaat, klikt u op [Publiek maken](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) en zet het op.
 

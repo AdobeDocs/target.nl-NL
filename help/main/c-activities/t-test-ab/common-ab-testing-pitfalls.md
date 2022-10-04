@@ -4,9 +4,9 @@ description: Leer hoe u de meest voorkomende valkuilen en fouten kunt voorkomen 
 title: Hoe vermijd ik vaak voorkomende fouten in A/B-tests?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3884'
+source-wordcount: '3898'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Bij A/B-tests gebruiken marketers vaak 95% betrouwbaarheidsniveaus. Op basis van
 
 Hoe meer tests u uitvoert, des te waarschijnlijker is dat ten minste een van deze tests resulteert in een fout-positief. Als u bijvoorbeeld 10 tests uitvoert met een betrouwbaarheidsniveau van 95%, is er ongeveer 40% kans dat u een of meer valse positieven zult detecteren (aangezien er geen echte lift is: Pr(ten minste één fout positief) = 1 - Pr(geen fout positief) = 1 - 0,95^10 = 40%).
 
-![](assets/pitfalls1.png)
+![valkuilen1, afbeelding](assets/pitfalls1.png)
 
 In een marketingorganisatie is 95% doorgaans een redelijke verhouding tussen het risico van vals-positieve en fout-negatieve effecten.
 
@@ -51,7 +51,7 @@ Twee situaties verdienen echter de nodige aandacht voor het significantieniveau 
 
    Het is belangrijk om op te merken dat *elk* het onderzochte aanbod heeft een vals positief percentage dat gelijk is aan het significantieniveau, zoals hierboven beschreven. Opnieuw, stelt u effectief veelvoudige tests in werking wanneer verscheidene aanbiedingen tegen elkaar binnen één enkele testmilieu worden goedgekeurd. Als u bijvoorbeeld vijf aanbiedingen in een A/B/C/D/E-test vergelijkt, maakt u in feite vier vergelijkingen: controle op B, controle op C, controle op D, controle op E. Met een betrouwbaarheidsniveau van 95%, in plaats van de 5% waarschijnlijkheid van een vals positief, hebt u eigenlijk 18,5%. 2
 
-   Als u uw totale betrouwbaarheid op 95% wilt houden en dit probleem wilt vermijden, past u de zogenaamde Bonferroni-correctie toe. Met deze correctie verdeelt u gewoon het significantieniveau door het aantal vergelijkingen om het significantieniveau te bereiken dat u nodig hebt om een betrouwbaarheidsniveau van 95% te bereiken.
+   Als u uw totale betrouwbaarheid op 95% wilt houden en dit probleem wilt vermijden, past u de zogenaamde Bonferroni-correctie toe. Met deze correctie verdeelt u eenvoudig het significantieniveau door het aantal vergelijkingen om het significante niveau te bereiken dat u een 95% betrouwbaarheidsniveau moet bereiken.
 
    Als u de Bonferroni-correctie toepast op het bovenstaande voorbeeld, gebruikt u een 5%/4 = 1,25% significantieniveau, wat hetzelfde is als een 98,75% betrouwbaarheidsniveau voor een individuele test (100% - 1,25% = 98,75%). Deze aanpassing handhaaft het effectieve betrouwbaarheidsniveau bij 95% wanneer u vier tests hebt, zoals in het beschreven voorbeeld.
 
@@ -59,7 +59,7 @@ Twee situaties verdienen echter de nodige aandacht voor het significantieniveau 
 
 Bij het testen van meerdere aanbiedingen verklaren marketeers vaak het aanbod met de hoogste lift als testwinnaar, hoewel er geen statistisch significant verschil is tussen de winnaar en de runner-up. Deze situatie doet zich voor wanneer het verschil tussen de alternatieven kleiner is dan het verschil tussen de alternatieven en de controle. In de onderstaande afbeelding ziet u dit concept, waarbij de zwarte foutenbalken een betrouwbaarheidsinterval van 95% vertegenwoordigen. De ware lift voor elke aanbieding met betrekking tot de controleaanbieding is 95% waarschijnlijk inbegrepen binnen het betrouwbaarheidsinterval-de waaier die door de foutenbars wordt getoond.
 
-![](assets/pitfalls2.png)
+![valkuilen2, afbeelding](assets/pitfalls2.png)
 
 Aanbiedingen A en B hebben de hoogste waargenomen lift tijdens de test, en het zou onwaarschijnlijk zijn dat aanbieding C die aanbiedingen in een toekomstige test zou overtreffen, omdat het betrouwbaarheidsinterval van C niet eens met de betrouwbaarheidsintervallen van A of B overlapt. Hoewel aanbod A tijdens de test de hoogst waargenomen lift heeft, is het echter heel goed mogelijk dat aanbod B in een toekomstige test beter zou kunnen presteren omdat de betrouwbaarheidsintervallen elkaar overlappen.
 
@@ -67,7 +67,7 @@ De afstoting hier is dat zowel A als B als winnaars van de test moeten worden be
 
 Doorgaans is het niet haalbaar om de test lang genoeg uit te voeren om de werkelijke relatieve prestaties van de alternatieven te identificeren. Vaak is het verschil in prestaties tussen de alternatieven te klein om de conversiesnelheid aanzienlijk te beïnvloeden. In dergelijke gevallen, kunt u het resultaat als tijd interpreteren en andere overwegingen, zoals strategie of groepering met andere elementen van de pagina gebruiken, om te bepalen welke aanbieding om uit te voeren. Met meerdere tests moet u openstaan voor meerdere winnaars, die in sommige gevallen de mogelijkheden voor de ontwikkeling van uw website aanzienlijk openen.
 
-Houd er rekening mee dat als je het voorstel wilt identificeren met de hoogste omrekeningskoers, je alle aanbiedingen vergelijkt met elk ander aanbod. In het bovenstaande voorbeeld hebt u n = 5 aanbiedingen. U moet n(n-1)/2 vergelijkingen maken of 5*(5-1)/2 = 10 vergelijkingen. In dit geval vereist de Bonferroni-correctie dat het significantieniveau van de test 5%/10 = 0,5% is, wat overeenkomt met een betrouwbaarheidsniveau van 99,5%. Een dergelijk hoog betrouwbaarheidsniveau kan echter vereisen dat u de test gedurende een onredelijk lange periode uitvoert.
+Houd er rekening mee dat als je het voorstel wilt identificeren met de hoogste omrekeningskoers, je alle aanbiedingen vergelijkt met elk ander aanbod. In het bovenstaande voorbeeld hebt u n = 5 aanbiedingen—u moet n(n-1)/2 vergelijkingen maken, of 5&#42;(5-1)/2 = 10 vergelijkingen. In dit geval vereist de Bonferroni-correctie dat het significantieniveau van de test 5%/10 = 0,5% is, wat overeenkomt met een betrouwbaarheidsniveau van 99,5%. Een dergelijk hoog betrouwbaarheidsniveau kan echter vereisen dat u de test gedurende een onredelijk lange periode uitvoert.
 
 ## Pitfall 3: De effecten van statistische kracht negeren {#section_0D517079B7D547CCAA75F80981CBE12A}
 
@@ -77,7 +77,7 @@ Er zijn twee sleutelfactoren die de macht van een test bepalen. Ten eerste is de
 
 De huidige marketeers hebben een opmerkelijk aantal tests onder de macht. Met andere woorden, ze gebruiken een te kleine voorbeeldgrootte. Dat betekent dat ze een kleine kans hebben om echte positieve effecten op te sporen, zelfs als er daadwerkelijk een aanzienlijk verschil in omrekeningskoers bestaat. In feite, als je voortdurend ondergedreven tests uitvoert, kan het aantal valse positieven vergelijkbaar zijn met, of zelfs domineren, het aantal echte positieven. Dit leidt vaak tot het doorvoeren van neutrale veranderingen in een locatie (tijdverspilling) of tot veranderingen die de omrekeningskoersen feitelijk verlagen.
 
-![](assets/pitfalls3.png)
+![valkuilen3, afbeelding](assets/pitfalls3.png)
 
 Houd er rekening mee dat een standaardstandaard voor een goed gemotoriseerde test een betrouwbaarheidsniveau van 95% en een statistisch vermogen van 80% bevat om te voorkomen dat de test ondergeschikt wordt gemaakt. Een dergelijke test biedt een waarschijnlijkheid van 95% dat u vals positief en een waarschijnlijkheid zult vermijden 80% dat u vals negatief zult vermijden.
 
@@ -109,7 +109,7 @@ Het is verleidelijk om een test stop te zetten als een van de aanbiedingen in de
 
 In de onderstaande afbeelding worden vijf aanbiedingen met dezelfde lange conversiekoers weergegeven. Aanbieding B had een slechte conversiekoers voor de eerste 2.000 bezoekers, en het duurt lang voordat de geschatte conversiekoers terugkeert naar de ware langetermijnrente.
 
-![](assets/pitfalls4.png)
+![valkuilen4 afbeelding](assets/pitfalls4.png)
 
 Dit fenomeen staat bekend als &quot;regressie tot het gemiddelde&quot; en kan tot teleurstelling leiden wanneer een aanbod dat goed heeft gepresteerd tijdens de eerste dagen van een test, dit prestatieniveau op lange termijn niet op peil houdt. Het kan ook tot inkomstenderving leiden wanneer een goed aanbod niet wordt uitgevoerd omdat het toevallig in de begindagen van een test onderging.
 
@@ -145,7 +145,7 @@ Dergelijke aanbiedingen zetten bezoekers ertoe aan zich sneller om te zetten en 
 
 In de onderstaande afbeelding ziet u twee aanbiedingen die twee verschillende bezoekers tegelijkertijd op een zondagmiddag zien. De bezwaarperiode voor aanbieding A is kort, en de bezoeker zet later die dag om. Aanbod B heeft echter een langere bezwaartermijn, en de bezoeker die aanbod B zag, denkt over het aanbod voor een tijdje en eindigt op maandagochtend omschakelt. Als u de test Zondagavond tegenhoudt, wordt de omzetting verbonden aan aanbieding A geteld in aanbod A&#39;s omzettings metrische meting, terwijl de omzetting verbonden aan aanbieding B niet in aanbod B wordt geteld omzettingsmetrisch. Dit brengt een aanzienlijk nadeel met zich mee voor aanbod B.
 
-![](assets/pitfalls5.png)
+![valkuilen5-afbeelding](assets/pitfalls5.png)
 
 Om deze valhoogte te voorkomen, moet bezoekers die aan de testaanbiedingen zijn blootgesteld enige tijd de tijd krijgen om zich om te zetten nadat een nieuwe testvermelding is gestopt. Deze stap geeft u een eerlijke vergelijking van de aanbiedingen.
 
@@ -153,11 +153,11 @@ Om deze valhoogte te voorkomen, moet bezoekers die aan de testaanbiedingen zijn 
 
 Marketers zouden geneigd kunnen zijn om hoge en lage veranderingsmetriek in de hogere trechter, zoals klik-door tarief (CTR) te gebruiken, om een adequaat aantal testomzettingen sneller te bereiken. Nochtans, denk zorgvuldig na of CTR een adequate volmacht voor het bedrijfsdoel is dat u wilt bereiken. Aanbiedingen met hogere CTR&#39;s kunnen gemakkelijk tot lagere inkomsten leiden. Dit kan gebeuren wanneer aanbiedingen bezoekers aantrekken met een lagere koopneiging, of wanneer het aanbod zelf-bijvoorbeeld, een kortingsaanbod-eenvoudig leidt tot lagere inkomsten.
 
-![](assets/pitfalls6.png)
+![valkuilen6-afbeelding](assets/pitfalls6.png)
 
 Bekijk de onderstaande aanbieding voor skiën. Het genereert een veel hogere CTR dan het fietsaanbod, maar omdat bezoekers gemiddeld veel meer geld uitgeven wanneer ze het fietsaanbod volgen, zijn de verwachte inkomsten van het plaatsen van het fietsaanbod voor een bepaalde bezoeker hoger. Daarom zou een A/B test met CTR als metrisch een aanbod kiezen dat opbrengst-de fundamentele bedrijfsdoelstelling niet maximaliseert.
 
-![](assets/pitfalls7.png)
+![valkuilen7, afbeelding](assets/pitfalls7.png)
 
 Om deze kwestie te vermijden, controleer uw bedrijfsmetriek zorgvuldig om het bedrijfseffect van de aanbiedingen te identificeren, of beter nog, gebruik metrisch die dichter aan uw bedrijfsdoel is, indien mogelijk.
 

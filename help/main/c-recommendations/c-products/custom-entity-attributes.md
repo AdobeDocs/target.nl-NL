@@ -5,9 +5,9 @@ title: Hoe gebruik ik aangepaste entiteitskenmerken?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500
 
 Aangepaste entiteitskenmerken kunnen één waarde of meerdere waarden bevatten. Kenmerkwaarden voor entiteit worden weergegeven in de productweergave.
 
-![](assets/multi-value_product.png)
+![multi-value_product image](assets/multi-value_product.png)
 
 Een attribuut van de douaneentiteit met één enkele waarde wordt gevormd de zelfde manier zoals een enig-waarde vooraf bepaald entiteitsattribuut:
 
@@ -93,11 +93,11 @@ U kunt uw CSV-bestanden in onbewerkte vorm beheren met een teksteditor of u kunt
 
 De onbewerkte CSV ziet er als volgt uit:
 
-![](assets/multi-value_example_raw.png)
+![multi-value_example_raw image](assets/multi-value_example_raw.png)
 
 Dezelfde catalogus ziet er zo uit in een spreadsheet:
 
-![](assets/multi-value_example_excel.png)
+![multi-value_example_excel, afbeelding](assets/multi-value_example_excel.png)
 
 Bij de conversie naar de CSV-indeling worden dubbele aanhalingstekens toegevoegd rondom de celinhoud om te voorkomen dat komma&#39;s binnen de cel fungeren als kolomscheidingstekens. Er worden ook dubbele aanhalingstekens toegevoegd rondom JSON-tekenreekswaarden die u opneemt in aangepaste multiwaardekenmerken. Hierdoor kan het werken met het Raw-bestand lastig zijn. Bijvoorbeeld:
 

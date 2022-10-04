@@ -4,9 +4,9 @@ description: Leer hoe te om rapportmontages in Adobe Target, met inbegrip van me
 title: Hoe vorm ik de Montages van het Rapport?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -276,16 +276,16 @@ Als u de muis boven een van de grijze ervaringen houdt, wordt er tijdelijk een n
 
 In de volgende afbeelding ziet u bijvoorbeeld een activiteitengrafiek met 26 ervaringen:
 
-![](assets/graph_1.png)
+![afbeelding graph_1](assets/graph_1.png)
 
 De grafiek toont de lijnen voor de eerste 16 ervaringen (sommige overlappen, zodat lijkt het dat er minder dan 16 lijnen zijn). De gekleurde stip in het deelvenster Ervaring aan de linkerkant naast elke ervaringsnaam geeft aan dat de plotlijn van de ervaring in de overeenkomstige kleur wordt weergegeven.
 
 Als u omlaag schuift in het deelvenster Ervaring, ziet u dat de namen voor de 17e tot 26e ervaring grijs worden weergegeven, zoals in de volgende afbeelding wordt getoond:
 
-![](assets/graph_2.png)
+![afbeelding graph_2](assets/graph_2.png)
 
 Als u de muis boven een van de grijze ervaringen houdt, wordt er tijdelijk een nieuwe grijze plotlijn weergegeven die overeenkomt met die ervaring.
 
 Stel dat u de plotlijn voor Ervaring R wilt tonen en u niet de lijn voor Ervaring P wilt zien. U kunt de naam van P van de Ervaring klikken om het te schrappen en dan de naam van Ervaring R klikken om het, zoals hieronder getoond te selecteren:
 
-![](assets/graph_3.png)
+![afbeelding graph_3](assets/graph_3.png)

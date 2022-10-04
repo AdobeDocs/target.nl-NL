@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in Adobe [!DNL Target] om bezoeke
 title: Kan ik bezoekers richten die op de Motor van het Onderzoek of Verwijzende Plaats worden gebaseerd?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt veelvoudige verkeersbronnen combineren om een complexe het richten regel 
    1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
 1. Slepen en neerzetten **[!UICONTROL Traffic Sources]** in het deelvenster voor publieksopbouw.
 
-   ![](assets/target_traffic_source.png)
+   ![image target_traffic_source](assets/target_traffic_source.png)
 
 1. Klikken **[!UICONTROL Select]** Selecteer vervolgens een van de volgende opties:
 

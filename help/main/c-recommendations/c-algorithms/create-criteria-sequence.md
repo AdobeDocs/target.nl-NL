@@ -4,9 +4,9 @@ description: Leer hoe u reeksen van maximaal vijf criteria instelt om meer contr
 title: Hoe kan ik in Recommendations reeksen criteria maken?
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ De volgende stappen veronderstellen u tot [!UICONTROL Create Criteria Sequence] 
 
 1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![CreateCriteriaSequence-afbeelding](assets/CreateCriteriaSequence.png)
 
 1. Vul de gegevens in in de [Basisinformatie](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) sectie.
 

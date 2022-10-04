@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -82,12 +82,12 @@ Als noch Composer van de Visuele Ervaring noch de Verbeterde Composer van de Erv
 
       * Wijzigen **[!UICONTROL Equals]** tot **[!UICONTROL Contains]** als de voorwaarde voor de bron-URL en voer de URL in van de activiteit die u probeert te laden in de VEC.
 
-      ![](assets/chrome_extension.png)
+      ![chrome_extensieafbeelding](assets/chrome_extension.png)
 
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![](assets/requestly.png)
+   ![dikwijls beeld](assets/requestly.png)
 
    U zou de pagina met Visual Experience Composer nu moeten kunnen snel laden.
 
@@ -102,7 +102,7 @@ Als noch Composer van de Visuele Ervaring noch de Verbeterde Composer van de Erv
 1. Klik op **[!UICONTROL Add]**.
 1. Klik op **[!UICONTROL Start]**.
 
-![](assets/firefox_extension.png)
+![Firefox_extension, afbeelding](assets/firefox_extension.png)
 
 Open Target nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu worden geladen in de composer voor visuele ervaring, zelfs als de composer voor verbeterde ervaring is uitgeschakeld.
 

@@ -4,9 +4,9 @@ description: Leer hoe u de pagina Doelstellingen en instellingen in Adobe gebrui
 title: Hoe specificeer ik Doelstellingen en Montages in een Multivariate Activiteit van de Test (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Op de pagina Doelstellingen en instellingen in Adobe Target voert u informatie i
 
 De beschikbare instellingen zijn afhankelijk van het feit of u Doel of Analyse als gegevensbron gebruikt.
 
-![](assets/mvt_settings.png)
+![mvt_settings, afbeelding](assets/mvt_settings.png)
 
 ## Activiteiteninstellingen {#section_DCBDC354261F420EBD4B43EA34947BAC}
 

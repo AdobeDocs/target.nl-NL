@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer en Verbeterde Composer van de Ervaring problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,11 @@ Als de CSP-headers van uw website de doelbibliotheken blokkeren, wordt de websit
 >
 >Naast de volgende informatie kunt u de opdracht [Adobe Target VEC Helper-browserextensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) voor Google Chrome.
 
-![](assets/cps_headers.png)
+![cps_headers, afbeelding](assets/cps_headers.png)
 
 Als tussenoplossing kunt u een regel Vraagbaar configureren om CSP-koppen te verwijderen, zoals hieronder wordt weergegeven:
 
-![](assets/cps_headers_2.png)
+![cps_headers_2 afbeelding](assets/cps_headers_2.png)
 
 U kunt een gelijkaardige Vergelijkbare regel voor om het even welke kopbal vormen die een middel ertoe leidt om niet binnen VEC te laden.
 

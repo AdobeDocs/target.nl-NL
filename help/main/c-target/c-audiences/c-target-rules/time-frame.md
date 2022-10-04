@@ -4,9 +4,9 @@ description: Leer hoe u begin- en einddatums en -tijden kunt gebruiken voor gebr
 title: Kan ik mij richten op bezoekers die mijn site op specifieke tijdstippen bezoeken?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als u bijvoorbeeld de opdracht [functie voor gecombineerd, ad-hocpubliek](/help/
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
 1. Slepen en neerzetten **[!UICONTROL Time Frame]** in het deelvenster voor publieksopbouw.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![afbeelding target_timeframe_dialog](assets/target_timeframe_dialog.png)
 
 1. Geef de [!UICONTROL Start] en [!UICONTROL End] data en tijden voor het publiek.
 

@@ -5,9 +5,9 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 1. In [!DNL Target], klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens-new.png)
+   ![response_tokens-new image](assets/response_tokens-new.png)
 
 1. De gewenste reactietokens activeren, zoals `activity.id` en `offer.id`.
 
@@ -72,7 +72,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
    Klikken **[!UICONTROL Add Response Token]**, geef de naam van het token op en klik vervolgens op **[!UICONTROL Activate]**.
 
-   ![](assets/response_token_create.png)
+   ![response_token_image maken](assets/response_token_create.png)
 
 1. Maak een activiteit.
 

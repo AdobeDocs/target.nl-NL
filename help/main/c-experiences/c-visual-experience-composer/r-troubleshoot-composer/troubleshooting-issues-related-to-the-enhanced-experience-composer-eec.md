@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ U ziet mogelijk het volgende foutbericht in [!DNL Target]:
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![](assets/EEC_error.png)
+![EEC_error-afbeelding](assets/EEC_error.png)
 
 Hieronder ziet u mogelijk een foutbericht en oplossingen voor het verhelpen van de situatie:
 
@@ -56,15 +56,15 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 1. Open de desbetreffende website in Firefox.
 1. Klik op de knop **[!UICONTROL Show Site Information]** op de adresbalk van de browser.
 
-   ![](assets/firefox_more_info.png)
+   ![firefox_more_info image](assets/firefox_more_info.png)
 
 1. Klik op **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
-   ![](assets/firefox_more_info_2.png)
+   ![afbeelding firefox_more_info_2](assets/firefox_more_info_2.png)
 
 1. Bekijk de TLS-versiegegevens onder Technische details:
 
-   ![](assets/firefox_more_info_3.png)
+   ![firefox_more_info_3 afbeelding](assets/firefox_more_info_3.png)
 
 1. Als u ziet dat op uw website TLS 1.0 wordt weergegeven, raadpleegt u [Wijzigingen in TLS-codering (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} voor informatie over het TLS-ondersteuningsbeleid van Target. Om de situatie voor nu (geldig tot 12 september 2018) {target=_blank} te verhelpen, bereik [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie van TLS en het domein.
 

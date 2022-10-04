@@ -4,9 +4,9 @@ description: Leer hoe u bezoekers kunt aanwijzen die een bepaald besturingssyste
 title: Kan ik bezoekers richten op basis van het besturingssysteem?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt bezoekers als doel instellen met [!DNL Adobe Target] die een bepaald best
 
 In de volgende afbeelding ziet u een publiek dat is gericht op bezoekers die een Macintosh-besturingssysteem gebruiken.
 
-![](assets/target_os.png)
+![target_os-afbeelding](assets/target_os.png)
 
 ## Trainingsvideo: Soorten publiek maken
 

@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over activity setup wanneer u Analyses ge
 title: Waar kan ik Veelgestelde vragen over activiteitenmontages met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U kunt uw [!UICONTROL Reporting Settings] opties in [!UICONTROL Administration].
 1. In [!DNL Target], klikt u op **[!UICONTROL Administration]**.
 1. In de **[!UICONTROL Experience Cloud solution used for reporting]** vervolgkeuzelijst, klikt u op **[!UICONTROL Select per Activity]**.
 
-![](assets/select-per-activity.png)
+![afbeelding per activiteit selecteren](assets/select-per-activity.png)
 
 De **[!UICONTROL Reporting Source]** vervolgkeuzelijst is ingeschakeld in het dialoogvenster **[!UICONTROL Goal & Settings]** scherm voor het maken en bewerken van activiteiten.
 

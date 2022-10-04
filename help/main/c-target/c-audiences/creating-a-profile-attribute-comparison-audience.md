@@ -4,9 +4,9 @@ description: Leer hoe u een publiek definieert om twee profielkenmerken te verge
 title: Kan ik twee profielkenmerken vergelijken voor gebruik bij het publiek?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://deve
 
 1. Kies het extra kenmerk dat u met het oorspronkelijke kenmerk wilt vergelijken.
 
-   ![](assets/propensity_score_4.png)
+   ![propensity_score_4 afbeelding](assets/propensity_score_4.png)
 
 1. Klik op **[!UICONTROL Done]**.
 

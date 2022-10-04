@@ -5,9 +5,9 @@ title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebr
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3129'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ De volgende informatie verklaart hoe de toestemmingen eerder in werden afgedwong
 
 De nieuwe [!UICONTROL Permissions] Met de functionaliteit kunt u verschillende projecten maken (de zogenaamde &quot;Productprofielen&quot; in het dialoogvenster [!DNL Adobe Admin Console for Enterprise]). De projecten staan u toe om verschillende toestemmingen voor één enkele gebruiker toe te wijzen die de toegangsrechten van die gebruiker voor elk project dicteren. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de reeksen in [!DNL Adobe Analytics]. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave, bewerking en goedkeuringstoegang kunnen beperken tot hun gebruikers op basis van regio, omgeving (dvd/stage/prod), kanaal of andere aangepaste criteria, zoals hieronder wordt getoond:
 
-![](assets/permissions.png)
+![machtigingsafbeelding](assets/permissions.png)
 
 Een specifieke gebruiker kan bijvoorbeeld toegang tot goedkeuring hebben op de Amerikaanse websites, maar alleen toegang tot de Europese mobiele app bekijken. Dezelfde gebruiker heeft mogelijk geen toegang om zelfs maar de activiteiten te bekijken die op het web en mobiele eigenschappen in de APAC-regio worden aangeboden.
 
 De huidige [!DNL Target] [!UICONTROL Permissions] het model heeft drie toestemmingsrollen (de Waarnemer, de Redacteur, en de Approver), zoals aangetoond in de volgende illustratie:
 
-![](assets/permissions_1.png)
+![permissions_1 afbeelding](assets/permissions_1.png)
 
 Elke rol heeft verschillende machtigingsniveaus:
 
@@ -124,17 +124,17 @@ Elke rol heeft verschillende machtigingsniveaus:
 
 Het is belangrijk om op te merken dat de rol van elke gebruiker op elke pagina, bezit, of plaats in uw rekening van toepassing is die omvat [!DNL Target] -tags, zoals hieronder wordt weergegeven:
 
-![](assets/permissions_2.png)
+![permissions_2 beeld](assets/permissions_2.png)
 
 De nieuwe [!DNL Target] [!UICONTROL Permissions] het model heeft de zelfde drie toestemmingsrollen (Observer, Redacteur, en Approver); nochtans, kunt u de toestemmingenrollen van een gebruiker afzonderlijk voor individuele pagina&#39;s, eigenschappen, of plaatsen toewijzen, zoals hieronder getoond:
 
-![](assets/permissions_3.png)
+![permissions_3 beeld](assets/permissions_3.png)
 
 In dit voorbeeld heeft Jan de toestemmingen van de fiatteur aan de Homepage van de V.S. en de Plaats en de toestemmingen van de Waarnemer aan de Plaats van Frankrijk.
 
 Bovendien kan Jan geen pagina&#39;s, eigenschappen of sites weergeven in [!DNL Target] dat zij geen toestemmingen te zien heeft, zoals hieronder getoond:
 
-![](assets/permissions_4.png)
+![permissions_4 beeld](assets/permissions_4.png)
 
 In dit voorbeeld ziet Jan de Productpagina&#39;s, de Russische Site en de Careers Site niet.
 
@@ -191,18 +191,18 @@ De nieuwe machtigingsfunctionaliteit is op verschillende plaatsen te zien in de 
 
 * **Vervolgkeuzelijst Werkruimte (Productprofiel):** De vervolgkeuzelijst Werkruimte wordt boven aan het dialoogvenster [!UICONTROL Activities], [!UICONTROL Audiences], en [!UICONTROL Offers] pagina&#39;s. Selecteer de gewenste werkruimte om de lijst te filteren zodat alleen de items in de geselecteerde werkruimte worden weergegeven.
 
-   ![](assets/workspace_drop-down.png)
+   ![workspace_drop-down image](assets/workspace_drop-down.png)
 
 * **Activiteiten maken:** Wanneer u een activiteit creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte. U ziet de opties voor kanaalselectie in het eerste dialoogvenster waarin u het gewenste kanaal voor de activiteit kunt kiezen: Web, Mobile App, Email of Other/API.
 
-   ![](assets/channel_options.png)
+   ![channel_options-afbeelding](assets/channel_options.png)
 
 * **Aanmaken publiek:** Wanneer u een publiek maakt, wordt dit gemaakt in de momenteel geselecteerde werkruimte.
 * **Poortlijst:** U kunt een publiek tussen werkruimten verplaatsen met de opdracht [!UICONTROL More Actions] > [!DNL Move] de optie [!UICONTROL Audiences] pagina.
 * **Aanbieding maken:** Wanneer u een aanbieding creeert, wordt het gecreeerd in de momenteel geselecteerde werkruimte.
 * **Pagina Eigenschappen (Beheer > Eigenschappen):** U kunt de [!UICONTROL Search] vak waarin u kunt zoeken [!UICONTROL Property] lijst.
 
-   ![](assets/properties_list.png)
+   ![properties_list, afbeelding](assets/properties_list.png)
 
 ## Caveats {#section_9714311B1CD9497A86F4910F8AE635E2}
 

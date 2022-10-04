@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34113'
+source-wordcount: '34117'
 ht-degree: 0%
 
 ---
@@ -2195,7 +2195,7 @@ Dit [!DNL Target] release bevat de volgende verbeteringen en oplossingen: :
 * De [!DNL Target] gebruikersinterface is bijgewerkt om aanbiedingen voor omleiding te ondersteunen bij activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. Deze functionaliteit vereist [!DNL at.js] 0.9.6, die binnenkort beschikbaar zal zijn.
 * De [!DNL Target] gebruikersinterface is op sommige plaatsen bijgewerkt:
 
-   * In rapporten en activiteiten zijn enkele opties beschikbaar ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], enz.) zijn nu toegankelijk door op de knop [!UICONTROL More Options] icon (  ![](assets/icon_more_options.png)
+   * In rapporten en activiteiten zijn enkele opties beschikbaar ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], enz.) zijn nu toegankelijk door op de knop [!UICONTROL More Options] icon (  ![icon_more_options-afbeelding](assets/icon_more_options.png)
 
       ).
    * In de [!UICONTROL Offers] bibliotheek, worden nu in een lijst weergegeven in plaats van als kaarten. In de hele gebruikersinterface zijn andere kleine wijzigingen aangebracht [!UICONTROL Offers] wisselaar-UI.

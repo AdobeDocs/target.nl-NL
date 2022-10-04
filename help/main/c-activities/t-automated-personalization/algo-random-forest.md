@@ -4,9 +4,9 @@ description: Meer informatie over Adobe [!DNL Target] gebruikt het Willekeurig b
 title: Hoe werkt [!DNL Target] Willekeurig bosalgoritme gebruiken?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ ZIP-code is het meest voorspellend. Deze variabele zou dan de eerste &quot;tak&q
 
 Deze actie zou in de eerste laag van onze beslissingsboom resulteren:
 
-![](assets/decsion_tree_1.png)
+![decsion_tree_1 image](assets/decsion_tree_1.png)
 
 De beslissingsboom stelde de vraag: &quot;Wat is de meest voorspellende variabele?&quot; In ons voorbeeld hebben we maar twee variabelen, dus het antwoord is duidelijk gender. De boom zal nu een gelijkaardige oefening voltooien om de gegevens te verdelen *binnen elke tak*. Laten we eerst eens kijken naar de vertakking 1111, 2222 en 33333. In deze postcodes, als er een verschil is in conversie tussen mannen en vrouwen, dan zouden er twee bladeren (mannen en vrouwen) zijn, en deze tak zou compleet zijn. In de andere tak, 44444 en 55555, gaan we ervan uit dat er geen statistisch verschil is tussen de manier waarop vrouwen en mannen zich omzetten. In dit geval wordt de eerste vertakking de laatste splitsing.
 
 Ons voorbeeld zou in de volgende boom resulteren:
 
-![](assets/decsion_tree_2.png)
+![decsion_tree_2 image](assets/decsion_tree_2.png)
 
 ## Hoe worden beslissingsbomen gebruikt door Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Beslissingsbomen kunnen een krachtig statistisch instrument zijn. Ze hebben echt
 
 Het volgende diagram vat samen hoe de modellen voor auto-Doel of de activiteiten van Automated Personalization worden gebouwd:
 
-![](assets/random_forest_flow.png)
+![random_forest_flow, afbeelding](assets/random_forest_flow.png)
 
 1. Het doel verzamelt gegevens over bezoekers terwijl willekeurig het dienen ervaringen/aanbiedingen
 1. Nadat Target een kritieke massa aan gegevens heeft bereikt, voert het functietechniek uit

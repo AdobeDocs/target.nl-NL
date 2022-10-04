@@ -4,9 +4,9 @@ description: Meer informatie over bezoekersspecifieke kenmerken die zijn opgesla
 title: Wat zijn profielkenmerken?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2421'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,11 @@ Klikken **[!UICONTROL View full details]** om het publiek en de activiteiten te 
 
 Wanneer een profielscript is uitgeschakeld, wordt een geel waarschuwingspictogram weergegeven naast het profielscript in de doelinterface, zoals hieronder wordt geïllustreerd:
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid image](assets/profile_script_invalid.png)
 
 Bij aanwijzen worden details op de foutweergave weergegeven, zoals hieronder wordt geïllustreerd:
 
-![](assets/profile_script_hover.png)
+![profile_script_hover, afbeelding](assets/profile_script_hover.png)
 
 De meest gangbare redenen voor het uitschakelen van profielscripts zijn:
 
@@ -161,7 +161,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
    Telkens wanneer u een pagina voor uw site laadt met [!DNL Target] een deel van het antwoord van [!DNL Target] bevat uw waarde voor het opgegeven profielscript, zoals hieronder wordt getoond:
 
-   ![](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1 afbeelding](assets/debug_profile_script_1.png)
 
 * **Gebruik het foutopsporingsprogramma mboxTrace om fouten in profielscripts op te sporen.**
 
@@ -171,7 +171,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
    Het toevoegen van deze parameters is een weinig informatiefunctie dan het reactietoken omdat u een voor-uitgevoerde momentopname en een na-momentopname van uw profiel krijgt. Ook worden alle beschikbare profielen weergegeven.
 
-   ![](assets/debug_profile_script_2.png)
+   ![afbeelding debug_profile_script_2](assets/debug_profile_script_2.png)
 
 ## Veelgestelde vragen over profielscript {#section_1389497BB6D84FC38958AE43AAA6E712}
 

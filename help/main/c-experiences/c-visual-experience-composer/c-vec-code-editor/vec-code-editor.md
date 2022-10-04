@@ -4,9 +4,9 @@ description: Leer hoe u het deelvenster Wijzigingen in Adobe gebruikt [!DNL Targ
 title: Welke wijzigingen kan ik aanbrengen in mijn pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2149'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De pagina van Wijzigingen toont alle veranderingen die aan uw pagina in Visuele 
 
 De [!UICONTROL Modifications] toont alle veranderingen die aan uw pagina in VEC zijn aangebracht. Elke wijziging die u aanbrengt, verschijnt als een afzonderlijke actie of als een afzonderlijk element in het dialoogvenster [!UICONTROL Modifications] lijst.
 
-![](assets/codeeditor_page_mods.png)
+![codeeditor_page_mods, afbeelding](assets/codeeditor_page_mods.png)
 
 Gebruik de pagina van Wijzigingen om kleine veranderingen in selecteur aan te brengen die het Doel kiest wanneer u VEC gebruikt om te vormen hoe de inhoud wordt geleverd. U kunt de inhoud of het kenmerk HTML wijzigen. U kunt de code ook bewerken om het equivalent van een HTML-aanbieding binnen een mbox te maken.
 
@@ -29,39 +29,39 @@ Met de pagina Wijzigingen kunt u:
 
 * Bekijk een handeling die in de visuele composer is uitgevoerd.
 
-   ![](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewchange, afbeelding](assets/codeeditor_viewchange.png)
 
 * Bewerk een bestaande handeling. Houd de aanwijzer boven de gewenste wijziging en klik vervolgens op de knop **[!UICONTROL Edit]** pictogram.
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_afbeelding bewerken](assets/codeeditor_edit.png)
 
    Breng de gewenste wijzigingen aan.
 
-   ![](assets/codeeditor_changechange1.png)
+   ![codeeditor_change1, afbeelding](assets/codeeditor_changechange1.png)
 
 * Een bestaande handeling verwijderen. Houd de aanwijzer boven de gewenste wijziging en klik vervolgens op de knop **[!UICONTROL Delete]** pictogram.
 
-   ![](assets/codeditor_delete.png)
+   ![codeditor_delete afbeelding](assets/codeditor_delete.png)
 
 * Voeg een nieuwe wijziging toe. Klikken **[!UICONTROL Add Modification]** of het + pictogram, dan specificeer uw veranderingen zoals hieronder beschreven.
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_nieuwe afbeelding](assets/codeeditor_new.png)
 
    Nadat één wijziging is gemaakt, wordt boven in het deelvenster Wijzigingen een pictogram + weergegeven in plaats van de knop Wijziging toevoegen onder in het deelvenster.
 
 * Koppel het deelvenster Wijzigingen verticaal langs de zijkant van de doelinterface of horizontaal onder aan het venster. Klik op de knop [!UICONTROL Dock] om tussen de twee instellingen te schakelen.
 
-   ![](assets/codeditor_dock.png)
+   ![codeditor_dock, afbeelding](assets/codeditor_dock.png)
 
    In het volgende voorbeeld ziet u het deelvenster Wijzigingen dat aan de onderkant van het scherm is gekoppeld:
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom, afbeelding](assets/codeeditor_dock_bottom.png)
 
 ## Wijzigingen toevoegen {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. Als u het dialoogvenster [!UICONTROL Modifications] pagina voor een geselecteerde ervaring, in VEC klikken **[!UICONTROL Modifications]** &lt;/>-pictogram.
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_pictogram_grote afbeelding](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ Met de pagina Wijzigingen kunt u:
 
    De [!UICONTROL Modifications] pagina wordt geopend, waarbij het scherm wordt gesplitst tussen de visuele modus aan de linkerkant en het deelvenster Wijzigingen aan de rechterkant. Klik op de knop [!UICONTROL Dock] pictogram om het deelvenster Wijzigingen verticaal langs de zijde van de doelinterface of horizontaal onderaan te koppelen. U ziet dat de ervaring A in de volgende afbeelding geen eerdere wijzigingen heeft ondergaan.
 
-   ![](assets/codeeditor_page.png)
+   ![codeeditor_pagina, afbeelding](assets/codeeditor_page.png)
 
    De ervaring B toont de vorige wijzigingen in [!UICONTROL Modifications] aan de rechterkant.
 
-   ![](assets/codeeditor_page_mods.png)
+   ![codeeditor_page_mods, afbeelding](assets/codeeditor_page_mods.png)
 
 1. Een wijziging toevoegen:
 
@@ -82,7 +82,7 @@ Met de pagina Wijzigingen kunt u:
 
    In het deelvenster Wijzigingen wordt het volgende weergegeven:
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
 1. Van de **[!UICONTROL Modifications Type]** Kies het gewenste type in de vervolgkeuzelijst:
 
@@ -104,7 +104,7 @@ Kiezers voor volgende visuele handelingen zijn afhankelijk van de HTML-elementen
 
 Het deelvenster Aangepaste code wordt vaak gebruikt om JavaScript of CSS boven aan de pagina toe te voegen.
 
-![](assets/codeeditor_custom.png)
+![codeeditor_aangepaste afbeelding](assets/codeeditor_custom.png)
 
 Gebruik de **[!UICONTROL Custom Code]** tab naar:
 
@@ -215,7 +215,7 @@ Dit bericht geeft aan dat de structuur van de pagina is gewijzigd sinds de activ
 
 De ontbrekende kiezers zijn mogelijk bereikt in de modus Bladeren. We raden u aan elke ervaring te verwijderen en opnieuw te maken om ervoor te zorgen dat de inhoud er zo uitziet als u verwacht, zoals in het waarschuwingsbericht wordt aangegeven.
 
-![](assets/code_editor_2.png)
+![code_editor_2 afbeelding](assets/code_editor_2.png)
 
 ***Als ik een element verwijder, krijg ik een waarschuwing te zien waarin staat: &quot;Het verwijderen van deze handeling kan gevolgen hebben voor vervolghandelingen.&quot; Wat betekent dit?***
 

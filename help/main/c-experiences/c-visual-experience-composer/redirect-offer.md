@@ -4,9 +4,9 @@ description: Leer hoe u de optie Omleiden naar URL in Adobe gebruikt [!DNL Targe
 title: Kan ik een pagina omleiden naar een andere URL?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Aanbiedingen voor omleiding hebben een aantal beperkingen:
 Een omleidingsvoorstel maken:
 
 1. Maak een ervaring.
-1. Houd de muis boven een ervaring en klik vervolgens op het pictogram Omleiden naar URL (![](assets/icon_redirect_url.png)).
+1. Houd de muis boven een ervaring en klik vervolgens op het pictogram Omleiden naar URL (![icon_redirect_url, afbeelding](assets/icon_redirect_url.png)).
 
-   ![](assets/exp_actions.png)
+   ![exp_actions, afbeelding](assets/exp_actions.png)
 
 1. Typ de URL.
 1. Selecteer desgewenst de optie om de huidige queryparameters op te nemen.

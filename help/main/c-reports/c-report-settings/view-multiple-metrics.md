@@ -4,9 +4,9 @@ description: Leer hoe u meerdere metriek selecteert om in een rapport te bekijke
 title: Hoe bekijk ik Meerdere metriek in een Rapport?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Houd rekening met de volgende informatie wanneer u met meerdere meetgegevens wer
 1. Als u een rapport wilt weergeven, klikt u op **[!UICONTROL Activities]**, klikt u in de lijst op de gewenste activiteit en klikt u vervolgens op de knop **[!UICONTROL Reports]** tab.
 1. Klik op de knop **[!UICONTROL Report Metric]** vervolgkeuzelijst om de [!UICONTROL Shown Metrics] en [!UICONTROL Hidden Metrics] lijsten.
 
-   ![](assets/multiple_metrics.png)
+   ![multiple_metrics-afbeelding](assets/multiple_metrics.png)
 
    U kunt de [!UICONTROL Search] om snel de beschikbare metriek te vinden die aan [!UICONTROL Shown Metrics] lijst.
 
@@ -46,10 +46,10 @@ Houd rekening met de volgende informatie wanneer u met meerdere meetgegevens wer
 1. Klikken **[!UICONTROL Save]** wanneer gereed.
 1. (Voorwaardelijk) Terwijl het bekijken van het rapport in [!UICONTROL Table View]Plaats de muisaanwijzer op de kolomkop van een willekeurige meting om een blauwe pijl weer te geven. Klik op de pijl om de tabel uit te vouwen om de [!UICONTROL Lift] en [!UICONTROL Confidence] voor die metrische waarde.
 
-   ![](assets/multiple_metrics_table.png)
+   ![multiple_metrics_table image](assets/multiple_metrics_table.png)
 
    U kunt slechts één metrisch/kolom tegelijk uitvouwen. Klik nogmaals op de pijl om de kolommen samen te vouwen.
 
 1. (Voorwaardelijk) terwijl het bekijken van het rapport in de Mening van de Grafiek, kunt u individuele metriek selecteren om van de drop-down lijst te tonen:
 
-   ![](assets/multiple_metrics_graph.png)
+   ![multiple_metrics_graph image](assets/multiple_metrics_graph.png)

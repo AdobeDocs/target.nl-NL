@@ -4,9 +4,9 @@ description: Leer hoe u uitsluitingen maakt in Adobe [!DNL Target] Recommendatio
 title: Hoe gebruik ik uitsluitingen in Recommendations-activiteiten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
 1. Klikken **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** de lijst van bestaande uitsluitingen weer te geven.
 
-   ![](assets/exclusions_list.png)
+   ![exclusies_list-afbeelding](assets/exclusions_list.png)
 
    Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://developer.adobe.com/target/implement/recommendations/){target=_blank} om de standaardhostgroep te wijzigen.
 

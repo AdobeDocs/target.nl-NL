@@ -4,9 +4,9 @@ description: Leer hoe u de ontwerptaal van de opensource-snelheid gebruikt om aa
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de ma
 
 Als u bijvoorbeeld een ontwerp wilt dat iets dergelijks weergeeft:
 
-![](assets/velocity_example.png)
+![snelheid_voorbeeldafbeelding](assets/velocity_example.png)
 
 u kunt de volgende code gebruiken:
 
@@ -203,7 +203,7 @@ Hiervoor maakt u een kolom in uw ontwerp die gebruikmaakt van de `$key` kenmerk 
 
 Het resultaat is een ontwerp als het volgende, waarbij in één kolom het sleutelitem wordt weergegeven.
 
-![](assets/rec_key.png)
+![rec_key-afbeelding](assets/rec_key.png)
 
 Wanneer u uw [!DNL Recommendations] activiteit, als het sleutelitem uit het profiel van de bezoeker wordt gehaald, zoals &quot;laatst gekocht item&quot;, [!DNL Target] geeft een willekeurig product weer in de [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
 

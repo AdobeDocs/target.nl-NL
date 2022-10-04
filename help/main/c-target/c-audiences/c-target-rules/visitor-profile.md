@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om bezoeke
 title: Kan ik bezoekers richten die aan specifieke profielparameters voldoen?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Soorten publiek maken in [!DNL Adobe Target] om bezoekers aan te wijzen die aan 
 
 1. Klikken **[!UICONTROL Select]** Selecteer vervolgens een van de volgende opties:
 
-   ![](assets/target_visitor_profile.png)
+   ![afbeelding target_bezoeker_profile](assets/target_visitor_profile.png)
 
    Bezoekerprofielparameters worden doorgegeven via het mbox (profiel). U kunt nieuwe of terugkerende bezoekers richten, of alle gebruikers omvatten.
 

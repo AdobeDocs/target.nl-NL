@@ -4,9 +4,9 @@ description: Meer informatie over de maatstaf voor de betrokkenheid van de opnam
 title: Wat is de metrische score van de Score van de Vangst?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De betrokkenheidsmetrische waarde van de opnamescore in [!DNL Adobe Target] bere
 
 In het volgende voorbeeld wordt getoond hoe de betrokkenheid van de score wordt berekend in een campagne die twee ervaringen test, één met een kattenbeeld en één met een hondenbeeld.
 
-![](assets/example_score.png)
+![example_score-afbeelding](assets/example_score.png)
 
 In dit voorbeeld ervaart de eerste bezoeker de kattenervaring. Stel dat een globale [!DNL Target] Het verzoek gaat in een paginascore over die op de waarde van de pagina wordt gebaseerd. Als de markering de betrokkenheid van het aantal pagina&#39;s heeft vastgelegd op een succesmetrische methode die gekoppeld is aan `**any Target request**`, accumuleert de bezoekscore voor elk verzoek dat wordt gezien na het weergaveverzoek rond de katafbeelding.
 
@@ -25,7 +25,7 @@ De eerste pagina voegt 1 aan de score toe, de tweede pagina 0.25, de derde 0.10 
 
 U kunt aanschafkosten en partnerverbindingsopbrengsten in aanmerking nemen door adboxes en redirecteuren door te geven, zoals in de volgende paginastroom wordt getoond. Let op: in dit voorbeeld beide [!DNL Target] De verzoeken op de artikelpagina gaan een score over, misschien die een bekende CPM vertegenwoordigen.
 
-![](assets/example_score2.png)
+![example_score2-afbeelding](assets/example_score2.png)
 
 ## Een paginascore toewijzen
 

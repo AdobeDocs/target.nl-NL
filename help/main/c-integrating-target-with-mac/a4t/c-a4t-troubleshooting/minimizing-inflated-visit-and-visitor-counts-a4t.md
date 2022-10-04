@@ -4,9 +4,9 @@ description: Leer hoe u de effecten van opgeblazen bezoeken en bezoekers kunt mi
 title: Hoe minimaliseer ik het aantal opgeblazen bezoekers en bezoekers in A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Als u ongewenste resultaten met gedeeltelijke gegevens wilt minimaliseren, kunt 
 
 De volgende illustratie toont voor de segmentdefinitie voor de virtuele rapportreeks:
 
-![](assets/ts_a4t.png)
+![ts_a4t-afbeelding](assets/ts_a4t.png)
 
 Wanneer het creëren van de virtuele rapportreeks, specificeer de volgende configuratie voor de segmentdefinitie (zoals aangetoond in de bovengenoemde illustratie):
 

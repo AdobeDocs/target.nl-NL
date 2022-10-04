@@ -4,9 +4,9 @@ description: Leer hoe te om de schatter van het Verkeer te gebruiken die u laat 
 title: Hoeveel verkeer wordt vereist voor een Multivariate Test (MVT) activiteit?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
 
    De schatter van het Verkeer opent. U kunt op de knop **[!UICONTROL Traffic]** opnieuw om de schatter van het Verkeer te verbergen.
 
-   ![](assets/estimatorempty.png)
+   ![afbeelding schatten als leeg](assets/estimatorempty.png)
 
 1. Geef de gemiddelde conversiesnelheid, de geschatte bezoekers per dag en de testduur op.
 
@@ -48,7 +48,7 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
 
    Vlak bij de bovenkant van de schatter van het Verkeer, worden de waarden u inging berekend en de resultaten worden getoond.
 
-   ![](assets/estimatorinsufficient.png)
+   ![ontoereikende afbeelding](assets/estimatorinsufficient.png)
 
    Terwijl u de getallen wijzigt, verandert de schatting. Als u bijvoorbeeld een groot aantal ervaringen test en uw conversiesnelheid en indrukken te laag zijn, toont de Verkeersschatting hoe lang de test moet duren om succesvol te zijn. Of, als uw verkeer laag is, zou de schatter van het Verkeer een lager aantal ervaringen kunnen voorstellen zodat kunt u de test het gewenste aantal dagen in werking stellen.
 
@@ -59,4 +59,4 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
 
    Pas de aantallen aan tot de schatter van het Verkeer zegt u voldoende verkeer hebt, dan ontwerp dienovereenkomstig uw test.
 
-   ![](assets/estimatorok.png)
+   ![afbeelding schatter](assets/estimatorok.png)

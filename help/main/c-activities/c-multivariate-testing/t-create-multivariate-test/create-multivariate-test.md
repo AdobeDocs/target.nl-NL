@@ -4,9 +4,9 @@ description: Leer hoe te om Visual Experience Composer (VEC) in Adobe te gebruik
 title: Hoe maak ik een multivariate test?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
 
    De volgende illustratie geeft aan dat de activiteit onvoldoende verkeer heeft.
 
-   ![](assets/estimator.png)
+   ![afbeelding schatten](assets/estimator.png)
 
    De volgende illustratie geeft aan dat de activiteit onvoldoende verkeer heeft.
 
-   ![](assets/estimator2.png)
+   ![afbeelding voor schatting2](assets/estimator2.png)
 
 1. Klikken **[!UICONTROL Next]** aan [!UICONTROL Targeting] pagina.
 

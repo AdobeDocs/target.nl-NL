@@ -4,9 +4,9 @@ description: Leer hoe u een activiteit met meerdere pagina's maakt in Adobe [!DN
 title: Hoe maak ik een activiteit met meerdere pagina's?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Pagina&#39;s toevoegen aan een test:
 
    Links van het scherm wordt een navigatiebalk weergegeven.
 
-   ![](assets/multipage_nav.png)
+   ![multipage_nav-afbeelding](assets/multipage_nav.png)
 
 1. Gebruik die navigatiebalk om uw pagina&#39;s op te geven en de standaardpagina in te stellen.
 
@@ -40,7 +40,7 @@ Pagina&#39;s toevoegen aan een test:
 
    Klik op het pictogram met drie verticale ellipsen om een actiemenu weer te geven:
 
-   ![](assets/multipage_menu.png)
+   ![multipage_menu, afbeelding](assets/multipage_menu.png)
 
    In dit menu kunt u de naam van de pagina&#39;s wijzigen, een omleidingstest uitvoeren vanuit de activiteit met meerdere pagina&#39;s of de pagina verwijderen.
 

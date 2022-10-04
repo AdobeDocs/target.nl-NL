@@ -4,9 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 0%
 
 ---
@@ -212,13 +212,13 @@ Een van de manieren is om de [Aangepaste code-editor](/help/main/c-experiences/c
 
 Met de functies Samenstellen en Bladeren kunt u naar de gewenste pagina navigeren en uw ervaring maken.
 
-![](assets/vec2.png)
+![afbeelding vec2](assets/vec2.png)
 
 **Hoe kan ik naar de ervaring van mijn keus van Stap 2 van het Beoogde driedelige Geleide werkschema van het Doel gaan (het richten van pagina)?**
 
 Klik op de miniatuur vóór de naam van de ervaring in Stap 2 en u gaat aan de slag op de ervaring van uw keuze.
 
-![](assets/thumbnail_experiences.png)
+![miniatuur_ervaringen met afbeelding](assets/thumbnail_experiences.png)
 
 **Ik ben een voormalige gebruiker van Target Classic. Kan ik mijn dozen voor bepaalde gebruiksgevallen gebruiken?**
 

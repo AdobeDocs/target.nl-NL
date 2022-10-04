@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
    >
    >De [!UICONTROL Swap with Experience Fragment] is niet beschikbaar voor afbeeldingen. Als u deze optie bij een afbeelding wilt gebruiken, klikt u op het containerelement dat de gewenste afbeelding bevat.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list, afbeelding](assets/experience_fragment_list.png)
 
 1. Selecteer het gewenste ervaringsfragment en klik op **[!UICONTROL Done]**.
 1. Voltooi de configuratie van de activiteit.
@@ -140,7 +140,7 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 
 1. In [!DNL Target]tijdens het maken of bewerken van een ervaring in de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)selecteert u de locatie op de pagina waar u het invoegpunt wilt invoegen [!DNL AEM] inhoud, selecteert u vervolgens **[!UICONTROL Change Experience Fragment]** om de [!UICONTROL Choose an Experience Fragment] lijst.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list, afbeelding](assets/experience_fragment_list.png)
 
    De [!UICONTROL Experience Fragment] in de lijst wordt de inhoud weergegeven die is gemaakt in [!DNL AEM] die nu standaard beschikbaar zijn vanuit [!DNL Target].
 

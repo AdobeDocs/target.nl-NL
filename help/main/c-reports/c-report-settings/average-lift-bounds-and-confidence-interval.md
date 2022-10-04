@@ -4,9 +4,9 @@ description: Leer hoe u Adobe kunt interpreteren [!DNL Target] rapporten, die ge
 title: Hoe bekijk ik Gemiddelde Lift, Lift Bounds, en het Interval van het Vertrouwen?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -57,18 +57,18 @@ De grenzen van de lift vertegenwoordigen de 95% betrouwbaarheidsintervallen van 
 
 De grenzen van de lift worden berekend met behulp van de volgende formule:
 
-![](assets/lift_diagram.png)
+![lift_diagram, afbeelding](assets/lift_diagram.png)
 
 Er is een extra berekening om de invoer aan onze liftgrenzen te bereiken:
 
 * **t-waarde:** De kritische statistiek voor ons 95%-betrouwbaarheidsniveau is 1,96. Meer informatie over [t-waarden hier](https://en.wikipedia.org/wiki/T-statistic).
 * **Variantie optillen:** De standaardfout van het succes van N van de Ervaring en de StandaardFout van het succes van de Ervaring van de Controle metrisch zijn nodig om de hefvariantie te bepalen, die met de volgende formule wordt berekend (geïllustreerd in het geval dat succesmetrisch omzetting is).
 
-   ![](assets/lift_variance.png)
+   ![lift_variance, afbeelding](assets/lift_variance.png)
 
 * **Conversiesnelheid/fout metrische standaard met succes:** Standaardfout wordt op dezelfde manier berekend voor Experience N en de Control, met behulp van de volgende formule (geïllustreerd in het geval dat de succesparameter conversie is). Meer informatie over [standaardfout hier](https://en.wikipedia.org/wiki/Standard_error).
 
-   ![](assets/standard_error.png)
+   ![standard_error-afbeelding](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ Op basis van onze formules kunnen we de inputs berekenen die we nodig hebben voo
 
 **Standaardfout voor ervaring A (besturing)**
 
-![](assets/standard_error_A.png)
+![standard_error_A image](assets/standard_error_A.png)
 
 **Standaardfout voor ervaring B**
 
-![](assets/standard_error_B.png)
+![standard_error_B image](assets/standard_error_B.png)
 
 **Liftvariatie voor ervaring B**
 
-![](assets/lift_variance_B.png)
+![lift_variance_B afbeelding](assets/lift_variance_B.png)
 
 **Grenzen optillen voor ervaring B**
 
 Verwacht optillen voor ervaring B:
 
-![](assets/lift_bounds_B.png)
+![lift_bounds_B-afbeelding](assets/lift_bounds_B.png)
 
 De limieten voor de lift voor ervaring B zouden daarom als volgt zijn:
 
-![](assets/lift_bounds_B2.png)
+![lift_bounds_B2-afbeelding](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

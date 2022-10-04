@@ -4,9 +4,9 @@ description: Leer hoe u de Adobe gebruikt [!DNL Target] Form-Based Experience Co
 title: Hoe gebruik ik de op formulieren gebaseerde Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Als u een [!UICONTROL Recommendations] geen ervaring. Kies uw criteria en ontwer
 
    De [!UICONTROL Form-Based Experience Composer] wordt geopend.
 
-   ![](assets/location_refinements.png)
+   ![location_adjustments, afbeelding](assets/location_refinements.png)
 
    Dit scherm is anders als u een [!UICONTROL Recommendations] activiteit. [!UICONTROL Recommendations] activiteiten omvatten geen ervaring.
 
@@ -46,13 +46,13 @@ Als u een [!UICONTROL Recommendations] geen ervaring. Kies uw criteria en ontwer
 
 1. Klikken **[!UICONTROL Add Audience Refinements]** kiest u een of meer [publiek](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) voor deze activiteit klikt u op **[!UICONTROL Done]**.
 
-   ![](assets/location_refinements_2.png)
+   ![image location_adjustments_2](assets/location_refinements_2.png)
 
    In de [!UICONTROL Form-based Experience Composer]verfijningen zijn vervangen door volledige publieksfunctionaliteit. Verfijningen voor bestaande activiteiten zijn gemigreerd naar [alleen-activiteitstoepassingen](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Selecteer het type inhoud dat u op die locatie wilt weergeven.
 
-   ![](assets/form_content.png)
+   ![form_content-afbeelding](assets/form_content.png)
 
 1. Geef voor het geselecteerde inhoudstype de inhoud op.
 
@@ -96,11 +96,11 @@ Als u een [!UICONTROL Recommendations] geen ervaring. Kies uw criteria en ontwer
 
    Bij het selecteren van Recommendations-criteria in de Form-Based Experience Composer is er nu een directe koppeling naar de geselecteerde Criteria Card zodat u de criteria snel en eenvoudig kunt bewerken.
 
-   ![](assets/change_criteria.png)
+   ![image change_criteria](assets/change_criteria.png)
 
    Van de Doelpagina van het Doel driestappe geleide werkschema:
 
-   ![](assets/change_criteria_2.png)
+   ![image change_criteria_2](assets/change_criteria_2.png)
 
    **Beslissing voorstel toevoegen:**
 

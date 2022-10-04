@@ -4,9 +4,9 @@ description: Bekijk informatie om u te helpen inzicht te krijgen in de verschill
 title: Wat is het verschil tussen Recommendations Classic en Recommendations in [!DNL Target] Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Zie voor meer informatie [Recommendations als voorstel](/help/main/c-recommendat
 
 [!DNL Target Recommendations] bevat een bibliotheek met criteria die voorverpakte sets regels en configuraties bevat. In [!DNL Recommendations Classic], werd elke aanbeveling manueel opgebouwd door een vorm in te vullen en van de grote lijst van regels te kiezen. Bij het maken van een [!DNL Recommendations] activiteit, kiest u eenvoudig een pre-gevormde reeks criteria. U kunt nog steeds aangepaste aanbevelingen maken, maar de Criteria Library bevat veel van de meest gebruikte configuraties, vooraf gebouwd om het proces te vereenvoudigen en taal te gebruiken die mensen begrijpen. Deze vooraf verpakte criteria kunnen worden gebruikt zoals is, of zij kunnen worden gekopieerd en worden uitgegeven om uw specifieke behoeften te passen.
 
-![](assets/overview_criteria.png)
+![overview_criteria, afbeelding](assets/overview_criteria.png)
 
 De criteria worden pre-gevormd en gesorteerd door de industrie verticals, paginatypen, en implementatie. U kunt bijvoorbeeld zoeken naar de criteria die van toepassing zijn op de verticale detailhandel, voor gebruik op een productpagina, waarbij producten uit een bepaalde categorie worden weergegeven (zoals gedefinieerd door de `entity.categoryID` parameter).
 
@@ -68,10 +68,10 @@ U kunt uw aanbevelingen voorvertonen nadat u ze hebt ingesteld en de benodigde w
 
 In [!DNL Recommendations Classic], er waren zes opties voor doelgerichte acties. Recommendations-activiteiten maken gebruik van het volledige scala aan doelopties van Target. Een publiek definiëren met een van beide [!DNL Target] of andere [!DNL Adobe Experience Cloud] publiek (zoals [!DNL Audience Manager] en [!DNL Analytics]) selecteert u vervolgens het percentage actieve deelnemers dat elk ontwerp ziet en de percentages die het besturingselement zien.
 
-![](assets/overview_targeting.png)
+![overview_targeting, afbeelding](assets/overview_targeting.png)
 
 ## Rapportage {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 In [!DNL Target], [!DNL Recommendations] biedt verbeterde rapportering die gebruik maakt van de mogelijkheden die worden geboden door [!DNL Target] en de [!DNL Experience Cloud]. In plaats van simpelweg de door [!DNL Recommendations] in vergelijking met de resultaten zonder resultaten kunt u volledige informatie over uw [!DNL Recommendations] activiteit.
 
-![](assets/overview_report.png)
+![overview_report, afbeelding](assets/overview_report.png)

@@ -5,9 +5,9 @@ title: Hoe kan ik uitsluitingen in Automated Personalization-activiteiten behere
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de r
 
    U kunt de ervaringen zien die zijn opgedaan met de aanbiedingen die u onder [!UICONTROL Manage Content]. Er zijn geen ervaringen gemaakt in [!UICONTROL Manage Content] met het standaardvoorstel dat je hebt uitgesloten.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4 afbeelding](assets/exclude_content_vec_4.png)
 
 **Standaardinhoud uitsluiten met behulp van de Form-Based Experience Composer:**
 
@@ -130,14 +130,14 @@ Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de r
 
    Voor tekst/HTML-inhoud:
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1 afbeelding](assets/exclude_content_form_1.png)
 
    Voor inhoud van afbeelding/video:
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2 afbeelding](assets/exclude_content_form_2.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
    U kunt de ervaringen zien die zijn opgedaan met de aanbiedingen die u onder [!UICONTROL Manage Content]. Er zijn geen ervaringen gemaakt in [!UICONTROL Manage Content] met het standaardvoorstel dat je hebt uitgesloten.
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 afbeelding](assets/exclude_content_form_3.png)

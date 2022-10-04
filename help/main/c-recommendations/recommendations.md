@@ -4,9 +4,9 @@ description: Meer informatie over Recommendations-activiteiten in Adobe [!DNL Ta
 title: Wat is [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 In de volgende afbeelding worden aanbevelingen op een webpagina getoond:
 
-![](assets/velocity_example.png)
+![snelheid_voorbeeldafbeelding](assets/velocity_example.png)
 
 Een aanbeveling bepaalt hoe een product aan een bezoeker wordt voorgesteld, afhankelijk van de activiteiten van die bezoeker op de plaats. Bijvoorbeeld:
 

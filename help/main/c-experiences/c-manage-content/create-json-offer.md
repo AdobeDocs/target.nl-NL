@@ -4,9 +4,9 @@ description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
-   ![](assets/offer-json.png)
+   ![aanbiedingsafbeelding](assets/offer-json.png)
 
 1. Typ een naam voor het voorstel.
 1. Typ of plak uw JSON-code in het dialoogvenster **[!UICONTROL Code]** doos.
@@ -137,7 +137,7 @@ CDP-profielkenmerken in realtime kunnen worden gedeeld met Target voor gebruik i
 
 Voorbeeld van gebruik: Als online telleraar, wil Grace het AEP/Verenigde Profiel kenmerkwaarden met Doel delen om verpersoonlijking in real time te verstrekken. Door de Attributen van het Profiel in real time te gebruiken CDP, kan Grace de waarde van het attribuut AEP in een aanbieding van het Doel tonen gebruikend symbolenvervanger. Ze kan bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![aanbiedingsjson-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
 In het bovenstaande voorbeeld is het toewijzen van standaardwaarden optioneel.
 
@@ -145,4 +145,4 @@ In het bovenstaande voorbeeld is het toewijzen van standaardwaarden optioneel.
 
 U kunt het filter [!UICONTROL Offers] bibliotheek van het aanbiedingstype JSON door op het **[!UICONTROL Type]** vervolgkeuzelijst, selecteert u vervolgens de **[!UICONTROL JSON]** selectievakje.
 
-![](assets/offer-json-filter.png)
+![aanbieding-json-filter beeld](assets/offer-json-filter.png)

@@ -4,9 +4,9 @@ description: Leer hoe u een aangepast publiek kunt maken en deze kunt opslaan in
 title: Hoe kan ik publiek maken?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De volgende regel geldt bijvoorbeeld voor bezoekers die Chrome gebruiken *of* Fi
 
 1. Klikken **[!UICONTROL Audiences]** in de bovenste menubalk.
 
-   ![](assets/audiences_list.png)
+   ![publiek_lijstafbeelding](assets/audiences_list.png)
 
 1. Van de [!UICONTROL Audiences] lijst, klikt u op **[!UICONTROL Create Audience]**.
 

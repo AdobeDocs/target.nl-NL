@@ -4,9 +4,9 @@ description: Leer hoe lang een A/B test moet lopen. Een geslaagde A/B-test in Ad
 title: Hoe lang moet ik een A/B test uitvoeren?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3039'
+source-wordcount: '3051'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Er zijn vijf user-defined parameters die een test A/B bepalen. Deze parameters z
 
 Voor een A/B-test worden de statistische significantie, het statistische vermogen, de minimale betrouwbaar detecteerbare lift en de basislijnconversiesnelheid door de analist vastgesteld en vervolgens wordt het vereiste aantal bezoekers berekend op basis van deze getallen. Dit artikel bespreekt deze elementen en geeft richtlijnen voor hoe te om deze metriek voor een specifieke test te bepalen.
 
-![](assets/samplesize.png)
+![afbeelding op sampleformaat](assets/samplesize.png)
 
 In onderstaande afbeelding worden de vier mogelijke resultaten van een A/B-test weergegeven:
 
-![](assets/outcomes.png)
+![resultatenafbeelding](assets/outcomes.png)
 
 Het is wenselijk om geen valse positieve of valse negatieven te krijgen. Een statistische test kan echter nooit garanderen dat geen valse positieven worden verkregen. Het is altijd mogelijk dat waargenomen trends niet representatief zijn voor de onderliggende omrekeningskoersen. In een test om bijvoorbeeld te zien of koppen of staarten op een omdraaiing van een munt waarschijnlijker waren, zelfs met een eerlijke munt, kon je per toeval tien koppen op tien tenen krijgen. De statistische significantie en macht helpen ons de vals-positieve en vals-negatieve cijfers te kwantificeren en ons in staat te stellen deze voor een bepaalde test op een redelijk niveau te houden.
 
@@ -109,11 +109,11 @@ Stel dat twee aanbiedingen (A en B) werkelijke conversiekoersen hebben van respe
 
 In de onderstaande afbeelding ziet u deze kansverdeling.
 
-![](assets/probability_distributions.png)
+![kansrekening_distributieafbeelding](assets/probability_distributions.png)
 
 Wegens de grote overlapping tussen de twee bereiken, kan de test niet bepalen of de omzettingspercentages verschillend zijn. Daarom kan bij deze test met 100 bezoekers geen onderscheid worden gemaakt tussen de twee aanbiedingen. Als Target echter elk de aanbiedingen aan 5000 bezoekers blootstelt, is er een kans van 95% dat de waargenomen omrekeningskoersen in de orde van grootte van 9% tot 11% en 14% tot 16% dalen.
 
-![](assets/probability_distributions2.png)
+![likely_distributions2-afbeelding](assets/probability_distributions2.png)
 
 In dit geval is het onwaarschijnlijk dat de test tot een verkeerde conclusie leidt, zodat de test met 5000 bezoekers een onderscheid kan maken tussen de twee aanbiedingen. De test met 5.000 bezoekers heeft een betrouwbaarheidsinterval van ongeveer +/-1%. Dit betekent dat de test verschillen van ongeveer 1% kan detecteren. Daarom zouden er nog meer bezoekers nodig zijn als de werkelijke omrekeningskoersen van de aanbiedingen bijvoorbeeld 10% en 10,5% waren in plaats van 10% en 15%.
 
@@ -131,15 +131,15 @@ In de voorbeeldgroottecalculator (zie de bovenstaande link) wordt u gevraagd een
 
 Er is een wisselwerking tussen de minimumlift die door de test betrouwbaar kan worden geïdentificeerd en het vereiste aantal bezoekers. De onderstaande afbeelding, die geldig is voor een basislijn (controle) conversiesnelheid van 5%, geeft een sterk afnemend rendement om het aantal bezoekers te verhogen. De minimale lift die betrouwbaar kan worden gedetecteerd, verbetert enorm wanneer de eerste paar bezoekers aan de test worden toegevoegd, maar het neemt steeds meer bezoekers in beslag om de test te verbeteren. Het cijfer helpt om een passende afweging te vinden tussen de tijd die nodig is om de test uit te voeren (zoals bepaald door het aantal bezoekers dat nodig is en het verkeer op de site) en de minimale lift die door de test betrouwbaar kan worden gedetecteerd.
 
-![](assets/samplesizecontrol.png)
+![samplesizcontrol-afbeelding](assets/samplesizecontrol.png)
 
-In dit voorbeeld, zou u kunnen besluiten dat het kunnen ontdekken van een lift van 5% (die aan een omzettingspercentage van het alternatieve aanbod van (100%+5%)*5% = 5.25%) in 80 van 100 tests beantwoordt, zodat hebt u een steekproefgrootte van 100.000 bezoekers aan elke aanbieding nodig. Als de site 20.000 bezoekers per dag heeft en u twee aanbiedingen test, moet de test 2*100.000/20.000 = 10 dagen worden uitgevoerd voordat kan worden bepaald of de alternatieve aanbieding statistisch significant hoger is dan de controleaanbieding.
+In dit voorbeeld, zou u kunnen besluiten dat het kunnen ontdekken van een lift van 5% (die aan een omrekeningskoers van de alternatieve aanbieding van (100%+5%) beantwoordt&#42;5% = 5,25%) in 80 van de 100 tests is adequaat, dus u hebt een steekproefgrootte van 100.000 bezoekers aan elk aanbod nodig. Als de site 20.000 bezoekers per dag heeft en u twee aanbiedingen test, mag de test 2 keer worden uitgevoerd&#42;100,000/20,000 = 10 dagen voordat kan worden bepaald of de alternatieve aanbieding statistisch significant hoger is dan de controleaanbieding.
 
 Ook hier wordt aanbevolen de vereiste tijd altijd naar boven af te ronden tot de dichtstbijzijnde hele week, zodat effecten op de dag van de week worden vermeden. In dit voorbeeld zou de test dus twee weken worden uitgevoerd voordat de resultaten worden geëvalueerd.
 
 ### Opbrengst per bezoek metrisch {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Bij het gebruik van inkomsten per bezoek (RPV) als maatstaf wordt een extra bron van variantie toegevoegd omdat RPV het product is van inkomsten per bestelling en de omrekeningskoers (RPV = Inkomsten / #bezoekers = (Inkomsten per bestelling * #orders) / # bezoekers = Inkomsten per bestelling * (#bezoekers * CTR) / #bezoekers = Inkomsten per bestelling * CTR), elk met een eigen variantie. De variantie van de omrekeningskoers kan rechtstreeks worden geschat aan de hand van een wiskundig model, maar de variantie van de inkomsten per opdracht is specifiek voor de activiteit. Gebruik daarom de kennis van deze afwijking van vroegere activiteiten of voer de A/B-test gedurende een paar dagen uit om de variantie in inkomsten te schatten. De variantie wordt berekend op basis van de waarden Som van verkoop, Som van verkoop vierkant en Aantal bezoekers in het CSV-downloadbestand. Nadat dit is vastgesteld, gebruikt u het spreadsheet om de tijd te berekenen die nodig is om de test te voltooien.
+Bij gebruik van de inkomsten per bezoek (RPV) als maatstaf wordt een extra bron van variantie toegevoegd omdat RPV het product is van de inkomsten per bestelling en de omrekeningskoers (RPV = Inkomsten / #bezoekers = (Inkomsten per bestelling) &#42; #orders) / # bezoekers = Inkomsten per bestelling &#42; (#bezoekers &#42; CTR) / #bezoekers = Inkomsten per bestelling &#42; CTR), elk met een eigen variantie. De variantie van de omrekeningskoers kan rechtstreeks worden geschat aan de hand van een wiskundig model, maar de variantie van de inkomsten per opdracht is specifiek voor de activiteit. Gebruik daarom de kennis van deze afwijking van vroegere activiteiten of voer de A/B-test gedurende een paar dagen uit om de variantie in inkomsten te schatten. De variantie wordt berekend op basis van de waarden Som van verkoop, Som van verkoop vierkant en Aantal bezoekers in het CSV-downloadbestand. Nadat dit is vastgesteld, gebruikt u het spreadsheet om de tijd te berekenen die nodig is om de test te voltooien.
 
 De calculator van de steekproefgrootte (de verbinding die hierboven wordt verstrekt) kan u helpen metrisch RPV vormen. Wanneer u de rekenmachine opent, ziet u een tab met het label [!UICONTROL RPV Metric]. U hebt de volgende informatie nodig wanneer u de RPV-versie van de calculator gebruikt:
 

@@ -4,9 +4,9 @@ description: Leer hoe u met de zoekfunctie voor Recommendations-catalogi product
 title: Hoe gebruik ik de zoekfunctie van de Recommendations-catalogus?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
 
 1. (Optioneel) U kunt uw zoekopdracht verfijnen door een zoekoptie te selecteren in het optiemenu dat wordt weergegeven wanneer u op de pijl omlaag klikt in het zoekveld.
 
-   ![](assets/searchproductsmenu.png)
+   ![zoekproducten, menuafbeelding](assets/searchproductsmenu.png)
 
    Zoekopties zijn onder andere:
 

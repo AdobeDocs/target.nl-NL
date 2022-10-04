@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ De informatie over het gebruik van het publiek kan u helpen onbedoelde gevolgen 
 
 Als een publiek [gecombineerd met een ander publiek](/help/main/c-target/combining-multiple-audiences.md) en het gecombineerde publiek wordt gebruikt om een activiteit tot stand te brengen, maakt de gebruiksinformatie voor beide publiek een lijst van die pas gecreëerde activiteit.
 
-![](assets/audience_definition_list_usage.png)
+![publiek_definitie_lijst_gebruiksafbeelding](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

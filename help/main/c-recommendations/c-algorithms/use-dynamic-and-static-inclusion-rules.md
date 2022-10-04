@@ -5,9 +5,9 @@ title: Hoe gebruik ik dynamische en statische inclusieregels in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1997'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Het proces om inclusieregels voor criteria en promoties tot stand te brengen en 
 
 Terwijl u [criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), klikt u op **[!UICONTROL Add Filtering Rule]** krachtens **[!UICONTROL Inclusion Rules]**.
 
-![](assets/inclusion_options_new.png)
+![include_options_new image](assets/inclusion_options_new.png)
 
 Welke opties beschikbaar zijn, is afhankelijk van de verticale en aanbevolen industriesleutel.
 
@@ -30,7 +30,7 @@ Welke opties beschikbaar zijn, is afhankelijk van de verticale en aanbevolen ind
 
 while [promoten](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), selecteert u **[!UICONTROL Promote by Attribute]** en klik vervolgens op **[!UICONTROL Add Filtering Rule]**.
 
-![](assets/inclusion_options.png)
+![opname_opties, afbeelding](assets/inclusion_options.png)
 
 ## Filtertypen {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ U kunt verschillende opties kiezen om lege waarden af te handelen tijdens het fi
 
 Eerder werden geen resultaten geretourneerd als een waarde leeg was. &quot;if *x* is Lege&quot; in de vervolgkeuzelijst, kunt u de juiste handeling kiezen om uit te voeren als de criteria lege waarden hebben, zoals in de volgende afbeelding wordt getoond:
 
-![](assets/empty_value.png)
+![empty_value image](assets/empty_value.png)
 
-Houd de muisaanwijzer boven het tandwielpictogram (![](assets/icon_gear.png)) en kiest u de gewenste actie:
+Houd de muisaanwijzer boven het tandwielpictogram (![icon_tandbeeld](assets/icon_gear.png)) en kiest u de gewenste actie:
 
 | Handeling | Beschikbaar voor | Details |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ Houd de muisaanwijzer boven het tandwielpictogram (![](assets/icon_gear.png)) en
 >
 >Verschillende kenmerken van gegevenstypen zijn mogelijk niet compatibel in dynamische criteria of promoties tijdens runtime met de operatoren &#39;equals&#39; en &#39;does not equal&#39;. Gebruiken [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], en [!UICONTROL Environment] Aan de rechterkant verstandig als de linkerkant vooraf gedefinieerde kenmerken of aangepaste kenmerken heeft.
 
-![](assets/left_right.png)
+![afbeelding left_right](assets/left_right.png)
 
 De volgende tabel bevat effectieve regels en regels die mogelijk niet compatibel zijn tijdens runtime:
 

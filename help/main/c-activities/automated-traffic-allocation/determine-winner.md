@@ -4,9 +4,9 @@ description: Leer hoe te om de resultaten van een auto-Wijs A/B activiteit in Ad
 title: Hoe interpreteer ik automatisch toegewezen rapporten?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Wanneer u de [!UICONTROL Auto-Allocate] functie, [!DNL Target] toont een badge b
 
 Wanneer een duidelijke winnaar wordt uitgeroepen, [!DNL Target] geeft &quot;Winner: Beleef X.&quot;
 
-![](assets/winner.png)
+![winnende afbeelding](assets/winner.png)
 
 >[!NOTE]
 >
