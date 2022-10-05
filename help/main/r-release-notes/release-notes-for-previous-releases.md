@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '34117'
+source-wordcount: '34381'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,32 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2022
+
+### [!DNL Target] Standard/Premium 22.9.1 (gefaseerde release 13-15 september 2022)
+
+Deze release is beschikbaar volgens het volgende schema:
+
+* **13 september**: Europa, Midden-Oosten en Afrika (EMEA)
+* **14 september**: Amerikaanse regio
+* **15 september**: Regio Azië-Stille Oceaan (APAC)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.10.0 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
+* Bijgewerkte meldingen in de [!DNL Target] UI om klanten te informeren als de invoer van [!DNL Recommendations] feeds mislukt. (TGT-35811)
+* Probleem verholpen dat ertoe heeft geleid [!UICONTROL Decision Offers] niet naar behoren binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
+* Probleem verholpen waarbij een foutbericht werd weergegeven wanneer u het selectievakje [!UICONTROL Clicked an Element] conversiedoel tijdens het maken van een [!UICONTROL Multivariate Testing] (MVT) activiteit. (TGT-43842)
+* Het probleem dat ervoor zorgde dat de [!UICONTROL Impressions] kolom van het tonen in het gedownloade CSV- rapportdossier voor [!UICONTROL Automated Personalization] (AP) activiteiten. (TGT-43780)
+* Probleem verholpen waardoor klanten HTML/JSON-aanbiedingen niet konden bewerken na het dupliceren van ervaringen tijdens het gebruik van de [!UICONTROL Form-Based Experience Composer]. (TGT-43633)
+* Probleem verholpen waardoor klanten een [!UICONTROL A/B Test] van een niet-standaardwerkruimte naar een andere niet-standaardwerkruimte. (TGT-41910)
+* Probleem verholpen om ervoor te zorgen dat klanten het gebruik van [!DNL Recommendations] objecten (ontwerpen, criteria, verzamelingen, enzovoort) in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten en criteria ook schrappen hebben bezwaar die niet meer in gebruik van [!DNL Target] UI en [!DNL Recommendations] achterkant. (TGT-42331)
+* Oplossing voor een probleem dat ertoe heeft geleid dat een waarschuwing voor een netwerktime-out wordt weergegeven in het dialoogvenster [!DNL Target] UI bij het ophalen van parameters. (TGT-43737)
+* UI-updates zijn gemaakt om ervoor te zorgen dat bepaalde acties voor slepen en neerzetten via het toetsenbord toegankelijk zijn. (TGT-42969)
+* UI-updates zijn gemaakt om ervoor te zorgen dat tekstinstellingen correct zijn gelokaliseerd.
+
+### at.js versie 2.10.0 (13 september 2022)
+
+* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.10.0 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
 
 ### [!DNL Target Standard/Premium] 22.8.1 (gespreide release 17-18 augustus 2022)
 

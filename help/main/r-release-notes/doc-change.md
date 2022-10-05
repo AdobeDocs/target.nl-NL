@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,13 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
+
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (gefaseerde release 5-7 oktober 2022)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 4 oktober | [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nieuw onderwerp.<br>De informatie in dit artikel vervangt de *Adobe Target-berekeningen voor A/B-tests* pdf-bestand dat eerder beschikbaar was voor downloaden op deze site. |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.10.1. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.9.1 (gefaseerde release 13-15 september 2022)
 
