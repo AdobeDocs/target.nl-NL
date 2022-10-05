@@ -3,16 +3,16 @@ keywords: rapporten;statistische methodologie;statistische berekeningen;statisti
 description: Meer informatie over de statistische berekeningen in de handleiding [!UICONTROL A/B Test] activiteiten in [!DNL Adobe Target].
 title: Hoe kan ik leren over de statistische berekeningen die worden gebruikt in [!UICONTROL A/B Test] Activiteiten?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Statistische berekeningen voor A/Bn-tests
 
-Op deze pagina worden de gedetailleerde statistische berekeningen beschreven die in de handmatige A/Bn-tests in [!DNL Adobe Target]. Definities worden gegeven voor [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift], en [!UICONTROL Confidence].
+In dit artikel worden de gedetailleerde statistische berekeningen beschreven die in de handmatige A/Bn-tests in [!DNL Adobe Target]. Definities worden gegeven voor [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift], en [!UICONTROL Confidence].
 
 >[!NOTE]
 >
