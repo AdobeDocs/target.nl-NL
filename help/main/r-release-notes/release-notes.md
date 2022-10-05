@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
+source-git-commit: c5445903e7bbab210d0e72200c54ab07975c21c5
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -18,31 +18,27 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target] Standard/Premium 22.9.1 (gefaseerde release 13-15 september 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (gefaseerde release 5-7 oktober 2022)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **13 september**: Europa, Midden-Oosten en Afrika (EMEA)
-* **14 september**: Amerikaanse regio
-* **15 september**: Regio Azië-Stille Oceaan (APAC)
+* **5 oktober**: Regio Azië-Stille Oceaan (APAC)
+* **6 oktober**: Amerikaanse regio
+* **7 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
 
-Deze versie bevat de volgende verbeteringen en oplossingen:
+Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
-* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.10.0 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
-* Bijgewerkte meldingen in de [!DNL Target] UI om klanten te informeren als de invoer van [!DNL Recommendations] feeds mislukt. (TGT-35811)
-* Probleem verholpen dat ertoe heeft geleid [!UICONTROL Decision Offers] niet naar behoren binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
-* Probleem verholpen waarbij een foutbericht werd weergegeven wanneer u het selectievakje [!UICONTROL Clicked an Element] conversiedoel tijdens het maken van een [!UICONTROL Multivariate Testing] (MVT) activiteit. (TGT-43842)
-* Het probleem dat ervoor zorgde dat de [!UICONTROL Impressions] kolom van het tonen in het gedownloade CSV- rapportdossier voor [!UICONTROL Automated Personalization] (AP) activiteiten. (TGT-43780)
-* Probleem verholpen waardoor klanten HTML/JSON-aanbiedingen niet konden bewerken na het dupliceren van ervaringen tijdens het gebruik van de [!UICONTROL Form-Based Experience Composer]. (TGT-43633)
-* Probleem verholpen waardoor klanten een [!UICONTROL A/B Test] van een niet-standaardwerkruimte naar een andere niet-standaardwerkruimte. (TGT-41910)
-* Probleem verholpen om ervoor te zorgen dat klanten het gebruik van [!DNL Recommendations] objecten (ontwerpen, criteria, verzamelingen, enzovoort) in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten en criteria ook schrappen hebben bezwaar die niet meer in gebruik van [!DNL Target] UI en [!DNL Recommendations] achterkant. (TGT-42331)
-* Oplossing voor een probleem dat ertoe heeft geleid dat een waarschuwing voor een netwerktime-out wordt weergegeven in het dialoogvenster [!DNL Target] UI bij het ophalen van parameters. (TGT-43737)
-* UI-updates zijn gemaakt om ervoor te zorgen dat bepaalde acties voor slepen en neerzetten via het toetsenbord toegankelijk zijn. (TGT-42969)
-* UI-updates zijn gemaakt om ervoor te zorgen dat tekstinstellingen correct zijn gelokaliseerd.
+| Functie | Details |
+| --- | --- |
+| [!DNL Adobe Experience Manager] (AEM) fragmenten ervaren | Tot de updates voor de functie voor fragmenten met AEM ervaring behoren:<ul><li>De mogelijkheid om te filteren AEM ervaringsfragmenten op type (HTML of JSON) in de [!UICONTROL Offers] lijst. (TGT-43121)</li><li>Probleem verholpen waarbij klanten JSON konden invoegen. [!UICONTROL Experience Fragment] biedt aan wanneer het gebruiken van VEC, dat niet wordt gesteund. JSON-aanbiedingen kunnen alleen worden ingevoegd wanneer u de [!UICONTROL Form-Based Experience] composer. (TGT-43846)</li></ul>Zie AEM voor meer informatie [ervaringsfragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| Nieuw [!UICONTROL Visual Experience Composer] extensie voor Google Chrome | Een nieuwe [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) extensie voor Chrome is beschikbaar in de Chrome Web Store.<br>Vanaf januari 2023 wordt de huidige [!DNL Target] De extensie VEC Helper werkt niet meer in Google Chrome omdat Google extensies niet toestaat met Manifest V2. Download de nieuwe extensie om uw websites visueel te blijven ontwerpen in [!DNL Target] vanaf het nieuwe jaar.<br>De volgende koppelingen tonen de twee extensies in de Chrome Web Store:<ul><li>[Nieuwe extensie](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Oude extensie](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Zie voor meer informatie [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<br>(Exacte releasedatum die moet worden bepaald.) | Houd rekening met de volgende wijzigingen:<ul><li>Extra ondersteuning voor binaire en maximalisatiemetriek in [!UICONTROL Analytics for Target] A4T-rapportage voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten</li><li>Behoud van gedrag voor bestaande activiteiten tot 20 februari 2023. Na deze datum zullen de activiteiten worden stopgezet om de migratie van bestaande activiteiten naar nieuw gedrag af te dwingen</li><li>Vanaf 20 februari 2023, ondersteuning voor `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden afgekeurd .</li></ul> |
 
-## at.js versie 2.10.0 (13 september 2022)
-
-* Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.10.0 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
+* Probleem verholpen waardoor de publieksregelgegevens niet correct konden worden weergegeven in het dialoogvenster [!UICONTROL Audiences Refinements] informatievenster. (TGT-43917)
+* De prestaties van de [!DNL Target] UI bij het laden van publiek dat de [aanbevolen limiet voor doelgroepregels](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* Probleem verholpen waarbij sommige componenten niet correct werden weergegeven in het dialoogvenster [!UICONTROL Modifications] op het [!UICONTROL Experiences] pagina wanneer het creëren van of het uitgeven van activiteiten in VEC na omschakeling van [!UICONTROL Compose] tot [!UICONTROL Browse] in. (TGT-43300)
+* Probleem verholpen waardoor sommige klanten niet konden archiveren [!UICONTROL A/B Test] activiteiten die [!UICONTROL Auto-Target]. (TGT-40978)
+* De mogelijkheid toegevoegd om automatisch één aanbieding te gebruiken op meerdere locaties binnen één rapportagegroep. (TGT-40689)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
