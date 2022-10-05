@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dea956fe5d28200515a9638306a7d879585cb794
+source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target] Standard/Premium 22.10.1 (gefaseerde release 5-7 oktober 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (gefaseerde release 10-13 oktober 2022)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **5 oktober**: Regio Azië-Stille Oceaan (APAC)
-* **6 oktober**: Amerikaanse regio
-* **7 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
+* **10 oktober**: Regio Azië-Stille Oceaan (APAC)
+* **11 oktober**: Amerikaanse regio
+* **13 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
@@ -32,7 +32,6 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 | --- | --- |
 | [!DNL Adobe Experience Manager] (AEM) fragmenten ervaren | Tot de updates voor de functie voor fragmenten met AEM ervaring behoren:<ul><li>De mogelijkheid om te filteren AEM ervaringsfragmenten op type (HTML of JSON) in de [!UICONTROL Offers] lijst. (TGT-43121)</li><li>Probleem verholpen waarbij klanten JSON konden invoegen. [!UICONTROL Experience Fragment] biedt aan wanneer het gebruiken van VEC, dat niet wordt gesteund. JSON-aanbiedingen kunnen alleen worden ingevoegd wanneer u de [!UICONTROL Form-Based Experience] composer. (TGT-43846)</li></ul>Zie AEM voor meer informatie [ervaringsfragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
 | Nieuw [!UICONTROL Visual Experience Composer] extensie voor Google Chrome | Een nieuwe [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) extensie voor Chrome is beschikbaar in de Chrome Web Store.<br>Vanaf januari 2023 wordt de huidige [!DNL Target] De extensie VEC Helper werkt niet meer in Google Chrome omdat Google extensies niet toestaat met Manifest V2. Download de nieuwe extensie om uw websites visueel te blijven ontwerpen in [!DNL Target] vanaf het nieuwe jaar.<br>De volgende koppelingen tonen de twee extensies in de Chrome Web Store:<ul><li>[Nieuwe extensie](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Oude extensie](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Zie voor meer informatie [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
-| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<br>(Exacte releasedatum die moet worden bepaald.) | Houd rekening met de volgende wijzigingen:<ul><li>Extra ondersteuning voor binaire en maximalisatiemetriek in [!UICONTROL Analytics for Target] A4T-rapportage voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten</li><li>Behoud van gedrag voor bestaande activiteiten tot 20 februari 2023. Na deze datum zullen de activiteiten worden stopgezet om de migratie van bestaande activiteiten naar nieuw gedrag af te dwingen</li><li>Vanaf 20 februari 2023, ondersteuning voor `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden afgekeurd .</li></ul> |
 | Documentatie-updates | De belangrijkste documentatieupdates omvatten het volgende:<ul><li>Nieuw en bijgewerkt [Adobe Target Admin en Reporting API-documentatie](https://developer.adobe.com/target/administer/admin-api/){target=_blank} bevat uitgebreide dekking van API-eindpunten voor beheer en rapportage, waaronder eigenschappen, aanbiedingen, hosts, omgevingen, clients, doelgroepen, activiteiten en meer.<br>Zie dit en extra inhoud voor ontwikkelaars in de [[!DNL Adobe Target] [!UICONTROL Developer Guide]](https://developer.adobe.com/target/){target=_blank}.</li><li>[Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>In dit artikel worden de gedetailleerde statistische berekeningen beschreven die in de handmatige A/Bn-tests in [!DNL Adobe Target].<br>De informatie in dit artikel vervangt de *Adobe Target-berekeningen voor A/B-tests* pdf-bestand dat eerder beschikbaar was voor downloaden op deze site.</li></ul> |
 
 * Probleem verholpen waardoor de publieksregelgegevens niet correct konden worden weergegeven in het dialoogvenster [!UICONTROL Audiences Refinements] informatievenster. (TGT-43917)
