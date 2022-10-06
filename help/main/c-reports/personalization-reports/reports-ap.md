@@ -4,9 +4,9 @@ description: Leer hoe u het Automated Personalization Summary-rapport in Adobe T
 title: Hoe gebruik ik de samenvattingsrapporten van Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ De [!UICONTROL Offer Level] het rapport voor de Willekeurige Boservaring vergeli
 
 Klik op het ervaringsalgoritme (Willekeurig bos of besturingselement) om het dialoogvenster [!UICONTROL Offer Level] verslag.
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Rapport op aanbodniveau in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 De aanbiedingen kunnen binnen rapportgroepen worden getoond, en deze rapportgroepen kunnen worden doen ineenstorten en worden uitgebreid. Selecteren [!UICONTROL Reporting Group] in de drop-down lijst aan mening opgerolde informatie door rapporteringsgroepen, eerder dan door aanbiedingen.
 

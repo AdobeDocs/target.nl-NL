@@ -4,9 +4,9 @@ description: Leer hoe u de [!UICONTROL Important Attributes] rapport dat de hoog
 title: Wat is het Belangrijke Rapport van Attributen?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
 1. Na 15 dagen vanaf het activeren van de activiteit klikt u op de knop **[!UICONTROL Important Attributes]** pictogram.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Het pictogram Belangrijke kenmerken in een Adobe Target-rapport](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Selecteer het gewenste datumbereik.
 
@@ -66,15 +66,15 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
    Deze vaste datumbereiken staan [!UICONTROL Personalization Insights] om een groot genoeg bereik aan gegevens te gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. De twee besluiten u voor uw datumwaaier kunt maken zijn de &quot;Datum van het Eind&quot;en &quot;Duur.&quot; U zult merken dat het &quot;Begin&quot;grijs uit is. De begindatum wordt automatisch gewijzigd op basis van uw selecties voor de einddatum en -duur.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Kalender in een Adobe Target-rapport](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    U hebt toegang tot de beschikbare vaste datumbereiken via de [!UICONTROL Choose Duration] vervolgkeuzelijst.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Kies Duur in een rapport](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Controleer de [!UICONTROL Important Attributes] rapportgegevens.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Rapport Belangrijke kenmerken in Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Optioneel) [Het rapport downloaden in CSV-indeling](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere hulpmiddelen.
 

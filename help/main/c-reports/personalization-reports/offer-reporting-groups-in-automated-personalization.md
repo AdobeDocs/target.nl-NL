@@ -4,9 +4,9 @@ description: Leer hoe u rapportgroepen kunt aanbieden in Adobe [!DNL Target] Aut
 title: Kan ik rapportagegroepen voor aanbiedingen gebruiken bij Automated Personalization-activiteiten?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbied
 
 1. Op de [!UICONTROL Experiences] pagina van een AP-activiteit, klikt u op de **[!UICONTROL Manage Content]** pictogram.
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Het pictogram Inhoud beheren](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Klik op de knop **[!UICONTROL Offers]** tabblad boven aan het dialoogvenster [!UICONTROL Manage Content] in.
 1. (Voorwaardelijk) voeg specifieke ervaringen aan een rapporteringsgroep toe door over de gewenste aanbieding te hangen en dan door te klikken **[!UICONTROL Reporting Group]** mappictogram.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![pictogram Rapportagegroep](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (Voorwaardelijk) De partij omvat ervaringen in een rapporteringsgroep door checkbox voor de relevante ervaringen te selecteren en dan door te klikken **[!UICONTROL Reporting Group]** mappictogram in de rechterbovenhoek van het dialoogvenster.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![pictogram Rapportagegroep](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (Voorwaardelijk) Als u de geselecteerde aanbieding aan een bestaande rapportagegroep wilt toewijzen, selecteert u **[!UICONTROL Existing]** selecteert u de gewenste rapportgroep in de vervolgkeuzelijst en klikt u vervolgens op **[!UICONTROL Apply]**.
 
@@ -51,4 +51,4 @@ Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbied
 
    Als u een nieuwe rapportgroep wilt maken waaraan u de geselecteerde aanbieding wilt toewijzen, selecteert u **[!UICONTROL New]**, noem de nieuwe rapportgroep en klik vervolgens op **[!UICONTROL Apply]**.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![Nieuw pictogram om een nieuwe rapportgroep te maken](/help/main/c-reports/assets/ap_reporting_groups.png)

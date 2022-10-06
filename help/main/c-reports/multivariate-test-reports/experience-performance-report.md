@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van het Experience Performance-rap
 title: Hoe gebruik ik het Rapport van de Prestaties van de Ervaring voor Multivariate Tests?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Het rapport Experience Performance laat zien hoe elke ervaring in de activiteit 
 
 U kunt een of meer ervaringen selecteren om ze te vergelijken. Klik op een ervaring en selecteer **[!UICONTROL Preview]** om de ervaring in een browser tabel te openen.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Experience Performance Report in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 Bovenaan het rapport toont metrisch, begin en einddata, en publiek dat in het rapport wordt gebruikt. U kunt al deze factoren wijzigen.
 

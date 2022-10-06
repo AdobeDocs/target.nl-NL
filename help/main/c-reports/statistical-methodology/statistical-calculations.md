@@ -3,9 +3,9 @@ keywords: rapporten;statistische methodologie;statistische berekeningen;statisti
 description: Meer informatie over de statistische berekeningen in de handleiding [!UICONTROL A/B Test] activiteiten in [!DNL Adobe Target].
 title: Hoe kan ik leren over de statistische berekeningen die worden gebruikt in [!UICONTROL A/B Test] Activiteiten?
 feature: Reports
-source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -48,21 +48,21 @@ Hier,
 
 Het betrouwbaarheidsinterval van de omrekeningskoers wordt intuïtief gedefinieerd als een bereik van mogelijke omrekeningskoersen dat consistent is met de onderliggende gegevens.
 
-Bij het uitvoeren van experimenten is de conversiesnelheid voor een bepaalde ervaring een *schatten* van de &quot;werkelijke&quot; omrekeningskoers. Om de onzekerheid in deze raming te kwantificeren, [!DNL Target] gebruikt een betrouwbaarheidsinterval. [!DNL Target] er wordt altijd een betrouwbaarheidsinterval van 95 % gerapporteerd , wat betekent dat op lange termijn 95 % van de berekende betrouwbaarheidsintervallen de werkelijke omrekeningskoers van de ervaring omvat .
+Bij het uitvoeren van experimenten is de conversiesnelheid voor een bepaalde ervaring een *schatten* van de &quot;werkelijke&quot; omrekeningskoers. Om de onzekerheid in deze raming te kwantificeren, [!DNL Target] gebruikt een betrouwbaarheidsinterval. [!DNL Target] er wordt altijd een betrouwbaarheidsinterval van 95% gerapporteerd, wat betekent dat uiteindelijk 95% van de berekende betrouwbaarheidsintervallen de werkelijke omrekeningskoers van de ervaring bevat.
 
 Een 95% betrouwbaarheidsinterval van de omrekeningskoers *μ<sub>ν</sub>* wordt gedefinieerd als het waardebereik:
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
 
-waarbij de standaardfout voor het gemiddelde wordt gedefinieerd als
+Wanneer de standaardfout voor het gemiddelde wordt gedefinieerd als
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
-wanneer een onpartijdige schatting van de standaardafwijking van het monster wordt gebruikt:
+Wanneer een onpartijdige schatting van de standaardafwijking van het monster wordt gebruikt:
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-Merk op dat wanneer de campagne een campagne van het omzettingspercentage (d.w.z., metrisch is binair) is, de standaardfout vermindert tot:
+Wanneer de campagne een campagne van het omzettingspercentage is (d.w.z., is de omzettings metrisch binair), vermindert de standaardfout tot:
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
@@ -76,7 +76,7 @@ De lift tussen een ervaring  *ν* en de controleervaring *ν<sub>0</sub>* is de 
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
-wanneer de afzonderlijke omrekeningskoersen overeenkomen met de hierboven omschreven waarden. Eenvoudiger,
+Indien de afzonderlijke omrekeningskoersen overeenkomen met de hierboven omschreven waarden. Eenvoudiger,
 
 ```
 Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
@@ -86,7 +86,7 @@ Indien de omrekeningskoers van de controleervaring *ν<sub>0</sub>* 0 is, er is 
 
 ## [!DNL Confidence Interval of Lift]
 
-De grafiek van het klokveld in de [!UICONTROL Average Lift and Confidence Interval] de kolom staat voor de gemiddelde waarde en 95% [!UICONTROL Confidence Interval of Lift]. Het veld is grijs wanneer het betrouwbaarheidsinterval van een gegeven ervaring met niet-besturing overlapt met het betrouwbaarheidsinterval van de controleervaring en groen of rood is wanneer het betrouwbaarheidsinterval van de ervaring groter of kleiner is dan het betrouwbaarheidsinterval van de controleervaring.
+De grafiek van het klokveld in de [!UICONTROL Average Lift and Confidence Interval] de kolom staat voor de gemiddelde waarde en 95% [!UICONTROL Confidence Interval of Lift]. Het veld is grijs wanneer het betrouwbaarheidsinterval van een bepaalde ervaring met niet-besturing overlapt met het betrouwbaarheidsinterval van de controleervaring. Het kader is groen of rood wanneer het bereik van het betrouwbaarheidsinterval van een bepaalde ervaring boven of onder het betrouwbaarheidsinterval van de ervaring ligt.
 
 De standaardfout van de lift tussen een ervaring  *ν* en de controleervaring  *ν<sub>0</sub>* wordt gedefinieerd als:
 
@@ -100,7 +100,7 @@ Deze berekening gebruikt de methode &quot;Delta&quot; en wordt beschreven [meer 
 
 ## [!UICONTROL Confidence]
 
-De laatste kolom toont het vertrouwen in een [!DNL Target] verslag. Het vertrouwen van een ervaring is een kans (uitgedrukt als percentage) om een minder extreem resultaat te behalen dan het resultaat dat daadwerkelijk wordt waargenomen, gezien de nulhypothese waar is. Wat p-waarden betreft, wordt het weergegeven vertrouwen *1 - p-waarde*. Intuïtief betekent een hoger vertrouwen dat het minder waarschijnlijk is dat de controle- en niet-controleervaring gelijke omrekeningskoersen hebben.
+De laatste kolom toont het vertrouwen in een [!DNL Target] verslag. Het vertrouwen van een ervaring is een waarschijnlijkheid (uitgedrukt als percentage) om een minder extreem resultaat te behalen dan het resultaat dat wordt waargenomen, gezien de nulhypothese waar is. Wat p-waarden betreft, wordt het weergegeven vertrouwen *1 - p-waarde*. Intuïtief betekent een hoger vertrouwen dat het minder waarschijnlijk is dat de controle- en niet-controleervaring gelijke omrekeningskoersen hebben.
 
 In [!DNL Target], met twee staarten **T-test van Welch** tussen de testervaring en de controleervaring wordt uitgevoerd om te testen of de test- en controleervaringen hetzelfde zijn. Omdat we meestal niet weten of de grootte en variaties van de monsters van twee groepen hetzelfde zijn voordat we het experiment uitvoeren, en [!DNL Target] staat u ook toe om ongelijke percentages van verkeer te hebben die naar elke ervaring worden verzonden, veronderstellen wij niet dat de variantie voor elke ervaring gelijk is. Welch&#39;s t-test wordt dus gekozen in plaats van de t-test van Student.
 
@@ -110,11 +110,11 @@ De *t*-statistiek wordt gedefinieerd als het verschil tussen de middelen van twe
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-waar *μ<sub>v</sub>* en *μ<sub>v0</sub>* zijn de middelen *ν*  en *ν<sub>0</sub>* en de standaardfout van het verschil tussen *μ<sub>v</sub>* en *μ<sub>v0</sub>* worden gegeven door:
+Wanneer *μ<sub>v</sub>* en *μ<sub>v0</sub>* zijn de middelen *ν*  en *ν<sub>0</sub>* en de standaardfout van het verschil tussen *μ<sub>v</sub>* en *μ<sub>v0</sub>* worden gegeven door:
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-waar *σ<sup>2</sup><sub>v</sub>* en *σ<sup>2</sup><sub>v<sub>0</sub></sub>* de verschillen tussen twee ervaringen *ν*  en *ν<sub>0</sub>* en *N<sub>v</sub>* en *N<sub>v<sub>0</sub></sub>* zijn voorbeeldgrootten voor *ν* en *ν<sub>0</sub>* respectievelijk.
+Wanneer *σ<sup>2</sup><sub>v</sub>* en *σ<sup>2</sup><sub>v<sub>0</sub></sub>* de verschillen tussen twee ervaringen *ν*  en *ν<sub>0</sub>* en *N<sub>v</sub>* en *N<sub>v<sub>0</sub></sub>* zijn voorbeeldgrootten voor *ν* en *ν<sub>0</sub>* respectievelijk.
 
 Voor de T-test van Welch wordt de vrijheidsgraad als volgt berekend:
 

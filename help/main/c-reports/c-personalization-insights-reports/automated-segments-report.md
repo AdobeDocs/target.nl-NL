@@ -4,14 +4,14 @@ description: Leer hoe verschillende segmenten die worden gedefinieerd door Adobe
 title: Wat is het Geautomatiseerde Rapport van Segmenten?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapport Automated Segments
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automated Segments] verslag
 
 Informatie over de [!UICONTROL Automated Segments] rapport, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.
 
@@ -42,7 +42,7 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
    De [Automated Personalization-overzicht](/help/main/c-reports/personalization-reports/reports-ap.md) of [Overzicht autom. doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) rapportvertoningen, die informatie over de prestaties van uw activiteiten verstrekken, die door het eerste het schermpictogram wordt vertegenwoordigd. De twee extra pictogrammen vertegenwoordigen de twee rapporten van de Inzichten van de Personalisatie: Geautomatiseerde segmenten en belangrijke kenmerken. Auto-Target heeft een extra grafiekpictogram voor de grafische mening van [!UICONTROL Summary] verslag.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Rapport over persoonlijke inzichten in Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
    In tegenstelling tot [!UICONTROL Summary] verslag (prestatierapportage), [!UICONTROL Personalization Insights], met inbegrip van [!UICONTROL Automated Segments], is alleen beschikbaar voor vaste datumbereiken: 15 dagen, 30 dagen en 60 dagen. Deze vaste datumbereiken staan [!UICONTROL Personalization Insights] om een groot genoeg bereik aan gegevens te gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. De twee besluiten u voor uw datumwaaier kunt maken zijn de &quot;Datum van het Eind&quot;en &quot;Duur.&quot; U zult merken dat het &quot;Begin&quot;grijs uit is. De begindatum wordt automatisch gewijzigd op basis van uw selecties voor de einddatum en -duur.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Kalender in Adobe Target-rapport](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    U hebt toegang tot de beschikbare vaste datumbereiken via de [!UICONTROL Choose Duration] vervolgkeuzelijst.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Vervolgkeuzelijst Duur in Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Controleer de [!UICONTROL Automated Segments] rapportgegevens.
 
