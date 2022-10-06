@@ -4,7 +4,7 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 Deze release is beschikbaar volgens het volgende schema:
 
 * **10 oktober**: Regio Azië-Stille Oceaan (APAC)
-* **11 oktober**: Amerikaanse regio
+* **12 oktober**: Amerikaanse regio
 * **13 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
