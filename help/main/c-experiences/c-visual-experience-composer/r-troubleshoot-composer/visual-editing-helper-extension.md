@@ -3,9 +3,9 @@ keywords: vec;composer voor visuele ervaring; vec;iframe;extension;browser
 description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geopend in de [!UICONTROL Visual Experience Composer] (VEC). De [!UICONTROL Visual Editing Helper] Met browserextensie kunt u websites betrouwbaar laden binnen de VEC.
 title: Hoe gebruik ik de [!UICONTROL Visual Editing Helper] Uitbreiding?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser uitb
 
 ## De voordelen van het gebruik van de [!UICONTROL Visual Editing Helper] extension
 
-* Alle iFrame-buigingkoppen, zoals `X-Frame-Options` en `Content-Security-Policy`, impliciet uit de website worden verwijderd. Het is niet nodig om ingewikkelde regels te creëren die verplicht zijn.
+* Alle iframe-opwindende headers, zoals `X-Frame-Options` en `Content-Security-Policy`, impliciet uit de website worden verwijderd. Het is niet nodig om ingewikkelde regels te creëren die verplicht zijn.
 * Als een webpagina nog geen [!DNL Target] in de bibliotheek at.js kunt u de extensie gebruiken om de bibliotheek te injecteren, zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
 
-Let erop dat u de [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
+Met de [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
 
 * [Mobiele viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) worden ondersteund, zelfs zonder de [!UICONTROL Enhanced Experience Composer] (EEG)
 * Klanten die niet bekend zijn met [!DNL Target] kan de extensie gebruiken om te experimenteren met [!DNL Target] zelfs als hun ontwikkelaars van IT nog niet ten uitvoer hebben gelegd [!DNL Target] op hun websites.
@@ -56,6 +56,8 @@ Let erop dat u de [Enhanced Experience Composer](/help/main/administrating-targe
 
    * Als u probeert een website te laden met de VEC die niet kan worden geladen, wordt een bericht weergegeven waarin wordt gesuggereerd dat u de [!UICONTROL Visual Editing Helper] browserextensie.
    * Als at.js of alloy.js nog niet op de website wordt uitgevoerd, toont een bericht in VEC die suggereert dat u de uitbreiding installeert.
+* Als u de nieuwe extensie probeert te gebruiken, gaat u terug naar de [oude extensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) en [!DNL Target] kan uw website niet laden, alle browsergegevens wissen en de nieuwe extensie uitschakelen.
+
 
 
 
