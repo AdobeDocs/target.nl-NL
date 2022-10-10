@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Als noch Composer van de Visuele Ervaring noch de Verbeterde Composer van de Erv
 
 Open Target nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu worden geladen in de composer voor visuele ervaring, zelfs als de composer voor verbeterde ervaring is uitgeschakeld.
 
-## Mijn pagina wordt niet weergegeven in de VEC (alleen VEC) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Mijn pagina wordt niet weergegeven in de VEC (alleen VEC) {#does-not-load}
 
 * De browser wordt niet ondersteund.
 * De browser blokkeert een niet-beveiligde pagina op een beveiligde site.
@@ -115,7 +115,11 @@ Open Target nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu worde
 * U hebt een ongeldige URL ingevoerd.
 * U hebt geen standaard-URL ingevoerd op de pagina voor het instellen van uw account.
 
-Zorg ervoor dat deze instelling is ingeschakeld en download en werk vervolgens om.js op uw website bij.
+   Zorg ervoor dat deze instelling is ingeschakeld en download en werk vervolgens om.js op uw website bij.
+
+* Als u de [new [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) en ga vervolgens terug naar de [oude extensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) en [!DNL Target] kan uw website niet laden, alle browsergegevens wissen en de nieuwe extensie uitschakelen.
+
+* Als uw website niet in de VEC kan worden geladen of zich onverwacht gedraagt, kunt u cookies op uw website in de browser accepteren voordat u de website probeert te laden in [!DNL Target].
 
 ## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
