@@ -4,9 +4,9 @@ description: Leer hoe u gegevens kunt downloaden van Adobe [!DNL Target] activit
 title: Hoe kan ik rapportgegevens in een CSV-bestand downloaden?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: abbb81f2c9d5503c72eb427e7ae20a560b1daf95
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Gegevens downloaden in een CSV-bestand:
 
    ![Downloadopties](/help/main/c-reports/assets/download-options.png)
 
-## Rapport exporteren naar CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-Het rapport Metriek van het Succes toont u informatie over uw succesmetriek, evenals de volgende metriek die niet beschikbaar in het Doel UI zijn:
+De [!UICONTROL Success Metrics] het rapport toont u informatie over uw succesmetriek, en de volgende metriek die niet beschikbaar in [!DNL Target] UI:
 
 * Gemiddelde tijd voor conversie in uren, zodat u kunt zien hoe lang het duurt voordat de gemiddelde bezoeker het conversiepunt bereikt
 * Som van inkomsten, uitgedrukt in kwadraat, voor berekeningen van het off-line statistisch vertrouwen
@@ -40,24 +40,24 @@ Gegevens worden opgeslagen tot het einde van de activiteit.
 
 >[!NOTE]
 >
->Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Als u deze berekende meetwaarden wilt berekenen, downloadt u de [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren of te reviseren [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+>Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Download de [!DNL Target] [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand om de waarde van de activiteit in te voeren of te reviseren [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
-## Bestelgegevens exporteren naar CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL Export Order Details to CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-Het rapport Bestelgegevens bevat informatie over uw bestellingen, zoals:
+De [!UICONTROL Order Details] geeft u informatie over uw bestellingen, zoals:
 
 * Datum en tijd van bestelling
 * Het bedrag van de orde (als u een doos van de Orde van de Plaats opnam)
 
-   Het rapport Bestelgegevens werkt alleen als u bestellingen hebt.
+   De [!UICONTROL Order Details] het rapport werkt slechts als u orden hebt.
 
 * Order, markering (dubbele of extreme orders)
 
-   Een orde wordt gemarkeerd als uiterste als het meer dan +/- 3 standaardafwijkingen van de gemiddelde ordewaarde gebruikend de laatste maand van gegevens (tot het tijdstip waarop de berekening werd gemaakt) is. Een activiteit zal zijn extreme orden uitgesloten zodra de activiteit een uur of tot na 15 orden heeft gelopen, welke eerst komt. Zie voor meer informatie [Exclusief extreme bestellingen](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+   Een orde wordt gemarkeerd als uiterste als het meer dan +/- 3 standaardafwijkingen van de gemiddelde ordewaarde is. Bij deze berekening wordt de laatste maand van de gegevens gebruikt (tot het tijdstip waarop de berekening is gemaakt). Een activiteit zal zijn extreme orden uitgesloten zodra de activiteit een uur of tot na 15 orden heeft gelopen, welke eerst komt. Zie voor meer informatie [Exclusief extreme bestellingen](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * Product-id
 
-   De totale lengte van product IDs, samengevoegd met komma&#39;s, zou niet 255 karakters moeten overschrijden of IDs zal niet behoorlijk in het rapport tonen. Als uw bestelling bijvoorbeeld producten met de id&#39;s &quot;aa, bb&quot; bevat, is de totale lengte &quot;aa,bb&quot; = 5.
+   De totale lengte van product IDs, samengevoegd met komma&#39;s, zou niet 255 karakters moeten overschrijden of IDs niet behoorlijk in het rapport tonen. Als uw bestelling bijvoorbeeld producten met de id&#39;s &quot;aa, bb&quot; bevat, is de totale lengte &quot;aa,bb&quot; = 5.
 
 * Ervaring
 
@@ -70,20 +70,21 @@ Het rapport Bestelgegevens bevat informatie over uw bestellingen, zoals:
 >[!NOTE]
 >
 >* De gegevens van het orderrapport bevatten vier weken gegevens voor de standaardomgeving (hostgroep) en twee weken voor alle niet-standaardomgevingen.
->* De metriek van de opbrengst die aan &quot;de telling van de Toename worden geplaatst en de gebruiker in het activiteitenlogboek orddetails slechts voor de eerste orde houden die door de zelfde bezoeker wordt gemaakt. Alle volgende bestellingen verhogen het aantal conversies, maar voegen geen inkomsten toe aan RPV/AOV/Sales en worden niet opgenomen in het rapport Bestelgegevens.
+>* De metriek van de opbrengst die aan &quot; worden geplaatst[!UICONTROL Increment count and keep the user in the activity]&quot; alleen de gegevens van de logboekbestelling voor de eerste bestelling die door dezelfde bezoeker is uitgevoerd. Alle volgende bestellingen verhogen het aantal conversies, maar voegen geen inkomsten toe aan RPV/AOV/Sales en worden niet opgenomen in de [!UICONTROL Order Details] verslag.
 
 
 ## Aanbevolen werkwijzen
 
 * Als u een orderrecord wilt opnemen, `orderTotal` parameter moet worden doorgegeven.
-* Waarden die via de `ProductPurchasedId` mbox de parameter is vermeld in het rapport van de Details van de Orde.
+* Waarden die via de `ProductPurchasedId` mbox-parameter wordt vermeld in de [!UICONTROL Order Details] verslag.
 * De beste praktijken moeten omvatten `orderID` en `orderTotal`. Hierdoor kunnen dubbele orders automatisch worden genegeerd.
 
 ## Caveats {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-De volgende informatie is van toepassing op de optie Downloaden:
+De volgende informatie is van toepassing op de [!UICONTROL Download] optie:
 
-* U kunt beide rapporten downloaden voor A/B Test, Automated Personalization, Experience Targeting, en Multivariate activiteiten. U kunt het rapport Metriek van het Succes niet voor de activiteiten van de Aanbeveling downloaden.
-* De optie Downloaden is niet beschikbaar voor activiteiten van het type A/B en Experience Targeting die vóór Doelversie 15.7.1 zijn gemaakt (juli 2015).
+* U kunt beide rapporten downloaden voor [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], [!UICONTROL Experience Targeting], en [!UICONTROL Multivariate] activiteiten. U kunt de [!UICONTROL Success Metrics] verslag voor [!UICONTROL Recommendations] activiteiten.
+* De [!UICONTROL Download] optie is niet beschikbaar voor [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] activiteiten die vóór [!DNL Target] versie 15.7.1 (juli 2015).
 * Ervaringen zonder bijbehorende gegevens worden niet opgenomen in het gedownloade rapport.
-* Het publiek dat in het Doel wordt toegepast meldt UI niet over aan het downloadrapport.
+* Publiek dat wordt toegepast in de [!DNL Target] rapportage-UI gaat niet over naar het downloadrapport.
+* Rapporten die worden gegenereerd om te worden gedownload als CSV-bestanden, zijn inconsistent als de activiteit meer dan één metrische waarde gebruikt. Het downloadbare rapport wordt geproduceerd gebaseerd op de rapportmontages slechts en beschouwt de zelfde waarde voor een andere gebruikte metriek. De bron van de waarheid is altijd het verslag dat in het [!DNL Target] UI.
