@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '4269'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -74,12 +74,6 @@ De volgende problemen zijn bekend met at.js:
 * at.js werkt mogelijk niet met Cordova/Hybrid-apps omdat cookies van de eerste partij momenteel niet in deze toepassingen worden ondersteund. (TNT-26166)
 
    **Workaround**: Configureer at.js met de optie &quot;x-only&quot; ingeschakeld en geef door `mboxThirdPartyId` in vraag om gebruikers te beheren.
-
-### Analyses voor [!DNL Target] (A4T)
-
-Wanneer u de functie Doelactiviteit-impressies en -conversies in Analysis Workspace gebruikt, past u het model Gelijke aanraking toe op de Attribution IQ om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel selecteren**. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
-
-Alle huidige pakketten Analytics kunnen dit model met Attribution IQ toevoegen. Als u geen toegang tot Attribution IQ hebt, baseert u zich op A4T-gegevens in Rapporten &amp; Analytics.
 
 ## Opgeloste problemen {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen die vaak worden gesteld over het weergeve
 title: Antwoorden op vragen over het bekijken van Rapporten met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2580'
 ht-degree: 1%
 
 ---
@@ -15,17 +15,23 @@ ht-degree: 1%
 
 Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het bekijken van rapporten wanneer het gebruiken [!DNL Adobe Analytics] als bron van rapportage voor [!DNL Adobe Target] (A4T).
 
-## Kan ik mijn [!DNL Target] activiteitsgegevens in Analysis Workspace? {#workspace}
+## Kan ik mijn [!DNL Target] activiteitsgegevens in [!DNL Analysis Workspace]? {#workspace}
 
 U kunt [!DNL Analysis Workspace] om uw [!DNL Target] activiteiten en ervaringen. De [Analyses voor venster Doel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Hiermee kunt u optillen en vertrouwen zien voor maar liefst drie succesmetingen. U kunt ook dieper graven met behulp van tabellen en visualisaties.
 
-Voor gedetailleerde informatie en voorbeelden opent u het dialoogvenster [Analyse en doel: Best practices voor zelfstudie Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), verstrekt door Adobe Experience League.
+Voor gedetailleerde informatie en voorbeelden opent u het dialoogvenster [Analyse en doel: Best practices voor zelfstudie Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), verstrekt door [!UICONTROL Adobe Experience League].
 
-## Waar kunnen segmenten worden toegepast in Analysis Workspace? {#segmentation}
+## Waar kunnen segmenten worden toegepast in [!DNL Analysis Workspace]? {#segmentation}
 
 Segmenten worden meestal boven aan een deelvenster in de neerzetzone van segmenten gebruikt. Het segment wordt toegepast op alle tabellen en visualisaties in het deelvenster. Deze techniek is het meest nuttig om te zien hoe de test een subset mensen beïnvloedt (bijvoorbeeld hoe heeft deze test voor mensen in het Verenigd Koninkrijk gepresteerd).
 
 Een segment kan ook rechtstreeks in de vrije-vormlijst worden gelaagd, maar merk op dat u het over de volledige lijst moet bedekken om de lift &amp; betrouwbaarheidsberekeningen binnen het Comité te bewaren A4T. Segmenten op kolomniveau worden momenteel niet ondersteund in het deelvenster.
+
+## Kan ik het model &quot;Same Touch&quot; Attribution IQ toepassen in [!DNL Analysis Workspace]?
+
+Wanneer u [!DNL Target] activiteitsindrukkingen en conversies in [!DNL Analysis Workspace]past u het model &quot;Same Touch&quot; Attribution IQ toe op de meetwaarden om een nauwkeurige telling te garanderen. Als u een [niet-standaard toewijzingsmodel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), klikt u met de rechtermuisknop op de metrisch naar **Kolominstellingen wijzigen > Niet-standaard toewijzingsmodel gebruiken inschakelen > Zelfde aanraakmodel selecteren**. Als dit model niet wordt toegepast, zijn de meetwaarden te hoog.
+
+Alle huidige [!DNL Adobe Analytics] pakketten kunnen dit model toevoegen met [!UICONTROL Attribution IQ]. Als u geen toegang hebt tot [!UICONTROL Attribution IQ], baseert u zich op A4T-gegevens in [!UICONTROL Reports & Analytics].
 
 ## Wanneer ik een raaksegment voor een specifieke toepassing toepast [!DNL Target] activiteit , waarom worden er niet-verwante ervaringen geretourneerd ? {#activity-segmentation}
 
@@ -33,7 +39,7 @@ De [!DNL Target] variabele verzonden naar [!DNL Analytics] heeft een standaardve
 
 Wanneer u voor een activiteit segmenteert om in een klap aanwezig te zijn, krijgt u alle ervaringen die deel van die activiteit uitmaken *plus* alle andere ervaringen die bij die treffer blijven opdoen.
 
-## Waarom heb ik tijdens het configureren van mijn Goal Metrics geen toegang tot Geavanceerde instellingen?
+## Tijdens het configureren van mijn [!UICONTROL Goal Metrics], waarom heb ik geen toegang? [!UICONTROL Advanced Settings]?
 
 Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T), het doel metrisch gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;. Deze instellingen zijn *niet* configureerbaar.
 
@@ -56,17 +62,17 @@ Overweeg het volgende:
 
 Zie voor meer informatie [A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
 
-## Waarom zijn &#39;activity impressions&#39; en &#39;activity conversions&#39; in Analysis Workspace hoger dan Reports &amp; Analytics? {#sametouch}
+## Waarom zijn &quot;activity impressions&quot; en &quot;activity conversions&quot; hoger in [!DNL Analysis Workspace] meer dan [!UICONTROL Reports & Analytics]? {#sametouch}
 
 [!DNL Reports & Analytics] past een attribuutmodel met dezelfde aanraakinstelling toe op &#39;activity-impressions&#39; en &#39;activity-conversies&#39;, terwijl [!DNL Analysis Workspace] geeft de onbewerkte maatstaven weer, die kunnen worden opgeblazen als gevolg van de persistentie van de [!DNL Target] dimensie.
 
 Om nauwkeurig te evalueren [!UICONTROL Activity Impressions] en [!UICONTROL Activity Conversions] maatstaven in [!DNL Analysis Workspace], zorgen ervoor dat beide meetwaarden [!UICONTROL Same Touch] toegepaste toewijzingsmodellen. U kunt modellen toepassen door op het tandwieltje voor kolominstellingen te klikken, zodat [!UICONTROL Non-default attribution models]en selecteert u vervolgens [!UICONTROL Same Touch]. Meer informatie over attributie in [Overzicht van IQ-kenmerken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) in de *Handleiding Analysehulpmiddelen*.
 
-## Wat betekent de &quot;activiteitomzettingen&quot;als de teller een metrische Analyse tijdens activiteitenopstelling plukt? {#section_F3EBACF85AF846E9B366A549AAB64356}
+## Wat betekent &#39;activiteitconversies&#39; als de markeerteken een [!DNL Analytics] metrisch tijdens activiteitenopstelling? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
 &quot;Activiteitenomzettingen&quot; zijn leeg als een [!DNL Analytics] De metrische waarde is geselecteerd als de conversiemetrisch voor de activiteit.
 
-## Waarom zie ik &quot;niet gespecificeerd&quot; in de analytische rapporten? Wat betekent het? {#unspecified}
+## Waarom zie ik &quot;ongespecificeerd&quot; in de [!DNL Analytics] rapporten? Wat betekent het? {#unspecified}
 
 In andere rapporten betekent &quot;niet gespecificeerd&quot; dat gegevens niet aan een classificatieregel voldeden, maar in A4T zou dit nooit mogen gebeuren. Als je &#39;unspecified&#39; ziet, dan is de classificatieservice nog niet gestart. Over het algemeen duurt het 24 tot 72 uur voordat gegevens over de activiteit in de rapporten worden weergegeven. Hoewel de activiteiten pas op dat moment in dit verslag worden vermeld, worden alle bezoekersgegevens die met deze activiteiten verband houden, vastgelegd en weergegeven wanneer de classificatie is voltooid.
 
@@ -74,9 +80,9 @@ Na de indelingsperiode worden in deze rapporten ongeveer een uur na de verzameli
 
 Voor het geval dat de classificatie voor die activiteit werd gedaan, en u nog een &quot;Niet gespecificeerde&quot;rij in het rapport ziet, zorg ervoor dat het rapport geen niet gebruikt[!DNL Target] metrisch om de gegevens te tonen. Tenzij het rapport een [!DNL Target]-specific metrisch, dat de &quot;Niet gespecificeerde&quot;rij gebeurtenissen voor vraag bevat die niet met worden geassocieerd [!DNL Target]. Die rij bevat geen [!DNL Target]-gerelateerde informatie (bijvoorbeeld bezoekers/bezoeken/indrukken).
 
-## Waarom? [!DNL Target] metriek die naar Analytics wordt verzonden zelfs nadat de activiteit is gedeactiveerd? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## Waarom? [!DNL Target] metriek verzonden naar [!DNL Analytics] zelfs nadat de activiteit is gedeactiveerd? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-De [!DNL Target] variabele verzonden naar [!DNL Analytics] heeft een standaardvervalperiode van 90 dagen. Deze vervalperiode kan indien nodig door de klantenservice worden aangepast. Deze instelling is echter algemeen voor alle activiteiten, zodat ze niet voor één geval hoeft te worden aangepast.
+De [!DNL Target] variabele verzonden naar [!DNL Analytics] heeft een standaardvervalperiode van 90 dagen. Deze vervalperiode kan indien nodig door de klantenservice worden aangepast. Deze instelling is mondiaal voor alle activiteiten; dit moet echter niet voor één geval worden aangepast .
 
 Misschien ziet u [!DNL Target] variabelen verzonden naar [!DNL Analytics] na de vervalperiode omdat de vervaldatum 90 dagen is, maar alleen als die gebruiker geen andere A4T-modus ziet [!DNL Target] activiteit. Als een gebruiker op dag 45 terugkomt naar de site en een andere activiteit ziet, wordt de teller van de hele A4T-eVar opnieuw ingesteld op 90 dagen. Dat betekent dat de eerste campagne vanaf dag 1 nu tot 45 + 90 = 135 dagen zou kunnen duren. Als de gebruiker blijft terugkomen, zou u aan het punt kunnen komen waar u metriek wordt verzonden naar [!DNL Analytics] in uw rapportering uit veel oudere activiteiten. Wanneer gebruikers cookies verwijderen en niet terugkeren naar de site, nemen de nummers in die activiteit af, maar kunt u ze wel zien.
 
@@ -123,7 +129,7 @@ Zie voor meer informatie [Conversievariabelen (eVar](https://experienceleague.ad
 
 Een bron van beelden aan het rapport van een activiteit A4T na deactivatie kan verkeer QA-wijze zijn. Het doel registreert normaal geen gebeurtenissen voor een gedeactiveerde activiteit, maar de Analyse heeft geen manier om te weten dat de impressies uit wijze QA komen. Wanneer het de activiteitenrapport van het Doel van Analytics wordt teruggewonnen, toont het deze beelden. Dit werkt zoals ontworpen omdat de klanten een manier nodig hebben om A4T rapporten te controleren zelfs als de activiteit niet actief gebruikend wijze QA is.
 
-## Waarom berekenen Analytics en Analytics voor Adobe Target (A4T) aantallen voor de Unieke metrische bezoekers verschillend? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Waarom doen [!DNL Analytics] en [!UICONTROL Analytics for Adobe Target] (A4T) de getallen berekenen voor de [!UICONTROL Unique Visitors] verschillend metrisch? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Wanneer u een A/B test in werking stelt, die gebruikt [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (de betrouwbaarheidsmaatstaf) om een winnaar van een test te kiezen, is een van de veronderstellingen dat er een vaste tijdshorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
 
@@ -133,7 +139,7 @@ De [!UICONTROL Unique Visitors] In de metrische code wordt het aantal personen w
 
 U kunt de hoeveelheid tijd verkorten [!DNL Target] de variabele blijft tot een zitting voortbestaan; nochtans, is dat problematisch voor tests waar de conversiegebeurtenis niet zo waarschijnlijk binnen de zelfde zitting is.
 
-## Waarom wordt dezelfde bezoeker soms geteld in meerdere ervaringen in Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Waarom wordt dezelfde bezoeker soms meegeteld in meerdere ervaringen in [!DNL Analytics]? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 In de volgende lijst worden de redenen uitgelegd waarom dezelfde bezoeker in meerdere ervaringen kan worden meegeteld in [!DNL Analytics]:
 
@@ -151,7 +157,7 @@ Het wijzigen van het percentage van de verkeerstoewijzing in een activiteit na a
 
 Als beste praktijken, zou u de bestaande activiteit moeten tegenhouden en dan een nieuwe activiteit creëren in plaats van het percentage te veranderen na activering. De rapportage voor de nieuwe activiteit begint met nieuwe bezoekers en de gegevens van terugkerende bezoekers veroorzaken geen inconsistente rapportage.
 
-## Hoe worden bezoeken geteld in Analytics en omzettingskrediet toegewezen in een auto-Doelactiviteit die A4T gebruikt?
+## Hoe worden bezoeken geteld in [!DNL Analytics] en conversiekrediet toegewezen in een [!UICONTROL Auto-Target] activiteit die A4T gebruikt?
 
 Wanneer een bezoeker in aanmerking komt voor een A4T-activiteit, de inhoud weergeeft of omzet, [!DNL Target] verzendt gebeurtenisgegevens naar [!DNL Analytics]. Deze gebeurtenisgegevens staan [!DNL Analytics] om conversiegebeurtenissen en andere klikstreamgebeurtenissen die op de pagina plaatsvinden, toe te schrijven aan de relevante [!DNL Target] activiteiten en ervaringen.
 
