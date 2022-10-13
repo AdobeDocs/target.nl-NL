@@ -4,9 +4,9 @@ description: Meer informatie over succesmetriek in Adobe [!DNL Target] die u hel
 title: Wat zijn succescijfers?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,12 @@ Kies het gewenste gedrag:
 * Eenmaal per gegadigde
 * Op elke indruk (pagina-vernieuwingen uitsluiten)
 * Op elke indruk
+
+## Bekende problemen
+
+* De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;zal worden verhoogd geplaatst aan &quot;elke indruk&quot;of &quot;elke indruk (exclusief vernieuwingen)&quot;kan niet als succes worden gebruikt metrisch dat een andere metrisch afhangt.
+
+Wanneer een succes metrisch wordt geplaatst om op elke indruk te verhogen, [!DNL Target] telt de bezoeker telkens opnieuw wanneer de bezoeker dit succes metrisch bezoekt. [!DNL Target] stelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 terug zodat kan het op de volgende indruk opnieuw tellen. Aldus, als een andere metrisch vereist deze metrisch om eerst te zijn gezien, [!DNL Target] herkent nooit dat de gebruiker eerste metrisch heeft gezien.
 
 ## Trainingsvideo: Activiteitenstatistieken
 

@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
@@ -71,3 +71,7 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 ## Ik zie onderbrekingen of &quot;ontkende toegang&quot;fouten wanneer het laden van plaatsen met toegelaten volmacht. (alleen EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 
 Zorg ervoor volmacht IPs niet in uw milieu wordt geblokkeerd.
+
+## Bekende problemen
+
+* Een probleem met de EEG verhindert momenteel dat het aanvragen van PUTTEN ondersteunt en leidt tot een time-outfout van 504. (TGT-41493)

@@ -4,9 +4,9 @@ description: Leer hoe u de optie Omleiden naar URL in Adobe gebruikt [!DNL Targe
 title: Kan ik een pagina omleiden naar een andere URL?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,9 @@ Een omleidingsvoorstel maken:
    * Hash-fragment (#)
    * Query
    * mbox-parameter
+
    De extra regels kunnen tot aan de Activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
+
+## Bekende problemen
+
+* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) om Voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)

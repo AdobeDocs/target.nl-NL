@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4269'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,9 @@ Informatie over bekende problemen voor [!DNL Adobe Target]. Bevat ook informatie
 
 De volgende secties geven een overzicht van de bekende problemen voor [!DNL Target]:
 
-### De Enhanced Experience Composer (EEC) ondersteunt geen verzoeken om PUT.
-
-Een probleem met de EEG verhindert momenteel dat het aanvragen van PUTTEN ondersteunt en leidt tot een time-outfout van 504. (TGT-41493)
-
-### [!DNL Adobe Experience Platform] segmentnamen worden niet weergegeven in het dialoogvenster [!UICONTROL Important Attributes] verslag.
-
-[!DNL Adobe Experience Platform] segmentnamen worden niet weergegeven in het dialoogvenster [!UICONTROL Important Attributes] verslag voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten. (TOP-3813)
-
 ### Archiveren [!UICONTROL Auto-Target] activiteiten kunnen synchronisatieproblemen veroorzaken
 
 Poging om inactief te archiveren [!UICONTROL Auto-Target] activiteiten kunnen leiden tot synchronisatieproblemen. Niet archiveren totdat dit probleem is opgelost [!UICONTROL Auto-Target] activiteiten. Laat ze in de [!UICONTROL Inactive] status. (TGT-40885)
-
-### Aanbiedingen omleiden {#redirect}
-
-* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) om Voorvertoning en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
 
 ### Het laden van een pagina in Visual Experience Composer (VEC) annuleren {#cancel}
 
@@ -86,12 +74,6 @@ De volgende problemen zijn bekend met at.js:
 * at.js werkt mogelijk niet met Cordova/Hybrid-apps omdat cookies van de eerste partij momenteel niet in deze toepassingen worden ondersteund. (TNT-26166)
 
    **Workaround**: Configureer at.js met de optie &quot;x-only&quot; ingeschakeld en geef door `mboxThirdPartyId` in vraag om gebruikers te beheren.
-
-### Succeswaarden
-
-De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;zal worden verhoogd geplaatst aan &quot;elke indruk&quot;of &quot;elke indruk (exclusief vernieuwingen)&quot;kan niet als succes worden gebruikt metrisch dat een andere metrisch afhangt.
-
-Wanneer een succes metrisch aan toename op elke indruk wordt geplaatst, telt Target opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. Het doel stelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 terug zodat kan het op de volgende indruk opnieuw tellen. Aldus, als een andere metrisch metrisch vereist om eerst te zijn gezien, erkent het Doel nooit dat de gebruiker eerste metrisch heeft gezien.
 
 ### Analyses voor [!DNL Target] (A4T)
 

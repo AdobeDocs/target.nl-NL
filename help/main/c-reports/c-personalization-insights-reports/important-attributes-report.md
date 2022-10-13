@@ -4,9 +4,9 @@ description: Leer hoe u de [!UICONTROL Important Attributes] rapport dat de hoog
 title: Wat is het Belangrijke Rapport van Attributen?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -148,3 +148,9 @@ Het kan nuttig zijn te weten hoe het model werkt dat verkeer dient. Elke persoon
 * Begrijp welke attributen het meest kritiek aan hoe het model leerde.
 * Zie welke eigenschappen in de verpersoonlijkingsmodellen worden gebruikt en hoe belangrijk zij zijn.
 * Identificeer kansen voor extra gegevenspunten u in Doel kunt overgaan om uw verpersoonlijking verder te informeren.
+
+## Bekende problemen
+
+De volgende kwestie wordt momenteel onderzocht door de [!DNL Target] technisch team.
+
+* [!DNL Adobe Experience Platform] segmentnamen worden niet weergegeven in het dialoogvenster [!UICONTROL Important Attributes] verslag voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten. (TOP-3813)
