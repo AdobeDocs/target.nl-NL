@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6071d3d73038e9d23eff3e4fb4a5418b231ae23a
+source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,23 @@ Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magi
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+## [!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie
+
+Drew Burns, Group Product Marketing Manager voor [!DNL Adobe Target], zal uw [!DNL Target] vragen die verband houden met de meest recente opwindende aankondiging over de onlangs verbeterde intelligentie en controle van AI - eigenschappen , en over alle zaken personalisatie .
+
+* **Woensdag 26 oktober**
+* **09:00 - 10:00 (PDT, UTC -7)**
+* **[Registratiegegevens](https://adobe.ly/3e6gqHe){target=_blank}**
+
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
 Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Adobe Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
+
+Geen gepland op dit moment.
+
+## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
+
+Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
 
 ### Fijnafstemming door AI aangedreven Personalisatie: Nieuwe functies in [!DNL Adobe Target] (11 oktober 2022)
 
@@ -31,38 +45,26 @@ Graag bij ons voor dit speciale webinar van de productaankondiging!
 
 We zijn erg blij om wat &#39;zeer groot&#39;, baanbrekend nieuws te delen op het gebied van personalisatie op schaal met [!DNL Adobe Target]: nieuwe filters en intelligentie die de mogelijkheden van [!DNL Target] gebruikers om door AI aangedreven verpersoonlijkingsactiviteiten te verfijnen om de bedrijfsmetriek direct te beïnvloeden die het belangrijkst op een per activiteitenbasis zijn.
 
-+++Details
+* [Koppeling opnemen](https://video.tv.adobe.com/v/3410117){target=_blank}
 
-Deze nieuwe productaankondiging komt op het juiste moment en is hyperkritisch, zoals we de noodzaak van personalisatie hebben gezien, ongeacht de industrie, in de afgelopen jaren. Het is voor bedrijven een middel geworden om zich tijdens de hele reis van hun klanten kritisch te onderscheiden van de concurrentie. Personalisatie kan zeer effectief zijn &quot;overal:&quot;beginnend bij de eerste aanraking van een bezoeker, leveraging basisgegevens voor de gevallen van het aanschafgebruik, helemaal tot de klantendienst en loyaliteitsgebruiksgevallen.
+   +++Details
 
-Leer in deze sessie hoe u een oplaadbare conversielift kunt gebruiken door [!DNL Adobe Target]De nieuwe functies waarover we debatteren:
+   Deze nieuwe productaankondiging komt op het juiste moment en is hyperkritisch, zoals we de noodzaak van personalisatie hebben gezien, ongeacht de industrie, in de afgelopen jaren. Het is voor bedrijven een middel geworden om zich tijdens de hele reis van hun klanten kritisch te onderscheiden van de concurrentie. Personalisatie kan zeer effectief zijn &quot;overal:&quot;beginnend bij de eerste aanraking van een bezoeker, leveraging basisgegevens voor de gevallen van het aanschafgebruik, helemaal tot de klantendienst en loyaliteitsgebruiksgevallen.
 
-* Verbeterde modelbesturingselementen binnen [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target] activiteiten
-* De mogelijkheid ontgrendelen om profielkenmerken en hoogwaardige segmenten te evalueren vanuit [!DNL Adobe]s [!DNL Real-Time Customer Data Platform]
-* Hoe merken snellere snelheden en beslissingen kunnen bieden door hun door AI aangedreven algoritmen af te stemmen
-* Unieke gebruiksscenario&#39;s voor het leveren van 1-op-1 personalisatie
+   Leer in deze sessie hoe u een oplaadbare conversielift kunt gebruiken door [!DNL Adobe Target]De nieuwe functies waarover we debatteren:
 
-* **Dinsdag 11 oktober 2022**
-* **13:00 - 14:00 uur (EDT, UTC-4)**
-* **[Meer informatie en registratiegegevens](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+   * Verbeterde modelbesturingselementen binnen [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target] activiteiten
+   * De mogelijkheid ontgrendelen om profielkenmerken en hoogwaardige segmenten te evalueren vanuit [!DNL Adobe]s [!DNL Real-Time Customer Data Platform]
+   * Hoe merken snellere snelheden en beslissingen kunnen bieden door hun door AI aangedreven algoritmen af te stemmen
+   * Unieke gebruiksscenario&#39;s voor het leveren van 1-op-1 personalisatie
 
 +++
-
-## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
-
-Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
 
 ### [!DNL Adobe Target] Skill Builders - AI-gestuurde personalisatie en Recommendations (15 september 2022)
 
 Automatisering in experimenten en verpersoonlijking blijft de hoogste omzettingen en ROI voor marketing, techniek, en productteams drijven. Verbinden met [!DNL Adobe] De zitting van de Bouwers van de Vaardigheid en leren hoe te gebruiken [!DNL Adobe Target] geavanceerde door AI aangestuurde gebruiksgevallen en mogelijkheden met aanbevelingen voor producten en inhoud om de concurrentie te blijven voorstaan en elke ervaring te winnen.
 
-+++Details
-
-* **Donderdag 15 september 2022**
-* **13:00 - 14:00 uur (EDT, UTC-4)**
-* **[Meer informatie en registratiegegevens](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
+* [Koppeling opnemen](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders - Mobiele ervaring optimaliseren (6 september 2022)
 

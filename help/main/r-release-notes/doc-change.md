@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 oktober | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens over de [!DNL Adobe Target] Koffiepauze voor vragen en antwoorden van de Gemeenschap (26 oktober 2022). |
 | 10 oktober | [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nieuw artikel. |
 |  | [Problemen met de Visual Experience Composer oplossen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | De &quot;[Mijn pagina wordt niet weergegeven in de VEC (alleen VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot;. |
 | 4 oktober | [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nieuw onderwerp.<br>De informatie in dit artikel vervangt de *Adobe Target-berekeningen voor A/B-tests* pdf-bestand dat eerder beschikbaar was voor downloaden op deze site. |
