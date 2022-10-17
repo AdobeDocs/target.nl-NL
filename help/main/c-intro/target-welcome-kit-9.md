@@ -4,20 +4,20 @@ description: Je hebt je eerste activiteit in Adobe Target gemaakt. Wat nu? In di
 title: Waar kan ik extra middelen vinden om het doel effectiever te gebruiken?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
 # Hoofdstuk 9: Volgende stappen en bronnen
 
-We hebben de basisbeginselen van het uitvoeren van uw eerste activiteit besproken. We hopen dat deze activiteit u en uw bedrijf het ongelooflijke potentieel liet zien dat [!DNL Adobe Target] optimaliseren en personaliseren heeft gevolgen voor de bedrijfsresultaten. Dit is slechts een begin. Het is tijd om na te denken over waar u zich op gaat richten voor uw tweede activiteit. U kunt overwegen een lijst met geprioriteerde activiteiten te maken die u wilt uitvoeren. U zult verrast zijn door hoe snel u ziet hoe activiteit door activiteit u de klantenervaring verbetert en bedrijfssucces drijft.
+We hebben de basisbeginselen van je eerste activiteit besproken. We hopen dat deze activiteit u en uw bedrijf het ongelooflijke potentieel liet zien dat [!DNL Adobe Target] optimaliseren en personaliseren heeft gevolgen voor de bedrijfsresultaten. Dit is slechts een begin. Het is tijd om na te denken over waar je je op gaat richten voor je tweede activiteit. U kunt overwegen een lijst met geprioriteerde activiteiten te maken die u wilt uitvoeren. U zult door enkel worden verrast hoe snel u ziet hoe activiteit door activiteit u de klantenervaring verbetert en bedrijfssucces drijft.
 
-Tussen haakjes, u hebt zoveel manieren om meer te leren over testen, personalisatie en het gebruik [!DNL Target]. Controleer de lijst met bronnen hieronder om die kennis op te bouwen. Luister in onze webinars, lees het Adobe Target-blog, neem deel aan de Adobe Summit en word actief in de online gemeenschap van Adobe Target. Vergeet niet dat we hier altijd zijn om u te helpen uw programma te starten en op een pad naar succes te zetten. Bereik op elk gewenst moment.
+Tussen haakjes, u hebt zoveel manieren om meer te leren over testen, personalisatie en het gebruik [!DNL Target]. Controleer de lijst met bronnen hieronder om die kennis op te bouwen. Luister in onze webinars, lees het Adobe Target-blog, neem deel aan de Adobe Summit en word actief in de online gemeenschap van Adobe Target. Vergeet niet dat we hier altijd zijn om u te helpen uw programma te lanceren en het op een weg naar succes te zetten. Bereik op elk gewenst moment.
 
-We hebben een georganiseerde lijst met waardevolle informatie samengesteld die u helpt nog meer kennis te verwerven over optimalisatie en personalisatie met [!DNL Target].
+We hebben een georganiseerde lijst met waardevolle informatie samengesteld om u te helpen nog meer kennis te verwerven over optimalisatie en personalisatie met [!DNL Target].
 
 ## Bronkoppelingen
 
@@ -42,7 +42,6 @@ We hebben een georganiseerde lijst met waardevolle informatie samengesteld die u
 
 * **Adobe Target Homepage**: De homepage van [!DNL Adobe Target], leer over onze mogelijkheden en bekijk hier onze meest recente succesverhalen. Zie [Adobe Target](https://www.adobe.com/marketing/target.html).
 * **De blog**: Blijf up-to-date met het nieuwste nieuws, tips en succesverhalen door het volgende te doen: [Doelblog](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
-* **Experience League**: Ontdek de gidsen, de gebeurtenissen, en de opleiding u moet beginnen uw ervaringszaken, en krijgen verbonden met de gemeenschap van het Doel en de antwoorden vinden u zoekt. Zie de [Homepage van Adobe Experience League](https://experienceleague.adobe.com/#home).
+* **Experience League**: Ontdek de gidsen, de gebeurtenissen, en de opleiding u uw ervaringszaken moet beginnen, en worden verbonden met de gemeenschap van het Doel en de antwoorden vinden u zoekt. Zie de [Homepage van Adobe Experience League](https://experienceleague.adobe.com/#home).
 * **Adobe Target-certificering**: Met nieuwe Adobe Target-examens krijgt u de status van een Adobe-gecertificeerd expert. Plan hier een examen of trainingscursussen. Zie [Opleiding en certificering](/help/main/c-intro/training-and-certification.md).
 * **Opmerkingen bij de release van Adobe Target**: Informatie over functies, verbeteringen en correcties voor elke functie [!DNL Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast worden releaseopmerkingen voor doel-API&#39;s, SDK&#39;s, de JavaScript-bibliotheek (at.js) en andere platformwijzigingen, indien van toepassing, ook opgenomen. Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md).
-* **Adobe Target Newsletter**: Meer informatie over productupdates en toekomstige plannen, tips en trucs voor personalisatie en optimalisatie, successen van klanten, aanstaande gebeurtenissen, populaire blogberichten en meer. Zie [Nieuwsbrief met voorwetenschap](/help/main/r-release-notes/target-insider-newsletter.md).
