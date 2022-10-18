@@ -4,9 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen (FAQ's) en antwoorden over
 title: Hoe kan ik veelgestelde vragen over Automated Personalization-activiteiten vinden?
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Er is geen optie om AP met een andere toets te vergelijken met een standaarderva
 * Zorg ervoor dat u de [Verkeersschatting](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) zodat u een idee hebt van hoe lang het zal duren voor personalisatiemodellen in uw Automated Personalization activiteit bouwen.
 * Beslis over de toewijzing tussen controle en gericht alvorens met de activiteit te beginnen die op uw doelstellingen wordt gebaseerd.
 
-   Er zijn drie scenario&#39;s die u kunt overwegen op basis van het doel van uw activiteit en het type besturingselement dat u hebt geselecteerd:
+   Er zijn drie scenario&#39;s om te overwegen gebaseerd op het doel van uw activiteit en het type van controle u hebt geselecteerd:
 
-   * **Willekeurige Ervaringen als uw controle en uw activiteitendoel is de doeltreffendheid van het verpersoonlijkingsalgoritme te testen**: Als u het verpersoonlijkingsalgoritme wilt evalueren, wilt u een nauwkeuriger beeld van uw lift hebben. U wilt waarschijnlijk ook vergelijken met wat de omrekeningskoers voor uw ervaringen/aanbiedingen zou zijn als u eenvoudig een A/B Test (een willekeurig bediende controle) zou doen. In die situatie wordt het gebruik van een 50%-toewijzing voor een controle van willekeurig bediende ervaringen aanbevolen.
-   * **&quot;Willekeurige Ervaringen&quot;aangezien uw controle en uw activiteitendoel gepersonaliseerd verkeer moet maximaliseren**: Als u vertrouwd bent met het algoritme en de maximumhoeveelheid verkeer gepersonaliseerd wilt hebben, wordt een 10% tot 30% toewijzing aan controle geadviseerd. De hier weggevoerde handel is de nauwkeurigheid u in uw liftinformatie zult kunnen zien (aangezien de betrouwbaarheidsintervallen van uw controleverkeer groter zullen zijn omdat er minder verkeer aan hen stroomt).
-   * **Specifieke Ervaring als uw controle, met één van beide doeltype**: Als u een specifieke markeringsgedreven ervaring met de verpersoonlijkingsmodellen wilt vergelijken, wordt een 10% tot 30% toewijzing aan controle geadviseerd. Als u slechts één ervaring als controle selecteert, wordt dat verkeer niet over elke aanbieding/ervaring in de activiteit verspreid.
+   * **Willekeurige Ervaringen als uw controle en uw activiteitendoel is de doeltreffendheid van het verpersoonlijkingsalgoritme te testen**: Als je het personalisatiealgoritme wil evalueren, dan wil je een nauwkeuriger beeld van je lift hebben. U wilt waarschijnlijk ook vergelijken met wat de omrekeningskoers voor uw ervaringen/aanbiedingen zou zijn als u eenvoudig een A/B Test (een willekeurig bediende controle) zou doen. In die situatie wordt het gebruik van een 50%-toewijzing voor een controle van willekeurig bediende ervaringen aanbevolen.
+   * **&quot;Willekeurige Ervaringen&quot;aangezien uw controle en uw activiteitendoel gepersonaliseerd verkeer moet maximaliseren**: Als u vertrouwd bent met het algoritme en de maximumhoeveelheid verkeer gepersonaliseerd wilt hebben, wordt een 10% tot 30% toewijzing aan controle geadviseerd. De handel hier is de nauwkeurigheid u in uw liftinformatie zult kunnen zien (aangezien de betrouwbaarheidsintervallen van uw controleverkeer groter zullen zijn omdat er minder verkeer dat aan hen stroomt).
+   * **Specifieke Ervaring als uw controle, met één van beide doeltype**: Als u een specifieke markeringsgedreven ervaring met de verpersoonlijkingsmodellen wilt vergelijken, wordt een 10% tot 30% toewijzing aan controle geadviseerd. Wanneer u slechts één ervaring als controle selecteert, dan wordt dat verkeer niet verspreid over elke aanbieding/ervaring in de activiteit.
 
 * De gerichte regels zouden zo spaarzaam mogelijk moeten worden gebruikt omdat zij het vermogen van het model om te optimaliseren kunnen verhinderen.
 * Rapportagegroepen kunnen het succes van je Automated Personalization-activiteiten beperken. Zij mogen alleen onder specifieke omstandigheden worden gebruikt.
@@ -56,7 +56,9 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UI
 
 ### Wat zijn enkele limieten in Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Het doel heeft een harde limiet van 30.000 ervaringen, maar het werkt op zijn best als er minder dan 10.000 ervaringen worden gecreëerd.
+[!DNL Target] heeft een harde grens van 30.000 ervaringen, maar het functioneert op zijn best wanneer minder dan 10.000 ervaringen worden gecreeerd.
+
+Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie.
 
 ### Hoe wordt het aanbieden-niveau richten uitgevoerd? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

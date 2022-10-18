@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 18 oktober | [Een [!UICONTROL Automated Personalization] activiteit](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Bijgewerkte tekst om erop te wijzen dat hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, het algoritme zijn best uitvoert wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie. |
+|  | [Veelgestelde vragen over Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Bijgewerkte tekst om erop te wijzen dat hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, het algoritme zijn best uitvoert wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie. |
 | 14 oktober | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens over de [!DNL Adobe Target] Koffiepauze voor vragen en antwoorden van de Gemeenschap (26 oktober 2022). |
 | 10 oktober | [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nieuw artikel. |
 |  | [Problemen met de Visual Experience Composer oplossen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | De &quot;[Mijn pagina wordt niet weergegeven in de VEC (alleen VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot;. |

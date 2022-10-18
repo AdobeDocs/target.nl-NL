@@ -4,9 +4,9 @@ description: Leer hoe u een [!UICONTROL Automated Personalization] (AP) activite
 title: Hoe maak ik een [!UICONTROL Automated Personalization] Activiteit?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ De [!UICONTROL Automated Personalization] (AP) werkstroom in [!DNL Adobe Target]
 
    >[!NOTE]
    >
-   >Hoewel u tot 30.000 ervaringen in een AP activiteit kunt tot stand brengen, presteert de activiteit het best wanneer minder dan 5.000 ervaringen worden gebruikt.
+   >Hoewel u tot 30.000 ervaringen in een AP activiteit kunt tot stand brengen, presteert de activiteit het best wanneer minder dan 5.000 ervaringen worden gebruikt. Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie.
 
    De [!UICONTROL Experiences] in de lijst worden alle inhoud weergegeven die is geselecteerd voor de activiteit en de locatie waaraan deze is toegewezen.
 
@@ -106,7 +106,7 @@ De [!UICONTROL Automated Personalization] (AP) werkstroom in [!DNL Adobe Target]
 
    ![Het tabblad Uitsluitingsgroepen van het dialoogvenster Inhoud beheren](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, voert het algoritme zijn beste uit wanneer minder dan 10.000 verschillende ervaringen worden gebruikt.
+   Hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, voert het algoritme zijn beste uit wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie.
 
    Als er momenteel geen uitsluitingsgroepen in uw activiteit zijn opgenomen, klikt u op **Uitsluitingsgroep maken**. U kunt filteren om een lijst te creëren die slechts de combinaties toont u wilt uitsluiten. Geef uw uitsluitingsgroep een naam en klik op **Opslaan**.
 
