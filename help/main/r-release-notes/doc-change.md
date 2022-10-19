@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 19 oktober | [Categorie-affiniteit](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Er is een notitie toegevoegd waarin wordt uitgelegd hoe u scoring uitvoert wanneer meerdere categorieën worden doorgegeven binnen een enkele postbusaanroep. |
 | 18 oktober | [Een [!UICONTROL Automated Personalization] activiteit](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Bijgewerkte tekst om erop te wijzen dat hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, het algoritme zijn best uitvoert wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie. |
 |  | [Veelgestelde vragen over Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Bijgewerkte tekst om erop te wijzen dat hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, het algoritme zijn best uitvoert wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie. |
 | 14 oktober | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens over de [!DNL Adobe Target] Koffiepauze voor vragen en antwoorden van de Gemeenschap (26 oktober 2022). |

@@ -4,9 +4,9 @@ description: Meer informatie over rubriekaffiniteit in [!DNL Adobe Target] die a
 title: Wat is rubriekaffiniteit?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '817'
 ht-degree: 3%
 
 ---
@@ -49,6 +49,10 @@ Het categorieaffiniteitsalgoritme werkt als volgt:
 * Als er al op een categorie is geklikt (weergegeven), wordt 1 van alle andere categorieën niet verwijderd als u er nogmaals op klikt
 * Als op een zesde nieuwe categorie wordt geklikt, wordt de laagste scorecategorie van de eerste vijf categorieën uit de berekening verwijderd
 * Verdeel aan het einde van de sessie alle waarden door 2
+
+>[!NOTE]
+>
+>Wanneer verscheidene categorieën binnen één enkele brievenbusvraag worden overgegaan, de orde van categorieën in `categoryAffinities` is niet gegarandeerd. Een willekeurige categorie wordt eerst opgenomen en krijgt een score van 10.
 
 ### Voorbeeld: categorieaffiniteitalgoritme
 
