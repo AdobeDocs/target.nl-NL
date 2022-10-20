@@ -4,9 +4,9 @@ description: Meer informatie over bekende problemen in Adobe Target, waaronder i
 title: Waar kan ik informatie vinden over bekende problemen en opgeloste problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,32 +27,16 @@ De volgende secties geven een overzicht van de bekende problemen voor [!DNL Targ
 
 Poging om inactief te archiveren [!UICONTROL Auto-Target] activiteiten kunnen leiden tot synchronisatieproblemen. Niet archiveren totdat dit probleem is opgelost [!UICONTROL Auto-Target] activiteiten. Laat ze in de [!UICONTROL Inactive] status. (TGT-40885)
 
-### Het laden van een pagina in Visual Experience Composer (VEC) annuleren {#cancel}
-
-* Het volgende bekende probleem bestaat momenteel wanneer u het laden van een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) activiteit binnen VEC die een omleidingsURL bevat.
-
-   Als u in stap een van de VEC-workflow met instructies het laden van pagina&#39;s annuleert, wordt de [!UICONTROL Modifications] in de VEC-weergaven en de omleiding naar de URL-sjabloon wordt toegepast op de ervaring (bijvoorbeeld &#39;Experience B&#39;). Wanneer u naar stap twee of drie gaat en vervolgens terugkeert naar stap één, doet zich de volgende situatie voor.
-
-   Bij &quot;Experience B&quot; wordt standaard de sjabloon voor het laden van de geannuleerde website weergegeven en wordt de [!UICONTROL Modifications] is toegankelijk, wat niet het geval zou moeten zijn omdat deze ervaring een omleiding naar toegepaste malplaatje URL heeft. De omleiding naar URL-sjabloon moet worden weergegeven.
-
-   Om de juiste stand van de ervaring in de VEC aan te tonen:
-
-   Als u overschakelt naar een andere ervaring en vervolgens terugschakelt naar &quot;Experience B,&quot; [!DNL Target] geeft de omleiding naar de URL-sjabloon weer die op deze ervaring is toegepast en de [!UICONTROL Modifications] is niet toegankelijk. (TGT-32138)
-
-* Als u het laden annuleert voor websites van de toepassing Eén pagina (SPA), kunt u handelingen niet bewerken in het kader van de [!UICONTROL Modifications] deelvenster.
-
 ### Recommendations
 
 De volgende problemen zijn bekend met: [!UICONTROL Recommendations] activiteiten:
 
 * Wanneer [!DNL Target] retourneert een JSON-aanbieding met getOffer(), het retourneert het type JSON. Als u echter een JSON Recommendations-ontwerp retourneert, retourneert dit met een type HTML.
-* Entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. (IRI-857)
-* De &quot;Gebruiksinformatie&quot;-overlays voor Criteria en Ontwerpen weerspiegelen hun gebruik in A/B en de Ervaring gerichte activiteiten (TGT-34331) niet
+* Verlopen entiteiten verlopen correct na 60 dagen na ontvangst van geen updates via feed of API. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. Entiteiten die via feed of API zijn verwijderd, worden momenteel ook niet verwijderd uit de zoekindex van de catalogus. (IRI-857)
 * Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
 * Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, worden die veranderingen niet weerspiegeld in het Doel UI. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan. (TGT-35777)
 * Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
 * De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)
-* De criteria en de ontwerpkaarten geven niet het juiste aantal activiteiten aan waarin zij worden gebruikt. Indien de criteria of het ontwerp in een A/B-activiteit worden gebruikt, kan de kaart ten onrechte aantonen dat het ontwerp of de criteria niet worden gebruikt, zelfs wanneer het ontwerp of de criteria in de activiteit worden gebruikt. (TGT-36621, TGT-37217)
 
 ### MVT-activiteiten (Multivariate Test)
 
