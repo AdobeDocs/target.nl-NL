@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
+source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,28 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Target] Standard/Premium 22.10.3 (gefaseerde release 25-27 oktober 2022)
+
+Deze release is beschikbaar volgens het volgende schema:
+
+* **25 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
+* **26 oktober**: Regio Azië-Stille Oceaan (APAC)
+* **27 oktober**: Amerikaanse regio
+
+Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
+
+| Functie | Details |
+| --- | --- |
+| [!DNL Recommendations] | Vriendelijke namen toegevoegd in [!UICONTROL Analytics for Target] A4T-rapportage. Eerder [!DNL Target] Alleen vermelde ervaring-id&#39;s. Dankzij deze verbetering kunt u de rapportage afstemmen op [!DNL Adobe Analytics] en [!DNL Target] en helpt klanten het samenstellen van rapporten in A4T stroomlijnen. (TGT-41853) |
+| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<br>(Beschikbaar om klanten te selecteren voor testen. In een toekomstige release beschikbaar voor alle klanten.) | Houd rekening met de volgende wijzigingen:<ul><li>Extra ondersteuning voor binaire en maximalisatiemetriek in [!UICONTROL Analytics for Target] A4T-rapportage voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten</li><li>Behoud van gedrag voor bestaande activiteiten tot februari 2023. Na deze datum zullen de activiteiten worden stopgezet om de migratie van bestaande activiteiten naar nieuw gedrag af te dwingen</li><li>Vanaf 20 februari 2023, ondersteuning voor `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden afgekeurd .</li></ul> |
+
+* Extra knopinfo in het dialoogvenster [!DNL Target] UI om klanten te helpen efficiënter navigeren de publieksbouwer en te leren hoe te om eigenschappen te gebruiken die onvertrouwd zouden kunnen zijn. (TGT-44139)
+* Extra functionaliteit om te voorkomen dat klanten een activiteit bewerken die door [!DNL Target] omdat er niet-ondersteunde meetgegevens worden gebruikt. Een bericht in UI geeft klanten de opdracht om de activiteit te dupliceren en dan omzettings metrisch bij te werken.
+
+   Met deze release `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden vervangen voor nieuwe activiteiten . Bestaande activiteiten kunnen deze cijfers blijven gebruiken tot februari 2023. (TGT-43860, TGT-43861, &amp; TGT-43650)
+
+* Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen een optimalisatiecriteria te selecteren terwijl het creëren van of het uitgeven van een [!UICONTROL Auto-Target] activiteit die A4T gebruikt. (TGT-43713)
 
 ## [!DNL Target] Standard/Premium 22.10.1 (gefaseerde release 10-13 oktober 2022)
 
