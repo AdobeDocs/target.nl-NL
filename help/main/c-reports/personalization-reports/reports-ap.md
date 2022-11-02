@@ -4,7 +4,7 @@ description: Leer hoe u het Automated Personalization Summary-rapport in Adobe T
 title: Hoe gebruik ik de samenvattingsrapporten van Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -48,11 +48,11 @@ Klik op het ervaringsalgoritme (Willekeurig bos of besturingselement) om het dia
 
 ![Rapport op aanbodniveau in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-De aanbiedingen kunnen binnen rapportgroepen worden getoond, en deze rapportgroepen kunnen worden doen ineenstorten en worden uitgebreid. Selecteren [!UICONTROL Reporting Group] in de drop-down lijst aan mening opgerolde informatie door rapporteringsgroepen, eerder dan door aanbiedingen.
-
 >[!NOTE]
 >
->Het klokpictogram wijst erop dat het algoritmemodel nog bouwt. Het pictogram van het vinkje geeft aan dat het basisalgoritme is ingesteld.
+>Een klokpictogram geeft aan dat het algoritmemodel nog steeds bezig is met samenstellen. Een vinkje geeft aan dat het basisalgoritme is ingesteld.
+
+Aanbiedingen kunnen worden weergegeven binnen [rapportagegroepen](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)en deze rapportagegroepen kunnen worden samengevouwen en uitgebreid. Klikken **[!UICONTROL Control]** of **[!UICONTROL Targeted]** in de lijst aan meningsopgerolde informatie door rapporteringsgroepen, eerder dan door aanbiedingen.
 
 ## Geautomatiseerde segmenten
 
