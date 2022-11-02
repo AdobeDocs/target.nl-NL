@@ -4,9 +4,9 @@ description: Leer hoe u rapportgroepen kunt aanbieden in Adobe [!DNL Target] [!U
 title: Kan ik rapportagegroepen voor aanbiedingen gebruiken bij Automated Personalization-activiteiten?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Wanneer u rapportgroepen gebruikt, [!DNL Target] leidt tot één verpersoonlijki
 
 Als uw activiteitenopstelling niet genoeg gegevens voor een verpersoonlijkingsmodel heeft dat per aanbieding moet worden gebouwd, kunnen de rapportagegroepen helpen de gegevensvereisten aan gebruik verminderen [!UICONTROL Automated Personalization]. Rapportagegroepen kunnen ook helpen het &quot;koudstartprobleem&quot;voor nieuwe aanbiedingen op te lossen door gelijkaardige aanbiedingen te groeperen zodat elk model meer gegevens krijgt om op te leiden. U kunt modelleringsgroepen ook gebruiken voor activiteiten waarbij regelmatig nieuwe aanbiedingen aan uw AP-activiteit worden toegevoegd.
 
-Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbiedingen in een groep. De beste manier is om aanbiedingen te groeperen waarop vergelijkbare groepen bezoekers op dezelfde manier reageren. Met andere woorden, groepsobjecten met vergelijkbare conversiekoersen. Je mag niet alle voorstellen in één rapportagegroep plaatsen. Het groeperen van alle aanbiedingen of het groeperen van aanbiedingen met zeer verschillende omzettingspercentages vermindert waarschijnlijk de doeltreffendheid van de [!DNL Target] personalisatiemodellen.
+Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbiedingen in een groep. De beste manier is om aanbiedingen te groeperen waarop vergelijkbare groepen bezoekers op dezelfde manier reageren. Met andere woorden, groepsobjecten met vergelijkbare conversiekoersen. Je mag niet alle voorstellen in één rapportagegroep plaatsen. Het groeperen van alle aanbiedingen of het groeperen van aanbiedingen met verschillende omrekeningskoersen vermindert waarschijnlijk de doeltreffendheid van [!DNL Target] personalisatiemodellen.
 
 >[!NOTE]
 >
@@ -49,9 +49,17 @@ Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbied
 
    of
 
-   Als u een nieuwe rapportgroep wilt maken waaraan u de geselecteerde aanbieding wilt toewijzen, selecteert u **[!UICONTROL New]**, noem de nieuwe rapportgroep en klik vervolgens op **[!UICONTROL Apply]**.
+   Als u een rapportgroep wilt maken waaraan u de geselecteerde aanbieding wilt toewijzen, selecteert u **[!UICONTROL New]**, noem de nieuwe rapportgroep en klik vervolgens op **[!UICONTROL Apply]**.
 
    ![Nieuw pictogram om een nieuwe rapportgroep te maken](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+U kunt de [!UICONTROL Location] lijst om aanbiedingen te filteren op locatie. Gebruik de [!UICONTROL Report Group] lijst aan filteraanbiedingen door rapporterende groepen. U kunt ook de opdracht [!UICONTROL Report Group] lijst die moet worden gefilterd voor [!UICONTROL Unassigned Offers] zodat kunt u een rapportgroep aan een aanbieding toewijzen die momenteel niet aan om het even welke rapporteringsgroep wordt toegewezen.
+
+Voor informatie over het richten van een aanbieding aan specifiek publiek, zie [AP-doelaanbiedingen](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## Caveats
+
+* Het is belangrijk te begrijpen dat rapportagegroepen invloed hebben op de manier waarop [!DNL Target] bouwt zijn modellen. Dientengevolge [!DNL Adobe] U kunt alleen rapportgroepen gebruiken als u nieuwe voorstellen wilt vervangen of toevoegen terwijl een activiteit actief is. Als een nieuwe aanbieding wordt geïntroduceerd in een live-activiteit, kan de machine de gegevens die reeds voor de andere aanbiedingen in haar groep zijn verzameld, gebruiken om meer te leren over de nieuwe aanbieding. Je mag niet alle voorstellen in één rapportagegroep plaatsen.
 
 ## Voorstellen weergeven in een rapportgroep
 
