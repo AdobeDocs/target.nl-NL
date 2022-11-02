@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over het gebruik van omleidingsaanbieding
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gevraagd over het gebru
 ## Biedt Analytics for Adobe Target (A4T) ondersteuning voor omleidingsaanbiedingen? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Ja, als uw implementatie gebruikmaakt van [!DNL at.js]. Uw implementatie moet echter voldoen aan de onderstaande minimumvereisten om te kunnen worden gebruikt [omleiding van aanbiedingen](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activiteiten die Analytics als rapportbron gebruiken.
-
->[!NOTE]
->
->Een bekende kwestie weggaat die een beperkt aantal klanten veroorzaakt die omleidingen met A4T gebruiken om een hoger percentage van unstitched hit tarieven te zien. Zie [Bekende problemen en opgeloste problemen](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Wat zijn de minimumeisen om aanbiedingen om te leiden met A4T te gebruiken? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -61,8 +57,6 @@ Als u een vroegere, niet-gesteunde versie van at.js gebruikt, is er een mogelijk
 Het wordt aanbevolen om met de op formulieren gebaseerde composer een omleidingsactiviteit te maken om de omleiding van de pagina te versnellen, omdat de code op de pagina wordt uitgevoerd. Bovendien wordt het aangeraden een omleidingsaanbieding voor elke ervaring te maken, zelfs voor de standaardervaring, waarbij omleiding de oorspronkelijke pagina zou retourneren. Het creëren van een omleidingsaanbieding voor elke ervaring zorgt ervoor dat als fout-telling voorkomt, het over alle ervaringen gebeurt. Rapportage en analyse zijn nog steeds geldig voor de test.
 
 Eén reden dat u omleidingsaanbiedingen wilt gebruiken voor alle ervaringen in de activiteit, inclusief de standaardeigenschap (controle), is om dezelfde voorwaarden op alle ervaringen te plaatsen. Bijvoorbeeld, als de standaardervaring geen omleidingsaanbod heeft maar de andere ervaringen hebben omleidingsaanbiedingen, heeft de snelheid van de ervaring zonder de omleidingsaanbieding een inherent voordeel. Aanbiedingen voor omleiding worden alleen aanbevolen voor tijdelijke scenario&#39;s, zoals testen. Het doorsturen van aanbiedingen wordt niet aanbevolen voor permanente scenario&#39;s, zoals personalisatie. Nadat u de winnaar hebt bepaald, moet u de omleiding verwijderen om de prestaties bij het laden van de pagina te verbeteren.
-
-Voor meer informatie over dit onderwerp raadpleegt u de informatie over aanbiedingen doorsturen in [Bekende problemen](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Wordt zowel Visual Experience Composer (VEC) als Form-Based Experience Composer ondersteund? {#section_FDA26FE7909B48539DA770559E687677}
 
@@ -129,4 +123,4 @@ Ja, de [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visu
 
 ### Kan ik aangepaste/HTML omleidingsvoorstellen gebruiken met de [!DNL Platform Web SDK]?
 
-Nee, u moet een ingebouwde omleidingsaanbieding gebruiken voor activiteiten die A4T gebruiken. Van de [!DNL Target] HTML-aanbiedingen zijn dekkend. [!DNL Target] U kunt niet weten dat een bepaald stuk HTML JavaScript bevat dat een omleiding instantieert.
+Nee, u moet een ingebouwde omleidingsaanbieding gebruiken voor activiteiten die A4T gebruiken. Van de [!DNL Target] HTML-aanbiedingen zijn dekkend. [!DNL Target] kan niet weten dat een bepaald deel van HTML JavaScript bevat dat een omleiding concretiseert.

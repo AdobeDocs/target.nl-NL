@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 2 november | Bekende problemen en opgeloste problemen | De pagina is verwijderd en de relevante problemen zijn verplaatst naar de juiste pagina&#39;s, zodat de informatie in context wordt geplaatst. |
 | 25 oktober | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.10.3. |
 | 19 oktober | [Categorie-affiniteit](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Er is een notitie toegevoegd waarin wordt uitgelegd hoe u scoring uitvoert wanneer meerdere categorieën worden doorgegeven binnen een enkele postbusaanroep. |
 | 18 oktober | [Een [!UICONTROL Automated Personalization] activiteit](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Bijgewerkte tekst om erop te wijzen dat hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, het algoritme zijn best uitvoert wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie. |
@@ -103,7 +104,6 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | 22 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Informatie over de toegevoegde versie [!DNL Target Standard/Premium] release van oplossingen voor klantentechnologie. |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] 22.3.1. |
 | 17 maart | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] release van oplossingen voor klantentechnologie. |
-| 9 maart | [Bekende problemen en opgeloste problemen](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Het volgende bekende probleem is toegevoegd:<ul><li>Locaties verwijderen die een ad-hocaanbieding hebben in activiteiten die zijn gemaakt in de Form-Based Experience Composer</li></ul> |
 |  | [Real-time profielsynchronisatie voor mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | De volgende zin voor profielsynchronisatie is bijgewerkt: &quot;Updates worden om de 5-10 minuten gesynchroniseerd met het profielarchief.&quot; |
 | 8 maart | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffiepauze EU-Koffie (30 maart 2022)</li></ul> |
 | 7 maart | [Soorten publiek maken](/help/main/c-target/c-audiences/audiences.md#aep) | Nieuwe sectie toegevoegd onder &quot;Gebruik publiek van [!DNL Adobe Experience Platform]:&quot;<ul><li>Gebruikszaken aanpassen</li></ul> |

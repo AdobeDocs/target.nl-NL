@@ -4,9 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe weergeve
 title: Waar kan ik vragen en antwoorden vinden over [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ De volgende wijzigingen worden pas doorgevoerd wanneer het volgende algoritme wo
 * Een wijziging in andere criteria wordt mogelijk pas doorgevoerd bij de volgende uitvoering van het algoritme:
 
    * Bepaalde criteria-instellingen (bijvoorbeeld &#39;toevoeging van een regel voor dynamische insluiting&#39;) worden direct weerspiegeld.
-   * Andere criteria-instellingen (bijvoorbeeld &quot;verwijdering van een regel voor dynamische insluiting&quot;, wijziging van terugzoekvenster enzovoort) kunnen pas worden opgenomen als het volgende algoritme wordt uitgevoerd.
+   * Andere criteria kunnen de montages (bijvoorbeeld &quot;verwijdering van een dynamische inclusieregel&quot;, verandering van raadplegingsvenster, etc.) niet tot de volgende algoritmelooppas worden opgenomen.
    * De looppas van het algoritme wordt teweeggebracht door deze veranderingen maar kan tot 24 uren vergen om worden voltooid. Algoritmen lopen ook op een geplande basis om de 12-24 uur.
 
 ## Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) in de aanbevelingen wordt weerspiegeld *dat* gebruiker ontvangt?
@@ -131,7 +131,7 @@ Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerd
 * Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren de index (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;) is. U kunt de index naar wens vernieuwen.
 * Heeft u iets in de feed of de gegevenslaag gewijzigd waardoor de entiteiten niet meer overeenkomen met de verzamelingsregels? Zorg ervoor dat uw HOOFDLETTERS overeenkomen (hoofdlettergevoelig).
 * Is uw feed gelukt? Heeft iemand de FTP-map, het wachtwoord enzovoort gewijzigd?
-* [!DNL Target] doet zijn best om updates aan de levering (op de pagina van de klant/app) te maken zo snel mogelijk gebeuren. Toch [!DNL Target] ook moet één of andere vertegenwoordiging in UI voor de telleraar verstrekken. [!DNL Target] zorgt ervoor dat de leveringsupdates niet worden vertraagd totdat de UI-updates gesynchroniseerd zijn. U kunt [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) om te zien wat er in het systeem staat op het moment dat een verzoek wordt ingediend.
+* [!DNL Target] doet zijn best om updates voor de levering (op de pagina/app van de klant) zo snel mogelijk uit te voeren. Toch [!DNL Target] ook moet één of andere vertegenwoordiging in UI voor de telleraar verstrekken. [!DNL Target] zorgt ervoor dat de leveringsupdates niet worden vertraagd totdat de UI-updates gesynchroniseerd zijn. U kunt [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) om te zien wat er in het systeem staat op het moment dat een verzoek wordt ingediend.
 
 ## Wat is het verschil tussen de algemene weging van de Waarden van Attributen en Inhoud gelijksoortig-specifieke attributen? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -251,7 +251,7 @@ Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen ite
 
 1. Geef de publicatiedatum van het artikel in de notatie JJMMDDD door als een attribuut van de douaneentiteit.
 1. Maak een profielscript dat de datum minus 60 dagen van vandaag is, ook in de notatie JJJMMDD.
-1. Gebruik een dynamisch inclusiefilter in de criteria zodat `publish date > today’s date minus 60 days`.
+1. Gebruik een dynamisch inclusiefilter in de criteria zodat `publish date > today's date minus 60 days`.
 
 ### Geef de publicatiedatum door als een aangepast entiteitskenmerk:
 
@@ -274,3 +274,14 @@ Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen ite
 >[!NOTE]
 >
 >Dit voorbeeld kan ook worden uitgevoerd door parameter matching en het doorgeven van `priorDate60` waarde als een mbox-parameter.
+
+### Wat zijn enkele bekende problemen bij gebruik [!DNL Recommendations] activiteiten?
+
+De volgende problemen zijn bekend met: [!UICONTROL Recommendations] activiteiten:
+
+* Wanneer [!DNL Target] retourneert een JSON-aanbieding met getOffer(), het retourneert het type JSON. Als u echter een JSON Recommendations-ontwerp retourneert, retourneert dit met een type HTML.
+* Verlopen entiteiten verlopen correct na 60 dagen na ontvangst van geen updates via feed of API. de verlopen entiteiten worden echter niet na het verlopen van de zoekindex van de catalogus verwijderd. Entiteiten die via feed of API zijn verwijderd, worden momenteel ook niet verwijderd uit de zoekindex van de catalogus. (IRI-857)
+* Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
+* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, worden die veranderingen niet weerspiegeld in het Doel UI. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan. (TGT-35777)
+* Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
+* De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)

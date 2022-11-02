@@ -1,12 +1,12 @@
 ---
 keywords: composer voor visuele ervaring;vec;wysiwyg
-description: Learn the basics of using the Visual Experience Composer (VEC) in Adobe Target. VEC is een redacteur WYSIWYG die u gemakkelijk gepersonaliseerde ervaringen laat tot stand brengen.
+description: Leer de grondbeginselen van het gebruiken van Visual Experience Composer (VEC) in Adobe Target. VEC is een redacteur WYSIWYG die u gemakkelijk gepersonaliseerde ervaringen laat tot stand brengen.
 title: Hoe gebruik ik de Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Informatie over het gebruik van de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
 
-VEC is een WYSIWYG gebruikersinterface die u gemakkelijk gepersonaliseerde ervaringen en aanbiedingen in de plaatscontext kunt creëren en testen. You can create experiences and offers for Target activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page.
+VEC is een WYSIWYG gebruikersinterface die u gemakkelijk gepersonaliseerde ervaringen en aanbiedingen in de plaatscontext kunt creëren en testen. U kunt ervaringen en aanbiedingen voor doelactiviteiten maken door te slepen en neer te zetten, te wisselen en de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina te wijzigen.
 
 De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target]. Met VEC kunnen marketers en ontwerpers inhoud maken en wijzigen via een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. U kunt HTML en JavaScript ook bewerken met de bewerkingsopties in de composer.
 
@@ -29,25 +29,25 @@ Deze URL bepaalt waar u begint wanneer u VEC opent. Als u geen gebrek ingaat, da
 >
 >Bepaalde browsers, zoals Firefox, kunnen voorkomen dat een pagina in de VEC wordt weergegeven als de pagina gemengde inhoud bevat (bijvoorbeeld een niet-beveiligde pagina op een beveiligde site). Als de pagina niet wordt weergegeven, klikt u op het pictogram naast de URL in de adresbalk van de browser en klikt u op **[!UICONTROL Disable protection on this page]**. Dit probleem heeft geen invloed op de weergave van uw pagina&#39;s aan sitebezoekers.
 
-Inhoud in een iframe op de pagina kan niet worden gewijzigd in de VEC. To edit content within an iframe, ensure that the iframe document is Target-enabled, then load that iframe URL in the VEC.
+Inhoud in een iframe op de pagina kan niet worden gewijzigd in de VEC. Als u de inhoud in een iframe wilt bewerken, moet u ervoor zorgen dat het iframe-document is ingeschakeld en moet u die iframe-URL vervolgens in de VEC laden.
 
-U kunt de vervolgkeuzemenu&#39;s boven aan de pagina gebruiken om de pagina zo te bekijken dat deze bij verschillende doelgroepen of met verschillende ervaringen wordt weergegeven. U kunt een naam opgeven voor elke ervaring in de tweede vervolgkeuzelijst. For example, if you are testing the location of the Home link in your nav bar, you might name an experience where the Home link appears first something like, &quot;Home link&quot; to make it easier to identify the experiences in the list.
+U kunt de vervolgkeuzemenu&#39;s boven aan de pagina gebruiken om de pagina zo te bekijken dat deze bij verschillende doelgroepen of met verschillende ervaringen wordt weergegeven. U kunt een naam opgeven voor elke ervaring in de tweede vervolgkeuzelijst. Als u bijvoorbeeld de locatie van de koppeling Home op de navigatiebalk test, kunt u een ervaring benoemen waarin de koppeling Home eerst wordt weergegeven, bijvoorbeeld &quot;Koppeling Start&quot;, zodat u gemakkelijker de ervaringen in de lijst kunt identificeren.
 
 >[!NOTE]
 >
 >Wijzigingen in de structuur van een pagina die van invloed zijn op de locaties die worden gebruikt in een activiteit die op die pagina is gemaakt, kunnen problemen veroorzaken met het bewerken van ervaringen. Als een locatie buiten de VEC is gewijzigd, kan Target mogelijk niet de locatie vinden waar de inhoud is gewijzigd.
 
-As you move your mouse around the page, a context-sensitive box follows the cursor, highlighting the elements on the page.
+Terwijl u de muis over de pagina beweegt, volgt er een contextgevoelig vak de cursor, waarin de elementen op de pagina worden gemarkeerd.
 
 ![VEC gemarkeerd](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-Klik op de knop **[!UICONTROL Overlays]** om de manier te wijzigen waarop de markering wordt weergegeven. U kunt bijvoorbeeld alleen afbeeldingen, koppelingen, regionale vakken, wijzigingen of JavaScript markeren. U kunt de kleur van de markering wijzigen. You can also specify a highlight color and type of fill used to highlight different element types.
+Klik op de knop **[!UICONTROL Overlays]** om de manier te wijzigen waarop de markering wordt weergegeven. U kunt bijvoorbeeld alleen afbeeldingen, koppelingen, regionale vakken, wijzigingen of JavaScript markeren. U kunt de kleur van de markering wijzigen. U kunt ook een markeerkleur en een type vulling opgeven waarmee verschillende elementtypen worden gemarkeerd.
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+![Bedekkingsinstellingen wijzigen](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Click a highlighted element for a menu of options available for that element type For example, you can click on an image and select **[!UICONTROL Edit > Text/HTML]** to change the text, or click a button and change the background color. Met de knoppen linksboven op de pagina kunt u de overlays in- en uitschakelen.
+Klik op een gemarkeerd element voor een menu met opties die beschikbaar zijn voor dat elementtype. U kunt bijvoorbeeld op een afbeelding klikken en **[!UICONTROL Edit > Text/HTML]** om de tekst te wijzigen of op een knop te klikken en de achtergrondkleur te wijzigen. Met de knoppen linksboven op de pagina kunt u de overlays in- en uitschakelen.
 
-You can also click **[!UICONTROL Browse]**, then navigate to a page that is available from the primary page, such as a shipping page or shopping cart, and test changes on that page. U kunt ook pagina-elementen openen die beschikbaar zijn wanneer u de muisaanwijzer houdt, zoals vervolgmenu&#39;s en mini-carts. Als u klaar bent met bladeren naar de pagina, klikt u op **[!UICONTROL Compose]** om de ervaring te bewerken. U kunt bijvoorbeeld het ontwerp van een keuzelijst met winkelwagentjes of een carrousel met afbeeldingen wijzigen.
+U kunt ook op **[!UICONTROL Browse]** Navigeer vervolgens naar een pagina die beschikbaar is op de primaire pagina, zoals een verzendpagina of winkelwagentje, en test de wijzigingen op die pagina. U kunt ook pagina-elementen openen die beschikbaar zijn wanneer u de muisaanwijzer houdt, zoals vervolgmenu&#39;s en mini-carts. Als u klaar bent met bladeren naar de pagina, klikt u op **[!UICONTROL Compose]** om de ervaring te bewerken. U kunt bijvoorbeeld het ontwerp van een keuzelijst met winkelwagentjes of een carrousel met afbeeldingen wijzigen.
 
 >[!NOTE]
 >
@@ -66,23 +66,23 @@ U kunt vele acties uitvoeren alvorens de pagina in VEC laadt, of zelfs als de pa
 
 Enkele redenen waarom u toegang wilt hebben tot een pagina of wijzigingen wilt aanbrengen in een pagina terwijl deze wordt geladen in de VEC of nadat het laden is mislukt:
 
-* You want to make a simple modification to a page, such as to add custom code or change an experience&#39;s name
+* U wilt een eenvoudige wijziging aanbrengen in een pagina, zoals het toevoegen van aangepaste code of het wijzigen van de naam van een ervaring
 * U wilt bestaande aangepaste code kopiëren van een pagina die niet meer toegankelijk is
 * U weet dat een pagina niet wordt geladen in de VEC, maar u wilt toch eenvoudige bewerkingen uitvoeren
 
-While the page loads (or after it fails to load), the [!UICONTROL Experiences] panel, [!UICONTROL Modifications] panel, and the settings at the top of the experience (Overlays, Modifications, Configure, and so forth) are all accessible.
+Terwijl de pagina wordt geladen (of nadat deze niet is geladen), worden de [!UICONTROL Experiences] paneel, [!UICONTROL Modifications] en de instellingen boven aan de ervaring (Bedekkingen, Wijzigingen, Configureren, enzovoort) zijn allemaal toegankelijk.
 
 In de volgende afbeelding ziet u dat u aangepaste code kunt invoegen of andere handelingen kunt uitvoeren terwijl de pagina nog steeds wordt geladen:
 
 ![Pagina laden](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/loading-page.png)
 
-## Cancel loading of a page within the VEC {#cancel-loading}
+## Het laden van een pagina in de VEC annuleren {#cancel-loading}
 
 U kunt het laden van een pagina in VEC annuleren om het bewerken van de activiteit te ontgrendelen zonder te wachten tot de pagina is geladen. Met deze functie bespaart u tijd en kunt u eenvoudige bewerkingen uitvoeren of aangepaste code efficiënter invoegen zonder te wachten tot de pagina in de VEC is geladen.
 
 Enkele redenen waarom u het laden van pagina&#39;s in de VEC wilt annuleren, zijn:
 
-* You want to make minor edits to existing modifications
+* U wilt kleine wijzigingen aanbrengen in bestaande wijzigingen
 * U wilt een of meer bestaande wijzigingen verwijderen
 * U wilt aangepaste code invoegen of bewerken
 * U hebt per ongeluk de onjuiste URL voor de pagina ingevoerd
@@ -98,17 +98,13 @@ Nadat u het laden van de pagina in VEC hebt geannuleerd, kunt u schakelen tussen
 
 Als u het laden van een pagina in de VEC wilt annuleren, klikt u op de knop **[!UICONTROL Cancel Loading]** terwijl de pagina wordt geladen. De pagina wordt tijdens de huidige bewerkingssessie niet in de VEC voor deze activiteit geladen.
 
-![Cancel Loading button](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
+![De knop Laden annuleren](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
 Als u ervaringen in de huidige activiteit wilt blijven beheren of nieuwe wijzigingen wilt toevoegen, klikt u op de knop **[!UICONTROL Reload]** knop.
 
 ![Knop Opnieuw laden](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
->[!NOTE]
->
->There is a current known issue with this feature that will be fixed in the next release. Zie &quot;Het laden van een pagina in de VEC annuleren&quot; op de pagina [Bekende problemen en opgeloste problemen](/help/main/r-release-notes/known-issues-resolved-issues.md#cancel) pagina.
-
-## Training videos
+## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
@@ -119,7 +115,7 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/main/assets/tutorial.png)
+### Visual Experience Composer (2 van 2) (7:29) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 
 * Een ervaring hernoemen en dupliceren
 * Omleiden maken
@@ -130,9 +126,9 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Office hours: Visual Experience Composer ![Tutorial badge](/help/main/assets/tutorial.png)
+### Kantooruren: Visual Experience Composer ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 
-This video is a recording of &quot; [Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot; an initiative led by the Adobe Customer Care team.
+Deze video is een opname van &quot; [Kantooruren](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot; een initiatief dat wordt geleid door het Adobe-team van de klantenservice.
 
 * Hoe werkt VEC
 * Hoe te vermijden gemeenschappelijke kwesties met VEC

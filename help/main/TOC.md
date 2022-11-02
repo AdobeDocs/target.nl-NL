@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 0%
    + [Opmerkingen bij de doelversie (huidig)](r-release-notes/release-notes.md)
    + [Opmerkingen bij de release Doel (preRelease)](r-release-notes/target-release-notes.md)
    + [Overzicht van doeldocumentatie](/help/main/r-release-notes/target-documentation.md)
-   + [Bekende problemen en opgeloste problemen](r-release-notes/known-issues-resolved-issues.md)
    + [Systeemstatusupdates en proactieve meldingen](r-release-notes/system-status-updates.md)
    + [Documentatiewijzigingen](r-release-notes/doc-change.md)
    + [Opmerkingen bij de release van vorige releases](r-release-notes/release-notes-for-previous-releases.md)
