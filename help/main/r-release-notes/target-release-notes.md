@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 | Functie | Details |
 | --- | --- |
-| [!DNL Recommendations] | Vriendelijke namen toegevoegd in [!UICONTROL Analytics for Target] A4T-rapportage. Eerder [!DNL Target] Alleen vermelde ervaring-id&#39;s. Dankzij deze verbetering kunt u de rapportage afstemmen op [!DNL Adobe Analytics] en [!DNL Target] en helpt klanten het samenstellen van rapporten in A4T stroomlijnen. (TGT-41853) |
 | Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<br>(Beschikbaar om klanten te selecteren voor testen. In een toekomstige release beschikbaar voor alle klanten.) | Houd rekening met de volgende wijzigingen:<ul><li>Extra ondersteuning voor binaire en maximalisatiemetriek in [!UICONTROL Analytics for Target] A4T-rapportage voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten</li><li>Behoud van gedrag voor bestaande activiteiten tot februari 2023. Na deze datum zullen de activiteiten worden stopgezet om de migratie van bestaande activiteiten naar nieuw gedrag af te dwingen</li><li>Vanaf 20 februari 2023, ondersteuning voor `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden afgekeurd .</li></ul> |
 
 * Extra knopinfo in het dialoogvenster [!DNL Target] UI om klanten te helpen efficiënter navigeren de publieksbouwer en te leren hoe te om eigenschappen te gebruiken die onvertrouwd zouden kunnen zijn. (TGT-44139)
