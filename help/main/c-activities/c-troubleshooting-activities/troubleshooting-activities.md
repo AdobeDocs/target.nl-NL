@@ -4,9 +4,9 @@ description: Vind het oplossen van problemensuggesties als uw Adobe [!DNL Target
 title: Hoe kan ik activiteiten problemen oplossen?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,6 @@ Wanneer u bepaalde acties uitvoert, zoals het activeren van een activiteit buite
 
 ## Na het omzetten van activiteiten heeft de bezoeker geen ervaring.
 
-Als de omzettingsmetrische waarde van de activiteit om voor een ervaring in aanmerking te komen in het zelfde wordt verzonden [!DNL Target] aanvraag als kwalificatie van de activiteit, heeft de bezoeker mogelijk geen ervaring nadat het verzoek is verzonden. In deze situatie ziet de bezoeker de standaardinhoud. [!DNL Adobe] Het wordt aanbevolen geen conversie en kwalificatie naar activiteit te verzenden in hetzelfde verzoek.
+In zeldzame gevallen, als de metrisch van de omzetting van de activiteit om voor een ervaring in aanmerking te komen in het zelfde verzoek wordt verzonden zoals activiteitenkwalificatie, zou de bezoeker in geen enkele ervaring kunnen zijn nadat het verzoek wordt verzonden. In dit geval ziet de bezoeker de standaardinhoud- en ervarings-id die via tokens wordt vastgelegd, op -1. [!DNL Adobe] adviseert het verzenden van activiteitenkwalificatie en omzetting in het zelfde niet [!DNL Target] verzoek.
 
-Als u beide instellingen in dezelfde aanvraag wilt verzenden, kunt u [!UICONTROL Advanced Settings] om aan te geven dat de bezoeker na de conversie in dezelfde ervaring blijft.
+Als u beide metriek in het zelfde verzoek wilt verzenden, kunt u gebruiken [!UICONTROL Advanced Settings] om aan te geven dat de bezoeker na de conversie in dezelfde ervaring blijft.

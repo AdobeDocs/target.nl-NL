@@ -5,9 +5,9 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 256
+   * waarde van profielparameter max. lengte 5000
 
    **API-eindpunt voor levering**:
 
@@ -203,7 +203,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 256
+   * waarde van profielparameter max. lengte 5000
 
 
 
