@@ -3,9 +3,9 @@ user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,7 @@ ht-degree: 0%
       + [Voorvertoning van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Automated Personalization-doelaanbiedingen](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](c-activities/t-automated-personalization/experience-as-control.md)
       + [Veelgestelde vragen over Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization-activiteiten voorvertonen met voorbeeld-URL&#39;s](c-activities/t-automated-personalization/experience-preview.md)
@@ -261,7 +262,6 @@ ht-degree: 0%
    + Persoonlijke rapporten {#personalization-reports}
       + [Samenvattingsrapport voor automatisch doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Samenvattingsrapporten van Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-      + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Verslag over persoonlijke inzichten {#insights}
       + [Overzicht van rapporten over persoonlijke inzichten](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport Automated Segments](c-reports/c-personalization-insights-reports/automated-segments-report.md)

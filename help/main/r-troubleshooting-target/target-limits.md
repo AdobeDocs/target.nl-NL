@@ -5,9 +5,9 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 * **Limiet**: 250 tekens.
 
-### mbox-parameters
+### mbox-parameters {#mbox-parameters}
 
 * **Limiet**: De volgende limieten gelden voor mbox-parameters:
 
@@ -192,7 +192,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 5000
+   * waarde van profielparameter max. lengte 256
 
    **API-eindpunt voor levering**:
 
@@ -203,7 +203,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 5000
+   * waarde van profielparameter max. lengte 256
 
 
 

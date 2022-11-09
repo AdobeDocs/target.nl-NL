@@ -4,7 +4,7 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
+source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -20,14 +20,6 @@ Aankondigingen en informatie over komende [!DNL Adobe Target] gebeurtenissen, wa
 Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] hebben de hoogste scores voor onze testmogelijkheden onder alle beoordeelde leveranciers ontvangen.
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-## [!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie
-
-Drew Burns, Group Product Marketing Manager voor [!DNL Adobe Target], zal uw [!DNL Target] vragen die verband houden met de meest recente opwindende aankondiging over de onlangs verbeterde intelligentie en controle van AI - eigenschappen , en over alle zaken personalisatie .
-
-* **Woensdag 26 oktober**
-* **09:00 - 10:00 (PDT, UTC -7)**
-* **[Registratiegegevens](https://adobe.ly/3e6gqHe){target=_blank}**
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 

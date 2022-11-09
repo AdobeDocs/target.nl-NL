@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,11 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 8 november | [Hoe lang moet u een A/B-test uitvoeren?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Belangrijke opmerking toegevoegd: voor nauwkeurige resultaten moet u de pagina opnieuw laden voordat u parameternummers in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Ook een notitie toegevoegd aan de huidige [rekenmachine](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}. |
+|  | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | De beschrijving van de `adobe_mc_sdid` in de tabel. |
+|  | [Problemen oplossen](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Nieuwe sectie toegevoegd: &quot;Na het omzetten van de activiteit, is de bezoeker geen ervaring.&quot; |
+|  | [Aangepaste parameters](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Toegevoegde opmerking dat het selectievakje dat u selecteert in het dialoogvenster [!UICONTROL Filter By] vervolgkeuzelijst wordt niet opgeslagen bij het maken van activiteiten. Met deze optie kunt u de parameters filteren op basis van het geselecteerde selectievakje. |
+|  | [Doelgrenzen](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | De maximale lengte van de profielparameter is gecorrigeerd. De limiet is 256 tekens. |
 | 2 november | Bekende problemen en opgeloste problemen | De pagina is verwijderd en de relevante problemen zijn verplaatst naar de juiste pagina&#39;s, zodat de informatie in context wordt geplaatst. |
 | 25 oktober | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.10.3. |
 | 19 oktober | [Categorie-affiniteit](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Er is een notitie toegevoegd waarin wordt uitgelegd hoe u scoring uitvoert wanneer meerdere categorieën worden doorgegeven binnen een enkele postbusaanroep. |

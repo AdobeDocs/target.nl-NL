@@ -4,9 +4,9 @@ description: Leer hoe u een [!UICONTROL Automated Personalization] (AP) activite
 title: Hoe maak ik een [!UICONTROL Automated Personalization] Activiteit?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ De [!UICONTROL Automated Personalization] (AP) werkstroom in [!DNL Adobe Target]
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Offers]** om stukken inhoud te selecteren en deze aan rapportagegroepen toe te wijzen, of alleen bepaalde bezoekers bepaalde aanbiedingen te laten zien waarvoor ze zich richten.
 
-   Zie voor meer informatie over rapportagegroepen [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   Zie voor meer informatie over rapportagegroepen [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Exclusion Groups]** om combinaties van elementen te kiezen die u van de activiteit wilt uitsluiten.
 

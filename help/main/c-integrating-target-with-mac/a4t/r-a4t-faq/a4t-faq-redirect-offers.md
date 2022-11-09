@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over het gebruik van omleidingsaanbieding
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ De volgende parameters van het vraagkoord worden geassocieerd met omleidingsaanb
 
 | Parameter | Beschrijving |
 |--- |--- |
-| `adobe_mc_sdid` | De `adobe_mc_sdid` De parameter gaat de Supplemental Identiteitskaart van Gegevens (SDID) en Experience Cloud die identiteitskaart van de standaardpagina tot de nieuwe pagina over. Met deze id&#39;s kan A4T het doelverzoek samenvoegen op de standaardpagina met het analyseverzoek op de nieuwe pagina. |
+| `adobe_mc_sdid` | De `adobe_mc_sdid` De parameter gaat de Supplemental Identiteitskaart van Gegevens (SDID) en Experience Cloud die identiteitskaart van de standaardpagina tot de nieuwe pagina over. Met deze id&#39;s kan A4T het doelverzoek samenvoegen op de standaardpagina met het analyseverzoek op de nieuwe pagina.<br>De verwachte indeling voor het doorgeven van gegevens in de URL (voor hybride apps of van de ene app naar de website of de ene website naar de andere) is `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | De `adobe_mc_ref` geeft de verwijzende URL van de standaardpagina door aan de nieuwe pagina. Wanneer deze parameter wordt gebruikt met AppMeturement.js versie 2.1 (of hoger), gebruikt Analytics deze parameterwaarde als verwijzende URL op de nieuwe pagina. |
 
 Deze parameters worden automatisch toegevoegd aan omleiding URLs wanneer het gebruiken van de ingebouwde omleidingsaanbiedingen in VEC en op vorm-Gebaseerde Composer van de Ervaring wanneer de dienst van Bezoeker Id op de pagina wordt uitgevoerd. Als u uw eigen aangepaste omleidingscode in de VEC of op vorm gebaseerde Composer gebruikt, moet u ervoor zorgen dat u deze parameters doorgeeft met uw aangepaste code.

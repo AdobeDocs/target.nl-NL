@@ -4,9 +4,9 @@ description: Leer hoe u aangepaste parameters kunt doorgeven [!DNL Adobe Target]
 title: Kan ik bezoekers richten die op de Parameters van de Douane worden gebaseerd?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, `mboxPara
    * Als u de naam van het selectievakje, maar niet de naam van de parameter, onthouden, gebruikt u de optie [!UICONTROL Filter by] vervolgkeuzelijst om te filteren op een bekende box die de gewenste parameter doorgeeft.
 
    Bij beide methoden is er geen koppeling tussen de mbox en de parameter. Het publiek werkt op basis van de parameter in alle vakken die die parameter doorgeven.
+
+   >[!NOTE]
+   >
+   >Het selectievakje dat u selecteert in het dialoogvenster [!UICONTROL Filter By] vervolgkeuzelijst wordt niet opgeslagen bij het maken van activiteiten. Met deze optie kunt u de parameters filteren op basis van het geselecteerde selectievakje.
 
    Als u een bestaand publiek bewerkt, worden de filtercriteria weergegeven met de naam van de box die tijdens het maken is opgegeven.
 

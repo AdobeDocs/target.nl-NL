@@ -4,9 +4,9 @@ description: Leer hoe lang een A/B test moet lopen. Een geslaagde A/B-test in Ad
 title: Hoe lang moet ik een A/B test uitvoeren?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Het is belangrijk om een passende steekproefgrootte (aantal bezoekers) te bepale
 
 Dit kan leiden tot een groot aantal valse positieven, wat leidt tot de implementatie van aanbiedingen die uiteindelijk niet de voorspelde lift leveren. Een slechte lift zelf is een onbevredigende uitkomst, maar een nog ernstiger gevolg is dat het onvermogen om een lift nauwkeurig te voorspellen, in de loop der tijd het organisatorische vertrouwen in het testen als praktijk ondermijnt.
 
-In dit artikel worden de factoren besproken die in evenwicht moeten zijn wanneer een steekproefgrootte wordt bepaald en wordt een spreadsheetcalculator geïntroduceerd voor het schatten van een adequate steekproefgrootte. Als u de steekproefgrootte berekent met behulp van de voorbeeldgroottecalculator (koppeling hierboven) voordat een A/B-test begint, weet u zeker dat u altijd A/B-tests van hoge kwaliteit uitvoert die voldoen aan statistische standaarden.
+In dit artikel worden de factoren besproken die in evenwicht moeten zijn wanneer een steekproefgrootte wordt bepaald en wordt een rekenmachine geïntroduceerd voor het schatten van een adequate steekproefgrootte. Als u de steekproefgrootte berekent met behulp van de voorbeeldgroottecalculator (koppeling hierboven) voordat een A/B-test begint, weet u zeker dat u altijd A/B-tests van hoge kwaliteit uitvoert die voldoen aan statistische standaarden.
 
 Er zijn vijf user-defined parameters die een test A/B bepalen. Deze parameters zijn met elkaar verbonden, zodat wanneer er vier worden vastgesteld, het vijfde kan worden berekend:
 
@@ -58,6 +58,11 @@ Er zijn vijf user-defined parameters die een test A/B bepalen. Deze parameters z
 * Minimale betrouwbare aantoonbare lift
 * Omrekeningskoers basislijn
 * Aantal bezoekers
+
+>[!IMPORTANT]
+>
+>Voor nauwkeurige resultaten moet u de pagina opnieuw laden voordat u parameternummers wijzigt.
+
 
 Voor een A/B-test worden de statistische significantie, het statistische vermogen, de minimale betrouwbaar detecteerbare lift en de basislijnconversiesnelheid door de analist vastgesteld en vervolgens wordt het vereiste aantal bezoekers berekend op basis van deze getallen. Dit artikel bespreekt deze elementen en geeft richtlijnen voor hoe te om deze metriek voor een specifieke test te bepalen.
 
