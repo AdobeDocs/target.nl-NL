@@ -4,9 +4,9 @@ description: Leer hoe u een activiteit Automatisch toewijzen in Adobe gebruikt [
 title: Wat is een automatisch toegewezen activiteit?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3458'
+source-wordcount: '3453'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,10 @@ Op dit moment bevoordeelt de logica bezoekers die snel converteren of vaker bezo
 
 ### Kan ik de voorbeeldgroottecalculator gebruiken bij het gebruik van [!UICONTROL Auto-Allocate] hoe lang duurt het om de winnaar te identificeren ?
 
-U kunt de bestaande [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) om een schatting te krijgen van de duur van de test. (Zoals bij traditionele A/B-tests kunt u Bonferroni-correctie toepassen als u meer dan twee aanbiedingen of meer dan één omzettingsmeting/hypothese test.) Deze rekenmachine is ontworpen voor traditionele A/B-tests met een vaste tijdshorizon en biedt alleen een schatting. De rekenmachine gebruiken voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] Hiermee wordt een winnaar voor je gedeclareerd. U hoeft geen vast punt in de tijd te kiezen om de testresultaten te bekijken. De opgegeven waarden zijn altijd statistisch geldig. In onze experimenten hebben we het volgende gevonden:
+U kunt de bestaande [!DNL Adobe Target] [Voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) om een schatting te krijgen van de duur van de test. (Zoals bij traditionele A/B-tests kunt u Bonferroni-correctie toepassen als u meer dan twee aanbiedingen of meer dan één omzettingsmeting/hypothese test.) Deze rekenmachine is ontworpen voor traditionele A/B-tests met een vaste tijdshorizon en biedt alleen een schatting. De rekenmachine gebruiken voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] Hiermee wordt een winnaar voor je gedeclareerd. U hoeft geen vast punt in de tijd te kiezen om de testresultaten te bekijken. De opgegeven waarden zijn altijd statistisch geldig.
+
+In onze experimenten hebben we het volgende gevonden:
+
 * Bij het testen van precies twee ervaringen: [!UICONTROL Auto-Allocate] vindt een winnaar sneller dan het testen met een vaste horizon (d.w.z. het tijdkader dat wordt voorgesteld door de calculator van de steekproefgrootte) wanneer het prestatiesverschil tussen ervaringen groot is. Maar [!UICONTROL Auto-Allocate] Het kan extra tijd vergen om een winnaar te identificeren wanneer het prestatiesverschil tussen ervaringen klein is. In deze gevallen zouden de vastrentende tests doorgaans zijn geëindigd zonder een statistisch significant resultaat.
 * Bij het testen van meer dan twee ervaringen [!UICONTROL Auto-Allocate] vindt een winnaar sneller dan het testen met een vaste horizon (d.w.z. het tijdkader dat wordt voorgesteld door de calculator van de steekproefgrootte) wanneer één enkele ervaring alle andere ervaringen sterk overtreft. Wanneer twee of meer ervaringen zowel &quot;winnen&quot; ten opzichte van andere ervaringen maar nauw met elkaar overeenkomen, [!UICONTROL Auto-Allocate] kan extra tijd vereisen om te bepalen wat superieur is. In deze gevallen zouden de tests met een vaste looptijd doorgaans zijn geëindigd door te concluderen dat de &quot;winnende&quot; ervaringen beter waren dan de minder presterende ervaringen, maar niet hebben vastgesteld welke beter was.
 

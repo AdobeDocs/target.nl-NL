@@ -4,16 +4,16 @@ description: Lees tips uit ons panel van experts over het gebruik van Adobe [!DN
 title: Waar kan ik tips en trucs voor het gebruiken van Doel vinden?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 0%
 
 ---
 
 # Hoofdstuk 4: Tips voor het gebruik van Doel
 
-Gebaseerd op ons werk met veel [!DNL Target] gebruikers, hebben we manieren gezien waarop u meer waarde kunt krijgen van uw [!DNL Target] oplossing. Deze zijn samengevat in de vele tips die we in dit hoofdstuk hebben opgenomen. Hoewel u niet bereid zou kunnen zijn om al deze ideeën onmiddellijk te gebruiken, houd aan deze lijst. Hoe meer ervaring u hebt met de oplossing en hoe meer uw programma rijpt, des te meer u zult zien hoe deze tips u kunnen helpen meer te doen met [!DNL Target].
+Gebaseerd op ons werk met veel [!DNL Target] gebruikers, hebben wij manieren gezien die u meer waarde van uw kunt krijgen [!DNL Target] oplossing. We hebben die samengevat in de vele tips die we in dit hoofdstuk hebben opgenomen. Hoewel u niet bereid zou kunnen zijn om al deze ideeën onmiddellijk te gebruiken, houd aan deze lijst. Hoe meer ervaring u krijgt met de oplossing en hoe meer uw programma rijpt, des te meer u zult zien hoe deze tips u kunnen helpen meer te bereiken met [!DNL Target].
 
 ## Tip 1: Vergroot de personalisatie door het profiel van de bezoeker te verhogen met extra gegevens.
 
@@ -45,7 +45,7 @@ Zie [Reactietokens](/help/main/administrating-target/response-tokens.md) voor st
 
 Zie [Reactietokens](/help/main/administrating-target/response-tokens.md) voor stapsgewijze instructies.
 
-**Doe dit eerst**: Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Als u een vorige versie gebruikt, ziet u de reactietokens, maar at.js kan deze niet gebruiken.
+**Doe dit eerst**: Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Als u een vorige versie gebruikt, zult u de reactietokens zien, maar at.js zal niet hen kunnen gebruiken.
 
 ## Tip 4: Bouw publiek van deze zeer belangrijke variabelen om de waarde van uw activiteit te verhogen.
 
@@ -89,7 +89,7 @@ Zie [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](/help/main/c-exper
 
 ## Tip 9: Verminder de rommel in uw Audience Library door eenmalig publiek te maken.
 
-Als u zich richt op een segment waarvan u weet dat het niet opnieuw wordt bedoeld, bijvoorbeeld klanten die worden beïnvloed door een onverwachte weersomstandigheden, kunt u de taak eenvoudig uitvoeren door een publiek te maken dat de taak slechts voor één keer uitvoert, zonder dat u de Audience Library overzichtelijker hoeft te maken. Hierdoor is het gemakkelijker om steeds weer een publiek te vinden dat u gebruikt.
+Als u een segment richt weet u niet zal richten opnieuw-voor voorbeeld, kunnen de klanten die door onverwacht weer gebeurtenis-creërend een eenmalig gebruikspubliek worden beïnvloed u helpen de baan krijgen gedaan zonder het toevoegen van rommelige aan uw Bibliotheek van de Publiek. Hierdoor is het gemakkelijker om steeds weer een publiek te vinden dat u gebruikt.
 
 Zie [Een alleen-activiteitpubliek maken](/help/main/c-target/creating-activity-only-audience.md) voor stapsgewijze instructies.
 
@@ -109,11 +109,11 @@ Vele marketers lanceren optimaliseringsprogramma&#39;s voor publiekssegmentatie 
 * Wat is de omrekeningskoers voor de pagina?
 * Hoe lang verwacht u dat u de test moet uitvoeren voordat u deze met vertrouwen volledig kunt noemen?
 
-**Nuttige uiteinde**: Doel gebruiken [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) om te bepalen welke monstergrootte nodig is voor een geslaagde test.
+**Nuttige uiteinde**: Gebruik de [!DNL Adobe Target] [Voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) om te bepalen welke monstergrootte nodig is voor een geslaagde test.
 
 ## Tip 12: Ontwerp eenvoudiger tests om ervoor te zorgen dat u deze kunt maken en implementeren.
 
-Na het overwegen van alle aspecten van hoe te om een test te ontwerpen, kan een plan zeer complex worden. Gebaseerd op waar uw zaken met het testen zijn, en de capaciteit van uw groep om, de resultaten te ontwerpen, uit te voeren en te analyseren, bepalen als de test te ambitieus lijkt. Als dat het geval is, moet zij bereid zijn de reikwijdte en de complexiteit ervan te beperken. Het is beter om klein te beginnen dan de test helemaal niet uit te voeren. U kunt geen indrukwekkende lift leveren als u de test nooit start. Het is belangrijk om de aspiraties van het team in evenwicht te brengen met de realiteiten van uw middelen en capaciteiten.
+Na het overwegen van alle aspecten van hoe te om een test te ontwerpen, kan een plan zeer complex worden. Gebaseerd op waar uw zaken met het testen zijn, en de capaciteit van uw groep om, de resultaten te ontwerpen, uit te voeren en te analyseren, bepalen als de test te ambitieus lijkt. Als dat het geval is, moet zij bereid zijn de reikwijdte en de complexiteit ervan te beperken. Het is beter om klein te beginnen dan de test helemaal niet uit te voeren. Je kunt geen onbedoelde lift leveren als je de test nooit start. Het is belangrijk om de aspiraties van het team in evenwicht te brengen met de realiteiten van uw middelen en capaciteiten.
 
 ## Tip 13: Breek complexe tests in kleinere testactiviteiten om ze haalbaar te maken.
 
@@ -129,29 +129,29 @@ Testen net als de pagina waarop bezoekers op Aankoop voltooien, Toepassing verze
 
 ## Tip 15: Werk uw tests voortdurend bij om herhalende verbeteringen aan te brengen.
 
-Als uw hypothese niet klopt, denk dan aan manieren om uw test te verbeteren. Houd er rekening mee dat zelfs als geen van de geteste ervaringen beter is, uw experiment geen tijdverspilling was. Een geslaagde test betekent niet altijd een verhoging van de inkomsten of omzettingen. Als de test uw hypothese daadwerkelijk ondersteunt, bent u op weg naar de ontwikkeling van een algemene theorie. Maar zelfs als u een duidelijk winnend resultaat hebt, stop daar niet. Te vaak maken marketeers de fout om eens te testen en dan op die resultaten te bankieren zonder echt te begrijpen wat tot het succes heeft geleid. In plaats daarvan, ben van plan om op die resultaten te herhalen om te weten te komen waarom de front-runner vooruit was. Dit zal u aan diepere inzichten leiden die u in toekomstige campagnes kunt gebruiken.
+Als uw hypothese niet klopt, denk dan aan manieren om uw test te verbeteren. Houd er rekening mee dat zelfs als geen van de geteste ervaringen beter presteerde, uw experiment geen tijdverspilling was. Een succesvolle test betekent niet altijd een verhoging van opbrengst of omzettingen. Als de test uw hypothese daadwerkelijk ondersteunt, dan ben je op weg naar het ontwikkelen van een algemene theorie. Maar zelfs als je een duidelijk winnend resultaat hebt, stop daar niet. Te vaak maken marketeers de fout om eens te testen en dan op die resultaten te bankieren zonder echt te begrijpen wat tot het succes heeft geleid. In plaats daarvan, ben van plan om op die resultaten te herhalen om te weten te komen waarom de front-runner vooruit was. Dit zal u aan diepere inzichten leiden die u in toekomstige campagnes kunt gebruiken.
 
 ## Tip 16: Vergelijk tests en verpersoonlijkingsactiviteiten voor ideeën om het richten te verbeteren.
 
-Het vergelijken van de omzettingsprestaties van verschillende soorten publiek binnen verschillende tests bij verschillende plaatsen kan helpen de optimaliseringsstrategie van een bedrijf concentreren en verfijnen. Gebruik testvergelijkingen om te bepalen welke doelgroepen het meest geschikt zijn om te testen, welke doelgerichte ervaringen moeten krijgen en welke soorten ervaringen het meest waarschijnlijk een reactie zullen opleveren.
+Het vergelijken van de omzettingsprestaties van verschillende publiek binnen verschillende tests bij verschillende plaatsen kan helpen de optimaliseringsstrategie van een bedrijf concentreren en verfijnen. Gebruik testvergelijkingen om te bepalen welke doelgroepen het meest geschikt zijn om te testen, welke doelgerichte ervaringen moeten krijgen en welke soorten ervaringen het meest waarschijnlijk een reactie zullen opleveren.
 
 Een klant van financiële services voerde bijvoorbeeld een promotiecampagne uit voor een creditcard die professionele prikkels voor sportevenementen omvatte. Door de gedeeltelijke factoriële multivariate tests van zijn landingspagina&#39;s, kon de klant het overseinen over creditcardvoordelen met sportieve prikkels optimaliseren om verschillend publiek van zijn klantenbasis te richten. Dankzij deze aanpak kon het bedrijf profiteren van de conversie en deze maximaliseren tijdens een tijdgevoelig venster rond een belangrijk sportevenement.
 
 ## Tip 17: Maak tests nuttig door hen slechts te lanceren als u weet u op de gegevens kunt handelen.
 
-Een test is zinloos als u niet precies weet hoe u op de gegevens gaat werken. Dit omvat het weten van uw belangrijkste succes metrisch, wat moet gebeuren om een winnaar te duwen, hoe u op testresultaten zult volgen, en wat u met de publieksinformatie zult doen. Voor een snelle en geslaagde test is het van essentieel belang dat elke bij de test betrokken groep (ontwikkelaars, creatieven, testspecialisten en anderen) zich bewust is van zijn rol voordat de test wordt gestart.
+Een test is zinloos als u niet duidelijk bent over hoe u op de gegevens gaat handelen. Dit omvat het weten van uw belangrijkste succes metrisch, wat moet gebeuren om een winnaar te duwen, hoe u op testresultaten zult volgen, en wat u met de publieksinformatie zult doen. Voor een snelle en geslaagde test is het van essentieel belang dat elke bij de test betrokken groep (ontwikkelaars, creatieven, testspecialisten en anderen) zich bewust is van zijn rol voordat de test wordt gestart.
 
 ## Tip 18: Voordat u een test start, moet u ervoor zorgen dat het bedrijf de winnaar verder duwt.
 
-Succesvolle optimalisatieorganisaties geloven in het concept van testen en begrijpen dat hun professionele meningen over welke ervaring de test zal winnen niet altijd waar blijken te zijn. Ze bepalen de winnaar op basis van een solide basis van gegevens en zijn graag bereid om de winnende ervaring actief te maken nadat de resultaten zijn bereikt, zelfs als deze niet in overeenstemming is met hun verwachtingen of als het tegenstrijdig lijkt.
+Succesvolle optimalisatieorganisaties geloven in het concept van testen en begrijpen dat hun professionele meningen over welke ervaring de test zal winnen niet altijd waar blijken te zijn. Ze bepalen de winnaar op basis van een solide basis van gegevens, en zijn graag en bereid om de winnende ervaring live te zetten nadat de resultaten binnen zijn, zelfs als deze niet in overeenstemming is met hun verwachtingen of als het tegengesteld lijkt.
 
-Zo heeft een klant van de gezondheidszorg van Adobe onlangs de waarde van het testen aangetoond door te laten zien hoe een hoofdbanner die het team als een slam had beschouwd een negatief effect had op de conversie. Als uw organisatie het testen nog niet volledig heeft geaccepteerd, kunt u het beste eerst eenvoudigere, kleinere tests uitvoeren, zodat wijzigingen in de testresultaten stapsgewijs kunnen worden uitgevoerd.
+Zo heeft een klant van de gezondheidszorg van Adobe onlangs de waarde van het testen aangetoond door te laten zien hoe een hoofdbanner die het team als een slam had beschouwd een negatief effect had op de conversie. Als uw organisatie nog niet volledig het testen heeft ingebed, is het best om eenvoudigere, kleinere werkingsgebiedtests eerst uit te voeren zodat de veranderingen van testresultaten incrementeel kunnen worden gemaakt.
 
 ## Tip 19: Laat iedereen weten dat u een test hebt gestart om zorgen te voorkomen wanneer de site verandert.
 
-Één van de voordelen om uw activiteiten op te zetten om parameters te gebruiken QA is dat u die verbindingen met iedereen op uw team kunt delen. U maakt meer mensen bewust van de activiteit en zorgt ervoor dat ze er niet van uitgaan dat de site niet goed werkt wanneer ze op een testvariant reageren.
+Één van de voordelen om uw activiteiten op te zetten om parameters te gebruiken QA is dat u die verbindingen met iedereen op uw team kunt delen. U maakt meer mensen bewust van de activiteit en zorgt ervoor dat zij niet veronderstellen de plaats behoorlijk werkt wanneer zij een testvariant raken.
 
-Nadat u uw tests voltooit, helpen het communiceren campagnelanceringen, testresultaten, en vooral geleerde lessen u bewustzijn van en interesse in de testresultaten opbouwen. Door de resultaten met iedereen in de organisatie te delen, voorkomt u ook dat u een hypothese opnieuw test, leert u iedereen wat werkt en helpt u hen fundamenteel hun eigen ideeën uit te dagen over wat werkt op basis van wat u hebt gevonden. Het is raadzaam een sjabloon voor te bereiden die u telkens gebruikt voor het delen van uw bevindingen en belangrijke lessen.
+Nadat u uw tests voltooit, helpen het communiceren campagnelanceringen, testresultaten, en vooral geleerde lessen u bewustzijn van en interesse in de testresultaten opbouwen. Door de resultaten met iedereen in de organisatie te delen, vermijdt u ook dat een hypothese opnieuw wordt getest, leert u iedereen over wat werkt en helpt u hen fundamenteel hun eigen ideeën uit te dagen over wat werkt op basis van wat u hebt gevonden. Het is raadzaam een sjabloon voor te bereiden die u elke keer gebruikt voor het delen van uw bevindingen en belangrijke lessen.
 Vervolgens kunt u een gedeeld boek of Microsoft PowerPoint-pakket maken dat deze lessen cumulatief vastlegt.
 
 ## Tip 20: Tik op mobiele functionaliteit om meer innovatieve mobiele activiteiten te maken.
@@ -168,7 +168,7 @@ Begrijp hoe en wanneer u uw publiek kunt bereiken en hoe u uw dagelijkse reclame
 
 Veel marketeers maken de fout dat ze niet genoeg geld toewijzen om dat deel van de stem te laten horen in de uren dat het gebruik van bepaalde apparaten het zwaarst is, waardoor er veel inkomsten en koppen op tafel blijven liggen.
 
-Het tabletgebruik spiekt bijvoorbeeld meestal in de avonduren en veel gebruikers bladeren terwijl ze tv kijken. Smartphonegebruikers hebben daarentegen doorgaans onderweg toegang tot inhoud. De piekomzettingstijden variëren ook per industrie, zodat is het belangrijk om te begrijpen wanneer uw unieke klanten het meest waarschijnlijk zullen handelen.
+Het tabletgebruik spiekt bijvoorbeeld meestal in de avonduren en veel gebruikers bladeren terwijl ze tv kijken. Smartphonegebruikers hebben daarentegen doorgaans onderweg toegang tot inhoud. De piekomzettingstijden variëren ook door industrie, zodat is het belangrijk om te begrijpen wanneer uw unieke klanten het meest waarschijnlijk zullen handelen.
 
 ## Houd rekening met
 
@@ -185,14 +185,14 @@ Overweeg de volgende ideeën voordat we verdergaan met het volgende hoofdstuk: &
 
 ### Vereenvoudig uw website.
 
-* Gebruikers niet laten lezen. Ze zullen dat niet doen.
+* Zorg ervoor dat klanten niet lezen. Ze zullen het niet doen.
 * Scannen is gemakkelijk.
 * Gebruik blokken met opsommingstekens.
 * Zorg ervoor dat uw kopie een duidelijk, opeenvolgend gedachteproces volgt.
 
 ### Gebruik efficiënte Vraag aan Acties (CTAs)
 
-* Zet jezelf in de schoenen van de klant.
+* Doe jezelf in de schoenen van de klant.
 * Gebruik een taal die is georiënteerd op handelingen.
 * Denk aan de motivatie voor conversie.
 * Het omzettingsresultaat aanpakken.

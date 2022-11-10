@@ -4,9 +4,9 @@ description: Leer van fouten van anderen zodat u niet de zelfde maakt wanneer he
 title: Wat zijn algemene fouten bij het gebruik [!DNL Target] en hoe kan ik ze vermijden?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ Het goede aan het starten van uw optimalisatie- en personaliseringsprogramma is 
 
 | Pitfall | Oplossing |
 | --- | --- |
-| Onvoldoende verkeer om statistisch significante resultaten te bereiken. | De Adobe Target gebruiken [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) vooraf om te begrijpen hoe lang de test moet lopen, en dan de test in werking stellen aan voltooiing. |
+| Onvoldoende verkeer om statistisch significante resultaten te bereiken. | Gebruik de [!DNL Adobe Target] [Voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vooraf om te begrijpen hoe lang de test moet lopen, en dan de test in werking stellen aan voltooiing. |
 | Een te kleine of onzichtbare wijziging aanbrengen. | Maak de wijziging zo ingrijpend dat deze zichtbaar is wanneer u op een paar meter afstand van het scherm staat. |
 | Het niet in overeenstemming brengen van activiteiten met bedrijfsdoelstellingen. | Meer aandacht besteden aan de prioriteringsmethodologie en die methodologie doorgeven aan de interne belanghebbenden. |
 | Er is weinig of geen testachterstand. | Neem contact op met interne belanghebbenden en sta hen toe om tests voor te leggen die met zeer belangrijke bedrijfsdoelstellingen worden gericht. |
 | Het uitbreiden van activiteit lanceert voorbij termijnen | Verbeter documentatie voor activiteiten en omvat specifieke details over de testopstelling. |
-| Gegevens over het succes van activiteiten selecteren die niet helpen bij de besluitvorming. | Documenteer alle primaire testmetriek en omvat extra metriek om extra inzichten te bereiken. |
+| Het selecteren van de metrieke gegevens van het activiteitensucces die niet met besluitvorming helpen. | Documenteer alle primaire testmetriek en omvat extra metriek om extra inzichten te bereiken. |
 | Wijzigingen aanbrengen tijdens de test die van invloed kunnen zijn op de resultaten. | Een agenda bijhouden voor aanstaande promoties en wijzigingen in de site. Duidelijk communiceren [!DNL Target] activiteit wordt gestart om conflicten te voorkomen. |
 | Het veranderen van testervaringen of criteria dicht bij een activiteitenlancering. | Vraag om aftekening van belangrijke belanghebbenden in een vroeg stadium van de testactiviteit. |
-| Het afsluiten van een activiteit vóór de resultaten is statistisch significant. | De testduur controleren met de Adobe [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). |
+| Het afsluiten van een activiteit vóór de resultaten is statistisch significant. | De testduur controleren met de [!DNL Adobe Target] [Voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |
 | Het ontvangen van negatieve of vlakke resultaten van een [!DNL Target] activiteit. | Bevestig dat de activiteit het testen waard is. |
 | Geen harde codering van de winnende ervaring. | Gebruik activiteitsgegevens om waarde aan te geven voor inkoop voor harde codering. |
 | Geen resultaten delen buiten het testteam. | Breid mededelingen uit om lunch en lessen te omvatten, een programmadashboard te ontwikkelen, en vergaderingen van belanghebbenden te plannen. |
