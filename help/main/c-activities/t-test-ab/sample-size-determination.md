@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB..n;voorbeeldgrootte;voorbeeldgroottecalculator;automatisch toewijzen;automatisch toewijzen;calculator
-description: Leer hoe lang een A/B test moet lopen. Een geslaagde A/B-test in Adobe [!DNL Target] hebt voldoende bezoekers (voorbeeldgrootte) nodig om de conversiesnelheid te verbeteren.
+description: Leer hoe lang een A/B test moet lopen. Een geslaagde A/B-test in [!DNL Adobe Target] hebt voldoende bezoekers (voorbeeldgrootte) nodig om de conversiesnelheid te verbeteren.
 title: Hoe lang moet ik een A/B test uitvoeren?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: '3071'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Zie voor meer informatie [Overzicht van automatisch toewijzen](/help/main/c-acti
 
 Als u ervoor kiest een handleiding te gebruiken [!UICONTROL A/B Test] activiteit in plaats van [!UICONTROL Auto-Allocate]de [!DNL Target] Met de calculator voor monstergrootte kunt u bepalen welke monstergrootte nodig is voor een geslaagde test. Een handmatige A/B-test is een test met een vaste horizon, zodat de calculator nuttig is. De rekenmachine gebruiken voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] Hiermee wordt een winnaar voor je gedeclareerd. De calculator geeft u een ruwe schatting van de steekproefgrootte nodig. Lees verder voor meer informatie over het gebruik van de rekenmachine.
 
-Voordat u de A/B-test instelt, opent u de [!DNL Adobe Target] [Voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Voordat u de A/B-test instelt, opent u de [!DNL Adobe Target] [Voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
 
-![Adobe Target-voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
+![Adobe Target-voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Het is belangrijk om een passende steekproefgrootte (aantal bezoekers) te bepalen alvorens een A/B test te doen om de tijd te bepalen dat de activiteit zou moeten lopen alvorens de resultaten te evalueren. Eenvoudig toezicht op de activiteit totdat statistische significantie wordt bereikt, leidt tot een veel te lage schatting van het betrouwbaarheidsinterval, waardoor de test onbetrouwbaar wordt. De intuïtie achter dit resultaat is dat, als een statistisch significant resultaat wordt vastgesteld, de test wordt stopgezet en een winnaar wordt gedeclareerd. Als het resultaat echter niet statistisch significant is, mag de test worden voortgezet. Deze procedure is sterk gunstig voor het positieve resultaat, waardoor de fout-positieve snelheid toeneemt en het effectieve significantieniveau van de test daardoor wordt verstoord.
 
