@@ -1,12 +1,12 @@
 ---
 keywords: variabelen;profielen;parameters;ingebouwde profielen;methoden;url-variabelen;geo-profielen;profielen van derden;mbox-variabelen;campagne-variabelen;klantkenmerken
 description: Een lijst met verschillende profielen, variabelen en parameters weergeven die nuttig zijn in profielscripts in Adobe Target.
-title: Welke profielen, variabelen, en parameters worden gebruikt in doel?
+title: In welke profielen, variabelen en parameters worden gebruikt [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
+source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | user.header(&#39;accept&#39;) | Taal en tekencodering van bezoekers |
 | user.header(&#39;connection&#39;) | Serververbinding. Bijvoorbeeld: live houden |
 | user.header(&#39;reference&#39;) | URL van website van huidige pagina van bezoeker. Werkt niet voor Internet Explorer. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.getLocal(&#39;param_name&#39;); | Hiermee wordt de waarde opgehaald die u instelt met `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Maak doorlopende profielwaarden in een profielscript. Deze waarden blijven bestaan als een profielscript, maar u hebt er alleen toegang tot binnen het script dat is ingesteld. |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Profielkenmerken voor continue verbindingen die zijn gemaakt op basis van profielscripts. Verwijst ook naar &#39;systeem&#39;-profielen zoals geolocatie, aantal bezoeken, enz. |
 | profile.get(&#39;param_name&#39;) | De juiste manier om een profielparameter te verkrijgen om in een profielmanuscript te gebruiken is profiel.get (&#39;param_name&#39;) methode. |
