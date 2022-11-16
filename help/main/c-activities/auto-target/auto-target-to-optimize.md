@@ -4,14 +4,14 @@ description: Leer hoe een activiteit AutoTarget in [!DNL Target] biedt iedere be
 title: Wat is een automatisch doelactiviteit?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Overzicht van automatisch doel
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Auto-Target] overzicht
 
 [!UICONTROL Auto-Target] activiteiten in [!DNL Adobe Target] Maak gebruik van geavanceerd computerleren om te kiezen uit verschillende, door de markator gedefinieerde ervaringen om de inhoud en schijfconversies aan te passen. Auto-Target biedt elke bezoeker de meest op maat gemaakte ervaring op basis van het individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen.
 
@@ -46,7 +46,7 @@ In tegenstelling tot een A/B-activiteit waarbij de ervaringstoewijzing voor een 
 Er zijn enkele belangrijke overwegingen waarmee u rekening moet houden wanneer u [!UICONTROL Auto-Target]:
 
 * U kunt een bepaalde activiteit niet van [!UICONTROL Auto-Target] naar Automated Personalization en omgekeerd.
-* U kunt niet van Handmatige verkeerstoewijzing (traditionele A/B Test) schakelen aan [!UICONTROL Auto-Target]en omgekeerd nadat een activiteit actief is.
+* U kunt niet van Handmatige verkeerstoewijzing (traditionele A/B Test) schakelen aan [!UICONTROL Auto-Target]en omgekeerd nadat een activiteit als concept is opgeslagen.
 * Één model wordt gebouwd om de prestaties van de gepersonaliseerde strategie tegenover willekeurig gediend verkeer tegenover het verzenden van al verkeer naar het algemene winnen ervaring te identificeren. In dit model worden alleen resultaten en omzettingen in de standaardomgeving bekeken.
 
    Het verkeer van een tweede reeks modellen wordt gebouwd voor elke modelleringsgroep (AP) of ervaring (AT). Voor elk van deze modellen worden hits en conversies in alle omgevingen in overweging genomen.
