@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates voor Doel zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 16 november | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens voor de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (29 november)</li></ul> |
 | 8 november | [Hoe lang moet u een A/B-test uitvoeren?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Belangrijke opmerking toegevoegd: voor nauwkeurige resultaten moet u de pagina opnieuw laden voordat u parameternummers in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Ook een notitie toegevoegd aan de huidige [rekenmachine](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}. |
 |  | [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | De beschrijving van de `adobe_mc_sdid` in de tabel. |
 |  | [Problemen oplossen](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Nieuwe sectie toegevoegd: &quot;Na het omzetten van de activiteit, is de bezoeker geen ervaring.&quot; |

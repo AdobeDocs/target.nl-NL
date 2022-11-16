@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1979'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ Aankondigingen en informatie over komende [!DNL Adobe Target] gebeurtenissen, wa
 Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] hebben de hoogste scores voor onze testmogelijkheden onder alle beoordeelde leveranciers ontvangen.
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (29 november)
+
+* **Dinsdag 29 november 2022**
+* **08:00 - 9:00 (PST GMT-8)**
+* **[Registratiegegevens](https://adobe.ly/3UtQoxv){target=_blank}**
+
+Cristinel Anastasoaie, Senior Product Manager voor [!DNL Adobe Target], die uw vragen met betrekking tot de [!DNL Adobe Target] webinar ingeschakeld [Door AI aangedreven personalisatie en Recommendations](#AI).
+
+Controleer de webinar-opname en stel vervolgens uw vervolgvragen voor uitgebreide inzichten, diepere uitleg en strategische suggesties voor uw unieke gebruiksgevallen.
+
+* Optimaliseer aanbevelingen in real time, one-click verpersoonlijkingsactiviteiten, en geautomatiseerde aanbiedingen
+* Maak en start personalisatieactiviteiten die door AI worden aangestuurd met de [!UICONTROL Visual Experience Composer] (VEC)
+* Integreren met [!DNL Adobe Experience Platform] (AEP) voor segment in real time en het delen van profielattributen
+
+[!DNL Adobe] Technicus Simon Chen van de Technische Steun zal extra inzichten en antwoorden op uw vragen verstrekken.
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
@@ -52,7 +68,7 @@ We zijn erg blij om wat &#39;zeer groot&#39;, baanbrekend nieuws te delen op het
 
 +++
 
-### [!DNL Adobe Target] Skill Builders - AI-gestuurde personalisatie en Recommendations (15 september 2022)
+### [!DNL Adobe Target] Skill Builders - AI-gestuurde personalisatie en Recommendations (15 september 2022) {#AI}
 
 Automatisering in experimenten en verpersoonlijking blijft de hoogste omzettingen en ROI voor marketing, techniek, en productteams drijven. Verbinden met [!DNL Adobe] De zitting van de Bouwers van de Vaardigheid en leren hoe te gebruiken [!DNL Adobe Target] geavanceerde door AI aangestuurde gebruiksgevallen en mogelijkheden met aanbevelingen voor producten en inhoud om de concurrentie te blijven voorstaan en elke ervaring te winnen.
 
