@@ -1,12 +1,12 @@
 ---
 keywords: wijzigingslogboek van doeldocumentatie;documentatie-updates;nieuwe onderwerpen;bewerkingen;updates;update
 description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [!DNL Adobe Target] documentatie.
-title: Waar kan ik documentatieupdates voor Doel zien?
+title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
