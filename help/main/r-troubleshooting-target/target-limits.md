@@ -5,9 +5,9 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -271,7 +271,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 * **Aanbevolen limiet**: 2000 tekens.
 
-   Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat deze naar Adobe Target gaat.
+   Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat deze wordt uitgevoerd [!DNL Adobe Target].
 
 ## Scriptprofielen
 
