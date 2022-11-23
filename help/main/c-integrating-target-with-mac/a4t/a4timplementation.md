@@ -4,9 +4,9 @@ description: Voer de stappen uit die nodig zijn voor het implementeren van Analy
 title: Hoe kan ik Analyses implementeren voor [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ In de volgende secties worden de stappen beschreven die nodig zijn om deze integ
 
 ### Stap 1: Aanvoer aanvragen voor Analytics en Target
 
-Na de implementatie [!DNL Analytics] als bron van rapportage voor [!DNL Target], moet u zijn ingericht voor [!DNL Analytics] en [!DNL Target]. [Gebruik dit formulier om provisioning aan te vragen](https://www.adobe.com/go/audiences).
+Na de implementatie [!DNL Analytics] als bron van rapportage voor [!DNL Target], moet u zijn ingericht voor [!DNL Analytics] en [!DNL Target]. [Gebruik dit formulier om provisioning aan te vragen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### Stap 2: Gebruikersmachtigingen instellen
 

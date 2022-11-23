@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '34327'
+source-wordcount: '34343'
 ht-degree: 0%
 
 ---
@@ -3755,11 +3755,11 @@ Deze release bevat de volgende nieuwe functies:
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Analytics-rapportage voor Adobe Target </td> 
-   <td colname="col2"> Adobe Analytics-klanten kunnen Analyse selecteren als de standaard rapportbron tijdens het <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> testprocedure </a>. Het selecteren van alle succesmetriek of publiek dat u wilt gebruiken om uw resultaten te filteren, is niet meer vereist. Binnen rapportering, kunt u om het even welk succes metrisch of publiekssegment selecteren dat in Analytics wordt bepaald en het retroactief toepassen op uw rapportering voor het uitgebreide filtreren en boor-down analyse van uw optimalisatieresultaten. <p> <p>Opmerking: Ga naar <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences </a>. </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics-klanten kunnen Analyse selecteren als de standaard rapportbron tijdens het <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> testprocedure </a>. Het selecteren van alle succesmetriek of publiek dat u wilt gebruiken om uw resultaten te filteren, is niet meer vereist. Binnen rapportering, kunt u om het even welk succes metrisch of publiekssegment selecteren dat in Analytics wordt bepaald en het retroactief toepassen op uw rapportering voor het uitgebreide filtreren en boor-down analyse van uw optimalisatieresultaten. <p> <p>Opmerking: Ga naar <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Master marketingprofiel in realtime publiek </td> 
-   <td colname="col2"> Gebruik het master marketingprofiel dat bezoeker-id's en -gegevens verenigt in één actionabel profiel voor gebruik in verschillende oplossingen. Met een selectievakje tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat is gemaakt in Analytics of Audience Manager, kan worden gebruikt voor doelbezoekers. <p> <p>Opmerking: Ga naar <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences </a>. </p> </p> </td> 
+   <td colname="col2"> Gebruik het master marketingprofiel dat bezoeker-id's en -gegevens verenigt in één actionabel profiel voor gebruik in verschillende oplossingen. Met een selectievakje tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat is gemaakt in Analytics of Audience Manager, kan worden gebruikt voor doelbezoekers. <p> <p>Opmerking: Ga naar <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ervaring voor activiteitstype </td> 

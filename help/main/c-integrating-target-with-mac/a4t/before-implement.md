@@ -4,9 +4,9 @@ description: Leer de implementatievereisten voor Analytics voor [!DNL Target] (A
 title: Wat moet ik weten voordat ik A4T implementeer?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voordat u besluit om deze integratie te gebruiken, moet u de volgende secties do
 
 >[!IMPORTANT]
 >
->Voordat u kunt beginnen met het gebruik van A4T, moet u vragen of uw account is ingericht voor de integratie. Gebruik de [Integraal leveringsformulier voor Marketing Cloud](https://www.adobe.com/go/audiences) om provisioning aan te vragen.
+>Voordat u kunt beginnen met het gebruik van A4T, moet u vragen of uw account is ingericht voor de integratie. Gebruik de [Integraal leveringsformulier voor Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} om provisioned te vragen.
 
 Deze integratie A4T vereist dat u de volgende (of nieuwere) bibliotheekversies uitvoert, afhankelijk van of u redirect aanbiedingen met A4T of niet wilt gebruiken.
 
@@ -97,7 +97,7 @@ Er zijn gevallen waarin u meer controle wilt hebben over wanneer en hoe u analys
 
 ## Gedeeld publiek
 
-Als u de [Integraal leveringsformulier voor Marketing Cloud](https://www.adobe.com/go/audiences)is op de hoogte van de volgende belangrijke informatie over de [!UICONTROL Shared Audiences] optie vermeld onder &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
+Als u de [Integraal leveringsformulier voor Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, houd rekening met de volgende belangrijke informatie over de [!UICONTROL Shared Audiences] optie vermeld onder &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
 
 ![Formulier aanvragen](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
