@@ -4,7 +4,7 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 28 november | [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*. | New Models API.<br>Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit. |
+| 28 november | [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*. | New Models API.<br>Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit. |
 | 23 november | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | De koppeling naar de [Integraal leveringsformulier voor Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 november | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens voor de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (29 november)</li></ul> |
 | 8 november | [Hoe lang moet u een A/B-test uitvoeren?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Belangrijke opmerking toegevoegd: voor nauwkeurige resultaten moet u de pagina opnieuw laden voordat u parameternummers in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Sample Size Calculator]. Ook een notitie toegevoegd aan de huidige [rekenmachine](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}. |

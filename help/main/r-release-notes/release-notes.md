@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## Models API-release (23 november 2022)
+
+De nieuwe [!DNL Adobe Target] De model API, ook genoemd de Lijst van gewezen personen API, laat gebruikers de lijst van eigenschappen bekijken en beheren die in machine het leren modellen worden gebruikt voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.
+
+Zie voor meer informatie [Modellen API - Overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*.
 
 ## [!DNL Target] Standard/Premium 22.10.3 (gefaseerde release 25-27 oktober 2022)
 

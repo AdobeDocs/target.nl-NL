@@ -4,7 +4,7 @@ description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt o
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '2015'
 ht-degree: 0%
@@ -48,7 +48,7 @@ In de volgende tabel worden de door de klant verschafte gegevens weergegeven die
 
 Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit.
 
-Zie voor meer informatie [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*.
+Zie voor meer informatie [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*.
 
 ## Apparaat- en mobiele gegevens {#device-mobile}
 
