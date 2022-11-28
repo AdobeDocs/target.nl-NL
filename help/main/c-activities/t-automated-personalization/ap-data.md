@@ -4,9 +4,9 @@ description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt o
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2015'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,7 @@ In de volgende tabel worden de door de klant verschafte gegevens weergegeven die
 
 Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit.
 
-Een categorie functies blokkeren vanuit [!DNL Target] computerleeralgoritmen, contact [Adobe Klantenservice](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) en geef de categorieën functies die u wilt blokkeren op met behulp van de bovenstaande systeemvoorvoegsels.
-
-Om één of meerdere specifieke eigenschappen van te blokkeren [!DNL Target] computerleeralgoritmen, contact [Adobe Klantenservice](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) en geef de specifieke functienamen op die moeten worden geblokkeerd, met de onderstaande systeemnaam of -namen. De volgende secties bevatten gedetailleerde informatie over de verschillende gegevenstypen, waaronder kenmerknamen, beschrijvingen en samplewaarden.
+Zie voor meer informatie [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*.
 
 ## Apparaat- en mobiele gegevens {#device-mobile}
 
