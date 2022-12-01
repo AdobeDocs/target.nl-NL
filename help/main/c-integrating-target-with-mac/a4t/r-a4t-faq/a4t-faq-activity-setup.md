@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen over activity setup wanneer u Analyses ge
 title: Waar kan ik Veelgestelde vragen over activiteitenmontages met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: a623f2563516b5250e67728b0bed4c935c4979a4
+source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en
 
 ## Welke activiteitstypes steunen Analytics als rapporteringsbron (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-+++Meer details voor een volledige lijst, zie &quot;Ondersteunde types van Activiteit&quot;in [Adobe Analytics als rapportagebron voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
++++Antwoord voor een volledige lijst, zie &quot;Ondersteunde Types van Activiteit&quot;in [Adobe Analytics als rapportagebron voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 +++
 
 ## Waarom heb ik tijdens het configureren van mijn Goal Metrics geen toegang tot Geavanceerde instellingen?
 
-+++Meer details voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T), het doel metrisch gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;. Deze instellingen zijn *niet* configureerbaar.
++++Antwoord voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T), het doel metrisch gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;. Deze instellingen zijn *niet* configureerbaar.
 
 Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [Metrische definities - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -31,13 +31,14 @@ Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom 
 
 ## Ik heb net een activiteit gecreëerd. Waarom zie ik geen gegevens binnenkomen? {#section_9F8092BE4225442896F926540292F221}
 
-+++Meer details Wanneer een activiteit wordt gecreeerd, [!DNL Target] een classificatiebestand verzenden naar [!DNL Analytics]. Hoewel [!DNL Analytics] die de gegevens vastlegt en verwerkt, toont dit niet aan dat dit in de rapporten voorkomt totdat het classificatiebestand is bijgewerkt. Dit proces kan tot 24 uur duren. Indien u na 48 uur uw gegevens niet ziet, gelieve [Contact opnemen met de klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics].
+
++++Antwoord wanneer een activiteit wordt gecreeerd, [!DNL Target] een classificatiebestand verzenden naar [!DNL Analytics]. Hoewel [!DNL Analytics] die de gegevens vastlegt en verwerkt, toont dit niet aan dat dit in de rapporten voorkomt totdat het classificatiebestand is bijgewerkt. Dit proces kan tot 24 uur duren. Indien u na 48 uur uw gegevens niet ziet, gelieve [Contact opnemen met de klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics].
 
 +++
 
 ## Waarom kan ik Analytics niet als mijn rapporteringsbron selecteren wanneer ik een activiteit creeer? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++Meer details U kunt uw [!UICONTROL Reporting Settings] opties in [!UICONTROL Administration].
++++Antwoord U kunt uw [!UICONTROL Reporting Settings] opties in [!UICONTROL Administration].
 
 1. In [!DNL Target], klikt u op **[!UICONTROL Administration]**.
 1. In de **[!UICONTROL Experience Cloud solution used for reporting]** vervolgkeuzelijst, klikt u op **[!UICONTROL Select per Activity]**.
@@ -52,7 +53,7 @@ Altijd gebruiken [!DNL Analytics] als de bron van de rapportage selecteert u **[
 
 ## Kan een bezoeker schakelen tussen gerichte en gecontroleerde ervaringen in verschillende bezoeken in een auto-Doelactiviteit die A4T gebruikt?
 
-+++Meer details Het volgende is waar veronderstellend bezoekerId niet voor een bezoeker tussen bezoeken verandert.
++++Antwoord Het volgende is waar veronderstellend bezoekerId niet voor een bezoeker tussen bezoeken verandert.
 
 Als het verkeerstoewijzingspercentage wordt aangepast halverwege de activiteit, is het mogelijk dat een bezoeker tussen gerichte en controleervaringen kan bewegen.
 
@@ -65,6 +66,6 @@ Als de percentages niet worden aangepast halverwege de activiteit, wordt een bez
 
 ## Mag ik een binomiale [!DNL Analytics] metrisch met een segment dat als optimaliserend doel in wordt toegepast [!UICONTROL Auto-Allocate] activiteit? {#binomial}
 
-+++Meer details U kunt geen een [!DNL Analytics] metrisch met een segment dat als optimaliserend doel in wordt toegepast [!UICONTROL Auto-Allocate] activiteit. Als tussenoplossing kunt u een gebeurtenis van de Douane bepalen die het zelfde doel bereikt en gebruikt dat zoals optimaliserend doel metrisch.
++++Antwoord U kunt geen [!DNL Analytics] metrisch met een segment dat als optimaliserend doel in wordt toegepast [!UICONTROL Auto-Allocate] activiteit. Als tussenoplossing kunt u een gebeurtenis van de Douane bepalen die het zelfde doel bereikt en gebruikt dat zoals optimaliserend doel metrisch.
 
 +++

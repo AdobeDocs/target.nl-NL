@@ -4,9 +4,9 @@ description: Antwoorden zoeken op vragen over classificaties en het gebruik [!UI
 title: Waar kan ik informatie over classificaties met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over classifica
 
 ## Nadat u de [!UICONTROL Classifications Importer] Hoe kan ik de waarde voor post-tnt-action afstemmen op een naam van een activiteit om classificaties te downloaden? {#section_6045DAC488B248418F430E663C38D001}
 
-U kunt de classificaties voor de tekenreeks A4T/TNT downloaden via de beheerprogramma&#39;s [Classificatieimportmodule](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). De variabele wordt &quot;TNT&quot; genoemd in de exportlijst. De gedownloade gegevens bevatten de vriendelijke namen voor activiteiten, ervaringen enzovoort.
++++Antwoord U kunt de classificaties voor de tekenreeks A4T/TNT downloaden via de beheerhulpprogramma&#39;s [Classificatieimportmodule](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). De variabele wordt &quot;TNT&quot; genoemd in de exportlijst. De gedownloade gegevens bevatten de vriendelijke namen voor activiteiten, ervaringen enzovoort.
 
 Dit opzoekbestand is handig voor klanten die [!DNL Adobe]s clickStream data feed. Het bestand bevat vriendelijke namen voor de `post_tnt` en `post_tnt_action` kolommen.
 
@@ -42,3 +42,5 @@ activityId:experienceId:targettype:algorithmId|event
 * Gebeurtenis -1 of 65535 vertegenwoordigt dat de gebruiker uit de activiteit of de ervaring wordt verwijderd. Dit gebeurt vaak wanneer de bezoeker de site omslaat. De bezoeker wordt losgelaten uit de ervaring en is nu beschikbaar om in aanmerking te komen voor een andere ervaring.
 
 U kunt het classificatiebestand regelmatig vanuit de gebruikersinterface importeren met een [browserimport](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) of [FTP importeren](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). U kunt met de Diensten van de Techniek ook in dienst nemen om het dossier als raadplegingslijst samen met een klikstroomgegevens te verkrijgen.
+
++++
