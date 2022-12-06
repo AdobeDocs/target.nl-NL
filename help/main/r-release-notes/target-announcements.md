@@ -4,42 +4,26 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] aankondigingen en evenementen
 
-Aankondigingen en informatie over komende [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
+Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
 ## [!DNL Target] benoemd tot leider in Gartner Magic Quadrant for Personalization Engines (2022)
 
-Gartner heeft een naam [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] hebben de hoogste scores voor onze testmogelijkheden onder alle beoordeelde leveranciers ontvangen.
+Gartner benoemd [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] alle beoordeelde leveranciers hebben de hoogste scores voor hun testmogelijkheden ontvangen.
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (29 november)
-
-* **Dinsdag 29 november 2022**
-* **08:00 - 9:00 (PST GMT-8)**
-* **[Registratiegegevens](https://adobe.ly/3UtQoxv){target=_blank}**
-
-Cristinel Anastasoaie, Senior Product Manager voor [!DNL Adobe Target], die uw vragen met betrekking tot de [!DNL Adobe Target] webinar ingeschakeld [Door AI aangedreven personalisatie en Recommendations](#AI).
-
-Controleer de webinar-opname en stel vervolgens uw vervolgvragen voor uitgebreide inzichten, diepere uitleg en strategische suggesties voor uw unieke gebruiksgevallen.
-
-* Optimaliseer aanbevelingen in real time, one-click verpersoonlijkingsactiviteiten, en geautomatiseerde aanbiedingen
-* Maak en start personalisatieactiviteiten die door AI worden aangestuurd met de [!UICONTROL Visual Experience Composer] (VEC)
-* Integreren met [!DNL Adobe Experience Platform] (AEP) voor segment in real time en het delen van profielattributen
-
-[!DNL Adobe] Technicus Simon Chen van de Technische Steun zal extra inzichten en antwoorden op uw vragen verstrekken.
-
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
-Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Adobe Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
+Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
 
 Geen gepland op dit moment.
 
@@ -284,6 +268,6 @@ De toolkit van de mening en gebruiksgevallen voor het uitvoeren van dwars-functi
 
 ### [!DNL Adobe Target] Skill Builder: Chat op ontwikkelaar, migreren [!DNL Adobe Target]s mbox.js to at.js {#skill-builder}
 
-Met de veroudering van mbox.js op 31 maart 2021, organiseerde David Son, de Manager van het Product van Adobe Target onlangs een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
+Met de veroudering van mbox.js op 31 maart 2021, organiseerde David Son, de Manager van het Product van Adobe Target een ontwikkelaarspraatje om de voordelen van het migreren van mbox.js aan te bespreken.
 
 * **[Koppeling opnemen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
