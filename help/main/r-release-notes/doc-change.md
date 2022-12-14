@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 december | [Rapportinstellingen](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Opmerking toegevoegd onder de sectie &quot;Omgeving&quot; over het gebruik [!DNL Adobe Experience Platform] (AEP) voor het verzenden van metrische gegevens naar [!DNL Target]. |
 | 29 november | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Verduidelijkte tekst door de volgende alinea toe te voegen:<ul><li>De geo-informatie van een bezoeker wordt bepaald aan de hand van het IP-adres van oorsprong van een [!DNL Target] locatieverzoek (mbox-verzoek). De IP-aan-geo resolutie wordt gedaan voor de eerste vraag van een nieuwe zitting. Dit betekent, als het IP adres van een bezoeker middenzitting van een bezoek verandert, is de geo informatie nog gebaseerd op het IP adres van de eerste vraag.</li></ul> |
 | 28 november | [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*. | New Models API.<br>Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de Models API versie (23 november 2022). |

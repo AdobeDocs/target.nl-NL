@@ -4,9 +4,9 @@ description: Leer hoe te om rapportmontages in Adobe Target, met inbegrip van me
 title: Hoe vorm ik de Montages van het Rapport?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1887'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,14 @@ Selecteer de gewenste methode:
 
 Selecteer de besturingservaring die u wilt gebruiken bij het berekenen en vergelijken van lift.
 
-### Omgeving
+### Omgeving {#environment}
 
 Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken. Zie voor meer informatie [Gastheren](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>Als uw organisatie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) om metrische gegevens te verzenden naar [!DNL Target], moet de omgeving in de AEP-gegevensstroom overeenkomen met de omgeving in uw [!DNL Target] rapportinstellingen.
+
 
 ### Rapportgegevens opnieuw instellen
 
