@@ -4,7 +4,7 @@ description: Leer hoe u profielkenmerken kunt gebruiken om tests in te stellen i
 title: Kan ik Profielscripts gebruiken om uitsluitende activiteiten te testen?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Als u bezoekers wilt sorteren in groepen die elk een andere activiteit zien, moe
 
 ```javascript
 if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
+    var ran_number = Math.floor(Math.random() * 100); 
     if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
@@ -41,9 +41,9 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))` bepaalt of de *twee groepen* profielkenmerk is ingesteld voor de huidige bezoeker. Als dat het geval is, is geen verdere actie vereist.
 
-* `var ran_number=Math.floor(Math.random() *99)` declareert een nieuwe variabele met de naam ran_number, stelt de waarde ervan in op een willekeurige decimaal tussen 0 en 1, vermenigvuldigt deze vervolgens met 99 en rondt deze af om een bereik van 100 (0-99) te maken. Dit is handig voor het opgeven van een percentage bezoekers dat de activiteit ziet.
+* `var ran_number=Math.floor(Math.random() *100)` declareert een nieuwe variabele met de naam ran_number, stelt de waarde ervan in op een willekeurig decimaal tussen 0 en 1, vermenigvuldigt deze vervolgens met 100 en rondt deze af om een bereik van 100 (0-100) te maken. Dit is handig voor het opgeven van een percentage bezoekers dat de activiteit ziet.
 
-* `if (ran_number <= 49)` Hiermee wordt een routine gestart die bepaalt tot welke groep de bezoeker behoort. Als het teruggekeerde aantal 0-49 is, wordt de bezoeker toegewezen aan GroupA. Als het aantal 50-99 is, wordt de bezoeker toegewezen aan GroupB. De groep bepaalt welke activiteit de bezoeker ziet.
+* `if (ran_number <= 49)` Hiermee wordt een routine gestart die bepaalt tot welke groep de bezoeker behoort. Als het teruggekeerde aantal 0-49 is, wordt de bezoeker toegewezen aan GroupA. Als het aantal 50-100 is, wordt de bezoeker toegewezen aan GroupB. De groep bepaalt welke activiteit de bezoeker ziet.
 
 Nadat u het profielattribuut creeert, opstelling de eerste activiteit om de gewenste bevolking te richten door dat de parameter van het gebruikersprofiel te vereisen `user.twogroups` komt overeen met de waarde die is opgegeven voor GroupA.
 
@@ -61,7 +61,7 @@ Als u bijvoorbeeld vier groepen wilt maken, gebruikt u de volgende JavaScript-co
 
 ```javascript
 if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
+    var ran_number = Math.floor​(Math.random() * 100); 
     if (ran_number <= 24) { 
         return 'GroupA'; 
     } else if (ran_number <= 49) { 
@@ -78,17 +78,17 @@ In dit voorbeeld is de wiskunde die wordt gebruikt om het willekeurige aantal te
 
 Als u een oneven aantal groepen creeert, of om het even welk aantal dat 100 niet gelijkmatig in verdeelt, zou u decimaal niet aan een geheel moeten rond. Als u de decimale waarde niet afrondt, kunt u bereiken zonder gehele getallen opgeven. U doet dit door deze lijn te veranderen:
 
-`var ran_number=Math.floor(Math.random()*99);`
+`var ran_number=Math.floor(Math.random()*100);`
 
 tot:
 
-`var ran_number=Math.random()*99;`
+`var ran_number=Math.random()*100;`
 
 Als u bijvoorbeeld bezoekers in drie gelijke groepen wilt plaatsen, gebruikt u de volgende code:
 
 ```javascript
 if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
+    var ran_number = Math.random() * 100; 
     if (ran_number <= 32.33) { 
         return 'GroupA'; 
     } else if (ran_number <= 65.66) { 
