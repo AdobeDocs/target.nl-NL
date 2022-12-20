@@ -4,7 +4,7 @@ description: Leer hoe u rapportgroepen kunt aanbieden in Adobe [!DNL Target] [!U
 title: Kan ik rapportagegroepen voor aanbiedingen gebruiken bij Automated Personalization-activiteiten?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -60,6 +60,14 @@ Voor informatie over het richten van een aanbieding aan specifiek publiek, zie [
 ## Caveats
 
 * Het is belangrijk te begrijpen dat rapportagegroepen invloed hebben op de manier waarop [!DNL Target] bouwt zijn modellen. Dientengevolge [!DNL Adobe] U kunt alleen rapportgroepen gebruiken als u nieuwe voorstellen wilt vervangen of toevoegen terwijl een activiteit actief is. Als een nieuwe aanbieding wordt geïntroduceerd in een live-activiteit, kan de machine de gegevens die reeds voor de andere aanbiedingen in haar groep zijn verzameld, gebruiken om meer te leren over de nieuwe aanbieding. Je mag niet alle voorstellen in één rapportagegroep plaatsen.
+
+* AP-activiteiten hebben combinaties van locatie+aanbod (modellabels). Wanneer [!DNL Target] gegevens in rapporten registreert; [!DNL Target] is van mening dat deze combinaties een dergelijke combinatie vormen, zodat duidelijk is uit welke gebeurtenis (weergave, klik, enzovoort) het aanbod afkomstig was.
+
+   Een activiteit kan bijvoorbeeld verschillende locaties en verschillende aanbiedingen hebben, die elkaar kunnen overlappen. Als een bezoeker meer dan een van deze aanbiedingen op verschillende locaties ziet, [!DNL Target] registreert alleen gegevens voor deze aanbiedingen. Als dezelfde bezoeker later op een aanbieding klikt, [!DNL Target] registreert een gebeurtenis slechts van die combinatie (niet voor alle combinaties).
+
+   Op dezelfde manier als de klik uit een verschillende plaats komt, die in metrisch aanwezig is, maar geen aanbieding toont, wordt deze gebeurtenis geregistreerd onder de activiteit, maar niet voor om het even welke aanbod+location combinatie. Dientengevolge, verschijnt deze aanbieding niet in de aanbiedingsrapporteringsgroep.
+
+   Dit gedrag is toe te schrijven aan het feit dat de klik van een verschillende mbox en niet mbox zou kunnen worden gemaakt die de aanbieding vormde. Wegens dit, wordt metrisch geassocieerd met de activiteit, maar niet met de aanbieding.
 
 ## Voorstellen weergeven in een rapportgroep
 
