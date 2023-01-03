@@ -4,9 +4,9 @@ description: Leer hoe u de ontwerptaal van de opensource-snelheid gebruikt om aa
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -21,22 +21,24 @@ Informatie over snelheid vindt u op [https://velocity.apache.org](https://veloci
 
 Alle logica van de Snelheid, syntaxis, etc. kunnen voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *for* lussen, *indien* instructies, en andere code die Snelheid gebruiken eerder dan JavaScript.
 
-Elke variabele die wordt verzonden naar [!DNL Recommendations] in de `productPage` mbox of het uploaden CSV kan in een ontwerp worden getoond. Naar deze waarden wordt verwezen met de volgende syntaxis:
+Entiteitskenmerken verzonden naar [!DNL Recommendations] in de `productPage` mbox of de CSV-upload kan worden weergegeven in een ontwerp, met uitzondering van de kenmerken &quot;multi-value&quot;. Elk type kenmerk kan worden verzonden; echter [!DNL Target] geeft geen kenmerken door van het type &quot;multi-value&quot; als een array waarover een sjabloon kan doorlopen (bijvoorbeeld `entityN.categoriesList`).
+
+Naar deze waarden wordt verwezen met de volgende syntaxis:
 
 ```
 $entityN.variable
 ```
 
-Namen van variabelen moeten overeenkomen met de snelheidnotatie, die bestaat uit een regelafstand *$* teken, gevolgd door een VTL-id (Velocity Template Language). De VTL-id moet beginnen met een alfabetisch teken (a-z of A-Z).
+Kenmerknamen van entiteiten moeten de snelheidshorthand-notatie volgen, die bestaat uit een regelafstand *$* teken, gevolgd door een VTL-id (Velocity Template Language). De VTL-id moet beginnen met een alfabetisch teken (a-z of A-Z).
 
-Namen van variabele snelheidsvariabelen zijn beperkt tot de volgende typen tekens:
+Namen van kenmerken van snelheidsentiteiten zijn beperkt tot de volgende typen tekens:
 
 * Alfabetisch (a-z, A-Z)
 * Numeriek (0-9)
 * Afbreekstreepje ( - )
 * Onderstrepingsteken ( _ )
 
-De volgende variabelen zijn beschikbaar als snelheidsarrays. Als zodanig kunnen ze worden herhaald of via index naar ze worden verwezen.
+De volgende kenmerken zijn beschikbaar als snelheidsarrays. Als zodanig kunnen ze worden herhaald of via index naar ze worden verwezen.
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Voor meer informatie over de variabelen van de Snelheid, zie [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Voor meer informatie over de variabelen van de Snelheid (attributen), zie [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de manuscriptnaam met \ worden ontsnapt. Bijvoorbeeld, `\${user.script_name}`.
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Als u tekst wilt toevoegen na de waarde van een variabele vóór een label dat aangeeft dat de naam van de variabele is voltooid, kunt u dit doen met een formele notatie om de naam van de variabele in te sluiten. Bijvoorbeeld: `${entity1.thumbnailUrl}.gif`.
+>Als u na de waarde van een kenmerk tekst wilt toevoegen vóór een tag die aangeeft dat de naam van het kenmerk is voltooid, kunt u dit doen met een formele notatie om de naam van het kenmerk in te sluiten. Bijvoorbeeld: `${entity1.thumbnailUrl}.gif`.
 
-U kunt ook `algorithm.name` en `algorithm.dayCount` als variabelen in ontwerpen, zodat kan één ontwerp worden gebruikt om veelvoudige criteria te testen, en de criterium naam kan dynamisch in het ontwerp worden getoond. Dit toont de bezoeker die hij of zij kijkt naar &quot;topverkopers&quot; of &quot;mensen die dit bekeken hebben die dat gekocht hebben.&quot; U kunt deze variabelen zelfs gebruiken om de `dayCount` (aantal dagen dat de criteria worden gebruikt, zoals &quot;hoogste verkopers in de afgelopen twee dagen&quot;, enz.
+U kunt ook `algorithm.name` en `algorithm.dayCount` als entiteitattributen in ontwerpen, zodat kan één ontwerp worden gebruikt om veelvoudige criteria te testen, en de criteria kunnen de naam dynamisch in het ontwerp worden getoond. Dit toont de bezoeker die hij of zij kijkt naar &quot;topverkopers&quot; of &quot;mensen die dit bekeken hebben die dat gekocht hebben.&quot; U kunt deze kenmerken zelfs gebruiken om de `dayCount` (aantal dagen dat de criteria worden gebruikt, zoals &quot;hoogste verkopers in de afgelopen twee dagen&quot;, enz.
 
 ## Werken met getallen in snelheidssjablonen
 
 Door gebrek, behandelen de malplaatjes van de Snelheid alle entiteitattributen als koordwaarden. Mogelijk wilt u een entiteitskenmerk behandelen als een numerieke waarde om een wiskundige bewerking uit te voeren of deze te vergelijken met een andere numerieke waarde. Voer de volgende stappen uit om een entiteitskenmerk als een numerieke waarde te behandelen:
 
 1. Declareer een dummyvariabele en initialiseer deze naar een willekeurig geheel getal of een dubbele waarde.
-1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor Sjabloonparser van Target Recommendations om de sjabloon te valideren en op te slaan).
+1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor [!DNL Target Recommendations]&#39; sjabloonparser om de sjabloon te valideren en op te slaan).
 1. Geef het entiteitskenmerk door aan de `parseInt` of `parseDouble` op de dummyvariabele die u in stap 1 hebt gemaakt om van de tekenreeks een geheel getal of dubbele waarde te maken.
 1. Voer de wiskundige bewerking of vergelijking uit op de nieuwe numerieke waarde.
 
@@ -214,7 +216,7 @@ U kunt uw ontwerp wijzigen om waarden binnen een tekenreeks te vervangen. Zo ver
 De volgende code toont één regel in een voorbeeld van een voorwaardelijke verkoopprijs:
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 De volgende code is een volledig voorwaardelijk voorbeeld van een verkoopprijs:
@@ -222,9 +224,9 @@ De volgende code is een volledig voorwaardelijk voorbeeld van een verkoopprijs:
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
