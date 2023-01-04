@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
+source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,30 +15,24 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 19 oktober 2022**
+**Laatst bijgewerkt: 4 januari 2023**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 22.10.3 (gefaseerde release 25-27 oktober 2022)
-
-Deze release is beschikbaar volgens het volgende schema:
-
-* **25 oktober**: Europa, Midden-Oosten en Afrika (EMEA)
-* **26 oktober**: Regio Azië-Stille Oceaan (APAC)
-* **27 oktober**: Amerikaanse regio
+## [!DNL Target] Standard/Premium 23.1.1 (23 januari 2023)
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 | Functie | Details |
 | --- | --- |
-| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<br>(Beschikbaar om klanten te selecteren voor testen. In een toekomstige release beschikbaar voor alle klanten.) | Houd rekening met de volgende wijzigingen:<ul><li>Toegevoegde steun voor niet binaire en maximalisatiemetriek in [!UICONTROL Analytics for Target] A4T-rapportage voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten</li><li>Behoud van gedrag voor bestaande activiteiten tot februari 2023. Na deze datum zullen de activiteiten worden stopgezet om de migratie van bestaande activiteiten naar nieuw gedrag af te dwingen</li><li>Vanaf 20 februari 2023, ondersteuning voor `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden afgekeurd .</li></ul> |
+| AEM inhoudsfragmenten<br>(Exacte releasedatum voor het bepalen van deze functie.) | Inhoudsfragmenten gebruiken die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie.<br>Inhoudsfragmenten gebruiken die zijn gemaakt in AEM in [!DNL Target] Met deze activiteiten kunt u het gebruiksgemak en de kracht van AEM combineren met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om ervaringen op schaal te testen en te personaliseren. |
 
-* Extra knopinfo in het dialoogvenster [!DNL Target] UI om klanten te helpen efficiënter navigeren de publieksbouwer en te leren hoe te om eigenschappen te gebruiken die onvertrouwd zouden kunnen zijn. (TGT-44139)
-* Extra functionaliteit om te voorkomen dat klanten een activiteit bewerken die door [!DNL Target] omdat er niet-ondersteunde meetgegevens worden gebruikt. Een bericht in UI geeft klanten de opdracht om de activiteit te dupliceren en dan omzettings metrisch bij te werken.
-
-   Met deze release `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden vervangen voor nieuwe activiteiten . Bestaande activiteiten kunnen deze cijfers tot mei 2023 blijven gebruiken.
-
-* Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen een optimalisatiecriteria te selecteren terwijl het creëren van of het uitgeven van een [!UICONTROL Auto-Target] activiteit die A4T gebruikt.
+* Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460)
+* De mogelijkheid om aanbiedingen te zoeken en te filteren, is toegevoegd aan AEM tags. (TGT-43837)
+* De naam van de &quot;[!UICONTROL Experience Fragment]&quot; in de werkstroom van de Composer van de Visuele Ervaring. De optie is nu &quot;[!UICONTROL HTML XF]&quot;.
+* De functie voor het weergeven van ervaringsfragmenten heeft metagegevens toegevoegd aan de knopinfo voor informatie over aanbiedingen. (TGT-43838)
+* De kalenderopties van 45 dagen en 90 dagen zijn verwijderd uit het toegangspunt en [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] en [!UICONTROL Important Attributes] in de [!DNL Target] UI. Vanwege gebruikspatronen en om de prestaties te verbeteren, zijn deze datumbereiken afgekeurd. De interface is bijgewerkt om de momenteel toegestane bereiken te weerspiegelen: 15, 30 en 60 dagen. (TGT-39357)
+* De mogelijkheid om de [!UICONTROL Same as Optimization Goal] instellen op de [!UICONTROL Goals & Settings] pagina nadat de activiteit live is. (TGT-43923)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
