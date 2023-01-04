@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 * Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460)
 * De mogelijkheid om aanbiedingen te zoeken en te filteren, is toegevoegd aan AEM tags. (TGT-43837)
-* De naam van de &quot;[!UICONTROL Experience Fragment]&quot; in de werkstroom van de Composer van de Visuele Ervaring. De optie is nu &quot;[!UICONTROL HTML XF]&quot;.
+* De naam van de &quot;[!UICONTROL Experience Fragment]&quot; in de werkstroom van de Composer van de Visuele Ervaring. De optie is nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * De functie voor het weergeven van ervaringsfragmenten heeft metagegevens toegevoegd aan de knopinfo voor informatie over aanbiedingen. (TGT-43838)
 * De kalenderopties van 45 dagen en 90 dagen zijn verwijderd uit het toegangspunt en [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] en [!UICONTROL Important Attributes] in de [!DNL Target] UI. Vanwege gebruikspatronen en om de prestaties te verbeteren, zijn deze datumbereiken afgekeurd. De interface is bijgewerkt om de momenteel toegestane bereiken te weerspiegelen: 15, 30 en 60 dagen. (TGT-39357)
 * De mogelijkheid om de [!UICONTROL Same as Optimization Goal] instellen op de [!UICONTROL Goals & Settings] pagina nadat de activiteit live is. (TGT-43923)
