@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
+source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,6 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 ## [!DNL Target] Standard/Premium 23.1.1 (25-26 januari 2023)
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
-
-| Functie | Details |
-| --- | --- |
-| AEM inhoudsfragmenten<br>(Exacte releasedatum voor het bepalen van deze functie.) | Inhoudsfragmenten gebruiken die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie.<br>Inhoudsfragmenten gebruiken die zijn gemaakt in AEM in [!DNL Target] Met deze activiteiten kunt u het gebruiksgemak en de kracht van AEM combineren met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om ervaringen op schaal te testen en te personaliseren. |
 
 * Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460)
 * De mogelijkheid om aanbiedingen te zoeken en te filteren, is toegevoegd aan AEM tags. (TGT-43837)
