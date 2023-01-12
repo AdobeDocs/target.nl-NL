@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1794'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 12 januari | [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Bijgewerkte belangrijke opmerking die de status van de huidige [!UICONTROL Visual Experience Composer] helperuitbreiding. |
+|  | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige opmerkingen voor de release 22.13.3 toegevoegd. |
 | 21 december | [Een ontwerp aanpassen met Snelheid](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Verduidelijkt die entiteitattributen die worden verzonden naar [!DNL Recommendations] in de `productPage` mbox of de CSV-upload kan worden weergegeven in een ontwerp, met uitzondering van de kenmerken &quot;multi-value&quot;. |
 | 20 december | [Rapportgroepen aanbieden in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Aanvullende informatie toegevoegd over rapportagegroepen onder &quot;Voorzorgsmaatregelen&quot;. |
 | 14 december | [Rapportinstellingen](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Opmerking toegevoegd onder de sectie &quot;Omgeving&quot; over het gebruik [!DNL Adobe Experience Platform] (AEP) voor het verzenden van metrische gegevens naar [!DNL Target]. |
 | 29 november | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Verduidelijkte tekst door de volgende alinea toe te voegen:<ul><li>De geo-informatie van een bezoeker wordt bepaald aan de hand van het IP-adres van oorsprong van een [!DNL Target] locatieverzoek (mbox-verzoek). De IP-aan-geo resolutie wordt gedaan voor de eerste vraag van een nieuwe zitting. Dit betekent, als het IP adres van een bezoeker middenzitting van een bezoek verandert, is de geo informatie nog gebaseerd op het IP adres van de eerste vraag.</li></ul> |
-| 28 november | [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in het dialoogvenster *Adobe Target Developer Guide*. | New Models API.<br>Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit. |
+| 28 november | [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in de *Adobe Target Developer Guide*. | New Models API.<br>Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de Models API versie (23 november 2022). |
 | 23 november | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | De koppeling naar de [Integraal leveringsformulier voor Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 november | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens voor de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (29 november)</li></ul> |

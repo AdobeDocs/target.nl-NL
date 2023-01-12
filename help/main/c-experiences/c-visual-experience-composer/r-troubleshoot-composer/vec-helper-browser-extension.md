@@ -4,9 +4,9 @@ description: Ontdek waarom sommige websites niet betrouwbaar in Visual Experienc
 title: Hoe gebruik ik de Helper Extension Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,16 @@ De browser VEC Helper is een Chrome-extensie. Deze extensie is niet nodig wannee
 
 >[!IMPORTANT]
 >
->Vanaf januari 2023 wordt de huidige [!DNL Target] De extensie VEC Helper werkt niet meer in Google Chrome omdat Google extensies niet toestaat met Manifest V2. Download de nieuwe extensie om uw websites visueel te blijven ontwerpen in [!DNL Target] vanaf het nieuwe jaar. Zie voor meer informatie [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>De huidige [!DNL Target] De in dit artikel gedocumenteerde VEC Helper-extensie is gemaakt met Manifest v2. Google heeft onlangs aangekondigd dat het geen nieuwe extensies meer toestaat die zijn gemaakt met Manifest v2.
+>
+>De bestaande extensie werkt nog steeds in Google Chrome. In de toekomst [!DNL Adobe] zal de helperuitbreiding verwerpen die in dit onderwerp wordt gedocumenteerd en klanten vereisen om naar nieuwer te bewegen [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). U wordt via releaseopmerkingen en tekst in dit artikel op de hoogte gesteld wanneer deze extensie niet meer werkt. Vanwege de beveiligingsverbeteringen in Manifest v3, [!DNL Adobe] raadt u aan de nieuwe extensie te downloaden om uw websites visueel te blijven ontwerpen in [!DNL Target].
 
 ## Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 
 * De website heeft een strikt beveiligingsbeleid.
 * De website bevindt zich in een iframe.
 * De bibliotheek at.js is nog niet geïmplementeerd op de website.
-* De QA- en/of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
+* De QA- of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
 * Er zijn momenteel enkele beperkingen wanneer u probeert de VEC te gebruiken om een website te openen die [Dienstverleners](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 SW is een Webtechnologie die kan worden gebruikt om verzoeken voor het domein te onderscheppen zij op door een Web-pagina worden geïnstalleerd. De SBW heeft het paginabezoek overleefd en activeert zichzelf bij volgende bezoeken. SW beslist welke verzoeken door gaan en welke degenen in plaats daarvan van een geheim voorgeheugen worden onderschept en worden gediend.
