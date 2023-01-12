@@ -3,7 +3,7 @@ user-guide-title: Adobe Target Business Practice Guide
 breadcrumb-title: Doelgids
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -123,7 +123,7 @@ ht-degree: 0%
    + Automatisch doel {#auto-target}
       + [Overzicht van automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Een automatisch doelactiviteit maken](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Automatische probleemoplossing en veelgestelde vragen](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Veelgestelde vragen en problemen automatisch oplossen](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Rapportage en automatisch doel](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization-overzicht](c-activities/t-automated-personalization/automated-personalization.md)
