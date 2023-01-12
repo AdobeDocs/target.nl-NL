@@ -4,9 +4,9 @@ description: Veelgestelde vragen (FAQ's) weergeven over de ervaring die wordt ge
 title: Waar kan ik vragen en antwoorden vinden over doelen en publiek?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '953'
 ht-degree: 1%
 
 ---
@@ -37,14 +37,17 @@ URL van publiek zoekt naar een exacte URL-overeenkomst. Als de URL overeenkomt, 
 
 Buiten het publiek dat op URL richt, kunt u specifieke waarden specificeren die in de vraag kunnen zijn.
 
+URL van publiek richten en URL richten toegevoegd via [!UICONTROL Template Rules] evalueren als URL-doel (zie hieronder voor URL-doel).
+
 ### URL-doel
 
-Als u een doel voor de URL wilt toepassen tijdens het maken van een publiek, klikt u op Regel toevoegen, klikt u op Site-pagina&#39;s, selecteert u een optie in de eerste vervolgkeuzelijst (Huidige pagina, Vorige pagina of Openingspagina), selecteert u URL in de tweede vervolgkeuzelijst, geeft u een beoordelaar op en geeft u vervolgens de gewenste URL op.
+Als u een URL-doelverwijzing wilt toepassen tijdens het maken van een publiek, klikt u op [!UICONTROL Add Rule], klikt u op [!UICONTROL Site Pages]selecteert u een optie in de eerste vervolgkeuzelijst ([!UICONTROL Current Page], [!UICONTROL Previous Page], of [!UICONTROL Landing Page]), selecteert u [!UICONTROL URL] Geef in de tweede vervolgkeuzelijst een beoordelaar op en geef vervolgens de gewenste URL op.
 
 ![Site-pagina&#39;s > Huidige pagina > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL die richt transformeert URL in een reeks regels om te evalueren:
 
+* URL = `example.com/path1?query=something`
 * URL domain = `example.com`
 * Pad = pad1/pad2/pad3
 * queryStringParam1 = test123
@@ -112,11 +115,11 @@ Bijvoorbeeld:
 
 | Waarde | Doelcriteria | Resultaat |
 | --- | --- | --- |
-| 1,0 | is gelijk aan 1 | true |
+| 1.0 | is gelijk aan 1 | true |
 | 1 | equalsIgnoreCase 1.0 | true |
-| 1,230 | is gelijk aan 1 | true |
-| 1,500 | is gelijk aan 1,5 | true |
-| 1,200 | is kleiner dan 2 | true |
+| 1.230 | is gelijk aan 1 | true |
+| 1.500 | is gelijk aan 1,5 | true |
+| 1.200 | is kleiner dan 2 | true |
 | 2 | is groter dan 3,0 | false |
 | 045 | is gelijk aan 45 | true |
 

@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1818'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 12 januari | [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Bijgewerkte belangrijke opmerking die de status van de huidige [!UICONTROL Visual Experience Composer] helperuitbreiding. |
+|  | [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Toegevoegde informatie waarin wordt uitgelegd dat gebruikers-URL voor doelgroepen en URL&#39;s die zijn toegevoegd via [!UICONTROL Template Rules] worden geëvalueerd als URL-doel. |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige opmerkingen voor de release 22.13.3 toegevoegd. |
 | 21 december | [Een ontwerp aanpassen met Snelheid](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Verduidelijkt die entiteitattributen die worden verzonden naar [!DNL Recommendations] in de `productPage` mbox of de CSV-upload kan worden weergegeven in een ontwerp, met uitzondering van de kenmerken &quot;multi-value&quot;. |
 | 20 december | [Rapportgroepen aanbieden in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Aanvullende informatie toegevoegd over rapportagegroepen onder &quot;Voorzorgsmaatregelen&quot;. |
