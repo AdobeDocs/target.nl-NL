@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
+source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -19,16 +19,24 @@ Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere inform
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 23.1.1 (25-26 januari 2023)
+## [!DNL Target] Standard/Premium 22.13.3 (25-26 januari 2023)
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 * Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460)
-* De mogelijkheid om aanbiedingen te zoeken en te filteren, is toegevoegd aan AEM tags. (TGT-43837)
-* De naam van de &quot;[!UICONTROL Experience Fragment]&quot; in de werkstroom van de Composer van de Visuele Ervaring. De optie is nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
+* Geïmplementeerd [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) voor AP-activiteiten.
+* Ervaar namen in [!DNL Recommendations] activiteiten worden nu weergegeven met vriendelijke namen, zodat klanten gegevens beter kunnen correleren in [!DNL Adobe Analytics] met de [!DNL Target] UI. (TGT-41853)
+* Probleem verholpen waarbij de fout &quot;500&quot; werd veroorzaakt in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten. Dit probleem is ontstaan toen [!DNL Target] heeft niet correct criteria-objecten uit het [!DNL Target] UI en [!DNL Recommendations] back-end die niet meer in gebruik zijn. (TGT-44383)
+* De locatie is verwijderd uit de naam van de weergegeven aanbieding in het dialoogvenster [!UICONTROL Offer Level] verslag voor [!UICONTROL Automated Personalization] activiteiten. Deze wijziging maakt het verslag leesbaarder. (TGT-44294)
+* De naam van de &quot;[!UICONTROL Experience Fragment]&quot; in de [!UICONTROL Visual Experience Composer] (VEC) workflow. De optie is nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * De functie voor het weergeven van ervaringsfragmenten heeft metagegevens toegevoegd aan de knopinfo voor informatie over aanbiedingen. (TGT-43838)
 * De kalenderopties van 45 dagen en 90 dagen zijn verwijderd uit het toegangspunt en [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] en [!UICONTROL Important Attributes] in de [!DNL Target] UI. Vanwege gebruikspatronen en om de prestaties te verbeteren, zijn deze datumbereiken afgekeurd. De interface is bijgewerkt om de momenteel toegestane bereiken te weerspiegelen: 15, 30 en 60 dagen. (TGT-39357)
 * De mogelijkheid om de [!UICONTROL Same as Optimization Goal] instellen op de [!UICONTROL Goals & Settings] pagina nadat de activiteit live is. (TGT-43923)
+* Probleem verholpen dat problemen veroorzaakte met de standaardwerkplek in de [!DNL Target] back-end bij upgrade vanaf [!DNL Target Standard] tot [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)
+* De koppeling op het tabblad [!UICONTROL Implementation] pagina ([!UICONTROL Administration] > [!UICONTROL Implementation]) voor &quot;Implementatiemethodes met Apparaatbesluit&quot; om te verwijzen naar de pagina met uitleg over het gebruik van apparaatbeslissingen voor alle ondersteunde SDK&#39;s: Node.js, Java, .NET, en Python. Zie voor meer informatie [Aan de slag met doel-SDK&#39;s](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* Probleem verholpen die bij het gebruik van bestanden problemen bij het uploaden veroorzaakte. [!DNL Scene7] en [!DNL Target].
+* De toegankelijkheid van de [!DNL Target] UI voor personen met een handicap door resultaten van een interne bruikbaarheidscontrole te gebruiken. Deze toegankelijkheidsverbeteringen omvatten toegang tot functies die voorheen niet via het toetsenbord toegankelijk waren, alt-tekstverbeteringen, de mogelijkheid om te zoomen op onderdelen van de gebruikersinterface om bruikbaarder te zijn, verbeterde toetsenbordfocus en meer.   (TGT-42759)
+* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
