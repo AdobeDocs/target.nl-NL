@@ -1,11 +1,12 @@
 ---
-keywords: vec;composer voor visuele ervaring; vec;iframe;extension;browser
+keywords: vec;composer voor visuele ervaring; vec;iframe;extension;browser;faq
 description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geopend in de [!UICONTROL Visual Experience Composer] (VEC). De [!UICONTROL Visual Editing Helper] Met browserextensie kunt u websites betrouwbaar laden binnen de VEC.
 title: Hoe gebruik ik de [!UICONTROL Visual Editing Helper] Uitbreiding?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Met browsere
 
 >[!IMPORTANT]
 >
->Deze nieuwe extensie vervangt de vorige [Doel VEC Helper-browserextensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+>Deze nieuwe extensie vervangt de vorige [Doel VEC Helper-browserextensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Zie de belangrijke opmerking boven aan dat artikel.
 
 ## Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 
@@ -58,6 +59,12 @@ Met de [Enhanced Experience Composer](/help/main/administrating-target/visual-ex
    * Als at.js of alloy.js nog niet op de website wordt uitgevoerd, toont een bericht in VEC die suggereert dat u de uitbreiding installeert.
 * Als u de nieuwe extensie probeert te gebruiken, gaat u terug naar de [oude extensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) en [!DNL Target] kan uw website niet laden, alle browsergegevens wissen en de nieuwe extensie uitschakelen.
 
+## Veelgestelde vragen
 
+### Doet de uitbreiding, wanneer actief, om het even wat wanneer gebruikt buiten [!DNL Adobe Target] of [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
+De extensie wordt alleen geactiveerd wanneer de betreffende website is geladen in een iFrame in [!DNL Adobe] producten ([!DNL Target], [!DNL AJO]). Buiten deze flow probeert de extensie geen kopteksten toe te voegen, te verwijderen of te wijzigen en probeert de extensie geen code binnen de website te injecteren.
 
+### Wat doet de extensie als deze actief is in het dialoogvenster [!DNL Adobe Target] VEC?
+
+Wanneer een website in een iFrame wordt geladen in [!DNL Adobe] producten ([!DNL Target], [!DNL AJO]), de extensie injecteert code (gebundeld met de extensie) op de website en downloadt hulpbestanden van de [!DNL Adobe] CDN om visueel ontwerpen toe te laten.
