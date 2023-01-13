@@ -4,7 +4,7 @@ description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geope
 title: Hoe gebruik ik de [!UICONTROL Visual Editing Helper] Uitbreiding?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -32,7 +32,7 @@ De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser uitb
 * Alle iframe-opwindende headers, zoals `X-Frame-Options` en `Content-Security-Policy`, impliciet uit de website worden verwijderd. Het is niet nodig om ingewikkelde regels te creëren die verplicht zijn.
 * Als een webpagina nog geen [!DNL Target] in de bibliotheek at.js kunt u de extensie gebruiken om de bibliotheek te injecteren, zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
 
-Met de [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
+   Met de [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
 
 * [Mobiele viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) worden ondersteund, zelfs zonder de [!UICONTROL Enhanced Experience Composer] (EEG)
 * Klanten die niet bekend zijn met [!DNL Target] kan de extensie gebruiken om te experimenteren met [!DNL Target] zelfs als hun ontwikkelaars van IT nog niet ten uitvoer hebben gelegd [!DNL Target] op hun websites.
