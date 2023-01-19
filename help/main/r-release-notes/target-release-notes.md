@@ -4,7 +4,7 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
+source-git-commit: 5ad7427df49f6091f69fadac96fd55e7b48a4cda
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 12 januari 2023**
+**Laatst bijgewerkt: 19 januari 2023**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 22.13.3 (25-26 januari 2023)
+## [!DNL Target] Standard/Premium 22.13.3 (25 januari 2023)
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
