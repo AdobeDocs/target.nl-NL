@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5ad7427df49f6091f69fadac96fd55e7b48a4cda
+source-git-commit: 24df83c228ef5ebb9f0cd2234a689244625be9a2
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 19 januari 2023**
+**Laatst bijgewerkt: 23 januari 2023**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
@@ -24,8 +24,8 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 * Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460)
-* Geïmplementeerd [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) voor AP-activiteiten. (TGT-44341)
-* Ervaar namen in [!DNL Recommendations] activiteiten worden nu weergegeven met vriendelijke namen, zodat klanten gegevens beter kunnen correleren in [!DNL Adobe Analytics] met de [!DNL Target] UI. (TGT-41853)
+* Geïmplementeerd [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) voor AP-activiteiten voor geselecteerde klanten. Deze functionaliteit is beschikbaar voor alle klanten na een eerste testfase. (TGT-44341)
+* Vriendelijke namen toegevoegd in [!UICONTROL Analytics for Target] A4T-rapportage. Eerder [!DNL Target] Alleen vermelde ervaring-id&#39;s. Dankzij deze verbetering kunt u de rapportage afstemmen op [!DNL Adobe Analytics] en [!DNL Target] en helpt klanten het samenstellen van rapporten in A4T stroomlijnen. (TGT-41853)
 * Probleem verholpen waarbij de fout &quot;500&quot; werd veroorzaakt in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten. Dit probleem is ontstaan toen [!DNL Target] heeft niet correct criteria-objecten uit het [!DNL Target] UI en [!DNL Recommendations] back-end die niet meer in gebruik zijn. (TGT-44383)
 * De locatie is verwijderd uit de naam van de weergegeven aanbieding in het dialoogvenster [!UICONTROL Offer Level] verslag voor [!UICONTROL Automated Personalization] activiteiten. Deze wijziging maakt het verslag leesbaarder. (TGT-44294)
 * De naam van de &quot;[!UICONTROL Experience Fragment]&quot; in de [!UICONTROL Visual Experience Composer] (VEC) workflow. De optie is nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
