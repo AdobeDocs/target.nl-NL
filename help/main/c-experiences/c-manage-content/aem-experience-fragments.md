@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1328'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de
 U moet beschikken over de functionaliteit voor ervaringsfragmenten binnen [!DNL Target]. Bovendien moet u [!DNL AEM] as a Cloud Service of [!DNL AEM] 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
 * [!DNL Adobe Experience Manager ] as a Cloud Service
-* [!DNL Adobe Experience Manager] 6.5
-* [!DNL Adobe Experience Manager] 6.4
+* [!DNL Adobe Experience Manager] 6.5.
+* [!DNL Adobe Experience Manager] 6.4.
 * [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] account.
 
 >[!NOTE]
@@ -50,18 +50,18 @@ Voor gebruik [!DNL AEM] ervaren fragmenten in [!DNL Target]moet u de volgende st
 
 Zie voor meer informatie:
 
-* **AEM as a Cloud Service**: [Integreren met Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} in het dialoogvenster *Experience Manager as a Cloud Service* hulplijn.
-* **Adobe I/O**: [Integratie met Adobe Target met behulp van Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} in het dialoogvenster *Gebruikershandleiding beheren* documentatie.
-* **[!DNL AEM]6,5**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.5* documentatie.
-* **[!DNL AEM]6,4**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.4* documentatie.
+* **AEM as a Cloud Service**: [Integreren met Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} in de *Experience Manager as a Cloud Service* hulplijn.
+* **Adobe I/O**: [Integratie met Adobe Target met behulp van Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} in de *Gebruikershandleiding beheren* documentatie.
+* **[!DNL AEM]6,5**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank} in de *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6,4**: [Opteren in Adobe Analytics en Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} in de *Adobe Experience Manager 6.4* documentatie.
 
 ### Stap 2: Het ervaringsfragment maken
 
 Experience-fragmenten gemaakt in [!DNL AEM]. Zie voor meer informatie:
 
-* **AEM as a Cloud Service**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} in het dialoogvenster *Experience Manager as a Cloud Service* hulplijn.
-* **[!DNL AEM]6,5**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.5* documentatie.
-* **[!DNL AEM]6,4**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.4* documentatie.
+* **AEM as a Cloud Service**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} in de *Experience Manager as a Cloud Service* hulplijn.
+* **[!DNL AEM]6,5**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} in de *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6,4**: [Ervaar fragmenten](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank} in de *Adobe Experience Manager 6.4* documentatie.
 
 ### Stap 3: Configureren [!DNL AEM] om het ervaringsfragment te delen met [!DNL Target]
 
@@ -78,9 +78,9 @@ Experience-fragmenten gemaakt in [!DNL AEM]. Zie voor meer informatie:
 
 Afhankelijk van uw [!DNL AEM] versie, zie de volgende verbindingen voor geleidelijke instructies:
 
-* **AEM as a Cloud Service**: [Exporteren van ervaringsfragmenten naar Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} in het dialoogvenster *Experience Manager as a Cloud Service* hulplijn.
-* **[!DNL AEM]6,5**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.5* documentatie.
-* **[!DNL AEM]6,4**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} in het dialoogvenster *Adobe Experience Manager 6.4* documentatie.
+* **AEM as a Cloud Service**: [Exporteren van ervaringsfragmenten naar Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} in de *Experience Manager as a Cloud Service* hulplijn.
+* **[!DNL AEM]6,5**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} in de *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6,4**: [Een ervaringsfragment naar doel exporteren](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} in de *Adobe Experience Manager 6.4* documentatie.
 
 ## Ervaar fragmenten in [!DNL Target] activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -92,6 +92,8 @@ Nadat u de voorgaande taken hebt uitgevoerd, wordt het ervaringsfragment weergeg
 >
 >* Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML- of JSON-aanbieding. Het fragment &quot;primaire&quot; versie blijft behouden in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 
+
+U kunt filteren en zoeken op [!UICONTROL HTML XF] en [!UICONTROL JSON XF] zodat u onderscheid kunt maken tussen ervaringsfragmenttypen waarnaar wordt geëxporteerd [!DNL Target].
 
 U kunt de muisaanwijzer boven een ervaringsfragment in de lijst plaatsen en vervolgens op de knop [!UICONTROL View] pictogram ![Weergavepictogram](assets/icon_info.png) voor meer informatie over het ervaringsfragment, waaronder de URL voor openbare aanbieding en de bijbehorende [!DNL AEM] pad.
 
