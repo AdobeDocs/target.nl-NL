@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
+
+## [!DNL Target] Standard/Premium 22.13.3 (25 januari 2023)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 25 januari | [JSON-aanbiedingen maken](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Geeft aan dat JSON-ondersteuning biedt in [!UICONTROL Automated Personalization] (AP) activiteiten die gebruikmaken van de Form-Based Experience Composer zijn nu beschikbaar. |
+|  | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie: Mobiele en geautoriseerde gebruiksscenario&#39;s voor optimalisatie van de ervaring</li></ul> |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.10.1. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (gefaseerde release 10-13 oktober 2022)
 

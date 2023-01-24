@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,20 @@ Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder 
 Gartner benoemd [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] alle beoordeelde leveranciers hebben de hoogste scores voor hun testmogelijkheden ontvangen.
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie
+
+* **Mobiele en geautoriseerde gebruiksscenario&#39;s voor optimalisatie van de ervaring**
+* **Woensdag 1 februari 2023**
+* **08:00 - 9:00 (PST, GMT-8)**
+* **[Registratie](https://adobe.ly/3IWsAiX){target=_blank}**
+
+Brent Kostak, productmarketingmanager voor [!DNL Adobe Target], die in deze thread rechtstreeks met u zal chatten over uw [!DNL Target] vragen met betrekking tot Mobile &amp; Authenticated Use Case for Experience Optimization:
+
+* Workflows voor het instellen van activiteiten in [!DNL Target]
+* Levenscycluscijfers van klanten voor het testen en richten van mobiele ervaringen
+* Gebruik AI/ML voor kanaalverpersoonlijking in Web en app
+* Mobiele SDK&#39;s en API&#39;s voor flexibele implementaties die ondersteuning bieden voor iOS- en Android-platforms
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 

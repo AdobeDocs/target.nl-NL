@@ -1,12 +1,12 @@
 ---
 keywords: aanbieding op afstand;aanbieding op afstand maken
-description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in de Form-based Experience Composer. JSON-aanbiedingen zijn handig voor SPA frameworks of server-side integratie.
+description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in de Form-based Experience Composer.
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 JSON-aanbiedingen maken in het dialoogvenster [!UICONTROL Offer Library] in [!DNL Adobe Target] voor gebruik in de [!UICONTROL Form-Based Experience Composer].
 
-JSON-aanbiedingen kunnen worden gebruikt in op formulieren gebaseerde activiteiten waarbij het mogelijk is gevallen te gebruiken waarin [!DNL Target]De beslissing van de klant is vereist om een aanbod in JSON-indeling te verzenden voor gebruik in SPA framework of serverintegratie.
+JSON-aanbiedingen kunnen worden gebruikt in op formulieren gebaseerde activiteiten waarbij het mogelijk is gevallen te gebruiken waarin [!DNL Target] Beslissing is vereist om een aanbod in JSON-indeling te verzenden voor gebruik in SPA framework of serverintegratie.
 
 ## JSON-overwegingen
 
 Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
-* JSON-voorstellen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten.
+* JSON-voorstellen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test], Automated Personalization (AP) en [!UICONTROL Experience Targeting] (XT) activiteiten.
 * JSON-aanbiedingen kunnen worden gebruikt in [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md) alleen.
-* De JSON-aanbieding kan rechtstreeks worden opgehaald wanneer u de Server Side API, Mobile SDK of NodeJS SDK gebruikt.
-* In de browser kunnen JSON-aanbiedingen ALLEEN worden opgehaald via at.js 1.2.3 (of hoger) en via [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} door handelingen te filteren met de opdracht `setJson` handeling.
+* U kunt de JSON-aanbieding rechtstreeks ophalen wanneer u de [Server Side API&#39;s en Mobile Node.js, Java, .NET en Python SDK&#39;s](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+* In de browser kunnen JSON-aanbiedingen ALLEEN worden opgehaald via at.js 1.2.3 (of hoger) en via [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} door acties te filteren met de `setJson` handeling.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
 * JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen), omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. Ontwikkelaars moeten code schrijven om de aanbieding expliciet op te halen met [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
 
@@ -44,7 +44,7 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 ## JSON-voorbeeld {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md). De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API-aanroepen.
+JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md). De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API/SDK-aanroepen.
 
 Hier volgt een voorbeeld:
 
@@ -68,7 +68,7 @@ De acties die aan succesvolle callback worden overgegaan zijn een serie van voor
 }
 ```
 
-De array actions heeft deze structuur:
+De actiesarray heeft deze structuur:
 
 ```json
 [ 
@@ -81,7 +81,7 @@ De array actions heeft deze structuur:
 ]
 ```
 
-Als u de JSON-aanbieding wilt extraheren, doorloopt u de handelingen en zoekt u de handeling met de `setJson` en doorloopt vervolgens de inhoudarray.
+Als u het JSON-aanbod wilt extraheren, doorloopt u de handelingen en zoekt u de handeling met de `setJson` en doorloopt vervolgens de inhoudarray.
 
 ## Hoofdletters gebruiken {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -133,13 +133,13 @@ adobe.target.getOffer({
 
 ## JSON-aanbiedingsvoorbeeld met CDP-profielkenmerken in realtime
 
-CDP-profielkenmerken in realtime kunnen worden gedeeld met Target voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. (Merk op dat deze functie momenteel in Bèta is.)
+CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. (Merk op dat deze functie momenteel in Bèta is.)
 
-Voorbeeld van gebruik: Als online telleraar, wil Grace het AEP/Verenigde Profiel kenmerkwaarden met Doel delen om verpersoonlijking in real time te verstrekken. Door de Attributen van het Profiel in real time te gebruiken CDP, kan Grace de waarde van het attribuut AEP in een aanbieding van het Doel tonen gebruikend symbolenvervanger. Ze kan bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
+Voorbeeld van gebruik: Als online telleraar, wil Grace het AEP/Verenigde Profiel kenmerkwaarden met delen [!DNL Target] om realtime personalisatie mogelijk te maken. Door de Attributen van het Profiel in real time te gebruiken CDP, kan Grace de waarde van het attribuut AEP in a tonen [!DNL Target] aanbieden met gebruik van token replace. Ze kan bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
 
 ![aanbiedingsjson-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
-In het bovenstaande voorbeeld is het toewijzen van standaardwaarden optioneel.
+Het toewijzen van standaardwaarden is optioneel.
 
 ## Aanbiedingen filteren door het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

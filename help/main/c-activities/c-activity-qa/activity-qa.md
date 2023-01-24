@@ -4,9 +4,9 @@ description: Leer hoe u Adobe gebruikt [!DNL Target] QA URLs om gemakkelijke act
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1783'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 * Verbindingen om met teamleden te delen die nooit veranderen of regeneratie vereisen, ongeacht updates die aan de ervaringen of de activiteiten worden aangebracht. Met deze functie kunt u uw activiteiten volledig testen tijdens de hele gebruikersreis.
 * De voorwaarden van het publiek naar keuze gerespecteerd zodat kunnen de marketers het richten van criteria testen of het richten van criteria aan QA de verschijning van ervaringen negeren zonder het moeten aan de publieksvoorwaarden voldoen.
 * QA-rapportage wordt vastgelegd zodat marketers kunnen bevestigen dat de metriek naar verwachting toeneemt en dat de QA-rapportgegevens gescheiden worden gehouden van productierapportage (voor niet-A4T-rapportage).
-* De mogelijkheid om een ervaring afzonderlijk of met andere live activiteiten die aan de leveringscriteria voldoen (pagina/doelverzoek/publiek) voor te vertonen.
+* De mogelijkheid om een ervaring afzonderlijk of met andere live activiteiten die aan de leveringscriteria voldoen, voor te vertonen (pagina/[!DNL Target] verzoek/publiek).
 * De mogelijkheid om een kwaliteitscontrole uit te voeren voor de hele gebruikersreis. U hebt eenmalig toegang tot uw site met de koppeling voor kwaliteitscontrole en bladert vervolgens door de gehele site in Activiteit QA. U blijft in Activiteit QA tot u de zitting beëindigt of tot u gebruikt [QA-doelbladwijzer](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) om uzelf te dwingen [!UICONTROL Activity QA]. Deze functie is handig als u een activiteit hebt die meerdere webpagina&#39;s omvat.
 
    >[!NOTE]
@@ -29,7 +29,7 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 
 ## Een URL voor een kwaliteitscontrole openen en delen {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Van een activiteit [!UICONTROL Overview] pagina, klikt u op de knop **[!UICONTROL Activity QA]** koppeling.
+1. Van een activiteit [!UICONTROL Overview] pagina, klikt u op **[!UICONTROL Activity QA]**.
 
    ![QA-koppeling voor activiteit](assets/qa_link.png)
 
@@ -51,7 +51,7 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 1. Klikken **[!UICONTROL Done]** om uw wijzigingen op te slaan.
 1. Deel de activiteiten link URLs met leden van uw organisatie voor het testen.
 
-   Activiteitenkoppelingen verlopen nooit en u hoeft de koppelingen niet opnieuw te verzenden als iemand een activiteit of ervaring wijzigt. Als u echter een ander publiek toepast dan de opdracht [!UICONTROL Audience Library]In plaats van alleen maar de activiteit te bewerken, wordt er een nieuwe koppeling gegenereerd die u opnieuw moet delen.
+   Activiteitenkoppelingen verlopen nooit en u hoeft de koppelingen niet opnieuw te verzenden als iemand een activiteit of ervaring wijzigt. Als u echter een ander publiek toepast dan de opdracht [!UICONTROL Audience Library]In plaats van de activiteit gewoon te bewerken, wordt een nieuwe koppeling gegenereerd die u opnieuw moet delen.
 
    Met elke URL voor de activiteitenkoppeling (voor Experience A, Experience B enzovoort) kunt u de gebruikersreis starten vanuit de bijbehorende ervaring. Klik op de URL die voor een ervaring is gegenereerd en ga verder met het bladeren door de normale site om ervaringen op meerdere pagina&#39;s te zien (als er meerdere pagina&#39;s zijn). Er wordt slechts één URL gegenereerd per ervaring, zelfs als de ervaring meerdere pagina&#39;s beslaat (sjabloontesten of meerdere pagina&#39;s testen).
 
@@ -61,9 +61,14 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 
 ## Overwegingen {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* De [!UICONTROL Activity QA] de verbinding toont op [!UICONTROL Overview] pagina met alle soorten activiteiten, behalve [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] (AP).
+* De [!UICONTROL Activity QA] de verbinding toont op [!UICONTROL Overview] pagina met alle soorten activiteiten, behalve [!UICONTROL Automated Personalization] (AP).
+
+   >[!NOTE]
+   >
+   >[Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) voor AP-activiteiten is momenteel beschikbaar voor geselecteerde klanten in een bètaprogramma. Deze functionaliteit is beschikbaar voor alle klanten na een eerste testfase.
+
 * [!UICONTROL Activity QA] het voorbeeld van koppelingen voor opgeslagen activiteiten wordt mogelijk niet geladen als uw account te veel opgeslagen activiteiten bevat. Het opnieuw proberen van de voorproefverbindingen zou moeten werken. Om te voorkomen dat deze situatie zich blijft voordoen, archiveert u opgeslagen activiteiten die niet meer actief worden gebruikt.
-* [!UICONTROL Activity QA] URL&#39;s zijn beschikbaar met activiteiten waarbij Analytics de rapportagebron (A4T) is. Hits die tijdens het uitvoeren van QA worden geproduceerd gebruikend [!UICONTROL Activity QA] stroom aan de zelfde rapportreeks waar de de gegevensstromen van de activiteit zelfs nadat de activiteit levend gaat.
+* [!UICONTROL Activity QA] URL&#39;s zijn beschikbaar bij activiteiten met [Analyses als bron van rapportage](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Hits die tijdens het uitvoeren van QA worden geproduceerd gebruikend [!UICONTROL Activity QA] stroom aan de zelfde rapportreeks waar de de gegevensstromen van de activiteit zelfs nadat de activiteit levend gaat.
 * [!UICONTROL Activity QA] geeft geen inhoud weer voor gearchiveerde activiteiten of activiteiten die hun einddatum hebben bereikt. Als u een eindactiviteit deactiveert, moet u de activiteit opnieuw opslaan voor [!UICONTROL Activity QA] om te werken.
 * Activiteiten geïmporteerd in [!DNL Target Standard/Premium] (van [!DNL Target Classic], bijvoorbeeld) geen QA-URL&#39;s ondersteunen.
 * In [!UICONTROL Auto-Allocate] en [!UICONTROL Recommendations] de in [!UICONTROL Activity QA].
@@ -78,7 +83,7 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 
    Vanwege deze dubbele codering, wanneer [!DNL Target] probeert de `at_preview_token`, [!DNL Target] kan de juiste tokenwaarde niet extraheren, waardoor de voorvertoning niet werkt.
 
-   Adobe raadt u aan contact op te nemen met uw IT-team om ervoor te zorgen dat alle voorvertoningsparameters worden gevoegd op lijst van gewenste personen, zodat deze waarden op geen enkele manier worden getransformeerd.
+   [!DNL Adobe] U kunt het beste contact opnemen met uw IT-team om ervoor te zorgen dat alle voorvertoningsparameters worden gevoegd op lijst van gewenste personen, zodat deze waarden op geen enkele manier worden getransformeerd.
 
    De volgende lijst maakt een lijst van de parameters die in uw domein kunnen worden gevoegd op lijst van gewenste personen:
 
@@ -114,6 +119,10 @@ In de volgende tabel worden de verschillende typen activiteiten vermeld en wordt
 | [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
+
+>[!NOTE]
+>
+>[Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) voor AP-activiteiten is momenteel beschikbaar voor geselecteerde klanten in een bètaprogramma. Deze functionaliteit is beschikbaar voor alle klanten na een eerste testfase.
 
 ## Voorvertoning van URL&#39;s {#preview}
 

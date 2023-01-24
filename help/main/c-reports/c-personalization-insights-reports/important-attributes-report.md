@@ -4,9 +4,9 @@ description: Leer hoe u de [!UICONTROL Important Attributes] rapport dat de hoog
 title: Wat is het Belangrijke Rapport van Attributen?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,6 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 1. Selecteer het gewenste datumbereik.
 
    In tegenstelling tot [!UICONTROL Summary] verslag (prestatierapportage), [!UICONTROL Personalization Insights], met inbegrip van [!UICONTROL Important Attributes], is alleen beschikbaar voor vaste datumbereiken: 15 dagen, 30 dagen en 60 dagen.
-
-   >[!NOTE]
-   >
-   >De [!DNL Target] Met de gebruikersinterface kunt u momenteel datumbereiken van 45 dagen en 90 dagen kiezen. De [!DNL Target] backend verwerkt deze twee waaiers niet. Vanwege gebruikspatronen en in een poging om de prestaties te verbeteren, zijn deze datumbereiken vervangen. De interface wordt bijgewerkt met de momenteel toegestane bereiken: 15, 30 en 60 dagen.
 
    Deze vaste datumbereiken staan [!UICONTROL Personalization Insights] om een groot genoeg bereik aan gegevens te gebruiken om de kans te verkleinen dat u inzichten afleidt van een kortstondig patroon in uw activiteit. De twee besluiten u voor uw datumwaaier kunt maken zijn de &quot;Datum van het Eind&quot;en &quot;Duur.&quot; U zult merken dat het &quot;Begin&quot;grijs uit is. De begindatum wordt automatisch gewijzigd op basis van uw selecties voor de einddatum en -duur.
 
