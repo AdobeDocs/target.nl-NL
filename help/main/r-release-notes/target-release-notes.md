@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe eigenschappen en verhogingen worden inbegrepen in de aanstaande Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
+source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 | Functie | Details |
 | --- | --- |
-| Automated Personalization (AP) | Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer.<br>Zie voor meer informatie [JSON-aanbiedingen maken](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| [JSON-aanbieding](/help/main/c-experiences/c-manage-content/create-json-offer.md) ondersteuning in Automated Personalization (AP) | Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460) |
 | Recommendations | Vriendelijke namen in [!UICONTROL Analytics for Target] A4T-rapportage is nu beschikbaar. Eerder [!DNL Target] Alleen vermelde ervaring-id&#39;s. Dankzij deze verbetering kunt u de rapportage afstemmen op [!DNL Adobe Analytics] en [!DNL Target] en helpt klanten het samenstellen van rapporten in A4T stroomlijnen. (TGT-41853) |
-| AEM ervaren fragmenten | De mogelijkheid toegevoegd om onderscheid te maken tussen [!DNL Adobe Experience Manager] fragmenttypen (AEM XF) die worden geëxporteerd naar [!DNL Target]. In plaats van de optie Fragment ervaren, [!DNL Target] kunt u nu filteren en zoeken op &quot;HTML XF&quot; en &quot;JSON XF&quot;. <br>Zie voor meer informatie [AEM ervaren fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132) |
+| [AEM ervaren fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | De mogelijkheid toegevoegd om onderscheid te maken tussen [!DNL Adobe Experience Manager] fragmenttypen (AEM XF) die worden geëxporteerd naar [!DNL Target]. In plaats van de optie Fragment ervaren, [!DNL Target] kunt u nu filteren en zoeken op &quot;HTML XF&quot; en &quot;JSON XF&quot;. (TGT-44132) |
 
 * Probleem verholpen waarbij de fout &quot;500&quot; werd veroorzaakt in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten. Dit probleem is ontstaan toen [!DNL Target] heeft niet correct criteria-objecten uit het [!DNL Target] UI en [!DNL Recommendations] back-end die niet meer in gebruik zijn. (TGT-44383)
 * De locatie is verwijderd uit de naam van de weergegeven aanbieding in het dialoogvenster [!UICONTROL Offer Level] verslag voor [!UICONTROL Automated Personalization] activiteiten. Deze wijziging maakt het verslag leesbaarder. (TGT-44294)
