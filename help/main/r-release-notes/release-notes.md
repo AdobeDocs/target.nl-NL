@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
+source-git-commit: 50703e9709d515cbee18569fedb6139e9bf18ccd
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,6 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 * Probleem verholpen waarbij de fout &quot;500&quot; werd veroorzaakt in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten. Dit probleem is ontstaan toen [!DNL Target] heeft niet correct criteria-objecten uit het [!DNL Target] UI en [!DNL Recommendations] back-end die niet meer in gebruik zijn. (TGT-44383)
 * De locatie is verwijderd uit de naam van de weergegeven aanbieding in het dialoogvenster [!UICONTROL Offer Level] verslag voor [!UICONTROL Automated Personalization] activiteiten. Deze wijziging maakt het verslag leesbaarder. (TGT-44294)
-* De naam van de &quot;[!UICONTROL Experience Fragment]&quot; in de [!UICONTROL Visual Experience Composer] (VEC) workflow. De optie is nu &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * De kalenderopties van 45 dagen en 90 dagen zijn verwijderd uit het toegangspunt en [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] en [!UICONTROL Important Attributes] in de [!DNL Target] UI. Vanwege gebruikspatronen en om de prestaties te verbeteren, zijn deze datumbereiken afgekeurd. De interface is bijgewerkt om de momenteel toegestane bereiken te weerspiegelen: 15, 30 en 60 dagen. (TGT-39357)
 * De mogelijkheid om de [!UICONTROL Same as Optimization Goal] instellen op de [!UICONTROL Goals & Settings] pagina nadat de activiteit live is. (TGT-43923)
 * Probleem verholpen dat problemen veroorzaakte met de standaardwerkplek in de [!DNL Target] back-end bij upgrade vanaf [!DNL Target Standard] tot [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)
