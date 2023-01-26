@@ -5,9 +5,9 @@ landing-page-description: Meer informatie over de nieuwe functies, verbeteringen
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 50703e9709d515cbee18569fedb6139e9bf18ccd
+source-git-commit: 57030f8f3c1758c60ef00184b4b6d3dee30731fa
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 | Functie | Details |
 | --- | --- |
 | [JSON-aanbieding](/help/main/c-experiences/c-manage-content/create-json-offer.md) ondersteuning in Automated Personalization (AP) | Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460) |
-| Recommendations | Vriendelijke namen in [!UICONTROL Analytics for Target] A4T-rapportage is nu beschikbaar. Eerder [!DNL Target] Alleen vermelde ervaring-id&#39;s. Dankzij deze verbetering kunt u de rapportage afstemmen op [!DNL Adobe Analytics] en [!DNL Target] en helpt klanten het samenstellen van rapporten in A4T stroomlijnen. (TGT-41853) |
 | [AEM ervaren fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | De mogelijkheid toegevoegd om onderscheid te maken tussen [!DNL Adobe Experience Manager] fragmenttypen (AEM XF) die worden geëxporteerd naar [!DNL Target]. In plaats van de optie Fragment ervaren, [!DNL Target] kunt u nu filteren en zoeken op &quot;HTML XF&quot; en &quot;JSON XF&quot;. (TGT-44132) |
 
 * Probleem verholpen waarbij de fout &quot;500&quot; werd veroorzaakt in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten. Dit probleem is ontstaan toen [!DNL Target] heeft niet correct criteria-objecten uit het [!DNL Target] UI en [!DNL Recommendations] back-end die niet meer in gebruik zijn. (TGT-44383)
