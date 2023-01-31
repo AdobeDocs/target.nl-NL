@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
+source-git-commit: 74bf5214a4b6cd771d8842781d855bb4bd00efe0
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 31 januari | [Limieten](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Lijst met toegestane en niet-toegestane tekens in veldnamen is toegevoegd. |
 | 25 januari | [JSON-aanbiedingen maken](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Geeft aan dat JSON-ondersteuning biedt in [!UICONTROL Automated Personalization] (AP) activiteiten die gebruikmaken van de Form-Based Experience Composer zijn nu beschikbaar. |
 |  | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie: Mobiele en geautoriseerde gebruiksscenario&#39;s voor optimalisatie van de ervaring</li></ul> |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] release van 22.13.3. |
