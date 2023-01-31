@@ -5,7 +5,7 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
+source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -163,17 +163,17 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 * **Limiet**: 250 tekens.
 
-Voor levering-API (at.js 2.*x*), Batch mbox V2, en AEP Web SDK (alloy.js) integraties, mbox namen *kan* bevatten alfanumerieke tekens (A-Z, a-z, 0-9) en een of meer van de volgende tekens:
+   Voor levering-API (at.js 2.*x*), Batch mbox V2, en AEP Web SDK (alloy.js) integraties, mbox namen *kan* bevatten alfanumerieke tekens (A-Z, a-z, 0-9) en een of meer van de volgende tekens:
 
-```
-- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-```
+   ```
+   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+   ```
 
-Voor om.js 1.*x* integraties, mbox-namen *kan* bevatten een van de volgende tekens:
+   Voor om.js 1.*x* integraties, mbox-namen *kan* bevatten een van de volgende tekens:
 
-```
-' " %22 %27 < > %3C %3E 
-```
+   ```
+   ' " %22 %27 < > %3C %3E 
+   ```
 
 ### mbox-parameters {#mbox-parameters}
 
