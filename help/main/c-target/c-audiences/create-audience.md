@@ -4,9 +4,9 @@ description: Leer hoe u een aangepast publiek kunt maken en deze kunt opslaan in
 title: Hoe kan ik publiek maken?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,15 @@ De volgende regel geldt bijvoorbeeld voor bezoekers die Chrome gebruiken *of* Fi
    Om een bestaand publiek te kopiëren, van [!UICONTROL Audiences] lijst, klikt u op de knop **[!UICONTROL More Actions]** pictogram (het pictogram van de ellips), dan klik **[!UICONTROL Duplicate]**. Vervolgens kunt u het publiek bewerken om een vergelijkbaar publiek te maken.
 
 1. Typ een unieke, beschrijvende publieksnaam en een optionele beschrijving.
+
+   Namen van soorten publiek mogen niet beginnen met de volgende tekens:
+
+   `=  +  -  !  @`
+
+   Namen van doelgroepen mogen geen van de volgende tekenreeksen bevatten:
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. Sleep de gewenste kenmerken vanuit het menu **[!UICONTROL Attributes]** lijst op het recht aan de ruit van de publieksbouwer.
 
    ![Kenmerken voor slepen en neerzetten](assets/drag-attribute.png)
