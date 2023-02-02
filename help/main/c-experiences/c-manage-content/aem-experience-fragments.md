@@ -4,24 +4,28 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
+source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # AEM ervaren fragmenten
 
-Ervingfragmenten gebruiken die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie.
+Use Experience fragments (XFs) created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie.
 
 >[!NOTE]
 >
->Deze functie vereist dat u een [!DNL Adobe Experience Manager] (AEM) klant. Zie voor meer informatie [Vereisten](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
+>Houd rekening met het volgende terwijl u met AEM ervaringsfragmenten werkt in [!DNL Target]:
+> 
+>* Deze functie vereist dat u een [!DNL Adobe Experience Manager] (AEM) klant. Zie voor meer informatie [Vereisten](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
+>* Deze functie is beschikbaar voor de volgende typen activiteiten: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), en [!UICONTROL Experience Targeting] (XT). Deze functie is niet beschikbaar in [!UICONTROL Multivariate Test] (MVT) en [!UICONTROL Recommendations] activiteiten.
+
 
 Ervingsfragmenten gebruiken die zijn gemaakt in [!DNL AEM] in [!DNL Target] Met deze activiteiten kunt u het gebruiksgemak en de kracht van [!DNL AEM] met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om ervaringen op schaal te testen en te personaliseren.
 
-[!DNL AEM] brengt al uw inhoud en middelen op een centrale plaats samen om uw verpersoonlijkingsstrategie te voeden. [!DNL AEM] Hiermee kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder code te schrijven. Het is niet nodig om pagina&#39;s te maken voor elk apparaat. [!DNL AEM] past automatisch elke ervaring aan met uw inhoud.
+[!DNL AEM] brengt al uw inhoud en middelen op een centrale plaats samen om uw verpersoonlijkingsstrategie te voeden. [!DNL AEM] Hiermee kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder code te schrijven. Het is niet nodig om pagina&#39;s te maken voor elk apparaat. [!DNL AEM] past automatisch elke ervaring voor elk apparaat aan gebruikend uw inhoud.
 
 [!DNL Target] Hiermee kunt u gepersonaliseerde ervaringen op schaal bieden op basis van een combinatie van op regels gebaseerde en door AI aangedreven methoden voor het leren van machines die gedragsvariabelen, contextafhankelijke en offlinevariabelen bevatten. Met [!DNL Target]kunt u eenvoudig instellen en uitvoeren [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) en [Multivariëren](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activiteiten om de beste aanbiedingen, inhoud en ervaringen te bepalen.
 
@@ -93,9 +97,13 @@ Nadat u de voorgaande taken hebt uitgevoerd, wordt het ervaringsfragment weergeg
 >* Het ervaringsfragment wordt geïmporteerd in [!DNL Target] als een HTML- of JSON-aanbieding. Het fragment &quot;primaire&quot; versie blijft behouden in [!DNL AEM]. U kunt het ervaringsfragment niet bewerken in [!DNL Target].
 
 
-U kunt filteren en zoeken op [!UICONTROL HTML XF] en [!UICONTROL JSON XF] zodat u onderscheid kunt maken tussen ervaringsfragmenttypen waarnaar wordt geëxporteerd [!DNL Target].
+U kunt filteren en zoeken op [!UICONTROL HTML XFs] en [!UICONTROL JSON XFs] zodat u onderscheid kunt maken tussen ervaringsfragmenttypen waarnaar wordt geëxporteerd [!DNL Target].
 
-U kunt de muisaanwijzer boven een ervaringsfragment in de lijst plaatsen en vervolgens op de knop [!UICONTROL View] pictogram ![Weergavepictogram](assets/icon_info.png) voor meer informatie over het ervaringsfragment, waaronder de URL voor openbare aanbieding en de bijbehorende [!DNL AEM] pad.
+![Filteren op ervaringstypen: HTML of JSON in de doelinterface](/help/main/c-experiences/c-manage-content/assets/fragment-types.png)
+
+U kunt de muisaanwijzer boven een ervaringsfragment in de lijst plaatsen en vervolgens op de knop [!UICONTROL View] pictogram ![Weergavepictogram](assets/icon_info.png) voor meer informatie over het ervaringsfragment, zoals de naam, het type, de id van de aanbieding, het pad van de aanbieding en informatie over laatste wijzigingen. Klik op het tabblad Aanbiedingsgebruik om de activiteiten te bekijken die naar deze aanbieding verwijzen.
+
+![Pop-up Informatie over fragment ervaren](/help/main/c-experiences/c-manage-content/assets/xf-info-popup.png)
 
 U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikmaken van de [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) of de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
@@ -131,8 +139,6 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
    * **Automatisch doel:** [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Automated Personalization (AP):** [Automated Personalization-activiteiten maken](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Gericht op ervaring (XT):** [Een ervaring maken die gericht is op activiteiten](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **MVT (Multivariate Test):** [Een multivariatietest maken](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendations:** [Een Recommendations-activiteit maken](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 >[!NOTE]
 >
