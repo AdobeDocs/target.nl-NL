@@ -4,7 +4,7 @@ description: Leer hoe u een aangepast publiek kunt maken en deze kunt opslaan in
 title: Hoe kan ik publiek maken?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -53,7 +53,7 @@ De volgende regel geldt bijvoorbeeld voor bezoekers die Chrome gebruiken *of* Fi
 
    Namen van doelgroepen mogen geen van de volgende tekenreeksen bevatten:
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Sleep de gewenste kenmerken vanuit het menu **[!UICONTROL Attributes]** lijst op het recht aan de ruit van de publieksbouwer.
 
