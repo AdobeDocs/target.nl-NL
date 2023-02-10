@@ -5,9 +5,9 @@ landing-page-description: Leer meer over de nieuwe functies, verbeteringen en op
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '866'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 1%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
+
+Deze release is beschikbaar volgens het volgende schema:
+
+* **13 februari**: Amerikaanse regio
+* **15 februari**: Europa, Midden-Oosten en Afrika (EMEA)
+* **15 februari**: Regio Azië-Stille Oceaan (APAC)
+
+Deze versie bevat de volgende oplossingen:
+
+* Probleem verholpen dat het volgende foutbericht veroorzaakte, ook al was een eigenschap opgegeven in Automated Personalization (AP)-activiteiten: &quot;Fouten: Minstens één eigenschap moet tot een niet-standaardwerkruimte&quot; (TGT-44607) behoren
+* Oplossing voor een mogelijk beveiligingsprobleem dat gevolgen had voor Recommendations-feeds aan de serverzijde. (TGT-43769)
 
 ## at.js versie 2.10.1 (2 februari 2023)
 

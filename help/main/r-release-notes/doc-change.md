@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1962'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 februari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.14.5. |
 | 8 februari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.10.1. |
 | 2 februari | [Problemen met de Visual Experience Composer oplossen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | De volgende sectie is bijgewerkt:<ul><li>De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik</li></ul> |
 |  | [Stimuleer publiek in doel](/help/main/c-target/c-audiences/create-audience.md) | Toegevoegde lijst met tekens en tekenreeksen die niet in publieksnamen kunnen worden gebruikt. |
