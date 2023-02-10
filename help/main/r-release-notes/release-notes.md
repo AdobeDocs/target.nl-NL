@@ -5,9 +5,9 @@ landing-page-description: Leer meer over de nieuwe functies, verbeteringen en op
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: 839ca14d658115ebdb2d4b3239f3ea5efff1fa60
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '788'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 ## at.js versie 2.10.1 (2 februari 2023)
 
 * Probleem verholpen waarbij activiteiten waarbij publieksregels betrokken waren die parameters met punten in hun namen bevatten, niet de verwachte ervaring retourneren, voor het bepalen van het apparaat.
-* Oplossing voor een bug in at.js 2.6.0 waarbij at.js een leveringsvraag afvuurde, zelfs wanneer `mboxDisable` is ingeschakeld.
+* Oplossing voor een bug die in at.js 2.6.0 werd geïntroduceerd waarin at.js een leveringsvraag, zelfs afvuurde wanneer `mboxDisable` is ingeschakeld.
 
 Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
