@@ -4,7 +4,7 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten 
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
+source-git-commit: 6ae28ac884a6db54d8c06f44319bb2b6fc1cadf8
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -111,7 +111,7 @@ U kunt ervaringsfragmenten gebruiken in [!DNL Target] activiteiten die gebruikma
 >
 >Om de [!DNL Target] AI- en ML-functionaliteit kunt u selecteren [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) tijdens het maken van een A/B-test.
 >
->Experience-fragmenten worden niet ondersteund in [!DNL Recommendations] activiteiten. Als u echter ervaringsfragmenten wilt gebruiken voor aanbevelingen, kunt u een [!UICONTROL A/B Test] activiteit (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of een [!UICONTROL Experience Targeting] (XT) en [aanbevelingen als aanbod opnemen](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+>Experience-fragmenten worden niet ondersteund in [!DNL Recommendations] activiteiten. Als u echter ervaringsfragmenten wilt gebruiken voor aanbevelingen, kunt u een [!UICONTROL A/B Test] activiteit (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of een [!UICONTROL Experience Targeting] (XT) en [aanbevelingen als aanbod opnemen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 **Ervaar fragmenten met de VEC als u deze wilt gebruiken:**
 
