@@ -5,9 +5,9 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3768'
+source-wordcount: '3774'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina
 
 ## Op basis van winkelwagentje {#cart-based}
 
-De [!UICONTROL Cart-Based] Met het type algoritme kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingen sleutels worden geleverd door mbox parameter `cartIds` in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
+De [!UICONTROL Cart-Based] het type van algoritme laat punten adviseren die op de inhoud van de huidige kar van de bezoeker worden gebaseerd. De aanbevelingen sleutels worden geleverd door [mbox, parameter `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
 De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met &quot;[!UICONTROL Recommended For You]&quot; op gebruiker gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; op items gebaseerde algoritmen.
 
@@ -369,7 +369,7 @@ Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitiden
 
    De [!UICONTROL Group By Unique Value Of] weergegeven.
 
-1. Selecteer het entiteitskenmerk dat overeenkomt met de gekozen sleutel. In dit geval komt &quot;Favoriete merk&quot; overeen met `entity.brand`.
+1. Selecteer het entiteitattribuut dat aan de sleutel aanpast u hebt gekozen. In dit geval komt &quot;Favoriete merk&quot; overeen met `entity.brand`.
 
    [!DNL Recommendations] produceert nu een lijst met topverkopers voor elk merk en geeft de bezoeker de juiste lijst met topverkopers weer op basis van de waarde die is opgeslagen in het kenmerk Favoriete merk van de bezoeker.
 
