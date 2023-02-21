@@ -4,7 +4,7 @@ description: Leer hoe u het deelvenster Wijzigingen in Adobe gebruikt [!DNL Targ
 title: Welke wijzigingen kan ik aanbrengen in mijn pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
@@ -139,17 +139,17 @@ Gebruik de **[!UICONTROL Custom Code]** tab naar:
 
 * Omwisselen op DOM-gereed met jQuery
 
-In het volgende voorbeeld met JQuery wordt ervan uitgegaan dat op de website van de klant jQuery beschikbaar is op de pagina wanneer [!DNL Target] voert de voorstellen uit.
+   In het volgende voorbeeld met JQuery wordt ervan uitgegaan dat op de website van de klant jQuery beschikbaar is op de pagina wanneer [!DNL Target] voert de voorstellen uit.
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * Wisselen op DOM-gereed, geen jQuery (ondersteunt Internet Explorer 8 niet)
 
