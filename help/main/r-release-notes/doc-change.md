@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 21 februari | [Lijst van gewenste personen randknooppunten doel](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Bijgewerkte lijst van IP adressen aan lijst van gewenste personen voor alle gebieden in [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Wijzigingen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Toegevoegde tekst waarin wordt uitgelegd dat in het voorbeeld met JQuery wordt aangenomen dat op de website van de klant jQuery beschikbaar is op de pagina wanneer [!DNL Target] voert de voorstellen uit. |
 | 10 februari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.14.5. |
 | 8 februari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.10.1. |
 | 2 februari | [Problemen met de Visual Experience Composer oplossen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | De volgende sectie is bijgewerkt:<ul><li>De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik</li></ul> |
