@@ -4,9 +4,9 @@ description: Leer hoe u de ontwerptaal van de opensource-snelheid gebruikt om aa
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Voor meer informatie over de variabelen van de Snelheid (attributen), zie [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de manuscriptnaam met \ worden ontsnapt. Bijvoorbeeld, `\${user.script_name}`.
+Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de manuscriptnaam met een beschermd zijn `\` (backslash). Bijvoorbeeld:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
