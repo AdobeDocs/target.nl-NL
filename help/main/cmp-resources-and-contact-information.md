@@ -4,9 +4,9 @@ description: Meer informatie over extra bronnen voor meer informatie over Adobe 
 title: Waar kan ik middelen en contactinformatie voor Doel vinden?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Huidige opgenomen doelsessies zijn:
 
 | Onderwerp / Runtime / Opnamedatum | Wat u gaat leren |
 |--- |--- |
-| [tips en overzicht op.js](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 juni 2019 | U leert:<ul><li>Voordelen van het gebruik van at.js</li><li>at.js-instellingen</li><li>Flikkerverwerking</li><li>Foutopsporing bij.js</li><li>Bekende problemen</li><li>Veelgestelde vragen</li></ul>Zie voor meer informatie [Hoe werkt at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=en){target=_blank}. |
+| [tips en overzicht op.js](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 juni 2019 | U leert:<ul><li>Voordelen van het gebruik van at.js</li><li>at.js-instellingen</li><li>Flikkerverwerking</li><li>Foutopsporing bij.js</li><li>Bekende problemen</li><li>Veelgestelde vragen</li></ul>Zie voor meer informatie [Hoe werkt at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
 | [Doeltopwerkruimten](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 september 2018 | U leert:<ul><li>Een werkruimte maken (productprofiel)</li><li>Eigenschappen maken</li><li>Gebruikers toevoegen</li><li>Implementatie bijwerken</li></ul>Zie voor meer informatie [Machtigingen voor Enterprise-gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>december 2017 | U leert:<ul><li>Hoe werkt VEC</li><li>Hoe te vermijden gemeenschappelijke kwesties met VEC</li><li>Werk-rond praktijken u met VEC kunt gebruiken</li></ul>Zie voor meer informatie in deze handleiding [Ervaringen](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: Analytics/Target Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>januari 2018 | U leert:<ul><li>Hoe te opstelling en te bevestigen dat de integratie werkt </li><li>Hoe de integratie werkt</li><li>Meer informatie over de ideale rapporten die u kunt gebruiken in Analytics</li><li>Antwoorden op algemene vragen over A4T</li></ul>Zie voor meer informatie in deze handleiding [Adobe Analytics als rapportagebron voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |

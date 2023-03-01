@@ -4,9 +4,9 @@ description: Leer hoe u de SPA VEC in Adobe gebruikt [!DNL Target] om tests tot 
 title: Hoe gebruik ik Composer van de Ervaring van de Enige Pagina App Visuele (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3676'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    ![Dialoogvenster Implementatiedetails](/help/main/c-experiences/assets/imp-200.png)
 
-   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via tags in [Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation]. at.js 2.x kan ook worden geïmplementeerd via tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
-1. Implementeer de nieuwste functie van .js 2.x: [triggerView()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} op uw sites.
+1. Implementeer de nieuwste functie van at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} op uw sites.
 
    Nadat u de Weergaven van uw SPA hebt gedefinieerd waar u een A/B- of XT-test wilt uitvoeren, implementeert u at.js 2.x `triggerView()` gebruiken met Weergaven die als parameter worden doorgegeven. Dit staat marketers toe om VEC te gebruiken om de tests A/B en XT voor die Gedefinieerde Kijken te ontwerpen en in werking te stellen. Als de `triggerView()` De functie wordt niet bepaald voor die Kijken, zal VEC niet de Kijken ontdekken en zo kunnen de verkopers niet VEC gebruiken om A/B en XT tests te ontwerpen en in werking te stellen.
 
@@ -79,7 +79,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
    | opties | Object | Nee |  |  |
    | opties > pagina | Boolean | Nee |  | **TRUE**: De standaardwaarde van de pagina is true. Wanneer `page=true`, worden meldingen naar Edge-servers verzonden voor een toename van het aantal impressies.<br>**FALSE**: Wanneer `page=false`, worden meldingen niet verzonden voor het verhogen van het aantal impressies. Dit zou moeten worden gebruikt wanneer u een component op een pagina met een aanbieding slechts opnieuw wilt teruggeven. |
 
-   Laten we nu een aantal voorbeelden bekijken van gebruiksgevallen voor het aanroepen van de `triggerView()` functie in React voor onze hypothetische e-commerce SPA:
+   Laten we nu een aantal voorbeelden bekijken van de manier waarop u de `triggerView()` functie in React voor onze hypothetische e-commerce SPA:
 
    **Koppeling: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
@@ -114,7 +114,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    **Koppeling: [Productsite](https://target.enablementadobe.com/react/demo/#/products)**
 
-   Laten we nu eens kijken naar een voorbeeld dat wat gecompliceerder is. Laten we bijvoorbeeld als marketers de tweede rij van de producten personaliseren door de kleur van het prijslabel te wijzigen in rood nadat een gebruiker op de knop Meer laden heeft geklikt.
+   Laten we nu een voorbeeld bekijken dat wat gecompliceerder is. Als marketers willen we bijvoorbeeld de tweede rij van de producten personaliseren door de kleur van het prijslabel te wijzigen in rood nadat een gebruiker op de knop Meer laden heeft geklikt.
 
    ![producten reageren](/help/main/c-experiences/assets/react4.png)
 
@@ -134,7 +134,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
      }
    
      handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
+       var page = this.state.page + 1; // assuming page number is derived from component’s state
        this.setState({page: page});
        targetView('PRODUCTS-PAGE-' + page);
      }
@@ -206,7 +206,7 @@ In de volgende tabel wordt elke actie beschreven:
 | --- | --- |
 | Informatie | Geeft de details van de handeling weer. |
 | Bewerken | Hiermee kunt u de eigenschappen van de handeling rechtstreeks bewerken. |
-| Klonen | De handeling klonen naar een of meer weergaven in het dialoogvenster [!UICONTROL Modifications] of naar een of meer weergaven waarnaar u hebt gebladerd en waarnaar u in de VEC hebt genavigeerd. De handeling hoeft niet noodzakelijkerwijs te bestaan in de [!UICONTROL Modifications] deelvenster.<br>**Opmerking**: Nadat een kloonverrichting wordt gemaakt, moet u aan de Mening in VEC via navigeren [!UICONTROL Browse] om te zien of de gekloonde actie een geldige bewerking was. Als de actie niet op de Mening kan worden toegepast, zult u een fout zien. |
+| Klonen | De handeling klonen naar een of meer weergaven in het dialoogvenster [!UICONTROL Modifications] of naar een of meer weergaven waarnaar u hebt gebladerd en waarnaar u in de VEC hebt genavigeerd. De handeling hoeft niet noodzakelijkerwijs te bestaan in het dialoogvenster [!UICONTROL Modifications] deelvenster.<br>**Opmerking**: Nadat een kloonverrichting wordt gemaakt, moet u aan de Mening in VEC via navigeren [!UICONTROL Browse] om te zien of de gekloonde actie een geldige bewerking was. Als de actie niet op de Mening kan worden toegepast, zult u een fout zien. |
 | Verplaatsen | Hiermee wordt de handeling verplaatst naar een gebeurtenis Pagina laden of een andere weergave die al bestaat in het deelvenster Wijzigingen.<br>[!UICONTROL Page Load Event] - alle handelingen die overeenkomen met de gebeurtenis load van de pagina worden toegepast op de eerste pagina die wordt geladen van uw webtoepassing.<br>**Opmerking** Nadat een bewegingsverrichting wordt gemaakt, moet u aan de Mening in VEC via Browse navigeren om te zien of de beweging een geldige verrichting was. Als de handeling niet kan worden toegepast op de weergave, wordt een fout weergegeven |
 | Verwijderen | Hiermee verwijdert u de handeling. |
 
@@ -216,7 +216,7 @@ In de volgende tabel wordt elke actie beschreven:
 
 **Voorbeeld 1**
 
-Laten we het bovenstaande voorbeeld gebruiken waarin we een weergave Home hebben gemaakt. Ons doel is tweeledig voor deze visie:
+Zie het bovenstaande voorbeeld waarin we een weergave Home hebben gemaakt. Ons doel is tweeledig voor deze visie:
 
 1. Wijzig de knoppen Toevoegen aan winkelwagentje en Soortgelijk in een lichtere blauwe kleur. Dit moet in de modus &quot;Pagina laden&quot; staan, omdat de componenten van de koptekst veranderen.
 1. Wijzig het label &quot;Nieuwste producten voor 2019&quot; in &quot;Hottest Products for 2019&quot; met de tekstkleur gewijzigd in paars.
@@ -227,7 +227,7 @@ Om deze doelstellingen uit te voeren, in VEC, klik [!UICONTROL Compose] en pas d
 
 **Voorbeeld 2**
 
-Laten we het voorbeeld hierboven gebruiken waarin we een PRODUCTS-PAGE-2-weergave hebben gemaakt. Ons doel is om het label Prijs te wijzigen in Verkoopprijs met de labelkleur rood.
+Raadpleeg het bovenstaande voorbeeld waarin we een PRODUCTS-PAGE-2-weergave hebben gemaakt. Ons doel is om het label Prijs te wijzigen in Verkoopprijs met de labelkleur rood.
 
 1. Klikken [!UICONTROL Browse]klikt u op de knop [!UICONTROL Products] koppeling in de koptekst.
 1. Klikken [!UICONTROL Load More] één keer om tot de tweede rij producten te komen.
@@ -268,9 +268,9 @@ Stel bijvoorbeeld dat u een telecombedrijf bent en dat u een SPA hebt die at.js 
 Nu, noemen uw ontwikkelaars meningen en roepen `triggerView()` op de volgende wijze:
 
 * Voor `http://www.telecom.com/home` de weergavenaam is &quot;Startpagina Afgemeld&quot;
-   * `triggerView("Logged Out Home")` wordt aangeroepen.
+   * `triggerView(“Logged Out Home”)` wordt aangeroepen.
 * Voor `http://www.telecom.com/loggedIn/home` de weergavenaam is &quot;Aangemeld thuis&quot;
-   * `triggerView("Logged In Home")` wordt aangehaald op routeverandering.
+   * `triggerView(“Logged In Home”)` wordt aangehaald op routeverandering.
 
 Uw marketers voeren dan de volgende A/B-activiteiten door VEC uit:
 
@@ -282,11 +282,11 @@ Nu, laten wij deze gebruikersstroom overwegen:
 1. Een anonieme aangemelde gebruiker landt op uw pagina.
 1. Omdat u at.js 2.x gebruikt, geeft u de parameter &quot;`loggedIn = false`&quot; tijdens het laden van de pagina om alle weergaven op te halen die aanwezig zijn in actieve activiteiten die in aanmerking komen voor de parameter &quot;`loggedIn = false`&quot;.
 1. at.js 2.x wint dan de Logged Out mening en de actie van het Huis terug om de &quot;Eerste Maand Vrije&quot;aanbieding te tonen en het op te slaan in geheim voorgeheugen.
-1. Wanneer `triggerView("Logged Out Home")` wordt aangehaald, wordt de &quot;Eerste Maand Vrije&quot;aanbieding teruggewonnen van geheim voorgeheugen en de aanbieding wordt getoond zonder een servervraag.
+1. Wanneer `triggerView(“Logged Out Home”)` wordt aangehaald, wordt de &quot;Eerste Maand Vrije&quot;aanbieding teruggewonnen van geheim voorgeheugen en de aanbieding wordt getoond zonder een servervraag.
 1. De gebruiker klikt nu op Aanmelden en geeft zijn of haar referenties.
 1. Omdat uw website een SPA is, wordt de volledige pagina niet geladen en wordt de gebruiker doorgestuurd naar `http://www.telecom.com/loggedIn/home`.
 
-Hier is het probleem. De gebruiker meldt zich aan en wij ontmoeten `triggerView("Logged In Home")` omdat wij deze code op routeverandering plaatsten. Dit vertelt at.js 2.x om de mening en de acties van geheim voorgeheugen terug te winnen, maar de enige mening die in geheim voorgeheugen bestaat is Logged Out Huis.
+Hier is het probleem. De gebruiker meldt zich aan en wij ontmoeten `triggerView(“Logged In Home”)` omdat wij deze code op routeverandering plaatsten. Dit vertelt at.js 2.x om de mening en de acties van geheim voorgeheugen terug te winnen, maar de enige mening die in geheim voorgeheugen bestaat is Logged Out Huis.
 
 Dus hoe kunnen we dan onze aanmeldingsgegevens ophalen en de &quot;You are acceptable for a free phone&quot; weergeven? aanbieden? En aangezien alle verdere acties op uw plaats van een het programma geopend-in gebruikersperspectief zullen zijn, hoe kunt u ervoor zorgen alle verdere acties in gepersonaliseerde aanbiedingen voor het programma geopende gebruikers resulteren?
 
@@ -327,9 +327,9 @@ Ja, bij.js 2.x ondersteunt A4T voor SPA via de `triggerView()` -functie omdat u 
 | 6 | De doelgegevens worden via de SDID aangepast aan de analysegegevens en worden verwerkt in de analytische rapportageopslag. De analysegegevens kunnen dan in zowel Analytics als Doel via A4T- rapporten worden bekeken. |
 
 >[!NOTE]
->Als u geen berichten naar Adobe Analytics wilt verzenden voor het tellen van de indruk telkens wanneer een mening wordt teweeggebracht, ga binnen `{page: false}` aan de `triggerView()` zodat het tellen van de indruk niet wordt opgeblazen wanneer een mening veelvoudige tijden voor een component wordt teweeggebracht die constant opnieuw teruggeeft. Bijvoorbeeld:
+>Als u geen berichten naar Adobe Analytics wilt verzenden om de indruk te tellen telkens wanneer een weergave wordt geactiveerd, geeft u `{page: false}` aan de `triggerView()` zodat het tellen van de indruk niet wordt opgeblazen wanneer een mening veelvoudige tijden voor een component wordt teweeggebracht die constant opnieuw teruggeeft. Bijvoorbeeld:
 >
->`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
+>`adobe.target.triggerView(“PRODUCTS-PAGE-2”, {page:false})`
 
 ## Ondersteunde activiteiten
 
@@ -354,7 +354,7 @@ Als u Auto-Doel A/B activiteiten wilt gebruiken, kunt u al uw acties bewegen die
 | --- | --- |
 | [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Experience Cloud publiek](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [Klantkenmerken](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Ja |
+| [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | Ja |
 | [Fragmenten voor AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Ondersteunde functies {#supported-features}
@@ -421,7 +421,7 @@ Opmerking: De gebruiker die navigeert naar [https://target.enablementadobe.com/r
 
 ### Beste praktijken
 
-U kunt zien dat het beheren van de gebruikersreis vrij moeilijk kan zijn aangezien de gebruikers op om het even welke URL van uw SPA kunnen landen en aan een andere pagina kunnen navigeren. Daarom is het beter om een regel van de Levering van de Pagina te specificeren die basis URL omvat zodat het uw volledige SPA omvat. Op deze manier, te hoeven u niet om over alle verschillende reizen en wegen te denken die een gebruiker zou kunnen nemen om aan een pagina te krijgen waarop u een A/B Test of een Gerichte (XT) activiteit van de Ervaring wilt tonen.
+U kunt zien dat het beheren van de gebruikersreis vrij moeilijk kan zijn aangezien de gebruikers op om het even welke URL van uw SPA kunnen landen en aan een andere pagina kunnen navigeren. Daarom is het beter om een regel van de Levering van de Pagina te specificeren die basis URL omvat zodat het uw volledige SPA omvat. Op deze manier hoeft u niet na te denken over alle verschillende reizen en paden die een gebruiker kan maken om naar een pagina te gaan waarop u een doelactiviteit voor A/B-test of -ervaring (XT) wilt weergeven.
 
 Als u bijvoorbeeld het bovenstaande probleem wilt verhelpen, kunt u de basis-URL opgeven in de instellingen voor het leveren van pagina&#39;s als zodanig:
 

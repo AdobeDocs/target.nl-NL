@@ -4,9 +4,9 @@ description: Leer de implementatievereisten voor Analytics voor [!DNL Target] (A
 title: Wat moet ik weten voordat ik A4T implementeer?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Deze integratie A4T vereist dat u de volgende (of nieuwere) bibliotheekversies u
 
 >[!NOTE]
 >
->De volgende vereisten zijn *minimum* versies van at.js nodig om A4T uit te voeren. De [!DNL Target] team handhaaft slechts twee versies [!DNL at.js]—de huidige versie en de tweede nieuwste versie. Voer een upgrade uit [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>De volgende vereisten zijn *minimum* versies van at.js nodig om A4T uit te voeren. De [!DNL Target] team handhaaft slechts twee versies [!DNL at.js]—de huidige versie en de tweede nieuwste versie. Voer een upgrade uit [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [at.js - Versiedetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Vereisten indien nodig *niet* het gebruiken van omleidingsaanbiedingen met A4T
 
@@ -41,7 +41,7 @@ Deze integratie vereist dat u de volgende (of nieuwere) bibliotheekversies imple
 * [!DNL Adobe Target]: at.js versie 0.9.1
 * Adobe Analytics: appMeasurement.js versie 1.7.0
 
-Voor informatie over het implementeren van A4T met de [!DNL Platform Web SDK], zie [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Voor informatie over het implementeren van A4T met de [!DNL Platform Web SDK], zie [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ### Vereisten die nodig zijn bij het gebruik van omleidingsaanbiedingen met A4T
 
@@ -59,7 +59,7 @@ Als u omleidingsaanbiedingen met A4T wilt gebruiken, moet u de volgende (of nieu
 
 Download- en implementatieinstructies worden vermeld in [Analyses voor doelimplementatie](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Voor informatie over het implementeren van A4T met de [!DNL Platform Web SDK], zie [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Voor informatie over het implementeren van A4T met de [!DNL Platform Web SDK], zie [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ## Wat u moet weten voordat u gaat implementeren {#section_50D49CC52E11414089C89FB67F9B88F5}
 
