@@ -5,9 +5,9 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -66,17 +66,33 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
    Als een klant meer dan 100 gelijktijdige [!DNL Target] verzoeken om de levering van inhoud voor een bepaalde gebruikerssessie, alle volgende aanvragen voor die gebruikerssessie worden geblokkeerd. Twee of meer verzoeken worden beschouwd als gelijktijdig als zij allen worden verzonden naar [!DNL Target] -server voordat de reactie voor een van de reacties wordt ontvangen. [!DNL Target] verwerkt opeenvolgende gezamenlijke aanvragen voor dezelfde sessie.
 
-* **Foutgedrag**:
+   * **Foutgedrag**:
 
-   * Delivery API and Batch Mbox v2:
-      * Foutcode: HTTP 420 Te veel verzoeken
-      * Foutbericht: &quot;Te veel aanvragen met dezelfde sessie-id&quot;
-   * Verouderde mbox-API:
-      * Standaardinhoud met opmerking &quot;Te veel aanvragen met dezelfde sessie-id&quot;
-   * at.js:
-      * Standaardinhoud weergegeven
+      * Delivery API and Batch Mbox v2:
+         * Foutcode: HTTP 420 Te veel verzoeken
+         * Foutbericht: &quot;Te veel aanvragen met dezelfde sessie-id&quot;
+      * Verouderde mbox-API:
+         * Standaardinhoud met opmerking &quot;Te veel aanvragen met dezelfde sessie-id&quot;
+      * at.js:
+         * Standaardinhoud weergegeven
 
 
+
+* **Limiet**: 50 dozen per [!DNL Target] aanvraag voor batchverwerking van inhoud.
+
+   van meer dan 50 dozen per doos [!DNL Target] inhoud leveren batch-aanvraag resulteert in een foutcode voor reactie `HTTP 400` met foutbericht `size must be between 0 and 50`.
+
+   De verzoeken van de partijdoos worden opeenvolgend verwerkt, die de algemene reactietijd met elke herhaling verhogen. Hoe meer vakjes in het batchverzoek, des te meer responslatentie kan worden verwacht en daarom is er mogelijk time-outs. Als de ervaring het teruggeven op deze hoge latentiepartijverzoeken wordt geblokkeerd, zou de latentie in een degraded gebruikerservaring kunnen resulteren aangezien de gebruikers op ervaringen wachten om terug te geven.
+
+* **Limiet**: 60 MB de lichaamsomvang van de POST van HTTP voor [!DNL Target] verzoeken om levering van inhoud.
+
+   Meer dan 60 MB op de lichaamsgrootte van de POST van HTTP [!DNL Target] de leveringsaanvraag van de inhoud resulteert in een code van de reactiefout `HTTP 413 Request Entity Too Large`.
+
+* **Aanbevolen limiet**: 50 meldingen per [!DNL Target] aanvraag voor leveringsbatch.
+
+   Meer dan 50 meldingen per [!DNL Target] aanvraag voor de leveringsbatch leidt waarschijnlijk tot meer responslatentie en time-outs.
+
+   De verzoeken van het partijbericht worden opeenvolgend verwerkt, die de algemene reactietijd met elke herhaling verhogen. Hoe meer meldingen over het batchverzoek, des te meer responslatentie kan worden verwacht, en dus ook de mogelijkheid van time-outs. Sommige extra latentie op de verzoeken van het partijbericht zou voor sommige klanten aanvaardbaar kunnen zijn, maar ben zich ervan bewust dat onderbrekingen en om het even welke verdere pogingen nog latentie zouden kunnen veroorzaken.
 
 ## Klantkenmerken
 
