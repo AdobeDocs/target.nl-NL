@@ -6,9 +6,9 @@ title: Hoe kan ik implementeren [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Voordat u begint met [!DNL Adobe Target], moet u deze op uw site implementeren.
 
-De [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank} bevat informatie die u moet weten voordat u deze implementeert [!DNL Target].
+De [Adobe Target Developer Guide portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} bevat informatie die u moet weten voordat u implementeert [!DNL Target].
 
 Het ontwikkelaarsportaal bevat informatie over de volgende implementatietypen:
 
@@ -28,11 +28,11 @@ Het ontwikkelaarsportaal bevat informatie over de volgende implementatietypen:
 * **Mobiele apps**: Informatie die u helpt bij het implementeren met [!DNL Adobe Experience Platform Mobile] SDK&#39;s.
 * **E-mail**: Informatie die u helpt bij het implementeren [!DNL Target] in e-mails.
 
-Zie voor meer informatie de [Adobe Target Developer Guide portal](https://developer.adobe.com/target/){target=_blank}.
+Zie voor meer informatie de [Adobe Target Developer Guide portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 >[!NOTE]
 >
->Alle informatie die eerder in het *Doel implementeren* in deze handleiding (de *Handleiding voor Adobe Target Practiter*) is nu opgenomen in de [Developer Portal](https://developer.adobe.com/target/){target=_blank}.
+>Alle informatie die eerder in het *Doel implementeren* in deze handleiding (de *Handleiding voor Adobe Target Practiter*) is nu opgenomen in de [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 
 

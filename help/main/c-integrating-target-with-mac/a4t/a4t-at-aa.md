@@ -4,9 +4,9 @@ description: Leer hoe u Auto-Allocate- en Auto-Target-activiteiten maakt in Adob
 title: Biedt A4T ondersteuning voor automatisch toegewezen en automatisch doelgerichte activiteiten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 6235324c7a8952cca3a238b1948351ddc454862f
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Met de integratie A4T kunt u:
 * Gebruiken [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)De multi-gewapende bankencapaciteit om verkeer naar het winnen van ervaringen te drijven.
 * Gebruiken [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Het ensemble Machine Learning-algoritme om een beste ervaring voor elke bezoeker te kiezen. Auto-Target kiest de beste ervaring gebaseerd op gebruikersprofielen, gedrag, en context allen terwijl het gebruiken van [!DNL Adobe Analytics] doel metrisch en [!DNL Adobe Analytics]&quot; rijke rapportage- en analysemogelijkheden.
 
-Zorg ervoor dat u [geïmplementeerde A4T voor gebruik met A/B test- en ervaringsgerichte activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Als u `analyticsLogging = client_side`, moet u ook `sessionId` waarde aan [!DNL Analytics]. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} in het dialoogvenster *Adobe Target SDK&#39;s* hulplijn.
+Zorg ervoor dat u [geïmplementeerde A4T voor gebruik met A/B test- en ervaringsgerichte activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Als u `analyticsLogging = client_side`, moet u ook `sessionId` waarde aan [!DNL Analytics]. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in de *Adobe Target SDK&#39;s* hulplijn.
 
 Aan de slag:
 

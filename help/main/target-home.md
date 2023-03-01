@@ -4,9 +4,9 @@ title: Handleiding Adobe Target Business Practitioner
 description: Leer hoe u Adobe gebruikt [!DNL Target] om de ervaring van uw klanten aan te passen om uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
+source-git-commit: 906ddb81bf6913f56b900e51757ace1bbda6e598
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 - Doel integreren met de Adobe Experience Cloud: Verklaart hoe te om te integreren [!DNL Target] met andere [!DNL Experience Cloud] oplossingen, waaronder [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud publiek](/help/main/c-integrating-target-with-mac/mmp.md), en [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Biedt zelfstudies en video&#39;s om u te helpen optimaal van het doel te profiteren.
 - [Probleemoplossing](r-troubleshooting-target/troubleshooting-target.md): Verzekert verbindingen met het oplossen van problemeninformatie in deze gids, met inbegrip van informatie over de karaktergrenzen en andere grenzen (aanbiedingsgrootte, publiek, profielen, waarden, parameters, etc.) die activiteiten en andere elementen in [!DNL Target].
-- [Doel voor mobiele apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}: Verklaart hoe [!DNL Target] kan worden gebruikt voor optimalisatie en personalisatie voor mobiele apps.
+- [Doel voor mobiele apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}: Verklaart hoe [!DNL Target] kan worden gebruikt voor optimalisatie en personalisatie voor mobiele apps.
 - [Bronnen en contactgegevens](cmp-resources-and-contact-information.md): Verstrekt informatie over meer middelen om u te helpen over leren [!DNL Target] functies en hoe u contact kunt opnemen [!DNL Adobe] heeft u hulp nodig.
 
 ## Marketers {#marketers}
@@ -49,7 +49,7 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 ## Ontwikkelaars {#developers}
 
-- [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}: Dit portaal biedt bronnen en gidsen voor [!DNL Adobe Target] ontwikkelaars, inclusief API- en SDK-documentatie voor implementatie [!DNL Target].
+- [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}: Dit portaal biedt bronnen en gidsen voor [!DNL Adobe Target] ontwikkelaars, inclusief API- en SDK-documentatie voor implementatie [!DNL Target].
 
 ## Doel- en Adobe Experience Cloud-beheerders {#admins}
 
@@ -68,4 +68,4 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 
 | Adobe [!DNL Target] hulp bij oplossingen | [!DNL Adobe Experience Cloud] bronnen |
 |--- |--- |
-| <ul><li>[Adobe Target - Meer informatie en ondersteuning](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Doel-API-documentatie](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Doelforum van de Gemeenschap](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe Opleiding en Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target - Meer informatie en ondersteuning](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Doel-API-documentatie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Doelforum van de Gemeenschap](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud Help Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Adobe Opleiding en Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |

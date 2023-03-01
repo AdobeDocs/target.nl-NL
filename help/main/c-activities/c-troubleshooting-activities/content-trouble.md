@@ -4,9 +4,9 @@ description: Zoek naar suggesties om problemen op te lossen als de pagina de ver
 title: Hoe kan ik problemen met de levering van inhoud oplossen?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimpleme
 
 Zie de volgende trainingsvideo&#39;s voor meer informatie:
 
-Zie voor meer informatie [Foutopsporing in.js met Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
+Zie voor meer informatie [Foutopsporing in.js met Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Topverkopers worden niet weergegeven in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Doel biedt geen ondersteuning meer voor IE 8.
 
 ## Doelcookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Als uw site een subdomein heeft, zoals [!DNL us.domain.com], maar u hebt de doelcookie ingesteld op [!DNL domain.com] (in plaats van [!DNL us.domain.com]), moet u de `cookieDomain` instellen. Zie voor meer informatie [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
+Als uw site een subdomein heeft, zoals [!DNL us.domain.com], maar u hebt de doelcookie ingesteld op [!DNL domain.com] (in plaats van [!DNL us.domain.com]), moet u de `cookieDomain` instellen. Zie voor meer informatie [targetGlobalSettings()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 
 ## De doelinhoud flikkert of wordt niet weergegeven als een element ook deel uitmaakt van Adobe Experience Manager-personalisatie. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
