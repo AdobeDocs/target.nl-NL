@@ -4,9 +4,9 @@ description: Leer meer over de verschillende manieren waarop u een bestaande act
 title: Hoe kan ik een activiteit bewerken of Opslaan als concept?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -105,3 +105,11 @@ Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken
 * Wanneer u een activiteit aan een verschillende werkruimte kopieert, wordt de activiteit gekopieerd aan andere werkruimte zonder het in de stroom van de activiteitenverwezenlijking te openen. Nadat de activiteit met succes wordt gekopieerd, toont een berichtvertoningen erop wijzend dat de activiteit met succes werd gekopieerd en omvat een verbinding om de nieuwe activiteit te openen.
 
 Als de functionaliteit voor gebruikersrechten voor Enterprise niet is ingeschakeld in uw omgeving, worden alle activiteiten geopend in de bewerkingsmodus voordat ze worden gekopieerd.
+
+## Aanbevolen procedures
+
+* Probeer de activiteit bij te werken met dezelfde methode (UI of API) die oorspronkelijk is gebruikt om de activiteit te maken.
+
+   Met de [!DNL Target] De gebruikersinterface moet via de [!DNL Target] UI. Activiteiten die via API zijn gemaakt, moeten via API worden bijgewerkt. Als u bijvoorbeeld oorspronkelijk een activiteit maakt met behulp van de API, maar de activiteit later bewerkt via de [!DNL Target] UI, niet alle veranderingen worden bijgewerkt. Alle wijzigingen worden opgeslagen op de achtergrond en kunnen worden bijgewerkt door een andere API-aanroep te maken.
+
+

@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,31 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 
-**Laatst bijgewerkt: 10 februari 2023**
+**Laatst bijgewerkt: 8 maart 2023**
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
+## [!DNL Target] Standard/Premium 22.15.1 (8 en 9 maart 2023)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **13 februari**: Amerikaanse regio
-* **15 februari**: Europa, Midden-Oosten en Afrika (EMEA)
-* **15 februari**: Regio Azië-Stille Oceaan (APAC)
+* **8 maart**: Amerikaanse regio
+* **9 maart**: Europa, Midden-Oosten en Afrika (EMEA)
+* **9 maart**: Regio Azië-Stille Oceaan (APAC)
 
-Deze versie bevat de volgende oplossingen:
+Deze release bevat de volgende nieuwe functies en verbeteringen:
 
-* Probleem verholpen dat het volgende foutbericht veroorzaakte, ook al was een eigenschap opgegeven in Automated Personalization (AP)-activiteiten: &quot;Fouten: Minstens één eigenschap moet tot een niet-standaardwerkruimte&quot; (TGT-44607) behoren
-* Oplossing voor een mogelijk beveiligingsprobleem dat gevolgen had voor Recommendations-feeds aan de serverzijde. (TGT-43769)
+| Functie | Details |
+| --- | --- |
+| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] | [!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.<P>Houd rekening met de volgende wijziging in ondersteunde meetwaarden:<ul><li>[!DNL Target] het vroegere gedrag voor bestaande activiteiten tot (DATUM WAAROP WORDT BEPAALD) behouden blijft. Na deze datum worden activiteiten waarbij niet-ondersteunde metriek wordt gebruikt, stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.</li></ul>Zie voor meer informatie [Ondersteunde streefcijfers](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten*. |
+| [!UICONTROL Auto-Allocate] gebruiken [!UICONTROL Analytics for Target] (A4T) | Nieuwe zelfstudie:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| [!UICONTROL Auto-Target] gebruiken [!UICONTROL Analytics for Target] (A4T) | Nieuwe zelfstudie:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+
+## at.js versie 2.10.2 (7 maart 2023)
+
+* Het probleem dat de oorzaak was van de `trackEvent` om altijd een fout te retourneren.
+
+Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '34718'
+source-wordcount: '35166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,54 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
+## Opmerkingen bij de release - 2023
+
+### [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
+
+Deze release is beschikbaar volgens het volgende schema:
+
+* **13 februari**: Amerikaanse regio
+* **15 februari**: Europa, Midden-Oosten en Afrika (EMEA)
+* **15 februari**: Regio Azië-Stille Oceaan (APAC)
+
+Deze versie bevat de volgende oplossingen:
+
+* Probleem verholpen dat het volgende foutbericht veroorzaakte, ook al was een eigenschap opgegeven in Automated Personalization (AP)-activiteiten: &quot;Fouten: Minstens één eigenschap moet tot een niet-standaardwerkruimte&quot; (TGT-44607) behoren
+* Oplossing voor een mogelijk beveiligingsprobleem dat gevolgen had voor Recommendations-feeds aan de serverzijde. (TGT-43769)
+
+### at.js versie 2.10.1 (2 februari 2023)
+
+* Probleem verholpen waarbij activiteiten waarbij publieksregels betrokken waren die parameters met punten in hun namen bevatten, niet de verwachte ervaring retourneren, voor het bepalen van het apparaat.
+* Oplossing voor een bug die in at.js 2.6.0 werd geïntroduceerd waarin at.js een leveringsvraag, zelfs afvuurde wanneer `mboxDisable` is ingeschakeld.
+
+Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+
+### [!DNL Target] Standard/Premium 22.13.3 (25-26 januari 2023)
+
+Deze release is beschikbaar volgens het volgende schema:
+
+* **25 januari**: Europa, Midden-Oosten en Afrika (EMEA)
+* **25 januari**: Regio Azië-Stille Oceaan (APAC)
+* **26 januari**: Amerikaanse regio
+
+Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
+
+| Functie | Details |
+| --- | --- |
+| [JSON-aanbieding](/help/main/c-experiences/c-manage-content/create-json-offer.md) ondersteuning in Automated Personalization (AP) | Extra ondersteuning voor JSON-aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten met behulp van de Form-Based Experience Composer. (TGT-41460) |
+| [AEM ervaren fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | De mogelijkheid toegevoegd om onderscheid te maken tussen [!DNL Adobe Experience Manager] fragmenttypen (AEM XF) die worden geëxporteerd naar [!DNL Target]. In plaats van de optie Fragment ervaren, [!DNL Target] kunt u nu filteren en zoeken op &quot;HTML XF&quot; en &quot;JSON XF&quot;. (TGT-44132) |
+
+* Probleem verholpen waarbij de fout &quot;500&quot; werd veroorzaakt in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten. Dit probleem is ontstaan toen [!DNL Target] heeft niet correct criteria-objecten uit het [!DNL Target] UI en [!DNL Recommendations] back-end die niet meer in gebruik zijn. (TGT-44383)
+* De locatie is verwijderd uit de naam van de weergegeven aanbieding in het dialoogvenster [!UICONTROL Offer Level] verslag voor [!UICONTROL Automated Personalization] activiteiten. Deze wijziging maakt het verslag leesbaarder. (TGT-44294)
+* De kalenderopties van 45 dagen en 90 dagen zijn verwijderd uit het toegangspunt en [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] en [!UICONTROL Important Attributes] in de [!DNL Target] UI. Vanwege gebruikspatronen en om de prestaties te verbeteren, zijn deze datumbereiken afgekeurd. De interface is bijgewerkt om de momenteel toegestane bereiken te weerspiegelen: 15, 30 en 60 dagen. (TGT-39357)
+* De mogelijkheid om de [!UICONTROL Same as Optimization Goal] instellen op de [!UICONTROL Goals & Settings] pagina nadat de activiteit live is. (TGT-43923)
+* Probleem verholpen dat problemen veroorzaakte met de standaardwerkplek in de [!DNL Target] back-end bij upgrade vanaf [!DNL Target Standard] tot [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)
+* Een wijziging aanbrengen om toe te staan [!DNL Analytics] rapporteert versies met een puntteken &quot;.&quot; in de namen die in de [!DNL Target] UI voor het maken van [!DNL Analytics] classificatieffeeds.
+* De koppeling op het tabblad [!UICONTROL Implementation] pagina ([!UICONTROL Administration] > [!UICONTROL Implementation]) voor &quot;Implementatiemethodes met Apparaatbesluit&quot; om te verwijzen naar de pagina met uitleg over het gebruik van apparaatbeslissingen voor alle ondersteunde SDK&#39;s: Node.js, Java, .NET, en Python. Zie voor meer informatie [Aan de slag met doel-SDK&#39;s](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* Probleem verholpen die bij het gebruik van bestanden problemen bij het uploaden veroorzaakte. [!DNL Scene7] en [!DNL Target].
+* De toegankelijkheid van de [!DNL Target] UI voor personen met een handicap door resultaten van een interne bruikbaarheidscontrole te gebruiken. Deze toegankelijkheidsverbeteringen omvatten toegang tot functies die voorheen niet via het toetsenbord toegankelijk waren, alt-tekstverbeteringen, de mogelijkheid om te zoomen op onderdelen van de gebruikersinterface om bruikbaarder te zijn, verbeterde toetsenbordfocus en meer.   (TGT-42759)
+* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
+
 ## Opmerkingen bij de release - 2022
 
 ### Models API-release (23 november 2022)
@@ -31,11 +79,7 @@ Zie voor meer informatie [Modellen API - Overzicht](https://developer.adobe.com/
 
 ### [!DNL Target] Standard/Premium 22.10.3 (gefaseerde release 25-27 oktober 2022)
 
-Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
-
-| Functie | Details |
-| --- | --- |
-| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<br>(Beschikbaar om klanten te selecteren voor testen. In een toekomstige release beschikbaar voor alle klanten.) | Houd rekening met de volgende wijzigingen:<ul><li>Toegevoegde steun voor niet binaire en maximalisatiemetriek in [!UICONTROL Analytics for Target] A4T-rapportage voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten</li><li>Behoud van gedrag voor bestaande activiteiten tot februari 2023. Na deze datum zullen de activiteiten worden stopgezet om de migratie van bestaande activiteiten naar nieuw gedrag af te dwingen</li><li>Vanaf 20 februari 2023, ondersteuning voor `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden afgekeurd .</li></ul> |
+Deze versie bevat de volgende oplossingen:
 
 * Extra knopinfo in het dialoogvenster [!DNL Target] UI om klanten te helpen efficiënter navigeren de publieksbouwer en te leren hoe te om eigenschappen te gebruiken die onvertrouwd zouden kunnen zijn. (TGT-44139)
 * Extra functionaliteit om te voorkomen dat klanten een activiteit bewerken die door [!DNL Target] omdat er niet-ondersteunde meetgegevens worden gebruikt. Een bericht in UI geeft klanten de opdracht om de activiteit te dupliceren en dan omzettings metrisch bij te werken.

@@ -4,9 +4,9 @@ description: Leer hoe u het deelvenster Wijzigingen in Adobe gebruikt [!DNL Targ
 title: Welke wijzigingen kan ik aanbrengen in mijn pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -210,6 +210,10 @@ Bij elke wijziging wordt een nieuw element gemaakt in het deelvenster Wijziginge
 Als u de aangepaste codefunctie gebruikt voor twee activiteiten die op dezelfde URL zijn gericht, wordt het JavaScript vanuit beide activiteiten in de pagina geïnjecteerd. Doel bepaalt automatisch de volgorde van de geleverde inhoud. Zorg ervoor dat de code niet afhankelijk is van plaatsing. Het is aan u om ervoor te zorgen dat er geen conflicten in de code zijn.
 
 ## Problemen met aangepaste code oplossen {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+
+**Aangepaste code wordt niet uitgevoerd bij gebruik `triggerView`.**
+
+Aanbiedingen voor aangepaste code in de VEC worden niet opnieuw weergegeven wanneer `triggerView()` wordt aangeroepen met `{page: false}` als de optie.
 
 **Ik heb een waarschuwing ontvangen dat een actie niet kan worden toegepast vanwege structurele wijzigingen op een pagina. Wat betekent dit?**
 

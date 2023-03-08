@@ -1,30 +1,30 @@
 ---
 keywords: a4t;A4T;Analyse als bron voor rapportage voor Target
-description: Leer hoe u Auto-Allocate- en Auto-Target-activiteiten maakt in Adobe [!DNL Target] die Analytics als rapportagebron (A4T) gebruiken.
-title: Biedt A4T ondersteuning voor automatisch toegewezen en automatisch doelgerichte activiteiten?
+description: Leer hoe u creeert [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten in [!DNL Target] die [!DNL Analytics] als bron van rapportage (A4T).
+title: Biedt ondersteuning voor A4T [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] Activiteiten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
 
-# A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten
+# A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten
 
 De [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integratie, bekend als [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)-ondersteuning [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.
 
 Met de integratie A4T kunt u:
 
 * Gebruiken [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)De multi-gewapende bankencapaciteit om verkeer naar het winnen van ervaringen te drijven.
-* Gebruiken [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Het ensemble Machine Learning-algoritme om een beste ervaring voor elke bezoeker te kiezen. Auto-Target kiest de beste ervaring gebaseerd op gebruikersprofielen, gedrag, en context allen terwijl het gebruiken van [!DNL Adobe Analytics] doel metrisch en [!DNL Adobe Analytics]&quot; rijke rapportage- en analysemogelijkheden.
+* Gebruiken [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Het ensemble Machine Learning-algoritme om een beste ervaring voor elke bezoeker te kiezen. [!UICONTROL Auto-Target] kiest u de beste ervaring op basis van gebruikersprofielen, gedrag en context tijdens het gebruik van een [!DNL Adobe Analytics] doel metrisch en [!DNL Adobe Analytics]&quot; rijke rapportage- en analysemogelijkheden.
 
 Zorg ervoor dat u [geïmplementeerde A4T voor gebruik met A/B test- en ervaringsgerichte activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Als u `analyticsLogging = client_side`, moet u ook `sessionId` waarde aan [!DNL Analytics]. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} in de *Adobe Target SDK&#39;s* hulplijn.
 
 Aan de slag:
 
-1. Tijdens het maken van een A/B-testactiviteit, kunt u op de knop **[!UICONTROL Targeting]** pagina, selecteert u een van de volgende opties als de **[!UICONTROL Traffic Allocation Method]**:
+1. Tijdens het maken van een [!UICONTROL A/B Test] activiteit, op de **[!UICONTROL Targeting]** pagina, selecteert u een van de volgende opties als de **[!UICONTROL Traffic Allocation Method]**:
 
    * [!UICONTROL Auto-Allocate to best experience]
    * [!UICONTROL Auto-Target for personalized experiences]
@@ -37,7 +37,7 @@ Aan de slag:
 
    ![Sectie Bron rapporteren op pagina Doelstellingen en instellingen](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. Kies een maatstaf voor het primaire doel.
+1. Kies een [!UICONTROL Primary Goal] metrisch.
 
    * Te gebruiken [!DNL Adobe Target] om het optimalisatiedoel op te geven, kiest u **[!UICONTROL Conversion]** .
    * Kies **[!UICONTROL Use an Analytics metric]** en selecteer dan metrisch van [!DNL Analytics] voor gebruik als optimalisatiedoel. U kunt een uit-van-doos gebruiken [!DNL Analytics] conversiemetrisch of [!DNL Analytics] aangepaste gebeurtenis.
@@ -62,18 +62,39 @@ Aan de slag:
 * [!DNL Adobe Analytics] conversiemetingen
 * [!DNL Adobe Analytics] aangepaste gebeurtenissen
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] vereist u om metrisch te kiezen die op een binomiale gebeurtenis gebaseerd is. Een binomiale gebeurtenis doet of gebeurt niet. Binomiale gebeurtenissen omvatten een klik, een omzetting, een orde, etc. Deze soorten gebeurtenissen worden ook soms bedoeld als Bernoulli, binaire, of discrete gebeurtenissen.
+[!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] biedt geen ondersteuning voor optimalisatie voor doorlopende metingen. De ononderbroken metriek omvat opbrengst, aantal geordende producten, zittingsduur, aantal paginameningen in zitting, etc. Deze niet-ondersteunde typen metriek worden ook wel niet-binomiale of niet-Bernoulli-metriek genoemd.
+* **Metriek gebaseerd op binomiale gebeurtenissen**: Een binomiale gebeurtenis doet of gebeurt niet. Binomiale gebeurtenissen omvatten een klik, een omzetting, een orde, etc. Deze soorten gebeurtenissen worden ook soms bedoeld als Bernoulli, binaire, of discrete gebeurtenissen.
 
-De volgende metrische types zijn niet gesteund als primaire doelmetriek:
+* **Metriek gebaseerd op continue gebeurtenissen**. De ononderbroken metriek omvat opbrengst, aantal geordende producten, zittingsduur, aantal paginameningen in zitting, etc. Deze gebeurtenissen worden ook wel niet-binomiale of niet-Bernoulli-metriek genoemd.
 
-* [!DNL Adobe Target] service- en inkomstencijfers
-* [!DNL Adobe Analytics] service- en inkomstencijfers
+>[!IMPORTANT]
+>
+>Vanaf de [!DNL Adobe Target Standard/Premium] release van 22.15.1 (8 en 9 maart 2023), [!DNL Target] bestaande activiteiten blijven ondersteunen met de meetwaarden die nu niet worden ondersteund (weergegeven in de volgende tabellen). Na 9 september 2023 zullen deze cijfers echter niet langer worden ondersteund in bestaande activiteiten en zullen alle activiteiten die niet-ondersteunde metriek gebruiken, worden stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.
 
-   Het is mogelijk een [!DNL Analytics] betrokkenheid of omzet metrisch als uw primaire doel omdat [!DNL Target] kan niet alle service- en inkomstenwaarden identificeren en uitsluiten van [!DNL Analytics]. Alleen binomiale conversiemetriek of aangepaste gebeurtenissen selecteren vanuit [!DNL Analytics].
+### Gevolgen voor [!UICONTROL Auto-Allocate] activiteiten
 
-* [!DNL Adobe Analytics] berekende meetwaarden
+| Metrische naam | Niet meer ondersteund in: |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | Omzetsnelheid, RPV |
+| [!UICONTROL averagetimespentonsite] | Omzetsnelheid, RPV |
+| [!UICONTROL bouncerate] | Omzetsnelheid, RPV |
+| [!UICONTROL bounces] | Omzetsnelheid, RPV |
+| [!UICONTROL entries] | Omzetsnelheid, RPV |
+| [!UICONTROL exits] | Omzetsnelheid, RPV |
+| [!UICONTROL pageviews] | RPV |
+| [!UICONTROL reloads] | RPV |
+| [!UICONTROL visitors] | Omzetsnelheid, RPV |
+| [!UICONTROL visits] | RPV |
+
+### Gevolgen voor [!UICONTROL Auto-Target] activiteiten
+
+| Metrische naam | Niet meer ondersteund in: |
+| --- | --- |
+| [!UICONTROL cartremovals] | RPV |
+| [!UICONTROL pageviews] | RPV |
+| [!UICONTROL visitors] | Omzetsnelheid, RPV |
+| [!UICONTROL visits] | RPV |
 
 ## Beperkingen en opmerkingen
 
@@ -97,15 +118,28 @@ Sommige beperkingen en opmerkingen zijn van toepassing op beide [!UICONTROL Auto
 
 ### Automatisch doel {#at}
 
-* [!UICONTROL Auto-Target] de modellen blijven elke 24 uur trainen , zoals gewoonlijk . Omzetgebeurtenisgegevens die echter afkomstig zijn van [!DNL Analytics] 6 tot 24 uur later. Deze vertraging betekent de verdeling van het verkeer door [!DNL Target] traceert de meest recente gebeurtenissen die zijn opgenomen in [!DNL Analytics]. Deze vertraging heeft het grootste effect in de eerste 48 uur nadat een activiteit aanvankelijk wordt geactiveerd. De prestaties van de activiteit zullen beter worden gespiegeld [!DNL Analytics] omzettingsgedrag na vijf dagen is verstreken. Gebruik [!UICONTROL Auto-Allocate] in plaats van [!UICONTROL Auto-Target] voor kortdurende activiteiten waarbij het meeste verkeer plaatsvindt binnen de eerste vijf dagen van de levensduur van de activiteit.
+* [!UICONTROL Auto-Target] de modellen blijven elke 24 uur trainen , zoals gewoonlijk . Omzetgebeurtenisgegevens die echter afkomstig zijn van [!DNL Analytics] 6 tot 24 uur later. Deze vertraging betekent de verdeling van het verkeer door [!DNL Target] traceert de meest recente gebeurtenissen die zijn opgenomen in [!DNL Analytics]. Deze vertraging heeft het grootste effect in de eerste 48 uur nadat een activiteit aanvankelijk wordt geactiveerd. De prestaties van de activiteit zijn beter te spiegelen [!DNL Analytics] omzettingsgedrag na vijf dagen is verstreken.
+
+   Gebruik [!UICONTROL Auto-Allocate] in plaats van [!UICONTROL Auto-Target] voor kortdurende activiteiten waarbij het meeste verkeer plaatsvindt binnen de eerste vijf dagen van de levensduur van de activiteit.
+
 * Wanneer u [!DNL Analytics] als gegevensbron voor een [!UICONTROL Auto-Target] activiteit, sessies eindigen nadat zes uur zijn verstreken. Conversies die na zes uur plaatsvinden, worden niet geteld.
 
 Zie voor meer informatie [Attributiemodellen en terugzoekvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) in de *Handleiding Analysehulpmiddelen*.
 
-## Zelfstudie: A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten {#tutorial}
+## Tutorials
 
-Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], enkele wijzigingen in de standaardwaarde [!UICONTROL Analytics for Target] zijn vereist om Auto-Target-activiteiten correct te interpreteren. Deze wijzigingen zijn nodig vanwege verschillen tussen experimentele activiteiten (handleiding A/B en [!UICONTROL Auto-Allocate]) en personaliseringsactiviteiten ([!UICONTROL Auto-Target]).
+Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], enkele wijzigingen in de standaardwaarde [!UICONTROL Analytics for Target] het deelvenster moet correct worden geïnterpreteerd [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. Deze wijzigingen zijn nodig vanwege verschillen tussen experimentele activiteiten (handleiding A/B en [!UICONTROL Auto-Allocate]) en personaliseringsactiviteiten ([!UICONTROL Auto-Target]).
 
-In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Target] activiteiten in [!UICONTROL Workspace].
+### A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten
 
-Zie voor meer informatie [A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Allocate] activiteiten in [!DNL Analysis Workspace].
+
+Zie voor meer informatie [A4T-rapporten instellen in Analysis Workspace voor activiteiten automatisch toewijzen](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} in *Adobe Target Tutorials*.
+
+### A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten
+
+In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Target] activiteiten in [!DNL Analysis Workspace].
+
+Zie voor meer informatie [A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank} in *Adobe Target Tutorials*.
+
+
