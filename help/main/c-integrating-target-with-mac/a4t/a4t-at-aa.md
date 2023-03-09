@@ -4,9 +4,9 @@ description: Leer hoe u creeert [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-T
 title: Biedt ondersteuning voor A4T [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] Activiteiten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -76,25 +76,25 @@ Aan de slag:
 
 | Metrische naam | Niet meer ondersteund in: |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | Omzetsnelheid, RPV |
-| [!UICONTROL averagetimespentonsite] | Omzetsnelheid, RPV |
-| [!UICONTROL bouncerate] | Omzetsnelheid, RPV |
-| [!UICONTROL bounces] | Omzetsnelheid, RPV |
-| [!UICONTROL entries] | Omzetsnelheid, RPV |
-| [!UICONTROL exits] | Omzetsnelheid, RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL reloads] | RPV |
-| [!UICONTROL visitors] | Omzetsnelheid, RPV |
-| [!UICONTROL visits] | RPV |
+| [!UICONTROL averagepagedepth] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL averagetimespentonsite] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL bouncerate] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL bounces] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL entries] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL exits] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL pageviews] | Metrische waarde maximaliseren |
+| [!UICONTROL reloads] | Metrische waarde maximaliseren |
+| [!UICONTROL visitors] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL visits] | Metrische waarde maximaliseren |
 
 ### Gevolgen voor [!UICONTROL Auto-Target] activiteiten
 
 | Metrische naam | Niet meer ondersteund in: |
 | --- | --- |
-| [!UICONTROL cartremovals] | RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL visitors] | Omzetsnelheid, RPV |
-| [!UICONTROL visits] | RPV |
+| [!UICONTROL cartremovals] | Metrische waarde maximaliseren |
+| [!UICONTROL pageviews] | Metrische waarde maximaliseren |
+| [!UICONTROL visitors] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL visits] | Metrische waarde maximaliseren |
 
 ## Beperkingen en opmerkingen
 
