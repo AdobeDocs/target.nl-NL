@@ -4,9 +4,9 @@ description: Meer informatie [!DNL Adobe Target] werken, waaronder informatie ov
 title: Hoe werkt [!DNL Target] Werken?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
 workflow-type: tm+mt
-source-wordcount: '2541'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -176,9 +176,9 @@ Richtsnoeren werden gepresenteerd in een [Google Webmaster Central-blog](https:/
 
    Een omleiding van 302 is een omleiding aan de serverzijde, en [!DNL Target]gebruikt samen met de meeste optimalisatieproviders mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] voldoet niet volledig aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardaanpak voor het uitvoeren van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen [!DNL Target] gebruikt het JavaScript `window.location` gebruiken. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
 
-   [!DNL Adobe] blijft zoeken naar levensvatbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekprogramma &#39; s . Voor clients die voor het testen afzonderlijke URL&#39;s moeten gebruiken, [!DNL Adobe] is ervan overtuigd dat een goede implementatie van de canonieke codes het risico dat aan deze aanpak verbonden is, beperkt.
+   [!DNL Adobe] blijft zoeken naar levensvatbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekmachines . Voor clients die voor het testen afzonderlijke URL&#39;s moeten gebruiken, [!DNL Adobe] is ervan overtuigd dat een goede implementatie van de canonieke codes het risico dat aan deze aanpak verbonden is, beperkt.
 
-* **Experimenten alleen uitvoeren zolang dat nodig is**: [!DNL Adobe] is van mening dat &quot; zo lang als nodig &quot; is om statistische significantie te bereiken . [!DNL Target] biedt beste praktijken en [!DNL Adobe Target] [Voorbeeldgroottecalculator] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) om te bepalen wanneer uw test dit punt heeft bereikt. [!DNL Adobe] raadt u aan om de hardcoded implementatie van het winnen van tests in uw testwerkstroom op te nemen en de aangewezen middelen toe te wijzen.
+* **Experimenten alleen uitvoeren zolang dat nodig is**: [!DNL Adobe] is van mening dat &quot; zo lang als nodig &quot; is om statistische significantie te bereiken . [!DNL Target] biedt beste praktijken en [!DNL Adobe Target] [Voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) om te bepalen wanneer uw test dit punt heeft bereikt. [!DNL Adobe] raadt u aan om de hardcoded implementatie van het winnen van tests in uw testwerkstroom op te nemen en de aangewezen middelen toe te wijzen.
 
    Met de [!DNL Target] het wordt niet aanbevolen om een platform te gebruiken voor het &quot; publiceren &quot; van winnende tests . Als de winnende test voor 100% van de gebruikers 100% van de tijd wordt gepubliceerd, kan deze benadering worden gebruikt terwijl het proces van hard-coderen de het winnen test wordt voltooid.
 
