@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,9 @@ Deze release is beschikbaar volgens het volgende schema:
 * **9 maart**: Europa, Midden-Oosten en Afrika (EMEA)
 * **9 maart**: Regio Azië-Stille Oceaan (APAC)
 
-Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
-
-| Functie | Details |
-| --- | --- |
-| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] | [!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.<P>Houd rekening met de volgende wijziging in ondersteunde meetwaarden:<ul><li>[!DNL Target] het vroegere gedrag voor bestaande activiteiten tot (DATUM WAAROP WORDT BEPAALD) behouden blijft. Na deze datum worden activiteiten waarbij niet-ondersteunde metriek wordt gebruikt, stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.</li></ul>Zie voor meer informatie [Ondersteunde streefcijfers](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten*. |
-| [!UICONTROL Auto-Allocate] gebruiken [!UICONTROL Analytics for Target] (A4T) | Nieuwe zelfstudie:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL Auto-Target] gebruiken [!UICONTROL Analytics for Target] (A4T) | Nieuwe zelfstudie:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+>[!NOTE]
+>
+>Vanwege problemen die sindsdien zijn verholpen, zijn de &quot;Geoptimaliseerde A4T metriek voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]De functie &quot; die op 8 en 9 maart is uitgebracht, is tijdelijk verwijderd. Na verdere interne tests wordt de functie in de komende weken opnieuw vrijgegeven.
 
 Deze versie bevat de volgende oplossingen:
 
