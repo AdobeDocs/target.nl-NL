@@ -5,9 +5,9 @@ landing-page-description: Personaliseer de ervaring van uw klanten om de omzet t
 title: Wat is het doel?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
@@ -30,9 +30,9 @@ De beste praktijken van de industrie worden ingebouwd [!DNL Target Standard]. [!
 
 [!DNL Target Premium] is geavanceerd [!DNL Target] aanbieden waarvoor een licentie vereist is om premiefuncties toe te voegen aan [!DNL Target Standard].
 
-Alles [!DNL Target Premium] Artikelen in doelhulplijnen bevatten het Premium-symbool boven aan elke pagina of inline bij de desbetreffende tekst. Op het Premium-badge kan worden geklikt en er is een koppeling naar deze sectie opgenomen.
+Alles [!DNL Target Premium] artikelen in [!DNL Target] hulplijnen bevatten de [!UICONTROL Premium] badge boven aan elke pagina of inline bij de desbetreffende tekst. De [!UICONTROL Premium] badge is klikbaar en bevat een koppeling naar deze sectie.
 
-[!DNL Target Premium] bevat de volgende functies:
+**[!DNL Target Premium]bevat de volgende functies:**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 [!BADGE Beta]{type=Informative}
 
-De [!DNL Adobe Target] team schakelt vaak functies voor bepaalde klanten in voor tests en feedback voordat deze functies voor alle klanten in toekomstige releases worden ingeschakeld.
+De [!DNL Adobe Target] team laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in de toekomst voor alle klanten ingeschakeld [!DNL Target Standard/Premium] releases en aankondigingen in de releaseopmerkingen.
 
 artikelen in [!DNL Target] hulplijnen die bètafuncties beschrijven, bevatten het bètasymbool boven aan elke pagina of inline bij de desbetreffende tekst. U kunt op het bètabadge klikken en er is een koppeling naar deze sectie opgenomen.
 

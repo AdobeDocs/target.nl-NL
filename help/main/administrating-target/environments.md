@@ -5,9 +5,9 @@ title: Wat zijn omgevingen en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,7 @@ U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 >
 >U kunt de [!UICONTROL Production] , maar u kunt de naam ervan wijzigen.
 
-## Recommendations: filterverzamelingen en -uitsluitingen naar omgeving (hostgroep)
-
-![Premium badge](/help/main/assets/premium.png)
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."}
 
 U kunt een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).
 
