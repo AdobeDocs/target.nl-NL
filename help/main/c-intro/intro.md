@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;wat is adobe target;
 description: Leer de grondbeginselen van Adobe [!DNL Target] Standaard en Adobe [!DNL Target] Premium. [!DNL Target] Premium bevat geavanceerde functies die niet beschikbaar zijn in het standaardproduct.
-landing-page-description: Pas de ervaring van uw klanten aan om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
+landing-page-description: Personaliseer de ervaring van uw klanten om de omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 title: Wat is het doel?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -26,13 +26,13 @@ De beste praktijken van de industrie worden ingebouwd [!DNL Target Standard]. [!
 
 ## Doelpremie {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] is geavanceerd [!DNL Target] aanbieden waarvoor een licentie vereist is om premiefuncties toe te voegen aan [!DNL Target Standard].
 
-Alles [!DNL Target Premium] In deze handleiding vindt u de Premium-badge boven aan elke pagina:
+Alles [!DNL Target Premium] Artikelen in doelhulplijnen bevatten het Premium-symbool boven aan elke pagina of inline bij de desbetreffende tekst. Op het Premium-badge kan worden geklikt en er is een koppeling naar deze sectie opgenomen.
 
-![Premium badge](/help/main/assets/premium.png)
-
-Target Premium bevat de volgende functies:
+[!DNL Target Premium] bevat de volgende functies:
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 ### Machtigingen voor zakelijke gebruikers
 
 [Machtigingen voor zakelijke gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Met de functionaliteit kunt u verschillende projecten maken (de zogenaamde &quot;Productprofielen&quot; in het dialoogvenster [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Enterprise User Permissions] laat u verschillende toestemmingen voor één enkele gebruiker toewijzen die de toegangsrechten van die gebruiker voor elk project dicteren. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de reeksen in [!DNL Adobe Analytics]. Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave kunnen beperken, de toegang tot hun gebruikers kunnen bewerken, goedkeuren en publiceren. U kunt gebruikers beperken op basis van regio-, omgeving- (dvd/stage/prod), kanaal- of andere aangepaste criteria.
+
+## Bètafuncties {#beta}
+
+[!BADGE Beta]{type=Informative}
+
+De [!DNL Adobe Target] team schakelt vaak functies voor bepaalde klanten in voor tests en feedback voordat deze functies voor alle klanten in toekomstige releases worden ingeschakeld.
+
+artikelen in [!DNL Target] hulplijnen die bètafuncties beschrijven, bevatten het bètasymbool boven aan elke pagina of inline bij de desbetreffende tekst. U kunt op het bètabadge klikken en er is een koppeling naar deze sectie opgenomen.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
