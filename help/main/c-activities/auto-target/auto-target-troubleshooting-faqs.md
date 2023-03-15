@@ -2,16 +2,17 @@
 keywords: autotarget;het richten;verkeerstoewijzing;vaak gestelde vragen;faq;het oplossen van problemen;het oplossen van problemen;verkeer
 description: Onderzoek het oplossen van problemenonderwerpen en Veelgestelde Vragen over activiteiten Auto-Target in Adobe Target.
 title: Hoe kan ik auto-doelactiviteiten problemen oplossen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1859'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Veelgestelde vragen en problemen automatisch oplossen
+# Veelgestelde vragen en problemen automatisch oplossen
 
 Problemen oplossen en veelgestelde vragen (FAQ&#39;s) over [!UICONTROL Auto-Target] activiteiten in [!DNL Adobe Target].
 

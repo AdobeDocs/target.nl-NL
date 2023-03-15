@@ -2,16 +2,17 @@
 keywords: geautomatiseerde personalisatie;ap;publiek;ensemble;random forest;multi-gewapende bandit;thompson sampling;ml;machine leren
 description: Leer hoe u Automated Personalization-activiteiten (AP) kunt gebruiken in Adobe [!DNL Target] die gebruikmaken van geavanceerd leren van machines om verschillende aanbiedingsvariaties aan te passen aan elke bezoeker.
 title: Wat is een Automated Personalization-activiteit (AP)?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization (AP)
+# Automated Personalization (AP)
 
 [!UICONTROL Automated Personalization] (AP) activiteiten in [!DNL Adobe Target] combineer aanbiedingen of berichten, en gebruikt geavanceerd machinaal leren om verschillende aanbiedingsvariaties aan elke bezoeker aan te passen die op hun individueel klantenprofiel worden gebaseerd, om inhoud en aandrijfhefboom te personaliseren.
 
@@ -61,7 +62,7 @@ Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied v
 
 **Doel gebruikt automatisch alle [!DNL Adobe Experience Cloud] een gedeeld publiek om de personalisatiemodellen op te bouwen.**
 
-* U hoeft geen specifieke handelingen uit te voeren om een publiek aan het model toe te voegen. Voor informatie over het gebruik [!DNL Experience Cloud Audiences] with [!DNL Target], zie [Experience Cloud publiek](/help/main/c-integrating-target-with-mac/mmp.md).
+* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruik [!DNL Experience Cloud Audiences] with [!DNL Target], zie [Experience Cloud publiek](/help/main/c-integrating-target-with-mac/mmp.md).
 
 **Marketers kunnen offlinegegevens, proxyscores of andere aangepaste gegevens uploaden om personalisatiemodellen samen te stellen.**
 

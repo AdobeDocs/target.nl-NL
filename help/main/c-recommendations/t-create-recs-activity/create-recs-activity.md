@@ -2,16 +2,17 @@
 keywords: aanbevelingen maken;aanbevelingen, activiteit;nieuwe aanbevelingen;aanbevelingen, overzicht
 description: Leer hoe u de Adobe gebruikt [!DNL Target] Visual Experience Composer (VEC) om een Recommendations-activiteit rechtstreeks op een [!DNL Target]-enabled pagina.
 title: Hoe maak ik een Recommendations-activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Een Recommendations-activiteit maken
+# Een Recommendations-activiteit maken
 
 Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit van Recommendations direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
 

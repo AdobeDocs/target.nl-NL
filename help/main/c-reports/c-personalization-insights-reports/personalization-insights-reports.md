@@ -2,16 +2,17 @@
 keywords: gericht;AP rapporten;geautomatiseerde verpersoonlijkingsrapporten;auto-doel;auto doel;auto doelrapport;auto-doel rapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen;belangrijke attributen
 description: Leer hoe te om de gespecialiseerde rapporten voor Automated Personalization (AP) en auto-Doel (AT) activiteiten - Geautomatiseerde Segmenten en Belangrijke Attributen te gebruiken.
 title: Hoe gebruik ik de rapporten over persoonlijke voorkeuren?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Persoonlijkheidsrapporten
+# Persoonlijkheidsrapporten
 
 Gebruikers van [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten: de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten.
 

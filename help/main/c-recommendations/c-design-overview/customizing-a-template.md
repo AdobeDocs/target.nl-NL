@@ -2,16 +2,17 @@
 keywords: aangepast ontwerp;snelheid;decimaal;komma;ontwerp aanpassen
 description: Leer hoe u de ontwerptaal van de opensource-snelheid gebruikt om aanbevelingen aan te passen in Adobe [!DNL Target] Recommendations.
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Een ontwerp aanpassen met Snelheid
+# Een ontwerp aanpassen met Snelheid
 
 Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingen aan te passen in [!DNL Adobe Target Recommendations].
 

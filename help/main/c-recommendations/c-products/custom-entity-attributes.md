@@ -2,17 +2,18 @@
 keywords: multi-value entiteitsattributen;douane entiteitattributen;geldige JSON;entiteitkenmerkwaarde;JSON serie;multi-getaxeerde;multivalueerde
 description: Leer hoe u aangepaste entiteitskenmerken voor enkelvoudige en meervoudige waarden gebruikt om aanvullende informatie over items in uw Adobe te definiëren [!DNL Target] Recommendations-catalogus.
 title: Hoe gebruik ik aangepaste entiteitskenmerken?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Aangepaste entiteitskenmerken
+# Aangepaste entiteitskenmerken
 
 Aangepaste entiteitskenmerken voor één en meerdere waarden gebruiken in [!DNL Adobe Target Recommendations] om aanvullende informatie over items in uw catalogus te definiëren.
 
@@ -36,7 +37,7 @@ Een attribuut van de douaneentiteit met één enkele waarde wordt gevormd de zel
 
 Een attribuut van een aangepaste entiteit met meerdere waarden moet worden verzonden als een geldige JSON-array:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Voorbeelden van geldige JSON-arrays die worden ondersteund door [!DNL Recommendations]:
 
@@ -126,7 +127,7 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Zie de [Adobe Recommendations API-documentatie](https://developer.adobe.com/target/implement/recommendations/){target=_blank} voor informatie over het gebruik van de API&#39;s voor leveren en opslaan van entiteiten.
+Zie de [Adobe Recommendations API-documentatie](https://developer.adobe.com/target/implement/recommendations/){target=_blank} voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 

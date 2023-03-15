@@ -2,16 +2,17 @@
 keywords: omgevingsgegevens;sessiegegevens;geo-gegevens;geografische gegevens;apparaatgegevens;mobiele gegevens;kenmerken;profielkenmerken;verpersoonlijkingsalgoritmen;machinaal leeralgoritmen;machinaal leeralgoritmen
 description: Meer informatie over de Adobe [!DNL Target] verzamelt en gebruikt om zijn machine-leert algoritmen te bouwen.
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Gegevens gebruikt door [!DNL Target] computerleeralgoritmen
+# Gegevens gebruikt door [!DNL Target] computerleeralgoritmen
 
 [!DNL Adobe Target] verzamelt en gebruikt automatisch een verscheidenheid van gegevens om zijn verpersoonlijkingsalgoritmen in te bouwen [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten. Wanneer een bezoeker een AP- of AT-activiteit betreedt, wordt een momentopname van informatie doorgegeven aan een set van &quot;trainingsrecords&quot; (de bezoekersgegevens waarop de verpersoonlijkingsalgoritmen zullen leren).
 

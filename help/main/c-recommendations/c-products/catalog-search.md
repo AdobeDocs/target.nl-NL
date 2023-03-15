@@ -2,16 +2,17 @@
 keywords: cataloguszoekopdracht;catalogus;zoeken;uitsluiten;verzameling;filter
 description: Leer hoe u met de zoekfunctie voor Recommendations-catalogi producten of inhoud kunt zoeken, verzamelingen of uitsluitingen kunt maken, items uit uw catalogus kunt verwijderen en nog veel meer.
 title: Hoe gebruik ik de zoekfunctie van de Recommendations-catalogus?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Catalogus zoeken
+# Catalogus zoeken
 
 De [!UICONTROL Catalog Search] pagina in [!DNL Adobe Recommendations] helpt u de producten of inhoud in uw catalogus te vinden. De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Daarnaast kunt u de omgeving wijzigen, zoekresultaten opslaan in verzamelingen of uitsluitingen, filterfacetten toevoegen en kolommen in de tabel wijzigen, nieuwe zoekfacetten toevoegen en nog veel meer.
 

@@ -2,16 +2,17 @@
 keywords: aanbeveling;back-up;back-up maken
 description: Leer hoe u back-upaanbevelingen kunt gebruiken in Adobe [!DNL Target] Recommendations. De aanbeveling die niet genoeg geadviseerde punten heeft toont de resultaten van het reservealgoritme.
 title: Hoe gebruik ik een back-upaanbeveling in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Een back-upaanbeveling gebruiken
+# Een back-upaanbeveling gebruiken
 
 Als u de functie voor het aanbevelen van back-ups in Adobe Target gebruikt, wordt er geen standaardinhoud weergegeven als er onvoldoende aanbevolen items zijn. In plaats daarvan, tonen de aanbevelingen de resultaten van het reservealgoritme.
 

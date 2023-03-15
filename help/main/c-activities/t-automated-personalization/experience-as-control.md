@@ -2,27 +2,28 @@
 keywords: ervaring;controle;geautomatiseerde verpersoonlijking;auto-doel
 description: Leer hoe u een ervaring selecteert die u wilt gebruiken als besturing tijdens het maken van een Automated Personalization- (AP) of Auto-Target-activiteit in Adobe Target.
 title: Hoe kan ik een specifieke ervaring als Controle in een AP Activiteit gebruiken?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit
+# Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit
 
 U kunt een willekeurig bediende ervaring selecteren of een specifieke ervaring die als controle moet worden gebruikt terwijl het creëren van [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het controleverkeer aan de relevante ervaringen leiden, die op het percentage van de verkeerstoewijzing worden gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die controle dan evalueren.
 
-De opties voor het instellen van een besturingselement in AP- en AT-activiteiten wijken af van andere soorten activiteit. In een handmatige A/B Test, kunt u veranderen wat het melden als uw controle toont, en de lift wordt berekend gebaseerd op de omrekeningssnelheid van die controleervaring. U kunt deze verandering gemakkelijk maken omdat het verkeer willekeurig aan elk van de ervaringen wordt gediend u in uw activiteit omvatte, geen kwestie wat de controle aanvankelijk aan wordt geplaatst. Met andere woorden, het selecteren van het besturingselement heeft geen invloed op de manier waarop het verkeer wordt weergegeven. In AP en bij activiteiten, beïnvloedt uw besluit wat om als controle te kiezen hoe het bezoekersverkeer wordt gediend. Als gevolg daarvan moet u zorgvuldiger nadenken over uw beslissing.
+De opties voor het instellen van een besturingselement in AP- en AT-activiteiten wijken af van andere soorten activiteit. In een handmatige A/B Test, kunt u veranderen wat het melden als uw controle toont, en de lift wordt berekend gebaseerd op de omrekeningssnelheid van die controleervaring. U kunt deze verandering gemakkelijk maken omdat het verkeer willekeurig aan elk van de ervaringen wordt gediend u in uw activiteit omvatte, geen kwestie wat de controle aanvankelijk aan wordt geplaatst. Met andere woorden, het selecteren van de controle beïnvloedt niet hoe het verkeer wordt gediend. In AP en bij activiteiten, beïnvloedt uw besluit wat om als controle te kiezen hoe het bezoekersverkeer wordt gediend. Als gevolg daarvan moet u zorgvuldiger nadenken over uw beslissing.
 
 Er zijn twee opties beschikbaar voor uw controle in uw AP en bij activiteiten: willekeurig bediende ervaringen of een specifieke ervaring.
 
-* **Willekeurig bediend**: Voor een willekeurige controle, dient het controlepercentage van verkeer willekeurig alle ervaringen in de activiteit, zonder het profiel van die bezoeker te overwegen. U kunt de controle beschouwen als een handig antwoord op de vraag: &quot;Als ik alleen een willekeurige ervaring (of aanbieding) voor bezoekers betaal en geen rekening houd met hun profielen, wat is de conversiekoers voor die ervaring (of die aanbieding)?&quot; Het besturingselement is vergelijkbaar met een A/B-test binnen uw AI-activiteit. Deze informatie over de niet-gepersonaliseerde omrekeningskoers voor elke ervaring of aanbieding kan nuttig zijn om te begrijpen wanneer het analyseren van uw activiteitenresultaten.
+* **Willekeurig bediend**: Voor een willekeurige controle, dient het controlepercentage van verkeer willekeurig alle ervaringen in de activiteit, zonder het profiel van die bezoeker te overwegen. U kunt de controle zien als een handig antwoord op de vraag: &quot;Als ik alleen een willekeurige ervaring (of aanbieding) aan bezoekers betaal en geen rekening houdt met hun profielen, wat is dan de conversiekoers voor die ervaring (of die aanbieding)?&quot; Het besturingselement is vergelijkbaar met een A/B-test binnen uw AI-activiteit. Deze informatie over de niet-gepersonaliseerde omrekeningskoers voor elke ervaring of aanbieding kan nuttig zijn om te begrijpen wanneer het analyseren van uw activiteitenresultaten.
 
 * **Specifieke ervaring**: Een specifieke ervaringscontrole laat u uw verkeer vergelijken dat door de verpersoonlijkingsmodellen van het Doel wordt gediend aan een specifieke marketer-bepaalde ervaring (bijvoorbeeld, uw standaardhomepage). Met deze optie, dient het controlepercentage van verkeer willekeurig verkeer voor slechts die één ervaring.
 

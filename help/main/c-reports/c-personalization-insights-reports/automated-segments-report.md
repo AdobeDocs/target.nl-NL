@@ -2,16 +2,17 @@
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel;automatisch doelrapport;automatisch doelrapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen
 description: Leer hoe verschillende segmenten die worden gedefinieerd door Adobe [!DNL Target] de verpersoonlijkingsmodellen antwoorden aan aanbiedingen/ervaringen in de activiteit door het Geautomatiseerde rapport van Segmenten te bekijken.
 title: Wat is het Geautomatiseerde Rapport van Segmenten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automated Segments] verslag
+# [!UICONTROL Automated Segments] verslag
 
 Informatie over de [!UICONTROL Automated Segments] rapport, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.
 

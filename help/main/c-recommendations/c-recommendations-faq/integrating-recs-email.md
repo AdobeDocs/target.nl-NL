@@ -2,16 +2,17 @@
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time e-mail
 description: Leer hoe u e-mail kunt integreren met Adobe [!DNL Target Recommendations], including using the [!DNL Target] De levering API, de malplaatjes van de doos, en neer-lading slechts malplaatjes.
 title: Hoe integreer ik Recommendations met e-mail?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Integreren [!DNL Recommendations] met e-mail
+# Integreren [!DNL Recommendations] met e-mail
 
 [!DNL Adobe Target] biedt ondersteuning voor het aanpassen van aanbevelingen in e-mailberichten tijdens het verzenden.
 
@@ -25,7 +26,7 @@ Drie methoden voor integratie [!DNL Target Recommendations] met uw e-mailservice
 
 Het gebruiken van methode 1 of methode 2 vereist uw ESP om vraag aan een externe API per-klant/per-e-mailbasis te maken en op te wachten tot de inhoud is teruggekeerd. Deze methoden worden niet door alle ESP&#39;s ondersteund; Neem contact op met uw ESP om te bepalen of het compatibel is met dit integratiepatroon.
 
-Als je methode 3 gebruikt, moet je ESP zich aansluiten bij een lijst met aanbevelingen per product-id of rubriek-ID in je lijst met e-mailberichten. Deze methode kan op een attribuut zoals het laatst bekeken product van de klant, het laatst gekochte product, of de meeste bekeken categorie worden gebaseerd. Uw ESP moet echter toegang hebben tot deze gegevens in zijn klantprofiel om de verbinding uit te voeren. Neem contact op met uw ESP om te bepalen of deze toegang heeft tot deze gegevens en compatibel is met dit integratiepatroon.
+Als je methode 3 gebruikt, moet je ESP zich aansluiten bij een lijst met aanbevelingen per product-id of rubriek-ID in je lijst met e-mailberichten. Deze methode kan worden gebaseerd op een kenmerk zoals het laatst bekeken product van de klant, het laatst aangeschafte product of de meest bekeken categorie. Uw ESP moet echter toegang hebben tot deze gegevens in zijn klantprofiel om de verbinding uit te voeren. Neem contact op met uw ESP om te bepalen of deze toegang heeft tot deze gegevens en compatibel is met dit integratiepatroon.
 
 De open-tijdpersonalisatie van aanbevelingen wordt niet gesteund door [!DNL Adobe Target].
 
@@ -77,7 +78,7 @@ Wanneer `clientcode` is uw [!DNL Target] clientcode.
 >
 >Zorg ervoor dat u een unieke waarde opgeeft voor beide `sessionId` en een van `tntId` of `thirdPartyId` voor elke e-mailontvanger (bijvoorbeeld voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege de vele gebeurtenissen die binnen één profiel zijn gegenereerd.
 
-Zie [Leverings-API-documentatie](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} voor meer informatie.
+Zie [Leverings-API-documentatie](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} voor meer informatie .
 
 ## Methode 2: Een e-mailsjabloon voor een rawbox gebruiken {#rawbox}
 
