@@ -2,16 +2,17 @@
 keywords: aanbevelingen;veelgestelde vragen;faq
 description: Bekijk een lijst met veelgestelde vragen (FAQ's) en hun antwoorden op Adobe [!DNL Target] Recommendations-ontwerpen.
 title: Waar kan ik antwoorden om vragen te ontwerpen voor [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Veelgestelde vragen over ontwerp
+# Veelgestelde vragen over ontwerp
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over [!DNL Adobe Target] [!DNL Recommendations] ontwerpen.
 

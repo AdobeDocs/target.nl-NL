@@ -2,16 +2,17 @@
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevordering;dynamische filtering;dynamic;entiteitattributen die aanpassen
 description: Leer hoe u dynamisch filtert in Adobe [!DNL Target] Recommendations door een groep potentiële items te vergelijken met een specifiek item waarmee de gebruiker heeft gewerkt.
 title: Hoe filtert ik op kenmerk Entiteit die overeenkomt met Recommendations-activiteiten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Identieke kenmerk entiteit
+# Identieke kenmerk entiteit
 
 Dynamisch filteren in [!DNL Adobe Target] [!DNL Recommendations] door een pool van potentiële aanbevelingen punten met een specifiek punt te vergelijken dat de gebruiker met heeft in wisselwerking gestaan.
 

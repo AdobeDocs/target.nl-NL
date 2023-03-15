@@ -2,16 +2,17 @@
 keywords: aanbevelingen ontwerp;ontwerp maken;ontwerp kopiëren
 description: Leer hoe u een Adobe maakt [!DNL Target] Recommendations-ontwerp met een standaardontwerp of door een aangepast ontwerp te maken dat het beste aansluit bij de lay-out van uw pagina.
 title: Hoe maak ik een ontwerp in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Een ontwerp maken
+# Een ontwerp maken
 
 Een ontwerp bepaalt hoe de aanbevelingen op een pagina verschijnen.
 

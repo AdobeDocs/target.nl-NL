@@ -2,16 +2,17 @@
 keywords: Automated Personalization;ap;preview;exclude experience;
 description: Leer hoe u elke ervaring in een Automated Personalization-activiteit (AP) in Adobe kunt bekijken [!DNL Target] met behulp van Visual Experience Composer (VEC).
 title: Hoe kan ik Automated Personalization-ervaringen voorvertonen in de VEC?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Voorvertoning van ervaringen voor Automated Personalization in de composer voor visuele ervaring
+# !Voorproef ervaringen voor Automated Personalization in Visual Experience Composer
 
 Omdat [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) activiteit vergelijkt veelvoudige aanbiedingen op een pagina, is het nuttig om de pagina met elke ervaring voor te vertonen.
 

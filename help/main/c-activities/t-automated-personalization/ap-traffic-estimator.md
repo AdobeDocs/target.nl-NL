@@ -2,16 +2,17 @@
 keywords: verkeersschatting;geautomatiseerde personalisatie;ap;schatting van verkeer;auto-target
 description: De Adobe gebruiken [!DNL Target] Verkeersschatting om te bepalen of je voldoende verkeer hebt om je Automated Personalization-activiteit te laten slagen.
 title: Hoeveel verkeer is nodig voor een succesvolle activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Schatting van het verkeer dat voor succes wordt vereist
+# Schatting van het verkeer dat voor succes wordt vereist
 
 De [!DNL Adobe Target] [!UICONTROL Traffic Estimator] verstrekt terugkoppelt die u laat weten of u voldoende verkeer voor uw hebt [!UICONTROL Automated Personalization] activiteit om te slagen.
 

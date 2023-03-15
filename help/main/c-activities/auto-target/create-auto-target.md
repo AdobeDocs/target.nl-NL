@@ -2,16 +2,17 @@
 keywords: Automatisch doel maken;A/B-test;automatisch doelactiviteit;nieuwe a/b-activiteit;automatisch doel;automatisch doel voor persoonlijke ervaringen;gepersonaliseerd;optimalisatie
 description: Leer hoe te om Visual Experience Composer (VEC) in Adobe te gebruiken [!DNL Target] om uw auto-Doel A/B testactiviteit direct op te stellen [!DNL Target]-enabled pagina.
 title: Hoe maak ik een automatisch doelgerichte activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Een automatisch doelactiviteit maken
+# Een automatisch doelactiviteit maken
 
 Gebruik de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om uw [!UICONTROL Auto-Target] [!UICONTROL A/B Test] rechtstreeks op een [!DNL Target]-enabled pagina en om gedeelten van de pagina binnen te wijzigen [!DNL Target].
 

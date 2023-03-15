@@ -1,25 +1,26 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm
+keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme
 description: Leer hoe u de criteria (regels die bepalen welke producten of inhoud moet worden aanbevolen) voor gebruik in uw Adobe selecteert [!DNL Target] Recommendations-activiteit.
 title: Hoe selecteer ik criteria voor een Recommendations-activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Criteria selecteren
+# Criteria selecteren
 
 Selecteer [criteria](/help/main/c-recommendations/c-algorithms/algorithms.md) om te gebruiken in uw [!DNL Adobe Target Recommendations] activiteit. Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
 
-You can test multiple recommendation types against each other by adding more than one criteria.
+U kunt veelvoudige aanbevelingstypes tegen elkaar testen door meer dan één criteria toe te voegen.
 
 Als u meerdere criteria selecteert, wordt het verkeer gelijkmatig over de geselecteerde criteria verdeeld. Als u bijvoorbeeld twee criteria hebt geselecteerd en uw activiteit is ontworpen om standaardinhoud weer te geven voor 20% van de deelnemers aan de activiteit, dan zal 40% van de deelnemers aan de activiteit de aanbevelingen zien die door elke criteria worden gecontroleerd. Er is geen optie om de percentages voor elke criteria te wijzigen.
 
-* To search for an existing criteria (for example, if many criteria cards display), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Done]**.
+* Als u naar bestaande criteria wilt zoeken (bijvoorbeeld als er veel kaarten met criteria worden weergegeven), typt u in het zoekveld totdat de gewenste criteria worden weergegeven, selecteert u de criteria en klikt u op **[!UICONTROL Done]**.
 
    Sommige criteria worden verstrekt [!DNL Recommendations]. U en uw team kunnen ook uw eigen aangepaste criteria maken.
 
@@ -29,12 +30,12 @@ Als u meerdere criteria selecteert, wordt het verkeer gelijkmatig over de gesele
 
 1. while [nieuwe aanbeveling](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)in de **[!UICONTROL Select Criteria]** een of meer criteria zoeken en selecteren.
 
-   ![Select Criteria dialog box](/help/main/c-recommendations/t-create-recs-activity/assets/filters.png)
+   ![Selectiecriteria, dialoogvenster](/help/main/c-recommendations/t-create-recs-activity/assets/filters.png)
 
-   You can use the [!UICONTROL Industry Type] filter, [!UICONTROL Page Type] filter, and [!UICONTROL Compatible] checkbox to filter the list of criteria. These options help you locate the desired criteria.
+   U kunt de [!UICONTROL Industry Type] filter, [!UICONTROL Page Type] filter, en [!UICONTROL Compatible] Schakel het selectievakje in om de lijst met criteria te filteren. Met deze opties kunt u de gewenste criteria vinden.
 
-   * **Industry Type:** The industry type is used to help categorize [!DNL Recommendations] criteria. Als u de standaardindustrie verticaal wilt wijzigen, klikt u op **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** en selecteer uw gewenste standaard **[!UICONTROL Industry Vertical]** instellen.
+   * **Type industrie:** Het industrietype wordt gebruikt om te helpen categoriseren [!DNL Recommendations] criteria. Als u de standaardindustrie verticaal wilt wijzigen, klikt u op **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** en selecteer uw gewenste standaard **[!UICONTROL Industry Vertical]** instellen.
    * **Paginatype:** Met het paginatype kunt u uw aanbevelingen indelen. Er zijn ook ingebouwde criteria die voor elk paginatype kunnen worden gekozen.
-   * **Compatible:** Show only those criteria where the selected page passes the required data. Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het kader moet worden doorgegeven `entity.id` of `entity.categoryId` voor het huidige item/de huidige categorie-aanbevelingen compatibel te maken. In general, it is best to show only compatible criteria. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. Deze optie kan in uw montages worden onbruikbaar gemaakt of worden toegelaten: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
+   * **Compatibel met:** Alleen die criteria weergeven waarbij de geselecteerde pagina de vereiste gegevens doorgeeft. Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het kader moet worden doorgegeven `entity.id` of `entity.categoryId` voor het huidige item/de huidige categorie-aanbevelingen compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. Deze optie kan in uw montages worden onbruikbaar gemaakt of worden toegelaten: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
 
 1. Klikken **[!UICONTROL Next]** om de [Ontwerp selecteren](/help/main/c-recommendations/c-design-overview/design-overview.md) in.

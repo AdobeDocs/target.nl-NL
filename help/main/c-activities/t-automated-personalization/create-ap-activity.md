@@ -2,16 +2,17 @@
 keywords: geautomatiseerde personalisatie;ap;publiek;ensemble;random forest;restvariantie;foutvariantie;levenswaarde
 description: Leer hoe u een [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Adobe Target] met de [!UICONTROL Visual Experience Composer].
 title: Hoe maak ik een [!UICONTROL Automated Personalization] Activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 8a791d4266cb03fef498ac6f852d4a5755ba66a6
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Een [!UICONTROL Automated Personalization] activiteit
+# Een [!UICONTROL Automated Personalization] activiteit
 
 Een [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Adobe Target] met de [!UICONTROL Visual Experience Composer] (VEC).
 

@@ -2,16 +2,17 @@
 keywords: criteria opeenvolging;veelvoudige criteria;algoritmen;criteria;aanbevelingen criteria;opeenvolging;grens aantal teruggekeerde punten;groefniveaucontrole;groef
 description: Leer hoe u reeksen van maximaal vijf criteria instelt om meer controle uit te oefenen over de items die in uw Adobe worden weergegeven [!DNL Target] Recommendations-activiteiten.
 title: Hoe kan ik in Recommendations reeksen criteria maken?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Criteria-reeksen maken
+# Criteria-reeksen maken
 
 Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over de items die in uw [!UICONTROL Recommendations] activiteiten. U kunt ook het aantal geretourneerde items beperken (dit wordt ook wel &#39;&#39;besturingselement voor sleufniveau&#39;&#39; genoemd).
 

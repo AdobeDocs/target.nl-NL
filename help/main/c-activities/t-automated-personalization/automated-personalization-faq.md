@@ -2,16 +2,17 @@
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;geautomatiseerde verpersoonlijking;controle;standaardervaring;beste praktijken
 description: Ontdek een lijst met veelgestelde vragen (FAQ's) en antwoorden over Automated Personalization (AP)-activiteiten in Adobe Target.
 title: Hoe kan ik veelgestelde vragen over Automated Personalization-activiteiten vinden?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1981'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Veelgestelde vragen over Automated Personalization
+# Veelgestelde vragen over Automated Personalization
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over Automated Personalization (AP).
 

@@ -2,16 +2,17 @@
 keywords: maken, aangepaste criteria;algoritmen;criteria;aanbevelingen, criteria;csv;ftp;upload csv
 description: Leer hoe u een CSV-bestand kunt uploaden om uw aanbevelingen in Adobe aan te passen [!DNL Target] Recommendations.
 title: Hoe upload ik aangepaste criteria in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Aangepaste criteria uploaden
+# Aangepaste criteria uploaden
 
 Upload een CSV-bestand om uw aanbevelingen aan te passen in [!DNL Adobe Target].
 

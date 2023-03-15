@@ -2,16 +2,17 @@
 keywords: autotarget;het richten;verkeerstoewijzing;vaak gestelde vragen;faq;het oplossen van problemen;het oplossen van problemen
 description: Leer hoe een [!UICONTROL Auto-Target] activiteit in [!DNL Target] biedt iedere bezoeker de meest toegesneden ervaring op basis van klantprofielen en het gedrag van vergelijkbare bezoekers.
 title: Wat is een [!UICONTROL Auto-Target] Activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Auto-Target] overzicht
+# [!UICONTROL Auto-Target] overzicht
 
 [!UICONTROL Auto-Target] activiteiten in [!DNL Adobe Target] Maak gebruik van geavanceerd computerleren om te kiezen uit verschillende, door de markator gedefinieerde ervaringen om de inhoud en schijfconversies aan te passen. [!UICONTROL Auto-Target] biedt iedere bezoeker de meest toegesneden ervaring op basis van het individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen.
 

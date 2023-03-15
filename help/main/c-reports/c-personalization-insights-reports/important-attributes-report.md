@@ -2,16 +2,17 @@
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel-rapport;automatisch doel-rapport;automatisch doelrapport;verpersoonlijking;veelgestelde vragen;belangrijke kenmerken
 description: Leer hoe u de [!UICONTROL Important Attributes] rapport dat de hoogste attributen toont die het verpersoonlijkingsmodel en hun relatieve belang beïnvloedden.
 title: Wat is het Belangrijke Rapport van Attributen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapport Belangrijke kenmerken
+# Rapport Belangrijke kenmerken
 
 Informatie over de [!UICONTROL Important Attributes] rapport, één van de twee gespecialiseerde rapporten beschikbaar aan gebruikers van [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.
 

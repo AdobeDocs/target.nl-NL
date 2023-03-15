@@ -2,16 +2,17 @@
 keywords: gedragsgegevensbron;analyse;aanbevelingen;criteria;productvariabelen
 description: Leren gebruiken [!DNL Adobe Analytics] als de gedragsgegevensbron om de op weergave en/of aankoop gebaseerde gedragsgegevens van [!DNL Analytics] in [!DNL Target Recommendations].
 title: Hoe gebruikt u [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Gebruiken [!DNL Adobe Analytics] with [!DNL Recommendations]
+# Gebruiken [!DNL Adobe Analytics] with [!DNL Recommendations]
 
 Gebruiken [!DNL Adobe Analytics] als de gegevensbron voor gedragsgegevens clients de op weergave en/of aankoop gebaseerde gedragsgegevens van [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] activiteiten. Deze functie is vooral handig in situaties waarin de [!DNL Target Recommendations] de installatie is nieuw en [!DNL Analytics] beschikt over veel historische gegevens die moeten worden gebruikt.
 

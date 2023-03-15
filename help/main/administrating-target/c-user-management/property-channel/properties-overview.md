@@ -2,17 +2,18 @@
 keywords: toevoegen gebruiker;project;gebruikersgroep;eigenschappen;werkruimte;beheren eigenschap;eigenschap;at_eigenschap;rollen;machtigingen
 description: Leer hoe u gebruikers aan Adobe Target kunt toevoegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de implementatie bij te werken; en geef rollen en machtigingen op.
 title: Hoe kan ik bedrijfsmachtigingen configureren?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Bedrijfsmachtigingen configureren
+# Bedrijfsmachtigingen configureren
 
 Informatie over de taken die nodig zijn om gebruikers toe te voegen aan uw [!DNL Target] uitvoering; creëren werkruimten, gebruikersgroepen, en eigenschappen; update uw [!DNL Target] de tenuitvoerlegging `at_property` parameter; en geef rollen en machtigingen op.
 

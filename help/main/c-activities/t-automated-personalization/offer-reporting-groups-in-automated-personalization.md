@@ -2,16 +2,17 @@
 keywords: geautomatiseerde personalisatie;aanbieding;rapportering;groep;rapporteringsgroep;ap
 description: Leer hoe u rapportgroepen kunt aanbieden in Adobe [!DNL Target] [!UICONTROL Automated Personalization] activiteiten.
 title: Kan ik rapportagegroepen voor aanbiedingen gebruiken bij Automated Personalization-activiteiten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapportgroepen aanbieden in [!UICONTROL Automated Personalization]
+# Rapportgroepen aanbieden in [!UICONTROL Automated Personalization]
 
 Informatie over het gebruik van rapportagegroepen in [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) activiteiten.
 

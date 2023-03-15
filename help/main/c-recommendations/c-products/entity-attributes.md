@@ -1,17 +1,18 @@
 ---
 keywords: entiteit;entiteitskenmerken;informatie doorgeven aan Recommendations;gedraggegevens;gegevensteller;relatieve URL definiëren;inventarisniveau weergeven;prijs definiëren;winstmarge definiëren;aangepaste kenmerken
 description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhoudsgegevens door te geven aan [!DNL Target] Recommendations.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Entiteitskenmerken
+# Entiteitskenmerken
 
 Entiteitskenmerken gebruiken om product- of inhoudsinformatie door te geven aan [!DNL Adobe Target Recommendations].
 
@@ -30,7 +31,7 @@ In het algemeen ziet het informatievenster voor de weergave er als in het volgen
 
 >[!NOTE]
 >
->Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. Zie voor een voorbeeld [Recommendations plannen en implementeren](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+>Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -113,7 +114,7 @@ Voor op categorieën gebaseerde aanbevelingen wordt de categoriewaarde met een k
 In de volgende code is de categorie Vrouwen bijvoorbeeld onderverdeeld in verschillende subcategorieën:
 
 ```javascript
-mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
+mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
 Voor de levering mbox, wordt de langste kenmerknaam gebruikt voor de sleutel. Als er een tijd is, wordt het laatste kenmerk gebruikt. In het bovenstaande voorbeeld is de categorietoets Womens:Outerwear:Jasjes:Caban.

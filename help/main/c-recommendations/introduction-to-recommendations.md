@@ -2,16 +2,17 @@
 keywords: Recommendations;intro;introductie;webinar;demo
 description: Meer informatie over Recommendations-activiteiten in Adobe [!DNL Target] die automatisch inhoud weergeven die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten of andere algoritmen.
 title: Wat zijn Recommendations-activiteiten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2113'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Inleiding tot Recommendations
+# Inleiding tot Recommendations
 
 De tekst in dit artikel is afkomstig uit de *Inleiding tot Recommendations* webinar, dat u hieronder in zijn geheel kunt bekijken.
 
@@ -25,7 +26,7 @@ In de volgende afbeelding ziet u een aanbeveling voor accessoires die veel worde
 
 ![Aanbeveling waarin wordt aangegeven welke accessoires anderen met een nieuwe telefoon hebben gekocht.](/help/main/c-recommendations/assets/intro-1.png)
 
-Maar waar we niet altijd aan denken, is hoe digitaal-eerste merken de verwachtingen van de klant doen toenemen. Steeds meer wordt de manier waarop we media en inhoud consumeren gedreven door gepersonaliseerde aanbevelingen. Denk aan het eerste ding dat je ziet wanneer je Netflix, Spotify of YouTube opent. Deze merken beginnen de klantenervaring met aanbevelingen. In een wereld waar meer alternatieven dan ooit beschikbaar zijn, is het kritiek dat u de meest relevante inhoud voor uw klant op het punt van interactie kunt identificeren.
+Maar waar we niet altijd aan denken is hoe digitale-eerste merken de bar van klantenverwachtingen verhogen. Steeds meer wordt de manier waarop we media en inhoud consumeren gedreven door gepersonaliseerde aanbevelingen. Denk aan het eerste ding dat je ziet wanneer je Netflix, Spotify of YouTube opent. Deze merken beginnen de klantenervaring met aanbevelingen. In een wereld waar meer alternatieven dan ooit beschikbaar zijn, is het kritiek dat u de meest relevante inhoud voor uw klant op het punt van interactie kunt identificeren.
 
 ![Aanbeveling voor de presentatie van digitale eerste merken](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -52,9 +53,9 @@ Wat is de reden voor grote aanbevelingen?
 
 Grote aanbevelingen moeten relevant en gepersonaliseerd zijn. Dit betekent dat u drie dingen nodig hebt om relevantie en personalisatie te stimuleren:
 
-* **Besturingselementen voor markeertekens** om de relevantie van de aanbevolen items te helpen bepalen. Als markator, brengt u waardevolle context aan de lijst en u weet welke attributen van uw producten of inhoud relevant voor een te overwegen raadsmodel zijn. Als u een video-site uitvoert, weet u zeker dat gebruikers wellicht geïnteresseerd zijn in het bekijken van films van dezelfde directeur, maar het kan u waarschijnlijk niet schelen of u films wilt zien die door dezelfde studio zijn gemaakt. [!DNL Target] machtigt u met controles die u toestaan om uw algoritmen met deze domeinkennis te verbeteren.
+* **Besturingselementen voor markeertekens** om de relevantie van de aanbevolen items te helpen bepalen. Als markator, brengt u waardevolle context aan de lijst en u weet welke attributen van uw producten of inhoud relevant voor een te overwegen raadsmodel zijn. Als u een videosite runt, weet u dat gebruikers wellicht geïnteresseerd zijn in het bekijken van films van dezelfde regisseur, maar het kan me waarschijnlijk niets schelen om films te zien die door dezelfde studio zijn gemaakt. [!DNL Target] machtigt u met controles die u toestaan om uw algoritmen met deze domeinkennis te verbeteren.
 * **Geavanceerde modellen** om de betekenis van miljoenen items in uw catalogus en interactiegebeurtenissen te begrijpen. [!DNL Target] beschikt over geavanceerde mogelijkheden voor machinaal leren die gedurende een decennium van ervaring zijn opgebouwd en we verwerken miljarden aanbevelingen per jaar.
-* **Gebruikerscontext** om ervoor te zorgen dat aanbevelingen tijdig worden gedaan en relevant zijn voor uw gebruikers. U wilt de video die iemand net heeft bekeken of het shirt dat iemand net aan zijn winkelwagentje heeft toegevoegd, niet aanbevelen. Het rijke gebruikersprofiel van het doel kan in aanbevelingen worden gebruikt om verpersoonlijking te verzekeren.
+* **Gebruikerscontext** om ervoor te zorgen dat aanbevelingen tijdig worden gedaan en relevant zijn voor uw gebruikers. Je wilt niet de video aanraden die iemand net heeft bekeken of het shirt dat iemand net aan zijn kar heeft toegevoegd. Het rijke gebruikersprofiel van het doel kan in aanbevelingen worden gebruikt om verpersoonlijking te verzekeren.
 
 ## Implementeren [!DNL Target] Recommendations
 
@@ -102,9 +103,9 @@ Vervolgens moet u tags toevoegen of gebruikmaken van uw bestaande tags [!DNL Ana
 
 ![Illustratie waarin wordt getoond hoe het gebruikersgedrag wordt vastgelegd](/help/main/c-recommendations/assets/intro-9.png)
 
-U moet ervoor zorgen dat [!DNL Target] Houd rekening met de objecten die uw gebruikers bekijken en kopen. Als aankopen niet relevant zijn voor uw context, wilt u wellicht een ander type conversiegebeurtenis volgen, bijvoorbeeld het downloaden van een PDF, het voltooien van een enquête, het abonneren op een nieuwsbrief, het bekijken van een video enzovoort.
+U moet ervoor zorgen dat [!DNL Target] Houd rekening met de objecten die uw gebruikers bekijken en kopen. Als de aankoop niet relevant voor uw context is, zou u een verschillend type van omzettingsgebeurtenis kunnen willen volgen, bijvoorbeeld, het downloaden van een PDF, het voltooien van een onderzoek, het intekenen op een nieuwsbrief, het letten van een video, etc.
 
-Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Het is ook mogelijk om offline- of in-app-interacties te verzenden naar [!DNL Target] via real-time API.
+Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Het is ook mogelijk om offline of in-app interacties te verzenden naar [!DNL Target] via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 
@@ -128,7 +129,7 @@ A [!DNL Recommendations] de activiteit bestaat uit de volgende onderdelen :
 
 ![Illustratie waarin wordt getoond wat een activiteit met aanbevelingen vormt: Soorten publiek, criteria en ontwerpen](/help/main/c-recommendations/assets/intro-12.png)
 
-Uit de doos, [!DNL Target] omvat 14 ingebouwde doelgroepen, 42 ingebouwde criteria en 10 ingebouwde ontwerpsjablonen. U kunt elk van deze items aanpassen of uw eigen items toevoegen. We hebben eerder [webinars over het opbouwen van publiek](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In dit gedeelte wordt de nadruk gelegd op het definiëren van criteria, die bepalen welke items worden aanbevolen.
+Uit de doos, [!DNL Target] omvat 14 ingebouwde doelgroepen, 42 ingebouwde criteria en 10 ingebouwde ontwerpsjablonen. U kunt elk van deze items aanpassen of uw eigen items toevoegen. We hebben al eerder [webinars over het opbouwen van publiek](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In dit gedeelte wordt de nadruk gelegd op het definiëren van criteria, die bepalen welke items worden aanbevolen.
 
 Doel gebruikt het concept van de kaart met criteria. Een kaart met criteria is als een recept voor personalisatie.
 

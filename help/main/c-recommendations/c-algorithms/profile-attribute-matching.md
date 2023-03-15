@@ -2,16 +2,17 @@
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevorderingen;dynamische filtratie;dynamic;profile kenmerkovereenkomsten
 description: Leer hoe u dynamisch filtert in Adobe [!DNL Target] Recommendations door items (entiteiten) te vergelijken met een waarde in het gebruikersprofiel.
 title: Hoe filtert ik op de aanpassing van profielkenmerken in Recommendations-activiteiten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Overeenkomende profielkenmerken
+# Correctie van profielkenmerk
 
 Dynamisch filteren in [!DNL Adobe Target] [!DNL Recommendations] door items (entiteiten) te vergelijken met een waarde in het profiel van de gebruiker.
 
@@ -24,7 +25,7 @@ Gebruiken [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weerg
 De volgende scenario&#39;s tonen hoe u kunt gebruiken [!UICONTROL Profile Attribute Matching]:
 
 * Een bedrijf dat eyeglasses verkoopt, slaat de favoriete kleur van een bezoeker op als &quot;walnoot&quot;. Voor die specifieke bezoeker wordt aanbevolen alleen eyeglass-frames met een &quot;walnoot&quot; in kleur te retourneren.
-* Een profielparameter kan voor de kledinggrootte (b.v., Klein, Middel, of Groot) van een bezoeker worden bepaald aangezien zij op de website van uw bedrijf navigeren. Er kan een aanbeveling worden ingesteld die overeenkomt met die profielparameter en die alleen producten retourneert die specifiek zijn voor de door de gebruiker voorkeurskledinggrootte.
+* Een profielparameter kan voor de kledinggrootte (b.v., Klein, Middel, of Groot) van een bezoeker worden bepaald aangezien zij op de website van uw bedrijf navigeren. Er kan een aanbeveling worden ingesteld die overeenkomt met die profielparameter en die alleen producten retourneert die specifiek zijn voor de door de gebruiker gewenste kledinggrootte.
 
 ## Voorbeelden van overeenkomsten van profielkenmerken {#section_9873E2F22E094E479569D05AD5BB1D40}
 

@@ -2,16 +2,17 @@
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;aanbevelingen;speciale tekens;weging van kenmerken;gelijkenis van inhoud
 description: Een lijst met veelgestelde vragen en antwoorden over Adobe weergeven [!DNL Target] Recommendations-activiteiten.
 title: Waar kan ik vragen en antwoorden vinden over [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3376'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Veelgestelde vragen over Recommendations
+# Veelgestelde vragen over Recommendations
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over [!DNL Adobe Target] [!DNL Recommendations] activiteiten.
 
@@ -94,7 +95,7 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
-[!DNL Target] heeft een [Niet-compatibele criteria filteren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} instellen om intelligent filteren van de algoritmekiezer te beheren.
+[!DNL Target] heeft een [Niet-compatibele criteria filteren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} instellen om het intelligent filteren van de algoritmekiezer te beheren.
 
 >[!NOTE]
 >

@@ -2,16 +2,17 @@
 keywords: rapporten;autoTarget;autoTarget;AT;report
 description: Leer hoe u het rapport Overzicht autom. doel in Adobe Target interpreteert. U kunt op de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen van dit rapport schakelen.
 title: Hoe gebruik ik het overzichtsrapport voor automatische doelen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Samenvattingsrapport voor automatisch doel
+# Samenvattingsrapport voor automatisch doel
 
 Informatie over hoe u de [!UICONTROL Auto-Target Summary] rapporten in [!DNL Adobe Target].
 
