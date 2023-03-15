@@ -2,17 +2,18 @@
 keywords: integratie;rollen;gebruikersmachtigingen;beheerconsole
 description: Leer hoe u bestaande Adobe I/O-integraties toegang geeft tot alle werkruimten met de gewenste rol in Adobe Target.
 title: Hoe verstrek ik de Toegang van Adobe I/O tot Werkruimten en wijs Rollen toe?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen
+# Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen
 
 [!UICONTROL Enterprise Permissions] toestaat [!DNL Target] klanten om één enkele organisatie te gebruiken, maar het te verdelen in werkruimten voor hun verschillende teams of werkschema&#39;s.
 
