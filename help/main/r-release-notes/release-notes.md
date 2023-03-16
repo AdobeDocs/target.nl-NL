@@ -2,10 +2,11 @@
 keywords: releaseopmerkingen;nieuwe functies;releases;updates;update;release;verbetering;verbeteringen;oplossingen;foutoplossingen;updates
 description: Meer informatie over de nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de huidige release van [!DNL Adobe Target], inclusief SDK's, API's en JavaScript-bibliotheken.
 landing-page-description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in de huidige release van [!DNL Adobe Target].
+short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%
