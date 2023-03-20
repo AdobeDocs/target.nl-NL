@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 * Bijgewerkte koppelingen in het dialoogvenster [!DNL Target] UI om naar de nieuwe [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Uitgebreide beveiliging om te voorkomen dat SSRF-pogingen (Server-Side Request Smeery) worden uitgevoerd in [!DNL Recommendations] feeds. (TGT-43769)
 * Probleem verholpen waarbij klanten afbeeldingen niet konden bekijken in [!DNL Recommendations] ontwerpen als de afbeeldingsnaam [GB18030-tekens](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Probleem verholpen dat enkele problemen veroorzaakte [GB18030-tekens](https://en.wikipedia.org/wiki/GB_18030){target=_blank} die in de [!UICONTROL Modifications] deelvenster tijdens bewerken [!UICONTROL Text/HTML] op een activiteit [!UICONTROL Experiences] pagina.
+* Probleem verholpen dat enkele problemen veroorzaakte [GB18030-tekens](https://en.wikipedia.org/wiki/GB_18030){target=_blank} die in de [!UICONTROL Modifications] deelvenster tijdens bewerken [!UICONTROL Text/HTML] op een activiteit [!UICONTROL Experiences] pagina. (TGT-44600)
 * Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
 
 
