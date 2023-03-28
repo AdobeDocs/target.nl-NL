@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '831'
+ht-degree: 1%
 
 ---
 
@@ -19,32 +19,35 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target] Standard/Premium 22.15.1 (8 en 9 maart 2023)
+## [!DNL Target] Standard/Premium 23.3.1 (28-30 maart 2023)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **8 maart**: Amerikaanse regio
-* **9 maart**: Europa, Midden-Oosten en Afrika (EMEA)
-* **9 maart**: Regio Azië-Stille Oceaan (APAC)
+* **28 maart**: Europa, Midden-Oosten en Afrika (EMEA)
+* **29 maart**: Regio Azië-Stille Oceaan (APAC)
+* **30 maart**: Amerikaanse regio
 
->[!NOTE]
->
->Vanwege problemen die sindsdien zijn verholpen, zijn de &quot;Geoptimaliseerde A4T metriek voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]De functie &quot; die op 8 en 9 maart is uitgebracht, is tijdelijk verwijderd. Na verdere interne tests wordt de functie in de komende weken opnieuw vrijgegeven.
+Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
-Deze versie bevat de volgende oplossingen:
+| Functie | Details |
+|--- |--- |
+| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<p>(Releasedatum 30 maart 2023) | [!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.<P>Houd rekening met de volgende wijziging in ondersteunde meetwaarden:<ul><li>[!DNL Target] het eerdere gedrag voor bestaande activiteiten tot 9 september 2023 behouden. Na deze datum worden activiteiten waarbij niet-ondersteunde metriek wordt gebruikt, stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.</li></ul>In combinatie met deze functie zijn de volgende zelfstudies bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-* Updates voor het ontwerpen van aangepaste webcomponenten met de [!UICONTROL Visual Experience Composer] (VEC):
-
-   * De Vaste de elementenselectie van de Schaduw DOM in VEC door het auteursproces te verbeteren zodat is er geen afhankelijkheid van [!DNL Target] implementatietype bij het ontwerpen van de schaduwhoofdmap. Het selecteren van Schaduw-DOM-elementen in de VEC werkt nu voor elke website.
-   * Probleem opgelost waarbij het laden van HTML-elementen met #Shadow DOM in de VEC werd voorkomen. (TGT-35801)
-   * VEC-problemen met SPA websites opgelost met ShadowDOM. (TGT-43169)
-   * Probleem verholpen met de optimalisatiedoelstelling: &quot;clicked an element&quot; dat de CSS-kiezer niet correct identificeerde in ShadowDOM.
-
->[!NOTE]
->
->Zorg ervoor dat u een [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) met een versie groter dan 2.8.
-
-**Bekend probleem**: Klikken en volgen op een schaduwbasiselement bij gebruik [!DNL Adobe Experience Platform Web SDK] werkt niet correct. (TNT-47012)
+* Verbeterde publieks- en activiteitensynchronisatie zodat items zijn gemaakt in [!DNL Adobe Experience Platform] en [!DNL Adobe Audience Manager] zijn beschikbaar in [!DNL Target] UI sneller. (TGT-44568)
+* Wijzigingen aangebracht om gebruikers toe te staan de [!UICONTROL Default URL] krachtens [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]. Met deze wijziging kunnen klanten de standaard-URL terugzetten in een lege tekenreeks, die eerder niet mogelijk was na de eerste configuratie. (TGT-44577)
+* Verwijderd beperkingen waardoor klanten niet langer in de box konden bewerken of verwijderen (publiek met gereserveerde namen). (TGT-44655)
+* De optie &quot;[!UICONTROL Done]&quot;-optie tijdens het laden van spinners zijn zichtbaar in het dialoogvenster [!DNL Target] UI bij het maken van [gecombineerd publiek](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* Vaste het [!UICONTROL Language] koppeling onder aan [!UICONTROL Audiences] pagina zodat het correct met &quot;[!UICONTROL Account communication preferences]&quot; pagina. (TGT-43562)
+* Probleem opgelost waarbij klanten soms werden belet om [!UICONTROL A/B Test] activiteiten na de selectie van de [!UICONTROL Adobe Analytics] optie onder [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution]. (TGT-44844)
+* Probleem verholpen waardoor klanten de laatste ervaring in een [!UICONTROL Multivariate Test] activiteit met vele ervaringen van binnen [!UICONTROL Visual Experience Composer] (VEC). De [DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) onderaan de VEC hebben klanten soms verhinderd de laatste ervaring te zien. (TGT-44578)
+* Probleem verholpen waardoor de URL Bladeren in de VEC de huidige pagina die zichtbaar is in een normale browsersessie niet weerspiegelde als de pagina autorisatie vereist of omleidingen aanroept. (TGT-44350)
+* Probleem verholpen waardoor klanten het [!UICONTROL Filter Incompatible Criteria] instellen in [!UICONTROL Recommendations] > [!UICONTROL Settings]. (TGT-44398)
+* Probleem verholpen waarbij verzoeken van POSTEN om nieuwe gegevens werden gemaakt. Dit probleem is nu opgelost. [!DNL Recommendations] feeds die mislukken bij gebruik [!UICONTROL Analytics Classifications] met rapportsuites met punten in hun naam. (TGT-44598)
+* Bijgewerkte koppelingen in het dialoogvenster [!DNL Target] UI om naar de nieuwe [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
+* Uitgebreide beveiliging om te voorkomen dat SSRF-pogingen (Server-Side Request Smeery) worden uitgevoerd in [!DNL Recommendations] feeds. (TGT-43769)
+* Probleem verholpen waarbij klanten afbeeldingen niet konden bekijken in [!DNL Recommendations] ontwerpen als de afbeeldingsnaam [GB18030-tekens](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
+* Probleem verholpen dat enkele problemen veroorzaakte [GB18030-tekens](https://en.wikipedia.org/wiki/GB_18030){target=_blank} die in de [!UICONTROL Modifications] deelvenster tijdens bewerken [!UICONTROL Text/HTML] op een activiteit [!UICONTROL Experiences] pagina. (TGT-44600)
+* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
 
 ## at.js versie 2.10.2 (7 maart 2023)
 
