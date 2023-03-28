@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
+source-git-commit: db5740419f8d32ef7a6302f50bbb9b462795ce75
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 23 februari | [Doel migreren vanuit at.js 2.*x* naar Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | Nieuwe zelfstudie toegevoegd. |
 | 21 februari | [Lijst van gewenste personen randknooppunten doel](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Bijgewerkte lijst van IP adressen aan lijst van gewenste personen voor alle gebieden in [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
 |  | [Wijzigingen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Toegevoegde tekst waarin wordt uitgelegd dat in het voorbeeld met JQuery wordt aangenomen dat op de website van de klant jQuery beschikbaar is op de pagina wanneer [!DNL Target] voert de voorstellen uit. |
 | 10 februari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.14.5. |

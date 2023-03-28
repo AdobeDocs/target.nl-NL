@@ -1,17 +1,17 @@
 ---
-user-guide-title: Adobe Target Business Practice Guide
-breadcrumb-title: Doelgids
-user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en aanpassen om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
+user-guide-title: Handleiding Adobe Target Business Practitioner
+breadcrumb-title: Handleiding Target
+user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 0%
+source-wordcount: '1239'
+ht-degree: 3%
 
 ---
 
 
-# Adobe Target Business Practice Guide {#using}
+# Handleiding Adobe Target Business Practitioner {#using}
 
 + [Adobe Target Business Practice Guide Home](target-home.md)
 + Opmerkingen bij de doelversie {#release-notes}
@@ -94,7 +94,12 @@ ht-degree: 0%
    + Doel integreren met Adobe Journey Optimizer {#ajo}
       + [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud publiek](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [Doel integreren met Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + Doel integreren met Adobe Experience Manager {#aem}
+      + [Doel integreren met Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + Ervaar fragmenten en inhoudsfragmenten {#fragments}
+         + [Overzicht van AEM Experience Fragments en Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Fragmenten voor AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [Inhoudsfragmenten AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Doel integreren met Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integreren met Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Doel integreren met Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
@@ -250,7 +255,7 @@ ht-degree: 0%
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
       + [Inhoud zoeken](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Dynamische gegevens in aanbiedingen doorgeven](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM ervaren fragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM Ervaring en inhoudsfragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporten {#reports}
    + [Overzicht van rapporten](c-reports/reports.md)
    + Rapportinstellingen {#settings}
