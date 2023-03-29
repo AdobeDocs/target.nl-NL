@@ -4,9 +4,9 @@ description: Leer hoe u creeert [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-T
 title: Biedt ondersteuning voor A4T [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] Activiteiten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,6 @@ Sommige beperkingen en opmerkingen zijn van toepassing op beide [!UICONTROL Auto
 * Wanneer u [!DNL Adobe Analytics] als bron van rapportage voor [!UICONTROL Auto-Allocate] of [!UICONTROL Auto-Target], moet u rapporten altijd weergeven in [!DNL Analytics].
 * De rapportbron kan niet worden gewijzigd vanaf [!DNL Analytics] tot [!DNL Target] of omgekeerd nadat een activiteit is geactiveerd.
 * Hoewel de berekende metriek niet als primaire doelmetriek worden gesteund, is het vaak mogelijk om het voorgenomen resultaat te bereiken door in plaats daarvan een douanegebeurtenis als primaire doel metrisch te selecteren. Als u bijvoorbeeld wilt optimaliseren voor metrische gegevens, zoals &#39;formulieraanvullen per bezoeker&#39;, selecteert u een aangepaste gebeurtenis die overeenkomt met &#39;formulieraanvullen&#39; als maatstaf voor het primaire doel. [!DNL Target] normaliseert automatisch omzettingsmetriek op een per-bezoek basis om voor ongelijke verkeersdistributie rekening te houden, zodat is het niet noodzakelijk om berekende metrisch te gebruiken om normalisatie uit te voeren.
-* Wanneer u [!DNL Adobe Analytics] als bron van rapportage voor [!UICONTROL Auto-Allocate] of [!UICONTROL Auto-Target] activiteiten, moet u rapporten altijd weergeven in [!DNL Analytics].
-* De rapportbron kan niet worden gewijzigd vanaf [!DNL Analytics] tot [!DNL Target] of omgekeerd nadat een activiteit is geactiveerd.
-* Hoewel de berekende metriek niet als primaire doelmetriek worden gesteund, is het vaak mogelijk om het voorgenomen resultaat te bereiken door in plaats daarvan een douanegebeurtenis als primaire doel metrisch te selecteren. Als u bijvoorbeeld wilt optimaliseren voor metrische gegevens, zoals &#39;formulieraanvullen per bezoeker&#39;, selecteert u een aangepaste gebeurtenis die overeenkomt met &#39;formulieraanvullen&#39; als maatstaf voor het primaire doel. [!DNL Target] normaliseert automatisch omzettingsmetriek op een per-bezoekersbasis voor [!UICONTROL Auto-Allocate] activiteiten, zodat is het niet noodzakelijk om berekende metrisch te gebruiken om normalisatie uit te voeren.
 
 ### Automatisch toewijzen {#aa}
 
