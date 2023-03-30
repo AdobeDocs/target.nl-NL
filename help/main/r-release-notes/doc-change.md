@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
 workflow-type: tm+mt
-source-wordcount: '2219'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 30 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Bijgewerkte versienota&#39;s voor de versie van de Geoptimaliseerde Metriek A4T voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] functie waarmee u metriek kunt kiezen op basis van binomiale gebeurtenissen of metriek op basis van continue gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. |
-|  | [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Bijgewerkte sectie voor informatie over de ondersteunde (en niet-ondersteunde) meetgegevens voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten die [!UICONTROL Analytics for Target] (A4T) |
+|  | [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | De sectie &quot;Ondersteunde doelmeetgegevens&quot; is bijgewerkt en bevat informatie over de ondersteunde (en niet-ondersteunde) meetgegevens voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten die [!UICONTROL Analytics for Target] (A4T) |
 |  | [Adobe Target-tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | De volgende zelfstudies zijn bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Toegevoegde informatie voor de [!DNL Adobe Experience Manager] (AEM) en [!DNL Adobe Target] [!UICONTROL Content Fragments] vrijgeven. (6 april 2023) |
 | 28 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] 23.3.1. |
