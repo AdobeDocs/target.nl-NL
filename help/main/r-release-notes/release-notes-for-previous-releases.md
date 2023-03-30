@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
+source-git-commit: cf82c6cc75dfe42b002cf6d8e17287cb11704870
 workflow-type: tm+mt
-source-wordcount: '35428'
+source-wordcount: '35388'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,6 @@ Deze release is beschikbaar volgens het volgende schema:
 * **8 maart**: Amerikaanse regio
 * **9 maart**: Europa, Midden-Oosten en Afrika (EMEA)
 * **9 maart**: Regio Azië-Stille Oceaan (APAC)
-
->[!NOTE]
->
->Vanwege problemen die sindsdien zijn verholpen, zijn de &quot;Geoptimaliseerde A4T metriek voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]De functie &quot; die op 8 en 9 maart is uitgebracht, is tijdelijk verwijderd. Na verdere interne tests wordt de functie in de komende weken opnieuw vrijgegeven.
 
 Deze versie bevat de volgende oplossingen:
 
