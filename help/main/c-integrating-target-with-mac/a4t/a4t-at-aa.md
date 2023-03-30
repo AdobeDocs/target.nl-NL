@@ -4,9 +4,9 @@ description: Leer hoe u creeert [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-T
 title: Biedt ondersteuning voor A4T [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] Activiteiten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -62,18 +62,39 @@ Aan de slag:
 * [!DNL Adobe Analytics] conversiemetingen
 * [!DNL Adobe Analytics] aangepaste gebeurtenissen
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] vereist u om metrisch te kiezen die op een binomiale gebeurtenis gebaseerd is. Een binomiale gebeurtenis doet of gebeurt niet. Binomiale gebeurtenissen omvatten een klik, een omzetting, een orde, etc. Deze soorten gebeurtenissen worden ook soms bedoeld als Bernoulli, binaire, of discrete gebeurtenissen.
+[!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.
 
-[!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] biedt geen ondersteuning voor optimalisatie voor doorlopende metingen. De ononderbroken metriek omvat opbrengst, aantal geordende producten, zittingsduur, aantal paginameningen in zitting, etc. Deze niet-ondersteunde typen metriek worden ook wel niet-binomiale of niet-Bernoulli-metriek genoemd.
+* **Metriek gebaseerd op binomiale gebeurtenissen**: Een binomiale gebeurtenis doet of gebeurt niet. Binomiale gebeurtenissen omvatten een klik, een omzetting, een orde, etc. Deze soorten gebeurtenissen worden ook soms bedoeld als Bernoulli, binaire, of discrete gebeurtenissen.
 
-De volgende metrische types zijn niet gesteund als primaire doelmetriek:
+* **Metriek gebaseerd op continue gebeurtenissen**. De ononderbroken metriek omvat opbrengst, aantal geordende producten, zittingsduur, aantal paginameningen in zitting, etc. Deze gebeurtenissen worden ook wel niet-binomiale of niet-Bernoulli-metriek genoemd.
 
-* [!DNL Adobe Target] service- en inkomstencijfers
-* [!DNL Adobe Analytics] service- en inkomstencijfers
+>[!IMPORTANT]
+>
+>Vanaf de [!DNL Adobe Target Standard/Premium] release van 22.15.1 (8 en 9 maart 2023), [!DNL Target] bestaande activiteiten blijven ondersteunen met de meetwaarden die nu niet worden ondersteund (weergegeven in de volgende tabellen). Na 9 september 2023 zullen deze cijfers echter niet langer worden ondersteund in bestaande activiteiten en zullen alle activiteiten die niet-ondersteunde metriek gebruiken, worden stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.
 
-   Het is mogelijk een [!DNL Analytics] betrokkenheid of omzet metrisch als uw primaire doel omdat [!DNL Target] kan niet alle service- en inkomstenwaarden identificeren en uitsluiten van [!DNL Analytics]. Alleen binomiale conversiemetriek of aangepaste gebeurtenissen selecteren vanuit [!DNL Analytics].
+### Gevolgen voor [!UICONTROL Auto-Allocate] activiteiten
 
-* [!DNL Adobe Analytics] berekende meetwaarden
+| Metrische naam | Niet meer ondersteund in: |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL averagetimespentonsite] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL bouncerate] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL bounces] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL entries] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL exits] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL pageviews] | Metrische waarde maximaliseren |
+| [!UICONTROL reloads] | Metrische waarde maximaliseren |
+| [!UICONTROL visitors] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL visits] | Metrische waarde maximaliseren |
+
+### Gevolgen voor [!UICONTROL Auto-Target] activiteiten
+
+| Metrische naam | Niet meer ondersteund in: |
+| --- | --- |
+| [!UICONTROL cartremovals] | Metrische waarde maximaliseren |
+| [!UICONTROL pageviews] | Metrische waarde maximaliseren |
+| [!UICONTROL visitors] | Conversiesnelheid, metrische waarde maximaliseren |
+| [!UICONTROL visits] | Metrische waarde maximaliseren |
 
 ## Beperkingen en opmerkingen
 

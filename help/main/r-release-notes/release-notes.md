@@ -6,9 +6,9 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 | Functie | Details |
 |--- |--- |
-| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<p>(Releasedatum 30 maart 2023) | [!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.<P>Houd rekening met de volgende wijziging in ondersteunde meetwaarden:<ul><li>[!DNL Target] het eerdere gedrag voor bestaande activiteiten tot 9 september 2023 behouden. Na deze datum worden activiteiten waarbij niet-ondersteunde metriek wordt gebruikt, stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.</li></ul>In combinatie met deze functie zijn de volgende zelfstudies bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<p>(Releasedatum 30 maart 2023) | [!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.<P>Houd rekening met de volgende wijziging in ondersteunde meetwaarden:<ul><li>[!DNL Target] het eerdere gedrag voor bestaande activiteiten tot 9 september 2023 behouden. Na deze datum worden activiteiten waarbij niet-ondersteunde metriek wordt gebruikt, stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.</li></ul>Zie &quot;Ondersteunde statistieken&quot; in [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<P>In combinatie met deze functie zijn de volgende zelfstudies bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
 * Verbeterde publieks- en activiteitensynchronisatie zodat items zijn gemaakt in [!DNL Adobe Experience Platform] en [!DNL Adobe Audience Manager] zijn beschikbaar in [!DNL Target] UI sneller. (TGT-44568)
 * Wijzigingen aangebracht om gebruikers toe te staan de [!UICONTROL Default URL] krachtens [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]. Met deze wijziging kunnen klanten de standaard-URL terugzetten in een lege tekenreeks, die eerder niet mogelijk was na de eerste configuratie. (TGT-44577)

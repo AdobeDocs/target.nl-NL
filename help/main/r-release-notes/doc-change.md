@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,15 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 30 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Bijgewerkte versienota&#39;s voor de versie van de Geoptimaliseerde Metriek A4T voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] functie waarmee u metriek kunt kiezen op basis van binomiale gebeurtenissen of metriek op basis van continue gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. |
+|  | [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Bijgewerkte sectie voor informatie over de ondersteunde (en niet-ondersteunde) meetgegevens voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten die [!UICONTROL Analytics for Target] (A4T) |
+|  | [Adobe Target-tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | De volgende zelfstudies zijn bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 | 28 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] 23.3.1. |
 
 ## [!DNL Target] Standard/Premium 22.15.1 (8 en 9 maart 2023)
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 8 maart | [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Bijgewerkte sectie voor informatie over de ondersteunde (en niet-ondersteunde) meetgegevens voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten die [!UICONTROL Analytics for Target] (A4T) |
-|  | [Adobe Target-tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | De volgende nieuwe zelfstudies zijn toegevoegd:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 |  | [Een activiteit bewerken of opslaan als concept](/help/main/c-activities/edit-activity.md) | Sectie &#39;Tips en trucs&#39; toegevoegd. |
 |  | [Wijzigingen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | De volgende opmerking is toegevoegd aan de sectie Aangepaste code voor probleemoplossing:<ul><li>Aanbiedingen voor aangepaste code in de VEC worden niet opnieuw weergegeven wanneer `triggerView()` wordt aangeroepen met `{page: false}` als de optie.</li></ul> |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de release at.js 2.10.2. |
