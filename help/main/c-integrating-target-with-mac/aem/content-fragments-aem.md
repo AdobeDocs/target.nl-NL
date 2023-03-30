@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] [!UICONTROL Content
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ AEM inhoudfragmenten voor hoofdloze personalisatie en experimenten
 >[!NOTE]
 >
 >Deze functie wordt op 6 april 2023 gepubliceerd.
-
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: Leer meer over de nieuwe functies, verbeteringen en oplossingen in 
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Deze release bevat de volgende nieuwe functie:
 
 | Functie | Details |
 |--- |--- |
-| AEM inhoudfragmenten voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om ervaringen op schaal te testen en te personaliseren. |
+| AEM inhoudfragmenten voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen . |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
