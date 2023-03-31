@@ -4,9 +4,9 @@ description: Gebruiken [!DNL Analytics] for [!DNL Target] (A4T) om activiteiten 
 title: Wat is [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ De volgende secties bevatten informatie over ondersteunde activiteitstypen wanne
 |--- |--- |--- |
 | [A/B-activiteit met handmatige verkeersverdeling](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |  |
 | [A/B-activiteit met automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [A/B activiteit met AutoTarget](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja | Zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| [A/B activiteit met AutoTarget](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nee |  |
 | [Gericht op ervaring (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [MVT (Multivariate Test)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Vereist op mbox-Gebaseerd doel metrisch doel om te krijgen [!UICONTROL Element Contribution] verslag. De [!UICONTROL Element Contribution] rapport wordt momenteel niet ondersteund [!DNL Analytics] metriek. |
 | [Automated Personalization (AP)-activiteit](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nee |  |
