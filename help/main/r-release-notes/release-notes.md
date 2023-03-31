@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
@@ -45,8 +45,6 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 * Probleem verholpen waarbij verzoeken van POSTEN om nieuwe gegevens werden gemaakt. Dit probleem is nu opgelost. [!DNL Recommendations] feeds die mislukken bij gebruik [!UICONTROL Analytics Classifications] met rapportsuites met punten in hun naam. (TGT-44598)
 * Bijgewerkte koppelingen in het dialoogvenster [!DNL Target] UI om naar de nieuwe [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Uitgebreide beveiliging om te voorkomen dat SSRF-pogingen (Server-Side Request Smeery) worden uitgevoerd in [!DNL Recommendations] feeds. (TGT-43769)
-* Probleem verholpen waarbij klanten afbeeldingen niet konden bekijken in [!DNL Recommendations] ontwerpen als de afbeeldingsnaam [GB18030-tekens](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Probleem verholpen dat enkele problemen veroorzaakte [GB18030-tekens](https://en.wikipedia.org/wiki/GB_18030){target=_blank} die in de [!UICONTROL Modifications] deelvenster tijdens bewerken [!UICONTROL Text/HTML] op een activiteit [!UICONTROL Experiences] pagina. (TGT-44600)
 * Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
 
 ## at.js versie 2.10.2 (7 maart 2023)
