@@ -5,9 +5,9 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3831'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,11 @@ Als u het algoritme Meest bekeken door Categorie selecteert, kunt u de volgende 
 
 ### Topverkopers op objectkenmerk
 
-(Info binnenkort beschikbaar)
+Aanbevolen objecten of media die vergelijkbaar zijn met de meest aangeschafte items of media op uw site.
+
+Met dit algoritme kunt u selecteren op welk itemkenmerk u de aanbeveling wilt baseren, bijvoorbeeld &quot;Naam&quot; of &quot;Merk&quot;.
+
+Vervolgens selecteert u welke profielkenmerken uit het profiel van de bezoeker overeenkomen, bijvoorbeeld Favoriete merk, Laatste object toegevoegd aan winkelwagentje of Meest bekeken presentatie.
 
 ### Metrisch, boven op Analytics
 
