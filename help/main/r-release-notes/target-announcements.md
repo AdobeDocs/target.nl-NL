@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
+source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1876'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,14 @@ Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder 
 Gartner benoemd [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] alle beoordeelde leveranciers hebben de hoogste scores voor hun testmogelijkheden ontvangen.
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!UICONTROL Adobe Target Community] Koffie-einde &amp;vragen
+
+* **Woensdag 12 april 2023**
+* **8:00 - 9:00 uur (PDT, GMT -7)
+* **[Registratiegegevens](https://adobe.ly/42gQGfv){target=_blank}**
+
+Join Matthew Bailie en Georgia Frailey, beide Senior Solutions Consultants voor [!DNL Adobe Target], die rechtstreeks met u over uw [!DNL Adobe Target] vragen in verband met [!DNL Target] AI-functies, met name [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target].
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
