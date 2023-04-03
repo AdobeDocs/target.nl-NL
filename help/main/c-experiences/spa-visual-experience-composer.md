@@ -4,9 +4,9 @@ description: Leer hoe u de SPA VEC in Adobe gebruikt [!DNL Target] om tests tot 
 title: Hoe gebruik ik Composer van de Ervaring van de Enige Pagina App Visuele (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: f7a9c08567669160684bff8ae5098d57c6237463
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3704'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ Adobe Target VEC for SPA maakt gebruik van een nieuw concept genaamd Views: een 
 
 Als u meer wilt weten over de weergaven, navigeert u naar deze hypothetische online e-commercesite die u in Reageren hebt geïmplementeerd en verkent u enkele voorbeeldweergaven. Klik op de onderstaande koppelingen om deze site te openen in een nieuw browsertabblad.
 
-**Koppeling: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+**Koppeling: [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![thuissite](/help/main/c-experiences/assets/home.png)
 
 Wanneer we naar de thuissite navigeren, kunnen we meteen een hoofdafbeelding zien die een paasverkoop bevordert en de nieuwste producten die op de site worden verkocht. In dit geval, kan een Mening als volledige homesite worden gedefinieerd. Dit is handig om op te merken, aangezien we hier meer over zullen doen in de sectie Adobe Target-weergaven implementeren hieronder.
 
-**Koppeling: [Productsite](https://target.enablementadobe.com/react/demo/#/products)**
+**Koppeling: [Productsite](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![productsite](/help/main/c-experiences/assets/product-site.png)
 
-Aangezien wij meer in de producten geïnteresseerd raken, besluiten wij om de verbinding van Producten te klikken. Net als op de thuissite kan de hele productsite worden gedefinieerd als een weergave. Deze weergave kan net als de padnaam in `https://target.enablementadobe.com/react/demo/#/products`.
+Aangezien wij meer in de producten geïnteresseerd raken, besluiten wij om de verbinding van Producten te klikken. Net als op de thuissite kan de hele productsite worden gedefinieerd als een weergave. Deze weergave kan net als de padnaam in `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
 
 ![productsite 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +45,7 @@ In het begin van deze sectie definieerden we Weergaven als de gehele site of zel
 
 We besluiten op de knop Meer laden te klikken om meer producten op de site te verkennen. De URL van de website verandert in dit geval niet. Maar een weergave hier kan alleen de tweede rij producten weergeven die hierboven wordt weergegeven. De weergavenaam kan &#39;PRODUCTS-PAGE-2&#39; worden genoemd.
 
-**Koppeling: [Afhandeling](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Koppeling: [Afhandeling](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![uitcheckpagina](/help/main/c-experiences/assets/checkout.png)
 
@@ -81,7 +81,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
 
    Laten we nu een aantal voorbeelden bekijken van de manier waarop u de `triggerView()` functie in React voor onze hypothetische e-commerce SPA:
 
-   **Koppeling: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
+   **Koppeling: [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-response-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Koppeling: [Productsite](https://target.enablementadobe.com/react/demo/#/products)**
+   **Koppeling: [Productsite](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
    Laten we nu een voorbeeld bekijken dat wat gecompliceerder is. Als marketers willen we bijvoorbeeld de tweede rij van de producten personaliseren door de kleur van het prijslabel te wijzigen in rood nadat een gebruiker op de knop Meer laden heeft geklikt.
 
@@ -141,7 +141,7 @@ Nu we hebben besproken wat Adobe Target Views is, kunnen we dit concept in Targe
    }
    ```
 
-   **Koppeling: [Afhandeling](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Koppeling: [Afhandeling](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![uitchecken reageren](/help/main/c-experiences/assets/react6.png)
 
@@ -389,10 +389,10 @@ Overweeg dit voorbeeld use-case:
 
 De volgende wijzigingen zijn aangebracht:
 
-* De achtergrondkleur is gewijzigd in de weergave Home, die zich onder de URL bevindt: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* De knopkleur is gewijzigd in de weergave Producten, die zich onder de URL bevindt: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* De achtergrondkleur is gewijzigd in de weergave Home, die zich onder de URL bevindt: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* De knopkleur is gewijzigd in de weergave Producten, die zich onder de URL bevindt: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-Met het bovenstaande voorbeeld in mening, wat zou gebeuren wanneer wij vormen [!UICONTROL Page Delivery] alleen in te voegen instellingen: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in een SPA met at.js 2.*x*?
+Met het bovenstaande voorbeeld in mening, wat zou gebeuren wanneer wij vormen [!UICONTROL Page Delivery] alleen in te voegen instellingen: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) in een SPA met at.js 2.*x*?
 
 ![Dialoogvenster Pagina-aflevering](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ In de volgende afbeelding ziet u de aanvraag voor het laden van de doelstroom - 
 
 **Gebruikersreis #1**
 
-* Een gebruiker navigeert rechtstreeks naar [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Een gebruiker navigeert rechtstreeks naar [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * In stap 6, keert de Rand van het Doel de acties voor de mening van het Huis en van Producten terug zodat zij binnen browser in het voorgeheugen worden opgeslagen.
 
-**Resultaat**: De gebruiker ziet de groene achtergrondkleur in de weergave Home. Wanneer de gebruiker dan navigeert naar [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)De blauwe achtergrondkleur van de knop wordt weergegeven omdat de handeling in de browser onder de weergave Producten is opgeslagen.
+**Resultaat**: De gebruiker ziet de groene achtergrondkleur in de weergave Home. Wanneer de gebruiker dan navigeert naar [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)De blauwe achtergrondkleur van de knop wordt weergegeven omdat de handeling in de browser onder de weergave Producten is opgeslagen.
 
-Opmerking: De gebruiker die navigeert naar [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) heeft geen paginalading geactiveerd.
+Opmerking: De gebruiker die navigeert naar [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) heeft geen paginalading geactiveerd.
 
 **Gebruikersreis #2**
 
-* Een gebruiker navigeert rechtstreeks naar [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* Er zijn geen activiteiten die gekwalificeerd zijn voor [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Een gebruiker navigeert rechtstreeks naar [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Er zijn geen activiteiten die gekwalificeerd zijn voor [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 * Omdat er geen activiteiten gekwalificeerd zijn, zijn er geen acties en meningen om voor at.js 2 worden in het voorgeheugen onder te brengen.*x* om te activeren vanaf.
 
-**Resultaat**: Zelfs als u `triggerView()` voor de Mening van Producten en maakte een actie aan de Mening van Producten door SPA VEC, zult u niet de verwachte actie zien aangezien u geen regel creeerde die inbegrepen [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) in de instellingen voor Paginaaflevering.
+**Resultaat**: Zelfs als u `triggerView()` voor de Mening van Producten en maakte een actie aan de Mening van Producten door SPA VEC, zult u niet de verwachte actie zien aangezien u geen regel creeerde die inbegrepen [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) in de instellingen voor Paginaaflevering.
 
 ### Beste praktijken
 
