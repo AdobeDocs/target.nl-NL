@@ -4,9 +4,9 @@ description: Leer hoe bezoekers kunnen schakelen tussen ervaringen in een Adobe 
 title: Kunnen bezoekers van ervaring in een ervaring veranderen richtend activiteit?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,6 @@ ht-degree: 0%
 # Overschakelen van ervaringen op het gebied van ervaring
 
 Informatie over hoe bezoekers kunnen schakelen tussen ervaringen in een Experience Targeting (XT)-activiteit terwijl hun profielen evolueren.
-
->[!NOTE]
->
->**21 september 2017**
->
->Met de release op 21 september 2017 heeft Target de manier gewijzigd waarop gebruikers worden geplaatst in Experience Targeting (XT)-activiteiten (Landing Page Campagnes in Target Classic). Voor alle nieuwe en bestaande activiteiten moeten de gebruikers de ervaring in acht nemen die op regels gericht op elke indruk is om de inhoud van de ervaring te blijven zien en in rapporten te worden geteld. Eerder, als de gebruiker niet meer gekwalificeerd voor om het even welke ervaring was, zou de gebruiker de inhoud van blijven zien en in rapporten voor, de laatste ervaring worden geteld die zij kwalificeerden.
->
->Deze wijziging vond automatisch plaats als onderdeel van de release voor alle bestaande activiteiten en voor nieuwe activiteiten die na de release werden gemaakt. Als de vorige methode (van vóór 21 september) gewenst is, kunt u publiek tot stand brengen gebruikend profielmanuscripten zodat een gebruiker slechts aan een voorwaarde moet voldoen één keer om in dat publiek in de toekomst te blijven vallen. Gebruik vervolgens die soorten publiek voor elke ervaring in de activiteit.
 
 Met Experience Targeting kunt u bepalen welke bezoekers zien hoe hun profielen evolueren. De volgende lijst bevat slechts een paar scenario&#39;s waarin bezoekersprofielen kunnen evolueren en u verschillende inhoud wilt voorstellen:
 
