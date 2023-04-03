@@ -4,7 +4,7 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
 source-wordcount: '1876'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://busines
 ## [!UICONTROL Adobe Target Community] Koffie-einde &amp;vragen
 
 * **Woensdag 12 april 2023**
-* **8:00 - 9:00 uur (PDT, GMT -7)
+* **08:00 - 9:00 (PDT, GMT -7)**
 * **[Registratiegegevens](https://adobe.ly/42gQGfv){target=_blank}**
 
 Join Matthew Bailie en Georgia Frailey, beide Senior Solutions Consultants voor [!DNL Adobe Target], die rechtstreeks met u over uw [!DNL Adobe Target] vragen in verband met [!DNL Target] AI-functies, met name [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target].
