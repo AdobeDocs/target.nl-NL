@@ -4,9 +4,9 @@ description: Meer informatie over het toevoegen van een beslissing over voorstel
 title: Hoe gebruik ik beslissingen over aanbiedingen?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Meer informatie over [!DNL Adobe Journey Optimizer] en bied besluiten aan, zie d
 
 * [Aan de slag met Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Over Besluitbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
+* [Over Besluitbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Vereisten
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer], kunt u een persoonlijk aanbod van de homepage
 
 1. In de **[!UICONTROL Add Offer Decision]** selecteert u de gewenste sandbox en plaatsing.
 
-   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] zorgt u ervoor dat de inhoud van het juiste aanbod op de juiste locatie wordt weergegeven.
+   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] zorgt u ervoor dat de inhoud van het juiste aanbod op de juiste locatie wordt weergegeven.
 
    ![vervolgkeuzelijsten Sandbox en Placements in het dialoogvenster Adviseringsbesluit toevoegen](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -102,9 +102,11 @@ Neem de volgende informatie in overweging wanneer u met de beslissingen over aan
 
 * De integratie van de offer decisioning werkt voor [!DNL Target] op de [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Deze functie is niet beschikbaar tijdens de implementatie [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
 
-* De integratie tussen Doel en Adobe Journey Optimizer ondersteunt [handmatig [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) en [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) alleen activiteiten. Deze functie is niet beschikbaar voor andere typen activiteiten.
+* De [!DNL Target]/[!DNL Adobe Journey Optimizer] integratie-ondersteuning [handmatig [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) en [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) alleen activiteiten. Deze functie is niet beschikbaar voor andere typen activiteiten.
 
-* Aanbiedingen met het inhoudstype text/html bieden geen ondersteuning voor levering van inhoud via de URL. De deliveryURL wordt alleen ondersteund via de Form-Based Experience Composer wanneer de client verantwoordelijk is voor het expliciet ophalen en samenstellen van de inhoud.
+* U kunt niet [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als u aanbiedingsbesluiten in een activiteit gebruikt. Kies [!DNL Target] als bron voor de rapportage in de [!UICONTROL Goals and Settings] pagina tijdens activiteitenopstelling als u aanbiedingsbesluiten in de activiteit gebruikt.
+
+* Aanbiedingen met het inhoudstype text/html bieden geen ondersteuning voor levering van inhoud via de URL. De deliveryURL wordt ondersteund via de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) alleen wanneer de client verantwoordelijk is voor het expliciet ophalen en samenstellen van de inhoud.
 
 * [!DNL Target] rapportage biedt geen rapportage op het niveau van de biedingsbeschikking.
 
