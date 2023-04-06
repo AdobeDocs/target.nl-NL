@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
+source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 
 Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Adobe Experience Manager] (AEM) en [!DNL Adobe Target] [!UICONTROL Content Fragments] release (6 april 2023)
+## [!DNL Adobe Experience Manager] (AEM) en [!DNL Adobe Target] [!UICONTROL Content Fragments] release (12 april 2023)
 
 Deze release bevat de volgende nieuwe functie:
 
