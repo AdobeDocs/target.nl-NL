@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] [!UICONTROL Content
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
+source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # AEM [!UICONTROL Content Fragments]
 
 Gebruiken [!UICONTROL Content Fragments] (CF&#39;s) gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om de grootscheepse personalisatie en experimenten te ondersteunen .
-
-AEM inhoudfragmenten voor hoofdloze personalisatie en experimenten
 
 >[!NOTE]
 >
@@ -25,18 +23,18 @@ AEM inhoudfragmenten voor hoofdloze personalisatie en experimenten
 >
 >Houd rekening met het volgende terwijl u met AEM werkt [!UICONTROL Content Fragments] in [!DNL Target]:
 > 
->* Deze functie vereist dat u een [!DNL Adobe Experience Manager] (AEM) klant. Zie voor meer informatie [Vereisten](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
+>* Deze functie vereist dat u een [!DNL Adobe Experience Manager as a Cloud Service] klant. Zie voor meer informatie [Vereisten](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
 >
 >* Deze functie is beschikbaar voor de volgende typen activiteiten: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), en [!UICONTROL Experience Targeting] (XT). Deze functie is niet beschikbaar in [!UICONTROL Multivariate Test] (MVT) en [!UICONTROL Recommendations] activiteiten.
 >
->* U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) alleen. Je kunt niet consumeren [!UICONTROL Content Fragments] met de [!UICONTROL Visual Experience Composer] (VEC).
+>* U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) alleen.
 
 
 Meer informatie over AEM [!UICONTROL Content Fragments] en [!UICONTROL Experience Fragments], zie [AEM [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] overzicht](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 ## Vereisten {#requirements}
 
-U moet zijn voorzien van [!UICONTROL Content Fragments] functionaliteit binnen [!DNL Target]. Bovendien moet u [!DNL AEM] as a Cloud Service. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
+U moet zijn voorzien van [!UICONTROL Content Fragments] functionaliteit binnen [!DNL Target]. Bovendien moet u [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
 Contact [Adobe Target Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.
 
