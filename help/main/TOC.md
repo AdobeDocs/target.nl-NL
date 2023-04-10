@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1230'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,6 @@ ht-degree: 3%
       + [A4T-rapportage](c-integrating-target-with-mac/a4t/reporting.md)
       + Problemen met de integratie van Analytics en Target oplossen (A4T) {#troubleshoot-a4t}
          + [A4T-problemen oplossen](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [Vergrote aantallen bezoeken en bezoekers in A4T minimaliseren](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + A4T Veelgestelde vragen {#a4t-faq}
          + [Aanvankelijke levering - Veelgestelde vragen A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Activiteitsinstellingen - Veelgestelde vragen voor A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)

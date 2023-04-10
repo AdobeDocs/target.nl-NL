@@ -4,9 +4,9 @@ description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe T
 title: Hoe los ik Doel problemen op?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,6 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 * [Analyse van problemen en doelintegratie](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team. Zie [Adobe Analytics als rapportagebron voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Veelgestelde vragen
-   * [Het aantal opgeblazen bezoekers en bezoekers in A4T minimaliseren](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Aanvankelijke levering - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [Instellingen voor activiteiten - Veelgestelde vragen voor A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [Rapporten weergeven - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)

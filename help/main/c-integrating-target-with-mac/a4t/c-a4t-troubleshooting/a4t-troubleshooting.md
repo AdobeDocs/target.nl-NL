@@ -4,9 +4,9 @@ description: Ontdek de algemene problemen die klanten hebben ondervonden bij het
 title: Hoe los ik Analytics en [!DNL Target] Integratie (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Als u de rij &quot;unspecified&quot; onderverdeelt door de dimensie &quot;Analyt
 
 >[!NOTE]
 >
->Soms worden gegevens correct weergegeven in rapporten, maar er wordt teruggegaan naar &quot;unspecified&quot; omdat er een nieuwe activiteit is toegevoegd die de classificatie niet heeft voltooid. Vergeet niet dat het meestal 24 tot 72 uur duurt om rapporten te classificeren na de eerste keer opslaan.
+>Soms worden gegevens correct weergegeven in rapporten, maar worden ze weer &quot;niet opgegeven&quot; omdat er een nieuwe activiteit is toegevoegd die de classificatie niet heeft voltooid. Vergeet niet dat het meestal 24 tot 72 uur duurt om rapporten te classificeren na de eerste keer opslaan.
 >
 >Er gaan geen gegevens verloren wanneer deze als &quot;niet opgegeven&quot; worden vermeld. De gegevens worden correct toegewezen aan de juiste activiteit of ervaring na de classificatieuitvoering.
 
@@ -43,15 +43,11 @@ Als u de rij &quot;unspecified&quot; onderverdeelt door de dimensie &quot;Analyt
 
 Er kan een &quot;[!UICONTROL Unspecified]&quot; de gebeurtenisrij die in uw rapport wordt getoond, afhankelijk van metrisch u gebruikt om uw gegevens met te tonen.
 
-Typisch, toont deze rij als u gemeenschappelijke metrisch in het rapport kiest dat niet is [!DNL Target]-specific (bijvoorbeeld [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], enzovoort). In dit geval worden de [!UICONTROL “Unspecified”] de rij omvat alle [!UICONTROL Page Views], [!UICONTROL Visits], en [!UICONTROL Unique Visitors] die geen verband houden met [!DNL Target] activiteiten.
+Typisch, toont deze rij als u gemeenschappelijke metrisch in het rapport kiest dat niet is [!DNL Target]-specific (bijvoorbeeld [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], enzovoort). In dit geval worden de [!UICONTROL "Unspecified"] de rij omvat alle [!UICONTROL Page Views], [!UICONTROL Visits], en [!UICONTROL Unique Visitors] die geen verband houden met [!DNL Target] activiteiten.
 
-Deze rij bevat geen [!DNL Target]-gerelateerde informatie (bijvoorbeeld geen bezoekers, bezoeken of indrukken). Zie voor meer informatie [&quot;Niet opgegeven,&quot; &quot;Geen,&quot; &quot;Overige&quot; en &quot;Onbekend&quot; in de rapportage](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in de *Technische notities voor Analytics*.
+Die rij heeft geen [!DNL Target]-gerelateerde informatie (bijvoorbeeld geen bezoekers, bezoeken of indrukken). Zie voor meer informatie [&quot;Niet opgegeven,&quot; &quot;Geen,&quot; &quot;Overige&quot; en &quot;Onbekend&quot; in de rapportage](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in de *Technische notities voor Analytics*.
 
-Als u een [!DNL Target]- specifieke metrisch in het rapport, dat [!UICONTROL “Unspecified”] rij wordt niet weergegeven. De enige manier om dit in het verslag te vermijden is een [!DNL Target] roep op elk verzoek dat van die pagina wordt verzonden, wat niet gemeenschappelijk of noodzakelijk is.
-
-## Mijn Analytische gegevens laten een opgeblazen bezoek of bezoekeraantal zien sinds het begin van A4T. {#section_4BE374E573D44FB7918611699B74F58E}
-
-Zie voor meer informatie [Inflated Visit and Visitor Counts in A4T minimaliseren](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Als u een [!DNL Target]- specifieke metrisch in het rapport, dat [!UICONTROL "Unspecified"] rij wordt niet weergegeven. De enige manier om dit in het verslag te vermijden is een [!DNL Target] roep op elk verzoek dat van die pagina wordt verzonden, wat niet gemeenschappelijk of noodzakelijk is.
 
 ## De geschatte lift in de metrische omzet geeft geen correcte gegevens aan. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
