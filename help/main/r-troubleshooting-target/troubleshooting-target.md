@@ -1,12 +1,12 @@
 ---
-keywords: het doel van problemen oplossen;het oplossen van problemendoel
+keywords: het doel van problemen oplossen;het oplossen van problemendoel;los kwesties op
 description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe Target, met inbegrip van het oplossen van problemenonderwerpen, vaak gestelde vragen (FAQs), en andere nuttige onderwerpen oplossen.
 title: Hoe los ik Doel problemen op?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,6 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
    * [Optillen en vertrouwen - A4T veelgestelde vragen](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [Metrische definities - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [Metrische gegevens, segmenten en rapporten delen - Veelgestelde vragen voor A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [Inflate aantallen bezoekers en bezoekers - A4T Veelgestelde vragen](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [Classificaties - A4T Veelgestelde vragen](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [Legacy SiteCatalyst tot Test &amp; Target-integratie - A4T - Veelgestelde vragen](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
