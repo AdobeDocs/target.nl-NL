@@ -3,9 +3,9 @@ keywords: aem;Experience Manager;adobe Experience Manager;integration;integratio
 description: Leren gebruiken [!DNL Adobe Experience Manager] ervaring en inhoudsfragmenten in [!DNL Adobe Target] activiteiten.
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments]?
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,21 @@ Gebruiken [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] ge
 
 Houd rekening met het volgende terwijl u met AEM werkt [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] in [!DNL Target]:
 * Deze functies vereisen dat u een [!DNL Adobe Experience Manager] (AEM) klant. Zorg ervoor dat u voldoet aan de vereisten voor elk fragmenttype: [Ervaar fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) of [Inhoudsfragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
-* Deze functies zijn beschikbaar voor de volgende typen activiteiten: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), en [!UICONTROL Experience Targeting] (XT). Deze functie is niet beschikbaar voor [!UICONTROL Multivariate Test] (MVT) en [!UICONTROL Recommendations] activiteiten.
-* U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) of de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md).
-* U kunt [!UICONTROL Content Fragments] in de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) alleen.
+* [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] zijn beschikbaar voor de volgende activiteitstypen:
+
+   * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] zijn niet beschikbaar voor de volgende soorten activiteiten:
+
+   * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+* U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) alleen.
 
 ## Wat is het verschil tussen [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments]?
 

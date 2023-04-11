@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] [!UICONTROL Content
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -19,16 +19,25 @@ Gebruiken [!UICONTROL Content Fragments] (CF&#39;s) gemaakt in [!DNL Adobe Exper
 >
 >Deze functie wordt op 12 april 2023 gepubliceerd.
 
->[!NOTE]
->
->Houd rekening met het volgende terwijl u met AEM werkt [!UICONTROL Content Fragments] in [!DNL Target]:
-> 
->* Deze functie vereist dat u een [!DNL Adobe Experience Manager as a Cloud Service] klant. Zie voor meer informatie [Vereisten](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
->
->* Deze functie is beschikbaar voor de volgende typen activiteiten: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] (AP), en [!UICONTROL Experience Targeting] (XT). Deze functie is niet beschikbaar in [!UICONTROL Multivariate Test] (MVT) en [!UICONTROL Recommendations] activiteiten.
->
->* U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) alleen.
+## Overwegingen
 
+Houd rekening met het volgende terwijl u met AEM werkt [!UICONTROL Content Fragments] in [!DNL Target]:
+
+* Deze functie vereist dat u een [!DNL Adobe Experience Manager as a Cloud Service] klant. Zie voor meer informatie [Vereisten](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
+* [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] zijn beschikbaar voor de volgende activiteitstypen:
+
+   * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] zijn niet beschikbaar voor de volgende soorten activiteiten:
+
+   * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) alleen. U *kan* consumeren [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikmaken van de [!UICONTROL Visual Experience Composer] (VEC).
 
 Meer informatie over AEM [!UICONTROL Content Fragments] en [!UICONTROL Experience Fragments], zie [AEM [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] overzicht](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
@@ -50,7 +59,7 @@ Na het uitvoeren van de voorafgaande taken, [!UICONTROL Content Fragment] worden
 
 [!DNL Target] zoekt momenteel naar [!UICONTROL Content Fragments] om de tien minuten te importeren. De geïmporteerde [!UICONTROL Content Fragment] dient beschikbaar te zijn in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
 
-De [!UICONTROL Content Fragment] wordt geïmporteerd in [!DNL Target] als een JSON-aanbieding. dat [!UICONTROL Content Fragment] &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt de [!UICONTROL Content Fragment] in [!DNL Target].
+De [!UICONTROL Content Fragment] wordt geïmporteerd in [!DNL Target] als een JSON-aanbieding. De [!UICONTROL Content Fragment] &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt de [!UICONTROL Content Fragment] in [!DNL Target].
 
 U kunt filteren en zoeken op [!UICONTROL HTML XFs], [!UICONTROL JSON XFs], en [!UICONTROL Content Fragments] zodat u onderscheid kunt maken tussen verschillende soorten aanbiedingen waarnaar wordt geëxporteerd [!DNL Target].
 
@@ -66,7 +75,7 @@ U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikm
 >
 >Gebruik kunstmatige intelligentie, het Leren van de Machine, en aanbevelingen met [!UICONTROL Content Fragments]:
 >
->* Om de [!DNL Target] AI- en ML-functionaliteit kunt u selecteren [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) tijdens het maken van een A/B-test.
+>* Om de [!DNL Target] AI- en ML-functionaliteit kunt u selecteren [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) tijdens het maken van een [!UICONTROL A/B Test] activiteit.
 >
 >* [!UICONTROL Content Fragments] worden niet ondersteund in [!DNL Recommendations] activiteiten. Om [!UICONTROL Content Fragments] voor aanbevelingen kunt u een [!UICONTROL A/B Test] activiteit (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of een [!UICONTROL Experience Targeting] (XT) en [aanbevelingen als aanbod opnemen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
@@ -82,7 +91,7 @@ U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikm
 1. Selecteer het gewenste [!UICONTROL Content Fragment]en klik vervolgens op **[!UICONTROL Save]**.
 1. Voltooi de configuratie van de activiteit.
 
-## Overwegingen {#considerations}
+## Aanvullende informatie
 
 * [!DNL Target] zoekt momenteel naar [!UICONTROL Content Fragments] om de tien minuten te importeren. De geïmporteerde [!UICONTROL Content Fragment] dient beschikbaar te zijn in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
 * De [!UICONTROL Content Fragment] wordt geïmporteerd in [!DNL Target] als een JSON-aanbieding. De [!UICONTROL Content Fragment] &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt de [!UICONTROL Content Fragment] in [!DNL Target].
