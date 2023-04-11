@@ -3,10 +3,10 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: a50fa37c7d294773148b192a4b433746b6033916
+source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1223'
+ht-degree: 3%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 0%
       + [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud publiek](/help/main/c-integrating-target-with-mac/mmp.md)
    + Doel integreren met Adobe Experience Manager (AEM) {#aem}
-      + [Overzicht van Target integreren met Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + [Doel integreren met AEM overzicht](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Ervaar fragmenten en inhoudsfragmenten {#fragments}
          + [Overzicht van AEM Experience Fragments en Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragmenten voor AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
