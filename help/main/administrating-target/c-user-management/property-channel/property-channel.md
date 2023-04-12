@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
 
 Veelgestelde vragen over bedrijfsmachtigingen zijn onder andere:
 
-### Wat gebeurt er als een gebruiker meerdere rollen en machtigingen heeft?
+### Wat gebeurt er als een gebruiker meerdere rollen en machtigingen heeft? [#multiple-rollen]
 
 Als een gebruiker veelvoudige rollen en toestemmingen heeft, wordt de rol met de hogere toestemmingen toegepast. Als een gebruiker bijvoorbeeld [!UICONTROL Observer] en [!UICONTROL Approver] rollen, de [!UICONTROL Approver] rol wordt toegepast.
 
