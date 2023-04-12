@@ -2,14 +2,14 @@
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;wat is adobe target;
 description: Leer de grondbeginselen van Adobe [!DNL Target] Standaard en Adobe [!DNL Target] Premium. [!DNL Target] Premium bevat geavanceerde functies die niet beschikbaar zijn in het standaardproduct.
 landing-page-description: Personaliseer de ervaring van uw klanten om de omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
-short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+short-description: Personaliseer de ervaring van uw klanten om de omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 title: Wat is het doel?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 3%
+source-wordcount: '1022'
+ht-degree: 4%
 
 ---
 
