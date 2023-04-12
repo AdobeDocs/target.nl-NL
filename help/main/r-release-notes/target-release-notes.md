@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelvers
 
 >[!NOTE]
 >
->Deze functie is op 12 april 2023 beschikbaar als een pre-releasefunctie en is op 26 april 2023 beschikbaar voor de GA-release (General Availability).
+>Deze functie is op 12 april 2023 beschikbaar als een pre-releasefunctie. Als pre-releasefunctie kunt u experimenteren met [!UICONTROL Content Fragments] gebruik van ontwikkelings- en staging-omgevingen, maar niet in productieomgevingen.
+>
+>Deze functie is beschikbaar voor de GA-release (General Availability) op 26 april 2023.
 
 Deze release bevat de volgende nieuwe functie:
 
