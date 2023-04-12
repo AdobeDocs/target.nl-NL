@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 12 april | [Rapport Belangrijke kenmerken](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Ik zie een of meer kenmerken die ik niet wil gebruiken voor training. Kan ik deze kenmerken verwijderen uit het trainingsmodel?</li></ul> |
+| 12 april | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde koppeling naar registratie voor het volgende webinar:<ul><li>Lever persoonlijke klantenervaringen, elke keer!</li></ul> |
+|  | [Rapport Belangrijke kenmerken](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Ik zie een of meer kenmerken die ik niet wil gebruiken voor training. Kan ik deze kenmerken verwijderen uit het trainingsmodel?</li></ul> |
 |  | [Machtigingen voor Enterprise-gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Wat gebeurt er als een gebruiker meerdere rollen en machtigingen heeft?</li></ul> |
 |  | [Inhoudsfragmenten AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Nieuw onderwerp. Deze functie staat in de status pre-releasestatus voor testdoeleinden. |
 | 5 april | [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Toegevoegde tekst die aangeeft dat [!UICONTROL Analytics as the reporting source] (A4t) wordt niet ondersteund in activiteiten die besluiten over aanbiedingen gebruiken. |

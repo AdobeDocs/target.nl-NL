@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,28 @@ Join Matthew Bailie en Georgia Frailey, beide Senior Solutions Consultants voor 
 
 Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
 
-Geen gepland op dit moment.
+### Lever persoonlijke klantenervaringen, elke keer!
+
+* **Donderdag 27 april 2023**
+* **09:00 - 10:00 (BST, GMT +1), 10:00 - 11:00 uur (CEST, GMT +2)**
+* **[Registratiegegevens](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Houd de klant voor [!DNL Adobe Target]Krachtige test- en personalisatiefuncties. Zorg ervoor dat u overal bent waar de klant zich bevindt, door dynamische contextafhankelijke ervaringen op het web, mobiele apparaten en digitale apparaten aan te bieden.
+
++++Details
+
+Het webinar omvat:
+
+* Waarom personalisatie een essentieel onderdeel is van elke strategie
+* Verschillende soorten activiteiten identificeren en gebruiken
+* Spotlight - Gebruiksgevallen in de industrie
+* Recommendations om personalisatie te stimuleren
+* Demo van de [!DNL Target] Gebruikersinterface, markeren
+   * Aanmaken van publiek
+   * Instelling [!UICONTROL Experience Targeting] (XT) activiteiten
+   * Instelling [!UICONTROL Auto-Target] en [!UICONTROL Auto Personalization] activiteiten
+
++++
 
 ## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
 
