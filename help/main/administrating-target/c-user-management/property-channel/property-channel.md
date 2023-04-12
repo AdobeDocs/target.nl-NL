@@ -1,27 +1,27 @@
 ---
-keywords: werkruimten;beheren eigenschap;machtigingen;productconfiguratie;productprofiel;rollen;project
+keywords: werkruimten;beheren eigenschap;machtigingen;productconfiguratie;productprofiel;rollen;project;waarnemer;editor;fiatteur;uitgever
 description: Leer hoe u afzonderlijke werkruimten (productprofielen) maakt en gebruikers vervolgens verschillende rollen en machtigingen toewijst voor afzonderlijke pagina's, eigenschappen of websites.
 title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebruik ik hen?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3159'
 ht-degree: 0%
 
 ---
 
 # Machtigingen voor Enterprise-gebruikers
 
-Machtigingen voor zakelijke gebruikers zijn een manier om gebruikers op bedrijfsniveau formeel toegang te verlenen tot [!DNL Adobe Target]. Gebruikers toevoegen aan [!DNL Target], wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen toewijzen van [!UICONTROL Observer], [!UICONTROL Editor], of [!UICONTROL Approver].
+Machtigingen voor zakelijke gebruikers zijn een manier om gebruikers op bedrijfsniveau formeel toegang te verlenen tot [!DNL Adobe Target]. Gebruikers toevoegen aan [!DNL Target], wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen toewijzen van [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], of [!UICONTROL Publisher].
 
 ## Bepaal of u toegang hebt tot bedrijfsgebruikersmachtigingen
 
 >[!NOTE]
 >
->Eigenschappen en machtigingen zijn beschikbaar als onderdeel van de [!DNL Target] Hoogwaardige oplossing. Ze zijn niet beschikbaar in [!DNL Target] Standaard zonder een [!DNL Target] Premium-licentie.
+>[!UICONTROL Properties and Permissions] is beschikbaar als onderdeel van de [!DNL Target] Hoogwaardige oplossing. Ze zijn niet beschikbaar in [!DNL Target] Standaard zonder een [!DNL Target] Premium-licentie.
 >
 >Uw [!DNL Target] de implementatie kan elke versie van at.js gebruiken.
 
@@ -89,10 +89,10 @@ De rollen en de toestemmingen bepalen de toegangsniveaus die de gebruikers activ
 
 | Rol | Beschrijving |
 |--- |--- |
-| Fiatteur | Kan activiteiten maken, bewerken en activeren of stoppen. |
-| Editor | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
-| Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
-| Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
+| [!UICONTROL Approver] | Kan activiteiten maken, bewerken en activeren of stoppen. |
+| [!UICONTROL Editor] | Kan activiteiten maken en bewerken voordat deze live zijn, maar kan het starten van een activiteit niet goedkeuren. |
+| [!UICONTROL Observer] | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
+| [!UICONTROL Publisher] | Vergelijkbaar met de [!UICONTROL Observer] rol (kan activiteiten bekijken, maar kan niet hen creëren of uitgeven). De [!UICONTROL Publisher] de rol heeft de extra toestemming om activiteiten te activeren. |
 
 ### Kanaal
 
@@ -258,6 +258,10 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
 ## Veelgestelde vragen {#faqs}
 
 Veelgestelde vragen over bedrijfsmachtigingen zijn onder andere:
+
+### Wat gebeurt er als een gebruiker meerdere rollen en machtigingen heeft?
+
+Als een gebruiker veelvoudige rollen en toestemmingen heeft, wordt de rol met de hogere toestemmingen toegepast. Als een gebruiker bijvoorbeeld [!UICONTROL Observer] en [!UICONTROL Approver] rollen, de [!UICONTROL Approver] rol wordt toegepast.
 
 ### Kan ik een activiteit van één werkruimte naar een andere verplaatsen?
 
