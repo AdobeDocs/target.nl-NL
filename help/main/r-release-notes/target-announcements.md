@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,6 @@ Gartner benoemd [!DNL Adobe Target] een leider in zijn meest recente Magic Quadr
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!UICONTROL Adobe Target Community] Koffie-einde &amp;vragen
-
-* **Woensdag 12 april 2023**
-* **08:00 - 9:00 (PDT, GMT -7)**
-* **[Registratiegegevens](https://adobe.ly/42gQGfv){target=_blank}**
-
-Join Matthew Bailie en Georgia Frailey, beide Senior Solutions Consultants voor [!DNL Adobe Target], die rechtstreeks met u over uw [!DNL Adobe Target] vragen in verband met [!DNL Target] AI-functies, met name [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target].
-
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
 Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
@@ -36,7 +28,7 @@ Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Targ
 ### Lever persoonlijke klantenervaringen, elke keer!
 
 * **Donderdag 27 april 2023**
-* **09:00 - 10:00 (BST, GMT +1), 10:00 - 11:00 uur (CEST, GMT +2)**
+* **09:00 - 10:00 (BST, GMT +1), 10:00 - 11:00 (CEST, GMT +2)**
 * **[Registratiegegevens](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
 Houd de klant voor [!DNL Adobe Target]Krachtige test- en personalisatiefuncties. Zorg ervoor dat u overal bent waar de klant zich bevindt, door dynamische contextafhankelijke ervaringen op het web, mobiele apparaten en digitale apparaten aan te bieden.
