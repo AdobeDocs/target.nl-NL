@@ -4,9 +4,9 @@ description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -135,11 +135,7 @@ adobe.target.getOffer({
 
 CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. (Merk op dat deze functie momenteel in Bèta is.)
 
-Voorbeeld van gebruik: Als online telleraar, wil Grace het AEP/Verenigde Profiel kenmerkwaarden met delen [!DNL Target] om realtime personalisatie mogelijk te maken. Door de Attributen van het Profiel in real time te gebruiken CDP, kan Grace de waarde van het attribuut AEP in a tonen [!DNL Target] aanbieden met gebruik van token replace. Ze kan bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
-
-![aanbiedingsjson-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
-
-Het toewijzen van standaardwaarden is optioneel.
+Zie voor meer informatie [CDP-profielkenmerken in realtime delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Aanbiedingen filteren door het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
