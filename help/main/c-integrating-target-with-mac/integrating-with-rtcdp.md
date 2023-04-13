@@ -4,9 +4,9 @@ description: Leer hoe u de [!DNL Target]/[!DNL Real-time Customer Data Platform]
 title: Hoe integreer ik [!DNL Target] met de [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
+source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,27 @@ Belangrijke functies zijn:
 
 ### Gebruikszaken aanpassen
 
-In de volgende tabel wordt aangegeven welk type gebruiksscenario voor personalisatie (volgende sessie of dezelfde pagina) beschikbaar is wanneer u de [!DNL Adobe Experience Platform Web SDK] versus het gebruik van at.js:
+In de volgende secties wordt aangegeven welk type gebruiksscenario voor personalisatie (volgende sessie of dezelfde pagina) beschikbaar is wanneer u verschillende implementatiemethoden gebruikt:
 
-| Implementatie | Oplossingen/Hoofdletters gebruiken ingeschakeld |
+#### at.js-implementatie
+
+| Oplossingen | Hoofdletters gebruiken ingeschakeld |
 | --- | --- |
-| at.js | **Oplossingen**:<ul><li>[!DNL Adobe Audience Manager] (AAM) en [!DNL Target]</li><li>[!DNL RTCDP] (Premium of Ultimate) en [!DNL Target]</li><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li></ul> |
-| [!DNL Platform Web SDK] of [!DNL AEP Server-Side API] | **Oplossingen**:<ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><li>Dezelfde pagina aanpassen via Edge</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul>**Oplossingen**:<ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul><li>Dezelfde pagina aanpassen via Edge</li><ul><li>[!DNL RTCDP] segmenten</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul> |
-| Mix van [!UICONTROL at.js] en [!DNL Platform Web SDK] | **Oplossingen**:<ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li></ul><li>Zelfde paginagrootte</li><ul><li>Voor alle pagina&#39;s met [!DNL Platform Web SDK]</li></ul></ul>**Oplossingen**:<ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL Adobe Audience Manager] (AAM) en [!DNL Target]</li><li>[!DNL RTCDP] (Premium of Ultimate) en [!DNL Target]</li><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul> | Aanpassing van volgende sessie |
+
+#### Adobe Experience Platform Web SDK of AEP Server-side API-implementatie
+
+| Oplossingen | Hoofdletters gebruiken ingeschakeld |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul> | <ul><li>Aanpassing van volgende sessie</li><li>Dezelfde pagina aanpassen via Edge</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul> |
+| <ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul> | <ul><li>Aanpassing van volgende sessie</li><ul><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul><li>Dezelfde pagina aanpassen via Edge</li><ul><li>[!DNL RTCDP] segmenten</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul> |
+
+#### Mix van [!UICONTROL at.js] en [!DNL Platform Web SDK] uitvoering
+
+| Oplossingen | Hoofdletters gebruiken ingeschakeld |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul> | <ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li></ul><li>Zelfde paginagrootte</li><ul><li>Voor alle pagina&#39;s met [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul> | <ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul> |
 
 ### Evaluatietijd segment
 
@@ -105,6 +119,6 @@ Zie voor meer informatie [Volgend-klare verpersoonlijking met Real-Time CDP en A
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Target-blog en -video:
+### Adobe Target-blog en -video: Verbeterde personalisatie met dezelfde pagina
 
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] en [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] en [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
