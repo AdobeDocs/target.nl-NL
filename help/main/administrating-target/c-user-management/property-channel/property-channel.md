@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Machtigingen voor zakelijke gebruikers zijn een manier om gebruikers op bedrijfs
 >
 >[!UICONTROL Properties and Permissions] is beschikbaar als onderdeel van de [!DNL Target] Hoogwaardige oplossing. Ze zijn niet beschikbaar in [!DNL Target] Standaard zonder een [!DNL Target] Premium-licentie.
 >
->Uw [!DNL Target] de implementatie kan elke versie van at.js gebruiken.
+>Uw [!DNL Target] de implementatie kan elke versie van at.js of [!DNL Adobe Experience Platform Web SDK].
 
 U kunt zien of uw organisatie een Standard- of Premium-licentie heeft door op de knop [!UICONTROL Administration] koppeling boven aan [!DNL Target] UI.
 

@@ -4,9 +4,9 @@ description: Leer hoe u de [!DNL Target]/[!DNL Real-time Customer Data Platform]
 title: Hoe integreer ik [!DNL Target] met de [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Voor meer informatie over RTCDP raadpleegt u [Real-time Customer Data Platform-o
 
 ## Gebruik publiek van [!DNL Adobe Experience Platform] {#aep}
 
-Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), gebaseerd op [!DNL Adobe Experience Platform]helpt bedrijven bekende en anonieme gegevens uit meerdere bedrijfsbronnen bij elkaar te brengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
+Gebruiken [publiek](/help/main/c-target/c-audiences/audiences.md) gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), gebaseerd op [!DNL Adobe Experience Platform]helpt bedrijven bekende en anonieme gegevens uit meerdere bedrijfsbronnen bij elkaar te brengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
 
 Door verbinding te maken [!DNL Target] aan de [!DNL Real-time Customer Data Platform]kunnen klanten hun webpersonalisatie verrijken door nieuwe segmenten te ontsluiten die eerder niet toegankelijk waren voor [!DNL Target] om realtime millisecondenpersonalisatie in te schakelen op de eerste pagina van het webbezoek van een klant. Soorten publiek en profielkenmerken gebruiken die zijn gemaakt in [!DNL Adobe Experience Platform] Hiermee kunt u de beschikbare gegevenspunten uitbreiden voor een rijkere personalisatie.
 
@@ -37,9 +37,9 @@ Belangrijke functies zijn:
 Beperkingen en overwegingen met betrekking tot de eigenschapkenmerken van CDP-profielen in realtime:
 
 * Kenmerken binnen een gegeven aanbod moeten afkomstig zijn van dezelfde AEP-sandbox. (Met andere woorden, een aanbieding mag geen kenmerken van verschillende AEP-sandboxen bevatten.)
-* Kenmerken binnen een bepaalde aanbieding kunnen uit verschillende bronnen afkomstig zijn; het doelprofiel en het AEP-profiel.(Met andere woorden, u kunt kenmerken combineren, ongeacht of ze afkomstig zijn van Target of van het AEP-profiel.)
-* Wanneer u een aanbieding definieert, kunt u standaardwaarden toewijzen voor CDP-profielkenmerken in realtime, voor het geval dat het kenmerk geen expliciete waarde heeft. Als een toestemmings- of governancebeleid bijvoorbeeld blokkeert dat het kenmerk wordt gebruikt in de verpersoonlijkingsservice, kan in plaats daarvan de standaardwaarde worden gebruikt.
-* Wanneer gedeeld, worden de Attributen van het Profiel in real time CDP gebruikt in de Verpersoonlijkingsmodellen van de Kunstmatige Intelligentie/van het Leren van de Machine voor auto-Doel en Automated Personalization.
+* Kenmerken binnen een bepaalde aanbieding kunnen uit verschillende bronnen afkomstig zijn; namelijk de [!DNL Target] profiel en het AEP-profiel. (Met andere woorden, u kunt kenmerken combineren, ongeacht of ze afkomstig zijn [!DNL Target] of uit het AEP-profiel.)
+* Wanneer u een aanbieding definieert, kunt u standaardwaarden toewijzen voor CDP-profielkenmerken in realtime, voor het geval het kenmerk geen expliciete waarde heeft. Als een toestemmings- of governancebeleid bijvoorbeeld blokkeert dat het kenmerk wordt gebruikt in de verpersoonlijkingsservice, kan in plaats daarvan de standaardwaarde worden gebruikt.
+* Wanneer gedeeld, worden de Attributen van het Profiel in real time CDP gebruikt in de Kunstmatige Intelligence/het Leren van de Machine verpersoonlijkingsmodellen voor [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ De volgende lijst toont de tijd van de segmentevaluatie voor gebeurtenissen die 
 
 ### Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target]{#RTCDP}
 
-Leer hoe u een persoonlijke voorstelling kunt maken bij de volgende hit met [!DNL Real-time Customer Data Platform] en [!DNL Adobe Target]. De [!DNL Adobe Target] bestemming in [!DNL Real-time CDP] staat u toe te gebruiken [!DNL Experience Platform] segmenten in [!DNL Adobe Target] voor dezelfde pagina en paginagrootte personalisatie met beheer en privacyondersteuning.
+Leer hoe u een persoonlijke voorstelling kunt maken bij de volgende hit met [!DNL Real-time Customer Data Platform] en [!DNL Adobe Target]. De [!DNL Adobe Target] bestemming in [!DNL Real-time CDP] staat u toe te gebruiken [!DNL Experience Platform] segmenten in [!DNL Adobe Target] voor dezelfde paginagropersonalisatie en paginagrootte personalisatie met beheer en privacyondersteuning.
 
 Zie voor meer informatie [Volgend-klare verpersoonlijking met Real-Time CDP en Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} in de *Platform Tutorials* hulplijn.
 
@@ -93,9 +93,9 @@ Zie voor meer informatie [Volgend-klare verpersoonlijking met Real-Time CDP en A
 
 ## CDP-profielkenmerken in realtime delen met [!DNL Target] {#rtcdp-profile-attributes}
 
-CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. (Merk op dat deze functie momenteel in Bèta is.)
+CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML-aanbiedingen en [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Merk op dat deze functie momenteel in Bèta is.)
 
-Voorbeeld van gebruik: Als online telleraar, wil Grace het AEP/Verenigde Profiel kenmerkwaarden met delen [!DNL Target] om realtime personalisatie mogelijk te maken. Door de Attributen van het Profiel in real time te gebruiken CDP, kan Grace de waarde van het attribuut AEP in a tonen [!DNL Target] aanbieden met gebruik van token replace. Ze kan bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
+Voorbeeld van gebruik: Als online telleraar, wilt u het AEP/Verenigde Profiel kenmerkwaarden met delen [!DNL Target] om realtime personalisatie mogelijk te maken. Door de Attributen van het Profiel in real time te gebruiken CDP, kunt u de waarde van het attribuut AEP in een [!DNL Target] aanbieden met gebruik van token replace. U kunt bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
 
 ![aanbiedingsjson-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
