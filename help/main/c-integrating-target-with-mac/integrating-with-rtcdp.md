@@ -4,9 +4,9 @@ description: Leer hoe u de [!DNL Target]/[!DNL Real-time Customer Data Platform]
 title: Hoe integreer ik [!DNL Target] met de [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: e9fd075db7c533c77154af7806076d8ed0198979
+source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,7 @@ Raadpleeg de volgende onderwerpen voor meer informatie:
 * [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in de *Overzicht van doelen* hulplijn
 * [Vorm verpersoonlijkingsbestemmingen voor de zelfde pagina en volgende de gebruiksgevallen van de paginagrootte](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} in de *Overzicht van doelen* hulplijn
 
-### Aanvullende gegevens
-
-Houd rekening met de volgende informatie wanneer u publiek gebruikt van [!DNL Adobe Experience Platform]:
-
-#### Gebruikszaken aanpassen
+### Gebruikszaken aanpassen
 
 In de volgende tabel wordt aangegeven welk type gebruiksscenario voor personalisatie (volgende sessie of dezelfde pagina) beschikbaar is wanneer u de [!DNL Adobe Experience Platform Web SDK] versus het gebruik van at.js:
 
@@ -73,7 +69,7 @@ In de volgende tabel wordt aangegeven welk type gebruiksscenario voor personalis
 | [!DNL Platform Web SDK] of [!DNL AEP Server-Side API] | **Oplossingen**:<ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><li>Dezelfde pagina aanpassen via Edge</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul>**Oplossingen**:<ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul><li>Dezelfde pagina aanpassen via Edge</li><ul><li>[!DNL RTCDP] segmenten</li><li>Bestuur afgedwongen bij het delen van segmenten</li></ul> |
 | Mix van [!UICONTROL at.js] en [!DNL Platform Web SDK] | **Oplossingen**:<ul><li>[!DNL RTCDP] (elke SKU) en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li></ul><li>Zelfde paginagrootte</li><ul><li>Voor alle pagina&#39;s met [!DNL Platform Web SDK]</li></ul></ul>**Oplossingen**:<ul><li>[!DNL RTCDP] (alle SKU&#39;s), [!DNL AAM], en [!DNL Target]</li></ul>**Hoofdletters gebruiken**:<ul><li>Aanpassing van volgende sessie</li><ul><li>Voor alle pagina&#39;s met [!UICONTROL at.js]</li><li>[!DNL AAM] segmenten</li><li>Segmenten van derden via [!DNL AAM]</li></ul> |
 
-#### Evaluatietijd segment
+### Evaluatietijd segment
 
 De volgende lijst toont de tijd van de segmentevaluatie voor gebeurtenissen die uit verschillende implementatiescenario&#39;s komen:
 
@@ -95,7 +91,11 @@ Voorbeeld van gebruik: Als online telleraar, wilt u het AEP/Verenigde Profiel ke
 
 Het toewijzen van standaardwaarden is optioneel.
 
-## Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target]{#RTCDP}
+## Video&#39;s en blogberichten
+
+De volgende video&#39;s en blogberichten bevatten meer informatie over verbeterde personalisatie met Target en RTCDP:
+
+### Video: Volgend-raakpersonalisatie met Real-time CDP en [!DNL Adobe Target]{#RTCDP}
 
 Leer hoe u een persoonlijke voorstelling kunt maken bij de volgende hit met [!DNL Real-time Customer Data Platform] en [!DNL Adobe Target]. De [!DNL Adobe Target] bestemming in [!DNL Real-time CDP] staat u toe te gebruiken [!DNL Experience Platform] segmenten in [!DNL Adobe Target] voor dezelfde paginagropersonalisatie en paginagrootte personalisatie met beheer en privacyondersteuning.
 
@@ -103,6 +103,6 @@ Zie voor meer informatie [Volgend-klare verpersoonlijking met Real-Time CDP en A
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-## Adobe Target-blog en -video:
+### Adobe Target-blog en -video:
 
 [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] en [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
