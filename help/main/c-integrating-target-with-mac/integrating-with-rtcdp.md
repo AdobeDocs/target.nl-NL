@@ -4,9 +4,9 @@ description: Leer hoe u de [!DNL Target]/[!DNL Real-time Customer Data Platform]
 title: Hoe integreer ik [!DNL Target] met de [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -94,8 +94,6 @@ Zie voor meer informatie [Volgend-klare verpersoonlijking met Real-Time CDP en A
 ## CDP-profielkenmerken in realtime delen met [!DNL Target] {#rtcdp-profile-attributes}
 
 CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. (Merk op dat deze functie momenteel in Bèta is.)
-
-Zie voor meer informatie [CDP-profielkenmerken in realtime delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 Voorbeeld van gebruik: Als online telleraar, wil Grace het AEP/Verenigde Profiel kenmerkwaarden met delen [!DNL Target] om realtime personalisatie mogelijk te maken. Door de Attributen van het Profiel in real time te gebruiken CDP, kan Grace de waarde van het attribuut AEP in a tonen [!DNL Target] aanbieden met gebruik van token replace. Ze kan bijvoorbeeld personaliseren op basis van de favoriete kleur van een klant `${aep.profile.favoriteColor}`, of hun loyaliteitsrij en loyaliteitspuntwaarde die tokens gebruiken `${aep.loyalty.tier}` en `${aep.loyalty.points}`.
 
