@@ -1,12 +1,12 @@
 ---
 keywords: mvt;multivariërende test;locatie-bijdragerapport
-description: Leer hoe u het rapport Locatiebijdrage voor Adobe gebruikt [!DNL Target] Ervaring die gerichte activiteiten richt die de prestaties van elk element en elke aanbieding tonen.
-title: Hoe gebruik ik het rapport Locatiebijdrage voor multivariate tests?
+description: Leer hoe u het rapport Locatiebijdrage voor Adobe gebruikt [!DNL Target] [!UICONTROL Experience Targeting] activiteiten die de prestaties van elk element en elke aanbieding aantonen.
+title: Hoe gebruik ik de [!UICONTROL Location Contribution] Rapport voor [!UICONTROL Multivariate Test] activiteiten?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,22 @@ Bovenaan het rapport toont metrisch, begin en einddata, en publiek dat in het ra
 
 >[!NOTE]
 >
->De gebruikers- en metrische kiezers zijn alleen beschikbaar als [!DNL Analytics] wordt gebruikt als rapportagebron.
+>Houd rekening met de volgende informatie wanneer u met de [!UICONTROL Location Contribution] rapport:
+>
+>* De publiek- en metrische kiezers zijn alleen beschikbaar als [!DNL Analytics] wordt gebruikt als rapportagebron (A4T).
+>
+>* Gegevens voor de [!UICONTROL Location Contribution] rapport is opgehaald uit de [!DNL Target] back-end zelfs als de activiteit geconfigureerd is voor gebruik [!UICONTROL Analytics as the reporting source] (A4T).
+>
+>* Gegevens voor de [!UICONTROL Location Contribution] Het rapport wordt opgehaald voor de omgeving &quot;Productie&quot;, zelfs als een andere standaardomgeving is gedefinieerd op het tabblad [!DNL Target] accountniveau.
+
 
 De [!UICONTROL Location Contribution] rapport bevat twee tabellen.
 
-In de eerste tabel wordt de relatieve invloed van elk element weergegeven. Hier ziet u welke elementen u aanbiedingen hebt toegevoegd die de meeste omzettingen tot gevolg hebben.
+In de eerste tabel wordt de relatieve invloed van elk element weergegeven. In deze tabel wordt aangegeven welke elementen u aanbiedingen hebt toegevoegd, de meeste omzettingen tot gevolg hebben.
 
 ![Locatiebijdragerapport in Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
 
-De tweede lijst verstrekt een aanbod-niveau rapport. Het toont de omrekeningskoers, de lift, en het vertrouwen voor elke aanbieding in elk element. Zo kunt u bepalen welke aanbiedingen het meest succesvol zijn. In de tweede kolom worden waarden weergegeven voor de geselecteerde metrische waarde (conversiesnelheid, RPV, AOV, bestellingen of betrokkenheidswaarden) van de aanbieding en één standaardisering.
+De tweede lijst verstrekt een aanbod-niveau rapport. Het toont de omrekeningskoers, de lift, en het vertrouwen voor elke aanbieding in elk element. In deze tabel kunt u bepalen welke aanbiedingen het meest succesvol zijn. In de tweede kolom worden waarden weergegeven voor de geselecteerde metrische waarde (conversiesnelheid, RPV, AOV, bestellingen of betrokkenheidswaarden) van de aanbieding en één standaardisering.
 
 ![Locatiebijdragerapport in Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
 
