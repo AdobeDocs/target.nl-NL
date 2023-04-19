@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2377'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 19 april | [[!UICONTROL Location Contribution] rapport (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | Bijgewerkte informatie in notitie. |
 | 13 april | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target] Standard/Premium 23.4.1-release (25-27 april 2023). |
 | 12 april | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde koppeling naar registratie voor het volgende webinar:<ul><li>Lever persoonlijke klantenervaringen, elke keer!</li></ul> |
 |  | [Rapport Belangrijke kenmerken](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | De volgende veelgestelde vragen zijn toegevoegd:<ul><li>Ik zie een of meer kenmerken die ik niet wil gebruiken voor training. Kan ik deze kenmerken verwijderen uit het trainingsmodel?</li></ul> |
