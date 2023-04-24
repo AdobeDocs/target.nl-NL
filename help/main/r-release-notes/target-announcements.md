@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,29 @@ Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder 
 Gartner benoemd [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] alle beoordeelde leveranciers hebben de hoogste scores voor hun testmogelijkheden ontvangen.
 
 Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!UICONTROL Adobe Target Community] Vragen en antwoorden afbreken koffie: Optimalisatie en personalisatie van mobiele ervaring voor geverifieerde omgevingen
+
+* **Woensdag 26 april 2023**
+* **13:00 (EDT, UTC-4)**
+* **[Registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
+
+Verbinden [!DNL Adobe Target] Marketing Manager Brent Kostak bespreekt hoe [!DNL Target] en [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) kan leiden tot meer betrokkenheid, inkomsten en klantenloyaliteit binnen gereglementeerde industrieën.
+
++++Details
+
+De merken moeten hoogst gepersonaliseerde en relevante ervaringen leveren die op specifieke klantenbehoeften en gedrag worden gebaseerd. Met vragen over een toekomst zonder cookie in marketingtechnologie willen de gereguleerde industrieën een robuuster kader voor de betrokkenheid van klanten omarmen en de interactie van elke klant optimaliseren voor de juiste inhoud en aanbieding.
+
+Hoe kunnen merken in financiële diensten en verzekeringen, detailhandel, reizen en gastvrijheid, en telecommunicatiesectoren beste praktijken voor optimalisering en verpersoonlijking binnen voor authentiek verklaarde milieu&#39;s toepassen? Hoe kunnen merken die het belang begrijpen voor mobiele apps voor de betrokkenheid en het behoud van loyale klanten, digitale zelfbediening mogelijk maken of de acceptatie van nieuwe functies met persoonlijke ervaringen verhogen?
+
+Leer in deze sessie hoe [!DNL Target] en [!DNL Real-Time Customer Data Platform] kan leiden tot meer betrokkenheid, inkomsten en klantenloyaliteit binnen gereglementeerde industrieën terwijl wij bespreken:
+
+* Hoe de teams persoonlijke ervaringen aan zowel anonieme als voor authentiek verklaarde bezoekers leveren
+* Inzicht in consumentenrechten en privacystandaarden met personalisatie
+* Gepersonaliseerde inhoud en aanbiedingen aan geautoriseerde bezoekers via het anonimiseren van identiteiten
+* Unieke gebruiksgevallen voor geverifieerde, beveiligde sites op het web en op mobiele apparaten
+
++++
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 

@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,13 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
+
+## [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 24 april | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende Adobe Target Community Coffee Break Q&amp;A:<ul><li>Optimalisatie en personalisatie van mobiele ervaring voor geverifieerde omgevingen</li></ul> |
+| 28 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.4.1. |
 
 ## [!DNL Target] Standard/Premium 23.3.1 (28-30 maart 2023)
 

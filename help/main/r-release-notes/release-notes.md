@@ -6,10 +6,10 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 4%
+source-wordcount: '438'
+ht-degree: 7%
 
 ---
 
@@ -19,39 +19,14 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target] Standard/Premium 23.3.1 (28-30 maart 2023)
+## [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
 
-Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
-
-* **28 maart**: Europa, Midden-Oosten en Afrika (EMEA)
-* **29 maart**: Regio Azië-Stille Oceaan (APAC)
-* **30 maart**: Amerikaanse regio
-
-Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
+Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
 
 | Functie | Details |
 |--- |--- |
-| Geoptimaliseerde A4T-meetwaarden voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]<p>(Releasedatum 30 maart 2023) | [!DNL Target] Hiermee kunt u metriek kiezen op basis van binomiale gebeurtenissen of metriek op basis van doorlopende gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.<P>Houd rekening met de volgende wijziging in ondersteunde meetwaarden:<ul><li>[!DNL Target] het eerdere gedrag voor bestaande activiteiten tot 9 september 2023 behouden. Na deze datum worden activiteiten waarbij niet-ondersteunde metriek wordt gebruikt, stopgezet om de migratie van bestaande activiteiten naar het nieuwe gedrag te forceren.</li></ul>Voor meer informatie, zie &quot;Ondersteunde doelmetriek&quot;in [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Met deze functie zijn de volgende zelfstudies bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
-
-* Verbeterde publieks- en activiteitensynchronisatie zodat items zijn gemaakt in [!DNL Adobe Experience Platform] en [!DNL Adobe Audience Manager] zijn beschikbaar in [!DNL Target] UI sneller. (TGT-44568)
-* Verbeterde interface waarmee gebruikers de interface kunnen verwijderen [!UICONTROL Default URL] krachtens [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]. Met deze wijziging kunnen klanten de standaard-URL terugzetten in een lege tekenreeks, die eerder niet mogelijk was na de eerste configuratie. (TGT-44577)
-* Verwijderd beperkingen waardoor klanten niet langer in de box konden bewerken of verwijderen (publiek met gereserveerde namen). (TGT-44655)
-* De optie &quot;[!UICONTROL Done]&quot;-optie tijdens het laden van spinners zijn zichtbaar in het dialoogvenster [!DNL Target] UI bij het maken van [gecombineerd publiek](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
-* Vaste het [!UICONTROL Language] koppeling onder aan [!UICONTROL Audiences] pagina zodat het correct met &quot;[!UICONTROL Account communication preferences]&quot; pagina. (TGT-43562)
-* Probleem opgelost waarbij klanten soms werden belet om [!UICONTROL A/B Test] activiteiten na de selectie van de [!UICONTROL Adobe Analytics] optie onder [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution]. (TGT-44844)
-* Probleem verholpen waardoor klanten de laatste ervaring in een [!UICONTROL Multivariate Test] activiteit met vele ervaringen van binnen [!UICONTROL Visual Experience Composer] (VEC). De [DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) onderaan de VEC hebben klanten soms verhinderd de laatste ervaring te zien. (TGT-44578)
-* Probleem verholpen waardoor de URL Bladeren in de VEC de huidige pagina die zichtbaar is in een normale browsersessie niet weerspiegelde als de pagina autorisatie vereist of omleidingen aanroept. (TGT-44350)
-* Probleem verholpen waardoor klanten het [!UICONTROL Filter Incompatible Criteria] instellen in [!UICONTROL Recommendations] > [!UICONTROL Settings]. (TGT-44398)
-* Probleem verholpen waarbij verzoeken van POSTEN werden gemaakt om een document te maken. [!DNL Recommendations] feeds die mislukken bij gebruik [!UICONTROL Analytics Classifications] met rapportsuites met punten in hun naam. (TGT-44598)
-* Bijgewerkte koppelingen in het dialoogvenster [!DNL Target] UI om naar de nieuwe [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
-* Uitgebreide beveiliging om te voorkomen dat SSRF-pogingen (Server-Side Request Smeery) worden uitgevoerd in [!DNL Recommendations] feeds. (TGT-43769)
-* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
-
-## at.js versie 2.10.2 (7 maart 2023)
-
-* Het probleem dat de oorzaak was van de `trackEvent` om altijd een fout te retourneren.
-
-Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**OPMERKING**: Deze functie is vanaf 12 april 2023 beschikbaar als een pre-releasefunctie. Als pre-releasefunctie kunt u experimenteren met [!UICONTROL Content Fragments] gebruik van ontwikkelings- en staging-omgevingen, maar geen productieomgevingen. Deze functie is op 26 april 2023 beschikbaar voor alle klanten. |
+| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Deze functie is op 9 mei 2023 beschikbaar voor alle klanten. |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
