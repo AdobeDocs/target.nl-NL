@@ -3,7 +3,8 @@ keywords: aem;Experience Manager;adobe Experience Manager;integration;integratio
 description: Leren gebruiken [!DNL Adobe Experience Manager] ervaring en inhoudsfragmenten in [!DNL Adobe Target] activiteiten.
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments]?
 feature: Integrations
-source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
+exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
+source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
