@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: ce36e74605468466ed7bdc83f412f78941151845
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 13 april 2023**
+**Laatst bijgewerkt: 24 april 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
 
-Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
+Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
 
 | Functie | Details |
 |--- |--- |
-| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**OPMERKING**: Deze functie is vanaf 12 april 2023 beschikbaar als een pre-releasefunctie. Als pre-releasefunctie kunt u experimenteren met [!UICONTROL Content Fragments] gebruik van ontwikkelings- en staging-omgevingen, maar geen productieomgevingen. Deze functie is beschikbaar voor GA (algemene beschikbaarheid) in de [!DNL Target Standard/Premium] Release 23.4.1. |
+| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**OPMERKING**: Deze functie is vanaf 12 april 2023 beschikbaar als een pre-releasefunctie. Als pre-releasefunctie kunt u experimenteren met [!UICONTROL Content Fragments] gebruik van ontwikkelings- en staging-omgevingen, maar geen productieomgevingen. Deze functie is op 26 april 2023 beschikbaar voor alle klanten. |
 | Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
