@@ -6,7 +6,7 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 4%
@@ -57,8 +57,8 @@ Voor informatie over alle versies at.js, zie [details van de at.js-versie](https
 
 | Resource | Details |
 |--- |--- |
-
-|[Opmerkingen bij de release: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en)|Details over veranderingen in elke versie van het Web SDK van het Platform.| |[details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Bijzonderheden over de wijzigingen in elke versie van de [!DNL Adobe Target] at.js JavaScript-bibliotheek.|
+| [Opmerkingen bij de release: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Details over de wijzigingen in elke versie van het dialoogvenster [!DNL Adobe Target] at.js JavaScript-bibliotheek. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release Experience Cloud
 

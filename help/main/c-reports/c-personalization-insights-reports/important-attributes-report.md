@@ -5,9 +5,9 @@ title: Wat is het Belangrijke Rapport van Attributen?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Meer informatie over welke kenmerken [!DNL Target] gebruik in zijn verpersoonlij
 
 De [!UICONTROL Models API], ook wel de Lijst van gewezen personen-API genoemd, stelt gebruikers in staat de lijst met kenmerken (ook wel functies genoemd) die worden gebruikt in modellen voor machinaal leren, weer te geven en te beheren voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten. Als u een of meer kenmerken wilt uitsluiten van gebruik door de modellen voor AP- of AT-activiteiten, kunt u de Modellen API gebruiken om die kenmerken toe te voegen aan de &quot;lijst van gewezen personen&quot;.
 
-Zie voor meer informatie [Modellen-API-overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+Zie voor meer informatie [Modellen-API-overzicht](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Is de informatie in [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] hetzelfde als bij het downloaden van CSV?
 

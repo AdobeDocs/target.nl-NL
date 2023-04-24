@@ -4,9 +4,9 @@ description: Leer hoe u een Analytics-traceringsserver opgeeft voor activiteiten
 title: Hoe gebruik ik een Analytics Tracking Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Als u een oudere versie van at.js gebruikt, moet u een [!DNL Analytics] volgserv
 >
 >U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u at.js versie 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het creëren van activiteit, kunt u verlaten [!UICONTROL Tracking Server] veld leeg op [!UICONTROL Goals & Settings] pagina.
 >
->De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie voor meer informatie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+>De [!DNL Target] team steunt allebei at.js 1.*x* en te.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Zie voor meer informatie [details van de at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 Om ervoor te zorgen dat gegevens van [!DNL Target] gaat naar de juiste locatie in [!DNL Analytics], A4T vereist een [!DNL Analytics] het volgen server die in alle vraag naar Modstats van moet worden verzonden [!DNL Target]. Voor implementaties die meerdere trackingservers gebruiken, gebruikt u de opdracht [!DNL Adobe Experience Platform Debugger] of de ontwikkelaarsgereedschappen van uw browser om de juiste trackingserver voor uw activiteit te bepalen.
 

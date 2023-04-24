@@ -5,9 +5,9 @@ title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ In de volgende tabel worden de door de klant verschafte gegevens weergegeven die
 
 Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit.
 
-Zie voor meer informatie [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in de *Adobe Target Developer Guide*.
+Zie voor meer informatie [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in de *Adobe Target Developer Guide*.
 
 ## Apparaat- en mobiele gegevens {#device-mobile}
 

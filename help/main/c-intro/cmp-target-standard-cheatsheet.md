@@ -4,9 +4,9 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden op Mijn Optimalisering en Persoonlijke Vragen vinden?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '2750'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Kijk uit de [Doelforum van de Gemeenschap](/help/main/cmp-resources-and-contact-
 
 **Welke browsers worden door het doel ondersteund?**
 
-Lees onze [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank} matrix voor meer details. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
+Lees onze [Ondersteunde browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrix voor meer details. Er zijn twee aspecten: de ondersteuning voor de Target Standard/Premium-Experience Cloud-interface en de ondersteuning voor de eindgebruikersbrowser op desktops/apparaten.
 
 ## Activiteiten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Gebruik de besturingselementen voor procentuele toewijzing die beschikbaar zijn 
 Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Klantkenmerken](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Ervaringen {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Klantkenmerken](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -305,14 +305,8 @@ Gebruik de [Adobe System Status pagina](/help/main/r-release-notes/system-status
 
 Het spijt ons dat u problemen ondervindt. Uitchecken [Probleemoplossing](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) voor verbindingen aan vele het oplossen van problemenonderwerpen.
 
-## Doeltoepassingen voor mobiele apparaten {#section_07BA89F2C38747158ECD5B153274AEAF}
-
-**We hebben een mobiele SKU. Kan ik mobiele activiteiten creëren?**
-
-Voor optimalisatie en personalisatie op mobiele apparaten moet u [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) samen met de [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
-
 ## Doel-API&#39;s {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Waar kan ik meer leren over doel-API&#39;s?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [Leverings-API&#39;s, NodeJS SDK en Recommendations API&#39;s-documentatie](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+We hebben uitgebreide documentatie over API&#39;s. Zie [Leverings-API&#39;s, NodeJS SDK en Recommendations API&#39;s-documentatie](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

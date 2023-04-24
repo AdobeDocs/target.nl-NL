@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 |  | [Inhoudsfragmenten AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Nieuw onderwerp. Deze functie staat in de status pre-releasestatus voor testdoeleinden. |
 | 5 april | [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Toegevoegde tekst die aangeeft dat [!UICONTROL Analytics as the reporting source] (A4t) wordt niet ondersteund in activiteiten die besluiten over aanbiedingen gebruiken. |
 | 3 april | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de [!UICONTROL Adobe Target Community] Koffiepauze gepland voor woensdag 12 april 2023. |
-|  | [Lijst van gewenste personen randknooppunten doel](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Opmerking toegevoegd aan lijst van gewenste personen alle [!DNL Adobe Analytics] IP-adresblokken. |
+|  | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Opmerking toegevoegd aan lijst van gewenste personen alle [!DNL Adobe Analytics] IP-adresblokken. |
 | 30 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Bijgewerkte versienota&#39;s voor de versie van de Geoptimaliseerde Metriek A4T voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] functie waarmee u metriek kunt kiezen op basis van binomiale gebeurtenissen of metriek op basis van continue gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. |
 |  | [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | De sectie &quot;Ondersteunde doelmeetgegevens&quot; is bijgewerkt en bevat informatie over de ondersteunde (en niet-ondersteunde) meetgegevens voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten die [!UICONTROL Analytics for Target] (A4T) |
 |  | [Adobe Target-tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | De volgende zelfstudies zijn bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |

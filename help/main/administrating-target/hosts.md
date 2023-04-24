@@ -5,9 +5,9 @@ title: Wat zijn gastheren en hoe gebruik ik ze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Indien een [!DNL Target] het verzoek wordt gemaakt op een onbevoegde gastheer, b
 
 >[!IMPORTANT]
 >
->**Aanbevolen werkwijzen voor beveiliging**: Als u de functionaliteit van het selectievakje [!DNL Target], controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [directeuren](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd is, [!DNL Adobe] kan de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke omleiding door kwaadwillende gebruikers.
+>**Aanbevolen werkwijzen voor beveiliging**: Als u de functionaliteit van het selectievakje [!DNL Target], controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [directeuren](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet gespecificeerd is, [!DNL Adobe] kan de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke omleiding door kwaadwillende gebruikers.
 >
 >De lijst van gewenste personen heeft voorrang op omgevingen. Wis uit alle gastheren alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 

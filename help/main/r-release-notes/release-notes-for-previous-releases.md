@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '35389'
+source-wordcount: '35401'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Deze versie bevat de volgende oplossingen:
 
 >[!NOTE]
 >
->Zorg ervoor dat u een [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) met een versie groter dan 2.8.
+>Zorg ervoor dat u een [!DNL Target] SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) met een versie groter dan 2.8.
 
 **Bekend probleem**: Klikken en volgen op een schaduwbasiselement bij gebruik [!DNL Adobe Experience Platform Web SDK] werkt niet correct. (TNT-47012)
 
@@ -50,7 +50,7 @@ Deze versie bevat de volgende oplossingen:
 
 * Het probleem dat de oorzaak was van de `trackEvent` om altijd een fout te retourneren.
 
-Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
 
@@ -70,7 +70,7 @@ Deze versie bevat de volgende oplossingen:
 * Probleem verholpen waarbij activiteiten waarbij publieksregels betrokken waren die parameters met punten in hun namen bevatten, niet de verwachte ervaring retourneren, voor het bepalen van het apparaat.
 * Oplossing voor een bug die in at.js 2.6.0 werd geïntroduceerd waarin at.js een leveringsvraag, zelfs afvuurde wanneer `mboxDisable` is ingeschakeld.
 
-Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.13.3 (25-26 januari 2023)
 
@@ -93,7 +93,7 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 * De mogelijkheid om de [!UICONTROL Same as Optimization Goal] instellen op de [!UICONTROL Goals & Settings] pagina nadat de activiteit live is. (TGT-43923)
 * Probleem verholpen dat problemen veroorzaakte met de standaardwerkplek in de [!DNL Target] back-end bij upgrade vanaf [!DNL Target Standard] tot [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)
 * Een wijziging aanbrengen om toe te staan [!DNL Analytics] rapporteert versies met een puntteken &quot;.&quot; in de namen die in de [!DNL Target] UI voor het maken van [!DNL Analytics] classificatieffeeds.
-* De koppeling op het tabblad [!UICONTROL Implementation] pagina ([!UICONTROL Administration] > [!UICONTROL Implementation]) voor &quot;Implementatiemethodes met Apparaatbesluit&quot; om te verwijzen naar de pagina met uitleg over het gebruik van apparaatbeslissingen voor alle ondersteunde SDK&#39;s: Node.js, Java, .NET, en Python. Zie voor meer informatie [Aan de slag met doel-SDK&#39;s](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* De koppeling op het tabblad [!UICONTROL Implementation] pagina ([!UICONTROL Administration] > [!UICONTROL Implementation]) voor &quot;Implementatiemethodes met Apparaatbesluit&quot; om te verwijzen naar de pagina met uitleg over het gebruik van apparaatbeslissingen voor alle ondersteunde SDK&#39;s: Node.js, Java, .NET, en Python. Zie voor meer informatie [Aan de slag met doel-SDK&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 * Probleem verholpen die bij het gebruik van bestanden problemen bij het uploaden veroorzaakte. [!DNL Scene7] en [!DNL Target].
 * De toegankelijkheid van de [!DNL Target] UI voor personen met een handicap door resultaten van een interne bruikbaarheidscontrole te gebruiken. Deze toegankelijkheidsverbeteringen omvatten toegang tot functies die voorheen niet via het toetsenbord toegankelijk waren, alt-tekstverbeteringen, de mogelijkheid om te zoomen op onderdelen van de gebruikersinterface om bruikbaarder te zijn, verbeterde toetsenbordfocus en meer.   (TGT-42759)
 * Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.

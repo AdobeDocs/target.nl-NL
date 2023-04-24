@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3158'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
 
    In een toekomstige release werkt Target op pagina&#39;s waar geen `at_property` token aanwezig is of pagina&#39;s waarop een ander token aanwezig is `at_property` token is aanwezig.
 
-* De functionaliteit voor gebruikersmachtigingen voor ondernemingen wordt niet ondersteund in [Adobe I/O API-aanroepen](https://developer.adobe.com/target/){target=_blank}.
+* De functionaliteit voor gebruikersmachtigingen voor ondernemingen wordt niet ondersteund in Adobe I/O API-aanroepen.
 
 ## Veelgestelde vragen {#faqs}
 

@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik kwesties met betrekking tot Visual Experience Composer problemen op?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Open Target nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu worde
 
 ## De VEC wordt verbroken weergegeven wanneer ik de modus Bladeren gebruik. (alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Als u in de modus Bladeren een URL opent die niet [!DNL Target] geïmplementeerde bibliotheken ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) of bevat een koptekst voor de framebuffer, wordt de VEC verbroken weergegeven. Vanwege beveiligingsproblemen in de browser [!DNL Target] heeft geen juiste toegang tot de URL waarnaar u bent genavigeerd of de VEC-URL wordt niet consistent bijgewerkt wanneer de pagina wordt geladen.
+Als u in de modus Bladeren een URL opent die niet [!DNL Target] geïmplementeerde bibliotheken ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) of bevat een koptekst voor de framebuffer, wordt de VEC verbroken weergegeven. Vanwege beveiligingsproblemen in de browser [!DNL Target] heeft geen juiste toegang tot de URL waarnaar u bent genavigeerd of de VEC-URL wordt niet consistent bijgewerkt wanneer de pagina wordt geladen.
 
 Dit probleem doet zich voor omdat VEC de webpagina in een `<iframe>`. De huidige beveiligingsmechanismen van browsers verhinderen de [!DNL Target] UI heeft geen toegang tot de elementen van het bepaalde kader wegens het zelfde-oorsprongbeleid. Browsers blokkeren scripts die toegang proberen te krijgen tot een frame met een andere oorsprong en die informatie bevatten zoals de `location.href`.
 

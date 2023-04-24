@@ -4,9 +4,9 @@ description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,10 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 * JSON-voorstellen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test], Automated Personalization (AP) en [!UICONTROL Experience Targeting] (XT) activiteiten.
 * JSON-aanbiedingen kunnen worden gebruikt in [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md) alleen.
-* U kunt de JSON-aanbieding rechtstreeks ophalen wanneer u de [Server Side API&#39;s en Mobile Node.js, Java, .NET en Python SDK&#39;s](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
-* In de browser kunnen JSON-aanbiedingen ALLEEN worden opgehaald via at.js 1.2.3 (of hoger) en via [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} door acties te filteren met de `setJson` handeling.
+* U kunt de JSON-aanbieding rechtstreeks ophalen wanneer u de [Server Side API&#39;s en Mobile Node.js, Java, .NET en Python SDK&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+* In de browser kunnen JSON-aanbiedingen ALLEEN worden opgehaald via at.js 1.2.3 (of hoger) en via [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} door acties te filteren met de `setJson` handeling.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
-* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen), omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. Ontwikkelaars moeten code schrijven om de aanbieding expliciet op te halen met [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
+* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen), omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. Ontwikkelaars moeten code schrijven om de aanbieding expliciet op te halen met [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## Een JSON-aanbieding maken {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
