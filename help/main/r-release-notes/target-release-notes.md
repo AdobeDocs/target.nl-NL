@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ce36e74605468466ed7bdc83f412f78941151845
+source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
 | Functie | Details |
 |--- |--- |
 | AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**OPMERKING**: Deze functie is vanaf 12 april 2023 beschikbaar als een pre-releasefunctie. Als pre-releasefunctie kunt u experimenteren met [!UICONTROL Content Fragments] gebruik van ontwikkelings- en staging-omgevingen, maar geen productieomgevingen. Deze functie is op 26 april 2023 beschikbaar voor alle klanten. |
-| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Deze functie is op 9 mei 2023 beschikbaar voor alle klanten. |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
