@@ -4,7 +4,7 @@ description: Leer hoe u een publiek definieert om twee profielkenmerken te verge
 title: Kan ik twee profielkenmerken vergelijken voor gebruik bij het publiek?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -21,16 +21,16 @@ Een publiek definiëren in [!DNL Adobe Target] twee profielkenmerken voor uw [Au
 
 ## Overzicht {#section_303CBC78194D49A2A004945D425441E1}
 
-Het publiek wordt gedefinieerd door regels die bepalen wie van een [!DNL Target] activiteit. Een publieksdefinitie kan veelvoudige regels omvatten, en elke regel kan veelvoudige parameters omvatten. Als één van de regels u omvat gebruikt [!UICONTROL Visitor Profile] categorie, kunt u een regel definiëren die is gebaseerd op de specifieke waarde van een kenmerk van een bezoekersprofiel of de waarde van dat kenmerk vergelijken met een ander kenmerk van het bezoekersprofiel.
+Het publiek wordt gedefinieerd door regels die bepalen wie van een [!DNL Target] activiteit. Een publieksdefinitie kan veelvoudige regels omvatten, en elke regel kan veelvoudige parameters omvatten. Als één van de regels u omvat gebruikt [!UICONTROL Visitor Profile] categorie, kunt u een regel definiëren op basis van de specifieke waarde van een kenmerk van een bezoekersprofiel of de waarde van dat kenmerk vergelijken met een ander kenmerk van het bezoekersprofiel.
 
-Stel bijvoorbeeld dat u voor een meubelbedrijf werkt en twee scores voor klantvriendelijkheid in [!DNL Target]:
+Bijvoorbeeld, veronderstellen wij u voor een meubelbedrijf werkt en twee klantennutsscores uploadde in [!DNL Target]:
 
 * Mogelijkheid om in de komende 90 dagen dinerruimmeubilair te kopen
 * Mogelijkheid om in de komende 90 dagen huiskamermeubilair te kopen
 
 Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. [!DNL Target] Vervolgens worden de scores voor de eetruimte en de neiging tot woonkamer dynamisch met elkaar vergeleken om te bepalen of de bezoeker voor dit publiek in aanmerking komt.
 
-Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Een vergelijkingspubliek voor profielkenmerken maken {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

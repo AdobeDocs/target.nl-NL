@@ -5,7 +5,7 @@ title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3831'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina
 
 ## Op basis van winkelwagentje {#cart-based}
 
-De [!UICONTROL Cart-Based] het type van algoritme laat punten adviseren die op de inhoud van de huidige kar van de bezoeker worden gebaseerd. De aanbevelingen sleutels worden geleverd door [mbox, parameter `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
+De [!UICONTROL Cart-Based] het type van algoritme laat punten adviseren die op de inhoud van de huidige kar van de bezoeker worden gebaseerd. De aanbevelingen sleutels worden geleverd door [mbox, parameter `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
 De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met &quot;[!UICONTROL Recommended For You]&quot; op gebruiker gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; op items gebaseerde algoritmen.
 

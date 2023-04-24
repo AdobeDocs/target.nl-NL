@@ -5,9 +5,9 @@ title: Hoe integreer ik Recommendations met e-mail?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Wanneer `clientcode` is uw [!DNL Target] clientcode.
 >
 >Zorg ervoor dat u een unieke waarde opgeeft voor beide `sessionId` en een van `tntId` of `thirdPartyId` voor elke e-mailontvanger (bijvoorbeeld voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege de vele gebeurtenissen die binnen één profiel zijn gegenereerd.
 
-Zie [Leverings-API-documentatie](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} voor meer informatie .
+Zie [Leverings-API-documentatie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html){target=_blank} voor meer informatie .
 
 ## Methode 2: Een e-mailsjabloon voor een rawbox gebruiken {#rawbox}
 

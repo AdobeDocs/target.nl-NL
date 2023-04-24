@@ -4,7 +4,7 @@ description: Lees tips uit ons panel van experts over het gebruik van Adobe [!DN
 title: Waar kan ik tips en trucs voor het gebruiken van Doel vinden?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Zie [Aangepaste kenmerken](https://experienceleague.adobe.com/docs/target/using/
 
 **Goed te weten**: Omdat [!DNL Target] is een open en agnostisch platform dat goed werkt met verschillende technologieën, kunt u CRM of gekochte gegevens op verschillende manieren toevoegen. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
 
-Zie [Methoden om gegevens op te halen in Doel](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} voor meer informatie.
+Zie [Methoden om gegevens op te halen in Doel](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} voor meer informatie .
 
 ## Tip 2: Personaliseer dieper door overvloeien [!DNL Target] publiek met ander publiek in Adobe Experience Cloud.
 

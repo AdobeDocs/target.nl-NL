@@ -5,9 +5,9 @@ title: Wat zijn Recommendations-activiteiten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Vervolgens moet u tags toevoegen of gebruikmaken van uw bestaande tags [!DNL Ana
 
 U moet ervoor zorgen dat [!DNL Target] Houd rekening met de objecten die uw gebruikers bekijken en kopen. Als de aankoop niet relevant voor uw context is, zou u een verschillend type van omzettingsgebeurtenis kunnen willen volgen, bijvoorbeeld, het downloaden van een PDF, het voltooien van een onderzoek, het intekenen op een nieuwsbrief, het letten van een video, etc.
 
-Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Het is ook mogelijk om offline of in-app interacties te verzenden naar [!DNL Target] via real-time API.
+Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Het is ook mogelijk om offline of in-app interacties te verzenden naar [!DNL Target] via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 

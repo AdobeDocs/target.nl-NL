@@ -4,16 +4,16 @@ description: Kijk eens naar Adobe Target. Meer informatie over beschikbare activ
 title: Waar kan ik een Inleiding op hoog niveau aan doel vinden?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2489'
 ht-degree: 0%
 
 ---
 
 # Hoofdstuk 2: Adobe [!DNL Target] in één oogopslag
 
-Voordat u aan de slag gaat met [!DNL Adobe Target]Het zou nuttig kunnen zijn om een overzicht op hoog niveau van de oplossing te krijgen. In dit hoofdstuk leert u de belangrijkste mogelijkheden van de oplossing, merkaanraakpunten waarop u de oplossing kunt gebruiken, implementatieopties, belangrijke gebruikersinterfacefuncties en workflows, beheerfuncties en de rol ervan in het algemeen [!DNL Adobe Experience Cloud]. Tenzij anders vermeld [!DNL Adobe Target Premium] functies, de in dit hoofdstuk beschreven items beschikbaar zijn met beide [!DNL Adobe Target Premium] en [!DNL Adobe Target Standard]. Zie voor meer informatie [Inleiding tot doel](/help/main/c-intro/intro.md).
+Voordat u aan de slag gaat met [!DNL Adobe Target]Het zou nuttig kunnen zijn om een overzicht op hoog niveau van de oplossing te krijgen. In dit hoofdstuk leert u de belangrijkste mogelijkheden van de oplossing, de merkaanraakpunten waarop u de oplossing kunt gebruiken, implementatieopties, belangrijke gebruikersinterfacefuncties en workflows, governancefuncties en de rol ervan in het algemeen [!DNL Adobe Experience Cloud]. Tenzij anders vermeld [!DNL Adobe Target Premium] functies, de in dit hoofdstuk beschreven items beschikbaar zijn met beide [!DNL Adobe Target Premium] en [!DNL Adobe Target Standard]. Zie voor meer informatie [Inleiding tot doel](/help/main/c-intro/intro.md).
 
 ## Capaciteiten en activiteiten
 
@@ -37,28 +37,28 @@ Voor een diepgaander inzicht in wanneer en hoe te om elk vermogen te gebruiken, 
 
 ## Kanalen
 
-U kunt [!DNL Target] om overal digitale ervaringen te testen en aan te passen, net als traditionele digitale aanraakpunten zoals uw website, mobiele site en mobiele app, maar ook op aanraakpunten zoals kiosken, e-mail, IoT-apparaten, gameconsoles en zelfs stemassistenten zoals Alexa en Cortana. Veel bedrijven gebruiken [!DNL Target] op hun website. Uit recent onderzoek blijkt echter dat meer mensen merken van hun mobiele apparaten bezoeken. Het optimaliseren van uw mobiele kanalen is nu essentieel. In het ideale geval koppelt u de ervaringen van de bezoeker op al uw aanraakpunten om een naadloze, consistente ervaring te bieden.
+U kunt [!DNL Target] om overal digitale ervaringen te testen en aan te passen, net als traditionele digitale aanraakpunten zoals uw website, mobiele site en mobiele app, maar ook op aanraakpunten zoals kiosken, e-mail, IoT-apparaten, gameconsoles en zelfs stemassistenten zoals Alexa en Cortana. Veel bedrijven gebruiken [!DNL Target] op hun website. Uit recent onderzoek blijkt echter dat meer mensen merken van hun mobiele apparaten bezoeken. Het optimaliseren van uw mobiele kanalen is nu essentieel. Idealiter verbindt u de ervaringen van de bezoeker met al uw aanraakpunten om een naadloze, consistente ervaring te bieden.
 
 | Kanaal | Details |
 | --- | --- |
 | Website | [!DNL Target] U kunt A/B Testing, Multivariate Testing, Experience Targeting, Auto-Allocate, Auto-Target, Automated Personalization en Recommendations activiteiten uitvoeren op pagina&#39;s van uw multi-page, single-page application (SPA), en mobiele websites om bezoekers en klantenbetrokkenheid te verbeteren, omzettingen te verhogen, en opbrengst te verhogen. |
 | Mobiel web | [!DNL Target] kan worden gebruikt om alle typen activiteiten uit te voeren die u op uw website op uw mobiele websitepagina&#39;s uitvoert, om de betrokkenheid van bezoekers en klanten op dezelfde manier te verbeteren, conversies te verhogen en de omzet te verhogen. |
 | Mobiele app | [!DNL Target] kan worden gebruikt om ervaringen met mobiele apps te testen en aan te passen op basis van gebruikersgedrag en mobiele context. [!DNL Target] Hiermee kunt u interacties uitvoeren die u kunt gebruiken en converteren via iteratieve tests en Experience Targeting en AI-personalisatie. Te gebruiken [!DNL Target] op uw mobiele app moet u de SDK van Adobe Mobile Services gebruiken. |
-| IoT/Overal | [!DNL Target] biedt een server-side implementatie zodat u dezelfde test- en personalisatiemogelijkheden kunt gebruiken in activiteiten die u gebruikt op uw traditionele website, mobiele site en mobiele apps in e-mails en op aanraakpunten die geen browser hebben of geen JavaScript-code gebruiken. U kunt bijvoorbeeld kiosken, set-top boxes, gameconsoles, spraakassistenten en andere niet-traditionele aanraakpunten testen en personaliseren. |
+| IoT/Overal | [!DNL Target] biedt een serverimplementatie zodat u dezelfde test- en personalisatiemogelijkheden kunt gebruiken voor activiteiten die u gebruikt op uw traditionele website, mobiele site en mobiele apps in e-mails en op aanraakpunten die geen browser hebben of geen JavaScript-code gebruiken. U kunt bijvoorbeeld kiosken, set-top boxes, gameconsoles, spraakassistenten en andere niet-traditionele aanraakpunten testen en personaliseren. |
 
 ## Implementaties
 
-Velen van u zouden kunnen willen gebruiken [!DNL Target] om op uw vele verschillende digitale aanraakpunten te testen en aan te passen, zoals traditionele web- en mobiele aanraakpunten, maar ook aanraakpunten die geen browser hebben of geen JavaScript-code gebruiken. In sommige gevallen vereist het interne of externe beleid dat u extra controle- en beveiligingsniveaus hebt. U zou ook processen kunnen hebben die op een backendserver om prestatiesredenen moeten lopen. Om aan deze grote verscheidenheid van toepassingen te voldoen, geven wij u de capaciteit om uit te voeren [!DNL Target] op verschillende manieren: client-side, server-side of een combinatie van beide.
+Velen van u zouden kunnen willen gebruiken [!DNL Target] om uw vele verschillende digitale aanraakpunten te testen en aan te passen, inclusief traditionele web- en mobiele aanraakpunten, maar ook aanraakpunten die geen browser hebben of geen JavaScript-code gebruiken. In sommige gevallen vereist het interne of externe beleid dat u extra controle- en beveiligingsniveaus hebt. U zou ook processen kunnen hebben die op een backendserver om prestatiesredenen moeten lopen. Om aan deze grote verscheidenheid van toepassingen te voldoen, geven wij u de capaciteit om uit te voeren [!DNL Target] op verschillende manieren: client-side, server-side of een combinatie van beide.
 
 | Type implementatie | Details |
 | --- | --- |
-| Client-kant | Met deze [!DNL Target], [!DNL Target] levert de ervaringen verbonden aan een activiteit rechtstreeks aan cliëntbrowser. De browser bepaalt welke ervaring wordt weergegeven en geeft deze weer. Met cliënt-kant, kunt u een redacteur gebruiken WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) of een niet-visuele interface **[!UICONTROL Form-based Experience Composer]**, om uw test- en personaliservaringen te maken. [Meer informatie](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
-| Server-kant | In dit type [!DNL Target] een clientapparaat een aanvraag doet voor een ervaring via uw server, verzendt de server die aanvraag naar [!DNL Target], [!DNL Target] verzendt de reactie terug naar uw server, en uw server neemt het besluit over welke ervaring om aan het cliëntapparaat voor het terug te geven te leveren. De ervaring hoeft niet in een browser te worden weergegeven. het kan in een e-mail of kiosk, via een stemmedewerker, of door één of andere andere niet-visuele ervaring of niet op browser-gebaseerd apparaat tonen. Omdat uw server tussen de client en [!DNL Target]Dit type implementatie is ook ideaal als u meer controle en beveiliging nodig hebt of complexe back-endprocessen hebt die u op uw server wilt uitvoeren. [Meer informatie](https://developer.adobe.com/target/implement/server-side/){target=_blank}. |
+| Client-kant | Met deze [!DNL Target], [!DNL Target] levert de ervaringen verbonden aan een activiteit rechtstreeks aan cliëntbrowser. De browser bepaalt welke ervaring wordt weergegeven en geeft deze weer. Met cliënt-kant, kunt u een redacteur gebruiken WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) of een niet-visuele interface **[!UICONTROL Form-based Experience Composer]**, om uw test- en personaliservaringen te maken. [Meer informatie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| Server-kant | In dit type [!DNL Target] een clientapparaat een aanvraag doet voor een ervaring via uw server, verzendt de server die aanvraag naar [!DNL Target], [!DNL Target] verzendt de reactie terug naar uw server, en uw server neemt het besluit over welke ervaring om aan het cliëntapparaat voor het terug te geven te leveren. De ervaring hoeft niet in een browser te worden weergegeven. het kan in een e-mail of kiosk, via een stemmedewerker, of door één of andere andere niet-visuele ervaring of niet op browser-gebaseerd apparaat tonen. Omdat uw server tussen de client en [!DNL Target]Dit type implementatie is ook ideaal als u meer controle en beveiliging nodig hebt of complexe back-endprocessen hebt die u op uw server wilt uitvoeren. [Meer informatie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
 | Hybride implementatie | In deze implementatie kiest u de implementatieaanpak die het beste werkt voor een bepaald gebruiksgeval. Bijvoorbeeld, zou u een cliënt-zijimplementatie aan A/B test een aanbieding in een heldenbanner op de homepage kunnen gebruiken, maar ook een server-zijimplementatie gebruiken om de interne onderzoeksresultaten te bepalen om op cliëntbrowser, ervaring aan vertoning op een slim autodashboard, of stemreactie te tonen om van een stemmedewerker te leveren. |
 
 ## Activiteitenelementen
 
-In [!DNL Target], kunt u een verpersoonlijkingsactiviteit, een optimaliseringsactiviteit, of een activiteit tot stand brengen die uw verpersoonlijkingsbenadering optimaliseert. Elke activiteit heeft belangrijke elementen: de ervaringen of aanbiedingen die u test of personaliseert, het publiek of de personen aan wie u een ervaring levert, de meetgegevens waarmee u de impact van de activiteit meet en de rapporten die deze invloed visueel weergeven.
+In [!DNL Target], kunt u een verpersoonlijkingsactiviteit, een optimaliseringsactiviteit, of een activiteit tot stand brengen die uw verpersoonlijkingsbenadering optimaliseert. Elke activiteit heeft zeer belangrijk element-de ervaringen of de aanbiedingen u test of personaliseert, het publiek of de individuen aan wie u een ervaring levert, de metriek waardoor u het effect van de activiteit meet, en de rapporten die visueel dat effect tonen.
 
 | Type element | Details |
 | --- | --- |
@@ -70,12 +70,12 @@ In [!DNL Target], kunt u een verpersoonlijkingsactiviteit, een optimaliseringsac
 
 ## Activiteiten maken
 
-[!DNL Target] biedt u drie manieren om uw test- en personalisatieactiviteiten in te stellen: [!UICONTROL Visual Experience Composer] (VEC), de [!UICONTROL Form-based Experience Composer]en de [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Beide leiden u door het proces van de activiteitenopstelling in drie stappen-het bepalen van de ervaringen, het selecteren of het bepalen van het publiek, en het selecteren van de primaire en secundaire succesmetriek waardoor u de resultaten van uw activiteit zult meten.
+[!DNL Target] biedt u drie manieren om uw test- en personalisatieactiviteiten in te stellen: [!UICONTROL Visual Experience Composer] (VEC), de [!UICONTROL Form-based Experience Composer]en de [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Beide leiden u door het proces van de activiteitenopstelling in drie stappen-bepalend de ervaringen, die of het publiek selecteren bepalen, en die de primaire en secundaire succesmetriek selecteren waardoor u de resultaten van uw activiteit zult meten.
 
 | Gereedschap | Details |
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] (VEC) | Een WYSIWYG-gebruikersinterface waarmee u in de context van de site eenvoudig persoonlijke ervaringen en aanbiedingen kunt maken en testen. U kunt ervaringen en aanbiedingen maken voor [!DNL Target] activiteiten door te slepen en neer te zetten, te wisselen en de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina te wijzigen. [Meer informatie](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). |
-| [!UICONTROL Form-based Experience Composer] | Een niet-visuele ervaring en een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in A/B-tests, Experience Targeting, Automated Personalization en Recommendations-activiteiten wanneer de Visual Experience Composer niet beschikbaar of praktisch is voor gebruik. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten. [Meer informatie](/help/main/c-experiences/form-experience-composer.md). |
+| [!UICONTROL Form-based Experience Composer] | Een niet-visuele ervaring en een aanmaakinterface die nuttig is voor het creëren van ervaringen voor gebruik in A/B tests, Ervaring gericht, Automated Personalization, en de activiteiten van Recommendations wanneer Composer van de Visuele Ervaring niet beschikbaar of praktisch voor gebruik is. U kunt bijvoorbeeld de op formulieren gebaseerde composer gebruiken om ervaringen en aanbiedingen te maken voor levering in e-mails, kiosken en spraakassistenten. [Meer informatie](/help/main/c-experiences/form-experience-composer.md). |
 | [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | VEC voor SPA laat marketers toe om tests tot stand te brengen en inhoud op SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. VEC kan worden gebruikt om A/B Test en Ervaring gerichte (XT) activiteiten op populaire kaders, zoals React en Angular tot stand te brengen. [Meer informatie](/help/main/c-experiences/spa-visual-experience-composer.md). |
 
 ## Bestuur en controle
@@ -110,8 +110,8 @@ Overweeg de volgende ideeën voordat we verdergaan met het volgende hoofdstuk: &
 
 ### Adviezen kunnen een negatief effect hebben op uw resultaten
 
-* Adviezen die een negatief effect kunnen hebben op uw effectiviteit. Hoogste oordeel van de persoon (HIPPO), houding, vooroordelen. De CEO wil bijvoorbeeld het zoekvak kleiner maken om meer ruimte op elke pagina te maken. We moeten testen om er zeker van te zijn dat het aantal zoekopdrachten hierdoor niet afneemt.
-* Handelt u op advies? Ik vind de manier waarop de test eruit ziet niet leuk. De klant zal deze ervaring helemaal niet aanspreken. Hoewel intuïtie handig is, is bij A/B-tests keer op keer gebleken dat het niet altijd vlek is.
+* Adviezen die een negatief effect kunnen hebben op uw effectiviteit. Hoogste mening van de persoon met betaling (HIPPO), attitudes, vooroordelen. De CEO wil bijvoorbeeld het zoekvak kleiner maken om meer ruimte op elke pagina te maken. We moeten testen om er zeker van te zijn dat het aantal zoekopdrachten hierdoor niet afneemt.
+* Handelt u op advies? Ik hou niet van de manier waarop die test eruit ziet. De klant zal deze ervaring helemaal niet leuk vinden. Hoewel intuïtie nuttig is, is het testen van A/B keer op keer bewezen dat het niet altijd vlek is.
 * Of hebt u een optimalisatiegedachte? Ik ben blij te zien welke ervaring wint. Hebben we genoeg opties om te testen?
 
 ### Aannames kunnen ook negatieve gevolgen hebben voor resultaten

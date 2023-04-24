@@ -4,9 +4,9 @@ description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe T
 title: Hoe los ik Doel problemen op?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 
 ## Globale mbox
 
-* [Globale mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Globale mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Gastheren/omgevingen
 
@@ -108,23 +108,23 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ### Algemene uitvoering
 
-* [Ondersteunde browsers](https://developer.adobe.com/target/before-implement/supported-browsers/)
-* [Op cloud gebaseerde instanties gebruiken met Doel](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
+* [Ondersteunde browsers](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Op cloud gebaseerde instanties gebruiken met Doel](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Algemene vakken
 
-* [Veelgestelde vragen over Global mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Veelgestelde vragen over Global mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js Veelgestelde vragen](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
-* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
-* [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
+* [at.js Veelgestelde vragen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team.
 
 ## Mobiele apps
 
-* [Veelgestelde vragen over het doel voor mobiele apps](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
+* [Veelgestelde vragen over het doel voor mobiele apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Rapportage
 
@@ -133,11 +133,11 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ## SEO (Search Engine Optimization)
 
-* [SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s)](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Beveiliging
 
-* [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
+* [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## Systeemstatus
 

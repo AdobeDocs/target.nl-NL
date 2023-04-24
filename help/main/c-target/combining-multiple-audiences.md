@@ -4,9 +4,9 @@ description: Leer hoe u meerdere soorten publiek kunt combineren (inclusief Adob
 title: Kan ik Meerdere soorten publiek combineren om een nieuw publiek te maken?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Meerdere soorten publiek combineren (inclusief [!DNL Adobe Experience Cloud], [!
 
 >[!NOTE]
 >
->De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals het is of gecombineerd met bestaande doelgroepen, zoals in dit onderwerp wordt uitgelegd.
+>De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals het is of gecombineerd met bestaande doelgroepen, zoals in dit onderwerp wordt uitgelegd.
 >
 >Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -75,7 +75,7 @@ U kunt een ad hoc gecombineerd publiek op de activiteit tot stand brengen [!UICO
 
    1. Als u een publiek wilt uitsluiten van een regel, klikt u op **[!UICONTROL Exclusion]** > **[!UICONTROL Exclude this Audience.]**.
 
-      U kunt bijvoorbeeld een gecombineerd publiek maken dat alle nieuwe bezoekers van uw site omvat, met uitzondering van bezoekers die Firefox gebruiken. Het uitsluiten van bezoekers die Firefox gebruiken is eenvoudiger en sneller dan het maken van een gecombineerd publiek dat expliciet meerdere browsers bevat (Safari, Chrome en Internet Explorer), maar Firefox is niet inbegrepen.
+      U kunt bijvoorbeeld een gecombineerd publiek maken dat alle nieuwe bezoekers van uw site omvat, met uitzondering van bezoekers die Firefox gebruiken. Het uitsluiten van bezoekers die Firefox gebruiken is eenvoudiger en sneller dan het maken van een gecombineerd publiek dat expliciet meerdere browsers (Safari, Chrome en Internet Explorer) bevat, maar Firefox is niet inbegrepen.
 
 1. Geef een beschrijvende naam op voor het gecombineerde publiek en klik vervolgens op **[!UICONTROL Done]**.
 

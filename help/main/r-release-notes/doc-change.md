@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 21 februari | [Lijst van gewenste personen randknooppunten doel](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Bijgewerkte lijst van IP adressen aan lijst van gewenste personen voor alle gebieden in [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}. |
+| 21 februari | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Bijgewerkte lijst van IP adressen aan lijst van gewenste personen voor alle gebieden in [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}. |
 |  | [Wijzigingen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Toegevoegde tekst waarin wordt uitgelegd dat in het voorbeeld met JQuery wordt aangenomen dat op de website van de klant jQuery beschikbaar is op de pagina wanneer [!DNL Target] voert de voorstellen uit. |
 | 10 februari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.14.5. |
 | 8 februari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor 0.js 2.10.1. |
@@ -70,7 +70,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | 20 december | [Rapportgroepen aanbieden in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Aanvullende informatie toegevoegd over rapportagegroepen onder &quot;Voorzorgsmaatregelen&quot;. |
 | 14 december | [Rapportinstellingen](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Opmerking toegevoegd onder de sectie &quot;Omgeving&quot; over het gebruik [!DNL Adobe Experience Platform] (AEP) voor het verzenden van metrische gegevens naar [!DNL Target]. |
 | 29 november | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Verduidelijkte tekst door de volgende alinea toe te voegen:<ul><li>De geo-informatie van een bezoeker wordt bepaald aan de hand van het IP-adres van oorsprong van een [!DNL Target] locatieverzoek (mbox-verzoek). De IP-aan-geo resolutie wordt gedaan voor de eerste vraag van een nieuwe zitting. Dit betekent, als het IP adres van een bezoeker middenzitting van een bezoek verandert, is de geo informatie nog gebaseerd op het IP adres van de eerste vraag.</li></ul> |
-| 28 november | [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in de *Adobe Target Developer Guide*. | New Models API.<br>Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit. |
+| 28 november | [Modellen-API (Voegend op lijst van gewenste personen) - overzicht](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} in de *Adobe Target Developer Guide*. | New Models API.<br>Functies kunnen worden geblokkeerd [!DNL Target] computerleeralgoritmen, die voorkomen dat ze worden gebruikt in om het even welk [!UICONTROL Auto-Target] of [!UICONTROL Automated Personalization] model of activiteit. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de Models API versie (23 november 2022). |
 | 23 november | [Voordat u Analytics for Target (A4T) implementeert met at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | De koppeling naar de [Integraal leveringsformulier voor Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 november | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens voor de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffie op vragen en antwoorden van de Gemeenschap (29 november)</li></ul> |
@@ -110,10 +110,10 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 30 juni | [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} | De *Adobe Target Developer Guide* alle [!DNL Target] ontwikkelaarsinhoud in één handige portal. Het portaal bevat informatie over de implementatie [!DNL Target] en [!DNL Recommendations], [!DNL Target] SDK&#39;s, en [!DNL Target] API&#39;s. |
+| 30 juni | [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | De *Adobe Target Developer Guide* alle [!DNL Target] ontwikkelaarsinhoud in één handige portal. Het portaal bevat informatie over de implementatie [!DNL Target] en [!DNL Recommendations], [!DNL Target] SDK&#39;s, en [!DNL Target] API&#39;s. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.6.2. |
 |  | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md) | Opnamekoppelingen toegevoegd voor vorige webinarsessies. |
-| 14 juni | [Recommendations plannen en implementeren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Bijgewerkte codevoorbeelden in de volgende secties:<ul><li>Winkelwagentweergaven/winkelwagentjes/afhandelingspagina&#39;s</li><li>Objecten uitsluiten die al in de winkelwagentje van de bezoeker staan</li></ul> |
+| 14 juni | [Recommendations plannen en implementeren](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} | Bijgewerkte codevoorbeelden in de volgende secties:<ul><li>Winkelwagentweergaven/winkelwagentjes/afhandelingspagina&#39;s</li><li>Objecten uitsluiten die al in de winkelwagentje van de bezoeker staan</li></ul> |
 | 7 juni | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 22.6.1. |
 
 ## Adobe Target Standard/Premium 22.5.1 (gefaseerde release; mei (11-13 mei 2022)
@@ -123,12 +123,12 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | 7 juni | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande informatie voor de [!DNL Target Standard/Premium] Release 22.6.1. |
 | 31 mei | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Extra informatie over de komende [!DNL Adobe Target] Communautaire koffiepauze (29 juni 2022) |
 | 25 mei | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target] platformversie (25 mei 2022) en de release van 2.9.0.00 uur (27 mei 2022). |
-|  | [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Informatie toegevoegd over de release at.js 2.9.0. |
-|  | [Gebruiker-agent en de wenken van de Cliënt](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | Nieuw onderwerp. |
+|  | [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie toegevoegd over de release at.js 2.9.0. |
+|  | [Gebruiker-agent en de wenken van de Cliënt](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank} | Nieuw onderwerp. |
 |  | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Toegevoegde koppeling voor het opnemen van het volgende webinar: Sportgoederen van Dick: Personalisatie en het veranderende landschap in de detailhandel (19 mei 2022) |
 | 23 mei | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige releaseopmerkingen toegevoegd voor versie 2.9.0 van .js (25 mei 2022). |
 | 11 mei | [Aankondigingen en gebeurtenissen van het doel](/help/main/r-release-notes/target-announcements.md#webinar-series) | Toegevoegde informatie- en registratiekoppelingen voor de volgende webinars:<ul><li>Sportgoederen van Dick: Personalisatie en het veranderende landschap in de detailhandel</li><li>Adobe: Personaliserings-industrie-insider - Financiële diensten en verzekeringen</li><li>Nationale bank van de stad: De beste 1% voor digitale optimalisatie bereiken</li><li>Adobe: Personalisatie met precisie - [!DNL Adobe Analytics] en [!DNL Target]</li><li>Nationale bank van de stad: Nul naar hoofdmenu - Een aanpassingsprogramma starten en schalen</li><li>Adobe: Ontdek mogelijkheden voor optimalisatie met hoge effecten</li><li>Adobe: Personaliserings-industrie-insider - detailhandel</li></ul>De opname voor het volgende webinar is toegevoegd:<ul><li>Aanpassing in realtime met [!DNL Adobe Target]</li></ul> |
-|  | [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | Sectie Veelgestelde vragen toegevoegd. |
+|  | [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Sectie Veelgestelde vragen toegevoegd. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] 22.5.1 en de versies van Target platform (11-13 mei 2022). |
 
 ## Adobe Target Standard/Premium 22.4.1 (28 april)
@@ -181,12 +181,12 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | --- | --- | --- |
 | 31 januari | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige informatie over de [!DNL Target Standard/Premium] Release 22.2.1. |
 | 28 januari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie over de release at.js 2.8.1. |
-|  | [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Toegevoegde informatie over de release at.js 2.8.1. |
+|  | [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Toegevoegde informatie over de release at.js 2.8.1. |
 | 27 januari | [AEM ervaren fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Bijgewerkt onderwerp en toegevoegde informatie over [!DNL AEM as a Cloud Service] en [!DNL Adobe I/0]. |
 | 26 januari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] 22.1.2. |
 |  | [Soorten publiek maken](/help/main/c-target/c-audiences/audiences.md) | Extra informatie over [!DNL Adobe Experience Platform] publiek. |
 |  | [Meerdere doelgroepen combineren](/help/main/c-target/combining-multiple-audiences.md) | Extra informatie over [!DNL Adobe Experience Platform] publiek. |
-| 21 januari | [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Informatie toegevoegd over de release at.js 1.8.3. |
-| 19 januari | [Upgrade uitvoeren vanaf 0,js 1.*x* tot en met at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Toegevoegd: &quot;at.js 2.*x* biedt geen ondersteuning voor het maken van soorten publiek met behulp van vst.* parameters&quot; |
+| 21 januari | [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie toegevoegd over de release at.js 1.8.3. |
+| 19 januari | [Upgrade uitvoeren vanaf 0,js 1.*x* tot en met at.js 2.*x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Toegevoegd: &quot;at.js 2.*x* biedt geen ondersteuning voor het maken van soorten publiek met behulp van vst.* parameters&quot; |
 | 12 januari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!DNL Target Standard/Premium] Release 22.1.1. |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Koppeling naar zelfstudie toegevoegd met instructies voor implementatie [!DNL Adobe Experience Cloud] met Web SDK. |
+|  | [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Koppeling naar zelfstudie toegevoegd met instructies voor implementatie [!DNL Adobe Experience Cloud] met Web SDK. |

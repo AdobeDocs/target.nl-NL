@@ -4,9 +4,9 @@ description: Meer informatie [!DNL Adobe Target] werken, waaronder informatie ov
 title: Hoe werkt [!DNL Target] Werken?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2523'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Meer informatie [!DNL Adobe Target] werken, waaronder informatie over de JavaScr
 
 [!DNL Target] integreert met websites die de [!DNL Experience Platform Web SDK] of at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** De [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} is een nieuwe JavaScript-bibliotheek aan de clientzijde. De [!DNL Experience Platform Web SDK] laat klanten van [!DNL Adobe Experience Cloud] in de [!DNL Experience Cloud] (inclusief [!DNL Target]via de [!DNL Experience Platform] Edge Network. [!DNL Adobe] beveelt aan dat alle nieuwe [!DNL Target] klanten implementeren [!DNL Experience Platform Web SDK].
-* **at.js:** De bibliotheek at.js is een implementatiebibliotheek voor [!DNL Target]. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js wordt regelmatig bijgewerkt met nieuwe mogelijkheden. [!DNL Adobe] raadt alle klanten die at.js gebruiken aan hun implementaties bij te werken naar de [nieuwste versie van at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** De [Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} is een nieuwe JavaScript-bibliotheek aan de clientzijde. De [!DNL Experience Platform Web SDK] laat klanten van [!DNL Adobe Experience Cloud] in de [!DNL Experience Cloud] (inclusief [!DNL Target]via de [!DNL Experience Platform] Edge Network. [!DNL Adobe] beveelt aan dat alle nieuwe [!DNL Target] klanten implementeren [!DNL Experience Platform Web SDK].
+* **at.js:** De bibliotheek at.js is een implementatiebibliotheek voor [!DNL Target]. De bibliotheek at.js verbetert de laadtijden voor webimplementaties en biedt betere implementatieopties voor toepassingen van één pagina. at.js wordt regelmatig bijgewerkt met nieuwe mogelijkheden. [!DNL Adobe] raadt alle klanten die at.js gebruiken aan hun implementaties bij te werken naar de [nieuwste versie van at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ Verwijs naar de [!DNL Experience Platform Web SDK] of om.js op elke pagina op uw
 
 De volgende bronnen bevatten gedetailleerde informatie om u te helpen de [!DNL Experience Platform Web SDK] of at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
-* [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+* [[!DNL Adobe Experience Platform Web SDK] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [Implementeren [!DNL Target] gebruiken [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 Telkens wanneer een bezoeker een pagina aanvraagt waarvoor is geoptimaliseerd [!DNL Target], wordt een verzoek naar het doelsysteem verzonden. Aan de hand van de aanvraag kunt u bepalen welke inhoud voor die bezoeker moet worden gebruikt. Dit proces vindt in real time plaats. Telkens wanneer een pagina wordt geladen, wordt een verzoek om de inhoud gedaan en vervuld door het systeem. De inhoud wordt bepaald door de regels van door de markt gecontroleerde activiteiten en ervaringen en is gericht op de individuele bezoeker van de site. Inhoud wordt weergegeven waarmee elke bezoeker van de site meestal kan reageren op, communiceren met of uiteindelijk aankopen. De gepersonaliseerde inhoud helpt reactiesnelheden, aanschafpercentages, en opbrengst maximaliseren.
 
@@ -134,7 +134,7 @@ De [!DNL Target Recommendations] service wordt gehost in een [!DNL Adobe] datace
 >
 >[!DNL Adobe Target] heeft momenteel geen Edge Cluster in China en de prestaties van de bezoeker blijven beperkt voor [!DNL Target] afnemers in China. Vanwege de firewall en het gebrek aan Edge Clusters in het land, hebben sites met [!DNL Target] kan worden beïnvloed. De ervaring kan traag zijn bij het renderen en het laden van pagina&#39;s kan hierdoor worden beïnvloed. Ook kunnen marketers enige vertraging ervaren bij het gebruik van de [!DNL Target] ontwerpinterface.
 
-U kunt lijst van gewenste personen [!DNL Target] Edge-clusters, indien gewenst. Zie voor meer informatie [lijst van gewenste personen randknooppunten doel](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+U kunt lijst van gewenste personen [!DNL Target] Edge-clusters, indien gewenst. Zie voor meer informatie [lijst van gewenste personen randknooppunten doel](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
 
 ## Beveiligde gebruikerservaring {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -174,7 +174,7 @@ Richtsnoeren werden gepresenteerd in een [Google Webmaster Central-blog](https:/
 
 * **302 (tijdelijke) omleidingen gebruiken**: In de gevallen waarin afzonderlijke URL&#39;s worden gebruikt voor de variatiepagina&#39;s in een test, raadt Google aan om 302 te gebruiken om het directe verkeer naar de testvariaties te leiden. De 302 omleiding vertelt de zoekmachines dat de omleiding tijdelijk is en alleen actief zolang de test loopt.
 
-   Een omleiding van 302 is een omleiding aan de serverzijde, en [!DNL Target]gebruikt samen met de meeste optimalisatieproviders mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] voldoet niet volledig aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardaanpak voor het uitvoeren van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen [!DNL Target] gebruikt het JavaScript `window.location` gebruiken. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
+   Een omleiding van 302 is een omleiding aan de serverzijde, en [!DNL Target]gebruikt samen met de meeste optimalisatieproviders mogelijkheden aan de clientzijde. Daarom is omleiding een gebied waar [!DNL Target] voldoet niet volledig aan de aanbevelingen van Google. Deze praktijk is echter slechts van invloed op een klein deel van de tests. De standaardbenadering voor het uitvoeren van tests door [!DNL Target] roept om inhoud binnen één enkele URL te veranderen, zodat zijn geen omleidingen noodzakelijk. Er zijn gevallen waarin clients meerdere URL&#39;s moeten gebruiken om hun testvariaties weer te geven. In deze gevallen [!DNL Target] gebruikt het JavaScript `window.location` gebruiken. Deze opdracht geeft gebruikers de opdracht om variaties te testen, wat niet expliciet aangeeft of omleiding een 301- of een 302-waarde is.
 
    [!DNL Adobe] blijft zoeken naar levensvatbare oplossingen om zich volledig aan te passen aan de richtlijnen van zoekmachines . Voor clients die voor het testen afzonderlijke URL&#39;s moeten gebruiken, [!DNL Adobe] is ervan overtuigd dat een goede implementatie van de canonieke codes het risico dat aan deze aanpak verbonden is, beperkt.
 

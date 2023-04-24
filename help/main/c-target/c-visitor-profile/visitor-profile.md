@@ -4,9 +4,9 @@ description: Leer meer over bezoekersprofielen die informatie bevatten over hoe 
 title: Wat zijn bezoekerprofielen?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,6 @@ De volgende secties bevatten meer informatie:
 - [Levensduur bezoekersprofiel](visitor-profile-lifetime.md)
 - [Profielkenmerken](profile-parameters.md)
 - [Categorie-affiniteit](category-affinity.md)
-- [Klantkenmerken](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+- [Klantkenmerken](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Profielsynchronisatie in realtime voor mbox3rdPartyID](3rd-party-id.md)
 - [Profiel en verklarende woordenlijst voor variabelen](variables-profiles-parameters-methods.md)

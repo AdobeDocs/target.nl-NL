@@ -4,9 +4,9 @@ description: Meer informatie over bezoekersspecifieke kenmerken die zijn opgesla
 title: Wat zijn profielkenmerken?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Profielkenmerken instellen:
 
    | Type parameter | Beschrijving |
    |--- |--- |
-   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Opmerking**: [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target], geeft u deze door met de API-methode voor het bijwerken van profielen. Zie voor meer informatie [Profielupdate in het dialoogvenster [!DNL Adobe Target] API-documentatie](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Opmerking**: [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target], geeft u deze door met de API-methode voor het bijwerken van profielen. Zie voor meer informatie [Profielupdate in het dialoogvenster [!DNL Adobe Target] API-documentatie](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze fragmenten kunnen lopende totalen opslaan zoals het totale geld dat de consument besteedt en worden uitgevoerd op elke mbox-aanvraag. Zie Profielscriptkenmerken hieronder. |
 
 ## Profielscriptkenmerken {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 **Is het mogelijk om profielmanuscripten te gebruiken om informatie van een pagina te vangen die in een gegevenslaag verblijft?**
 
-Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere worden overgegaan [methoden om gegevens in het doel op te halen](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. Nadat de gegevens zijn ingevoerd [!DNL Target]profielscripts kunnen de gegevens lezen als een parameter mbox of profielparameter.
+Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere worden overgegaan [methoden om gegevens in het doel op te halen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Nadat de gegevens zijn ingevoerd [!DNL Target]profielscripts kunnen de gegevens lezen als een parameter mbox of profielparameter.
 
 ## JavaScript-referentie voor scriptprofielparameters
 
@@ -246,14 +246,14 @@ Naar de volgende objecten en methoden kan worden verwezen door scriptprofielpara
 | `page.url` | De huidige URL. |
 | `page.protocol` | Het protocol dat wordt gebruikt voor de pagina (http of https). |
 | `page.domain` | Het huidige URL-domein (alles vóór de eerste schuine streep). Bijvoorbeeld: `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
-| `page.query` | De queryreeks voor de huidige pagina. Alles na de &quot;?&quot;. Bijvoorbeeld: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
-| `page.param(‘<par_name>’)` | De waarde van de parameter die wordt aangegeven door `<par_name>`. Als de huidige URL de zoekpagina van Google is en u hebt opgegeven `page.param('hl')`, krijgt u &quot;en&quot; voor de URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | De queryreeks voor de huidige pagina. Alles na de &#39;?&#39;. Bijvoorbeeld: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
+| `page.param('<par_name>')` | De waarde van de parameter die wordt aangegeven door `<par_name>`. Als je huidige URL een zoekpagina voor Google is en je hebt opgegeven `page.param('hl')`, krijgt u &quot;en&quot; voor de URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Dezelfde operaties als hierboven gelden voor referentie en landing (d.w.z. referentie.url is het URL-adres van de referentie). |
 | `landing.url`, `landing.protocol`, `landing.query`, en `landing.param` | Gelijkaardig aan dat van pagina, maar voor de landingspagina. |
 | `mbox.name` | De naam van de actieve box. |
-| `mbox.param(‘<par_name>’)` | Een mbox-parameter op basis van de opgegeven naam in het actieve mbox. |
-| `profile.get(‘<par_name>’)` | De door de client gemaakte parameter voor gebruikersprofielen krijgt de naam `<par_name>`. Als de gebruiker bijvoorbeeld een profielparameter met de naam &quot;gender&quot; instelt, kan de waarde worden geëxtraheerd met &quot;profile.gender&quot;. Hiermee wordt de waarde van de waarde &quot;`profile.<par_name>`&quot; vastgesteld voor de huidige bezoeker; retourneert null als er geen waarde is ingesteld. Let op: `profile.get(<par_name>)` wordt gekwalificeerd als een functieaanroep. |
-| `user.get(‘<par_name>’)` | Hiermee wordt de waarde van de waarde &quot;`user.<par_name>`&quot; vastgesteld voor de huidige bezoeker; retourneert null als er geen waarde is ingesteld. |
+| `mbox.param('<par_name>')` | Een mbox-parameter op basis van de opgegeven naam in het actieve mbox. |
+| `profile.get('<par_name>')` | De door de client gemaakte parameter voor gebruikersprofielen krijgt de naam `<par_name>`. Als de gebruiker bijvoorbeeld een profielparameter met de naam &quot;gender&quot; instelt, kan de waarde worden geëxtraheerd met &quot;profile.gender&quot;. Hiermee wordt de waarde van de waarde &quot;`profile.<par_name>`&quot; vastgesteld voor de huidige bezoeker; retourneert null als er geen waarde is ingesteld. Let op: `profile.get(<par_name>)` wordt gekwalificeerd als een functieaanroep. |
+| `user.get('<par_name>')` | Hiermee wordt de waarde van de waarde &quot;`user.<par_name>`&quot; vastgesteld voor de huidige bezoeker; retourneert null als er geen waarde is ingesteld. |
 | `user.categoryAffinity` | Retourneert de naam van de beste categorie. |
 | `user.categoryAffinities` | Retourneert een array met de beste categorieën. |
 | `user.isFirstSession` | Retourneert true als het de eerste sessie van de bezoeker is. |

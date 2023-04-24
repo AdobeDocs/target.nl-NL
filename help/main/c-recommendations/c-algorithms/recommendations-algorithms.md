@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2741'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Algoritmen zijn:
 
 De punt-punt samenwerkings het filtreren aanbevelingen algoritmen zijn gebaseerd op het idee dat u de gedragspatronen van vele gebruikers (vandaar samenwerkingsverband) zou moeten gebruiken om nuttige aanbevelingen voor een bepaald punt (bijvoorbeeld, filter de catalogus van mogelijke punten om aan te bevelen) te verstrekken. Hoewel er veel verschillende algoritmen zijn die onder de algemene paraplu van vallen [gezamenlijk filteren](https://en.wikipedia.org/wiki/Collaborative_filtering)Deze algoritmen gebruiken voor iedereen gedragsgegevensbronnen als input. In [!DNL Target Recommendations]Deze invoer is de unieke weergave en aankoop van objecten door gebruikers.
 
-Voor het algoritme &quot;Personen die dit item hebben bekeken/aangeschaft, hebben deze items ook bekeken/aangeschaft&quot;, is het doel een overeenkomst (A,B) tussen alle paren items te berekenen. Voor een bepaald punt A worden de belangrijkste aanbevelingen vervolgens geordend op basis van hun gelijkenis s(A,B).
+Voor het algoritme &quot;Personen die dit item hebben bekeken/aangeschaft, hebben deze items ook bekeken/aangeschaft&quot;, is het doel een overeenkomst (A,B) tussen alle paren items te berekenen. Voor een bepaald punt A worden de hoogste aanbevelingen vervolgens geordend op basis van hun gelijkenis s(A,B).
 
 Een voorbeeld van zo&#39;n gelijkenis is de co-existentie tussen items: een eenvoudige telling van het aantal gebruikers dat beide objecten heeft gekocht. Hoewel intuïtief, is zo&#39;n metrische waarde naïef in die zin dat het in de richting gaat van het aanbevelen van populaire objecten. Als de meeste mensen bijvoorbeeld bij een groothandelaar brood kopen, zal brood een grote co-existentie hebben met alle producten, maar het is niet noodzakelijk een goede aanbeveling. [!DNL Target] in plaats daarvan gebruikt een verfijndere metrische gelijkenis die als logboekwaarschijnlijkheidsverhouding (LLR) wordt bekend. Deze hoeveelheid is groot wanneer de kans dat twee items, A en B, samen voorkomen, zeer verschillend is van de waarschijnlijkheid dat ze zich niet samen voordoen. Neem voor de concretisering een geval van [!UICONTROL People Who Viewed This, Bought That] algoritme. De LLR-gelijkenis is groot wanneer de kans dat B werd aangekocht groot is *niet* of iemand A heeft bekeken.
 
@@ -65,7 +65,7 @@ De logische stroom van de daadwerkelijke algoritmeimplementatie wordt getoond in
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Gedragsgegevens, in de vorm van weergaven en aankopen van bezoekers die bij u worden verzameld [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Invoergegevens**: Gedragsgegevens, in de vorm van weergaven en aankopen van bezoekers die bij u worden verzameld [Doel implementeren](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modeltraining**:
 
@@ -89,7 +89,7 @@ Hoewel het model dat dienst doet en de tevreden leveringsaspecten van [!DNL Targ
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Zoals eerder beschreven, is dit algoritme uitsluitend gebaseerd op catalogusgegevens (opgenomen op [!DNL Target] via een [Catalogusfeed, de Entiteiten-API of updates op de pagina](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+* **Invoergegevens**: Zoals eerder beschreven, is dit algoritme uitsluitend gebaseerd op catalogusgegevens (opgenomen op [!DNL Target] via een [Catalogusfeed, de Entiteiten-API of updates op de pagina](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modeltraining**:
 
@@ -127,7 +127,7 @@ De logica van modelopleiding en het scoren stappen worden getoond in het volgend
 
 De details van deze stappen zijn als volgt:
 
-* **Invoergegevens**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en algoritmen op basis van winkelwagentjes gedragsgegevens gebruiken, in de vorm van weergaven en aankopen van gebruikers die worden verzameld wanneer u [Doel implementeren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Invoergegevens**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en algoritmen op basis van winkelwagentjes gedragsgegevens gebruiken, in de vorm van weergaven en aankopen van gebruikers die worden verzameld wanneer u [Doel implementeren](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modeltraining**:
 

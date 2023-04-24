@@ -4,9 +4,9 @@ description: Leer hoe u aangepaste parameters kunt doorgeven [!DNL Adobe Target]
 title: Kan ik bezoekers richten die op de Parameters van de Douane worden gebaseerd?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Aangepaste parameters zijn maboxparameters in [!DNL Adobe Target]. Als u parameters mbox aan vakjes doorgeeft, of gebruik `targetPageParams` functies, worden deze parameters hier weergegeven voor gebruik bij het publiek.
 
-Zie voor meer informatie [Parameters doorgeven aan een globale box](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
+Zie voor meer informatie [Parameters doorgeven aan een globale box](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, `mboxParameter` vraagt u niet meer om `mboxName`. De naam van het selectievakje is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 

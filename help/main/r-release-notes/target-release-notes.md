@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,8 @@ Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
 
 | Resource | Details |
 |--- |--- |
-| [Opmerkingen bij de release: [!UICONTROL Adobe Target Platform Experience Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [details van de at.js-versie](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Details over de wijzigingen in elke versie van het dialoogvenster [!DNL Adobe Target] at.js JavaScript-bibliotheek. |
 
+|[Opmerkingen bij de release: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en)|Details over veranderingen in elke versie van het Web SDK van het Platform.| |[details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Bijzonderheden over de wijzigingen in elke versie van de [!DNL Adobe Target] at.js JavaScript-bibliotheek.|
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

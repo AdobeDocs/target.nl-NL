@@ -4,9 +4,9 @@ description: Leer hoe u uitsluitingen maakt in Adobe [!DNL Target] Recommendatio
 title: Hoe gebruik ik uitsluitingen in Recommendations-activiteiten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 * De catalogus Herfst/Winter is nu de enige catalogus die online aanwezig moet zijn. Elk item uit de zomercatalogus kan niet meer worden aangeschaft.
 * Items die op de meeste pagina&#39;s/schermen niet kunnen worden aanbevolen (volwassen producten, NC-17-films, enz.)
 * Producten met onvolledige metagegevensvelden (ontbrekende miniatuur, prijs of andere belangrijke metagegevens)
-* Producten die nooit mogen worden aanbevolen (misschien bestaat er een SKU in het systeem voor iets, maar het is geen aanschafbaar item, of misschien is het een nep-SKU voor het QA-team om een aankoop te simuleren zonder iets te bestellen, enz.)
+* Producten die nooit zouden moeten worden geadviseerd (misschien bestaat SKU in het systeem voor iets maar het is geen koopbaar voorwerp, of misschien is het een nep SKU voor het team van QA om een aankoop te simuleren zonder eigenlijk iets te bestellen, enz.)
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
    ![exclusies_list-afbeelding](assets/exclusions_list.png)
 
-   Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://developer.adobe.com/target/implement/recommendations/){target=_blank} om de standaardhostgroep te wijzigen.
+   Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Exclusion]**.
 
