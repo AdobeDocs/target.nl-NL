@@ -6,9 +6,9 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '466'
 ht-degree: 7%
 
 ---
@@ -25,8 +25,9 @@ Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
 
 | Functie | Details |
 |--- |--- |
-| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**OPMERKING**: Deze functie is vanaf 12 april 2023 beschikbaar als een pre-releasefunctie. Als pre-releasefunctie kunt u experimenteren met [!UICONTROL Content Fragments] gebruik van ontwikkelings- en staging-omgevingen, maar geen productieomgevingen. Deze functie is op 26 april 2023 beschikbaar voor alle klanten. |
-| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Deze functie is op 9 mei 2023 beschikbaar voor alle klanten. |
+| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**OPMERKING**: Deze functie is op 9 mei 2023 beschikbaar voor alle klanten. |
+| [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *De Adobe Target Developer Guide* is verplaatst naar *Adobe Experience League*. Ga naar *Experience League* hulpmiddelen bij het lokaliseren van tekst naar extra talen, verenigt zoekopdrachten binnen *Experience League* om zoekresultaten op te geven op basis van beide hulplijnen en biedt extra voordelen.<P>Omleidingen van de vorige locatie worden de komende dagen geïmplementeerd. Werk uw bladwijzers bij. |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

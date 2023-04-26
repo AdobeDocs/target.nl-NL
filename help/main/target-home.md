@@ -4,10 +4,10 @@ title: Handleiding Adobe Target Business Practitioner
 description: Leer hoe u Adobe gebruikt [!DNL Target] om de ervaring van uw klanten aan te passen om uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 107556e43b088d5a2033b80e3f5ef63ee3fe0632
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 1%
+source-wordcount: '571'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,17 @@ ht-degree: 1%
 
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] -oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**Laatst bijgewerkt: 24 april 2023 ( [Wat is gewijzigd bekijken](r-release-notes/doc-change.md) )**
+**Laatst bijgewerkt: 26 april 2023 ( [Wat is gewijzigd bekijken](r-release-notes/doc-change.md) )**
+
+>[!NOTE]
+>
+>Naast deze handleiding wordt het volgende [!DNL Adobe Target] hulplijnen zijn ook beschikbaar :
+>
+>- [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
+>
+>- [*Adobe Target-tutorials*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
+>
+>Voor informatie over de release raadpleegt u [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) in deze handleiding.
 
 In de volgende secties wordt verwezen naar handige koppelingen in deze handleiding, gerangschikt op doelgroep op basis van standaardfuncties:
 
