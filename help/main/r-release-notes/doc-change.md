@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2523'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | --- | --- | --- |
 | 26 april | [AEM [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] overzicht](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | De [!UICONTROL AEM Content Fragments] deze functie is nu beschikbaar voor alle [!DNL Target customers]. |
 |  | [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | De [!UICONTROL AEM Content Fragments] deze functie is nu beschikbaar voor alle [!DNL Target customers]. |
-|  | [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | De *Adobe Target Developer Guide* is verplaatst naar *[!UICONTROL Adobe Experience League]*. Ga naar *[!UICONTROL Experience League]* hulpmiddelen bij het lokaliseren van tekst in extra talen, verenigt het zoeken binnen *Experience League* om zoekresultaten voor de *[!UICONTROL Adobe Target Business Practitioner Guide]* en de *[!UICONTROL Adobe Target Developer Guide]* en biedt extra voordelen.<P>U wordt omgeleid van de vorige locatie naar *[!UICONTROL Experience League]* automatisch. Werk de bladwijzers naar wens bij. |
+|  | [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | De *Adobe Target Developer Guide* is verplaatst naar *[!UICONTROL Adobe Experience League]*. Ga naar *[!UICONTROL Experience League]* hulpmiddelen bij het lokaliseren van tekst in extra talen, verenigt het zoeken binnen *Experience League* om de zoekresultaten van zowel de *[!UICONTROL Adobe Target Business Practitioner Guide]* en de *[!UICONTROL Adobe Target Developer Guide]* en biedt extra voordelen.<P>U wordt omgeleid van de vorige locatie naar *[!UICONTROL Experience League]* automatisch. Werk de bladwijzers naar wens bij. |
 | 24 april | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende Adobe Target Community Coffee Break Q&amp;A:<ul><li>Optimalisatie en personalisatie van mobiele ervaring voor geverifieerde omgevingen</li></ul> |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.4.1. |
 

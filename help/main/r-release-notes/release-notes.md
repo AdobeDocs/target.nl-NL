@@ -6,9 +6,9 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
 |--- |--- |
 | AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 | Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**OPMERKING**: Deze functie is op 9 mei 2023 beschikbaar voor alle klanten. |
-| [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | De *Adobe Target Developer Guide* is verplaatst naar *[!UICONTROL Adobe Experience League]*. Ga naar *[!UICONTROL Experience League]* hulpmiddelen bij het lokaliseren van tekst in extra talen, verenigt het zoeken binnen *Experience League* om zoekresultaten voor de *[!UICONTROL Adobe Target Business Practitioner Guide]* en de *[!UICONTROL Adobe Target Developer Guide]* en biedt extra voordelen.<P>U wordt omgeleid van de vorige locatie naar *[!UICONTROL Experience League]* automatisch. Werk de bladwijzers naar wens bij. |
+| [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | De *Adobe Target Developer Guide* is verplaatst naar *[!UICONTROL Adobe Experience League]*. Ga naar *[!UICONTROL Experience League]* hulpmiddelen bij het lokaliseren van tekst in extra talen, verenigt het zoeken binnen *Experience League* om de zoekresultaten van zowel de *[!UICONTROL Adobe Target Business Practitioner Guide]* en de *[!UICONTROL Adobe Target Developer Guide]* en biedt extra voordelen.<P>U wordt omgeleid van de vorige locatie naar *[!UICONTROL Experience League]* automatisch. Werk de bladwijzers naar wens bij. |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
