@@ -4,9 +4,9 @@ description: Zoek antwoorden op vragen die vaak worden gesteld over het weergeve
 title: Antwoorden op vragen over het bekijken van Rapporten met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2637'
 ht-degree: 1%
 
 ---
@@ -154,7 +154,7 @@ Zie voor meer informatie [Conversievariabelen (eVar](https://experienceleague.ad
 
 ## Waarom doen [!DNL Analytics] en [!UICONTROL Analytics for Adobe Target] (A4T) de getallen berekenen voor de [!UICONTROL Unique Visitors] verschillend metrisch? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++Antwoord wanneer u een test A/B in werking stelt die gebruikt [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (de betrouwbaarheidsmaatstaf) om een winnaar van een test te kiezen, is een van de veronderstellingen dat er een vaste tijdshorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
++++Antwoord wanneer u een test A/B in werking stelt die gebruikt [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (de betrouwbaarheidsmaatstaf) bij de keuze van de winnaar van een test is een van de veronderstellingen dat er een vaste tijdshorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
 
 De [!UICONTROL Unique Visitors] De metrische waarde is anders in [!DNL Analytics] en [!DNL Target] alleen als u een periode bekijkt die korter is dan de werkelijke test. Als u uw steekproefgrootte niet hebt bereikt, is de test niet zo betrouwbaar. Zie [Een A/B-test niet uitvoeren](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) op [De website van Evan Miller](https://www.evanmiller.org/index.html) voor meer informatie .
 
@@ -198,5 +198,19 @@ Hier enkele punten waarmee u rekening kunt houden bij het weergeven [!DNL Analyt
 * Als een omzetting buiten het venster van het rapport gebeurt, is de omzetting niet zichtbaar in [!DNL Analytics].
 * Wanneer in het &quot;gerichte&quot;gedeelte van verkeer voor [!UICONTROL Auto-Target] bezoekers kunnen verschillende ervaringen zien van de ene sessie tot de volgende . Als bijvoorbeeld hun profiel of context is gewijzigd en [!DNL Target]De computerleeralgoritmen bepalen dat de kans groter is dat ze op een nieuwe ervaring worden omgezet. Wanneer bezoekers van ervaring naar ervaring gaan, neemt het aantal bezoekers toe voor elke waargenomen ervaring. Dit is anders dan bij gewone A/B-testactiviteiten waarbij de ervaring bij bezoekers blijft hangen.
 * Als een bezoeker meerdere ervaringen tijdens een bezoek ziet, wordt elke conversie altijd toegeschreven aan de laatste ervaring die de bezoeker heeft gezien. Zoals vermeld, neemt het aantal bezoeken toe voor elke ervaring die de bezoeker zag. Dit kan de conversiesnelheden per ervaring kunstmatig verlagen bij het bekijken van ervaringen onder &quot;[!UICONTROL Targeted]&quot; dimensie in [!DNL Adobe Analytics] rapporten.
+
++++
+
+## Hoe kan ik activiteitindrukkingen bijhouden in [!DNL Analysis Workspace] wanneer u [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
+
++++Antwoord
+
+Activiteitenindrukkingen weergeven in [!DNL Analysis Workspace]:
+
+1. In de [!DNL Target] UI, klik **[!UICONTROL View in Analytics]**.
+1. Voeg de **[!UICONTROL Activity Impressions]** aan de [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} verslag.
+1. Op de **[!UICONTROL Activity Impressions]** kolom, klik op de [!UICONTROL Gear] pictogram.
+1. Klik op **[!UICONTROL Use non-default attribution model]**.
+1. Selecteren **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.
 
 +++
