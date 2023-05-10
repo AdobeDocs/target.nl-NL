@@ -4,7 +4,7 @@ description: Leer hoe u creeert [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-T
 title: Biedt ondersteuning voor A4T [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] Activiteiten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
+source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten
 
-De [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integratie, bekend als [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)-ondersteuning [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.
+De [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integratie, bekend als [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), ondersteunt [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.
 
 Met de integratie A4T kunt u:
 
