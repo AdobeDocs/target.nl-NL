@@ -4,9 +4,9 @@ description: Leer hoe u creeert [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-T
 title: Biedt ondersteuning voor A4T [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] Activiteiten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ De [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integratie, bekend als [Analyse
 Met de integratie A4T kunt u:
 
 * Gebruik de [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) meervoudig bewapende bankencapaciteit om verkeer naar het winnen van ervaringen te drijven.
-* Gebruik de [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) Schakel het leeralgoritme voor machines in om een beste ervaring voor elke bezoeker te kiezen. [!UICONTROL Auto-Target] kiest u de beste ervaring op basis van gebruikersprofielen, gedrag en context tijdens het gebruik van een [!DNL Adobe Analytics] doel metrisch en [!DNL Adobe Analytics]&quot; rijke rapportage- en analysemogelijkheden.
+* Gebruik de [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) Hiermee zorgt u ervoor dat een computerleeralgoritme de beste ervaring voor elke bezoeker kan kiezen. [!UICONTROL Auto-Target] kiest u de beste ervaring op basis van het profiel, het gedrag en de context van elke gebruiker tijdens het gebruik van een [!DNL Adobe Analytics] doelstelling metrisch en de rijke rapportering en analysemogelijkheden van [!DNL Adobe Analytics].
 
-Zorg ervoor dat u [geïmplementeerde A4T voor gebruik met A/B test- en ervaringsgerichte activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Als u `analyticsLogging = client_side`, moet u ook `sessionId` waarde aan [!DNL Analytics]. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in de *Adobe Target SDK&#39;s* hulplijn.
+Zorg ervoor dat u [geïmplementeerde A4T voor gebruik met A/B test- en ervaringsgerichte activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Als u `analyticsLogging = client_side`, moet u ook `sessionId` waarde aan [!DNL Analytics]. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in de *Adobe Target Developer Guide*.
 
 Aan de slag:
 
@@ -110,8 +110,8 @@ Sommige beperkingen en opmerkingen zijn van toepassing op beide [!UICONTROL Auto
 
 * **Trainingsfrequentie**: [!UICONTROL Auto-Allocate] de modellen blijven ieder uur trainen , zoals gewoonlijk .
 * **Attributiemodellen**: [!DNL Target] gebruikt de [!DNL Adobe Analytics] standaardtoewijzingsmodel voor[!UICONTROL  Auto-Allocate] activiteiten die gebruikmaken van A4T.
-* **Vertrouwen**: De betrouwbaarheidsformule die wordt gebruikt door [!UICONTROL Auto-Allocate] de activiteiten verschillen van de standaard in de [!DNL Adobe Analytics] [!UICONTROL A4T] deelvenster. [Zoals hier beschreven](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] gebruikt meer conservatieve betrouwbaarheidsintervallen dan normaal [!UICONTROL A/B Test] activiteiten. Deze conservatieve betrouwbaarheidsniveaus compenseren herhaalde evaluaties (peeks) op gegevens. Dientengevolge, het standaardrapport binnen [!DNL Adobe Analytics] geeft kleinere betrouwbaarheidsintervallen weer in vergelijking met de intervallen die door de [!UICONTROL Auto-Allocate] algoritme. Desalniettemin kunt u bepalen welke ervaring door de algoritmen wordt bevorderd die op welke ervaring worden gebaseerd meer unieke bezoekers worden verzonden naar het.
-* **Winkelstatus**: Op dit moment worden de [&quot;Nog geen Winner&quot; en &quot;Winner&quot; badges](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) zijn niet beschikbaar in het dialoogvenster [!UICONTROL A4T] in [!DNL Analysis Workspace]. Deze badges zijn ook niet beschikbaar als hetzelfde rapport wordt weergegeven in [!DNL Target]. Een winnares-&quot;ster&quot;-badge weergegeven in een [!DNL Target] verslag voor een [!UICONTROL Auto-Allocate] activiteit die A4T gebruikt zou moeten worden genegeerd. Deze badge weerspiegelt regelmatige betrouwbaarheidsberekeningen en niet de berekeningen die door [!UICONTROL Auto-Allocate].
+* **Vertrouwen**: De betrouwbaarheidsformule die wordt gebruikt door [!UICONTROL Auto-Allocate] de activiteiten verschillen van de standaard in de [!DNL Adobe Analytics] [!UICONTROL A4T] deelvenster. [Zoals hier beschreven](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] gebruikt meer conservatieve betrouwbaarheidsintervallen dan normaal [!UICONTROL A/B Test] activiteiten. Deze conservatieve betrouwbaarheidsniveaus compenseren herhaalde evaluaties (peeks) op gegevens. Dientengevolge, het standaardrapport binnen [!DNL Adobe Analytics] geeft lagere betrouwbaarheidsintervallen weer in vergelijking met de intervallen die door de [!UICONTROL Auto-Allocate] algoritme. Desalniettemin kunt u bepalen welke ervaring door de algoritmen wordt bevorderd die op welke ervaring worden gebaseerd meer unieke bezoekers worden verzonden naar het.
+* **Winkelstatus**: Op dit moment worden de [&quot;Nog geen Winner&quot; en &quot;Winner&quot; badges](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) zijn niet beschikbaar in het dialoogvenster [!UICONTROL A4T] in [!DNL Analysis Workspace]. Deze badges zijn ook niet beschikbaar als hetzelfde rapport wordt weergegeven in [!DNL Target]. Een winnares-&quot;ster&quot;-badge weergegeven in een [!DNL Target] verslag voor een [!UICONTROL Auto-Allocate] activiteit die A4T gebruikt zou moeten worden genegeerd. Deze badge weerspiegelt regelmatige vertrouwensberekeningen en niet de berekeningen die door [!UICONTROL Auto-Allocate].
 
 ### Automatisch doel {#at}
 
