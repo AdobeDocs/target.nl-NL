@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Alleen randwaarde.
 
 Deze vereiste parameter identificeert het product. Deze alfanumerieke id moet overal hetzelfde zijn [!DNL Adobe Experience Cloud] producten die worden gebruikt, waaronder [!DNL Analytics], zodat de verschillende producten het item herkennen en er gegevens over uitwisselen.
 
-De `entity.id` waarden moeten *niet* bevatten schuine strepen, ampersands, vraagtekens, percentagesymbolen, komma&#39;s of andere leestekens die URL-codering vereisen wanneer deze worden doorgegeven in een REST API-aanroep. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Ongeldige interpunctie opnemen in een `entity.id` waarde veroorzaakt sommige [!DNL Recommendations] functionaliteit om te mislukken.
+De `entity.id` waarden moeten *niet* bevat spaties, schuine strepen, en/of tekens, vraagtekens, percentagesymbolen, komma&#39;s of andere leestekens die URL-codering vereisen wanneer deze worden doorgegeven in een REST API-aanroep. Afbreekstreepjes en onderstrepingstekens zijn toegestaan. Ongeldige interpunctie opnemen in een `entity.id` waarde veroorzaakt sommige [!DNL Recommendations] functionaliteit om te mislukken.
 
 Voorbeeld: `'entity.id=67833'`
 

@@ -4,9 +4,9 @@ description: Meer informatie over bezoekersspecifieke kenmerken die zijn opgesla
 title: Wat zijn profielkenmerken?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
@@ -249,7 +249,7 @@ Naar de volgende objecten en methoden kan worden verwezen door scriptprofielpara
 | `page.query` | De queryreeks voor de huidige pagina. Alles na de &#39;?&#39;. Bijvoorbeeld: `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param('<par_name>')` | De waarde van de parameter die wordt aangegeven door `<par_name>`. Als je huidige URL een zoekpagina voor Google is en je hebt opgegeven `page.param('hl')`, krijgt u &quot;en&quot; voor de URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Dezelfde operaties als hierboven gelden voor referentie en landing (d.w.z. referentie.url is het URL-adres van de referentie). |
-| `landing.url`, `landing.protocol`, `landing.query`, en `landing.param` | Gelijkaardig aan dat van pagina, maar voor de landingspagina.<P>Als u de URL van de bestemmingspagina wilt laten werken zoals u had verwacht, stelt u de optie `context` > `browser` > `host`.<P>Ook, kunt u niet verwijzende URL op de zeer eerste vraag van de zitting hebben. In verdere vraag, zorg ervoor dat `referringURL` is werkelijk de vorige URL die de gebruiker op de huidige zitting bezocht.<!-- KB-2092 --> |
+| `landing.url`, `landing.protocol`, `landing.query`, en `landing.param` | Gelijkaardig aan dat van pagina, maar voor de landingspagina.<P>Als u de URL van de bestemmingspagina wilt laten werken zoals u had verwacht, stelt u de optie `context` > `browser` > `host`. |
 | `mbox.name` | De naam van de actieve box. |
 | `mbox.param('<par_name>')` | Een mbox-parameter op basis van de opgegeven naam in het actieve mbox. |
 | `profile.get('<par_name>')` | De door de client gemaakte parameter voor gebruikersprofielen krijgt de naam `<par_name>`. Als de gebruiker bijvoorbeeld een profielparameter met de naam &quot;gender&quot; instelt, kan de waarde worden geëxtraheerd met &quot;profile.gender&quot;. Hiermee wordt de waarde van de waarde &quot;`profile.<par_name>`&quot; vastgesteld voor de huidige bezoeker; retourneert null als er geen waarde is ingesteld. Let op: `profile.get(<par_name>)` wordt gekwalificeerd als een functieaanroep. |
