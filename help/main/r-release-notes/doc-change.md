@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2651'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 17 mei | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de [!UICONTROL Adobe Target Community] Vragen en antwoorden Koffiepauze op woensdag 24 mei 2023. |
 | 16 mei | [Entiteitskenmerken](/help/main/c-recommendations/c-products/entity-attributes.md) | Opgegeven dat &quot;spaties&quot; niet zijn toegestaan in `entity.id` waarden. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Bijgewerkt `viewsEnabled` beschrijving. |
 |  | [Toepassing van één pagina](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Breng de volgende wijzigingen aan:<ul><li>Opmerking toegevoegd na stap 2 onder &quot;Adobe Target-weergaven implementeren&quot;.</li><li>Bijgewerkte stap 2 &quot;Doelverzoek uitvoeren&quot; onder &quot;Volgorde van bewerkingen voor eerste pagina laden&quot;.</li></ul> |

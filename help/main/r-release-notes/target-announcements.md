@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
-## [!DNL Target] benoemd tot leider in Gartner Magic Quadrant for Personalization Engines (2022)
+## [!UICONTROL Adobe Target Community] Koffie-einde &amp;vragen
 
-Gartner benoemd [!DNL Adobe Target] een leider in zijn meest recente Magic Quadrant for Personalization Engines (PE) voor het vijfde achtereenvolgende jaar. [!DNL Adobe] ook topscores en aanzienlijke jaarlijkse stijgingen in alle drie gevallen van primair gebruik: Digitale marketing, Digitale Handel, en de Dienst en Steun. [!DNL Target] alle beoordeelde leveranciers hebben de hoogste scores voor hun testmogelijkheden ontvangen.
+* **Woensdag 24 mei 2023**
+* **8:00-9:00 (PT, UTC-7)**
+* **[Registratiegegevens](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-Zie voor meer informatie de [Adobe Experience Cloud-blogbericht](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+We worden aangesloten bij Ryan Roberts, Gentry Lin en Ryan Pizzuto van de [!UICONTROL Adobe Target Consulting] team en Mihnea Docea van de [!UICONTROL Adobe Technical Support Engineering] -team, die worden aangemeld bij de [Adobe Target Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} om direct met u op deze draad over uw te chatten [!DNL Adobe Target] vragen over uw vragen in verband met [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
+
+Voel u vrij om het even welke [Opnamen van Adobe Target-topontmoetingen op aanvraag](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} vooraf om uw vervolgvragen naar deze chat te brengen.
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
