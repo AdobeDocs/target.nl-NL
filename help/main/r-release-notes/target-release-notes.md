@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
+source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 19 mei 2023**
+**Laatst bijgewerkt: 22 mei 2023**
 
 >[!NOTE]
 >
@@ -44,6 +44,10 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 * Probleem verholpen waarbij een lege pagina werd weergegeven terwijl een API-autorisatietoken voor profielen werd gegenereerd. (TGT-45387)
 * Probleem verholpen waarbij een afbeelding niet kon worden weergegeven in het dialoogvenster [!UICONTROL Create Design] als de afbeeldingsnaam 18030 GB tekens bevat. (TGT-44614)
 * Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization] activiteiten om tijdens de analyse te bevriezen. (TGT-44820)
+* Probleem verholpen waarbij geen activiteiten werden weergegeven in de interface Doel voor de werkruimte Standaard voor bepaalde klanten. (TGT-45286)
+* De werking van de markering Duplicaten niet toestaan is bijgewerkt. Markten voor uitgesloten herhalingsaanbiedingen worden bijgewerkt om herhalende aanbiedingen toe te staan als deze de standaardinhoudsaanbieding zijn (voor API&#39;s v3, v4) en om dubbele opties toe te staan als de opties verwijzen naar de standaardinhoudsaanbieding en geen sjablonen hebben gedefinieerd. (TNT-46617)
+* Probleem verholpen waarin een vraagparameter aan een URL werd toegevoegd die de pagina verhinderde in Visuele Composer van de Ervaring (VEC) te laden. (TGT-44873)
+* Probleem verholpen waarbij sommige tekens in een ervarende taal onjuist werden beschermd tegen tekst/HTML. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (nog te bepalen datum)
 
