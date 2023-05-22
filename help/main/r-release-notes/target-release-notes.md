@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 | Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Probleem verholpen waardoor bepaalde klanten geen publiek konden maken met bezoekersprofielen met de operatoren &quot;groter dan&quot; of &quot;kleiner dan&quot;. (TGT-45271)
+* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
+* De interface van het Doel is op verschillende plaatsen bijgewerkt voor een komende UI (de veranderingen zijn achter een eigenschapvlag tot de updates worden vrijgegeven).
 
 ## [!DNL Target] Standard/Premium 23.5.2 (31 mei 2023)
 
