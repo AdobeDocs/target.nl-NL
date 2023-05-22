@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2685'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 22 mei | [Integreren met [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | De volgende nieuwe video&#39;s zijn toegevoegd:<ul><li>Configureer de [!DNL Adobe Target] bestemming in [!DNL Real-Time Customer Data Platform]</li><li>Segmenten en profielkenmerken activeren</li><li>Gebruiken [!DNL Real-Time CDP] segmenten in [!DNL Target]</li><li>Gebruiken [!DNL Real-Time CDP] profielkenmerken in [!DNL Adobe Target]</li></ul> |
 | 19 mei | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige releaseopmerkingen bijgewerkt voor komende releases. |
 | 17 mei | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de [!UICONTROL Adobe Target Community] Vragen en antwoorden Koffiepauze op woensdag 24 mei 2023. |
 | 16 mei | [Entiteitskenmerken](/help/main/c-recommendations/c-products/entity-attributes.md) | Opgegeven dat &quot;spaties&quot; niet zijn toegestaan in `entity.id` waarden. |

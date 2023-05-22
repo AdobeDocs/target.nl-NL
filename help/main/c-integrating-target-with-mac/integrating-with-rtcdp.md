@@ -4,9 +4,9 @@ description: Leer hoe u de [!DNL Target]/[!DNL Real-Time Customer Data Platform]
 title: Hoe integreer ik [!DNL Target] met de [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Raadpleeg de volgende onderwerpen voor meer informatie:
 * [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in de *Overzicht van doelen* hulplijn
 * [Kenmerken Kaart](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} in de *Overzicht van doelen* hulplijn.
 
-## Video&#39;s en blogberichten
+## Video&#39;s en blogberichten {#videos-blogs}
 
 De volgende video&#39;s en blogberichten bevatten meer informatie over verbeterde personalisatie met Target en RTCDP:
 
@@ -124,6 +124,30 @@ Leer hoe u een persoonlijke voorstelling kunt maken bij de volgende hit met [!DN
 Zie voor meer informatie [Volgend-klare personalisatie met Real-Time CDP en Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} in de *Platform Tutorials* hulplijn.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Video: Configureer de [!DNL Adobe Target] bestemming in [!DNL Real-Time Customer Data Platform]
+
+Leer hoe u de [!DNL Adobe Target] bestemming in [!DNL Real-Time Customer Data Platform] om segmenten en profielkenmerken te verzenden vanaf [!DNL Real-Time CDP] tot [!DNL Target].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+
+### Video: Segmenten en profielkenmerken activeren
+
+Leer hoe u segmenten en profielkenmerken activeert vanuit [!DNL Adobe Real-Time Customer Data Platform] tot [!DNL Adobe Target] om realtime gepersonaliseerde inhoud weer te geven op uw websites, mobiele apps en andere digitale eigenschappen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+
+### Video: Gebruiken [!DNL Real-Time CDP] segmenten in [!DNL Target]
+
+Leren gebruiken [!DNL Real-Time Customer Data Platform] segmenten in [!DNL Adobe Target] voor persoonlijke ervaringen op uw website en mobiele apps.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+
+### Video: Gebruiken [!DNL Real-Time CDP] profielkenmerken in [!DNL Adobe Target]
+
+Leren gebruiken [!DNL Adobe Real-Time Customer Data Platform] profielkenmerken in [!DNL Adobe Target] voor persoonlijke ervaringen op uw website en mobiele apps.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target] blog en video: Verbeterde personalisatie met dezelfde pagina
 
