@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;aanbieding;voorvertoning;start;status;criteria;algoritme
-description: 'Leer hoe u een voorvertoning van uw Adobe kunt weergeven [!DNL Target] Recommendations-activiteit om ervoor te zorgen dat resultaten beschikbaar zijn voordat de activiteit wordt gestart. '
+description: Leer hoe u een voorvertoning van uw Adobe kunt weergeven [!DNL Target] Recommendations-activiteit om ervoor te zorgen dat resultaten beschikbaar zijn voordat de activiteit wordt gestart.
 title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530

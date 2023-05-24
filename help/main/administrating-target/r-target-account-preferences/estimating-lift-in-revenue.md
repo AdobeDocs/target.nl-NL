@@ -30,7 +30,7 @@ In deze schatting wordt de hoeveelheid lift berekend die door de winnende ervari
 
 De geraamde toename van de inkomsten wordt berekend op basis van de inkomsten per bezoek (RPV) die zijn verkregen uit de primaire doelstelling.
 
-De geschatte lift wordt berekend met behulp van de volgende formule: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; total=&quot;&quot; number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>
+De geschatte lift wordt berekend met behulp van de volgende formule: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
 
 Het resulterende getal wordt afgerond tot op één decimaal (maximaal) als het versmalde formulier slechts één cijfer voor het decimaalteken heeft. Bijvoorbeeld: $ 1,6 MB, $ 60.000, $ 8,5.000, $ 205.000
 

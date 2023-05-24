@@ -1,7 +1,7 @@
 ---
 keywords: qa;preview;bookmarklet;voorvertoning van koppelingen
 description: Leer hoe u de Adobe gebruikt [!DNL Target] QA-boekmarkering afdwingen [!DNL Target] om u van wijze QA vrij te geven.
-title: How Do I use the Activity QA Bookmarklet?
+title: Hoe gebruik ik de Activity QA Bookmarklet?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# Activity QA bookmarklet
+# Activity QA-bladwijzer
 
 Informatie die u helpt bij het gebruik van de [!DNL Target] QA-boekmarkering afdwingen [!DNL Target] om u van wijze QA vrij te geven.
 
 >[!NOTE]
 >
->The process to create a bookmarklet varies by browser type and version. Consult your browser&#39;s help or search on the Internet for specific directions.
+>Het proces voor het maken van een bladwijzer varieert per type browser en versie. Raadpleeg de Help van uw browser of zoek op internet voor specifieke instructies.
 
 ## Activity QA bookmarklet voor at.js 1.*x*
 
-Because [QA mode](/help/main/c-activities/c-activity-qa/activity-qa.md) is sticky, after you browse a website in QA mode, your [!DNL Target] session must expire or you need to have [!DNL Target] release you from QA mode before you can view your site like a typical visitor. De kwaliteitscontrole gebruiken [!DNL Target] bookmarklet om uzelf uit wijze te dwingen QA.
+Omdat [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) blijft behouden, nadat u in de QA-modus door een website bladert, [!DNL Target] de sessie moet verlopen of u moet [!DNL Target] U kunt de QA-modus uitschakelen voordat u uw site als een gangbare bezoeker kunt bekijken. De kwaliteitscontrole gebruiken [!DNL Target] bookmarklet om uzelf uit wijze te dwingen QA.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Als u de opdracht [!DNL Target] Maak een bladwijzerplaat voor QA-bladwijzers die de volgende JavaScript-code bevat en voeg deze toe aan de werkbalk Bladwijzers van uw browser:
 
 ```javascript
 javascript:(
@@ -50,7 +50,7 @@ Bijvoorbeeld:
 
 ## Activity QA bookmarklet voor at.js 2.*x*
 
-In contrast to at.js 1.*x*, om.js 2.*x* ondersteunt geen cookies van derden en de QA-modus blijft alleen van toepassing op het domein van de eerste partij (door middel van een cookie van de eerste partij ingesteld door at.js). Dus in at.js 2.*x*, wordt de QA wijzesessie beheerd slechts op de cliënt-kant en geen QA wijzecookies worden verzonden naar Doel.
+In tegenstelling tot at.js 1.*x*, om.js 2.*x* ondersteunt geen cookies van derden en de QA-modus blijft alleen van toepassing op het domein van de eerste partij (door middel van een cookie van de eerste partij ingesteld door at.js). Dus in at.js 2.*x*, wordt de QA wijzesessie beheerd slechts op de cliënt-kant en geen QA wijzecookies worden verzonden naar Doel.
 
 Als u de opdracht [!DNL Target] Maak een bladwijzerplaat voor QA-bladwijzers die de volgende JavaScript-code bevat en voeg deze toe aan de werkbalk Bladwijzers van uw browser:
 

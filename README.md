@@ -1,7 +1,6 @@
 ---
 source-git-commit: b58048fcf65b4d691a95788a7963ccdd4ecf1505
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '424'
 ht-degree: 6%
 
@@ -22,7 +21,7 @@ Hoe u een bijdrage levert, hangt af van wie u bent en van het soort veranderinge
 
 ### Kleine wijzigingen
 
-Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en klik de **Edit** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Raadpleeg de algemene handleiding voor [Adobe Docs-contribuanten](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
+Als u kleine updates aanbrengt uit uw goedheid, gaat u naar het artikel en klikt u op de knop **Bewerken** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie de algemene [Handleiding Adobe Docs Contributor](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie .
 
 Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden in dit antwoord aanbrengt, worden behandeld in de gebruiksvoorwaarden van de Adobe.
 
@@ -36,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Belangrijke wijzigingen van Adobe-medewerkers
 
-Als u een technisch schrijver, programmamanager, of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] oplossing bent en het uw baan is om aan of auteur technische artikelen bij te dragen, zou u de privé bewaarplaats bij moeten gebruiken `https://git.corp.adobe.com/AdobeDocs`.
+Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] en het is uw taak om een bijdrage te leveren aan technische artikelen of technische artikelen te schrijven. Gebruik hiervoor de privéopslagruimte op `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -57,5 +56,5 @@ Alle artikelen in deze repository gebruiken GitHub gearomatiseerde prijsopgave. 
 
 In de openbare bewaarplaats, worden de geautomatiseerde etiketten toegewezen om verzoeken te trekken om ons te helpen de werkschema van het trekkingsverzoek beheren en u te helpen laten weten wat aan de hand is uw trekkrachtverzoek:
 
-* **Naar auteur** verzonden wijziging: De auteur is op de hoogte gesteld van het aanloopverzoek.
-* **kant-en-klaar samenvoegen**: Klaar voor overzicht door ons team van het trekpleonderzoek.
+* **Wijziging verzonden naar auteur**: De auteur is op de hoogte gesteld van het aanloopverzoek.
+* **samenvoegen**: Klaar voor overzicht door ons team van het trekpleonderzoek.

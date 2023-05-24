@@ -47,7 +47,7 @@ Wanneer u metrische gegevens een naam geeft of de naam ervan wijzigt, zijn de vo
 |--- |--- |
 | / | slash |
 | ? | Vraagteken |
-| Aantal | Nummerteken |
+| # | Nummerteken |
 | : | Colon |
 | = | Gelijk aan |
 | + | Plus |

@@ -7,7 +7,7 @@ exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -39,4 +39,4 @@ Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies waarin de mogeli
 
 Video-introducties van [!DNL Target] de concepten en de hulpmiddelen zijn beschikbaar op [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) pagina.
 
-![Adobe Target Tutorials](/help/main/c-intro/assets/adobe-target-tutorials-new.png)
+![Adobe Target-tutorials](/help/main/c-intro/assets/adobe-target-tutorials-new.png)

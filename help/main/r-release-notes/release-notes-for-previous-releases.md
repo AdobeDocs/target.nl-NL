@@ -3681,7 +3681,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze release bevat de volgende oplossingen:
 
 * Voor Analytics voor op Doel gebaseerde activiteiten, zijn de Lift en de kolommen van het Vertrouwen nu verborgen voor de metriek van de Analyse waar de berekeningen niet kunnen worden uitgevoerd.
-* Probleem verholpen waarbij de korte indeling van de `charset` metatag is niet herkend in de Enhanced Experience Composer
+* Probleem verholpen waarbij de korte indeling van het `charset` metatag is niet herkend in de Enhanced Experience Composer
 
 **Bekende problemen**
 

@@ -26,19 +26,19 @@ U kunt een publiek maken in [!DNL Adobe Target] gebaseerd op netwerkdetails, zoa
 
       | Populaire naam | ISP-naam | Domeinnaam | Voorbeeld-IP-adres |
       |---|---|---|---|
-      | Cablevision | Cablevision Systems Corp. | *.optonline.net | 68 196 130 239 |
-      | CenturyLink | Qwest Communications Company, LLC | *.centurylink.net | 64 40 65,0 |
-      | Chartercommunicatie | Chartercommunicatie | *.charter.com | 71 85 225 124 |
-      | Comcast | Comcast Cable Communications, Inc. | *.comcast.net | 76.27.24.28 |
-      | Cox | Cox Communications Inc. | *cox.net | 68 224 174,22 |
-      | Luidsprekend | MegaPath Corporation | *.speakeasy.net | 66 93 240,0 |
-      | Time Warner | Time Warner Cable Internet LLC | *.res.rr.com | 72 229 28 185 |
-      | Verizon FiOS | MCI Communications Services, Inc. d/b/a Verizon Business | *.fios.verizon.net | 173 68 112,34 |
-      | Vivint | Smartrove Inc. | *.vivintradio.net | 170 72 26 105 |
-      | AT&amp;T Wireless | AT | *.mycingular.net |  |
+      | Cablevision | Cablevision Systems Corp. | &#42;.optonline.net | 68.196.130.239 |
+      | CenturyLink | Qwest Communications Company, LLC | &#42;.centurylink.net | 64.40.65.0 |
+      | Chartercommunicatie | Chartercommunicatie | &#42;.charter.com | 71.85.225.124 |
+      | Comcast | Comcast Cable Communications, Inc. | &#42;.comcast.net | 76.27.24.28 |
+      | Cox | Cox Communications Inc. | &#42;cox.net | 68.224.174.22 |
+      | Luidsprekend | MegaPath Corporation | &#42;.speakeasy.net | 66.93.240.0 |
+      | Time Warner | Time Warner Cable Internet LLC | &#42;.res.rr.com | 72.229.28.185 |
+      | Verizon FiOS | MCI Communications Services, Inc. d/b/a Verizon Business | &#42;.fios.verizon.net | 173.68.112.34 |
+      | Vivint | Smartrove Inc. | &#42;.vivintradio.net | 170.72.26.105 |
+      | AT&amp;T Wireless | AT | &#42;.mycingular.net |  |
       | Mobiel afdrukken | Persoonlijke communicatiesystemen afdrukken | ip-adres |  |
-      | T-Mobile | T-Mobile USA, Inc. | ip-adres | 208 54 86,0 |
-      | Verizon Wireless | Cellco Parternship DBA Verizon Wireless | *.myvzw.com | 70 195 74 199 |
+      | T-Mobile | T-Mobile USA, Inc. | ip-adres | 208.54.86.0 |
+      | Verizon Wireless | Cellco Parternship DBA Verizon Wireless | &#42;.myvzw.com | 70.195.74.199 |
 
       >[!NOTE]
       >

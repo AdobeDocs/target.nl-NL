@@ -55,16 +55,16 @@ De volgende lijst toont de nauwkeurigheid van op IP-Gebaseerde geografische info
 
 | Land | Staat | Plaats | Regio |
 |--- |--- |--- |--- |
-| VS | 99,99% | 96% | 94% |
-| Canada | 99,99% | 96% | 94% |
-| Europa | 99,99% |  |  |
-| VK | 99,99% |  | 87% |
-| Duitsland | 99,99% | 95% | 93% |
+| VS | 99.99% | 96% | 94% |
+| Canada | 99.99% | 96% | 94% |
+| Europa | 99.99% |  |  |
+| VK | 99.99% |  | 87% |
+| Duitsland | 99.99% | 95% | 93% |
 | Scandinavië | 99% | Laag 90 s | Midden 80 |
-| Spanje | 99,99% | Ongeveer 90% | Midden tot hoog, 90 seconden |
+| Spanje | 99.99% | Ongeveer 90% | Midden tot hoog, 90 seconden |
 | Azië | 99% | Midden 90 | Laag 90 s |
-| Japan | 99,99% | Midden 90 | Laag 90 s |
-| Australië | 99,99% | 94% | 91% |
+| Japan | 99.99% | Midden 90 | Laag 90 s |
+| Australië | 99.99% | 94% | 91% |
 
 ## Geo-targeting gebruiken in profielscripts {#section_92C93138542C4A94997E3F4BE3F5DA28}
 

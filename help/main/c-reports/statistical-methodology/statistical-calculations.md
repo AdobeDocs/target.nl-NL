@@ -3,7 +3,8 @@ keywords: rapporten;statistische methodologie;statistische berekeningen;statisti
 description: Meer informatie over de statistische berekeningen in de handleiding [!UICONTROL A/B Test] activiteiten in [!DNL Adobe Target].
 title: Hoe kan ik leren over de statistische berekeningen die worden gebruikt in [!UICONTROL A/B Test] Activiteiten?
 feature: Reports
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
+source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%

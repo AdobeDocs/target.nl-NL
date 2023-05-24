@@ -58,31 +58,31 @@ Het categorieaffiniteitsalgoritme werkt als volgt:
 
 Als u bijvoorbeeld de `mens-clothing` categorie, dan `accessories`vervolgens `jewelry`vervolgens `accessories` opnieuw tijdens een zitting heeft de commissie de volgende affiniteiten :
 
-* `accessories`: 9 (+5 - 1 + 5)
+* `accessories`: 9 (+5 – 1 + 5)
 
-* `mens-clothing`: 8 (+10 - 1 - 1)
+* `mens-clothing`: 8 (+10 – 1 – 1)
 
 * `jewelry`: 5 (+5)
 
 Wanneer de sessie wordt beëindigd en de gebruiker later terugkeert naar de site, worden de scores gehalveerd:
 
-* `accessories`: 4,5 (9/2)
+* `accessories`: 4.5 (9/2)
 
 * `mens-clothing`: 4 (8/2)
 
-* `jewelry`: 2,5 (5/2)
+* `jewelry`: 2.5 (5/2)
 
 Ervan uitgaande dat de gebruiker dan de volgorde volgt, `jewelry`, `accessories`, `beauty`, `shoes`, en `womens-clothing`:
 
-* `accessories`: 6,5 (4,5 + 5 - 1 - 1 - 1)
+* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
 
 * `womens-clothing`: 5 (+5)
 
-* `jewelry`: 4.5 (2.5 + 5 - 1 - 1 - 1)
+* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
 
-* `shoes`: 4 (+5 - 1)
+* `shoes`: 4 (+5 – 1)
 
-* `beauty`: 3 (+5 - 1 - 1)
+* `beauty`: 3 (+5 – 1 - 1)
 
 * `mens-clothing` wordt verwijderd na de laatste klik van `womens-clothing` als laagste scoringcategorie met een score van 1 (4 - 1 - 1 - 1)
 
@@ -90,13 +90,13 @@ Wanneer de sessie wordt beëindigd en de gebruiker later terugkeert naar de site
 
 * `accessories`: 3.3 (6.5/2)
 
-* `womens-clothing`: 2,5 (5/2)
+* `womens-clothing`: 2.5 (5/2)
 
-* `jewelry`: 2,3 (4,5/2)
+* `jewelry`: 2.3 (4.5/2)
 
 * `shoes`: 2 (4/2)
 
-* `beauty`: 1,5 (3/2)
+* `beauty`: 1.5 (3/2)
 
 ## Categorieaffiniteit gebruiken voor doelversie {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 

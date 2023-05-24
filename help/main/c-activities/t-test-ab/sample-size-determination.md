@@ -88,8 +88,8 @@ De typische interpretaties van het betrouwbaarheidsniveau worden in de onderstaa
 | &lt; 90% | Er zijn geen aanwijzingen dat er een verschil is tussen de omrekeningskoersen |
 | 90-95% | Zwak bewijs dat er een verschil is tussen de omrekeningskoersen |
 | 95-99% | Matig bewijs dat er een verschil is tussen de omrekeningskoersen |
-| 99-99,9% | Sterk bewijs dat er een verschil is tussen de omrekeningskoersen |
-| +99,9% | Zeer sterk bewijs dat er een verschil is tussen de omrekeningskoersen |
+| 99-99.9% | Sterk bewijs dat er een verschil is tussen de omrekeningskoersen |
+| +99.9% | Zeer sterk bewijs dat er een verschil is tussen de omrekeningskoersen |
 
 Aanbevolen wordt altijd een betrouwbaarheidsniveau van 95% of meer te gebruiken.
 

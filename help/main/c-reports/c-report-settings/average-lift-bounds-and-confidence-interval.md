@@ -80,8 +80,8 @@ Neem bijvoorbeeld een voorbeeldactiviteit met twee ervaringen en de volgende res
 
 | Ervaring | Bezoekers | Conversies | Omzetsnelheid |
 |--- |--- |--- |--- |
-| Ervaring A (controle) | 219 328 | 2 466 | 1,12% |
-| Ervaring B | 218 362 | 3 040 | 1,39% |
+| Ervaring A (controle) | 219, 328 | 2,466 | 1.12% |
+| Ervaring B | 218, 362 | 3,040 | 1.39% |
 
 Op basis van onze formules kunnen we de inputs berekenen die we nodig hebben voor de limieten van de lift.
 

@@ -52,7 +52,7 @@ Wanneer u een ervaring een naam geeft of de naam ervan wijzigt, zijn de volgende
 |--- |--- |
 | / | slash |
 | ? | Vraagteken |
-| Aantal | Nummerteken |
+| # | Nummerteken |
 | : | Colon |
 | = | Gelijk aan |
 | + | Plus |
@@ -71,7 +71,7 @@ Zie voor meer informatie [Omleiden naar URL](/help/main/c-experiences/c-visual-e
 |--- |--- |
 | / | slash |
 | ? | Vraagteken |
-| Aantal | Nummerteken |
+| # | Nummerteken |
 | : | Colon |
 | = | Gelijk aan |
 | + | Plus |
