@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2741'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
+
+## [!DNL Target] Standard/Premium 23.5.1 (23-25 mei 2023)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+| 23 mei | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Bijgewerkte belangrijke opmerking. |
+|  | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige releaseopmerkingen bijgewerkt voor komende releases. |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.5.1. |
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
 

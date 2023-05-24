@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '35832'
+source-wordcount: '35952'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2023
+
+### [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
+
+Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
+
+| Functie | Details |
+|--- |--- |
+| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | De *Adobe Target Developer Guide* is verplaatst naar *[!UICONTROL Adobe Experience League]*. Ga naar *[!UICONTROL Experience League]* hulpmiddelen bij het lokaliseren van tekst in extra talen, verenigt het zoeken binnen *Experience League* om de zoekresultaten van zowel de *[!UICONTROL Adobe Target Business Practitioner Guide]* en de *[!UICONTROL Adobe Target Developer Guide]* en biedt extra voordelen.<P>U wordt omgeleid van de vorige locatie naar *[!UICONTROL Experience League]* automatisch. Werk de bladwijzers naar wens bij. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (28-30 maart 2023)
 
@@ -3681,7 +3690,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze release bevat de volgende oplossingen:
 
 * Voor Analytics voor op Doel gebaseerde activiteiten, zijn de Lift en de kolommen van het Vertrouwen nu verborgen voor de metriek van de Analyse waar de berekeningen niet kunnen worden uitgevoerd.
-* Probleem verholpen waarbij de korte indeling van het `charset` metatag is niet herkend in de Enhanced Experience Composer
+* Probleem verholpen waarbij de korte indeling van de `charset` metatag is niet herkend in de Enhanced Experience Composer
 
 **Bekende problemen**
 

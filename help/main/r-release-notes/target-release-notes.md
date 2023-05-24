@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,29 +15,13 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 22 mei 2023**
+**Laatst bijgewerkt: 24 mei 2023**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
-
-## [!DNL Target] Standard/Premium 23.5.1 (23-25 mei 2023)
-
-Deze release is beschikbaar volgens het volgende schema:
-
-23 mei: Europa, Midden-Oosten en Afrika (EMEA) 24 mei: Regio Azië-Stille Oceaan (APAC) 25 mei: Amerikaanse regio
-
-Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
-
-| Functie | Details |
-|--- |--- |
-| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
-
-* Probleem verholpen waardoor bepaalde klanten geen publiek konden maken met bezoekersprofielen met de operatoren &quot;groter dan&quot; of &quot;kleiner dan&quot;. (TGT-45271)
-* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
-* De interface van het Doel is op verschillende plaatsen bijgewerkt voor een komende UI (de veranderingen zijn achter een eigenschapvlag tot de updates worden vrijgegeven).
 
 ## [!DNL Target] Standard/Premium 23.5.2 (31 mei 2023)
 
@@ -58,6 +42,7 @@ Deze release bevat de volgende verbeteringen:
 | Functie | Details |
 |--- |--- |
 | [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activiteiten | [!DNL Adobe Target] [!UICONTROL QA mode] is nu beschikbaar voor [!UICONTROL Automated Personalization] activiteiten, vervangen [!UICONTROL Preview links] functionaliteit.<P>Zie voor meer informatie [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Prestatieverbeteringen om de functionaliteit van duplicaten (waaronder een kortere laadtijd) uit te schakelen [uitsluitingen beheren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activiteiten.
 
