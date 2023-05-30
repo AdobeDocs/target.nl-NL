@@ -4,7 +4,7 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 0%
@@ -31,7 +31,7 @@ We worden lid van [!DNL Adobe Target] deskundigen: Bill Ozinga, John Mosbaugh, J
 
 * **Woensdag 21 juni 2023**
 * **8:00-9:00 (PDT, UTC-7)**
-* **[Meer informatie]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[Meer informatie](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 We worden ondersteund door Adobe Target-experts, Ramon Cespedes en Kevin Jemison. In deze AMA-gebeurtenis (Mij om wat dan ook vragen) worden de experts aangemeld en zijn ze klaar om uw vragen te beantwoorden over de onderwerpen die in de recente webinar van 5/24 zijn besproken [De reis naar het drijven van groei met Personalisatie](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
