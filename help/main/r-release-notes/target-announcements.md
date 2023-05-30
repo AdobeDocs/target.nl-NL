@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ Geen gepland op dit moment.
 ## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
 
 Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
+
+### De reis naar het drijven van groei met Personalisatie
+
+Geef uw organisatie meer mogelijkheden voor personalisatie, voorgesteld door de Adobe Customer Success Manager, Ramon Cespedes.
+
+Het rapport van de belangrijkste analist suggereert dat bedrijven die zich uitblinken in personalisatie 40 procent meer inkomsten genereren dan hun tegenhangers. Om aan de vraag naar nieuwe, relevante en zeer gepersonaliseerde ervaringen bij elke klik te voldoen, hebben de marketers het juiste kader en de juiste strategie nodig. In dit webinar, sluit me aan bij Adobe deskundigen om te leren hoe te om gebruik te maken van gegeven-gedreven kader om de de personaliseringsprogramma&#39;s van uw organisatie te bouwen en succes te drijven.
+
+* [Koppeling opnemen](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Fijnafstemming door AI aangedreven Personalisatie: Nieuwe functies in [!DNL Adobe Target] (11 oktober 2022)
 
