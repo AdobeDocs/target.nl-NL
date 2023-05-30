@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,25 @@ ht-degree: 0%
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
-## [!UICONTROL Adobe Target Community] Koffie-einde &amp;vragen
+## [!UICONTROL Adobe Target Community] Koffie-einden &amp;vragen
 
-* **Woensdag 24 mei 2023**
-* **8:00-9:00 (PT, UTC-7)**
-* **[Registratiegegevens](https://adobe.ly/3BgfeZZ){target=_blank}**
+Informatie over de volgende aanstaande pagina&#39;s van het Koffie:
 
-We worden aangesloten bij Ryan Roberts, Gentry Lin en Ryan Pizzuto van de [!UICONTROL Adobe Target Consulting] team en Mihnea Docea van de [!UICONTROL Adobe Technical Support Engineering] -team, die worden aangemeld bij de [Adobe Target Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} om direct met u op deze draad over uw te chatten [!DNL Adobe Target] vragen over uw vragen in verband met [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
+### [!DNL Adobe Target Recommendations] Koffiepauze
 
-Voel u vrij om het even welke [Opnamen van Adobe Target-topontmoetingen op aanvraag](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} vooraf om uw vervolgvragen naar deze chat te brengen.
+* **Woensdag 7 juni 2023**
+* **8:00-9:00 (PDT, UTC-7)**
+* **[Meer informatie](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+
+We worden lid van [!DNL Adobe Target] deskundigen: Bill Ozinga, John Mosbaugh, Justin Patrick en Eric Thibeault. In deze AMA-gebeurtenis (Mij om wat dan ook vragen) worden de experts aangemeld en kunnen ze al uw vragen met betrekking tot de [!DNL Target Recommendations] gebruiken.
+
+### Gereedheid van het Personalisatieprogramma Webinar follow-up
+
+* **Woensdag 21 juni 2023**
+* **8:00-9:00 (PDT, UTC-7)**
+* **[Meer informatie]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+We worden ondersteund door Adobe Target-experts, Ramon Cespedes en Kevin Jemison. In deze AMA-gebeurtenis (Mij om wat dan ook vragen) worden de experts aangemeld en zijn ze klaar om uw vragen te beantwoorden over de onderwerpen die in de recente webinar van 5/24 zijn besproken [De reis naar het drijven van groei met Personalisatie](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
