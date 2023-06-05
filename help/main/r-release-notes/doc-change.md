@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '2829'
+source-wordcount: '2855'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 5 juni | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Bijgewerkte informatie voor de volgende gebeurtenissen:<ul><li>De registratiekoppeling voor de [!DNL Adobe Target Recommendations] Koffiepauze (woensdag 7 juni 2023)</li><li>Er is informatie toegevoegd over het recente webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environment&quot; en er is een koppeling toegevoegd aan de opname.</li></ul> |
+|  | [Pas een rapporterend publiek op succes toe metrisch](/help/main/c-target/apply-reporting-audience-success-metric.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt en de sectie &quot;Voorbeeld&quot; is toegevoegd. |
+|  | [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | De sectie &#39;URL-doel&#39; is bijgewerkt. |
 | 30 mei | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] 23.5.2. |
 |  | [Integreren met [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Bijgewerkt artikel met informatie over delen [!UICONTROL Real-Time CDP Profile Attributes] with [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen. |
 |  | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde informatie over de volgende Coffee Break-gebeurtenissen:<ul><li>[!DNL Adobe Target Recommendations] Koffiepauze (7 juni)</li><li>Gereedheid van het Personalisatieprogramma Webinar follow-up (21 juni)</li></ul> |

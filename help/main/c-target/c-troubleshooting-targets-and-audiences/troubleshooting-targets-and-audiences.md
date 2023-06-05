@@ -4,9 +4,9 @@ description: Veelgestelde vragen (FAQ's) weergeven over de ervaring die wordt ge
 title: Waar kan ik vragen en antwoorden vinden over doelen en publiek?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Buiten het publiek dat op URL richt, kunt u specifieke waarden specificeren die 
 
 URL van publiek richten en URL richten toegevoegd via [!UICONTROL Template Rules] evalueren als URL-doel (zie hieronder voor URL-doel).
 
-### URL-doel
+### URL-doel {#url-targeting}
 
 Als u een URL-doelverwijzing wilt toepassen tijdens het maken van een publiek, klikt u op [!UICONTROL Add Rule], klikt u op [!UICONTROL Site Pages]selecteert u een optie in de eerste vervolgkeuzelijst ([!UICONTROL Current Page], [!UICONTROL Previous Page], of [!UICONTROL Landing Page]), selecteert u [!UICONTROL URL] Geef in de tweede vervolgkeuzelijst een beoordelaar op en geef vervolgens de gewenste URL op.
 
@@ -47,11 +47,10 @@ Als u een URL-doelverwijzing wilt toepassen tijdens het maken van een publiek, k
 
 URL die richt transformeert URL in een reeks regels om te evalueren:
 
-* URL = `example.com/path1?query=something`
-* URL domain = `example.com`
-* Pad = pad1/pad2/pad3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Domein = `example.com`
+* Pad = `path1/path2/path3`
+* Query = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## Wanneer u complexe URL-tekenreeksen maakt, doet dit [!DNL Target] De volledige URL evalueren?
 
