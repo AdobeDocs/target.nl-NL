@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
+source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '2148'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Informatie over de volgende aanstaande pagina&#39;s van het Koffie:
 
 * **Woensdag 7 juni 2023**
 * **8:00-9:00 (PDT, UTC-7)**
-* **[Meer informatie](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+* **[Meer informatie](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
 
 We worden lid van [!DNL Adobe Target] deskundigen: Bill Ozinga, John Mosbaugh, Justin Patrick en Eric Thibeault. In deze AMA-gebeurtenis (Mij om wat dan ook vragen) worden de experts aangemeld en kunnen ze al uw vragen met betrekking tot de [!DNL Target Recommendations] gebruiken.
 
@@ -44,6 +44,21 @@ Geen gepland op dit moment.
 ## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
 
 Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
+
+### Mobiele ervaring optimaliseren en personaliseren voor geverifieerde omgevingen (26 april 2023)
+
+De merken moeten hoogst gepersonaliseerde en relevante ervaringen leveren die op specifieke klantenbehoeften en gedrag worden gebaseerd. Met vragen over een toekomst zonder cookie in marketingtechnologie willen de gereguleerde industrieën een robuuster kader voor de betrokkenheid van klanten omarmen en de interactie van elke klant optimaliseren voor de juiste inhoud en aanbieding.
+
+Hoe kunnen merken in financiële diensten en verzekeringen, detailhandel, reizen en gastvrijheid, en telecommunicatiesectoren beste praktijken voor optimalisering en verpersoonlijking binnen voor authentiek verklaarde milieu&#39;s toepassen? Hoe kunnen merken die het belang begrijpen voor mobiele apps voor de betrokkenheid en het behoud van loyale klanten, digitale zelfbediening mogelijk maken of de acceptatie van nieuwe functies met persoonlijke ervaringen verhogen?
+
+Leer in deze sessie hoe [!DNL Adobe Target] en [!DNL Real-Time CDP] kan leiden tot meer betrokkenheid, inkomsten en klantenloyaliteit binnen gereglementeerde industrieën terwijl wij bespreken:
+
+* Hoe de teams persoonlijke ervaringen aan zowel anonieme als voor authentiek verklaarde bezoekers leveren
+* Werken met consumentenrechten en privacystandaarden met personalisatie
+* Gepersonaliseerde inhoud en aanbiedingen aan geautoriseerde bezoekers via het anonimiseren van identiteiten
+* Unieke gebruiksgevallen voor geverifieerde, beveiligde sites op het web en op mobiele apparaten
+
+[Koppeling opnemen](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### De reis naar het drijven van groei met Personalisatie
 
