@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2144'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Informatie over de volgende aanstaande pagina&#39;s van het Koffie:
 
 * **Woensdag 7 juni 2023**
 * **8:00-9:00 (PDT, UTC-7)**
-* **[Meer informatie](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
+* **[Meer informatie](https://shorturl.at/irzD5){target=_blank}**
 
 We worden lid van [!DNL Adobe Target] deskundigen: Bill Ozinga, John Mosbaugh, Justin Patrick en Eric Thibeault. In deze AMA-gebeurtenis (Mij om wat dan ook vragen) worden de experts aangemeld en kunnen ze al uw vragen met betrekking tot de [!DNL Target Recommendations] gebruiken.
 
