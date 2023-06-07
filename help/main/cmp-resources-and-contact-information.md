@@ -4,9 +4,9 @@ description: Meer informatie over extra bronnen voor meer informatie over Adobe 
 title: Waar kan ik middelen en contactinformatie voor Doel vinden?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ De Zorg van de klant is bereid om u te helpen om het even welke kwesties oplosse
 
 Als u problemen ondervindt of vragen hebt bij het gebruik van Target, hebt u een aantal opties
 
-Voor vragen kunt u de Adobe Target-experts in het dialoogvenster [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} or ask us on [Twitter](https://twitter.com/adobeglobal){target=_blank}.
+Voor vragen kunt u de Adobe Target-experts in het dialoogvenster [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
 Voor technische problemen of om een probleem te registreren kunt u contact opnemen met de klantenservice. Bel 1-800-497-0335 om telefonisch contact op te nemen met de klantenservice. Gratis nummers buiten de Verenigde Staten zijn te vinden op de [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) pagina. Wanneer gevraagd om een optie voor uw product te selecteren, druk 3 om het team van het Doel te contacteren.
 
@@ -101,7 +101,6 @@ Informatie om contact op te nemen met Adobe en om inzicht te krijgen in de jurid
 Het Adobe Experience Cloud Customer Care-team is hier om u te helpen en biedt een aantal mechanismen waarmee zij zich kunnen aansluiten:
 
 * [Raadpleeg de Help-pagina&#39;s van de Experience Cloud voor advies, tips en veelgestelde vragen](https://helpx.adobe.com/marketing-cloud.html)
-* Vraag ons om [Twitter](https://twitter.com/adobeglobal){target=_blank}
 * [Een ticket openen voor hulp van ondersteuning](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [Neem rechtstreeks contact op met het zorgteam van de klant](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [De beschikbaarheid en status van Experience Cloud-oplossingen controleren](https://status.adobe.com/)

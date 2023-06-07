@@ -4,9 +4,9 @@ description: Toegang [!DNL Adobe Target] documentatie en oplossingen, waaronder 
 title: Waar kan ik documentatie en bronnen vinden voor [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De volgende hulplijnen en bronnen zijn beschikbaar voor [!DNL Target]:
 | [Doel Recommendations API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Informatie over de [!UICONTROL Recommendations] API&#39;s waarmee u programmatisch kunt communiceren met [!DNL Target] aanbevelingen servers. Deze API&#39;s kunnen worden geïntegreerd met een reeks toepassingsstapels om functies uit te voeren die u doorgaans via de [!DNL Target] UI. |
 | [Server Side Delivery-API&#39;s](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Informatie over de bronnen waaruit de Adobe Target Delivery-API bestaat. |
 | [SDK&#39;s aan de serverzijde van het doel](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Verklaart hoe te om op te stellen [!DNL Target] aan serverzijde die SDK&#39;s gebruikt. |
-| [Adobe Experience Platform Mobile SDK&#39;s](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informatie over de uitvoering [!DNL Target] op mobiele apps. |
+| [Adobe Experience Platform Mobile SDK&#39;s](https://experienceleague.adobe.com/docs/mobile.html) | Informatie over de uitvoering [!DNL Target] op mobiele apps. |
 
 Naast de bovenstaande bronnen gaat u naar de [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), waar u kunt:
 
