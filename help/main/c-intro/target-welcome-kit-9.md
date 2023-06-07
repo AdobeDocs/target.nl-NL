@@ -4,9 +4,9 @@ description: Je hebt je eerste activiteit in Adobe Target gemaakt. Wat nu? In di
 title: Waar kan ik extra middelen vinden om het doel effectiever te gebruiken?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ We hebben een georganiseerde lijst met waardevolle informatie samengesteld om u 
 ## Aanvullende bronnen
 
 * **Adobe Target Homepage**: De homepage van [!DNL Adobe Target], leer over onze mogelijkheden en bekijk hier onze meest recente succesverhalen. Zie [Adobe Target](https://www.adobe.com/marketing/target.html).
-* **De blog**: Blijf up-to-date met het nieuwste nieuws, tips en succesverhalen door het volgende te doen: [Doelblog](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
+* **De blog**: Blijf up-to-date met het nieuwste nieuws, tips en succesverhalen door het volgende te doen: [Doelblog](https://blog.adobe.com/en/topics/target).
 * **Experience League**: Ontdek de gidsen, de gebeurtenissen, en de opleiding u uw ervaringszaken moet beginnen, en worden verbonden met de gemeenschap van het Doel en de antwoorden vinden u zoekt. Zie de [Homepage van Adobe Experience League](https://experienceleague.adobe.com/#home).
 * **Adobe Target-certificering**: Met nieuwe Adobe Target-examens krijgt u de status van een Adobe-gecertificeerd expert. Plan hier een examen of trainingscursussen. Zie [Opleiding en certificering](/help/main/c-intro/training-and-certification.md).
 * **Opmerkingen bij de release van Adobe Target**: Informatie over functies, verbeteringen en correcties voor elke functie [!DNL Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast worden releaseopmerkingen voor doel-API&#39;s, SDK&#39;s, de JavaScript-bibliotheek (at.js) en andere platformwijzigingen, indien van toepassing, ook opgenomen. Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md).

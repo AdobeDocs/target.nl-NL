@@ -4,7 +4,7 @@ description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe T
 title: Hoe los ik Doel problemen op?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -117,7 +117,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ### at.js
 
-* [at.js Veelgestelde vragen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [at.js Veelgestelde vragen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
 * [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team.

@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '35952'
+source-wordcount: '35951'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 De nieuwe [!DNL Adobe Target] De model API, ook genoemd de Lijst van gewezen personen API, laat gebruikers de lijst van eigenschappen bekijken en beheren die in machine het leren modellen worden gebruikt voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.
 
-Zie voor meer informatie [Modellen API - Overzicht](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} in de *Adobe Target Developer Guide*.
+Zie voor meer informatie [Modellen API - Overzicht](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in de *Adobe Target Developer Guide*.
 
 ### [!DNL Target] Standard/Premium 22.10.3 (gefaseerde release 25-27 oktober 2022)
 
@@ -238,12 +238,12 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Toegevoegd [Clienttips van gebruikersagent](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank} ondersteuning.
+* Toegevoegd [Clienttips van gebruikersagent](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} ondersteuning.
 * Probleem verholpen waarbij periodiek time-outs werden veroorzaakt tijdens het renderen [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activiteiten. (TNT-44611)
 
 ### at.js versie 2.9.0 (27 mei 2022)
 
-* Toegevoegd [Clienttips van gebruikersagent](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank} ondersteuning.
+* Toegevoegd [Clienttips van gebruikersagent](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} ondersteuning.
 * Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (gespreide vrijgave; mei (11-13 mei 2022)
@@ -1224,7 +1224,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen, oplossingen en wij
    <td colname="col2"> <p>Dit is een onderhoudsrelease en het volgende probleem wordt opgelost: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Probleem verholpen waarbij sites van bepaalde klanten tot een oneindige 'async'-lus leiden. </p> </li> 
-     </ul> </p> <p> <p>Belangrijk: Daarnaast bevat at.js versie 1.6.2 ook alle verbeteringen en correcties die zijn opgenomen in at.js versie 1.6.1 en 1.6.0. Deze versies kunnen niet meer worden gedownload. We raden u aan een upgrade naar versie 1.6.2 uit te voeren als u 1.6.1 of 1.6.0 gebruikt. </p> </p> <p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> at.js - Versiedetails </a>. </p> </td> 
+     </ul> </p> <p> <p>Belangrijk: Daarnaast bevat at.js versie 1.6.2 ook alle verbeteringen en correcties die zijn opgenomen in at.js versie 1.6.1 en 1.6.0. Deze versies kunnen niet meer worden gedownload. We raden u aan een upgrade naar versie 1.6.2 uit te voeren als u 1.6.1 of 1.6.0 gebruikt. </p> </p> <p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js - Versiedetails </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1945,7 +1945,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobiele batchverwerking en Prefetch-levering </p> </td> 
-   <td colname="col2"> <p><b>Bijgewerkt: 12 oktober 2017</b> </p> <p> De inhoud voor veelvoudige dozen kan in één enkele vraag worden pre-opgehaald en plaatselijk in het voorgeheugen ondergebracht op het apparaat zonder zich het ongerust maken hoe, wanneer, en als de eindgebruiker de inhoud zal zien. </p> <p>Deze functie vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/prefetch-offer-content.html" format="dita" scope="local"> Inhoud van voorkeursaanbieding </a>. </p> </td> 
+   <td colname="col2"> <p><b>Bijgewerkt: 12 oktober 2017</b> </p> <p> De inhoud voor veelvoudige dozen kan in één enkele vraag worden pre-opgehaald en plaatselijk in het voorgeheugen ondergebracht op het apparaat zonder zich het ongerust maken hoe, wanneer, en als de eindgebruiker de inhoud zal zien. </p> <p>Deze functie vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Inhoud van voorkeursaanbieding </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activiteiten </p> </td> 
@@ -2425,7 +2425,7 @@ Dit [!DNL Target] release richt zich op verbeteringen op het gebied van bruikbaa
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-namen kunnen nu speciale tekens bevatten, waaronder ampersands ( &amp; ). (TNT-26144) </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js Configurations </a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Toegevoegd <span class="codeph"> secureOnly </span> instelling die aangeeft of <span class="codeph"> at.js </span> mag alleen HTTPS gebruiken of mag schakelen tussen HTTP en HTTPS op basis van het paginaprotocol. Dit is een geavanceerde instelling die standaard op Onwaar wordt ingesteld en via <span class="codeph"> targetGlobalSettings </span>. (TNT-26183) </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>De <span class="wintitle"> Ondersteuning voor oudere browsers </span> optie is beschikbaar in <span class="codeph"> at.js </span> versie 0.9.3 en eerder. Deze optie is verwijderd in <span class="codeph"> at.js </span> versie 0.9.4. </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js Configurations </a>. </p> </li> 
-     </ul> </p> <p>Voor gedetailleerde informatie over de wijzigingen in elke versie van <span class="codeph"> at.js </span>, zie <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> at.js - Versiedetails </a>. </p> </td> 
+     </ul> </p> <p>Voor gedetailleerde informatie over de wijzigingen in elke versie van <span class="codeph"> at.js </span>, zie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js - Versiedetails </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3690,7 +3690,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze release bevat de volgende oplossingen:
 
 * Voor Analytics voor op Doel gebaseerde activiteiten, zijn de Lift en de kolommen van het Vertrouwen nu verborgen voor de metriek van de Analyse waar de berekeningen niet kunnen worden uitgevoerd.
-* Probleem verholpen waarbij de korte indeling van de `charset` metatag is niet herkend in de Enhanced Experience Composer
+* Probleem verholpen waarbij de korte indeling van het `charset` metatag is niet herkend in de Enhanced Experience Composer
 
 **Bekende problemen**
 
