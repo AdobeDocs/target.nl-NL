@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
+source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,6 @@ Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder 
 ## [!UICONTROL Adobe Target Community] Koffie-einden &amp;vragen
 
 Informatie over de volgende aanstaande pagina&#39;s van het Koffie:
-
-### [!DNL Adobe Target Recommendations] Koffiepauze
-
-* **Woensdag 7 juni 2023**
-* **8:00-9:00 (PDT, UTC-7)**
-* **[Meer informatie](https://shorturl.at/irzD5){target=_blank}**
-
-We worden lid van [!DNL Adobe Target] deskundigen: Bill Ozinga, John Mosbaugh, Justin Patrick en Eric Thibeault. In deze AMA-gebeurtenis (Mij om wat dan ook vragen) worden de experts aangemeld en kunnen ze al uw vragen met betrekking tot de [!DNL Target Recommendations] gebruiken.
 
 ### Gereedheid van het Personalisatieprogramma Webinar follow-up
 
