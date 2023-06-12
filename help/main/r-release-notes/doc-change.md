@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
+source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 12 juni | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Bijgewerkt artikel in het dialoogvenster *Experience Cloud Central Interface Components Guide* cookies die worden gebruikt door [!DNL Target]. |
+|  | [De SDK van Java initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Toegevoegde informatie over de parameter &quot;environment&quot;. |
+|  | [De Python SDK initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Toegevoegde informatie over de parameter &quot;environment&quot;. |
 | 5 juni | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Bijgewerkte informatie voor de volgende gebeurtenissen:<ul><li>De registratiekoppeling voor de [!DNL Adobe Target Recommendations] Koffiepauze (woensdag 7 juni 2023)</li><li>Er is informatie toegevoegd over het recente webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environment&quot; en er is een koppeling toegevoegd aan de opname.</li></ul> |
 |  | [Pas een rapporterend publiek op succes toe metrisch](/help/main/c-target/apply-reporting-audience-success-metric.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt en de sectie &quot;Voorbeeld&quot; is toegevoegd. |
 |  | [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | De sectie &#39;URL-doel&#39; is bijgewerkt. |
