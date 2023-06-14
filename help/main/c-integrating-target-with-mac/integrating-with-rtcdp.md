@@ -4,9 +4,9 @@ description: Leer hoe u de [!DNL Target]/[!DNL Real-Time Customer Data Platform]
 title: Hoe integreer ik [!DNL Target] met de [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
+source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,8 @@ Raadpleeg de volgende onderwerpen voor meer informatie:
 * [Vorm verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijking](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} in de *Overzicht van doelen* hulplijn.
 * [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} in de *Overzicht van doelen* hulplijn
 * [Kenmerken Kaart](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} in de *Overzicht van doelen* hulplijn.
+* [Het publiek activeren voor verpersoonlijkingsdoelen van randen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} in de *Overzicht van doelen* hulplijn.
+* [Gelijke pagina en volgende pagina personalisatie door [!DNL Adobe Target] en Aangepaste aanpassingsdoelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} onder &quot;Veelgestelde vragen&quot; in de *Overzicht van doelen* hulplijn.
 
 ## Video&#39;s en blogberichten {#videos-blogs}
 
