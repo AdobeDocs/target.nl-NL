@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Er zijn twee soorten publiek in [!DNL Target]:
 * **Doelgroepen:** Wordt gebruikt om verschillende inhoud aan verschillende typen bezoekers te leveren.
 * **Volwassenen rapporteren:** Hiermee bepaalt u hoe verschillende typen bezoekers op dezelfde inhoud reageren, zodat u de testresultaten kunt analyseren.
 
-   In [!DNL Target], kunt u rapportpubliek slechts vormen als u gebruikt [!DNL Target] als rapportagebron. Als u [Adobe Analytics als rapportagebron](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), moet u uw rapporteringspubliek binnen vormen [!DNL Analytics].
+  In [!DNL Target], kunt u rapportpubliek slechts vormen als u gebruikt [!DNL Target] als rapportagebron. Als u [Adobe Analytics als rapportagebron](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), moet u uw rapporteringspubliek binnen vormen [!DNL Analytics].
 
 ## Gebruik de [!UICONTROL Audiences] list {#use-list}
 
@@ -43,13 +43,13 @@ De [!UICONTROL Audiences] Deze lijst bevat het publiek dat u in uw activiteiten 
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >Gebruikers moeten beschikken over [!UICONTROL Approver] of hoger [!DNL Target] om te vormen [!DNL Target] [!UICONTROL Destinations] kaarten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
-   >
-   >Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](#aep).
+  >[!NOTE]
+  >
+  >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >Gebruikers moeten beschikken over [!UICONTROL Approver] of hoger [!DNL Target] om te vormen [!DNL Target] [!UICONTROL Destinations] kaarten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](#aep).
 
 Vooraf gedefinieerde doelgroepen, zoals &quot;[!UICONTROL New Visitors]&quot; en &quot;[!UICONTROL Returning Visitors],&quot; kan niet worden hernoemd.
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden.
 
 Zie voor meer informatie [Gebruik publiek van [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## CDP-profielkenmerken in realtime gebruiken in HTML- en JSON-aanbiedingen
+
+CDP-profielkenmerken in realtime kunnen worden gedeeld met Target voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. Zie Integreren met voor meer informatie [!DNL Real-Time Customer Data Platform].
+
+Zie voor meer informatie [Inhoud beheren](/help/main/c-experiences/c-manage-content/manage-content.md) en [JSON-aanbiedingen maken](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Trainingsvideo: Soorten publiek gebruiken ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 

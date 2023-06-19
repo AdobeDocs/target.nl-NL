@@ -4,9 +4,9 @@ description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ adobe.target.getOffer({
 
 ## JSON-aanbiedingsvoorbeeld met CDP-profielkenmerken in realtime
 
-CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen.
+CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.
 
 Zie voor meer informatie [CDP-profielkenmerken in realtime delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
