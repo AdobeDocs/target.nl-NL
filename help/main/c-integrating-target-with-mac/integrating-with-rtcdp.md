@@ -4,9 +4,9 @@ description: Leer hoe u de [!DNL Target]/[!DNL Real-Time Customer Data Platform]
 title: Hoe integreer ik [!DNL Target] met de [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,6 @@ Deze integratie ontgrendelt belangrijke gebruiksgevallen met Real-Time CDP:
 Real-Time CDP-profielkenmerken kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML-aanbiedingen en [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ### Beperkingen en overwegingen met betrekking tot de Real-Time CDP-profielkenmerken
-
->[!NOTE]
->
->De functie Real-Time CDP-profielkenmerken is beschikbaar in bèta voor HTML-aanbiedingen en [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 Overweeg het volgende:
 
