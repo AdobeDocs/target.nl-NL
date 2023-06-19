@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden.
 
 Zie voor meer informatie [Gebruik publiek van [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## CDP-profielkenmerken in realtime gebruiken in HTML- en JSON-aanbiedingen
-
-CDP-profielkenmerken in realtime kunnen worden gedeeld met Target voor gebruik in HTML-aanbiedingen en JSON-aanbiedingen. Zie Integreren met voor meer informatie [!DNL Real-Time Customer Data Platform].
-
-Zie voor meer informatie [Inhoud beheren](/help/main/c-experiences/c-manage-content/manage-content.md) en [JSON-aanbiedingen maken](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Trainingsvideo: Soorten publiek gebruiken ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 

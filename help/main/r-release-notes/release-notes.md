@@ -6,9 +6,9 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '655'
 ht-degree: 8%
 
 ---
@@ -23,20 +23,24 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-| Functie | Details |
-|--- |--- |
-| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
-
 * Probleem verholpen waarbij een lege pagina werd weergegeven terwijl een API-autorisatietoken voor profielen werd gegenereerd. (TGT-45387 &amp; TGT-45423)
 * Probleem verholpen waarbij een afbeelding niet kon worden weergegeven in het dialoogvenster [!UICONTROL Create Design] als de afbeeldingsnaam 18030 GB tekens bevat. (TGT-44614)
 * Probleem verholpen waarbij tekst/HTML ten onrechte werd beschermd tegen sommige GB 18030-symbooltekens. (TGT-44600)
 * Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization] activiteiten om tijdens de analyse te bevriezen. (TGT-44820)
-* Probleem verholpen waardoor het zoeken naar een activiteit op de [!UICONTROL Activity] pagina als de naam van de activiteit een vierkant haakje bevat ( [ of ] ). (TGT-44777)
+* Probleem verholpen waardoor het zoeken naar een activiteit op de [!UICONTROL Activity] pagina als de naam van de activiteit een vierkant haakje bevat ( [of] ). (TGT-44777)
 * Probleem verholpen waardoor een activiteit niet kon worden gesynchroniseerd als het doel van de activiteit speciale tekens bevat. (TGT-44982)
 * Probleem opgelost waarbij geen activiteiten werden weergegeven in het dialoogvenster [!DNL Target] UI voor de Standaardwerkruimte voor bepaalde klanten. (TGT-45286)
 * De werking van de markering Duplicaten niet toestaan is bijgewerkt. Markten voor uitgesloten herhalingsaanbiedingen worden bijgewerkt om herhalende aanbiedingen toe te staan als deze de standaardinhoudsaanbieding zijn (voor API&#39;s v3, v4) en om dubbele opties toe te staan als de opties verwijzen naar de standaardinhoudsaanbieding en geen sjablonen hebben gedefinieerd. (TNT-46617)
 * Probleem verholpen waarbij een queryparameter werd toegevoegd aan een URL waardoor de pagina niet kon worden geladen in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
 * Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
+
+## Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target]|[!UICONTROL Real-Time CDP Profile Attributes] (13 juni 2023)
+
+Deze release bevat de volgende verbeteringen:
+
+| Functie | Details |
+|--- |--- |
+| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 mei 2023)
 
