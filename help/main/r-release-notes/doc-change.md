@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 286cc7cab27f952208e5dacf6cc0b01129d199b9
+source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 26 juni | [Doel voor mobiele apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html){target=_blank} | Toegevoegde koppeling naar het werkgebied Implementeren [!DNL Adobe Experience Cloud] in de zelfstudie over mobiele apps. |
+| 26 juni | [Doel voor mobiele apps](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank} | Toegevoegde koppeling naar het werkgebied Implementeren [!DNL Adobe Experience Cloud] in de zelfstudie over mobiele apps. |
 | 12 juni | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Bijgewerkt artikel in het dialoogvenster *Experience Cloud Central Interface Components Guide* cookies die worden gebruikt door [!DNL Target]. |
 |  | [De SDK van Java initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Toegevoegde informatie over de parameter &quot;environment&quot;. |
 |  | [De Python SDK initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Toegevoegde informatie over de parameter &quot;environment&quot;. |
