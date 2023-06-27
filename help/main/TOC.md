@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1215'
 ht-degree: 3%
 
 ---
@@ -141,7 +141,6 @@ ht-degree: 3%
       + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](c-activities/t-automated-personalization/experience-as-control.md)
       + [Veelgestelde vragen over Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Automated Personalization-activiteiten voorvertonen met voorbeeld-URL&#39;s](c-activities/t-automated-personalization/experience-preview.md)
       + [Problemen met Automated Personalization oplossen](c-activities/t-automated-personalization/ap-trouble.md)
    + Gericht op ervaring {#experience-targeting}
       + [Gericht overzicht van de ervaring](c-activities/t-experience-target/experience-target.md)

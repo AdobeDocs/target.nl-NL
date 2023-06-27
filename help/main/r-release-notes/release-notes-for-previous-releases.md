@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
 workflow-type: tm+mt
-source-wordcount: '35951'
+source-wordcount: '36273'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,37 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2023
+
+### [!DNL Target] Standard/Premium 23.5.2 (31 mei 2023)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Probleem verholpen waarbij een lege pagina werd weergegeven terwijl een API-autorisatietoken voor profielen werd gegenereerd. (TGT-45387 &amp; TGT-45423)
+* Probleem verholpen waarbij een afbeelding niet kon worden weergegeven in het dialoogvenster [!UICONTROL Create Design] als de afbeeldingsnaam 18030 GB tekens bevat. (TGT-44614)
+* Probleem verholpen waarbij tekst/HTML ten onrechte werd beschermd tegen sommige GB 18030-symbooltekens. (TGT-44600)
+* Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization] activiteiten om tijdens de analyse te bevriezen. (TGT-44820)
+* Probleem verholpen waardoor het zoeken naar een activiteit op de [!UICONTROL Activity] pagina als de naam van de activiteit een vierkant haakje bevat ( [of] ). (TGT-44777)
+* Probleem verholpen waardoor een activiteit niet kon worden gesynchroniseerd als het doel van de activiteit speciale tekens bevat. (TGT-44982)
+* Probleem opgelost waarbij geen activiteiten werden weergegeven in het dialoogvenster [!DNL Target] UI voor de Standaardwerkruimte voor bepaalde klanten. (TGT-45286)
+* De werking van de markering Duplicaten niet toestaan is bijgewerkt. Markten voor uitgesloten herhalingsaanbiedingen worden bijgewerkt om herhalende aanbiedingen toe te staan als deze de standaardinhoudsaanbieding zijn (voor API&#39;s v3, v4) en om dubbele opties toe te staan als de opties verwijzen naar de standaardinhoudsaanbieding en geen sjablonen hebben gedefinieerd. (TNT-46617)
+* Probleem verholpen waarbij een queryparameter werd toegevoegd aan een URL waardoor de pagina niet kon worden geladen in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
+* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
+
+### Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] (13 juni 2023)
+
+Deze release bevat de volgende verbeteringen:
+
+| Functie | Details |
+|--- |--- |
+| Real-Time CDP-profielkenmerken die worden gedeeld met [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] kan worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.<P>Zie voor meer informatie [Real-Time CDP-profielkenmerken delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+
+### [!DNL Target] Standard/Premium 23.5.1 (23-25 mei 2023)
+
+Deze release bevat de volgende nieuwe verbeteringen en oplossingen:
+
+* Probleem verholpen waardoor bepaalde klanten geen publiek konden maken met bezoekersprofielen met de operatoren &quot;groter dan&quot; of &quot;kleiner dan&quot;. (TGT-45271)
+* Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
+* De interface van het Doel is op verschillende plaatsen bijgewerkt voor een komende UI (de veranderingen zijn achter een eigenschapvlag tot de updates worden vrijgegeven).
 
 ### [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
 
@@ -150,7 +181,7 @@ Deze versie bevat de volgende oplossingen:
 * Extra knopinfo in het dialoogvenster [!DNL Target] UI om klanten te helpen efficiënter navigeren de publieksbouwer en te leren hoe te om eigenschappen te gebruiken die onvertrouwd zouden kunnen zijn. (TGT-44139)
 * Extra functionaliteit om te voorkomen dat klanten een activiteit bewerken die door [!DNL Target] omdat er niet-ondersteunde meetgegevens worden gebruikt. Een bericht in UI geeft klanten de opdracht om de activiteit te dupliceren en dan omzettings metrisch bij te werken.
 
-   Met deze release `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden vervangen voor nieuwe activiteiten . Bestaande activiteiten kunnen deze cijfers tot mei 2023 blijven gebruiken.
+  Met deze release `averagetimespentonsite`, `bouncerate`, en `entries` maatstaven in [!DNL Target] de activiteiten zullen worden vervangen voor nieuwe activiteiten . Bestaande activiteiten kunnen deze cijfers tot mei 2023 blijven gebruiken.
 
 * Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen een optimalisatiecriteria te selecteren terwijl het creëren van of het uitgeven van een [!UICONTROL Auto-Target] activiteit die A4T gebruikt.
 
@@ -386,27 +417,27 @@ De volgende verbeteringen zijn toegevoegd tijdens het gebruik [!DNL Target] [!UI
 
 * Er zijn waarschuwingspictogrammen, popovers en berichten toegevoegd op verschillende plaatsen in het dialoogvenster [!DNL Target] UI om aan te geven dat het publiek bij de bron is verwijderd en niet langer beschikbaar is voor gebruik in [!DNL Target] activiteiten.
 
-   In de volgende afbeeldingen ziet u een aantal plaatsen waar de pictogrammen, popovers en berichten worden weergegeven:
+  In de volgende afbeeldingen ziet u een aantal plaatsen waar de pictogrammen, popovers en berichten worden weergegeven:
 
    * [!UICONTROL Activity] lijstpagina
 
-      ![Publiek verwijderd bij bronbericht op pagina Activiteiten](assets/deleted-at-source-audiences-list.png)
+     ![Publiek verwijderd bij bronbericht op pagina Activiteiten](assets/deleted-at-source-audiences-list.png)
 
    * Activiteit [!UICONTROL Overview] pagina&#39;s:
 
-      ![Publiek verwijderd bij bronbericht op overzichtspagina](assets/deleted-at-source-overview.png)
+     ![Publiek verwijderd bij bronbericht op overzichtspagina](assets/deleted-at-source-overview.png)
 
    * [!UICONTROL Experiences] stap van de workflow voor het maken van activiteiten:
 
-      ![Publiek verwijderd bij bronbericht op [!UICONTROL Experiences] page](assets/deleted-at-source-experiences.png)
+     ![Publiek verwijderd bij bronbericht op [!UICONTROL Experiences] page](assets/deleted-at-source-experiences.png)
 
    * [!UICONTROL Targeting] stap van de workflow voor het maken van activiteiten:
 
-      ![Publiek verwijderd bij bronbericht op [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
+     ![Publiek verwijderd bij bronbericht op [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
 
    * [!UICONTROL Goals & Settings] stap van de workflow voor het maken van activiteiten:
 
-      ![Publiek verwijderd bij bronbericht op de [!UICONTROL Goals & Settings] page](assets/deleted-at-source-goals-settings.png)
+     ![Publiek verwijderd bij bronbericht op de [!UICONTROL Goals & Settings] page](assets/deleted-at-source-goals-settings.png)
 
    * Poortverfijningen ([!UICONTROL Replace Audience] op de [!UICONTROL Targeting] stap van de workflow voor het maken van activiteiten):
 
@@ -469,7 +500,7 @@ Deze release bevat de volgende verbeteringen:
    * dataPartnerId: Identiteitskaart voor een gegevenspartner.
    * dataPartnerUserId: De gebruikers-id die door een gegevenspartner wordt verstrekt.
 
-   Eerder was de leverings-API inbegrepen `dcsLocationHint` en `blob` alleen. (TNT-41644)
+  Eerder was de leverings-API inbegrepen `dcsLocationHint` en `blob` alleen. (TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1 (30 juni 2021)
 
@@ -551,11 +582,11 @@ De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
 * De toegestane aanbiedingsgrootte is vergroot (TGT-38304):
 
-   | Type | Vorige limiet | Nieuwe limiet |
-   | --- | --- | --- |
-   | HTML | 256 kB | 1024 kB |
-   | Visuele aanbiedingen van het Doel UI | 64 kB | 1024 kB voor elke ervaring |
-   | Via API | 512 kB | 1024 kB |
+  | Type | Vorige limiet | Nieuwe limiet |
+  | --- | --- | --- |
+  | HTML | 256 kB | 1024 kB |
+  | Visuele aanbiedingen van het Doel UI | 64 kB | 1024 kB voor elke ervaring |
+  | Via API | 512 kB | 1024 kB |
 
 * [!UICONTROL Personalization Insights] rapporten voor [!UICONTROL Auto-Target] (AT) en [!UICONTROL Automated Personalization] (AP) activiteiten worden nu dagelijks geproduceerd. U kunt een rapport kiezen dat [!UICONTROL Automated Segments] of [!UICONTROL Important Attributes] gedurende de laatste 15, 30 en 60 dagen. De opties van 45 dagen en 90 dagen zijn verwijderd om de andere montages van het terugkijkvenster toe te laten om dagelijks te lopen. (TGT-39472)
 * Probleem opgelost waarbij de huidige afhankelijkheid niet werd weergegeven wanneer klanten op [!UICONTROL Edit Dependency] op een activiteit [!UICONTROL Goals & Settings] pagina. (TGT-39340)
@@ -603,7 +634,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem verholpen dat gevolgen had [!DNL Adobe Target Premium] gebruikers [!UICONTROL Auto-Target] rapportage vanaf 15 september, 2:30 uur (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd die of &quot;[!UICONTROL Viewed a page]&quot; of &quot;[!UICONTROL Clicked on mbox]&quot; optie), worden de omrekeningskoersen onjuist gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
 * Een selecteerbaar item toegevoegd [!UICONTROL Last Updated At] in de [!UICONTROL Catalog Search] tabel en [!UICONTROL Last Updated At] filter. Deze verbetering bespaart tijd en inspanning omdat u niet elk individueel punt moet openen om te zien wanneer het laatst werd bijgewerkt en u kunt filtreren door datum de punten werden laatst bijgewerkt.
 
-   ![Laatst bijgewerkt bij kolom- en filterillustratie](/help/main/r-release-notes/assets/column-and-filter.png)
+  ![Laatst bijgewerkt bij kolom- en filterillustratie](/help/main/r-release-notes/assets/column-and-filter.png)
 
 * Er zijn updates uitgevoerd om de doelgebruikersinterface compatibel te maken met [Richtlijnen voor toegankelijkheid van webinhoud](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Niveau A en A Success Criteria (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
 * Verbeterde CSP-functies (Content Security Policy). (TGT-37035)
@@ -814,19 +845,19 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Opgeloste lokalisatieproblemen zodat de UI-tekst in verschillende talen correct wordt weergegeven.
 * We hebben de lijst met beschikbare meetgegevens van Adobe Analytics for Target (A4T)-activiteiten gestandaardiseerd door Adobe Analytics-meetgegevens af te schaffen die niet worden ondersteund in de huidige versie van Adobe Analytics API&#39;s. Hierdoor kunnen we onze A4T-ondersteuning uitbreiden in toekomstige versies van Adobe Target.
 
-   De volgende wijzigingen zijn aangebracht:
+  De volgende wijzigingen zijn aangebracht:
 
    * &quot;Gemiddelde tijd die op pagina wordt besteed&quot; is vervangen door &quot;Gemiddelde tijd die ter plekke wordt besteed.&quot; Om het even welke activiteiten die dit als metrisch metrisch het Primaire Metrische Doel gebruiken zullen &quot;Gemiddelde Tijd die op Plaats wordt uitgegeven&quot;hebben (nota: (gemeten in minuten in plaats van seconden) geselecteerd als Primair doel Metrisch wanneer de activiteit de volgende keer wordt bewerkt.
    * &quot;Bezoekers&quot; is vervangen door &quot;Unieke Bezoekers&quot;. Voor alle activiteiten waarbij deze metrische waarde wordt gebruikt als &#39;Primaire Goal Metric&#39;, worden &#39;Unieke bezoekers&#39; geselecteerd als &#39;Primaire Goal Metric&#39; wanneer de activiteit de volgende keer wordt bewerkt.
 
 * De volgende metriek zijn afgekeurd en kunnen niet meer worden geselecteerd als Primair doel Metrisch wanneer het creëren van een nieuwe activiteit A4T.
 
-   | Vervangen metrisch(e) | Voorgestelde vervangende metrische(n) |
-   |--- |--- |
-   | Dagelijkse Bezoekers, Uur Bezoekers, Maandelijkse Bezoekers, Driemaandelijkse Bezoekers, Wekelijkse Bezoekers, Jaarlijkse Bezoekers | Unieke bezoekers |
-   | Gemiddelde visdiepte | n.v.t. Niet voorgesteld als primair doel metrisch |
-   | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
-   | Mobiele crashsnelheid, Mobile Avg vorige sessieduur, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
+  | Vervangen metrisch(e) | Voorgestelde vervangende metrische(n) |
+  |--- |--- |
+  | Dagelijkse Bezoekers, Uur Bezoekers, Maandelijkse Bezoekers, Driemaandelijkse Bezoekers, Wekelijkse Bezoekers, Jaarlijkse Bezoekers | Unieke bezoekers |
+  | Gemiddelde visdiepte | n.v.t. Niet voorgesteld als primair doel metrisch |
+  | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
+  | Mobiele crashsnelheid, Mobile Avg vorige sessieduur, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
 
 ### Navigatie door Adobe Experience Cloud (22 februari 2019)
 
@@ -838,9 +869,10 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
    * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw werkstroom niet verstoort.
 
    * Meldingen voor [!DNL Target] zijn momenteel niet beschikbaar in het dialoogvenster [!UICONTROL Notifications] in de koptekst.
-   >[!NOTE]
-   >
-   >Tijdens de introductie van de nieuwe navigatiebalk zult u ook enkele URL-wijzigingen zien. Alle vorige bladwijzerkoppelingen werken nog steeds, maar we raden u aan nieuwe bladwijzerkoppelingen te maken om deze sneller te openen.
+
+  >[!NOTE]
+  >
+  >Tijdens de introductie van de nieuwe navigatiebalk zult u ook enkele URL-wijzigingen zien. Alle vorige bladwijzerkoppelingen werken nog steeds, maar we raden u aan nieuwe bladwijzerkoppelingen te maken om deze sneller te openen.
 
 ### Target Standard/Premium 20.1.1 (4 februari 2020)
 
@@ -889,11 +921,12 @@ Het volgende probleem is opgelost in versie 1.0.1:
    * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw werkstroom niet verstoort.
 
    * Meldingen voor [!DNL Target] zijn momenteel niet beschikbaar in het dialoogvenster [!UICONTROL Notifications] in de koptekst.
-   >[!NOTE]
-   >
-   >Deze functies worden niet meteen geïmplementeerd en worden ook niet samen aan alle klanten aangeboden. Deze functies zullen de komende weken worden geïmplementeerd, te beginnen met de [!DNL Target Standard/Premium] Release van 19.10.1 (22 oktober 2019).
-   >
-   >Tijdens de introductie van de nieuwe navigatiebalk zult u ook enkele URL-wijzigingen zien. Alle vorige bladwijzerkoppelingen werken nog steeds, maar we raden u aan nieuwe bladwijzerkoppelingen te maken om deze sneller te openen.
+
+  >[!NOTE]
+  >
+  >Deze functies worden niet meteen geïmplementeerd en worden ook niet samen aan alle klanten aangeboden. Deze functies zullen de komende weken worden geïmplementeerd, te beginnen met de [!DNL Target Standard/Premium] Release van 19.10.1 (22 oktober 2019).
+  >
+  >Tijdens de introductie van de nieuwe navigatiebalk zult u ook enkele URL-wijzigingen zien. Alle vorige bladwijzerkoppelingen werken nog steeds, maar we raden u aan nieuwe bladwijzerkoppelingen te maken om deze sneller te openen.
 
 ### at.js versie 2.2 en 1.8 (10 oktober 2019)
 
@@ -1018,12 +1051,12 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 * We hebben de workflow verbeterd wanneer u elementen verwijdert met de VEC. Verwijderde elementen worden nu verwijderd uit de [!UICONTROL Offers library] en van [!DNL Scene7] (indien van toepassing). Verwijderde elementen worden niet meer weergegeven in zoekresultaten. (TGT-31981)
 * U kunt nu elementmappen verwijderen, zelfs als deze afbeeldingen bevatten (niet-lege mappen). (TGT-33265)
 
-   Eerder kon u een niet-lege map niet verwijderen uit de bibliotheek met doelafbeeldingsaanbiedingen ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Er wordt dan een &#39;&#39;Map is niet leeg!&#39;&#39; weergegeven bericht wanneer u probeert de map te verwijderen uit de gebruikersinterface.  Met deze functie voegen we de mogelijkheid toe om het verwijderen van mappen uit te voeren en een volledige map te verwijderen die een willekeurig aantal elementen en submappen in de map bevat. Deze functie is beschikbaar in de interface Doel en in de gebruikersinterface van Adobe Experience Cloud Assets.
+  Eerder kon u een niet-lege map niet verwijderen uit de bibliotheek met doelafbeeldingsaanbiedingen ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Er wordt dan een &#39;&#39;Map is niet leeg!&#39;&#39; weergegeven bericht wanneer u probeert de map te verwijderen uit de gebruikersinterface.  Met deze functie voegen we de mogelijkheid toe om het verwijderen van mappen uit te voeren en een volledige map te verwijderen die een willekeurig aantal elementen en submappen in de map bevat. Deze functie is beschikbaar in de interface Doel en in de gebruikersinterface van Adobe Experience Cloud Assets.
 
    * U kunt niet-lege mappen uit de bibliotheek met afbeeldingsaanbiedingen verwijderen. Als in geen enkele activiteit naar alle afbeeldingen in de map wordt verwezen, worden de volledige map en de inhoud ervan verwijderd. Als er in een willekeurige activiteit naar bepaalde afbeeldingen in de map wordt verwezen, worden alle afbeeldingen zonder referenties verwijderd, maar blijven de afbeeldingen en mappen waarin naar wordt verwezen, behouden.
    * Het renderen van afbeeldingsaanbiedingen in de Afbeeldingselementkiezer gaat sneller en efficiënter.
 
-   Zie voor meer informatie [Werken met inhoud in de bibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
+  Zie voor meer informatie [Werken met inhoud in de bibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
 * We hebben de rendering van afbeeldingsaanbiedingen verbeterd in de middelenkiezer. Het weergeven en selecteren van aanbiedingen voor afbeeldingen gaat nu sneller en efficiënter. (TGT-32897)
 * We hebben de verwerking van omleidingen naar URL&#39;s verbeterd wanneer u het laden van een pagina in de VEC annuleert. (TGT-33815)
@@ -1205,7 +1238,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen, oplossingen en wij
    * Als een publiek in AAM is verwijderd, verschijnt er een waarschuwingspictogram in het dialoogvenster [!UICONTROL Audience] wordt weergegeven. Een hulpmiddel-uiteinde in UI wijst ook erop dat het publiek in AAM werd geschrapt.
    * Als u meerdere soorten publiek probeert te combineren met een verwijderd publiek of als u een activiteit probeert op te slaan die verwijst naar een verwijderd publiek, wordt een waarschuwingsbericht weergegeven.
 
-   Zie [Informatie over publiek](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html).
+  Zie [Informatie over publiek](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html).
 
 * Probleem verholpen waardoor gebruikers in bepaalde situaties geen activiteit konden maken toen Adobe Analytics als bron voor rapportage op de [!UICONTROL Administration] pagina. Gebruikers zagen een bericht &quot;Selecteer een rapportsuite&quot;, ook al kregen ze niet de mogelijkheid om de rapportsuite te selecteren. (TGT-31968)
 
@@ -1458,9 +1491,9 @@ Deze release bevat de volgende verbeteringen:
 
 * Bijgewerkt de apparatenlijst om de recentste telefoonmodellen te omvatten. De mogelijkheid om gerichte inhoud te leveren aan specifieke iPhone-modellen is toegevoegd met de marketingnaam of het apparaatmodel van het apparaat.
 
-   Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken, moeten een upgrade uitvoeren naar at.js versie 1.5.0.
+  Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken, moeten een upgrade uitvoeren naar at.js versie 1.5.0.
 
-   Zie voor meer informatie [Mobiel](/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
+  Zie voor meer informatie [Mobiel](/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
 
 ### Doel-API voor downloaden (5 juni 2018) {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
@@ -1994,7 +2027,7 @@ Dit [!DNL Target] release bevat de volgende klantgerichte verbeteringen, oplossi
 
 * Gebruikers met de machtiging fiatteur kunnen nu tokens voor API-profielverificatie genereren en inschakelen. (TGT-24074)
 
-   Zie voor meer informatie [Profiel-API-instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}.
+  Zie voor meer informatie [Profiel-API-instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}.
 
 * Wanneer het creëren van een activiteit in de Visuele Composer van de Ervaring en de gebruiker herlaadt de pagina, worden de activiteit URL en bijbehorende eigenschappen behouden in UI. De noodzaak om opnieuw te laden kan voorkomen als de activiteit gemengde inhoud (veilige en onveilige inhoud) gebruikt of er toestemmingskwesties zijn. (TGT-28230)
 * Verbeterde berichten wanneer een activiteit gemengde inhoud (veilige en onveilige inhoud) gebruikt. Het bericht bevat informatie waarmee gebruikers de benodigde stappen kunnen uitvoeren die nodig zijn om een HTTP-site of een site met gemengde aanroepen (HTTPS en HTTP) te openen. (TGT-26271)
@@ -2174,7 +2207,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen voor
 
 * De workflow is verbeterd wanneer een gebruiker [!DNL Target] sessietijden uit tijdens het maken of bewerken van een activiteit of aanbieding. Wanneer de gebruiker klikt [!UICONTROL Save], wordt het bericht dat de sessie is verlopen weergegeven, maar nadat u zich weer hebt aangemeld, wordt de gebruiker in een dialoogvenster op de hoogte gebracht van een geslaagde aanmelding en blijft de gebruikersinterface op dezelfde pagina staan in [!DNL Target] zonder gegevensverlies.
 
-   Als een gebruiker een intermitterende actie uitvoert op een [!DNL Target] pagina en ondervindt een sessietime-out. De gebruiker wordt doorgestuurd naar opnieuw aanmelden en vervolgens wordt doorgestuurd naar de laatste pagina die in het dialoogvenster is bewerkt [!DNL Target] UI.
+  Als een gebruiker een intermitterende actie uitvoert op een [!DNL Target] pagina en ondervindt een sessietime-out. De gebruiker wordt doorgestuurd naar opnieuw aanmelden en vervolgens wordt doorgestuurd naar de laatste pagina die in het dialoogvenster is bewerkt [!DNL Target] UI.
 
 * Probleem verholpen waarbij wijzigingen in aangepaste code verloren gingen als de gebruiker wegbladert (wijzigt ervaringen, wisselpagina, wisselend publiek, klikt op Volgende enz.) en vergeet wijzigingen op te slaan. De gebruiker wordt nu gevraagd de wijzigingen op te slaan. (TGT-23766)
 * Wanneer een activiteit wordt gearchiveerd, wordt &quot;Gearchiveerd de activiteit&quot; weergegeven in plaats van &quot;De activiteit bijwerken&quot;. (kB-1517)
@@ -2188,19 +2221,19 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen voor
 * Rapporten in Standaard/Premium worden nu weergegeven in de tijdzone van uw account in plaats van in de tijdzone van de doelserver (US EST). (TGT-24868)
 * Indien activiteiten die in [!DNL Target] worden bijgewerkt van buiten [!DNL Target] (bijvoorbeeld via Adobe I/O) worden de volgende activiteitskenmerken weer geïmporteerd in [!DNL Target]:
 
-   `thirdpartyId`
+  `thirdpartyId`
 
-   `startDate`
+  `startDate`
 
-   `endDate`
+  `endDate`
 
-   `status`
+  `status`
 
-   `priority`
+  `priority`
 
-   `marketingCloudMetadata(remoteModifiedBy)`
+  `marketingCloudMetadata(remoteModifiedBy)`
 
-   Deze importtaak wordt uitgevoerd wanneer de activiteitenpagina wordt geopend, met een maximale vertraging van tien minuten. (kB-1526)
+  Deze importtaak wordt uitgevoerd wanneer de activiteitenpagina wordt geopend, met een maximale vertraging van tien minuten. (kB-1526)
 
 ### Target Standard/Premium 17.6.2 (22 juni 2017) {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -2369,7 +2402,7 @@ Dit [!DNL Target] release bevat de volgende verbeteringen en oplossingen: :
 
    * In rapporten en activiteiten zijn enkele opties beschikbaar ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], enz.) zijn nu toegankelijk door op de knop [!UICONTROL More Options] icon (  ![icon_more_options-afbeelding](assets/icon_more_options.png)
 
-      ).
+     ).
    * In de [!UICONTROL Offers] bibliotheek, worden nu in een lijst weergegeven in plaats van als kaarten. In de hele gebruikersinterface zijn andere kleine wijzigingen aangebracht [!UICONTROL Offers] wisselaar-UI.
 
 * De prestaties zijn aanzienlijk verbeterd op de [!UICONTROL Activity] en [!UICONTROL Audience] lijsten. Bovendien worden de laadtijden voor zoekresultaten aanzienlijk sneller weergegeven.
@@ -2406,7 +2439,7 @@ Dit [!DNL Target] release richt zich op verbeteringen op het gebied van bruikbaa
 * Het probleem dat ervoor zorgde dat de [!UICONTROL Disable JavaScript] van het correct werken aan activiteiten met meerdere pagina&#39;s. (TGT-15130)
 * Als u de Composer Formuliergebaseerde ervaring gebruikt met een andere box dan de automatisch gemaakte globale box ( `target-global-mbox`) en kies vervolgens een betrokkenheidsmetrische waarde als een succesmetrische waarde, waarbij de metrische waarde alleen wordt verhoogd op pagina&#39;s waarop het selectievakje is gebruikt in de activiteit. Als voorbeeld: als uw box `homepage_mbox`de [!UICONTROL Pages Per Visit] metrisch is het aantal treffers aan `homepage_mbox` tijdens dat bezoek.
 
-   Als u dit niet wilt, kunt u een andere locatie aan de activiteit toevoegen en het globale vakje aan die locatie toewijzen en de standaardinhoud ervan geven. Deze tijdelijke oplossing verbindt globale mbox met de activiteit en staat Doel toe om metrisch voor het melden te tellen.
+  Als u dit niet wilt, kunt u een andere locatie aan de activiteit toevoegen en het globale vakje aan die locatie toewijzen en de standaardinhoud ervan geven. Deze tijdelijke oplossing verbindt globale mbox met de activiteit en staat Doel toe om metrisch voor het melden te tellen.
 
 ### Wijzigingen in Platform (18 januari 2017) {#section_EA41802B2B24426FBA88D25E17DBE360}
 
@@ -2840,16 +2873,16 @@ De volgende bekende problemen zijn gemeld:
 
 * De documentatie toont het verwachte gedrag voor Redirect URL checkbox. Vanwege een bug wordt het selectievakje echter niet standaard ingeschakeld weergegeven. Dit gebrek zal spoedig worden opgelost.
 
-   Als u deze optie wilt controleren in een bestaande activiteit met een omleidingsvoorstel, gebruikt u de volgende tijdelijke oplossing:
+  Als u deze optie wilt controleren in een bestaande activiteit met een omleidingsvoorstel, gebruikt u de volgende tijdelijke oplossing:
 
    1. Open het pop-upvenster Omleiden naar URL.
    1. Wijzig de URL in een dummy-URL en sla deze op.
    1. Wijzig de dummy-URL opnieuw in de verwachte omleiding van de campagne-URL.
    1. Schakel de optie Inclusief huidige queryparameters in en sla deze op.
 
-   Als u de optie controleert terwijl het creëren van een nieuwe omleidingsaanbieding, kunt u uw vraagparameters verwachten om in redirection worden omvat.
+  Als u de optie controleert terwijl het creëren van een nieuwe omleidingsaanbieding, kunt u uw vraagparameters verwachten om in redirection worden omvat.
 
-   Voor oudere activiteiten, als deze optie in ervaringscomposer van uw activiteit wordt gecontroleerd, betekent het uw redirection de vraagparameters zal omvatten. Als het niet wordt gecontroleerd, zullen de huidige vraagparameters niet in redirection worden omvat.
+  Voor oudere activiteiten, als deze optie in ervaringscomposer van uw activiteit wordt gecontroleerd, betekent het uw redirection de vraagparameters zal omvatten. Als het niet wordt gecontroleerd, zullen de huidige vraagparameters niet in redirection worden omvat.
 
 ### Adobe [!DNL Target] Standard/Premium 16.5.1 (19 mei 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
 
@@ -2869,7 +2902,7 @@ De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende 
   </tr> 
   <tr> 
    <td colname="col1"> URL's voor kwaliteitscontrole/voorvertoning </td> 
-   <td colname="col2"> <p>Voorbeeld-URL's zijn nu beschikbaar voor de op formulieren gebaseerde ervaringscomposer. </p> <p>Zie <a href="/help/main/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC" format="dita" scope="local"> Ervaring-URL's weergeven </a>. </p> </td> 
+   <td colname="col2"> <p>Voorbeeld-URL's zijn nu beschikbaar voor de op formulieren gebaseerde ervaringscomposer. </p> <p>Zie <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> Ervaring-URL's weergeven </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Aangepaste Recommendations-algoritmen </td> 
@@ -2945,14 +2978,14 @@ Houd rekening met het volgende wanneer u at.js implementeert:
 * at.js v 0.8.0 is nu beschikbaar voor download van de interface van het Doel.
 * Doel-API&#39;s gewijzigd. `applyOffer` nu vereist `mbox param [0]`.
 
-   ```
-   adobe.target.applyOffer({ 
-       "mbox": "target-global-mbox", 
-    "params": {"test": "true"}, 
-       "selector": ".banner-text", 
-       "offer": offer 
-   });
-   ```
+  ```
+  adobe.target.applyOffer({ 
+      "mbox": "target-global-mbox", 
+   "params": {"test": "true"}, 
+      "selector": ".banner-text", 
+      "offer": offer 
+  });
+  ```
 
 ### Adobe [!DNL Target] Standard/Premium 16.4.1 (21 april 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
 
@@ -3690,7 +3723,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze release bevat de volgende oplossingen:
 
 * Voor Analytics voor op Doel gebaseerde activiteiten, zijn de Lift en de kolommen van het Vertrouwen nu verborgen voor de metriek van de Analyse waar de berekeningen niet kunnen worden uitgevoerd.
-* Probleem verholpen waarbij de korte indeling van het `charset` metatag is niet herkend in de Enhanced Experience Composer
+* Probleem verholpen waarbij de korte indeling van de `charset` metatag is niet herkend in de Enhanced Experience Composer
 
 **Bekende problemen**
 
