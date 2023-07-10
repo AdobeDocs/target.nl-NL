@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 juli | [Overwegingen en bekende beperkingen](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | Informatie toegevoegd aan de *API voor doellevering* documentatie over HTTP/2 het afdwingen van de namen van de kleine kopbal. |
 | 27 juni | [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Activiteit QA is nu beschikbaar voor alle types van Doelactiviteit, met inbegrip van [!UICONTROL Automated Personalization] (AP) activiteiten. Informatie over voorvertoningskoppelingen is verwijderd. |
 |  | Voorvertoning van URL&#39;s | Omdat alle activiteitentypes nu Activiteit QA steunen, werd dit onderwerp geschrapt en opnieuw gericht aan [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) onderwerp. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.6.1. |
