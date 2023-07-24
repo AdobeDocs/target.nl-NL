@@ -4,7 +4,7 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e4bfdd4b777d90fc79a0f275a1cd6dd25e19b79d
+source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 23.7.1 (25-27 juli)
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
 
 Deze release is beschikbaar volgens het volgende schema:
 
