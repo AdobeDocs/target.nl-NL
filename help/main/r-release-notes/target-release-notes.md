@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: e4bfdd4b777d90fc79a0f275a1cd6dd25e19b79d
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,20 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
+## [!DNL Target] Standard/Premium 23.7.1 (25-27 juli)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **27 juni**: Europa, Midden-Oosten en Afrika (EMEA)
-* **28 juni**: Regio Azië-Stille Oceaan (APAC)
-* **29 juni**: Amerikaanse regio
+* **24 juli**: Europa, Midden-Oosten en Afrika (EMEA)
+* **25 juli**: Regio Azië-Stille Oceaan (APAC)
+* **26 juli**: Amerikaanse regio
 
-Deze release bevat de volgende verbeteringen:
+Deze versie bevat de volgende verbeteringen en oplossingen:
 
-| Functie | Details |
-|--- |--- |
-| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activiteiten | [!DNL Adobe Target] [!UICONTROL QA mode] is nu beschikbaar voor [!UICONTROL Automated Personalization] activiteiten, vervangen [!UICONTROL Preview links] functionaliteit.<P>Zie voor meer informatie [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+* Verbeterde zoekopdracht bij [navigeren door elementen met behulp van het DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in de [!UICONTROL Visual Experience Composer] (VEC) om schaduw-DOM-elementen op te nemen. (TGT-45262)
+* Het probleem dat ervoor zorgde dat de [Bedekking wijzigen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) instellen dat de toepassing niet goed werkt. (TGT-45202)
+* Probleem verholpen waardoor sommige klanten activiteitenrapporten niet konden downloaden na ontvangst van het volgende foutbericht: &quot;De gebruiker is niet gemachtigd om tot het rapport toegang te hebben.&quot; (TGT-45724 &amp; TGT-45747)
 
-* Prestatieverbeteringen om de functionaliteit van duplicaten (waaronder een kortere laadtijd) uit te schakelen [uitsluitingen beheren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activiteiten.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
