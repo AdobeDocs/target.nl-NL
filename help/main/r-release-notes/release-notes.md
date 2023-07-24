@@ -6,10 +6,10 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 14%
+source-wordcount: '402'
+ht-degree: 13%
 
 ---
 
@@ -19,21 +19,19 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **27 juni**: Europa, Midden-Oosten en Afrika (EMEA)
-* **28 juni**: Regio Azië-Stille Oceaan (APAC)
-* **29 juni**: Amerikaanse regio
+* **24 juli**: Europa, Midden-Oosten en Afrika (EMEA)
+* **25 juli**: Regio Azië-Stille Oceaan (APAC)
+* **26 juli**: Amerikaanse regio
 
-Deze release bevat de volgende verbeteringen:
+Deze versie bevat de volgende verbeteringen en oplossingen:
 
-| Functie | Details |
-|--- |--- |
-| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activiteiten | [!DNL Adobe Target] [!UICONTROL QA mode] is nu beschikbaar voor [!UICONTROL Automated Personalization] activiteiten, vervangen [!UICONTROL Preview links] functionaliteit.<P>Zie voor meer informatie [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
-
-* Prestatieverbeteringen om de functionaliteit van duplicaten (waaronder een kortere laadtijd) uit te schakelen [uitsluitingen beheren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activiteiten.
+* Verbeterde zoekopdracht bij [navigeren door elementen met behulp van het DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in de [!UICONTROL Visual Experience Composer] (VEC) om schaduw-DOM-elementen op te nemen. (TGT-45262)
+* Het probleem dat ervoor zorgde dat de [Bedekking wijzigen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) instellen dat de toepassing niet goed werkt. (TGT-45202)
+* Probleem verholpen waardoor sommige klanten activiteitenrapporten niet konden downloaden na ontvangst van het volgende foutbericht: &quot;De gebruiker is niet gemachtigd om tot het rapport toegang te hebben.&quot; (TGT-45724 &amp; TGT-45747)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

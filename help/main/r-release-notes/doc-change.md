@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Documentatiewijzigingen
 
 Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogvenster [!DNL Adobe Target] productdocumentatie.
+
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli 2023)
+
+| Datum | Onderwerp | Wijzigingen |
+| --- | --- | --- |
+|  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.7.1. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 juni 2023)
 

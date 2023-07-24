@@ -4,7 +4,7 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -36,7 +36,6 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 * Verbeterde zoekopdracht bij [navigeren door elementen met behulp van het DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in de [!UICONTROL Visual Experience Composer] (VEC) om schaduw-DOM-elementen op te nemen. (TGT-45262)
 * Het probleem dat ervoor zorgde dat de [Bedekking wijzigen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) instellen dat de toepassing niet goed werkt. (TGT-45202)
 * Probleem verholpen waardoor sommige klanten activiteitenrapporten niet konden downloaden na ontvangst van het volgende foutbericht: &quot;De gebruiker is niet gemachtigd om tot het rapport toegang te hebben.&quot; (TGT-45724 &amp; TGT-45747)
-
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '36273'
+source-wordcount: '36315'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2023
+
+### [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
+
+Deze release bevat de volgende verbeteringen:
+
+| Functie | Details |
+|--- |--- |
+| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activiteiten | [!DNL Adobe Target] [!UICONTROL QA mode] is nu beschikbaar voor [!UICONTROL Automated Personalization] activiteiten, vervangen [!UICONTROL Preview links] functionaliteit.<P>Zie voor meer informatie [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+
+* Prestatieverbeteringen om de functionaliteit van duplicaten (waaronder een kortere laadtijd) uit te schakelen [uitsluitingen beheren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activiteiten.
 
 ### [!DNL Target] Standard/Premium 23.5.2 (31 mei 2023)
 
