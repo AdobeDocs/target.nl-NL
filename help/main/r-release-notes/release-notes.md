@@ -6,10 +6,10 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 13%
+source-wordcount: '456'
+ht-degree: 11%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 13%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!DNL Adobe Target] Upgrade van geplande infrastructuur {#edge}
+
+De geplande upgrade van de Edge-infrastructuur vereist extra IP of domeinen die moeten worden toegestaan. Herzie en sta-lijst van NATIONAAL en IP/domeinen voor randplaatsingen toe 41-48. De infrastructuurupgrades beginnen op 9 augustus 2023.
+&quot;
+
+Zie voor meer informatie [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} in de *Adobe Target Developer Guide*.
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
 
