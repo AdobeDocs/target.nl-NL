@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
+source-git-commit: 02cf6f038f3bca7b781cbed40ade21c2c0612324
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 7 augustus | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Verduidelijkt informatie over gesteunde versies van at.js. |
 | 25 juli | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md#edge) | Extra informatie over de geplande upgrade van de Edge-infrastructuur die gepland is voor 9 augustus 2023. |
 |  | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Bijgewerkt NATIONAAL en IP/domeinen voor randplaatsingen 41-48. |
 | 24 juli | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.7.1. |
@@ -42,7 +43,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 |  | [De SDK van Java initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Toegevoegde informatie over de parameter &quot;environment&quot;. |
 |  | [De Python SDK initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Toegevoegde informatie over de parameter &quot;environment&quot;. |
 | 5 juni | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Bijgewerkte informatie voor de volgende gebeurtenissen:<ul><li>De registratiekoppeling voor de [!DNL Adobe Target Recommendations] Koffiepauze (woensdag 7 juni 2023)</li><li>Er is informatie toegevoegd over het recente webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environment&quot; en er is een koppeling toegevoegd aan de opname.</li></ul> |
-|  | [Pas een rapporterend publiek op succes toe metrisch](/help/main/c-target/apply-reporting-audience-success-metric.md) | De sectie &quot;Overwegingen&quot; is bijgewerkt en de sectie &quot;Voorbeeld&quot; is toegevoegd. |
+|  | [Pas een rapporterend publiek op succes toe metrisch](/help/main/c-target/apply-reporting-audience-success-metric.md) | De sectie Overwegingen is bijgewerkt en de sectie Voorbeeld is toegevoegd. |
 |  | [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | De sectie &#39;URL-doel&#39; is bijgewerkt. |
 | 30 mei | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] 23.5.2. |
 |  | [Integreren met [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Bijgewerkt artikel met informatie over delen [!UICONTROL Real-Time CDP Profile Attributes] with [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen. |
@@ -55,10 +56,10 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 22 mei | [Integreren met [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | De volgende nieuwe video&#39;s zijn toegevoegd:<ul><li>Configureer de [!DNL Adobe Target] bestemming in [!DNL Real-Time Customer Data Platform]</li><li>Segmenten en profielkenmerken activeren</li><li>Gebruiken [!DNL Real-Time CDP] segmenten in [!DNL Target]</li><li>Gebruiken [!DNL Real-Time CDP] profielkenmerken in [!DNL Adobe Target]</li></ul> |
+| 22 mei | [Integreren met [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | De volgende nieuwe video&#39;s zijn toegevoegd:<ul><li>Vorm [!DNL Adobe Target] bestemming in [!DNL Real-Time Customer Data Platform]</li><li>Segmenten en profielkenmerken activeren</li><li>Gebruiken [!DNL Real-Time CDP] segmenten in [!DNL Target]</li><li>Gebruiken [!DNL Real-Time CDP] profielkenmerken in [!DNL Adobe Target]</li></ul> |
 |  | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Bijgewerkte belangrijke opmerking. |
 | 19 mei | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Voorlopige releaseopmerkingen bijgewerkt voor komende releases. |
-| 17 mei | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de [!UICONTROL Adobe Target Community] Vragen en antwoorden Koffiepauze op woensdag 24 mei 2023. |
+| 17 mei | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de [!UICONTROL Adobe Target Community] Vragen en antwoorden koffie-einde woensdag 24 mei 2023. |
 | 16 mei | [Entiteitskenmerken](/help/main/c-recommendations/c-products/entity-attributes.md) | Opgegeven dat &quot;spaties&quot; niet zijn toegestaan in `entity.id` waarden. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Bijgewerkt `viewsEnabled` beschrijving. |
 |  | [Toepassing van één pagina](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Breng de volgende wijzigingen aan:<ul><li>Opmerking toegevoegd na stap 2 onder &quot;Adobe Target-weergaven implementeren&quot;.</li><li>Bijgewerkte stap 2 &quot;Doelverzoek uitvoeren&quot; onder &quot;Volgorde van bewerkingen voor eerste pagina laden&quot;.</li></ul> |
@@ -110,5 +111,5 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 |  | [Stimuleer publiek in doel](/help/main/c-target/c-audiences/create-audience.md) | Toegevoegde lijst met tekens en tekenreeksen die niet in publieksnamen kunnen worden gebruikt. |
 | 31 januari | [Limieten](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Lijst met toegestane en niet-toegestane tekens in veldnamen is toegevoegd. |
 | 25 januari | [JSON-aanbiedingen maken](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Geeft aan dat JSON-ondersteuning biedt in [!UICONTROL Automated Personalization] (AP) activiteiten die gebruikmaken van de Form-Based Experience Composer zijn nu beschikbaar. |
-|  | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Communautair afbreking van Q&amp;A-koffie: Mobiele en geautoriseerde gebruiksscenario&#39;s voor optimalisatie van de ervaring</li></ul> |
+|  | [Adobe Target-aankondigingen en -evenementen](/help/main/r-release-notes/target-announcements.md) | Informatie toegevoegd over de volgende gebeurtenis:<ul><li>[!DNL Adobe Target] Koffieonderbreking door gemeenschap voor vragen en antwoorden: Mobiel en geautoriseerd gebruik voor optimalisatie van ervaring</li></ul> |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] release van 22.13.3. |
