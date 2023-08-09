@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '36315'
+source-wordcount: '36384'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2023
+
+### [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Verbeterde zoekopdracht bij [navigeren door elementen met het DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in de [!UICONTROL Visual Experience Composer] (VEC) om schaduwDOM-elementen op te nemen. (TGT-45262)
+* Het probleem dat ervoor zorgde dat de [Bedekking wijzigen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) instellen dat de toepassing niet goed werkt. (TGT-45202)
+* Probleem verholpen waardoor sommige klanten activiteitenrapporten niet konden downloaden na ontvangst van het volgende foutbericht: &quot;Gebruiker is niet gemachtigd om het rapport te openen.&quot; (TGT-45724 &amp; TGT-45747)
 
 ### [!DNL Target] Standard/Premium 23.6.1 (27-29 juni)
 
@@ -41,7 +49,7 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 * Probleem verholpen waarbij een afbeelding niet kon worden weergegeven in het dialoogvenster [!UICONTROL Create Design] als de afbeeldingsnaam 18030 GB tekens bevat. (TGT-44614)
 * Probleem verholpen waarbij tekst/HTML ten onrechte werd beschermd tegen sommige GB 18030-symbooltekens. (TGT-44600)
 * Probleem verholpen waarbij rapporten werden gegenereerd voor [!UICONTROL Auto Personalization] activiteiten om tijdens de analyse te bevriezen. (TGT-44820)
-* Probleem verholpen waardoor het zoeken naar een activiteit op de [!UICONTROL Activity] pagina als de naam van de activiteit een vierkant haakje bevat ( [of] ). (TGT-44777)
+* Probleem verholpen waardoor het zoeken naar een activiteit op de [!UICONTROL Activity] pagina als de naam van de activiteit een vierkant haakje ( [of] ). (TGT-44777)
 * Probleem verholpen waardoor een activiteit niet kon worden gesynchroniseerd als het doel van de activiteit speciale tekens bevat. (TGT-44982)
 * Probleem opgelost waarbij geen activiteiten werden weergegeven in het dialoogvenster [!DNL Target] UI voor de Standaardwerkruimte voor bepaalde klanten. (TGT-45286)
 * De werking van de markering Duplicaten niet toestaan is bijgewerkt. Markten voor uitgesloten herhalingsaanbiedingen worden bijgewerkt om herhalende aanbiedingen toe te staan als deze de standaardinhoudsaanbieding zijn (voor API&#39;s v3, v4) en om dubbele opties toe te staan als de opties verwijzen naar de standaardinhoudsaanbieding en geen sjablonen hebben gedefinieerd. (TNT-46617)
@@ -62,7 +70,7 @@ Deze release bevat de volgende nieuwe verbeteringen en oplossingen:
 
 * Probleem verholpen waardoor bepaalde klanten geen publiek konden maken met bezoekersprofielen met de operatoren &quot;groter dan&quot; of &quot;kleiner dan&quot;. (TGT-45271)
 * Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
-* De interface van het Doel is op verschillende plaatsen bijgewerkt voor een komende UI (de veranderingen zijn achter een eigenschapvlag tot de updates worden vrijgegeven).
+* De interface van het Doel is op verschillende plaatsen bijgewerkt voor een aanstaande UI vernieuwt (de veranderingen zijn achter een eigenschapvlag tot de updates worden vrijgegeven).
 
 ### [!DNL Target] Standard/Premium 23.4.1 (25-27 april 2023)
 
@@ -70,7 +78,7 @@ Deze release bevat beveiligingsupdates en de volgende nieuwe functies:
 
 | Functie | Details |
 |--- |--- |
-| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| AEM [!UICONTROL Content Fragments] voor hoofdloze personalisatie en experimenten | Gebruiken [!DNL Adobe Experience Manager] AEM [!UICONTROL Content Fragments] in [!DNL Target] activiteiten. Combineer het gebruiksgemak en de kracht van AEM met krachtige mogelijkheden voor kunstmatige intelligentie (AI) en het leren van machines (ML) in [!DNL Target] om een grootmoedige personalisatie en experimenten te bevorderen .<P>Zie voor meer informatie [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 | [*Adobe Target Developer Guide*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | De *Adobe Target Developer Guide* is verplaatst naar *[!UICONTROL Adobe Experience League]*. Ga naar *[!UICONTROL Experience League]* hulpmiddelen bij het lokaliseren van tekst in extra talen, verenigt het zoeken binnen *Experience League* om de zoekresultaten van zowel de *[!UICONTROL Adobe Target Business Practitioner Guide]* en de *[!UICONTROL Adobe Target Developer Guide]* en biedt extra voordelen.<P>U wordt omgeleid van de vorige locatie naar *[!UICONTROL Experience League]* automatisch. Werk de bladwijzers naar wens bij. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (28-30 maart 2023)
@@ -84,78 +92,78 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 * Verbeterde publieks- en activiteitensynchronisatie zodat items zijn gemaakt in [!DNL Adobe Experience Platform] en [!DNL Adobe Audience Manager] zijn beschikbaar in [!DNL Target] UI sneller. (TGT-44568)
 * Verbeterde interface waarmee gebruikers de interface kunnen verwijderen [!UICONTROL Default URL] krachtens [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]. Met deze wijziging kunnen klanten de standaard-URL terugzetten in een lege tekenreeks, die eerder niet mogelijk was na de eerste configuratie. (TGT-44577)
 * Verwijderd beperkingen waardoor klanten niet langer in de box konden bewerken of verwijderen (publiek met gereserveerde namen). (TGT-44655)
-* De optie &quot;[!UICONTROL Done]&quot;-optie tijdens het laden van spinners zijn zichtbaar in het dialoogvenster [!DNL Target] UI bij het maken van [gecombineerd publiek](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* Uitgeschakeld naar &quot;[!UICONTROL Done]&quot;-optie tijdens het laden van spinners zijn zichtbaar in het dialoogvenster [!DNL Target] UI bij het maken [gecombineerd publiek](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
 * Vaste het [!UICONTROL Language] koppeling onder aan [!UICONTROL Audiences] pagina zodat het correct met &quot;[!UICONTROL Account communication preferences]&quot; pagina. (TGT-43562)
 * Probleem opgelost waarbij klanten soms werden belet om [!UICONTROL A/B Test] activiteiten na de selectie van de [!UICONTROL Adobe Analytics] optie onder [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution]. (TGT-44844)
 * Probleem verholpen waardoor klanten de laatste ervaring in een [!UICONTROL Multivariate Test] activiteit met vele ervaringen van binnen [!UICONTROL Visual Experience Composer] (VEC). De [DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) onderaan de VEC hebben klanten soms verhinderd de laatste ervaring te zien. (TGT-44578)
 * Probleem verholpen waardoor de URL Bladeren in de VEC de huidige pagina die zichtbaar is in een normale browsersessie niet weerspiegelde als de pagina autorisatie vereist of omleidingen aanroept. (TGT-44350)
 * Probleem verholpen waardoor klanten het [!UICONTROL Filter Incompatible Criteria] instellen in [!UICONTROL Recommendations] > [!UICONTROL Settings]. (TGT-44398)
-* Probleem verholpen waarbij verzoeken van POSTEN werden gemaakt om een document te maken. [!DNL Recommendations] feeds die mislukken bij gebruik [!UICONTROL Analytics Classifications] met rapportsuites met punten in hun naam. (TGT-44598)
+* Probleem verholpen waarbij verzoeken van POSTEN om te maken werden gegenereerd. [!DNL Recommendations] feeds die mislukken bij gebruik [!UICONTROL Analytics Classifications] met rapportsuites met punten in hun naam. (TGT-44598)
 * Bijgewerkte koppelingen in het dialoogvenster [!DNL Target] UI om naar de nieuwe [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
-* Uitgebreide beveiliging om te voorkomen dat SSRF-pogingen (Server-Side Request Smeery) worden uitgevoerd in [!DNL Recommendations] feeds. (TGT-43769)
+* Uitgebreide beveiliging om te voorkomen dat SSRF-pogingen (Server-Side Request Smeery) worden uitgevoerd [!DNL Recommendations] feeds. (TGT-43769)
 * Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
 
 ### at.js versie 2.10.2 (7 maart 2023)
 
 * Het probleem dat de oorzaak was van de `trackEvent` om altijd een fout te retourneren.
 
-Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Voor informatie over alle versies at.js, zie [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.15.1 (8 en 9 maart 2023)
 
 Deze release is beschikbaar volgens het volgende schema:
 
 * **8 maart**: Amerikaanse regio
-* **9 maart**: Europa, Midden-Oosten en Afrika (EMEA)
-* **9 maart**: Regio Azië-Stille Oceaan (APAC)
+* **9 maart** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **9 maart**: regio Azië-Stille Oceaan (APAC)
 
 Deze versie bevat de volgende oplossingen:
 
-* Updates voor het ontwerpen van aangepaste webcomponenten met de [!UICONTROL Visual Experience Composer] (VEC):
+* Updates voor het ontwerpen van aangepaste webcomponenten met de [!UICONTROL Visual Experience Composer] (VEC)
 
    * De Vaste de elementenselectie van de Schaduw DOM in VEC door het auteursproces te verbeteren zodat is er geen afhankelijkheid van [!DNL Target] implementatietype bij het ontwerpen van de schaduwhoofdmap. Het selecteren van Schaduw-DOM-elementen in de VEC werkt nu voor elke website.
    * Probleem opgelost waarbij het laden van HTML-elementen met #Shadow DOM in de VEC werd voorkomen. (TGT-35801)
    * VEC-problemen met SPA websites opgelost met ShadowDOM. (TGT-43169)
-   * Probleem verholpen met de optimalisatiedoelstelling: &quot;clicked an element&quot; dat de CSS-kiezer niet correct identificeerde in ShadowDOM.
+   * Probleem verholpen met het optimaliseringsdoel: &quot;klikte een element&quot; dat de CSS-kiezer niet correct identificeerde in ShadowDOM.
 
 >[!NOTE]
 >
->Zorg ervoor dat u een [!DNL Target] SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) met een versie groter dan 2.8.
+>Zorg ervoor dat u een [!DNL Target] SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) met een versie groter dan 2.8.
 
-**Bekend probleem**: Klikken en volgen op een schaduwbasiselement bij gebruik [!DNL Adobe Experience Platform Web SDK] werkt niet correct. (TNT-47012)
+**Bekend probleem**: Klikken bijhouden op een schaduwbasiselement bij gebruik [!DNL Adobe Experience Platform Web SDK] werkt niet correct. (TNT-47012)
 
 ### at.js versie 2.10.2 (7 maart 2023)
 
 * Het probleem dat de oorzaak was van de `trackEvent` om altijd een fout te retourneren.
 
-Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Voor informatie over alle versies at.js, zie [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (13-15 februari 2023)
 
 Deze release is beschikbaar volgens het volgende schema:
 
 * **13 februari**: Amerikaanse regio
-* **15 februari**: Europa, Midden-Oosten en Afrika (EMEA)
-* **15 februari**: Regio Azië-Stille Oceaan (APAC)
+* **15 februari** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **15 februari**: regio Azië-Stille Oceaan (APAC)
 
 Deze versie bevat de volgende oplossingen:
 
-* Probleem verholpen dat het volgende foutbericht veroorzaakte, ook al was een eigenschap opgegeven in Automated Personalization (AP)-activiteiten: &quot;Fouten: Minstens één eigenschap moet tot een niet-standaardwerkruimte&quot; (TGT-44607) behoren
+* Probleem verholpen dat het volgende foutbericht veroorzaakte, ook al was een eigenschap opgegeven in Automated Personalization (AP)-activiteiten: &quot;Fouten: ten minste één eigenschap moet deel uitmaken van een niet-standaardwerkruimte&quot; (TGT-44607)
 * Oplossing voor een mogelijk beveiligingsprobleem dat gevolgen had voor Recommendations-feeds aan de serverzijde. (TGT-43769)
 
 ### at.js versie 2.10.1 (2 februari 2023)
 
 * Probleem verholpen waarbij activiteiten waarbij publieksregels betrokken waren die parameters met punten in hun namen bevatten, niet de verwachte ervaring retourneren, voor het bepalen van het apparaat.
-* Oplossing voor een bug die in at.js 2.6.0 werd geïntroduceerd waarin at.js een leveringsvraag, zelfs afvuurde wanneer `mboxDisable` is ingeschakeld.
+* Oplossing voor een bug die werd geïntroduceerd in at.js 2.6.0 waarin at.js een leveringsvraag vuurde, zelfs wanneer `mboxDisable` is ingeschakeld.
 
-Voor informatie over alle versies at.js, zie [details van de at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Voor informatie over alle versies at.js, zie [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.13.3 (25-26 januari 2023)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **25 januari**: Europa, Midden-Oosten en Afrika (EMEA)
-* **25 januari**: Regio Azië-Stille Oceaan (APAC)
+* **25 januari** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **25 januari**: regio Azië-Stille Oceaan (APAC)
 * **26 januari**: Amerikaanse regio
 
 Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
@@ -167,11 +175,11 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 * Probleem verholpen waarbij de fout &quot;500&quot; werd veroorzaakt in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten. Dit probleem is ontstaan toen [!DNL Target] heeft niet correct criteria-objecten uit het [!DNL Target] UI en [!DNL Recommendations] back-end die niet meer in gebruik zijn. (TGT-44383)
 * De locatie is verwijderd uit de naam van de weergegeven aanbieding in het dialoogvenster [!UICONTROL Offer Level] verslag voor [!UICONTROL Automated Personalization] activiteiten. Deze wijziging maakt het verslag leesbaarder. (TGT-44294)
-* De kalenderopties van 45 dagen en 90 dagen zijn verwijderd uit het toegangspunt en [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] en [!UICONTROL Important Attributes] in de [!DNL Target] UI. Vanwege gebruikspatronen en om de prestaties te verbeteren, zijn deze datumbereiken afgekeurd. De interface is bijgewerkt om de momenteel toegestane bereiken te weerspiegelen: 15, 30 en 60 dagen. (TGT-39357)
+* De kalenderopties van 45 dagen en 90 dagen zijn verwijderd uit het toegangspunt en [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] en [!UICONTROL Important Attributes] in de [!DNL Target] UI. Vanwege gebruikspatronen en om de prestaties te verbeteren, zijn deze datumbereiken vervangen. De gebruikersinterface is bijgewerkt om de momenteel toegestane bereiken te weerspiegelen: 15, 30 en 60 dagen. (TGT-39357)
 * De mogelijkheid om de [!UICONTROL Same as Optimization Goal] instellen op de [!UICONTROL Goals & Settings] pagina nadat de activiteit live is. (TGT-43923)
 * Probleem verholpen dat problemen veroorzaakte met de standaardwerkplek in de [!DNL Target] back-end bij upgrade vanaf [!DNL Target Standard] tot [!DNL Target Premium]. (TGT-44081 &amp; TGT-44306)
 * Een wijziging aanbrengen om toe te staan [!DNL Analytics] rapporteert versies met een puntteken &quot;.&quot; in de namen die in de [!DNL Target] UI voor het maken van [!DNL Analytics] classificatieffeeds.
-* De koppeling op het tabblad [!UICONTROL Implementation] pagina ([!UICONTROL Administration] > [!UICONTROL Implementation]) voor &quot;Implementatiemethodes met Apparaatbesluit&quot; om te verwijzen naar de pagina met uitleg over het gebruik van apparaatbeslissingen voor alle ondersteunde SDK&#39;s: Node.js, Java, .NET, en Python. Zie voor meer informatie [Aan de slag met doel-SDK&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+* De koppeling op het tabblad [!UICONTROL Implementation] pagina ([!UICONTROL Administration] > [!UICONTROL Implementation]) voor &quot;Methoden van de Implementatie met het Beslissen van het Apparaat&quot;aan de pagina richten die verklaart hoe te om op-apparatenbesluit voor alle gesteunde SDKs te gebruiken: Node.js, Java, .NET, en Python. Zie voor meer informatie [Aan de slag met doel-SDK&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 * Probleem verholpen die bij het gebruik van bestanden problemen bij het uploaden veroorzaakte. [!DNL Scene7] en [!DNL Target].
 * De toegankelijkheid van de [!DNL Target] UI voor personen met een handicap door resultaten van een interne bruikbaarheidscontrole te gebruiken. Deze toegankelijkheidsverbeteringen omvatten toegang tot functies die voorheen niet via het toetsenbord toegankelijk waren, alt-tekstverbeteringen, de mogelijkheid om te zoomen op onderdelen van de gebruikersinterface om bruikbaarder te zijn, verbeterde toetsenbordfocus en meer.   (TGT-42759)
 * Verschillende lokalisatieoplossingen in de hele [!DNL Target] UI.
@@ -201,12 +209,12 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 | Functie | Details |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) fragmenten ervaren | Tot de updates voor de functie voor fragmenten met AEM ervaring behoren:<ul><li>De mogelijkheid om te filteren AEM ervaringsfragmenten op type (HTML of JSON) in de [!UICONTROL Offers] lijst. (TGT-43121)</li><li>Probleem verholpen waarbij klanten JSON konden invoegen. [!UICONTROL Experience Fragment] biedt aan wanneer het gebruiken van VEC, dat niet wordt gesteund. JSON-aanbiedingen kunnen alleen worden ingevoegd wanneer u de [!UICONTROL Form-Based Experience] composer. (TGT-43846)</li></ul>Zie AEM voor meer informatie [ervaringsfragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| Nieuw [!UICONTROL Visual Experience Composer] extensie voor Google Chrome | Een nieuwe [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) extensie voor Chrome is beschikbaar in de Chrome Web Store.<br>Vanaf januari 2023 wordt de huidige [!DNL Target] De extensie VEC Helper werkt niet meer in Google Chrome omdat Google extensies niet toestaat met Manifest V2. Download de nieuwe extensie om uw websites visueel te blijven ontwerpen in [!DNL Target] vanaf het nieuwe jaar.<br>De volgende koppelingen tonen de twee extensies in de Chrome Web Store:<ul><li>[Nieuwe extensie](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Oude extensie](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Zie voor meer informatie [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| [!DNL Adobe Experience Manager] (AEM) fragmenten ervaren | Tot de updates voor de functie voor fragmenten met AEM ervaring behoren:<ul><li>De mogelijkheid om te filteren AEM ervaringsfragmenten op type (HTML of JSON) in de [!UICONTROL Offers] lijst. (TGT-43121)</li><li>Probleem verholpen waarbij klanten JSON konden invoegen. [!UICONTROL Experience Fragment] biedt aan wanneer het gebruiken van VEC, dat niet wordt gesteund. JSON-aanbiedingen kunnen alleen worden ingevoegd wanneer u de opdracht [!UICONTROL Form-Based Experience] composer. (TGT-43846)</li></ul>Zie AEM voor meer informatie [ervaringsfragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| Nieuw [!UICONTROL Visual Experience Composer] extensie voor Google Chrome | Een nieuwe [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) extensie voor Chrome is beschikbaar in de Chrome Web Store.<br>Vanaf januari 2023 wordt de huidige [!DNL Target] De extensie VEC Helper werkt niet meer in Google Chrome omdat Google extensies niet toestaat met Manifest V2. Download de nieuwe extensie om uw websites visueel te blijven ontwerpen in [!DNL Target] vanaf het nieuwe jaar.<br>De volgende koppelingen tonen de twee extensies in de Chrome Web Store:<ul><li>[Nieuwe extensie](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Old Extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Zie voor meer informatie [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
 
 * Probleem verholpen waardoor de publieksregelgegevens niet correct konden worden weergegeven in het dialoogvenster [!UICONTROL Audiences Refinements] informatievenster. (TGT-43917)
-* De prestaties van de [!DNL Target] UI bij het laden van publiek dat de [aanbevolen limiet voor doelgroepregels](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
-* Probleem verholpen waarbij sommige componenten niet correct werden weergegeven in het dialoogvenster [!UICONTROL Modifications] op het [!UICONTROL Experiences] pagina wanneer het creëren van of het uitgeven van activiteiten in VEC na omschakeling van [!UICONTROL Compose] tot [!UICONTROL Browse] in. (TGT-43300)
+* Verbeterde prestaties van de [!DNL Target] UI bij het laden van publiek dat de [aanbevolen limiet voor doelgroepregels](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* Probleem verholpen waarbij sommige componenten niet correct werden weergegeven in het dialoogvenster [!UICONTROL Modifications] op het [!UICONTROL Experiences] pagina wanneer het creëren van of het uitgeven van activiteiten in VEC na omschakeling van [!UICONTROL Compose] tot [!UICONTROL Browse] -modus. (TGT-43300)
 * Probleem verholpen waardoor sommige klanten niet konden archiveren [!UICONTROL A/B Test] activiteiten die [!UICONTROL Auto-Target]. (TGT-40978)
 * De mogelijkheid toegevoegd om automatisch één aanbieding te gebruiken op meerdere locaties binnen één rapportagegroep. (TGT-40689)
 
@@ -214,19 +222,19 @@ Deze release bevat de volgende nieuwe functies, verbeteringen en oplossingen:
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **13 september**: Europa, Midden-Oosten en Afrika (EMEA)
+* **13 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
 * **14 september**: Amerikaanse regio
-* **15 september**: Regio Azië-Stille Oceaan (APAC)
+* **15 september**: regio Azië-Stille Oceaan (APAC)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
 * Toegevoegde [!UICONTROL Cross-Domain] tijdens het downloaden naar .js 2.10.0 (en hoger) om het instellen van cookies van derden toe te staan of uit te schakelen. (TGT-43674)
 * Bijgewerkte meldingen in de [!DNL Target] UI om klanten te informeren als de invoer van [!DNL Recommendations] feeds mislukt. (TGT-35811)
-* Probleem verholpen dat ertoe heeft geleid [!UICONTROL Decision Offers] niet naar behoren binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
+* Probleem verholpen dat ertoe heeft geleid [!UICONTROL Decision Offers] niet naar behoren werken binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Probleem verholpen waarbij een foutbericht werd weergegeven wanneer u het selectievakje [!UICONTROL Clicked an Element] conversiedoel tijdens het maken van een [!UICONTROL Multivariate Testing] (MVT) activiteit. (TGT-43842)
 * Het probleem dat ervoor zorgde dat de [!UICONTROL Impressions] kolom van het tonen in het gedownloade CSV- rapportdossier voor [!UICONTROL Automated Personalization] (AP) activiteiten. (TGT-43780)
 * Probleem verholpen waardoor klanten HTML/JSON-aanbiedingen niet konden bewerken na het dupliceren van ervaringen tijdens het gebruik van de [!UICONTROL Form-Based Experience Composer]. (TGT-43633)
-* Probleem verholpen waardoor klanten een [!UICONTROL A/B Test] van een niet-standaardwerkruimte naar een andere niet-standaardwerkruimte. (TGT-41910)
+* Probleem verholpen waardoor klanten een [!UICONTROL A/B Test] van een niet-standaardwerkruimte naar een andere, niet-standaardwerkruimte. (TGT-41910)
 * Probleem verholpen om ervoor te zorgen dat klanten het gebruik van [!DNL Recommendations] objecten (ontwerpen, criteria, verzamelingen, enzovoort) in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die aanbevelingen bevatten en criteria ook schrappen hebben bezwaar die niet meer in gebruik van [!DNL Target] UI en [!DNL Recommendations] achterkant. (TGT-42331)
 * Oplossing voor een probleem dat ertoe heeft geleid dat een waarschuwing voor een netwerktime-out wordt weergegeven in het dialoogvenster [!DNL Target] UI bij het ophalen van parameters. (TGT-43737)
 * UI-updates zijn gemaakt om ervoor te zorgen dat bepaalde acties voor slepen en neerzetten via het toetsenbord toegankelijk zijn. (TGT-42969)
@@ -247,7 +255,7 @@ Deze versie bevat de volgende functies, verbeteringen en oplossingen:
 | Functie | Beschrijving |
 | --- | --- |
 | Verbeterde nauwkeurigheid van de publieksevaluatie en verminderde latentie van de eindgebruiker door IPv6 steun (TNT-43364, TNT-44692) | De geo-plaatsen van bezoekers worden nu bepaald door IPv6 adressen, als beschikbaar, in tegenstelling tot slechts IPv4 adressen. De levering APIs steunt ook IPv6 inputparameters. Het filteren en toestaan-lijst steunen zowel IPv4 als IPv6 adressen. De IPv6-ondersteuning in deze release betekent dat bezoekers nauwkeuriger worden opgenomen in het publiek (kwalificeer nauwkeuriger voor activiteiten of worden opgenomen in filtercriteria). Het verbetert ook gegevenslatentie, aangezien de cliënten IPv6 rechtstreeks zullen leiden, vermijdend de overheadkosten van de gateway IPv6-aan-IPv4. |
-| Vast probleem met de afhandeling van betalingen aan de client-side A4T (TNT-44926) | Met integratie op de server-side van A4T, als Adobe Target een verzoek als afkomstig van beide identificeert, stuurt het niet de nuttige lading naar Analytics, en er is geen mod_stats gebeurtenis in geregistreerd in [!DNL Target] logboeken. Met deze versie, is het cliënt-zijregistreren A4T verbeterd zodat het gedrag met betrekking tot de A4T lading het zelfde als met server-kant A4T is: Bezoekers die als bots zijn geïdentificeerd, worden uitgesloten van [!DNL Target] tellen/rapporteren. (Let op: het probleem in kwestie was beperkt tot implementaties die gebruik maakten van client-side payload handling; server-kant niet beïnvloed. Met deze release is het gedrag nu consistent voor zowel server-side als client-side payload-afhandeling.) |
+| Vast probleem met de afhandeling van betalingen aan de client-side A4T (TNT-44926) | Met integratie op de server-side van A4T, als Adobe Target een verzoek als afkomstig van beide identificeert, stuurt het niet de nuttige lading naar Analytics, en er is geen mod_stats gebeurtenis in geregistreerd in [!DNL Target] logboeken. Met deze release is het aanmelden aan de clientzijde van A4T verbeterd, zodat het gedrag met betrekking tot de A4T-lading hetzelfde is als bij de A4T-server: bezoekers die als bots zijn geïdentificeerd, worden uitgesloten van [!DNL Target] tellen/rapporteren. (Let op: het probleem in kwestie was beperkt tot implementaties die client-side payload handling gebruikten; de server-side werd niet beïnvloed. Met deze release is het gedrag nu consistent voor zowel server-side als client-side payload-afhandeling.) |
 
 ### [!DNL Target Standard/Premium] 22.6.2 (30 juni 2022)
 
@@ -255,20 +263,20 @@ Deze versie bevat de volgende functies, verbeteringen en oplossingen:
 
 | Functie | Beschrijving |
 | --- | ---  |
-| Meldingen in producten | Verkrijg de volgende relevante in-product berichten:<ul><li>**Activiteiten**: Meldingen voor alle soorten activiteiten wanneer een activiteit handmatig wordt goedgekeurd of gedeactiveerd of wanneer de begin- of einddatum wordt bereikt. Het bericht bevat de naam van de activiteit met een koppeling naar de overzichtspagina van de activiteit.</li><li>**Profielscripts** Meldingen wanneer een profielscript handmatig of door Doel is geactiveerd of gedeactiveerd.</li><li>**Recommendations feeds**: Meldingen wanneer een Recommendations-feed handmatig of via Target is geactiveerd of gedeactiveerd. Meldingen worden ook verzonden wanneer een Recommendations-feed mislukt.</li></ul> Standaard worden meldingen ontvangen door productbeheerders, uitgevers en fiatteurs. Meldingen kunnen worden geconfigureerd in de voorkeuren voor Experience Cloud.<br>Zie voor meer informatie [Meldingen en aankondigingen](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
+| Meldingen in producten | Verkrijg de volgende relevante in-product berichten:<ul><li>**Activiteiten**: Meldingen voor alle soorten activiteiten wanneer een activiteit handmatig wordt goedgekeurd of gedeactiveerd of wanneer de begin- of einddatum wordt bereikt. Het bericht bevat de naam van de activiteit met een koppeling naar de overzichtspagina van de activiteit.</li><li>**Profielscripts** Meldingen wanneer een profielscript handmatig of door Doel is geactiveerd of gedeactiveerd.</li><li>**Recommendations feeds**: Meldingen wanneer een Recommendations-feed handmatig of door Target is geactiveerd of gedeactiveerd. Meldingen worden ook verzonden wanneer een Recommendations-feed mislukt.</li></ul> Standaard worden meldingen ontvangen door productbeheerders, uitgevers en fiatteurs. Meldingen kunnen worden geconfigureerd in de voorkeuren voor Experience Cloud.<br>Zie voor meer informatie [Meldingen en aankondigingen](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
 | *Adobe Target Developer Guide* | De *Adobe Target Developer Guide* consolideert alles [!DNL Target] ontwikkelaarsinhoud in één handige handleiding. De gids bevat informatie over de implementatie [!DNL Target] en [!DNL Recommendations], [!DNL Target] SDK&#39;s, en [!DNL Target] API&#39;s.<br>Zie voor meer informatie [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}. |
 
 * Gebruikers met de [!UICONTROL Editor] rol kan het publiek in live activiteiten niet meer bewerken. (TGT-43582)
 * Een waarschuwingsbericht wordt weergegeven als een klant een publiek probeert op te slaan met een uitroepteken ( ! ) als het eerste teken van de naam van het publiek (bijvoorbeeld !Londen). (TGT-43643)
 * Probleem verholpen waarbij definitiedetails voor bepaalde klanten werden veroorzaakt om aan te geven dat een beëindigde activiteit nog steeds actief is. (TGT-43527)
 
-### [!DNL Target Standard/Premium] 22.6.1 (gefaseerde release: (7-9 juni 2022)
+### [!DNL Target Standard/Premium] 22.6.1 (gespreide release: 7-9 juni 2022)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **7 juni**: Regio Azië-Stille Oceaan (APAC)
+* **7 juni**: regio Azië-Stille Oceaan (APAC)
 * **8 juni**: Amerikaanse regio
-* **9 juni**: Europa, Midden-Oosten en Afrika (EMEA)
+* **9 juni** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
@@ -280,33 +288,33 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
 * Toegevoegd [Clienttips van gebruikersagent](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} ondersteuning.
-* Probleem verholpen waarbij periodiek time-outs werden veroorzaakt tijdens het renderen [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activiteiten. (TNT-44611)
+* Probleem verholpen waarbij periodiek time-outs werden veroorzaakt tijdens rendering [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT) activiteiten. (TNT-44611)
 
 ### at.js versie 2.9.0 (27 mei 2022)
 
 * Toegevoegd [Clienttips van gebruikersagent](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} ondersteuning.
 * Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
-### [!DNL Target Standard/Premium] 22.5.1 (gespreide vrijgave; mei (11-13 mei 2022)
+### [!DNL Target Standard/Premium] 22.5.1 (gespreide release; 11-13 mei 2022)
 
 Deze release is beschikbaar volgens het volgende schema:
 
-* **11 mei**: Regio Azië-Stille Oceaan (APAC)
+* **11 mei**: regio Azië-Stille Oceaan (APAC)
 * **12 mei**: Amerikaanse regio
-* **13 mei**: Europa, Midden-Oosten en Afrika (EMEA)
+* **13 mei** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
 * Probleem verholpen dat een JavaScript-fout veroorzaakte en sommige klanten de toegang tot de activiteitsgegevens voor bepaalde [!UICONTROL Automated Personalization] (AP) activiteiten. (TGT-43526)
 * Probleem verholpen waardoor sommige klanten geen specifieke aanbieding aan een AP-activiteit konden toevoegen (of bewerken). (TGT-43503)
-* Probleem opgelost in het dialoogvenster [!DNL Target] UI die het volgende foutenbericht toonde: &quot;Uw globale box is mogelijk niet synchroon. Probeer het opnieuw op te slaan.&quot; Dit probleem betrof een UI-probleem en had geen invloed op de implementaties van klanten. (TGT-43475)
+* Probleem opgelost in het dialoogvenster [!DNL Target] UI die het volgende foutbericht heeft weergegeven: &quot;Uw globale box is mogelijk niet synchroon. Probeer het opnieuw op te slaan.&quot; Dit probleem betrof een UI-probleem en had geen invloed op de implementaties van klanten. (TGT-43475)
 * Probleem verholpen waardoor één klant geen verfijningen en publiek op ervaringsniveau kon bewerken voor een activiteit als de verfijningen en het publiek vóór de nieuwe [!UICONTROL Audiences] UI is geïmplementeerd. (TGT-43433)
 * Het probleem waarbij klanten dubbele gegevens konden selecteren, is opgelost. [!DNL Adobe Audience Manager] (AAM) publiek tijdens het bewerken van het rapportagepubliek voor een activiteit. (TGT-43430)
 * Probleem verholpen waardoor klanten geen dubbel publiek konden maken, maar in verschillende werkruimten. (TGT-43423)
 * Probleem verholpen waardoor klanten geen locaties konden verwijderen die ad-hocaanbiedingen hadden in activiteiten die in het dialoogvenster [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
 * Probleem verholpen waarbij klanten geen toegang kregen tot de aangeboden code nadat ze op de aanbiedingen voor afbeeldingen hadden geklikt en de interface vervolgens hadden vernieuwd. (TGT-43566)
-* Probleem verholpen waarbij tijdens het bewerken van profielscripts het oorspronkelijke, onbewerkte script werd hersteld nadat het script was bewerkt, geactiveerd en vervolgens gedeactiveerd. Het profielscript blijft nu in de bewerkte status staan. (TGT-43249)
-* Probleem verholpen waarbij de volgende fout is opgetreden bij een poging een publiek naar een andere werkruimte te verplaatsen: &quot;We kunnen je aanvraag niet voltooien. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-43212)
+* Probleem verholpen waarbij tijdens het bewerken van profielscripts het oorspronkelijke, onbewerkte script werd hersteld nadat het script was bewerkt, geactiveerd en vervolgens gedeactiveerd. Het profielscript blijft nu bewerkbaar. (TGT-43249)
+* Probleem verholpen waarbij de volgende fout is opgetreden tijdens een poging een publiek naar een andere werkruimte te verplaatsen: &quot;We kunnen uw verzoek niet voltooien. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-43212)
 * Correctie van een fout die een fout veroorzaakte bij het klonen van aangepaste codewijzigingen voor App-pagina&#39;s (SPA) van één pagina. (TGT-43137)
 * Probleem verholpen waarbij de oorspronkelijke aanbieding werd beïnvloed nadat een ervaring was gedupliceerd en de promotie vervolgens was bewerkt. (TGT-41775)
 
@@ -339,7 +347,7 @@ Deze release bevat de volgende update:
 
 Deze onderhoudrelease bevat de volgende verbeteringen:
 
-* Toegevoegde functionaliteit die moet worden geretourneerd [!DNL Analytics] ladingsgegevens voor `prefetch` weergaven en `pageLoad` klik op Metriek wanneer u de [!UICONTROL Delivery API] met activiteiten die [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
+* Toegevoegde functionaliteit die moet worden geretourneerd [!DNL Analytics] ladingsgegevens voor `prefetch` en `pageLoad` klik op Metriek wanneer u de [!UICONTROL Delivery API] met activiteiten die [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
 * Bijgewerkt de beide het filtreren lijst van gebruikersagent om een browser type toe te staan dat algemeen in Japan wordt gebruikt. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1 februari 2022)
@@ -353,15 +361,15 @@ Deze onderhoudsversie bevat de volgende oplossingen en verbeteringen voor de nie
 
 * Vast `pageLoad` niet toegewezen aan target-global-mbox in [!UICONTROL On Device Decisioning] (ODD) hybride uitvoeringsmodus.
 * Probleem verholpen met analytische details voor mbox-aanvraag.
-* Verbeterde dev-afhankelijkheden om beveiligingskwetsbaarheden te verhelpen.
+* Verbeterde dev-afhankelijkheden om beveiligingsproblemen te verhelpen.
 
 ### [!DNL Target Standard/Premium] 22.1.2 (26 januari 2022)
 
 | Functie | Details |
 | --- | --- |
 | [!DNL Adobe Experience Platform] publiek in [!DNL Target] | U kunt nu consumeren en gebruiken [!DNL Adobe Experience Platform] publiek in [!DNL Target]. De [!DNL Target] team, [!DNL Experience Platform] [!DNL Destinations] en de [!DNL Unified Profile Service] -team is verheugd de algemene beschikbaarheid van de gebruiksgevallen &quot;Zelfde pagina/Volgende pagina aanpassen&quot; aan te kondigen.<br>Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. De [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), built on [!DNL Adobe Experience Platform] helps companies bring together known and anonymous data from multiple enterprise sources to create customer profiles that can be used to provide personalized customer experiences across all channels and devices in real time.<br>For more information, see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Create audiences*.<br>Be sure to read the Adobe blog and watch the video: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
-| [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li><li>De mogelijkheid om het publiek tussen werkruimten te verplaatsen voor [!DNL Target Premium] klanten.</li></ul>Zie voor meer informatie [Soorten publiek](/help/main/c-target/target.md).<br>**OPMERKING**: Deze functie wordt de komende acht weken uitgerold naar klanten in verschillende regio&#39;s. |
-| [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>De mogelijkheid om meerdere profielscripts tegelijk te selecteren en te verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**OPMERKING**: Deze functie wordt de komende acht weken uitgerold naar klanten in verschillende regio&#39;s. |
+| [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li><li>De mogelijkheid om het publiek tussen werkruimten te verplaatsen voor [!DNL Target Premium] klanten.</li></ul>Zie voor meer informatie [Soorten publiek](/help/main/c-target/target.md).<br>**OPMERKING**: Deze functie wordt de komende acht weken geïmplementeerd voor klanten in verschillende regio&#39;s. |
+| [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>Meerdere profielscripts tegelijk selecteren en verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**OPMERKING**: Deze functie wordt de komende acht weken geïmplementeerd voor klanten in verschillende regio&#39;s. |
 
 ### [!DNL Target Standard/Premium] 22.1.1 (12 januari 2022)
 
@@ -409,13 +417,13 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie | Details |
 | --- | --- |
-| Recommendations op basis van winkelwagentjes | Er is een nieuwe reeks algoritmen toegevoegd om aanbevelingen te doen op basis van de inhoud van het winkelwagentje van de bezoeker.<br>Zie &quot;Op winkelwagentje gebaseerd&quot; in [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Winkelwagentjes toevoegen/winkelwagentjes weergeven/uitchecken van pagina&#39;s&quot; en &quot;Items uitsluiten die zich al in de winkelwagentje van de bezoeker bevinden&quot; in [Recommendations plannen en implementeren](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}en op basis van winkelwagentje in [De aanbeveling baseren op een aanbevelingen](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Recommendations op basis van winkelwagentjes | Er is een nieuwe reeks algoritmen toegevoegd om aanbevelingen te doen op basis van de inhoud van het winkelwagentje van de bezoeker.<br>Zie &#39;Op winkelwagentje gebaseerd&#39; in voor meer informatie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Winkelwagentjes toevoegen/winkelwagentjes weergeven/uitchecken van pagina&#39;s&quot; en &quot;Items uitsluiten die zich al in de winkelwagentje van de bezoeker bevinden&quot; in [Recommendations plannen en implementeren](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}en op basis van winkelwagentje in [De aanbeveling baseren op een aanbevelingen](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 oktober 2021)
 
 Deze onderhoudrelease bevat de volgende verbeteringen, correcties en wijzigingen:
 
-* Opgeloste problemen waardoor klanten de [!UICONTROL A4T] in [!DNL Analysis Workspace] door op de knop [!UICONTROL View in Analytics] knop in [!DNL Target] activiteitenrapportage. (TGT-42099, TGT-42100)
+* Opgeloste problemen waardoor klanten de [!UICONTROL A4T] deelvenster in [!DNL Analysis Workspace] door op de knop [!UICONTROL View in Analytics] knop in [!DNL Target] activiteitenrapportage. (TGT-42099, TGT-42100)
 * Het probleem dat de oorzaak was van de [!UICONTROL Edit Design] knop niet weergeven tijdens bewerken [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] (XT) activiteiten die de [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
 * Het probleem dat ervoor zorgde dat de [!UICONTROL Compatible] selectievakje van weergave in selectie criteria tijdens het maken van een nieuwe [!UICONTROL Recommendations] activiteit. (TGT-42053)
 * Probleem verholpen waarbij een foutbericht werd weergegeven dat niet kon worden geselecteerd [!DNL Analytics] als rapportagebron (A4T) wegens gebrek aan [!DNL Analytics] machtigingen. (TGT-41954)
@@ -460,7 +468,7 @@ Deze release bevat de volgende nieuwe functies:
 | Functie | Details |
 | --- | --- |
 | [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li></ul>Zie voor meer informatie [Soorten publiek](/help/main/c-target/target.md). |
-| [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>De mogelijkheid om meerdere profielscripts tegelijk te selecteren en te verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
+| [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>Meerdere profielscripts tegelijk selecteren en verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
 | [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."} | De [!UICONTROL Recommendations Criteria] de workflow voor het maken en bewerken van bestanden is gestroomlijnd om het kiezen van het juiste algoritme en de juiste instellingen voor het uitvoeren van aanbevelingen te vereenvoudigen.<br>Zie voor meer informatie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium badge](/help/main/assets/premium.png) Verbeteringen in de snelheid van Recommendations-terugzoekvensters en -algoritmes | U kunt de algoritmen &quot;Meest bekeken&quot; en &quot;Hoogste verkopers&quot; nu uitvoeren met een terugkijkvenster van zes uur om de inhoud vast te leggen die het laatst wordt doorzocht. Wanneer het terugkijkvenster van zes uur wordt geselecteerd, worden uw aanbevelingen resultaten bijgewerkt om de 3-6 uur door de dag.<br>Zie voor meer informatie [Gegevensbron](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Criteria maken*. |
 
@@ -506,9 +514,9 @@ Deze release bevat de volgende verbeteringen:
 * De limiet voor `categoryId` is verhoogd tot 256 tekens. De vorige limiet was 128 tekens.
 * Het volgende [!DNL Adobe Audience Manager] (AAM) Er zijn gegevens toegevoegd aan de API voor levering:
 
-   * UUID AAM: De interne AAM-id die wordt gebruikt om een gebruiker op unieke wijze te identificeren.
-   * dataPartnerId: Identiteitskaart voor een gegevenspartner.
-   * dataPartnerUserId: De gebruikers-id die door een gegevenspartner wordt verstrekt.
+   * AAM UUID: de interne AAM-id die wordt gebruikt om een gebruiker op unieke wijze te identificeren.
+   * dataPartnerId: identiteitskaart voor een gegevenspartner.
+   * dataPartnerUserId: De gebruiker - identiteitskaart die door een gegevenspartner wordt verstrekt.
 
   Eerder was de leverings-API inbegrepen `dcsLocationHint` en `blob` alleen. (TNT-41644)
 
@@ -524,7 +532,7 @@ Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenumme
 
 De nieuwe [!DNL Adobe Target] Python SDK met mogelijkheden voor het bepalen van apparaten is nu beschikbaar. Deze nieuwste toevoeging versterkt de [!DNL Target] suite SDK&#39;s aan serverzijde. Met deze SDK&#39;s kunt u integreren [!DNL Target] en versnelt u de waardetijd in de taal van uw keuze. Integraties aan de serverzijde worden een populaire keuze, aangezien de markt verschuift naar een wereld zonder cookie waarin gegevens van de eerste partij waardevol zijn. DoelSDK&#39;s zijn beschikbaar in de populairste programmeertalen op de markt (Python, Java, JavaScript, C# / .Net).
 
-Zie voor meer informatie de [Python SDK-documentatie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Zie de klasse [Python SDK-documentatie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### Target Standard/Premium 21.5.1 (7 juni 2021)
 
@@ -573,11 +581,11 @@ Deze versie bevat de volgende oplossingen.
 * Probleem verholpen waarbij eigenschappen werden toegewezen aan de onjuiste werkruimte. (TGT-39869)
 * Probleem verholpen waarbij een oneindig laden werd veroorzaakt als de aanvraag mislukt nadat de omgeving was gewijzigd en een uitsluiting voor aanbevelingen werd gemaakt. (TGT-39948)
 
-### te.js 2.4.1 (23 maart 2021)
+### om 2.4.1.2021 (23 maart 2021)
 
 Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:
 
-* Probleem verholpen met `targetPageParams` worden opgenomen in mbox-aanvragen. `targetPageParams` dient te worden opgenomen in `pageLoad` alleen aanvragen. (TNT-40247)
+* Probleem opgelost met `targetPageParams` worden opgenomen in mbox-aanvragen. `targetPageParams` dient te worden opgenomen in `pageLoad` alleen aanvragen. (TNT-40247)
 * Probleem verholpen met globale document- en vensterobjecten in het dialoogvenster [!DNL Adobe Experience Platform Launch] extensie door de algemene objectafhankelijkheden van de Platform launch te vervangen door directe verwijzingen ernaar. (TNT-37124)
 
 ### IP adresveranderingen voor de server van Recommendations feed-processing (16 maart 2021)
@@ -600,7 +608,7 @@ De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
 * [!UICONTROL Personalization Insights] rapporten voor [!UICONTROL Auto-Target] (AT) en [!UICONTROL Automated Personalization] (AP) activiteiten worden nu dagelijks geproduceerd. U kunt een rapport kiezen dat [!UICONTROL Automated Segments] of [!UICONTROL Important Attributes] gedurende de laatste 15, 30 en 60 dagen. De opties van 45 dagen en 90 dagen zijn verwijderd om de andere montages van het terugkijkvenster toe te laten om dagelijks te lopen. (TGT-39472)
 * Probleem opgelost waarbij de huidige afhankelijkheid niet werd weergegeven wanneer klanten op [!UICONTROL Edit Dependency] op een activiteit [!UICONTROL Goals & Settings] pagina. (TGT-39340)
-* Probleem verholpen bij het vernieuwen van werkruimten [!UICONTROL Audience Library]. Vóór verfrist zich, toont het publiek voor de momenteel geselecteerde werkruimte. Na vernieuwen [!UICONTROL Default Workspace] en het publiek. De huidige werkruimte en het publiek blijven nu behouden na het vernieuwen. (TGT-38871)
+* Probleem verholpen bij het vernieuwen van werkruimten [!UICONTROL Audience Library]. Vóór verfrist zich, toont het publiek voor de momenteel geselecteerde werkruimte. Na vernieuwen [!UICONTROL Default Workspace] en het publiek dat wordt weergegeven. De huidige werkruimte en het publiek blijven nu behouden na het vernieuwen. (TGT-38871)
 * Probleem verholpen tijdens het kopiëren van een [!UICONTROL Recommendations] activiteit en later het uitgeven van de originele activiteit door zijn criteria opeenvolging te veranderen. De wijziging in de volgorde van criteria in de oorspronkelijke activiteit werd ook onjuist toegepast op de gekopieerde activiteit. (TGT-39155)
 * Probleem verholpen waarbij het onjuiste aantal producten werd weergegeven voor [!UICONTROL Recommendations] uitsluitingen. (TGT-39599)
 
@@ -610,16 +618,16 @@ Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen
 
 De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-* Er is een waarschuwing toegevoegd bij het selecteren van een [!DNL Adobe Analytics] metrisch bij gebruik [!UICONTROL Analytics as the reporting source] (A4T) in een [!UICONTROL Auto-Target] activiteit. [!UICONTROL Auto-Target] modellen zijn geoptimaliseerd om met binaire (op omzetting-gebaseerde) metriek te werken. Het selecteren van een ononderbroken metrische waarde, zoals opbrengst, zou suboptimale resultaten kunnen hebben en [!UICONTROL Personalization Insights] rapporten zijn mogelijk niet correct. (TGT-38926)
+* Een waarschuwing toegevoegd bij het selecteren van een [!DNL Adobe Analytics] metrisch bij gebruik [!UICONTROL Analytics as the reporting source] (A4T) in een [!UICONTROL Auto-Target] activiteit. [!UICONTROL Auto-Target] modellen zijn geoptimaliseerd om met binaire (op omzetting-gebaseerde) metriek te werken. Het selecteren van een ononderbroken metrische waarde, zoals opbrengst, zou suboptimale resultaten kunnen hebben en [!UICONTROL Personalization Insights] rapporten zijn mogelijk niet correct. (TGT-38926)
 * Er is een statuspictogram toegevoegd in het dialoogvenster [!UICONTROL Auto-Target Summary] verslag voor [!UICONTROL Auto-Target] activiteiten die gebruikmaken van A4T. Het groene controlepictogram naast elke ervaring in het rapport geeft aan dat er een gepersonaliseerd model voor machinaal leren is gegenereerd voor die ervaring. Het klokpictogram wijst erop dat niet genoeg verkeer is gediend om het model te bouwen. (TGT-38925)
-* De [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten voor [!UICONTROL Auto-Target] activiteiten die gebruikmaken van A4T en [!DNL Analytics] conversiemetriek wordt gegenereerd en ziet er hetzelfde uit als wanneer u [!DNL Target] als bron van de rapportage. (TGT-38931)
+* De [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten voor [!UICONTROL Auto-Target] activiteiten die gebruikmaken van A4T en [!DNL Analytics] conversiemetriek wordt gegenereerd en ziet er hetzelfde uit als wanneer u [!DNL Target] als de bron van de rapportage. (TGT-38931)
 * Een filteroptie voor de omgeving toegevoegd aan de [!UICONTROL Recommendations] [!UICONTROL Collections] lijst. (TGT-38353)
 * Probleem opgelost waarbij het onjuiste aantal producten werd weergegeven in [!UICONTROL Recommendations] verzamelingen. (TGT-39162)
 * Toegevoegde [!UICONTROL Last Updated] naar de [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
 * Probleem opgelost in [!UICONTROL Recommendations] die de [!UICONTROL Create Sequence] pagina om te hangen na het veranderen van de industrie verticaal. (TGT-38160)
 * Probleem verholpen waardoor gebruikers een publiek niet konden verwijderen uit een aanbieding in een [!UICONTROL Automated Personalization] (AP) activiteit. (TGT-39058)
 * Probleem opgelost waarbij het onjuiste tijdframe (begin- en einddatum) werd weergegeven in [!UICONTROL Audience Info] voor sommige klanten. (TGT-39150)
-* Probleem verholpen waardoor sommige klanten de lijst met activiteiten in de [!UICONTROL Default Workspace]. (TGT-38526)
+* Probleem verholpen waardoor sommige klanten de lijst met activiteiten in het deelvenster [!UICONTROL Default Workspace]. (TGT-38526)
 
 ### om 2.4.0 uur (14 januari 2021)
 
@@ -641,7 +649,7 @@ Deze release bevat de volgende nieuwe functies:
 Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
 * Probleem verholpen dat was voorkomen [!UICONTROL Average Lift Confidence Interval] en [!UICONTROL Confidence] van weergave in [!DNL Auto-Target] de [!UICONTROL Total] rij. De metingen worden correct weergegeven voor alle afzonderlijke ervaringen. (TGT-37301)
-* Probleem verholpen dat gevolgen had [!DNL Adobe Target Premium] gebruikers [!UICONTROL Auto-Target] rapportage vanaf 15 september, 2:30 uur (PDT) tot 6 oktober, 9:25 (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd die of &quot;[!UICONTROL Viewed a page]&quot; of &quot;[!UICONTROL Clicked on mbox]&quot; optie), worden de omrekeningskoersen onjuist gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
+* Probleem verholpen dat gevolgen had [!DNL Adobe Target Premium] gebruikers [!UICONTROL Auto-Target] verslaglegging van 15 september 2010, 14.30 uur (PDT) tot en met 6 oktober 2006, 9.25 uur (PDT). Wanneer het bekijken van rapporten voor de beïnvloede omzettingsmetriek (gevormd die of &quot;[!UICONTROL Viewed a page]&quot; of &quot;[!UICONTROL Clicked on mbox]&quot; optie), worden de omrekeningskoersen onjuist gerapporteerd. Er is momenteel geen bekend leveringsprobleem.
 * Een selecteerbaar item toegevoegd [!UICONTROL Last Updated At] in de [!UICONTROL Catalog Search] tabel en [!UICONTROL Last Updated At] filter. Deze verbetering bespaart tijd en inspanning omdat u niet elk individueel punt moet openen om te zien wanneer het laatst werd bijgewerkt en u kunt filtreren door datum de punten werden laatst bijgewerkt.
 
   ![Laatst bijgewerkt bij kolom- en filterillustratie](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -649,7 +657,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Er zijn updates uitgevoerd om de doelgebruikersinterface compatibel te maken met [Richtlijnen voor toegankelijkheid van webinhoud](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Niveau A en A Success Criteria (WCAG 2.0 AA). (TGT-34384 &amp; TGT-24679)
 * Verbeterde CSP-functies (Content Security Policy). (TGT-37035)
 * Introduceerde een manier om de cliëntcode als parameter voor klanten te specificeren die CNAME gebruiken. (TNT-38571)
-* [!DNL Adobe Experience Cloud] documentatie wordt [!DNL Experience League]. In oktober worden alle opmerkingen bij de release, artikelen, video&#39;s en zelfstudies verplaatst van hun huidige locatie op `docs.adobe.com` tot [!DNL Experience League]. Deze beweging zorgt ervoor dat al het leren, zelfhulp, enablement, en communautaire inhoud van één enkele plaats wordt gediend. Wanneer deze wijziging optreedt, hoeft u niets te doen, aangezien alle koppelingen naar [!DNL Experience League]. De opmerkingen bij de release worden bijgewerkt wanneer de cutover begint.
+* [!DNL Adobe Experience Cloud] de documentatie gaat over op [!DNL Experience League]. In oktober worden alle opmerkingen bij de release, artikelen, video&#39;s en zelfstudies verplaatst van hun huidige locatie op `docs.adobe.com` tot [!DNL Experience League]. Deze beweging zorgt ervoor dat al het leren, zelfhulp, enablement, en communautaire inhoud van één enkele plaats wordt gediend. Wanneer deze wijziging optreedt, hoeft u niets te doen, aangezien alle koppelingen naar [!DNL Experience League]. De opmerkingen bij de release worden bijgewerkt wanneer de cutover begint.
 
 ### Target Standard/Premium 20.9.1 (30 september 2020)
 
@@ -663,7 +671,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen, correcties en wijzigingen
 
 | Functie | Details |
 | --- | --- |
-| ![Premium badge](/help/main/assets/premium.png) Analyses voor doelondersteuning (A4T) voor activiteiten van Auto-Target | [!UICONTROL Auto-Target] activiteiten worden nu ondersteund [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Dankzij deze integratie kunt u de [!UICONTROL Auto-Target] Schakel het leeralgoritme voor machines in om een beste ervaring voor elke bezoeker te kiezen op basis van hun profiel, gedrag en context.<br>Als je al [geïmplementeerde A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) voor gebruik met A/B Test en Ervaring gerichte activiteiten, bent u allen klaar!<br>Zie voor meer informatie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| ![Premium badge](/help/main/assets/premium.png) Analyses voor doelondersteuning (A4T) voor activiteiten van Auto-Target | [!UICONTROL Auto-Target] activiteiten ondersteunen [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Dankzij deze integratie kunt u de [!UICONTROL Auto-Target] Schakel het leeralgoritme voor machines in om een beste ervaring voor elke bezoeker te kiezen op basis van hun profiel, gedrag en context.<br>Als je al [geïmplementeerde A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) voor gebruik met A/B Test en Ervaring gerichte activiteiten, bent u allen klaar!<br>Zie voor meer informatie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 
 ### Target Standard/Premium 20.8.2 (10 september 2020)
 
@@ -684,7 +692,7 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem opgelost in [!UICONTROL Experience Targeting] (XT) activiteiten die ervaringen hebben veroorzaakt om &quot;het halen resultaten&quot;voor een lange periode te tonen. (TGT-37684)
 * Verbeterde navigatie en functionaliteit voor gebruikers met alleen toetsenbord. (TGT-34479 &amp; TGT-34473)
 * Toegevoegde labels in de gebruikersinterface voor gebruikers die ondersteunende hulpmiddelen gebruiken. (TGT-34480)
-* Het foutbericht is verbeterd bij het verwijderen van een mobiele viewport die momenteel wordt gebruikt in een activiteit. Het foutbericht luidt nu: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot; (TGT-37030)
+* Het foutbericht is verbeterd bij het verwijderen van een mobiele viewport die momenteel wordt gebruikt in een activiteit. Het foutbericht luidt nu als volgt: &quot;Deze viewport is momenteel gekoppeld aan een of meerdere activiteiten. U moet viewport uit die activiteiten verwijderen alvorens het te kunnen schrappen.&quot; (TGT-37030)
 * Toegevoegde steun in VEC om klik het volgen op een css selecteur toe te staan die meer dan één element in de pagina aanpast. (TGT-37323)
 * Probleem verholpen waardoor bepaalde gebruikers de [!UICONTROL Activity] lijst. Het volgende foutbericht is weergegeven: &quot;Kan geen URL-suggesties ophalen.&quot; De fout kwam voor gebruikers voor gebruikend wagenterugloop in hun FirstName (FirstName/r/n) in het systeem van de Achterkant van de Adobe. (TGT-37330)
 * Probleem verholpen waardoor gebruikers de [!UICONTROL Activity] pagina als de naam van de werkruimte (opgegeven in het dialoogvenster [!UICONTROL Adobe Admin Console for Enterprise]) bevat een apostrof. (TGT-37709)
@@ -711,10 +719,10 @@ Als onderdeel van deze vernieuwing kunt u gemakkelijk een groot aantal handeling
 
 * Download het nieuwste bestand at.js van de [!UICONTROL Implementation] tab (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
 * Pas de instellingen op at.js aan en bekijk uw wijzigingen eenvoudig (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
-* Wijzig verbeterde rapporteringsmontages, zoals de standaardmunt en tijdzone, IPs om van rapportering uit te sluiten, etc. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
+* Wijzig verbeterde rapporteringsmontages, zoals de standaardmunt en tijdzone, IPs om van rapportering uit te sluiten, enz. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
 * IP-adressen van bezoekers verduisteren om privacyredenen (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
 * Bekijk de bestaande lijst met gebruikers per werkruimte en hun rollen, voordat u ze beheert in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
-* Alle tabellen in de [!UICONTROL Administration] sectie.
+* Alle tabellen in het dialoogvenster [!UICONTROL Administration] sectie.
 
 Zie voor meer informatie [Doeloverzicht beheren](/help/main/administrating-target/administrating-target.md).
 
@@ -731,9 +739,9 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Ondersteuning voor Analytics voor Target (A4T) voor [!UICONTROL Auto-Allocate] activiteiten | [!UICONTROL Auto-Allocate] activiteiten worden nu ondersteund [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Dankzij deze integratie kunt u de [!UICONTROL Auto-Allocate] meervoudig bewapende bandit vermogen om verkeer naar het winnen van ervaringen te drijven, terwijl het gebruiken van een [!UICONTROL Adobe Analytics] doel metrisch en/of [!UICONTROL Adobe Analytics] rapportage- en analysemogelijkheden.<br>Als je al [geïmplementeerde A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) voor gebruik met A/B Test en Ervaring gerichte activiteiten, bent u allen klaar!<br>Zie voor meer informatie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| Ondersteuning voor Analytics voor Target (A4T) voor [!UICONTROL Auto-Allocate] activiteiten | [!UICONTROL Auto-Allocate] activiteiten ondersteunen [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Dankzij deze integratie kunt u de [!UICONTROL Auto-Allocate] meervoudig bewapende bannercapaciteit om verkeer naar het winnen van ervaringen te drijven, terwijl het gebruiken van een [!UICONTROL Adobe Analytics] doel metrisch en/of [!UICONTROL Adobe Analytics] rapportage- en analysemogelijkheden.<br>Als je al [geïmplementeerde A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) voor gebruik met A/B Test en Ervaring gerichte activiteiten, bent u allen klaar!<br>Zie voor meer informatie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | De tokens van de reactie voor de Methode van de Toewijzing van het Verkeer voor auto-Doel en de activiteiten van Automated Personalization | Twee [reactietokens](/help/main/administrating-target/response-tokens.md) zijn toegevoegd aan [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] activiteiten om te kunnen bepalen of een bezoeker een bepaalde ervaring heeft opgedaan als gevolg van zijn toewijzing aan &quot;controle&quot; of &quot;gericht&quot; verkeer.<ul><li>`experience.trafficAllocationId` 0 als een bezoeker ervaring heeft opgedaan met &quot;controle&quot;-verkeer en 1 als een bezoeker een ervaring heeft opgedaan met &quot;gerichte&quot; verkeersdistributie.</li><li>`experience.trafficAllocationType` retourneert &quot;control&quot; of &quot;target&quot;.</li></ul>Voor meer informatie over controle versus gericht verkeer, zie [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](/help/main/c-activities/t-automated-personalization/experience-as-control.md). |
-| [!UICONTROL Publisher] rol | Deze nieuwe rol is vergelijkbaar met de huidige [!UICONTROL Observer] rol (kan activiteiten bekijken, maar kan niet hen creëren of uitgeven). De [!UICONTROL Publisher] de rol heeft de extra toestemming om activiteiten te activeren.<br>Zie voor meer informatie: <ul><li>**Standaarddoelgebruikers**: [Rollen en machtigingen opgeven](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers*.</li><li>**Doelpremiumgebruikers**: [Stap 6: Rollen en machtigingen opgeven](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Bedrijfsmachtigingen configureren*.</li></ul> |
+| [!UICONTROL Publisher] rol | Deze nieuwe rol is vergelijkbaar met de huidige [!UICONTROL Observer] rol (kan activiteiten bekijken, maar kan niet hen creëren of uitgeven). De [!UICONTROL Publisher] de rol heeft de extra toestemming om activiteiten te activeren.<br>Zie voor meer informatie: <ul><li>**Standaarddoelgebruikers**: [Rollen en machtigingen opgeven](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers*.</li><li>**Doelpremiumgebruikers**: [Stap 6: Geef rollen en machtigingen op](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Bedrijfsmachtigingen configureren*.</li></ul> |
 | A4T-ondersteuning in [!DNL Analysis Workspace]<br>25 juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wordt nu ondersteund in [!DNL Analysis Workspace]. De [!UICONTROL Analytics for Target (A4T) panel] Hiermee kunt u uw [!DNL Adobe Target] activiteiten en ervaringen in [!DNL Analysis Workspace].<br>Zie voor meer informatie [Rapporten in Analytics](/help/main/c-integrating-target-with-mac/a4t/reporting.md) in *A4T-rapportage* en [Analyses voor venster Doel (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in de *Handleiding Analysehulpmiddelen*. |
 
 **Verbeteringen, correcties en wijzigingen**
@@ -747,8 +755,8 @@ De volgende verbeteringen en correcties zijn aangebracht in de [!DNL Target] bib
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* kan het serverdomein onjuist maken, wat tot [!DNL Target] verzoek mislukt. (TNT-35064)</li></ul>Zie voor meer informatie [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
-| om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` overschrijfbaar instellen via [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}. (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* kan het serverdomein onjuist maken, wat tot [!DNL Target] verzoek mislukt. (TNT-35065)</li><li>Probleem verholpen tijdens het gebruik van de [!DNL Target] [!DNL Launch] extensie v2 en de [!DNL Adobe Analytics] [!DNL Launch] uitbreiding, [!DNL Target] de [!DNL Analytics] `sendBeacon` vraag. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie voor meer informatie [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
+| om.js 1.8.2 | Deze release van at.js is een onderhoudsrelease en bevat de volgende oplossing:<ul><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 1.*x* kan het serverdomein onjuist maken, wat tot [!DNL Target] verzoek mislukt. (TNT-35064)</li></ul>Zie voor meer informatie [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
+| om.js 2.3.1 | Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringen en oplossingen:<ul><li>De `deviceIdLifetime` overschrijfbaar instellen via [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}. (TNT-36349)</li><li>Probleem verholpen bij gebruik van CNAME en randoverschrijving, op .js 2.*x* kan het serverdomein onjuist maken, wat tot [!DNL Target] verzoek mislukt. (TNT-35065)</li><li>Probleem verholpen tijdens het gebruik van de [!DNL Target] [!DNL Launch] de extensie v2 en de [!DNL Adobe Analytics] [!DNL Launch] extensie, [!DNL Target] de [!DNL Analytics] `sendBeacon` vraag. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Zie voor meer informatie [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
 
 ### Wijzigingen in de profielbatchstatus-API v2 (14 mei 2020)
 
@@ -759,7 +767,7 @@ De vorige en nieuwe API-reacties zijn als volgt:
 `ProfileBatchStatus Api`
 `http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
-**Momenteel zien we het antwoord als:**
+**Op dit moment zien we het antwoord als:**
 
 ```
 <response>
@@ -828,12 +836,12 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 * Probleem verholpen waardoor rapporten voor automatische personalisatie niet correct worden weergegeven. (TGT-36619)
 * Probleem verholpen waarbij incompatibele metriek kon worden geselecteerd in Auto-Allocate en Auto-Target activiteiten die Analytics voor Doel (A4t) gebruiken. (TGT-36646)
 * Probleem verholpen waarbij bepaalde opties in de Visual Experience Composer (VEC) niet correct werden weergegeven. (TGT-36571)
-* Probleem verholpen in de doelgebruikersinterface die ertoe heeft geleid dat andere Recommendations-aanbiedingsvoorvertoningen de bewerkte inhoud hebben weergegeven nadat een gebruiker de inhoud in één ervaring heeft vervangen. (TGT-36053 &amp; TGT-36894)
+* Probleem verholpen in de doelinterface die ertoe heeft geleid dat andere Recommendations-aanbiedingsvoorvertoningen de bewerkte inhoud hebben weergegeven nadat een gebruiker de inhoud in één ervaring heeft vervangen. (TGT-36053 &amp; TGT-36894)
 * Probleem verholpen waardoor sommige gebruikers items uit een Recommendations-catalogus konden verwijderen. (TGT-36455)
 * Probleem verholpen waardoor gebruikers Recommendations-criteria niet konden opslaan voor activiteiten die uit meerdere pagina&#39;s bestaan. (TGT-36249)
-* Probleem verholpen waarbij de keuzerondjes voor de gegevensbron met gedragingen voor een tweede opeenvolgende keer werden verborgen bij het bewerken van de criteria. (TGT-36796)
+* Probleem verholpen waarbij de keuzerondjes voor de gegevensbron met gedragingen voor een tweede opeenvolgende keer werden verborgen tijdens het bewerken van de criteria. (TGT-36796)
 * Probleem verholpen waarbij een Recommendations-algoritme gedurende een langere periode &quot;ophaalresultaten&quot; liet weergeven. (TGT-36550 &amp; TGT-36551)
-* Veel UI-tekenreeksen die in verschillende talen zijn gelokaliseerd, zijn bijgewerkt.
+* Een groot aantal gebruikersinterfacetekenreeksen bijgewerkt in verschillende talen.
 
 ### Doel om.js (25 maart 2020)
 
@@ -842,7 +850,7 @@ De volgende nieuwe versies van de JavaScript-bibliotheken van Target at.js zijn 
 * at.js versie 2.3.0
 * at.js versie 1.8.1
 
-Zie voor meer informatie [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+Zie voor meer informatie [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### Target Standard/Premium 20.2.1 (23 maart 2020)
 
@@ -850,14 +858,14 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
 
 * Probleem verholpen waarbij klanten een verzameling niet konden selecteren tijdens het uitvoeren van een cataloguszoekopdracht. (TGT-36230)
 * Probleem verholpen waarbij een criterium dat via API is gemaakt, maar waarnaar niet wordt verwezen door een activiteit die in de doelinterface is gemaakt, ten onrechte uit de gebruikersinterface kan worden verwijderd. (TGT-35917)
-* Geïmplementeerde veiligheidsverbeteringen aan het Beleid van de Veiligheid van de Inhoud (CSP). (TGT-36190)
+* Uitgevoerde veiligheidsverbeteringen aan het Beleid van de Veiligheid van de Inhoud (CSP). (TGT-36190)
 * Probleem verholpen waarbij &quot;NaN%&quot; werd weergegeven wanneer de percentagebalk voor kenmerkweging naar links werd verschoven. (TGT-36211)
 * Opgeloste lokalisatieproblemen zodat de UI-tekst in verschillende talen correct wordt weergegeven.
 * We hebben de lijst met beschikbare meetgegevens van Adobe Analytics for Target (A4T)-activiteiten gestandaardiseerd door Adobe Analytics-meetgegevens af te schaffen die niet worden ondersteund in de huidige versie van Adobe Analytics API&#39;s. Hierdoor kunnen we onze A4T-ondersteuning uitbreiden in toekomstige versies van Adobe Target.
 
   De volgende wijzigingen zijn aangebracht:
 
-   * &quot;Gemiddelde tijd die op pagina wordt besteed&quot; is vervangen door &quot;Gemiddelde tijd die ter plekke wordt besteed.&quot; Om het even welke activiteiten die dit als metrisch metrisch het Primaire Metrische Doel gebruiken zullen &quot;Gemiddelde Tijd die op Plaats wordt uitgegeven&quot;hebben (nota: (gemeten in minuten in plaats van seconden) geselecteerd als Primair doel Metrisch wanneer de activiteit de volgende keer wordt bewerkt.
+   * &quot;Gemiddelde tijd die op pagina wordt besteed&quot; is vervangen door &quot;Gemiddelde tijd die ter plekke wordt besteed.&quot; Voor alle activiteiten die dit als metrisch voor het primaire doel gebruiken, wordt &quot;Gemiddelde tijd die ter plaatse wordt besteed&quot; (opmerking: gemeten in minuten in plaats van seconden) geselecteerd als &quot;Primair doel metrisch&quot; wanneer de activiteit de volgende keer wordt bewerkt.
    * &quot;Bezoekers&quot; is vervangen door &quot;Unieke Bezoekers&quot;. Voor alle activiteiten waarbij deze metrische waarde wordt gebruikt als &#39;Primaire Goal Metric&#39;, worden &#39;Unieke bezoekers&#39; geselecteerd als &#39;Primaire Goal Metric&#39; wanneer de activiteit de volgende keer wordt bewerkt.
 
 * De volgende metriek zijn afgekeurd en kunnen niet meer worden geselecteerd als Primair doel Metrisch wanneer het creëren van een nieuwe activiteit A4T.
@@ -869,12 +877,12 @@ Deze release bevat de volgende verbeteringen, correcties en wijzigingen:
   | Bots | n.v.t. Niet voorgesteld als primair doel metrisch |
   | Mobiele crashsnelheid, Mobile Avg vorige sessieduur, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating | n.v.t. Niet voorgesteld als primair doel metrisch |
 
-### Navigatie door Adobe Experience Cloud (22 februari 2019)
+### Adobe Experience Cloud navigation (22 februari 2019)
 
 * Wanneer u zich aanmeldt bij de [!DNL Adobe Experience Cloud], wordt u doorgestuurd naar de nieuwe headernavigatie. Het lijkt sterk op de vorige navigatie met de zwarte balk bovenaan, maar biedt de volgende verbeteringen:
 
    * Eenvoudiger schakelen tussen [!DNL Identity Management System] (IMS) organisaties of een andere oplossing.
-   * Verbeterde gebruikershulp: De zoekresultaten bevatten resultaten van het [!DNL Target] productdocumentatie, maar ook communityforums en meer video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal te profiteren [!DNL Target]. We hebben ook een feedbackmechanisme toegevoegd in het gedeelte [!UICONTROL Help] , zodat u gemakkelijker problemen kunt melden of uw ideeën kunt delen.
+   * Verbeterde gebruikershulp: zoekresultaten bevatten resultaten van de [!DNL Target] productdocumentatie, maar ook communityforums en meer video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal te profiteren [!DNL Target]. We hebben ook een feedbackmechanisme toegevoegd in de [!UICONTROL Help] , zodat u gemakkelijker problemen kunt melden of uw ideeën kunt delen.
 
    * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw werkstroom niet verstoort.
 
@@ -907,7 +915,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Java SDK | De [!DNL Target] Java SDK biedt u de mogelijkheid te implementeren [!DNL Target] op de server. Met deze Java SDK kunt u eenvoudig integreren [!DNL Target] met andere [!DNL Adobe Experience Cloud] oplossingen, zoals de [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics], en [!DNL Adobe Audience Manager].<br>De Java SDK introduceert best practices en verwijdert complexiteit bij integratie met [!DNL Target] via onze bezorgings-API zodat uw engineeringteams zich kunnen richten op bedrijfslogica. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie hebt van [!DNL Target] zowel op uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` dat wordt bevolkt door ervaringen die via server-kant worden teruggewonnen zodat at.js 2.2 geen extra servervraag meer zal maken om de ervaringen terug te winnen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li>Ondersteuning voor het ophalen van VEC-activiteiten via de Java SDK, wat mogelijk wordt gemaakt door de nieuwe Delivery API.</li><li>Open sourcing zodat uw ontwikkelaars kunnen bijdragen aan de [Doel Java SDK](https://github.com/adobe/target-java-sdk).</li></ul>Meer informatie over de Target Java SDK op het Tech Blog van de Adobe - [Server-Side Optimization met de nieuwe Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
+| Java SDK | De [!DNL Target] Java SDK biedt u de mogelijkheid te implementeren [!DNL Target] server. Met deze Java SDK kunt u eenvoudig integreren [!DNL Target] met andere [!DNL Adobe Experience Cloud] oplossingen, zoals de [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics], en [!DNL Adobe Audience Manager].<br>De Java SDK introduceert best practices en verwijdert complexiteit bij integratie met [!DNL Target] via onze bezorgings-API zodat uw technische teams zich kunnen richten op bedrijfslogica. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie hebt van [!DNL Target] zowel op uw webpagina&#39;s als op de server. We introduceren een instelling die `serverState` dat wordt bevolkt door ervaringen die via server-kant worden teruggewonnen zodat at.js 2.2 geen extra servervraag meer zal maken om de ervaringen terug te winnen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li>Ondersteuning voor het ophalen van VEC-activiteiten via de Java SDK, wat mogelijk wordt gemaakt door de nieuwe Delivery API.</li><li>Open sourcing zodat uw ontwikkelaars kunnen bijdragen aan de [Doel Java SDK](https://github.com/adobe/target-java-sdk).</li></ul>Meer informatie over de Target Java SDK op het Tech Blog van de Adobe - [Server-Side Optimization met de nieuwe Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
 
 ### Target Standard/Premium 19.10.2 (31 oktober 2019)
 
@@ -926,7 +934,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
 * Wanneer u zich aanmeldt bij de [!DNL Adobe Experience Cloud], wordt u doorgestuurd naar de nieuwe headernavigatie. Het lijkt sterk op de vorige navigatie met de zwarte balk bovenaan, maar biedt de volgende verbeteringen:
 
    * Eenvoudiger schakelen tussen [!DNL Identity Management System] (IMS) organisaties of een andere oplossing.
-   * Verbeterde gebruikershulp: De zoekresultaten bevatten resultaten van het [!DNL Target] productdocumentatie, maar ook communityforums en meer video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal te profiteren [!DNL Target]. We hebben ook een feedbackmechanisme toegevoegd in het gedeelte [!UICONTROL Help] , zodat u gemakkelijker problemen kunt melden of uw ideeën kunt delen.
+   * Verbeterde gebruikershulp: zoekresultaten bevatten resultaten van de [!DNL Target] productdocumentatie, maar ook communityforums en meer video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal te profiteren [!DNL Target]. We hebben ook een feedbackmechanisme toegevoegd in de [!UICONTROL Help] , zodat u gemakkelijker problemen kunt melden of uw ideeën kunt delen.
 
    * Verbeterde NPS-feedbackfunctionaliteit (Net Promoter Score), zodat de enquêtemodale modus uw werkstroom niet verstoort.
 
@@ -942,13 +950,13 @@ Het volgende probleem is opgelost in versie 1.0.1:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| at.js versie 2.2<br>en<br>at.js versie 1.8 | Deze versies van at.js verstrekken:<ul><li>Betere prestaties bij gebruik van zowel Experience Cloud ID Service (ECID) v4.4 als at.js 2.2 of at.js 1.8 op uw webpagina&#39;s.</li><li>Eerder, maakte ECID twee blokkerende vraag alvorens at.js ervaringen kon halen. Dit is verminderd tot één enkele vraag, die beduidend prestaties verbetert.</li></ul> Om van deze prestatiesverbeteringen voordeel te halen, bevorder aan at.js 2.2 of at.js 1.8 samen met de Bibliotheek van ECID v4.4.<br>at.js 2.2 biedt:<ul><li>**serverState**: Een instelling die beschikbaar is in at.js v2.2+ en die kan worden gebruikt om de paginaprestaties te optimaliseren wanneer een hybride integratie van Target wordt geïmplementeerd. Hybride integratie betekent dat u zowel at.js v2.2+ op de client-kant als de levering-API of een doel-SDK op de server-kant gebruikt om ervaringen te bieden. `serverState` geeft at.js v2.2+ de capaciteit om ervaringen direct van inhoud toe te passen die op de server wordt gehaald en aan de cliënt als deel van de pagina teruggegeven wordt.<br>Zie &quot;serverState&quot; in [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.</li></ul> |
+| at.js versie 2.2<br>en<br>at.js versie 1.8 | Deze versies van at.js verstrekken:<ul><li>Betere prestaties bij gebruik van zowel Experience Cloud ID Service (ECID) v4.4 als at.js 2.2 of at.js 1.8 op uw webpagina&#39;s.</li><li>Eerder, maakte ECID twee blokkerende vraag alvorens at.js ervaringen kon halen. Dit is verminderd tot één enkele vraag, die beduidend prestaties verbetert.</li></ul> Om van deze prestatiesverbeteringen voordeel te halen, bevorder aan at.js 2.2 of at.js 1.8 samen met de Bibliotheek van ECID v4.4.<br>at.js 2.2 biedt:<ul><li>**serverState**: Een instelling beschikbaar in at.js v2.2+ die kan worden gebruikt om de paginaprestaties te optimaliseren wanneer een hybride integratie van Target wordt geïmplementeerd. Hybride integratie betekent dat u zowel at.js v2.2+ op de client-kant als de levering-API of een doel-SDK op de server-kant gebruikt om ervaringen te bieden. `serverState` geeft at.js v2.2+ de capaciteit om ervaringen direct van inhoud toe te passen die op de server wordt gehaald en aan de cliënt als deel van de pagina teruggegeven wordt.<br>Zie &quot;serverState&quot; in [targetGlobalSettings](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.</li></ul> |
 
 ### Doelplatform (9 oktober 2019)
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Node.js SDK versie 1.0 | Met de SDK van Target Node.js kunt u de doelserver implementeren.<br>Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Experience Cloud-oplossingen, zoals de Adobe Experience Cloud Identity Service, Adobe Analytics en Adobe Audience Manager.<br>De SDK van Node.js introduceert best practices en verwijdert complexiteit bij de integratie met Adobe Target via onze API voor levering, zodat uw engineeringteams zich kunnen richten op bedrijfslogica. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` die zal worden bevolkt door ervaringen die via server-kant worden teruggewonnen zodat at.js 2.2 geen extra servervraag meer zal maken om de ervaringen terug te winnen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door nieuwe Levering API mogelijk wordt gemaakt.</li><li>Open-sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul> |
+| Node.js SDK versie 1.0 | Met de SDK van Target Node.js kunt u de doelserver implementeren.<br>Met deze Node.js SDK kunt u Target eenvoudig integreren met andere Experience Cloud-oplossingen, zoals de Adobe Experience Cloud Identity Service, Adobe Analytics en Adobe Audience Manager.<br>De SDK van Node.js introduceert best practices en verwijdert complexiteit bij de integratie met Adobe Target via onze API voor levering, zodat uw engineeringteams zich kunnen richten op bedrijfslogica. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling die `serverState` die zal worden bevolkt door ervaringen die via server-kant worden teruggewonnen zodat at.js 2.2 geen extra servervraag meer zal maken om de ervaringen terug te winnen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door nieuwe Levering API mogelijk wordt gemaakt.</li><li>Open-sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul> |
 | Leverings-API | Een geheel nieuw levering API eindpunt (/v1/levering) is beschikbaar in productie. Opmerkelijke functies zijn:<ul><li>Één eindpunt om ervaringen voor één of meerdere dozen terug te winnen.</li><li>Haal VEC-activiteiten op via de API.</li><li>Ondersteuning voor een geheel nieuw object genaamd Weergaven dat wordt gebruikt voor toepassingen voor één pagina (SPA) en mobiele toepassingen.</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 september 2019)
@@ -963,7 +971,7 @@ Deze onderhoudrelease bevat de volgende verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| ![Premium badge](/help/main/assets/premium.png) Bedrijfsmachtigingen | Met de Target-release van september 2019 bieden Enterprise-machtigingen klanten de volgende toegangsopties:<UL><li>U kunt de werkruimten kiezen waarop de integratie kan worden toegepast.</li><li>U kunt een rol op de integratie van Adobe I/O toepassen: Fiatteur, Editor of waarnemer.</li></ul>Voor stapsgewijze instructies en meer informatie raadpleegt u [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](/help/main/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium badge](/help/main/assets/premium.png) Bedrijfsmachtigingen | Met de Target-release van september 2019 bieden Enterprise-machtigingen klanten de volgende toegangsopties:<UL><li>U kunt de werkruimten kiezen waarop de integratie kan worden toegepast.</li><li>U kunt een rol op de integratie van Adobe I/O toepassen: Approver, Redacteur, of Waarnemer.</li></ul>Zie voor stapsgewijze instructies en meer informatie [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](/help/main/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ### Target Standard/Premium 19.7.1 (24 juli 2019) {#tgt-19-7-1}
 
@@ -973,8 +981,8 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| ![Premium badge](/help/main/assets/premium.png)<br>Recommendations in A/B Test and Experience Targeting (XT)-activiteiten | De Recommendations-aanbiedingsstatus (algoritme) wordt weergegeven op de overzichtspagina voor A/B Test- en XT-activiteiten die Recommendations-aanbiedingen bevatten. Voorbeelden van statussen zijn: Resultaten gereed, resultaten niet gereed en Feed-fout. (TGT-33649)<br>Zie [Recommendations als voorstel](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
-| Ondersteuning voor interdomeintracering voor at.js 2.0+ via de Experience Cloud ID-bibliotheek (ECID) | Eerder werd interdomeintracering niet ondersteund in at.js 2.*x*. Met deze release kunnen klanten die at.js 2.0 of hoger gebruiken nu interdomeintracering gebruiken via de ECID-bibliotheek. De ECID-bibliotheek moet op de pagina worden geïnstalleerd in combinatie met at.js 2.0 of hoger om interdomeintracering mogelijk te maken. [Experience Cloud ID-bibliotheek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) worden gebruikt.<br>Zie [Ondersteuning voor interdomeintracering in at.js 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
+| ![Premium badge](/help/main/assets/premium.png)<br>Recommendations in A/B Test and Experience Targeting (XT)-activiteiten | De Recommendations-aanbiedingsstatus (algoritme) wordt weergegeven op de overzichtspagina voor A/B Test- en XT-activiteiten die Recommendations-aanbiedingen bevatten. De statussen omvatten: Resultaten Klaar, Resultaten niet Klaar, en de Mislukking van het voer. (TGT-33649)<br>Zie [Recommendations als voorstel](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
+| Ondersteuning voor interdomeintracering voor at.js 2.0+ via de Experience Cloud ID-bibliotheek (ECID) | Eerder werd interdomeintracering niet ondersteund in at.js 2.*x*. Met deze release kunnen klanten die at.js 2.0 of hoger gebruiken nu interdomeintracering gebruiken via de ECID-bibliotheek. De ECID-bibliotheek moet op de pagina worden geïnstalleerd in combinatie met at.js 2.0 of hoger om interdomeintracering mogelijk te maken. [Experience Cloud ID-bibliotheek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) moet worden gebruikt.<br>Zie [Ondersteuning voor interdomeintracering in at.js 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
 | Doelondersteuning voor Apple ITP 2.1 en ITP 2.2 via de Experience Cloud ID-bibliotheek 4.3 | Vandaag, kunnen de klanten van het Doel Apple ITP 2.1 en ITP 2.2 door Adobe CNAME certificatieprogramma leveraging beperken.<br>Met deze release introduceert Target een naadloze integratie met de ECID-bibliotheek 4.3, die een servercookie gebruikt om ITP 2.1 en ITP 2.2 te beperken. Het wordt ten zeerste aanbevolen dat doelklanten [ECID-bibliotheek 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in combinatie met de JavaScript-bibliotheek van Target om eventuele toekomstige ITP-releases te beperken. De ECID-bibliotheek blijft verbeterde functies implementeren die een robuuste oplossing bieden voor het voortdurend veranderende beleid van cookies dat door browsers wordt geïntroduceerd.<br>Zie [Apple Intelligent Tracking Prevention (ITP) 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
 **Verbeteringen, correcties en wijzigingen**
@@ -991,17 +999,17 @@ Deze versie van at.js is een onderhoudsrelease en bevat de volgende verbeteringe
 
 * Oplossing een kwestie die veelvoudige bakens aan brand veroorzaakte toen het gebruiken van de Metrisch van het Volgen van de Klik op de pagina van Doelstellingen &amp; van Montages in Visual Experience Composer (VEC). (TNT-32812)
 * Probleem verholpen dat ertoe heeft geleid `triggerView()` om aanbiedingen niet meer dan één keer te renderen. (TNT-32780)
-* Probleem verholpen met `triggerView()` om ervoor te zorgen dat het verzoek Marketing Cloud-ID (MCID)-informatie bevat. (TNT-32776)
+* Probleem opgelost met `triggerView()` om ervoor te zorgen dat het verzoek Marketing Cloud-ID (MCID)-informatie bevat. (TNT-32776)
 * Het probleem dat ervoor zorgde dat de `triggerView()` bericht wordt afgevuurd, zelfs als er geen opgeslagen weergaven zijn. (TNT-32614)
 * Probleem verholpen die een fout veroorzaakte door het gebruik van de decodeURIcomponent die problemen veroorzaakte wanneer de URL een onjuist gevormde parameter van het vraagkoord bevat. (TNT-32710)
 * De bakenvlag wordt nu geplaatst aan &quot;waar&quot;in de context van leveringsverzoeken die via `Navigator.sendBeacon()` API. (TNT-32683)
-* Probleem opgelost waarbij Recommendations-aanbiedingen voor een paar klanten niet konden worden weergegeven op websites. Klanten konden de inhoud van de aanbieding zien in de levering API vraag maar de aanbieding werd niet toegepast op de website. (TNT-32680)
+* Probleem verholpen waarbij Recommendations-aanbiedingen voor een paar klanten niet konden worden weergegeven op websites. Klanten konden de inhoud van de aanbieding zien in de levering API vraag maar de aanbieding werd niet toegepast op de website. (TNT-32680)
 * Probleem verholpen waarbij klikken-volgen over meerdere ervaringen ertoe leidde dat het programma niet naar behoren functioneerde. (TNT-32644)
 * Probleem verholpen waardoor at.js de tweede metrische waarde niet kon toepassen na het renderen van de eerste metrische waarde. (TNT-32628)
 * Probleem verholpen bij passeren `mboxThirdPartyId` met de `targetPageParams` functie die ertoe leidde dat de verzoeklading om niet in of de vraagparameters of in de verzoeklading aanwezig was. (TNT-32613)
 * Probleem verholpen waardoor de weergave werd geblokkeerd en op reacties op meldingen werd geklikt in browsers op basis van chroom (inclusief Google Chrome). (TNT-32290)
 
-Voor informatie over dit en vorige versies van at.js, zie [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+Voor informatie over dit en vorige versies van at.js, zie [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### Target Standard/Premium 19.6.1 (26 juni 2019) {#tgt-19-6-1-historical}
 
@@ -1011,9 +1019,9 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Visual Experience Composer (VEC) | **Nieuwe VEC-menuopties**: Wanneer u een paginaelement in VEC klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn.<ul><li>U kunt nu de opdracht [!UICONTROL Styles > Background] om de achtergrondafbeelding en -kleur voor het geselecteerde element te wijzigen. (TGT-15001)</li></ul>Zie *Stijlen* in [Opties voor visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Verbeteringen voor bijhouden van klikken**: Wij hebben het proces verbeterd om klik het volgen binnen VEC en de Enige Toepassing van de Pagina (SPA) VEC te vormen.<ul><li>Als u elementen selecteert die u wilt gebruiken bij het bijhouden van klikken, worden de namen van alle beschikbare elementen aan de rechterkant weergegeven in het deelvenster Wijzigingen, zodat u snel en gemakkelijk de gewenste elementen kunt selecteren.</li><li>De [!UICONTROL Goals & Settings] op de pagina met instructies-workflows met drie delen wordt een nummer weergegeven dat het aantal elementen vertegenwoordigt dat is geselecteerd voor het bijhouden van klikken. U kunt de muisaanwijzer op dit nummer plaatsen om de namen van alle geselecteerde elementen weer te geven. (TGT-33878)</li></ul>Zie [Klikken bijhouden](/help/main/c-activities/r-success-metrics/click-tracking.md). |
-| Single Page App Visual Experience Composer (SPA VEC) | **Workflow met instructies**: Een nieuwe geleide werkstroom helpt u begrijpen hoe pagina-levering-regel montages zou moeten worden gevormd om een activiteit voor uw Enige Pagina App met succes uit te voeren en in werking te stellen. (TGT-33718)<br> Zie [Single Page App (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Kloonwijzigingen**: U kunt nu een wijziging definiëren met de SPA VEC en die wijziging vervolgens klonen voor gebruik in andere weergaven in de app voor één pagina. (TGT-33882)<br>Zie [Single Page App (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md). |
-| ![Premium badge](/help/main/assets/premium.png) Automated Personalization (AP) en Auto-Target | **Specifieke ervaring als controle**: U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een AP of een auto-Doel activiteit. Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren. De huidige controleoptie (willekeurig bediende ervaringen) zal beschikbaar blijven. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Zie [Selecteer het besturingselement voor uw Automated Personalization- of Auto-Target-activiteit](/help/main/c-activities/t-automated-personalization/experience-as-control.md).<br>**Persoonlijkheidsrapporten**: De markeringsvriendelijke naamgeving voor kenmerken wanneer een bezoeker een bepaald stuk inhoud op een specifieke locatie ziet, levert zinvollere informatie op. (TGT-33421 &amp; TGT-34957)<br>Zie [Gegevensverzameling voor de personalisatiealgoritmen van het Doel](/help/main/c-activities/t-automated-personalization/ap-data.md). |
+| Visual Experience Composer (VEC) | **Nieuwe VEC-menuopties**: Wanneer u op een pagina-element in de VEC klikt, ziet u in een menu de opties die beschikbaar zijn voor dat elementtype.<ul><li>U kunt nu de opdracht [!UICONTROL Styles > Background] om de achtergrondafbeelding en -kleur voor het geselecteerde element te wijzigen. (TGT-15001)</li></ul>Zie *Stijlen* in [Opties voor visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Verbeteringen voor bijhouden van klikken**: Het proces voor het configureren van het bijhouden van klikken in de VEC en de VEC voor toepassing van één pagina (SPA) is verbeterd.<ul><li>Als u elementen selecteert die u wilt gebruiken bij het bijhouden van klikken, worden de namen van alle beschikbare elementen aan de rechterkant weergegeven in het deelvenster Wijzigingen, zodat u snel en gemakkelijk de gewenste elementen kunt selecteren.</li><li>De [!UICONTROL Goals & Settings] op de pagina met instructies-workflows met drie delen wordt een nummer weergegeven dat het aantal elementen vertegenwoordigt dat is geselecteerd voor het bijhouden van klikken. U kunt de muisaanwijzer op dit nummer plaatsen om de namen van alle geselecteerde elementen weer te geven. (TGT-33878)</li></ul>Zie [Klikken bijhouden](/help/main/c-activities/r-success-metrics/click-tracking.md). |
+| Single Page App Visual Experience Composer (SPA VEC) | **Workflow met instructies**: Een nieuwe geleide werkstroom helpt u begrijpen hoe pagina-levering-regel montages zouden moeten worden gevormd om een activiteit voor uw Enige Pagina App met succes uit te voeren en in werking te stellen. (TGT-33718)<br> Zie [Single Page App (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Kloonwijzigingen**: U kunt nu een wijziging definiëren met de SPA VEC en die wijziging vervolgens klonen voor gebruik in andere weergaven in de app voor één pagina. (TGT-33882)<br>Zie [Single Page App (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md). |
+| ![Premium badge](/help/main/assets/premium.png) Automated Personalization (AP) en Auto-Target | **Specifieke ervaring als controle**: U kunt een ervaring selecteren die u als besturingselement wilt gebruiken tijdens het maken van een AP- of Auto-Target-activiteit. Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren. De huidige controleoptie (willekeurig bediende ervaringen) zal beschikbaar blijven. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Zie [Selecteer het besturingselement voor uw Automated Personalization- of Auto-Target-activiteit](/help/main/c-activities/t-automated-personalization/experience-as-control.md).<br>**Persoonlijkheidsrapporten**: De markeringsvriendelijke naamgeving voor kenmerken wanneer een bezoeker een bepaald stuk inhoud op een specifieke locatie ziet, levert betekenisvollere informatie op. (TGT-33421 &amp; TGT-34957)<br>Zie [Gegevensverzameling voor de personalisatiealgoritmen van het Doel](/help/main/c-activities/t-automated-personalization/ap-data.md). |
 | ![Premium badge](/help/main/assets/premium.png) Recommendations | U kunt de optie Aanbevolen eerder aangeschafte items gebruiken tijdens het maken van de logica Onlangs bekeken items. (TGT-34030)<br>Zie voor meer informatie [Onlangs bekeken objecten](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in &quot;Criteria maken&quot;. |
 | Beleid voor cookies van Google Chrome SameSite | Google heeft onlangs aangekondigd dat ontwikkelaars vanaf Chrome 76, die is gepland voor een release van 30 juli 2019, expliciet moeten opgeven welke cookies op verschillende websites kunnen werken en welke cookies gebruikers kunnen volgen.<br>Aangezien de industrie streeft naar het creëren van een veiliger web voor consumenten, is Target absoluut geëngageerd om persoonlijke ervaringen te leveren terwijl aan de privacyverwachtingen van bezoekers wordt voldaan en deze wordt overschreden.<br>Zie [Beleid voor cookies van Google Chrome SameSite](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html){target=_blank}. |
 
@@ -1038,7 +1046,7 @@ We zijn blij om de volgende spannende functies aan te kondigen in at.js 2.1.0:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Single Page App Visual Experience Composer (SPA VEC) | De SPA VEC bevat de volgende verbeteringen om uw werk sneller en efficiënter te maken:<ul><li>Wanneer u op een handeling in de SPA klikt, wordt het element op de site gemarkeerd waarop deze handeling wordt toegepast. Elke VEC-actie die onder een weergave wordt gemaakt, heeft vier corresponderende pictogrammen: Informatie, Bewerken, Verplaatsen en Verwijderen. Met de nieuwe functie &quot;Verplaatsen&quot; in deze release kunt u de handeling verplaatsen naar een gebeurtenis Pagina laden of een andere weergave die al bestaat in het deelvenster Wijzigingen. (TGT-33746)</li><li>U kunt vele acties uitvoeren alvorens de pagina in VEC laadt, of zelfs als de pagina er niet in slaagt volledig te laden (bijvoorbeeld, is de douanecode niet meer operationeel). Handelingen die niet kunnen worden bewerkt voordat de site wordt geladen, worden uitgeschakeld in de doelinterface. (TGT-33851 &amp; TGT-34149)</li></ul>Zie voor meer informatie [Single Page App (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md). |
+| Single Page App Visual Experience Composer (SPA VEC) | De SPA VEC bevat de volgende verbeteringen om uw werk sneller en efficiënter te maken:<ul><li>Wanneer u op een handeling in de SPA klikt, wordt het element op de site gemarkeerd waarop deze handeling wordt toegepast. Elke VEC-actie die onder een Weergave wordt gemaakt, heeft vier bijbehorende pictogrammen: Informatie, Bewerken, Verplaatsen en Verwijderen. Met de nieuwe functie &quot;Verplaatsen&quot; in deze release kunt u de handeling verplaatsen naar een gebeurtenis Pagina laden of een andere weergave die al bestaat in het deelvenster Wijzigingen. (TGT-33746)</li><li>U kunt vele acties uitvoeren alvorens de pagina in VEC laadt, of zelfs als de pagina er niet in slaagt volledig te laden (bijvoorbeeld, is de douanecode niet meer operationeel). Handelingen die niet kunnen worden bewerkt voordat de site wordt geladen, worden uitgeschakeld in de doelinterface. (TGT-33851 &amp; TGT-34149)</li></ul>Zie voor meer informatie [Single Page App (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md). |
 
 #### Verbeteringen, correcties en wijzigingen
 
@@ -1061,7 +1069,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 * We hebben de workflow verbeterd wanneer u elementen verwijdert met de VEC. Verwijderde elementen worden nu verwijderd uit de [!UICONTROL Offers library] en van [!DNL Scene7] (indien van toepassing). Verwijderde elementen worden niet meer weergegeven in zoekresultaten. (TGT-31981)
 * U kunt nu elementmappen verwijderen, zelfs als deze afbeeldingen bevatten (niet-lege mappen). (TGT-33265)
 
-  Eerder kon u een niet-lege map niet verwijderen uit de bibliotheek met doelafbeeldingsaanbiedingen ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Er wordt dan een &#39;&#39;Map is niet leeg!&#39;&#39; weergegeven bericht wanneer u probeert de map te verwijderen uit de gebruikersinterface.  Met deze functie voegen we de mogelijkheid toe om het verwijderen van mappen uit te voeren en een volledige map te verwijderen die een willekeurig aantal elementen en submappen in de map bevat. Deze functie is beschikbaar in de interface Doel en in de gebruikersinterface van Adobe Experience Cloud Assets.
+  Eerder kon u een niet-lege map niet verwijderen uit de bibliotheek met doelafbeeldingsaanbiedingen ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Er wordt dan een &quot;Map is niet leeg!&quot; weergegeven bericht wanneer u probeert de map te verwijderen uit de gebruikersinterface.  Met deze functie voegen we de mogelijkheid toe om het verwijderen van mappen uit te voeren en een volledige map te verwijderen die een willekeurig aantal elementen en submappen in de map bevat. Deze functie is beschikbaar in de interface Doel en in de gebruikersinterface van Adobe Experience Cloud Assets.
 
    * U kunt niet-lege mappen uit de bibliotheek met afbeeldingsaanbiedingen verwijderen. Als in geen enkele activiteit naar alle afbeeldingen in de map wordt verwezen, worden de volledige map en de inhoud ervan verwijderd. Als er in een willekeurige activiteit naar bepaalde afbeeldingen in de map wordt verwezen, worden alle afbeeldingen zonder referenties verwijderd, maar blijven de afbeeldingen en mappen waarin naar wordt verwezen, behouden.
    * Het renderen van afbeeldingsaanbiedingen in de Afbeeldingselementkiezer gaat sneller en efficiënter.
@@ -1132,18 +1140,18 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 | --- | --- |
 | Single Page App Visual Experience Composer | Met Visual Experience Composer (VEC) voor Single Page Apps (SPA) kunnen marketers tests maken en inhoud personaliseren op SPA op een doe-het-zelfmanier zonder voortdurende ontwikkelingsafhankelijkheden. VEC kan worden gebruikt om activiteiten op populaire kaders, zoals React en Angular tot stand te brengen. (TGT-27916)<br>Zie voor meer informatie [Single Page App (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md) en [Integratie van toepassing met één pagina](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank}.<br>Naast het bovenstaande artikel zijn er veel onderwerpen die te maken hebben met SPA en at.js die betrekking hebben op deze functie en hoe deze te implementeren. Zie voor meer informatie [Documentatiewijzigingen](/help/main/r-release-notes/doc-change.md). |
 | Visual Experience Composer | Visual Experience Composer (VEC) omvat de volgende verhogingen om uw werk sneller en efficiënter te maken:<ul><li>U kunt nu de opties Invoegen voor en Invoegen na in de VEC gebruiken tijdens het invoegen [AEM ervaren fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). Zie [Opties voor Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>De [!DNL Adobe Target] Met de VEC Helper-browserextensie voor Google Chrome kunt u websites betrouwbaar laden binnen de VEC zodat u snel een product kunt ontwerpen en een kwaliteitscontrole kunt gebruiken. Zie [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
-| ![Premium badge](/help/main/assets/premium.png)<br>Recommendations in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] activiteiten | U kunt nu aanbevelingen opnemen in [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten. Dit opent volledig nieuwe mogelijkheden, zoals:<ul><li>Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.</li><li>Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.</li><li>Druk automatisch het verkeer aan de best presterende aanbevelingen ervaring gebruikend [!UICONTROL Auto-Allocate].</li><li>Wijs bezoekers dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun individuele profielen en gebruik daarbij [!UICONTROL Auto-Target].</li></ul>Om aan de slag te gaan, maakt u een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] activiteit met behulp van de VEC en gebruik de [!UICONTROL Insert Before], [!UICONTROL Insert After], of [!UICONTROL Replace With] actie om aanbevelingen aan een ervaring toe te voegen. (RECS-6166)<br>Zie voor meer informatie [Recommendations als voorstel](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| ![Premium badge](/help/main/assets/premium.png)<br>Recommendations in [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] activiteiten | U kunt nu aanbevelingen opnemen in [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten. Dit opent volledig nieuwe mogelijkheden, zoals:<ul><li>Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.</li><li>Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.</li><li>Druk automatisch het verkeer aan de best presterende aanbevelingen ervaring gebruikend [!UICONTROL Auto-Allocate].</li><li>Wijs bezoekers dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun individuele profielen en gebruik daarbij [!UICONTROL Auto-Target].</li></ul>Maak een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] activiteit die de VEC gebruikt en [!UICONTROL Insert Before], [!UICONTROL Insert After], of [!UICONTROL Replace With] actie om aanbevelingen aan een ervaring toe te voegen. (RECS-6166)<br>Zie voor meer informatie [Recommendations als voorstel](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 | ![Premium badge](/help/main/assets/premium.png)<br>Ondersteuning voor Enterprise-machtigingen in doel-API&#39;s | [Adobe Target Admin API&#39;s](https://developers.adobetarget.com/api/#admin-apis) zal nu ten volle profiteren van dezelfde mogelijkheden voor Enterprise-machtigingen die in de doelinterface zijn gevonden. Starten **21 feb. 2019** systeembeheerders hebben via programmacode toegang tot rapportgegevens en kunnen activiteiten, aanbiedingen en soorten publiek in elke werkruimte maken en beheren. Deze acties waren voorheen beperkt tot de standaardwerkruimte. De ondersteuning van Automated Personalization-activiteiten (AP) zal in een toekomstige release plaatsvinden. |
 
 **Verbeteringen, correcties en wijzigingen**
 
-* Om de veiligheid te verbeteren, [!DNL Target] voorkomt u nu dat eindpunten van Amazon Web Services-metagegevens (AWS) worden geopend tijdens het laden van de VEC. (TGT-33129)
+* De veiligheid verbeteren [!DNL Target] voorkomt u nu dat eindpunten van Amazon Web Services-metagegevens (AWS) worden geopend tijdens het laden van de VEC. (TGT-33129)
 
 ### Wijzigingen in Platform (januari 2019) {#platform-19-1-previous}
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Doelstelling<br>25 januari 2019 | Wijzigingen aangebracht in de manier waarop &#39;target&#39; overeenkomt met functie voor &#39;equals&#39;-vergelijkingen met niet-decimale en decimale waarden die worden geretourneerd door profielscripts of een andere invoerbron, zoals mbox-parameters, profielparameters, enz.<br>Zie voor meer informatie [Doelstellingen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) Veelgestelde vragen. |
+| Targeting<br>25 januari 2019 | Wijzigingen aangebracht in de manier waarop &#39;target&#39; overeenkomt met functie voor &#39;equals&#39;-vergelijkingen met niet-decimale en decimale waarden die worden geretourneerd door profielscripts of een andere invoerbron, zoals mbox-parameters, profielparameters, enz.<br>Zie voor meer informatie [Doelstellingen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) Veelgestelde vragen |
 | Profielscripts<br>17 januari 2019 | Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.<br>Als de geretourneerde waarde van een tekenreeks groter is dan 2048 tekens, wordt het script door het systeem uitgeschakeld.<br>Als voor een geretourneerde waarde van een array de grootte van de samengevoegde waarden van de array groter is dan 2048 tekens, wordt het script door het systeem uitgeschakeld.<br>Voor meer informatie over de tekenlimieten en andere limieten (grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in Target, zie [Limieten](/help/main/r-troubleshooting-target/target-limits.md). |
 | at.js<br>16 januari 2019 | at.js 1.6.4 is een onderhoudsrelease en behandelt de volgende problemen:<ul><li>Probleem verholpen waarbij zich in Microsoft Internet Explorer 11 een zeldzame omstandigheid manifesteerde die dubbele aanbiedingen tot gevolg had. (TNT-31374)</li><li>Probleem verholpen dat invloed had op het bijhouden van klikken als er een standaardaanbieding is met een click-token en HTML-aanbiedingen. (TNT-31493)</li><li>Het mboxEdgeCluster-cookie is uitgebreid met elke doelaanvraag. Dit wordt alleen gebruikt wanneer mboxEdgeOverride is ingeschakeld. (TNT-31485)</li></ul> |
 
@@ -1156,7 +1164,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 | Functie/verbetering | Beschrijving |
 | --- | --- |
 | ![Doel Premium-badge](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] ondersteuning in [!DNL Target] API&#39;s | [Adobe Target Admin API&#39;s](https://developers.adobetarget.com/api/#admin-apis) zal nu ten volle profiteren van dezelfde mogelijkheden voor Enterprise-machtigingen die in de doelinterface zijn gevonden. Starten **21 feb. 2019**, zullen de systeembeheerders tot rapportgegevens programmatically kunnen toegang hebben evenals activiteiten, aanbiedingen, en publiek binnen om het even welke werkruimte creëren en beheren. Deze acties waren voorheen beperkt tot de standaardwerkruimte. De ondersteuning van Automated Personalization-activiteiten (AP) zal in een toekomstige release plaatsvinden. |
-| ![Doel Premium-badge](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: filterverzamelingen en -uitsluitingen naar omgeving (hostgroep) | U kunt nu een voorvertoning weergeven van de inhoud van [!UICONTROL Recommendations] verzamelingen en uitsluitingen voor een geselecteerde omgeving (hostgroep).<br/>Eerder, toen u een inzameling of een uitsluiting bekeken, waren de getoonde punten bevatte resultaten voor de standaardgastheergroep (die in wordt gespecificeerd [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>Wanneer u nu een verzameling of uitsluiting maakt of bijwerkt, kunt u de opdracht [!UICONTROL Environment] om de omgeving te kiezen waarvoor u de resultaten wilt bekijken. De nieuwe [!UICONTROL Environment] bespaart u tijd en moeite, omdat u niet meer naar de [!UICONTROL Settings] pagina om de juiste standaardhostgroep te selecteren voordat u verzamelingen en uitsluitingen maakt of bewerkt.<br/>**Opmerking:** Nadat u de geselecteerde omgeving hebt gewijzigd, klikt u op [!UICONTROL Search] om de geretourneerde resultaten bij te werken.<br/>De nieuwe [!UICONTROL Environment] is beschikbaar op de volgende plaatsen in het dialoogvenster [!DNL Target] UI:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] dialoogvenster ([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] dialoogvenster ([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] dialoogvenster ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] dialoogvenster ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Raadpleeg de volgende onderwerpen voor meer informatie:<uL><li>[Verzamelingen](/help/main/c-recommendations/c-products/collections.md)</li><li>[Uitsluitingen](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Catalogus zoeken](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[Recommendations: filterverzamelingen en -uitsluitingen naar omgeving (hostgroep)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Doel Premium-badge](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: filterverzamelingen en -uitsluitingen per omgeving (hostgroep) | U kunt nu een voorvertoning weergeven van de inhoud van [!UICONTROL Recommendations] verzamelingen en uitsluitingen voor een geselecteerde omgeving (hostgroep).<br/>Eerder, toen u een inzameling of een uitsluiting bekeken, waren de getoonde punten bevatte resultaten voor de standaardgastheergroep (die in wordt gespecificeerd [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>Wanneer u nu een verzameling of uitsluiting maakt of bijwerkt, kunt u de opdracht [!UICONTROL Environment] om de omgeving te kiezen waarvoor u een voorvertoning van de resultaten wilt weergeven. De nieuwe [!UICONTROL Environment] bespaart u tijd en moeite, omdat u niet meer naar de [!UICONTROL Settings] pagina om de juiste standaardhostgroep te selecteren voordat u verzamelingen en uitsluitingen maakt of bewerkt.<br/>**Opmerking:** Nadat u de geselecteerde omgeving hebt gewijzigd, klikt u op [!UICONTROL Search] om de geretourneerde resultaten bij te werken.<br/>De nieuwe [!UICONTROL Environment] is beschikbaar op de volgende plaatsen in het dialoogvenster [!DNL Target] UI:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] dialoogvenster ([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] dialoogvenster ([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] dialoogvenster ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] dialoogvenster ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Raadpleeg de volgende onderwerpen voor meer informatie:<uL><li>[Verzamelingen](/help/main/c-recommendations/c-products/collections.md)</li><li>[Uitsluitingen](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Catalogus zoeken](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[Recommendations: filterverzamelingen en -uitsluitingen per omgeving (hostgroep)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Verbeteringen, correcties en wijzigingen**
 
@@ -1178,7 +1186,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
    <td colname="col1"> <p>om.js 1.6.3 </p> </td> 
    <td colname="col2"> <p>at.js versie 1.6.3 is nu beschikbaar. </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
-      <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Kiezers hebben nu een CSS-escape-teken als ze id's of CSS-klassen bevatten die beginnen met een cijfer, twee afbreekstreepjes of een afbreekstreepje gevolgd door een cijfer (bijvoorbeeld #-123). (TNT-31061) </p> </li> 
+      <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Kiezers hebben nu een CSS-escape-teken als ze id's of CSS-klassen bevatten die beginnen met een cijfer, twee koppeltekens of een afbreekstreepje gevolgd door een cijfer (bijvoorbeeld #-123). (TNT-31061) </p> </li> 
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Probleem verholpen dat werd geïntroduceerd met at.js 1.6.2, waarbij VEC-aanbiedingen (Visual Experience Composer) uit verschillende activiteiten die van toepassing zijn op dezelfde CSS-kiezer de prioriteit van de activiteit niet respecteerde. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Probleem verholpen waarbij een belofte werd nagekomen in omgevingen waar geen native ondersteuning voor beloften bestond. (TNT-30974) </p> </li> 
       <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Problemen worden nu correct vastgelegd en gerapporteerd via de gebeurtenis content-rendering mislukt. Eerder werd mogelijk gemeld dat JavaScript goed was uitgevoerd, zelfs als dat niet het geval was. (TNT-30599) </p> </li> 
@@ -1200,7 +1208,7 @@ De [!DNL Target] Standard/Premium-release op 12 november bevat back-endverbeteri
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Persoonlijkheidsrapporten </p> <p> <p>Opmerking: Beschikbaar op 14 november 2018. </p> </p> </td> 
+   <td colname="col1" class="premium"> <p>Persoonlijkheidsrapporten </p> <p> <p>Opmerking: beschikbaar op 14 november 2018. </p> </p> </td> 
    <td colname="col2"> <p>Gebruikers van <span class="wintitle"> Automated Personalization (AP)</span> en <span class="wintitle"> Auto-Target (AT)</span> activiteiten: </p> <p> 
      <ul id="ul_C338AC34C57C49E1A8DFA471167EC40A"> 
       <li id="li_2329BFC8CC524EBBA99C2F8EDC745B90"> <p><b><span class="wintitle"> Geautomatiseerde segmenten</span>:</b> Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd. </p> </li> 
@@ -1234,7 +1242,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapportage bron voor activiteiten </p> </td> 
-   <td colname="col2"> <p>In <span class="wintitle"> Beheer </span> &gt; <span class="wintitle"> Visual Experience Composer </span>kunt u de rapportbron voor uw activiteiten selecteren. <span class="keyword"> Doel </span> of <span class="keyword"> Adobe Analytics </span>. U kunt ook de rapportbron per activiteit selecteren. </p> <p>Beginnend met deze versie, zijn er sommige belangrijke werkschemaoverwegingen u zich van bewust zou moeten zijn wanneer u de rapporteringsbron in kiest <span class="wintitle"> Voorkeuren </span> of per activiteit.</p></td> 
+   <td colname="col2"> <p>In <span class="wintitle"> Administratie </span> &gt; <span class="wintitle"> Visual Experience Composer </span>kunt u de rapportbron voor uw activiteiten selecteren. <span class="keyword"> Doel </span> of <span class="keyword"> Adobe Analytics </span>. U kunt ook de rapportbron per activiteit selecteren. </p> <p>Beginnend met deze versie, zijn er sommige belangrijke werkschemaoverwegingen u zich van bewust zou moeten zijn wanneer u de rapporteringsbron in kiest <span class="wintitle"> Voorkeuren </span> of per activiteit.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1245,7 +1253,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen, oplossingen en wij
 
 * Verbeterde verwerking van publiek waarnaar wordt verwezen in Target-activiteiten die zijn verwijderd in Adobe Audience Manager (AAM). (TGT-2338)
 
-   * Als een publiek in AAM is verwijderd, verschijnt er een waarschuwingspictogram in het dialoogvenster [!UICONTROL Audience] wordt weergegeven. Een hulpmiddel-uiteinde in UI wijst ook erop dat het publiek in AAM werd geschrapt.
+   * Als een publiek in AAM werd geschrapt, een waarschuwingspictogram in zowel [!UICONTROL Audience] wordt weergegeven. Een hulpmiddel-uiteinde in UI wijst ook erop dat het publiek in AAM werd geschrapt.
    * Als u meerdere soorten publiek probeert te combineren met een verwijderd publiek of als u een activiteit probeert op te slaan die verwijst naar een verwijderd publiek, wordt een waarschuwingsbericht weergegeven.
 
   Zie [Informatie over publiek](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html).
@@ -1267,7 +1275,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen, oplossingen en wij
    <td colname="col2"> <p>Dit is een onderhoudsrelease en het volgende probleem wordt opgelost: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Probleem verholpen waarbij sites van bepaalde klanten tot een oneindige 'async'-lus leiden. </p> </li> 
-     </ul> </p> <p> <p>Belangrijk: Daarnaast bevat at.js versie 1.6.2 ook alle verbeteringen en correcties die zijn opgenomen in at.js versie 1.6.1 en 1.6.0. Deze versies kunnen niet meer worden gedownload. We raden u aan een upgrade naar versie 1.6.2 uit te voeren als u 1.6.1 of 1.6.0 gebruikt. </p> </p> <p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js - Versiedetails </a>. </p> </td> 
+     </ul> </p> <p> <p>Belangrijk: Daarnaast bevat at.js versie 1.6.2 ook alle verbeteringen en oplossingen die zijn opgenomen in at.js versie 1.6.1 en 1.6.0. Deze versies kunnen niet meer worden gedownload. We raden u aan een upgrade naar versie 1.6.2 uit te voeren als u 1.6.1 of 1.6.0 gebruikt. </p> </p> <p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js - Versiedetails </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1304,7 +1312,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>We hebben een <span class="wintitle"> Invoegen voor </span> actie aan de (VEC). Dit is vergelijkbaar met het bestaande <span class="wintitle"> Invoegen na </span> optie. Wanneer u een element op de pagina selecteert, kunt u klikken <span class="wintitle"> Invoegen voor </span> en kiest u of u een afbeelding, HTML of tekst wilt invoegen. Het ingevoegde element wordt vóór het geselecteerde element weergegeven. (TGT-30473) Zie <a href="/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor composer visuele ervaring </a>. </p> </td> 
+   <td colname="col2"> <p>We hebben een <span class="wintitle"> Invoegen voor </span> actie aan de (VEC). Dit is vergelijkbaar met het bestaande <span class="wintitle"> Invoegen na </span> -optie. Wanneer u een element op de pagina selecteert, kunt u klikken <span class="wintitle"> Invoegen voor </span> en kiest u of u een afbeelding, HTML of tekst wilt invoegen. Het ingevoegde element wordt vóór het geselecteerde element weergegeven. (TGT-30473) Zie <a href="/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor composer visuele ervaring </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1336,9 +1344,9 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col1" class="premium"> <p>Persoonlijkheidsrapporten </p> </td> 
    <td colname="col2"> <p>Toegang tot gespecialiseerde rapporten voor uw Automated Personalization (AP) en Auto-Target (AT) activiteiten: </p> <p> 
      <ul id="ul_54652C5AE0984657BB9A0E46673CB2F1"> 
-      <li id="li_0807959BA7D94114BE47A43D3454CAB4"> <p><b>Geautomatiseerde segmenten:</b> Zie hoe de verschillende geautomatiseerde segmenten die door de verpersoonlijkingsmodellen van Target worden bepaald op aanbiedingen/ervaringen in uw activiteit antwoorden. </p> </li> 
+      <li id="li_0807959BA7D94114BE47A43D3454CAB4"> <p><b>Automatische segmenten:</b> Zie hoe de verschillende geautomatiseerde segmenten die door de verpersoonlijkingsmodellen van Target worden bepaald op aanbiedingen/ervaringen in uw activiteit antwoorden. </p> </li> 
       <li id="li_48210B1E4EB24288B96CDECAF1CEE34A"> <p><b>Waardering modelkenmerk:</b> Zie de hoogste attributen die de personalisatiemodellen van het Doel en het relatieve belang van elk attribuut beïnvloedden. </p> </li> 
-     </ul> </p> <p> <p>Opmerking: Deze functie is binnenkort beschikbaar. Blijf op de hoogte voor een aankondiging van de exacte datum waarop deze functie klaar is voor gebruik. </p> </p> <p>Zie <a href="/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Persoonlijkheidsrapporten </a>. </p> </td> 
+     </ul> </p> <p> <p>Opmerking: deze functie is binnenkort beschikbaar. Blijf op de hoogte voor een aankondiging van de exacte datum waarop deze functie klaar is voor gebruik. </p> </p> <p>Zie <a href="/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Persoonlijkheidsrapporten </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
@@ -1355,7 +1363,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Doelbasis van de webinarreeks </p> </td> 
-   <td colname="col2"> <p>Neem deel aan de nieuwe Webinar Reeks van de Grondbeginselen van het Doel, een Reeksen van het Succes van de Klant Webinar die aan u door de Gemeenschap wordt gebracht. </p> <p> De volgende webinar, Best Practices in Reporting &amp; Value Socialization, is gepland voor 22 augustus 2018 van 8 tot 9.00 uur. (PDT). </p> <p>Zie <a href="/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local"> Doelbasis van de webinarreeks </a>. </p> </td> 
+   <td colname="col2"> <p>Neem deel aan de nieuwe Webinar Reeks van de Grondbeginselen van het Doel, een Reeksen van het Succes van de Klant Webinar die aan u door de Gemeenschap wordt gebracht. </p> <p> Het volgende webinar, Best Practices in Reporting &amp; Value Socialization, is gepland voor 22 augustus 2018 van 8 tot 9.00 uur (PDT). </p> <p>Zie <a href="/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local"> Doelbasis van de webinarreeks </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1383,7 +1391,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Activiteiten in het kader van A/B en Experience Targeting (XT) </p> </td> 
+   <td colname="col1"> <p>A/B en Experience Targeting (XT) activiteiten </p> </td> 
    <td colname="col2"> <p>Bewerk en verwijder ervaringen rechtstreeks uit het activiteitendiagram. Nu kunt u in de Visuele Composer van de Ervaring (VEC) voor een specifieke ervaring springen of een ervaringsrecht van het diagram schrappen. </p> <p> <img src="assets/experience_edit.png" id="image_FA6E5F07B04A4B4BA02EA71EDB6908A7" /> </p> <p>Zie: </p> <p> 
      <ul id="ul_CB0C1146716F4C09BF924CF3DFA7DC1A"> 
       <li id="li_3767DD36F597481FB312CC577CD668F0"> <p>A/B-activiteit: <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Ervaring toevoegen </a> </p> </li> 
@@ -1437,7 +1445,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen, oplossingen en wij
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>at.js versie 1.5.0 is nu beschikbaar. </p> <p> <p>Opmerking: De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik van Adobe. </p> </p> <p> 
+   <td colname="col2"> <p>at.js versie 1.5.0 is nu beschikbaar. </p> <p> <p>Opmerking: de uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik van Adobe. </p> </p> <p> 
      <ul id="ul_41FE0EED2D8B4ADE84FC4CA0FA0CE8A0"> 
       <li id="li_2DC17381CB7949AFA35B054B9CA723FA"> <p>De details van de <span class="codeph"> op verzoek, opgevolgd </span> -gebeurtenis bevat de omleidingsvlag. Met deze markering kunt u bepalen of de pagina wordt omgeleid naar een andere URL. Als u de URL wilt weten, meldt u zich aan <span class="codeph"> at-content-rendering-redirect </span>. (TNT-29834) </p> </li> 
       <li id="li_2852878862724BB2BD475C8FC7BF20DA"> <p>Probleem verholpen dat ertoe heeft geleid <span class="codeph"> window.targetGlobalSettings.enabled </span> mislukt met een runtime-uitzondering als deze is ingesteld op false. (TNT-29829) </p> </li> 
@@ -1471,7 +1479,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Wanneer u in het deelvenster Wijzigingen op een handeling klikt, schuift de VEC automatisch door de webpagina en wordt het bijbehorende element gemarkeerd. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is gewijzigd. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
+   <td colname="col2"> <p>Wanneer u een actie in het paneel van Aanpassingen klikt, scrolt VEC automatisch de Web-pagina en het overeenkomstige element wordt benadrukt. U hoeft niet meer handmatig omlaag te schuiven om het HTML-element te zoeken dat door de wijziging is gewijzigd. </p> <p> <img src="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ondersteunde browsers </p> </td> 
@@ -1545,7 +1553,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col1"> <p>Soorten publiek </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_DFEB778393024E3EBBC482F31A5B39BC"> 
-      <li id="li_4049E334A38F4F94842FF1E35F177FE9"> <p>De verwezenlijking van de Audience van de douane staat nu het gebruiken van de mbox parameter direct toe zonder het moeten verplicht de mbox naam specificeren. De naam van het selectievakje is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen. U kunt ook op de parameter mbox filteren met het naamfilter van de box. </p> <p>Dezelfde verbetering geldt ook voor Recommendations-criteria, Recommendations-promoties en regels voor het testen van sjablonen. </p> </li> 
+      <li id="li_4049E334A38F4F94842FF1E35F177FE9"> <p>De verwezenlijking van de Audience van de douane staat nu het gebruiken van de mbox parameter direct toe zonder het moeten verplicht de mbox naam specificeren. De naam van het selectievakje is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen. U kunt ook op de parameter mbox filteren met het naamfilter van de box. </p> <p>Deze verbetering is ook uitgebreid tot Recommendations-criteria, Recommendations-promoties en regels voor het testen van sjablonen. </p> </li> 
      </ul> </p> <p>Zie voor meer informatie <a href="/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local"> Aangepaste parameters </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -1584,7 +1592,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) Experience Fragments </p> </td> 
-   <td colname="col2"> <p>Door ervaringsfragmenten te gebruiken die zijn gemaakt in AEM in doelactiviteiten kunt u het gebruiksgemak en de kracht van AEM combineren met de krachtige mogelijkheden van Automated Intelligence (AI) en Machine Learning (ML) in Target om ervaringen op schaal te testen en te personaliseren.&amp;nbsp;&amp;nbsp; </p> <p>AEM brengt al uw inhoud en middelen in een centrale plaats samen om uw verpersoonlijkingsstrategie te voeden. Met AEM kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder dat u code hoeft te schrijven. Het is niet nodig om pagina's te maken voor elk apparaat—AEM past automatisch elke ervaring aan met uw inhoud. </p> <p> Met Doel kunt u gepersonaliseerde ervaringen op schaal bieden op basis van een combinatie van op regels gebaseerde en op AI gebaseerde methoden voor het leren van machines die gedrags-, context- en offlinevariabelen bevatten.&amp;nbsp; Met Doel kunt u eenvoudig A/B- en Multivariate-activiteiten instellen en uitvoeren om de beste aanbiedingen, inhoud en ervaringen te bepalen. </p> <p>De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de tevreden/ervaringsscheppers en managers aan de optimalisering en verpersoonlijkingsberoeps te verbinden die bedrijfsresultaten gebruikend Doel drijven. </p> <p>Zie voor meer informatie <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> Fragmenten voor AEM </a>. </p> </td> 
+   <td colname="col2"> <p>Door ervaringsfragmenten te gebruiken die zijn gemaakt in AEM in doelactiviteiten kunt u het gebruiksgemak en de kracht van AEM combineren met de krachtige mogelijkheden van Automated Intelligence (AI) en Machine Learning (ML) in Target om ervaringen op schaal te testen en te personaliseren.&amp;nbsp;&amp;nbsp; </p> <p>AEM brengt al uw inhoud en middelen in een centrale plaats samen om uw verpersoonlijkingsstrategie te voeden. Met AEM kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder dat u code hoeft te schrijven. Het is niet nodig om pagina's te maken voor elk apparaat—AEM past automatisch elke ervaring aan met uw inhoud. </p> <p> Met Doel kunt u gepersonaliseerde ervaringen op schaal bieden op basis van een combinatie van op regels gebaseerde en op AI gebaseerde methoden voor het leren van machines die gedrags-, context- en offlinevariabelen bevatten.&amp;nbsp; Met Doel kunt u eenvoudig A/B- en Multivariate-activiteiten instellen en uitvoeren om de beste aanbiedingen, inhoud en ervaringen te bepalen. </p> <p>De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de tevreden/ervaringsscheppers en managers aan de optimalisering en verpersoonlijkingsberoeps te verbinden die bedrijfsresultaten gebruikend Doel drijven. </p> <p>Zie voor meer informatie <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> Fragmenten AEM </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporten </p> </td> 
@@ -1608,7 +1616,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Soorten publiek </p> </td> 
-   <td colname="col2"> <p>Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, <span class="codeph"> mboxParameter </span> vraagt u niet meer om <span class="codeph"> mboxName </span>. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen. (TGT-25807) </p> <p> <p>Opmerking: Deze functie is zichtbaar in de doelinterface, maar is momenteel uitgeschakeld. Deze functie wordt binnenkort ingeschakeld (datum waarop moet worden gecommuniceerd). </p> </p> 
+   <td colname="col2"> <p>Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, <span class="codeph"> mboxParameter </span> vraagt u niet meer om <span class="codeph"> mboxName </span>. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen. (TGT-25807) </p> <p> <p>Opmerking: deze functie is zichtbaar in de doelinterface, maar is momenteel uitgeschakeld. Deze functie wordt binnenkort ingeschakeld (datum waarop moet worden gecommuniceerd). </p> </p> 
   </td> 
   </tr> 
  </tbody> 
@@ -1618,7 +1626,7 @@ Deze release bevat de volgende functies en verbeteringen:
 
 Dit [!DNL Target] de release bevat de volgende verbeteringen, oplossingen en wijzigingen:
 
-* De Veiligheid van de Laag van het vervoer (TLS) is het wijdst opgestelde veiligheidsprotocol dat vandaag voor Webbrowsers en andere toepassingen wordt gebruikt die gegevens vereisen om veilig over een netwerk worden geruild. Adobe beschikt over normen voor beveiligingscompatibiliteit die het einde van de levensduur van oudere protocollen vereisen en die het gebruik van TLS 1.2 verplicht stellen om de meest actuele en veilige versie in gebruik te hebben. Vanaf de doelversie 18.4.1 (25 april 2018) zal Adobe Target stappen ondernemen om de codering van TLS 1.2 te bevorderen en de ondersteuning voor TLS 1.0-codering volledig te beëindigen tegen 12 september 2018. Het is belangrijk dat u de details doorloopt en de wijzigingen uitwerkt voor een vloeiende overgang. Zie voor meer informatie [Wijzigingen in TLS-codering (Transport Layer Security)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* De Veiligheid van de Laag van het vervoer (TLS) is het wijdst opgestelde veiligheidsprotocol dat vandaag voor Webbrowsers en andere toepassingen wordt gebruikt die gegevens vereisen om veilig over een netwerk worden geruild. Adobe beschikt over normen voor beveiligingscompatibiliteit die het einde van de levensduur van oudere protocollen vereisen en die het gebruik van TLS 1.2 verplicht stellen om de meest actuele en veilige versie in gebruik te hebben. Vanaf de doelversie 18.4.1 (25 april 2018) zal Adobe Target stappen ondernemen om de codering van TLS 1.2 te bevorderen en de ondersteuning voor TLS 1.0-codering volledig te beëindigen tegen 12 september 2018. Het is belangrijk dat u de details doorloopt en de wijzigingen uitwerkt voor een vloeiende overgang. Zie voor meer informatie [De Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 * De gebruikersinterface voor Recommendations Criteria Cards is verbeterd en is nu gebruiksvriendelijker. (TGT-27829)
 
 ### om.js (3 april 2018) {#section_932DF1004F4648668FE4984BFAF2EC49}
@@ -1645,13 +1653,13 @@ Deze release bevat de volgende functies en verbeteringen:
          <li id="li_A52DC337115248A1BE5AF5B358BE5A9A"> <p>CONTENT_RENDERING_NO_OFFERS </p> </li> 
          <li id="li_7D71E48016B1446995493EBBF7D32447"> <p>CONTENT_RENDERING_REDIRECT </p> </li> 
         </ul> </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> at.js, aangepaste gebeurtenissen </a>. </p> </li> 
-      <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>U kunt een verzoek at.js met extra parameters uitbreiden die uit gegevensleveranciers komen. Gegevensleveranciers moeten worden toegevoegd aan <span class="codeph"> window.targetGlobalSettings </span> onder de <span class="codeph"> dataProviders-sleutel </span>. </p> <p>Zie "Gegevensleveranciers" in <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>. </p> </li> 
-      <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>bij.js-aanvragen wordt nu GET gebruikt, maar er wordt overgeschakeld naar POST wanneer de URL groter is dan 2048 tekens. Er is een nieuwe eigenschap met de naam <span class="codeph"> urlSizeLimit </span> waar u de maximale grootte indien nodig kunt verhogen. Dankzij deze wijziging kan Target worden uitgelijnd op .js naar AppMeasurement, die dezelfde techniek gebruikt. </p> </li> 
-      <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>Doel dwingt nu <span class="codeph"> mbox </span> in de <span class="codeph"> adobe.target.applyOffer(opties) </span> wordt gebruikt. Deze sleutel is in het verleden vereist, maar Doel dwingt nu zijn gebruik af om ervoor te zorgen dat Doel juiste bevestiging heeft en klanten correct de functie gebruiken. </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> adobe.target.applyOffer(opties) </a> . </p> </li> 
+      <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>U kunt een verzoek at.js met extra parameters uitbreiden die uit gegevensleveranciers komen. Gegevensleveranciers moeten worden toegevoegd aan <span class="codeph"> window.targetGlobalSettings </span> onder de <span class="codeph"> dataProviders-sleutel </span>. </p> <p>Voor meer informatie, zie "de Leveranciers van Gegevens"in <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>. </p> </li> 
+      <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>bij.js-aanvragen wordt nu GET gebruikt, maar er wordt overgeschakeld naar POST wanneer de URL groter is dan 2048 tekens. Er is een nieuwe eigenschap met de naam <span class="codeph"> urlSizeLimit </span> waar u de maximale grootte indien nodig kunt verhogen. Door deze wijziging kan Target worden uitgelijnd op .js naar AppMeasurement, dat dezelfde techniek gebruikt. </p> </li> 
+      <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>Doel dwingt nu <span class="codeph"> mbox </span> in de <span class="codeph"> adobe.target.applyOffer(opties) </span> functie wordt gebruikt. Deze sleutel is in het verleden vereist, maar Doel dwingt nu zijn gebruik af om ervoor te zorgen dat Doel juiste bevestiging heeft en klanten correct de functie gebruiken. </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> adobe.target.applyOffer(opties) </a> . </p> </li> 
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js heeft de functie voor het bijhouden van gebeurtenissen verbeterd en klikt op tracking. at.js gebruikt <span class="codeph"> navigator.sendBeacon() </span> om gegevens voor het bijhouden van gebeurtenissen te verzenden en wordt teruggevallen naar synchrone XHR wanneer <span class="codeph"> navigator.sendBeacon() </span> wordt niet ondersteund. Deze fallback heeft vooral invloed op Internet Explorer 10 en 11 en op sommige versies van Safari. Safari voegt ondersteuning toe voor <span class="codeph"> navigator.sendBeacon() </span> in de iOS 11.3-release. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>Met at.js kunt u nu aanbiedingen renderen, zelfs als een pagina wordt geopend op tabbladen op de achtergrond. Sommige klanten van het Doel ontmoetten een kwestie toen <span class="codeph"> requestAnimationFrame() </span> is uitgeschakeld vanwege het browsergedrag voor achtergrondtabbladen. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>Deze versie voegt vele prestatiesverbeteringen, met inbegrip van kortere callstacks toe wanneer het inspecteren van een profiel van Chrome cpu. </p> </li> 
-      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9. Voor een lijst met ondersteunde browsers raadpleegt u <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> Ondersteunde browsers </a>. Alle aanvragen worden uitgevoerd via <span class="codeph"> XMLHttpRequest </span> met CORS-ondersteuning zonder JSONP-verzoeken. Deze wijziging verbetert de veiligheid aanzienlijk. </p> </li> 
+      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 biedt geen ondersteuning meer voor de levering van inhoud in Microsoft Internet Explorer 9. Zie voor een lijst met ondersteunde browsers <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> Ondersteunde browsers </a>. Alle aanvragen worden uitgevoerd via <span class="codeph"> XMLHttpRequest </span> met CORS-ondersteuning zonder JSONP-verzoeken. Deze wijziging verbetert de veiligheid aanzienlijk. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -1694,7 +1702,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>De extra begeleiding is beschikbaar in UI en in Hulp om u te helpen verkeerspercentages in Automated Personalization (AP) en Auto-Target activiteiten effectiever toewijzen. </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> Verkeerstoewijzing bepalen </a> en <a href="/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization-activiteiten maken </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations: Opnameregels, verzamelingen en uitsluitingen voor aangepaste criteria </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations: regels, verzamelingen en uitsluitingen voor aangepaste criteria </p> </td> 
    <td colname="col2"> <p>U kunt het filtreren in real time bovenop uw eigen output van douanecriteria nu uitvoeren. U kunt bijvoorbeeld de aanbevolen objecten beperken tot objecten van de favoriete rubriek of het favoriete merk van een bezoeker. Dit geeft u de macht om off-line berekeningen met het filtreren in real time te combineren. </p> <p>Met de toevoeging van inclusieregels op de Criteria van de Douane, verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker. </p> <p> 
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Aangepaste criteria kunnen nu worden geconfigureerd, net als andere criteria in aanbevelingen. </p> </li> 
@@ -1702,7 +1710,7 @@ Deze release bevat de volgende functies en verbeteringen:
      </ul> </p> <p>Zie voor meer informatie <a href="/help/main/c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations: Opnameregels, verzamelingen en uitsluitingen voor recent bekeken criteria </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations: Insluitingsregels, verzamelingen en uitsluitingen voor criteria die onlangs zijn bekeken </p> </td> 
    <td colname="col2"> <p>Onlangs bekeken items kunnen nu worden gefilterd, zodat alleen items met een bepaald kenmerk worden weergegeven. Een multinationaal bedrijf met meerdere bedrijven kan bijvoorbeeld items van de bezoekersweergave over meerdere digitale eigenschappen hebben. In dit geval kunt u de onlangs weergegeven items beperken tot weergave voor de desbetreffende eigenschap waar deze is weergegeven. Hiermee voorkomt u dat onlangs bekeken items worden weergegeven op de site van een andere digitale eigenschap. </p> <p> 
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>De onlangs bekeken Criteria zijn nu configureerbaar, zoals andere criteria in aanbevelingen. </p> </li> 
@@ -1711,7 +1719,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Doelextensie voor starten van Adobe </p> </td> 
-   <td colname="col2"> <p>Starten is de volgende generatie mogelijkheden voor tagbeheer van Adobe. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren. </p> <p>Met de extensie Doel kunt u Doel snel en eenvoudig implementeren in uw omgeving. </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html" format="dita" scope="local"> Doel implementeren met Adobe Launch </a>. </p> </td> 
+   <td colname="col2"> <p>Starten is de volgende generatie mogelijkheden voor tagbeheer van Adobe. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren. </p> <p>De uitbreiding van het Doel laat u snel en gemakkelijk Doel in uw milieu uitvoeren. </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html" format="dita" scope="local"> Doel implementeren met Adobe Launch </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1737,7 +1745,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>De Adobe Marketing Cloud is gehermerkt en heet nu de Adobe Experience Cloud. </p> </td> 
-   <td colname="col2"> <p>De Experience Cloud is een geïntegreerde Adobe van digitale marketingoplossingen. Het is ook een intuïtieve interface waarmee u snel toegang hebt tot uw cloudoplossingen en kernservices. </p> <p>Wijzigingen voor herbranding en gebruikersinterface: Adobe Marketing Cloud is gehermerkt en heet nu de Adobe Experience Cloud. Bovendien zult u veranderingen UI in de interface van het Doel en in de Schakelaar van de Oplossing zien. </p></td> 
+   <td colname="col2"> <p>De Experience Cloud is een Adobe geïntegreerde familie van oplossingen voor digitale marketing. Het is ook een intuïtieve interface waarmee u snel toegang hebt tot uw cloudoplossingen en kernservices. </p> <p>Opnieuw brandmerken en wijzigingen in de gebruikersinterface: Adobe Marketing Cloud is opnieuw van branding voorzien en wordt nu de Adobe Experience Cloud genoemd. Bovendien zult u veranderingen UI in de interface van het Doel en in de Schakelaar van de Oplossing zien. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1790,7 +1798,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>U kunt nu tijdkadersoorten maken zonder begin- of einddatum. Hierdoor kunt u hetzelfde publiek in meerdere activiteiten gebruiken (zonder een kopie van het publiek te maken) en tegelijk de begin- en einddatums op activiteitsniveau beheren. Zie <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Tijdschema </a>. (TGT-25975) </p> </li> 
-      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>De functies Kopiëren en Bewerken zijn alleen beschikbaar voor gebruikers die alleen actief zijn wanneer u de muisaanwijzer op de pagina Publiek kiezen &gt; Alleen activiteit plaatsen boven een publiek. Eerder bestond deze functionaliteit alleen voor bibliotheekpubliek. Zie <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Een alleen-actief publiek maken </a>. (TGT-27410) </p> </li> 
+      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>De functies Kopiëren en Bewerken zijn alleen beschikbaar voor gebruikers die alleen actief zijn wanneer u de muisaanwijzer op de pagina Publiek kiezen &gt; Alleen activiteit plaatsen boven een publiek. Eerder bestond deze functionaliteit alleen voor bibliotheekpubliek. Zie <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Een alleen voor activiteit bestemd publiek maken </a>. (TGT-27410) </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>Activiteits-slechts publiek over activiteiten kan de zelfde naam hebben. Eerder, zouden de dubbele namen in de toevoeging van tijdstempels resulteren - een dubbel publiek genoemd "Doel op Weekdag"zou als "Doel op Weekdag-1456732099201 worden bewaard." </p> <p>Voor bibliotheekpubliek zijn nog steeds unieke namen vereist. (TGT-17967) </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -1798,7 +1806,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col1"> <p>Rapporten </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_C595EEF916494342AD99FF0FDF999927"> 
-      <li id="li_8C74478D3480406591DC876F69C19329"> <p>U kunt nu betrouwbaarheidsintervallen voor doorlopende variabelen weergeven. (TGT-22085) </p> </li> 
+      <li id="li_8C74478D3480406591DC876F69C19329"> <p>U kunt nu betrouwbaarheidsintervallen voor doorlopende variabelen weergeven. (TGT-2085) </p> </li> 
       <li id="li_21B31F91685C46CAA47688FDE5735312"> <p>Doel geeft nu liftgrenzen weer wanneer dit statistisch significant is in rapporten.(TGT-27301, TGT-27794, en TGT-26387) </p> </li> 
      </ul> </p> <p>Zie <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Rapportinstellingen </a>. </p> </td> 
   </tr> 
@@ -1856,7 +1864,7 @@ Deze release bevat de volgende functies en verbeteringen:
      <ul id="ul_3C4C9385A0F3489AA2137A2C88AE93CF"> 
       <li id="li_E658799D930547E6901ACFBF7C541F1F"> <p>Probleem verholpen waarbij een JavaScript-fout werd geretourneerd wanneer de doelbibliotheek in de QUIRKS-modus op een pagina werd geladen. (TNT-28312) </p> </li> 
       <li id="li_050620115ED84CBDA736D94E9AAC6550"> <p>Oplossing een kwestie die Doel veroorzaakte klikken het volgen om de vraag van de gegevensinzameling van de Analyse te breken. (TNT-28261) </p> </li> 
-      <li id="li_97BC1B7295364ACDAD3FB07005ED592F"> <p>Probleem verholpen dat ertoe heeft geleid <span class="codeph"> getOffer()-params </span> om te mislukken wanneer <span class="codeph"> targetPageParams() </span> retourneert een lege tekenreeks. (TNT-28359) </p> </li> 
+      <li id="li_97BC1B7295364ACDAD3FB07005ED592F"> <p>Probleem verholpen dat ertoe heeft geleid <span class="codeph"> getOffer()-params </span> om te ontbreken wanneer <span class="codeph"> targetPageParams() </span> retourneert een lege tekenreeks. (TNT-28359) </p> </li> 
       <li id="li_B542D4A4E37141BA8BE79D416E1B58DB"> <p>Probleem verholpen met genereren van sessie-id bij gebruik van alleen x. (TNT-28361) </p> </li> 
      </ul> </p> <p>De standaardonderbreking voor at.js wordt veranderd van 15 seconden in 5 seconden. </p> <p>Als uw huidige instelling 15 seconden was, wordt deze bijgewerkt naar de nieuwe standaardinstelling van 5 seconden. Als u deze eerder hebt gewijzigd in iets anders, heeft dit geen invloed op de instelling. </p> </td> 
   </tr>  
@@ -1877,7 +1885,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Aanbiedingen </p> </td> 
-   <td colname="col2"> <p> Als een gebruiker de toestemming van de "Redacteur"heeft, kan die gebruiker geen aanbieding uitgeven die aan een levende of geplande activiteit van verwijzingen wordt voorzien. </p> <p> <p>Opmerking: Voor Target Premium-klanten die <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external"> Machtigingen voor zakelijke gebruikers </a>Als een gebruiker de optie Alle werkruimten selecteert, gebruikt Doel de hoogste toestemming van de gebruiker over werkruimten. Als de hoogste toestemming "Redacteur is,"Doel beperkt het uitgeven zoals hierboven vermeld </p>. </p> <p>Deze beperkingen gelden voor alle aanbiedingen, niet alleen voor aanbiedingen die zijn gemaakt met Target. (TGT-27276) </p> </td> 
+   <td colname="col2"> <p> Als een gebruiker de toestemming van de "Redacteur"heeft, kan die gebruiker geen aanbieding uitgeven die aan een levende of geplande activiteit van verwijzingen wordt voorzien. </p> <p> <p>Opmerking: voor Target Premium-klanten die <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external"> Machtigingen voor zakelijke gebruikers </a>Als een gebruiker de optie Alle werkruimten selecteert, gebruikt Doel de hoogste toestemming van de gebruiker over werkruimten. Als de hoogste toestemming "Redacteur is,"Doel beperkt het uitgeven zoals hierboven vermeld </p>. </p> <p>Deze beperkingen gelden voor alle aanbiedingen, niet alleen voor aanbiedingen die zijn gemaakt met Target. (TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reactietokens </p> </td> 
@@ -1909,7 +1917,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
    <td colname="col1"> <p>Soorten publiek </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6E91AEC68A6E45D8B2907C77E752FEC6"> 
-      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>U kunt een alleen-activiteit publiek maken vanuit de driestappenworkflow met instructies bij het maken van een activiteit. Dit publiek kan op andere plaatsen binnen de zelfde activiteit worden gebruikt, maar wordt niet opgeslagen in de Bibliotheek van Soorten publiek voor gebruik in andere activiteiten. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Een alleen-actief publiek maken </a>. </p> </li> 
+      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>U kunt een alleen-activiteit publiek maken vanuit de driestappenworkflow met instructies bij het maken van een activiteit. Dit publiek kan op andere plaatsen binnen de zelfde activiteit worden gebruikt, maar wordt niet opgeslagen in de Bibliotheek van Soorten publiek voor gebruik in andere activiteiten. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Een alleen voor activiteit bestemd publiek maken </a>. </p> </li> 
       <li id="li_691812682A5B42C0941324F2BC7D5740"> <p>Voor alle activiteiten, kunt u een succesmetrisch kiezen die de gebruiker voor het publiek kwalificeert. In het verleden, kwalificeerde het Doel gebruikers voor een publiek toen zij de activiteit inging, terwijl nu u kunt kiezen wanneer om het publiek te evalueren door een succes metrisch te kiezen. (TGT-15805) </p> <p> <img src="assets/success_metric.png" id="image_0CEC6015A2C4429790A063FE54CC1A35" /> </p> </li> 
      </ul> </p> <p>Zie voor meer informatie <a href="/help/main/c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local"> Pas een Publiek van de Rapportering op Metrisch Succes toe </a>. </p> </td> 
   </tr> 
@@ -1987,14 +1995,14 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
    <td colname="col2"> <p><b>Bijgewerkt: 12 oktober 2017</b> </p> <p> U kunt nu meerdere activiteiten voor mobiele apps selecteren in de gebruikersinterface en deze voorvertonen op uw apparaat. Met deze functie kunt u zich inschrijven voor meerdere ervaringen voor voorvertonen en QA zonder te hoeven vertrouwen op speciale testbuilds en simulators. </p> <p>Deze functie vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html" format="dita" scope="local"> Doel: mobiele voorvertoning </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mobiele batchverwerking en Prefetch-levering </p> </td> 
+   <td colname="col1"> <p>Mobiele batchverwerking en levering vooraf </p> </td> 
    <td colname="col2"> <p><b>Bijgewerkt: 12 oktober 2017</b> </p> <p> De inhoud voor veelvoudige dozen kan in één enkele vraag worden pre-opgehaald en plaatselijk in het voorgeheugen ondergebracht op het apparaat zonder zich het ongerust maken hoe, wanneer, en als de eindgebruiker de inhoud zal zien. </p> <p>Deze functie vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Inhoud van voorkeursaanbieding </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activiteiten </p> </td> 
    <td colname="col2"> <p>De volgende verbeteringen zijn doorgevoerd in de workflow voor het maken van activiteiten: </p> <p> 
      <ul id="ul_2D251AC11FC54E86AE84DEFFB6FDF43C"> 
-      <li id="li_AB8F12B3CF654120BD16EAE570517741"> <p>Tijdens het bewerken van een activiteit kunt u de gewenste wijzigingen aanbrengen in de momenteel weergegeven stap, klikken op de vervolgkeuzelijst op de splitsknop en vervolgens <span class="wintitle"> Volgende </span> om naar de volgende stap te gaan, klikt u op <span class="wintitle"> Opslaan en sluiten </span> om uw wijzigingen op te slaan en de activiteiten weer te geven <span class="wintitle"> Overzicht </span> pagina, of klik <span class="wintitle"> Opslaan </span> om uw wijzigingen op te slaan en op die stap te blijven. </p> <p> <img src="assets/edit_split_button_2.png" id="image_ABC7EE42F5D341EC88AACC54CA98DA2F" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> Een activiteit bewerken of Opslaan als concept </a>. </p> </li> 
+      <li id="li_AB8F12B3CF654120BD16EAE570517741"> <p>Tijdens het bewerken van een activiteit kunt u de gewenste wijzigingen aanbrengen in de momenteel weergegeven stap, klikken op de vervolgkeuzelijst op de splitsknop en vervolgens <span class="wintitle"> Volgende </span> om naar de volgende stap te gaan, klik <span class="wintitle"> Opslaan en sluiten </span> om uw wijzigingen op te slaan en de activiteiten weer te geven <span class="wintitle"> Overzicht </span> pagina, of klik <span class="wintitle"> Opslaan </span> om uw wijzigingen op te slaan en op die stap te blijven. </p> <p> <img src="assets/edit_split_button_2.png" id="image_ABC7EE42F5D341EC88AACC54CA98DA2F" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> Een activiteit bewerken of Opslaan als concept </a>. </p> </li> 
       <li id="li_4C71E2570ECF4BBAB08443D89230CE82"> <p>Tijdens het bewerken van een activiteit kunt u de gewenste workflowstap openen, wijzigingen aanbrengen (bijvoorbeeld percentages, soorten publiek enzovoort) en de activiteit vervolgens opslaan of sluiten zonder de driestappenworkflow met instructies te doorlopen. </p> <p> <img src="assets/edit_activity.png" id="image_0B9A2EF729C34A1D9FA84B8B7B17A3C1" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> Een activiteit bewerken of Opslaan als concept </a>. </p> </li> 
       <li id="li_43C15B13E4F7475E9376A98222AA0253"> <p>Wanneer u een nieuwe activiteit creeert die nog niet is opgeslagen, of u een activiteit uitgeeft die eerder in ontwerp vorm werd opgeslagen, <span class="wintitle"> Concept opslaan </span> worden weergegeven in de knop Splitsen. </p> <p> <img src="assets/save_draft.png" id="image_3975786947CE4E39B900AA81D838B9B3" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> Een activiteit bewerken of Opslaan als concept </a>. </p> </li> 
       <li id="li_36EF9AD13B2D40ADB99343C9F758D5FD"> <p>U kunt een publiek nu bewerken of kopiëren door de muisaanwijzer boven het gewenste publiek in het deelvenster <span class="wintitle"> Publiek kiezen </span> tijdens het kiezen van een doelversie in stap 2 van de driestappenworkflow met instructies. </p> <p> <img src="assets/audience_picker_hover.png" id="image_6DC33A0856A346948E517F0BA4C9039F" /> </p> </li> 
@@ -2004,7 +2012,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
    <td colname="col1"> <p>Rapportage </p> </td> 
    <td colname="col2"> <p>De volgende nieuwe functies en verbeteringen zijn beschikbaar voor rapportage: </p> <p> 
      <ul id="ul_2D1AF91D1B4E478FBFFA0B83EE30075E"> 
-      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>U kunt de telmethode voor grafieken kiezen in rapporten. Dit wordt niet ondersteund in Auto-Target- en Automated Personalization (AP)-activiteiten. </p> <p>Zie de rij "Methodologie tellen" in <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Rapportinstellingen </a>. </p> </li> 
+      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>U kunt de telmethode voor grafieken kiezen in rapporten. Dit wordt niet ondersteund in Auto-Target- en Automated Personalization (AP)-activiteiten. </p> <p>Zie de rij "Telmethode" in <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Rapportinstellingen </a>. </p> </li> 
       <li id="li_5803CE90DB764C9E983702CB6C1AFEE3"> <p>U kunt veelvoudige metriek in één enkel rapport voor auto-Doel A/B activiteiten bekijken. (TGT-23464) </p> <p>Zie voor meer informatie <a href="/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> Meerdere metriek weergeven in een rapport </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -2060,8 +2068,8 @@ Zie voor meer informatie [Gemengde inhoud in uw browser inschakelen](/help/main/
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>27 september 2017</b> </p> <p> <span class="filepath"> at.js </span> versie 1.2.0 is nu beschikbaar als een onderhoudsversie die meestal foutoplossingen bevat. Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js - Versiedetails </a>. </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
-      <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>Probleem verholpen waarbij standaardhandelingen voor speciale gevallen met klikken werden voorkomen. (TNT-28089) </p> </li> 
-      <li id="li_53806C902AA04B31B59AA87A1E707348"> <p>Probleem verholpen waarbij klikken op bijhouden in een koppeling met <span class="codeph"> target="_blank" </span> die ervoor zorgden dat Target de koppeling niet op een nieuw tabblad kon openen. (TNT-28072) </p> </li> 
+      <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>Probleem verholpen waarbij standaardhandelingen voor speciale gevallen met muisklik werden voorkomen. (TNT-28089) </p> </li> 
+      <li id="li_53806C902AA04B31B59AA87A1E707348"> <p>Probleem verholpen waarbij klikken op bijhouden in een koppeling met <span class="codeph"> target="_blank" </span> dat heeft voorkomen dat Target de koppeling op een nieuw tabblad kon openen. (TNT-28072) </p> </li> 
       <li id="li_94F5794330D14C71BA07B3F17D0705FD"> <p> IP de adressen kunnen als koekjesdomein worden gebruikt. (TNT-28002) </p> </li> 
       <li id="li_7D2A11B17672419583F9632CDA00D28F"> <p>Probleem verholpen dat flikkering veroorzaakte bij omleidingsvoorstellen met een global mbox of andere regionale dozen. (TNT-27978) </p> </li> 
       <li id="li_BA27A749A7A242478080F3D8E04148FC"> <p> Probleem verholpen in Experience Targeting activity setup mislukt binnen de VEC bij het schakelen tussen Bladeren en Samenstellen. (TNT-27942) </p> </li> 
@@ -2095,14 +2103,14 @@ Zie voor meer informatie [Gemengde inhoud in uw browser inschakelen](/help/main/
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA-modus </p> </td> 
-   <td colname="col2"> <p>Voer gemakkelijke activiteit QA met voorproefverbindingen uit die nooit veranderen, facultatieve publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft. </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> Activiteit QA </a>. </p> </td> 
+   <td colname="col2"> <p>Voer gemakkelijke activiteit QA met voorproefverbindingen uit die nooit veranderen, facultatief publiek richten, en QA rapportering die van levende activiteitengegevens gesegmenteerd blijft. </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> Activiteit QA </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Verbeteringen, correcties en wijzigingen**
 
-Dit [!DNL Target] De release bevat de volgende klantgerichte verbeteringen, oplossingen en wijzigingen: (nummer van de uitgave staat tussen haakjes voor intern gebruik van Adobe):
+Dit [!DNL Target] de release bevat de volgende klantgerichte verbeteringen, oplossingen en wijzigingen: (nummer van de uitgave tussen haakjes is voor intern gebruik van Adobe):
 
 * We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-up kaart in het Doel UI kunt bekijken zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
 * U kunt nu definities van ad-hocpubliek weergeven in het maken/overzicht van activiteiten. (TGT-25570)
@@ -2124,7 +2132,7 @@ Dit [!DNL Target] De release bevat de volgende klantgerichte verbeteringen, oplo
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>Toegevoegde verwerking van responstoken. Zie voor meer informatie <a href="/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Reactiepunten </a>. </p> </li> 
       <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Het probleem is opgelost zodat <span class="codeph"> document.currentScript, polyfill </span> interfereert niet met Angular 1.X. </p> </li> 
-      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Wijzigingen aangebracht om ervoor te zorgen dat het bijhouden van klikken geen invloed heeft op de zichtbaarheidseigenschap. Klik op de volgende elementen om de <span class="codeph"> at-element-klik-tracking </span> CSS-klasse in plaats van <span class="codeph"> at-element-marker </span>. </p> </li> 
+      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Wijzigingen aangebracht om ervoor te zorgen dat het bijhouden van klikken geen invloed heeft op de zichtbaarheidseigenschap. Klik op de volgende elementen worden gemarkeerd met de <span class="codeph"> at-element-klik-tracking </span> CSS-klasse in plaats van <span class="codeph"> at-element-marker </span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -2142,7 +2150,7 @@ Dit [!DNL Target] De release bevat de volgende klantgerichte verbeteringen, oplo
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Reactiepunten </p> </td> 
-   <td colname="col2"> <p>Met responstokens kunt u automatisch in aanmerking komende variabelen (bijvoorbeeld profielkenmerken) uitvoeren in de doelreacties die activiteiten leveren (bijvoorbeeld weergavekaders). De tokens van de reactie kunnen voor het zuiveren doeleinden of voor integratie met derdeleveranciers (zoals Clicktale) worden gebruikt. </p> <p>Reactietokens lijken op <span class="keyword"> Adobe Target Classic </span> serverplug-ins en bieden pariteit tussen de twee oplossingen. </p> <p> <p>Opmerking: Responstokens zijn beschikbaar voor <span class="filepath"> at.js </span> 1.1 of hoger.</span>. </p> </p> <p>Zie voor meer informatie <a href="/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Reactiepunten </a>. </p> </td> 
+   <td colname="col2"> <p>Met responstokens kunt u automatisch in aanmerking komende variabelen (bijvoorbeeld profielkenmerken) uitvoeren in de doelreacties die activiteiten leveren (bijvoorbeeld weergavekaders). De tokens van de reactie kunnen voor het zuiveren doeleinden of voor integratie met derdeleveranciers (zoals Clicktale) worden gebruikt. </p> <p>Reactietokens zijn vergelijkbaar met <span class="keyword"> Adobe Target Classic </span> serverplug-ins en bieden pariteit tussen de twee oplossingen. </p> <p> <p>Opmerking: responstokens zijn beschikbaar bij <span class="filepath"> at.js </span> 1.1 of hoger.</span>. </p> </p> <p>Zie voor meer informatie <a href="/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Reactiepunten </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2182,14 +2190,14 @@ Dit [!DNL Target] De release bevat de volgende klantgerichte verbeteringen, oplo
    <td colname="col1"> <p>Succeswaarden </p> </td> 
    <td colname="col2"> <p>Eerder, stond Doel gebiedsdeel op enige metrisch toe en dat metrisch moest worden bereikt alvorens zijn telling werd verhoogd. U kunt gebiedsdeel op veelvoudige metriek samen met de flexibiliteit nu verstrekken om te kiezen of metrisch voor de telling aan toename zou moeten worden bereikt of niet. </p> <p>De multimetrische gebiedsdeelfunctionaliteit wordt niet gesteund voor het volgende: </p> <p> 
      <ul id="ul_EC856F910B704D648065EA7DA13EE5B0"> 
-      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Recommendations-activiteiten. Deze functionaliteit wordt ondersteund voor alle andere typen activiteiten. </p> </li> 
+      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Recommendations-activiteiten Deze functionaliteit wordt ondersteund voor alle andere typen activiteiten. </p> </li> 
       <li id="li_2D6CF42264D445FCB6C400ED321DE952"> <p>Als u Analytics als uw rapporteringsbron (A4T) gebruikt. </p> </li> 
       <li id="li_E3A983A70BB04AE8B25A7CEC1F5FE1D9"> <p>Het metrische type "Viewed a Page". </p> </li> 
       <li id="li_9AAF6BB275F7489BA691676E308172D5"> <p>Het metrische type "Clicked an Element" voor VEC-activiteiten (Visual Experience Composer). </p> </li> 
      </ul> </p> <p>Raadpleeg de volgende onderwerpen voor meer informatie: </p> <p> 
      <ul id="ul_4B0EFFDD257C42579E19569DCBE15BE3"> 
       <li id="li_2402575F27F547968BD536C460BF81B5"> <p>A/B: <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Doelstellingen en instellingen </a> </p> </li> 
-      <li id="li_FB5E7CBC0154406C989F5A5C6CAA0C8F"> <p>Automated Personalization (AP): <a href="/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization-activiteiten maken </a> </p> </li> 
+      <li id="li_FB5E7CBC0154406C989F5A5C6CAA0C8F"> <p>Automated Personalization (AP) <a href="/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization-activiteiten maken </a> </p> </li> 
       <li id="li_57C36A7945A24A52BCBD62CA0F15B668"> <p>Gericht op ervaring (XT): <a href="/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Doelstellingen en instellingen </a> </p> </li> 
       <li id="li_06674A3152A547268A1AE5EE818EF1A5"> <p>Multivariatie (MVT): <a href="/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Doelstellingen en instellingen </a> </p> </li> 
      </ul> </p> </td> 
@@ -2213,7 +2221,7 @@ Dit [!DNL Target] De release bevat de volgende klantgerichte verbeteringen, oplo
  </tbody> 
 </table>
 
-Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen voor de klant: (nummer van de uitgave staat tussen haakjes voor intern gebruik van Adobe):
+Dit [!DNL Target] release bevat de volgende klantgerichte verbeteringen en oplossingen: (nummer van de uitgave tussen haakjes is bedoeld voor intern gebruik van Adobe):
 
 * De workflow is verbeterd wanneer een gebruiker [!DNL Target] sessietijden uit tijdens het maken of bewerken van een activiteit of aanbieding. Wanneer de gebruiker klikt [!UICONTROL Save], wordt het bericht dat de sessie is verlopen weergegeven, maar nadat u zich weer hebt aangemeld, wordt de gebruiker in een dialoogvenster op de hoogte gebracht van een geslaagde aanmelding en blijft de gebruikersinterface op dezelfde pagina staan in [!DNL Target] zonder gegevensverlies.
 
@@ -2229,7 +2237,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen voor
 
 * Verbeterd foutbericht wanneer voor een site &quot;X-Frame-options&quot; is ingesteld op SAMEORIGIN en de site niet kan worden geladen in Visual Experience Composer (VEC). Het bericht zet de gebruiker ertoe aan om op Verbeterde Composer van de Ervaring in Beleid > Visuele Composer van de Ervaring over te schakelen. (TGT-17356)
 * Rapporten in Standaard/Premium worden nu weergegeven in de tijdzone van uw account in plaats van in de tijdzone van de doelserver (US EST). (TGT-24868)
-* Indien activiteiten die in [!DNL Target] worden bijgewerkt van buiten [!DNL Target] (bijvoorbeeld via Adobe I/O) worden de volgende activiteitskenmerken weer geïmporteerd in [!DNL Target]:
+* Indien activiteiten die zijn gemaakt in [!DNL Target] worden bijgewerkt van buiten [!DNL Target] (bijvoorbeeld via Adobe I/O) worden de volgende activiteitskenmerken weer geïmporteerd in [!DNL Target]:
 
   `thirdpartyId`
 
@@ -2264,8 +2272,8 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen voor
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations: Criteria en aanbiedingen </p> </td> 
-   <td colname="col2"> <p> U kunt nu dynamische criteria en promoties maken op basis van overeenkomsten tussen profielkenmerken en parameters. </p> <p> <img src="assets/inclusion_rules.png" id="image_D136F75A5C2B428390FE231559AEC2D3" /> </p> <p> <p>Opmerking: Als u vertrouwd met bent hoe de inclusieregels voorafgaand aan Doel 17.6.1 versie (Juni 2017) werden gevormd, zult u merken dat sommige opties en exploitanten zijn veranderd. Alleen de operatoren die van toepassing zijn op de geselecteerde optieweergave en sommige operatoren hebben een andere naam gekregen ("overeenkomsten" zijn nu "gelijk"), zodat ze consistenter en intuïtiever zijn. Alle bestaande uitsluitingsregels die vóór deze release zijn gemaakt, zijn automatisch naar de nieuwe structuur gemigreerd. Van uw kant is geen herstructurering nodig. </p> </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations: criteria en promoties </p> </td> 
+   <td colname="col2"> <p> U kunt nu dynamische criteria en promoties maken op basis van overeenkomsten tussen profielkenmerken en parameters. </p> <p> <img src="assets/inclusion_rules.png" id="image_D136F75A5C2B428390FE231559AEC2D3" /> </p> <p> <p>Nota: Als u met vertrouwd bent hoe de inclusieregels voorafgaand aan Doel 17.6.1 versie (Juni 2017) werden gevormd, zult u merken dat sommige opties en exploitanten zijn veranderd. Alleen de operatoren die van toepassing zijn op de geselecteerde optieweergave en sommige operatoren hebben een andere naam gekregen ("overeenkomsten" zijn nu "gelijk"), zodat ze consistenter en intuïtiever zijn. Alle bestaande uitsluitingsregels die vóór deze release zijn gemaakt, zijn automatisch naar de nieuwe structuur gemigreerd. Van uw kant is geen herstructurering nodig. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbeteringen in de VEC Code Editor </p> </td> 
@@ -2304,8 +2312,8 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen voor
    <td colname="col2"> <p>U kunt uitsluitingsgroepen maken in AP-activiteiten om ervoor te zorgen dat ervaringen met de toegewezen aanbiedingen automatisch worden uitgesloten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations: Criteria en aanbiedingen </p> </td> 
-   <td colname="col2"> <p><b>(Gepland voor vrijgave 22 juni 2017)</b> U kunt nu dynamische criteria en promoties maken op basis van overeenkomsten tussen profielkenmerken en parameters. </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> Dynamische en statische insluitingsregels gebruiken </a>. </p> <p> <p>Opmerking: Als u vertrouwd met bent hoe de inclusieregels voorafgaand aan Doel 17.6.1 versie (Juni 2017) werden gevormd, zult u merken dat sommige opties en exploitanten zijn veranderd. Alleen de operatoren die van toepassing zijn op de geselecteerde optieweergave en sommige operatoren hebben een andere naam gekregen ("overeenkomsten" zijn nu "gelijk"), zodat ze consistenter en intuïtiever zijn. Alle bestaande uitsluitingsregels die vóór deze release zijn gemaakt, zijn automatisch naar de nieuwe structuur gemigreerd. Van uw kant is geen herstructurering nodig. </p> </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations: criteria en promoties </p> </td> 
+   <td colname="col2"> <p><b>(Gepland voor vrijgave 22 juni 2017)</b> U kunt nu dynamische criteria en promoties maken op basis van overeenkomsten tussen profielkenmerken en parameters. </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>Zie voor meer informatie <a href="/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> Dynamische en statische insluitingsregels gebruiken </a>. </p> <p> <p>Nota: Als u met vertrouwd bent hoe de inclusieregels voorafgaand aan Doel 17.6.1 versie (Juni 2017) werden gevormd, zult u merken dat sommige opties en exploitanten zijn veranderd. Alleen de operatoren die van toepassing zijn op de geselecteerde optieweergave en sommige operatoren hebben een andere naam gekregen ("overeenkomsten" zijn nu "gelijk"), zodat ze consistenter en intuïtiever zijn. Alle bestaande uitsluitingsregels die vóór deze release zijn gemaakt, zijn automatisch naar de nieuwe structuur gemigreerd. Van uw kant is geen herstructurering nodig. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Naamgevingsactiviteiten </p> </td> 
@@ -2313,7 +2321,7 @@ Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen voor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nieuwe locatie voor doelforum </p> </td> 
-   <td colname="col2"> <p> Het doelforum is verplaatst naar het nieuwe <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external"> Adobe Community Platform </a>. </p> </td> 
+   <td colname="col2"> <p> Het doelforum is verplaatst naar het nieuwe <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external"> Adobe Communautair Platform </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2337,7 +2345,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </tbody> 
 </table>
 
-Dit [!DNL Target] release richt zich op back-end oplossingen en bevat de volgende klantgerichte verbeteringen en oplossingen: (nummer van de uitgave staat tussen haakjes voor intern gebruik van Adobe):
+Dit [!DNL Target] release richt zich op back-end oplossingen en bevat de volgende klantgerichte verbeteringen en oplossingen: (nummer van de uitgave tussen haakjes is bedoeld voor intern gebruik van Adobe):
 
 * Probleem verholpen waarbij de instelling &quot;Aantal verhogen, Gebruiker vrijgeven &amp; opnieuw invoeren toestaan&quot; in Geavanceerde instellingen ertoe leidde dat activiteiten niet correct zouden werken. (TNT-26556)
 * Probleem verholpen waardoor gegevens van kenmerk van klant niet uit Target konden worden verwijderd nadat ze met NULL waren bijgewerkt in de gebruikersinterface van Experience Cloud. (TNT-26462)
@@ -2356,11 +2364,11 @@ Dit [!DNL Target] release richt zich op back-end oplossingen en bevat de volgend
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p> <span class="filepath"> at.js </span> versie 0.9.6 is nu beschikbaar. Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> Downloaden om.js </a>. </p> <p>De volgende verbeteringen en correcties zijn opgenomen in <span class="filepath"> at.js </span> versie 0.9.6: </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
-      <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Omleiding biedt ondersteuning voor A4T. Nadat u hebt gedownload en geïnstalleerd <span class="filepath"> at.js </span> versie 0.9.6, kunt u de aanbiedingen van de doorverwijzing in activiteiten gebruiken die <span class="keyword"> Adobe Analytics </span> als rapportbron voor <span class="keyword"> Doel </span> (A4T). Naast <span class="filepath"> at.js </span> versie 0.9.6, zijn er andere minimumvereisten uw implementatie moet voldoen om aanbiedingen van de omleiding en A4T te gebruiken. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Omleidingsvoorstellen - Veelgestelde vragen A4T </a>. </p> </li> 
+      <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Omleiding biedt ondersteuning voor A4T. Na het downloaden en installeren <span class="filepath"> at.js </span> versie 0.9.6, kunt u de aanbiedingen van de doorverwijzing in activiteiten gebruiken die <span class="keyword"> Adobe Analytics </span> als rapportbron voor <span class="keyword"> Doel </span> (A4T). Naast <span class="filepath"> at.js </span> versie 0.9.6, zijn er andere minimumvereisten uw implementatie moet voldoen om aanbiedingen van de omleiding en A4T te gebruiken. Voor meer informatie en extra belangrijke informatie zou u moeten weten, zie <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Omleidingsvoorstellen - Veelgestelde vragen A4T </a>. </p> </li> 
       <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Voor <span class="filepath"> at.js </span> 0.9.6, wanneer de API voor bezoekers aanwezig was op de pagina en de <span class="codeph"> bezoekerApiTimeout </span> het plaatsen was te agressief, kon Doel in een situatie lopen toen geen MCID- gegevens in werden verzonden <span class="keyword"> Doel </span> verzoek. Dit kan leiden tot problemen zoals onsite treffers in <span class="keyword"> Analyse </span> bij gebruik van A4T. </p> <p>Dit gedrag is gewijzigd in <span class="filepath"> at.js </span> 0.9.6, zelfs als de <span class="codeph"> bezoekerApiTimeout </span> wordt geplaatst om 1 ms te zeggen, zal het Doel proberen om SDID, volgende servers, en gegevens van klant IDs te verzamelen en die in het verzoek van het Doel te verzenden. </p> </li> 
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>De <span class="codeph"> selectorsPollingTimeout </span> instellen. Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>. </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>De indeling van de reactie van <span class="codeph"> getOffer() </span> is gewijzigd. Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> adobe.target.getOffer(opties) </a>. </p> </li> 
-      <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Logboekregistratie voor console is toegevoegd voor niet-ondersteunde <span class="codeph"> &lt;!DOCTYPE&gt; </span> aangiften. </p> </li> 
+      <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Logboekregistratie voor console is toegevoegd voor niet-ondersteunde toepassingen <span class="codeph"> &lt;!DOCTYPE&gt; </span> aangiften. </p> </li> 
       <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>Probleem verholpen waarbij <span class="keyword"> Doel - Klassiek </span> plug-ins werden niet correct toegepast wanneer meerdere standaardaanbiedingen naar één box werden verzonden. (TGT-22664)</p> </li> 
       <li id="li_7016022D9DDE4529B77984F195825AB7"> <p>Verbeterde cookie-instelling voor twee TLD's (Top-Level-Domain) om ervoor te zorgen dat de cookie van de box correct is ingesteld voor deze domeinen (bijvoorbeeld <span class="filepath"> test.no </span>, <span class="filepath"> autodrives.ca </span>, enzovoort). </p> </li> 
       <li id="li_3B1F618DEC744056B5BB172C4DBB359A"> <p>Het algoritme voor het extraheren van het domein op het hoogste niveau dat moet worden gebruikt bij het opslaan van cookies is gewijzigd in <span class="codeph"> at.js </span> versie 0.9.6. Vanwege deze wijziging kunnen cookies niet worden opgeslagen naar adressen die IP gebruiken. Meestal worden IP-adressen gebruikt voor testdoeleinden, maar als tijdelijke oplossingen kunt u DNS-vermeldingen gebruiken of het hostbestand op een lokaal vak aanpassen. </p> </li> 
@@ -2384,14 +2392,14 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analyses voor doel (A4T) </p> <p>Omleidingsvoorstellen </p> </td> 
-   <td colname="col2"> <p><b>Bijgewerkt op 13 april 2017.</b> </p> <p>Je kunt nu omleidingsvoorstellen gebruiken voor activiteiten die gebruikmaken van <span class="keyword"> Analyse </span> als bron van de rapportage. </p> <p>Deze bibliotheken moeten op de pagina worden opgenomen met het omleidingsvoorstel en de pagina waarnaar de bezoeker wordt omgeleid. Als onderdeel van deze wijziging worden automatisch nieuwe URL-parameters toegevoegd aan uw omleidings-URL's als de service Bezoeker-id op uw site is geïmplementeerd, ongeacht of u Analytics als rapportbron voor die activiteit gebruikt of niet. </p> <p>Zie voor meer informatie <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Omleidingsvoorstellen - Veelgestelde vragen A4T </a>. </p> </td> 
+   <td colname="col2"> <p><b>Bijgewerkt op 13 april 2017.</b> </p> <p>Je kunt nu omleidingsvoorstellen gebruiken voor activiteiten die gebruikmaken van <span class="keyword"> Analyse </span> als de bron van de rapportage. </p> <p>Deze bibliotheken moeten op de pagina worden opgenomen met het omleidingsvoorstel en de pagina waarnaar de bezoeker wordt omgeleid. Als onderdeel van deze wijziging worden automatisch nieuwe URL-parameters toegevoegd aan uw omleidings-URL's als de service Bezoeker-id op uw site is geïmplementeerd, ongeacht of u Analytics als rapportbron voor die activiteit gebruikt of niet. </p> <p>Zie voor meer informatie <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Omleidingsvoorstellen - Veelgestelde vragen A4T </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Soorten publiek </p> </td> 
    <td colname="col2"> <p>De volgende verbeteringen zijn doorgevoerd voor doelgroepen: </p> <p> 
      <ul id="ul_C920198404654C97A33190A29ACA6990"> 
       <li id="li_DB52EF909C9640649981940460CDF2B5"> <p><b>Wek- en dagscheiding:</b> U kunt instellen <span class="wintitle"> Week- en dagparkeren </span> opties voor het maken van terugkerende patronen voor doelgroepen. </p> <p>Zie voor meer informatie <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Tijdschema </a>. </p> </li> 
-      <li id="li_2541A6EF2D604CE098012A16909C237E"> <p><b> Uitsluitingen bij gecombineerd publiek:</b> U kunt uitsluitingsregels nu toevoegen en het publiek uitsluiten wanneer u meerdere soorten publiek combineert. </p> <p>Zie voor meer informatie <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Meerdere soorten publiek combineren </a>. </p> </li> 
+      <li id="li_2541A6EF2D604CE098012A16909C237E"> <p><b> Uitsluitingen in het gecombineerde publiek:</b> U kunt uitsluitingsregels nu toevoegen en het publiek uitsluiten wanneer u meerdere soorten publiek combineert. </p> <p>Zie voor meer informatie <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Meerdere soorten publiek combineren </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2405,9 +2413,9 @@ Deze release bevat de volgende functies en verbeteringen:
 >
 >De capaciteit om veelvoudige metriek in een rapport te bekijken, inbegrepen in Doelversie 17.3.1 (30 maart, 2017) is verwijderd toe te schrijven aan onverwacht gedrag. Deze functie is in een volgende release weer beschikbaar.
 
-Dit [!DNL Target] release bevat de volgende verbeteringen en oplossingen: :
+Dit [!DNL Target] de release bevat de volgende verbeteringen en oplossingen:
 
-* De [!DNL Target] gebruikersinterface is bijgewerkt om aanbiedingen voor omleiding te ondersteunen bij activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. Deze functionaliteit vereist [!DNL at.js] 0.9.6, die binnenkort beschikbaar zal zijn.
+* De [!DNL Target] gebruikersinterface is bijgewerkt om aanbiedingen voor omleiding te ondersteunen bij activiteiten die gebruikmaken van [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. Deze functionaliteit vereist [!DNL at.js] 0.9.6, die binnenkort beschikbaar zal zijn.
 * De [!DNL Target] gebruikersinterface is op sommige plaatsen bijgewerkt:
 
    * In rapporten en activiteiten zijn enkele opties beschikbaar ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], enz.) zijn nu toegankelijk door op de knop [!UICONTROL More Options] icon (  ![icon_more_options-afbeelding](assets/icon_more_options.png)
@@ -2428,7 +2436,7 @@ Dit [!DNL Target] release bevat de volgende verbeteringen en oplossingen: :
 
 Dit [!DNL Target] release richt zich op verbeteringen op het gebied van bruikbaarheid en prestaties en bevat de volgende verbeteringen en oplossingen (nummer van uitgave tussen haakjes is voor intern gebruik van Adobe):
 
-* Extra items aan het menu Help toegevoegd die vanuit de rechterbovenhoek van het dialoogvenster [!DNL Target] gebruikersinterface. Tot de nieuwe opties behoren: &quot;Blogs&quot; en &quot;Video&#39;s&quot;. De optie Adobe Experience Cloud Status is nu &quot;Adobe Target Standard/Premium Status&quot;. (TGT-22629)
+* Extra items aan het menu Help toegevoegd die vanuit de rechterbovenhoek van het dialoogvenster [!DNL Target] gebruikersinterface. Nieuwe opties zijn: &quot;Blogs&quot; en &quot;Video&#39;s&quot;. De optie Adobe Experience Cloud Status is nu &quot;Adobe Target Standard/Premium Status&quot;. (TGT-22629)
 * Wanneer u een publiek verwijdert, [!DNL Target] geeft een lijst weer van activiteiten die naar dat publiek verwijzen. Gebruikers kunnen op elke activiteit in de lijst klikken om de bijbehorende activiteit weer te geven [!UICONTROL Overview] pagina. (TGT-17997)
 * Verbeterd `user.activeCampaigns` om de campagne-id te retourneren voor alle campagnes/activiteiten waarin de gebruiker zich bevindt, zelfs als hij of zij in de huidige sessie niet heeft gereageerd op de campagne/activiteit. (TNT-26237)
 * De [!UICONTROL Create Activity] op de knop [!UICONTROL Activities] Deze pagina is nu actief voordat alle activiteitennamen in de lijst worden geladen. Deze verbetering laat gebruikers nieuwe activiteiten sneller tot stand brengen, vooral wanneer de rekening vele gevormde activiteiten heeft. (TGT-21470)
@@ -2498,7 +2506,7 @@ Deze release bevat de volgende functies en verbeteringen:
      </ul> </p> <p>Zie voor meer informatie <a href="/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rapportage </p> <p> <p>Opmerking: Deze verbeteringen zijn niet van toepassing op Analytics for Target (A4T)-rapporten. </p> </p> </td> 
+   <td colname="col1"> <p>Rapportage </p> <p> <p>Opmerking: deze verbeteringen zijn niet van toepassing op Analytics for Target (A4T)-rapporten. </p> </p> </td> 
    <td colname="col2"> <p>De volgende rapporteringsverhogingen zijn nu beschikbaar voor de rapporten van het Doel. </p> <p> 
      <ul id="ul_ACFCA821B120419EA252EF5031309D52"> 
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>De gebruikersinterface voor rapporten is opnieuw ontworpen. </p> </li> 
@@ -2507,7 +2515,7 @@ Deze release bevat de volgende functies en verbeteringen:
      </ul> </p> <p>Zie voor meer informatie <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> Rapportinstellingen </a> en <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> Telmethode </a>. </p> <p>De volgende rapportverbeteringen zijn nu beschikbaar voor downloadbare CSV-rapporten: </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>Het CSV-rapport op het niveau van de aanbieding bevat nu aanvullende details over elke aanbieding. (TGT-18995) </p> </li> 
-      <li id="li_659D126E846348D4BE4544962F41539F"> <p>Gedownloade CSV-bestanden op aanbiedingsniveau bevatten nu altijd gegevens van besturingselementen en doelsegmenten voor <span class="wintitle"> Automated Personalization </span> rapporten. (TGT-22000) </p> </li> 
+      <li id="li_659D126E846348D4BE4544962F41539F"> <p>Gedownloade CSV-bestanden op aanbiedingsniveau bevatten nu altijd gegevens van besturingselementen en doelsegmenten voor <span class="wintitle"> Automated Personalization </span> rapporten. (TGT-2000) </p> </li> 
      </ul> </p> <p>De volgende rapportverbeteringen zijn nu beschikbaar voor Automated Personalization-rapporten (AP). </p> <p> 
      <ul id="ul_5743684487CD4905BA998C298FD423D7"> 
       <li id="li_EB48BA21E00C4878B4408D24DD23BA9C"> <p>Verbeterde laadtijd voor Automated Personalization-activiteiten. </p> </li> 
@@ -2542,7 +2550,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enhanced Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Bijgewerkt de IP adressen voor Verbeterde Visual Experience Composer (VEC). </p> <p>Als u IP adressen voegt op lijst van gewenste personen die voor VEC worden gebruikt, voeg de nieuwe IP adressen toe. </p> <p>Zie voor meer informatie <a href="/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Het oplossen van problemen de Visuele Composer van de Ervaring </a>. </p> </td> 
+   <td colname="col2"> <p>Bijgewerkt de IP adressen voor Verbeterde Visual Experience Composer (VEC). </p> <p>Als u IP adressen voegt op lijst van gewenste personen die voor VEC worden gebruikt, voeg de nieuwe IP adressen toe. </p> <p>Zie voor meer informatie <a href="/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Problemen oplossen met de composer voor visuele ervaring </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2572,8 +2580,8 @@ Deze release bevat de volgende functies en verbeteringen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Automatisch toewijzen: Winnerbadge </td> 
-   <td colname="col2"> <p>We hebben het nu eenvoudiger gemaakt om een winnaar te bepalen in een Auto-Allocate A/B-activiteit. </p> <p>Veel marketeers maken de fout om voortijdig een winnende ervaring te declareren voordat de resultaten de duidelijke winnaar aangeven. </p> <p>Wanneer u de <span class="wintitle"> Automatische verkeerstoewijzing </span> functie, <span class="keyword"> Doel </span> toont een badge bij de bovenkant van de pagina van de activiteit erop wijst die "Geen Winner nog"tot de activiteit het minimumaantal omzettingen met voldoende vertrouwen bereikt. Wanneer een duidelijke winnaar wordt uitgeroepen, <span class="keyword"> Doel </span> geeft "Winner: Beleef X." </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Automatische verkeerstoewijzing </a> en <a href="/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> Een winnaar bepalen </a>. </p> <p> <p>Opmerking: Automatische toewijzing van A/B-activiteiten wordt niet meer ondersteund in Analytics for Target (A4T) forward. Met deze release worden alle actieve Auto-Allocate A/B-activiteiten waarvoor A4T is ingeschakeld, overgeschakeld op <span class="wintitle"> Handmatig </span> wijze (gelijke verkeerstoewijzing). </p> </p> </td> 
+   <td colname="col1"> Automatisch toewijzen: Badge Winner </td> 
+   <td colname="col2"> <p>We hebben het nu eenvoudiger gemaakt om een winnaar te bepalen in een Auto-Allocate A/B-activiteit. </p> <p>Veel marketeers maken de fout om voortijdig een winnende ervaring te declareren voordat de resultaten de duidelijke winnaar aangeven. </p> <p>Wanneer u de opdracht <span class="wintitle"> Automatische verkeerstoewijzing </span> functie, <span class="keyword"> Doel </span> toont een badge bij de bovenkant van de pagina van de activiteit erop wijst die "Geen Winner nog"tot de activiteit het minimumaantal omzettingen met voldoende vertrouwen bereikt. Wanneer een duidelijke winnaar wordt uitgeroepen, <span class="keyword"> Doel </span> geeft "Winner: Experience X." weer </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Automatische verkeerstoewijzing </a> en <a href="/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> Een winnaar bepalen </a>. </p> <p> <p>Opmerking: Automatische toewijzing van A/B-activiteiten wordt niet langer ondersteund in Analytics for Target (A4T) forward. Met deze release worden alle actieve Auto-Allocate A/B-activiteiten waarvoor A4T is ingeschakeld, overgeschakeld op <span class="wintitle"> Handmatig </span> wijze (gelijke verkeerstoewijzing). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mobiele apparaten zoeken op drager </td> 
@@ -2581,19 +2589,19 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> MboxTrace-verificatietoken genereren vanuit de gebruikersinterface van het doel </td> 
-   <td colname="col2"> <p>Geavanceerd inschakelen <span class="keyword"> Doel </span> het zuiveren hulpmiddelen door een tijdelijk authentificatietoken te creëren. </p> <p>Klikken <span class="uicontrol"> Verificatietoken genereren </span> op de <span class="wintitle"> Implementatiedetails </span> pagina ( <span class="uicontrol"> Beheer </span> &gt; <span class="uicontrol"> Implementatie </span>). Vervolgens kunt u de resulterende parameter toevoegen aan de URL's van uw webpagina voor het oplossen van problemen. </p> <p>Zie "Token voor autorisatie ophalen voor gebruik met foutopsporingsgereedschappen" in <a href="/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> Problemen met inhoudslevering oplossen </a>. </p> </td> 
+   <td colname="col2"> <p>Geavanceerd inschakelen <span class="keyword"> Doel </span> het zuiveren hulpmiddelen door een tijdelijk authentificatietoken te creëren. </p> <p>Klikken <span class="uicontrol"> Verificatietoken genereren </span> op de <span class="wintitle"> Implementatiedetails </span> pagina ( <span class="uicontrol"> Administratie </span> &gt; <span class="uicontrol"> Implementatie </span>). Vervolgens kunt u de resulterende parameter toevoegen aan de URL's van uw webpagina voor het oplossen van problemen. </p> <p>Zie "Token voor autorisatie ophalen voor gebruik met foutopsporingsgereedschappen" in <a href="/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> Problemen met inhoudslevering oplossen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Criteria ingesteld op volgorde </td> 
    <td colname="col2"> <p>Gebruik in één ervaring maximaal vijf vooraf gedefinieerde criteria voor meer controle over de aanbevelingen die aan bezoekers worden voorgelegd. </p> <p>Zie voor meer informatie <a href="/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md"> Criteria-reeksen maken </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommendations: Externe aanbiedingen invoegen </td> 
+   <td colname="col1" class="premium"> Recommendations: externe aanbiedingen invoegen </td> 
    <td colname="col2"> <p>Voeg gepromoveerde objecten toe en controleer de plaatsing ervan in Recommendations-ontwerpen. </p> <p>Zie voor meer informatie <a href="/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Promoties toevoegen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Eerste weergave</b> </p> Automatisch aanwijzen in A/B-activiteiten </td> 
-   <td colname="col2"> <p> <p>Opmerking: Dit "First Look"-aanbod is voor een paar klanten in deze release beschikbaar voor tests en feedback. </p> </p> <p>Automatisch ervaringen in A/B-tests als doel instellen voor de juiste ervaring voor de juiste bezoeker. </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> Auto-Target voor persoonlijke ervaringen </a>. </p> </td> 
+   <td colname="col2"> <p> <p>Opmerking: deze "First Look"-aanbieding is beschikbaar voor een paar klanten in deze release voor tests en feedback. </p> </p> <p>Automatisch ervaringen in A/B-tests als doel instellen voor de juiste ervaring voor de juiste bezoeker. </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> Auto-Target voor persoonlijke ervaringen </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2638,7 +2646,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Doelbezoekers gedurende een specifieke periode </td> 
-   <td colname="col2"> <p>Begin- en einddatums toevoegen voor een publiek. </p> <p>Met het nieuwe gecombineerde, ad-hocpubliek dat hierboven is vermeld, kunt u bijvoorbeeld low-spenders met specifieke inhoud aanspreken gedurende de drie dagen voorafgaand aan de Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag. </p> <p>Zie voor meer informatie <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Tijdschema </a>. </p> </td> 
+   <td colname="col2"> <p>Begin- en einddatums toevoegen om een publiek als doel in te stellen. </p> <p>Met het nieuwe gecombineerde, ad-hocpubliek dat hierboven is vermeld, kunt u bijvoorbeeld low-spenders met specifieke inhoud aanspreken gedurende de drie dagen voorafgaand aan de Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag. </p> <p>Zie voor meer informatie <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Tijdschema </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Slimme verzamelingen opslaan </td> 
@@ -2663,7 +2671,7 @@ Deze release bevat de volgende verbeteringen:
 
 * De [!UICONTROL Render Using JavaScript] optie wordt momenteel niet gesteund als het samen met douanecode in de Visuele Composer van de Ervaring wordt gebruikt.
 
-### Wijziging van het streefcijfer voor Platforms (september 2016) {#section_1955146045A247D393DB824669A2A916}
+### Wijzigingen in streefcijfer Platform (september 2016) {#section_1955146045A247D393DB824669A2A916}
 
 <table id="table_8FDAEED5D84C4C718AB863BD6C383F20"> 
  <thead> 
@@ -2678,7 +2686,7 @@ Deze release bevat de volgende verbeteringen:
    <td colname="col2"> <p>21 september 2016 </p> <p> <span class="codeph"> at.js </span> versie 0.9.2 is beschikbaar. </p> <p> 
      <ul id="ul_0778A9049C9D48A7B6CB4B79A95F0F4C"> 
       <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Toegevoegde <span class="codeph"> optoutEnabled </span> instelling om de optie Weigeren apparaatgrafiek in of uit te schakelen. Als deze instelling is ingesteld op <span class="codeph"> true </span> en de bezoeker heeft ervoor gekozen het bijhouden te beëindigen , zal browser van de bezoeker geen mbox vraag maken. Apparaatgrafiek bevindt zich momenteel in bètaversie. Deze instelling is ingesteld op <span class="codeph"> false </span> standaard, maar moet worden ingesteld op <span class="codeph"> true </span> als u Apparaatgrafiek gebruikt.</p> </li> 
-      <li id="li_663462C0680049F89CA8FE1853F31807"> <p>Toegevoegd <span class="codeph"> CustomEvent </span> steun voor het kennisgevingsmechanisme. Eerder <span class="codeph"> at.js </span> gebeurtenismeldingsmechanisme kan niet worden gebruikt via standaard-DOM-API's, zoals <span class="codeph"> document.addEventListener() </span>. Nu kunt u <span class="codeph"> document.addEventListener() </span> om te abonneren op <span class="codeph"> at.js </span> gebeurtenissen, zoals aanvraaggebeurtenissen en gebeurtenissen voor het renderen van inhoud. </p> </li> 
+      <li id="li_663462C0680049F89CA8FE1853F31807"> <p>Toegevoegd <span class="codeph"> CustomEvent </span> steun voor het kennisgevingsmechanisme. Eerder <span class="codeph"> at.js </span> Het mechanisme voor gebeurtenismeldingen kan niet worden gebruikt via standaard-DOM-API's, zoals <span class="codeph"> document.addEventListener() </span>. Nu kunt u <span class="codeph"> document.addEventListener() </span> om te abonneren op <span class="codeph"> at.js </span> gebeurtenissen, zoals request-gebeurtenissen en content rendering-gebeurtenissen. </p> </li> 
       <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>Oplossing voor een probleem met betrekking tot aanbiedingen die zijn gemaakt in Visual Experience Composer (VEC). Vóór deze release heeft Target de kiezers verborgen en deze alleen niet verborgen wanneer alle kiezers overeenkomen. In <span class="codeph"> at.js </span> 0.9.2 De kiezers worden door het doel verborgen zodra ze overeenkomen. </p> </li> 
      </ul> </p> <p>Zie voor meer informatie <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js - Versiedetails </a>. </p> </td> 
   </tr> 
@@ -2703,7 +2711,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Doelbezoekers gedurende een specifieke periode </td> 
-   <td colname="col2"> <p>Begin- en einddatums toevoegen voor een publiek. </p> <p>Met het nieuwe gecombineerde, ad-hocpubliek dat hierboven is vermeld, kunt u bijvoorbeeld low-spenders met specifieke inhoud aanspreken gedurende de drie dagen voorafgaand aan de Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag. </p> <p>Zie voor meer informatie <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Tijdschema </a>. </p> </td> 
+   <td colname="col2"> <p>Begin- en einddatums toevoegen om een publiek als doel in te stellen. </p> <p>Met het nieuwe gecombineerde, ad-hocpubliek dat hierboven is vermeld, kunt u bijvoorbeeld low-spenders met specifieke inhoud aanspreken gedurende de drie dagen voorafgaand aan de Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag. </p> <p>Zie voor meer informatie <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Tijdschema </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Slimme verzamelingen opslaan </td> 
@@ -2753,8 +2761,8 @@ De Adobe Target Standard/Premium 16.8.1-release (23 augustus 2016) bevat de volg
    <td colname="col2"> <p>Schakel de <span class="wintitle"> Enhanced Experience Composer </span> op het niveau van de rekening (geldt voor alle activiteiten die in de rekening worden gecreëerd) of op het niveau van de individuele activiteit. </p> <p>Eerder kon u de Enhanced Experience Composer alleen op accountniveau in- en uitschakelen. </p> <p>Zie voor meer informatie <a href="/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Ervaringen </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Automated Personalization: prestatierapport van de aanbieding </p> </td> 
-   <td colname="col2"> <p>Download een prestatierapport over de aanbieding met alle succesmaatstaven van Automated Personalization. </p> </td> 
+   <td colname="col1"> <p class="premium">Automated Personalization: prestatierapport voor aanbieding </p> </td> 
+   <td colname="col2"> <p>Download een prestatierapport over de aanbieding met alle succesmaatstaven van Automated Personalization-activiteiten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2782,7 +2790,7 @@ De volgende bekende problemen zijn gemeld:
 
 * Enkele UI-tekst voor de [!UICONTROL Category Affinity] wordt alleen in het Engels weergegeven. De tekst in andere talen zal in september beschikbaar zijn [!DNL Target] vrijgeven.
 
-### Wijziging van het streefcijfer voor Platforms (juli 2016) {#section_09C18773707B4059852A41C764F817E4}
+### Wijzigingen in streefcijfer Platform (juli 2016) {#section_09C18773707B4059852A41C764F817E4}
 
 <table id="table_33B60910EAE24BAFA778F280F72FB683"> 
  <thead> 
@@ -2813,7 +2821,7 @@ De Adobe Target Standard/Premium 16.7.1-release (21 juli 2016) bevat de volgende
  <tbody> 
   <tr> 
    <td colname="col1"> Prioriteitsinstellingen voor activiteiten </td> 
-   <td colname="col2"> <p>U kunt activiteit prioritaire niveaus van 0-999 nu plaatsen om voor fijnere controle toe te staan over welke activiteitenvertoningen als de veelvoudige activiteiten aan de zelfde plaats met het zelfde publiek worden toegewezen. </p> <p>Deze optie moet zijn ingeschakeld in <span class="wintitle"> Beheer </span> &gt; <span class="wintitle"> Rapportage </span> . </p> <p>De optie Fine-grained priority is van toepassing op A/B Test-, Automated Personalization-, Experience Targeting- en Multivariate Test-activiteiten. </p> <p>Raadpleeg de volgende onderwerpen voor meer informatie: </p> <p> 
+   <td colname="col2"> <p>U kunt activiteit prioritaire niveaus van 0-999 nu plaatsen om voor fijnere controle toe te staan over welke activiteitenvertoningen als de veelvoudige activiteiten aan de zelfde plaats met het zelfde publiek worden toegewezen. </p> <p>Deze optie moet zijn ingeschakeld in <span class="wintitle"> Administratie </span> &gt; <span class="wintitle"> Rapportage </span> . </p> <p>De optie Fine-grained priority is van toepassing op A/B Test, Automated Personalization, Experience Targeting en Multivariate Test. </p> <p>Raadpleeg de volgende onderwerpen voor meer informatie: </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
       <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B-test: </b> <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Doelstellingen en instellingen </a> </li> 
       <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automated Personalization: </b> <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </li> 
@@ -2839,7 +2847,7 @@ De Adobe Target Standard/Premium 16.7.1-release (21 juli 2016) bevat de volgende
    <td colname="col2"> <p>Element-kiezers kunnen nu worden gebaseerd op klassen of id's in Automated Personalization en Multivariate Test-activiteiten. In vorige versies was deze optie alleen beschikbaar voor A/B-testactiviteiten. </p> <p>Zie voor meer informatie <a href="/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local"> Elementkiezers die worden gebruikt in de composer voor visuele ervaring </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommendations: Overeenkomende inhoud </td> 
+   <td colname="col1" class="premium"> Recommendations: overeenkomsten met inhoud </td> 
    <td colname="col2"> <p> Gebruik de regels voor gelijkenis met inhoud om aanbevelingen te doen op basis van item- of mediakenmerken. </p> </td> 
   </tr> 
  </tbody> 
@@ -2879,11 +2887,11 @@ Deze release bevat de volgende oplossingen:
 De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is geselecteerd voor pagina A in een activiteit met meerdere pagina&#39;s, wordt JavaScript overal uitgeschakeld, ook al is JavaScript uitschakelen niet geselecteerd voor andere pagina&#39;s.
-* Probleem met voorbeeld-URL&#39;s voor ervaringen met omleiding. Als tijdelijke oplossing klikt u in de Experience Composer op **[!UICONTROL Configure]** kiest u **[!UICONTROL Multiple Audiences]** en toevoegen **[!UICONTROL All visitors]** als het enige publiek. Sla je activiteit verder op. Dit verandert niets aan de levering van uw activiteit, maar staat voorproef toe om te werken. Dit zal worden vastgesteld in de release van Adobe Target in juli.
+* Probleem met voorbeeld-URL&#39;s voor ervaringen met omleiding. Als tijdelijke oplossing klikt u in de Experience Composer op **[!UICONTROL Configure]**, kiest u **[!UICONTROL Multiple Audiences]** en toevoegen **[!UICONTROL All visitors]** als het enige publiek. Sla je activiteit verder op. Dit verandert niets aan de levering van uw activiteit, maar staat voorproef toe om te werken. Dit zal worden vastgesteld in de release van Adobe Target in juli.
 
 * De documentatie toont het verwachte gedrag voor Redirect URL checkbox. Vanwege een bug wordt het selectievakje echter niet standaard ingeschakeld weergegeven. Dit gebrek zal spoedig worden opgelost.
 
-  Als u deze optie wilt controleren in een bestaande activiteit met een omleidingsvoorstel, gebruikt u de volgende tijdelijke oplossing:
+  Gebruik de volgende tijdelijke oplossing om deze optie te controleren in een bestaande activiteit met een omleidingsvoorstel:
 
    1. Open het pop-upvenster Omleiden naar URL.
    1. Wijzig de URL in een dummy-URL en sla deze op.
@@ -2916,10 +2924,10 @@ De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Aangepaste Recommendations-algoritmen </td> 
-   <td colname="col2"> <p>Aangepaste algoritme-toewijzingen kunnen worden geüpload in een CSV-bestand. Het is niet meer nodig om de op XML gebaseerde API te gebruiken. </p> <p>Zie <a href="/help/main/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local"> Aangepaste criteria uploaden </a>. </p> </td> 
+   <td colname="col2"> <p>U kunt aangepaste algoritmetoewijzingen uploaden in een CSV-bestand. Het is niet meer nodig om de op XML gebaseerde API te gebruiken. </p> <p>Zie <a href="/help/main/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local"> Aangepaste criteria uploaden </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Analyses voor doel: Analysescherm </td> 
+   <td colname="col1"> Analyses voor doel: Analytics tracking-server </td> 
    <td colname="col2"> <p>Voor een correcte rapportering moet u een volgserver opgeven wanneer u activiteiten maakt of bewerkt die Analytics for Target (A4T) gebruiken. Bestaande activiteiten worden uitgevoerd met de huidige instellingen. </p> <p>Zie <a href="/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823" format="dita" scope="local"> Een Analytics Tracking Server gebruiken </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2930,11 +2938,11 @@ De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende 
       <li id="li_A8CCDE3EFF25430580E6C372000CF964">DTM gebruiken om Target te implementeren </li> 
       <li id="li_8897F7B5930B448D87274CEDFCC75AE4">Een multivariatietest instellen </li> 
       <li id="li_2573DF52CE974ED0AF9EA433C97BC4C0">Een A/B-activiteit maken </li> 
-      <li id="li_52F28040D54D43E787B763E6AA998614">Werken met activiteitstypen </li> 
+      <li id="li_52F28040D54D43E787B763E6AA998614">Activiteitstypen </li> 
       <li id="li_577C8DDEB4CE429CA3C14BE5655F6E11">Instellingen voor activiteit configureren </li> 
       <li id="li_2F7FCA657FD04E02ADD6E6964A8EA1F0">Een activiteit als doel instellen </li> 
       <li id="li_A08B8AFF48764D1B9EA706977F72AA66">Soorten publiek maken </li> 
-      <li id="li_493CDC3BEA5F4EA0821B971579177E03">Soorten publiek gebruiken </li> 
+      <li id="li_493CDC3BEA5F4EA0821B971579177E03">Gebruik van publiek </li> 
       <li id="li_19045C86E1524649B56F82416934EF13">De inhoudsbibliotheek gebruiken </li> 
       <li id="li_8E89F3691A6F4400A2DFDFE5186DFA83">Profielscripts gebruiken </li> 
       <li id="li_2EBB2B61BFA24F5FB858C0551AB20F70">Accountvoorkeuren instellen </li> 
@@ -2966,7 +2974,7 @@ Verbeteringen om het A4T-inrichtingsproces te verbeteren.
 De volgende bekende problemen zijn gemeld:
 
 * Wanneer JavaScript uitschakelen is geselecteerd voor pagina A in een activiteit met meerdere pagina&#39;s, wordt JavaScript overal uitgeschakeld, ook al is JavaScript uitschakelen niet geselecteerd voor andere pagina&#39;s.
-* Probleem met voorbeeld-URL&#39;s voor ervaringen met omleiding. Als tijdelijke oplossing klikt u in de Experience Composer op **[!UICONTROL Configure]** kiest u **[!UICONTROL Multiple Audiences]** en toevoegen **[!UICONTROL All visitors]** als het enige publiek. Sla je activiteit verder op. Dit verandert niets aan de levering van uw activiteit, maar staat voorproef toe om te werken. Dit zal worden vastgesteld in de release van Adobe Target in juli.
+* Probleem met voorbeeld-URL&#39;s voor ervaringen met omleiding. Als tijdelijke oplossing klikt u in de Experience Composer op **[!UICONTROL Configure]**, kiest u **[!UICONTROL Multiple Audiences]** en toevoegen **[!UICONTROL All visitors]** als het enige publiek. Sla je activiteit verder op. Dit verandert niets aan de levering van uw activiteit, maar staat voorproef toe om te werken. Dit zal worden vastgesteld in de release van Adobe Target in juli.
 
 ### Nieuw [!DNL Target] Implementatiebibliotheek, 0.js 0.8.0 (5 mei 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -3010,8 +3018,8 @@ Deze release bevat de volgende functies en verbeteringen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Verbeteringen in gebruikersinterface </td> 
-   <td colname="col2"> <p>De gebruikersinterface is aanzienlijk gewijzigd in deze release. De belangrijkste wijzigingen zijn: </p> <p> 
+   <td colname="col1"> Verbeteringen gebruikersinterface </td> 
+   <td colname="col2"> <p>De gebruikersinterface is aanzienlijk gewijzigd in deze release. Een van de meest opvallende wijzigingen is: </p> <p> 
      <ul id="ul_28F382C60ADE43F5A3A4BD0CD5A5CE52"> 
       <li id="li_C47240826E5844D6843314F453F042FC">Navigatie is van links naar boven verplaatst </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Verbeterde dialoogvensters </li> 
@@ -3027,15 +3035,15 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Toevoegen <span class="codeph"> &amp;mboxTrace </span> op een URL vervangt aanbevelingen op die pagina met het zuiveren details, met inbegrip van informatie over gediende aanbevelingen, criteria, ontwerp, uitsluitingen, inbegrepen, bediende reserveaanbevelingen, en meer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommendations API: Een CSV uploaden voor de aangepaste criteria </td> 
+   <td colname="col1" class="premium"> Recommendations API: een CSV uploaden voor de aangepaste criteria </td> 
    <td colname="col2"> <p>U kunt een CSV voor de Aangepaste Criteria via API uploaden. </p> <p>Deze mogelijkheid wordt in een komende release toegevoegd aan de gebruikersinterface van Target Premium. </p>  </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommendations API: Nieuwe ontwerp-API's </td> 
+   <td colname="col1" class="premium"> Recommendations API: nieuwe ontwerp-API's </td> 
    <td colname="col2"> <p>Met de nieuwe ontwerp-API's kunt u uw Recommendations-ontwerpen beheren via de API. </p>  </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> AP: Metrische gegevens voor afhankelijk succes </td> 
+   <td colname="col1" class="premium"> AP: Afhankelijke succeswaarden </td> 
    <td colname="col2"> Automated Personalization ondersteunt nu de mogelijkheid om een succesmetrische waarde te beperken tot alleen tellen als al aan een eerdere succesmaatstaf is voldaan. <p>Zie voor meer informatie <a href="/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local"> Succeswaarden </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -3048,7 +3056,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Verbetering aangepaste code </td> 
-   <td colname="col2"> De aangepaste code kan nu de JavaScript-code in het dialoogvenster <span class="codeph"> &lt;head&gt; </span> tag. De uitvoering van code wacht niet langer op de <span class="codeph"> &lt;body&gt; </span> -tag aanwezig in DOM. Eerder was de kiezer het eerste element in de <span class="codeph"> &lt;body&gt; </span> tag. </td> 
+   <td colname="col2"> De aangepaste code kan nu de JavaScript-code in het dialoogvenster <span class="codeph"> &lt;head&gt; </span> -tag. De uitvoering van code wacht niet langer op de <span class="codeph"> &lt;body&gt; </span> -tag aanwezig in DOM. Eerder was de kiezer het eerste element in de <span class="codeph"> &lt;body&gt; </span> -tag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nieuwe instructievideo's </td> 
@@ -3083,7 +3091,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eerste weergave: </p> <p>Nieuwe doelimplementatiebibliotheek, at.js </p> </td> 
-   <td colname="col2"> <p> <p>Opmerking: Dit "First Look"-aanbod is beschikbaar via API-download. Het zal via de interface van het Doel in een aanstaande versie beschikbaar zijn. In de tussentijd kunt u de bibliotheek at.js downloaden, deze in uw omgeving testen en deze implementeren in de implementatie van het productiedoel. </p> </p> <p> at.js is een nieuwe implementatiebibliotheek voor Doel die voor zowel typische implementaties van het Web als enig-paginatoepassingen wordt ontworpen. </p></p> <p>Onder andere voordelen, verbetert at.js de tijden van de paginalading voor de implementaties van het Web, verbetert veiligheid, en verstrekt betere implementatieopties voor single-page toepassingen. </p> <p>at.js bevat de componenten die in target.js inbegrepen waren, zodat is er niet meer een vraag aan target.js. </p> <p>Houd rekening met het volgende wanneer u at.js implementeert: </p> <p> 
+   <td colname="col2"> <p> <p>Opmerking: deze "First Look"-aanbieding is beschikbaar via API-download. Het zal via de interface van het Doel in een aanstaande versie beschikbaar zijn. In de tussentijd kunt u de bibliotheek at.js downloaden, deze in uw omgeving testen en deze implementeren in de implementatie van het productiedoel. </p> </p> <p> at.js is een nieuwe implementatiebibliotheek voor Doel die voor zowel typische implementaties van het Web als enig-paginatoepassingen wordt ontworpen. </p></p> <p>Onder andere voordelen, verbetert at.js de tijden van de paginalading voor de implementaties van het Web, verbetert veiligheid, en verstrekt betere implementatieopties voor single-page toepassingen. </p> <p>at.js bevat de componenten die in target.js inbegrepen waren, zodat is er niet meer een vraag aan target.js. </p> <p>Houd rekening met het volgende wanneer u at.js implementeert: </p> <p> 
      <ul id="ul_8C50C669AA7B4464A5FDECFCFD8662ED"> 
       <li id="li_6065B208480D46178055B40A2654E0C6">Omleiding van composer voor visuele ervaring werkt niet. </li> 
       <li id="li_A2FABD3C21994511A45DED84283E526E">Internet Explorer-versies ouder dan 8 worden niet ondersteund. </li> 
@@ -3092,7 +3100,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Metrische gegevens voor afhankelijk succes </td> 
-   <td colname="col2"> <p>Deze eigenschappen verstrekken de optie per succes metrisch om iemand te tellen zoals het bereiken van metrisch succes slechts als zij eerder een verschillend succes metrisch hebben bereikt. </p> <p> Een test kan bijvoorbeeld de hoofdafbeelding op de startpagina veranderen. De markeerteken wil mogelijk alleen conversies tellen voor mensen die op de hoofdafbeelding hebben geklikt. De markator kan dus een succesmaatstaf instellen voor "geklikt op een homepage held" en een andere maatstaf voor aankoop. Vervolgens kan de markeerteken een regel toevoegen op de metrische waarde voor "kopen" om ervoor te zorgen dat bezoekers eerst de succesmaatstaf "geklikt op de held van de homepage" hebben bereikt. </p> <p> <p>Opmerking: Als het publiek dat zich op een plaats in succes metrisch richt wordt geplaatst, wordt deze eigenschap niet gesteund voor die metrisch. </p> </p> <p> De afhankelijke Metriek van het Succes wordt slechts gesteund in AB, XT, en activiteiten MVT. Automated Personalization- en Recommendations-ondersteuning is later beschikbaar. </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local"> Succeswaarden </a>. </p> </td> 
+   <td colname="col2"> <p>Deze eigenschappen verstrekken de optie per succes metrisch om iemand te tellen zoals het bereiken van metrisch succes slechts als zij eerder een verschillend succes metrisch hebben bereikt. </p> <p> Een test kan bijvoorbeeld de hoofdafbeelding op de startpagina veranderen. De markeerteken wil mogelijk alleen conversies tellen voor mensen die op de hoofdafbeelding hebben geklikt. De markator kan dus een succesmaatstaf instellen voor "geklikt op een homepage held" en een andere maatstaf voor aankoop. Vervolgens kan de markeerteken een regel toevoegen op de metrische waarde voor "kopen" om ervoor te zorgen dat bezoekers eerst de succesmaatstaf "geklikt op de held van de homepage" hebben bereikt. </p> <p> <p>Opmerking: als doelpubliek op een locatie in een succesmetrische modus is ingesteld, wordt deze functie niet ondersteund voor die metrische code. </p> </p> <p> De afhankelijke Metriek van het Succes wordt slechts gesteund in AB, XT, en activiteiten MVT. Automated Personalization- en Recommendations-ondersteuning is later beschikbaar. </p> <p>Zie voor meer informatie <a href="/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local"> Succeswaarden </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verbeteringen in de bruikbaarheid automatisch toewijzen </td> 
@@ -3162,7 +3170,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Hostgroepen selecteren in rapporten </td> 
-   <td colname="col2"> <p>De groepen van de gastheer zijn beschikbaar in rapporten. </p> <p> <p>Opmerking: Deze optie is niet beschikbaar voor Automated Personalization. </p> </p> </td> 
+   <td colname="col2"> <p>De groepen van de gastheer zijn beschikbaar in rapporten. </p> <p> <p>Opmerking: deze optie is niet beschikbaar voor Automated Personalization. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ondersteuning voor Internet Explorer 11 </td> 
@@ -3170,7 +3178,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> Het Interval van het Vertrouwen van de mening in de rapporten van het Doel voor ononderbroken variabelen </td> 
-   <td colname="col2"> <p>Toon de Waaier van het Interval van het Vertrouwen voor het opbrengstmetrische type (RPV, AOV, Verkoop, Orders), en voor betrokkenheidsmetriek. </p> <p>Bijvoorbeeld, als RPV = 200.00 en CI Waaier = 50.00, dan zou dit voor RPV moeten worden getoond: 200,00 +/- 50,00 </p> <p>Deze wijziging is van toepassing op tests voor A/B, Experience Targeting en Multivariate. </p> <p>Zie <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> Vertrouwensniveau en betrouwbaarheidsinterval </a>. </p> </td> 
+   <td colname="col2"> <p>Toon de Waaier van het Interval van het Vertrouwen voor het opbrengstmetrische type (RPV, AOV, Verkoop, Orders), en voor betrokkenheidsmetriek. </p> <p>Bijvoorbeeld, als RPV = 200.00 en CI Waaier = 50.00, dan zou dit voor RPV moeten worden getoond: 200.00 +/- 50.00 </p> <p>Deze wijziging is van toepassing op tests voor A/B, Experience Targeting en Multivariate. </p> <p>Zie <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> Vertrouwensniveau en betrouwbaarheidsinterval </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verbetering van URL-regels voor Visual Experience Composer </td> 
@@ -3178,14 +3186,14 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: </p> <p>Wijziging in algemene mbox-leveringscodering </p> </td> 
-   <td colname="col2"> <p>Wanneer u een ontwerp maakt, is het nu de standaardinstelling om een HTML-ontwerp om te zetten in een <span class="codeph"> &lt;div&gt; </span> element. </p> <p>Voor informatie over het maken van een ontwerp raadpleegt u <a href="/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Een ontwerp maken </a>. </p> </td> 
+   <td colname="col2"> <p>Wanneer u een ontwerp maakt, is het nu de standaardinstelling om een HTML-ontwerp om te zetten in een <span class="codeph"> &lt;div&gt; </span> element. </p> <p>Ga voor informatie over het maken van ontwerpen naar <a href="/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Een ontwerp maken </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>LTV (Life Time Value) machine learningversterkingtechniek </p> </td> 
    <td colname="col2"> <p>Dit nieuwe algoritme concentreert zich op lange termijn omzetting over vele zittingen in plaats van zich op het verbeteren van omzetting enkel in deze zitting. Deze techniek is geschikt voor sites met veel terugkerende bezoekers, omdat deze de totale inkomsten optimaliseert voor de volledige interactie met de bezoeker. </p> <p>Zie <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Verbetering: Doelgerichtheid toestaan op hash-fragmenten (#) </p> </td> 
+   <td colname="col1"> <p>Verbetering: focus op hash-fragmenten (#) toestaan </p> </td> 
    <td colname="col2"> <p>U kunt nu richten op het gedeelte van een URL dat volgt op een hash (#). </p> <p>Zie <a href="/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Dezelfde ervaring opnemen op vergelijkbare pagina's </a> en andere relevante onderwerpen. </p> </td> 
   </tr> 
   <tr> 
@@ -3254,7 +3262,7 @@ Deze release bevat de volgende functies en verbeteringen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Er zijn meerdere bedrijven beschikbaar wanneer u Analytics selecteert als rapportagebron voor Target. </p> </td> 
-   <td colname="col2"> <p>Wanneer u Analytics selecteert als de rapporteringsbron voor Target, selecteert u een Analytics-rapportsuite die doelactiviteitgegevens ontvangt. Hiervoor kiest u eerst een van de Analytics-bedrijven waaraan uw account is gekoppeld en selecteert u vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht voor verbinding met Adobe Target, zijn beschikbaar voor selectie. Als u de rapportsuite(s) die u verwacht niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de Adobe Experience Cloud om het opnieuw te proberen. Neem contact op met de klantenservice als de rapportsuite nog steeds ontbreekt in de lijst. </p> </td> 
+   <td colname="col2"> <p>Wanneer u Analytics selecteert als de rapporteringsbron voor Target, selecteert u een Analytics-rapportsuite die doelactiviteitgegevens ontvangt. Hiervoor kiest u eerst een van de Analytics-bedrijven waaraan uw account is gekoppeld en selecteert u vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht om verbinding te maken met Adobe Target, zijn beschikbaar voor selectie. Als u de rapportsuite(s) die u verwacht niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de Adobe Experience Cloud om het opnieuw te proberen. Neem contact op met de klantenservice als de rapportsuite nog steeds ontbreekt in de lijst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nieuwe ingebouwde opties voor het maken van publiek </p> </td> 
@@ -3274,7 +3282,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p> De rangorde in Recommendations is veranderd voor criteria. Deze wijziging is van invloed op bestaande Recommendations. </p> <p> Gebruik kenmerkweging om het algoritme te verschuiven. Marketers kunnen het algoritme beïnvloeden op basis van een belangrijke beschrijving of metagegevens over de inhoudscatalogus. Pas een hogere weging toe op deze onverkochte artikelen, zodat deze vaker in de aanbeveling worden weergegeven. Niet-verkochte objecten worden niet volledig uitgesloten, maar ze worden minder vaak weergegeven. Er kunnen meerdere wegingen worden toegepast op hetzelfde algoritme en de wegingen kunnen in de aanbeveling op gesplitst verkeer worden getest. </p> <p>Deze nieuwe gewichten zijn automatisch toegepast op alle activiteiten. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Tijd instellen voor Feed-verwerking </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Tijd instellen voor voederverwerking </p> </td> 
    <td colname="col2"> <p>Geef de tijd op waarop u een feed wilt bijwerken. </p> <p>Zie <a href="/help/main/c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local"> Feed maken </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -3297,11 +3305,11 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Er zijn verschillende filters toegevoegd om u te helpen de activiteiten weer te geven die u het interessantst vindt in de lijst Activiteiten. </p> <p>Zie <a href="/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activiteiten </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Verbetering: Configuratie van relevante criteria voor de industrie </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Verbetering: voor de industrie relevante configuratie van criteria </p> </td> 
    <td colname="col2"> <p>Niet-relevante opties tijdens de installatie zijn verwijderd. In het verleden, waren sommige opstellingsopties voor sommige industrie verticale als, zoals Media, niet altijd relevant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Nieuwe criteria voor Buiten-de-box </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Nieuwe criteria buiten de box </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_47E67312A04E414EB797F9AE2A1F7599"> 
       <li id="li_5EDF9006145B4498B2EAD95D642057C5">Meer video's als deze </li> 
@@ -3312,7 +3320,7 @@ Deze release bevat de volgende functies en verbeteringen:
      </ul> </p> <p>Zie <a href="/help/main/c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteria </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Verbetering: Verbeterde rapportdetails die worden weergegeven wanneer u Analytics als rapportbron gebruikt. </td> 
+   <td colname="col1"> Verbetering: verbeterde rapportdetails die worden weergegeven wanneer Analytics wordt gebruikt als uw rapportbron. </td> 
    <td colname="col2"> <p>De details die door gebrek in een rapport van de Analyse wanneer het gebruiken van A4T worden getoond passen nu de details aan die in het rapport van het Doel worden getoond. </p> </td> 
   </tr> 
  </tbody> 
@@ -3379,8 +3387,8 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p> Ondersteuning voor de omleiding biedt functionaliteit van Target Classic die is toegevoegd in de formuliergebaseerde workflow voor het maken van activiteiten op basis van Target Standard. </p> <p>Zie <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Formuliergebaseerde Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Verbetering: Ervaar URL's in activiteiten die geen onsite cookie meer gebruiken </td> 
-   <td colname="col2"> <p> De ervaring URLs beschikbaar per activiteit is nu betrouwbaarder. Kopieer eenvoudig de URL's en deel deze met andere teamleden, zelfs als ze Adobe Target niet gebruiken. </p> <p> <p>Opmerking: Bijgewerkte ervaring URLs werkt slechts aan activiteiten die na 30 juli 2015 worden gecreeerd. Oudere activiteiten blijven gebruikmaken van de voorbeeldfunctionaliteit op basis van cookies. </p> </p> </td> 
+   <td colname="col1"> Verbetering: beleving van URL's in activiteiten gebruikt niet langer onsite cookie </td> 
+   <td colname="col2"> <p> De ervaring URLs beschikbaar per activiteit is nu betrouwbaarder. Kopieer eenvoudig de URL's en deel deze met andere teamleden, zelfs als ze Adobe Target niet gebruiken. </p> <p> <p>Opmerking: URL's met bijgewerkte ervaringen werken alleen aan activiteiten die na 30 juli 2015 zijn gemaakt. Oudere activiteiten blijven gebruikmaken van de voorbeeldfunctionaliteit op basis van cookies. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Verbetering van de rapportage voor Analytics als rapportagebron voor Target </p> </td> 
@@ -3422,7 +3430,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> Profielscripts maken en bewerken </td> 
-   <td colname="col2"> <p>Profielscripts voeren profielkenmerk 'catchers' uit op elke aanvraag van een box. Wanneer een mbox verzoek wordt ontvangen, stelt het Doel om het even welke relevante profielmanuscripten in werking, bepaalt welke activiteit zou moeten lopen, en toont inhoud die aan die activiteit en die ervaring aangewezen is, dan het succes van de activiteit volgt. Op deze manier kunt u informatie over het bezoek bijhouden, zoals de locatie, het tijdstip van de bezoeker, het aantal keren dat de bezoeker naar de site is geweest, als hij of zij voor en op de site heeft gekocht. Deze informatie wordt vervolgens toegevoegd aan het profiel van de bezoeker, zodat u de activiteiten van die bezoeker op uw site beter kunt bijhouden. </p> <p>Zie <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profielkenmerken </a>. 
+   <td colname="col2"> <p>Profielscripts voeren profielkenmerk 'catchers' uit op elke aanvraag van een box. Wanneer een mbox verzoek wordt ontvangen, stelt het Doel om het even welke relevante profielmanuscripten in werking, bepaalt welke activiteit zou moeten lopen, en toont inhoud die aan die activiteit en die ervaring aangewezen is, dan het succes van de activiteit volgt. Op deze manier kunt u informatie over het bezoek bijhouden, zoals de locatie, het tijdstip van de bezoeker, het aantal keren dat de bezoeker naar de site is geweest, als hij of zij voor en op de site heeft aangeschaft. Deze informatie wordt vervolgens toegevoegd aan het profiel van de bezoeker, zodat u de activiteiten van die bezoeker op uw site beter kunt bijhouden. </p> <p>Zie <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profielkenmerken </a>. 
      <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
@@ -3434,7 +3442,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Download gegevens in de CSV-indeling, zodat u deze snel kunt importeren in Excel of andere programma's voor gegevensanalyse. Deze functie werkt voor A/B-, Experience Targeting- en Multivariate-activiteiten. </p> <p>Zie <a href="/help/main/c-reports/reports.md#section_3099BC87DCAE46A2B075E1FF5B6552A6" format="dita" scope="local"> Rapporten downloaden </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Rijke tekst en HTML-bewerking in Visual Experience Composer </td> 
+   <td colname="col1"> Rijke tekst en HTML die in Visuele Composer van de Ervaring uitgeven </td> 
    <td colname="col2"> <p>De het formatteren van de tekst opties zijn beschikbaar wanneer het uitgeven van tekst en HTML voor A/B en Ervaring gerichte activiteiten in de Composer van de Visuele Ervaring. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Wanneer u HTML wijzigt, kunt u schakelen tussen de codeweergave en de rijke bewerkingsweergave van de HTML. </p> <p>Zie <a href="/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor composer visuele ervaring </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -3462,7 +3470,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>U kunt uw client-API-token instellen vanuit Recommendations Premium. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Verbetering: Veelgebruikte URL's </td> 
+   <td colname="col1"> Verbetering: veelgebruikte URL's </td> 
    <td colname="col2"> Wanneer u een URL voor een activiteit of een nieuwe pagina binnen een activiteit invoert, wordt in een menu de meest recente en meest gebruikte URL's weergegeven. </td> 
   </tr> 
   <tr> 
@@ -3501,7 +3509,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p> Met de fijnkorrelige opties kunt u bepalen hoe u succesmetingen kunt tellen. U kunt onder andere de metrische waarde per impositie of één keer per bezoeker tellen en kiezen of u de gebruiker in de activiteit wilt houden of deze wilt verwijderen. Dit is gelijk aan de "geavanceerde opties" voor succesmetriek die beschikbaar zijn in Target Classic. </p> <p>Zie <a href="/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local"> Succeswaarden </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Verbetering: Experience Targeting Experience limit removed. </td> 
+   <td colname="col1"> Verbetering: ervaringslimiet voor doelgroep verwijderd. </td> 
    <td colname="col2"> De vorige limiet van tien ervaringen in het praktijkgericht is opgeheven. </td> 
   </tr>  
   <tr> 
@@ -3509,11 +3517,11 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> Wanneer een bezoeker van een site zich halverwege de sessie aanmeldt en een 3d-partyId krijgt, zijn alle eerder geladen profielkenmerken die zijn gekoppeld aan de derde partijId nu direct beschikbaar. Zie <a href="/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Bezoekerprofiel </a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommendations Premium: Zoeken in factnaam </td> 
+   <td colname="col1" class="premium"> Recommendations Premium: zoeken op facetnaam </td> 
    <td colname="col2"> U kunt nu zoeken naar een facetnaam. </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Automated Personalization: Metrische tracking na het doel </td> 
+   <td colname="col1" class="premium"> Automated Personalization: metrische tracking na het doel </td> 
    <td colname="col2"> <p> Eerder startte Target een ervaring toen de bezoeker het modelleringsdoel bereikte. Gebruikers kunnen nu in de activiteit blijven voor traceringsdoeleinden nadat ze het modelleringsdoel hebben bereikt. </p> <p> Bijvoorbeeld, vaak wordt een activiteit van Automated Personalization gebruikt om kliktarieven te verbeteren, en dat wordt geplaatst als modelleringsdoel. Nochtans, is het belangrijk om te zien hoe de verhoogde klikkoersen tot definitieve omzetting leiden, zodat is het volgen door de definitieve omzetting essentieel. </p> Zie <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </td> 
   </tr> 
  </tbody> 
@@ -3554,15 +3562,15 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>U kunt Analytics nu gebruiken als een rapporteringsbron voor de activiteiten van het Targeting van de Ervaring. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization: Visuele indicatie van modelstatus </p> </td> 
-   <td colname="col2"> <p> Wanneer een voorspellend model voldoet aan de vereiste kwaliteitscriteria en geldig wordt geacht, wordt het geschikt geacht en gebruikt om een gepersonaliseerde score voor offer decisioning te berekenen. Een klokpictogram verandert in een vinkje wanneer het model klaar is en het Doel kan beginnen met het leveren van gepersonaliseerde inhoud. Aangezien de lift pas wordt verwacht nadat de modellen gereed zijn, kunt u met de visuele indicatie de juiste verwachting instellen. Gebruik de verkeersschatter in Visuele Composer van de Ervaring om een richtlijn te krijgen van wanneer de modellen klaar zullen zijn. </p></td> 
+   <td colname="col1" class="premium"> <p>Automated Personalization: visuele indicatie van modelstatus </p> </td> 
+   <td colname="col2"> <p> Wanneer een voorspellend model voldoet aan de vereiste kwaliteitscriteria en geldig wordt geacht, wordt het als gereed beschouwd en wordt het gebruikt om een gepersonaliseerde score voor offer decisioning te berekenen. Een klokpictogram verandert in een vinkje wanneer het model klaar is en het Doel kan beginnen met het leveren van gepersonaliseerde inhoud. Aangezien de lift pas wordt verwacht nadat de modellen gereed zijn, kunt u met de visuele indicatie de juiste verwachting instellen. Gebruik de verkeersschatter in Visuele Composer van de Ervaring om een richtlijn te krijgen van wanneer de modellen klaar zullen zijn. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Premium Recommendations: Bladeren en navigeren in de composer voor visuele ervaring </p> </td> 
+   <td colname="col1" class="premium"> <p>Premium Recommendations: Blader en navigeer in de Visual Experience Composer </p> </td> 
    <td colname="col2"> <p> Hiermee kunt u de composer voor visuele beleving op één pagina openen en vervolgens koppelingen en formulierverzendingen volgen om andere pagina's op uw site te bereiken, zoals een winkelwagentje. Zodra op de pagina u wilt testen, draai de Visuele Composer van de Ervaring terug naar "stelt"wijze samen en creeer uw ervaringen. U kunt bijvoorbeeld een bericht wijzigen op de verzendpagina en het vervolgens testen op de standaardpagina. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Premium Recommendations: Zoeken in gefactureerde catalogus </p> </td> 
+   <td colname="col1" class="premium"> <p>Premium Recommendations: zoekopdracht in gefacetteerde catalogus </p> </td> 
    <td colname="col2"> <p> Biedt een robuustere manier om uw catalogus te doorzoeken. Ook maakt het gemakkelijker om de onderzoeksresultaten tot zeer specifieke reeks producten te beperken. </p> </td> 
   </tr> 
   <tr> 
@@ -3627,14 +3635,14 @@ Deze release bevat de volgende functies en verbeteringen:
      <ul id="ul_6DC206CB52E34498BC762FCCF77807AA"> 
       <li id="li_B26568D642974F17B4B2D6E42CFDC5B9"> <p>Nieuwe modus Voorvertoning om ontwerpen weer te geven met JavaScript </p></li> 
       <li id="li_B8D1ADE874D244F198CBD3387ED3E310"> <p>Catalogus zoeken ondersteunt nu gratis zoeken naar Engelse talen </p> </li> 
-      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>Ondersteuning op accountniveau voor het invoeren van een statische, basis-URL die aan alle relatieve <span class="codeph"> entiteit.thumbnailUrl </span> waarden </p></td> 
+      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>Ondersteuning op accountniveau voor het invoeren van een statische, basis-URL die aan alle relatieve <span class="codeph"> entity.thumbnailUrl </span> waarden </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium"> Verbeteringen voor Recommendations Premium </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_1CF5F2D0CDE84DDC9C445B5CD878EEAA"> 
       <li id="li_EB225752776449C6B21C2B2514B508C5"> <p>Verbeteringen aan ontwerpvoorproef in VEC </p> </li> 
-      <li id="li_2CD8267EF166421DBB6EFBF704625848"> <p>Verbeteringen in de layout van out-of-the-box-ontwerpen </p> </li> 
+      <li id="li_2CD8267EF166421DBB6EFBF704625848"> <p>Verbeteringen in de layout van kant-en-klare ontwerpen </p> </li> 
       <li id="li_D737754C200844638B536A3BE02E9C5F"> Verzameling weergegeven in doeldiagram</li> 
      </ul> </p> </td> 
   </tr> 
@@ -3646,24 +3654,24 @@ Deze release bevat de volgende functies en verbeteringen:
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> Geef back-upregels op volgens criteria </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> FTPS voor productfeeds ondersteunen</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Aangepaste algoritmen worden nu automatisch weergegeven als criteria</li> 
-      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> Uurautomatische reïndexering van productcatalogi voor klanten zonder feeds </li> 
+      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> Uurautomatische herindeling van productcatalogi voor klanten zonder feeds </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Automated Personalization: Toegevoegde kwaliteitskoppelingen </p> </td> 
+   <td colname="col1" class="premium"> <p>Automated Personalization: koppelingen voor kwaliteitscontrole toegevoegd </p> </td> 
    <td colname="col2"> <p> U kunt nu een voorvertoning bekijken van de weergave van uw ervaringen bij levering. De mening en deelt verbindingen met uw AP ervaringen op uw plaats om een "ware voorproef"van de ervaringen buiten Composer van de Visuele Ervaring van het Doel te krijgen. </p> <p>Zie <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>MVT op basis van analysemogelijkheden: Voorvertoning van prestatierapport </p> </td> 
+   <td colname="col1"> <p>MVT met analysemogelijkheden: voorvertoning van prestatierapport </p> </td> 
    <td colname="col2"> <p>Wanneer het gebruiken van Analytics als rapporteringsbron voor multivariate tests, kunt u voorproef uw activiteiten MVT van het rapport van Prestaties. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> A/B-tests en ervaring gericht op: Activiteiten maken in drie stappen </p> </td> 
-   <td colname="col2"> <p> <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local"> A/B maken </a>en <a href="/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Gericht op ervaring </a> activiteit in drie stappen in plaats van vier. Deze verandering maakt het proces om deze activiteiten meer als werkschema van andere activiteitentypes, zoals Automated Personalization en Multivariate Tests te creëren. </p> </td> 
+   <td colname="col1"> <p> A/B-tests en -ervaring gericht op: driestappenstroom voor het creëren van activiteit </p> </td> 
+   <td colname="col2"> <p> <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local"> A/B maken </a>en <a href="/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Gericht op ervaring </a> activiteit in drie stappen in plaats van vier. Deze verandering maakt het proces om deze activiteiten meer als werkschema van andere activiteitentypes, zoals Automated Personalization en Multivariate Tests tot stand te brengen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analyses als rapportbron zijn beschikbaar voor de meeste typen activiteiten. </p> </td> 
-   <td colname="col2"> <p> De A/B met het activiteitstype Analytics bestaat niet meer. De optie om Analytics als uw rapporteringsbron te gebruiken is nu beschikbaar op de pagina van het Beleid &amp; van Montages voor alle activiteitstypes behalve Automated Personalization en het Targeting van de Ervaring. Dientengevolge, is er niet meer een afzonderlijk activiteitstype genoemd A/B Test met de Gegevens van de Analyse. </p> </td> 
+   <td colname="col2"> <p> De A/B met het activiteitstype Analytics bestaat niet meer. De optie om Analytics als uw rapporteringsbron te gebruiken is nu beschikbaar op de pagina van het Beleid &amp; van Montages voor alle activiteitstypes behalve Automated Personalization en de Gerichte ervaring. Dientengevolge, is er niet meer een afzonderlijk activiteitstype genoemd A/B Test met de Gegevens van de Analyse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Externe campagnes tonen in de lijst Standaardactiviteiten doel </p> </td> 
@@ -3674,7 +3682,7 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p> Mogelijkheid om het Rapport van de Controle van de Orde uit te voeren/te downloaden dat aan de rapporten van het Doel wordt toegevoegd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Bèta: A4T-lift en -betrouwbaarheid </p> </td> 
+   <td colname="col1"> <p>Bèta: A4T lift en vertrouwen </p> </td> 
    <td colname="col2"> <p> Optillen en vertrouwen zijn nu beschikbaar voor standaardmeetgegevens en aangepaste gebeurtenissen van Analytics. </p> </td> 
   </tr> 
  </tbody> 
@@ -3706,24 +3714,24 @@ Deze release bevat de volgende functies en verbeteringen:
    <td colname="col2"> <p>Inhoud die alleen op de muisaanwijzer wordt weergegeven, zoals vervolgmenu's en minikaarten, kan nu worden geselecteerd voor bewerking in de composer voor visuele ervaring. </p> <p>Zie <a href="/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Ervaringen </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Automated Personalization: Verkeersschatting </p> </td> 
+   <td colname="col1"> <p class="premium">Automated Personalization: verkeersschatting </p> </td> 
    <td colname="col2"> <p>De verkeersschatting, die voorheen alleen beschikbaar was bij het type multivariate testactiviteit, is nu beschikbaar voor Automated Personalization-activiteiten. </p> <p>Zie <a href="/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714" format="dita" scope="local"> Schatting van het Verkeer Vereist voor Succes </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Automated Personalization: Visuele voorvertoning </p> </td> 
+   <td colname="col1"> <p class="premium">Automated Personalization: visuele voorvertoning </p> </td> 
    <td colname="col2"> <p>Bekijk een visuele voorvertoning van elke inhoudscombinatie in de Visual Experience Composer. </p> <p>Zie <a href="/help/main/c-activities/t-automated-personalization/ap-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local"> Voorvertoning van ervaringen weergeven voor een Automated Personalization-test </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Recommendations: Verbeterde weergave van inhoud </p> </td> 
+   <td colname="col1"> <p class="premium">Recommendations: verbeterde weergave van inhoud </p> </td> 
    <td colname="col2"> <p>U kunt nu elk item zien dat in aanmerking komt voor een verzameling of uitsluiting wanneer u de verzameling weergeeft of bewerkt. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Recommendations: Verbeterde zoekresultaten </p> </td> 
+   <td colname="col1"> <p class="premium">Recommendations: betere zoekresultaten </p> </td> 
    <td colname="col2"> <p>Het totale aantal items dat aan elke zoekreeks voldoet, wordt weergegeven. </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Klantkenmerken uploaden in Adobe Analytics </p> </td> 
-   <td colname="col2"> <p>De gebruikers van Analytics die de gegevens van de ondernemingsklant in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangen kunnen die gegevens in Experience Cloud uploaden. </p> <p>Zodra de gegevens in de Experience Cloud zijn, kunt u, bijvoorbeeld, een publiekssegment in Analytics tot stand brengen die klantenattributen in de segmentdefinitie omvat, en dan dat publiek met Doel delen. </p> <p> <p>Opmerking: Het doel kan nog niet rechtstreeks onbewerkte klantkenmerken gebruiken. </p> </p></td> 
+   <td colname="col2"> <p>De gebruikers van Analytics die de gegevens van de ondernemingsklant in een gegevensbestand van het klantenrelatiebeheer (CRM) vangen kunnen die gegevens in Experience Cloud uploaden. </p> <p>Zodra de gegevens in de Experience Cloud zijn, kunt u, bijvoorbeeld, een publiekssegment in Analytics tot stand brengen die klantenattributen in de segmentdefinitie omvat, en dan dat publiek met Doel delen. </p> <p> <p>Opmerking: het doel kan nog niet rechtstreeks onbewerkte klantkenmerken gebruiken. </p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3733,7 +3741,7 @@ Deze release bevat de volgende functies en verbeteringen:
 Deze release bevat de volgende oplossingen:
 
 * Voor Analytics voor op Doel gebaseerde activiteiten, zijn de Lift en de kolommen van het Vertrouwen nu verborgen voor de metriek van de Analyse waar de berekeningen niet kunnen worden uitgevoerd.
-* Probleem verholpen waarbij de korte indeling van de `charset` metatag is niet herkend in de Enhanced Experience Composer
+* Probleem verholpen waarbij de korte indeling van het `charset` metatag is niet herkend in de Enhanced Experience Composer
 
 **Bekende problemen**
 
@@ -3752,7 +3760,7 @@ Deze release bevat de volgende functies en verbeteringen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p class="premium">Type nieuwe activiteit: Recommendations </p> </td> 
+   <td colname="col1"> <p class="premium">Nieuw type activiteit: Recommendations </p> </td> 
    <td colname="col2"> <p>Bij Recommendations-activiteiten worden automatisch producten of inhoud weergegeven die uw klanten interessant kunnen maken op basis van eerdere gebruikersactiviteiten. Recommendations helpt klanten om relevante objecten te sturen waarvan ze anders wellicht niet op de hoogte zijn. </p> <p>Recommendations is beschikbaar als onderdeel van de Target Premium-oplossing. Het is niet inbegrepen bij de Standaard van Doel zonder een vergunning van de Premie van het Doel. </p> </td> 
   </tr> 
  </tbody> 
@@ -3777,8 +3785,8 @@ Deze release bevat de volgende functies en verbeteringen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Type nieuwe activiteit: Multivariatietest </td> 
-   <td colname="col2"> <p> In een multivariate test met volledige factorial worden alle mogelijke combinaties van aanbiedingen in uw inhoudsgebieden vergeleken om u te helpen de best mogelijke combinatie van inhoud te bepalen. Uit de multivariatie-tests blijkt ook welke inhoud op welke gebieden de meeste activiteiten succesvol zijn. Een veelvoorkomend gebruik van multivariate tests is een volledige pagina te optimaliseren nadat u een A/B test hebt gebruikt om een optimale lay-out te bepalen. Met de multivariate test kunt u de afzonderlijke elementen op de pagina optimaliseren (zoals de hoofdafbeelding, kopregels of promotionele inhoud). </p> <p>Voor een inleidende video raadpleegt u <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external"> https://my.adobeconnect.com/p2k6u8iiu6l/ </a>. </p> </td> 
+   <td colname="col1"> Nieuw activiteitstype: multivariatietest </td> 
+   <td colname="col2"> <p> In een multivariate test met volledige factorial worden alle mogelijke combinaties van aanbiedingen in uw inhoudsgebieden vergeleken om u te helpen de best mogelijke combinatie van inhoud te bepalen. Uit de multivariatie-tests blijkt ook welke inhoud op welke gebieden de meeste activiteiten succesvol zijn. Een veelvoorkomend gebruik van multivariate tests is een volledige pagina te optimaliseren nadat u een A/B test hebt gebruikt om een optimale lay-out te bepalen. Met de multivariate test kunt u de afzonderlijke elementen op de pagina optimaliseren (zoals de hoofdafbeelding, kopregels of promotionele inhoud). </p> <p>Zie voor een inleidende video <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external"> https://my.adobeconnect.com/p2k6u8iiu6l/ </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Blader naar pagina's en pagina-elementen in de Visual Experience Composer </td> 
@@ -3825,7 +3833,7 @@ Deze release bevat de volgende functies en verbeteringen:
 |---|---|
 | Aanbiedingen omleiden | Leid een ervaring om naar een andere URL zodat u één pagina tegen een andere pagina kunt testen. Zie [Een omleidingsvoorstel maken](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA). |
 | Doelgerichtheid toepassen op succesmetriek | Kies een opgeslagen publiek dat u wilt toepassen op een succesmetrische methode. Met deze functie kunt u beperken wat acties tellen voor een bepaalde succesgebeurtenis. Een voorbeeld zou omzettingen kunnen beperken tot wanneer de orde meer dan $0 is, of slechts telend succes wanneer een gebruiker een bepaalde pagina in de zelfde zitting bekijkt zoals het ingaan van de activiteit. |
-| Automated Personalization: Selecteren en rapporteren op basis van RPV/AOV-meetgegevens | U kunt nu de RPV- en AOV-meetgegevens selecteren in de workflow voor het maken van ervaringen met Automated Personalization. Ga voor meer informatie over het maken van een Automated Personalization-activiteit naar [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9). |
+| Automated Personalization: selecteren en rapporteren op basis van RPV/AOV-meetgegevens | U kunt nu de RPV- en AOV-meetgegevens selecteren in de workflow voor het maken van ervaringen met Automated Personalization. Ga voor meer informatie over het maken van een Automated Personalization-activiteit naar [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9). |
 | Verbeterde besturingselementen voor machtigingen | Alleen gebruikers met de juiste machtigingen kunnen het publiek bewerken. |
 
 Deze release bevat de volgende verbeteringen:
@@ -3841,7 +3849,7 @@ Deze release bevat de volgende functies en verbeteringen:
 |---|---|
 | Invoegen en bewerken van JavaScript toestaan | De mogelijkheid om aangepaste JavaScript te bewerken en te injecteren toegevoegd in de ervaringseditor wanneer u **[!UICONTROL Edit HTML]** in het menu Handelingen. |
 | Automatisch publiek importeren | Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer een gebruiker de lijst met doelgroepen opent en het geïmporteerde publiek langer dan 10 minuten oud is. |
-| Meer HTML-aanbiedingen dan waarop kan worden gesynchroniseerd [!DNL Target Classic] | De voormalige 64 kB-limiet is verhoogd tot 256 kB. |
+| Grotere HTML-aanbiedingen dan waarop kan worden gesynchroniseerd [!DNL Target Classic] | De voormalige 64KB-limiet is verhoogd tot 256KB. |
 
 Deze release bevat de volgende oplossingen:
 
@@ -3871,7 +3879,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 * Probleem verholpen waardoor mbox-elementen niet konden worden ingevoegd.
 * Correctie van een fout die ervoor zorgde dat de conversies van de verbindingsklik niet werkten.
 * Oplossing voor een fout bij klikconversie die is genegeerd `target="_blank" functions.`
-* Probleem verholpen waarbij met klikken bijhouden werd genavigeerd buiten de pagina.
+* Probleem verholpen waarbij klikken bijhouden buiten de pagina navigeerde.
 
 ### Adobe [!DNL Target] 14.6.1 (25 juni 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
@@ -3905,7 +3913,7 @@ Deze release bevat de volgende nieuwe functies:
   </tr> 
   <tr> 
    <td colname="col1"> Meerdere activiteiten op één pagina </td> 
-   <td colname="col2"> <p>Inhoud van meerdere standaardactiviteiten van Target kan op één pagina worden geleverd vanaf één pagina <span class="keyword"> Doel </span> serveraanroep. </p> <p> <p>Opmerking: Dit is niet van invloed op de beoordeling van de Klassieke Doelprioriteiten. </p> </p><p>Voor informatie over hoe Doel bepaalt welke ervaring om te tonen wanneer de veelvoudige activiteiten de zelfde plaats op een pagina richten, zie <a href="/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local"> Prioriteit </a>. </p> </td> 
+   <td colname="col2"> <p>Inhoud van meerdere standaardactiviteiten van Target kan op één pagina worden geleverd vanaf één pagina <span class="keyword"> Doel </span> serveraanroep. </p> <p> <p>Opmerking: Dit heeft geen invloed op de beoordeling van de Klassieke prioriteiten van het doel. </p> </p><p>Voor informatie over hoe Doel bepaalt welke ervaring om te tonen wanneer de veelvoudige activiteiten de zelfde plaats op een pagina richten, zie <a href="/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local"> Prioriteit </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3944,15 +3952,15 @@ Deze release bevat de volgende nieuwe functies:
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Analytics-rapportage voor Adobe Target </td> 
-   <td colname="col2"> Adobe Analytics-klanten kunnen Analyse selecteren als de standaard rapportbron tijdens het <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> testprocedure </a>. Het selecteren van alle succesmetriek of publiek dat u wilt gebruiken om uw resultaten te filteren, is niet meer vereist. Binnen rapportering, kunt u om het even welk succes metrisch of publiekssegment selecteren dat in Analytics wordt bepaald en het retroactief toepassen op uw rapportering voor het uitgebreide filtreren en boor-down analyse van uw optimalisatieresultaten. <p> <p>Opmerking: Ga naar <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics-klanten kunnen Analyse selecteren als de standaard rapportbron tijdens het <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> testprocedure </a>. Het selecteren van alle succesmetriek of publiek dat u wilt gebruiken om uw resultaten te filteren, is niet meer vereist. Binnen rapportering, kunt u om het even welk succes metrisch of publiekssegment selecteren dat in Analytics wordt bepaald en het retroactief toepassen op uw rapportering voor het uitgebreide filtreren en boor-down analyse van uw optimalisatieresultaten. <p> <p>Opmerking: als u toegang tot deze functie wilt aanvragen, gaat u naar <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Master marketingprofiel in realtime publiek </td> 
-   <td colname="col2"> Gebruik het master marketingprofiel dat bezoeker-id's en -gegevens verenigt in één actionabel profiel voor gebruik in verschillende oplossingen. Met een selectievakje tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat is gemaakt in Analytics of Audience Manager, kan worden gebruikt voor doelbezoekers. <p> <p>Opmerking: Ga naar <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
+   <td colname="col2"> Gebruik het master marketingprofiel dat bezoeker-id's en -gegevens verenigt in één actionabel profiel voor gebruik in verschillende oplossingen. Met een selectievakje tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat is gemaakt in Analytics of Audience Manager, kan worden gebruikt voor doelbezoekers. <p> <p>Opmerking: als u toegang tot deze functie wilt aanvragen, gaat u naar <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ervaring voor activiteitstype </td> 
-   <td colname="col2"> <a href="/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Verschillende ervaringen op verschillende soorten publiek in één activiteit richten </a>. <p> <p>Opmerking: Dit verstrekt gelijkaardige functionaliteit aan de Landing de campagne van de Pagina in Target Advanced. </p> </p> </td> 
+   <td colname="col2"> <a href="/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Verschillende ervaringen op verschillende soorten publiek in één activiteit richten </a>. <p> <p>Opmerking: Deze functie biedt vergelijkbare functionaliteit als de campagne Landing Page in Target Advanced. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Testen van meerdere pagina's </td> 
@@ -4024,12 +4032,12 @@ Deze release bevat de volgende nieuwe functies:
    <td colname="col2"> <p> De Standaard van het doel verstrekt nu een lijst van activiteitenbotsingen. Een activiteitenbotsing komt voor wanneer de veelvoudige activiteiten opstelling zijn om inhoud aan de zelfde pagina te leveren. Als een activiteitenbotsing voorkomt, kunt u niet de verwachte inhoud op uw pagina zien omdat u een verschillende activiteit hebt ingegaan. </p> <p> Alle activiteiten op dezelfde URL worden vermeld, ongeacht de doelgroep in elke activiteit. </p> <p> Als uw activiteit botsingen bevat, a <span class="wintitle"> Botsingdetectie </span> is beschikbaar op de pagina met het activiteitenoverzicht. Open dit tabblad voor een lijst met activiteiten die botsen. Klik op een activiteit in de lijst om de overzichtspagina voor die activiteit weer te geven. </p> <p>Zie <a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Activiteitenconflicten </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Nieuwe doelopties: Profiel, gebruiker </td> 
+   <td colname="col1"> Nieuwe doelopties: Profiel, Gebruiker </td> 
    <td colname="col2"> U kunt nu profiel- en gebruikersparameters als doel instellen. Zie <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Soorten publiek </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Elementen invoegen </td> 
-   <td colname="col2"> <p>U kunt nu elk element aan uw pagina toevoegen en de bestaande inhoud wijzigen. Voeg tekst, code, lijsten en meer toe om geheel verschillende ervaringen te maken die u wilt testen. </p> <p>Zie <a href="/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor composer visuele ervaring </a>. </p> </td> 
+   <td colname="col2"> <p>U kunt nu elk element aan uw pagina toevoegen en de bestaande inhoud wijzigen. Voeg tekst, code, lijsten en nog veel meer toe om geheel andere ervaringen te maken die u wilt testen. </p> <p>Zie <a href="/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Opties voor composer visuele ervaring </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -4105,7 +4113,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 
 Deze release bevat de volgende oplossingen:
 
-* Probleem verholpen waarbij de metrische gegevens voor het bijhouden van klikken niet uit een activiteit zijn verwijderd als de URL voor de ervaring opnieuw is ingesteld.
+* Probleem verholpen waarbij de metrische gegevens voor het bijhouden van klikken niet uit een activiteit zijn verwijderd als de URL voor de gebruikerservaring opnieuw is ingesteld.
 * Probleem verholpen in de ervaringscomposer die ervoor zorgde dat de standaardervaring snel flitst voordat nieuwe inhoud wordt weergegeven tijdens het navigeren door ervaringen.
 
 Deze release bevat de volgende bekende problemen. Deze problemen worden in een volgende update opgelost.
@@ -4133,7 +4141,7 @@ Deze release bevat de volgende correcties en verbeteringen:
 * Probleem verholpen waarbij het bijwerken van inhoud van een bijgewerkte afbeelding zowel in Scene7 als in Target Advanced werd mislukt.
 * Probleem verholpen waarbij door het toepassen van een zoekfilter het publiek dat is geselecteerd in &quot;Soorten publiek voor rapportage&quot;, werd gewist.
 * Verbeterde grafieken worden standaard op uurresultaten toegepast wanneer een test minder dan twee dagen actief is geweest.
-* Probleem verholpen waarbij het kopiëren van een niet-gesynchroniseerde activiteit mislukte.
+* Probleem opgelost waarbij het kopiëren van een niet-gesynchroniseerde activiteit mislukte.
 * Toegevoegde functionaliteit voor toetsenbordinvoer voor vervolgkeuzemenu&#39;s voor locatie.
 * Verbeterde de foutmelding die wordt weergegeven wanneer u een aanbieding verwijdert die in een activiteit wordt gebruikt.
 

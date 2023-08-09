@@ -6,9 +6,9 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '479'
 ht-degree: 11%
 
 ---
@@ -25,19 +25,15 @@ De geplande upgrade van de Edge-infrastructuur vereist extra IP of domeinen die 
 
 Zie voor meer informatie [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} in de *Adobe Target Developer Guide*.
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 juli)
-
-Deze release is beschikbaar volgens het volgende schema:
-
-* **24 juli** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
-* **25 juli**: regio Azië-Stille Oceaan (APAC)
-* **26 juli**: Amerikaanse regio
+## [!DNL Target] Standaard/Premium 23.8.1 (9 augustus 2023)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Verbeterde zoekopdracht bij [navigeren door elementen met het DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in de [!UICONTROL Visual Experience Composer] (VEC) om schaduwDOM-elementen op te nemen. (TGT-45262)
-* Het probleem dat ervoor zorgde dat de [Bedekking wijzigen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) instellen dat de toepassing niet goed werkt. (TGT-45202)
-* Probleem verholpen waardoor sommige klanten activiteitenrapporten niet konden downloaden na ontvangst van het volgende foutbericht: &quot;Gebruiker is niet gemachtigd om het rapport te openen.&quot; (TGT-45724 &amp; TGT-45747)
+* Probleem verholpen waardoor activiteiten soms niet correct konden worden gesynchroniseerd, zoals getoond in &quot;[!UICONTROL Status]&quot; kolom op de [!UICONTROL Activity] lijstpagina. (TGT-46010 &amp; TGT-44831)
+* Het probleem waarbij &#39; &#39; soms werd voorkomen, is opgelost.[!UICONTROL View in Analytics]&quot;-koppeling wordt niet weergegeven op de [!UICONTROL Reports] pagina met activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-45808)
+* De presentatie van waarden in tabellen is aangepast en wordt weergegeven als percentages in plaats van als getallen met decimalen. Bijvoorbeeld 8% in plaats van 0,08. (TGT-45548)
+* Probleem verholpen waardoor klanten niet de toetsenbordfocus konden gebruiken om naar het volgende element in het dialoogvenster [!UICONTROL Goals & Settings] pagina voor [!UICONTROL Experience Targeting] (XT) activiteiten. (TGT-44526)
+* Probleem verholpen waarbij focus van het toetsenbord verloren ging nadat &quot;[!UICONTROL Add audiences]&quot; tijdens het maken van een activiteit. (TGT-44525)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
