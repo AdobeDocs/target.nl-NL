@@ -4,7 +4,7 @@ description: Meer informatie over de statistische berekeningen in de handleiding
 title: Hoe kan ik leren over de statistische berekeningen die worden gebruikt in [!UICONTROL A/B Test] Activiteiten?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Hier,
 
 Het betrouwbaarheidsinterval van de omrekeningskoers wordt intuïtief gedefinieerd als een bereik van mogelijke omrekeningskoersen dat consistent is met de onderliggende gegevens.
 
-Bij het uitvoeren van experimenten is de conversiesnelheid voor een bepaalde ervaring een *schatten* van de &quot;werkelijke&quot; omrekeningskoers. Om de onzekerheid in deze raming te kwantificeren, [!DNL Target] gebruikt een betrouwbaarheidsinterval. [!DNL Target] er wordt altijd een betrouwbaarheidsinterval van 95% gerapporteerd, wat betekent dat uiteindelijk 95% van de berekende betrouwbaarheidsintervallen de werkelijke omrekeningskoers van de ervaring bevat.
+Bij het uitvoeren van experimenten is de conversiesnelheid voor een bepaalde ervaring een *schatten* van de werkelijke omrekeningskoers. Om de onzekerheid in deze raming te kwantificeren, [!DNL Target] gebruikt een betrouwbaarheidsinterval. [!DNL Target] er wordt altijd een betrouwbaarheidsinterval van 95% gerapporteerd, wat betekent dat uiteindelijk 95% van de berekende betrouwbaarheidsintervallen de werkelijke omrekeningskoers van de ervaring bevat.
 
 Een 95% betrouwbaarheidsinterval van de omrekeningskoers *μ<sub>ν</sub>* wordt gedefinieerd als het waardebereik:
 
@@ -101,7 +101,7 @@ Deze berekening gebruikt de methode &quot;Delta&quot; en wordt beschreven [meer 
 
 ## [!UICONTROL Confidence]
 
-De laatste kolom toont het vertrouwen in een [!DNL Target] verslag. Het vertrouwen van een ervaring is een waarschijnlijkheid (uitgedrukt als percentage) om een minder extreem resultaat te behalen dan het resultaat dat wordt waargenomen, gezien de nulhypothese waar is. Wat p-waarden betreft, wordt het weergegeven vertrouwen *1 - p-waarde*. Intuïtief betekent een hoger vertrouwen dat het minder waarschijnlijk is dat de controle- en niet-controleervaring gelijke omrekeningskoersen hebben.
+De laatste kolom toont het vertrouwen in een [!DNL Target] verslag. Het vertrouwen van een ervaring is een kans (uitgedrukt als een percentage) om een resultaat te verkrijgen dat even extreem is als het resultaat dat wordt waargenomen, gezien de nulhypothese waar is. Wat p-waarden betreft, wordt het weergegeven vertrouwen *1 - p-waarde*. Intuïtief betekent een hoger vertrouwen dat het minder waarschijnlijk is dat de controle- en niet-controleervaring gelijke omrekeningskoersen hebben.
 
 In [!DNL Target], met twee staarten **T-test van Welch** tussen de testervaring en de controleervaring wordt uitgevoerd om te testen of de test- en controleervaringen hetzelfde zijn. Omdat we meestal niet weten of de grootte en variaties van de monsters van twee groepen hetzelfde zijn voordat we het experiment uitvoeren, en [!DNL Target] staat u ook toe om ongelijke percentages van verkeer te hebben die naar elke ervaring worden verzonden, veronderstellen wij niet dat de variantie voor elke ervaring gelijk is. Welch&#39;s t-test wordt dus gekozen in plaats van de t-test van Student.
 
