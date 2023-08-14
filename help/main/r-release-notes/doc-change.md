@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1489'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 14 augustus | [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Extra informatie om te verduidelijken dat het laden van een pagina op uw site met een lege waarde *niet* Verwijder het cookie QA uit de browser wanneer at.js 2.*x* wordt geïmplementeerd. |
+|  | [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | De definitie van &quot;Vertrouwen&quot; is bijgewerkt. |
+|  | [Aanbiedingen](/help/main/c-experiences/c-manage-content/manage-content.md) | Opmerking toegevoegd waarin wordt uitgelegd dat de aanbiedingen voor afbeeldingen geen deel uitmaken van de [!UICONTROL Enterprise User Permissions] model. |
+| 9 augustus | [Voorvertoning voor mobiele doelversie](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Bijgewerkt onderwerp met informatie over de huidige versies van [!DNL Adobe Experience Platform Mobile SDK]. |
 | 9 augustus | [Voorvertoning voor mobiele doelversie](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Bijgewerkt onderwerp met informatie over de huidige versies van [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde informatie over het volgende webinar, gepland voor 17 augustus 2023: *Strategisch voor maximale ROI-impact met gereedheid voor het piekseizoen*. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.8.1. |
@@ -27,7 +31,6 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 9 augustus | [Voorvertoning voor mobiele doelversie](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Bijgewerkt onderwerp met informatie over de huidige versies van [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde informatie over het volgende webinar, gepland voor 17 augustus 2023: *Strategisch voor maximale ROI-impact met gereedheid voor het piekseizoen*. |
 | 7 augustus | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Verduidelijkt informatie over gesteunde versies van at.js. |
 | 25 juli | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md#edge) | Extra informatie over de geplande upgrade van de Edge-infrastructuur die gepland is voor 9 augustus 2023. |
