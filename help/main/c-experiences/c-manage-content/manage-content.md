@@ -4,9 +4,9 @@ description: Leer hoe u code- en afbeeldingsaanbiedingen kunt beheren met de bib
 title: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanbieding en beeldaanbieding inhoud te beheren.
 
-1. Klikken **[!UICONTROL Offers]** om de bibliotheek te openen.
+1. Klikken **[!UICONTROL Offers]** de bibliotheek openen.
 
    De bibliotheek bevat de aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen gemaakt in [!DNL Target Classic] of andere oplossingen kunnen worden bewerkt in [!DNL Target Standard/Premium].
 
@@ -33,15 +33,15 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
    ![Opties voor codeaanbiedingen](assets/offer-picker-large.png)
 
-   De volgende opties zijn beschikbaar:
+   U kunt onder andere de volgende opties kiezen:
 
    * Weergeven (zie voor meer informatie [Definities van aanbiedingen weergeven](#section_6B059DD121434E6292CAB393507D010E) hieronder.)
    * Bewerken
    * Kopiëren
-   * Verplaatsen (als u bijvoorbeeld een of meer items naar een map wilt verplaatsen, klikt u op de knop **[!UICONTROL Move]** klikt u op de gewenste map en vervolgens op **[!UICONTROL Drop]**.)
+   * Verplaatsen (als u bijvoorbeeld een of meer items naar een map wilt verplaatsen, klikt u op de knop **[!UICONTROL Move]** pictogram voor het gewenste item, klik op de gewenste map en klik vervolgens op **[!UICONTROL Drop]**.)
    * Verwijderen
 
-   Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Bijvoorbeeld een gebruiker met [!UICONTROL Observer] machtigingen hebben niet de rechten om de [!UICONTROL Copy] optie.
+   Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Bijvoorbeeld een gebruiker met [!UICONTROL Observer] machtigingen hebben niet de rechten om de [!UICONTROL Copy] -optie.
 
    Voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedingen en omslagen, zie [Werken met inhoud in de elementenbibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md).
 
@@ -49,7 +49,7 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
    ![Opties voor afbeeldingsaanbiedingen](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
 
-   De volgende opties zijn beschikbaar:
+   U kunt onder andere de volgende opties kiezen:
 
    * Selecteren
    * Downloaden
@@ -60,13 +60,18 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
    Voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedingen en omslagen, zie [Werken met inhoud in de elementenbibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md).
 
+   >[!NOTE]
+   >
+   >Aanbiedingen voor afbeeldingen maken geen deel uit van de [Machtigingen voor zakelijke gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model.
+
+
 ## Definities van aanbiedingen weergeven {#section_6B059DD121434E6292CAB393507D010E}
 
 U kunt definitiedetails van voorstellen op een pop-up kaart in bekijken [!UICONTROL Offers] bibliotheek zonder de aanbieding te openen.
 
 De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding is bijvoorbeeld toegankelijk door de muis boven een aanbieding op de [!UICONTROL Content] en klik vervolgens op het informatiepictogram:
 
-![aanbieding-kaart-html beeld](assets/offer-card-html.png)
+![aanbiedingskaart-html-afbeelding](assets/offer-card-html.png)
 
 De volgende informatie is beschikbaar:
 
