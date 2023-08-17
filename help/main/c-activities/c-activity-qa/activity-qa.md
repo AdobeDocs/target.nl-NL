@@ -4,9 +4,9 @@ description: Leer hoe u Adobe gebruikt [!DNL Target] QA URLs om gemakkelijke act
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
+source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,20 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 
 1. Als u rapporten wilt zien die zijn gegenereerd via de URL&#39;s van de activiteitenkoppeling, klikt u op de activiteit **[!UICONTROL Reports]** pagina, klikt u op de **[!UICONTROL Settings]** icon (  ![icon_tandbeeld](assets/icon_gear.png) ), selecteert u vervolgens **[!UICONTROL QA Mode Traffic]** van de **[!UICONTROL Environment]** vervolgkeuzelijst.
 
+## Het vrijgeven van zich van wijze QA
+
+[!UICONTROL Activity QA] is kleverig. Nadat u in een website bladert [!UICONTROL Activity QA], uw [!DNL Target] sessie moet verlopen of u moet [!DNL Target] vrijgeven van [!UICONTROL Activity QA] voordat u uw site als een gebruikelijke bezoeker kunt weergeven.
+
+* **te.js 2.*x***: Als uw site at.js 2 heeft.*x* geïmplementeerd, gebruik de [Doel QA-bladwijzer](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) om uzelf te dwingen [!UICONTROL Activity QA]. Als u een pagina op uw site laadt met een lege waarde, zoals wordt beschreven in het volgende opsommingsteken, wordt *niet* Verwijder het cookie QA uit de browser wanneer at.js 2.*x* wordt geïmplementeerd.
+
+* **te.js 1.*x***: Als uw site at.js 1 heeft.*x* geïmplementeerd, naast het gebruik van [Doel QA-bladwijzer](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), kunt u uzelf ook handmatig afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde. Bijvoorbeeld:
+
+  `https://www.mysite.com/?at_preview_token=`
+
+* **[!DNL Adobe Experience Platform Web SDK]**: Als uw site de [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} geïmplementeerd, kunt u zichzelf handmatig afdwingen door een pagina op uw site te laden met de `at_qa_mode` parameter met een lege waarde. Bijvoorbeeld:
+
+  `https://www.mysite.com/?at_qa_mode=`
+
 ## Overwegingen {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Omdat Activiteit QA nu beschikbaar voor allen is [!DNL Target] Type activiteit, de &quot;VoorproefAutomated Personalization activiteiten met ervaring voorproefURLs&quot;eigenschap is niet meer noodzakelijk.
@@ -67,18 +81,6 @@ QA-URL&#39;s gebruiken in [!DNL Adobe Target] om gemakkelijke activiteit QA van 
 * [!UICONTROL Activity QA] geeft geen inhoud weer voor gearchiveerde activiteiten of activiteiten die hun einddatum hebben bereikt. Als u een eindactiviteit deactiveert, moet u de activiteit opnieuw opslaan voor [!UICONTROL Activity QA] om te werken.
 * Activiteiten geïmporteerd in [!DNL Target Standard/Premium] (van [!DNL Target Classic], bijvoorbeeld) geen QA-URL&#39;s ondersteunen.
 * In [!UICONTROL Auto-Allocate] en [!UICONTROL Recommendations] de in [!UICONTROL Activity QA].
-* [!UICONTROL Activity QA] is kleverig. Nadat u in een website bladert [!UICONTROL Activity QA], uw [!DNL Target] sessie moet verlopen of u moet [!DNL Target] vrijgeven van [!UICONTROL Activity QA] voordat u uw site als een gebruikelijke bezoeker kunt weergeven.
-
-   * **te.js 2.*x***: Als uw site at.js 2 heeft.*x* geïmplementeerd, gebruik de [Doel QA-bladwijzer](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) om uzelf te dwingen [!UICONTROL Activity QA]. Als u een pagina op uw site laadt met een lege waarde, zoals wordt beschreven in het volgende opsommingsteken, wordt *niet* Verwijder het cookie QA uit de browser wanneer at.js 2.*x* wordt geïmplementeerd.
-
-   * **te.js 1.*x***: Als uw site at.js 1 heeft.*x* geïmplementeerd, naast het gebruik van [Doel QA-bladwijzer](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), kunt u uzelf ook handmatig afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde. Bijvoorbeeld:
-
-     `https://www.mysite.com/?at_preview_token=`
-
-   * **[!DNL Adobe Experience Platform Web SDK]**: Als uw site de [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} geïmplementeerd, kunt u zichzelf handmatig afdwingen door een pagina op uw site te laden met de `at_qa_mode` parameter met een lege waarde. Bijvoorbeeld:
-
-     `https://www.mysite.com/?at_qa_mode=`
-
 * Als u &quot;URL is&quot; hebt opgegeven tijdens het maken van de activiteit [verfijningen in de op formulier gebaseerde Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) of [de opties van de paginalevering in de Visuele Composer van de Ervaring)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), werkt de URL voor kwaliteitscontrole niet omdat [!UICONTROL Activity QA] voegt URL-parameters toe. Als u dit probleem wilt verhelpen, klikt u op de URL voor de kwaliteitscontrole om naar uw site te gaan, verwijdert u de toegevoegde parameters uit de URL en laadt u vervolgens de nieuwe URL.
 * Als u at.js 1 hebt.*x*, [!UICONTROL Activity QA] Deze modus blijft niet behouden als u Safari gebruikt of een andere browser die cookies van derden blokkeert. In deze gevallen moet u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert. Hetzelfde geldt als u al hebt geïmplementeerd [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Als een activiteit veelvoudige ervaringspubliek gebruikt (bijvoorbeeld, een plaats van de V.S. en van het VK die in de zelfde activiteit inbegrepen zijn), worden de verbindingen van QA niet geproduceerd voor de vier combinaties (Ervaring A/US Plaats, Ervaring A/UK Plaats, Ervaring B/US Plaats, Ervaring B/UK Plaats). Er worden slechts twee QA-koppelingen (Experience A en Experience B) gemaakt en gebruikers moeten in aanmerking komen voor het juiste publiek om de pagina te kunnen zien. Een Britse QA-persoon kan de Amerikaanse site niet zien.
