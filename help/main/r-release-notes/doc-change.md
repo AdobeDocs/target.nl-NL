@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
+source-git-commit: e782fe4a26a624d3c407b991092dc0cfce18fdb7
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 29 augustus | [Doel implementeren met de AEP Mobile SDK in een systeemeigen app met webweergaven](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nieuw artikel. |
 | 14 augustus | [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Extra informatie om te verduidelijken dat het laden van een pagina op uw site met een lege waarde *niet* Verwijder het cookie QA uit de browser wanneer at.js 2.*x* wordt geïmplementeerd. |
 |  | [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | De definitie van &quot;Vertrouwen&quot; is bijgewerkt. |
 |  | [Aanbiedingen](/help/main/c-experiences/c-manage-content/manage-content.md) | Opmerking toegevoegd waarin wordt uitgelegd dat de aanbiedingen voor afbeeldingen geen deel uitmaken van de [!UICONTROL Enterprise User Permissions] model. |
