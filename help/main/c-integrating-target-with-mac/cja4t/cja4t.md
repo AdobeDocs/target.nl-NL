@@ -5,9 +5,9 @@ title: Wat is [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 79d4bfa7bbdaea6b779ab548b80fbcf732635ba5
+source-git-commit: ea113d1e4df68868bd9512b098ee6b17335a3e1c
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De [!DNL Customer Journey Analytics for Target] integratie tussen [!DNL Customer
 
 De drie belangrijkste voordelen van het gebruik [!DNL Customer Journey Analytics] gegevens in [!DNL Target] zijn:
 
-* Marketers kunnen dynamisch toepassen [!DNL Customer Journey Analytics] succesmetriek of het melden van segmenten aan [!DNL Target] activiteitenverslagen op elk moment. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
+* Marketers kunnen dynamisch toepassen [!DNL Customer Journey Analytics] succescijfers naar [!DNL Target] activiteitenverslagen op elk moment. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
 * Eén gegevensbron minimaliseert de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
 * Uw bestaande [!DNL Customer Journey Analytics] alle vereiste gegevens worden verzameld. Het is niet nodig vakken op pagina&#39;s te implementeren om alleen gegevens voor rapporten te verzamelen.
 
