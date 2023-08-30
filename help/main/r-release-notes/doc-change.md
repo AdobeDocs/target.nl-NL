@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e431581a43d0b6f90542413b085d18f4adbc9bbf
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,10 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
-| 29 augustus | S[Ondersteunde functies voor apparaatbesluitvorming](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | De lijst met Geo-kenmerken die worden ondersteund voor het opgeven van doelwitten bij gebruik van ODD (On-device decisions). |
-|  | [Overzicht van apparaatbeslissingen](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | De lijst met Geo-kenmerken die worden ondersteund voor het opgeven van doelwitten bij gebruik van ODD (On-device decisions). |
+| 30 augustus | [Privacy](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Toegevoegde nieuwe sectie: &quot;IP van het gegevensstroom-niveau obfuscation wanneer het gebruiken van het Web SDK van Adobe Experience Platform&quot; |
+|  | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Correcteerde tijdkader om gegevens te verwachten in rapporten in volgende FAQ: &quot;Ik creeerde enkel een activiteit. Waarom zie ik geen gegevens binnenkomen?&quot; |
+| 29 augustus | [Ondersteunde functies voor apparaatbesluitvorming](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | De lijst met Geo-kenmerken die worden ondersteund voor het opgeven van doelen bij gebruik van client-side (ODD) voor apparaatbeslissingen. |
+|  | [Overzicht van apparaatbeslissingen](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | De lijst met Geo-kenmerken die worden ondersteund voor het opgeven van doelen bij gebruik van ODD (On-device decisions) op de server. |
 |  | [Doel implementeren met de AEP Mobile SDK in een systeemeigen app met webweergaven](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nieuw artikel. |
 |  | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde informatie over de komende Coffee Break van de Gemeenschap van Adobe Target (30 augustus 2023): &quot;Strategize for maximum ROI impact with peak year readiness&quot; webinar follow-up. |
 | 14 augustus | [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Extra informatie om te verduidelijken dat het laden van een pagina op uw site met een lege waarde *niet* Verwijder het cookie QA uit de browser wanneer at.js 2.*x* wordt geïmplementeerd. |

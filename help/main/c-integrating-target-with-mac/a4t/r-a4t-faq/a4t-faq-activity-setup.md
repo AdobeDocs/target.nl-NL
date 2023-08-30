@@ -1,10 +1,10 @@
 ---
-keywords: faq;vaak gestelde vragen;analyse voor doel;a4T;activiteitsinstelling
+keywords: faq;veelgestelde vragen;analyses voor doel;a4T;activity setup
 description: Zoek antwoorden op vragen over activity setup wanneer u Analyses gebruikt voor [!DNL Target] (A4T). Met A4T kunt u analytische rapporten gebruiken voor [!DNL Target] activiteiten.
 title: Waar kan ik Veelgestelde vragen over activiteitenmontages met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom 
 ## Ik heb net een activiteit gecreëerd. Waarom zie ik geen gegevens binnenkomen? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++Antwoord wanneer een activiteit wordt gecreeerd, [!DNL Target] een classificatiebestand verzenden naar [!DNL Analytics]. Hoewel [!DNL Analytics] die de gegevens vastlegt en verwerkt, toont dit niet aan dat dit in de rapporten voorkomt totdat het classificatiebestand is bijgewerkt. Dit proces kan tot 24 uur duren. Indien u na 48 uur uw gegevens niet ziet, gelieve [Contact opnemen met de klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics].
++++Antwoord wanneer een activiteit wordt gecreeerd, [!DNL Target] een classificatiebestand verzenden naar [!DNL Analytics]. Hoewel [!DNL Analytics] die de gegevens vastlegt en verwerkt, toont dit niet aan dat dit in de rapporten voorkomt totdat het classificatiebestand is bijgewerkt. Dit proces kan 24 tot 72 uur duren. Indien u na 72 uur uw gegevens niet ziet, [Contact opnemen met de klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics].
 
 +++
 
@@ -41,7 +41,7 @@ Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom 
 +++Antwoord U kunt uw [!UICONTROL Reporting Settings] opties in [!UICONTROL Administration].
 
 1. In [!DNL Target], klikt u op **[!UICONTROL Administration]**.
-1. In de **[!UICONTROL Experience Cloud solution used for reporting]** vervolgkeuzelijst, klikt u op **[!UICONTROL Select per Activity]**.
+1. In de **[!UICONTROL Experience Cloud solution used for reporting]** vervolgkeuzelijst, klikken **[!UICONTROL Select per Activity]**.
 
 ![afbeelding per activiteit selecteren](assets/select-per-activity.png)
 
