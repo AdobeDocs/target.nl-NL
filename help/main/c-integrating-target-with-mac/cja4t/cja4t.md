@@ -5,9 +5,9 @@ title: Wat is [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bc85a169cd0805a5e424bfca8b5bda9b4861fde3
+source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De belangrijkste voordelen van het gebruik [!DNL Customer Journey Analytics] geg
 
 ## Overwegingen
 
-Overweeg het volgende alvorens de integratie te gebruiken CJA4T:
+Overweeg de volgende informatie alvorens de integratie te gebruiken CJA4T:
 
 * Te gebruiken [!DNL Customer Journey Analytics] als bron van rapportage voor [!DNL Target], zowel u als uw bedrijf moeten toegang hebben tot [!DNL Customer Journey Analytics] en [!DNL Target]. Als u toegang tot een van beide oplossingen nodig hebt, neemt u contact op met de beheerder van uw organisatie of uw accountvertegenwoordiger.
 * Om te creëren [!DNL Target] activiteiten met [!DNL Customer Journey Analytics] melden, moet u een van de &quot;[!UICONTROL Approver]&quot; of &quot;[!UICONTROL Editor]&quot; rol in [!DNL Target].
