@@ -5,31 +5,28 @@ title: Wat is [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: ea113d1e4df68868bd9512b098ee6b17335a3e1c
+source-git-commit: bc85a169cd0805a5e424bfca8b5bda9b4861fde3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Customer Journey Analytics] als bron van rapportage voor [!DNL Adobe Target] (CJA4T)
 
-[!DNL Customer Journey Analytics for Target] (CJA4T) is een integratie met meerdere oplossingen waarmee u op [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} conversiemetriek. De integratie CJA4T laat u gebruiken [!DNL Customer Journey Analytics] rapporten om uw resultaten te onderzoeken. Als u [!DNL Customer Journey Analytics] als bron van rapportage voor een activiteit, is alle rapportage voor die activiteit gebaseerd op [!DNL Customer Journey Analytics] gegevensverzameling.
+De [!DNL Customer Journey Analytics for Target] (CJA4T) integratie tussen [Adobe Customer Journey Analytics (JA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} en [!DNL Target] biedt krachtige hulpmiddelen voor analyse en tijdbesparend maken voor uw optimalisatieprogramma.
 
-## Overzicht
-
-De [!DNL Customer Journey Analytics for Target] integratie tussen [!DNL Customer Journey Analytics] en [!DNL Target] biedt krachtige hulpmiddelen voor analyse en tijdbesparend maken voor uw optimalisatieprogramma.
-
-De drie belangrijkste voordelen van het gebruik [!DNL Customer Journey Analytics] gegevens in [!DNL Target] zijn:
+De belangrijkste voordelen van het gebruik [!DNL Customer Journey Analytics] gegevens in [!DNL Target] zijn:
 
 * Marketers kunnen dynamisch toepassen [!DNL Customer Journey Analytics] succescijfers naar [!DNL Target] activiteitenverslagen op elk moment. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
 * Eén gegevensbron minimaliseert de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
-* Uw bestaande [!DNL Customer Journey Analytics] alle vereiste gegevens worden verzameld. Het is niet nodig vakken op pagina&#39;s te implementeren om alleen gegevens voor rapporten te verzamelen.
 
-Houd rekening met de volgende punten wanneer u CJA4T gebruikt:
+## Overwegingen
+
+Overweeg het volgende alvorens de integratie te gebruiken CJA4T:
 
 * Te gebruiken [!DNL Customer Journey Analytics] als bron van rapportage voor [!DNL Target], zowel u als uw bedrijf moeten toegang hebben tot [!DNL Customer Journey Analytics] en [!DNL Target]. Als u toegang tot een van beide oplossingen nodig hebt, neemt u contact op met de beheerder van uw organisatie of uw accountvertegenwoordiger.
-* Om te creëren [!DNL Target] activiteiten met [!DNL Customer Journey Analytics] melden, moet je een &quot;[!UICONTROL Approver]&quot; of &quot;[!UICONTROL Editor]&quot; rol in [!DNL Target].
+* Om te creëren [!DNL Target] activiteiten met [!DNL Customer Journey Analytics] melden, moet u een van de &quot;[!UICONTROL Approver]&quot; of &quot;[!UICONTROL Editor]&quot; rol in [!DNL Target].
    * Als u een [Doelstandaard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) account, zie [Rollen en machtigingen opgeven](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers*.
    * Als u een [Doelpremie](/help/main/c-intro/intro.md#premium) account, zie [Rollen en machtigingen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Machtigingen voor Enterprise-gebruikers*.
 
@@ -37,12 +34,12 @@ Houd rekening met de volgende punten wanneer u CJA4T gebruikt:
 * Gebruik één rapporteringsbron of andere. U kunt geen gegevens voor één activiteit aan veelvoudige rapporteringsbronnen verzamelen.
 * Wanneer u instelt [!DNL Customer Journey Analytics] als rapportbron wordt u gevraagd de sandbox voor rapportage op te geven. Tijdens de configuratie ziet u alleen de sandboxen waartoe u toegang hebt.
 * Bestaande [!DNL Target] activiteiten blijven gebruiken [!DNL Target] gegevensverzameling en worden niet beïnvloed door het inschakelen van CJA4T.
-* CJA4T is alleen beschikbaar als u [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Ondersteuning voor de gegevensconnector Analytics is gepland voor de toekomst.
-* Voor vragen over timing raadpleegt u [Latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#latency){target=_blank} in *Veelgestelde vragen* in de *Adobe Klantenanalysehandleiding*.
+* CJA4T is alleen beschikbaar als u [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Steun voor de [!DNL Analytics Data Connector] is voor de toekomst gepland.
+* Zie voor vragen over timing [Latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} in *Veelgestelde vragen* in de *Adobe Klantenanalysehandleiding*.
 
-## Ondersteunde activiteitstypen
+## Ondersteunde activiteitstypen {#supported-activities}
 
-De volgende activiteitstypen worden ondersteund wanneer u de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}:
+De volgende activiteitstypen worden ondersteund wanneer u de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or the [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} JavaScript-bibliotheek:
 
 | Activiteitstypen | Compatibel met CJA4T? |
 |--- |--- |
@@ -58,7 +55,7 @@ De volgende activiteitstypen worden ondersteund wanneer u de [Adobe Experience P
 
 Een [!DNL Target] activiteit die [!DNL Customer Journey Analytics] aangezien de bron van de rapportage vergelijkbaar is met het instellen van een [!DNL Target] activiteit.
 
-1. Van de **[!UICONTROL Activities]** lijst, klik **[!UICONTROL Create Activity]** selecteert u vervolgens het type activiteit (volgens het ondersteunde activiteitenoverzicht hierboven) en begint u met het instellen van de activiteit.
+1. Van de **[!UICONTROL Activities]** lijst, klik **[!UICONTROL Create Activity]** selecteert u vervolgens het type activiteit (volgens de [ondersteund activiteitenoverzicht boven](#supported-activities)) en beginnen met het instellen van de activiteit.
 1. Wanneer u de **[!UICONTROL Goals & Settings]** pagina van de workflow voor het maken van activiteiten in drie delen, selecteert u **[!DNL Customer Journey Analytics]** als de bron van de rapportage.
 
    ![Customer Journey Analytics als optie voor de bron van de rapportage](/help/main/c-integrating-target-with-mac/cja4t/assets/cja-as-reporting-source.png)
@@ -75,7 +72,7 @@ Een [!DNL Target] activiteit die [!DNL Customer Journey Analytics] aangezien de 
 
 1. Geef het doel van de activiteit op.
 
-   U moet een succesmetrische waarde selecteren om als doel voor elke activiteit te gebruiken. U kunt een van de [!DNL Target] conversiewaarden of gebruik een [!DNL Customer Journey Analytics] metrisch.
+   Selecteer een succesmetrische waarde die u als doel voor elke activiteit wilt gebruiken. U kunt een van de [!DNL Target] conversiewaarden of gebruik een [!DNL Customer Journey Analytics] metrisch.
 
    ![Een Customer Journey Analytics-metrische optie gebruiken onder Geel metrisch](/help/main/c-integrating-target-with-mac/cja4t/assets/goal-metric.png)
 
@@ -99,7 +96,7 @@ Na een [!DNL Target] activiteit is gecreeerd, moet u een verbinding tot stand br
 
    Zie voor meer informatie [Gegevenssets toevoegen en configureren](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#add-dataset){target=_blank} in *Verbinding maken* in de *Adobe Customer Journey Analytics Guide*.
 
-1. Vorm uw raadplegingsdataset met het Zeer belangrijke gebied als &quot;sleutel&quot;en het Aanpassen zeer belangrijke gebied met de volgende weg:
+1. Vorm uw raadplegingsdataset met de [!UICONTROL Key] veld als &quot;sleutel&quot; en het veld Overeenkomende sleutel met het volgende pad:
 
    ```
    _experience.decisioning.propositions.scopeDetails.correlationID
