@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2233'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,44 @@ ht-degree: 0%
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
+## [!DNL Adobe Target] Koffiepauze (30 augustus 2023)
+
+* **Onderwerp: &quot;Strategize for maximum ROI impact with peak year readiness&quot; webinar follow-up**
+* **Woensdag 30 augustus 2023**
+* **8:00-9:00 uur (PDT, UTC-7)**
+* **[Hier registreren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] De deskundigen John Magnusson en John Mosbaugh zullen in dit vraag-me-om het even welk evenement beschikbaar zijn om uw vragen met betrekking tot de onderwerpen te beantwoorden die in de &quot;Strategize for maximum ROI impact met piekseizoenbereidheid&quot;webinar (17 augustus 2023) worden behandeld.
+
++++Zie details
+
+Onderwerpen zijn onder meer:
+
+* Hoe te effectief om dashboards te creëren en zeer belangrijke metriek te melden
+* Onderzoek van de impact van elk marketingkanaal
+* Het verdiepen in klantengedrag en het winkelen tendensen
+* Het identificeren van slechte klantenervaringen en het verbeteren van hen door het testen
+* Gebieden aan mogelijkheden voor het aansturen van siteconversie
+
++++
+
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
 Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
 
-### Strategisch voor maximale ROI-impact met gereedheid voor het piekseizoen
+Geen gepland op dit moment.
 
-* **Donderdag 17 augustus 2023**
-* **8:00-9:00 uur (PDT, UTC-7)**
-* **[Hier registreren](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
+
+Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
+
+### Strategisch voor maximale ROI-impact met gereedheid voor het piekseizoen
 
 Lever aantrekkelijke klantervaringen om conversietarieven te verbeteren. Is uw bedrijf klaar voor het piekseizoen? Doe mee en krijg toegang tot tips van experts over hoe u deze keer optimale prestaties en maximale investeringsrendement kunt behalen.
 
 +++Zie details
 
-Sluit u aan bij John Magnusson, Adobe Customer Success Manager en Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Sluit u aan bij ons om strategieën te leren die van invloed zijn op uw programma voor de gereedheid van het piekseizoen.
+Sluit u aan bij John Magnusson, Customer Success Manager van de Adobe en Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Sluit u aan bij ons om strategieën te leren die een significante invloed hebben op uw programma voor de gereedheid van het piekseizoen.
 
 Onderwerpen zijn onder meer:
 
@@ -40,10 +63,6 @@ Onderwerpen zijn onder meer:
 * Gebieden ontdekken waarop de conversie van sites mogelijk is
 
 +++
-
-## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
-
-Toegang tot opnamen van gebeurtenissen uit het verleden (indien beschikbaar):
 
 ### Mobiele ervaring optimaliseren en personaliseren voor geverifieerde omgevingen (26 april 2023)
 
@@ -62,9 +81,9 @@ Leer in deze sessie hoe [!DNL Adobe Target] en [!DNL Real-Time CDP] kan leiden t
 
 ### De reis naar het drijven van groei met Personalisatie
 
-Geef uw organisatie meer mogelijkheden voor personalisatie, voorgesteld door de Adobe Customer Success Manager, Ramon Cespedes.
+De mogelijkheden van uw organisatie om personalisatie te leveren, die door de Manager van het Succes van de Klant van de Adobe, Ramon Cespedes wordt voorgesteld.
 
-Het rapport van de belangrijkste analist suggereert dat bedrijven die zich uitblinken in personalisatie 40 procent meer inkomsten genereren dan hun tegenhangers. Om aan de vraag naar nieuwe, relevante en zeer gepersonaliseerde ervaringen bij elke klik te voldoen, hebben de marketers het juiste kader en de juiste strategie nodig. In dit webinar, sluit me aan bij Adobe deskundigen om te leren hoe te om gebruik te maken van gegeven-gedreven kader om de programma&#39;s van uw organisatie te bouwen en succes te drijven.
+Het rapport van de belangrijkste analist suggereert dat bedrijven die zich uitblinken in personalisatie 40 procent meer inkomsten genereren dan hun tegenhangers. Om aan de vraag naar nieuwe, relevante en zeer gepersonaliseerde ervaringen bij elke klik te voldoen, hebben de marketers het juiste kader en de juiste strategie nodig. In dit webinar, sluit u zich aan bij de experts van de Adobe om te leren hoe u gebruik kunt maken van een gegevensgestuurd raamwerk om de personalisatieprogramma&#39;s van uw organisatie op te bouwen en succes te behalen.
 
 * [Koppeling Opnemen](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
@@ -197,7 +216,7 @@ Leer hoe wij nieuw normaal-die digitaler dan ooit zijn geworden-is het essentiee
 
   +++Details
 
-  Sluit zich aan bij Kaitlin White (de Manager van de Marketing van het Product van Adobe) aangezien wij beproefde en ware strategieën delen om u te helpen uw verpersoonlijkingsprogramma beginnen, die omvatten:
+  Sluit zich aan bij Kaitlin White (de Manager van de Marketing van het Product van de Adobe) aangezien wij beproefde en ware strategieën delen om u te helpen uw verpersoonlijkingsprogramma beginnen, die omvatten:
 
    * Overbodig denken om nieuwe leads of klanten aan te schaffen
    * De wrijving van de gebruiker herstellen voor een meer intuïtieve ervaring
@@ -233,7 +252,7 @@ Leer hoe financiële dienstverleners klanten steunen en informeren gebruikend ve
 
   +++Details
 
-  Join Christopher Young (Director, Industry Strategy Financial Services) en James Capasso (Target Consultant, Adobe-Premier Support) voor informatie over hoe merken reageren op directe veranderingen in de vraag en tegelijk personalisatie centraal stellen in hun klantenservice. Leer hoe financiële dienstverleners klanten over de hele wereld steunen en informeren die zich zorgen maken over recente inflatiepatronen en -omstandigheden op hun investeringen.
+  Join Christopher Young (Director, Industry Strategy Financial Services) en James Capasso (Target Consultant, Adobe Premier Support) om te leren hoe merken reageren op directe veranderingen in de vraag en tegelijk personalisatie centraal stellen in hun klantenservice. Leer hoe financiële dienstverleners klanten over de hele wereld steunen en informeren die zich zorgen maken over recente inflatiepatronen en -omstandigheden op hun investeringen.
 
 +++
 
