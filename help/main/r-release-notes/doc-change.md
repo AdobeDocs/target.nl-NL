@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1661'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 1 september | [Omgevingen](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Bijgewerkte notitie onder &quot;De standaardomgeving voor rapportage instellen&quot;. |
 | 30 augustus | [Privacy](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Toegevoegde nieuwe sectie: &quot;IP van het gegevensstroom-niveau obfuscation wanneer het gebruiken van het Web SDK van Adobe Experience Platform&quot; |
 |  | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Correcteerde tijdkader om gegevens te verwachten in rapporten in volgende FAQ: &quot;Ik creeerde enkel een activiteit. Waarom zie ik geen gegevens binnenkomen?&quot; |
 | 29 augustus | [Ondersteunde functies voor apparaatbesluitvorming](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | De lijst met Geo-kenmerken die worden ondersteund voor het opgeven van doelen bij gebruik van client-side (ODD) voor apparaatbeslissingen. |
