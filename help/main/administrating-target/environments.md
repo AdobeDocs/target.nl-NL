@@ -5,9 +5,9 @@ title: Wat zijn omgevingen en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ De standaardomgeving voor rapportage instellen:
 >
 >[!DNL Recommendations] gebruikers moeten hun gedragsgegevensbestand en productgegevensbestand opnieuw opbouwen als de gastheren gastheergroepen schakelen.
 >
->Als u een [standaardomgeving in een Adobe Experience Platform-gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, overschrijft deze omgeving de instelling in [!DNL Target Recommendations].
+>Als u een [standaardomgeving in een [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}heeft deze instelling voorrang op de instelling in [!DNL Target].
 
 ## De naam van een omgeving wijzigen {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
