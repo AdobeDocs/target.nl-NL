@@ -5,9 +5,9 @@ title: Wat zijn omgevingen en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Eén omgeving, de standaardomgeving, heeft een voornaam [!UICONTROL Production].
 
 Wanneer een [!DNL Target] verzoek wordt ontvangen van nieuwe websites of domeinen, verschijnen deze nieuwe domeinen altijd in [!UICONTROL Production] milieu. De [!UICONTROL Production] de instellingen van de omgeving kunnen niet worden gewijzigd, zodat onbekende of nieuwe sites gegarandeerd alleen inhoud zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
 
-Als u omgevingen wilt beheren, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
+Klik op **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
 ![Lijst met omgevingen](/help/main/administrating-target/assets/environments.png)
 
 ## Een omgeving toevoegen {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Van de [!UICONTROL Environments] lijst, klikt u op **[!UICONTROL Add Environment]**.
+1. Van de [!UICONTROL Environments] lijst, klik **[!UICONTROL Add Environment]**.
 1. Geef een beschrijvende naam voor de omgeving op.
 1. Geef de gewenste actieve modus voor de omgeving op: [!UICONTROL Active Activities] of [!UICONTROL Active and Inactive Activities].
 
@@ -49,10 +49,12 @@ De standaardomgeving voor rapportage instellen:
 >[!NOTE]
 >
 >[!DNL Recommendations] gebruikers moeten hun gedragsgegevensbestand en productgegevensbestand opnieuw opbouwen als de gastheren gastheergroepen schakelen.
+>
+>Als u een [standaardomgeving in een Adobe Experience Platform-gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, overschrijft deze omgeving de instelling in [!DNL Target Recommendations].
 
 ## De naam van een omgeving wijzigen {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Van de [!UICONTROL Environment] lijst, klikt u op de knop **[!UICONTROL Edit]** pictogram.
+1. Van de [!UICONTROL Environment] lijst, klikt u op **[!UICONTROL Edit]** pictogram.
 1. Wijzig de naam van de omgeving.
 1. Klik op **[!UICONTROL Save]**.
 
@@ -60,12 +62,12 @@ De standaardomgeving voor rapportage instellen:
 
 U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 
-1. Van de [!UICONTROL Environment] lijst, klikt u op de knop **[!UICONTROL Delete]** pictogram.
+1. Van de [!UICONTROL Environment] lijst, klikt u op **[!UICONTROL Delete]** pictogram.
 1. Klikken **[!UICONTROL Delete]** om de schrapping te bevestigen.
 
 >[!NOTE]
 >
->U kunt de [!UICONTROL Production] , maar u kunt de naam ervan wijzigen.
+>U kunt het dialoogvenster [!UICONTROL Production] , maar u kunt de naam ervan wijzigen.
 
 ## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."}
 
@@ -80,7 +82,7 @@ U kunt een omgeving gebruiken om de beschikbare items in uw catalogus te scheide
 >De geleverde aanbevelingen hangen van de gastheergroep of milieu-id af die in het verzoek wordt gespecificeerd.
 
 
-Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Om te zien welke producten in elke milieu beschikbaar zijn, gebruik CatalogusOnderzoek met elke milieu. U kunt ook een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).
+Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Als u wilt zien welke producten in elke omgeving beschikbaar zijn, gebruikt u Cataloguszoekopdracht voor elke omgeving. U kunt ook een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).
 
 >[!NOTE]
 >Nadat u de geselecteerde omgeving hebt gewijzigd, moet u op Zoeken klikken om de geretourneerde resultaten bij te werken.
@@ -89,6 +91,6 @@ De [!UICONTROL Environment] is beschikbaar op de volgende plaatsen in het Doel U
 
 * Catalogus zoeken ([!UICONTROL Recommendations > Catalog Search])
 * Verzameling maken, dialoogvenster ([!UICONTROL Recommendations > Collections > Create New])
-* Dialoogvenster Verzameling bijwerken ([!UICONTROL Recommendations > Collections > Edit])
+* Het dialoogvenster Verzameling bijwerken ([!UICONTROL Recommendations > Collections > Edit])
 * Dialoogvenster Uitsluiting maken ([!UICONTROL Recommendations > Exclusions > Create New])
 * Dialoogvenster Uitsluiting bijwerken ([!UICONTROL Recommendations > Exclusions > Edit])
