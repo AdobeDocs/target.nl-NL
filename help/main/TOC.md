@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1236'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 + Inleiding {#introduction}
    + [Inleiding tot doel](c-intro/intro.md)
    + [Toegangsdoel van de Adobe Experience Cloud](c-intro/target-access-from-mac.md)
-   + [Doelsleutelbegrippen](c-intro/target-key-concepts.md)
+   + [Belangrijkste doelconcepten](c-intro/target-key-concepts.md)
    + [De interface van het doel begrijpen](/help/main/c-intro/understand-the-target-ui.md)
    + Adobe Target-welkomstkit {#welcome}
       + [Overzicht van de welkomstkit](/help/main/c-intro/target-welcome-kit.md)
@@ -34,10 +34,10 @@ ht-degree: 3%
       + [Hoofdstuk 3: Ontwikkel uw test en verpersoonlijkingsideeën](/help/main/c-intro/target-welcome-kit-3.md)
       + [Hoofdstuk 4: Tips voor het gebruik van Doel](/help/main/c-intro/target-welcome-kit-4.md)
       + [Hoofdstuk 5: Inspiratie voor test- en personalisatieactiviteiten](/help/main/c-intro/target-welcome-kit-5.md)
-      + [Hoofdstuk 6: Gemakkelijk vermijdbare valkuilen](/help/main/c-intro/target-welcome-kit-6.md)
-      + [Hoofdstuk 7: Uw eerste doelactiviteit maken en uitvoeren](/help/main/c-intro/target-welcome-kit-7.md)
-      + [Hoofdstuk 8: Laat je activiteitenresultaten weten](/help/main/c-intro/target-welcome-kit-8.md)
-      + [Hoofdstuk 9: Volgende stappen en bronnen](/help/main/c-intro/target-welcome-kit-9.md)
+      + [Hoofdstuk 6: Eenvoudig te vermijden valkuilen](/help/main/c-intro/target-welcome-kit-6.md)
+      + [Hoofdstuk 7: Maak en voer uw eerste doelactiviteit uit](/help/main/c-intro/target-welcome-kit-7.md)
+      + [Hoofdstuk 8: Communiceer uw activiteitenresultaten](/help/main/c-intro/target-welcome-kit-8.md)
+      + [Hoofdstuk 9: Volgende stappen en middelen](/help/main/c-intro/target-welcome-kit-9.md)
    + [Verklarende woordenlijst](c-intro/glossary.md)
    + [Hoe Target werkt](c-intro/how-target-works.md)
    + [Opleiding en certificering](c-intro/training-and-certification.md)
@@ -66,7 +66,7 @@ ht-degree: 3%
          + [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Doel implementeren {#implement-target}
    + [Overzicht van doel implementeren](c-implementing-target/implementing-target.md)
-+ Doel integreren met de Experience Cloud {#integrate}
++ Doel integreren met het Experience Cloud {#integrate}
    + Adobe Analytics als de rapportagebron voor Target (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
       + [Voordat u implementeert](c-integrating-target-with-mac/a4t/before-implement.md)
@@ -87,16 +87,18 @@ ht-degree: 3%
          + [Metrische definities - Veelgestelde vragen A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [Classificaties - A4T Veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Metriek, publiek en rapporten delen - Veelgestelde vragen voor A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-         + [Legacy SiteCatalyst to Test&amp;Target Integration - A4T-veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+         + [Legacy SiteCatalyst to Test&amp;Target Integration - A4T Veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+   + Doel integreren met Adobe Customer Journey Analytics (CJA4T) {#cja4t} {#hidden}
+      + [Adobe Customer Journey Analytics als bron voor rapportage voor Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Doel integreren met Adobe Journey Optimizer (AJO) {#ajo}
       + [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-   + [Experience Cloud publiek](/help/main/c-integrating-target-with-mac/mmp.md)
+   + [Soorten publiek Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Doel integreren met Adobe Experience Manager (AEM) {#aem}
       + [Doel integreren met AEM overzicht](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Ervaar fragmenten en inhoudsfragmenten {#fragments}
          + [Overzicht van AEM Experience Fragments en Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
-         + [Fragmenten voor AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [Fragmenten AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [Inhoudsfragmenten AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Doel integreren met Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integreren met Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
@@ -132,7 +134,7 @@ ht-degree: 3%
       + [Automated Personalization-overzicht](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Een Automated Personalization-activiteit maken](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Gegevens uploaden voor de Target personalization-algoritmen](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
+      + [Gegevens uploaden voor de Target-verpersoonlijkingsalgoritmen](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Gegevensverzameling voor de personalisatiealgoritmen van het Doel](c-activities/t-automated-personalization/ap-data.md)
       + [Schatting van het verkeer dat voor succes wordt vereist](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Voorvertoning van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
@@ -178,11 +180,11 @@ ht-degree: 3%
       + [Overzicht van probleemoplossingactiviteiten](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
       + [Problemen met de levering van inhoud oplossen](c-activities/c-troubleshooting-activities/content-trouble.md)
    + Activiteit QA {#activity-qa}
-      + [Overzicht van activiteitskwaliteit](c-activities/c-activity-qa/activity-qa.md)
+      + [Overzicht van activiteits-kwaliteitscontrole](c-activities/c-activity-qa/activity-qa.md)
       + [Activity QA-bladwijzer](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Activiteit QA met levering aan de serverzijde gebruiken](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + Soorten publiek {#audiences}
-   + [Overzicht van soorten publiek](c-target/target.md)
+   + [Overzicht publiek](c-target/target.md)
    + Soorten publiek maken {#create-audiences}
       + [Overzicht van soorten publiek maken](c-target/c-audiences/audiences.md)
       + [Stimuleer publiek in doel](c-target/c-audiences/create-audience.md)
@@ -197,7 +199,7 @@ ht-degree: 3%
          + [Sitepagina&#39;s](c-target/c-audiences/c-target-rules/site-pages.md)
          + [Doelbibliotheek](c-target/c-audiences/c-target-rules/target-library.md)
          + [Tijdschema](c-target/c-audiences/c-target-rules/time-frame.md)
-         + [Verkeersbronnen](c-target/c-audiences/c-target-rules/traffic-sources.md)
+         + [verkeersbronnen](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Bezoekerprofiel](c-target/c-audiences/c-target-rules/visitor-profile.md)
       + [Een vergelijkingspubliek voor profielkenmerken maken](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [Meerdere doelgroepen combineren](c-target/combining-multiple-audiences.md)
@@ -206,7 +208,7 @@ ht-degree: 3%
    + [Pas een rapporterend publiek op succes toe metrisch](c-target/apply-reporting-audience-success-metric.md)
    + Bezoekerprofielen {#visitor-profiles}
       + [Overzicht van bezoekersprofielen](c-target/c-visitor-profile/visitor-profile.md)
-      + [Levensduur bezoekersprofiel](c-target/c-visitor-profile/visitor-profile-lifetime.md)
+      + [Levensduur van bezoekersprofiel](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Profielkenmerken](c-target/c-visitor-profile/profile-parameters.md)
       + [Profielscripts gebruiken om activiteiten te testen die elkaar uitsluiten](/help/main/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Categorie-affiniteit](c-target/c-visitor-profile/category-affinity.md)
@@ -225,14 +227,14 @@ ht-degree: 3%
       + [Conflicten bij activiteit](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Wijzigingen {#modifications}
          + [Overzicht van wijzigingen](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-         + [Experience-sjablonen](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
+         + [Experience templates](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
       + [Elementkiezers die worden gebruikt in de composer voor visuele ervaring](c-experiences/c-visual-experience-composer/vec-selectors.md)
       + [Mobiele viewports voor responsieve ervaringen](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [Aanbevolen werkwijzen en beperkingen van Visual Experience Composer](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
-      + Het oplossen van problemen de Visuele Composer van de Ervaring {#troubleshoot-composer}
+      + Problemen oplossen met de composer voor visuele ervaring {#troubleshoot-composer}
          + [Het oplossen van problemen de Visuele Composer van de Ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
-         + [Het oplossen van problemen de Composer van de Visuele Ervaring en Verbeterde Composer van de Ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-         + [Het oplossen van problemen de Visuele Composer van de Ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+         + [Problemen oplossen met de composer voor visuele ervaring en de Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+         + [Problemen oplossen met de composer voor visuele ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Problemen met de Enhanced Experience Composer oplossen](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Gemengde inhoud in uw browser inschakelen](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Paginawijzigingsscenario&#39;s](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
@@ -262,7 +264,7 @@ ht-degree: 3%
       + [Gegevens downloaden in een CSV-bestand](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Statistische methodologie {#statistical-methodology}
       + [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Persoonlijke rapporten {#personalization-reports}
+   + Persoonlijkingsrapporten {#personalization-reports}
       + [Samenvattingsrapport voor automatisch doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Samenvattingsrapporten van Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
    + Verslag over persoonlijke inzichten {#insights}

@@ -5,7 +5,7 @@ title: Hoe vorm ik Rapportering in Doel?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Algemene instellingen configureren voor gebruik in [!DNL Adobe Target] rapportage die van toepassing is op uw gehele [!DNL Target] account.
 
-Om toegang te krijgen tot [!UICONTROL Reporting] configuratiepagina, klik **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
+Als u toegang wilt krijgen tot [!UICONTROL Reporting] configuratiepagina, klik **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 U kunt de volgende instellingen opgeven op deze pagina:
 
@@ -33,17 +33,17 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 ![Pagina rapporteren](/help/main/administrating-target/assets/reporting.png)
 
-## Cloudoplossing rapporteren
+## Cloudoplossing rapporteren {#solution}
 
-Stel opties in die bepalen welke gegevens worden gebruikt voor de resultaten en rapporten.
+Stel opties in om te bepalen welke gegevens worden gebruikt voor de resultaten en rapporten.
 
 Selecteer de rapporteringsbron voor uw activiteiten, of [!DNL Target] of [!DNL Adobe Analytics]. U kunt ook de rapportbron per activiteit selecteren.
 
 Houd rekening met de volgende informatie wanneer u uw rapportbron kiest:
 
-* Als de rapportbron is ingesteld op **[!DNL Target]** hier kunt u geen activiteit activeren die [!DNL Analytics] als bron van de rapportage. U moet de rapportbron wijzigen in [!DNL Target] in uw activiteit of verander de rapportbron in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* Als de rapportbron is ingesteld op **[!DNL Target]** hier kunt u geen activiteit activeren die [!DNL Analytics] als de bron van de rapportage. U moet de rapportbron wijzigen in [!DNL Target] in uw activiteit of verander de rapportbron in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * Als de rapportbron is ingesteld op **[!DNL Analytics]** hier kunt u geen activiteit activeren die [!DNL Target] als bron van de rapportage (de bron van de rapportage wordt gespecificeerd zoals **[!UICONTROL Target per activity])**. U moet de rapportbron wijzigen in [!DNL Analytics] in uw activiteit of verander de rapporteringsmotor in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Als de rapportbron is ingesteld op **[!UICONTROL Select per activity]** Hier kunt u activiteiten maken, activeren en deactiveren die door de geselecteerde rapportbron worden ondersteund. Voor een matrix van ondersteunde activiteiten raadpleegt u [Ondersteunde activiteitstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron van rapportage voor Adobe Target (A4t)*.
+* Als de rapportbron is ingesteld op **[!UICONTROL Select per activity]** Hier kunt u activiteiten maken, activeren en deactiveren die door de geselecteerde rapportbron worden ondersteund. Zie voor een matrix van ondersteunde activiteiten [Ondersteunde activiteitstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron van rapportage voor Adobe Target (A4t)*.
 * [!UICONTROL Automated Personalization] (AP) het creëren van activiteit, activering, en deactivering worden toegestaan ongeacht de geselecteerde rapporteringsbron. Automated Personalization-activiteiten worden niet ondersteund wanneer u [Adobe Analytics als bron van rapportage voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Zelfs als u [!DNL Analytics] als bron voor de rapportage, [!DNL Target] wordt gebruikt als rapportagebron voor Automated Personalization-activiteiten. Zie voor meer informatie [Ondersteunde activiteitstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron van rapportage voor Adobe Target (A4t)*.
 
 ## Tijdzone voor rapportage
