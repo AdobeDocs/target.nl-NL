@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
+source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 9 augustus 2023**
+**Laatst bijgewerkt: 4 september 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,24 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standaard/Premium 23.8.1 (9 augustus 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 september 2023)
+
+Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
+
+* **6 september**: Amerikaanse regio
+* **7 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **11 september**: regio Azië-Stille Oceaan (APAC)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Probleem verholpen waardoor activiteiten soms niet correct konden worden gesynchroniseerd, zoals getoond in &quot;[!UICONTROL Status]&quot; kolom op de [!UICONTROL Activity] lijstpagina. (TGT-46010 &amp; TGT-44831)
-* Het probleem waarbij &#39; &#39; soms werd voorkomen, is opgelost.[!UICONTROL View in Analytics]&quot;-koppeling wordt niet weergegeven op de [!UICONTROL Reports] pagina met activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-45808)
-* De presentatie van waarden in tabellen is aangepast en wordt weergegeven als percentages in plaats van als getallen met decimalen. Bijvoorbeeld 8% in plaats van 0,08. (TGT-45548)
-* Probleem verholpen waardoor klanten niet de toetsenbordfocus konden gebruiken om naar het volgende element in het dialoogvenster [!UICONTROL Goals & Settings] pagina voor [!UICONTROL Experience Targeting] (XT) activiteiten. (TGT-44526)
-* Probleem verholpen waarbij focus van het toetsenbord verloren ging nadat &quot;[!UICONTROL Add audiences]&quot; tijdens het maken van een activiteit. (TGT-44525)
+* Probleem verholpen waarbij inconsistente rapportgegevens in het dialoogvenster [!DNL Target] UI en de [!DNL Adobe Analytics] UI voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46112)
+* De time-out voor aanroepen van PUTTEN naar de API voor doellevering is verhoogd tot 15 seconden om time-outfouten te voorkomen. (TGT-46091)
+* Probleem verholpen waarbij de onjuiste rapportnaam werd weergegeven bij het schakelen tussen de [!UICONTROL Table View] en de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten. (TGT-46040)
+* Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning DOM (Web Components). (TGT-45422)
+* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. (TGT-45983)
+* De mogelijkheid toegevoegd om een CSS-kiezer op te geven in de VEC. (TGT-45958 &amp; TGT-46017)
+* Probleem verholpen bij het openen van een pagina met één paginatoepassing (SPA) in de VEC en vervolgens bij het bladeren naar de modus Bladeren. Hierdoor functioneerden de pijlen Vorige en Volgende niet correct. (TGT-45956)
+* Probleem verholpen waardoor de URL niet constant kon worden bijgewerkt wanneer er door een website van de toepassing Eén pagina (SPA) werd gebladerd. (TGT-45417)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
