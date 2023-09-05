@@ -6,10 +6,10 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 11%
+source-wordcount: '505'
+ht-degree: 10%
 
 ---
 
@@ -19,21 +19,23 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Adobe Target] Upgrade van geplande infrastructuur {#edge}
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 september 2023)
 
-De geplande upgrade van de Edge-infrastructuur vereist extra IP of domeinen die moeten worden toegestaan. Herzie en sta-lijst van NATIONAAL en IP/domeinen voor randplaatsingen toe 41-48. De infrastructuurupgrades beginnen op 9 augustus 2023.
+Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
 
-Zie voor meer informatie [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} in de *Adobe Target Developer Guide*.
-
-## [!DNL Target] Standaard/Premium 23.8.1 (9 augustus 2023)
+* **6 september**: Amerikaanse regio
+* **7 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **11 september**: regio Azië-Stille Oceaan (APAC)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Probleem verholpen waardoor activiteiten soms niet correct konden worden gesynchroniseerd, zoals getoond in &quot;[!UICONTROL Status]&quot; kolom op de [!UICONTROL Activity] lijstpagina. (TGT-46010 &amp; TGT-44831)
-* Het probleem waarbij &#39; &#39; soms werd voorkomen, is opgelost.[!UICONTROL View in Analytics]&quot;-koppeling wordt niet weergegeven op de [!UICONTROL Reports] pagina met activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-45808)
-* De presentatie van waarden in tabellen is aangepast en wordt weergegeven als percentages in plaats van als getallen met decimalen. Bijvoorbeeld 8% in plaats van 0,08. (TGT-45548)
-* Probleem verholpen waardoor klanten niet de toetsenbordfocus konden gebruiken om naar het volgende element in het dialoogvenster [!UICONTROL Goals & Settings] pagina voor [!UICONTROL Experience Targeting] (XT) activiteiten. (TGT-44526)
-* Probleem verholpen waarbij focus van het toetsenbord verloren ging nadat &quot;[!UICONTROL Add audiences]&quot; tijdens het maken van een activiteit. (TGT-44525)
+* Probleem verholpen waarbij inconsistente rapportgegevens in het dialoogvenster [!DNL Target] UI en de [!DNL Adobe Analytics] UI voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46112)
+* De time-out voor aanroepen van PUTTEN naar de API voor doellevering is verhoogd tot 15 seconden om time-outfouten te voorkomen. (TGT-46091)
+* Probleem verholpen waarbij de onjuiste rapportnaam werd weergegeven bij het schakelen tussen de [!UICONTROL Table View] en de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten. (TGT-46040)
+* Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning DOM (Web Components). (TGT-45422)
+* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. (TGT-45983)
+* Probleem verholpen bij het openen van een pagina met één paginatoepassing (SPA) in de VEC en vervolgens bij het bladeren naar de modus Bladeren. Hierdoor functioneerden de pijlen Vorige en Volgende niet correct. (TGT-45956)
+* Probleem verholpen waardoor de URL niet constant kon worden bijgewerkt wanneer er door een website van de toepassing Eén pagina (SPA) werd gebladerd. (TGT-45417)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
@@ -42,7 +44,7 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 | [Opmerkingen bij de release: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
 | [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Details over de wijzigingen in elke versie van het dialoogvenster [!DNL Adobe Target] at.js JavaScript-bibliotheek. |
 
-## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release Experience Cloud
+## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
 Naast de notities voor elke release bevatten de volgende bronnen aanvullende informatie:
 
@@ -58,5 +60,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [Adobe Priority-productupdate](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] oplossingen. |
+| [Adobe Prioriteit productupdate](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] oplossingen. |
 | [Opmerkingen bij de doelversie - Prerelease](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |

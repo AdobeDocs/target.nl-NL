@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 * Probleem verholpen waarbij de onjuiste rapportnaam werd weergegeven bij het schakelen tussen de [!UICONTROL Table View] en de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten. (TGT-46040)
 * Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning DOM (Web Components). (TGT-45422)
 * Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. (TGT-45983)
-* De mogelijkheid toegevoegd om een CSS-kiezer op te geven in de VEC. (TGT-45958 &amp; TGT-46017)
 * Probleem verholpen bij het openen van een pagina met één paginatoepassing (SPA) in de VEC en vervolgens bij het bladeren naar de modus Bladeren. Hierdoor functioneerden de pijlen Vorige en Volgende niet correct. (TGT-45956)
 * Probleem verholpen waardoor de URL niet constant kon worden bijgewerkt wanneer er door een website van de toepassing Eén pagina (SPA) werd gebladerd. (TGT-45417)
 
