@@ -6,10 +6,10 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 10%
+source-wordcount: '406'
+ht-degree: 13%
 
 ---
 
@@ -31,10 +31,6 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 
 * Probleem verholpen waarbij inconsistente rapportgegevens in het dialoogvenster [!DNL Target] UI en de [!DNL Adobe Analytics] UI voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46112)
 * De time-out voor aanroepen van PUTTEN naar de API voor doellevering is verhoogd tot 15 seconden om time-outfouten te voorkomen. (TGT-46091)
-* Probleem verholpen waarbij de onjuiste rapportnaam werd weergegeven bij het schakelen tussen de [!UICONTROL Table View] en de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten. (TGT-46040)
-* Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning DOM (Web Components). (TGT-45422)
-* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. (TGT-45983)
-* Probleem verholpen bij het openen van een pagina met één paginatoepassing (SPA) in de VEC en vervolgens bij het bladeren naar de modus Bladeren. Hierdoor functioneerden de pijlen Vorige en Volgende niet correct. (TGT-45956)
 * Probleem verholpen waardoor de URL niet constant kon worden bijgewerkt wanneer er door een website van de toepassing Eén pagina (SPA) werd gebladerd. (TGT-45417)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
