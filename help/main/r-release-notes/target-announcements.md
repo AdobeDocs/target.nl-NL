@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2120'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,6 @@ ht-degree: 0%
 # [!DNL Adobe Target] aankondigingen en evenementen
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
-
-## [!DNL Adobe Target] Koffiepauze (30 augustus 2023)
-
-* **Onderwerp: &quot;Strategize for maximum ROI impact with peak year readiness&quot; webinar follow-up**
-* **Woensdag 30 augustus 2023**
-* **8:00-9:00 uur (PDT, UTC-7)**
-* **[Hier registreren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
-
-[!DNL Adobe Target] De deskundigen John Magnusson en John Mosbaugh zullen in dit vraag-me-om het even welk evenement beschikbaar zijn om uw vragen met betrekking tot de onderwerpen te beantwoorden die in de &quot;Strategize for maximum ROI impact met piekseizoenbereidheid&quot;webinar (17 augustus 2023) worden behandeld.
-
-+++Zie details
-
-Onderwerpen zijn onder meer:
-
-* Hoe te effectief om dashboards te creëren en zeer belangrijke metriek te melden
-* Onderzoek van de impact van elk marketingkanaal
-* Het verdiepen in klantengedrag en het winkelen tendensen
-* Het identificeren van slechte klantenervaringen en het verbeteren van hen door het testen
-* Gebieden aan mogelijkheden voor het aansturen van siteconversie
-
-+++
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
