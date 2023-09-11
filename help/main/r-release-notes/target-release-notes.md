@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,26 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 6 september 2023**
+**Laatst bijgewerkt: 11 september 2023**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
+
+## [!DNL Target] Standard/Premium 23.9.2 (12-14 september 2023)
+
+Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
+
+* **12 september**: Amerikaanse regio
+* **13 september**: regio Azië-Stille Oceaan (APAC)
+* **14 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* De [!DNL Analytics] API voor de nieuwe [!DNL Analytics] API versie 2.0. (TGT-45345)
+* Opgeloste problemen met gevolgen [!UICONTROL Automated Personalization] (AP) activiteiten voor sommige klanten, met inbegrip van het tijdig synchroniseren van de activiteit op [!DNL Target] back-end maken en de verwachte ervaring bieden met voorvertoningskoppelingen. (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (6-11 september 2023)
 
