@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b103d912b1ae953c44f2ad35da8a7ae83e7be2ae
+source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 11 september 2023**
+**Laatst bijgewerkt: 14 september 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,32 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 23.9.3 (18 september 2023)
+## [!DNL Target] Standard/Premium 23.9.2 (12-14 september 2023)
+
+Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
+
+* **12 september**: Amerikaanse regio
+* **13 september**: regio Azië-Stille Oceaan (APAC)
+* **14 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Verbeterde Composer van de Visuele Ervaring (VEC) om Bliksem DOM (de Componenten van het Web) te steunen. (TGT-45422)
-* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. (TGT-45983)
-* Probleem opgelost met VEC [!UICONTROL Overlay] gebruiken voor de ondersteuning van elementen in DOM&#39;s met schaduw. (TGT-46217)
-* Probleem verholpen bij het openen van een pagina met één paginatoepassing (SPA) in de VEC en vervolgens bij het bladeren naar de modus Bladeren. Hierdoor functioneerden de pijlen Vorige en Volgende niet correct. (TGT-45956)
-* Probleem verholpen waarbij sommige webpagina&#39;s mislukten tijdens het laden in de VEC.
+* De [!DNL Analytics] API voor de nieuwe [!DNL Analytics] API versie 2.0. (TGT-45345)
+* Opgeloste problemen met gevolgen [!UICONTROL Automated Personalization] (AP) activiteiten voor sommige klanten, met inbegrip van het tijdig synchroniseren van de activiteit op [!DNL Target] back-end maken en de verwachte ervaring bieden met voorvertoningskoppelingen. (TGT-46202)
+
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 september 2023)
+
+Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
+
+* **6 september**: Amerikaanse regio
+* **7 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **11 september**: regio Azië-Stille Oceaan (APAC)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Probleem verholpen waarbij inconsistente rapportgegevens in het dialoogvenster [!DNL Target] UI en de [!DNL Adobe Analytics] UI voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46112)
+* De time-out voor aanroepen van PUTTEN naar de API voor doellevering is verhoogd tot 15 seconden om time-outfouten te voorkomen. (TGT-46091)
+* Probleem verholpen waardoor de URL niet constant kon worden bijgewerkt wanneer er door een website van de toepassing Eén pagina (SPA) werd gebladerd. (TGT-45417)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
