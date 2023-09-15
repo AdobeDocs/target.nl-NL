@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
+source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,23 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 14 september 2023**
+**Laatst bijgewerkt: 15 september 2023**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
+
+## [!DNL Target] Standard/Premium 23.9.3 (18 september 2023)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning DOM (Web Components). (TGT-45422)
+* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. (TGT-45983)
+* Probleem opgelost met VEC [!UICONTROL Overlay] -functie, die nu elementen in DOM&#39;s met schaduw ondersteunt. (TGT-45202 &amp; TGT-45262)
+* Probleem verholpen bij het openen van een toepassingspagina voor één pagina (SPA) in de VEC en vervolgens naar [!UICONTROL Browse] De modus voor de pijlen Vorige en Volgende functioneren niet correct. (TGT-45956)
+* Probleem verholpen waardoor sommige webpagina&#39;s niet in de VEC konden worden geladen. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12-14 september 2023)
 
