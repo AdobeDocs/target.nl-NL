@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 15 september 2023**
+**Laatst bijgewerkt: 18 september 2023**
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning DOM (Web Components). (TGT-45422)
-* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. (TGT-45983)
+* Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning Web Components (Light DOM). (TGT-45422)
+* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. Hiermee corrigeert u ook de VEC-URL die nu wordt bijgewerkt wanneer u op ankerkoppelingen klikt. (TGT-45983)
 * Probleem opgelost met VEC [!UICONTROL Overlay] -functie, die nu elementen in DOM&#39;s met schaduw ondersteunt. (TGT-45202 &amp; TGT-45262)
 * Probleem verholpen bij het openen van een toepassingspagina voor één pagina (SPA) in de VEC en vervolgens naar [!UICONTROL Browse] De modus voor de pijlen Vorige en Volgende functioneren niet correct. (TGT-45956)
 * Probleem verholpen waardoor sommige webpagina&#39;s niet in de VEC konden worden geladen. (TGT-45983)
