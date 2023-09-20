@@ -4,9 +4,9 @@ description: Gebruiken [!DNL Analytics] for [!DNL Target] (A4T) om activiteiten 
 title: Wat is [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De [!DNL Analytics for Target] integratie tussen [!DNL Analytics] en [!DNL Targe
 De drie belangrijkste voordelen van het gebruik [!DNL Analytics] gegevens in [!DNL Target] zijn:
 
 * Marketers kunnen dynamisch toepassen [!DNL Analytics] succesmetriek of het melden van segmenten aan [!DNL Target] activiteitenverslagen op elk moment. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
-* Eén gegevensbron voorkomt de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
+* Een enkele gegevensbron voorkomt de variantie die optreedt wanneer gegevens in twee afzonderlijke systemen worden verzameld.
 * Uw bestaande [!DNL Analytics] alle vereiste gegevens worden verzameld. Het is niet nodig vakken op pagina&#39;s te implementeren om alleen gegevens voor rapporten te verzamelen.
 
 Als u [!DNL Analytics] als bron van rapportage voor een activiteit, alle rapportage en segmentering voor die activiteit is gebaseerd op [!DNL Analytics].
@@ -31,20 +31,20 @@ Alles [!DNL Analytics] metriek, inclusief berekende metriek, zijn beschikbaar in
 
 Elke metrisch is inbegrepen, met inbegrip van om het even welke douane of berekende metriek die ingebouwde zijn [!DNL Analytics].
 
-Na de indelingsperiode worden in deze rapporten ongeveer een uur na de verzameling gegevens van de website weergegeven. Alle metriek, segmenten, en waarden in de rapporten komen uit de rapportreeks u selecteerde toen u opstelling de activiteit.
+Na de rubriceringsperiode worden in deze rapporten ongeveer een uur na de verzameling gegevens van de website weergegeven. Alle metriek, segmenten, en waarden in de rapporten komen uit de rapportreeks u selecteerde toen u opstelling de activiteit.
 
 Houd rekening met de volgende punten wanneer u overweegt A4T te gebruiken:
 
 * Te gebruiken [!DNL Analytics] als bron van rapportage voor [!DNL Target], zowel u als uw bedrijf moeten toegang hebben tot [!DNL Analytics] en [!DNL Target]. [Neem contact op met uw accountvertegenwoordiger](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) als u een van beide oplossingen nodig hebt.
 * De bron van de rapportage wordt voor elke activiteit ingesteld. [!DNL Target] blijft gegevens verzamelen die bij de rapportage moeten worden gebruikt, en [!DNL Target] gegevens zijn nog steeds beschikbaar als u een activiteit liever baseert op gegevens die zijn verzameld door [!DNL Target].
 * Gebruik één rapporteringsbron of andere. U kunt geen gegevens verzamelen voor één activiteit uit beide bronnen.
-* Wanneer u A4T gebruikt, zijn alle succesmeetgegevens die beschikbaar zijn voor uw activiteiten [!DNL Analytics] metriek. Nochtans, kan uw doel metrisch worden gebaseerd op een mbox vraag als het gebruiken van at.js. Bijvoorbeeld, kunt u de uit-van-de-doos klikvolgende mogelijkheden van het Doel met A4T in plaats van het moeten uitvoeren [!DNL Analytics] code voor het bijhouden van klikken.
-* Bij het weergeven van rapporten over een A4T-activiteit in de [!DNL Target] UI, u bekijkt [!DNL Analytics] gegevens. Als u bijvoorbeeld de opdracht [!UICONTROL Visitor] metrisch in [!DNL Target], gebruikt u de [!DNL Analytics] [!UICONTROL Visitor] metrisch, niet [!DNL Target] [!UICONTROL Visitors] metrisch, die nu wordt genoemd [!UICONTROL Entrants]. Dit verschil is vooral belangrijk voor basisverkeersmetriek ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) en conversiemetriek.
-* Bestaande [!DNL Target] activiteiten blijven [!DNL Target] gegevensverzameling en worden niet beïnvloed door het inschakelen van A4T.
+* Wanneer u A4T gebruikt, zijn alle succesmeetgegevens beschikbaar voor uw activiteiten [!DNL Analytics] metriek. Nochtans, kan uw doel metrisch worden gebaseerd op een mbox vraag als het gebruiken van at.js. Bijvoorbeeld, kunt u de uit-van-de-doos klikvolgende mogelijkheden van het Doel met A4T in plaats van het moeten uitvoeren [!DNL Analytics] code voor het bijhouden van klikken.
+* Bij het weergeven van rapporten over een A4T-activiteit in de [!DNL Target] UI, u bekijkt [!DNL Analytics] gegevens. Als u bijvoorbeeld de opdracht [!UICONTROL Visitor] metrisch in [!DNL Target], gebruikt u de [!DNL Analytics] [!UICONTROL Visitor] metrisch, niet [!DNL Target] [!UICONTROL Visitors] metrisch, die nu wordt genoemd [!UICONTROL Entrants]. Dit verschil is vooral belangrijk voor basisverkeersmetriek ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) en conversiewaarden.
+* Bestaande [!DNL Target] activiteiten blijven gebruiken [!DNL Target] gegevensverzameling en worden niet beïnvloed door het inschakelen van A4T.
 * Bij het gebruik van A4T is slechts één metrische waarde op basis van een doos toegestaan.
 * Een server-aan-server vraag van [!DNL Target] tot [!DNL Analytics] verzendt activiteit en ervaringsinformatie naar [!DNL Analytics]. Deze integratie leidt niet tot extra serveraanroepen voor [!DNL Target] of [!DNL Analytics].
 
-   In sommige gevallen worden de classificaties van [!DNL Target] tot [!DNL Analytics] mislukken en activiteiten geven geen gegevens weer in [!DNL Analytics]. Zie [Los de Analytics en integratie van het Doel (A4T) problemen op](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). U kunt ook [Contact opnemen met de klantenservice](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) voor verdere bijstand.
+  In sommige gevallen worden de classificaties van [!DNL Target] tot [!DNL Analytics] mislukken en activiteiten geven geen gegevens weer in [!DNL Analytics]. Zie [De integratie van Analytics en Target (A4T) oplossen](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). U kunt [Contact opnemen met de klantenservice](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) voor verdere bijstand.
 
 ## A4T implementeren
 
@@ -58,7 +58,7 @@ De volgende secties bevatten informatie over ondersteunde activiteitstypen wanne
 |--- |--- |--- |
 | [A/B-activiteit met handmatige verkeersverdeling](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |  |
 | [A/B-activiteit met automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [A/B activiteit met AutoTarget](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nee |  |
+| [A/B activiteit met AutoTarget](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja (om.js)<P>Nee (Platform Web SDK) | A4T-ondersteuning voor Auto-Target-activiteiten wordt momenteel alleen ondersteund voor at.js. |
 | [Gericht op ervaring (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [MVT (Multivariate Test)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Vereist op mbox-Gebaseerd doel metrisch doel om te krijgen [!UICONTROL Element Contribution] verslag. De [!UICONTROL Element Contribution] rapport wordt momenteel niet ondersteund [!DNL Analytics] metriek. |
 | [Automated Personalization (AP)-activiteit](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nee |  |
@@ -93,7 +93,7 @@ Als u het rapport wilt weergeven in [!DNL Analytics] eerder dan in [!DNL Target]
 
 ## Analyse en doel: Best practices voor zelfstudie analyse {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Open de [Analyse en doel: Beste praktijken voor Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) zelfstudie, verstrekt door [!DNL Adobe Experience League].
+Open de [Analyse en doel: aanbevolen procedures voor analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) zelfstudie, verstrekt door [!DNL Adobe Experience League].
 
 ## Trainingsvideo&#39;s:
 
@@ -111,7 +111,7 @@ In deze video wordt uitgelegd hoe u deze video kunt gebruiken [!DNL Analytics] a
 
 ### Analytics / Adobe Target Integration (A4T) (40:33) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 
-Deze video is een opname van &quot; [Kantooruren](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot; een initiatief dat wordt geleid door het Adobe-team van de klantenservice.
+Deze video is een opname van &quot; [Kantooruren](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot; een initiatief dat wordt geleid door het Adobe-team voor klantenservice.
 
 * Hoe te opstelling en te bevestigen dat de integratie werkt
 * Hoe de integratie werkt
@@ -126,4 +126,3 @@ Deze video is een opname van &quot; [Kantooruren](/help/main/cmp-resources-and-c
 >* [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Wat is Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Bevat overzichtsinformatie over het Web SDK van het Platform.
 >* [Doeloverzicht](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): Bevat specifieke informatie voor [!DNL Target] en de [!DNL Platform Web SDK].
-
