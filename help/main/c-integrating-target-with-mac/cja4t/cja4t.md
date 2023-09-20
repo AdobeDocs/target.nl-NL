@@ -5,9 +5,9 @@ title: Wat is [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)?
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
+source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ Overweeg de volgende informatie alvorens de integratie te gebruiken CJA4T:
    * Als u een [Doelstandaard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) account, zie [Rollen en machtigingen opgeven](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers*.
    * Als u een [Doelpremie](/help/main/c-intro/intro.md#premium) account, zie [Rollen en machtigingen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Machtigingen voor Enterprise-gebruikers*.
 
+* U moet deel uitmaken van een rol in [!DNL Adobe Experience Platform] een [!DNL Target] activiteit met [!DNL Customer Journey Analytics] als de bron van de rapportage. Zie voor meer informatie [Een rol toevoegen in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *Machtigingen configureren* in de *Zelfstudie voor gegevensarchitect en engineer.*
 * Afhankelijk van uw instellingen kan de rapportage per activiteit of op organisatieniveau worden gewijzigd. Zie [Cloudoplossing rapporteren](/help/main/administrating-target/reporting.md#solution) in *Rapportage in doel configureren*.
 * Gebruik één rapporteringsbron of andere. U kunt geen gegevens voor één activiteit aan veelvoudige rapporteringsbronnen verzamelen.
 * Wanneer u instelt [!DNL Customer Journey Analytics] als rapportbron wordt u gevraagd de sandbox voor rapportage op te geven. Tijdens de configuratie ziet u alleen de sandboxen waartoe u toegang hebt.
