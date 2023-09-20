@@ -1,66 +1,68 @@
 ---
 keywords: activiteit montages;A/B doelstellingen en montages;het melden van montages;doel metriek;succesmetriek;afhankelijke succesmetriek;geavanceerde montages;primair doel;extra metriek;doelstelling;duur;het melden van oplossing;doel;publiek voor het melden;Welk succes metrisch moet worden bereikt alvorens deze metrisch te verhogen;Wat zal gebeuren nadat een gebruiker dit doel metrisch ontmoet;nota's
-description: Leer hoe u de pagina Doelstellingen en instellingen in Adobe gebruikt [!DNL Target] om informatie over de doelstellingen van een A/B-activiteit te specificeren.
+description: Leer hoe u de [!UICONTROL Goals and Settings] pagina in [!DNL Adobe Target] om informatie over de doelstellingen van een A/B-activiteit te specificeren.
 title: Hoe kan ik doelen en instellingen opgeven in een [!DNL Target] A/B-activiteit?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8682c24cf1740171dd2ce1862b3bdce1e2082869
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
 
 # Doelstellingen en instellingen
 
-De pagina Doelstellingen en instellingen in [!DNL Adobe Target] Hier voert u informatie in over de doelen van de test.
+De [!UICONTROL Goals & Settings] pagina in [!DNL Adobe Target] Hier geeft u informatie op over de doelen van de activiteit.
 
-Welke instellingen beschikbaar zijn, is afhankelijk van het feit of u Target gebruikt of [Analyse](/help/main/c-integrating-target-with-mac/a4t/a4t.md) als gegevensbron.
+Welke instellingen beschikbaar zijn, is afhankelijk van het feit of u Target gebruikt of [Analyse](/help/main/c-integrating-target-with-mac/a4t/a4t.md) als de bron van de rapportage.
 
-![Activiteitsinstellingen, dialoogvenster](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
-## Activiteiteninstellingen {#section_DCBDC354261F420EBD4B43EA34947BAC}
+De [!UICONTROL Activity Settings] van de [!UICONTROL Goals & Settings] Met deze pagina kunt u de volgende opties configureren:
 
 | Instellingen | Beschrijving |
 |--- |--- |
-| Doelstelling | Typ een optionele doelstelling. Het doel kan om het even welke informatie zijn die u en uw teamleden helpt de campagne identificeren. |
-| Prioriteit | Afhankelijk van uw instellingen variëren de interface en opties voor prioriteit. U kunt de oudere instellingen Laag, Normaal of Hoog gebruiken of u kunt fijnkorrelige prioriteiten van 0 tot en met 999 inschakelen.<br>De prioriteit wordt gebruikt als de veelvoudige activiteiten aan de zelfde plaats met het zelfde publiek worden toegewezen. Als twee of meer activiteiten aan de plaats worden toegewezen, de activiteit met de hoogste prioritaire vertoningen.<br>Als deze optie niet is ingeschakeld in [!UICONTROL Administration] (standaard) geeft u een prioriteit op: Laag, Normaal of Hoog. <br>Klik op  [!UICONTROL Administration] > [!UICONTROL Reporting]Schakel vervolgens de optie Fine-Grained Prioriteiten inschakelen in op de positie Aan. <br>Als deze optie is ingeschakeld, geeft u een waarde op tussen 0 en 999: 0 = Laag en 999 = Hoog. <br>Voor activiteiten die zijn gemaakt in eerdere versies van Target Standard/Premium wordt Lage prioriteit omgezet in 0, Normaal in 5 en Hoog in 10. U kunt deze waarden desgewenst aanpassen.<br>Opmerking: Voordat u deze optie kunt uitschakelen nadat u fijnkorrelige prioriteiten hebt gebruikt, moeten alle prioriteiten weer op 0, 5 en 10 worden ingesteld. |
+| [!UICONTROL Objective] | Typ een optionele doelstelling. Het doel kan om het even welke informatie zijn die u en uw teamleden helpt de activiteit identificeren. |
+| [!UICONTROL Priority] | Afhankelijk van uw instellingen worden [!DNL Target] UI en opties voor [!UICONTROL Priority] variëren. U kunt de oudere instellingen van [!UICONTROL Low], [!UICONTROL Medium], of [!UICONTROL High]of u kunt fijnkorrelige prioriteiten inschakelen van 0 tot en met 999.<P>De prioriteit wordt gebruikt als de veelvoudige activiteiten aan de zelfde plaats met het zelfde publiek worden toegewezen. Als twee of meer activiteiten aan de plaats worden toegewezen, de activiteit met de hoogste prioritaire vertoningen.<P>Als deze optie niet is ingeschakeld in [!UICONTROL Administration] (standaard) geeft u een prioriteit op: [!UICONTROL Low], [!UICONTROL Medium], of [!UICONTROL High].<P>Inschakelen [fijnkorrelige prioriteiten](/help/main/administrating-target/reporting.md), klikt u op [!UICONTROL Administration] > [!UICONTROL Reporting]en schakelt u vervolgens de [!UICONTROL Enable Fine-Grained Priorities] aan de positie &quot;Aan&quot;. <P>Als deze optie is ingeschakeld, geeft u een waarde op tussen 0 en 999: 0 = [!UICONTROL Low] en 999 = [!UICONTROL High]. <P>Voor activiteiten die in vorige versies van [!DNL Target], [!UICONTROL Low] prioriteit wordt omgezet in 0, [!UICONTROL Medium] wordt omgezet in 5, en [!UICONTROL High] wordt omgezet in 10. U kunt deze waarden desgewenst aanpassen.<P>Opmerking: voordat u deze optie kunt uitschakelen nadat u fijnkorrelige prioriteiten hebt gebruikt, moeten alle prioriteiten weer op 0, 5 en 10 worden ingesteld. |
 | Duur | De activiteit kan beginnen wanneer goedgekeurd, of u kunt een specifieke datum en een tijd plaatsen. Op dezelfde manier kan de activiteit eindigen wanneer deze wordt gedeactiveerd of kunt u een datum en tijd instellen. De tijdkiezer gebruikt een 24-uurs klok, waarbij 00:00 middernacht is. De tijdzone wordt geplaatst aan de tijdzone die in uw browser wordt gevormd. Als u een andere tijdzone wilt gebruiken, stelt u de browser in op een andere tijdzone en start u de browser opnieuw. |
 
-## Rapportinstellingen {#section_13119392051044FBA6387D9B3B1C43CF}
+## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
+
+De [!UICONTROL Reporting Settings] van de [!UICONTROL Goals & Settings] Met deze pagina kunt u de volgende opties configureren:
 
 | Instellingen | Beschrijving |
 |--- |--- |
-| Rapportagebron | Geef op of gegevens uit Adobe Target of Adobe Analytics worden verzameld. Zie [Adobe Analytics als rapportbron voor Doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) kennis te nemen van de verschillen tussen de rapporteringsoplossingen en de voordelen van beide.  Wanneer u Analytics selecteert als de rapporteringsbron voor Target, selecteert u een Analytics-rapportsuite die doelactiviteitgegevens ontvangt.<br>Hiervoor kiest u eerst een van de Analytics-bedrijven waaraan uw account is gekoppeld en selecteert u vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht voor verbinding met Adobe Target, zijn beschikbaar voor selectie. Als u de rapportsuite(s) die u verwacht niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de Adobe Experience Cloud om het opnieuw te proberen. Neem contact op met de klantenservice als de rapportsuite nog steeds ontbreekt in de lijst.<br>Als een rapportbron is opgegeven in uw accountinstellingen, wordt de opgegeven bron gebruikt en is deze instelling niet zichtbaar.<br>Opmerking: U kunt de rapportbron niet wijzigen nadat de activiteit live gaat om rapporten consistent te houden. |
-| Goal | Selecteer de actie die een bezoeker heeft ondernomen om het doel te bereiken. Kies bijvoorbeeld een omzettingsmetrische waarde en stel vervolgens de parameters in die bepalen wanneer succes wordt behaald.  Voor meer informatie over het plaatsen van metriek, zie [Metrisch instellen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md).<br>Opmerking: Als de rapporteringsoplossing aan Analytics wordt geplaatst, is enige beschikbare doel metrisch Omzetting. Metrische gegevens voor analyse kunnen niet als doel worden geselecteerd.   Wanneer u uw succesmetrisch selecteert, toont een selecteur. Gebruik deze kiezer om de specificaties voor de metrische succesmethode te kiezen.<br>Als deze optie is ingeschakeld, biedt de geschatte waarde van het veld Omzetting (niet beschikbaar voor de maatstaven van de paginascore) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan Target een geschatte lift in inkomsten berekenen. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Voor alle inkomstenmaatstaven (opbrengsten per bezoeker, gemiddelde bestelwaarde, totale verkoop en bestellingen) gebruikt de schatting de opbrengsten per bezoeker. Het gegevenstype is currency.<br>Na het bereiken van het activiteitendoel, blijft een bezoeker de activiteiteninhoud zien, tenzij die bezoeker voor een hogere prioritaire activiteit kwalificeert. Als de bezoeker het doel opnieuw bereikt, wordt het geteld als een andere conversie. Merk op dat dit verschillend is dan het standaardgedrag in Doel Klassiek, dat bezoekers als nieuw beschouwd als zij de test opnieuw zien. |
-| Aanvullende cijfers | Maak aanvullende succesmaatstaven.  Deze instelling is niet beschikbaar als de rapportoplossing is ingesteld op Analytics. In dit geval worden de maatstaven die voor de rapportsuite Analytics zijn gedefinieerd, toegepast. |
-| Soorten publiek voor rapportage | Standaard tonen rapporten resultaten voor alle gekwalificeerde bezoekers. U kunt rapportdoelgroepen toevoegen om alleen informatie over specifieke doelgroepen weer te geven.  Deze instelling is niet beschikbaar als u Analytics kiest als uw rapportoplossing. Het publiek dat voor de het rapportreeks van Analytics wordt bepaald wordt toegepast. |
+| [!UICONTROL Reporting Source] | Opgeven of gegevens moeten worden verzameld [!DNL Adobe Target] of van [!DNL Adobe Analytics]. Zie [Adobe Analytics als rapportbron voor Doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) kennis te nemen van de verschillen tussen de rapporteringsoplossingen en de voordelen van beide. Als u [!DNL Analytics] als bron van rapportage voor [!DNL Target]selecteert u een [!DNL Analytics] te ontvangen rapportsuite [!DNL Target] activiteitsgegevens.<P>Als u een rapportbron wilt opgeven, kiest u eerst een van de volgende opties [!DNL Analytics] bedrijven waaraan uw account is gekoppeld, en selecteer vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht voor verbinding met [!DNL Adobe Target] zijn beschikbaar voor selectie. Als u niet de rapportsuites ziet die u verwacht, probeer eerst het registreren uit en het registreren terug aan [!DNL Adobe Experience Cloud] om het opnieuw te proberen. Als de rapportsuite nog steeds ontbreekt in de lijst, neemt u contact op met de klantenservice.<P>Als een rapportbron is opgegeven in uw accountinstellingen, wordt de opgegeven bron gebruikt en is deze instelling niet zichtbaar.<P>Opmerking: u kunt de rapportbron niet wijzigen nadat de activiteit actief is geworden om rapporten consistent te houden. |
+| [!UICONTROL Goal Metric] | Selecteer de actie die een bezoeker heeft ondernomen om het doel te bereiken. Kies bijvoorbeeld een [!UICONTROL Conversion] metrisch, dan plaats de parameters die bepalen wanneer het succes wordt bereikt. Voor meer informatie over het plaatsen van metriek, zie [Metrisch instellen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md).<P>Opmerking: als de rapportoplossing is ingesteld op [!DNL Analytics], de enige beschikbare doelstelling metrisch is [!UICONTROL Conversion]. [!DNL Analytics] metriek kan niet als doel worden geselecteerd. Wanneer u uw succesmetrisch selecteert, toont een selecteur. Gebruik deze kiezer om de specificaties voor de succesmetrische gegevens te kiezen.<P>Indien ingeschakeld, wordt de [!UICONTROL Estimated Value of the Conversion] veld (niet beschikbaar voor de [!UICONTROL Page Score] metriek) verstrekt een waarde voor uw doel, maar niet voor andere metriek. Deze waarde schakelt [!DNL Target] een geraamde verhoging van de inkomsten te berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Voor alle inkomstenmetriek ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], en [!UICONTROL Orders]), [!UICONTROL Revenue per Visitor]. Het gegevenstype is currency.<P>Na het bereiken van het activiteitendoel, blijft een bezoeker de activiteiteninhoud zien, tenzij die bezoeker voor een prioritaire activiteit kwalificeert. Als de bezoeker het doel opnieuw bereikt, wordt het geteld als een andere conversie. Dit verschilt van het standaardgedrag in [!DNL Target Classic], die bezoekers als nieuw beschouwt als ze de activiteit weer zien. |
+| [!UICONTROL Additional Metrics] | Maak aanvullende succeswaarden. Deze instelling is niet beschikbaar als de rapportoplossing is ingesteld op [!DNL Analytics]. In dit geval worden de maatstaven voor de [!DNL Analytics] rapportsuite wordt toegepast. |
+| [!UICONTROL Audiences for Reporting] | Standaard tonen rapporten resultaten voor alle gekwalificeerde bezoekers. U kunt rapportpubliek toevoegen om informatie over slechts specifieke doelgroepen te tonen. Deze instelling is niet beschikbaar als u [!DNL Analytics] als uw rapportoplossing. Het publiek dat is gedefinieerd voor de [!DNL Analytics] rapportsuite is toegepast. |
 
 ## Geavanceerde instellingen {#section_E2FE441AFB324E498793ABB025ED9974}
 
-De geavanceerde montages zijn beschikbaar voor de doelstellingen van de Test van A/B metriek.
+De [!UICONTROL Advanced Settings] van de [!UICONTROL Goals & Settings] Met deze pagina kunt u de volgende opties configureren:
+
+Klik op de knop **[!UICONTROL More]** pictogram (de verticale ellips) en klik vervolgens op **[!UICONTROL Advanced Settings]**, zoals in de volgende afbeelding wordt getoond.
 
 ![Het menu Geavanceerde instellingen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
->Als u Adobe Analytics als rapportbron gebruikt, worden de instellingen beheerd door de Analyseserver. De optie Geavanceerde instellingen is niet beschikbaar.
+>Als u [!DNL Adobe Analytics] als uw rapporteringsbron, worden de montages beheerd door [!DNL Analytics] server. De optie Geavanceerde instellingen is niet beschikbaar.
 
 ![Geavanceerde instellingen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
 
 | Instelling | Beschrijving |
 |--- |--- |
-| Welk succes metrisch moet worden bereikt alvorens deze metrisch te verhogen? | Gebruik deze optie als u alleen wilt tellen dat iemand de maatstaf voor succes heeft bereikt als hij of zij eerder een andere maatstaf voor succes heeft bereikt. Een testconversie is bijvoorbeeld alleen geldig als de bezoeker op de aanbieding klikt of een bepaalde pagina bereikt voordat deze wordt omgezet.  U kunt gebiedsdeel op veelvoudige metriek samen met de flexibiliteit verstrekken om te kiezen of metrisch zou moeten worden bereikt of niet voor de telling om worden bereikt te verhogen.  U moet beide (of veelvoudige) succesmetriek bepalen alvorens u één van een andere kunt afhankelijk maken.  Met de optie Afhankelijkheid toevoegen kan metrisch met succes worden verhoogd als een andere succesmetrische waarde is bereikt of niet is bereikt.  Een afhankelijkheid toevoegen:<ul><li>Klik op Geavanceerde instellingen nadat u aanvullende gegevens hebt toegevoegd.</li><li>Klik op de optie Afhankelijkheid toevoegen:</li><li>Sleep de gewenste metriek van het linkerdeelvenster naar het rechterdeelvenster en klik vervolgens op Geëxisteerd om de instelling tussen Gehaald en Niet bereikt te wijzigen.</li><li>U kunt afhankelijkheden bewerken of verwijderen nadat u deze hebt toegevoegd.</li></ul> |
-| Wat zal gebeuren nadat een gebruiker dit doel metrisch ontmoet? | Er zijn drie opties voor wat gebeurt wanneer een bezoeker het doel metrisch bereikt:<ul><li>Selecteer Aantal verhogen en Gebruiker in activiteit houden om te specificeren hoe de telling wordt verhoogd.</li><li>Selecteer Aantal verhogen, Gebruiker vrijgeven &amp; Opnieuw invoeren toestaan om de ervaring op te geven die de gebruiker ziet als hij of zij de activiteit opnieuw betreedt.</li><li>Selecteer Aantal verhogen, Gebruiker vrijgeven &amp; Staaf van Opnieuw invoeren om op te geven wat de gebruiker ziet in plaats van de inhoud van de activiteit.</li></ul> |
-| Hoe wordt het aantal verhoogd? | Er zijn drie opties voor de verhoging van het aantal:<ul><li>Eenmaal per Enter</li><li>Bij elke afdruk (met uitzondering van pagina-vernieuwingen)</li><li>Bij elke indrukking</li></ul> |
+| [!UICONTROL Which success metric must be reached before incrementing this metric?] | Gebruik deze optie om slechts iemand te tellen zoals het bereiken van metrisch succes als zij eerder een verschillend succes metrisch hebben bereikt. Een activiteitconversie is bijvoorbeeld alleen geldig als de bezoeker op het aanbod klikt of een bepaalde pagina bereikt voordat de conversie plaatsvindt. U kunt gebiedsdeel op veelvoudige metriek samen met de flexibiliteit verstrekken om te kiezen of metrisch zou moeten worden bereikt of niet voor de telling om worden bereikt te verhogen. Definieer beide (of meerdere) succeswaarden voordat u de ene afhankelijk van de andere kunt maken. De [!UICONTROL Add Dependency] optie staat succesmetrisch toe om te verhogen als een ander succes metrisch is bereikt of niet bereikt. Een afhankelijkheid toevoegen:<ul><li>Klik op [!UICONTROL Advanced Settings].</li><li>Klik op de knop [!UICONTROL Add Dependency] optie:</li><li>Sleep de gewenste metriek vanuit het linkerdeelvenster naar het rechterdeelvenster en klik vervolgens op [!UICONTROL Reached] om de instelling tussen [!UICONTROL Reached] en[!UICONTROL  Not Reached].</li><li>U kunt afhankelijkheden bewerken of verwijderen nadat u deze hebt toegevoegd.</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | Er zijn drie opties voor wat gebeurt wanneer een bezoeker het doel metrisch bereikt:<ul><li>Selecteren [!UICONTROL Increment Count & Keep User in Activity] om op te geven hoe het aantal wordt verhoogd.</li><li>Selecteren [!UICONTROL Increment Count, Release User & Allow Reentry] om de ervaring op te geven die de gebruiker ziet als hij of zij de activiteit opnieuw betreedt.</li><li>Selecteren [!UICONTROL Increment Count, Release User & Bar from Reentry] om op te geven wat de gebruiker te zien krijgt in plaats van de inhoud van de activiteit.</li></ul> |
+| [!UICONTROL How will the count be incremented?] | Er zijn drie opties voor de verhoging van het aantal:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 Zie [Succeswaarden](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) voor meer informatie over geavanceerde instellingen.
 
 ## Andere metagegevens {#section_2E8917BEFB954480A4206B9E9E917F80}
 
-| Instellingen | Beschrijving |
-|---|---|
-| Notities | Typ alle informatie over uw activiteiten die u voor uzelf of andere teamleden kunt gebruiken. U kunt het formaat van het deelvenster Notities wijzigen. |
+De [!UICONTROL Other Metadata] van de [!UICONTROL Goals & Settings] op de pagina kunt u alle informatie over uw activiteiten opgeven die nuttig is om voor uzelf of andere teamleden beschikbaar te houden. U kunt het formaat van het deelvenster Notities wijzigen.|
 
 ## Trainingsvideo&#39;s
 
@@ -76,7 +78,7 @@ Deze video bevat informatie over instellingen voor activiteit.
 * Voeg publiek voor rapportering toe om rapportfilters tot stand te brengen
 * Notities invoeren voor uw activiteiten
 
-(https://video.tv.adobe.com/v/17381)
+https://video.tv.adobe.com/v/17381)
 
 ### A/B-tests maken (8:36) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 

@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,23 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 * Probleem verholpen waarbij inconsistente rapportgegevens in het dialoogvenster [!DNL Target] UI en de [!DNL Adobe Analytics] UI voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46112)
 * De time-out voor aanroepen van PUTTEN naar de API voor doellevering is verhoogd tot 15 seconden om time-outfouten te voorkomen. (TGT-46091)
 * Probleem verholpen waardoor de URL niet constant kon worden bijgewerkt wanneer er door een website van de toepassing Eén pagina (SPA) werd gebladerd. (TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2 (nog te bepalen datum)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Selectie van optimalisatiecriteria ingeschakeld voor [!DNL Adobe Analytics] metriek.
+* Synchronisatie van externe doelgroepen inschakelen met gebruik van slingertaken.
+* Probleem verholpen waarbij SC-rapportsuites met een puntteken in de naam niet werden ondersteund.
+* Ingeschakelde functionaliteit waarmee klanten ingebouwde doelgroepen kunnen verwijderen en bewerken.
+
+## [!DNL Target] Standard/Premium 23.5.3 (nog te bepalen datum)
+
+Deze release bevat de volgende verbeteringen:
+
+| Functie | Details |
+|--- |--- |
+| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activiteiten | [!DNL Adobe Target] [!UICONTROL QA mode] is nu beschikbaar voor [!UICONTROL Automated Personalization] activiteiten, vervangen [!UICONTROL Preview links] functionaliteit.<P>Zie voor meer informatie [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

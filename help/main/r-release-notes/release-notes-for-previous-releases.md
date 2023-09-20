@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '36556'
+source-wordcount: '36539'
 ht-degree: 0%
 
 ---
@@ -2933,10 +2933,6 @@ De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende 
   <tr> 
    <td colname="col1"> Ervaar versies </td> 
    <td colname="col2"> <p>Versies die gericht zijn op verschillende doelgroepen kunnen nu worden opgezet binnen de ervaringen in A/B-activiteiten. </p> <p>Zie <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local"> Een ervaring voor meerdere doelgroepen </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> URL's voor kwaliteitscontrole/voorvertoning </td> 
-   <td colname="col2"> <p>Voorbeeld-URL's zijn nu beschikbaar voor de op formulieren gebaseerde ervaringscomposer. </p> <p>Zie <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> Ervaring-URL's weergeven </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Aangepaste Recommendations-algoritmen </td> 

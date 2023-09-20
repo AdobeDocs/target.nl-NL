@@ -1,132 +1,203 @@
 ---
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;geautomatiseerde verpersoonlijking;controle;standaardervaring;beste praktijken
-description: Ontdek een lijst met veelgestelde vragen (FAQ's) en antwoorden over Automated Personalization (AP)-activiteiten in Adobe Target.
-title: Hoe kan ik veelgestelde vragen over Automated Personalization-activiteiten vinden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: Ontdek een lijst met veelgestelde vragen (FAQ's) en antwoorden over [!UICONTROL Automated Personalization] (AP) [!UICONTROL Adobe Target].
+title: Hoe kan ik veelgestelde vragen vinden over [!UICONTROL Automated Personalization] Activiteiten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over Automated Personalization
 
-Lijst met veelgestelde vragen (FAQ&#39;s) over Automated Personalization (AP).
+Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UICONTROL Automated Personalization] activiteiten in [!DNL Adobe Target].
 
-## Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
+## Kan ik een specifieke ervaring specificeren die als controle in een [!UICONTROL Automated Personalization] activiteit?
 
-U kunt een ervaring selecteren die u als controle wilt gebruiken tijdens het maken van een [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
++++Zie details
+
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
 Zie voor meer informatie [Een specifieke ervaring gebruiken als besturingselement](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
-## Hoe kan ik Automated Personalization vergelijken met een standaardervaring? {#section_46C1A620A2384C2C8392D6716DD18495}
++++
 
-Er is geen optie om AP met een andere toets te vergelijken met een standaardervaring. Nochtans, als een oplossing, als een standaardaanbieding of een ervaring als deel van de algemene activiteit bestaat, om zijn basislijnprestaties te begrijpen kunt u het &quot;Controle&quot;segment in de rapporten klikken en van die bepaalde aanbieding in het resulterende aanbod-vlakke rapport de plaats bepalen. De voor deze aanbieding geregistreerde omrekeningskoers kan worden gebruikt om met het gesprekstarief van het volledige segment &quot;Random Forest&quot; te vergelijken. Dit helpt om te vergelijken hoe de machine in vergelijking met het standaardaanbod doet.
+## Hoe kan ik vergelijken? [!UICONTROL Automated Personalization] voor een standaardeigenschap? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-## Wat zijn de beste praktijken om een activiteit van Automated Personalization op te zetten? {#section_E155B26282BE49B58EA2683413D11DE6}
++++Zie details
 
-* Als u een pagina met minder verkeer wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u personaliseert, denk na gebruikend auto-Doel in plaats van Automated Personalization. Zie [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
-* Overweeg een A/B-activiteit uit te voeren tussen de aanbiedingen en locaties die u in uw Automated Personalization-activiteit wilt gebruiken om te controleren of de locatie(s) en aanbiedingen van invloed zijn op de optimalisatiedoelstelling. Indien een A/B-activiteit geen significant verschil aantoont, zal Automated Personalization waarschijnlijk ook geen lift genereren.
+Er is geen optie voor het vergelijken met een andere toets [!UICONTROL Automated Personalization] in een standaardervaring. Als een oplossing echter een standaardaanbieding of -ervaring bestaat als onderdeel van de algemene activiteit, klikt u op &quot;[!UICONTROL Control]&quot;in rapporten te segmenteren en die specifieke aanbieding te vinden in het resulterende aanbiedingsniveau-rapport. De voor deze aanbieding geregistreerde omrekeningskoers kan worden gebruikt om met het gesprekstarief van het volledige segment &quot;Random Forest&quot; te vergelijken. Dit helpt om te vergelijken hoe de machine in vergelijking met het standaardaanbod doet.
 
-   * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, waarschijnlijk zijn de aanbiedingen u overweegt niet voldoende verschillend van elkaar, beïnvloeden de plaatsen u selecteerde niet succesmetrisch, of het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
++++
 
-* Zorg ervoor dat u de [Verkeersschatting](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) zodat u een idee hebt van hoe lang het zal duren voor personalisatiemodellen in uw Automated Personalization activiteit bouwen.
-* Beslis over de toewijzing tussen controle en gericht alvorens met de activiteit te beginnen die op uw doelstellingen wordt gebaseerd.
+## Wat zijn de beste werkwijzen om een [!UICONTROL Automated Personalization] activiteit? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-   Er zijn drie scenario&#39;s om te overwegen gebaseerd op het doel van uw activiteit en het type van controle u hebt geselecteerd:
++++Zie details
 
-   * **Willekeurige Ervaringen als uw controle en uw activiteitendoel is de doeltreffendheid van het verpersoonlijkingsalgoritme te testen**: Als je het personalisatiealgoritme wil evalueren, dan wil je een nauwkeuriger beeld van je lift hebben. U wilt waarschijnlijk ook vergelijken met wat de omrekeningskoers voor uw ervaringen/aanbiedingen zou zijn als u eenvoudig een A/B Test (een willekeurig bediende controle) zou doen. In die situatie wordt het gebruik van een 50%-toewijzing voor een controle van willekeurig bediende ervaringen aanbevolen.
-   * **&quot;Willekeurige Ervaringen&quot;aangezien uw controle en uw activiteitendoel gepersonaliseerd verkeer moet maximaliseren**: Als u vertrouwd bent met het algoritme en de maximumhoeveelheid verkeer gepersonaliseerd wilt hebben, wordt een 10% tot 30% toewijzing aan controle geadviseerd. De handel hier is de nauwkeurigheid u in uw liftinformatie zult kunnen zien (aangezien de betrouwbaarheidsintervallen van uw controleverkeer groter zullen zijn omdat er minder verkeer dat aan hen stroomt).
-   * **Specifieke Ervaring als uw controle, met één van beide doeltype**: Als u een specifieke markeringsgedreven ervaring met de verpersoonlijkingsmodellen wilt vergelijken, wordt een 10% tot 30% toewijzing aan controle geadviseerd. Wanneer u slechts één ervaring als controle selecteert, dan wordt dat verkeer niet verspreid over elke aanbieding/ervaring in de activiteit.
+* Als u een laag-verkeerspagina wilt personaliseren, of u wilt structurele veranderingen in de ervaring aanbrengen u zich personaliseert, denk na gebruikend [!UICONTROL Auto-Target] in plaats van [!UICONTROL Automated Personalization]. Zie [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+* Overweeg een [!UICONTROL A/B Test] activiteit tussen de aanbiedingen en plaatsen die u in uw wilt gebruiken [!UICONTROL Automated Personalization] activiteiten om ervoor te zorgen dat de locatie en de aanbiedingen van invloed zijn op de optimalisatiedoelstelling. Als een [!UICONTROL A/B Test] de activiteit heeft geen significant verschil aangetoond; [!UICONTROL Automated Personalization] er kan ook geen lift worden gegenereerd.
+
+   * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, is één of meer van de volgende situaties waarschijnlijk verantwoordelijk:
+
+      * De aanbiedingen verschillen waarschijnlijk niet voldoende van elkaar.
+      * De locaties die u hebt geselecteerd, hebben geen invloed op de succesmetrische gegevens.
+      * Het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
+
+* Zorg ervoor dat u de [Verkeersschatting](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) zodat u een idee kunt hebben hoe lang het duurt voor verpersoonlijkingsmodellen om in uw [!UICONTROL Automated Personalization] activiteit.
+* Beslis over de toewijzing tussen de controle en gericht alvorens de activiteit te beginnen, die op uw doelstellingen wordt gebaseerd.
+
+  Er zijn drie scenario&#39;s om te overwegen gebaseerd op het doel van uw activiteit en het type van controle u hebt geselecteerd:
+
+   * **Willekeurige Ervaringen als uw controle en uw activiteitendoel is de doeltreffendheid van het verpersoonlijkingsalgoritme te testen**: Als je het personalisatiealgoritme wilt evalueren, wil je een nauwkeuriger beeld van lift hebben. U wilt waarschijnlijk ook vergelijken wat de conversiekoers voor uw ervaringen of aanbiedingen is als u gewoon een [!UICONTROL A/B Test] (een willekeurig bediende controle). In die situatie wordt het gebruik van een 50%-toewijzing voor een controle van willekeurig bediende ervaringen aanbevolen.
+   * **&quot;Willekeurige Ervaringen&quot;aangezien uw controle en uw activiteitendoel gepersonaliseerd verkeer moet maximaliseren**: Als u vertrouwd bent met het algoritme en de maximumhoeveelheid verkeer gepersonaliseerd wilt hebben, wordt een 10% tot 30% toewijzing aan controle geadviseerd. De handel hier is de nauwkeurigheid die je in je liftinformatie ziet. De betrouwbaarheidsintervallen van uw controleverkeer zijn groter omdat er minder verkeer dat aan hen stroomt.
+   * **Specifieke Ervaring als uw controle, met één van beide doeltype**: Als u een specifieke markeringsgestuurde ervaring wilt vergelijken met de personalisatiemodellen, wordt een 10 tot 30%-toewijzing voor controle aanbevolen. Wanneer u slechts één ervaring als controle selecteert, wordt dat verkeer niet verspreid over elke aanbieding of ervaring in de activiteit.
 
 * De gerichte regels zouden zo spaarzaam mogelijk moeten worden gebruikt omdat zij het vermogen van het model om te optimaliseren kunnen verhinderen.
-* Rapportagegroepen kunnen het succes van je Automated Personalization-activiteiten beperken. Zij mogen alleen onder specifieke omstandigheden worden gebruikt.
+* Rapporterende groepen kunnen het succes van uw [!UICONTROL Automated Personalization] activiteit. Gebruik alleen rapportgroepen onder specifieke omstandigheden:
 
-   * Gebruik alleen rapportgroepen als aan de volgende voorwaarden is voldaan: (1) u van plan bent nieuwe aanbiedingen te vervangen of toe te voegen terwijl de activiteit actief is, (2) de aanbiedingen in de rapportagegroep richten zich tot dezelfde bezoekers en (3) de aanbiedingen in die rapportagegroep hebben ongeveer hetzelfde totale responspercentage.
-   * Er is geen personalisatie tussen aanbiedingen in een rapportagegroep: de aanbiedingen worden door het personaliseringsmodel op dezelfde wijze behandeld .
-   * Plaats nooit alle aanbiedingen in een activiteit in één rapporteringsgroep. Dit besluit zal ertoe leiden dat alle aanbiedingen gelijkmatig willekeurig aan alle bezoekers in de activiteit worden betekend.
+   * Gebruik alleen rapportgroepen als aan de volgende voorwaarden is voldaan:
 
-## Veelgestelde vragen
+      * U bent van plan nieuwe aanbiedingen te vervangen of toe te voegen terwijl de activiteit loopt.
+      * De aanbiedingen in de rapportagegroep doen een beroep op dezelfde bezoekers.
+      * De aanbiedingen in die rapportagegroep hebben ongeveer hetzelfde totale responspercentage.
 
-Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UICONTROL Automated Personalization] activiteiten:
+   * Er is geen personalisatie tussen aanbiedingen in een rapportagegroep. De aanbiedingen worden allemaal op dezelfde manier behandeld door het personalisatiemodel.
+   * Plaats nooit alle aanbiedingen in een activiteit in één rapporteringsgroep. Hierdoor worden alle aanbiedingen gelijkmatig willekeurig aan alle bezoekers in de activiteit aangeboden.
 
-### Wat zijn enkele limieten in Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
++++
+
+## Wat zijn enkele limieten in [!UICONTROL Automated Personalization]? {#section_08BA09ED51B547299963C94FE6417CFA}
+
++++Zie details
 
 [!DNL Target] heeft een harde grens van 30.000 ervaringen, maar het functioneert op zijn best wanneer minder dan 10.000 ervaringen worden gecreeerd.
 
-Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Dissalow Duplicates] optie.
+Deze limiet wordt ook toegepast als de activiteit de optie [!UICONTROL Disalow Duplicates] -optie.
 
-### Hoe wordt het aanbieden-niveau richten uitgevoerd? {#section_9D7A86EA93D74E9B8C81072A681263A4}
+Voor meer informatie over tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, waarden, parameters, enzovoort) die van invloed zijn op activiteiten en andere elementen in [!DNL Target], zie [Limieten](/help/main/r-troubleshooting-target/target-limits.md).
 
-Wanneer elke bezoeker aankomt, wordt de reeks mogelijke aanbiedingen die de bezoeker kan zien bepaald door de aanbiedingsniveau richtingsregels. Dan, kiest het algoritme de aanbieding die het model voorspelt de beste verwachte opbrengst of de kans van omzetting van onder die aanbiedingen zal hebben. Het aanbieden van gerichte toepassingen heeft invloed op de effectiviteit van de computerleeralgoritmen van Target en moet daarom zo spaarzaam mogelijk worden gebruikt.
++++
 
-### Mijn activiteit laat geen lift zien. Wat is er aan de hand? {#section_BFA07C8C258F45318F73A461B8F32737}
+## Hoe wordt het aanbieden-niveau richten uitgevoerd? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
-Er zijn vier factoren vereist voor een AP-activiteit om lift te genereren:
++++Zie details
 
-* De aanbiedingen op elke locatie moeten verschillend genoeg zijn om bezoekers te beïnvloeden.
-* De plaatsen moeten ergens zijn die een verschil aan het optimalisatiedoel maakt.
-* Er moet voldoende verkeer en statistische kracht in de activiteit aanwezig zijn om de lift te kunnen detecteren.
+Wanneer elke bezoeker aankomt, wordt de reeks mogelijke aanbiedingen die de bezoeker kan zien bepaald door de aanbiedingsniveau richtingsregels. Dan, kiest het algoritme de aanbieding die het model voorspelt de beste verwachte opbrengst of de kans van omzetting van onder die aanbiedingen heeft. Het richten van aanbiedingen beïnvloedt de doeltreffendheid van [!DNL Target] machinaal leeralgoritmen en moeten daarom zo spaarzaam mogelijk worden gebruikt.
+
++++
+
+## Waarom is mijn [!UICONTROL Automated Personalization] activiteit zonder lift aan te geven? {#section_BFA07C8C258F45318F73A461B8F32737}
+
++++Zie details
+
+Er zijn vier factoren vereist voor een [!UICONTROL Automated Personalization] activiteit om lift te genereren:
+
+* De aanbiedingen op elke locatie moeten verschillend genoeg zijn om de bezoekers te beïnvloeden.
+* De locaties moeten zich ergens bevinden die een verschil maken met het optimalisatiedoel.
+* De activiteit moet voldoende verkeer en statistische kracht hebben om de lift te kunnen detecteren.
 * Het verpersoonlijkingsalgoritme moet goed werken.
 
-De beste manier van werken is eerst ervoor te zorgen dat de inhoud en de locaties waaruit de activiteitenervaringen bestaan daadwerkelijk een verschil maken met de totale responspercentages met behulp van een eenvoudige, niet-gepersonaliseerde A/B-test. Zorg ervoor dat u de monstergrootten vooraf berekent om ervoor te zorgen dat er voldoende kracht is om een redelijke lift te zien en de A/B-test voor een vaste duur uit te voeren zonder deze te stoppen of wijzigingen aan te brengen. Als een A/B-testresultaten statistisch significante lift op een of meer van de ervaringen laten zien, is het waarschijnlijk dat een gepersonaliseerde activiteit zal werken. Natuurlijk kan personalisatie werken zelfs als er geen verschillen zijn in de totale responspercentages van de ervaringen. Doorgaans is het probleem het gevolg van aanbiedingen/locaties die niet voldoende invloed hebben op het optimalisatiedoel en die statistisch significant moeten worden opgespoord.
+De beste manier van werken is eerst ervoor te zorgen dat de inhoud en de locaties waaruit de activiteitenervaringen bestaan daadwerkelijk een verschil maken met de totale responspercentages, met behulp van een eenvoudige, niet-gepersonaliseerde [!UICONTROL A/B Test] activiteit. Zorg ervoor dat u de monstergrootten vooraf berekent om ervoor te zorgen dat er voldoende kracht is om een redelijke lift te zien en de A/B-test voor een vaste duur uit te voeren zonder deze te stoppen of wijzigingen aan te brengen. Als uit de resultaten van de A/B-test statistisch significante lift op een of meer ervaringen blijkt, is het waarschijnlijk dat een gepersonaliseerde activiteit succesvol is. Personalisatie kan ook werken als er geen verschillen zijn in de totale responspercentages van de ervaringen. Doorgaans is het probleem het gevolg van aanbiedingen of locaties die onvoldoende effect hebben op het optimalisatiedoel en die statistisch significant moeten worden opgespoord.
 
 Voor meer informatie, [Problemen met Automated Personalization oplossen](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
-### Hoe wijst Automated Personalization het verkeer van mijn activiteiten toe? {#section_4369364F77804E0D9B78BEE551DA5659}
++++
 
-Automated Personalization leidt bezoekers naar de ervaring die de hoogst voorspelde succesmaatstaf heeft gebaseerd op de meest recente [Willekeurig bos](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) modellen die voor elk model zijn gemaakt. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
+## Hoe wordt [!UICONTROL Automated Personalization] het verkeer van mijn activiteit toewijzen? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-Stel bijvoorbeeld dat een AP-activiteit twee locaties had met elk twee aanbiedingen. Op de eerste locatie wordt voor Offer A een omrekeningskoers van 3% voor een specifieke bezoeker voorspeld en voor Aanbieding B een omrekeningskoers van 1%. Op de tweede locatie wordt voor Offer C een omrekeningskoers van 2% voor dezelfde bezoeker voorspeld, terwijl Offer D een omrekeningskoers van 5% heeft. Automated Personalization zou deze bezoeker dan ook een ervaring bieden met voorstel A en aanbod D.
++++Zie details
 
-### Wanneer moet ik mijn Automated Personalization-activiteiten stopzetten? {#section_C51F3DAB8887463BB147373F6FE06B93}
+[!UICONTROL Automated Personalization] leidt bezoekers naar de ervaring die het hoogst voorspelde succes metrisch gebaseerd op het meest recente heeft [Willekeurig bos](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) modellen die voor elk model zijn gemaakt. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
 
-Automated Personalization kan worden gebruikt als &#39;altijd op&#39;-personalisatie die voortdurend wordt geoptimaliseerd. Met name voor steeds groene inhoud is het niet nodig om je Automated Personalization-activiteiten te stoppen. Als u substantiële veranderingen in de inhoud wilt aanbrengen die niet aan aanbiedingen momenteel in uw Automated Personalization activiteit gelijkaardig zijn, is de beste praktijk om een nieuwe activiteit te beginnen zodat andere gebruikers die rapporten herzien geen verwarrings of betrekking hebben verleden resultaten met verschillende inhoud.
+Stel bijvoorbeeld dat een [!UICONTROL Automated Personalization] de activiteit had twee locaties met elk twee aanbiedingen . Op de eerste locatie wordt voor Offer A een omrekeningskoers van 3% voor een specifieke bezoeker voorspeld en voor Aanbieding B een omrekeningskoers van 1%. Op de tweede locatie wordt voor Offer C een omrekeningskoers van 2% voor dezelfde bezoeker voorspeld, terwijl Offer D een omrekeningskoers van 5% heeft. Daarom [!UICONTROL Automated Personalization] dient deze bezoeker een ervaring met aanbod A en aanbod D.
 
-### Hoe lang moet ik wachten op modellen om te bouwen? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
++++
 
-De tijdsduur die nodig is voor modellen om uw activiteit uit te breiden, is doorgaans afhankelijk van het verkeer naar de geselecteerde locatie(s) van de activiteit en van de mate van succes van de activiteit. Gebruik de [Verkeersschatting](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) om de verwachte tijdsduur te bepalen het voor modellen zal vergen om in uw activiteit te bouwen.
+## Wanneer moet ik mijn [!UICONTROL Automated Personalization] activiteit? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
-### Eén model is gebouwd binnen mijn activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd? {#section_51EA953C6D1D4A3185FC9DD290D66621}
++++Zie details
 
-Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie kan beginnen.
+[!UICONTROL Automated Personalization] kan worden gebruikt als &quot;altijd op&quot;verpersoonlijking die constant optimaliseert. Met name voor de meest groene inhoud is het niet nodig om uw [!UICONTROL Automated Personalization] activiteit. Als u wezenlijke veranderingen in de inhoud wilt aanbrengen die niet aan aanbiedingen momenteel in uw zijn [!UICONTROL Automated Personalization] de beste praktijk is om een nieuwe activiteit te starten . Het starten van een nieuwe activiteit helpt andere gebruikers die rapporten evalueren om vroegere resultaten met verschillende inhoud niet te verwarren of met elkaar in verband te brengen.
 
-### Wanneer kan ik naar de resultaten van mijn Automated Personalization-activiteiten kijken? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
++++
 
-U kunt de resultaten bekijken van uw Automated Personalization-activiteiten zodra u minstens twee ervaringen hebt met gebouwde modellen (groen vinkje) voor de ervaring die modellen heeft gebouwd.
+## Hoe lang moet ik wachten op modellen om te bouwen? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-### Hoe kan ik de hoeveelheid tijd verminderen nodig voor modellen om in mijn activiteit te bouwen? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
++++Zie details
 
-Controleer uw activiteitenopstelling en zie of zijn er om het even welke veranderingen u bereid bent aan te brengen om de snelheid te verbeteren waarop de modellen zullen bouwen.
+De tijd het voor modellen neemt om in uw activiteit te bouwen hangt typisch van het verkeer aan uw geselecteerde activiteitenplaatsen en uw metrisch van het activiteitensucces af. Gebruik de [Verkeersschatting](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) om de verwachte tijdsduur te bepalen het voor modellen om in uw activiteit te bouwen vergt.
 
-* Is uw succes metrisch ver onderaan de verkooptrechter van uw activiteitenervaringen? Een lager tarief van de activiteitenomzetting zal de verkeersvereisten verhogen nodig voor modellen om te bouwen, aangezien een minimumaantal omzettingen wordt vereist.
++++
+
+## Eén model is gebouwd in mijn [!UICONTROL Automated Personalization] activiteit. Zijn de bezoeken aan die ervaring gepersonaliseerd? {#section_51EA953C6D1D4A3185FC9DD290D66621}
+
++++Zie details
+
+Nee, er moeten ten minste twee modellen in uw activiteiten zijn ingebouwd voordat de personalisatie begint.
+
++++
+
+## Wanneer kan ik naar de resultaten van mijn [!UICONTROL Automated Personalization] activiteit? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+
++++Zie details
+
+U kunt beginnen naar de resultaten van uw [!UICONTROL Automated Personalization] activiteit nadat u minstens twee ervaringen met gebouwde modellen (groen vinkje) voor de ervaring hebt die modellen heeft gebouwd.
+
++++
+
+## Hoe kan ik de tijd verminderen die nodig is om modellen op te bouwen in mijn [!UICONTROL Automated Personalization] activiteit? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+
++++Zie details
+
+Controleer uw activiteitenopstelling en zie of zijn er om het even welke veranderingen u bereid bent aan te brengen om de snelheid te verbeteren waarop de modellen bouwen.
+
+* Is uw succes metrisch ver onderaan de verkooptrechter van uw activiteitenervaringen? Een lager tarief van de activiteitenomzetting verhoogt de verkeersvereisten nodig voor modellen om te bouwen, aangezien een minimumaantal omzettingen wordt vereist.
 * Als uw succesmetrisch wordt geplaatst aan RPV, kunt u in omzetting veranderen? De activiteiten van de omzetting neigen om minder verkeer te vereisen om modellen te bouwen.
-* Zijn er sommige ervaringen u van uw activiteit kunt laten vallen? Als u het aantal ervaringen in een activiteit verlaagt, wordt de hoeveelheid tijd die nodig is om modellen te bouwen, versneld.
-* Is er een hoger-verkeerspagina daar deze activiteit succesvoller zou zijn? Hoe meer verkeer en conversies er in uw activiteitenlocaties plaatsvinden, hoe sneller de modellen worden.
+* Zijn er sommige ervaringen die u uit uw activiteit kunt laten vallen? Door het aantal ervaringen in een activiteit te verminderen, duurt het langer om modellen te bouwen.
+* Is er een hoger-verkeerspagina waar deze activiteit succesvoller zou zijn? De meer verkeer en omzettingen in uw activiteitenplaatsen, bouwen de snellere modellen.
 
-### Waarom zien bezoekers ervaringen voor een AP-activiteit die ze niet zouden moeten zien? {#section_41CECEAE0881446A8D9F3B016857914B}
++++
 
-Automated Personalization-activiteiten worden één keer per sessie geëvalueerd. Als er actieve sessies waren die in aanmerking kwamen voor een bepaalde ervaring en er nu nieuwe aanbiedingen aan zijn toegevoegd, zien gebruikers de nieuwe inhoud samen met de eerder weergegeven aanbiedingen. Omdat ze eerder gekwalificeerd waren voor die ervaringen, zouden ze ze nog steeds zien gedurende de sessie. Als u dit bij elk paginabezoek wilt evalueren, kunt u beter overschakelen op het type activiteit Experience Targeting (XT).
+## Waarom zien bezoekers ervaringen voor een [!UICONTROL Automated Personalization] activiteit die ze niet zouden moeten zien? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-### Kan ik het doel metrisch halverwege door een activiteit van Automated Personalization veranderen? {#change-metric}
++++Zie details
 
-Wij adviseren niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om het doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. Wij garanderen niet wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
+[!UICONTROL Automated Personalization] de activiteiten worden één keer per sessie geëvalueerd . Als er actieve sessies zijn die in aanmerking komen voor een bepaalde ervaring en er nu nieuwe aanbiedingen aan zijn toegevoegd, zien bezoekers de nieuwe inhoud samen met de eerder weergegeven aanbiedingen. Omdat deze bezoekers eerder gekwalificeerd waren voor die ervaringen, zien ze die ervaringen nog tijdens de sessie. Als u dit tijdens elk paginabezoek wilt beoordelen, gaat u naar [!UICONTROL Experience Targeting] (XT) type activiteit.
 
-Deze aanbeveling is van toepassing op [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], en [!UICONTROL Automated Personalization] activiteiten die [!DNL Target] of [!DNL Analytics] (A4T) als bron van rapportage.
++++
 
-### Kan ik de optie Rapportgegevens opnieuw instellen gebruiken tijdens het uitvoeren van een Automated Personalization-activiteit?
+## Kan ik het doel metrisch halverwege veranderen door een [!UICONTROL Automated Personalization] activiteit? {#change-metric}
 
-Met de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Automated Personalization] activiteiten worden niet voorgesteld. Hoewel de zichtbare rapportgegevens worden verwijderd, worden met deze optie niet alle trainingsrecords verwijderd uit de [!UICONTROL Automated Personalization] model. In plaats van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Automated Personalization] activiteiten, een nieuwe activiteit creëren en de oorspronkelijke activiteit deactiveren. (Opmerking: Deze leidraad geldt ook voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.)
++++Zie details
 
-### Hoe bouwt Automated Personalization modellen met betrekking tot omgevingen?
+[!DNL Adobe] adviseert niet dat u het doel metrische middenweg door een activiteit verandert. Hoewel het mogelijk is om het doel metrisch tijdens een activiteit te veranderen gebruikend [!DNL Target] UI, zou u altijd een nieuwe activiteit moeten beginnen. [!DNL Adobe] niet garantie wat gebeurt als u het doel metrisch in een activiteit verandert nadat het loopt.
 
-Één model wordt gebouwd om de prestaties van de gepersonaliseerde strategie tegenover willekeurig gediend verkeer tegenover het verzenden van al verkeer naar het algemene winnen ervaring te identificeren. In dit model worden alleen resultaten en omzettingen in de standaardomgeving bekeken.
+Deze aanbeveling geldt voor [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], en [!UICONTROL Automated Personalization] activiteiten die [!DNL Target] of [!DNL Analytics] (A4T) als bron van rapportage.
 
-Het verkeer van een tweede reeks modellen wordt gebouwd voor elke modelleringsgroep (AP) of ervaring (AT). Voor elk van deze modellen worden hits en conversies in alle omgevingen in overweging genomen.
++++
 
-De verzoeken zullen daarom met hetzelfde model worden gediend, ongeacht het milieu, maar de pluraliteit van het verkeer zou van het standaardmilieu moeten komen om ervoor te zorgen dat de geïdentificeerde over het geheel genomen winnende ervaring verenigbaar met echt gedrag is.
+## Kan ik de [!UICONTROL Reset Report Data] optie tijdens het uitvoeren van een [!UICONTROL Automated Personalization] activiteit?
+
++++Zie details
+
+[!DNL Adobe] raadt u niet aan het [!UICONTROL Reset Report Data] optie voor [!UICONTROL Automated Personalization] activiteiten. Hoewel de zichtbare rapportgegevens worden verwijderd, worden met deze optie niet alle trainingsrecords verwijderd uit het dialoogvenster [!UICONTROL Automated Personalization] model. In plaats van de [!UICONTROL Reset Report Data] optie voor [!UICONTROL Automated Personalization] , een nieuwe activiteit maken en de oorspronkelijke activiteit deactiveren. Deze leidraad geldt ook voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten.
+
++++
+
+## Hoe werkt [!UICONTROL Automated Personalization] modellen ontwikkelen met betrekking tot omgevingen?
+
++++Zie details
+
+Één model wordt gebouwd om de prestaties van de gepersonaliseerde strategie tegenover willekeurig gediend verkeer tegenover het verzenden van al verkeer naar het algemeen het winnen ervaring te identificeren. In dit model worden alleen resultaten en omzettingen in de standaardomgeving bekeken.
+
+Het verkeer van een tweede reeks modellen wordt gebouwd voor elke modelleringsgroep ([!UICONTROL Automated Personalization]) of ervaring ([!UICONTROL Auto-Target]). Voor elk van deze modellen worden hits en conversies in alle omgevingen in overweging genomen.
+
+De verzoeken worden daarom met hetzelfde model behandeld, ongeacht het milieu. De pluraliteit van het verkeer moet echter afkomstig zijn uit de standaardomgeving om ervoor te zorgen dat de geïdentificeerde overkoepelende ervaring consistent is met het gedrag in de praktijk.
+
++++

@@ -1,30 +1,30 @@
 ---
-keywords: verkeersschatting;geautomatiseerde personalisatie;ap;schatting van verkeer;auto-target
-description: De Adobe gebruiken [!DNL Target] Verkeersschatting om te bepalen of je voldoende verkeer hebt om je Automated Personalization-activiteit te laten slagen.
-title: Hoeveel verkeer is nodig voor een succesvolle activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: verkeersraming;geautomatiseerde personalisatie;ap;schatting van verkeer
+description: Gebruik de [!DNL Adobe Target] [!UICONTROL Traffic Estimator] om te bepalen of u voldoende verkeer voor uw [!UICONTROL Automated Personalization] activiteit om te slagen.
+title: Hoeveel verkeer voor een Succes wordt vereist [!UICONTROL Automated Personalization] Activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Schatting van het verkeer dat voor succes wordt vereist
 
-De [!DNL Adobe Target] [!UICONTROL Traffic Estimator] verstrekt terugkoppelt die u laat weten of u voldoende verkeer voor uw hebt [!UICONTROL Automated Personalization] activiteit om te slagen.
+De [!DNL Adobe Target] [!UICONTROL Traffic Estimator] verstrekt terugkoppelt die u laat weten of u voldoende verkeer voor uw hebt [!UICONTROL Automated Personalization] (AP) activiteit om te slagen.
 
-Omdat [!UICONTROL Automated Personalization] de activiteit gebruikt veelvoudige aanbiedingscombinaties, is het belangrijk om te weten hoeveel verkeer wordt vereist om zinvolle resultaten te verstrekken. De [!UICONTROL Traffic Estimator] gebruikt statistieken over uw pagina en het aantal ervaringen die worden getest om de hoeveelheid verkeer en de testduur te schatten noodzakelijk om de activiteit succesvol te maken.
+Omdat [!UICONTROL Automated Personalization] de activiteiten gebruiken veelvoudige aanbiedingscombinaties, is het belangrijk om te weten hoeveel verkeer wordt vereist om zinvolle resultaten te verstrekken. De [!UICONTROL Traffic Estimator] gebruikt statistieken over uw pagina en het aantal ervaringen die worden getest om de hoeveelheid verkeer en de testduur te schatten noodzakelijk om de activiteit succesvol te maken.
 
 De [!UICONTROL Traffic Estimator] bepaalt als er genoeg verkeer is om gepersonaliseerde modellen te produceren door de geschatte paginaamafbeeldingen en de typische omzettingspercentage voor de pagina&#39;s te vergelijken. In het ideale geval zorgt de juiste voorbeeldgrootte voor een geslaagde activiteit ervoor dat gepersonaliseerde inhoud binnen 50% van de activiteitsperiode of 14 dagen gereed is, afhankelijk van welke datum het minst is. Dit proces biedt voldoende tijd om persoonlijke inhoud te verkrijgen en te leren welke inhoud moet worden geleverd.
 
-Vergeet niet dat [!DNL Target] dient willekeurig ervaringen tot de verpersoonlijkingsalgoritmen worden gebouwd. Het pictogram van het vinkje naast elke aanbieding toont wanneer het model voor die aanbieding klaar is en [!DNL Target] kan beginnen met het leveren van gepersonaliseerde inhoud. Omdat de lift slechts wordt verwacht nadat de modellen klaar zijn, staat de visuele aanwijzing u toe om de juiste verwachting te plaatsen. Gebruik de [!UICONTROL Traffic Estimator] in de [!UICONTROL Visual Experience Composer] (VEC) om een richtlijn te krijgen over wanneer de modellen klaar zijn.
+Vergeet niet dat [!DNL Target] dient willekeurig ervaringen tot de verpersoonlijkingsalgoritmen worden gebouwd. Het pictogram van het vinkje naast elke aanbieding toont wanneer het model voor die aanbieding klaar is en [!DNL Target] kan beginnen met het leveren van gepersonaliseerde inhoud. Omdat de lift pas wordt verwacht nadat de modellen klaar zijn, kunt u met de visuele indicatie de juiste verwachting instellen. Gebruik de [!UICONTROL Traffic Estimator] in de [!UICONTROL Visual Experience Composer] (VEC) om een richtlijn te krijgen over wanneer de modellen klaar zijn.
 
 ## De schatter van het Verkeer gebruiken
 
-1. Van de [!UICONTROL Visual Experience Composer], klikt u op **[!UICONTROL Traffic]**.
+1. Van de [!UICONTROL Experiences] pagina van de [!UICONTROL Visual Experience Composer] in een [!UICONTROL Automated Personalization] activiteit, klik  **[!UICONTROL Traffic]** pictogram.
 
    ![Verkeerspictogram](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
@@ -67,6 +67,6 @@ Neem de volgende veelgestelde vragen in overweging wanneer u met de [!UICONTROL 
 
 ### Waarom worden gepersonaliseerde modellen niet gebouwd alhoewel mijn AP activiteit genoeg verkeer heeft?
 
-In bepaalde omstandigheden is uw verkeer groot genoeg voor een gepersonaliseerd model om worden gebouwd, maar dat verkeer kon informeren [!DNL Target] dat er geen zinvol verschil is tussen het gepersonaliseerde model en het willekeurige model. Hoewel het model is ingebouwd [!DNL Target] en getest, wordt het niet opgesteld omdat het model niet beter dan willekeurig is.
+In bepaalde omstandigheden is uw verkeer groot genoeg voor een gepersonaliseerd model om worden gebouwd, maar dat verkeer kon informeren [!DNL Target] dat er geen zinvol verschil is tussen het gepersonaliseerde model en het willekeurige model. Hoewel het model in [!DNL Target] en getest, wordt het niet opgesteld omdat het model niet beter dan willekeurig is.
 
 Een mogelijke reden waarom het model niet beter dan willekeurig is, zou kunnen zijn dat de aanbiedingen niet verschillend genoeg van elkaar zijn. Als zo, kunt u proberen makend de aanbiedingen visueel verschillend als het overseinen gelijkaardig is, of u kunt proberen veranderend het overseinen zelf.

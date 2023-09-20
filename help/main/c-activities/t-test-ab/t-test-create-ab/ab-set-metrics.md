@@ -1,12 +1,12 @@
 ---
 keywords: A/B;activiteitmetriek;metriek;vastgestelde metriek;doel metrisch;activiteitenmontages;succes metrisch;omzetting;opbrengst;overeenkomst
-description: Leer hoe u metriek kunt opgeven in een Adobe [!DNL Target] A/B activiteit om te bepalen wanneer een bezoek succesvol is, zoals Omzetting, Ontvangsten, en Betrokkenheid.
+description: Leer hoe u metriek kunt opgeven in een [!DNL Adobe Target] A/B activiteit om te bepalen wanneer een bezoek succesvol is, zoals [!UICONTROL Conversion], [!UICONTROL Revenue], en [!UICONTROL Engagement].
 title: Hoe kan ik Goal Metrics in een A/B-activiteit instellen?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -17,31 +17,31 @@ Metrische gegevens gebruiken in een [!DNL Adobe Target] A/B activiteit om te bep
 
 Voor gedetailleerde informatie over succesmetriek, zie [Succeswaarden](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Geef het doel van de activiteit op.
-1. Selecteer een [succesmetrisch](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. In de **[!UICONTROL Reporting Settings]** van de **[!UICONTROL Goals & Settings]** pagina, selecteert u een [succesmetrisch](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Metrisch met successie selecteren](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
-   De [!UICONTROL Select Metrics] De pagina bevat de succesmaatstaven die u voor uw activiteit kunt kiezen. De succeswaarden zijn verdeeld in de volgende categorieën:
+   De [!UICONTROL Select Metrics] Hier worden de succeswaarden weergegeven die u voor uw activiteit kunt kiezen. De succeswaarden zijn verdeeld in de volgende categorieën:
 
-   * Conversie
-   * Ontvangsten
-   * Betrokkenheid
+   * [!UICONTROL Conversion]
+   * [!UICONTROL Revenue]
+   * [!UICONTROL Engagement]
 
-   U kunt om het even welke vooraf gebouwde succesmetriek gebruiken, of een metrisch van het douanesucces tot stand brengen. U kunt metrisch succes als primaire metrisch ook merken. De rapporten en de kaarten van Experience Cloud worden standaard om primaire metrisch te tonen, als één wordt geplaatst.
+   U kunt om het even welke vooraf gebouwde succesmetriek gebruiken, of een metrisch van het douanesucces tot stand brengen. U kunt metrisch succes als primaire metrisch ook merken. De rapporten en de kaarten van het Experience Cloud worden standaard om primaire metrisch te tonen, als één wordt geplaatst.
+
 1. Geef de instellingen voor uw metriek op.
 
    Welke instellingen beschikbaar zijn, is afhankelijk van de succesmaatstaf die u gebruikt.
 
-   Indien ingeschakeld, wordt de [!UICONTROL Estimated Value of the Conversion]veld (niet beschikbaar voor de gegevens in de paginascore) geeft een waarde voor uw doel. Met deze waarde kan Target een geschatte lift in inkomsten berekenen. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken. Zie [Schatting van de opbrengst](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie .
+   Indien ingeschakeld, wordt de [!UICONTROL Estimated Value of the Conversion] veld (niet beschikbaar voor de [!UICONTROL Page Score] metriek) biedt een waarde voor uw doel. Deze waarde schakelt [!DNL Target] een geraamde verhoging van de inkomsten te berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken. Zie [Schatting van de opbrengst](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie .
 
-   De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt u verwacht.
+   De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt die u verwacht.
 
    Zie voor meer informatie [Succeswaarden](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
-1. (Optioneel) Voeg aanvullende metriek toe.
-1. Klikken **[!UICONTROL Continue]** wanneer u klaar bent met het instellen van de metriek.
 
-Wanneer u metrische gegevens een naam geeft of de naam ervan wijzigt, zijn de volgende tekens niet toegestaan:
+1. (Optioneel) Voeg aanvullende metriek toe.
+
+Wanneer u metrisch noemt of anders noemt, worden de volgende karakters niet toegestaan:
 
 | Teken | Beschrijving |
 |--- |--- |
@@ -54,12 +54,12 @@ Wanneer u metrische gegevens een naam geeft of de naam ervan wijzigt, zijn de vo
 | - | Min |
 | @ | Bij ondertekenen |
 
-## Trainingsvideo: Activiteitscijfers (7:43) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+## Trainingsvideo: Activiteitenstatistieken (7:43) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het werken met succesmetriek.
 
 * Begrijp &quot;doel&quot;metriek
 * Omzetten, Inkomsten en Betrokkenheid begrijpen en bouwen
-* Bouw metrisch klikken-volgend
+* Een metrisch object voor klikken bijhouden maken
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

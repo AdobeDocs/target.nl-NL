@@ -4,7 +4,7 @@ description: Leer hoe u Adobe gebruikt [!DNL Target] QA URLs om gemakkelijke act
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
 source-wordcount: '1690'
 ht-degree: 0%
@@ -124,4 +124,3 @@ In de volgende tabel worden de verschillende typen activiteiten vermeld en wordt
 | [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Test] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
-
