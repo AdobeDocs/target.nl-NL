@@ -1,21 +1,21 @@
 ---
 keywords: multivariëren;mvt;voorvertoning;ervaringen
-description: Leer hoe u elke ervaring kunt voorvertonen in een MVT-activiteit (Multivariate Test) in Adobe [!DNL Target] met behulp van Visual Experience Composer (VEC).
-title: Hoe kan ik ervaringen voor een Multivariate Test (MVT) voorvertonen?
+description: Leer hoe u elke ervaring kunt voorvertonen in een [!UICONTROL Multivariate Test] (MVT) activiteit [!DNL Adobe Target] met de [!UICONTROL Visual Experience Composer] (VEC).
+title: Hoe kan ik ervaringen voorvertonen voor een [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Voorvertoning van ervaringen voor een multivariatietest
+# Voorvertoning voor een [!UICONTROL Multivariate Test]
 
 Omdat [!UICONTROL Multivariate Test] in [!DNL Adobe Target] Vergelijkt meerdere ervaringen op een pagina. Het is handig om de pagina bij elke ervaring voor te vertonen.
 
-1. Van Visual Experience Composer (VEC), klik **[!UICONTROL Preview]**.
+1. Van de [!UICONTROL Visual Experience Composer] (VEC) klikt u op **[!UICONTROL Preview]**.
 
    Er wordt een lijst met alle ervaringen weergegeven.
 
@@ -31,8 +31,8 @@ Omdat [!UICONTROL Multivariate Test] in [!DNL Adobe Target] Vergelijkt meerdere 
 
    >[!NOTE]
    >
-   >Wanneer het creëren van multivariate tests, kunt u meer dan 10 percenten van ervaringen van de test nu uitsluiten, op voorwaarde dat u de waarschuwing erkent dat u dan off-line rapportering voor analyse moet gebruiken.
+   >Wanneer het creëren van multivariate tests, kunt u meer dan 10 percenten van ervaringen van de test uitsluiten, op voorwaarde dat u de waarschuwing erkent dat u dan off-line rapportering voor analyse moet gebruiken.
 
-   Standaard worden alle ervaringen opgenomen in de multivariatietest. Als u een ervaring wilt opnemen die is uitgesloten, selecteert u de uitgesloten ervaring en klikt u op **[!UICONTROL Include]**.
+   Standaard worden alle ervaringen opgenomen in de multivariatietest. Als u een uitgesloten ervaring wilt opnemen, selecteert u de uitgesloten ervaring en klikt u op **[!UICONTROL Include]**.
 
-Klikken **[!UICONTROL Exit Preview Mode]** om terug te keren naar de Experience Composer, zodat u wijzigingen kunt aanbrengen, of klik op **[!UICONTROL Continue]** om naar het testoverzicht te gaan.
+1. Klikken **[!UICONTROL Exit Preview Mode]** om terug te keren naar de [!UICONTROL Visual Experience Composer] zodat u wijzigingen kunt aanbrengen of op **[!UICONTROL Continue]** om naar het testoverzicht te gaan.

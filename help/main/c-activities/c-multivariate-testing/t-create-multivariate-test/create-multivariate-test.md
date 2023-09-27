@@ -1,19 +1,19 @@
 ---
 keywords: mvt;multivariate test;multivariate test creeert;multivariate test creeert;mvt creeert;mvt creeert;mvt hoe;multivariate test hoe
-description: Leer hoe te om Visual Experience Composer (VEC) in Adobe te gebruiken [!DNL Target] om een Multivariate Test (MVT) recht op een te creëren [!DNL Target]-enabled pagina.
-title: Hoe maak ik een multivariate test?
+description: Leer hoe u de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om een [!UICONTROL Multivariate Test] (MVT).
+title: Hoe maak ik een [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
 # Een multivariatietest maken
 
-De [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] maakt het gemakkelijk om uw testrecht op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen te wijzigen [!DNL Target].
+De [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] maakt het gemakkelijk om een [!UICONTROL Multivariate Test] en delen van de pagina in [!DNL Target].
 
 De [!DNL Target] Met de wijs-en-klik redacteur kunt u om het even welke plaats kiezen en veelvoudige aanbiedingen toevoegen.
 
@@ -25,31 +25,21 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
 
    >[!NOTE]
    >
-   >De beschikbare activiteitstypen zijn afhankelijk van uw Target-account. Sommige typen activiteiten worden mogelijk niet in de lijst weergegeven. Bijvoorbeeld: [!UICONTROL Automated Personalization] is een [Functie Doelpremium](/help/main/c-intro/intro.md#premium).
-   >
-   >Voor meer informatie over de verschillende soorten activiteiten die beschikbaar zijn in [!DNL Target] en hun verschillen, zie [Activiteiten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Zie [Typen doelactiviteiten](/help/main/c-activities/target-activities-guide.md) om u te helpen beslissen welke type activiteit beste reeksen uw behoeften.
+   >Voor meer informatie over de verschillende activiteitstypen die beschikbaar zijn in [!DNL Target] en hun verschillen, zie [Activiteiten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Zie [Typen doelactiviteiten](/help/main/c-activities/target-activities-guide.md) om u te helpen beslissen welke type activiteit beste reeksen uw behoeften.
 
-1. Selecteren **[!UICONTROL Visual (Default)]**, indien nodig.
+1. (Voorwaardelijk) Kies het leveringstype: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email], of [!UICONTROL Other/API].
 
-   ![Dialoogvenster Multivariatie testactiviteit maken](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
-
-   >[!NOTE]
-   >
-   >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [Het oplossen van problemen de Visuele Composer van de Ervaring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >De [!UICONTROL Choose Workplace] optie in de voorgaande illustratie is een [Doelpremie](/help/main/c-intro/intro.md) gebruiken. Uw organisatie heeft een licentie voor Target Standard als deze optie niet wordt weergegeven.
-
-1. (Voorwaardelijk) Als u een klant van de Premie van het Doel bent, [een werkruimte kiezen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) Als u een [Doelpremie](/help/main/c-intro/intro.md#premium) klant, [een werkruimte kiezen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [De URL opgeven](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) voor de pagina die u wilt testen, klikt u op **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
-   >Gebruik aan het begin een volledige URL, inclusief de HTTP- of HTTPS-URL.
+   >Gebruik aan het begin een volledige URL, inclusief HTTP of HTTPS.
 
    Als er een bericht wordt weergegeven waarin u wordt gevraagd uw browser in te schakelen voor gemengde inhoud, volgt u de instructies in het bericht. Nadat u de browser hebt ingeschakeld voor gemengde inhoud, begint u opnieuw bij Stap 1.
 
-   Visual Experience Composer opent.
+   De [!UICONTROL Visual Experience Composer] wordt geopend.
 
 1. Typ een naam voor de activiteit.
 
@@ -63,6 +53,21 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
    | `+` | Plus |
    | `-` | Min |
    | `@` | Bij ondertekenen |
+
+   De naam van de activiteit mag geen van de volgende tekenreeksen bevatten:
+
+   | Tekenreeks | Beschrijving |
+   |--- |--- |
+   | ;= | Semicolon, is gelijk aan |
+   | ;+ | Puntkomma, plus |
+   | ;- | Puntkomma, min |
+   | ;@ | Puntkomma, bij teken |
+   | ,= | Komma, is gelijk aan |
+   | ,+ | Komma, plus |
+   | ,- | Komma, min |
+   | ,@ | Komma, bij teken |
+   | `[`&quot; | Vierkante haak openen, dubbele aanhalingstekens |
+   | &quot;`]` | Dubbele aanhalingstekens, vierkant haakje sluiten |
 
 1. [Maak op elke locatie de aanbiedingen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
@@ -94,7 +99,7 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
 
    ![afbeelding voor schatting2](assets/estimator2.png)
 
-1. Klikken **[!UICONTROL Next]** aan [!UICONTROL Targeting] pagina.
+1. Klikken **[!UICONTROL Next]** aan de [!UICONTROL Targeting] pagina.
 
 1. Kies het publiek en het percentage in aanmerking komende bezoekers dat u de activiteit wilt betreden.
 
@@ -112,9 +117,9 @@ De [!UICONTROL Multivariate Test] (MVT) neemt een pagina-eerste rapport. Met and
 
 1. Klikken **[!UICONTROL Save and Close]** om de activiteit te maken.
 
-## Trainingsvideo: Multivariate tests maken (9:25) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+## Trainingsvideo: Multivariate Tests maken (9:25) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 
-In deze video ziet u hoe u een multivariate test plant en maakt met behulp van de driestapige workflow met instructies voor het doel.
+In deze video ziet u hoe u een multivariërende test plant en maakt met de [!DNL Target] driestapsgerichte workflow.
 
 * Een multivariatietest definiëren en ontwerpen
 * Een multivariatietest maken
