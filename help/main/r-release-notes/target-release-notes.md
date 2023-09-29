@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Deze release is beschikbaar volgens het volgende schema voor gefaseerde installa
 * **4 oktober**: regio Azië-Stille Oceaan (APAC)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
+
+| Functie | Details |
+| --- | --- |
+| [!UICONTROL Activities] UI vernieuwen<P>[!UICONTROL Feeds] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Activities] en [!DNL Recommendations] [!UICONTROL Feeds] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen. |
 
 * Toegevoegd [!UICONTROL Visual Experience Composer] (VEC) Verbeteringen voor dynamische kaders. (TGT-44064)
 * Het probleem dat de geselecteerde datum veroorzaakte in het dialoogvenster `getViewInAnalyticsId` verzoek om niet correct bij te werken. Met deze correctie kunt u de [!DNL Analytics] koppeling in rapportage wanneer het datumbereik en de instellingen van het metriekrapport zijn gewijzigd. (TGT-46246)
