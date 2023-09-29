@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24e80632c68724c0eff37a719dbc80d9e3077f82
+source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 28 september 2023**
+**Laatst bijgewerkt: 29 september 2023**
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Deze release is beschikbaar volgens het volgende schema voor gefaseerde installa
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
 * Toegevoegd [!UICONTROL Visual Experience Composer] (VEC) Verbeteringen voor dynamische kaders. (TGT-44064)
-* Het probleem dat de geselecteerde datum veroorzaakte in het dialoogvenster `getViewInAnalyticsId` verzoek om niet correct bij te werken. (TGT-46246)
+* Het probleem dat de geselecteerde datum veroorzaakte in het dialoogvenster `getViewInAnalyticsId` verzoek om niet correct bij te werken. Met deze correctie kunt u de [!DNL Analytics] koppeling in rapportage wanneer het datumbereik en de instellingen van het metriekrapport zijn gewijzigd. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (18 september 2023)
 
