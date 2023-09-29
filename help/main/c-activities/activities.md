@@ -4,9 +4,9 @@ description: Meer informatie over activiteiten in Adobe [!DNL Target] Hiermee ku
 title: Hoe kan ik inhoud personaliseren en pagina-ontwerpen testen met [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2342'
 ht-degree: 1%
 
 ---
@@ -24,11 +24,6 @@ Wanneer het ontwerpen van een activiteit, zou u zorgvuldig moeten plannen. Bepaa
 De [!UICONTROL Activities] lijst is de standaardweergave wanneer u opent [!DNL Target]. U kunt activiteiten maken op deze pagina en bestaande activiteiten beheren.
 
 U kunt ook de [!UICONTROL Activities] door op de lijst te klikken [!UICONTROL Activities] tabblad boven aan het dialoogvenster [!DNL Target] UI.
-
->[!NOTE]
->
->In de volgende afbeelding en tabel wordt de functionaliteit getoond van de bijgewerkte lijst met activiteiten die momenteel in de bètaversie wordt weergegeven. Deze lijst wordt binnenkort gepubliceerd.
-
 
 ![Activiteitenlijst](/help/main/c-activities/assets/activities-list-new.png)
 

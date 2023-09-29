@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,8 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 
 | Functie | Details |
 | --- | --- |
-| [!UICONTROL Activities] UI vernieuwen<P>[!UICONTROL Feeds] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Activities] en [!DNL Recommendations] [!UICONTROL Feeds] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen. |
+| [!UICONTROL Activities] UI vernieuwen<P>en<P>[!UICONTROL Feeds] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Activities] en [!DNL Recommendations] [!UICONTROL Feeds] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen.<P>Zie voor meer informatie [Activiteiten](/help/main/c-activities/activities.md) en [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
+| [!DNL Recommendations] implementatiepatroon | De *Recommendations-implementatiepatroon met behulp van at.js* patroon helpt u uw [!DNL Adobe Target Recommendations] implementatie bij gebruik van de JavaScript-bibliotheek at.js.<P>Zie voor algemene informatie over doelpatronen [Overzicht van implementatiepatronen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} in de *Adobe Target Developer Guide*.<P>Het nieuwe Recommendations-implementatiepatroon bestaat uit de volgende artikelen:<ul><li>[Recommendations-implementatiepatroon met behulp van at.js-overzicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK&#39;s initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Gegevensverzameling configureren](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Renderervaringen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Waarschuwen [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 
 * Toegevoegd [!UICONTROL Visual Experience Composer] (VEC) Verbeteringen voor dynamische kaders. (TGT-44064)
 * Het probleem dat de geselecteerde datum veroorzaakte in het dialoogvenster `getViewInAnalyticsId` verzoek om niet correct bij te werken. Met deze correctie kunt u de [!DNL Analytics] koppeling in rapportage wanneer het datumbereik en de instellingen van het metriekrapport zijn gewijzigd. (TGT-46246)
