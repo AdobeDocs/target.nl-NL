@@ -6,9 +6,9 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 034d95dd797a7a9cb323094ce5bea0c78b1426ab
+source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ De [!DNL Customer Journey Analytics for Target] (CJA4T) integratie tussen [Adobe
 De belangrijkste voordelen van het gebruik [!DNL Customer Journey Analytics] als bron van rapportage voor [!DNL Target] zijn:
 
 * Marketers kunnen dynamisch toepassen [!DNL Customer Journey Analytics] succescijfers naar [!DNL Target] activiteitenverslagen op elk moment. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
-* Profiteer van Customer Journey Analytics-functies zoals [Deelvenster Experimentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#:~:text=The%20Experimentation%20panel%20lets%20analysts%20compare%20different%20user,which%20is%20best%20at%20driving%20a%20specific%20outcome.) om de personalisatie van uw website verder te analyseren.
-* Eén rapportagebron hebben voor [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html?lang=en) en Doel. Beide verpersoonlijkingsproducten kunnen met Customer Journey Analytics voor een hollistischere mening van uw Webverpersoonlijking worden verbonden.
+* Profiteer van [!DNL Customer Journey Analytics] functies, zoals de [Deelvenster Experimentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}, om de personalisatie van uw website verder te analyseren.
+* Eén rapportagebron hebben voor [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} en [!DNL Target]. Beide verpersoonlijkingsproducten kunnen met worden verbonden [!DNL Customer Journey Analytics] voor een meer holistische mening van uw Webverpersoonlijking.
 
 ## Overwegingen
 
@@ -37,8 +37,8 @@ Overweeg de volgende informatie alvorens de integratie te gebruiken CJA4T:
 * Gebruik één rapporteringsbron of andere. U kunt geen gegevens voor één activiteit aan veelvoudige rapporteringsbronnen verzamelen.
 * Wanneer u instelt [!DNL Customer Journey Analytics] als rapportbron wordt u gevraagd de sandbox voor rapportage op te geven. Tijdens de configuratie ziet u alleen de sandboxen waartoe u toegang hebt.
 * Bestaande [!DNL Target] activiteiten blijven gebruiken [!DNL Target] gegevensverzameling en worden niet beïnvloed door het inschakelen van CJA4T.
-* Om CJA4T te gebruiken, heeft de aangewezen implementatiemethode [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Als Adobe Experience Platform Web SDK momenteel niet is geïmplementeerd, kunt u ook een [Adobe Analytics-bronverbinding](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) om de gegevens naar Adobe Experience Platform te brengen.
-* Zie voor vragen over timing [Latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} in *Veelgestelde vragen* in de *Adobe Klantenanalysehandleiding*.
+* Als u CJA4T wilt gebruiken, heeft de voorkeursimplementatiemethode het [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Als u momenteel niet beschikt over de [!DNL Adobe Experience Platform Web SDK] geïmplementeerd, kunt u ook een [[!DNL Adobe Analytics] bronverbinding](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) om de gegevens [!DNL Adobe Experience Platform].
+* Zie voor vragen over timing [Latentieoverwegingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} in *Veelgestelde vragen* in de *[!DNL Adobe Customer Analytics]Hulplijn*.
 
 ## Ondersteunde activiteitstypen {#supported-activities}
 
