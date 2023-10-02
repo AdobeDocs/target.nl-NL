@@ -6,9 +6,9 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '763'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target] Standard/Premium 23.9.4 (2-4 oktober 2023)
-
-Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
-
-* **2 oktober** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
-* **3 oktober**: Amerikaanse regio
-* **4 oktober**: regio Azië-Stille Oceaan (APAC)
+## [!DNL Target] Standard/Premium 23.9.4 (nog te bepalen datum)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 

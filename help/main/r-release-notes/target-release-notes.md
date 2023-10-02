@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 29 september 2023**
+**Laatst bijgewerkt: 2 oktober 2023**
 
 >[!NOTE]
 >
@@ -23,13 +23,7 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 23.9.4 (2-4 oktober 2023)
-
-Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
-
-* **2 oktober** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
-* **3 oktober**: Amerikaanse regio
-* **4 oktober**: regio Azië-Stille Oceaan (APAC)
+## [!DNL Target] Standard/Premium 23.9.4 (nog te bepalen datum)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 

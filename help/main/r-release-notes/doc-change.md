@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 2 oktober | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.9.3. |
-|  | [Activiteiten](/help/main/c-activities/activities.md) | Bijgewerkt artikel dat de [!UICONTROL Activity] pagina-interface vernieuwen. |
-|  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Bijgewerkt artikel dat de [!UICONTROL Feeds] pagina-interface vernieuwen. |
 |  | [[!DNL Recommendations] implementatiepatroon](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | De nieuwe *Recommendations-implementatiepatroon met behulp van at.js* artikelen helpen u uw [!DNL Adobe Target Recommendations] implementatie bij gebruik van de JavaScript-bibliotheek at.js.<P>Voor algemene informatie over [!DNL Target] patronen, zie [Overzicht van implementatiepatronen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} in de *Adobe Target Developer Guide*.<P>Het nieuwe Recommendations-implementatiepatroon bestaat uit de volgende artikelen:<ul><li>[Recommendations-implementatiepatroon met behulp van at.js-overzicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK&#39;s initialiseren](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Gegevensverzameling configureren](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Renderervaringen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Waarschuwen [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 29 september | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande opmerkingen toegevoegd voor de [!DNL Target Standard/Premium] Release 23.9.3. |
 |  | [De SDK van Java initialiseren](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | De volgende nieuwe parameters zijn toegevoegd aan de tabel:<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
