@@ -1,13 +1,13 @@
 ---
-keywords: reactietokens;tokens;plug-ins;plug-ins;at.js;response;platform, web-sdk
+keywords: reactietokens;tokens;plugins;plug-ins;at.js;response;platform web sdk;google analytics
 description: Meer informatie over het gebruik van reactietokens in [!DNL Adobe Target] aan output-specifieke informatie voor het zuiveren en het integreren met derdehulpmiddelen.
 title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,7 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 ## Gegevens verzenden naar Googles Analytics
 
-In de volgende secties wordt beschreven hoe u kunt verzenden [!DNL Target] gegevens aan Googles Analytics. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
+In de volgende secties wordt beschreven hoe u kunt verzenden [!DNL Target] gegevens aan Googles Analytics 4. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
 
 ### ![AEP-badge](/help/main/assets/platform.png) Gegevens verzenden naar Googles Analytics via Platform Web SDK
 
