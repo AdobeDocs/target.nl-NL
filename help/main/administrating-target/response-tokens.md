@@ -5,7 +5,7 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 791274dc320912629b9425ef400d0008e0bb086b
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met respontokens kunt u automatisch specifieke informatie uitvoeren voor [!DNL Adobe Target] op de webpagina van uw merk. Deze informatie kan details over de activiteit, de aanbieding, de ervaring, het gebruikersprofiel, geo informatie, en meer omvatten. Deze details verstrekken extra reactiegegevens om met interne of derdehulpmiddelen te delen of voor het zuiveren te gebruiken.
 
-De tekenen van de reactie laten u kiezen welke variabelen (in zeer belangrijke waardeparen) te gebruiken en dan hen toe te laten om als deel van a worden verzonden [!DNL Target] reactie. U laat een variabele toe gebruikend de schakelaar en de variabele wordt verzonden met [!DNL Target] reacties, die in netwerkvraag kunnen worden bevestigd. Reactietokens werken ook in [!UICONTROL Preview] in.
+De tekenen van de reactie laten u kiezen welke variabelen (in zeer belangrijke waardeparen) te gebruiken en dan hen toe te laten om als deel van a worden verzonden [!DNL Target] reactie. U laat een variabele toe gebruikend de schakelaar en de variabele wordt verzonden met [!DNL Target] reacties, die in netwerkvraag kunnen worden bevestigd. Reactietokens werken ook in [!UICONTROL Preview] -modus.
 
 Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmodules JavaScript leveren aan de pagina die wordt uitgevoerd bij levering. Responstkens leveren echter een object op dat vervolgens kan worden gelezen en verwerkt met behulp van gebeurtenislisteners. De responstoken-aanpak is veiliger en maakt de ontwikkeling en het onderhoud van integratie van derden eenvoudiger.
 
@@ -26,7 +26,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 | Doel-SDK | Voorgestelde acties |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Zorg ervoor dat u versie 2.6.0 van SDK van het Web van Platforms of later gebruikt. Voor informatie over het downloaden van de recentste versie van het Web SDK van het Platform, zie [De SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} in de *Overzicht van Platform Web SDK* hulplijn. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [Opmerkingen bij de release](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in de *Overzicht van Platform Web SDK* hulplijn. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Zorg ervoor dat u versie 2.6.0 of later van SDK van het Web van het Platform gebruikt. Voor informatie over het downloaden van de recentste versie van Platform Web SDK, zie [De SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} in de *Overzicht van Platform Web SDK* hulplijn. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [Opmerkingen bij de release](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) in de *Overzicht van Platform Web SDK* hulplijn. |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de nieuwste versie van at.js raadpleegt u [Downloaden om.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Klanten die at.js gebruiken, worden aangeraden om reactietokens te gebruiken en zich van plug-ins af te verplaatsen. Sommige plug-ins die afhankelijk zijn van interne methoden die in mbox.js (nu afgekeurd) bestaan, maar niet in at.js, worden geleverd, maar mislukken. |
 
 ## Reactietokens gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -53,7 +53,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
    |  | `profile.isNewSession` | Retourneert &quot;true&quot; of &quot;false&quot;. |
    |  | `profile.daysSinceLastVisit` | Geeft als resultaat het aantal dagen sinds het laatste bezoek van de bezoeker. |
    |  | `profile.tntId` | Retourneert de tntID van de bezoeker |
-   |  | `profile.marketingCloudVisitorId` | Retourneert de Experience Cloud Bezoeker-id van de bezoeker. |
+   |  | `profile.marketingCloudVisitorId` | Retourneert de bezoeker-id van het Experience Cloud van de bezoeker. |
    |  | `profile.thirdPartyId` | Retourneert de id van de derde partij van de bezoeker. |
    |  | `profile.categoryAffinity` | Geeft de favoriete categorie van de bezoeker. |
    |  | `profile.categoryAffinities` | Retourneert een array van de bovenste 5 categorieën van de bezoeker als tekenreeksen. |
@@ -78,7 +78,7 @@ Een belangrijk verschil tussen insteekmodules en reactietokens is dat insteekmod
 
 ## Luisteren naar reacties en reactietokens lezen
 
-Het proces waarnaar u luistert [!DNL Target] reacties en leestekens voor reacties verschillen afhankelijk van of u een [!DNL Platform Web SDK] of at.js-implementatie.
+Het proces dat u gebruikt om te luisteren naar [!DNL Target] reacties en leestekens voor reacties verschillen afhankelijk van of u een [!DNL Platform Web SDK] of at.js-implementatie.
 
 ### ![Adobe Experience Platform Web SDK-badge](/help/main/assets/platform.png) [!DNL Platform Web SDK] de klasse Handle-object gebruiken {#platform-web-sdk}
 
@@ -186,7 +186,7 @@ U ziet de reactietokens, maar at.js kan hen niet gebruiken.
 
 **Kan ik beide hebben [!DNL Target Classic] insteekmodules en reactietokens die tegelijkertijd actief zijn?**
 
-Plug-ins en reactietokens zijn parallel beschikbaar; insteekmodules worden in de toekomst echter afgekeurd .
+Plugins en reactietokens zijn parallel beschikbaar, maar de plug-ins worden in de toekomst vervangen.
 
 **Zijn reactietokens die door allen worden geleverd [!DNL Target] reacties of alleen via [!DNL Target] reacties die een activiteit leveren?**
 
@@ -216,13 +216,13 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 [!DNL Target] vernieuwt kenmerken regelmatig. Om het even welk attribuut dat niet wordt van een knevel voorzien wordt verwijderd tijdens volgende verfrist zich. Als u echter een kenmerk hebt dat is ingeschakeld en verwijderd, wordt dat script pas verwijderd uit de lijst met kenmerken nadat u het hebt uitgeschakeld. U hebt bijvoorbeeld een profielscript verwijderd dat als token is gebruikt. [!DNL Target] Hiermee verwijdert u alleen de in- en uitschakelkenmerken uit de lijst wanneer deze worden verwijderd of hernoemd.
 
-## Gegevens verzenden naar Google Analytics
+## Gegevens verzenden naar Googles Analytics
 
-In de volgende secties wordt beschreven hoe u kunt verzenden [!DNL Target] gegevens aan Google Analytics. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
+In de volgende secties wordt beschreven hoe u kunt verzenden [!DNL Target] gegevens aan Googles Analytics. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
 
-### ![AEP-badge](/help/main/assets/platform.png) Gegevens verzenden naar Google Analytics via Platform Web SDK
+### ![AEP-badge](/help/main/assets/platform.png) Gegevens verzenden naar Googles Analytics via Platform Web SDK
 
-Google Analytics kunnen gegevens via versie 2.6.0 van SDK van het Web van het Platform (of recenter) worden verzonden door de volgende code in de pagina van de HTML toe te voegen.
+Googles Analytics kunnen gegevens via Versie 2.6.0 van SDK van het Web van het Platform (of recenter) worden verzonden door de volgende code in de pagina van de HTML toe te voegen.
 
 >[!NOTE]
 >
@@ -277,69 +277,55 @@ Google Analytics kunnen gegevens via versie 2.6.0 van SDK van het Web van het Pl
 </script>
 ```
 
-### ![at.js badge](/help/main/assets/atjs.png) Gegevens naar Google Analytics verzenden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js badge](/help/main/assets/atjs.png) Gegevens naar Googles Analytics verzenden via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
-Google Analytics kunnen via at.js gegevens worden verzonden door de volgende code op de pagina HTML toe te voegen:
+Googles Analytics kunnen via at.js gegevens worden verzonden door de volgende code op de pagina HTML toe te voegen:
 
 ```javascript
-<script type="text/javascript"> 
-  (function(i, s, o, g, r, a, m) { 
-    i['GoogleAnalyticsObject'] = r; 
-    i[r] = i[r] || function() { 
-      (i[r].q = i[r].q || []).push(arguments) 
-    }, i[r].l = 1 * new Date(); 
-    a = s.createElement(o), 
-      m = s.getElementsByTagName(o)[0]; 
-    a.async = 1; 
-    a.src = g; 
-    m.parentNode.insertBefore(a, m) 
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-  ga('create', 'Google Client Id', 'auto'); 
-</script> 
- 
-<script type="text/javascript"> 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-    var tokens = e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
- 
-    var activityNames = []; 
-    var experienceNames = []; 
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      activityNames.push(token["activity.name"]); 
-      experienceNames.push(token["experience.name"]); 
-    }); 
- 
-    ga('send', 'event', { 
-      eventCategory: "target", 
-      eventAction: experienceNames, 
-      eventLabel: activityNames 
-    }); 
-  }); 
- 
-  function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+
+<script type="text/javascript">
+    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+        var tokens = e.detail.responseTokens;
+
+        if (isEmpty(tokens)) {
+            return;
+        }
+
+        var activityNames = [];
+        var experienceNames = [];
+        var uniqueTokens = distinct(tokens);
+
+        uniqueTokens.forEach(function(token) {
+            activityNames.push(token["activity.name"]);
+            experienceNames.push(token["experience.name"]);
+        });
+
+        gtag('config', 'TAG_ID');
+        gtag('event', 'action_name', {'eventCategory': 'target',
+            'eventAction': experienceNames, 'eventLabel': activityNames
+        });
+    });
+
+    function isEmpty(val) {
+        return (val === undefined || val == null || val.length <= 0) ? true : false;
+    }
+
+    function key(obj) {
+        return Object.keys(obj)
+        .map(function(k) { return k + "" + obj[k]; })
+        .join("");
+    }
+
+    function distinct(arr) {
+        var result = arr.reduce(function(acc, e) {
+            acc[key(e)] = e;
+            return acc;
+        }, {});
+
+        return Object.keys(result)
+        .map(function(k) { return result[k]; });
+    }
 </script>
 ```
 
@@ -347,9 +333,9 @@ Google Analytics kunnen via at.js gegevens worden verzonden door de volgende cod
 
 De volgende secties verstrekken informatie over het zuiveren reactietokens:
 
-### ![at.js badge](/help/main/assets/atjs.png) Google Analytics en foutopsporing
+### ![at.js badge](/help/main/assets/atjs.png) Googles Analytics en foutopsporing
 
-Met de volgende code kunt u fouten opsporen met behulp van Google Analytics:
+Met de volgende code kunt u fouten opsporen met behulp van Googles Analytics:
 
 ```javascript
 <script type="text/javascript"> 
@@ -464,13 +450,13 @@ Het equivalent van de ttMeta-plug-in voor foutopsporingsdoeleinden kan worden ge
 </script>
 ```
 
-## ![at.js](/help/main/assets/atjs.png) Trainingsvideo: Response Tokens en aangepaste gebeurtenissen at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/main/assets/atjs.png) Trainingsvideo: respontokens en aangepaste gebeurtenissen at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 In de volgende video wordt uitgelegd hoe u responstokens en aangepaste gebeurtenissen at.js kunt gebruiken om profielgegevens te delen van [!DNL Target] naar systemen van derden.
 
 >[!NOTE]
 >
->De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is correct. de opties bevinden zich echter op een iets andere locatie .
+>De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is correct, maar de opties bevinden zich op een iets andere locatie.
 >
 >In de video wordt gesproken over `option.name` en `option.id`, die zijn vervangen door `offer.name` en `offer.id`, respectievelijk.
 
