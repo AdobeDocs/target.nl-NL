@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 6 oktober | [Reactietokens](/help/main/administrating-target/response-tokens.md) | Alle codevoorbeelden zijn bijgewerkt. |
+|  | [A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | Volledige zelfstudie in het dialoogvenster *[!UICONTROL Adobe Target Tutorials]* hulplijn. |
 | 4 oktober | [Activiteiten](/help/main/c-activities/activities.md) | Bijgewerkte tekst en afbeeldingen die de gebruikersinterface weergeven, worden vernieuwd in de [!DNL Target] Release 23.9.4. |
 |  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Bijgewerkte tekst en afbeeldingen die de gebruikersinterface weergeven, worden vernieuwd in de [!DNL Target] Release 23.9.4. |
 | 2 oktober | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.9.3. |
