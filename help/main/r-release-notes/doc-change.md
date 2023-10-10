@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
+source-git-commit: 111b0fd0dee8a91aa792fe89616868e3839a0b0b
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1988'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 oktober | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor versie 2.11.0 van at.js. |
 | 6 oktober | [Reactietokens](/help/main/administrating-target/response-tokens.md) | Alle codevoorbeelden zijn bijgewerkt. |
 |  | [A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | Volledige zelfstudie in het dialoogvenster *[!UICONTROL Adobe Target Tutorials]* hulplijn. |
 | 4 oktober | [Activiteiten](/help/main/c-activities/activities.md) | Bijgewerkte tekst en afbeeldingen die de gebruikersinterface weergeven, worden vernieuwd in de [!DNL Target] Release 23.9.4. |
