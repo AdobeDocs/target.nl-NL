@@ -1,12 +1,12 @@
 ---
 keywords: gemengde inhoud;veilig;onveilig;chroom;problemen;vec;visuele ervaringscomposer;onveilig;http;https;firefox;Internet Explorer
-description: Leer hoe u gemengde inhoud in Chrome, Firefox en Edge kunt inschakelen. U kunt gemengde inhoud inschakelen wanneer een browser de weergave van een pagina blokkeert omdat beveiligde inhoud wordt gemengd met onveilige inhoud.
-title: Gemengde inhoud in mijn browser inschakelen
+description: Leer hoe u gemengde inhoud inschakelt in [!DNL Chrome], [!DNL Firefox], en [!DNL Edge].
+title: Hoe te om Gemengde Inhoud in Mijn Browser toe te laten
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Gemengde inhoud komt voor als het aanvankelijke verzoek veilig over HTTPS is, ma
 
 Moderne browsers kunnen de weergave van een pagina blokkeren of waarschuwingsberichten weergeven als beveiligde inhoud wordt gemengd met onveilige inhoud.
 
-Er verschijnt een waarschuwingsbericht als de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] probeert een pagina met gemengde inhoud te openen. Dit bericht geeft aan hoe u blokkering in uw browser kunt uitschakelen. Als u het blokkeren uitschakelt, kunt u een HTTP-site of een site met gemengde aanroepen (HTTPS en HTTP) openen.
+Er verschijnt een waarschuwingsbericht als de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] probeert een pagina met gemengde inhoud te openen. Dit bericht geeft aan hoe u blokkering in uw browser kunt uitschakelen. Als u het blokkeren uitschakelt, kunt u een HTTP-site of een site met gemengde inhoud (HTTPS en HTTP) openen.
 
 ![Waarschuwing gemengde inhoud](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -27,21 +27,21 @@ De beveiligingsinstellingen van uw browser kunnen voorkomen dat gemengde inhoud 
 
 Als uw website op een onbeveiligd (HTTP) domein loopt, moet u VEC toestaan om actieve gemengde inhoud te laden.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Het toestaan van gemengde inhoud beïnvloedt slechts VEC en niet uw levende website.
 
-Zie voor meer informatie [Gemengde inhoud](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) op de *Mozilla Developer Network* (MDN) website.
+Zie voor meer informatie [Gemengd](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) op de *Mozilla Developer Network* (MDN) website.
 
-## Gemengde inhoud inschakelen in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Gemengde inhoud inschakelen in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Als u een site bezoekt via een beveiligde verbinding, controleert Chrome of de inhoud op de webpagina veilig is verzonden.
+Als u een site bezoekt via een veilige verbinding, [!DNL Chrome] controleert of de inhoud op de webpagina veilig is verzonden.
 
-Zie &quot;[Deze pagina bevat onveilige inhoud](https://support.google.com/chrome/answer/1342714?hl=en)&quot; in Google Chrome Help.
+Zie &quot;[Waarschuwingen over onveilige sites beheren](https://support.google.com/chrome/answer/99020?hl=en)&quot; in Google Chrome Help.
 
-Als u de VEC gebruikt met de nieuwste versie van Chrome (versie 79.0.3945.117 of hoger), moet u de site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
+Als u de VEC gebruikt met de meest recente versie van [!DNL Chrome] (versie 79.0.3945.117 of hoger), moet u de site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
-1. Klik op het vergrendelingspictogram (voorzichtig) en klik vervolgens op **[!UICONTROL Site settings]**.
+1. Klik op het pictogram Vergrendelen (voorzichtig) en klik vervolgens op **[!UICONTROL Site settings]**.
 
    ![Site-instellingen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -51,12 +51,12 @@ Als u de VEC gebruikt met de nieuwste versie van Chrome (versie 79.0.3945.117 of
 
 1. Laad de VEC-pagina opnieuw.
 
-## Gemengde inhoud inschakelen in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Gemengde inhoud inschakelen in [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Standaard blokkeert Firebox pagina&#39;s die beveiligde en onveilige inhoud mengen. U wordt aangeraden deze instelling permanent te wijzigen voor gebruik [!DNL Target]. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
+Standaard, [!DNL Firebox] blokkeert pagina&#39;s die veilige en onveilige inhoud mengen. Deze instelling moet u permanent wijzigen [!DNL Target]. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
 1. Typ in Firefox `about:config` in de adresbalk.
-1. Bevestig het waarschuwingsbericht dat door Firefox wordt weergegeven.
+1. Bevestig de waarschuwing die wordt weergegeven door [!DNL Firefox].
 
    ![Firefox-waarschuwing](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
@@ -70,20 +70,18 @@ Standaard blokkeert Firebox pagina&#39;s die beveiligde en onveilige inhoud meng
 
    ![Firefox-beveiliging](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-Start de computer opnieuw nadat u deze instelling hebt gewijzigd.
+1. Start de computer opnieuw nadat u deze instelling hebt gewijzigd.
 
-## Gemengde inhoud inschakelen in Microsoft Edge
+## Gemengde inhoud inschakelen in [!DNL Microsoft Edge]
 
-Als u een site bezoekt via een beveiligde verbinding, controleert Edge of de inhoud op de webpagina veilig is verzonden.
+Als u een site bezoekt via een veilige verbinding, [!DNL Edge] controleert of de inhoud op de webpagina veilig is verzonden.
 
-Als u de VEC gebruikt met de nieuwste versie van Edge, moet u de site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
+Als u de VEC gebruikt met de meest recente versie van [!DNL Edge], moet u uw site-instellingen bijwerken. Bezoekers van uw site hoeven deze stappen niet uit te voeren.
 
-1. Klik op het vergrendelingspictogram (voorzichtig) en klik vervolgens op **[!UICONTROL Site Permissions]**.
+1. In [!DNL Edge], klikt u op **[!DNL Microsoft Edge]** in de menubalk, **[!UICONTROL Settings]** en klik vervolgens op **Cookies en sitemachtigingen**.
 
-   ![Siterechten in Microsoft Edge](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
+1. Schuiven naar **[!UICONTROL Insecure content]**.
 
-1. Schuiven naar **[!UICONTROL Insecure content]** Vervolgens gebruikt u de vervolgkeuzelijst om &quot;Blok (standaard)&quot; te wijzigen in &quot;Toestaan&quot;.
-
-   ![Onveilige inhoud](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
+1. Klikken **[!UICONTROL Insecure content]** en klik vervolgens op **[!UICONTROL Add]** naast **[!UICONTROL Allow]** voegt u de site toe waarop onveilige inhoud is toegestaan en klikt u vervolgens op **[!UICONTROL Add]**.
 
 1. Laad de VEC-pagina opnieuw.
