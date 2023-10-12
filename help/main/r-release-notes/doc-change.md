@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 111b0fd0dee8a91aa792fe89616868e3839a0b0b
+source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1999'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 11 oktober | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Bijgewerkte informatie over steun A4T voor [!DNL Adobe Experience Platform Web SDK]. |
 | 10 oktober | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor versie 2.11.0 van at.js. |
 | 6 oktober | [Reactietokens](/help/main/administrating-target/response-tokens.md) | Alle codevoorbeelden zijn bijgewerkt. |
 |  | [A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | Volledige zelfstudie in het dialoogvenster *[!UICONTROL Adobe Target Tutorials]* hulplijn. |

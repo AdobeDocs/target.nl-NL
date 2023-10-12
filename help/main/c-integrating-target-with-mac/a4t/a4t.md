@@ -4,9 +4,9 @@ description: Gebruiken [!DNL Analytics] for [!DNL Target] (A4T) om activiteiten 
 title: Wat is [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
+source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,8 @@ De volgende secties bevatten informatie over ondersteunde activiteitstypen wanne
 | Activiteitstypen | A4T-compatibel? | Opmerkingen, indien van toepassing |
 |--- |--- |--- |
 | [A/B-activiteit met handmatige verkeersverdeling](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |  |
-| [A/B-activiteit met automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [A/B activiteit met AutoTarget](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja (om.js)<P>Nee (Platform Web SDK) | A4T-ondersteuning voor Auto-Target-activiteiten wordt momenteel alleen ondersteund voor at.js. |
+| [A/B-activiteit met automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Zie [A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| [A/B activiteit met AutoTarget](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja | A4T-ondersteuning voor Auto-Target-activiteiten wordt nu ondersteund voor beide [!DNL Platform Web SDK] en at.js. |
 | [Gericht op ervaring (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [MVT (Multivariate Test)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Vereist op mbox-Gebaseerd doel metrisch doel om te krijgen [!UICONTROL Element Contribution] verslag. De [!UICONTROL Element Contribution] rapport wordt momenteel niet ondersteund [!DNL Analytics] metriek. |
 | [Automated Personalization (AP)-activiteit](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nee |  |
