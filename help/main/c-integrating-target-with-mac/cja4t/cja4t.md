@@ -6,9 +6,9 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
+source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,5 +125,12 @@ Een gegevensweergave instellen in [!DNL Customer Journey Analytics]. Een gegeven
    * Activiteits-id
 
    ![Opties voor namen en id&#39;s in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. Te gebruiken [!DNL Target] afmetingen in de [!UICONTROL Experimentation] stelt u de volgende contextlabels in:
+
+   * Voor [!UICONTROL Activity Name], gebruik &quot;Experimentatiedeskundige&quot;.
+   * [!UICONTROL Experience Name], gebruik &quot;Variant van de Experimentatie.&quot;
+
+   ![Contextlabels in het deelvenster Experimentatie](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Stel andere velden in en klik op **[!UICONTROL Save and continue]** wanneer gereed.
