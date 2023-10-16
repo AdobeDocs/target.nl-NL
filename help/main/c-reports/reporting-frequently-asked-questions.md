@@ -4,9 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe bekijken
 title: Waar kan ik antwoorden vinden op vragen over [!DNL Target] Rapportage?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de 
 
 * Het is de eerste keer dat de bezoeker de site bezoekt.
 * Het is de eerste keer dat de bezoeker de site bezoekt sinds hij cookies wist.
-* Het is de eerste keer dat de bezoeker de site bezoekt sinds de [Levensduur bezoekersprofiel](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
+* Het is de eerste keer dat de bezoeker de site bezoekt sinds de [Levensduur van bezoekersprofiel](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
 
 ### Bezoekers terugsturen
 
@@ -37,14 +37,14 @@ De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruik
 
 Stel dat de levensduur van uw profiel is ingesteld op 14 dagen (de standaardwaarde). Een bezoeker wordt opgenomen in het segment Terugkerende bezoekers als aan de volgende voorwaarden wordt voldaan:
 
-* Een bezoeker bezoekt de site voor het eerst en wordt opgenomen als nieuwe bezoeker.
+* Een bezoeker bezoekt de site voor het eerst en wordt opgenomen als een nieuwe bezoeker.
 * De bezoeker verlaat de site, maar keert zes dagen later terug.
 
 Aangezien de levensduur van het profiel veertien dagen is ingesteld, wordt deze bezoeker opgenomen in het segment Terugkerende bezoekers. Als de bezoeker binnen die periode van zes dagen cookies heeft verwijderd, wordt die bezoeker opgenomen in het segment Nieuwe bezoekers.
 
 ### Voorbeelden die verschillen tussen metrische aantallen verklaren
 
-**Voorbeeld 1**: Als deze twee segmenten worden toegepast op een activiteit, vormen het segment Nieuwe bezoekers en het segment Terugkerende bezoekers niet altijd het totale aantal bezoekers.
+**Voorbeeld 1**: Als deze twee segmenten op een activiteit worden toegepast, vormen het segment Nieuwe bezoekers en het segment Terugkerende bezoekers niet altijd het totale aantal bezoekers.
 
 Neem bijvoorbeeld het volgende voorbeeld, waarbij u de hierboven vermelde voorwaarden voor Nieuwe Bezoekers en Terugkerende Bezoekers in acht neemt:
 
@@ -53,7 +53,7 @@ Neem bijvoorbeeld het volgende voorbeeld, waarbij u de hierboven vermelde voorwa
 
 Deze bezoeker wordt geteld als één enkele bezoeker in het totale aantal bezoekers van de activiteit, ook al wordt het geteld in zowel de segmenten Nieuwe Bezoekers als Terugkerende Bezoekers.
 
-**Voorbeeld 2**: De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de activiteit vormt [succeswaarden](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Voorbeeld 2**: De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook af van hoe u de activiteit vormt [succeswaarden](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Bijvoorbeeld:
 
@@ -61,7 +61,7 @@ Verschillende nieuwe bezoekers bezoeken uw site en zijn gekwalificeerd voor een 
 
 Sommige bezoekers raakten de metrische conversie, die als &quot;Aantal van de Toename &amp; houdt Gebruiker in Activiteit.&quot;werd gevormd Veronderstel sommige van deze gebruikers de omzettings metrisch veelvoudige tijden bereiken, verhoogt omzettings metrisch niet. Gezien die opstelling, echter, zouden sommige gebruikers omzettings metrisch kunnen raken en dan terug naar de homepage navigeren, die in de activiteit opnieuw kwalificeert om een nieuw bezoek te registreren.
 
-## Waarom doe ik mijn [!UICONTROL Experience Targeting] (XT) de rapporten bevatten metriek voor controleervaringen?
+## Waarom mijn [!UICONTROL Experience Targeting] (XT) de rapporten bevatten metriek voor controleervaringen?
 
 XT-activiteiten moeten altijd een beheerervaring hebben. Als u een XT-activiteit op een vergelijkbare manier gebruikt als een [!UICONTROL A/B Test] activiteit, die een vrij gemeenschappelijk scenario is, zijn de gegevens van de controleervaring nuttig. U kunt de gegevens van de controleervaring negeren als u het niet nuttig in uw rapporten vindt.
 
@@ -74,9 +74,16 @@ Metrische aantallen, bijvoorbeeld bezoeken, gerapporteerd door [!DNL Target] zij
 
 ## Waarom zijn er geen gegevens beschikbaar voor mijn activiteitenverslag? {#section_E4722F6445884130951DF79981C8289B}
 
-Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zijn rapport bevat geen gegevens, zorg ervoor dat u het correcte milieu ([hostgroep](/help/main/administrating-target/hosts.md)) geselecteerd in de rapportinstellingen.
+Als de inhoud van een activiteit met succes aan bezoekers werd geleverd maar zijn rapport bevat geen gegevens, zou u met het volgende foutenbericht kunnen worden voorgesteld: &quot;Er zijn geen gegevens beschikbaar voor de geselecteerde rapportmontages.&quot;
 
-Als u een ontwikkelomgeving hebt geselecteerd, wordt mogelijk het volgende foutbericht weergegeven: &quot;Er zijn geen gegevens beschikbaar voor de geselecteerde rapportinstellingen.&quot;
+Er zijn een paar mogelijke redenen waarom gegevens ontbreken in activiteitenverslagen:
+
+* U hebt niet het correcte milieu geselecteerd in de montages van het rapport
+* U hebt geen verkeer dat aan de controleervaring wordt toegewezen
+
+### U hebt niet het correcte milieu geselecteerd in de montages van het rapport:
+
+Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zijn rapport bevat geen gegevens, zorg ervoor dat u het correcte milieu ([hostgroep](/help/main/administrating-target/hosts.md)) geselecteerd in de rapportinstellingen.
 
 Om het milieu voor het rapport van een activiteit te veranderen:
 
@@ -85,27 +92,39 @@ Om het milieu voor het rapport van een activiteit te veranderen:
 
    ![A/B-instellingen, dialoogvenster](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-   >[!NOTE]
-   >
-   >Het tandwielpictogram is niet beschikbaar voor [!UICONTROL Automated Personalization] (AP) rapporten.
-
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Environment]** de optie **[!UICONTROL Production]**.
 
    Rapportgegevens zijn mogelijk niet beschikbaar als u een ontwikkelomgeving hebt geselecteerd.
 
 1. Klik op **[!UICONTROL Save]**.
 
-Voor meer informatie over omgevingen raadpleegt u [Gastheren](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Zie voor meer informatie over omgevingen [Gastheren](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### U hebt geen verkeer dat aan de controleervaring wordt toegewezen
+
+Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zijn rapport bevat geen gegevens, zorg ervoor dat u verkeer hebt dat aan de controleervaring wordt toegewezen.
+
+1. Klikken **[!UICONTROL Activities]**, klikt u in de lijst op de gewenste activiteit en klikt u vervolgens op de knop **[!UICONTROL Reports]** tab.
+1. Klik op het tandwielpictogram om de rapportinstellingen te configureren.
+
+1. Van de **[!UICONTROL Control]** drop-down lijst, selecteer een ervaring die verkeer ontvangt.
+
+1. Klik op **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Voor meer informatie over het bijwerken van een [!UICONTROL Automated Personalization] (AP) activiteit en verander de controleervaring in een ervaring die verkeer ontvangt, zie [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
 
 ## Waarom is het verkeer verdeeld tussen mijn ervaringen ongelijk in mijn activiteit A/B of MVT? {#uneven}
 
 Bijvoorbeeld, plaatste ik de verkeersverdeling aan 50/50 of 25/25/25/25 maar ik zie een zeer verschillende verdeling tussen ervaringen in de rapportering. Er zijn verschillende oorzaken die kunnen worden verklaard door ongelijke aantallen bezoekers in [!DNL Target] rapportage:
 
-* Wanneer een [!DNL Target] de activiteit eerst wordt gelanceerd, kan de verkeersdistributie ongelijk wegens de architectuur van de randknoop zijn die [!DNL Target] gebruiken om de levering van ervaringen te optimaliseren. De beste praktijk is een activiteit wat tijd te geven om meer gegevens te verzamelen en de distributie zal normaliseren. Voor meer informatie over [!DNL Adobe Target] architectuur en Edge-knooppunten, zie [Hoe Adobe Target werkt](/help/main/c-intro/how-target-works.md).
+* Wanneer een [!DNL Target] de activiteit eerst wordt gelanceerd, kan de verkeersdistributie ongelijk wegens de architectuur van de randknoop zijn die [!DNL Target] gebruiken om de prestaties te optimaliseren. De beste praktijk is een activiteit wat tijd te geven om meer gegevens te verzamelen en de distributie zal normaliseren. Voor meer informatie over [!DNL Adobe Target] architectuur en Edge-knooppunten, zie [Hoe Adobe Target werkt](/help/main/c-intro/how-target-works.md).
 * Als u binnen [!DNL Target] of [!DNL Analytics] en u gebruikt de **[!UICONTROL Visits]** metrisch, herinner dat [!DNL Target] is een op bezoekers gebaseerd systeem en de verkeersverdeling voor een A/B- of MVT-test wordt toegewezen op bezoekersniveau. Als u dus de resultaten van de activiteit bekijkt met de **[!UICONTROL Visits]** metrisch, zou de verkeersdistributie ongelijkmatig kunnen lijken omdat bepaalde bezoekers veelvoudige bezoeken zouden kunnen hebben. Bezoekers zijn de standaard die metrische gegevens normaliseren bij het evalueren van de prestaties van de activiteit.
 * De beste praktijk voor A/B- en MVT-tests is het gelijkmatig verdelen van het verkeer. Het wijzigen van de verkeersverdeling tussen ervaringen (bijvoorbeeld van 90/10 naar 50/50) tijdens een test kan leiden tot ongelijke ervaringen tussen bezoekers. De lagere verkeerservaring zou nooit &quot;inhalen.&quot;
 * Als u de bovenstaande beste praktijken volgt en de verkeerssplitsing niet in tijd normaliseert, zou u het volgende moeten controleren:
 
-   * Gebruikt u de nieuwste bibliotheek van at.js? Voor meer informatie over de huidige versie en bijbehorende versienota&#39;s, zie [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * Gebruikt u de nieuwste bibliotheek van at.js? Voor meer informatie over de huidige versie en bijbehorende versienota&#39;s, zie [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * Is het een omleidingstest? Onjuiste timing van het afvuren van tags op de pagina kan leiden tot ongelijkmatige bewegingssplitsingen, vooral bij gebruik van [!DNL Analytics] als gegevensbron voor een [!DNL Target] activiteit. Voor details om ongelijke verkeersdistributie op een omleidingsactiviteit met Analytics voor Doel (A4T) te verhelpen, zie [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
