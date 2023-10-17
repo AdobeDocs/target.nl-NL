@@ -5,9 +5,9 @@ title: Hoe vorm ik Rapportering in Doel?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 >[!NOTE]
 >
->Houd er rekening mee dat de tijdzone, de valuta en IP-adressen waarop instellingen moeten worden uitgesloten van toepassing zijn op activiteiten die gebruikmaken [!DNL Target] rapportage. Deze instellingen zijn niet van toepassing op activiteiten die [Analyses voor doel (A4T)] als bron voor de rapportage (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Houd er rekening mee dat de tijdzone, de valuta en IP-adressen waarop instellingen moeten worden uitgesloten van toepassing zijn op activiteiten die gebruikmaken [!DNL Target] rapportage. Deze instellingen zijn niet van toepassing op activiteiten die [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) als de bron van de rapportage.
 
 ![Pagina rapporteren](/help/main/administrating-target/assets/reporting.png)
 

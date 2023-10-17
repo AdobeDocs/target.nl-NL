@@ -6,16 +6,16 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '3177'
+source-wordcount: '3180'
 ht-degree: 0%
 
 ---
 
 # Machtigingen voor Enterprise-gebruikers
 
-Machtigingen voor zakelijke gebruikers zijn een manier om gebruikers op bedrijfsniveau formeel toegang te verlenen tot [!DNL Adobe Target]. Gebruikers toevoegen aan [!DNL Target], wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen toewijzen van [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], of [!UICONTROL Publisher].
+De gebruikerstoestemmingen van de onderneming zijn een middel formeel om gebruikers op bedrijfsniveau toegang tot te beheren [!DNL Adobe Target]. Gebruikers toevoegen aan [!DNL Target], wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt gebruikers de rollen toewijzen van [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], of [!UICONTROL Publisher].
 
 ## Bepaal of u toegang hebt tot bedrijfsgebruikersmachtigingen
 
@@ -63,7 +63,7 @@ Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen zelfs verschi
 
 Gebruikers kunnen verschillende weergaven van [!DNL Adobe Target] door te schakelen tussen werkruimten, vergelijkbaar met [!DNL Analytics] gebruikers hebben verschillende weergaven van [!DNL Analytics] door tussen de Geschikten van het Rapport te bewegen.
 
-De werkruimten kunnen volledige verschillende soorten publiek, codeaanbiedingen, en activiteiten omvatten.
+De werkruimten kunnen volledig verschillend publiek, codeaanbiedingen, en activiteiten omvatten.
 
 Alle publiek en activiteiten die vóór de nieuwe modelmigratie van de Toestemmingen van de Onderneming worden gecreeerd worden gegroepeerd in &quot;StandaardWerkruimte,&quot;hieronder besproken.
 
@@ -81,7 +81,7 @@ Alle gebruikersrollen en toegang tot alle [!DNL Target] de functionaliteit blijf
 
 ### Gebruikersgroepen
 
-U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Managers enzovoort. U kunt dan voorrechten over veelvoudige producten en werkruimten van de Adobe toewijzen. Het toewijzen van een nieuw teamlid kan alle aangewezen voorrechten over verschillende producten van de Adobe zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
+U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers en Managers. U kunt dan voorrechten over veelvoudige producten en werkruimten van de Adobe toewijzen. Het toewijzen van een nieuw teamlid kan alle aangewezen voorrechten over verschillende producten van de Adobe zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
 
 ### Rollen en machtigingen {#roles-permissions}
 
@@ -110,7 +110,7 @@ De nieuwe [!UICONTROL Permissions] Met de functionaliteit kunt u verschillende p
 
 Een specifieke gebruiker kan bijvoorbeeld toegang tot goedkeuring hebben op de Amerikaanse websites, maar alleen toegang tot de Europese mobiele app bekijken. Dezelfde gebruiker heeft mogelijk geen toegang om zelfs maar de activiteiten te bekijken die op het web en mobiele eigenschappen in de APAC-regio worden aangeboden.
 
-De huidige [!DNL Target] [!UICONTROL Permissions] het model heeft drie toestemmingsrollen (de Waarnemer, de Redacteur, en de Approver), zoals aangetoond in de volgende illustratie:
+De [!DNL Target] [!UICONTROL Permissions] het model heeft de volgende toestemmingsrollen (Waarnemer, Redacteur, Approver, en Waarnemer). De rol van waarnemer wordt niet weergegeven in illustraties in dit artikel.
 
 ![permissions_1 afbeelding](assets/permissions_1.png)
 
@@ -133,7 +133,7 @@ De nieuwe [!DNL Target] [!UICONTROL Permissions] Het model heeft de zelfde drie 
 
 In dit voorbeeld heeft Jan de toestemmingen van de fiatteur aan de Homepage van de V.S. en de Plaats en de toestemmingen van de Waarnemer aan de Plaats van Frankrijk.
 
-Bovendien kan Jan geen pagina&#39;s, eigenschappen of sites weergeven in [!DNL Target] dat zij geen toestemmingen te zien heeft, zoals hieronder getoond:
+Bovendien kan Jan geen pagina&#39;s, eigenschappen of sites weergeven in [!DNL Target] dat ze geen toestemming heeft om te zien, zoals hieronder wordt getoond:
 
 ![permissions_4 beeld](assets/permissions_4.png)
 
@@ -150,7 +150,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Jan**: Jan is het hoofd Optimalisatie in het Center of Excellence voor de webpagina&#39;s, eigenschappen en sites van haar organisatie in de Verenigde Staten. Ze heeft waarschijnlijk rechten voor Systeembeheer in de Adobe Experience Cloud.
 
-  In haar rol, heeft zij de toestemmingen van Approver voor de Homepage van de V.S. en de Plaats van de V.S. Met de toestemmingen van de fiatteur, kan zij, activiteiten tot stand brengen uitgeven en activeren of tegenhouden.
+  In haar rol, heeft zij de toestemmingen van Approver voor de Homepage van de V.S. en de Plaats van de V.S. Met de machtiging fiatteur kunt u activiteiten maken, bewerken en activeren of stoppen.
 
   Jan raadpleegt ook het optimalisatieteam in Frankrijk en heeft daarom waarnemersmachtigingen voor de site van Frankrijk die haar alleen-lezen toegang tot activiteiten geven. Jan kan activiteiten weergeven, maar kan deze niet maken of bewerken.
 
@@ -158,7 +158,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Ernie**: Ernie is een marketingmanager van de organisatie die in de Verenigde Staten verantwoordelijk is voor marketing.
 
-  Omdat Ernie vrij nieuw aan de organisatie en onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Homepage van de V.S., Plaats, en de Pagina&#39;s van het Product van de V.S. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring, zoals Jan goedkeuren, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
+  Omdat Ernie vrij nieuw aan de organisatie en onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Homepage van de V.S., Plaats, en de Pagina&#39;s van het Product van de V.S. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan niet de lancering van activiteit-iemand met de toestemming van de Goedkeuring, zoals Jan goedkeuren, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
 
   Omdat Ernie geen rol heeft die hem vereist om de Russische Site, de Plaats van Frankrijk, of de Plaats van Careers te zien, kan hij geen activiteiten voor die plaatsen zien.
 
@@ -174,13 +174,13 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Jan**: Jan is het hoofd van de optimalisatie in het excellentiecentrum voor een organisatie voor gezondheidszorg die actief is in de ruimten voor ziekenhuisproducten en consumentenproducten. Ze heeft waarschijnlijk rechten voor Systeembeheer in de Adobe Experience Cloud.
 
-  In haar rol, heeft zij de toestemmingen van de fiatteur voor de Ziekenhuis. Met de toestemmingen van de fiatteur, kan zij, activiteiten tot stand brengen uitgeven en activeren of tegenhouden.
+  In haar rol, heeft zij de toestemmingen van de fiatteur voor de Ziekenhuis. Met de machtiging fiatteur kunt u activiteiten maken, bewerken en activeren of stoppen.
 
   Jan raadpleegt ook het optimalisatieteam in de ruimte voor consumentenproducten en beschikt daarom over de machtiging Waarnemer voor die site die haar alleen-lezen toegang geeft tot activiteiten. Jan kan activiteiten weergeven, maar kan deze niet maken of bewerken.
 
 * **Ernie**: Ernie is een marketingmanager voor de organisatie die verantwoordelijk is voor marketing in de ruimte tussen consument en product.
 
-  Omdat Ernie vrij nieuw aan de organisatie en onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Plaats van de Consumenten. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring voor de Plaats van de Consumenten goedkeuren, maar niet Jan in dit scenario, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
+  Omdat Ernie vrij nieuw aan de organisatie en onervaren met Doel is, heeft hij de toestemming van de Redacteur voor de Plaats van de Consumenten. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan niet de lancering van activiteit-iemand met de toestemmingen van de Goedkeuring voor de Plaats van de Consumenten goedkeuren, maar niet Jan in dit scenario, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
 
   Omdat Ernie geen rol heeft die hem ertoe noopt de Ziekenhuis te zien, kan hij geen activiteiten voor die plaats zien.
 
@@ -209,7 +209,7 @@ De nieuwe machtigingsfunctionaliteit is op verschillende plaatsen te zien in de 
 
 Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen en toestemmingen in [!DNL Target] Premium:
 
-* **Belangrijk**: Verwijder geen werkruimten met activiteiten. Als u een werkruimte met activiteiten schrapt, werk met klantenzorg om die activiteiten terug te krijgen.
+* **Belangrijk**: Verwijder geen werkruimten met activiteiten. Als u een werkruimte met activiteiten schrapt, werk met de Zorg van de Cliënt om die activiteiten terug te krijgen.
 * Wanneer het gebruiken van Al Mijn mening van Werkruimten:
 
    * U kunt activiteiten, publiek, en aanbiedingen voor alle werkruimten zien die u de juiste rollen en toestemmingen hebt om toegang te hebben.
@@ -233,7 +233,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
 * Bij het weergeven van soorten publiek vanuit het deelvenster [!DNL Audiences] pagina, wordt de pagina langzamer geladen dan u had verwacht. Als u op een of andere manier met de zoekbalk werkt, worden de doelgroepen sneller weergegeven. Dit probleem is bekend en wordt in een volgende update opgelost. Dit probleem heeft geen invloed op het selecteren van doelgroepen tijdens de workflow voor het maken van activiteiten.
 * De volgende middelen maken deel uit van het nieuwe model van de Toestemmingen van de Onderneming:
 
-   * Activiteiten, publiek en codeaanbiedingen die zijn gemaakt binnen [!DNL Target Standard/Premium] zijn beschikbaar voor gebruik nadat de klant voor toestemmingen wordt toegelaten. (Opmerking: klanten moeten het recht hebben om [!DNL Target Premium].)
+   * Activiteiten, publiek en codeaanbieding binnen [!DNL Target Standard/Premium] zijn beschikbaar voor gebruik nadat de klant voor toestemmingen wordt toegelaten. (Opmerking: klanten moeten het recht hebben om [!DNL Target Premium].)
    * Eigenschappen kunnen worden toegevoegd aan bestaande activiteiten in de standaardwerkruimte, maar deze aanpak kan worden gewijzigd.
    * Alleen nieuwe bronnen (zoals activiteiten, codeaanbiedingen en publiek) die zijn gemaakt in Target Premium (nadat Enterprise-machtigingen zijn ingeschakeld) zijn beschikbaar om te worden beperkt door machtigingen.
    * Externe bronnen zijn alleen beschikbaar voor gebruikers in de standaardwerkruimte. De rol van een gebruiker in de Standaardwerkruimte wordt globaal toegepast (op alle doelverzoeken en alle doelbronnen).
@@ -253,7 +253,7 @@ Overweeg het volgende wanneer het gebruiken van of het vormen van eigenschappen 
 
   In een toekomstige release werkt Target op pagina&#39;s waar geen `at_property` token aanwezig is of pagina&#39;s waarop een ander token aanwezig is `at_property` token is aanwezig.
 
-* De functionaliteit voor gebruikersmachtigingen voor ondernemingen wordt niet ondersteund in Adobe I/O API-aanroepen.
+* De functionaliteit voor gebruikersmachtigingen voor Enterprise wordt niet ondersteund in Adobe Developer API-aanroepen.
 
 ## Veelgestelde vragen {#faqs}
 
@@ -267,7 +267,7 @@ Als een gebruiker veelvoudige rollen en toestemmingen heeft, wordt de rol met de
 
 Helaas kunt u activiteiten niet van de ene werkruimte naar de andere verplaatsen. U kunt een activiteit echter naar elke werkruimte kopiëren in de wetenschap dat de rapportgegevens niet worden overgedragen. Zie &quot;Een activiteit kopiëren/bewerken bij het gebruik van werkruimten&quot; voor meer informatie in [Activiteit kopiëren/bewerken bij gebruik van werkruimten](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Activiteiten die vóór de migratie zijn gemaakt, worden in de standaardwerkruimte op dezelfde manier uitgevoerd, tenzij ze worden bewerkt en toegewezen eigenschappen. Activiteiten die onder een specifieke werkruimte vallen, respecteren de eigenschappen die aan die werkruimte zijn toegewezen, zodat het gedrag mogelijk niet hetzelfde blijft als vóór de migratie.
+Activiteiten die vóór de migratie zijn gemaakt, worden in de standaardwerkruimte op dezelfde manier uitgevoerd, tenzij ze worden bewerkt en toegewezen eigenschappen. Activiteiten die onder een specifieke werkruimte vallen, respecteren de eigenschap die aan die werkruimte is toegewezen. Daarom is het mogelijk dat gedrag niet hetzelfde blijft als vóór de migratie.
 
 ### Kan ik een publiek van de ene werkruimte naar de andere verplaatsen? {#move-audience}
 
@@ -289,7 +289,7 @@ Ja, u kunt een publiek tussen werkruimten verplaatsen met de opdracht [!UICONTRO
 
 Als u [!DNL Target] met tags in [!DNL Adobe Experience Platform] en krijg een foutbericht dat aangeeft dat er geen eigenschap is die aan de activiteit is gekoppeld, geeft u door `at_property` met de `targetPageParams` functie.
 
-### Zijn klikspooromzettingen geregistreerd als een omleidingspagina en activiteit URL tot verschillende eigenschappen behoren?
+### Zijn klikspooromzettingen geregistreerd als een omgeleide pagina en activiteit URL tot verschillende eigenschappen behoren?
 
 Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren.
 
