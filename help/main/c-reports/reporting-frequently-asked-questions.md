@@ -4,9 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe bekijken
 title: Waar kan ik antwoorden vinden op vragen over [!DNL Target] Rapportage?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Zie voor meer informatie over omgevingen [Gastheren](/help/main/administrating-t
 
 ### U hebt geen verkeer dat aan de controleervaring wordt toegewezen
 
-Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zijn rapport bevat geen gegevens, zorg ervoor dat u verkeer hebt dat aan de controleervaring wordt toegewezen.
+Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zijn rapport bevat geen gegevens, zorg ervoor dat u een ervaring met verkeer als controleervaring gebruikt.
 
 1. Klikken **[!UICONTROL Activities]**, klikt u in de lijst op de gewenste activiteit en klikt u vervolgens op de knop **[!UICONTROL Reports]** tab.
 1. Klik op het tandwielpictogram om de rapportinstellingen te configureren.
