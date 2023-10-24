@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
+source-git-commit: 594999c57d10d88d48f34599e67cbf6649351aa9
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 3 oktober 2023**
+**Laatst bijgewerkt: 24 oktober 2023**
 
 >[!NOTE]
 >
@@ -23,77 +23,15 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## [!DNL Target] Standard/Premium 23.9.4 (4-6 oktober 2023)
-
-Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
-
-* **4 oktober**: regio Azië-Stille Oceaan (APAC)
-* **5 oktober** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
-* **6 oktober**: Amerikaanse regio
+## [!DNL Target] Standard/Premium 23.10.2 (24 oktober 2023)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-| Functie | Details |
-| --- | --- |
-| [!UICONTROL Activities] UI vernieuwen<P>en<P>[!UICONTROL Feeds] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Activities] en [!DNL Recommendations] [!UICONTROL Feeds] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen.<P>Zie voor meer informatie [Activiteiten](/help/main/c-activities/activities.md) en [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] implementatiepatroon | De *Recommendations-implementatiepatroon met behulp van at.js* artikelen helpen u uw [!DNL Adobe Target Recommendations] implementatie bij gebruik van de JavaScript-bibliotheek at.js.<P>Zie voor meer informatie [Recommendations-implementatiepatroon met behulp van at.js-overzicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} in de *Adobe Target Developer Guide*. |
-
-* Toegevoegd [!UICONTROL Visual Experience Composer] (VEC) Verbeteringen voor dynamische kaders. (TGT-44064)
-* Het probleem dat de geselecteerde datum veroorzaakte in het dialoogvenster `getViewInAnalyticsId` verzoek om niet correct bij te werken. Met deze correctie kunt u de [!DNL Analytics] koppeling in rapportage wanneer het datumbereik en de instellingen van het metriekrapport zijn gewijzigd. (TGT-46246)
-
-## [!DNL Target] Standard/Premium 23.9.3 (18 september 2023)
-
-Deze versie bevat de volgende verbeteringen en oplossingen:
-
-* Verbeterde het [!UICONTROL Visual Experience Composer] (VEC) ter ondersteuning van Lightning Web Components (Light DOM). (TGT-45422)
-* Probleem opgelost waarbij VEC-handelingen in de onjuiste volgorde werden toegepast. In sommige gevallen paste VEC sommige wijzigingen asynchroon toe en het toevoegen van extra aanpassingen aan een element veroorzaakte fouten als dat element na een [!UICONTROL Insert] handeling. Hiermee corrigeert u ook de VEC-URL die nu wordt bijgewerkt wanneer u op ankerkoppelingen klikt. (TGT-45983)
-* Probleem opgelost met VEC [!UICONTROL Overlay] -functie, die nu elementen in DOM&#39;s met schaduw ondersteunt. (TGT-45202 &amp; TGT-45262)
-* Probleem verholpen bij het openen van een toepassingspagina voor één pagina (SPA) in de VEC en vervolgens naar [!UICONTROL Browse] De modus voor de pijlen Vorige en Volgende functioneren niet correct. (TGT-45956)
-* Probleem verholpen waardoor sommige webpagina&#39;s niet in de VEC konden worden geladen. (TGT-45983)
-
-## [!DNL Target] Standard/Premium 23.9.2 (12-14 september 2023)
-
-Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
-
-* **12 september**: Amerikaanse regio
-* **13 september**: regio Azië-Stille Oceaan (APAC)
-* **14 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
-
-Deze versie bevat de volgende verbeteringen en oplossingen:
-
-* De [!DNL Analytics] API voor de nieuwe [!DNL Analytics] API versie 2.0. (TGT-45345)
-* Opgeloste problemen met gevolgen [!UICONTROL Automated Personalization] (AP) activiteiten voor sommige klanten, met inbegrip van het tijdig synchroniseren van de activiteit op [!DNL Target] back-end maken en de verwachte ervaring bieden met voorvertoningskoppelingen. (TGT-46202)
-
-## [!DNL Target] Standard/Premium 23.9.1 (6-11 september 2023)
-
-Deze release is beschikbaar volgens het volgende schema voor gefaseerde installatie:
-
-* **6 september**: Amerikaanse regio
-* **7 september** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
-* **11 september**: regio Azië-Stille Oceaan (APAC)
-
-Deze versie bevat de volgende verbeteringen en oplossingen:
-
-* Probleem verholpen waarbij inconsistente rapportgegevens in het dialoogvenster [!DNL Target] UI en de [!DNL Adobe Analytics] UI voor [!UICONTROL Auto-Allocate] activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46112)
-* De time-out voor aanroepen van PUTTEN naar de API voor doellevering is verhoogd tot 15 seconden om time-outfouten te voorkomen. (TGT-46091)
-* Probleem verholpen waardoor de URL niet constant kon worden bijgewerkt wanneer er door een website van de toepassing Eén pagina (SPA) werd gebladerd. (TGT-45417)
-
-## [!DNL Target] Standard/Premium 23.5.2 (nog te bepalen datum)
-
-Deze versie bevat de volgende verbeteringen en oplossingen:
-
-* Selectie van optimalisatiecriteria ingeschakeld voor [!DNL Adobe Analytics] metriek.
-* Synchronisatie van externe doelgroepen inschakelen met gebruik van slingertaken.
-* Probleem verholpen waarbij SC-rapportsuites met een puntteken in de naam niet werden ondersteund.
-* Ingeschakelde functionaliteit waarmee klanten ingebouwde doelgroepen kunnen verwijderen en bewerken.
-
-## [!DNL Target] Standard/Premium 23.5.3 (nog te bepalen datum)
-
-Deze release bevat de volgende verbeteringen:
-
-| Functie | Details |
-|--- |--- |
-| [!UICONTROL QA mode] for [!UICONTROL Automated Personalization] activiteiten | [!DNL Adobe Target] [!UICONTROL QA mode] is nu beschikbaar voor [!UICONTROL Automated Personalization] activiteiten, vervangen [!UICONTROL Preview links] functionaliteit.<P>Zie voor meer informatie [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+* De nieuwe versie verbeteren [!UICONTROL Activities] UI zodat de [!UICONTROL Visual Experience Composer] (VEC) wordt geopend met de standaardinstellingen voor `selectorCriteria` wanneer u een nieuwe activiteit maakt. (TGT-46586)
+* Probleem verholpen waardoor sommige klanten elementen niet konden bewerken in [!UICONTROL Composer] modus bij gebruik van de VEC. (TGT-46470)
+* De mogelijkheid toegevoegd om een algemene voorkeurenkiezer op te geven bij het gebruik van aangepaste kenmerken. (TGT-46545)
+* Het probleem dat soms een [!UICONTROL Auto-Target] rapport dat gebruikt [!UICONTROL Analytics for Target] (A4T) van weergave in de [!DNL Target] UI, alhoewel het rapport correct in werd getoond [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Verschillende gelokaliseerde tekenreeksen zijn bijgewerkt in de doelinterface. (TGT-18899)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
