@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 594999c57d10d88d48f34599e67cbf6649351aa9
+source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,21 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 24 oktober 2023**
+**Laatst bijgewerkt: 25 oktober 2023**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
+
+## [!UICONTROL Activities] gebruikersinterface pagina vernieuwen (25 oktober 2023)
+
+Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Activities] pagina in de [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen.
+
+Vanaf woensdag 25 oktober zal een percentage klanten toegang hebben tot de nieuwe interface met extra klanten die toegang krijgen in de komende paar dagen.
+
+Zie voor meer informatie [Activiteiten](/help/main/c-activities/activities.md).
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24 oktober 2023)
 
