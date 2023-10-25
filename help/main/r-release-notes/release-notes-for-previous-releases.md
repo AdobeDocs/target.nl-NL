@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
-source-wordcount: '36942'
+source-wordcount: '36893'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 
 | Functie | Details |
 | --- | --- |
-| [!UICONTROL Activities] UI vernieuwen<P>en<P>[!UICONTROL Feeds] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Activities] en [!DNL Recommendations] [!UICONTROL Feeds] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen.<P>Zie voor meer informatie [Activiteiten](/help/main/c-activities/activities.md) en [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
 | [!DNL Recommendations] implementatiepatroon | De *Recommendations-implementatiepatroon met behulp van at.js* artikelen helpen u uw [!DNL Adobe Target Recommendations] implementatie bij gebruik van de JavaScript-bibliotheek at.js.<P>Zie voor meer informatie [Recommendations-implementatiepatroon met behulp van at.js-overzicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} in de *Adobe Target Developer Guide*. |
 
 * Toegevoegd [!UICONTROL Visual Experience Composer] (VEC) Verbeteringen voor dynamische kaders. (TGT-44064)
