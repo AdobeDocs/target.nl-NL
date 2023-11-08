@@ -4,7 +4,7 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4d32ae98c90b881e14b33a76ad51ea7662aeebc4
+source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 7 november 2023**
+**Laatst bijgewerkt: 8 november 2023**
 
 >[!NOTE]
 >

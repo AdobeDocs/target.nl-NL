@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
+source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 8 november | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande opmerkingen voor de komende release toegevoegd [!DNL Target Standard/Premium] release 23.11.1. |
 | 28 oktober | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Extra informatie over de release at.js 2.11.2. |
 | 25 oktober | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!UICONTROL Activities] gebruikersinterface pagina vernieuwen (25 oktober 2023) |
 | 24 oktober | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.10.2. |
@@ -28,7 +29,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 17 oktober | [Veelgestelde vragen over rapportage](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | Bijgewerkt FAQ: &quot;Waarom zijn er geen gegevens beschikbaar voor het rapport van mijn activiteit? &quot; |
-| 11 oktober | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Bijgewerkte informatie over steun A4T voor [!DNL Adobe Experience Platform Web SDK]. |
+| 11 oktober | [[!DNL Adobe Analytics] als bron van rapportage voor [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Bijgewerkte informatie over steun A4T voor [!DNL Adobe Experience Platform Web SDK]. |
 | 10 oktober | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor versie 2.11.0 van at.js. |
 | 6 oktober | [Reactietokens](/help/main/administrating-target/response-tokens.md) | Alle codevoorbeelden zijn bijgewerkt. |
 |  | [A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | Volledige zelfstudie in het dialoogvenster *[!UICONTROL Adobe Target Tutorials]* hulplijn. |
