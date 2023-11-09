@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: 82b75b8ef293b3243c0b2528020dced4654b2688
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,11 @@ Deze versie bevat de volgende oplossingen:
 * Verbeterde het [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) om klanten de mogelijkheid te bieden dubbele aanbiedingen voor ervaringen uit te schakelen in [!UICONTROL Automated Personalization] activiteiten. (TGT-46627)
 * Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen begrijpen waarom er geen gegevens beschikbaar in activiteitenrapporten zouden kunnen zijn als geen verkeer aan de controleervaring wordt toegewezen. De knopinfo bevat een koppeling naar meer informatie: [Waarom zijn er geen gegevens beschikbaar voor mijn activiteitenverslag?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Probleem verholpen waardoor activiteiten niet correct konden worden weergegeven op het tabblad [!UICONTROL Activities] pagina voor een paar klanten. (TGT-46830)
-* Probleem verholpen waardoor sommige klanten geen rapportgegevens konden bekijken voor activiteiten die gebruikmaken van [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46557)
-* Het probleem dat soms de oorzaak was van de [!UICONTROL View in Analytics] koppeling op pagina&#39;s met activiteitenrapporten niet correct functioneert voor activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46731)
-* Probleem verholpen waarbij gegevens werden geblokkeerd voor [!UICONTROL Lift] en [!UICONTROL Confidence] om correct weer te geven in de [!DNL Target] UI voor activiteiten die [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. (TGT-46592, TGT-46554, &amp; TGT-46586)
+
+* De volgende problemen verholpen die van invloed waren op activiteiten die [Analyses voor doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als rapportagebron:
+   * Probleem verholpen waardoor sommige klanten geen rapportgegevens konden weergeven. (TGT-46557)
+   * Het probleem dat soms de oorzaak was van de [!UICONTROL View in Analytics] koppeling op pagina&#39;s met activiteitenrapportage om niet correct te functioneren. (TGT-46731)
+   * Probleem verholpen waarbij gegevens werden geblokkeerd voor [!UICONTROL Lift] en [!UICONTROL Confidence] om correct weer te geven in de [!DNL Target] UI. (TGT-46592, TGT-46554, &amp; TGT-46586)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
