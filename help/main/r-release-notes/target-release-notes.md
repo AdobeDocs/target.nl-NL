@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3cce7d181de4e344b1878990fd5506000d40befd
+source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,11 @@ Deze release is gepland voor de volgende dagen:
 * **14 november**: Amerikaanse regio
 * **14 november** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
 
-Deze versie bevat de volgende oplossingen:
+Deze versie bevat de volgende verbeteringen en oplossingen:
 
 * Verbeterde het [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) te ondersteunen functie [dubbele aanbiedingen negeren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) voor ervaringen in [!UICONTROL Automated Personalization] activiteiten. (TGT-46627)
 * Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen begrijpen waarom er geen gegevens beschikbaar in activiteitenrapporten zouden kunnen zijn als geen verkeer aan de controleervaring wordt toegewezen. De knopinfo bevat een koppeling naar meer informatie: [Waarom zijn er geen gegevens beschikbaar voor mijn activiteitenverslag?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Probleem verholpen waardoor activiteiten niet correct konden worden weergegeven op het tabblad [!UICONTROL Activities] pagina voor een paar klanten. (TGT-46830)
-
 * De volgende problemen verholpen die van invloed waren op activiteiten die [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als rapportagebron:
    * Probleem verholpen waardoor sommige klanten geen rapportgegevens konden weergeven. (TGT-46557)
    * Het probleem dat soms de oorzaak was van de [!UICONTROL View in Analytics] koppeling op pagina&#39;s met activiteitenrapportage om niet correct te functioneren. (TGT-46731)
