@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2103'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 10 november | [Recommendations API-naslag](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | De [!DNL Adobe Target] [!DNL Recommendations] API is verplaatst naar de [!DNL Adobe Developer] website. Werk uw bladwijzers indien nodig bij. |
 | 8 november | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande opmerkingen voor de komende release toegevoegd [!DNL Target Standard/Premium] release 23.11.1. |
 | 28 oktober | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Extra informatie over de release at.js 2.11.2. |
 | 25 oktober | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Extra informatie over de [!UICONTROL Activities] gebruikersinterface pagina vernieuwen (25 oktober 2023) |
