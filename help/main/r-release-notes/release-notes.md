@@ -6,10 +6,10 @@ short-description: Leer meer over de nieuwe functies, verbeteringen en oplossing
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 11%
+source-wordcount: '554'
+ht-degree: 9%
 
 ---
 
@@ -27,15 +27,23 @@ Vanaf woensdag 25 oktober zal een percentage klanten toegang hebben tot de nieuw
 
 Zie voor meer informatie [Activiteiten](/help/main/c-activities/activities.md).
 
-## [!DNL Target] Standard/Premium 23.10.2 (24 oktober 2023)
+## [!DNL Target] Standaard/Premium 23.11.1 (13 en 14 november 2023)
+
+Deze release is gepland voor de volgende dagen:
+
+* **13 november**: regio Azië-Stille Oceaan (APAC)
+* **14 november**: Amerikaanse regio
+* **14 november** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* De nieuwe versie verbeteren [!UICONTROL Activities] UI zodat de [!UICONTROL Visual Experience Composer] (VEC) wordt geopend met de standaardinstellingen voor `selectorCriteria` wanneer u een nieuwe activiteit maakt. (TGT-46586)
-* Probleem verholpen waardoor sommige klanten elementen niet konden bewerken in [!UICONTROL Composer] modus bij gebruik van de VEC. (TGT-46470)
-* De mogelijkheid toegevoegd om een algemene voorkeurenkiezer op te geven bij het gebruik van aangepaste kenmerken. (TGT-46545)
-* Het probleem dat soms een [!UICONTROL Auto-Target] rapport dat gebruikt [!UICONTROL Analytics for Target] (A4T) van weergave in de [!DNL Target] UI, alhoewel het rapport correct in werd getoond [!DNL Adobe Analysis Workspace]. (TGT-46494)
-* Verschillende gelokaliseerde tekenreeksen zijn bijgewerkt in de doelinterface. (TGT-18899)
+* Verbeterde het [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) te ondersteunen functie [dubbele aanbiedingen negeren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) voor ervaringen in [!UICONTROL Automated Personalization] activiteiten. (TGT-46627)
+* Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen begrijpen waarom er geen gegevens beschikbaar in activiteitenrapporten zouden kunnen zijn als geen verkeer aan de controleervaring wordt toegewezen. De knopinfo bevat een koppeling naar meer informatie: [Waarom zijn er geen gegevens beschikbaar voor mijn activiteitenverslag?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* Probleem verholpen waardoor activiteiten niet correct konden worden weergegeven op het tabblad [!UICONTROL Activities] pagina voor een paar klanten. (TGT-46830)
+* De volgende problemen verholpen die van invloed waren op activiteiten die [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als rapportagebron:
+   * Probleem verholpen waardoor sommige klanten geen rapportgegevens konden weergeven. (TGT-46557)
+   * Het probleem dat soms de oorzaak was van de [!UICONTROL View in Analytics] koppeling op pagina&#39;s met activiteitenrapportage om niet correct te functioneren. (TGT-46731)
+   * Probleem verholpen waarbij gegevens werden geblokkeerd voor [!UICONTROL Lift] en [!UICONTROL Confidence] om correct weer te geven in de [!DNL Target] UI. (TGT-46592, TGT-46554, &amp; TGT-46586)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

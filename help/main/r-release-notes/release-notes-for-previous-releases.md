@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '36893'
+source-wordcount: '36989'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2023
+
+### [!DNL Target] Standard/Premium 23.10.2 (24 oktober 2023)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* De nieuwe versie verbeteren [!UICONTROL Activities] UI zodat de [!UICONTROL Visual Experience Composer] (VEC) wordt geopend met de standaardinstellingen voor `selectorCriteria` wanneer u een nieuwe activiteit maakt. (TGT-46586)
+* Probleem verholpen waardoor sommige klanten elementen niet konden bewerken in [!UICONTROL Composer] modus bij gebruik van de VEC. (TGT-46470)
+* De mogelijkheid toegevoegd om een algemene voorkeurenkiezer op te geven bij het gebruik van aangepaste kenmerken. (TGT-46545)
+* Het probleem dat soms een [!UICONTROL Auto-Target] rapport dat gebruikt [!UICONTROL Analytics for Target] (A4T) van weergave in de [!DNL Target] UI, alhoewel het rapport correct in werd getoond [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Verschillende gelokaliseerde tekenreeksen zijn bijgewerkt in de doelinterface. (TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (4-6 oktober 2023)
 
