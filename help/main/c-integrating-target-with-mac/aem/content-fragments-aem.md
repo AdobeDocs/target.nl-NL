@@ -1,19 +1,19 @@
 ---
 keywords: ervaring;json;aem;adobe Experience Manager;export naar adobe target;content fragments;fragments;CF;cf;headless;personalisatie;experimentation
 description: Leren gebruiken [!DNL Adobe Experience Manager] [!UICONTROL Content Fragments] in [!DNL Adobe Target] activiteiten.
-title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
+title: Hoe gebruikt u [!DNL Adobe Experience Manager] AEM [!UICONTROL Content Fragments]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # AEM [!UICONTROL Content Fragments]
 
-Gebruiken [!UICONTROL Content Fragments] (CF&#39;s) gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten om de grootscheepse personalisatie en experimenten te ondersteunen .
+Gebruiken [!UICONTROL Content Fragments] (CF&#39;s) gemaakt in [!DNL Adobe Experience Manager] (AEM) [!DNL Target] activiteiten om de grootscheepse personalisatie en experimenten te ondersteunen .
 
 ## Overwegingen
 
@@ -39,7 +39,7 @@ Meer informatie over AEM [!UICONTROL Content Fragments] en [!UICONTROL Experienc
 
 ## Vereisten {#requirements}
 
-U moet zijn voorzien van [!UICONTROL Content Fragments] functionaliteit binnen [!DNL Target]. Bovendien moet u [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
+U moet [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
 Contact [Adobe Target Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.
 
@@ -53,15 +53,15 @@ Voor informatie over ontwerpen, maken, curven en publiceren [!UICONTROL Content 
 
 Na het uitvoeren van de voorafgaande taken, [!UICONTROL Content Fragment] worden weergegeven op de [!UICONTROL Offers] pagina in [!DNL Target].
 
-[!DNL Target] zoekt momenteel naar [!UICONTROL Content Fragments] om de tien minuten te importeren. De geïmporteerde [!UICONTROL Content Fragment] dient beschikbaar te zijn in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
+[!DNL Target] zoekt momenteel naar [!UICONTROL Content Fragments] om de tien minuten te importeren. De geïmporteerde [!UICONTROL Content Fragment] is beschikbaar in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
 
 De [!UICONTROL Content Fragment] wordt geïmporteerd in [!DNL Target] als een JSON-aanbieding. De [!UICONTROL Content Fragment] &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt de [!UICONTROL Content Fragment] in [!DNL Target].
 
 U kunt filteren en zoeken op [!UICONTROL HTML XFs], [!UICONTROL JSON XFs], en [!UICONTROL Content Fragments] zodat u onderscheid kunt maken tussen verschillende soorten aanbiedingen waarnaar wordt geëxporteerd [!DNL Target].
 
-![Filteren op de typen inhoudsfragmenten: HTML of JSON in de doelinterface](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
+![Filteren op inhoudfragmenttypen: HTML of JSON in de doelinterface](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-U kunt de muis boven een [!UICONTROL Content Fragment] in de lijst klikt u op de knop [!UICONTROL View] pictogram ![Info, pictogram](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) voor meer informatie over de [!UICONTROL Content Fragment], met inbegrip van [!UICONTROL AEM path] en [!UICONTROL AEM deep link]. Klik op de knop [!UICONTROL Offer Usage] om de activiteiten te bekijken die naar deze aanbieding verwijzen.
+U kunt de muis boven een [!UICONTROL Content Fragment] in de lijst klikt u op de knop [!UICONTROL View] pictogram ![Info, pictogram](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) voor meer informatie over de [!UICONTROL Content Fragment], inclusief [!UICONTROL AEM path] en [!UICONTROL AEM deep link]. Klik op de knop [!UICONTROL Offer Usage] om de activiteiten te bekijken die naar deze aanbieding verwijzen.
 
 ![Pop-up Informatie inhoudsfragment](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
 
@@ -71,10 +71,9 @@ U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikm
 >
 >Gebruik kunstmatige intelligentie, het Leren van de Machine, en aanbevelingen met [!UICONTROL Content Fragments]:
 >
->* Om de [!DNL Target] AI- en ML-functionaliteit kunt u selecteren [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) tijdens het maken van een [!UICONTROL A/B Test] activiteit.
+>* Om de [!DNL Target] AI- en ML-functionaliteit kunt u selecteren [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) terwijl u een [!UICONTROL A/B Test] activiteit.
 >
->* [!UICONTROL Content Fragments] worden niet ondersteund in [!DNL Recommendations] activiteiten. Om [!UICONTROL Content Fragments] voor aanbevelingen kunt u een [!UICONTROL A/B Test] activiteit (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of een [!UICONTROL Experience Targeting] (XT) en [aanbevelingen als aanbod opnemen](/help/main/c-recommendations/recommendations-as-an-offer.md).
-
+>* [!UICONTROL Content Fragments] worden niet ondersteund in [!DNL Recommendations] activiteiten. Om [!UICONTROL Content Fragments] voor aanbevelingen kunt u een [!UICONTROL A/B Test] activiteit (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of [!UICONTROL Experience Targeting] (XT) en [aanbevelingen opnemen als een aanbod](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 **Om te verbruiken [!UICONTROL Content Fragments] met de [!UICONTROL Form-based Experience Composer]:**
 
@@ -89,7 +88,7 @@ U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten die gebruikm
 
 ## Aanvullende informatie
 
-* [!DNL Target] zoekt momenteel naar [!UICONTROL Content Fragments] om de tien minuten te importeren. De geïmporteerde [!UICONTROL Content Fragment] dient beschikbaar te zijn in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
+* [!DNL Target] zoekt momenteel naar [!UICONTROL Content Fragments] om de tien minuten te importeren. De geïmporteerde [!UICONTROL Content Fragment] is beschikbaar in [!DNL Target] binnen tien minuten, maar dit tijdsbestek moet de verdere ontwikkeling verkorten.
 * De [!UICONTROL Content Fragment] wordt geïmporteerd in [!DNL Target] als een JSON-aanbieding. De [!UICONTROL Content Fragment] &quot;primaire&quot; versie blijft in [!DNL AEM]. U kunt de [!UICONTROL Content Fragment] in [!DNL Target].
 * U kunt niet maken [!UICONTROL Content Fragments] gebruiken [!DNL Adobe I/O]. Maken [!UICONTROL Content Fragments] gebruik van AEM, zoals hierboven uiteengezet.
 * Als u uw [!UICONTROL Content Fragment] in AEM [!UICONTROL Content Fragment] moet worden gepubliceerd en geëxporteerd naar [!DNL Target] opnieuw [!DNL Target] De meest recente wijzigingen kunnen worden gebruikt.
