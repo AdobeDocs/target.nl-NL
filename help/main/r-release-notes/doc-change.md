@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
 | 17 november | [Eerste stappen van beheerder](/help/main/administrating-target/start-target.md) | De volgende belangrijke opmerking is toegevoegd:<ul><li>Gebruikers met [!UICONTROL Product Admin] of [!UICONTROL System Admin] rechten in de [!DNL Adobe Admin Console] kan alle instellingen in het dialoogvenster [!UICONTROL Administration] pagina van [!DNL Target], ongeacht hun [!DNL Target] rol. Gebruikers zonder [!UICONTROL Product Admin] of [!UICONTROL System Admin] rechten in de [!DNL Adobe Admin Console] moet de specifieke [!DNL Target] rol om deze wijzigingen aan te brengen.1</li></ul> |
+|  | [Limieten](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Bijgewerkte sectie met informatie over hoe [!DNL Target] handvatten afkapping in at.js 2.*x* en de [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Leverings-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Toegevoegde omleidingen naar de huidige API-documentatie voor levering en vervangen de oudere documentatie (`http://developers.adobetarget.com/api/delivery-api/`). Werk de bladwijzers naar wens bij. |
 | 16 november | [Bulkprofielupdate-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Het volgende voorbehoud is toegevoegd: &quot;Updates vinden gewoonlijk plaats binnen een uur, maar het kan 24 uur duren voordat ze worden gereflecteerd.&quot; |
 | 13 november | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] release 23.11.1. |
 
