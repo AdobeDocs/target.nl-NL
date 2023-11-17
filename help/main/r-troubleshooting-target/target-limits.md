@@ -5,9 +5,9 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 * **Limiet**: 256 tekens.
 
-  Als u at.js 1 gebruikt, worden waarden die langer zijn dan deze ingekort.*x*. Als u meer dan 256 tekens verzendt wanneer u at.js 2 gebruikt.*x* of de [!DNL Adobe Experience Platform Web SDK]ontvangt u een foutbericht (de waarden worden niet automatisch afgekapt).
+  Waarden van meer dan 256 tekens worden afgebroken bij gebruik van at.js 1.*x*. Er wordt een foutbericht weergegeven wanneer u waarden met meer dan 256 tekens verzendt bij gebruik van at.js 2.*x* of de [!DNL Adobe Experience Platform Web SDK]. Waarden worden niet automatisch afgekapt.
 
 ### In-box-profielnamen
 
