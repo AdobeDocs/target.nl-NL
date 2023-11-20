@@ -5,9 +5,9 @@ title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 * **Limiet**: 250 tekens.
 
-  Voor levering-API (at.js 2.*x*), Batch mbox V2, en AEP Web SDK (alloy.js) integraties, mbox namen *kan* bevatten alfanumerieke tekens (A-Z, a-z, 0-9) en een of meer van de volgende tekens:
+  Voor [!DNL Delivery API] (te.js 2.*x*), Batchbox V2, en [!DNL Adobe Experience Platform Web SDK] (alloy.js) integraties, mbox namen *kan* bevatten alfanumerieke tekens (A-Z, a-z, 0-9) en een of meer van de volgende tekens:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
