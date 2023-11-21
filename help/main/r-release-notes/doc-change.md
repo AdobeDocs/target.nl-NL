@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2284'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 21 november | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor 0.js 2.11.3. |
 | 17 november | [Eerste stappen van beheerder](/help/main/administrating-target/start-target.md) | De volgende belangrijke opmerking is toegevoegd:<ul><li>Gebruikers met [!UICONTROL Product Admin] of [!UICONTROL System Admin] rechten in de [!DNL Adobe Admin Console] kan alle instellingen in het dialoogvenster [!UICONTROL Administration] pagina van [!DNL Target], ongeacht hun [!DNL Target] rol. Gebruikers zonder [!UICONTROL Product Admin] of [!UICONTROL System Admin] rechten in de [!DNL Adobe Admin Console] moet de specifieke [!DNL Target] rol om deze wijzigingen aan te brengen.1</li></ul> |
 |  | [Limieten](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Bijgewerkte sectie met informatie over hoe [!DNL Target] handvatten afkapping in at.js 2.*x* en de [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Leverings-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Toegevoegde omleidingen naar de huidige API-documentatie voor levering en vervangen de oudere documentatie (`http://developers.adobetarget.com/api/delivery-api/`). Werk de bladwijzers naar wens bij. |
