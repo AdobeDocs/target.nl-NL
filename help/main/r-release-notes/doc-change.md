@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
+source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 1 december | [Adobe Target Profile Update API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | Verplaatst oude API-documentatie naar de volgende artikelen:<ul><li>[Overzicht van Adobe Target Profile API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target API voor bijwerken van één profiel](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target Bulk Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29 november | [Bulkprofielupdate-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | De verschillen verduidelijken over hoe [!DNL Target] verwerkt klantkenmerken bij het maken van een profiel voor een gebruiker [!DNL Target] heeft nog niet gezien wanneer u de [!UICONTROL Bulk Profile Update API] v2 in tegenstelling tot v1. |
 | 21 november | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor 0.js 2.11.3. |
 | 17 november | [Eerste stappen van beheerder](/help/main/administrating-target/start-target.md) | De volgende belangrijke opmerking is toegevoegd:<ul><li>Gebruikers met [!UICONTROL Product Admin] of [!UICONTROL System Admin] rechten in de [!DNL Adobe Admin Console] kan alle instellingen in het dialoogvenster [!UICONTROL Administration] pagina van [!DNL Target], ongeacht hun [!DNL Target] rol. Gebruikers zonder [!UICONTROL Product Admin] of [!UICONTROL System Admin] rechten in de [!DNL Adobe Admin Console] moet de specifieke [!DNL Target] rol om deze wijzigingen aan te brengen.1</li></ul> |
