@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2245'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 4 december | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens voor &quot;Machine Learning &amp; AI Reporting &amp; Analysis&quot; [!DNL Adobe Target Community] Koffiepauze: woensdag 6 december 2023. |
 | 1 december | [Adobe Target Profile Update API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | Verplaatst oude API-documentatie naar de volgende artikelen:<ul><li>[Overzicht van Adobe Target Profile API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target API voor bijwerken van één profiel](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target Bulk Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29 november | [Bulkprofielupdate-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | De verschillen verduidelijken over hoe [!DNL Target] verwerkt klantkenmerken bij het maken van een profiel voor een gebruiker [!DNL Target] heeft nog niet gezien wanneer u de [!UICONTROL Bulk Profile Update API] v2 in tegenstelling tot v1. |
 | 21 november | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor 0.js 2.11.3. |
@@ -153,7 +154,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 |  | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Opmerking toegevoegd aan lijst van gewenste personen alle [!DNL Adobe Analytics] IP-adresblokken. |
 | 30 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Bijgewerkte versienota&#39;s voor de versie van de Geoptimaliseerde Metriek A4T voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] functie waarmee u metriek kunt kiezen op basis van binomiale gebeurtenissen of metriek op basis van continue gebeurtenissen wanneer u [!UICONTROL A4T] for [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten. |
 |  | [A4T-ondersteuning voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | De sectie &quot;Ondersteunde doelmeetgegevens&quot; is bijgewerkt en bevat informatie over de ondersteunde (en niet-ondersteunde) meetgegevens voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten die [!UICONTROL Analytics for Target] (A4T) |
-|  | [Adobe Target-tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | De volgende zelfstudies zijn bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+|  | [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | De volgende zelfstudies zijn bijgewerkt:<ul><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 |  | [Opmerkingen bij de release Doel (preRelease)](/help/main/r-release-notes/target-release-notes.md) | Toegevoegde informatie voor de [!DNL Adobe Experience Manager] (AEM) en [!DNL Adobe Target] [!UICONTROL Content Fragments] vrijgeven. (6 april 2023) |
 | 28 maart | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] 23.3.1. |
 

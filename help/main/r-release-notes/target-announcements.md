@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,25 @@ ht-degree: 0%
 # [!DNL Adobe Target] aankondigingen en evenementen
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
+
+## [!DNL Adobe Target Community] Koffiepauze
+
+* **Machine Learning &amp; AI-rapportage &amp; -analyse**
+* **Woensdag 6 december 2023**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Hier registreren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+Verbinden [!DNL Adobe Target] experts Brent Kostak, Cristinel Anastasoaie, Drew Burns en Marisol St. John in een &#39;ask-me-any&#39;-evenement om computerleren en AI-rapportage en -analyse te bespreken in [!DNL Adobe Target].
+
++++Details Deze bespreking zal zich op de volgende onderwerpen concentreren:
+
+* Bent u enthousiast over ML en AI en wilt beter begrijpen rapporterend succes over uw activiteiten?
+* Het zoeken naar nieuwe ideeën en gebruiksgevallen waar u verpersoonlijking in real time voor inhoud, aanbiedingen, en overseinen kunt gebruiken?
+* Wilt u de beste werkwijzen kennen voor het maken van op formulieren gebaseerde activiteiten voor testen op de server?
+* Wilt u de activiteitsanalyse en -meting binnen [!UICONTROL Analytics for Target] (A4T) rapportage?
+* Zijn uw teams nieuwsgierig hoe te om voorbij het testen A/B met het testen en verpersoonlijking op voor authentiek verklaarde en bekende-klantenervaringen uit te breiden?
+
++++
 
 ## [!DNL Adobe Target] webinar {#webinar-series}
 
