@@ -4,7 +4,7 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 0%
@@ -30,22 +30,22 @@ Waarom zou u moeten bijwonen:
 +++Datum en nadere gegevens
 
 * **Mogelijke illustraties**
-* **Dinsdag 16 januari 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **Dinsdag 16 januari 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-De kern van de rijpheid van de personalisatie is het leren van kunstmatige intelligentie en machines. [!DNL Adobe Target] Gebruikt deze technologieën om gebruikersgedrag te begrijpen, voorkeur te voorspellen, en dynamisch inhoud aan te passen. Door de macht van AI en ML te gebruiken, leer hoe de merken zich voorbij statische tests A/B en op regels-gebaseerde verpersoonlijking bewegen om dynamische, contextafhankelijke ervaringen te leveren.
+     De kern van de rijpheid van de personalisatie is het leren van kunstmatige intelligentie en machines. [!DNL Adobe Target] Gebruikt deze technologieën om gebruikersgedrag te begrijpen, voorkeur te voorspellen, en dynamisch inhoud aan te passen. Door de macht van AI en ML te gebruiken, leer hoe de merken zich voorbij statische tests A/B en op regels-gebaseerde verpersoonlijking bewegen om dynamische, contextafhankelijke ervaringen te leveren.
 
 * **Krachtige Recommendations**
-* **Dinsdag 13 februari 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **Dinsdag 13 februari 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-Leer hoe aanbevelingsalgoritmen een game-wisselaar kunnen zijn voor bedrijven, waardoor betrokkenheid en inkomsten worden bevorderd. Van gepersonaliseerde productsuggesties aan inhoudaanbevelingen, de capaciteit om gebruikers naadloos door hun reis te begeleiden draagt direct aan het ontsluiten van significante bedrijfsgroei bij.
+     Leer hoe aanbevelingsalgoritmen een game-wisselaar kunnen zijn voor bedrijven, waardoor betrokkenheid en inkomsten worden bevorderd. Van gepersonaliseerde productsuggesties aan inhoudaanbevelingen, de capaciteit om gebruikers naadloos door hun reis te begeleiden draagt direct aan het ontsluiten van significante bedrijfsgroei bij.
 
 * **Persoonlijke instellingen op AI-basis ontgrendelen**
-* **Dinsdag 12 maart 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **Dinsdag 12 maart 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-[!DNL Adobe Target] Biedt mogelijkheden voor personalisatie met een AI-processor in elke fase van de levenscyclus van de klant voor een tot een 1-op-1 persoonlijke ervaring. Van aanschaf tot behoud, leer hoe de ondernemingen inzicht in het stroomlijnen van processen verkrijgen, handinspanningen minimaliseren, en contextafhankelijke, boeiende klantenervaringen op schaal leveren.
+     [!DNL Adobe Target] Biedt mogelijkheden voor personalisatie met een AI-processor in elke fase van de levenscyclus van de klant voor een tot een 1-op-1 persoonlijke ervaring. Van aanschaf tot behoud, leer hoe de ondernemingen inzicht in het stroomlijnen van processen verkrijgen, handinspanningen minimaliseren, en contextafhankelijke, boeiende klantenervaringen op schaal leveren.
 
 +++
 
