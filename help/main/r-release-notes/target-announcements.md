@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -15,30 +15,39 @@ ht-degree: 0%
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
-## [!DNL Adobe Target Community] Koffiepauze
+## Adobe Target 2024 Personalization Maturity Webinar Series
 
-* **Machine Learning &amp; AI-rapportage &amp; -analyse**
-* **Woensdag 6 december 2023**
-* **8:00 - 9:00 (PST -8 GMT)**
-* **[Hier registreren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+Deze live webinar-reeks markeert de sleutel [!DNL Adobe Target] mogelijkheden, gebruiksscenario&#39;s en tips om personalisatie op AI-basis te ontgrendelen terwijl klanten hun experimenteerproces en personalisatietraject uitbreiden met [!DNL Adobe Experience Platform].
 
-Verbinden [!DNL Adobe Target] experts Brent Kostak, Cristinel Anastasoaie, Drew Burns en Marisol St. John in een &#39;ask-me-any&#39;-evenement om computerleren en AI-rapportage en -analyse te bespreken in [!DNL Adobe Target].
+Waarom zou u moeten bijwonen:
 
-+++Details Deze bespreking zal zich op de volgende onderwerpen concentreren:
+* **Belangrijkste voorbeelden**: Transformeer visies in realiteit met een blauwdruk voor intelligente optimalisatie, rijping [!DNL Adobe Target] klanten die verder gaan dan op regels gebaseerde experimenten en A/B-tests.
+* **Unieke mogelijkheden maximaliseren**: De ervaringen van de spoorstaaf voor succes met krachtige aanbevelingen om ROI, opbrengst, en omzetting te maximaliseren.
+* **Geavanceerde aanpassingsstrategieën**: Diep duiken in AI/ML geavanceerde technieken om bedrijfseffect te schalen, met nieuwe segmenten/publiek resoneren, en verpersoonlijkingsmodellen verfijnen voor geoptimaliseerde ervaringen
 
-* Bent u enthousiast over ML en AI en wilt beter begrijpen rapporterend succes over uw activiteiten?
-* Het zoeken naar nieuwe ideeën en gebruiksgevallen waar u verpersoonlijking in real time voor inhoud, aanbiedingen, en overseinen kunt gebruiken?
-* Wilt u de beste werkwijzen kennen voor het maken van op formulieren gebaseerde activiteiten voor testen op de server?
-* Wilt u de activiteitsanalyse en -meting binnen [!UICONTROL Analytics for Target] (A4T) rapportage?
-* Zijn uw teams nieuwsgierig hoe te om voorbij het testen A/B met het testen en verpersoonlijking op voor authentiek verklaarde en bekende-klantenervaringen uit te breiden?
+* **[Hier registreren](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++Datum en nadere gegevens
+
+* **Mogelijke illustraties**
+* **Dinsdag 16 januari 2024**
+* **10:00 - 11:00 (PST -8 GMT)**
+
+De kern van de rijpheid van de personalisatie is het leren van kunstmatige intelligentie en machines. [!DNL Adobe Target] Gebruikt deze technologieën om gebruikersgedrag te begrijpen, voorkeur te voorspellen, en dynamisch inhoud aan te passen. Door de macht van AI en ML te gebruiken, leer hoe de merken zich voorbij statische tests A/B en op regels-gebaseerde verpersoonlijking bewegen om dynamische, contextafhankelijke ervaringen te leveren.
+
+* **Krachtige Recommendations**
+* **Dinsdag 13 februari 2024**
+* **10:00 - 11:00 (PST -8 GMT)**
+
+Leer hoe aanbevelingsalgoritmen een game-wisselaar kunnen zijn voor bedrijven, waardoor betrokkenheid en inkomsten worden bevorderd. Van gepersonaliseerde productsuggesties aan inhoudaanbevelingen, de capaciteit om gebruikers naadloos door hun reis te begeleiden draagt direct aan het ontsluiten van significante bedrijfsgroei bij.
+
+* **Persoonlijke instellingen op AI-basis ontgrendelen**
+* **Dinsdag 12 maart 2024**
+* **10:00 - 11:00 (PST -8 GMT)**
+
+[!DNL Adobe Target] Biedt mogelijkheden voor personalisatie met een AI-processor in elke fase van de levenscyclus van de klant voor een tot een 1-op-1 persoonlijke ervaring. Van aanschaf tot behoud, leer hoe de ondernemingen inzicht in het stroomlijnen van processen verkrijgen, handinspanningen minimaliseren, en contextafhankelijke, boeiende klantenervaringen op schaal leveren.
 
 +++
-
-## [!DNL Adobe Target] webinar {#webinar-series}
-
-Registreer voor de volgende webinars om te zien hoe klanten gebruiken [!DNL Target] hun doelstellingen op het gebied van personalisatie en optimalisatie bereiken :
-
-Geen gepland op dit moment.
 
 ## Opnamen van eerdere webinars en vaardigheidsopbouwerssessies
 

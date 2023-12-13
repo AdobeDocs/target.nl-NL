@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 13 december | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de [!DNL Adobe Target] 2024 Personalization Maturity Webinar Series. |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Twee nieuwe optionele instellingen toegevoegd: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 4 december | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens voor &quot;Machine Learning &amp; AI Reporting &amp; Analysis&quot; [!DNL Adobe Target Community] Koffiepauze: woensdag 6 december 2023. |
 | 1 december | [Adobe Target Profile Update API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | Verplaatst oude API-documentatie naar de volgende artikelen:<ul><li>[Overzicht van Adobe Target Profile API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target API voor bijwerken van één profiel](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target Bulk Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29 november | [Bulkprofielupdate-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | De verschillen verduidelijken over hoe [!DNL Target] verwerkt klantkenmerken bij het maken van een profiel voor een gebruiker [!DNL Target] heeft nog niet gezien wanneer u de [!UICONTROL Bulk Profile Update API] v2 in tegenstelling tot v1. |
