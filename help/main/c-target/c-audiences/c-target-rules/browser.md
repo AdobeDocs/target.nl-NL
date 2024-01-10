@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt de volgende browsers als doel instellen:
 * Microsoft Edge
 * Opera
 * iPad
-* iPhone|
+* iPhone
 
 Er zijn twee manieren om browsers als doel in te stellen:
 
@@ -40,7 +40,7 @@ Er zijn twee manieren om browsers als doel in te stellen:
 
    1. In de [!DNL Target] interface, klik **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
    1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-   1. Slepen en neerzetten **[!UICONTROL Browser]** in de Audience Builder.
+   1. Slepen en slepen **[!UICONTROL Browser]** in de Audience Builder.
 
       ![Regels > Browser](assets/target_browser.png)
 
@@ -49,12 +49,13 @@ Er zijn twee manieren om browsers als doel in te stellen:
       * **Type:** Een bepaalde browser activeren of uitsluiten. Zie [Type](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Taal:** Stel bepaalde browsers die zijn ingesteld op het gebruik van specifieke talen in of uit. Zie [Taal](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versie:** Bepaalde browserversies activeren of uitsluiten. Zie [Versie](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+
    1. (Optioneel) Stel aanvullende regels voor het publiek in.
    1. Klik op **[!UICONTROL Done]**.
 
-   In het volgende voorbeeld ziet u een publiek dat Microsoft Edge-gebruikers in versie 91 of 92 omvat:
+  In het volgende voorbeeld ziet u een publiek dat Microsoft Edge-gebruikers in versie 91 of 92 omvat:
 
-   ![Doelrand 91 of 92](assets/target_edge.png)
+  ![Doelrand 91 of 92](assets/target_edge.png)
 
 ## Browseropties {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -66,8 +67,8 @@ Een bepaalde browser activeren of uitsluiten.
 
 Selecteren **[!UICONTROL Type]** kiest u een van beide gelijk aan of niet gelijk aan.
 
-* Gelijk aan: Selecteer de geselecteerde browsers.
-* Is niet gelijk aan: Sluit de geselecteerde browsers uit.
+* Gelijk aan: doel de geselecteerde browsers.
+* Is niet gelijk aan: sluit de geselecteerde browsers uit.
 
 Selecteer een of meer browsers. Meerdere opties zijn verbonden met een OR.
 
@@ -81,8 +82,8 @@ Het opnemen of uitsluiten van de browsertaal kan een nauwkeurigere keuze voor be
 
 Selecteren **[!UICONTROL Language]** kiest u een van beide gelijk aan of niet gelijk aan.
 
-* Gelijk aan: Kies de geselecteerde browsertalen.
-* Is niet gelijk aan: Sluit de geselecteerde browsertalen uit.
+* Gelijk aan: richt de geselecteerde browser talen.
+* Is niet gelijk aan: sluit de geselecteerde browsertalen uit.
 
 Selecteer een of meer talen. Meerdere opties zijn verbonden met een OR.
 
@@ -122,6 +123,6 @@ Meerdere opties zijn verbonden met een OR.
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 * Soorten publiek maken
-* Doelcategorieën definiëren
+* Categorieën publiek definiëren
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
