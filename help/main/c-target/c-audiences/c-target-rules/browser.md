@@ -4,7 +4,7 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 77c8a3460b800183481637723b9631c11157d143
+source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%
@@ -141,35 +141,35 @@ Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Br
 
 De volgende instellingen kunnen in de toekomst worden gebruikt:
 
-* Voor browserovereenkomsten [!DNL Apple]: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **Voor browserovereenkomsten[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* Voor browserovereenkomsten: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **Voor browserovereenkomsten met tablet**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* Voor browsers komt overeen met iPad: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
+* **Voor browsers komt iPad overeen**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* Voor browsers komt overeen met iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
+* **Voor browsers komt iPhone overeen**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoorbeeld wanneer de voorwaarden worden ontkend. Voorbeelden van negatiefactoren kunnen er als volgt uitzien:
 
-* Voor browser komt niet overeen met iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
+* **Voor browser komt niet overeen met iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
 
   ![Geen mobiele telefoon](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* Voor browser komt niet overeen met iPad: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
+* **Voor browser komt niet overeen met iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
 
   ![Geen tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
 Als u `user.browserType` in JavaScript-segmenten kunnen de volgende wijzigingen worden doorgevoerd:
 
-* BrowserType is iPhone
+* **BrowserType is iPhone**:
 
   Vervangen:
 
@@ -179,7 +179,7 @@ Als u `user.browserType` in JavaScript-segmenten kunnen de volgende wijzigingen 
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType is geen iPhone
+* **BrowserType is geen iPhone**:
 
   Vervangen:
 
@@ -189,7 +189,7 @@ Als u `user.browserType` in JavaScript-segmenten kunnen de volgende wijzigingen 
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType is iPad
+* **BrowserType is iPad**:
 
   Vervangen:
 
@@ -199,7 +199,7 @@ Als u `user.browserType` in JavaScript-segmenten kunnen de volgende wijzigingen 
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType is geen iPad
+* **BrowserType is geen iPad**:
 
   Vervangen:
 
