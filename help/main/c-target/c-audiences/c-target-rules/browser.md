@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -145,15 +145,15 @@ De volgende instellingen kunnen in de toekomst worden gebruikt:
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL is Tablet]
+* [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
