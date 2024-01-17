@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
+source-git-commit: 77c8a3460b800183481637723b9631c11157d143
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -141,29 +141,29 @@ Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Br
 
 De volgende instellingen kunnen in de toekomst worden gebruikt:
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* Voor browserovereenkomsten [!DNL Apple]: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* Voor browserovereenkomsten: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
+* Voor browsers komt overeen met iPad: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
+* Voor browsers komt overeen met iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoorbeeld wanneer de voorwaarden worden ontkend. Voorbeelden van negatiefactoren kunnen er als volgt uitzien:
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
+* Voor browser komt niet overeen met iPhone: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
 
   ![Geen mobiele telefoon](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
+* Voor browser komt niet overeen met iPad: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
 
   ![Geen tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
