@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ U kunt de volgende browsers als doel instellen:
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek. Zie voor instellingen voor tijdelijke oplossing [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](#deprecation) hieronder.
 
 Er zijn twee manieren om browsers als doel in te stellen:
 
@@ -126,3 +130,81 @@ Deze video bevat informatie over het gebruik van publiekscategorieën.
 * Categorieën publiek definiëren
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024) {#deprecation}
+
+[!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke browser of browseropties gebruiken wanneer ze uw pagina bezoeken.
+
+Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.
+
+Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] , moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.
+
+De volgende instellingen kunnen in de toekomst worden gebruikt:
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL is Tablet]
+
+  ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoorbeeld wanneer de voorwaarden worden ontkend. Voorbeelden van negatiefactoren kunnen er als volgt uitzien:
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
+
+  ![Geen mobiele telefoon](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
+
+  ![Geen tablet](/help/main/r-release-notes/assets/tablet-false.png)
+
+Als u `user.browserType` in JavaScript-segmenten kunnen de volgende wijzigingen worden doorgevoerd:
+
+* BrowserType is iPhone
+
+  Vervangen:
+
+  `user.browserType=="iphone"`
+
+  Met:
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType is geen iPhone
+
+  Vervangen:
+
+  `user.browserType!="iphone"`
+
+  Met:
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType is iPad
+
+  Vervangen:
+
+  `user.browserType=="ipad"`
+
+  Met:
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
+
+* BrowserType is geen iPad
+
+  Vervangen:
+
+  `user.browserType!="ipad"`
+
+  Met:
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`

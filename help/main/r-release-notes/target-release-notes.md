@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b76a0541b181ee5ebe88f2d11f5556c6c7b91126
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 16 januari 2024**
+**Laatst bijgewerkt: 17 januari 2024**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 
 | Deprectie | Details |
 |--- |--- |
-| [!DNL iPad] en [!DNL iPhone] worden vervangen door de [Browserkenmerk](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek.<p>Vervaldatum:<P>30 april 2024 | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P><B>Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.</b><P>Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] , moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.<P>Gebruik de volgende instellingen om door te gaan:<ul><li>[!UICONTROL Mobile] > [!UICONTROL is Tablet]<P>![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+| [!DNL iPad] en [!DNL iPhone] worden vervangen door de [Browserkenmerk](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek.<p>Vervaldatum:<P>30 april 2024 | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P><B>Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.</b><P>Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] , moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.<p>Zie voor voorbeelden van alternatieve instellingen [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 en 25 januari 2024)
 
