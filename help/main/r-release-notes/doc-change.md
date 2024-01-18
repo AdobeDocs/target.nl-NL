@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2282'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 18 januari | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande opmerkingen voor de komende release toegevoegd [!DNL Target Standard/Premium] 24.1.1. |
 | 13 december | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de [!DNL Adobe Target] 2024 Personalization Maturity Webinar Series. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Twee nieuwe optionele instellingen toegevoegd: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 4 december | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Toegevoegde registratiegegevens voor &quot;Machine Learning &amp; AI Reporting &amp; Analysis&quot; [!DNL Adobe Target Community] Koffiepauze: woensdag 6 december 2023. |

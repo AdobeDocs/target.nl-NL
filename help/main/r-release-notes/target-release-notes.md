@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 17 januari 2024**
+**Laatst bijgewerkt: 18 januari 2024**
 
 >[!NOTE]
 >
@@ -23,11 +23,6 @@ Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies,
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
 
-## Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)
-
-| Deprectie | Details |
-|--- |--- |
-| [!DNL iPad] en [!DNL iPhone] worden vervangen door de [Browserkenmerk](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek.<p>Vervaldatum:<P>30 april 2024 | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P><B>Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.</b><P>Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] , moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.<p>Zie voor voorbeelden van alternatieve instellingen [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 en 25 januari 2024)
 
@@ -39,10 +34,11 @@ Deze release is gepland voor de volgende dagen:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
+* [!UICONTROL Analytics for Target] (A4T) de activiteiten met de metriek van het opbrengstdoel &quot;Inkomsten&quot;niet tonen aangezien de kolomnaam en de opbrengst metrisch niet in ($) formaat in rapportering getoond. Dit was een cosmetische kwestie die is opgelost. (TGT-46995)
 * Probleem verholpen waarbij de intervallen van de rapportdatum niet correct werkten. (TGT-47396)
 * Probleem opgelost waarbij de onjuiste status werd weergegeven op het tabblad [!UICONTROL All Activities] pagina nadat klanten een activiteit hebben geactiveerd of gedeactiveerd met [!UICONTROL More Actions] pictogram. (TGT-47367)
-* Het probleem dat de oorzaak was van de [!UICONTROL Important Attributes] rapport niet voor één klant tonen. (TGT-47272)
-* Probleem verholpen waarbij een bericht &#39;Ongeldige lading&#39; werd weergegeven wanneer een klant probeerde &#39;Verificatie vereisen&#39; in te schakelen. (TGT-47195)
+* Het probleem dat de oorzaak was van de [!UICONTROL Important Attributes] rapport niet voor één enkele klant tonen. (TGT-47272)
+* Probleem verholpen waarbij een bericht &#39;Ongeldige lading&#39; werd weergegeven wanneer één klant probeerde &#39;Verificatie vereisen&#39; in te schakelen. (TGT-47195)
 * Verschillende gelokaliseerde tekenreeksen in de [!DNL Target] UI.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
